@@ -56,7 +56,7 @@
 ```
 
 ```bash
-S=~/.claude/skills/travel-api-skill          # 스킬 폴더
+S=~/.claude/skills/travel-api-skill          # 스킬 폴더 — 설치 위치. ph-travel-api 저장소 안이면 skills/travel-api-skill
 node $S/scripts/travel-db.mjs build  --out build/data/travel.db --langs ko,en                 # 사이트 언어만 (+ 대체 en)
 node $S/scripts/travel-db.mjs export --out build/html/travel --langs ko,en --no-json          # travel.css·renderer.js·images/
 mkdir -p build/lib && cp $S/assets/TravelDb.php build/lib/
@@ -64,22 +64,56 @@ cp $S/assets/travel-page.php build/html/travel.php                              
 ```
 
 - `--no-json` — PHP 페이지는 DB 를 읽으므로 places·meta JSON 을 공개 폴더에 올리지 않는다.
-- 사이트가 지원하는 언어만 넣는다. 8개 언어 모두면 약 35MB, ko+en 은 약 10MB 다.
+- 사이트가 지원하는 언어만 넣는다. 실제 번역 기준 ko+en 약 14MB, ko+en+zh 약 21MB 다(FTS 없이는 약 60%). 언어 하나가 약 6~7MB 이고, 글이 긴 언어(영어)는 더 크다. 정확한 크기는 `build` 출력으로 본다.
 
 ### 3.2 서버에 올리기
 
-- **DB·라이브러리는 웹 루트 밖**에 둔다. 웹 루트 안에 두면 DB 가 파일째 내려받힌다.
-- **DB 는 통째로 바꾼다** — 새 파일을 옆 이름으로 올리고 `mv` 한다. 같은 디스크 안의 `mv` 는 원자적이라, 읽는 도중 깨지지 않는다.
-- 읽기 권한만 준다. PHP 는 DB 를 읽기 전용으로 연다.
+**처음 한 번 — 서버 요건을 확인한다.**
+
+- 웹 서버의 PHP(FPM)에 `pdo_sqlite` 가 켜져 있어야 한다. CLI 가 아니라 웹에서 `phpinfo()` 로 본다.
+- PHP 가 쓰는 SQLite 가 **3.34 이상**이어야 전문 검색(FTS5 trigram)을 쓴다.
+  `php -r 'echo (new PDO("sqlite::memory:"))->query("select sqlite_version()")->fetchColumn();'`
+  - 더 낮으면(Ubuntu 20.04·RHEL 8 등) `--no-fts` 로 만든다. `TravelDb` 는 trigram 이 없으면 알아서 글에서 직접 찾으므로 오류는 나지 않지만, 쓰지 못할 색인만큼 파일이 커진다.
+- DB·라이브러리는 **웹 루트 밖**에 둔다. 웹 루트 안에 두면 DB 가 파일째 내려받힌다.
+- 읽기 권한만 준다(`chmod 444`). PHP 는 DB 를 읽기 전용으로 연다.
+
+**올릴 때마다 — 이 순서를 지킨다.** 순서가 틀리면 잠깐이라도 사진이 404 가 되거나(새 여행지), 스키마가 바뀐 DB 를 옛 라이브러리가 열어 모든 쪽이 500 이 된다.
+
+1. **사진·travel.css·renderer.js 를 먼저 더한다** — 지우지 않는다(`--delete` 없이). 옛 DB 가 가리키는 사진도 아직 필요하다.
+2. **DB 와 라이브러리를 옆 이름(`.new`)으로 올린다.** 반드시 **같은 폴더**(같은 디스크)에 둔다 — 그래야 `mv` 가 원자적이다. `/tmp` 에 올렸다가 옮기면 원자적이지 않다.
+3. **서버에서 검사한다** — 하나라도 실패하면 멈춘다(운영 파일은 그대로다).
+   - 올린 파일의 sha256 이 로컬과 같다(업로드가 끊기지 않았다).
+   - `sqlite3 travel.db.new 'PRAGMA quick_check'` 가 `ok` 다.
+   - 새 라이브러리로 새 DB 를 열어 version 이 맞고 검색이 된다.
+4. **바꾼다** — 되돌릴 수 있게 옛 DB 를 남기고, DB 와 라이브러리를 잇달아 바꾼다.
+5. **정리한다** — `travel.php` 를 올리고, 마지막에 `--delete` 로 쓰지 않는 사진을 지운다.
 
 ```bash
-scp build/data/travel.db server:/var/www/data/travel.db.new \
-  && ssh server 'mv /var/www/data/travel.db.new /var/www/data/travel.db'
-scp build/data/travel.db.version server:/var/www/data/
-rsync -a build/lib/ server:/var/www/lib/
-rsync -a --delete build/html/travel/ server:/var/www/html/travel/
+# 개발 컴퓨터 — 1·2
+rsync -a build/html/travel/ server:/var/www/html/travel/                 # 더하기만 (--delete 없이)
+scp build/data/travel.db server:/var/www/data/travel.db.new
+scp build/data/travel.db.version server:/var/www/data/travel.db.version.new
+scp build/lib/TravelDb.php server:/var/www/lib/TravelDb.php.new
+shasum -a 256 build/data/travel.db                                       # 서버에서 비교할 값
+
+# 서버 — 3·4 (cd /var/www/data). 한 단계라도 실패하면 && 가 멈춘다
+[ "$(sha256sum travel.db.new | cut -d' ' -f1)" = "<로컬 sha256>" ] \
+  && php -r '$d = new PDO("sqlite:travel.db.new"); if ($d->query("PRAGMA quick_check")->fetchColumn() !== "ok") exit(1);
+       require "../lib/TravelDb.php.new"; $t = new TravelDb("travel.db.new");
+       if (!$t->search("boracay", "en")) exit(1); echo "ok ", $t->version(), "\n";' \
+  && { [ ! -e travel.db ] || ln -f travel.db travel.db.prev; } \
+  && chmod 444 travel.db.new \
+  && mv -f travel.db.new travel.db && mv -f ../lib/TravelDb.php.new ../lib/TravelDb.php && mv -f travel.db.version.new travel.db.version
+
+# 개발 컴퓨터 — 5
 rsync -a build/html/travel.php server:/var/www/html/
+rsync -a --delete build/html/travel/ server:/var/www/html/travel/        # 이제 쓰지 않는 사진을 지운다
+
+# 되돌리기 (서버, /var/www/data): ln -f travel.db.prev travel.db.tmp && mv -f travel.db.tmp travel.db
 ```
+
+- 운영 DB 에 바로 덮어쓰면 올리는 동안 읽는 요청이 깨진 파일을 본다. 시험에서 400요청 중 15건이 실패했고, `.new` → `mv` 는 0건이었다.
+- `mv` 로 바꾸면 이미 열려 있던 요청은 옛 파일을 끝까지 읽는다. 다음 요청부터 새 DB 다.
 
 **필고에 넣을 때**
 
@@ -101,34 +135,45 @@ rsync -a build/html/travel.php server:/var/www/html/
 ```php
 require '/var/www/lib/TravelDb.php';
 $travel = new TravelDb('/var/www/data/travel.db', imageBase: '/travel/');   // 사진은 export 한 /travel/images/
-$lang = $travel->lang($_GET['lang'] ?? 'ko');                                // 없는 언어면 대체 언어(en)
+$lang = $travel->lang($want);                                                 // 없는 언어면 대체 언어(en). 입력은 is_string 으로 확인
 $page = $travel->list(['category' => 'beach', 'month' => 12, 'sort' => 'rating'], $lang, limit: 20);
-$hits = $travel->search($_GET['q'] ?? '', $lang);                            // 행마다 snippet · snippet_html(<mark>)
+$hits = $travel->search($q, $lang, 100, ['category' => 'diving']);          // 거르기를 함께 · 행마다 snippet · snippet_html(<mark>)
 $place = $travel->place('boracay', $lang);                                   // 블록 JSON 배열
 $text = $travel->text('boracay', $lang);                                     // 제목·카피·요약·본문 글
 ```
 
 ### 3.4 페이지 만들기 — `assets/travel-page.php`
 
-그대로 동작하는 예시다. 목록(분류 거르기·검색)과 상세가 있다.
+그대로 동작하는 예시다. 목록(분류·달 거르기·검색)과 상세가 있다.
 
-- **맨 위 설정**(`TRAVEL_DB`·`TRAVEL_LIB`·`TRAVEL_ASSETS`)만 배치에 맞게 고치면 동작한다.
+- **맨 위 설정 다섯 줄**만 배치에 맞게 고치면 동작한다.
+  - `TRAVEL_DB`·`TRAVEL_LIB`·`TRAVEL_ASSETS` — 파일 위치와 export 폴더의 웹 경로
+  - `TRAVEL_ORIGIN` — 사이트의 공개 주소. canonical·hreflang·JSON-LD 의 절대 주소를 이것으로 만든다. `Host` 헤더를 쓰면 `Host: evil.example` 요청에 남의 주소가 canonical 로 나간다
+  - `TRAVEL_DEFAULT_LANG` — `?lang` 도 `Accept-Language` 도 맞는 언어가 없을 때
 - **목록은 서버가 HTML 로 그린다** — 검색엔진에 보이고, JS 없이도 모양이 잡힌다(`travel.css`).
-  - 분류 칩·달 선택·검색 칸이 있다.
+  - 분류 칩·달 선택·검색 칸이 있다. 검색에도 분류·달 거르기가 걸리고, 칩의 수는 지금 검색어·달을 반영한다.
+  - 여행지가 100곳 안팎이라 한 번에 모두 보인다(쪽 나누기 없음). 결과가 없으면 빈 상태 문구를 보인다.
   - 카드마다 사진 저작자와 최적기를 보인다. 최적기는 목적(서핑·해변)이 글에 있다.
 - **상세는 블록 JSON 을 페이지에 넣고 `renderer.js` 가 그린다.** `<script type="application/json">` 에 `JSON_HEX_TAG` 로 넣어 `</script>` 가 끼어들지 못하게 한다.
 - **검색엔진용으로 서버가 함께 넣는 것:**
   - `<title>` · `<meta name="description">`(요약)
-  - `<link rel="canonical">` · 언어마다 `<link rel="alternate" hreflang>`
-  - JSON-LD `TouristAttraction`(이름·설명·절대 주소·사진 절대 주소·좌표)
+  - `<link rel="canonical">` · 언어마다 `<link rel="alternate" hreflang>` · `hreflang="x-default"`(대체 언어 en 주소)
+  - JSON-LD `TouristAttraction`(이름·설명·절대 주소·좌표, 사진은 `ImageObject` 로 `creditText`·`acquireLicensePage` 까지)
+  - 검색 결과 쪽(`?q=`)은 `noindex`
   - `<noscript>` 안의 제목·요약·본문 글
 - **검색 결과**는 `snippet_html`(이스케이프 + `<mark>`)을 그대로 출력한다.
 - **언어:**
   - `<html lang dir>` 에 `$travel->lang()`·`$travel->dir()` 를 쓴다(아랍어는 `rtl`).
   - 언어 메뉴는 `$travel->languages()` 로 만든다.
-  - 화면 글(버튼·안내)은 예시에서는 `$ui` 사전(ko·en, 없는 언어는 en)이다. 실제 사이트에서는 사이트의 다국어 시스템으로 바꾼다. 필고는 PHILGO-CODING.md §5 를 따른다.
+  - 언어는 `?lang` → `Accept-Language` 에서 처음 맞는 것 → `TRAVEL_DEFAULT_LANG` 순이다. `zh-CN` 은 `zh` 로 맞춘다.
+  - DB 에 없는 언어를 요청하면 대체 언어(en)로 보이고, 그 사실을 화면 위에 알린다(`role="status"`).
+  - 화면 글(버튼·안내)은 예시에서는 `$ui` 사전이다. API 의 8개 언어가 모두 있고, 사전에 없는 언어는 en 이다. 실제 사이트에서는 사이트의 다국어 시스템으로 바꾼다. 필고는 PHILGO-CODING.md §5 를 따른다.
+  - 달 이름은 intl 확장이 있으면 `IntlDateFormatter`(`LLLL`)로 그 언어의 이름(三月·มีนาคม·مارس)을 쓰고, 없으면 사전의 숫자 형식(`%d월`)을 쓴다.
+- **캐시:** `travel.css`·`renderer.js` 주소에 파일 시각(`filemtime`)을 붙인다. 스킬을 갱신해 다시 export 하면 데이터 version 이 같아도 새 파일을 받는다.
+- **글꼴:** 아이콘·제목 글꼴을 Google Fonts 에서 받는다. 외부 요청이라 방문 기록이 남으므로(§1 원칙), 사이트 원칙에 따라 글꼴 파일을 받아 자체 호스팅으로 바꾼다.
 - **보안:**
   - 모든 출력은 `htmlspecialchars` 로 이스케이프한다.
+  - 입력은 `is_string` 으로 확인한다. `?q[]=x` 처럼 배열이 들어와도 경고를 내지 않는다.
   - 사용자 입력은 바인딩 인자로만 넘긴다. 정렬 값은 정해진 목록에서만 고른다.
 - 필고처럼 계층을 나누는 사이트에서는 `TravelDb` 호출을 저장소 층으로, HTML 을 뷰로 옮긴다. 공용 코드 위치는 PHILGO-DESIGN.md 를 따른다.
 
@@ -148,7 +193,7 @@ $text = $travel->text('boracay', $lang);                                     // 
 | 앱 크기가 중요 | `--no-fts` 로 색인을 뺀다(검색은 글에서 직접, 100곳이라 충분). 언어는 꼭 필요한 것만 |
 | 목록·상세만 있는 단순한 앱 | `export --out assets/travel --langs ko --no-images` 의 `places.ko.json`·`meta.json` 을 메모리로 |
 
-- 언어 하나가 DB 에서 대략 4~5MB 다(FTS 포함). 실제 크기는 `build` 출력으로 확인한다.
+- 언어 하나가 DB 에서 대략 6~7MB 다(FTS 포함, 실제 번역 기준). 실제 크기는 `build` 출력으로 확인한다.
 - 대체 언어(en)는 늘 함께 들어간다.
 
 ### 4.2 DB 넣어 쓰기 — `assets/travel_db.dart`
@@ -222,6 +267,9 @@ list.innerHTML = beaches.map((p) => renderPlaceCard(p, { base: '/travel/', place
 - [ ] 사진마다 저작자(credit)가 보이고, 상세 사진에서 원본(source)으로 갈 수 있다
 - [ ] 없는 언어를 요청하면 대체 언어(en)로 보인다. 아랍어는 `dir="rtl"` 이다
 - [ ] DB 는 읽기 전용으로 열고, 서버에서는 웹 루트 밖에 있다
+- [ ] 서버 PHP(FPM)에 `pdo_sqlite` 가 있고, SQLite 가 3.34 이상이다(아니면 `--no-fts`)
+- [ ] DB 는 `.new` 로 올려 검사한 뒤 `mv` 로 바꾼다. 사진은 먼저 더하고 나중에 지운다
+- [ ] canonical·hreflang 의 주소가 설정한 공개 주소다(Host 헤더가 아니다)
 - [ ] 사용자 입력은 바인딩 인자로만, 출력은 이스케이프한다
 - [ ] 쓰고 있는 데이터 version 을 알 수 있다
 - [ ] 금액은 "2026년 기준 대략치", 예산 기준(1일·투어 1회 …)이 함께 보인다

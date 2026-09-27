@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // 여행 정보 API 조회 도구 — JSON 을 받아 SQLite(travel.db)에 넣고, 그 DB 로 목록·상세·검색·가까운 곳을 보여 준다.
 // 이 스킬이 API 를 쓰는 기본 방식이다: 받기(version 이 바뀔 때만) → SQLite → 언어별 전문 검색·인덱스 → 조회.
-// DB 는 ~/.cache/travel-api-skill/<나라>/travel.db 에 있고 manifest.version 이나 언어가 바뀌면 다시 만든다.
+// DB 는 ~/.cache/travel-api-skill/<나라>/travel.db 에 모든 언어를 넣어 두고, manifest.version 이 바뀌면 다시 만든다.
 // 외부 패키지 없음. Node 22.13+ (node:sqlite). 사용법: node travel.mjs help
 import { createHash } from 'node:crypto';
 import { existsSync, statSync } from 'node:fs';
@@ -9,6 +9,7 @@ import { join } from 'node:path';
 import { buildDb, cacheDirOf, loadBundle, openDb, registry, runsText, searchPlaces } from './travel-db.mjs';
 
 const BOOL = new Set(['json', 'offline', 'refresh', 'help', 'css']);
+const REPEAT = new Set(['tag']);
 const VALUED = new Set(['lang', 'country', 'base', 'section', 'limit', 'month', 'category', 'island', 'region', 'difficulty', 'tag', 'max-budget', 'min-rating', 'q', 'sort']);
 const HELP = `사용: node travel.mjs <명령> [옵션]
 
@@ -17,19 +18,22 @@ const HELP = `사용: node travel.mjs <명령> [옵션]
   info                          DB·API 정보 — version, 언어, 여행지 수, DB 파일 위치
   list [거르기]                  여행지 목록 표
   show <slug|id|이름> [--section key,…]   여행지 한 곳을 읽기 좋은 글로 (단락만 볼 수도 있다)
-  search <낱말…>                 전문 검색 — 낱말이 모두 들어 있는 여행지와 그 문장 (3글자 이상은 FTS5 trigram)
+  search <낱말…> [거르기]         전문 검색 — 낱말이 모두 들어 있는 여행지와 그 문장 (3글자 이상은 FTS5 trigram)
+                                "life vest" 처럼 따옴표로 감싸면 구절. list 의 거르기(--region 등)를 함께 쓸 수 있다
   near <slug|위도,경도> [--limit 5]  직선거리로 가까운 여행지
   values [kind…]                 거르기에 쓸 수 있는 값과 개수 — category·island_group·region·difficulty·tags·months·languages
   types [type] [--css]          표시 방법(meta.display.types) 목록 또는 한 type 의 규격
   sql "<SELECT …>"              DB 에 읽기 전용 SQL — 스키마는 assets/travel-schema.sql
 
-거르기 (list) — 분류·권역·지역은 key(beach) 나 어느 언어 이름의 일부(해변, Beach)로
-  --month 12  --category 해변  --island 비사야  --region 세부 (지역·위치)  --difficulty 쉬움|easy|1
-  --tag 가족  --max-budget 3000 (budget_min 이하)  --min-rating 4.5  --q 낱말 (이름·카피·요약·태그)
+거르기 (list·search) — 분류·권역·지역·태그는 key(beach) 나 어느 언어 이름의 일부(해변, Beach, 海滩)로
+  --month 12 (12월·12月·Dec 도 됨)  --category 해변  --island 비사야  --region 세부 (지역·위치)
+  --difficulty 쉬움|easy|1  --tag 가족 (여러 번 주면 모두 · 태그는 곳마다 대표 5개뿐 — 활동은 search 로)
+  --max-budget 3000 (예산 범위의 아래 끝 budget_min 이 이하 — 기준(1일·투어 1회)은 예산 칸 괄호)
+  --min-rating 4.5  --q 낱말 (이름·카피·요약·태그만 — 본문까지는 search)
   --sort id|rating(높은 순)|budget(싼 순)|name  --limit 30
 
 공통 옵션
-  --lang ko         결과 언어 (기본 ko, 환경변수 TRAVEL_API_LANG). 없는 언어는 오류와 함께 있는 언어를 알려 준다
+  --lang ko         결과 언어 (기본 ko, 환경변수 TRAVEL_API_LANG). zh-CN·en_US 처럼 줘도 앞부분으로 맞춘다
   --country ph      나라 (기본: apis.json 의 default)
   --base <주소|폴더> API 주소 직접 지정 — 로컬 빌드는 --base <저장소>/_site/v2 (환경변수 TRAVEL_API_BASE)
   --offline         받지 않고 캐시만    --refresh   캐시를 무시하고 다시 받아 DB 를 새로 만든다
@@ -46,9 +50,14 @@ function parseArgs(argv) {
     const [key, value] = a.slice(2).split(/=(.*)/s);
     // 모르는 옵션(오타)을 조용히 넘기면 거르기가 빠진 답을 하게 된다 — 멈춘다
     if (!BOOL.has(key) && !VALUED.has(key)) fail(`모르는 옵션 — --${key} (node travel.mjs help)`);
-    if (value !== undefined) opts[key] = value;
-    else if (!BOOL.has(key) && argv[i + 1] !== undefined && !argv[i + 1].startsWith('--')) opts[key] = argv[++i];
-    else opts[key] = true;
+    let v = true;
+    if (value !== undefined) v = value;
+    else if (!BOOL.has(key) && argv[i + 1] !== undefined && !argv[i + 1].startsWith('--')) v = argv[++i];
+    if (VALUED.has(key) && v === true) fail(`--${key} 에 값을 줄 것`);
+    // 같은 옵션을 두 번 주면 앞의 것이 조용히 사라진다 — 태그는 모두(AND), 나머지는 멈춘다
+    if (REPEAT.has(key)) (opts[key] ??= []).push(v);
+    else if (key in opts) fail(`--${key} 를 두 번 줬다 — 하나만 준다`);
+    else opts[key] = v;
   }
   return [rest, opts];
 }
@@ -59,8 +68,9 @@ const fail = (message) => {
 
 // ───────────── DB 준비 — 받기 → (필요하면) 다시 만들기 → 열기 ─────────────
 
-async function ensureDb(opts, lang) {
-  const bundle = await loadBundle({ country: opts.country, base: opts.base, langs: lang, offline: opts.offline, refresh: opts.refresh });
+async function ensureDb(opts) {
+  // 캐시 DB 에는 모든 언어를 넣는다 — 어느 언어 이름으로도 찾고(show 奥斯洛布), --lang 을 바꿔도 다시 만들지 않는다
+  const bundle = await loadBundle({ country: opts.country, base: opts.base, langs: 'all', offline: opts.offline, refresh: opts.refresh });
   // 로컬 폴더는 폴더 경로별로 따로 둔다 — 원격 캐시 DB 와 섞이지 않게
   const dir = bundle.from === 'local' ? cacheDirOf(`local-${createHash('sha256').update(bundle.base).digest('hex').slice(0, 10)}`) : cacheDirOf(bundle.code);
   const path = join(dir, 'travel.db');
@@ -116,7 +126,7 @@ function blockText(b, base, depth = 3) {
     case 'card': return `- ${b.number ? `${b.number}. ` : ''}**${b.title}**${b.place ? ` (slug: ${b.place})` : ''}${b.children ? ` — ${runsText(b.children)}` : ''}`;
     case 'pricing': return [`| ${b.columns.join(' | ')} |`, `|${b.columns.map(() => '---').join('|')}|`, ...b.items.map((it) => `| ${it.label} | ${it.price} | ${it.note ?? ''} |`)].join('\n');
     case 'table': return [`| ${b.columns.join(' | ')} |`, `|${b.columns.map(() => '---').join('|')}|`, ...b.rows.map((r) => `| ${r.join(' | ')} |`)].join('\n');
-    case 'image': return `사진: ${absUrl(base, b.url)} — ${b.credit}`;
+    case 'image': return `${ui.photo}: ${absUrl(base, b.url)} — ${b.credit}`;
     case 'figure': return `${blockText(b.image, base)}${b.children ? `\n${runsText(b.children)}` : ''}`;
     case 'carousel': return (b.items ?? []).map((x) => blockText(x, base)).join('\n');
     case 'map': return `지도: ${b.latitude}, ${b.longitude}`;
@@ -132,10 +142,12 @@ function blockText(b, base, depth = 3) {
   }
 }
 
+const ui = { photo: '사진' }; // 결과 언어의 화면 글 — 명령을 처리하기 전에 채운다
 const HEAD = new Set(['id', 'slug', 'title', 'title_en', 'tagline', 'summary', 'image', 'gallery', 'sections', 'latitude', 'longitude']);
 
 function placeText(p, base, sectionFilter) {
-  const lines = [`# ${p.title.text}${p.title_en ? ` (${p.title_en.text})` : ''} — slug: ${p.slug}, id: ${p.id}`];
+  const en = p.title_en?.text && p.title_en.text !== p.title.text ? ` (${p.title_en.text})` : ''; // 영어에서 두 번 쓰지 않게
+  const lines = [`# ${p.title.text}${en} — slug: ${p.slug}, id: ${p.id}`];
   const keys = sectionFilter ? String(sectionFilter).split(',').map((s) => s.trim()) : null;
   if (keys) { // 단락만 볼 때는 머리말을 되풀이하지 않는다
     for (const s of p.sections ?? []) if (keys.some((k) => s.key === k || s.title.includes(k))) lines.push('', blockText(s, base));
@@ -148,8 +160,8 @@ function placeText(p, base, sectionFilter) {
     lines.push(`- ${node.label ?? key}: ${valueText(node)}`);
   }
   if (p.latitude && p.longitude) lines.push(`- ${p.latitude.label ?? 'lat'}/${p.longitude.label ?? 'lng'}: ${p.latitude.value}, ${p.longitude.value}`);
-  if (p.image) lines.push(`- 사진: ${absUrl(base, p.image.url)} (${p.image.credit})`);
-  for (const g of p.gallery?.items ?? []) lines.push(`- 사진: ${absUrl(base, g.url)} (${g.credit})`);
+  if (p.image) lines.push(`- ${ui.photo}: ${absUrl(base, p.image.url)} (${p.image.credit})`);
+  for (const g of p.gallery?.items ?? []) lines.push(`- ${ui.photo}: ${absUrl(base, g.url)} (${g.credit})`);
   if (p.summary) lines.push('', runsText(p.summary.children));
   for (const s of p.sections ?? []) lines.push('', blockText(s, base));
   return lines.join('\n');
@@ -160,7 +172,7 @@ function placeText(p, base, sectionFilter) {
 const money = (min, max, basisText) => {
   if (min == null) return '';
   const n = (v) => Number(v).toLocaleString('en-US');
-  const basis = /\(([^()]*)\)\s*$/.exec(basisText ?? '')?.[1];
+  const basis = /[(（]([^()（）]*)[)）]\s*$/.exec(basisText ?? '')?.[1]; // zh·ja 는 전각 괄호
   return `₱${n(min)}~${n(max)}${basis ? ` (${basis})` : ''}`;
 };
 function table(rows, cols, names = {}) {
@@ -178,9 +190,51 @@ const listRows = (db, lang, ids) => {
 
 // ───────────── 찾기 ─────────────
 
+const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+/** 12 · 12월 · 12月 · Dec · December → 12. 모르면 멈춘다 (NaN 으로 조용히 0곳이 되지 않게). */
+function parseMonth(v) {
+  const s = String(v).trim().toLowerCase();
+  const m = /^\d{1,2}/.test(s) ? parseInt(s, 10) : MONTHS.findIndex((x) => s.startsWith(x)) + 1;
+  if (!(m >= 1 && m <= 12)) fail(`달을 모르겠다 — ${v} (1~12, 12월·12月·Dec)`);
+  return m;
+}
+
 /** 분류·권역·지역 인자 → key 목록. key 그대로거나, 어느 언어 이름의 일부. */
 function termKeys(db, kind, arg) {
   return db.prepare('SELECT DISTINCT key FROM terms WHERE kind = ? AND (key = ? OR name LIKE ?)').all(kind, String(arg), `%${arg}%`).map((r) => r.key);
+}
+
+/** list·search 의 거르기 → place_list 의 WHERE 조각과 인자. lang 조건은 부르는 쪽이 붙인다. */
+function filterSql(db, opts) {
+  const where = [];
+  const params = [];
+  const inKeys = (col, kind, arg) => {
+    const keys = termKeys(db, kind, arg);
+    if (!keys.length) fail(`${kind} 에 맞는 값이 없다 — ${arg}. values ${kind} 로 확인할 것`);
+    where.push(`${col} IN (${keys.map(() => '?').join(',')})`);
+    params.push(...keys);
+  };
+  if (opts.month) { where.push('id IN (SELECT place_id FROM place_months WHERE month = ?)'); params.push(parseMonth(opts.month)); }
+  if (opts.category) inKeys('category_key', 'category', opts.category);
+  if (opts.island) inKeys('island_group_key', 'island_group', opts.island);
+  if (opts.region) {
+    const keys = termKeys(db, 'region', opts.region);
+    where.push(`(region_key IN (${keys.map(() => '?').join(',') || "''"}) OR location LIKE ?)`);
+    params.push(...keys, `%${opts.region}%`);
+  }
+  if (opts.difficulty) {
+    const d = String(opts.difficulty);
+    const hit = /^\d$/.test(d) ? Number(d) : (meta.difficulties ?? []).find((x) => x.key === d || Object.values(x.name ?? {}).some((n) => n.includes(d)))?.value;
+    if (!hit) fail(`난이도를 모르겠다 — ${d} (1·2·3, easy·moderate·hard, 쉬움·보통·어려움)`);
+    where.push('difficulty = ?');
+    params.push(hit);
+  }
+  // 태그는 어느 언어로 줘도 된다 — 같은 여행지의 태그는 언어마다 같은 뜻이다 (--lang en --tag 가족 도 된다)
+  for (const t of opts.tag ?? []) { where.push('id IN (SELECT place_id FROM place_tags WHERE tag LIKE ?)'); params.push(`%${t}%`); }
+  if (opts['max-budget']) { where.push('budget_min <= ?'); params.push(Number(opts['max-budget'])); }
+  if (opts['min-rating']) { where.push('rating >= ?'); params.push(Number(opts['min-rating'])); }
+  if (opts.q) { where.push('(title LIKE ? OR title_en LIKE ? OR tagline LIKE ? OR summary LIKE ? OR tags LIKE ?)'); params.push(...Array(5).fill(`%${opts.q}%`)); }
+  return { where, params };
 }
 
 function findPlaceId(db, key) {
@@ -205,6 +259,8 @@ function haversine(a, b) {
 
 // ───────────── 명령 ─────────────
 
+// 받기 실패·계약 위반은 스택 대신 한 줄로 — 원인과 할 일이 message 에 있다
+process.on('uncaughtException', (e) => fail(`오류 — ${e.message}`));
 const [[command, ...args], opts] = parseArgs(process.argv.slice(2));
 if (!command || command === 'help' || opts.help) {
   console.log(HELP);
@@ -217,11 +273,23 @@ if (command === 'countries') {
   process.exit(0);
 }
 
-const lang = String(opts.lang ?? process.env.TRAVEL_API_LANG ?? 'ko');
-const { db, bundle, path, rebuilt } = await ensureDb(opts, lang);
+// zh-CN·en_US·ZH 는 앞부분으로, 흔한 나라 코드(cn·jp·kr·vn)는 언어 코드로
+const langArg = String(opts.lang ?? process.env.TRAVEL_API_LANG ?? 'ko');
+const primary = langArg.toLowerCase().split(/[-_]/)[0];
+const lang = { cn: 'zh', jp: 'ja', kr: 'ko', vn: 'vi' }[primary] ?? primary;
+const { db, bundle, path, rebuilt } = await ensureDb(opts);
+if (!bundle.manifest.languages.includes(lang)) fail(`없는 언어 — ${langArg}. 있는 언어: ${bundle.manifest.languages.join(', ')}`);
 const base = bundle.base;
 const out = (value) => console.log(typeof value === 'string' ? value : JSON.stringify(value, null, 2));
 const meta = JSON.parse(db.prepare("SELECT value FROM meta WHERE key = 'meta_json'").get().value);
+// 표 머리·사진 줄은 결과 언어로 — 답에 그대로 옮겨도 언어가 섞이지 않게. 한국어는 원래 머리(예산(1인) 등)
+const UI = {
+  title: { ko: '이름', en: 'Name', zh: '名称', ja: '名前', th: 'ชื่อ', vi: 'Tên', ru: 'Название', ar: 'الاسم' },
+  photo: { ko: '사진', en: 'Photo', zh: '照片', ja: '写真', th: 'ภาพ', vi: 'Ảnh', ru: 'Фото', ar: 'صورة' },
+};
+ui.photo = UI.photo[lang] ?? UI.photo.en;
+const names = lang === 'ko' ? LIST_NAMES : Object.fromEntries(Object.keys(LIST_NAMES).map((c) => [c,
+  c === 'title' ? UI.title[lang] ?? UI.title.en : c === 'km' ? 'km' : meta.fields?.[{ difficulty_text: 'difficulty', budget_text: 'budget' }[c] ?? c]?.label?.[lang] ?? c]));
 
 switch (command) {
   case 'info': {
@@ -236,39 +304,13 @@ switch (command) {
   }
 
   case 'list': {
-    const where = ['lang = ?'];
-    const params = [lang];
-    const inKeys = (col, kind, arg) => {
-      const keys = termKeys(db, kind, arg);
-      if (!keys.length) fail(`${kind} 에 맞는 값이 없다 — ${arg}. values ${kind} 로 확인할 것`);
-      where.push(`${col} IN (${keys.map(() => '?').join(',')})`);
-      params.push(...keys);
-    };
-    if (opts.month) { where.push('id IN (SELECT place_id FROM place_months WHERE month = ?)'); params.push(Number(opts.month)); }
-    if (opts.category) inKeys('category_key', 'category', opts.category);
-    if (opts.island) inKeys('island_group_key', 'island_group', opts.island);
-    if (opts.region) {
-      const keys = termKeys(db, 'region', opts.region);
-      where.push(`(region_key IN (${keys.map(() => '?').join(',') || "''"}) OR location LIKE ?)`);
-      params.push(...keys, `%${opts.region}%`);
-    }
-    if (opts.difficulty) {
-      const d = String(opts.difficulty);
-      const hit = /^\d$/.test(d) ? Number(d) : (meta.difficulties ?? []).find((x) => x.key === d || Object.values(x.name ?? {}).some((n) => n.includes(d)))?.value;
-      if (!hit) fail(`난이도를 모르겠다 — ${d} (1·2·3, easy·moderate·hard, 쉬움·보통·어려움)`);
-      where.push('difficulty = ?');
-      params.push(hit);
-    }
-    if (opts.tag) { where.push('id IN (SELECT place_id FROM place_tags WHERE lang = ? AND tag LIKE ?)'); params.push(lang, `%${opts.tag}%`); }
-    if (opts['max-budget']) { where.push('budget_min <= ?'); params.push(Number(opts['max-budget'])); }
-    if (opts['min-rating']) { where.push('rating >= ?'); params.push(Number(opts['min-rating'])); }
-    if (opts.q) { where.push('(title LIKE ? OR title_en LIKE ? OR tagline LIKE ? OR summary LIKE ? OR tags LIKE ?)'); params.push(...Array(5).fill(`%${opts.q}%`)); }
+    const f = filterSql(db, opts);
     const order = { id: 'id', rating: 'rating DESC, id', budget: 'budget_min, id', name: 'title COLLATE NOCASE' }[opts.sort ?? 'id'] ?? 'id';
-    const ids = db.prepare(`SELECT id FROM place_list WHERE ${where.join(' AND ')} ORDER BY ${order}`).all(...params).map((r) => r.id);
+    const ids = db.prepare(`SELECT id FROM place_list WHERE ${['lang = ?', ...f.where].join(' AND ')} ORDER BY ${order}`).all(lang, ...f.params).map((r) => r.id);
     const limit = Number(opts.limit ?? 30);
     const rows = listRows(db, lang, ids.slice(0, limit));
     if (opts.json) out(rows);
-    else out(`${ids.length}곳${ids.length > rows.length ? ` 중 ${rows.length}곳 (--limit 로 늘림)` : ''} · 언어 ${lang}\n\n${table(rows, LIST_COLS, LIST_NAMES)}`);
+    else out(`${ids.length}곳${ids.length > rows.length ? ` 중 ${rows.length}곳 (--limit 로 늘림)` : ''} · 언어 ${lang}\n\n${table(rows, LIST_COLS, names)}`);
     break;
   }
 
@@ -284,7 +326,12 @@ switch (command) {
     const q = args.join(' ');
     if (!q.trim()) fail('찾을 낱말을 줄 것');
     const limit = Number(opts.limit ?? 20);
-    const hits = searchPlaces(db, q, lang, 200);
+    let hits = searchPlaces(db, q, lang, 200);
+    const f = filterSql(db, opts); // search 鲸鲨 --region 巴拉望 — 본문 검색과 거르기를 함께
+    if (f.where.length) {
+      const ok = new Set(db.prepare(`SELECT id FROM place_list WHERE ${['lang = ?', ...f.where].join(' AND ')}`).all(lang, ...f.params).map((r) => r.id));
+      hits = hits.filter((h) => ok.has(h.place_id));
+    }
     const rows = listRows(db, lang, hits.map((h) => h.place_id));
     const byId = new Map(rows.map((r) => [r.id, r]));
     if (opts.json) { out(hits.slice(0, limit).map((h) => ({ ...byId.get(h.place_id), snippet: h.snippet }))); break; }
@@ -303,7 +350,7 @@ switch (command) {
     const near = all.filter((p) => p.id !== fromId).map((p) => ({ id: p.id, km: Math.round(haversine(origin, [p.latitude, p.longitude])) })).sort((a, b) => a.km - b.km).slice(0, Number(opts.limit ?? 5));
     const rows = listRows(db, lang, near.map((n) => n.id)).map((r, i) => ({ ...r, km: near[i].km }));
     if (opts.json) out(rows);
-    else out(`기준: ${fromId ? db.prepare('SELECT title FROM place_texts WHERE place_id = ? AND lang = ?').get(fromId, lang).title : key} — 직선거리로 가까운 곳 (실제 이동 거리·시간은 더 길다)\n\n${table(rows, [...LIST_COLS, 'km'], LIST_NAMES)}`);
+    else out(`기준: ${fromId ? db.prepare('SELECT title FROM place_texts WHERE place_id = ? AND lang = ?').get(fromId, lang).title : key} — 직선거리로 가까운 곳 (실제 이동 거리·시간은 더 길다)\n\n${table(rows, [...LIST_COLS, 'km'], names)}`);
     break;
   }
 

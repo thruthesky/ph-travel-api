@@ -42,19 +42,21 @@ node scripts/travel-db.mjs export --out ./public/travel [--no-json]       # 사�
 
 - 모르는 옵션(예: `--langs` 대신 `--lang`)을 주면 멈춘다. 엉뚱한 DB 를 만들지 않게 하려는 것이다.
 
-- 출력: `travel.db — ph version … · 100곳 · 언어 en,zh,ja,ko,th,vi,ru,ar · FTS5 trigram · 34.6MB · 463ms`.
+- 출력: `travel.db — ph version … · 100곳 · 언어 en,zh,ko · FTS5 trigram · 20.6MB · 364ms`.
 - 함께 `travel.db.version` 파일을 쓴다(API version 한 줄). 앱은 이 글자가 바뀌었을 때만 DB 를 다시 복사한다.
 - `meta.base` 에는 공개 API 주소가 들어간다. 로컬 폴더로 만들어도 개발 컴퓨터 경로가 운영 DB 에 남지 않는다. 실제로 읽은 곳은 `meta.source` 다.
 - JSON 은 캐시(`~/.cache/travel-api-skill/<나라>/`)를 거친다. manifest version 이 같으면 다시 받지 않는다.
-- 크기(실제 빌드 형식, 번역문은 자리 표시 글자라 실제와 조금 다를 수 있다):
+- 크기(2026-09-28, ko·en·zh 는 실제 번역으로 잰 값):
 
   | 언어 | 전문 검색 | 크기 |
   |------|-----------|------|
-  | 8개 모두 | 포함 | 34.6MB |
-  | ko + en(대체) | 포함 | 9.5MB |
-  | ko + en | 없음 | 6.3MB |
+  | en 하나 | 포함 | 7.2MB |
+  | ko + en(대체) | 포함 | 14.2MB |
+  | ko + en + zh | 포함 | 20.6MB (gzip 8.2MB) |
+  | ko + en + zh | 없음 | 12.4MB |
+  | 8개 모두 | 포함 | 번역이 모두 들어오면 다시 잰다 — 자리 표시가 섞인 값은 42.8MB |
 
-  - 언어 하나가 대략 4~5MB 다. 실제 크기는 `build` 출력으로 확인한다.
+  - 언어 하나가 약 6~7MB 다(글이 긴 영어가 가장 크다). 실제 크기는 `build` 출력으로 확인한다.
   - 앱에는 필요한 언어만 넣는다.
 - 임시 파일에 만든 뒤 이름을 바꿔 교체한다. 그래서 만드는 도중에 읽는 쪽이 반쯤 만든 DB 를 보지 않는다.
 
@@ -136,19 +138,29 @@ WHERE place_fts MATCH '"고래상어" AND "스노클링"' AND t.lang = 'ko'
 ORDER BY score LIMIT 20;
 ```
 
-규칙 (Node `searchPlaces`, PHP `TravelDb::search`, Dart `TravelDb.search` 가 모두 같게 구현한다):
+규칙 (Node `searchPlaces`, PHP `TravelDb::search`, Dart `TravelDb.search` 가 모두 같게 구현한다. 질문 25개 × DB 3종에서 세 구현이 같은 곳을 같은 순서로 냄을 확인했다):
 
-1. 검색어를 공백으로 나눈다. **모든 낱말이 들어 있는 여행지**만 고른다(AND).
+1. **낱말 나누기** — `"…"` 로 감싼 곳은 한 구절이고, 나머지는 공백과 문장부호(`, ， 、 ; ； 。 ! ！ ? ？`)로 나눈다. **모든 낱말이 들어 있는 여행지**만 고른다(AND).
+   - 정규식은 세 구현이 같다: `"([^"]+)"|[^\s,，、;；。!！?？"]+` (Node `searchWords`, PHP `TravelDb::words`, Dart `TravelDb.words`).
+   - 구절: `"life vest"` 는 붙은 글만 찾는다. 따옴표 없이 `life vest` 로 찾으면 `vest` 가 harvest 에도 걸린다.
+   - 중국어 사용자는 `鲸鲨，浮潜` 처럼 쉼표로 잇는다. 띄어쓰기 없는 긴 글(`和鲸鲨一起游泳`)은 그대로 한 낱말이라 거의 못 찾는다 — 부르는 쪽(AI·검색 칸 안내)이 2~4글자 낱말로 띄워 쓴다.
 2. **3글자(코드 포인트) 이상** 낱말은 FTS5 로 찾는다.
    - 낱말마다 큰따옴표로 감싸 구문으로 만든다. 안의 `"` 는 `""` 로 바꾼다. 그래야 `AND`·`*`·`-` 같은 FTS 문법이 섞이지 않는다.
-3. **3글자 미만** 낱말(세부·해변·ab)은 trigram 이 찾지 못한다. FTS 결과(없으면 그 언어 전체)를 제목·태그·본문에서 직접 찾아 거른다.
+   - FTS 를 쓸 수 있는지는 **표가 있는지만 보지 않고 한 번 찾아 본다**(`MATCH '"abc"'`). 서버 SQLite 가 trigram 을 모르면(3.34 미만) 표가 있어도 MATCH 가 예외를 낸다. 그러면 3번처럼 모두 글에서 찾는다(PHP·Dart).
+3. **3글자 미만** 낱말(세부·해변·鲸鲨·ab)은 trigram 이 찾지 못한다. FTS 결과(없으면 그 언어 전체)를 FTS 와 같은 네 글(제목·태그·요약·본문)에서 직접 찾아 거른다. 요약을 빠뜨리면 요약에만 있는 낱말을 놓친다.
    - 100곳이라 충분히 빠르다.
    - FTS 없이 만든 DB(`--no-fts`)는 모든 낱말을 이렇게 찾는다.
-4. 순서는 `bm25` 다. 열 무게는 제목 10 · 태그 6 · 요약 3 · 본문 1 이다. 짧은 낱말만 있으면 많이 나온 곳이 앞이다.
+4. **순서** — 제목에 모든 낱말(2) → 대표 태그에 모든 낱말(1) → 점수 → 여행지 id.
+   - 이름(보라카이·Boracay·长滩岛)으로 찾으면 그 여행지가 맨 앞이다. bm25 는 긴 본문에 불리해서, 이 규칙이 없으면 이름을 한 번 언급한 짧은 글이 앞선다(`Boracay` 1위가 carabao-island 였다).
+   - 태그는 여행지마다 편집자가 고른 대표 5개라, 태그가 맞는 곳(`whale shark` → 돈솔·오슬롭)을 본문에서 언급만 한 곳보다 앞에 둔다.
+   - 점수는 `bm25`(열 무게 제목 10 · 태그 6 · 요약 3 · 본문 1)다. 짧은 낱말만 있으면(또는 FTS 가 없으면) 첫 낱말이 많이 나온 곳이 앞이다.
+   - 마지막 기준(id)까지 꼭 정한다 — Dart 의 `sort` 는 안정 정렬이 아니라서, 없으면 같은 점수의 순서가 구현마다 달라진다.
 5. `snippet` 은 찾은 낱말을 `[ ]` 로 감싼 약 64글자다. trigram 은 토큰이 거의 한 글자라서 토큰 수를 넉넉히 줘야 강조가 중간에서 잘리지 않는다.
+   - 짧은 낱말로만 찾았을 때는 **요약·본문에서 먼저** 발췌한다. 제목·태그 나열(`栋索尔 鲸鲨, 浮潜, 萤火虫…`)로 시작하지 않게 한다.
    - PHP 는 `snippet_html` 도 준다. 이스케이프한 뒤 `<mark>` 로 감싼 HTML 이라 그대로 출력한다. 표시에는 글에 나올 수 없는 문자(U+E000·U+E001)를 쓴다. 그래서 원문에 `[` `]` 가 있어도 태그가 깨지지 않는다.
-6. trigram 은 ASCII 대소문자를 가리지 않는다(`boracay` = `Boracay`). 부분 문자열이라 짧은 낱말은 다른 낱말 속에도 걸린다(아이 → 파오아이).
-7. 본문 전체를 찾으므로 「함께 가보면 좋은 곳」에서 한 번 언급된 여행지도 걸린다. 그 여행지 자체에 대한 글만 찾으려면 단락을 좁힌다:
+6. 대소문자를 가리지 않는다(`boracay` = `Boracay`, `боракай` = `Боракай`). trigram 이 그렇고, 직접 찾을 때도 양쪽을 소문자로 바꿔 맞춘다. 부분 문자열이라 짧은 낱말은 다른 낱말 속에도 걸린다(아이 → 파오아이).
+7. **거르기와 함께** — `search(q, lang, limit, filter)` 의 filter 는 `list` 와 같다(분류·달·지역 …, sort 는 무시). 검색 결과에서 거르기에 맞는 곳만 남긴다. 조회 도구는 `search 鲸鲨 --region 巴拉望` 처럼 쓴다.
+8. 본문 전체를 찾으므로 「함께 가보면 좋은 곳」에서 한 번 언급된 여행지도 걸린다. 그 여행지 자체에 대한 글만 찾으려면 단락을 좁힌다:
 
    ```sql
    SELECT DISTINCT s.place_id FROM place_sections s
@@ -167,7 +179,7 @@ ORDER BY score LIMIT 20;
 - `lang(want)` — 없으면 대체 언어를 돌려준다.
 - `dir(lang)` · `languages()` · `terms(kind, lang)`
 - `list(filter, lang, limit, offset)` — 전체 수와 행을 돌려준다.
-- `search(q, lang)` — 행에 snippet 이 붙는다.
+- `search(q, lang, limit, filter)` — 행에 snippet 이 붙는다. filter 는 list 와 같다(Node 는 조회 도구가 거른다).
 - `place(slug, lang)` — 블록 JSON 이고, 사진 url 은 절대 주소로 바꿔 준다.
 - `near(slug, lang)` — 행에 km 가 붙는다.
 
@@ -178,7 +190,7 @@ $travel = new TravelDb('/var/www/data/travel.db', imageBase: '/travel/');
 $lang = $travel->lang($_GET['lang'] ?? 'ko');
 $page = $travel->list(['month' => 12, 'category' => 'beach', 'sort' => 'rating'], $lang, limit: 20, offset: 0);
 foreach ($page['items'] as $row) { /* $row['title'], $row['image_url'], $row['image_credit'] … */ }
-$hits = $travel->search($_GET['q'] ?? '', $lang);                     // 행마다 snippet · snippet_html
+$hits = $travel->search($q, $lang, 100, ['category' => 'diving', 'month' => 3]);  // 행마다 snippet · snippet_html
 $place = $travel->place('boracay', $lang); // 배열 — json_encode 해서 페이지에 넣고 renderer.mjs 로 그린다
 ```
 
@@ -186,7 +198,7 @@ $place = $travel->place('boracay', $lang); // 배열 — json_encode 해서 페�
 final travel = TravelDb.open('/path/travel.db', imageBase: 'https://thruthesky.github.io/ph-travel-api/v2/');
 final lang = travel.lang('ko');
 final page = travel.list(const TravelFilter(month: 12, category: 'beach', sort: 'rating'), lang, limit: 20);
-final hits = travel.search('고래상어', lang);
+final hits = travel.search('고래상어', lang, filter: const TravelFilter(month: 3));
 final place = travel.place('boracay', lang); // Map — TravelBlocks.place(context, place) 로 그린다
 ```
 
@@ -211,7 +223,13 @@ const hits = searchPlaces(db, '고래상어', 'ko');
 
 ## 8. 검증 기록 (2026-09-28)
 
-두 가지 데이터로 확인했다.
+세 가지 데이터로 확인했다. 마지막 것이 실제 번역본이다.
+- **실제 번역 ko·en·zh** + 자리 표시 5개 언어로 저장소 빌드를 통과시킨 출력 (version e7c4347846d7)
+  - 질문 18개(영어·중국어·한국어 — 2글자 중국어 `鲸鲨`·`海滩`, 대소문자 `boracay`·`EL`, 여행지 이름 `长滩岛`)를 DB 3종(8개 언어, `--no-fts`, ko·en·zh)에 넣었다. Node·PHP·Dart 가 같은 곳을 같은 순서로 냈다.
+  - 이때 고친 것: 직접 찾기가 요약을 빠뜨림(`--no-fts` 에서 `Boracay` 19곳 → 18곳), 직접 찾기가 대소문자를 가림, 같은 점수의 순서가 구현마다 다름(Dart 비안정 정렬), 이름으로 찾아도 그 여행지가 1위가 아님(bm25 가 긴 본문에 불리 — `Boracay` 1위가 carabao-island).
+  - 크기(en·zh 실제 번역, 나머지 자리 표시): 8개 언어 42.8MB · FTS 없이 30.7MB · ko+en+zh 20.6MB. 영어·중국어 실제 글이 자리 표시보다 길어서 앞의 표보다 크다.
+
+그 전에는 두 가지 데이터로 확인했다.
 - 다국어 계약 모양의 시험 데이터 (en·ko·ar, 100곳)
 - 저장소의 실제 빌드 스크립트가 만든 8개 언어 출력. 번역본만 자리 표시 글자로 채워 빌드를 통과시켰다.
 

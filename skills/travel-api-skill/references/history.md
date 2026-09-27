@@ -22,12 +22,19 @@
     - `travel-db.mjs`(sync·build·export), `assets/travel-schema.sql`
     - 조회 구현 `TravelDb.php`·`travel_db.dart`, 예시 페이지 `travel-page.php`
     - `travel.mjs` 는 SQLite 캐시 DB 로 답하도록 바꿨다(`--lang`, `sql` 명령)
+  - (2026-09-28) 스킬 보강 — 실제 번역(en·zh)과 서브에이전트 실사용 시험(영어 가족 여행, 중국어 고래상어, PHP 사이트 넣기)으로 찾은 것
+    - 검색(세 구현 같게): 구절(`"life vest"`)·중국어 문장부호로 나누기, 요약까지 직접 찾기, 대소문자 무시, 제목 → 대표 태그 → 점수 → id 순서, 거르기와 함께 쓰기, trigram 을 모르는 서버 SQLite 대비
+    - 조회 도구: 캐시 DB 에 모든 언어(어느 언어 이름으로도 찾기), `--tag` 여러 번, `--month 3月·Dec`, `--lang zh-CN`, 전각 괄호 예산 기준, 결과 언어의 표 머리, 옛 형식·404 API 는 한 줄 안내
+    - PHP 예시: 8개 언어 화면 글, 공개 주소 설정(Host 헤더 불신), Accept-Language, 대체 언어 안내, 빈 결과 문구, noindex, 사진 `ImageObject`
+    - 서버에 올리는 순서와 검사·되돌리기(embedding.md §3.2), 서버 요건(SQLite 3.34+)
+    - Flutter: 긴 번역(`Moderate`)이 좁은 칸에서 넘치던 것
 - **남은 일:**
   - v2(다국어)와 스킬 묶음을 push 해 배포한다. push 전까지 공개 주소는 v1 이고 `/v2/`·스킬 묶음은 404 다.
   - 스킬의 SQLite·조회 구현·렌더러는 두 가지로 검증했다.
     - 다국어 계약 모양의 시험 데이터
     - 저장소 빌드 스크립트가 만든 8개 언어 출력. 번역본은 자리 표시 글자였다.
-  - 실제 번역본이 들어오면 두 가지를 다시 한다. `travel-db.mjs build --base _site/v2` 로 DB 크기를 확인하고, 세 조회 구현의 결과를 비교한다.
+  - 8개 언어 번역이 모두 들어오면 `travel-db.mjs build --base _site/v2` 로 DB 크기를 재서 database.md §2 표를 채우고, 세 조회 구현의 결과를 다시 비교한다(ko·en·zh 는 실제 번역으로 끝냈다).
+  - 데이터 쪽 후속 결정(스킬 밖): 영어 번역 속 한국 독자 기준 문장(21곳)을 현지화할지, 예산 기준(1일·투어 1회)을 `budget.basis` 같은 언어 공통 key 로 둘지. 지금은 기준이 글 괄호에만 있어 `--sort budget` 이 기준이 다른 곳을 섞는다.
   - 필고 Flutter 앱(`apps/travel`)을 v2 로 바꾼다.
     - `travel-db.mjs build --langs <앱 언어들>` 로 만든 `travel.db` 를 애셋에 넣는다.
     - `assets/travel_db.dart` 로 읽고 `assets/travel_blocks.dart` 로 그린다. 두 파일은 필고 공용 라이브러리로 옮겨 쓴다([embedding.md](embedding.md) §4).

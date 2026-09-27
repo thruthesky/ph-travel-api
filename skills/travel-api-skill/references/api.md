@@ -293,7 +293,7 @@ Future<Map<String, dynamic>> loadTravel(Directory dir, {String lang = 'ko', Stri
 
 ## 7. 조회 도구 — `scripts/travel.mjs`
 
-JSON 을 받아 SQLite 캐시 DB 로 만들고 그 DB 로 답한다. 명령과 옵션은 SKILL.md §3 과 `node scripts/travel.mjs help` 에 있다. 어려운 조건은 `sql` 명령으로 직접 쿼리한다([database.md](database.md) §4).
+JSON 을 받아 SQLite 캐시 DB 로 만들고 그 DB 로 답한다. 명령과 옵션은 SKILL.md §4 와 `node scripts/travel.mjs help` 에 있다. 캐시 DB 에는 모든 언어가 들어 있어 `--lang` 을 바꿔도 다시 만들지 않는다. 어려운 조건은 `sql` 명령으로 직접 쿼리한다([database.md](database.md) §4).
 
 ## 8. 나라별 API
 

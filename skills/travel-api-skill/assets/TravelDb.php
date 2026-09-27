@@ -48,7 +48,15 @@ final class TravelDb
             throw new RuntimeException("travel.db 스키마 버전 {$version} — 이 코드는 1 을 안다");
         }
         $this->meta = $this->db->query("SELECT key, value FROM meta WHERE key != 'meta_json'")->fetchAll(PDO::FETCH_KEY_PAIR);
-        $this->hasFts = (bool) $this->db->query("SELECT 1 FROM sqlite_master WHERE name = 'place_fts'")->fetchColumn();
+        // 표가 있어도 서버의 SQLite 가 trigram 을 모르면(3.34 미만) MATCH 가 예외를 낸다 — 한 번 찾아 보고, 안 되면 글에서 직접 찾는다
+        $this->hasFts = false;
+        if ($this->db->query("SELECT 1 FROM sqlite_master WHERE name = 'place_fts'")->fetchColumn()) {
+            try {
+                $this->db->query("SELECT rowid FROM place_fts WHERE place_fts MATCH '\"abc\"' LIMIT 1")->fetchAll();
+                $this->hasFts = true;
+            } catch (PDOException) {
+            }
+        }
         $this->imageBase ??= $this->meta['base'] ?? '';
     }
 
@@ -101,6 +109,26 @@ final class TravelDb
      */
     public function list(array $filter, string $lang, int $limit = 30, int $offset = 0): array
     {
+        [$sqlWhere, $bind] = $this->filterWhere($filter, $lang);
+        // 정렬은 정해진 값만 — 사용자 입력을 SQL 에 그대로 넣지 않는다
+        $order = ['rating' => 'rating DESC, id', 'budget' => 'budget_min, id', 'name' => 'title', 'id' => 'id'][$filter['sort'] ?? 'id'] ?? 'id';
+
+        $count = $this->db->prepare("SELECT count(*) FROM place_list WHERE {$sqlWhere}");
+        $count->execute($bind);
+        $st = $this->db->prepare("SELECT * FROM place_list WHERE {$sqlWhere} ORDER BY {$order} LIMIT :limit OFFSET :offset");
+        foreach ($bind + [':limit' => $limit, ':offset' => $offset] as $k => $v) {
+            $st->bindValue($k, $v, is_int($v) ? PDO::PARAM_INT : PDO::PARAM_STR);
+        }
+        $st->execute();
+        return ['total' => (int) $count->fetchColumn(), 'items' => array_map($this->withImage(...), $st->fetchAll())];
+    }
+
+    /**
+     * list·search 의 거르기 → place_list 의 WHERE 와 바인딩 값. 값은 모두 바인딩 인자로 넘긴다.
+     * @return array{0: string, 1: array<string, int|float|string>}
+     */
+    private function filterWhere(array $filter, string $lang): array
+    {
         $where = ['lang = :lang'];
         $bind = [':lang' => $lang];
         if (!empty($filter['month'])) {
@@ -133,18 +161,7 @@ final class TravelDb
             $where[] = "(title LIKE :q ESCAPE '\\' OR tagline LIKE :q ESCAPE '\\' OR summary LIKE :q ESCAPE '\\' OR tags LIKE :q ESCAPE '\\')";
             $bind[':q'] = '%' . addcslashes((string) $filter['q'], '%_\\') . '%';
         }
-        // 정렬은 정해진 값만 — 사용자 입력을 SQL 에 그대로 넣지 않는다
-        $order = ['rating' => 'rating DESC, id', 'budget' => 'budget_min, id', 'name' => 'title', 'id' => 'id'][$filter['sort'] ?? 'id'] ?? 'id';
-        $sqlWhere = implode(' AND ', $where);
-
-        $count = $this->db->prepare("SELECT count(*) FROM place_list WHERE {$sqlWhere}");
-        $count->execute($bind);
-        $st = $this->db->prepare("SELECT * FROM place_list WHERE {$sqlWhere} ORDER BY {$order} LIMIT :limit OFFSET :offset");
-        foreach ($bind + [':limit' => $limit, ':offset' => $offset] as $k => $v) {
-            $st->bindValue($k, $v, is_int($v) ? PDO::PARAM_INT : PDO::PARAM_STR);
-        }
-        $st->execute();
-        return ['total' => (int) $count->fetchColumn(), 'items' => array_map($this->withImage(...), $st->fetchAll())];
+        return [implode(' AND ', $where), $bind];
     }
 
     /** 발췌에서 찾은 낱말을 감싸는 표시 — 글에 나올 수 없는 개인 영역 문자라서 원문의 [ ] 와 섞이지 않는다. */
@@ -152,13 +169,44 @@ final class TravelDb
     private const MARK_CLOSE = "\u{E001}";
 
     /**
-     * 전문 검색 — 낱말(공백으로 나눔)이 모두 들어 있는 여행지. 3글자 이상은 FTS5 trigram, 짧은 낱말은 글에서 직접 찾는다.
+     * 검색어 → 낱말. "…" 로 감싼 곳은 한 구절("life vest"), 나머지는 공백과 문장부호(, ， 、 ; ； 。 ! ！ ? ？)로 나눈다.
+     * @return list<string>
+     */
+    public static function words(string $query): array
+    {
+        preg_match_all('/"([^"]+)"|[^\s,，、;；。!！?？"]+/u', $query, $m, PREG_SET_ORDER);
+        $words = [];
+        foreach ($m as $x) {
+            $w = trim(isset($x[1]) && $x[1] !== '' ? $x[1] : $x[0]);
+            if ($w !== '') {
+                $words[] = $w;
+            }
+        }
+        return $words;
+    }
+
+    /** $text 에 낱말이 모두 들어 있나 — 대소문자를 가리지 않는다(trigram 과 같게). */
+    private static function hasAll(?string $text, array $words): bool
+    {
+        $low = mb_strtolower((string) $text);
+        foreach ($words as $w) {
+            if (!str_contains($low, mb_strtolower($w))) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    /**
+     * 전문 검색 — 낱말(words())이 모두 들어 있는 여행지. 3글자 이상은 FTS5 trigram, 짧은 낱말은 글에서 직접 찾는다.
+     * $filter 는 list() 와 같다 — 검색과 분류·달 거르기를 함께 쓴다('sort' 는 무시).
+     * 순서: 제목에 모든 낱말 → 대표 태그에 모든 낱말 → 점수 → id (Node·Dart 구현과 같다).
      * 행에 snippet(찾은 낱말을 [ ] 로 감싼 글)과 snippet_html(이스케이프한 뒤 <mark> 로 감싼 HTML — 그대로 출력)이 붙는다.
      * @return list<array<string, mixed>>
      */
-    public function search(string $query, string $lang, int $limit = 20): array
+    public function search(string $query, string $lang, int $limit = 20, array $filter = []): array
     {
-        $words = preg_split('/\s+/u', trim($query), -1, PREG_SPLIT_NO_EMPTY) ?: [];
+        $words = self::words($query);
         if (!$words) {
             return [];
         }
@@ -166,40 +214,55 @@ final class TravelDb
         $short = array_values(array_filter($words, fn (string $w) => mb_strlen($w) < 3));
         if ($long && $this->hasFts) {
             $match = implode(' AND ', array_map(fn (string $w) => '"' . str_replace('"', '""', $w) . '"', $long));
-            $st = $this->db->prepare("SELECT t.place_id, snippet(place_fts, 3, :open, :close, '…', 64) AS snippet, bm25(place_fts, 10, 6, 3, 1) AS score
+            $st = $this->db->prepare("SELECT t.place_id, t.title, t.tags, snippet(place_fts, 3, :open, :close, '…', 64) AS snippet, bm25(place_fts, 10, 6, 3, 1) AS score
                 FROM place_fts JOIN place_texts t ON t.id = place_fts.rowid
                 WHERE place_fts MATCH :match AND t.lang = :lang ORDER BY score LIMIT 200");
             $st->execute([':open' => self::MARK_OPEN, ':close' => self::MARK_CLOSE, ':match' => $match, ':lang' => $lang]);
         } else {
-            $st = $this->db->prepare('SELECT place_id, NULL AS snippet, 0 AS score FROM place_texts WHERE lang = ?');
+            $st = $this->db->prepare('SELECT place_id, title, tags, NULL AS snippet, 0 AS score FROM place_texts WHERE lang = ?');
             $st->execute([$lang]);
-            $short = $words; // FTS 가 없으면 모든 낱말을 글에서 찾는다
+            $short = $words; // FTS 가 없으면 모든 낱말을 글에서 찾는다 (점수·발췌는 첫 낱말 기준)
         }
-        $hay = $this->db->prepare('SELECT title, tags, body FROM place_texts WHERE place_id = ? AND lang = ?');
+        unset($filter['sort']);
+        $allowed = null;
+        if (array_filter($filter)) {
+            [$sqlWhere, $bind] = $this->filterWhere($filter, $lang);
+            $ids = $this->db->prepare("SELECT id FROM place_list WHERE {$sqlWhere}");
+            $ids->execute($bind);
+            $allowed = array_flip($ids->fetchAll(PDO::FETCH_COLUMN));
+        }
+        $hay = $this->db->prepare('SELECT title, tags, summary, body FROM place_texts WHERE place_id = ? AND lang = ?'); // FTS 의 네 열과 같게
         $hits = [];
         foreach ($st->fetchAll() as $row) {
+            if ($allowed !== null && !isset($allowed[$row['place_id']])) {
+                continue;
+            }
             if ($short) {
                 $hay->execute([$row['place_id'], $lang]);
                 $t = $hay->fetch();
-                $text = "{$t['title']}\n{$t['tags']}\n{$t['body']}";
-                foreach ($short as $w) {
-                    if (mb_strpos($text, $w) === false) {
-                        continue 2;
-                    }
+                $all = "{$t['title']}\n{$t['tags']}\n{$t['summary']}\n{$t['body']}";
+                if (!self::hasAll($all, $short)) {
+                    continue;
                 }
                 if ($row['snippet'] === null) {
-                    $i = mb_strpos($text, $short[0]);
-                    $row['snippet'] = ($i > 40 ? '…' : '') . mb_substr($text, max(0, $i - 40), min($i, 40)) . self::MARK_OPEN . $short[0] . self::MARK_CLOSE
-                        . mb_substr($text, $i + mb_strlen($short[0]), 80) . '…';
-                    $row['score'] = -substr_count($text, $short[0]); // 많이 나올수록 앞으로
+                    $w = mb_strtolower($short[0]);
+                    $n = mb_strlen($w);
+                    // 발췌는 요약·본문에서 먼저 — 제목·태그 나열로 시작하지 않게
+                    $text = self::hasAll("{$t['summary']}\n{$t['body']}", [$w]) ? "{$t['summary']}\n{$t['body']}" : $all;
+                    $i = (int) mb_strpos(mb_strtolower($text), $w);
+                    $row['snippet'] = ($i > 30 ? '…' : '') . mb_substr($text, max(0, $i - 30), min($i, 30)) . self::MARK_OPEN . mb_substr($text, $i, $n) . self::MARK_CLOSE
+                        . mb_substr($text, $i + $n, 50) . '…';
+                    $row['score'] = -substr_count(mb_strtolower($all), $w); // 많이 나올수록 앞으로
                 }
             }
+            // 이름으로 찾으면 그 여행지가, 대표 태그가 맞으면 그곳이 앞 — bm25 는 긴 본문에 불리하다
+            $row['boost'] = self::hasAll($row['title'], $words) ? 2 : (self::hasAll($row['tags'], $words) ? 1 : 0);
             $raw = str_replace("\n", ' ', (string) $row['snippet']);
             $row['snippet'] = str_replace([self::MARK_OPEN, self::MARK_CLOSE], ['[', ']'], $raw);
             $row['snippet_html'] = str_replace([self::MARK_OPEN, self::MARK_CLOSE], ['<mark>', '</mark>'], htmlspecialchars($raw, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'));
             $hits[] = $row;
         }
-        usort($hits, fn (array $a, array $b) => $a['score'] <=> $b['score']);
+        usort($hits, fn (array $a, array $b) => [-$a['boost'], $a['score'], $a['place_id']] <=> [-$b['boost'], $b['score'], $b['place_id']]);
         $hits = array_slice($hits, 0, $limit);
         if (!$hits) {
             return [];

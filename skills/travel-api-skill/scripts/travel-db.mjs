@@ -68,10 +68,15 @@ function pickLangs(manifest, langs) {
   return all.filter((l) => want.includes(l));
 }
 
-function checkBundle(manifest, meta, places) {
-  if (!manifest.places || typeof manifest.places !== 'object' || !manifest.meta) {
-    throw new Error('manifest 가 다국어 형식이 아니다 (places 가 언어별 객체, meta 가 있어야 한다) — 스킬이나 API 가 옛 버전이다');
+/** meta·places 를 읽기 전에 manifest 가 다국어 계약인지 본다 — 옛 형식(places.json 하나)이면 파일 이름부터 틀리다. */
+function checkManifest(manifest, base) {
+  if (typeof manifest.meta !== 'string' || !Array.isArray(manifest.languages) || !manifest.places || typeof manifest.places !== 'object') {
+    throw new Error(`${base}manifest.json 이 다국어 형식이 아니다 (meta·languages·언어별 places 가 없다, version ${manifest.version ?? '?'}). `
+      + 'API 가 아직 배포되지 않았거나 옛 형식이다. 저장소 안이면 node scripts/build.mjs 뒤 --base _site/v2 로 읽는다');
   }
+}
+
+function checkBundle(manifest, meta, places) {
   if (meta.version !== manifest.version) throw new Error('meta.json 의 version 이 manifest 와 다르다');
   for (const [lang, file] of Object.entries(places)) {
     if (file.version !== manifest.version || file.count !== file.places.length || file.count !== manifest.count) {
@@ -91,7 +96,8 @@ export async function loadBundle({ country, base, langs, offline = false, refres
     const dir = where.base;
     if (!existsSync(join(dir, 'manifest.json'))) fail(`manifest.json 이 없다 — ${dir}`);
     const manifest = readJson(join(dir, 'manifest.json'));
-    const meta = readJson(join(dir, manifest.meta ?? 'meta.json'));
+    try { checkManifest(manifest, dir); } catch (e) { fail(e.message); }
+    const meta = readJson(join(dir, manifest.meta));
     const use = pickLangs(manifest, langs);
     const places = Object.fromEntries(use.map((l) => [l, readJson(join(dir, manifest.places[l]))]));
     checkBundle(manifest, meta, places);
@@ -116,12 +122,13 @@ export async function loadBundle({ country, base, langs, offline = false, refres
   }
   try {
     manifest = await fetchJson(`${where.base}manifest.json`);
+    checkManifest(manifest, where.base);
   } catch (e) {
     if (cached && haveAll(cached, pickLangs(cached, langs))) {
-      warn(`manifest 를 받지 못해 캐시(version ${cached.version})를 쓴다 — ${e.message}`);
+      warn(`manifest 를 쓸 수 없어 캐시(version ${cached.version})를 쓴다 — ${e.message}`);
       return fromCache(pickLangs(cached, langs));
     }
-    fail(`manifest 를 받지 못했다 — ${e.message}`);
+    fail(`manifest 를 쓸 수 없다 — ${e.message}${/HTTP 404/.test(e.message) ? ' (주소가 틀렸거나 API 가 아직 배포되지 않았다)' : ''}`);
   }
   if (where.api && manifest.schema !== where.api.schema) {
     warn(`이 스킬은 schema ${where.api.schema} 를 알고, API 는 schema ${manifest.schema} 다 — /travel-api-skill update 로 스킬을 갱신할 것`);
@@ -291,42 +298,57 @@ export function openDb(path, { readOnly = true } = {}) {
 const chars = (s) => [...s].length;
 
 /**
- * 낱말(공백으로 나눔)이 모두 들어 있는 여행지를 찾는다. 결과: [{ place_id, snippet, score }]
- * trigram 은 3글자 미만을 찾지 못하므로 짧은 낱말은 place_texts 에서 LIKE 로 거른다. 100곳이라 충분히 빠르다.
+ * 검색어 → 낱말. "…" 로 감싼 곳은 한 구절("life vest"), 나머지는 공백과 문장부호(, ， 、 ; ； 。 ! ！ ? ？)로 나눈다.
+ * 중국어 사용자는 鲸鲨，浮潜 처럼 쉼표로 잇는다. 세 구현(Node·PHP·Dart)이 같은 정규식을 쓴다.
+ */
+export function searchWords(query) {
+  return [...String(query).matchAll(/"([^"]+)"|[^\s,，、;；。!！?？"]+/gu)].map((m) => (m[1] ?? m[0]).trim()).filter(Boolean);
+}
+
+/**
+ * 낱말이 모두 들어 있는 여행지를 찾는다. 결과: [{ place_id, snippet, score, boost }]
+ * trigram 은 3글자 미만을 찾지 못하므로 짧은 낱말은 place_texts 의 글에서 직접 거른다. 100곳이라 충분히 빠르다.
+ * 순서: 제목에 모든 낱말(boost 2) → 태그에 모든 낱말(1) → 점수 → id. 규칙은 references/database.md §5.
  */
 export function searchPlaces(db, query, lang, limit = 20) {
-  const words = String(query).trim().split(/\s+/).filter(Boolean);
+  const words = searchWords(query);
   if (!words.length) return [];
   const long = words.filter((w) => chars(w) >= 3);
-  const short = words.filter((w) => chars(w) < 3);
+  let short = words.filter((w) => chars(w) < 3);
   const hasFts = db.prepare("SELECT 1 FROM sqlite_master WHERE name = 'place_fts'").get();
   let rows;
   if (long.length && hasFts) {
     const match = long.map((w) => `"${w.replace(/"/g, '""')}"`).join(' AND ');
-    rows = db.prepare(`SELECT t.place_id, snippet(place_fts, 3, '[', ']', '…', 64) AS snippet, bm25(place_fts, 10, 6, 3, 1) AS score
+    rows = db.prepare(`SELECT t.place_id, t.title, t.tags, snippet(place_fts, 3, '[', ']', '…', 64) AS snippet, bm25(place_fts, 10, 6, 3, 1) AS score
       FROM place_fts JOIN place_texts t ON t.id = place_fts.rowid
       WHERE place_fts MATCH ? AND t.lang = ? ORDER BY score LIMIT 200`).all(match, lang);
   } else {
-    rows = db.prepare('SELECT place_id, NULL AS snippet, 0 AS score FROM place_texts WHERE lang = ?').all(lang);
-    short.unshift(...long); // FTS 가 없으면 모든 낱말을 LIKE 로
-    long.length = 0;
+    rows = db.prepare('SELECT place_id, title, tags, NULL AS snippet, 0 AS score FROM place_texts WHERE lang = ?').all(lang);
+    short = words; // FTS 가 없으면 모든 낱말을 글에서 찾는다 (점수·발췌는 첫 낱말 기준)
   }
-  const like = db.prepare("SELECT body, title, tags FROM place_texts WHERE place_id = ? AND lang = ?");
+  // FTS 의 네 열(title·tags·summary·body)과 같은 글에서 찾는다 — 요약에만 있는 낱말도 걸리게
+  const like = db.prepare('SELECT title, tags, summary, body FROM place_texts WHERE place_id = ? AND lang = ?');
+  const has = (text, ws) => { const x = String(text ?? '').toLowerCase(); return ws.every((w) => x.includes(w.toLowerCase())); };
   const out = [];
   for (const r of rows) {
-    const t = like.get(r.place_id, lang);
-    const hay = `${t.title}\n${t.tags}\n${t.body}`;
-    if (!short.every((w) => hay.includes(w))) continue;
-    let snippet = r.snippet;
-    if (!snippet) {
-      const w = short[0];
-      const i = hay.indexOf(w);
-      snippet = `${i > 30 ? '…' : ''}${hay.slice(Math.max(0, i - 30), i)}[${w}]${hay.slice(i + w.length, i + w.length + 50)}…`.replace(/\n/g, ' ');
-      r.score = -(hay.split(w).length - 1); // 많이 나올수록 앞으로
+    if (short.length) {
+      const t = like.get(r.place_id, lang);
+      const hay = `${t.title}\n${t.tags}\n${t.summary}\n${t.body}`;
+      if (!has(hay, short)) continue; // trigram 처럼 대소문자를 가리지 않는다 (Boracay = boracay, Боракай = боракай)
+      if (!r.snippet) {
+        const w = short[0].toLowerCase();
+        // 발췌는 요약·본문에서 먼저 — 제목·태그 나열로 시작하지 않게
+        const text = has(`${t.summary}\n${t.body}`, [w]) ? `${t.summary}\n${t.body}` : hay;
+        const i = text.toLowerCase().indexOf(w);
+        r.snippet = `${i > 30 ? '…' : ''}${text.slice(Math.max(0, i - 30), i)}[${text.slice(i, i + w.length)}]${text.slice(i + w.length, i + w.length + 50)}…`;
+        r.score = -(hay.toLowerCase().split(w).length - 1); // 많이 나올수록 앞으로
+      }
     }
-    out.push({ place_id: r.place_id, snippet: snippet.replace(/\n/g, ' '), score: r.score });
+    // 이름으로 찾으면 그 여행지가, 대표 태그가 맞으면 그곳이 앞 — bm25 는 긴 본문에 불리해서 언급만 한 곳이 앞설 수 있다
+    const boost = has(r.title, words) ? 2 : has(r.tags, words) ? 1 : 0;
+    out.push({ place_id: r.place_id, snippet: r.snippet.replace(/\n/g, ' '), score: r.score, boost });
   }
-  return out.sort((a, b) => a.score - b.score).slice(0, limit);
+  return out.sort((a, b) => b.boost - a.boost || a.score - b.score || a.place_id - b.place_id).slice(0, limit);
 }
 
 // ───────────── 넣어 쓸 파일 폴더 (임베딩) ─────────────
@@ -416,6 +438,8 @@ const HELP = `사용: node travel-db.mjs <명령> [옵션]
 
 const isMain = process.argv[1] && pathToFileURL(resolve(process.argv[1])).href === import.meta.url;
 if (isMain) {
+  // 받기 실패·계약 위반은 스택 대신 한 줄로 — 원인과 할 일이 message 에 있다
+  process.on('uncaughtException', (e) => fail(`오류 — ${e.message}`));
   const [[command], opts] = parseArgs(process.argv.slice(2));
   if (!command || opts.help || command === 'help') {
     console.log(HELP);

@@ -2,7 +2,7 @@
 name: travel-api-skill
 description: 여행 정보 API(ph-travel-api — 필리핀 여행지 100선, 8개 언어 en·zh·ja·ko·th·vi·ru·ar, 앞으로 다른 나라도 추가) 전용 스킬. JSON 을 받아 SQLite(travel.db)로 바꿔 언어별 전문 검색·인덱스로 여행지를 찾아 추천·일정·비용·가는 방법·가까운 곳을 답하고, 웹사이트(PHP)·Flutter 앱·정적 웹이 원격 API 대신 데이터를 넣어(임베딩) 쓰도록 DB·파일 만들기, 조회 코드(PHP·Dart), 블록 렌더러(tabs·accordion·card·stepper·pricing 등)를 제공하며, ph-travel-api 저장소의 여행지 추가·번역·검사·배포를 돕는다. 다음 경우 반드시 사용 — (1) 필리핀 여행지·여행 정보 질문(보라카이, 세부, 엘니도, 보홀, 12월에 갈 만한 해변, 예산, 일정, 가는 방법 등, 어느 언어든), (2) ph-travel-api·여행 API·places.json·meta.json·travel.db·SQLite 여행 DB 를 쓰는 웹/앱 개발, 필고 웹사이트·앱에 여행 정보 넣기, 화면 디자인, (3) 여행지 데이터 추가·수정·번역·검사·배포, (4) 사용자가 /travel-api-skill 을 부를 때 — 인자가 update 면 스킬을 최신으로 갱신한다.
 metadata:
-  version: "2026.09.28.2"
+  version: "2026.09.28.3"
   repo: "https://github.com/thruthesky/ph-travel-api"
 ---
 
@@ -46,48 +46,58 @@ metadata:
 
 ## 4. 여행 질문에 답하기
 
-대화에 JSON 을 통째로 읽지 않는다(언어당 약 2MB). 조회 도구가 캐시 DB(`~/.cache/travel-api-skill/<나라>/travel.db`)를 만들어 필요한 부분만 꺼낸다.
+대화에 JSON 을 통째로 읽지 않는다(언어당 약 2MB). 조회 도구가 캐시 DB(`~/.cache/travel-api-skill/<나라>/travel.db`, 모든 언어)를 만들어 필요한 부분만 꺼낸다.
 
 ```bash
-T="node <스킬 폴더>/scripts/travel.mjs"
-$T values                                              # 거르기 값과 개수 — 분류[key]·권역·지역·난이도·태그·달·언어
-$T list --month 12 --category 해변 --difficulty 쉬움 --tag 가족 --sort rating
-$T show 보라카이                                        # slug·id·어느 언어 이름이든
-$T show el-nido --section getting_there,costs          # 단락만 — 머리말 없이
-$T search 고래상어 스노클링                              # 전문 검색 — 낱말이 모두 들어 있는 곳과 그 문장
-$T near vigan --limit 5                                # 가까운 곳 (위도,경도 도 된다)
-$T --lang en search whale shark                        # 다른 언어로 — en·zh·ja·ko·th·vi·ru·ar
-$T sql "SELECT category_key, count(*) FROM places GROUP BY 1"   # 어려운 조건은 읽기 전용 SQL (스키마: database.md)
-$T info                                                # version·언어·DB 위치
+travelq() { node <스킬 폴더>/scripts/travel.mjs "$@"; }  # 함수로 — zsh 는 $T 를 낱말로 나누지 않고, t 같은 짧은 이름은 별칭과 겹친다
+travelq values                                              # 거르기 값과 개수 — 분류[key]·권역·지역·난이도·태그·달·언어
+travelq list --month 12 --category 해변 --difficulty 쉬움 --tag 가족 --sort rating
+travelq show 보라카이                                        # slug·id·어느 언어 이름이든 (Boracay·长滩岛)
+travelq show el-nido --section getting_there,costs          # 단락만 — 머리말 없이
+travelq search 고래상어 스노클링                              # 전문 검색 — 낱말이 모두 들어 있는 곳과 그 문장
+travelq --lang en search '"life vest"' --category beach --month 1   # 따옴표는 구절. list 의 거르기를 함께 쓴다
+travelq near vigan --limit 5                                # 가까운 곳 (위도,경도 도 된다)
+travelq --lang en search whale shark                        # 다른 언어로 — en·zh·ja·ko·th·vi·ru·ar (zh-CN 도 된다)
+travelq sql "SELECT category_key, count(*) FROM places GROUP BY 1"   # 어려운 조건은 읽기 전용 SQL (스키마: database.md)
+travelq info                                                # version·언어·DB 위치
 ```
 
-- **언어:** `--lang` 으로 결과 언어를 고른다(기본 ko, 환경변수 `TRAVEL_API_LANG`). 사용자가 쓰는 언어로 찾고 답한다. 없는 언어는 도구가 있는 언어를 알려 준다.
+- **언어:** `--lang` 으로 결과 언어를 고른다(기본 ko, 환경변수 `TRAVEL_API_LANG`). 사용자가 쓰는 언어로 찾고 답한다. 표 머리도 그 언어로 나온다.
+  - 캐시 DB 에 모든 언어가 있어서 언어를 바꿔도 다시 만들지 않고, 여행지 이름·분류·지역·태그는 어느 언어로 줘도 된다(`--lang en list --tag 가족`).
+  - zh 는 **간체·중국 대륙 표기**다. 번체(鯨鯊)·대만 표기(宿霧)로 물으면 간체로 바꿔 찾는다.
 - **list 거르기:**
-  - 분류·권역·지역은 key(`beach`)나 어느 언어 이름의 일부(`해변`, `Beach`)로 준다. 태그는 부분 일치다.
-  - `--sort rating` 은 높은 순, `budget` 은 싼 순이다.
-  - 기본 30곳까지 보이고, `--limit` 으로 늘린다.
+  - 분류·권역·지역·태그는 key(`beach`)나 어느 언어 이름의 일부(`해변`, `Beach`, `海滩`)로 준다. `--tag` 는 여러 번 주면 모두 맞는 곳이다.
+  - **태그는 곳마다 대표 5개뿐이다.** 활동(스노클링·고래상어·서핑)은 태그로 거르면 절반쯤 빠진다 — `search` 로 본문 전체를 찾고, 분류·달은 거르기로 더한다.
+  - `--max-budget N` 은 예산 범위의 아래 끝이 N 이하인 곳이다(범위가 겹침). 예산 칸 괄호의 기준(1일·투어 1회·당일치기)을 확인한다.
+  - `--q` 는 이름·카피·요약·태그만 본다. 본문까지는 `search`.
+  - `--sort rating` 은 높은 순, `budget` 은 싼 순이다. 기본 30곳까지 보이고, `--limit` 으로 늘린다.
 - **단락 key:** `overview`(한눈에 보기) · `highlights`(꼭 해봐야 할 것) · `itinerary`(추천 일정) · `getting_there`(가는 방법) · `best_time`(최적기와 날씨) · `costs`(예상 비용) · `stay_and_food`(숙소와 먹거리) · `tips`(여행 팁) · `cautions`(주의사항) · `nearby`(함께 가보면 좋은 곳)
 - **흔한 조건 → 거르기**
 
   | 조건 | 거르기 |
   |------|--------|
-  | 아이·가족 | `--tag 가족` |
+  | 아이·가족 | `--tag 가족`(대표 태그) — 빠진 곳이 있으니 `search 가족 --category beach` 로도 본다 |
   | 쉬운 곳 | `--difficulty 쉬움` (또는 easy·1) |
-  | 싸게 | `--max-budget 2000 --sort budget` |
-  | 다이빙·스노클링 | `--category diving` 또는 `--tag 스노클링` |
+  | 싸게 | `--max-budget 2000 --sort budget` — 예산 기준(괄호)이 같은 곳끼리 비교 |
+  | 다이빙·스노클링 | `--category diving` 과 `search 스노클링` 을 함께 |
+  | 지역 + 활동 | `search 鲸鲨 --region 巴拉望` |
   | 그 밖 | `values` 로 태그를 보고 고르거나 `search`·`sql` 을 쓴다 |
 
 - **search:**
-  - 3글자 이상 낱말은 FTS5 trigram 으로, 짧은 낱말은 글에서 직접 찾는다.
+  - 공백과 문장부호(`，`·`、`)로 낱말을 나누고, 모든 낱말이 든 곳을 찾는다. `"…"` 는 붙은 구절이다.
+  - 3글자 이상은 FTS5 trigram, 짧은 낱말은 글에서 직접 찾는다. 대소문자는 가리지 않는다.
+  - 이름으로 찾으면 그 여행지가, 대표 태그가 맞으면 그곳이 먼저 나온다.
   - 부분 문자열이라 짧은 낱말은 다른 낱말 속에도 걸린다(아이 → 파오아이). 구체적인 표현을 쓴다.
+  - 띄어 쓰지 않는 언어(zh·ja·th)는 질문을 **2~4글자 낱말로 띄워** 찾는다 — `和鲸鲨一起游泳` 이 아니라 `鲸鲨 游泳`.
+- **달:** `--month` 는 12·12월·12月·Dec 를 받는다. 0곳이어도 불가능하다는 뜻은 아니다 — 연중 가능한 곳(오슬롭)이나 시즌이 긴 곳은 `best_time` 단락을 읽는다.
 - **로컬 빌드를 읽을 때**는 `--base <폴더>` 나 `TRAVEL_API_BASE=<폴더>` 를 쓴다. 예: 저장소 안에서 `node scripts/build.mjs` 뒤 `--base _site/v2`.
-- **받기 실패:** 받지 못하면 캐시로 답하고, 캐시도 없으면 오류를 낸다. Node 22.13 이상이 필요하다(내장 `node:sqlite`).
-- **순서:** 여러 조건이면 `list` 로 후보를 좁히고, 고른 곳을 `show --section` 으로 필요한 단락만 읽고 답한다.
+- **받기 실패:** 받지 못하면 캐시로 답하고, 캐시도 없으면 원인을 한 줄로 알린다(주소 404, API 가 옛 형식 등). Node 22.13 이상이 필요하다(내장 `node:sqlite`).
+- **순서:** 여러 조건이면 `list`·`search` 로 후보를 좁히고, 고른 곳을 `show --section` 으로 필요한 단락만 읽고 답한다.
 
 답할 때 지킬 것:
 
 1. **데이터에 있는 것으로 답한다.**
-   - 여행지 이름은 `그 언어 이름 (영문 이름)` 으로 쓴다. 예: 보라카이 (Boracay).
+   - 여행지 이름은 `그 언어 이름 (영문 이름)` 으로 쓴다. 예: 보라카이 (Boracay), 长滩岛 (Boracay). 영어로 답할 때는 영문 이름 하나만 쓴다.
    - 데이터에 없는 곳·내용은 "이 API 에는 없다"고 밝힌다. 일반 지식을 보탤 때는 데이터와 구분한다.
 2. **금액·요금은 "2026년 기준 대략치"** 라고 밝힌다. 환경세·입장 예약제처럼 자주 바뀌는 규정은 최신 공지를 확인하라고 덧붙인다.
    - 예산은 1인 기준이다. 표의 예산 칸 괄호에 기준(투어 1회, 6박 리브어보드 …)이 붙어 있으면 그 기준을 함께 적는다. 괄호가 없으면 대개 1일이다.
@@ -125,8 +135,8 @@ $T info                                                # version·언어·DB 위
   - `node scripts/travel-db.mjs export --out <폴더> [--langs …] [--no-images] [--no-json]` — 넣어 쓸 폴더(manifest·meta·places·images/·travel.css·renderer.js). PHP 사이트는 `--no-json`(DB 를 읽으므로 JSON 불필요)
 - **PHP 웹사이트:**
   - `assets/TravelDb.php` — 읽기 전용 PDO. list·search·place·near·terms·text 가 있다.
-  - `assets/travel-page.php` — 목록(분류·달 거르기·검색)은 서버 HTML, 상세는 renderer.js. JSON-LD·canonical·hreflang·noscript 포함.
-  - DB 와 `TravelDb.php` 는 웹 루트 밖에 두고, DB 는 새 파일로 통째로 바꾼다.
+  - `assets/travel-page.php` — 목록(분류·달 거르기·검색)은 서버 HTML, 상세는 renderer.js. 8개 언어 화면 글, JSON-LD·canonical·hreflang·noscript 포함. 설정 다섯 줄(경로·공개 주소 `TRAVEL_ORIGIN`·기본 언어)만 고친다.
+  - DB 와 `TravelDb.php` 는 웹 루트 밖에 둔다. 서버 SQLite 3.34+ 를 확인하고, 올릴 때는 사진 더하기 → `.new` 로 올려 검사 → `mv` → 옛 사진 지우기 순서다([embedding.md](references/embedding.md) §3.2).
 - **Flutter 앱:**
   - `assets/travel_db.dart` — `sqlite3` 패키지. `openEmbedded` 가 애셋 DB 를 버전이 바뀔 때만 복사한다.
   - `assets/travel_blocks.dart` — 48개 type 위젯, RTL 을 지원한다.

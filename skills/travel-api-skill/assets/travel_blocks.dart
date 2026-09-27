@@ -290,7 +290,7 @@ class TravelBlocks {
         return Row(mainAxisSize: MainAxisSize.min, children: [
           CircleAvatar(backgroundImage: NetworkImage(url(b['url'])), onBackgroundImageError: (error, stack) {}),
           const SizedBox(width: 8),
-          Text(b['name'] ?? ''),
+          Flexible(child: Text(b['name'] ?? '')),
         ]);
       case 'video':
       case 'youtube':
@@ -348,7 +348,8 @@ class TravelBlocks {
               decoration: BoxDecoration(color: i < (b['value'] as int) ? scheme.primary : scheme.outlineVariant, borderRadius: BorderRadius.circular(3)),
             ),
           const SizedBox(width: 6),
-          Text(b['text'] ?? '', style: const TextStyle(fontWeight: FontWeight.w600)),
+          // 좁은 칸(정보 카드)에서 긴 번역(Moderate·Умеренная)이 넘치지 않게 줄바꿈한다
+          Flexible(child: Text(b['text'] ?? '', style: const TextStyle(fontWeight: FontWeight.w600))),
         ]);
       case 'latitude':
       case 'longitude':

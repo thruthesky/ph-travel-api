@@ -39,7 +39,16 @@ class TravelDb {
     final version = db.select('PRAGMA user_version').first.columnAt(0) as int;
     if (version != 1) throw StateError('travel.db 스키마 버전 $version — 이 코드는 1 을 안다');
     meta = {for (final r in db.select("SELECT key, value FROM meta WHERE key != 'meta_json'")) r['key'] as String: r['value'] as String};
-    hasFts = db.select("SELECT 1 FROM sqlite_master WHERE name = 'place_fts'").isNotEmpty;
+    // 표가 있어도 SQLite 가 trigram 을 모르면(3.34 미만) MATCH 가 예외를 낸다 — 한 번 찾아 보고, 안 되면 글에서 직접 찾는다
+    var fts = db.select("SELECT 1 FROM sqlite_master WHERE name = 'place_fts'").isNotEmpty;
+    if (fts) {
+      try {
+        db.select('''SELECT rowid FROM place_fts WHERE place_fts MATCH '"abc"' LIMIT 1''');
+      } on SqliteException {
+        fts = false;
+      }
+    }
+    hasFts = fts;
   }
 
   final Database db;
@@ -96,6 +105,16 @@ class TravelDb {
 
   /// 여행지 목록 — (전체 수, 이 쪽의 행들). 행은 place_list 뷰의 열과 같다.
   ({int total, List<Map<String, Object?>> items}) list(TravelFilter f, String lang, {int limit = 30, int offset = 0}) {
+    final (sqlWhere, args) = _filterWhere(f, lang);
+    // 정렬은 정해진 값만 — 입력을 SQL 에 그대로 넣지 않는다
+    final order = const {'rating': 'rating DESC, id', 'budget': 'budget_min, id', 'name': 'title', 'id': 'id'}[f.sort] ?? 'id';
+    final total = db.select('SELECT count(*) AS n FROM place_list WHERE $sqlWhere', args).first['n'] as int;
+    final items = db.select('SELECT * FROM place_list WHERE $sqlWhere ORDER BY $order LIMIT ? OFFSET ?', [...args, limit, offset]).map(_withImage).toList();
+    return (total: total, items: items);
+  }
+
+  /// list·search 의 거르기 → place_list 의 WHERE 와 인자.
+  (String, List<Object?>) _filterWhere(TravelFilter f, String lang) {
     final where = <String>['lang = ?'];
     final args = <Object?>[lang];
     void add(String sql, List<Object?> values) {
@@ -115,48 +134,74 @@ class TravelDb {
       final like = '%${f.q!.replaceAllMapped(RegExp(r'[\\%_]'), (m) => '\\${m[0]}')}%';
       add(r"(title LIKE ? ESCAPE '\' OR tagline LIKE ? ESCAPE '\' OR summary LIKE ? ESCAPE '\' OR tags LIKE ? ESCAPE '\')", [like, like, like, like]);
     }
-    // 정렬은 정해진 값만 — 입력을 SQL 에 그대로 넣지 않는다
-    final order = const {'rating': 'rating DESC, id', 'budget': 'budget_min, id', 'name': 'title', 'id': 'id'}[f.sort] ?? 'id';
-    final sqlWhere = where.join(' AND ');
-    final total = db.select('SELECT count(*) AS n FROM place_list WHERE $sqlWhere', args).first['n'] as int;
-    final items = db.select('SELECT * FROM place_list WHERE $sqlWhere ORDER BY $order LIMIT ? OFFSET ?', [...args, limit, offset]).map(_withImage).toList();
-    return (total: total, items: items);
+    return (where.join(' AND '), args);
   }
 
-  /// 전문 검색 — 낱말(공백으로 나눔)이 모두 들어 있는 여행지. 3글자(코드 포인트) 이상은 FTS5 trigram, 짧은 낱말은 글에서 직접.
+  /// 검색어 → 낱말. "…" 로 감싼 곳은 한 구절("life vest"), 나머지는 공백과 문장부호(, ， 、 ; ； 。 ! ！ ? ？)로 나눈다.
+  static List<String> words(String query) => RegExp(r'"([^"]+)"|[^\s,，、;；。!！?？"]+', unicode: true)
+      .allMatches(query)
+      .map((m) => (m.group(1) ?? m.group(0)!).trim())
+      .where((w) => w.isNotEmpty)
+      .toList();
+
+  /// text 에 낱말이 모두 들어 있나 — 대소문자를 가리지 않는다(trigram 과 같게).
+  static bool _hasAll(Object? text, List<String> words) {
+    final low = '${text ?? ''}'.toLowerCase();
+    return words.every((w) => low.contains(w.toLowerCase()));
+  }
+
+  /// 전문 검색 — 낱말(words())이 모두 들어 있는 여행지. 3글자(코드 포인트) 이상은 FTS5 trigram, 짧은 낱말은 글에서 직접.
+  /// filter 는 list 와 같다 — 검색과 분류·달 거르기를 함께 쓴다(sort 는 무시).
+  /// 순서: 제목에 모든 낱말 → 대표 태그에 모든 낱말 → 점수 → id (Node·PHP 구현과 같다).
   /// 행에 snippet 이 붙는다 — 찾은 낱말은 [ ] 로 감싸져 있다.
-  List<Map<String, Object?>> search(String query, String lang, {int limit = 20}) {
-    final words = query.trim().split(RegExp(r'\s+')).where((w) => w.isNotEmpty).toList();
+  List<Map<String, Object?>> search(String query, String lang, {int limit = 20, TravelFilter? filter}) {
+    final words = TravelDb.words(query);
     if (words.isEmpty) return [];
     final long = words.where((w) => w.runes.length >= 3).toList();
     var short = words.where((w) => w.runes.length < 3).toList();
     final List<Map<String, Object?>> rows;
     if (long.isNotEmpty && hasFts) {
       final match = long.map((w) => '"${w.replaceAll('"', '""')}"').join(' AND ');
-      rows = db.select('''SELECT t.place_id, snippet(place_fts, 3, '[', ']', '…', 64) AS snippet, bm25(place_fts, 10, 6, 3, 1) AS score
+      rows = db.select('''SELECT t.place_id, t.title, t.tags, snippet(place_fts, 3, '[', ']', '…', 64) AS snippet, bm25(place_fts, 10, 6, 3, 1) AS score
         FROM place_fts JOIN place_texts t ON t.id = place_fts.rowid
         WHERE place_fts MATCH ? AND t.lang = ? ORDER BY score LIMIT 200''', [match, lang]).map(Map.of).toList();
     } else {
-      rows = db.select('SELECT place_id, NULL AS snippet, 0.0 AS score FROM place_texts WHERE lang = ?', [lang]).map(Map.of).toList();
-      short = words; // FTS 가 없으면 모든 낱말을 글에서 찾는다
+      rows = db.select('SELECT place_id, title, tags, NULL AS snippet, 0.0 AS score FROM place_texts WHERE lang = ?', [lang]).map(Map.of).toList();
+      short = words; // FTS 가 없으면 모든 낱말을 글에서 찾는다 (점수·발췌는 첫 낱말 기준)
+    }
+    Set<int>? allowed;
+    if (filter != null) {
+      final (sqlWhere, args) = _filterWhere(filter, lang);
+      allowed = {for (final r in db.select('SELECT id FROM place_list WHERE $sqlWhere', args)) r['id'] as int};
     }
     final hits = <Map<String, Object?>>[];
     for (final r in rows) {
+      if (allowed != null && !allowed.contains(r['place_id'])) continue;
       if (short.isNotEmpty) {
-        final t = db.select('SELECT title, tags, body FROM place_texts WHERE place_id = ? AND lang = ?', [r['place_id'], lang]).first;
-        final text = '${t['title']}\n${t['tags']}\n${t['body']}';
-        if (!short.every(text.contains)) continue;
+        final t = db.select('SELECT title, tags, summary, body FROM place_texts WHERE place_id = ? AND lang = ?', [r['place_id'], lang]).first; // FTS 의 네 열과 같게
+        final all = '${t['title']}\n${t['tags']}\n${t['summary']}\n${t['body']}';
+        if (!_hasAll(all, short)) continue;
         if (r['snippet'] == null) {
-          final w = short.first;
-          final i = text.indexOf(w);
-          r['snippet'] = '${i > 30 ? '…' : ''}${text.substring(math.max(0, i - 30), i)}[$w]${text.substring(i + w.length, math.min(text.length, i + w.length + 50))}…';
-          r['score'] = -(text.split(w).length - 1).toDouble(); // 많이 나올수록 앞으로
+          final w = short.first.toLowerCase();
+          // 발췌는 요약·본문에서 먼저 — 제목·태그 나열로 시작하지 않게
+          final body = '${t['summary']}\n${t['body']}';
+          final text = _hasAll(body, [w]) ? body : all;
+          final i = text.toLowerCase().indexOf(w);
+          r['snippet'] = '${i > 30 ? '…' : ''}${text.substring(math.max(0, i - 30), i)}[${text.substring(i, i + w.length)}]${text.substring(i + w.length, math.min(text.length, i + w.length + 50))}…';
+          r['score'] = -(all.toLowerCase().split(w).length - 1).toDouble(); // 많이 나올수록 앞으로
         }
       }
       r['snippet'] = (r['snippet'] as String).replaceAll('\n', ' ');
+      // 이름으로 찾으면 그 여행지가, 대표 태그가 맞으면 그곳이 앞 — bm25 는 긴 본문에 불리하다
+      r['boost'] = _hasAll(r['title'], words) ? 2 : (_hasAll(r['tags'], words) ? 1 : 0);
       hits.add(r);
     }
-    hits.sort((a, b) => (a['score'] as num).compareTo(b['score'] as num));
+    // 제목 → 태그 → 점수 → id 순. Dart 의 sort 는 안정 정렬이 아니라서 마지막 기준까지 꼭 정한다
+    hits.sort((a, b) {
+      var c = (b['boost'] as int).compareTo(a['boost'] as int);
+      if (c == 0) c = (a['score'] as num).compareTo(b['score'] as num);
+      return c != 0 ? c : (a['place_id'] as int).compareTo(b['place_id'] as int);
+    });
     final top = hits.take(limit).toList();
     final items = _rows(top.map((h) => h['place_id'] as int).toList(), lang);
     return [for (final h in top) {...items[h['place_id']]!, 'snippet': h['snippet']}];
