@@ -36,9 +36,9 @@
 | `rating` | `rating` | `label: "추천도"`, `value`, `max: 5` | 4.0~5.0 소수 1자리 |
 | `latitude` | `latitude` | `label: "위도"`, `value` | 소수 4자리, 4~22 |
 | `longitude` | `longitude` | `label: "경도"`, `value` | 소수 4자리, 116~127 |
-| `best_season` | `date` | `label: "여행 최적기"`, `icon: "calendar_month"`, `text`, `months` | `months` 는 해당 달(1~12)을 시작 달부터 순서대로. `연중` 이면 1~12 |
+| `best_season` | `date` | `label: "여행 최적기"`, `icon: "calendar_month"`, `text`, `months` | `months` 는 해당 달(1~12)을 첫 기간의 시작 달부터 순서대로. 목적별 기간(서핑·해변 등)이 여럿이면 모두 합치고, 축제 달은 넣지 않는다. `연중` 이면 1~12 |
 | `duration` | `duration` | `label: "여행 기간"`, `icon: "schedule"`, `text` | 반나절, 1박 2일, 2~3일 … |
-| `budget` | `price` | `label: "예산"`, `icon: "payments"`, `text`, `currency: "PHP"`, `min`, `max` | 1인 1일(또는 투어 1회) 기준, text 에 "약"을 붙인다. min·max 는 text 의 ₱ 범위 |
+| `budget` | `price` | `label: "예산"`, `icon: "payments"`, `text`, `currency: "PHP"`, `min`, `max` | 1인 기준, text 에 "약"을 붙인다. 1일이 아닌 기준(투어 1회, 리브어보드 등)은 text 끝 괄호에 적는다. min·max 는 text 의 ₱ 범위 |
 | `difficulty` | `level` | `label: "난이도"`, `icon: "signal_cellular_alt"`, `text`, `value`, `max: 3` | 쉬움 1 · 보통 2 · 어려움 3 (접근성·체력 기준) |
 | `airport` | `airport` | `label: "가까운 공항"`, `icon: "flight"`, `text`, `code` | text 는 `이름(코드)`, code 는 IATA 3자리 |
 | `image` | `image` | `url`, `alt`, `credit`, `source` | 대표 사진 (5절) |

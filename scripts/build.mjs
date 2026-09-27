@@ -1,8 +1,10 @@
 // 여행지 JSON(data/*.json)·표시 방법 목록(data/content_display_type.json)·사진(data/images/*.webp)을 정적 JSON API 로 만든다.
 //
 // 실행: node scripts/build.mjs  →  _site/v2/ 에 manifest.json · places.json · content_display_type.json · images/ 를 만든다.
+//        스킬(skills/travel-api-skill)도 검사해 설치·업데이트용 묶음 _site/skills/travel-api-skill.tar.gz 를 만든다.
 // 규격을 어기는 파일이 하나라도 있으면 오류를 모두 출력하고 exit 1 로 끝나서 배포되지 않는다.
-// 외부 패키지를 쓰지 않는다 — Node 만 있으면 된다.
+// 외부 패키지를 쓰지 않는다 — Node 와 시스템 tar 만 있으면 된다.
+import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -14,6 +16,8 @@ const SCHEMA = 2;
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = join(root, 'data');
 const outDir = join(root, '_site', `v${SCHEMA}`);
+const SKILL = 'travel-api-skill';
+const skillDir = join(root, 'skills', SKILL);
 
 // 작성 규격(data/README.md)과 같은 값들.
 const ISLAND_GROUPS = ['루손', '비사야', '민다나오'];
@@ -284,12 +288,40 @@ function parsePlace(file) {
   return { ...resolveImages(raw, file), links: place.links };
 }
 
+// ───────────── 스킬 ─────────────
+
+/** 스킬 폴더를 검사한다. 이 저장소의 .claude/skills 에 있는 입구 SKILL.md 와 description 이 같아야 한다. */
+function checkSkill() {
+  const fail = (m) => errors.push(`skills/${SKILL}: ${m}`);
+  const head = (path) => {
+    const text = readFileSync(path, 'utf8');
+    return text.startsWith('---\n') ? text.slice(4, text.indexOf('\n---', 4)) : '';
+  };
+  if (!existsSync(join(skillDir, 'SKILL.md'))) return fail('SKILL.md 없음');
+  const main = head(join(skillDir, 'SKILL.md'));
+  if (!new RegExp(`^name: ${SKILL}$`, 'm').test(main)) fail(`앞머리 name 이 ${SKILL} 가 아님`);
+  if (!/^  version: "?[\w.-]+"?$/m.test(main)) fail('앞머리 metadata.version 없음');
+  const entry = join(root, '.claude', 'skills', SKILL, 'SKILL.md');
+  const description = (text) => /^description: (.+)$/m.exec(text)?.[1];
+  if (existsSync(entry) && description(head(entry)) !== description(main)) fail('.claude/skills 입구 SKILL.md 의 description 이 원본과 다름');
+  for (const file of ['scripts/travel.mjs', 'scripts/apis.json', 'scripts/update.sh']) if (!existsSync(join(skillDir, file))) fail(`${file} 없음`);
+}
+
+/** 설치·업데이트용 묶음. macOS 의 ._ 부가 파일이 들어가지 않게 COPYFILE_DISABLE 을 켠다. */
+function packSkill() {
+  const out = join(root, '_site', 'skills', `${SKILL}.tar.gz`);
+  mkdirSync(dirname(out), { recursive: true });
+  execFileSync('tar', ['-czf', out, '--exclude=.DS_Store', '-C', join(root, 'skills'), SKILL], { env: { ...process.env, COPYFILE_DISABLE: '1' } });
+  return out;
+}
+
 // ───────────── 빌드 ─────────────
 
 rmSync(join(root, '_site'), { recursive: true, force: true });
 mkdirSync(join(outDir, 'images'), { recursive: true });
 
 checkCatalog();
+checkSkill();
 const files = readdirSync(dataDir).filter((name) => /^\d{3}-.+\.json$/.test(name)).sort();
 const parsed = files.map(parsePlace).filter(Boolean).sort((a, b) => a.id - b.id);
 
@@ -327,6 +359,7 @@ writeFileSync(
   join(outDir, 'manifest.json'),
   `${JSON.stringify({ ...head, count, places: 'places.json', content_display_type: 'content_display_type.json', generated_at: new Date().toISOString() }, null, 2)}\n`,
 );
+packSkill();
 const unused = Object.keys(used).filter((t) => !used[t]);
-console.log(`여행지 ${count}곳 → _site/v${SCHEMA}/ (version ${version})`);
+console.log(`여행지 ${count}곳 → _site/v${SCHEMA}/ (version ${version}) · 스킬 묶음 → _site/skills/${SKILL}.tar.gz`);
 console.log(`content_display_type ${Object.keys(TYPES).length}개 중 ${Object.keys(TYPES).length - unused.length}개 사용 — 미사용: ${unused.join(', ')}`);

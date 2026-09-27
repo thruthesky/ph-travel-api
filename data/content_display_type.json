@@ -347,7 +347,7 @@
         }
       },
       "html": "<div class=\"cdt-carousel\">…<figure>…</figure>…</div>",
-      "css": ".cdt-carousel{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory}.cdt-carousel>*{flex:0 0 86%;scroll-snap-align:center;margin:0}",
+      "css": ".cdt-carousel{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory}.cdt-carousel>*{flex:0 0 86%;scroll-snap-align:center;margin:0}.cdt-carousel img{aspect-ratio:3/2;object-fit:cover}.cdt-carousel .cdt-credit{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}",
       "flutter": "PageView.builder(controller: PageController(viewportFraction: 0.88)) 또는 Material 3 CarouselView + 점 표시기",
       "example": {
         "type": "carousel",
@@ -1008,7 +1008,7 @@
         "max": { "kind": "number", "description": "범위의 위 값" }
       },
       "html": "<data class=\"cdt-price\" value=\"2000\">₱2,000~4,000</data>",
-      "css": ".cdt-price{font-weight:700;color:var(--cdt-accent-strong);white-space:nowrap}",
+      "css": ".cdt-price{font-weight:700;color:var(--cdt-accent-strong)}:where(p,li,span)>.cdt-price{white-space:nowrap}",
       "flutter": "TextSpan(text, style: TextStyle(fontWeight: FontWeight.w700, color: 강조색))",
       "example": {
         "type": "price",

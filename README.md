@@ -9,6 +9,47 @@
 
 여행 정보는 화면에 바로 그릴 수 있는 **블록 JSON** 이다. 모든 값에 `type`(content_display_type)이 붙어 있어서, 웹·앱은 type 마다 알맞은 위젯(히어로·탭·아코디언·카드·타임라인·비용표·별점 …)을 골라 그리면 된다. type 의 뜻과 권장 HTML·CSS·Flutter 위젯은 `content_display_type.json` 에 함께 내려간다.
 
+## 0. AI 스킬 — travel-api-skill
+
+Claude Code 에 `travel-api-skill` 을 설치하면 AI 가 이 API 를 잘 쓴다.
+
+- 여행 질문에 데이터로 답한다 — 추천·일정·비용·가는 방법·가까운 곳.
+- 웹·Flutter 앱에서 받기·저장·그리기 코드를 만든다. 참고 렌더러가 들어 있다.
+- 이 저장소의 여행지 추가·검사·배포를 돕는다.
+
+스킬 원본은 [skills/travel-api-skill](skills/travel-api-skill/SKILL.md) 이다.
+
+**설치 — 모든 프로젝트에서 쓰기 (사용자 스킬).** 터미널에 붙여 넣는다.
+
+```bash
+mkdir -p ~/.claude/skills && curl -fsSL https://thruthesky.github.io/ph-travel-api/skills/travel-api-skill.tar.gz | tar -xz -C ~/.claude/skills
+```
+
+**설치 — 한 프로젝트에서만 쓰기 (프로젝트 스킬).** 그 프로젝트 폴더에서 실행한다.
+
+```bash
+mkdir -p .claude/skills && curl -fsSL https://thruthesky.github.io/ph-travel-api/skills/travel-api-skill.tar.gz | tar -xz -C .claude/skills
+```
+
+**Claude Code 에게 설치를 맡길 때** — 아래 문장을 대화창에 붙여 넣는다.
+
+```text
+https://thruthesky.github.io/ph-travel-api/skills/travel-api-skill.tar.gz 를 받아 ~/.claude/skills 에 풀어서 travel-api-skill 스킬을 설치해 줘. 설치 뒤 ~/.claude/skills/travel-api-skill/SKILL.md 가 있는지 확인해 줘.
+```
+
+설치한 뒤 Claude Code 를 다시 시작하면 스킬이 잡힌다.
+
+| 사용 | 예 |
+|------|----|
+| 요청 | `/travel-api-skill 12월에 가기 좋은 해변 세 곳 추천해 줘` |
+| 요청 | `/travel-api-skill 세부에서 가까운 곳과 2박 3일 일정 짜 줘` |
+| 요청 | `/travel-api-skill Flutter 앱에서 여행지 상세 화면을 만들어 줘` |
+| 최신으로 갱신 | `/travel-api-skill update` |
+
+- `update` 는 위 묶음을 다시 받아 설치된 스킬 폴더를 통째로 바꾼다. 이 저장소 안의 원본에는 `git pull` 을 안내한다.
+- 조회 도구 `scripts/travel.mjs` 는 Node 18 이상이 필요하다. 받은 JSON 은 `~/.cache/travel-api-skill/` 에 캐시한다.
+- 이 저장소를 연 Claude Code 에서는 설치하지 않아도 [.claude/skills/travel-api-skill](.claude/skills/travel-api-skill/SKILL.md) 입구로 바로 쓸 수 있다.
+
 ## 1. 파일
 
 | 주소 | 내용 |
@@ -17,6 +58,7 @@
 | `v2/places.json` | **여행지 100곳 전체를 한 파일로** (약 1.9MB, 전송 때 gzip 으로 약 450KB) |
 | `v2/content_display_type.json` | 표시 방법 목록 — type 48개의 역할·데이터 모양·권장 HTML·CSS·Flutter 위젯·예시 (약 70KB) |
 | `v2/images/<이름>.webp` | 사진. JSON 의 `url` 로만 접근한다 |
+| `skills/travel-api-skill.tar.gz` | AI 스킬 설치·업데이트 묶음 (§0). API 가 아니라서 `v2/` 밖에 있다 |
 
 GitHub Pages 는 모든 응답에 `Cache-Control: max-age=600` 과 `Access-Control-Allow-Origin: *` 를 붙인다.
 
@@ -28,7 +70,7 @@ GitHub Pages 는 모든 응답에 `Cache-Control: max-age=600` 과 `Access-Contr
 ```json
 {
   "schema": 2,
-  "version": "febd084c0575",
+  "version": "d9130a8a7ecf",
   "count": 100,
   "places": "places.json",
   "content_display_type": "content_display_type.json",
@@ -47,7 +89,7 @@ GitHub Pages 는 모든 응답에 `Cache-Control: max-age=600` 과 `Access-Contr
 ## 3. places.json
 
 ```json
-{ "schema": 2, "version": "febd084c0575", "count": 100, "places": [ { … }, … ] }
+{ "schema": 2, "version": "d9130a8a7ecf", "count": 100, "places": [ { … }, … ] }
 ```
 
 여행지는 `id` 오름차순이다. 한 곳의 모양은 다음과 같다(줄임).
