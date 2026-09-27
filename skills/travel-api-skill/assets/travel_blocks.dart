@@ -1,13 +1,15 @@
 // 여행 정보 API(v2) 블록 JSON 을 Flutter 위젯으로 그리는 참고 구현.
 //
 // 의존성은 flutter/material.dart 하나다. 모델 클래스 없이 JSON(Map)을 그대로 그린다.
-// 그래서 API 에 새 type·키가 늘어도 깨지지 않는다 — 모르는 type 은 content_display_type.json 의 rules 대로 대체한다.
+// 그래서 API 에 새 type·키가 늘어도 깨지지 않는다 — 모르는 type 은 meta.json display.rules 대로 대체한다.
 //
 //   const base = 'https://thruthesky.github.io/ph-travel-api/v2/';
 //   final blocks = TravelBlocks(baseUrl: base, places: places, onPlaceTap: (slug) => context.push('/place/$slug'));
 //   SingleChildScrollView(child: blocks.place(context, placeJson));
 //
 // 실제 앱에서 바꿔 끼울 곳: 사진 캐시(cached_network_image), 지도(flutter_map), 링크 열기(url_launcher), 차트(fl_chart).
+// 데이터는 앱에 넣어(임베딩) 둔 travel.db 나 JSON 에서 읽는다 (references/embedding.md).
+// 아랍어(ar)처럼 오른쪽→왼쪽 언어는 Directionality(textDirection: TextDirection.rtl) 안에서 그리면 된다 — 여백·테두리를 방향 기준으로 잡았다.
 import 'package:flutter/material.dart';
 
 typedef Json = Map<String, dynamic>;
@@ -25,7 +27,7 @@ class TravelBlocks {
 
   String url(String u) => u.startsWith('http') ? u : '$baseUrl$u';
 
-  // ───────────── 여행지 한 곳 — content_display_type.json 의 layouts.place_detail 순서 ─────────────
+  // ───────────── 여행지 한 곳 — meta.json display.layouts.place_detail 순서 ─────────────
 
   Widget place(BuildContext context, Json p) {
     const factKeys = ['location', 'best_season', 'duration', 'budget', 'difficulty', 'airport'];
@@ -83,9 +85,9 @@ class TravelBlocks {
               gradient: LinearGradient(begin: Alignment.bottomCenter, end: Alignment.center, colors: [Color(0xB8000000), Color(0x00000000)]),
             ),
           ),
-          Positioned(
-            left: 20,
-            right: 20,
+          PositionedDirectional(
+            start: 20,
+            end: 20,
             bottom: 20,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -98,7 +100,7 @@ class TravelBlocks {
               ],
             ),
           ),
-          Positioned(top: 8, right: 8, child: _credit(image, onDark: true)),
+          PositionedDirectional(top: 8, end: 8, child: _credit(image, onDark: true)),
         ],
       ),
     );
@@ -240,8 +242,8 @@ class TravelBlocks {
         ]);
       case 'blockquote':
         return Container(
-          padding: const EdgeInsets.only(left: 12),
-          decoration: BoxDecoration(border: Border(left: BorderSide(color: scheme.outlineVariant, width: 4))),
+          padding: const EdgeInsetsDirectional.only(start: 12),
+          decoration: BoxDecoration(border: BorderDirectional(start: BorderSide(color: scheme.outlineVariant, width: 4))),
           child: Text.rich(runs(context, b['children']), style: text.bodyMedium?.copyWith(fontStyle: FontStyle.italic)),
         );
       case 'alert':
@@ -251,7 +253,7 @@ class TravelBlocks {
           decoration: BoxDecoration(
             color: color.withValues(alpha: 0.12),
             borderRadius: BorderRadius.circular(12),
-            border: Border(left: BorderSide(color: color, width: 4)),
+            border: BorderDirectional(start: BorderSide(color: color, width: 4)),
           ),
           child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Icon(iconData(b['icon'] ?? 'info'), color: color.shade800),
@@ -398,7 +400,7 @@ class TravelBlocks {
                 aspectRatio: 16 / 9,
                 child: Stack(fit: StackFit.expand, children: [
                   _networkImage(image),
-                  Positioned(right: 6, bottom: 6, left: 6, child: Align(alignment: Alignment.bottomRight, child: _credit(image, onDark: true, maxLines: 1))),
+                  PositionedDirectional(end: 6, bottom: 6, start: 6, child: Align(alignment: AlignmentDirectional.bottomEnd, child: _credit(image, onDark: true, maxLines: 1))),
                 ]),
               ),
             Padding(
@@ -636,7 +638,7 @@ class _CarouselState extends State<_Carousel> {
           children: [
             for (final it in widget.items)
               Padding(
-                padding: const EdgeInsets.only(left: 12),
+                padding: const EdgeInsetsDirectional.only(start: 12),
                 child: it['type'] == 'image'
                     ? Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                         Expanded(child: ClipRRect(borderRadius: BorderRadius.circular(12), child: SizedBox.expand(child: b._networkImage(it)))),

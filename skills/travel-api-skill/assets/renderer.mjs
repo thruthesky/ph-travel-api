@@ -1,17 +1,16 @@
 // 여행 정보 API(v2) 블록 JSON 을 HTML 로 그리는 참고 렌더러. 외부 패키지 없음 — 브라우저·Node 모두에서 돈다.
+// 데이터는 웹에 넣어(임베딩) 둔 파일에서 읽는다 — 원격 API 를 매번 부르지 않는다 (references/embedding.md).
 //
-//   import { catalogCss, renderPlace, renderPlaceCard, enhance } from './renderer.mjs';
-//   const base = 'https://thruthesky.github.io/ph-travel-api/v2/';
-//   const manifest = await (await fetch(base + 'manifest.json')).json();
-//   const v = '?v=' + manifest.version;
-//   const { places } = await (await fetch(base + manifest.places + v)).json();
-//   const cdt = await (await fetch(base + manifest.content_display_type + v)).json();
-//   document.head.insertAdjacentHTML('beforeend', FONT_LINKS + `<style>${catalogCss(cdt)}</style>`);
+//   import { FONT_LINKS, catalogCss, renderPlace, renderPlaceCard, enhance } from './renderer.mjs';
+//   const meta = await (await fetch('/travel/meta.json')).json();              // 사이트에 넣어 둔 파일
+//   const { places, lang, dir } = await (await fetch('/travel/places.ko.json')).json();
+//   document.head.insertAdjacentHTML('beforeend', FONT_LINKS + `<style>${catalogCss(meta)}</style>`);
 //   document.body.classList.add('cdt-root');   // 글자·배경색 (어두운 화면 포함)
-//   root.innerHTML = renderPlace(places[0], { base, places });
+//   root.innerHTML = renderPlace(places[0], { base: '/travel/', places, lang, dir });
 //   enhance(root); // 탭 버튼을 누를 수 있게 한다
 //
-// 모양(CSS)은 content_display_type.json 의 css_variables·types[].css 를 그대로 쓴다. 클래스 접두어는 cdt-.
+// 모양(CSS)은 meta.json 의 display(css_variables·types[].css)를 그대로 쓴다. 클래스 접두어는 cdt-.
+// 아랍어처럼 오른쪽에서 왼쪽으로 쓰는 언어는 ctx.dir = 'rtl' 로 넘긴다 — 테두리·여백·저작자 위치가 뒤집힌다.
 // 사진 저작자 표기(credit)는 모든 사진에 보인다. 전체가 링크인 카드 안에서는 <a> 를 겹칠 수 없어 글만 보이고,
 // 원본 링크(source)는 상세 화면의 사진에서 준다.
 
@@ -30,9 +29,12 @@ const hash = (s) => { let h = 5381; for (const c of s) h = ((h * 33) ^ c.codePoi
 /** 사진 위 모서리에 얹는 저작자 표기. link=false 면 글만 (카드처럼 전체가 링크일 때). */
 const creditBadge = (img, link = true) => `<small class="cdt-credit cdt-credit--overlay">${link ? `<a href="${esc(safe(img.source))}" target="_blank" rel="noopener">${esc(img.credit)}</a>` : esc(img.credit)}</small>`;
 
-/** 표시 방법 목록의 CSS 를 하나로 모은다. <style> 에 넣어 쓴다. */
-export function catalogCss(cdt) {
-  const glue = '.cdt-root{color:var(--cdt-text);background:var(--cdt-surface)}.cdt-credit--overlay{position:absolute;right:8px;bottom:8px;max-width:calc(100% - 16px);margin:0;padding:2px 6px;border-radius:4px;background:rgba(0,0,0,.55);color:#fff;font-size:.7rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.cdt-credit--overlay a{color:inherit}.cdt-card__media{position:relative;margin-bottom:12px}.material-symbols-outlined{font-size:1.15em;vertical-align:-.2em}.cdt-list[data-icon] .material-symbols-outlined{color:var(--cdt-accent);flex:none}.cdt-facts{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin:16px 0}.cdt-fact{padding:14px 16px;border:1px solid var(--cdt-border);border-radius:var(--cdt-radius)}.cdt-fact__label{display:flex;gap:6px;align-items:center;font-size:.8rem;color:var(--cdt-muted)}.cdt-fact__value{margin-top:4px;font-weight:600}.cdt-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0}';
+/** 표시 방법의 CSS 를 하나로 모은다. meta.json 전체나 그 display 를 받는다. <style> 에 넣어 쓴다. */
+export function catalogCss(metaOrDisplay) {
+  const cdt = metaOrDisplay.display ?? metaOrDisplay;
+  // 오른쪽→왼쪽 언어: display 의 CSS 는 왼쪽 기준이라 테두리·여백을 뒤집는다
+  const rtl = '[dir=rtl] .cdt-stepper{border-left:0;border-right:2px solid var(--cdt-border);padding:0 20px 0 0}[dir=rtl] .cdt-stepper li{padding:0 16px 16px 0}[dir=rtl] .cdt-stepper li::before{left:auto;right:-27px}[dir=rtl] .cdt-alert,[dir=rtl] .cdt-blockquote{border-left:0;border-right:4px solid}[dir=rtl] .cdt-blockquote{border-right-color:var(--cdt-border)}[dir=rtl] .cdt-list{padding-left:0;padding-right:1.4em}[dir=rtl] .cdt-list[data-icon]{padding-right:0}[dir=rtl] .cdt-credit--overlay{right:auto;left:8px}[dir=rtl] .cdt-hero .cdt-credit{right:auto;left:8px}[dir=rtl] .cdt-table th,[dir=rtl] .cdt-table td,[dir=rtl] .cdt-pricing th,[dir=rtl] .cdt-pricing td{text-align:right}';
+  const glue = rtl + '.cdt-root{color:var(--cdt-text);background:var(--cdt-surface)}.cdt-credit--overlay{position:absolute;right:8px;bottom:8px;max-width:calc(100% - 16px);margin:0;padding:2px 6px;border-radius:4px;background:rgba(0,0,0,.55);color:#fff;font-size:.7rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.cdt-credit--overlay a{color:inherit}.cdt-card__media{position:relative;margin-bottom:12px}.material-symbols-outlined{font-size:1.15em;vertical-align:-.2em}.cdt-list[data-icon] .material-symbols-outlined{color:var(--cdt-accent);flex:none}.cdt-facts{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin:16px 0}.cdt-fact{padding:14px 16px;border:1px solid var(--cdt-border);border-radius:var(--cdt-radius)}.cdt-fact__label{display:flex;gap:6px;align-items:center;font-size:.8rem;color:var(--cdt-muted)}.cdt-fact__value{margin-top:4px;font-weight:600}.cdt-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0}';
   return `${cdt.css_variables}\n${Object.values(cdt.types).map((t) => t.css).join('\n')}\n${glue}`;
 }
 
@@ -66,7 +68,7 @@ function image(node, ctx, cls = 'cdt-image') {
 const blocks = (list, ctx) => (list ?? []).map((b) => renderBlock(b, ctx)).join('');
 const table = (cls, head, rows) => `<div class="cdt-table"><table class="${cls}"><thead><tr>${head.map((c) => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table></div>`;
 
-/** 블록 노드 하나. 모르는 type 은 content_display_type.json 의 rules 대로 대체해서 그린다. */
+/** 블록 노드 하나. 모르는 type 은 meta.json display.rules 대로 대체해서 그린다. */
 export function renderBlock(b, ctx = {}) {
   if (!b || typeof b !== 'object') return '';
   const label = b.label ? `<span class="cdt-label">${icon(b.icon)}${esc(b.label)}</span> ` : '';
@@ -128,7 +130,7 @@ export function renderBlock(b, ctx = {}) {
       return table('cdt-pricing', b.columns, b.items.map((it) => `<tr><th scope="row">${esc(it.label)}</th><td class="cdt-pricing__price">${esc(it.price)}</td><td class="cdt-pricing__note">${esc(it.note ?? '')}</td></tr>`));
     case 'chart': // 차트 라이브러리 없이 표로 대신 보여 준다. 실제 앱에서는 Chart.js 등으로 그린다.
       return table('', ['', ...b.labels], b.series.map((s) => `<tr><th scope="row">${esc(s.name)}</th>${s.values.map((v) => `<td>${esc(v)}${esc(b.unit ?? '')}</td>`).join('')}</tr>`));
-    case 'rating': return `<span class="cdt-rating" role="img" aria-label="${esc(b.max)}점 만점에 ${esc(b.value)}점">${'★'.repeat(Math.round(b.value))}${'☆'.repeat(Math.max(0, Math.round(b.max) - Math.round(b.value)))} <b>${esc(b.value)}</b></span>`;
+    case 'rating': return `<span class="cdt-rating" role="img" aria-label="${esc(b.value)}/${esc(b.max)}">${'★'.repeat(Math.round(b.value))}${'☆'.repeat(Math.max(0, Math.round(b.max) - Math.round(b.value)))} <b>${esc(b.value)}</b></span>`;
     case 'level': return `<span class="cdt-level"><meter min="0" max="${esc(b.max)}" value="${esc(b.value)}"></meter> ${esc(b.text)}</span>`;
     case 'latitude': return `${label}<data class="cdt-coord" value="${esc(b.value)}">${Math.abs(b.value)}° ${b.value >= 0 ? 'N' : 'S'}</data>`;
     case 'longitude': return `${label}<data class="cdt-coord" value="${esc(b.value)}">${Math.abs(b.value)}° ${b.value >= 0 ? 'E' : 'W'}</data>`;
@@ -149,10 +151,11 @@ function fact(node, ctx) {
   return `<div class="cdt-fact"><div class="cdt-fact__label">${icon(node.icon)}${esc(node.label)}</div><div class="cdt-fact__value">${value}</div></div>`;
 }
 
-/** 상세 화면 — content_display_type.json 의 layouts.place_detail 순서. 배지 줄에 추천도(rating)를 함께 둔다. */
+/** 상세 화면 — meta.json display.layouts.place_detail 순서. 배지 줄에 추천도(rating)를 함께 둔다. */
 export function renderPlace(p, ctx = {}) {
   const facts = ['location', 'best_season', 'duration', 'budget', 'difficulty', 'airport'].filter((k) => p[k]);
-  return ['<article class="cdt-root cdt-place">',
+  const langAttr = `${ctx.lang ? ` lang="${esc(ctx.lang)}"` : ''}${ctx.dir ? ` dir="${esc(ctx.dir)}"` : ''}`;
+  return [`<article class="cdt-root cdt-place"${langAttr}>`,
     renderBlock({ type: 'hero', image: p.image, title: p.title.text, subtitle: p.title_en?.text, text: p.tagline?.text }, ctx),
     renderBlock(p.gallery, ctx),
     `<div class="cdt-meta">${['category', 'island_group', 'region'].filter((k) => p[k]).map((k) => renderBlock(p[k], ctx)).join('')}${p.rating ? renderBlock(p.rating, ctx) : ''}</div>`,

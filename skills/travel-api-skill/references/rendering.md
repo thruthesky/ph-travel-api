@@ -1,10 +1,10 @@
-# 화면 그리기 — content_display_type 과 참고 렌더러
+# 화면 그리기 — 표시 방법(meta.display)과 참고 렌더러
 
-여행지 JSON 을 웹·앱 화면으로 그리는 방법이다. 받는 방법은 [api.md](api.md) 에 있다.
+여행지 JSON 을 웹·앱 화면으로 그리는 방법이다. 데이터는 제품에 넣어 둔 것을 쓴다([embedding.md](embedding.md)). 파일 모양은 [api.md](api.md) 에 있다.
 
 ## 목차
 
-1. content_display_type.json 의 구조
+1. 표시 방법(meta.json 의 display)의 구조
 2. 그리는 규칙 — 노드 자리, 글 조각, 모르는 type
 3. 지금 쓰이는 type 30개와 권장 위젯
 4. 권장 배치 — layouts
@@ -12,7 +12,9 @@
 6. Flutter 참고 렌더러 `assets/travel_blocks.dart`
 7. 자주 틀리는 것
 
-## 1. content_display_type.json 의 구조
+## 1. 표시 방법(meta.json 의 display)의 구조
+
+예전 `content_display_type.json` 이 `meta.json` 의 `display` 로 들어갔다. 모양은 같다.
 
 | 키 | 내용 |
 |----|------|
@@ -26,8 +28,10 @@
 | `layouts` | 권장 배치 — `place_card`, `place_detail` (§4) |
 | `types` | type 48개 — `group` · `context` · `name` · `role` · `props` · `variants` · `html` · `css` · `flutter` · `example` · `used` |
 
-- `props.<키>` 는 `{ kind, required?, min?, enum?, types?, item?, description }` 다. 빌드가 이 규격으로 모든 노드를 검사한다. 그래서 문서와 데이터가 어긋나지 않는다.
-- `used` 는 지금 places.json 에서 쓰인 횟수다(빌드가 센다). 0 인 type 은 앞으로 쓰려고 미리 정한 것이다.
+- `props.<키>` 는 `{ kind, required?, translate?, min?, enum?, types?, item?, description }` 다. 빌드가 이 규격으로 모든 노드를 검사한다. 그래서 문서와 데이터가 어긋나지 않는다.
+- `translate: true` 인 prop 만 언어마다 값이 다르다(text·title·children·alt·tags 의 items·pricing 의 label·price·note …). 나머지(icon·variant·url·place·value …)는 모든 언어가 같다. 그래서 한 렌더러가 어느 언어 파일이든 그린다.
+- `badge` 에는 언어 공통 key 인 `value` 가 있다(분류 `beach`, 권역 `visayas`, 지역 `cebu`). 거르기·링크·CSS 클래스에는 `value` 를, 화면 글에는 `text` 를 쓴다.
+- `used` 는 원본(ko) 파일에서 쓰인 횟수다(빌드가 센다). 0 인 type 은 앞으로 쓰려고 미리 정한 것이다.
 - 한 type 의 규격을 볼 때: `node scripts/travel.mjs types <type> [--css]`
 
 ## 2. 그리는 규칙
@@ -45,7 +49,8 @@
    - 그 밖에는 건너뛴다. 모르는 키는 무시한다.
 5. **아이콘**은 Material Symbols 이름이다. Flutter 는 `Icons.<이름>`, 웹은 Material Symbols 글꼴을 쓴다.
 6. **디자인은 자유**다. `html`·`css`·`flutter` 는 권장안이다. 다만 `role`(역할)은 지킨다.
-7. **사진의 `credit`·`source` 는 반드시 보인다** (CC 라이선스 조건).
+7. **언어와 글 방향.** 화면 글은 그 언어 파일의 `text`·`title`·`label` 을 그대로 쓴다(번역돼 있다). 아랍어(`ar`)는 오른쪽→왼쪽이라 감싸는 요소에 `dir="rtl"`(웹)·`Directionality(rtl)`(Flutter)을 준다. places 파일의 `dir` 과 `meta.languages[].dir` 에 적혀 있다.
+8. **사진의 `credit`·`source` 는 반드시 보인다** (CC 라이선스 조건).
    - 히어로·캐러셀·목록 카드·링크 카드의 사진도 모두 해당한다.
    - 카드 전체가 링크(`<a>`)면 안에 source 링크를 겹칠 수 없다. 그때는 credit 글만 사진 모서리에 보이고, source 링크는 상세 화면의 사진에서 준다.
 
@@ -76,7 +81,7 @@
 
 ## 4. 권장 배치 — layouts
 
-`content_display_type.json` 의 `layouts` 는 여행지 속성을 어느 type 으로 묶어 어떤 순서로 그릴지 정한다.
+`meta.display.layouts` 는 여행지 속성을 어느 type 으로 묶어 어떤 순서로 그릴지 정한다.
 
 - **place_card (목록 카드):** image(16:10, 모서리에 credit) → category 배지 → title → tagline(2줄) → rating → region
 - **place_detail (상세 화면):**
@@ -96,28 +101,34 @@
 | 내보내는 것 | 하는 일 |
 |-------------|---------|
 | `FONT_LINKS` | 아이콘(Material Symbols)과 tagline 글꼴(Noto Serif KR) `<link>` — `<head>` 에 넣는다. 없으면 아이콘 자리에 `account_balance` 같은 글자가 보인다 |
-| `catalogCss(cdt)` | css_variables + 모든 type 의 css + 정보 칸·저작자 표기·`.cdt-root` CSS 를 한 문자열로 |
+| `catalogCss(meta)` | css_variables + 모든 type 의 css + 정보 칸·저작자 표기·`.cdt-root`·오른쪽→왼쪽 CSS 를 한 문자열로. `meta.json` 전체나 그 `display` 를 받는다. `export` 가 이것을 미리 `travel.css` 로 써 둔다 |
 | `renderRuns(runs, ctx)` | 글 조각 → HTML (모든 글 이스케이프) |
 | `renderBlock(node, ctx)` | 블록 노드 → HTML, 48개 type + 대체 규칙 |
 | `renderPlace(place, ctx)` | 상세 화면 (layouts.place_detail) — `<article class="cdt-root cdt-place">` |
 | `renderPlaceCard(place, ctx)` | 목록 카드 (layouts.place_card) — 카드 전체가 링크, 저작자 글은 사진 모서리 |
 | `enhance(root)` | innerHTML 로 넣은 뒤 한 번 부른다 — 탭 클릭·좌우 방향키 |
 
-`ctx` = `{ base, places?, placeHref? }`
+`ctx` = `{ base, places?, placeHref?, lang?, dir? }`
 - `base`: 사진 상대 경로의 기준. 끝 `/` 는 없어도 된다.
+- `lang`·`dir`: 상세 화면 `<article>` 의 `lang`·`dir` — 아랍어는 `dir: 'rtl'`.
 - `places`: 링크 카드에 그 여행지 사진·저작자를 보여 줄 때 쓴다.
 - `placeHref(slug)`: 여행지 링크 주소. 기본은 `#/place/<slug>` 해시 라우팅이다.
 
 ### 5.1 페이지에 붙이기
 
-```js
-import { FONT_LINKS, catalogCss, renderPlace, renderPlaceCard, enhance } from './renderer.mjs';
-import { loadTravel } from './load-travel.mjs';        // api.md §5.1
+`travel-db.mjs export --out public/travel` 로 넣어 둔 폴더(manifest·meta·places.<lang>.json·images/·travel.css·renderer.js)를 쓴다.
 
-const { base, places, cdt } = await loadTravel();       // 로컬 시험: loadTravel('http://127.0.0.1:8765/v2/')
-document.head.insertAdjacentHTML('beforeend', FONT_LINKS + `<style>${catalogCss(cdt)}</style>`);
+```js
+import { FONT_LINKS, renderPlace, renderPlaceCard, enhance } from '/travel/renderer.js';
+
+const m = await (await fetch('/travel/manifest.json')).json();
+const lang = m.places[navigator.language.slice(0, 2)] ? navigator.language.slice(0, 2) : m.fallback_language;
+const { places, dir } = await (await fetch(`/travel/${m.places[lang]}?v=${m.version}`)).json();
+document.head.insertAdjacentHTML('beforeend', `${FONT_LINKS}<link rel="stylesheet" href="/travel/travel.css?v=${m.version}">`);
 document.body.classList.add('cdt-root');                // 글자·배경색 — 없으면 어두운 화면에서 글이 안 보인다
-const ctx = { base, places };
+document.documentElement.lang = lang;
+document.documentElement.dir = dir;
+const ctx = { base: '/travel/', places, lang, dir };
 
 function route() {
   const slug = decodeURIComponent(location.hash.match(/^#\/place\/(.+)$/)?.[1] ?? '');
@@ -132,15 +143,16 @@ addEventListener('hashchange', route);
 route();
 ```
 
-- 권역·분류 거르기는 `places.filter((p) => p.island_group.text === '비사야')` 처럼 노드의 `text` 로 한다.
+- 권역·분류 거르기는 언어 공통 key 로 한다: `places.filter((p) => p.island_group.value === 'visayas')`. 메뉴 이름은 `meta.island_groups[].name[lang]` 이다.
+- PHP 사이트는 목록을 서버가 그리고 상세만 이 렌더러로 그린다 — `assets/travel-page.php`([embedding.md](embedding.md) §3.4).
 - 해시 라우팅을 쓰면 단락 목차를 `#overview` 링크로 만들지 않는다. 라우터가 그것을 경로로 읽는다. 대신 `document.getElementById('overview').scrollIntoView()` 를 쓴다(section 의 id 는 key 다).
 - 필고 웹처럼 Web Awesome 을 쓰는 곳에서는 탭을 `<wa-tab-group>`, 알림을 `<wa-callout variant="warning">` 로 바꿔 끼우면 된다. 데이터 모양은 그대로다.
 
 ### 5.2 로컬에서 시험할 때 — CORS
 
-GitHub Pages 는 `Access-Control-Allow-Origin: *` 를 준다. 그러나 `python3 -m http.server` 는 주지 않는다. 그래서 페이지와 API 를 다른 포트로 띄우면 브라우저가 JSON 을 막는다. 두 가지 방법이 있다.
+넣어 둔 파일을 쓰면 같은 출처라 CORS 문제가 없다. 원격 API 주소를 직접 시험할 때만 해당한다. GitHub Pages 는 `Access-Control-Allow-Origin: *` 를 주지만, `python3 -m http.server` 는 주지 않는다. 그래서 페이지와 API 를 다른 포트로 띄우면 브라우저가 JSON 을 막는다. 두 가지 방법이 있다.
 
-1. **같은 출처로 띄우기** — 페이지 파일을 API 폴더(`_site/`) 옆에 두고 서버 하나로 띄운다.
+1. **같은 출처로 띄우기** — `export` 한 폴더를 페이지와 같은 서버에 둔다(권장).
 2. **CORS 헤더를 주는 서버로 API 띄우기:**
 
 ```bash
@@ -180,10 +192,12 @@ export function renderBlock(b, ctx = {}) {
 - 글 조각이 빠짐없이 들어갔다. 같은 입력이면 출력이 같다. 위험한 주소는 막았다. 목록 카드 안의 `<a>` 는 하나뿐이다.
 - 1100px·358px 폭에서 넘침이 없다. 탭 클릭 전환을 화면 캡처로 확인했다.
 - 스킬 지침만 보고 목록(권역 거르기)과 상세 화면을 만드는 시험을 했다. 여기서 찾은 결함(카드 저작자 누락, 받기 코드 빈틈, 어두운 화면 글자색, 글꼴 안내, CORS)을 고쳤다.
+- (2026-09-28) 실제 빌드 형식의 8개 언어 × 100곳(800번)을 `catalogCss(meta)`·`renderPlace`·`renderPlaceCard` 로 오류 없이 그렸고, 모든 사진 저작자가 들어갔다.
+- (2026-09-28) 다국어 시험 데이터로 `export` 한 폴더와 `travel-page.php` 를 PHP 내장 서버에 띄워 확인했다. 목록은 서버 HTML·`travel.css`, 상세는 `renderer.js` 로 그려졌고, 아랍어 상세가 오른쪽→왼쪽으로 그려지는 것을 화면 캡처로 확인했다.
 
 ## 6. Flutter 참고 렌더러 — `assets/travel_blocks.dart`
 
-`flutter/material.dart` 만 쓰는 파일 하나다. 모델 클래스 없이 JSON(Map)을 그대로 그린다. 그래서 type·키가 늘어도 깨지지 않는다.
+`flutter/material.dart` 만 쓰는 파일 하나다. 모델 클래스 없이 JSON(Map)을 그대로 그린다. 그래서 type·키가 늘어도 깨지지 않는다. 데이터는 `assets/travel_db.dart` 의 `TravelDb.place(slug, lang)` 가 돌려주는 Map 을 넘긴다([embedding.md](embedding.md) §4).
 
 ```dart
 final blocks = TravelBlocks(
@@ -233,16 +247,19 @@ Widget block(BuildContext context, Json b) {
   - 링크 → `url_launcher`
   - 차트 → `fl_chart`
   - 영상·소리 → `video_player` · `just_audio`
+- 오른쪽→왼쪽 언어: 여백·테두리·저작자 위치를 방향 기준(`EdgeInsetsDirectional`·`BorderDirectional`·`PositionedDirectional`)으로 잡았다. `Directionality(textDirection: TextDirection.rtl)` 안에서 그리면 뒤집힌다.
 - 필고 앱에 넣을 때는 공용 라이브러리(`apps/lib/src/travel/`)에 두고 앱마다 복사하지 않는다.
-- 검증(2026-09-27, Flutter 3.47):
+- 검증(2026-09-28, Flutter 3.47):
   - `flutter analyze` 0건.
-  - 위젯 테스트 4개 통과 — 100곳을 390·900px 폭에서 예외 없이 그리기, 탭 전환, 48개 type 예시 그리기, 대표 사진·링크 카드의 저작자 표기.
+  - 위젯 테스트 5개 통과 — 100곳을 390·900px 폭에서 예외 없이 그리기, 탭 전환, 48개 type 예시 그리기, 대표 사진·링크 카드의 저작자 표기, 아랍어 100곳을 오른쪽→왼쪽으로 그리기.
 
 ## 7. 자주 틀리는 것
 
 - **사진 credit 을 빼먹는다.** 히어로·캐러셀·목록 카드·링크 카드 모두 저작자 표기를 보여야 한다. 검증할 때 예외만 보지 말고 credit 글이 실제로 나오는지 확인한다.
 - **글자·배경색을 안 정한다.** CSS 변수는 어두운 화면에서 글자를 밝게 바꾼다. 페이지(`body` 나 감싸는 요소)에 `.cdt-root` 를 붙이지 않으면 흰 배경에 흰 글이 된다.
 - **글꼴을 안 넣는다.** `FONT_LINKS` 가 없으면 아이콘 자리에 이름 글자가 보인다.
+- **아랍어에 `dir` 을 안 준다.** 글은 오른쪽 정렬되지 않고 타임라인·알림 상자의 선이 반대쪽에 붙는다. `ctx.dir`·`<html dir>`·`Directionality` 를 준다.
+- **거르기에 `text` 를 쓴다.** `text` 는 언어마다 다르다. 분류·권역·지역은 `value`, 난이도는 `value`(1~3), 달은 `months` 로 거른다.
 - **`children` 을 문자열로 착각한다.** 배열이다. 글만 필요하면 `text` 를 이어 붙인다.
 - **탭 항목이 1개인 일정** (반나절 코스 등). 탭 막대 없이 제목만 보여 준다.
 - **gallery.items 가 빈 여행지**가 있다. 캐러셀을 그리지 않는다.

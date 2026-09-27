@@ -2,7 +2,7 @@
 
 왜 지금 모양이 되었는지와 남은 일이다. 구조를 크게 바꾸기 전에 읽는다.
 
-## 1. 현재 상태 (2026-09-27)
+## 1. 현재 상태 (2026-09-28)
 
 - **완료:**
   - 자료 이전, 빌드 스크립트, Pages 배포(v1, version `68cef818ff36`).
@@ -15,11 +15,23 @@
   - AI 스킬 `travel-api-skill`
     - AGENTS.md 의 안내를 이 스킬로 옮겼다.
     - 조회 도구(`scripts/travel.mjs`), 자체 업데이트(`scripts/update.sh`), 웹·Flutter 참고 렌더러(`assets/`)를 넣었다.
+  - (2026-09-28) 8개 언어 번역과 `meta.json`. 계약은 [api.md](api.md) §1~5 에 있다.
+    - 원본 ko, 번역 en·zh·ja·th·vi·ru·ar
+    - 출력 `v2/` 바로 아래 `places.<lang>.json` 8개 + `meta.json`. `content_display_type.json` 은 `meta.display` 로 합쳤다
+  - (2026-09-28) 스킬 — 넣어 쓰기(임베딩)와 SQLite
+    - `travel-db.mjs`(sync·build·export), `assets/travel-schema.sql`
+    - 조회 구현 `TravelDb.php`·`travel_db.dart`, 예시 페이지 `travel-page.php`
+    - `travel.mjs` 는 SQLite 캐시 DB 로 답하도록 바꿨다(`--lang`, `sql` 명령)
 - **남은 일:**
-  - v2 와 스킬 묶음을 push 해 배포한다. push 전까지 공개 주소는 v1 이고 `/v2/`·스킬 묶음은 404 다.
+  - v2(다국어)와 스킬 묶음을 push 해 배포한다. push 전까지 공개 주소는 v1 이고 `/v2/`·스킬 묶음은 404 다.
+  - 스킬의 SQLite·조회 구현·렌더러는 두 가지로 검증했다.
+    - 다국어 계약 모양의 시험 데이터
+    - 저장소 빌드 스크립트가 만든 8개 언어 출력. 번역본은 자리 표시 글자였다.
+  - 실제 번역본이 들어오면 두 가지를 다시 한다. `travel-db.mjs build --base _site/v2` 로 DB 크기를 확인하고, 세 조회 구현의 결과를 비교한다.
   - 필고 Flutter 앱(`apps/travel`)을 v2 로 바꾼다.
-    - 받기·저장은 [api.md](api.md) §5.2 를 따른다.
-    - 그리기는 `assets/travel_blocks.dart` 를 필고 공용 라이브러리로 옮겨 쓴다.
+    - `travel-db.mjs build --langs <앱 언어들>` 로 만든 `travel.db` 를 애셋에 넣는다.
+    - `assets/travel_db.dart` 로 읽고 `assets/travel_blocks.dart` 로 그린다. 두 파일은 필고 공용 라이브러리로 옮겨 쓴다([embedding.md](embedding.md) §4).
+  - 필고 웹사이트에 여행 정보를 넣는다 — `travel.db` + `export` 폴더 + `TravelDb.php`([embedding.md](embedding.md) §3).
   - 바꾼 뒤 필고의 `apps/travel/data/travel/`(옛 마크다운 사본)을 지운다.
   - 오프라인 첫 실행용으로 `places.json` 스냅샷 하나만 번들에 남길지 정한다.
   - 필고의 `apps/travel/test/widget_test.dart` 는 그 사본을 검사하고 있으므로 함께 정리한다.
@@ -78,3 +90,38 @@
 - **나라가 늘어날 것에 대비:**
   - 스킬 이름에 나라를 넣지 않았다(`travel-api-skill`).
   - 나라 목록을 `scripts/apis.json` 으로 뺐다. 새 나라는 같은 구조의 저장소 + 한 줄 추가로 끝난다.
+
+## 5. 왜 8개 언어를 파일 이름으로 나누는가 (2026-09-28)
+
+- 언어 폴더(`v2/ko/places.json`) 대신 파일 이름(`v2/places.ko.json`)으로 나눴다.
+  - 사진 url `images/…` 가 어느 언어 파일에서나 같은 폴더 기준으로 맞는다.
+  - 사진을 언어마다 복사하지 않는다.
+- version 은 전체에 하나다(meta + 모든 언어 places). 클라이언트는 manifest 하나만 보고 무엇이 바뀌었는지 안다.
+- 언어 무관 값(좌표·예산 숫자·사진·링크 …)은 파일마다 반복된다. 빌드가 원본(ko)과 같은지 검사한다. 그래서 어느 언어 파일 하나만 받아도 완전하다 — 앱은 필요한 언어만 넣으면 된다.
+- 분류·권역·지역 노드에 언어 공통 key(`value`)를 넣었다. 언어가 바뀌어도 거르기·링크·DB 키가 같다.
+
+## 6. 왜 넣어 쓰기(임베딩)와 SQLite 인가 (2026-09-28)
+
+- **요구 사항:**
+  - 웹·앱은 원격 API 를 실행 중에 부르지 않고, 데이터를 받아 제품에 넣어 쓴다.
+  - 8개 언어의 본문을 언어별로 검색할 수 있어야 한다.
+  - 필고 웹은 로컬에서 만든 DB 파일을 서버에 올려 PHP 로 조회한다.
+- **넣어 쓰는 이유:** 오프라인·첫 화면 속도, Pages 전송량 한도와 무관, 데이터 버전 고정, 방문 기록이 외부에 남지 않음([embedding.md](embedding.md) §1).
+- **SQLite 를 고른 이유:**
+  - 파일 하나라 올리기·넣기가 쉽다.
+  - PHP·Dart·Node·Python 이 모두 읽는다.
+  - FTS5·인덱스가 있다.
+  - 비교한 것: 언어별 JSON 을 메모리에서 훑기는 정적 웹·단순 앱에 충분하다(embedding.md §5). 하지만 서버 검색·다국어 전문 검색에는 색인이 낫다.
+- **FTS5 trigram 을 고른 이유:**
+  - `unicode61` 토크나이저는 띄어쓰기로 낱말을 자른다. 그래서 중국어·일본어·태국어는 문장 전체가 한 낱말이 되고, 한국어는 조사 때문에 "엘니도"로 "엘니도에서"를 못 찾는다.
+  - trigram 은 3글자 단위 부분 문자열이라 모든 언어에서 동작한다.
+  - 대가 두 가지: 3글자 미만을 못 찾아서 글에서 직접 찾아 보완한다. 색인이 커서 언어당 약 1.4MB 다.
+- **외부 콘텐츠 FTS · 일반(rowid) 표:**
+  - 처음 스키마(WITHOUT ROWID + FTS 가 글 복사)는 3개 언어에 20.7MB 였다.
+  - 바꾼 뒤 15.1MB 가 됐다.
+- **DB 를 API 로 배포하지 않은 이유:**
+  - API 는 JSON 만 내고, DB 는 쓰는 쪽이 스킬 도구로 만든다.
+  - 언어·FTS 여부를 제품마다 고르고, 스키마를 스킬과 함께 바꿀 수 있다.
+  - 모든 언어 DB 를 Pages 에 올리면 한 파일이 40MB 안팎이 된다.
+  - 필요해지면 빌드에 `travel-db.mjs build` 를 더해 `_site/v2/travel.db` 로 낼 수 있다.
+- **Node 도구가 내장 `node:sqlite` 를 쓰는 이유:** 외부 패키지 금지 원칙을 지킨다. Node 22.13+ 가 필요하다(Actions·개발 환경은 24).
