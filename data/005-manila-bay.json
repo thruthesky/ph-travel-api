@@ -1,0 +1,627 @@
+{
+  "id": 5,
+  "slug": "manila-bay",
+  "title": { "type": "title", "text": "마닐라 베이" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Manila Bay" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "하늘이 주황빛으로 타오르는 마닐라의 전설적인 일몰" },
+  "island_group": { "type": "badge", "label": "권역", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "text": "메트로 마닐라" },
+  "location": {
+    "type": "address",
+    "label": "위치",
+    "icon": "location_on",
+    "text": "메트로 마닐라 마닐라시·파사이시 로하스 대로 일대"
+  },
+  "category": { "type": "badge", "label": "분류", "icon": "landscape", "text": "자연 경관" },
+  "tags": { "type": "tags", "label": "태그", "items": ["일몰", "베이워크", "돌로마이트 해변", "야경", "산책"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.1, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 14.5743 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 120.9766 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "11월~4월 (건기)",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "2~4시간" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱300~2,500",
+    "currency": "PHP",
+    "min": 300,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "니노이 아키노 국제공항(MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/005-manila-bay.webp",
+    "alt": "마닐라 베이",
+    "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Sunset,_Philippines.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-2.webp",
+        "alt": "마닐라 베이",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Baywalk,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-3.webp",
+        "alt": "마닐라 베이",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Fishing,_South_China_Sea,_Philippines.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "로하스 대로를 따라 이어지는 해안 산책로에서 세계적으로 이름난 마닐라 일몰을 볼 수 있는 곳입니다. 돌로마이트 해변, 해안 산책로, 몰 오브 아시아의 바닷가까지 해 질 무렵 산책 코스로 가장 사랑받습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "마닐라 베이(Manila Bay)는 둘레 약 " },
+            { "type": "distance", "text": "190km" },
+            {
+              "text": "에 이르는 천연 항구로, 입구에 코레히도르 섬이 자리 잡고 있어 수백 년 동안 동남아시아에서 가장 중요한 항구 가운데 하나였습니다. 16세기 스페인의 갈레온 무역선이 이곳에서 멕시코 아카풀코로 떠났고, "
+            },
+            { "type": "date", "text": "1898년" },
+            {
+              "text": "에는 미국 함대가 스페인 함대를 격파한 마닐라 만 해전이 벌어졌습니다. 여행자에게 마닐라 베이는 무엇보다 '일몰의 바다'입니다. 서쪽으로 탁 트인 만 너머 바탄 반도의 산줄기 뒤로 해가 지면서 하늘 전체가 주황색과 분홍색으로 물드는 장면은 마닐라를 대표하는 풍경입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "여행자가 주로 찾는 곳은 마닐라시 에르미타·말라테에서 파사이시로 이어지는 로하스 대로(Roxas Boulevard)의 해안입니다. 야자수가 늘어선 해안 산책로 '베이워크(Baywalk)'가 약 "
+            },
+            { "type": "distance", "text": "2km" },
+            { "text": " 이어지고, 미국 대사관 앞에서 마닐라 요트 클럽 방파제 사이에는 " },
+            { "type": "date", "text": "2020년" },
+            { "text": " 조성된 약 " },
+            { "type": "distance", "text": "500m" },
+            {
+              "text": " 길이의 인공 해변 '돌로마이트 해변'이 있습니다. 남쪽 파사이시 매립지에는 SM 몰 오브 아시아의 바이사이드 산책로와 대형 카지노 리조트 단지가 있어 일몰 뒤 야경과 쇼핑까지 이어집니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "솔직히 말하면 마닐라 베이는 수영하는 해변이 아닙니다. 오랜 오염으로 수질 개선 사업이 계속되고 있으며, 현재도 해변에서의 수영과 수상 스포츠는 금지되어 있습니다. 대신 해 질 무렵 바닷바람을 맞으며 산책하고, 현지 가족과 연인들이 모여드는 활기찬 분위기를 느끼는 곳으로 즐기면 만족도가 높습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "인트라무로스, 리잘 공원, 국립박물관과 모두 걸어서 연결되므로 마닐라 도심 관광의 마지막 일정으로 넣기 좋습니다. 사진을 좋아하는 여행자, 가벼운 저녁 산책을 원하는 가족과 연인에게 추천합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "베이워크에서 일몰 보기",
+              "children": [
+                {
+                  "text": "로하스 대로 해안 산책로 어디서든 일몰을 볼 수 있지만, 마닐라 요트 클럽 주변과 리잘 공원 서쪽 끝이 특히 전망이 좋습니다. 해가 지기 "
+                },
+                { "type": "duration", "text": "30분" },
+                { "text": " 전에 도착해 방파제에 자리를 잡습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "돌로마이트 해변 산책",
+              "children": [
+                {
+                  "text": "하얀 돌로마이트 모래를 깐 인공 해변으로, 해 질 무렵 가족 나들이객과 사진 찍는 사람들로 붐빕니다. 입장은 무료이지만 목요일은 청소를 위해 문을 닫습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "몰 오브 아시아 바이사이드",
+              "children": [
+                {
+                  "text": "SM 몰 오브 아시아 뒤편의 해안 광장에서는 관람차 너머로 해가 지는 풍경을 볼 수 있습니다. 주말 저녁에는 불꽃놀이가 열리기도 합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "선셋 크루즈",
+              "children": [
+                {
+                  "text": "해 질 무렵 만 안쪽을 도는 저녁 크루즈가 CCP(문화센터) 쪽 선착장 등에서 운영됩니다. 뷔페 저녁과 라이브 음악이 포함된 상품이 많아 특별한 날에 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "바닷가 식당에서 저녁",
+              "children": [
+                {
+                  "text": "로하스 대로 주변에는 해산물을 고르면 바로 요리해 주는 담파(Dampa) 방식 식당가가 있습니다. 새우, 게, 오징어를 무게로 사서 원하는 조리법으로 주문합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "마닐라 오션 파크",
+              "children": [
+                { "text": "리잘 공원 뒤편 해안에 있는 해양 테마파크로, 수족관과 해파리 전시가 있어 아이와 함께라면 낮 일정으로 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "야경 드라이브",
+              "children": [
+                {
+                  "text": "해가 진 뒤 로하스 대로를 따라 파사이 엔터테인먼트 시티 방향으로 이동하면 카지노 리조트들의 화려한 조명이 바다에 비치는 야경을 볼 수 있습니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "해 질 무렵 코스 (약 4시간)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "15:30",
+                      "children": [{ "text": "리잘 공원 서쪽 끝에서 출발, 퀴리노 그랜드스탠드 앞 해안 산책" }]
+                    },
+                    { "time": "16:30", "children": [{ "text": "로하스 대로 베이워크를 따라 남쪽으로 걷기" }] },
+                    {
+                      "time": "17:00",
+                      "children": [
+                        { "text": "돌로마이트 해변 입장 (" },
+                        { "type": "time", "text": "18시" },
+                        { "text": " 입장 마감)" }
+                      ]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [
+                        { "text": "방파제 또는 해변에서 일몰 감상 (건기 기준 " },
+                        { "type": "time", "text": "17:30~18:10" },
+                        { "text": " 무렵)" }
+                      ]
+                    },
+                    { "time": "18:30", "children": [{ "text": "로하스 대로 주변 해산물 식당이나 말라테에서 저녁" }] },
+                    { "time": "20:00", "children": [{ "text": "그랩으로 몰 오브 아시아 이동, 바이사이드 야경과 관람차" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "크루즈 코스",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "16:30", "children": [{ "text": "선착장 도착, 체크인" }] },
+                    { "time": "17:00", "children": [{ "text": "선셋 크루즈 출항, 선상 저녁과 공연" }] },
+                    { "time": "19:00", "children": [{ "text": "하선 후 몰 오브 아시아나 호텔로 이동" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "공항에서",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "니노이 아키노 국제공항에서 로하스 대로 해안까지 약 " },
+                    { "type": "distance", "text": "7~10km" },
+                    { "text": "로, 그랩으로 " },
+                    { "type": "duration", "text": "25분~1시간" },
+                    { "text": ", 요금은 약 " },
+                    { "type": "price", "text": "₱250~500" },
+                    { "text": "입니다. 몰 오브 아시아는 공항에서 가장 가까워 약 " },
+                    { "type": "duration", "text": "20~40분" },
+                    { "text": ", " },
+                    { "type": "price", "text": "₱200~400" },
+                    { "text": " 정도입니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "경전철(LRT)",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "LRT 1호선 유엔 애비뉴역, 페드로 힐역, 킨테로스역(말라테)에서 내려 서쪽으로 " },
+                    { "type": "duration", "text": "10~15분" },
+                    { "text": " 걸으면 로하스 대로 해안에 닿습니다. 요금은 약 " },
+                    { "type": "price", "text": "₱15~35" },
+                    {
+                      "text": "입니다. 몰 오브 아시아는 LRT 1호선 에드사역이나 MRT 3호선 타프트 애비뉴역에서 내려 몰 오브 아시아행 지프니나 버스를 갈아탑니다."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스·지프니",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "로하스 대로를 지나는 지프니와 시내버스가 많아 '로하스 대로(Roxas Blvd)'나 'MOA'라고 적힌 차량을 타면 됩니다. 지프니 기본요금은 약 "
+                    },
+                    { "type": "price", "text": "₱13~15" },
+                    { "text": "입니다. 해 질 무렵은 퇴근 시간이라 차량이 매우 붐비므로 짐이 많으면 그랩을 권합니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "도보",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "인트라무로스·국립박물관·리잘 공원에서는 도보 " },
+                    { "type": "duration", "text": "10~20분" },
+                    { "text": "이면 해안에 도착합니다. 해안 산책로를 따라 돌로마이트 해변까지는 리잘 공원에서 약 " },
+                    { "type": "duration", "text": "15분" },
+                    { "text": " 거리입니다." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "일몰을 제대로 보려면 " },
+            { "type": "date", "text": "11월~4월" },
+            { "text": " 건기가 가장 좋습니다. 하늘이 맑고 구름이 적당해 붉은 노을이 잘 나타나며, 특히 " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": "은 바닷바람이 선선해 산책하기 좋습니다. 건기의 해 지는 시각은 대략 " },
+            { "type": "time", "text": "17:30" },
+            { "text": "(" },
+            { "type": "date", "text": "12월" },
+            { "text": ")~" },
+            { "type": "time", "text": "18:20" },
+            { "text": "(" },
+            { "type": "date", "text": "4월" },
+            { "text": ") 사이입니다. " },
+            { "type": "date", "text": "3월~5월" },
+            { "text": "은 낮에는 뜨겁지만 저녁 무렵 산책에는 큰 무리가 없습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월~10월" },
+            { "text": " 우기에는 오후에 비구름이 몰려와 해를 가리는 날이 많습니다. 그래도 비가 그친 직후에는 극적인 노을이 나타나기도 합니다. 7~" },
+            { "type": "date", "text": "9월" },
+            {
+              "text": " 태풍이 올 때는 해안에 높은 파도가 치고 로하스 대로가 침수되기도 하므로 방파제 접근을 삼갑니다. 남서 계절풍(하바갓)이 강한 날은 파도가 산책로까지 넘칠 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "주말과 공휴일 저녁에는 현지 가족 나들이객이 매우 많습니다. " },
+            { "type": "date", "text": "12월" },
+            { "text": " 성탄 시즌에는 로하스 대로와 몰 오브 아시아에 조명 장식이 설치되고, 새해 전야에는 해안 일대에서 불꽃놀이를 볼 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "베이워크·돌로마이트 해변", "price": "무료", "note": "목요일 휴장, 18시 입장 마감" },
+            { "label": "공항↔로하스 대로 그랩", "price": "약 ₱250~500 (편도)", "note": "퇴근 시간 상승" },
+            { "label": "LRT 1호선", "price": "약 ₱15~35", "note": "구간별 요금" },
+            { "label": "선셋 디너 크루즈", "price": "약 ₱1,500~3,000", "note": "식사 포함 상품 기준" },
+            { "label": "해산물 저녁", "price": "약 ₱500~1,200", "note": "담파식, 조리비 별도" },
+            { "label": "마닐라 오션 파크", "price": "약 ₱800~1,500", "note": "패키지 구성에 따라 다름" },
+            { "label": "음료·간식", "price": "약 ₱50~200", "note": "산책로 노점" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "마닐라 베이 일몰을 방에서 보고 싶다면 로하스 대로의 바다 쪽 호텔을 고릅니다. " },
+            { "type": "date", "text": "1912년" },
+            {
+              "text": " 개관한 마닐라 호텔, 로하스 대로 중간의 다이아몬드 호텔 등이 오랫동안 베이 전망 호텔로 알려져 왔으며, 바다 전망 객실은 1박 약 "
+            },
+            { "type": "price", "text": "₱5,000~12,000" },
+            { "text": "입니다. 파사이 엔터테인먼트 시티의 대형 리조트(1박 약 " },
+            { "type": "price", "text": "₱8,000" },
+            { "text": " 이상)는 카지노·쇼·레스토랑을 한곳에서 즐길 수 있습니다. 예산이 적다면 말라테 안쪽의 약 " },
+            { "type": "price", "text": "₱1,500~3,000" },
+            { "text": "대 호텔도 해안까지 걸어서 " },
+            { "type": "duration", "text": "10분" },
+            { "text": " 이내입니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "먹거리는 로하스 대로의 " },
+            { "type": "date", "text": "1936년" },
+            {
+              "text": " 개업한 필리핀 식당 아리스토크랫(Aristocrat)이 오래된 명소로, 치킨 바비큐와 자바 라이스가 대표 메뉴입니다. 해산물을 좋아한다면 몰 오브 아시아 근처의 담파(Dampa) 식당가에서 새우·게·생선을 사서 굽거나 칠리 소스, 버터 갈릭 등으로 요리해 먹는 방식을 추천합니다. 산책로 노점의 구운 옥수수, 이사우(닭 내장 꼬치), 부코 주스도 일몰을 기다리며 즐기기 좋습니다. 말라테에는 한식당도 여러 곳 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "일몰 시각을 날씨 앱으로 확인하고 최소 " },
+                { "type": "duration", "text": "30분" },
+                { "text": " 전에 도착하십시오. 해가 진 후 " },
+                { "type": "duration", "text": "10~20분" },
+                { "text": "간 하늘이 가장 붉게 물드는 '매직 아워'를 놓치지 마십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "돌로마이트 해변은 " },
+                { "type": "time", "text": "18시" },
+                { "text": "에 신규 입장을 마감하므로 " },
+                { "type": "time", "text": "17시 30분" },
+                { "text": " 전에 들어가는 것이 안전합니다. 운영 시간은 바뀔 수 있으니 환경천연자원부(DENR) 공지를 확인합니다." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "사진은 방파제 위 야자수 실루엣을 전경에 넣으면 분위기가 삽니다. 망원 렌즈가 있다면 바다 위 정박한 선박과 해를 겹쳐 찍어 보십시오."
+                }
+              ]
+            },
+            { "children": [{ "text": "바닷바람이 강해 모자가 날아가기 쉽습니다. 모기 퇴치제를 뿌리면 저녁 산책이 훨씬 쾌적합니다." }] },
+            { "children": [{ "text": "노점과 지프니는 현금만 받으므로 소액권을 준비합니다." }] },
+            {
+              "children": [
+                { "text": "해 질 무렵 로하스 대로는 극심하게 막히므로 저녁 약속이 있다면 이동 시간을 넉넉히 잡거나 LRT를 이용합니다." }
+              ]
+            },
+            { "children": [{ "text": "선셋 크루즈는 주말에 매진되는 경우가 많아 온라인으로 1~2일 전에 예약합니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "마닐라 베이는 수질 문제로 수영과 물놀이가 금지되어 있습니다. 해변 모래 위에서만 즐기고, 바닷물에 손발을 담그는 것도 피합니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "인파가 몰리는 일몰 시간대에는 소매치기가 있습니다. 사진 찍는 데 집중하는 사이 휴대전화나 가방을 노리는 경우가 많습니다." }
+              ]
+            },
+            { "children": [{ "text": "밤늦게 인적이 드문 방파제와 로하스 대로 지하도, 어두운 공원 구역은 피하고, 그랩으로 이동합니다." }] },
+            {
+              "children": [{ "text": "태풍이나 강한 계절풍이 불 때는 파도가 방파제를 넘어 산책로로 들이치므로 해안 가까이 접근하지 않습니다." }]
+            },
+            { "children": [{ "text": "산책로에서 꽃이나 소품을 억지로 건네며 돈을 요구하는 경우가 있으니 받지 말고 정중히 거절합니다." }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "마닐라 베이 해변은 산책과 일몰 감상용입니다. 수질 기준을 충족할 때까지 수영은 금지되어 있으니 해변 휴양이 목적이라면 바탕가스나 팔라완 등 다른 해변을 선택하십시오."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "리잘 공원",
+              "place": "rizal-park",
+              "children": [
+                { "text": "베이워크 북쪽 끝에서 도보 " },
+                { "type": "duration", "text": "5~10분" },
+                { "text": ". 리잘 기념비와 넓은 광장, 저녁 분수 쇼가 있는 공원입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "인트라무로스",
+              "place": "intramuros",
+              "children": [
+                { "text": "도보 약 " },
+                { "type": "duration", "text": "20분" },
+                { "text": " 또는 그랩 " },
+                { "type": "duration", "text": "10분" },
+                { "text": ". 스페인 성벽 도시로 오전 일정과 묶기 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "필리핀 국립박물관",
+              "place": "national-museum",
+              "children": [
+                { "text": "도보 약 " },
+                { "type": "duration", "text": "15분" },
+                { "text": ". 낮에는 무료 박물관을 보고 저녁에 해안으로 나오는 동선을 추천합니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "코레히도르 섬",
+              "place": "corregidor",
+              "children": [{ "text": "마닐라 베이 입구의 전쟁 유적 섬. 현재는 바탄주 마리벨레스를 거쳐 들어가는 당일 투어로 방문합니다." }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

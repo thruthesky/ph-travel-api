@@ -1,0 +1,593 @@
+{
+  "id": 50,
+  "slug": "port-barton",
+  "title": { "type": "title", "text": "포트 바턴" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Port Barton" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "시간이 느리게 흐르는 팔라완의 숨은 해변 마을" },
+  "island_group": { "type": "badge", "label": "권역", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "text": "팔라완" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "팔라완주 산비센테 포트 바턴" },
+  "category": { "type": "badge", "label": "분류", "icon": "beach_access", "text": "해변·섬" },
+  "tags": { "type": "tags", "label": "태그", "items": ["섬 호핑", "바다거북", "스노클링", "배낭여행", "한적한 해변"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 10.4061 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 119.1631 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "11월~5월 (건기)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "2박 3일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱2,000~4,000 (1일 기준)",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "보통",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "푸에르토 프린세사 국제공항(PPS)",
+    "code": "PPS"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/050-port-barton.webp",
+    "alt": "포트 바턴",
+    "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Port_Barton,_Boats,_Palawan,_Philippines.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/050-port-barton-2.webp",
+        "alt": "포트 바턴",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Port_Barton,_Boat,_Palawan,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/050-port-barton-3.webp",
+        "alt": "포트 바턴",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Vicente,_Port_Barton_Beach,_Palawan,_Philippines.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "엘니도와 푸에르토 프린세사 사이 서해안에 자리한 작은 해변 마을로, 차도 부두도 거의 없는 느긋한 분위기가 매력입니다. 바다거북과 헤엄치는 스노클링, 무인도 해변을 도는 섬 호핑을 엘니도보다 훨씬 한적하고 저렴하게 즐길 수 있습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "포트 바턴은 팔라완 섬 서해안의 산비센테 시에 속한 작은 어촌 마을입니다. 푸에르토 프린세사에서 북쪽으로 약 " },
+            { "type": "distance", "text": "150km" },
+            { "text": ", 엘니도에서 남쪽으로 약 " },
+            { "type": "distance", "text": "130km" },
+            {
+              "text": " 떨어져 있어 두 도시를 잇는 여행 동선의 중간 쉼터로 많이 들릅니다. 마을은 반달 모양의 만을 따라 모래 해변에 게스트하우스와 식당이 늘어서 있고, 앞바다에는 수십 개의 섬과 산호초가 흩어져 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "이 마을의 가장 큰 매력은 느림입니다. 부두 없이 방카가 해변에 바로 배를 대고, 마을 안에는 차가 거의 다니지 않아 모래길을 맨발로 걸어 다닐 수 있습니다. 예전에는 저녁 몇 시간만 발전기로 전기가 들어올 만큼 외딴 곳이었고, 전기 사정이 나아진 지금도 정전이 잦고 인터넷이 느려 자연스럽게 '디지털 휴식'을 하게 됩니다. 이런 분위기 덕분에 유럽 배낭여행자들 사이에서 '10년 전 엘니도'라고 불리며 조용히 사랑받아 왔습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "바다는 엘니도 못지않게 아름답습니다. 섬 호핑을 나가면 바다거북이 자주 나타나는 해초 지대, 산호가 건강한 트윈 리프, 불가사리가 흩어진 얕은 바다, 하얀 모래의 저먼 섬과 엑조틱 섬 같은 무인도 해변을 하루에 돌 수 있습니다. 엘니도처럼 수십 척의 투어 보트가 한 곳에 몰리는 일이 드물어 여유롭게 즐길 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "인기 관광지의 북적임에 지친 여행자, 해먹에 누워 책을 읽으며 며칠을 보내고 싶은 여행자, 합리적인 예산으로 팔라완의 바다를 즐기려는 배낭여행자에게 잘 맞습니다. 반면 쇼핑, 밤문화, 안정적인 인터넷이 필요한 여행자에게는 불편할 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "섬 호핑 투어",
+              "children": [
+                {
+                  "text": "마을 해변에서 출발하는 조인 투어로 3~5곳의 섬과 스노클링 포인트를 돕니다. 코스는 투어 A·B·C 등으로 나뉘며, 저먼 섬과 엑조틱 섬 같은 무인도 해변에서 점심을 먹는 일정이 많습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "바다거북 스노클링",
+              "children": [
+                { "text": "해초가 자라는 얕은 바다에서 풀을 뜯는 푸른바다거북을 가까이서 볼 수 있습니다. 거북에게 " },
+                { "type": "distance", "text": "3m" },
+                { "text": " 이상 거리를 두고, 절대 만지지 않아야 합니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "트윈 리프와 스타피시 섬",
+              "children": [
+                {
+                  "text": "산호초가 두 갈래로 이어진 트윈 리프는 산호와 열대어가 풍부한 스노클링 명소입니다. 스타피시 섬 앞 얕은 바다에서는 불가사리를 볼 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "파무아얀 폭포 트레킹",
+              "children": [
+                { "text": "마을에서 약 " },
+                { "type": "distance", "text": "4km" },
+                { "text": " 떨어진 숲속 폭포로, 걸어서 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": " 또는 오토바이로 갈 수 있습니다. 폭포 아래 웅덩이에서 수영할 수 있고, 우기 끝 무렵 수량이 가장 많습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "화이트 비치 산책",
+              "children": [
+                { "text": "마을 북쪽 곶을 넘어 걸어서 약 " },
+                { "type": "duration", "text": "30~40분" },
+                { "text": " 거리의 조용한 해변으로, 방카로 가면 약 " },
+                { "type": "duration", "text": "10분" },
+                { "text": "입니다. 야자수 그늘 아래에서 반나절을 보내기 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "해변 석양과 해먹",
+              "children": [
+                {
+                  "text": "마을 해변이 서쪽을 향해 있어 매일 저녁 바다 위로 지는 석양을 볼 수 있습니다. 해변 식당의 해먹에서 칵테일을 마시며 하루를 마무리하는 것이 포트 바턴의 일상입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "카약과 스탠드업 패들보드",
+              "children": [{ "text": "해변에서 빌려 잔잔한 만을 따라 가까운 섬이나 맹그로브 쪽으로 나가 볼 수 있습니다." }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        { "text": "푸에르토 프린세사에서 밴 출발 (약 " },
+                        { "type": "duration", "text": "3~4시간" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "11:00", "children": [{ "text": "포트 바턴 도착, 숙소 체크인" }] },
+                    { "time": "12:00", "children": [{ "text": "해변 식당에서 점심, 다음 날 섬 호핑 예약" }] },
+                    { "time": "오후", "children": [{ "text": "카약이나 패들보드, 해변 산책" }] },
+                    { "time": "17:30", "children": [{ "text": "해변 석양과 저녁 식사" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "08:30~16:00",
+                      "children": [{ "text": "섬 호핑 투어 — 바다거북 스노클링, 트윈 리프, 스타피시 섬, 저먼 섬 점심, 엑조틱 섬" }]
+                    },
+                    { "time": "저녁", "children": [{ "text": "해산물 바비큐와 해먹 휴식" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "파무아얀 폭포 트레킹 또는 화이트 비치 산책" }] },
+                    { "time": "11:00", "children": [{ "text": "체크아웃 후 점심" }] },
+                    { "time": "13:00", "children": [{ "text": "엘니도행 또는 푸에르토 프린세사행 밴 출발" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "가장 가까운 주요 공항은 푸에르토 프린세사 국제공항(PPS)으로, 마닐라에서 약 " },
+                    { "type": "duration", "text": "1시간 20분" },
+                    { "text": ", 편도 약 " },
+                    { "type": "price", "text": "₱1,500~5,000" },
+                    {
+                      "text": "입니다. 산비센테에도 작은 공항이 있지만 정기 항공편 운항이 들쭉날쭉해, 대부분의 여행자는 푸에르토 프린세사를 이용합니다. 엘니도 공항(ENI)으로 들어가 엘니도 여행을 마친 뒤 내려오는 방법도 있습니다."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스·밴",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "푸에르토 프린세사 공항이나 시내 산호세 터미널에서 포트 바턴행 공유 밴을 타면 약 " },
+                    { "type": "duration", "text": "3~4시간" },
+                    { "text": ", 약 " },
+                    { "type": "price", "text": "₱500~700" },
+                    {
+                      "text": "입니다. 숙소 픽업을 예약할 수 있고, 로하스 방향 국도를 달리다 살바시온 부근에서 서쪽 산길로 들어가며, 이 구간은 포장이 완료돼 예전보다 이동이 훨씬 수월해졌습니다. 로하스행 버스를 타고 살바시온 갈림길에서 지프니나 오토바이로 갈아타는 방법은 더 저렴하지만 시간이 오래 걸립니다. 엘니도에서는 공유 밴으로 약 "
+                    },
+                    { "type": "duration", "text": "4~5시간" },
+                    { "text": ", 약 " },
+                    { "type": "price", "text": "₱600~800" },
+                    { "text": "입니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "배",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "엘니도와 포트 바턴 사이에는 해안을 따라 여러 섬에 들르며 이동하는 섬 호핑형 보트 여행이 운영되기도 합니다. 날씨와 운영사에 따라 운항 여부가 달라지므로 현지에서 확인해야 합니다."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "현지 이동",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "마을 안은 걸어서 모두 다닐 수 있습니다. 폭포나 롱 비치 방향으로 갈 때는 오토바이를 빌리거나(1일 약 " },
+                    { "type": "price", "text": "₱500~700" },
+                    { "text": ") 트라이시클·오토바이 기사를 흥정해 이용합니다." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "5월" },
+            { "text": "까지가 건기로 방문하기 좋습니다. 특히 " },
+            { "type": "date", "text": "3월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "5월" },
+            { "text": "까지는 바다가 잔잔하고 물빛이 맑아 섬 호핑과 스노클링에 가장 좋은 시기입니다. " },
+            { "type": "date", "text": "12월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "2월" },
+            { "text": "까지는 바람이 부는 날이 있지만 기온이 선선해 트레킹하기 좋습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "포트 바턴은 서해안에 있어 " },
+            { "type": "date", "text": "6월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "10월" },
+            {
+              "text": "까지 남서 계절풍 하바갓의 영향을 직접 받습니다. 이 시기에는 파도가 높아 섬 호핑이 취소되거나 가까운 섬만 도는 날이 많고, 비가 오면 산길 이동도 느려집니다. 대신 숙소 요금이 저렴하고 마을이 더 조용해집니다. 우기에 방문한다면 섬 호핑 날짜를 여유 있게 잡는 것이 좋습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "푸에르토 프린세사–포트 바턴 밴", "price": "약 ₱500~700", "note": "편도, 3~4시간" },
+            { "label": "엘니도–포트 바턴 밴", "price": "약 ₱600~800", "note": "편도, 4~5시간" },
+            { "label": "섬 호핑 조인 투어", "price": "약 ₱1,000~1,500", "note": "1인, 점심·스노클 장비 포함" },
+            { "label": "프라이빗 방카", "price": "약 ₱3,500~5,000", "note": "1척 1일, 4~8인" },
+            { "label": "환경세·섬 입도료", "price": "약 ₱100~300", "note": "1인, 섬별 별도 징수" },
+            { "label": "파무아얀 폭포 입장", "price": "약 ₱50~100", "note": "1인" },
+            { "label": "숙박", "price": "약 ₱800~4,000", "note": "1박, 도미토리~해변 방갈로" },
+            { "label": "식사", "price": "약 ₱600~1,200", "note": "1인 1일" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "숙소는 마을 해변을 따라 늘어선 게스트하우스와 방갈로가 중심입니다. 배낭여행자용 도미토리는 1박 약 " },
+            { "type": "price", "text": "₱500~800" },
+            { "text": ", 선풍기 방갈로는 약 " },
+            { "type": "price", "text": "₱1,000~2,000" },
+            { "text": ", 에어컨이 있는 해변 방갈로나 작은 리조트는 약 " },
+            { "type": "price", "text": "₱2,500~5,000" },
+            {
+              "text": "입니다. 해변 앞자리는 석양이 잘 보이지만 저녁 식당 소음이 있을 수 있고, 마을 안쪽은 조용하고 저렴합니다. 더 한적한 곳을 원하면 마을에서 방카로 이동하는 주변 섬이나 화이트 비치 쪽 리조트를 고를 수 있습니다. 성수기에는 방이 금방 차므로 미리 예약하는 것이 좋습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "먹거리는 해변 식당의 신선한 해산물 바비큐가 중심입니다. 저녁이면 해변 식당들이 그날 잡은 생선과 오징어, 새우를 숯불에 구워 팔고, 코코넛 커리나 해산물 파스타처럼 서양 여행자 입맛에 맞춘 메뉴도 많습니다. 마을 안쪽 작은 필리핀 식당에서는 아도보, 시니강, 판싯 같은 가정식을 1인 약 "
+            },
+            { "type": "price", "text": "₱100~200" },
+            {
+              "text": "에 먹을 수 있습니다. 유럽 여행자가 운영하는 베이커리와 카페도 몇 곳 있어 아침 식사를 해결하기 좋습니다. 섬 호핑 점심은 무인도 해변에서 차려지는 구운 생선, 돼지고기, 밥, 과일이 일반적입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "마을에 ATM이 없거나 있어도 자주 고장 나며 카드 결제가 되는 곳이 거의 없습니다. 푸에르토 프린세사나 엘니도에서 체류 기간 전체의 현금을 준비해야 합니다."
+                }
+              ]
+            },
+            { "children": [{ "text": "전기 사정은 좋아졌지만 정전이 잦으므로 보조배터리와 손전등을 챙기는 것이 좋습니다." }] },
+            {
+              "children": [
+                {
+                  "text": "인터넷이 느리고 불안정하므로 업무나 급한 연락이 필요하면 스마트·글로브 유심을 모두 준비하고, 중요한 일은 도착 전에 처리해 두어야 합니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "섬 호핑은 도착 첫날 해변의 투어 부스나 숙소에서 예약하면 다음 날 출발할 수 있습니다. 여러 부스의 코스와 포함 사항을 비교하는 것이 좋습니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "방카가 해변에 바로 배를 대므로 승하선 때 무릎까지 물에 들어가야 합니다. 짐은 방수 가방에 넣어야 합니다." }
+              ]
+            },
+            { "children": [{ "text": "밤에는 해변과 골목에 조명이 적어 손전등이 유용합니다." }] },
+            { "children": [{ "text": "바다거북을 만나는 확률은 오전이 높다는 것이 현지 가이드들의 말입니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "바다거북을 만지거나 쫓아가거나 올라타는 행위는 금지되어 있으며, 적발 시 처벌을 받을 수 있습니다. 가이드의 안내에 따라 거리를 두고 관찰해야 합니다."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "방카 탑승 시 구명조끼를 착용하고, 파도가 높은 날 출항을 고집하지 않아야 합니다." }] },
+            {
+              "children": [
+                { "text": "해변 모래에는 샌드플라이가 많아 물리면 며칠간 심하게 가려울 수 있으므로 벌레 퇴치제를 준비하는 것이 좋습니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "가장 가까운 큰 병원은 푸에르토 프린세사에 있어 이동에 몇 시간이 걸립니다. 상비약과 여행자 보험을 준비해야 합니다." }
+              ]
+            },
+            { "children": [{ "text": "환경세와 투어 규정은 산비센테 관광청 결정에 따라 바뀔 수 있으므로 최신 공지를 확인해야 합니다." }] },
+            { "children": [{ "text": "우기에는 산길에 산사태나 도로 유실이 생길 수 있어 이동 전 도로 상황을 확인해야 합니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "산비센테 롱 비치",
+              "place": "san-vicente-long-beach",
+              "children": [
+                { "text": "포트 바턴에서 차로 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": " 거리의 약 " },
+                { "type": "distance", "text": "14km" },
+                { "text": " 백사장으로, 필리핀에서 가장 긴 백사장 가운데 하나입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "엘니도",
+              "place": "el-nido",
+              "children": [
+                { "text": "밴으로 약 " },
+                { "type": "duration", "text": "4~5시간" },
+                { "text": " 거리의 석회암 절벽과 라군의 휴양지입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "푸에르토 프린세사 지하강",
+              "place": "puerto-princesa-underground-river",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "3~4시간" },
+                { "text": " 거리의 유네스코 세계유산 동굴 강입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "혼다 베이",
+              "place": "honda-bay",
+              "children": [{ "text": "푸에르토 프린세사 근교의 모래섬 호핑 명소로, 공항으로 돌아가는 길에 들르기 좋습니다." }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

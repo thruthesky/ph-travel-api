@@ -1,0 +1,626 @@
+{
+  "id": 41,
+  "slug": "caramoan",
+  "title": { "type": "title", "text": "카라모안" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Caramoan" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "서바이버가 사랑한 석회암 섬들의 비밀 해변" },
+  "island_group": { "type": "badge", "label": "권역", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "text": "비콜" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "카마리네스 수르주 카라모안" },
+  "category": { "type": "badge", "label": "분류", "icon": "beach_access", "text": "해변·섬" },
+  "tags": { "type": "tags", "label": "태그", "items": ["섬 호핑", "석회암 절벽", "라군", "스노클링", "오지 여행"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 13.7707 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 123.8631 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "3월~6월 (건기·잔잔한 바다)",
+    "months": [3, 4, 5, 6]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "2박 3일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱2,500~4,500 (1일 기준)",
+    "currency": "PHP",
+    "min": 2500,
+    "max": 4500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "보통",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "나가 공항(WNP)",
+    "code": "WNP"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/041-caramoan.webp",
+    "alt": "카라모안",
+    "credit": "Maria Glenda Perico \"Daragang Nagueña\" / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Caramoan_Islands_Tugawe_Cove.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/041-caramoan-2.webp",
+        "alt": "카라모안",
+        "credit": "Zenovia Mae Geconcillo / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Caramoan_Island,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/041-caramoan-3.webp",
+        "alt": "카라모안",
+        "credit": "Dmbromarts / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Paniman_Estuary_in_Caramoan,_Camarines_Sur.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "비콜 지방 카라모안 반도 앞바다에 흩어진 석회암 섬과 하얀 모래톱을 방카로 누비는 곳입니다. 여러 나라의 서바이버 촬영지로 알려졌지만 여전히 한적해, 보라카이와는 전혀 다른 원시적인 섬 풍경을 원하는 여행자에게 맞습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "카라모안은 루손 섬 남동쪽 비콜 지방, 카마리네스 수르주 동쪽 끝에 붙은 카라모안 반도와 그 앞바다의 섬들을 함께 부르는 이름입니다. 태평양 쪽 라고노이 만을 바라보는 이 일대에는 날카로운 석회암 봉우리가 바다에서 솟아오른 작은 섬들이 수십 개 흩어져 있고, 섬마다 짧지만 고운 모래 해변과 에메랄드빛 얕은 바다를 품고 있습니다. 육지와 떨어진 반도 끝이라 오랫동안 교통이 불편했고, 그 덕분에 개발 속도가 느려 지금도 대형 리조트보다 소박한 민박과 가족형 리조트가 중심입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "이곳이 세상에 알려진 계기는 리얼리티 서바이벌 프로그램입니다. " },
+            { "type": "date", "text": "2008년" },
+            {
+              "text": " 무렵부터 프랑스·이스라엘·불가리아 등 여러 나라의 「서바이버」 시리즈가 이곳에서 촬영됐고, 미국판도 시즌 26을 「Survivor: Caramoan」이라는 이름으로 방영했습니다. 촬영이 이뤄지는 기간에는 일부 섬과 해변의 출입이 제한되기도 하지만, 평소에는 마투카드 섬, 라호스 섬, 사비탕 라야 같은 촬영지 섬을 방카로 돌아볼 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "카라모안 타운에는 스페인 시대에 세워진 석조 성당이 남아 있고, 타운 근교의 석회암 봉우리 칼라고(Caglago) 산 정상에는 바다를 굽어보는 성모상이 서 있어 가톨릭 문화가 짙은 비콜 지방의 분위기를 함께 느낄 수 있습니다. 비콜 특유의 코코넛 밀크와 매운 고추를 쓴 음식도 여행의 즐거움입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "사람 많은 유명 해변보다 조용한 섬 호핑, 스노클링, 모래톱 산책을 원하는 여행자, 조금 불편한 이동을 감수하고서라도 필리핀의 원래 모습을 보고 싶은 여행자에게 잘 맞습니다. 반대로 편의시설과 밤문화를 기대한다면 실망할 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "섬 호핑 투어",
+              "children": [
+                {
+                  "text": "방카 한 척을 빌려 하루 동안 4~6개 섬을 도는 것이 카라모안 여행의 핵심입니다. 가까운 섬 코스와 먼 섬 코스로 나뉘며, 인원이 모이면 1인 부담이 크게 줄어듭니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "마투카드 섬의 숨은 라군",
+              "children": [
+                {
+                  "text": "석회암 절벽으로 둘러싸인 작은 섬으로, 바위 틈을 기어올라 넘어가면 바다와 이어진 비밀 라군이 나타납니다. 바위가 날카로우므로 아쿠아슈즈를 신는 것이 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "라호스 섬 모래톱",
+              "children": [
+                {
+                  "text": "썰물 때 섬 양쪽으로 하얀 모래톱이 드러나 바다 한가운데를 걷는 기분을 느낄 수 있습니다. 서바이버 촬영지로 가장 많이 알려진 섬 가운데 하나입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "사비탕 라야와 카그발리나드 스노클링",
+              "children": [{ "text": "수심이 얕고 물이 맑아 산호와 열대어를 보기 좋습니다. 파도가 잔잔한 오전 시간에 들르는 것이 좋습니다." }]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "칼라고 산 성모상 전망대",
+              "children": [
+                {
+                  "text": "수백 개의 계단을 올라 정상에 서면 카라모안 앞바다의 섬들이 한눈에 들어옵니다. 해가 뜨거워지기 전 이른 아침에 오르는 것을 권합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "고타 해변과 투가웨 코브",
+              "children": [
+                {
+                  "text": "반도 쪽의 고요한 해변으로, 서바이버 제작진의 거점으로 쓰였던 리조트와 절벽 아래 작은 만이 인상적입니다. 섬 호핑 뒤 석양을 보기 좋은 곳입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "비콜 음식 맛보기",
+              "children": [
+                { "text": "코코넛 밀크에 돼지고기와 고추를 넣은 비콜 익스프레스, 토란잎을 졸인 라잉, 필리넛 간식은 이 지방에서 꼭 먹어볼 만합니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "오전", "children": [{ "text": "마닐라에서 나가 공항 도착, 나가 시내에서 점심" }] },
+                    {
+                      "time": "오후",
+                      "children": [{ "text": "밴으로 사방 항구 이동 후 배로 기할로 항구 도착, 또는 버스로 육로 이동" }]
+                    },
+                    { "time": "저녁", "children": [{ "text": "숙소 체크인, 타운에서 비콜 음식으로 저녁 식사" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "칼라고 산 성모상 전망대에서 일출과 전경 감상" }] },
+                    {
+                      "time": "08:00~15:00",
+                      "children": [
+                        { "text": "섬 호핑 투어 — 마투카드 섬, 라호스 섬, 사비탕 라야, 카그발리나드, 모래톱 점심 피크닉" }
+                      ]
+                    },
+                    { "time": "16:00", "children": [{ "text": "숙소 복귀 후 휴식" }] },
+                    { "time": "17:30", "children": [{ "text": "고타 해변 방향에서 석양 감상" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [{ "text": "먼 섬 코스(코티바스 섬, 만라위 모래톱 등)를 짧게 추가하거나 타운 성당 방문" }]
+                    },
+                    { "time": "10:00", "children": [{ "text": "기할로 항구에서 사방 항구로 출발" }] },
+                    { "time": "오후", "children": [{ "text": "나가 도착, 페냐프란시아 성당 둘러본 뒤 마닐라행" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "마닐라에서 나가 공항(WNP)까지 필리핀항공·세부퍼시픽 계열 항공편이 운항하며 약 " },
+                    { "type": "duration", "text": "1시간" },
+                    { "text": "이 걸립니다. 편도 요금은 시기에 따라 약 " },
+                    { "type": "price", "text": "₱2,000~5,000" },
+                    { "text": "입니다. 공항은 나가 시내에서 약 " },
+                    { "type": "duration", "text": "30분" },
+                    {
+                      "text": " 거리의 필리(Pili)에 있어 트라이시클이나 택시로 시내로 이동합니다. 레가스피 인근 비콜 국제공항(DRP)을 이용할 수도 있지만 카라모안까지 이동 시간이 더 깁니다."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스·밴",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "마닐라 쿠바오·파사이 등의 터미널에서 나가행 버스가 매일 여러 편 있으며 약 " },
+                    { "type": "duration", "text": "8~10시간" },
+                    { "text": ", 요금은 약 " },
+                    { "type": "price", "text": "₱900~1,500" },
+                    {
+                      "text": "(일반~슬리퍼 버스)입니다. 나가에서는 두 가지 방법이 있습니다. 첫째, SM 시티 나가 인근 밴 터미널에서 사방 항구(산호세)행 밴을 타면 약 "
+                    },
+                    { "type": "duration", "text": "2시간" },
+                    { "text": ", 약 " },
+                    { "type": "price", "text": "₱150~200" },
+                    { "text": "입니다. 둘째, 나가 중앙 버스 터미널에서 카라모안 직행 버스를 타면 약 " },
+                    { "type": "duration", "text": "4~5시간" },
+                    { "text": ", 약 " },
+                    { "type": "price", "text": "₱300~400" },
+                    { "text": "으로 배를 타지 않고 들어갈 수 있습니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "배",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "사방 항구에서 카라모안 기할로 항구까지 여객 방카가 오전 중심으로 하루 몇 차례 운항하며 약 " },
+                    { "type": "duration", "text": "2시간" },
+                    { "text": ", 약 " },
+                    { "type": "price", "text": "₱120~200" },
+                    {
+                      "text": "입니다. 마지막 배가 이른 오후에 끊기는 경우가 많아 오전 일찍 사방에 도착하는 것이 안전합니다. 기할로 항구에서 환경세(약 "
+                    },
+                    { "type": "price", "text": "₱30" },
+                    { "text": " 안팎)를 내고, 트라이시클로 타운이나 숙소까지 약 " },
+                    { "type": "duration", "text": "20~30분" },
+                    { "text": ", 1대 약 " },
+                    { "type": "price", "text": "₱200~300" },
+                    { "text": "입니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "현지 이동",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "섬 호핑은 숙소나 관광 안내소를 통해 방카를 빌립니다. 가까운 섬 코스는 1척 약 " },
+                    { "type": "price", "text": "₱1,500~2,500" },
+                    { "text": ", 먼 섬 코스는 약 " },
+                    { "type": "price", "text": "₱2,500~5,000" },
+                    { "text": " 수준입니다. 타운 안에서는 트라이시클을 이용합니다." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "카라모안은 필리핀 동쪽 태평양 쪽에 열려 있어 서쪽 해안 여행지와 날씨 패턴이 다릅니다. " },
+            { "type": "date", "text": "11월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "2월" },
+            { "text": "까지는 북동 계절풍 아미한의 영향으로 비가 잦고 파도가 높아, 배가 결항되거나 섬 호핑이 취소되는 날이 많습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "가장 좋은 시기는 " },
+            { "type": "date", "text": "3월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "6월" },
+            { "text": "까지입니다. 비가 적고 바다가 잔잔해 먼 섬까지 나가기 좋으며, 물빛도 가장 투명합니다. 다만 성주간(3~" },
+            { "type": "date", "text": "4월" },
+            { "text": ")과 여름방학 기간에는 필리핀 현지 여행객이 몰리므로 숙소를 미리 예약해야 합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "7월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "10월" },
+            {
+              "text": "은 우기이자 태풍 시기입니다. 비콜 지방은 태풍이 자주 지나가는 길목이라 이 시기에는 기상청(PAGASA) 예보를 반드시 확인해야 합니다. "
+            },
+            { "type": "date", "text": "9월" },
+            {
+              "text": " 셋째 주 무렵 나가에서 열리는 페냐프란시아 축제 기간에는 나가 시내 숙소가 붐비지만 비콜 문화를 제대로 볼 수 있는 기회이기도 합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라–나가 항공", "price": "약 ₱2,000~5,000", "note": "편도, 시기별 변동" },
+            { "label": "마닐라–나가 버스", "price": "약 ₱900~1,500", "note": "편도, 8~10시간" },
+            { "label": "나가–사방 밴 + 배", "price": "약 ₱300~400", "note": "편도 합계" },
+            { "label": "기할로 환경세", "price": "약 ₱30~50", "note": "도착 시 1회" },
+            { "label": "섬 호핑 방카 대여", "price": "약 ₱1,500~5,000", "note": "1척 기준, 인원 나눠 부담" },
+            { "label": "섬별 입장료", "price": "약 ₱50~100", "note": "섬마다 소액 징수" },
+            { "label": "숙박", "price": "약 ₱1,200~6,000", "note": "1박, 민박~리조트" },
+            { "label": "식사", "price": "약 ₱500~1,000", "note": "1인 1일" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "숙소는 크게 카라모안 타운(포블라시온)과 해변 리조트로 나뉩니다. 타운에는 1박 약 " },
+            { "type": "price", "text": "₱1,200~2,500" },
+            {
+              "text": "의 게스트하우스와 민박이 모여 있어 식당과 시장, 항구 이동이 편리합니다. 섬 호핑 방카도 타운 숙소를 통해 쉽게 구할 수 있습니다. 해변 쪽에는 고타 해변 일대와 투가웨 코브처럼 바다를 끼고 있는 리조트가 있으며 1박 약 "
+            },
+            { "type": "price", "text": "₱4,000~10,000" },
+            { "text": " 이상으로, 식사와 섬 호핑을 묶은 패키지로 판매하는 경우가 많습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "먹거리는 비콜 지방 요리가 중심입니다. 코코넛 밀크와 고추를 넣어 끓인 비콜 익스프레스, 말린 토란잎을 코코넛 밀크에 졸인 라잉, 채소를 코코넛 밀크에 익힌 기낫안 등이 대표적이며, 대체로 매콤합니다. 바닷가 마을답게 생선구이와 오징어, 게 요리가 저렴합니다. 섬 호핑 날에는 전날 숙소에 점심 도시락이나 바비큐 준비를 부탁하거나, 타운 시장에서 해산물을 사서 방카 사공에게 구워 달라고 하는 방식이 일반적입니다. 나가에 들르면 필리넛으로 만든 과자와 사탕을 기념품으로 사기 좋습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "카라모안에는 ATM이 거의 없거나 고장이 잦으므로 나가 시내에서 필요한 현금을 모두 찾아 가는 것이 안전합니다. 카드 결제가 되는 곳은 대형 리조트 정도입니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "스마트·글로브 신호는 타운에서는 잡히지만 섬과 외곽 해변에서는 약하거나 끊깁니다. 데이터가 필요하면 두 통신사 유심을 모두 준비하는 것이 좋습니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "섬 호핑은 인원이 많을수록 저렴하므로 숙소에서 다른 여행자와 방카를 함께 빌리는 조인을 물어보는 것이 좋습니다." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "마투카드 섬과 암초 해변은 바위가 날카로워 아쿠아슈즈가 필수입니다. 스노클 장비는 숙소에서 빌릴 수 있지만 개인 장비가 더 위생적입니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "사방 항구발 배는 오전에 집중되므로 나가에서 새벽에 출발하는 밴을 타야 당일 도착이 수월합니다. 늦어지면 육로 직행 버스로 바꾸는 것이 낫습니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "모래톱과 라호스 섬의 풍경은 썰물 때 가장 멋지므로 출발 전 물때표를 확인하고 동선을 짜는 것이 좋습니다." }
+              ]
+            },
+            { "children": [{ "text": "칼라고 산 계단은 그늘이 적으므로 물과 모자를 챙기고 이른 아침에 오르는 것이 좋습니다." }] },
+            { "children": [{ "text": "정전이 드물지 않으므로 보조배터리와 손전등을 준비하는 것이 좋습니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "type": "date", "text": "11월~2월" },
+            { "text": "에는 바다가 거칠어 배가 예고 없이 결항될 수 있으므로, 돌아오는 항공편 전날에는 나가로 나와 있는 일정을 권합니다." }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "방카 탑승 시 구명조끼를 반드시 착용하고, 파도가 높은 날에는 먼 섬 코스를 무리하게 가지 말아야 합니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "서바이버 촬영 기간에는 일부 섬 출입이 통제될 수 있으므로 숙소나 관광 안내소에 최신 공지를 확인해야 합니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "산호와 불가사리를 만지거나 가져가지 말아야 합니다. 섬마다 쓰레기 수거 시설이 부족하므로 가져간 쓰레기는 되가져와야 합니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "햇볕이 매우 강하므로 산호에 해가 적은 선크림과 래시가드를 준비하고, 탈수에 대비해 물을 넉넉히 챙기는 것이 좋습니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "방카 요금과 코스는 출발 전에 포함 섬, 입장료 포함 여부, 점심 여부를 분명히 합의해 두어야 나중에 다툼이 없습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "나가 시",
+              "children": [
+                { "text": "카라모안 가는 길의 관문 도시로, 페냐프란시아 성모 성당과 비콜 음식점이 모여 있습니다. 육로 약 " },
+                { "type": "duration", "text": "4~5시간" },
+                { "text": " 거리입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "CWC 캠수르 수상스키장",
+              "children": [
+                { "text": "나가 근교 필리의 케이블 수상스키 시설로, 나가에서 차로 약 " },
+                { "type": "duration", "text": "30분" },
+                { "text": "입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "마욘 화산",
+              "place": "mayon-volcano",
+              "children": [
+                { "text": "완벽한 원뿔 모양의 활화산으로, 나가에서 레가스피까지 차로 약 " },
+                { "type": "duration", "text": "2시간 30분" },
+                { "text": "입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "칼라과스 섬",
+              "place": "calaguas",
+              "children": [
+                { "text": "같은 비콜 지방 카마리네스 노르테의 하얀 백사장 섬으로, 나가에서 다에트를 거쳐 하루 안에 이동할 수 있습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

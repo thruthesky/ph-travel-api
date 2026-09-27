@@ -1,0 +1,615 @@
+{
+  "id": 44,
+  "slug": "apo-reef",
+  "title": { "type": "title", "text": "아포 리프" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Apo Reef" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "상어와 거북이 지키는 필리핀 최대의 산호초" },
+  "island_group": { "type": "badge", "label": "권역", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "text": "민도로" },
+  "location": {
+    "type": "address",
+    "label": "위치",
+    "icon": "location_on",
+    "text": "옥시덴탈 민도로주 사블라얀 앞바다"
+  },
+  "category": { "type": "badge", "label": "분류", "icon": "scuba_diving", "text": "다이빙·해양" },
+  "tags": { "type": "tags", "label": "태그", "items": ["다이빙", "산호초", "상어", "해양 보호구역", "무인도 캠핑"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.6, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 12.6617 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 120.4144 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "3월~5월 (바다가 가장 잔잔한 시기)",
+    "months": [3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "1박 2일~2박 3일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱5,000~12,000 (보트 분담·입장료 포함 투어 1회)",
+    "currency": "PHP",
+    "min": 5000,
+    "max": 12000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "어려움",
+    "value": 3,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "산호세 공항(SJI)",
+    "code": "SJI"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/044-apo-reef.webp",
+    "alt": "아포 리프",
+    "credit": "Tomacruz / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apo_reef.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/044-apo-reef-2.webp",
+        "alt": "아포 리프",
+        "credit": "Mpunzal / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Reef_with_the_Apo_Reef_Lighthouse.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/044-apo-reef-3.webp",
+        "alt": "아포 리프",
+        "credit": "Dmitry Domrin / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:%D0%A1uttlefish_Ascarosepion_pfefferi_crawls_along_the_sandy_bottom._Apo_reef_nature_reserve._Philippines.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "민도로 서쪽 바다 한가운데 놓인 아포 리프는 필리핀에서 가장 큰 연속 산호초로, 조업이 전면 금지된 자연공원입니다. 리프 상어와 바다거북, 대형 어군을 만날 수 있어 다이버들의 꿈의 목적지이며, 무인도 캠핑과 스노클링도 가능합니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "아포 리프는 민도로 섬 서쪽, 옥시덴탈 민도로주 사블라얀 해안에서 약 " },
+            { "type": "distance", "text": "30km" },
+            {
+              "text": " 떨어진 민도로 해협 한가운데에 있는 거대한 산호초입니다. 약 34㎢에 이르는 산호초가 두 개의 큰 고리 모양으로 이어져 있고, 그 안쪽에는 수심이 얕은 석호가 펼쳐집니다. 필리핀에서 가장 큰 연속 산호초이며, 호주 그레이트배리어리프 다음가는 규모의 연속 산호초라고 소개되기도 합니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "산호초 위에는 세 개의 작은 섬이 있습니다. 가장 큰 아포 섬에는 맹그로브 숲과 모래 해변, 레인저 초소와 등대가 있고, 동쪽의 아포 메노르(비낭가안)는 바위섬, 카요스 델 바호는 산호 조각이 쌓인 작은 바위섬입니다. "
+            },
+            { "type": "date", "text": "1996년" },
+            { "text": " 자연공원으로 지정된 뒤 " },
+            { "type": "date", "text": "2007년" },
+            {
+              "text": "부터는 모든 조업이 금지되는 완전 보호구역으로 관리되면서, 한때 남획과 폭약 어업으로 훼손됐던 산호와 어군이 눈에 띄게 회복됐습니다. 이런 가치 덕분에 유네스코 세계유산 잠정 목록에도 올라 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "바다 속은 필리핀 최고 수준입니다. 흰지느러미·검은지느러미 리프 상어, 바다거북, 거대한 잭 피시와 바라쿠다 떼, 나폴레옹피시, 가오리가 자주 나타나고, 운이 좋으면 망치상어나 만타를 볼 수도 있습니다. 산호초 바깥쪽은 수십 미터 아래로 떨어지는 절벽 벽면이라 드리프트 다이빙이 인상적입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "다만 접근이 쉽지 않습니다. 호텔도 식당도 없는 무인 공원이어서 사블라얀 관광청을 통한 사전 예약, 보트 전세, 캠핑 준비가 필요하고, 날씨에 따라 출항 자체가 취소될 수 있습니다. 편한 휴양보다는 진짜 야생의 바다를 보고 싶은 다이버, 스노클러, 모험형 여행자에게 맞는 곳입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "월 다이빙과 상어 만나기",
+              "children": [
+                {
+                  "text": "산호초 바깥쪽 절벽을 따라 조류를 타고 흐르는 다이빙에서 리프 상어와 대형 어군을 만날 수 있습니다. 조류가 강한 곳이 많아 어드밴스드 이상 경험자에게 적합합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "얕은 석호 스노클링",
+              "children": [
+                {
+                  "text": "다이빙 자격증이 없어도 산호초 안쪽 얕은 바다에서 스노클링으로 건강한 산호 군락과 바다거북을 볼 수 있습니다. 레인저가 지정한 구역에서만 들어가야 합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "아포 섬 맹그로브 보드워크",
+              "children": [{ "text": "섬 안쪽 맹그로브 숲 사이로 난 산책로를 걸으며 새와 게, 어린 물고기의 서식지를 관찰할 수 있습니다." }]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "등대와 섬 전망",
+              "children": [
+                {
+                  "text": "아포 섬의 등대 주변에서 끝없이 펼쳐진 산호초와 바다 색의 대비를 볼 수 있습니다. 오르는 것이 허용되는지는 현장 레인저에게 확인해야 합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "무인도 캠핑",
+              "children": [
+                {
+                  "text": "레인저 초소 인근 지정 구역에서 텐트나 오두막을 이용해 하룻밤을 보낼 수 있습니다. 빛 공해가 없어 밤하늘의 별이 압도적입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "리브어보드 다이빙 트립",
+              "children": [
+                { "text": "바탕가스나 코론 등에서 출발하는 다이빙 전용 크루즈를 타면 이동과 숙박, 여러 차례 다이빙을 한 번에 해결할 수 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "판단 섬 들르기",
+              "children": [
+                { "text": "사블라얀 앞바다의 판단 섬은 리조트가 있는 작은 섬으로, 아포 리프 출발 전후에 스노클링과 휴식을 즐기기 좋습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "오전", "children": [{ "text": "마닐라에서 산호세 공항 도착, 버스·밴으로 사블라얀 이동" }] },
+                    { "time": "오후", "children": [{ "text": "사블라얀 관광청에서 예약 확인, 요금 납부, 식재료와 물 구입" }] },
+                    { "time": "저녁", "children": [{ "text": "사블라얀 타운 숙박, 다음 날 새벽 출항 준비" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00",
+                      "children": [
+                        { "text": "사블라얀 항구에서 방카 출발 (약 " },
+                        { "type": "duration", "text": "2~3시간" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "09:00", "children": [{ "text": "아포 섬 레인저 초소 도착, 등록과 안전 교육" }] },
+                    {
+                      "time": "10:00~15:00",
+                      "children": [{ "text": "스노클링 또는 다이빙 2~3회, 맹그로브 보드워크 산책" }]
+                    },
+                    { "time": "저녁", "children": [{ "text": "섬에서 캠핑, 별 보기" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "아침 스노클링이나 다이빙 1회" }] },
+                    { "time": "10:00", "children": [{ "text": "사블라얀 항구로 출발" }] },
+                    {
+                      "time": "오후",
+                      "children": [{ "text": "사블라얀 도착 후 산호세로 이동, 다음 날 또는 저녁 항공편으로 마닐라 복귀" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "마닐라에서 옥시덴탈 민도로 산호세 공항(SJI)까지 항공편으로 약 " },
+                    { "type": "duration", "text": "1시간" },
+                    { "text": " 걸리며 편도 약 " },
+                    { "type": "price", "text": "₱2,000~5,000" },
+                    {
+                      "text": "입니다. 운항 편수가 적어 일정이 맞지 않을 수 있으므로 미리 확인해야 합니다. 산호세 공항에서 트라이시클로 버스 터미널에 간 뒤, 사블라얀행 버스나 밴을 타면 약 "
+                    },
+                    { "type": "duration", "text": "2~3시간" },
+                    { "text": ", 약 " },
+                    { "type": "price", "text": "₱200~300" },
+                    { "text": "입니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스·배",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "육로와 배를 이용하려면 마닐라에서 바탕가스 항구까지 버스로 약 " },
+                    { "type": "duration", "text": "2~3시간" },
+                    { "text": "(약 " },
+                    { "type": "price", "text": "₱250~350" },
+                    { "text": ") 이동한 뒤, 아브라 데 일로그행 로로선(약 " },
+                    { "type": "duration", "text": "2시간 30분~3시간" },
+                    { "text": ", 약 " },
+                    { "type": "price", "text": "₱500~700" },
+                    { "text": ")을 탑니다. 아브라 데 일로그 항구에서 사블라얀까지는 버스나 밴으로 약 " },
+                    { "type": "duration", "text": "3~4시간" },
+                    { "text": ", 약 " },
+                    { "type": "price", "text": "₱250~350" },
+                    { "text": "입니다. 마닐라에서 사블라얀까지 하루가 꼬박 걸리므로 첫날은 이동에만 집중하는 것이 좋습니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "배(아포 리프 방문)",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "사블라얀 관광청(에코투어리즘 사무소)을 통해 공인 방카를 전세 내는 것이 원칙입니다. 방카는 인원 10~15명 기준 1척 약 "
+                    },
+                    { "type": "price", "text": "₱10,000~15,000" },
+                    { "text": " 이상으로, 체류 시간과 배 크기에 따라 달라집니다. 사블라얀 항구에서 아포 섬까지 약 " },
+                    { "type": "duration", "text": "2~3시간" },
+                    {
+                      "text": " 걸리며, 출항은 보통 새벽입니다. 관광청은 최소 3일 전 사전 예약을 요구하고, 평일 근무 시간에만 예약을 받는 경우가 많습니다."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "리브어보드",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "다이빙이 목적이라면 3~" },
+                    { "type": "date", "text": "6월" },
+                    {
+                      "text": " 시즌에 바탕가스·아닐라오·코론 등에서 출발하는 리브어보드가 가장 효율적입니다. 3~5일 일정이 일반적이며, 비용은 선박과 일정에 따라 1인 수만 페소 이상입니다."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "아포 리프는 탁 트인 해협 한가운데에 있어 바다 상태가 여행 성패를 좌우합니다. 가장 좋은 시기는 " },
+            { "type": "date", "text": "3월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "5월" },
+            { "text": "까지로, 바람이 약하고 파도가 낮아 출항 가능성이 높으며 수중 시야도 " },
+            { "type": "distance", "text": "20~30m" },
+            { "text": " 이상으로 좋은 날이 많습니다. 리브어보드 다이빙 시즌도 대부분 이 시기에 맞춰 운영됩니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "2월" },
+            { "text": "까지는 북동 계절풍 아미한으로 바람과 파도가 강해지는 날이 많고, " },
+            { "type": "date", "text": "6월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "10월" },
+            {
+              "text": "까지는 남서 계절풍 하바갓과 태풍 시기라 출항이 취소되는 일이 잦습니다. 공원 당국과 해안경비대는 기상 악화 시 방문을 전면 중단하므로, 비수기에는 예약을 해도 당일 취소될 수 있다는 점을 감안해야 합니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "섬에는 그늘이 적고 햇볕이 강합니다. 건기에는 한낮 기온이 32도 이상으로 올라가므로 수분 보충과 자외선 차단에 신경 써야 합니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라–산호세 항공", "price": "약 ₱2,000~5,000", "note": "편도, 운항 편수 적음" },
+            { "label": "산호세–사블라얀 버스", "price": "약 ₱200~300", "note": "편도, 2~3시간" },
+            { "label": "방카 전세", "price": "약 ₱10,000~15,000 이상", "note": "1척, 10~15인 분담" },
+            { "label": "입장·보전료", "price": "약 ₱500~1,000", "note": "1인, 내국인·외국인 차등" },
+            { "label": "스노클링·다이빙 이용료", "price": "약 ₱1,000~3,500", "note": "1인, 활동별 별도, 최근 인상 경향" },
+            { "label": "섬 오두막·캠핑", "price": "약 ₱500~2,000", "note": "1박, 오두막은 1동 기준" },
+            { "label": "펀 다이빙", "price": "약 ₱2,000~3,500", "note": "1회, 다이브 센터 이용 시" },
+            { "label": "사블라얀 숙박", "price": "약 ₱1,000~3,500", "note": "1박" },
+            { "label": "식재료·식사", "price": "약 ₱600~1,200", "note": "1인 1일" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "아포 리프 안에는 상업 숙박 시설이 없습니다. 아포 섬 레인저 초소 인근에 공원에서 관리하는 오두막(2~4인용)이 몇 채 있고, 지정 구역에서 텐트 캠핑이 허용됩니다. 오두막 수가 적어 성수기에는 금방 찹니다. 전기는 태양광 조명 정도라 충전이 어렵고, 샤워는 빗물이나 제한된 담수에 의존합니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "출발 전후에는 사블라얀 타운의 게스트하우스나 작은 호텔(1박 약 " },
+            { "type": "price", "text": "₱1,000~3,500" },
+            {
+              "text": ")에서 묵습니다. 앞바다 판단 섬에는 방갈로형 리조트가 있어 조용한 섬 숙박을 원하는 여행자에게 좋습니다. 산호세 쪽에도 공항 근처 숙소가 있어 항공편 시간에 따라 선택하면 됩니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "섬에는 식당과 매점이 없으므로 모든 식재료, 물, 얼음을 사블라얀 시장에서 준비해 가야 합니다. 방카 사공과 도우미가 밥을 짓고 생선이나 고기를 구워 주는 경우가 많으니 예약할 때 조리 서비스와 수고비를 미리 확인해야 합니다. 사블라얀 시장에서는 신선한 생선과 망고, 바나나가 저렴하고, 타운 식당에서는 필리핀 가정식 카린데리아 요리를 1인 약 "
+            },
+            { "type": "price", "text": "₱100~200" },
+            { "text": "에 먹을 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "사블라얀 관광청 예약이 필수입니다. 최소 3일 전, 평일 근무 시간에 연락해 인원, 날짜, 활동(스노클링·다이빙·캠핑)을 확정하고, 개정이 잦은 보전료와 다이빙 이용료의 최신 금액도 함께 확인해야 합니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "방카 전세 비용이 크므로 여행자 모임이나 관광청을 통해 다른 팀과 배를 함께 쓰면 1인 비용을 크게 줄일 수 있습니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "사블라얀과 섬에는 ATM이 부족하므로 산호세나 마닐라에서 현금을 충분히 준비하는 것이 좋습니다. 모든 요금은 현금으로 냅니다." }
+              ]
+            },
+            { "children": [{ "text": "섬에는 휴대폰 신호가 거의 없습니다. 비상 연락처와 일정을 가족에게 남겨 두는 것이 좋습니다." }] },
+            {
+              "children": [
+                {
+                  "text": "다이빙 장비 대여는 제한적이므로 다이브 센터를 통하거나 개인 장비를 가져가는 것이 좋습니다. 마스크와 스노클은 꼭 개인 것을 챙기는 것이 좋습니다."
+                }
+              ]
+            },
+            { "children": [{ "text": "물은 1인 1일 4리터 이상을 기준으로 준비하고, 아이스박스와 얼음을 함께 가져가는 것이 좋습니다." }] },
+            { "children": [{ "text": "방수 가방, 보조배터리, 손전등, 벌레 퇴치제, 산호에 안전한 선크림을 준비하는 것이 좋습니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "아포 리프는 완전 보호구역입니다. 산호·조개·물고기를 채집하거나 만지는 행위, 지정 구역 밖 입수는 엄격히 금지되며 적발 시 벌금과 처벌을 받을 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "산호초 바깥쪽은 조류가 매우 강할 수 있으므로 다이빙은 반드시 현지 가이드와 함께하고, 자신의 경험 수준을 넘는 포인트는 피하는 것이 좋습니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "기상 악화 시 출항이 금지되며 섬에서 돌아오는 날짜도 늦어질 수 있습니다. 귀국 일정 전에 최소 하루의 여유를 두는 것이 좋습니다."
+                }
+              ]
+            },
+            { "children": [{ "text": "가장 가까운 병원과 감압 치료 시설은 멀리 떨어져 있으므로 다이빙 보험 가입이 필수입니다." }] },
+            { "children": [{ "text": "쓰레기는 모두 되가져와야 하며, 섬에서 불을 피우는 것은 레인저가 허용한 곳에서만 가능합니다." }] },
+            { "children": [{ "text": "상어를 쫓거나 먹이를 주는 행위는 금지되어 있고 위험합니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "판단 섬",
+              "children": [
+                { "text": "사블라얀 항구에서 방카로 약 " },
+                { "type": "duration", "text": "15~20분" },
+                { "text": " 거리의 작은 리조트 섬으로, 스노클링과 휴식에 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "푸에르토 갈레라",
+              "place": "puerto-galera",
+              "children": [
+                {
+                  "text": "민도로 북쪽의 다이빙 마을로, 사블라얀에서 가려면 아브라 데 일로그와 바탕가스 항구를 거쳐 하루 가까이 걸리지만 민도로 다이빙 여행을 이어가기 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "코론",
+              "place": "coron",
+              "children": [
+                { "text": "침몰선 다이빙으로 유명한 팔라완 북부 섬으로, 아포 리프 리브어보드 일정에 함께 포함되는 경우가 많습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "아닐라오",
+              "place": "anilao",
+              "children": [{ "text": "바탕가스의 마크로 다이빙 명소로, 아포 리프 리브어보드의 출발지로도 쓰입니다." }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "id": 60,
+  "slug": "bacolod",
+  "title": { "type": "title", "text": "바콜로드 & 더 루인스" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Bacolod & The Ruins" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "치킨 이나살 향기와 사랑이 남긴 폐허 저택의 도시" },
+  "island_group": { "type": "badge", "label": "권역", "text": "비사야" },
+  "region": { "type": "badge", "label": "지역", "text": "네그로스" },
+  "location": {
+    "type": "address",
+    "label": "위치",
+    "icon": "location_on",
+    "text": "네그로스옥시덴탈주 바콜로드시·탈리사이시"
+  },
+  "category": { "type": "badge", "label": "분류", "icon": "location_city", "text": "도시·미식" },
+  "tags": { "type": "tags", "label": "태그", "items": ["치킨 이나살", "폐허 저택", "마스카라 축제", "헤리티지", "디저트"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 10.6765 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 122.9509 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "12월~5월 (건기), 10월 마스카라 축제",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "1~2일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱2,000~4,000",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "바콜로드-실라이 공항(BCD)",
+    "code": "BCD"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/060-bacolod.webp",
+    "alt": "바콜로드 & 더 루인스",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral_Bacolod_(Rizal_Street,_Bacolod,_Negros_Occidental;_10-31-2022).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/060-bacolod-2.webp",
+        "alt": "바콜로드 & 더 루인스",
+        "credit": "Joncabiles / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Ruins_in_Bacolod_,_Philippines.JPG"
+      },
+      {
+        "type": "image",
+        "url": "images/060-bacolod-3.webp",
+        "alt": "바콜로드 & 더 루인스",
+        "credit": "Mariarona / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Ruins_Talisay_Bacolod_in_Focus_Sept2012.JPG"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "설탕 산업으로 번성한 네그로스섬의 중심 도시로, 원조 치킨 이나살과 달콤한 디저트, " },
+      { "type": "date", "text": "10월" },
+      { "text": " 마스카라 축제로 유명합니다. 근교 탈리사이의 폐허 저택 더 루인스는 해 질 녘과 야경이 특히 아름답습니다." }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "바콜로드는 네그로스섬 서북부, 네그로스옥시덴탈주의 주도입니다. 19세기 후반부터 네그로스 평야 전체가 거대한 사탕수수 농장으로 바뀌면서 \"설탕의 수도\"로 불렸고, 설탕으로 부를 쌓은 농장주(아센데로) 가문들이 저택과 성당, 공원을 지어 우아한 도시 문화를 남겼습니다. 지금도 시내에서 조금만 벗어나면 사탕수수밭이 끝없이 펼쳐지고, 수확철에는 사탕수수를 실은 트럭과 기차 흔적을 볼 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "바콜로드의 별명은 \"미소의 도시(City of Smiles)\"입니다. " },
+            { "type": "date", "text": "1980년" },
+            { "text": " 설탕 가격 폭락과 대형 여객선 참사로 도시가 침체에 빠졌을 때, 시민들이 웃는 가면을 쓰고 거리로 나와 서로를 위로한 것이 매년 " },
+            { "type": "date", "text": "10월" },
+            {
+              "text": "의 마스카라 축제가 되었습니다. 화려한 웃는 가면과 형형색색 의상을 입은 무용단이 거리를 가득 메우는 이 축제는 필리핀을 대표하는 축제 중 하나입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "바콜로드는 또 필리핀 미식의 도시입니다. 레몬그라스·칼라만시·마늘로 양념해 숯불에 굽고 아나토 기름을 바른 치킨 이나살의 본고장이며, 설탕 산지답게 피야, 나폴레오네스, 초콜릿 케이크 같은 디저트 문화가 발달했습니다. 산세바스티안 대성당, 주 청사와 라군 공원, 네그로스 박물관 등 도심 볼거리도 걸어서 둘러볼 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "바콜로드 여행의 하이라이트는 북쪽 이웃 도시 탈리사이의 더 루인스(The Ruins)입니다. 20세기 초 설탕 부호 마리아노 레데스마 락손이 세상을 떠난 아내 마리아 브라가를 기리며 지은 이탈리아풍 저택으로, 2차 세계대전 중 일본군이 사용하지 못하도록 미군·필리핀 게릴라가 불을 질러 사흘 동안 불탄 뒤 뼈대만 남았습니다. \"네그로스의 타지마할\"이라 불리는 이 폐허는 해 질 녘 조명이 켜질 때 가장 아름답습니다. 미식과 역사, 여유로운 도시 분위기를 좋아하는 여행자에게 추천합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "더 루인스 일몰과 야경",
+              "children": [
+                { "text": "입장료 약 " },
+                { "type": "price", "text": "₱150" },
+                { "text": "으로, 사탕수수밭 한가운데 선 저택 뼈대와 정원, 연못을 둘러봅니다. " },
+                { "type": "time", "text": "오후 4시 30분" },
+                { "text": "쯤 들어가 노을과 조명이 켜진 야경까지 이어서 보는 것이 가장 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "원조 치킨 이나살 먹기",
+              "children": [
+                {
+                  "text": "숯불에 구운 이나살에 닭기름(치킨 오일)을 밥에 비벼 먹고, 간장·칼라만시·고추 식초를 찍어 먹습니다. 시내의 오래된 이나살 전문점이나 마노칸 컨트리 노점에서 맛볼 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "산세바스티안 대성당",
+              "children": [
+                { "text": "1876~" },
+                { "type": "date", "text": "1882년" },
+                {
+                  "text": "에 지어진 대성당으로, 바다 건너 기마라스에서 가져온 산호석으로 쌓은 벽과 두 개의 종탑이 특징입니다. 바콜로드 공공 광장과 마주하고 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "주 청사와 라군 공원",
+              "children": [
+                { "type": "date", "text": "1930년" },
+                {
+                  "text": "대 신고전주의 양식의 네그로스옥시덴탈 주 청사와 그 앞 긴 연못, 물소 조각이 어우러진 공원은 아침 산책과 사진 명소로 사랑받습니다. 인근 네그로스 박물관에서 설탕 산업의 역사를 배울 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "디저트 순례",
+              "children": [
+                {
+                  "text": "얇은 밀가루 반죽에 흑설탕을 넣고 구운 피야, 크림을 층층이 넣은 나폴레오네스, 진한 초콜릿 케이크로 유명한 오래된 케이크 전문점까지 달콤한 투어를 즐깁니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "실라이 헤리티지 마을",
+              "children": [
+                { "text": "북쪽으로 약 " },
+                { "type": "duration", "text": "30분" },
+                {
+                  "text": " 떨어진 실라이에는 설탕 부호들의 목조 저택 30여 채가 남아 있습니다. 옛 저택을 복원한 박물관 발라이 네그렌세를 관람하고, "
+                },
+                { "type": "date", "text": "1920년" },
+                { "text": " 창업한 제과점 엘 이데알에서 과일 파이를 맛봅니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "마스카라 축제",
+              "children": [
+                { "type": "date", "text": "10월" },
+                {
+                  "text": " 한 달 내내 행사가 이어지고, 넷째 주말 무렵 거리 퍼레이드와 댄스 경연이 절정을 이룹니다. 라크손 거리는 밤마다 거리 파티장으로 변합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "캄푸에스토한 고원·맘부칼 리조트",
+              "children": [
+                {
+                  "text": "바콜로드 동쪽 산자락의 고원 리조트와, 무르시아의 맘부칼 온천·폭포 리조트는 도시 여행 중 선선한 자연을 즐기기 좋은 반나절 코스입니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "오전 8시", "children": [{ "text": "주 청사와 라군 공원 산책, 인근 카페에서 아침" }] },
+                    { "time": "오전 10시", "children": [{ "text": "네그로스 박물관 관람" }] },
+                    { "time": "오전 11시 30분", "children": [{ "text": "산세바스티안 대성당과 공공 광장" }] },
+                    { "time": "정오", "children": [{ "text": "치킨 이나살 점심" }] },
+                    { "time": "오후 2시", "children": [{ "text": "피야·나폴레오네스 등 디저트 가게 순례, 기념품 구입" }] },
+                    {
+                      "time": "오후 4시 30분",
+                      "children": [
+                        { "text": "탈리사이의 더 루인스로 이동(약 " },
+                        { "type": "duration", "text": "20~30분" },
+                        { "text": "), 일몰과 야경 감상" }
+                      ]
+                    },
+                    { "time": "저녁", "children": [{ "text": "라크손 거리 식당가에서 저녁" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "오전", "children": [{ "text": "실라이로 이동해 헤리티지 저택 산책, 발라이 네그렌세 관람" }] },
+                    { "time": "점심", "children": [{ "text": "실라이의 오래된 제과점과 현지 식당" }] },
+                    {
+                      "time": "오후",
+                      "children": [{ "text": "캄푸에스토한 고원 또는 맘부칼 리조트에서 휴식, 혹은 바콜로드-실라이 공항으로 이동" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "마닐라에서 바콜로드-실라이 공항(BCD)까지 약 " },
+                        { "type": "duration", "text": "1시간 10분" },
+                        { "text": "이며 필리핀항공·세부퍼시픽·에어아시아가 매일 운항합니다. 세부·다바오 등에서도 직항이 있습니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "공항은 실라이시에 있으며 바콜로드 시내까지 약 " },
+                        { "type": "distance", "text": "15km" },
+                        { "text": ", " },
+                        { "type": "duration", "text": "30~40분" },
+                        { "text": "입니다. 공항 셔틀 밴은 1인 약 " },
+                        { "type": "price", "text": "₱150" },
+                        { "text": " 안팎, 택시·그랩은 약 " },
+                        { "type": "price", "text": "₱400~600" },
+                        { "text": "입니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "배",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "일로일로에서 쾌속선으로 약 " },
+                        { "type": "duration", "text": "1시간~1시간 30분" },
+                        { "text": ", 1인 약 " },
+                        { "type": "price", "text": "₱300~800" },
+                        {
+                          "text": "입니다. 오션젯, 위삼 익스프레스 등이 하루 여러 차례 운항하며 바콜로드 BREDCO 항구(매립지 쪽 여객 터미널)에 도착합니다."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "마닐라에서 대형 여객선이 운항하기도 하지만 " },
+                        { "type": "duration", "text": "20시간" },
+                        { "text": " 안팎이 걸립니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스·밴",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "두마게테에서 네그로스섬 남부를 돌아 버스로 약 " },
+                        { "type": "duration", "text": "5~6시간" },
+                        { "text": ", 1인 약 " },
+                        { "type": "price", "text": "₱350~500" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "세부에서는 톨레도-산카를로스 페리와 버스를 이어 약 " },
+                        { "type": "duration", "text": "6~8시간" },
+                        { "text": "이 걸리므로 항공이 편리합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "현지 교통",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "시내는 지프니(기본 요금 약 " },
+                        { "type": "price", "text": "₱13~15" },
+                        { "text": ")와 택시, 그랩이 잘 되어 있습니다. 더 루인스까지는 택시·그랩으로 약 " },
+                        { "type": "price", "text": "₱200~350" },
+                        { "text": "이며, 돌아올 때를 위해 기사에게 대기를 부탁하거나 입구에서 차량을 부르면 됩니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "건기인 " },
+            { "type": "date", "text": "12월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "5월" },
+            { "text": "까지가 여행하기 좋습니다. " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": "은 비교적 선선하고, 3~" },
+            { "type": "date", "text": "5월" },
+            { "text": "은 무덥지만 비가 거의 없어 더 루인스의 선명한 노을을 보기 좋습니다. " },
+            { "type": "date", "text": "6월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "11월" },
+            {
+              "text": "까지는 우기로 오후 소나기가 잦지만 도시 여행 위주라 큰 불편은 없습니다. 네그로스 서부는 필리핀 동부보다 태풍 직격 빈도가 낮지만 10~"
+            },
+            { "type": "date", "text": "12월" },
+            { "text": " 태풍에 대비해 예보를 확인합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "10월" },
+            {
+              "text": "은 우기 끝자락이지만 마스카라 축제가 열리는 바콜로드 최대의 시기입니다. 축제 절정 주말에는 숙소가 몇 달 전에 매진되고 시내 교통이 크게 혼잡하므로, 축제를 보려면 미리 예약하고 조용한 여행을 원하면 이 기간을 피합니다. "
+            },
+            { "type": "date", "text": "12월" },
+            { "text": "에는 도시 곳곳이 크리스마스 조명으로 장식됩니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라↔바콜로드 항공", "price": "왕복 약 ₱4,000~10,000", "note": "프로모션 시 더 저렴" },
+            { "label": "공항 셔틀·택시", "price": "편도 약 ₱150~600", "note": "셔틀·택시별 상이" },
+            { "label": "일로일로↔바콜로드 쾌속선", "price": "편도 약 ₱300~800", "note": "좌석 등급별" },
+            { "label": "더 루인스 입장료", "price": "성인 약 ₱150", "note": "학생·노인 할인, 최신 요금 확인" },
+            { "label": "더 루인스 왕복 택시", "price": "약 ₱400~700", "note": "대기 시 추가" },
+            { "label": "숙박(중급 호텔)", "price": "1박 약 ₱2,000~4,500", "note": "라크손 거리·시내" },
+            { "label": "치킨 이나살 식사", "price": "1인 약 ₱150~350", "note": "밥 무제한 식당 많음" },
+            { "label": "디저트·기념품", "price": "약 ₱200~800", "note": "피야·나폴레오네스 등" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "숙소는 식당과 카페가 모인 라크손 거리 주변, 대형 쇼핑몰이 있는 SM 시티 바콜로드와 항구 인근의 신도심, 그리고 시내 중심 광장 주변에 많습니다. 중급 호텔은 1박 "
+            },
+            { "type": "price", "text": "₱2,000~4,500" },
+            { "text": ", 비즈니스 호텔과 부티크 호텔은 " },
+            { "type": "price", "text": "₱5,000" },
+            { "text": " 안팎입니다. 도보 여행과 저녁 식사를 즐기려면 라크손 거리 인근이 편리합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "치킨 이나살은 부위별(가슴살 피초, 다리 파아, 날개 등)로 골라 주문하는 것이 현지식입니다. 이나살 노점이 모여 있던 명소 마노칸 컨트리는 SM 시티 바콜로드 인근에서 재개발이 진행 중이어서 위치와 운영 형태가 바뀌었을 수 있으니 방문 전 확인합니다. 이 밖에 소 정강이 뼈에 신맛 나는 바투안 열매를 넣어 끓인 칸시, 달콤한 피야와 나폴레오네스, 바르키요스 과자가 대표 먹거리입니다. 1970~80년대부터 이어져 온 오래된 케이크 전문점의 초콜릿 케이크도 바콜로드 필수 코스로 꼽힙니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "더 루인스는 오후 늦게 입장해 일몰과 야간 조명을 연달아 보는 것이 가장 효율적입니다. 운영 시간은 대체로 " },
+                { "type": "time", "text": "오전 8시~오후 8시" },
+                { "text": "이지만 행사에 따라 바뀔 수 있습니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "더 루인스에서 본격적인 사진 촬영(웨딩·프로필 등)은 별도 촬영 요금이 붙습니다. 일반 스냅 촬영은 입장료만으로 가능합니다." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "치킨 이나살 식당에서는 밥이 무제한(unli rice)인 곳이 많고, 닭기름을 밥에 뿌려 먹는 것이 현지식입니다. 간장·칼라만시·고추 식초 소스를 직접 조합합니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "피야·나폴레오네스는 공항 기념품점보다 시내 전문점에서 사는 것이 신선하고 저렴합니다. 나폴레오네스는 크림 때문에 오래 보관하기 어렵습니다."
+                }
+              ]
+            },
+            {
+              "children": [{ "text": "실라이 헤리티지 저택은 일부만 박물관으로 공개되며 월요일에 쉬는 곳이 있으므로 운영 요일을 확인합니다." }]
+            },
+            { "children": [{ "text": "일로일로와 바콜로드를 묶을 때는 쾌속선 좌석을 하루 전쯤 예약해 두면 주말에도 안정적입니다." }] },
+            { "children": [{ "text": "그랩이 잘 되지만 마스카라 축제 기간에는 교통 통제가 많으니 걷기 편한 신발을 준비합니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "바콜로드는 비교적 안전한 도시지만, 축제·시장·터미널처럼 붐비는 곳에서는 소매치기에 주의하고 귀중품은 최소한으로 가지고 다닙니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "마스카라 축제 기간에는 거리 파티에서 과음과 인파 사고에 주의하고, 일행과 만날 장소를 미리 정해 둡니다." }
+              ]
+            },
+            { "children": [{ "text": "더 루인스는 폐허 구조물입니다. 벽체나 난간에 올라가거나 출입 금지 구역에 들어가지 않습니다." }] },
+            { "children": [{ "text": "우기에는 저지대 도로가 침수되는 경우가 있어 이동 전 날씨를 확인합니다." }] },
+            {
+              "children": [{ "text": "해가 진 뒤 사탕수수밭 사이 도로는 조명이 적습니다. 더 루인스에서 돌아올 차량은 미리 확보해 둡니다." }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "일로일로",
+              "place": "iloilo-city",
+              "children": [
+                { "text": "쾌속선 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": ", 바치오와 헤리티지 거리의 미식 도시" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "기마라스",
+              "place": "guimaras",
+              "children": [
+                { "text": "일로일로를 거쳐 약 " },
+                { "type": "duration", "text": "2시간" },
+                { "text": ", 망고와 해변의 섬" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "시팔라이",
+              "place": "sipalay",
+              "children": [
+                { "text": "남쪽으로 버스 약 " },
+                { "type": "duration", "text": "4~5시간" },
+                { "text": ", 네그로스 남서부의 한적한 해변과 섬 호핑" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "두마게테",
+              "place": "dumaguete",
+              "children": [
+                { "text": "네그로스 남부로 버스 약 " },
+                { "type": "duration", "text": "5~6시간" },
+                { "text": ", 해변 산책로와 대학 도시" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "발린사사야오 트윈 레이크",
+              "place": "twin-lakes-balinsasayao",
+              "children": [{ "text": "두마게테 근교 산속 쌍둥이 호수" }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

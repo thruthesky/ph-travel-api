@@ -1,0 +1,585 @@
+{
+  "id": 65,
+  "slug": "mactan",
+  "title": { "type": "title", "text": "막탄 섬" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mactan Island" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "공항에서 20분, 리조트와 호핑이 기다리는 세부의 관문"
+  },
+  "island_group": { "type": "badge", "label": "권역", "text": "비사야" },
+  "region": { "type": "badge", "label": "지역", "text": "세부" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "세부주 라푸라푸시·코르도바" },
+  "category": { "type": "badge", "label": "분류", "icon": "beach_access", "text": "해변·섬" },
+  "tags": { "type": "tags", "label": "태그", "items": ["리조트", "호핑 투어", "스노클링", "라푸라푸", "가족 여행"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 10.3 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 123.9667 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "12월~5월 (건기)",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "2박 3일~4박 5일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱2,500~6,000",
+    "currency": "PHP",
+    "min": 2500,
+    "max": 6000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "막탄-세부 국제공항(CEB)",
+    "code": "CEB"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/065-mactan.webp",
+    "alt": "막탄 섬",
+    "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Magellan_Monument_in_2026.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/065-mactan-2.webp",
+        "alt": "막탄 섬",
+        "credit": "Peter Binter / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tropical-area-mactan-philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/065-mactan-3.webp",
+        "alt": "막탄 섬",
+        "credit": "No machine-readable author provided. Binter~commonswiki assumed (based on copyright claims). / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mactan-harbour.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "막탄-세부 국제공항이 있는 섬으로, 공항에서 " },
+      { "type": "duration", "text": "20~40분" },
+      { "text": "이면 해변 리조트에 닿습니다. 힐루뚱안·날루수안 호핑 투어와 다이빙, " },
+      { "type": "date", "text": "1521년" },
+      { "text": " 라푸라푸가 마젤란을 물리친 막탄 전투 기념지까지 있어 한국 가족 여행자가 가장 많이 찾는 세부 여행의 중심입니다." }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "막탄 섬은 세부 본섬 동쪽에 세 개의 다리로 이어진 길이 약 " },
+            { "type": "distance", "text": "15km" },
+            { "text": "의 평평한 산호섬입니다. 섬 안에 막탄-세부 국제공항이 있어 비행기에서 내려 " },
+            { "type": "duration", "text": "20~40분" },
+            {
+              "text": "이면 바다 앞 리조트 수영장에 몸을 담글 수 있습니다. 행정구역은 대부분 라푸라푸시이고 남쪽 일부가 코르도바 자치체이며, 한국인에게 '세부 여행'이라고 하면 대부분 이 막탄 섬 리조트 여행을 뜻할 만큼 익숙한 곳입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "막탄은 필리핀 역사에서도 상징적인 장소입니다. " },
+            { "type": "date", "text": "1521년 4월 27일" },
+            {
+              "text": ", 이 섬의 추장 라푸라푸가 이끄는 전사들이 세계 일주 중이던 페르디난드 마젤란의 군대와 싸워 마젤란을 전사시켰습니다. 필리핀 사람들은 라푸라푸를 외세에 맞선 최초의 영웅으로 기리며, 섬 북동쪽 막탄 신사(Mactan Shrine)에는 라푸라푸 동상과 "
+            },
+            { "type": "date", "text": "1866년" },
+            { "text": " 스페인이 세운 마젤란 기념비가 함께 서 있습니다. " },
+            { "type": "date", "text": "2021년" },
+            { "text": "에는 이 전투 500주년 기념행사가 크게 열렸습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "섬의 동쪽 해안은 샹그릴라, 플랜테이션 베이, 크림슨, 제이파크, 모벤픽 같은 대형 리조트가 줄지어 있는 리조트 벨트입니다. 모래사장이 넓은 편은 아니지만, 리조트 앞 바다가 잔잔하고 산호초가 가까워 스노클링과 다이빙을 하기 좋습니다. 막탄 동쪽 바다 건너 힐루뚱안(길루뚱안)·날루수안·판다논·카오하간 같은 작은 섬들이 있어 방카를 타고 하루 동안 섬 호핑을 즐기는 것이 막탄 여행의 대표 일정입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "어린 자녀가 있는 가족, 부모님을 모신 효도 여행, 짧은 휴가를 알차게 쓰고 싶은 직장인에게 이동 부담이 적은 막탄은 가장 무난한 선택입니다. 리조트에서 쉬다가 하루는 호핑, 하루는 세부 시내 관광이나 남부 투어를 곁들이면 균형 잡힌 일정이 됩니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "아일랜드 호핑 투어",
+              "children": [
+                {
+                  "text": "방카를 타고 힐루뚱안 해양보호구역에서 열대어와 스노클링, 날루수안의 수상 데크, 판다논 섬 백사장을 도는 하루 투어입니다. 배 위에서 먹는 해산물 바비큐 점심이 포함된 상품이 많습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "리조트 앞바다 스노클링과 다이빙",
+              "children": [
+                {
+                  "text": "막탄 동쪽 해안은 수심이 급하게 깊어지는 산호 벽이 가까워 비치 다이빙과 보트 다이빙이 모두 가능합니다. 초보자 체험 다이빙과 오픈워터 교육도 한국어 가능한 다이빙 숍이 많습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "막탄 신사와 라푸라푸 동상",
+              "children": [
+                {
+                  "text": "라푸라푸 동상과 마젤란 기념비, 막탄 전투를 묘사한 벽화가 있는 역사 공원입니다. 근처 해안 식당가에서 수투길(해산물 요리)을 곁들이면 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "수투길 해산물 식사",
+              "children": [
+                {
+                  "text": "'수그바(구이)·투올라(국)·킬라윈(초절임)'의 앞 글자를 딴 세부식 해산물 식당에서 생선과 새우, 게를 골라 원하는 방식으로 조리해 먹습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "기타 공방 구경",
+              "children": [
+                {
+                  "text": "막탄은 전통적으로 수제 기타 제작으로 유명해 잭프루트·마호가니·나라 같은 목재로 만든 우쿨렐레와 기타를 공방에서 직접 볼 수 있습니다. 작은 우쿨렐레는 선물용으로 인기입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "리조트 데이유즈",
+              "children": [
+                {
+                  "text": "숙소가 시내나 저가 호텔이라면 대형 리조트의 데이유즈 상품으로 하루 동안 수영장과 해변을 이용할 수 있습니다. 주말과 공휴일은 미리 예약하십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "올랑고 섬 철새 보호구역",
+              "children": [
+                { "text": "막탄 앞 올랑고 섬의 야생동물 보호구역은 람사르 습지로 지정된 철새 도래지입니다. " },
+                { "type": "date", "text": "9월~3월" },
+                { "text": " 무렵 철새를 관찰할 수 있어 조용한 반나절 코스로 좋습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "오전",
+                      "children": [
+                        { "text": "막탄-세부 국제공항 도착, 리조트로 이동 (약 " },
+                        { "type": "duration", "text": "20~40분" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "오후", "children": [{ "text": "리조트 수영장과 해변에서 휴식, 앞바다 스노클링" }] },
+                    { "time": "저녁", "children": [{ "text": "리조트 또는 인근 수투길 식당에서 해산물 저녁" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "오전 8시", "children": [{ "text": "리조트 또는 선착장에서 호핑 방카 출발" }] },
+                    { "time": "오전 9시", "children": [{ "text": "힐루뚱안 해양보호구역 스노클링" }] },
+                    { "time": "오전 11시", "children": [{ "text": "날루수안 섬 수상 데크에서 스노클링" }] },
+                    { "time": "오후 12시 30분", "children": [{ "text": "판다논 섬 또는 배 위에서 해산물 바비큐 점심" }] },
+                    { "time": "오후 3시", "children": [{ "text": "리조트 복귀, 휴식" }] },
+                    { "time": "저녁", "children": [{ "text": "마사지(스파) 후 저녁" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "오전 9시", "children": [{ "text": "막탄 신사, 라푸라푸 동상 방문" }] },
+                    { "time": "오전 10시 30분", "children": [{ "text": "기타 공방 구경과 기념품 쇼핑" }] },
+                    {
+                      "time": "오후 12시",
+                      "children": [{ "text": "수투길 점심 후 공항 이동 (시간이 남으면 세부 시티 반나절 관광 추가)" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "막탄-세부 국제공항(CEB)이 섬 안에 있습니다. 인천·부산 등에서 직항으로 약 " },
+                    { "type": "duration", "text": "4시간 30분" },
+                    { "text": ", 마닐라에서는 약 " },
+                    { "type": "duration", "text": "1시간 20분" },
+                    { "text": " 걸리며 국내선이 하루 수십 편 운항합니다. 공항에서 동쪽 해안 리조트까지 택시·그랩으로 약 " },
+                    { "type": "duration", "text": "20~40분" },
+                    { "text": ", 요금은 약 " },
+                    { "type": "price", "text": "₱200~450" },
+                    { "text": "입니다. 대부분의 리조트가 유료 픽업 서비스를 제공하고, 한인 여행사 픽업도 흔합니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "세부 시티에서",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "세부 시티에서 막탄으로는 옛 막탄-만다우에 다리, 마르셀로 페르난 다리, 그리고 " },
+                    { "type": "date", "text": "2022년" },
+                    { "text": " 개통한 세부-코르도바 연결 고속도로(CCLEX)로 건널 수 있습니다. 택시·그랩으로 약 " },
+                    { "type": "duration", "text": "40분~1시간 30분" },
+                    { "text": ", 약 " },
+                    { "type": "price", "text": "₱300~600" },
+                    {
+                      "text": "이며 퇴근 시간 정체가 심합니다. CCLEX는 통행료가 있으며 세부 시티 남쪽 해안(SRP)에서 막탄 남부 코르도바로 바로 건너갈 때 편리합니다."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "현지 이동",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "섬 안에서는 택시, 그랩, 트라이시클, 멀티캡(소형 지프니)을 이용합니다. 리조트 벨트와 공항 사이는 그랩이 가장 편하고, 가까운 거리는 트라이시클로 약 "
+                    },
+                    { "type": "price", "text": "₱20~100" },
+                    {
+                      "text": "입니다. 호핑 투어는 리조트 선착장이나 막탄 동쪽 해안 방카 선착장에서 출발하며, 여행사 투어는 호텔 픽업이 포함되는 경우가 많습니다."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "12월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "5월" },
+            { "text": "까지 건기가 가장 좋습니다. 1~" },
+            { "type": "date", "text": "4월" },
+            { "text": "은 바다가 잔잔하고 시야가 좋아 호핑과 다이빙에 최적이며, 한국 겨울 방학·설 연휴와 겹쳐 한국인 여행자가 가장 많습니다. 3~" },
+            { "type": "date", "text": "5월" },
+            { "text": "은 가장 덥고 햇볕이 강해 자외선 대비가 필요합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "11월" },
+            { "text": "까지는 우기로 오후 소나기가 잦지만 하루 종일 비가 오는 날은 많지 않습니다. 태풍 시기(주로 8~" },
+            { "type": "date", "text": "11월" },
+            { "text": ")에는 해안경비대가 소형선 운항을 중지시켜 호핑 투어가 취소될 수 있습니다. " },
+            { "type": "date", "text": "4월 27일" },
+            { "text": " 전후에는 막탄 전투를 재현하는 '카다우간 사 막탄(Kadaugan sa Mactan)' 행사가, " },
+            { "type": "date", "text": "1월" },
+            { "text": " 셋째 주에는 세부 시티 시눌룩 축제가 열립니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "공항-리조트 택시·그랩", "price": "약 ₱200~450", "note": "편도" },
+            { "label": "호핑 투어 (조인)", "price": "약 ₱1,800~3,000", "note": "1인, 점심 포함 상품 기준" },
+            { "label": "방카 전세", "price": "약 ₱3,500~7,000", "note": "1척, 인원·시간에 따라" },
+            { "label": "섬별 입장료", "price": "약 ₱100~300", "note": "섬 1곳당, 별도 환경세 있을 수 있음" },
+            { "label": "체험 다이빙", "price": "약 ₱3,000~5,000", "note": "1회, 장비·교육 포함" },
+            { "label": "리조트 데이유즈", "price": "약 ₱1,500~4,000", "note": "식사 크레딧 포함 여부 확인" },
+            { "label": "숙박", "price": "약 ₱2,500~15,000", "note": "1박, 호텔~대형 리조트" },
+            { "label": "식사", "price": "약 ₱1,000~2,500", "note": "1인 1일" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "막탄 숙소는 동쪽 해안의 대형 리조트, 공항 근처 비즈니스 호텔, 마리바고·푼타 엥가뇨 일대 중소형 리조트로 나뉩니다. 전용 해변과 워터파크급 수영장을 갖춘 대형 리조트는 1박 약 "
+            },
+            { "type": "price", "text": "₱8,000~20,000" },
+            { "text": " 이상이고, 중소형 리조트는 약 " },
+            { "type": "price", "text": "₱3,000~6,000" },
+            { "text": ", 공항 근처 호텔은 약 " },
+            { "type": "price", "text": "₱2,000~3,500" },
+            { "text": "입니다. 아이와 함께라면 수영장과 키즈 클럽 시설을, 스노클링이 목적이라면 하우스 리프가 좋은 리조트를 고르십시오." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "먹거리는 수투길 해산물이 대표적입니다. 막탄 신사 근처와 해안 식당가에서 수조의 해산물을 무게로 골라 조리를 맡기는 방식이며, 가격은 kg 단위로 미리 확인하십시오. 세부 레촌, 달콤한 세부산 망고, 시니강(새콤한 국), 킬라윈도 꼭 맛봐야 할 음식입니다. 막탄 마리나 몰과 아일랜드 센트럴 몰 주변에는 한식당과 한인 마트가 있어 장기 체류자도 불편이 적습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "호핑 투어는 오전 일찍 출발할수록 바다가 잔잔하고 사람도 적습니다. 섬별 입장료가 투어 요금에 포함되는지 꼭 확인하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "호핑 중 스노클링 포인트에서 빵이나 과자를 물고기에게 주는 행위는 해양보호구역 규정에 어긋나며 산호 생태계에 해롭습니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "공항 도착 시 그랩을 이용하면 요금 흥정이 필요 없습니다. 공항 도착층 그랩 전용 탑승 구역을 확인하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "환전은 공항보다 쇼핑몰 내 공식 환전소 환율이 대체로 좋습니다. 큰 금액은 여러 곳에서 나눠 환전하는 편이 안전합니다." }
+              ]
+            },
+            { "children": [{ "text": "리조트 내 식사와 음료는 비싸니, 한두 끼는 외부 식당을 이용하면 예산을 크게 줄일 수 있습니다." }] },
+            { "children": [{ "text": "수투길 식당에서는 주문 전에 해산물 kg당 가격과 조리비를 꼭 확인하십시오." }] },
+            { "children": [{ "text": "사진 명소로는 날루수안 섬 수상 데크, 판다논 섬 샌드바, 막탄 신사 라푸라푸 동상 앞이 인기입니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "호핑 투어 호객이 많습니다. 등록된 업체나 숙소를 통해 예약하고, 구명조끼 비치 여부를 확인하십시오." }] },
+            { "children": [{ "text": "스노클링 중 성게와 산호에 베이지 않도록 아쿠아슈즈를 신고, 산호를 밟거나 만지지 마십시오." }] },
+            {
+              "children": [
+                { "text": "해파리가 출몰하는 시기가 있으니 래시가드를 입고, 쏘였을 때는 식초로 씻어 내고 리조트 의무실을 찾으십시오." }
+              ]
+            },
+            { "children": [{ "text": "한낮 자외선이 매우 강해 짧은 시간에도 화상을 입습니다. 해양 친화 선크림과 모자를 준비하십시오." }] },
+            {
+              "children": [
+                { "text": "공항 주변과 쇼핑몰 앞에서 과도한 요금을 부르는 택시가 있으니 미터기 사용을 요구하거나 그랩을 이용하십시오." }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "태풍이나 강풍 경보가 발령되면 해안경비대가 소형 방카 운항을 금지합니다. 호핑 투어는 일정 중 여유 있는 날로 잡으십시오." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "세부 시티",
+              "place": "cebu-city",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "40분~1시간 30분" },
+                { "text": ", 마젤란 십자가와 산토 니뇨 대성당이 있는 필리핀 최고(最古) 도시입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "레아 신전",
+              "place": "temple-of-leah",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1시간~1시간 30분" },
+                { "text": ", 세부 언덕 위의 그리스·로마풍 신전이자 전망 명소입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "오슬롭",
+              "place": "oslob",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "3시간 30분~4시간" },
+                { "text": ", 고래상어와 함께 수영하는 세부 남부 당일 투어의 대표 목적지입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "보홀",
+              "children": [
+                { "text": "세부 피어에서 쾌속선으로 약 " },
+                { "type": "duration", "text": "2시간" },
+                { "text": ", 초콜릿 힐스와 안경원숭이를 볼 수 있는 섬입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

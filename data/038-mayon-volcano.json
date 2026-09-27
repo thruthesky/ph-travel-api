@@ -1,0 +1,638 @@
+{
+  "id": 38,
+  "slug": "mayon-volcano",
+  "title": { "type": "title", "text": "마욘 화산" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mayon Volcano" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "세계에서 가장 완벽한 원뿔, 살아 숨 쉬는 비콜의 상징"
+  },
+  "island_group": { "type": "badge", "label": "권역", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "text": "비콜" },
+  "location": {
+    "type": "address",
+    "label": "위치",
+    "icon": "location_on",
+    "text": "알바이주 레가스피·다라가·카말리그"
+  },
+  "category": { "type": "badge", "label": "분류", "icon": "landscape", "text": "자연 경관" },
+  "tags": { "type": "tags", "label": "태그", "items": ["활화산", "완벽한 원뿔", "ATV 투어", "전망대", "비콜 음식"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.7, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 13.2567 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 123.685 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "2월~5월 (건기)",
+    "months": [2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "1~2일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱1,500~4,000",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "비콜 국제공항(DRP)",
+    "code": "DRP"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/038-mayon-volcano.webp",
+    "alt": "마욘 화산",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Mayon_Cagsawa_field_view_close-up_(Busay,_Daraga,_Albay;_04-21-2023).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/038-mayon-volcano-2.webp",
+        "alt": "마욘 화산",
+        "credit": "Chrizluminario / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mayon_Volcano_and_the_Sleeping_Lion.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/038-mayon-volcano-3.webp",
+        "alt": "마욘 화산",
+        "credit": "Marisa Mercado / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mayon_Volcano_as_of_March_2020.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "해발 약 " },
+      { "type": "distance", "text": "2,462m" },
+      {
+        "text": "의 마욘 화산은 거의 완벽한 원뿔 모양으로 유명한 필리핀에서 가장 활발한 활화산입니다. 등반은 금지되어 있지만 카그사와 유적, 리뇬 언덕, ATV 용암 트레일 등 알바이 곳곳에서 그 장엄한 모습을 가까이 즐길 수 있습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "마욘 화산(Mayon Volcano)은 루손섬 남동부 비콜 지방 알바이주에 우뚝 솟은 해발 약 " },
+            { "type": "distance", "text": "2,462m" },
+            {
+              "text": "의 성층 화산입니다. 바다 가까운 평야에서 거의 좌우 대칭의 원뿔형으로 솟아올라 「세계에서 가장 완벽한 원뿔 화산」으로 불립니다. 이름은 비콜어로 「아름답다」는 뜻의 「마가욘(magayon)」에서 왔다고 전해지며, 아름다운 여인 다라강 마가욘의 전설이 이 화산에 깃들어 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "아름다운 모습과 달리 마욘은 필리핀에서 가장 활발한 활화산입니다. 17세기 이후 기록된 분화만 50차례가 넘습니다. " },
+            { "type": "date", "text": "1814년 2월 1일" },
+            {
+              "text": "의 대분화 때는 화산쇄설류와 화산재가 인근 마을을 덮쳐 1,000명이 넘는 사람이 숨졌고, 그 흔적이 지금의 카그사와 유적으로 남아 있습니다. "
+            },
+            { "type": "date", "text": "1993년" },
+            { "text": ", " },
+            { "type": "date", "text": "2018년" },
+            { "text": ", " },
+            { "type": "date", "text": "2023년" },
+            { "text": "에도 분화가 이어졌습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "2026년" },
+            { "text": "에도 마욘은 활동을 이어 갔습니다. " },
+            { "type": "date", "text": "1월" },
+            { "text": " 경보 3단계로 올라간 뒤 용암이 흘러내리고 화산쇄설류가 발생했으며, 필리핀 화산지진연구소(PHIVOLCS)는 활동이 줄어들자 " },
+            { "type": "date", "text": "2026년 8월 5일" },
+            { "text": " 경보를 2단계로 낮췄습니다. 경보 단계와 상관없이 정상 주변 반경 " },
+            { "type": "distance", "text": "6km" },
+            { "text": "는 영구 위험 구역(PDZ)으로 출입이 금지되어 있으며, 현재 일반 관광객의 정상 등반은 허용되지 않습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "그래서 마욘 여행은 「오르는」 여행이 아니라 「바라보는」 여행입니다. 레가스피 시내, 카그사와 유적, 리뇬 언덕, 카말리그의 호수와 언덕 등 어디서든 다른 각도의 마욘을 볼 수 있고, 화산 기슭의 용암 지대를 ATV로 달리는 투어도 인기가 높습니다. 장엄한 자연 풍경, 매콤한 비콜 음식, 스페인 시대 성당과 유적을 함께 즐기려는 여행자에게 잘 맞습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "카그사와 유적에서 마욘 바라보기",
+              "children": [
+                { "type": "date", "text": "1814년" },
+                {
+                  "text": " 분화로 무너진 성당의 종탑과 그 뒤로 솟은 마욘은 필리핀을 대표하는 사진 구도입니다. 아침 일찍 정상에 구름이 걸리기 전에 찾는 것이 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "ATV 용암 트레일",
+              "children": [
+                { "text": "카그사와 일대에서 출발하는 ATV 투어는 코스에 따라 " },
+                { "type": "duration", "text": "30분" },
+                { "text": "짜리 초원 코스부터 " },
+                { "type": "duration", "text": "3~4시간" },
+                {
+                  "text": "짜리 용암 트레일까지 다양합니다. 굳은 용암 지대와 화산 계곡을 달리며 마욘을 가장 가까이에서 느낄 수 있습니다. 경보 단계에 따라 운영 코스가 제한됩니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "리뇬 언덕 자연공원",
+              "children": [
+                {
+                  "text": "레가스피 시내 북쪽의 작은 언덕으로, 정상 전망대에서 마욘과 레가스피 시가지, 알바이만이 한눈에 들어옵니다. 짚라인과 산책로, 전망 카페가 있어 해 질 녘에 특히 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "다라가 성당",
+              "children": [
+                { "type": "date", "text": "1773년" },
+                {
+                  "text": " 화산석으로 지어진 바로크 성당으로, 언덕 위에 서 있어 성당 앞 계단에서 마욘이 정면으로 보입니다. 섬세한 외벽 조각도 볼 만합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "레가스피 해안 산책로",
+              "children": [
+                {
+                  "text": "알바이만을 따라 이어지는 레가스피 불러바드는 조깅과 산책을 즐기는 시민들로 붐비는 곳입니다. 바다 너머로 보이는 마욘의 모습과 해 질 녘 풍경이 아름답습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "카말리그 숨랑 호수",
+              "children": [
+                {
+                  "text": "대나무 뗏목을 타고 잔잔한 호수 위에서 마욘을 바라볼 수 있는 곳입니다. 물에 비친 화산의 반영이 아름다워 인기 촬영지가 되었습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "비콜 음식 맛보기",
+              "children": [
+                {
+                  "text": "코코넛 밀크와 고추를 넣은 비콜 익스프레스, 토란잎을 코코넛 밀크에 졸인 라잉, 카말리그 명물 피낭앗, 매운 칠리 아이스크림까지 비콜 지방의 매콤한 맛을 경험해 보십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "밤에 화산 관찰",
+              "children": [
+                {
+                  "text": "활동기에는 레가스피 시내나 안전한 전망 지점에서 밤에 정상의 붉은 용암 빛이 보이기도 합니다. 반드시 당국이 허용한 안전 지역에서만 관찰하십시오."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "카그사와 유적 도착, 이른 아침 마욘 촬영" }] },
+                    { "time": "07:30", "children": [{ "text": "카그사와 주변 식당에서 아침 식사" }] },
+                    {
+                      "time": "08:30",
+                      "children": [
+                        { "text": "ATV 투어(코스 선택, 약 " },
+                        { "type": "duration", "text": "1~3시간" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "12:00", "children": [{ "text": "다라가에서 점심 — 비콜 익스프레스, 라잉" }] },
+                    { "time": "13:30", "children": [{ "text": "다라가 성당 관람" }] },
+                    { "time": "15:00", "children": [{ "text": "레가스피 시내 숙소 체크인과 휴식" }] },
+                    { "time": "16:30", "children": [{ "text": "리뇬 언덕 전망대, 짚라인 체험" }] },
+                    { "time": "18:30", "children": [{ "text": "레가스피 불러바드 산책 후 저녁 식사, 칠리 아이스크림" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "레가스피 해안에서 일출과 마욘 촬영" }] },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "카말리그로 이동(약 " },
+                        { "type": "duration", "text": "30분" },
+                        { "text": "), 숨랑 호수 대나무 뗏목" }
+                      ]
+                    },
+                    { "time": "10:00", "children": [{ "text": "카말리그 퀴투이난 언덕 또는 호요프호요판 동굴" }] },
+                    { "time": "12:00", "children": [{ "text": "카말리그 피낭앗으로 점심" }] },
+                    { "time": "13:30", "children": [{ "text": "레가스피 복귀, 기념품(필리 너트 과자) 구입" }] },
+                    { "time": "15:00", "children": [{ "text": "비콜 국제공항으로 이동해 마닐라행 항공편 탑승" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "마닐라에서 알바이주 다라가에 있는 비콜 국제공항(DRP)까지 필리핀항공과 세부퍼시픽이 운항하며 약 " },
+                    { "type": "duration", "text": "1시간" },
+                    { "text": ", 편도 약 " },
+                    { "type": "price", "text": "₱2,000~5,500" },
+                    { "text": "입니다. 세부에서도 직항편이 있습니다. 공항에서 레가스피 시내까지는 약 " },
+                    { "type": "duration", "text": "30~40분" },
+                    { "text": "이며, 공항 셔틀 밴이나 택시·그랩(운영 여부 확인)을 이용합니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "마닐라 쿠바오, 파사이, PITX 터미널에서 레가스피행 버스가 매일 출발합니다. DLTB, 필트랑코 등 여러 회사가 운행하며 약 "
+                    },
+                    { "type": "duration", "text": "10~12시간" },
+                    { "text": ", 요금은 등급에 따라 약 " },
+                    { "type": "price", "text": "₱1,000~1,800" },
+                    { "text": "입니다. 야간버스를 타면 아침에 레가스피에 도착합니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "현지 이동",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "레가스피 시내와 다라가, 카말리그 사이는 지프니와 밴이 수시로 다니며 요금은 약 " },
+                    { "type": "price", "text": "₱20~60" },
+                    { "text": "입니다. 카그사와 유적은 레가스피에서 지프니로 약 " },
+                    { "type": "duration", "text": "30분" },
+                    {
+                      "text": "이며, 다라가 방면 지프니를 타고 카그사와 입구에서 내려 트라이시클로 갈아탑니다. 하루에 여러 명소를 돌려면 트라이시클 반나절 전세(약 "
+                    },
+                    { "type": "price", "text": "₱800~1,500" },
+                    { "text": ")나 기사 포함 밴 하루 전세(약 " },
+                    { "type": "price", "text": "₱3,000~4,500" },
+                    { "text": ")가 편합니다." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "비콜 지방은 루손 서부와 달리 뚜렷한 건기가 짧고 연중 비가 오는 편입니다. 상대적으로 비가 적고 하늘이 맑은 " },
+            { "type": "date", "text": "2월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "5월" },
+            { "text": "까지가 마욘을 보기에 가장 좋은 시기입니다. 특히 3~" },
+            { "type": "date", "text": "4월" },
+            { "text": "에는 이른 아침 정상까지 구름 없이 드러나는 날이 많습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "12월" },
+            { "text": "까지는 태풍과 북동계절풍의 영향으로 비가 잦고, 9~" },
+            { "type": "date", "text": "12월" },
+            {
+              "text": "에는 비콜 지방을 관통하는 강한 태풍이 자주 옵니다. 비가 많이 오면 화산 사면의 화산재가 쓸려 내려오는 라하르(화산 이류) 위험이 커져 ATV 투어가 중단되기도 합니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "마욘은 하루 중 시간대도 중요합니다. 정상은 보통 " },
+            { "type": "time", "text": "오전 9~10시" },
+            { "text": "가 지나면 구름에 가리기 시작하므로, 일출 직후부터 " },
+            { "type": "time", "text": "오전 8시" },
+            { "text": "까지가 가장 잘 보입니다. 알바이주는 4~" },
+            { "type": "date", "text": "5월" },
+            { "text": " 무렵 「마가욘 축제」를, 레가스피시는 " },
+            { "type": "date", "text": "8월" },
+            { "text": " 무렵 「이발롱 축제」를 열어 거리 퍼레이드와 공연이 이어집니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라–비콜 국제공항 항공", "price": "편도 약 ₱2,000~5,500", "note": "약 1시간" },
+            { "label": "마닐라–레가스피 버스", "price": "약 ₱1,000~1,800", "note": "편도, 약 10~12시간" },
+            { "label": "ATV 투어", "price": "약 ₱500~2,600", "note": "30분~4시간 코스별, 1대 기준" },
+            { "label": "카그사와 유적 입장료", "price": "약 ₱20~50", "note": "현장 징수" },
+            { "label": "리뇬 언덕 입장료", "price": "약 ₱30~50", "note": "짚라인 별도" },
+            { "label": "숨랑 호수 뗏목", "price": "약 ₱100~300", "note": "1인 또는 1회 기준" },
+            { "label": "밴 하루 전세", "price": "1대 약 ₱3,000~4,500", "note": "기사 포함" },
+            { "label": "숙박(레가스피)", "price": "1박 약 ₱1,200~5,000", "note": "중급 호텔 기준" },
+            { "label": "식사", "price": "1끼 약 ₱200~500", "note": "로컬 식당 기준" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "마욘 여행의 거점은 알바이주 주도 레가스피입니다. 시내 중심과 해안 불러바드 주변에 1박 약 " },
+            { "type": "price", "text": "₱1,200~3,000" },
+            {
+              "text": "대의 중급 호텔이 많고, 창문으로 마욘이 보이는 「마욘 뷰」 객실을 갖춘 호텔도 있으니 예약할 때 확인하십시오. 조용한 분위기를 원한다면 다라가나 카말리그의 소규모 리조트와 민박도 선택지입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "비콜 음식은 코코넛 밀크와 고추를 아낌없이 쓰는 것이 특징입니다. 돼지고기와 고추를 코코넛 밀크에 끓인 비콜 익스프레스, 토란잎을 코코넛 밀크에 졸인 라잉, 토란잎에 새우와 코코넛 밀크를 싸서 찐 카말리그의 피낭앗이 대표 음식입니다. 레가스피의 오래된 식당 퍼스트 콜로니얼 그릴(1st Colonial Grill)의 칠리 아이스크림은 매운맛과 단맛이 함께 나는 독특한 디저트로 유명합니다. 기념품으로는 비콜 특산 견과류 필리 너트로 만든 과자와 캔디가 인기입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "방문 전 필리핀 화산지진연구소(PHIVOLCS) 공식 발표에서 현재 경보 단계와 통제 구역을 반드시 확인하십시오. 경보 단계에 따라 ATV 코스와 일부 전망대가 폐쇄됩니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "마욘은 이른 아침에 가장 잘 보입니다. 사진이 목적이라면 해 뜰 무렵 카그사와나 레가스피 해안에 도착하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "ATV 투어는 여러 업체가 경쟁하므로 코스, 시간, 1대당 탑승 인원, 헬멧·마스크 제공 여부를 비교하고 고르십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "ATV 투어 중에는 화산재 먼지가 많습니다. 마스크, 선글라스, 버려도 되는 옷, 긴 바지를 준비하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "레가스피 시내에는 ATM과 쇼핑몰이 많지만, 카말리그나 카그사와 주변에서는 현금만 받는 곳이 대부분입니다." }
+              ]
+            },
+            { "children": [{ "text": "비가 자주 오므로 우산이나 우비를 늘 챙기십시오." }] },
+            { "children": [{ "text": "매운 음식이 부담스럽다면 주문할 때 「덜 맵게」라고 요청하면 대부분 조절해 줍니다." }] },
+            { "children": [{ "text": "돈솔 고래상어 시즌이라면 레가스피를 거점으로 돈솔 당일 투어를 묶기 좋습니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "정상 반경 " },
+                { "type": "distance", "text": "6km" },
+                { "text": "의 영구 위험 구역은 경보 단계와 관계없이 출입 금지입니다. 불법 가이드를 따라 등반을 시도하는 일은 절대 하지 마십시오. " },
+                { "type": "date", "text": "2013년" },
+                { "text": "에는 등반 도중 예고 없는 수증기 폭발로 외국인 등산객과 가이드 등 5명이 숨지는 사고가 있었습니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "경보 단계가 올라가면 인근 주민 대피와 도로 통제가 이뤄집니다. 현지 당국의 안내를 최우선으로 따르십시오." }
+              ]
+            },
+            { "children": [{ "text": "화산재가 날리는 날에는 호흡기 질환자와 어린이는 야외 활동을 줄이고, N95 마스크를 착용하십시오." }] },
+            {
+              "children": [
+                { "text": "비가 많이 온 뒤에는 화산 사면 하천에서 라하르가 발생할 수 있습니다. 강바닥이나 마른 계곡에 머무르지 마십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "9~" },
+                { "type": "date", "text": "12월" },
+                { "text": " 태풍 시기에는 항공편과 버스가 결항될 수 있으니 일정에 여유를 두십시오." }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "마욘은 지금도 살아 있는 화산입니다. 아름다운 풍경 뒤에는 늘 위험이 있다는 것을 잊지 말고, 공식 경보를 확인한 뒤 허용된 곳에서만 즐기십시오."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "카그사와 유적",
+              "place": "cagsawa-ruins",
+              "children": [
+                { "text": "레가스피에서 차로 약 " },
+                { "type": "duration", "text": "30분" },
+                { "text": ", " },
+                { "type": "date", "text": "1814년" },
+                { "text": " 분화로 무너진 성당 종탑과 마욘이 어우러진 명소입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "돈솔",
+              "place": "donsol",
+              "children": [
+                { "text": "레가스피에서 차로 약 " },
+                { "type": "duration", "text": "1시간 30분" },
+                { "text": ", 고래상어와 함께 헤엄치고 반딧불이 강을 볼 수 있는 곳입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "카라모안",
+              "place": "caramoan",
+              "children": [
+                { "text": "카마리네스 수르주, 레가스피에서 육로와 배로 반나절, 석회암 섬과 비밀 해변이 모인 비콜의 대표 섬 호핑 명소입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "나가시",
+              "children": [
+                { "text": "레가스피에서 차로 약 " },
+                { "type": "duration", "text": "2시간 30분" },
+                { "text": ", 페냐프란시아 성모 순례지로 유명한 비콜 지방의 중심 도시입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

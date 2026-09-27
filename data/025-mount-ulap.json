@@ -1,0 +1,634 @@
+{
+  "id": 25,
+  "slug": "mount-ulap",
+  "title": { "type": "title", "text": "울랍 산" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mount Ulap" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "소나무 능선 위로 구름이 흐르는 바기오 근교 당일 트레킹"
+  },
+  "island_group": { "type": "badge", "label": "권역", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "text": "코르딜레라" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "벵게트주 이토곤 암푸카오" },
+  "category": { "type": "badge", "label": "분류", "icon": "hiking", "text": "산·트레킹" },
+  "tags": { "type": "tags", "label": "태그", "items": ["능선 트레킹", "소나무 숲", "당일 산행", "운해", "바위 절벽"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 16.29 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 120.631 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "11월~4월 (건기)",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "당일 (5~7시간)" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱800~2,000 (당일)",
+    "currency": "PHP",
+    "min": 800,
+    "max": 2000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "보통",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "클라크 국제공항(CRK)",
+    "code": "CRK"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/025-mount-ulap.webp",
+    "alt": "울랍 산",
+    "credit": "Dyenkaye Saludez / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mt._Ulap_adventure.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/025-mount-ulap-2.webp",
+        "alt": "울랍 산",
+        "credit": "Jpcabarles / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt._Ulap_3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/025-mount-ulap-3.webp",
+        "alt": "울랍 산",
+        "credit": "Kalithecat00 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:One_of_Mt._Ulap%27s_peaks.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "바기오에서 차로 약 " },
+      { "type": "duration", "text": "1시간" },
+      { "text": " 거리인 이토곤의 해발 약 " },
+      { "type": "distance", "text": "1,846m" },
+      { "text": " 산으로, 소나무 숲과 초원 능선을 따라 약 " },
+      { "type": "distance", "text": "9.4km" },
+      { "text": "를 걷는 종주 코스입니다. 벼랑 끝 궁갈 바위와 코르딜레라 산줄기 전망 덕분에 초보자도 도전하기 좋은 당일 산행지로 사랑받습니다." }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "울랍 산(Mount Ulap)은 바기오 남쪽 이토곤 지역, 암푸카오와 산타페 마을 사이에 솟은 해발 약 " },
+            { "type": "distance", "text": "1,846m" },
+            {
+              "text": "의 산입니다. '울랍'은 이바로이어로 '구름'을 뜻하는데, 이름처럼 이른 아침이면 발아래 골짜기에 구름이 깔리고 능선을 따라 안개가 흘러가는 풍경을 자주 만날 수 있습니다. "
+            },
+            { "type": "date", "text": "2017년" },
+            { "text": " 정식 생태관광 코스(Mt. Ulap Eco-Trail)로 문을 연 뒤 빠르게 필리핀 대표 당일 산행지로 자리 잡았습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "코스는 암푸카오 바랑가이 홀에서 출발해 여러 봉우리를 넘어 산타페로 내려가는 약 " },
+            { "type": "distance", "text": "9.4km" },
+            {
+              "text": " 종주 트레일입니다. 벵게트 소나무 숲, 탁 트인 초원 능선, 바위 봉우리가 번갈아 나타나고, 날씨가 맑으면 멀리 풀라그 산을 비롯한 코르딜레라 산줄기와 서쪽 링가옌만 방향 평야까지 보입니다. 급경사 구간이 길지 않아 체력만 있다면 등산 초보자도 완주할 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "울랍 산이 특히 유명해진 것은 '궁갈 바위(Gungal Rock)' 덕분입니다. 능선에서 허공으로 튀어나온 바위 끝에 서서 찍은 사진은 필리핀 SNS에서 수없이 공유되었고, 지금도 많은 등산객이 이 바위 앞에서 차례를 기다립니다. 코스 주변에는 이바로이족의 전통 매장 동굴과 성스러운 장소도 있어 지역 공동체가 트레일을 직접 관리하고 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "풀라그처럼 새벽 추위나 복잡한 예약 없이 바기오에서 가볍게 다녀올 수 있는 산을 찾는 여행자, 코르딜레라 산악 여행을 시작하기 전 몸을 풀고 싶은 사람에게 잘 맞습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "암푸카오–산타페 종주",
+              "children": [
+                { "text": "한 방향으로 넘어가는 약 " },
+                { "type": "distance", "text": "9.4km" },
+                { "text": " 코스로, 휴식 포함 " },
+                { "type": "duration", "text": "5~7시간" },
+                { "text": "이 걸립니다. 같은 길을 되돌아오지 않아 풍경이 계속 바뀌는 것이 장점입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "궁갈 바위 인증 사진",
+              "children": [
+                {
+                  "text": "능선 중간의 대표 명소로, 절벽 쪽으로 돌출된 바위 위에서 사진을 찍습니다. 가이드의 안내에 따라 차례를 지키고, 바람이 강한 날에는 가장자리에 서지 않는 것이 원칙입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "포노이 봉에서 첫 전망",
+              "children": [
+                {
+                  "text": "출발 후 소나무 숲을 올라 처음 만나는 전망 봉우리입니다. 이른 아침에 도착하면 골짜기를 메운 구름 위로 햇살이 비치는 풍경을 볼 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "울랍 정상에서 코르딜레라 파노라마",
+              "children": [
+                { "text": "해발 약 " },
+                { "type": "distance", "text": "1,846m" },
+                { "text": " 정상에서는 겹겹이 이어진 산맥과 광산 지대, 맑은 날에는 저지대 평야까지 한눈에 들어옵니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "소나무 숲 능선 걷기",
+              "children": [
+                {
+                  "text": "코스 대부분이 벵게트 소나무 숲과 초원으로 이루어져 있어 바람 소리와 솔향이 인상적입니다. 사진보다 걷는 순간 자체가 기억에 남는 산입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "이바로이 전통 문화 배우기",
+              "children": [
+                {
+                  "text": "가이드는 대부분 지역 주민이라 매장 동굴과 조상 숭배 문화, 광산 마을의 역사를 들려줍니다. 궁금한 것을 물어보면 산행이 훨씬 풍성해집니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "바기오 연계 1박 2일",
+              "children": [
+                { "text": "전날 바기오에 묵고 새벽에 출발하면 여유 있게 완주한 뒤 오후에는 바기오 시내에서 휴식과 식사를 즐길 수 있습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "당일 종주 코스 (바기오 출발)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "04:30",
+                      "children": [{ "text": "바기오 시내에서 전세 차량 또는 필렉스(Philex)행 지프니로 출발" }]
+                    },
+                    {
+                      "time": "05:30",
+                      "children": [{ "text": "암푸카오 바랑가이 홀 도착, 등록·오리엔테이션·가이드 배정" }]
+                    },
+                    { "time": "06:00", "children": [{ "text": "산행 시작, 소나무 숲 오르막" }] },
+                    { "time": "07:30", "children": [{ "text": "포노이 봉 도착, 운해와 아침 햇살 감상" }] },
+                    {
+                      "time": "08:30~09:30",
+                      "children": [{ "text": "궁갈 바위에서 사진 촬영 (주말에는 대기 시간 발생)" }]
+                    },
+                    { "time": "10:30", "children": [{ "text": "울랍 정상 도착, 도시락으로 점심" }] },
+                    { "time": "11:00~13:00", "children": [{ "text": "능선을 따라 산타페 방향 하산" }] },
+                    {
+                      "time": "13:30",
+                      "children": [{ "text": "산타페 출구 도착, 지프니 또는 전세 차량으로 바기오 복귀" }]
+                    },
+                    { "time": "15:00", "children": [{ "text": "바기오 도착, 따뜻한 국물 요리로 늦은 점심" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "코스 개요",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "출발점 암푸카오 바랑가이 홀(해발 약 " },
+                        { "type": "distance", "text": "1,200m" },
+                        { "text": " 전후)에서 처음 " },
+                        { "type": "duration", "text": "1시간 30분" },
+                        {
+                          "text": " 정도가 가장 가파른 오르막입니다. 포노이 봉을 넘으면 경사가 완만해지고, 이후로는 능선을 따라 오르내림을 반복합니다."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "전체 누적 고도 상승은 약 " },
+                        { "type": "distance", "text": "600~700m" },
+                        { "text": " 수준으로, 평소 동네 뒷산을 " },
+                        { "type": "duration", "text": "3~4시간" },
+                        {
+                          "text": " 걸을 수 있는 체력이면 충분합니다. 하산 구간은 길고 완만하지만 흙과 솔잎 때문에 미끄러우니 속도를 줄이십시오."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "마닐라에서 바기오",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "쿠바오·파사이 등에서 바기오행 버스(빅토리 라이너, 조이버스, 솔리드 노스 등)로 약 " },
+                        { "type": "duration", "text": "4~6시간" },
+                        { "text": ", 요금 약 " },
+                        { "type": "price", "text": "₱500~1,000" },
+                        { "text": "입니다. 새벽 산행을 위해 전날 바기오에 도착해 1박하는 것을 권합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "바기오에서 암푸카오",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "바기오 시내의 필렉스 광산 방면 지프니 정류장에서 필렉스행 지프니를 타고 '암푸카오 바랑가이 홀'에서 내립니다. 약 "
+                        },
+                        { "type": "duration", "text": "40분~1시간" },
+                        { "text": ", 요금 1인 약 " },
+                        { "type": "price", "text": "₱40~60" },
+                        { "text": "입니다. 첫차 시간이 이르지 않을 수 있으니 전날 정류장에서 확인하십시오." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "일행이 있다면 택시나 전세 밴이 편리합니다. 택시로는 약 " },
+                        { "type": "duration", "text": "30~45분" },
+                        { "text": "이 걸리며, 산타페 출구에서 기다렸다가 돌아오는 조건으로 흥정하는 것이 좋습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "산타페에서 복귀",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "하산 지점인 산타페의 필렉스 도로변에서 바기오행 지프니를 탈 수 있습니다. 오후에는 배차 간격이 길어질 수 있으므로 너무 늦게 하산하지 않도록 합니다."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "조인 투어",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "마닐라 출발 야간 조인 투어(왕복 밴, 등록비, 가이드 포함)는 1인 약 " },
+                        { "type": "price", "text": "₱1,800~2,500" },
+                        { "text": " 수준으로, 교통을 따로 챙길 필요가 없어 편리합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11월~4월" },
+            { "text": " 건기가 가장 좋습니다. 특히 " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": "에는 새벽 기온이 " },
+            { "type": "temperature", "text": "10℃" },
+            { "text": " 안팎으로 서늘해 운해를 볼 확률이 높고, 낮에도 걷기 쾌적합니다. " },
+            { "type": "date", "text": "3월~5월" },
+            { "text": "은 맑은 날이 많아 시야가 가장 넓지만 한낮 능선에는 그늘이 적어 햇볕이 매우 강하므로 이른 출발이 필수입니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월~10월" },
+            {
+              "text": " 우기에는 오후마다 비가 내리고 안개가 짙어 전망을 보기 어렵습니다. 흙길이 미끄러워지고 태풍이 오면 트레일이 폐쇄되기도 합니다. 주말과 공휴일에는 등산객이 몰려 궁갈 바위에서 한참 기다려야 하니, 가능하면 평일 산행을 권합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "등록비", "price": "1인 약 ₱100", "note": "암푸카오 바랑가이 홀에서 납부" },
+            { "label": "환경비", "price": "1인 약 ₱30", "note": "등록 시 함께 납부" },
+            { "label": "가이드", "price": "1팀 약 ₱800", "note": "최대 약 7인, 의무" },
+            { "label": "바기오–암푸카오 지프니", "price": "1인 약 ₱40~60", "note": "편도" },
+            { "label": "전세 택시·밴", "price": "1대 약 ₱1,500~3,000", "note": "대기 포함 왕복" },
+            { "label": "마닐라 출발 조인 투어", "price": "1인 약 ₱1,800~2,500", "note": "교통·등록·가이드 포함" },
+            { "label": "바기오 숙박", "price": "1박 약 ₱1,500~3,500", "note": "전날 1박 권장" },
+            { "label": "식사·간식", "price": "약 ₱300~600", "note": "도시락·물 포함" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "울랍 산 주변에는 숙박 시설이 거의 없으므로 바기오 시내에 묵는 것이 일반적입니다. 필렉스행 지프니 정류장과 가까운 시내 중심부, 세션 로드·번햄 공원 일대의 게스트하우스(1박 약 "
+            },
+            { "type": "price", "text": "₱1,500~2,500" },
+            { "text": ")나 중급 호텔(약 " },
+            { "type": "price", "text": "₱3,000" },
+            { "text": " 이상)을 잡으면 새벽 출발이 편합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "트레일 위에는 식당이 없고, 출발지 주변 작은 가게에서 물과 간식 정도만 살 수 있습니다. 전날 바기오의 편의점이나 시장에서 도시락, 빵, 과일, 초콜릿을 준비하십시오. 하산 후 바기오로 돌아와 먹는 불랄로(소 사골 수프), 벵게트 채소 요리, 딸기 타호는 산행의 피로를 풀어 주는 좋은 보상입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "가이드 동행은 의무입니다. 등록은 암푸카오 바랑가이 홀에서 현장 접수가 기본이지만, 15인 이상 단체는 사전 예약이 필요할 수 있으니 공식 페이지로 문의하십시오."
+                }
+              ]
+            },
+            { "children": [{ "text": "물은 최소 1.5~2리터를 챙기십시오. 능선에는 물을 구할 곳이 없습니다." }] },
+            { "children": [{ "text": "모자, 선크림, 선글라스는 필수입니다. 고도가 높아 자외선이 강하고 그늘 없는 구간이 깁니다." }] },
+            { "children": [{ "text": "새벽에는 쌀쌀하니 얇은 바람막이를 챙기고, 해가 뜨면 벗어서 가방에 넣으면 됩니다." }] },
+            {
+              "children": [
+                { "text": "궁갈 바위 사진은 " },
+                { "type": "time", "text": "오전 8~9시" },
+                { "text": " 이전에 도착하면 대기 시간이 짧습니다." }
+              ]
+            },
+            { "children": [{ "text": "트레킹화나 접지력 좋은 운동화를 신으십시오. 하산 구간의 흙길과 솔잎이 미끄럽습니다." }] },
+            {
+              "children": [{ "text": "휴대폰 신호는 봉우리에서는 잡히지만 골짜기에서는 약합니다. 가이드와 일행 연락처를 서로 저장해 두십시오." }]
+            },
+            { "children": [{ "text": "현금만 받으므로 등록비와 가이드비를 소액권으로 준비하십시오." }] }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "등산 스틱이 있으면 산타페 쪽 긴 내리막에서 무릎 부담을 크게 줄일 수 있습니다." }] },
+            {
+              "children": [
+                { "text": "초보자라면 출발 전날 바기오 시내에서 가벼운 산책으로 고도(해발 약 " },
+                { "type": "distance", "text": "1,500m" },
+                { "text": ")에 몸을 적응시키면 첫 오르막이 한결 수월합니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "궁갈 바위는 안전 난간이 없는 절벽 끝입니다. 바람이 세거나 바위가 젖어 있을 때는 가장자리에 서지 말고 가이드의 지시에 따르십시오." }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "비 온 뒤에는 흙길이 매우 미끄럽습니다. 우기에는 스틱을 준비하고 무리한 산행을 피하십시오." }] },
+            { "children": [{ "text": "코스 주변의 매장 동굴과 의식 장소는 신성한 곳입니다. 만지거나 안으로 들어가지 마십시오." }] },
+            { "children": [{ "text": "쓰레기는 모두 가지고 내려와야 하며, 흡연과 불 피우기는 금지됩니다." }] },
+            {
+              "children": [
+                { "text": "트레일 운영이 기상이나 지역 사정으로 임시 중단될 수 있으니 출발 전 공식 페이지의 최신 공지를 확인하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "늦은 오후 하산은 대중교통이 끊길 수 있어 위험합니다. 늦어도 " },
+                { "type": "time", "text": "오후 2~3시" },
+                { "text": " 전에는 산타페에 도착하도록 계획하십시오." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "바기오",
+              "place": "baguio",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "40분~1시간" },
+                { "text": ", 산행 전후 숙박과 식사, 시내 관광을 함께 즐기기 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "풀라그 산",
+              "place": "mount-pulag",
+              "children": [
+                { "text": "바기오에서 차로 약 " },
+                { "type": "duration", "text": "2~3시간" },
+                { "text": ", 울랍으로 몸을 푼 뒤 도전하기 좋은 루손 최고봉입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "벤캅 박물관",
+              "children": [
+                { "text": "바기오 아신 로드, 차로 약 " },
+                { "type": "duration", "text": "30분" },
+                { "text": ". 산행 다음 날 여유롭게 둘러보기 좋은 미술관입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "사가다",
+              "place": "sagada",
+              "children": [
+                { "text": "바기오에서 버스로 약 " },
+                { "type": "duration", "text": "5~6시간" },
+                { "text": ", 코르딜레라 산악 여행을 이어 가기 좋은 마을입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
