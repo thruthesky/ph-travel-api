@@ -10,7 +10,7 @@
 //   enhance(root); // 탭 버튼을 누를 수 있게 한다
 //
 // 모양(CSS)은 meta.json 의 display(css_variables·types[].css)를 그대로 쓴다. 클래스 접두어는 cdt-.
-// 아랍어처럼 오른쪽에서 왼쪽으로 쓰는 언어는 ctx.dir = 'rtl' 로 넘긴다 — 테두리·여백·저작자 위치가 뒤집힌다.
+// 아랍어처럼 오른쪽에서 왼쪽으로 쓰는 언어는 ctx.dir = 'rtl' 로 넘긴다 — CSS 가 논리 속성이라 테두리·여백·저작자 위치가 뒤집힌다.
 // 사진 저작자 표기(credit)는 모든 사진에 보인다. 전체가 링크인 카드 안에서는 <a> 를 겹칠 수 없어 글만 보이고,
 // 원본 링크(source)는 상세 화면의 사진에서 준다.
 
@@ -32,9 +32,8 @@ const creditBadge = (img, link = true) => `<small class="cdt-credit cdt-credit--
 /** 표시 방법의 CSS 를 하나로 모은다. meta.json 전체나 그 display 를 받는다. <style> 에 넣어 쓴다. */
 export function catalogCss(metaOrDisplay) {
   const cdt = metaOrDisplay.display ?? metaOrDisplay;
-  // 오른쪽→왼쪽 언어: display 의 CSS 는 왼쪽 기준이라 테두리·여백을 뒤집는다
-  const rtl = '[dir=rtl] .cdt-stepper{border-left:0;border-right:2px solid var(--cdt-border);padding:0 20px 0 0}[dir=rtl] .cdt-stepper li{padding:0 16px 16px 0}[dir=rtl] .cdt-stepper li::before{left:auto;right:-27px}[dir=rtl] .cdt-alert,[dir=rtl] .cdt-blockquote{border-left:0;border-right:4px solid}[dir=rtl] .cdt-blockquote{border-right-color:var(--cdt-border)}[dir=rtl] .cdt-list{padding-left:0;padding-right:1.4em}[dir=rtl] .cdt-list[data-icon]{padding-right:0}[dir=rtl] .cdt-credit--overlay{right:auto;left:8px}[dir=rtl] .cdt-hero .cdt-credit{right:auto;left:8px}[dir=rtl] .cdt-table th,[dir=rtl] .cdt-table td,[dir=rtl] .cdt-pricing th,[dir=rtl] .cdt-pricing td{text-align:right}';
-  const glue = rtl + '.cdt-root{color:var(--cdt-text);background:var(--cdt-surface)}.cdt-credit--overlay{position:absolute;right:8px;bottom:8px;max-width:calc(100% - 16px);margin:0;padding:2px 6px;border-radius:4px;background:rgba(0,0,0,.55);color:#fff;font-size:.7rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.cdt-credit--overlay a{color:inherit}.cdt-card__media{position:relative;margin-bottom:12px}.material-symbols-outlined{font-size:1.15em;vertical-align:-.2em}.cdt-list[data-icon] .material-symbols-outlined{color:var(--cdt-accent);flex:none}.cdt-facts{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin:16px 0}.cdt-fact{padding:14px 16px;border:1px solid var(--cdt-border);border-radius:var(--cdt-radius)}.cdt-fact__label{display:flex;gap:6px;align-items:center;font-size:.8rem;color:var(--cdt-muted)}.cdt-fact__value{margin-top:4px;font-weight:600}.cdt-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0}';
+  // display 의 CSS 는 논리 속성(inline-start·inline-end)이라 dir 만 바꾸면 오른쪽→왼쪽도 맞는다. 여기 CSS 도 같은 규칙.
+  const glue = '.cdt-root{color:var(--cdt-text);background:var(--cdt-surface)}.cdt-credit--overlay{position:absolute;inset-inline-end:8px;bottom:8px;max-width:calc(100% - 16px);margin:0;padding:2px 6px;border-radius:4px;background:rgba(0,0,0,.55);color:#fff;font-size:.7rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.cdt-credit--overlay a{color:inherit}.cdt-card__media{position:relative;margin-bottom:12px}.material-symbols-outlined{font-size:1.15em;vertical-align:-.2em}.cdt-list[data-icon] .material-symbols-outlined{color:var(--cdt-accent);flex:none}.cdt-facts{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin:16px 0}.cdt-fact{padding:14px 16px;border:1px solid var(--cdt-border);border-radius:var(--cdt-radius)}.cdt-fact__label{display:flex;gap:6px;align-items:center;font-size:.8rem;color:var(--cdt-muted)}.cdt-fact__value{margin-top:4px;font-weight:600}.cdt-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0}';
   return `${cdt.css_variables}\n${Object.values(cdt.types).map((t) => t.css).join('\n')}\n${glue}`;
 }
 

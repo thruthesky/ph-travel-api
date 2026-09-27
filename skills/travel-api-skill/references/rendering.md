@@ -101,7 +101,7 @@
 | 내보내는 것 | 하는 일 |
 |-------------|---------|
 | `FONT_LINKS` | 아이콘(Material Symbols)과 tagline 글꼴(Noto Serif KR) `<link>` — `<head>` 에 넣는다. 없으면 아이콘 자리에 `account_balance` 같은 글자가 보인다 |
-| `catalogCss(meta)` | css_variables + 모든 type 의 css + 정보 칸·저작자 표기·`.cdt-root`·오른쪽→왼쪽 CSS 를 한 문자열로. `meta.json` 전체나 그 `display` 를 받는다. `export` 가 이것을 미리 `travel.css` 로 써 둔다 |
+| `catalogCss(meta)` | css_variables + 모든 type 의 css + 정보 칸·저작자 표기·`.cdt-root` CSS 를 한 문자열로. CSS 는 논리 속성(`inline-start`·`inline-end`·`text-align:start`)이라 `dir="rtl"` 만 주면 뒤집힌다. `meta.json` 전체나 그 `display` 를 받는다. `export` 가 이것을 미리 `travel.css` 로 써 둔다 |
 | `renderRuns(runs, ctx)` | 글 조각 → HTML (모든 글 이스케이프) |
 | `renderBlock(node, ctx)` | 블록 노드 → HTML, 48개 type + 대체 규칙 |
 | `renderPlace(place, ctx)` | 상세 화면 (layouts.place_detail) — `<article class="cdt-root cdt-place">` |

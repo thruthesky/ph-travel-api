@@ -344,7 +344,7 @@ class TravelBlocks {
             Container(
               width: 14,
               height: 6,
-              margin: const EdgeInsets.only(right: 3),
+              margin: const EdgeInsetsDirectional.only(end: 3),
               decoration: BoxDecoration(color: i < (b['value'] as int) ? scheme.primary : scheme.outlineVariant, borderRadius: BorderRadius.circular(3)),
             ),
           const SizedBox(width: 6),
@@ -470,7 +470,7 @@ class TravelBlocks {
             Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Expanded(child: Text(it['label'] ?? '', style: const TextStyle(fontWeight: FontWeight.w600))),
               const SizedBox(width: 12),
-              Flexible(child: Text(it['price'] ?? '', textAlign: TextAlign.right, style: TextStyle(color: scheme.primary, fontWeight: FontWeight.w700))),
+              Flexible(child: Text(it['price'] ?? '', textAlign: TextAlign.end, style: TextStyle(color: scheme.primary, fontWeight: FontWeight.w700))),
             ]),
             if (it['note'] != null) Text(it['note'], style: TextStyle(fontSize: 12, color: scheme.onSurfaceVariant)),
           ]),
@@ -587,7 +587,7 @@ class _TabsState extends State<_Tabs> {
           child: Row(children: [
             for (final (i, it) in items.indexed)
               Padding(
-                padding: const EdgeInsets.only(right: 8),
+                padding: const EdgeInsetsDirectional.only(end: 8),
                 child: ChoiceChip(label: Text(it['title'] ?? ''), selected: i == index, onSelected: (_) => setState(() => index = i)),
               ),
           ]),
