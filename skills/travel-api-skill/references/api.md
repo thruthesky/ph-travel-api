@@ -53,7 +53,7 @@ API 가 내보내는 파일과 그 모양이다. **웹·앱은 이 파일을 개
 | `version` | **전체 내용에 하나인 해시.** `sha256(JSON.stringify([meta, 언어 순서대로 places 배열들]))` 앞 12자리. meta·places 파일 모두 같은 값을 가진다. 이 값이 바뀌었을 때만 다시 받는다 |
 | `count` | 여행지 수 (모든 언어가 같다) |
 | `source_language` · `fallback_language` | 원본 언어(ko) · 대체 언어(en) |
-| `languages` | 지원 언어 코드 — 이 순서가 version 계산 순서다 |
+| `languages` | 지원 언어 코드 — 이 순서가 version 계산 순서다. 번역 중인 언어는 빠진다(대체 언어로 보여 준다) |
 | `meta` · `places` | 파일 이름 (manifest 기준 상대 경로). `places` 는 언어 코드 → 파일 이름 |
 | `generated_at` | 빌드 시각. 참고용 — 비교에 쓰지 않는다 |
 

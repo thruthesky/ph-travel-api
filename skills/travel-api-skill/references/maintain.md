@@ -101,6 +101,7 @@ ph-travel-api/
     - 보이는 글이 2,500자를 넘어야 한다.
     - 마크다운 흔적(`**`, `](`)이 없어야 한다.
 - **번역본:**
+  - 번역 중인 언어는 `data/<언어>/` 폴더가 생기기 전까지 배포에서 빠진다(manifest·meta 의 `languages` 에도 없다). 폴더가 생기면 그때부터 아래 검사를 모두 받는다 — 일부만 넣으면 빌드가 실패한다.
   - 모든 언어에 같은 여행지가 있어야 하고, 원본과 모양이 같아야 한다. 같은 블록 순서·개수, 같은 언어 무관 값이다: id·slug·title_en·rating·좌표·months·budget 숫자·difficulty·airport.code·사진·링크·icon·variant·section key.
   - 다를 수 있는 것은 `translate: true` prop 과 `label` 뿐이다.
   - 비한국어 파일에 한글이 없어야 한다.

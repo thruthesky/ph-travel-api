@@ -454,6 +454,10 @@ checkMeta();
 checkSkill();
 const placeFiles = (lang) => (existsSync(join(dataDir, lang)) ? readdirSync(join(dataDir, lang)).filter((name) => /^\d{3}-.+\.json$/.test(name)).sort() : []);
 const files = placeFiles(SOURCE);
+// 번역 중인 언어 — data/<언어>/ 폴더가 아직 없으면 이번 배포에서 뺀다. 폴더가 생기면 그때부터 모든 여행지가 있어야 한다.
+const PENDING = LANGS.filter((l) => l !== SOURCE && !existsSync(join(dataDir, l)));
+const PUBLISHED = LANGS.filter((l) => !PENDING.includes(l));
+if (PENDING.includes(meta.fallback_language)) errors.push(`fallback_language(${meta.fallback_language}) 의 번역 폴더 data/${meta.fallback_language}/ 가 없음`);
 for (const name of readdirSync(dataDir)) {
   if (name.startsWith('.')) continue;
   if (/\.json$/.test(name) && name !== 'meta.json') errors.push(`data/${name}: 여행지 파일은 data/<언어>/ 에 둔다`);
@@ -462,7 +466,7 @@ for (const name of readdirSync(dataDir)) {
 
 // 원본 언어를 먼저 읽는다 — 다른 언어는 원본과 모양을 비교한다.
 const parsed = { [SOURCE]: files.map((file) => parsePlace(SOURCE, file, null)) };
-for (const lang of LANGS.filter((l) => l !== SOURCE)) {
+for (const lang of PUBLISHED.filter((l) => l !== SOURCE)) {
   const names = placeFiles(lang);
   for (const file of files) if (!names.includes(file)) errors.push(`${lang}/${file}: 번역 파일 없음`);
   for (const file of names) if (!files.includes(file)) errors.push(`${lang}/${file}: 원본(${SOURCE})에 없는 여행지`);
@@ -490,19 +494,20 @@ if (errors.length) {
   process.exit(1);
 }
 
-const places = Object.fromEntries(LANGS.map((lang) => [lang, parsed[lang].map((p) => p.place).sort((a, b) => a.id - b.id)]));
+const places = Object.fromEntries(PUBLISHED.map((lang) => [lang, parsed[lang].map((p) => p.place).sort((a, b) => a.id - b.id)]));
 // 쓰인 횟수를 붙인 기준 정보. 클라이언트는 used 가 0 이 아닌 type 부터 구현하면 된다. 모든 언어의 모양이 같아서 원본만 센다.
 const metaOut = {
   ...meta,
+  languages: meta.languages.filter((l) => PUBLISHED.includes(l.code)),
   display: { ...DISPLAY, types: Object.fromEntries(Object.entries(TYPES).map(([name, spec]) => [name, { ...spec, used: used[name] }])) },
 };
 // version 은 내용 해시다. 사진 주소에 사진 해시가 들어 있으므로 사진만 바꿔도 version 이 바뀐다.
 // 기준 정보·어느 한 언어가 바뀌어도 version 이 바뀐다. README 만 고친 push 는 version 이 그대로라서 클라이언트가 다시 받지 않는다.
-const version = sha(JSON.stringify([metaOut, LANGS.map((lang) => places[lang])])).slice(0, 12);
+const version = sha(JSON.stringify([metaOut, PUBLISHED.map((lang) => places[lang])])).slice(0, 12);
 const count = sources.length;
 const head = { schema: SCHEMA, version };
 const placesFile = (lang) => `places.${lang}.json`;
-for (const { code, dir } of meta.languages) {
+for (const { code, dir } of metaOut.languages) {
   writeFileSync(join(outDir, placesFile(code)), JSON.stringify({ ...head, lang: code, dir, count, places: places[code] }));
 }
 writeFileSync(join(outDir, 'meta.json'), `${JSON.stringify({ ...head, ...metaOut }, null, 2)}\n`);
@@ -513,13 +518,14 @@ writeFileSync(
     count,
     source_language: SOURCE,
     fallback_language: meta.fallback_language,
-    languages: LANGS,
+    languages: PUBLISHED,
     meta: 'meta.json',
-    places: Object.fromEntries(LANGS.map((lang) => [lang, placesFile(lang)])),
+    places: Object.fromEntries(PUBLISHED.map((lang) => [lang, placesFile(lang)])),
     generated_at: new Date().toISOString(),
   }, null, 2)}\n`,
 );
 packSkill();
 const unused = Object.keys(used).filter((t) => !used[t]);
-console.log(`여행지 ${count}곳 × ${LANGS.length}개 언어(${LANGS.join('·')}) → _site/v${SCHEMA}/ (version ${version}) · 스킬 묶음 → _site/skills/${SKILL}.tar.gz`);
+console.log(`여행지 ${count}곳 × ${PUBLISHED.length}개 언어(${PUBLISHED.join('·')}) → _site/v${SCHEMA}/ (version ${version}) · 스킬 묶음 → _site/skills/${SKILL}.tar.gz`);
+if (PENDING.length) console.log(`번역 중이라 뺀 언어: ${PENDING.join('·')} — data/<언어>/ 폴더가 생기면 함께 배포된다`);
 console.log(`표시 방법(type) ${Object.keys(TYPES).length}개 중 ${Object.keys(TYPES).length - unused.length}개 사용 — 미사용: ${unused.join(', ')}`);
