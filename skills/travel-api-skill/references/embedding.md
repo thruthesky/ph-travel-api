@@ -56,7 +56,7 @@
 ```
 
 ```bash
-S=~/.claude/skills/travel-api-skill          # 스킬 폴더 — 설치 위치. ph-travel-api 저장소 안이면 skills/travel-api-skill
+S=~/.claude/skills/travel-api-skill          # 스킬 폴더 — 설치 위치 (Codex·Gemini CLI·Copilot CLI 는 ~/.agents/skills/travel-api-skill). ph-travel-api 저장소 안이면 skills/travel-api-skill
 node $S/scripts/travel-db.mjs build  --out build/data/travel.db --langs ko,en                 # 사이트 언어만 (+ 대체 en)
 node $S/scripts/travel-db.mjs export --out build/html/travel --langs ko,en --no-json          # travel.css·renderer.js·images/
 mkdir -p build/lib && cp $S/assets/TravelDb.php build/lib/

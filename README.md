@@ -15,7 +15,7 @@
 
 ## 0. AI 스킬 — travel-api-skill
 
-Claude Code 에 `travel-api-skill` 을 설치하면 AI 가 이 API 를 잘 쓴다.
+코딩 에이전트에 `travel-api-skill` 을 설치하면 AI 가 이 API 를 잘 쓴다. Claude Code·Codex·Gemini CLI·GitHub Copilot CLI 처럼 Agent Skills(`SKILL.md`)를 읽는 도구면 된다.
 
 - 여행 질문에 데이터로 답한다 — 추천·일정·비용·가는 방법·가까운 곳.
 - 웹·Flutter 앱에서 받기·저장·그리기 코드를 만든다. 참고 렌더러가 들어 있다.
@@ -23,34 +23,54 @@ Claude Code 에 `travel-api-skill` 을 설치하면 AI 가 이 API 를 잘 쓴�
 
 스킬 원본은 [skills/travel-api-skill](skills/travel-api-skill/SKILL.md) 이다.
 
-**설치 — 모든 프로젝트에서 쓰기 (사용자 스킬).** 터미널에 붙여 넣는다.
+### 0.1 설치 — 코딩 에이전트에게 맡기기
 
-```bash
-mkdir -p ~/.claude/skills && curl -fsSL https://thruthesky.github.io/ph-travel-api/skills/travel-api-skill.tar.gz | tar -xz -C ~/.claude/skills
-```
-
-**설치 — 한 프로젝트에서만 쓰기 (프로젝트 스킬).** 그 프로젝트 폴더에서 실행한다.
-
-```bash
-mkdir -p .claude/skills && curl -fsSL https://thruthesky.github.io/ph-travel-api/skills/travel-api-skill.tar.gz | tar -xz -C .claude/skills
-```
-
-**Claude Code 에게 설치를 맡길 때** — 아래 문장을 대화창에 붙여 넣는다.
+아래 글을 **통째로 복사해 코딩 에이전트의 대화창에 붙여 넣고 전송**한다. 에이전트가 자기 도구에 맞는 폴더를 골라 설치하고, 확인한 뒤 결과를 알려 준다. 이미 설치돼 있으면 최신으로 바꾼다.
 
 ```text
-https://thruthesky.github.io/ph-travel-api/skills/travel-api-skill.tar.gz 를 받아 ~/.claude/skills 에 풀어서 travel-api-skill 스킬을 설치해 줘. 설치 뒤 ~/.claude/skills/travel-api-skill/SKILL.md 가 있는지 확인해 줘.
+travel-api-skill 스킬(필리핀 여행 정보 API)을 설치해 줘. 아래 순서를 그대로 따라 줘.
+
+1. 설치 폴더 DIR 을 정한다. 모든 프로젝트에서 쓰는 사용자 스킬 폴더다.
+   - 네가 Claude Code 면 DIR=~/.claude/skills
+   - Codex·Gemini CLI·GitHub Copilot CLI 등 그 밖의 도구면 DIR=~/.agents/skills
+2. DIR/travel-api-skill/SKILL.md 가 이미 있으면 bash DIR/travel-api-skill/scripts/update.sh 를 실행해 최신으로 바꾼다.
+   없으면 아래 명령을 실행한다. Windows PowerShell 이면 curl.exe 로 임시 파일에 받은 뒤 tar -xzf 로 DIR 에 푼다.
+   mkdir -p DIR && curl -fsSL https://thruthesky.github.io/ph-travel-api/skills/travel-api-skill.tar.gz | tar -xz -C DIR
+3. DIR/travel-api-skill/SKILL.md 가 있는지 보고, 그 파일 앞머리의 version 을 읽는다.
+4. node -v 로 Node 버전을 본다. 스킬의 조회 도구는 Node 22.13 이상이 필요하다. 낮으면 알려만 준다.
+5. 설치 경로·version·Node 확인 결과를 보고하고, 이 도구에서 스킬이 잡히게 하려면 무엇을 해야 하는지(그대로 쓰기·다시 읽기 명령·재시작) 알려 준다.
 ```
 
-설치한 뒤 Claude Code 를 다시 시작하면 스킬이 잡힌다.
+한 프로젝트에서만 쓰려면 1번의 폴더를 그 프로젝트의 `.claude/skills`(Claude Code) 또는 `.agents/skills`(그 밖의 도구)로 바꿔서 붙여 넣는다.
+
+### 0.2 설치 — 직접 명령으로
+
+도구에 맞는 폴더를 `DIR` 에 넣고 터미널에서 실행한다.
+
+```bash
+DIR=~/.claude/skills   # Claude Code. Codex·Gemini CLI·Copilot CLI 는 ~/.agents/skills
+mkdir -p "$DIR" && curl -fsSL https://thruthesky.github.io/ph-travel-api/skills/travel-api-skill.tar.gz | tar -xz -C "$DIR"
+```
+
+| 도구 | 사용자 스킬 폴더 (모든 프로젝트) | 프로젝트 스킬 폴더 | 설치 뒤 스킬 잡기 |
+|------|------|------|------|
+| Claude Code | `~/.claude/skills` | `.claude/skills` | 바로 잡힌다. 대화를 시작할 때 그 폴더가 없었으면 `/reload-skills` |
+| Codex | `~/.agents/skills` | `.agents/skills` | 자동으로 잡힌다. 안 보이면 Codex 를 다시 시작 |
+| Gemini CLI | `~/.agents/skills` (또는 `~/.gemini/skills`) | `.agents/skills` (또는 `.gemini/skills`) | `/skills reload` |
+| GitHub Copilot CLI | `~/.agents/skills` (또는 `~/.copilot/skills`) | `.agents/skills` (또는 `.github/skills`) | `/skills reload` |
+
+`~/.agents/skills` 는 여러 도구가 함께 읽는 공용 폴더다. Claude Code 만 이 폴더를 읽지 않는다.
+
+### 0.3 쓰기
 
 | 사용 | 예 |
 |------|----|
-| 요청 | `/travel-api-skill 12월에 가기 좋은 해변 세 곳 추천해 줘` |
-| 요청 | `/travel-api-skill 세부에서 가까운 곳과 2박 3일 일정 짜 줘` |
-| 요청 | `/travel-api-skill Flutter 앱에서 여행지 상세 화면을 만들어 줘` |
-| 최신으로 갱신 | `/travel-api-skill update` |
+| 요청 (Claude Code) | `/travel-api-skill 12월에 가기 좋은 해변 세 곳 추천해 줘` |
+| 요청 (Codex) | `$travel-api-skill 세부에서 가까운 곳과 2박 3일 일정 짜 줘` |
+| 요청 (그 밖의 도구) | 스킬 이름을 적거나 그냥 필리핀 여행을 물으면 에이전트가 스킬을 고른다 |
+| 최신으로 갱신 | `/travel-api-skill update` — 또는 `bash <스킬 폴더>/scripts/update.sh` |
 
-- `update` 는 위 묶음을 다시 받아 설치된 스킬 폴더를 통째로 바꾼다. 이 저장소 안의 원본에는 `git pull` 을 안내한다.
+- `update` 는 위 묶음을 다시 받아 설치된 스킬 폴더를 통째로 바꾼다. 어느 폴더에 설치했든 그 자리에서 바꾼다. 이 저장소 안의 원본에는 `git pull` 을 안내한다.
 - 조회 도구 `scripts/travel.mjs` 는 Node 22.13 이상이 필요하다(내장 `node:sqlite`). 받은 JSON 은 `~/.cache/travel-api-skill/` 에 캐시한다.
 - 스킬은 JSON 을 받아 SQLite 에 넣어 쓰는 방식도 안내한다 — `scripts/travel-db.mjs build`(언어별 전문 검색 DB)·`export`(웹·PHP 사이트에 넣어 쓸 폴더).
 - 이 저장소를 연 Claude Code 에서는 설치하지 않아도 [.claude/skills/travel-api-skill](.claude/skills/travel-api-skill/SKILL.md) 입구로 바로 쓸 수 있다.
