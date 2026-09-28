@@ -1,0 +1,870 @@
+{
+  "id": 55,
+  "slug": "boracay",
+  "title": { "type": "title", "text": "Đảo Boracay" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Boracay" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Bãi White Beach mịn như bột phấn và ánh hoàng hôn sau những cánh buồm"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "visayas", "text": "Visayas" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "panay", "text": "Panay" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Đảo Boracay, Malay, tỉnh Aklan"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "Biển & đảo"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": [
+      "White Beach",
+      "Hoàng hôn",
+      "Đi thuyền buồm",
+      "Lướt ván diều",
+      "Du lịch gia đình",
+      "Cuộc sống về đêm"
+    ]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.8, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 11.9689 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 121.9239 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 11 – tháng 5 (mùa khô, mùa gió Amihan)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "3–5 ngày"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱3,000–8,000/người",
+    "currency": "PHP",
+    "min": 3000,
+    "max": 8000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Dễ",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay Caticlan (MPH), Sân bay quốc tế Kalibo (KLO)",
+    "code": "MPH"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/055-boracay.webp",
+    "alt": "Đảo Boracay",
+    "credit": "Jhun Sacapano / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Boracay_White_Beach.png"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/055-boracay-2.webp",
+        "alt": "Đảo Boracay",
+        "credit": "Ronald Tagra / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Paraw_sail_boats_(Boracay,_Philippines).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/055-boracay-3.webp",
+        "alt": "Đảo Boracay",
+        "credit": "Ray in Manila / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sailing_into_The_Sunset,_Boracay,_Philippines.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Đây là hòn đảo nghỉ dưỡng tiêu biểu của Philippines, nổi tiếng với bãi White Beach dài khoảng "
+      },
+      { "type": "distance", "text": "4km" },
+      {
+        "text": " và cảnh hoàng hôn trên những chiếc thuyền buồm paraw. Sau đợt chỉnh trang môi trường quy mô lớn vào "
+      },
+      { "type": "date", "text": "năm 2018" },
+      {
+        "text": ", đảo trở nên sạch đẹp hơn, và nhờ có chuyến bay thẳng từ Hàn Quốc đến Kalibo, nơi đây vẫn luôn được các gia đình và cặp đôi yêu thích."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Boracay là một hòn đảo nhỏ thuộc thị trấn Malay, tỉnh Aklan, nằm ở đầu tây bắc đảo Panay, dài khoảng "
+            },
+            { "type": "distance", "text": "7km" },
+            { "text": " và chỗ hẹp nhất chưa đến " },
+            { "type": "distance", "text": "1km" },
+            { "text": ". Bãi White Beach ở phía tây đảo trải dài khoảng " },
+            { "type": "distance", "text": "4km" },
+            {
+              "text": " với cát san hô trắng mịn như bột, và mỗi khi chiều buông, những chiếc thuyền buồm truyền thống paraw lướt ngang bầu trời đỏ rực tạo nên khung cảnh mà du khách khắp thế giới ghi nhớ qua từng bức ảnh."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "White Beach được chia thành Station 1, 2, 3 theo số hiệu bến thuyền cũ. Station 1 ở phía bắc có bãi cát rộng nhất và nhiều resort cao cấp; Station 2 ở giữa là khu sầm uất với D'Mall cùng nhiều nhà hàng, quán bar; Station 3 ở phía nam tương đối yên tĩnh với nhiều chỗ ở giá hợp lý. Bãi Bulabog ở phía đông đảo biến thành điểm lướt ván diều hàng đầu châu Á vào mùa gió đông bắc "
+            },
+            { "type": "date", "text": "tháng 11–4" },
+            { "text": "." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Boracay từng chịu ảnh hưởng nặng nề bởi tình trạng phát triển quá mức và ô nhiễm nước thải, khiến chính phủ phải đóng cửa toàn bộ đảo với du khách trong 6 tháng, từ "
+            },
+            { "type": "date", "text": "ngày 26 tháng 4 năm 2018" },
+            { "text": " đến " },
+            { "type": "date", "text": "ngày 25 tháng 10" },
+            {
+              "text": ", để chỉnh trang quy mô lớn. Sau đó, các công trình xây dựng trái phép trước bãi biển bị phá dỡ, việc uống rượu, hút thuốc, đốt pháo hoa trên bãi biển bị hạn chế, và hệ thống yêu cầu đặt phòng tại cơ sở lưu trú được cấp phép mới được phép vào đảo cũng được áp dụng. Nhờ đó, White Beach ngày nay sạch đẹp và ngăn nắp hơn nhiều so với trước."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nhờ có chuyến bay thẳng từ Hàn Quốc đến Kalibo và nhiều dịch vụ có nhân viên nói tiếng Hàn, nơi đây đặc biệt phù hợp với du khách lần đầu đến Philippines, gia đình có con nhỏ, và các cặp đôi hưởng tuần trăng mật. Ưu điểm lớn nhất là bạn có thể tận hưởng mọi thứ trên cùng một hòn đảo, từ hoạt động biển, spa, ẩm thực cho đến cuộc sống về đêm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Đi thuyền buồm paraw ngắm hoàng hôn",
+              "children": [
+                {
+                  "text": "Bạn sẽ lên thuyền buồm truyền thống có giàn chống hai bên bằng tre, ra khơi trước White Beach khoảng "
+                },
+                { "type": "duration", "text": "1 tiếng" },
+                { "text": " vào lúc chiều tà. Giá khoảng " },
+                { "type": "price", "text": "₱2,500–3,500" },
+                { "text": "/thuyền và có thể mặc cả." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Dạo bộ và tắm biển ở White Beach",
+              "children": [
+                { "text": "Vào khoảng " },
+                { "text": "07:00", "type": "time" },
+                {
+                  "text": ", Station 1 vắng người và cát trắng sáng nhất. Vùng nước nông thoải rất thích hợp để vui chơi cùng trẻ nhỏ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Tour khám phá đảo",
+              "children": [
+                {
+                  "text": "Đây là tour nửa ngày bằng thuyền banca, ghé qua đảo Crystal Cove, Magic Island, các điểm lặn ống thở và bãi Puka Shell. Tour ghép có giá khoảng "
+                },
+                { "type": "price", "text": "₱1,000–2,000" },
+                { "text": "/người." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Bãi Puka Shell",
+              "children": [
+                {
+                  "text": "Đây là bãi biển yên tĩnh ở đầu bắc đảo, có sóng hơn White Beach và đặc trưng bởi cát lẫn vỏ sò. Ít người nên rất thích hợp để nghỉ ngơi thong thả."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Đài quan sát núi Luho",
+              "children": [
+                { "text": "Đây là ngọn đồi cao nhất đảo, khoảng " },
+                { "type": "distance", "text": "100m" },
+                {
+                  "text": ", nơi bạn có thể ngắm toàn cảnh Boracay và vùng biển xung quanh 360 độ. Có thu một khoản phí vào cổng nhỏ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Lướt ván diều ở bãi Bulabog",
+              "children": [
+                { "text": "Vào mùa gió đông bắc " },
+                { "text": "tháng 11–4", "type": "date" },
+                {
+                  "text": ", hàng loạt trung tâm dạy lướt ván diều mở cửa san sát. Khóa học cơ bản thường kéo dài vài giờ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Hoạt động trên biển",
+              "children": [
+                {
+                  "text": "Bạn có thể trải nghiệm hầu hết các môn thể thao biển như lặn mũ (helmet diving), dù lượn kéo (parasailing), lặn thử, mô tô nước… Hãy luôn chọn công ty được cấp phép."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Nhảy vách đá ở Ariel's Point",
+              "children": [
+                {
+                  "text": "Đây là tour nửa ngày ngày càng được ưa chuộng, nơi bạn nhảy từ vách đá, lặn ống thở và thưởng thức tiệc nướng BBQ tại vách biển thuộc đảo lớn Buruanga, đối diện Boracay."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Ngày 1",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "Sáng đến chiều",
+                      "children": [
+                        {
+                          "text": "Đến Kalibo hoặc Caticlan, lên đảo bằng thuyền từ bến tàu Caticlan"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "15:00",
+                      "children": [{ "text": "Nhận phòng rồi dạo bộ trên White Beach" }]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [{ "text": "Ngắm hoàng hôn trên bãi biển Station 1" }]
+                    },
+                    {
+                      "time": "Buổi tối",
+                      "children": [
+                        { "text": "Ăn tối tại nhà hàng quanh D'Mall, dạo bộ trên bãi biển" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 2",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "Tour khám phá đảo (Crystal Cove, lặn ống thở, bãi Puka Shell)" }
+                      ]
+                    },
+                    {
+                      "time": "Buổi trưa",
+                      "children": [
+                        {
+                          "text": "BBQ trên bãi biển trong tour, hoặc mua hải sản ở chợ D'Talipapa nhờ nấu (paluto)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Buổi chiều",
+                      "children": [{ "text": "Nghỉ ngơi ở hồ bơi hoặc bãi biển, massage" }]
+                    },
+                    {
+                      "time": "17:00",
+                      "children": [{ "text": "Đi thuyền buồm paraw ngắm hoàng hôn" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 3",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "Ghé thăm đài quan sát núi Luho" }] },
+                    {
+                      "time": "10:00",
+                      "children": [{ "text": "Ngắm hoặc học lướt ván diều ở bãi Bulabog" }]
+                    },
+                    {
+                      "time": "Buổi chiều",
+                      "children": [{ "text": "Các hoạt động như lặn mũ, dù lượn kéo" }]
+                    },
+                    {
+                      "time": "Buổi tối",
+                      "children": [{ "text": "Quán bar nhạc sống ở Station 2" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 4",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "Buổi sáng",
+                      "children": [{ "text": "Bơi thong thả buổi sáng, mua sắm quà lưu niệm" }]
+                    },
+                    {
+                      "time": "Buổi chiều",
+                      "children": [
+                        { "text": "Trả phòng, rời đảo từ cảng Cagban, di chuyển ra sân bay" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Máy bay",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Từ Manila đến Sân bay Caticlan (MPH, sân bay Godofredo P. Ramos) mất khoảng "
+                        },
+                        { "type": "duration", "text": "1 tiếng" },
+                        {
+                          "text": ", với các chuyến bay hàng ngày của Philippine Airlines, Cebu Pacific… Từ sân bay đến bến tàu Caticlan đi xe ba bánh mất khoảng "
+                        },
+                        { "type": "duration", "text": "5 phút" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Sân bay quốc tế Kalibo (KLO) có các chuyến bay thẳng từ Incheon, Busan… của Hàn Quốc. Từ Kalibo đến bến tàu Caticlan bằng xe buýt hoặc xe van mất khoảng "
+                        },
+                        { "type": "duration", "text": "1 tiếng 30 phút–2 tiếng" },
+                        { "text": ", giá khoảng " },
+                        { "type": "price", "text": "₱200–350" },
+                        { "text": "/người." }
+                      ]
+                    },
+                    {
+                      "children": [{ "text": "Từ Cebu cũng có chuyến bay đến Caticlan và Kalibo." }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tàu thuyền",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Từ bến tàu Caticlan đến cảng Cagban của Boracay bằng thuyền banca mất khoảng "
+                        },
+                        { "type": "duration", "text": "15 phút" },
+                        { "text": ", giá khoảng " },
+                        { "type": "price", "text": "₱50" },
+                        {
+                          "text": "/người. Ngoài ra còn phải trả riêng phí bến bãi và phí môi trường."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Vào mùa gió mùa tây nam " },
+                        { "text": "tháng 6–10", "type": "date" },
+                        {
+                          "text": ", để tránh sóng, tàu có thể cập vào cảng Tambisaan ở phía đông đảo thay vì Cagban."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Sẽ tiện lợi hơn nếu dùng gói dịch vụ đưa đón trọn gói từ sân bay, thuyền, đến di chuyển trong đảo (khoảng "
+                        },
+                        { "type": "price", "text": "₱500–1,000" },
+                        { "text": "/người)." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Phí lên đảo có thể thanh toán trước qua hệ thống trực tuyến (Boracay iPass). Hãy kiểm tra thông báo mới nhất."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Giao thông tại địa phương",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Trong đảo, xe ba bánh điện (e-trike) là phương tiện chính. Đi ghép khoảng "
+                        },
+                        { "type": "price", "text": "₱20–40" },
+                        { "text": "/người, thuê riêng khoảng " },
+                        { "type": "price", "text": "₱150–300" },
+                        { "text": " tùy quãng đường." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Ở đoạn White Beach, cách di chuyển tiện nhất là đi bộ theo lối đi ven biển phía sau bãi biển."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Các mùa ở Boracay được phân chia theo hướng gió. Từ " },
+            { "type": "date", "text": "tháng 11" },
+            { "text": " đến " },
+            { "type": "date", "text": "tháng 5" },
+            {
+              "text": " là mùa gió đông bắc (Amihan); White Beach ở phía tây đảo nằm khuất gió nên sóng êm và biển trong nhất. "
+            },
+            { "type": "date", "text": "Tháng 12–2" },
+            { "text": " mát mẻ dễ chịu, là thời điểm được ưa chuộng nhất, còn " },
+            { "type": "date", "text": "tháng 3–5" },
+            {
+              "text": " hầu như không mưa nhưng là mùa hè nóng với nhiệt độ ban ngày lên tới khoảng 34 độ."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Từ " },
+            { "text": "tháng 6", "type": "date" },
+            { "text": " đến " },
+            { "text": "tháng 10", "type": "date" },
+            {
+              "text": " là mùa gió tây nam (Habagat), mưa nhiều, sóng lớn ở White Beach và rong biển thường trôi dạt vào bờ. Bù lại, phía bãi Bulabog trở nên êm hơn và giá phòng giảm mạnh. Vào "
+            },
+            { "text": "tháng 7–10", "type": "date" },
+            {
+              "text": ", các chuyến bay và tàu thuyền có thể bị hủy do ảnh hưởng của bão. Vào tuần thứ ba của "
+            },
+            { "text": "tháng 1", "type": "date" },
+            {
+              "text": ", lễ hội Ati-Atihan, một trong những lễ hội lớn nhất Philippines, được tổ chức tại Kalibo gần đó. Vào dịp Tết Nguyên đán, Trung thu của Hàn Quốc và Tuần Thánh (trước lễ Phục sinh) của Philippines, chỗ ở thường hết phòng sớm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Vé máy bay Manila ↔ Caticlan",
+              "price": "Khoảng ₱5,000–12,000 khứ hồi",
+              "note": "Biến động lớn theo mùa"
+            },
+            {
+              "label": "Xe buýt · xe van Kalibo ↔ Caticlan",
+              "price": "Khoảng ₱200–350 một chiều",
+              "note": "Khi đến sân bay Kalibo"
+            },
+            { "label": "Vé thuyền", "price": "Khoảng ₱50 một chiều", "note": "Caticlan ↔ Cagban" },
+            {
+              "label": "Phí bến bãi",
+              "price": "Khoảng ₱150",
+              "note": "Thu riêng cả khi lên và rời đảo"
+            },
+            {
+              "label": "Phí môi trường",
+              "price": "Khoảng ₱300 (khách nước ngoài), ₱150 (người bản địa)",
+              "note": "Thu một lần trong thời gian lưu trú, kiểm tra mức phí mới nhất"
+            },
+            {
+              "label": "Tour khám phá đảo",
+              "price": "Khoảng ₱1,000–2,000/người",
+              "note": "Tính theo tour ghép"
+            },
+            {
+              "label": "Thuyền buồm paraw",
+              "price": "Khoảng ₱2,500–3,500/thuyền",
+              "note": "Khoảng 1 tiếng"
+            },
+            {
+              "label": "Lưu trú",
+              "price": "Khoảng ₱2,500–15,000/đêm",
+              "note": "Chỉ được ở cơ sở lưu trú được cấp phép"
+            },
+            {
+              "label": "Ăn uống",
+              "price": "Khoảng ₱300–1,000/bữa",
+              "note": "Tính theo nhà hàng ven biển"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Ở Boracay, bạn chỉ có thể ở tại các cơ sở lưu trú được Bộ Du lịch (DOT) chứng nhận, và khi lên đảo sẽ được yêu cầu xuất trình xác nhận đặt phòng. Station 1 tập trung các resort cao cấp từ "
+            },
+            { "type": "price", "text": "₱8,000" },
+            { "text": "/đêm trở lên; Station 2 có nhiều khách sạn tầm trung (" },
+            { "type": "price", "text": "₱3,000–7,000" },
+            {
+              "text": ") thuận tiện về giao thông và ăn uống; Station 3 và khu vực phía sau bãi biển có nhiều chỗ ở giá hợp lý khoảng "
+            },
+            { "type": "price", "text": "₱2,000–4,000" },
+            {
+              "text": ". Khu resort lớn ở phía bắc đảo yên tĩnh và có bãi biển riêng, được các gia đình ưa chuộng."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Lựa chọn ẩm thực ở đây vô cùng đa dạng. Cách ăn paluto — mua tôm, cua, tôm hùm ở chợ D'Talipapa rồi nhờ nhà hàng gần đó chế biến — là nét đặc trưng của Boracay. Sinh tố xoài của Jonah's Fruit Shake, tồn tại từ những năm "
+            },
+            { "type": "date", "text": "1980" },
+            {
+              "text": ", và bánh muffin calamansi của Real Coffee & Tea Café từ lâu đã được xem là những món không thể bỏ qua ở Boracay. Cũng có nhiều nhà hàng Hàn Quốc nên các gia đình kén ăn cũng không phải lo lắng nhiều."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Trước khi lên đảo, hãy chuẩn bị xác nhận đặt phòng (bản in hoặc trên màn hình điện thoại) và hộ chiếu. Nếu không xác nhận được đặt phòng, việc lên đảo có thể bị chậm trễ."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trên đảo có nhiều máy ATM nhưng vào mùa cao điểm có thể hết tiền mặt hoặc phải xếp hàng dài. Hãy chuẩn bị sẵn một khoản tiền mặt trước khi đến."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vị trí ngắm hoàng hôn đẹp nhất trên White Beach là quanh khu Willy's Rock ở Station 1. Hãy đến chọn chỗ trước "
+                },
+                { "type": "time", "text": "17:00" },
+                { "text": "." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Hãy đặt các hoạt động biển qua nơi lưu trú hoặc công ty được cấp phép thay vì người mời chào trên bãi biển, và luôn kiểm tra kỹ những gì đã bao gồm trong giá."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nếu đến sân bay Kalibo vào ban đêm, hãy kiểm tra giờ chạy thuyền đến Caticlan (hạn chế vào ban đêm), và nếu cần thì nghỉ lại một đêm ở Kalibo."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Vào " },
+                { "text": "tháng 11–4", "type": "date" },
+                {
+                  "text": ", bãi Bulabog có gió mạnh nên thích hợp để xem lướt ván diều hơn là bơi. Hãy bơi ở White Beach."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nếu đi cùng trẻ nhỏ, hãy chọn chỗ ở ở khu vực tương đối yên tĩnh như phía bắc Station 1 hoặc Station 3."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Việc hút thuốc, uống rượu, xả rác, đắp lâu đài cát… trên White Beach đều bị cấm hoặc hạn chế, và sẽ bị phạt nếu bị phát hiện. Chỉ được hút thuốc ở khu vực quy định."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Với các lời mời chào hoạt động, massage, đổi tiền trên bãi biển, hãy chốt giá trước và tránh những cơ sở không phép. Nên đổi tiền tại ngân hàng hoặc quầy đổi tiền được cấp phép."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Có thời điểm sứa xuất hiện, nên hãy chú ý cờ an toàn và biển báo trên bãi biển; nếu bị sứa đốt, hãy rửa bằng giấm rồi đến gặp nhân viên y tế."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Ánh nắng trực tiếp giữa trưa rất gay gắt. Hãy dùng kem chống nắng thân thiện với san hô để bảo vệ rạn san hô, và bổ sung nước thường xuyên."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Phí môi trường, phí bến bãi và thủ tục lên đảo có thể thay đổi theo quy định của chính quyền địa phương. Hãy kiểm tra thông báo mới nhất trước khi khởi hành."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Toàn bộ đảo Boracay vận hành theo quy định môi trường nghiêm ngặt. Hãy nhớ rằng suy nghĩ \"chắc ở đây không sao đâu\" có thể dẫn đến khoản phạt rất lớn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Islas de Gigantes",
+              "place": "islas-de-gigantes",
+              "children": [
+                { "text": "Cách Boracay khoảng " },
+                { "type": "duration", "text": "5–6 tiếng" },
+                {
+                  "text": " cả đường bộ lẫn đường biển, điểm khám phá đảo nổi tiếng với sò điệp và các đảo đá vôi"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Thành phố Iloilo",
+              "place": "iloilo-city",
+              "children": [
+                { "text": "Cách Caticlan khoảng " },
+                { "type": "duration", "text": "5–6 tiếng" },
+                { "text": " đi xe buýt, thành phố ẩm thực với di sản thời thuộc địa Tây Ban Nha" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Nhà thờ Miagao",
+              "place": "miagao-church",
+              "children": [
+                { "text": "Cách trung tâm Iloilo khoảng " },
+                { "type": "duration", "text": "1 tiếng" },
+                { "text": " về phía nam, nhà thờ Baroque - Di sản Thế giới UNESCO" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Kalibo",
+              "children": [
+                { "text": "Cách Boracay khoảng " },
+                { "type": "duration", "text": "2 tiếng" },
+                { "text": ", quê hương của lễ hội Ati-Atihan vào " },
+                { "type": "date", "text": "tháng 1" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

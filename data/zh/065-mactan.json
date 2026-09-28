@@ -1,0 +1,544 @@
+{
+  "id": 65,
+  "slug": "mactan",
+  "title": { "type": "title", "text": "麦克坦岛" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mactan Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "距机场20分钟，度假村与跳岛游在此等候的宿务门户" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "visayas", "text": "米沙鄢" },
+  "region": { "type": "badge", "label": "地区", "value": "cebu", "text": "宿务" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "宿务省拉普拉普市·科尔多瓦" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "海滩·海岛"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["度假村", "跳岛游", "浮潜", "拉普拉普", "家庭旅行"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 10.3 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 123.9667 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "12月~5月（旱季）",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "2晚3天~4晚5天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱2,500~6,000",
+    "currency": "PHP",
+    "min": 2500,
+    "max": 6000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "简单",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "麦克坦-宿务国际机场 (CEB)",
+    "code": "CEB"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/065-mactan.webp",
+    "alt": "麦克坦岛",
+    "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Magellan_Monument_in_2026.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/065-mactan-2.webp",
+        "alt": "麦克坦岛",
+        "credit": "Peter Binter / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tropical-area-mactan-philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/065-mactan-3.webp",
+        "alt": "麦克坦岛",
+        "credit": "No machine-readable author provided. Binter~commonswiki assumed (based on copyright claims). / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mactan-harbour.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "这座岛屿坐拥麦克坦-宿务国际机场，从机场出发只需" },
+      { "type": "duration", "text": "20~40分钟" },
+      { "text": "便可抵达海滨度假村。这里有希卢通安、纳卢苏安跳岛游与潜水活动，还有纪念" },
+      { "type": "date", "text": "1521年" },
+      { "text": "拉普拉普击败麦哲伦的麦克坦战役纪念地，是韩国家庭旅行者到访最多的宿务旅行中心。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "麦克坦岛是位于宿务本岛以东、由三座大桥相连的平坦珊瑚岛，长约" },
+            { "type": "distance", "text": "15km" },
+            { "text": "。岛上就有麦克坦-宿务国际机场，下飞机后只需" },
+            { "type": "duration", "text": "20~40分钟" },
+            {
+              "text": "，就能泡进面朝大海的度假村泳池。行政区划上大部分属于拉普拉普市，南部一小片属于科尔多瓦自治市。对韩国人来说，一提到\"宿务旅行\"，大多指的就是这座麦克坦岛的度假村之旅，可见其熟悉程度。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "麦克坦在菲律宾历史上也是一处具有象征意义的地方。" },
+            { "type": "date", "text": "1521年4月27日" },
+            {
+              "text": "，这座岛屿的酋长拉普拉普率领的战士，与正在进行环球航行的费迪南德·麦哲伦所率军队交战，并使麦哲伦阵亡。菲律宾人将拉普拉普尊为抵抗外来势力的第一位英雄，在岛屿东北侧的麦克坦纪念园区，拉普拉普雕像与"
+            },
+            { "type": "date", "text": "1866年" },
+            { "text": "西班牙所立的麦哲伦纪念碑并肩而立。" },
+            { "type": "date", "text": "2021年" },
+            { "text": "还举行了这场战役500周年的盛大纪念活动。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "岛屿东岸是香格里拉、Plantation Bay、Crimson、JPark、Mövenpick等大型度假村林立的度假村地带。沙滩虽算不上宽阔，但度假村前的海面平静、珊瑚礁近在咫尺，很适合浮潜和潜水。麦克坦东侧海域对面还有希卢通安（吉卢通安）、纳卢苏安、潘达农、考哈干等小岛，乘螃蟹船花一天时间跳岛游，正是麦克坦旅行的经典行程。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "对于带着年幼子女的家庭、陪伴父母的孝亲旅行，以及想在短假期里充分利用时间的上班族来说，交通负担较小的麦克坦是最稳妥的选择。在度假村休养之余，安排一天跳岛游、一天宿务市区观光或南部行程，就能形成张弛有度的行程。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "跳岛游",
+              "children": [
+                {
+                  "text": "乘螃蟹船展开一日行程，在希卢通安海洋保护区与热带鱼一同浮潜，游览纳卢苏安的水上栈道和潘达农岛的白沙滩。许多行程都包含在船上享用的海鲜烧烤午餐。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "度假村前海域浮潜与潜水",
+              "children": [
+                { "text": "麦克坦东岸靠近水深骤然加深的珊瑚礁壁，沙滩潜水和船潜都能进行。这里有不少能提供韩语服务的潜水店，可以进行初学者体验潜水和开放水域课程。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "麦克坦纪念园区与拉普拉普雕像",
+              "children": [
+                { "text": "这是一座历史公园，园内有拉普拉普雕像、麦哲伦纪念碑，以及描绘麦克坦战役的壁画。搭配附近海滨餐厅街的苏图吉尔（海鲜料理）一起享用效果更佳。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "苏图吉尔海鲜料理",
+              "children": [
+                {
+                  "text": "苏图吉尔（Sutukil，取\"苏格巴（烤）、图奥拉（汤）、基拉温（腌）\"之首字而成）是宿务式海鲜餐厅，可以挑选鱼、虾、蟹，按喜欢的方式烹调享用。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "参观吉他工坊",
+              "children": [
+                {
+                  "text": "麦克坦传统上以手工吉他制作闻名，可以在工坊里亲眼看到用波罗蜜木、桃花心木、娜拉木（菲律宾紫檀）等木材制成的尤克里里和吉他。小巧的尤克里里很受欢迎，常被买来当作伴手礼。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "度假村日间通票",
+              "children": [{ "text": "如果住在市区或经济型酒店，也可以购买大型度假村的日间通票，一天内使用泳池和海滩。周末和公共假期请提前预约。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "奥兰戈岛候鸟保护区",
+              "children": [
+                { "text": "麦克坦对面奥兰戈岛的野生动物保护区，是被列为拉姆萨尔湿地的候鸟栖息地。" },
+                { "type": "date", "text": "9月~3月" },
+                { "text": "期间可以观察候鸟，很适合作为安静的半日行程。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "第1天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "上午",
+                      "children": [
+                        { "text": "抵达麦克坦-宿务国际机场，前往度假村（约" },
+                        { "type": "duration", "text": "20~40分钟" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "下午", "children": [{ "text": "在度假村泳池与海滩休息，前方海域浮潜" }] },
+                    { "time": "晚上", "children": [{ "text": "在度假村或附近苏图吉尔餐厅享用海鲜晚餐" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第2天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "上午8点", "children": [{ "text": "从度假村或码头乘跳岛游螃蟹船出发" }] },
+                    { "time": "上午9点", "children": [{ "text": "希卢通安海洋保护区浮潜" }] },
+                    { "time": "上午11点", "children": [{ "text": "纳卢苏安岛水上栈道浮潜" }] },
+                    { "time": "下午12点30分", "children": [{ "text": "在潘达农岛或船上享用海鲜烧烤午餐" }] },
+                    { "time": "下午3点", "children": [{ "text": "返回度假村休息" }] },
+                    { "time": "晚上", "children": [{ "text": "享受按摩（水疗）后用晚餐" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第3天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "上午9点", "children": [{ "text": "参观麦克坦纪念园区与拉普拉普雕像" }] },
+                    { "time": "上午10点30分", "children": [{ "text": "参观吉他工坊并购买纪念品" }] },
+                    { "time": "中午12点", "children": [{ "text": "享用苏图吉尔午餐后前往机场（若时间充裕，可加入宿务市半日观光）" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飞机",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "麦克坦-宿务国际机场（CEB）就在岛上。从仁川、釜山等地直飞约" },
+                    { "type": "duration", "text": "4小时30分钟" },
+                    { "text": "，从马尼拉出发约" },
+                    { "type": "duration", "text": "1小时20分钟" },
+                    { "text": "，国内航班每天有数十个班次。从机场到东岸度假村，乘出租车或Grab约" },
+                    { "type": "duration", "text": "20~40分钟" },
+                    { "text": "，费用约" },
+                    { "type": "price", "text": "₱200~450" },
+                    { "text": "。大多数度假村提供付费接机服务，韩人旅行社的接机服务也很常见。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "从宿务市出发",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从宿务市前往麦克坦，可以经由旧的麦克坦-曼达维大桥、马塞洛·费尔南大桥，或" },
+                    { "type": "date", "text": "2022年" },
+                    { "text": "通车的宿务-科尔多瓦跨海大桥（CCLEX）过海。乘出租车或Grab约" },
+                    { "type": "duration", "text": "40分钟~1小时30分钟" },
+                    { "text": "，费用约" },
+                    { "type": "price", "text": "₱300~600" },
+                    { "text": "，下班高峰时段拥堵严重。CCLEX需要缴纳过路费，适合从宿务市南部海岸（SRP）直接前往麦克坦南部的科尔多瓦。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "当地交通",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "岛内交通可利用出租车、Grab、三轮摩托车和多功能小型吉普尼（multicab）。度假村地带与机场之间乘Grab最方便，近距离乘三轮摩托车约"
+                    },
+                    { "type": "price", "text": "₱20~100" },
+                    { "text": "。跳岛游从度假村码头或麦克坦东岸的螃蟹船码头出发，旅行社行程通常包含酒店接送。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "12月" },
+            { "text": "到" },
+            { "type": "date", "text": "5月" },
+            { "text": "的旱季最理想。1月到" },
+            { "type": "date", "text": "4月" },
+            { "text": "海面平静、能见度好，最适合跳岛游和潜水，且正值韩国寒假和春节假期，韩国旅行者最多。3月到" },
+            { "type": "date", "text": "5月" },
+            { "text": "最炎热、阳光强烈，需要做好防晒准备。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月" },
+            { "text": "到" },
+            { "type": "date", "text": "11月" },
+            { "text": "是雨季，午后常有阵雨，但整日下雨的情况不多。台风季节（主要在8月到" },
+            { "type": "date", "text": "11月" },
+            { "text": "）海岸警卫队会暂停小型船只运营，跳岛游可能因此取消。" },
+            { "type": "date", "text": "4月27日" },
+            { "text": "前后会举办重现麦克坦战役的\"卡道甘萨麦克坦（Kadaugan sa Mactan）\"活动，" },
+            { "type": "date", "text": "1月" },
+            { "text": "第三周则是宿务市的锡努洛节。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "机场-度假村出租车·Grab", "price": "约₱200~450", "note": "单程" },
+            { "label": "跳岛游（拼团）", "price": "约₱1,800~3,000", "note": "每人，以含午餐行程为准" },
+            { "label": "螃蟹船包船", "price": "约₱3,500~7,000", "note": "1艘船，视人数和时长而定" },
+            { "label": "各岛门票", "price": "约₱100~300", "note": "每处岛屿，可能另收环境税" },
+            { "label": "体验潜水", "price": "约₱3,000~5,000", "note": "1次，含装备与教学" },
+            { "label": "度假村日间通票", "price": "约₱1,500~4,000", "note": "请确认是否含餐饮额度" },
+            { "label": "住宿", "price": "约₱2,500~15,000", "note": "1晚，酒店~大型度假村" },
+            { "label": "餐饮", "price": "约₱1,000~2,500", "note": "每人每天" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "麦克坦的住宿可分为东岸的大型度假村、机场附近的商务酒店，以及马里巴戈、恩加尼奥角一带的中小型度假村。拥有专属海滩和水上乐园级泳池的大型度假村1晚约" },
+            { "type": "price", "text": "₱8,000~20,000" },
+            { "text": "以上，中小型度假村约" },
+            { "type": "price", "text": "₱3,000~6,000" },
+            { "text": "，机场附近酒店约" },
+            { "type": "price", "text": "₱2,000~3,500" },
+            { "text": "。若带小孩同行，建议选择有泳池和儿童俱乐部设施的度假村；若以浮潜为目的，则应挑选门前珊瑚礁状况良好的度假村。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "美食方面首推苏图吉尔海鲜。在麦克坦纪念园区附近和海滨餐厅街，可以按重量从水槽里挑选海鲜，再委托代为烹调，价格请提前按公斤确认。宿务烤乳猪、香甜的宿务芒果、酸汤西尼刚（sinigang）、基拉温也是不可错过的美食。麦克坦玛丽娜商城和岛屿中心商城周边有韩式餐厅和韩人超市，长期停留者也不会感到太多不便。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "跳岛游出发得越早，海面越平静、人也越少。请务必确认各岛门票是否已包含在行程费用中。" }] },
+            { "children": [{ "text": "跳岛游浮潜时，用面包或饼干喂鱼的行为违反海洋保护区规定，也会对珊瑚生态造成伤害。" }] },
+            { "children": [{ "text": "抵达机场后使用Grab就不需要为车费讨价还价。请确认机场到达楼层的Grab专属上车区域。" }] },
+            { "children": [{ "text": "兑换外币时，购物中心内的正规兑换点汇率通常优于机场。大额兑换建议分散到多处办理，更为安全。" }] },
+            { "children": [{ "text": "度假村内的餐饮价格较高，若能有一两餐到外面的餐厅解决，可以大幅节省预算。" }] },
+            { "children": [{ "text": "在苏图吉尔餐厅点餐前，请务必确认海鲜每公斤的价格和烹调费。" }] },
+            { "children": [{ "text": "热门拍照地点包括纳卢苏安岛的水上栈道、潘达农岛的沙洲，以及麦克坦纪念园区的拉普拉普雕像前。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "跳岛游拉客现象较多。请通过正规注册的公司或住宿方预订，并确认是否配备救生衣。" }] },
+            { "children": [{ "text": "浮潜时请穿溯溪鞋，以免被海胆和珊瑚划伤，也请勿踩踏或触摸珊瑚。" }] },
+            { "children": [{ "text": "某些时节会出现水母，请穿着水母衣，若被蜇伤请用醋冲洗，并前往度假村医务室处理。" }] },
+            { "children": [{ "text": "正午紫外线非常强烈，短时间内也可能晒伤，请准备海洋友好型防晒霜和帽子。" }] },
+            { "children": [{ "text": "机场周边和购物中心门口有出租车会漫天要价，请要求打表或改用Grab。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "台风或大风警报发布时，海岸警卫队会禁止小型螃蟹船出海。请把跳岛游安排在行程中较有弹性的日子。" }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "宿务市",
+              "place": "cebu-city",
+              "children": [
+                { "text": "乘车约" },
+                { "type": "duration", "text": "40分钟~1小时30分钟" },
+                { "text": "，是拥有麦哲伦十字架和圣婴大教堂的菲律宾最古老城市。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "利亚神殿",
+              "place": "temple-of-leah",
+              "children": [
+                { "text": "乘车约" },
+                { "type": "duration", "text": "1小时~1小时30分钟" },
+                { "text": "，是宿务山丘上的希腊·罗马风神殿，也是眺望名胜。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "奥斯洛布",
+              "place": "oslob",
+              "children": [
+                { "text": "乘车约" },
+                { "type": "duration", "text": "3小时30分钟~4小时" },
+                { "text": "，是宿务南部当日游最具代表性的目的地，可以与鲸鲨同游。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "薄荷岛",
+              "children": [
+                { "text": "从宿务码头乘快船约" },
+                { "type": "duration", "text": "2小时" },
+                { "text": "，是一座能看到巧克力山和眼镜猴的岛屿。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

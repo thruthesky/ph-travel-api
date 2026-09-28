@@ -1,0 +1,791 @@
+{
+  "id": 7,
+  "slug": "corregidor",
+  "title": { "type": "title", "text": "Đảo Corregidor" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Corregidor Island" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Vết thương Chiến tranh Thái Bình Dương còn lại trên pháo đài đá từng canh giữ Vịnh Manila"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "cavite", "text": "Cavite" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Tỉnh Cavite, thành phố Cavite, đảo Corregidor (cửa Vịnh Manila)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "Lịch sử & văn hóa"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": [
+      "Di tích chiến tranh",
+      "Đường hầm Malinta",
+      "Trận địa pháo",
+      "Tour đảo",
+      "Giáo dục lịch sử"
+    ]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.6, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 14.3856 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.5731 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 12 – tháng 5 (mùa khô, biển lặng)",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "1 ngày"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱3,000–5,000/người",
+    "currency": "PHP",
+    "min": 3000,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Trung bình",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay quốc tế Ninoy Aquino (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/007-corregidor.webp",
+    "alt": "Đảo Corregidor",
+    "credit": "yeowatzup / CC BY 2.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pacific_War_Memorial,_Corregidor,_Philippines_(181769934).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/007-corregidor-2.webp",
+        "alt": "Đảo Corregidor",
+        "credit": "H.abanil / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Corregidor_Island_Lighthouse.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/007-corregidor-3.webp",
+        "alt": "Đảo Corregidor",
+        "credit": "yeowatzup / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Barracks,_Corregidor_Island,_Philippines_(181771883).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Đây là hòn đảo hình con nòng nọc ở cửa Vịnh Manila, pháo đài nơi quân đội Mỹ – Philippines cầm cự đến cùng chống lại quân Nhật vào năm "
+      },
+      { "type": "date", "text": "1942" },
+      {
+        "text": ". Du khách tham quan đường hầm Malinta, các trận địa pháo khổng lồ và doanh trại đổ nát bằng tour xe điện, hiện nay đi vào đảo bằng thuyền xuất phát từ Mariveles, Bataan."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Corregidor là hòn đảo nhỏ dài khoảng " },
+            { "type": "distance", "text": "6.5km" },
+            { "text": ", nằm cách mũi bán đảo Bataan khoảng " },
+            { "type": "distance", "text": "3~4km" },
+            {
+              "text": " về phía nam, ngay cửa Vịnh Manila. Nhìn từ trên cao đảo có hình con nòng nọc, nên phần đầu rộng gọi là \"Topside\", phần giữa là \"Middleside\", phần eo hẹp là \"Bottomside\", và phần đuôi dài là \"Tailside\". Nhờ vị trí bao quát toàn bộ luồng tàu vào Manila, nơi đây đã có trạm tín hiệu và pháo đài từ thời Tây Ban Nha, và được vũ trang thành pháo đài ven biển khổng lồ mang tên \"Fort Mills\" trong thời Mỹ cai trị."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Khi quân Nhật xâm lược Philippines vào " },
+            { "text": "tháng 12 năm 1941", "type": "date" },
+            {
+              "text": ", Corregidor trở thành sở chỉ huy quân đội Mỹ – Philippines. Tướng MacArthur đã rời đảo bằng tàu PT để chạy sang Úc vào "
+            },
+            { "text": "tháng 3 năm 1942", "type": "date" },
+            {
+              "text": ", để lại câu nói nổi tiếng \"Tôi sẽ trở lại\" (I shall return), và lực lượng còn lại đã cầm cự gần một tháng sau khi Bataan thất thủ, cho đến khi Tướng Wainwright đầu hàng, giao đảo vào "
+            },
+            { "text": "ngày 6 tháng 5 năm 1942", "type": "date" },
+            { "text": ". Vào " },
+            { "text": "tháng 2 năm 1945", "type": "date" },
+            {
+              "text": ", khi quân Mỹ giành lại đảo bằng chiến dịch đổ bộ và nhảy dù, một trận chiến ác liệt khác lại nổ ra, khiến cả hòn đảo trở thành đống đổ nát."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Ngày nay, toàn bộ đảo là khu tưởng niệm chiến tranh do Quỹ Corregidor quản lý. Doanh trại dài một dặm (Mile Long Barracks) với mái đã bay mất và cốt thép lộ ra, Battery Way còn giữ khẩu súng cối 12 inch khổng lồ, đường hầm Malinta với những vết đạn còn rõ trên tường... tất cả được bảo tồn nguyên trạng như thời chiến tranh. Rừng rậm phủ khắp đảo tạo nên bầu không khí độc đáo, nơi đổ nát và thiên nhiên hòa quyện."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Rất được khuyên cho du khách quan tâm đến lịch sử chiến tranh và lịch sử cận hiện đại, cùng gia đình muốn giáo dục lịch sử cho con cái. Trước đây có phà thẳng từ Manila, nhưng hiện nay đã đổi sang đi qua Mariveles, tỉnh Bataan, nên việc kiểm tra thông tin vận hành mới nhất và đặt trước là rất quan trọng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Tour xe điện vòng quanh đảo",
+              "children": [
+                {
+                  "text": "Tour đảo là hình thức ngồi trên xe buýt kiểu xe điện cổ, vừa nghe hướng dẫn viên giải thích vừa đi qua các di tích chính. Hướng dẫn viên kể sinh động các câu chuyện và giai thoại chiến trận, khiến cả người ít quan tâm lịch sử cũng bị cuốn hút."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Show ánh sáng và âm thanh tại đường hầm Malinta",
+              "children": [
+                { "text": "Đây là pháo đài ngầm gồm đường hầm chính dài khoảng " },
+                { "type": "distance", "text": "250m" },
+                {
+                  "text": " và hàng chục nhánh hầm phụ, từng là nơi đặt sở chỉ huy và bệnh viện. Show diễn khoảng "
+                },
+                { "type": "duration", "text": "30 phút" },
+                { "text": " tái hiện tình hình năm " },
+                { "type": "date", "text": "1942" },
+                { "text": " bằng ánh sáng, âm thanh và mô hình là điểm nhấn của chuyến tham quan." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Battery Way và Battery Hearn",
+              "children": [
+                {
+                  "text": "Súng cối 12 inch và khẩu pháo bờ biển 12 inch có tầm bắn hàng chục km vẫn còn nguyên vẹn. Nhìn tận mắt kích thước của những khẩu đại pháo này sẽ cảm nhận được hòn đảo từng là một pháo đài hùng mạnh đến mức nào."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Mile Long Barracks",
+              "children": [
+                {
+                  "text": "Đúng như tên gọi, đây là tàn tích của tòa nhà doanh trại ba tầng kéo dài, kết cấu bê tông chỉ còn trơ khung nói lên sức tàn phá của chiến tranh. Đây là một trong những nơi cho ra những bức ảnh ấn tượng nhất trên đảo."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Đài tưởng niệm Chiến tranh Thái Bình Dương và Ngọn lửa vĩnh cửu",
+              "children": [
+                { "text": "Đây là đài tưởng niệm do chính phủ Mỹ dựng năm " },
+                { "text": "1968", "type": "date" },
+                {
+                  "text": ", với bàn thờ dưới mái vòm tròn, không gian tưởng niệm và bảo tàng chiến tranh. Tác phẩm điêu khắc thép \"Ngọn lửa vĩnh cửu\" trên đồi phía sau là hình ảnh biểu tượng của Corregidor."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Ngắm cảnh từ Hải đăng Corregidor",
+              "children": [
+                {
+                  "text": "Từ ngọn hải đăng ở điểm cao nhất đảo, có thể ngắm toàn cảnh 360 độ Vịnh Manila, bán đảo Bataan và xa hơn là bờ biển Cavite."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Tượng đài Anh hùng Philippines và Vườn Hòa bình Nhật Bản",
+              "children": [
+                {
+                  "text": "Nơi đây có tượng đài phù điêu khắc họa các trận chiến trong lịch sử Philippines, cùng khu vườn hòa bình tưởng niệm binh sĩ Nhật tử trận, giúp nhìn lại chiến tranh từ nhiều góc độ khác nhau."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Tour 1 ngày (xuất phát từ Manila, theo gói có xe đưa đón)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "04:00~05:00",
+                      "children": [
+                        { "text": "Đón khách tại khách sạn ở Manila hoặc điểm tập trung" }
+                      ]
+                    },
+                    {
+                      "time": "07:30",
+                      "children": [{ "text": "Đến bến tàu Mariveles, tỉnh Bataan, làm thủ tục" }]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        {
+                          "text": "Thuyền banca (thuyền có mạn chống) khởi hành, đến Corregidor sau khoảng "
+                        },
+                        { "type": "duration", "text": "20 phút" }
+                      ]
+                    },
+                    {
+                      "time": "08:30",
+                      "children": [
+                        {
+                          "text": "Bắt đầu tour xe điện — Bottomside, Tượng đài Anh hùng Philippines, Vườn Hòa bình Nhật Bản"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [
+                        {
+                          "text": "Middleside và Topside — Mile Long Barracks, Battery Way, Battery Hearn"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:30",
+                      "children": [
+                        { "text": "Đài tưởng niệm Chiến tranh Thái Bình Dương và hải đăng" }
+                      ]
+                    },
+                    {
+                      "time": "12:30",
+                      "children": [
+                        {
+                          "text": "Ăn trưa (kiểm tra xem tour có bao gồm hay không, mua đồ ăn trên đảo rất hạn chế)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [{ "text": "Show ánh sáng và âm thanh tại đường hầm Malinta" }]
+                    },
+                    { "time": "14:30", "children": [{ "text": "Rời đảo, quay về Mariveles" }] },
+                    {
+                      "time": "15:00~15:30",
+                      "children": [
+                        { "text": "Khởi hành về Manila, đến nơi khoảng " },
+                        { "type": "time", "text": "18:30–19:30" },
+                        { "text": " (tùy tình hình giao thông)" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Có những ngày tổ chức tour xuất phát buổi chiều, nên hãy kiểm tra giờ khởi hành khi đặt chỗ."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Tình hình vận hành hiện tại",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Trước đây, du thuyền thẳng đi Corregidor khởi hành hằng ngày từ bến Esplanade Seaside Terminal ở thành phố Pasay, nhưng tuyến này đã ngừng chạy sau đại dịch COVID-19, nên tính đến năm "
+                    },
+                    { "type": "date", "text": "2026" },
+                    {
+                      "text": " hầu như không còn phà định kỳ từ Manila ra đảo. Hiện nay phần lớn du khách dùng thuyền của các công ty tour xuất phát từ Mariveles, tỉnh Bataan. Cách vận hành thường xuyên thay đổi, nên nhất định phải kiểm tra thông báo mới nhất của Quỹ Corregidor hoặc công ty tour trước khi đặt chỗ."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Gói tour (cách thuận tiện nhất)",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Gói bao gồm đón tại Manila, xe khứ hồi đến Mariveles, thuyền, vé vào đảo, tour xe điện, show đường hầm Malinta và bữa trưa có giá khoảng "
+                    },
+                    { "type": "price", "text": "₱3,500~4,500" },
+                    { "text": ". Gói tham gia tại bến Mariveles khoảng " },
+                    { "type": "price", "text": "₱2,500~3,000" },
+                    { "text": ". Cũng có thể đặt tour riêng cho nhóm nhỏ hoặc thuê xe riêng." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Đi xe buýt đến Mariveles",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Xe buýt đi Mariveles, Bataan xuất phát từ bến Pasay (Buendia) hoặc Cubao ở Manila, mất khoảng "
+                    },
+                    { "type": "duration", "text": "3~4 giờ" },
+                    { "text": ", giá một chiều khoảng " },
+                    { "type": "price", "text": "₱300~500" },
+                    {
+                      "text": ". Để kịp giờ bắt đầu tour, nên đi chuyến sớm nhất trong ngày hoặc đến Mariveles từ hôm trước và nghỉ lại một đêm cho an toàn. Từ bến xe Mariveles đến bến tàu đi tricycle khoảng "
+                    },
+                    { "type": "duration", "text": "10–15 phút" },
+                    { "text": ", giá " },
+                    { "type": "price", "text": "₱50~150" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Xe tự lái · thuê xe",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Từ Manila đi qua cao tốc Bắc Luzon (NLEX), SCTEX và đường ven biển Bataan đến Mariveles mất khoảng "
+                    },
+                    { "type": "duration", "text": "3 giờ" },
+                    { "text": " (khoảng " },
+                    { "type": "distance", "text": "170km" },
+                    { "text": "). Phí đường bộ một chiều khoảng " },
+                    { "type": "price", "text": "₱300~500" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Di chuyển trên đảo",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Trên đảo, về cơ bản chỉ di chuyển bằng xe điện của tour. Khoảng cách giữa các di tích khá xa và có nhiều đồi dốc nên không khuyến khích tự đi bộ riêng lẻ."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Mùa khô " },
+            { "text": "tháng 12 – tháng 5", "type": "date" },
+            { "text": " là tốt nhất. Đặc biệt " },
+            { "text": "tháng 12 – tháng 3", "type": "date" },
+            { "text": " biển lặng và nhiệt độ mát mẻ nên dễ đi bộ tham quan di tích ngoài trời. " },
+            { "text": "Tháng 4 – tháng 5", "type": "date" },
+            {
+              "text": " rất nóng, khu di tích Topside ít bóng râm nên nắng gắt, mũ và nước uống là bắt buộc."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Mùa mưa " },
+            { "text": "tháng 6 – tháng 10", "type": "date" },
+            {
+              "text": ", gió mùa tây nam khiến biển động mạnh, thuyền thường xuyên bị hủy chuyến. Khi có cảnh báo bão (tín hiệu gió áp thấp nhiệt đới), Lực lượng Tuần duyên Philippines cấm tàu nhỏ ra khơi, nên vào thời điểm này cần lên lịch trình linh hoạt."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Đi vào đúng dịp kỷ niệm lịch sử cũng rất ý nghĩa. Ngày " },
+            { "type": "date", "text": "9 tháng 4" },
+            {
+              "text": " \"Ngày Anh dũng\" (Araw ng Kagitingan) là ngày lễ quốc gia tưởng niệm Bataan thất thủ, có lễ kỷ niệm tổ chức tại Corregidor cùng với Đài tưởng niệm núi Samat ở Bataan. Quanh ngày "
+            },
+            { "type": "date", "text": "6 tháng 5" },
+            { "text": " kỷ niệm Corregidor thất thủ cũng có lễ tưởng niệm cựu chiến binh." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Tour 1 ngày (bao gồm đón tại Manila)",
+              "price": "Khoảng ₱3,500~4,500",
+              "note": "Gói bao gồm thuyền, vé vào cửa, xe điện, bữa trưa"
+            },
+            {
+              "label": "Tour 1 ngày (tham gia tại Mariveles)",
+              "price": "Khoảng ₱2,500~3,000",
+              "note": "Tự di chuyển đến Mariveles"
+            },
+            {
+              "label": "Xe buýt Manila ↔ Mariveles",
+              "price": "Khoảng ₱300~500 (một chiều)",
+              "note": "3–4 giờ"
+            },
+            {
+              "label": "Tricycle (bến xe ↔ bến tàu)",
+              "price": "Khoảng ₱50~150",
+              "note": "Cần thương lượng"
+            },
+            {
+              "label": "Chỗ ở tại Mariveles",
+              "price": "Khoảng ₱1,500~3,500",
+              "note": "Nếu nghỉ lại đêm hôm trước"
+            },
+            {
+              "label": "Đồ ăn nhẹ, nước uống",
+              "price": "Khoảng ₱150~300",
+              "note": "Nên chuẩn bị trước khi khởi hành"
+            },
+            {
+              "label": "Tour riêng",
+              "price": "Khoảng ₱25,000~30,000",
+              "note": "Tính theo nhóm nhỏ, chia người sẽ rẻ hơn"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Trước đây có thể nghỉ lại một đêm tại Corregidor Inn trên đảo và tận hưởng tour đường hầm ban đêm, nhưng hiện nay việc lưu trú trên đảo không chắc chắn còn hoạt động, nên phần lớn du khách đi về trong ngày. Nếu ngại di chuyển từ sáng sớm, nên đến Mariveles, tỉnh Bataan từ hôm trước và nghỉ tại khu nghỉ dưỡng ven biển hay khách sạn nhỏ (khoảng "
+            },
+            { "type": "price", "text": "₱1,500~3,500" },
+            {
+              "text": "/đêm). Cũng có gói lưu trú liên kết với khu nghỉ dưỡng của các công ty tour."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Trên đảo hầu như không có nhà hàng hay quầy tạp hóa nên rất khó mua đồ ăn. Nên chọn tour có bao gồm bữa trưa, hoặc chuẩn bị nước, đồ ăn nhẹ và cơm hộp trước khi xuất phát từ Mariveles. Ở Mariveles và đường ven biển Bataan có nhiều nhà hàng hải sản, sau khi kết thúc tour có thể thưởng thức cá nướng, tôm sinigang, kilawin (gỏi cá ngâm giấm). Xoài ngọt và cá khô – đặc sản Bataan – cũng là món quà lưu niệm tốt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Tour có ngày hoạt động cố định và cuối tuần thường hết chỗ trước. Nên đặt trước ít nhất 1–2 tuần, và kiểm tra lại việc vận hành một ngày trước khi khởi hành."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi xác nhận tour thường cần thông tin hộ chiếu, nên khi đặt chỗ hãy ghi tên đúng như trên hộ chiếu, và mang theo hộ chiếu vào ngày đi."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trên đảo hầu hết chỉ dùng được tiền mặt và không có ATM. Nên chuẩn bị sẵn khoảng "
+                },
+                { "type": "price", "text": "₱1,000~2,000" },
+                { "text": " tiền mặt cho quà lưu niệm và đồ uống." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Hãy mang theo mũ, kem chống nắng, kính râm, giày thể thao thoải mái và ít nhất 1 lít nước. Phần lớn di tích đều lộ thiên dưới nắng."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Sóng điện thoại yếu hoặc mất hẳn ở một số khu vực trên đảo. Hãy hẹn trước giờ và địa điểm gặp lại với gia đình."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Nếu dễ say sóng, hãy uống thuốc say sóng trước khi lên tàu " },
+                { "type": "duration", "text": "30 phút" },
+                { "text": ". Quãng đường thuyền đi tuy ngắn nhưng vào mùa mưa sóng khá cao." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Các điểm chụp ảnh đẹp gồm tàn tích Mile Long Barracks, tác phẩm điêu khắc Ngọn lửa vĩnh cửu, và bán đảo Bataan nhìn từ hải đăng."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Để nghe rõ phần giải thích của hướng dẫn viên, nên ngồi ở ghế phía trước xe điện."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Phần lớn di tích là tàn tích có nguy cơ sập đổ. Không được vào bên trong hay trèo lên tường ở những tòa nhà có biển cấm."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trên đảo có khả năng còn sót lại bom đạn chưa nổ, nên không được rời khỏi lối đi quy định để vào rừng rậm. Nếu phát hiện vật thể kim loại, tuyệt đối không chạm vào."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vào mùa mưa và mùa bão, chuyến đi trong ngày có thể bị hủy theo quyết định của lực lượng tuần duyên. Hãy kiểm tra quy định hoàn tiền và đổi lịch trước khi đặt chỗ."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trên internet vẫn còn thông tin cũ về \"phà thẳng từ Manila\" nhưng hiện nay không còn hoạt động. Trước khi chuyển tiền trước cho người bán cá nhân, hãy xác minh thực thể của công ty vận hành."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Tour ngoài trời giữa trưa dễ gây mất nước và say nắng, nên uống nước thường xuyên và nghỉ trong bóng râm."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Phà thẳng xuất phát từ Manila hiện đã ngừng hoạt động. Nhất định phải kiểm tra thông báo vận hành mới nhất của tour xuất phát từ Mariveles, Bataan, và đặt chỗ qua công ty vận hành chính thức."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Đền Anh dũng núi Samat, Bataan",
+              "children": [
+                { "text": "Đi xe khoảng " },
+                { "type": "duration", "text": "40 phút" },
+                { "text": " từ Mariveles. Có tượng đài thánh giá khổng lồ cao khoảng " },
+                { "type": "distance", "text": "92m" },
+                { "text": " và bảo tàng tưởng niệm Trận Bataan." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Vịnh Manila",
+              "place": "manila-bay",
+              "children": [
+                {
+                  "text": "Phía đối diện vịnh nhìn từ Corregidor, có thể vừa ngắm hoàng hôn ở đại lộ Roxas vừa suy ngẫm về lịch sử chiến tranh."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Intramuros",
+              "place": "intramuros",
+              "children": [
+                {
+                  "text": "Trung tâm Manila. Thành cổ từng trở thành đống đổ nát trong Trận Manila năm "
+                },
+                { "type": "date", "text": "1945" },
+                {
+                  "text": ", xem cùng với Corregidor sẽ hiểu rõ hơn diễn biến Chiến tranh Thái Bình Dương."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Las Casas Filipinas de Acuzar",
+              "place": "las-casas-filipinas",
+              "children": [
+                { "text": "Ở Bagac, tỉnh Bataan, đi xe khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                {
+                  "text": " từ Mariveles. Khu nghỉ dưỡng di sản phục dựng bằng cách di dời các dinh thự thời Tây Ban Nha."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

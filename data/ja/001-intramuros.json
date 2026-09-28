@@ -1,0 +1,636 @@
+{
+  "id": 1,
+  "slug": "intramuros",
+  "title": { "type": "title", "text": "イントラムロス" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Intramuros" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "スペインの城壁の中に眠る、マニラ400年の記憶" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "metro-manila", "text": "マニラ首都圏" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "メトロマニラ マニラ市 イントラムロス"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "歴史・文化"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["城壁都市", "世界遺産の教会", "街歩き", "カレサ馬車", "フォトスポット"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.6, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 14.5915 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.9736 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "12月〜4月(乾季)",
+    "months": [12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "半日〜1日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱1,000〜2,500",
+    "currency": "PHP",
+    "min": 1000,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ニノイ・アキノ国際空港 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/001-intramuros.webp",
+    "alt": "イントラムロス",
+    "credit": "Diego Delso / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Baluartillo_de_San_Jos%C3%A9,_Manila,_Filipinas,_2023-08-26,_DD_41.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/001-intramuros-2.webp",
+        "alt": "イントラムロス",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila,_Intramuros_Gardens,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/001-intramuros-3.webp",
+        "alt": "イントラムロス",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila,_Intramuros_Gardens_3,_Philippines.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "type": "date", "text": "1571年" },
+      {
+        "text": "にスペインが築いた城壁都市で、フォート・サンティアゴと世界遺産のサン・アグスティン教会が残っています。徒歩や竹自転車・カレサ馬車で半日あれば、マニラの植民地時代の歴史の核心を巡ることができます。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "イントラムロス(Intramuros)はスペイン語で「城壁の中」という意味です。" },
+            { "type": "date", "text": "1571年" },
+            { "text": "、ミゲル・ロペス・デ・レガスピがパシッグ川の河口にマニラを植民地の首都として築いた後、海賊や外国勢力の侵入を防ぐために周囲約" },
+            { "type": "distance", "text": "4.5km" },
+            {
+              "text": "の石造りの城壁を築き、今の姿ができあがりました。面積は約64ヘクタールで、歩いて1〜2時間あれば一周できるほどこぢんまりとしていますが、その中にはスペイン・アメリカ・日本の統治期を経たフィリピン近代史が幾重にも積み重なっています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "第二次世界大戦末期の" },
+            { "type": "date", "text": "1945年" },
+            { "text": "、マニラ市街戦の際に城壁内の建物の大半が爆撃と市街戦で崩壊しました。現在見られる教会や邸宅の多くは戦後に修復・再建されたものですが、" },
+            { "type": "date", "text": "1607年" },
+            { "text": "に完成したサン・アグスティン教会は戦禍を耐え抜き、" },
+            { "type": "date", "text": "1993年" },
+            {
+              "text": "に「フィリピンのバロック様式教会群」の一つとして世界遺産に登録されました。城壁の北西端にあるフォート・サンティアゴは、国民的英雄ホセ・リサールが処刑直前まで収監されていた場所で、フィリピン人にとって聖地のような場所です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "石畳の道を馬が引く馬車カレサ(kalesa)が通り、古いガス灯風の街灯の下にスペイン風のバルコニーが連なる風景は、高層ビルが立ち並ぶメトロマニラでは珍しい雰囲気です。歴史に関心のある旅行者、写真好きな人、マニラに初めて来た家族連れの誰にでもよく合い、マニラ滞在が1日しかないなら真っ先におすすめしたい場所です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "管理機関であるイントラムロス管理庁(Intramuros Administration)が城壁と主要施設を管理しているため、治安と清潔さはマニラの他の旧市街より優れています。城壁上の遊歩道と要塞公園は夕暮れ時に特に美しく、一部の施設は夜も開いているため夜景散策も楽しめます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "フォート・サンティアゴ散策",
+              "children": [
+                {
+                  "text": "城壁都市の北西を守っていた要塞で、城門と堀、地下牢跡、リサール記念館(リサール・シュライン)があります。リサールが牢獄から処刑場まで歩いた道には床に青銅の足跡が刻まれており、そのままなぞって歩くことができます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "サン・アグスティン教会と博物館",
+              "children": [
+                {
+                  "text": "フィリピン最古の石造教会で、天井のトロンプルイユ(だまし絵)壁画とバロック様式の祭壇が圧巻です。隣接する修道院棟のサン・アグスティン博物館には、聖具、宗教画、スペイン統治時代の遺物が数多く収められています。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "マニラ大聖堂",
+              "children": [
+                { "text": "イントラムロスの中心広場プラザ・ロマの前にある大聖堂で、地震や戦争で何度も崩壊しましたが、" },
+                { "type": "date", "text": "1958年" },
+                { "text": "に現在の姿に再建されました。ステンドグラスとパイプオルガンが印象的で、入場は無料です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "カサ・マニラで植民地時代の邸宅体験",
+              "children": [
+                {
+                  "text": "19世紀の富裕層の邸宅を再現した博物館で、中庭や木製の格子、貝殻の窓(カピス)、当時の家具を見ることができます。同じ一角のプラザ・サン・ルイス地区にはカフェや土産物店が集まっています。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "竹自転車ツアー",
+              "children": [
+                {
+                  "text": "地元のソーシャルビジネス、バンバイク(Bambike)が竹製の自転車に乗ってガイドと共に城壁都市を巡るツアーを運営しています。暑い日中に歩くよりずっと楽で、主要スポットの入場料込みのコースもあります。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "城壁の上の散策と夕日",
+              "children": [
+                {
+                  "text": "バルアルテ・デ・サン・ディエゴ(円形要塞)や城壁上の遊歩道に上がると、ゴルフ場とマニラの市街地が見下ろせます。夕暮れ時には赤く染まる石造りの城壁が、最も写真映えする時間帯です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "カレサ馬車に乗る",
+              "children": [
+                { "text": "マニラ大聖堂やフォート・サンティアゴの前で馬車に乗ることができます。" },
+                { "type": "duration", "text": "30分〜1時間" },
+                { "text": "のコースで料金交渉し、出発前に1人分の料金か馬車1台分の料金かを必ず確認してください。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "半日コース(午前)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "08:00",
+                      "children": [{ "text": "フォート・サンティアゴ入場、涼しい朝に要塞とリサール記念館を見学" }]
+                    },
+                    { "time": "09:30", "children": [{ "text": "マニラ大聖堂とプラザ・ロマの散策" }] },
+                    {
+                      "time": "10:15",
+                      "children": [
+                        { "text": "サン・アグスティン教会・博物館見学(約" },
+                        { "type": "duration", "text": "1時間" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "11:30", "children": [{ "text": "通りの向かいのカサ・マニラとプラザ・サン・ルイス" }] },
+                    { "time": "12:30", "children": [{ "text": "イントラムロス内のフィリピン料理店で昼食" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1日コース",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "08:00〜12:30", "children": [{ "text": "上記の半日コースを実施" }] },
+                    { "time": "12:30", "children": [{ "text": "昼食後、カフェで休憩" }] },
+                    { "time": "14:30", "children": [{ "text": "竹自転車ツアーまたはカレサ馬車で城壁の外周を巡る" }] },
+                    { "time": "16:30", "children": [{ "text": "バルアルテ・デ・サン・ディエゴと城壁の遊歩道" }] },
+                    { "time": "17:30", "children": [{ "text": "城壁の上で夕日を鑑賞" }] },
+                    { "time": "18:30", "children": [{ "text": "リサール公園またはマニラ湾方面へ移動して夕食" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "空港から",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "ニノイ・アキノ国際空港(NAIA)からイントラムロスまでは約" },
+                    { "type": "distance", "text": "10km" },
+                    { "text": "で、交通状況によって" },
+                    { "type": "duration", "text": "30分〜1時間20分" },
+                    { "text": "かかります。グラブ(Grab)タクシーが最も便利で、料金は約" },
+                    { "type": "price", "text": "₱300〜600" },
+                    { "text": "です。金曜の夜と雨の日は料金が大きく上がり、所要時間も2倍近くかかります。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "軽電鉄(LRT)",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "LRT1号線セントラル・ターミナル(Central Terminal)駅で降り、マニラ市庁舎前を通って歩けば" },
+                    { "type": "duration", "text": "10〜15分" },
+                    { "text": "で城壁南東側の入口に着きます。料金は区間によって約" },
+                    { "type": "price", "text": "₱15〜35" },
+                    { "text": "で、交通系ICカード(beepカード)やモバイル決済を使えば並ぶ時間を減らせます。ラッシュアワー(" },
+                    { "type": "time", "text": "午前7〜9時" },
+                    { "text": "、" },
+                    { "type": "time", "text": "午後5〜8時" },
+                    { "text": ")は非常に混雑します。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "タクシー・グラブ",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マカティやBGCからはグラブで約" },
+                    { "type": "duration", "text": "30分〜1時間" },
+                    { "text": "、料金は約" },
+                    { "type": "price", "text": "₱250〜450" },
+                    { "text": "です。目的地を「フォート・サンティアゴ」または「マニラ大聖堂」に設定すれば、城壁の中まで入って降ろしてくれます。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "城壁内の移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "城壁の中はほとんど歩いて回れます。暑さがつらい場合は電動トライシクル(eトライク)やペディキャブを利用します。近距離は約" },
+                    { "type": "price", "text": "₱50〜100" },
+                    { "text": "で、時間制のツアーは料金交渉が必要です。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "最も良い時期は" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "です。朝晩の気温が24〜26度ほどで涼しく歩き回りやすく、雨もほとんど降りません。" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "は乾季ですが、日中の気温が34〜36度まで上がり、日陰が少ない城壁の上は非常に暑くなります。この時期は午前の早い時間か" },
+            { "type": "time", "text": "午後4時" },
+            { "text": "以降に動くのがよいでしょう。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜10月" },
+            { "text": "は雨季で、午後にスコールが頻繁に降り、" },
+            { "type": "date", "text": "7〜9月" },
+            {
+              "text": "には台風がマニラを通過することもあります。イントラムロス周辺は大雨が降ると道路が冠水する場所があるため、台風警報が出ている日は訪問を避けます。ただし雨季でも午前中は晴れる日が多いので、屋内の博物館を中心に日程を組めば十分に見て回れます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "聖週間(復活祭前の週、通常" },
+            { "type": "date", "text": "3月末〜4月" },
+            { "text": ")には教会の行事が多く見どころが豊富ですが、一部施設が休業することもあります。" },
+            { "type": "date", "text": "12月" },
+            { "text": "のクリスマスシーズンには教会や広場にイルミネーションが設置され、夜景が特に美しくなります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "空港↔イントラムロス グラブ", "price": "約₱300〜600(片道)", "note": "時間帯・天候により変動" },
+            { "label": "フォート・サンティアゴ入場料", "price": "約₱75", "note": "学生・シニア割引 約₱50" },
+            { "label": "サン・アグスティン博物館", "price": "約₱200", "note": "教会のミサ参加は無料" },
+            { "label": "カサ・マニラ入場料", "price": "約₱75", "note": "月曜休館" },
+            { "label": "竹自転車ツアー", "price": "約₱800〜1,300", "note": "コース・入場料込みかどうかで異なる" },
+            { "label": "カレサ馬車", "price": "約₱300〜1,000", "note": "馬車1台の料金、交渉が必要" },
+            { "label": "昼食", "price": "約₱300〜800", "note": "フィリピンの家庭料理〜レストラン" },
+            { "label": "カフェ・軽食", "price": "約₱150〜300" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "イントラムロス内には宿泊施設があまり多くありません。城壁内のホテルではザ・ベイリーフ・イントラムロス(The Bayleaf Intramuros)が代表的で、1泊約"
+            },
+            { "type": "price", "text": "₱4,000〜6,500" },
+            { "text": "ほど、屋上バーからは城壁とゴルフ場の夜景が見下ろせます。選択肢を広げるなら、車で" },
+            { "type": "duration", "text": "10〜15分" },
+            { "text": "の距離にあるエルミタ・マラテ地区(1泊約" },
+            { "type": "price", "text": "₱2,000〜5,000" },
+            { "text": ")や、マニラ湾に面したロハス大通り沿いのホテルも検討してみてください。マカティやBGCに滞在して日帰りで訪れる韓国人旅行者も多くいます。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "食事は城壁内の老舗フィリピン料理店で、シニガン(酸味のあるタマリンドスープ)、カレカレ(ピーナッツソースのシチュー)、レチョン・カワリ(パリッと揚げた豚肉料理)といった伝統料理を味わうのがおすすめです。プラザ・サン・ルイス方面のバーバラス(Barbara's)は老舗レストランで、夕方にフィリピンの伝統芸能ショー付きビュッフェを運営してきました。午後には城壁近くのカフェでフィリピン産バラココーヒーやカラマンシージュースで暑さをしのぎ、歩いて"
+            },
+            { "type": "duration", "text": "15分" },
+            { "text": "の距離にあるビノンド・チャイナタウンへ移動して夕食を取る動線もよいでしょう。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "type": "time", "text": "午前8時" },
+                { "text": "前後に到着してフォート・サンティアゴから見学すれば、人も少なく暑さも和らぎます。日中(" },
+                { "type": "time", "text": "11時〜15時" },
+                { "text": ")は屋内の博物館やカフェを中心に予定を組みます。" }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "フォート・サンティアゴとカサ・マニラのチケット売り場はカードやジーキャッシュ(GCash)を受け付けることが多いですが、カレサ馬車・トライシクル・屋台の食べ物は現金のみのため、"
+                },
+                { "type": "price", "text": "₱20〜100" },
+                { "text": "の小額紙幣を十分に用意します。" }
+              ]
+            },
+            {
+              "children": [{ "text": "教会は宗教施設のため、ノースリーブや短いショートパンツは避け、ミサの最中はフラッシュ撮影や大声での会話を控えます。" }]
+            },
+            { "children": [{ "text": "帽子、日傘、日焼け止め、水は必須です。城壁の上と広場にはほとんど日陰がありません。" }] },
+            {
+              "children": [
+                {
+                  "text": "撮影スポットはフォート・サンティアゴの正門、サン・アグスティン教会の正面、カサ・マニラの中庭、城壁上の砲台跡です。夕暮れ時の城壁の光が最も美しく映ります。"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "ガイドなしで回るなら、無料の地図アプリに主要スポットを事前に保存しておくとよいでしょう。城壁内の道路は碁盤の目状になっているため道に迷いにくいですが、入口が複数あります。"
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "イントラムロス管理庁が運営する施設は曜日ごとの休館日や夜間開場時間が変わることがあるので、訪問前に公式発表を確認します。" }
+              ]
+            },
+            { "children": [{ "text": "月曜日はカサ・マニラなど一部の博物館が休みのため、平日火〜金曜日の訪問が最もゆったり回れます。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "カレサ馬車やペディキャブの運転手が先に近づいてきて「ツアー」を勧めてくることがよくあります。出発前にコース、所要時間、総額(1人分か全体分か)を明確に決めておかないと、終了後に数倍の金額を要求されることがあります。"
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "城壁の外のマニラ市庁舎やパシッグ川沿いの方向は人出が多く、スリが出ます。携帯電話を後ろポケットに入れず、バッグは前に持ちます。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "日中の暑さで熱中症の症状(頭痛、めまい)が出やすくなります。" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "ごとに日陰で休み、水分を補給します。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "城壁の上は手すりが低い、または無い区間があるため、子ども連れは特に注意します。雨の後の石畳は非常に滑りやすくなります。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "台風・豪雨の際は一部区域が冠水し施設が臨時休館することがあるため、フィリピン気象庁(PAGASA)の予報を確認します。" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "カレサ馬車・ペディキャブは乗車前に必ず料金を確定させ、可能であれば金額を携帯電話のメモに書いて運転手に見せて確認してもらうと安全です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "リサール公園",
+              "place": "rizal-park",
+              "children": [
+                { "text": "イントラムロス南側の城壁から徒歩" },
+                { "type": "duration", "text": "10〜15分" },
+                { "text": "。リサール記念碑と広い芝生広場があるマニラの象徴的な公園です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "フィリピン国立博物館",
+              "place": "national-museum",
+              "children": [
+                { "text": "徒歩約" },
+                { "type": "duration", "text": "15分" },
+                { "text": "。無料でフィリピンの美術・人類学・自然史の展示を見られるため、暑い日中の予定に向いています。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ビノンド・チャイナタウン",
+              "place": "binondo",
+              "children": [
+                { "text": "ジョーンズ橋を渡って徒歩約" },
+                { "type": "duration", "text": "20分" },
+                { "text": "、またはグラブで" },
+                { "type": "duration", "text": "10分" },
+                { "text": "。" },
+                { "type": "date", "text": "1594年" },
+                { "text": "に形成された世界最古のチャイナタウンで、昼食・夕食のグルメ旅にぴったりです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "マニラ湾",
+              "place": "manila-bay",
+              "children": [
+                { "text": "グラブで約" },
+                { "type": "duration", "text": "10〜15分" },
+                { "text": "。ロハス大通りのベイウォークとドロマイトビーチで有名なマニラの夕日を見ることができます。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

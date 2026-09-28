@@ -1,0 +1,574 @@
+{
+  "id": 25,
+  "slug": "mount-ulap",
+  "title": { "type": "title", "text": "乌拉普山" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mount Ulap" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "云雾流过松林山脊、碧瑶近郊的当日徒步" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "luzon", "text": "吕宋" },
+  "region": { "type": "badge", "label": "地区", "value": "cordillera", "text": "科迪勒拉" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "本格特省伊托贡安普卡奥" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "hiking",
+    "value": "mountain",
+    "text": "登山·徒步"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["山脊徒步", "松林", "一日登山", "云海", "岩壁"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 16.29 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 120.631 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "11月~4月（旱季）",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "当日（5~7小时）" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱800~2,000（当日）",
+    "currency": "PHP",
+    "min": 800,
+    "max": 2000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "中等",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "克拉克国际机场 (CRK)",
+    "code": "CRK"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/025-mount-ulap.webp",
+    "alt": "乌拉普山",
+    "credit": "Dyenkaye Saludez / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mt._Ulap_adventure.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/025-mount-ulap-2.webp",
+        "alt": "乌拉普山",
+        "credit": "Jpcabarles / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt._Ulap_3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/025-mount-ulap-3.webp",
+        "alt": "乌拉普山",
+        "credit": "Kalithecat00 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:One_of_Mt._Ulap%27s_peaks.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "这是位于伊托贡、距碧瑶车程约" },
+      { "type": "duration", "text": "1小时" },
+      { "text": "、海拔约" },
+      { "type": "distance", "text": "1,846m" },
+      { "text": "的山，沿松林与草原山脊徒步约" },
+      { "type": "distance", "text": "9.4km" },
+      { "text": "的纵走路线。悬崖边的贡加尔巨石和科迪勒拉山脉的景观，让这里深受欢迎，即使是初学者也适合挑战的当日登山胜地。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "乌拉普山（Mount Ulap）是位于碧瑶以南伊托贡地区、安普卡奥与圣塔菲村之间，海拔约" },
+            { "type": "distance", "text": "1,846m" },
+            { "text": "的山峰。\"乌拉普\"在伊巴洛伊语中意为\"云\"，正如其名，清晨常能看到脚下山谷被云层覆盖、雾气沿着山脊流淌的景象。" },
+            { "type": "date", "text": "2017年" },
+            { "text": "作为正式生态旅游路线（Mt. Ulap Eco-Trail）开放后，迅速成为菲律宾具代表性的当日登山胜地。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "路线从安普卡奥巴朗盖会堂出发，翻越数座山峰，下降至圣塔菲，全长约" },
+            { "type": "distance", "text": "9.4km" },
+            {
+              "text": "的纵走步道。本格特松林、开阔的草原山脊和岩石山峰交替出现，天气晴朗时，远处能看到包括普拉格山在内的科迪勒拉山脉，甚至西侧林加延湾方向的平原。陡坡路段不长，只要有体力，登山新手也能完成全程。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "乌拉普山之所以特别出名，要归功于\"贡加尔巨石（Gungal Rock）\"。站在从山脊突出到半空的岩石尖端拍摄的照片，在菲律宾社交媒体上被无数次分享，如今仍有许多登山者在这块岩石前排队等候。步道周边还有伊巴洛伊族的传统葬俗洞穴和圣地，因此由当地社区亲自管理这条步道。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [{ "text": "适合想从碧瑶轻松往返、不必像普拉格山那样忍受凌晨寒冷或繁琐预约的旅行者，也适合想在开始科迪勒拉山区旅行前先热热身的人。" }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "安普卡奥–圣塔菲纵走",
+              "children": [
+                { "text": "这是一条单向穿越约" },
+                { "type": "distance", "text": "9.4km" },
+                { "text": "的路线，含休息时间约需" },
+                { "type": "duration", "text": "5~7小时" },
+                { "text": "。不需要原路返回，沿途风景不断变化是它的优点。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "贡加尔巨石打卡拍照",
+              "children": [{ "text": "这是山脊中段的代表性景点，游客会站在向悬崖方向突出的岩石上拍照。请按向导指示排队等候，原则上风大的日子不要站在边缘。" }]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "波诺伊峰初览风光",
+              "children": [{ "text": "这是出发后穿越松林最先遇到的观景山峰。清晨到达时，可以看到阳光洒在填满山谷的云层之上的景象。" }]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "乌拉普山顶眺望科迪勒拉全景",
+              "children": [
+                { "text": "站在海拔约" },
+                { "type": "distance", "text": "1,846m" },
+                { "text": "的山顶，层峦叠嶂的山脉和矿区一览无遗，晴天时甚至能看到低地平原。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "漫步松林山脊",
+              "children": [{ "text": "路线大部分由本格特松林和草原构成，风声与松香令人印象深刻。比起拍照，行走本身的瞬间更让人难忘。" }]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "了解伊巴洛伊传统文化",
+              "children": [{ "text": "向导大多是当地居民，会讲述葬俗洞穴、祖先崇拜文化和矿业小镇的历史。多提问会让这趟登山更加丰富。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "串联碧瑶的2天1晚行程",
+              "children": [{ "text": "前一晚住在碧瑶，凌晨出发，就能从容完成全程，下午还能在碧瑶市区享受休息与美食。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "当日纵走路线（碧瑶出发）",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "04:30", "children": [{ "text": "从碧瑶市区包车或搭乘开往菲莱克斯（Philex）的吉普尼出发" }] },
+                    { "time": "05:30", "children": [{ "text": "抵达安普卡奥巴朗盖会堂，登记、说明会与分配向导" }] },
+                    { "time": "06:00", "children": [{ "text": "开始登山，穿越松林上坡" }] },
+                    { "time": "07:30", "children": [{ "text": "抵达波诺伊峰，欣赏云海与晨光" }] },
+                    { "time": "08:30~09:30", "children": [{ "text": "在贡加尔巨石拍照（周末需排队等候）" }] },
+                    { "time": "10:30", "children": [{ "text": "抵达乌拉普山顶，享用便当午餐" }] },
+                    { "time": "11:00~13:00", "children": [{ "text": "沿山脊向圣塔菲方向下山" }] },
+                    { "time": "13:30", "children": [{ "text": "抵达圣塔菲出口，搭吉普尼或包车返回碧瑶" }] },
+                    { "time": "15:00", "children": [{ "text": "抵达碧瑶，以热汤菜肴享用迟来的午餐" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "路线概览",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从出发点安普卡奥巴朗盖会堂（海拔约" },
+                        { "type": "distance", "text": "1,200m" },
+                        { "text": "上下）开始的约" },
+                        { "type": "duration", "text": "1小时30分钟" },
+                        { "text": "是坡度最陡的上坡路段。翻过波诺伊峰后坡度趋于平缓，此后沿山脊反复起伏。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "全程累计爬升约" },
+                        { "type": "distance", "text": "600~700m" },
+                        { "text": "，只要平时能在附近山丘步行" },
+                        { "type": "duration", "text": "3~4小时" },
+                        { "text": "的体力就足够。下山路段虽长而平缓，但因泥土和松针容易打滑，请放慢速度。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "从马尼拉到碧瑶",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从库巴俄、帕赛等地搭乘开往碧瑶的巴士（胜利班车、JoyBus、Solid North等），约需" },
+                        { "type": "duration", "text": "4~6小时" },
+                        { "text": "，票价约" },
+                        { "type": "price", "text": "₱500~1,000" },
+                        { "text": "。为了凌晨登山，建议提前一天抵达碧瑶住一晚。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "从碧瑶到安普卡奥",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "在碧瑶市区开往菲莱克斯矿区方向的吉普尼站，搭乘开往菲莱克斯的吉普尼，在\"安普卡奥巴朗盖会堂\"下车。约需" },
+                        { "type": "duration", "text": "40分钟~1小时" },
+                        { "text": "，票价每人约" },
+                        { "type": "price", "text": "₱40~60" },
+                        { "text": "。首班车时间可能不够早，请提前一天到车站确认。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "如果有同行者，搭出租车或包面包车更方便。搭出租车约需" },
+                        { "type": "duration", "text": "30~45分钟" },
+                        { "text": "，最好和司机谈好在圣塔菲出口等候并返程的条件。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "从圣塔菲返程",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    { "children": [{ "text": "在下山地点圣塔菲的菲莱克斯路边，可以搭乘开往碧瑶的吉普尼。下午班次间隔可能拉长，请不要太晚下山。" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "拼团行程",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从马尼拉出发的夜间拼团行程（含往返面包车、登记费、向导）每人约" },
+                        { "type": "price", "text": "₱1,800~2,500" },
+                        { "text": "，不必自行安排交通，十分方便。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11月~4月" },
+            { "text": "的旱季最为适宜。尤其" },
+            { "type": "date", "text": "12月~2月" },
+            { "text": "凌晨气温在" },
+            { "type": "temperature", "text": "10℃" },
+            { "text": "上下，较为凉爽，看到云海的概率也高，白天步行也很舒适。" },
+            { "type": "date", "text": "3月~5月" },
+            { "text": "晴天较多，视野最开阔，但正午山脊几乎没有遮阴，阳光十分强烈，务必尽早出发。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月~10月" },
+            {
+              "text": "雨季，每天下午都会下雨，浓雾也让人难以看清景观。土路会变得湿滑，台风来袭时步道也可能封闭。周末和公共假期登山者众多，在贡加尔巨石需要排队等候很久，建议尽量选择平日登山。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "登记费", "price": "每人约₱100", "note": "在安普卡奥巴朗盖会堂缴纳" },
+            { "label": "环境费", "price": "每人约₱30", "note": "登记时一并缴纳" },
+            { "label": "向导", "price": "每队约₱800", "note": "最多约7人，强制要求" },
+            { "label": "碧瑶–安普卡奥吉普尼", "price": "每人约₱40~60", "note": "单程" },
+            { "label": "包出租车·面包车", "price": "1辆约₱1,500~3,000", "note": "含等待的往返" },
+            { "label": "马尼拉出发拼团行程", "price": "每人约₱1,800~2,500", "note": "含交通·登记·向导" },
+            { "label": "碧瑶住宿", "price": "1晚约₱1,500~3,500", "note": "建议提前一晚入住" },
+            { "label": "餐饮·零食", "price": "约₱300~600", "note": "含便当·饮水" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "乌拉普山周边几乎没有住宿设施，通常都住在碧瑶市区。选择靠近菲莱克斯吉普尼站的市中心，塞申路、伯纳姆公园一带的旅舍（1晚约" },
+            { "type": "price", "text": "₱1,500~2,500" },
+            { "text": "）或中档酒店（约" },
+            { "type": "price", "text": "₱3,000" },
+            { "text": "以上），凌晨出发会比较方便。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "步道上没有餐厅，只能在出发点附近的小商店买到水和一些零食。请提前一天在碧瑶的便利店或市场准备好便当、面包、水果和巧克力。下山后返回碧瑶享用的布拉洛（牛骨汤）、本格特蔬菜料理和草莓豆花，是抚慰登山疲惫的美好犒赏。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [{ "text": "强制要求配有向导同行。登记通常在安普卡奥巴朗盖会堂现场办理，但15人以上的团体可能需要提前预约，请通过官方网站咨询。" }]
+            },
+            { "children": [{ "text": "请至少携带1.5~2升水。山脊上没有地方可以取水。" }] },
+            { "children": [{ "text": "帽子、防晒霜和太阳镜是必需品。由于海拔较高，紫外线强烈，且无遮阴路段较长。" }] },
+            { "children": [{ "text": "凌晨较为凉爽，请携带一件薄风衣，太阳升起后脱下放进包里即可。" }] },
+            {
+              "children": [
+                { "text": "若在" },
+                { "type": "time", "text": "上午8~9点" },
+                { "text": "之前抵达贡加尔巨石，拍照等待时间会较短。" }
+              ]
+            },
+            { "children": [{ "text": "请穿徒步鞋或抓地力好的运动鞋。下山路段的泥土和松针容易打滑。" }] },
+            { "children": [{ "text": "手机信号在山峰上能收到，但山谷中较弱。请与向导和同行者互相保存联系方式。" }] },
+            { "children": [{ "text": "只能使用现金支付，请准备小面额现金用于登记费和向导费。" }] }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "若携带登山杖，能大幅减轻圣塔菲方向长下坡对膝盖的负担。" }] },
+            {
+              "children": [
+                { "text": "如果是初学者，出发前一天在碧瑶市区轻松散步，让身体适应高度（海拔约" },
+                { "type": "distance", "text": "1,500m" },
+                { "text": "），第一段上坡会轻松许多。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "贡加尔巨石是没有安全护栏的悬崖边缘。风大或岩石潮湿时请勿站在边缘，务必听从向导指示。" }]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "下雨后土路会非常湿滑。雨季请准备登山杖，并避免勉强登山。" }] },
+            { "children": [{ "text": "步道周边的葬俗洞穴和祭祀场所是神圣之地，请勿触摸或进入内部。" }] },
+            { "children": [{ "text": "所有垃圾都必须带下山，禁止吸烟和生火。" }] },
+            { "children": [{ "text": "步道可能因天气或当地情况临时关闭，出发前请确认官方网站的最新公告。" }] },
+            {
+              "children": [
+                { "text": "傍晚下山时公共交通可能已停运，存在危险。请计划最迟在" },
+                { "type": "time", "text": "下午2~3点" },
+                { "text": "前抵达圣塔菲。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "碧瑶",
+              "place": "baguio",
+              "children": [
+                { "text": "驱车约" },
+                { "type": "duration", "text": "40分钟~1小时" },
+                { "text": "，很适合在登山前后一并享受住宿、美食和市区观光。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "普拉格山",
+              "place": "mount-pulag",
+              "children": [
+                { "text": "从碧瑶驱车约" },
+                { "type": "duration", "text": "2~3小时" },
+                { "text": "，是先在乌拉普山热身后适合挑战的吕宋最高峰。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "本卡布博物馆",
+              "children": [
+                { "text": "位于碧瑶阿辛路，驱车约" },
+                { "type": "duration", "text": "30分钟" },
+                { "text": "。这是登山隔天可以从容参观的美术馆。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "萨加达",
+              "place": "sagada",
+              "children": [
+                { "text": "从碧瑶搭巴士约" },
+                { "type": "duration", "text": "5~6小时" },
+                { "text": "，是延续科迪勒拉山区旅行的理想村落。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

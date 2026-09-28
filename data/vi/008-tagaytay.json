@@ -1,0 +1,770 @@
+{
+  "id": 8,
+  "slug": "tagaytay",
+  "title": { "type": "title", "text": "Tagaytay" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Tagaytay" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Khoảng lặng của Manila, nơi nhìn xuống núi lửa giữa hồ từ sống núi mát mẻ"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "cavite", "text": "Cavite" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Tỉnh Cavite, thành phố Tagaytay"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "landscape",
+    "value": "nature",
+    "text": "Cảnh quan thiên nhiên"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": [
+      "Ngắm núi lửa Taal",
+      "Thành phố cao nguyên",
+      "Súp bulalo",
+      "Quán cà phê",
+      "Du lịch cuối tuần"
+    ]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 14.1 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.93 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 11 – tháng 3 (mùa khô, thời tiết mát mẻ)",
+    "months": [11, 12, 1, 2, 3]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "1–2 ngày"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱1,500–4,000/người",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Dễ",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay quốc tế Ninoy Aquino (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/008-tagaytay.webp",
+    "alt": "Tagaytay",
+    "credit": "lulaymb / CC BY-SA 2.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tagaytay_Highlands,_Philippines_(lulaymb)_3_-_Flickr.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/008-tagaytay-2.webp",
+        "alt": "Tagaytay",
+        "credit": "lulaymb / CC BY-SA 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Highlands,_Tagaytay,_Philippines_(5757134908).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/008-tagaytay-3.webp",
+        "alt": "Tagaytay",
+        "credit": "Sutharhitesh1996 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tagaytay_06.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "Đây là thành phố cao nguyên nằm trên sống núi ở độ cao khoảng " },
+      { "type": "distance", "text": "600m" },
+      {
+        "text": ", mát hơn Manila 3–5 độ, nơi có thể nhìn thấy toàn cảnh Hồ Taal cùng núi lửa Taal giữa hồ. Với món bulalo nóng hổi, quán cà phê view đẹp và vòng đu quay Sky Ranch, đây là điểm dã ngoại cuối tuần được yêu thích nhất gần Manila."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Tagaytay là thành phố cao nguyên thuộc tỉnh Cavite, cách Manila khoảng " },
+            { "type": "distance", "text": "60km" },
+            {
+              "text": " về phía nam. Thành phố trải dài theo sống núi phía bắc của miệng núi lửa Taal khổng lồ (dãy Tagaytay), ở độ cao "
+            },
+            { "type": "distance", "text": "600~700m" },
+            {
+              "text": " so với mực nước biển, nhiệt độ trung bình năm khoảng 22–24 độ, mát hơn Manila khoảng 3–5 độ. Nhờ thời tiết mát mẻ này, từ lâu nơi đây được gọi là \"thủ đô mùa hè thứ hai của Philippines\" và đóng vai trò khu nghỉ dưỡng cuối tuần cho người dân Manila."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nhân vật chính của Tagaytay chính là Hồ Taal và núi lửa Taal trải rộng trước mắt. Hồ Taal hình thành từ nước đọng lại trong miệng núi lửa do một vụ phun trào siêu lớn hàng trăm nghìn năm trước, và đảo núi lửa Taal nhô lên giữa hồ là một trong những núi lửa hoạt động mạnh nhất Philippines. Nơi đây nổi tiếng với địa hình độc đáo \"hồ núi lửa trong đảo giữa hồ\", và có thể thoải mái chiêm ngưỡng cảnh tượng này từ đài quan sát trên sống núi hay bên cửa sổ quán cà phê."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Sau khi núi lửa Taal phun trào vào " },
+            { "text": "tháng 1 năm 2020", "type": "date" },
+            {
+              "text": ", toàn bộ đảo núi lửa đã được chỉ định là vùng nguy hiểm vĩnh viễn, và tour cưỡi ngựa lên miệng núi lửa sau khi đổ bộ lên đảo như trước đây hiện bị cấm. Thay vào đó, tầm nhìn từ phía Tagaytay vẫn tuyệt vời, và thành phố có nhiều thứ để trải nghiệm như quán cà phê view đẹp, nhà hàng, khu nghỉ dưỡng kiểu vườn, công viên giải trí và tu viện."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Có thể đi về trong ngày từ Manila, nhưng nếu muốn tận hưởng không khí mát mẻ buổi tối và cảnh hồ trong sương sớm thì nên nghỉ lại một đêm. Rất hợp với gia đình, các cặp đôi, người ở dài ngày mệt mỏi vì nóng bức, và những ai thích tour ẩm thực – cà phê. Vì có nhiều kiều bào Hàn Quốc sinh sống nên cũng dễ tìm nhà hàng và chỗ ở của người Hàn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Ngắm núi lửa Taal từ quán cà phê view sống núi",
+              "children": [
+                {
+                  "text": "Dọc theo cao tốc Tagaytay – Nasugbu, các quán cà phê và nhà hàng bám theo vách đá hướng ra hồ nối tiếp nhau. Vào khoảng "
+                },
+                { "type": "time", "text": "8–10 giờ sáng" },
+                { "text": ", sương mù tan đi để lộ rõ núi lửa, đó là lúc cảnh đẹp nhất." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Ăn bulalo",
+              "children": [
+                {
+                  "text": "Đây là món súp hầm lâu từ xương ống và tủy bò, bắp, cải bắp, là món ăn tiêu biểu của Tagaytay se lạnh. Khu nhà hàng quanh chợ Mahogany nổi tiếng là \"phố bulalo\" dùng thịt bò tươi."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Vòng đu quay Sky Ranch",
+              "children": [
+                { "text": "Ngồi trên vòng đu quay lớn \"Sky Eye\" cao khoảng " },
+                { "type": "distance", "text": "63m" },
+                {
+                  "text": ", có thể ngắm Hồ Taal và núi lửa từ trên cao. Đây là công viên giải trí quy mô nhỏ, rất hợp để dành nửa ngày cùng trẻ nhỏ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "People's Park in the Sky",
+              "children": [
+                { "text": "Đây là công viên ở điểm cao nhất Tagaytay (khoảng " },
+                { "type": "distance", "text": "700m" },
+                {
+                  "text": " so với mực nước biển), còn giữ lại khung của \"Cung điện trên trời\" mà chính quyền Marcos xây dở vào những năm "
+                },
+                { "type": "date", "text": "1980" },
+                {
+                  "text": " để đón nguyên thủ nước ngoài. Vào ngày trời quang có thể thấy cả Hồ Taal, Hồ Laguna và Vịnh Manila."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Tagaytay Picnic Grove",
+              "children": [
+                {
+                  "text": "Đây là công viên rộng trên sống núi, có đài quan sát, zipline, cưỡi ngựa và đường mòn dạo bộ. Rất hợp để trải chiếu nghỉ ngơi và ngắm nhìn hồ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Tu viện Pink Sisters",
+              "children": [
+                {
+                  "text": "Đây là tu viện của Dòng Nữ tu Chầu Thánh Thể mặc áo dòng màu hồng, nhiều du khách ghé lại cầu nguyện trong nhà thờ yên tĩnh. Nên mặc trang phục kín đáo khi đến."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Nhà hàng vườn và mua quà pasalubong",
+              "children": [
+                {
+                  "text": "Ở Tagaytay và khu Alfonso lân cận có nhiều nhà hàng kiểu vườn dùng rau hữu cơ. Trên đường về, hãy mua bánh buko pie (bánh dừa), cà phê hạt Tagaytay, mật ong và dứa tươi làm quà."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Ngày 1",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00",
+                      "children": [
+                        { "text": "Xuất phát từ Manila (cuối tuần bắt buộc xuất phát trước " },
+                        { "type": "time", "text": "6 giờ" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "08:30",
+                      "children": [
+                        { "text": "Ăn sáng và ngắm núi lửa Taal tại quán cà phê view sống núi" }
+                      ]
+                    },
+                    { "time": "10:00", "children": [{ "text": "People's Park in the Sky" }] },
+                    {
+                      "time": "11:30",
+                      "children": [{ "text": "Ăn trưa bulalo quanh chợ Mahogany" }]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [{ "text": "Vòng đu quay Sky Ranch và các trò chơi" }]
+                    },
+                    { "time": "15:30", "children": [{ "text": "Ghé thăm Tu viện Pink Sisters" }] },
+                    {
+                      "time": "16:30",
+                      "children": [{ "text": "Nhận phòng khách sạn rồi nghỉ ngơi" }]
+                    },
+                    {
+                      "time": "18:00",
+                      "children": [
+                        { "text": "Ăn tối tại nhà hàng view đẹp, tận hưởng không khí đêm mát mẻ" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 2",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [{ "text": "Ngắm Hồ Taal khi sương tan từ nơi ở" }]
+                    },
+                    { "time": "08:30", "children": [{ "text": "Dạo Picnic Grove, chơi zipline" }] },
+                    { "time": "10:30", "children": [{ "text": "Ăn brunch tại nhà hàng vườn" }] },
+                    {
+                      "time": "12:30",
+                      "children": [{ "text": "Mua quà như bánh buko pie, cà phê" }]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [
+                        {
+                          "text": "Quay về Manila hoặc di chuyển đến Thị trấn di sản Taal (khoảng "
+                        },
+                        { "type": "duration", "text": "1 giờ" },
+                        { "text": ")" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Xe buýt",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Bắt xe buýt đi Tagaytay hoặc Nasugbu tại PITX (bến xe liên hợp) ở Parañaque, Manila, hoặc các bến quanh Pasay Buendia, EDSA. Thời gian di chuyển khoảng "
+                    },
+                    { "type": "duration", "text": "1 giờ 30 phút – 3 giờ" },
+                    { "text": " tùy giao thông, giá vé khoảng " },
+                    { "type": "price", "text": "₱110~200" },
+                    {
+                      "text": ". Khi xuống xe, hãy nói trước với tài xế trạm mình muốn xuống như \"Rotonda\", \"Olivarez\"."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grab · xe thuê riêng",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ trung tâm Manila đi Grab mất khoảng " },
+                    { "type": "duration", "text": "1 giờ 30 phút – 2 giờ 30 phút" },
+                    { "text": ", giá một chiều khoảng " },
+                    { "type": "price", "text": "₱1,500~2,500" },
+                    {
+                      "text": ". Ở Tagaytay có thể khó gọi Grab để quay về, nên nhiều du khách đặt xe thuê riêng khứ hồi (có tài xế, khoảng "
+                    },
+                    { "type": "price", "text": "₱3,500~5,000" },
+                    { "text": "/ngày)." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Xe tự lái",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Cách Manila khoảng " },
+                    { "type": "distance", "text": "60km" },
+                    {
+                      "text": ", có hai lộ trình. Có thể ra khỏi cao tốc Nam Luzon (SLEX) ở lối ra Santa Rosa rồi đi đường Santa Rosa – Tagaytay, hoặc dùng cao tốc ven biển Cavite (CAVITEX) và cao tốc Calabarzon (CALAX). Ngày thường mất khoảng "
+                    },
+                    { "type": "duration", "text": "1 giờ 30 phút" },
+                    { "text": ", cuối tuần và ngày lễ có thể mất hơn " },
+                    { "type": "duration", "text": "3 giờ" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Di chuyển tại chỗ",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Xe jeepney chạy dọc đường sống núi với giá vé cơ bản khoảng " },
+                    { "type": "price", "text": "₱13~20" },
+                    { "text": ". Quãng ngắn dùng tricycle (khoảng " },
+                    { "type": "price", "text": "₱50~150" },
+                    {
+                      "text": ", cần thương lượng), còn muốn đi nhiều điểm thì thuê tricycle theo giờ (khoảng "
+                    },
+                    { "type": "price", "text": "₱300~500" },
+                    { "text": "/giờ) sẽ tiện hơn." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "Tháng 11 – tháng 3" },
+            { "text": " là tốt nhất. Đặc biệt " },
+            { "type": "date", "text": "tháng 12 – tháng 2" },
+            {
+              "text": ", nhiệt độ buổi sáng xuống 17–20 độ, mát đến mức cần áo dài tay, trời quang nên tầm nhìn núi lửa rất rõ. "
+            },
+            { "type": "date", "text": "Tháng 3 – tháng 5" },
+            {
+              "text": " là lúc Manila nóng nhất nên du khách tránh nóng đổ về đông, nhưng Tagaytay giữa trưa cũng lên tới 28–30 độ."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Mùa mưa " },
+            { "text": "tháng 6 – tháng 10", "type": "date" },
+            {
+              "text": ", chiều nào cũng có mưa và sương mù dày đặc phủ kín sống núi khiến nhiều ngày không thấy hồ hay núi lửa. Khi bão đi qua, gió mạnh có thể quật đổ cây hoặc gây mất điện. Nếu đi vào mùa mưa, nên lên lịch ngắm cảnh vào sáng sớm."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Cũng cần kiểm tra mức cảnh báo của núi lửa Taal. Theo Viện Núi lửa và Địa chấn Philippines (PHIVOLCS), tính đến mùa hè "
+            },
+            { "type": "date", "text": "năm 2026" },
+            {
+              "text": ", cảnh báo vẫn ở mức 1 (bất ổn nhẹ), với các đợt phun hơi nước nhỏ xảy ra không thường xuyên. Nếu mức cảnh báo tăng lên hoặc khí núi lửa (vog) dày đặc, người có bệnh hô hấp và trẻ em nên hoãn chuyến đi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Xe buýt Manila ↔ Tagaytay",
+              "price": "Khoảng ₱110~200 (một chiều)",
+              "note": "Xuất phát từ PITX"
+            },
+            {
+              "label": "Xe thuê riêng (có tài xế)",
+              "price": "Khoảng ₱3,500~5,000 (1 ngày)",
+              "note": "Chia người sẽ rẻ hơn"
+            },
+            {
+              "label": "Vé vào Sky Ranch",
+              "price": "Khoảng ₱120~150",
+              "note": "Trò chơi tính riêng hoặc vé trọn gói"
+            },
+            { "label": "Vé vào People's Park", "price": "Khoảng ₱30~50" },
+            {
+              "label": "Vé vào Picnic Grove, zipline",
+              "price": "Khoảng ₱50~400",
+              "note": "Tùy trải nghiệm"
+            },
+            {
+              "label": "Bữa bulalo",
+              "price": "Khoảng ₱600~1,200",
+              "note": "Một nồi, cho 2–4 người"
+            },
+            {
+              "label": "Quán cà phê view đẹp",
+              "price": "Khoảng ₱250~500",
+              "note": "Đồ uống, tráng miệng 1 người"
+            },
+            {
+              "label": "Chỗ ở 1 đêm",
+              "price": "Khoảng ₱2,500~8,000",
+              "note": "Từ nhà nghỉ đến khu nghỉ dưỡng"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Chỗ ở dọc đường sống núi rất đa dạng: khách sạn view Hồ Taal, khu nghỉ dưỡng kiểu vườn, nhà nghỉ, Airbnb. Khách sạn tầm trung có phòng view hồ khoảng "
+            },
+            { "type": "price", "text": "₱3,500~6,000" },
+            { "text": "/đêm, khu nghỉ dưỡng cao cấp khoảng " },
+            { "type": "price", "text": "₱6,000~12,000" },
+            { "text": ", nhà nghỉ giản dị khoảng " },
+            { "type": "price", "text": "₱1,500~3,000" },
+            {
+              "text": ". Cuối tuần và ngày lễ giá tăng và nhanh hết phòng, nên đặt trước. Ban đêm nhiệt độ giảm, nên việc kiểm tra có vòi sen nước nóng và chăn dày quan trọng hơn là điều hòa."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Món ăn cơ bản ở đây là bulalo. Quanh chợ Mahogany tập trung các nhà hàng nấu bulalo từ thịt bò tươi lấy trực tiếp từ tiệm thịt, và nhà hàng bulalo lâu năm Leslie's nổi tiếng với chỗ ngồi view hồ. Vào dịp đặc biệt, nhiều người tìm đến nhà hàng fine dining tiêu biểu của Tagaytay là Antonio's, còn muốn thoải mái hơn thì đến quán cà phê vườn Bag of Beans. Sonya's Garden ở Alfonso gần đó là nhà hàng vườn được yêu thích lâu năm với salad hữu cơ và các món pasta. Về đồ ăn nhẹ, nên thử bánh buko pie nóng và cá tawilis (cá nước ngọt chỉ có ở Hồ Taal) chiên."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Cuối tuần và ngày lễ, đường vào Tagaytay kẹt xe rất nặng. Hãy xuất phát trước "
+                },
+                { "type": "time", "text": "6 giờ sáng" },
+                { "text": " hoặc đến vào ngày thường." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Tầm nhìn núi lửa rõ nhất vào buổi sáng. Buổi chiều nhiều ngày có mây và sương mù, nên hãy sắp xếp quán cà phê view đẹp vào lịch trình buổi sáng."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Sáng tối khá se lạnh, nên mang theo áo dài tay mỏng hoặc áo gió, và vào "
+                },
+                { "type": "date", "text": "tháng 12 – tháng 2" },
+                { "text": " cần thêm áo khoác nhẹ." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bulalo ở chợ Mahogany có phần khá lớn, thường 2–3 người chia nhau một nồi. Hãy kiểm tra kích cỡ và giá trước khi gọi món."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trung tâm thương mại lớn và nhà hàng nhận thẻ, nhưng chợ, tricycle và quầy hàng chỉ nhận tiền mặt. Có ATM ở trung tâm thương mại quanh Rotonda."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Các điểm chụp ảnh đẹp gồm đồi tượng Đức Mẹ ở People's Park, vòng đu quay Sky Ranch, và chỗ ngồi bên cửa sổ ở quán cà phê trên sống núi."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Grab hiếm và thời gian chờ có thể lâu, nên nếu đi đông người thì xe thuê riêng có tài xế là hiệu quả nhất."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nhà hàng nổi tiếng vào trưa cuối tuần thường phải chờ lâu, nên đặt chỗ trước online."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Đảo núi lửa Taal là vùng nguy hiểm vĩnh viễn do Viện Núi lửa và Địa chấn Philippines chỉ định, cấm đổ bộ. Đừng đáp lại lời mời chào \"tour đảo núi lửa\" ở ven hồ."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nếu mức cảnh báo tăng hoặc có cảnh báo khí núi lửa, hãy đóng cửa sổ, giảm hoạt động ngoài trời, và đeo khẩu trang N95 nếu cần."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Đường trên sống núi có vỉa hè hẹp và xe chạy nhanh nên nhiều đoạn nguy hiểm khi đi bộ. Dù quãng ngắn cũng nên đi tricycle."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Buổi tối sương mù dày làm tầm nhìn lái xe rất kém. Nếu tự lái, nên đi qua đoạn đường núi trước khi trời tối."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vào mùa mưa và mùa bão, đường có thể bị chặn do sạt lở hoặc cây đổ, nên hãy theo dõi dự báo thời tiết."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Mức cảnh báo núi lửa Taal và khu vực được phép tiếp cận thay đổi thường xuyên. Trước khi khởi hành, nhất định phải kiểm tra thông báo chính thức của Viện Núi lửa và Địa chấn Philippines (PHIVOLCS)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Thị trấn di sản Taal",
+              "place": "taal-heritage-town",
+              "children": [
+                { "text": "Đi xe khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                {
+                  "text": ". Thị trấn cổ ở Batangas với Vương cung thánh đường Taal – một trong những nhà thờ Công giáo lớn nhất châu Á – và các dinh thự thời Tây Ban Nha."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Vịnh Manila",
+              "place": "manila-bay",
+              "children": [
+                { "text": "Đi xe khoảng " },
+                { "type": "duration", "text": "1 giờ 30 phút – 2 giờ" },
+                {
+                  "text": ". Trên đường về Manila, kết thúc chuyến đi bằng cảnh hoàng hôn tại đại lộ Roxas."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Bãi biển Nasugbu",
+              "children": [
+                { "text": "Đi xe khoảng " },
+                { "type": "duration", "text": "1 giờ 30 phút" },
+                {
+                  "text": ". Bãi biển ở bờ tây Batangas, có thể kết hợp với Tagaytay để tận hưởng cả núi lẫn biển."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Nhà thờ Caleruega",
+              "children": [
+                { "text": "Đi xe khoảng " },
+                { "type": "duration", "text": "40–50 phút" },
+                {
+                  "text": ". Nhà nguyện gạch đỏ trên đồi ở Nasugbu, Batangas, là điểm chụp ảnh nổi tiếng thường được chọn làm nơi tổ chức đám cưới."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

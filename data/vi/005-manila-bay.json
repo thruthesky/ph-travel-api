@@ -1,0 +1,772 @@
+{
+  "id": 5,
+  "slug": "manila-bay",
+  "title": { "type": "title", "text": "Vịnh Manila" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Manila Bay" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Hoàng hôn huyền thoại của Manila khi bầu trời rực cháy sắc cam"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "metro-manila", "text": "Metro Manila" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Metro Manila, khu vực đại lộ Roxas thuộc thành phố Manila và thành phố Pasay"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "landscape",
+    "value": "nature",
+    "text": "Cảnh quan thiên nhiên"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": ["Hoàng hôn", "Đường dạo ven vịnh", "Bãi biển Dolomite", "Cảnh đêm", "Đi dạo"]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.1, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 14.5743 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.9766 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 11 – tháng 4 (mùa khô)",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "2–4 giờ"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱300–2,500/người",
+    "currency": "PHP",
+    "min": 300,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Dễ",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay quốc tế Ninoy Aquino (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/005-manila-bay.webp",
+    "alt": "Vịnh Manila",
+    "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Sunset,_Philippines.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-2.webp",
+        "alt": "Vịnh Manila",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Baywalk,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-3.webp",
+        "alt": "Vịnh Manila",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Fishing,_South_China_Sea,_Philippines.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Đây là nơi có thể ngắm hoàng hôn Manila nổi tiếng thế giới từ con đường dạo ven biển trải dài dọc đại lộ Roxas. Từ Bãi biển Dolomite, đường dạo ven biển cho đến bờ vịnh của Mall of Asia, đây là hành trình dạo bộ lúc hoàng hôn được yêu thích nhất."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Vịnh Manila là một cảng tự nhiên có chu vi khoảng " },
+            { "type": "distance", "text": "190km" },
+            {
+              "text": ", với đảo Corregidor nằm ngay cửa vịnh, từng là một trong những cảng quan trọng nhất Đông Nam Á suốt hàng trăm năm. Vào thế kỷ 16, các tàu buôn galleon Tây Ban Nha khởi hành từ đây đến Acapulco, Mexico, và năm "
+            },
+            { "type": "date", "text": "1898" },
+            {
+              "text": " diễn ra Trận Vịnh Manila, nơi hạm đội Mỹ đánh bại hạm đội Tây Ban Nha. Với du khách, Vịnh Manila trước hết là \"biển của hoàng hôn\". Cảnh mặt trời lặn sau dãy núi bán đảo Bataan phía tây vịnh, nhuộm cả bầu trời sắc cam và hồng, là hình ảnh tiêu biểu của Manila."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nơi du khách thường tìm đến là bờ biển đại lộ Roxas (Roxas Boulevard), kéo dài từ khu Ermita – Malate của thành phố Manila sang thành phố Pasay. Đường dạo ven biển \"Baywalk\" rợp bóng dừa trải dài khoảng "
+            },
+            { "type": "distance", "text": "2km" },
+            {
+              "text": ", và giữa Đại sứ quán Mỹ và đê chắn sóng Câu lạc bộ Du thuyền Manila có \"Bãi biển Dolomite\" nhân tạo dài khoảng "
+            },
+            { "type": "distance", "text": "500m" },
+            { "text": " được xây năm " },
+            { "type": "date", "text": "2020" },
+            {
+              "text": ". Ở khu đất lấn biển phía nam thuộc thành phố Pasay có đường dạo Bayside của SM Mall of Asia cùng khu nghỉ dưỡng sòng bạc lớn, kéo dài niềm vui từ cảnh đêm sau hoàng hôn đến mua sắm."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nói thẳng ra, Vịnh Manila không phải là bãi biển để bơi. Do ô nhiễm lâu năm, các dự án cải thiện chất lượng nước vẫn đang tiếp diễn, và hiện nay bơi lội cùng các môn thể thao dưới nước tại bãi biển vẫn bị cấm. Thay vào đó, hãy tận hưởng bằng cách dạo bộ đón gió biển lúc hoàng hôn và cảm nhận không khí sôi động khi các gia đình, cặp đôi địa phương tụ tập, như vậy sẽ hài lòng hơn."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nơi này nối liền bằng đường đi bộ với Intramuros, Công viên Rizal và Bảo tàng Quốc gia, nên rất hợp để đưa vào lịch trình cuối cùng khi tham quan trung tâm Manila. Phù hợp với du khách thích chụp ảnh, gia đình và các cặp đôi muốn có buổi dạo tối nhẹ nhàng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Ngắm hoàng hôn tại Baywalk",
+              "children": [
+                {
+                  "text": "Có thể ngắm hoàng hôn ở bất cứ đâu dọc đường dạo ven biển đại lộ Roxas, nhưng khu vực quanh Câu lạc bộ Du thuyền Manila và đầu phía tây Công viên Rizal có tầm nhìn đặc biệt đẹp. Nên đến trước khi mặt trời lặn "
+                },
+                { "type": "duration", "text": "30 phút" },
+                { "text": " để chọn chỗ trên đê chắn sóng." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Dạo Bãi biển Dolomite",
+              "children": [
+                {
+                  "text": "Đây là bãi biển nhân tạo trải cát dolomite trắng, lúc hoàng hôn đông đúc gia đình đi chơi và người chụp ảnh. Vào cửa miễn phí nhưng thứ Năm đóng cửa để dọn dẹp."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Bayside của Mall of Asia",
+              "children": [
+                {
+                  "text": "Tại quảng trường ven biển phía sau SM Mall of Asia, có thể ngắm cảnh mặt trời lặn sau vòng đu quay. Tối cuối tuần đôi khi có bắn pháo hoa."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Du thuyền hoàng hôn",
+              "children": [
+                {
+                  "text": "Vào lúc hoàng hôn, có các chuyến du thuyền tối dạo quanh vịnh xuất phát từ bến tàu phía Trung tâm Văn hóa Philippines (CCP). Nhiều gói dịch vụ bao gồm buffet tối và nhạc sống, rất hợp cho những dịp đặc biệt."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Ăn tối tại nhà hàng ven biển",
+              "children": [
+                {
+                  "text": "Quanh đại lộ Roxas có khu nhà hàng kiểu Dampa, nơi chọn hải sản rồi được chế biến ngay. Có thể mua tôm, cua, mực theo cân và chọn cách chế biến mình thích."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Manila Ocean Park",
+              "children": [
+                {
+                  "text": "Đây là công viên chủ đề đại dương nằm ven biển phía sau Công viên Rizal, có bể cá và khu trưng bày sứa, rất hợp làm lịch trình ban ngày nếu đi cùng trẻ nhỏ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Lái xe ngắm cảnh đêm",
+              "children": [
+                {
+                  "text": "Sau khi mặt trời lặn, đi dọc đại lộ Roxas về hướng Khu Giải trí Pasay, có thể ngắm cảnh đêm với ánh đèn lộng lẫy của các khu nghỉ dưỡng sòng bạc phản chiếu trên mặt biển."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Lịch trình lúc hoàng hôn (khoảng 4 giờ)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "15:30",
+                      "children": [
+                        {
+                          "text": "Xuất phát từ đầu phía tây Công viên Rizal, dạo ven biển trước khán đài Quirino"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "16:30",
+                      "children": [{ "text": "Đi bộ về hướng nam dọc theo Baywalk đại lộ Roxas" }]
+                    },
+                    {
+                      "time": "17:00",
+                      "children": [
+                        { "text": "Vào Bãi biển Dolomite (ngừng nhận khách lúc " },
+                        { "type": "time", "text": "18 giờ" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [
+                        { "text": "Ngắm hoàng hôn trên đê chắn sóng hoặc bãi biển (khoảng " },
+                        { "type": "time", "text": "17:30–18:10" },
+                        { "text": " vào mùa khô)" }
+                      ]
+                    },
+                    {
+                      "time": "18:30",
+                      "children": [
+                        { "text": "Ăn tối tại nhà hàng hải sản quanh đại lộ Roxas hoặc ở Malate" }
+                      ]
+                    },
+                    {
+                      "time": "20:00",
+                      "children": [
+                        {
+                          "text": "Đi Grab đến Mall of Asia, ngắm cảnh đêm Bayside và vòng đu quay"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Lịch trình du thuyền",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "16:30", "children": [{ "text": "Đến bến tàu, làm thủ tục" }] },
+                    {
+                      "time": "17:00",
+                      "children": [
+                        {
+                          "text": "Du thuyền hoàng hôn khởi hành, ăn tối và xem biểu diễn trên tàu"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "19:00",
+                      "children": [
+                        { "text": "Xuống tàu rồi di chuyển đến Mall of Asia hoặc khách sạn" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Từ sân bay",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ Sân bay quốc tế Ninoy Aquino đến bờ biển đại lộ Roxas khoảng " },
+                    { "type": "distance", "text": "7~10km" },
+                    { "text": ", đi Grab mất " },
+                    { "type": "duration", "text": "25 phút – 1 giờ" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱250~500" },
+                    { "text": ". Mall of Asia gần sân bay nhất, khoảng " },
+                    { "type": "duration", "text": "20–40 phút" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱200~400" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tàu điện trên cao (LRT)",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Xuống ga United Nations Avenue, Pedro Gil hoặc Quintero (Malate) của tuyến LRT 1, đi bộ về hướng tây khoảng "
+                    },
+                    { "type": "duration", "text": "10–15 phút" },
+                    { "text": " là đến bờ biển đại lộ Roxas. Giá vé khoảng " },
+                    { "type": "price", "text": "₱15~35" },
+                    {
+                      "text": ". Đến Mall of Asia thì xuống ga Edsa của LRT 1 hoặc ga Taft Avenue của MRT 3 rồi đổi sang xe jeepney hoặc xe buýt đi Mall of Asia."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Xe buýt · xe jeepney",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Có nhiều xe jeepney và xe buýt nội thành chạy qua đại lộ Roxas, hãy chọn xe có ghi \"Roxas Blvd\" hoặc \"MOA\". Giá vé cơ bản xe jeepney khoảng "
+                    },
+                    { "type": "price", "text": "₱13~15" },
+                    {
+                      "text": ". Lúc hoàng hôn là giờ tan tầm nên xe rất đông, nếu mang nhiều đồ thì nên đi Grab."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Đi bộ",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ Intramuros, Bảo tàng Quốc gia hay Công viên Rizal, đi bộ " },
+                    { "type": "duration", "text": "10–20 phút" },
+                    {
+                      "text": " là đến bờ biển. Đi dọc đường ven biển đến Bãi biển Dolomite khoảng "
+                    },
+                    { "type": "duration", "text": "15 phút" },
+                    { "text": " từ Công viên Rizal." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Để ngắm hoàng hôn đẹp nhất, mùa khô " },
+            { "type": "date", "text": "tháng 11 – tháng 4" },
+            { "text": " là lý tưởng nhất. Trời quang mây vừa phải nên ráng đỏ hiện rõ, đặc biệt " },
+            { "type": "date", "text": "tháng 12 – tháng 2" },
+            {
+              "text": " gió biển mát mẻ rất hợp để dạo bộ. Giờ mặt trời lặn trong mùa khô khoảng từ "
+            },
+            { "type": "time", "text": "17:30" },
+            { "text": " (" },
+            { "type": "date", "text": "tháng 12" },
+            { "text": ") đến " },
+            { "type": "time", "text": "18:20" },
+            { "text": " (" },
+            { "type": "date", "text": "tháng 4" },
+            { "text": "). " },
+            { "type": "date", "text": "Tháng 3 – tháng 5" },
+            { "text": " ban ngày nóng nhưng dạo bộ lúc chiều tối vẫn khá thoải mái." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Mùa mưa " },
+            { "text": "tháng 6 – tháng 10", "type": "date" },
+            {
+              "text": ", nhiều ngày mây mưa buổi chiều che khuất mặt trời. Dù vậy, ngay sau khi mưa tạnh đôi khi lại xuất hiện ráng chiều ngoạn mục. Khi có bão "
+            },
+            { "text": "tháng 7 – tháng 9", "type": "date" },
+            {
+              "text": ", sóng lớn đánh vào bờ và đại lộ Roxas có thể bị ngập, nên tránh lại gần đê chắn sóng. Những ngày gió mùa tây nam (habagat) mạnh, sóng có thể tràn lên cả đường dạo."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Tối cuối tuần và ngày lễ có rất đông gia đình địa phương đi chơi. Vào mùa Giáng sinh "
+            },
+            { "type": "date", "text": "tháng 12" },
+            {
+              "text": ", đại lộ Roxas và Mall of Asia được trang trí đèn lễ hội, và đêm giao thừa có thể ngắm pháo hoa dọc bờ biển."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Baywalk, Bãi biển Dolomite",
+              "price": "Miễn phí",
+              "note": "Nghỉ thứ Năm, ngừng nhận khách lúc 18 giờ"
+            },
+            {
+              "label": "Grab sân bay ↔ đại lộ Roxas",
+              "price": "Khoảng ₱250~500 (một chiều)",
+              "note": "Tăng vào giờ tan tầm"
+            },
+            { "label": "Tuyến LRT 1", "price": "Khoảng ₱15~35", "note": "Giá tùy chặng" },
+            {
+              "label": "Du thuyền tối ngắm hoàng hôn",
+              "price": "Khoảng ₱1,500~3,000",
+              "note": "Gói có bao gồm bữa ăn"
+            },
+            {
+              "label": "Bữa tối hải sản",
+              "price": "Khoảng ₱500~1,200",
+              "note": "Kiểu Dampa, phí chế biến tính riêng"
+            },
+            {
+              "label": "Manila Ocean Park",
+              "price": "Khoảng ₱800~1,500",
+              "note": "Tùy theo gói dịch vụ"
+            },
+            {
+              "label": "Đồ uống, đồ ăn nhẹ",
+              "price": "Khoảng ₱50~200",
+              "note": "Quầy hàng trên đường dạo"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nếu muốn ngắm hoàng hôn Vịnh Manila từ phòng, hãy chọn khách sạn hướng biển trên đại lộ Roxas. Manila Hotel khai trương năm "
+            },
+            { "type": "date", "text": "1912" },
+            {
+              "text": ", Diamond Hotel giữa đại lộ Roxas... từ lâu đã nổi tiếng là khách sạn nhìn ra vịnh, phòng view biển giá khoảng "
+            },
+            { "type": "price", "text": "₱5,000~12,000" },
+            { "text": "/đêm. Các khu nghỉ dưỡng lớn ở Khu Giải trí Pasay (từ khoảng " },
+            { "type": "price", "text": "₱8,000" },
+            {
+              "text": "/đêm trở lên) có thể tận hưởng sòng bạc, show diễn và nhà hàng ngay tại chỗ. Nếu ngân sách hạn hẹp, khách sạn trong hẻm Malate khoảng "
+            },
+            { "type": "price", "text": "₱1,500~3,000" },
+            { "text": " cũng cách bờ biển trong vòng " },
+            { "type": "duration", "text": "10 phút" },
+            { "text": " đi bộ." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Về ẩm thực, nhà hàng Philippines Aristocrat trên đại lộ Roxas mở cửa từ năm "
+            },
+            { "type": "date", "text": "1936" },
+            {
+              "text": " là địa điểm lâu đời, nổi tiếng với gà nướng và cơm java. Nếu thích hải sản, nên đến khu nhà hàng Dampa gần Mall of Asia để mua tôm, cua, cá rồi nướng hoặc chế biến với sốt tương ớt, bơ tỏi. Bắp nướng, isaw (nội tạng gà xiên nướng) và nước dừa non ở các quầy hàng trên đường dạo cũng rất thích hợp để nhâm nhi trong lúc chờ hoàng hôn. Ở Malate cũng có nhiều nhà hàng Hàn Quốc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Hãy kiểm tra giờ hoàng hôn qua ứng dụng thời tiết và đến trước ít nhất "
+                },
+                { "type": "duration", "text": "30 phút" },
+                { "text": ". Đừng bỏ lỡ \"giờ vàng\" – khoảng " },
+                { "type": "duration", "text": "10–20 phút" },
+                { "text": " sau khi mặt trời lặn khi bầu trời nhuộm đỏ rực nhất." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Bãi biển Dolomite ngừng nhận khách mới lúc " },
+                { "type": "time", "text": "18 giờ" },
+                { "text": ", nên vào trước " },
+                { "type": "time", "text": "17 giờ 30 phút" },
+                {
+                  "text": " là an toàn nhất. Giờ hoạt động có thể thay đổi, nên hãy kiểm tra thông báo của Bộ Môi trường và Tài nguyên Thiên nhiên (DENR)."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Chụp ảnh với bóng hàng dừa trên đê chắn sóng làm tiền cảnh sẽ tạo không khí đẹp hơn. Nếu có ống kính tele, hãy thử chụp chồng lớp mặt trời với những con tàu neo đậu ngoài khơi."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Gió biển mạnh nên mũ rất dễ bị bay mất. Xịt thuốc chống muỗi sẽ giúp buổi dạo tối thoải mái hơn nhiều."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Quầy hàng và xe jeepney chỉ nhận tiền mặt, nên chuẩn bị sẵn tiền lẻ." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Lúc hoàng hôn đại lộ Roxas kẹt xe rất nặng, nên nếu có hẹn buổi tối hãy tính dư thời gian di chuyển hoặc dùng LRT."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Du thuyền hoàng hôn thường hết chỗ vào cuối tuần, nên đặt trước online 1–2 ngày."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Vịnh Manila cấm bơi lội và nghịch nước do vấn đề chất lượng nước. Chỉ nên vui chơi trên cát bãi biển, và tránh cả việc nhúng tay chân xuống nước biển."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vào giờ hoàng hôn đông người có nạn móc túi. Nhiều trường hợp bị nhắm vào điện thoại hay túi xách trong lúc mải chụp ảnh."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vào đêm khuya, tránh những đoạn đê chắn sóng vắng người, hầm chui đại lộ Roxas và khu công viên tối, và nên di chuyển bằng Grab."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi có bão hay gió mùa mạnh, sóng có thể tràn qua đê chắn sóng lên đường dạo, nên không nên lại gần bờ biển."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trên đường dạo có trường hợp cố ép tặng hoa hay đồ vật nhỏ rồi đòi tiền, nên đừng nhận và hãy lịch sự từ chối."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Bãi biển Vịnh Manila chỉ dùng để dạo bộ và ngắm hoàng hôn. Bơi lội bị cấm cho đến khi đạt tiêu chuẩn chất lượng nước, nên nếu mục đích là nghỉ dưỡng biển, hãy chọn bãi biển khác như Batangas hay Palawan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Công viên Rizal",
+              "place": "rizal-park",
+              "children": [
+                { "text": "Đi bộ " },
+                { "type": "duration", "text": "5–10 phút" },
+                {
+                  "text": " từ đầu phía bắc Baywalk. Công viên với Đài tưởng niệm Rizal, quảng trường rộng và show nhạc nước buổi tối."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Intramuros",
+              "place": "intramuros",
+              "children": [
+                { "text": "Đi bộ khoảng " },
+                { "type": "duration", "text": "20 phút" },
+                { "text": " hoặc Grab " },
+                { "type": "duration", "text": "10 phút" },
+                { "text": ". Thành cổ Tây Ban Nha, hợp để gộp vào lịch trình buổi sáng." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Bảo tàng Quốc gia Philippines",
+              "place": "national-museum",
+              "children": [
+                { "text": "Đi bộ khoảng " },
+                { "type": "duration", "text": "15 phút" },
+                { "text": ". Nên xem bảo tàng miễn phí vào ban ngày rồi ra bờ biển vào buổi tối." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Đảo Corregidor",
+              "place": "corregidor",
+              "children": [
+                {
+                  "text": "Hòn đảo di tích chiến tranh ở cửa Vịnh Manila. Hiện nay được ghé thăm qua tour trong ngày, đi qua Mariveles, tỉnh Bataan."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

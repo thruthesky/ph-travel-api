@@ -1,0 +1,641 @@
+{
+  "id": 21,
+  "slug": "baler",
+  "title": { "type": "title", "text": "발레르" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Baler" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "태평양 파도와 스페인 포위전의 기억이 만나는 서핑 마을"
+  },
+  "island_group": { "type": "badge", "label": "권역", "value": "luzon", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "value": "aurora", "text": "아우로라" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "아우로라주 발레르" },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "해변·섬"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["서핑", "역사", "폭포", "해안 절벽", "거목"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 15.7583 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 121.5625 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "11월~2월 (서핑), 3월~5월 (해변)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "2박 3일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱2,000~4,000 (1일)",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "클라크 국제공항(CRK)",
+    "code": "CRK"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/021-baler.webp",
+    "alt": "발레르",
+    "credit": "Kennnpogi / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Dicasalarin_Cove_(Baler).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/021-baler-2.webp",
+        "alt": "발레르",
+        "credit": "miguel jaime Valcarc… / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Suclayin,_Poblacion,_Baler,_Aurora,_Philippines_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/021-baler-3.webp",
+        "alt": "발레르",
+        "credit": "Migo Santos / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hanging_Bridge_Baler_Philippines_(143823683).jpeg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "루손 동해안 태평양을 마주한 아우로라주의 주도로, 필리핀 서핑의 발상지입니다. 사방 해변의 파도, 디카살라린 만의 절벽 풍경, " },
+      { "type": "date", "text": "1898년" },
+      { "text": " 발레르 포위전의 역사가 어우러져 주말 여행지로 인기가 높습니다." }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "발레르는 마닐라에서 북동쪽으로 약 " },
+            { "type": "distance", "text": "230km" },
+            {
+              "text": ", 시에라 마드레 산맥을 넘어야 닿는 태평양 연안의 작은 도시입니다. 아우로라주의 주도이며, 필리핀 연방 대통령 마누엘 L. 케손과 그 부인 아우로라 케손의 고향으로도 알려져 있습니다. 서쪽은 험한 산맥, 동쪽은 탁 트인 태평양이라 오랫동안 고립된 지역이었고, 그 덕분에 지금도 대형 리조트보다 소박한 서프 캠프와 민박이 어울리는 분위기를 간직하고 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "필리핀 서핑 문화가 시작된 곳으로 꼽히는 이유는 " },
+            { "type": "date", "text": "1970년" },
+            {
+              "text": "대 영화 「지옥의 묵시록(Apocalypse Now)」 촬영팀이 이곳에서 서핑 장면을 찍고 서프보드를 남기고 떠난 일화 때문입니다. 촬영지였던 강어귀의 파도는 영화 속 대사를 따 '찰리스 포인트(Charlie's Point)'라 불리며, 이후 동네 아이들이 남은 보드로 파도를 타기 시작한 것이 지금의 서핑 마을로 이어졌습니다. 해변 앞 모래 바닥 위로 부서지는 사방 해변의 파도는 초보자가 강습받기에 알맞습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "역사 여행지로서의 무게도 큽니다. " },
+            { "type": "date", "text": "1898년" },
+            { "text": " 필리핀 혁명 당시 스페인군 50여 명이 발레르 성당에 고립된 채 " },
+            { "type": "date", "text": "1899년 6월" },
+            {
+              "text": "까지 약 337일을 버텼는데, 이미 스페인이 필리핀을 미국에 넘긴 뒤였다는 사실을 믿지 않았기 때문입니다. 이 '발레르 포위전'의 무대인 성당과 박물관이 시내 중심에 그대로 남아 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "서핑을 배우고 싶은 초보자, 사람 붐비지 않는 해변과 폭포를 찾는 주말 여행자, 역사 이야기를 좋아하는 여행자에게 잘 맞습니다. 다만 태평양에 직접 노출된 해안이라 물빛은 보라카이처럼 투명한 옥색이 아니라 짙은 청색이고, 파도가 센 날이 많다는 점을 알고 가는 것이 좋습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "사방 해변 서핑 강습",
+              "children": [
+                { "text": "시내에서 트라이시클로 " },
+                { "type": "duration", "text": "5~10분" },
+                { "text": " 거리인 사방 해변(Sabang Beach)에는 강사와 보드 대여점이 줄지어 있습니다. " },
+                { "type": "duration", "text": "1시간" },
+                { "text": " 강습(보드 포함)이 약 " },
+                { "type": "price", "text": "₱350~500" },
+                { "text": " 수준이며, 파도가 부드러운 아침 시간이 초보자에게 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "디카살라린 만(Dicasalarin Cove)",
+              "children": [
+                {
+                  "text": "시내 남쪽 산길 너머에 숨은 초승달 모양 해변으로, 초록 절벽과 하얀 등대가 어우러진 발레르의 대표 풍경입니다. 사설 도로를 지나야 해서 입장료(약 "
+                },
+                { "type": "price", "text": "₱300" },
+                { "text": ")가 있고, 해변 뒤 전망대 계단을 오르면 만 전체가 내려다보입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "디투마보 마더 폭포(Ditumabo Mother Falls)",
+              "children": [
+                { "text": "이웃 산루이스 지역에 있는 높이 약 " },
+                { "type": "distance", "text": "40m" },
+                { "text": " 폭포로, 주차장에서 강을 몇 차례 건너며 " },
+                { "type": "duration", "text": "30~45분" },
+                { "text": " 걸어 들어갑니다. 물살이 차고 세서 수영보다 물보라를 맞는 정도가 적당합니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "발레르 성당과 포위전 박물관",
+              "children": [
+                { "type": "date", "text": "1899년" },
+                {
+                  "text": " 스페인군이 농성했던 성 루이스 성당과 맞은편 '무세오 데 발레르(Museo de Baler)'에서 포위전과 케손 가문의 이야기를 볼 수 있습니다. 반나절 역사 코스로 무리가 없습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "밀레니엄 트리(Millennium Tree)",
+              "children": [
+                {
+                  "text": "이웃 마리아 아우로라에 있는 거대한 발레테(반얀 계열) 나무로, 수령이 600년 이상으로 알려져 있습니다. 뿌리 사이 빈 공간으로 들어가 줄기 안을 타고 오를 수 있는 것이 명물입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "에르미타 언덕 전망대",
+              "children": [
+                { "text": "시내 북쪽 언덕 위에서 발레르만과 사방 해변을 한눈에 볼 수 있습니다. " },
+                { "type": "date", "text": "1735년" },
+                { "text": " 해일 당시 주민들이 이 언덕으로 피신했다는 이야기가 전해집니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "디구이싯 해변과 해안 드라이브",
+              "children": [
+                {
+                  "text": "디카살라린으로 가는 길에 있는 바위 해변으로, 파도가 바위에 부딪히는 풍경이 인상적입니다. 조금 더 멀리 딥쿨라오의 디나디아완 해변은 물이 맑아 해수욕에 좋습니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "subtitle": "이동과 사방 해변",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "04:00~05:00", "children": [{ "text": "마닐라 쿠바오 터미널에서 새벽 버스 출발" }] },
+                    {
+                      "time": "10:00~11:00",
+                      "children": [{ "text": "발레르 도착, 숙소 체크인 (사방 해변 인근 추천)" }]
+                    },
+                    { "time": "12:00", "children": [{ "text": "해변 식당에서 점심 (생선구이, 킬라윈)" }] },
+                    {
+                      "time": "14:00~16:00",
+                      "children": [
+                        { "text": "사방 해변 서핑 강습 " },
+                        { "type": "duration", "text": "1~2시간" }
+                      ]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [{ "text": "해변에서 일몰 대신 붉게 물드는 산 쪽 하늘 감상, 저녁은 서프 카페" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "subtitle": "투어 데이",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "트라이시클 또는 밴 전세로 투어 출발" }] },
+                    { "time": "07:30~10:00", "children": [{ "text": "디투마보 마더 폭포 트레킹과 물놀이" }] },
+                    { "time": "11:00", "children": [{ "text": "밀레니엄 트리 방문" }] },
+                    { "time": "12:30", "children": [{ "text": "시내 점심" }] },
+                    {
+                      "time": "13:30~16:00",
+                      "children": [{ "text": "디구이싯 해변을 거쳐 디카살라린 만에서 해수욕과 전망대 등반" }]
+                    },
+                    {
+                      "time": "17:00",
+                      "children": [{ "text": "발레르 성당과 무세오 데 발레르 관람 (박물관 운영 시간 확인)" }]
+                    },
+                    { "time": "19:00", "children": [{ "text": "시내에서 저녁" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3일차",
+              "subtitle": "아침 서핑과 귀환",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00~08:00", "children": [{ "text": "한적한 아침 파도에서 마지막 서핑" }] },
+                    {
+                      "time": "09:00",
+                      "children": [{ "text": "에르미타 언덕 전망대, 시장에서 수만과 말린 생선 등 기념품 구입" }]
+                    },
+                    { "time": "11:00~13:00", "children": [{ "text": "버스 탑승, 저녁 무렵 마닐라 도착" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "버스",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "마닐라 쿠바오의 제네시스(Genesis)·조이버스(JoyBus) 터미널에서 발레르 직행이 하루 여러 편 운행합니다. 소요 시간은 약 "
+                        },
+                        { "type": "duration", "text": "5~7시간" },
+                        { "text": "이고, 요금은 일반 에어컨 버스 약 " },
+                        { "type": "price", "text": "₱500~700" },
+                        { "text": ", 좌석이 넓은 조이버스 약 " },
+                        { "type": "price", "text": "₱900~1,000" },
+                        { "text": " 수준입니다." }
+                      ]
+                    },
+                    { "children": [{ "text": "주말·연휴에는 표가 빨리 매진되므로 온라인 예매나 터미널 사전 구매를 권합니다." }] },
+                    {
+                      "children": [
+                        { "text": "카바나투안(누에바에시하)까지 가서 발레르행 밴으로 갈아타는 방법도 있으며, 카바나투안에서 약 " },
+                        { "type": "duration", "text": "3~4시간" },
+                        { "text": " 걸립니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "자가용·전세 밴",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "NLEX와 SCTEX를 거쳐 누에바에시하 방면으로 간 뒤 시에라 마드레 산길(발레르–봉가본 도로)을 넘습니다. 약 "
+                        },
+                        { "type": "duration", "text": "5~6시간" },
+                        { "text": "이 걸리며, 산길 구간은 굽이가 심하고 비 오는 날 낙석이 있을 수 있어 낮 시간 운전을 권합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "발레르에는 정기 항공편이 없습니다. 해외에서 들어온다면 클라크 국제공항(CRK)이 가장 가깝고, 공항에서 차량으로 약 "
+                        },
+                        { "type": "duration", "text": "4~5시간" },
+                        { "text": "입니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "현지 이동",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "시내와 사방 해변 사이는 트라이시클로 1회 약 " },
+                        { "type": "price", "text": "₱20~50" },
+                        { "text": "(합승) 수준입니다. 폭포·밀레니엄 트리·디카살라린을 하루에 돌려면 트라이시클 전세(약 " },
+                        { "type": "price", "text": "₱1,000~1,500" },
+                        { "text": ") 또는 밴 전세를 쓰는 것이 편리합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "발레르는 루손 서부와 계절 패턴이 다릅니다. 태평양 쪽이라 북동 몬순(아미한)이 부는 " },
+            { "type": "date", "text": "10월~2월" },
+            { "text": "에 파도가 가장 좋아 서핑 시즌이 되지만, 이 시기에는 비도 자주 내립니다. 해변에서 쉬고 해수욕하기 좋은 시기는 바다가 잔잔해지는 " },
+            { "type": "date", "text": "3월~5월" },
+            { "text": "이며, 성주간(홀리 위크) 연휴에는 숙소가 일찍 찹니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월~10월" },
+            {
+              "text": "은 태풍 영향권으로, 루손 동해안이 태풍 상륙 지점이 되는 경우가 많습니다. 이 시기에는 산길이 막히거나 파도가 위험하게 커질 수 있으니 출발 전 PAGASA 예보를 꼭 확인해야 합니다. 서핑 대회는 보통 "
+            },
+            { "type": "date", "text": "2월" },
+            { "text": " 전후 아우로라 데이(아우로라 케손 탄생 기념일, " },
+            { "type": "date", "text": "2월 19일" },
+            { "text": ") 행사와 맞물려 열리며, 이 시기에는 시내 축제 분위기가 한층 활기찹니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라–발레르 버스", "price": "편도 약 ₱500~1,000", "note": "일반·프리미엄 버스에 따라 다름" },
+            { "label": "서핑 강습", "price": "1시간 약 ₱350~500", "note": "보드 대여 포함" },
+            { "label": "보드 단독 대여", "price": "1시간 약 ₱200~300", "note": "경험자용" },
+            { "label": "디카살라린 만 입장", "price": "약 ₱300", "note": "사설 도로 이용료 포함" },
+            { "label": "폭포·유적 입장료", "price": "곳당 약 ₱30~100", "note": "환경비 포함" },
+            { "label": "트라이시클 투어 전세", "price": "1대 약 ₱1,000~1,500", "note": "2~3인 탑승" },
+            { "label": "숙박", "price": "1박 약 ₱1,200~5,000", "note": "서프 캠프~중급 리조트" },
+            { "label": "식사", "price": "1끼 약 ₱150~400", "note": "해변 식당 기준" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "숙소는 대부분 사방 해변을 따라 몰려 있습니다. 서핑이 목적이라면 해변 앞 서프 캠프나 게스트하우스(1박 약 " },
+            { "type": "price", "text": "₱1,200~2,500" },
+            { "text": ")가 편하고, 에어컨과 수영장을 원하면 해변 뒤쪽 중급 리조트(약 " },
+            { "type": "price", "text": "₱3,000~5,000" },
+            {
+              "text": ")를 고르면 됩니다. 디카살라린 만 안쪽에는 만을 전세 낸 듯한 리조트가 한 곳 있는데 가격대가 높고 시내와 떨어져 있어 조용한 휴식을 원하는 여행자에게 맞습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "먹거리는 해산물이 중심입니다. 갓 잡은 생선을 식초와 생강에 절인 킬라윈, 코코넛 밀크에 끓인 기나타안, 숯불 생선구이가 기본이고, 시장에서 파는 수만(바나나 잎에 싼 찹쌀떡)과 코코넛 과자, 말린 생선은 선물용으로 좋습니다. 사방 해변에는 서퍼들을 위한 스무디·파스타 카페가 여럿 있어 한 끼 약 "
+            },
+            { "type": "price", "text": "₱200~400" },
+            { "text": "이면 충분합니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "발레르 시내에는 ATM이 몇 곳 있지만 연휴에는 현금이 떨어지기 쉽습니다. 마닐라에서 넉넉히 인출해 가는 것이 안전합니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "서핑 강습은 해변에서 바로 흥정해도 되지만, 초보자라면 한 강사에게 2~3회 연속 배우는 것이 실력이 빨리 늡니다." }
+              ]
+            },
+            { "children": [{ "text": "래시가드와 리프 슈즈를 챙기십시오. 강한 햇볕과 보드 마찰로 인한 쓸림을 줄여 줍니다." }] },
+            {
+              "children": [
+                {
+                  "text": "모바일 데이터는 시내와 사방 해변에서는 잘 되지만, 디카살라린·폭포 쪽은 신호가 약합니다. 전세 기사 연락처를 미리 받아 두십시오."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "디카살라린 만은 오후가 되면 절벽 그림자가 해변을 덮습니다. 사진은 오전 늦게~정오 무렵이 가장 밝게 나옵니다." }
+              ]
+            },
+            { "children": [{ "text": "폭포 트레킹은 강을 여러 번 건너므로 샌들 대신 물에 젖어도 되는 트레킹화나 아쿠아 슈즈가 좋습니다." }] },
+            { "children": [{ "text": "귀경 버스는 일요일 오후편이 가장 붐빕니다. 도착하자마자 돌아가는 표부터 사 두는 것이 요령입니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "태평양을 직접 마주한 해변이라 이안류(해변에서 먼 바다로 빠져나가는 급류)가 생기기 쉽습니다. 붉은 깃발이 걸린 날이나 파도가 큰 날에는 수영을 삼가십시오."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "서핑 강습 중에는 강사가 지정한 구역을 벗어나지 말고, 경험자 구역(강어귀 쪽 포인트)에는 들어가지 않는 것이 좋습니다." }
+              ]
+            },
+            { "children": [{ "text": "우기와 태풍 시기에는 발레르–봉가본 산길에 산사태가 날 수 있어 도로가 통제되기도 합니다." }] },
+            { "children": [{ "text": "폭포는 비가 온 뒤 급격히 물이 불어납니다. 상류 쪽 하늘이 어두우면 바로 철수하십시오." }] },
+            { "children": [{ "text": "한낮 자외선이 매우 강합니다. 산호에 해가 덜한 선크림과 모자, 충분한 물을 준비하십시오." }] },
+            { "children": [{ "text": "해변에 쓰레기를 남기지 말고, 조개껍데기·산호 반출은 하지 마십시오." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "디나디아완 해변",
+              "children": [
+                { "text": "발레르에서 북쪽으로 차로 약 " },
+                { "type": "duration", "text": "1시간 30분" },
+                { "text": ", 물이 맑고 모래가 고운 아우로라의 숨은 해변입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "판타방간 호수(누에바에시하)",
+              "children": [
+                { "text": "귀경길 차로 약 " },
+                { "type": "duration", "text": "2~3시간" },
+                { "text": ", 대형 댐 호수와 산 풍경이 어우러진 드라이브 코스입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "헌드레드 아일랜즈",
+              "place": "hundred-islands",
+              "children": [{ "text": "루손 서해안 팡가시난, 섬 호핑 중심의 또 다른 주말 바다 여행지입니다." }]
+            },
+            {
+              "type": "card",
+              "title": "바기오",
+              "place": "baguio",
+              "children": [
+                { "text": "버스로 약 " },
+                { "type": "duration", "text": "7~8시간" },
+                { "text": ", 서늘한 고원 도시와 묶어 루손 북부 일주로 이어가기 좋습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

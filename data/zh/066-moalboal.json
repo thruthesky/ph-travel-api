@@ -1,0 +1,534 @@
+{
+  "id": 66,
+  "slug": "moalboal",
+  "title": { "type": "title", "text": "墨宝" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Moalboal" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "离海滩十步之遥，数百万条沙丁鱼共舞的海洋" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "visayas", "text": "米沙鄢" },
+  "region": { "type": "badge", "label": "地区", "value": "cebu", "text": "宿务" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "宿务省墨宝帕纳格萨马" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "潜水·海洋"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["沙丁鱼风暴", "海龟", "浮潜", "潜水", "佩斯卡多尔岛"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.7, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 9.95 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 123.4 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "12月~5月（旱季），沙丁鱼全年可见",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "2晚3天~3晚4天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱2,000~4,500",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "简单",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "麦克坦-宿务国际机场 (CEB)",
+    "code": "CEB"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/066-moalboal.webp",
+    "alt": "墨宝",
+    "credit": "Iampjanz / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sardine_run_over_seafloor_in_Moalboal_01.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/066-moalboal-2.webp",
+        "alt": "墨宝",
+        "credit": "Per Edin / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Moalboal_Cebu_3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/066-moalboal-3.webp",
+        "alt": "墨宝",
+        "credit": "Per Edin / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Moalboal_Cebu_2.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "这是宿务西南海岸的一座潜水村庄，从帕纳格萨马海滩下水游出去几十米，就能遇见数百万条沙丁鱼和海龟。还能与佩斯卡多尔岛潜水、卡瓦山溯溪串联在一起，被誉为宿务最物有所值的海洋旅行地。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "墨宝是位于宿务市西南方约" },
+            { "type": "distance", "text": "90km" },
+            {
+              "text": "、隔着塔农海峡与内格罗斯岛相望的海岸小镇。旅行者聚集的地方是距镇中心稍西的帕纳格萨马（Panagsama）海滩，沿岸排列着潜水店、民宿和餐厅。这里自20世纪70到80年代起就在潜水者之间小有名气，是菲律宾数一数二的老牌潜水村庄。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "让墨宝闻名世界的，是被称为\"沙丁鱼风暴（Sardine Run）\"的鱼群。据估计数以百万计的沙丁鱼沿着帕纳格萨马海滩正前方的珊瑚礁壁（陡坡）聚成巨大的鱼群，与其他随季节迁徙的地区不同，它们几乎全年都停留在这里。只需带上浮潜装备从海滩步行入水，游出"
+            },
+            { "type": "distance", "text": "10~30m" },
+            { "text": "，就能看到银色鱼墙在眼前如龙卷风般转向的壮观景象。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "海龟也是墨宝的招牌。帕纳格萨马前海和附近白沙滩（巴斯达库）周边的海草区，绿海龟经常出没，仅靠浮潜就能近距离看到海龟浮上水面呼吸的模样。距海岸约" },
+            { "type": "distance", "text": "3km" },
+            { "text": "的佩斯卡多尔岛是海洋保护区，拥有珊瑚礁壁、洞穴和多种热带鱼，是潜水者必访的热点。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "不仅是潜水员，即使没有潜水证的浮潜者也能深受感动。车程约" },
+            { "type": "duration", "text": "30分钟" },
+            {
+              "text": "处便是卡瓦山瀑布溯溪，也可以安排一天与奥斯洛布鲸鲨行程串联，很适合作为宿务南部旅行的据点。傍晚在海滩酒吧看夕阳，与来自世界各地的背包客交流的氛围，也是一大魅力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "沙丁鱼风暴浮潜",
+              "children": [
+                {
+                  "text": "在帕纳格萨马海滩租借装备，从海滩台阶或度假村前直接下水。游到珊瑚峭壁开始的地方，就能看到沙丁鱼群聚集在近水面处，一大片银色云雾般的鱼群从脚下掠过。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "与海龟共游",
+              "children": [{ "text": "清晨在帕纳格萨马或白沙滩前的海草区遇见海龟的概率较高。请保持至少数米的距离，安静地观察。" }]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "佩斯卡多尔岛跳岛·潜水",
+              "children": [
+                { "text": "乘螃蟹船前往佩斯卡多尔岛海洋保护区，沿着珊瑚礁壁浮潜或潜水。岛屿周边被称为\"大教堂\"的水下洞穴，在潜水者间颇有名气。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "休闲潜水与考证课程",
+              "children": [{ "text": "帕纳格萨马有数十家潜水店，其中也有配备韩国教练的店铺。在沙丁鱼群中潜水，是只有在墨宝才能体验到的经历。" }]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "在白沙滩海水浴",
+              "children": [
+                { "text": "帕纳格萨马几乎没有沙滩，海水浴通常在北边巴斯达库的白沙滩进行。乘三轮摩托车约" },
+                { "type": "duration", "text": "15分钟" },
+                { "text": "路程，拥有细腻的沙子和浅浅的海水。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "卡瓦山瀑布溯溪",
+              "children": [{ "text": "这是从墨宝住宿接送出发的溯溪行程，沿着峡谷一路跳水、游泳，最后抵达卡瓦山瀑布。大多数墨宝旅行者都会为此专门花上一天。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "帕纳格萨马的夕阳与海滩酒吧",
+              "children": [{ "text": "墨宝海岸朝西，黄昏时太阳会落在内格罗斯岛之上。在海滩酒吧点一瓶生力啤酒，为一天画上句点吧。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "第1天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "上午6点", "children": [{ "text": "在宿务南巴士总站搭乘开往墨宝的Ceres巴士" }] },
+                    { "time": "上午9点30分", "children": [{ "text": "抵达墨宝，乘三轮摩托车前往帕纳格萨马" }] },
+                    { "time": "上午11点", "children": [{ "text": "入住登记后享用午餐" }] },
+                    {
+                      "time": "下午1点30分",
+                      "children": [
+                        { "text": "海滩前沙丁鱼风暴浮潜（约" },
+                        { "type": "duration", "text": "1~2小时" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "下午5点30分", "children": [{ "text": "在海滩酒吧欣赏夕阳" }] },
+                    { "time": "晚上", "children": [{ "text": "在帕纳格萨马餐厅街享用晚餐" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第2天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "上午6点30分", "children": [{ "text": "住宿接送出发，前往卡瓦山溯溪" }] },
+                    { "time": "上午7点30分至下午12点30分", "children": [{ "text": "峡谷徒步、跳水，抵达卡瓦山瀑布" }] },
+                    { "time": "下午1点30分", "children": [{ "text": "午餐后返回住宿休息" }] },
+                    { "time": "下午4点", "children": [{ "text": "白沙滩海水浴" }] },
+                    { "time": "晚上", "children": [{ "text": "享用海鲜烧烤" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第3天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "上午7点", "children": [{ "text": "螃蟹船跳岛游（沙丁鱼风暴·海龟·佩斯卡多尔岛）" }] },
+                    { "time": "上午11点", "children": [{ "text": "返回后办理退房" }] },
+                    { "time": "下午12点30分", "children": [{ "text": "乘巴士返回宿务市，或前往奥斯洛布方向" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飞机",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "最近的机场是麦克坦-宿务国际机场（CEB），有仁川、釜山直飞航班，以及众多从马尼拉出发的国内航班（约" },
+                    { "type": "duration", "text": "1小时20分钟" },
+                    { "text": "）。从机场到墨宝乘车约需" },
+                    { "type": "duration", "text": "3~4小时" },
+                    { "text": "，预约专车或厢型车约" },
+                    { "type": "price", "text": "₱3,000~4,500" },
+                    { "text": "。也可以叫Grab直达墨宝，但费用较高且不易叫到车。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "巴士·厢型车",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "从宿务市N.巴卡尔索大道的南巴士总站，搭乘Ceres巴士\"经巴托至巴里利（Bato via Barili）\"线，在墨宝下车。巴士几乎"
+                    },
+                    { "type": "duration", "text": "24小时" },
+                    { "text": "运行，大约每" },
+                    { "type": "duration", "text": "30分钟" },
+                    { "text": "一班，车程视交通状况约" },
+                    { "type": "duration", "text": "3~4小时" },
+                    { "text": "，票价空调车约" },
+                    { "type": "price", "text": "₱200~230" },
+                    { "text": "，普通车约" },
+                    { "type": "price", "text": "₱170" },
+                    { "text": "。同一总站出发的厢型车（V-Hire）稍快，但座位较窄。从机场到巴士总站，乘出租车或Grab约" },
+                    { "type": "duration", "text": "40分钟~1小时" },
+                    { "text": "。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "当地交通",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从墨宝巴士站（镇中心）到帕纳格萨马，乘三轮摩托车约" },
+                    { "type": "duration", "text": "10分钟" },
+                    { "text": "，费用约" },
+                    { "type": "price", "text": "₱100~150" },
+                    { "text": "。沿海岸步行也很方便，前往白沙滩、卡瓦山等附近地点可包租三轮摩托车或哈巴哈巴。租摩托车每天约" },
+                    { "type": "price", "text": "₱400~600" },
+                    { "text": "。若要前往内格罗斯岛，可从南边的巴托港乘渡轮，抵达杜马格特附近的坦皮。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "沙丁鱼群几乎全年都能看到，但海面平静、能见度佳的" },
+            { "type": "date", "text": "12月~5月" },
+            { "text": "旱季最为理想。3月到" },
+            { "type": "date", "text": "5月" },
+            { "text": "水温可升至29~30度，长时间待在水里也不觉得冷。12月到" },
+            { "type": "date", "text": "2月" },
+            { "text": "水温略降至26~27度，备一件3mm潜水服或水母衣会更舒适。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月~11月" },
+            { "text": "是雨季，午后阵雨频繁，若刮起西南季风，朝西的帕纳格萨马海岸会掀起浪花，能见度可能变差。台风季节（主要在8月到" },
+            { "type": "date", "text": "11月" },
+            { "text": "）螃蟹船行程和溯溪活动有时会暂停。不过只要海况允许，从岸边步行入水的浮潜活动全年皆可进行。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "宿务-墨宝巴士", "price": "约₱170~230", "note": "单程，视是否空调而定" },
+            { "label": "机场-墨宝专车", "price": "约₱3,000~4,500", "note": "单程1辆" },
+            { "label": "浮潜装备租赁", "price": "约₱150~300", "note": "1天" },
+            { "label": "螃蟹船跳岛游", "price": "约₱1,500~3,000", "note": "1艘船，费用可分摊" },
+            { "label": "休闲潜水", "price": "约₱1,500~2,200", "note": "1次，可另租装备" },
+            { "label": "卡瓦山溯溪", "price": "约₱2,000~3,500", "note": "每人，请确认是否含接送与午餐" },
+            { "label": "住宿", "price": "约₱800~4,500", "note": "1晚，青旅床位~度假村" },
+            { "label": "餐饮", "price": "约₱600~1,200", "note": "每人每天" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "住宿以帕纳格萨马海滩周边最为方便，步行几分钟即可到达沙丁鱼群观赏点，潜水店、餐厅和酒吧也都聚集于此。青旅床位1晚约" },
+            { "type": "price", "text": "₱500~800" },
+            { "text": "，单人房民宿约" },
+            { "type": "price", "text": "₱1,200~2,500" },
+            { "text": "，带泳池的潜水度假村约" },
+            { "type": "price", "text": "₱3,000~5,000" },
+            { "text": "。若想安静地享受海滩度假，选择白沙滩一带的度假村也不错。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "以一个小镇来说，帕纳格萨马的餐厅街选择相当丰富。菲律宾家常菜、海鲜烧烤、欧式早午餐、比萨，甚至泰式、墨西哥料理应有尽有，素食菜单也很常见。在墨宝镇公共市场附近，可以品尝到便宜的烤乳猪和当地小菜。宿务南部特产的芒果和香蕉零食，在街头也很容易买到。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "沙丁鱼群倾向在清晨和傍晚聚集到近水面处，人也较少，适合拍照。" }] },
+            { "children": [{ "text": "海滩入水点岩石与珊瑚混杂，较为湿滑，请穿溯溪鞋或蛙鞋下水。" }] },
+            { "children": [{ "text": "若有防水相机或运动摄像机，拍下的沙丁鱼群影像会是最好的纪念品。当地也可以租借运动摄像机。" }] },
+            { "children": [{ "text": "帕纳格萨马虽有ATM，但经常故障或缺钱，请在墨宝镇上或宿务提前取好充足的现金。" }] },
+            { "children": [{ "text": "空调巴士更为舒适，但冷气较强，请携带一件薄外套。" }] },
+            { "children": [{ "text": "溯溪行程建议前一天通过住宿或潜水店预订，通常包含接送，较为方便。" }] },
+            { "children": [{ "text": "若想一并观赏奥斯洛布的鲸鲨，可以利用从墨宝凌晨出发的专车行程，一天内即可完成。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "沙丁鱼群所在的珊瑚礁壁前水深会骤然加深，若游泳不熟练，请穿上救生衣。" }] },
+            { "children": [{ "text": "海滩前也是螃蟹船的航道，浮潜时请佩戴浮潜浮标或穿着鲜艳颜色的衣物，并注意来往船只。" }] },
+            { "children": [{ "text": "禁止触摸或追逐海龟，违者可能被处以罚款。" }] },
+            { "children": [{ "text": "请避免使用对珊瑚有害的化学防晒霜，改穿水母衣或使用海洋友好型防晒产品。" }] },
+            { "children": [{ "text": "某些时节会出现水母，建议穿着长袖水母衣。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "海洋保护区门票和规定会不时变动。跳岛游或潜水前请确认最新费用。" }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "卡瓦山瀑布",
+              "place": "kawasan-falls",
+              "children": [
+                { "text": "乘车约" },
+                { "type": "duration", "text": "30分钟" },
+                { "text": "，是巴迪安一处以青绿色瀑布和溯溪闻名的峡谷。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "奥斯洛布",
+              "place": "oslob",
+              "children": [
+                { "text": "乘车约" },
+                { "type": "duration", "text": "2小时~2小时30分钟" },
+                { "text": "，是宿务南部可以与鲸鲨同游的渔村。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "奥斯梅纳峰",
+              "place": "osmena-peak",
+              "children": [
+                { "text": "乘车约" },
+                { "type": "duration", "text": "1小时30分钟~2小时" },
+                { "text": "，是宿务最高峰，尖峭的山峰如波浪般连绵起伏。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "杜马格特",
+              "place": "dumaguete",
+              "children": [
+                { "text": "乘巴士到巴托港约" },
+                { "type": "duration", "text": "1小时30分钟" },
+                { "text": "，再乘渡轮约" },
+                { "type": "duration", "text": "30分钟~1小时" },
+                { "text": "即可抵达，是内格罗斯东方省的大学城，也是阿波岛潜水的据点。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "id": 70,
+  "slug": "osmena-peak",
+  "title": { "type": "title", "text": "오스메냐 피크" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Osmeña Peak" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "들쭉날쭉 솟은 봉우리 위로 떠오르는 세부의 일출" },
+  "island_group": { "type": "badge", "label": "권역", "value": "visayas", "text": "비사야" },
+  "region": { "type": "badge", "label": "지역", "value": "cebu", "text": "세부" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "세부주 달라게테 만탈롱온" },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "hiking",
+    "value": "mountain",
+    "text": "산·트레킹"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["세부 최고봉", "일출", "캠핑", "짧은 산행", "트래버스"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 9.8519 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 123.4203 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "12월~5월 (건기)",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "여행 기간",
+    "icon": "schedule",
+    "text": "반나절~1일 (트래버스 포함 시 1일)"
+  },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱800~2,500",
+    "currency": "PHP",
+    "min": 800,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "보통",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "막탄-세부 국제공항(CEB)",
+    "code": "CEB"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/070-osmena-peak.webp",
+    "alt": "오스메냐 피크",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Osme%C3%B1a_Peak_(Mantalongon,_Dalaguete,_Cebu;_01-20-2023).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/070-osmena-peak-2.webp",
+        "alt": "오스메냐 피크",
+        "credit": "Tyrll Adolf Itong / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Osme%C3%B1a_Peak,_Cebu,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/070-osmena-peak-3.webp",
+        "alt": "오스메냐 피크",
+        "credit": "choypictures / CC0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Osme%C3%B1a_Peak%27s_Sunset.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "해발 약 " },
+      { "type": "distance", "text": "1,000m" },
+      { "text": "로 세부 섬에서 가장 높은 봉우리로 알려진 곳으로, 점프오프 지점에서 " },
+      { "type": "duration", "text": "20~30분" },
+      {
+        "text": "만 오르면 뾰족한 석회암 봉우리들이 파도처럼 이어지는 풍경이 펼쳐집니다. 일출 산행과 캠핑, 카와산 폭포까지 내려가는 트래버스로 인기가 높습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "오스메냐 피크는 세부 섬 남부 내륙, 달라게테 자치체 만탈롱온 바랑가이와 바디안 경계에 솟은 봉우리입니다. 해발 약 " },
+            { "type": "distance", "text": "1,013m" },
+            {
+              "text": "로 흔히 '세부 최고봉'으로 소개되며, 필리핀 연방 시대 대통령 세르히오 오스메냐의 이름을 따서 불립니다. 산이라고 하면 긴 등산로를 떠올리기 쉽지만, 이곳은 점프오프 지점 자체가 해발 수백 미터 고원이라 정상까지 걸어서 "
+            },
+            { "type": "duration", "text": "20~30분" },
+            { "text": "이면 닿는 '가성비 좋은 산'입니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "정상에 서면 오스메냐 피크가 특별한 이유를 바로 알 수 있습니다. 풀로 덮인 석회암 봉우리들이 톱니처럼 뾰족하게 솟아 겹겹이 이어지며, 보홀의 초콜릿 힐스를 날카롭게 다듬어 놓은 듯한 독특한 지형을 이룹니다. 날씨가 맑으면 서쪽으로 타뇬 해협 너머 네그로스 섬의 산줄기가, 동쪽으로 보홀 해 방향 바다가 보여 섬의 양쪽 바다를 동시에 내려다볼 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "만탈롱온 일대는 선선한 고원 기후 덕분에 '세부의 채소 바구니'라 불리는 농업 지대입니다. 산행 길 양옆으로 양배추, 토마토, 당근 밭이 계단식으로 펼쳐져 있어 필리핀의 다른 해변 여행지와 전혀 다른 풍경을 보여 줍니다. 해안보다 기온이 5도 이상 낮아 새벽에는 쌀쌀할 정도입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "등산 초보자와 가족도 부담 없이 오를 수 있는 짧은 코스이면서, 일출 캠핑이나 카와산 폭포까지 내려가는 장거리 트래버스로 난이도를 높일 수도 있습니다. 세부 남부의 바다 일정(모알보알, 오슬롭, 카와산) 사이에 하루 끼워 넣으면 여행에 산과 바다의 균형이 생깁니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "정상 일출 감상",
+              "children": [
+                { "type": "time", "text": "새벽 4시" },
+                {
+                  "text": " 전후에 점프오프에서 출발해 정상에서 해가 떠오르는 것을 봅니다. 봉우리 사이로 운해가 깔리는 날에는 그야말로 절경이 펼쳐집니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "톱니 봉우리 전망 사진",
+              "children": [
+                {
+                  "text": "정상 부근 바위에서 뾰족한 봉우리들이 겹쳐 보이는 방향으로 찍으면 오스메냐 피크의 대표 사진이 나옵니다. 아침 햇빛이 비스듬히 들 때 입체감이 가장 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "정상 캠핑",
+              "children": [
+                {
+                  "text": "정상 아래 평평한 공터에 텐트를 치고 밤하늘의 별과 새벽 일출을 함께 즐길 수 있습니다. 텐트는 현지에서 빌리거나 직접 가져갑니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "카와산 폭포까지 트래버스",
+              "children": [
+                { "text": "오스메냐 피크에서 산길과 마을, 계곡을 지나 카와산 폭포까지 걸어 내려가는 장거리 코스입니다. 약 " },
+                { "type": "duration", "text": "6~8시간" },
+                { "text": " 걸리며 현지 가이드 동행이 필수입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "고원 채소밭 산책",
+              "children": [
+                {
+                  "text": "만탈롱온의 계단식 채소밭과 농가 사이를 걸으며 세부 내륙 농촌의 일상을 봅니다. 수확기에는 신선한 채소를 싸게 살 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "달라게테 시장 들르기",
+              "children": [
+                {
+                  "text": "산 아래 달라게테 시내 시장에서는 고원 채소와 과일, 로컬 간식을 싸게 삽니다. 해안 도로변의 스페인 시대 성당도 함께 둘러볼 만합니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "일출 반나절 코스 (모알보알·오슬롭 연계)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "오전 2시 30분",
+                      "children": [{ "text": "모알보알 또는 오슬롭 숙소에서 전용 차량·하발하발 출발" }]
+                    },
+                    { "time": "오전 4시", "children": [{ "text": "만탈롱온 점프오프 도착, 등록과 입장료 지불" }] },
+                    {
+                      "time": "오전 4시 30분",
+                      "children": [
+                        { "text": "헤드랜턴을 켜고 정상까지 산행 (약 " },
+                        { "type": "duration", "text": "20~30분" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "오전 5시 30분", "children": [{ "text": "정상에서 일출 감상과 사진" }] },
+                    { "time": "오전 7시", "children": [{ "text": "점프오프로 하산, 현지 식당에서 따뜻한 아침과 커피" }] },
+                    { "time": "오전 8시 30분", "children": [{ "text": "오슬롭 고래상어 또는 카와산 폭포로 이동" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "트래버스 1일 코스",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "오전 5시", "children": [{ "text": "점프오프에서 가이드와 함께 출발, 정상 일출" }] },
+                    { "time": "오전 7시", "children": [{ "text": "능선과 마을길을 따라 바디안 방향으로 하산 시작" }] },
+                    { "time": "오전 11시", "children": [{ "text": "계곡 도착, 수영과 휴식" }] },
+                    { "time": "오후 1시~2시", "children": [{ "text": "카와산 폭포 도착, 점심과 수영 후 도로변으로 이동" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "막탄-세부 국제공항(CEB)이 가장 가깝습니다. 인천·부산에서 직항으로 약 " },
+                    { "type": "duration", "text": "4시간 30분" },
+                    { "text": ", 마닐라에서 약 " },
+                    { "type": "duration", "text": "1시간 20분" },
+                    { "text": "입니다. 공항에서 달라게테까지 차로 약 " },
+                    { "type": "duration", "text": "3시간" },
+                    { "text": " 걸립니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스와 하발하발",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "세부 시티 사우스 버스 터미널에서 오슬롭·산탄데르 방면 세레스 버스를 타고 달라게테 시내에서 내립니다. 약 " },
+                    { "type": "duration", "text": "2시간 30분~3시간" },
+                    { "text": ", 요금은 약 " },
+                    { "type": "price", "text": "₱150~200" },
+                    { "text": "입니다. 달라게테 시내에서 만탈롱온 점프오프까지는 구불구불한 산길을 약 " },
+                    { "type": "duration", "text": "30~45분" },
+                    { "text": " 올라가며, 하발하발 요금은 1인 편도 약 " },
+                    { "type": "price", "text": "₱150~250" },
+                    { "text": "으로 흥정합니다. 새벽 일출 산행을 하려면 전날 기사와 픽업 시간을 약속해 두십시오." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "전용 차량·투어",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "모알보알·오슬롭·세부 시티에서 전용 차량을 대절하면 가장 편합니다. 모알보알이나 오슬롭에서는 편도 약 " },
+                    { "type": "duration", "text": "1시간 30분" },
+                    { "text": ", 세부 시티에서는 약 " },
+                    { "type": "duration", "text": "3시간" },
+                    { "text": "이며 반나절 대절은 약 " },
+                    { "type": "price", "text": "₱2,500~4,500" },
+                    { "text": "입니다. 일부 투어는 오스메냐 피크 일출과 오슬롭 고래상어, 카와산 폭포를 하루에 묶은 상품을 운영합니다." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "12월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "5월" },
+            { "text": "까지 건기가 가장 좋습니다. 이 시기에는 하늘이 맑아 일출과 원경이 잘 보이고, 산길이 말라 미끄럽지 않습니다. " },
+            { "type": "date", "text": "12~2월" },
+            { "text": "은 새벽 기온이 약 15~18도까지 내려가 운해가 자주 끼며, " },
+            { "type": "date", "text": "3~5월" },
+            { "text": "은 풀이 누렇게 변해 또 다른 분위기를 줍니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6~11월" },
+            { "text": " 우기에는 오후마다 구름과 비가 몰려와 전망이 가려지는 날이 많고, 점토질 산길이 진흙탕이 됩니다. 태풍 시기(주로 " },
+            { "type": "date", "text": "8~11월" },
+            {
+              "text": ")에는 트래버스를 삼가십시오. 우기에 오른다면 비교적 날씨가 안정적인 이른 아침 산행을 권합니다. 연중 새벽은 해안보다 훨씬 서늘하니 얇은 긴팔을 준비하십시오."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "세부-달라게테 버스", "price": "약 ₱150~200", "note": "편도" },
+            { "label": "달라게테-점프오프 하발하발", "price": "약 ₱150~250", "note": "1인 편도, 흥정" },
+            { "label": "입장료·등록비", "price": "약 ₱30~50", "note": "1인" },
+            { "label": "현지 가이드 (정상 왕복)", "price": "약 ₱100~300", "note": "선택 또는 권장" },
+            { "label": "캠핑 요금", "price": "약 ₱100", "note": "개인 텐트 기준, 대여 별도" },
+            { "label": "트래버스 가이드", "price": "약 ₱800~1,500", "note": "1팀 기준, 카와산까지" },
+            { "label": "전용 차량 반나절 대절", "price": "약 ₱2,500~4,500", "note": "모알보알·오슬롭 출발" },
+            { "label": "식사", "price": "약 ₱300~600", "note": "1인 1일" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "만탈롱온 점프오프 주변에는 홈스테이와 간단한 산장이 몇 곳 있고 1박 약 " },
+            { "type": "price", "text": "₱500~1,500" },
+            { "text": " 선입니다. 일출 산행을 편하게 하려면 여기서 묵거나 정상 캠핑을 하는 것이 가장 좋습니다. 대부분의 여행자는 모알보알(차로 약 " },
+            { "type": "duration", "text": "1시간 30분" },
+            { "text": ")이나 오슬롭(차로 약 " },
+            { "type": "duration", "text": "1시간 30분" },
+            { "text": ")의 해변 숙소에 묵으며 새벽에 출발합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "점프오프 근처 작은 식당과 가게에서는 커피, 컵라면, 달걀과 밥 같은 간단한 아침을 팝니다. 고원에서 재배한 채소로 만든 수프와 볶음 요리가 소박하지만 맛있습니다. 달라게테 해안 도로변에는 필리핀식 식당과 베이커리가 있고, 세부 남부 특산물인 망고와 과일을 길가에서 싸게 살 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "일출 산행에는 헤드랜턴이 필수입니다. 휴대전화 손전등은 배터리 소모가 크고 두 손을 자유롭게 쓰기 어렵습니다." }
+              ]
+            },
+            { "children": [{ "text": "정상 부근 바위는 날카롭고 좁으니 접지력 좋은 운동화나 트레킹화를 신으십시오." }] },
+            { "children": [{ "text": "새벽과 정상은 바람이 강하고 쌀쌀합니다. 바람막이나 얇은 긴팔을 챙기십시오." }] },
+            {
+              "children": [
+                {
+                  "text": "점프오프에서 입장료와 등록을 마치고 가이드를 소개받을 수 있습니다. 첫 방문이라면 새벽 산행 때 가이드를 쓰는 것이 안전합니다."
+                }
+              ]
+            },
+            { "children": [{ "text": "입장료, 하발하발, 식사 모두 현금만 받습니다. 산 위에는 ATM이 없으니 잔돈을 준비하십시오." }] },
+            { "children": [{ "text": "휴대전화 신호는 정상 부근에서 대체로 잡히지만 계곡 쪽 트래버스 구간에서는 끊길 수 있습니다." }] },
+            {
+              "children": [
+                { "text": "일출과 운해를 함께 보려면 건기 중에서도 " },
+                { "type": "date", "text": "12~2월" },
+                { "text": "의 맑은 날을 노리십시오." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "정상 봉우리는 경사가 급하고 난간이 없습니다. 사진을 찍을 때 절벽 끝으로 나가지 마십시오." }] },
+            { "children": [{ "text": "비가 오면 점토질 산길이 매우 미끄러워집니다. 우천 시 트래버스는 취소하는 것이 안전합니다." }] },
+            { "children": [{ "text": "트래버스 코스는 길이 여러 갈래라 길을 잃기 쉽습니다. 반드시 현지 가이드와 동행하십시오." }] },
+            { "children": [{ "text": "달라게테-만탈롱온 산길은 급경사와 급커브가 많습니다. 하발하발 탑승 시 헬멧을 요구하십시오." }] },
+            { "children": [{ "text": "캠핑 시 불 피우기는 지정 장소에서만 하고, 쓰레기는 모두 가지고 내려오십시오." }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "산 위 날씨는 해안과 다릅니다. 해안이 맑아도 정상은 구름에 가려질 수 있으니 기대치를 유연하게 가지십시오." }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "카와산 폭포",
+              "place": "kawasan-falls",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1시간 30분" },
+                { "text": " 또는 트래버스로 도보 약 " },
+                { "type": "duration", "text": "6~8시간" },
+                { "text": ", 청록빛 계곡과 캐녀니어링 명소입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "모알보알",
+              "place": "moalboal",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1시간 30분" },
+                { "text": ", 해변 앞 정어리 떼와 바다거북으로 유명한 다이빙 마을입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "오슬롭",
+              "place": "oslob",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1시간 30분" },
+                { "text": ", 고래상어와 함께 수영할 수 있는 세부 남부의 대표 명소입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "수밀론 섬",
+              "place": "sumilon-island",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1시간 30분" },
+                { "text": "과 보트 " },
+                { "type": "duration", "text": "15분" },
+                { "text": ", 하얀 모래톱과 필리핀 최초의 해양보호구역이 있는 섬입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

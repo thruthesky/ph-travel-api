@@ -1,0 +1,823 @@
+{
+  "id": 25,
+  "slug": "mount-ulap",
+  "title": { "type": "title", "text": "Núi Ulap" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mount Ulap" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Trekking trong ngày gần Baguio, nơi mây trôi trên sống núi thông"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "cordillera", "text": "Cordillera" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Ampucao, Itogon, tỉnh Benguet"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "hiking",
+    "value": "mountain",
+    "text": "Núi & trekking"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": [
+      "Trekking dọc sống núi",
+      "Rừng thông",
+      "Leo núi trong ngày",
+      "Biển mây",
+      "Vách núi đá"
+    ]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 16.29 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.631 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 11 – Tháng 4 (mùa khô)",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "Trong ngày (5-7 giờ)"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱800–2,000/người (trong ngày)",
+    "currency": "PHP",
+    "min": 800,
+    "max": 2000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Trung bình",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay quốc tế Clark (CRK)",
+    "code": "CRK"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/025-mount-ulap.webp",
+    "alt": "Núi Ulap",
+    "credit": "Dyenkaye Saludez / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mt._Ulap_adventure.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/025-mount-ulap-2.webp",
+        "alt": "Núi Ulap",
+        "credit": "Jpcabarles / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt._Ulap_3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/025-mount-ulap-3.webp",
+        "alt": "Núi Ulap",
+        "credit": "Kalithecat00 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:One_of_Mt._Ulap%27s_peaks.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "Đây là ngọn núi cao khoảng " },
+      { "type": "distance", "text": "1,846m" },
+      { "text": " ở Itogon, cách Baguio khoảng " },
+      { "type": "duration", "text": "1 giờ" },
+      { "text": " đi xe, với cung đường xuyên núi dài khoảng " },
+      { "type": "distance", "text": "9.4km" },
+      {
+        "text": " đi qua rừng thông và sống núi đồng cỏ. Nhờ tảng đá Gungal chênh vênh bên vực và tầm nhìn ra dãy núi Cordillera, đây là điểm leo núi trong ngày được yêu thích, phù hợp cả với người mới bắt đầu."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Núi Ulap (Mount Ulap) là ngọn núi cao khoảng " },
+            { "type": "distance", "text": "1,846m" },
+            {
+              "text": " mọc lên giữa làng Ampucao và Santa Fe, thuộc khu vực Itogon phía nam Baguio. \"Ulap\" trong tiếng Ibaloi có nghĩa là \"mây\", và đúng như tên gọi, vào buổi sáng sớm bạn thường bắt gặp cảnh mây phủ kín thung lũng dưới chân và sương mù trôi dọc theo sống núi. Sau khi chính thức mở cửa như cung đường du lịch sinh thái (Mt. Ulap Eco-Trail) vào năm "
+            },
+            { "type": "date", "text": "2017" },
+            {
+              "text": ", nơi đây nhanh chóng trở thành điểm leo núi trong ngày tiêu biểu của Philippines."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Cung đường dài khoảng " },
+            { "type": "distance", "text": "9.4km" },
+            {
+              "text": " này bắt đầu từ hội trường barangay Ampucao, băng qua nhiều đỉnh núi rồi xuống Santa Fe. Rừng thông Benguet, sống núi đồng cỏ thoáng đãng và các đỉnh đá xen kẽ nhau, và nếu trời quang bạn có thể nhìn thấy dãy núi Cordillera gồm cả núi Pulag ở xa và cả đồng bằng hướng vịnh Lingayen phía tây. Đoạn dốc gấp không dài nên chỉ cần có thể lực, người mới bắt đầu leo núi cũng có thể hoàn thành."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Núi Ulap đặc biệt nổi tiếng nhờ \"tảng đá Gungal\" (Gungal Rock). Những bức ảnh chụp khi đứng trên đầu mỏm đá nhô ra khoảng không từ sống núi đã được chia sẻ vô số lần trên mạng xã hội Philippines, và đến nay nhiều người leo núi vẫn xếp hàng chờ chụp ảnh trước tảng đá này. Quanh cung đường còn có hang mai táng truyền thống và những nơi linh thiêng của người Ibaloi, nên cộng đồng địa phương trực tiếp quản lý cung đường này."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Núi Ulap phù hợp với những du khách muốn tìm một ngọn núi có thể ghé thăm nhẹ nhàng từ Baguio, không phải chịu cái lạnh rạng sáng hay thủ tục đặt chỗ phức tạp như núi Pulag, và những ai muốn khởi động trước khi bắt đầu hành trình núi non Cordillera."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Xuyên núi Ampucao - Santa Fe",
+              "children": [
+                { "text": "Đây là cung đường một chiều dài khoảng " },
+                { "type": "distance", "text": "9.4km" },
+                { "text": ", mất khoảng " },
+                { "type": "duration", "text": "5-7 giờ" },
+                {
+                  "text": " kể cả nghỉ ngơi. Ưu điểm là không phải quay lại cùng một con đường nên cảnh quan liên tục thay đổi."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Chụp ảnh check-in tại tảng đá Gungal",
+              "children": [
+                {
+                  "text": "Đây là điểm tiêu biểu giữa sống núi, nơi bạn chụp ảnh trên tảng đá nhô ra phía vực. Hãy xếp hàng theo hướng dẫn của hướng dẫn viên, và nguyên tắc là không đứng ở mép đá vào những ngày gió mạnh."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Tầm nhìn đầu tiên từ đỉnh Ponoi",
+              "children": [
+                {
+                  "text": "Đây là đỉnh ngắm cảnh đầu tiên sau khi leo qua rừng thông từ điểm xuất phát. Nếu đến vào sáng sớm, bạn có thể thấy ánh nắng chiếu xuống lớp mây phủ kín thung lũng."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Toàn cảnh Cordillera từ đỉnh Ulap",
+              "children": [
+                { "text": "Từ đỉnh cao khoảng " },
+                { "type": "distance", "text": "1,846m" },
+                {
+                  "text": ", bạn có thể ngắm toàn cảnh dãy núi trùng điệp, khu vực khai khoáng, và vào ngày trời trong còn thấy cả đồng bằng vùng thấp."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Đi bộ dọc sống núi rừng thông",
+              "children": [
+                {
+                  "text": "Phần lớn cung đường là rừng thông Benguet và đồng cỏ, nên tiếng gió và hương thông để lại ấn tượng sâu sắc. Đây là ngọn núi mà khoảnh khắc đi bộ đáng nhớ hơn cả những bức ảnh."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Tìm hiểu văn hóa truyền thống Ibaloi",
+              "children": [
+                {
+                  "text": "Hầu hết hướng dẫn viên là người dân địa phương nên sẽ kể cho bạn nghe về hang mai táng, văn hóa thờ cúng tổ tiên và lịch sử của làng khai khoáng. Hỏi thêm những điều bạn tò mò sẽ khiến chuyến leo núi thêm phong phú."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Kết hợp 1 đêm 2 ngày với Baguio",
+              "children": [
+                {
+                  "text": "Nếu nghỉ lại Baguio đêm trước và xuất phát từ sáng sớm, bạn có thể hoàn thành cung đường thong thả rồi nghỉ ngơi, ăn uống ở trung tâm Baguio vào buổi chiều."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Cung đường xuyên núi trong ngày (xuất phát từ Baguio)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "04:30",
+                      "children": [
+                        {
+                          "text": "Xuất phát từ trung tâm Baguio bằng xe thuê riêng hoặc xe jeepney đi Philex"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "05:30",
+                      "children": [
+                        {
+                          "text": "Đến hội trường barangay Ampucao, đăng ký - định hướng - phân công hướng dẫn viên"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "06:00",
+                      "children": [{ "text": "Bắt đầu leo núi, lên dốc rừng thông" }]
+                    },
+                    {
+                      "time": "07:30",
+                      "children": [
+                        { "text": "Đến đỉnh Ponoi, ngắm biển mây và ánh nắng buổi sáng" }
+                      ]
+                    },
+                    {
+                      "time": "08:30-09:30",
+                      "children": [
+                        { "text": "Chụp ảnh tại tảng đá Gungal (cuối tuần phải xếp hàng chờ)" }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [{ "text": "Đến đỉnh Ulap, ăn trưa bằng cơm hộp" }]
+                    },
+                    {
+                      "time": "11:00-13:00",
+                      "children": [{ "text": "Xuống núi theo sống núi về hướng Santa Fe" }]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [
+                        {
+                          "text": "Đến lối ra Santa Fe, trở về Baguio bằng xe jeepney hoặc xe thuê riêng"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "15:00",
+                      "children": [{ "text": "Đến Baguio, ăn trưa muộn với món súp nóng" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tổng quan cung đường",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "Từ điểm xuất phát hội trường barangay Ampucao (độ cao khoảng " },
+                        { "type": "distance", "text": "1,200m" },
+                        { "text": "), khoảng " },
+                        { "type": "duration", "text": "1 giờ 30 phút" },
+                        {
+                          "text": " đầu tiên là đoạn dốc gấp nhất. Sau khi qua đỉnh Ponoi, độ dốc trở nên thoải hơn, và từ đó cứ lặp lại lên xuống dọc theo sống núi."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Tổng độ cao tích lũy khoảng " },
+                        { "type": "distance", "text": "600-700m" },
+                        { "text": ", nên chỉ cần có thể lực đi bộ được " },
+                        { "type": "duration", "text": "3-4 giờ" },
+                        {
+                          "text": " ở núi gần nhà là đủ. Đoạn xuống núi dài và thoải nhưng đất và lá thông khiến đường trơn trượt, nên hãy giảm tốc độ."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Từ Manila đến Baguio",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Từ Cubao, Pasay đi xe buýt đến Baguio (Victory Liner, JoyBus, Solid North...) mất khoảng "
+                        },
+                        { "type": "duration", "text": "4-6 giờ" },
+                        { "text": ", giá vé khoảng " },
+                        { "type": "price", "text": "₱500-1,000" },
+                        {
+                          "text": ". Để leo núi vào rạng sáng, nên đến Baguio và nghỉ lại một đêm trước đó."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Từ Baguio đến Ampucao",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Từ trạm xe jeepney hướng mỏ Philex ở trung tâm Baguio, lên xe jeepney đi Philex và xuống tại \"hội trường barangay Ampucao\". Mất khoảng "
+                        },
+                        { "type": "duration", "text": "40 phút - 1 giờ" },
+                        { "text": ", giá vé khoảng " },
+                        { "type": "price", "text": "₱40-60" },
+                        {
+                          "text": "/người. Chuyến xe đầu tiên có thể không sớm như mong đợi, nên hãy kiểm tra tại trạm xe từ hôm trước."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Nếu đi theo nhóm, taxi hoặc xe van thuê riêng sẽ tiện hơn. Đi taxi mất khoảng "
+                        },
+                        { "type": "duration", "text": "30-45 phút" },
+                        {
+                          "text": ", và nên thương lượng để tài xế chờ ở lối ra Santa Fe rồi đón về."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Trở về từ Santa Fe",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Tại ven đường Philex ở Santa Fe, điểm kết thúc hành trình xuống núi, bạn có thể bắt xe jeepney về Baguio. Vào buổi chiều, khoảng cách giữa các chuyến có thể dài hơn, nên đừng xuống núi quá muộn."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tour ghép",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Tour ghép xuất phát ban đêm từ Manila (xe van khứ hồi, phí đăng ký, hướng dẫn viên) có giá khoảng "
+                        },
+                        { "type": "price", "text": "₱1,800-2,500" },
+                        { "text": "/người, tiện lợi vì không cần tự lo phương tiện di chuyển." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Mùa khô " },
+            { "text": "tháng 11 - tháng 4", "type": "date" },
+            { "text": " là tốt nhất. Đặc biệt " },
+            { "text": "tháng 12 - tháng 2", "type": "date" },
+            { "text": " nhiệt độ rạng sáng mát mẻ khoảng " },
+            { "text": "10℃", "type": "temperature" },
+            { "text": ", nên xác suất thấy biển mây cao, và ban ngày cũng dễ chịu để đi bộ. " },
+            { "text": "Tháng 3 - tháng 5", "type": "date" },
+            {
+              "text": " có nhiều ngày trời trong nên tầm nhìn rộng nhất, nhưng sống núi giữa trưa ít bóng râm và nắng rất gắt, nên xuất phát sớm là điều bắt buộc."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Vào mùa mưa " },
+            { "text": "tháng 6 - tháng 10", "type": "date" },
+            {
+              "text": ", chiều nào cũng có mưa và sương mù dày nên khó ngắm cảnh. Đường đất trở nên trơn trượt, và nếu có bão, cung đường có thể bị đóng cửa. Vào cuối tuần và ngày lễ, người leo núi đổ về đông nên phải chờ khá lâu ở tảng đá Gungal, nên nếu có thể, hãy đi vào ngày thường."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Phí đăng ký",
+              "price": "Khoảng ₱100/người",
+              "note": "Nộp tại hội trường barangay Ampucao"
+            },
+            {
+              "label": "Phí môi trường",
+              "price": "Khoảng ₱30/người",
+              "note": "Nộp cùng lúc đăng ký"
+            },
+            {
+              "label": "Hướng dẫn viên",
+              "price": "1 nhóm khoảng ₱800",
+              "note": "Tối đa khoảng 7 người, bắt buộc"
+            },
+            {
+              "label": "Xe jeepney Baguio - Ampucao",
+              "price": "Khoảng ₱40-60/người",
+              "note": "Một chiều"
+            },
+            {
+              "label": "Taxi - xe van thuê riêng",
+              "price": "1 xe khoảng ₱1,500-3,000",
+              "note": "Khứ hồi kèm chờ"
+            },
+            {
+              "label": "Tour ghép từ Manila",
+              "price": "Khoảng ₱1,800-2,500/người",
+              "note": "Đã gồm di chuyển, đăng ký, hướng dẫn viên"
+            },
+            {
+              "label": "Chỗ ở Baguio",
+              "price": "1 đêm khoảng ₱1,500-3,500",
+              "note": "Nên ở lại 1 đêm hôm trước"
+            },
+            {
+              "label": "Bữa ăn - đồ ăn nhẹ",
+              "price": "Khoảng ₱300-600",
+              "note": "Đã gồm cơm hộp - nước uống"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính năm " },
+            { "type": "date", "text": "2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Quanh núi Ulap hầu như không có chỗ ở nên thông thường bạn sẽ nghỉ lại ở trung tâm Baguio. Nếu chọn nhà nghỉ (khoảng "
+            },
+            { "type": "price", "text": "₱1,500-2,500" },
+            { "text": "/đêm) hoặc khách sạn tầm trung (từ khoảng " },
+            { "type": "price", "text": "₱3,000" },
+            {
+              "text": " trở lên) ở khu trung tâm gần trạm xe jeepney đi Philex, quanh phố Session Road, công viên Burnham, việc xuất phát rạng sáng sẽ thuận tiện hơn."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Trên cung đường không có nhà hàng, chỉ có thể mua nước và đồ ăn nhẹ ở các cửa hàng nhỏ quanh điểm xuất phát. Hãy chuẩn bị cơm hộp, bánh mì, trái cây, sô-cô-la từ cửa hàng tiện lợi hoặc chợ ở Baguio từ hôm trước. Sau khi xuống núi, trở về Baguio thưởng thức bulalo (súp xương bò), món rau Benguet, taho dâu tây sẽ là phần thưởng tuyệt vời xua tan mệt mỏi sau chuyến leo núi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Có hướng dẫn viên đi cùng là bắt buộc. Đăng ký thường được nhận trực tiếp tại hội trường barangay Ampucao, nhưng nhóm từ 15 người trở lên có thể cần đặt chỗ trước, nên hãy liên hệ trang chính thức."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Hãy mang theo ít nhất 1,5-2 lít nước. Trên sống núi không có nơi để mua nước."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Mũ, kem chống nắng, kính râm là những thứ bắt buộc. Vì độ cao lớn nên tia UV mạnh và có nhiều đoạn dài không có bóng râm."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Rạng sáng khá lạnh nên hãy mang theo áo gió mỏng, và khi mặt trời lên bạn có thể cởi ra cất vào balo."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Nếu đến trước " },
+                { "type": "time", "text": "8-9 giờ sáng" },
+                { "text": ", thời gian chờ chụp ảnh ở tảng đá Gungal sẽ ngắn hơn." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Hãy mang giày trekking hoặc giày thể thao có độ bám tốt. Đường đất và lá thông ở đoạn xuống núi rất trơn."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Sóng điện thoại bắt được ở các đỉnh núi nhưng yếu ở thung lũng. Hãy lưu số liên lạc của hướng dẫn viên và các thành viên trong nhóm."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Chỉ nhận tiền mặt nên hãy chuẩn bị phí đăng ký và phí hướng dẫn viên bằng tiền mệnh giá nhỏ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Nếu có gậy leo núi, bạn sẽ giảm đáng kể áp lực lên đầu gối ở đoạn dốc dài xuống phía Santa Fe."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nếu là người mới, đi dạo nhẹ ở trung tâm Baguio vào hôm trước để cơ thể thích nghi với độ cao (khoảng "
+                },
+                { "type": "distance", "text": "1,500m" },
+                { "text": ") sẽ giúp đoạn leo dốc đầu tiên dễ dàng hơn." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Tảng đá Gungal là mép vực không có lan can an toàn. Khi gió mạnh hoặc đá ướt, đừng đứng ở mép đá và hãy tuân theo hướng dẫn của hướng dẫn viên."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Sau khi mưa, đường đất rất trơn trượt. Vào mùa mưa, hãy chuẩn bị gậy leo núi và tránh leo núi quá sức."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Hang mai táng và nơi làm lễ quanh cung đường là những nơi linh thiêng. Đừng chạm vào hoặc đi vào bên trong."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Toàn bộ rác phải được mang xuống, và hút thuốc hay đốt lửa đều bị cấm." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Việc vận hành cung đường có thể tạm ngừng do thời tiết hoặc tình hình địa phương, nên hãy kiểm tra thông báo mới nhất trên trang chính thức trước khi khởi hành."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Xuống núi vào chiều muộn có thể nguy hiểm vì phương tiện công cộng có thể ngừng chạy. Hãy lên kế hoạch đến Santa Fe chậm nhất là trước "
+                },
+                { "type": "time", "text": "2-3 giờ chiều" },
+                { "text": "." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Baguio",
+              "place": "baguio",
+              "children": [
+                { "text": "Cách khoảng " },
+                { "type": "duration", "text": "40 phút - 1 giờ" },
+                {
+                  "text": " đi xe, thích hợp để kết hợp chỗ ở, ăn uống và tham quan thành phố trước và sau khi leo núi."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Núi Pulag",
+              "place": "mount-pulag",
+              "children": [
+                { "text": "Cách Baguio khoảng " },
+                { "type": "duration", "text": "2-3 giờ" },
+                {
+                  "text": " đi xe, là đỉnh núi cao nhất Luzon, thích hợp để chinh phục sau khi đã khởi động bằng núi Ulap."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Bảo tàng BenCab",
+              "children": [
+                { "text": "Ở đường Asin, Baguio, cách khoảng " },
+                { "type": "duration", "text": "30 phút" },
+                {
+                  "text": " đi xe. Là bảo tàng nghệ thuật thích hợp để tham quan thong thả vào ngày sau khi leo núi."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Sagada",
+              "place": "sagada",
+              "children": [
+                { "text": "Cách Baguio khoảng " },
+                { "type": "duration", "text": "5-6 giờ" },
+                {
+                  "text": " đi xe buýt, là ngôi làng thích hợp để tiếp tục hành trình núi non Cordillera."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "id": 58,
+  "slug": "guimaras",
+  "title": { "type": "title", "text": "吉马拉斯岛" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Guimaras" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "世界上最甜的芒果正在成熟的岛屿" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "visayas", "text": "米沙鄢" },
+  "region": { "type": "badge", "label": "地区", "value": "guimaras", "text": "吉马拉斯" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "吉马拉斯省（乔丹·新瓦伦西亚）" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "海滩·海岛"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["芒果", "环岛游", "海滩", "跳岛游", "修道院"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 10.57 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 122.58 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "3月至5月（旱季·芒果收获季）",
+    "months": [3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "1~2天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱1,500~3,500",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 3500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "简单",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "伊洛伊洛国际机场 (ILO)",
+    "code": "ILO"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/058-guimaras.webp",
+    "alt": "吉马拉斯",
+    "credit": "Elmer nev valenzuela / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rockies_of_Taklong_Island.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/058-guimaras-2.webp",
+        "alt": "吉马拉斯",
+        "credit": "Iloilo Wanderer / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_few_ferries_off_of_Guimaras,_the_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/058-guimaras-3.webp",
+        "alt": "吉马拉斯",
+        "credit": "Iloilo Wanderer / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Guimaras_ferry.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "从伊洛伊洛乘方卡仅需" },
+      { "type": "duration", "text": "15分钟" },
+      { "text": "即可抵达的菲律宾芒果故乡。芒果农场、芒果披萨、特拉普派修道院，加上南部海岸的小岛跳岛游，一两天便能从容游遍全岛。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "吉马拉斯是漂浮在班乃岛与内格罗斯岛之间吉马拉斯海峡上的一座岛屿，面积约600平方公里，也是\"一岛一省\"的小型行政区。这里长期隶属伊洛伊洛省，" },
+            { "type": "date", "text": "1992年" },
+            { "text": "独立成为一个省，下辖乔丹（省会）、布埃纳维斯塔、新瓦伦西亚、圣洛伦索、西巴伦扬五个镇。从伊洛伊洛市帕罗拉码头出发，隔海不过" },
+            { "type": "duration", "text": "15分钟" },
+            { "text": "船程，但一踏上岛屿，都市的喧嚣便瞬间消散，取而代之的是芒果树成行的宁静乡村风光。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "让吉马拉斯名扬全国的正是芒果。在菲律宾卡拉宝芒果中，吉马拉斯产的芒果以糖度高、香气浓郁著称，岛上设有国家芒果研发中心。为守护岛屿芒果的品质与无病虫害状态，甚至禁止外来芒果流入岛内，可见当地对芒果的珍视程度。每年"
+            },
+            { "type": "date", "text": "5月" },
+            { "text": "都会举办庆祝芒果丰收的芒加汗节(Manggahan Festival)。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "岛屿西南部的新瓦伦西亚海岸则别具魅力。以阿卢比霍德海滩为中心，散布着小型无人岛与石灰岩礁岛，塔克隆岛国家海洋保护区是一处红树林与珊瑚礁保存完好的生态保护地。西班牙时代的灯塔遗迹所在的吉希海滩、山丘上的朝圣地巴拉安布基德，以及僧侣们制作芒果果酱的特拉普派修道院，众多景点散落于岛屿各处。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "相比大型度假村或华丽的娱乐活动，这里更适合喜爱宁静村庄、水果与朴素海滩的旅行者。既适合在伊洛伊洛旅行途中当日往返，也适合入住海滨度假村悠闲小住一晚。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "品尝芒果与参观芒果农场",
+              "children": [
+                { "text": "旺季（大致为" },
+                { "type": "date", "text": "3~5月" },
+                { "text": "）时，路边水果摊和市场上能以低价买到刚摘下的新鲜芒果。可在芒果农场或研发中心附近漫步，穿行于芒果林之间。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "芒果披萨与芒果料理",
+              "children": [{ "text": "乔丹附近餐厅出售的芒果披萨是岛上的一大特色，铺上腰果与芒果，呈现甜咸交织的风味，配芒果奶昔一同享用尤佳。" }]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "特拉普派修道院",
+              "children": [
+                { "text": "位于乔丹圣米格尔的菲律宾圣母特拉普派修道院，静谧的庭院与朴素的礼拜堂令人印象深刻。修道院纪念品店可购买芒果果酱、芒果饼干和腰果制品。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "阿卢比霍德海滩与岛屿跳岛游",
+              "children": [
+                { "text": "在新瓦伦西亚的阿卢比霍德海滩租一艘方卡，游览圣母岛、小型洞穴与礁石岛、浮潜点。每船约" },
+                { "type": "price", "text": "₱1,000~2,000" },
+                { "text": "。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "塔克隆岛海洋保护区",
+              "children": [
+                { "text": "由红树林、海草床与珊瑚礁构成的保护区，如同代表图像般，覆盖着翠绿森林的石灰岩礁岛景色十分优美。入内与活动须遵守管理规定。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "吉希灯塔遗迹与吉希海滩",
+              "children": [
+                { "type": "date", "text": "1890年" },
+                { "text": "代西班牙时期建造的石造灯塔遗迹保留在海边山丘上，一旁还有新建的灯塔，下方海滩清静，适合游泳。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "巴拉安布基德朝圣地",
+              "children": [
+                { "text": "乔丹山丘上矗立着巨大十字架的圣地，沿阶梯而上可俯瞰吉马拉斯海峡与伊洛伊洛市。圣周五会上演受难剧\"安帕格塔尔塔尔萨吉马拉斯\"。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "恩坎塔达岩宅",
+              "children": [{ "text": "建于布埃纳维斯塔海岸岩石上的20世纪初宅邸，曾是伊洛伊洛名门望族的避暑别墅。可一并欣赏其外观与海岸风光。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "第1天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "上午7点",
+                      "children": [
+                        { "text": "从伊洛伊洛市帕罗拉码头乘开往乔丹的方卡（约" },
+                        { "type": "duration", "text": "15分钟" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "上午7点30分", "children": [{ "text": "在乔丹码头旅游咨询处签约租用环岛三轮摩托车" }] },
+                    { "time": "上午8点", "children": [{ "text": "巴拉安布基德朝圣地观景台" }] },
+                    { "time": "上午9点30分", "children": [{ "text": "参观特拉普派修道院并选购纪念品" }] },
+                    { "time": "上午11点", "children": [{ "text": "造访芒果农场·研发中心一带" }] },
+                    { "time": "正午", "children": [{ "text": "在乔丹附近餐厅享用芒果披萨与芒果奶昔午餐" }] },
+                    {
+                      "time": "下午1点30分",
+                      "children": [
+                        { "text": "前往新瓦伦西亚阿卢比霍德海滩（约" },
+                        { "type": "duration", "text": "1小时" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "下午2点30分", "children": [{ "text": "岛屿跳岛游与浮潜" }] },
+                    { "time": "下午5点", "children": [{ "text": "入住海滨度假村，欣赏日落" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第2天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "上午", "children": [{ "text": "塔克隆岛保护区或吉希灯塔遗迹与吉希海滩" }] },
+                    { "time": "下午", "children": [{ "text": "返回乔丹码头选购芒果纪念品后返回伊洛伊洛" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飞机",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从马尼拉到伊洛伊洛国际机场(ILO)约" },
+                        { "type": "duration", "text": "1小时10分钟" },
+                        { "text": "。从机场到市区帕罗拉码头乘出租车·Grab约" },
+                        { "type": "duration", "text": "45分钟~1小时" },
+                        { "text": "。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从伊洛伊洛市帕罗拉码头到乔丹码头，机动方卡约每" },
+                        { "type": "duration", "text": "15分钟" },
+                        { "text": "一班（冷清时段约" },
+                        { "type": "duration", "text": "30分钟~1小时" },
+                        { "text": "一班），每人约" },
+                        { "type": "price", "text": "₱20~40" },
+                        { "text": "。首班船清晨发出，末班船大致在" },
+                        { "type": "time", "text": "下午6~7点" },
+                        { "text": "前后。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "也有开往布埃纳维斯塔方向的航线；若要连车带人渡海，需在伊洛伊洛的滚装(RoRo)码头乘坐开往乔丹的滚装船。" }
+                      ]
+                    },
+                    { "children": [{ "text": "方卡票价和航班时间可能因海事主管部门与省政府决定而变动，请确认最新公告。" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "巴士·面包车",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "若从巴科洛德出发，需先乘快艇抵达伊洛伊洛（约" },
+                        { "type": "duration", "text": "1小时" },
+                        { "text": "），再前往帕罗拉码头。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "当地交通",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "岛内出行可乘三轮摩托车或多功能小卡（Multicab，小型卡车式吉普尼）。可在乔丹码头旅游咨询处以定价方式包租环岛三轮摩托车，视路线而定，一天约"
+                        },
+                        { "type": "price", "text": "₱1,200~2,500" },
+                        { "text": "。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "从乔丹到新瓦伦西亚的拼车吉普尼·多功能小卡，每人约" },
+                        { "type": "price", "text": "₱40~80" },
+                        { "text": "，约" },
+                        { "type": "duration", "text": "1小时" },
+                        { "text": "。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "旱季的" },
+            { "type": "date", "text": "12月" },
+            { "text": "至" },
+            { "type": "date", "text": "5月" },
+            { "text": "最适合环岛游览和海滩活动。尤其" },
+            { "type": "date", "text": "3月" },
+            { "text": "至" },
+            { "type": "date", "text": "5月" },
+            { "text": "是芒果收获旺季，能以最实惠的价格吃到最美味的芒果。" },
+            { "type": "date", "text": "5月下旬" },
+            { "text": "建省纪念日前后会举办芒加汗节，芒果大胃王比赛、游行、农产品展等活动接连不断。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月" },
+            { "text": "至" },
+            { "type": "date", "text": "11月" },
+            { "text": "为雨季，午后阵雨与西南季风常导致南部海域的跳岛游取消。台风主要在" },
+            { "type": "date", "text": "8~11月" },
+            { "text": "产生影响，届时伊洛伊洛与吉马拉斯之间的方卡航运也会中断。复活节前圣周期间，前往巴拉安布基德朝圣与观看受难剧的游客会大幅增加。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "帕罗拉↔乔丹方卡", "price": "单程约₱20~40", "note": "约15分钟" },
+            { "label": "环岛三轮摩托车包租", "price": "每天约₱1,200~2,500", "note": "视路线·人数而定" },
+            { "label": "拼车吉普尼·多功能小卡", "price": "每次约₱40~80", "note": "乔丹↔新瓦伦西亚" },
+            { "label": "岛屿跳岛游船", "price": "每船约₱1,000~2,000", "note": "阿卢比霍德出发" },
+            { "label": "景点门票", "price": "每处约₱20~100", "note": "含海滩·保护区环境保护费" },
+            { "label": "海滨度假村住宿", "price": "每晚约₱1,500~4,500", "note": "新瓦伦西亚一带" },
+            { "label": "餐费", "price": "每餐约₱200~500", "note": "芒果披萨每份约₱300~600" },
+            { "label": "芒果·芒果制品", "price": "约₱100~500", "note": "视是否当季而定" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "吉马拉斯的住宿最集中在新瓦伦西亚的阿卢比霍德海滩周边。海滩前的小屋与中小型度假村每晚约" },
+            { "type": "price", "text": "₱1,500~4,500" },
+            { "text": "，旺季周末常有伊洛伊洛市民前来当日或过夜出游而爆满，建议提前预订。乔丹省会附近也有小型酒店与民宿，可依环岛动线选择。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "这里的美食主角当然是芒果。生芒果、芒果奶昔、芒果披萨、芒果番茄酱、芒果果酱、芒果干，几乎所有以芒果制成的料理都能品尝到。海滨度假村和海岸餐馆也能以合理价格享用烤鱼、鱿鱼、贝类料理。特拉普派修道院纪念品店的芒果果酱与饼干，以及乔丹码头前纪念品店的芒果干，都是颇受欢迎的伴手礼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "抵达乔丹码头后，请先到旅游咨询处确认岛屿地图与定价三轮摩托车费用。相比与揽客司机个别议价，这样纠纷更少。" }] },
+            { "children": [{ "text": "环岛距离相当远。若为当日往返，建议以北部（修道院·朝圣地·芒果）或南部（海滩·跳岛游）其中一侧为中心规划行程。" }] },
+            { "children": [{ "text": "ATM只在乔丹等部分地区设有，请在伊洛伊洛提前准备充足现金。" }] },
+            {
+              "children": [
+                { "text": "芒果在非旺季时价格会大幅上涨，口感也会打折扣，建议" },
+                { "type": "date", "text": "3~5月" },
+                { "text": "前往。" }
+              ]
+            },
+            { "children": [{ "text": "将芒果作为纪念品带回伊洛伊洛虽然可行，但飞机托运及跨境携带需确认检疫规定。原则上不可将生芒果带入韩国。" }] },
+            {
+              "children": [
+                { "text": "请事先确认末班方卡时间，" },
+                { "type": "time", "text": "下午5点" },
+                { "text": "前后返回乔丹一侧较为安全。" }
+              ]
+            },
+            { "children": [{ "text": "阿卢比霍德海滩退潮时水位会变浅，游泳与跳岛游请配合潮汐时间规划。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "严禁将岛外购买的芒果或芒果树苗带入岛内。若在码头检疫中被查获将被没收。" }] },
+            { "children": [{ "text": "海洋保护区内禁止采集珊瑚·贝类、垂钓及触摸海洋生物，请遵循管理人员指引。" }] },
+            { "children": [{ "text": "方卡在浪高时会停航。雨季请预留行程余地，并务必穿好救生衣。" }] },
+            { "children": [{ "text": "乡间道路夜间几乎没有照明。不建议租摩托车夜间骑行。" }] },
+            { "children": [{ "text": "知名景点的门票或环境保护费因各镇而异，且经常变动，请确认最新公告。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "伊洛伊洛",
+              "place": "iloilo-city",
+              "children": [
+                { "text": "乘方卡约" },
+                { "type": "duration", "text": "15分钟" },
+                { "text": "，巴乔伊汤面与历史街区的美食之城" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "米亚高教堂",
+              "place": "miagao-church",
+              "children": [
+                { "text": "经伊洛伊洛车程约" },
+                { "type": "duration", "text": "1小时30分钟" },
+                { "text": "，联合国教科文组织世界遗产巴洛克教堂" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "巴科洛德与废墟庄园",
+              "place": "bacolod",
+              "children": [
+                { "text": "从伊洛伊洛乘快艇约" },
+                { "type": "duration", "text": "1小时" },
+                { "text": "，伊纳萨尔烤鸡与废墟豪宅" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "巨人群岛",
+              "place": "islas-de-gigantes",
+              "children": [
+                { "text": "经伊洛伊洛北部卡尔莱斯约" },
+                { "type": "duration", "text": "5小时" },
+                { "text": "，扇贝与石灰岩岛跳岛游" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

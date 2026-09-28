@@ -1,0 +1,611 @@
+{
+  "id": 38,
+  "slug": "mayon-volcano",
+  "title": { "type": "title", "text": "マヨン火山" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mayon Volcano" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "世界で最も完璧な円錐、生き続けるビコールの象徴" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "bicol", "text": "ビコール" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "アルバイ州レガスピ・ダラガ・カマリグ"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "landscape",
+    "value": "nature",
+    "text": "自然景観"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["活火山", "完璧な円錐形", "ATVツアー", "展望台", "ビコール料理"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.7, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 13.2567 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 123.685 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "2月〜5月(乾季)",
+    "months": [2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "1〜2日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱1,500〜4,000",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ビコール国際空港 (DRP)",
+    "code": "DRP"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/038-mayon-volcano.webp",
+    "alt": "マヨン火山",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Mayon_Cagsawa_field_view_close-up_(Busay,_Daraga,_Albay;_04-21-2023).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/038-mayon-volcano-2.webp",
+        "alt": "マヨン火山",
+        "credit": "Chrizluminario / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mayon_Volcano_and_the_Sleeping_Lion.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/038-mayon-volcano-3.webp",
+        "alt": "マヨン火山",
+        "credit": "Marisa Mercado / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mayon_Volcano_as_of_March_2020.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "標高約" },
+      { "type": "distance", "text": "2,462m" },
+      {
+        "text": "のマヨン火山は、ほぼ完璧な円錐形で有名なフィリピンで最も活発な活火山です。登頂は禁止されていますが、カグサワ遺跡、リニョン・ヒル、ATV溶岩トレイルなど、アルバイ各地でその壮大な姿を間近に楽しむことができます。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "マヨン火山(Mayon Volcano)は、ルソン島南東部ビコール地方アルバイ州にそびえる標高約" },
+            { "type": "distance", "text": "2,462m" },
+            {
+              "text": "の成層火山です。海に近い平野からほぼ左右対称の円錐形にそびえ立ち、「世界で最も完璧な円錐火山」と呼ばれています。名前はビコール語で「美しい」を意味する「マガヨン(magayon)」に由来すると伝えられ、美しい女性ダラガン・マガヨンの伝説がこの火山に宿っています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "美しい姿とは裏腹に、マヨンはフィリピンで最も活発な活火山です。17世紀以降記録された噴火だけでも50回を超えます。" },
+            { "type": "date", "text": "1814年2月1日" },
+            { "text": "の大噴火では火砕流と火山灰が近隣の村を襲い、1,000人を超える人が命を落とし、その痕跡が今のカグサワ遺跡として残っています。" },
+            { "type": "date", "text": "1993年" },
+            { "text": "、" },
+            { "type": "date", "text": "2018年" },
+            { "text": "、" },
+            { "type": "date", "text": "2023年" },
+            { "text": "にも噴火が続きました。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "2026年" },
+            { "text": "にもマヨンは活動を続けました。" },
+            { "type": "date", "text": "1月" },
+            { "text": "に警戒レベル3に引き上げられた後、溶岩が流れ火砕流が発生し、フィリピン火山地震研究所(PHIVOLCS)は活動が弱まったことを受けて" },
+            { "type": "date", "text": "2026年8月5日" },
+            { "text": "に警戒レベルを2に引き下げました。警戒レベルにかかわらず、山頂周辺半径" },
+            { "type": "distance", "text": "6km" },
+            { "text": "は恒久的危険区域(PDZ)として立ち入りが禁止されており、現在一般観光客の山頂登頂は認められていません。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "そのためマヨン旅行は「登る」旅行ではなく「眺める」旅行です。レガスピ市街、カグサワ遺跡、リニョン・ヒル、カマリグの湖や丘など、どこからでも違った角度のマヨンを見ることができ、火山の裾野の溶岩地帯をATVで走るツアーも人気が高いです。壮大な自然の風景、辛みの効いたビコール料理、スペイン統治時代の教会や遺跡を一緒に楽しみたい旅行者に向いています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "カグサワ遺跡からマヨンを眺める",
+              "children": [
+                { "type": "date", "text": "1814年" },
+                {
+                  "text": "の噴火で崩れた教会の鐘楼と、その背後にそびえるマヨンは、フィリピンを代表する写真の構図です。朝早く、山頂に雲がかかる前に訪れるのがよいでしょう。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "ATV溶岩トレイル",
+              "children": [
+                { "text": "カグサワ一帯から出発するATVツアーは、コースによって" },
+                { "type": "duration", "text": "30分" },
+                { "text": "の草原コースから" },
+                { "type": "duration", "text": "3〜4時間" },
+                {
+                  "text": "の溶岩トレイルまで多様です。固まった溶岩地帯と火山の谷を走りながら、マヨンを最も間近に感じることができます。警戒レベルによって運営コースが制限されます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "リニョン・ヒル自然公園",
+              "children": [
+                {
+                  "text": "レガスピ市街北側の小さな丘で、山頂の展望台からはマヨンとレガスピの市街地、アルバイ湾を一望できます。ジップラインや遊歩道、展望カフェがあり、夕暮れ時に特によいでしょう。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "ダラガ教会",
+              "children": [
+                { "type": "date", "text": "1773年" },
+                { "text": "に火山石で建てられたバロック様式の教会で、丘の上に立っており、教会前の階段からマヨンが正面に見えます。繊細な外壁の彫刻も見応えがあります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "レガスピ海岸プロムナード",
+              "children": [
+                {
+                  "text": "アルバイ湾に沿って続くレガスピ・ブールバードは、ジョギングや散策を楽しむ市民でにぎわう場所です。海の向こうに見えるマヨンの姿と夕暮れの風景が美しいです。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "カマリグのスムラン湖",
+              "children": [
+                { "text": "竹のいかだに乗って、穏やかな湖の上からマヨンを眺められる場所です。水面に映る火山の姿が美しく、人気の撮影スポットになっています。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "ビコール料理を味わう",
+              "children": [
+                {
+                  "text": "ココナッツミルクと唐辛子を入れたビコール・エクスプレス、里芋の葉をココナッツミルクで煮込んだラエン、カマリグの名物ピナンガット、辛いチリアイスクリームまで、ビコール地方の辛味を体験してみてください。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "夜の火山観察",
+              "children": [
+                {
+                  "text": "活動期にはレガスピ市街や安全な展望地点から、夜に山頂の赤い溶岩の光が見えることもあります。必ず当局が許可した安全な場所からのみ観察してください。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "カグサワ遺跡に到着、早朝のマヨン撮影" }] },
+                    { "time": "07:30", "children": [{ "text": "カグサワ周辺の食堂で朝食" }] },
+                    {
+                      "time": "08:30",
+                      "children": [
+                        { "text": "ATVツアー(コース選択、約" },
+                        { "type": "duration", "text": "1〜3時間" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "12:00", "children": [{ "text": "ダラガで昼食 — ビコール・エクスプレス、ラエン" }] },
+                    { "time": "13:30", "children": [{ "text": "ダラガ教会を見学" }] },
+                    { "time": "15:00", "children": [{ "text": "レガスピ市街の宿にチェックインして休憩" }] },
+                    { "time": "16:30", "children": [{ "text": "リニョン・ヒル展望台、ジップライン体験" }] },
+                    { "time": "18:30", "children": [{ "text": "レガスピ・ブールバードを散策後、夕食、チリアイスクリーム" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "レガスピ海岸で日の出とマヨンの撮影" }] },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "カマリグへ移動(約" },
+                        { "type": "duration", "text": "30分" },
+                        { "text": ")、スムラン湖の竹いかだ" }
+                      ]
+                    },
+                    { "time": "10:00", "children": [{ "text": "カマリグのキトゥイナン・ヒルまたはホヨップホヨパン洞窟" }] },
+                    { "time": "12:00", "children": [{ "text": "カマリグのピナンガットで昼食" }] },
+                    { "time": "13:30", "children": [{ "text": "レガスピに戻り、お土産(フィリナッツ菓子)を購入" }] },
+                    { "time": "15:00", "children": [{ "text": "ビコール国際空港へ移動しマニラ行きの航空便に搭乗" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラからアルバイ州ダラガにあるビコール国際空港(DRP)まではフィリピン航空とセブパシフィックが運航しており、約" },
+                    { "type": "duration", "text": "1時間" },
+                    { "text": "、片道約" },
+                    { "type": "price", "text": "₱2,000〜5,500" },
+                    { "text": "です。セブからも直行便があります。空港からレガスピ市街までは約" },
+                    { "type": "duration", "text": "30〜40分" },
+                    { "text": "で、空港シャトルバンやタクシー・グラブ(運行の有無を要確認)を利用します。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "バス",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "マニラのクバオ、パサイ、PITXターミナルからレガスピ行きのバスが毎日出発します。DLTB、フィルトランコなど複数の会社が運行しており、約"
+                    },
+                    { "type": "duration", "text": "10〜12時間" },
+                    { "text": "、運賃は等級によって約" },
+                    { "type": "price", "text": "₱1,000〜1,800" },
+                    { "text": "です。夜行バスに乗れば朝にレガスピに到着します。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "現地での移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "レガスピ市街とダラガ、カマリグの間はジプニーとバンが随時運行しており、運賃は約" },
+                    { "type": "price", "text": "₱20〜60" },
+                    { "text": "です。カグサワ遺跡はレガスピからジプニーで約" },
+                    { "type": "duration", "text": "30分" },
+                    { "text": "で、ダラガ方面のジプニーに乗ってカグサワ入口で降り、トライシクルに乗り換えます。1日で複数の名所を回るなら、トライシクル半日貸切(約" },
+                    { "type": "price", "text": "₱800〜1,500" },
+                    { "text": ")か運転手付きバン1日貸切(約" },
+                    { "type": "price", "text": "₱3,000〜4,500" },
+                    { "text": ")が便利です。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ビコール地方はルソン西部と違い、はっきりした乾季が短く年間を通じて雨が降りやすい地域です。比較的雨が少なく空が澄んでいる" },
+            { "type": "date", "text": "2月" },
+            { "text": "から" },
+            { "type": "date", "text": "5月" },
+            { "text": "までが、マヨンを見るのに最も適した時期です。特に" },
+            { "type": "date", "text": "3〜4月" },
+            { "text": "は早朝、山頂まで雲なく見える日が多くなります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月" },
+            { "text": "から" },
+            { "type": "date", "text": "12月" },
+            { "text": "までは台風と北東季節風の影響で雨が多くなり、" },
+            { "type": "date", "text": "9〜12月" },
+            {
+              "text": "にはビコール地方を貫通する強い台風が頻繁に来ます。雨が多く降ると、火山斜面の火山灰が流れ下るラハール(火山泥流)の危険が高まり、ATVツアーが中止されることもあります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "マヨンは一日のうちの時間帯も重要です。山頂は通常" },
+            { "type": "time", "text": "午前9〜10時" },
+            { "text": "を過ぎると雲に隠れ始めるため、日の出直後から" },
+            { "type": "time", "text": "午前8時" },
+            { "text": "までが最もよく見えます。アルバイ州では" },
+            { "type": "date", "text": "4〜5月" },
+            { "text": "頃に「マガヨン祭り」を、レガスピ市では" },
+            { "type": "date", "text": "8月" },
+            { "text": "頃に「イバロン祭り」を開催し、街のパレードと公演が続きます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "マニラ–ビコール国際空港航空", "price": "片道約₱2,000〜5,500", "note": "約1時間" },
+            { "label": "マニラ–レガスピバス", "price": "約₱1,000〜1,800", "note": "片道、約10〜12時間" },
+            { "label": "ATVツアー", "price": "約₱500〜2,600", "note": "30分〜4時間のコース別、1台あたり" },
+            { "label": "カグサワ遺跡入場料", "price": "約₱20〜50", "note": "現地徴収" },
+            { "label": "リニョン・ヒル入場料", "price": "約₱30〜50", "note": "ジップラインは別途" },
+            { "label": "スムラン湖のいかだ", "price": "約₱100〜300", "note": "1人または1回あたり" },
+            { "label": "バン1日貸切", "price": "1台あたり約₱3,000〜4,500", "note": "運転手込み" },
+            { "label": "宿泊(レガスピ)", "price": "1泊あたり約₱1,200〜5,000", "note": "中級ホテルの場合" },
+            { "label": "食事", "price": "1食あたり約₱200〜500", "note": "ローカル食堂の場合" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "マヨン旅行の拠点はアルバイ州都レガスピです。市街中心部と海岸ブールバード周辺には1泊約" },
+            { "type": "price", "text": "₱1,200〜3,000" },
+            {
+              "text": "台の中級ホテルが多く、窓からマヨンが見える「マヨンビュー」客室を備えたホテルもあるので、予約時に確認してください。静かな雰囲気を望むなら、ダラガやカマリグの小規模リゾートや民宿も選択肢です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ビコール料理はココナッツミルクと唐辛子を惜しみなく使うのが特徴です。豚肉と唐辛子をココナッツミルクで煮込んだビコール・エクスプレス、里芋の葉をココナッツミルクで煮込んだラエン、里芋の葉にエビとココナッツミルクを包んで蒸したカマリグのピナンガットが代表料理です。レガスピの老舗食堂ファースト・コロニアル・グリル(1st Colonial Grill)のチリアイスクリームは、辛さと甘さが同居する独特のデザートとして有名です。お土産にはビコール特産のナッツ、フィリナッツで作った菓子やキャンディが人気です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "訪問前にフィリピン火山地震研究所(PHIVOLCS)の公式発表で、現在の警戒レベルと規制区域を必ず確認してください。警戒レベルによってATVコースや一部の展望台が閉鎖されます。"
+                }
+              ]
+            },
+            { "children": [{ "text": "マヨンは早朝が最もよく見えます。写真が目的なら、日の出の頃にカグサワやレガスピの海岸に到着してください。" }] },
+            {
+              "children": [
+                { "text": "ATVツアーは複数の業者が競っているため、コース、時間、1台あたりの乗車人数、ヘルメット・マスクの提供有無を比較して選んでください。" }
+              ]
+            },
+            { "children": [{ "text": "ATVツアー中は火山灰の埃が多くなります。マスク、サングラス、汚れてもよい服、長ズボンを用意してください。" }] },
+            {
+              "children": [
+                { "text": "レガスピ市街にはATMやショッピングモールが多くありますが、カマリグやカグサワ周辺では現金のみ対応の場所がほとんどです。" }
+              ]
+            },
+            { "children": [{ "text": "雨がよく降るため、傘やレインコートを常に持ち歩いてください。" }] },
+            { "children": [{ "text": "辛い料理が苦手なら、注文の際に「辛さ控えめで」とお願いすれば、たいてい調整してもらえます。" }] },
+            { "children": [{ "text": "ドンソルのジンベエザメのシーズンなら、レガスピを拠点にドンソル日帰りツアーを組み合わせるとよいでしょう。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "山頂半径" },
+                { "type": "distance", "text": "6km" },
+                { "text": "の恒久的危険区域は、警戒レベルにかかわらず立ち入り禁止です。無許可のガイドに従って登頂を試みることは絶対にしないでください。" },
+                { "type": "date", "text": "2013年" },
+                { "text": "には登山中に前触れのない水蒸気爆発が起こり、外国人登山者やガイドなど5人が亡くなる事故がありました。" }
+              ]
+            },
+            { "children": [{ "text": "警戒レベルが上がると、周辺住民の避難と道路規制が行われます。現地当局の案内を最優先で守ってください。" }] },
+            { "children": [{ "text": "火山灰が舞う日は、呼吸器疾患のある人や子どもは屋外活動を控え、N95マスクを着用してください。" }] },
+            { "children": [{ "text": "大雨の後は火山斜面の河川でラハールが発生することがあります。川底や涸れ谷にとどまらないでください。" }] },
+            {
+              "children": [
+                { "type": "date", "text": "9〜12月" },
+                { "text": "の台風シーズンは航空便やバスが欠航することがあるため、日程に余裕を持たせてください。" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "マヨンは今も生きている火山です。美しい風景の裏には常に危険があることを忘れず、公式警報を確認したうえで許可された場所でのみ楽しんでください。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "カグサワ遺跡",
+              "place": "cagsawa-ruins",
+              "children": [
+                { "text": "レガスピから車で約" },
+                { "type": "duration", "text": "30分" },
+                { "text": "、" },
+                { "type": "date", "text": "1814年" },
+                { "text": "の噴火で崩れた教会の鐘楼とマヨンが調和する名所です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ドンソル",
+              "place": "donsol",
+              "children": [
+                { "text": "レガスピから車で約" },
+                { "type": "duration", "text": "1時間30分" },
+                { "text": "、ジンベエザメと一緒に泳ぎ、ホタルの川を見られる場所です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "カラモアン",
+              "place": "caramoan",
+              "children": [{ "text": "カマリネス・スル州、レガスピから陸路と船で半日、石灰岩の島々と隠れたビーチが集まるビコール代表の島巡りの名所です。" }]
+            },
+            {
+              "type": "card",
+              "title": "ナガ市",
+              "children": [
+                { "text": "レガスピから車で約" },
+                { "type": "duration", "text": "2時間30分" },
+                { "text": "、ペニャフランシア聖母の巡礼地として有名なビコール地方の中心都市です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

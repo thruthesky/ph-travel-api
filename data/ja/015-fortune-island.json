@@ -1,0 +1,585 @@
+{
+  "id": 15,
+  "slug": "fortune-island",
+  "title": { "type": "title", "text": "フォーチュン島" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Fortune Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "海に浮かぶ断崖にギリシャ神殿風の柱が立つ島" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "batangas", "text": "バタンガス" },
+  "location": { "type": "address", "label": "所在地", "icon": "location_on", "text": "バタンガス州ナスグブ沖" },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "ビーチ・島"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "タグ",
+    "items": ["ギリシャ風の柱", "クリフダイビング", "キャンプ", "シュノーケリング", "無人島"]
+  },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 14.0567 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.4911 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "11月〜5月（乾季、特に3月〜5月）",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "日帰り〜1泊（キャンプ）" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱1,500〜3,000（10人グループの場合）",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 3000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "ふつう",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ニノイ・アキノ国際空港 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/015-fortune-island.webp",
+    "alt": "フォーチュン島",
+    "credit": "P199 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fortune_Island.JPG"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/015-fortune-island-2.webp",
+        "alt": "フォーチュン島",
+        "credit": "bonheureux / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fortune_Island_(14455431897).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/015-fortune-island-3.webp",
+        "alt": "フォーチュン島",
+        "credit": "Oliver Mercader / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Path_to_Greece_(Fortune_Island).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "ナスグブ沖の小島に、" },
+      { "type": "date", "text": "1990年" },
+      {
+        "text": "代に閉鎖された高級リゾートが残したギリシャ神殿風の柱が立っており、「フィリピンの中のギリシャ」と呼ばれ、青い海を背景にした柱の写真撮影やクリフダイビング、無人島キャンプを楽しめます。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "フォーチュン島は、バタンガス州ナスグブ（Nasugbu）の海岸から西へ約" },
+            { "type": "distance", "text": "14km" },
+            {
+              "text": "離れた、面積20ヘクタールほどの小さな島です。石灰岩の断崖に囲まれた島の片側には白い砂浜が開けており、島を取り囲む海は水深によって翡翠色から濃紺へと鮮やかに変わります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "この島を有名にしたのは、断崖の上にそびえるギリシャ神殿風の柱です。" },
+            { "type": "date", "text": "1990年" },
+            {
+              "text": "代初め、ここには富裕層や著名人が出入りする高級会員制リゾートがあり、アテネのアクロポリスを模した柱や彫像、展望台が建てられました。リゾートはほどなくして閉鎖され長らく放置されていましたが、この廃墟がかえって海と調和し、「フィリピンの中のギリシャ」という異名を得て撮影スポットになりました。その後ナスグブの自治体と管理者側が島を観光客に開放し、今では日帰りとキャンプの旅行先として運営されています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "フォーチュン島は設備がほとんどない「半無人島」です。電気も水道も食堂もないため、食べ物や飲み物はすべて持参する必要がありますが、そのおかげで都会から遠く離れた島で過ごす一日がより特別なものになります。クリフダイビング、シュノーケリング、ハンモックでの昼寝、星が降り注ぐ夜空の下でのキャンプまで、島一つですべて楽しめます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "友人・サークル単位の20〜30代の旅行者、写真旅行を楽しむ人、キャンプ好きの家族に向いています。ボートを1隻借りる仕組みのため、人数が多いほど1人あたりの費用が大きく下がります。逆に快適なリゾート休養を望むなら、ナスグブ本土のビーチリゾートに泊まり、日帰りで訪れる方がよいでしょう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "ギリシャ風の柱の撮影",
+              "children": [
+                { "text": "断崖の上の柱の間から海を見下ろす構図が、この島を代表する光景です。日差しが横から差す" },
+                { "type": "time", "text": "午前9時" },
+                { "text": "より前か" },
+                { "type": "time", "text": "午後4時" },
+                { "text": "以降が最も立体的に写ります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "クリフダイビング",
+              "children": [
+                { "text": "島の海岸の断崖から深い海へ飛び込む体験で、高さはおよそ" },
+                { "type": "distance", "text": "10m" },
+                { "text": "前後です。泳ぎに自信があり、ライフジャケットを用意した人だけ挑戦してください。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "シュノーケリング",
+              "children": [{ "text": "ビーチの前と断崖の下にはサンゴと熱帯魚がいます。潮流があるので、ビーチの近くで楽しむのが安全です。" }]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "廃墟探訪",
+              "children": [
+                { "text": "旧リゾートのプール跡、階段、彫像の跡をたどりながら島を一周できます。" },
+                { "type": "duration", "text": "30〜40分" },
+                { "text": "あれば主要な地点をすべて見て回れます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "白砂ビーチでの休息",
+              "children": [
+                { "text": "島の東側のビーチは砂がきめ細かく水も澄んでいて、海水浴に向いています。日陰が少ないので、タープや日傘を持っていくと快適です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "無人島キャンプと星空観賞",
+              "children": [
+                { "text": "1泊すれば、日帰り客が去った後の静かな島を独り占めできます。光害がないため、晴れた日には天の川が見えることもあります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "日の出・日の入り",
+              "children": [{ "text": "島の西側の断崖では南シナ海に沈む夕日を、ビーチではバタンガス本土の山並みから昇る朝日を見ることができます。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "日帰りコース",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "03:30", "children": [{ "text": "マニラ出発（バスはパサイ・ブエンディアの早朝始発）" }] },
+                    { "time": "07:00", "children": [{ "text": "ナスグブ到着、トライシクルでワワ（Wawa）船着き場へ移動" }] },
+                    { "time": "07:30", "children": [{ "text": "フォーチュン島管理事務所で登録、入場料支払い、ボート乗船" }] },
+                    { "time": "08:30", "children": [{ "text": "島に到着、柱の写真撮影（逆光になる前に）" }] },
+                    { "time": "10:00", "children": [{ "text": "シュノーケリング、クリフダイビング" }] },
+                    { "time": "12:00", "children": [{ "text": "持参した弁当で昼食、日陰で休憩" }] },
+                    { "time": "13:30", "children": [{ "text": "ビーチで遊泳、廃墟散策" }] },
+                    { "time": "15:00", "children": [{ "text": "ボート出発" }] },
+                    { "time": "16:00", "children": [{ "text": "ワワ到着、シャワーの後ナスグブ市内で早めの夕食" }] },
+                    { "time": "17:00", "children": [{ "text": "マニラへ出発" }] },
+                    { "time": "20:30", "children": [{ "text": "マニラ到着" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1泊キャンプコース",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "1日目",
+                      "children": [{ "text": "午前に到着後テント設営、シュノーケリングとクリフダイビング、夕日鑑賞、キャンプ料理、星空観賞" }]
+                    },
+                    {
+                      "time": "2日目",
+                      "children": [{ "text": "日の出鑑賞、人が来る前に柱の写真撮影、午前の遊泳の後、正午頃ボートで戻る" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "バス・トライシクル",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "パサイ（Pasay）やブエンディア（Buendia）、PITXからナスグブ行きのバス（DLTB、BSC、Crow Transitなど）に乗ります。約"
+                    },
+                    { "type": "duration", "text": "2.5〜3.5時間" },
+                    { "text": "、料金約" },
+                    { "type": "price", "text": "₱200〜300" },
+                    { "text": "です。ナスグブ市内のターミナルからトライシクルに乗り、バランガイ・ワワ（Wawa）のフォーチュン島船着き場（管理事務所）まで" },
+                    { "type": "duration", "text": "10〜15分" },
+                    { "text": "、約" },
+                    { "type": "price", "text": "₱50〜100" },
+                    { "text": "です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自家用車・レンタカー",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "マニラからコースタルロードに乗りカビテへ下り、タガイタイ〜ナスグブ・ハイウェイを経由するか、SLEXからサンタローサを経てタガイタイへ上った後ナスグブへ下ります。約"
+                    },
+                    { "type": "distance", "text": "110〜130km" },
+                    { "text": "、" },
+                    { "type": "duration", "text": "2.5〜3.5時間" },
+                    { "text": "かかります。ワワ船着き場周辺に有料駐車場があります。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "ワワ船着き場でバンカを借り、約" },
+                    { "type": "duration", "text": "45分〜1時間" },
+                    { "text": "移動します。バンカ1隻には通常最大10人前後が乗り、往復約" },
+                    { "type": "price", "text": "₱3,000〜4,500" },
+                    {
+                      "text": "です。1泊キャンプの場合は翌日迎えに来る時間まで事前に約束し、船長の携帯番号を控えておいてください。島の入場料は船着き場の事務所で別途支払います。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ツアー",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラのピックアップとボート、入場料をまとめたジョインツアーが1人あたり約" },
+                    { "type": "price", "text": "₱1,500〜3,000" },
+                    { "text": "程度で販売されています。人数が少ない旅行者にはジョインツアーの方がはるかに経済的です。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "最も良い時期は乾季の" },
+            { "type": "date", "text": "11月〜5月" },
+            { "text": "で、その中でも海が最も穏やかで水の色が澄んでいる" },
+            { "type": "date", "text": "3月〜5月" },
+            {
+              "text": "が最適期です。この時期はクリフダイビングとシュノーケリングの条件も最も良くなります。ただし島には日陰が少なく日中の体感温度が非常に高いため、紫外線対策が必須です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は北東モンスーンの影響で午後に風が強まり波が立つことがありますが、気温が涼しくキャンプにはむしろ快適です。" },
+            { "type": "date", "text": "6月〜10月" },
+            {
+              "text": "の雨季には南西モンスーン（ハバガット）が西の海から直接吹きつけ波が高くなり、台風警報が出ると沿岸警備隊がボートの運航を禁止します。雨季には出発前日に管理事務所へ運航の有無を必ず確認してください。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "聖週間と夏休み（" },
+            { "type": "date", "text": "4月〜5月" },
+            { "text": "）の週末は島が混雑し、ボートの待ち時間が長くなります。柱の写真を人なしで撮りたいなら、平日の早朝始発のボートに乗るか、1泊キャンプをしてください。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "マニラ〜ナスグブのバス", "price": "片道約₱200〜300", "note": "パサイ・ブエンディア・PITX発" },
+            { "label": "ナスグブ市内〜ワワのトライシクル", "price": "約₱50〜100", "note": "1台あたり" },
+            { "label": "島の入場料（日帰り）", "price": "1人約₱300〜350", "note": "船着き場事務所で支払い、最新の告知を確認" },
+            { "label": "島の入場料（1泊キャンプ）", "price": "1人約₱500〜800", "note": "テント使用条件を確認" },
+            { "label": "バンカ往復", "price": "1隻約₱3,000〜4,500", "note": "最大10人前後、1泊時は追加料金" },
+            { "label": "テント・キャンプ用品レンタル", "price": "約₱300〜800", "note": "船着き場周辺のレンタル店、個人での準備推奨" },
+            { "label": "飲料水・食料の用意", "price": "1人約₱300〜600", "note": "島に売店なし" },
+            { "label": "船着き場シャワー", "price": "約₱30〜50", "note": "帰着後利用" },
+            { "label": "マニラ発ジョインツアー", "price": "1人約₱1,500〜3,000", "note": "交通・ボート・入場料込みの商品" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "島内にはホテルがなく、テントキャンプのみ可能です。快適な宿泊を望むなら、ナスグブ本土沿岸のビーチリゾートに泊まり、日帰りで島を訪れてください。ナスグブ沿岸には1泊約"
+            },
+            { "type": "price", "text": "₱2,000〜4,000" },
+            { "text": "の素朴なビーチリゾートから" },
+            { "type": "price", "text": "₱8,000" },
+            { "text": "以上の大型リゾートまで幅広くあり、ワワ船着き場付近やナスグブ市内に泊まれば早朝のボートに乗りやすくなります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "島には食堂も売店もないため、食べ物はすべて持参する必要があります。ナスグブ市内の市場で焼き鳥（リエンポ・イニハウ）、ご飯、果物、氷を買ってクーラーボックスに詰めていくのが一般的です。1人あたり水2〜3リットルは基本として用意してください。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "戻った後は、ナスグブの海鮮食堂で焼き魚やイカ、シニガンを味わったり、バタンガス風の牛肉スープ料理ブラロと麺のロミで疲れた体をいたわったりしてみてください。タガイタイを経由して戻るなら、高原の食堂街のブラロが有名です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "島には水道水がありません。飲み水と調理用の水を十分に、体を洗う水は別途用意してください。" }] },
+            { "children": [{ "text": "ゴミは必ず袋に入れて持ち帰ってください。島の管理側がゴミの持ち帰りを求めています。" }] },
+            {
+              "children": [{ "text": "日陰が少ないので、タープや大きな傘、つばの広い帽子、ラッシュガード、サンゴに優しい日焼け止めを持っていってください。" }]
+            },
+            { "children": [{ "text": "通信は島の一部でしか弱く入りません。ボートの復路の時間と場所は、島に入る前に船長と確実に決めておいてください。" }] },
+            { "children": [{ "text": "柱のある断崖までは階段と坂道を上る必要があります。サンダルよりも足全体を包むアクアシューズの方が安全です。" }] },
+            {
+              "children": [
+                { "text": "ボート料金は交渉の余地がありますが、まず公式船着き場の決まった料金表を確認してください。平日やオフシーズンには少し安くなることもあります。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "キャンプをするなら、ヘッドランプ、モバイルバッテリー、虫よけ、風に強いペグを用意してください。夜は海風がかなり強くなります。" }
+              ]
+            },
+            { "children": [{ "text": "ナスグブ市内にはATMがありますが、ワワ船着き場周辺にはありません。すべての費用を現金で用意してください。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "クリフダイビングは必ず水深と入水地点を確認した上で、1人ずつ順番に飛び込んでください。潮流が強い日や波が高い日は行わないでください。" }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "島周辺にはライフガードが常駐していません。泳ぎに自信がない場合はライフジャケットを着用し、子どもは常に大人が見守ってください。" }
+              ]
+            },
+            { "children": [{ "text": "旧リゾートの構造物は老朽化しており、崩れる危険があります。柱や塀の上に登らず、立入禁止区域を守ってください。" }] },
+            {
+              "children": [
+                { "text": "バンカ乗船時はライフジャケットを必ず着用してください。午後は風が強まり波が高くなるので、遅れないように戻ってください。" }
+              ]
+            },
+            { "children": [{ "text": "日中の熱中症と脱水に注意してください。アルコールはクリフダイビングや遊泳の前には絶対に飲まないでください。" }] },
+            {
+              "children": [
+                { "text": "島の規定（入場人数制限、キャンプ可能区域、火気使用の制限など）は頻繁に変わるので、出発前に最新の告知を確認してください。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "ピコ・デ・ロロ山",
+              "place": "mount-pico-de-loro",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "。オウムのくちばしのような形の岩峰と美しい海の眺めがある、カビテ・ナスグブ境界の山です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "タガイタイ・タール火山",
+              "place": "tagaytay",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1.5時間" },
+                { "text": "。涼しい高原都市でタール湖の眺めとブラロを楽しめます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "カラタガン・ケープサンティアゴ灯台",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1.5時間" },
+                { "text": "。スペイン統治時代に建てられた灯台と美しい海岸の砂州がある場所です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "アニラオ",
+              "place": "anilao",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "2.5〜3時間" },
+                { "text": "。マニラ近郊きってのダイビングタウンで、シュノーケリングとダイビングを続けて楽しむのに向いています。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

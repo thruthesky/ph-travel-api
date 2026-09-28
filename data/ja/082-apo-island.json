@@ -1,0 +1,606 @@
+{
+  "id": 82,
+  "slug": "apo-island",
+  "title": { "type": "title", "text": "アポ島" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Apo Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "ウミガメと並んで泳ぐ、海洋保護区の奇跡" },
+  "island_group": { "type": "badge", "label": "地方", "value": "visayas", "text": "ビサヤ" },
+  "region": { "type": "badge", "label": "地域", "value": "negros", "text": "ネグロス" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "ネグロス・オリエンタル州ダウイン アポ島"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "ダイビング・海"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "タグ",
+    "items": ["ウミガメ", "シュノーケリング", "スキューバダイビング", "海洋保護区", "サンゴ礁"]
+  },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.8, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 9.076 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 123.27 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "3月〜6月(海が穏やかな乾季)",
+    "months": [3, 4, 5, 6]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "日帰り〜1泊2日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱2,500〜4,500",
+    "currency": "PHP",
+    "min": 2500,
+    "max": 4500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "ふつう",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ドゥマゲテ・シブラン空港 (DGT)",
+    "code": "DGT"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/082-apo-island.webp",
+    "alt": "アポ島",
+    "credit": "Mike Gonzalez (TheCoffee) / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_east.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/082-apo-island-2.webp",
+        "alt": "アポ島",
+        "credit": "Anna Varona / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sea_Turtle_in_Apo_Island.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-3.webp",
+        "alt": "アポ島",
+        "credit": "Clover117 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_on_the_side_of_Balay_Reef.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "ドゥマゲテ南方の海に浮かぶ小さな火山島で、住民自らが守ってきた海洋保護区のおかげで、浅瀬でウミガメにほぼ確実に出会えます。フィリピンにおけるコミュニティ主導型海洋保全の模範例であり、世界的なダイビングの名所です。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "アポ島はネグロス島南東海岸から約" },
+            { "type": "distance", "text": "7km" },
+            {
+              "text": "離れた、面積約0.7平方kmの小さな火山島です。行政上はダウイン市に属し、約1,000人の住民が漁業と観光で生計を立てています。ミンダナオのアポ山と名前が同じですが全く別の場所なので混同しないよう注意が必要です。島の西側には村と砂浜、東側には岩の断崖が続き、島全体をサンゴ礁が取り囲んでいます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "この島が世界的に有名になった理由は、海そのものよりも「守ってきたやり方」にあります。" },
+            { "type": "date", "text": "1970年" },
+            { "text": "代、ダイナマイト漁と乱獲でサンゴ礁が崩壊すると、シリマン大学の海洋生物学者アンヘル・アルカラ博士が住民とともに" },
+            { "type": "date", "text": "1982年" },
+            { "text": "頃、島の南東部の一部を禁漁区に定めました。住民自らがパトロールしてルールを守った結果、数年で魚が戻り、禁漁区の外の漁獲量まで増えました。その後" },
+            { "type": "date", "text": "1994年" },
+            { "text": "に保護景観・保護海域に指定され、コミュニティ主導型海洋保護区の世界的な模範例となりました。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "今日、アポ島の海には650種を超える魚類と400種以上のサンゴが報告されています。旅行者にとって最大の魅力は、水深" },
+            { "type": "distance", "text": "2〜5m" },
+            {
+              "text": "の浅瀬でアオウミガメとタイマイが海藻を食べる姿をほぼ毎回見られる点です。泳ぎが得意でなくても、ライフジャケットを着てガイドについて行けば十分に楽しめます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ダイバーには強い潮流が流れる東側の壁とサンゴガーデンが広がるポイントが待っています。ウミガメのシュノーケリングを望む家族連れから、ギンガメアジの群れを見たい熟練ダイバー、電気の限られた静かな島で一晩過ごしたい旅行者まで、幅広く満足させてくれる場所です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "ウミガメのシュノーケリング",
+              "children": [
+                { "text": "村の前のビーチ側の浅瀬で、海藻を食べるウミガメを間近で見られます。ガイドの同行が義務付けられており、ウミガメとは約" },
+                { "type": "distance", "text": "4m" },
+                { "text": "以上の距離を保ち、触れたり追いかけたりしてはいけません。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "保護区のサンゴガーデンダイビング",
+              "children": [
+                {
+                  "text": "島の南東部の保護区周辺にはテーブルサンゴとソフトコーラルが密生しており、運が良ければギンガメアジやバラクーダの群れに出会えます。保護区内でのダイビングは人数と回数が管理されているため、現地のダイブショップを通じて予約します。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "ココナッツポイント・チャペルポイント",
+              "children": [
+                {
+                  "text": "島の北東にあるココナッツポイントは潮流に乗って流れるドリフトダイビングで有名で、西側のチャペルポイントは比較的穏やかで中級者に人気です。潮流が強い日が多いため、必ずガイドの判断に従います。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "灯台展望台トレッキング",
+              "children": [
+                { "text": "村から階段と土の道を約" },
+                { "type": "duration", "text": "20〜30分" },
+                { "text": "登ると、島の頂上付近の灯台に着きます。ネグロス本島やシキホール、晴れた日にはミンダナオ方面の海まで見渡せます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "村の散策と保全のストーリーを聞く",
+              "children": [
+                { "text": "小さな村には海洋保護区の管理事務所と学校、お土産の露店があります。住民が作ったTシャツやハンカチを買うと、その収益は地域社会に還元されます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "島で一泊する",
+              "children": [
+                {
+                  "text": "日帰りツアー客が去った午後から、島は驚くほど静かになります。夕暮れに西の海へ沈む夕日と、電灯の明かりがほとんどない夜空の星を見ることができます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "マラタパイの水曜市場に立ち寄る",
+              "children": [
+                {
+                  "text": "島へ向かう船が出発するマラタパイでは、毎週水曜日に家畜市場とレチョン(豚の丸焼き)の食堂が開かれます。朝早く船に乗る前に見て回るのにちょうど良いです。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "日帰りコース",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:30", "children": [{ "text": "ドゥマゲテまたはダウインの宿を出発" }] },
+                    { "time": "07:15", "children": [{ "text": "マラタパイの船着き場に到着、環境税の支払いと名簿登録" }] },
+                    {
+                      "time": "07:45",
+                      "children": [
+                        { "text": "バンカーボートでアポ島へ移動(約" },
+                        { "type": "duration", "text": "30〜45分" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "08:30", "children": [{ "text": "最初のシュノーケリング—ウミガメエリア(ガイド同行)" }] },
+                    { "time": "10:30", "children": [{ "text": "2回目のシュノーケリングまたはダイビング—サンゴガーデン" }] },
+                    { "time": "12:00", "children": [{ "text": "島の食堂またはツアーの弁当で昼食" }] },
+                    { "time": "13:00", "children": [{ "text": "灯台展望台トレッキングと村の散策" }] },
+                    { "time": "14:30", "children": [{ "text": "島を出発、午後に風が強まる前に戻る" }] },
+                    { "time": "15:30", "children": [{ "text": "マラタパイに到着、ダウインのビーチで休憩" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1泊2日コース",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "1日目午前",
+                      "children": [{ "text": "移動後シュノーケリング、午後は灯台トレッキング、夕暮れは西側ビーチで日没鑑賞、夜は星の観察" }]
+                    },
+                    {
+                      "time": "2日目早朝",
+                      "children": [{ "text": "人が少ない時間帯にウミガメのシュノーケリング、午前中にダイビング2回、昼食後に本島へ戻る" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラからドゥマゲテ(シブラン空港、DGT)までは約" },
+                    { "type": "duration", "text": "1時間20分" },
+                    { "text": "かかります。セブから出発する場合は、飛行機よりも船とバスの方が便利です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "車",
+              "subtitle": "ドゥマゲテからマラタパイまで",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "アポ島行きの船は、ドゥマゲテ南方約" },
+                    { "type": "distance", "text": "25km" },
+                    {
+                      "text": "地点にあるサンボアンギータのマラタパイ船着き場から出発します。ドゥマゲテ市内南部バスターミナルや道路沿いでバイス・シアトン方面のバス・ジプニーに乗り、マラタパイ入口で降りると約"
+                    },
+                    { "type": "duration", "text": "40〜60分" },
+                    { "text": "、料金は約" },
+                    { "type": "price", "text": "₱40〜60" },
+                    { "text": "です。トライシクルを貸し切ると片道約" },
+                    { "type": "price", "text": "₱400〜600" },
+                    { "text": "です。ダウイン海岸のリゾートからは約" },
+                    { "type": "duration", "text": "15〜20分" },
+                    { "text": "の距離です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マラタパイからアポ島までは、バンカーボートで約" },
+                    { "type": "duration", "text": "30〜45分" },
+                    { "text": "かかります。定期旅客船はなく、船着き場のバンカーボート組合を通じて船を貸し切る方式です。小型バンカーボートの往復貸切は約" },
+                    { "type": "price", "text": "₱3,000〜4,000" },
+                    {
+                      "text": "(4〜6人)程度で、一人なら船着き場で他の旅行者と相乗りするのが経済的です。最も楽な方法はドゥマゲテ・ダウインのダイブショップの日帰りツアーで、ピックアップ・バンカーボート・シュノーケル器材・昼食・ガイドが含まれ、1人約"
+                    },
+                    { "type": "price", "text": "₱2,500〜3,500" },
+                    { "text": "です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "セブから出発",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "セブ南部バスターミナルからバスでオスロブ近くのリロアン港まで約" },
+                    { "type": "duration", "text": "3〜4時間" },
+                    { "text": "、船でシブラン港まで約" },
+                    { "type": "duration", "text": "30分" },
+                    { "text": "、さらに車で南のマラタパイまで約" },
+                    { "type": "duration", "text": "1時間" },
+                    { "text": "かかります。1日で島まで行くのはぎりぎりなので、ドゥマゲテかダウインで1泊してから翌朝出発するのがおすすめです。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "アポ島は波の状態によって旅の質が大きく変わります。" },
+            { "type": "date", "text": "3月" },
+            { "text": "から" },
+            { "type": "date", "text": "6月" },
+            { "text": "までは海が最も穏やかで水も温かく、視界が" },
+            { "type": "distance", "text": "20〜30m" },
+            { "text": "まで出る日が多くあります。" },
+            { "type": "date", "text": "12月" },
+            { "text": "から" },
+            { "type": "date", "text": "2月" },
+            { "text": "までは北東季節風(アミハン)が吹き、午後に波が高くなる日がありますが、おおむね旅行可能です。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "7月" },
+            { "text": "から" },
+            { "type": "date", "text": "10月" },
+            {
+              "text": "までは南西季節風(ハバガット)と台風の影響でバンカーボートの運航が中止される日が増えます。特に午後は波が高くなりやすいため、季節にかかわらず朝早く出発し、早めの午後に戻るのが原則です。水温は年間を通じて26〜29度で、薄手のウェットスーツやラッシュガードで十分です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "ドゥマゲテ〜マラタパイ交通", "price": "片道約₱40〜600", "note": "バス・ジプニーまたはトライシクル貸切" },
+            { "label": "バンカーボート往復貸切", "price": "1隻約₱3,000〜4,000", "note": "4〜6人基準、人数で割ると割安" },
+            { "label": "環境税", "price": "外国人約₱300、フィリピン人約₱100", "note": "マラタパイの登録所で支払い" },
+            { "label": "シュノーケリングガイド", "price": "グループごと約₱300", "note": "ウミガメエリアでは必須" },
+            { "label": "日帰りシュノーケリングツアー", "price": "1人約₱2,500〜3,500", "note": "ピックアップ・船・器材・昼食込みの目安" },
+            { "label": "ファンダイビング", "price": "1回約₱1,800〜2,500", "note": "保護区ダイビングは追加料金あり" },
+            { "label": "島での宿泊", "price": "1泊約₱1,500〜4,500", "note": "食事込みかどうか確認" },
+            { "label": "食事", "price": "1食約₱200〜450", "note": "島の食堂の目安" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ほとんどの旅行者はドゥマゲテ市内かダウイン海岸のリゾートに泊まり、日帰りで訪れます。ダウインにはダイビングパッケージを運営するリゾートが集まっており、朝に島へ出発しやすくなっています。島内には長く営業しているリバティーズ・ロッジ(Liberty's Lodge)やアポ・アイランド・ビーチ・リゾートなど小規模な宿泊施設が数軒あり、1泊約"
+            },
+            { "type": "price", "text": "₱1,500〜4,500" },
+            { "text": "程度で食事込みの場合が多いです。客室数が少ないため、繁忙期は数週間前に予約が必要です。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "島の電気は発電機と太陽光に頼っており、夜の数時間だけ供給される場所が多く、エアコンのない部屋が一般的です。食事は宿の食堂か村の小さな食堂で済ませ、焼き魚、野菜炒め、ご飯といった素朴なフィリピンの家庭料理が中心です。本島マラタパイの水曜市場で売られるレチョンと焼き魚はこの地域の名物なので、日程が合えばぜひ味わってみてください。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "島にはATMがなく、カード決済もほとんど使えないため、環境税・ガイド料・食費は現金で用意します。" }] },
+            { "children": [{ "text": "携帯電話の電波は島の一部地域でしか入らないため、宿やバンカーボートの船頭との約束は事前に確定しておきます。" }] },
+            {
+              "children": [{ "text": "サンゴ礁保護のため、サンゴに害のない成分の日焼け止めを使うか、ラッシュガードと長めのレギンスで肌を覆う方が良いです。" }]
+            },
+            {
+              "children": [
+                { "text": "村前のウミガメエリアは" },
+                { "type": "time", "text": "午前8〜10時" },
+                { "text": "が最も空いており、日帰りツアーの船が集中する" },
+                { "type": "time", "text": "10時" },
+                { "text": "以降は人が多くなります。" }
+              ]
+            },
+            { "children": [{ "text": "泳ぎが苦手ならライフジャケットを着てガイドのそばを離れず、フィンがあれば潮流でずっと疲れにくくなります。" }] },
+            {
+              "children": [
+                { "text": "防水カメラやアクションカメラでウミガメを撮影するときはフラッシュを消し、上から見下ろす構図で撮ることでウミガメを邪魔しません。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "船酔いがひどい場合は、バンカーボート乗船の" },
+                { "type": "duration", "text": "30分" },
+                { "text": "前に酔い止めを飲み、船の後方に座ります。" }
+              ]
+            },
+            { "children": [{ "text": "島に宿泊する人は懐中電灯(ヘッドライト)、モバイルバッテリー、虫よけを持参します。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "ウミガメに触れたり追いかけたり背中に乗ったりする行為、サンゴを踏む行為は厳しく禁止されており、違反すると罰金や退去処分を受けることがあります。" }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "島の東側と南側のポイントは潮流が非常に強く、シュノーケラーが流される恐れがあるため、ガイドが許可した区域でのみ水に入ります。" }
+              ]
+            },
+            { "children": [{ "text": "午後は波が高くなりやすいため、バンカーボートの船頭が帰りの時間を早めようと言ったら従うのが安全です。" }] },
+            {
+              "children": [
+                { "text": "入場規定と環境税、1日の訪問者数制限は保護区管理委員会の決定により変わることがあるため、出発前に最新の告知を確認します。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "島には病院がないため、けがをしたらすぐに消毒し、サンゴで擦り傷を負った場合は感染しやすいので本島に戻ってから必ず治療します。" }
+              ]
+            },
+            { "children": [{ "text": "クラゲやウニに刺されることがあるため、素足で浅い岩場を歩かず、アクアシューズを履きます。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "ドゥマゲテ",
+              "place": "dumaguete",
+              "children": [
+                { "text": "マラタパイから車で約" },
+                { "type": "duration", "text": "40〜60分" },
+                { "text": "。海沿いの遊歩道と学園街、デザートで有名な穏やかな街です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "バリンササヤオ・ツインレイクス",
+              "place": "twin-lakes-balinsasayao",
+              "children": [
+                { "text": "ドゥマゲテから車で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "。原生林の中にある双子の火山湖です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "シキホール島",
+              "place": "siquijor",
+              "children": [
+                { "text": "ドゥマゲテから高速船で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "。滝とビーチ、神秘的な伝説が残る島です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "オスロブ(セブ南部)",
+              "place": "oslob",
+              "children": [
+                { "text": "ドゥマゲテ近郊のシブラン港から船で約" },
+                { "type": "duration", "text": "30分" },
+                { "text": "。ジンベエザメの観察で有名です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,760 @@
+{
+  "id": 4,
+  "slug": "national-museum",
+  "title": { "type": "title", "text": "National Museum of the Philippines" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "National Museum of the Philippines" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Free treasures of Philippine art, history, and nature"
+  },
+  "island_group": { "type": "badge", "label": "Island group", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Region", "value": "metro-manila", "text": "Metro Manila" },
+  "location": {
+    "type": "address",
+    "label": "Location",
+    "icon": "location_on",
+    "text": "Ermita, Manila City, Metro Manila (east of Rizal Park)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Category",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "History & Culture"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Tags",
+    "items": ["Museum", "Free admission", "Spoliarium", "Natural history", "Indoor attraction"]
+  },
+  "rating": { "type": "rating", "label": "Rating", "value": 4.6, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 14.5869 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 120.9812 },
+  "best_season": {
+    "type": "date",
+    "label": "Best time to visit",
+    "icon": "calendar_month",
+    "text": "Year-round (great shelter from rain and midday heat)",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Time needed",
+    "icon": "schedule",
+    "text": "Half a day–1 day"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Budget",
+    "icon": "payments",
+    "text": "About ₱300–1,000 per person",
+    "currency": "PHP",
+    "min": 300,
+    "max": 1000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Difficulty",
+    "icon": "signal_cellular_alt",
+    "text": "Easy",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Nearest airport",
+    "icon": "flight",
+    "text": "Ninoy Aquino International Airport (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/004-national-museum.webp",
+    "alt": "National Museum of the Philippines",
+    "credit": "Tagaaplaya / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Fine_Arts_Manila_2024.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Photos",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/004-national-museum-2.webp",
+        "alt": "National Museum of the Philippines",
+        "credit": "Elmer B. Domingo / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:National_Museum,_Philippines.JPG"
+      },
+      {
+        "type": "image",
+        "url": "images/004-national-museum-3.webp",
+        "alt": "National Museum of the Philippines",
+        "credit": "PNA photo by Jess M. Escaros Jr. / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_National_Museum_of_the_Philippines_in_Manila_on_June_7,_2022_(54898).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "The Philippines' finest museum complex, made up of three buildings next to Rizal Park — an art museum, an anthropology museum, and a natural history museum. Admission is free, and the star attractions are Juan Luna's masterpiece Spoliarium and the giant Tree of Life structure."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "At a glance",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "The National Museum of the Philippines was established in " },
+            { "type": "date", "text": "1901" },
+            {
+              "text": " as a national institution, and its core exhibition spaces are three neoclassical buildings clustered east of Rizal Park in Manila. These are the National Museum of Fine Arts, the National Museum of Anthropology, and the National Museum of Natural History, all converted from grand government buildings constructed in the 1920s–40s under American rule."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The National Museum of Fine Arts occupies the former Legislative Building, and the hall once used as the Philippine Senate's session chamber is preserved intact. Its most famous work is Juan Luna's masterpiece \"Spoliarium,\" which won a gold medal at the "
+            },
+            { "type": "date", "text": "1884" },
+            { "text": " National Exposition of Fine Arts in Madrid — a huge canvas over " },
+            { "type": "distance", "text": "7m" },
+            {
+              "text": " wide depicting fallen Roman gladiators, seen as an allegory for the suffering of Filipinos under Spanish colonial rule."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The Museum of Anthropology, in the former Finance Building, covers prehistoric artifacts and the cultures of the Philippines' various ethnic groups. Its standout pieces are the Manunggul Jar (a National Cultural Treasure excavated from a Palawan cave), the Laguna Copperplate Inscription bearing script from around the year 900, and salvaged relics from the Spanish galleon San Diego, which sank in Manila Bay in "
+            },
+            { "type": "date", "text": "1600" },
+            { "text": ". The Museum of Natural History, opened in " },
+            { "type": "date", "text": "2018" },
+            {
+              "text": " in the former Department of Agriculture and Commerce building, is known for the giant \"Tree of Life\" structure running through its central courtyard and the skeleton of Lolong, once recorded as the largest saltwater crocodile in captivity in the world."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "All three museums are free and well air-conditioned, making them an unbeatable choice for Manila's hot midday hours or rainy days. Recommended for travelers who want to understand Philippine culture deeply, families with children, and art lovers alike."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Top things to do",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Stand before the Spoliarium",
+              "children": [
+                {
+                  "text": "Filling the entire entrance hall on the second floor of the Museum of Fine Arts, the painting is overwhelming in scale and power in person. The adjacent gallery also holds a work by Félix Resurrección Hidalgo, who won a silver medal at the same competition as Luna — worth comparing side by side."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Tour the former Senate session hall",
+              "children": [
+                { "text": "Inside the Museum of Fine Arts, the " },
+                { "type": "date", "text": "1930s" },
+                {
+                  "text": " Senate session hall has been restored. A space where you can picture the political history of the Philippines before independence."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "The Tree of Life at the Museum of Natural History",
+              "children": [
+                {
+                  "text": "A massive tree-shaped structure modeled on a DNA double helix stands in the building's central courtyard, bathed in natural light from the glass ceiling above. It's the museum's most popular photo spot."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "The skeleton of Lolong the saltwater crocodile",
+              "children": [
+                { "text": "Caught in " },
+                { "text": "2011", "type": "date" },
+                {
+                  "text": " in the Agusan marshlands of Mindanao, this saltwater crocodile measured about "
+                },
+                { "text": "6.2m", "type": "distance" },
+                {
+                  "text": " and was once listed in the Guinness World Records as the largest crocodile in captivity. Its actual skeleton is on display at the Museum of Natural History."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "The Manunggul Jar and the Laguna Copperplate",
+              "children": [
+                {
+                  "text": "The two National Cultural Treasures at the Museum of Anthropology showcase the level of ancient Philippine culture. The Manunggul Jar, whose lid depicts two figures riding a boat carrying a soul to the afterlife, was even featured on the design of the old 1,000-peso banknote."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Salvaged relics from the San Diego",
+              "children": [
+                {
+                  "text": "On display are Chinese porcelain, cannons, and navigation tools recovered from the Spanish galleon that sank in "
+                },
+                { "text": "1600", "type": "date" },
+                {
+                  "text": " while fighting a Dutch fleet. They vividly show Manila's status during the age of galleon trade."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Philippine ethnic textiles and crafts exhibit",
+              "children": [
+                {
+                  "text": "The upper floors of the Museum of Anthropology organize textiles, baskets, and jewelry from ethnic minority groups in regions such as the Cordillera and Mindanao. Seeing them first deepens your understanding if you plan to travel to those provinces later."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Suggested itinerary",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Half-day course (highlights only)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Enter the Museum of Fine Arts, see the Spoliarium and the Senate hall (about "
+                        },
+                        { "type": "duration", "text": "1 hour 30 minutes" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        {
+                          "text": "Cross the circular plaza toward Rizal Park to the Museum of Natural History ("
+                        },
+                        { "type": "duration", "text": "5-minute" },
+                        { "text": " walk)" }
+                      ]
+                    },
+                    {
+                      "time": "10:45",
+                      "children": [
+                        {
+                          "text": "The Tree of Life, Lolong's skeleton, and the marine life exhibits (about "
+                        },
+                        { "type": "duration", "text": "1 hour 15 minutes" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "12:00", "children": [{ "text": "Lunch at a nearby restaurant" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1-day course (all three museums)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        { "text": "Museum of Fine Arts (" },
+                        { "type": "duration", "text": "2 hours" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "11:00",
+                      "children": [
+                        { "text": "Museum of Natural History (" },
+                        { "type": "duration", "text": "1 hour 30 minutes" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "12:30", "children": [{ "text": "Lunch (Ermita or Intramuros)" }] },
+                    {
+                      "time": "14:00",
+                      "children": [
+                        { "text": "Museum of Anthropology (" },
+                        { "type": "duration", "text": "2 hours" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "16:00", "children": [{ "text": "Stroll Rizal Park" }] },
+                    { "time": "17:30", "children": [{ "text": "Walk to Manila Bay for sunset" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Getting there",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "From the airport",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "About " },
+                    { "type": "distance", "text": "9km" },
+                    { "text": " from Ninoy Aquino International Airport, " },
+                    { "type": "duration", "text": "30 minutes–1 hour 20 minutes" },
+                    { "text": " by Grab, costing about " },
+                    { "type": "price", "text": "₱280–550" },
+                    {
+                      "text": ". Enter \"National Museum of Fine Arts\" as your destination and you'll be dropped off in front of the art museum."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Light Rail Transit (LRT)",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Get off at Central Terminal station on LRT Line 1 and walk past Manila City Hall — about a "
+                    },
+                    { "type": "duration", "text": "10-minute" },
+                    { "text": " walk to the art museum. It's also about a " },
+                    { "type": "duration", "text": "10–15-minute" },
+                    { "text": " walk from United Nations Avenue station. Fares are about " },
+                    { "type": "price", "text": "₱15–35" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grab/taxi",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "About " },
+                    { "type": "duration", "text": "30 minutes–1 hour" },
+                    { "text": " from Makati, costing about " },
+                    { "type": "price", "text": "₱250–450" },
+                    { "text": ". The three museums are all within a " },
+                    { "type": "duration", "text": "5-minute" },
+                    {
+                      "text": " walk of each other, so once you're dropped at one, walk to the rest."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "On foot",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "About a " },
+                    { "type": "duration", "text": "15-minute" },
+                    { "text": " walk from the south wall of Intramuros, and " },
+                    { "type": "duration", "text": "5–10 minutes" },
+                    {
+                      "text": " from the center of Rizal Park. The Museum of Fine Arts and the Museum of Anthropology face each other across the Agrifina Circle (a round plaza)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Best time to visit & weather",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "As an indoor destination, you can visit any time of year regardless of season. In fact, it's the best \"refuge\" from the heat of "
+            },
+            { "type": "date", "text": "March–May" },
+            {
+              "text": ", when midday temperatures hit around 35°C, or from the afternoon showers of the "
+            },
+            { "type": "date", "text": "June–October" },
+            {
+              "text": " rainy season. That said, if the government declares office closures for a typhoon, the museums may close as well."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "On weekends, holidays, and weekday mornings during the school term, field-trip student groups fill the popular galleries. For quiet viewing, weekday afternoons after "
+            },
+            { "type": "time", "text": "2 PM" },
+            { "text": " are best. On " },
+            { "type": "date", "text": "May 18" },
+            { "text": ", International Museum Day, and during " },
+            { "type": "date", "text": "October" },
+            {
+              "text": ", Museums and Galleries Month, special events and guided tours are sometimes held."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Opening hours are generally " },
+            { "type": "time", "text": "9 AM–6 PM" },
+            {
+              "text": ", and operating days have changed over time — for example, opening on Mondays as well since "
+            },
+            { "type": "date", "text": "2025" },
+            {
+              "text": " — so check the official website (nationalmuseum.gov.ph) or official Facebook page for the latest hours before visiting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Estimated costs",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Item", "Estimated cost", "Notes"],
+          "items": [
+            { "label": "Museum admission", "price": "Free", "note": "All three buildings" },
+            {
+              "label": "Locker/bag storage",
+              "price": "Free",
+              "note": "Large bags must be checked before entry"
+            },
+            {
+              "label": "Grab from airport to museum",
+              "price": "About ₱280–550 (one way)",
+              "note": "Varies with traffic"
+            },
+            { "label": "LRT Line 1", "price": "About ₱15–35", "note": "Central Terminal station" },
+            {
+              "label": "Gift shop",
+              "price": "About ₱200–1,500",
+              "note": "Catalogs, postcards, crafts"
+            },
+            { "label": "Lunch", "price": "About ₱250–700", "note": "Ermita/Intramuros" },
+            {
+              "label": "Drinks/snacks",
+              "price": "About ₱100–250",
+              "note": "Cafes around the museum"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Prices are approximate as of " },
+            { "type": "date", "text": "2026" },
+            { "text": " and may vary depending on local conditions." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Where to stay & eat",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Lodging near the museum clusters around Ermita/Malate and Roxas Boulevard. The historic Manila Hotel is a "
+            },
+            { "type": "duration", "text": "15-minute" },
+            { "text": " walk away and costs about " },
+            { "type": "price", "text": "₱7,000–12,000" },
+            { "text": " a night; mid-range hotels on Roxas Boulevard run about " },
+            { "type": "price", "text": "₱3,000–6,000" },
+            { "text": ", and budget hotels in the back streets of Malate about " },
+            { "type": "price", "text": "₱1,500–3,000" },
+            {
+              "text": ". If the museum is your only stop, staying in Makati or BGC and visiting for the day works just as well."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Inside the museum, dining space is limited and food is not allowed in the galleries, so plan meals before or after your visit. Try sinigang, adobo, or kare-kare at a traditional Filipino restaurant inside Intramuros, or visit one of Ermita's old Filipino restaurants and cafes. For something light, buko juice and taho from the vendors at Rizal Park will cool you down. In the evening, heading over to Binondo Chinatown for dumplings and lumpia is also a popular way to finish the day."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Travel tips",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "Seeing all three museums properly needs at least " },
+                { "type": "duration", "text": "5–6 hours" },
+                {
+                  "text": ". If you're short on time, we recommend the Museum of Fine Arts and the Museum of Natural History first."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bags are inspected at the entrance, and large backpacks or umbrellas must be left at the checkroom. Keep valuables in a small bag of your own."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Photography is mostly allowed, but flash and tripods are banned. Some special exhibits prohibit photos entirely, so check the signage."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The indoor air conditioning is strong, so bringing a light jacket helps — the contrast between the heat outside and the cold inside can easily give you a cold."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Individual visitors can generally walk in without a reservation, but group visits and guided tours may need to be booked in advance. Operating rules change, so check the official website."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The Tree of Life at the Museum of Natural History photographs best when shot looking down from the top floor."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The wide, quiet stairways and corridors of the art museum building are also a popular backdrop for portrait photos."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Elevators and ramps for wheelchair users make it suitable for family trips with elderly or less mobile members too."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Precautions",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Eating and drinking are banned inside the galleries, and touching artworks or glass display cases is not allowed."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The traffic circle and Taft Avenue around the museum carry heavy vehicle traffic, making jaywalking dangerous. Always use the traffic lights and crosswalks."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Some people approach visitors outside the museum claiming to be a \"guide\" and later ask for money. Official guides can only be arranged through the museum's information desk."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "If the government announces an office closure for a typhoon or heavy rain, the museum may close for the day, so check the news and official channels."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Closing days and opening hours have changed several times, so don't rely on old blog posts alone — check the latest official announcements."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Nearby places to visit",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Rizal Park",
+              "place": "rizal-park",
+              "children": [
+                { "text": "Just west of the museum, a " },
+                { "type": "duration", "text": "5-minute" },
+                {
+                  "text": " walk. Manila's iconic park, with the Rizal Monument, a wide plaza, and gardens."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Intramuros",
+              "place": "intramuros",
+              "children": [
+                { "text": "About a " },
+                { "type": "duration", "text": "15-minute" },
+                {
+                  "text": " walk. The walled city with Fort Santiago and the UNESCO World Heritage Site San Agustin Church."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Manila Bay",
+              "place": "manila-bay",
+              "children": [
+                { "text": "A " },
+                { "type": "duration", "text": "15–20-minute" },
+                {
+                  "text": " walk. Wrap up your day watching the sunset at the Roxas Boulevard Baywalk after your museum visit."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Binondo Chinatown",
+              "place": "binondo",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "15 minutes" },
+                {
+                  "text": " by Grab. Enjoy a food trip in the world's oldest Chinatown, across the Pasig River."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "id": 47,
+  "slug": "coron",
+  "title": { "type": "title", "text": "科隆" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Coron" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "翡翠湖水与海底沉睡战舰的岛屿" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "luzon", "text": "吕宋" },
+  "region": { "type": "badge", "label": "地区", "value": "palawan", "text": "巴拉望" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "巴拉望省布桑加岛科隆" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "潜水·海洋"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["卡扬安湖", "沉船潜水", "跳岛游", "石灰岩峭壁", "温泉"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.8, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 11.9989 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 120.2053 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "11月至5月（旱季）",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "3晚4天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱3,000~6,000（按每日计算）",
+    "currency": "PHP",
+    "min": 3000,
+    "max": 6000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "中等",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "布桑加机场 (USU)",
+    "code": "USU"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/047-coron.webp",
+    "alt": "科隆",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Coron_skyline_Tapyas_(Coron,_Palwan;_03-16-2024).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/047-coron-2.webp",
+        "alt": "科隆",
+        "credit": "Moutaz Kotrob / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Huma_island,coron,_palawan.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-3.webp",
+        "alt": "科隆",
+        "credit": "Lyndon Aguila / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kayangan_Lake,_Coron_Island.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "巴拉望北部布桑加岛上的科隆，以石灰岩岛间的卡杨根湖、梭鱼湖和双子潟湖闻名。二战时期沉没的日本军舰造就了世界级的沉船潜水胜地，此外塔皮亚斯山观景台和海水温泉也让人玩乐不尽。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "科隆是巴拉望本岛以北卡拉棉群岛中的一座城市，旅行者口中的\"科隆\"通常指布桑加岛东南侧的科隆镇、其正前方的科隆岛，以及周边的岛屿群。作为旅程核心的科隆岛，遍布着尖峭的石灰岩山峰，岛内隐藏着约10个湖泊，海岸各处也散布着被峭壁环绕的潟湖。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "科隆岛是原住民塔格巴努瓦族世代相传的领地，已获菲律宾政府正式承认其祖传领域权利。因此，卡杨根湖、梭鱼湖、双子潟湖等主要景点都由塔格巴努瓦社区直接管理，收取入场费并规定可游泳区域和开放时间。岛上大部分湖泊被视为圣地，不允许进入。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "科隆的另一面藏在海底。" },
+            { "type": "date", "text": "1944年9月24日" },
+            {
+              "text": "，藏匿于科隆湾的日本舰队遭到美国海军航空队空袭，补给船和水上飞机母舰等十余艘舰船同时沉没。水上飞机母舰秋津洲、补给舰伊良湖、油轮沖河丸等残骸至今仍较为完整地保留在"
+            },
+            { "type": "distance", "text": "10–40米" },
+            { "text": "水深处，使科隆跻身世界十大沉船潜水胜地之列。即使不潜水，也能通过浮潜观赏浅海处的\"骸骨沉船\"。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "如果说爱妮岛以海滩和潟湖为主，那么科隆则涵盖湖泊、沉船、观景和温泉等更广泛的体验。特别适合潜水员、喜爱浮潜的旅行者，以及想拍摄震撼风景照片的旅行者。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "卡杨根湖",
+              "children": [
+                { "text": "科隆岛行程的重头戏，沿台阶攀登约" },
+                { "type": "duration", "text": "10–15分钟" },
+                { "text": "，在观景点俯瞰石灰岩山峰间的海湾后，再往另一侧下到清澈的湖中游泳。观景点拍照常需排队，建议尽早前往。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "梭鱼湖",
+              "children": [{ "text": "淡水与海水分层交汇，水温会随水深骤然变化，是一处神奇的湖泊，也是知名的自由潜水和潜水胜地。" }]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "双子潟湖",
+              "children": [{ "text": "游过岩缝间狭窄的孔洞，或借助梯子翻越，便能看到第二处潟湖。退潮时可以直接游过去，涨潮时则需借助梯子。" }]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "沉船潜水",
+              "children": [{ "text": "探索秋津洲、伊良湖、沖河丸等二战日本舰船残骸的潜水活动。进入船体内部的潜水，只有接受过沉船潜水训练的经验者才可进行。" }]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "骸骨沉船与珊瑚花园浮潜",
+              "children": [{ "text": "水深较浅，在水面就能看到沉船骨架的骸骨沉船，以及珊瑚花园，都很推荐给不潜水的旅行者。" }]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "塔皮亚斯山日落",
+              "children": [
+                { "text": "攀上科隆镇后山逾700级的台阶，在大十字架旁观赏太阳没入海面与群岛的景色。攀登约需" },
+                { "type": "duration", "text": "20–30分钟" },
+                { "text": "。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "马奇尼特温泉",
+              "children": [{ "text": "在海边红树林旁涌出的海水温泉，水温约38至40度，可以在温暖的泉水中舒缓一天的疲惫。日落后前往会更加凉爽舒适。" }]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "马尔卡普亚·班诺尔·CYC岛之旅",
+              "children": [{ "text": "以白沙和清澈海水的岛屿为主的海滩行程，与湖泊行程交替安排，可以领略科隆多样的海域风光。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "第1天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "上午",
+                      "children": [
+                        { "text": "抵达布桑加机场，乘小巴前往科隆镇（约" },
+                        { "type": "duration", "text": "40分钟" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "下午", "children": [{ "text": "办理入住，预约次日行程" }] },
+                    { "time": "16:30", "children": [{ "text": "塔皮亚斯山日落" }] },
+                    { "time": "19:00", "children": [{ "text": "马奇尼特温泉" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第2天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "08:00–16:00",
+                      "children": [{ "text": "科隆岛行程（卡杨根湖、梭鱼湖、双子潟湖、骸骨沉船、珊瑚花园）" }]
+                    },
+                    { "time": "傍晚", "children": [{ "text": "在镇上的海鲜餐厅用餐" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第3天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "children": [{ "text": "方案A：畅潜沉船2至3次" }] },
+                    { "children": [{ "text": "方案B：游览马尔卡普亚岛、班诺尔海滩、CYC岛的海滩行程" }] },
+                    { "time": "傍晚", "children": [{ "text": "漫步海滨步道，逛逛市场" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第4天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "上午", "children": [{ "text": "珊瑚礁行程或休息" }] },
+                    { "time": "下午", "children": [{ "text": "前往机场，或搭乘开往爱妮岛的渡轮" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飞机",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "马尼拉、克拉克、宿务、爱妮岛等地都有直飞布桑加机场（USU，弗朗西斯科·B·雷耶斯机场）的航班。从马尼拉约需" },
+                    { "type": "duration", "text": "1小时" },
+                    { "text": "，单程票价约" },
+                    { "type": "price", "text": "₱2,500–6,000" },
+                    { "text": "。机场距科隆镇驱车约" },
+                    { "type": "duration", "text": "40分钟" },
+                    { "text": "，机场前的共乘小巴每人约" },
+                    { "type": "price", "text": "₱150–250" },
+                    { "text": "，可送到各住处门口。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "爱妮岛与科隆之间每天有快船运营，约需" },
+                    { "type": "duration", "text": "3小时30分钟至4小时" },
+                    { "text": "，票价约" },
+                    { "type": "price", "text": "₱1,800–2,900" },
+                    { "text": "。马尼拉方向每周有几班大型客轮，约需" },
+                    { "type": "duration", "text": "12–16小时" },
+                    { "text": "，但船公司和班期经常变动，须确认最新时刻表。" },
+                    { "type": "date", "text": "11月至2月" },
+                    { "text": "海况较差，停航较为频繁。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "当地交通",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "科隆镇内乘三轮摩托车出行（市内单程约" },
+                    { "type": "price", "text": "₱20–50" },
+                    { "text": "，包车需另行议价）。马奇尼特温泉或塔皮亚斯山入口都可乘三轮摩托车轻松往返。岛屿行程大多以含住处接送的拼团形式运营，摩托车租赁每日约" },
+                    { "type": "price", "text": "₱500–800" },
+                    { "text": "。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11月" },
+            { "text": "至" },
+            { "type": "date", "text": "5月" },
+            { "text": "为旱季，适合旅行。尤其" },
+            { "type": "date", "text": "3月" },
+            { "text": "至" },
+            { "type": "date", "text": "5月" },
+            { "text": "海面最平静、能见度最佳，无论是湖泊游泳还是沉船潜水都处于最佳状态。圣周和暑假期间热门景点较为拥挤，建议尽早出发。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "12月" },
+            { "text": "至" },
+            { "type": "date", "text": "2月" },
+            { "text": "受东北季风\"阿米汉\"影响，某些日子风力较强，远岛行程或前往爱妮岛的渡轮可能停航。不过科隆岛附近有群岛遮挡风势，多数日子仍可正常出行。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月" },
+            { "text": "至" },
+            { "type": "date", "text": "10月" },
+            { "text": "是雨季兼台风季节。如" },
+            { "type": "date", "text": "2013年" },
+            { "text": "台风海燕曾重创科隆一样，强台风仍可能经过，务必确认气象预报。即便在雨季，上午晴朗的日子也不少，沉船潜水全年大致可行，但能见度可能有所下降。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "马尼拉–布桑加航空", "price": "约₱2,500–6,000", "note": "单程" },
+            { "label": "机场–镇区共乘小巴", "price": "约₱150–250", "note": "每人单程" },
+            { "label": "科隆岛拼团行程", "price": "约₱1,500–2,500", "note": "每人，须确认是否含午餐" },
+            { "label": "湖泊·潟湖入场费", "price": "约₱200–400", "note": "各景点分别收取，卡杨根湖约₱300" },
+            { "label": "私人包船行程", "price": "约₱6,000–10,000", "note": "按每船计" },
+            { "label": "畅潜", "price": "约₱2,500–3,500", "note": "1次，沉船" },
+            { "label": "塔皮亚斯山·马奇尼特温泉", "price": "约₱200–300", "note": "温泉入场费" },
+            { "label": "住宿", "price": "约₱1,500–7,000", "note": "每晚" },
+            { "label": "餐食", "price": "约₱700–1,500", "note": "每人每日" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "住宿以科隆镇中心最为方便，招待所和中档酒店（每晚约" },
+            { "type": "price", "text": "₱1,500–4,000" },
+            { "text": "）聚集于此，行程接送和用餐都很便利。若想欣赏海景，可选择镇郊山丘或海岸边的度假村（每晚约" },
+            { "type": "price", "text": "₱4,000–8,000" },
+            { "text": "）。若想要安静的岛屿度假，可以选择布桑加周边的岛屿度假村，但需要乘船前往，价格也较高。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "科隆镇上有很多海鲜餐厅。挑选新鲜的鱼、虾、鱿鱼和螃蟹，以烧烤或辣椒酱烹调的吃法很受欢迎，科隆特产还包括腰果（巴拉望是腰果产地）和各式海鲜料理。公共市场附近的平价餐厅可以每人约"
+            },
+            { "type": "price", "text": "₱100–200" },
+            { "text": "吃到菲律宾家常菜。岛屿行程的午餐通常是在海滩上摆开的烤鱼、猪肉烧烤、米饭和水果。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "镇上虽有几台ATM，但周末和旺季常常缺钞。建议在抵达前准备好充足现金。" }] },
+            { "children": [{ "text": "景点入场费常常不包含在行程费用内，预约时应确认是否包含。" }] },
+            {
+              "children": [
+                { "text": "热门行程在" },
+                { "type": "time", "text": "上午9–11点" },
+                { "text": "会集中涌向卡杨根湖。若能反向安排行程顺序或要求提早出发，会更加从容。" }
+              ]
+            },
+            { "children": [{ "text": "卡杨根湖的台阶陡峭湿滑，比起溯溪鞋或凉鞋，鞋底更硬实的鞋更为合适。" }] },
+            { "children": [{ "text": "沉船潜水前，应向潜水中心准确告知自己的资格等级和可下潜深度。" }] },
+            {
+              "children": [
+                { "text": "前往机场的小巴接送时间常常比航班时间提早" },
+                { "type": "duration", "text": "2小时" },
+                { "text": "以上，建议提前确认。" }
+              ]
+            },
+            { "children": [{ "text": "Smart和Globe信号在镇上表现良好，但岛屿行程期间几乎会中断。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "科隆岛的湖泊和潟湖是塔格巴努瓦族的圣地。禁止在指定区域外游泳、发出噪音或乱丢垃圾，相关规定和入场费会依社区决定调整，须确认最新公告。" }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "进入沉船内部因迷宫般的结构和沉积物而十分危险，未经训练的潜水员绝对不可进入。" }] },
+            { "children": [{ "text": "建议在梭鱼湖和卡杨根湖穿着救生衣，若不擅长游泳则必须穿着。" }] },
+            { "children": [{ "text": "石灰岩岩石锋利，容易伤脚，建议穿溯溪鞋。" }] },
+            { "children": [{ "text": "台风和季风季节，行程和渡轮可能突然取消，须为行程预留余裕。" }] },
+            {
+              "children": [
+                { "text": "潜水后" },
+                { "type": "duration", "text": "24小时" },
+                { "text": "内不可搭乘飞机。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "爱妮岛",
+              "place": "el-nido",
+              "children": [
+                { "text": "乘快船约" },
+                { "type": "duration", "text": "3小时30分钟至4小时" },
+                { "text": "可达的石灰岩峭壁与潟湖度假胜地。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "卡拉维特野生动物园",
+              "place": "calauit-safari-park",
+              "children": [
+                { "text": "位于布桑加岛北部的野生动物保护区，可以看到长颈鹿和斑马，从科隆镇乘车加船约" },
+                { "type": "duration", "text": "3小时" },
+                { "text": "可达。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "图巴塔哈群礁",
+              "place": "tubbataha-reefs",
+              "children": [
+                { "text": "位于苏禄海正中央的联合国教科文组织世界遗产珊瑚礁，只能在" },
+                { "type": "date", "text": "3至6月" },
+                { "text": "期间乘船宿行程前往。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "阿波礁",
+              "place": "apo-reef",
+              "children": [{ "text": "民都洛西侧的巨型珊瑚礁，有时会与科隆出发的船宿潜水行程一并安排。" }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

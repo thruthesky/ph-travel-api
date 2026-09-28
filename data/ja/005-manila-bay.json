@@ -1,0 +1,604 @@
+{
+  "id": 5,
+  "slug": "manila-bay",
+  "title": { "type": "title", "text": "マニラ湾" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Manila Bay" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "空がオレンジ色に燃え上がる、マニラの伝説的な夕日" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "metro-manila", "text": "マニラ首都圏" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "メトロマニラ マニラ市・パサイ市 ロハス大通り一帯"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "landscape",
+    "value": "nature",
+    "text": "自然景観"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["サンセット", "ベイウォーク", "ドロマイトビーチ", "夜景", "散策"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.1, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 14.5743 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.9766 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "11月〜4月(乾季)",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "2〜4時間" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱300〜2,500",
+    "currency": "PHP",
+    "min": 300,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ニノイ・アキノ国際空港 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/005-manila-bay.webp",
+    "alt": "マニラ湾",
+    "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Sunset,_Philippines.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-2.webp",
+        "alt": "マニラ湾",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Baywalk,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-3.webp",
+        "alt": "マニラ湾",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Fishing,_South_China_Sea,_Philippines.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "ロハス大通りに沿って続く海沿いの遊歩道から、世界的に有名なマニラの夕日を見られる場所です。ドロマイトビーチ、ベイウォーク、モール・オブ・アジアの海辺まで、夕暮れ時の散策コースとして最も愛されています。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "マニラ湾(Manila Bay)は周囲約" },
+            { "type": "distance", "text": "190km" },
+            {
+              "text": "に及ぶ天然の良港で、入口にコレヒドール島があり、何百年もの間、東南アジアで最も重要な港の一つでした。16世紀にはスペインのガレオン貿易船がここからメキシコのアカプルコへ向けて出航し、"
+            },
+            { "type": "date", "text": "1898年" },
+            {
+              "text": "にはアメリカ艦隊がスペイン艦隊を撃破したマニラ湾海戦が行われました。旅行者にとってマニラ湾は何より「夕日の海」です。西側に開けた湾の向こう、バタアン半島の山並みの後ろに太陽が沈むと、空全体がオレンジ色とピンク色に染まる光景は、マニラを代表する風景です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "旅行者が主に訪れるのは、マニラ市エルミタ・マラテからパサイ市へと続くロハス大通り(Roxas Boulevard)の海岸です。ヤシの木が並ぶ海沿いの遊歩道「ベイウォーク(Baywalk)」が約"
+            },
+            { "type": "distance", "text": "2km" },
+            { "text": "続き、アメリカ大使館前からマニラ・ヨットクラブの防波堤の間には" },
+            { "type": "date", "text": "2020年" },
+            { "text": "に造成された長さ約" },
+            { "type": "distance", "text": "500m" },
+            {
+              "text": "の人工ビーチ「ドロマイトビーチ」があります。南側パサイ市の埋立地には、SMモール・オブ・アジアのベイサイド遊歩道と大型カジノリゾート群があり、夕日の後の夜景とショッピングまで楽しめます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "正直に言うと、マニラ湾は泳ぐビーチではありません。長年の汚染で水質改善事業が続けられており、現在も海岸での遊泳と水上スポーツは禁止されています。代わりに、夕暮れ時に海風を受けながら散策し、地元の家族連れやカップルが集まる活気ある雰囲気を楽しむ場所として満喫すれば満足度が高くなります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "イントラムロス、リサール公園、国立博物館とすべて徒歩で結ばれているため、マニラ市街観光の最後の予定に入れるのに向いています。写真好きな旅行者、気軽な夕方の散策を望む家族やカップルにおすすめです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "ベイウォークで夕日を見る",
+              "children": [
+                { "text": "ロハス大通りの海沿いの遊歩道ならどこでも夕日を見られますが、マニラ・ヨットクラブ周辺とリサール公園西端は特に眺めが良いです。日が沈む" },
+                { "type": "duration", "text": "30分" },
+                { "text": "前に到着し、防波堤に場所を取ります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "ドロマイトビーチの散策",
+              "children": [
+                { "text": "白いドロマイトの砂を敷いた人工ビーチで、夕暮れ時には家族連れや写真を撮る人でにぎわいます。入場は無料ですが、木曜日は清掃のため休業します。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "モール・オブ・アジア ベイサイド",
+              "children": [
+                { "text": "SMモール・オブ・アジアの裏手にある海沿いの広場では、観覧車の向こうに太陽が沈む風景を見られます。週末の夜には花火が上がることもあります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "サンセットクルーズ",
+              "children": [
+                {
+                  "text": "夕暮れ時に湾内を巡る夕方クルーズが、CCP(文化センター)側の船着き場などから運航されています。ビュッフェの夕食と生演奏がセットになった商品が多く、特別な日にぴったりです。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "海辺のレストランで夕食",
+              "children": [
+                {
+                  "text": "ロハス大通り周辺には、選んだ海鮮をその場で調理してくれるダンパ(Dampa)方式の食堂街があります。エビ、カニ、イカを量り売りで選び、好みの調理法で注文します。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "マニラ・オーシャンパーク",
+              "children": [{ "text": "リサール公園裏手の海岸にある海洋テーマパークで、水族館とクラゲの展示があり、子ども連れなら昼の予定として良いです。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "夜景ドライブ",
+              "children": [
+                {
+                  "text": "日が沈んだ後にロハス大通りを通ってパサイのエンターテインメント・シティ方面へ移動すると、カジノリゾート群の華やかな照明が海に映る夜景を見られます。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "夕暮れコース(約4時間)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "15:30", "children": [{ "text": "リサール公園西端から出発、キリノ・グランドスタンド前の海岸散策" }] },
+                    { "time": "16:30", "children": [{ "text": "ロハス大通りのベイウォークを南へ歩く" }] },
+                    {
+                      "time": "17:00",
+                      "children": [
+                        { "text": "ドロマイトビーチ入場(" },
+                        { "type": "time", "text": "18時" },
+                        { "text": "入場締切)" }
+                      ]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [
+                        { "text": "防波堤またはビーチで夕日鑑賞(乾季基準で" },
+                        { "type": "time", "text": "17:30〜18:10" },
+                        { "text": "頃)" }
+                      ]
+                    },
+                    { "time": "18:30", "children": [{ "text": "ロハス大通り周辺の海鮮食堂またはマラテで夕食" }] },
+                    { "time": "20:00", "children": [{ "text": "グラブでモール・オブ・アジアへ移動、ベイサイドの夜景と観覧車" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "クルーズコース",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "16:30", "children": [{ "text": "船着き場到着、チェックイン" }] },
+                    { "time": "17:00", "children": [{ "text": "サンセットクルーズ出航、船上の夕食とパフォーマンス" }] },
+                    { "time": "19:00", "children": [{ "text": "下船後、モール・オブ・アジアやホテルへ移動" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "空港から",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "ニノイ・アキノ国際空港からロハス大通りの海岸まで約" },
+                    { "type": "distance", "text": "7〜10km" },
+                    { "text": "で、グラブで" },
+                    { "type": "duration", "text": "25分〜1時間" },
+                    { "text": "、料金は約" },
+                    { "type": "price", "text": "₱250〜500" },
+                    { "text": "です。モール・オブ・アジアは空港から最も近く、約" },
+                    { "type": "duration", "text": "20〜40分" },
+                    { "text": "、" },
+                    { "type": "price", "text": "₱200〜400" },
+                    { "text": "程度です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "軽電鉄(LRT)",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "LRT1号線ユナイテッド・ネーションズ・アベニュー駅、ペドロ・ヒル駅、キンテロス駅(マラテ)で降り、西へ" },
+                    { "type": "duration", "text": "10〜15分" },
+                    { "text": "歩けばロハス大通りの海岸に着きます。料金は約" },
+                    { "type": "price", "text": "₱15〜35" },
+                    {
+                      "text": "です。モール・オブ・アジアはLRT1号線エドサ駅やMRT3号線タフト・アベニュー駅で降り、モール・オブ・アジア行きのジープニーやバスに乗り換えます。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "バス・ジープニー",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "ロハス大通りを通るジープニーと市内バスが多く、「ロハス大通り(Roxas Blvd)」や「MOA」と書かれた車両に乗れば大丈夫です。ジープニーの基本料金は約"
+                    },
+                    { "type": "price", "text": "₱13〜15" },
+                    { "text": "です。夕暮れ時は退勤時間で車が非常に混雑するため、荷物が多い場合はグラブをおすすめします。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "徒歩",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "イントラムロス・国立博物館・リサール公園からは徒歩" },
+                    { "type": "duration", "text": "10〜20分" },
+                    { "text": "で海岸に到着します。海沿いの遊歩道を歩いてドロマイトビーチまでは、リサール公園から約" },
+                    { "type": "duration", "text": "15分" },
+                    { "text": "の距離です。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "夕日をしっかり見るなら" },
+            { "type": "date", "text": "11月〜4月" },
+            { "text": "の乾季が最適です。空が澄んで雲も適度にあるため赤い夕焼けが現れやすく、特に" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は海風が涼しく散策に向いています。乾季の日没時刻はおおよそ" },
+            { "type": "time", "text": "17:30" },
+            { "text": "(" },
+            { "type": "date", "text": "12月" },
+            { "text": ")〜" },
+            { "type": "time", "text": "18:20" },
+            { "text": "(" },
+            { "type": "date", "text": "4月" },
+            { "text": ")の間です。" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "は日中は暑いものの、夕方の散策には大きな支障はありません。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜10月" },
+            { "text": "の雨季には午後に雨雲が押し寄せ、太陽を隠す日が多くなります。それでも雨が上がった直後には劇的な夕焼けが現れることもあります。" },
+            { "type": "date", "text": "7〜9月" },
+            {
+              "text": "の台風の時期には海岸に高波が打ち寄せ、ロハス大通りが浸水することもあるため、防波堤への接近は控えます。南西モンスーン(ハバガット)が強い日は波が遊歩道まで越えてくることがあります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "週末や祝日の夕方は地元の家族連れの来訪者が非常に多くなります。" },
+            { "type": "date", "text": "12月" },
+            { "text": "のクリスマスシーズンにはロハス大通りとモール・オブ・アジアにイルミネーションが設置され、大晦日には海岸一帯で花火を見ることができます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "ベイウォーク・ドロマイトビーチ", "price": "無料", "note": "木曜休業、18時入場締切" },
+            { "label": "空港↔ロハス大通り グラブ", "price": "約₱250〜500(片道)", "note": "退勤時間は上昇" },
+            { "label": "LRT1号線", "price": "約₱15〜35", "note": "区間ごとの料金" },
+            { "label": "サンセットディナークルーズ", "price": "約₱1,500〜3,000", "note": "食事込みの商品の場合" },
+            { "label": "海鮮の夕食", "price": "約₱500〜1,200", "note": "ダンパ式、調理費別途" },
+            { "label": "マニラ・オーシャンパーク", "price": "約₱800〜1,500", "note": "パッケージ構成による" },
+            { "label": "飲み物・軽食", "price": "約₱50〜200", "note": "遊歩道の露店" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "マニラ湾の夕日を部屋から見たいなら、ロハス大通りの海側のホテルを選びます。" },
+            { "type": "date", "text": "1912年" },
+            { "text": "開業のマニラ・ホテル、ロハス大通り中程のダイヤモンド・ホテルなどが長年ベイビューホテルとして知られており、海の見える客室は1泊約" },
+            { "type": "price", "text": "₱5,000〜12,000" },
+            { "text": "です。パサイのエンターテインメント・シティにある大型リゾート(1泊約" },
+            { "type": "price", "text": "₱8,000" },
+            { "text": "以上)は、カジノ・ショー・レストランを一か所で楽しめます。予算が限られているなら、マラテの奥にある約" },
+            { "type": "price", "text": "₱1,500〜3,000" },
+            { "text": "台のホテルも海岸まで徒歩" },
+            { "type": "duration", "text": "10分" },
+            { "text": "以内です。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "食事はロハス大通りの" },
+            { "type": "date", "text": "1936年" },
+            {
+              "text": "開業のフィリピン料理店アリストクラット(Aristocrat)が老舗の名店で、チキンバーベキューとハバライスが代表メニューです。海鮮が好きなら、モール・オブ・アジア近くのダンパ(Dampa)食堂街でエビ・カニ・魚を買い、焼くかチリソース、バターガーリックなどで調理してもらう方法がおすすめです。遊歩道の露店の焼きとうもろこし、イサウ(鶏の内臓串)、ブコジュースも夕日を待ちながら楽しむのに良いです。マラテには韓国料理店も複数あります。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "日没時刻を天気アプリで確認し、少なくとも" },
+                { "type": "duration", "text": "30分" },
+                { "text": "前には到着してください。日が沈んだ後の" },
+                { "type": "duration", "text": "10〜20分" },
+                { "text": "、空が最も赤く染まる「マジックアワー」を逃さないでください。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "ドロマイトビーチは" },
+                { "type": "time", "text": "18時" },
+                { "text": "に新規入場を締め切るため、" },
+                { "type": "time", "text": "17時30分" },
+                { "text": "前に入るのが安全です。運営時間は変わることがあるので環境天然資源省(DENR)の告知を確認します。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "写真は防波堤の上のヤシの木のシルエットを前景に入れると雰囲気が出ます。望遠レンズがあれば、海に停泊する船と太陽を重ねて撮ってみてください。" }
+              ]
+            },
+            { "children": [{ "text": "海風が強く帽子が飛ばされやすいです。虫よけスプレーをかけると夕方の散策がずっと快適になります。" }] },
+            { "children": [{ "text": "屋台とジープニーは現金のみのため小額紙幣を用意します。" }] },
+            {
+              "children": [{ "text": "夕暮れ時のロハス大通りは激しく渋滞するため、夕方の約束がある場合は移動時間を余裕を持って見るか、LRTを利用します。" }]
+            },
+            { "children": [{ "text": "サンセットクルーズは週末に満席になることが多いため、オンラインで1〜2日前に予約します。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "マニラ湾は水質問題のため遊泳と水遊びが禁止されています。砂浜の上だけで楽しみ、海水に手足をつけることも避けます。" }] },
+            { "children": [{ "text": "人が集まる夕日の時間帯にはスリが出ます。写真撮影に集中している間に携帯電話やバッグを狙われることが多いです。" }] },
+            { "children": [{ "text": "夜遅く人けのない防波堤やロハス大通りの地下道、暗い公園の区域は避け、グラブで移動します。" }] },
+            { "children": [{ "text": "台風や強いモンスーンの時は波が防波堤を越えて遊歩道に打ち込むため、海岸に近づきません。" }] },
+            { "children": [{ "text": "遊歩道で花や小物を無理に渡してお金を要求してくる場合があるので、受け取らずに丁寧に断ります。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "マニラ湾のビーチは散策と夕日鑑賞用です。水質基準を満たすまで遊泳は禁止されているため、ビーチ休暇が目的ならバタンガスやパラワンなど他のビーチを選んでください。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "リサール公園",
+              "place": "rizal-park",
+              "children": [
+                { "text": "ベイウォーク北端から徒歩" },
+                { "type": "duration", "text": "5〜10分" },
+                { "text": "。リサール記念碑と広い広場、夕方の噴水ショーがある公園です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "イントラムロス",
+              "place": "intramuros",
+              "children": [
+                { "text": "徒歩約" },
+                { "type": "duration", "text": "20分" },
+                { "text": "またはグラブ" },
+                { "type": "duration", "text": "10分" },
+                { "text": "。スペインの城壁都市で、午前の予定と組み合わせやすいです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "フィリピン国立博物館",
+              "place": "national-museum",
+              "children": [
+                { "text": "徒歩約" },
+                { "type": "duration", "text": "15分" },
+                { "text": "。昼は無料の博物館を見て、夕方に海岸へ出る動線がおすすめです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "コレヒドール島",
+              "place": "corregidor",
+              "children": [{ "text": "マニラ湾入口にある戦跡の島。現在はバタアン州マリベレスを経由して入る日帰りツアーで訪れます。" }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "id": 8,
+  "slug": "tagaytay",
+  "title": { "type": "title", "text": "タガイタイ" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Tagaytay" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "涼しい尾根から湖の中の火山を見下ろす、マニラの一息つける場所"
+  },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "cavite", "text": "カビテ" },
+  "location": { "type": "address", "label": "所在地", "icon": "location_on", "text": "カビテ州タガイタイ市" },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "landscape",
+    "value": "nature",
+    "text": "自然景観"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["タール火山の眺め", "高原都市", "ブラロ", "カフェ", "週末旅行"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 14.1 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.93 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "11月〜3月(乾季・涼しい気候)",
+    "months": [11, 12, 1, 2, 3]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "1〜2日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱1,500〜4,000",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ニノイ・アキノ国際空港 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/008-tagaytay.webp",
+    "alt": "タガイタイ",
+    "credit": "lulaymb / CC BY-SA 2.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tagaytay_Highlands,_Philippines_(lulaymb)_3_-_Flickr.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/008-tagaytay-2.webp",
+        "alt": "タガイタイ",
+        "credit": "lulaymb / CC BY-SA 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Highlands,_Tagaytay,_Philippines_(5757134908).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/008-tagaytay-3.webp",
+        "alt": "タガイタイ",
+        "credit": "Sutharhitesh1996 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tagaytay_06.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "標高約" },
+      { "type": "distance", "text": "600m" },
+      {
+        "text": "の尾根に位置し、マニラより3〜5度涼しい高原都市で、タール湖と湖の中のタール火山を一望できます。熱々のブラロと眺めの良いカフェ、スカイランチの観覧車で、マニラで最も人気のある週末のお出かけスポットです。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "タガイタイ(Tagaytay)はマニラから南へ約" },
+            { "type": "distance", "text": "60km" },
+            { "text": "離れたカビテ州の高原都市です。巨大なタール・カルデラの北側の縁を成す尾根(タガイタイ・リッジ)に沿って長く伸びており、標高" },
+            { "type": "distance", "text": "600〜700m" },
+            {
+              "text": "に位置するため年間平均気温が22〜24度で、マニラより3〜5度ほど涼しくなっています。この涼しい気候のおかげで、以前から「フィリピンの第二の避暑地」と呼ばれ、マニラ市民の週末保養地としての役割を果たしてきました。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "タガイタイの主役は目の前に広がるタール湖とタール火山です。タール湖は数十万年前の超巨大噴火でできたカルデラに水がたまってできた湖で、その真ん中にそびえるタール火山島はフィリピンで最も活発な火山の一つです。「湖の中の島の中の火山湖」という独特の地形で有名で、尾根の上の展望台やカフェの窓際からこの壮観を気軽に楽しむことができます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "2020年1月" },
+            {
+              "text": "にタール火山が噴火し、火山島全体が永久危険地域に指定され、以前のように島に上陸して火口まで馬に乗って登るツアーは現在禁止されています。代わりに、タガイタイ側からの眺めは今も素晴らしく、街には眺めの良いカフェやレストラン、庭園型リゾート、遊園地、修道院など楽しめる場所が多くあります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "マニラから日帰りも可能ですが、涼しい夕方の空気と朝霧の中の湖の風景まで楽しむなら1泊をおすすめします。家族旅行者、カップル、暑さに疲れた長期滞在者、グルメ・カフェ巡りが好きな人によく合います。韓国人移住者も多く暮らしているため、韓国料理店や韓国人経営の宿も見つけやすいです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "尾根の展望カフェでタール火山を眺める",
+              "children": [
+                { "text": "タガイタイ〜ナスグブ・ハイウェイに沿って湖側の崖に建つカフェとレストランが並んでいます。" },
+                { "type": "time", "text": "朝8〜10時" },
+                { "text": "には霧が晴れ、火山がくっきりと見える最も美しい風景を楽しめます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "ブラロを食べる",
+              "children": [
+                {
+                  "text": "牛の骨と骨髄、とうもろこし、キャベツを入れて長時間煮込んだスープ料理で、涼しいタガイタイの代表的な料理です。マホガニー・マーケット周辺の食堂街は、新鮮な牛肉を使うブラロ通りとして有名です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "スカイランチの観覧車",
+              "children": [
+                { "text": "高さ約" },
+                { "type": "distance", "text": "63m" },
+                { "text": "の大観覧車「スカイ・アイ」に乗れば、タール湖と火山を空から見下ろせます。小規模な遊園地なので、子どもと一緒に半日を過ごすのに向いています。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "ピープルズ・パーク・イン・ザ・スカイ",
+              "children": [
+                { "text": "タガイタイで最も高い場所(標高約" },
+                { "type": "distance", "text": "700m" },
+                { "text": ")にある公園で、" },
+                { "type": "date", "text": "1980年" },
+                {
+                  "text": "代にマルコス政権が外国首脳を迎えるために建設していて中断した「天空の宮殿」の骨組みが残っています。晴れた日にはタール湖、ラグナ湖、マニラ湾まで見えます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "タガイタイ・ピクニック・グローブ",
+              "children": [
+                { "text": "尾根の上にある広い公園で、展望台、ジップライン、乗馬、散策路があります。レジャーシートを敷いて湖を見下ろしながら休むのに向いています。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "ピンク・シスターズ修道院",
+              "children": [
+                { "text": "ピンク色の修道服を着た聖体礼拝修道会の修道院で、静かな聖堂でしばし留まって祈る訪問者が多いです。慎み深い服装で訪れます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "庭園レストランとパサルボン(お土産)ショッピング",
+              "children": [
+                {
+                  "text": "タガイタイと近隣のアルフォンソには有機野菜を使う庭園型レストランが多くあります。帰り道にはブコパイ(ココナッツパイ)、タガイタイ産コーヒー豆、蜂蜜、新鮮なパイナップルをお土産に買います。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00",
+                      "children": [
+                        { "text": "マニラ出発(週末は" },
+                        { "type": "time", "text": "6時" },
+                        { "text": "前の出発が必須)" }
+                      ]
+                    },
+                    { "time": "08:30", "children": [{ "text": "尾根の展望カフェで朝食とタール火山鑑賞" }] },
+                    { "time": "10:00", "children": [{ "text": "ピープルズ・パーク・イン・ザ・スカイ" }] },
+                    { "time": "11:30", "children": [{ "text": "マホガニー・マーケット周辺でブラロの昼食" }] },
+                    { "time": "13:30", "children": [{ "text": "スカイランチの観覧車とアトラクション" }] },
+                    { "time": "15:30", "children": [{ "text": "ピンク・シスターズ修道院訪問" }] },
+                    { "time": "16:30", "children": [{ "text": "宿にチェックインして休憩" }] },
+                    { "time": "18:00", "children": [{ "text": "眺めの良いレストランで夕食、涼しい夜の空気を楽しむ" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "宿から霧が晴れていくタール湖を鑑賞" }] },
+                    { "time": "08:30", "children": [{ "text": "ピクニック・グローブ散策・ジップライン" }] },
+                    { "time": "10:30", "children": [{ "text": "庭園レストランでブランチ" }] },
+                    { "time": "12:30", "children": [{ "text": "ブコパイ・コーヒーなどお土産ショッピング" }] },
+                    {
+                      "time": "13:30",
+                      "children": [
+                        { "text": "マニラへ帰還、またはタール・ヘリテージ・タウンへ移動(約" },
+                        { "type": "duration", "text": "1時間" },
+                        { "text": ")" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "バス",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "マニラ・パラニャーケのPITX(統合バスターミナル)やパサイのブエンディア・エドサ一帯のターミナルから、タガイタイまたはナスグブ行きのバスに乗ります。所要時間は交通状況により約"
+                    },
+                    { "type": "duration", "text": "1時間30分〜3時間" },
+                    { "text": "、料金は約" },
+                    { "type": "price", "text": "₱110〜200" },
+                    { "text": "です。降りる時は「ロトンダ(Rotonda)」「オリバレス(Olivarez)」など希望の停留所を事前に運転手に伝えておきます。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "グラブ・貸切車両",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラ都心からグラブで約" },
+                    { "type": "duration", "text": "1時間30分〜2時間30分" },
+                    { "text": "、片道約" },
+                    { "type": "price", "text": "₱1,500〜2,500" },
+                    { "text": "です。タガイタイでは帰りのグラブがうまく捕まらないことがあるため、往復の貸切車両(運転手込みで1日約" },
+                    { "type": "price", "text": "₱3,500〜5,000" },
+                    { "text": ")を予約する旅行者が多いです。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自家用車",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラから約" },
+                    { "type": "distance", "text": "60km" },
+                    {
+                      "text": "で、二つの経路があります。南ルソン高速道路(SLEX)のサンタローサ出口から出てサンタローサ〜タガイタイ道路を使うか、カビテ海岸高速道路(CAVITEX)とカラバルソン高速道路(CALAX)を利用します。平日約"
+                    },
+                    { "type": "duration", "text": "1時間30分" },
+                    { "text": "、週末・連休には" },
+                    { "type": "duration", "text": "3時間" },
+                    { "text": "以上かかることもあります。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "現地移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "尾根道路沿いをジープニーが走っており、基本料金は約" },
+                    { "type": "price", "text": "₱13〜20" },
+                    { "text": "です。短距離はトライシクル(約" },
+                    { "type": "price", "text": "₱50〜150" },
+                    { "text": "、交渉可能)を利用し、複数の名所を回るならトライシクルの時間制貸切(約" },
+                    { "type": "price", "text": "₱300〜500" },
+                    { "text": "/時間)が便利です。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11月〜3月" },
+            { "text": "が最も良いです。特に" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は朝の気温が17〜20度まで下がり、長袖が必要なほど涼しく、空が澄んで火山の眺めが鮮明です。" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "はマニラが最も暑い時期のため避暑客が押し寄せますが、タガイタイも日中は28〜30度まで上がります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜10月" },
+            {
+              "text": "の雨季には午後ごとに雨が降り、濃い霧が尾根を覆って湖と火山が全く見えない日が多くなります。台風が通過すると強風で木が倒れたり停電したりすることもあります。雨季に行くなら午前の早い時間に景色を見る日程を組みます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "タール火山の警戒レベルも確認する必要があります。フィリピン火山地震研究所(PHIVOLCS)基準で" },
+            { "type": "date", "text": "2026年" },
+            {
+              "text": "夏現在、警戒レベル1(低水準の不安定)が維持されており、小規模な水蒸気噴出が断続的に起きています。警戒レベルが上がったり火山ガス(vog)が濃く立ち込めたりする日は、呼吸器疾患のある人や子どもは訪問を控えます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "マニラ↔タガイタイ バス", "price": "約₱110〜200(片道)", "note": "PITX発の場合" },
+            { "label": "貸切車両(運転手込み)", "price": "約₱3,500〜5,000(1日)", "note": "人数を分ければ割安" },
+            { "label": "スカイランチ入場料", "price": "約₱120〜150", "note": "アトラクション別途またはフリーパス" },
+            { "label": "ピープルズ・パーク入場料", "price": "約₱30〜50" },
+            { "label": "ピクニック・グローブ入場・ジップライン", "price": "約₱50〜400", "note": "体験内容による" },
+            { "label": "ブラロの食事", "price": "約₱600〜1,200", "note": "1鍋、2〜4人分の場合" },
+            { "label": "展望カフェ", "price": "約₱250〜500", "note": "飲み物・デザート1人分" },
+            { "label": "宿泊1泊", "price": "約₱2,500〜8,000", "note": "ゲストハウス〜リゾート" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "宿泊施設は尾根道路沿いにタール湖ビューのホテル、庭園型リゾート、ゲストハウス、エアビーアンドビーとさまざまにあります。湖の見える客室がある中級ホテルは1泊約"
+            },
+            { "type": "price", "text": "₱3,500〜6,000" },
+            { "text": "、高級リゾートは約" },
+            { "type": "price", "text": "₱6,000〜12,000" },
+            { "text": "、素朴なゲストハウスは約" },
+            { "type": "price", "text": "₱1,500〜3,000" },
+            {
+              "text": "です。週末・連休には料金が上がりすぐに満室になるため、事前に予約します。夜は気温が下がるため、エアコンよりも温水シャワーと厚めの布団があるか確認する方が重要です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "食事の基本はブラロです。マホガニー・マーケット周辺には精肉店から直接仕入れた牛肉でブラロを煮込む食堂が集まっており、老舗のブラロ食堂レスリーズ(Leslie's)は湖の見える席で有名です。特別な日にはタガイタイを代表するファインダイニングレストラン、アントニオズ(Antonio's)を、カジュアルには庭園カフェのバッグ・オブ・ビーンズ(Bag of Beans)がよく利用されます。近隣アルフォンソのソニアズ・ガーデン(Sonya's Garden)は有機サラダとパスタコースで長年愛されてきた庭園レストランです。軽食には温かいブコパイと、タール湖の淡水魚タウィリスの唐揚げがおすすめです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "週末・連休にはタガイタイへ入る道路が激しく渋滞します。" },
+                { "type": "time", "text": "午前6時" },
+                { "text": "より前に出発するか、平日に訪れてください。" }
+              ]
+            },
+            { "children": [{ "text": "火山の眺めは朝が最も鮮明です。午後は雲や霧がかかる日が多いので、展望カフェは午前の予定に入れます。" }] },
+            {
+              "children": [
+                { "text": "朝晩は涼しいので薄手の長袖やウインドブレーカーを持参し、" },
+                { "type": "date", "text": "12〜2月" },
+                { "text": "には軽いコートが必要です。" }
+              ]
+            },
+            { "children": [{ "text": "マホガニー・マーケットのブラロは量が多いため、2〜3人で1鍋を分けるのが普通です。注文前に量と価格を確認します。" }] },
+            {
+              "children": [
+                { "text": "大きなモールとレストランはカードを受け付けますが、市場、トライシクル、屋台は現金のみです。ロトンダ周辺のモールにATMがあります。" }
+              ]
+            },
+            { "children": [{ "text": "撮影スポットはピープルズ・パークの聖母像の丘、スカイランチの観覧車、尾根カフェの窓際の席です。" }] },
+            { "children": [{ "text": "グラブがつかまりにくく待ち時間が長くなることがあるため、複数人であれば運転手込みの貸切車両が最も効率的です。" }] },
+            { "children": [{ "text": "人気レストランは週末の昼に待ち時間が長くなるため、オンライン予約をしておくのがよいでしょう。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "タール火山島はフィリピン火山地震研究所が指定した永久危険地域で上陸が禁止されています。湖畔で「火山島ツアー」を勧める客引きに応じません。" }
+              ]
+            },
+            { "children": [{ "text": "警戒レベルの引き上げや火山ガス警報が出たら、窓を閉め屋外活動を減らし、必要であればマスク(N95)を着用します。" }] },
+            {
+              "children": [
+                { "text": "尾根道路は歩道が狭く車の速度が速いため、歩いて移動するのが危険な区間が多いです。短い距離でもトライシクルを利用します。" }
+              ]
+            },
+            { "children": [{ "text": "濃い霧が出た夕方は運転の視界が非常に悪くなります。自家用車の場合は日が沈む前に山道の区間を通過します。" }] },
+            { "children": [{ "text": "雨季や台風の時期には土砂崩れや倒木で道路がふさがることがあるので気象予報を確認します。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "タール火山の警戒レベルと立ち入り可能区域は随時変わります。出発前にフィリピン火山地震研究所(PHIVOLCS)の公式告知を必ず確認してください。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "タール・ヘリテージ・タウン",
+              "place": "taal-heritage-town",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "。アジア最大級のカトリック聖堂であるタール・バシリカとスペイン時代の邸宅が集まるバタンガスの旧市街です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "マニラ湾",
+              "place": "manila-bay",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間30分〜2時間" },
+                { "text": "。マニラへ戻る道中、ロハス大通りで夕日を見て旅を締めくくります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ナスグブ・ビーチ",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間30分" },
+                { "text": "。バタンガス西海岸のビーチで、タガイタイと組み合わせて山と海を両方楽しめます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "カレルエガ教会",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "40〜50分" },
+                { "text": "。バタンガス・ナスグブの丘の上にある赤レンガの礼拝堂で、結婚式場として有名な撮影スポットです。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

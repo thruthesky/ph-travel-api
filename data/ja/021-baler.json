@@ -1,0 +1,626 @@
+{
+  "id": 21,
+  "slug": "baler",
+  "title": { "type": "title", "text": "バレル" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Baler" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "太平洋の波とスペイン軍包囲戦の記憶が交わるサーフィンの町" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "aurora", "text": "オーロラ" },
+  "location": { "type": "address", "label": "所在地", "icon": "location_on", "text": "オーロラ州バレル" },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "ビーチ・島"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["サーフィン", "歴史", "滝", "海岸の断崖", "巨木"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 15.7583 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 121.5625 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "11月〜2月(サーフィン)、3月〜5月(ビーチ)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "2泊3日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱2,000〜4,000(1日)",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "クラーク国際空港 (CRK)",
+    "code": "CRK"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/021-baler.webp",
+    "alt": "バレル",
+    "credit": "Kennnpogi / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Dicasalarin_Cove_(Baler).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/021-baler-2.webp",
+        "alt": "バレル",
+        "credit": "miguel jaime Valcarc… / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Suclayin,_Poblacion,_Baler,_Aurora,_Philippines_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/021-baler-3.webp",
+        "alt": "バレル",
+        "credit": "Migo Santos / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hanging_Bridge_Baler_Philippines_(143823683).jpeg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "ルソン島東海岸で太平洋に面したオーロラ州の州都で、フィリピン・サーフィン発祥の地です。サバン・ビーチの波、ディカサラリン湾の断崖の景観、" },
+      { "type": "date", "text": "1898年" },
+      { "text": "のバレル包囲戦の歴史が重なり、週末旅行先として人気を集めています。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "バレルはマニラから北東へ約" },
+            { "type": "distance", "text": "230km" },
+            {
+              "text": "、シエラマドレ山脈を越えなければたどり着けない太平洋岸の小さな町です。オーロラ州の州都であり、フィリピン・コモンウェルス大統領マヌエル・L・ケソンとその夫人アウロラ・ケソンの故郷としても知られています。西側は険しい山脈、東側は開けた太平洋という地形から長らく孤立した地域でしたが、そのおかげで今も大型リゾートよりも素朴なサーフキャンプや民宿が似合う雰囲気を残しています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "フィリピン・サーフィン文化発祥の地とされるのは、" },
+            { "type": "date", "text": "1970年" },
+            {
+              "text": "代に映画「地獄の黙示録(Apocalypse Now)」の撮影隊がここでサーフィンシーンを撮影し、サーフボードを残して去ったという逸話があるためです。撮影地となった川の河口の波は映画のセリフにちなんで「チャーリーズ・ポイント(Charlie's Point)」と呼ばれ、その後地元の子どもたちが残されたボードで波に乗り始めたことが今のサーフィンの町へとつながりました。浜辺の砂地の上で崩れるサバン・ビーチの波は、初心者がレッスンを受けるのに適しています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "歴史旅行先としての重みも大きい場所です。" },
+            { "type": "date", "text": "1898年" },
+            {
+              "text": "のフィリピン革命当時、スペイン軍50人余りがバレルの教会に立てこもり、すでにスペインがフィリピンをアメリカに譲渡した後だったにもかかわらずそれを信じなかったため、"
+            },
+            { "type": "date", "text": "1899年6月" },
+            { "text": "まで約337日間持ちこたえました。この「バレル包囲戦」の舞台となった教会と博物館は、今も町の中心にそのまま残っています。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "サーフィンを習いたい初心者、人混みを避けてビーチや滝を訪れたい週末旅行者、歴史の物語が好きな旅行者に向いています。ただし太平洋に直接面した海岸のため、水の色はボラカイ島のような透明なターコイズブルーではなく濃い青色で、波が高い日が多い点は知っておくとよいでしょう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "サバン・ビーチのサーフィンレッスン",
+              "children": [
+                { "text": "町からトライシクルで" },
+                { "type": "duration", "text": "5〜10分" },
+                { "text": "の距離にあるサバン・ビーチ(Sabang Beach)には、インストラクターやボードレンタル店が並んでいます。" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "のレッスン(ボード込み)が約" },
+                { "type": "price", "text": "₱350〜500" },
+                { "text": "程度で、波が穏やかな午前中が初心者に向いています。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "ディカサラリン湾(Dicasalarin Cove)",
+              "children": [
+                { "text": "町の南側の山道の先に隠れた三日月形のビーチで、緑の断崖と白い灯台が織りなすバレルを代表する風景です。私有道路を通るため入場料(約" },
+                { "type": "price", "text": "₱300" },
+                { "text": ")がかかり、ビーチ奥の展望台の階段を上ると湾全体を見渡せます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "ディトゥマボ・マザー滝(Ditumabo Mother Falls)",
+              "children": [
+                { "text": "隣接するサンルイス地区にある高さ約" },
+                { "type": "distance", "text": "40m" },
+                { "text": "の滝で、駐車場から川を何度か渡りながら" },
+                { "type": "duration", "text": "30〜45分" },
+                { "text": "歩いて入ります。水は冷たく流れが強いため、泳ぐというよりしぶきを浴びる程度がちょうどよいでしょう。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "バレル教会と包囲戦博物館",
+              "children": [
+                { "type": "date", "text": "1899年" },
+                {
+                  "text": "にスペイン軍が立てこもったサン・ルイス教会と、その向かいにある「ムセオ・デ・バレル(Museo de Baler)」では、包囲戦とケソン家の物語を見ることができます。半日の歴史コースとして無理なく回れます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "ミレニアム・ツリー(Millennium Tree)",
+              "children": [
+                {
+                  "text": "隣町マリア・アウロラにある巨大なバレテ(バニヤン系統)の木で、樹齢600年以上と伝えられています。根の間の空洞から中に入り、幹の内側を登れるのが名物です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "エルミタの丘展望台",
+              "children": [
+                { "text": "町の北側の丘の上からバレル湾とサバン・ビーチを一望できます。" },
+                { "type": "date", "text": "1735年" },
+                { "text": "の津波の際、住民がこの丘に避難したという言い伝えが残っています。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "ディギシット・ビーチと海岸ドライブ",
+              "children": [
+                {
+                  "text": "ディカサラリンへ向かう途中にある岩場のビーチで、波が岩に打ち付ける光景が印象的です。もう少し先にあるディパクラオのディナディアワン・ビーチは水が澄んでいて海水浴に適しています。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1日目",
+              "subtitle": "移動とサバン・ビーチ",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "04:00〜05:00", "children": [{ "text": "マニラのクバオ・ターミナルから早朝バスで出発" }] },
+                    {
+                      "time": "10:00〜11:00",
+                      "children": [{ "text": "バレルに到着、宿にチェックイン(サバン・ビーチ周辺がおすすめ)" }]
+                    },
+                    { "time": "12:00", "children": [{ "text": "ビーチ沿いの食堂で昼食(焼き魚、キニラウ)" }] },
+                    {
+                      "time": "14:00〜16:00",
+                      "children": [
+                        { "text": "サバン・ビーチでサーフィンレッスン(" },
+                        { "type": "duration", "text": "1〜2時間" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [{ "text": "夕日の代わりに山側の空が赤く染まるのをビーチで眺め、夕食はサーフカフェで" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2日目",
+              "subtitle": "ツアーデー",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "トライシクルまたはバンをチャーターしてツアーに出発" }] },
+                    { "time": "07:30〜10:00", "children": [{ "text": "ディトゥマボ・マザー滝へのトレッキングと水遊び" }] },
+                    { "time": "11:00", "children": [{ "text": "ミレニアム・ツリーを訪問" }] },
+                    { "time": "12:30", "children": [{ "text": "町で昼食" }] },
+                    {
+                      "time": "13:30〜16:00",
+                      "children": [{ "text": "ディギシット・ビーチを経てディカサラリン湾で海水浴と展望台への登り" }]
+                    },
+                    { "time": "17:00", "children": [{ "text": "バレル教会とムセオ・デ・バレルを見学(開館時間を要確認)" }] },
+                    { "time": "19:00", "children": [{ "text": "町で夕食" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3日目",
+              "subtitle": "朝のサーフィンと帰路",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00〜08:00", "children": [{ "text": "人の少ない朝の波で最後のサーフィン" }] },
+                    { "time": "09:00", "children": [{ "text": "エルミタの丘展望台を訪れ、市場でスマンや干物などのお土産を購入" }] },
+                    { "time": "11:00〜13:00", "children": [{ "text": "バスに乗車、夕方頃マニラに到着" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "バス",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "マニラのクバオにあるジェネシス(Genesis)・ジョイバス(JoyBus)ターミナルから、バレル直行便が1日に何本も運行しています。所要時間は約"
+                        },
+                        { "type": "duration", "text": "5〜7時間" },
+                        { "text": "で、料金は一般的なエアコン付きバスが約" },
+                        { "type": "price", "text": "₱500〜700" },
+                        { "text": "、座席にゆとりのあるジョイバスが約" },
+                        { "type": "price", "text": "₱900〜1,000" },
+                        { "text": "程度です。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "週末や連休にはチケットがすぐに売り切れるため、オンライン予約かターミナルでの事前購入をおすすめします。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "カバナトゥアン(ヌエバエシハ)まで行き、バレル行きのバンに乗り換える方法もあり、カバナトゥアンから約" },
+                        { "type": "duration", "text": "3〜4時間" },
+                        { "text": "かかります。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自家用車・チャーターバン",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "NLEXとSCTEXを経由してヌエバエシハ方面へ向かい、シエラマドレの山道(バレル〜ボンガボン道路)を越えます。約" },
+                        { "type": "duration", "text": "5〜6時間" },
+                        { "text": "かかり、山道区間はカーブが多く雨の日には落石の恐れもあるため、日中の運転をおすすめします。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "バレルには定期便がありません。海外から訪れる場合はクラーク国際空港(CRK)が最も近く、空港から車で約" },
+                        { "type": "duration", "text": "4〜5時間" },
+                        { "text": "です。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "現地での移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "町とサバン・ビーチの間はトライシクルで1回約" },
+                        { "type": "price", "text": "₱20〜50" },
+                        { "text": "(乗り合い)程度です。滝・ミレニアム・ツリー・ディカサラリンを1日で回るなら、トライシクルのチャーター(約" },
+                        { "type": "price", "text": "₱1,000〜1,500" },
+                        { "text": ")またはバンのチャーターが便利です。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "バレルはルソン島西部と季節のパターンが異なります。太平洋側のため北東モンスーン(アミハン)が吹く" },
+            { "type": "date", "text": "10月〜2月" },
+            { "text": "に波が最も良くなり、サーフィンシーズンとなりますが、この時期は雨も多く降ります。ビーチでのんびり過ごし海水浴を楽しむのに良い時期は、海が穏やかになる" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "で、聖週間(ホーリーウィーク)の連休には宿が早くから満室になります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜10月" },
+            {
+              "text": "は台風の影響を受ける時期で、ルソン島東海岸は台風の上陸地点になることが多くあります。この時期は山道が通行止めになったり波が危険なほど高くなったりすることがあるため、出発前に必ずPAGASAの予報を確認してください。サーフィン大会は通常"
+            },
+            { "type": "date", "text": "2月" },
+            { "text": "前後、アウロラ・デー(アウロラ・ケソンの誕生記念日、" },
+            { "type": "date", "text": "2月19日" },
+            { "text": ")の行事と重なって開催され、この時期は町全体がいっそう活気づきます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "マニラ〜バレル間のバス", "price": "片道約₱500〜1,000", "note": "一般バスとプレミアムバスで異なる" },
+            { "label": "サーフィンレッスン", "price": "1時間約₱350〜500", "note": "ボードレンタル込み" },
+            { "label": "ボードのみのレンタル", "price": "1時間約₱200〜300", "note": "経験者向け" },
+            { "label": "ディカサラリン湾の入場料", "price": "約₱300", "note": "私有道路の利用料込み" },
+            { "label": "滝・史跡の入場料", "price": "1か所あたり約₱30〜100", "note": "環境保全費込み" },
+            { "label": "トライシクルツアーのチャーター", "price": "1台約₱1,000〜1,500", "note": "2〜3人乗車" },
+            { "label": "宿泊", "price": "1泊約₱1,200〜5,000", "note": "サーフキャンプ〜中級リゾート" },
+            { "label": "食事", "price": "1食約₱150〜400", "note": "ビーチ沿いの食堂基準" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "宿は大半がサバン・ビーチ沿いに集まっています。サーフィンが目的ならビーチ前のサーフキャンプやゲストハウス(1泊約" },
+            { "type": "price", "text": "₱1,200〜2,500" },
+            { "text": ")が便利で、エアコンとプールを求めるならビーチの奥にある中級リゾート(約" },
+            { "type": "price", "text": "₱3,000〜5,000" },
+            {
+              "text": ")を選ぶとよいでしょう。ディカサラリン湾の内側には湾を独り占めするようなリゾートが1軒あり、価格帯は高めで町からも離れているため、静かに過ごしたい旅行者に向いています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "食事は魚介類が中心です。獲れたての魚を酢と生姜で和えたキニラウ、ココナッツミルクで煮込んだギナタアン、炭火焼きの魚が定番で、市場で売られているスマン(バナナの葉に包んだもち米の菓子)やココナッツ菓子、干物はお土産に向いています。サバン・ビーチにはサーファー向けのスムージー・パスタカフェが何軒もあり、1食約"
+            },
+            { "type": "price", "text": "₱200〜400" },
+            { "text": "あれば十分です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "バレルの町にはATMが数か所ありますが、連休には現金が不足しがちです。マニラで十分に引き出しておくと安心です。" }] },
+            {
+              "children": [
+                { "text": "サーフィンレッスンはビーチで直接交渉することもできますが、初心者なら同じインストラクターに2〜3回続けて習うほうが上達が早まります。" }
+              ]
+            },
+            { "children": [{ "text": "ラッシュガードとリーフシューズを用意してください。強い日差しやボードとの摩擦による擦り傷を軽減できます。" }] },
+            {
+              "children": [
+                {
+                  "text": "モバイルデータは町とサバン・ビーチではよくつながりますが、ディカサラリンや滝の方は電波が弱くなります。チャーターした運転手の連絡先を事前に控えておいてください。"
+                }
+              ]
+            },
+            { "children": [{ "text": "ディカサラリン湾は午後になると断崖の影がビーチを覆います。写真は午前遅めから正午頃が最も明るく撮れます。" }] },
+            {
+              "children": [
+                { "text": "滝へのトレッキングは川を何度も渡るため、サンダルではなく濡れてもよいトレッキングシューズやアクアシューズが向いています。" }
+              ]
+            },
+            { "children": [{ "text": "帰りのバスは日曜午後の便が最も混みます。到着後すぐに帰りのチケットを買っておくのがこつです。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "太平洋に直接面したビーチのため、離岸流(岸から沖へ引く急な流れ)が発生しやすくなっています。赤旗が掲げられている日や波が高い日は遊泳を控えてください。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "サーフィンレッスン中はインストラクターが指定した区域から出ず、経験者向けの区域(河口のポイント側)には入らないようにしましょう。" }
+              ]
+            },
+            { "children": [{ "text": "雨季や台風の時期には、バレル〜ボンガボン間の山道で土砂崩れが起き、通行止めになることもあります。" }] },
+            { "children": [{ "text": "滝は雨の後に急激に水量が増えます。上流側の空が暗くなったらすぐに引き返してください。" }] },
+            { "children": [{ "text": "日中の紫外線が非常に強くなります。サンゴに優しい日焼け止めと帽子、十分な水を用意してください。" }] },
+            { "children": [{ "text": "ビーチにゴミを残さず、貝殻やサンゴの持ち帰りはしないでください。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "ディナディアワン・ビーチ",
+              "children": [
+                { "text": "バレルから北へ車で約" },
+                { "type": "duration", "text": "1時間30分" },
+                { "text": "、水が澄み砂のきめ細かいオーロラの隠れたビーチです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "パンタバンガン湖(ヌエバエシハ)",
+              "children": [
+                { "text": "帰り道に車で約" },
+                { "type": "duration", "text": "2〜3時間" },
+                { "text": "、大きなダム湖と山の風景が広がるドライブコースです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ハンドレッド・アイランズ",
+              "place": "hundred-islands",
+              "children": [{ "text": "ルソン島西海岸のパンガシナンにある、島巡りが中心のもう一つの週末海旅行先です。" }]
+            },
+            {
+              "type": "card",
+              "title": "バギオ",
+              "place": "baguio",
+              "children": [
+                { "text": "バスで約" },
+                { "type": "duration", "text": "7〜8時間" },
+                { "text": "、涼しい高原都市と組み合わせてルソン島北部一周に続けやすい場所です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

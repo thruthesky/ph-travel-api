@@ -1,0 +1,628 @@
+{
+  "id": 7,
+  "slug": "corregidor",
+  "title": { "type": "title", "text": "コレヒドール島" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Corregidor Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "マニラ湾を守った岩の要塞に残る太平洋戦争の傷跡" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "cavite", "text": "カビテ" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "カビテ州カビテ市 コレヒドール島(マニラ湾入口)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "歴史・文化"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["戦跡", "マリンタ・トンネル", "砲台", "島内ツアー", "歴史学習"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.6, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 14.3856 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.5731 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "12月〜5月(乾季・穏やかな海)",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "1日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱3,000〜5,000",
+    "currency": "PHP",
+    "min": 3000,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "ふつう",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ニノイ・アキノ国際空港 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/007-corregidor.webp",
+    "alt": "コレヒドール島",
+    "credit": "yeowatzup / CC BY 2.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pacific_War_Memorial,_Corregidor,_Philippines_(181769934).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/007-corregidor-2.webp",
+        "alt": "コレヒドール島",
+        "credit": "H.abanil / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Corregidor_Island_Lighthouse.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/007-corregidor-3.webp",
+        "alt": "コレヒドール島",
+        "credit": "yeowatzup / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Barracks,_Corregidor_Island,_Philippines_(181771883).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "マニラ湾入口にあるオタマジャクシ形の島で、" },
+      { "type": "date", "text": "1942年" },
+      {
+        "text": "に米軍・フィリピン軍が日本軍に対して最後まで持ちこたえた要塞です。マリンタ・トンネルと巨大な砲台、廃墟となった兵舎をトラムツアーで巡り、現在はバタアンのマリベレスから船で入ります。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "コレヒドール(Corregidor)はマニラ湾入口、バタアン半島の先端から南へ約" },
+            { "type": "distance", "text": "3〜4km" },
+            { "text": "離れた、長さ約" },
+            { "type": "distance", "text": "6.5km" },
+            {
+              "text": "の小さな島です。上から見るとオタマジャクシのような形をしており、広い頭の部分を「トップサイド」、中間を「ミドルサイド」、くびれた部分を「ボトムサイド」、長い尾の部分を「テールサイド」と呼びます。マニラへ入る航路を見下ろす位置にあるため、スペイン時代から信号所や要塞があり、アメリカ統治期には「フォート・ミルズ」という名の巨大な海岸要塞として武装されました。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "1941年12月" },
+            { "text": "、日本軍がフィリピンに侵攻するとコレヒドールは米軍・フィリピン軍の司令部となりました。マッカーサー将軍は" },
+            { "type": "date", "text": "1942年3月" },
+            {
+              "text": "、この島からPTボートに乗ってオーストラリアへ脱出する際、「私は戻ってくる(I shall return)」という有名な言葉を残し、残された部隊はバタアン陥落後も1か月近く持ちこたえた末、"
+            },
+            { "type": "date", "text": "1942年5月6日" },
+            { "text": "ウェインライト将軍の降伏によって島を明け渡しました。" },
+            { "type": "date", "text": "1945年2月" },
+            { "text": "、米軍が空挺部隊と上陸作戦で島を奪還する過程で再び激しい戦闘が起こり、島全体が廃墟となりました。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "今日、島全体はコレヒドール財団が管理する戦跡記念地です。屋根が吹き飛び鉄筋がむき出しになった1マイル兵舎(マイル・ロング・バラックス)、巨大な12インチ迫撃砲が残るバッテリー・ウェイ、壁に銃弾の跡が生々しいマリンタ・トンネルなどが、当時の姿そのままに保存されています。島のあちこちがジャングルに覆われており、廃墟と自然が織りなす独特の雰囲気を作り出しています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "戦争史や近現代史に関心のある旅行者、子どもに歴史教育をさせたい家族に強くおすすめします。以前はマニラから直行フェリーが運航していましたが、現在はバタアン州マリベレスを経由して入る方式に変わったため、最新の運航情報を確認して予約することが重要です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "トラムツアーで島を一周",
+              "children": [
+                {
+                  "text": "島内ツアーは昔の路面電車の形をしたトラムバスに乗り、ガイドの説明を聞きながら主要な遺跡を巡る方式です。ガイドが戦闘の話やエピソードを生き生きと語ってくれるため、歴史にあまり興味がない人でも引き込まれます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "マリンタ・トンネル ライト・アンド・サウンドショー",
+              "children": [
+                { "text": "長さ約" },
+                { "type": "distance", "text": "250m" },
+                { "text": "の本トンネルと数十の支トンネルからなる地下要塞で、司令部と病院があった場所です。照明と音響、再現模型で" },
+                { "type": "date", "text": "1942年" },
+                { "text": "当時の状況を見せる約" },
+                { "type": "duration", "text": "30分" },
+                { "text": "のショーがツアーのハイライトです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "バッテリー・ウェイとバッテリー・ハーン",
+              "children": [
+                {
+                  "text": "12インチ迫撃砲と、射程が数十kmに及んだ12インチ海岸砲がそのまま残っています。大砲の大きさを直接見ると、この島がいかに強力な要塞だったかを実感できます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "マイル・ロング・バラックス",
+              "children": [
+                {
+                  "text": "名前の通り長く連なる3階建ての兵舎の廃墟で、骨組みだけが残るコンクリート構造が戦争の破壊力を物語っています。島で最も印象的な写真が撮れる場所の一つです。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "太平洋戦争記念館と永遠の炎",
+              "children": [
+                { "type": "date", "text": "1968年" },
+                {
+                  "text": "にアメリカ政府が建てた記念館で、丸いドームの下に祭壇と追悼スペース、戦争博物館があります。裏手の丘にある鋼鉄のモニュメント「永遠の炎」はコレヒドールを象徴する風景です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "コレヒドール灯台からの眺め",
+              "children": [{ "text": "島で最も高い場所にある灯台からは、マニラ湾とバタアン半島、遠くカビテの海岸まで360度の眺めが広がります。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "フィリピン英雄記念碑と日本平和庭園",
+              "children": [
+                { "text": "フィリピンの歴史の中の戦闘を刻んだレリーフ記念碑と、日本軍の戦没者を追悼する平和庭園が共にあり、戦争を複数の視点から振り返らせてくれます。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1日ツアー(マニラ発、車両込みの商品基準)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "04:00〜05:00", "children": [{ "text": "マニラのホテルまたは集合場所でピックアップ" }] },
+                    { "time": "07:30", "children": [{ "text": "バタアン州マリベレスの船着き場に到着、チェックイン" }] },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "バンカ(アウトリガーボート)出発、約" },
+                        { "type": "duration", "text": "20分" },
+                        { "text": "後にコレヒドール到着" }
+                      ]
+                    },
+                    {
+                      "time": "08:30",
+                      "children": [{ "text": "トラムツアー開始 — ボトムサイド、フィリピン英雄記念碑、日本平和庭園" }]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [{ "text": "ミドルサイドとトップサイド — マイル・ロング・バラックス、バッテリー・ウェイ、バッテリー・ハーン" }]
+                    },
+                    { "time": "11:30", "children": [{ "text": "太平洋戦争記念館と灯台" }] },
+                    { "time": "12:30", "children": [{ "text": "昼食(ツアー込みかどうか確認、島での食料購入は非常に限られる)" }] },
+                    { "time": "13:30", "children": [{ "text": "マリンタ・トンネル ライト・アンド・サウンドショー" }] },
+                    { "time": "14:30", "children": [{ "text": "島を出発、マリベレスへ復帰" }] },
+                    {
+                      "time": "15:00〜15:30",
+                      "children": [
+                        { "text": "マニラへ出発、" },
+                        { "type": "time", "text": "18:30〜19:30" },
+                        { "text": "到着(交通状況による)" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [{ "text": "午後発のツアーが運航される日もあるので、予約時に出発時間を確認します。" }]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "現在の運航状況",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "以前はパサイ市のエスプラナード・シーサイド・ターミナルからコレヒドール行きの直行クルーズが毎日出発していましたが、この航路はコロナ禍以降運航が中断され、"
+                    },
+                    { "type": "date", "text": "2026年" },
+                    {
+                      "text": "現在マニラから島への定期フェリーは事実上ありません。現在ほとんどの訪問はバタアン州マリベレスから出発するツアー運営会社のボートを利用します。運航方式が頻繁に変わるため、必ずコレヒドール財団やツアー運営会社の最新の告知を確認して予約します。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ツアー商品(最も便利な方法)",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラでのピックアップ、マリベレス往復の車両、ボート、島の入場料、トラムツアー、マリンタ・トンネルのショー、昼食が含まれた商品が約" },
+                    { "type": "price", "text": "₱3,500〜4,500" },
+                    { "text": "です。マリベレスの船着き場で合流する商品は約" },
+                    { "type": "price", "text": "₱2,500〜3,000" },
+                    { "text": "です。少人数の単独ツアーや車両貸切も可能です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "バスでマリベレスまで",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラのパサイ(ブエンディア)やクバオのターミナルからバタアン州マリベレス行きのバスが出発し、約" },
+                    { "type": "duration", "text": "3〜4時間" },
+                    { "text": "、片道約" },
+                    { "type": "price", "text": "₱300〜500" },
+                    {
+                      "text": "です。ツアー開始時間に間に合わせるには早朝の始発バスに乗るか、前日にマリベレスに到着して1泊するのが安全です。マリベレスのターミナルから船着き場まではトライシクルで約"
+                    },
+                    { "type": "duration", "text": "10〜15分" },
+                    { "text": "、" },
+                    { "type": "price", "text": "₱50〜150" },
+                    { "text": "です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自家用車・レンタカー",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラから北ルソン高速道路(NLEX)とSCTEX、バタアン海岸道路を経てマリベレスまで約" },
+                    { "type": "duration", "text": "3時間" },
+                    { "text": "(約" },
+                    { "type": "distance", "text": "170km" },
+                    { "text": ")です。通行料は片道約" },
+                    { "type": "price", "text": "₱300〜500" },
+                    { "text": "です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "島内の移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "島内はツアーのトラムでのみ移動するのが基本です。遺跡間の距離が長く丘が多いため、個別の徒歩移動はおすすめしません。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "12月〜5月" },
+            { "text": "の乾季が最も良いです。特に" },
+            { "type": "date", "text": "12月〜3月" },
+            { "text": "は海が穏やかで気温も涼しく、屋外の遺跡を歩きやすいです。" },
+            { "type": "date", "text": "4〜5月" },
+            { "text": "は非常に暑く、日陰が少ないトップサイドの遺跡地は日差しが強いため、帽子と水が必須です。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜10月" },
+            {
+              "text": "の雨季には南西モンスーンで海が荒れ、ボートの運航が頻繁に取り消されます。台風警報(熱帯低気圧風速シグナル)が発令されると、フィリピン沿岸警備隊が小型船舶の出航を禁止するため、この時期は日程を柔軟に組む必要があります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "歴史的な記念日に合わせて行くのも意義があります。" },
+            { "type": "date", "text": "4月9日" },
+            {
+              "text": "の「勇気の日(Araw ng Kagitingan)」はバタアン陥落を記念する国の祝日で、バタアンのサマット山記念碑と共にコレヒドールでも記念行事が開かれます。"
+            },
+            { "type": "date", "text": "5月6日" },
+            { "text": "のコレヒドール陥落記念日頃にも従軍者の追悼行事があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            {
+              "label": "1日ツアー(マニラでのピックアップ込み)",
+              "price": "約₱3,500〜4,500",
+              "note": "ボート・入場料・トラム・昼食込みの商品の場合"
+            },
+            { "label": "1日ツアー(マリベレス合流)", "price": "約₱2,500〜3,000", "note": "マリベレスまでは個別に移動" },
+            { "label": "マニラ↔マリベレス バス", "price": "約₱300〜500(片道)", "note": "3〜4時間" },
+            { "label": "トライシクル(ターミナル↔船着き場)", "price": "約₱50〜150", "note": "交渉が必要" },
+            { "label": "マリベレス宿泊", "price": "約₱1,500〜3,500", "note": "前日1泊の場合" },
+            { "label": "軽食・水", "price": "約₱150〜300", "note": "出発前の準備推奨" },
+            { "label": "単独ツアー", "price": "約₱25,000〜30,000", "note": "少人数グループの場合、人数を分ければ割安" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "以前は島内のコレヒドール・インに1泊し、夜間のトンネルツアーを楽しむことができましたが、現在は島内の宿泊運営が不確実なため、ほとんどは日帰りで訪れます。早朝の移動が負担なら、前日にバタアン州マリベレスに到着してビーチリゾートや小規模ホテル(1泊約"
+            },
+            { "type": "price", "text": "₱1,500〜3,500" },
+            { "text": ")に泊まることをおすすめします。ツアー運営会社と提携したリゾートの宿泊パッケージもあります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "島内にはレストランや売店がほとんどなく、食べ物を買うのは難しいです。昼食込みのツアーを選ぶか、マリベレスで出発前に水と軽食、弁当を準備します。マリベレスとバタアン海岸道路には海鮮食堂が多く、ツアー後に焼き魚、エビのシニガン、キラウィン(酢漬けの魚の刺身)を味わえます。バタアンの名物である甘いマンゴーと干物も良いお土産になります。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "ツアーは運営曜日が決まっており、週末から先に埋まります。最低1〜2週間前に予約し、出発前日に運航の有無を再確認します。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "ツアー確定時にパスポート情報が必要な場合が多いため、予約時に名前をパスポート表記と全く同じに記入し、当日はパスポートを持参します。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "島内では現金のみ通用する場所がほとんどでATMがありません。お土産や飲み物代として" },
+                { "type": "price", "text": "₱1,000〜2,000" },
+                { "text": "程度を現金で用意します。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "帽子、日焼け止め、サングラス、履き慣れた運動靴、水1リットル以上を持参します。遺跡のほとんどが日差しにさらされています。" }
+              ]
+            },
+            { "children": [{ "text": "携帯電話の電波は島の一部地域で弱いか途切れます。家族と落ち合う時間・場所を事前に決めておきます。" }] },
+            {
+              "children": [
+                { "text": "乗り物酔いしやすい人は乗船" },
+                { "type": "duration", "text": "30分" },
+                { "text": "前に酔い止めを飲みます。ボートの移動は短いですが雨季は波が高くなります。" }
+              ]
+            },
+            { "children": [{ "text": "撮影スポットはマイル・ロング・バラックスの廃墟、永遠の炎のモニュメント、灯台から見下ろすバタアン半島です。" }] },
+            { "children": [{ "text": "ガイドの説明をしっかり聞くには、トラムの前方の席に座るのがよいでしょう。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "遺跡のほとんどは崩壊の危険がある廃墟です。立ち入り禁止表示のある建物の中や壁の上に上がりません。" }] },
+            {
+              "children": [
+                { "text": "島には不発弾が残っている可能性があり、指定された道を外れてジャングルの中に入りません。金属の物を見つけても絶対に触れません。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "雨季や台風の時期には沿岸警備隊の判断により当日の出航が取り消されることがあります。予約前に払い戻し・日程変更の規定を確認します。" }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "インターネットでは古い「マニラ直行フェリー」の情報が今も検索されますが、現在は運航していません。個人販売者に事前にお金を送る前に、運営会社の実体を確認します。"
+                }
+              ]
+            },
+            { "children": [{ "text": "日中の屋外ツアーで脱水や熱中症になりやすいので、水をこまめに飲み、日陰で休みます。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "マニラ発の直行フェリーは運航が中断された状態です。必ずバタアン州マリベレス発ツアーの最新の運航告知を確認し、公式運営会社を通じて予約してください。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "バタアン サマット山 勇気の神殿",
+              "children": [
+                { "text": "マリベレスから車で約" },
+                { "type": "duration", "text": "40分" },
+                { "text": "。バタアン戦を記念する高さ約" },
+                { "type": "distance", "text": "92m" },
+                { "text": "の巨大な十字架記念碑と博物館があります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "マニラ湾",
+              "place": "manila-bay",
+              "children": [{ "text": "コレヒドールから見た湾の反対側、ロハス大通りで夕日を見ながら戦争史を振り返ることができます。" }]
+            },
+            {
+              "type": "card",
+              "title": "イントラムロス",
+              "place": "intramuros",
+              "children": [
+                { "text": "マニラ市街。" },
+                { "type": "date", "text": "1945年" },
+                { "text": "のマニラ市街戦で廃墟となった城壁都市で、コレヒドールと合わせて見ると太平洋戦争の流れが理解できます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ラス・カサス・フィリピナス・デ・アクザール",
+              "place": "las-casas-filipinas",
+              "children": [
+                { "text": "バタアン州バガック、マリベレスから車で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "。スペイン時代の邸宅を移築復元したヘリテージリゾートです。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

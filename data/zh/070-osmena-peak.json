@@ -1,0 +1,520 @@
+{
+  "id": 70,
+  "slug": "osmena-peak",
+  "title": { "type": "title", "text": "奥斯梅纳峰" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Osmeña Peak" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "在参差耸立的山峰之上，迎接宿务的日出" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "visayas", "text": "米沙鄢" },
+  "region": { "type": "badge", "label": "地区", "value": "cebu", "text": "宿务" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "宿务省达拉盖特曼塔隆翁" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "hiking",
+    "value": "mountain",
+    "text": "登山·徒步"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["宿务最高峰", "日出", "露营", "短途登山", "穿越线路"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 9.8519 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 123.4203 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "12月~5月（旱季）",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "行程天数",
+    "icon": "schedule",
+    "text": "半天~1天（含穿越线路时为1天）"
+  },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱800~2,500",
+    "currency": "PHP",
+    "min": 800,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "中等",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "麦克坦-宿务国际机场 (CEB)",
+    "code": "CEB"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/070-osmena-peak.webp",
+    "alt": "奥斯梅纳峰",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Osme%C3%B1a_Peak_(Mantalongon,_Dalaguete,_Cebu;_01-20-2023).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/070-osmena-peak-2.webp",
+        "alt": "奥斯梅纳峰",
+        "credit": "Tyrll Adolf Itong / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Osme%C3%B1a_Peak,_Cebu,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/070-osmena-peak-3.webp",
+        "alt": "奥斯梅纳峰",
+        "credit": "choypictures / CC0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Osme%C3%B1a_Peak%27s_Sunset.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "这里海拔约" },
+      { "type": "distance", "text": "1,000m" },
+      { "text": "，被誉为宿务岛最高的山峰，从登山起点只需攀登" },
+      { "type": "duration", "text": "20~30分钟" },
+      { "text": "，尖峭的石灰岩山峰便如波浪般连绵展开。以日出登山、露营，以及一路穿越下降到卡瓦山瀑布的路线而备受欢迎。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "奥斯梅纳峰矗立在宿务岛南部内陆，位于达拉盖特自治市曼塔隆翁村与巴迪安交界处。海拔约" },
+            { "type": "distance", "text": "1,013m" },
+            {
+              "text": "，常被介绍为\"宿务最高峰\"，其名字取自菲律宾联邦时期总统塞尔希奥·奥斯梅纳。提到爬山，人们容易联想到漫长的登山路，但这里的登山起点本身就位于海拔数百米的高原，步行到山顶只需"
+            },
+            { "type": "duration", "text": "20~30分钟" },
+            { "text": "，是一座\"性价比极高的山\"。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "站上山顶，就能立刻明白奥斯梅纳峰特别之处。覆盖着青草的石灰岩山峰如锯齿般尖锐地层层叠叠，形成一种仿佛把薄荷岛的巧克力山削尖了般的独特地貌。天气晴朗时，西边可以看到塔农海峡对岸内格罗斯岛的山脉，东边则能望见薄荷海方向的海面，同时俯瞰岛屿两侧的大海。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "曼塔隆翁一带得益于凉爽的高原气候，是被称为\"宿务菜篮子\"的农业地带。登山路两侧是层层叠叠的卷心菜、番茄和胡萝卜田，呈现出与菲律宾其他海滨旅行地截然不同的景观。这里气温比海岸低5度以上，凌晨时分甚至有些寒意。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "这是一条登山新手和家庭旅行者都能轻松攀登的短程路线，同时也可以通过日出露营，或一路穿越下降到卡瓦山瀑布的长程路线来提高难度。若在宿务南部的海洋行程（墨宝、奥斯洛布、卡瓦山）之间安排一天来这里，就能让旅行兼具山与海的平衡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "山顶观赏日出",
+              "children": [
+                { "type": "time", "text": "凌晨4点" },
+                { "text": "前后从登山起点出发，在山顶观赏日出。若遇上山峰之间铺满云海的日子，眼前将是真正的绝景。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "锯齿山峰观景摄影",
+              "children": [{ "text": "在山顶附近的岩石上，朝着尖峭山峰层层重叠的方向拍摄，就能拍出奥斯梅纳峰最具代表性的照片。晨光斜射时，立体感最为出色。" }]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "山顶露营",
+              "children": [{ "text": "在山顶下方平坦的空地上搭帐篷，可以一同享受夜空繁星与清晨日出。帐篷可以在当地租借，也可以自行携带。" }]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "穿越至卡瓦山瀑布",
+              "children": [
+                { "text": "从奥斯梅纳峰经过山路、村庄和峡谷，一路徒步下降到卡瓦山瀑布的长程路线。约需" },
+                { "type": "duration", "text": "6~8小时" },
+                { "text": "，必须由当地向导陪同。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "高原菜田散步",
+              "children": [{ "text": "漫步在曼塔隆翁的梯田菜地与农舍之间，感受宿务内陆农村的日常生活。收获季节还能便宜地买到新鲜蔬菜。" }]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "顺道造访达拉盖特市场",
+              "children": [{ "text": "在山下达拉盖特镇的市场，可以便宜买到高原蔬菜、水果和当地小吃。海岸公路旁的西班牙时代教堂也值得一并参观。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "日出半日行程（衔接墨宝·奥斯洛布）",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "凌晨2点30分", "children": [{ "text": "从墨宝或奥斯洛布的住宿乘专车或哈巴哈巴出发" }] },
+                    { "time": "凌晨4点", "children": [{ "text": "抵达曼塔隆翁登山起点，办理登记与缴纳门票" }] },
+                    {
+                      "time": "凌晨4点30分",
+                      "children": [
+                        { "text": "打开头灯登顶（约" },
+                        { "type": "duration", "text": "20~30分钟" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "上午5点30分", "children": [{ "text": "在山顶观赏日出并拍照" }] },
+                    { "time": "上午7点", "children": [{ "text": "下山返回登山起点，在当地餐厅享用热腾腾的早餐与咖啡" }] },
+                    { "time": "上午8点30分", "children": [{ "text": "前往奥斯洛布观赏鲸鲨，或前往卡瓦山瀑布" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "穿越1日行程",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "上午5点", "children": [{ "text": "从登山起点与向导一同出发，在山顶观赏日出" }] },
+                    { "time": "上午7点", "children": [{ "text": "沿山脊和村道开始朝巴迪安方向下山" }] },
+                    { "time": "上午11点", "children": [{ "text": "抵达峡谷，游泳休息" }] },
+                    { "time": "下午1点至2点", "children": [{ "text": "抵达卡瓦山瀑布，用餐、游泳后前往路边" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飞机",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "麦克坦-宿务国际机场（CEB）是最近的机场。从仁川、釜山直飞约" },
+                    { "type": "duration", "text": "4小时30分钟" },
+                    { "text": "，从马尼拉出发约" },
+                    { "type": "duration", "text": "1小时20分钟" },
+                    { "text": "。从机场到达拉盖特乘车约需" },
+                    { "type": "duration", "text": "3小时" },
+                    { "text": "。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "巴士与哈巴哈巴",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "在宿务市南巴士总站搭乘开往奥斯洛布、圣坦德尔方向的Ceres巴士，在达拉盖特镇下车。约需" },
+                    { "type": "duration", "text": "2小时30分钟~3小时" },
+                    { "text": "，票价约" },
+                    { "type": "price", "text": "₱150~200" },
+                    { "text": "。从达拉盖特镇到曼塔隆翁登山起点，需沿蜿蜒山路上行约" },
+                    { "type": "duration", "text": "30~45分钟" },
+                    { "text": "，哈巴哈巴单程议价约每人" },
+                    { "type": "price", "text": "₱150~250" },
+                    { "text": "。若要进行凌晨日出登山，请提前一天与司机约好接送时间。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "专车·旅行团",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从墨宝、奥斯洛布或宿务市包租专车最为方便。从墨宝或奥斯洛布单程约" },
+                    { "type": "duration", "text": "1小时30分钟" },
+                    { "text": "，从宿务市约" },
+                    { "type": "duration", "text": "3小时" },
+                    { "text": "，半日包车约" },
+                    { "type": "price", "text": "₱2,500~4,500" },
+                    { "text": "。部分行程还将奥斯梅纳峰日出、奥斯洛布鲸鲨与卡瓦山瀑布串联成一日套餐。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "12月" },
+            { "text": "到" },
+            { "type": "date", "text": "5月" },
+            { "text": "的旱季最为理想。这段时间天空晴朗，日出与远景都能看得清楚，山路也干燥不滑。12月到" },
+            { "type": "date", "text": "2月" },
+            { "text": "凌晨气温会降至约15~18度，云海经常出现；3月到" },
+            { "type": "date", "text": "5月" },
+            { "text": "草地会转黄，呈现出另一种风情。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "6月到" },
+            { "text": "11月", "type": "date" },
+            { "text": "的雨季，午后常有云雨聚集，视野常被遮蔽，黏土质的山路也会变得泥泞。台风季节（主要在8月到" },
+            { "text": "11月", "type": "date" },
+            { "text": "）请避免进行穿越路线。若在雨季登山，建议选择天气相对稳定的清晨时段。全年凌晨气温都比海岸凉爽许多，请准备一件薄长袖。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "宿务-达拉盖特巴士", "price": "约₱150~200", "note": "单程" },
+            { "label": "达拉盖特-登山起点哈巴哈巴", "price": "约₱150~250", "note": "每人单程，需议价" },
+            { "label": "门票·登记费", "price": "约₱30~50", "note": "每人" },
+            { "label": "当地向导（往返山顶）", "price": "约₱100~300", "note": "可选或建议" },
+            { "label": "露营费", "price": "约₱100", "note": "以自带帐篷为准，租借另计" },
+            { "label": "穿越向导", "price": "约₱800~1,500", "note": "以1个团队计，至卡瓦山" },
+            { "label": "半日专车包车", "price": "约₱2,500~4,500", "note": "从墨宝·奥斯洛布出发" },
+            { "label": "餐饮", "price": "约₱300~600", "note": "每人每天" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "曼塔隆翁登山起点周边有几处民宿和简易山庄，1晚约" },
+            { "type": "price", "text": "₱500~1,500" },
+            { "text": "。若想轻松进行日出登山，住在这里或在山顶露营最为理想。大多数旅行者则住在墨宝（车程约" },
+            { "type": "duration", "text": "1小时30分钟" },
+            { "text": "）或奥斯洛布（车程约" },
+            { "type": "duration", "text": "1小时30分钟" },
+            { "text": "）的海滨住宿，凌晨出发前往。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "登山起点附近的小餐馆和商店，出售咖啡、杯面、鸡蛋配米饭等简单早餐。用高原种植的蔬菜做成的汤品和炒菜虽然朴素却十分美味。达拉盖特海岸公路旁有菲律宾式餐厅和面包店，宿务南部特产的芒果和水果也能在路边便宜买到。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "日出登山必须携带头灯。用手机手电筒会耗电严重，也难以腾出双手自由活动。" }] },
+            { "children": [{ "text": "山顶附近的岩石既尖锐又狭窄，请穿抓地力良好的运动鞋或登山鞋。" }] },
+            { "children": [{ "text": "凌晨和山顶风大且寒冷，请携带防风外套或薄长袖衣物。" }] },
+            { "children": [{ "text": "在登山起点办理门票和登记后可以获得向导介绍。若是首次到访，凌晨登山时聘请向导会更安全。" }] },
+            { "children": [{ "text": "门票、哈巴哈巴和餐饮都只收现金，山上没有ATM，请准备好零钱。" }] },
+            { "children": [{ "text": "手机信号在山顶附近大体良好，但在峡谷方向的穿越路段可能会中断。" }] },
+            {
+              "children": [
+                { "text": "若想同时看到日出与云海，建议在旱季中选择12月到" },
+                { "type": "date", "text": "2月" },
+                { "text": "天气晴朗的日子前往。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "山顶山峰坡度陡峭且没有护栏，拍照时请勿走到悬崖边缘。" }] },
+            { "children": [{ "text": "下雨时黏土质山路会变得非常湿滑，雨天取消穿越行程更为安全。" }] },
+            { "children": [{ "text": "穿越路线岔路较多，容易迷路，请务必与当地向导同行。" }] },
+            { "children": [{ "text": "达拉盖特至曼塔隆翁的山路陡坡和急弯较多，搭乘哈巴哈巴时请要求佩戴头盔。" }] },
+            { "children": [{ "text": "露营时生火请仅在指定地点进行，所有垃圾请全部带下山。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "山上的天气与海岸不同。即使海岸晴朗，山顶也可能被云雾遮蔽，请保持灵活的心理预期。" }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "卡瓦山瀑布",
+              "place": "kawasan-falls",
+              "children": [
+                { "text": "乘车约" },
+                { "type": "duration", "text": "1小时30分钟" },
+                { "text": "，或徒步穿越约" },
+                { "type": "duration", "text": "6~8小时" },
+                { "text": "，是拥有青绿峡谷与溯溪探险的名胜。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "墨宝",
+              "place": "moalboal",
+              "children": [
+                { "text": "乘车约" },
+                { "type": "duration", "text": "1小时30分钟" },
+                { "text": "，是一座在海滩前就以沙丁鱼风暴和海龟闻名的潜水村庄。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "奥斯洛布",
+              "place": "oslob",
+              "children": [
+                { "text": "乘车约" },
+                { "type": "duration", "text": "1小时30分钟" },
+                { "text": "，是宿务南部可以与鲸鲨同游的代表性名胜。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "苏米龙岛",
+              "place": "sumilon-island",
+              "children": [
+                { "text": "乘车约" },
+                { "type": "duration", "text": "1小时30分钟" },
+                { "text": "再加船程" },
+                { "type": "duration", "text": "15分钟" },
+                { "text": "，是拥有洁白沙洲和菲律宾最早海洋保护区的岛屿。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

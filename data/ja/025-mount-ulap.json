@@ -1,0 +1,616 @@
+{
+  "id": 25,
+  "slug": "mount-ulap",
+  "title": { "type": "title", "text": "ウラップ山" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mount Ulap" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "松の尾根に雲が流れるバギオ近郊の日帰りトレッキング" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "cordillera", "text": "コルディリェラ" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "ベンゲット州イトゴン・アンプカオ"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "hiking",
+    "value": "mountain",
+    "text": "山・トレッキング"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["尾根歩き", "松林", "日帰り登山", "雲海", "岩壁"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 16.29 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.631 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "11月〜4月(乾季)",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "日帰り(5〜7時間)" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱800〜2,000(日帰り)",
+    "currency": "PHP",
+    "min": 800,
+    "max": 2000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "ふつう",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "クラーク国際空港 (CRK)",
+    "code": "CRK"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/025-mount-ulap.webp",
+    "alt": "ウラップ山",
+    "credit": "Dyenkaye Saludez / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mt._Ulap_adventure.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/025-mount-ulap-2.webp",
+        "alt": "ウラップ山",
+        "credit": "Jpcabarles / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt._Ulap_3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/025-mount-ulap-3.webp",
+        "alt": "ウラップ山",
+        "credit": "Kalithecat00 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:One_of_Mt._Ulap%27s_peaks.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "バギオから車で約" },
+      { "type": "duration", "text": "1時間" },
+      { "text": "の距離にあるイトゴンの標高約" },
+      { "type": "distance", "text": "1,846m" },
+      { "text": "の山で、松林と草原の尾根沿いに約" },
+      { "type": "distance", "text": "9.4km" },
+      { "text": "を歩く縦走コースです。崖の先に突き出たグンガル・ロックとコルディリェラの山並みの眺めのおかげで、初心者でも挑戦しやすい日帰り登山地として親しまれています。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ウラップ山(Mount Ulap)は、バギオ南側のイトゴン地域、アンプカオとサンタフェの集落の間にそびえる標高約" },
+            { "type": "distance", "text": "1,846m" },
+            { "text": "の山です。「ウラップ」はイバロイ語で「雲」を意味し、その名の通り早朝には麓の谷間に雲が広がり尾根伝いに霧が流れる風景によく出会えます。" },
+            { "type": "date", "text": "2017年" },
+            { "text": "に正式なエコツーリズムコース(Mt. Ulap Eco-Trail)として開かれてから、瞬く間にフィリピンを代表する日帰り登山地として定着しました。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "コースはアンプカオのバランガイホールを出発し、いくつもの峰を越えてサンタフェへ下る約" },
+            { "type": "distance", "text": "9.4km" },
+            {
+              "text": "の縦走トレイルです。ベンゲット松の林、開けた草原の尾根、岩峰が交互に現れ、天気がよければ遠くプラグ山をはじめとするコルディリェラの山並みと、西側リンガエン湾方向の平野まで見渡せます。急な下り坂の区間が長くないため、体力さえあれば登山初心者でも完走できます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ウラップ山が特に有名になったのは「グンガル・ロック(Gungal Rock)」のおかげです。尾根から宙に突き出た岩の先端に立って撮った写真はフィリピンのSNSで数えきれないほど共有され、今も多くの登山者がこの岩の前で順番を待ちます。コース周辺にはイバロイ族の伝統的な埋葬洞窟や聖なる場所もあり、地域コミュニティが自らトレイルを管理しています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "プラグ山のような夜明けの寒さや煩雑な予約なしに、バギオから気軽に日帰りできる山を探している旅行者、コルディリェラの山岳旅行を始める前に体を慣らしたい人によく合います。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "アンプカオ〜サンタフェ縦走",
+              "children": [
+                { "text": "一方向に抜ける約" },
+                { "type": "distance", "text": "9.4km" },
+                { "text": "のコースで、休憩を含めて" },
+                { "type": "duration", "text": "5〜7時間" },
+                { "text": "かかります。同じ道を戻らないため景色が変わり続けるのが魅力です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "グンガル・ロックでの記念撮影",
+              "children": [
+                {
+                  "text": "尾根の中間にある代表的なスポットで、崖側に突き出た岩の上で写真を撮ります。ガイドの案内に従って順番を守り、風が強い日は端に立たないのが原則です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "ポノイ・ピークからの最初の眺め",
+              "children": [{ "text": "出発後、松林を登って最初に出会う展望のピークです。早朝に着くと、谷を埋めた雲の上に日差しが差し込む風景を見られます。" }]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "ウラップ山頂からのコルディリェラ・パノラマ",
+              "children": [
+                { "text": "標高約" },
+                { "type": "distance", "text": "1,846m" },
+                { "text": "の山頂からは、幾重にも連なる山脈と鉱山地帯、晴れた日には低地の平野までを一望できます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "松林の尾根歩き",
+              "children": [
+                { "text": "コースの大部分がベンゲット松の林と草原で占められており、風の音と松の香りが印象的です。写真よりも歩く瞬間そのものが記憶に残る山です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "イバロイの伝統文化を学ぶ",
+              "children": [
+                { "text": "ガイドの多くは地元住民で、埋葬洞窟や祖先崇拝の文化、鉱山町の歴史を語ってくれます。気になることを尋ねると山行がぐっと豊かになります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "バギオと組み合わせる1泊2日",
+              "children": [{ "text": "前日にバギオへ泊まり夜明けに出発すれば、余裕を持って完走した後、午後はバギオ市内で休息と食事を楽しめます。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "日帰り縦走コース(バギオ出発)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "04:30",
+                      "children": [{ "text": "バギオ市内からチャーター車両またはフィレックス(Philex)行きジプニーで出発" }]
+                    },
+                    {
+                      "time": "05:30",
+                      "children": [{ "text": "アンプカオ・バランガイホール到着、登録・オリエンテーション・ガイドの割り当て" }]
+                    },
+                    { "time": "06:00", "children": [{ "text": "山行開始、松林の上り坂" }] },
+                    { "time": "07:30", "children": [{ "text": "ポノイ・ピーク到着、雲海と朝日を鑑賞" }] },
+                    { "time": "08:30〜09:30", "children": [{ "text": "グンガル・ロックで写真撮影(週末は待ち時間が発生)" }] },
+                    { "time": "10:30", "children": [{ "text": "ウラップ山頂到着、弁当で昼食" }] },
+                    { "time": "11:00〜13:00", "children": [{ "text": "尾根伝いにサンタフェ方面へ下山" }] },
+                    {
+                      "time": "13:30",
+                      "children": [{ "text": "サンタフェの出口到着、ジプニーまたはチャーター車両でバギオへ戻る" }]
+                    },
+                    { "time": "15:00", "children": [{ "text": "バギオ到着、温かいスープ料理で遅めの昼食" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "コース概要",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "出発地点のアンプカオ・バランガイホール(標高約" },
+                        { "type": "distance", "text": "1,200m" },
+                        { "text": "前後)から最初の" },
+                        { "type": "duration", "text": "1時間30分" },
+                        { "text": "ほどが最も急な上り坂です。ポノイ・ピークを越えると傾斜が緩やかになり、以降は尾根沿いに上り下りを繰り返します。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "全体の累積標高差は約" },
+                        { "type": "distance", "text": "600〜700m" },
+                        { "text": "程度で、普段近所の裏山を" },
+                        { "type": "duration", "text": "3〜4時間" },
+                        { "text": "歩ける体力があれば十分です。下山区間は長く緩やかですが、土と松葉で滑りやすいので速度を落としてください。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "マニラからバギオ",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "クバオ・パサイなどからバギオ行きバス(ビクトリー・ライナー、ジョイバス、ソリッド・ノースなど)で約" },
+                        { "type": "duration", "text": "4〜6時間" },
+                        { "text": "、料金約" },
+                        { "type": "price", "text": "₱500〜1,000" },
+                        { "text": "です。夜明けの山行のために前日バギオに到着して1泊することをおすすめします。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "バギオからアンプカオ",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "バギオ市内のフィレックス鉱山方面ジプニー乗り場から、フィレックス行きジプニーに乗り「アンプカオ・バランガイホール」で降ります。約"
+                        },
+                        { "type": "duration", "text": "40分〜1時間" },
+                        { "text": "、料金は1人約" },
+                        { "type": "price", "text": "₱40〜60" },
+                        { "text": "です。始発の時間が早くない場合があるため、前日に乗り場で確認してください。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "同行者がいればタクシーやチャーターバンが便利です。タクシーでは約" },
+                        { "type": "duration", "text": "30〜45分" },
+                        { "text": "かかり、サンタフェの出口で待ってもらい戻ってくる条件で交渉するのがよいでしょう。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "サンタフェからの帰り",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "下山地点であるサンタフェのフィレックス道路沿いから、バギオ行きジプニーに乗れます。午後は運行間隔が長くなることがあるため、下山が遅くなりすぎないようにしてください。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "合同ツアー",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "マニラ発の夜間合同ツアー(往復バン、登録費、ガイド込み)は1人約" },
+                        { "type": "price", "text": "₱1,800〜2,500" },
+                        { "text": "程度で、交通を別途手配する必要がなく便利です。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11月〜4月" },
+            { "text": "の乾季が最も適しています。特に" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は夜明けの気温が" },
+            { "type": "temperature", "text": "10℃" },
+            { "text": "前後まで下がり涼しく、雲海を見られる確率が高く、日中も歩きやすい気候です。" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "は晴れの日が多く視界が最も広くなりますが、真昼の尾根には日陰が少なく日差しが非常に強いため、早めの出発が欠かせません。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜10月" },
+            {
+              "text": "の雨季には午後ごとに雨が降り、霧が濃くなって展望が見えにくくなります。土の道がぬかるみやすく、台風が来るとトレイルが閉鎖されることもあります。週末や祝日には登山者が集中しグンガル・ロックでかなり待つことになるため、できれば平日の山行をおすすめします。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "登録費", "price": "1人約₱100", "note": "アンプカオ・バランガイホールで支払う" },
+            { "label": "環境費", "price": "1人約₱30", "note": "登録時にまとめて支払う" },
+            { "label": "ガイド", "price": "1チーム約₱800", "note": "最大約7人、必須" },
+            { "label": "バギオ〜アンプカオ間のジプニー", "price": "1人約₱40〜60", "note": "片道" },
+            { "label": "チャータータクシー・バン", "price": "1台約₱1,500〜3,000", "note": "待機込みの往復" },
+            { "label": "マニラ発合同ツアー", "price": "1人約₱1,800〜2,500", "note": "交通・登録・ガイド込み" },
+            { "label": "バギオでの宿泊", "price": "1泊約₱1,500〜3,500", "note": "前日1泊がおすすめ" },
+            { "label": "食事・軽食", "price": "約₱300〜600", "note": "弁当・水込み" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ウラップ山周辺には宿泊施設がほとんどないため、バギオ市内に泊まるのが一般的です。フィレックス行きジプニー乗り場に近い市街地中心部、セッション・ロード・バーナム公園一帯のゲストハウス(1泊約"
+            },
+            { "type": "price", "text": "₱1,500〜2,500" },
+            { "text": ")や中級ホテル(約" },
+            { "type": "price", "text": "₱3,000" },
+            { "text": "以上)を取れば、夜明けの出発が楽になります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "トレイル上には食堂がなく、出発地点周辺の小さな店で水や軽食程度しか買えません。前日にバギオのコンビニや市場で弁当、パン、果物、チョコレートを用意してください。下山後にバギオへ戻って食べるブラロ(牛骨スープ)、ベンゲット産野菜料理、イチゴ・タホは、山行の疲れを癒やしてくれるよいご褒美です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "ガイドの同行は必須です。登録はアンプカオ・バランガイホールでの当日受付が基本ですが、15人以上の団体は事前予約が必要な場合があるため公式ページに問い合わせてください。"
+                }
+              ]
+            },
+            { "children": [{ "text": "水は最低1.5〜2リットルを持参してください。尾根には水を手に入れる場所がありません。" }] },
+            { "children": [{ "text": "帽子、日焼け止め、サングラスは必須です。標高が高く紫外線が強い上、日陰のない区間が長く続きます。" }] },
+            { "children": [{ "text": "夜明けは肌寒いので薄手のウインドブレーカーを用意し、日が昇ったら脱いでバッグに入れれば十分です。" }] },
+            {
+              "children": [
+                { "text": "グンガル・ロックでの撮影は" },
+                { "type": "time", "text": "午前8〜9時" },
+                { "text": "より前に着けば待ち時間が短くて済みます。" }
+              ]
+            },
+            { "children": [{ "text": "トレッキングシューズかグリップの良いスニーカーを履いてください。下山区間の土道と松葉が滑りやすくなっています。" }] },
+            { "children": [{ "text": "携帯電話の電波はピークでは入りますが谷間では弱くなります。ガイドと同行者の連絡先を互いに保存しておいてください。" }] },
+            { "children": [{ "text": "現金のみ受け付けるため、登録費とガイド代は小額紙幣で用意してください。" }] }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "トレッキングポールがあると、サンタフェ側の長い下り坂で膝への負担を大きく減らせます。" }] },
+            {
+              "children": [
+                { "text": "初心者は出発前日にバギオ市内を軽く散策して標高(標高約" },
+                { "type": "distance", "text": "1,500m" },
+                { "text": ")に体を慣らしておくと、最初の上り坂がずっと楽になります。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "グンガル・ロックは安全柵のない崖の先端です。風が強い、または岩が濡れているときは端に立たず、ガイドの指示に従ってください。" }]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "雨の後は土道が非常に滑りやすくなります。雨季にはトレッキングポールを用意し、無理な山行を避けてください。" }] },
+            { "children": [{ "text": "コース周辺の埋葬洞窟や儀式の場所は神聖な場所です。触れたり中に入ったりしないでください。" }] },
+            { "children": [{ "text": "ゴミはすべて持ち帰る必要があり、喫煙や焚き火は禁止されています。" }] },
+            {
+              "children": [{ "text": "天候や地域の事情によりトレイルの運営が一時中断されることがあるため、出発前に公式ページの最新情報を確認してください。" }]
+            },
+            {
+              "children": [
+                { "text": "遅い時間の下山は公共交通機関が終わっている可能性があり危険です。遅くとも" },
+                { "type": "time", "text": "午後2〜3時" },
+                { "text": "前にはサンタフェに到着するよう計画してください。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "バギオ",
+              "place": "baguio",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "40分〜1時間" },
+                { "text": "、山行前後の宿泊と食事、市内観光を一緒に楽しめます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "プラグ山",
+              "place": "mount-pulag",
+              "children": [
+                { "text": "バギオから車で約" },
+                { "type": "duration", "text": "2〜3時間" },
+                { "text": "、ウラップで体を慣らしてから挑戦するのによいルソン島最高峰です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ベンカブ美術館",
+              "children": [
+                { "text": "バギオのアシン・ロード、車で約" },
+                { "type": "duration", "text": "30分" },
+                { "text": "。山行の翌日に余裕を持って回るのによい美術館です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "サガダ",
+              "place": "sagada",
+              "children": [
+                { "text": "バギオからバスで約" },
+                { "type": "duration", "text": "5〜6時間" },
+                { "text": "、コルディリェラの山岳旅行を続けるのによい村です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "id": 98,
+  "slug": "mount-apo",
+  "title": { "type": "title", "text": "阿波山" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mount Apo" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "在云端相会的菲律宾祖山" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "mindanao", "text": "棉兰老" },
+  "region": { "type": "badge", "label": "地区", "value": "davao", "text": "达沃" },
+  "location": {
+    "type": "address",
+    "label": "位置",
+    "icon": "location_on",
+    "text": "南达沃省迪戈斯·圣克鲁斯，哥打巴托省基达帕万"
+  },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "hiking",
+    "value": "mountain",
+    "text": "登山·徒步"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["菲律宾最高峰", "登山", "露营", "火山", "原住民圣地"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.7, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 6.9875 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 125.2708 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "2月~5月（旱季）",
+    "months": [2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "两晚三天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱7,500~15,000（一次登顶）",
+    "currency": "PHP",
+    "min": 7500,
+    "max": 15000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "困难",
+    "value": 3,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "达沃弗朗西斯科·班戈伊国际机场 (DVO)",
+    "code": "DVO"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/098-mount-apo.webp",
+    "alt": "阿波山",
+    "credit": "Dosias / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tuktok_ng_Pilipinas.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/098-mount-apo-2.webp",
+        "alt": "阿波山",
+        "credit": "Bro. Jeffrey Pioquinto, SJ / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Ring_of_Mt._Apo.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/098-mount-apo-3.webp",
+        "alt": "阿波山",
+        "credit": "Jay Jopia / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Apo_Rainforest.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "海拔约" },
+      { "type": "distance", "text": "2,954米" },
+      { "text": "，是菲律宾最高的山峰。穿过苔藓森林、高山湖泊贝纳多湖，以及升腾着硫磺烟雾的巨石坡，登上山顶便可见棉兰老云海铺展眼前。这是原住民尊称为“祖父”并视为神圣的山岳。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "阿波山（Mount Apo）海拔约" },
+            { "type": "distance", "text": "2,954米" },
+            {
+              "text": "，是菲律宾最高的山峰。它是一座跨越达沃市、南达沃省和哥打巴托省的巨大层状火山，虽然没有历史记录中的喷发，但山顶附近至今仍冒出硫磺气体，属于潜在活火山。“阿波（Apo）”在菲律宾多种语言中意为祖父、长者，对居住在山麓的巴戈博族、马诺沃族等原住民而言，这是祖先灵魂栖息的圣山。原住民也将这座山称为“桑达瓦（Sandawa）”。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "阿波山一带于" },
+            { "type": "date", "text": "1936年" },
+            {
+              "text": "被指定为国家公园，如今作为阿波山自然公园（Mount Apo Natural Park）受到保护，并被列入东盟遗产公园（ASEAN Heritage Park）名录。山麓从低地热带雨林开始，延伸至覆盖着厚厚苔藓的云雾林，再到低矮灌木地带，栖息着濒危物种菲律宾鹰在内的数百种鸟类和珍稀植物。海拔约"
+            },
+            { "type": "distance", "text": "2,200米" },
+            { "text": "处的贝纳多湖（Lake Venado），是菲律宾海拔最高的湖泊之一，大多数登山者会在此扎营。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "攀登阿波山是每个菲律宾登山爱好者一生中总要挑战一次的“心愿清单”。虽然不需要技术性攀岩，但每天要花" },
+            { "type": "duration", "text": "8~10小时" },
+            {
+              "text": "上下陡峭的泥土路、树根和岩坡，山顶附近夜间气温可降至5度左右，因此需要充分的体力和准备。尤其是圣克鲁斯路线的“巨石坡（Boulder Face）”，是层层叠叠的巨石斜坡，岩石缝隙间喷出的硫磺烟雾，营造出仿佛置身异星球般的景象。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "与菲律宾其他热门山峰相比，这里的登山规定更为严格，必须获得许可并有注册向导陪同才能登山。推荐给有登山经验、具备2~3天露营登山体力的人，以及想在菲律宾最高峰顶欣赏云海与日出的人。若是初次登山，建议先在皮纳图博或普拉格这类难度较低的山积累经验后再挑战。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "山顶观赏日出与云海",
+              "children": [
+                { "type": "time", "text": "凌晨3点到4点" },
+                {
+                  "text": "从营地出发登顶后，脚下便是铺展的云海，天气晴朗时甚至能望见达沃湾和远处的哥打巴托平原。在菲律宾最高峰标志碑前拍摄纪念照，是此次登山的一大亮点。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "贝纳多湖露营",
+              "children": [
+                { "text": "在海拔约" },
+                { "type": "distance", "text": "2,200米" },
+                { "text": "高原上铺展的湖泊与草原旁扎营。傍晚时分薄雾笼罩湖面，夜晚则可看到繁星满天的天空。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "巨石坡穿越",
+              "children": [
+                {
+                  "text": "这是圣克鲁斯路线上需要几乎手脚并用攀爬通过的巨石斜坡路段，从硫磺喷气孔冒出的烟雾和黄色硫磺结晶，营造出神秘的景观。这是最艰难、却也最令人难忘的路段。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "漫步苔藓森林（云雾林）",
+              "children": [
+                { "text": "海拔" },
+                { "type": "distance", "text": "1,500米" },
+                { "text": "以上开始出现树干和岩石被厚厚苔藓覆盖的云雾林。云雾缭绕的林中景致，营造出宛如童话般的氛围。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "游览山顶火山口",
+              "children": [{ "text": "山顶附近有多座山峰和古老火山口的痕迹。可与向导一起游览最高峰和火山口边缘，观察火山地貌。" }]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "尊重原住民文化的体验",
+              "children": [
+                {
+                  "text": "在登山出发地可能会有原住民社区的仪式或讲解，当地向导和背夫大多来自山麓社区。倾听他们的故事、学习对待这座山的态度，也是阿波山登山体验的一部分。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "领取登顶证书",
+              "children": [{ "text": "下山后在登记处确认完成登顶，即可领取登山证书，这对菲律宾登山者而言是一件珍贵的纪念品。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "第1天（以卡帕塔干路线为例）",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "04:00~07:00", "children": [{ "text": "从达沃市区出发，经迪戈斯抵达卡帕塔干登记处。" }] },
+                    { "time": "07:00~08:00", "children": [{ "text": "完成登记、安全教育，分配向导和背夫后开始登山。" }] },
+                    {
+                      "time": "08:00~16:00",
+                      "children": [
+                        { "text": "穿过农田、热带雨林和云雾林，攀登至贝纳多湖营地（约" },
+                        { "type": "duration", "text": "7~9小时" },
+                        { "text": "）。" }
+                      ]
+                    },
+                    { "time": "17:00~20:00", "children": [{ "text": "搭建帐篷、用晚餐并早早就寝。" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第2天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "03:00~06:30",
+                      "children": [
+                        { "text": "打开头灯出发前往山顶，在日出时分抵达（约" },
+                        { "type": "duration", "text": "3~4小时" },
+                        { "text": "）。" }
+                      ]
+                    },
+                    { "time": "06:30~08:00", "children": [{ "text": "游览山顶周边的山峰和火山口并拍照。" }] },
+                    {
+                      "time": "08:00~15:00",
+                      "children": [{ "text": "若走穿越路线，则前往圣克鲁斯方向经过巨石坡到达下山营地；若走往返路线，则返回贝纳多湖营地休息。" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第3天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00~13:00", "children": [{ "text": "下山走完剩余路段，抵达出发地或对面的登记处。" }] },
+                    { "time": "下午", "children": [{ "text": "确认完成登顶并领取证书后，返回达沃休息。" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飞机",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从马尼拉直飞达沃机场（DVO）约需" },
+                    { "type": "duration", "text": "1小时50分钟" },
+                    { "text": "，从宿务出发约" },
+                    { "type": "duration", "text": "1小时10分钟" },
+                    { "text": "。若走哥打巴托一侧的基达帕万路线，从达沃机场驱车约需" },
+                    { "type": "duration", "text": "2小时30分钟~3小时" },
+                    { "text": "。建议提前一天抵达达沃休整一天，再开始登山。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "巴士·小巴",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "走卡帕塔干路线，需从达沃埃科兰总站（DCOTT）乘坐前往迪戈斯的巴士或小巴，约" },
+                    { "type": "duration", "text": "1小时~1小时30分钟" },
+                    { "text": "（约" },
+                    { "type": "price", "text": "₱80~150" },
+                    { "text": "），再从迪戈斯转乘开往卡帕塔干的吉普尼或哈发哈发，再深入约" },
+                    { "type": "duration", "text": "1小时" },
+                    { "text": "。走圣克鲁斯路线，则从达沃市区乘坐开往圣克鲁斯方向的巴士约" },
+                    { "type": "duration", "text": "1小时" },
+                    { "text": "，再乘车前往出发地。走基达帕万路线，则从达沃乘坐开往哥打巴托方向的巴士，车程约" },
+                    { "type": "duration", "text": "2~3小时" },
+                    { "text": "。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "旅行团套餐",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "由于阿波山必须获得许可并配有向导，加之前往出发地的交通不便，大多数登山者会选择注册的当地旅行社或登山会的套餐。以" },
+                    { "type": "duration", "text": "两晚三天" },
+                    { "text": "计算，人均约" },
+                    { "type": "price", "text": "₱7,500~12,000" },
+                    { "text": "，通常包含许可费、门票、向导费、餐食和达沃往返交通。背夫费用和个人装备租借大多另计，建议仔细确认套餐内容。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "阿波山虽不在台风路径上，但因山区地形特性，全年降雨频繁。最佳时期是相对干燥的" },
+            { "type": "date", "text": "2月" },
+            { "text": "到" },
+            { "type": "date", "text": "5月" },
+            { "text": "，尤其3月到" },
+            { "type": "date", "text": "4月" },
+            { "text": "晴天较多，山顶视野较好。" },
+            { "type": "date", "text": "6月" },
+            { "text": "到" },
+            { "type": "date", "text": "11月" },
+            { "text": "每天下午常有降雨和云雾，导致道路泥泞、山顶视野受阻的日子较多，12月到" },
+            { "type": "date", "text": "1月" },
+            { "text": "降雨也偏多。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "山顶和贝纳多湖附近，白天气温也只有10~15度，凌晨可降至5度左右，若有风则体感温度更低。阿波山自然公园管理委员会为了生态恢复，每年会安排一段休整期关闭登山步道，每天的登山人数也有限制。"
+            },
+            { "type": "date", "text": "2016年" },
+            { "text": "曾因大规模山火而长期关闭。圣周和连假期间申请人数会大量涌入并很快额满，建议至少提前2~4周预订。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "登山许可费·门票", "price": "约₱1,500~3,000", "note": "每人，外国人可能更高" },
+            { "label": "环境·保护区费", "price": "约₱200~500", "note": "每人" },
+            { "label": "向导费", "price": "约₱1,000~1,500", "note": "一天，每组" },
+            { "label": "背夫费", "price": "约₱800~1,000", "note": "一天，按约15公斤行李计" },
+            { "label": "露营费", "price": "约₱200~300", "note": "每人每晚" },
+            { "label": "旅行团套餐（两晚三天）", "price": "约₱7,500~12,000", "note": "含许可·向导·餐食·交通" },
+            { "label": "达沃—迪戈斯巴士", "price": "约₱80~150", "note": "单程" },
+            { "label": "体检证明", "price": "约₱500~1,000", "note": "出发前由医院开具" },
+            { "label": "装备租借", "price": "约₱300~1,000", "note": "帐篷·睡袋等" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。许可费和登山规定可能会依据统一徒步政策而调整，请确认最新公告。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "登山前后住在达沃市区最为方便。旅行社的集合地大多在达沃市区，下山后也能洗上热水澡、吃上一顿像样的饭菜。市区商务酒店每晚约" },
+            { "type": "price", "text": "₱1,500~3,000" },
+            { "text": "。若想提前一天住在出发地附近，可以选择迪戈斯市区的民宿（约" },
+            { "type": "price", "text": "₱800~1,500" },
+            { "text": "），或卡帕塔干、基达帕万一带朴素的homestay。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "山上的餐食通常包含在旅行团套餐中，以米饭、罐头、方便面和简单小菜为主。行动食品建议多带一些巧克力、坚果、芒果干和能量棒。下山后，在达沃享用烤金枪鱼下巴或牛骨汤（bulalo）这类丰盛的美食来消解疲劳，是登山者之间的一大乐趣。若从基达帕万一侧下山，当地温泉和果园较多，可以品尝到榴莲、马蜂橙等当季水果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "申请许可通常需要身份证复印件和体检证明（医生出具的可登山意见）。建议在出发前1~2周到医院开具。" }] },
+            { "children": [{ "text": "尽量减轻个人行李，雇用背夫对体力分配有很大帮助。一名背夫通常可以背负约15公斤的行李。" }] },
+            { "children": [{ "text": "防水登山鞋、防水外套、保暖抓绒或轻量羽绒服、手套、毛线帽都是必备品。白天炎热、夜晚酷寒，采用多层次穿搭很重要。" }] },
+            { "children": [{ "text": "请准备头灯及备用电池、登山杖，以及可装2升以上水的水壶。营地附近的水必须净化或煮沸后才能饮用。" }] },
+            { "children": [{ "text": "山上大部分区域手机信号会中断。出发前建议将行程和旅行社联系方式告知家人。" }] },
+            {
+              "children": [
+                { "text": "想在山顶观赏日出，需在" },
+                { "type": "time", "text": "凌晨3点" },
+                { "text": "左右出发。前一晚早些休息，并把行动食品放进口袋里会更方便。" }
+              ]
+            },
+            { "children": [{ "text": "所有垃圾都必须带下山，部分出发地在下山时会进行垃圾检查。" }] },
+            { "children": [{ "text": "圣周和连假期间申请人数集中且有人数限制，若心中有特定日期，建议提前一个月开始咨询预订。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "未经许可登山，或没有注册向导陪同进山，都是被禁止的。若被查获，登山会被中止，并可能被处以罚款。" }] },
+            { "children": [{ "text": "山顶附近存在失温风险。淋湿的衣物应立即更换，保暖装备绝不可遗漏。" }] },
+            { "children": [{ "text": "在巨石坡路段的硫磺喷气孔附近，应尽快通过以避免长时间吸入气体，若患有呼吸系统疾病，应提前告知向导。" }] },
+            { "children": [{ "text": "下雨时泥路和岩石会变得非常湿滑。不要勉强赶路，若向导决定折返，请务必服从。" }] },
+            { "children": [{ "text": "阿波山是原住民的圣山。请勿在山顶大声喧哗或带走石头、植物，并应尊重原住民社区的规定。" }] },
+            { "children": [{ "text": "出于山火风险，营地内的篝火和吸烟通常被严格禁止或限制。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "阿波山严格执行“无许可不得登山”的原则。请务必通过正规业者或公园管理处取得许可和向导后再出发。" }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "达沃市",
+              "place": "davao-city",
+              "children": [
+                { "text": "从出发地驱车约" },
+                { "type": "duration", "text": "1~2小时" },
+                { "text": "，是登山前后适合停留的棉兰老最大城市。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "萨马尔岛",
+              "place": "samal-island",
+              "children": [
+                { "text": "从达沃乘船约" },
+                { "type": "duration", "text": "15分钟" },
+                { "text": "，是下山后适合在海滨度假村休息解乏的岛屿。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "塞布湖",
+              "place": "lake-sebu",
+              "children": [
+                { "text": "向哥打巴托方向驱车约" },
+                { "type": "duration", "text": "4~5小时" },
+                { "text": "，是拥有特博利族文化和七瀑布的高原湖泊。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "达希坎海滩",
+              "place": "dahican-beach",
+              "children": [
+                { "text": "经达沃约" },
+                { "type": "duration", "text": "5~6小时" },
+                { "text": "，是登山后适合在太平洋海滩休息的马蒂市白沙滩。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

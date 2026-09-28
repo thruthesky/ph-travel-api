@@ -1,0 +1,605 @@
+{
+  "id": 12,
+  "slug": "villa-escudero",
+  "title": { "type": "title", "text": "ヴィラ・エスクデロ" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Villa Escudero" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "滝の水に足を浸しながら昼食をとるココナッツ農園" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "quezon", "text": "ケソン" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "ケソン州ティアオン（ラグナ州サンパブロとの境）"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "歴史・文化"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "タグ",
+    "items": ["ココナッツ農園", "滝のレストラン", "博物館", "伝統文化ショー", "家族旅行"]
+  },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 13.9951 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 121.3421 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "11月〜5月（乾季）",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "日帰り〜1泊" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱1,800〜3,500",
+    "currency": "PHP",
+    "min": 1800,
+    "max": 3500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ニノイ・アキノ国際空港 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/012-villa-escudero.webp",
+    "alt": "ヴィラ・エスクデロ",
+    "credit": "Ninjakeg / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Villa_wiki.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/012-villa-escudero-2.webp",
+        "alt": "ヴィラ・エスクデロ",
+        "credit": "National Historical Commission of the Philippines / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Escudero_-_NHCP.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/012-villa-escudero-3.webp",
+        "alt": "ヴィラ・エスクデロ",
+        "credit": "Isangtalong / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Labasin_and_pier_(Villa_Escudero,_Tiaong,_Quezon).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "19世紀末からある一族が築いてきたココナッツ農園をリゾートに仕立てた場所で、滝の下の竹のテーブルに足を浸しながら食べるフィリピン式ビュッフェの昼食と、個人博物館、水牛の荷車、民俗舞踊のショーを一日で楽しめます。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ヴィラ・エスクデロはケソン州ティアオンとラグナ州サンパブロの境、マハラリカ・ハイウェイの" },
+            { "type": "distance", "text": "91km" },
+            { "text": "地点にある、約800ヘクタール規模のココナッツ農園リゾートです。" },
+            { "type": "date", "text": "1880年" },
+            { "text": "代にエスクデロ家がサトウキビ農園として始め、その後ココナッツ農園に切り替え、" },
+            { "type": "date", "text": "1980年" },
+            {
+              "text": "代初めから一般の来訪者に門戸を開きました。今も農園は実際に稼働しており、延々と続くヤシの木の間をカラバオ（水牛）が荷車を引く、昔ながらのフィリピンの田園風景がそのまま残っています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "この場所を全国的に有名にしたのは「滝のレストラン」です。ラバシン（Labasin）ダムから溢れ出る浅い滝のすぐ下に竹のテーブルを並べ、客は足首まで浸かる冷たい水に足を浸しながら、バナナの葉の上に盛られたフィリピン料理を食べます。テーブルの奥に白く流れ落ちる水の風景は、フィリピンを紹介する絵葉書や旅行書に何十年も欠かさず登場しています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "リゾート内のエスクデロ個人博物館も見どころです。スペイン植民地時代の教会を思わせるピンク色の建物の中に、一族が収集した聖像（サントス）、銀製の祭壇装飾、古い硬貨や切手、戦争遺品、民族衣装、剥製の動物などがぎっしりと展示されており、フィリピン屈指の規模を誇る個人コレクションとして知られています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "体力的な負担がほとんどなく、すべての活動が一つの敷地内で完結するため、両親を連れた旅行、幼い子ども連れの家族、韓国からの客をもてなす在住者に特に向いています。華やかなビーチリゾートとは違う、のんびりとした温かみのあるフィリピンの田舎の一日を体験できる場所です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "滝のレストランでの昼食",
+              "children": [
+                {
+                  "text": "デイツアーのハイライトです。滝の水に足を浸しながら、アドボ、焼き魚、パンシット、トロピカルフルーツなどのフィリピン式ビュッフェを楽しみます。水が冷たく足元が滑りやすいので、アクアシューズがあると快適です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "水牛の荷車乗り",
+              "children": [
+                {
+                  "text": "水牛が引く荷車に乗り、入口から農園奥の広場まで移動します。荷車の上では地元の楽団がギターとバンドゥリアで昔のフィリピンの歌を演奏してくれます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "エスクデロ博物館の見学",
+              "children": [
+                { "text": "聖像や宗教美術品、植民地時代の生活用品、世界各地の記念品まで、膨大な収蔵品が展示されています。ガイドの説明とともに" },
+                { "type": "duration", "text": "30〜40分" },
+                { "text": "ほどかけて見て回るとよいでしょう。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "フィリピン伝統文化ショー",
+              "children": [
+                {
+                  "text": "フィリピンの国民芸術家ラモン・オブサン（Ramon Obusan）が構成した民俗舞踊のショーで、竹の棒の間を跳ぶティニクリンなど、地域ごとの伝統舞踊を披露します。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "竹のいかだ乗り",
+              "children": [
+                { "text": "ブラキン（Bulakin）川で竹のいかだに乗り、ヤシの木が並ぶ川をゆっくりと行き来します。午後ののんびりした散策コースにぴったりです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "プールと自然散策",
+              "children": [{ "text": "デイツアーにはプール利用が含まれており、農園内の散策路をたどりながらココナッツの加工工程をのぞくこともできます。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "昔ながらのフィリピンの村の風景写真",
+              "children": [
+                { "text": "バハイ・クボ（伝統的な竹の家）とカラバオ、ヤシの木が調和した風景は、フィリピンの伝統衣装を着て撮ればさらに雰囲気が引き立ちます。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "日帰りコース",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "マニラ出発（SLEX経由、サンパブロ方面）" }] },
+                    {
+                      "time": "08:30",
+                      "children": [{ "text": "ヴィラ・エスクデロ到着、入口で登録・リストバンド受け取り、ウェルカムドリンク" }]
+                    },
+                    { "time": "09:00", "children": [{ "text": "水牛の荷車に乗って農園奥へ移動" }] },
+                    { "time": "09:30", "children": [{ "text": "エスクデロ博物館の見学" }] },
+                    { "time": "10:30", "children": [{ "text": "竹のいかだ、農園散策、写真撮影" }] },
+                    { "time": "11:30", "children": [{ "text": "滝のレストランで昼食（混む前に早めに行くのがおすすめです）" }] },
+                    { "time": "13:00", "children": [{ "text": "フィリピン伝統文化ショーの観覧（上演時間は当日の案内で確認）" }] },
+                    { "time": "14:00", "children": [{ "text": "プールで休憩" }] },
+                    { "time": "15:30", "children": [{ "text": "出発、サンパブロでブコパイを購入" }] },
+                    { "time": "18:00", "children": [{ "text": "マニラ到着" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1泊コース",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "1泊する場合は、午後にチェックインして夕暮れ時の農園散策を楽しみ、翌朝早く人のいない滝や川辺をゆったり満喫した後、パグサンハン滝やサンパブロの湖へ移動する動線がおすすめです。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "自家用車・レンタカー",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "マニラからSLEXに乗りカランバ、サントトマス方面へ下り、サンパブロ市内を通ってマハラリカ・ハイウェイ沿いにティアオン方面へ向かえばよいです。約"
+                    },
+                    { "type": "distance", "text": "90km" },
+                    { "text": "、" },
+                    { "type": "duration", "text": "2〜3時間" },
+                    { "text": "かかり、STARトールウェイを経由してリパ・サンパブロへ入る方法もあります。通行料金は片道約" },
+                    { "type": "price", "text": "₱250〜400" },
+                    { "text": "です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "バス",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "ブエンディア（Buendia）、クバオ（Cubao）またはPITXからルセナ（Lucena）行きのバス（DLTB、JAC Liner、Jam Linerなど）に乗り、「ヴィラ・エスクデロ入口」で降ろしてもらうよう頼めばよいです。約"
+                    },
+                    { "type": "duration", "text": "2.5〜3.5時間" },
+                    { "text": "、料金約" },
+                    { "type": "price", "text": "₱200〜300" },
+                    { "text": "です。入口からリゾートの受付までは徒歩約" },
+                    { "type": "duration", "text": "5〜10分" },
+                    { "text": "です。帰りは入口前の道路でマニラ行きのバスを手を挙げて止めます。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ツアー",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラのホテルピックアップとデイツアー入場券をセットにした商品が1人あたり約" },
+                    { "type": "price", "text": "₱2,500〜4,500" },
+                    { "text": "程度で販売されています。人数が少ない場合は交通費の負担が減り経済的です。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "最も良い時期は乾季の" },
+            { "type": "date", "text": "11月〜5月" },
+            { "text": "です。特に" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は涼しく雨がほとんどなく、滝のレストランで食事をするのに快適です。" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "は日中の気温が高いものの、滝の水が冷たいためかえって人気が高まります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "雨季（" },
+            { "type": "date", "text": "6月〜10月" },
+            {
+              "text": "）には雨が降ったり川が増水したりすると、安全のため滝のレストランの代わりに屋内の食堂で昼食が提供されます。デイツアーの核心的な体験が抜けてしまうこともあるので、雨季には天気予報を見て日程を決めるのがよいでしょう。台風直後はいかだの運営も中止されることがあります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "近隣のケソン州ルクバン（Lucban）では毎年" },
+            { "type": "date", "text": "5月15日" },
+            { "text": "頃、米菓子や農産物で家を飾るパヒヤス（Pahiyas）祭りが開かれます。" },
+            { "type": "date", "text": "5月中旬" },
+            { "text": "に訪れるなら、両方を組み合わせて旅行するのがおすすめです。週末・祝日・聖週間は団体観光客が多いため、平日の訪問をおすすめします。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            {
+              "label": "デイツアー入場",
+              "price": "1人約₱1,100〜1,600",
+              "note": "曜日・シーズンにより変動、昼食・荷車・ショー・いかだ・プール込み"
+            },
+            { "label": "マニラ〜入口のバス", "price": "片道約₱200〜300", "note": "ルセナ行きバス" },
+            { "label": "自家用車の通行料金", "price": "片道約₱250〜400", "note": "SLEX・STAR経由" },
+            { "label": "博物館", "price": "デイツアーに込み", "note": "撮影制限区域あり" },
+            {
+              "label": "1泊宿泊（食事込みパッケージ）",
+              "price": "2人1泊約₱7,000〜15,000",
+              "note": "客室グレード・週末かどうかにより差あり"
+            },
+            { "label": "軽食・飲み物の追加", "price": "約₱100〜300", "note": "農園内の売店" },
+            { "label": "マニラ発日帰りツアー", "price": "1人約₱2,500〜4,500", "note": "ピックアップ・入場込み" },
+            { "label": "ブコパイなどのお土産", "price": "約₱300〜600", "note": "サンパブロ・ロス・バニョス" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "リゾート内の宿泊施設は、竹と木材で建てた伝統家屋風の客室と川辺のコテージからなっています。1泊料金には通常、食事とリゾート内アクティビティが含まれ、2人あたり約"
+            },
+            { "type": "price", "text": "₱7,000〜15,000" },
+            {
+              "text": "程度です。エアコン付きの客室もありますが、夜はカエルや虫の声が聞こえる田舎の雰囲気なので、静かな都市型ホテルを期待しない方がよいでしょう。予算を抑えたい場合は、車で"
+            },
+            { "type": "duration", "text": "20〜30分" },
+            { "text": "の距離にあるサンパブロ市内の中低価格帯ホテル（1泊約" },
+            { "type": "price", "text": "₱1,500〜3,500" },
+            { "text": "）を利用することもできます。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "滝のレストランの昼食はフィリピン家庭料理のビュッフェで、チキンアドボ、焼きティラピア、パンシット・カントン、ルンピア、白米とバナナ、マンゴーなどのトロピカルフルーツが並びます。辛い料理はほとんどないため、子どもの口にも合います。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "周辺の食べ物としては、サンパブロとロス・バニョスの幹線道路沿いのブコパイが有名で、ケソン州ルクバンのロンガニサ（ニンニク風味のソーセージ）や、バナナの葉に盛って手で食べるパンシット・ハブハブ（pancit habhab）もぜひ味わってみてください。ココナッツ農園らしく、新鮮なブコジュース（若いココナッツの水）も欠かせません。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "デイツアーは公式オンラインショップ（shop.villaescudero.com）で事前に予約するのが安心です。週末・祝日は当日販売分が早めに売り切れることもあります。"
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "営業時間は通常" },
+                { "type": "time", "text": "午前8時〜午後5時" },
+                { "text": "です。入場後のアクティビティは自由な順番ですが、文化ショーは決まった時間にしか行われないので、入場時に時間を確認してください。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "滝のレストランは" },
+                { "type": "time", "text": "11時" },
+                { "text": "半より前に行けば人が少なく、写真もきれいに撮れます。" },
+                { "type": "time", "text": "12時" },
+                { "text": "を過ぎると団体観光客で混み合います。" }
+              ]
+            },
+            {
+              "children": [{ "text": "半ズボンとサンダル、アクアシューズの服装が快適です。滝の水で裾が濡れることがあるので、着替えを一着持参してください。" }]
+            },
+            { "children": [{ "text": "博物館内には撮影が制限される区域があります。案内に従い、フラッシュは使用しないでください。" }] },
+            {
+              "children": [
+                { "text": "シニアや障がいのある方には法定割引が適用されますが証明が必要で、オンライン予約の際は予約チームに別途連絡が必要な場合があります。" }
+              ]
+            },
+            { "children": [{ "text": "現金・カードともに使えますが、農園内の小さな売店は現金のみの場合が多いです。" }] },
+            {
+              "children": [{ "text": "バスで来る場合は、帰りの最終便の時間を事前に確認してください。日が沈むと入口の道路でバスを止めるのが難しくなります。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "滝のレストランの床は苔のため非常に滑りやすくなっています。高齢者や体の弱い方は必ず手をつないで移動し、子どもが水の中を走り回らないよう見守ってください。"
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "雨が多く降った日は安全のため滝での食事が中止になることがあり、その場合は返金よりも屋内での食事に振り替えられるのが一般的です。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "カラバオはおとなしい動物ですが、後ろから急に近づいたり触ったりすると驚くことがあります。荷車に乗る際は係員の指示に従ってください。" }
+              ]
+            },
+            { "children": [{ "text": "農園一帯は蚊が多く発生します。特に夕暮れ時はデング熱予防のため、長袖・長ズボンと虫よけを用意してください。" }] },
+            { "children": [{ "text": "マハラリカ・ハイウェイは大型トラックの通行が多い道です。バスを降りたり道を渡ったりする際は特に注意してください。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "パグサンハン滝",
+              "place": "pagsanjan-falls",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "。渓谷の急流を遡るバンカライドで有名な、ラグナを代表する滝です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "サンパブロ七つの湖",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "20〜30分" },
+                { "text": "。噴火口の湖が七つ集まる街で、サンパロク湖の周回路散策がおすすめです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ルクバン・パヒヤス祭り",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1〜1.5時間" },
+                { "text": "。" },
+                { "type": "date", "text": "5月15日" },
+                { "text": "頃、家々を色とりどりの米菓子で飾る祭りが開かれます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "バナハウ山麓のカマイ・ニ・ヘスス",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "。ルクバンの巡礼地で、巨大なイエス像と階段展望台があります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "タガイタイ",
+              "place": "tagaytay",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1.5〜2時間" },
+                { "text": "。涼しい高原都市からタール火山と湖を見下ろせます。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

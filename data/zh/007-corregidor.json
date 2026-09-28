@@ -1,0 +1,563 @@
+{
+  "id": 7,
+  "slug": "corregidor",
+  "title": { "type": "title", "text": "科雷希多岛" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Corregidor Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "守卫马尼拉湾的岩石要塞，留存太平洋战争的伤痕" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "luzon", "text": "吕宋" },
+  "region": { "type": "badge", "label": "地区", "value": "cavite", "text": "甲米地" },
+  "location": {
+    "type": "address",
+    "label": "位置",
+    "icon": "location_on",
+    "text": "甲米地省甲米地市科雷希多岛（马尼拉湾入口）"
+  },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "历史·文化"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["战争遗迹", "马林塔隧道", "炮台", "海岛游", "历史教育"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.6, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 14.3856 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 120.5731 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "12月~5月（旱季·风平浪静）",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "1天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱3,000~5,000",
+    "currency": "PHP",
+    "min": 3000,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "中等",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "尼诺伊·阿基诺国际机场 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/007-corregidor.webp",
+    "alt": "科雷希多岛",
+    "credit": "yeowatzup / CC BY 2.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pacific_War_Memorial,_Corregidor,_Philippines_(181769934).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/007-corregidor-2.webp",
+        "alt": "科雷希多岛",
+        "credit": "H.abanil / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Corregidor_Island_Lighthouse.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/007-corregidor-3.webp",
+        "alt": "科雷希多岛",
+        "credit": "yeowatzup / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Barracks,_Corregidor_Island,_Philippines_(181771883).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "这是马尼拉湾入口处一座蝌蚪形状的岛屿，是" },
+      { "type": "date", "text": "1942年" },
+      { "text": "美军与菲律宾军抵抗日军、坚守到最后的要塞。乘坐观光电车游览马林塔隧道、巨大炮台与已成废墟的兵营，如今需从巴丹马里维莱斯搭船前往。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "科雷希多（Corregidor）是位于马尼拉湾入口、巴丹半岛尖端以南约" },
+            { "type": "distance", "text": "3~4公里" },
+            { "text": "处、长约" },
+            { "type": "distance", "text": "6.5公里" },
+            {
+              "text": "的小岛。从空中俯瞰形似蝌蚪，宽阔的头部一带称为“托普赛德”，中段为“米德尔赛德”，收窄的部位叫“波特姆赛德”，长长的尾部则称为“泰尔赛德”。由于此处能一览通往马尼拉的航道，自西班牙时代起便设有信号站与要塞，美国统治时期更以“米尔斯堡”之名，武装成一座巨大的海岸要塞。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "1941年12月" },
+            { "text": "日军入侵菲律宾后，科雷希多成为美军与菲律宾军的司令部所在地。麦克阿瑟将军于" },
+            { "type": "date", "text": "1942年3月" },
+            { "text": "从这座岛乘PT鱼雷艇撤往澳大利亚，留下了那句著名的“我会回来的（I shall return）”；余下的部队在巴丹陷落后仍坚守近一个月，直至" },
+            { "type": "date", "text": "1942年5月6日" },
+            { "text": "温莱特将军投降，才将该岛拱手让出。" },
+            { "type": "date", "text": "1945年2月" },
+            { "text": "美军以空降与登陆作战重新夺回该岛的过程中，再次爆发激烈战斗，全岛沦为一片废墟。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "如今，全岛由科雷希多基金会管理，作为战争纪念地保存下来。屋顶坍塌、钢筋外露的一英里兵营（Mile Long Barracks）、留有巨型12英寸迫击炮的“韦炮台”，以及墙上弹痕清晰可见的马林塔隧道，都完整保留着战争当年的模样。岛上各处被丛林覆盖，废墟与自然交融，营造出独特的氛围。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "强烈推荐给对战争史与近现代史感兴趣的旅行者，以及想让孩子接受历史教育的家庭。以前曾有从马尼拉直航的渡轮，如今已改为经巴丹省马里维莱斯进入的方式，务必事先确认最新航班信息并预约。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "乘观光电车环岛一圈",
+              "children": [
+                {
+                  "text": "岛内游览方式是搭乘仿旧式电车造型的观光巴士，一边听向导讲解一边巡览主要遗迹。向导会生动讲述战斗故事与轶闻，即使对历史兴趣不大的人也会被深深吸引。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "马林塔隧道声光秀",
+              "children": [
+                { "text": "这是一座长约" },
+                { "type": "distance", "text": "250米" },
+                { "text": "的主隧道，加上数十条支线隧道组成的地下要塞，曾是司令部与医院所在地。灯光、音效与场景模型重现了" },
+                { "type": "date", "text": "1942年" },
+                { "text": "的情形，约" },
+                { "type": "duration", "text": "30分钟" },
+                { "text": "的表演是整个行程的高潮。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "韦炮台与赫恩炮台",
+              "children": [
+                { "text": "12英寸迫击炮与射程可达数十公里的12英寸海岸炮至今原样保留。亲眼看到大炮的规模，才能真切感受到这座岛当年是何等强大的要塞。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "一英里兵营",
+              "children": [{ "text": "顾名思义绵延甚长的三层兵营废墟，只剩骨架的混凝土结构诉说着战争的破坏力。这里也是岛上最令人印象深刻的拍照地点之一。" }]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "太平洋战争纪念馆与永恒之火",
+              "children": [
+                { "type": "date", "text": "1968年" },
+                { "text": "美国政府建造的纪念馆，圆顶下设有祭坛、追思空间与战争博物馆。后方山丘上钢铁雕塑“永恒之火”，是象征科雷希多的标志性景观。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "科雷希多灯塔眺望",
+              "children": [{ "text": "从岛上最高处的灯塔，可以360度眺望马尼拉湾、巴丹半岛，乃至远处的甲米地海岸。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "菲律宾英雄纪念碑与日本和平公园",
+              "children": [{ "text": "刻有菲律宾历史上历次战役浮雕的英雄纪念碑，与追悼日军阵亡者的和平公园并列而立，让人从多个视角重新审视这场战争。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "一日游（马尼拉出发，含车辆行程为准）",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "04:00~05:00", "children": [{ "text": "在马尼拉酒店或集合地点接送" }] },
+                    { "time": "07:30", "children": [{ "text": "抵达巴丹省马里维莱斯码头，办理登记" }] },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "搭乘方卡（外挂支架船）出发，约" },
+                        { "type": "duration", "text": "20分钟" },
+                        { "text": "后抵达科雷希多" }
+                      ]
+                    },
+                    { "time": "08:30", "children": [{ "text": "观光电车之旅开始——波特姆赛德、菲律宾英雄纪念碑、日本和平公园" }] },
+                    { "time": "10:00", "children": [{ "text": "米德尔赛德与托普赛德——一英里兵营、韦炮台、赫恩炮台" }] },
+                    { "time": "11:30", "children": [{ "text": "太平洋战争纪念馆与灯塔" }] },
+                    { "time": "12:30", "children": [{ "text": "午餐（请确认是否包含在行程内，岛上购买食物非常有限）" }] },
+                    { "time": "13:30", "children": [{ "text": "马林塔隧道声光秀" }] },
+                    { "time": "14:30", "children": [{ "text": "离岛出发，返回马里维莱斯" }] },
+                    {
+                      "time": "15:00~15:30",
+                      "children": [
+                        { "text": "出发返回马尼拉，" },
+                        { "type": "time", "text": "18:30~19:30" },
+                        { "text": "抵达（视交通状况而定）" }
+                      ]
+                    }
+                  ]
+                },
+                { "type": "paragraph", "children": [{ "text": "部分日期也有下午出发的行程，预约时请确认出发时间。" }] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "目前的航运状况",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "过去帕赛市的滨海观景码头每天都有直航科雷希多的邮轮，但该航线在新冠疫情后停运，" },
+                    { "type": "date", "text": "2026年" },
+                    {
+                      "text": "现在从马尼拉到该岛实际上已没有定期渡轮。目前大部分游客都是搭乘从巴丹省马里维莱斯出发的旅行运营商船只。运营方式经常变动，请务必确认科雷希多基金会或旅行运营商的最新公告后再预约。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "旅行团行程（最便捷的方式）",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "包含马尼拉接送、往返马里维莱斯的车辆、船只、岛屿门票、观光电车、马林塔隧道表演与午餐的行程约" },
+                    { "type": "price", "text": "₱3,500~4,500" },
+                    { "text": "。在马里维莱斯码头会合的行程约" },
+                    { "type": "price", "text": "₱2,500~3,000" },
+                    { "text": "。也可安排少人数的独家行程与包车。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "搭巴士前往马里维莱斯",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从马尼拉帕赛（布恩迪亚）或库巴俄总站出发，有开往巴丹马里维莱斯的巴士，约" },
+                    { "type": "duration", "text": "3~4小时" },
+                    { "text": "，单程约" },
+                    { "type": "price", "text": "₱300~500" },
+                    { "text": "。若想赶上行程开始时间，建议搭乘凌晨首班车，或提前一天抵达马里维莱斯留宿一晚更为稳妥。从马里维莱斯总站到码头可搭三轮车，约" },
+                    { "type": "duration", "text": "10~15分钟" },
+                    { "text": "，约" },
+                    { "type": "price", "text": "₱50~150" },
+                    { "text": "。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自驾·租车",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从马尼拉经北吕宋高速公路（NLEX）与SCTEX，再走巴丹海岸公路前往马里维莱斯，约" },
+                    { "type": "duration", "text": "3小时" },
+                    { "text": "（约" },
+                    { "type": "distance", "text": "170公里" },
+                    { "text": "）。单程过路费约" },
+                    { "type": "price", "text": "₱300~500" },
+                    { "text": "。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "岛内交通",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "text": "岛内基本只能搭乘观光电车移动。各遗迹之间距离较远，山路也多，不建议自行步行往返。" }]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "12月~5月" },
+            { "text": "旱季最为适宜，尤其" },
+            { "type": "date", "text": "12月~3月" },
+            { "text": "海面平静、气温凉爽，便于步行游览户外遗迹。" },
+            { "type": "date", "text": "4~5月" },
+            { "text": "十分炎热，遮荫较少的托普赛德遗迹阳光强烈，帽子与饮用水必不可少。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月~10月" },
+            { "text": "雨季受西南季风影响，海面变得汹涌，船只常常停航。发布台风警报（热带气旋风力信号）时，菲律宾海岸警卫队会禁止小型船只出港，此时段的行程需保持灵活。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "配合历史纪念日前往也别具意义。" },
+            { "type": "date", "text": "4月9日" },
+            { "text": "“英勇日（Araw ng Kagitingan）”是纪念巴丹沦陷的国定假日，巴丹萨马特山纪念碑与科雷希多都会举行纪念活动。" },
+            { "type": "date", "text": "5月6日" },
+            { "text": "科雷希多沦陷纪念日前后，也会有老兵追悼活动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "一日游（含马尼拉接送）", "price": "约₱3,500~4,500", "note": "含船只·门票·电车·午餐套餐基准" },
+            { "label": "一日游（马里维莱斯会合）", "price": "约₱2,500~3,000", "note": "需自行前往马里维莱斯" },
+            { "label": "马尼拉↔马里维莱斯巴士", "price": "约₱300~500（单程）", "note": "3~4小时" },
+            { "label": "三轮车（总站↔码头）", "price": "约₱50~150", "note": "需议价" },
+            { "label": "马里维莱斯住宿", "price": "约₱1,500~3,500", "note": "提前一天留宿时" },
+            { "label": "小吃·饮用水", "price": "约₱150~300", "note": "建议出发前准备" },
+            { "label": "独家包团", "price": "约₱25,000~30,000", "note": "以小团体为准，分摊人数可降低费用" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "过去可以在岛上的科雷希多酒店留宿一晚，体验夜间隧道之旅，但目前岛内住宿运营状况不明朗，大多数游客选择当日往返。若不想承受凌晨出发的负担，建议前一天抵达巴丹省马里维莱斯，入住海滩度假村或小型酒店（一晚约"
+            },
+            { "type": "price", "text": "₱1,500~3,500" },
+            { "text": "）。旅行运营商也提供与合作度假村联动的住宿套餐。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "岛上几乎没有餐厅和小卖部，很难买到食物。建议选择包含午餐的行程，或在马里维莱斯出发前准备好水、零食与便当。马里维莱斯及巴丹海岸公路一带有不少海鲜餐厅，结束行程后可以品尝烤鱼、酸虾汤和基拉温（醋腌生鱼）。巴丹特产的甜芒果与鱼干也是不错的伴手礼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "行程运营日期固定，周末名额会先满。请至少提前1~2周预约，并在出发前一天再次确认航运情况。" }] },
+            { "children": [{ "text": "确认行程时通常需要护照信息，预约时姓名请与护照上的拼写完全一致，当天也请随身携带护照。" }] },
+            {
+              "children": [
+                { "text": "岛上大多数地方只能用现金，也没有ATM。请准备约" },
+                { "type": "price", "text": "₱1,000~2,000" },
+                { "text": "现金用于购买纪念品与饮料。" }
+              ]
+            },
+            { "children": [{ "text": "请携带帽子、防晒霜、太阳镜、舒适的运动鞋，以及1升以上的饮用水。大部分遗迹都完全暴露在阳光下。" }] },
+            { "children": [{ "text": "岛上部分区域手机信号较弱或中断。请事先与家人约定好会合的时间与地点。" }] },
+            {
+              "children": [
+                { "text": "容易晕船的话，请在登船前" },
+                { "type": "duration", "text": "30分钟" },
+                { "text": "服用晕船药。船程虽短，但雨季浪高较大。" }
+              ]
+            },
+            { "children": [{ "text": "拍照热点包括一英里兵营的废墟、永恒之火雕塑，以及从灯塔俯瞰的巴丹半岛。" }] },
+            { "children": [{ "text": "若想听清向导讲解，建议坐在电车前排座位。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "大部分遗迹都是有倒塌风险的废墟。请勿进入标有禁止出入标志的建筑内部或爬上墙体。" }] },
+            { "children": [{ "text": "岛上仍可能残留未爆弹药，请勿离开指定路径进入丛林深处。即便发现金属物体，也绝对不要触碰。" }] },
+            { "children": [{ "text": "雨季与台风季节，海岸警卫队可能决定当天取消出航，请在预约前确认退款与改期规定。" }] },
+            { "children": [{ "text": "网络上仍能搜到旧的“马尼拉直航渡轮”信息，但目前并未运营。向个人卖家提前付款前，请务必核实运营方的真实身份。" }] },
+            { "children": [{ "text": "正午户外行程容易脱水与中暑，请勤于补水，并适时到阴凉处休息。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "从马尼拉出发的直航渡轮目前处于停运状态。请务必确认巴丹马里维莱斯出发行程的最新航运公告，并通过官方运营商预约。" }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "巴丹萨马特山英勇神殿",
+              "children": [
+                { "text": "从马里维莱斯车程约" },
+                { "type": "duration", "text": "40分钟" },
+                { "text": "。这里有纪念巴丹战役、高约" },
+                { "type": "distance", "text": "92米" },
+                { "text": "的巨大十字架纪念碑与博物馆。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "马尼拉湾",
+              "place": "manila-bay",
+              "children": [{ "text": "从科雷希多眺望海湾对岸，可在罗哈斯大道欣赏日落，重新回味这段战争历史。" }]
+            },
+            {
+              "type": "card",
+              "title": "王城区",
+              "place": "intramuros",
+              "children": [
+                { "text": "马尼拉市区。" },
+                { "type": "date", "text": "1945年" },
+                { "text": "马尼拉战役中沦为废墟的城墙古城，与科雷希多一并参观能更好地理解太平洋战争的脉络。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "阿库萨尔菲律宾古宅村",
+              "place": "las-casas-filipinas",
+              "children": [
+                { "text": "从巴丹省巴加克、马里维莱斯出发车程约" },
+                { "type": "duration", "text": "1小时" },
+                { "text": "。这是一处迁移复原西班牙时期宅邸而成的遗产度假村。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

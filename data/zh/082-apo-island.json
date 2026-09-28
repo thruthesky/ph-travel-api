@@ -1,0 +1,553 @@
+{
+  "id": 82,
+  "slug": "apo-island",
+  "title": { "type": "title", "text": "阿波岛" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Apo Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "与海龟并肩同游，海洋保护区的奇迹" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "visayas", "text": "米沙鄢" },
+  "region": { "type": "badge", "label": "地区", "value": "negros", "text": "内格罗斯岛" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "内格罗斯东方省道因阿波岛" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "潜水·海洋"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["海龟", "浮潜", "水肺潜水", "海洋保护区", "珊瑚礁"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.8, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 9.076 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 123.27 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "3月至6月（海面平静的旱季）",
+    "months": [3, 4, 5, 6]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "1天～2天1夜" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱2,500~4,500",
+    "currency": "PHP",
+    "min": 2500,
+    "max": 4500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "中等",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "杜马格特-锡布兰机场 (DGT)",
+    "code": "DGT"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/082-apo-island.webp",
+    "alt": "阿波岛",
+    "credit": "Mike Gonzalez (TheCoffee) / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_east.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/082-apo-island-2.webp",
+        "alt": "阿波岛",
+        "credit": "Anna Varona / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sea_Turtle_in_Apo_Island.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-3.webp",
+        "alt": "阿波岛",
+        "credit": "Clover117 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_on_the_side_of_Balay_Reef.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "这是漂浮在杜马格特以南海域的一座小火山岛，得益于居民亲手守护的海洋保护区，几乎可以确定能在浅海遇见海龟。它既是菲律宾社区主导海洋保育的典范，也是世界知名的潜水胜地。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "阿波岛是一座距内格罗斯岛东南海岸约" },
+            { "type": "distance", "text": "7公里" },
+            {
+              "text": "、面积约0.7平方公里的小火山岛。行政上隶属道因市，约1,000名居民依靠渔业与旅游业为生。它与棉兰老岛的阿波山同名却完全是两个地方，切勿混淆。岛屿西侧是村落与沙滩，东侧则连绵着岩壁悬崖，整座岛屿被珊瑚礁环绕。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "这座岛屿举世闻名的原因，与其说是海洋本身，不如说是“守护的方式”。" },
+            { "type": "date", "text": "1970年" },
+            { "text": "代因炸药捕鱼与过度捕捞导致珊瑚礁遭到破坏，锡利曼大学的海洋生物学家安赫尔·阿尔卡拉博士与居民们于" },
+            { "type": "date", "text": "1982年" },
+            { "text": "前后，将岛屿东南部分区域划定为禁渔区。居民亲自巡逻、严守规则的结果是，短短几年内鱼群便重新回归，就连禁渔区之外的渔获量也随之增加。此后于" },
+            { "type": "date", "text": "1994年" },
+            { "text": "被划定为保护景观·保护海域，成为社区主导海洋保护区的世界典范。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "如今阿波岛海域已记录到超过650种鱼类与400余种珊瑚。对旅行者而言，最大的魅力在于几乎每次都能在水深" },
+            { "type": "distance", "text": "2～5米" },
+            { "text": "的浅海，看到绿海龟与玳瑁啃食海草的景象。即使不擅长游泳，只要穿上救生衣跟随向导，也能充分享受其中乐趣。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "对潜水员而言，水流湍急的东侧岩壁与铺满珊瑚花园的潜点正等待着探索。这里能广泛满足不同需求——从想带孩子体验海龟浮潜的家庭旅行者，到想一睹鲹鱼群的资深潜水员，再到想在电力有限的静谧小岛住上一晚的旅行者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "海龟浮潜",
+              "children": [
+                { "text": "在村落前方海滩一侧的浅海，可以近距离观赏啃食海草的海龟。必须有向导随行，与海龟须保持约" },
+                { "type": "distance", "text": "4米" },
+                { "text": "以上的距离，不可触摸或追逐。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "保护区珊瑚花园潜水",
+              "children": [
+                { "text": "岛屿东南侧保护区周围密布着桌状珊瑚与软珊瑚，运气好的话还能遇见鲹鱼群与梭鱼群。保护区内的潜水会限制人数与次数，需通过当地潜水店预约。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "椰子点·教堂点",
+              "children": [
+                { "text": "岛屿东北侧的椰子点以顺流而下的漂流潜水著称，西侧的教堂点则相对平缓，深受中级潜水者喜爱。这里常有强流，务必听从向导的判断。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "灯塔观景台徒步",
+              "children": [
+                { "text": "从村落沿着台阶与土路上行约" },
+                { "type": "duration", "text": "20～30分钟" },
+                { "text": "，即可抵达岛屿顶部附近的灯塔。可以俯瞰内格罗斯本岛与锡基霍尔，天气晴朗时甚至能望见棉兰老方向的海域。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "漫步村落、聆听保育故事",
+              "children": [{ "text": "小村庄里设有海洋保护区管理办公室、学校与纪念品摊位。购买居民手工制作的T恤与手帕，收益将回馈社区。" }]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "在岛上住一晚",
+              "children": [{ "text": "当日游客离开后的午后，小岛会变得出奇安静。可以欣赏夕阳沉入西侧海面的景色，以及几乎没有电灯光害的璀璨夜空。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "顺道逛马拉塔帕伊周三市集",
+              "children": [{ "text": "在开往阿波岛的船只出发地马拉塔帕伊，每逢周三都会开设牲畜市场与烤乳猪（莱雄）餐档。适合在清晨搭船前顺道逛一逛。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "当日行程",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:30", "children": [{ "text": "从杜马格特或道因的住宿出发" }] },
+                    { "time": "07:15", "children": [{ "text": "抵达马拉塔帕伊渡口，缴纳环境税并登记名单" }] },
+                    {
+                      "time": "07:45",
+                      "children": [
+                        { "text": "乘螃蟹船前往阿波岛（约" },
+                        { "type": "duration", "text": "30～45分钟" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "08:30", "children": [{ "text": "第一次浮潜——海龟区（向导随行）" }] },
+                    { "time": "10:30", "children": [{ "text": "第二次浮潜或潜水——珊瑚花园" }] },
+                    { "time": "12:00", "children": [{ "text": "在岛上餐厅或用旅行团便当享用午餐" }] },
+                    { "time": "13:00", "children": [{ "text": "灯塔观景台徒步与村落漫步" }] },
+                    { "time": "14:30", "children": [{ "text": "从岛上出发，在午后风势变强前返回" }] },
+                    { "time": "15:30", "children": [{ "text": "抵达马拉塔帕伊，在道因海滩休息" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2天1夜行程",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "第1天上午", "children": [{ "text": "抵达后浮潜，下午灯塔徒步，黄昏在西侧海滩看日落，夜晚观星" }] },
+                    { "time": "第2天清晨", "children": [{ "text": "趁人少时进行海龟浮潜，上午潜水两次，午餐后返回本岛" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飞机",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从马尼拉飞往杜马格特（锡布兰机场，DGT）约需" },
+                    { "type": "duration", "text": "1小时20分钟" },
+                    { "text": "。若从宿务出发，乘船与巴士会比乘飞机更方便。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "车辆",
+              "subtitle": "从杜马格特到马拉塔帕伊",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "前往阿波岛的船只从杜马格特以南约" },
+                    { "type": "distance", "text": "25公里" },
+                    { "text": "处、桑博安吉塔的马拉塔帕伊渡口出发。从杜马格特市区南部巴士总站或路边搭乘开往拜斯、锡亚顿方向的巴士或吉普尼，在马拉塔帕伊入口下车约需" },
+                    { "type": "duration", "text": "40～60分钟" },
+                    { "text": "，车费约" },
+                    { "type": "price", "text": "₱40～60" },
+                    { "text": "。若包三轮车，单程约" },
+                    { "type": "price", "text": "₱400～600" },
+                    { "text": "。从道因海岸度假村出发约" },
+                    { "type": "duration", "text": "15～20分钟" },
+                    { "text": "车程。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从马拉塔帕伊到阿波岛乘螃蟹船约需" },
+                    { "type": "duration", "text": "30～45分钟" },
+                    { "text": "。这里没有定期客船，需通过渡口的螃蟹船协会包船。小型螃蟹船往返包船价约为" },
+                    { "type": "price", "text": "₱3,000～4,000" },
+                    {
+                      "text": "（4～6人），若独自出行，在渡口与其他旅行者拼船更为经济。最方便的方式是参加杜马格特、道因潜水店的当日团，含接送、螃蟹船、浮潜装备、午餐与向导，人均约"
+                    },
+                    { "type": "price", "text": "₱2,500～3,500" },
+                    { "text": "。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "从宿务出发",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从宿务南部巴士总站乘巴士到奥斯洛布附近的利洛安港约" },
+                    { "type": "duration", "text": "3～4小时" },
+                    { "text": "，乘船到锡布兰港约" },
+                    { "type": "duration", "text": "30分钟" },
+                    { "text": "，再乘车南下至马拉塔帕伊约" },
+                    { "type": "duration", "text": "1小时" },
+                    { "text": "。当天赶到岛上时间较紧，建议在杜马格特或道因住一晚，翌日清晨出发。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "阿波岛的旅行品质受海浪影响很大。" },
+            { "type": "date", "text": "3月" },
+            { "text": "至" },
+            { "type": "date", "text": "6月" },
+            { "text": "期间海面最为平静、水温也较高，常有能见度可达" },
+            { "type": "distance", "text": "20～30米" },
+            { "text": "的日子。" },
+            { "type": "date", "text": "12月" },
+            { "text": "至" },
+            { "type": "date", "text": "2月" },
+            { "text": "期间刮东北季风（阿米汉），午后浪高偶尔会增大，但整体上仍可正常旅行。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "7月" },
+            { "text": "至" },
+            { "type": "date", "text": "10月" },
+            {
+              "text": "期间受西南季风（哈巴加特）与台风影响，螃蟹船停航的天数会增多。尤其午后海浪容易变大，因此无论季节如何，原则上都应清晨出发、午后早些时候返回。水温全年在26～29度之间，穿一件薄潜水服或水母衣即可。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "杜马格特–马拉塔帕伊交通", "price": "单程约₱40～600", "note": "巴士、吉普尼或包三轮车" },
+            { "label": "螃蟹船往返包船", "price": "单船约₱3,000～4,000", "note": "以4～6人计，分摊人数越多越便宜" },
+            { "label": "环境税", "price": "外国人约₱300，本地人约₱100", "note": "于马拉塔帕伊登记处缴纳" },
+            { "label": "浮潜向导", "price": "每组约₱300", "note": "海龟区域强制随行" },
+            { "label": "当日浮潜团", "price": "人均约₱2,500～3,500", "note": "含接送、船只、装备与午餐" },
+            { "label": "娱乐潜水", "price": "单次约₱1,800～2,500", "note": "保护区潜水另收附加费" },
+            { "label": "岛上住宿", "price": "单晚约₱1,500～4,500", "note": "需确认是否含餐" },
+            { "label": "餐饮", "price": "一餐约₱200～450", "note": "以岛上餐厅为准" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "大多数旅行者住在杜马格特市区或道因海岸的度假村，当天往返岛上。道因聚集着提供潜水套餐的度假村，便于清晨出发前往岛上。岛上则有几家经营已久的小型住宿，如自由旅舍（Liberty's Lodge）与阿波岛海滩度假村，单晚约"
+            },
+            { "type": "price", "text": "₱1,500～4,500" },
+            { "text": "，多数含餐。由于客房数量有限，旺季需提前数周预订。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "岛上电力多依赖发电机与太阳能，通常只在傍晚供电数小时，房间大多没有空调。用餐可在住宿餐厅或村里的小餐馆解决，以烤鱼、炒时蔬与米饭等朴素的菲律宾家常菜为主。本岛马拉塔帕伊周三市集上出售的烤乳猪与烤鱼是当地名物，若行程配合得上，务必一尝。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "岛上没有ATM，也几乎无法刷卡，请准备现金支付环境税、向导费与餐费。" }] },
+            { "children": [{ "text": "手机信号只在岛上部分区域可用，请提前与住宿及螃蟹船船夫确认好约定事项。" }] },
+            { "children": [{ "text": "为保护珊瑚礁，建议使用不含珊瑚有害成分的防晒霜，或穿水母衣与长款打底裤遮盖肌肤。" }] },
+            {
+              "children": [
+                { "text": "村前的海龟区域在" },
+                { "type": "time", "text": "上午8～10点" },
+                { "text": "最为清静，" },
+                { "type": "time", "text": "10点" },
+                { "text": "以后当日团船只集中抵达，人潮会明显增多。" }
+              ]
+            },
+            { "children": [{ "text": "若不擅长游泳，请穿好救生衣紧跟向导，若有脚蹼，在水流中也会省力许多。" }] },
+            { "children": [{ "text": "用防水相机或运动相机拍摄海龟时请关闭闪光灯，并采用俯拍角度，以免打扰海龟。" }] },
+            {
+              "children": [
+                { "text": "若容易晕船，请在登船前" },
+                { "type": "duration", "text": "30分钟" },
+                { "text": "服用晕船药，并坐在船只后部。" }
+              ]
+            },
+            { "children": [{ "text": "在岛上过夜者请携带手电筒（头灯）、充电宝与防蚊液。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "严禁触摸、追逐或骑乘海龟，以及踩踏珊瑚，一经发现将处以罚款并被逐出。" }]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "岛屿东侧与南侧的潜点水流极强，浮潜者可能被冲走，请只在向导许可的区域下水。" }] },
+            { "children": [{ "text": "午后海浪容易增大，若螃蟹船船夫提议提前返程，遵从会更安全。" }] },
+            { "children": [{ "text": "入岛规定、环境税与每日访客人数限制会根据保护区管理委员会的决定而变动，出发前请确认最新公告。" }] },
+            { "children": [{ "text": "岛上没有医院，若受伤请立即消毒，珊瑚划伤极易感染，返回本岛后务必就医处理。" }] },
+            { "children": [{ "text": "偶有被水母或海胆蜇伤的情况，切勿赤脚走在浅礁区，请穿溯溪鞋。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "杜马格特",
+              "place": "dumaguete",
+              "children": [
+                { "text": "从马拉塔帕伊车程约" },
+                { "type": "duration", "text": "40～60分钟" },
+                { "text": "。以海滨步道、大学城与甜点闻名的温和之城。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "巴林萨萨尧双子湖",
+              "place": "twin-lakes-balinsasayao",
+              "children": [
+                { "text": "从杜马格特车程约" },
+                { "type": "duration", "text": "1小时" },
+                { "text": "。藏身原始森林中的双子火山湖。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "锡基霍尔",
+              "place": "siquijor",
+              "children": [
+                { "text": "从杜马格特乘快艇约" },
+                { "type": "duration", "text": "1小时" },
+                { "text": "。拥有瀑布、海滩与神秘传说的岛屿。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "奥斯洛布（宿务南部）",
+              "place": "oslob",
+              "children": [
+                { "text": "从杜马格特附近的锡布兰港乘船约" },
+                { "type": "duration", "text": "30分钟" },
+                { "text": "。以观赏鲸鲨闻名。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,791 @@
+{
+  "id": 9,
+  "slug": "taal-heritage-town",
+  "title": { "type": "title", "text": "Thị trấn di sản Taal" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Taal Heritage Town" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Ngôi làng ở Batangas nơi thời gian ngừng lại bên vương cung thánh đường khổng lồ và những dinh thự cổ"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "batangas", "text": "Batangas" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Tỉnh Batangas, thị trấn Taal"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "Lịch sử & văn hóa"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": [
+      "Vương cung thánh đường",
+      "Dinh thự thời Tây Ban Nha",
+      "Du lịch đi bộ",
+      "Xúc xích longganisa Taal",
+      "Dao bướm balisong"
+    ]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 13.8807 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.9248 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 11 – tháng 4 (mùa khô)",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "1 ngày"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱1,000–2,500/người",
+    "currency": "PHP",
+    "min": 1000,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Dễ",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay quốc tế Ninoy Aquino (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/009-taal-heritage-town.webp",
+    "alt": "Thị trấn di sản Taal",
+    "credit": "ImaheNiNiño1989 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Minor_Basilica_of_Saint_Martin_of_Tours_or_Taal_Basilica_85M7772.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/009-taal-heritage-town-2.webp",
+        "alt": "Thị trấn di sản Taal",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Welcome_Arch_of_Taal_Heritage_Town_1,_Taal,_Batangas,_October_2022.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/009-taal-heritage-town-3.webp",
+        "alt": "Thị trấn di sản Taal",
+        "credit": "Ramon FVelasquez / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Taal,Batangasjf2457_05.JPG"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Đây là thị trấn lịch sử ở Batangas với Vương cung thánh đường Taal – một trong những nhà thờ Công giáo lớn nhất châu Á – cùng các dinh thự gỗ thời Tây Ban Nha và Mỹ còn nguyên vẹn trong từng con hẻm. Là điểm đi trong ngày để đi bộ tham quan nhà thờ, các bảo tàng nhà cổ và thưởng thức xúc xích longganisa Taal cùng tapa."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Taal là thị trấn nhỏ ở tây nam tỉnh Batangas, nằm ở cửa sông Pansipit nơi dòng nước chảy từ Hồ Taal ra vịnh Balayan. Làng ban đầu được lập bên bờ Hồ Taal vào khoảng năm "
+            },
+            { "type": "date", "text": "1572" },
+            { "text": ", nhưng sau khi bị tàn phá bởi vụ đại phun trào của núi lửa Taal năm " },
+            { "type": "date", "text": "1754" },
+            {
+              "text": ", người dân đã chuyển lên ngọn đồi hiện tại để lập làng mới. Sau đó, các gia tộc địa chủ giàu lên nhờ buôn bán đường, cà phê và ngành dệt đã xây những dinh thự lớn, lộng lẫy từ cuối thời Tây Ban Nha đến thời Mỹ cai trị, tạo nên khung cảnh phố xá cổ kính như ngày nay."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Trung tâm thị trấn là Vương cung thánh đường Taal (Đền thánh San Martin de Tours) sừng sững trên đỉnh đồi. Bắt đầu xây dựng khoảng năm "
+            },
+            { "type": "date", "text": "1856" },
+            { "text": " và hoàn thành sau gần 20 năm, nhà thờ dài khoảng " },
+            { "type": "distance", "text": "96m" },
+            { "text": ", rộng khoảng " },
+            { "type": "distance", "text": "45m" },
+            {
+              "text": ", thường được giới thiệu là \"nhà thờ Công giáo lớn nhất châu Á\". Nhìn xuống từ quảng trường trước nhà thờ, những dinh thự cổ mái ngói đỏ và ban công gỗ nối tiếp nhau dọc theo các con hẻm, xa xa là vịnh Balayan."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Taal có nhiều ngôi nhà gắn liền với phong trào độc lập Philippines. Nhà của Marcela Agoncillo – người may lá cờ Philippines đầu tiên bằng tay tại Hồng Kông năm "
+            },
+            { "type": "date", "text": "1898" },
+            {
+              "text": " – và nhà của Leon Apacible, luật sư kiêm nhà ngoại giao của chính phủ cách mạng, đều được mở cửa như đài tưởng niệm lịch sử quốc gia. Toàn bộ thị trấn được xếp hạng khu bảo tồn lịch sử, quản lý cảnh quan nghiêm ngặt đến mức nhà xây mới cũng phải theo phong cách cổ."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Phù hợp với du khách muốn dạo bước trong những con hẻm làng cổ yên tĩnh hơn là điểm du lịch đông đúc, người yêu kiến trúc và nhiếp ảnh, cùng những ai quan tâm đến văn hóa Công giáo Philippines và lịch sử phong trào độc lập. Cách Tagaytay khoảng "
+            },
+            { "type": "duration", "text": "1 giờ" },
+            { "text": " đi xe, nên hành trình gộp hai nơi thành chuyến " },
+            { "type": "duration", "text": "1 đêm 2 ngày" },
+            { "text": " rất được ưa chuộng." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Vương cung thánh đường Taal",
+              "children": [
+                {
+                  "text": "Đây là nhà thờ khổng lồ xây bằng đá san hô và gạch, với trần vòm cao và gian giữa dài bên trong tạo cảm giác choáng ngợp. Trong giờ mở cửa có thể leo lên tháp chuông để ngắm nhìn thị trấn và vịnh Balayan (có thu phí nhỏ)."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Nhà thờ Đức Mẹ Caysasay và Bậc thang San Lorenzo Ruiz",
+              "children": [
+                {
+                  "text": "Đây là nhà thờ nhỏ mang truyền thuyết một ngư dân đã vớt được tượng Đức Mẹ từ sông Pansipit vào năm "
+                },
+                { "text": "1603", "type": "date" },
+                {
+                  "text": ". Đi xuống 125 bậc thang đá (Bậc thang San Lorenzo Ruiz) từ vương cung thánh đường sẽ đến nơi."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Giếng Santa Lucia",
+              "children": [
+                {
+                  "text": "Đây là giếng đá hình vòm nằm trong khu rừng gần Nhà thờ Caysasay, tương truyền tượng Đức Mẹ được tìm thấy gần đây. Nhiều tín đồ tin rằng rửa mắt bằng nước giếng sẽ khỏi bệnh, nên khách hành hương thường ghé qua."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Đài tưởng niệm lịch sử Marcela Agoncillo",
+              "children": [
+                {
+                  "text": "Đây là nhà của người phụ nữ đã may lá cờ Philippines, trưng bày nội thất, vật dụng sinh hoạt thời đó và câu chuyện làm cờ. Ở sân sau có tượng hai mẹ con đang may cờ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Galleria Taal",
+              "children": [
+                {
+                  "text": "Đây là bảo tàng tư nhân cải tạo từ dinh thự cổ, sưu tập máy ảnh cổ và ảnh xưa từ thế kỷ 19 đến hiện đại. Có thể xem lại đời sống của người Taal xưa qua những bức ảnh."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Dinh thự Villavicencio",
+              "children": [
+                {
+                  "text": "Đây là dinh thự thế kỷ 19 được gọi là \"Ngôi nhà quà cưới\", tương truyền do một chú rể giàu có xây tặng cô dâu. Tùy thời điểm ghé thăm, có thể được tham quan bên trong và trải nghiệm merienda (bữa xế chiều) truyền thống."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Mua ẩm thực và thủ công truyền thống Taal",
+              "children": [
+                {
+                  "text": "Ghé chợ và cửa hàng lưu niệm của thị trấn để xem xúc xích longganisa Taal đậm mùi tỏi, tapa Taal mặn ngọt, bánh kẹo đậu phộng panutsa, khăn tay thêu truyền thống (burda) và dao bướm balisong."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Ngày 1 (đi về trong ngày từ Manila)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "05:30",
+                      "children": [{ "text": "Xuất phát từ Manila (xe buýt hoặc xe tự lái)" }]
+                    },
+                    {
+                      "time": "08:30",
+                      "children": [
+                        { "text": "Đến Taal, ăn sáng với longganisa, tapa tại nhà hàng gần chợ" }
+                      ]
+                    },
+                    {
+                      "time": "09:30",
+                      "children": [
+                        { "text": "Tham quan Vương cung thánh đường Taal, leo tháp chuông" }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        {
+                          "text": "Xuống Bậc thang San Lorenzo Ruiz đến Nhà thờ Caysasay và Giếng Santa Lucia"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:30",
+                      "children": [{ "text": "Đài tưởng niệm Marcela Agoncillo" }]
+                    },
+                    {
+                      "time": "12:30",
+                      "children": [
+                        {
+                          "text": "Ăn trưa với adobong dilaw (adobo nghệ) và cá tawilis chiên tại nhà hàng địa phương"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "14:00",
+                      "children": [{ "text": "Galleria Taal và Đài tưởng niệm Leon Apacible" }]
+                    },
+                    {
+                      "time": "15:00",
+                      "children": [
+                        {
+                          "text": "Chụp ảnh ngoại thất Dinh thự Villavicencio, thưởng thức merienda (kiểm tra có mở cửa hay không)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "16:00",
+                      "children": [{ "text": "Dạo hẻm dinh thự cổ, mua quà lưu niệm" }]
+                    },
+                    {
+                      "time": "17:00",
+                      "children": [
+                        {
+                          "text": "Khởi hành về Manila hoặc di chuyển đến Tagaytay nghỉ lại một đêm"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Xe buýt",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Bắt xe buýt đi Lemery, Batangas tại các bến quanh Buendia, Pasay, Manila hoặc PITX. Mất khoảng "
+                    },
+                    { "type": "duration", "text": "2 giờ 30 phút – 3 giờ 30 phút" },
+                    { "text": ", giá vé khoảng " },
+                    { "type": "price", "text": "₱200~300" },
+                    {
+                      "text": ". Xuống tại bến cuối Lemery hoặc gần ngã tư Taal rồi đi tricycle khoảng "
+                    },
+                    { "type": "duration", "text": "10 phút" },
+                    { "text": ", giá " },
+                    { "type": "price", "text": "₱50~100" },
+                    { "text": " đến trung tâm thị trấn Taal. Nếu đi xe jeepney thì chỉ khoảng " },
+                    { "type": "price", "text": "₱15~20" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Xe tự lái · xe thuê riêng",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Cách Manila khoảng " },
+                    { "type": "distance", "text": "120km" },
+                    {
+                      "text": ". Đi cao tốc Nam Luzon (SLEX) và STAR Tollway hướng về Batangas, ra khỏi cao tốc gần Lipa hoặc thành phố Batangas rồi vào quốc lộ hướng Lemery – Taal. Ngày thường mất khoảng "
+                    },
+                    { "type": "duration", "text": "2 giờ 30 phút" },
+                    { "text": ", cuối tuần mất hơn " },
+                    { "type": "duration", "text": "3 giờ" },
+                    { "text": ". Xe thuê riêng có tài xế khoảng " },
+                    { "type": "price", "text": "₱4,500~6,500" },
+                    { "text": "/ngày." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Từ Tagaytay",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ Tagaytay đến Taal khoảng " },
+                    { "type": "distance", "text": "50km" },
+                    { "text": ", đi xe mất khoảng " },
+                    { "type": "duration", "text": "1 giờ – 1 giờ 30 phút" },
+                    {
+                      "text": ". Phương tiện công cộng phải đổi xe jeepney hoặc xe van hướng Lemery từ Tagaytay khá bất tiện, nên khuyên dùng Grab hoặc xe thuê riêng."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Di chuyển trong thị trấn",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Trung tâm thị trấn có các điểm tham quan chính nằm trong bán kính khoảng "
+                    },
+                    { "type": "distance", "text": "500m" },
+                    {
+                      "text": " quanh vương cung thánh đường, có thể đi bộ. Tuy nhiên vì có nhiều đồi và bậc thang, những ngày nóng có thể thuê tricycle theo giờ (khoảng "
+                    },
+                    { "type": "price", "text": "₱200~400" },
+                    { "text": "/giờ) để dạo quanh các dinh thự cổ." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Mùa khô " },
+            { "text": "tháng 11 – tháng 4", "type": "date" },
+            { "text": " tốt nhất để đi bộ. Đặc biệt " },
+            { "text": "tháng 12 – tháng 2", "type": "date" },
+            { "text": " độ ẩm thấp và gió mát nên dễ leo lên xuống đồi, bậc thang. " },
+            { "text": "Tháng 3 – tháng 5", "type": "date" },
+            {
+              "text": " nhiệt độ giữa trưa lên tới 34–35 độ, nên bắt đầu sớm buổi sáng và nghỉ trong bảo tàng, nhà hàng vào giữa trưa. Mùa mưa "
+            },
+            { "text": "tháng 6 – tháng 10", "type": "date" },
+            {
+              "text": " thường có mưa rào buổi chiều, khi bão đi qua bờ biển Batangas thì gió mạnh và mưa lớn trút xuống."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Thời điểm đặc biệt nhất để xem Taal là các dịp lễ hội tôn giáo. Vào thứ Sáu Tuần Thánh (tuần trước lễ Phục sinh, thường là "
+            },
+            { "type": "date", "text": "cuối tháng 3 – tháng 4" },
+            {
+              "text": "), hàng chục xe hoa (carroza) chở tượng thánh thắp nến diễu hành khắp thị trấn, được xem là một trong những lễ rước Tuần Thánh nổi bật nhất Philippines. Ngày "
+            },
+            { "type": "date", "text": "11 tháng 11" },
+            { "text": " lễ Thánh Martin là ngày hội lớn nhất của thị trấn, và vào " },
+            { "type": "date", "text": "đầu tháng 12" },
+            {
+              "text": " lễ Đức Mẹ Caysasay có lễ rước tượng bằng thuyền trên sông Pansipit. Vào những dịp này chỗ ở và bãi đỗ xe khan hiếm nên cần lên kế hoạch trước."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nếu mức cảnh báo núi lửa Taal gần đó tăng lên, khu vực ven hồ có thể bị cảnh báo khí núi lửa, nên hãy kiểm tra thông báo của Viện Núi lửa và Địa chấn Philippines (PHIVOLCS)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Xe buýt Manila ↔ Lemery",
+              "price": "Khoảng ₱200~300 (một chiều)",
+              "note": "2 giờ 30 phút – 3 giờ 30 phút"
+            },
+            {
+              "label": "Tricycle (Lemery ↔ Taal)",
+              "price": "Khoảng ₱50~100",
+              "note": "Cần thương lượng"
+            },
+            {
+              "label": "Tháp chuông vương cung thánh đường",
+              "price": "Khoảng ₱20~50",
+              "note": "Kiểm tra giờ mở cửa"
+            },
+            {
+              "label": "Vé vào bảo tàng nhà cổ",
+              "price": "Khoảng ₱50~150 (mỗi nơi)",
+              "note": "Đài tưởng niệm quốc gia miễn phí hoặc quyên góp"
+            },
+            {
+              "label": "Thuê tricycle theo giờ",
+              "price": "Khoảng ₱200~400 (mỗi giờ)",
+              "note": "Vòng quanh nhà cổ"
+            },
+            {
+              "label": "Ăn uống (2 bữa)",
+              "price": "Khoảng ₱300~700",
+              "note": "Nhà hàng địa phương"
+            },
+            {
+              "label": "Quà longganisa, tapa",
+              "price": "Khoảng ₱300~800",
+              "note": "Sản phẩm đóng gói hút chân không"
+            },
+            {
+              "label": "Nghỉ tại dinh thự di sản",
+              "price": "Khoảng ₱2,500~5,000",
+              "note": "1 đêm, tùy chọn"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Taal quy mô nhỏ nên không có nhiều chỗ ở, nhưng có vài nhà nghỉ và B&B di sản cải tạo từ dinh thự cổ, cho phép nghỉ lại một đêm trong không khí thế kỷ 19 (khoảng "
+            },
+            { "type": "price", "text": "₱2,500~5,000" },
+            {
+              "text": "/đêm). Để có thêm lựa chọn, có thể dùng khách sạn trong trung tâm Lemery cách "
+            },
+            { "type": "duration", "text": "15–20 phút" },
+            { "text": " đi xe (khoảng " },
+            { "type": "price", "text": "₱1,500~3,000" },
+            { "text": "), hoặc khu nghỉ dưỡng Tagaytay cách " },
+            { "type": "duration", "text": "1 giờ" },
+            { "text": "." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Taal là quê hương đích thực của ẩm thực Batangas. Longganisa Taal là loại xúc xích ngắn, mập, không ngọt mà đậm mùi tỏi, thường ăn sáng theo kiểu \"longsilog\" kèm trứng chiên và cơm tỏi. Đừng bỏ lỡ tapa Taal (thịt bò, heo ướp mặn ngọt), adobong dilaw (adobo vàng nghệ) và cá tawilis (cá mòi nước ngọt chỉ có ở Hồ Taal) chiên. Món tráng miệng có suman (xôi nếp dẻo) và bánh kẹo đậu phộng panutsa, thưởng thức cùng cà phê đặc sản Batangas \"kapeng barako\". Phần lớn có thể thưởng thức với giá rẻ tại chợ và khu ẩm thực gần vương cung thánh đường."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Vương cung thánh đường Taal và quảng trường có ánh nắng buổi sáng chiếu thẳng vào mặt tiền nên chụp ảnh rất đẹp. Nên đến trước "
+                },
+                { "type": "time", "text": "9–10 giờ sáng" },
+                { "text": "." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Một số bảo tàng nhà cổ đóng cửa thứ Hai hoặc giờ trưa (" },
+                { "type": "time", "text": "12–13 giờ" },
+                {
+                  "text": "), nên hãy kiểm tra giờ mở cửa trên trang Facebook hoặc bảng thông báo tại chỗ trước khi đến."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nhà hàng, bảo tàng, tricycle trong thị trấn phần lớn chỉ nhận tiền mặt. ATM không nhiều nên hãy chuẩn bị đủ tiền từ Manila."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Có nhiều đồi và bậc thang đá nên giày thể thao thoải mái, không gót là bắt buộc. Bậc thang đá sau khi mưa rất trơn trượt."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi vào nhà thờ, tránh mặc áo ba lỗ và quần short, và khi đang có lễ thì tham quan yên lặng ở phía sau."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nên mua longganisa và tapa loại đóng gói hút chân không để mang về Manila. Mang theo thùng đá sẽ yên tâm hơn."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Phần lớn dinh thự cổ là nhà ở riêng tư. Với những căn không phải bảo tàng mở cửa, chỉ nên chụp ảnh bên ngoài, không vào bên trong cửa."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nếu đến vào Tuần Thánh hay ngày lễ, hãy hỏi trước văn phòng nhà thờ giờ bắt đầu lễ rước, và đến trước "
+                },
+                { "type": "duration", "text": "1 giờ" },
+                { "text": " để có chỗ đứng tốt." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Dao bướm (balisong) – đặc sản Taal – là loại dao bị hạn chế mang nơi công cộng ở Philippines. Nếu mua làm quà, chỉ được để trong hành lý ký gửi, và hãy kiểm tra trước quy định nhập cảnh về hung khí của quốc gia mình khi về nước."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Tricycle và xe cộ chạy nhanh trên các hẻm hẹp và quốc lộ, nên cẩn thận không đứng giữa đường khi chụp ảnh."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vào mùa mưa và mùa bão, vùng trũng ven sông Pansipit có thể ngập, khiến bậc thang và đường phía Nhà thờ Caysasay nguy hiểm."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Dinh thự gỗ cổ có những chỗ sàn và cầu thang yếu, nên chỉ đi vào khu vực được phép, và nắm tay trẻ nhỏ khi di chuyển."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Leo lên xuống bậc thang giữa trưa nóng dễ gây mất nước, nên uống nước thường xuyên."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Balisong (dao bướm) dù là quà lưu niệm vẫn bị cấm mang lên máy bay dạng xách tay, và có thể bị hải quan xếp vào loại hung khí. Nhất định hãy kiểm tra quy định được phép mang về trước khi mua."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Tagaytay",
+              "place": "tagaytay",
+              "children": [
+                { "text": "Đi xe khoảng " },
+                { "type": "duration", "text": "1 giờ – 1 giờ 30 phút" },
+                {
+                  "text": ". Thành phố cao nguyên mát mẻ nhìn xuống Hồ Taal và núi lửa, rất hợp để kết hợp thành chuyến 1 đêm."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Anilao",
+              "place": "anilao",
+              "children": [
+                { "text": "Đi xe khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                {
+                  "text": ". Điểm lặn ở Mabini, Batangas, nổi tiếng với lặn macro và các khu nghỉ dưỡng bãi biển."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Bãi biển Nasugbu",
+              "children": [
+                { "text": "Đi xe khoảng " },
+                { "type": "duration", "text": "1 giờ 30 phút" },
+                { "text": ". Khu nghỉ dưỡng biển ở bờ tây Batangas." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Thành phố Lipa và Tu viện Carmel",
+              "children": [
+                { "text": "Đi xe khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                {
+                  "text": ". Thành phố trồng cà phê Batangas, có tu viện nổi tiếng với câu chuyện Đức Mẹ hiện ra."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

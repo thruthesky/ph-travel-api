@@ -1,0 +1,561 @@
+{
+  "id": 3,
+  "slug": "binondo",
+  "title": { "type": "title", "text": "岷伦洛唐人街" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Binondo" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "世界最古老唐人街的巷弄美食之旅" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "luzon", "text": "吕宋" },
+  "region": { "type": "badge", "label": "地区", "value": "metro-manila", "text": "大马尼拉" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "大马尼拉马尼拉市岷伦洛" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "location_city",
+    "value": "city",
+    "text": "城市·美食"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["唐人街", "街头小吃", "美食之旅", "教堂", "春节"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 14.6003 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 120.9744 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "12月~2月（旱季·春节）",
+    "months": [12, 1, 2]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "半天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱800~2,000",
+    "currency": "PHP",
+    "min": 800,
+    "max": 2000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "简单",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "尼诺伊·阿基诺国际机场 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/003-binondo.webp",
+    "alt": "岷伦洛唐人街",
+    "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Binondo_Skyline_and_Mapua_University,_Manila,_May_2025.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/003-binondo-2.webp",
+        "alt": "岷伦洛唐人街",
+        "credit": "Ryomaandres / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Natividad_Building_3.JPG"
+      },
+      {
+        "type": "image",
+        "url": "images/003-binondo-3.webp",
+        "alt": "岷伦洛唐人街",
+        "credit": "Elmer B. Domingo / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Binondo_Church,_Manila_District.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "这里是" },
+      { "text": "1594年", "type": "date" },
+      { "text": "西班牙总督为中国商人而建的世界最古老唐人街。品尝水饺、开边、润饼，漫步王彬街、岷伦洛教堂与艾斯高达，是一场半天的美食巡礼。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "岷伦洛（Binondo）始于" },
+            { "type": "date", "text": "1594年" },
+            {
+              "text": "，西班牙总督路易斯·佩雷斯·达斯马里尼亚斯将帕西河对岸的土地划给已皈依天主教的中国商人定居。这片正对着城墙古城王城区的地区，四百多年来一直是华裔菲律宾人（清仔）的商业中心，常被称为“世界最古老的唐人街”。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "如今的岷伦洛，是金银铺、中药行、杂货批发商、茶铺与水饺店挤满每条窄巷的热闹街区。主街王彬街（Ongpin）沿路灯笼与汉字招牌相连，北端矗立着" },
+            { "type": "date", "text": "1596年" },
+            {
+              "text": "道明会所建的岷伦洛教堂（圣老楞佐·路易斯小圣殿）。靠帕西河一侧的艾斯高达（Escolta）街，曾是20世纪初马尼拉最繁华的商业街，如今仍留有装饰艺术风格的旧建筑，近来正被年轻艺术家重新盘活。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "这里真正的魅力在于美食。来自福建的移民料理与菲律宾本地食材相融合，形成了独具一格的“菲式中餐”。新鲜润饼（生春卷）、水饺与煎饺、开边（豆沙或绿豆沙点心）、炸鸡、面食（面）等，几步一尝，即可享受“边走边吃”的旅行乐趣。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "推荐给想把历史漫步与美食之旅一次搞定的旅行者，以及想感受当地热闹商业文化的旅行者。与王城区之间只隔一座桥，因此把两地安排在同一天很受欢迎。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "岷伦洛教堂（圣老楞佐·路易斯小圣殿）",
+              "children": [
+                { "text": "菲律宾第一位圣人圣老楞佐·路易斯曾在这座教堂担任辅祭。八角形钟楼造型独特，受到中国式塔楼的影响，是熬过二战轰炸幸存下来的部分。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "沿王彬街寻味漫步",
+              "children": [
+                { "text": "从岷伦洛教堂沿着王彬街向东走向圣十字方向，边走边少量购买水饺、开边、年糕（Tikoy）和月饼，是岷伦洛之旅的经典玩法。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "品尝新鲜润饼",
+              "children": [{ "text": "将萝卜、胡萝卜、花生粉、海藻用薄面皮包裹，再淋上甜酱的生春卷。艾斯高达附近巷子里的老字号润饼店最为出名。" }]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "巡礼水饺与面食店",
+              "children": [
+                { "text": "王彬街与雅拉尔街一带的水饺专门店，一份韭菜猪肉水饺约" },
+                { "type": "price", "text": "₱150~250" },
+                { "text": "即可品尝。手工拉制的兰州风味面食店也很受欢迎。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "开边与伴手礼购物",
+              "children": [{ "text": "岷伦洛的代表伴手礼是开边（内馅圆形酥皮点心）。各家老字号饼店味道略有不同，比较两三家再买也是一种乐趣。" }]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "艾斯高达街的装饰艺术建筑",
+              "children": [{ "text": "这里留有建于1920~30年代的第一联合大厦等旧商业建筑。周末有时会有小型市集和咖啡摊开张。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "琼斯桥与帕西河夜景",
+              "children": [
+                { "text": "连接岷伦洛与王城区一带的琼斯桥，经修复后设置了路灯和雕像，成为傍晚散步的热门去处。桥上眺望马尼拉邮政局大楼的夜景十分美丽。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "探访巷弄中的中式庙宇",
+              "children": [{ "text": "巷弄深处藏着一些华裔居民烧香占卜的小庙。拍照前请先征得许可，安静参观。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "半天美食行程（上午10点出发）",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "10:00", "children": [{ "text": "搭乘轻轨卡列多站或Grab抵达岷伦洛教堂，参观教堂" }] },
+                    { "time": "10:30", "children": [{ "text": "从教堂前广场进入王彬街，逛开边·年糕店" }] },
+                    { "time": "11:00", "children": [{ "text": "在水饺专门店品尝水饺·煎饺作为第一餐" }] },
+                    { "time": "11:45", "children": [{ "text": "在巷弄中的润饼店品尝新鲜润饼" }] },
+                    { "time": "12:15", "children": [{ "text": "在炸鸡餐厅或面食店享用第二餐（建议分食）" }] },
+                    { "time": "13:00", "children": [{ "text": "漫步艾斯高达街，在旧建筑咖啡馆喝咖啡" }] },
+                    { "time": "14:00", "children": [{ "text": "过琼斯桥前往王城区，或返回住处" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "傍晚行程",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "16:30", "children": [{ "text": "漫步艾斯高达街与帕西河畔" }] },
+                    { "time": "17:30", "children": [{ "text": "在王彬街的茶馆·甜品店休息" }] },
+                    { "time": "18:30", "children": [{ "text": "在中餐厅享用晚餐（点心、海鲜炒饭、五香猪肉）" }] },
+                    { "time": "19:30", "children": [{ "text": "观赏琼斯桥夜景后搭乘Grab返回" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "轻轨（LRT）",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "在LRT 1号线卡列多（Carriedo）站下车，穿过奎亚坡教堂方向的人潮，步行约" },
+                    { "type": "duration", "text": "10分钟" },
+                    { "text": "即可抵达王彬街东侧入口。卡列多站周边摊贩与人潮密集，需特别留意随身物品。票价视区间而定，约" },
+                    { "type": "price", "text": "₱15~35" },
+                    { "text": "。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grab·出租车",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "距机场约" },
+                    { "type": "distance", "text": "12公里" },
+                    { "text": "，需" },
+                    { "type": "duration", "text": "30分钟~1小时30分钟" },
+                    { "text": "，车费约" },
+                    { "type": "price", "text": "₱350~650" },
+                    { "text": "。从马卡蒂·BGC出发约" },
+                    { "type": "price", "text": "₱300~500" },
+                    { "text": "，需" },
+                    { "type": "duration", "text": "40分钟~1小时" },
+                    { "text": "。将目的地设为“岷伦洛教堂（Binondo Church）”便于查找。窄巷多为单行道，若遇塞车，就近下车步行反而更快。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "步行",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从王城区北侧的圣地亚哥堡过琼斯桥，步行约" },
+                    { "type": "duration", "text": "15~20分钟" },
+                    { "text": "。若一天内安排两地，上午王城区、下午岷伦洛的顺序更有效率。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "帕西河渡轮",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "帕西河渡轮运营时，在艾斯高达码头下船即到岷伦洛。运营与否及时刻表常有变动，请确认大马尼拉发展署（MMDA）的公告。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "当地交通",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "巷弄间短距离移动可搭人力三轮车或卡莱萨马车。卡莱萨游览约" },
+                    { "type": "duration", "text": "30分钟" },
+                    { "text": "、议价约" },
+                    { "type": "price", "text": "₱300~500" },
+                    { "text": "，上车前请先谈定总价。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "岷伦洛全年皆可造访，但由于步行时间较长，" },
+            { "type": "date", "text": "12月~2月" },
+            { "text": "旱季最为舒适。" },
+            { "type": "date", "text": "3月~5月" },
+            { "text": "巷弄内闷热潮湿，建议在" },
+            { "type": "time", "text": "上午10点" },
+            { "text": "以前或" },
+            { "type": "time", "text": "下午4点" },
+            { "text": "以后活动。" },
+            { "type": "date", "text": "6月~10月" },
+            { "text": "雨季河边和低洼巷弄暴雨时容易积水，有台风预警时应延后行程。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "最特别的时节是农历新年（春节）。菲律宾将春节列为公众假期，当天岷伦洛会有舞龙舞狮游行、鞭炮与红色装饰将街道点缀一新。" },
+            { "type": "date", "text": "2027年" },
+            { "text": "春节为" },
+            { "type": "date", "text": "2月6日" },
+            { "text": "，当天及前一天人潮极多，建议一早抵达，并以步行或轻轨代替Grab前往。农历" },
+            { "type": "date", "text": "8月15日" },
+            { "text": "前后的中秋节，则可以看到月饼与月饼骰子游戏（Pua Tiong Chiu）。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [{ "text": "周末家庭游客与美食团较多，人气水饺店门前常排长队。若想从容享用，建议挑选平日上午。周日不少批发商休息，街道气氛较为冷清。" }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "机场↔岷伦洛 Grab", "price": "约₱350~650（单程）", "note": "塞车时上涨" },
+            { "label": "轻轨1号线", "price": "约₱15~35", "note": "卡列多站下车" },
+            { "label": "一份水饺", "price": "约₱150~250", "note": "以8~12个为准" },
+            { "label": "新鲜润饼", "price": "约₱80~150", "note": "以1条为准" },
+            { "label": "开边·年糕伴手礼", "price": "约₱200~600", "note": "视店家与数量而异" },
+            { "label": "向导美食之旅", "price": "约₱1,500~3,000", "note": "请确认是否含试吃" },
+            { "label": "卡莱萨马车", "price": "约₱300~500", "note": "30分钟，需议价" },
+            { "label": "中餐厅晚餐", "price": "约₱400~900", "note": "以多人分食为准" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "岷伦洛在幸运唐人街商场周边及昆廷·帕雷德斯街一带有中档酒店（一晚约" },
+            { "type": "price", "text": "₱2,500~5,000" },
+            {
+              "text": "）。不过夜间商铺打烊较早，街道会变得冷清，因此大多数旅行者选择住在埃尔米塔·马拉特或马卡蒂，当天往返游览。若以美食之旅为目的，住在王城区附近或马尼拉湾一带的酒店，动线上更为便利。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "美食是岷伦洛之旅的核心。必尝菜单包括福建风味生润饼、韭菜猪肉水饺与煎饺、淋上甜咸酱汁的五香炸物、面食（鸡汤面）、割包（猪肉刈包）、炒面板食，以及作为甜点的开边和年糕（糯米糕）。数十年如一日的炸鸡专门中餐厅、艾斯高达附近巷子里的老字号润饼店，都是美食之旅常见的行程。小店较多，午餐时段（"
+            },
+            { "type": "time", "text": "12点~13点" },
+            { "text": "）可能没有座位，建议在" },
+            { "type": "time", "text": "11点" },
+            { "text": "前后开始第一餐。比起在一处吃饱，不如2~3人分食多种菜品、走访4~5家店，满意度更高。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "美食之旅的原则是“少量多处”。一份菜多人分食，就能体验更多店家。" }] },
+            {
+              "children": [
+                { "text": "小店和摊贩大多只收现金。" },
+                { "type": "price", "text": "₱1,000" },
+                { "text": "的纸币可能会被拒收找零，请多准备" },
+                { "type": "price", "text": "₱100" },
+                { "text": "以下的小面额纸币。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "人气水饺店周末午餐时段有时要排" },
+                { "type": "duration", "text": "30分钟" },
+                { "text": "以上的队。平日" },
+                { "type": "time", "text": "上午10点~11点" },
+                { "text": "最为清闲。" }
+              ]
+            },
+            { "children": [{ "text": "巷道狭窄，车辆、摩托车与人力三轮车混杂穿行，步行时不要只顾看手机，要留意周围。" }] },
+            { "children": [{ "text": "向导美食之旅能高效串联历史讲解与代表店家，对初次到访者很有帮助。请在网络预订平台提前2~3天预约。" }] },
+            { "children": [{ "text": "拍照热点包括岷伦洛教堂钟楼、王彬街入口的中式牌坊（友谊之门）、琼斯桥雕像，以及艾斯高达的装饰艺术建筑。" }] },
+            { "children": [{ "text": "携带湿巾和免洗洗手液，吃街头小吃时会更方便。请购买瓶装水饮用。" }] },
+            { "children": [{ "text": "春节期间活动会持续到傍晚，回程时可能叫不到Grab。可步行到大路上叫车，或改搭轻轨。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "卡列多站与奎亚坡教堂周边、王彬街东侧是马尼拉人潮最密集的地区之一，扒手较多。请将包背在身前，手机紧握手中。" }] },
+            { "children": [{ "text": "街头小吃请选择刚出炉的热食，含冰饮品只在卫生有保障的店家购买。肠胃敏感者请携带止泻药。" }] },
+            { "children": [{ "text": "此地金银铺众多，兑换商也不少，但街头兑换存在假钞或短付金额的风险，请使用银行或正规兑换所。" }] },
+            { "children": [{ "text": "暴雨时艾斯高达及河边低洼地区可能淹水至膝盖，雨季午后请考虑调整行程。" }] },
+            { "children": [{ "text": "日落后请避开偏离大路的昏暗巷弄，出行请搭乘Grab。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "从卡列多站步行前往王彬街的路段是扒手高发区域。贵重物品请放在身前，若有陌生人搭话并靠近碰撞身体，应立即检查随身物品。" }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "王城区",
+              "place": "intramuros",
+              "children": [
+                { "text": "过琼斯桥步行" },
+                { "type": "duration", "text": "15~20分钟" },
+                { "text": "。这是拥有圣地亚哥堡与圣奥古斯汀教堂的西班牙城墙古城。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "黎刹公园",
+              "place": "rizal-park",
+              "children": [
+                { "text": "搭乘Grab约" },
+                { "type": "duration", "text": "15分钟" },
+                { "text": "。这里是拥有黎刹纪念碑和宽阔广场的马尼拉地标公园。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "菲律宾国家博物馆",
+              "place": "national-museum",
+              "children": [
+                { "text": "搭乘Grab约" },
+                { "type": "duration", "text": "15分钟" },
+                { "text": "。可以免费一次纵览菲律宾的美术与历史。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "奎亚坡教堂",
+              "children": [
+                { "text": "从王彬街东端步行" },
+                { "type": "duration", "text": "10分钟" },
+                { "text": "。这座教堂以黑色纳萨雷诺像闻名，周边市场也十分热闹。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

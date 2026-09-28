@@ -1,0 +1,732 @@
+{
+  "id": 42,
+  "slug": "calaguas",
+  "title": { "type": "title", "text": "Quần đảo Calaguas" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Calaguas Islands" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Bãi cát trắng vùng Bicol nơi ánh sao thay cho ánh điện"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "bicol", "text": "Bicol" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Vinzons, tỉnh Camarines Norte"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "Biển & đảo"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": ["Bãi cát trắng", "Cắm trại", "Khám phá các đảo", "Dải Ngân Hà", "Du lịch vùng xa"]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 14.45 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 122.9167 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 3 – Tháng 6 (mùa khô, biển êm)",
+    "months": [3, 4, 5, 6]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "1 đêm 2 ngày – 2 đêm 3 ngày"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱2,500–5,000/người (chi phí tại chỗ cho 1 đêm 2 ngày)",
+    "currency": "PHP",
+    "min": 2500,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Trung bình",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay Naga (WNP)",
+    "code": "WNP"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/042-calaguas.webp",
+    "alt": "Quần đảo Calaguas",
+    "credit": "Ramcandelaria / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Calaguas_Island_in_Camarines_Norte.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/042-calaguas-2.webp",
+        "alt": "Quần đảo Calaguas",
+        "credit": "Monette Nyem / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Calaguas_Island,_Camarines_Norte,_Philippines_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/042-calaguas-3.webp",
+        "alt": "Quần đảo Calaguas",
+        "credit": "Marife.altabano / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Calaguas_Island_004.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Quần đảo Calaguas ngoài khơi Camarines Norte nổi tiếng với bãi biển Mahabang Buhangin có cát mịn như bột. Tuy thiếu điện và tiện nghi, nhưng bù lại bạn có thể nằm trong lều nghe tiếng sóng và ngắm dải Ngân Hà, mang đến trải nghiệm đặc biệt cho những ai yêu thích cắm trại và bãi biển hoang sơ."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Quần đảo Calaguas là một nhóm khoảng 17 hòn đảo và đảo đá nằm trên vùng biển Thái Bình Dương, cách bờ biển tỉnh Camarines Norte ở đông nam Luzon khoảng "
+            },
+            { "type": "distance", "text": "30km" },
+            {
+              "text": ". Phần lớn thuộc thành phố Vinzons, và nơi du khách thường tìm đến gần như chỉ là bãi biển Mahabang Buhangin (nghĩa là 'cát dài') trên đảo Tinaga. Đúng như tên gọi, dải cát trắng kéo dài gần "
+            },
+            { "type": "distance", "text": "1km" },
+            {
+              "text": " mịn như bột, và phía sau bãi biển là những ngọn đồi cỏ thoai thoải, tạo cảm giác như đồng cỏ ở Hàn Quốc."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Sở dĩ hòn đảo này từ lâu được gọi là 'Boracay của những ngày xưa' là vì gần như chưa được phát triển. Không có lưới điện nên ban đêm chỉ có máy phát điện và đèn năng lượng mặt trời, còn chỗ ở chủ yếu là lều trên bãi biển và những căn chòi giản dị. Gần đây, khi lượng du khách tăng lên, đã xuất hiện thêm các resort dạng chòi, khu tắm tráng và sạc pin trả phí, thậm chí internet vệ tinh ở một số khu vực, nhưng vẫn chưa có khách sạn lớn hay khu phố mua sắm nào."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Vào những đêm trời quang, hầu như không có ô nhiễm ánh sáng nên bạn có thể ngắm dải Ngân Hà và cả bầu trời đầy sao, còn buổi sáng có thể leo lên đồi sau bãi biển để ngắm mặt trời mọc từ biển. Đường đi không dễ dàng vì phải đổi nhiều lần giữa xe buýt, tricycle và thuyền bangka, nhưng với những ai có thể xem cả hành trình đó là một phần của chuyến đi, đây là một trong những bãi biển đáng nhớ nhất ở Luzon, Philippines."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nơi này phù hợp với những du khách trẻ yêu thích cắm trại, nhóm bạn bè, hoặc những ai muốn nghỉ ngơi cả ngày không làm gì trên một bãi biển yên tĩnh. Ngược lại, không phù hợp với những du khách nhất thiết cần điều hòa và vòi sen nước nóng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Dạo trên bãi cát trắng Mahabang Buhangin",
+              "children": [
+                {
+                  "text": "Cát mềm đến mức lún cả bàn chân trải dài suốt bãi biển. Khi thủy triều xuống, vùng nước cạn thích hợp để bơi, và vào buổi chiều, màu nước biển sáng đẹp nhất."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Trekking ngắm bình minh trên đồi Tinaga",
+              "children": [
+                { "text": "Leo đồi cỏ sau bãi biển khoảng " },
+                { "type": "duration", "text": "15–30 phút" },
+                {
+                  "text": ", bạn sẽ thấy toàn cảnh bãi biển và các đảo xung quanh. Nếu xuất phát vào khoảng "
+                },
+                { "type": "time", "text": "5 giờ" },
+                { "text": " trước khi trời sáng, bạn có thể ngắm mặt trời mọc trên biển." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Cắm trại trên bãi biển và ngắm sao",
+              "children": [
+                {
+                  "text": "Dựng lều và ngủ trong tiếng sóng biển là trải nghiệm cốt lõi ở Calaguas. Vào những đêm không trăng, dải Ngân Hà hiện lên rất rõ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Khám phá các đảo xung quanh",
+              "children": [
+                {
+                  "text": "Bạn có thể thuê thuyền bangka để tham quan các bãi biển đảo hoang gần đó, các điểm lặn ống thở và bờ biển vách đá. Nên đi vào buổi sáng những ngày sóng êm."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Bữa tối nướng trên bãi biển",
+              "children": [
+                {
+                  "text": "Bạn nhờ người lái thuyền hoặc chủ chòi nướng giúp cá, mực và thịt heo mua từ chợ Vinzons. Bữa nướng trên bãi biển lúc hoàng hôn là điểm nhấn của chuyến đi Calaguas."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Chèo kayak và lặn ống thở",
+              "children": [
+                {
+                  "text": "Bạn có thể thuê kayak hoặc lặn ống thở ở vùng nước nông trước bãi biển. Rạn san hô không lớn nhưng nước trong nên dễ dàng nhìn thấy những đàn cá nhiệt đới nhỏ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Ghé qua bãi biển Bagasbas ở Daet",
+              "children": [
+                {
+                  "text": "Trên đường về, nếu bạn học lướt sóng hoặc ngắm hoàng hôn tại bãi biển Bagasbas ở Daet, chuyến đi sẽ trọn vẹn hơn."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Ngày 1",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "Rạng sáng",
+                      "children": [{ "text": "Đến Daet bằng xe buýt đêm từ Manila" }]
+                    },
+                    {
+                      "time": "06:30",
+                      "children": [
+                        {
+                          "text": "Di chuyển từ Daet đến Vinzons, mua thực phẩm, nước và đá tại chợ"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "Xuất phát bằng thuyền bangka từ cảng Vinzons (khoảng " },
+                        { "type": "duration", "text": "1 giờ 30 phút – 2 giờ 30 phút" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        {
+                          "text": "Đến Mahabang Buhangin, nộp phí môi trường rồi chọn chỗ dựng lều hoặc chòi"
+                        }
+                      ]
+                    },
+                    { "time": "Buổi chiều", "children": [{ "text": "Bơi, chèo kayak, ngủ trưa" }] },
+                    {
+                      "time": "17:30",
+                      "children": [
+                        { "text": "Ngắm hoàng hôn và ăn tối nướng trên bãi biển, ban đêm ngắm sao" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 2",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "05:00", "children": [{ "text": "Leo đồi Tinaga ngắm bình minh" }] },
+                    {
+                      "time": "07:00",
+                      "children": [
+                        { "text": "Sau bữa sáng, khám phá các đảo xung quanh và lặn ống thở" }
+                      ]
+                    },
+                    {
+                      "time": "11:00",
+                      "children": [{ "text": "Thu dọn đồ rồi xuất phát về cảng Vinzons" }]
+                    },
+                    {
+                      "time": "Buổi chiều",
+                      "children": [{ "text": "Đến Daet, nghỉ ngơi tại bãi biển Bagasbas" }]
+                    },
+                    { "time": "Buổi tối", "children": [{ "text": "Lên xe buýt đêm về Manila" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Xe buýt · xe van",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Từ các bến xe ở Cubao, Pasay, Buendia tại Manila, các hãng xe buýt như DLTB, Philtranco, Superlines chạy tuyến đi Daet hằng ngày, mất khoảng "
+                    },
+                    { "type": "duration", "text": "7–10 giờ" },
+                    { "text": ", giá vé khoảng " },
+                    { "type": "price", "text": "₱750–1,200" },
+                    {
+                      "text": ". Nếu đi xe đêm, bạn sẽ đến nơi vào sáng sớm và kịp chuyến thuyền buổi sáng cùng ngày. Từ Daet đến Vinzons đi bằng jeepney hoặc xe van mất khoảng "
+                    },
+                    { "type": "duration", "text": "30 phút – 1 giờ" },
+                    { "text": ", khoảng " },
+                    { "type": "price", "text": "₱50–100" },
+                    { "text": ", và từ trung tâm Vinzons ra cảng đi tricycle mất khoảng " },
+                    { "type": "duration", "text": "10–15 phút" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Máy bay",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Sân bay thương mại gần nhất là sân bay Naga (WNP), cách Manila khoảng "
+                    },
+                    { "type": "duration", "text": "1 giờ" },
+                    { "text": " bay. Từ trung tâm Naga đến Daet mất khoảng " },
+                    { "type": "duration", "text": "2–3 giờ" },
+                    {
+                      "text": " bằng xe buýt hoặc xe van, nên dù đi máy bay thì tổng thời gian di chuyển cũng không giảm nhiều. Để tiết kiệm thời gian, cách thực tế là bay chuyến sáng sớm rồi bắt thuyền chiều cùng ngày, hoặc nghỉ lại một đêm ở Daet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Thuyền",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Từ cảng Vinzons đến Calaguas, thuê thuyền bangka riêng là cách phổ biến. Thuyền nhỏ 4–6 người có giá khứ hồi khoảng "
+                    },
+                    { "type": "price", "text": "₱2,500–4,000" },
+                    { "text": ", thuyền lớn 15–20 người khoảng " },
+                    { "type": "price", "text": "₱5,000–8,000" },
+                    { "text": ", và mất khoảng " },
+                    { "type": "duration", "text": "1 giờ 30 phút – 2 giờ 30 phút" },
+                    {
+                      "text": " một chiều. Vào cuối tuần cao điểm cũng có thuyền bangka bán theo chỗ ngồi cho nhóm ghép. Trước đây tuyến xuất phát từ cảng Paracale cũng được dùng nhiều, nhưng hiện nay tuyến Vinzons gần hơn nên được ưa chuộng chính. Nếu dùng tour ghép của công ty du lịch (bao gồm xe buýt khứ hồi Manila, thuyền, lều), việc chuẩn bị sẽ đơn giản hơn nhiều."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Calaguas hướng ra biển Thái Bình Dương nên tình trạng biển thay đổi rất lớn theo mùa. Thời điểm đẹp nhất là từ "
+            },
+            { "type": "date", "text": "tháng 3" },
+            { "text": " đến " },
+            { "type": "date", "text": "tháng 6" },
+            {
+              "text": ", khi gió yếu, biển êm, thuyền dễ di chuyển và nước biển trong nhất. Vào cuối tuần và Tuần Thánh trong giai đoạn này, dân cắm trại địa phương đổ về rất đông, nên nên đi vào ngày thường."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Từ " },
+            { "text": "tháng 11", "type": "date" },
+            { "text": " đến " },
+            { "text": "tháng 2", "type": "date" },
+            {
+              "text": ", do gió mùa đông bắc Amihan, sóng cao khiến thuyền bangka thường xuyên ngừng hoạt động, và nhiều ngày lực lượng tuần duyên cấm xuất bến. Từ "
+            },
+            { "text": "tháng 7", "type": "date" },
+            { "text": " đến " },
+            { "text": "tháng 10", "type": "date" },
+            {
+              "text": " là mùa mưa và mùa bão, bão thường xuyên đi qua vùng Bicol nên khó lên kế hoạch du lịch."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Bãi biển hầu như không có bóng râm nên nhiệt độ cảm nhận giữa trưa rất cao. Vào "
+            },
+            { "type": "date", "text": "tháng 4 – tháng 5" },
+            {
+              "text": ", nắng đặc biệt gắt, nên nếu chuẩn bị tấm bạt hoặc lều che nắng, bạn sẽ ở lại thoải mái hơn nhiều."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Xe buýt Manila–Daet",
+              "price": "Khoảng ₱750–1,200",
+              "note": "Một chiều, 7–10 giờ"
+            },
+            {
+              "label": "Daet–cảng Vinzons",
+              "price": "Khoảng ₱100–200",
+              "note": "Tổng jeepney và tricycle"
+            },
+            {
+              "label": "Thuê riêng thuyền bangka",
+              "price": "Khoảng ₱2,500–8,000",
+              "note": "Khứ hồi, theo cỡ thuyền, chia theo số người"
+            },
+            {
+              "label": "Phí môi trường · phí lên đảo",
+              "price": "Khoảng ₱50–150",
+              "note": "Thu tại chỗ, hay thay đổi"
+            },
+            {
+              "label": "Chỗ dựng lều · thuê lều",
+              "price": "Khoảng ₱300–1,000",
+              "note": "Mỗi đêm, tùy có thuê lều hay không"
+            },
+            { "label": "Ở chòi", "price": "Khoảng ₱2,000–5,000", "note": "Mỗi đêm, 2–4 người" },
+            {
+              "label": "Tắm tráng · sạc pin",
+              "price": "Khoảng ₱50–150",
+              "note": "Trả phí theo lượt"
+            },
+            {
+              "label": "Ăn uống · thực phẩm",
+              "price": "Khoảng ₱500–1,000",
+              "note": "Mỗi người mỗi ngày"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Chỗ ở trên đảo có ba loại chính. Thứ nhất là cắm trại trên bãi biển: nếu mang theo lều thì chỉ cần trả phí chỗ, hoặc bạn cũng có thể thuê lều tại chỗ. Thứ hai là những căn chòi nipa và resort nhỏ phía sau bãi biển, phòng có quạt và đệm đơn giản, giá khoảng "
+            },
+            { "type": "price", "text": "₱2,000–5,000" },
+            {
+              "text": "/đêm. Thứ ba là trại nhóm nằm trong gói tour của công ty du lịch, đã bao gồm bữa ăn, lều và thuyền, thuận tiện cho người đi lần đầu. Vào đêm trước hoặc ngày về, bạn nên nghỉ tại khách sạn ở trung tâm Daet (khoảng "
+            },
+            { "type": "price", "text": "₱1,200–3,000" },
+            { "text": "/đêm)." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Trên đảo có vài quầy tạp hóa nhỏ và chòi bán đồ ăn, nhưng lựa chọn ít và giá cũng đắt hơn đất liền. Vì vậy phần lớn du khách mua cá, mực, thịt heo, gạo, trái cây, nước và đá tại chợ Vinzons rồi mang theo. Nếu trả thêm tiền công cho người lái thuyền hoặc chủ chòi, họ sẽ nấu cơm và nướng thịt giúp. Camarines Norte nổi tiếng là vùng trồng dứa Formosa nhỏ và ngọt, rất đáng thử. Ở Daet, bạn có thể ăn các món Bicol như Bicol Express, laing với giá rẻ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Trên đảo không có ATM và thẻ cũng hầu như không dùng được. Bạn nên rút đủ tiền mặt cần thiết ở Daet và chuẩn bị nhiều tiền mệnh giá nhỏ."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Không có lưới điện nên việc sạc pin phụ thuộc vào máy phát điện hoặc sạc năng lượng mặt trời trả phí. Bạn nên mang theo ít nhất hai sạc dự phòng dung lượng lớn."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Sóng điện thoại chỉ bắt yếu ở một vài điểm trên bãi biển. Bạn nên báo trước lịch trình cho người thân."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bạn nên chuẩn bị nước uống từ 3 lít trở lên mỗi người mỗi ngày, và nếu có đá cùng thùng giữ lạnh thì việc bảo quản thức ăn sẽ dễ dàng hơn nhiều."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bãi biển ít bóng râm nên bạn nên chuẩn bị tấm bạt che nắng, mũ, áo bơi chống nắng và kem chống nắng an toàn cho san hô."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bạn nên dựng lều ở vị trí cao hơn hẳn mực nước triều cường, và dùng cọc cắm cát hoặc bao cát để đề phòng gió."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trước khi khởi hành, bạn nên thống nhất rõ giá thuyền bangka là khứ hồi hay không, có bao gồm khám phá đảo hay không, và giờ quay về là khi nào."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Ảnh bình minh nên chụp trên đồi Tinaga, còn ảnh dải Ngân Hà nên chụp ở phía cuối bãi biển không có ánh đèn."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Nếu sóng cao và lực lượng tuần duyên cấm xuất bến, bạn có thể bị mắc kẹt trên đảo, nên hãy chừa ít nhất một ngày dự phòng trước chuyến bay về hoặc lịch trình quan trọng."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Trên thuyền bangka, bạn phải mặc áo phao và không được lên thuyền chở quá số người quy định."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vì thiếu cơ sở xử lý rác, bạn phải mang tất cả rác của mình quay trở lại. Nên tránh dùng chai thủy tinh trên bãi biển."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Ban đêm hầu như không có ánh đèn nên cần đèn pin khi di chuyển trên bãi biển, và tuyệt đối không được bơi biển vào ban đêm sau khi uống rượu."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Muỗi và ruồi cát khá nhiều nên bạn nên chuẩn bị thuốc chống côn trùng." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Phí môi trường và quy định lên đảo do chính quyền du lịch Vinzons thay đổi thường xuyên, nên bạn cần kiểm tra thông báo mới nhất trước khi đi."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Bãi biển Bagasbas",
+              "children": [
+                { "text": "Là bãi biển lướt sóng cách trung tâm Daet khoảng " },
+                { "type": "duration", "text": "10 phút" },
+                { "text": " đi tricycle, thích hợp học lướt sóng cho người mới và ngắm hoàng hôn." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Đài tưởng niệm Rizal ở Daet",
+              "children": [
+                {
+                  "text": "Được biết đến là đài tưởng niệm José Rizal đầu tiên được dựng ở Philippines, nằm ngay trung tâm thành phố Daet."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Caramoan",
+              "place": "caramoan",
+              "children": [
+                {
+                  "text": "Là điểm khám phá đảo đá vôi nổi tiếng cùng vùng Bicol, có thể đến trong khoảng một ngày qua Naga."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Núi lửa Mayon",
+              "place": "mayon-volcano",
+              "children": [
+                { "text": "Là núi lửa hình nón ở Legazpi, tỉnh Albay, cách Daet khoảng " },
+                { "type": "duration", "text": "4–5 giờ" },
+                { "text": " đi xe." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

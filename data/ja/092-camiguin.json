@@ -1,0 +1,690 @@
+{
+  "id": 92,
+  "slug": "camiguin",
+  "title": { "type": "title", "text": "カミギン島" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Camiguin" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "火から生まれた島、火山と温泉と白い砂州" },
+  "island_group": { "type": "badge", "label": "地方", "value": "mindanao", "text": "ミンダナオ" },
+  "region": { "type": "badge", "label": "地域", "value": "camiguin", "text": "カミギン" },
+  "location": { "type": "address", "label": "所在地", "icon": "location_on", "text": "カミギン州マンバハオ" },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "ビーチ・島"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["火山島", "砂州", "温泉", "滝", "シュノーケリング", "ランソネス"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.7, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 9.17 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 124.72 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "3月〜6月(乾季)、10月のランソネス祭り",
+    "months": [3, 4, 5, 6]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "2泊3日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱2,500〜5,000",
+    "currency": "PHP",
+    "min": 2500,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "カミギン空港 (CGM) / ラギンディンガン空港 (CGY)",
+    "code": "CGM"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/092-camiguin.webp",
+    "alt": "カミギン島",
+    "credit": "Allan Jay Quesada / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Timpoong_and_Hibok-Hibok_Natural_Monument_in_Camiguin_-_Allan_Jay_Quesada.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/092-camiguin-2.webp",
+        "alt": "カミギン島",
+        "credit": "Vlad Rud / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Camiguin_Sunset.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/092-camiguin-3.webp",
+        "alt": "カミギン島",
+        "credit": "Edwin Juen Jr. / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunken_Cemetery_2_-_Camiguin.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "周囲約" },
+      { "type": "distance", "text": "64km" },
+      {
+        "text": "の小さな島にいくつもの火山円錐がそびえる「火から生まれた島」です。ホワイトアイランドの砂州、沈んだ墓地、温泉と冷泉、滝を1〜2日ですべて巡ることができ、人々が素朴でミンダナオで最も居心地の良い島旅先として知られています。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "カミギン島(Camiguin)は、ミンダナオ島北方のボホール海に浮かぶ小さな火山島で、フィリピンで2番目に小さい州です。島を一周する海岸道路はわずか約"
+            },
+            { "type": "distance", "text": "64km" },
+            {
+              "text": "ですが、この小さな土地に大小さまざまな火山円錐がいくつもそびえているため、「Island Born of Fire(火から生まれた島)」という愛称で呼ばれています。島の中央には標高約"
+            },
+            { "type": "distance", "text": "1,332m" },
+            {
+              "text": "の活火山ヒボック・ヒボック(Hibok-Hibok)とティンポン(Timpoong)山がそびえ立ち、この一帯はティンポン・ヒボックヒボック自然記念物として指定された保護区域です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "カミギン島の風景は火山活動の歴史をそのまま物語っています。" },
+            { "type": "date", "text": "1871年" },
+            {
+              "text": "に島の西側で新しい火山(オールドボルケーノ、ブルカン山)が隆起した際、当時の村が海の底に沈み、その跡地が今日、海上の巨大な十字架で示された「沈んだ墓地(Sunken Cemetery)」です。"
+            },
+            { "type": "date", "text": "1951年" },
+            {
+              "text": "にはヒボック・ヒボック火山が噴火し、数百人が命を落とす大きな被害が出ました。こうした火山地形のおかげで、島のあちこちで温泉や冷泉、炭酸泉が湧き出し、山から流れ下る水が大小の滝を作っています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "島の北側の沖には、潮の満ち引きによって形を変える白い砂州ホワイトアイランド(White Island)があり、砂の上に立ってヒボック・ヒボック火山を見上げる風景がカミギン島を代表する光景となっています。東側のマンティゲ(Mantigue)島は海洋保護区で、シュノーケリングとダイビングに適しています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "カミギン島の人々は親切で治安も比較的良いため、ミンダナオ旅行が初めての方にも負担が少ないです。バイクやマルチキャブ(小型トラックタクシー)で海岸道路を走り、1日で島を一周できるため、家族旅行者・カップル・バイク旅行者のいずれにも向いています。"
+            },
+            { "type": "date", "text": "10月" },
+            { "text": "のランソネス祭りのシーズンには、島全体が甘いランソネスの果実の香りで満たされます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "ホワイトアイランドの砂州",
+              "children": [
+                { "text": "マンバハオのアゴホ・ユンビン・ビーチからバンカボートで約" },
+                { "type": "duration", "text": "10〜15分" },
+                { "text": "の無人の砂州です。日陰が全くないため、日差しの弱い早朝(" },
+                { "type": "time", "text": "6〜9時" },
+                { "text": ")に行くのがよく、砂州の向こうにヒボック・ヒボック火山が見える構図が代表的な写真です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "沈んだ墓地と夕日",
+              "children": [
+                { "text": "カタルマン海岸の巨大な十字架のモニュメントは、" },
+                { "type": "date", "text": "1871年" },
+                {
+                  "text": "の火山活動で沈んだ昔の共同墓地を追悼する場所です。バンカボートで十字架のすぐ前まで行ったり、周辺でシュノーケリングをしたりすることができ、夕暮れの風景が特に美しいです。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "ブルカン山十字架の道(Walkway to the Old Volcano)",
+              "children": [
+                { "text": "ブルカン山の斜面に沿ってキリストの受難十四留の彫像が並ぶ散策路です。" },
+                { "type": "duration", "text": "30〜40分" },
+                { "text": "ほど登ると沈んだ墓地と海を見下ろせ、聖週間には多くの巡礼者が訪れます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "カティバワサン滝",
+              "children": [
+                { "text": "約" },
+                { "type": "distance", "text": "70m" },
+                { "text": "の高さから細く真っすぐに落ちる滝で、冷たい滝壺で泳ぐことができます。マンバハオ市街地から近く、半日の日程に組み込みやすいです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "温泉と冷泉を巡る",
+              "children": [
+                {
+                  "text": "アーデント温泉(Ardent Hot Spring)は火山の熱で温められたお湯が階段状のプールに流れ込み、カタルマンのサント・ニーニョ冷泉(Sto. Niño Cold Spring)は真夏でも肌寒いほど冷たいです。1日でこの2か所を続けて訪れれば、カミギン島の火山地形を体で感じることができます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "マンティゲ島でシュノーケリング",
+              "children": [
+                {
+                  "text": "島の東側マヒノグ沖にある小さな島で、海洋保護区のためサンゴやウミガメを見られる機会が多くあります。白い砂浜と森が調和しており、半日のピクニックスポットとしても良いです。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "ギウイップ教会跡とシャコガイ保護区",
+              "children": [
+                { "text": "ボンボン村のギウイップ教会跡は、" },
+                { "type": "date", "text": "1871年" },
+                { "text": "の噴火で崩れたサンゴ石造りの教会の壁だけが残る場所です。島の南側ギンシリバン・カンタアンには、シャコガイを間近で見られる保護区があります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "パステルとランソネスを味わう",
+              "children": [
+                { "text": "カミギン島のパステルは、柔らかいパンの中に甘いウベ・カスタードクリームを詰めたお菓子で、フィリピン全土でお土産として売られています。" },
+                { "type": "date", "text": "9〜10月" },
+                { "text": "には島の特産ランソネスが旬を迎え、市場で一袋ずつ買って食べる楽しみがあります。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "午前",
+                      "children": [
+                        { "text": "カミギン空港到着、またはバリンゴアンからフェリーでベノニ港に到着し、マンバハオの宿泊先へ移動(約" },
+                        { "type": "duration", "text": "30分" },
+                        { "text": ")します。" }
+                      ]
+                    },
+                    { "time": "午後1〜4時", "children": [{ "text": "アーデント温泉とカティバワサン滝を巡ります。" }] },
+                    {
+                      "time": "午後4〜6時",
+                      "children": [{ "text": "マンバハオ市街を散策した後、アゴホ・ユンビン・ビーチの宿泊先で夕日を眺めます。" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2日目(島一周)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00〜08:30",
+                      "children": [{ "text": "ホワイトアイランドの砂州で朝の水泳と写真撮影を楽しみます。" }]
+                    },
+                    {
+                      "time": "09:30〜12:00",
+                      "children": [{ "text": "島の西側へ移動し、ブルカン山十字架の道、沈んだ墓地、ギウイップ教会跡を巡ります。" }]
+                    },
+                    {
+                      "time": "12:00〜13:00",
+                      "children": [{ "text": "ボンボン・カタルマンの海岸沿いのレストランでシーフードの昼食をとります。" }]
+                    },
+                    {
+                      "time": "13:30〜16:00",
+                      "children": [{ "text": "サント・ニーニョ冷泉、トゥアサン滝、炭酸水プール(ソーダウォータープール)を順に訪れます。" }]
+                    },
+                    {
+                      "time": "16:30〜18:00",
+                      "children": [{ "text": "南のギンシリバンのシャコガイ保護区を経て、東側の海岸道路で一周を締めくくります。" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00〜11:00",
+                      "children": [{ "text": "マヒノグからバンカボートでマンティゲ島に渡り、シュノーケリングをします。" }]
+                    },
+                    {
+                      "time": "午後",
+                      "children": [{ "text": "パステルやランソネスなどのお土産を買った後、空港またはベノニ港へ移動します。" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "最も速い方法はセブからカミギン空港(CGM、マンバハオ)への直行便です。セブゴ(Cebgo)が週7便前後運航しており、飛行時間は約" },
+                    { "type": "duration", "text": "50分" },
+                    { "text": "です。マニラから出発する場合は、セブを経由するか、マニラ〜カガヤン・デ・オロのラギンディンガン空港(CGY)直行便(約" },
+                    { "type": "duration", "text": "1時間30分" },
+                    { "text": "、片道約" },
+                    { "type": "price", "text": "₱2,500〜6,000" },
+                    { "text": ")を利用した後、陸路とフェリーで入ります。カミギン空港路線は座席数が少なく繁忙期には早々に売り切れるため、早めの予約がおすすめです。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "バス・バン",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "ラギンディンガン空港からカガヤン・デ・オロ市内のアゴラ(Agora)バスターミナルまで、空港シャトルバンで約" },
+                    { "type": "duration", "text": "1時間" },
+                    { "text": "(約" },
+                    { "type": "price", "text": "₱200" },
+                    { "text": ")かかります。アゴラターミナルからバリンゴアン(Balingoan)行きのバスに乗ると約" },
+                    { "type": "duration", "text": "1時間30分〜2時間" },
+                    { "text": "、運賃は約" },
+                    { "type": "price", "text": "₱150〜200" },
+                    { "text": "です。空港からバリンゴアンまでバンをチャーターする方法もあります。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "バリンゴアン港からカミギン島のベノニ(Benoni)港までフェリーで約" },
+                    { "type": "duration", "text": "1時間" },
+                    { "text": "かかり、運賃は片道約" },
+                    { "type": "price", "text": "₱330〜360" },
+                    { "text": "です。" },
+                    { "type": "time", "text": "午前4時" },
+                    { "text": "頃から" },
+                    { "type": "time", "text": "午後4〜5時" },
+                    { "text": "頃まで複数の船会社が交代で運航しており、港のターミナル利用料が別途約" },
+                    { "type": "price", "text": "₱15〜35" },
+                    { "text": "かかります。午後遅くは便数が減るため、遅くとも" },
+                    { "type": "time", "text": "午後3時" },
+                    {
+                      "text": "前にはバリンゴアンに到着するのが安全です。ボホール島のハグナ(Jagna)からマンバハオのバルバゴン港へ向かうフェリーも週に数便運航しており、約"
+                    },
+                    { "type": "duration", "text": "2〜3時間" },
+                    { "text": "かかります。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "島内の移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "ベノニ港からマンバハオまではジプニーやマルチキャブで約" },
+                    { "type": "duration", "text": "30分" },
+                    { "text": "です。島一周はマルチキャブのチャーター(1日約" },
+                    { "type": "price", "text": "₱2,500〜3,500" },
+                    { "text": "、4〜6人)、バイクレンタル(1日約" },
+                    { "type": "price", "text": "₱400〜600" },
+                    { "text": ")、トライシクルでの区間移動から選べます。バイクを借りる際は国際運転免許証とヘルメットが必要です。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "カミギン島は年間を通じて雨がまんべんなく降る傾向がありますが、" },
+            { "type": "date", "text": "3月" },
+            { "text": "から" },
+            { "type": "date", "text": "6月" },
+            { "text": "までが最も乾燥し海も穏やかで、ホワイトアイランドとマンティゲ島の訪問に最も適しています。" },
+            { "type": "date", "text": "11月" },
+            { "text": "から" },
+            { "type": "date", "text": "1月" },
+            { "text": "までは北東季節風の影響で雨が多く、波のためホワイトアイランド行きのバンカボートが欠航する日があります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "台風の多くはカミギン島の北側を通過しますが、" },
+            { "type": "date", "text": "12月" },
+            { "text": "前後に遅い台風がミンダナオ北部を通過する年もあるため、この時期は予報を必ず確認するとよいでしょう。最も有名な行事は毎年" },
+            { "type": "date", "text": "10月" },
+            {
+              "text": "第3週頃にマンバハオで開かれるランソネス祭り(Lanzones Festival)で、ランソネスの衣装をまとった街のパレードと果物市場が見どころです。祭りの期間と聖週間は宿がすぐに埋まるため、1か月以上前の予約をおすすめします。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "セブ〜カミギン航空", "price": "約₱2,500〜6,000", "note": "片道、座席少なめ" },
+            { "label": "CDO〜バリンゴアン バス", "price": "約₱150〜200", "note": "片道、約2時間" },
+            { "label": "バリンゴアン〜ベノニ フェリー", "price": "約₱330〜360", "note": "片道、ターミナル利用料別途" },
+            { "label": "ホワイトアイランド バンカボート", "price": "約₱500〜800", "note": "1隻往復、入場料別途" },
+            { "label": "見どころの入場料", "price": "約₱20〜150", "note": "1か所ごと、滝・温泉・冷泉など" },
+            { "label": "島一周マルチキャブ", "price": "約₱2,500〜3,500", "note": "1日チャーター、4〜6人" },
+            { "label": "バイクレンタル", "price": "約₱400〜600", "note": "1日、ガソリン代別途" },
+            { "label": "宿泊", "price": "約₱1,200〜5,000", "note": "1室1泊" },
+            { "label": "食事", "price": "約₱400〜800", "note": "1人1日" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "宿泊施設は島の北側マンバハオ周辺のアゴホ(Agoho)・ユンビン(Yumbing)・バイライ(Baylao)ビーチに最も多く集まっています。ホワイトアイランドの船着き場に近く、レストランも多いため、初めて訪れる方に最も便利です。素朴なゲストハウスは1泊約"
+            },
+            { "type": "price", "text": "₱1,200〜2,000" },
+            { "text": "、ビーチリゾートは約" },
+            { "type": "price", "text": "₱2,500〜5,000" },
+            { "text": "が目安で、プールヴィラ型の高級リゾートも数軒あります。静かな雰囲気を求めるなら、島の南西側カタルマン・ボンボン海岸沿いの宿泊施設もおすすめです。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "食べ物は新鮮なシーフードと果物が中心です。海岸沿いのレストランで出される焼き魚やキニラウ、イカのアドボがよく食べられ、ランソネスの季節には市場や道端で果物を安く買うことができます。カミギン島のパステルは"
+            },
+            { "type": "date", "text": "1990年" },
+            {
+              "text": "代から島を代表するお菓子となり、マンバハオ市街地の元祖店ヴィアンデプ(Vjandep)パステルが最も有名です。島内で栽培された豆で淹れたコーヒーやマンゴー、ココナッツデザートを出す小さなカフェも増えています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "マンバハオ市街地にはATMが数台ありますが、故障や現金切れが多いです。カガヤン・デ・オロやセブで十分に引き出しておくのが安全です。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "ホワイトアイランドは日中、砂が熱くなり日陰もありません。" },
+                { "type": "time", "text": "午前6〜9時" },
+                { "text": "の間に訪れ、帽子・日傘・水を必ず持って行くとよいでしょう。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "バリンゴアンのフェリーは先着順の乗船のため、繁忙期の週末は待ち時間が長くなります。早朝の始発便を狙えば余裕があります。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "島一周道路は舗装状態が良いものの、一部区間に急カーブと上り坂があります。バイク初心者ならマルチキャブツアーが安全です。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "見どころごとに入場料を現金で別途徴収するため、" },
+                { "type": "price", "text": "₱20" },
+                { "text": "・" },
+                { "type": "price", "text": "₱50" },
+                { "text": "・" },
+                { "type": "price", "text": "₱100" },
+                { "text": "の小額紙幣を十分に用意しておくとよいでしょう。" }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "ヒボック・ヒボック火山の登山には保護区管理事務所の許可と登録ガイドが必要です。登山の可否と料金はマンバハオの観光案内所で事前に確認するとよいでしょう。"
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "沈んだ墓地の夕日は" },
+                { "type": "time", "text": "午後5時30分" },
+                { "text": "頃が最も美しいです。西側の予定を午後に組めば、動線が自然にまとまります。" }
+              ]
+            },
+            { "children": [{ "text": "携帯電話の電波は島のほとんどの場所でよく入りますが、山間の滝周辺では弱くなることがあります。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "ヒボック・ヒボックは現在も活動中の火山です。フィリピン火山地震研究所(PHIVOLCS)が警戒レベルを引き上げると登山や周辺への立ち入りが制限されるため、最新の発表を確認するとよいでしょう。"
+                }
+              ]
+            },
+            {
+              "children": [{ "text": "ホワイトアイランドとマンティゲ島の周辺には潮の流れが速い区間があります。沖合の方へ一人で泳いで行かないのが安全です。" }]
+            },
+            {
+              "children": [
+                { "text": "マンティゲ島とシャコガイ保護区では、サンゴや貝に触れたり踏んだりしてはいけません。保護区の規則に違反すると罰金が科されることがあります。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "滝の周辺の岩はコケのため非常に滑りやすいです。アクアシューズを履き、雨が降った直後は無理に岩を登らないほうがよいでしょう。" }
+              ]
+            },
+            {
+              "children": [{ "text": "バイクを借りる際はヘルメットの着用が義務付けられており、夜間は街灯のない区間が多いため夜間運転は避けるのが安全です。" }]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "バリンゴアン〜ベノニの最終便は" },
+            { "type": "time", "text": "午後4〜5時" },
+            { "text": "頃です。カガヤン・デ・オロを遅く出発すると、バリンゴアンで一泊しなければならないことがあるため、移動時間には余裕を持たせてください。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "カガヤン・デ・オロ",
+              "place": "cagayan-de-oro",
+              "children": [
+                { "text": "バリンゴアン港からバスで約" },
+                { "type": "duration", "text": "2時間" },
+                { "text": "、急流ラフティングと活気あるナイトマーケットで有名な北部ミンダナオの玄関都市です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ダヒラヤン",
+              "place": "dahilayan",
+              "children": [
+                { "text": "カガヤン・デ・オロから車で約" },
+                { "type": "duration", "text": "1時間30分" },
+                { "text": "、松林の中のジップラインと涼しい高原の空気を楽しめます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ボホール島",
+              "children": [
+                { "text": "バルバゴン港からハグナ行きのフェリーで約" },
+                { "type": "duration", "text": "2〜3時間" },
+                { "text": "、チョコレートヒルズとメガネザル(ターシャ)で有名な島です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "マリア・クリスティーナ滝",
+              "place": "maria-cristina-falls",
+              "children": [
+                { "text": "カガヤン・デ・オロを経てイリガンまで車で約" },
+                { "type": "duration", "text": "3〜4時間" },
+                { "text": "、フィリピンを代表する大型の滝で、現在は事前申請者のみ限定的に見学できます。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

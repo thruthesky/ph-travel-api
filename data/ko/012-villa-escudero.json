@@ -1,0 +1,616 @@
+{
+  "id": 12,
+  "slug": "villa-escudero",
+  "title": { "type": "title", "text": "빌라 에스쿠데로" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Villa Escudero" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "폭포 물에 발 담그고 점심을 먹는 코코넛 농장" },
+  "island_group": { "type": "badge", "label": "권역", "value": "luzon", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "value": "quezon", "text": "케손" },
+  "location": {
+    "type": "address",
+    "label": "위치",
+    "icon": "location_on",
+    "text": "케손주 티아옹 (라구나주 산 파블로 경계)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "역사·문화"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["코코넛 농장", "폭포 식당", "박물관", "문화 공연", "가족 여행"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 13.9951 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 121.3421 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "11월~5월 (건기)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "당일치기~1박" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱1,800~3,500",
+    "currency": "PHP",
+    "min": 1800,
+    "max": 3500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "니노이 아키노 국제공항(MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/012-villa-escudero.webp",
+    "alt": "빌라 에스쿠데로",
+    "credit": "Ninjakeg / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Villa_wiki.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/012-villa-escudero-2.webp",
+        "alt": "빌라 에스쿠데로",
+        "credit": "National Historical Commission of the Philippines / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Escudero_-_NHCP.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/012-villa-escudero-3.webp",
+        "alt": "빌라 에스쿠데로",
+        "credit": "Isangtalong / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Labasin_and_pier_(Villa_Escudero,_Tiaong,_Quezon).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "19세기 말부터 한 가문이 일궈 온 코코넛 농장을 리조트로 꾸민 곳으로, 폭포 아래 대나무 식탁에서 발을 물에 담그고 먹는 필리핀식 뷔페 점심과 개인 박물관, 카라바오 수레, 민속 공연을 하루에 즐길 수 있습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "빌라 에스쿠데로는 케손주 티아옹과 라구나주 산 파블로의 경계, 마하를리카 하이웨이 " },
+            { "type": "distance", "text": "91km" },
+            { "text": " 지점에 자리한 약 800헥타르 규모의 코코넛 농장 리조트입니다. " },
+            { "type": "date", "text": "1880년" },
+            { "text": "대에 에스쿠데로 가문이 사탕수수 농장으로 시작해 이후 코코넛 농장으로 바꾸었고, " },
+            { "type": "date", "text": "1980년" },
+            {
+              "text": "대 초부터 일반 방문객에게 문을 열었습니다. 지금도 농장이 실제로 운영되고 있어, 끝없이 늘어선 야자수 사이로 카라바오(물소)가 수레를 끄는 옛 필리핀 시골 풍경이 그대로 남아 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "이곳을 전국적으로 유명하게 만든 것은 \"폭포 레스토랑\"입니다. 라바신(Labasin) 댐에서 넘쳐흐르는 얕은 폭포 바로 아래에 대나무 식탁을 놓아, 손님들은 발목까지 차오르는 시원한 물에 발을 담근 채 바나나 잎 위에 차려진 필리핀 음식을 먹습니다. 식탁 뒤로 물줄기가 하얗게 쏟아지는 풍경은 필리핀을 소개하는 엽서와 여행 책자에 수십 년째 빠지지 않고 등장합니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "리조트 안의 에스쿠데로 개인 박물관도 볼거리입니다. 스페인 식민지 시대 성당을 닮은 분홍빛 건물 안에 가문이 수집한 성상(산토스), 은제 제단 장식, 옛 동전과 우표, 전쟁 유물, 민속 의상, 박제 동물 등이 빼곡히 전시되어 있어, 필리핀에서 손꼽히는 규모의 개인 컬렉션으로 알려져 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "체력 부담이 거의 없고 모든 활동이 한 울타리 안에서 이루어져 부모님을 모신 여행, 어린 자녀를 동반한 가족, 한국에서 온 손님을 모시는 교민에게 특히 잘 맞습니다. 화려한 해변 리조트와는 다른, 느리고 정겨운 필리핀 농촌의 하루를 경험할 수 있는 곳입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "폭포 레스토랑 점심",
+              "children": [
+                {
+                  "text": "데이 투어의 하이라이트입니다. 폭포 물에 발을 담근 채 아도보, 구운 생선, 판싯, 열대과일 등 필리핀식 뷔페를 즐깁니다. 물이 차갑고 바닥이 미끄러우니 아쿠아슈즈가 편합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "카라바오 수레 타기",
+              "children": [
+                {
+                  "text": "물소가 끄는 수레를 타고 입구에서 농장 안쪽 광장까지 이동합니다. 수레 위에서 현지 악단이 기타와 반두리아로 옛 필리핀 노래를 연주해 줍니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "에스쿠데로 박물관 관람",
+              "children": [
+                { "text": "성상과 종교 미술품, 식민지 시대 생활 용품, 세계 각지의 기념품까지 방대한 수집품이 전시되어 있습니다. 가이드 설명과 함께 " },
+                { "type": "duration", "text": "30~40분" },
+                { "text": " 정도 둘러보기 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "필리핀 문화 공연",
+              "children": [
+                {
+                  "text": "필리핀 국민예술가 라몬 오부산(Ramon Obusan)이 구성한 민속 무용 공연으로, 대나무 장대 사이를 뛰는 티니클링 등 지역별 전통 춤을 보여 줍니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "대나무 뗏목 타기",
+              "children": [
+                {
+                  "text": "불라킨(Bulakin) 강에서 대나무 뗏목을 타고 야자수가 늘어선 강을 천천히 오갑니다. 오후의 느긋한 산책 코스로 제격입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "수영장과 자연 산책",
+              "children": [
+                { "text": "데이 투어에는 수영장 이용이 포함되어 있고, 농장 안 산책로를 따라 코코넛 가공 과정을 엿볼 수 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "옛 필리핀 마을 풍경 사진",
+              "children": [
+                { "text": "바하이 쿠보(전통 대나무 가옥)와 카라바오, 야자수가 어우러진 풍경은 필리핀 전통 의상을 입고 찍으면 더욱 분위기가 삽니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "당일치기 코스",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "마닐라 출발 (SLEX 경유, 산 파블로 방향)" }] },
+                    {
+                      "time": "08:30",
+                      "children": [{ "text": "빌라 에스쿠데로 도착, 입구에서 등록·팔찌 수령, 웰컴 드링크" }]
+                    },
+                    { "time": "09:00", "children": [{ "text": "카라바오 수레를 타고 농장 안쪽으로 이동" }] },
+                    { "time": "09:30", "children": [{ "text": "에스쿠데로 박물관 관람" }] },
+                    { "time": "10:30", "children": [{ "text": "대나무 뗏목, 농장 산책, 사진 촬영" }] },
+                    {
+                      "time": "11:30",
+                      "children": [{ "text": "폭포 레스토랑에서 점심 (붐비기 전에 일찍 가는 것이 좋습니다)" }]
+                    },
+                    { "time": "13:00", "children": [{ "text": "필리핀 문화 공연 관람 (공연 시간은 당일 안내 확인)" }] },
+                    { "time": "14:00", "children": [{ "text": "수영장에서 휴식" }] },
+                    { "time": "15:30", "children": [{ "text": "출발, 산 파블로에서 부코 파이 구매" }] },
+                    { "time": "18:00", "children": [{ "text": "마닐라 도착" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1박 코스",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "1박을 한다면 오후에 체크인해 해 질 녘 농장 산책을 하고, 다음 날 아침 일찍 사람이 없는 폭포와 강변을 여유롭게 즐긴 뒤 팍상한 폭포나 산 파블로 호수로 이동하는 동선이 좋습니다."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "자가용·렌터카",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "마닐라에서 SLEX를 타고 칼람바, 산토 토마스 방향으로 내려가 산 파블로 시내를 지나 마하를리카 하이웨이를 따라 티아옹 쪽으로 가면 됩니다. 약 "
+                    },
+                    { "type": "distance", "text": "90km" },
+                    { "text": ", " },
+                    { "type": "duration", "text": "2~3시간" },
+                    { "text": "이 걸리며 STAR 톨웨이를 거쳐 리파·산 파블로로 들어가는 방법도 있습니다. 톨게이트 비용은 편도 약 " },
+                    { "type": "price", "text": "₱250~400" },
+                    { "text": "입니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "부엔디아(Buendia), 쿠바오(Cubao) 또는 PITX에서 루세나(Lucena)행 버스(DLTB, JAC Liner, Jam Liner 등)를 타고 \"빌라 에스쿠데로 입구\"에서 내려 달라고 하면 됩니다. 약 "
+                    },
+                    { "type": "duration", "text": "2.5~3.5시간" },
+                    { "text": ", 요금 약 " },
+                    { "type": "price", "text": "₱200~300" },
+                    { "text": "입니다. 입구에서 리조트 접수처까지는 걸어서 " },
+                    { "type": "duration", "text": "5~10분" },
+                    { "text": " 정도입니다. 돌아올 때는 입구 앞 도로에서 마닐라행 버스를 손들어 세웁니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "투어",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "마닐라 호텔 픽업과 데이 투어 입장권을 묶은 상품이 1인 약 " },
+                    { "type": "price", "text": "₱2,500~4,500" },
+                    { "text": " 선에서 판매됩니다. 인원이 적으면 교통비 부담이 줄어 경제적입니다." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "가장 좋은 시기는 건기인 " },
+            { "type": "date", "text": "11월~5월" },
+            { "text": "입니다. 특히 " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": "은 선선하고 비가 거의 없어 폭포 레스토랑에서 식사하기 쾌적합니다. " },
+            { "type": "date", "text": "3월~5월" },
+            { "text": "은 한낮 기온이 높지만 폭포 물이 시원해 오히려 더 인기가 많습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "우기(" },
+            { "type": "date", "text": "6월~10월" },
+            {
+              "text": ")에는 비가 오거나 강물이 불어나면 안전을 위해 폭포 레스토랑 대신 실내 식당에서 점심이 제공됩니다. 데이 투어 핵심 경험이 빠질 수 있으니 우기에는 일기예보를 보고 날짜를 정하는 것이 좋습니다. 태풍 직후에는 뗏목 운영도 중단될 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "인근 케손주 루크반(Lucban)에서는 매년 " },
+            { "type": "date", "text": "5월 15일" },
+            { "text": " 무렵 쌀과자와 농산물로 집을 장식하는 파히야스(Pahiyas) 축제가 열립니다. " },
+            { "type": "date", "text": "5월 중순" },
+            { "text": "에 방문한다면 두 곳을 묶어 여행하기 좋습니다. 주말과 공휴일, 성주간에는 단체 관광객이 많아 평일 방문을 권합니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            {
+              "label": "데이 투어 입장",
+              "price": "1인 약 ₱1,100~1,600",
+              "note": "요일·시즌별 차등, 점심·수레·공연·뗏목·수영장 포함"
+            },
+            { "label": "마닐라~입구 버스", "price": "편도 약 ₱200~300", "note": "루세나행 버스" },
+            { "label": "자가용 톨게이트", "price": "편도 약 ₱250~400", "note": "SLEX·STAR 경유" },
+            { "label": "박물관", "price": "데이 투어에 포함", "note": "촬영 제한 구역 있음" },
+            {
+              "label": "1박 숙박 (식사 포함 패키지)",
+              "price": "2인 1박 약 ₱7,000~15,000",
+              "note": "객실 등급·주말 여부에 따라 차이"
+            },
+            { "label": "간식·음료 추가", "price": "약 ₱100~300", "note": "농장 안 매점" },
+            { "label": "마닐라 출발 당일 투어", "price": "1인 약 ₱2,500~4,500", "note": "픽업·입장 포함" },
+            { "label": "부코 파이 등 기념품", "price": "약 ₱300~600", "note": "산 파블로·로스 바뇨스" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "리조트 안의 숙소는 대나무와 목재로 지은 전통 가옥풍 객실과 강변 코티지로 이루어져 있습니다. 1박 요금에는 대개 식사와 리조트 활동이 포함되며, 2인 기준 약 "
+            },
+            { "type": "price", "text": "₱7,000~15,000" },
+            {
+              "text": " 선입니다. 에어컨이 있는 객실도 있지만 밤에는 개구리와 벌레 소리가 들리는 시골 분위기이니 조용한 도시형 호텔을 기대하지 않는 것이 좋습니다. 예산을 줄이려면 차로 "
+            },
+            { "type": "duration", "text": "20~30분" },
+            { "text": " 거리인 산 파블로 시내의 중저가 호텔(1박 약 " },
+            { "type": "price", "text": "₱1,500~3,500" },
+            { "text": ")을 이용할 수 있습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "폭포 레스토랑의 점심은 필리핀 가정식 뷔페로, 치킨 아도보, 구운 틸라피아, 판싯 칸톤, 룸피아, 쌀밥과 바나나, 망고 같은 열대과일이 나옵니다. 매운 음식은 거의 없어 어린이 입맛에도 무난합니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "주변 먹거리로는 산 파블로와 로스 바뇨스 국도변의 부코 파이가 유명하고, 케손주 루크반의 롱가니사(마늘 향 소시지)와 바나나 잎에 담아 손으로 먹는 판싯 하브하브(pancit habhab)도 꼭 맛볼 만합니다. 코코넛 농장답게 신선한 부코 주스(어린 코코넛 물)도 빠질 수 없습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "데이 투어는 공식 온라인 숍(shop.villaescudero.com)에서 미리 예약하는 것이 안전합니다. 주말·공휴일은 현장 판매분이 조기 마감되기도 합니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "운영 시간은 보통 " },
+                { "type": "time", "text": "오전 8시~오후 5시" },
+                { "text": "입니다. 입장 후 활동은 자유 순서지만 문화 공연은 정해진 시간에만 하니 입장 때 시간을 확인하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "폭포 레스토랑은 " },
+                { "type": "time", "text": "11시" },
+                { "text": " 반 이전에 가면 사람이 적고 사진도 깨끗하게 나옵니다. " },
+                { "type": "time", "text": "12시" },
+                { "text": "가 넘으면 단체 관광객으로 붐빕니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "반바지와 샌들, 아쿠아슈즈 차림이 편합니다. 폭포 물에 옷자락이 젖을 수 있으니 갈아입을 옷을 하나 챙기십시오." }
+              ]
+            },
+            { "children": [{ "text": "박물관 내부는 촬영이 제한되는 구역이 있습니다. 안내에 따르고 플래시는 사용하지 않습니다." }] },
+            {
+              "children": [
+                { "text": "시니어와 장애인은 법정 할인이 적용되지만 증빙이 필요하고, 온라인 예약 시에는 예약팀에 별도로 연락해야 할 수 있습니다." }
+              ]
+            },
+            { "children": [{ "text": "현금과 카드 모두 쓸 수 있지만 농장 안 작은 매점은 현금만 받는 경우가 많습니다." }] },
+            {
+              "children": [
+                { "text": "버스로 올 경우 돌아가는 막차 시간을 미리 확인하십시오. 해가 지면 입구 도로에서 버스를 세우기 어려워집니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "폭포 레스토랑 바닥은 이끼 때문에 매우 미끄럽습니다. 노약자는 반드시 손을 잡고 이동하고, 물속을 뛰어다니지 않도록 아이들을 살펴 주십시오."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "비가 많이 온 날에는 안전을 위해 폭포 식사가 취소될 수 있으며, 이 경우 환불보다는 실내 식사로 대체되는 것이 일반적입니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "카라바오는 순한 동물이지만 뒤쪽에서 갑자기 다가가거나 만지면 놀랄 수 있습니다. 수레 탑승 시 안내원의 지시를 따르십시오." }
+              ]
+            },
+            {
+              "children": [{ "text": "농장 일대는 모기가 많습니다. 특히 해 질 녘에는 뎅기 예방을 위해 긴 옷과 모기 기피제를 준비하십시오." }]
+            },
+            {
+              "children": [{ "text": "마하를리카 하이웨이는 대형 트럭 통행이 많습니다. 버스에서 내리거나 길을 건널 때 각별히 조심하십시오." }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "팍상한 폭포",
+              "place": "pagsanjan-falls",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": ". 협곡 급류를 거슬러 오르는 방카 라이드로 유명한 라구나의 대표 폭포입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "산 파블로 일곱 호수",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "20~30분" },
+                { "text": ". 분화구 호수 일곱 곳이 모인 도시로 삼팔록 호수 둘레길 산책이 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "루크반·파히야스 축제",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1~1.5시간" },
+                { "text": ". " },
+                { "type": "date", "text": "5월 15일" },
+                { "text": " 무렵 집집마다 형형색색 쌀과자로 장식하는 축제가 열립니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "바나하우산 자락 카마이 니 헤수스",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": ". 루크반의 순례지로 거대한 예수상과 계단 전망대가 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "타가이타이",
+              "place": "tagaytay",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1.5~2시간" },
+                { "text": ". 선선한 고원 도시에서 탈 화산과 호수를 내려다볼 수 있습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

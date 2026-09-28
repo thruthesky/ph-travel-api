@@ -1,0 +1,621 @@
+{
+  "id": 40,
+  "slug": "donsol",
+  "title": { "type": "title", "text": "ドンソル" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Donsol" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "餌なしで出会う野生のジンベエザメ、海の穏やかな巨人" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "bicol", "text": "ビコール" },
+  "location": { "type": "address", "label": "所在地", "icon": "location_on", "text": "ソルソゴン州ドンソル" },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "ダイビング・海"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "タグ",
+    "items": ["ジンベエザメ", "シュノーケリング", "ホタル", "エコツーリズム", "ダイビング"]
+  },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.6, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 12.9083 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 123.5981 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "2月〜4月(ジンベエザメの最盛期)",
+    "months": [2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "1〜2日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱1,500〜3,500",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 3500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "ふつう",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ビコール国際空港 (DRP)",
+    "code": "DRP"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/040-donsol.webp",
+    "alt": "ドンソル",
+    "credit": "jackylim / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Donsol_-Philippines_-_panoramio.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/040-donsol-2.webp",
+        "alt": "ドンソル",
+        "credit": "jackylim / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Donsol_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/040-donsol-3.webp",
+        "alt": "ドンソル",
+        "credit": "AwOiSoAk KaOsIoWa / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Donsol_-_panoramio_(10).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "ソルソゴン州の漁村ドンソルは、餌付けをせずに野生のジンベエザメに出会うエコツーリズムの草分けです。" },
+      { "type": "date", "text": "11月〜6月" },
+      { "text": "、公認ガイドと共に広い海でジンベエザメと並んで泳ぎ、夜にはホタルが光る川を船で下る特別な体験ができます。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ドンソル(Donsol)は、ルソン島南東の果て、ソルソゴン州にある静かな漁村です。" },
+            { "type": "date", "text": "1998年" },
+            {
+              "text": "頃、沖合にジンベエザメ(現地語で「ブタンディン(butanding)」)が大量に現れることが知られるようになり、世界的な注目を集めました。当時、ジンベエザメを狙った捕獲の懸念が高まったことから、フィリピン政府はジンベエザメの捕獲と取引を禁止し、ドンソルの住民は世界自然保護基金(WWF)フィリピン支部などと共に、ジンベエザメを傷つけずに観光資源とするコミュニティ主体のエコツーリズムプログラムをつくりました。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ドンソルが特別な理由は「野生そのまま」という点にあります。セブのオスロブのように餌を与えてジンベエザメを一か所に集めるのではなく、船に乗って広い海に出て、自分で餌を探しながら移動するジンベエザメを探し回ります。そのため必ず出会えるという保証はありませんが、大海原で全長"
+            },
+            { "type": "distance", "text": "5〜10m" },
+            { "text": "の巨大なジンベエザメが口を開けてプランクトンを食べながらゆったりと通り過ぎる姿を見た瞬間の感動は、何物にも代えがたいものです。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ジンベエザメが集まる理由は、ドンソル沖のティカオ海峡一帯にプランクトンが豊富だからです。通常" },
+            { "type": "date", "text": "11月" },
+            { "text": "末から" },
+            { "type": "date", "text": "6月" },
+            { "text": "初めまでがシーズンで、" },
+            { "type": "date", "text": "2〜4月" },
+            {
+              "text": "に出会える確率が最も高くなります。年によって出現数が大きく変わり、少なかった年もあるため、シーズンに合わせて2日以上滞在し、チャンスを2回つかむことをおすすめします。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "昼はジンベエザメ、夜はホタルの川クルーズ、さらに近くのティカオ海峡での大型のオニイトマキエイ(マンタ)ダイビングまで楽しめるため、海洋生物とエコツーリズムが好きな旅行者に向いています。泳ぎが苦手でも救命胴衣を着て参加できますが、波のある広い海で船に乗り降りする必要があるため、水への基本的な慣れは必要です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "ジンベエザメと一緒に泳ぐ",
+              "children": [
+                {
+                  "text": "ビジターセンターで登録と説明を受けた後、船に乗って沖へ出ると、公認ジンベエザメガイド(BIO)がジンベエザメを見つけて入水の合図を出します。合図に合わせて海に飛び込み、ジンベエザメと並んで泳ぐ瞬間こそが、ドンソル旅行のすべてと言っても過言ではありません。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "ジンベエザメの説明ビデオを視聴",
+              "children": [
+                {
+                  "text": "登録後に見る短い案内ビデオと説明で、距離の維持や接触禁止といったルールを学びます。ルールをよく理解しておいてこそ、ジンベエザメも人も安全です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "ホタルの川クルーズ",
+              "children": [
+                {
+                  "text": "日が沈んだ後、小さな船に乗ってドンソル川(ラドガロン川一帯)を遡ると、川辺のマングローブの木で何千匹ものホタルがクリスマスツリーのようにきらめきます。騒音と光を最小限に抑えてこそ、ホタルをよく見ることができます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "マンタ・ボウルダイビング",
+              "children": [
+                {
+                  "text": "ドンソル沖ティカオ海峡の「マンタ・ボウル(Manta Bowl)」は、大型のオニイトマキエイと、運がよければジンベエザメにも出会えるダイビングスポットです。潮流が強いため中級以上のダイバーにおすすめで、ドンソルのダイブショップで予約できます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "ドンソル・ビーチの夕日",
+              "children": [
+                {
+                  "text": "ドンソルの海岸で、夕暮れに赤く染まる海を眺める時間は、静かな漁村の魅力を感じさせてくれます。ビーチの食堂で焼き魚と一緒に夕日を楽しんでください。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "ソルソゴンの郷土料理を味わう",
+              "children": [
+                {
+                  "text": "エイや魚の身を細かくほぐし、ココナッツミルクとモリンガの葉で煮込んだ「キヌノット」のような料理、辛みの効いたビコール・エクスプレス、フィリナッツの菓子など、ソルソゴンとビコール地方の味を体験してみてください。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "村を自転車・トライシクルで散策",
+              "children": [
+                { "text": "ドンソルの町と海岸集落は小さく静かです。早朝、漁師たちが船を着けて魚を売る様子を眺めながら散策すると、観光地ではない漁村の日常に出会えます。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00",
+                      "children": [
+                        { "text": "レガスピを出発、バンでドンソルへ移動(約" },
+                        { "type": "duration", "text": "1時間30分" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "07:30",
+                      "children": [{ "text": "ドンソルのジンベエザメ・ビジターセンターに到着、登録と説明ビデオの視聴" }]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "船が出発、ジンベエザメ探しとシュノーケリング(約" },
+                        { "type": "duration", "text": "3時間" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "11:30", "children": [{ "text": "ビジターセンターへ帰還、宿にチェックインして昼食" }] },
+                    { "time": "13:30", "children": [{ "text": "ビーチリゾートで休憩" }] },
+                    { "time": "17:00", "children": [{ "text": "ビーチで夕日鑑賞" }] },
+                    {
+                      "time": "18:30",
+                      "children": [
+                        { "text": "ホタルの川クルーズ(約" },
+                        { "type": "duration", "text": "1時間" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "20:00", "children": [{ "text": "海鮮の夕食" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [{ "text": "2回目のジンベエザメツアー(前日に出会えなかった場合、またはもっと見たい場合)" }]
+                    },
+                    {
+                      "children": [
+                        { "text": "または" },
+                        { "type": "time", "text": "07:00" },
+                        { "text": "からマンタ・ボウルダイビング(ダイバー対象、半日)" }
+                      ]
+                    },
+                    { "time": "11:30", "children": [{ "text": "昼食後にチェックアウト" }] },
+                    { "time": "13:00", "children": [{ "text": "レガスピへ移動、カグサワ遺跡とマヨン火山観光へつなげる" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラからアルバイ州ダラガのビコール国際空港(DRP)までフィリピン航空・セブパシフィックで約" },
+                    { "type": "duration", "text": "1時間" },
+                    { "text": "、片道約" },
+                    { "type": "price", "text": "₱2,000〜5,500" },
+                    { "text": "です。空港からドンソルまで車で約" },
+                    { "type": "duration", "text": "1時間30分" },
+                    { "text": "かかり、レガスピ市街に出てバンに乗るか、リゾートに送迎(約" },
+                    { "type": "price", "text": "₱2,000〜3,500" },
+                    { "text": ")を頼むことができます。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "バス・バン",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "レガスピ市街のサテライト・マーケット(Satellite Market)近くのターミナルから、ドンソル行きのバンとジプニーが出発しており、約"
+                    },
+                    { "type": "duration", "text": "1時間〜1時間30分" },
+                    { "text": "、運賃は約" },
+                    { "type": "price", "text": "₱100〜200" },
+                    { "text": "です。マニラからはクバオ・パサイなどからレガスピ行きバス(約" },
+                    { "type": "duration", "text": "10〜12時間" },
+                    { "text": "、約" },
+                    { "type": "price", "text": "₱1,000〜1,800" },
+                    { "text": ")に乗り、乗り換える方法が一般的で、ドンソルまで直行する夜行バス路線が運行されることもあります。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "現地での移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "ドンソルの町からジンベエザメ・ビジターセンターがある海岸集落ダンカラン(Dancalan)までは、トライシクルで約" },
+                    { "type": "duration", "text": "10分" },
+                    { "text": "、料金は約" },
+                    { "type": "price", "text": "₱50〜100" },
+                    {
+                      "text": "です。ほとんどのリゾートは、ビジターセンターから歩けるか、トライシクルで数分の距離にあります。ホタルクルーズの出発地点までもトライシクルで移動し、リゾートが往復の交通も一緒に予約してくれる場合が多くあります。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ジンベエザメのシーズンはおおむね" },
+            { "type": "date", "text": "11月" },
+            { "text": "末から" },
+            { "type": "date", "text": "6月" },
+            { "text": "初めまでで、最も確率が高い最盛期は" },
+            { "type": "date", "text": "2〜4月" },
+            { "text": "です。この時期は海が比較的穏やかで天候も良く、ツアーが安定して運営されます。" },
+            { "type": "date", "text": "12〜1月" },
+            { "text": "と" },
+            { "type": "date", "text": "5月" },
+            { "text": "はシーズンの序盤と終盤にあたるため、ジンベエザメに出会えない日もあり得ます。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ビコール地方は年間を通じて雨が多い傾向があり、" },
+            { "type": "date", "text": "6〜12月" },
+            { "text": "は台風の影響を受けます。特に" },
+            { "type": "date", "text": "9〜12月" },
+            { "text": "には強い台風がソルソゴンを通過することもあり、ツアーが全面的に中止されます。シーズン外の期間(おおむね" },
+            { "type": "date", "text": "7〜10月" },
+            { "text": ")は、ジンベエザメツアーを運営していないか、出現の可能性が非常に低くなります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ホタルクルーズは年間を通じて可能ですが、雨が降らず月明かりが弱い新月前後の夜が最もよく見えます。マンタ・ボウルダイビングは、おおむね" },
+            { "type": "date", "text": "12月" },
+            { "text": "から" },
+            { "type": "date", "text": "5月" },
+            { "text": "の間が適期です。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "ジンベエザメ登録料", "price": "外国人約₱300、フィリピン人約₱100", "note": "ビジターセンターで支払い" },
+            { "label": "ジンベエザメツアー船", "price": "1隻あたり約₱3,500", "note": "最大約6名で分担、ガイド込み" },
+            { "label": "シュノーケル用具レンタル", "price": "約₱200〜300", "note": "マスク・フィン・シュノーケル" },
+            { "label": "ホタルの川クルーズ", "price": "1隻あたり約₱1,250〜1,500", "note": "約5名で分担" },
+            { "label": "マンタ・ボウルダイビング", "price": "約₱2,500〜4,500", "note": "1回のダイビング、器材込みかは要確認" },
+            { "label": "レガスピ–ドンソルバン", "price": "約₱100〜200", "note": "片道、約1時間30分" },
+            { "label": "宿泊(ドンソルリゾート)", "price": "1泊あたり約₱1,200〜4,000", "note": "ビーチリゾートの場合" },
+            { "label": "食事", "price": "1食あたり約₱200〜450", "note": "リゾート・ローカル食堂" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "宿はジンベエザメ・ビジターセンターがあるダンカラン海岸沿いに集まっています。ビーチ沿いに長く営業してきた小規模リゾートやバンガローが1泊約" },
+            { "type": "price", "text": "₱1,200〜4,000" },
+            { "text": "程度で、早朝のツアーに参加しやすいよう、ほとんどがビジターセンターの近くにあります。最盛期の" },
+            { "type": "date", "text": "2〜4月" },
+            {
+              "text": "の週末と聖週間は部屋がすぐに埋まるため、事前に予約しておくのがよいでしょう。選択肢を広げたいなら、レガスピに泊まって日帰りで訪れる方法もありますが、早朝出発の負担が大きくなります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "食事は新鮮な海鮮が中心です。ソルソゴンとビコール地方では、エイや魚の身をココナッツミルクとモリンガの葉で煮込んだキヌノット、辛みの効いたビコール・エクスプレス、里芋の葉料理ラエンを気軽に味わえます。リゾートの食堂でその日獲れた魚やイカを焼いてもらうよう頼めば、手頃な価格でボリュームのある夕食を楽しめます。ソルソゴン特産のフィリナッツ菓子はお土産に良いでしょう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "ジンベエザメツアーは午前早くに始まり、正午頃に終わります。ビジターセンターの営業時間と当日の船の割り当て順を前日に宿で確認し、" },
+                { "type": "time", "text": "朝7時" },
+                { "text": "前後に到着してください。" }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "船は1隻単位で借りるため、一人で行ってもビジターセンターで他の旅行者と乗り合わせることができます。早い時間に到着するほど、乗り合わせる相手を見つけやすくなります。"
+                }
+              ]
+            },
+            { "children": [{ "text": "ジンベエザメに出会えなくても、船代は返金されません。2日間の日程で2回のチャンスを確保するのがよいでしょう。" }] },
+            {
+              "children": [
+                { "text": "水中カメラは問題ありませんが、フラッシュは禁止です。アクションカメラを使うなら、リストストラップを必ず付けてください。" }
+              ]
+            },
+            {
+              "children": [{ "text": "ドンソルにはATMがほとんどないか、不安定です。登録料、船代、宿泊費まで、レガスピで現金を用意しておいてください。" }]
+            },
+            { "children": [{ "text": "ラッシュガードと、サンゴに優しい日焼け止めを用意してください。日差しが強く、クラゲがいることもあります。" }] },
+            {
+              "children": [
+                { "text": "船酔いしやすい方は、出発" },
+                { "type": "duration", "text": "30分" },
+                { "text": "前に酔い止めを飲んでください。ジンベエザメを探している間、船は波に大きく揺れます。" }
+              ]
+            },
+            { "children": [{ "text": "ホタルクルーズは蚊が多くいます。虫よけを塗り、携帯電話のフラッシュは消してください。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "ジンベエザメに触れたり乗ったりする行為は厳しく禁止されています。頭から約" },
+                { "type": "distance", "text": "3m" },
+                { "text": "、尾から約" },
+                { "type": "distance", "text": "4m" },
+                { "text": "以上の距離を保ち、1匹あたりの入水人数制限を守ってください。" }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "スクーバ器材を使ったジンベエザメの観察は禁止されており、シュノーケリングのみ許可されています。フラッシュ撮影や水中スクーターの使用も禁止です。"
+                }
+              ]
+            },
+            { "children": [{ "text": "ジンベエザメの尾の動きは非常に強力です。尾の近くには近づかないでください。" }] },
+            { "children": [{ "text": "広い海で入水するため、泳ぎが得意でない場合は必ず救命胴衣を着用し、ガイドの近くにとどまってください。" }] },
+            { "children": [{ "text": "台風や強風の警報が出ると、沿岸警備隊が出航を禁止します。ツアーの中止に備えて、日程には余裕を持たせてください。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "ドンソルのジンベエザメは、人のために集まった動物ではなく、自ら訪れる野生動物です。ルールを守ってこそ、来年も、10年後もこの海で再び出会うことができます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "カグサワ遺跡",
+              "place": "cagsawa-ruins",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間30分" },
+                { "text": "、" },
+                { "type": "date", "text": "1814年" },
+                { "text": "のマヨン噴火で崩れた教会の鐘楼と火山が調和する名所です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "マヨン火山",
+              "place": "mayon-volcano",
+              "children": [{ "text": "レガスピ一帯から鑑賞できる完璧な円錐形の活火山で、ATV溶岩トレイルが人気です。" }]
+            },
+            {
+              "type": "card",
+              "title": "カラモアン",
+              "place": "caramoan",
+              "children": [{ "text": "レガスピを経由し陸路と船で半日、石灰岩の島々と隠れたビーチが集まるビコール代表の島巡りの名所です。" }]
+            },
+            {
+              "type": "card",
+              "title": "ブルサン山自然公園",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "2時間" },
+                { "text": "、森に囲まれた湖を散策しカヤックを楽しめる、ソルソゴンを代表する自然の名所です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,738 @@
+{
+  "id": 50,
+  "slug": "port-barton",
+  "title": { "type": "title", "text": "Port Barton" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Port Barton" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Làng biển ẩn mình của Palawan nơi thời gian trôi chậm"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "palawan", "text": "Palawan" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Port Barton, San Vicente, tỉnh Palawan"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "Biển & đảo"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": ["Khám phá các đảo", "Rùa biển", "Lặn ống thở", "Du lịch bụi", "Bãi biển vắng"]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 10.4061 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 119.1631 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 11 – Tháng 5 (mùa khô)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "2 đêm 3 ngày"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱2,000–4,000/người (mỗi ngày)",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Trung bình",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay quốc tế Puerto Princesa (PPS)",
+    "code": "PPS"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/050-port-barton.webp",
+    "alt": "Port Barton",
+    "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Port_Barton,_Boats,_Palawan,_Philippines.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/050-port-barton-2.webp",
+        "alt": "Port Barton",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Port_Barton,_Boat,_Palawan,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/050-port-barton-3.webp",
+        "alt": "Port Barton",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Vicente,_Port_Barton_Beach,_Palawan,_Philippines.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Đây là làng biển nhỏ nằm trên bờ biển phía tây, giữa El Nido và Puerto Princesa, với nét quyến rũ là không khí thong thả, hầu như không có xe cộ hay bến cảng. Bạn có thể lặn ống thở bơi cùng rùa biển và khám phá các đảo hoang, vắng vẻ và rẻ hơn El Nido rất nhiều."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Port Barton là làng chài nhỏ thuộc thành phố San Vicente, trên bờ biển phía tây đảo Palawan. Cách Puerto Princesa khoảng "
+            },
+            { "type": "distance", "text": "150km" },
+            { "text": " về phía bắc và cách El Nido khoảng " },
+            { "type": "distance", "text": "130km" },
+            {
+              "text": " về phía nam, nơi đây thường được ghé qua như một trạm nghỉ giữa hành trình nối hai thành phố. Làng nằm dọc theo vịnh hình trăng lưỡi liềm, với các nhà khách và nhà hàng trải dọc bãi cát, còn ngoài khơi có hàng chục hòn đảo và rạn san hô rải rác."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Sức hấp dẫn lớn nhất của làng này là sự chậm rãi. Thuyền bangka cập thẳng vào bãi biển mà không cần bến cảng, và trong làng hầu như không có xe cộ nên bạn có thể đi chân trần trên con đường cát. Trước đây nơi này hẻo lánh đến mức chỉ có điện từ máy phát vài giờ vào buổi tối, và dù tình hình điện đã khá hơn, mất điện vẫn thường xuyên và internet chậm khiến bạn tự nhiên có một kỳ 'nghỉ ngơi kỹ thuật số'. Nhờ không khí này, nơi đây đã được dân du lịch bụi châu Âu âm thầm yêu mến, gọi là 'El Nido của 10 năm trước'."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Biển ở đây đẹp không kém El Nido. Khi đi khám phá đảo, trong một ngày bạn có thể ghé qua vùng cỏ biển nơi rùa biển thường xuyên xuất hiện, Twin Reef với san hô khỏe mạnh, vùng nước nông rải rác sao biển, và các bãi biển đảo hoang cát trắng như đảo German, đảo Exotic. Hiếm khi có chuyện hàng chục thuyền tour đổ dồn về một chỗ như ở El Nido, nên bạn có thể tận hưởng thong thả."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nơi này phù hợp với những du khách đã mệt mỏi với sự đông đúc ở các điểm du lịch nổi tiếng, những ai muốn nằm võng đọc sách vài ngày, và dân du lịch bụi muốn tận hưởng biển Palawan với ngân sách hợp lý. Ngược lại, có thể bất tiện với những du khách cần mua sắm, cuộc sống về đêm, hoặc internet ổn định."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Tour khám phá đảo",
+              "children": [
+                {
+                  "text": "Đây là tour ghép xuất phát từ bãi biển của làng, đi qua 3–5 đảo và các điểm lặn ống thở. Lộ trình chia thành Tour A·B·C…, và phần lớn có lịch ăn trưa trên các bãi biển đảo hoang như đảo German, đảo Exotic."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Lặn ống thở ngắm rùa biển",
+              "children": [
+                {
+                  "text": "Bạn có thể ngắm gần những con rùa xanh đang gặm cỏ ở vùng nước nông mọc cỏ biển. Bạn phải giữ khoảng cách từ "
+                },
+                { "type": "distance", "text": "3m" },
+                { "text": " trở lên với rùa và tuyệt đối không được chạm vào." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Twin Reef và đảo Starfish",
+              "children": [
+                {
+                  "text": "Twin Reef với rạn san hô chia thành hai nhánh là điểm lặn ống thở phong phú san hô và cá nhiệt đới. Ở vùng nước nông trước đảo Starfish, bạn có thể ngắm sao biển."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Trekking thác Pamuayan",
+              "children": [
+                { "text": "Là thác nước trong rừng cách làng khoảng " },
+                { "type": "distance", "text": "4km" },
+                { "text": ", có thể đi bộ khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                {
+                  "text": " hoặc đi xe máy. Bạn có thể bơi trong hồ nước dưới chân thác, và lượng nước nhiều nhất vào cuối mùa mưa."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Dạo bãi biển White Beach",
+              "children": [
+                { "text": "Là bãi biển yên tĩnh cách khoảng " },
+                { "type": "duration", "text": "30–40 phút" },
+                { "text": " đi bộ qua mũi đất phía bắc làng, hoặc khoảng " },
+                { "type": "duration", "text": "10 phút" },
+                { "text": " nếu đi thuyền bangka. Rất thích hợp để dành nửa ngày dưới bóng dừa." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Hoàng hôn trên bãi biển và võng",
+              "children": [
+                {
+                  "text": "Bãi biển của làng hướng về phía tây nên mỗi tối bạn đều có thể ngắm mặt trời lặn trên biển. Kết thúc một ngày bằng cách nằm võng ở nhà hàng ven biển và nhâm nhi cocktail là thói quen thường ngày ở Port Barton."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Chèo kayak và ván chèo đứng (SUP)",
+              "children": [
+                {
+                  "text": "Bạn có thể thuê tại bãi biển và chèo dọc vịnh êm ả để ra các đảo gần hoặc khu rừng ngập mặn."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Ngày 1",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        { "text": "Xuất phát từ Puerto Princesa bằng xe van (khoảng " },
+                        { "type": "duration", "text": "3–4 giờ" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "11:00", "children": [{ "text": "Đến Port Barton, nhận phòng" }] },
+                    {
+                      "time": "12:00",
+                      "children": [
+                        {
+                          "text": "Ăn trưa tại nhà hàng bãi biển, đặt tour khám phá đảo cho ngày hôm sau"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Buổi chiều",
+                      "children": [{ "text": "Chèo kayak hoặc SUP, dạo bãi biển" }]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [{ "text": "Ngắm hoàng hôn trên bãi biển và ăn tối" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 2",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "08:30–16:00",
+                      "children": [
+                        {
+                          "text": "Tour khám phá đảo — lặn ống thở ngắm rùa biển, Twin Reef, đảo Starfish, ăn trưa tại đảo German, đảo Exotic"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Buổi tối",
+                      "children": [{ "text": "Hải sản nướng và nghỉ ngơi trên võng" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 3",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        { "text": "Trekking thác Pamuayan hoặc dạo bãi biển White Beach" }
+                      ]
+                    },
+                    { "time": "11:00", "children": [{ "text": "Trả phòng rồi ăn trưa" }] },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        { "text": "Xuất phát bằng xe van đi El Nido hoặc Puerto Princesa" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Máy bay",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Sân bay chính gần nhất là sân bay quốc tế Puerto Princesa (PPS), cách Manila khoảng "
+                    },
+                    { "type": "duration", "text": "1 giờ 20 phút" },
+                    { "text": ", giá vé một chiều khoảng " },
+                    { "type": "price", "text": "₱1,500–5,000" },
+                    {
+                      "text": ". San Vicente cũng có sân bay nhỏ nhưng chuyến bay định kỳ không đều đặn, nên phần lớn du khách dùng Puerto Princesa. Cũng có cách bay vào sân bay El Nido (ENI), đi chơi El Nido xong rồi di chuyển xuống đây."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Xe buýt · xe van",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Từ sân bay Puerto Princesa hoặc bến xe San Jose trong thành phố, bạn đón xe van ghép đi Port Barton, mất khoảng "
+                    },
+                    { "type": "duration", "text": "3–4 giờ" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱500–700" },
+                    {
+                      "text": ". Bạn có thể đặt trước để được đón tại nơi lưu trú; xe chạy trên quốc lộ hướng Roxas rồi rẽ vào đường núi phía tây gần Salvacion, đoạn này đã được trải nhựa hoàn chỉnh nên việc di chuyển thuận tiện hơn nhiều so với trước. Cách đón xe buýt đi Roxas rồi đổi sang jeepney hoặc xe máy tại ngã ba Salvacion rẻ hơn nhưng mất nhiều thời gian hơn. Từ El Nido, xe van ghép mất khoảng "
+                    },
+                    { "type": "duration", "text": "4–5 giờ" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱600–800" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Thuyền",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Giữa El Nido và Port Barton đôi khi có loại hình du lịch bằng thuyền kiểu khám phá đảo, ghé qua nhiều đảo dọc bờ biển. Việc có vận hành hay không tùy thuộc vào thời tiết và đơn vị điều hành, nên bạn cần kiểm tra tại chỗ."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Di chuyển tại chỗ",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Trong làng bạn có thể đi bộ khắp nơi. Khi đến thác nước hoặc hướng Long Beach, bạn thuê xe máy (khoảng "
+                    },
+                    { "type": "price", "text": "₱500–700" },
+                    { "text": "/ngày) hoặc thương lượng với tài xế tricycle, xe máy." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Từ " },
+            { "text": "tháng 11", "type": "date" },
+            { "text": " đến " },
+            { "text": "tháng 5", "type": "date" },
+            { "text": " là mùa khô, thích hợp để thăm. Đặc biệt từ " },
+            { "text": "tháng 3", "type": "date" },
+            { "text": " đến " },
+            { "text": "tháng 5", "type": "date" },
+            {
+              "text": ", biển êm và nước trong nhất, là thời điểm tốt nhất cho khám phá đảo và lặn ống thở. Từ "
+            },
+            { "text": "tháng 12", "type": "date" },
+            { "text": " đến " },
+            { "text": "tháng 2", "type": "date" },
+            { "text": " có những ngày có gió, nhưng nhiệt độ mát mẻ nên thích hợp để trekking." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Port Barton nằm ở bờ biển phía tây nên chịu ảnh hưởng trực tiếp của gió mùa tây nam Habagat từ "
+            },
+            { "type": "date", "text": "tháng 6" },
+            { "text": " đến " },
+            { "type": "date", "text": "tháng 10" },
+            {
+              "text": ". Trong thời gian này, sóng cao khiến nhiều ngày tour khám phá đảo bị hủy hoặc chỉ đi được các đảo gần, và khi mưa thì việc di chuyển trên đường núi cũng chậm hơn. Bù lại, giá phòng rẻ hơn và làng yên tĩnh hơn. Nếu thăm vào mùa mưa, bạn nên sắp xếp ngày khám phá đảo có độ dư dả."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Xe van Puerto Princesa–Port Barton",
+              "price": "Khoảng ₱500–700",
+              "note": "Một chiều, 3–4 giờ"
+            },
+            {
+              "label": "Xe van El Nido–Port Barton",
+              "price": "Khoảng ₱600–800",
+              "note": "Một chiều, 4–5 giờ"
+            },
+            {
+              "label": "Tour ghép khám phá đảo",
+              "price": "Khoảng ₱1,000–1,500",
+              "note": "Mỗi người, gồm bữa trưa và thiết bị lặn ống thở"
+            },
+            {
+              "label": "Thuyền bangka riêng",
+              "price": "Khoảng ₱3,500–5,000",
+              "note": "Một thuyền một ngày, 4–8 người"
+            },
+            {
+              "label": "Phí môi trường · phí lên đảo",
+              "price": "Khoảng ₱100–300",
+              "note": "Mỗi người, thu riêng theo từng đảo"
+            },
+            { "label": "Vào thác Pamuayan", "price": "Khoảng ₱50–100", "note": "Mỗi người" },
+            {
+              "label": "Chỗ ở",
+              "price": "Khoảng ₱800–4,000",
+              "note": "Mỗi đêm, từ dorm đến bungalow ven biển"
+            },
+            { "label": "Ăn uống", "price": "Khoảng ₱600–1,200", "note": "Mỗi người mỗi ngày" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Chỗ ở chủ yếu là các nhà khách và bungalow trải dọc bãi biển của làng. Dorm cho dân du lịch bụi có giá khoảng "
+            },
+            { "type": "price", "text": "₱500–800" },
+            { "text": "/đêm, bungalow quạt khoảng " },
+            { "type": "price", "text": "₱1,000–2,000" },
+            { "text": ", còn bungalow ven biển hoặc resort nhỏ có máy lạnh khoảng " },
+            { "type": "price", "text": "₱2,500–5,000" },
+            {
+              "text": ". Vị trí ngay trước biển ngắm hoàng hôn đẹp nhưng có thể ồn vào buổi tối do nhà hàng, còn phía trong làng thì yên tĩnh và rẻ hơn. Nếu muốn nơi vắng vẻ hơn nữa, bạn có thể chọn resort trên các đảo lân cận đi bằng thuyền bangka từ làng, hoặc phía bãi biển White Beach. Vào mùa cao điểm phòng hết nhanh nên bạn nên đặt trước."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Ẩm thực ở đây chủ yếu là hải sản nướng tươi tại các nhà hàng ven biển. Vào buổi tối, các nhà hàng ven biển nướng than cá, mực, tôm đánh bắt trong ngày để bán, và có nhiều món hợp khẩu vị du khách phương Tây như cà ri dừa hay pasta hải sản. Ở những quán ăn Philippines nhỏ trong làng, bạn có thể ăn món nhà như adobo, sinigang, pancit với giá khoảng "
+            },
+            { "type": "price", "text": "₱100–200" },
+            {
+              "text": "/người. Cũng có vài tiệm bánh và quán cà phê do người châu Âu điều hành, thích hợp để ăn sáng. Bữa trưa trong tour khám phá đảo thường là cá nướng, thịt heo, cơm và trái cây bày trên bãi biển đảo hoang."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Trong làng không có ATM, hoặc có thì cũng hay hỏng, và hầu như không có nơi nào chấp nhận thẻ. Bạn cần chuẩn bị đủ tiền mặt cho toàn bộ thời gian lưu trú từ Puerto Princesa hoặc El Nido."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Tình hình điện đã khá hơn nhưng vẫn thường xuyên mất điện, nên bạn nên mang theo sạc dự phòng và đèn pin."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Internet chậm và không ổn định, nên nếu cần làm việc hoặc liên lạc gấp, bạn hãy chuẩn bị cả sim Smart lẫn Globe, và xử lý các việc quan trọng trước khi đến."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nếu đặt tour khám phá đảo tại quầy trên bãi biển hoặc nơi lưu trú ngay ngày đầu tiên đến, bạn có thể xuất phát vào ngày hôm sau. Bạn nên so sánh lộ trình và các mục bao gồm giữa nhiều quầy."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vì thuyền bangka cập thẳng vào bãi biển, khi lên xuống bạn phải lội nước đến đầu gối. Hành lý cần để trong túi chống nước."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Ban đêm bãi biển và các con hẻm ít ánh đèn nên đèn pin sẽ rất hữu ích." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Theo các hướng dẫn viên địa phương, khả năng gặp rùa biển cao hơn vào buổi sáng."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Việc chạm vào, đuổi theo hoặc cưỡi lên rùa biển đều bị cấm, và nếu bị phát hiện có thể bị xử phạt. Bạn cần giữ khoảng cách và quan sát theo hướng dẫn của hướng dẫn viên."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Khi lên thuyền bangka, bạn phải mặc áo phao, và không nên cố xuất bến vào ngày sóng cao."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Cát trên bãi biển có nhiều ruồi cát, nếu bị cắn có thể ngứa dữ dội trong vài ngày, nên bạn nên chuẩn bị thuốc chống côn trùng."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bệnh viện lớn gần nhất nằm ở Puerto Princesa, mất vài giờ di chuyển. Bạn cần chuẩn bị thuốc thông dụng và bảo hiểm du lịch."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Phí môi trường và quy định tour có thể thay đổi theo quyết định của chính quyền du lịch San Vicente, nên bạn cần kiểm tra thông báo mới nhất."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vào mùa mưa, đường núi có thể xảy ra sạt lở hoặc hư hỏng, nên bạn cần kiểm tra tình trạng đường trước khi di chuyển."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Bãi Dài San Vicente",
+              "place": "san-vicente-long-beach",
+              "children": [
+                { "text": "Là bãi cát trắng dài khoảng " },
+                { "type": "distance", "text": "14km" },
+                { "text": ", cách Port Barton khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                { "text": " đi xe, một trong những bãi cát dài nhất Philippines." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "El Nido",
+              "place": "el-nido",
+              "children": [
+                { "text": "Là điểm nghỉ dưỡng với vách đá vôi và đầm phá, cách khoảng " },
+                { "type": "duration", "text": "4–5 giờ" },
+                { "text": " đi xe van." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Sông ngầm Puerto Princesa",
+              "place": "puerto-princesa-underground-river",
+              "children": [
+                { "text": "Là dòng sông trong hang, di sản thế giới UNESCO, cách khoảng " },
+                { "type": "duration", "text": "3–4 giờ" },
+                { "text": " đi xe." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Vịnh Honda",
+              "place": "honda-bay",
+              "children": [
+                {
+                  "text": "Là điểm khám phá đảo cát gần Puerto Princesa, thích hợp để ghé qua trên đường về sân bay."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

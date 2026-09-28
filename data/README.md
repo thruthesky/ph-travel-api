@@ -1,17 +1,19 @@
 # 필리핀 여행 100선 — 여행지 JSON 작성 규격
 
-- 여행지: `data/<번호 3자리>-<slug>.json` (예: `030-vigan.json`)
-- 사진: `data/images/<같은 이름>.webp`, 추가 사진은 `-2`, `-3` 을 붙인다.
-- 표시 방법 목록: `data/content_display_type.json` — 모든 노드의 `type` 과 그 type 이 가질 수 있는 키가 여기에 정의돼 있다.
+- 여행지 원본: `data/ko/<번호 3자리>-<slug>.json` (예: `data/ko/030-vigan.json`) — 한국어가 원본 언어다.
+- 번역본: `data/<언어>/<같은 이름>.json` — `en`·`zh`·`ja`·`th`·`vi`·`ru`·`ar` (7절)
+- 사진: `data/images/<같은 이름>.webp`, 추가 사진은 `-2`, `-3` 을 붙인다. 모든 언어가 같은 사진을 쓴다.
+- 기준 정보: `data/meta.json` — 지원 언어, 분류·권역·지역·난이도 목록(언어별 이름), 속성·단락의 이름표, 그리고 모든 노드의 `type` 과 그 type 이 가질 수 있는 키(`display.types`)가 여기에 정의돼 있다.
 
-여행지를 추가·삭제해도 코드를 고칠 필요가 없다. 빌드 스크립트가 번호로 시작하는 `.json` 파일을 모두 읽는다.
+여행지를 추가·삭제해도 코드를 고칠 필요가 없다. 빌드 스크립트가 원본 언어 폴더의 번호로 시작하는 `.json` 파일을 모두 읽고, 다른 언어 폴더에 같은 이름의 번역본이 있는지 본다.
 규격 검사는 저장소 루트에서 `node scripts/build.mjs` 로 한다. 하나라도 어기면 exit 1 로 끝나 배포되지 않는다.
 
 ## 1. 기본 원칙
 
 1. **값은 노드다.** 여행지의 속성은 대부분 `{ "type": …, … }` 객체다.
-   - `type` 이 content_display_type 이다. 웹·앱은 이것을 보고 위젯을 고른다.
-   - 노드가 가질 수 있는 키와 필수 키는 `content_display_type.json` 의 `types.<type>.props` 에 있다. 빌드가 그대로 검사한다.
+   - `type` 이 표시 방법이다. 웹·앱은 이것을 보고 위젯을 고른다.
+   - 노드가 가질 수 있는 키와 필수 키는 `meta.json` 의 `display.types.<type>.props` 에 있다. 빌드가 그대로 검사한다.
+   - props 에 `translate: true` 가 붙은 키(글)만 언어마다 다르다. 나머지 키는 모든 언어가 같다.
    - 모든 블록 노드는 공통 키 `label`(이름표)·`icon`(Material Symbols 이름)·`variant`(모양 변형)·`style`(CSS)을 가질 수 있다.
 2. **글은 조각(`children`)으로 쓴다.**
    - 한 덩어리 글을 순서대로 자른 배열이다. 조각의 `text` 를 이어 붙이면 원문이 된다.
@@ -28,10 +30,10 @@
 | `title` | `title` | `text` | 여행지 이름 |
 | `title_en` | `subtitle` | `lang: "en"`, `text` | 영문 이름 |
 | `tagline` | `typography` | `variant: "tagline"`, `text` | 20~32자 감성 카피, 마침표 없음 |
-| `island_group` | `badge` | `label: "권역"`, `text` | 루손·비사야·민다나오 (팔라완·민도로·롬블론은 루손) |
-| `region` | `badge` | `label: "지역"`, `text` | 지방·섬 이름 (메트로 마닐라, 일로코스, 팔라완, 세부, 보홀 …) |
+| `island_group` | `badge` | `label: "권역"`, `value`, `text` | `value` 는 `meta.island_groups` 의 key(`luzon`·`visayas`·`mindanao`), `text` 는 그 이름(루손·비사야·민다나오). 팔라완·민도로·롬블론은 루손 |
+| `region` | `badge` | `label: "지역"`, `value`, `text` | `value` 는 `meta.regions` 의 key(`metro-manila`·`ilocos`·`palawan`·`cebu`·`bohol` … 32개), `text` 는 그 이름. 그 지역의 `island_group` 과 권역이 맞아야 한다 |
 | `location` | `address` | `label: "위치"`, `icon: "location_on"`, `text` | 주(州)·도시 수준 위치 |
-| `category` | `badge` | `label: "분류"`, `icon`, `text` | 아래 분류 7개 중 하나, icon 은 분류와 짝 |
+| `category` | `badge` | `label: "분류"`, `icon`, `value`, `text` | 아래 분류 7개 중 하나 — `value` 는 key, `icon`·`text` 는 그 분류의 것 |
 | `tags` | `tags` | `label: "태그"`, `items` | 짧은 명사 3~6개 |
 | `rating` | `rating` | `label: "추천도"`, `value`, `max: 5` | 4.0~5.0 소수 1자리 |
 | `latitude` | `latitude` | `label: "위도"`, `value` | 소수 4자리, 4~22 |
@@ -39,28 +41,33 @@
 | `best_season` | `date` | `label: "여행 최적기"`, `icon: "calendar_month"`, `text`, `months` | `months` 는 해당 달(1~12)을 첫 기간의 시작 달부터 순서대로. 목적별 기간(서핑·해변 등)이 여럿이면 모두 합치고, 축제 달은 넣지 않는다. `연중` 이면 1~12 |
 | `duration` | `duration` | `label: "여행 기간"`, `icon: "schedule"`, `text` | 반나절, 1박 2일, 2~3일 … |
 | `budget` | `price` | `label: "예산"`, `icon: "payments"`, `text`, `currency: "PHP"`, `min`, `max` | 1인 기준, text 에 "약"을 붙인다. 1일이 아닌 기준(투어 1회, 리브어보드 등)은 text 끝 괄호에 적는다. min·max 는 text 의 ₱ 범위 |
-| `difficulty` | `level` | `label: "난이도"`, `icon: "signal_cellular_alt"`, `text`, `value`, `max: 3` | 쉬움 1 · 보통 2 · 어려움 3 (접근성·체력 기준) |
+| `difficulty` | `level` | `label: "난이도"`, `icon: "signal_cellular_alt"`, `text`, `value`, `max: 3` | 쉬움 1 · 보통 2 · 어려움 3 (접근성·체력 기준, `meta.difficulties`) |
 | `airport` | `airport` | `label: "가까운 공항"`, `icon: "flight"`, `text`, `code` | text 는 `이름(코드)`, code 는 IATA 3자리 |
 | `image` | `image` | `url`, `alt`, `credit`, `source` | 대표 사진 (5절) |
 | `gallery` | `carousel` | `label: "사진"`, `items` | 추가 사진 image 노드 배열, 없으면 `[]` |
 | `summary` | `paragraph` | `variant: "lead"`, `children` | 카드와 상세 상단의 2~3문장 요약 (100~160자) |
 | `sections` | 배열 | section 노드 10개 | 3절 |
 
-분류와 아이콘:
+- **이름표(`label`)와 고정 아이콘은 `meta.fields` 에 언어별로 정해져 있다.** 위 표의 `label` 은 한국어 값이다. 빌드가 언어마다 같은지 검사한다.
+- **분류·권역·지역·난이도의 글(`text`)은 `meta.json` 목록의 이름과 같아야 한다.** 거르기는 `value` 로 한다.
 
-| category | icon |
-|----------|------|
-| 해변·섬 | `beach_access` |
-| 다이빙·해양 | `scuba_diving` |
-| 산·트레킹 | `hiking` |
-| 폭포·호수·강 | `water` |
-| 역사·문화 | `account_balance` |
-| 도시·미식 | `location_city` |
-| 자연 경관 | `landscape` |
+분류 (`meta.categories`):
+
+| key | 한국어 | 영어 | icon |
+|-----|--------|------|------|
+| `beach` | 해변·섬 | Beaches & Islands | `beach_access` |
+| `diving` | 다이빙·해양 | Diving & Marine Life | `scuba_diving` |
+| `mountain` | 산·트레킹 | Mountains & Trekking | `hiking` |
+| `water` | 폭포·호수·강 | Waterfalls, Lakes & Rivers | `water` |
+| `heritage` | 역사·문화 | History & Culture | `account_balance` |
+| `city` | 도시·미식 | Cities & Food | `location_city` |
+| `nature` | 자연 경관 | Natural Scenery | `landscape` |
+
+분류·지역을 새로 만들 때는 `meta.json` 의 목록에 key 와 8개 언어 이름을 먼저 넣는다.
 
 ## 3. 본문 — `sections`
 
-단락 하나는 `{ "type": "section", "key": …, "title": …, "icon": …, "blocks": [ … ] }` 다. 아래 10개를 이 순서대로 모두 쓴다(key·title 문구 그대로).
+단락 하나는 `{ "type": "section", "key": …, "title": …, "icon": …, "blocks": [ … ] }` 다. 아래 10개를 이 순서대로 모두 쓴다. key·icon·순서는 `meta.sections` 와 같고, title 은 `meta.sections[].title` 의 그 언어 문구 그대로다.
 
 | key | title | icon | blocks 구성 |
 |-----|-------|------|-------------|
@@ -133,3 +140,25 @@
   - 자주 바뀌는 규정(입장 예약제·환경세·관광 제한)에는 "최신 공지를 확인" 안내를 붙인다.
   - 필요하면 WebSearch/WebFetch 로 확인한다.
 - 이모지·HTML·마크다운 금지. 외부 링크는 공식 사이트가 확실할 때만 `link` 조각으로 쓴다.
+
+## 7. 다른 언어 — 번역본
+
+- 번역본은 원본(`data/ko/`)과 **모양이 같다**. 같은 속성·단락·블록을 같은 순서와 개수로 가진다.
+  - 숫자·코드·slug·사진·`icon`·`variant`·`value` 는 원본과 같아야 한다.
+  - 글(`translate: true` 인 키)과 `label` 만 그 언어로 쓴다.
+  - 글 조각(`children`)은 어순에 맞게 다시 자르되, 값 조각(`price`·`time` …)의 종류와 개수는 원본과 같다.
+  - `title_en` 은 모든 언어에서 원본과 같다.
+- 번역본에는 한글이 남으면 안 된다. 본문이 원본에 비해 크게 짧으면(40% 미만) 빌드가 실패한다.
+- 손으로 고치지 말고 번역 도구 `scripts/i18n.mjs` 를 쓴다.
+
+| 할 일 | 명령 |
+|-------|------|
+| 원본의 숫자·코드·사진을 고친 뒤 번역본에 옮기기 | `node scripts/i18n.mjs sync` |
+| 번역할 글 뽑기 | `node scripts/i18n.mjs export [파일…]` → `_i18n/src/<이름>.txt` |
+| 번역 검사 | `node scripts/i18n.mjs check <언어> [파일…]` — `_i18n/<언어>/<이름>.txt` |
+| 번역을 번역본으로 쓰기 | `node scripts/i18n.mjs import <언어> [파일…]` → `data/<언어>/<이름>.json` |
+| 쓰기 형식 맞추기 | `node scripts/i18n.mjs format` |
+
+- 번역 파일은 한 줄에 글 하나(`@번호 글`)이고, 값 조각은 `⟦type|글⟧` 로 쓴다. 규칙은 [i18n/GUIDE.md](../i18n/GUIDE.md) 에 있다.
+- 여행지 이름·지역·태그·공항 이름은 언어별 어휘집 `i18n/glossary/<언어>.json` 의 표기를 따른다.
+- `_i18n/` 은 작업 폴더라 git 에 넣지 않는다.

@@ -1,0 +1,758 @@
+{
+  "id": 65,
+  "slug": "mactan",
+  "title": { "type": "title", "text": "Đảo Mactan" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mactan Island" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Cách sân bay 20 phút, cửa ngõ của Cebu với khu nghỉ dưỡng và tour đảo"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "visayas", "text": "Visayas" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "cebu", "text": "Cebu" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Thành phố Lapu-Lapu · Cordova, tỉnh Cebu"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "Biển & đảo"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": ["Khu nghỉ dưỡng", "Tour khám phá đảo", "Lặn ống thở", "Lapu-Lapu", "Du lịch gia đình"]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 10.3 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.9667 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 12 – tháng 5 (mùa khô)",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "2 đêm 3 ngày – 4 đêm 5 ngày"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱2,500–6,000/người",
+    "currency": "PHP",
+    "min": 2500,
+    "max": 6000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Dễ",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay quốc tế Mactan–Cebu (CEB)",
+    "code": "CEB"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/065-mactan.webp",
+    "alt": "Đảo Mactan",
+    "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Magellan_Monument_in_2026.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/065-mactan-2.webp",
+        "alt": "Đảo Mactan",
+        "credit": "Peter Binter / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tropical-area-mactan-philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/065-mactan-3.webp",
+        "alt": "Đảo Mactan",
+        "credit": "No machine-readable author provided. Binter~commonswiki assumed (based on copyright claims). / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mactan-harbour.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "Đây là hòn đảo có sân bay quốc tế Mactan–Cebu, chỉ cần " },
+      { "type": "duration", "text": "20–40 phút" },
+      {
+        "text": " từ sân bay là đến khu nghỉ dưỡng ven biển. Với các tour đảo Hilutungan, Nalusuan, lặn biển, và di tích Trận Mactan nơi Lapu-Lapu đánh bại Magellan vào "
+      },
+      { "type": "date", "text": "năm 1521" },
+      { "text": ", đây là trung tâm du lịch Cebu được các gia đình Hàn Quốc ghé thăm nhiều nhất." }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Đảo Mactan là một đảo san hô bằng phẳng dài khoảng " },
+            { "type": "distance", "text": "15km" },
+            {
+              "text": ", nối với đảo chính Cebu bằng ba cây cầu ở phía đông. Trên đảo có sân bay quốc tế Mactan–Cebu, nên chỉ "
+            },
+            { "type": "duration", "text": "20–40 phút" },
+            {
+              "text": " sau khi xuống máy bay là bạn đã có thể ngâm mình trong hồ bơi khu nghỉ trước biển. Về hành chính, phần lớn đảo thuộc thành phố Lapu-Lapu và một phần phía nam thuộc thị trấn Cordova; với người Hàn Quốc, nói đến \"du lịch Cebu\" phần lớn đều hiểu là chuyến đi nghỉ dưỡng ở đảo Mactan này."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Mactan cũng là nơi mang tính biểu tượng trong lịch sử Philippines. Vào " },
+            { "type": "date", "text": "ngày 27 tháng 4 năm 1521" },
+            {
+              "text": ", các chiến binh do tù trưởng đảo Lapu-Lapu chỉ huy đã giao chiến và giết chết Ferdinand Magellan, người đang trong hành trình vòng quanh thế giới. Người Philippines tôn vinh Lapu-Lapu là anh hùng đầu tiên chống lại ngoại xâm; tại Đền Mactan (Mactan Shrine) ở phía đông bắc đảo có cả tượng Lapu-Lapu lẫn tượng đài Magellan do Tây Ban Nha dựng vào "
+            },
+            { "type": "date", "text": "năm 1866" },
+            { "text": ". Vào " },
+            { "type": "date", "text": "năm 2021" },
+            { "text": ", lễ kỷ niệm 500 năm trận chiến này đã được tổ chức long trọng." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Bờ biển phía đông của đảo là dải khu nghỉ dưỡng với các resort lớn nối tiếp nhau như Shangri-La, Plantation Bay, Crimson, J Park, Mövenpick. Bãi cát tuy không rộng lắm, nhưng biển trước resort êm và rạn san hô gần bờ nên rất thích hợp để lặn ống thở và lặn bình khí. Bên kia biển phía đông Mactan có các đảo nhỏ như Hilutungan (Gilutongan), Nalusuan, Pandanon, Caohagan; đi thuyền banca khám phá các đảo này trong một ngày chính là lịch trình tiêu biểu của chuyến đi Mactan."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Với gia đình có con nhỏ, chuyến đi hiếu thảo đưa cha mẹ đi chơi, hay dân công sở muốn tận dụng kỳ nghỉ ngắn ngày, Mactan là lựa chọn an toàn nhất vì ít tốn công di chuyển. Nghỉ ngơi tại resort, dành một ngày cho tour đảo và một ngày tham quan nội thành Cebu hoặc tour miền nam sẽ tạo nên một lịch trình cân bằng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Tour khám phá đảo",
+              "children": [
+                {
+                  "text": "Đây là tour một ngày đi thuyền banca, lặn ống thở ngắm cá nhiệt đới tại khu bảo tồn biển Hilutungan, ghé sàn nổi trên biển ở Nalusuan và bãi cát trắng đảo Pandanon. Nhiều gói tour đã bao gồm bữa trưa hải sản nướng ngay trên thuyền."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Lặn ống thở và lặn bình khí ngay trước khu nghỉ dưỡng",
+              "children": [
+                {
+                  "text": "Bờ biển phía đông Mactan có vách san hô sâu đột ngột nằm gần bờ, nên có thể lặn cả từ bờ lẫn bằng tàu. Có nhiều cửa hàng lặn hỗ trợ tiếng Hàn cho khóa lặn trải nghiệm dành cho người mới và khóa Open Water."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Đền Mactan và tượng Lapu-Lapu",
+              "children": [
+                {
+                  "text": "Đây là công viên lịch sử có tượng Lapu-Lapu, tượng đài Magellan và bức bích họa mô tả trận Mactan. Nên kết hợp thưởng thức sutukil (món hải sản) tại khu nhà hàng ven biển gần đó."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Bữa hải sản sutukil",
+              "children": [
+                {
+                  "text": "Sutukil là tên ghép từ sugba (nướng), tuwa (nấu canh), kilawin (ngâm giấm) — kiểu nhà hàng hải sản đặc trưng của Cebu, nơi bạn chọn cá, tôm, cua rồi yêu cầu chế biến theo cách mình thích."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Tham quan xưởng làm đàn guitar",
+              "children": [
+                {
+                  "text": "Mactan từ lâu nổi tiếng với nghề làm đàn guitar thủ công; bạn có thể tận mắt xem ukulele và guitar làm từ gỗ mít, gỗ mahogany, gỗ narra tại các xưởng thủ công. Ukulele nhỏ là món quà lưu niệm được ưa chuộng."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Vé sử dụng khu nghỉ dưỡng trong ngày (day use)",
+              "children": [
+                {
+                  "text": "Nếu bạn ở khách sạn giá rẻ trong thành phố, có thể mua vé day use của các resort lớn để dùng hồ bơi và bãi biển trong một ngày. Hãy đặt trước vào cuối tuần và ngày lễ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Khu bảo tồn chim di cư đảo Olango",
+              "children": [
+                {
+                  "text": "Khu bảo tồn động vật hoang dã trên đảo Olango, ngoài khơi Mactan, là điểm trú đông của chim di cư được công nhận là vùng đất ngập nước Ramsar. Bạn có thể ngắm chim di cư vào khoảng "
+                },
+                { "type": "date", "text": "tháng 9–3" },
+                { "text": ", rất thích hợp cho một buổi sáng hoặc chiều yên tĩnh." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Ngày 1",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "Buổi sáng",
+                      "children": [
+                        {
+                          "text": "Đến sân bay quốc tế Mactan–Cebu, di chuyển về khu nghỉ dưỡng (khoảng "
+                        },
+                        { "type": "duration", "text": "20–40 phút" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "Buổi chiều",
+                      "children": [
+                        {
+                          "text": "Nghỉ ngơi tại hồ bơi và bãi biển của resort, lặn ống thở ngay trước biển"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Buổi tối",
+                      "children": [{ "text": "Ăn tối hải sản tại resort hoặc quán sutukil gần đó" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 2",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "8 giờ sáng",
+                      "children": [
+                        { "text": "Khởi hành thuyền banca tour đảo từ resort hoặc bến tàu" }
+                      ]
+                    },
+                    {
+                      "time": "9 giờ sáng",
+                      "children": [{ "text": "Lặn ống thở tại khu bảo tồn biển Hilutungan" }]
+                    },
+                    {
+                      "time": "11 giờ sáng",
+                      "children": [{ "text": "Lặn ống thở tại sàn nổi đảo Nalusuan" }]
+                    },
+                    {
+                      "time": "12 giờ 30 trưa",
+                      "children": [
+                        { "text": "Ăn trưa hải sản nướng tại đảo Pandanon hoặc ngay trên thuyền" }
+                      ]
+                    },
+                    {
+                      "time": "3 giờ chiều",
+                      "children": [{ "text": "Quay lại resort, nghỉ ngơi" }]
+                    },
+                    { "time": "Buổi tối", "children": [{ "text": "Massage (spa) rồi ăn tối" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 3",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "9 giờ sáng",
+                      "children": [{ "text": "Ghé thăm Đền Mactan, tượng Lapu-Lapu" }]
+                    },
+                    {
+                      "time": "10 giờ 30 sáng",
+                      "children": [{ "text": "Tham quan xưởng đàn guitar và mua quà lưu niệm" }]
+                    },
+                    {
+                      "time": "12 giờ trưa",
+                      "children": [
+                        {
+                          "text": "Ăn trưa sutukil rồi ra sân bay (nếu còn thời gian, thêm nửa ngày tham quan thành phố Cebu)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Máy bay",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Sân bay quốc tế Mactan–Cebu (CEB) nằm ngay trên đảo. Từ Incheon, Busan có chuyến bay thẳng khoảng "
+                    },
+                    { "type": "duration", "text": "4 giờ 30 phút" },
+                    { "text": ", từ Manila khoảng " },
+                    { "type": "duration", "text": "1 giờ 20 phút" },
+                    {
+                      "text": ", với hàng chục chuyến nội địa mỗi ngày. Từ sân bay đến khu resort bờ đông bằng taxi · Grab mất khoảng "
+                    },
+                    { "type": "duration", "text": "20–40 phút" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱200–450" },
+                    {
+                      "text": ". Hầu hết resort đều có dịch vụ đón khách trả phí, và dịch vụ đón của các công ty du lịch Hàn Quốc cũng khá phổ biến."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Từ thành phố Cebu",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Từ thành phố Cebu sang Mactan có thể qua cầu Mactan–Mandaue cũ, cầu Marcelo Fernan, hoặc cao tốc nối Cebu–Cordova (CCLEX) khai trương vào "
+                    },
+                    { "type": "date", "text": "năm 2022" },
+                    { "text": ". Đi taxi · Grab mất khoảng " },
+                    { "type": "duration", "text": "40 phút – 1 giờ 30 phút" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱300–600" },
+                    {
+                      "text": ", và thường kẹt xe nặng vào giờ tan tầm. CCLEX có thu phí và rất tiện khi đi thẳng từ bờ biển phía nam Cebu (SRP) sang Cordova ở phía nam Mactan."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Di chuyển tại chỗ",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Trên đảo, phương tiện chính là taxi, Grab, xe ba bánh và multicab (jeepney nhỏ). Grab là tiện nhất giữa dải resort và sân bay, còn quãng đường gần có thể đi xe ba bánh với giá khoảng "
+                    },
+                    { "type": "price", "text": "₱20–100" },
+                    {
+                      "text": ". Tour đảo thường khởi hành từ bến tàu của resort hoặc bến thuyền banca ở bờ đông Mactan, và các tour của công ty du lịch thường đã bao gồm đón tại khách sạn."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Mùa khô từ " },
+            { "text": "tháng 12", "type": "date" },
+            { "text": " đến " },
+            { "text": "tháng 5", "type": "date" },
+            { "text": " là thời điểm tốt nhất. " },
+            { "text": "Tháng 1–4", "type": "date" },
+            {
+              "text": " biển êm và tầm nhìn tốt, lý tưởng cho tour đảo và lặn biển, lại trùng kỳ nghỉ đông và Tết của Hàn Quốc nên đông du khách Hàn nhất. "
+            },
+            { "text": "Tháng 3–5", "type": "date" },
+            { "text": " là nóng nhất và nắng gắt nhất, cần chuẩn bị chống nắng kỹ." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Từ " },
+            { "text": "tháng 6", "type": "date" },
+            { "text": " đến " },
+            { "text": "tháng 11", "type": "date" },
+            {
+              "text": " là mùa mưa với mưa rào buổi chiều thường xuyên, nhưng không nhiều ngày mưa suốt cả ngày. Vào mùa bão (chủ yếu "
+            },
+            { "text": "tháng 8–11", "type": "date" },
+            {
+              "text": "), lực lượng tuần duyên có thể đình chỉ tàu nhỏ khiến tour đảo bị hủy. Quanh ngày "
+            },
+            { "text": "27 tháng 4", "type": "date" },
+            {
+              "text": " có sự kiện tái hiện trận Mactan mang tên \"Kadaugan sa Mactan\", còn tuần thứ ba của "
+            },
+            { "text": "tháng 1", "type": "date" },
+            { "text": " là lễ hội Sinulog tại thành phố Cebu." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Taxi · Grab sân bay – khu nghỉ dưỡng",
+              "price": "khoảng ₱200–450",
+              "note": "Một chiều"
+            },
+            {
+              "label": "Tour đảo (ghép đoàn)",
+              "price": "khoảng ₱1,800–3,000",
+              "note": "1 người, theo gói có bao gồm bữa trưa"
+            },
+            {
+              "label": "Thuê thuyền banca riêng",
+              "price": "khoảng ₱3,500–7,000",
+              "note": "1 thuyền, tùy số người và thời gian"
+            },
+            {
+              "label": "Vé vào mỗi đảo",
+              "price": "khoảng ₱100–300",
+              "note": "Mỗi đảo, có thể phát sinh thêm phí môi trường"
+            },
+            {
+              "label": "Lặn trải nghiệm",
+              "price": "khoảng ₱3,000–5,000",
+              "note": "1 lần, gồm thiết bị và hướng dẫn"
+            },
+            {
+              "label": "Vé day use resort",
+              "price": "khoảng ₱1,500–4,000",
+              "note": "Kiểm tra có kèm suất ăn hay không"
+            },
+            {
+              "label": "Lưu trú",
+              "price": "khoảng ₱2,500–15,000",
+              "note": "1 đêm, từ khách sạn đến resort lớn"
+            },
+            { "label": "Ăn uống", "price": "khoảng ₱1,000–2,500", "note": "1 người/ngày" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nơi lưu trú ở Mactan chia thành resort lớn ở bờ đông, khách sạn business gần sân bay, và resort nhỏ vừa quanh khu Maribago · Punta Engaño. Resort lớn có bãi biển riêng và hồ bơi cỡ công viên nước có giá từ khoảng "
+            },
+            { "type": "price", "text": "₱8,000–20,000" },
+            { "text": "/đêm trở lên, resort nhỏ vừa khoảng " },
+            { "type": "price", "text": "₱3,000–6,000" },
+            { "text": ", khách sạn gần sân bay khoảng " },
+            { "type": "price", "text": "₱2,000–3,500" },
+            {
+              "text": ". Nếu đi cùng trẻ nhỏ, hãy chọn resort có hồ bơi và câu lạc bộ thiếu nhi; nếu mục đích là lặn ống thở, hãy chọn nơi có rạn san hô ngay trước bờ (house reef) tốt."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Món ăn tiêu biểu là hải sản sutukil. Gần Đền Mactan và khu nhà hàng ven biển, bạn chọn hải sản còn sống trong bể theo cân rồi nhờ chế biến; hãy hỏi rõ giá theo kg trước khi gọi. Lechon Cebu, xoài Cebu ngọt lịm, sinigang (canh chua) và kilawin cũng là những món nên thử. Quanh Mactan Marina Mall và Island Central Mall có nhà hàng Hàn Quốc và siêu thị Hàn, nên người ở lại lâu ngày cũng ít bất tiện."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Tour đảo xuất phát càng sớm buổi sáng thì biển càng êm và ít người. Hãy chắc chắn kiểm tra xem vé vào từng đảo đã bao gồm trong giá tour hay chưa."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Cho cá ăn bánh mì hay bánh snack tại các điểm lặn ống thở trong tour là vi phạm quy định khu bảo tồn biển và gây hại cho hệ sinh thái san hô."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi đến sân bay, dùng Grab sẽ không cần mặc cả giá. Hãy tìm khu vực đón khách dành riêng cho Grab ở tầng đến."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Đổi tiền tại quầy đổi tiền chính thức trong trung tâm thương mại thường có tỷ giá tốt hơn ở sân bay. Với số tiền lớn, nên chia ra đổi ở vài nơi để an toàn hơn."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Đồ ăn và thức uống trong resort khá đắt, nên dùng bữa bên ngoài một, hai lần có thể tiết kiệm đáng kể ngân sách."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Tại quán sutukil, nhất định phải hỏi giá hải sản theo kg và phí chế biến trước khi gọi món."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Các điểm chụp ảnh được ưa chuộng là sàn nổi đảo Nalusuan, bãi cát nổi đảo Pandanon và trước tượng Lapu-Lapu ở Đền Mactan."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Có nhiều người mời chào tour đảo trên đường. Hãy đặt qua công ty đã đăng ký hoặc qua nơi lưu trú, và kiểm tra có trang bị áo phao hay không."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi lặn ống thở, hãy mang giày lội nước để tránh bị nhím biển hoặc san hô làm trầy xước, và không giẫm hay chạm vào san hô."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Có thời điểm sứa xuất hiện, nên mặc áo lặn (rash guard); nếu bị chích, hãy rửa bằng giấm rồi đến phòng y tế của resort."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Tia UV giữa trưa rất mạnh, có thể gây bỏng nắng chỉ trong thời gian ngắn. Hãy chuẩn bị kem chống nắng thân thiện với biển và mũ."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Quanh sân bay và trước trung tâm thương mại có taxi hét giá quá cao, hãy yêu cầu bật đồng hồ tính tiền hoặc dùng Grab."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Khi có cảnh báo bão hoặc gió mạnh, lực lượng tuần duyên sẽ cấm thuyền banca nhỏ hoạt động. Hãy xếp tour đảo vào ngày còn dư trong lịch trình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Thành phố Cebu",
+              "place": "cebu-city",
+              "children": [
+                { "text": "Khoảng " },
+                { "type": "duration", "text": "40 phút – 1 giờ 30 phút" },
+                {
+                  "text": " đi ô tô, thành phố lâu đời nhất Philippines với Thánh giá Magellan và Vương cung thánh đường Santo Niño."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Đền Leah",
+              "place": "temple-of-leah",
+              "children": [
+                { "text": "Khoảng " },
+                { "type": "duration", "text": "1 giờ – 1 giờ 30 phút" },
+                {
+                  "text": " đi ô tô, ngôi đền kiểu Hy Lạp – La Mã trên đồi Cebu, đồng thời là điểm ngắm cảnh."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Oslob",
+              "place": "oslob",
+              "children": [
+                { "text": "Khoảng " },
+                { "type": "duration", "text": "3 giờ 30 phút – 4 giờ" },
+                {
+                  "text": " đi ô tô, điểm đến tiêu biểu cho tour trong ngày ở miền nam Cebu, nơi bạn có thể bơi cùng cá mập voi."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Bohol",
+              "children": [
+                { "text": "Khoảng " },
+                { "type": "duration", "text": "2 giờ" },
+                {
+                  "text": " đi tàu cao tốc từ bến tàu Cebu, hòn đảo nổi tiếng với Đồi Chocolate và khỉ lùn tarsier."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

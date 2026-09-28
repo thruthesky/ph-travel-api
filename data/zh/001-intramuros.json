@@ -1,0 +1,586 @@
+{
+  "id": 1,
+  "slug": "intramuros",
+  "title": { "type": "title", "text": "王城区" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Intramuros" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "沉睡在西班牙城墙内的马尼拉四百年记忆" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "luzon", "text": "吕宋" },
+  "region": { "type": "badge", "label": "地区", "value": "metro-manila", "text": "大马尼拉" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "大马尼拉马尼拉市王城区" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "历史·文化"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["城墙古城", "世界遗产教堂", "步行游览", "卡莱萨马车", "拍照胜地"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.6, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 14.5915 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 120.9736 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "12月~4月（旱季）",
+    "months": [12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "半天~1天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱1,000~2,500",
+    "currency": "PHP",
+    "min": 1000,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "简单",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "尼诺伊·阿基诺国际机场 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/001-intramuros.webp",
+    "alt": "王城区",
+    "credit": "Diego Delso / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Baluartillo_de_San_Jos%C3%A9,_Manila,_Filipinas,_2023-08-26,_DD_41.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/001-intramuros-2.webp",
+        "alt": "王城区",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila,_Intramuros_Gardens,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/001-intramuros-3.webp",
+        "alt": "王城区",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila,_Intramuros_Gardens_3,_Philippines.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "type": "date", "text": "1571年" },
+      { "text": "西班牙人建造的城墙古城，圣地亚哥堡与联合国教科文组织世界遗产圣奥古斯汀教堂至今犹存。步行或乘坐竹自行车、卡莱萨马车，半天即可游览马尼拉殖民历史的核心。" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "王城区（Intramuros）在西班牙语中意为“城墙之内”。" },
+            { "type": "date", "text": "1571年" },
+            { "text": "米格尔·洛佩斯·德·莱加斯皮在帕西河河口建立马尼拉殖民地首府后，为抵御海盗与外敌入侵，修筑了周长约" },
+            { "type": "distance", "text": "4.5公里" },
+            { "text": "的石造城墙，形成了今日的模样。占地约64公顷，步行一两个小时便可绕完一圈，规模虽小，却层层积淀着历经西班牙、美国、日本统治时期的菲律宾近代史。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "第二次世界大战末期的" },
+            { "type": "date", "text": "1945年" },
+            { "text": "马尼拉战役中，城墙内大部分建筑毁于轰炸与巷战。如今所见的教堂与宅邸多为战后修复或重建，但" },
+            { "type": "date", "text": "1607年" },
+            { "text": "竣工的圣奥古斯汀教堂挺过了战火，于" },
+            { "type": "date", "text": "1993年" },
+            { "text": "作为“菲律宾巴洛克教堂”之一列入联合国教科文组织世界遗产名录。城墙西北端的圣地亚哥堡是民族英雄何塞·黎刹被处决前遭囚禁之地，对菲律宾人而言犹如圣地。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "石板路上马车卡莱萨（kalesa）缓缓驶过，仿古煤气灯造型的路灯下延续着一排排西班牙式阳台，这种景致在高楼林立的大马尼拉十分罕见。无论是对历史感兴趣的旅行者、喜爱摄影的人，还是初到马尼拉的家庭游客，这里都很合适；若在马尼拉只能停留一天，也是首选推荐地。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "管理机构王城区管理局（Intramuros Administration）负责维护城墙与主要设施，因此治安与整洁程度优于马尼拉其他老城区。城墙步道与要塞公园在日落时分尤为美丽，部分设施夜间也开放，可以享受夜景漫步。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "游览圣地亚哥堡",
+              "children": [
+                {
+                  "text": "这座要塞曾守卫城墙古城的西北角，内有城门、护城河、地牢遗址与黎刹纪念馆（黎刹圣龛）。地面上以青铜脚印标记出黎刹从牢房走向刑场的路线，游客可循迹而行。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "圣奥古斯汀教堂与博物馆",
+              "children": [
+                {
+                  "text": "这是菲律宾最古老的石造教堂，天花板上的三维错觉壁画（Trompe-l'œil）与巴洛克祭坛尤为震撼。毗邻的修道院内设有圣奥古斯汀博物馆，收藏着圣物、宗教画作与西班牙殖民时期文物。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "马尼拉大教堂",
+              "children": [
+                { "text": "这座大教堂坐落于王城区中心广场罗马广场前，历经地震与战火多次损毁，于" },
+                { "type": "date", "text": "1958年" },
+                { "text": "重建为今日的模样。彩绘玻璃与管风琴令人印象深刻，且免费入场。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "在马尼拉之家体验殖民时期宅邸",
+              "children": [
+                {
+                  "text": "这座博物馆重现了19世纪富裕阶层的宅邸风貌，可以看到内院、木格窗棂、贝壳窗（卡皮斯贝窗）以及当时的家具。同一街区的圣路易斯广场内聚集着咖啡馆与纪念品店。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "竹自行车之旅",
+              "children": [
+                { "text": "本地社会企业Bambike提供骑竹制自行车、由向导带领游览城墙古城的行程。比起在炎热白天步行轻松得多，也有包含主要景点门票的路线可选。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "城墙漫步与日落",
+              "children": [
+                { "text": "登上圣地亚哥棱堡（圆形要塞）与城墙步道，可以俯瞰高尔夫球场与马尼拉市区。日落时分，石墙被染成红色，是拍照效果最好的时刻。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "乘坐卡莱萨马车",
+              "children": [
+                { "text": "可在马尼拉大教堂或圣地亚哥堡门前搭乘马车。行程一般以" },
+                { "type": "duration", "text": "30分钟~1小时" },
+                { "text": "为单位议价，出发前务必确认是按人收费还是整车收费。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "半天行程（上午）",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "08:00", "children": [{ "text": "进入圣地亚哥堡，趁清晨凉爽参观要塞与黎刹纪念馆" }] },
+                    { "time": "09:30", "children": [{ "text": "漫步马尼拉大教堂与罗马广场" }] },
+                    {
+                      "time": "10:15",
+                      "children": [
+                        { "text": "参观圣奥古斯汀教堂与博物馆（约" },
+                        { "type": "duration", "text": "1小时" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "11:30", "children": [{ "text": "过街前往马尼拉之家与圣路易斯广场" }] },
+                    { "time": "12:30", "children": [{ "text": "在王城区内的菲律宾餐厅享用午餐" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "一日行程",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "08:00~12:30", "children": [{ "text": "按上述半天行程进行" }] },
+                    { "time": "12:30", "children": [{ "text": "午餐后在咖啡馆休息" }] },
+                    { "time": "14:30", "children": [{ "text": "参加竹自行车之旅，或乘卡莱萨马车绕城墙外围一圈" }] },
+                    { "time": "16:30", "children": [{ "text": "圣地亚哥棱堡与城墙步道" }] },
+                    { "time": "17:30", "children": [{ "text": "在城墙上欣赏日落" }] },
+                    { "time": "18:30", "children": [{ "text": "前往黎刹公园或马尼拉湾方向享用晚餐" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "从机场出发",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从尼诺伊·阿基诺国际机场（NAIA）到王城区约" },
+                    { "type": "distance", "text": "10公里" },
+                    { "text": "，视路况需" },
+                    { "type": "duration", "text": "30分钟~1小时20分钟" },
+                    { "text": "。搭乘Grab出租车最为方便，车费约" },
+                    { "type": "price", "text": "₱300~600" },
+                    { "text": "。周五晚间与下雨天车费会大幅上涨，耗时也可能翻倍。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "轻轨（LRT）",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "在LRT 1号线中央总站（Central Terminal）站下车，经马尼拉市政厅前步行" },
+                    { "type": "duration", "text": "10~15分钟" },
+                    { "text": "，即可到达城墙东南入口。票价视区间而定，约" },
+                    { "type": "price", "text": "₱15~35" },
+                    { "text": "，使用交通卡（beep卡）或移动支付可减少排队。高峰时段（" },
+                    { "type": "time", "text": "上午7~9点" },
+                    { "text": "、" },
+                    { "type": "time", "text": "下午5~8点" },
+                    { "text": "）非常拥挤。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "出租车·Grab",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从马卡蒂或BGC搭乘Grab约需" },
+                    { "type": "duration", "text": "30分钟~1小时" },
+                    { "text": "，车费约" },
+                    { "type": "price", "text": "₱250~450" },
+                    { "text": "。将目的地设为“圣地亚哥堡”或“马尼拉大教堂”，车辆会直接开进城墙内让你下车。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "城墙内交通",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "城墙内大部分地方步行即可到达。若难耐酷热，可乘坐电动三轮车（e-trike）或人力三轮车，短程约" },
+                    { "type": "price", "text": "₱50~100" },
+                    { "text": "，按时计费的游览则需要议价。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "最佳时节是" },
+            { "type": "date", "text": "12月~2月" },
+            { "text": "。早晚气温在24~26度左右，凉爽宜人，适合步行，且几乎不下雨。" },
+            { "type": "date", "text": "3月~5月" },
+            { "text": "虽属旱季，但正午气温可达34~36度，遮荫较少的城墙上十分闷热，这段时间建议在清晨或" },
+            { "type": "time", "text": "下午4点" },
+            { "text": "以后出行。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月~10月" },
+            { "text": "为雨季，午后常有阵雨，" },
+            { "type": "date", "text": "7~9月" },
+            {
+              "text": "期间台风也可能经过马尼拉。王城区周边部分路段在暴雨时会积水，发布台风警报的日子应避免前往。不过雨季上午晴朗的日子也不少，若以室内博物馆为主安排行程，仍可充分游览。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "圣周（复活节前一周，通常在" },
+            { "type": "date", "text": "3月末~4月" },
+            { "text": "）期间教堂活动众多，可看之处丰富，但部分设施也会暂停开放。" },
+            { "type": "date", "text": "12月" },
+            { "text": "圣诞季，教堂与广场装点上彩灯，夜景格外美丽。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "机场↔王城区 Grab", "price": "约₱300~600（单程）", "note": "视时段与天气变动" },
+            { "label": "圣地亚哥堡门票", "price": "约₱75", "note": "学生·老人优惠约₱50" },
+            { "label": "圣奥古斯汀博物馆", "price": "约₱200", "note": "参加教堂弥撒免费" },
+            { "label": "马尼拉之家门票", "price": "约₱75", "note": "周一休馆" },
+            { "label": "竹自行车之旅", "price": "约₱800~1,300", "note": "视路线及是否含门票而异" },
+            { "label": "卡莱萨马车", "price": "约₱300~1,000", "note": "按整车计价，需议价" },
+            { "label": "午餐", "price": "约₱300~800", "note": "菲律宾家常菜至餐厅不等" },
+            { "label": "咖啡馆·小吃", "price": "约₱150~300" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "王城区内住宿选择不多。城墙内最具代表性的酒店是海湾叶王城区酒店（The Bayleaf Intramuros），一晚约" },
+            { "type": "price", "text": "₱4,000~6,500" },
+            { "text": "，天台酒吧可俯瞰城墙与高尔夫球场的夜景。若想扩大选择范围，可考虑车程" },
+            { "type": "duration", "text": "10~15分钟" },
+            { "text": "的埃尔米塔·马拉特地区（一晚约" },
+            { "type": "price", "text": "₱2,000~5,000" },
+            { "text": "），或临近马尼拉湾的罗哈斯大道沿线酒店。也有不少韩国游客选择下榻马卡蒂或BGC，当天往返游览。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "美食方面，建议在城墙内的老字号菲律宾餐厅品尝酸汤（Sinigang，酸罗望子汤）、咖喱咖喱（Kare-Kare，花生酱炖菜）、脆皮炸猪肉（Lechon Kawali）等传统菜肴。圣路易斯广场一带的芭芭拉餐厅（Barbara's）是一家历史悠久的餐厅，晚上会提供搭配菲律宾传统表演的自助餐。下午可在城墙附近的咖啡馆里喝一杯菲律宾产的巴拉可咖啡或卡拉曼西汁消暑，再步行"
+            },
+            { "type": "duration", "text": "15分钟" },
+            { "text": "前往岷伦洛唐人街享用晚餐，这样的动线也很不错。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "type": "time", "text": "上午8点" },
+                { "text": "前后抵达，先参观圣地亚哥堡，这时人少也不太热。正午（" },
+                { "type": "time", "text": "11点~15点" },
+                { "text": "）时段建议以室内博物馆或咖啡馆为主安排行程。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "圣地亚哥堡和马尼拉之家的售票处大多可以刷卡或用GCash支付，但卡莱萨马车、三轮车和街头小吃通常只收现金，请多准备" },
+                { "type": "price", "text": "₱20~100" },
+                { "text": "的小面额纸币。" }
+              ]
+            },
+            { "children": [{ "text": "教堂是宗教场所，请避免穿无袖上衣和短裤，弥撒期间也应避免使用闪光灯拍照及大声交谈。" }] },
+            { "children": [{ "text": "帽子、遮阳伞、防晒霜和饮用水必不可少。城墙上与广场几乎没有遮荫处。" }] },
+            {
+              "children": [
+                { "text": "热门拍照点包括圣地亚哥堡正门、圣奥古斯汀教堂正面、马尼拉之家庭院，以及城墙上的炮台（架设大炮之处）。日落时分城墙的光线最美。" }
+              ]
+            },
+            { "children": [{ "text": "若不跟随向导游览，建议提前在免费地图应用中标记好主要景点。城墙内道路呈网格状，不太容易迷路，但入口有好几处。" }] },
+            { "children": [{ "text": "王城区管理局运营的设施，各自的休馆日和夜间开放时间可能会有变动，出发前请确认官方公告。" }] },
+            { "children": [{ "text": "周一马尼拉之家等部分博物馆休息，因此工作日周二至周五前往最为从容。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "卡莱萨马车和人力三轮车车夫常会主动上前招揽“游览”生意。若出发前没有明确约定路线、所需时间和总费用（是按人计费还是整车计费），结束后可能被要求支付高出数倍的费用。"
+                }
+              ]
+            },
+            { "children": [{ "text": "城墙外马尼拉市政厅、帕西河沿岸一带人流密集，有扒手出没。请勿将手机放在后裤袋，包也应背在身前。" }] },
+            {
+              "children": [
+                { "text": "正午酷热容易出现中暑症状（头痛、眩晕）。请每隔" },
+                { "type": "duration", "text": "1小时" },
+                { "text": "到阴凉处休息并补充水分。" }
+              ]
+            },
+            { "children": [{ "text": "城墙上部分路段护栏较低甚至没有护栏，若带小孩同行需特别留意。雨后石板路面非常湿滑。" }] },
+            { "children": [{ "text": "台风或暴雨期间部分区域会积水，设施也可能临时关闭，请查看菲律宾气象局（PAGASA）的预报。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "乘坐卡莱萨马车或人力三轮车前务必先谈妥价格，最好把金额写在手机备忘录上给车夫确认，这样更为安全。" }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "黎刹公园",
+              "place": "rizal-park",
+              "children": [
+                { "text": "从王城区南侧城墙步行" },
+                { "type": "duration", "text": "10~15分钟" },
+                { "text": "。这里是马尼拉的地标公园，设有黎刹纪念碑和宽阔的草坪广场。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "菲律宾国家博物馆",
+              "place": "national-museum",
+              "children": [
+                { "text": "步行约" },
+                { "type": "duration", "text": "15分钟" },
+                { "text": "。可免费参观菲律宾美术、人类学与自然史展览，适合作为炎热正午的行程安排。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "岷伦洛唐人街",
+              "place": "binondo",
+              "children": [
+                { "text": "过琼斯桥步行约" },
+                { "type": "duration", "text": "20分钟" },
+                { "text": "，或搭乘Grab约" },
+                { "type": "duration", "text": "10分钟" },
+                { "text": "。这里是" },
+                { "type": "date", "text": "1594年" },
+                { "text": "形成的世界最古老唐人街，非常适合安排午餐或晚餐的美食之旅。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "马尼拉湾",
+              "place": "manila-bay",
+              "children": [
+                { "text": "搭乘Grab约" },
+                { "type": "duration", "text": "10~15分钟" },
+                { "text": "。可在罗哈斯大道的海滨步道及白云石海滩欣赏马尼拉著名的日落。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

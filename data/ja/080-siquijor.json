@@ -1,0 +1,629 @@
+{
+  "id": 80,
+  "slug": "siquijor",
+  "title": { "type": "title", "text": "シキホール島" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Siquijor" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "伝説と滝と夕焼けが宿る神秘の島" },
+  "island_group": { "type": "badge", "label": "地方", "value": "visayas", "text": "ビサヤ" },
+  "region": { "type": "badge", "label": "地域", "value": "siquijor", "text": "シキホール" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "シキホール州(サンフアン・ラジ・シキホール・ラレナ)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "ビーチ・島"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "タグ",
+    "items": ["カンブガハイ滝", "島一周", "サンセット", "伝統療法", "スペイン時代の教会"]
+  },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.6, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 9.18 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 123.58 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "12月〜5月(乾季)",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "2〜3日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱2,000〜4,500",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ドゥマゲテ・シブラン空港 (DGT)",
+    "code": "DGT"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/080-siquijor.webp",
+    "alt": "シキホール島",
+    "credit": "Franz Miko Verzon / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:St._Francis_of_Assisi_Church_(Siquijor,_Siquijor).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/080-siquijor-2.webp",
+        "alt": "シキホール島",
+        "credit": "Renzelle Mae Abasolo from Philippines / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Coco_Grove_Beach_Resort,_Siquijor,_Philippines_(8160857823).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/080-siquijor-3.webp",
+        "alt": "シキホール島",
+        "credit": "Checawey / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Paliton_Beach,_Siquijor,_Philippines.JPG"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "ネグロス島ドゥマゲテの沖に浮かぶ小さな島で、魔女や薬草治療師の伝説から「神秘の島」と呼ばれます。段状の滝と白砂浜、古い教会をバイク一台で一日で回ることができます。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "シキホールは、ネグロス島南東部のドゥマゲテから船で約" },
+            { "type": "duration", "text": "1時間" },
+            { "text": "の距離にある、フィリピンで最も小さな州の一つです。島の周囲は約" },
+            { "type": "distance", "text": "70km" },
+            {
+              "text": "ほどで、海岸環状道路をバイクで回れば一日で一周でき、サンフアン(San Juan)、ラジ(Lazi)、シキホール(Siquijor)、ラレナ(Larena)、マリア(Maria)、エンリケ・ビリャヌエバ(Enrique Villanueva)の6つの自治体が島を分けています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "この島は古くからフィリピンの人々の間で「魔女の島」「神秘の島」と呼ばれてきました。スペインの船乗りたちが夜の海で島の森に集まるホタルの光を見て「火の島」と呼んだという話や、山あいの村に住む薬草治療師(マンババラン)と呪術師にまつわる噂が、こうしたイメージを作りました。実際、島には今も薬草と祈りを用いる伝統的な治療師がおり、聖週間には薬草薬を作る伝統行事が開かれますが、旅行者が感じるシキホールは、恐ろしいというよりむしろ素朴で親切な島に近いです。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "島の代表的な名所は、ラジのカンブガハイ滝(Cambugahay Falls)です。石灰岩地帯を流れる水が何段もの階段状の水たまりを作りながら落ち、水の色が翡翠色でとても美しく、木に結んだロープを使って水へ飛び込む体験が人気です。同じラジには、"
+            },
+            { "type": "date", "text": "1880年" },
+            { "text": "代に完成した聖イシドロ・ラブラドール教会と、フィリピンで最大級と言われる旧修道院の建物が残っており、国の文化財として保護されています。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "西側のサンフアン海岸にはリゾートとカフェ、ダイブショップが集まっており、夕暮れ時のパリトンビーチの夕焼けはシキホール旅行のハイライトです。" },
+            { "type": "date", "text": "2025年" },
+            {
+              "text": "末からセブから直行の小型航空便が運航を始め、アクセスが良くなりましたが、それでも開発の速度は緩やかなため、バイクに乗って島をゆったり回りビーチと滝を楽しみたい自由旅行者やカップルに特によく合います。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "カンブガハイ滝の水泳とロープスイング",
+              "children": [
+                {
+                  "text": "ラジの森の中にある段状の滝で、駐車場から130段ほどの階段を下りると翡翠色の水たまりが次々と現れます。ロープを使って水へ飛び込むロープスイングと竹の筏体験は少額の料金がかかります。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "パリトンビーチの夕日",
+              "children": [
+                {
+                  "text": "サンフアンの小さな白砂ビーチ、パリトンビーチ(Paliton Beach)は、ヤシの木の間から海に沈む太陽を見られる島随一の夕日の名所です。ビーチ前のサンゴ地帯はシュノーケリングにも良いです。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "ラジ教会と修道院",
+              "children": [
+                {
+                  "text": "サンゴ石と木材で建てられた聖イシドロ・ラブラドール教会と、道を挟んだ向かいにある巨大な旧修道院(コンベント)は、スペイン植民地時代建築の傑作です。木の床が長い廊下に沿って続く修道院の建物は、その規模だけでも圧倒されます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "樹齢百年のバレテの木と魚のスパ",
+              "children": [
+                {
+                  "text": "サンフアン・カンパラナスにある巨大なバレテ(ガジュマル)の木は数百年前のものと言われており、木の根元から湧く泉の水たまりに足を浸すと、小さな魚が角質を食べてくれます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "サラグドンビーチのクリフダイビング",
+              "children": [
+                {
+                  "text": "島東部マリアのサラグドンビーチ(Salagdoong Beach)には海へ向かって伸びるコンクリート製の飛び込み台があり、数メートルの高さから飛び込むことができます。周囲の森とビーチ公園が広く、ピクニックの場所としても人気です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "カンタボン洞窟探検",
+              "children": [
+                {
+                  "text": "島中央の山地にあるカンタボン洞窟(Cantabon Cave)は、ガイドと共に水が流れる洞窟の中をヘッドランプを頼りに歩く探検コースで、鍾乳石と石筍でいっぱいです。"
+                },
+                { "type": "duration", "text": "1〜2時間" },
+                { "text": "かかり、服が濡れる覚悟が必要です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "シュノーケリングとダイビング",
+              "children": [
+                {
+                  "text": "サンフアンとシキホールタウン沖のサンゴの壁はウミガメと小さなサンゴ礁の魚が多く、ダイビングの入門地として良く、ダイブショップは近隣のアポ島への遠征ダイビングも運営しています。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "薬草治療文化に触れる",
+              "children": [
+                {
+                  "text": "聖週間の聖金曜日から聖土曜日にかけて、サンアントニオ村一帯で治療師たちが薬草を集めて伝統薬を作る行事が開かれます。それ以外の時期でもお土産店で薬草オイル(ラブポーション)を売っているので、興味本位で買ってみるのも良いでしょう。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "午前",
+                      "children": [
+                        { "text": "ドゥマゲテ港でフェリー乗船、約" },
+                        { "type": "duration", "text": "1時間" },
+                        { "text": "後にシキホール港到着" }
+                      ]
+                    },
+                    { "time": "午後12時", "children": [{ "text": "サンフアン海岸の宿へ移動しチェックイン、昼食" }] },
+                    { "time": "午後2時〜4時", "children": [{ "text": "樹齢百年のバレテの木と魚のスパ" }] },
+                    { "time": "午後5時〜6時30分", "children": [{ "text": "パリトンビーチの夕日" }] },
+                    { "time": "夕方", "children": [{ "text": "サンフアン海岸のカフェ街で夕食" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2日目(バイクで島一周)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "午前8時", "children": [{ "text": "サンフアン出発、海岸道路沿いにラジ方面へ移動" }] },
+                    { "time": "午前9時〜11時", "children": [{ "text": "カンブガハイ滝の水泳とロープスイング" }] },
+                    { "time": "午前11時30分", "children": [{ "text": "ラジ教会と修道院見学" }] },
+                    { "time": "午後1時", "children": [{ "text": "マリア地域で昼食後サラグドンビーチ" }] },
+                    { "time": "午後3時30分", "children": [{ "text": "ラレナを経てシキホールタウンの教会と海岸散策" }] },
+                    { "time": "夕方", "children": [{ "text": "サンフアンへ戻って休憩" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "午前", "children": [{ "text": "カンタボン洞窟探検またはシュノーケリング・ダイビング" }] },
+                    {
+                      "time": "午後",
+                      "children": [{ "text": "シキホール港またはラレナ港からドゥマゲテへ移動(出発時に観光生態料を納付)" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "最も一般的な経路は、マニラからドゥマゲテ・シブラン空港(DGT)まで飛行機で約" },
+                    { "type": "duration", "text": "1時間20分" },
+                    { "text": "移動した後、船に乗ることです。空港からドゥマゲテ港まではトライシクルかタクシーで約" },
+                    { "type": "duration", "text": "15〜20分" },
+                    { "text": "(約" },
+                    { "type": "price", "text": "₱150〜300" },
+                    { "text": ")です。" },
+                    { "type": "date", "text": "2025年12月" },
+                    { "text": "からはサンライト・エア(Sunlight Air)がセブからシキホール空港まで直行の小型機を運航し始め、約" },
+                    { "type": "duration", "text": "1時間" },
+                    { "text": "で島に着けるようになりました。運航便数と運賃は随時変わるので航空会社の告知を確認してください。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "ドゥマゲテ港からシキホール港またはラレナ港まで、オーシャンジェット(OceanJet)、モンテネグロ(Montenegro)など複数の船会社が1日に何度も運航しています。高速船は約"
+                    },
+                    { "type": "duration", "text": "45分〜1時間" },
+                    { "text": "、一般のロロ船は約" },
+                    { "type": "duration", "text": "1時間30分〜2時間" },
+                    { "text": "で、運賃は約" },
+                    { "type": "price", "text": "₱200〜400" },
+                    { "text": "です。セブやボホールのタグビラランからもオーシャンジェットの高速船がシキホールまで運航しており(ボホールから約" },
+                    { "type": "duration", "text": "2時間" },
+                    { "text": ")、セブ発は乗り継ぎを含めて半日かかります。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "島内の移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "シキホール港前にはバイクレンタル店とトライシクルの運転手が待っています。バイクレンタルは1日約" },
+                    { "type": "price", "text": "₱350〜500" },
+                    { "text": "、トライシクルで島一周ツアーをチャーターすると約" },
+                    { "type": "price", "text": "₱1,500〜2,500" },
+                    { "text": "です。港からサンフアンの宿までトライシクルで約" },
+                    { "type": "duration", "text": "20〜30分" },
+                    { "text": "、" },
+                    { "type": "price", "text": "₱300〜400" },
+                    { "text": "程度です。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "乾季の" },
+            { "type": "date", "text": "12月〜5月" },
+            { "text": "が最も良く、その中でも" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "は海が穏やかでフェリーが快適、夕日も鮮明です。ただし" },
+            { "type": "date", "text": "4月〜5月" },
+            { "text": "はカンブガハイ滝の水量が減り水の色が薄くなることがあるので、滝を重視するなら雨季直後の" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "のほうが水量が多くより美しいです。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜11月" },
+            {
+              "text": "の雨季には午後のにわか雨が多く、大雨の後は滝の水が濁って数日間泳ぎにくくなることもあります。シキホールはフィリピンの台風経路から比較的南に位置していますが、"
+            },
+            { "type": "date", "text": "10月〜12月" },
+            { "text": "に台風や熱帯低気圧が通過するとドゥマゲテ行きのフェリーが欠航することがあります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "聖週間(" },
+            { "type": "date", "text": "3月末〜4月中旬" },
+            { "text": ")には、薬草治療の行事を見に来る国内旅行者や休暇客が押し寄せ宿がすぐ埋まります。この時期に行くなら宿とフェリーを事前に予約してください。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "ドゥマゲテ→シキホール フェリー", "price": "約₱200〜400", "note": "船会社・座席クラスにより異なる" },
+            { "label": "シキホール観光生態料", "price": "約₱50", "note": "島を離れる際に港・空港で納付、最新告知確認" },
+            { "label": "バイクレンタル", "price": "1日約₱350〜500", "note": "燃料別途" },
+            { "label": "トライシクル島一周ツアー", "price": "1台約₱1,500〜2,500", "note": "4〜6時間" },
+            { "label": "カンブガハイ滝入場・ロープスイング", "price": "約₱50〜150", "note": "駐車料別途" },
+            { "label": "カンタボン洞窟ガイドツアー", "price": "約₱500〜800", "note": "ヘルメット・照明込みか確認" },
+            { "label": "宿泊", "price": "1泊約₱1,200〜6,000", "note": "ゲストハウス〜ビーチリゾート" },
+            { "label": "食事", "price": "1食約₱200〜600", "note": "地元食堂〜カフェ" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "旅行者向けの宿が最も多いのは島南西部のサンフアン海岸です。ビーチフロントのリゾートが1泊" },
+            { "type": "price", "text": "₱3,000〜6,000" },
+            { "text": "、道路を挟んだ向かいのゲストハウスやバンガローが" },
+            { "type": "price", "text": "₱1,200〜2,500" },
+            {
+              "text": "程度で、カフェやレストラン、ダイブショップが道沿いに集まっていて便利です。静かな場所を望むなら島東部マリアや北側海岸の小規模リゾートも良いですが、レストランが遠いのでバイクが必要です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "サンフアン海岸には欧風のブランチカフェ、ピザやパスタ、ビーガン向けの食堂が多く、長期旅行者に人気です。地元料理としては海辺の村の焼き魚とキニラウ、ココナッツミルクで煮た海鮮料理を味わえ、シキホールタウンの市場周辺のカリンデリアでは"
+            },
+            { "type": "price", "text": "₱100〜200" },
+            { "text": "でフィリピンの家庭料理を食べられます。ドゥマゲテへ戻る道中なら、ドゥマゲテ名物のシルバナス(バタークリームクッキー)も持ち帰ってください。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "島内のATMはシキホールタウンとラレナ、サンフアンなどに数台ありますが現金が切れやすいです。ドゥマゲテで十分に引き出しておいてください。" }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "バイクを借りる際はヘルメット着用が必須で、レンタル店がパスポートのコピーや保証金を求めることもあります。出発前にブレーキとタイヤの状態を確認してください。"
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "カンブガハイ滝は" },
+                { "type": "time", "text": "午前9時" },
+                { "text": "より前に行けば落ち着いています。日中は団体旅行客が押し寄せ、ロープスイングの待ち列が長くなります。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "島一周は時計回りでも反時計回りでもかまいませんが、夕日をパリトンビーチで見られるようサンフアンで締めくくる動線が良いです。" }
+              ]
+            },
+            { "children": [{ "text": "スマート・グローブの電波は海岸道路沿いでは概ね入りますが、山地や洞窟周辺は弱くなります。" }] },
+            {
+              "children": [
+                { "text": "ビーチ前のサンゴ地帯が多いのでアクアシューズがあると便利です。シュノーケル器材はサンフアンのダイブショップで借りられます。" }
+              ]
+            },
+            { "children": [{ "text": "薬草オイルなどのお土産は興味本位で買うのはよいですが、飲んだり塗ったりする前に成分を確認してください。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "大雨の後、カンブガハイ滝は急に水の流れが強くなります。現地スタッフが遊泳を禁止したら必ず従い、ロープスイングは十分な水深がある地点でのみ行ってください。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "サラグドンビーチの飛び込み台は干潮時に水深が浅くなることがあります。飛び込む前に必ず水の深さを確認してください。" }] },
+            { "children": [{ "text": "カンタボン洞窟は必ず公認ガイドと一緒に入る必要があり、鍾乳石に触れたり折ったりしないでください。" }] },
+            { "children": [{ "text": "島の道路は街灯が少なく、犬や鶏、牛が急に飛び出してきます。夜間のバイク運転は控えてください。" }] },
+            {
+              "children": [
+                { "text": "離島時に納める観光生態料は" },
+                { "type": "date", "text": "2026年" },
+                { "text": "に新しく導入された制度です。金額と免除対象が変わることがあるので最新の告知を確認してください。" }
+              ]
+            },
+            {
+              "children": [{ "text": "伝統的な治療師を訪ねることは文化体験としては興味深いですが、実際の病気の治療はドゥマゲテの病院を利用してください。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "ドゥマゲテ",
+              "place": "dumaguete",
+              "children": [
+                { "text": "シキホールから船で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "、海沿いの遊歩道リサール・ブールバードと学園都市らしいゆとりがあるネグロスの港町です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "アポ島",
+              "place": "apo-island",
+              "children": [
+                { "text": "ドゥマゲテ南方のマラタパイ港からバンカ舟で約" },
+                { "type": "duration", "text": "30〜45分" },
+                { "text": "、ウミガメと一緒に泳げる海洋保護区です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "バリカサグ島",
+              "place": "balicasag-island",
+              "children": [
+                { "text": "タグビラランまで高速船で約" },
+                { "type": "duration", "text": "2時間" },
+                { "text": "、パングラオからボートで行くウミガメとサンゴの壁の島です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "パングラオ島",
+              "place": "panglao",
+              "children": [
+                { "text": "シキホールから高速船でタグビラランまで約" },
+                { "type": "duration", "text": "2時間" },
+                { "text": "の後車で" },
+                { "type": "duration", "text": "30〜40分" },
+                { "text": "、ボホール旅行の拠点となるリゾート地です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

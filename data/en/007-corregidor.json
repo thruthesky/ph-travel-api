@@ -1,0 +1,790 @@
+{
+  "id": 7,
+  "slug": "corregidor",
+  "title": { "type": "title", "text": "Corregidor Island" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Corregidor Island" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "The scars of the Pacific War on a rock fortress that guarded Manila Bay"
+  },
+  "island_group": { "type": "badge", "label": "Island group", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Region", "value": "cavite", "text": "Cavite" },
+  "location": {
+    "type": "address",
+    "label": "Location",
+    "icon": "location_on",
+    "text": "Corregidor Island, Cavite City, Cavite (mouth of Manila Bay)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Category",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "History & Culture"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Tags",
+    "items": ["War ruins", "Malinta Tunnel", "Gun batteries", "Island tour", "History lesson"]
+  },
+  "rating": { "type": "rating", "label": "Rating", "value": 4.6, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 14.3856 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 120.5731 },
+  "best_season": {
+    "type": "date",
+    "label": "Best time to visit",
+    "icon": "calendar_month",
+    "text": "December–May (dry season, calm seas)",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "Time needed", "icon": "schedule", "text": "1 day" },
+  "budget": {
+    "type": "price",
+    "label": "Budget",
+    "icon": "payments",
+    "text": "About ₱3,000–5,000 per person",
+    "currency": "PHP",
+    "min": 3000,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Difficulty",
+    "icon": "signal_cellular_alt",
+    "text": "Moderate",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Nearest airport",
+    "icon": "flight",
+    "text": "Ninoy Aquino International Airport (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/007-corregidor.webp",
+    "alt": "Corregidor Island",
+    "credit": "yeowatzup / CC BY 2.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pacific_War_Memorial,_Corregidor,_Philippines_(181769934).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Photos",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/007-corregidor-2.webp",
+        "alt": "Corregidor Island",
+        "credit": "H.abanil / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Corregidor_Island_Lighthouse.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/007-corregidor-3.webp",
+        "alt": "Corregidor Island",
+        "credit": "yeowatzup / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Barracks,_Corregidor_Island,_Philippines_(181771883).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "A tadpole-shaped island at the mouth of Manila Bay, the fortress where US and Filipino forces held out against Japan to the last in "
+      },
+      { "type": "date", "text": "1942" },
+      {
+        "text": ". A tram tour takes you through Malinta Tunnel, massive gun batteries, and ruined barracks; the island is now reached by boat from Mariveles in Bataan."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "At a glance",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Corregidor is a small island about " },
+            { "type": "distance", "text": "6.5km" },
+            { "text": " long, lying about " },
+            { "type": "distance", "text": "3–4km" },
+            {
+              "text": " south off the tip of the Bataan Peninsula at the mouth of Manila Bay. Seen from above it resembles a tadpole, so its wide head is called \"Topside,\" the middle \"Middleside,\" the narrow neck \"Bottomside,\" and the long tail \"Tailside.\" Its commanding position over the sea lanes into Manila meant it held signal stations and fortifications since Spanish times, and under American rule it was armed as a massive coastal fortress called \"Fort Mills.\""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "When Japan invaded the Philippines in " },
+            { "text": "December 1941", "type": "date" },
+            {
+              "text": ", Corregidor became the US and Filipino forces' headquarters. General MacArthur escaped to Australia by PT boat from this island in "
+            },
+            { "text": "March 1942", "type": "date" },
+            {
+              "text": ", leaving behind the famous words \"I shall return.\" The remaining troops held out for nearly a month even after the fall of Bataan, before General Wainwright's surrender handed over the island on "
+            },
+            { "text": "May 6, 1942", "type": "date" },
+            { "text": ". In " },
+            { "text": "February 1945", "type": "date" },
+            {
+              "text": ", US forces retook the island through airborne and amphibious assaults, and fierce fighting once again left the whole island in ruins."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Today the entire island is a war memorial site managed by the Corregidor Foundation. Structures preserved exactly as they were left after the war include the roofless, rebar-exposed Mile Long Barracks, Battery Way with its giant 12-inch mortars still in place, and Malinta Tunnel, its walls still marked with bullet scars. Much of the island is covered in jungle, creating a distinctive atmosphere where ruins and nature blend together."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Strongly recommended for travelers interested in war and modern history, and families who want to give their children a history lesson. A direct ferry once ran from Manila, but access now goes through Mariveles in Bataan province, so it's important to check the latest schedule and book ahead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Top things to do",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "A full-island tram tour",
+              "children": [
+                {
+                  "text": "The island tour uses vintage tram-style buses to visit the main ruins while a guide narrates. Guides tell vivid stories and anecdotes from the battles, drawing in even those without much interest in history."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Malinta Tunnel Light and Sound Show",
+              "children": [
+                { "text": "An underground fortress made of a main tunnel about " },
+                { "type": "distance", "text": "250m" },
+                {
+                  "text": " long and dozens of branch tunnels, once home to the headquarters and a hospital. The tour's highlight is a roughly "
+                },
+                { "type": "duration", "text": "30-minute" },
+                {
+                  "text": " show using lighting, sound, and reenactment figures to recreate the events of "
+                },
+                { "type": "date", "text": "1942" },
+                { "text": "." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Battery Way and Battery Hearn",
+              "children": [
+                {
+                  "text": "A 12-inch mortar and a 12-inch coastal gun with a range of dozens of kilometers still stand here. Seeing the sheer size of the cannons up close makes clear how powerful a fortress this island once was."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Mile Long Barracks",
+              "children": [
+                {
+                  "text": "As its name suggests, a long three-story barracks building now in ruins, its bare concrete frame speaking to the destructive force of the war. One of the island's most striking photo spots."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Pacific War Memorial and the Eternal Flame",
+              "children": [
+                { "text": "A memorial built by the US government in " },
+                { "text": "1968", "type": "date" },
+                {
+                  "text": ", with an altar and memorial space beneath a round dome, plus a war museum. On the hill behind it, the steel sculpture \"Eternal Flame\" is a defining image of Corregidor."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "The view from Corregidor Lighthouse",
+              "children": [
+                {
+                  "text": "From the lighthouse at the island's highest point, a 360-degree view stretches over Manila Bay, the Bataan Peninsula, and as far as the Cavite coast."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Filipino Heroes Memorial and the Japanese Garden of Peace",
+              "children": [
+                {
+                  "text": "A relief memorial depicting battles from Philippine history stands alongside a peace garden honoring fallen Japanese soldiers, prompting reflection on the war from multiple perspectives."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Suggested itinerary",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1-day tour (departing Manila, vehicle-inclusive package)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "04:00–05:00",
+                      "children": [{ "text": "Pickup from your Manila hotel or a meeting point" }]
+                    },
+                    {
+                      "time": "07:30",
+                      "children": [
+                        { "text": "Arrive at the pier in Mariveles, Bataan, and check in" }
+                      ]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        {
+                          "text": "Depart by bangka (outrigger boat), arriving at Corregidor about "
+                        },
+                        { "type": "duration", "text": "20 minutes" },
+                        { "text": " later" }
+                      ]
+                    },
+                    {
+                      "time": "08:30",
+                      "children": [
+                        {
+                          "text": "Tram tour begins — Bottomside, Filipino Heroes Memorial, Japanese Garden of Peace"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [
+                        {
+                          "text": "Middleside and Topside — Mile Long Barracks, Battery Way, Battery Hearn"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:30",
+                      "children": [{ "text": "Pacific War Memorial and lighthouse" }]
+                    },
+                    {
+                      "time": "12:30",
+                      "children": [
+                        {
+                          "text": "Lunch (check whether it's included in the tour; food purchases on the island are very limited)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [{ "text": "Malinta Tunnel Light and Sound Show" }]
+                    },
+                    {
+                      "time": "14:30",
+                      "children": [{ "text": "Depart the island, return to Mariveles" }]
+                    },
+                    {
+                      "time": "15:00–15:30",
+                      "children": [
+                        { "text": "Depart for Manila, arriving around " },
+                        { "type": "time", "text": "6:30–7:30 PM" },
+                        { "text": " (depending on traffic)" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Afternoon-departure tours run on some days, so confirm the departure time when booking."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Getting there",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Current ferry status",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "A direct cruise once departed daily for Corregidor from the Esplanade Seaside Terminal in Pasay City, but this route was suspended after COVID-19, and as of "
+                    },
+                    { "type": "date", "text": "2026" },
+                    {
+                      "text": " there is effectively no scheduled ferry from Manila to the island. Most visits now use boats run by tour operators departing from Mariveles, Bataan. Since service arrangements change often, be sure to check the latest announcements from the Corregidor Foundation or tour operators before booking."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tour packages (the easiest option)",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Packages that include Manila pickup, round-trip transport to Mariveles, the boat, island admission, the tram tour, the Malinta Tunnel show, and lunch cost about "
+                    },
+                    { "type": "price", "text": "₱3,500–4,500" },
+                    { "text": ". Joining at the Mariveles pier costs about " },
+                    { "type": "price", "text": "₱2,500–3,000" },
+                    {
+                      "text": ". Private tours for small groups and vehicle charters are also available."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Bus to Mariveles",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Buses to Mariveles, Bataan depart from the Pasay (Buendia) or Cubao terminals in Manila, taking about "
+                    },
+                    { "type": "duration", "text": "3–4 hours" },
+                    { "text": " and costing about " },
+                    { "type": "price", "text": "₱300–500" },
+                    {
+                      "text": " one way. To make it in time for the tour's start, it's safer to take the first early-morning bus or arrive the day before and stay overnight in Mariveles. From the Mariveles terminal to the pier is about a "
+                    },
+                    { "type": "duration", "text": "10–15-minute" },
+                    { "text": " tricycle ride, costing " },
+                    { "type": "price", "text": "₱50–150" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Private car/rental car",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "From Manila via the North Luzon Expressway (NLEX), SCTEX, and the Bataan coastal road to Mariveles takes about "
+                    },
+                    { "type": "duration", "text": "3 hours" },
+                    { "text": " (about " },
+                    { "type": "distance", "text": "170km" },
+                    { "text": "). Tolls run about " },
+                    { "type": "price", "text": "₱300–500" },
+                    { "text": " one way." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Getting around the island",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Getting around the island is basically limited to the tour tram. The ruins are far apart with many hills, so independent walking between them isn't recommended."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Best time to visit & weather",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "The " },
+            { "text": "December–May", "type": "date" },
+            { "text": " dry season is best, and especially " },
+            { "text": "December–March", "type": "date" },
+            {
+              "text": ", when calm seas and cool temperatures make walking the outdoor ruins comfortable. "
+            },
+            { "text": "April–May", "type": "date" },
+            {
+              "text": " is very hot, and the shadeless Topside ruins get strong sun, so a hat and water are essential."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "During the " },
+            { "text": "June–October", "type": "date" },
+            {
+              "text": " rainy season, the southwest monsoon roughens the sea and boat service is frequently canceled. When a typhoon warning (tropical cyclone wind signal) is issued, the Philippine Coast Guard bans small vessels from sailing, so keep your schedule flexible during this period."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Timing your visit around historic anniversaries can also be meaningful. " },
+            { "type": "date", "text": "April 9" },
+            {
+              "text": ", \"Araw ng Kagitingan\" (Day of Valor), a national holiday commemorating the fall of Bataan, sees commemorations both at the Mount Samat shrine in Bataan and on Corregidor. Around "
+            },
+            { "type": "date", "text": "May 6" },
+            {
+              "text": ", the anniversary of the fall of Corregidor, veteran memorial events are also held."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Estimated costs",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Item", "Estimated cost", "Notes"],
+          "items": [
+            {
+              "label": "1-day tour (Manila pickup included)",
+              "price": "About ₱3,500–4,500",
+              "note": "Boat, admission, tram, and lunch-inclusive package"
+            },
+            {
+              "label": "1-day tour (join at Mariveles)",
+              "price": "About ₱2,500–3,000",
+              "note": "Travel to Mariveles on your own"
+            },
+            {
+              "label": "Manila↔Mariveles bus",
+              "price": "About ₱300–500 (one way)",
+              "note": "3–4 hours"
+            },
+            {
+              "label": "Tricycle (terminal↔pier)",
+              "price": "About ₱50–150",
+              "note": "Negotiation required"
+            },
+            {
+              "label": "Overnight stay in Mariveles",
+              "price": "About ₱1,500–3,500",
+              "note": "If staying the night before"
+            },
+            {
+              "label": "Snacks/water",
+              "price": "About ₱150–300",
+              "note": "Recommended to prepare beforehand"
+            },
+            {
+              "label": "Private tour",
+              "price": "About ₱25,000–30,000",
+              "note": "Small group basis, cheaper per person if shared"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Prices are approximate as of " },
+            { "type": "date", "text": "2026" },
+            { "text": " and may vary depending on local conditions." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Where to stay & eat",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "In the past, visitors could stay overnight at the Corregidor Inn on the island and enjoy a nighttime tunnel tour, but on-island lodging is currently uncertain, so most people visit as a day trip. If the early departure feels daunting, arriving the day before and staying at a beach resort or small hotel in Mariveles, Bataan (about "
+            },
+            { "type": "price", "text": "₱1,500–3,500" },
+            {
+              "text": " a night) is recommended. Lodging packages linked to tour operators' resorts are also available."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "There's almost nowhere to buy food on the island, so plan around a tour that includes lunch, or prepare water, snacks, and a packed lunch before leaving Mariveles. Mariveles and the Bataan coastal road have many seafood restaurants where you can try grilled fish, shrimp sinigang, and kilawin (fish cured in vinegar) after your tour. Bataan's famous sweet mangoes and dried fish also make good souvenirs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Travel tips",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Tours run on set days and weekend slots fill up first. Book at least 1–2 weeks ahead, and reconfirm sailing status the day before departure."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Passport details are often required to confirm a tour booking, so enter your name exactly as it appears on your passport when booking, and bring your passport on the day."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Cash is the only accepted payment in most places on the island, and there are no ATMs. Prepare about "
+                },
+                { "type": "price", "text": "₱1,000–2,000" },
+                { "text": " in cash for souvenirs and drinks." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bring a hat, sunscreen, sunglasses, comfortable sneakers, and at least a liter of water. Most of the ruins sit fully exposed to the sun."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Phone signal is weak or absent in parts of the island. Agree on a meeting time and place with your group in advance."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "If you're prone to seasickness, take medication " },
+                { "type": "duration", "text": "30 minutes" },
+                {
+                  "text": " before boarding. The boat ride is short, but waves run high in the rainy season."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Good photo spots are the ruins of Mile Long Barracks, the Eternal Flame sculpture, and the view of the Bataan Peninsula from the lighthouse."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Sit near the front of the tram if you want to hear the guide's commentary clearly."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Precautions",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Most of the ruins are structurally unstable. Don't go inside buildings marked off-limits or climb onto walls."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Unexploded ordnance may remain on the island, so don't leave the designated paths and go into the jungle. Never touch any metal object you find."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "During the rainy season and typhoon period, same-day sailings may be canceled at the Coast Guard's discretion. Check refund and rescheduling policies before booking."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Old information about a \"direct Manila ferry\" still turns up online, but no such service currently operates. Verify a seller's legitimacy before sending money in advance."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Dehydration and heatstroke can easily set in during the outdoor midday tour, so drink water often and rest in the shade."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "The direct ferry from Manila remains suspended. Be sure to check the latest sailing announcements for tours departing from Mariveles, Bataan, and book only through an official operator."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Nearby places to visit",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Mount Samat Shrine of Valor, Bataan",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "40 minutes" },
+                { "text": " by car from Mariveles. A giant cross memorial about " },
+                { "type": "distance", "text": "92m" },
+                { "text": " tall commemorating the Battle of Bataan, along with a museum." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Manila Bay",
+              "place": "manila-bay",
+              "children": [
+                {
+                  "text": "Looking back across the bay from Corregidor, you can reflect on the history of the war while watching the sunset from Roxas Boulevard."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Intramuros",
+              "place": "intramuros",
+              "children": [
+                { "text": "Downtown Manila. The walled city left in ruins by the " },
+                { "type": "date", "text": "1945" },
+                {
+                  "text": " Battle of Manila — pairing it with Corregidor helps piece together the full arc of the Pacific War."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Las Casas Filipinas de Acuzar",
+              "place": "las-casas-filipinas",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "1 hour" },
+                {
+                  "text": " by car from Bagac, Bataan, or Mariveles. A heritage resort of relocated and restored Spanish-era mansions."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

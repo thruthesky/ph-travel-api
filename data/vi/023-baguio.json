@@ -1,0 +1,853 @@
+{
+  "id": 23,
+  "slug": "baguio",
+  "title": { "type": "title", "text": "Baguio" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Baguio" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Thủ đô mùa hè của Philippines ở độ cao 1.500m, ngập tràn hương thông"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "cordillera", "text": "Cordillera" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Baguio, tỉnh Benguet"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "location_city",
+    "value": "city",
+    "text": "Thành phố & ẩm thực"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": ["Thành phố cao nguyên", "Cây thông", "Dâu tây", "Chợ đêm", "Lễ hội Panagbenga"]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 16.4119 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.5933 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 11 – Tháng 4 (mùa khô, mát mẻ)",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "3 ngày 2 đêm"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱2,500–5,000/người (mỗi ngày)",
+    "currency": "PHP",
+    "min": 2500,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Dễ",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay quốc tế Clark (CRK)",
+    "code": "CRK"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/023-baguio.webp",
+    "alt": "Baguio",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Baguio_city_proper_overlooking_Burnham-Harrison_side_(Baguio_city;_12-04-2022).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/023-baguio-2.webp",
+        "alt": "Baguio",
+        "credit": "Hariboneagle927 / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Burnham_Park_Lake_Philippines.jpeg"
+      },
+      {
+        "type": "image",
+        "url": "images/023-baguio-3.webp",
+        "alt": "Baguio",
+        "credit": "Lian Alyssa Cordon / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Burnham_Park_Baguio_(39870929782).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Đây là thủ đô mùa hè của Philippines, nằm ở chân dãy núi Cordillera, độ cao khoảng "
+      },
+      { "type": "distance", "text": "1,500m" },
+      {
+        "text": " so với mực nước biển. Với khí hậu mát mẻ quanh năm, rừng thông, nông trại dâu tây, chợ đêm và lễ hội hoa Panagbenga vào "
+      },
+      { "type": "date", "text": "tháng 2" },
+      {
+        "text": ", đây là thành phố được du khách muốn tránh nóng và du học sinh học tiếng Anh yêu thích."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Baguio là thành phố được xây dựng trên cao nguyên ở độ cao khoảng " },
+            { "type": "distance", "text": "1,500m" },
+            {
+              "text": ", phía nam dãy núi Cordillera, miền bắc Luzon. Nhiệt độ trung bình năm khoảng "
+            },
+            { "type": "temperature", "text": "18-20℃" },
+            { "text": ", thấp hơn vùng đồng bằng khoảng " },
+            { "type": "temperature", "text": "7-8℃" },
+            {
+              "text": ", nên được mệnh danh là \"Thủ đô mùa hè\" (Summer Capital) của Philippines. Đầu thế kỷ 20, chính quyền thực dân Mỹ đã phát triển nơi đây để chuyển hành chính mùa hè, tránh cái nóng của Manila, và hệ thống công viên, đường phố trung tâm do nhà quy hoạch đô thị Chicago Daniel Burnham thiết kế vẫn còn là bộ khung của thành phố cho đến ngày nay."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Tương truyền tên thành phố bắt nguồn từ từ \"bagiw\" trong tiếng Ibaloi địa phương, có nghĩa là loài rêu. Đây vốn là vùng đất của người bản địa Ibaloi và Kankanaey, và cho đến nay văn hóa bản địa Cordillera vẫn thấm đẫm trong chợ, thủ công mỹ nghệ và ẩm thực khắp thành phố. Nơi đây cũng là thành phố sinh viên với Học viện Quân sự Philippines (PMA) và nhiều trường đại học, và quen thuộc với kiều bào Hàn Quốc như một thành phố du học tiếng Anh."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Từ không khí lạnh thổi qua rừng thông, chỗ ở có lò sưởi, khu chợ chất đầy dâu tây và rau củ, cho đến chợ đêm mở mỗi tối, bạn có thể tận hưởng bầu không khí hiếm có ở một thành phố Đông Nam Á. Tuy nhiên, cũng cần biết rằng vào cuối tuần và ngày lễ, người dân Manila đổ về đông khiến giao thông tắc nghẽn nghiêm trọng."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Baguio phù hợp với các gia đình kiều bào mệt mỏi vì nắng nóng, du khách yêu thích tour cà phê - quán cà phê, và những phượt thủ muốn dùng nơi đây làm cửa ngõ cho hành trình núi non Cordillera đến Sagada, Pulag, Banaue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Chèo thuyền ở công viên Burnham",
+              "children": [
+                {
+                  "text": "Bạn có thể chèo thuyền trên hồ nhân tạo ngay giữa trung tâm thành phố. Giá do thành phố quy định khoảng "
+                },
+                { "type": "price", "text": "₱250" },
+                { "text": "/thuyền cho " },
+                { "type": "duration", "text": "30 phút" },
+                { "text": ", và việc thuê xe đạp quanh hồ cũng rất được các gia đình ưa chuộng." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Dạo phố Session Road và tour quán cà phê",
+              "children": [
+                {
+                  "text": "Đây là con phố trung tâm của Baguio, nơi có nhiều tiệm bánh, quán cà phê và hiệu sách lâu đời. Việc tìm kiếm các quán cà phê địa phương bán cà phê Arabica Benguet cũng là một thú vui riêng."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Công viên Mines View",
+              "children": [
+                {
+                  "text": "Đây là đài quan sát nhìn xuống khu vực mỏ vàng và đồng cũ, với dãy núi phía Itogon trải dài trùng điệp. Bạn có thể mua đồ thủ công khắc gỗ và vải dệt tại các cửa hàng lưu niệm xung quanh."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Nông trại dâu tây La Trinidad",
+              "children": [
+                {
+                  "text": "Tại các cánh đồng dâu tây ở thành phố láng giềng phía bắc Baguio, bạn có thể trải nghiệm tự tay hái dâu. Mùa dâu thường vào khoảng "
+                },
+                { "type": "date", "text": "tháng 12 - tháng 4" },
+                { "text": ", và đừng quên thử taho dâu tây và kem dâu tây." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Bảo tàng BenCab (BenCab Museum)",
+              "children": [
+                {
+                  "text": "Đây là bảo tàng nghệ thuật trưng bày tác phẩm của nghệ sĩ quốc gia Benedicto Cabrera và các hiện vật của người bản địa Cordillera. Nằm giữa rừng ở đường Asin nên bạn có thể tản bộ thêm ở khu vườn và ao phía sau."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Cửa hàng lưu niệm Tu viện Good Shepherd",
+              "children": [
+                {
+                  "text": "Đây là nơi bán các món quà tiêu biểu của Baguio như mứt ube (khoai mỡ tím), kẹo đậu phộng giòn. Các mặt hàng phổ biến thường hết vào buổi chiều nên nên ghé vào buổi sáng."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Camp John Hay và Vườn Bách thảo",
+              "children": [
+                {
+                  "text": "Camp John Hay, từng là khu nghỉ dưỡng của quân đội Mỹ, nay là không gian thư giãn với các lối đi dạo trong rừng thông và nhà hàng. Tại công viên Wright gần đó, bạn cũng có thể cưỡi ngựa nhỏ (pony)."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Chợ đêm đường Harrison",
+              "children": [
+                {
+                  "text": "Đây là khu chợ vỉa hè mở mỗi tối trên đường Harrison, cạnh công viên Burnham. Quần áo cũ gọi là \"ukay-ukay\" hòa cùng đồ ăn đường phố tạo nên không khí nhộn nhịp."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Ngày 1",
+              "subtitle": "Trung tâm thành phố và chợ đêm",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00",
+                      "children": [
+                        { "text": "Xuất phát bằng xe buýt từ Manila, đến Baguio lúc " },
+                        { "type": "time", "text": "11:00-12:00" }
+                      ]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        {
+                          "text": "Ăn trưa ở phố Session Road, thăm Nhà thờ chính tòa Baguio (nhà thờ màu hồng trên đồi)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "15:00-17:00",
+                      "children": [
+                        {
+                          "text": "Chèo thuyền, đạp xe ở công viên Burnham, tham quan chợ công cộng"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "19:00",
+                      "children": [
+                        { "text": "Ăn tối, sau đó dạo chợ đêm đường Harrison từ " },
+                        { "type": "time", "text": "21:00" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 2",
+              "subtitle": "Ngắm cảnh và nghệ thuật",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        { "text": "Công viên Mines View, cửa hàng lưu niệm Tu viện Good Shepherd" }
+                      ]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Cổng chính The Mansion (dinh thự mùa hè của tổng thống) và công viên Wright"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [{ "text": "Dạo bộ ở Camp John Hay và ăn brunch" }]
+                    },
+                    {
+                      "time": "13:30-16:00",
+                      "children": [
+                        { "text": "Tham quan Bảo tàng BenCab (khoảng " },
+                        { "type": "duration", "text": "30 phút" },
+                        { "text": " đi taxi)" }
+                      ]
+                    },
+                    {
+                      "time": "16:30",
+                      "children": [
+                        {
+                          "text": "Làng Tam-awan (làng nhà truyền thống bản địa) hoặc nghỉ ngơi ở quán cà phê"
+                        }
+                      ]
+                    },
+                    { "time": "19:00", "children": [{ "text": "Ăn tối tại nhà hàng có lò sưởi" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 3",
+              "subtitle": "Nông trại dâu tây và trở về",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        { "text": "Nông trại dâu tây La Trinidad và chợ đầu mối rau củ Benguet" }
+                      ]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [
+                        { "text": "Trả phòng khách sạn, mua mứt dâu tây và đậu phộng làm quà" }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [{ "text": "Lên xe buýt về Manila, đến nơi vào chiều tối" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Xe buýt",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Từ các bến xe Cubao, Pasay ở Manila, các hãng xe Victory Liner, JoyBus, Solid North hoạt động gần như suốt "
+                        },
+                        { "type": "duration", "text": "24 giờ" },
+                        { "text": ". Nếu đi qua cao tốc TPLEX, thời gian di chuyển khoảng " },
+                        { "type": "duration", "text": "4-6 giờ" },
+                        { "text": ", giá vé xe máy lạnh thường khoảng " },
+                        { "type": "price", "text": "₱500-850" },
+                        { "text": ", còn xe cao cấp - deluxe ghế rộng rãi từ khoảng " },
+                        { "type": "price", "text": "₱900-1,000" },
+                        { "text": " trở lên." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Vào cuối tuần, ngày lễ và mùa lễ hội Panagbenga, vé thường bán hết nhanh, nên hãy đặt vé qua ứng dụng chính thức hoặc trực tuyến."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Cũng có xe buýt nối sân bay Clark (Pampanga) với Baguio, mất khoảng "
+                        },
+                        { "type": "duration", "text": "3-4 giờ" },
+                        { "text": "." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Xe riêng",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Tuyến đường thông thường là đi qua cao tốc NLEX-SCTEX-TPLEX, ra ở Rosales hoặc Pozorrubio rồi lên đường Marcos Highway. Mất khoảng "
+                        },
+                        { "type": "duration", "text": "4-5 giờ" },
+                        {
+                          "text": "; đường Kennon có cảnh đẹp nhưng thường bị chặn do đá lở hoặc sửa chữa, nên hãy kiểm tra tình trạng lưu thông trước."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Máy bay",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Sân bay Loakan của Baguio hầu như không có chuyến bay thường lệ nên không phải lựa chọn thực tế. Nếu đến từ nước ngoài, hạ cánh tại sân bay quốc tế Clark (CRK) rồi đi xe buýt là gần nhất."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Di chuyển tại địa phương",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Trong thành phố có nhiều taxi màu trắng, giá cước cơ bản rẻ nên tiện cho quãng đường ngắn. Dù đi quãng đường ngắn, hãy luôn yêu cầu tài xế bật đồng hồ tính tiền."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Các trạm xe jeepney theo tuyến tập trung ở phía dưới đường Session Road và quanh khu chợ, giá khoảng "
+                        },
+                        { "type": "price", "text": "₱13-20" },
+                        { "text": " mỗi lượt. Vì là vùng cao nên hầu như không có xe tricycle." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Trung tâm thành phố có thể áp dụng quy định hạn chế xe theo số cuối biển số (number coding), nên hãy kiểm tra quy định mới nhất trước khi tự lái xe vào thành phố."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Baguio mát mẻ quanh năm nhưng có sự khác biệt rõ rệt giữa các mùa. " },
+            { "type": "date", "text": "Tháng 11 - tháng 2" },
+            { "text": " là thời điểm mát nhất, nhiệt độ lúc rạng sáng có thể xuống còn khoảng " },
+            { "type": "temperature", "text": "10℃" },
+            {
+              "text": ", và không khí càng thêm đẹp khi đèn Giáng sinh trùng với mùa dâu tây. Vào "
+            },
+            { "type": "date", "text": "tháng 2" },
+            {
+              "text": ", lễ hội lớn nhất thành phố là Panagbenga (lễ hội hoa) kéo dài gần một tháng; "
+            },
+            { "type": "date", "text": "năm 2026" },
+            { "text": ", cao điểm là cuộc diễu hành vũ điệu đường phố vào " },
+            { "type": "date", "text": "cuối tháng 2" },
+            { "text": " và diễu hành xe hoa vào " },
+            { "type": "date", "text": "đầu tháng 3" },
+            {
+              "text": ". Vào cuối tuần lễ hội, giá chỗ ở tăng và giao thông trung tâm thành phố bị hạn chế."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "Tháng 3 - tháng 5" },
+            {
+              "text": " trời quang và ôn hòa, là mùa cao điểm với lượng khách du lịch nhiều nhất, đặc biệt Tuần Thánh khiến thành phố cực kỳ đông đúc. "
+            },
+            { "type": "date", "text": "Tháng 6 - tháng 10" },
+            {
+              "text": " là mùa mưa, và Baguio là một trong những thành phố có lượng mưa nhiều nhất Philippines. Khi bão đi qua, có thể có hàng trăm mm mưa trong một ngày, sương mù dày đặc và đường núi bị sạt lở chặn lối, nên hãy kiểm tra kỹ dự báo thời tiết vào thời gian này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Xe buýt Manila - Baguio",
+              "price": "Một chiều khoảng ₱500-1,000",
+              "note": "Tùy loại xe thường hoặc cao cấp"
+            },
+            {
+              "label": "Taxi trong thành phố",
+              "price": "Khoảng ₱100-250 mỗi lượt",
+              "note": "Theo quãng đường ngắn"
+            },
+            {
+              "label": "Thuyền công viên Burnham",
+              "price": "1 thuyền khoảng ₱250",
+              "note": "Theo 30 phút"
+            },
+            {
+              "label": "Vé vào Bảo tàng BenCab",
+              "price": "Khoảng ₱200-300/người",
+              "note": "Giảm giá cho học sinh - người cao tuổi"
+            },
+            {
+              "label": "Trải nghiệm hái dâu tây",
+              "price": "Khoảng ₱350-600",
+              "note": "Tính theo cân nặng dâu đã hái"
+            },
+            {
+              "label": "Chỗ ở",
+              "price": "1 đêm khoảng ₱1,500-6,000",
+              "note": "Từ nhà nghỉ đến khách sạn tầm trung"
+            },
+            {
+              "label": "Bữa ăn",
+              "price": "1 bữa khoảng ₱200-600",
+              "note": "Theo giá quán cà phê - nhà hàng"
+            },
+            {
+              "label": "Quà lưu niệm (mứt - bánh)",
+              "price": "Khoảng ₱200-500",
+              "note": "Ví dụ như Good Shepherd"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính năm " },
+            { "type": "date", "text": "2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nếu là lần đầu ghé thăm, khu vực quanh phố Session Road và công viên Burnham là tiện lợi nhất. Bạn có thể đi bộ đến chợ, chợ đêm, nhà hàng, và cũng gần bến xe buýt. Nếu muốn chỗ ở yên tĩnh, dễ chịu, hãy chọn khách sạn giữa rừng thông ở khu vực Camp John Hay hoặc các khách sạn boutique quanh đường Legarda, Assumption Road. Giá khoảng "
+            },
+            { "type": "price", "text": "₱1,500-2,500" },
+            { "text": "/đêm cho nhà nghỉ, khoảng " },
+            { "type": "price", "text": "₱3,000-6,000" },
+            {
+              "text": " cho khách sạn tầm trung, và có thể tăng gần gấp đôi vào mùa Panagbenga và Tuần Thánh. Chỗ ở ở Baguio thường không có điều hòa, nhưng phần lớn đều có nước nóng và chăn dày là tiêu chuẩn cơ bản."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Đúng chất \"thành phố cao nguyên\", ẩm thực nơi đây xoay quanh rau củ tươi, dâu tây và cà phê. Các món tiêu biểu gồm salad và súp làm từ rau Benguet, thịt heo xông khói kiểu Cordillera \"etag\", taho dâu tây, mứt ube; quanh công viên Burnham và phố Session Road có nhiều tiệm bánh, quán cà phê đã hoạt động hàng chục năm. Các quán cơm bình dân (carinderia) ở tầng hai chợ công cộng là lựa chọn tốt nếu muốn ăn như người bản địa. Vào những đêm lạnh, món súp nóng \"bulalo\" (súp xương bò) rất hợp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Hãy mang theo áo dài tay và áo phao nhẹ hoặc áo gió. Ban ngày mặc áo ngắn tay là đủ nhưng ban đêm và sáng sớm trời lạnh hẳn."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Từ tối thứ Sáu đến chiều Chủ nhật cuối tuần, khu vực đường Marcos Highway và Session Road thường tắc nghẽn nghiêm trọng. Nếu có thể, hãy đi vào ngày thường."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Chợ đêm thường mở từ khoảng " },
+                { "type": "time", "text": "9 giờ tối" },
+                {
+                  "text": " đến rạng sáng. Vì đông đúc nên hãy đeo túi phía trước và chỉ mang theo ít tiền mặt."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khắp thành phố đều có nhiều dốc nên giày thể thao thoải mái là điều cần thiết."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Hãy đến cửa hàng lưu niệm Good Shepherd và nông trại dâu tây vào sáng sớm để tránh hết hàng và đông người."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trung tâm thành phố có nhiều máy ATM và cửa hàng tiện lợi nên ít phải lo về tiền mặt, nhưng nếu định đi tiếp đến các vùng núi như Sagada, Pulag, hãy rút đủ tiền tại Baguio trước."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Phần lớn thành phố là khu vực cấm hút thuốc, và hút thuốc ngoài khu vực quy định có thể bị phạt tiền."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "Vào mùa mưa (" },
+            { "type": "date", "text": "tháng 6 - tháng 10" },
+            {
+              "text": ") và sau bão, đường Kennon và các đường núi thường bị chặn do sạt lở. Hãy chắc chắn kiểm tra tình trạng đường và dự báo của PAGASA trước khi khởi hành."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Lái xe đường núi vào đêm sương mù dày đặc rất nguy hiểm. Nếu là lần đầu, hãy di chuyển vào ban ngày."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Baguio có các quy định khá nghiêm ngặt về hút thuốc, nhựa dùng một lần và tiếng ồn. Hãy tuân theo quy định địa phương."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Vì độ cao khoảng " },
+                { "type": "distance", "text": "1,500m" },
+                {
+                  "text": ", bạn có thể cảm thấy hơi đau đầu hoặc khó thở nhẹ. Ngày đầu tiên đừng vận động quá sức và hãy uống đủ nước."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Hãy cẩn thận móc túi ở chợ đêm và chợ công cộng, và đừng để điện thoại ở túi quần sau."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nếu tài xế taxi yêu cầu giá cố định thay vì bật đồng hồ tính tiền, tốt nhất nên chọn taxi khác."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Núi Ulap",
+              "place": "mount-ulap",
+              "children": [
+                { "text": "Ở Itogon, phía nam Baguio, cách khoảng " },
+                { "type": "duration", "text": "40 phút - 1 giờ" },
+                {
+                  "text": " đi xe. Là điểm trekking trong ngày nổi tiếng đi dọc theo sống núi thông."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Núi Pulag",
+              "place": "mount-pulag",
+              "children": [
+                { "text": "Cách khoảng " },
+                { "type": "duration", "text": "3-4 giờ" },
+                {
+                  "text": " đi xe, là đỉnh núi cao nhất Luzon, nơi bạn có thể ngắm biển mây và bình minh."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Sagada",
+              "place": "sagada",
+              "children": [
+                { "text": "Cách khoảng " },
+                { "type": "duration", "text": "5-6 giờ" },
+                {
+                  "text": " đi xe buýt, là làng miền núi nổi tiếng với quan tài treo và hang động."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Hundred Islands",
+              "place": "hundred-islands",
+              "children": [
+                { "text": "Cách khoảng " },
+                { "type": "duration", "text": "3-4 giờ" },
+                { "text": " đi xe, thích hợp để kết hợp cả núi và biển trong cùng một hành trình." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

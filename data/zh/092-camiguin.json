@@ -1,0 +1,633 @@
+{
+  "id": 92,
+  "slug": "camiguin",
+  "title": { "type": "title", "text": "卡米金岛" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Camiguin" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "火中诞生的岛屿，火山、温泉与洁白沙洲" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "mindanao", "text": "棉兰老" },
+  "region": { "type": "badge", "label": "地区", "value": "camiguin", "text": "卡米金" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "卡米金省曼巴哈奥" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "海滩·海岛"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["火山岛", "沙洲", "温泉", "瀑布", "浮潜", "榔色果"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.7, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 9.17 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 124.72 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "3月~6月（旱季），10月榔色果节",
+    "months": [3, 4, 5, 6]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "两晚三天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱2,500~5,000",
+    "currency": "PHP",
+    "min": 2500,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "简单",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "卡米金机场（CGM）/ 拉金丁安机场（CGY）",
+    "code": "CGM"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/092-camiguin.webp",
+    "alt": "卡米金岛",
+    "credit": "Allan Jay Quesada / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Timpoong_and_Hibok-Hibok_Natural_Monument_in_Camiguin_-_Allan_Jay_Quesada.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/092-camiguin-2.webp",
+        "alt": "卡米金岛",
+        "credit": "Vlad Rud / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Camiguin_Sunset.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/092-camiguin-3.webp",
+        "alt": "卡米金岛",
+        "credit": "Edwin Juen Jr. / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunken_Cemetery_2_-_Camiguin.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "这是一座周长约" },
+      { "type": "distance", "text": "64公里" },
+      {
+        "text": "的小岛，岛上耸立着多座火山锥，因此被称为“火中诞生的岛屿”。白岛沙洲、海底公墓、温泉与冷泉、瀑布，一两天内便可全部游览，加上当地民风淳朴，被公认为棉兰老最令人安心的海岛旅行地。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "卡米金（Camiguin）是漂浮在棉兰老岛北部薄荷海上的一座小型火山岛，也是菲律宾面积第二小的省份。环岛一周的海岸公路仅约" },
+            { "type": "distance", "text": "64公里" },
+            { "text": "，然而这片小小的土地上耸立着大大小小的火山锥，因此得名“火中诞生的岛屿（Island Born of Fire）”。岛屿中央矗立着海拔约" },
+            { "type": "distance", "text": "1,332米" },
+            { "text": "的活火山希博克-希博克山（Hibok-Hibok）和廷蓬山（Timpoong），这一带被划为廷蓬—希博克-希博克自然纪念地保护区。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "卡米金的风景完整地呈现了火山活动的历史。" },
+            { "type": "date", "text": "1871年" },
+            {
+              "text": "，岛屿西侧一座新火山（武尔坎山，旧火山）喷发隆起，当时的村庄因此沉入海底，如今海面上矗立的巨大十字架，标记的正是这处“海底公墓（Sunken Cemetery）”遗迹。"
+            },
+            { "type": "date", "text": "1951年" },
+            { "text": "希博克-希博克火山爆发，造成数百人丧生的重大灾害。正因为这样的火山地形，岛上各处涌出温泉、冷泉和碳酸泉，从山上流下的水流也造就了大大小小的瀑布。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "岛屿北侧近海有一片会随潮汐变化形状的洁白沙洲——白岛（White Island），站在沙洲上仰望希博克-希博克火山的画面，已成为卡米金最具代表性的景象。东侧的曼蒂格岛（Mantigue Island）是海洋保护区，非常适合浮潜和潜水。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "卡米金的居民友善，治安也相对良好，即便是第一次到棉兰老旅行的人也不会感到太大负担。骑摩托车或乘坐迷你卡布（小型卡车出租车），沿海岸公路一天之内即可环岛一周，因此很适合家庭旅客、情侣和摩托车旅行者。"
+            },
+            { "type": "date", "text": "10月" },
+            { "text": "的榔色果节期间，整座岛屿都会弥漫着榔色果的甜香。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "白岛沙洲",
+              "children": [
+                { "text": "从曼巴哈奥的阿戈霍、云宾海滩乘螃蟹船约" },
+                { "type": "duration", "text": "10~15分钟" },
+                { "text": "即可抵达这片无人沙洲。这里完全没有遮阴，最好在阳光较弱的清晨（" },
+                { "type": "time", "text": "6点到9点" },
+                { "text": "）前往，以沙洲为前景、希博克-希博克火山为背景的构图是最具代表性的照片。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "海底公墓与日落",
+              "children": [
+                { "text": "卡塔尔曼海岸的巨大十字架雕塑，是为了纪念" },
+                { "type": "date", "text": "1871年" },
+                { "text": "因火山活动而沉入海底的旧公墓而建。可以乘螃蟹船直达十字架前，或在周边浮潜，傍晚时分的景色尤为动人。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "武尔坎山苦路（Walkway to the Old Volcano）",
+              "children": [
+                { "text": "这是一条沿着武尔坎山山坡延伸的步道，途中排列着耶稣受难十四处的雕像。攀登约" },
+                { "type": "duration", "text": "30~40分钟" },
+                { "text": "后，即可俯瞰海底公墓与大海，圣周期间会有大量朝圣者前来。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "卡蒂巴瓦桑瀑布",
+              "children": [
+                { "text": "这是一道从约" },
+                { "type": "distance", "text": "70米" },
+                { "text": "高处细长笔直落下的瀑布，可以在清凉的水潭中游泳。距离曼巴哈奥市区很近，适合安排在半天行程中。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "冷热双泉体验",
+              "children": [
+                {
+                  "text": "阿登特温泉（Ardent Hot Spring）由火山地热加温的温水流经阶梯状泳池，而卡塔尔曼的圣尼诺冷泉（Sto. Niño Cold Spring）即使在盛夏也清凉刺骨。一天之内接连造访这两处，便能亲身感受卡米金的火山地貌。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "曼蒂格岛浮潜",
+              "children": [
+                { "text": "这是位于岛屿东侧马希诺格近海的一座小岛，属于海洋保护区，有很多机会看到珊瑚和海龟。洁白的沙滩与树林相映成趣，也很适合作为半日游的野餐地点。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "圭奥布教堂遗址与巨蚌保护区",
+              "children": [
+                { "text": "邦邦村的圭奥布教堂遗址，是" },
+                { "type": "date", "text": "1871年" },
+                { "text": "火山喷发时倒塌的珊瑚石教堂仅存的墙壁遗迹。岛屿南部的金西利班坎塔安设有保护区，可以近距离观察巨蚌。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "品尝帕斯特尔与榔色果",
+              "children": [
+                { "text": "卡米金帕斯特尔（pastel）是一种在柔软面包中夹入香芋、蛋奶酱内馅的点心，作为伴手礼畅销菲律宾全国。9月至" },
+                { "type": "date", "text": "10月" },
+                { "text": "正是岛屿特产榔色果的盛产季，在市场买上一袋边走边吃别有一番乐趣。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "第1天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "上午",
+                      "children": [
+                        { "text": "抵达卡米金机场，或从巴林戈安乘渡轮抵达贝诺尼港，然后前往曼巴哈奥的住宿处（约" },
+                        { "type": "duration", "text": "30分钟" },
+                        { "text": "）。" }
+                      ]
+                    },
+                    { "time": "下午1点~4点", "children": [{ "text": "游览阿登特温泉和卡蒂巴瓦桑瀑布。" }] },
+                    { "time": "下午4点~6点", "children": [{ "text": "漫步曼巴哈奥市区，之后在阿戈霍、云宾海滩的住宿处欣赏日落。" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第2天（环岛游）",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00~08:30", "children": [{ "text": "在白岛沙洲晨泳并拍照。" }] },
+                    {
+                      "time": "09:30~12:00",
+                      "children": [{ "text": "前往岛屿西侧，游览武尔坎山苦路、海底公墓和圭奥布教堂遗址。" }]
+                    },
+                    { "time": "12:00~13:00", "children": [{ "text": "在邦邦、卡塔尔曼沿岸的餐厅享用海鲜午餐。" }] },
+                    {
+                      "time": "13:30~16:00",
+                      "children": [{ "text": "依次游览圣尼诺冷泉、图阿桑瀑布和苏打水泳池（碳酸泉泳池）。" }]
+                    },
+                    {
+                      "time": "16:30~18:00",
+                      "children": [{ "text": "经过南部金西利班的巨蚌保护区，沿东侧海岸公路完成环岛一圈。" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第3天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00~11:00", "children": [{ "text": "从马希诺格乘螃蟹船前往曼蒂格岛浮潜。" }] },
+                    { "time": "下午", "children": [{ "text": "购买帕斯特尔和榔色果等纪念品后，前往机场或贝诺尼港。" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飞机",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "最快的方式是从宿务直飞卡米金机场（CGM，曼巴哈奥）。宿务快运（Cebgo）每周运营约7个班次，飞行时间约" },
+                    { "type": "duration", "text": "50分钟" },
+                    { "text": "。从马尼拉出发的话，可以经宿务转机，或搭乘马尼拉—卡加延德奥罗拉金丁安机场（CGY）的直飞航班（约" },
+                    { "type": "duration", "text": "1小时30分钟" },
+                    { "text": "，单程约" },
+                    { "type": "price", "text": "₱2,500~6,000" },
+                    { "text": "），再经陆路和船只进岛。由于卡米金机场航班座位较少，旺季容易早早售罄，建议提前预订。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "巴士·小巴",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从拉金丁安机场乘机场接驳小巴到卡加延德奥罗市区的阿戈拉（Agora）巴士总站约需" },
+                    { "type": "duration", "text": "1小时" },
+                    { "text": "（约" },
+                    { "type": "price", "text": "₱200" },
+                    { "text": "）。从阿戈拉总站乘坐开往巴林戈安（Balingoan）的巴士，约需" },
+                    { "type": "duration", "text": "1小时30分钟~2小时" },
+                    { "text": "，票价约" },
+                    { "type": "price", "text": "₱150~200" },
+                    { "text": "。也可以从机场包一辆小巴直达巴林戈安。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从巴林戈安港到卡米金贝诺尼（Benoni）港，渡轮约需" },
+                    { "type": "duration", "text": "1小时" },
+                    { "text": "，单程票价约" },
+                    { "type": "price", "text": "₱330~360" },
+                    { "text": "。从" },
+                    { "type": "time", "text": "凌晨4点" },
+                    { "text": "左右到" },
+                    { "type": "time", "text": "下午4点到5点" },
+                    { "text": "左右，多家船公司轮流运营，另需支付约" },
+                    { "type": "price", "text": "₱15~35" },
+                    { "text": "的港口码头使用费。傍晚班次会减少，最好在" },
+                    { "type": "time", "text": "下午3点" },
+                    { "text": "之前抵达巴林戈安以策安全。此外，从薄荷岛哈格纳（Jagna）到曼巴哈奥巴尔巴贡港每周也有几班渡轮，约需" },
+                    { "type": "duration", "text": "2~3小时" },
+                    { "text": "。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "岛内交通",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从贝诺尼港到曼巴哈奥，乘吉普尼或迷你卡布约需" },
+                    { "type": "duration", "text": "30分钟" },
+                    { "text": "。环岛游览可以在包租迷你卡布（每天约" },
+                    { "type": "price", "text": "₱2,500~3,500" },
+                    { "text": "，可坐4~6人）、租用摩托车（每天约" },
+                    { "type": "price", "text": "₱400~600" },
+                    { "text": "）和分段搭乘三轮车之间自由选择。租摩托车需要国际驾照和头盔。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "卡米金全年降雨较为均匀，但从" },
+            { "type": "date", "text": "3月" },
+            { "text": "到" },
+            { "type": "date", "text": "6月" },
+            { "text": "最为干燥、海面也最平静，最适合前往白岛和曼蒂格岛。从" },
+            { "type": "date", "text": "11月" },
+            { "text": "到" },
+            { "type": "date", "text": "1月" },
+            { "text": "受东北季风影响降雨频繁，有时会因风浪导致前往白岛的螃蟹船停航。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "台风大多从卡米金北侧经过，但也有个别年份在" },
+            { "type": "date", "text": "12月" },
+            { "text": "前后有晚发台风穿过棉兰老北部，这段时间务必留意天气预报。当地最有名的活动是每年" },
+            { "type": "date", "text": "10月" },
+            {
+              "text": "第三周左右在曼巴哈奥举行的榔色果节（Lanzones Festival），身着榔色果装扮的街头游行和水果市集是主要看点。节庆期间及圣周住宿会很快订满，建议提前一个月以上预订。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "宿务—卡米金航班", "price": "约₱2,500~6,000", "note": "单程，座位有限" },
+            { "label": "卡加延德奥罗—巴林戈安巴士", "price": "约₱150~200", "note": "单程，约2小时" },
+            { "label": "巴林戈安—贝诺尼渡轮", "price": "约₱330~360", "note": "单程，另收码头使用费" },
+            { "label": "白岛螃蟹船", "price": "约₱500~800", "note": "一船往返，门票另计" },
+            { "label": "景点门票", "price": "约₱20~150", "note": "每处，含瀑布·温泉·冷泉等" },
+            { "label": "环岛迷你卡布", "price": "约₱2,500~3,500", "note": "包一天，4~6人" },
+            { "label": "摩托车租赁", "price": "约₱400~600", "note": "一天，油费另计" },
+            { "label": "住宿", "price": "约₱1,200~5,000", "note": "一间房一晚" },
+            { "label": "餐饮", "price": "约₱400~800", "note": "每人每天" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "住宿最集中的地方是岛屿北部曼巴哈奥周边的阿戈霍（Agoho）、云宾（Yumbing）、拜劳（Baylao）海滩一带。这里靠近白岛码头，餐厅也多，对初次到访的人最为方便。朴素的民宿每晚约"
+            },
+            { "type": "price", "text": "₱1,200~2,000" },
+            { "text": "，海滨度假村约" },
+            { "type": "price", "text": "₱2,500~5,000" },
+            { "text": "，也有几家带私人泳池的高级度假村。如果想要安静的氛围，岛屿西南侧卡塔尔曼、邦邦沿岸的住宿也是不错的选择。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "美食以新鲜海产和水果为主。沿岸餐厅常见的有烤鱼、生鱼片（kinilaw）和鱿鱼阿多波，榔色果当季时可以在市场和路边低价买到。卡米金帕斯特尔自" },
+            { "type": "date", "text": "1990年" },
+            {
+              "text": "代起就成为岛上代表性的点心，曼巴哈奥市区的元祖老店Vjandep帕斯特尔最负盛名。岛内也逐渐出现一些小型咖啡馆，供应本地种植的咖啡豆冲泡的咖啡，以及芒果、椰子甜点。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "曼巴哈奥市区有几台自动取款机，但经常故障或现金不足。建议提前在卡加延德奥罗或宿务取好充足的现金，会更保险。" }] },
+            {
+              "children": [
+                { "text": "白岛在正午时沙滩滚烫且没有遮阴。建议在" },
+                { "type": "time", "text": "上午6点到9点" },
+                { "text": "之间前往，并务必携带帽子、遮阳伞和饮用水。" }
+              ]
+            },
+            { "children": [{ "text": "巴林戈安的渡轮采取先到先上的方式，旺季周末等待时间会拉长。选择清晨首班船会更从容。" }] },
+            { "children": [{ "text": "环岛公路路况良好，但部分路段有急弯和上坡。若是摩托车新手，选择迷你卡布游览会更安全。" }] },
+            {
+              "children": [
+                { "text": "每个景点都会单独收取现金门票，建议多准备一些" },
+                { "type": "price", "text": "₱20" },
+                { "text": "、" },
+                { "type": "price", "text": "₱50" },
+                { "text": "、" },
+                { "type": "price", "text": "₱100" },
+                { "text": "的小面额纸币。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "攀登希博克-希博克火山需要保护区管理办公室的许可以及注册向导陪同。建议提前在曼巴哈奥旅游服务中心确认是否可以攀登及相关费用。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "海底公墓的日落在" },
+                { "type": "time", "text": "下午5点30分" },
+                { "text": "左右最为美丽。将西侧行程安排在下午，动线会更加顺畅。" }
+              ]
+            },
+            { "children": [{ "text": "手机信号在岛上大部分地区都不错，但山间瀑布附近可能会较弱。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "希博克-希博克至今仍是一座活火山。菲律宾火山地震研究所（PHIVOLCS）一旦提高警戒级别，登山及周边区域的出入都会受限，建议随时查看最新公告。"
+                }
+              ]
+            },
+            { "children": [{ "text": "白岛和曼蒂格岛周边部分区域水流较急。切勿独自游向远海，以策安全。" }] },
+            { "children": [{ "text": "在曼蒂格岛和巨蚌保护区内，切勿触摸或踩踏珊瑚与贝类。违反保护区规定可能会被处以罚款。" }] },
+            { "children": [{ "text": "瀑布周边的岩石因长有苔藓而非常湿滑。请穿溯溪鞋，并避免在雨后勉强攀爬岩石。" }] },
+            { "children": [{ "text": "租借摩托车时必须佩戴头盔，夜间许多路段没有路灯，避免夜间骑行会更安全。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "巴林戈安—贝诺尼的末班船大约在" },
+            { "type": "time", "text": "下午4点到5点" },
+            { "text": "。如果从卡加延德奥罗出发较晚，可能需要在巴林戈安过夜，请务必预留充裕的交通时间。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "卡加延德奥罗",
+              "place": "cagayan-de-oro",
+              "children": [
+                { "text": "从巴林戈安港乘巴士约" },
+                { "type": "duration", "text": "2小时" },
+                { "text": "，是以急流漂流和热闹夜市闻名的棉兰老北部门户城市。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "达希拉扬",
+              "place": "dahilayan",
+              "children": [
+                { "text": "从卡加延德奥罗驱车约" },
+                { "type": "duration", "text": "1小时30分钟" },
+                { "text": "，可以体验松林间的高空滑索，享受凉爽的高原空气。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "薄荷岛",
+              "children": [
+                { "text": "从巴尔巴贡港乘渡轮前往哈格纳约" },
+                { "type": "duration", "text": "2~3小时" },
+                { "text": "，是以巧克力山和眼镜猴闻名的岛屿。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "玛丽亚·克里斯蒂娜瀑布",
+              "place": "maria-cristina-falls",
+              "children": [
+                { "text": "经卡加延德奥罗驱车至伊利甘约" },
+                { "type": "duration", "text": "3~4小时" },
+                { "text": "，是菲律宾最具代表性的大型瀑布之一，目前仅限提前申请者有限参观。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

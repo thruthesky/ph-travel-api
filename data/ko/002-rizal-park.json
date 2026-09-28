@@ -1,0 +1,615 @@
+{
+  "id": 2,
+  "slug": "rizal-park",
+  "title": { "type": "title", "text": "리잘 공원" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Rizal Park" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "국민 영웅이 잠든 마닐라의 심장, 루네타의 푸른 광장" },
+  "island_group": { "type": "badge", "label": "권역", "value": "luzon", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "value": "metro-manila", "text": "메트로 마닐라" },
+  "location": {
+    "type": "address",
+    "label": "위치",
+    "icon": "location_on",
+    "text": "메트로 마닐라 마닐라시 에르미타"
+  },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "역사·문화"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["리잘 기념비", "도시 공원", "무료 입장", "산책", "가족 여행"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.2, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 14.5825 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 120.9783 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "12월~4월 (건기)",
+    "months": [12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "2~4시간" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱300~1,000",
+    "currency": "PHP",
+    "min": 300,
+    "max": 1000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "니노이 아키노 국제공항(MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/002-rizal-park.webp",
+    "alt": "리잘 공원",
+    "credit": "Ernest Malsin / CC BY 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rizal_Monument_(Manila,_2024).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/002-rizal-park-2.webp",
+        "alt": "리잘 공원",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila,_Rizal_Park_skyline,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/002-rizal-park-3.webp",
+        "alt": "리잘 공원",
+        "credit": "Gelomaics photography / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:RIZAL_PARK_IN_BAGUIO_CITY.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "호세 리잘이 처형된 자리에 조성된 약 58헥타르의 도시 공원으로, 리잘 기념비와 의장대, 정원, 분수 쇼가 있습니다. 입장이 무료이고 국립박물관·인트라무로스와 걸어서 이어져 마닐라 도보 여행의 중심이 됩니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "리잘 공원(Rizal Park)은 현지에서 '루네타(Luneta)'라는 옛 이름으로 더 자주 불립니다. 스페인 시대에는 성벽 도시 인트라무로스 바깥의 공터 '바굼바얀(Bagumbayan)'이었고, "
+            },
+            { "type": "date", "text": "1896년 12월 30일" },
+            {
+              "text": " 필리핀 독립운동의 정신적 지도자인 호세 리잘이 이곳에서 총살당했습니다. 그의 죽음은 필리핀 혁명의 불씨가 되었고, 공원은 오늘날 필리핀 국가 정체성을 상징하는 장소가 되었습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "공원 중앙의 리잘 기념비는 " },
+            { "type": "date", "text": "1913년" },
+            {
+              "text": "에 완공되었으며, 국제 공모에서 뽑힌 스위스 조각가 리하르트 키슬링의 작품입니다. 기념비 아래에는 리잘의 유해가 안치되어 있고, 해병대 의장대가 "
+            },
+            { "type": "duration", "text": "24시간" },
+            {
+              "text": " 교대로 지키고 있습니다. 기념비 앞에는 필리핀 전국 도로 거리 측정의 기준점인 '킬로미터 제로' 표지가 있어 마닐라에서 각 지방까지의 거리가 모두 이곳에서 시작됩니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "공원 면적은 약 58헥타르로, 넓은 잔디 광장과 중국 정원·일본 정원, 난초원, 필리핀 입체 지도, 리잘 처형 현장 조형물 등이 동서로 길게 이어집니다. 서쪽 끝은 마닐라 베이에 닿고 동쪽은 국립박물관 단지와 맞닿아 있어, 인트라무로스·국립박물관·마닐라 베이를 하나로 묶는 도보 여행의 연결 고리 역할을 합니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "주말이면 돗자리를 편 가족, 조깅하는 시민, 연을 날리는 아이들로 활기가 넘칩니다. 화려한 관광지라기보다는 마닐라 시민들의 일상과 역사가 함께 있는 공간이므로, 짧게라도 걸으며 현지 분위기를 느끼고 싶은 여행자에게 추천합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "리잘 기념비와 의장대 보기",
+              "children": [
+                {
+                  "text": "청동상과 오벨리스크로 이루어진 기념비 앞에서 부동자세로 선 의장대를 볼 수 있습니다. 정해진 시간마다 교대식이 있어 운이 좋으면 절도 있는 의식을 가까이서 지켜볼 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "킬로미터 제로 표지 찾기",
+              "children": [
+                {
+                  "text": "기념비 앞 로하스 대로 쪽에 있는 작은 표지석으로, 필리핀 도로 거리의 기준점입니다. 필리핀 지리에 관심 있다면 꼭 사진으로 남길 만합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "리잘 처형지 조형물",
+              "children": [
+                {
+                  "text": "공원 북쪽 구역에 리잘이 처형되던 순간을 실물 크기 동상으로 재현한 조형물이 있습니다. 저녁에는 조명과 음향을 곁들인 쇼가 열리기도 하니 현장 안내판을 확인합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "중국 정원과 일본 정원",
+              "children": [
+                {
+                  "text": "공원 북쪽의 두 정원은 연못과 정자, 다리가 있는 작은 휴식 공간입니다. 소액의 입장료를 받으며, 도심 속 조용한 그늘에서 쉬기 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "뮤지컬 댄싱 분수",
+              "children": [
+                {
+                  "text": "공원 중앙 연못에서 저녁 시간에 음악과 조명에 맞춰 분수 쇼가 열립니다. 해가 진 뒤 가족 단위로 많이 찾으며, 운영 요일과 시간은 공원 관리청 공지를 확인합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "필리핀 입체 지도",
+              "children": [
+                {
+                  "text": "7,000여 개 섬으로 이루어진 필리핀 군도를 한눈에 보여 주는 대형 입체 지도입니다. 앞으로 여행할 섬들의 위치를 미리 가늠해 보기 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "국기 게양대와 퀴리노 그랜드스탠드",
+              "children": [
+                { "type": "date", "text": "1946년 7월 4일" },
+                {
+                  "text": " 필리핀이 미국으로부터 독립을 선언한 무대가 이곳입니다. 대통령 취임식과 국가 행사가 열리던 그랜드스탠드는 마닐라 베이와 맞닿아 일몰 산책 코스로도 좋습니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "반나절 코스 (오후~저녁)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "15:00",
+                      "children": [{ "text": "국립박물관 쪽 입구에서 시작, 필리핀 입체 지도와 중앙 잔디 광장 산책" }]
+                    },
+                    { "time": "15:45", "children": [{ "text": "중국 정원·일본 정원에서 휴식" }] },
+                    { "time": "16:30", "children": [{ "text": "리잘 처형지 조형물과 리잘 기념비, 킬로미터 제로 표지" }] },
+                    {
+                      "time": "17:15",
+                      "children": [{ "text": "퀴리노 그랜드스탠드 방향으로 걸어 마닐라 베이 쪽으로 이동" }]
+                    },
+                    { "time": "17:45", "children": [{ "text": "베이워크에서 일몰 감상" }] },
+                    { "time": "18:30", "children": [{ "text": "공원으로 돌아와 댄싱 분수 쇼 관람 (운영일 확인)" }] },
+                    { "time": "19:30", "children": [{ "text": "에르미타·말라테 또는 인트라무로스에서 저녁 식사" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "오전 조합 코스",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [{ "text": "선선한 아침에 공원 조깅·산책, 시민들의 아침 체조 풍경 구경" }]
+                    },
+                    { "time": "08:00", "children": [{ "text": "리잘 기념비와 의장대" }] },
+                    { "time": "09:00", "children": [{ "text": "바로 옆 국립박물관 개관 시간에 맞춰 입장" }] },
+                    { "time": "12:00", "children": [{ "text": "인트라무로스로 걸어가 점심" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "공항에서",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "니노이 아키노 국제공항에서 약 " },
+                    { "type": "distance", "text": "9km" },
+                    { "text": ", 그랩으로 " },
+                    { "type": "duration", "text": "30분~1시간 20분" },
+                    { "text": ", 요금은 약 " },
+                    { "type": "price", "text": "₱280~550" },
+                    { "text": "입니다. 목적지는 '리잘 기념비(Rizal Monument)'로 입력하면 로하스 대로 쪽에 내려 줍니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "경전철(LRT)",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "LRT 1호선 유엔 애비뉴(United Nations Avenue)역에서 내려 서쪽으로 약 " },
+                    { "type": "duration", "text": "10분" },
+                    {
+                      "text": " 걸으면 공원 남동쪽에 닿습니다. 센트럴 터미널(Central Terminal)역에서 내리면 국립박물관 쪽 입구와 가깝습니다. 요금은 출발 역에 따라 약 "
+                    },
+                    { "type": "price", "text": "₱15~35" },
+                    { "text": "입니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "지프니·버스",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "로하스 대로와 타프트 애비뉴를 지나는 지프니 중 '루네타(Luneta)'나 '리잘 파크'라고 적힌 차량을 타면 됩니다. 기본요금은 약 "
+                    },
+                    { "type": "price", "text": "₱13~15" },
+                    { "text": "이며, 내릴 때는 '파라 포(Para po)'라고 말합니다. 처음 방문하는 여행자라면 그랩이나 LRT가 훨씬 편합니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "도보",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "인트라무로스 남쪽 성벽에서 도보 " },
+                    { "type": "duration", "text": "10~15분" },
+                    { "text": ", 에르미타·말라테 호텔 지역에서는 " },
+                    { "type": "duration", "text": "15~25분" },
+                    { "text": " 거리입니다. 국립박물관 3개 동은 공원 동쪽 끝에 붙어 있습니다." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "12월~2월" },
+            { "text": "이 가장 쾌적합니다. 아침저녁으로 25도 안팎이라 공원을 오래 걸어도 부담이 적습니다. " },
+            { "type": "date", "text": "3월~5월" },
+            { "text": "은 비가 없지만 한낮 기온이 35도를 넘는 날이 많고, 공원 중앙은 그늘이 부족하므로 해가 기울기 시작하는 " },
+            { "type": "time", "text": "오후 4시" },
+            { "text": " 이후 방문을 권합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월~10월" },
+            { "text": " 우기에는 오후 소나기가 잦고, " },
+            { "type": "date", "text": "7~9월" },
+            { "text": "에는 태풍이 마닐라를 지나며 강풍과 폭우를 몰고 옵니다. 비 온 뒤 잔디밭은 질척거리므로 샌들보다 운동화가 편합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "국가 행사일에는 공원이 특히 붐빕니다. " },
+            { "type": "date", "text": "6월 12일" },
+            { "text": " 독립기념일, " },
+            { "type": "date", "text": "12월 30일" },
+            { "text": " 리잘 기념일에는 기념식이 열리고 일부 구역 출입이 통제됩니다. " },
+            { "type": "date", "text": "1월 초" },
+            {
+              "text": " 블랙 나자렌 축제(퀴아포 성당) 때는 전야 행사가 퀴리노 그랜드스탠드 일대에서 열려 수십만 명이 모이므로 이 기간에는 방문을 피하거나 일정을 넉넉히 잡아야 합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "공원 입장료", "price": "무료", "note": "공원 대부분 구역" },
+            { "label": "중국·일본 정원 등 유료 구역", "price": "약 ₱20~50", "note": "구역별로 다름" },
+            { "label": "공항↔공원 그랩", "price": "약 ₱280~550 (편도)", "note": "러시아워·우천 시 상승" },
+            { "label": "LRT 1호선", "price": "약 ₱15~35", "note": "구간별 요금" },
+            { "label": "지프니", "price": "약 ₱13~20", "note": "기본요금 기준" },
+            { "label": "간식·음료", "price": "약 ₱50~200", "note": "공원 내 노점·매점" },
+            { "label": "저녁 식사", "price": "약 ₱300~800", "note": "에르미타·말라테 식당" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "리잘 공원 주변 숙소는 에르미타와 말라테 지역에 몰려 있습니다. 로하스 대로의 마닐라 호텔(The Manila Hotel)은 " },
+            { "type": "date", "text": "1912년" },
+            { "text": "에 문을 연 역사적인 호텔로, 맥아더 장군이 거주했던 곳으로도 유명하며 1박 약 " },
+            { "type": "price", "text": "₱7,000~12,000" },
+            { "text": " 선입니다. 공원 남쪽 로하스 대로에는 마닐라 베이 전망을 갖춘 중급 호텔이 여럿 있고(1박 약 " },
+            { "type": "price", "text": "₱3,000~6,000" },
+            { "text": "), 말라테 안쪽 골목에는 약 " },
+            { "type": "price", "text": "₱1,500~3,000" },
+            { "text": "대의 저렴한 호텔과 게스트하우스가 있습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "공원 안에서는 부코(어린 코코넛) 주스, 피시볼·키키암 같은 꼬치 튀김, 타호(두부와 타피오카를 넣은 달콤한 간식), 소르베테스(길거리 아이스크림)를 파는 노점을 쉽게 볼 수 있습니다. 제대로 된 식사는 말라테 지역의 필리핀 식당가나 인트라무로스 안의 레스토랑을 추천합니다. 마닐라 호텔의 카페나 로비 라운지에서 애프터눈 티를 즐기며 20세기 초 분위기를 느껴 보는 것도 색다른 경험입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "공원이 동서로 약 " },
+                { "type": "distance", "text": "1km" },
+                {
+                  "text": " 이상 길게 뻗어 있으므로 한쪽 끝에서 시작해 반대편으로 걸어가는 동선이 효율적입니다. 국립박물관 쪽에서 출발해 마닐라 베이에서 일몰로 마무리하는 코스를 추천합니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "햇빛을 피할 곳이 적으니 " },
+                { "type": "time", "text": "오전 9시" },
+                { "text": " 이전이나 " },
+                { "type": "time", "text": "오후 4시" },
+                { "text": " 이후에 방문하고, 모자와 물을 챙깁니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "공원 노점은 현금만 받습니다. " },
+                { "type": "price", "text": "₱20" },
+                { "text": "·" },
+                { "type": "price", "text": "₱50" },
+                { "text": " 소액권을 준비하면 거스름돈 문제가 없습니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "리잘 기념비 정면 사진은 오전보다 오후에 빛이 좋습니다. 기념비 주변은 의장대 보호 구역이 있어 지정된 선 밖에서 촬영합니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "분수 쇼와 처형지 조명 쇼는 요일·시간이 자주 바뀌므로 국립공원개발위원회(NPDC) 공식 페이스북 공지를 확인합니다." }
+              ]
+            },
+            { "children": [{ "text": "화장실은 공원 곳곳에 있지만 소액을 받는 곳도 있고 휴지가 없는 경우가 많아 휴대용 휴지를 챙깁니다." }] },
+            { "children": [{ "text": "주말 오후는 현지 가족 나들이객으로 붐비므로 조용한 산책을 원하면 평일 아침을 고르십시오." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "관광객에게 접근해 사진을 찍어 주겠다거나 '가이드'를 해 주겠다며 나중에 돈을 요구하는 사람이 있습니다. 필요하지 않으면 정중히 거절합니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "인파가 많은 저녁 분수 쇼와 행사 때는 소매치기에 주의하고, 휴대전화와 지갑은 앞주머니나 앞으로 멘 가방에 둡니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "밤늦은 시간(" },
+                { "type": "time", "text": "21시" },
+                { "text": " 이후) 공원 외곽과 로하스 대로 지하도 주변은 인적이 드물어지므로 그랩을 불러 바로 이동합니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "국가 행사, 대규모 집회, 종교 행사가 있는 날은 출입이 통제되거나 교통이 마비될 수 있으니 뉴스를 확인합니다." }
+              ]
+            },
+            { "children": [{ "text": "의장대가 지키는 기념비 구역에 무단으로 들어가거나 기념비에 올라가는 행위는 엄격히 금지됩니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "필리핀 국립박물관",
+              "place": "national-museum",
+              "children": [
+                { "text": "공원 동쪽 끝에서 도보 " },
+                { "type": "duration", "text": "5분" },
+                { "text": ". 미술·인류학·자연사 3개 박물관이 모두 무료입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "인트라무로스",
+              "place": "intramuros",
+              "children": [
+                { "text": "공원 북쪽에서 도보 " },
+                { "type": "duration", "text": "10~15분" },
+                { "text": ". 포트 산티아고와 산 아구스틴 성당이 있는 스페인 성벽 도시입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "마닐라 베이",
+              "place": "manila-bay",
+              "children": [
+                { "text": "공원 서쪽 끝에서 도보 " },
+                { "type": "duration", "text": "5~10분" },
+                { "text": ". 로하스 대로 베이워크와 돌로마이트 해변에서 일몰을 봅니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "비논도 차이나타운",
+              "place": "binondo",
+              "children": [
+                { "text": "그랩으로 약 " },
+                { "type": "duration", "text": "15분" },
+                { "text": ". 파시그 강 건너 세계에서 가장 오래된 차이나타운에서 먹거리 여행을 즐길 수 있습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

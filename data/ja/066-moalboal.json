@@ -1,0 +1,587 @@
+{
+  "id": 66,
+  "slug": "moalboal",
+  "title": { "type": "title", "text": "モアルボアル" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Moalboal" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "ビーチから十歩、数百万匹のイワシの群れが舞う海" },
+  "island_group": { "type": "badge", "label": "地方", "value": "visayas", "text": "ビサヤ" },
+  "region": { "type": "badge", "label": "地域", "value": "cebu", "text": "セブ" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "セブ州モアルボアル、パナグサマ"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "ダイビング・海"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "タグ",
+    "items": ["イワシの群れ", "ウミガメ", "シュノーケリング", "ダイビング", "ペスカドール島"]
+  },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.7, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 9.95 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 123.4 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "12月〜5月(乾季)、イワシは通年",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "2泊3日〜3泊4日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱2,000〜4,500",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "マクタン・セブ国際空港 (CEB)",
+    "code": "CEB"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/066-moalboal.webp",
+    "alt": "モアルボアル",
+    "credit": "Iampjanz / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sardine_run_over_seafloor_in_Moalboal_01.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/066-moalboal-2.webp",
+        "alt": "モアルボアル",
+        "credit": "Per Edin / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Moalboal_Cebu_3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/066-moalboal-3.webp",
+        "alt": "モアルボアル",
+        "credit": "Per Edin / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Moalboal_Cebu_2.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "セブ南西海岸のダイビングの村で、パナグサマビーチから数十メートル泳ぐだけで数百万匹のイワシの群れとウミガメに出会えます。ペスカドール島ダイビングとカワサン滝キャニオニングまで組み合わせられ、セブで最も充実した海のリゾート地に数えられます。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "モアルボアルはセブシティから南西へ約" },
+            { "type": "distance", "text": "90km" },
+            {
+              "text": "、タニョン海峡を挟んでネグロス島と向かい合う海辺の村です。旅行者が集まるのは村の中心から西へ少し離れたパナグサマ(Panagsama)ビーチで、海岸沿いにダイビングショップやゲストハウス、レストランが並んでいます。1970〜80年代からダイバーの間で知られていた場所で、フィリピンでも指折りの歴史あるダイビングの村でもあります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "モアルボアルを世界的に有名にしたのは「サーディン・ラン(Sardine Run)」と呼ばれるイワシの群れです。数百万匹と推定されるイワシが、パナグサマビーチのすぐ前にあるサンゴの壁(ドロップオフ)沿いに巨大な群れを作っており、季節によって移動する他の地域と違い、ほぼ1年中この場所にとどまっています。ビーチからシュノーケル器材だけを持って歩いて入り、"
+            },
+            { "type": "distance", "text": "10〜30m" },
+            { "text": "ほど泳ぎ出るだけで、銀色の魚の壁が目の前で渦を巻くように向きを変える壮観が見られます。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ウミガメもモアルボアルの名物です。パナグサマ沖と近くのホワイトビーチ(バスダク)周辺の海草地帯にはアオウミガメがよく現れ、シュノーケリングだけでも息継ぎに上がってくるウミガメの姿を間近で見られます。海岸から約"
+            },
+            { "type": "distance", "text": "3km" },
+            { "text": "離れたペスカドール島は海洋保護区で、サンゴの壁や洞窟、多彩な熱帯魚がありダイバーが必ず訪れるポイントです。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ダイバーはもちろん、ダイビングライセンスがないシュノーケラーでも十分に感動できる場所です。車で約" },
+            { "type": "duration", "text": "30分" },
+            {
+              "text": "の距離にカワサン滝キャニオニングがあり、オスロブのジンベエザメとも日帰り日程でつなげられるため、セブ南部旅行の拠点にするのに適しています。夕方にはビーチバーで夕日を見ながら世界中のバックパッカーと交流できる雰囲気も魅力です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "イワシの群れとシュノーケリング",
+              "children": [
+                {
+                  "text": "パナグサマビーチで器材を借り、ビーチの階段やリゾートの前からそのまま入水します。サンゴの崖が始まる地点まで出ると、イワシの群れが水面近くに集まっており、足元を巨大な銀色の雲が通り過ぎていきます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "ウミガメと泳ぐ",
+              "children": [
+                { "text": "早朝、パナグサマやホワイトビーチ前の海草地帯でウミガメに出会える確率が高いです。最低でも数メートルの距離を保ち、静かに観察してください。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "ペスカドール島ホッピング・ダイビング",
+              "children": [
+                {
+                  "text": "バンカボートに乗ってペスカドール島の海洋保護区へ行き、サンゴの壁沿いにシュノーケリングやダイビングをします。島周辺にある「カテドラル」と呼ばれる水中洞窟はダイバーの間で有名です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "ファンダイビングとライセンス講習",
+              "children": [
+                {
+                  "text": "パナグサマには数十軒のダイビングショップがあり、韓国人インストラクターがいるショップもあります。イワシの群れの中でのダイビングは、モアルボアルでしかできない体験です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "ホワイトビーチで海水浴",
+              "children": [
+                { "text": "パナグサマには砂浜がほとんどないため、海水浴は北側バスダクのホワイトビーチで行います。トライシクルで約" },
+                { "type": "duration", "text": "15分" },
+                { "text": "の距離にあり、きめ細かい砂浜と遠浅の海があります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "カワサン滝キャニオニング",
+              "children": [
+                {
+                  "text": "モアルボアルの宿から送迎してくれるキャニオニングツアーで、渓谷沿いに飛び込んだり泳いだりしながらカワサン滝まで下ります。モアルボアルの旅行者のほとんどがこれに1日を費やします。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "パナグサマの夕日とビーチバー",
+              "children": [
+                { "text": "モアルボアルの海岸は西を向いており、夕暮れ時にはネグロス島の上に日が沈みます。ビーチバーでサンミゲル片手に一日を締めくくってください。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "午前6時", "children": [{ "text": "セブのサウスバスターミナルからモアルボアル行きのセレスバスに乗車" }] },
+                    { "time": "午前9時30分", "children": [{ "text": "モアルボアル到着、トライシクルでパナグサマへ移動" }] },
+                    { "time": "午前11時", "children": [{ "text": "宿にチェックイン後、昼食" }] },
+                    {
+                      "time": "午後1時30分",
+                      "children": [
+                        { "text": "ビーチ前でイワシの群れとシュノーケリング(約" },
+                        { "type": "duration", "text": "1〜2時間" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "午後5時30分", "children": [{ "text": "ビーチバーで夕日を鑑賞" }] },
+                    { "time": "夕方", "children": [{ "text": "パナグサマのレストラン街で夕食" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "午前6時30分", "children": [{ "text": "宿での送迎でカワサン滝キャニオニングへ出発" }] },
+                    {
+                      "time": "午前7時30分〜午後12時30分",
+                      "children": [{ "text": "渓谷トレッキング、ジャンプ、カワサン滝到着" }]
+                    },
+                    { "time": "午後1時30分", "children": [{ "text": "昼食後、宿へ戻り休憩" }] },
+                    { "time": "午後4時", "children": [{ "text": "ホワイトビーチで海水浴" }] },
+                    { "time": "夕方", "children": [{ "text": "シーフードバーベキュー" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "午前7時",
+                      "children": [{ "text": "バンカボートホッピングツアー(イワシの群れ・ウミガメ・ペスカドール島)" }]
+                    },
+                    { "time": "午前11時", "children": [{ "text": "戻ってチェックアウト" }] },
+                    { "time": "午後12時30分", "children": [{ "text": "バスでセブシティへ戻る、またはオスロブ方面へ移動" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "最も近い空港はマクタン・セブ国際空港(CEB)で、仁川・釜山からの直行便やマニラ発の国内線(約" },
+                    { "type": "duration", "text": "1時間20分" },
+                    { "text": ")が多く運航しています。空港からモアルボアルまでは車で約" },
+                    { "type": "duration", "text": "3〜4時間" },
+                    { "text": "かかり、専用車やバンを予約すると約" },
+                    { "type": "price", "text": "₱3,000〜4,500" },
+                    { "text": "です。グラブをモアルボアルまで呼ぶこともできますが、料金が高く配車も難しいです。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "バス・バン",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "セブシティのN.バカルソ通りにあるサウスバスターミナルから、セレスバスの「バリリ経由バト(Bato via Barili)」路線に乗り、モアルボアルで降ります。バスはほぼ"
+                    },
+                    { "type": "duration", "text": "24時間" },
+                    { "text": "、約" },
+                    { "type": "duration", "text": "30分" },
+                    { "text": "間隔で出発しており、所要時間は交通状況により約" },
+                    { "type": "duration", "text": "3〜4時間" },
+                    { "text": "、料金はエアコン付きバスで約" },
+                    { "type": "price", "text": "₱200〜230" },
+                    { "text": "、一般バスで約" },
+                    { "type": "price", "text": "₱170" },
+                    { "text": "ほどです。同じターミナルから出るバン(V-Hire)はやや速いですが座席が狭いです。空港からバスターミナルまではタクシー・グラブで約" },
+                    { "type": "duration", "text": "40分〜1時間" },
+                    { "text": "です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "現地での移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "モアルボアルのバス停(村の中心)からパナグサマまではトライシクルで約" },
+                    { "type": "duration", "text": "10分" },
+                    { "text": "、約" },
+                    { "type": "price", "text": "₱100〜150" },
+                    {
+                      "text": "です。ビーチ沿いは歩いて回りやすく、ホワイトビーチ・カワサンなど近隣への移動はトライシクルやハバルハバルをチャーターします。スクーターのレンタルも1日約"
+                    },
+                    { "type": "price", "text": "₱400〜600" },
+                    { "text": "ほどで可能です。ネグロスへ渡る際は南のバト港からフェリーでドゥマゲテ近くのタンピへ渡ります。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "イワシの群れはほぼ1年中見られますが、海が穏やかで視界の良い" },
+            { "type": "date", "text": "12月〜5月" },
+            { "text": "の乾季が最も良い時期です。" },
+            { "type": "date", "text": "3〜5月" },
+            { "text": "は水温が29〜30度まで上がり、長時間水に入っていても寒くありません。" },
+            { "type": "date", "text": "12〜2月" },
+            { "text": "は水温が26〜27度とやや下がるため、3mmのウェットスーツやラッシュガードがあると快適です。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜11月" },
+            { "text": "は雨季で午後にスコールが多く、南西モンスーンが吹くと西を向いたパナグサマ海岸に波が立ち、視界が悪くなることがあります。台風の時期(主に" },
+            { "type": "date", "text": "8〜11月" },
+            {
+              "text": ")にはバンカボートツアーやキャニオニングが中止になることもあります。それでも、ビーチから歩いて入るシュノーケリングは、海の状態さえ良ければ通年可能です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "セブ〜モアルボアルバス", "price": "約₱170〜230", "note": "片道、エアコンの有無による" },
+            { "label": "空港〜モアルボアル専用車", "price": "約₱3,000〜4,500", "note": "片道1台" },
+            { "label": "シュノーケル器材レンタル", "price": "約₱150〜300", "note": "1日" },
+            { "label": "バンカボートホッピングツアー", "price": "約₱1,500〜3,000", "note": "1隻、人数で割り勘" },
+            { "label": "ファンダイビング", "price": "約₱1,500〜2,200", "note": "1回、器材レンタルは別途可" },
+            { "label": "カワサン滝キャニオニング", "price": "約₱2,000〜3,500", "note": "1人、送迎・昼食込みか確認" },
+            { "label": "宿泊", "price": "約₱800〜4,500", "note": "1泊、ドミトリー〜リゾート" },
+            { "label": "食事", "price": "約₱600〜1,200", "note": "1人1日" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "宿泊施設はパナグサマビーチ周辺が最も便利です。イワシの群れのポイントが徒歩数分の距離にあり、ダイビングショップ、レストラン、バーがすべて集まっています。ドミトリーは1泊約"
+            },
+            { "type": "price", "text": "₱500〜800" },
+            { "text": "、個室のゲストハウスは約" },
+            { "type": "price", "text": "₱1,200〜2,500" },
+            { "text": "、プール付きのダイビングリゾートは約" },
+            { "type": "price", "text": "₱3,000〜5,000" },
+            { "text": "ほどです。静かなビーチ滞在を望むなら、ホワイトビーチ側のリゾートを選ぶのもよいでしょう。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "パナグサマのレストラン街は、小さな村にしては選択肢が豊富です。フィリピンの家庭料理やシーフードバーベキュー、ヨーロッパ風ブランチ、ピザ、タイ・メキシコ料理まであり、ベジタリアンメニューもよく見かけます。モアルボアル市街の公設市場近くでは、安いレチョンやローカルの惣菜を味わえます。セブ南部の特産品であるマンゴーやバナナのおやつも屋台で気軽に買えます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "イワシの群れは早朝と遅い午後に水面近くへ集まる傾向があり、人も少ないため写真撮影に向いています。" }] },
+            { "children": [{ "text": "ビーチの入水地点は岩とサンゴが混じっていて滑りやすいです。アクアシューズかフィンを履いて入ってください。" }] },
+            {
+              "children": [
+                { "text": "防水カメラやアクションカメラがあれば、イワシの群れの映像が最高の記念品になります。現地でアクションカメラのレンタルも可能です。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "パナグサマにもATMはありますが、よく故障したり現金切れになったりします。モアルボアル市街やセブで十分に引き出しておいてください。" }
+              ]
+            },
+            { "children": [{ "text": "バスはエアコン車のほうが快適ですが、冷房が強いため薄手の羽織りものを用意してください。" }] },
+            { "children": [{ "text": "キャニオニングは前日に宿やダイビングショップを通じて予約すれば送迎込みで便利です。" }] },
+            {
+              "children": [{ "text": "オスロブのジンベエザメも一緒に見たい場合は、モアルボアルから明け方に出発する専用車ツアーを利用すれば1日で回れます。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [{ "text": "イワシの群れがいるサンゴの壁の前は急に水深が深くなります。泳ぎに自信がない場合はライフジャケットを着用してください。" }]
+            },
+            {
+              "children": [
+                { "text": "ビーチの前はバンカボートの通り道でもあるため、シュノーケリングの際は水面表示用のブイや明るい色の服を身につけ、船に注意してください。" }
+              ]
+            },
+            { "children": [{ "text": "ウミガメに触れたり追いかけたりする行為は禁止されており、罰金の対象になることがあります。" }] },
+            { "children": [{ "text": "サンゴに有害な化学日焼け止めの代わりに、ラッシュガードと海に優しい製品を使ってください。" }] },
+            { "children": [{ "text": "クラゲが現れる時期があるため、長袖のラッシュガードをおすすめします。" }] }
+          ]
+        },
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "海洋保護区の入場料と規則は随時変わります。ホッピングやダイビングの前に最新の料金を確認してください。" }]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "カワサン滝",
+              "place": "kawasan-falls",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "30分" },
+                { "text": "、ターコイズブルーの滝とキャニオニングで有名なバディアンの渓谷です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "オスロブ",
+              "place": "oslob",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "2時間〜2時間30分" },
+                { "text": "、ジンベエザメと一緒に泳げるセブ南部の漁村です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "オスメニャピーク",
+              "place": "osmena-peak",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間30分〜2時間" },
+                { "text": "、尖った峰々が波のように連なるセブ島最高峰です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ドゥマゲテ",
+              "place": "dumaguete",
+              "children": [
+                { "text": "バスでバト港まで約" },
+                { "type": "duration", "text": "1時間30分" },
+                { "text": "、フェリーで約" },
+                { "type": "duration", "text": "30分〜1時間" },
+                { "text": "渡れば着く、ネグロス・オリエンタルの学園都市でありアポ島ダイビングの拠点です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

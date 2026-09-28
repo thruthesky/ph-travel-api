@@ -1,0 +1,605 @@
+{
+  "id": 79,
+  "slug": "anda",
+  "title": { "type": "title", "text": "アンダ" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Anda" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "ボホール東端で出会う静かな白砂浜と洞窟プール" },
+  "island_group": { "type": "badge", "label": "地方", "value": "visayas", "text": "ビサヤ" },
+  "region": { "type": "badge", "label": "地域", "value": "bohol", "text": "ボホール" },
+  "location": { "type": "address", "label": "所在地", "icon": "location_on", "text": "ボホール州アンダ" },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "ビーチ・島"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["キナレビーチ", "洞窟プール", "日の出", "ダイビング", "静かなビーチ"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 9.744 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 124.576 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "3月〜5月(乾季)",
+    "months": [3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "2〜3日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱2,000〜5,000",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "ふつう",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ボホール・パングラオ国際空港 (TAG)",
+    "code": "TAG"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/079-anda.webp",
+    "alt": "アンダ",
+    "credit": "P199 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Anda_Bohol_1.JPG"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/079-anda-2.webp",
+        "alt": "アンダ",
+        "credit": "pinay06 / CC BY 2.5 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Andabeach.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "ボホール島東端の半島に位置する静かな海辺の村で、きめ細かく白いキナレビーチと石灰岩地帯の澄んだ洞窟プールが魅力です。パングラオよりずっと落ち着いており、ゆったりとした休息とダイビングを求める旅行者に向いています。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "アンダ(Anda)は、ボホール島南東端の海へ丸みを帯びて突き出た半島にある、人口2万人ほどの小さな海辺の村です。タグビラランやパングラオから車で" },
+            { "type": "duration", "text": "2時間30分〜3時間" },
+            {
+              "text": "かかるほど遠く、長らくボホールの人々だけが知るビーチとして残っていましたが、最近ではパングラオの喧騒を避けたい旅行者やダイバーが静かに訪れる場所になっています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "アンダの海岸は、あちこちに小さな入り江と岬が続き、その間に小麦粉のようにきめ細かい白砂のビーチが隠れています。村の中心にあるキナレビーチ(Quinale Beach)は約"
+            },
+            { "type": "distance", "text": "1km" },
+            {
+              "text": "近く続く公共のビーチで、ビーチ前の水が澄み波が穏やかなため家族連れの水遊びに向いています。東を向いているため海から昇る日の出を見られることも、西海岸中心のパングラオとは違う点です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "半島全体が石灰岩地帯のため地下に水が流れる洞窟が多く、その一部は天井が開いて日光が差し込む天然のプールになっています。代表的なカバグノ洞窟プール(Cabagnow Cave Pool)は水深"
+            },
+            { "type": "distance", "text": "6〜7m" },
+            {
+              "text": "に達する青い水たまりで、上から飛び込む体験で有名です。また半島東岸のラマノック(Lamanok)には、赤い顔料で描かれた古代の岩絵と古い埋葬洞窟が残っており、先史時代のボホールの人々の痕跡を見ることができます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "アンダの沖はボホール海の深い海とつながっており、垂直なサンゴの壁とマクロ生物が豊富なダイビングポイントがいくつもあります。大型リゾートやナイトライフはほとんどなく、バイクを借りてビーチや洞窟、滝を一つずつ巡る旅がよく似合う場所なので、静かな休息を求めるカップル、長期旅行者、ダイバーに特によく合います。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "キナレビーチで水泳と日の出",
+              "children": [
+                {
+                  "text": "アンダ村中心の公共ビーチで、入場料がなく、きめ細かい白砂と穏やかな水が特徴です。早朝、ビーチから海の上に昇る太陽を見るのがアンダを代表する体験です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "カバグノ洞窟プール",
+              "children": [
+                { "text": "狭い岩の隙間の下に青い地下水の水たまりが広がる洞窟プールで、約" },
+                { "type": "distance", "text": "6〜7m" },
+                { "text": "の深さの水に飛び込むことができます。鉄製のはしごでゆっくり入ることもでき、保全のため休みの曜日が決まっているので訪問前に確認してください。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "他の洞窟プール巡り",
+              "children": [
+                {
+                  "text": "カバグノ以外にも、カリグーン(Kaligoon)洞窟プールなど規模や雰囲気の異なる洞窟プールが半島のあちこちにあります。バイクで半日あれば2〜3か所を回れます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "ラマノック岩絵探訪",
+              "children": [
+                {
+                  "text": "半島東岸のラマノック岬では、地元ガイドについてマングローブと岩の崖を通りながら、赤い手形と人の形をした古代の壁画、古い埋葬洞窟を見ることができます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "アンダ沖のダイビング",
+              "children": [
+                {
+                  "text": "村の沖近くの垂直なサンゴの壁と斜面のポイントは、ウチワサンゴやウミガメ、タカラガイやウミウシといった小さな生物が豊富です。潮の流れが弱めなので入門ダイバーにも楽しめます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "カヌマンタッド滝と棚田",
+              "children": [
+                {
+                  "text": "隣接するカンディハイ(Candijay)のカヌマンタッド滝(Can-Umantad Falls)はボホール最大級の滝の一つで、滝の上にはカダブダパン棚田が広がります。アンダから車で約"
+                },
+                { "type": "duration", "text": "30〜40分" },
+                { "text": "です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "海岸崖ドライブ",
+              "children": [
+                {
+                  "text": "アンダ半島を回る海岸道路では、エメラルド色の海と小さな隠れビーチが次々と現れます。バイクを止めて名もないビーチでひと休みするのが、この地域を旅する醍醐味です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "午前8時", "children": [{ "text": "パングラオまたはタグビララン出発" }] },
+                    { "time": "午前11時", "children": [{ "text": "アンダ到着、宿にチェックイン" }] },
+                    { "time": "午後", "children": [{ "text": "キナレビーチで水泳と休憩" }] },
+                    { "time": "夕方", "children": [{ "text": "ビーチのレストランで海鮮の夕食" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "午前5時30分", "children": [{ "text": "キナレビーチで日の出鑑賞" }] },
+                    { "time": "午前9時", "children": [{ "text": "バイクをレンタル後カバグノ洞窟プール" }] },
+                    { "time": "午前11時", "children": [{ "text": "カリグーンなど他の洞窟プール訪問" }] },
+                    { "time": "午後1時", "children": [{ "text": "村の食堂で昼食" }] },
+                    { "time": "午後2時〜5時", "children": [{ "text": "カヌマンタッド滝とカダブダパン棚田" }] },
+                    { "time": "夕方", "children": [{ "text": "宿で休憩" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3日目",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "午前", "children": [{ "text": "体験ダイビングまたはラマノック岩絵ツアー" }] },
+                    {
+                      "time": "正午以降",
+                      "children": [
+                        { "text": "チェックアウト後タグビララン・パングラオ方面へ帰還(途中でチョコレート・ヒルズやロボック川と組み合わせ可能)" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラからボホール・パングラオ国際空港(TAG)まで約" },
+                    { "type": "duration", "text": "1時間20分" },
+                    { "text": "です。空港からアンダまでは約" },
+                    { "type": "distance", "text": "110km" },
+                    { "text": "、車で" },
+                    { "type": "duration", "text": "2時間30分〜3時間30分" },
+                    { "text": "かかります。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "セブからオーシャンジェットなどの高速船でタグビララン港まで約" },
+                    { "type": "duration", "text": "2時間" },
+                    { "text": "(約" },
+                    { "type": "price", "text": "₱800〜1,500" },
+                    {
+                      "text": ")かかります。時期によってはセブからボホール東部の港(ウバイなど)へ向かう旅客船が運航することもありますが、旅行者にはタグビララン経由が最も無難です。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "バス・バン",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "タグビラランのダオ統合バスターミナルからアンダ行きのバスやバンに乗ると約" },
+                    { "type": "duration", "text": "3〜3時間30分" },
+                    { "text": "、運賃はバス約" },
+                    { "type": "price", "text": "₱150〜200" },
+                    { "text": "、バン約" },
+                    { "type": "price", "text": "₱250〜350" },
+                    {
+                      "text": "です。海岸道路沿いに複数の村を通るため時間がかかりますが、景色が良いです。最終便は午後早い時間に終わることが多いので午前出発をおすすめします。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "車両チャーター",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "パングラオや空港からアンダまで車をチャーターすると片道約" },
+                    { "type": "price", "text": "₱3,500〜5,000" },
+                    { "text": "です。途中でロボック川やチョコレート・ヒルズに立ち寄るよう1日ツアーに組み込むと効率的です。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "現地の移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "アンダ内ではバイクレンタル(1日約" },
+                    { "type": "price", "text": "₱400〜500" },
+                    { "text": ")が最も便利で、トライシクルやハバルハバルのチャーター(半日約" },
+                    { "type": "price", "text": "₱800〜1,200" },
+                    { "text": ")も可能です。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "アンダは東を向いた海岸のため北東季節風の影響を受けます。" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は風が強い日にビーチに波が寄せ海藻が打ち上げられることもあるため、海が最も穏やかで澄む" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "が最適です。この時期は日の出も鮮明で、ダイビングの視界も良好です。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜11月" },
+            {
+              "text": "は雨季でにわか雨が多いものの、海が大きく荒れない日も多く旅行が不可能というわけではありません。ただし洞窟プールは大雨の後に水が濁ることがあり、カヌマンタッド滝は水量が増えて迫力が増す一方で道がぬかるみます。"
+            },
+            { "type": "date", "text": "10月〜12月" },
+            { "text": "に台風や熱帯低気圧の影響があるときは、海岸道路とダイビングの予定に支障が出ることがあります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "聖週間と" },
+            { "type": "date", "text": "5月" },
+            { "text": "の連休には地元ボホールの人々がキナレビーチに押し寄せ週末の昼間は混雑しますが、平日にはほぼビーチを独り占めできます。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "タグビララン→アンダ バス・バン", "price": "約₱150〜350", "note": "3〜3.5時間" },
+            { "label": "空港・パングラオ→アンダ車両チャーター", "price": "片道約₱3,500〜5,000", "note": "車両1台" },
+            { "label": "バイクレンタル", "price": "1日約₱400〜500", "note": "燃料別途" },
+            { "label": "洞窟プール入場料", "price": "1か所あたり約₱50〜200", "note": "環境税・駐車料込みか確認" },
+            { "label": "カヌマンタッド滝入場料", "price": "約₱50〜150", "note": "現地徴収" },
+            { "label": "ファンダイビング1回", "price": "約₱1,800〜2,500", "note": "器材レンタル別途" },
+            { "label": "宿泊", "price": "1泊約₱1,500〜8,000", "note": "ゲストハウス〜ビーチリゾート" },
+            { "label": "食事", "price": "1食約₱200〜600", "note": "地元食堂〜リゾートレストラン" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "宿はキナレビーチ周辺と村西側の海岸沿いに点在しています。ビーチフロントのブティックリゾートは1泊" },
+            { "type": "price", "text": "₱4,000〜8,000" },
+            { "text": "、ダイブリゾートと中級の宿は" },
+            { "type": "price", "text": "₱2,000〜4,000" },
+            { "text": "、村内のゲストハウスは" },
+            { "type": "price", "text": "₱1,000〜1,800" },
+            { "text": "程度です。リゾート同士が離れているため徒歩での移動は難しく、宿を選ぶ際はレストランやビーチへのアクセスも一緒に見ておくとよいでしょう。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "レストランの数は多くないため、大半はリゾートのレストランで食事を済ませることになります。村の中心の市場やビーチ周辺には、焼き魚とフィリピンの家庭料理を出すカリンデリアがあり、"
+            },
+            { "type": "price", "text": "₱100〜250" },
+            { "text": "で一食食べられます。海辺の村らしくその日獲れた魚とイカ、キニラウが新鮮で、アンダ近郊で採れるマンゴーとバナナを使ったおやつも味わう価値があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "アンダにはATMがほとんどないか故障が多いため、タグビラランやパングラオで必要な現金をすべて用意していってください。小規模なリゾートはカード決済ができない所が多いです。"
+                }
+              ]
+            },
+            { "children": [{ "text": "洞窟プールは曜日ごとの休場日と入場時間が決まっています。日程を組む前に宿や現地の観光案内で確認してください。" }] },
+            {
+              "children": [
+                { "text": "洞窟プールの岩は非常に滑ります。アクアシューズを履き、飛び込む前に水の深さと底の岩の位置をスタッフに確認してください。" }
+              ]
+            },
+            { "children": [{ "text": "バイクで移動する際は海岸道路の急カーブと勾配に注意し、日が沈む前に宿へ戻ってください。" }] },
+            {
+              "children": [
+                { "text": "スマート・グローブの電波は村の中心では入りますが、海岸の外れや洞窟周辺は弱くなります。オフラインの地図を事前に取得しておいてください。" }
+              ]
+            },
+            { "children": [{ "text": "撮影スポットはキナレビーチの日の出、カバグノ洞窟プールを上から見下ろす構図、カヌマンタッド滝の上の棚田です。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "洞窟プールの飛び込み地点で飛び込むときは、必ず一人ずつ、下にいる人が離れたことを確認してから飛び込んでください。水深は深くても、縁の岩にぶつかる事故が起こり得ます。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "洞窟プールとラマノック岩絵地域では、壁画や鍾乳石に触れないこと、石けん・日焼け止めを塗ったまま入らないことが原則です。" }
+              ]
+            },
+            { "children": [{ "text": "ビーチの沖にはウニと鋭いサンゴがあります。干潮時は素足で歩かないでください。" }] },
+            {
+              "children": [
+                { "text": "アンダには大きな病院がありません。重い怪我や病気の場合はタグビラランまで行く必要があるため、基本的な常備薬を持参してください。" }
+              ]
+            },
+            { "children": [{ "text": "雨季の大雨の後は滝周辺の水流が急激に速くなります。現地スタッフが禁止した区域では泳がないでください。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "チョコレート・ヒルズ",
+              "place": "chocolate-hills",
+              "children": [
+                { "text": "アンダから車で約" },
+                { "type": "duration", "text": "2時間" },
+                { "text": "、ボホールを代表する円錐形の丘陵地帯です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ロボック川",
+              "place": "loboc-river",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "2時間" },
+                { "text": "、ビュッフェ昼食のリバークルーズで有名です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "パングラオ島",
+              "place": "panglao",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "2時間30分〜3時間" },
+                { "text": "、アロナビーチとホッピングツアーの拠点です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "カミギン島",
+              "place": "camiguin",
+              "children": [
+                { "text": "ボホール南方の海を挟んだミンダナオ北部の火山島で、アンダから車で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "のハグナ(Jagna)港から船で約" },
+                { "type": "duration", "text": "3〜4時間" },
+                { "text": "です(運航曜日を確認)。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
