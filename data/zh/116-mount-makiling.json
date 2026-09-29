@@ -1,0 +1,600 @@
+{
+  "id": 116,
+  "slug": "mount-makiling",
+  "title": { "type": "title", "text": "马基灵山与洛斯巴尼奥斯" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mount Makiling & Los Baños" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "传说女神守护的森林与温泉小镇的一天" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "luzon", "text": "吕宋" },
+  "region": { "type": "badge", "label": "地区", "value": "laguna", "text": "内湖" },
+  "location": {
+    "type": "address",
+    "label": "位置",
+    "icon": "location_on",
+    "text": "拉古纳省洛斯巴尼奥斯·卡兰巴（近八打雁省边界）"
+  },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "hiking",
+    "value": "mountain",
+    "text": "登山·徒步"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["登山", "热带雨林", "温泉", "泥浆温泉", "布科派"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 14.135 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 121.199 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "11月至4月（旱季）",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "当天往返~1晚2天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱1,000~3,000（1天）",
+    "currency": "PHP",
+    "min": 1000,
+    "max": 3000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "中等",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "尼诺伊·阿基诺国际机场 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/116-mount-makiling.webp",
+    "alt": "马基灵山与洛斯巴尼奥斯",
+    "credit": "Florante A. Cruz / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Makiling_in_Los_Banos.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/116-mount-makiling-2.webp",
+        "alt": "马基灵山与洛斯巴尼奥斯",
+        "credit": "Andrew Martin / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mud_Spring,_Mount_Makiling_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/116-mount-makiling-3.webp",
+        "alt": "马基灵山与洛斯巴尼奥斯",
+        "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Makiling_Botanical_Gardens.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "从马尼拉向南约2小时车程，这里是女神玛丽亚·马基灵传说所在的休眠火山，以及山脚下的温泉小镇。热带雨林登山道、咕嘟冒泡的泥浆温泉、菲律宾大学洛斯巴尼奥斯分校校园、温泉度假村与布科派，一天之内即可尽情体验。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "马基灵山是耸立在拉古纳省与八打雁省交界处、海拔约" },
+            { "type": "distance", "text": "1,090米" },
+            {
+              "text": "的休眠火山。从拉古纳湖南侧平原仰望，山峰稜线宛如一位仰卧女子的侧影，菲律宾人称之为守护这座山的女神玛丽亚·马基灵。传说女神庇佑山中的动植物与人们，却会让心怀贪念的人在山中迷路，何塞·黎刹也曾在作品中写过这个故事。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "整座山都被指定为马基灵森林保护区，由菲律宾大学洛斯巴尼奥斯分校（UPLB）管理。由于长年作为林学研究的现场使用，低地热带雨林得以完好保存，" },
+            { "type": "date", "text": "2013年" },
+            {
+              "text": "被列为东盟文化遗产公园（ASEAN Heritage Park）。这里是栖息着数千种植物、鸟类与爬行动物的生物多样性宝库，登山道各处都设有研究用标示与编号驿站（Station）。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "山脚下的洛斯巴尼奥斯，其名称本身在西班牙语中就是“浴场”之意。这里原本被称为“Mainit（炎热）”，" },
+            { "type": "date", "text": "1589~1590年" },
+            {
+              "text": "前后，方济各会修士注意到温泉的疗愈功效，在此建起公共浴场与医院，因而得名。如今这里仍因火山地热而聚集着众多温泉度假村，邻近卡兰巴的潘索尔地区，引温泉水的私人泳池别墅更多达数百家。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "很适合新手登山者挑战人生第一座千米级山峰，若觉得登山负担较大，家庭也可以只享受植物园、泥浆温泉与温泉。这里是拥有国际水稻研究所（IRRI）与大学校园的学术城市，氛围沉静，适合想在马尼拉近郊一次享受森林与温泉的旅行者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "沿马里安·马基灵步道登顶2号峰",
+              "children": [
+                { "text": "这是从UPLB林学院入口的1号驿站，登上山顶2号峰的代表性路线。单程约" },
+                { "type": "distance", "text": "8公里" },
+                { "text": "，往返需" },
+                { "type": "duration", "text": "5~7小时" },
+                { "text": "，山顶附近覆满苔藓的云雾林氛围格外神秘。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "泥浆温泉",
+              "children": [
+                { "text": "从登山道中途岔入，便能见到散发着硫磺味、灰色泥浆咕嘟咕嘟冒泡的火山喷气孔。即使不登顶也能看到，是很受欢迎的轻松散步路线。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "平石滩",
+              "children": [{ "text": "莫拉温溪的溪水流过宽阔的岩石，形成小瀑布与水潭。很适合与泥浆温泉串联，享受半天的森林漫步。" }]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "马基灵植物园",
+              "children": [
+                { "text": "这是位于UPLB校园内山脚下的植物园，散步道与溪流蜿蜒穿行于巨大的热带树木之间。很适合观察鸟类与蜻蜓，也适合带孩子同行。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "洛斯巴尼奥斯温泉度假村",
+              "children": [
+                { "text": "登山之后，不妨在温泉泳池中舒展疲惫的肌肉。洛斯巴尼奥斯与卡兰巴潘索尔一带，有许多可当天入场的度假村，也有能整栋包下的私人泳池别墅。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "漫步UPLB校园",
+              "children": [
+                { "text": "这是宽阔草坪与古树相映成趣的校园，可以参观水牛公园，以及第二次世界大战洛斯巴尼奥斯集中营营救行动的舞台——贝克堂一带。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "品尝元祖布科派",
+              "children": [
+                { "text": "填入嫩椰肉的布科派，正是发源于洛斯巴尼奥斯。自" },
+                { "type": "date", "text": "1960年代" },
+                { "text": "延续至今的“元祖布科派（Original Buko Pie）”，以及" },
+                { "type": "date", "text": "1976年" },
+                { "text": "开业的莱蒂斯（Lety's），都是代表性店家。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "当天往返",
+              "subtitle": "2号峰登山与温泉",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "03:30", "children": [{ "text": "从马尼拉布恩迪亚·PITX搭乘经洛斯巴尼奥斯开往圣克鲁斯的巴士" }] },
+                    {
+                      "time": "05:30",
+                      "children": [{ "text": "抵达洛斯巴尼奥斯，在UPLB正门前搭乘“Forestry”吉普尼前往登山道入口" }]
+                    },
+                    { "time": "06:00", "children": [{ "text": "在1号驿站办理登记、寄存证件，分配向导并接受安全说明" }] },
+                    {
+                      "time": "06:30~08:30",
+                      "children": [{ "text": "沿铺装道路路段上行至11号驿站鹰站（Aguila Base）" }]
+                    },
+                    { "time": "09:00", "children": [{ "text": "在鹰站通行截止时间前进入林间步道路段" }] },
+                    { "time": "10:30", "children": [{ "text": "抵达2号峰顶，在云雾林中享用点心并休息" }] },
+                    { "time": "11:00~13:30", "children": [{ "text": "下山，途中顺道造访泥浆温泉（请与向导商量）" }] },
+                    { "time": "14:00", "children": [{ "text": "办理下山登记并领回证件，淋浴" }] },
+                    { "time": "15:30", "children": [{ "text": "在温泉度假村休息，或顺道造访布科派店" }] },
+                    { "time": "18:00", "children": [{ "text": "搭乘返回马尼拉的巴士" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "鹰站的通行截止时间为" },
+                    { "type": "time", "text": "上午9点" },
+                    { "text": "，下山截止时间约在" },
+                    { "type": "time", "text": "下午2点" },
+                    { "text": "前后，管理十分严格。若对体力没有把握，可搭乘往返入口与鹰站之间的摩托车（habal-habal）以节省时间。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1晚2天",
+              "subtitle": "森林漫步与温泉休养",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "第1天上午", "children": [{ "text": "从马尼拉出发，抵达洛斯巴尼奥斯后漫步马基灵植物园" }] },
+                    { "time": "第1天下午", "children": [{ "text": "参观UPLB校园与水牛公园，造访布科派店" }] },
+                    { "time": "第1天傍晚", "children": [{ "text": "在温泉度假村办理入住，享受夜间温泉" }] },
+                    { "time": "第2天06:00", "children": [{ "text": "在登山道入口登记后，徒步前往泥浆温泉与平石滩" }] },
+                    { "time": "第2天下午", "children": [{ "text": "顺道造访卡兰巴黎刹故居后返回马尼拉" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "巴士",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "在马尼拉LRT布恩迪亚（吉尔普亚特）站周边、PITX、库巴奥，搭乘DLTB、JAC Liner等公司开往圣克鲁斯（拉古纳）的巴士，在洛斯巴尼奥斯下车。车程约"
+                        },
+                        { "type": "duration", "text": "1小时30分钟~2小时30分钟" },
+                        { "text": "，单程票价约" },
+                        { "type": "price", "text": "₱100~160" },
+                        { "text": "。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "请提前告诉司机要在UPLB正门附近的奥利瓦雷斯广场或College Junction下车。凌晨路上车少，能更快抵达。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自驾",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从马尼拉走SLEX，在卡兰巴出口驶出后沿国道前往洛斯巴尼奥斯。约" },
+                        { "type": "distance", "text": "60~65公里" },
+                        { "text": "，视路况需" },
+                        { "type": "duration", "text": "1小时30分钟~3小时" },
+                        { "text": "。周五傍晚与连假期间卡兰巴路段拥堵严重。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "吉普尼",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "在UPLB正门前搭乘挂有“Forestry”牌子的吉普尼，即可抵达林学院一侧的登山道入口。票价约" },
+                        { "type": "price", "text": "₱15~20" },
+                        { "text": "，若清晨班次稀少，也可以包整辆吉普尼（约" },
+                        { "type": "price", "text": "₱200" },
+                        { "text": "）上山。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "当地交通",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "洛斯巴尼奥斯市区与温泉度假村之间，可搭三轮摩托车往返（短程约" },
+                        { "type": "price", "text": "₱20~80" },
+                        { "text": "）。前往潘索尔的泳池别墅，搭Grab或三轮摩托车约需" },
+                        { "type": "duration", "text": "15~25分钟" },
+                        { "text": "。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "登山最好选在少雨的" },
+            { "type": "date", "text": "11月至4月" },
+            { "text": "。尤其" },
+            { "type": "date", "text": "12月至2月" },
+            { "text": "清晨气温凉爽，山蛭（利马蒂克）也较少，很适合作为首次登山的选择。" },
+            { "type": "date", "text": "3月至5月" },
+            { "text": "山脚气温可升至" },
+            { "type": "temperature", "text": "33~35℃" },
+            { "text": "，但林中树荫浓密尚可忍受，圣周期间常有免收向导费的活动，登山客会大幅增加。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月至10月" },
+            {
+              "text": "雨季，登山道会变得泥泞，利马蒂克数量也会大增。马基灵山本身容易生云，即便旱季午后也常有阵雨，建议尽早出发。台风或暴雨时所有活动都会中止，山体滑坡也可能导致路线封闭，请留意管理机构的最新公告。温泉与植物园则全年皆可享受。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "马尼拉–洛斯巴尼奥斯巴士", "price": "单程约₱100~160", "note": "普通空调巴士" },
+            { "label": "保护区入场·登记费", "price": "每人约₱40~60", "note": "学生·长者优惠，以最新公告为准" },
+            { "label": "登山向导", "price": "每组约₱1,200", "note": "每位向导最多带5人" },
+            { "label": "habal-habal（入口–鹰站）", "price": "每人约₱100", "note": "单程" },
+            { "label": "马基灵植物园门票", "price": "每人约₱45~60", "note": "学生优惠" },
+            { "label": "温泉度假村当日入场", "price": "每人约₱150~400", "note": "视度假村而异" },
+            { "label": "潘索尔私人泳池别墅", "price": "一栋约₱8,000~20,000", "note": "租一天，周末·连假价格较高" },
+            { "label": "布科派", "price": "一整个约₱200~350", "note": "视店家·大小而异" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上费用为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，实际可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "若要凌晨出发登山，UPLB正门附近格罗夫（Grove）·巴通马拉凯一带的民宿或校园内住宿会比较方便，一晚约" },
+            { "type": "price", "text": "₱1,000~2,500" },
+            {
+              "text": "。若以休养为目的，可选择洛斯巴尼奥斯国道沿线的温泉度假村，或卡兰巴潘索尔的泳池别墅。泳池别墅若由家人或朋友多人分摊，人均负担不大，但周末与连假常提前数周就被订满。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "洛斯巴尼奥斯的代表美食是布科派。薄脆的派皮内填满嫩椰肉与炼乳后烘烤而成，国道沿线的元祖布科派与莱蒂斯，都是排队买来送礼的名店。米粉与椰子制成的拉古纳名物埃斯帕索尔、水牛乳奶酪克松普蒂，也很适合一起买回去。校园周边聚集着许多学生光顾的平价餐馆与咖啡馆，一餐约"
+            },
+            { "type": "price", "text": "₱150~350" },
+            { "text": "就很足够。拉古纳湖捕捞的淡水鱼料理也值得一尝。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "登顶2号峰需要线上事先登记并预约向导。请至少提前一周依保护区管理机构（UPLB MCME）的指引申请。" }] },
+            { "children": [{ "text": "没有实体证件（护照、驾照等）将无法入场。手机拍照存档或电子证件大多不被接受。" }] },
+            { "children": [{ "text": "为防范利马蒂克（山蛭），请把长袜套在裤管外，并携带盐巴或酒精喷雾。若被咬住，请勿强行拉扯，撒盐即可使其脱落。" }] },
+            { "children": [{ "text": "登山道前半段是水泥铺面，单调乏味又对膝盖有负担。缓震性好的鞋子与登山杖会有帮助。" }] },
+            { "children": [{ "text": "山顶附近没有补水点。请每人准备至少2升的水与点心。" }] },
+            { "children": [{ "text": "若觉得登山负担较大，仅往返泥浆温泉与平石滩的短程路线，也能充分感受森林的氛围。" }] },
+            { "children": [{ "text": "布科派要上午前往才能买到刚出炉的，下午有时会售罄。" }] },
+            { "children": [{ "text": "若与卡兰巴黎刹故居、纳格卡兰地下墓地、百胜滩瀑布串联，很适合扩展成2~3天的拉古纳之旅。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "马基灵山曾多次发生因未经许可进入其他登山道，或偏离既定路线而迷路遇险的事故。八打雁圣托马斯一侧路线与3号峰方向长期关闭或经常封闭，请务必使用官方登记路线并聘请向导，同时确认最新公告。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "泥浆温泉的水蒸气与泥浆非常烫。请勿进入围栏内或触摸泥浆。" }] },
+            {
+              "children": [
+                { "type": "time", "text": "上午9点" },
+                { "text": "以后将无法继续朝山顶方向前进，若超过下山截止时间，可能会影响下次造访的权益。" }
+              ]
+            },
+            { "children": [{ "text": "宠物、酒类、扬声器与凶器禁止携带入内，入口处会检查背包。" }] },
+            { "children": [{ "text": "雨后岩石与树根会非常湿滑，溪水也可能骤然暴涨。" }] },
+            { "children": [{ "text": "请勿采集山中的植物或昆虫带走。研究用标示与设备也请勿触碰。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "卡兰巴黎刹故居",
+              "place": "rizal-shrine-calamba",
+              "children": [
+                { "text": "车程约" },
+                { "type": "duration", "text": "20~30分钟" },
+                { "text": "，是复原菲律宾民族英雄何塞·黎刹出生房屋而成的纪念馆。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "纳格卡兰地下墓地",
+              "place": "nagcarlan-underground-cemetery",
+              "children": [
+                { "text": "车程约" },
+                { "type": "duration", "text": "1小时" },
+                { "text": "，是西班牙时代教堂墓园下方留有地下纳骨堂的国家史迹。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "百胜滩瀑布",
+              "place": "pagsanjan-falls",
+              "children": [
+                { "text": "车程约" },
+                { "type": "duration", "text": "1小时~1小时30分钟" },
+                { "text": "，是搭乘螃蟹船沿峡谷逆流而上、直抵瀑布之下的拉古纳代表性景点。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "魔幻王国乐园",
+              "place": "enchanted-kingdom",
+              "children": [
+                { "text": "沿SLEX车程约" },
+                { "type": "duration", "text": "30~40分钟" },
+                { "text": "，是位于圣罗莎的菲律宾代表性主题乐园。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "大雅台",
+              "place": "tagaytay",
+              "children": [
+                { "text": "车程约" },
+                { "type": "duration", "text": "1小时~1小时30分钟" },
+                { "text": "，是俯瞰塔尔火山湖的凉爽高原城市。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

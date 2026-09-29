@@ -1,0 +1,762 @@
+{
+  "id": 178,
+  "slug": "pamilacan-island",
+  "title": { "type": "title", "text": "Pamilacan Island" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Pamilacan Island" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "From a whaling island to a dolphin-guarding one"
+  },
+  "island_group": {
+    "type": "badge",
+    "label": "Island group",
+    "value": "visayas",
+    "text": "Visayas"
+  },
+  "region": { "type": "badge", "label": "Region", "value": "bohol", "text": "Bohol" },
+  "location": {
+    "type": "address",
+    "label": "Location",
+    "icon": "location_on",
+    "text": "Pamilacan, Baclayon, Bohol"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Category",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "Diving & Marine Life"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Tags",
+    "items": [
+      "Dolphin watching",
+      "Snorkeling",
+      "Marine sanctuary",
+      "Spanish watchtower",
+      "Island homestay"
+    ]
+  },
+  "rating": { "type": "rating", "label": "Rating", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.4928 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.9242 },
+  "best_season": {
+    "type": "date",
+    "label": "Best time to visit",
+    "icon": "calendar_month",
+    "text": "March–June (calmest seas)",
+    "months": [3, 4, 5, 6]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Time needed",
+    "icon": "schedule",
+    "text": "Half day to 2 days, 1 night"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Budget",
+    "icon": "payments",
+    "text": "About ₱1,000–4,000 per person (per tour)",
+    "currency": "PHP",
+    "min": 1000,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Difficulty",
+    "icon": "signal_cellular_alt",
+    "text": "Easy",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Nearest airport",
+    "icon": "flight",
+    "text": "Bohol–Panglao International Airport (TAG)",
+    "code": "TAG"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/178-pamilacan-island.webp",
+    "alt": "Pamilacan Island",
+    "credit": "Charles J. Sharp / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Gray%27s_spinner_dolphin_(Stenella_longirostris_longirostris)_Panglao.jpg"
+  },
+  "gallery": { "type": "carousel", "label": "Photos", "items": [] },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "A small coral island floating in the Bohol Sea south of Bohol's main island, and the destination for early-morning tours to see pods of dolphins. Fishermen who once hunted whales and manta rays are now dolphin-watching guides, and you can snorkel and dive in the marine sanctuary around the island."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "At a glance",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Pamilacan Island is a coral island in the middle of the Bohol Sea, about " },
+            { "type": "distance", "text": "12km" },
+            {
+              "text": " south of Bohol's main island, and administratively a barangay of the town of Baclayon. It covers about 1.75 square kilometers with a population of around 1,400, and walking all the way around the island takes just an hour or two. White-sand beaches and coral reefs ring the island, and just offshore the seabed drops away sharply, making it a passageway dolphins and whales pass through to feed."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The most widely accepted theory is that the island's name comes from pilak, the large hook-harpoon once used to hunt whales and manta rays. For centuries, the people of Pamilacan made their living by hunting whale sharks, manta rays, and dolphins, but their way of life changed when hunting whale sharks and manta rays was banned by law in "
+            },
+            { "type": "date", "text": "1998" },
+            {
+              "text": ". With help from environmental groups, residents then formed a dolphin- and whale-watching association, and the old harpooners' eye for reading the sea is now used to spot pods of dolphins."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "On the island's northeast coast stands a roughly 200-year-old Spanish-era stone watchtower, built to keep watch for pirates and raiding ships from the south. Designated a National Cultural Treasure in "
+            },
+            { "type": "date", "text": "2011" },
+            {
+              "text": " along with other watchtowers dotted along Bohol's coast, it lets you combine a marine experience with a bit of history — part of this island's appeal."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Most travelers visit on a half-day tour departing before dawn from Panglao or Baclayon, watching the dolphins and then enjoying snorkeling and lunch on the island. Tourism development here is minimal, so electricity and amenities are basic, but that's also why the quiet rhythm of fishing-village life and clear seas remain intact. Recommended for travelers who want calmer waters than crowded Balicasag Island, and for families set on seeing dolphins."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Top things to do",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Dawn dolphin watching",
+              "children": [
+                {
+                  "text": "Head out into the Bohol Sea just after sunrise and you'll often see pods of spinner dolphins and bottlenose dolphins leaping beside the banca or riding its bow wave. On a lucky day, dozens pass by at once."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Rare whale sightings",
+              "children": [
+                {
+                  "text": "More than 10 species of whales have been recorded in these waters, including Bryde's whales, sperm whales, and short-finned pilot whales. Seeing one is a matter of luck, but taking in the sea while hearing the story of this former whaling island is a special experience in itself."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Marine sanctuary snorkeling",
+              "children": [
+                {
+                  "text": "In the coral reef sanctuary ringing the island, you can see coral, tropical fish, and sea turtles even in shallow water. You enter only within the area your guide leads you into, and pay a separate sanctuary user fee."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Dive sites",
+              "children": [
+                {
+                  "text": "Sites around the island such as Dakit-Dakit offer coral walls and big fish, and nearby, on the submerged plateau of Snake Island (Cervera Shoal), you can encounter sea snakes, moray eels, and turtles. These are reached by boat dives run out of Panglao dive shops."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "The Spanish watchtower",
+              "children": [
+                {
+                  "text": "The triangular stone watchtower on the island's northeast side was a fort keeping watch over the coast, and it's one of the better-preserved watchtowers on the Bohol coast. You can reach it on foot from the beach along a village path."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "White-sand beach and an island lunch",
+              "children": [
+                {
+                  "text": "Tour lunches are usually grilled fish, squid, and rice, prepared by island residents at a beach hut. Afterward, relax or swim at the white-sand beach."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Fishing-village homestay",
+              "children": [
+                {
+                  "text": "The island has simple hut homestays run by residents, where you can spend the night. The quiet beach and starlight after the day-trippers have all left, and dolphin watching at dawn the next morning, are privileges reserved for overnight guests."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Suggested itinerary",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Half-day tour",
+              "subtitle": "From Panglao/Baclayon",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "05:30–06:00",
+                      "children": [
+                        { "text": "Hotel pickup or gather at Baclayon port, depart by banca" }
+                      ]
+                    },
+                    {
+                      "time": "06:00–08:00",
+                      "children": [{ "text": "Dolphin watching in the Bohol Sea" }]
+                    },
+                    {
+                      "time": "08:30–10:30",
+                      "children": [{ "text": "Snorkel in Pamilacan Island's marine sanctuary" }]
+                    },
+                    {
+                      "time": "10:30–11:30",
+                      "children": [
+                        { "text": "Relax on the beach and walk to the Spanish watchtower" }
+                      ]
+                    },
+                    { "time": "11:30", "children": [{ "text": "Seafood lunch on the island" }] },
+                    { "time": "13:00–14:00", "children": [{ "text": "Return to the main island" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Wind and waves tend to pick up in the afternoon, so most tours depart at dawn and wrap up by early afternoon. It's also common to combine the trip with snorkeling at Balicasag Island or a stop at the Virgin Island sandbar."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2 days, 1 night",
+              "subtitle": "Island homestay",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "Day 1 morning",
+                      "children": [
+                        {
+                          "text": "Arrive on the island by banca from Baclayon port, check in to your homestay"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Day 1 afternoon",
+                      "children": [
+                        {
+                          "text": "Snorkel, walk a loop of the island, and visit the Spanish watchtower"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Day 1 evening",
+                      "children": [
+                        { "text": "Sunset on the beach and a seafood dinner prepared by residents" }
+                      ]
+                    },
+                    {
+                      "time": "Day 2, 06:00",
+                      "children": [{ "text": "Dawn dolphin watching just offshore" }]
+                    },
+                    {
+                      "time": "Day 2 morning",
+                      "children": [
+                        {
+                          "text": "A second round of snorkeling, then return to the main island and visit Baclayon Church"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Getting there",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "By air",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "From Manila to Bohol–Panglao International Airport (TAG) takes about "
+                    },
+                    { "type": "duration", "text": "1 hour 20 minutes" },
+                    { "text": ". From the airport to Baclayon port is about " },
+                    { "type": "duration", "text": "30–40 minutes" },
+                    { "text": " by car, and to Alona Beach on Panglao about " },
+                    { "type": "duration", "text": "15–20 minutes" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "By fast craft",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "From Cebu, a fast craft like OceanJet takes about " },
+                    { "type": "duration", "text": "2 hours" },
+                    { "text": " to Tagbilaran port (around " },
+                    { "type": "price", "text": "₱800–1,500" },
+                    { "text": "). From Tagbilaran to Baclayon port is about " },
+                    { "type": "distance", "text": "7km" },
+                    { "text": ", reachable in about " },
+                    { "type": "duration", "text": "15–20 minutes" },
+                    { "text": " by tricycle or Grab." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Banca tour",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Pamilacan has no regular passenger ferry, so you either charter a banca or join a tour. At Baclayon port, a residents' association and boat owners operate bancas, and a charter combining dolphin watching and island snorkeling runs about "
+                        },
+                        { "type": "price", "text": "₱3,000–5,000" },
+                        { "text": " per boat. It takes about " },
+                        { "type": "duration", "text": "45 minutes–1 hour" },
+                        { "text": " to reach the island." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Through a tour booth, your accommodation, or a dive shop on Alona Beach, Panglao, a join tour including pickup, lunch, and snorkel gear costs about "
+                        },
+                        { "type": "price", "text": "₱1,500–3,500" },
+                        { "text": " per person. Bancas leaving from Panglao also take about " },
+                        { "type": "duration", "text": "45 minutes–1 hour" },
+                        { "text": " to reach the island." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Be sure to confirm when booking whether the sanctuary user fee and environmental fee are included in the tour price."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Getting around",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "From Tagbilaran to Baclayon, take a jeepney heading toward Loay or Loboc (about "
+                    },
+                    { "type": "price", "text": "₱15–25" },
+                    {
+                      "text": "), get off in central Baclayon, and walk to the port. For a pre-dawn departure, it's safer to book a tricycle or Grab the day before. There are no cars on the island itself, so everyone gets around on foot."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Best time to visit & weather",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "March", "type": "date" },
+            { "text": " through " },
+            { "text": "June", "type": "date" },
+            {
+              "text": ", when the sea is calmest, is best for dolphin watching and snorkeling. The water is clear and waves are low, so even a small banca crosses comfortably, and chances of spotting whales are said to be relatively higher around this time too. Dolphins can be seen year-round, but they're most active between "
+            },
+            { "text": "6–8 AM", "type": "time" },
+            { "text": ", so a dawn departure is standard whatever the season." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "From " },
+            { "text": "December", "type": "date" },
+            { "text": " to " },
+            { "text": "February", "type": "date" },
+            {
+              "text": ", the northeast Amihan monsoon can bring days of higher waves, rocking the boat or leading to canceled tours. From "
+            },
+            { "text": "July", "type": "date" },
+            { "text": " to " },
+            { "text": "November", "type": "date" },
+            {
+              "text": " is the rainy and typhoon season, when the coast guard sometimes halts departures, so it's best to schedule this tour early in your Bohol trip and keep a buffer day. Water temperature stays around "
+            },
+            { "text": "27–30℃", "type": "temperature" },
+            { "text": " year-round, so a rash guard alone is enough." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Estimated costs",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Item", "Estimated cost", "Notes"],
+          "items": [
+            {
+              "label": "Baclayon port banca charter",
+              "price": "About ₱3,000–5,000",
+              "note": "Per boat, dolphin watching and island snorkeling"
+            },
+            {
+              "label": "Join tour from Panglao",
+              "price": "About ₱1,500–3,500",
+              "note": "Per person, confirm pickup/lunch/gear inclusion"
+            },
+            {
+              "label": "Marine sanctuary user fee",
+              "price": "About ₱100–300",
+              "note": "Per person, confirm if included in tour price"
+            },
+            { "label": "Snorkel gear rental", "price": "About ₱150–300", "note": "Per set" },
+            {
+              "label": "Fun dive",
+              "price": "About ₱2,000–3,000",
+              "note": "Per dive, boat dive from a Panglao dive shop"
+            },
+            {
+              "label": "Island lunch",
+              "price": "About ₱300–600",
+              "note": "Per person, seafood meal"
+            },
+            { "label": "Island homestay", "price": "About ₱1,000–2,500", "note": "Per night, hut" },
+            {
+              "label": "Cebu–Tagbilaran fast craft",
+              "price": "About ₱800–1,500",
+              "note": "One-way"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Prices are approximate as of " },
+            { "type": "date", "text": "2026" },
+            { "text": " and may vary depending on local conditions." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Where to stay & eat",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Most travelers stay on the beach resort island of Panglao and visit on a half-day tour. Around Alona Beach, guesthouses run about "
+            },
+            { "type": "price", "text": "₱1,500–3,000" },
+            { "text": " a night and beach resorts about " },
+            { "type": "price", "text": "₱4,000–10,000" },
+            {
+              "text": ", and with dive shops clustered there, booking tours and dives is convenient. Small resorts along the Baclayon coast also exist, which can ease the burden of a pre-dawn departure."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "If you want to spend a night on the island, you can stay at a resident-run hut homestay for about "
+            },
+            { "type": "price", "text": "₱1,000–2,500" },
+            {
+              "text": " a night. Electricity is often supplied only at set hours, and air conditioning or hot water is unlikely. Food centers on a simple island spread of charcoal-grilled fish and squid caught that day, served with rice, along with kinilaw, fish cured in vinegar, and seafood cooked in coconut milk. The island has almost no restaurants or shops, so bring snacks and water from the main island."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Travel tips",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Dolphins are easiest to see at dawn, so choose a tour that departs around "
+                },
+                { "type": "time", "text": "6 AM" },
+                {
+                  "text": ". Leave later and other boats crowd in while the dolphins often move off into deeper water."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "A Panglao tour is convenient, but chartering a banca from the residents' association at Baclayon port channels income directly back to the island community."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "During dolphin watching, ask the boat captain not to cut in front of or chase a pod, and it's proper etiquette to simply watch quietly."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "If you're prone to seasickness, take medication before departure, and it's better to sit toward the middle of the boat rather than the back."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "There's almost no shade on the banca, so bring a hat, sunglasses, reef-safe sunscreen, and a rash guard."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The island has no ATM and doesn't accept cards, so bring cash for the sanctuary fee and lunch."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Phone signal is weak and electricity is limited, so it's a good idea to bring a power bank and a dry bag."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Precautions",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Depending on sea conditions, the coast guard may halt departures for small bancas, and dolphin-watching rules and sanctuary fees can change, so check the latest notices before you set out."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Always wear a life vest once aboard the banca, and avoid operators that push ahead with departures on high-wave days."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Never touch or feed the dolphins and whales, or get in the water to try to swim with them."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Don't step on or touch coral, and snorkel only within the areas your guide designates inside the sanctuary."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Currents are strong in the deep water outside the sanctuary, so don't swim far out on your own."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Whale-watching tours don't guarantee a sighting, and fees generally aren't refunded even if you don't see dolphins."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Nearby places to visit",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Baclayon Church",
+              "place": "baclayon-church",
+              "children": [
+                { "text": "A coral-stone church from " },
+                { "type": "date", "text": "1727" },
+                {
+                  "text": ", right by the Baclayon port where the bancas depart — a good stop after your tour."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Balicasag Island",
+              "place": "balicasag-island",
+              "children": [
+                { "text": "A marine sanctuary island about " },
+                { "type": "duration", "text": "40 minutes–1 hour" },
+                { "text": " by banca, famous for sea turtles and coral-wall diving." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Panglao",
+              "place": "panglao",
+              "children": [
+                { "text": "A beach resort area about " },
+                { "type": "duration", "text": "45 minutes–1 hour" },
+                { "text": " by banca, home to Alona Beach and a cluster of dive shops." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Loboc River",
+              "place": "loboc-river",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "30–40 minutes" },
+                {
+                  "text": " by car from Baclayon, a good way to continue your afternoon with a floating-restaurant cruise."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

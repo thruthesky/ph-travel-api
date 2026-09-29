@@ -1,0 +1,631 @@
+{
+  "id": 184,
+  "slug": "calicoan-island",
+  "title": { "type": "title", "text": "칼리코안 섬" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Calicoan Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "태평양 파도가 처음 닿는 동사마르의 서핑 섬" },
+  "island_group": { "type": "badge", "label": "권역", "value": "visayas", "text": "비사야" },
+  "region": { "type": "badge", "label": "지역", "value": "samar-leyte", "text": "사마르·레이테" },
+  "location": {
+    "type": "address",
+    "label": "위치",
+    "icon": "location_on",
+    "text": "동사마르주 기우안 (사마르섬 남동쪽 끝)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "해변·섬"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["서핑", "태평양", "기우안", "석호", "마젤란"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 10.9839 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 125.8069 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "3월~6월 (해변), 10월~2월 (서핑)",
+    "months": [3, 4, 5, 6, 10, 11, 12, 1, 2]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "2~3일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱2,000~4,500 (1일)",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "보통",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "다니엘 Z. 로무알데스 공항(타클로반, TAC)",
+    "code": "TAC"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/184-calicoan-island.webp",
+    "alt": "칼리코안 섬",
+    "credit": "Nairb.Idi9 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_Calicoan_Island_and_the_Philippine_Sea_from_the_DOST-PAGASA_Guiuan_Weather_Station_in_2022.jpg"
+  },
+  "gallery": { "type": "carousel", "label": "사진", "items": [] },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "사마르섬 남동쪽 끝 기우안에서 다리로 이어진 길쭉한 섬으로, 태평양의 너울이 막힘없이 밀려와 \"비사야의 서핑 수도\"로 불립니다. 조용한 백사장과 숲속 석호, 마젤란 상륙지 홈혼돈과 2차 세계대전의 흔적이 가까이 있습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "칼리코안 섬은 동사마르주 기우안에 속한 섬으로, 사마르 본섬 남동쪽 끝에서 남쪽으로 가늘고 길게 뻗어 있습니다. 서쪽은 잔잔한 레이테만, 동쪽은 필리핀해와 태평양을 마주하고 있어 한 섬 안에서 전혀 다른 두 바다를 볼 수 있습니다. 기우안 시내와는 다리로 이어져 있고, 섬을 따라 난 기우안–술랑안 도로를 타면 남쪽 끝 술랑안까지 차로 갈 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "이 섬을 유명하게 만든 것은 파도입니다. 동쪽 해안의 산호초 위로 태평양 너울이 곧장 부서져 필리핀에서 손꼽히는 리프 브레이크가 만들어지고, 여행자들 사이에서 \"ABCD 비치\"로 알려진 포인트를 중심으로 서핑 캠프와 리조트가 들어서 있습니다. "
+            },
+            { "type": "date", "text": "2023년 9월" },
+            { "text": "에는 전국 서핑 대회가 열려 \"비사야의 서핑 수도\"라는 별명을 얻었습니다. 파도가 작은 날에는 초보자 강습도 가능합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "섬 안쪽 숲에는 크고 작은 석호가 여섯 개 있고, 가장 큰 것은 약 " },
+            { "type": "distance", "text": "30ha" },
+            {
+              "text": "에 이릅니다. 절벽 가장자리에는 동굴이 흩어져 있으며, 섬 남쪽의 리나오 동굴은 푸른 물이 고인 동굴 수영장으로 사랑받습니다. 주변 바다에서는 해조류와 진주 양식이 이루어져 어촌 풍경도 정겹습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "기우안 일대는 역사도 깊습니다. " },
+            { "type": "date", "text": "1521년 3월" },
+            { "text": " 태평양을 건넌 마젤란 원정대가 기우안의 홈혼돈 섬에 처음 상륙했고, " },
+            { "type": "date", "text": "1944년" },
+            { "text": "에는 레이테 상륙 작전을 앞두고 미군이 술루안 섬에 먼저 상륙한 뒤 기우안에 대규모 해군 기지와 활주로를 세웠습니다. " },
+            { "type": "date", "text": "2013년 11월 8일" },
+            {
+              "text": " 태풍 하이옌(욜란다)이 처음 상륙한 곳도 기우안이었지만 마을은 꾸준히 회복해 왔습니다. 인파 없는 해변과 파도, 소박한 어촌 여행을 원하는 여행자에게 추천합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "ABCD 비치에서 서핑",
+              "children": [
+                {
+                  "text": "칼리코안의 대표 서핑 포인트로 산호초 위에서 부서지는 파도를 탈 수 있습니다. 경험자는 큰 너울이 들어오는 날을, 초보자는 파도가 작은 날 강사와 함께 도전하십시오. 보드 대여와 강습은 해변 서핑 캠프에서 할 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "태평양 해안 일출",
+              "children": [
+                {
+                  "text": "동쪽 해안은 필리핀에서 가장 먼저 해가 뜨는 곳 중 하나입니다. 이른 아침 수평선 위로 떠오르는 해와 부서지는 파도를 함께 보는 시간이 이 섬 여행의 백미입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "리나오 동굴 수영",
+              "children": [
+                {
+                  "text": "섬 남쪽 술랑안 방면에 있는 동굴로, 안쪽에 맑고 푸른 물이 고여 있어 수영을 즐길 수 있습니다. 계단과 바위가 미끄러우니 샌들을 신고 들어가십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "숲속 석호와 맹그로브 산책",
+              "children": [
+                {
+                  "text": "섬 안쪽 석호 주변은 새와 게, 작은 물고기가 사는 습지입니다. 해변과는 다른 조용한 풍경을 볼 수 있어 파도가 쉬는 날 둘러보기 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "기우안 성당",
+              "children": [
+                {
+                  "text": "예수회가 18세기에 지은 필리핀에서 손꼽히는 옛 성당으로, 조개껍데기 장식으로 알려져 있습니다. 태풍 하이옌 때 크게 부서진 뒤 복원 작업이 이어져 왔으며, 시내 광장 옆에 있어 들르기 쉽습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "홈혼돈 섬 마젤란 상륙지",
+              "children": [
+                {
+                  "text": "기우안 선착장에서 배로 가는 홈혼돈 섬에는 마젤란 원정대 상륙 500주년을 기념하는 기념비가 있습니다. 섬 해변과 폭포를 함께 둘러보는 하루 일정으로 다녀올 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "술랑안 성 안토니오 성지",
+              "children": [
+                {
+                  "text": "칼리코안 남쪽 끝 술랑안의 성 안토니오 성당은 동사마르의 대표 순례지입니다. 해안 도로를 따라 달리는 길 자체가 멋진 드라이브 코스입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "2차 세계대전 활주로 흔적",
+              "children": [
+                {
+                  "text": "기우안에는 미 해군이 1944~1945년에 세운 긴 활주로가 지금도 남아 공항으로 쓰입니다. 레이테 전투 당시 기우안이 얼마나 중요한 보급 기지였는지 느낄 수 있습니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "subtitle": "이동과 첫 파도",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00",
+                      "children": [
+                        { "text": "타클로반 신버스터미널에서 기우안행 밴 탑승, 산후아니코 다리와 사마르 남부 해안을 지나 약 " },
+                        { "type": "duration", "text": "3~4시간" }
+                      ]
+                    },
+                    { "time": "10:00", "children": [{ "text": "기우안 도착, 트라이시클로 칼리코안 숙소 이동과 체크인" }] },
+                    { "time": "12:00", "children": [{ "text": "점심 후 해변 산책과 휴식" }] },
+                    {
+                      "time": "15:00",
+                      "children": [{ "text": "서핑 캠프에서 첫 강습 또는 파도 상태 확인 후 프리 서핑" }]
+                    },
+                    { "time": "18:00", "children": [{ "text": "숙소 식당에서 해산물 저녁" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "subtitle": "파도와 동굴",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "05:30",
+                      "children": [{ "text": "태평양 일출 감상 후 아침 서핑 (바람이 약한 아침이 파도가 깨끗함)" }]
+                    },
+                    { "time": "10:00", "children": [{ "text": "아침 식사와 휴식" }] },
+                    {
+                      "time": "13:00",
+                      "children": [{ "text": "섬 남쪽으로 이동해 리나오 동굴 수영과 술랑안 성 안토니오 성지 방문" }]
+                    },
+                    { "time": "16:00", "children": [{ "text": "저녁 서핑 또는 석호 주변 산책" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3일차",
+              "subtitle": "기우안 역사 산책",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "마지막 아침 서핑" }] },
+                    { "time": "09:30", "children": [{ "text": "기우안 시내에서 성당과 광장, 시장 구경" }] },
+                    { "time": "11:00", "children": [{ "text": "타클로반행 밴 탑승, 오후에 타클로반 도착" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "하루 더 있다면 기우안 선착장에서 배를 타고 홈혼돈 섬의 마젤란 상륙 기념비와 해변을 다녀오는 일정을 넣어 보십시오. 배편은 날씨와 바다 상태에 따라 자주 바뀌니 전날 선착장에서 확인하십시오."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "마닐라나 세부에서 타클로반 공항(TAC)으로 갑니다. 마닐라에서 약 " },
+                        { "type": "duration", "text": "1시간 15분" },
+                        { "text": ", 편도 약 " },
+                        { "type": "price", "text": "₱2,500~6,000" },
+                        { "text": "입니다. 기우안에도 긴 활주로가 있지만 정기 여객편은 없습니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "공항에서 기우안까지 전용 밴을 대절하면 약 " },
+                        { "type": "duration", "text": "3~3시간 30분" },
+                        { "text": ", 1대 약 " },
+                        { "type": "price", "text": "₱5,000~7,000" },
+                        { "text": "입니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "밴·버스",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "타클로반 신버스터미널에서 기우안행 밴과 버스가 이른 아침부터 오후까지 수시로 출발합니다. 약 " },
+                        { "type": "distance", "text": "150km" },
+                        { "text": ", 약 " },
+                        { "type": "duration", "text": "3~4시간" },
+                        { "text": " 걸리며 요금은 약 " },
+                        { "type": "price", "text": "₱250~350" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "오후 늦게는 차편이 줄어드니 오전에 출발하는 것이 좋습니다. 마닐라에서 사마르를 종단하는 장거리 버스를 탄다면 동사마르 보롱안을 거쳐 기우안으로 내려오는 방법도 있습니다."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "트라이시클·하발하발",
+              "icon": "electric_rickshaw",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "기우안 터미널에서 칼리코안 섬의 숙소까지는 트라이시클이나 하발하발(오토바이 택시)로 약 " },
+                        { "type": "duration", "text": "20~30분" },
+                        { "text": ", 약 " },
+                        { "type": "price", "text": "₱100~250" },
+                        { "text": "입니다. 숙소에 미리 말하면 픽업을 해 주기도 합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "배",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "홈혼돈·술루안 등 주변 섬은 기우안 통합 터미널 선착장에서 여객선이나 대절 방카로 갑니다. 홈혼돈까지 약 " },
+                        { "type": "duration", "text": "1시간~1시간 30분" },
+                        { "text": " 걸리며, 바다가 거친 날은 운항하지 않습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "해변과 섬 여행에는 비가 비교적 적고 바다가 잔잔한 " },
+            { "type": "date", "text": "3월~6월" },
+            {
+              "text": "이 가장 좋습니다. 이 시기에는 동쪽 바다도 물빛이 맑아 수영과 스노클링을 즐기기 좋지만, 파도는 작아 서핑은 초보자 강습 위주가 됩니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "서핑이 목적이라면 태평양 너울과 북동 계절풍이 꾸준히 파도를 만드는 " },
+            { "type": "date", "text": "10월~2월" },
+            { "text": "이 좋은 시기로 꼽힙니다. 다만 동사마르는 필리핀에서 비가 가장 많은 지역 중 하나이고 " },
+            { "type": "date", "text": "7월~12월" },
+            {
+              "text": "은 태풍 경로에 자주 놓이므로, 이 시기에 간다면 예보를 자주 확인하고 일정에 여유를 두십시오. 파도 상태는 날마다 다르니 현지 서핑 캠프에 미리 물어보는 것이 가장 정확합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라–타클로반 항공", "price": "편도 약 ₱2,500~6,000", "note": "성수기 상승" },
+            { "label": "타클로반–기우안 밴", "price": "편도 약 ₱250~350", "note": "약 3~4시간" },
+            { "label": "기우안–칼리코안 트라이시클", "price": "편도 약 ₱100~250", "note": "숙소 픽업 가능" },
+            { "label": "서핑 강습", "price": "1회 약 ₱700~1,500", "note": "보드 포함, 약 1~2시간" },
+            { "label": "서핑보드 대여", "price": "반나절 약 ₱300~600", "note": "보드 종류에 따라 다름" },
+            { "label": "홈혼돈 섬 방카", "price": "1척 약 ₱3,000~5,000", "note": "왕복 대절, 흥정 필요" },
+            { "label": "숙박", "price": "1박 약 ₱1,000~6,000", "note": "게스트하우스~서핑 리조트" },
+            { "label": "식사", "price": "1끼 약 ₱150~500", "note": "로컬 식당~리조트 식당" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "숙소는 칼리코안 섬 동쪽 해안의 서핑 리조트와 게스트하우스, 기우안 시내의 소규모 호텔로 나뉩니다. 파도를 즐기려면 서핑 포인트 가까운 칼리코안 숙소가 편하고, 가격은 게스트하우스 1박 약 "
+            },
+            { "type": "price", "text": "₱1,000~2,500" },
+            { "text": ", 수영장이 있는 리조트는 약 " },
+            { "type": "price", "text": "₱3,000~6,000" },
+            {
+              "text": "입니다. 성수기와 서핑 대회 기간에는 방이 적어 미리 예약해야 합니다. 예산을 아끼려면 기우안 시내에 묵고 트라이시클로 오가는 방법도 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "섬에는 식당이 많지 않아 대부분 숙소 식당에서 먹게 됩니다. 어촌답게 그날 잡은 생선구이, 오징어, 게, 해초 샐러드와 키닐라우가 싱싱하고 값이 적당합니다. 기우안 시장 주변에는 저렴한 로컬 식당과 빵집이 있고, 사마르 명물인 찹쌀 간식과 코코넛 과자도 살 수 있습니다. 칼리코안은 밤에 문을 여는 가게가 거의 없으니 간식과 물은 기우안에서 미리 사 두십시오."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [{ "text": "기우안에는 ATM이 있지만 수가 적고 고장이 잦습니다. 필요한 현금은 타클로반에서 넉넉히 준비하십시오." }]
+            },
+            { "children": [{ "text": "아침에는 바람이 약해 파도 면이 깨끗합니다. 서핑은 해 뜬 직후와 늦은 오후에 하는 것이 좋습니다." }] },
+            {
+              "children": [
+                { "text": "초보자는 리프 위 얕은 곳에서 넘어지면 다칠 수 있으니 반드시 강사와 함께하고, 아쿠아슈즈나 서핑 부츠를 챙기십시오." }
+              ]
+            },
+            { "children": [{ "text": "햇볕이 매우 강하니 래시가드와 산호에 해가 적은 선크림을 쓰십시오." }] },
+            { "children": [{ "text": "휴대전화 신호와 인터넷이 약한 곳이 있으니 숙소 와이파이 여부를 미리 확인하십시오." }] },
+            { "children": [{ "text": "타클로반으로 돌아가는 밴은 오후가 되면 줄어드니 마지막 날은 오전에 출발하십시오." }] },
+            {
+              "children": [
+                { "text": "역사에 관심이 있다면 10월 17일 전후 술루안 섬에서 열리는 레이테 상륙 기념 행사 일정을 확인해 보십시오." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "칼리코안 동쪽 해안은 파도와 이안류(해안에서 바다로 빠져나가는 강한 물살)가 강합니다. 서핑 포인트 주변에서 수영은 피하고, 파도가 큰 날은 초보자 혼자 바다에 들어가지 마십시오."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "리프 브레이크라 바닥이 날카로운 산호입니다. 썰물 때 서핑은 경험자와 현지 강사의 판단에 따르십시오." }] },
+            {
+              "children": [
+                { "text": "태풍 시기(" },
+                { "type": "date", "text": "7월~12월" },
+                { "text": ")에는 도로 침수와 차편 중단이 생길 수 있으니 기상 예보와 지방정부 공지를 확인하십시오." }
+              ]
+            },
+            { "children": [{ "text": "작은 섬 방카는 날씨가 나빠지면 돌아오지 못할 수 있으니 구명조끼를 입고 무리하게 출항하지 마십시오." }] },
+            {
+              "children": [
+                { "text": "동사마르 일부 내륙 지역은 치안 공지가 나올 때가 있습니다. 밤늦게 산길을 이동하지 말고 최신 여행 안전 정보를 확인하십시오." }
+              ]
+            },
+            { "children": [{ "text": "큰 병원은 타클로반에 있으니 서핑 중 다쳤을 때를 대비해 기본 구급약과 여행자 보험을 준비하십시오." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "소호톤 자연교 국립공원",
+              "place": "sohoton-natural-bridge",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "2시간 30분~3시간" },
+                { "text": ", 사마르 바세이의 강과 동굴, 천연 바위 다리를 탐험하는 숲입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "산후아니코 다리",
+              "place": "san-juanico-bridge",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "3시간" },
+                { "text": ", 타클로반으로 돌아가는 길에 건너는 레이테와 사마르를 잇는 다리입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "레이테 상륙 기념공원",
+              "place": "leyte-landing-memorial",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "3시간 30분" },
+                { "text": ", 1944년 맥아더 장군의 상륙을 재현한 청동상이 있는 팔로 해변입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "홈혼돈 섬",
+              "children": [
+                { "text": "기우안에서 배로 약 " },
+                { "type": "duration", "text": "1시간~1시간 30분" },
+                { "text": ", 마젤란 원정대가 필리핀에 처음 상륙한 섬으로 기념비와 해변이 있습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

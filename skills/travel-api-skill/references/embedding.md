@@ -39,7 +39,7 @@
 |--------|---------|------|----|
 | PHP 웹사이트 | `travel.db`(사이트 언어, 전문 검색) + `export --no-json` 폴더(travel.css·renderer.js·사진) | `assets/TravelDb.php` (PDO) | §3 |
 | Flutter 앱 | `travel.db`(앱 언어만) + `travel.db.version` | `assets/travel_db.dart` (sqlite3) | §4 |
-| 정적 웹·SPA | `export` 폴더(meta·places.<lang>.json·사진·renderer.js) | 브라우저 메모리 (100곳) | §5 |
+| 정적 웹·SPA | `export` 폴더(meta·places.<lang>.json·사진·renderer.js) | 브라우저 메모리 (200곳) | §5 |
 | AI·스크립트 | 캐시 DB | `scripts/travel.mjs` | SKILL.md §3 |
 
 ## 3. PHP 웹사이트 (필고 등)
@@ -152,7 +152,7 @@ $text = $travel->text('boracay', $lang);                                     // 
   - `TRAVEL_DEFAULT_LANG` — `?lang` 도 `Accept-Language` 도 맞는 언어가 없을 때
 - **목록은 서버가 HTML 로 그린다** — 검색엔진에 보이고, JS 없이도 모양이 잡힌다(`travel.css`).
   - 분류 칩·달 선택·검색 칸이 있다. 검색에도 분류·달 거르기가 걸리고, 칩의 수는 지금 검색어·달을 반영한다.
-  - 여행지가 100곳 안팎이라 한 번에 모두 보인다(쪽 나누기 없음). 결과가 없으면 빈 상태 문구를 보인다.
+  - 여행지가 200곳 안팎이라 한 번에 모두 보인다(쪽 나누기 없음). 결과가 없으면 빈 상태 문구를 보인다.
   - 카드마다 사진 저작자와 최적기를 보인다. 최적기는 목적(서핑·해변)이 글에 있다.
 - **상세는 블록 JSON 을 페이지에 넣고 `renderer.js` 가 그린다.** `<script type="application/json">` 에 `JSON_HEX_TAG` 로 넣어 `</script>` 가 끼어들지 못하게 한다.
 - **검색엔진용으로 서버가 함께 넣는 것:**
@@ -179,7 +179,7 @@ $text = $travel->text('boracay', $lang);                                     // 
 
 ### 3.5 사진
 
-- **권장:** `export` 로 받아 서버의 `/travel/images/` 에 둔다(`imageBase: '/travel/'`). 293장, 약 23MB 다.
+- **권장:** `export` 로 받아 서버의 `/travel/images/` 에 둔다(`imageBase: '/travel/'`). 567장, 약 56MB 다.
 - **대안:** `--no-images` 로 받지 않고 `imageBase: 'https://thruthesky.github.io/ph-travel-api/v2/'` 로 Pages 의 사진을 쓴다. 전송량이 Pages 한도에 들어간다.
 - 어느 쪽이든 **`credit`·`source` 를 화면에 보인다**(CC 라이선스). 목록 카드는 사진 모서리에 credit 을 두고, 상세 사진에는 원본 링크까지 둔다.
 
@@ -190,7 +190,7 @@ $text = $travel->text('boracay', $lang);                                     // 
 | 경우 | 넣는 것 |
 |------|---------|
 | 검색·거르기가 있는 앱 (권장) | `build --out assets/travel.db --langs <앱 언어들>` — 전문 검색 포함 |
-| 앱 크기가 중요 | `--no-fts` 로 색인을 뺀다(검색은 글에서 직접, 100곳이라 충분). 언어는 꼭 필요한 것만 |
+| 앱 크기가 중요 | `--no-fts` 로 색인을 뺀다(검색은 글에서 직접, 200곳이라 충분). 언어는 꼭 필요한 것만 |
 | 목록·상세만 있는 단순한 앱 | `export --out assets/travel --langs ko --no-images` 의 `places.ko.json`·`meta.json` 을 메모리로 |
 
 - 언어 하나가 DB 에서 대략 6~7MB 다(FTS 포함, 실제 번역 기준). 실제 크기는 `build` 출력으로 확인한다.
@@ -224,7 +224,7 @@ final place = travel.place('boracay', lang);   // Map → TravelBlocks(...).plac
 
 ### 4.3 사진
 
-- 사진은 앱에 넣지 않고 API 주소에서 받아 캐시한다(`cached_network_image`, url 을 키로). 293장을 넣으면 23MB 가 늘어난다.
+- 사진은 앱에 넣지 않고 API 주소에서 받아 캐시한다(`cached_network_image`, url 을 키로). 567장을 넣으면 56MB 가 늘어난다.
 - 오프라인 첫 화면이 중요하면 대표 사진(`position = 0`, 100장)만 넣는다. 그 경로를 `imageBase` 로 쓰는 방법도 있다.
 
 ### 4.4 출시 없이 갱신 (선택)
@@ -253,7 +253,7 @@ list.innerHTML = beaches.map((p) => renderPlaceCard(p, { base: '/travel/', place
 - 사이트와 같은 출처라 CORS 가 없다. `?v=<version>` 을 붙이면 데이터가 바뀔 때 브라우저 캐시를 건너뛴다.
 - 필요한 언어 파일 하나만 받는다. 약 2MB, gzip 전송이면 약 0.5MB 다.
 - 거르기는 노드의 공통 key 로 한다(`category.value`·`island_group.value`·`region.value`·`difficulty.value`·`best_season.months`). 검색은 `children` 글을 이어 붙여 찾는다.
-- 브라우저 SQLite(sql.js 등)는 외부 패키지이고 1MB 가 넘는다. 100곳에는 과하다.
+- 브라우저 SQLite(sql.js 등)는 외부 패키지이고 1MB 가 넘는다. 200곳에는 과하다.
 
 ## 6. 데이터가 바뀌었을 때
 

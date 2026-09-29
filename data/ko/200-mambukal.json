@@ -1,0 +1,640 @@
+{
+  "id": 200,
+  "slug": "mambukal",
+  "title": { "type": "title", "text": "맘부칼 리조트" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mambukal Resort" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "칸라온 화산 기슭의 온천과 일곱 폭포 산책" },
+  "island_group": { "type": "badge", "label": "권역", "value": "visayas", "text": "비사야" },
+  "region": { "type": "badge", "label": "지역", "value": "negros", "text": "네그로스" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "네그로스옥시덴탈주 무르시아" },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "water",
+    "value": "water",
+    "text": "폭포·호수·강"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["온천", "일곱 폭포", "칸라온 산", "박쥐 떼", "이시와타 목욕탕"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 10.5127 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 123.1035 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "12월~5월 (건기)",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "당일치기~1박 2일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱800~3,000 (1일)",
+    "currency": "PHP",
+    "min": 800,
+    "max": 3000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "바콜로드-실라이 공항(BCD)",
+    "code": "BCD"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/200-mambukal.webp",
+    "alt": "맘부칼 리조트",
+    "credit": "Austin Rex Lobaton / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mambukal_Waterfalls.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/200-mambukal-2.webp",
+        "alt": "맘부칼 리조트",
+        "credit": "Elmer B. Domingo / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ishiwata_Bath_House,_Mambukal.JPG"
+      },
+      {
+        "type": "image",
+        "url": "images/200-mambukal-3.webp",
+        "alt": "맘부칼 리조트",
+        "credit": "Choi2451 / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_in_Mambukal.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "바콜로드에서 동쪽으로 약 한 시간, 칸라온 화산 서쪽 기슭의 숲속에 자리한 100년 역사의 산악 리조트입니다. 유황 온천에 몸을 담그고, 계곡을 따라 이어지는 일곱 폭포를 걷고, 해 질 녘 하늘을 덮는 박쥐 떼를 볼 수 있습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "맘부칼 리조트는 네그로스옥시덴탈주 무르시아에 있는 주 정부 운영 산악 휴양지입니다. 주도 바콜로드에서 동쪽으로 약 " },
+            { "type": "distance", "text": "31~32km" },
+            { "text": ", 해발 약 " },
+            { "type": "distance", "text": "365m" },
+            { "text": "의 칸라온 산 기슭에 자리해 도시보다 공기가 선선하고 숲이 울창합니다. 약 " },
+            { "text": "23.6헥타르", "bold": true },
+            { "text": "의 리조트 전체가 칸라온 산 자연공원 안에 있어, 온천과 폭포, 연못, 숲길이 한데 어우러진 \"산속 공원\" 같은 곳입니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "맘부칼의 역사는 한 세기를 거슬러 올라갑니다. " },
+            { "type": "date", "text": "1923년" },
+            { "text": " 주 정부가 이곳을 주말 휴양지(힐 스테이션)로 지정했고, " },
+            { "type": "date", "text": "1927년" },
+            {
+              "text": "에는 일본인 건축가 고키치 폴 이시와타가 설계한 이시와타 목욕탕이 첫 영구 건물로 세워졌습니다. 아치 기둥이 늘어선 흰 목욕탕은 온천수를 관으로 끌어와 타일 욕조에 채우는 방식으로, 오랫동안 방치되었다가 옛 모습대로 복원되어 지금도 온천을 즐길 수 있습니다. "
+            },
+            { "type": "date", "text": "1957년 6월 22일" },
+            { "text": " 공화국법으로 주 정부 관리가 확정되었고, 이날을 기념해 매년 " },
+            { "type": "date", "text": "6월" },
+            { "text": " 진흙을 온몸에 바르고 춤추는 머드팩 축제가 열립니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "리조트의 상징은 계곡을 따라 차례로 이어지는 일곱 개의 폭포입니다. 리조트 안 숲길을 따라 첫째부터 여섯째 폭포까지 걸어 올라가고, 마지막 일곱째 폭포는 리조트 경계를 넘어 산골 마을 쪽으로 더 들어가야 닿습니다. 화산 지열로 데워진 온천은 수온이 최고 "
+            },
+            { "type": "temperature", "text": "40℃" },
+            { "text": " 안팎에 이르며, 유황 냄새가 나는 노천탕과 일본식 욕탕에서 산행의 피로를 풀 수 있습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "숲에는 황금관날여우박쥐 같은 큰 과일박쥐와 비사야 사마귀돼지, 네그로스 피가슴비둘기 등 희귀 동물이 살며, 해 질 녘에는 수많은 박쥐가 한꺼번에 날아올라 하늘을 가득 메웁니다. 짚라인, 캐노피 워크, 보트, 나비 정원까지 있어 아이와 함께하는 가족 나들이, 바콜로드·실라이 여행에 하루 자연 일정을 더하고 싶은 여행자에게 잘 맞습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "일곱 폭포 트레킹",
+              "children": [
+                { "text": "리조트 안 표시된 길을 따라 여섯째 폭포까지 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": ", 일곱째 폭포는 거기서 약 " },
+                { "type": "duration", "text": "30분" },
+                { "text": "을 더 걸어야 합니다. 폭포마다 높이와 모양이 달라 하나씩 세며 오르는 재미가 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "폭포 웅덩이 수영",
+              "children": [
+                {
+                  "text": "여섯째와 일곱째 폭포 아래 웅덩이에서 시원한 산물에 몸을 담글 수 있습니다. 물살이 세지 않은 날에만 들어가고, 가이드의 안내를 따르십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "이시와타 목욕탕 온천",
+              "children": [
+                { "type": "date", "text": "1927년" },
+                {
+                  "text": "에 지은 흰 아치 건물 안에서 관으로 끌어온 온천수에 몸을 담급니다. 100년 가까운 역사를 느끼며 즐기는 온천이 맘부칼만의 경험입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "유황 노천탕과 일본식 탕",
+              "children": [
+                { "text": "숲속의 유황 온천 풀과 일본식 노천탕 로텐부로는 트레킹 뒤에 들르기 좋습니다. 이용료는 입장료와 별도입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "해 질 녘 박쥐 떼",
+              "children": [
+                { "text": "해가 질 무렵 리조트 위 숲에서 과일박쥐 수천 마리가 먹이를 찾아 한꺼번에 날아오릅니다. " },
+                { "type": "time", "text": "오후 5시 30분~6시 30분" },
+                { "text": "쯤 연못가에서 하늘을 올려다보십시오." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "슬라이드 포 라이프와 캐노피 워크",
+              "children": [
+                { "text": "계곡 위를 줄에 매달려 건너는 짚라인 슬라이드 포 라이프와 나무 위 흔들다리 캐노피 워크는 아이와 청소년에게 특히 인기입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "보트와 나비 정원",
+              "children": [
+                { "text": "리조트 한가운데 연못에서 작은 보트를 빌려 타고, 나비 정원에서 네그로스의 나비를 가까이서 볼 수 있습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "당일치기",
+              "subtitle": "바콜로드 출발",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "바콜로드 리베르타드 터미널에서 맘부칼행 미니버스 탑승" }] },
+                    { "time": "08:30", "children": [{ "text": "맘부칼 도착, 입장권 구입 후 일곱 폭포 트레킹 시작" }] },
+                    { "time": "10:30", "children": [{ "text": "여섯째·일곱째 폭포에서 물놀이" }] },
+                    { "time": "12:00", "children": [{ "text": "리조트 식당에서 점심" }] },
+                    { "time": "13:30", "children": [{ "text": "슬라이드 포 라이프, 캐노피 워크, 나비 정원" }] },
+                    { "time": "15:00", "children": [{ "text": "이시와타 목욕탕이나 유황 노천탕에서 온천" }] },
+                    { "time": "17:30", "children": [{ "text": "연못가에서 박쥐 떼 관찰 후 바콜로드 복귀" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "박쥐 떼까지 보고 돌아가려면 막차 시간이 빠듯할 수 있습니다. 대중교통으로 왔다면 돌아가는 미니버스 시간을 미리 확인하거나, 택시·그랩을 예약해 두십시오."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1박 2일",
+              "subtitle": "숲속에서 하룻밤",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "1일차 오후", "children": [{ "text": "체크인 후 연못 산책, 보트 타기, 나비 정원" }] },
+                    { "time": "1일차 저녁", "children": [{ "text": "박쥐 떼 관찰, 이시와타 목욕탕에서 저녁 온천" }] },
+                    { "time": "2일차 오전", "children": [{ "text": "사람 없는 이른 아침에 일곱 폭포 트레킹" }] },
+                    {
+                      "time": "2일차 오후",
+                      "children": [{ "text": "노천탕에서 휴식 후 바콜로드로 돌아와 치킨 이나살로 저녁" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "마닐라에서 바콜로드-실라이 공항(BCD)까지 약 " },
+                        { "type": "duration", "text": "1시간 10분" },
+                        { "text": ", 세부에서는 약 " },
+                        { "type": "duration", "text": "40분" },
+                        { "text": "이 걸립니다. 공항에서 바콜로드 시내까지 차로 약 " },
+                        { "type": "duration", "text": "30~40분" },
+                        { "text": ", 공항에서 맘부칼로 바로 가면 약 " },
+                        { "type": "duration", "text": "1시간~1시간 20분" },
+                        { "text": "입니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "배",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "일로일로 시티에서 바콜로드까지 고속선(패스트크래프트)이 하루 여러 편 다니며 약 " },
+                        { "type": "duration", "text": "1시간~1시간 15분" },
+                        { "text": ", 편도 약 " },
+                        { "type": "price", "text": "₱400~700" },
+                        { "text": "입니다. 파나이섬 여행과 묶기 좋습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "미니버스·지프니",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "바콜로드 리베르타드 공설시장 근처 터미널에서 무르시아를 거쳐 맘부칼까지 가는 미니버스와 지프니가 다닙니다. 약 " },
+                        { "type": "duration", "text": "1시간~1시간 30분" },
+                        { "text": ", 편도 약 " },
+                        { "type": "price", "text": "₱50~80" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    { "children": [{ "text": "오후 늦게는 배차가 줄어드니 돌아가는 차 시간을 도착하자마자 확인하십시오." }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "택시·그랩",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "바콜로드 시내에서 택시나 그랩으로 약 " },
+                        { "type": "duration", "text": "45분~1시간" },
+                        { "text": ", 편도 약 " },
+                        { "type": "price", "text": "₱700~1,200" },
+                        { "text": "입니다. 돌아올 때는 차를 잡기 어려우니 기사와 대기 요금을 정하거나 왕복으로 예약하는 편이 좋습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "자가용",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "바콜로드에서 무르시아 방면 도로를 따라 동쪽으로 달리면 약 " },
+                        { "type": "duration", "text": "45분~1시간" },
+                        { "text": "입니다. 리조트 입구에 주차장이 있으며 차량 입장료를 따로 받습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "서네그로스는 " },
+            { "type": "date", "text": "12월~5월" },
+            { "text": "이 건기입니다. 특히 " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": "은 해발이 높은 맘부칼의 아침저녁 기온이 " },
+            { "type": "temperature", "text": "20~23℃" },
+            { "text": "까지 내려가 온천을 즐기기에 가장 좋고, 트레킹 길도 말라 걷기 편합니다. " },
+            { "type": "date", "text": "3월~5월" },
+            { "text": "은 바콜로드 한낮이 " },
+            { "type": "temperature", "text": "33℃" },
+            { "text": " 안팎으로 덥지만 맘부칼 숲은 그늘이 많아 피서지 역할을 합니다. 다만 건기 끝 무렵에는 폭포 수량이 줄어듭니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월~11월" },
+            { "text": "은 우기로 폭포 수량은 가장 풍부하지만, 숲길이 미끄럽고 큰비 뒤에는 폭포 쪽 출입이 통제될 수 있습니다. 태풍은 " },
+            { "type": "date", "text": "9월~12월" },
+            { "text": "에 비사야를 지나는 경우가 많습니다. " },
+            { "type": "date", "text": "6월" },
+            { "text": "에는 머드팩 축제가, " },
+            { "type": "date", "text": "10월" },
+            {
+              "text": "에는 바콜로드의 마스카라 축제가 열려 두 곳을 묶은 여행도 인기지만, 이 시기에는 숙소를 미리 예약하십시오. 평일에는 한적하고 주말과 방학철에는 가족 단위 손님으로 붐빕니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "입장료", "price": "성인 약 ₱120~150", "note": "환경료 포함, 어린이 할인" },
+            { "label": "온천(노천탕·목욕탕)", "price": "약 ₱100~200", "note": "시설별 별도" },
+            { "label": "폭포 가이드", "price": "1팀 약 ₱300~500", "note": "일곱째 폭포는 권장" },
+            { "label": "슬라이드 포 라이프·캐노피 워크", "price": "약 ₱50~200", "note": "시설별 별도" },
+            { "label": "보트·나비 정원", "price": "약 ₱30~100", "note": "시설별 별도" },
+            { "label": "바콜로드–맘부칼 미니버스", "price": "편도 약 ₱50~80", "note": "택시는 약 ₱700~1,200" },
+            { "label": "숙박(리조트 안)", "price": "1박 약 ₱1,500~5,500", "note": "객실·코티지·빌라" },
+            { "label": "식사", "price": "1끼 약 ₱150~400", "note": "리조트 식당" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "맘부칼 리조트 안에는 주 정부가 운영하는 객실과 코티지, 빌라, 컨벤션 호텔이 있습니다. 2인실은 1박 약 " },
+            { "type": "price", "text": "₱1,500" },
+            { "text": "부터, 가족용 코티지와 빌라는 약 " },
+            { "type": "price", "text": "₱3,000~5,500" },
+            {
+              "text": " 수준이며, 저렴한 숙소와 캠핑장도 있습니다. 숲속에서 하룻밤을 보내면 해 질 녘 박쥐 떼와 밤 온천, 이른 아침 폭포 트레킹을 여유 있게 즐길 수 있습니다. 주말과 휴가철에는 방이 빨리 차니 리조트 예약 창구로 미리 확인하십시오. 편의시설이 많은 호텔을 원하면 바콜로드 시내에 묵으며 당일로 다녀오면 됩니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "리조트 안에는 식당과 매점이 있어 필리핀 가정식과 간단한 음식을 사 먹을 수 있고, 오두막(쿠보)을 빌려 도시락을 먹는 현지 가족도 많습니다. 바콜로드로 돌아가면 숯불에 구운 닭고기 치킨 이나살을 꼭 먹어 보십시오. 마노칸 컨트리처럼 이나살 가게가 모인 곳이 유명하며, 네그로스 설탕으로 만든 납작한 과자 피야야는 선물로 좋습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "일곱째 폭포까지 가려면 오전 일찍 출발하십시오. 여섯째 폭포까지는 길이 잘 표시되어 있지만, 일곱째 폭포는 리조트 밖 산길이라 가이드와 함께 가는 편이 안전합니다."
+                }
+              ]
+            },
+            { "children": [{ "text": "트레킹에는 미끄럼 방지 샌들이나 아쿠아 슈즈가 좋고, 수영복과 수건, 갈아입을 옷을 챙기십시오." }] },
+            { "children": [{ "text": "온천을 먼저 하고 트레킹을 하면 몸이 무거워집니다. 폭포 트레킹을 먼저, 온천은 마지막에 하십시오." }] },
+            {
+              "children": [
+                { "text": "박쥐 떼는 해 질 무렵 짧은 시간에 날아오릅니다. 연못가 탁 트인 곳에서 기다리고, 플래시 촬영은 피하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "리조트 안 시설은 이용료를 각각 받으니 현금을 넉넉히 준비하십시오. 리조트 주변에는 ATM이 없거나 멀리 있습니다." }
+              ]
+            },
+            { "children": [{ "text": "해발이 높아 저녁에는 선선합니다. 1박을 한다면 얇은 겉옷을 챙기십시오." }] },
+            { "children": [{ "text": "바콜로드·실라이 시내 관광과 묶으면 1박 2일 네그로스 여행이 알차게 완성됩니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "맘부칼은 활화산인 칸라온 산 서쪽 기슭에 있습니다. 칸라온 산은 " },
+            { "type": "date", "text": "2024년" },
+            {
+              "text": "부터 분화가 이어져 정상 등산이 금지되어 있으며, 분화 때는 주변에 화산재가 떨어질 수 있습니다. 방문 전 필리핀 화산지진연구소(PHIVOLCS)의 경보 단계와 리조트 운영 여부를 최신 공지로 확인하십시오."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "폭포 주변 바위는 이끼로 매우 미끄럽습니다. 폭포 위나 바위 끝에 올라가 사진을 찍지 마십시오." }] },
+            {
+              "children": [
+                { "text": "큰비가 오면 계곡 물이 갑자기 불어날 수 있습니다. 물이 흙탕물로 변하거나 수위가 오르면 즉시 물 밖으로 나오십시오." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "온천 수온이 높은 곳이 있어 고혈압·심장 질환이 있거나 음주 후에는 오래 머물지 마십시오. 어린이는 보호자가 곁에서 지켜보십시오."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "박쥐와 야생 동물에게 먹이를 주거나 만지지 마십시오. 숲에는 모기와 거머리가 있을 수 있어 벌레 기피제가 필요합니다." }
+              ]
+            },
+            { "children": [{ "text": "입장료와 시설 이용료, 운영 시간은 주 정부 방침에 따라 바뀔 수 있으니 최신 공지를 확인하십시오." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "바콜로드",
+              "place": "bacolod",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "45분~1시간" },
+                { "text": ", 치킨 이나살과 마스카라 축제로 유명한 \"미소의 도시\"입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "실라이",
+              "place": "silay",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1시간~1시간 20분" },
+                { "text": ", 설탕 산업으로 번성했던 시절의 옛 저택이 남은 네그로스의 파리입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "카르빈 리프",
+              "place": "carbin-reef",
+              "children": [
+                { "text": "차로 사가이까지 약 " },
+                { "type": "duration", "text": "2시간" },
+                { "text": " 뒤 배로 " },
+                { "type": "duration", "text": "30분" },
+                { "text": " 안팎, 바다 한가운데 하얀 모래톱과 해양보호구역입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "라카원 섬",
+              "place": "lakawon-island",
+              "children": [
+                { "text": "차로 카디스까지 약 " },
+                { "type": "duration", "text": "2시간~2시간 30분" },
+                { "text": " 뒤 배로 짧게 건너는, 네그로스 북부의 모래섬입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

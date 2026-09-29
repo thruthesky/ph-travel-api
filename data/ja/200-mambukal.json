@@ -1,0 +1,629 @@
+{
+  "id": 200,
+  "slug": "mambukal",
+  "title": { "type": "title", "text": "マンブカル・リゾート" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mambukal Resort" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "カンラオン火山の麓にある温泉と七つの滝めぐり" },
+  "island_group": { "type": "badge", "label": "地方", "value": "visayas", "text": "ビサヤ" },
+  "region": { "type": "badge", "label": "地域", "value": "negros", "text": "ネグロス" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "ネグロス・オクシデンタル州ムルシア"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "water",
+    "value": "water",
+    "text": "滝・湖・川"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["温泉", "七つの滝", "カンラオン山", "コウモリの群れ", "イシワタ浴場"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 10.5127 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 123.1035 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "12月〜5月(乾季)",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "日帰り〜1泊2日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱800〜3,000(1日)",
+    "currency": "PHP",
+    "min": 800,
+    "max": 3000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "バコロド・シライ空港(BCD)",
+    "code": "BCD"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/200-mambukal.webp",
+    "alt": "マンブカル・リゾート",
+    "credit": "Austin Rex Lobaton / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mambukal_Waterfalls.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/200-mambukal-2.webp",
+        "alt": "マンブカル・リゾート",
+        "credit": "Elmer B. Domingo / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ishiwata_Bath_House,_Mambukal.JPG"
+      },
+      {
+        "type": "image",
+        "url": "images/200-mambukal-3.webp",
+        "alt": "マンブカル・リゾート",
+        "credit": "Choi2451 / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_in_Mambukal.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "バコロドから東へ約1時間、カンラオン火山西麓の森の中にある、100年の歴史を持つ山岳リゾートです。硫黄温泉に浸かり、渓谷沿いに続く七つの滝を歩き、夕暮れに空を覆うコウモリの群れを見ることができます。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "マンブカル・リゾートは、ネグロス・オクシデンタル州ムルシアにある州政府運営の山岳リゾートです。州都バコロドから東へ約" },
+            { "type": "distance", "text": "31〜32km" },
+            { "text": "、標高約" },
+            { "type": "distance", "text": "365m" },
+            { "text": "のカンラオン山の麓にあり、街より空気が涼しく森が生い茂っています。約" },
+            { "text": "23.6ヘクタール", "bold": true },
+            { "text": "のリゾート全体がカンラオン山自然公園の中にあり、温泉と滝、池、森の道が一体となった「山の中の公園」のような場所です。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "マンブカルの歴史は一世紀前にさかのぼります。" },
+            { "type": "date", "text": "1923年" },
+            { "text": "に州政府がここを週末の保養地(ヒルステーション)に指定し、" },
+            { "type": "date", "text": "1927年" },
+            {
+              "text": "には日本人建築家コキチ・ポール・イシワタが設計したイシワタ浴場が最初の恒久的な建物として建てられました。アーチ状の柱が並ぶ白い浴場は、温泉水を配管で引き込みタイル張りの浴槽に満たす方式で、長い間放置されていましたが、当時の姿のまま復元され、今も温泉を楽しむことができます。"
+            },
+            { "type": "date", "text": "1957年6月22日" },
+            { "text": "の共和国法によって州政府の管理が確定し、この日を記念して毎年" },
+            { "type": "date", "text": "6月" },
+            { "text": "に全身に泥を塗って踊るマッドパック祭りが開かれます。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "リゾートの象徴は、渓谷沿いに順番に連なる七つの滝です。リゾート内の森の道を歩いて第一の滝から第六の滝まで登り、最後の第七の滝はリゾートの境界を越えて山あいの集落のほうへさらに進まなければ着きません。火山の地熱で温められた温泉は水温が最高"
+            },
+            { "type": "temperature", "text": "40℃" },
+            { "text": "前後に達し、硫黄の匂いがする露天風呂と日本式の浴場で山歩きの疲れを癒やせます。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "森にはゴールデンクラウンド・フライングフォックスのような大型のオオコウモリ、ビサヤイボイノシシ、ネグロスアカムネバトなどの希少な動物が生息しており、夕暮れには無数のコウモリが一斉に飛び立ち空を埋め尽くします。ジップライン、キャノピーウォーク、ボート、蝶園まであり、子ども連れの家族のお出かけや、バコロド・シライの旅行に1日分の自然の日程を加えたい旅行者によく合います。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "七つの滝トレッキング",
+              "children": [
+                { "text": "リゾート内の整備された道を通って第六の滝まで約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "、第七の滝はそこからさらに約" },
+                { "type": "duration", "text": "30分" },
+                { "text": "歩く必要があります。滝ごとに高さと形が違い、一つずつ数えながら登る楽しさがあります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "滝つぼで泳ぐ",
+              "children": [
+                { "text": "第六と第七の滝の下にある滝つぼで、冷たい山の水に浸かることができます。流れが強くない日にだけ入り、ガイドの案内に従ってください。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "イシワタ浴場の温泉",
+              "children": [
+                { "type": "date", "text": "1927年" },
+                {
+                  "text": "に建てられた白いアーチ型の建物の中で、配管で引き込まれた温泉水に浸かります。100年近い歴史を感じながら楽しむ温泉は、マンブカルならではの体験です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "硫黄の露天風呂と日本式の湯",
+              "children": [
+                { "text": "森の中の硫黄温泉プールと日本式の露天風呂は、トレッキングの後に立ち寄るのに向いています。利用料は入場料とは別料金です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "夕暮れのコウモリの群れ",
+              "children": [
+                { "text": "日が沈む頃、リゾートの上の森から数千匹のオオコウモリが餌を求めて一斉に飛び立ちます。" },
+                { "type": "time", "text": "午後5時30分〜6時30分" },
+                { "text": "ごろ、池のほとりで空を見上げてみてください。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "スライド・フォー・ライフとキャノピーウォーク",
+              "children": [
+                { "text": "渓谷の上をロープにつかまって渡るジップライン、スライド・フォー・ライフと、木々の上の吊り橋キャノピーウォークは、子どもや若者に特に人気です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "ボートと蝶園",
+              "children": [{ "text": "リゾートの真ん中にある池で小さなボートを借りて乗り、蝶園でネグロスの蝶を間近に見ることができます。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "日帰り",
+              "subtitle": "バコロド出発",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [{ "text": "バコロドのリベルタッド・ターミナルからマンブカル行きミニバスに乗車" }]
+                    },
+                    { "time": "08:30", "children": [{ "text": "マンブカルに到着、入場券を購入して七つの滝トレッキング開始" }] },
+                    { "time": "10:30", "children": [{ "text": "第六・第七の滝で水遊び" }] },
+                    { "time": "12:00", "children": [{ "text": "リゾートのレストランで昼食" }] },
+                    { "time": "13:30", "children": [{ "text": "スライド・フォー・ライフ、キャノピーウォーク、蝶園" }] },
+                    { "time": "15:00", "children": [{ "text": "イシワタ浴場か硫黄の露天風呂で温泉" }] },
+                    { "time": "17:30", "children": [{ "text": "池のほとりでコウモリの群れを観察後、バコロドへ戻る" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "コウモリの群れまで見てから戻るなら、最終便の時間がぎりぎりになることがあります。公共交通機関で来た場合は、帰りのミニバスの時間を事前に確認するか、タクシー・グラブを予約しておいてください。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1泊2日",
+              "subtitle": "森の中で一晩",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "1日目午後", "children": [{ "text": "チェックイン後、池を散策、ボートに乗る、蝶園" }] },
+                    { "time": "1日目夜", "children": [{ "text": "コウモリの群れの観察、イシワタ浴場で夜の温泉" }] },
+                    { "time": "2日目午前", "children": [{ "text": "人のいない早朝に七つの滝トレッキング" }] },
+                    { "time": "2日目午後", "children": [{ "text": "露天風呂で休憩後、バコロドに戻ってチキン・イナサットで夕食" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "マニラからバコロド・シライ空港(BCD)まで約" },
+                        { "type": "duration", "text": "1時間10分" },
+                        { "text": "、セブからは約" },
+                        { "type": "duration", "text": "40分" },
+                        { "text": "かかります。空港からバコロド市内まで車で約" },
+                        { "type": "duration", "text": "30〜40分" },
+                        { "text": "、空港からマンブカルへ直接向かうと約" },
+                        { "type": "duration", "text": "1時間〜1時間20分" },
+                        { "text": "です。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "イロイロ市からバコロドまで高速船(ファストクラフト)が1日に何便も運航しており、約" },
+                        { "type": "duration", "text": "1時間〜1時間15分" },
+                        { "text": "、片道約" },
+                        { "type": "price", "text": "₱400〜700" },
+                        { "text": "です。パナイ島の旅と組み合わせるのに向いています。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ミニバス・ジプニー",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "バコロドのリベルタッド公設市場近くのターミナルから、ムルシアを経てマンブカルまで行くミニバスとジプニーが運行しています。約" },
+                        { "type": "duration", "text": "1時間〜1時間30分" },
+                        { "text": "、片道約" },
+                        { "type": "price", "text": "₱50〜80" },
+                        { "text": "です。" }
+                      ]
+                    },
+                    { "children": [{ "text": "午後遅くは便数が減るので、到着したらすぐに帰りの車の時間を確認してください。" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "タクシー・グラブ",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "バコロド市内からタクシーかグラブで約" },
+                        { "type": "duration", "text": "45分〜1時間" },
+                        { "text": "、片道約" },
+                        { "type": "price", "text": "₱700〜1,200" },
+                        { "text": "です。帰りは車をつかまえにくいので、運転手と待機料金を決めておくか、往復で予約しておくのがよいです。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "マイカー",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "バコロドからムルシア方面の道路を東へ走ると約" },
+                        { "type": "duration", "text": "45分〜1時間" },
+                        { "text": "です。リゾート入口に駐車場があり、車両入場料を別途徴収します。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "西ネグロスは" },
+            { "type": "date", "text": "12月〜5月" },
+            { "text": "が乾季です。特に" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は標高の高いマンブカルの朝夕の気温が" },
+            { "type": "temperature", "text": "20〜23℃" },
+            { "text": "まで下がり、温泉を楽しむのに最も適しており、トレッキングの道も乾いていて歩きやすくなります。" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "はバコロドの日中が" },
+            { "type": "temperature", "text": "33℃" },
+            { "text": "前後と暑いですが、マンブカルの森は日陰が多く避暑地の役割を果たします。ただし乾季の終わりごろには滝の水量が減ります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜11月" },
+            { "text": "は雨季で滝の水量は最も豊富ですが、森の道が滑りやすく、大雨の後は滝への立ち入りが規制されることがあります。台風は" },
+            { "type": "date", "text": "9月〜12月" },
+            { "text": "にビサヤを通過することが多いです。" },
+            { "type": "date", "text": "6月" },
+            { "text": "にはマッドパック祭りが、" },
+            { "type": "date", "text": "10月" },
+            {
+              "text": "にはバコロドのマスカラ祭りが開かれ、両方を組み合わせた旅行も人気ですが、この時期は宿を事前に予約してください。平日は閑散としており、週末や休み期間は家族連れの客でにぎわいます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "入場料", "price": "大人約₱120〜150", "note": "環境料込み、子どもは割引" },
+            { "label": "温泉(露天風呂・浴場)", "price": "約₱100〜200", "note": "施設ごとに別料金" },
+            { "label": "滝ガイド", "price": "1グループ約₱300〜500", "note": "第七の滝は推奨" },
+            { "label": "スライド・フォー・ライフ・キャノピーウォーク", "price": "約₱50〜200", "note": "施設ごとに別料金" },
+            { "label": "ボート・蝶園", "price": "約₱30〜100", "note": "施設ごとに別料金" },
+            { "label": "バコロド〜マンブカル間のミニバス", "price": "片道約₱50〜80", "note": "タクシーは約₱700〜1,200" },
+            { "label": "宿泊(リゾート内)", "price": "1泊約₱1,500〜5,500", "note": "客室・コテージ・ヴィラ" },
+            { "label": "食事", "price": "1食約₱150〜400", "note": "リゾートのレストラン" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "マンブカル・リゾート内には、州政府が運営する客室やコテージ、ヴィラ、コンベンションホテルがあります。2人部屋は1泊約" },
+            { "type": "price", "text": "₱1,500" },
+            { "text": "から、ファミリー向けのコテージやヴィラは約" },
+            { "type": "price", "text": "₱3,000〜5,500" },
+            {
+              "text": "ほどで、安価な宿泊施設やキャンプ場もあります。森の中で一晩を過ごせば、夕暮れのコウモリの群れと夜の温泉、早朝の滝トレッキングをゆったりと楽しめます。週末や休暇シーズンは部屋がすぐに埋まるので、リゾートの予約窓口に事前に確認してください。設備の充実したホテルを望むなら、バコロド市内に泊まって日帰りで訪れればよいでしょう。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "リゾート内にはレストランと売店があり、フィリピンの家庭料理や簡単な食事を買って食べることができ、あずまや(クボ)を借りて弁当を食べる地元の家族も多いです。バコロドに戻ったら、炭火で焼いた鶏肉料理チキン・イナサットをぜひ食べてみてください。マノカン・カントリーのようにイナサットの店が集まった場所が有名で、ネグロスの砂糖で作った平たい菓子ピヤヤはお土産に向いています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "第七の滝まで行くなら、午前中の早い時間に出発してください。第六の滝までは道がよく整備されていますが、第七の滝はリゾートの外の山道なので、ガイドと一緒に行くほうが安全です。"
+                }
+              ]
+            },
+            { "children": [{ "text": "トレッキングには滑りにくいサンダルかウォーターシューズがよく、水着とタオル、着替えを用意してください。" }] },
+            { "children": [{ "text": "温泉を先に済ませてからトレッキングをすると体が重くなります。滝のトレッキングを先に、温泉は最後にしてください。" }] },
+            {
+              "children": [{ "text": "コウモリの群れは、日が沈む頃の短い時間に飛び立ちます。池のほとりの開けた場所で待ち、フラッシュ撮影は避けてください。" }]
+            },
+            {
+              "children": [
+                { "text": "リゾート内の施設は利用料をそれぞれ徴収するので、現金を十分に用意してください。リゾート周辺にはATMがないか、遠く離れています。" }
+              ]
+            },
+            { "children": [{ "text": "標高が高いため夕方は涼しくなります。一泊するなら薄手の上着を用意してください。" }] },
+            { "children": [{ "text": "バコロド・シライの市内観光と組み合わせれば、1泊2日のネグロス旅行が充実したものになります。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "マンブカルは活火山であるカンラオン山の西麓にあります。カンラオン山は" },
+            { "type": "date", "text": "2024年" },
+            {
+              "text": "から噴火が続いており、山頂への登山は禁止されているほか、噴火時には周辺に火山灰が降ることがあります。訪問前にフィリピン火山地震研究所(PHIVOLCS)の警戒レベルとリゾートの運営状況を最新の発表で確認してください。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "滝の周りの岩は苔でとても滑りやすくなっています。滝の上や岩の端に登って写真を撮らないでください。" }] },
+            { "children": [{ "text": "大雨が降ると渓流が急に増水することがあります。水が濁ったり水位が上がったりしたら、すぐに水から上がってください。" }] },
+            {
+              "children": [
+                { "text": "温泉には水温の高い場所があるため、高血圧・心臓疾患がある人や飲酒後は長く浸からないでください。子どもは保護者がそばで見守ってください。" }
+              ]
+            },
+            { "children": [{ "text": "コウモリや野生動物に餌を与えたり触れたりしないでください。森には蚊やヒルがいることがあるので、虫よけが必要です。" }] },
+            { "children": [{ "text": "入場料や施設の利用料、営業時間は州政府の方針によって変わることがあるので、最新の発表を確認してください。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "バコロド",
+              "place": "bacolod",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "45分〜1時間" },
+                { "text": "、チキン・イナサットとマスカラ祭りで有名な「微笑みの街」です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "シライ",
+              "place": "silay",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間〜1時間20分" },
+                { "text": "、砂糖産業で栄えた時代の古い邸宅が残る、ネグロスのパリです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "カルビンリーフ",
+              "place": "carbin-reef",
+              "children": [
+                { "text": "車でサガイまで約" },
+                { "type": "duration", "text": "2時間" },
+                { "text": "、その後船で" },
+                { "type": "duration", "text": "30分" },
+                { "text": "前後、海の真ん中にある白い砂州と海洋保護区です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ラカウォン島",
+              "place": "lakawon-island",
+              "children": [
+                { "text": "車でカディスまで約" },
+                { "type": "duration", "text": "2時間〜2時間30分" },
+                { "text": "、その後船で短く渡る、ネグロス北部の砂の島です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

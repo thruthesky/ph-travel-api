@@ -1,0 +1,613 @@
+{
+  "id": 144,
+  "slug": "atok",
+  "title": { "type": "title", "text": "アトック" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Atok" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "雲の上に花畑と野菜畑が広がるベンゲットの高原の町" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "cordillera", "text": "コルディリェラ" },
+  "location": { "type": "address", "label": "所在地", "icon": "location_on", "text": "ベンゲット州アトック" },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "landscape",
+    "value": "nature",
+    "text": "自然景観"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "タグ",
+    "items": ["花農園", "ハルセマ・ハイウェイ", "桜", "高原の野菜畑", "ティンバック山"]
+  },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 16.6272 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.7672 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "12月〜3月(花と桜、涼しい乾季)",
+    "months": [12, 1, 2, 3]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "日帰り〜1泊2日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱1,000〜2,500(バギオ発1日)",
+    "currency": "PHP",
+    "min": 1000,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "クラーク国際空港(CRK)",
+    "code": "CRK"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/144-atok.webp",
+    "alt": "アトック",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Atok_Vegetable_Farm,_Sayangan_(Halsema_Highway,_Atok,_Benguet;_12-03-2022).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/144-atok-2.webp",
+        "alt": "アトック",
+        "credit": "EyeTrick / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2025-01-04_-_Agricultural_terraces_in_Atok,_Benguet_02.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/144-atok-3.webp",
+        "alt": "アトック",
+        "credit": "Anne Zanne / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Northern_Blossom_05.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "バギオからハルセマ・ハイウェイを北へ2時間ほど上ると現れるベンゲットの高原の町です。海抜2,000mを超える山の斜面に野菜畑と花農園が幾重にも広がり、冬には霜と桜、雲海が旅行者を迎えます。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "アトックはベンゲット州のほぼ中央、バギオから約" },
+            { "type": "distance", "text": "50km" },
+            { "text": "離れた山岳の町です。町全体が海抜約" },
+            { "type": "distance", "text": "1,000〜2,700m" },
+            {
+              "text": "の急峻な山地にまたがり、バギオとボントックを結ぶハルセマ・ハイウェイが町の尾根沿いを通っています。カンカナイ族とイバロイ族が古くから暮らしてきた土地で、今では白菜・じゃがいも・にんじんといった高冷地野菜とカーネーション栽培で知られる、フィリピン屈指の「野菜かご」です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "アトックには、かつてフィリピンの国道で最も標高の高い地点だったハルセマ・ハイウェイの最高地点(海抜約" },
+            { "type": "distance", "text": "2,255m" },
+            { "text": ")があります。" },
+            { "type": "date", "text": "2019年" },
+            {
+              "text": "にイフガオ州ティノックの道路がより高い地点だと確認されるまで、長らく「フィリピンで最も高い道路」と呼ばれていました。この一帯からは、ルソン島で3番目に高いティンバック山(海抜約"
+            },
+            { "type": "distance", "text": "2,717m" },
+            { "text": ")へ上る道も始まります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "アトックはフィリピンで最も寒い場所のひとつです。" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "の未明には気温が" },
+            { "type": "temperature", "text": "5〜9℃" },
+            {
+              "text": "前後まで下がり、寒い年には野菜畑に霜が降りてニュースになることもあります。農家にとっては悩みの種ですが、旅行者にとっては熱帯の国では珍しい光景のため、この時期に訪れる人が多くいます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "最近では花農園ノーザン・ブロッサムと桜公園が知られるようになり、バギオから日帰りで訪れる「高原ドライブ」の旅行先として人気が高まっています。大げさな観光施設はありませんが、雲の上の山の斜面に広がる畑と花、涼しい空気が生み出す異国的な雰囲気が魅力です。バギオ旅行にもう1日加えたい旅行者、写真好きのカップルや家族に向いています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "ノーザン・ブロッサム花農園",
+              "children": [
+                {
+                  "text": "サヤンガン集落の山の斜面にある約2ヘクタールの花農園で、バラのような形に育つ観賞用キャベツ「ローズキャベツ」やひまわり、キンギョソウ、アジサイといった温帯の花でいっぱいです。晴れた日には花畑の向こうにティンバック山と雲海が広がります。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "アトック桜公園",
+              "children": [
+                { "type": "date", "text": "2016年" },
+                { "text": "に日本の桜を植えてつくられた公園で、毎年" },
+                { "type": "date", "text": "1月末〜3月" },
+                { "text": "頃にピンクと白の桜が咲きます。開花時期は年によって変わるため、現地の情報を確認してから行ってください。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "ハルセマ・ハイウェイ最高地点",
+              "children": [
+                {
+                  "text": "海抜7,400フィート(約2,255m)を示す標識石と展望台がある場所です。記念写真を撮り、売店で温かいベンゲットコーヒーを一杯飲みながら休んでいくのによい場所です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "幾重にも重なる高冷地の野菜畑",
+              "children": [
+                {
+                  "text": "山頂近くまで階段状に削って作られた野菜畑は、アトックで最もありふれていながら印象的な風景です。ハルセマ・ハイウェイ沿いのどこでも車を停めれば、緑と茶色が交わる畑とビニールハウスを見下ろせます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "ティンバック山の軽登山",
+              "children": [
+                { "text": "ルソン島三大高峰のひとつですが、ハルセマ・ハイウェイ側の登山口から登れば約" },
+                { "type": "duration", "text": "1時間30分〜2時間" },
+                { "text": "で山頂に着きます。反対側の斜面にはカバヤンのティンバック・ミイラ洞窟があります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "未明の雲海と霜見物",
+              "children": [
+                { "text": "冬の未明には谷を埋める雲海がよく現れ、寒い日には畑に白い霜が降ります。" },
+                { "type": "time", "text": "朝6〜8時" },
+                { "text": "の間が最も見頃です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "道沿いの野菜・花市場",
+              "children": [
+                {
+                  "text": "サヤンガン公設市場と道沿いの屋台では、収穫したての野菜やイチゴ、花束をバギオより安く買えます。帰り道に立ち寄って買い物をするのも楽しみのひとつです。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "日帰りコース",
+              "subtitle": "バギオ発、高原ドライブ",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "05:00", "children": [{ "text": "バギオで車を貸し切るか北行きバスで出発" }] },
+                    {
+                      "time": "06:30〜08:30",
+                      "children": [{ "text": "ノーザン・ブロッサム花農園で日の出と雲海、花畑散策(入場券の利用時間を確認)" }]
+                    },
+                    { "time": "09:00", "children": [{ "text": "桜公園を訪問(開花時期の場合)、コーヒーとパンで朝食" }] },
+                    { "time": "10:00", "children": [{ "text": "ハルセマ・ハイウェイ最高地点の標識石と展望台" }] },
+                    { "time": "11:00", "children": [{ "text": "道沿いの野菜畑の展望地点で写真撮影" }] },
+                    { "time": "12:00", "children": [{ "text": "サヤンガン付近の食堂で昼食、市場で野菜と花を購入" }] },
+                    { "time": "14:00", "children": [{ "text": "バギオへ出発、午後遅くに到着" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1泊2日コース",
+              "subtitle": "ティンバック山の日の出登山を追加",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "1日目午前", "children": [{ "text": "バギオ出発、ハルセマ・ハイウェイ最高地点と野菜畑の眺め" }] },
+                    {
+                      "time": "1日目午後",
+                      "children": [{ "text": "桜公園と市場見物の後、アトックかブギアス方面の民宿にチェックイン" }]
+                    },
+                    { "time": "2日目03:30", "children": [{ "text": "ティンバック山入口を出発、山頂で日の出と雲海を鑑賞" }] },
+                    { "time": "2日目08:00", "children": [{ "text": "ノーザン・ブロッサム花農園を訪問" }] },
+                    { "time": "2日目午後", "children": [{ "text": "カバヤンのミイラ洞窟へ続けるか、バギオへ戻る" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "ティンバック山は登山口で訪問者登録をし、現地ガイドを利用するのが原則です。未明の登山は非常に寒いため、防寒着を必ず持参してください。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "バス(マニラ〜バギオ)",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "マニラのクバオ・パサイなどから、ビクトリー・ライナーやジェネシスなどのバギオ行きバスが随時出発します。約" },
+                        { "type": "duration", "text": "4〜6時間" },
+                        { "text": "、料金は約" },
+                        { "type": "price", "text": "₱700〜1,000" },
+                        { "text": "です。アトックの未明の風景を見るには、前日にバギオに泊まるのがよいでしょう。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "バス・バン(バギオ〜アトック)",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "バギオのダンワ・ターミナルかスローターハウス・ターミナル付近から、サガダ・ボントック・ブギアス方面のバスやアトック行きのバンに乗ると、ハルセマ・ハイウェイ沿いにアトックを通ります。約"
+                        },
+                        { "type": "duration", "text": "1時間30分〜2時間30分" },
+                        { "text": "、料金は約" },
+                        { "type": "price", "text": "₱100〜200" },
+                        { "text": "です。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "運転手に「ノーザン・ブロッサム」や「サヤンガン」、「ハイエスト・ポイント」など降りる場所を事前に伝えておいてください。帰りは道端でバギオ行きの車を停めて乗りますが、午後遅くは車が少なくなります。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "車の貸し切り・ツアー",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "複数の場所を未明に回るなら、バギオで運転手付きの車かタクシーを貸し切るのが便利です。往復約" },
+                        { "type": "price", "text": "₱3,000〜4,500" },
+                        { "text": "(車1台、4〜5人)程度で、バギオの旅行会社によるアトック日帰りツアーもあります。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "ハルセマ・ハイウェイはカーブの多い山道と崖が続き、霧が頻繁に発生する道路です。自分で運転するなら、日中にゆっくり走ってください。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "最寄りの国際空港はクラーク国際空港(CRK)で、バギオまでバスで約" },
+                        { "type": "duration", "text": "3〜4時間" },
+                        { "text": "行った後、アトック行きの便に乗り換えます。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "アトック旅行の旬は" },
+            { "type": "date", "text": "12月〜3月" },
+            { "text": "です。この時期は雨が少なく空が澄んでいて雲海と日の出が見やすく、花農園も" },
+            { "type": "date", "text": "2月〜3月" },
+            { "text": "に最も華やかになります。桜はおおむね" },
+            { "type": "date", "text": "1月末〜2月" },
+            { "text": "に見頃を迎えますが、年によって差が大きいです。ただし未明の気温は" },
+            { "type": "temperature", "text": "5〜10℃" },
+            { "text": "まで下がるため、ダウンジャケットや厚手の上着が必要です。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "4月〜5月" },
+            { "text": "は日中も" },
+            { "type": "temperature", "text": "20℃" },
+            { "text": "前後で快適ですが、雲海を見られる確率は下がります。" },
+            { "type": "date", "text": "6月〜10月" },
+            {
+              "text": "の雨季は濃い霧と雨が多く、台風が来るとハルセマ・ハイウェイの各所で土砂崩れや落石により通行止めになることもあります。雨季に行くなら午前中に予定を終え、午後は早めに下山してください。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "マニラ〜バギオ間のバス", "price": "片道約₱700〜1,000", "note": "クラスにより異なる" },
+            { "label": "バギオ〜アトック間のバス・バン", "price": "片道約₱100〜200", "note": "サガダ・ブギアス方面" },
+            { "label": "車・タクシー貸し切り", "price": "往復約₱3,000〜4,500", "note": "1台基準、4〜5人" },
+            { "label": "ノーザン・ブロッサム入場料", "price": "1人約₱200〜300", "note": "コーヒー・パン込み、利用時間制限あり" },
+            { "label": "環境税", "price": "1人約₱50", "note": "変動あり、最新の告知を確認" },
+            { "label": "桜公園", "price": "無料〜少額", "note": "開花期の運営方法を確認" },
+            { "label": "ティンバック山登録・ガイド", "price": "約₱300〜1,000", "note": "人数・コースにより異なる" },
+            { "label": "食事", "price": "1食約₱120〜300", "note": "道沿いの食堂基準" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "アトックにはきちんとしたホテルがほとんどなく、ほとんどはバギオに泊まって日帰りで訪れます。バギオには1泊約" },
+            { "type": "price", "text": "₱1,500〜5,000" },
+            {
+              "text": "の宿が多くあります。ティンバック山の日の出や未明の雲海を見たいなら、アトック・ブギアス方面のハルセマ・ハイウェイ沿いの民宿や山小屋、キャンプ場を利用でき、1人約"
+            },
+            { "type": "price", "text": "₱500〜1,500" },
+            { "text": "程度です。暖房がない所が多いため、暖かい服を持参してください。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "食べ物は高原の町らしく野菜が主役です。道沿いの食堂では、採れたての白菜やブロッコリー、じゃがいもを使った炒め物やスープ、塩漬けにして燻製にした豚肉エトグ(etag)を入れたコルディリェラ風のスープ料理を味わえます。寒い朝にはベンゲット産アラビカコーヒーと温かいスープが格別で、イチゴのシーズン(12月〜4月頃)には道端で売られるイチゴやイチゴのタホも楽しめます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "花農園と雲海は早朝が最も見頃です。バギオから" },
+                { "type": "time", "text": "未明5時" },
+                { "text": "頃に出発すれば、日差しと霧が織りなす風景を見ることができます。" }
+              ]
+            },
+            { "children": [{ "text": "12月〜2月の未明は気温が1桁台まで下がります。ダウンジャケット、帽子、手袋を持参し、重ね着をしてください。" }] },
+            { "children": [{ "text": "ノーザン・ブロッサムの入場券は利用時間が決まっていることが多いです。撮影の計画を事前に立ててから入ってください。" }] },
+            { "children": [{ "text": "花畑と野菜畑は農家の生計の場です。決められた道だけを歩き、花を摘んだり畑に入ったりしないでください。" }] },
+            { "children": [{ "text": "桜の開花時期と公園の運営方法は年によって変わります。出発前にアトックの観光案内や最新の告知を確認してください。" }] },
+            { "children": [{ "text": "カーブの多い山道が続くため酔い止め薬を用意し、空腹のまま出発しないでください。" }] },
+            { "children": [{ "text": "道沿いにはATMがほとんどありません。入場料と交通費、買い物用の現金をバギオで用意してください。" }] },
+            {
+              "children": [
+                { "text": "カバヤンのミイラ洞窟、サガダと動線がつながっています。コルディリェラ一周を計画するなら、アトックを中間の経由地に入れてみてください。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "ハルセマ・ハイウェイは霧が濃く崖が多い山岳道路です。雨季や台風の後は土砂崩れで道がふさがることが多いため、出発前に道路状況を確認し、写真を撮ろうと道路の端に立たないでください。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "海抜2,000mを超えるため、急に寒くなったり雨が降ったりすることがあります。防水の上着を持参してください。" }] },
+            { "children": [{ "text": "路肩にむやみに駐車すると野菜運搬トラックの通行を妨げて危険です。展望台か指定された場所に停めてください。" }] },
+            { "children": [{ "text": "畑には農薬をまいていることがあります。畑の作物を摘んで食べたり触れたりしないでください。" }] },
+            { "children": [{ "text": "ティンバック山の未明登山は必ずガイドと一緒に行い、ヘッドランプと防寒装備を用意してください。" }] },
+            { "children": [{ "text": "入場料・環境税は頻繁に変わります。最新の告知を確認し、領収書を受け取ってください。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "バギオ",
+              "place": "baguio",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間30分〜2時間30分" },
+                { "text": "、松林と夜市、イチゴ農園で有名なフィリピンの夏の首都です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "カバヤンのミイラ洞窟",
+              "place": "kabayan",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1〜2時間" },
+                { "text": "、イバロイ族の「炎のミイラ」が眠る埋葬洞窟と博物館があります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "サガダ",
+              "place": "sagada",
+              "children": [
+                { "text": "ハルセマ・ハイウェイ沿いに北へ約" },
+                { "type": "duration", "text": "4〜5時間" },
+                { "text": "、吊り下げ棺と洞窟、雲海の展望地がある山岳の村です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "プラグ山",
+              "place": "mount-pulag",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "2〜3時間" },
+                { "text": "の距離にあるルソン島最高峰で、雲海と天の川を見る未明登山で有名です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "id": 104,
+  "slug": "makati",
+  "title": { "type": "title", "text": "马卡蒂" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Makati" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "高楼林立间藏着博物馆与周末市集的金融都市" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "luzon", "text": "吕宋" },
+  "region": { "type": "badge", "label": "地区", "value": "metro-manila", "text": "大马尼拉" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "大马尼拉马卡蒂市" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "location_city",
+    "value": "city",
+    "text": "城市·美食"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["阿亚拉中心", "购物中心", "周末市集", "波布拉西翁", "阿亚拉博物馆"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 14.5566 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 121.0237 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "12月至4月（旱季）",
+    "months": [12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "1天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱1,500~5,000（1天）",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "简单",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "尼诺伊·阿基诺国际机场 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/104-makati.webp",
+    "alt": "马卡蒂",
+    "credit": "patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Makati_CBD_skyline_(Makati;_12-31-2019).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/104-makati-2.webp",
+        "alt": "马卡蒂",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ayala_Avenue,_Makati,_Feb_2026.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/104-makati-3.webp",
+        "alt": "马卡蒂",
+        "credit": "RioHondo / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ayala_Triangle_Gardens.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "这里是菲律宾金融与商业的中心，阿亚拉大道沿线聚集着高楼大厦、大型购物中心与酒店。阿亚拉博物馆与阿亚拉三角公园、周末早市，以及入夜后活跃起来的波布拉西翁小巷，一天之内即可尽览马尼拉现代的一面。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "马卡蒂位于大马尼拉正中央、帕西格河南侧，是菲律宾金融、商业与外交的中心。银行、跨国企业总部、大使馆与高级酒店，沿阿亚拉大道、罗哈斯林荫大道与布恩迪亚大道密密麻麻地林立。常住人口约30万，但白天通勤族与购物人潮涌入，人数可达数百万。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "这里的历史比想象中悠久。" },
+            { "type": "date", "text": "1670年" },
+            { "text": "西班牙时代，这里以“圣佩德罗·德·马卡蒂”村落之名建立，如今的波布拉西翁仍留有" },
+            { "type": "date", "text": "1620年" },
+            { "text": "前后建成的圣伯多禄圣保禄堂。" },
+            { "type": "date", "text": "1851年" },
+            {
+              "text": "，索贝尔·德·阿亚拉家族买下这一带的农场，第二次世界大战前，这里曾是马尼拉旧机场——尼尔森机场的所在地。战后阿亚拉家族在旧跑道原址有计划地铺设道路、兴建大楼，"
+            },
+            { "type": "date", "text": "1950~1960年代" },
+            { "text": "起逐渐形成如今的中央商务区。相互交叉的阿亚拉大道与罗哈斯林荫大道两条长街，正是昔日跑道的遗迹。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "1986年" },
+            {
+              "text": "人民力量革命期间，阿亚拉大道的大楼曾飘落漫天黄色纸片，马卡蒂也曾是菲律宾现代史的舞台。如今，对旅行者而言，这里更多以购物、美食与夜生活之都为人熟知。步行天桥与公园串联完善，治安在马尼拉境内也算良好，很适合初次造访马尼拉的旅行者落脚。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "这里并非景点密集的城市，但拥有能一览菲律宾历史的阿亚拉博物馆、周末早晨的美食市集，以及众多餐厅与屋顶酒吧，很适合充实地度过一整天。推荐给家庭旅行者、出差人士，以及喜爱购物与美食的旅行者，若与邻近的BGC或马尼拉旧城区串联，城市之旅会更加丰富。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "阿亚拉博物馆",
+              "children": [
+                {
+                  "text": "以60件手工制作的立体模型呈现菲律宾历史的展览，以及汇集千余件西班牙殖民前黄金饰品的“祖先的黄金”展览最为知名。位于Greenbelt内，很适合与购物一起顺道造访。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "阿亚拉三角公园",
+              "children": [
+                { "text": "这是高楼林立中约2公顷的绿地公园，旧尼尔森机场的塔台建筑如今作为餐厅保留了下来。" },
+                { "type": "date", "text": "11月至1月" },
+                { "text": "期间，每晚都会举行灯光与音乐交织的灯光秀。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "周末早市",
+              "children": [
+                { "text": "周六在萨尔塞多村的海梅·贝拉斯克斯公园，周日在黎牙实比村的黎牙实比公园，都会举办美食市集。通常为" },
+                { "type": "time", "text": "上午7点至下午2点" },
+                { "text": "，从菲律宾家常菜到各国美食、有机蔬菜、手工艺品，都能在同一地点品尝与选购。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Greenbelt与Glorietta",
+              "children": [
+                {
+                  "text": "拥有花园的Greenbelt、巨型购物中心Glorietta、One Ayala与Landmark，透过步行通道相连而成的阿亚拉中心，是马卡蒂购物的核心。Greenbelt 1正在改建施工，请先确认营业中的店铺。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "波布拉西翁之夜",
+              "children": [
+                { "text": "昔日马卡蒂中心地带的波布拉西翁，如今狭窄的巷弄里聚集着手工精酿酒吧、屋顶酒吧与世界各国餐馆，成为一条夜生活街区。从傍晚到午夜是最热闹的时段。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "圣伯多禄圣保禄堂",
+              "children": [
+                { "text": "这座位于波布拉西翁山丘上的西班牙时代教堂，是马卡蒂还是一座小小河畔村落时留下的痕迹。能感受到与高楼林立截然不同的宁静氛围。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "屋顶眺望的夜景",
+              "children": [
+                { "text": "从马卡蒂酒店与大楼的屋顶酒吧，可以俯瞰灯火通明的阿亚拉大道与BGC，甚至远眺马尼拉湾。一杯鸡尾酒价格约在" },
+                { "type": "price", "text": "₱350~700" },
+                { "text": "上下。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "小东京与世界美食",
+              "children": [
+                { "text": "奇诺·罗塞斯大道上的小东京，是聚集着日本餐馆的老巷子，马卡蒂各处还有众多韩式餐厅与各国料理。从菲律宾菜到世界美食，挑选起来别有乐趣。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "平日一日行程",
+              "subtitle": "博物馆·购物·夜景",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "09:00", "children": [{ "text": "在阿亚拉三角公园晨间散步，于咖啡馆享用早餐" }] },
+                    { "time": "10:00~12:30", "children": [{ "text": "参观阿亚拉博物馆（立体模型、祖先的黄金展）" }] },
+                    { "time": "12:30", "children": [{ "text": "在Greenbelt享用菲律宾菜午餐" }] },
+                    {
+                      "time": "14:00",
+                      "children": [{ "text": "在Greenbelt·Glorietta·One Ayala购物，顺便避暑" }]
+                    },
+                    { "time": "16:30", "children": [{ "text": "在酒店休息，或享受水疗·按摩" }] },
+                    { "time": "18:30", "children": [{ "text": "前往波布拉西翁，在巷弄美食店享用晚餐" }] },
+                    { "time": "20:30", "children": [{ "text": "在屋顶酒吧欣赏马卡蒂夜景" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "周末行程",
+              "subtitle": "早市与旧马卡蒂",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:30",
+                      "children": [{ "text": "周六造访萨尔塞多市集，或周日造访黎牙实比市集，兼作早餐与美食探索" }]
+                    },
+                    { "time": "10:00", "children": [{ "text": "参观阿亚拉博物馆" }] },
+                    { "time": "12:30", "children": [{ "text": "午餐后搭Grab前往波布拉西翁" }] },
+                    { "time": "14:00", "children": [{ "text": "参观圣伯多禄圣保禄堂，漫步波布拉西翁老街" }] },
+                    { "time": "16:00", "children": [{ "text": "在咖啡馆稍作休息后前往阿亚拉三角公园" }] },
+                    { "time": "18:00", "children": [{ "text": "在公园用晚餐，若逢季节可欣赏灯光秀" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "周末市集若太晚去，人气美食可能已售罄，建议尽早前往。若还有多一天时间，可搭Grab约" },
+                    { "type": "duration", "text": "15~30分钟" },
+                    { "text": "前往BGC与马尼拉美军公墓一并游览。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Grab·出租车",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从尼诺伊·阿基诺国际机场到马卡蒂市中心约" },
+                        { "type": "distance", "text": "7~9公里" },
+                        { "text": "，视路况需" },
+                        { "type": "duration", "text": "20分钟~1小时" },
+                        { "text": "。Grab车费约" },
+                        { "type": "price", "text": "₱250~500" },
+                        { "text": "，上下班高峰时段会更贵。也可以使用机场官方出租车站的代金券出租车。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "从马尼拉旧城区（王城区·埃尔米塔）出发约" },
+                        { "type": "price", "text": "₱200~400" },
+                        { "text": "，需时" },
+                        { "type": "duration", "text": "30分钟~1小时" },
+                        { "text": "左右。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "轻轨（MRT）",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "沿EDSA大道行驶的MRT 3号线阿亚拉（Ayala）站，与马卡蒂市中心直接相连，从车站可步行至One Ayala与Glorietta。布恩迪亚站、瓜达卢佩站也位于马卡蒂境内。票价约"
+                        },
+                        { "type": "price", "text": "₱13~28" },
+                        { "text": "。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "从马尼拉旧城区可搭乘LRT 1号线，在埃德萨站下车，换乘MRT 3号线塔夫脱大道站。上下班高峰时段十分拥挤，若行李较多建议改搭Grab。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "巴士",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "行驶于EDSA大道中央专用车道的EDSA Carousel巴士，会停靠阿亚拉站。票价约" },
+                        { "type": "price", "text": "₱15~75" },
+                        { "text": "。从克拉克国际机场搭乘开往马尼拉的P2P巴士约需" },
+                        { "type": "duration", "text": "2~3小时" },
+                        { "text": "，路线与站点请以最新信息为准。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "步行",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "中央商务区内，带顶棚的步行通道与地下通道，将阿亚拉中心、阿亚拉三角公园、萨尔塞多·黎牙实比村连接在一起。大马路禁止随意穿越，请务必使用天桥或地下通道。从Greenbelt步行至波布拉西翁约"
+                        },
+                        { "type": "duration", "text": "20~25分钟" },
+                        { "text": "，夜间搭Grab会更方便。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "马卡蒂购物中心与室内空间众多，四季皆可旅行，但若想享受步行与户外市集，" },
+            { "type": "date", "text": "12月至4月" },
+            { "text": "的旱季最为理想。" },
+            { "type": "date", "text": "12月至2月" },
+            { "text": "早晚较为凉爽，" },
+            { "type": "date", "text": "4月至5月" },
+            { "text": "气温可升至" },
+            { "type": "temperature", "text": "34~36℃" },
+            { "text": "，正午安排室内行程会更舒适。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月至10月" },
+            {
+              "text": "雨季，午后阵雨与台风频繁，暴雨时EDSA与布恩迪亚一带道路会积水或严重堵塞。圣诞季节，阿亚拉大道与购物中心会以华丽装饰点缀，也会举行阿亚拉三角公园灯光秀，但"
+            },
+            { "type": "date", "text": "12月" },
+            { "text": "的周五傍晚与发薪日前后，是全年交通最拥堵的时候。请尽量把移动安排在平日白天或周末上午。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "机场–马卡蒂Grab", "price": "单程约₱250~500", "note": "视时段·车流量而异" },
+            { "label": "MRT 3号线", "price": "单程约₱13~28", "note": "视区间计价" },
+            { "label": "阿亚拉博物馆", "price": "约₱500~700", "note": "学生·长者优惠，以最新票价为准" },
+            { "label": "周末市集美食", "price": "每人约₱300~700", "note": "以多样分食为准" },
+            { "label": "用餐", "price": "一餐约₱300~1,200", "note": "美食广场~餐厅" },
+            { "label": "屋顶酒吧饮品", "price": "一杯约₱350~700", "note": "服务费可能另计" },
+            { "label": "按摩·水疗", "price": "约₱600~2,500", "note": "本地按摩店~酒店水疗" },
+            { "label": "住宿", "price": "一晚约₱2,500~12,000", "note": "商务酒店~高级酒店" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上费用为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，实际可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "马卡蒂是大马尼拉住宿选择最丰富的地方。阿亚拉中心周边聚集着国际连锁高级酒店（一晚约" },
+            { "type": "price", "text": "₱7,000~15,000" },
+            { "text": "），黎牙实比·萨尔塞多村与布恩迪亚一带则有许多服务式公寓与商务酒店（约" },
+            { "type": "price", "text": "₱2,500~5,000" },
+            { "text": "）。背包客常入住波布拉西翁的青年旅舍（多人间约" },
+            { "type": "price", "text": "₱700~1,500" },
+            { "text": "），但夜里可能吵闹到很晚，若想要安静的住宿，建议选择中央商务区一带。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "美食是马卡蒂之旅的核心。Greenbelt与阿亚拉三角公园一带，有许多以精致方式呈现菲律宾料理的餐厅，能轻松品尝西尼干（酸甜罗望子汤）、卡雷卡雷（花生酱炖菜）、脆皮炸五花肉莱琼卡瓦利。周末市集则能小份小份地品尝炭烤肉串、烤乳猪与菲律宾甜品哈罗哈罗，波布拉西翁聚集着从墨西哥卷饼、拉面到中东料理等世界各国的小店。奇诺·罗塞斯大道上的小东京，是历史悠久的日本料理街，若想念韩式料理，马卡蒂各处的韩式餐厅与韩国食品店也很容易找到。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "购物中心与大楼入口都设有安检。打开背包给保安查看是常见做法，不必惊慌。" }] },
+            {
+              "children": [
+                { "text": "上下班高峰时段（" },
+                { "type": "time", "text": "上午7点至9点" },
+                { "text": "、" },
+                { "type": "time", "text": "下午5点至8点" },
+                { "text": "），Grab车费会上涨，也较难叫到车。这段时间建议步行游览附近景点。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "阿亚拉博物馆通常周一休馆。开放时间与票价请在" },
+                { "type": "link", "text": "阿亚拉博物馆官方网站", "url": "https://www.ayalamuseum.org/" },
+                { "text": "确认。" }
+              ]
+            },
+            { "children": [{ "text": "周末市集使用现金较方便。部分店家接受电子支付（如GCash），但外国人使用不易，请准备小面额纸币。" }] },
+            { "children": [{ "text": "餐厅账单通常已包含10%服务费。若已包含，则无需额外给小费。" }] },
+            { "children": [{ "text": "购物中心内空调开得很强。建议携带一件薄外套。" }] },
+            { "children": [{ "text": "购物中心内的换汇处汇率通常比机场更划算。不妨多比较几家的汇率。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "P.布尔戈斯街一带的娱乐区曾有敲诈收费、迷药下药犯罪与拉客行为的报告。请避免陌生人邀约的饮酒场合或店家，也不要让饮料离开视线。" }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "在MRT阿亚拉站、EDSA巴士站等拥挤场所，请留意扒手。" }] },
+            { "children": [{ "text": "在路边拦出租车时，请确认司机是否打表，若要求议价，请下车改搭Grab。" }] },
+            { "children": [{ "text": "深夜请勿独自走在波布拉西翁的巷弄中，建议在大路上叫Grab。" }] },
+            { "children": [{ "text": "暴雨来袭时，低地道路会迅速积水。若发布台风警报，请减少外出并留意最新公告。" }] },
+            { "children": [{ "text": "请避开主动搭话推销换汇的人或路边换汇摊，改用银行或正规换汇所。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "BGC",
+              "place": "bgc",
+              "children": [
+                { "text": "搭Grab约" },
+                { "type": "duration", "text": "15~40分钟" },
+                { "text": "，是很适合步行的新城区，以壁画、美食与高街商圈闻名。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "马尼拉美军公墓",
+              "place": "manila-american-cemetery",
+              "children": [
+                { "text": "搭Grab约" },
+                { "type": "duration", "text": "20~40分钟" },
+                { "text": "，是安葬着第二次世界大战约1.7万名美军阵亡将士的纪念公园。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "王城区",
+              "place": "intramuros",
+              "children": [
+                { "text": "搭Grab约" },
+                { "type": "duration", "text": "30分钟~1小时" },
+                { "text": "，可参观西班牙殖民时代的城墙古城与圣奥古斯丁教堂。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "马尼拉湾",
+              "place": "manila-bay",
+              "children": [
+                { "text": "搭Grab约" },
+                { "type": "duration", "text": "30分钟~1小时" },
+                { "text": "，可在罗哈斯大道海滨步道与亚洲购物中心欣赏夕阳。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "菲律宾国家博物馆",
+              "place": "national-museum",
+              "children": [
+                { "text": "搭Grab约" },
+                { "type": "duration", "text": "30分钟~1小时" },
+                { "text": "，可免费参观菲律宾美术、自然史与人类学展览。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

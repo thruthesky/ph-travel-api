@@ -54,11 +54,14 @@ export function format(value) {
 
 // ───────────── 번역할 글 뽑기 ─────────────
 
+/** 조각 type 의 언어와 무관한 키 (link.url · place_link.slug) — 번역 줄에 넣지 않고 원본에서 옮긴다. */
+const fixedKeys = (type) => Object.entries(TYPES[type]?.props ?? {}).filter(([k, r]) => k !== 'text' && !r.translate).map(([k]) => k);
+
 /** 글 조각 배열 → 한 줄 글. 값 조각은 ⟦type|글⟧, 표시(bold …)는 ⟦bold|글⟧·⟦price,bold|글⟧ 로 쓴다. */
 export function toMarkup(runs, where) {
   return runs.map((run) => {
     for (const key of Object.keys(run)) {
-      if (key !== 'text' && key !== 'type' && !MARKS.includes(key)) throw new Error(`${where}: 번역 도구가 모르는 조각 키 — ${key}`);
+      if (key !== 'text' && key !== 'type' && !MARKS.includes(key) && !fixedKeys(run.type).includes(key)) throw new Error(`${where}: 번역 도구가 모르는 조각 키 — ${key}`);
     }
     if (/[⟦⟧\n]/.test(run.text)) throw new Error(`${where}: 글에 ⟦ ⟧ 또는 줄바꿈이 있음`);
     const spec = [run.type, ...MARKS.filter((m) => run[m])].filter(Boolean);
@@ -96,6 +99,21 @@ export function fromMarkup(line) {
   if (!runs.length) throw new Error('글이 비어 있음');
   return runs;
 }
+
+/** 번역 조각에 원본 조각의 언어와 무관한 키(url·slug)를 옮긴다 — 같은 type 의 몇 번째 조각끼리 짝짓는다. */
+export function carryFixed(runs, sourceRuns) {
+  const seen = {};
+  for (const run of runs) {
+    const keys = fixedKeys(run.type);
+    if (!keys.length) continue;
+    const n = (seen[run.type] = (seen[run.type] ?? -1) + 1);
+    const from = sourceRuns.filter((r) => r.type === run.type)[n];
+    for (const k of keys) if (from?.[k] !== undefined) run[k] = from[k];
+  }
+  return runs;
+}
+
+const getPath = (obj, path) => path.reduce((o, k) => o?.[k], obj);
 
 /** 값 조각의 종류 목록 (정렬) — 원문과 번역이 같아야 한다. */
 const specsOf = (line) => [...line.matchAll(/⟦([^|⟦⟧]+)\|/g)].map((m) => m[1].split(',').map((s) => s.trim()).sort().join(',')).sort();
@@ -261,7 +279,7 @@ function translate(lang, file, errors) {
   for (const id of map.keys()) if (id < 1 || id > units.length) errors.push(`@${id} 원본에 없는 번호 (1~${units.length})`);
   if (errors.length) return null;
   const place = structuredClone(source);
-  units.forEach((u, i) => setPath(place, u.path, u.kind === 'runs' ? fromMarkup(map.get(i + 1)) : map.get(i + 1)));
+  units.forEach((u, i) => setPath(place, u.path, u.kind === 'runs' ? carryFixed(fromMarkup(map.get(i + 1)), getPath(source, u.path)) : map.get(i + 1)));
   return orderLike(source, applyMeta(place, lang));
 }
 
@@ -330,7 +348,7 @@ function cmdSync(langs) {
           continue;
         }
         const next = structuredClone(source);
-        a.forEach((u, i) => setPath(next, u.path, u.kind === 'runs' ? fromMarkup(b[i].value) : b[i].value));
+        a.forEach((u, i) => setPath(next, u.path, u.kind === 'runs' ? carryFixed(fromMarkup(b[i].value), getPath(source, u.path)) : b[i].value));
         place = orderLike(source, next);
       }
       const after = format(applyMeta(place, lang));

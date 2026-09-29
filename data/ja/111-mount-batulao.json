@@ -1,0 +1,595 @@
+{
+  "id": 111,
+  "slug": "mount-batulao",
+  "title": { "type": "title", "text": "バトゥラオ山" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mount Batulao" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "恐竜の背骨のように連なる峰々を越える草原の稜線道" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "batangas", "text": "バタンガス" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "バタンガス州ナスグブ(タガイタイ南西、カビテ境界付近)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "hiking",
+    "value": "mountain",
+    "text": "山・トレッキング"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["登山", "稜線トラバース", "草原", "日帰り登山", "マニラ近郊"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 14.045 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.8044 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "11月〜4月(乾季)",
+    "months": [11, 12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "日帰り" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱1,000〜2,500",
+    "currency": "PHP",
+    "min": 1000,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "ふつう",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ニノイ・アキノ国際空港(MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/111-mount-batulao.webp",
+    "alt": "バトゥラオ山",
+    "credit": "Billy Palatino / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Dinosaur_Back_Mountain_of_Batulao.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/111-mount-batulao-2.webp",
+        "alt": "バトゥラオ山",
+        "credit": "Billy Palatino / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt.Batulao.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/111-mount-batulao-3.webp",
+        "alt": "バトゥラオ山",
+        "credit": "Dionisia.besas / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Batulao.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      { "text": "標高約" },
+      { "type": "distance", "text": "811m" },
+      {
+        "text": "のバトゥラオ山は、ぎざぎざの12の峰が草原の稜線でつながる、バタンガスを代表する日帰り登山地です。タガイタイから近く、二つのトレイルをつなげて歩くトラバースが人気で、初心者から経験者まで幅広く訪れます。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "バトゥラオ山は、バタンガス州ナスグブにそびえる標高約" },
+            { "type": "distance", "text": "811m" },
+            {
+              "text": "の山で、タガイタイ高原からナスグブの海岸へ下る途中に位置します。かつての火山活動で生まれた山が長い年月をかけて削られ、尖った岩峰がいくつも連なる姿になり、遠くから見ると恐竜の背骨のようにでこぼこしたシルエットが目を引きます。名前はタガログ語の「バト(岩)」と「イラウ(光)」に由来するという説が伝わっています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "山の大部分が背の高い草に覆われた草原の稜線のため、歩いている間ずっと視界が開けています。稜線に上がると、片側にはタガイタイ高原とタール湖の方向、反対側にはナスグブの平野とバラヤン湾、晴れた日にはピコ・デ・ロロ山までも見渡せます。乾季には草が黄金色に、雨季の後には濃い緑色に変わり、同じ山が季節ごとに違う表情を見せてくれます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "登山道は、なだらかな峰を順に越える「ニュートレイル」と、山頂付近にロープを使って上り下りする急斜面区間がある「オールドトレイル」の二つに分かれます。最も人気のあるコースはニュートレイルで登って山頂を踏み、オールドトレイルで下るトラバースで、全体で約"
+            },
+            { "type": "distance", "text": "12km" },
+            { "text": "を" },
+            { "type": "duration", "text": "5〜7時間" },
+            { "text": "かけて歩きます。現在はすべての登山者が現地ガイドと共に登る必要があります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "マニラからバス一本で行ける距離のため、初めての登山を計画する人、週末に軽く汗を流したい在住者、稜線の風景写真が好きな旅行者にぴったりです。ただし日陰がほとんどない露出した稜線のため、日中の暑さと日差しを甘く見ると意外にきつい山です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "ニュー・オールドトレイル トラバース",
+              "children": [
+                {
+                  "text": "なだらかなニュートレイルで登り、ロープ区間のあるオールドトレイルで下れば、山の両方の顔を体験できます。同じ道を戻るより、はるかに変化に富んでいます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "峰越えの稜線道",
+              "children": [
+                {
+                  "text": "小さな峰を一つずつ上り下りしながら、番号の付いたキャンプ地点を通り過ぎていく楽しさがあります。振り返るたびに、通ってきた稜線が波のように連なって見えます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "山頂の眺めとハロハロ",
+              "children": [
+                {
+                  "text": "山頂付近の露店でハロハロやブコ(ココナッツ)ジュースを買って休むのが、この山のささやかな楽しみです。四方にバタンガスとカビテの平野が広がります。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "ロープ区間への挑戦",
+              "children": [
+                {
+                  "text": "オールドトレイル側の山頂付近には、傾斜60〜70度に達する岩の斜面をロープを使って上り下りする区間があります。短いながらもスリル満点の、この山のハイライトです。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "早朝登山と日の出",
+              "children": [
+                { "text": "受付所が開く" },
+                { "type": "time", "text": "早朝5時" },
+                { "text": "頃に出発すれば、稜線で日の出の風景を見られ、暑くなる前に山頂に立てます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "稜線でのキャンプ",
+              "children": [
+                {
+                  "text": "指定キャンプサイトでひと晩テントを張れば、夜はタガイタイとナスグブの明かりを、朝には雲海を目にすることができます。キャンプの規定と費用は受付所で確認してください。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "カレルエガ教会に立ち寄る",
+              "children": [
+                {
+                  "text": "山のすぐふもとの丘の上にあるカレルエガ教会は、バトゥラオ山を背景に立つこぢんまりとした礼拝堂として知られています。下山後に静かに一休みするのに良い場所です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "日帰りトラバース",
+              "subtitle": "ニュートレイル → 山頂 → オールドトレイル",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "02:00", "children": [{ "text": "マニラのブエンディアまたはPITXからナスグブ行きバスに乗車" }] },
+                    {
+                      "time": "05:00",
+                      "children": [{ "text": "KCヒルクレスト(旧エバークレスト)入口で下車、トライシクルでジャンプオフへ移動" }]
+                    },
+                    { "time": "05:30", "children": [{ "text": "受付とガイド割り当て、ニュートレイルで登山開始" }] },
+                    { "time": "07:30", "children": [{ "text": "稜線の峰を越えながらキャンプ地点で休憩、日の出後の景色を鑑賞" }] },
+                    { "time": "09:00", "children": [{ "text": "山頂到着、露店でハロハロ・ブコジュースと軽食" }] },
+                    { "time": "09:30", "children": [{ "text": "オールドトレイルで下山、ロープ区間を通過" }] },
+                    { "time": "11:30", "children": [{ "text": "下山完了、シャワー・着替え" }] },
+                    {
+                      "time": "12:30",
+                      "children": [{ "text": "タガイタイへ移動してブラロの昼食、またはカレルエガ教会に立ち寄る" }]
+                    },
+                    { "time": "15:00", "children": [{ "text": "マニラ行きバス・車で出発" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "体力と混雑状況によって、登山時間は" },
+                    { "type": "duration", "text": "4〜8時間" },
+                    {
+                      "text": "と大きく差が出ます。初心者はニュートレイルで山頂まで行き、同じ道を下る往復コースでも十分です。週末はロープ区間で列に並んで待つことが多いので、余裕を持って計画してください。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "バス",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "パサイのLRT線ギル・プヤット(ブエンディア)駅近くのターミナルやPITXからDLTBなどのナスグブ行きバスに乗ります。早朝から頻繁に運行しており約"
+                        },
+                        { "type": "duration", "text": "2時間30分〜3時間30分" },
+                        { "text": "、運賃は片道約" },
+                        { "type": "price", "text": "₱170〜220" },
+                        { "text": "です。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "タガイタイを過ぎナスグブ方面へ下る途中、「KCヒルクレスト」または旧名「エバークレスト」ゴルフ場入口で降ろしてほしいと運転手に事前に伝えておいてください。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "トライシクル",
+              "icon": "electric_rickshaw",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "ゴルフ場入口からジャンプオフ(受付所)までトライシクルで" },
+                    { "type": "duration", "text": "10〜15分" },
+                    { "text": "、1人約" },
+                    { "type": "price", "text": "₱40〜60" },
+                    {
+                      "text": "です。オールドトレイルで下山すると到着地点が異なるため、受付所で帰りのトライシクルをあらかじめ約束しておくと便利です。下山後は道路沿いでナスグブ・マニラ行きバスを再び捕まえます。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自家用車・貸切バン",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "マニラからCAVITEXまたはSLEXを経てタガイタイへ上がり、タガイタイ〜ナスグブ道路に沿って下ります。約" },
+                    { "type": "distance", "text": "90〜100km" },
+                    { "text": "、早朝なら" },
+                    { "type": "duration", "text": "2〜2.5時間" },
+                    { "text": "かかり、ジャンプオフ付近の民間駐車場は約" },
+                    { "type": "price", "text": "₱50〜100" },
+                    { "text": "です。山岳会単位なら12人乗りの貸切バンを1日約" },
+                    { "type": "price", "text": "₱5,000〜8,000" },
+                    { "text": "で借りることが多いです。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "最も良い時期は乾季の" },
+            { "type": "date", "text": "11月〜4月" },
+            { "text": "です。特に" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は朝の気温が" },
+            { "type": "temperature", "text": "20℃" },
+            { "text": "前後と涼しく風もあり、稜線登山が快適です。" },
+            { "type": "date", "text": "3月〜5月" },
+            {
+              "text": "は草が黄色く乾き、日差しが非常に強いため、日中の露出した稜線での体力消耗が大きくなります。この時期は早朝に出発し、午前中に下山を終えるのが良いでしょう。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜10月" },
+            {
+              "text": "の雨季には土の道がぬかるみに変わり、特にオールドトレイルの急斜面とロープ区間が非常に滑りやすくなります。その代わり草原が濃い緑によみがえり、写真は美しくなります。雨季に登るならニュートレイルの往復を選び、午後の雷雨が多いので早めの時間に下山してください。台風や大雨警報が出ると登山は中止になります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "週末と祝日、特に乾季の週末は登山者が集中し、ロープ区間と狭い稜線で渋滞が起こります。静かな登山を望むなら平日を選んでください。聖週間(復活祭前の週)と年末年始の連休は運営方針が変わることがあるので、最新情報を確認してください。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "受付・通行料(トラバース)", "price": "1人約₱200", "note": "受付所と中間の検問所で分けて支払う、最新情報を確認" },
+            { "label": "ガイド料", "price": "グループごと約₱800", "note": "日帰りトラバース、約5人まで" },
+            { "label": "マニラ〜ナスグブ方面 バス", "price": "片道約₱170〜220", "note": "KCヒルクレスト入口下車" },
+            { "label": "トライシクル", "price": "1人約₱40〜60", "note": "ゴルフ場入口〜ジャンプオフ" },
+            { "label": "駐車料金", "price": "約₱50〜100", "note": "自家用車利用時" },
+            { "label": "シャワー", "price": "約₱30〜50", "note": "下山地点" },
+            { "label": "山頂の露店の軽食", "price": "約₱50〜150", "note": "ハロハロ・ブコジュース" },
+            { "label": "キャンプ(1泊)", "price": "1人約₱30〜100", "note": "テントレンタル・夜間ガイド料別" },
+            { "label": "昼食", "price": "1人約₱200〜500", "note": "タガイタイ・道路沿いの食堂" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ほとんどの人は日帰りですが、早朝バスが負担なら前日にタガイタイに泊まる方法が最も便利です。タガイタイの稜線道路周辺には格安ゲストハウスからホテルまで幅広くあり、1泊約"
+            },
+            { "type": "price", "text": "₱1,500〜5,000" },
+            { "text": "程度で、ジャンプオフまで車で" },
+            { "type": "duration", "text": "30〜40分" },
+            { "text": "の距離です。山でひと晩過ごしたいなら指定キャンプサイトでテントキャンプができ、テントをレンタルすれば1泊約" },
+            { "type": "price", "text": "₱350" },
+            { "text": "程度です。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "山道の途中と山頂付近には住民が営む小さな露店があり、水、炭酸飲料、ハロハロ、ブコ、簡単なお菓子を売っています。ただし露店が閉まっている日もあるので、水と行動食は必ず持参してください。下山後はタガイタイに上がり、温かい牛骨スープのブラロ、タガイタイ名物のブコパイ、タール湖の淡水魚タウィリスを味わうのが定番コースです。ナスグブ方面へ下るなら、海岸の食堂の焼き魚や海鮮も良いでしょう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "ガイド同伴が義務です。週末はガイドが不足することがあるので、受付所や現地ガイドの連絡先へ事前に予約しておいてください。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "水は1人あたり最低" },
+                { "type": "distance", "text": "2L" },
+                { "text": "以上を用意してください。露店があっても値段が高く、乾季の日中は水がすぐになくなります。" }
+              ]
+            },
+            { "children": [{ "text": "稜線には日陰がほとんどないため、つば広の帽子、日焼け止め、アームカバー、サングラスを持参してください。" }] },
+            { "children": [{ "text": "オールドトレイルのロープ区間では手袋が大いに役立ちます。手のひらをすりむかず、ロープをしっかり握れます。" }] },
+            {
+              "children": [
+                { "text": "グリップの良いトレッキングシューズを履いてください。土ぼこりの多い乾季の下りは砂のように滑ります。トレッキングポールも膝の保護に有効です。" }
+              ]
+            },
+            { "children": [{ "text": "受付料・ガイド料・露店はすべて現金のみなので、小銭を多めに用意してください。" }] },
+            { "children": [{ "text": "下山後に着替える服とタオルを持参すれば、シャワー後にバスへ楽に乗れます。" }] },
+            { "children": [{ "text": "ゴミはすべて持ち帰ってください。露店で買った飲み物の瓶や包装紙も同様です。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "オールドトレイルのロープ区間は傾斜が非常に急です。一度に一人ずつガイドの案内に従って通過し、雨の後や体力が落ちたときはニュートレイルへ引き返してください。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "稜線は日差しに直接さらされるため熱中症のリスクが高いです。めまいや頭痛が出たらすぐに休み、水分と電解質を補給してください。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "午後の雷雨のとき、開けた稜線は落雷に弱いです。雷鳴が聞こえたら峰から下り、姿勢を低くしてガイドの判断に従ってください。" }
+              ]
+            },
+            { "children": [{ "text": "乾季の草原は火がつきやすいです。山での喫煙と焚き火は絶対にしないでください。" }] },
+            { "children": [{ "text": "稜線の脇は急な斜面です。写真を撮ろうと道の端に出ないでください。風の強い日は特に注意が必要です。" }] },
+            {
+              "children": [
+                { "text": "受付料・ガイド規定・運営状況は頻繁に変わります。出発前にナスグブ観光局や現地ガイドを通じて最新情報を確認してください。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "カレルエガ教会",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "10〜15分" },
+                { "text": "。バトゥラオ山を背景に丘の上に立つこぢんまりとした礼拝堂と庭園のある黙想の家です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "タガイタイ・タール火山",
+              "place": "tagaytay",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "30〜40分" },
+                { "text": "。涼しい高原の展望台からタール湖と火山島を見下ろしながらブラロを食べるのに良い場所です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ピコ・デ・ロロ山",
+              "place": "mount-pico-de-loro",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間〜1時間30分" },
+                { "text": "。オウムのくちばし岩と海の眺めがあるカビテ最高峰で、二座目の登山にぴったりです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "フォーチュン島",
+              "place": "fortune-island",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "のナスグブの船着き場から船で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "。ギリシャ風の柱が立つ断崖の島です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

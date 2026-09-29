@@ -1,0 +1,617 @@
+{
+  "id": 144,
+  "slug": "atok",
+  "title": { "type": "title", "text": "아톡" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Atok" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "구름 위 꽃밭과 채소밭이 펼쳐진 벵겟 고원 마을" },
+  "island_group": { "type": "badge", "label": "권역", "value": "luzon", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "value": "cordillera", "text": "코르딜레라" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "벵겟주 아톡" },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "landscape",
+    "value": "nature",
+    "text": "자연 경관"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["꽃 농장", "할세마 하이웨이", "벚꽃", "고원 채소밭", "팀박 산"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 16.6272 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 120.7672 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "12월~3월 (꽃과 벚꽃, 서늘한 건기)",
+    "months": [12, 1, 2, 3]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "당일~1박 2일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱1,000~2,500 (바기오 기점 1일)",
+    "currency": "PHP",
+    "min": 1000,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "클라크 국제공항(CRK)",
+    "code": "CRK"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/144-atok.webp",
+    "alt": "아톡",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Atok_Vegetable_Farm,_Sayangan_(Halsema_Highway,_Atok,_Benguet;_12-03-2022).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/144-atok-2.webp",
+        "alt": "아톡",
+        "credit": "EyeTrick / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2025-01-04_-_Agricultural_terraces_in_Atok,_Benguet_02.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/144-atok-3.webp",
+        "alt": "아톡",
+        "credit": "Anne Zanne / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Northern_Blossom_05.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "바기오에서 할세마 하이웨이를 따라 북쪽으로 두 시간 남짓 올라가면 나오는 벵겟의 고원 마을입니다. 해발 2,000m가 넘는 산비탈에 채소밭과 꽃 농장이 층층이 펼쳐지고, 겨울에는 서리와 벚꽃, 운해가 여행자를 맞이합니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "아톡은 벵겟주 한가운데, 바기오에서 약 " },
+            { "type": "distance", "text": "50km" },
+            { "text": " 떨어진 산악 마을입니다. 마을 전체가 해발 약 " },
+            { "type": "distance", "text": "1,000~2,700m" },
+            {
+              "text": "의 가파른 산지에 걸쳐 있고, 바기오와 본톡을 잇는 할세마 하이웨이가 마을 능선을 따라 지나갑니다. 칸카나에이족과 이발로이족이 오래 살아온 땅으로, 지금은 배추·감자·당근 같은 고랭지 채소와 카네이션 재배로 이름난 필리핀의 대표적인 '채소 바구니'입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "아톡에는 한때 필리핀 국도에서 가장 높은 지점이던 할세마 하이웨이 최고 지점(해발 약 " },
+            { "type": "distance", "text": "2,255m" },
+            { "text": ")이 있습니다. " },
+            { "type": "date", "text": "2019년" },
+            {
+              "text": " 이푸가오주 티녹의 도로가 더 높은 곳으로 확인되기 전까지 오랫동안 '필리핀에서 가장 높은 도로'로 불렸습니다. 이 일대에서 루손에서 세 번째로 높은 팀박 산(해발 약 "
+            },
+            { "type": "distance", "text": "2,717m" },
+            { "text": ")으로 오르는 길도 시작됩니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "아톡은 필리핀에서 가장 추운 곳 가운데 하나입니다. " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": " 새벽에는 기온이 " },
+            { "type": "temperature", "text": "5~9℃" },
+            {
+              "text": " 안팎까지 떨어지고, 추운 해에는 채소밭에 서리가 내려 뉴스에 오르기도 합니다. 농민에게는 걱정거리지만 여행자에게는 열대 나라에서 보기 드문 풍경이라 이 시기에 찾는 사람이 많습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "최근에는 꽃 농장 노던 블로섬과 벚꽃 공원이 알려지면서 바기오에서 당일로 다녀오는 '고원 드라이브' 여행지로 인기가 높아졌습니다. 거창한 관광 시설은 없지만, 구름 위 산비탈에 펼쳐진 밭과 꽃, 선선한 공기가 주는 이국적인 분위기가 매력입니다. 바기오 여행에 하루를 더하고 싶은 여행자, 사진을 좋아하는 커플과 가족에게 잘 맞습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "노던 블로섬 꽃 농장",
+              "children": [
+                {
+                  "text": "사양안 마을 산비탈의 약 2헥타르 꽃 농장으로, 장미 모양으로 자라는 관상용 양배추 '로즈 캐비지'와 해바라기, 금어초, 수국 같은 온대 꽃이 가득합니다. 맑은 날에는 꽃밭 너머로 팀박 산과 운해가 펼쳐집니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "아톡 벚꽃 공원",
+              "children": [
+                { "type": "date", "text": "2016년" },
+                { "text": " 일본 벚나무를 심어 만든 공원으로, 해마다 " },
+                { "type": "date", "text": "1월 말~3월" },
+                { "text": " 무렵 분홍색과 흰색 벚꽃이 핍니다. 개화 시기는 해마다 달라지므로 현지 소식을 확인하고 가십시오." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "할세마 하이웨이 최고 지점",
+              "children": [
+                {
+                  "text": "해발 7,400피트(약 2,255m)를 알리는 표지석과 전망대가 있는 곳입니다. 기념사진을 찍고 매점에서 따뜻한 벵겟 커피 한 잔을 마시며 쉬어 가기 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "층층이 쌓인 고랭지 채소밭",
+              "children": [
+                {
+                  "text": "산 정상 가까이까지 계단처럼 깎아 만든 채소밭은 아톡의 가장 흔하면서도 인상적인 풍경입니다. 할세마 하이웨이 길가 어디서든 차를 세우면 초록과 갈색이 교차하는 밭과 비닐하우스가 내려다보입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "팀박 산 가벼운 산행",
+              "children": [
+                { "text": "루손 3대 고봉 가운데 하나지만 할세마 하이웨이 쪽 입구에서 오르면 약 " },
+                { "type": "duration", "text": "1시간 30분~2시간" },
+                { "text": "이면 정상에 닿습니다. 반대편 비탈에는 카바얀의 팀박 미라 동굴이 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "새벽 운해와 서리 구경",
+              "children": [
+                { "text": "겨울철 새벽에는 골짜기를 채운 운해가 흔히 나타나고, 추운 날에는 밭에 하얀 서리가 앉습니다. " },
+                { "type": "time", "text": "아침 6~8시" },
+                { "text": " 사이가 가장 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "길가 채소·꽃 시장",
+              "children": [
+                {
+                  "text": "사양안 공설시장과 길가 노점에서는 막 수확한 채소와 딸기, 꽃다발을 바기오보다 싸게 살 수 있습니다. 돌아가는 길에 들러 장을 보는 것도 즐거움입니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "당일 코스",
+              "subtitle": "바기오 출발 고원 드라이브",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "05:00", "children": [{ "text": "바기오에서 차량 대절 또는 북쪽행 버스로 출발" }] },
+                    {
+                      "time": "06:30~08:30",
+                      "children": [{ "text": "노던 블로섬 꽃 농장에서 일출과 운해, 꽃밭 산책 (입장권 이용 시간 확인)" }]
+                    },
+                    { "time": "09:00", "children": [{ "text": "벚꽃 공원 방문 (개화 시기일 때), 커피와 빵으로 아침" }] },
+                    { "time": "10:00", "children": [{ "text": "할세마 하이웨이 최고 지점 표지석과 전망대" }] },
+                    { "time": "11:00", "children": [{ "text": "길가 채소밭 전망 지점에서 사진 촬영" }] },
+                    { "time": "12:00", "children": [{ "text": "사양안 부근 식당에서 점심, 시장에서 채소와 꽃 구입" }] },
+                    { "time": "14:00", "children": [{ "text": "바기오로 출발, 오후 늦게 도착" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1박 2일 코스",
+              "subtitle": "팀박 산 일출 산행 추가",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "1일차 오전", "children": [{ "text": "바기오 출발, 할세마 하이웨이 최고 지점과 채소밭 전망" }] },
+                    {
+                      "time": "1일차 오후",
+                      "children": [{ "text": "벚꽃 공원과 시장 구경 후 아톡 또는 부기아스 방면 민박 체크인" }]
+                    },
+                    { "time": "2일차 03:30", "children": [{ "text": "팀박 산 입구 출발, 정상에서 일출과 운해 감상" }] },
+                    { "time": "2일차 08:00", "children": [{ "text": "노던 블로섬 꽃 농장 방문" }] },
+                    { "time": "2일차 오후", "children": [{ "text": "카바얀 미라 동굴로 이어 가거나 바기오로 복귀" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "팀박 산은 등산로 입구에서 방문자 등록을 하고 현지 가이드를 쓰는 것이 원칙입니다. 새벽 산행은 매우 추우니 방한복을 꼭 챙기십시오."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "버스 (마닐라–바기오)",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "마닐라 쿠바오·파사이 등에서 빅토리 라이너, 제네시스 등의 바기오행 버스가 수시로 출발합니다. 약 " },
+                        { "type": "duration", "text": "4~6시간" },
+                        { "text": ", 요금은 약 " },
+                        { "type": "price", "text": "₱700~1,000" },
+                        { "text": "입니다. 아톡의 새벽 풍경을 보려면 전날 바기오에 묵는 것이 좋습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스·밴 (바기오–아톡)",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "바기오 당와 터미널이나 슬로터하우스 터미널 부근에서 사가다·본톡·부기아스 방면 버스나 아톡행 밴을 타면 할세마 하이웨이를 따라 아톡을 지납니다. 약 "
+                        },
+                        { "type": "duration", "text": "1시간 30분~2시간 30분" },
+                        { "text": ", 요금은 약 " },
+                        { "type": "price", "text": "₱100~200" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "기사에게 '노던 블로섬'이나 '사양안', '하이스트 포인트' 등 내릴 곳을 미리 말해 두십시오. 돌아올 때는 길가에서 바기오행 차를 세워 타는데, 오후 늦게는 차가 드물어집니다."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "차량 대절·투어",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "여러 곳을 새벽에 돌려면 바기오에서 기사 포함 차량이나 택시를 대절하는 것이 편합니다. 왕복 약 " },
+                        { "type": "price", "text": "₱3,000~4,500" },
+                        { "text": "(차량 1대, 4~5명) 선이며, 바기오 여행사들의 아톡 당일 투어도 있습니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "할세마 하이웨이는 굽은 산길과 낭떠러지가 이어지고 안개가 잦은 도로입니다. 직접 운전한다면 낮 시간에 천천히 달리십시오."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "가까운 국제공항은 클라크 국제공항(CRK)으로, 바기오까지 버스로 약 " },
+                        { "type": "duration", "text": "3~4시간" },
+                        { "text": " 간 뒤 아톡행 차편으로 갈아탑니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "아톡 여행의 제철은 " },
+            { "type": "date", "text": "12월~3월" },
+            { "text": "입니다. 이 시기는 비가 적고 하늘이 맑아 운해와 일출을 보기 좋으며, 꽃 농장도 " },
+            { "type": "date", "text": "2월~3월" },
+            { "text": "에 가장 화려합니다. 벚꽃은 대체로 " },
+            { "type": "date", "text": "1월 말~2월" },
+            { "text": "에 절정을 이루지만 해마다 차이가 큽니다. 대신 새벽 기온이 " },
+            { "type": "temperature", "text": "5~10℃" },
+            { "text": "까지 내려가므로 패딩이나 두꺼운 겉옷이 필요합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "4월~5월" },
+            { "text": "은 한낮에도 " },
+            { "type": "temperature", "text": "20℃" },
+            { "text": " 안팎으로 쾌적하지만 운해를 볼 확률은 줄어듭니다. " },
+            { "type": "date", "text": "6월~10월" },
+            {
+              "text": " 우기에는 짙은 안개와 비가 잦고, 태풍이 오면 할세마 하이웨이 곳곳에서 산사태와 낙석으로 통행이 막히기도 합니다. 우기에 간다면 오전에 일정을 끝내고 오후에는 서둘러 내려오십시오."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라–바기오 버스", "price": "편도 약 ₱700~1,000", "note": "등급에 따라 다름" },
+            { "label": "바기오–아톡 버스·밴", "price": "편도 약 ₱100~200", "note": "사가다·부기아스 방면" },
+            { "label": "차량·택시 대절", "price": "왕복 약 ₱3,000~4,500", "note": "1대 기준, 4~5명" },
+            { "label": "노던 블로섬 입장료", "price": "1인 약 ₱200~300", "note": "커피·빵 포함, 이용 시간 제한" },
+            { "label": "환경세", "price": "1인 약 ₱50", "note": "변동 가능, 최신 공지 확인" },
+            { "label": "벚꽃 공원", "price": "무료~소액", "note": "개화기 운영 방식 확인" },
+            { "label": "팀박 산 등록·가이드", "price": "약 ₱300~1,000", "note": "인원·코스에 따라 다름" },
+            { "label": "식사", "price": "1끼 약 ₱120~300", "note": "길가 식당 기준" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "아톡에는 번듯한 호텔이 거의 없어 대부분 바기오에 묵으며 당일로 다녀옵니다. 바기오에는 1박 약 " },
+            { "type": "price", "text": "₱1,500~5,000" },
+            {
+              "text": "의 숙소가 많습니다. 팀박 산 일출이나 새벽 운해를 보고 싶다면 아톡·부기아스 방면 할세마 하이웨이 길가의 민박이나 산장, 캠핑장을 이용할 수 있으며, 1인 약 "
+            },
+            { "type": "price", "text": "₱500~1,500" },
+            { "text": " 선입니다. 난방이 없는 곳이 많으니 따뜻한 옷을 챙기십시오." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "먹거리는 고원 마을답게 채소가 주인공입니다. 길가 식당에서는 막 딴 배추와 브로콜리, 감자로 만든 볶음과 국, 소금에 절여 훈제한 돼지고기 에토그(etag)를 넣은 코르딜레라식 국물 요리를 맛볼 수 있습니다. 추운 아침에는 벵겟산 아라비카 커피와 따뜻한 수프 한 그릇이 제격이고, 딸기철(12월~4월 무렵)에는 길가에서 파는 딸기와 딸기 타호도 즐겨 볼 만합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "꽃 농장과 운해는 이른 아침이 가장 좋습니다. 바기오에서 " },
+                { "type": "time", "text": "새벽 5시" },
+                { "text": " 무렵 출발하면 햇빛과 안개가 어우러진 풍경을 볼 수 있습니다." }
+              ]
+            },
+            { "children": [{ "text": "12월~2월 새벽에는 영상 한 자릿수까지 떨어집니다. 패딩, 모자, 장갑을 챙기고 겹쳐 입으십시오." }] },
+            {
+              "children": [{ "text": "노던 블로섬 입장권은 이용 시간이 정해져 있는 경우가 많습니다. 촬영 계획을 미리 세우고 들어가십시오." }]
+            },
+            { "children": [{ "text": "꽃밭과 채소밭은 농민의 생계 터전입니다. 정해진 길로만 다니고 꽃을 꺾거나 밭에 들어가지 마십시오." }] },
+            {
+              "children": [
+                { "text": "벚꽃 개화 시기와 공원 운영 방식은 해마다 바뀝니다. 출발 전 아톡 관광 안내나 최신 공지를 확인하십시오." }
+              ]
+            },
+            { "children": [{ "text": "굽은 산길이 계속되니 멀미약을 준비하고, 빈속으로 출발하지 마십시오." }] },
+            { "children": [{ "text": "길가에는 ATM이 드뭅니다. 입장료와 교통비, 장보기용 현금을 바기오에서 준비하십시오." }] },
+            {
+              "children": [
+                { "text": "카바얀 미라 동굴, 사가다와 동선이 이어집니다. 코르딜레라 일주를 계획한다면 아톡을 중간 경유지로 넣어 보십시오." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "할세마 하이웨이는 안개가 짙고 낭떠러지가 많은 산악 도로입니다. 우기와 태풍 뒤에는 산사태로 길이 막히는 일이 잦으니 출발 전 도로 상황을 확인하고, 사진을 찍으려고 도로 가장자리에 서지 마십시오."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "해발 2,000m가 넘어 갑자기 추워지거나 비가 올 수 있습니다. 방수 겉옷을 챙기십시오." }] },
+            { "children": [{ "text": "갓길에 함부로 주차하면 채소 운반 트럭 통행을 막아 위험합니다. 전망대나 지정된 곳에 세우십시오." }] },
+            { "children": [{ "text": "밭에는 농약을 뿌리는 경우가 있습니다. 밭 작물을 따 먹거나 만지지 마십시오." }] },
+            { "children": [{ "text": "팀박 산 새벽 산행은 반드시 가이드와 함께 하고, 헤드램프와 보온 장비를 준비하십시오." }] },
+            { "children": [{ "text": "입장료·환경세는 자주 바뀝니다. 최신 공지를 확인하고 영수증을 받으십시오." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "바기오",
+              "place": "baguio",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1시간 30분~2시간 30분" },
+                { "text": ", 소나무 숲과 야시장, 딸기 농장으로 유명한 필리핀의 여름 수도입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "카바얀 미라 동굴",
+              "place": "kabayan",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1~2시간" },
+                { "text": ", 이발로이족의 '불의 미라'가 잠든 매장 동굴과 박물관이 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "사가다",
+              "place": "sagada",
+              "children": [
+                { "text": "할세마 하이웨이를 따라 북쪽으로 약 " },
+                { "type": "duration", "text": "4~5시간" },
+                { "text": ", 걸린 관과 동굴, 운해 전망대의 산악 마을입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "풀라그 산",
+              "place": "mount-pulag",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "2~3시간" },
+                { "text": " 거리의 루손 최고봉으로, 운해와 은하수를 보는 새벽 산행이 유명합니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "id": 157,
+  "slug": "culion",
+  "title": { "type": "title", "text": "库利昂岛" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Culion Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "镌刻着汉森病患者泪水与希望的记忆之岛" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "luzon", "text": "吕宋" },
+  "region": { "type": "badge", "label": "地区", "value": "palawan", "text": "巴拉望" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "巴拉望省库利昂" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "历史·文化"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["汉森病历史", "世界记忆遗产", "要塞教堂", "观景山丘", "浮潜"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 11.8894 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 120.0181 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "11月~5月（旱季）",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "当天往返~1晚2天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱2,000~4,000（按每日计算）",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "中等",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "布桑加机场 (USU)",
+    "code": "USU"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/157-culion.webp",
+    "alt": "库利昂岛",
+    "credit": "Marsmux / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Municipality_of_Culion_outlook_from_local_hillside.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/157-culion-2.webp",
+        "alt": "库利昂岛",
+        "credit": "anne jimenez / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:La_Imaculada_Concepcion_Church_in_Culion,_Palawan.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/157-culion-3.webp",
+        "alt": "库利昂岛",
+        "credit": "anne jimenez / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Culion_fishing_village.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "这座位于科隆南方的宁静岛屿，曾是20世纪初全球规模最大的汉森病疗养院所在地。走过列入联合国教科文组织世界记忆遗产的博物馆、珊瑚石要塞上的教堂，以及由患者亲手垒石刻成鹰徽的山丘，可以重新体会隔离与疗愈交织的历史。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "库利昂是卡拉棉群岛中位于布桑加岛南侧的一座岛屿，也是与之同名的自治市。本岛连同周边41座岛屿，总面积约500平方公里，人口约2.4万人。从科隆镇乘船一小时出头即可抵达，但与挤满跳岛游人潮的科隆不同，这里延续着山丘教堂、小港湾与彩色房屋交织而成的宁静村落风光。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "这座岛屿的历史，始于" },
+            { "type": "date", "text": "1906年5月27日" },
+            {
+              "text": "约370名汉森病患者从宿务乘船抵达的那一刻。美国殖民政府将全菲律宾的患者集中隔离于此，库利昂一度成为世界上规模最大的汉森病疗养院。患者们被迫与家人分离，送往这座\"有去无回的岛屿\"，因担心传染，岛上甚至发行了专属流通货币。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "然而库利昂并非只是一座绝望之岛。这里进行过大风子油疗法的研究与药物治疗的开发，患者们还自行组建学校、教堂和乐团，建立起自己的社区。1980年代随着联合化学疗法的推广，治疗宣告终结；"
+            },
+            { "type": "date", "text": "1992年" },
+            { "text": "脱离卫生部管辖，成为普通自治市；" },
+            { "type": "date", "text": "2006年" },
+            { "text": "获世界卫生组织认证为汉森病消除地区。" },
+            { "type": "date", "text": "2018年" },
+            { "text": "，库利昂汉森病档案被列入联合国教科文组织亚太地区世界记忆遗产名录。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "如今岛上不少居民都是昔日患者与工作人员的后代。这里没有华丽的观光景点，更适合一步步走进村落、聆听故事的旅行方式，很适合对历史感兴趣的旅行者、想在科隆行程中多加一天体验不同经历的人，以及想在宁静小岛上休憩的人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "库利昂博物馆与档案馆",
+              "children": [
+                { "text": "设在库利昂疗养综合医院旧研究楼内的博物馆，展出患者记录、照片、医疗器具、专属流通货币，以及大风子油疗法的相关资料，是库利昂之旅的起点。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "圣母始胎无原罪教堂",
+              "children": [{ "text": "俯瞰港口的山丘教堂，墙体用取自旧要塞的珊瑚石砌成，黑褐斑驳的石墙与洁白装饰形成鲜明对比，令人印象深刻。" }]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "库利昂要塞",
+              "children": [
+                { "type": "date", "text": "1740年" },
+                { "text": "由奥斯定隐修会为抵御海盗而修建的珊瑚石要塞，教堂旁仍保留着部分城墙与大炮，站在城墙上眺望的海景十分怡人。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "阿吉拉山观景",
+              "children": [
+                { "type": "date", "text": "1926年" },
+                { "text": "患者们垒起白石、拼出菲律宾卫生局鹰徽图案的山丘。登上约330级台阶，村落、港口乃至远处的科隆岛都能尽收眼底。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "漫步旧疗养院村落",
+              "children": [
+                { "text": "曾经分为患者居住区与职员行政区的村落格局，如今仍保留着旧市政厅、监狱与医院建筑。与当地向导同行，可以听到每栋建筑背后的故事。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "克劳宁格洛里礁浮潜",
+              "children": [{ "text": "位于村落外海的海洋保护区，水质清澈，珊瑚与热带鱼十分丰富。包租螃蟹船还可搭配周边无人岛海滩，安排半日跳岛游。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "玛雅酒店的日落",
+              "children": [{ "text": "位于教堂旁悬崖上、由学校经营的酒店，即使不住宿，也可以在餐厅露台边欣赏港湾对面的落日边用餐。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "当日往返",
+              "subtitle": "从科隆出发",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "从科隆港乘快艇出发前往库利昂" }] },
+                    { "time": "07:00", "children": [{ "text": "抵达库利昂港，在村里的餐厅吃早餐" }] },
+                    { "time": "08:30", "children": [{ "text": "参观库利昂博物馆与档案馆" }] },
+                    { "time": "10:30", "children": [{ "text": "漫步教堂、库利昂要塞与旧疗养院村落" }] },
+                    { "time": "12:00", "children": [{ "text": "在玛雅酒店享用午餐" }] },
+                    { "time": "13:30", "children": [{ "text": "登上阿吉拉山台阶，俯瞰村落全景" }] },
+                    { "time": "下午", "children": [{ "text": "乘快艇返回科隆（请提前确认时刻表）" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1晚2天",
+              "subtitle": "历史与海洋",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "第1天上午", "children": [{ "text": "从科隆乘船前往，入住" }] },
+                    { "time": "第1天下午", "children": [{ "text": "漫步博物馆、教堂、要塞与旧村落" }] },
+                    { "time": "第1天傍晚", "children": [{ "text": "在要塞城墙欣赏日落，在玛雅酒店享用晚餐" }] },
+                    { "time": "第2天06:00", "children": [{ "text": "趁清晨凉爽登上阿吉拉山" }] },
+                    { "time": "第2天上午", "children": [{ "text": "乘螃蟹船前往克劳宁格洛里礁浮潜，游览周边岛屿" }] },
+                    { "time": "第2天下午", "children": [{ "text": "乘船返回科隆" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飞机",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "马尼拉、克拉克、宿务都有直飞布桑加机场（USU）的航班，从马尼拉约需" },
+                        { "type": "duration", "text": "1小时" },
+                        { "text": "，单程约" },
+                        { "type": "price", "text": "₱2,500~6,000" },
+                        { "text": "。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "从机场乘共乘小巴前往科隆镇约需" },
+                        { "type": "duration", "text": "40分钟" },
+                        { "text": "，每人约" },
+                        { "type": "price", "text": "₱150~250" },
+                        { "text": "，再从科隆港转乘开往库利昂的船。若想搭乘首班船，建议先在科隆住一晚。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "Montenegro Lines的快艇每天在科隆港与库利昂之间往返约两班，约需" },
+                        { "type": "duration", "text": "45分钟~1小时" },
+                        { "text": "，单程约" },
+                        { "type": "price", "text": "₱420" },
+                        { "text": "，另需缴纳码头使用费。从科隆出发通常安排在清晨和正午前后。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "大型螃蟹客船约于" },
+                        { "type": "time", "text": "下午1点" },
+                        { "text": "从科隆出发，需" },
+                        { "type": "duration", "text": "1小时30分钟~2小时" },
+                        { "text": "，票价约" },
+                        { "type": "price", "text": "₱200" },
+                        { "text": "左右。从库利昂返回科隆则安排在次日清晨，适合安排1晚的行程。" }
+                      ]
+                    },
+                    { "children": [{ "text": "船班时间和票价常因船公司安排和天气而变动，出发前一天应到科隆港售票处确认最新时刻表。" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "跟团游",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "科隆旅行社推出的库利昂历史团，含往返船票、向导和午餐，每人约" },
+                        { "type": "price", "text": "₱1,500~3,000" },
+                        { "text": "。若结伴出行，也可包租一艘私人螃蟹船，约" },
+                        { "type": "price", "text": "₱3,000~6,000" },
+                        { "text": "，可按自己的时间往返。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "当地交通",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "港口、教堂、博物馆和玛雅酒店之间步行都在" },
+                        { "type": "duration", "text": "10~15分钟" },
+                        { "text": "以内。天气炎热时可乘三轮摩托车（每次约" },
+                        { "type": "price", "text": "₱20~50" },
+                        { "text": "）。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "从" },
+            { "text": "11月", "type": "date" },
+            { "text": "到" },
+            { "text": "5月", "type": "date" },
+            { "text": "是旱季，船班运行稳定，阿吉拉山的视野也更为清朗。尤其" },
+            { "text": "3~5月", "type": "date" },
+            { "text": "海面最平静，最适合浮潜，但正午气温较高，登台阶建议安排在清晨或傍晚。" },
+            { "text": "12~2月", "type": "date" },
+            { "text": "受东北风影响，科隆与库利昂之间的海域有时会掀起风浪，此时搭乘快艇比小型螃蟹船更为稳妥。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "从" },
+            { "text": "6月", "type": "date" },
+            { "text": "到" },
+            { "text": "10月", "type": "date" },
+            {
+              "text": "受西南季风影响，降雨频繁，一旦有台风消息，海岸警卫队便会禁止出航，可能让旅客滞留岛上。这段时期建议在科隆行程中预留备用日，库利昂则选在天气晴好的日子当天往返较为安全。首批患者抵达的"
+            },
+            { "text": "5月末", "type": "date" },
+            { "text": "，岛上有时会举行纪念这段历史的活动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "马尼拉–布桑加航班", "price": "约₱2,500~6,000", "note": "单程" },
+            { "label": "机场–科隆镇小巴", "price": "约₱150~250", "note": "每人，单程" },
+            { "label": "科隆–库利昂快艇", "price": "约₱420", "note": "单程，另加码头使用费" },
+            { "label": "科隆–库利昂螃蟹客船", "price": "约₱200", "note": "单程，1小时30分钟~2小时" },
+            { "label": "库利昂历史团", "price": "约₱1,500~3,000", "note": "每人，含科隆往返" },
+            { "label": "博物馆门票", "price": "约₱100~150", "note": "每人" },
+            { "label": "浮潜螃蟹船包船", "price": "约₱1,500~3,000", "note": "半天，1艘" },
+            { "label": "住宿", "price": "约₱800~3,500", "note": "1晚，民宿至玛雅酒店" },
+            { "label": "餐食", "price": "约₱500~1,000", "note": "每人每日" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "库利昂的住宿不多。最知名的是位于教堂与要塞旁悬崖上的玛雅酒店，由耶稣会背景的库利昂罗耀拉学院经营，既是学生实习场所，也是奖学金资金来源，每晚约" },
+            { "type": "price", "text": "₱2,000~3,500" },
+            { "text": "，客房可俯瞰港口。港口附近还有几家每晚约" },
+            { "type": "price", "text": "₱800~1,500" },
+            { "text": "的风扇房旅舍和民宿。由于房间数量有限，连休和旺季建议提前联系预订。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "餐厅同样朴素。港口和市场周边的卡林德里亚提供炖鱼、阿多波、酸汤等家常菜，一餐约" },
+            { "type": "price", "text": "₱100~200" },
+            { "text": "，玛雅酒店餐厅则可一边欣赏美景一边品尝新鲜烤鱼和菲律宾料理。外海捕捞的鱿鱼、螃蟹和海藻料理价格实惠又美味。多数店家晚上打烊较早，建议尽早安排晚餐。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "博物馆通常只在工作日开放，午休时段常关闭。若计划周末或公众假期前往，建议提前确认开放情况。" }] },
+            { "children": [{ "text": "与当地向导一同漫步村落，可以更深入地听到建筑与史料背后的故事。可向住宿处或旅游咨询处询问联系方式。" }] },
+            { "children": [{ "text": "岛上ATM要么没有，要么经常故障，请提前在科隆取好足够现金。" }] },
+            { "children": [{ "text": "阿吉拉山台阶陡峭、遮阴较少，请携带饮用水和帽子，并避开日照最强的正午时段。" }] },
+            { "children": [{ "text": "若当天往返，请先确认返程船班时间再安排行程，一旦错过下午的船班，就需要在岛上住一晚。" }] },
+            { "children": [{ "text": "浮潜装备在岛上很难租到，建议在科隆租好或自行携带。" }] },
+            { "children": [{ "text": "村落内手机信号大致良好，但网络较慢，建议提前保存好地图和船班时刻表。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "库利昂已被正式宣布消除汉森病，旅行不存在传染风险。反而是\"汉森病之岛\"这一刻板印象长期伤害着当地居民，言行举止都应保持尊重。" }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "未经许可请勿拍摄居民或医院病患，在医院院内应遵照指示安静行动。" }] },
+            { "children": [{ "text": "要塞城墙与旧建筑较为脆弱，请勿攀爬城墙或取走砖石。" }] },
+            { "children": [{ "text": "海况不佳时乘小型螃蟹船渡海较为危险，请穿好救生衣，若海岸警卫队禁止出航，应延后行程。" }] },
+            { "children": [{ "text": "在海洋保护区内请勿踩踏或触摸珊瑚，建议使用对珊瑚友好的防晒霜。" }] },
+            { "children": [{ "text": "夜间路灯稀少的路段较多，请携带手电筒，并在天黑前从山丘台阶下山。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "科隆",
+              "place": "coron",
+              "children": [
+                { "text": "乘快艇约" },
+                { "type": "duration", "text": "45分钟~1小时" },
+                { "text": "可达，是以卡杨根湖和沉船潜水闻名的卡拉棉群岛中心城市。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "卡拉维特野生动物园",
+              "place": "calauit-safari-park",
+              "children": [
+                { "text": "从科隆镇驱车约" },
+                { "type": "duration", "text": "2~3小时" },
+                { "text": "可达，位于布桑加北部，长颈鹿与斑马自在漫步的野生动物保护区。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "利纳帕坎",
+              "place": "linapacan",
+              "children": [
+                { "text": "散落在库利昂南方海域的群岛，从科隆乘船约" },
+                { "type": "duration", "text": "3~4小时" },
+                { "text": "可达，是水色清澈的无人岛天堂。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "爱妮岛",
+              "place": "el-nido",
+              "children": [
+                { "text": "从科隆乘快艇约" },
+                { "type": "duration", "text": "3小时30分钟~4小时" },
+                { "text": "可达，是石灰岩峭壁与潟湖交织的巴拉望北部代表性度假胜地。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

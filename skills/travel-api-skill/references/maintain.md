@@ -21,11 +21,11 @@
 
 | 항목 | 값 |
 |------|----|
-| 정체 | 필리핀 여행지 100선을 **8개 언어 블록 JSON** 으로 내주는 **정적 API**. 서버 코드·DB 없음 |
+| 정체 | 필리핀 여행지 200선을 **8개 언어 블록 JSON** 으로 내주는 **정적 API**. 서버 코드·DB 없음 |
 | 공개 주소 | `https://thruthesky.github.io/ph-travel-api/v2/manifest.json` |
 | 호스팅 | GitHub Pages (Source: **GitHub Actions**) |
 | 배포 | `main` 에 push → `.github/workflows/deploy.yml` → `node scripts/build.mjs` → Pages. 1~2분 |
-| 원본 | `data/ko/*.json`(원본 언어 한국어) · `data/<en·zh·ja·th·vi·ru·ar>/*.json`(번역본) · `data/meta.json`(언어·분류 목록·속성·단락·표시 방법) · `data/images/*.webp` 사진 293장 |
+| 원본 | `data/ko/*.json`(원본 언어 한국어) · `data/<en·zh·ja·th·vi·ru·ar>/*.json`(번역본) · `data/meta.json`(언어·분류 목록·속성·단락·표시 방법) · `data/images/*.webp` 사진 567장 |
 | 빌드 결과 | `_site/v2/` — `manifest.json` · `meta.json` · `places.<lang>.json` 8개 · `images/`, 그리고 `_site/skills/travel-api-skill.tar.gz` |
 | 저장소 | `github.com/thruthesky/ph-travel-api` (공개) |
 | 상위 프로젝트 | 필고 저장소(`thruthesky/philgo`)의 서브모듈 `submodules/ph-travel-api` |

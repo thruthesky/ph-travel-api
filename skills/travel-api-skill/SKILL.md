@@ -1,14 +1,14 @@
 ---
 name: travel-api-skill
-description: 여행 정보 API(ph-travel-api — 필리핀 여행지 100선, 8개 언어 en·zh·ja·ko·th·vi·ru·ar, 앞으로 다른 나라도 추가) 전용 스킬. JSON 을 받아 SQLite(travel.db)로 바꿔 언어별 전문 검색·인덱스로 여행지를 찾아 추천·일정·비용·가는 방법·가까운 곳을 답하고, 웹사이트(PHP)·Flutter 앱·정적 웹이 원격 API 대신 데이터를 넣어(임베딩) 쓰도록 DB·파일 만들기, 조회 코드(PHP·Dart), 블록 렌더러(tabs·accordion·card·stepper·pricing 등)를 제공하며, ph-travel-api 저장소의 여행지 추가·번역·검사·배포를 돕는다. 다음 경우 반드시 사용 — (1) 필리핀 여행지·여행 정보 질문(보라카이, 세부, 엘니도, 보홀, 12월에 갈 만한 해변, 예산, 일정, 가는 방법 등, 어느 언어든), (2) ph-travel-api·여행 API·places.json·meta.json·travel.db·SQLite 여행 DB 를 쓰는 웹/앱 개발, 필고 웹사이트·앱에 여행 정보 넣기, 화면 디자인, (3) 여행지 데이터 추가·수정·번역·검사·배포, (4) 사용자가 /travel-api-skill 을 부를 때 — 인자가 update 면 스킬을 최신으로 갱신한다.
+description: 여행 정보 API(ph-travel-api — 필리핀 여행지 200선, 8개 언어 en·zh·ja·ko·th·vi·ru·ar, 앞으로 다른 나라도 추가) 전용 스킬. JSON 을 받아 SQLite(travel.db)로 바꿔 언어별 전문 검색·인덱스로 여행지를 찾아 추천·일정·비용·가는 방법·가까운 곳을 답하고, 웹사이트(PHP)·Flutter 앱·정적 웹이 원격 API 대신 데이터를 넣어(임베딩) 쓰도록 DB·파일 만들기, 조회 코드(PHP·Dart), 블록 렌더러(tabs·accordion·card·stepper·pricing 등)를 제공하며, ph-travel-api 저장소의 여행지 추가·번역·검사·배포를 돕는다. 다음 경우 반드시 사용 — (1) 필리핀 여행지·여행 정보 질문(보라카이, 세부, 엘니도, 보홀, 12월에 갈 만한 해변, 예산, 일정, 가는 방법 등, 어느 언어든), (2) ph-travel-api·여행 API·places.json·meta.json·travel.db·SQLite 여행 DB 를 쓰는 웹/앱 개발, 필고 웹사이트·앱에 여행 정보 넣기, 화면 디자인, (3) 여행지 데이터 추가·수정·번역·검사·배포, (4) 사용자가 /travel-api-skill 을 부를 때 — 인자가 update 면 스킬을 최신으로 갱신한다.
 metadata:
-  version: "2026.09.28.4"
+  version: "2026.09.29"
   repo: "https://github.com/thruthesky/ph-travel-api"
 ---
 
 # travel-api-skill — 여행 정보 API
 
-필리핀 여행지 100선을 **8개 언어 블록 JSON** 으로 내주는 정적 API 와, 그것을 받아 **SQLite 로 바꿔 넣어 쓰는** 방법이다.
+필리핀 여행지 200선을 **8개 언어 블록 JSON** 으로 내주는 정적 API 와, 그것을 받아 **SQLite 로 바꿔 넣어 쓰는** 방법이다.
 나라 목록은 `scripts/apis.json` 이다(지금은 `ph` 하나). 이 문서의 상대 경로는 모두 **스킬 폴더**(이 SKILL.md 가 있는 폴더) 기준이다.
 
 ## 1. 인자 처리

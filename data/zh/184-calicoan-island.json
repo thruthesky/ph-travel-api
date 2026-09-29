@@ -1,0 +1,561 @@
+{
+  "id": 184,
+  "slug": "calicoan-island",
+  "title": { "type": "title", "text": "卡利科安岛" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Calicoan Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "率先迎接太平洋海浪的东萨马冲浪之岛" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "visayas", "text": "米沙鄢" },
+  "region": { "type": "badge", "label": "地区", "value": "samar-leyte", "text": "萨马·莱特" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "东萨马省吉万（萨马岛东南端）" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "海滩·海岛"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["冲浪", "太平洋", "吉万", "潟湖", "麦哲伦"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 10.9839 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 125.8069 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "3月至6月（海滩），10月至2月（冲浪）",
+    "months": [3, 4, 5, 6, 10, 11, 12, 1, 2]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "2~3天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱2,000~4,500（每日）",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "中等",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "丹尼尔·Z·罗慕尔德斯机场（塔克洛班，TAC）",
+    "code": "TAC"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/184-calicoan-island.webp",
+    "alt": "卡利科安岛",
+    "credit": "Nairb.Idi9 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_Calicoan_Island_and_the_Philippine_Sea_from_the_DOST-PAGASA_Guiuan_Weather_Station_in_2022.jpg"
+  },
+  "gallery": { "type": "carousel", "label": "照片", "items": [] },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "这是一座由萨马岛东南端的吉万经桥梁相连的狭长岛屿，太平洋涌浪毫无阻挡地拍岸而来，因此被称为\"维萨亚斯冲浪之都\"。宁静的白沙滩、林间潟湖，以及麦哲伦登陆地霍蒙洪与二战遗迹都近在咫尺。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "卡利科安岛隶属东萨马省吉万，从萨马本岛东南端向南细长延伸。西侧面朝平静的莱特湾，东侧则直面菲律宾海与太平洋，在同一座岛上便能看到截然不同的两片海。该岛与吉万市区之间有桥相连，沿岛上的吉万–苏兰甘公路，可驱车直达南端的苏兰甘。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "令这座岛屿声名远播的是海浪。太平洋涌浪径直拍碎在东岸的珊瑚礁上，形成菲律宾数一数二的礁石浪点，以旅行者口中的\"ABCD海滩\"为中心，聚集了众多冲浪营地与度假村。"
+            },
+            { "type": "date", "text": "2023年9月" },
+            { "text": "这里举办了全国冲浪比赛，赢得\"维萨亚斯冲浪之都\"的美誉。浪小的日子也能进行初学者课程。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "岛内森林中散布着大小六处潟湖，最大的一处面积约" },
+            { "type": "distance", "text": "30ha" },
+            { "text": "。悬崖边缘散落着若干洞穴，岛南的利瑙洞穴因蓄有碧蓝洞穴泳池而深受喜爱。周边海域养殖海藻与珍珠，渔村风光同样惬意。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "吉万一带的历史也十分悠久。" },
+            { "type": "date", "text": "1521年3月" },
+            { "text": "横渡太平洋的麦哲伦远征队，首次登陆的地点便是吉万的霍蒙洪岛；" },
+            { "type": "date", "text": "1944年" },
+            { "text": "莱特登陆作战前夕，美军先在苏卢安岛登陆，随后在吉万建起大型海军基地与跑道。" },
+            { "type": "date", "text": "2013年11月8日" },
+            { "text": "台风海燕（尤兰达）最初登陆之地也是吉万，但小镇一直在持续恢复。推荐给想远离人潮、享受海浪与朴素渔村之旅的旅行者。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "在ABCD海滩冲浪",
+              "children": [
+                {
+                  "text": "卡利科安的代表性冲浪点，可以体验在珊瑚礁上碎开的浪。经验丰富者适合在大浪涌来的日子挑战，初学者则应在浪小的日子跟随教练学习。冲浪板租赁与课程可在海滩边的冲浪营地办理。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "太平洋海岸日出",
+              "children": [{ "text": "东岸是菲律宾最早迎来日出的地方之一。清晨同时望见地平线上升起的太阳与拍碎的海浪，是这座岛旅行中最精彩的时刻。" }]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "利瑙洞穴游泳",
+              "children": [{ "text": "位于岛南苏兰甘方向的洞穴，内部蓄着清澈碧蓝的水，可以在此游泳。台阶和岩石湿滑，请穿凉鞋进入。" }]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "林间潟湖与红树林漫步",
+              "children": [{ "text": "岛内潟湖周边是鸟类、螃蟹与小鱼栖息的湿地。这里的宁静风景与海滩截然不同，很适合在没有浪的日子前来游览。" }]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "吉万教堂",
+              "children": [
+                {
+                  "text": "耶稣会在18世纪建造的菲律宾数一数二的古老教堂，以贝壳装饰闻名。台风海燕曾使其严重受损，此后修复工作一直持续，就位于市区广场旁，很方便顺道造访。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "霍蒙洪岛麦哲伦登陆地",
+              "children": [
+                { "text": "从吉万码头乘船可达的霍蒙洪岛上，立有纪念麦哲伦远征队登陆500周年的纪念碑。可安排一天行程，一并游览岛上的海滩与瀑布。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "苏兰甘圣安东尼奥圣地",
+              "children": [{ "text": "卡利科安南端苏兰甘的圣安东尼奥教堂，是东萨马代表性的朝圣地。沿海岸公路行驶的这段路本身就是极佳的兜风路线。" }]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "二战跑道遗迹",
+              "children": [
+                { "text": "吉万至今仍保留着美国海军在1944~1945年间修建的长跑道，如今仍作机场使用。由此可以感受到莱特战役期间吉万作为补给基地的重要地位。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "第1天",
+              "subtitle": "交通与初次冲浪",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00",
+                      "children": [
+                        { "text": "在塔克洛班新巴士总站搭乘开往吉万的小巴，经圣胡安尼科大桥与萨马南部海岸，车程约" },
+                        { "type": "duration", "text": "3~4小时" }
+                      ]
+                    },
+                    { "time": "10:00", "children": [{ "text": "抵达吉万，乘三轮摩托车前往卡利科安住宿并办理入住" }] },
+                    { "time": "12:00", "children": [{ "text": "午餐后在海滩散步休息" }] },
+                    { "time": "15:00", "children": [{ "text": "在冲浪营地上第一堂课，或确认浪况后自由冲浪" }] },
+                    { "time": "18:00", "children": [{ "text": "在住宿餐厅享用海鲜晚餐" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第2天",
+              "subtitle": "海浪与洞穴",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "05:30", "children": [{ "text": "欣赏太平洋日出后进行晨间冲浪（风力较弱的清晨浪况最干净）" }] },
+                    { "time": "10:00", "children": [{ "text": "早餐与休息" }] },
+                    { "time": "13:00", "children": [{ "text": "前往岛屿南部，在利瑙洞穴游泳并参观苏兰甘圣安东尼奥圣地" }] },
+                    { "time": "16:00", "children": [{ "text": "傍晚冲浪，或在潟湖周边散步" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第3天",
+              "subtitle": "吉万历史漫步",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "最后一次晨间冲浪" }] },
+                    { "time": "09:30", "children": [{ "text": "游览吉万市区的教堂、广场与市场" }] },
+                    { "time": "11:00", "children": [{ "text": "搭乘开往塔克洛班的小巴，下午抵达塔克洛班" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "若多留一天，不妨从吉万码头乘船前往霍蒙洪岛，游览麦哲伦登陆纪念碑与海滩。船班会因天气和海况经常变动，请提前一天在码头确认。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飞机",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从马尼拉或宿务飞往塔克洛班机场（TAC）。从马尼拉约需" },
+                        { "type": "duration", "text": "1小时15分钟" },
+                        { "text": "，单程票价约" },
+                        { "type": "price", "text": "₱2,500~6,000" },
+                        { "text": "。吉万虽也有长跑道，但没有定期客运航班。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "从机场包专属小巴前往吉万约需" },
+                        { "type": "duration", "text": "3~3小时30分钟" },
+                        { "text": "，每辆约" },
+                        { "type": "price", "text": "₱5,000~7,000" },
+                        { "text": "。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "小巴·巴士",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "塔克洛班新巴士总站从清晨到下午，随时都有开往吉万的小巴与巴士发车。全程约" },
+                        { "type": "distance", "text": "150km" },
+                        { "text": "，车程约" },
+                        { "type": "duration", "text": "3~4小时" },
+                        { "text": "，票价约" },
+                        { "type": "price", "text": "₱250~350" },
+                        { "text": "。" }
+                      ]
+                    },
+                    {
+                      "children": [{ "text": "傍晚班次会减少，建议上午出发。若从马尼拉乘坐纵贯萨马的长途巴士，也可以经东萨马博隆安南下抵达吉万。" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "三轮摩托车·habal-habal",
+              "icon": "electric_rickshaw",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从吉万车站到卡利科安岛的住宿处，乘三轮摩托车或habal-habal（摩托车出租）约需" },
+                        { "type": "duration", "text": "20~30分钟" },
+                        { "text": "，费用约" },
+                        { "type": "price", "text": "₱100~250" },
+                        { "text": "。提前告知住宿方，有时也会提供接送。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "霍蒙洪、苏卢安等周边岛屿，可从吉万综合车站码头乘客船或包方卡船前往。到霍蒙洪约需" },
+                        { "type": "duration", "text": "1小时~1小时30分钟" },
+                        { "text": "，海况不佳的日子不会运营。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "海滩与岛屿旅行以降雨较少、海面平静的" },
+            { "type": "date", "text": "3月至6月" },
+            { "text": "最为理想。这段时期东侧海域水色清澈，很适合游泳和浮潜，但浪较小，冲浪以初学者课程为主。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "若以冲浪为目的，太平洋涌浪与东北季风持续造浪的" },
+            { "type": "date", "text": "10月至2月" },
+            { "text": "被认为是最佳时段。不过东萨马是菲律宾降雨最多的地区之一，" },
+            { "type": "date", "text": "7月至12月" },
+            { "text": "又常处于台风路径上，若选择这段时间前往，请勤查天气预报并留出行程余裕。浪况每天不同，向当地冲浪营地提前询问最为准确。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "马尼拉–塔克洛班航班", "price": "约₱2,500~6,000（单程）", "note": "旺季价格上涨" },
+            { "label": "塔克洛班–吉万小巴", "price": "约₱250~350（单程）", "note": "约3~4小时" },
+            { "label": "吉万–卡利科安三轮摩托车", "price": "约₱100~250（单程）", "note": "可申请住宿接送" },
+            { "label": "冲浪课程", "price": "每次约₱700~1,500", "note": "含冲浪板，约1~2小时" },
+            { "label": "冲浪板租赁", "price": "半天约₱300~600", "note": "视板型而定" },
+            { "label": "霍蒙洪岛方卡船", "price": "每船约₱3,000~5,000", "note": "往返包船，需议价" },
+            { "label": "住宿", "price": "每晚约₱1,000~6,000", "note": "招待所至冲浪度假村" },
+            { "label": "餐食", "price": "每餐约₱150~500", "note": "本地食堂至度假村餐厅" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上价格为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "住宿分为卡利科安岛东岸的冲浪度假村与招待所，以及吉万市区的小型酒店。想尽情享受海浪，靠近浪点的卡利科安住宿更为方便，招待所每晚约" },
+            { "type": "price", "text": "₱1,000~2,500" },
+            { "text": "，带泳池的度假村约" },
+            { "type": "price", "text": "₱3,000~6,000" },
+            { "text": "。旺季和冲浪比赛期间客房紧张，需提前预订。若想节省预算，也可以住在吉万市区，乘三轮摩托车往返。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "岛上餐厅不多，大多在住宿的餐厅用餐。作为渔村，当天捕获的烤鱼、鱿鱼、螃蟹、海藻沙拉与基尼劳既新鲜又实惠。吉万市场附近有平价的本地食堂和面包店，也能买到萨马特色糯米小吃和椰子点心。卡利科安夜间几乎没有营业的店铺，请提前在吉万备好零食和饮用水。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "吉万虽有ATM，但数量少且经常故障。请在塔克洛班提前准备好所需的充足现金。" }] },
+            { "children": [{ "text": "清晨风力较弱，浪面比较干净。冲浪最好安排在日出后不久和傍晚时段。" }] },
+            { "children": [{ "text": "初学者在礁石浅水处摔倒可能受伤，请务必与教练同行，并携带溯溪鞋或冲浪靴。" }] },
+            { "children": [{ "text": "阳光十分强烈，请穿着防晒衣，并使用对珊瑚友好的防晒霜。" }] },
+            { "children": [{ "text": "部分区域手机信号和网络较弱，请提前确认住宿是否提供Wi-Fi。" }] },
+            { "children": [{ "text": "返回塔克洛班的小巴到下午班次会减少，最后一天请安排上午出发。" }] },
+            { "children": [{ "text": "对历史感兴趣的话，可以确认10月17日前后在苏卢安岛举行的莱特登陆纪念活动日程。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "卡利科安东岸浪大，离岸流（从海岸流向外海的强劲水流）也较强。请避免在冲浪点附近游泳，浪大的日子初学者不要独自下海。" }]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "这里是礁石浪点，海底布满锋利的珊瑚。退潮时段的冲浪，请听从有经验者和当地教练的判断。" }] },
+            {
+              "children": [
+                { "text": "台风季节（" },
+                { "type": "date", "text": "7月至12月" },
+                { "text": "）可能出现道路积水和班车中断，请确认天气预报与地方政府公告。" }
+              ]
+            },
+            { "children": [{ "text": "前往小岛的方卡船若遇天气转坏可能无法返航，请穿好救生衣，不要勉强出航。" }] },
+            { "children": [{ "text": "东萨马部分内陆地区有时会发布治安公告。请勿在深夜通行山路，并请确认最新的旅行安全信息。" }] },
+            { "children": [{ "text": "大型医院位于塔克洛班，为应对冲浪中受伤的情况，请准备基本急救药品和旅行保险。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "索霍顿天然桥国家公园",
+              "place": "sohoton-natural-bridge",
+              "children": [
+                { "text": "车程约" },
+                { "type": "duration", "text": "2小时30分钟~3小时" },
+                { "text": "，是探索萨马巴塞的河流、洞穴与天然石桥的森林。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "圣胡安尼科大桥",
+              "place": "san-juanico-bridge",
+              "children": [
+                { "text": "车程约" },
+                { "type": "duration", "text": "3小时" },
+                { "text": "，是返回塔克洛班途中会经过、连接莱特与萨马的大桥。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "麦克阿瑟莱特登陆纪念公园",
+              "place": "leyte-landing-memorial",
+              "children": [
+                { "text": "车程约" },
+                { "type": "duration", "text": "3小时30分钟" },
+                { "text": "，是帕洛海滩，立有再现1944年麦克阿瑟将军登陆场景的青铜像。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "霍蒙洪岛",
+              "children": [
+                { "text": "从吉万乘船约" },
+                { "type": "duration", "text": "1小时~1小时30分钟" },
+                { "text": "，是麦哲伦远征队首次登陆菲律宾的岛屿，设有纪念碑与海滩。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

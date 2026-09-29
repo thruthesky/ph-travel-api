@@ -307,7 +307,7 @@ export function searchWords(query) {
 
 /**
  * 낱말이 모두 들어 있는 여행지를 찾는다. 결과: [{ place_id, snippet, score, boost }]
- * trigram 은 3글자 미만을 찾지 못하므로 짧은 낱말은 place_texts 의 글에서 직접 거른다. 100곳이라 충분히 빠르다.
+ * trigram 은 3글자 미만을 찾지 못하므로 짧은 낱말은 place_texts 의 글에서 직접 거른다. 200곳이라 충분히 빠르다.
  * 순서: 제목에 모든 낱말(boost 2) → 태그에 모든 낱말(1) → 점수 → id. 규칙은 references/database.md §5.
  */
 export function searchPlaces(db, query, lang, limit = 20) {

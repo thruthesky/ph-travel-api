@@ -1,6 +1,6 @@
 # ph-travel-api
 
-필리핀 여행지 100선을 **8개 언어**의 JSON 으로 제공하는 정적 API 다. 서버 코드는 없다.
+필리핀 여행지 200선을 **8개 언어**의 JSON 으로 제공하는 정적 API 다. 서버 코드는 없다.
 
 - 언어: 영어 `en` · 중국어(간체) `zh` · 일본어 `ja` · 한국어 `ko` · 태국어 `th` · 베트남어 `vi` · 러시아어 `ru` · 아랍어 `ar`(오른쪽→왼쪽)
 - `main` 에 push 하면 GitHub Actions 가 `data/` 를 검사·빌드해 GitHub Pages 에 배포한다.
@@ -81,7 +81,7 @@ mkdir -p "$DIR" && curl -fsSL https://thruthesky.github.io/ph-travel-api/skills/
 |------|------|
 | `v2/manifest.json` | 버전 확인용 작은 파일. 클라이언트는 이것만 주기적으로 받는다 |
 | `v2/meta.json` | 기준 정보 — 지원 언어, 다국어 분류·권역·지역·난이도 목록, 속성·단락 이름표, 표시 방법 type 48개 (약 100KB) |
-| `v2/places.<언어>.json` | **한 언어의 여행지 100곳 전체** — `places.en.json` · `places.ko.json` … 8개 (각 1.2~1.9MB, 전송 때 gzip 으로 약 4분의 1) |
+| `v2/places.<언어>.json` | **한 언어의 여행지 200곳 전체** — `places.en.json` · `places.ko.json` … 8개 (각 3.4~7.0MB, 전송 때 gzip 으로 약 4분의 1) |
 | `v2/images/<이름>.webp` | 사진. JSON 의 `url` 로만 접근한다 |
 | `skills/travel-api-skill.tar.gz` | AI 스킬 설치·업데이트 묶음 (§0). API 가 아니라서 `v2/` 밖에 있다 |
 

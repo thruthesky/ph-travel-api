@@ -1,0 +1,650 @@
+{
+  "id": 139,
+  "slug": "laoag",
+  "title": { "type": "title", "text": "라오아그" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Laoag" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "가라앉는 종탑과 롱가니사 향이 반기는 북쪽 도시" },
+  "island_group": { "type": "badge", "label": "권역", "value": "luzon", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "value": "ilocos", "text": "일로코스" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "일로코스노르테주 라오아그시" },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "location_city",
+    "value": "city",
+    "text": "도시·미식"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "태그",
+    "items": ["가라앉는 종탑", "성 윌리엄 대성당", "라오아그 롱가니사", "엠파나다", "일로코스 거점"]
+  },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 18.1978 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 120.5936 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "11월~5월 (건기)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "1박 2일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱2,000~4,000 (1일)",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "라오아그 국제공항(LAO)",
+    "code": "LAO"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/139-laoag.webp",
+    "alt": "라오아그",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Laoag_Sinking_Bell_Tower_(A._Bonifacio,_Laoag,_Ilocos_Norte;_11-16-2022).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/139-laoag-2.webp",
+        "alt": "라오아그",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Laoag_Cathedral,_Ilocos_Norte,_Apr_2025.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/139-laoag-3.webp",
+        "alt": "라오아그",
+        "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Laoag_Aurora_Park,_Tobacco_Monopoly_Abolition_Monument_(MacArthur_Highway,_Laoag,_Ilocos_Norte;_11-16-2022).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "일로코스노르테주의 주도이자 루손 북서부 여행의 관문 도시입니다. 해마다 조금씩 땅속으로 가라앉는 벽돌 종탑과 400년 역사의 대성당을 걸어서 둘러보고, 라오아그 롱가니사와 엠파나다를 맛본 뒤 모래언덕·파오아이·파구드푸드로 떠나기 좋습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "라오아그는 마닐라에서 북쪽으로 약 " },
+            { "type": "distance", "text": "480km" },
+            {
+              "text": " 떨어진 일로코스노르테주의 주도로, 라오아그강 하구 평야에 자리한 인구 약 11만 명의 도시입니다. 이름은 일로카노어로 '빛'을 뜻한다고 전해지며, "
+            },
+            { "type": "date", "text": "1965년" },
+            {
+              "text": " 시로 승격했습니다. 국제공항과 장거리 버스 터미널, 쇼핑몰과 호텔이 모여 있어 파오아이 성당, 라파스 모래언덕, 방기 풍차, 파구드푸드로 이어지는 일로코스노르테 여행의 출발점 역할을 합니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "도시의 역사는 스페인 식민 시대의 성당에서 시작합니다. 아우구스티노회가 " },
+            { "type": "date", "text": "1580년" },
+            { "text": " 나무와 풀로 첫 성당을 세웠고, 지금의 성 윌리엄 대성당은 " },
+            { "type": "date", "text": "1612년" },
+            {
+              "text": " 기초를 놓은 뒤 화재와 지진을 겪으며 여러 차례 고쳐 지은 것입니다. 이탈리아 르네상스풍 정면이 특징이며, 성당에서 조금 떨어진 곳에는 라오아그의 상징인 '가라앉는 종탑'이 서 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "가라앉는 종탑은 " },
+            { "type": "date", "text": "1707년" },
+            {
+              "text": " 지진 이후 지어진 것으로 추정되는 벽돌 탑입니다. 모래가 많은 무른 땅 위에 무거운 탑을 올린 탓에 해마다 약 1인치(2.5cm)씩 땅속으로 내려앉는다고 알려져 있습니다. 예전에는 말을 탄 사람이 그대로 드나들던 문이 지금은 몸을 숙여야 지날 만큼 낮아졌다는 이야기가 전해져, 여행자들이 꼭 사진을 남기는 명소가 되었습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "도시 자체는 크지 않아 하루면 중심가를 둘러볼 수 있고, 볼거리보다는 먹거리와 교통의 편리함이 매력입니다. 일로코스 요리를 좋아하는 미식 여행자, 렌터카나 전세 밴으로 북부 해안을 도는 가족 여행자, 비간과 파구드푸드를 잇는 일주 여행자에게 알맞은 거점 도시입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "가라앉는 종탑",
+              "children": [
+                {
+                  "text": "이끼와 풀이 자란 거대한 벽돌 탑이 살짝 기울어진 채 서 있습니다. 문 높이가 얼마나 낮아졌는지 직접 보고, 해 질 녘 붉게 물드는 벽돌 사진을 남겨 보십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "성 윌리엄 대성당",
+              "children": [
+                {
+                  "text": "라오아그 교구의 주교좌 성당으로, 두 층으로 된 르네상스풍 정면과 기둥 장식이 인상적입니다. 미사 시간이 아니라면 조용히 안을 둘러볼 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "오로라 공원과 담배 전매 폐지 기념탑",
+              "children": [
+                {
+                  "text": "시청 앞 광장의 붉은 벽돌 기념탑은 스페인 시대 담배 전매 제도가 폐지된 것을 기념해 19세기 말에 세운 것입니다. 저녁이면 산책 나온 시민들로 활기찹니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "일로코스노르테 박물관",
+              "children": [
+                {
+                  "text": "옛 담배 창고 건물을 고친 박물관으로, 일로카노 사람들의 생활 도구와 전통 가옥, 직물, 산악 민족의 유물을 전시합니다. 일로코스 여행 첫날 들르면 지역 이해에 큰 도움이 됩니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "라파스 모래언덕 4x4 투어",
+              "children": [
+                { "text": "시내에서 트라이시클로 약 " },
+                { "type": "duration", "text": "15분" },
+                { "text": ", 개조 지프로 모래 능선을 질주하고 샌드보드를 타는 일로코스 대표 액티비티입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "라오아그 롱가니사와 엠파나다",
+              "children": [
+                {
+                  "text": "마늘 향이 진한 작은 소시지 라오아그 롱가니사, 쌀가루 반죽에 파파야채·달걀·롱가니사를 넣어 튀긴 주황빛 엠파나다는 꼭 먹어야 할 음식입니다. 저녁 노점에서 매운 식초에 찍어 드십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "라오아그강 다리 산책",
+              "children": [
+                { "text": "시내 북쪽 라오아그강을 건너는 다리 위에서는 넓은 강과 멀리 코르딜레라 산줄기가 보입니다. 해 질 녘 산책 코스로 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "파오아이·바탁 남부 순회",
+              "children": [
+                {
+                  "text": "라오아그에서 남쪽으로 30분 거리의 파오아이 성당, 바탁 엠파나다 거리와 마르코스 기념관을 반나절에 묶어 도는 코스는 라오아그 여행의 필수 일정입니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "subtitle": "시내와 모래언덕",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "08:00", "children": [{ "text": "라오아그 공항 도착 또는 마닐라발 야간 버스로 시내 도착" }] },
+                    { "time": "09:00", "children": [{ "text": "롱가니사와 마늘밥으로 일로코스식 아침 식사" }] },
+                    { "time": "10:00", "children": [{ "text": "성 윌리엄 대성당, 가라앉는 종탑 둘러보기" }] },
+                    { "time": "11:00", "children": [{ "text": "오로라 공원 기념탑과 일로코스노르테 박물관" }] },
+                    { "time": "12:30", "children": [{ "text": "점심, 바그넷과 피나크벳" }] },
+                    { "time": "15:00~17:00", "children": [{ "text": "라파스 모래언덕 4x4 투어와 샌드보드" }] },
+                    { "time": "18:00", "children": [{ "text": "해 질 녘 종탑 사진, 오로라 공원 산책" }] },
+                    { "time": "19:00", "children": [{ "text": "엠파나다 노점과 로컬 식당에서 저녁" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "subtitle": "남부 순회",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "08:00", "children": [{ "text": "전세 트라이시클이나 밴으로 출발" }] },
+                    { "time": "08:30", "children": [{ "text": "파오아이 성당(유네스코 세계유산) 관람" }] },
+                    { "time": "10:00", "children": [{ "text": "파오아이 호숫가의 북부 말라카냥 궁" }] },
+                    { "time": "11:30", "children": [{ "text": "바탁에서 엠파나다 점심과 마르코스 기념관" }] },
+                    { "time": "14:00", "children": [{ "text": "라오아그로 돌아와 기념품 쇼핑, 공항 또는 터미널로 이동" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "하루 더 있다면 3일차에 북쪽으로 올라가 보헤아도르곶 등대, 카푸르푸라완 바위, 방기 풍차를 거쳐 파구드푸드에서 하룻밤 묵는 북부 해안 코스를 권합니다. 비간과 묶을 때는 라오아그에서 남쪽으로 내려가며 파오아이를 들르는 순서가 효율적입니다."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "마닐라에서 라오아그 국제공항(LAO)까지 필리핀항공과 세부퍼시픽이 운항하며 약 " },
+                    { "type": "duration", "text": "1시간 10분" },
+                    { "text": " 걸리고, 편도 요금은 시기에 따라 약 " },
+                    { "type": "price", "text": "₱2,000~6,000" },
+                    { "text": "입니다. 공항은 시내에서 남서쪽으로 약 " },
+                    { "type": "distance", "text": "7km" },
+                    { "text": " 떨어져 있어 트라이시클이나 택시로 약 " },
+                    { "type": "duration", "text": "15~20분" },
+                    { "text": "이면 시내에 닿습니다. 운항 편수와 노선은 자주 바뀌니 항공사 공지를 확인하십시오." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "마닐라 쿠바오·삼팔록·파사이에서 파르타스, 파리냐스 트랜스, 마리아 데 레온 등의 라오아그행 버스가 매일 여러 편 출발합니다. 약 "
+                        },
+                        { "type": "duration", "text": "9~11시간" },
+                        { "text": ", 요금은 등급에 따라 약 " },
+                        { "type": "price", "text": "₱1,000~1,800" },
+                        { "text": "이며, 좌석이 넓은 디럭스 야간 버스가 편합니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "비간에서는 라오아그행 버스·밴으로 약 " },
+                        { "type": "duration", "text": "2시간" },
+                        { "text": ", 파구드푸드에서는 남쪽으로 약 " },
+                        { "type": "duration", "text": "2시간~2시간 30분" },
+                        { "text": " 걸립니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "자가용",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "NLEX–SCTEX–TPLEX를 거쳐 라우니온·일로코스수르 해안 도로(맥아더 하이웨이)를 따라 올라가면 약 " },
+                    { "type": "duration", "text": "8~10시간" },
+                    { "text": " 걸립니다. 하루에 가기 부담스럽다면 산후안(라우니온)이나 비간에서 하룻밤 묵어 가는 것을 권합니다." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "현지 이동",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "시내 중심의 대성당·종탑·오로라 공원·박물관은 걸어서 다닐 수 있고, 트라이시클은 시내 단거리 약 " },
+                        { "type": "price", "text": "₱20~60" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "파오아이·바탁 반나절 순회는 트라이시클 전세 약 " },
+                        { "type": "price", "text": "₱800~1,500" },
+                        { "text": ", 북부 해안까지 도는 하루 투어는 기사 포함 밴 약 " },
+                        { "type": "price", "text": "₱3,500~6,000" },
+                        { "text": "이 일반적입니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "일로코스노르테는 필리핀에서 건기가 가장 뚜렷한 지역 가운데 하나입니다. " },
+            { "type": "date", "text": "11월~5월" },
+            { "text": "에는 비가 거의 오지 않아 시내 도보 관광과 모래언덕 투어에 좋고, " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": "은 아침저녁으로 선선해 가장 쾌적합니다. " },
+            { "type": "date", "text": "3월~5월" },
+            { "text": "은 한낮 기온이 " },
+            { "type": "temperature", "text": "35℃" },
+            { "text": " 안팎까지 오르니 한낮에는 박물관이나 카페에서 쉬십시오." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월~10월" },
+            { "text": "은 남서 몬순과 태풍의 영향을 받는 우기로, 특히 " },
+            { "type": "date", "text": "7월~9월" },
+            { "text": "에는 루손 북부를 지나는 태풍 때문에 항공편과 버스가 결항·지연되는 일이 잦습니다. 축제로는 " },
+            { "type": "date", "text": "2월" },
+            { "text": " 도시 축일(" },
+            { "type": "date", "text": "2월 10일" },
+            { "text": ")에 맞춰 열리는 파물리나웬 축제가 있어 거리 퍼레이드와 공연으로 도시가 들썩입니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라–라오아그 항공", "price": "편도 약 ₱2,000~6,000", "note": "시기·예약 시점에 따라 다름" },
+            { "label": "마닐라–라오아그 버스", "price": "편도 약 ₱1,000~1,800", "note": "일반~디럭스" },
+            { "label": "공항–시내 이동", "price": "약 ₱150~400", "note": "트라이시클·택시" },
+            {
+              "label": "라파스 모래언덕 4x4",
+              "price": "1대 약 ₱2,500~3,500",
+              "note": "4~6인 공유, 샌드보드 포함 여부 확인"
+            },
+            { "label": "트라이시클 전세", "price": "반나절 약 ₱800~1,500", "note": "파오아이·바탁 순회" },
+            { "label": "밴 전세", "price": "하루 약 ₱3,500~6,000", "note": "기사 포함, 북부 해안 투어" },
+            { "label": "숙박", "price": "1박 약 ₱1,500~5,000", "note": "시내 호텔~리조트" },
+            { "label": "식사", "price": "1끼 약 ₱150~400", "note": "엠파나다 개당 약 ₱60~100" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "숙소는 대성당과 오로라 공원 주변 시내 중심에 모여 있어 걸어서 식당과 명소를 다니기 편합니다. 깔끔한 중급 호텔은 1박 약 " },
+            { "type": "price", "text": "₱1,500~3,000" },
+            { "text": ", 저렴한 펜션은 약 " },
+            { "type": "price", "text": "₱800~1,500" },
+            {
+              "text": " 수준입니다. 수영장과 넓은 정원이 있는 리조트를 원한다면 시내 남쪽 해안 모래언덕 옆의 대형 리조트 포트 일로칸디아(Fort Ilocandia)가 오래된 대표 숙소로, 가족 여행자에게 인기가 많습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "라오아그는 일로코스 음식의 본고장입니다. 작고 통통하며 마늘 향이 진한 라오아그 롱가니사, 돼지고기를 두 번 튀긴 바그넷, 바구웅(발효 생선 소스)으로 맛을 낸 채소 조림 피나크벳, 구운 가지와 달걀을 볶은 포키포키, 채소 국 디넹데그를 꼭 드셔 보십시오. 시내의 오래된 레스토랑 '라 프레시오사(La Preciosa)'는 일로코스 가정식과 두툼한 당근 케이크로 오래전부터 유명합니다. 선물로는 일로코스 식초, 옥수수 과자 치차콘, 사탕수수 술 바시가 좋습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "종탑 사진은 벽돌이 붉게 빛나는 " },
+                { "type": "time", "text": "오후 4~6시" },
+                { "text": "가 가장 좋습니다. 종탑은 차도 옆이라 길을 건널 때 조심하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "모래언덕 4x4 투어는 여러 명이 한 대를 나눠 타면 1인 비용이 크게 줄어듭니다. 숙소 로비에서 동행을 구해 보십시오." }
+              ]
+            },
+            { "children": [{ "text": "트라이시클 전세는 출발 전에 방문지와 대기 시간, 총요금을 확실히 합의하십시오." }] },
+            {
+              "children": [
+                { "text": "공항 편수가 많지 않아 성수기 항공권은 일찍 매진됩니다. 버스를 이용한다면 돌아가는 표도 미리 예매하십시오." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "시내 쇼핑몰과 은행에 ATM이 충분하지만, 파구드푸드 등 북부 해안에서는 현금 인출이 어려우니 라오아그에서 넉넉히 찾아 가십시오."
+                }
+              ]
+            },
+            { "children": [{ "text": "박물관과 성당은 월요일이나 공휴일에 운영 시간이 바뀔 수 있으니 방문 전 확인하십시오." }] },
+            {
+              "children": [
+                { "text": "남쪽의 비간과 북쪽의 파구드푸드를 잇는 일주 여행이라면 라오아그를 중간 거점으로 2박 정도 잡으면 여유롭습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "type": "date", "text": "7월~9월" },
+            {
+              "text": " 태풍 시기에는 라오아그 공항 항공편이 무더기로 결항되기도 합니다. 이 시기에는 귀국 항공편 전날까지 마닐라로 돌아가도록 여유를 두십시오."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "가라앉는 종탑은 오래된 구조물이라 안으로 들어가거나 벽을 오르지 마십시오." }] },
+            {
+              "children": [
+                { "text": "모래언덕 4x4는 급경사를 질주합니다. 허리·목이 약하거나 임신 중이라면 탑승을 피하고, 안전벨트를 꼭 매십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "type": "date", "text": "3월~5월" },
+                { "text": " 한낮에는 햇볕이 매우 강해 일사병 위험이 있습니다. 모자와 물을 챙기십시오." }
+              ]
+            },
+            { "children": [{ "text": "야간 장거리 버스에서는 귀중품을 몸에 지니고, 휴게소에 내릴 때 짐을 두고 내리지 마십시오." }] },
+            { "children": [{ "text": "성당 안에서는 단정한 옷차림을 하고, 미사 중에는 사진 촬영을 삼가십시오." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "라파스 모래언덕",
+              "place": "la-paz-sand-dunes",
+              "children": [
+                { "text": "시내에서 약 " },
+                { "type": "duration", "text": "15분" },
+                { "text": ", 4x4 지프와 샌드보드로 사구를 누비는 체험 명소입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "파오아이 성당",
+              "place": "paoay-church",
+              "children": [
+                { "text": "남쪽으로 차로 약 " },
+                { "type": "duration", "text": "30분" },
+                { "text": ", 거대한 부벽이 인상적인 유네스코 세계유산 성당입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "보헤아도르곶 등대",
+              "place": "cape-bojeador-lighthouse",
+              "children": [
+                { "text": "북쪽으로 차로 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": ", 언덕 위에서 남중국해를 내려다보는 스페인 시대 등대입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "파구드푸드",
+              "place": "pagudpud",
+              "children": [
+                { "text": "북쪽으로 약 " },
+                { "type": "duration", "text": "2시간~2시간 30분" },
+                { "text": ", '북부의 보라카이'로 불리는 하얀 모래 해변입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "비간",
+              "place": "vigan",
+              "children": [
+                { "text": "남쪽으로 약 " },
+                { "type": "duration", "text": "2시간" },
+                { "text": ", 스페인 식민 시대 거리가 남은 유네스코 세계유산 도시입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

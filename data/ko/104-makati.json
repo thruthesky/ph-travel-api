@@ -1,0 +1,653 @@
+{
+  "id": 104,
+  "slug": "makati",
+  "title": { "type": "title", "text": "마카티" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Makati" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "빌딩 숲 사이 박물관과 주말 시장이 숨은 금융 도시" },
+  "island_group": { "type": "badge", "label": "권역", "value": "luzon", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "value": "metro-manila", "text": "메트로 마닐라" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "메트로 마닐라 마카티시" },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "location_city",
+    "value": "city",
+    "text": "도시·미식"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["아얄라 센터", "쇼핑몰", "주말 마켓", "포블라시온", "아얄라 박물관"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 14.5566 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 121.0237 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "12월~4월 (건기)",
+    "months": [12, 1, 2, 3, 4]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "1일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱1,500~5,000 (1일)",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 5000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "니노이 아키노 국제공항(MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/104-makati.webp",
+    "alt": "마카티",
+    "credit": "patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Makati_CBD_skyline_(Makati;_12-31-2019).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/104-makati-2.webp",
+        "alt": "마카티",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ayala_Avenue,_Makati,_Feb_2026.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/104-makati-3.webp",
+        "alt": "마카티",
+        "credit": "RioHondo / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ayala_Triangle_Gardens.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "필리핀 금융과 비즈니스의 중심지로, 아얄라 대로의 고층 빌딩과 대형 쇼핑몰, 호텔이 모여 있습니다. 아얄라 박물관과 아얄라 트라이앵글 정원, 주말 아침 시장, 밤이 되면 살아나는 포블라시온 골목까지 하루 동안 마닐라의 현대적인 얼굴을 즐길 수 있습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "마카티는 메트로 마닐라 한가운데, 파시그 강 남쪽에 자리한 도시로 필리핀의 금융·상업·외교 중심지입니다. 은행과 다국적 기업 본사, 대사관, 고급 호텔이 아얄라 대로와 파세오 데 로하스, 부엔디아 대로를 따라 빼곡히 들어서 있습니다. 거주 인구는 약 30만 명이지만, 낮에는 출근하는 사람과 쇼핑객으로 수백만 명이 드나듭니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "역사는 생각보다 깁니다. " },
+            { "type": "date", "text": "1670년" },
+            { "text": " 스페인 시대에 '산페드로 데 마카티'라는 마을로 세워졌고, 지금의 포블라시온에는 " },
+            { "type": "date", "text": "1620년" },
+            { "text": " 무렵 완성된 성 베드로와 바오로 성당이 남아 있습니다. " },
+            { "type": "date", "text": "1851년" },
+            {
+              "text": " 소벨 데 아얄라 가문이 이 일대 농장을 사들였고, 제2차 세계대전 전에는 마닐라의 옛 공항인 닐슨 비행장이 있었습니다. 전쟁 뒤 아얄라 가문이 옛 활주로 자리에 도로와 빌딩을 계획적으로 세우면서 "
+            },
+            { "type": "date", "text": "1950~1960년대" },
+            { "text": "부터 오늘날의 중심 업무 지구가 만들어졌습니다. 아얄라 대로와 파세오 데 로하스가 교차하는 긴 두 도로는 옛 활주로의 흔적입니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "1986년" },
+            {
+              "text": " 피플 파워 혁명 때 아얄라 대로의 빌딩에서 노란 색종이가 쏟아지던 장면처럼, 마카티는 필리핀 현대사의 무대이기도 했습니다. 지금은 여행자에게 쇼핑과 미식, 밤문화의 도시로 더 익숙합니다. 걸어 다닐 수 있는 보행 육교와 공원이 잘 연결되어 있고 치안도 마닐라 안에서 좋은 편이라, 마닐라에 처음 오는 여행자가 머물기에도 편합니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "관광 명소가 몰려 있는 도시는 아니지만, 필리핀 역사를 한눈에 정리해 주는 아얄라 박물관, 주말 아침의 먹거리 시장, 수많은 레스토랑과 루프톱 바가 있어 하루를 알차게 보내기 좋습니다. 가족 여행자, 출장자, 쇼핑과 맛집을 좋아하는 여행자에게 권하며, 이웃한 BGC나 마닐라 구시가와 묶으면 도시 여행이 풍성해집니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "아얄라 박물관",
+              "children": [
+                {
+                  "text": "필리핀 역사를 손으로 만든 디오라마 60점으로 보여 주는 전시와, 스페인 도래 이전의 황금 장신구 1,000여 점을 모은 '조상들의 황금' 전시가 유명합니다. 그린벨트 안에 있어 쇼핑과 함께 들르기 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "아얄라 트라이앵글 정원",
+              "children": [
+                { "text": "빌딩 숲 한가운데 약 2헥타르 넓이의 녹지 공원으로, 옛 닐슨 공항 관제탑 건물이 레스토랑으로 남아 있습니다. " },
+                { "type": "date", "text": "11월~1월" },
+                { "text": "에는 저녁마다 빛과 음악의 조명 쇼가 열립니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "주말 아침 마켓",
+              "children": [
+                {
+                  "text": "토요일에는 살세도 빌리지의 하이메 벨라스케스 공원, 일요일에는 레가스피 빌리지의 레가스피 공원에서 먹거리 시장이 열립니다. 보통 "
+                },
+                { "type": "time", "text": "오전 7시~오후 2시" },
+                { "text": "로, 필리핀 가정식부터 각국 음식, 유기농 채소, 수공예품까지 한자리에서 맛보고 살 수 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "그린벨트와 글로리에타",
+              "children": [
+                {
+                  "text": "정원을 품은 그린벨트와 거대한 쇼핑몰 글로리에타, 원 아얄라, 랜드마크가 보행 통로로 이어진 아얄라 센터는 마카티 쇼핑의 중심입니다. 그린벨트 1은 재개발 공사 중이니 영업 매장을 확인하십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "포블라시온의 밤",
+              "children": [
+                {
+                  "text": "옛 마카티 중심가인 포블라시온은 좁은 골목에 수제 맥주 펍, 루프톱 바, 세계 각국 음식점이 몰린 밤문화 거리가 되었습니다. 해 질 녘부터 자정까지 가장 활기찹니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "성 베드로와 바오로 성당",
+              "children": [
+                {
+                  "text": "포블라시온 언덕 위의 스페인 시대 성당으로, 마카티가 작은 강변 마을이던 시절의 흔적입니다. 빌딩 숲과 전혀 다른 조용한 분위기를 느낄 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "루프톱에서 보는 야경",
+              "children": [
+                {
+                  "text": "마카티의 호텔과 빌딩 루프톱 바에서는 불 켜진 아얄라 대로와 BGC, 멀리 마닐라 베이까지 내려다보입니다. 칵테일 한 잔 가격은 약 "
+                },
+                { "type": "price", "text": "₱350~700" },
+                { "text": " 수준입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "리틀 도쿄와 세계 음식",
+              "children": [
+                {
+                  "text": "치노 로세스 거리의 리틀 도쿄는 일본 식당이 모인 오래된 골목이고, 마카티 곳곳에 한식당과 각국 레스토랑이 많습니다. 필리핀 요리부터 세계 음식까지 고르는 재미가 있습니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "평일 1일 코스",
+              "subtitle": "박물관·쇼핑·야경",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "09:00", "children": [{ "text": "아얄라 트라이앵글 정원 아침 산책, 카페에서 아침 식사" }] },
+                    {
+                      "time": "10:00~12:30",
+                      "children": [{ "text": "아얄라 박물관 관람 (디오라마, 조상들의 황금 전시)" }]
+                    },
+                    { "time": "12:30", "children": [{ "text": "그린벨트에서 필리핀 요리로 점심" }] },
+                    { "time": "14:00", "children": [{ "text": "그린벨트·글로리에타·원 아얄라 쇼핑, 더위 피하기" }] },
+                    { "time": "16:30", "children": [{ "text": "호텔에서 휴식 또는 스파·마사지" }] },
+                    { "time": "18:30", "children": [{ "text": "포블라시온으로 이동해 골목 맛집에서 저녁" }] },
+                    { "time": "20:30", "children": [{ "text": "루프톱 바에서 마카티 야경 감상" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "주말 코스",
+              "subtitle": "아침 시장과 옛 마카티",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:30",
+                      "children": [{ "text": "토요일 살세도 마켓 또는 일요일 레가스피 마켓에서 아침 겸 먹거리 탐방" }]
+                    },
+                    { "time": "10:00", "children": [{ "text": "아얄라 박물관 관람" }] },
+                    { "time": "12:30", "children": [{ "text": "점심 후 그랩으로 포블라시온 이동" }] },
+                    { "time": "14:00", "children": [{ "text": "성 베드로와 바오로 성당과 포블라시온 옛 거리 산책" }] },
+                    { "time": "16:00", "children": [{ "text": "카페에서 쉬었다가 아얄라 트라이앵글 정원으로 이동" }] },
+                    { "time": "18:00", "children": [{ "text": "정원에서 저녁, 시즌이면 조명 쇼 관람" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "주말 마켓은 오전 늦게 가면 인기 음식이 떨어지니 일찍 가는 것이 좋습니다. 하루 더 있다면 그랩으로 약 " },
+                    { "type": "duration", "text": "15~30분" },
+                    { "text": " 거리인 BGC와 마닐라 미군 묘지를 함께 둘러보십시오." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "그랩·택시",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "니노이 아키노 국제공항에서 마카티 중심가까지 약 " },
+                        { "type": "distance", "text": "7~9km" },
+                        { "text": "로, 교통 상황에 따라 " },
+                        { "type": "duration", "text": "20분~1시간" },
+                        { "text": " 걸립니다. 그랩 요금은 약 " },
+                        { "type": "price", "text": "₱250~500" },
+                        { "text": "이며 출퇴근 시간에는 더 오릅니다. 공항 공식 택시 승강장의 쿠폰 택시도 이용할 수 있습니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "마닐라 구시가(인트라무로스·에르미타)에서는 약 " },
+                        { "type": "price", "text": "₱200~400" },
+                        { "text": ", " },
+                        { "type": "duration", "text": "30분~1시간" },
+                        { "text": " 정도입니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "경전철(MRT)",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "EDSA 대로를 따라 달리는 MRT 3호선의 아얄라(Ayala)역이 마카티 중심가와 바로 연결되며, 역에서 원 아얄라와 글로리에타로 걸어갈 수 있습니다. 부엔디아역, 과달루페역도 마카티에 있습니다. 요금은 약 "
+                        },
+                        { "type": "price", "text": "₱13~28" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "마닐라 구시가에서는 LRT 1호선을 타고 에드사역에서 내려 MRT 3호선 타프트 애비뉴역으로 갈아탑니다. 출퇴근 시간에는 매우 붐비니 짐이 많으면 그랩을 권합니다."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "EDSA 대로 중앙 전용차로를 달리는 EDSA 카루셀 버스가 아얄라 정류장에 섭니다. 요금은 약 " },
+                        { "type": "price", "text": "₱15~75" },
+                        { "text": "입니다. 클라크 국제공항에서는 마닐라행 P2P 버스로 약 " },
+                        { "type": "duration", "text": "2~3시간" },
+                        { "text": " 걸리며, 노선과 정류장은 최신 정보를 확인하십시오." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "도보",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "중심 업무 지구 안에서는 지붕 덮인 보행 통로와 지하도가 아얄라 센터, 아얄라 트라이앵글, 살세도·레가스피 빌리지를 이어 줍니다. 큰 도로는 무단 횡단이 단속되니 반드시 육교나 지하도를 이용하십시오. 포블라시온까지는 그린벨트에서 걸어서 약 "
+                        },
+                        { "type": "duration", "text": "20~25분" },
+                        { "text": "이며, 밤에는 그랩이 편합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "마카티는 쇼핑몰과 실내 공간이 많아 사계절 여행할 수 있지만, 걷기와 야외 시장을 즐기기에는 " },
+            { "type": "date", "text": "12월~4월" },
+            { "text": " 건기가 가장 좋습니다. " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": "은 아침저녁이 비교적 선선하고, " },
+            { "type": "date", "text": "4월~5월" },
+            { "text": "은 기온이 " },
+            { "type": "temperature", "text": "34~36℃" },
+            { "text": "까지 올라 한낮에는 실내 일정이 편합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월~10월" },
+            {
+              "text": " 우기에는 오후 소나기와 태풍이 잦고, 폭우 때는 EDSA와 부엔디아 일대 도로가 침수되거나 극심하게 막힙니다. 크리스마스 시즌에는 아얄라 대로와 쇼핑몰이 화려한 장식으로 꾸며지고 아얄라 트라이앵글 조명 쇼가 열리지만, "
+            },
+            { "type": "date", "text": "12월" },
+            { "text": "의 금요일 저녁과 월급날 전후에는 교통 체증이 1년 중 가장 심합니다. 이동은 가능하면 평일 낮이나 주말 오전으로 잡으십시오." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "공항–마카티 그랩", "price": "편도 약 ₱250~500", "note": "시간대·교통량에 따라 다름" },
+            { "label": "MRT 3호선", "price": "편도 약 ₱13~28", "note": "구간별 요금" },
+            { "label": "아얄라 박물관", "price": "약 ₱500~700", "note": "학생·경로 할인, 최신 요금 확인" },
+            { "label": "주말 마켓 먹거리", "price": "1인 약 ₱300~700", "note": "여러 가지 나눠 먹기 기준" },
+            { "label": "식사", "price": "1끼 약 ₱300~1,200", "note": "푸드코트~레스토랑" },
+            { "label": "루프톱 바 음료", "price": "1잔 약 ₱350~700", "note": "서비스 요금 별도일 수 있음" },
+            { "label": "마사지·스파", "price": "약 ₱600~2,500", "note": "로컬 마사지숍~호텔 스파" },
+            { "label": "숙박", "price": "1박 약 ₱2,500~12,000", "note": "비즈니스호텔~고급 호텔" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "마카티는 메트로 마닐라에서 숙소 선택지가 가장 넓은 곳입니다. 아얄라 센터 주변에는 국제 체인 고급 호텔(1박 약 " },
+            { "type": "price", "text": "₱7,000~15,000" },
+            { "text": ")이 모여 있고, 레가스피·살세도 빌리지와 부엔디아 쪽에는 서비스 레지던스와 비즈니스호텔(약 " },
+            { "type": "price", "text": "₱2,500~5,000" },
+            { "text": ")이 많습니다. 배낭여행자는 포블라시온의 호스텔(도미토리 약 " },
+            { "type": "price", "text": "₱700~1,500" },
+            { "text": ")을 이용하는데, 밤늦게까지 시끄러울 수 있으니 조용한 숙소를 원하면 중심 업무 지구 쪽을 고르십시오." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "먹거리는 마카티 여행의 핵심입니다. 그린벨트와 아얄라 트라이앵글에는 필리핀 요리를 세련되게 내는 레스토랑이 많아 시니강(새콤한 타마린드 국), 카레카레(땅콩 소스 스튜), 레촌 카왈리(바삭한 삼겹살 튀김)를 편하게 맛볼 수 있습니다. 주말 마켓에서는 숯불 꼬치, 레촌, 필리핀 디저트 할로할로를 조금씩 맛보는 재미가 있고, 포블라시온에는 타코와 라멘, 중동 음식까지 세계 각국의 작은 식당이 모여 있습니다. 치노 로세스 거리의 리틀 도쿄는 오래된 일본 식당 골목이며, 한식이 그리우면 마카티 곳곳의 한식당과 한국 식료품점을 쉽게 찾을 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [{ "text": "쇼핑몰과 건물 입구마다 보안 검색이 있습니다. 가방을 열어 보여 주는 것이 일반적이니 당황하지 마십시오." }]
+            },
+            {
+              "children": [
+                { "text": "출퇴근 시간(" },
+                { "type": "time", "text": "오전 7~9시" },
+                { "text": ", " },
+                { "type": "time", "text": "오후 5~8시" },
+                { "text": ")에는 그랩 요금이 오르고 잡기도 어렵습니다. 이 시간대에는 걸어서 가까운 곳을 둘러보십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "아얄라 박물관은 월요일에 쉬는 경우가 많습니다. 운영 시간과 요금은 " },
+                { "type": "link", "text": "아얄라 박물관 공식 사이트", "url": "https://www.ayalamuseum.org/" },
+                { "text": "에서 확인하십시오." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "주말 마켓은 현금이 편합니다. 일부 가게는 전자 결제(GCash 등)를 받지만 외국인은 쓰기 어려우니 작은 지폐를 준비하십시오."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "레스토랑 계산서에는 보통 10% 서비스 요금이 포함되어 있습니다. 포함되어 있다면 팁은 따로 주지 않아도 됩니다." }
+              ]
+            },
+            { "children": [{ "text": "쇼핑몰 안은 에어컨이 매우 강합니다. 얇은 겉옷을 챙기면 좋습니다." }] },
+            { "children": [{ "text": "환전은 쇼핑몰 안 환전소가 공항보다 환율이 좋은 편입니다. 여러 곳의 환율을 비교해 보십시오." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "P. 부르고스 거리 일대 유흥가에서는 바가지 요금, 술에 약을 타는 범죄, 호객 행위가 보고됩니다. 모르는 사람이 권하는 술자리나 가게는 피하고, 음료를 자리에 두고 떠나지 마십시오."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "MRT 아얄라역과 EDSA 버스 정류장처럼 붐비는 곳에서는 소매치기에 주의하십시오." }] },
+            { "children": [{ "text": "길에서 택시를 잡을 때는 미터기를 켜는지 확인하고, 흥정을 요구하면 내려서 그랩을 이용하십시오." }] },
+            { "children": [{ "text": "밤늦게 포블라시온 골목을 혼자 걷기보다는 큰길에서 그랩을 부르십시오." }] },
+            {
+              "children": [
+                { "text": "폭우가 내리면 저지대 도로가 빠르게 잠깁니다. 태풍 경보가 있으면 이동을 줄이고 최신 공지를 확인하십시오." }
+              ]
+            },
+            { "children": [{ "text": "환전을 권하며 접근하는 사람이나 길거리 환전상은 피하고, 은행이나 공인 환전소를 이용하십시오." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "BGC",
+              "place": "bgc",
+              "children": [
+                { "text": "그랩으로 약 " },
+                { "type": "duration", "text": "15~40분" },
+                { "text": ", 걷기 좋은 신도시로 벽화와 맛집, 하이 스트리트가 유명합니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "마닐라 미군 묘지",
+              "place": "manila-american-cemetery",
+              "children": [
+                { "text": "그랩으로 약 " },
+                { "type": "duration", "text": "20~40분" },
+                { "text": ", 제2차 세계대전 미군 전사자 1만 7천여 명이 잠든 추모 공원입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "인트라무로스",
+              "place": "intramuros",
+              "children": [
+                { "text": "그랩으로 약 " },
+                { "type": "duration", "text": "30분~1시간" },
+                { "text": ", 스페인 식민 시대 성벽 도시와 산아구스틴 성당을 볼 수 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "마닐라 베이",
+              "place": "manila-bay",
+              "children": [
+                { "text": "그랩으로 약 " },
+                { "type": "duration", "text": "30분~1시간" },
+                { "text": ", 로하스 대로 해안 산책로와 몰 오브 아시아에서 석양을 봅니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "필리핀 국립 박물관",
+              "place": "national-museum",
+              "children": [
+                { "text": "그랩으로 약 " },
+                { "type": "duration", "text": "30분~1시간" },
+                { "text": ", 무료로 필리핀 미술과 자연사, 인류학 전시를 볼 수 있습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

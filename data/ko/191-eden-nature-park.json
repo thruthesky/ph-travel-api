@@ -1,0 +1,657 @@
+{
+  "id": 191,
+  "slug": "eden-nature-park",
+  "title": { "type": "title", "text": "에덴 네이처 파크" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Eden Nature Park" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "소나무 숲 서늘한 바람이 부는 다바오의 산속 정원" },
+  "island_group": { "type": "badge", "label": "권역", "value": "mindanao", "text": "민다나오" },
+  "region": { "type": "badge", "label": "지역", "value": "davao", "text": "다바오" },
+  "location": {
+    "type": "address",
+    "label": "위치",
+    "icon": "location_on",
+    "text": "다바오 델 수르 다바오시 토릴 지구 에덴"
+  },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "landscape",
+    "value": "nature",
+    "text": "자연 경관"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "태그",
+    "items": ["산악 리조트", "소나무 숲", "스카이라이더", "유기농 채소", "가족 여행"]
+  },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 7.0325 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 125.3974 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "1월~5월 (비교적 맑은 시기)",
+    "months": [1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "반나절~1박 2일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱1,500~3,500 (1일)",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 3500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "프란시스코 방고이 국제공항(DVO)",
+    "code": "DVO"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/191-eden-nature-park.webp",
+    "alt": "에덴 네이처 파크",
+    "credit": "Michael E. Peligro / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Eden_Nature_Park_panorama.jpg"
+  },
+  "gallery": { "type": "carousel", "label": "사진", "items": [] },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "다바오 시내에서 차로 약 1시간, 탈로모 산 기슭 해발 약 900m에 자리한 산악 리조트입니다. 벌목으로 헐벗었던 땅에 수십 년 동안 나무를 심어 되살린 소나무 숲에서 서늘한 공기와 꽃 정원, 케이블 활강, 유기농 채소 뷔페를 즐길 수 있습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "에덴 네이처 파크(Eden Nature Park and Resort)는 다바오시 남서쪽 토릴(Toril) 지구의 에덴 바랑가이, 탈로모 산 기슭 해발 약 "
+            },
+            { "type": "distance", "text": "900m" },
+            { "text": "(약 3,000피트) 고지에 자리한 산악 자연공원 겸 리조트입니다. 시내 중심에서 약 " },
+            { "type": "distance", "text": "30km" },
+            { "text": " 떨어져 있어 차로 " },
+            { "type": "duration", "text": "1시간" },
+            { "text": " 안팎이면 닿는데, 올라갈수록 공기가 확 달라져 한낮에도 " },
+            { "type": "temperature", "text": "20℃" },
+            {
+              "text": " 안팎의 서늘한 바람이 붑니다. 더운 다바오 시내에서 반나절만 빠져나와도 바기오나 타가이타이에 온 듯한 기분을 느낄 수 있어 현지인들의 주말 나들이 장소로 오래 사랑받아 왔습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "이곳이 특별한 이유는 풍경 대부분이 사람의 손으로 되살린 숲이라는 점입니다. " },
+            { "type": "date", "text": "1971년" },
+            {
+              "text": " 설립자 헤수스 아얄라(Jesus V. Ayala) 부부가 처음 이 땅을 찾았을 때는 불법 벌목으로 나무가 모두 잘려 나가고 들풀만 무성한 황무지였습니다. 이후 수십 년 동안 묘목을 심고 가꾼 끝에 지금은 "
+            },
+            { "text": "10만 그루가 넘는 소나무", "bold": true },
+            {
+              "text": "와 열대 나무가 빽빽한 숲을 이루었고, 약 80헥타르 부지 가운데 약 40헥타르가 정원과 시설로 꾸며져 있습니다. 필리핀에서 손꼽히는 민간 산림 복원 사례로 자주 소개됩니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "공원 안에는 꽃과 허브 정원, 계단식 채소밭, 사슴 방목장, 원주민 문화를 재현한 틴웁단(Tinubdan), 야외 원형극장, 낚시터와 수영장이 흩어져 있습니다. 소나무 숲 위를 가로지르는 케이블 활강 스카이라이더(Skyrider), 높은 곳에서 자전거를 타는 스카이사이클(Skycycle), 공중에서 크게 흔들리는 스카이스윙(Skyswing) 같은 체험 시설도 있어 가족 여행자와 연인, 단체 모두에게 인기가 많습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "험한 산행이나 긴 이동 없이 서늘한 산 공기와 초록 풍경을 즐기고 싶은 여행자, 아이와 함께하는 가족, 다바오 시내 일정 사이에 하루 쉬어 가고 싶은 사람에게 잘 맞습니다. 대부분 당일치기로 다녀오지만, 산속 코티지에서 하룻밤 묵으면 안개 낀 아침 숲과 한적한 산책을 즐길 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "가이드 셔틀 투어",
+              "children": [
+                { "text": "공원 전용 셔틀을 타고 약 " },
+                { "type": "duration", "text": "45분" },
+                {
+                  "text": " 동안 주요 정원과 전망 지점, 채소밭, 틴웁단을 돌아보는 해설 투어입니다. 부지가 넓고 경사가 있어 처음 온 사람은 셔틀로 전체 구성을 익힌 뒤 마음에 드는 곳을 다시 걸어서 찾는 것이 효율적입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "스카이라이더 케이블 활강",
+              "children": [
+                { "text": "약 " },
+                { "type": "distance", "text": "200m" },
+                {
+                  "text": " 길이의 케이블에 매달려 소나무 숲 위를 미끄러지듯 내려가는 에덴의 대표 체험입니다. 속도는 빠르지 않아 처음 타는 사람이나 청소년도 부담이 적고, 발아래로 숲과 계곡이 펼쳐집니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "스카이사이클과 스카이스윙",
+              "children": [
+                {
+                  "text": "공중에 걸린 줄 위로 자전거 페달을 밟아 건너는 스카이사이클, 약 95피트 높이에서 크게 흔들리는 스카이스윙은 짜릿함을 원하는 여행자에게 인기입니다. 키·체중·건강 제한이 있으니 현장 안내를 확인하십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "소나무 숲 산책로",
+              "children": [
+                {
+                  "text": "공원 곳곳의 소나무 숲길과 꽃 정원을 천천히 걸어 보십시오. 아침 일찍 안개가 낮게 깔린 숲은 사진이 특히 잘 나오며, 고지대라 걸어도 땀이 덜 납니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "틴웁단 원주민 문화 마을",
+              "children": [
+                {
+                  "text": "민다나오 원주민(루마드)의 전통 가옥과 생활 도구, 공예를 재현한 문화 공간입니다. 다바오 일대에 사는 여러 부족의 이야기를 짧게나마 접할 수 있어 아이들 교육 여행으로도 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "채소밭과 농장 뷔페",
+              "children": [
+                {
+                  "text": "고랭지 기후를 살려 채소와 허브를 기르는 농장이 있고, 공원 레스토랑의 점심 뷔페에 이곳에서 기른 채소가 오릅니다. 신선한 샐러드와 필리핀 가정식을 산 풍경과 함께 즐길 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "승마와 낚시",
+              "children": [
+                {
+                  "text": "어린이와 초보자도 탈 수 있는 짧은 승마 코스, 잡은 물고기를 요리해 주는 낚시터가 있습니다. 여유 있게 하루를 보내는 가족 여행자에게 알맞은 체험입니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "당일치기",
+              "subtitle": "다바오 시내 출발",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "08:00",
+                      "children": [{ "text": "다바오 시내 숙소 출발, 택시·전세 차량 또는 공원 셔틀로 토릴 방면 이동" }]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [{ "text": "에덴 도착, 입장권·체험권 구입 후 가이드 셔틀 투어 시작" }]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [{ "text": "스카이라이더·스카이사이클 등 체험 시설 이용 (오전이 대기 줄이 짧음)" }]
+                    },
+                    { "time": "11:30~13:00", "children": [{ "text": "레스토랑 점심 뷔페, 채소밭과 꽃 정원 산책" }] },
+                    { "time": "13:30", "children": [{ "text": "틴웁단 원주민 문화 마을, 사슴 방목장 관람" }] },
+                    { "time": "14:30", "children": [{ "text": "승마나 낚시, 또는 수영장에서 휴식" }] },
+                    { "time": "16:00", "children": [{ "text": "공원 출발, 토릴을 거쳐 다바오 시내로 복귀" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1박 2일",
+              "subtitle": "산속에서 하룻밤",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "1일차 오전", "children": [{ "text": "다바오 시내 출발, 체크인 후 가이드 셔틀 투어" }] },
+                    {
+                      "time": "1일차 오후",
+                      "children": [{ "text": "체험 시설 이용과 숲길 산책, 저녁에는 서늘한 공기 속에서 식사" }]
+                    },
+                    { "time": "2일차 06:00", "children": [{ "text": "안개 낀 이른 아침 소나무 숲 산책과 사진 촬영" }] },
+                    {
+                      "time": "2일차 08:00",
+                      "children": [{ "text": "아침 식사 후 채소밭·틴웁단 등 못 본 곳 둘러보기" }]
+                    },
+                    {
+                      "time": "2일차 12:00",
+                      "children": [{ "text": "체크아웃 후 시내로 이동, 오후에 다바오 시내 일정 이어가기" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "마닐라에서 다바오 프란시스코 방고이 국제공항(DVO)까지 직항으로 약 " },
+                        { "type": "duration", "text": "1시간 50분" },
+                        { "text": ", 세부에서는 약 " },
+                        { "type": "duration", "text": "1시간 10분" },
+                        { "text": "이 걸립니다. 편도 항공권은 약 " },
+                        { "type": "price", "text": "₱2,500~7,000" },
+                        { "text": " 수준입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "공항은 다바오시 북쪽에 있고 에덴은 남서쪽 끝이라, 공항에서 에덴까지는 차로 약 " },
+                        { "type": "duration", "text": "1시간 20분~2시간" },
+                        { "text": "이 걸립니다. 도착 당일보다는 시내에 하룻밤 묵은 뒤 다음 날 아침 출발하는 일정이 편합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "택시·그랩·전세 차량",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "다바오 시내 중심가에서 택시나 그랩으로 약 " },
+                        { "type": "duration", "text": "1시간" },
+                        { "text": "이 걸리고, 편도 요금은 교통 상황에 따라 약 " },
+                        { "type": "price", "text": "₱600~1,000" },
+                        { "text": "입니다. 공원에서 시내로 돌아오는 택시는 잡기 어려우므로 왕복 대절이나 대기 조건으로 흥정하는 것이 안전합니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "일행이 여럿이면 밴이나 승용차를 하루 전세(약 " },
+                        { "type": "price", "text": "₱2,500~4,000" },
+                        { "text": ")로 빌려 에덴과 시내 명소를 함께 도는 것이 가장 편합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "공원 셔틀",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "공원 측이 시내 마티나 지역(마티나 타운 스퀘어 부근 영업소)에서 셔틀을 운영해 온 적이 있습니다. 주말 위주로 오전에 출발해 오후에 돌아오는 방식이었으며, 요금과 운행 여부가 자주 바뀌니 공원 영업소나 공식 SNS에서 최신 공지를 확인하십시오."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "지프니·하발하발",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "예산 여행자는 시내에서 토릴행 지프니(약 " },
+                        { "type": "price", "text": "₱20~40" },
+                        { "text": ")를 타고 토릴 시내까지 간 뒤, 에덴 방면 지프니나 하발하발(오토바이 택시, 약 " },
+                        { "type": "price", "text": "₱100~200" },
+                        { "text": ")로 산길을 올라갈 수 있습니다. 토릴에서 공원까지 약 " },
+                        { "type": "duration", "text": "30~40분" },
+                        { "text": "이 걸립니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "마지막 산길 구간은 오후 늦게 교통편이 줄어듭니다. 돌아올 때는 " },
+                        { "type": "time", "text": "오후 4시" },
+                        { "text": " 전에 공원을 나서는 것이 좋습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "다바오는 필리핀 태풍 경로에서 남쪽으로 벗어나 있어 태풍 피해가 드물고, 뚜렷한 건기와 우기의 구분 없이 연중 비가 고르게 내립니다. 에덴은 연중 방문할 수 있지만, 비교적 맑은 날이 많은 "
+            },
+            { "type": "date", "text": "1월~5월" },
+            { "text": "이 산책과 체험 시설 이용에 가장 좋습니다. " },
+            { "type": "date", "text": "6월~12월" },
+            { "text": "에는 오후 소나기와 안개가 잦으니 오전 일찍 도착해 야외 일정을 먼저 마치는 것이 좋습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "해발 약 " },
+            { "type": "distance", "text": "900m" },
+            { "text": " 고지라 낮 기온은 " },
+            { "type": "temperature", "text": "18~25℃" },
+            {
+              "text": " 안팎으로 시내보다 5~8도가량 낮고, 이른 아침과 밤에는 쌀쌀하게 느껴집니다. 하룻밤 묵는다면 얇은 긴팔이나 바람막이를 챙기십시오. "
+            },
+            { "type": "date", "text": "12월" },
+            { "text": "에는 연말 조명 장식과 행사가 열리기도 하며, 다바오의 가장 큰 축제인 카다야완(Kadayawan)이 열리는 " },
+            { "type": "date", "text": "8월" },
+            { "text": " 셋째 주 전후와 성주간, 연말 연휴에는 공원이 붐비고 숙소가 빨리 찹니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "입장료(점심 뷔페 포함 상품)", "price": "약 ₱600~900", "note": "평일·주말, 포함 내용에 따라 다름" },
+            { "label": "가이드 셔틀 투어", "price": "약 ₱120~200", "note": "약 45분, 선착순" },
+            { "label": "스카이라이더", "price": "약 ₱200~350", "note": "1회" },
+            { "label": "스카이사이클·스카이스윙", "price": "약 ₱200~500", "note": "종목·인원에 따라 다름" },
+            { "label": "승마·낚시", "price": "약 ₱100~300", "note": "시간·어획량 기준 별도" },
+            { "label": "수영장", "price": "약 ₱60~100", "note": "당일 방문객 기준" },
+            { "label": "시내–에덴 택시", "price": "편도 약 ₱600~1,000", "note": "왕복 대절 권장" },
+            { "label": "산장·코티지 숙박", "price": "1박 약 ₱4,000~6,500", "note": "2~4인 객실, 조식 포함 상품이 많음" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "공원 안에는 소나무 숲 사이에 자리한 코티지와 로지형 객실이 있으며, 2인실은 1박 약 " },
+            { "type": "price", "text": "₱4,000~5,000" },
+            { "text": ", 4인 가족실은 약 " },
+            { "type": "price", "text": "₱5,000~6,500" },
+            {
+              "text": " 수준입니다. 조식과 수영장 이용이 포함된 상품이 많고, 밤에는 에어컨 없이도 선선해 숲 소리를 들으며 쉴 수 있습니다. 주말과 연휴에는 단체 행사로 객실이 빨리 차니 미리 공원 영업소에 예약하십시오. 저렴하게 다녀오려면 다바오 시내(포블라시온·마티나·람푸도 일대)에 묵고 당일치기로 다녀오는 방법이 일반적입니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "식사는 공원 레스토랑의 점심 뷔페가 대표적입니다. 공원 농장에서 기른 상추·허브·채소로 만든 샐러드와 수프, 필리핀식 닭고기·돼지고기 요리가 나오며, 입장료에 뷔페가 포함된 상품을 고르면 따로 식당을 찾을 필요가 없습니다. 낚시터에서 잡은 틸라피아를 구이나 튀김으로 요리해 주기도 합니다. 시내로 돌아온 저녁에는 다바오의 명물인 참치 요리와 두리안, 망고스틴, 포멜로 같은 열대 과일을 맛보시기 바랍니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "공원 운영 시간은 대체로 " },
+                { "type": "time", "text": "오전 9시~오후 5시" },
+                { "text": "입니다. 문 여는 시간에 맞춰 도착하면 체험 시설 대기 줄이 짧고 안개 낀 숲 풍경도 볼 수 있습니다." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "입장권은 점심 뷔페 포함 여부, 셔틀 투어 포함 여부에 따라 상품이 나뉩니다. 요금과 구성이 자주 바뀌니 방문 전 공식 사이트나 영업소 전화로 확인하십시오."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "부지가 넓고 오르막이 많습니다. 걷기 편한 운동화를 신고, 셔틀 투어로 먼저 전체를 둘러본 뒤 걸어 다니는 것이 체력 안배에 좋습니다."
+                }
+              ]
+            },
+            { "children": [{ "text": "산 위는 시내보다 훨씬 선선하고 오후에 비가 자주 옵니다. 얇은 겉옷과 우산 또는 우비를 챙기십시오." }] },
+            {
+              "children": [
+                {
+                  "text": "돌아오는 교통편이 가장 큰 변수입니다. 택시를 타고 갔다면 기사와 대기 또는 픽업 시간을 미리 약속하거나 연락처를 받아 두십시오."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "공원 안에 작은 매점과 기념품점이 있지만 현금 위주입니다. 토릴 시내를 지날 때 ATM에서 현금을 넉넉히 뽑아 두십시오." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "필리핀 독수리 센터와 묶고 싶다면 두 곳이 시내를 사이에 두고 남서쪽과 북서쪽으로 떨어져 있으니, 하루에 모두 넣기보다 이틀로 나누는 편이 여유롭습니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "스카이스윙·스카이라이더 등 체험 시설은 키·체중·연령·건강 제한이 있습니다. 심장 질환이나 고혈압, 임신 중인 분은 이용하지 말고, 비바람이 강한 날에는 운영이 중단될 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "우기에는 숲길과 계단이 이끼와 진흙으로 미끄럽습니다. 슬리퍼보다는 밑창이 튼튼한 신발을 신으십시오." }] },
+            {
+              "children": [
+                {
+                  "text": "토릴에서 공원으로 오르는 산길은 굽은 길이 많고 가로등이 적습니다. 오토바이 택시를 타거나 직접 운전할 때는 해가 지기 전에 이동을 마치십시오."
+                }
+              ]
+            },
+            { "children": [{ "text": "사슴 방목장의 동물에게 사람 음식을 주거나 울타리 안으로 들어가지 마십시오." }] },
+            { "children": [{ "text": "고지대라 햇볕이 약해 보여도 자외선은 강합니다. 모자와 자외선 차단제를 챙기십시오." }] },
+            {
+              "children": [
+                { "text": "주말과 공휴일에는 단체 행사와 학생 견학이 몰려 시설 대기 시간이 길어집니다. 조용히 즐기려면 평일 오전에 방문하십시오." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "다바오 시티",
+              "place": "davao-city",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": ", 민다나오 최대 도시로 두리안과 열대 과일, 피플스 파크, 해산물 식당을 즐길 수 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "필리핀 독수리 센터",
+              "place": "philippine-eagle-center",
+              "children": [
+                { "text": "시내를 거쳐 차로 약 " },
+                { "type": "duration", "text": "1시간 30분~2시간" },
+                { "text": ", 멸종 위기인 필리핀 독수리를 가까이서 볼 수 있는 보호·번식 시설입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "사말 섬",
+              "place": "samal-island",
+              "children": [
+                { "text": "시내까지 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": " 이동 후 배로 " },
+                { "type": "duration", "text": "10~15분" },
+                { "text": ", 다바오 앞바다의 해변 리조트 섬입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "아포 산",
+              "place": "mount-apo",
+              "children": [
+                { "text": "다바오 델 수르·코타바토 방면 등산로 입구까지 차로 약 " },
+                { "type": "duration", "text": "2~3시간" },
+                { "text": ", 필리핀 최고봉 등반의 출발지입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

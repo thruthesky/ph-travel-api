@@ -1,0 +1,625 @@
+{
+  "id": 158,
+  "slug": "tabon-caves",
+  "title": { "type": "title", "text": "타본 동굴" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Tabon Caves" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "필리핀 사람의 시작을 찾아가는 동굴 여행" },
+  "island_group": { "type": "badge", "label": "권역", "value": "luzon", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "value": "palawan", "text": "팔라완" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "팔라완주 퀘존" },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "역사·문화"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["선사 유적", "타본인", "마눙굴 항아리", "석회암 동굴", "국립박물관"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.2, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 9.2799 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 117.9814 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "11월~5월 (건기)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "1박 2일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱1,500~3,000 (1일 기준)",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 3000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "보통",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "푸에르토 프린세사 국제공항(PPS)",
+    "code": "PPS"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/158-tabon-caves.webp",
+    "alt": "타본 동굴",
+    "credit": "Alexcooper1 / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:TabonCaves.JPG"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/158-tabon-caves-2.webp",
+        "alt": "타본 동굴",
+        "credit": "Jimaggro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tabon_Cave_2014_04.JPG"
+      },
+      {
+        "type": "image",
+        "url": "images/158-tabon-caves-3.webp",
+        "alt": "타본 동굴",
+        "credit": "Jimaggro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tabon_Cave_2014_02.JPG"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "팔라완 남서부 퀘존의 석회암 곶에 200여 개 동굴이 모인 선사 유적으로, 필리핀에서 가장 오래된 현생 인류 화석인 타본인과 국보 마눙굴 항아리가 나온 '필리핀 문명의 요람'입니다. 해안 보드워크를 따라 동굴과 현장 박물관을 둘러봅니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "타본 동굴은 팔라완 본섬 남서부 해안, 퀘존 판니티안 마을의 리푸운 포인트에 있는 동굴 유적입니다. 바다로 튀어나온 석회암 곶 전체에 약 218개의 동굴이 흩어져 있고, 그 가운데 약 38개에서 사람 뼈와 토기, 석기, 장신구가 나왔습니다. 필리핀 국립박물관이 직접 관리하며, 필리핀 사람들은 이곳을 '필리핀 문명의 요람'이라고 부릅니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "1962년 5월 28일" },
+            {
+              "text": " 미국 인류학자 로버트 폭스가 이끈 발굴단이 주 동굴에서 젊은 여성의 머리뼈 조각을 찾아냈습니다. '타본인'이라 불리는 이 화석은 약 "
+            },
+            { "type": "date", "text": "1만 6,500년 전" },
+            { "text": "의 것으로, 필리핀에서 발견된 현생 인류 유해 가운데 가장 오래된 축에 듭니다. 뒤이어 찾은 정강이뼈 조각은 약 " },
+            { "type": "date", "text": "4만 7천 년 전" },
+            { "text": "까지 거슬러 올라가며, 동굴에는 3만 년 전부터 9천 년 전까지 사람이 거의 끊이지 않고 살았던 흔적이 남아 있습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "후대에는 동굴이 무덤으로 쓰여 1,500여 개의 매장 항아리가 나왔습니다. 가장 유명한 마눙굴 항아리는 " },
+            { "type": "date", "text": "기원전 890~710년" },
+            {
+              "text": " 무렵 만들어진 것으로, 뚜껑 위에 영혼을 싣고 저승으로 노 저어 가는 배와 두 사람이 조각돼 있습니다. 원본은 국보로 지정돼 마닐라 국립박물관 인류학관에 있고, 이곳 현장 박물관에서는 복제품과 발굴 이야기를 볼 수 있습니다. 동굴 단지는 "
+            },
+            { "type": "date", "text": "2006년" },
+            { "text": " 유네스코 세계유산 잠정 목록에 올랐습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "2024년 2월" },
+            {
+              "text": " 리푸운 포인트에 현장 박물관이 문을 열고 해안을 따라 콘크리트 길과 보드워크가 놓이면서, 예전처럼 배를 빌리지 않고도 동굴 입구까지 걸어갈 수 있게 됐습니다. 화려한 종유석 동굴을 기대하면 실망할 수 있지만, 수만 년 전 사람이 머물던 자리에 직접 서 보는 경험은 특별합니다. 역사와 고고학에 관심 있는 여행자, 관광객이 적은 남부 팔라완을 여행하는 사람에게 권합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "리푸운 포인트 현장 박물관",
+              "children": [
+                {
+                  "text": "네 개의 전시실에서 타본인 머리뼈와 마눙굴 항아리 복제품, 동굴에만 사는 베고니아와 양치식물, 팔라완 원주민의 별자리 지식까지 소개합니다. 동굴에 들어가기 전에 먼저 보면 이해가 훨씬 쉽습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "해안 보드워크 걷기",
+              "children": [
+                { "text": "약 " },
+                { "type": "distance", "text": "1.3km" },
+                {
+                  "text": " 이어지는 콘크리트 길과 보드워크가 맹그로브와 석회암 절벽 사이를 지나 동굴 입구까지 이어집니다. 물빛 고운 만과 절벽 풍경이 함께 펼쳐집니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "타본 주 동굴",
+              "children": [
+                {
+                  "text": "타본인 화석이 나온 가장 큰 동굴로, 넓은 입구 안쪽에 발굴 구역 표지가 남아 있습니다. 천장의 구멍으로 빛이 들어와 동굴 안이 생각보다 밝습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "공개된 다른 동굴들",
+              "children": [
+                {
+                  "text": "가이드와 함께 디와타 동굴, 이강 동굴 등 공개된 몇 개 동굴을 차례로 둘러봅니다. 동굴마다 매장 항아리가 나온 자리와 쓰임새가 달라 가이드 설명이 핵심입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "마눙굴 항아리 이야기",
+              "children": [
+                {
+                  "text": "필리핀 옛사람들의 저승관이 담긴 매장 항아리가 발견된 마눙굴 동굴의 사연을 들어 보세요. 마닐라 국립박물관에서 원본을 함께 보면 여행이 완성됩니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "타타란 섬 모래톱",
+              "children": [
+                {
+                  "text": "퀘존 앞바다의 작은 섬으로, 썰물 때 약 1km 가까운 흰 모래톱이 드러납니다. 방카를 빌려 시다나오 섬 해변과 묶어 다녀오기 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "투마르봉 폭포",
+              "children": [
+                { "text": "퀘존 외곽 숲속의 폭포로, 짧은 트레킹과 강 보트를 곁들여 다녀옵니다. 동굴을 본 뒤 오후에 더위를 식히기 좋습니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "subtitle": "푸에르토 프린세사에서 이동",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "푸에르토 프린세사 산호세 터미널에서 퀘존행 버스·밴 출발" }] },
+                    { "time": "10:30", "children": [{ "text": "퀘존 타운 도착, 숙소에 짐 맡기고 점심" }] },
+                    { "time": "13:00", "children": [{ "text": "국립박물관 퀘존 사무소에서 방문 등록과 가이드 안내" }] },
+                    {
+                      "time": "14:00~17:00",
+                      "children": [{ "text": "리푸운 포인트 현장 박물관 관람, 보드워크 따라 동굴 탐방" }]
+                    },
+                    { "time": "저녁", "children": [{ "text": "퀘존 부둣가에서 해산물 저녁과 석양" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "subtitle": "섬과 폭포",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:00", "children": [{ "text": "방카를 빌려 타타란 섬 모래톱과 시다나오 섬" }] },
+                    { "time": "11:00", "children": [{ "text": "투마르봉 폭포 트레킹 또는 숙소 휴식" }] },
+                    { "time": "13:00", "children": [{ "text": "점심 후 푸에르토 프린세사행 버스·밴 탑승" }] },
+                    { "time": "17:00", "children": [{ "text": "푸에르토 프린세사 도착" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "시간이 빠듯하면 푸에르토 프린세사에서 차량을 대절해 새벽에 출발하는 당일치기도 가능하지만, 왕복 7~8시간을 차에서 보내야 하므로 1박을 권합니다."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "마닐라에서 푸에르토 프린세사 국제공항(PPS)까지 약 " },
+                        { "type": "duration", "text": "1시간 20분" },
+                        { "text": ", 편도 약 " },
+                        { "type": "price", "text": "₱1,500~5,000" },
+                        { "text": "입니다. 퀘존에는 공항이 없어 이곳에서 육로로 이동합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스·밴",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "푸에르토 프린세사 북쪽 산호세 터미널에서 체리 버스 등 퀘존행 버스와 공유 밴이 출발하며, 나라 읍을 거쳐 약 " },
+                        { "type": "distance", "text": "150km" },
+                        { "text": ", " },
+                        { "type": "duration", "text": "3~4시간" },
+                        { "text": " 걸립니다. 요금은 약 " },
+                        { "type": "price", "text": "₱300~450" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "편수가 많지 않고 오후 늦게는 차편이 끊기므로 오전에 출발하고, 돌아오는 차편 시간도 터미널에서 미리 확인하는 것이 좋습니다."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "자가용·차량",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "푸에르토 프린세사에서 기사 딸린 밴을 대절하면 1대 약 " },
+                        { "type": "price", "text": "₱6,000~9,000" },
+                        { "text": "으로, 4명 이상이면 당일치기도 할 만합니다. 남부 해안 도로는 대부분 포장돼 있습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "현지 이동",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "먼저 퀘존 타운 알폰소 13세 마을에 있는 국립박물관 사무소에 들러 방문을 등록합니다. 여기서 리푸운 포인트까지는 트라이시클을 대절해 가며 왕복 약 "
+                        },
+                        { "type": "price", "text": "₱400~800" },
+                        { "text": " 수준입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "예전에는 부두에서 방카를 빌려 약 " },
+                        { "type": "duration", "text": "30분~1시간" },
+                        { "text": " 바다로 건너갔고, 지금도 섬 호핑과 묶어 방카로 가는 방법이 있습니다. 방카 대절은 1척 약 " },
+                        { "type": "price", "text": "₱1,000~2,000" },
+                        { "text": "입니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "5월" },
+            {
+              "text": "까지가 건기로 방문하기 좋습니다. 이 시기에는 서쪽 바다가 비교적 잔잔해 섬 호핑을 함께하기 좋고, 보드워크와 동굴 바닥도 덜 미끄럽습니다. "
+            },
+            { "type": "date", "text": "3~5월" },
+            { "text": "은 한낮 기온이 " },
+            { "type": "temperature", "text": "33℃" },
+            { "text": " 안팎까지 오르므로 동굴 탐방은 오전 이른 시간이나 늦은 오후에 하는 것이 좋습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월" },
+            { "text": "부터 " },
+            { "type": "date", "text": "10월" },
+            {
+              "text": "까지는 남서 계절풍이 퀘존이 있는 서해안에 직접 불어와 비가 잦고 파도가 높습니다. 동굴 자체는 걸어서 갈 수 있지만 섬 호핑 배는 자주 취소되고, 폭우 뒤에는 동굴 안이 질척거립니다. 이 시기에 간다면 동굴과 박물관 위주로 짧게 둘러보는 일정이 현실적입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라–푸에르토 프린세사 항공", "price": "약 ₱1,500~5,000", "note": "편도" },
+            { "label": "푸에르토 프린세사–퀘존 버스·밴", "price": "약 ₱300~450", "note": "편도, 3~4시간" },
+            { "label": "밴 대절", "price": "약 ₱6,000~9,000", "note": "1대, 당일 왕복" },
+            { "label": "현장 박물관·보드워크", "price": "무료", "note": "방문 등록 필요" },
+            { "label": "가이드", "price": "약 ₱500~800", "note": "1팀, 운영 방식에 따라 다름" },
+            { "label": "트라이시클 대절", "price": "약 ₱400~800", "note": "타운–리푸운 포인트 왕복" },
+            { "label": "섬 호핑 방카", "price": "약 ₱1,500~3,000", "note": "1척, 반나절" },
+            { "label": "숙박", "price": "약 ₱800~2,500", "note": "1박, 펜션~해변 리조트" },
+            { "label": "식사", "price": "약 ₱400~800", "note": "1인 1일" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "퀘존은 관광객이 많지 않은 농어촌 소도시라 숙소가 소박합니다. 타운 중심과 부두 주변에 1박 약 " },
+            { "type": "price", "text": "₱800~1,500" },
+            { "text": "의 펜션과 로지가 있고, 타운 밖 해안에는 1박 약 " },
+            { "type": "price", "text": "₱1,500~2,500" },
+            {
+              "text": "의 작은 해변 리조트가 몇 곳 있습니다. 온라인 예약이 안 되는 곳이 많아 전화나 페이스북 메시지로 미리 연락하는 것이 확실합니다. 편의시설을 중시한다면 푸에르토 프린세사에서 당일로 다녀오는 방법도 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "먹거리는 시장 주변 카린데리아의 가정식이 중심입니다. 부둣가에서는 그날 잡은 생선과 오징어, 게를 구이나 시니강으로 먹을 수 있고, 팔라완 어디서나 즐겨 먹는 베트남식 쌀국수 차오롱도 한 그릇 약 "
+            },
+            { "type": "price", "text": "₱60~120" },
+            {
+              "text": "에 맛볼 수 있습니다. 식당이 일찍 문을 닫으므로 저녁은 해 지기 전후로 해결하고, 동굴 탐방 날에는 물과 간식을 넉넉히 챙겨 가는 것이 좋습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "국립박물관 시설은 월요일에 쉬는 경우가 많습니다. 방문 전에 국립박물관 타본 동굴 단지 페이스북이나 전화로 운영일과 등록 방법을 확인하는 것이 좋습니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "동굴 탐방은 등록 뒤 가이드와 함께 하는 것이 원칙입니다. 설명 없이는 그냥 빈 동굴로 보이기 쉬우니 가이드 이야기를 꼭 들으세요."
+                }
+              ]
+            },
+            {
+              "children": [{ "text": "보드워크와 동굴 사이에 계단과 경사가 있으므로 미끄럽지 않은 운동화나 아쿠아슈즈를 신는 것이 좋습니다." }]
+            },
+            { "children": [{ "text": "동굴 안쪽은 어두운 구간이 있어 작은 손전등이나 헤드랜턴이 있으면 편합니다." }] },
+            { "children": [{ "text": "퀘존에는 ATM이 적고 카드 결제가 거의 안 되므로 푸에르토 프린세사에서 현금을 준비해 가야 합니다." }] },
+            {
+              "children": [
+                { "text": "여행 전후로 마닐라 국립인류학박물관에서 마눙굴 항아리와 타본인 머리뼈 원본을 보면 이야기가 이어져 훨씬 흥미롭습니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "남부 팔라완 여행과 묶는다면 퀘존에서 남쪽 브룩스 포인트·리오투바 방면으로 이어 가는 동선이 효율적입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "타본 동굴 단지는 국가 문화재로 보호되는 발굴 유적입니다. 동굴 안의 흙이나 돌, 뼈, 토기 조각을 만지거나 가져가는 것은 법으로 금지되며, 출입 규정은 국립박물관 공지에 따라 바뀔 수 있으므로 최신 안내를 확인해야 합니다."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "발굴 구역 표지와 줄 안쪽으로 들어가지 말고, 동굴 벽에 낙서하거나 기대지 않아야 합니다." }] },
+            {
+              "children": [
+                { "text": "동굴 바닥은 박쥐 배설물과 습기로 미끄럽습니다. 넘어지지 않도록 천천히 움직이고, 손 소독제를 챙기는 것이 좋습니다." }
+              ]
+            },
+            { "children": [{ "text": "남부 팔라완 일부 숲 지역은 말라리아 위험이 남아 있으므로 긴 옷과 모기 기피제를 준비해야 합니다." }] },
+            {
+              "children": [{ "text": "우기에는 파도가 높아 방카 운항이 갑자기 취소될 수 있습니다. 해안경비대가 출항을 막으면 따라야 합니다." }]
+            },
+            {
+              "children": [
+                { "text": "퀘존과 푸에르토 프린세사를 잇는 대중교통은 오후에 끊기므로, 돌아가는 차편을 놓치지 않도록 일정을 여유 있게 잡아야 합니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "푸에르토 프린세사 시티",
+              "place": "puerto-princesa",
+              "children": [
+                { "text": "버스·밴으로 약 " },
+                { "type": "duration", "text": "3~4시간" },
+                { "text": ", 팔라완 박물관과 베이워크, 차오롱이 기다리는 팔라완의 주도입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "푸에르토 프린세사 지하강",
+              "place": "puerto-princesa-underground-river",
+              "children": [
+                { "text": "푸에르토 프린세사를 거쳐 약 " },
+                { "type": "duration", "text": "5~6시간" },
+                { "text": ", 유네스코 세계유산인 지하강을 배로 탐험합니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "발라박",
+              "place": "balabac",
+              "children": [
+                { "text": "퀘존에서 남쪽 리오투바까지 차로 약 " },
+                { "type": "duration", "text": "4~5시간" },
+                { "text": " 간 뒤 배로 건너는, 분홍 모래 해변과 무인도의 섬들입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "국립박물관",
+              "place": "national-museum",
+              "children": [{ "text": "마닐라 리살 공원 옆 국립인류학박물관에서 마눙굴 항아리와 타본인 머리뼈 원본을 볼 수 있습니다." }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -297,7 +297,7 @@ final class TravelDb
         return $st->fetch() ?: null;
     }
 
-    /** 직선거리로 가까운 여행지 — 100곳이라 PHP 에서 계산한다. @return list<array<string, mixed>> */
+    /** 직선거리로 가까운 여행지 — 200곳 안팎이라 PHP 에서 계산한다. @return list<array<string, mixed>> */
     public function near(string $slug, string $lang, int $limit = 5): array
     {
         $all = $this->db->query('SELECT id, slug, latitude, longitude FROM places')->fetchAll();

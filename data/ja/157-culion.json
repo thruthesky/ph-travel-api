@@ -1,0 +1,614 @@
+{
+  "id": 157,
+  "slug": "culion",
+  "title": { "type": "title", "text": "クリオン島" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Culion Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "ハンセン病患者の涙と希望が刻まれた記憶の島" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "palawan", "text": "パラワン" },
+  "location": { "type": "address", "label": "所在地", "icon": "location_on", "text": "パラワン州クリオン" },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "account_balance",
+    "value": "heritage",
+    "text": "歴史・文化"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "タグ",
+    "items": ["ハンセン病の歴史", "世界記憶遺産", "要塞教会", "展望の丘", "シュノーケリング"]
+  },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 11.8894 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.0181 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "11月〜5月(乾季)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "日帰り〜1泊2日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱2,000〜4,000(1日換算)",
+    "currency": "PHP",
+    "min": 2000,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "ふつう",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ブスアンガ空港(USU)",
+    "code": "USU"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/157-culion.webp",
+    "alt": "クリオン島",
+    "credit": "Marsmux / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Municipality_of_Culion_outlook_from_local_hillside.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/157-culion-2.webp",
+        "alt": "クリオン島",
+        "credit": "anne jimenez / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:La_Imaculada_Concepcion_Church_in_Culion,_Palawan.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/157-culion-3.webp",
+        "alt": "クリオン島",
+        "credit": "anne jimenez / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Culion_fishing_village.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "コロンの南にある静かな島で、20世紀初頭に世界最大規模のハンセン病療養所があった場所です。ユネスコ世界記憶遺産に登録された博物館とサンゴ石の要塞の上に立つ教会、患者たちが石を積んで作った鷲の紋章の丘を歩きながら、隔離と癒やしの歴史を振り返ることができます。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "クリオンはカラミアン諸島のブスアンガ島の南に位置する島であり、同じ名前の自治体でもあります。本島と周辺41の島を合わせた面積は約500km²、人口は約2万4千人です。コロンタウンから船で1時間ほどで着きますが、アイランドホッピングの人でにぎわうコロンとは違い、丘の上の教会と小さな港、パステルカラーの家々が調和した閑静な村の風景が広がります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "この島の歴史は" },
+            { "type": "date", "text": "1906年5月27日" },
+            {
+              "text": "、セブから約370人のハンセン病患者が船で到着したことで新たに始まりました。アメリカ植民地政府はフィリピン全土の患者をこの島に隔離し、クリオンは一時、世界最大のハンセン病療養所となりました。患者たちは家族と引き離され「戻れない島」へ送られ、感染への恐れから島の中だけで使う専用通貨まで作られました。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "しかしクリオンは絶望だけの島ではありませんでした。ここでは大風子油治療の研究や薬物治療の開発が行われ、患者たちは学校や教会、楽団を組織し自らコミュニティを築き上げました。1980年代に多剤併用療法によって治療が終わり、"
+            },
+            { "type": "date", "text": "1992年" },
+            { "text": "に保健省の管轄を離れ一般の自治体となり、" },
+            { "type": "date", "text": "2006年" },
+            { "text": "には世界保健機関からハンセン病制圧地域として認定されました。" },
+            { "type": "date", "text": "2018年" },
+            { "text": "にはクリオンのハンセン病記録文書がユネスコのアジア太平洋地域世界記憶遺産に登録されました。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "今日、住民の多くはかつての患者と職員の子孫です。華やかな見どころよりも一歩ずつ村を歩きながら物語に耳を傾ける旅先のため、歴史に関心のある旅行者、コロン旅行に1日加えてひと味違う体験を求める人、静かな島の村で休みたい人にぴったりです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "クリオン博物館・記録館",
+              "children": [
+                {
+                  "text": "クリオン療養・総合病院の敷地内、旧研究棟にある博物館で、患者の記録や写真、医療器具、専用通貨、大風子油治療の資料を展示しています。クリオン観光の出発点です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "ラ・インマクラダ・コンセプシオン教会",
+              "children": [
+                { "text": "港を見下ろす丘の上に立つ教会で、かつての要塞から運んだサンゴ石で壁が築かれています。黒ずんだ石壁と白い装飾の対比が印象的です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "クリオン要塞",
+              "children": [
+                { "type": "date", "text": "1740年" },
+                {
+                  "text": "にアウグスティノ・レコレクト会が海賊の襲撃を防ぐために築いたサンゴ石の要塞で、教会の隣に城壁の一部と大砲が残っています。城壁の上から見る海の景色が素晴らしいです。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "アギラの丘展望",
+              "children": [
+                { "type": "date", "text": "1926年" },
+                {
+                  "text": "に患者たちが白い石を積んで作った、フィリピン保健局の鷲の紋章が刻まれた丘です。約330段の階段を登ると、村と港、遠くコロン島まで一望できます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "旧療養所の村歩き",
+              "children": [
+                {
+                  "text": "患者の居住区域と職員の行政区域に分かれていた村の構造、旧庁舎と監獄、病院の建物が残っています。現地ガイドと一緒に歩けば、建物ごとにまつわる物語を聞くことができます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "クラウニング・グローリー・リーフでシュノーケリング",
+              "children": [
+                {
+                  "text": "村の沖合にある海洋保護区で、水が澄んでおりサンゴと熱帯魚が豊富です。バンカ船をチャーターして周辺の無人島ビーチと合わせて半日のアイランドホッピングができます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "ホテル・マヤのテラスで夕日",
+              "children": [
+                { "text": "教会の隣、崖の上にある学校運営のホテルで、宿泊しなくてもレストランのテラスで港の向こうに沈む夕日を見ながら食事ができます。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "日帰り",
+              "subtitle": "コロン発",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "コロン港から高速船でクリオンへ出発" }] },
+                    { "time": "07:00", "children": [{ "text": "クリオン港到着、村の食堂で朝食" }] },
+                    { "time": "08:30", "children": [{ "text": "クリオン博物館・記録館を見学" }] },
+                    { "time": "10:30", "children": [{ "text": "教会とクリオン要塞、旧療養所の村を散策" }] },
+                    { "time": "12:00", "children": [{ "text": "ホテル・マヤのテラスで昼食" }] },
+                    { "time": "13:30", "children": [{ "text": "アギラの丘の階段を登り村を一望" }] },
+                    { "time": "午後", "children": [{ "text": "高速船でコロンへ戻る(時刻表要確認)" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1泊2日",
+              "subtitle": "歴史と海",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "1日目午前", "children": [{ "text": "コロンから船で移動、宿にチェックイン" }] },
+                    { "time": "1日目午後", "children": [{ "text": "博物館、教会、要塞、旧村を歩く" }] },
+                    { "time": "1日目夕方", "children": [{ "text": "要塞の城壁で夕日、ホテル・マヤで夕食" }] },
+                    { "time": "2日目 06:00", "children": [{ "text": "涼しい朝にアギラの丘を登る" }] },
+                    {
+                      "time": "2日目午前",
+                      "children": [{ "text": "バンカ船でクラウニング・グローリー・リーフのシュノーケリングと周辺の島へ" }]
+                    },
+                    { "time": "2日目午後", "children": [{ "text": "船でコロンへ戻る" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "マニラ、クラーク、セブからブスアンガ空港(USU)への直行便があり、マニラから約" },
+                        { "type": "duration", "text": "1時間" },
+                        { "text": "、片道約" },
+                        { "type": "price", "text": "₱2,500〜6,000" },
+                        { "text": "です。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "空港からコロンタウンまで乗り合いバンで約" },
+                        { "type": "duration", "text": "40分" },
+                        { "text": "、1人約" },
+                        { "type": "price", "text": "₱150〜250" },
+                        { "text": "で、コロン港からクリオン行きの船に乗ります。始発の船に乗るならコロンで1泊するのがおすすめです。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "モンテネグロ・ラインズの高速船がコロン港とクリオンの間を1日2便前後運航しており、約" },
+                        { "type": "duration", "text": "45分〜1時間" },
+                        { "text": "、片道約" },
+                        { "type": "price", "text": "₱420" },
+                        { "text": "にターミナル利用料が別途かかります。コロン発は通常早朝と正午頃です。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "大型バンカ客船はコロンを" },
+                        { "type": "time", "text": "午後1時" },
+                        { "text": "頃に出発し約" },
+                        { "type": "duration", "text": "1時間30分〜2時間" },
+                        { "text": "かかり、運賃は約" },
+                        { "type": "price", "text": "₱200" },
+                        { "text": "前後です。クリオンからコロンへは翌朝戻るため、1泊の旅に向いています。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "運航時間と運賃は船会社の都合と天候で頻繁に変わるため、前日にコロン港の切符売り場で最新の時刻表を確認する必要があります。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ツアー",
+              "icon": "tour",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "コロンの旅行会社によるクリオン歴史ツアーは往復ボートとガイド、昼食込みで1人約" },
+                        { "type": "price", "text": "₱1,500〜3,000" },
+                        { "text": "です。グループがいるならプライベートバンカ船を1隻約" },
+                        { "type": "price", "text": "₱3,000〜6,000" },
+                        { "text": "でチャーターし、好きな時間に行き来できます。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "現地移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "港、教会、博物館、ホテル・マヤはすべて徒歩" },
+                        { "type": "duration", "text": "10〜15分" },
+                        { "text": "圏内にあります。暑い日はトライシクル(1回約" },
+                        { "type": "price", "text": "₱20〜50" },
+                        { "text": ")を利用すればよいでしょう。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11月" },
+            { "text": "から" },
+            { "type": "date", "text": "5月" },
+            { "text": "までが乾季で、船便が安定しアギラの丘の眺めも澄んでいます。特に" },
+            { "type": "date", "text": "3〜5月" },
+            { "text": "は海が最も穏やかでシュノーケリングに良いですが、日中の気温が高いため階段登りは早朝か夕暮れに行うのがおすすめです。" },
+            { "type": "date", "text": "12〜2月" },
+            { "text": "は北東風の影響でコロンとクリオンの間の海に波が立つ日があり、小さなバンカ船より高速船のほうが快適です。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月" },
+            { "text": "から" },
+            { "type": "date", "text": "10月" },
+            {
+              "text": "までは南西季節風の影響で雨が多く、台風情報が出ると沿岸警備隊が出航を止め島に足止めされることがあります。この時期はコロンの日程に予備日を入れ、クリオンは天気の良い日に日帰りで訪れるのが安全です。最初の患者が到着した"
+            },
+            { "type": "date", "text": "5月末" },
+            { "text": "には島の歴史を記念する行事が開かれることもあります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "マニラ〜ブスアンガ 航空", "price": "約₱2,500〜6,000", "note": "片道" },
+            { "label": "空港〜コロンタウン バン", "price": "約₱150〜250", "note": "1人、片道" },
+            { "label": "コロン〜クリオン 高速船", "price": "約₱420", "note": "片道、ターミナル利用料別" },
+            { "label": "コロン〜クリオン バンカ客船", "price": "約₱200", "note": "片道、1時間30分〜2時間" },
+            { "label": "クリオン歴史ツアー", "price": "約₱1,500〜3,000", "note": "1人、コロン発着往復込み" },
+            { "label": "博物館入場料", "price": "約₱100〜150", "note": "1人" },
+            { "label": "シュノーケリング バンカ船チャーター", "price": "約₱1,500〜3,000", "note": "半日、1隻" },
+            { "label": "宿泊", "price": "約₱800〜3,500", "note": "1泊、民宿〜ホテル・マヤ" },
+            { "label": "食事", "price": "約₱500〜1,000", "note": "1人1日" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "クリオンの宿泊施設は多くありません。最もよく知られているのは教会と要塞の隣、崖の上にあるホテル・マヤで、イエズス会系の学校ロヨラ・カレッジ・オブ・クリオンが運営し、学生の実習の場であり奨学金の財源にもなっています。1泊約"
+            },
+            { "type": "price", "text": "₱2,000〜3,500" },
+            { "text": "程度で、部屋から港を見下ろせます。港の近くには1泊約" },
+            { "type": "price", "text": "₱800〜1,500" },
+            { "text": "の扇風機付きの部屋のロッジと民宿が数軒あります。部屋数が少ないため、連休と繁忙期は事前に連絡して予約するのがおすすめです。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "食堂も素朴です。港と市場周辺のカリンデリアでは魚の煮付け、アドボ、シニガンといった家庭料理を1食約" },
+            { "type": "price", "text": "₱100〜200" },
+            {
+              "text": "で食べられ、ホテル・マヤのレストランでは新鮮な魚の炭火焼きとフィリピン料理を眺めと一緒に楽しめます。沖合で獲れたイカやカニ、海藻の料理が安くておいしいです。夜早く閉まる店が多いため、夕食は早めの時間に済ませるのがおすすめです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "博物館は平日中心に開いており、昼休みに閉まることが多いです。週末や祝日に行くなら事前に営業状況を確認するのがおすすめです。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "現地ガイドと一緒に村を歩けば、建物や記録にまつわる物語をより深く聞くことができます。宿や観光案内所に頼めば紹介してもらえます。" }
+              ]
+            },
+            { "children": [{ "text": "島にはATMがないか故障していることが多いため、コロンで現金を十分に引き出しておく必要があります。" }] },
+            { "children": [{ "text": "アギラの丘は日陰の少ない急な階段のため、水と帽子を持参し、日差しの強い日中は避けるのがおすすめです。" }] },
+            { "children": [{ "text": "日帰りなら帰りの船の時間を先に確認してから日程を組む必要があります。午後の船を逃すと島で1泊することになります。" }] },
+            { "children": [{ "text": "シュノーケリング用品は島で借りるのが難しいため、コロンで借りていくか自分で用意するのがおすすめです。" }] },
+            {
+              "children": [{ "text": "携帯電話の電波は村では概ね入りますがインターネットが遅いため、地図と船の時刻表は事前に保存しておくのがおすすめです。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "クリオンはハンセン病制圧が公式に宣言された場所で、旅行における感染リスクはありません。むしろ「ハンセン病の島」という偏見が住民たちに長年の傷を残してきたため、言葉と行動で敬意を払う必要があります。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "住民や病院の患者を許可なく撮影せず、病院の敷地内では案内に従って静かに行動する必要があります。" }] },
+            { "children": [{ "text": "要塞の城壁と古い建物は壊れやすいため、城壁の上に登ったりレンガを持ち去ったりしないでください。" }] },
+            {
+              "children": [
+                { "text": "海が荒れている日に小さなバンカ船で渡るのは危険です。ライフジャケットを着用し、沿岸警備隊が出航を止めた場合は日程を延期する必要があります。" }
+              ]
+            },
+            { "children": [{ "text": "海洋保護区ではサンゴを踏んだり触ったりせず、サンゴに優しい日焼け止めを使うのがおすすめです。" }] },
+            { "children": [{ "text": "夜は街灯の少ない道が多いため懐中電灯を持参し、丘の階段は暗くなる前に降りる必要があります。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "コロン",
+              "place": "coron",
+              "children": [
+                { "text": "高速船で約" },
+                { "type": "duration", "text": "45分〜1時間" },
+                { "text": "、カヤンガン湖と沈没船ダイビングで有名なカラミアン諸島の中心地です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "カラウィット・サファリパーク",
+              "place": "calauit-safari-park",
+              "children": [
+                { "text": "コロンタウンから車で約" },
+                { "type": "duration", "text": "2〜3時間" },
+                { "text": "、アフリカのキリンとシマウマが駆け回るブスアンガ北部の野生保護区です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "リナパカン",
+              "place": "linapacan",
+              "children": [
+                { "text": "クリオンの南の海に散らばる島々で、コロンから船で約" },
+                { "type": "duration", "text": "3〜4時間" },
+                { "text": "かかる、澄んだ水色の無人島の楽園です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "エルニド",
+              "place": "el-nido",
+              "children": [
+                { "text": "コロンから高速船で約" },
+                { "type": "duration", "text": "3時間30分〜4時間" },
+                { "text": "、石灰岩の断崖とラグーンが調和するパラワン北部を代表するリゾート地です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

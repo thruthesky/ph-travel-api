@@ -1,4 +1,4 @@
-# 필리핀 여행 100선 — 여행지 JSON 작성 규격
+# 필리핀 여행 200선 — 여행지 JSON 작성 규격
 
 - 여행지 원본: `data/ko/<번호 3자리>-<slug>.json` (예: `data/ko/030-vigan.json`) — 한국어가 원본 언어다.
 - 번역본: `data/<언어>/<같은 이름>.json` — `en`·`zh`·`ja`·`th`·`vi`·`ru`·`ar` (7절)
@@ -80,7 +80,7 @@
 | `stay_and_food` | 숙소와 먹거리 | `restaurant` | `paragraph` — 숙박 지역·가격대, 대표 음식. 업소 이름은 오래 운영된 유명 업소만 |
 | `tips` | 여행 팁 | `lightbulb` | `list`(`icon: "check_circle"`) 하나, 항목 6~10개 |
 | `cautions` | 주의사항 | `warning` | 핵심 경고가 있으면 `alert`(`variant: "warning"`, `icon: "warning"`) 1개 + `list`(`icon: "error"`) 항목 4~6개 |
-| `nearby` | 함께 가보면 좋은 곳 | `explore` | `grid`(`columns: 2`) 하나, 안에 `card` 3~5개 — `title`, `children`(거리·이동 시간과 한 줄 소개). 100선에 있는 곳은 `place: "<slug>"` 를 붙인다 |
+| `nearby` | 함께 가보면 좋은 곳 | `explore` | `grid`(`columns: 2`) 하나, 안에 `card` 3~5개 — `title`, `children`(거리·이동 시간과 한 줄 소개). 200선에 있는 곳은 `place: "<slug>"` 를 붙인다 |
 
 - **stepper 항목:** `{ "time": "06:00", "children": [ … ] }`. time 은 `06:00`, `14:00~16:00`, `오전 8시`, `1일차 오후` 처럼 짧게 쓰고, 시각이 없는 항목은 time 을 뺀다. 일정 사이의 보충 설명은 같은 탭의 `paragraph` 로 둔다.
 - **accordion 아이콘:** 비행기 `flight` · 배 `directions_boat` · 버스·밴 `directions_bus` · 지프니 `airport_shuttle` · 택시·그랩 `local_taxi` · 트라이시클 `electric_rickshaw` · 자가용·차량 `directions_car` · 경전철 `train` · 도보·트레킹 `directions_walk` · 투어 `tour` · 현지 이동 `commute` · 그 밖 `route`.
@@ -159,6 +159,8 @@
 | 번역을 번역본으로 쓰기 | `node scripts/i18n.mjs import <언어> [파일…]` → `data/<언어>/<이름>.json` |
 | 쓰기 형식 맞추기 | `node scripts/i18n.mjs format` |
 
-- 번역 파일은 한 줄에 글 하나(`@번호 글`)이고, 값 조각은 `⟦type|글⟧` 로 쓴다. 규칙은 [i18n/GUIDE.md](../i18n/GUIDE.md) 에 있다.
+- 번역 파일은 한 줄에 글 하나(`@번호 글`)이고, 값 조각은 `⟦type|글⟧` 로 쓴다.
+- `link`·`place_link` 조각도 `⟦link|글⟧`·`⟦place_link|글⟧` 로 글만 번역한다. 주소(`url`)·여행지(`slug`)는 언어와 무관해서 도구가 원본의 같은 type 몇 번째 조각에서 옮긴다.
+- price 조각의 숫자는 원문과 같아야 한다. 원본에 `₱100억` 처럼 한국어 단위를 쓰면 다른 언어가 같은 숫자로 옮길 수 없으니 `₱10,000,000,000` 처럼 숫자로 쓴다. 규칙은 [i18n/GUIDE.md](../i18n/GUIDE.md) 에 있다.
 - 여행지 이름·지역·태그·공항 이름은 언어별 어휘집 `i18n/glossary/<언어>.json` 의 표기를 따른다.
 - `_i18n/` 은 작업 폴더라 git 에 넣지 않는다.

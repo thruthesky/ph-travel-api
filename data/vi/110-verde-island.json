@@ -1,0 +1,835 @@
+{
+  "id": 110,
+  "slug": "verde-island",
+  "title": { "type": "title", "text": "Đảo Verde" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Verde Island" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Hòn đảo xanh nổi giữa trung tâm đa dạng sinh vật biển của thế giới"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "batangas", "text": "Batangas" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Đảo Verde, thành phố Batangas, tỉnh Batangas"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "Lặn & đại dương"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": [
+      "Lặn tường (wall diving)",
+      "Đa dạng sinh vật biển",
+      "Eo biển đảo Verde",
+      "Vách đứng dưới nước (drop-off)",
+      "Lặn ống thở"
+    ]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 13.5497 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 121.0708 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 11 – Tháng 5 (mùa biển lặng)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "1 đêm 2 ngày – 2 đêm 3 ngày"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱4,000–9,000/người (mỗi ngày, gồm lặn biển)",
+    "currency": "PHP",
+    "min": 4000,
+    "max": 9000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Trung bình",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay quốc tế Ninoy Aquino (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/110-verde-island.webp",
+    "alt": "Đảo Verde",
+    "credit": "Dastreetfilmer / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Verde_island_Batangas2.JPG"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/110-verde-island-2.webp",
+        "alt": "Đảo Verde",
+        "credit": "Dmitry Domrin / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Four_butterfly_fish_swim_over_a_coral_reef._Verde_Island_National_Marine_Reserve._Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/110-verde-island-3.webp",
+        "alt": "Đảo Verde",
+        "credit": "Kampfgruppe / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Verde_Island.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Đây là hòn đảo núi lửa nhỏ nằm giữa eo biển đảo Verde, ngăn cách Luzon và Mindoro. Eo biển này được mệnh danh là \"trung tâm của trung tâm\" đa dạng cá ven bờ cao nhất thế giới, và vách đứng dưới nước ngay trước đảo là điểm lặn tường tiêu biểu của Philippines, nơi đàn cá và san hô bùng nổ giữa dòng chảy mạnh."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Đảo Verde là hòn đảo núi lửa cách thành phố Batangas khoảng " },
+            { "type": "duration", "text": "1 giờ – 1 giờ 30 phút" },
+            {
+              "text": " đi thuyền về phía nam, về mặt hành chính thuộc thành phố Batangas. Trên đảo có khoảng 5.000 người dân sinh sống trong sáu làng: Liponpon, San Agapito, San Agustin Đông, San Agustin Tây, San Andres và San Antonio; đỉnh cao nhất là Liponpon, cao khoảng "
+            },
+            { "type": "distance", "text": "300m" },
+            {
+              "text": ". Đúng như tên gọi, toàn bộ đảo được bao phủ bởi rừng xanh, còn bờ biển xen kẽ giữa vách đá và những bãi cát trắng nhỏ."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Điều làm nên nét đặc biệt của đảo Verde chính là eo biển đảo Verde bao quanh nó. Trong nghiên cứu công bố "
+            },
+            { "type": "date", "text": "năm 2005" },
+            {
+              "text": ", hai nhà sinh vật học biển người Mỹ Kent Carpenter và Victor Springer đã xác định eo biển này là \"trung tâm của trung tâm\" đa dạng cá ven bờ. Điều này có nghĩa là dù nằm trong Tam giác San hô — khu vực có sinh vật rạn san hô phong phú nhất thế giới — đây vẫn là nơi có số loài cá trên mỗi đơn vị diện tích cao nhất. Khu vực eo biển là nơi sinh sống của hơn 300 loài san hô cùng các loài được bảo vệ như rùa biển, cá bàng chài Napoleon và trai khổng lồ."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Vì là eo biển hẹp nối liền Biển Đông và biển Sibuyan, dòng chảy ở đây rất mạnh, và chính dòng chảy này mang theo dinh dưỡng nuôi dưỡng đàn cá và san hô mềm. Vì vậy, vách đứng dưới nước trước đảo là nơi bạn có thể chiêm ngưỡng đàn cá nhồng, cá khế, rùa biển và những cây san hô quạt đầy màu sắc cùng lúc, nhưng cũng là điểm lặn chỉ phù hợp với thợ lặn có kinh nghiệm xử lý dòng chảy. Vào "
+            },
+            { "type": "date", "text": "năm 2017" },
+            {
+              "text": ", năm tỉnh quanh eo biển gồm Batangas, Mindoro… đã cùng thành lập mạng lưới khu bảo tồn biển của eo biển để bảo vệ nơi này, và đến "
+            },
+            { "type": "date", "text": "năm 2023" },
+            {
+              "text": ", tổ chức bảo tồn biển quốc tế Mission Blue đã công nhận nơi đây là \"Điểm Hy vọng\" (Hope Spot)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Phần lớn du khách đến đây bằng thuyền từ các khu nghỉ dưỡng lặn biển ở Puerto Galera (Mindoro) hoặc Anilao (Batangas) để lặn trong ngày. Nếu không lặn biển, bạn vẫn có thể có một ngày yên tĩnh tại bãi cát trắng dài khoảng 1km Mahabang Buhangin ở phía nam đảo, lối đi qua hang đá dẫn sang phía đối diện của đảo, hay tại homestay trong làng đảo. Nơi này phù hợp với thợ lặn từ trình độ trung cấp trở lên, nhiếp ảnh gia sinh vật biển, và những du khách tìm kiếm một hòn đảo không đông đúc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Lặn vách đứng dưới nước đảo Verde",
+              "children": [
+                { "text": "Đây là điểm lặn tiêu biểu, nơi bức tường san hô đổ xuống hơn " },
+                { "type": "distance", "text": "40m" },
+                {
+                  "text": " quanh khối đá nhô lên khỏi mặt nước. Điểm nhấn chính là lặn trôi (drift diving) — thả mình theo dòng chảy dọc bức tường để ngắm đàn cá và san hô mềm."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Đàn cá và các loài cá lớn",
+              "children": [
+                {
+                  "text": "Vào những ngày dòng chảy mạnh, cá nhồng và cá khế thường tụ tập thành đàn lớn xoay vòng, và nếu may mắn bạn còn có thể gặp cá bàng chài Napoleon hay rùa biển. Phía dưới vách đứng, những cây san hô quạt lớn và hải miên tạo nên khung cảnh ngoạn mục."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Tìm kiếm sinh vật macro",
+              "children": [
+                {
+                  "text": "Trong các khe san hô có đầy sên biển (nudibranch), tôm, cua và các loài cá mù (scorpionfish) nhỏ. Vườn san hô nông với dòng chảy yếu rất được các nhiếp ảnh gia macro yêu thích."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Lặn ống thở ở vườn san hô",
+              "children": [
+                {
+                  "text": "Tại khu vực san hô nông ven đảo, khi nước lặng, bạn vẫn có thể lặn ống thở để ngắm cá bướm, cá thia và các rạn san hô. Hãy luôn đi cùng thủy thủ đoàn hoặc hướng dẫn viên."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Bãi biển Mahabang Buhangin",
+              "children": [
+                { "text": "Đây là bãi cát trắng dài khoảng " },
+                { "type": "distance", "text": "1km" },
+                {
+                  "text": ", tên có nghĩa là \"cát dài\". Rất thích hợp để nghỉ ngơi giữa các lần lặn, hoặc để những người không lặn biển dạo bộ và bơi lội."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Lối đi qua hang đá",
+              "children": [
+                {
+                  "text": "Có một lối đi xuyên qua hang đá từ bờ biển bên này đảo sang phía đối diện. Hãy đi cùng người dân địa phương hướng dẫn và chọn thời điểm thủy triều thuận lợi."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Homestay ở làng đảo",
+              "children": [
+                {
+                  "text": "Nếu qua đêm tại làng chài chưa bị du lịch hóa nhiều, bạn sẽ được ngắm ánh đèn của những con thuyền qua lại trên eo biển, bầu trời sao, và cảnh những chiếc thuyền đánh cá trở về vào sáng sớm."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Ngày lặn 1",
+              "subtitle": "Xuất phát từ Puerto Galera",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:30",
+                      "children": [
+                        {
+                          "text": "Tập trung tại cửa hàng lặn ở bãi biển Sabang, họp ngắn và kiểm tra thiết bị"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "Di chuyển đến đảo Verde bằng thuyền (khoảng " },
+                        { "type": "duration", "text": "30–45 phút" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [{ "text": "Lặn lần 1 — Lặn trôi tại vách đứng đảo Verde" }]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [{ "text": "Nghỉ ngơi và ăn nhẹ trên bãi biển hoặc trên thuyền" }]
+                    },
+                    {
+                      "time": "11:30",
+                      "children": [{ "text": "Lặn lần 2 — Vườn san hô có dòng chảy yếu" }]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [{ "text": "Quay lại Puerto Galera, ăn trưa và ghi nhật ký lặn" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Giờ lặn và thứ tự các điểm lặn thay đổi mỗi ngày tùy theo dòng chảy và thủy triều. Các khu nghỉ dưỡng ở Anilao cũng tổ chức các chuyến lặn đảo Verde với cấu trúc tương tự, nhưng thời gian di chuyển sẽ dài hơn một chút."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 1",
+              "subtitle": "Du lịch đảo",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "05:00",
+                      "children": [{ "text": "Bắt xe buýt đi thành phố Batangas từ Manila" }]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "Đến cảng Batangas, kiểm tra rồi lên thuyền đi đảo Verde" }
+                      ]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [{ "text": "Đến đảo Verde, nhận phòng homestay" }]
+                    },
+                    {
+                      "time": "11:00–15:00",
+                      "children": [{ "text": "Bơi lội và ăn trưa tại bãi biển Mahabang Buhangin" }]
+                    },
+                    {
+                      "time": "15:30",
+                      "children": [
+                        { "text": "Thăm lối đi hang đá cùng người dân hướng dẫn, hoặc lặn ống thở" }
+                      ]
+                    },
+                    {
+                      "time": "18:00",
+                      "children": [{ "text": "Ngắm hoàng hôn trên eo biển và ăn tối hải sản" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ngày 2",
+              "subtitle": "Biển buổi sáng và trở về",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00",
+                      "children": [
+                        { "text": "Dạo bộ trên bãi biển làng khi thuyền đánh cá trở về" }
+                      ]
+                    },
+                    {
+                      "time": "07:00",
+                      "children": [{ "text": "Lặn ống thở buổi sáng (thời điểm biển lặng nhất)" }]
+                    },
+                    { "time": "09:00", "children": [{ "text": "Đi thuyền quay về cảng Batangas" }] },
+                    {
+                      "time": "11:00",
+                      "children": [
+                        {
+                          "text": "Ăn trưa với lomi tại thành phố Batangas rồi di chuyển về Manila"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Xe buýt",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Từ Cubao, Buendia, PITX ở Manila có các chuyến xe buýt đi cảng Batangas (Pier). Mất khoảng "
+                        },
+                        { "type": "duration", "text": "2–3 giờ" },
+                        { "text": ", giá vé khoảng " },
+                        { "type": "price", "text": "₱250–350" },
+                        { "text": ". Thợ lặn đi Puerto Galera cũng lên thuyền từ cùng cảng này." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Thuyền — Cảng Batangas",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Từ cảng Batangas có thuyền công cộng dành cho người dân đi đến làng trên đảo Verde, mất khoảng "
+                        },
+                        { "type": "duration", "text": "1 giờ – 1 giờ 30 phút" },
+                        {
+                          "text": ". Số chuyến khá ít và giờ giấc thay đổi tùy thời tiết, số lượng hành khách, nên việc đi về trong ngày có thể khó khăn; hãy kiểm tra tại cảng vào hôm trước hoặc sáng cùng ngày."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Nếu đi theo nhóm, thuê nguyên một chiếc thuyền banca sẽ chắc chắn hơn. Giá khứ hồi khoảng "
+                        },
+                        { "type": "price", "text": "₱3,000–6,000" },
+                        { "text": ", thương lượng tùy theo số người và thời gian chờ." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Thuyền — Khu nghỉ dưỡng lặn biển",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Nếu là thợ lặn, thuyền của cửa hàng lặn ở Puerto Galera (Sabang, Small La Laguna) là tiện nhất. Đến đảo Verde mất khoảng "
+                        },
+                        { "type": "duration", "text": "30–45 phút" },
+                        { "text": ", còn từ cảng Batangas đến Puerto Galera bằng phà mất khoảng " },
+                        { "type": "duration", "text": "1 giờ – 1 giờ 30 phút" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Các khu nghỉ dưỡng lặn biển ở Anilao cũng tổ chức chuyến lặn đến đảo Verde. Thời gian đi thuyền khoảng "
+                        },
+                        { "type": "duration", "text": "1 giờ" },
+                        { "text": ", và thường chỉ khởi hành khi đủ số người, nên hãy đặt trước." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Xe riêng",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "Từ cuối cao tốc SLEX–STAR đến cảng Batangas mất khoảng " },
+                        { "type": "duration", "text": "2 giờ – 2 giờ 30 phút" },
+                        {
+                          "text": ". Bạn có thể gửi xe tại các bãi đậu xe tư nhân quanh cảng với giá khoảng "
+                        },
+                        { "type": "price", "text": "₱200–300" },
+                        { "text": "/ngày." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "Tháng 11 – tháng 5" },
+            { "text": " là thời điểm tốt nhất, đặc biệt " },
+            { "type": "date", "text": "tháng 3 – tháng 5" },
+            { "text": " biển lặng và nhiều ngày tầm nhìn dưới nước đạt tới " },
+            { "type": "distance", "text": "15–25m" },
+            { "text": ", lý tưởng cho lặn biển. Nhiệt độ nước thường khoảng " },
+            { "type": "temperature", "text": "26–29℃" },
+            { "text": ", chỉ cần đồ lặn 3mm là đủ. Vào " },
+            { "type": "date", "text": "tháng 12 – tháng 2" },
+            {
+              "text": ", gió mùa đông bắc khiến gió mạnh hơn vào buổi chiều và nhiệt độ nước giảm nhẹ, nên hãy lên kế hoạch lặn chủ yếu vào buổi sáng."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Vào mùa mưa " },
+            { "text": "tháng 6 – tháng 10", "type": "date" },
+            {
+              "text": ", gió mùa tây nam và bão khiến eo biển trở nên dữ dội, lực lượng tuần duyên thường xuyên tạm dừng các thuyền nhỏ. Các cửa hàng lặn cũng hay đổi sang điểm lặn gần đảo hơn hoặc hủy chuyến. Dòng chảy chịu ảnh hưởng của con nước nhiều hơn là mùa, đặc biệt mạnh vào những ngày triều cường quanh trăng tròn và trăng non."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Xe buýt từ Manila đến cảng Batangas",
+              "price": "Khoảng ₱250–350 một chiều",
+              "note": "Tùy hãng xe"
+            },
+            {
+              "label": "Phà từ Batangas đến Puerto Galera",
+              "price": "Khoảng ₱400–600 một chiều",
+              "note": "Chưa gồm phí bến, phí môi trường"
+            },
+            {
+              "label": "Lặn giải trí (fun dive)",
+              "price": "Khoảng ₱1,500–2,500 một lần",
+              "note": "Có thể phát sinh thêm phí thuyền đi đảo Verde"
+            },
+            {
+              "label": "Thuê thiết bị",
+              "price": "Khoảng ₱500–1,000/ngày",
+              "note": "Tính theo bộ đầy đủ"
+            },
+            {
+              "label": "Phí sử dụng khu bảo tồn biển",
+              "price": "Khoảng ₱100–300/người",
+              "note": "Kiểm tra thông báo mới nhất"
+            },
+            {
+              "label": "Thuê nguyên thuyền banca (xuất phát từ cảng Batangas)",
+              "price": "Khoảng ₱3,000–6,000 khứ hồi",
+              "note": "Thương lượng theo số người và thời gian chờ"
+            },
+            {
+              "label": "Lưu trú",
+              "price": "Khoảng ₱1,000–5,000/đêm",
+              "note": "Từ homestay trên đảo đến khu nghỉ dưỡng lặn biển trên đất liền"
+            },
+            {
+              "label": "Bữa ăn",
+              "price": "Khoảng ₱200–500 một bữa",
+              "note": "Khu nghỉ dưỡng · Quán ăn địa phương"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá là mức ước tính theo " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Chỗ ở trên đảo Verde khá ít lựa chọn và giản dị, chỉ gồm vài khu nghỉ dưỡng nhỏ và homestay của người dân (khoảng "
+            },
+            { "type": "price", "text": "₱1,000–3,000" },
+            {
+              "text": "/đêm). Vì vậy, phần lớn thợ lặn chọn ở tại bãi biển Sabang, Small La Laguna ở Puerto Galera, hoặc các khu nghỉ dưỡng lặn biển ở Anilao, rồi đi đảo Verde trong ngày. Nếu chọn gói lặn biển (bao gồm lưu trú, ăn uống và lặn), bạn có thể nghỉ ngơi thoải mái với giá khoảng "
+            },
+            { "type": "price", "text": "₱4,000–9,000" },
+            { "text": "/người/ngày." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Trên đảo chỉ có những bữa cơm hải sản giản dị với cá đánh bắt trong ngày được nướng hoặc nấu canh chua sinigang, cửa hàng khá nhỏ nên bạn nên chuẩn bị sẵn nước và đồ ăn vặt từ thành phố Batangas. Thành phố Batangas là quê hương của món batangas lomi — mì sợi to với nước dùng đậm đà — rất đáng thử một tô trên đường ra vào cảng; canh xương bò bulalo và cà phê kapeng barako đậm vị cũng là niềm tự hào của vùng này. Nếu ở lại Puerto Galera, bạn có thể thưởng thức nhiều món hải sản và món Âu tại khu nhà hàng bãi biển Sabang."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Vì dòng chảy tại vách đứng đảo Verde khá mạnh, hầu hết các cửa hàng lặn yêu cầu chứng chỉ Advanced trở lên cùng một số kinh nghiệm nhất định (số lần lặn đã ghi log). Người mới nên yêu cầu điểm lặn có dòng chảy yếu trước."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi lặn trôi trong dòng chảy, phao báo hiệu mặt nước (SMB) và còi là những vật dụng bắt buộc. Nếu chưa có, hãy thuê tại cửa hàng lặn."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nếu không lặn biển, cách dễ và an toàn nhất là đi cùng thuyền lặn với tư cách người lặn ống thở. Hãy hỏi trước về giá và các điểm có thể lặn ống thở."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trên đảo không có ATM. Hãy chuẩn bị tiền mặt cho chi phí homestay, thuyền và ăn uống."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Điện và sóng điện thoại trên đảo có thể yếu. Hãy mang theo sạc dự phòng và túi chống nước."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trong khu bảo tồn biển, hãy dùng kem chống nắng an toàn cho san hô, và không đeo găng tay hay thu thập sinh vật."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Hãy sắp xếp lịch bay khởi hành từ Manila dư dả để tránh lên máy bay trong vòng "
+                },
+                { "type": "duration", "text": "18–24 giờ" },
+                { "text": " sau khi lặn biển." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Eo biển đảo Verde là một trong những vùng biển có dòng chảy mạnh nhất Philippines. Vì có thể xuất hiện dòng chảy xuống, dòng chảy lên và xoáy nước, hãy luôn tuân theo hướng dẫn viên địa phương, và nếu chưa đủ kinh nghiệm thì không nên cố lặn vào khu vực vách đứng."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Eo biển là tuyến đường của tàu chở hàng và tàu khách lớn. Khi nổi lên mặt nước, hãy thả phao SMB ngay lập tức và chờ thuyền đến đón."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi thời tiết xấu hoặc có cảnh báo bão, lực lượng tuần duyên sẽ ngăn thuyền hoạt động. Khi ra đảo, hãy dự phòng thêm khoảng một ngày trong lịch trình."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi lặn ống thở, hãy luôn đi cùng thủy thủ đoàn hoặc hướng dẫn viên, và vào ngày có dòng chảy thì chỉ nên bơi gần bờ."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Giống như sự cố tràn dầu từ tàu chở dầu ngoài khơi Mindoro vào " },
+                { "text": "năm 2023", "type": "date" },
+                {
+                  "text": ", eo biển vẫn có thể xảy ra sự cố môi trường. Nếu có cảnh báo ô nhiễm biển, hãy tránh xuống nước và theo dõi thông báo mới nhất."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Không chạm hay giẫm lên san hô và sinh vật, và hãy mang toàn bộ rác về theo. Đây là ngôi làng có người dân sinh sống, nên hãy xin phép trước khi chụp ảnh."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Puerto Galera",
+              "place": "puerto-galera",
+              "children": [
+                { "text": "Cách khoảng " },
+                { "type": "duration", "text": "30–45 phút" },
+                {
+                  "text": " đi thuyền, đây là làng biển và lặn biển ở phía bắc Mindoro, nơi làm căn cứ cho các chuyến lặn đảo Verde."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Anilao",
+              "place": "anilao",
+              "children": [
+                { "text": "Cách khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                {
+                  "text": " đi thuyền, đây là làng lặn biển gần Manila nổi tiếng với lặn ngắm sên biển và lặn macro."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Bãi biển Masasa",
+              "place": "masasa-beach",
+              "children": [
+                { "text": "Từ Anilao, cách khoảng " },
+                { "type": "duration", "text": "45 phút – 1 giờ" },
+                {
+                  "text": " đi thuyền, đây là bãi biển cát trắng với làn nước ngọc lục bảo trên đảo Maricaban, Tingloy."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Thị trấn di sản Taal",
+              "place": "taal-heritage-town",
+              "children": [
+                { "text": "Từ cảng Batangas, cách khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                {
+                  "text": " đi xe, đây là thị trấn cổ còn lưu giữ vương cung thánh đường đồ sộ cùng các dinh thự thời Tây Ban Nha."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

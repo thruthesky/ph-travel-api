@@ -1,0 +1,692 @@
+{
+  "id": 148,
+  "slug": "naga-city",
+  "title": { "type": "title", "text": "나가 시티" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Naga City" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "페냐프란시아 성모와 키날라스의 비콜 신앙 도시" },
+  "island_group": { "type": "badge", "label": "권역", "value": "luzon", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "value": "bicol", "text": "비콜" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "카마리네스 수르주 나가시" },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "location_city",
+    "value": "city",
+    "text": "도시·미식"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "태그",
+    "items": ["페냐프란시아", "나가 대성당", "키날라스", "이사로그산", "웨이크보드", "대학 도시"]
+  },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 13.6244 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 123.1864 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "2월~5월 (비교적 건조한 시기)",
+    "months": [2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "1박 2일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱1,800~4,000 (1일)",
+    "currency": "PHP",
+    "min": 1800,
+    "max": 4000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "나가 공항(WNP)",
+    "code": "WNP"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/148-naga-city.webp",
+    "alt": "나가 시티",
+    "credit": "Diosdado Bien / CC0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Naga_Metropolitan_Cathedral_and_Porta_Mariae.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/148-naga-city-2.webp",
+        "alt": "나가 시티",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Penafrancia_Basilica_Minore,_Naga_City.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/148-naga-city-3.webp",
+        "alt": "나가 시티",
+        "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Naga_River,_Magsaysay_(Naga,_Camarines_Sur;_04-15-2023).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "1575년 스페인이 세운 누에바 카세레스에서 시작된 비콜의 종교·교육 중심 도시입니다. 페냐프란시아 성모 순례지와 오래된 대성당을 둘러보고, 나가 명물 국수 키날라스를 맛본 뒤 이사로그산 폭포와 웨이크보드 파크까지 즐길 수 있습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "나가는 루손섬 남동부 카마리네스 수르주 한가운데, 이사로그산에서 흘러내린 나가 강이 비콜 강과 만나는 평야에 자리한 도시입니다. 인구는 약 21만 명으로 레가스피와 비슷하지만, 대학과 성당, 상권이 모여 있어 「비콜의 심장」, 「비콜의 여왕 도시」라는 별명으로 불립니다. 나가라는 이름은 이 일대에 많았던 나라(나가) 나무에서 왔다고 전해집니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "1575년" },
+            {
+              "text": " 스페인 대위 페드로 데 차베스가 이곳에 「누에바 카세레스」를 세웠고, 마닐라·세부에 이어 스페인령 필리핀에서 손꼽히게 오래된 왕립 도시가 되었습니다. "
+            },
+            { "type": "date", "text": "1595년" },
+            { "text": " 누에바 카세레스 교구가 세워지면서 남부 루손 가톨릭의 중심이 되었고, 지금의 나가 대성당은 " },
+            { "type": "date", "text": "1808년" },
+            { "text": " 짓기 시작해 " },
+            { "type": "date", "text": "1843년" },
+            { "text": " 완공되었습니다. 대학과 신학교가 모여 있어 지금도 거리에는 교복 입은 학생이 많습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "나가를 대표하는 것은 페냐프란시아 성모 신앙입니다. " },
+            { "type": "date", "text": "1710년" },
+            {
+              "text": " 무렵 도미니코회 신부가 성모상을 모실 돌 성당을 지은 것이 시작으로, 3백 년 넘게 이어진 이 신앙은 필리핀에서 가장 큰 성모 축제 가운데 하나로 자랐습니다. 매년 "
+            },
+            { "type": "date", "text": "9월" },
+            { "text": " 이면 비콜 전역과 해외에서 수십만 명의 순례자가 찾아와 도시 전체가 축제장이 됩니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "관광 명소가 아주 많은 도시는 아니지만, 성당과 광장을 걸으며 비콜 사람들의 신앙과 일상을 느끼고, 값싸고 맛있는 현지 음식을 즐기기 좋은 곳입니다. 카라모안 섬 호핑, 칼라과스 섬, 레가스피와 마욘 화산으로 이어지는 비콜 여행의 중간 거점으로도 편리합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "페냐프란시아 바실리카",
+              "children": [
+                { "type": "date", "text": "1981년" },
+                { "text": " 완공된 현대식 대성당으로, 페냐프란시아 성모의 원래 성상을 모시는 곳입니다. " },
+                { "type": "date", "text": "1985년" },
+                {
+                  "text": " 준대성전(바실리카 미노레)으로 지정되었습니다. 넓은 정원과 높은 종탑이 있어 순례자가 끊이지 않으며, 미사 시간에는 조용히 뒤편에서 참관하십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "나가 대성당과 포르타 마리에",
+              "children": [
+                { "type": "date", "text": "1843년" },
+                {
+                  "text": " 완공된 로마네스크 부흥 양식의 대성당은 지진에 견디도록 낮고 두껍게 지어졌습니다. 대성당 앞 광장 입구에는 개선문 모양의 기념문 포르타 마리에가 서 있어 나가의 대표 사진 명소가 되었습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "옛 페냐프란시아 성지",
+              "children": [
+                {
+                  "text": "18세기 초 성모상을 처음 모셨던 작은 돌 성당으로, 축제 때 행렬이 출발하는 곳이기도 합니다. 바실리카와 함께 둘러보면 3백 년 신앙의 흐름을 이해할 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "키날라스 한 그릇",
+              "children": [
+                {
+                  "text": "나가 명물 국수로, 소나 돼지 머리 고기를 푹 고아 낸 진한 국물에 쫄깃한 쌀국수를 넣고 걸쭉한 갈색 소스와 파, 삶은 달걀을 올립니다. 한 그릇 약 "
+                },
+                { "type": "price", "text": "₱60~120" },
+                { "text": " 으로 시내 곳곳의 키날라스 가게에서 아침이나 간식으로 먹습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "나가 강변과 시내 광장 산책",
+              "children": [
+                {
+                  "text": "플라사 케손과 플라사 리살 주변 구시가지는 상점과 식당, 오래된 건물이 모여 있어 걸어서 둘러보기 좋습니다. 나가 강을 따라 정비된 강변은 축제 때 수상 행렬이 지나는 길이기도 합니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "말랍사이 폭포와 파니쿠아손 온천",
+              "children": [
+                { "text": "시내에서 차로 약 " },
+                { "type": "duration", "text": "40분~1시간" },
+                {
+                  "text": " 거리의 이사로그산 자락에 있는 폭포로, 숲속 계단을 내려가면 시원한 물웅덩이에서 수영할 수 있습니다. 가까운 파니쿠아손 일대 온천 리조트에서는 차가운 물부터 따뜻한 물까지 여러 온도의 풀을 즐길 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "CWC 웨이크보드 파크",
+              "children": [
+                {
+                  "text": "공항이 있는 필리의 카마리네스 수르 수상 스포츠 단지(CWC)는 케이블로 끌어 주는 웨이크보드 파크로 유명합니다. 초보자 강습도 있어 처음 타는 사람도 도전할 수 있습니다. 운영 시간과 요금은 방문 전 확인하십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "빅스 다이너에서 비콜식 외식",
+              "children": [
+                { "type": "date", "text": "1983년" },
+                {
+                  "text": " 나가에서 작은 햄버거 가게로 시작해 비콜 전역으로 퍼진 지역 대표 식당 체인입니다. 햄버거와 필리핀식 정식, 비콜 익스프레스를 부담 없는 가격에 먹을 수 있어 현지인에게 추억의 식당으로 사랑받습니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "subtitle": "성당과 먹거리",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "오전",
+                      "children": [{ "text": "마닐라발 야간 버스로 비콜 중앙 터미널 도착 또는 나가 공항 도착 후 시내 이동" }]
+                    },
+                    { "time": "08:00", "children": [{ "text": "시내 키날라스 가게에서 아침 식사" }] },
+                    { "time": "09:00", "children": [{ "text": "나가 대성당과 포르타 마리에, 대성당 광장 둘러보기" }] },
+                    { "time": "10:30", "children": [{ "text": "옛 페냐프란시아 성지와 플라사 케손·플라사 리살 산책" }] },
+                    { "time": "12:00", "children": [{ "text": "비콜 익스프레스와 라잉으로 점심" }] },
+                    { "time": "14:00", "children": [{ "text": "페냐프란시아 바실리카 방문과 정원 산책" }] },
+                    { "time": "16:00", "children": [{ "text": "숙소 체크인 후 휴식" }] },
+                    { "time": "17:30", "children": [{ "text": "나가 강변 산책과 해 질 녘 시내 풍경" }] },
+                    { "time": "19:00", "children": [{ "text": "빅스 다이너 또는 현지 식당에서 저녁" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "subtitle": "이사로그산 자락과 웨이크보드",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [{ "text": "아침 식사 후 파니쿠아손 방면 지프니나 전세 차량으로 출발" }]
+                    },
+                    { "time": "08:30~11:00", "children": [{ "text": "말랍사이 폭포 수영과 숲길 산책" }] },
+                    { "time": "11:30", "children": [{ "text": "파니쿠아손 온천 리조트에서 휴식과 점심" }] },
+                    { "time": "14:00", "children": [{ "text": "시내로 돌아와 필리 너트 등 기념품 쇼핑" }] },
+                    { "time": "15:30~17:30", "children": [{ "text": "CWC 웨이크보드 체험 또는 카페에서 휴식" }] },
+                    {
+                      "time": "18:00",
+                      "children": [{ "text": "나가 공항 또는 터미널로 이동해 다음 목적지(카라모안·레가스피)나 마닐라로 출발" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "페냐프란시아 축제 기간(9월)에 간다면 2일차를 축제 일정에 맞추고, 트라슬라시온이나 수상 행렬 시간에 맞춰 좋은 자리를 일찍 잡으십시오."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "버스",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "마닐라 PITX, 쿠바오, 파사이 등에서 DLTB, 페냐프란시아, 이사로그 등 여러 회사의 나가행 버스가 매일 운행합니다. 도로 거리는 약 "
+                        },
+                        { "type": "distance", "text": "445km" },
+                        { "text": " 로 약 " },
+                        { "type": "duration", "text": "8~10시간" },
+                        { "text": " 걸리며, 요금은 등급에 따라 약 " },
+                        { "type": "price", "text": "₱900~1,500" },
+                        { "text": " 입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "버스는 대부분 " },
+                        { "text": "비콜 중앙 터미널(Bicol Central Terminal)", "bold": true },
+                        {
+                          "text": " 에 도착하며, 이 터미널은 24시간 운영됩니다. 야간 버스를 타면 이른 아침에 도착해 하루를 온전히 쓸 수 있습니다."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "마닐라에서 필리에 있는 나가 공항(WNP)까지 세부퍼시픽 계열 항공편이 약 " },
+                        { "type": "duration", "text": "1시간" },
+                        { "text": " 걸리며, 편도 요금은 시기에 따라 약 " },
+                        { "type": "price", "text": "₱2,000~5,000" },
+                        { "text": " 입니다. 운항 편수가 많지 않아 일찍 매진되니 최신 운항 일정을 확인하십시오." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "공항은 시내에서 약 " },
+                        { "type": "distance", "text": "15km" },
+                        { "text": " 떨어져 있어 지프니·밴으로 약 " },
+                        { "type": "duration", "text": "30분" },
+                        {
+                          "text": ", 택시나 트라이시클 전세를 이용할 수도 있습니다. 편이 맞지 않으면 레가스피 인근 비콜 국제공항(DRP)으로 가서 밴으로 약 "
+                        },
+                        { "type": "duration", "text": "2시간 30분~3시간" },
+                        { "text": " 이동하는 방법도 있습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "밴·지프니",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "레가스피와 나가 사이에는 UV 익스프레스 밴이 자주 다니며 약 " },
+                        { "type": "duration", "text": "2시간~2시간 30분" },
+                        { "text": ", 요금은 약 " },
+                        { "type": "price", "text": "₱150~200" },
+                        { "text": " 입니다. 다에트(칼라과스 방면), 사방 항구(카라모안 방면)행 밴도 나가 시내 밴 터미널에서 출발합니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "말랍사이 폭포는 시내에서 파니쿠아손행 지프니(약 " },
+                        { "type": "price", "text": "₱20~40" },
+                        { "text": ")를 타고 가서 트라이시클이나 오토바이 택시로 갈아타는 방법이 일반적입니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "현지 이동",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "시내 중심부는 걸어서 충분히 다닐 수 있습니다. 조금 떨어진 바실리카나 쇼핑몰은 트라이시클(약 " },
+                        { "type": "price", "text": "₱20~60" },
+                        { "text": ")이나 지프니를 이용합니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "말랍사이 폭포와 CWC를 하루에 묶으려면 트라이시클이나 차량 반나절~하루 전세(약 " },
+                        { "type": "price", "text": "₱1,500~3,500" },
+                        { "text": ")가 편합니다. 출발 전 코스와 대기 시간을 정하십시오." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "나가는 태평양 쪽 영향을 받는 비콜 지방이라 1년 내내 비가 오는 편이고, 비교적 건조한 시기는 " },
+            { "type": "date", "text": "2월~5월" },
+            { "text": " 입니다. 이 시기는 폭포와 산길이 덜 미끄럽고 여행하기 좋지만, " },
+            { "type": "date", "text": "4월~5월" },
+            { "text": " 한낮 기온은 " },
+            { "type": "temperature", "text": "32~34℃" },
+            { "text": " 까지 올라 꽤 덥습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "8월~11월" },
+            { "text": " 은 태풍이 비콜 반도를 자주 지나는 시기라 항공편 결항과 침수 가능성을 염두에 두어야 합니다. " },
+            { "type": "date", "text": "11월~1월" },
+            { "text": " 은 북동 계절풍 때문에 흐리고 비 오는 날이 많습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "가장 큰 행사는 " },
+            { "type": "date", "text": "9월" },
+            { "text": " 의 페냐프란시아 축제입니다. " },
+            { "type": "date", "text": "9월 둘째 금요일" },
+            {
+              "text": " 트라슬라시온 행렬에서 맨발의 남성 신자 「보야도레스」가 성모상과 성면상(디비노 로스트로)을 바실리카에서 대성당으로 옮기고, 9일 기도가 끝나는 축일 전날 토요일에는 성상을 다시 배에 싣고 나가 강을 따라 바실리카로 돌아가는 수상 행렬이 열립니다. 이 기간에는 숙소가 몇 달 전에 매진되니 일찍 예약하십시오. "
+            },
+            { "type": "date", "text": "12월" },
+            { "text": " 에는 성탄 축제 카문다간이 열려 시내가 조명으로 장식됩니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라–나가 버스", "price": "편도 약 ₱900~1,500", "note": "일반~침대형 등급별" },
+            { "label": "마닐라–나가 항공", "price": "편도 약 ₱2,000~5,000", "note": "편수 적음, 시기별 차이" },
+            { "label": "레가스피–나가 밴", "price": "편도 약 ₱150~200", "note": "약 2시간~2시간 30분" },
+            { "label": "키날라스", "price": "1그릇 약 ₱60~120", "note": "곱빼기·특 추가 시 더 비쌈" },
+            { "label": "말랍사이 폭포 입장·환경세", "price": "약 ₱20~120", "note": "현장 기준 확인" },
+            { "label": "CWC 웨이크보드", "price": "약 ₱200~800", "note": "시간제·반나절 등, 요금 변동 잦음" },
+            { "label": "트라이시클·차량 전세", "price": "반나절~하루 약 ₱1,500~3,500", "note": "코스·인원에 따라" },
+            { "label": "숙박", "price": "1박 약 ₱800~5,000", "note": "여관·게스트하우스~호텔" },
+            { "label": "식사", "price": "1끼 약 ₱100~400", "note": "현지 식당~레스토랑" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "숙소는 대성당과 플라사 케손이 있는 시내 중심(센트로), 마그사이사이 거리, 쇼핑몰 주변에 모여 있습니다. 시내 여관과 버짓 호텔은 1박 약 "
+            },
+            { "type": "price", "text": "₱800~1,500" },
+            { "text": ", 수영장과 식당을 갖춘 중급 호텔은 약 " },
+            { "type": "price", "text": "₱2,000~3,500" },
+            { "text": ", 시내에서 가장 좋은 호텔들은 약 " },
+            { "type": "price", "text": "₱3,500~5,000" },
+            { "text": " 입니다. 마그사이사이 거리는 카페와 식당, 바가 몰려 있어 저녁에 걷기 좋고, 걸어서 성당을 돌려면 센트로가 편합니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "나가의 대표 음식은 단연 키날라스입니다. 강변과 시내 곳곳에 오래된 키날라스 가게가 있어 가게마다 소스 맛이 조금씩 다르고, 현지인은 아침 식사로 즐겨 먹습니다. 쇠고기로 만든 「바카 키날라스」와 소 내장을 넣은 국물도 인기입니다. 비콜 지방 요리인 비콜 익스프레스, 라잉, 피낭앗도 어디서나 쉽게 먹을 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "1983년" },
+            {
+              "text": " 나가에서 시작된 빅스 다이너는 시내에 여러 지점이 있어 편하게 한 끼 해결하기 좋습니다. 학생이 많은 도시라 가격이 전반적으로 저렴하고, 카페 문화도 발달해 있습니다. 기념품으로는 필리 너트 과자와 매운 고추 소스, 비콜식 과자가 좋습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "키날라스는 이른 아침부터 팔고 인기 가게는 점심 전에 재료가 떨어지기도 합니다. 아침 식사로 먹는 것을 권합니다." }
+              ]
+            },
+            { "children": [{ "text": "성당에 들어갈 때는 민소매와 짧은 반바지를 피하고, 미사 중에는 사진 촬영을 삼가십시오." }] },
+            {
+              "children": [
+                { "text": "페냐프란시아 축제 기간에 간다면 숙소를 몇 달 전에 예약하고, 행렬 시간과 도로 통제 안내를 미리 확인하십시오." }
+              ]
+            },
+            {
+              "children": [{ "text": "말랍사이 폭포는 비 온 다음 날 물이 불어나 탁해질 수 있습니다. 맑은 날 오전에 가는 것이 좋습니다." }]
+            },
+            {
+              "children": [
+                { "text": "카라모안으로 갈 계획이라면 사방 항구행 첫 밴을 타야 오전 배를 잡을 수 있으니 나가에서 하룻밤 묵고 새벽에 출발하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "비콜 중앙 터미널은 24시간 운영되지만 밤늦게 도착하면 숙소까지 그랩이나 택시를 이용하는 것이 안전합니다." }
+              ]
+            },
+            { "children": [{ "text": "시내 쇼핑몰과 은행에 ATM이 많지만 지프니와 트라이시클, 작은 식당은 현금만 받습니다." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "페냐프란시아 축제의 트라슬라시온과 수상 행렬에는 엄청난 인파가 몰려 밀림 사고와 탈진 위험이 있습니다. 어린이와 노약자는 행렬 가까이 들어가지 말고, 안전한 곳에서 지켜보십시오."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "축제 기간과 저녁 시내 광장에서는 소매치기를 조심하고 귀중품은 몸 앞쪽에 두십시오." }] },
+            {
+              "children": [
+                { "type": "date", "text": "8월~11월" },
+                { "text": " 태풍 시기에는 나가 강 주변 저지대가 침수될 수 있습니다. 기상 경보를 확인하십시오." }
+              ]
+            },
+            { "children": [{ "text": "말랍사이 폭포의 바위와 계단은 미끄럽습니다. 물이 불어났을 때는 수영을 하지 마십시오." }] },
+            { "children": [{ "text": "웨이크보드는 반드시 구명조끼와 헬멧을 착용하고, 초보자는 강습부터 받으십시오." }] },
+            { "children": [{ "text": "트라이시클 전세 요금은 출발 전에 확실히 정하십시오." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "카라모안",
+              "place": "caramoan",
+              "children": [
+                { "text": "밴과 배로 약 " },
+                { "type": "duration", "text": "4~5시간" },
+                { "text": ", 석회암 섬과 숨은 해변이 모인 비콜의 대표 섬 호핑 명소입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "레가스피",
+              "place": "legazpi",
+              "children": [
+                { "text": "밴으로 약 " },
+                { "type": "duration", "text": "2시간~2시간 30분" },
+                { "text": ", 마욘 화산이 보이는 알바이주의 해안 도시로 비콜 음식 여행에 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "마욘 화산",
+              "place": "mayon-volcano",
+              "children": [
+                { "text": "차로 약 " },
+                { "type": "duration", "text": "2시간 30분" },
+                { "text": ", 완벽한 원뿔 모양의 활화산을 ATV 투어와 전망 지점에서 감상할 수 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "칼라과스 섬",
+              "place": "calaguas",
+              "children": [
+                { "text": "다에트를 거쳐 버스·밴과 배로 반나절, 새하얀 모래사장이 펼쳐진 카마리네스 노르테의 무인도 같은 섬입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

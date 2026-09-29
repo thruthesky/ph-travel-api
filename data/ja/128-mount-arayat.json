@@ -1,0 +1,600 @@
+{
+  "id": 128,
+  "slug": "mount-arayat",
+  "title": { "type": "title", "text": "アラヤット山" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mount Arayat" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "果てしないパンパンガ平原にぽつんとそびえる伝説の山" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "pampanga", "text": "パンパンガ" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "パンパンガ州アラヤット・マガラン"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "hiking",
+    "value": "mountain",
+    "text": "山・トレッキング"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["休火山", "縦走", "シヌクアン伝説", "国立公園", "ハロハロ"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.2, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 15.2 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.742 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "11月〜3月(乾季)",
+    "months": [11, 12, 1, 2, 3]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "日帰り" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱1,000〜2,500(マニラ発日帰り、ガイド代の割り勘込み)",
+    "currency": "PHP",
+    "min": 1000,
+    "max": 2500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "ふつう",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "クラーク国際空港(CRK)",
+    "code": "CRK"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/128-mount-arayat.webp",
+    "alt": "アラヤット山",
+    "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mt._Arayat_%26_Pampanga_River,_Arayat,_Pampanga_(2).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/128-mount-arayat-2.webp",
+        "alt": "アラヤット山",
+        "credit": "Mr ShmilyDigital / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Arayat_nature_gem.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/128-mount-arayat-3.webp",
+        "alt": "アラヤット山",
+        "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Arayat_summit_from_air_(Arayat,_Pampanga;_04-22-2024).jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "中部ルソンの果てしない水田の真ん中にぽつんとそびえる標高約1,026mの古い火山です。山の神シヌクアンの伝説が宿る森の道を辿って頂上に立つと、パンパンガ平原と遠くピナトゥボまで見渡せ、マニラから日帰り登山が可能です。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "アラヤット山はパンパンガ州アラヤットとマガランにまたがる標高約" },
+            { "type": "distance", "text": "1,026m" },
+            {
+              "text": "の成層火山です。周囲がすべて平らな水田とサトウキビ畑のため、NLEXやSCTEXを走っているとどこからでも見える、中部ルソンの道しるべのような山です。北西側が崩れた火口を中心に、最も高い北峰と南東側の縁の峰々がそびえており、山全体が濃い森に覆われています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "地質学的には数十万年前に活動した古い火山で、有史時代の噴火記録はありませんが、潜在的な活火山に分類されています。山麓は" },
+            { "type": "date", "text": "1933年" },
+            { "text": "に国立公園に指定され、" },
+            { "type": "date", "text": "2022年" },
+            { "text": "には国家保護地域制度により保護景観として再指定されました。第二次世界大戦時には抗日ゲリラのフクバラハップが拠点とした山でもあります。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "カパンパンガンの人々にとってアラヤットは、山の神シヌクアン(マリアン・シヌクアン)が住む神聖な山です。昔シヌクアンが村人たちに果物や肉を分け与えていましたが、欲深い人々がこっそり盗んでいったため、果物を石に変えて姿を隠したという話が伝わっています。南側の峰にある白い岩ホワイトロックが彼の住みかとされており、ピナトゥボの神と戦ったという伝説もあります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "登山道は大きく二つあります。マガラン側から最も高い北峰へ登る道と、アラヤット側の国立公園から南峰へ登る道があり、両方をつなぐ縦走は経験者向けの長いコースです。標高は高くありませんが平地から直接そびえ立つため登りが急で、ロープ区間もあるため、初心者は北峰往復から始めるのが良いです。登山をしなくても、山麓の国立公園ピクニック場とアラヤット名物のハロハロを楽しみに立ち寄るのも良いです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "北峰登頂",
+              "children": [
+                { "text": "マガランのアヤラ村から出発し、水田道と森を抜けて最も高い北峰まで片道約" },
+                { "type": "duration", "text": "3〜5時間" },
+                { "text": "かかります。後半は傾斜が急なので体力を温存しておきましょう。天気が良ければ、平原の向こうにピナトゥボとサンバレス山脈まで見えます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "南峰とホワイトロック",
+              "children": [
+                {
+                  "text": "アラヤットのサンフアン・バニョの国立公園側から登るコースで、ロープをつかんで岩を登る区間があり、スリルがあります。展望台のように開けた岩の上から、パンパンガ川と水田がモザイクのように広がります。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "北峰〜南峰縦走",
+              "children": [
+                { "text": "片方から登り、もう片方へ下る約" },
+                { "type": "duration", "text": "10〜12時間" },
+                { "text": "の長いコースです。登山経験があり体力に自信のある人におすすめで、日の出前に出発してこそ日没前に下山できます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "アラヤット国立公園ピクニック",
+              "children": [
+                {
+                  "text": "南側の山麓の国立公園には木陰とプール、ピクニック小屋があり、登山をしない家族旅行者も半日くつろぐのに良いです。週末は地元の家族連れで賑わいます。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "平原に昇り沈む太陽",
+              "children": [
+                {
+                  "text": "北峰の出発を未明にすると、登る道中で平原に昇る太陽を見ることができます。山麓のパンパンガ川の堤防や水田道から見る夕暮れの山のシルエットも美しいです。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "カビグティン・ハロハロ",
+              "children": [
+                { "type": "date", "text": "1970年代" },
+                {
+                  "text": "からアラヤットで続くハロハロ店で、つぶした金時豆、水牛乳のパスティリャス、クリームコーンの三つだけを入れたシンプルな味で全国に知られています。下山後に食べる一杯が最高のご褒美です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "シヌクアン伝説をたどる",
+              "children": [
+                { "text": "ガイドに山の神シヌクアンの話をお願いしてみましょう。道端の巨大な岩や古木にまつわる話を聞きながら歩くと、登山が一段と興味深くなります。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "日帰り登山",
+              "subtitle": "マガラン〜北峰往復",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "02:00",
+                      "children": [{ "text": "マニラから自家用車かチャーターバンで出発(公共交通なら前日にアンヘレス・サン・フェルナンドで宿泊)" }]
+                    },
+                    { "time": "04:30", "children": [{ "text": "マガランのアヤラ村登山口到着、登録とガイド割り当て" }] },
+                    { "time": "05:00", "children": [{ "text": "ヘッドランプを点けて水田道と森の道を出発" }] },
+                    { "time": "09:00", "children": [{ "text": "北峰頂上到着、休憩と軽食、平原の眺めを鑑賞" }] },
+                    { "time": "10:00", "children": [{ "text": "同じ道で下山開始(急な区間はゆっくりと)" }] },
+                    { "time": "13:00", "children": [{ "text": "登山口到着、シャワー後昼食" }] },
+                    { "time": "14:30", "children": [{ "text": "アラヤット市街地でカビグティン・ハロハロ" }] },
+                    { "time": "16:00", "children": [{ "text": "マニラまたはクラークへ戻る" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "縦走は同じ時刻に出発し、北峰を経て南峰へ越えた後アラヤット国立公園側へ下り、午後" },
+                    { "type": "time", "text": "4〜6時" },
+                    { "text": "頃に下山を終えます。経験豊富なガイドと一緒に行動してください。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "半日のお出かけ",
+              "subtitle": "登山せずに楽しむ",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "09:00", "children": [{ "text": "サン・フェルナンドまたはクラークから車で出発" }] },
+                    { "time": "10:00", "children": [{ "text": "アラヤット国立公園到着、森の散策とピクニック" }] },
+                    { "time": "12:00", "children": [{ "text": "アラヤット市街地で昼食とハロハロ" }] },
+                    { "time": "14:00", "children": [{ "text": "パンパンガ川の堤防で山の写真撮影後帰路につく" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "バスとジプニー",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "マニラのクバオ・パサイからサン・フェルナンド行き、またはアンヘレス・ダウ行きバスに乗ります。約" },
+                        { "type": "duration", "text": "1時間30分〜2時間30分" },
+                        { "text": "、運賃は約" },
+                        { "type": "price", "text": "₱150〜300" },
+                        { "text": "です。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "アラヤット側のコースは、サン・フェルナンドからアラヤット行きジプニーで約" },
+                        { "type": "duration", "text": "40分〜1時間" },
+                        { "text": "(約" },
+                        { "type": "price", "text": "₱30〜50" },
+                        { "text": ")、アラヤット市街地からサンフアン・バニョ登山口までトライシクルで約" },
+                        { "type": "price", "text": "₱100〜150" },
+                        { "text": "です。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "マガラン側のコースは、アンヘレスからマガラン行きジプニーに乗り、トライシクルでアヤラ村の入口まで行きます。始発の時間が早くないため、早朝登山には車のチャーターが現実的です。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "飛行機",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "クラーク国際空港(CRK)からマガラン登山口まで約" },
+                        { "type": "distance", "text": "20〜25km" },
+                        { "text": "、車で" },
+                        { "type": "duration", "text": "30〜45分" },
+                        { "text": "です。韓国からクラークに入り、一日を登山に充てる日程も可能です。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自家用車・チャーターバン",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "マニラから約" },
+                        { "type": "distance", "text": "90km" },
+                        { "text": "で、NLEXに乗りサン・フェルナンドまたはアンヘレス出口へ出て、それぞれの登山口まで" },
+                        { "type": "duration", "text": "2〜3時間" },
+                        { "text": "かかります。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "早朝登山のためのチャーターバンは、マニラ往復1日約" },
+                        { "type": "price", "text": "₱5,000〜8,000" },
+                        { "text": "で、大勢で割り勘すれば公共交通との費用差はそれほど大きくありません。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "最も良い時期は" },
+            { "type": "date", "text": "11月〜3月" },
+            { "text": "の乾季です。特に" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は明け方の気温が" },
+            { "type": "temperature", "text": "20℃" },
+            { "text": "前後と涼しく空も澄んでおり、頂上からの眺めが良いです。" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "は蒸し暑く乾燥しており、山火事の危険のため入山が制限されることがあるため、最新の告知を確認してください。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜10月" },
+            {
+              "text": "の雨季には赤土の道がぬかるみに変わり非常に滑りやすくなり、ロープ区間が危険になります。台風や豪雨の後は登山道が閉鎖されることもあるため、この時期は避けるのがおすすめです。どの季節でも日中の気温は高いため、日の出前に出発し午前中に頂上を踏んで下山する日程が基本です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "マニラ〜サン・フェルナンド・アンヘレス バス", "price": "片道約₱150〜300", "note": "エアコンバス基準" },
+            { "label": "ジプニー・トライシクル", "price": "片道約₱130〜200", "note": "市街地から登山口まで" },
+            { "label": "登録費・環境費", "price": "約₱50〜100", "note": "コースごとに別途、変動あり" },
+            { "label": "ガイド代(北峰往復)", "price": "チームごとに約₱800〜1,500", "note": "人数・コースにより異なる" },
+            { "label": "ガイド代(縦走)", "price": "チームごとに約₱1,500〜3,000", "note": "経験者向けの長いコース" },
+            { "label": "国立公園入場", "price": "約₱50〜100", "note": "プール利用は別料金の場合あり" },
+            { "label": "チャーターバン(マニラ往復)", "price": "1日約₱5,000〜8,000", "note": "人数で割り勘" },
+            { "label": "食事と軽食", "price": "約₱300〜600", "note": "ハロハロ約₱100〜200込み" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ほとんどは日帰りで訪れますが、公共交通で早朝登山をするなら前日にアンヘレス・クラークかサン・フェルナンドに泊まるのが便利です。クラークには1泊約" },
+            { "type": "price", "text": "₱2,000〜6,000" },
+            { "text": "のホテルやリゾートが多く、アンヘレス・サン・フェルナンド市街地のビジネスホテルは約" },
+            { "type": "price", "text": "₱1,500〜3,500" },
+            {
+              "text": "です。マガランとアラヤットにも小さなリゾートや民宿がありますが、設備が簡素なため事前にレビューを確認してください。山上でのキャンプは許可を受けた場合のみ可能です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "下山後に必ず立ち寄るべき場所はアラヤットのカビグティン・ハロハロです。数十種類のトッピングの代わりに、つぶした金時豆と水牛乳のパスティリャス、クリームコーンだけを入れた、柔らかく甘い味が特徴です。食事は車で"
+            },
+            { "type": "duration", "text": "30〜40分" },
+            {
+              "text": "の距離のアンヘレスで元祖シシグを、サン・フェルナンドで昔ながらのカパンパンガン料理を味わうと良いです。登山口周辺には飲み物と簡単な食事を売る小さな店がありますが、早朝には開いていないことがあります。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "ガイド同行と登録は必須です。週末はガイドが不足することがあるため、登山口の事務所か地元ガイドの連絡先であらかじめ予約してください。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "登山道には信頼できる水場がほとんどありません。1人あたり水を2〜3リットル以上、縦走ならさらに多めに持参してください。" }
+              ]
+            },
+            { "children": [{ "text": "ロープ区間と急な土の斜面があるため、グリップの良い登山靴と手袋、トレッキングポールを準備してください。" }] },
+            { "children": [{ "text": "日の出前に出発して日中の暑さを避けましょう。ヘッドランプは必須です。" }] },
+            { "children": [{ "text": "初めてなら北峰往復から挑戦し、縦走は他の山の経験を積んでから行きましょう。" }] },
+            { "children": [{ "text": "森には蚊やヒルがいることがあります。虫よけと長い靴下を持参してください。" }] },
+            { "children": [{ "text": "ゴミはすべて持ち帰り、山の神の山とみなす地元の人々の信仰を尊重して、大声や破壊行為を控えてください。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "アラヤット山は入山登録とガイド同行が規定であり、山火事の危険期・雨季の豪雨・管理上の理由で登山道が予告なく閉鎖されることがあります。出発前にアラヤット・マガランの自治体と保護区域管理事務所の最新の告知を確認してください。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "雨が降ると赤土の道と岩が非常に滑りやすくなります。雨季の登山と雨天時のロープ区間の通過は避けてください。" }] },
+            { "children": [{ "text": "急な登りが長く、脱水と熱中症の危険があります。休憩時間を十分に取り、水分と塩分を補給してください。" }] },
+            { "children": [{ "text": "標識のない脇道が多く、道に迷いやすいです。ガイドと離れず、日没前に下山してください。" }] },
+            { "children": [{ "text": "国立公園や登山口に車を停めるときは、貴重品を車内に見える場所に置かないでください。" }] },
+            { "children": [{ "text": "キャンプと火の使用は許可された場所でのみ可能です。乾季には小さな火種も山火事に広がることがあります。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "クラーク",
+              "place": "clark",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "30〜45分" },
+                { "text": "、空港とリゾート、アンヘレス発祥のシシグ名店が集まる旧アメリカ空軍基地です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "サン・フェルナンド (パンパンガ)",
+              "place": "san-fernando-pampanga",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "40分〜1時間" },
+                { "text": "、ジャイアント・ランタン祭りとヘリテージ地区があるパンパンガの州都です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "バコロールのサン・ギジェルモ教会",
+              "place": "bacolor-church",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "、ピナトゥボのラハールに半分埋もれたバロック教会です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ピナトゥボ火山",
+              "place": "mount-pinatubo",
+              "children": [
+                { "text": "出発地カパスまで車で約" },
+                { "type": "duration", "text": "1時間30分" },
+                { "text": "、アラヤット山頂から眺めていたあの火山の火口湖まで登ります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ミナルンガオ国立公園",
+              "place": "minalungao",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "2時間" },
+                { "text": "、石灰岩の断崖の間を緑の川が流れるヌエバ・エシハの渓谷です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "id": 199,
+  "slug": "sicogon-island",
+  "title": { "type": "title", "text": "시코곤 섬" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Sicogon Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "보라카이보다 먼저 사랑받은 일로일로 북쪽의 하얀 섬" },
+  "island_group": { "type": "badge", "label": "권역", "value": "visayas", "text": "비사야" },
+  "region": { "type": "badge", "label": "지역", "value": "panay", "text": "파나이" },
+  "location": { "type": "address", "label": "위치", "icon": "location_on", "text": "일로일로주 카를레스" },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "beach_access",
+    "value": "beach",
+    "text": "해변·섬"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["하얀 모래", "오파오 산", "투마킨 섬", "섬 호핑", "조용한 휴양"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 11.4448 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 123.2604 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "3월~5월 (건기, 바다가 잔잔한 시기)",
+    "months": [3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "1박 2일~2박 3일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱3,000~12,000 (1박 2일, 숙소 등급에 따라)",
+    "currency": "PHP",
+    "min": 3000,
+    "max": 12000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "로하스 공항(RXS), 일로일로 국제공항(ILO)",
+    "code": "RXS"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/199-sicogon-island.webp",
+    "alt": "시코곤 섬",
+    "credit": "_Tursiops / CC BY-SA 2.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Twilight_Sicogon_Beach_(53221862211).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/199-sicogon-island-2.webp",
+        "alt": "시코곤 섬",
+        "credit": "Usdp (Wikivoyage) / Public domain / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:View_to_San_Dionisio_Iloilo_from_top_of_Mount_Opao.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "1970년대 필리핀 최고의 해변 휴양지로 이름을 날렸던 일로일로 북쪽 끝의 섬으로, 길고 하얀 모래사장과 썰물 때 걸어서 건너는 투마킨 섬, 섬 전체를 내려다보는 오파오 산이 있습니다. 붐비지 않는 바다에서 느긋하게 쉬고 싶은 여행자에게 맞습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "시코곤 섬은 파나이섬 북동쪽 끝, 일로일로주 카를레스 앞바다에 떠 있는 약 " },
+            { "text": "1,160헥타르", "bold": true },
+            { "text": " 크기의 섬입니다. 본토 해안에서 약 " },
+            { "type": "distance", "text": "10km" },
+            { "text": ", 일로일로시에서는 북쪽으로 약 " },
+            { "type": "distance", "text": "146km" },
+            {
+              "text": " 떨어져 있습니다. 섬은 알리파타·부아야·산페르난도 세 마을로 나뉘고 약 4천여 명의 주민이 고기잡이와 농사로 살아가며, 가장 높은 곳은 해발 약 "
+            },
+            { "type": "distance", "text": "214m" },
+            { "text": "의 오파오 산입니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "지금은 한적하지만 시코곤은 " },
+            { "type": "date", "text": "1970년대" },
+            {
+              "text": " 필리핀에서 손꼽히는 해변 휴양지였습니다. 섬 안에 비행장과 리조트가 있어 마닐라 사람들이 비행기를 타고 찾아왔고, \"보라카이 이전의 보라카이\"라는 별명도 이때 생겼습니다. 그러나 "
+            },
+            { "type": "date", "text": "1980년대" },
+            { "text": " 이후 보라카이 등 다른 섬이 뜨고 리조트가 문을 닫으면서 관광객의 발길이 끊겼고, " },
+            { "type": "date", "text": "2013년" },
+            { "text": " 11월에는 태풍 욜란다(하이옌)가 섬을 덮쳐 큰 피해를 입었습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "2013년" },
+            { "text": "부터 아얄라 랜드와 섬의 토지를 가진 시코곤 개발회사가 합작해 약 " },
+            { "type": "price", "text": "₱10,000,000,000" },
+            { "text": " 규모의 재개발을 시작하면서 시코곤은 다시 이름을 알리기 시작했습니다. 옛 활주로를 고쳐 " },
+            { "type": "date", "text": "2018년" },
+            {
+              "text": " 시코곤 공항을 다시 열었고, 발라이 코곤, 후니 시코곤, 해치 시코곤 등 자연과 어우러진 리조트가 차례로 들어섰습니다. 개발 과정에서 주민 이주 문제를 두고 논란도 있었던 만큼, 섬에는 리조트 구역과 주민 마을이 함께 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "시코곤의 매력은 \"아무것도 하지 않아도 되는 섬\"이라는 점입니다. 코코넛 야자가 늘어선 긴 하얀 모래사장, 썰물이면 드러나는 모래 길로 이어지는 투마킨 섬, 짧은 산행으로 오르는 오파오 산 전망대, 가까운 히간테스 제도 호핑까지 즐길 거리는 충분하지만 사람은 적습니다. 조용한 커플 여행, 아이와 함께하는 가족 휴가, 히간테스 제도와 묶은 북부 일로일로 섬 여행에 잘 어울립니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "부아야 해변에서 수영",
+              "children": [
+                {
+                  "text": "섬 동쪽 부아야 마을 앞 해변은 시코곤에서 수영하기 가장 좋은 곳으로 꼽힙니다. 물이 얕고 잔잔해 아이와 함께 놀기 좋고, 바로 앞에 투마킨 섬이 보입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "썰물 때 투마킨 섬 걸어 건너기",
+              "children": [
+                {
+                  "text": "부아야 앞바다의 무인도 투마킨 섬은 썰물이면 모래 길이 드러나 걸어서 건널 수 있습니다. 물때표를 확인하고 현지 가이드와 함께 건너십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "오파오 산 전망",
+              "children": [
+                { "text": "해발 약 " },
+                { "type": "distance", "text": "214m" },
+                { "text": "의 오파오 산은 " },
+                { "type": "duration", "text": "1시간~1시간 30분" },
+                {
+                  "text": "이면 정상에 닿는 짧은 산행 코스입니다. 정상에서는 투마킨 섬과 모래톱, 본토 산디오니시오 쪽 바다와 섬들이 한눈에 들어옵니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "산페르난도 해변 산책",
+              "children": [
+                {
+                  "text": "산페르난도 마을 앞으로 길게 이어진 해변은 해 질 녘 산책과 카약, 패들보드를 즐기기 좋습니다. 썰물에는 넓은 갯벌이 드러나 전혀 다른 풍경이 됩니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "히간테스 제도 호핑",
+              "children": [
+                { "text": "배로 약 " },
+                { "type": "duration", "text": "1시간" },
+                {
+                  "text": " 거리의 히간테스 제도에서 카부가오 가마이 섬의 전망대, 안토니아 섬의 모래톱, 탕케 라군을 둘러보는 호핑을 하루 일정으로 묶을 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "섬 일주 보트 투어",
+              "children": [
+                { "text": "방카를 빌려 섬을 한 바퀴 돌며 석회암 해안과 작은 해변, 스노클링 포인트를 둘러봅니다. 배 1척 약 " },
+                { "type": "price", "text": "₱1,000" },
+                { "text": " 안팎부터이며 코스에 따라 달라집니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "라군 에코 트레일",
+              "children": [
+                {
+                  "text": "리조트 구역의 라군과 숲을 따라 걷는 산책로로, 물새와 맹그로브를 관찰할 수 있습니다. 운영 여부와 이용 조건은 숙소에 확인하십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "카를레스 해산물 맛보기",
+              "children": [
+                { "text": "카를레스는 \"필리핀의 알래스카\"라 불릴 만큼 수산물이 풍부합니다. 가리비와 게, 식초에 절인 킬라윈을 꼭 맛보십시오." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "1일차",
+              "subtitle": "섬 도착과 해변",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "05:00", "children": [{ "text": "일로일로시 타그박 터미널에서 에스탄시아행 버스 탑승" }] },
+                    {
+                      "time": "09:00",
+                      "children": [{ "text": "에스탄시아 항구 도착, 시코곤행 배 탑승 (약 45분~1시간)" }]
+                    },
+                    { "time": "10:30", "children": [{ "text": "숙소 체크인 또는 짐 맡기고 점심" }] },
+                    {
+                      "time": "13:00~16:00",
+                      "children": [{ "text": "부아야 해변 수영, 물때가 맞으면 투마킨 섬 건너기" }]
+                    },
+                    { "time": "17:00", "children": [{ "text": "산페르난도 해변에서 해 질 녘 산책" }] },
+                    { "time": "19:00", "children": [{ "text": "가리비와 킬라윈으로 저녁 식사" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "subtitle": "오파오 산과 호핑",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "05:30", "children": [{ "text": "가이드와 오파오 산 일출 산행" }] },
+                    {
+                      "time": "08:00",
+                      "children": [{ "text": "아침 식사 후 섬 일주 보트 또는 히간테스 제도 호핑 출발" }]
+                    },
+                    { "time": "12:00", "children": [{ "text": "호핑 중 섬에서 해산물 점심" }] },
+                    {
+                      "time": "15:00",
+                      "children": [{ "text": "시코곤 복귀 후 휴식, 또는 본토로 나가 일로일로·로하스로 이동" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "2박 3일이라면 둘째 날을 히간테스 제도 호핑에 온전히 쓰고, 셋째 날 아침 배로 본토에 나오는 일정이 여유롭습니다. 배 시간은 물때와 날씨에 따라 바뀌니 전날 숙소에 확인하십시오."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "비행기",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "가장 가까운 공항은 카피스주의 로하스 공항(RXS)입니다. 마닐라에서 약 " },
+                        { "type": "duration", "text": "1시간" },
+                        { "text": "이며, 로하스에서 에스탄시아 항구까지 차로 약 " },
+                        { "type": "duration", "text": "1시간 30분~2시간" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "항공편이 많은 일로일로 국제공항(ILO)은 마닐라에서 약 " },
+                        { "type": "duration", "text": "1시간 10분" },
+                        { "text": "입니다. 공항에서 에스탄시아까지 차로 약 " },
+                        { "type": "duration", "text": "2시간 30분~3시간" },
+                        { "text": "이 걸립니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "섬 안의 시코곤 공항(ICO)에는 에어스위프트(AirSWIFT)가 마닐라발 항공편을 운항한 적이 있지만, 정기 운항 여부와 요일이 자주 바뀌니 최신 일정을 꼭 확인하십시오. 리조트 패키지에 항공편이 포함된 경우도 있습니다."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "버스·밴",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "일로일로시 하로 지구의 타그박 터미널(북부행 터미널)에서 에스탄시아·카를레스행 세레스 버스와 밴이 새벽부터 다닙니다. 약 "
+                        },
+                        { "type": "duration", "text": "3~4시간" },
+                        { "text": ", 편도 약 " },
+                        { "type": "price", "text": "₱200~300" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "로하스 시티에서는 에스탄시아행 밴이나 버스로 약 " },
+                        { "type": "duration", "text": "1시간 30분~2시간" },
+                        { "text": "입니다. 보라카이(카티클란)나 칼리보에서 온다면 로하스를 거쳐 약 " },
+                        { "type": "duration", "text": "5~6시간" },
+                        { "text": "을 잡으십시오." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "배",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "에스탄시아 항구에서 시코곤행 여객 방카가 오전을 중심으로 다닙니다. 약 " },
+                        { "type": "duration", "text": "45분~1시간" },
+                        { "text": ", 1인 약 " },
+                        { "type": "price", "text": "₱80~150" },
+                        { "text": "입니다. 섬에서 나오는 배는 이른 아침에 출발하는 경우가 많습니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "카를레스 반칼 항구에서도 배를 탈 수 있으며 약 " },
+                        { "type": "duration", "text": "30분" },
+                        { "text": "이 걸립니다. 반칼 항구의 관광안내소에서 등록과 보트 예약, 환경 부담금 납부를 합니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "리조트에 묵는다면 숙소에서 에스탄시아나 반칼 항구 픽업 보트를 마련해 주는 경우가 많으니 예약할 때 함께 요청하십시오. 공용 배를 놓치면 전세 보트를 불러야 해 비용이 크게 늘어납니다."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "섬 안 이동",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "섬 안에는 차가 거의 없어 걷거나 오토바이 택시 하발하발(1인 약 " },
+                        { "type": "price", "text": "₱100~200" },
+                        { "text": ")을 탑니다. 리조트 손님은 숙소 셔틀이나 자전거를 이용할 수 있습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "3월~5월" },
+            {
+              "text": "은 바람이 약하고 바다가 잔잔해 배편과 호핑이 가장 안정적인 시기입니다. 하늘이 맑아 모래사장과 바다 빛깔이 가장 선명하고, 한낮 기온은 "
+            },
+            { "type": "temperature", "text": "32~34℃" },
+            { "text": " 안팎까지 오릅니다. " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": "도 건기지만 북동 계절풍(아미한)이 불어 섬 동쪽 바다가 거칠어지고, 에스탄시아–시코곤 배가 흔들리거나 결항하는 날이 있습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월~11월" },
+            { "text": "은 우기와 태풍철입니다. 특히 " },
+            { "type": "date", "text": "8월~11월" },
+            { "text": "에는 태풍이 비사야 지역을 지나면 배가 며칠씩 뜨지 못할 수 있으니 일정에 하루 여유를 두십시오. 성주간과 " },
+            { "type": "date", "text": "5월" },
+            {
+              "text": " 초 연휴에는 국내 여행객이 몰려 리조트와 보트가 빨리 차니 미리 예약하십시오. 투마킨 섬 건너기와 해변 풍경은 물때에 따라 크게 달라지므로 출발 전에 물때표를 확인해 두면 좋습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "일로일로–에스탄시아 버스·밴", "price": "편도 약 ₱200~300", "note": "약 3~4시간" },
+            { "label": "에스탄시아–시코곤 배", "price": "편도 약 ₱80~150", "note": "약 45분~1시간" },
+            { "label": "환경 부담금·등록비", "price": "약 ₱50~150", "note": "항구 관광안내소, 패키지 포함 여부 확인" },
+            { "label": "섬 일주 보트", "price": "1척 약 ₱1,000~2,500", "note": "코스·인원에 따라 다름" },
+            { "label": "히간테스 호핑(전세)", "price": "1척 약 ₱3,500~6,000", "note": "점심 별도인 경우가 많음" },
+            { "label": "하발하발", "price": "1인 약 ₱100~200", "note": "섬 안 이동" },
+            { "label": "숙박", "price": "1박 약 ₱1,300~12,000", "note": "호스텔 침대~리조트 객실" },
+            { "label": "식사", "price": "1끼 약 ₱250~800", "note": "리조트 식당은 더 비쌈" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "시코곤의 숙소는 아얄라 계열 리조트가 중심입니다. 부아야 해변 가까운 숲속에 자리한 발라이 코곤과 바다를 바라보는 인피니티 풀을 갖춘 후니 시코곤은 1박 약 "
+            },
+            { "type": "price", "text": "₱5,000~12,000" },
+            { "text": " 수준이며, 항공·픽업·식사를 묶은 패키지로 파는 경우가 많습니다. 배낭여행자라면 해치 시코곤의 공용 침실(침대 1개 약 " },
+            { "type": "price", "text": "₱1,300~2,000" },
+            { "text": ")이 알맞고, 마을에는 소박한 민박도 몇 곳 있습니다. 숙소 선택지가 적으니 성수기에는 꼭 미리 예약하십시오." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "섬에는 식당이 많지 않아 리조트 식당이나 민박에서 식사하는 경우가 대부분입니다. 카를레스 앞바다에서 잡힌 가리비는 버터 마늘 구이나 찜으로 먹고, 게찜, 식초와 생강에 절인 날생선 킬라윈, 닭고기 채소 수프 비나콜, 일롱고식 콩·돼지고기·잭프루트 국 KBL 같은 일로일로 가정식을 맛볼 수 있습니다. 민박에 묵는다면 전날 식사를 미리 주문해 두는 것이 좋습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            { "children": [{ "text": "섬에는 ATM이 없거나 매우 제한적입니다. 일로일로나 로하스에서 현금을 넉넉히 찾아 가십시오." }] },
+            {
+              "children": [
+                { "text": "휴대전화 신호와 와이파이가 장소와 통신사에 따라 들쭉날쭉합니다. 연락이 필요한 일은 본토에서 미리 처리하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "투마킨 섬은 썰물 때만 걸어서 건널 수 있습니다. 물이 들어오기 전에 돌아오도록 물때를 확인하고 가이드와 함께 움직이십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "오파오 산은 현지 가이드와 함께 오르고, 끈 있는 운동화와 물을 챙기십시오. 한낮보다 이른 아침이나 늦은 오후가 덜 덥습니다." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "히간테스 제도와 함께 여행하려면 시코곤에서 호핑 보트를 빌리거나, 반칼 항구에서 두 곳을 묶은 조인 투어를 이용하면 이동이 간편합니다."
+                }
+              ]
+            },
+            { "children": [{ "text": "섬에는 약국과 편의점이 거의 없습니다. 상비약, 선크림, 벌레 기피제는 본토에서 준비하십시오." }] },
+            {
+              "children": [
+                { "text": "마을 주민을 촬영할 때는 먼저 허락을 구하고, 어장과 양식장 주변에서는 보트가 가까이 가지 않도록 하십시오." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "에스탄시아·반칼과 시코곤을 오가는 작은 방카는 파도에 쉽게 흔들립니다. 반드시 구명조끼를 입고, 해안경비대가 출항을 막는 날에는 무리하지 마십시오."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "북동 계절풍이 강한 " },
+                { "type": "date", "text": "12월~2월" },
+                { "text": "과 태풍철에는 배가 갑자기 결항할 수 있습니다. 귀국 항공편 전날에는 본토로 나와 있는 것이 안전합니다." }
+              ]
+            },
+            { "children": [{ "text": "썰물 때 드러나는 갯벌과 바위에는 성게와 날카로운 조개껍데기가 있습니다. 아쿠아 슈즈를 신으십시오." }] },
+            {
+              "children": [
+                { "text": "섬에는 큰 병원이 없고 가장 가까운 병원은 본토 에스탄시아·카를레스 쪽에 있습니다. 무리한 물놀이와 음주 수영은 피하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "리조트 구역과 주민 마을의 경계가 있습니다. 사유지 표시가 있는 곳에는 들어가지 말고, 주민 생활 공간을 존중하십시오." }
+              ]
+            },
+            {
+              "children": [{ "text": "환경 부담금, 배 요금과 시간표, 항공편 운항 여부는 자주 바뀌니 출발 전에 최신 공지를 확인하십시오." }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "히간테스 제도",
+              "place": "islas-de-gigantes",
+              "children": [
+                { "text": "배로 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": ", 석회암 섬과 탕케 라군, 가리비로 유명한 카를레스의 섬 무리입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "록사스 시티",
+              "place": "roxas-city",
+              "children": [
+                { "text": "에스탄시아에서 차로 약 " },
+                { "type": "duration", "text": "1시간 30분~2시간" },
+                { "text": ", \"필리핀 해산물의 수도\"로 불리는 카피스주의 주도입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "일로일로 시티",
+              "place": "iloilo-city",
+              "children": [
+                { "text": "에스탄시아에서 차로 약 " },
+                { "type": "duration", "text": "3~4시간" },
+                { "text": ", 옛 저택과 성당, 바초이로 유명한 서비사야의 중심 도시입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "보라카이",
+              "place": "boracay",
+              "children": [
+                { "text": "에스탄시아에서 차로 약 " },
+                { "type": "duration", "text": "5~6시간" },
+                { "text": ", 파나이섬 반대편 끝의 필리핀 대표 해변 섬입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

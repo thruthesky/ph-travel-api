@@ -1,0 +1,647 @@
+{
+  "id": 110,
+  "slug": "verde-island",
+  "title": { "type": "title", "text": "ベルデ島" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Verde Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "世界の海洋生物多様性の中心に浮かぶ緑の島" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "batangas", "text": "バタンガス" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "バタンガス州バタンガスシティ ベルデ島"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "ダイビング・海"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "タグ",
+    "items": ["ウォールダイビング", "海洋生物多様性", "ベルデ島海峡", "ドロップオフ", "シュノーケリング"]
+  },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 13.5497 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 121.0708 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "11月〜5月(海が穏やかな時期)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "1泊2日〜2泊3日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱4,000〜9,000(ダイビング込み1日)",
+    "currency": "PHP",
+    "min": 4000,
+    "max": 9000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "ふつう",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ニノイ・アキノ国際空港(MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/110-verde-island.webp",
+    "alt": "ベルデ島",
+    "credit": "Dastreetfilmer / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Verde_island_Batangas2.JPG"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/110-verde-island-2.webp",
+        "alt": "ベルデ島",
+        "credit": "Dmitry Domrin / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Four_butterfly_fish_swim_over_a_coral_reef._Verde_Island_National_Marine_Reserve._Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/110-verde-island-3.webp",
+        "alt": "ベルデ島",
+        "credit": "Kampfgruppe / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Verde_Island.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "ルソン島とミンドロ島の間、ベルデ島海峡の真ん中に浮かぶ小さな火山島です。この海峡は沿岸魚類の多様性が世界で最も高い「中心の中の中心」と呼ばれ、島の前のドロップオフは強い潮流の中で魚群とサンゴが爆発的に広がる、フィリピンを代表するウォールダイビングポイントです。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ベルデ島は、バタンガスシティから南へ海を渡り約" },
+            { "type": "duration", "text": "1時間〜1時間30分" },
+            {
+              "text": "の距離にある火山島で、行政上はバタンガスシティに属します。島にはリポンポン、サンアガピト、サンアグスティン東・西、サンアンドレス、サンアントニオの六つの集落に約5千人が暮らし、最も高いリポンポン峰は標高約"
+            },
+            { "type": "distance", "text": "300m" },
+            { "text": "です。名前の通り島全体が緑の森に覆われ、海岸は断崖と小さな白砂浜が交互に現れます。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ベルデ島を特別なものにしているのは、島を取り巻くベルデ島海峡です。アメリカの海洋生物学者ケント・カーペンターとビクター・スプリンガーは" },
+            { "type": "date", "text": "2005年" },
+            {
+              "text": "に発表した研究で、この海峡を「沿岸魚類多様性の中心の中心」に挙げました。世界で最もサンゴ礁生物が豊富なコーラル・トライアングルの中でも、単位面積あたりの魚種数が最も多い場所という意味です。海峡一帯には300種を超えるサンゴと、ウミガメ、ナポレオンフィッシュ、シャコガイといった保護種が生息しています。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "南シナ海とシブヤン海を結ぶ狭い海峡のため潮流が強く流れ、この潮流が栄養分を運んで魚群と軟質サンゴを育てています。このため島前のドロップオフはバラクーダやアジ類の群れ、ウミガメ、色とりどりのウミウチワを一度に見られる場所ですが、潮流を扱えるダイバーに適したポイントでもあります。"
+            },
+            { "type": "date", "text": "2017年" },
+            { "text": "にはバタンガス・ミンドロなど海峡を囲む五つの州が協力して海峡海洋保護区ネットワークを作り保護に乗り出し、" },
+            { "type": "date", "text": "2023年" },
+            { "text": "には国際海洋保護団体ミッション・ブルーがここを「ホープ・スポット」に指定しました。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "旅行者の多くは、ミンドロ島のプエルト・ガレラやバタンガスのアニラオのダイビングリゾートからボートに乗り、日帰りダイビングで訪れます。ダイバーでなくても、島南部の約1km続く白砂浜マハバン・プハンギン、島の反対側へ続く岩の洞窟通路、島の村のホームステイで静かな一日を過ごせます。中級以上のダイバー、海洋生物の写真家、混雑しない島を探す旅行者におすすめです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "ベルデ島ドロップオフ・ダイビング",
+              "children": [
+                { "text": "水面上にそびえる岩の周りに、サンゴの壁が水深" },
+                { "type": "distance", "text": "40m" },
+                { "text": "以上まで落ち込む代表的なポイントです。潮流に乗って壁沿いを流れながら魚群と軟質サンゴを見るドリフトダイビングが醍醐味です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "魚群と大型魚",
+              "children": [
+                {
+                  "text": "潮流が強い日にはバラクーダとアジ類が群れをなして回遊し、運が良ければナポレオンフィッシュやウミガメにも出会えます。ドロップオフの下部では大きなウミウチワと海綿が壮観です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "マクロ生物探し",
+              "children": [
+                { "text": "サンゴの隙間にはウミウシ、エビ、カニ、小さなカサゴ類がびっしりいます。潮流の弱い浅いサンゴガーデンはマクロ写真愛好家に人気です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "サンゴガーデンでシュノーケリング",
+              "children": [
+                {
+                  "text": "島の縁の浅いサンゴ地帯では、海が穏やかなときシュノーケリングでもチョウチョウウオやスズメダイ、サンゴ礁を見られます。必ずボートクルーやガイドと一緒に行ってください。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "マハバン・プハンギンビーチ",
+              "children": [
+                { "text": "「長い砂」という意味の約" },
+                { "type": "distance", "text": "1km" },
+                { "text": "続く白砂浜です。ダイビングの合間の休憩や、非ダイバーのビーチ散策、水泳に良い場所です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "岩の洞窟通路",
+              "children": [
+                { "text": "島の片側の海岸から岩の間の洞窟を抜けて反対側に出る通路があります。地元住民の案内を受け、潮の状態が良いときに訪れてください。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "島の村でホームステイ",
+              "children": [
+                { "text": "観光地化があまり進んでいない漁村でひと晩を過ごすと、海峡を行き来する船の明かりと星、早朝に漁船が戻ってくる風景を見られます。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "ダイバーの1日",
+              "subtitle": "プエルト・ガレラ発",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:30",
+                      "children": [{ "text": "サバン・ビーチのダイビングショップに集合、ブリーフィングと器材確認" }]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "ボートでベルデ島へ移動(約" },
+                        { "type": "duration", "text": "30〜45分" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "09:00", "children": [{ "text": "1本目のダイビング — ベルデ島ドロップオフ・ドリフト" }] },
+                    { "time": "10:30", "children": [{ "text": "ビーチまたはボート上で休憩と軽食" }] },
+                    { "time": "11:30", "children": [{ "text": "2本目のダイビング — 潮流の弱いサンゴガーデン" }] },
+                    { "time": "13:30", "children": [{ "text": "プエルト・ガレラへ戻り、昼食とログ付け" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "潮流と潮の状態によって、ダイビングの時間とポイントの順番は日々変わります。アニラオのリゾートでも同様の構成のベルデ島遠征ダイビングを運営しており、移動時間は少し長くなります。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1日目",
+              "subtitle": "島旅行",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "05:00", "children": [{ "text": "マニラからバタンガスシティ行きバスに乗車" }] },
+                    { "time": "08:00", "children": [{ "text": "バタンガス港到着、ベルデ島行きの船を確認して乗船" }] },
+                    { "time": "10:00", "children": [{ "text": "ベルデ島到着、ホームステイにチェックイン" }] },
+                    { "time": "11:00〜15:00", "children": [{ "text": "マハバン・プハンギンビーチで水泳と昼食" }] },
+                    { "time": "15:30", "children": [{ "text": "住民の案内で岩の洞窟通路を訪問、またはシュノーケリング" }] },
+                    { "time": "18:00", "children": [{ "text": "海峡に沈む夕日を鑑賞し、海鮮の夕食" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2日目",
+              "subtitle": "朝の海と帰路",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "漁船が戻ってくる村のビーチを散策" }] },
+                    { "time": "07:00", "children": [{ "text": "朝のシュノーケリング(海が最も穏やかな時間)" }] },
+                    { "time": "09:00", "children": [{ "text": "船でバタンガス港へ戻る" }] },
+                    { "time": "11:00", "children": [{ "text": "バタンガスシティでロミの昼食後、マニラへ移動" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "バス",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "マニラのクバオ・ブエンディア・PITXなどからバタンガス港(ピア)行きバスが運行しています。約" },
+                        { "type": "duration", "text": "2〜3時間" },
+                        { "text": "、運賃は約" },
+                        { "type": "price", "text": "₱250〜350" },
+                        { "text": "です。プエルト・ガレラへ向かうダイバーも同じ港から船に乗ります。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船 — バタンガス港",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "バタンガス港からベルデ島の村へ向かう住民用の公共船があり、約" },
+                        { "type": "duration", "text": "1時間〜1時間30分" },
+                        {
+                          "text": "かかります。便数が少なく、時間は天候と乗客数によって変わるため、日帰り往復が難しいこともあります。港で前日か当日の朝に確認してください。"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "連れがいるなら、バンカーボートを1隻チャーターするほうが確実です。往復約" },
+                        { "type": "price", "text": "₱3,000〜6,000" },
+                        { "text": "程度で、人数と待機時間により交渉します。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船 — ダイビングリゾート",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "ダイバーなら、プエルト・ガレラ(サバン・スモール・ラグーン)のダイビングショップのボートが最も便利です。ベルデ島まで約" },
+                        { "type": "duration", "text": "30〜45分" },
+                        { "text": "で、バタンガス港からプエルト・ガレラまではフェリーで約" },
+                        { "type": "duration", "text": "1時間〜1時間30分" },
+                        { "text": "かかります。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "アニラオのダイビングリゾートでもベルデ島遠征ダイビングを運営しています。ボートで約" },
+                        { "type": "duration", "text": "1時間" },
+                        { "text": "前後で、人数が集まってから出発することが多いので事前に予約してください。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自家用車",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "SLEX〜STARトールウェイの終点からバタンガス港まで約" },
+                        { "type": "duration", "text": "2時間〜2時間30分" },
+                        { "text": "かかります。港周辺の民間駐車場に1日約" },
+                        { "type": "price", "text": "₱200〜300" },
+                        { "text": "を払って車を預けられます。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11月〜5月" },
+            { "text": "が最も良く、特に" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "は海が穏やかで視界が" },
+            { "type": "distance", "text": "15〜25m" },
+            { "text": "まで開ける日が多く、ダイビングの最適期です。水温はおおむね" },
+            { "type": "temperature", "text": "26〜29℃" },
+            { "text": "で、3mmスーツで十分です。" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は北東モンスーンで午後に風が強まり水温がやや下がるため、午前中心のダイビングを計画してください。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜10月" },
+            {
+              "text": "の雨季は南西モンスーンと台風のため海峡が荒れ、沿岸警備隊が小型船の運航をたびたび止めます。ダイビングショップもポイントを島の内側に変更したり遠征を中止したりすることが多いです。潮流は季節より潮の状態の影響を大きく受け、満月・新月前後の大潮のときに特に強くなります。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "マニラ〜バタンガス港 バス", "price": "片道約₱250〜350", "note": "会社により異なる" },
+            { "label": "バタンガス〜プエルト・ガレラ フェリー", "price": "片道約₱400〜600", "note": "ターミナル料・環境税別" },
+            { "label": "ファンダイビング", "price": "1回約₱1,500〜2,500", "note": "ベルデ遠征ボート代が加算される場合あり" },
+            { "label": "器材レンタル", "price": "1日約₱500〜1,000", "note": "フルセット基準" },
+            { "label": "海洋保護区利用料", "price": "1人約₱100〜300", "note": "最新情報を確認" },
+            { "label": "バンカーボートチャーター(バタンガス港発)", "price": "往復約₱3,000〜6,000", "note": "人数・待機時間により交渉" },
+            { "label": "宿泊", "price": "1泊約₱1,000〜5,000", "note": "島のホームステイ〜本土のダイビングリゾート" },
+            { "label": "食事", "price": "1食約₱200〜500", "note": "リゾート・現地食堂" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "ベルデ島内の宿泊施設は小規模なリゾートが数軒と住民のホームステイ程度で選択肢が少なく、設備も素朴です(1泊約" },
+            { "type": "price", "text": "₱1,000〜3,000" },
+            {
+              "text": ")。そのためダイバーの多くは、プエルト・ガレラのサバン・ビーチやスモール・ラグーン、またはアニラオのダイビングリゾートに泊まり、ベルデ島には日帰りで訪れます。ダイビングパッケージ(宿泊・食事・ダイビング込み)を選べば、1人1日約"
+            },
+            { "type": "price", "text": "₱4,000〜9,000" },
+            { "text": "程度で快適に過ごせます。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "島ではその日獲れた魚を焼くかシニガンで煮た素朴な海鮮料理が中心で、店が小さいため水とおやつはバタンガスシティで準備しておくのが良いです。バタンガスシティは太麺に濃厚なスープをかけたバタンガス・ロミの本場で、港との行き来の途中に一杯食べるのに良く、牛骨スープのブラロと濃厚なカペン・バラココーヒーもこの地域の自慢です。プエルト・ガレラに滞在するなら、サバン・ビーチの食堂街で多彩な海鮮料理や洋食を楽しめます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "ベルデ島のドロップオフは潮流が強いため、ほとんどのショップがアドバンス以上の資格と一定の経験(ログ数)を要求します。初心者は潮流の弱いポイントを先にリクエストしてください。"
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "潮流の中でのドリフトダイビングにはSMB(サーフェスマーカーブイ)とホイッスルが必須です。持っていなければショップで借りてください。" }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "非ダイバーなら、ダイビングボートにシュノーケラーとして同乗するのが最も簡単で安全な方法です。料金とシュノーケリング可能なポイントを事前に確認してください。"
+                }
+              ]
+            },
+            { "children": [{ "text": "島にはATMがありません。ホームステイ、船、食事の費用は現金で用意してください。" }] },
+            { "children": [{ "text": "島の電気と携帯電話の電波が弱いことがあります。モバイルバッテリーと防水バッグを持参してください。" }] },
+            { "children": [{ "text": "海洋保護区ではサンゴへの影響が少ない日焼け止めを使い、手袋の着用や生物の採集はしないでください。" }] },
+            {
+              "children": [
+                { "text": "ダイビング後" },
+                { "type": "duration", "text": "18〜24時間" },
+                { "text": "以内は飛行機に乗らないよう、マニラからの出国日程には余裕を持たせてください。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "ベルデ島海峡はフィリピンで最も潮流が強い海の一つです。下降流・上昇流や渦が発生することがあるため、必ず現地ガイドに従い、経験が不十分なら無理にドロップオフに入らないでください。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "海峡は大型貨物船や旅客船が行き来する航路です。水面に浮上したらすぐにSMBを上げ、ボートを待ってください。" }] },
+            { "children": [{ "text": "悪天候や台風警報が出ると沿岸警備隊が船の運航を止めます。島へ渡る際は予備日を1日ほど確保してください。" }] },
+            { "children": [{ "text": "シュノーケリングは必ずボートクルーやガイドと一緒に行い、潮流のある日はビーチの近くだけにしてください。" }] },
+            {
+              "children": [
+                { "type": "date", "text": "2023年" },
+                { "text": "のミンドロ沖タンカー重油流出のように、海峡では環境事故が起こることがあります。海洋汚染の警報が出たら入水を避け、最新情報を確認してください。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "サンゴや生物に触れたり踏んだりせず、ゴミはすべて持ち帰ってください。島は住民が暮らす村なので、撮影の前に一声かけてください。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "プエルト・ガレラ",
+              "place": "puerto-galera",
+              "children": [
+                { "text": "ボートで約" },
+                { "type": "duration", "text": "30〜45分" },
+                { "text": "、ベルデ島ダイビングの拠点となるミンドロ島北部のビーチ・ダイビングタウンです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "アニラオ",
+              "place": "anilao",
+              "children": [
+                { "text": "ボートで約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "、ウミウシとマクロダイビングで有名なマニラ近郊のダイビングタウンです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "マササビーチ",
+              "place": "masasa-beach",
+              "children": [
+                { "text": "アニラオから船で約" },
+                { "type": "duration", "text": "45分〜1時間" },
+                { "text": "、ティンロイのマリカバン島にあるエメラルド色の海と白砂ビーチです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "タール・ヘリテージタウン",
+              "place": "taal-heritage-town",
+              "children": [
+                { "text": "バタンガス港から車で約" },
+                { "type": "duration", "text": "1時間" },
+                { "text": "、巨大なバシリカとスペイン時代の邸宅が残る古い町です。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

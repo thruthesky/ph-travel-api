@@ -75,7 +75,7 @@ $category = $param('category');
 $month = max(0, min(12, (int) $param('month')));
 $filter = array_filter(['category' => $category, 'month' => $month]);
 if ($place === null) {
-    // 검색도 분류·달 거르기를 함께 쓴다. 여행지는 100곳 안팎이라 한 번에 모두 보인다
+    // 검색도 분류·달 거르기를 함께 쓴다. 여행지는 200곳 안팎이라 한 번에 모두 보인다
     $items = $q !== ''
         ? $travel->search($q, $lang, 200, $filter)
         : $travel->list($filter + ['sort' => 'rating'], $lang, 200)['items'];

@@ -1,0 +1,662 @@
+{
+  "id": 110,
+  "slug": "verde-island",
+  "title": { "type": "title", "text": "베르데 섬" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Verde Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "세계 바다 생물 다양성의 중심에 떠 있는 초록 섬" },
+  "island_group": { "type": "badge", "label": "권역", "value": "luzon", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "value": "batangas", "text": "바탕가스" },
+  "location": {
+    "type": "address",
+    "label": "위치",
+    "icon": "location_on",
+    "text": "바탕가스주 바탕가스시티 베르데 섬"
+  },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "다이빙·해양"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "태그",
+    "items": ["월 다이빙", "해양 생물 다양성", "베르데 섬 해협", "드롭오프", "스노클링"]
+  },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 13.5497 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 121.0708 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "11월~5월 (바다가 잔잔한 시기)",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "1박 2일~2박 3일" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱4,000~9,000 (다이빙 포함 1일)",
+    "currency": "PHP",
+    "min": 4000,
+    "max": 9000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "보통",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "니노이 아키노 국제공항(MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/110-verde-island.webp",
+    "alt": "베르데 섬",
+    "credit": "Dastreetfilmer / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Verde_island_Batangas2.JPG"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/110-verde-island-2.webp",
+        "alt": "베르데 섬",
+        "credit": "Dmitry Domrin / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Four_butterfly_fish_swim_over_a_coral_reef._Verde_Island_National_Marine_Reserve._Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/110-verde-island-3.webp",
+        "alt": "베르데 섬",
+        "credit": "Kampfgruppe / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Verde_Island.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "루손과 민도로 사이 베르데 섬 해협 한가운데에 있는 작은 화산섬입니다. 이 해협은 해안 어류 다양성이 세계에서 가장 높은 '중심 중의 중심'으로 불리며, 섬 앞 드롭오프는 강한 조류 속에 물고기 떼와 산호가 폭발하듯 펼쳐지는 필리핀 대표 월 다이빙 포인트입니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "베르데 섬은 바탕가스시티에서 남쪽으로 바다를 건너 약 " },
+            { "type": "duration", "text": "1시간~1시간 30분" },
+            {
+              "text": " 떨어진 화산섬으로, 행정상 바탕가스시티에 속합니다. 섬에는 리폰폰, 산아가피토, 산아구스틴 동·서, 산안드레스, 산안토니오의 여섯 마을에 약 5천 명이 살고, 가장 높은 리폰폰 봉우리가 해발 약 "
+            },
+            { "type": "distance", "text": "300m" },
+            { "text": "입니다. 이름처럼 섬 전체가 초록 숲으로 덮여 있고, 해안은 절벽과 작은 백사장이 번갈아 나타납니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "베르데 섬을 특별하게 만드는 것은 섬을 둘러싼 베르데 섬 해협입니다. 미국의 해양생물학자 켄트 카펜터와 빅터 스프링어는 " },
+            { "type": "date", "text": "2005년" },
+            {
+              "text": " 발표한 연구에서 이 해협을 '해안 어류 다양성의 중심 중의 중심'으로 꼽았습니다. 세계에서 산호초 생물이 가장 풍부한 산호 삼각지대 안에서도, 단위 면적당 어종이 가장 많은 곳이라는 뜻입니다. 해협 일대에는 300종이 넘는 산호와 바다거북, 나폴레옹피시, 대왕조개 같은 보호종이 삽니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "남중국해와 시부얀해를 잇는 좁은 해협이라 조류가 강하게 흐르고, 이 조류가 영양분을 실어 날라 물고기 떼와 연산호를 키웁니다. 이 때문에 섬 앞 드롭오프는 바라쿠다와 잭피시 무리, 거북, 형형색색의 부채산호를 한 번에 볼 수 있는 곳이지만, 조류를 다룰 줄 아는 다이버에게 알맞은 포인트이기도 합니다. "
+            },
+            { "type": "date", "text": "2017년" },
+            { "text": "에는 바탕가스·민도로 등 해협을 둘러싼 다섯 주가 함께 해협 해양보호구역 네트워크를 만들어 보호에 나섰고, " },
+            { "type": "date", "text": "2023년" },
+            { "text": "에는 국제 해양보호 단체 미션 블루가 이곳을 '희망의 바다(Hope Spot)'로 지정했습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "여행자 대부분은 민도로의 푸에르토갈레라나 바탕가스의 아닐라오 다이빙 리조트에서 보트를 타고 당일 다이빙으로 찾아옵니다. 다이버가 아니라면 섬 남쪽의 약 1km 길이 백사장 마하방 부항인, 섬 반대편으로 이어지는 바위 동굴 통로, 섬마을 홈스테이에서 조용한 하루를 보낼 수 있습니다. 중급 이상 다이버, 해양 생물 사진가, 붐비지 않는 섬을 찾는 여행자에게 추천합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "베르데 섬 드롭오프 다이빙",
+              "children": [
+                { "text": "수면 위로 솟은 바위 주변으로 산호 벽이 수심 " },
+                { "type": "distance", "text": "40m" },
+                {
+                  "text": " 이상까지 떨어지는 대표 포인트입니다. 조류를 타고 벽을 따라 흘러가며 물고기 떼와 연산호를 보는 드리프트 다이빙이 백미입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "물고기 떼와 대형 어류",
+              "children": [
+                {
+                  "text": "조류가 센 날에는 바라쿠다와 잭피시가 무리 지어 돌고, 운이 좋으면 나폴레옹피시와 바다거북도 만납니다. 드롭오프 아래쪽에서는 큰 부채산호와 해면이 장관입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "마크로 생물 찾기",
+              "children": [
+                {
+                  "text": "산호 틈에는 누디브랜치, 갯민숭달팽이, 새우, 게, 작은 쏨뱅이류가 가득합니다. 조류가 약한 얕은 산호 정원은 마크로 사진가에게 인기가 많습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "산호 정원 스노클링",
+              "children": [
+                {
+                  "text": "섬 가장자리 얕은 산호 지대에서는 물이 잔잔할 때 스노클링으로도 나비고기와 자리돔, 산호초를 볼 수 있습니다. 반드시 보트 크루나 가이드와 함께하십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "마하방 부항인 해변",
+              "children": [
+                { "text": "'긴 모래'라는 뜻의 약 " },
+                { "type": "distance", "text": "1km" },
+                { "text": " 길이 백사장입니다. 다이빙 사이 휴식이나 비다이버의 해변 산책, 수영에 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "바위 동굴 통로",
+              "children": [
+                {
+                  "text": "섬 한쪽 해안에서 바위 사이 동굴을 지나 반대편으로 나오는 통로가 있습니다. 현지 주민 안내를 받아 물때가 좋을 때 다녀오십시오."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "섬마을 홈스테이",
+              "children": [
+                {
+                  "text": "관광지화가 덜 된 어촌 마을에서 하룻밤을 보내면 해협을 오가는 배들의 불빛과 별, 이른 아침 고깃배가 들어오는 풍경을 볼 수 있습니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "다이버 1일",
+              "subtitle": "푸에르토갈레라 출발",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:30", "children": [{ "text": "사방 해변 다이빙 숍 집합, 브리핑과 장비 확인" }] },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "보트로 베르데 섬 이동 (약 " },
+                        { "type": "duration", "text": "30~45분" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "09:00", "children": [{ "text": "1차 다이빙 — 베르데 섬 드롭오프 드리프트" }] },
+                    { "time": "10:30", "children": [{ "text": "해변 또는 보트 위 휴식과 간식" }] },
+                    { "time": "11:30", "children": [{ "text": "2차 다이빙 — 조류가 약한 산호 정원" }] },
+                    { "time": "13:30", "children": [{ "text": "푸에르토갈레라 복귀, 점심과 로그 작성" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "조류와 물때에 따라 다이빙 시간과 포인트 순서가 매일 바뀝니다. 아닐라오 리조트에서도 비슷한 구성의 베르데 섬 원정 다이빙을 운영하며, 이동 시간은 조금 더 깁니다."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1일차",
+              "subtitle": "섬 여행",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "05:00", "children": [{ "text": "마닐라에서 바탕가스시티행 버스 탑승" }] },
+                    { "time": "08:00", "children": [{ "text": "바탕가스 항구 도착, 베르데 섬행 배 확인 후 탑승" }] },
+                    { "time": "10:00", "children": [{ "text": "베르데 섬 도착, 홈스테이 체크인" }] },
+                    { "time": "11:00~15:00", "children": [{ "text": "마하방 부항인 해변에서 수영과 점심" }] },
+                    { "time": "15:30", "children": [{ "text": "주민 안내로 바위 동굴 통로 방문 또는 스노클링" }] },
+                    { "time": "18:00", "children": [{ "text": "해협 위 석양 감상과 해산물 저녁" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2일차",
+              "subtitle": "아침 바다와 귀가",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "고깃배가 들어오는 마을 해변 산책" }] },
+                    { "time": "07:00", "children": [{ "text": "아침 스노클링 (바다가 가장 잔잔한 시간)" }] },
+                    { "time": "09:00", "children": [{ "text": "배로 바탕가스 항구 복귀" }] },
+                    { "time": "11:00", "children": [{ "text": "바탕가스시티에서 로미로 점심 후 마닐라로 이동" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "버스",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "마닐라 쿠바오·부엔디아·PITX 등에서 바탕가스 항구(피어)행 버스가 운행합니다. 약 " },
+                        { "type": "duration", "text": "2~3시간" },
+                        { "text": ", 요금은 약 " },
+                        { "type": "price", "text": "₱250~350" },
+                        { "text": "입니다. 푸에르토갈레라로 가는 다이버도 같은 항구에서 배를 탑니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "배 — 바탕가스 항구",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "바탕가스 항구에서 베르데 섬 마을로 가는 주민용 공공 배가 있으며 약 " },
+                        { "type": "duration", "text": "1시간~1시간 30분" },
+                        {
+                          "text": " 걸립니다. 운항 편수가 적고 시간이 날씨와 승객 수에 따라 바뀌어 당일 왕복이 어려울 수 있으니, 항구에서 전날이나 당일 아침에 확인하십시오."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "일행이 있다면 방카 한 척을 빌리는 편이 확실합니다. 왕복 약 " },
+                        { "type": "price", "text": "₱3,000~6,000" },
+                        { "text": " 수준이며, 인원과 대기 시간에 따라 협상합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "배 — 다이빙 리조트",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "다이버라면 푸에르토갈레라(사방·스몰라 라구나)의 다이빙 숍 보트가 가장 편합니다. 베르데 섬까지 약 " },
+                        { "type": "duration", "text": "30~45분" },
+                        { "text": "이며, 바탕가스 항구에서 푸에르토갈레라까지는 페리로 약 " },
+                        { "type": "duration", "text": "1시간~1시간 30분" },
+                        { "text": " 걸립니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "아닐라오 다이빙 리조트에서도 베르데 섬 원정 다이빙을 운영합니다. 보트로 약 " },
+                        { "type": "duration", "text": "1시간" },
+                        { "text": " 안팎이며, 인원이 모여야 출발하는 경우가 많으니 미리 예약하십시오." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "자가용",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "SLEX–STAR 톨웨이 끝에서 바탕가스 항구까지 약 " },
+                        { "type": "duration", "text": "2시간~2시간 30분" },
+                        { "text": " 걸립니다. 항구 주변 사설 주차장에 하루 약 " },
+                        { "type": "price", "text": "₱200~300" },
+                        { "text": "을 내고 차를 맡길 수 있습니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11월~5월" },
+            { "text": "이 가장 좋고, 특히 " },
+            { "type": "date", "text": "3월~5월" },
+            { "text": "은 바다가 잔잔하고 시야가 " },
+            { "type": "distance", "text": "15~25m" },
+            { "text": "까지 트이는 날이 많아 다이빙 최적기입니다. 수온은 대체로 " },
+            { "type": "temperature", "text": "26~29℃" },
+            { "text": "로, 3mm 슈트면 충분합니다. " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": "에는 북동 계절풍으로 오후에 바람이 강해지고 수온이 조금 내려가니 오전 다이빙 위주로 계획하십시오." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6월~10월" },
+            {
+              "text": " 우기에는 남서 계절풍과 태풍 때문에 해협이 거칠어지고, 해안경비대가 소형 배 운항을 자주 중단합니다. 다이빙 숍도 포인트를 섬 안쪽으로 바꾸거나 원정을 취소하는 일이 많습니다. 조류는 계절보다 물때의 영향을 크게 받아, 보름과 그믐 전후 사리 때 특히 강해집니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            { "label": "마닐라–바탕가스 항구 버스", "price": "편도 약 ₱250~350", "note": "업체별 상이" },
+            { "label": "바탕가스–푸에르토갈레라 페리", "price": "편도 약 ₱400~600", "note": "터미널·환경세 별도" },
+            { "label": "펀 다이빙", "price": "1회 약 ₱1,500~2,500", "note": "베르데 원정 보트비 추가 가능" },
+            { "label": "장비 대여", "price": "1일 약 ₱500~1,000", "note": "풀 세트 기준" },
+            { "label": "해양보호구역 이용료", "price": "1인 약 ₱100~300", "note": "최신 공지 확인" },
+            { "label": "방카 전세(바탕가스 항구 출발)", "price": "왕복 약 ₱3,000~6,000", "note": "인원·대기 시간별 협상" },
+            { "label": "숙박", "price": "1박 약 ₱1,000~5,000", "note": "섬 홈스테이~본토 다이빙 리조트" },
+            { "label": "식사", "price": "1끼 약 ₱200~500", "note": "리조트·현지 식당" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "베르데 섬 안의 숙소는 소규모 리조트 몇 곳과 주민 홈스테이 정도로 선택지가 적고 시설도 소박합니다(1박 약 " },
+            { "type": "price", "text": "₱1,000~3,000" },
+            {
+              "text": "). 그래서 다이버 대부분은 푸에르토갈레라의 사방 해변이나 스몰라 라구나, 또는 아닐라오의 다이빙 리조트에 묵으며 베르데 섬을 당일로 다녀옵니다. 다이빙 패키지(숙박·식사·다이빙 포함)를 고르면 1인 1일 약 "
+            },
+            { "type": "price", "text": "₱4,000~9,000" },
+            { "text": " 선에서 편하게 머물 수 있습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "섬에서는 그날 잡은 생선을 굽거나 시니강으로 끓인 소박한 해산물 밥상이 전부이고, 가게가 작아 물과 간식은 바탕가스시티에서 준비해 가는 것이 좋습니다. 바탕가스시티는 굵은 면에 진한 국물을 부은 바탕가스 로미의 본고장이라 항구로 오가는 길에 한 그릇 먹기 좋고, 소 사골 수프 불랄로와 진한 카펭 바라코 커피도 이 지역의 자랑입니다. 푸에르토갈레라에 머문다면 사방 해변 식당가에서 다양한 해산물 요리와 서양식을 즐길 수 있습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "베르데 섬 드롭오프는 조류가 강해 대부분의 숍이 어드밴스드 이상 자격과 일정 경험(로그 수)을 요구합니다. 초보자는 조류가 약한 포인트를 먼저 요청하십시오."
+                }
+              ]
+            },
+            {
+              "children": [{ "text": "조류 속 드리프트 다이빙에는 SMB(수면 신호 부이)와 호루라기가 필수입니다. 없다면 숍에서 빌리십시오." }]
+            },
+            {
+              "children": [
+                {
+                  "text": "비다이버라면 다이빙 보트에 스노클러로 함께 타는 것이 가장 쉽고 안전한 방법입니다. 요금과 스노클링 가능한 포인트를 미리 확인하십시오."
+                }
+              ]
+            },
+            { "children": [{ "text": "섬에는 ATM이 없습니다. 홈스테이, 배, 식사 비용은 현금으로 준비하십시오." }] },
+            { "children": [{ "text": "섬의 전기와 휴대전화 신호가 약할 수 있습니다. 보조 배터리와 방수 가방을 챙기십시오." }] },
+            { "children": [{ "text": "해양보호구역에서는 산호에 해가 적은 선크림을 쓰고, 장갑 착용이나 생물 채집을 하지 마십시오." }] },
+            {
+              "children": [
+                { "text": "다이빙 후 " },
+                { "type": "duration", "text": "18~24시간" },
+                { "text": " 안에는 비행기를 타지 않도록 마닐라 출국 일정을 여유 있게 잡으십시오." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "베르데 섬 해협은 필리핀에서 조류가 가장 강한 바다 가운데 하나입니다. 하강·상승 조류와 소용돌이가 생길 수 있으니 반드시 현지 가이드를 따르고, 경험이 부족하면 무리하게 드롭오프에 들어가지 마십시오."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "해협은 큰 화물선과 여객선이 드나드는 항로입니다. 수면에 올라오면 즉시 SMB를 올리고 보트를 기다리십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "기상 악화나 태풍 경보가 있으면 해안경비대가 배 운항을 막습니다. 섬에 들어갈 때는 하루 정도 예비 일정을 두십시오." }
+              ]
+            },
+            { "children": [{ "text": "스노클링은 반드시 보트 크루나 가이드와 함께하고, 조류가 있는 날은 해변 가까이에서만 하십시오." }] },
+            {
+              "children": [
+                { "type": "date", "text": "2023년" },
+                {
+                  "text": " 민도로 앞바다 유조선 기름 유출처럼 해협에서는 환경 사고가 생길 수 있습니다. 해양 오염 경보가 나오면 입수를 피하고 최신 공지를 확인하십시오."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "산호와 생물을 만지거나 밟지 말고, 쓰레기는 모두 되가져 가십시오. 섬은 주민이 사는 마을이니 사진 촬영 전에 양해를 구하십시오."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "푸에르토갈레라",
+              "place": "puerto-galera",
+              "children": [
+                { "text": "보트로 약 " },
+                { "type": "duration", "text": "30~45분" },
+                { "text": ", 베르데 섬 다이빙의 기지가 되는 민도로 북부의 해변·다이빙 마을입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "아닐라오",
+              "place": "anilao",
+              "children": [
+                { "text": "보트로 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": ", 누디브랜치와 마크로 다이빙으로 유명한 마닐라 근교 다이빙 마을입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "마사사 해변",
+              "place": "masasa-beach",
+              "children": [
+                { "text": "아닐라오에서 배로 약 " },
+                { "type": "duration", "text": "45분~1시간" },
+                { "text": ", 팅로이 마리카반섬의 에메랄드빛 바다와 흰 모래 해변입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "타알 헤리티지 타운",
+              "place": "taal-heritage-town",
+              "children": [
+                { "text": "바탕가스 항구에서 차로 약 " },
+                { "type": "duration", "text": "1시간" },
+                { "text": ", 거대한 바실리카와 스페인 시대 저택이 남은 옛 마을입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

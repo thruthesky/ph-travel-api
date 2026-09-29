@@ -1,0 +1,810 @@
+{
+  "id": 191,
+  "slug": "eden-nature-park",
+  "title": { "type": "title", "text": "Công viên thiên nhiên Eden" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Eden Nature Park" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "Khu vườn trên núi ở Davao với gió mát rừng thông"
+  },
+  "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "mindanao", "text": "Mindanao" },
+  "region": { "type": "badge", "label": "Khu vực", "value": "davao", "text": "Davao" },
+  "location": {
+    "type": "address",
+    "label": "Vị trí",
+    "icon": "location_on",
+    "text": "Eden, quận Toril, thành phố Davao, tỉnh Davao del Sur"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Loại hình",
+    "icon": "landscape",
+    "value": "nature",
+    "text": "Cảnh quan thiên nhiên"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Thẻ",
+    "items": ["Khu nghỉ dưỡng núi", "Rừng thông", "Skyrider", "Rau hữu cơ", "Du lịch gia đình"]
+  },
+  "rating": { "type": "rating", "label": "Đánh giá", "value": 4.4, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 7.0325 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 125.3974 },
+  "best_season": {
+    "type": "date",
+    "label": "Thời điểm lý tưởng",
+    "icon": "calendar_month",
+    "text": "Tháng 1 – Tháng 5 (thời điểm tương đối quang mây)",
+    "months": [1, 2, 3, 4, 5]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Thời gian chuyến đi",
+    "icon": "schedule",
+    "text": "Nửa ngày – 2 ngày 1 đêm"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Ngân sách",
+    "icon": "payments",
+    "text": "Khoảng ₱1,500–3,500/người (mỗi ngày)",
+    "currency": "PHP",
+    "min": 1500,
+    "max": 3500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Độ khó",
+    "icon": "signal_cellular_alt",
+    "text": "Dễ",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Sân bay gần nhất",
+    "icon": "flight",
+    "text": "Sân bay quốc tế Francisco Bangoy (DVO)",
+    "code": "DVO"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/191-eden-nature-park.webp",
+    "alt": "Công viên thiên nhiên Eden",
+    "credit": "Michael E. Peligro / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Eden_Nature_Park_panorama.jpg"
+  },
+  "gallery": { "type": "carousel", "label": "Hình ảnh", "items": [] },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Đây là khu nghỉ dưỡng trên núi nằm ở chân núi Talomo, độ cao khoảng 900m, cách trung tâm Davao khoảng 1 giờ đi xe. Trong khu rừng thông được trồng gây dựng lại suốt hàng chục năm trên vùng đất từng bị khai thác gỗ trơ trụi, bạn có thể tận hưởng không khí mát lành, những khu vườn hoa, trò chơi trượt cáp trên không và buffet rau hữu cơ."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "Tổng quan",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Eden Nature Park and Resort là công viên thiên nhiên kiêm khu nghỉ dưỡng trên núi, tọa lạc tại barangay Eden, quận Toril (Toril) phía tây nam thành phố Davao, ở độ cao khoảng "
+            },
+            { "type": "distance", "text": "900m" },
+            {
+              "text": " (khoảng 3.000 feet) trên chân núi Talomo. Cách trung tâm thành phố khoảng "
+            },
+            { "type": "distance", "text": "30km" },
+            { "text": ", chỉ mất khoảng " },
+            { "type": "duration", "text": "1 giờ" },
+            {
+              "text": " đi xe, nhưng càng lên cao không khí càng khác hẳn, giữa trưa vẫn có gió mát khoảng "
+            },
+            { "type": "temperature", "text": "20℃" },
+            {
+              "text": ". Chỉ cần rời trung tâm Davao nóng bức nửa ngày, bạn đã có thể cảm nhận như đang ở Baguio hay Tagaytay, nên nơi đây từ lâu được người dân địa phương yêu thích làm điểm dã ngoại cuối tuần."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Điều đặc biệt ở đây là phần lớn cảnh quan đều do bàn tay con người phục hồi lại. Khi vợ chồng nhà sáng lập Jesus V. Ayala lần đầu đến vùng đất này vào "
+            },
+            { "type": "date", "text": "năm 1971" },
+            {
+              "text": ", đây chỉ là vùng đất hoang với cây cối bị đốn sạch do khai thác gỗ trái phép, chỉ còn lại cỏ dại mọc um tùm. Sau hàng chục năm trồng và chăm sóc cây con, giờ đây nơi này đã trở thành khu rừng rậm rạp với "
+            },
+            { "text": "hơn 100.000 cây thông", "bold": true },
+            {
+              "text": " cùng các loài cây nhiệt đới khác, và trong khuôn viên khoảng 80 hecta, có khoảng 40 hecta được xây dựng thành vườn và các cơ sở. Đây thường được nhắc đến như một trong những ví dụ phục hồi rừng tư nhân tiêu biểu nhất của Philippines."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Trong công viên có vườn hoa và thảo mộc, ruộng rau bậc thang, khu thả hươu, làng văn hóa bản địa tái hiện Tinubdan, nhà hát ngoài trời, khu câu cá và hồ bơi rải rác khắp nơi. Ngoài ra còn có các trò chơi như Skyrider — trượt cáp băng qua rừng thông, Skycycle — đạp xe trên dây ở độ cao, Skyswing — đu đưa mạnh trên không, rất được lòng các gia đình, cặp đôi và đoàn khách."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Nơi này phù hợp với du khách muốn tận hưởng không khí núi mát mẻ và cảnh xanh mà không cần leo núi vất vả hay di chuyển xa, các gia đình có trẻ nhỏ, và những ai muốn nghỉ ngơi một ngày giữa lịch trình ở trung tâm Davao. Phần lớn khách đi về trong ngày, nhưng nếu nghỉ đêm tại các cottage trong núi, bạn sẽ được tận hưởng khu rừng sương sớm và những buổi dạo bộ yên tĩnh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Không thể bỏ lỡ",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Tour xe điện có hướng dẫn viên",
+              "children": [
+                { "text": "Đây là tour thuyết minh khoảng " },
+                { "type": "duration", "text": "45 phút" },
+                {
+                  "text": " trên xe điện riêng của công viên, đưa bạn qua các khu vườn chính, điểm ngắm cảnh, ruộng rau và Tinubdan. Vì khuôn viên rộng và có độ dốc, người lần đầu đến nên đi xe điện để nắm tổng thể trước, rồi quay lại đi bộ đến những chỗ mình thích sẽ hiệu quả hơn."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Trượt cáp Skyrider",
+              "children": [
+                {
+                  "text": "Đây là trải nghiệm tiêu biểu của Eden — treo mình trên sợi cáp dài khoảng "
+                },
+                { "type": "distance", "text": "200m" },
+                {
+                  "text": " và trượt êm ái qua rừng thông. Tốc độ không nhanh nên người mới chơi hay thanh thiếu niên cũng thoải mái, và bên dưới là khung cảnh rừng cùng thung lũng trải rộng."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Skycycle và Skyswing",
+              "children": [
+                {
+                  "text": "Skycycle cho bạn đạp xe băng qua sợi dây treo trên không, còn Skyswing đu đưa mạnh ở độ cao khoảng 95 feet, rất được lòng những ai thích cảm giác mạnh. Có giới hạn về chiều cao, cân nặng, sức khỏe nên bạn cần xem hướng dẫn tại chỗ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Đường dạo rừng thông",
+              "children": [
+                {
+                  "text": "Bạn hãy thong thả dạo bước trên những con đường rừng thông và vườn hoa khắp công viên. Vào sáng sớm khi sương mù còn là là mặt đất, khung cảnh rất đẹp để chụp ảnh, và nhờ ở độ cao nên đi bộ cũng ít đổ mồ hôi hơn."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Làng văn hóa bản địa Tinubdan",
+              "children": [
+                {
+                  "text": "Đây là không gian văn hóa tái hiện nhà ở truyền thống, dụng cụ sinh hoạt và nghề thủ công của người bản địa Mindanao (Lumad). Bạn có thể tìm hiểu sơ lược câu chuyện của nhiều bộ tộc sống quanh vùng Davao, rất phù hợp cho chuyến đi giáo dục cùng trẻ nhỏ."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Ruộng rau và buffet nông trại",
+              "children": [
+                {
+                  "text": "Tận dụng khí hậu vùng cao, nơi đây có nông trại trồng rau và thảo mộc, và rau trồng tại chỗ được đưa vào buffet trưa của nhà hàng công viên. Bạn có thể thưởng thức salad tươi và các món ăn gia đình Philippines cùng khung cảnh núi non."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "Cưỡi ngựa và câu cá",
+              "children": [
+                {
+                  "text": "Có đường cưỡi ngựa ngắn phù hợp cho trẻ em và người mới, cùng khu câu cá nơi cá bạn câu được sẽ được chế biến ngay. Đây là trải nghiệm phù hợp cho gia đình muốn dành trọn một ngày thong thả."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Lịch trình gợi ý",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Đi trong ngày",
+              "subtitle": "Xuất phát từ trung tâm Davao",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "08:00",
+                      "children": [
+                        {
+                          "text": "Xuất phát từ chỗ ở tại trung tâm Davao, đi taxi, xe thuê riêng hoặc xe điện công viên về hướng Toril"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Đến Eden, mua vé vào cổng·vé trải nghiệm rồi bắt đầu tour xe điện có hướng dẫn viên"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [
+                        { "text": "Trải nghiệm Skyrider, Skycycle... (buổi sáng ít xếp hàng hơn)" }
+                      ]
+                    },
+                    {
+                      "time": "11:30~13:00",
+                      "children": [
+                        { "text": "Ăn trưa buffet tại nhà hàng, dạo ruộng rau và vườn hoa" }
+                      ]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [
+                        { "text": "Tham quan làng văn hóa bản địa Tinubdan, khu thả hươu" }
+                      ]
+                    },
+                    {
+                      "time": "14:30",
+                      "children": [{ "text": "Cưỡi ngựa, câu cá, hoặc nghỉ ngơi tại hồ bơi" }]
+                    },
+                    {
+                      "time": "16:00",
+                      "children": [
+                        { "text": "Rời công viên, qua Toril rồi quay về trung tâm Davao" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2 ngày 1 đêm",
+              "subtitle": "Một đêm giữa núi",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "Sáng ngày 1",
+                      "children": [
+                        {
+                          "text": "Xuất phát từ trung tâm Davao, nhận phòng rồi đi tour xe điện có hướng dẫn viên"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Chiều ngày 1",
+                      "children": [
+                        {
+                          "text": "Trải nghiệm các trò chơi và dạo đường rừng, buổi tối dùng bữa trong không khí mát mẻ"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "06:00 ngày 2",
+                      "children": [{ "text": "Dạo rừng thông sương sớm và chụp ảnh vào sáng sớm" }]
+                    },
+                    {
+                      "time": "08:00 ngày 2",
+                      "children": [
+                        {
+                          "text": "Sau bữa sáng, tham quan những nơi chưa ghé như ruộng rau, Tinubdan"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00 ngày 2",
+                      "children": [
+                        {
+                          "text": "Trả phòng rồi di chuyển về trung tâm, tiếp tục lịch trình trung tâm Davao vào buổi chiều"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Cách di chuyển",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "Máy bay",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Từ Manila bay thẳng đến sân bay quốc tế Francisco Bangoy, Davao (DVO) mất khoảng "
+                        },
+                        { "type": "duration", "text": "1 giờ 50 phút" },
+                        { "text": ", từ Cebu khoảng " },
+                        { "type": "duration", "text": "1 giờ 10 phút" },
+                        { "text": ". Vé một chiều khoảng " },
+                        { "type": "price", "text": "₱2,500~7,000" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Sân bay nằm ở phía bắc thành phố Davao còn Eden ở tận phía tây nam, nên từ sân bay đến Eden mất khoảng "
+                        },
+                        { "type": "duration", "text": "1 giờ 20 phút~2 giờ" },
+                        {
+                          "text": " đi xe. Thay vì đi ngay trong ngày đến, bạn nên nghỉ đêm ở trung tâm thành phố rồi xuất phát vào sáng hôm sau sẽ thoải mái hơn."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Taxi · Grab · xe thuê riêng",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "Từ trung tâm thành phố Davao đi taxi hoặc Grab mất khoảng " },
+                        { "type": "duration", "text": "1 giờ" },
+                        { "text": ", giá một chiều tùy tình hình giao thông khoảng " },
+                        { "type": "price", "text": "₱600~1,000" },
+                        {
+                          "text": ". Vì khó bắt taxi từ công viên về trung tâm, bạn nên thuê xe khứ hồi hoặc thỏa thuận điều kiện chờ để an toàn hơn."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Nếu đi đông người, thuê xe van hoặc ô tô cả ngày (khoảng " },
+                        { "type": "price", "text": "₱2,500~4,000" },
+                        {
+                          "text": ") để đi cả Eden và các điểm tham quan trong trung tâm sẽ tiện nhất."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Xe điện công viên",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Phía công viên từng vận hành xe điện từ khu Matina trong trung tâm (điểm đón gần Matina Town Square). Xe thường chạy vào cuối tuần, xuất phát buổi sáng và về vào buổi chiều, nhưng giá vé và việc có chạy hay không hay thay đổi, nên bạn cần kiểm tra thông báo mới nhất tại văn phòng công viên hoặc mạng xã hội chính thức."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Jeepney · Habal-habal",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Du khách tiết kiệm có thể đón jeepney đi Toril từ trung tâm (khoảng "
+                        },
+                        { "type": "price", "text": "₱20~40" },
+                        {
+                          "text": ") đến trung tâm Toril, rồi đi tiếp bằng jeepney hướng Eden hoặc habal-habal (xe ôm, khoảng "
+                        },
+                        { "type": "price", "text": "₱100~200" },
+                        { "text": ") lên đường núi. Từ Toril đến công viên mất khoảng " },
+                        { "type": "duration", "text": "30~40 phút" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Đoạn đường núi cuối cùng có ít phương tiện vào chiều muộn. Khi về, bạn nên rời công viên trước "
+                        },
+                        { "type": "time", "text": "4 giờ chiều" },
+                        { "text": "." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Thời điểm lý tưởng & thời tiết",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Davao nằm lệch về phía nam ngoài đường đi của bão Philippines nên hiếm khi chịu thiệt hại, và không có mùa khô, mùa mưa rõ rệt, mưa rơi khá đều quanh năm. Bạn có thể ghé Eden bất cứ lúc nào trong năm, nhưng "
+            },
+            { "type": "date", "text": "tháng 1~tháng 5" },
+            {
+              "text": " với nhiều ngày quang mây hơn là thời điểm tốt nhất để dạo bộ và chơi các trò trải nghiệm. Vào "
+            },
+            { "type": "date", "text": "tháng 6~tháng 12" },
+            {
+              "text": ", mưa rào buổi chiều và sương mù thường xuyên hơn, nên bạn nên đến sớm buổi sáng và hoàn thành lịch trình ngoài trời trước."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Ở độ cao khoảng " },
+            { "type": "distance", "text": "900m" },
+            { "text": ", nhiệt độ ban ngày khoảng " },
+            { "type": "temperature", "text": "18~25℃" },
+            {
+              "text": ", thấp hơn trung tâm thành phố 5–8 độ, và sáng sớm, ban đêm khá se lạnh. Nếu nghỉ lại qua đêm, bạn nên mang áo dài tay mỏng hoặc áo gió. Vào "
+            },
+            { "type": "date", "text": "tháng 12" },
+            {
+              "text": ", nơi đây thường có trang trí đèn và sự kiện cuối năm, còn quanh tuần thứ ba của "
+            },
+            { "type": "date", "text": "tháng 8" },
+            {
+              "text": " khi lễ hội lớn nhất Davao — Kadayawan — diễn ra, cùng Tuần Thánh và kỳ nghỉ cuối năm, công viên rất đông và chỗ ở nhanh hết."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Chi phí dự kiến",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
+          "items": [
+            {
+              "label": "Vé vào cổng (gói gồm buffet trưa)",
+              "price": "Khoảng ₱600~900",
+              "note": "Ngày thường·cuối tuần, tùy nội dung gói"
+            },
+            {
+              "label": "Tour xe điện có hướng dẫn viên",
+              "price": "Khoảng ₱120~200",
+              "note": "Khoảng 45 phút, theo thứ tự đến trước"
+            },
+            { "label": "Skyrider", "price": "Khoảng ₱200~350", "note": "1 lượt" },
+            {
+              "label": "Skycycle · Skyswing",
+              "price": "Khoảng ₱200~500",
+              "note": "Tùy trò chơi và số người"
+            },
+            {
+              "label": "Cưỡi ngựa · câu cá",
+              "price": "Khoảng ₱100~300",
+              "note": "Tính riêng theo giờ·theo cá câu được"
+            },
+            { "label": "Hồ bơi", "price": "Khoảng ₱60~100", "note": "Dành cho khách trong ngày" },
+            {
+              "label": "Taxi trung tâm–Eden",
+              "price": "Một chiều khoảng ₱600~1,000",
+              "note": "Nên thuê khứ hồi"
+            },
+            {
+              "label": "Nghỉ tại sơn trang · cottage",
+              "price": "Mỗi đêm khoảng ₱4,000~6,500",
+              "note": "Phòng 2–4 người, nhiều gói gồm bữa sáng"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Giá cả là mức ước tính " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Lưu trú & ẩm thực",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Trong công viên có các phòng kiểu cottage và lodge nằm giữa rừng thông, phòng đôi khoảng "
+            },
+            { "type": "price", "text": "₱4,000~5,000" },
+            { "text": "/đêm, phòng gia đình 4 người khoảng " },
+            { "type": "price", "text": "₱5,000~6,500" },
+            {
+              "text": "/đêm. Nhiều gói đã gồm bữa sáng và sử dụng hồ bơi, ban đêm không cần máy lạnh vẫn mát nên bạn có thể nghỉ ngơi giữa tiếng rừng. Vào cuối tuần và kỳ nghỉ lễ, phòng nhanh hết vì có sự kiện đoàn thể, nên bạn cần đặt trước qua văn phòng công viên. Nếu muốn tiết kiệm, cách phổ biến là ở trung tâm Davao (khu Poblacion, Matina, Lanang) rồi đi về trong ngày."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Bữa ăn tiêu biểu là buffet trưa tại nhà hàng công viên. Có salad và súp làm từ xà lách, thảo mộc, rau trồng tại nông trại công viên, cùng các món gà, heo kiểu Philippines; nếu chọn gói vé đã gồm buffet, bạn không cần tìm quán ăn riêng. Cá rô phi câu được tại khu câu cá cũng có thể được chế biến nướng hoặc chiên. Khi về trung tâm vào buổi tối, bạn nên thử món cá ngừ đặc sản Davao cùng các loại trái cây nhiệt đới như sầu riêng, măng cụt, bưởi chùm (pomelo)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Mẹo du lịch",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "Công viên thường mở cửa từ khoảng " },
+                { "type": "time", "text": "9 giờ sáng đến 5 giờ chiều" },
+                {
+                  "text": ". Nếu đến đúng giờ mở cửa, bạn sẽ ít phải xếp hàng ở các trò trải nghiệm và còn có thể ngắm khung cảnh rừng sương mù."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vé vào cổng có nhiều gói khác nhau tùy theo có gồm buffet trưa hay tour xe điện hay không. Giá và nội dung gói hay thay đổi nên bạn nên kiểm tra trang chính thức hoặc gọi điện văn phòng trước khi đi."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khuôn viên rộng và nhiều đoạn dốc. Bạn nên đi giày thể thao thoải mái, và nên đi xe điện tham quan tổng thể trước rồi mới đi bộ để tiết kiệm sức."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trên núi mát hơn hẳn trung tâm thành phố và buổi chiều hay có mưa. Bạn nên mang áo khoác mỏng và ô hoặc áo mưa."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Phương tiện về là yếu tố quan trọng nhất. Nếu đi taxi đến, bạn nên hẹn trước với tài xế về thời gian chờ hoặc đón, hoặc xin số liên lạc."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trong công viên có quầy nhỏ và cửa hàng quà lưu niệm nhưng chủ yếu nhận tiền mặt. Khi đi qua trung tâm Toril, bạn nên rút đủ tiền mặt tại ATM."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nếu muốn ghép với Trung tâm Đại bàng Philippines, hai nơi nằm cách nhau ở phía tây nam và tây bắc trung tâm thành phố, nên tách thành hai ngày sẽ thong thả hơn là gộp trong một ngày."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Lưu ý",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Các trò chơi như Skyswing, Skyrider có giới hạn về chiều cao, cân nặng, độ tuổi, sức khỏe. Người có bệnh tim, cao huyết áp hoặc đang mang thai không nên tham gia, và có thể tạm dừng hoạt động vào ngày mưa gió lớn."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Vào mùa mưa, đường rừng và bậc thang trơn trượt vì rêu và bùn. Bạn nên đi giày đế chắc chắn thay vì dép."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Đường núi từ Toril lên công viên có nhiều khúc cua và ít đèn đường. Nếu đi xe ôm hoặc tự lái, bạn nên hoàn thành di chuyển trước khi trời tối."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Không cho động vật ở khu thả hươu ăn đồ ăn của người hoặc trèo vào trong hàng rào."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vì ở vùng cao nên dù nắng có vẻ yếu, tia UV vẫn mạnh. Bạn nên mang mũ và kem chống nắng."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vào cuối tuần và ngày lễ, các sự kiện đoàn thể và đoàn học sinh tham quan đông nên thời gian chờ ở các trò chơi kéo dài. Nếu muốn tận hưởng yên tĩnh, bạn nên đến vào sáng ngày thường."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Điểm đến lân cận",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Thành phố Davao",
+              "place": "davao-city",
+              "children": [
+                { "text": "Cách khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                {
+                  "text": " đi xe, là thành phố lớn nhất Mindanao với sầu riêng, trái cây nhiệt đới, People's Park và các nhà hàng hải sản."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Trung tâm Đại bàng Philippines",
+              "place": "philippine-eagle-center",
+              "children": [
+                { "text": "Cách khoảng " },
+                { "type": "duration", "text": "1 giờ 30 phút~2 giờ" },
+                {
+                  "text": " đi xe qua trung tâm thành phố, là cơ sở bảo tồn và nhân giống nơi bạn có thể chiêm ngưỡng gần đại bàng Philippines đang nguy cấp."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Đảo Samal",
+              "place": "samal-island",
+              "children": [
+                { "text": "Đi xe khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                { "text": " đến trung tâm rồi đi thuyền " },
+                { "type": "duration", "text": "10~15 phút" },
+                { "text": ", là đảo resort biển ngoài khơi Davao." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Núi Apo",
+              "place": "mount-apo",
+              "children": [
+                { "text": "Cách khoảng " },
+                { "type": "duration", "text": "2~3 giờ" },
+                {
+                  "text": " đi xe đến điểm xuất phát đường mòn hướng Davao del Sur·Cotabato, là nơi khởi hành để chinh phục đỉnh núi cao nhất Philippines."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

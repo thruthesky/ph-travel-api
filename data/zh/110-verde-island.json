@@ -1,0 +1,592 @@
+{
+  "id": 110,
+  "slug": "verde-island",
+  "title": { "type": "title", "text": "贝尔德岛" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Verde Island" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "漂浮在世界海洋生物多样性中心的绿色岛屿" },
+  "island_group": { "type": "badge", "label": "岛群", "value": "luzon", "text": "吕宋" },
+  "region": { "type": "badge", "label": "地区", "value": "batangas", "text": "八打雁" },
+  "location": { "type": "address", "label": "位置", "icon": "location_on", "text": "八打雁省八打雁市贝尔德岛" },
+  "category": {
+    "type": "badge",
+    "label": "分类",
+    "icon": "scuba_diving",
+    "value": "diving",
+    "text": "潜水·海洋"
+  },
+  "tags": { "type": "tags", "label": "标签", "items": ["崖壁潜水", "海洋生物多样性", "贝尔德岛海峡", "断崖潜点", "浮潜"] },
+  "rating": { "type": "rating", "label": "推荐指数", "value": 4.5, "max": 5 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 13.5497 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 121.0708 },
+  "best_season": {
+    "type": "date",
+    "label": "最佳季节",
+    "icon": "calendar_month",
+    "text": "11月至5月（海况平静的时节）",
+    "months": [11, 12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "1晚2天~2晚3天" },
+  "budget": {
+    "type": "price",
+    "label": "预算",
+    "icon": "payments",
+    "text": "每人约₱4,000~9,000（含潜水，1天）",
+    "currency": "PHP",
+    "min": 4000,
+    "max": 9000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "难度",
+    "icon": "signal_cellular_alt",
+    "text": "中等",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最近机场",
+    "icon": "flight",
+    "text": "尼诺伊·阿基诺国际机场 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/110-verde-island.webp",
+    "alt": "贝尔德岛",
+    "credit": "Dastreetfilmer / CC BY-SA 3.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Verde_island_Batangas2.JPG"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/110-verde-island-2.webp",
+        "alt": "贝尔德岛",
+        "credit": "Dmitry Domrin / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Four_butterfly_fish_swim_over_a_coral_reef._Verde_Island_National_Marine_Reserve._Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/110-verde-island-3.webp",
+        "alt": "贝尔德岛",
+        "credit": "Kampfgruppe / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Verde_Island.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "这是一座位于吕宋岛与民都洛岛之间贝尔德岛海峡正中央的小型火山岛。这道海峡被誉为世界沿岸鱼类多样性最高的“中心中的中心”，岛前的断崖潜点在强劲洋流中鱼群与珊瑚如爆发般铺展开来，是菲律宾代表性的崖壁潜水点。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概览",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "贝尔德岛是一座位于八打雁市以南、渡海约" },
+            { "type": "duration", "text": "1小时~1小时30分钟" },
+            { "text": "的火山岛，行政上隶属八打雁市。岛上分为利蓬蓬、圣阿加皮托、圣奥古斯丁东·西、圣安德烈斯、圣安东尼奥六个村落，居民约5千人，最高峰利蓬蓬峰海拔约" },
+            { "type": "distance", "text": "300米" },
+            { "text": "。正如其名（“绿色”），全岛被绿色森林覆盖，海岸线上悬崖与小片白沙滩交替出现。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "让贝尔德岛与众不同的，是环绕全岛的贝尔德岛海峡。美国海洋生物学家肯特·卡彭特与维克多·斯普林格在" },
+            { "type": "date", "text": "2005年" },
+            {
+              "text": "发表的研究中，将这道海峡评为“沿岸鱼类多样性的中心中的中心”。也就是说，即便在全球珊瑚礁生物最丰富的珊瑚三角区之内，这里也是单位面积鱼种最多的地方。海峡一带栖息着300多种珊瑚，以及海龟、拿破仑鱼、砗磲等受保护物种。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "由于是连接南中国海与锡布延海的狭窄海峡，洋流十分强劲，这股洋流带来丰富养分，孕育了鱼群与软珊瑚。因此，岛前的断崖潜点能一次看到梭鱼与鲹鱼群、海龟与色彩缤纷的扇形珊瑚，但同时也是需要熟悉洋流应对技巧的潜水点。"
+            },
+            { "type": "date", "text": "2017年" },
+            { "text": "，环绕海峡的八打雁、民都洛等五个省份共同组建了海峡海洋保护区网络展开保育，" },
+            { "type": "date", "text": "2023年" },
+            { "text": "，国际海洋保护组织Mission Blue将此地指定为“希望之地（Hope Spot）”。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "大多数旅行者都是从民都洛的加莱拉港或八打雁的阿尼洛潜水度假村搭船，当天来回潜水。若不是潜水者，也可以在岛南侧约1公里长的白沙滩马哈邦布杭因（意为“长沙滩”）、通往岛屿另一侧的礁洞通道，或岛村民宿中度过安静的一天。推荐给中级以上潜水员、海洋生物摄影师，以及想寻找一座不拥挤海岛的旅行者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "必玩体验",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "贝尔德岛断崖潜水",
+              "children": [
+                { "text": "这是一处代表性潜点，礁石突出水面，珊瑚壁一路垂落至水深" },
+                { "type": "distance", "text": "40米" },
+                { "text": "以上。乘着洋流沿壁漂流、欣赏鱼群与软珊瑚的漂流潜水是最大亮点。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "鱼群与大型鱼类",
+              "children": [{ "text": "洋流强劲的日子，梭鱼与鲹鱼会成群盘旋，运气好的话还能遇见拿破仑鱼与海龟。断崖下方巨大的扇形珊瑚与海绵景观蔚为壮观。" }]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "寻找微距生物",
+              "children": [{ "text": "珊瑚缝隙间藏着海蛞蝓、海兔、虾、蟹与小型鲉鱼。洋流较弱的浅水珊瑚花园，深受微距摄影爱好者青睐。" }]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "珊瑚花园浮潜",
+              "children": [{ "text": "在岛屿边缘的浅水珊瑚区，水面平静时即使只是浮潜，也能看到蝴蝶鱼、雀鲷与珊瑚礁。请务必与船员或向导同行。" }]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "马哈邦布杭因海滩",
+              "children": [
+                { "text": "这是一片意为“长沙滩”、长约" },
+                { "type": "distance", "text": "1公里" },
+                { "text": "的白沙滩。很适合潜水间隙休息，也适合非潜水者散步与游泳。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "礁洞通道",
+              "children": [{ "text": "岛屿一侧海岸有一条穿过礁石间洞穴、通往另一侧的通道。请在当地居民带领下，趁潮汐合适时前往。" }]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "岛村民宿",
+              "children": [{ "text": "在这座尚未过度观光化的渔村住上一晚，能看到往来海峡船只的灯火与繁星，以及清晨渔船归港的景象。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "推荐行程",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "潜水一日",
+              "subtitle": "从加莱拉港出发",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "07:30", "children": [{ "text": "在萨邦海滩潜水店集合，进行简报与装备检查" }] },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "搭船前往贝尔德岛（约" },
+                        { "type": "duration", "text": "30~45分钟" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "09:00", "children": [{ "text": "第一潜——贝尔德岛断崖漂流潜水" }] },
+                    { "time": "10:30", "children": [{ "text": "在海滩或船上休息、享用点心" }] },
+                    { "time": "11:30", "children": [{ "text": "第二潜——洋流较弱的珊瑚花园" }] },
+                    { "time": "13:30", "children": [{ "text": "返回加莱拉港，用午餐并填写潜水日志" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [{ "text": "潜水时间与潜点顺序会依洋流与潮汐每天调整。阿尼洛的度假村也提供类似安排的贝尔德岛远征潜水，只是航程稍长一些。" }]
+                }
+              ]
+            },
+            {
+              "title": "第1天",
+              "subtitle": "海岛之旅",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "05:00", "children": [{ "text": "从马尼拉搭乘开往八打雁市的巴士" }] },
+                    { "time": "08:00", "children": [{ "text": "抵达八打雁港，确认开往贝尔德岛的船班后登船" }] },
+                    { "time": "10:00", "children": [{ "text": "抵达贝尔德岛，在民宿办理入住" }] },
+                    { "time": "11:00~15:00", "children": [{ "text": "在马哈邦布杭因海滩游泳与用午餐" }] },
+                    { "time": "15:30", "children": [{ "text": "在居民带领下参观礁洞通道或浮潜" }] },
+                    { "time": "18:00", "children": [{ "text": "欣赏海峡上的夕阳，享用海鲜晚餐" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "第2天",
+              "subtitle": "晨间海景与返程",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "06:00", "children": [{ "text": "在渔船归港的村落海滩散步" }] },
+                    { "time": "07:00", "children": [{ "text": "晨间浮潜（海况最平静的时段）" }] },
+                    { "time": "09:00", "children": [{ "text": "搭船返回八打雁港" }] },
+                    { "time": "11:00", "children": [{ "text": "在八打雁市以罗米作午餐后前往马尼拉" }] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "交通指南",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "巴士",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从马尼拉库巴奥·布恩迪亚·PITX等地有开往八打雁港（Pier）的巴士。车程约" },
+                        { "type": "duration", "text": "2~3小时" },
+                        { "text": "，票价约" },
+                        { "type": "price", "text": "₱250~350" },
+                        { "text": "。前往加莱拉港的潜水者也是从同一港口搭船。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船——八打雁港",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从八打雁港有开往贝尔德岛村落的居民公共船，约需" },
+                        { "type": "duration", "text": "1小时~1小时30分钟" },
+                        { "text": "。班次不多，时间还会因天气与乘客人数而调整，当天往返可能有困难，请提前一天或当天早上在港口确认。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "若有同行者，包一艘螃蟹船会更保险。往返约" },
+                        { "type": "price", "text": "₱3,000~6,000" },
+                        { "text": "，价格依人数与等候时间协商。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "船——潜水度假村",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "若是潜水者，搭乘加莱拉港（萨邦·小拉拉古纳）潜水店的船最为方便。前往贝尔德岛约" },
+                        { "type": "duration", "text": "30~45分钟" },
+                        { "text": "，而从八打雁港到加莱拉港，搭渡轮约需" },
+                        { "type": "duration", "text": "1小时~1小时30分钟" },
+                        { "text": "。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "阿尼洛的潜水度假村也提供贝尔德岛远征潜水。船程约" },
+                        { "type": "duration", "text": "1小时" },
+                        { "text": "上下，多数需凑够人数才出发，请提前预约。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自驾",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "从SLEX–STAR收费公路终点到八打雁港约需" },
+                        { "type": "duration", "text": "2小时~2小时30分钟" },
+                        { "text": "。可将车停在港口周边的私人停车场，一天约" },
+                        { "type": "price", "text": "₱200~300" },
+                        { "text": "。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "最佳季节与天气",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "11月至5月" },
+            { "text": "最为理想，尤其" },
+            { "type": "date", "text": "3月至5月" },
+            { "text": "海况平静，能见度常达" },
+            { "type": "distance", "text": "15~25米" },
+            { "text": "，是潜水的最佳时节。水温大致为" },
+            { "type": "temperature", "text": "26~29℃" },
+            { "text": "，3毫米潜水衣便已足够。" },
+            { "type": "date", "text": "12月至2月" },
+            { "text": "因东北季风影响，午后风势会增强、水温略降，请以上午潜水为主安排行程。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月至10月" },
+            {
+              "text": "雨季因西南季风与台风影响，海峡变得汹涌，海岸警卫队经常暂停小型船只的运营。潜水店也常将潜点改到岛屿内侧，或取消远征行程。洋流受潮汐影响远大于季节，满月与新月前后的大潮期间格外强劲。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "费用预估",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["项目", "预估费用", "备注"],
+          "items": [
+            { "label": "马尼拉–八打雁港巴士", "price": "单程约₱250~350", "note": "视业者而异" },
+            { "label": "八打雁–加莱拉港渡轮", "price": "单程约₱400~600", "note": "码头费·环境税另计" },
+            { "label": "休闲潜水", "price": "每次约₱1,500~2,500", "note": "贝尔德远征船费可能另计" },
+            { "label": "装备租借", "price": "每天约₱500~1,000", "note": "以全套装备为准" },
+            { "label": "海洋保护区使用费", "price": "每人约₱100~300", "note": "以最新公告为准" },
+            { "label": "螃蟹船包船（自八打雁港出发）", "price": "往返约₱3,000~6,000", "note": "视人数·等候时间协商" },
+            { "label": "住宿", "price": "一晚约₱1,000~5,000", "note": "岛上民宿~本岛潜水度假村" },
+            { "label": "用餐", "price": "一餐约₱200~500", "note": "度假村·当地餐馆" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "以上费用为" },
+            { "type": "date", "text": "2026年" },
+            { "text": "的大致参考，实际可能因当地情况而有所变动。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "住宿与美食",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "贝尔德岛上的住宿仅有几家小型度假村与居民民宿，选择不多，设施也较朴素（一晚约" },
+            { "type": "price", "text": "₱1,000~3,000" },
+            { "text": "）。因此大多数潜水者会住在加莱拉港的萨邦海滩或小拉拉古纳，或是阿尼洛的潜水度假村，当天往返贝尔德岛。若选择潜水套餐（含住宿、餐食、潜水），每人每天约" },
+            { "type": "price", "text": "₱4,000~9,000" },
+            { "text": "即可舒适入住。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "岛上的饮食大多只是把当天捕获的鱼烤制，或煮成西尼干的朴素海鲜餐，商店规模小，建议先在八打雁市备好水与零食。八打雁市正是粗面配浓汤的八打雁罗米发源地，往返港口途中很适合吃上一碗，牛骨汤布拉洛与浓郁的卡彭巴拉科咖啡也是当地的骄傲。若住在加莱拉港，可以在萨邦海滩的餐厅街享用多样的海鲜料理与西式餐点。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅行贴士",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "贝尔德岛断崖潜点洋流强劲，大多数潜水店都要求进阶（Advanced）以上资格及一定的潜水经验（潜次数）。新手请先要求安排洋流较弱的潜点。" }
+              ]
+            },
+            { "children": [{ "text": "在洋流中进行漂流潜水，SMB（水面信号浮标）与哨子是必备品。若没有，请向潜水店租借。" }] },
+            { "children": [{ "text": "若不潜水，搭乘潜水船以浮潜者身份同行是最简单安全的方式。请事先确认费用与可供浮潜的地点。" }] },
+            { "children": [{ "text": "岛上没有ATM。民宿、船费与餐费请准备现金支付。" }] },
+            { "children": [{ "text": "岛上电力与手机信号可能较弱。请携带充电宝与防水袋。" }] },
+            { "children": [{ "text": "在海洋保护区内，请使用对珊瑚友好的防晒霜，切勿戴手套或采集生物。" }] },
+            {
+              "children": [
+                { "text": "潜水后" },
+                { "type": "duration", "text": "18~24小时" },
+                { "text": "内应避免搭乘飞机，请把马尼拉的出境行程安排得宽裕一些。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事项",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [{ "text": "贝尔德岛海峡是菲律宾洋流最强劲的海域之一，可能出现下降流、上升流与漩涡。请务必跟随当地向导，经验不足时切勿勉强进入断崖潜点。" }]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            { "children": [{ "text": "海峡是大型货轮与客轮往来的航道。浮出水面后请立即升起SMB并等待船只接应。" }] },
+            { "children": [{ "text": "若天气恶化或发布台风警报，海岸警卫队会暂停船只运营。前往岛上时，请预留一天左右的弹性行程。" }] },
+            { "children": [{ "text": "浮潜请务必与船员或向导同行，有洋流的日子请只在靠近海滩处活动。" }] },
+            {
+              "children": [
+                { "text": "如" },
+                { "text": "2023年", "type": "date" },
+                { "text": "民都洛外海油轮漏油事故一样，海峡也可能发生环境事故。若发布海洋污染警报，请避免下水并留意最新公告。" }
+              ]
+            },
+            { "children": [{ "text": "请勿触摸或踩踏珊瑚与生物，垃圾请全部带走。岛上是居民生活的村落，拍照前请先征得同意。" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "周边推荐",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "加莱拉港",
+              "place": "puerto-galera",
+              "children": [
+                { "text": "船程约" },
+                { "type": "duration", "text": "30~45分钟" },
+                { "text": "，是作为贝尔德岛潜水基地的民都洛北部海滩·潜水小镇。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "阿尼洛",
+              "place": "anilao",
+              "children": [
+                { "text": "船程约" },
+                { "type": "duration", "text": "1小时" },
+                { "text": "，是以海蛞蝓与微距潜水闻名的马尼拉近郊潜水小镇。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "马萨萨海滩",
+              "place": "masasa-beach",
+              "children": [
+                { "text": "从阿尼洛搭船约" },
+                { "type": "duration", "text": "45分钟~1小时" },
+                { "text": "，是廷洛伊马里卡班岛的翡翠色海水与白沙滩。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "塔尔古镇",
+              "place": "taal-heritage-town",
+              "children": [
+                { "text": "从八打雁港车程约" },
+                { "type": "duration", "text": "1小时" },
+                { "text": "，是保留着巨大巴西利卡与西班牙时代宅邸的古镇。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
