@@ -179,7 +179,7 @@ $text = $travel->text('boracay', $lang);                                     // 
 
 ### 3.5 사진
 
-- **권장:** `export` 로 받아 서버의 `/travel/images/` 에 둔다(`imageBase: '/travel/'`). 567장, 약 56MB 다.
+- **권장:** `export` 로 받아 서버의 `/travel/images/` 에 둔다(`imageBase: '/travel/'`). 572장, 약 57MB 다.
 - **대안:** `--no-images` 로 받지 않고 `imageBase: 'https://thruthesky.github.io/ph-travel-api/v2/'` 로 Pages 의 사진을 쓴다. 전송량이 Pages 한도에 들어간다.
 - 어느 쪽이든 **`credit`·`source` 를 화면에 보인다**(CC 라이선스). 목록 카드는 사진 모서리에 credit 을 두고, 상세 사진에는 원본 링크까지 둔다.
 
@@ -224,7 +224,7 @@ final place = travel.place('boracay', lang);   // Map → TravelBlocks(...).plac
 
 ### 4.3 사진
 
-- 사진은 앱에 넣지 않고 API 주소에서 받아 캐시한다(`cached_network_image`, url 을 키로). 567장을 넣으면 56MB 가 늘어난다.
+- 사진은 앱에 넣지 않고 API 주소에서 받아 캐시한다(`cached_network_image`, url 을 키로). 572장을 넣으면 57MB 가 늘어난다.
 - 오프라인 첫 화면이 중요하면 대표 사진(`position = 0`, 100장)만 넣는다. 그 경로를 `imageBase` 로 쓰는 방법도 있다.
 
 ### 4.4 출시 없이 갱신 (선택)

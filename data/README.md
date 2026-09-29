@@ -1,4 +1,4 @@
-# 필리핀 여행 200선 — 여행지 JSON 작성 규격
+# 필리핀 여행지 — 여행지 JSON 작성 규격
 
 - 여행지 원본: `data/ko/<번호 3자리>-<slug>.json` (예: `data/ko/030-vigan.json`) — 한국어가 원본 언어다.
 - 번역본: `data/<언어>/<같은 이름>.json` — `en`·`zh`·`ja`·`th`·`vi`·`ru`·`ar` (7절)
@@ -80,7 +80,7 @@
 | `stay_and_food` | 숙소와 먹거리 | `restaurant` | `paragraph` — 숙박 지역·가격대, 대표 음식. 업소 이름은 오래 운영된 유명 업소만 |
 | `tips` | 여행 팁 | `lightbulb` | `list`(`icon: "check_circle"`) 하나, 항목 6~10개 |
 | `cautions` | 주의사항 | `warning` | 핵심 경고가 있으면 `alert`(`variant: "warning"`, `icon: "warning"`) 1개 + `list`(`icon: "error"`) 항목 4~6개 |
-| `nearby` | 함께 가보면 좋은 곳 | `explore` | `grid`(`columns: 2`) 하나, 안에 `card` 3~5개 — `title`, `children`(거리·이동 시간과 한 줄 소개). 200선에 있는 곳은 `place: "<slug>"` 를 붙인다 |
+| `nearby` | 함께 가보면 좋은 곳 | `explore` | `grid`(`columns: 2`) 하나, 안에 `card` 3~5개 — `title`, `children`(거리·이동 시간과 한 줄 소개). 목록에 있는 곳은 `place: "<slug>"` 를 붙인다 |
 
 - **stepper 항목:** `{ "time": "06:00", "children": [ … ] }`. time 은 `06:00`, `14:00~16:00`, `오전 8시`, `1일차 오후` 처럼 짧게 쓰고, 시각이 없는 항목은 time 을 뺀다. 일정 사이의 보충 설명은 같은 탭의 `paragraph` 로 둔다.
 - **accordion 아이콘:** 비행기 `flight` · 배 `directions_boat` · 버스·밴 `directions_bus` · 지프니 `airport_shuttle` · 택시·그랩 `local_taxi` · 트라이시클 `electric_rickshaw` · 자가용·차량 `directions_car` · 경전철 `train` · 도보·트레킹 `directions_walk` · 투어 `tour` · 현지 이동 `commute` · 그 밖 `route`.
