@@ -250,20 +250,20 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "4–5 AM",
+                      "time": "3–4 AM",
                       "children": [
                         {
-                          "text": "Take a van from the San Jose terminal in Puerto Princesa to Rio Tuba (about "
+                          "text": "Joiner tour hotel pickup, or take a van to Rio Tuba from the Irawan Terminal in Puerto Princesa (about "
                         },
                         { "type": "duration", "text": "5–6 hours" },
                         { "text": ")" }
                       ]
                     },
                     {
-                      "time": "10–11 AM",
+                      "time": "9–11 AM",
                       "children": [
                         {
-                          "text": "Arrive in Rio Tuba, gather for the joiner tour or board a bangka at the port"
+                          "text": "Arrive at Bulilluyan Port (joiner tour) or Rio Tuba Port (independent travel) and board a bangka"
                         }
                       ]
                     },
@@ -346,13 +346,17 @@
                     {
                       "time": "Morning",
                       "children": [
-                        { "text": "Walk Punta Sebaring beach, then sail back to Rio Tuba" }
+                        {
+                          "text": "Stroll Punta Sebaring beach, then return to Bulilluyan Port or Rio Tuba"
+                        }
                       ]
                     },
                     {
                       "time": "Afternoon",
                       "children": [
-                        { "text": "Van back from Rio Tuba to Puerto Princesa (arriving at night)" }
+                        {
+                          "text": "Van from the port back to Puerto Princesa (arrive late afternoon to night)"
+                        }
                       ]
                     }
                   ]
@@ -404,15 +408,15 @@
                     {
                       "children": [
                         {
-                          "text": "From the San Jose terminal in Puerto Princesa to Rio Tuba in the southern municipality of Bataraza takes about "
+                          "text": "From the Irawan Terminal in Puerto Princesa to Rio Tuba in the Bataraza district in the south takes about "
                         },
                         { "type": "duration", "text": "5–6 hours" },
-                        { "text": " by van, costing about " },
+                        { "text": " by van, at about " },
                         { "type": "price", "text": "₱450–600" },
                         { "text": " per person. The first van leaves around " },
                         { "type": "time", "text": "4:00 AM" },
                         {
-                          "text": ", and joiner tours usually recommend an early morning departure to catch the day's boat."
+                          "text": ", and joiner tours generally recommend a dawn departure to catch the early morning boat."
                         }
                       ]
                     },
@@ -438,25 +442,46 @@
                     {
                       "children": [
                         {
-                          "text": "A public passenger ferry runs from Rio Tuba port to mainland Balabac (Poblacion) at least once a day, taking about "
+                          "text": "Shared passenger boats from Rio Tuba Port to the main island of Balabac (Poblacion) usually sail once a day, between late morning and early afternoon, and take about "
                         },
                         { "type": "duration", "text": "3–4 hours" },
-                        { "text": " and costing about " },
+                        { "text": " at about " },
                         { "type": "price", "text": "₱350–500" },
                         {
-                          "text": " per person. It sometimes stops at Bancalan Island and other spots along the way."
+                          "text": " per person. They sometimes stop at islands such as Bancalan on the way."
                         }
                       ]
                     },
                     {
                       "children": [
                         {
-                          "text": "A joiner tour starts its island-hopping directly from Rio Tuba on a private bangka, cutting travel time considerably. For a "
+                          "text": "Most joiner tours start the island tour directly on a private bangka from Bulilluyan Port, at the far end of the Bataraza district and farther south than Rio Tuba, which cuts travel time considerably. A "
                         },
-                        { "type": "duration", "text": "3-night, 4-day" },
-                        { "text": " tour, expect about " },
+                        { "type": "duration", "text": "3 nights 4 days" },
+                        { "text": " trip costs about " },
                         { "type": "price", "text": "₱13,000–18,000" },
-                        { "text": " per person, with some years adding a fuel surcharge." }
+                        { "text": " per person, and in " },
+                        { "type": "date", "text": "2026" },
+                        { "text": " a fuel surcharge of " },
+                        { "type": "price", "text": "₱500–1,000" },
+                        { "text": " was sometimes added on top." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Bulilluyan joiner tours pick you up at your Puerto Princesa accommodation at "
+                        },
+                        { "type": "time", "text": "3–4 AM" },
+                        { "text": ", reach the port around " },
+                        { "type": "time", "text": "9:00 AM" },
+                        { "text": ", and after a bangka crossing of about " },
+                        { "type": "duration", "text": "1 hour" },
+                        {
+                          "text": " to Bancalan Island, the island tour begins. If a small group charters a van, a one-way trip between Puerto Princesa and Bulilluyan costs about "
+                        },
+                        { "type": "price", "text": "₱9,750–11,300" },
+                        { "text": " per vehicle." }
                       ]
                     }
                   ]
@@ -521,6 +546,34 @@
               "text": ", the southwest monsoon brings frequent rain and rough seas, often leading to tour cancellations or schedule changes. Direct typhoon hits are rare this far south in the Philippines, but a distant typhoon can still intensify the monsoon enough to ground boats for several days. Since sandbars only fully emerge at low tide, it's also important to check the tide tables."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "January–February",
+              "Dry season, some northeast wind remains",
+              "Possible, but open-sea waves can be high"
+            ],
+            [
+              "March–May",
+              "Dry season, light winds and the calmest seas",
+              "Best time — joiner tours concentrate here, check the tide table"
+            ],
+            [
+              "June–October",
+              "Rainy season, southwest monsoon",
+              "Tour cancellations and itinerary changes are frequent"
+            ],
+            [
+              "November–December",
+              "Not the best time",
+              "Plan your schedule after checking sea conditions"
+            ]
+          ]
         }
       ]
     },
@@ -574,6 +627,11 @@
               "label": "Meals",
               "price": "About ₱150–400 per meal",
               "note": "Mostly included on tours"
+            },
+            {
+              "label": "Chartered van to Bulilluyan",
+              "price": "About ₱9,750–11,300 per vehicle one way",
+              "note": "For independent groups, varies by number of people"
             }
           ]
         },
@@ -724,6 +782,13 @@
               "children": [
                 {
                   "text": "Some islands are privately owned or managed by indigenous communities, so access rules and entrance fees can change without notice. Check the latest information."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Saltwater crocodiles live in Balabac. Do not swim in the swamps around the Poblacion on the main island, in the mangrove waters toward the Melville Lighthouse, or at river mouths; only enter the water at the beaches your guide designates."
                 }
               ]
             }

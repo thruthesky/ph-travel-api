@@ -29,8 +29,8 @@
     "items": ["Cát hồng", "Đảo Calintaan", "Đi tour đảo", "Đảo Tikling", "Đầm Huag", "Cắm trại"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 12.5413 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 124.1044 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 12.5388 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 124.1033 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -401,6 +401,23 @@
                         { "type": "price", "text": "₱100~150" },
                         { "text": "." }
                       ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Cũng có nhiều xe buýt chỉ chạy đến thành phố Sorsogon. Theo DLTB, từ Cubao đến bến trung tâm Sorsogon mất khoảng "
+                        },
+                        { "type": "duration", "text": "14 giờ" },
+                        { "text": ", giá vé khoảng " },
+                        { "type": "price", "text": "₱1,275–1,504" },
+                        {
+                          "text": ", và hầu hết khởi hành vào buổi tối rồi đến nơi vào sáng hôm sau. Philtranco, hãng từ lâu chạy tuyến này, đã ngừng hoạt động từ "
+                        },
+                        { "type": "date", "text": "ngày 30 tháng 3 năm 2026" },
+                        {
+                          "text": ", nên hãy đi các hãng khác như DLTB, Peñafrancia, Isarog. Giá vé thường xuyên tăng do biến động giá nhiên liệu, nên hãy kiểm tra khi đặt vé."
+                        }
+                      ]
                     }
                   ]
                 }
@@ -489,11 +506,13 @@
                     {
                       "children": [
                         {
-                          "text": "Phà chở khách từ cảng Allen hoặc San Isidro ở bắc Samar đi Matnog chạy nhiều chuyến mỗi ngày, mất khoảng "
+                          "text": "Từ cảng Allen hoặc San Isidro ở Bắc Samar, phà chở xe đi Matnog chạy nhiều chuyến mỗi ngày, mất khoảng "
                         },
-                        { "type": "duration", "text": "1 giờ – 1 giờ 30 phút" },
+                        { "type": "duration", "text": "1 giờ 30 phút – 2 giờ" },
+                        { "text": ", giá vé cho hành khách khoảng " },
+                        { "type": "price", "text": "₱190–390" },
                         {
-                          "text": ". Rất thích hợp để ghé qua khi từ Samar (như đảo Biri) quay về Luzon."
+                          "text": ". Rất tiện để ghé qua trên đường sang Luzon sau chuyến đi Samar, chẳng hạn đảo Biri."
                         }
                       ]
                     }
@@ -544,6 +563,29 @@
             {
               "text": ", lượng khách du lịch nội địa Philippines tăng mạnh nên thuyền và chỗ cắm trại hết nhanh. Nếu muốn bãi biển yên tĩnh, hãy đi vào ngày thường."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Gió mùa đông bắc, nam Bicol thường có mưa",
+              "Nhiều ngày sóng eo biển cao"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Biển lặng và trong, 30–33℃",
+              "Bơi lội tốt nhất — thuyền và cắm trại đông đúc vào Tuần Thánh và cuối tuần kỳ nghỉ hè"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Thường có mưa, từ tháng 8 là mùa bão",
+              "Tàu bị dừng — xe cộ dồn về cảng Matnog gây kẹt xe"
+            ]
           ]
         }
       ]

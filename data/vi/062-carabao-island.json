@@ -65,7 +65,7 @@
     "type": "airport",
     "label": "Sân bay gần nhất",
     "icon": "flight",
-    "text": "Sân bay Caticlan (MPH)",
+    "text": "Sân bay Godofredo P. Ramos ở Caticlan (MPH)",
     "code": "MPH"
   },
   "image": {
@@ -81,17 +81,10 @@
     "items": [
       {
         "type": "image",
-        "url": "images/062-carabao-island-2.webp",
+        "url": "images/062-carabao-island-4.webp",
         "alt": "Đảo Carabao",
-        "credit": "McNeil Gaila / CC BY-SA 4.0 / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Limbones_Island_2021.jpg"
-      },
-      {
-        "type": "image",
-        "url": "images/062-carabao-island-3.webp",
-        "alt": "Đảo Carabao",
-        "credit": "USAID Biodiversity & Forestry / Public domain / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Philippines;_Nagkakaisang_Tribu_ng_Palawan)_(40248017142).jpg"
+        "credit": "Alexey Komarov / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Boracay_Island,_Philippines_-_panoramio.jpg"
       }
     ]
   },
@@ -319,6 +312,60 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Đi trong ngày từ Boracay",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "8 giờ sáng",
+                      "children": [
+                        {
+                          "text": "Khởi hành bằng thuyền banca thuê riêng từ gần Station 1 của Boracay (khoảng "
+                        },
+                        { "type": "duration", "text": "40 phút–1 tiếng" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "9 giờ sáng",
+                      "children": [
+                        {
+                          "text": "Nhảy vách đá và bơi trong hang ngầm dưới nước tại Kodingkoding Point"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10 giờ 30 sáng",
+                      "children": [
+                        { "text": "Khám phá hang Cathedral (có hướng dẫn viên địa phương đi cùng)" }
+                      ]
+                    },
+                    {
+                      "time": "Buổi trưa",
+                      "children": [{ "text": "Ăn trưa và tắm biển tại nhà hàng ở White Beach" }]
+                    },
+                    {
+                      "time": "2 giờ chiều",
+                      "children": [{ "text": "Lặn ống thở ở vùng san hô quanh đảo" }]
+                    },
+                    {
+                      "time": "3 giờ 30 chiều",
+                      "children": [{ "text": "Quay về Boracay trước khi gió mạnh lên" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Thuyền banca thuê riêng được chốt giá trước, bao gồm cả khứ hồi và thời gian chờ. Nếu muốn ngắm cả hoàng hôn ở Tagaytay Point thì đường về sẽ tối, nên ở lại đảo một đêm sẽ an toàn hơn."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -349,6 +396,16 @@
                     },
                     { "type": "duration", "text": "1 giờ 30 phút – 2 giờ" },
                     { "text": " nữa. Từ Cebu cũng có chuyến bay thẳng đến Caticlan và Kalibo." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Từ sân bay Clark cũng có khoảng 2–3 chuyến bay thẳng đến Caticlan mỗi ngày, mất khoảng "
+                    },
+                    { "type": "duration", "text": "1 tiếng 15 phút" },
+                    { "text": ", rất tiện khi xuất phát từ phía bắc Manila hoặc Angeles." }
                   ]
                 }
               ]
@@ -455,6 +512,26 @@
             },
             { "text": "tháng 1", "type": "date" },
             { "text": "), bạn còn có thể tận hưởng không khí lễ hội của đảo Panay." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            ["Tháng 11–tháng 12", "Bắt đầu mùa khô", "Mở đầu mùa du lịch mùa khô"],
+            [
+              "Tháng 1–tháng 4",
+              "Mùa khô, biển lặng, trời trong",
+              "Thích hợp đi thuyền banca và nhảy vách đá — lễ hội Ati-Atihan tháng 1"
+            ],
+            ["Tháng 5", "Mùa khô, rất nóng", "Màu nước đẹp nhất"],
+            [
+              "Tháng 6–tháng 10",
+              "Mùa mưa, biển phía tây động",
+              "Thuyền banca thường bị hủy — bão từ tháng 7–11"
+            ]
           ]
         }
       ]

@@ -277,7 +277,7 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "07:30–08:30",
+                      "time": "08:30–09:00",
                       "children": [
                         {
                           "text": "Take a jeepney or taxi from downtown Iligan to the NPC Nature's Park gate for ID checks and a waiver form."
@@ -285,7 +285,7 @@
                       ]
                     },
                     {
-                      "time": "08:30–10:30",
+                      "time": "09:00–10:30",
                       "children": [
                         {
                           "text": "Follow the staff to the viewing deck to see Maria Cristina Falls and take photos."
@@ -309,7 +309,7 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "08:00–10:30",
+                      "time": "09:00–10:30",
                       "children": [
                         {
                           "text": "View Maria Cristina Falls (if you have a permit), or explore the ancestral house and cathedral downtown."
@@ -466,6 +466,29 @@
             { "type": "date", "text": "September 29" },
             { "text": "), filling the city with street parades and performances." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "January",
+              "Rain evenly spread through the year",
+              "Falls flow depends on power plant operations — ask on the day"
+            ],
+            [
+              "February–May",
+              "Dry season with little rain",
+              "Best for a waterfall circuit — steps and mountain trails less slippery"
+            ],
+            [
+              "June–December",
+              "Frequent afternoon showers",
+              "Start early in the morning — Diyandi Festival in September (September 29)"
+            ]
+          ]
         }
       ]
     },
@@ -567,19 +590,19 @@
           "items": [
             {
               "children": [
+                { "text": "Walk-in entry to Maria Cristina Falls is not allowed. From " },
+                { "type": "date", "text": "March 2026" },
+                { "text": " it can be viewed only Monday to Saturday, " },
+                { "type": "time", "text": "9:00 AM to 12:00 noon" },
                 {
-                  "text": "Since reopening, Maria Cristina Falls does not allow walk-in visits — access runs through a process of sending a request letter to Iligan City's tourism office, getting an endorsement, and then NPC approval. As of late "
-                },
-                { "type": "date", "text": "2025" },
-                {
-                  "text": ", daily visitors are capped at around 10, so apply at least one to two weeks ahead of your planned visit."
+                  "text": ", and you must reserve at least 1–2 days ahead using the online application form from the Iligan City tourism office. The measure is meant to avoid afternoon rain and manage numbers, so the number of daily visitors is small; it's best to apply as early as possible."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "The request letter should list every visitor's name, nationality, preferred date, and contact details, along with a copy of each passport. On-site, you'll need to sign a waiver and show ID."
+                  "text": "The application asks for the names of all visitors, your preferred date and time, and details of the vehicle you'll arrive in. On site you need to show government-issued ID (a passport for foreigners), take a safety briefing, and sign an NPC liability waiver."
                 }
               ]
             },

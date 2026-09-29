@@ -48,10 +48,10 @@
     "type": "price",
     "label": "Ngân sách",
     "icon": "payments",
-    "text": "Khoảng ₱3,000–12,000/người (1 đêm 2 ngày, tùy hạng chỗ ở)",
+    "text": "Khoảng ₱3,000–7,000 mỗi người (2 ngày 1 đêm)",
     "currency": "PHP",
     "min": 3000,
-    "max": 12000
+    "max": 7000
   },
   "difficulty": {
     "type": "level",
@@ -143,18 +143,30 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "Từ năm " },
-            { "text": "2013", "type": "date" },
+            { "text": "Từ " },
+            { "text": "năm 2013", "type": "date" },
             {
-              "text": ", Ayala Land hợp tác với Công ty Phát triển Sicogon — đơn vị sở hữu đất trên đảo — khởi động dự án tái phát triển quy mô khoảng "
+              "text": ", khi Ayala Land và công ty phát triển Sicogon, chủ đất trên đảo, hợp tác bắt đầu dự án tái phát triển quy mô khoảng "
             },
             { "text": "₱10,000,000,000", "type": "price" },
             {
-              "text": ", giúp Sicogon dần được biết đến trở lại. Đường băng cũ được sửa chữa và sân bay Sicogon mở cửa lại vào năm "
+              "text": ", Sicogon bắt đầu được biết đến trở lại. Đường băng cũ được sửa để mở lại sân bay Sicogon vào "
             },
-            { "text": "2018", "type": "date" },
+            { "text": "năm 2018", "type": "date" },
             {
-              "text": ", cùng với các khu nghỉ dưỡng hòa mình vào thiên nhiên như Balai Kogon, Huni Sicogon, Hatch Sicogon lần lượt xuất hiện. Vì quá trình phát triển từng gây tranh cãi về việc di dời cư dân, trên đảo hiện có cả khu nghỉ dưỡng và làng dân cư."
+              "text": ", và các resort hòa mình với thiên nhiên như Balai Kogon, Huni Sicogon và Hatch Sicogon lần lượt ra đời. Tuy nhiên, do lỗ tích lũy, sân bay ngừng chuyến bay vào cuối "
+            },
+            { "text": "năm 2025", "type": "date" },
+            {
+              "text": ", và công ty liên doanh vận hành resort (SITEC) đã đóng cửa vĩnh viễn các cơ sở khu du lịch như Huni Sicogon và Balai Kogon vào "
+            },
+            { "text": "ngày 15 tháng 6 năm 2026", "type": "date" },
+            {
+              "text": ". Tranh chấp về việc di dời và đất đai của người dân cũng tiếp diễn, và dù vào "
+            },
+            { "text": "tháng 6 năm 2026", "type": "date" },
+            {
+              "text": " Ayala Land đã bàn giao khoảng 63 hecta làm đất ở và đất nông nghiệp cho người dân, hơn 700 hộ vẫn đòi trả lại khoảng 80 hecta. Bản thân hòn đảo hiện vẫn có thể đến tự do, và làng của người dân là trung tâm của đời sống trên đảo."
             }
           ]
         },
@@ -249,16 +261,6 @@
             {
               "type": "card",
               "number": 7,
-              "title": "Đường mòn sinh thái quanh đầm phá",
-              "children": [
-                {
-                  "text": "Đây là lối đi bộ dọc theo đầm phá và rừng trong khu nghỉ dưỡng, nơi bạn có thể quan sát chim nước và rừng ngập mặn. Hãy hỏi nơi lưu trú về tình trạng hoạt động và điều kiện sử dụng."
-                }
-              ]
-            },
-            {
-              "type": "card",
-              "number": 8,
               "title": "Thưởng thức hải sản Carles",
               "children": [
                 {
@@ -406,7 +408,13 @@
                     {
                       "children": [
                         {
-                          "text": "Sân bay Sicogon (ICO) trên đảo từng có chuyến bay từ Manila do AirSWIFT khai thác, nhưng lịch bay thường xuyên và ngày bay hay thay đổi, nên hãy nhất định kiểm tra lịch mới nhất. Một số gói khu nghỉ dưỡng đã bao gồm vé máy bay."
+                          "text": "Tại sân bay Sicogon (ICO) trên đảo, AirSWIFT từng khai thác chuyến bay từ Manila nhưng đã ngừng vào cuối "
+                        },
+                        { "type": "date", "text": "năm 2025" },
+                        { "text": ", và AirSWIFT cũng đã sáp nhập vào Cebgo vào " },
+                        { "type": "date", "text": "tháng 7 năm 2026" },
+                        {
+                          "text": ". Hiện không có chuyến bay định kỳ, nên hãy dùng sân bay Roxas hoặc Iloilo."
                         }
                       ]
                     }
@@ -425,11 +433,11 @@
                     {
                       "children": [
                         {
-                          "text": "Từ bến xe Tagbak (bến xe hướng bắc) ở khu Jaro, thành phố Iloilo, xe khách Ceres và xe van đi Estancia, Carles chạy từ tờ mờ sáng. Mất khoảng "
+                          "text": "Từ nhà ga Tagbak (nhà ga đi phía bắc) ở quận Jaro, thành phố Iloilo, xe buýt Ceres và xe van đi Estancia và Carles chạy từ sáng sớm. Mất khoảng "
                         },
                         { "type": "duration", "text": "3–4 giờ" },
-                        { "text": ", giá vé một chiều khoảng " },
-                        { "type": "price", "text": "₱200~300" },
+                        { "text": ", vé một chiều khoảng " },
+                        { "type": "price", "text": "₱250–350" },
                         { "text": "." }
                       ]
                     },
@@ -471,17 +479,17 @@
                     },
                     {
                       "children": [
-                        { "text": "Bạn cũng có thể đi tàu từ cảng Bancal, Carles, mất khoảng " },
-                        { "type": "duration", "text": "30 phút" },
+                        { "text": "Cũng có thể đi tàu từ cảng Bancal ở Carles, mất khoảng " },
+                        { "type": "duration", "text": "30 phút–1 giờ 30 phút" },
                         {
-                          "text": ". Tại trung tâm du lịch cảng Bancal, bạn đăng ký, đặt thuyền và nộp phí môi trường."
+                          "text": ". Đăng ký, đặt thuyền và đóng phí môi trường được thực hiện tại quầy thông tin du lịch ở cảng Bancal."
                         }
                       ]
                     },
                     {
                       "children": [
                         {
-                          "text": "Nếu ở khu nghỉ dưỡng, nơi lưu trú thường sắp xếp thuyền đón tại cảng Estancia hoặc Bancal, nên hãy yêu cầu khi đặt phòng. Nếu lỡ chuyến tàu công cộng, bạn sẽ phải thuê thuyền riêng với chi phí cao hơn nhiều."
+                          "text": "Nếu ở homestay, hãy nhờ trước chủ nhà đón ở cảng Estancia hoặc Bancal và sắp xếp thuyền. Nếu lỡ tàu chung, bạn phải gọi thuyền thuê riêng nên chi phí tăng lên nhiều."
                         }
                       ]
                     }
@@ -500,12 +508,10 @@
                     {
                       "children": [
                         {
-                          "text": "Trên đảo hầu như không có ô tô, nên bạn đi bộ hoặc đi xe ôm habal-habal (khoảng "
+                          "text": "Trên đảo hầu như không có ô tô nên bạn đi bộ hoặc đi xe ôm habal-habal (khoảng "
                         },
-                        { "type": "price", "text": "₱100~200" },
-                        {
-                          "text": "/người). Khách ở khu nghỉ dưỡng có thể dùng xe đưa đón hoặc xe đạp của nơi lưu trú."
-                        }
+                        { "type": "price", "text": "₱100–200" },
+                        { "text": " mỗi người)." }
                       ]
                     }
                   ]
@@ -540,16 +546,39 @@
         {
           "type": "paragraph",
           "children": [
-            { "type": "date", "text": "Tháng 6 – Tháng 11" },
-            { "text": " là mùa mưa và mùa bão. Đặc biệt " },
-            { "type": "date", "text": "Tháng 8 – Tháng 11" },
+            { "type": "date", "text": "Tháng 6 – tháng 11" },
+            { "text": " là mùa mưa và mùa bão. Đặc biệt vào " },
+            { "type": "date", "text": "tháng 8 – tháng 11" },
             {
-              "text": ", khi bão đi qua vùng Visayas, tàu có thể ngừng chạy nhiều ngày liền, nên hãy chừa thêm một ngày dự phòng cho lịch trình. Vào Tuần Thánh và kỳ nghỉ đầu "
+              "text": ", khi bão đi qua khu vực Visayas, tàu có thể không chạy được nhiều ngày, nên hãy dự phòng một ngày trong lịch trình. Vào Tuần Thánh và kỳ nghỉ đầu "
             },
             { "type": "date", "text": "tháng 5" },
             {
-              "text": ", du khách nội địa đổ về đông nên khu nghỉ dưỡng và thuyền hết chỗ nhanh, hãy đặt trước. Việc sang đảo Tumakin và cảnh bãi biển thay đổi nhiều theo con nước, nên kiểm tra trước bảng thủy triều sẽ tốt hơn."
+              "text": ", khách du lịch nội địa đổ về nên chỗ nghỉ và thuyền hết nhanh, hãy đặt trước. Việc băng qua đảo Tumaquin và cảnh bãi biển thay đổi rất nhiều theo thủy triều nên nên kiểm tra bảng thủy triều trước khi đi."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, gió mùa đông bắc",
+              "Biển phía đông đảo động và tàu có thể bị hủy"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, gió yếu, 32–34℃",
+              "Tàu và tour đảo ổn định nhất — đặt trước cho Tuần Thánh và kỳ nghỉ đầu tháng 5"
+            ],
+            [
+              "Tháng 6 – tháng 11",
+              "Mùa mưa và mùa bão",
+              "Khi có bão tháng 8–11 tàu bị hủy nhiều ngày — dự phòng một ngày"
+            ]
           ]
         }
       ]
@@ -567,7 +596,7 @@
           "items": [
             {
               "label": "Xe khách/van Iloilo–Estancia",
-              "price": "Khoảng ₱200~300 một chiều",
+              "price": "Khoảng ₱250–350 một chiều",
               "note": "Khoảng 3~4 giờ"
             },
             {
@@ -597,13 +626,13 @@
             },
             {
               "label": "Chỗ ở",
-              "price": "Khoảng ₱1,300~12,000/đêm",
-              "note": "Từ giường hostel đến phòng khu nghỉ dưỡng"
+              "price": "Khoảng ₱800–3,000 một đêm",
+              "note": "Homestay trong làng, chỗ nghỉ trên đất liền"
             },
             {
               "label": "Bữa ăn",
-              "price": "Khoảng ₱250~800/bữa",
-              "note": "Nhà hàng khu nghỉ dưỡng đắt hơn"
+              "price": "Khoảng ₱150–400 một bữa",
+              "note": "Bữa ăn đặt qua homestay, sò điệp tính riêng"
             }
           ]
         },
@@ -627,15 +656,15 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Chỗ ở ở Sicogon chủ yếu là các khu nghỉ dưỡng thuộc hệ thống Ayala. Balai Kogon nằm trong rừng gần bãi biển Buaya, và Huni Sicogon với hồ bơi vô cực nhìn ra biển, có giá khoảng "
+              "text": "Chỗ nghỉ ở Sicogon một thời gian chủ yếu là các resort thuộc hệ thống Ayala (Balai Kogon, Huni Sicogon và các nơi khác), nhưng vì đơn vị vận hành SITEC đã đóng cửa vĩnh viễn các cơ sở khu du lịch vào "
             },
-            { "type": "price", "text": "₱5,000~12,000" },
+            { "type": "date", "text": "ngày 15 tháng 6 năm 2026" },
             {
-              "text": "/đêm, thường bán theo gói gồm vé máy bay, xe đón và bữa ăn. Với khách du lịch bụi, phòng tập thể ở Hatch Sicogon (khoảng "
+              "text": " nên hiện không thể nghỉ ở resort. Lựa chọn còn lại là homestay giản dị và cottage bãi biển ở các làng Buaya và San Fernando, và theo giá homestay trên đảo ở Carles thì khoảng "
             },
-            { "type": "price", "text": "₱1,300~2,000" },
+            { "type": "price", "text": "₱800–3,000" },
             {
-              "text": "/giường) là lựa chọn phù hợp, và trong làng cũng có vài nhà trọ đơn sơ. Vì ít lựa chọn chỗ ở, hãy nhất định đặt trước vào mùa cao điểm."
+              "text": " một đêm. Tỉnh Iloilo và thị trấn Carles đang chuẩn bị chương trình \"Turista sa Barangay\" nhằm biến gia đình người dân đảo thành homestay được Bộ Du lịch chứng nhận, nên hãy hỏi văn phòng du lịch Carles để biết thông tin homestay mới nhất. Nếu không tìm được phòng trên đảo, bạn cũng có thể ở Estancia hoặc Carles trên đất liền rồi đi về trong ngày."
             }
           ]
         },
@@ -643,7 +672,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Trên đảo không có nhiều nhà hàng nên phần lớn du khách ăn tại nhà hàng khu nghỉ dưỡng hoặc nhà trọ. Sò điệp đánh bắt ngoài khơi Carles thường được nướng bơ tỏi hoặc hấp; bạn cũng có thể thưởng thức cua hấp, kilawin (cá sống ngâm giấm và gừng), canh gà rau binakol, hay canh đậu, thịt heo, mít non kiểu Ilonggo gọi là KBL — những món ăn gia đình đặc trưng của Iloilo. Nếu ở nhà trọ, nên đặt món ăn trước từ hôm trước."
+              "text": "Trên đảo hầu như không có nhà hàng nên phần lớn bạn ăn ở homestay. Sò điệp đánh bắt ngoài khơi Carles ăn kiểu nướng bơ tỏi hoặc hấp, và bạn có thể thưởng thức các món ăn gia đình Iloilo như cua hấp, kinilaw (cá sống ướp giấm và gừng), binakol (súp gà rau) và KBL (canh đậu, thịt lợn và mít kiểu Ilonggo). Nếu ở homestay, nên đặt trước bữa ăn từ hôm trước."
             }
           ]
         }
@@ -761,6 +790,17 @@
               "children": [
                 {
                   "text": "Có ranh giới giữa khu nghỉ dưỡng và làng dân cư. Đừng vào những nơi có biển báo đất tư nhân, và hãy tôn trọng không gian sinh sống của người dân."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Các cơ sở Huni Sicogon và Balai Kogon đóng cửa vào " },
+                { "text": "tháng 6 năm 2026", "type": "date" },
+                { "text": " có bảo vệ canh gác và dán biển cấm vào. Do tranh chấp đất đai, vào " },
+                { "text": "25–26 tháng 6", "type": "date" },
+                {
+                  "text": " từng có người có vũ trang vào resort và đối đầu với cảnh sát, nên đừng đến gần các cơ sở đang tranh chấp mà hãy làm theo hướng dẫn của văn phòng du lịch Carles và cảnh sát."
                 }
               ]
             },

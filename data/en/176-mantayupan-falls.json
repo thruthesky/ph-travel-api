@@ -75,7 +75,19 @@
     "credit": "StrangerNbystander / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Mantayupan_Falls_of_Barili,_Cebu.jpg"
   },
-  "gallery": { "type": "carousel", "label": "Photos", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "Photos",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/176-mantayupan-falls-2.webp",
+        "alt": "Mantayupan Falls",
+        "credit": "Seallynnjay / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mantayupan_Ambakan.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -169,10 +181,10 @@
               "children": [
                 { "text": "At the pool in front of the lower falls, about " },
                 { "type": "distance", "text": "14m" },
-                { "text": " high, you can rent a bamboo raft (around " },
-                { "type": "price", "text": "₱100" },
+                { "text": " high, you can rent a bamboo raft (about " },
+                { "type": "price", "text": "₱100–300" },
                 {
-                  "text": ") and paddle right up to the base of the falls. Taking photos while the spray hits you is this spot's signature experience."
+                  "text": ") and get right up under the falls. Taking photos as the water pounds down is the signature experience here."
                 }
               ]
             },
@@ -522,6 +534,25 @@
             { "text": "27–32℃", "type": "temperature" },
             { "text": " year-round, though the valley stays cool with plenty of shade." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, clear water and paths not slippery",
+              "Pools are turquoise — rafting and swimming feel safe"
+            ],
+            ["March–May", "Dry season, water volume drops", "The main falls' stream may thin out"],
+            [
+              "June–November",
+              "Rainy season, water volume rises greatly",
+              "Falls at their most magnificent — swimming may be restricted after heavy rain"
+            ]
+          ]
         }
       ]
     },
@@ -539,7 +570,7 @@
             {
               "label": "Entrance fee",
               "price": "About ₱40–50",
-              "note": "Per adult, discounts for children and seniors"
+              "note": "Per adult; ₱30 for ages 6–10, seniors, and persons with disabilities; free for ages 5 and under"
             },
             {
               "label": "Parking/environmental fee",
@@ -556,7 +587,11 @@
               "price": "About ₱50–100",
               "note": "One-way"
             },
-            { "label": "Bamboo raft", "price": "About ₱100", "note": "One ride" },
+            {
+              "label": "Bamboo raft",
+              "price": "About ₱100–300",
+              "note": "Per trip, varies with time and number of people"
+            },
             { "label": "Life vest rental", "price": "About ₱50", "note": "Per vest" },
             { "label": "Table/hut rental", "price": "About ₱200–250", "note": "Per day" },
             {

@@ -242,11 +242,29 @@
             {
               "type": "card",
               "number": 7,
-              "title": "Trải nghiệm chương trình ngắn",
+              "title": "Trải nghiệm chương trình nhẹ nhàng",
+              "children": [
+                { "text": "Nếu ngại sức khỏe, hãy chọn Garden Picnic (trung bình " },
+                { "type": "duration", "text": "3 giờ" },
+                {
+                  "text": ", từ 1 tuổi) với dạo vườn đá, thưởng thức trà thực vật bản địa và picnic. Cũng có các chương trình đặc biệt theo mùa như đêm Celestial Nights kết hợp âm nhạc và ngắm sao, nên hãy xem thông báo chính thức."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Đường mòn Origin (Origin Trail)",
               "children": [
                 {
-                  "text": "Nếu ngại về thể lực, có những thời điểm tổ chức lộ trình ngắn leo bậc thang đá vào sáng sớm để ngắm bình minh từ đài quan sát, hoặc chương trình dạo vườn đá và thưởng trà, nên hãy kiểm tra trang đặt chỗ."
-                }
+                  "text": "Lộ trình leo hơn 600 bậc thang đá lên đài quan sát đỉnh núi đá vôi karst, mất khoảng "
+                },
+                { "type": "duration", "text": "2–3 giờ" },
+                {
+                  "text": " và từ 7 tuổi trở lên có thể tham gia. Nếu thêm đoạn cáp treo (tùy chọn) thì mất hơn "
+                },
+                { "type": "duration", "text": "4 giờ" },
+                { "text": " và độ khó cũng tăng lên." }
               ]
             }
           ]
@@ -410,12 +428,26 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ Metro Manila đi theo đường cao tốc Marcos, qua Antipolo tiếp tục về phía đông, cổng vào nằm bên trái tại điểm "
+                      "text": "Từ Metro Manila đi theo đường cao tốc Marcos, qua Antipolo rồi tiếp tục về phía đông, đến điểm "
                     },
                     { "type": "distance", "text": "47km" },
                     {
-                      "text": ". Đường núi quanh co và có nhiều người đi mô tô, nên cần lái xe phòng thủ. Có bãi đỗ dành riêng cho khách nhưng khi đặt chỗ có thể phải đăng ký thông tin xe."
+                      "text": " thì lối vào nằm bên phải, sau các biển báo Garden Cottage, Foremost Farms và Palo Alto. Đường núi quanh co và có nhiều người đi mô tô, nên cần lái xe phòng thủ. Có chỗ đỗ xe dành riêng cho khách, nhưng khi đặt chỗ có thể phải đăng ký thông tin xe."
                     }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Hướng dẫn chính thức khuyên tránh Manila East Road và chỉ đi bằng đường cao tốc Marcos. Từ đại lộ Katipunan, Quezon City khoảng "
+                    },
+                    { "type": "distance", "text": "35km" },
+                    { "text": ", mất khoảng " },
+                    { "type": "duration", "text": "1 giờ 15 phút" },
+                    { "text": ", còn từ Sân bay quốc tế Ninoy Aquino có thể mất đến " },
+                    { "type": "duration", "text": "3–3 giờ 30 phút" },
+                    { "text": " tùy giao thông." }
                   ]
                 }
               ]
@@ -475,6 +507,29 @@
               "text": "Nơi này thường hoạt động từ thứ Ba đến Chủ nhật, nghỉ thứ Hai. Khung giờ cuối tuần thường hết chỗ trước vài tuần, và vào dịp cuối năm đầu năm hay Tuần Thánh thì hết chỗ còn nhanh hơn."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, buổi sáng mát và quang đãng",
+              "Đường mòn dễ chịu — cuối năm và đầu năm chỗ hết nhanh"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, đá nóng vào ban ngày",
+              "Đặt khung giờ sớm nhất — Tuần Thánh hết chỗ nhanh"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, đá và dây thừng trơn trượt",
+              "Nhiều đỉa và muỗi hơn — có bão thì hủy đường mòn"
+            ]
+          ]
         }
       ]
     },
@@ -491,7 +546,7 @@
           "items": [
             {
               "label": "Phí bảo tồn Đường mòn Khám phá",
-              "price": "Khoảng ₱1,500~1,800",
+              "price": "Khoảng ₱1,700~2,000",
               "note": "Giá khác nhau ngày thường – cuối tuần, kiểm tra giá mới nhất"
             },
             {
@@ -630,6 +685,42 @@
                   "text": "Đoạn cuối đường mòn tiêu hao thể lực nhiều nhất. Đừng đi nhanh lúc đầu mà hãy theo nhịp độ của kiểm lâm."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "Phí bảo tồn: đường mòn Discovery " },
+                { "type": "price", "text": "₱1,700" },
+                { "text": " ngày thường, " },
+                { "type": "price", "text": "₱2,000" },
+                { "text": " cuối tuần (từ 13 tuổi); đường mòn Legacy " },
+                { "type": "price", "text": "₱1,800" },
+                { "text": " ngày thường, " },
+                { "type": "price", "text": "₱2,000" },
+                { "text": " cuối tuần (từ 10 tuổi); đường mòn Origin " },
+                { "type": "price", "text": "₱1,700" },
+                { "text": " ngày thường, " },
+                { "type": "price", "text": "₱2,000" },
+                { "text": " cuối tuần (từ 7 tuổi); Garden Picnic " },
+                { "type": "price", "text": "₱1,500" },
+                { "text": " (từ 1 tuổi). Đặt yêu cầu tham quan trên " },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức của Masungi Georeserve",
+                  "url": "https://www.masungigeoreserve.com/"
+                },
+                { "text": "." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Không thể trả phí bảo tồn tại chỗ nên phải thanh toán trước. Ngân hàng và ATM gần nhất cũng cách hơn "
+                },
+                { "type": "duration", "text": "1 giờ" },
+                {
+                  "text": " đi xe, vì vậy hãy chuẩn bị tiền mặt trước khi đi; về sóng điện thoại thì nhà mạng Smart bắt sóng tương đối tốt hơn."
+                }
+              ]
             }
           ]
         }
@@ -682,6 +773,15 @@
                   "text": ", Masungi liên tục có tranh chấp giữa chính phủ và quỹ quản lý về thỏa thuận sử dụng đất, cùng tranh cãi về dự án điện gió gần đó. Cách vận hành có thể thay đổi, nên hãy kiểm tra thông báo mới nhất trên kênh chính thức trước khi đến."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "Xả rác, hút thuốc, hái động thực vật hay nhặt đá đều bị phạt " },
+                { "type": "price", "text": "₱3,000" },
+                {
+                  "text": " ngay từ lần vi phạm đầu tiên. Hãy gửi bật lửa và thuốc lá ở cổng vào hoặc để trong xe, và không đưa tiền boa cá nhân cho nhân viên kiểm lâm (nếu muốn, hãy dùng thùng quyên góp chung)."
+                }
+              ]
             }
           ]
         },
@@ -722,6 +822,7 @@
             {
               "type": "card",
               "title": "Tanay Daraitan · sông Tinipak",
+              "place": "mount-daraitan",
               "children": [
                 { "text": "Đi xe khoảng " },
                 { "type": "duration", "text": "1 giờ 30 phút" },

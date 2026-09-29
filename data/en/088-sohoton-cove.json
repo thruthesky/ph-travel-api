@@ -34,8 +34,8 @@
     "items": ["Lagoon", "Cave", "Jellyfish lake", "Kayaking", "Cliff jumping"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.6736 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 125.9483 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.5971 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 125.9279 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -75,7 +75,19 @@
     "credit": "Michael Angelo Luna / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Middle_Bucas_Grande_in_Dapa,_Siargao.jpg"
   },
-  "gallery": { "type": "carousel", "label": "Photos", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "Photos",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/088-sohoton-cove-2.webp",
+        "alt": "Sohoton Cove",
+        "credit": "AGUSTIN MENDEZ, Tubod Founding Hero / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sohoton.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -326,15 +338,19 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "It's about " },
-                    { "type": "duration", "text": "1 hour 45 minutes–2 hours" },
-                    { "text": " from Manila to Siargao Airport (IAO), and about " },
-                    { "type": "duration", "text": "1 hour" },
                     {
-                      "text": " from Cebu. Taking a shared van from the airport to General Luna (about "
+                      "text": "There have been no direct flights from Manila to Siargao Sayak Airport (IAO) since "
+                    },
+                    { "type": "date", "text": "March 2025" },
+                    { "text": ", so go via Cebu (Cebu–Siargao about " },
+                    { "type": "duration", "text": "1 hour" },
+                    { "text": ") or take a direct flight from Clark Airport (about " },
+                    { "type": "duration", "text": "2 hours 20 minutes–2 hours 30 minutes" },
+                    {
+                      "text": "). It is usual to take a shared van from the airport to General Luna (about "
                     },
                     { "type": "duration", "text": "45 minutes–1 hour" },
-                    { "text": ") and then joining a tour is typical." }
+                    { "text": ") and then join a tour." }
                   ]
                 }
               ]
@@ -437,6 +453,29 @@
             {
               "text": ", the northeast monsoon brings frequent rain and rough seas, which can cancel tours or make the crossing very difficult. Jellyfish numbers vary greatly year to year, and in some years there are almost none in a given month, so it's best to keep expectations flexible. Above all, passing through the cave entrance depends on low tide, so tour operators set the departure time according to a tide table."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "March–July",
+              "Calm seas, clear skies",
+              "Lagoon water color vivid — Jellyfish Lake tends to have the most jellyfish"
+            ],
+            [
+              "August–October",
+              "Mostly possible, southwest wind and swell",
+              "Some affected days — passing through the cave entrance is based on low tide"
+            ],
+            [
+              "November–February",
+              "Northeast monsoon, frequent rain and rough seas",
+              "Tours cancelled and travel difficult — jellyfish numbers vary widely from year to year"
+            ]
           ]
         }
       ]

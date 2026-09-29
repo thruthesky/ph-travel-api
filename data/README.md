@@ -75,7 +75,7 @@
 | `highlights` | 꼭 해봐야 할 것 | `star` | `grid`(`columns: 2`) 하나, 안에 `card` 6~8개 — `number`(1부터), `title`, `children`(2~3문장) |
 | `itinerary` | 추천 일정 | `event_note` | `tabs` 하나 — 항목마다 `title`(1일차·반나절 코스 …), 선택 `subtitle`, `blocks` 에 `stepper`. 일정 길이는 duration 과 맞춘다 |
 | `getting_there` | 가는 방법 | `directions` | `accordion` 하나 — 수단별 항목(`title`, `icon`), `blocks` 에 `list`·`paragraph`. 마닐라 출발 필수, 다른 출발지는 추가. 소요 시간·요금·현지 이동수단까지 |
-| `best_time` | 여행 최적기와 날씨 | `wb_sunny` | `paragraph` — 건기·우기, 태풍 시기, 축제, 월별 특징 |
+| `best_time` | 여행 최적기와 날씨 | `wb_sunny` | `paragraph` — 건기·우기, 태풍 시기, 축제, 월별 특징. 그 뒤에 `table` 하나(`label: "시기별 한눈에 보기"`, `icon: "calendar_month"`, `columns: ["시기", "날씨", "여행 포인트"]`, 1년을 빠짐없이 나눈 행 3~5개) |
 | `costs` | 예상 비용 | `payments` | `pricing` 하나(`currency: "PHP"`, `columns: ["항목", "예상 비용", "비고"]`, `items` 6~9개) + `caption` 「요금은 2026년 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다.」 |
 | `stay_and_food` | 숙소와 먹거리 | `restaurant` | `paragraph` — 숙박 지역·가격대, 대표 음식. 업소 이름은 오래 운영된 유명 업소만 |
 | `tips` | 여행 팁 | `lightbulb` | `list`(`icon: "check_circle"`) 하나, 항목 6~10개 |

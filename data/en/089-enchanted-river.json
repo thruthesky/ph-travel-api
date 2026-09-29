@@ -34,8 +34,8 @@
     "items": ["Blue river", "Underwater cave", "Fish feeding", "Local legends", "Swimming"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 8.3661 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 126.3361 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 8.4586 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 126.3558 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -105,7 +105,7 @@
     "variant": "lead",
     "children": [
       {
-        "text": "A short river flowing through the forest at Hinatuan on Mindanao's east coast, where water welling up from a deep underwater cave takes on a striking sapphire and clear turquoise hue. Famous for its legend of resident fairies and the sight of fish schools surfacing at the midday feeding, it's a signature attraction of Surigao del Sur."
+        "text": "A short river flowing through the forest in Hinatuan on the east coast of Mindanao, whose water welling up from a deep underwater cave takes on a deep sapphire blue and a clear turquoise. It is the signature attraction of Surigao del Sur, famous for the legend that fairies live here and for the daily fish-feeding scene when shoals of fish rise to the surface."
       }
     ]
   },
@@ -128,11 +128,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "This mysterious color comes from the river's structure. At the bottom of its deepest pool lies an underwater cave connected to the limestone bedrock below, from which clear water constantly wells up. The water is so clear and deep that sunlight can't reach the bottom in places, making those areas appear a deep blue. The pool is said to be over "
+              "text": "The mystical color comes from the structure of the river. At the bottom of the deepest pool is an underwater cave running beneath the limestone terrain, from which clear water wells up without pause. The water is so clear and deep that the parts where sunlight can't reach the bottom look deep blue. The depth confirmed by diving exploration alone exceeds "
             },
-            { "type": "distance", "text": "25m" },
+            { "type": "distance", "text": "82m" },
             {
-              "text": " deep, though how far the cave extends is not yet fully known, and it's notable for being close enough to the sea that fresh and salt water mix."
+              "text": ", but how far the cave extends has not been fully established, and it is also unusual that fresh and sea water mix because of its closeness to the ocean."
             }
           ]
         },
@@ -148,11 +148,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "For a long time it was a secret spot known only to locals, but after photos spread online in the late "
+              "text": "For a long time it was a secret known only to locals, but after photos spread online in the "
             },
-            { "type": "date", "text": "2000s" },
+            { "type": "date", "text": "late 2000s" },
             {
-              "text": ", travelers began flocking here from across the Philippines. Today, Hinatuan city manages visitors, setting designated swimming areas and hours. Though it's far to reach, it's a must-visit for travelers planning a Surigao del Sur trip alongside nearby Tinuy-an Falls and the Britania Islands."
+              "text": ", travelers rushed in from across the Philippines. Today Hinatuan city manages visitors and sets swimming zones and hours. Transport is far, but for travelers planning a Surigao del Sur trip that combines the nearby Tinuy-an Falls and Britania Islands, it is a must-stop."
             }
           ]
         }
@@ -171,10 +171,16 @@
             {
               "type": "card",
               "number": 1,
-              "title": "Swimming in the sapphire pool",
+              "title": "Swim in the sapphire river",
               "children": [
+                { "text": "Since " },
+                { "text": "2017", "type": "date" },
                 {
-                  "text": "You can enter the water within the designated area wearing a life vest. The water is a bit cooler than the sea and extremely clear, letting you see schools of fish right beneath your feet."
+                  "text": ", swimming has been banned in the deepest central pool, and you enter in a life jacket in a designated area about "
+                },
+                { "text": "10m", "type": "distance" },
+                {
+                  "text": " from the pool. The water is slightly colder than the sea and very clear, so you can see shoals of fish right beneath your feet."
                 }
               ]
             },
@@ -183,10 +189,12 @@
               "number": 2,
               "title": "Watching the fish feeding",
               "children": [
-                { "text": "Around midday (and sometimes around " },
-                { "type": "time", "text": "3 PM" },
                 {
-                  "text": " depending on the day), when the caretaker scatters feed, large and small fish rise all at once from the depths. Swimming pauses briefly during this time, so watch from the water's edge."
+                  "text": "When the attendant plays the Hinatuan anthem over the speaker and scatters feed, large and small shoals of fish rise together from the deep. The time has shifted between noon and "
+                },
+                { "type": "time", "text": "3:00 PM" },
+                {
+                  "text": ", so check when you arrive. Swimming pauses briefly at this time, so watch from the water's edge."
                 }
               ]
             },
@@ -299,6 +307,20 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "On days when the feeding is at " },
+                    { "type": "time", "text": "3:00 PM" },
+                    {
+                      "text": ", swim and take photos in the morning, then have lunch and rest at a cottage, and come out of the water around "
+                    },
+                    { "type": "time", "text": "2:45 PM" },
+                    {
+                      "text": " to watch before leaving. In that case it is more relaxed to push Tinuy-an Falls to the next morning."
+                    }
+                  ]
                 }
               ]
             },
@@ -344,10 +366,10 @@
                     { "type": "duration", "text": "1 hour 40 minutes" },
                     { "text": " from Manila and about " },
                     { "type": "duration", "text": "1 hour" },
-                    { "text": " from Cebu. Davao Airport (DVO) is also widely used, about " },
+                    { "text": " from Cebu. Davao Airport (DVO) is also widely used, at about " },
                     { "type": "duration", "text": "2 hours" },
                     {
-                      "text": " from Manila with far more flights. Tandag Airport (TDG), in the capital of Surigao del Sur, has small-plane service from Cebu at certain times, but flights are infrequent."
+                      "text": " from Manila with far more flights. The airport in Tandag (TDG), the capital of Surigao del Sur, has small planes from Cebu that keep starting and stopping service, so there are often no scheduled flights; check whether it is currently operating before relying on it."
                     }
                   ]
                 }
@@ -443,6 +465,29 @@
             {
               "text": "), local visitors increase sharply and the swimming area gets crowded, so weekday mornings are recommended. The water can turn cloudy the day after heavy rain."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "March–September",
+              "Relatively dry",
+              "Water at its clearest — crowded on April–May school break weekends"
+            ],
+            [
+              "October",
+              "Between the dry and rainy seasons",
+              "The day after heavy rain the water is cloudy — weekday mornings recommended"
+            ],
+            [
+              "November–February",
+              "Northeast monsoon, frequent heavy rain",
+              "River murky, roads may be blocked by landslides"
+            ]
           ]
         }
       ]
@@ -601,7 +646,16 @@
             {
               "children": [
                 {
-                  "text": "Enchanted River and Tinuy-an Falls can be combined in one day, but adding the Britania Islands requires 2 nights in Bislig."
+                  "text": "Enchanted River and Tinuy-an Falls can be combined in a single day, but adding the Britania Islands takes two nights in Bislig."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "The river is generally open " },
+                { "type": "time", "text": "8:00 AM to 5:00 PM" },
+                {
+                  "text": ", and on some days it stops admitting visitors in the late afternoon. Foreigners may pay a slightly higher entrance fee than locals, so bring a copy of your passport and prepare small change."
                 }
               ]
             }
@@ -620,10 +674,10 @@
           "variant": "warning",
           "icon": "warning",
           "children": [
-            { "text": "The river has sections deeper than " },
-            { "type": "distance", "text": "25m" },
+            { "text": "The pool in the middle of the river is more than " },
+            { "type": "distance", "text": "82m" },
             {
-              "text": " leading into an underwater cave. Do not swim outside the designated area or enter without a life vest, and scuba or freediving is prohibited without local government permit."
+              "text": " deep by diving exploration alone, and leads into a narrow underwater cave. Do not swim outside the designated area or go in without a life jacket, and scuba and freediving are banned without local government permission."
             }
           ]
         },

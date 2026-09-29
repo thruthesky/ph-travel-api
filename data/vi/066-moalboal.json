@@ -29,8 +29,8 @@
     "items": ["Đàn cá mòi", "Rùa biển", "Lặn ống thở", "Lặn biển", "Đảo Pescador"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.7, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.95 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.4 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.9495 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.3658 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -343,6 +343,65 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Ngày sóng cao",
+              "subtitle": "Khi tour thuyền banca bị dừng",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "4 giờ sáng",
+                      "children": [
+                        { "text": "Thuê xe đi Mantalongon ở Dalaguete (khoảng " },
+                        { "type": "duration", "text": "1 tiếng 30 phút–2 tiếng" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "5 giờ 30 sáng",
+                      "children": [
+                        { "text": "Trekking ngắm bình minh trên đỉnh Osmeña (khoảng " },
+                        { "type": "duration", "text": "20–30 phút" },
+                        { "text": " từ điểm xuất phát)" }
+                      ]
+                    },
+                    {
+                      "time": "9 giờ sáng",
+                      "children": [
+                        {
+                          "text": "Xuống Badian, bơi ở thác Kawasan (bỏ qua nếu mưa nhiều làm nước đục)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "1 giờ chiều",
+                      "children": [
+                        {
+                          "text": "Ăn trưa lechon gần chợ trung tâm thị trấn Moalboal rồi nghỉ ở nơi lưu trú"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Buổi tối",
+                      "children": [
+                        {
+                          "text": "Khi sóng lặng xuống, lặn ống thở ngắn ở vùng nước nông trước bãi biển, hoặc ngắm hoàng hôn ở quán bar bãi biển"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Vào ngày gió mùa tây nam mạnh, lực lượng tuần duyên sẽ cấm thuyền banca ra khơi, và sau mưa lớn canyoneering ở Kawasan cũng có thể bị dừng. Hãy để trống một ngày trong lịch trình cho các tour, và tối hôm trước hỏi nơi lưu trú hoặc cửa hàng lặn xem tour có hoạt động không."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -403,6 +462,16 @@
                     },
                     { "type": "duration", "text": "40 phút – 1 giờ" },
                     { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Cebu BRT chạy một phần từ " },
+                    { "text": "tháng 3 năm 2026", "type": "date" },
+                    {
+                      "text": " có dừng tại Bến xe buýt phía Nam, nên nếu ở khu IT Park, Ayala, Capitol hoặc Fuente Osmeña thì cũng có thể đi BRT đến bến xe. Để kịp chuyến xe buýt đầu tiên lúc rạng sáng, taxi hoặc Grab là chắc chắn nhất, và hãy kiểm tra thông báo mới nhất về giờ chạy và giá vé của BRT."
+                    }
                   ]
                 }
               ]
@@ -466,6 +535,29 @@
             {
               "text": "), tour thuyền banca và canyoneering đôi khi bị tạm dừng. Dù vậy, lặn ống thở lội từ bờ vẫn có thể thực hiện quanh năm miễn là biển yên."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 2",
+              "Mùa khô, nhiệt độ nước 26–27 độ",
+              "Có áo lặn 3mm hoặc áo rash guard sẽ tiện hơn"
+            ],
+            [
+              "Tháng 3–tháng 5",
+              "Mùa khô, nhiệt độ nước 29–30 độ",
+              "Ở dưới nước lâu cũng không lạnh"
+            ],
+            [
+              "Tháng 6–tháng 11",
+              "Mùa mưa, gió mùa tây nam",
+              "Tầm nhìn bờ tây mờ — tour có thể bị dừng tháng 8–11"
+            ]
           ]
         }
       ]

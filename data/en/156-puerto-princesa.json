@@ -348,6 +348,59 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Rainy day",
+              "subtitle": "Mostly indoors in the city",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Between showers, look around the Immaculate Conception Cathedral and Plaza Cuartel"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [
+                        {
+                          "text": "See Tabon Caves artifacts and indigenous crafts at the Palawan Museum"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [{ "text": "Lunch of warm noodles at a chaolong restaurant" }]
+                    },
+                    {
+                      "time": "14:00",
+                      "children": [
+                        {
+                          "text": "Buy hopia at Baker's Hill bakery and shop for cashew nuts at city souvenir shops"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "18:00",
+                      "children": [
+                        { "text": "Seafood dinner at Ka Lui or Kinabuchs Grill and Bar" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The firefly cruise and Honda Bay tour are easily cancelled by rain, so in the rainy season it's best to put them earlier in your itinerary rather than on the last day, leaving room to reschedule."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -439,24 +492,20 @@
                     {
                       "children": [
                         {
-                          "text": "Vans and buses from El Nido, Port Barton, Sabang, and southern Quezon or Brooke's Point arrive at San Jose Terminal, about "
+                          "text": "Vans and buses from El Nido, Port Barton, Sabang, and southern Quezon or Brooke's Point arrive at Irawan Terminal, about "
                         },
-                        { "type": "distance", "text": "7km" },
-                        {
-                          "text": " north of the city center. From El Nido, a shared van takes about "
-                        },
+                        { "type": "distance", "text": "12km" },
+                        { "text": " south of the city. From El Nido, it takes about " },
                         { "type": "duration", "text": "5–6 hours" },
-                        { "text": "." }
+                        { "text": " by shared van." }
                       ]
                     },
                     {
                       "children": [
-                        {
-                          "text": "From San Jose Terminal to the city center, a multicab or jeepney takes about "
-                        },
-                        { "type": "duration", "text": "20–30 minutes" },
-                        { "text": ", and a chartered tricycle costs around " },
-                        { "type": "price", "text": "₱150~250" },
+                        { "text": "From Irawan Terminal to the city center is about " },
+                        { "type": "duration", "text": "30 minutes" },
+                        { "text": " by multicab or jeepney, and a chartered tricycle runs about " },
+                        { "type": "price", "text": "₱150–250" },
                         { "text": "." }
                       ]
                     }
@@ -542,6 +591,34 @@
               "text": ", Baragatan, the province-wide cultural festival, runs for about three weeks."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–December",
+              "Start of dry season",
+              "Early part of the dry season, good for travel"
+            ],
+            [
+              "January–April",
+              "Dry season, little rain and calm seas",
+              "Few worries about Underground River or Honda Bay tour cancellations — Balayong Festival around March 4"
+            ],
+            [
+              "May",
+              "End of dry season, sweltering at 31–33℃",
+              "Pack city sightseeing into the morning and around sunset"
+            ],
+            [
+              "June–October",
+              "Rainy season, frequent showers from the southwest monsoon",
+              "Firefly cruise may be cancelled — Baragatan Festival in June"
+            ]
+          ]
         }
       ]
     },
@@ -591,7 +668,12 @@
               "price": "About ₱1,200~5,000",
               "note": "Per night, guesthouse to mid-range hotel"
             },
-            { "label": "Meals", "price": "About ₱600~1,200", "note": "Per person, per day" }
+            { "label": "Meals", "price": "About ₱600~1,200", "note": "Per person, per day" },
+            {
+              "label": "Firefly boat (going on your own)",
+              "price": "About ₱600",
+              "note": "Per boat for 3 people, Iwahig River pier"
+            }
           ]
         },
         {
@@ -702,6 +784,36 @@
               "children": [
                 {
                   "text": "Cashew nuts are cheaper at city souvenir shops and markets than at the airport, so buy them the day before you leave."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "You can go on your own instead of joining an agency tour. The Iwahig firefly pier is at kilometer 20 of the southern national highway, about "
+                },
+                { "type": "duration", "text": "35 minutes" },
+                { "text": " by car from the city, and from " },
+                { "type": "time", "text": "6 PM" },
+                { "text": " you can take a boat (3 people) for " },
+                { "type": "price", "text": "₱600" },
+                { "text": ". Check the latest fares in the " },
+                {
+                  "type": "link",
+                  "text": "Puerto Princesa City Tourism Office",
+                  "url": "https://citytourism.puertoprincesa.ph/iwahig-firefly-watching/"
+                },
+                { "text": " notices." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Ka Lui is closed on Sundays and opens only for lunch (" },
+                { "type": "time", "text": "11 AM–2 PM" },
+                { "text": ") and dinner (" },
+                { "type": "time", "text": "6–10:30 PM" },
+                {
+                  "text": "); seats fill up quickly in the evening, so it's best to reserve by phone before you go."
                 }
               ]
             }

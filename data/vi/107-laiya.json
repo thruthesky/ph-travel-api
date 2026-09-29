@@ -391,14 +391,27 @@
                     {
                       "children": [
                         {
-                          "text": "Hãng ALPS The Bus khai thác các chuyến xe buýt đi San Juan, Batangas từ các bến Cubao, Buendia, PITX, BGC. Mất khoảng "
+                          "text": "ALPS The Bus chạy xe buýt đến San Juan, Batangas từ các bến Cubao, Buendia, PITX và BGC. Hành trình khoảng "
                         },
                         { "type": "duration", "text": "3–4 giờ" },
                         { "text": ", giá vé khoảng " },
-                        { "type": "price", "text": "₱300–350" },
-                        { "text": ". Chuyến sớm nhất bắt đầu từ khoảng " },
+                        { "type": "price", "text": "₱350–400" },
+                        { "text": " (mức ước tính đã tính đợt tăng giá xe buýt tỉnh ngày " },
+                        { "type": "date", "text": "28 tháng 9 năm 2026" },
+                        { "text": "). Chuyến đầu tiên khởi hành vào khoảng " },
                         { "type": "time", "text": "4–5 giờ sáng" },
-                        { "text": "; hãy kiểm tra giờ giấc cụ thể tại bến xe." }
+                        { "text": "; hãy kiểm tra lịch trình tại bến xe." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Nếu xuất phát từ phía nam, bến Alabang Starmall cũng có xe ALPS chạy thẳng đến San Juan trong khoảng "
+                        },
+                        { "type": "time", "text": "5 giờ sáng – 8 giờ tối" },
+                        {
+                          "text": ", còn từ Cavite bạn có thể đi xe van chạy thẳng đến San Juan từ bến Pala-Pala."
+                        }
                       ]
                     },
                     {
@@ -541,6 +554,29 @@
               "text": " là mùa mưa chịu ảnh hưởng của gió mùa tây nam và bão; bãi biển Laiya hướng ra phía nam nên thường có sóng cao và nước đục vào nhiều ngày. Bù lại, giá khu nghỉ dưỡng giảm mạnh nên cũng có người tranh thủ mùa thấp điểm để tiết kiệm. Khi có cảnh báo bão, các khu nghỉ dưỡng ven biển sẽ cấm bơi, và đường núi có thể xảy ra sạt lở, nên hãy theo dõi dự báo của Cục Khí tượng (PAGASA)."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, tháng 1–2 không nóng",
+              "Nắng đẹp, ít người nên dễ chọn chỗ ở"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, giữa trưa 32–35℃",
+              "Biển lặng và trong nhất — giá tăng vào kỳ nghỉ hè và Tuần Thánh"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió mùa tây nam và bão",
+              "Sóng cao, nước đục — giá phòng giảm vào mùa thấp điểm"
+            ]
+          ]
         }
       ]
     },
@@ -557,8 +593,8 @@
           "items": [
             {
               "label": "Xe buýt từ Manila đến San Juan",
-              "price": "Khoảng ₱300–350 một chiều",
-              "note": "Theo giá hãng ALPS"
+              "price": "Một chiều khoảng ₱350–400",
+              "note": "Theo giá ALPS, đã tính đợt tăng giá tháng 9 năm 2026"
             },
             {
               "label": "Xe jeepney từ San Juan đến Laiya",
@@ -581,7 +617,7 @@
               "note": "Tùy kích thước và khu nghỉ dưỡng"
             },
             {
-              "label": "Thuyền khám phá bãi biển",
+              "label": "Thuyền khám phá các bãi biển",
               "price": "Khoảng ₱2,500–3,500 một thuyền",
               "note": "Khoảng 8–10 người"
             },
@@ -700,6 +736,21 @@
               "children": [
                 {
                   "text": "Nếu đi đông người vào mùa hè cao điểm, bạn nên đặt cottage trước biển từ sáng sớm để không bỏ lỡ chỗ có bóng râm."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Bạn có thể xem danh sách resort đã đăng ký và hướng dẫn đi lại trên " },
+                {
+                  "type": "link",
+                  "text": "trang web du lịch San Juan",
+                  "url": "https://tourism.sanjuanbatangas.gov.ph/"
+                },
+                { "text": ". Phí môi trường khoảng " },
+                { "type": "price", "text": "₱50" },
+                {
+                  "text": "/người được nộp tại quầy hướng dẫn du lịch San Juan hoặc khi đến resort."
                 }
               ]
             }

@@ -328,6 +328,63 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Day island-hopping course",
+              "subtitle": "If staying at a resort in Pundaquit",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:30",
+                      "children": [
+                        { "text": "Boat departs from Pundaquit beach, pay the environmental fee" }
+                      ]
+                    },
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Arrive at Anawangin, pay the (day-trip) entrance fee, swim and walk around the lagoon"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "Climb the viewpoint hill and look down over the whole bay" }
+                      ]
+                    },
+                    {
+                      "time": "09:30",
+                      "children": [
+                        { "text": "Swim and take photos on the sandbar at Camara Island" }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        { "text": "Land on Capones Island and walk up to the lighthouse" }
+                      ]
+                    },
+                    {
+                      "time": "11:30–12:00",
+                      "children": [{ "text": "Return to Pundaquit, shower and lunch" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The wind picks up in the afternoon and waves get higher, so it is best to finish the island-to-island travel in the morning. If you want to include Nagsasa Cove, the boat time increases, so depart before "
+                    },
+                    { "type": "time", "text": "06:00" },
+                    { "text": "." }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -480,6 +537,29 @@
             { "text": ", " },
             { "type": "date", "text": "January–February" },
             { "text": ") and you'll find a far quieter Anawangin." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, around 20°C at night (December–February)",
+              "Most pleasant for camping — quiet on weekdays in November and January–February"
+            ],
+            [
+              "March–May",
+              "Dry season, warm sea and clear skies",
+              "Swimming and stargazing — full on Holy Week and school-holiday weekends"
+            ],
+            [
+              "June–October",
+              "Rainy season, high waves and frequent heavy rain",
+              "Boats banned and campsites closed — avoid visiting"
+            ]
           ]
         }
       ]
@@ -658,6 +738,17 @@
                   "text": "The rule is to carry out all your trash. Bring several large trash bags."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The resorts and boat operators in Pundaquit sell overnight packages bundling the round-trip boat, entrance fee, Capones Island hopping, a shared tent, and drinking water. The more people, the cheaper it gets, at about "
+                },
+                { "type": "price", "text": "₱800–2,300" },
+                {
+                  "text": " per person, so for a small group without gear it can be more convenient and cheaper than renting things separately."
+                }
+              ]
             }
           ]
         }
@@ -778,7 +869,8 @@
                 {
                   "text": " by car. A surf beach town in northern Zambales where you can take beginner surf lessons when the waves are good."
                 }
-              ]
+              ],
+              "place": "liwliwa"
             }
           ]
         }

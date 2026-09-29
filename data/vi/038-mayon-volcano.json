@@ -418,12 +418,18 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ các bến Cubao, Pasay, PITX ở Manila, xe buýt đi Legazpi khởi hành hằng ngày. Nhiều hãng như DLTB, Philtranco… vận hành, mất khoảng "
+                      "text": "Xe buýt đi Legazpi xuất phát hằng ngày từ các bến Cubao, Pasay, PITX ở Manila. Nhiều công ty như DLTB, Raymond chạy tuyến này, mất khoảng "
                     },
-                    { "type": "duration", "text": "10–12 giờ" },
+                    { "type": "duration", "text": "12–13 giờ" },
                     { "text": ", giá vé khoảng " },
-                    { "type": "price", "text": "₱1,000–1,800" },
-                    { "text": " tùy hạng. Đi xe đêm sẽ đến Legazpi vào buổi sáng." }
+                    { "type": "price", "text": "₱1,500~1,800" },
+                    {
+                      "text": " tùy hạng xe. Xe buýt đến Legazpi Grand Central Terminal. Philtranco, hãng chạy tuyến này lâu năm, đã ngừng hoạt động từ "
+                    },
+                    { "type": "date", "text": "ngày 30 tháng 3 năm 2026" },
+                    {
+                      "text": ", nên đừng tìm theo hướng dẫn cũ. Đi xe buýt đêm thì sáng sẽ đến Legazpi."
+                    }
                   ]
                 }
               ]
@@ -509,6 +515,30 @@
             { "type": "date", "text": "tháng 8" },
             { "text": ", với diễu hành đường phố và biểu diễn liên tục." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 1",
+              "Bicol hay mưa quanh năm",
+              "Từ tháng 2 thuận lợi hơn để ngắm Mayon — xem dự báo"
+            ],
+            [
+              "Tháng 2 – tháng 5",
+              "Mùa khô, ít mưa và trời quang",
+              "Tháng 3–4 sáng sớm thấy rõ đỉnh núi — lễ hội Magayon tháng 4–5"
+            ],
+            [
+              "Tháng 6 – tháng 8",
+              "Bão và gió mùa đông bắc, hay mưa",
+              "Ngừng ATV khi có nguy cơ lahar — lễ hội Ibalong tháng 8"
+            ],
+            ["Tháng 9 – tháng 12", "Thường có bão mạnh", "Tour ATV có thể bị dừng vì nguy cơ lahar"]
+          ]
         }
       ]
     },
@@ -530,11 +560,11 @@
             },
             {
               "label": "Xe buýt Manila–Legazpi",
-              "price": "Khoảng ₱1,000–1,800",
-              "note": "Một chiều, khoảng 10–12 giờ"
+              "price": "Khoảng ₱1,500~1,800",
+              "note": "Một chiều, khoảng 12–13 giờ"
             },
             {
-              "label": "Tour ATV",
+              "label": "Tour xe ATV",
               "price": "Khoảng ₱500–2,600",
               "note": "Theo cung đường 30 phút–4 giờ, 1 xe"
             },
@@ -717,6 +747,21 @@
                 {
                   "text": ", chuyến bay và xe buýt có thể bị hủy, nên hãy chừa thêm thời gian dự phòng trong lịch trình."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Tính đến " },
+                { "text": "tháng 9 năm 2026", "type": "date" },
+                {
+                  "text": ", mức cảnh báo là cấp 2, nhưng lượng khí lưu huỳnh đioxit phát ra lại tăng và quan sát thấy phun trào nhẹ ở đỉnh, nên có thể tăng lên cấp 3 bất cứ lúc nào. Ngay trước khi khởi hành, hãy xem thông báo mới nhất trên "
+                },
+                {
+                  "text": "trang web chính thức của PHIVOLCS",
+                  "type": "link",
+                  "url": "https://www.phivolcs.dost.gov.ph/"
+                },
+                { "text": "." }
               ]
             }
           ]

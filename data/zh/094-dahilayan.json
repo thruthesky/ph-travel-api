@@ -16,8 +16,8 @@
   },
   "tags": { "type": "tags", "label": "标签", "items": ["高原", "松林", "高空滑索", "探险乐园", "凉爽气候"] },
   "rating": { "type": "rating", "label": "推荐指数", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "纬度", "value": 8.1986 },
-  "longitude": { "type": "longitude", "label": "经度", "value": 124.8601 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 8.2025 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 124.8586 },
   "best_season": {
     "type": "date",
     "label": "最佳季节",
@@ -67,6 +67,13 @@
         "alt": "达希拉扬",
         "credit": "Obsidian Soul / CC0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Zorbing_at_Dahilayan_Forest_Park_Resort,_Manolo_Fortich,_Bukidnon,_Philippines_03.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/094-dahilayan-3.webp",
+        "alt": "达希拉扬",
+        "credit": "Obsidian Soul / CC0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pinus_kesiya_(Benguet_pine)_in_Dahilayan,_Bukidnon_4.jpg"
       }
     ]
   },
@@ -145,9 +152,9 @@
               "number": 1,
               "title": "840米双线高空滑索",
               "children": [
-                { "text": "两人以并排俯卧的“超人”姿势掠过松林上空，是达希拉扬最具代表性的体验。据称最高时速可达" },
-                { "type": "distance", "text": "80~90公里" },
-                { "text": "，天气晴朗时基坦格拉德山脉就在正前方一览无余。" }
+                { "text": "两人并排以\"超人\"姿势趴着，从松林上空滑过，是达希拉扬的代表性体验。据说最高时速可达" },
+                { "type": "distance", "text": "60~80公里" },
+                { "text": "，天气晴朗时基坦格拉德山脉就在正前方。" }
               ]
             },
             {
@@ -249,6 +256,45 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "乘接驳车的当日行程",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [{ "text": "在卡加延德奥罗林克凯中心（Limketkai Center）乘接驳车出发。" }]
+                    },
+                    {
+                      "time": "10:30~12:30",
+                      "children": [
+                        { "text": "在探险乐园体验" },
+                        { "type": "distance", "text": "840米" },
+                        { "text": "高空滑索和山地过山车。接驳车的游客会同时抵达，所以请先去售票处。" }
+                      ]
+                    },
+                    { "time": "12:30~13:30", "children": [{ "text": "在园内餐厅吃布拉洛之类的热汤料理作为午餐。" }] },
+                    {
+                      "time": "13:30~16:00",
+                      "children": [{ "text": "转到达希拉扬森林公园，体验滑道车、吊桥、树冠步道，并在松林中散步。" }]
+                    },
+                    {
+                      "time": "16:30",
+                      "children": [
+                        { "text": "乘接驳车返回卡加延德奥罗。晚了不会等人，所以请在" },
+                        { "type": "time", "text": "下午4点" },
+                        { "text": "前到达上车地点。" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [{ "text": "下雨或打雷时高空滑索会停运，这样的日子最好把路线改为以森林公园的室内外家庭设施和度假屋咖啡厅为主。" }]
+                }
+              ]
             }
           ]
         }
@@ -291,16 +337,30 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "从卡加延德奥罗的阿戈拉（Agora）巴士总站，乘坐前往布基农马莱巴莱方向的巴士或小巴，在马诺洛福蒂奇的坦库兰（Tankulan）或阿拉埃（Alae）路口下车（约"
+                      "text": "在卡加延德奥罗阿戈拉（Agora）客运站乘开往马诺洛福蒂奇菲利普斯营（Camp Phillips）的面包车或吉普尼，经过阿拉埃（Alae）路口，在菲利普斯营下车（约"
                     },
                     { "type": "duration", "text": "1小时" },
                     { "text": "，约" },
                     { "type": "price", "text": "₱60~100" },
-                    { "text": "）。从这里转乘开往达希拉扬的吉普尼或哈发哈发（摩托出租车），再上行约" },
+                    { "text": "）。在这里换乘哈巴哈巴（摩托车出租车），穿过菠萝田沿上坡路再上行约" },
                     { "type": "duration", "text": "40分钟~1小时" },
-                    { "text": "，车费约" },
-                    { "type": "price", "text": "₱50~150" },
-                    { "text": "。由于公共交通班次稀少，傍晚以后可能没有返程车辆。" }
+                    { "text": "，票价每人单程约" },
+                    { "type": "price", "text": "₱200~300" },
+                    { "text": "。公共交通衔接较少，傍晚可能没有返程车。" }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "也有游客专用接驳车（Magnum Express）。从卡加延德奥罗林克凯中心" },
+                    { "type": "time", "text": "上午9点" },
+                    { "text": "出发，约" },
+                    { "type": "duration", "text": "1小时30分钟" },
+                    { "text": "抵达达希拉扬，" },
+                    { "type": "time", "text": "下午4点30分" },
+                    { "text": "返回。票价成人单程约" },
+                    { "type": "price", "text": "₱249" },
+                    { "text": "，无需预约，先到先上。运行的星期和时间可能变动，出发前请确认最新公告。" }
                   ]
                 }
               ]
@@ -360,6 +420,17 @@
             { "text": "2月末至3月初", "type": "date" },
             { "text": "在马莱巴莱举行，这一时期前往还能观赏到原住民部落的文化表演。" }
           ]
+        },
+        {
+          "type": "table",
+          "label": "各时期一览",
+          "icon": "calendar_month",
+          "columns": ["时期", "天气", "旅行要点"],
+          "rows": [
+            ["12月~2月", "最凉爽，凌晨10~15度", "高原的冬天——年底年初高空滑索排队1小时以上"],
+            ["3月~5月", "晴天多", "高空滑索·山景最佳——2月末~3月初有卡阿穆兰节"],
+            ["6月~11月", "每天午后有雨和雾", "打雷·强风时停运——请上午早些前往"]
+          ]
         }
       ]
     },
@@ -376,11 +447,11 @@
           "items": [
             { "label": "探险乐园门票", "price": "约₱100", "note": "每人" },
             { "label": "840米高空滑索", "price": "约₱500", "note": "1次，每人" },
-            { "label": "高空滑索全套套票", "price": "约₱600~900", "note": "视路线组合而异" },
-            { "label": "山地滑车·自由落体区", "price": "约₱300~500", "note": "每项设施" },
-            { "label": "森林公园游乐设施", "price": "约₱100~400", "note": "每项设施" },
-            { "label": "CDO—马诺洛福蒂奇巴士", "price": "约₱60~100", "note": "单程" },
-            { "label": "吉普尼·哈发哈发", "price": "约₱50~150", "note": "单程" },
+            { "label": "短高空滑索（320米+150米）", "price": "约₱250", "note": "家庭练习路线" },
+            { "label": "山地滑车·自由落体区", "price": "约₱400~750", "note": "每件设施，含2次·2人票价" },
+            { "label": "森林公园入场·游乐设施", "price": "约₱150~900", "note": "入场费₱150，滑道车2次₱650，设施套票₱900" },
+            { "label": "CDO–菲利普斯营面包车·吉普尼", "price": "约₱60~100", "note": "单程" },
+            { "label": "哈巴哈巴（菲利普斯营–达希拉扬）", "price": "约₱200~300", "note": "单程，每人" },
             { "label": "包车", "price": "约₱3,000~4,500", "note": "一天，含司机" },
             { "label": "住宿", "price": "约₱2,000~6,000", "note": "小木屋·小屋一晚" }
           ]
@@ -441,7 +512,9 @@
             },
             {
               "children": [
-                { "text": "高空滑索和自由落体区有体重限制（大约最低30~40公斤，最高100~120公斤）以及年龄限制。若家庭中有孩子同行，建议先在现场确认条件。" }
+                {
+                  "text": "高空滑索有体重·身高限制。840米高空滑索要求体重40~75公斤、身高约122cm（4英尺）以上才能乘坐，体重超过75公斤则无法使用。如果家里有孩子，最好先在现场确认条件。"
+                }
               ]
             },
             { "children": [{ "text": "请穿运动鞋而非凉鞋，随身物品可寄存在储物柜。手机可使用挂脖式防水袋或运动相机支架，安全地记录影像。" }] },
@@ -459,6 +532,19 @@
                 { "text": "拍照的话，" },
                 { "type": "time", "text": "上午9点" },
                 { "text": "前阳光透过松林洒落时，或下午云雾弥漫时，氛围最佳。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "各设施的费用和运营公告可在探险乐园" },
+                { "type": "link", "text": "官方网站", "url": "https://www.dahilayanadventurepark.com/" },
+                { "text": "查看，森林公园的费用可在" },
+                {
+                  "type": "link",
+                  "text": "森林公园官方网站",
+                  "url": "https://www.dahilayanforestpark.com/"
+                },
+                { "text": "确认。" }
               ]
             }
           ]

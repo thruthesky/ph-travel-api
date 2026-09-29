@@ -261,8 +261,10 @@
                       "time": "11:00",
                       "children": [
                         {
-                          "text": "Đi tricycle đến cảng Cawayan rồi thuê thuyền riêng, hoặc từ Naval đón tàu khách đi Maripipi"
-                        }
+                          "text": "Đi tricycle đến cảng Kawayan rồi thuê thuyền (nếu đi qua Maripipi, phải đi tàu khách "
+                        },
+                        { "type": "time", "text": "10 giờ sáng" },
+                        { "text": " từ Naval nên tốt nhất nên ngủ lại Naval từ hôm trước)" }
                       ]
                     },
                     {
@@ -381,18 +383,32 @@
                   "type": "paragraph",
                   "children": [
                     { "text": "Cũng có tàu đi thẳng từ Cebu đến Naval. Tàu cao tốc mất khoảng " },
-                    { "type": "duration", "text": "3 giờ 30 phút~4 giờ" },
-                    { "text": ", giá khoảng " },
-                    { "type": "price", "text": "₱1,400~1,600" },
-                    { "text": ", còn tàu khách thường xuất phát ban đêm mất khoảng " },
-                    { "type": "duration", "text": "7~8 giờ" },
-                    { "text": ", giá khoảng " },
-                    { "type": "price", "text": "₱600~1,300" },
+                    { "type": "duration", "text": "3 giờ 30 phút–4 giờ" },
+                    { "text": ", vé khoảng " },
+                    { "type": "price", "text": "₱1,450–1,950" },
+                    { "text": ", còn tàu khách rời bến vào ban đêm mất khoảng " },
+                    { "type": "duration", "text": "7–8 giờ" },
+                    { "text": ", vé khoảng " },
+                    { "type": "price", "text": "₱600–1,300" },
                     {
-                      "text": ". Tàu khách chỉ chạy vài chuyến mỗi tuần và lịch tàu cao tốc cũng hay thay đổi, nên bạn cần kiểm tra thông báo của hãng tàu trước khi đi. Cũng có cách đi tàu từ Cebu sang Ormoc rồi đi xe van đến Naval mất khoảng "
+                      "text": ". Tàu khách chỉ chạy vài chuyến mỗi tuần và tàu cao tốc cũng hay thay đổi việc có chạy hay không nên phải xem thông báo của hãng tàu trước khi đi. Bạn cũng có thể qua Ormoc từ Cebu rồi đi xe van đến Naval khoảng "
                     },
-                    { "type": "duration", "text": "2~2 giờ 30 phút" },
+                    { "type": "duration", "text": "2–2 giờ 30 phút" },
                     { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Tàu cao tốc Cebu–Naval do SeaCat khai thác, rời Cebu lúc " },
+                    { "type": "time", "text": "7 giờ 30 sáng" },
+                    { "text": ", đến Naval vào khoảng " },
+                    { "type": "time", "text": "11 giờ 10 sáng" },
+                    { "text": " và từ Naval quay về Cebu lúc " },
+                    { "type": "time", "text": "4 giờ chiều" },
+                    {
+                      "text": ". Ngày chạy được hướng dẫn khác nhau tùy nguồn nên hãy kiểm tra trước khi mua vé."
+                    }
                   ]
                 }
               ]
@@ -405,15 +421,15 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Cách nhanh nhất là từ Naval đi tricycle hoặc habal-habal đến cảng Cawayan ở phía tây bắc đảo Biliran mất khoảng "
+                      "text": "Cách nhanh nhất là đi tricycle hoặc habal-habal từ Naval đến cảng Kawayan ở tây bắc đảo Biliran khoảng "
                     },
-                    { "type": "duration", "text": "30~40 phút" },
-                    { "text": ", rồi thuê thuyền vượt biển khoảng " },
-                    { "type": "duration", "text": "30~45 phút" },
-                    { "text": ". Thuyền khứ hồi một chiếc giá khoảng " },
-                    { "type": "price", "text": "₱3,000~5,000" },
+                    { "type": "duration", "text": "30–40 phút" },
+                    { "text": ", rồi thuê thuyền đi khoảng " },
+                    { "type": "duration", "text": "1 giờ–1 giờ 30 phút" },
+                    { "text": ". Thuyền khứ hồi một chiếc khoảng " },
+                    { "type": "price", "text": "₱3,000–5,000" },
                     {
-                      "text": ", nếu chia cho 6–10 người thì chi phí giảm nhiều. Nếu ở lại qua đêm, bạn cần hẹn chính xác giờ thuyền đón vào hôm sau."
+                      "text": ", chia cho 6–10 người thì đỡ tốn hơn. Nếu ở lại một đêm, phải hẹn chính xác giờ thuyền đến đón vào hôm sau."
                     }
                   ]
                 }
@@ -430,11 +446,13 @@
                     {
                       "children": [
                         {
-                          "text": "Tàu khách từ cảng Naval đi Maripipi: 1–2 chuyến mỗi ngày, khoảng "
+                          "text": "Tàu khách từ cảng Naval đi Maripipi: thường 1 chuyến mỗi ngày (rời lúc "
                         },
-                        { "type": "duration", "text": "1 giờ~1 giờ 30 phút" },
-                        { "text": ", khoảng " },
-                        { "type": "price", "text": "₱60~100" }
+                        { "type": "time", "text": "10 giờ sáng" },
+                        { "text": ", Chủ nhật cần kiểm tra có chạy không), mất khoảng " },
+                        { "type": "duration", "text": "1 giờ 30 phút–2 giờ" },
+                        { "text": ", gồm phí nhà ga khoảng " },
+                        { "type": "price", "text": "₱100–110" }
                       ]
                     },
                     {
@@ -447,10 +465,19 @@
                     },
                     {
                       "children": [
-                        { "text": "Thuê thuyền từ Olog đến Sambawan khoảng " },
-                        { "type": "duration", "text": "15~20 phút" },
-                        { "text": ", một chiếc khoảng " },
-                        { "type": "price", "text": "₱600~1,000" }
+                        { "text": "Thuê thuyền từ Olog đến Sambawan mất khoảng " },
+                        { "type": "duration", "text": "15–20 phút" },
+                        { "text": ", một thuyền khoảng " },
+                        { "type": "price", "text": "₱500–700" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Tàu khách từ Maripipi về Naval rời bến vào khoảng " },
+                        { "type": "time", "text": "4 giờ–4 giờ 30 sáng" },
+                        {
+                          "text": ", nên nếu về đường này, bạn phải ngủ lại Maripipi rồi đi chuyến tàu sáng sớm."
+                        }
                       ]
                     },
                     {
@@ -497,6 +524,29 @@
               "text": ", do ảnh hưởng của bão và gió mùa đông bắc Amihan, sóng trên biển Samar cao khiến thuyền nhiều ngày không thể ra khơi. Đây là khu vực bão thường xuyên đi qua, nên vào mùa mưa và mùa đông bạn cần kiểm tra kỹ dự báo thời tiết và lệnh cấm xuất bến của lực lượng tuần duyên, đồng thời chừa thêm ngày dự phòng trong lịch trình. Vào Tuần Thánh và cuối tuần nghỉ hè, khách cắm trại địa phương thường đông, nên nên đi vào ngày thường."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 10 – tháng 2",
+              "Bão và gió mùa đông bắc Amihan",
+              "Sóng cao nên nhiều ngày thuyền không ra được — kiểm tra lệnh cấm ra khơi"
+            ],
+            [
+              "Tháng 3 – tháng 6",
+              "Biển lặng, nắng đẹp",
+              "Tầm nhìn lặn ống thở và cảnh quan đẹp nhất — giữa trưa 30–33℃"
+            ],
+            [
+              "Tháng 7 – tháng 9",
+              "Gió mùa tây nam, thường có mưa rào",
+              "Dự phòng ngày dư và xem dự báo"
+            ]
+          ]
         }
       ]
     },
@@ -518,7 +568,7 @@
             },
             {
               "label": "Tàu cao tốc Cebu–Naval",
-              "price": "Khoảng ₱1,400~1,600",
+              "price": "Khoảng ₱1,450–1,950",
               "note": "Một chiều, cần kiểm tra lịch chạy"
             },
             {

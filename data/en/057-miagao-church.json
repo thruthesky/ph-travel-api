@@ -35,7 +35,7 @@
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.5, "max": 5 },
   "latitude": { "type": "latitude", "label": "Latitude", "value": 10.6419 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 122.2355 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 122.2356 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -508,6 +508,30 @@
             {
               "text": ". During the Christmas season and Holy Week (the week before Easter), church decorations and religious events add more to see, though viewing may be limited during Mass times."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–January",
+              "Dry season",
+              "Rich church decorations and events around Christmas"
+            ],
+            [
+              "February–April",
+              "Dry season, many clear days",
+              "Blue sky against the facade — best for photos"
+            ],
+            ["May", "Dry season, very hot at midday", "Visit before 9 AM or after 3 PM"],
+            [
+              "June–November",
+              "Rainy season, afternoon showers",
+              "Half-day trip still possible — typhoons August–November"
+            ]
           ]
         }
       ]

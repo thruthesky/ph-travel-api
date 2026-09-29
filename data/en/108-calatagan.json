@@ -100,7 +100,7 @@
     "variant": "lead",
     "children": [
       {
-        "text": "The Calatagan Peninsula stretches out at the western tip of Batangas, between the South China Sea and Balayan Bay. It suits travelers looking for a quiet beach trip, with a Spanish-era lighthouse built in 1890, Burot Beach where you can pitch a tent for the night, and sandbars and over-water cottages that appear at low tide."
+        "text": "This is the Calatagan Peninsula, jutting out at the western tip of Batangas between the South China Sea and Balayan Bay. With a Spanish-era lighthouse built in 1890, beach campgrounds where you pitch a tent and spend the night, and sandbars that appear at low tide along with over-water cottages, it suits anyone who wants a quiet beach trip."
       }
     ]
   },
@@ -129,13 +129,13 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "At Santiago Point, on the peninsula's southwestern tip, stands the Cape Santiago Lighthouse, completed by the Spanish colonial government in "
+              "text": "At Cape Santiago on the peninsula's southwestern tip stands the Cape Santiago Lighthouse, completed by the Spanish colonial government in "
             },
             { "type": "date", "text": "1890" },
-            { "text": ". It's a round tower of red brick standing about " },
+            { "text": ". A round red-brick tower about " },
             { "type": "distance", "text": "15.5m" },
             {
-              "text": " tall, with input from Magin Pers y Pers, who also designed the Cape Bojeador Lighthouse in Ilocos. It's still an active lighthouse guiding ships through the Verde Island Passage today, one of the longest continuously operating lighthouses in the Philippines."
+              "text": " tall, it was designed by the Spanish engineer Guillermo Brockman, and Magín Pers y Pers, who designed the Cape Bojeador Lighthouse in Ilocos, surveyed the site and proposed its construction. It is still a working lighthouse, guiding ships entering and leaving the Verde Island Passage, and is one of the oldest lighthouses still operating in the Philippines."
             }
           ]
         },
@@ -180,10 +180,10 @@
             {
               "type": "card",
               "number": 2,
-              "title": "Camp at Burot Beach",
+              "title": "A night at the beach campground",
               "children": [
                 {
-                  "text": "A quiet beach northwest of the lighthouse, a popular spot for pitching a tent and spending the night. Electricity and amenities are limited, which only makes the stars easier to see. Operations and fees change from time to time, so check before you go."
+                  "text": "Burot Beach, once a favorite camping spot, was sold to a developer and is now closed to the public. Instead, Manuel Uy Beach Resort near Stilts Resort is the main campground, where you can rent or bring a tent and spend a night on the beach. Electricity and facilities are limited, which makes the stars all the more visible."
                 }
               ]
             },
@@ -370,6 +370,19 @@
                           "text": "If there's no direct trip to Calatagan, take one bound for Nasugbu or Balayan and transfer to a jeepney to Calatagan. The last trip tends to be early, so check your return time in advance."
                         }
                       ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "DLTB buses to Calatagan can be taken not only from the Buendia terminal but also from PITX (Parañaque Integrated Terminal Exchange) in Parañaque. As of "
+                        },
+                        { "type": "date", "text": "April 2026" },
+                        { "text": " the fare is about " },
+                        { "type": "price", "text": "₱280–300" },
+                        { "text": ", and provincial bus fares rose from " },
+                        { "type": "date", "text": "September 28, 2026" },
+                        { "text": ", so check again at the ticket window." }
+                      ]
                     }
                   ]
                 }
@@ -413,12 +426,14 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "From Calatagan market to the lighthouse takes about " },
+                        {
+                          "text": "From Calatagan market to the lighthouse by tricycle takes about "
+                        },
                         { "type": "duration", "text": "20–30 minutes" },
-                        { "text": " by tricycle, for about " },
+                        { "text": " and costs about " },
                         { "type": "price", "text": "₱150–250" },
                         {
-                          "text": " per trip. Beach resorts and Burot Beach cost about the same to reach."
+                          "text": " per tricycle. Beach resorts and campgrounds can be reached for similar fares."
                         }
                       ]
                     },
@@ -467,6 +482,29 @@
               "text": " is the rainy season, when the southwest monsoon (Habagat) blows straight in from the western sea, bringing high waves and frequent rain to Calatagan's west coast. Tent camping and island hopping become nearly impossible, and beachfront resorts sometimes close when a typhoon hits. During this period, it's better to pick a clear day and keep the trip short, focused on the lighthouse and the mangrove forest."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, calm sea",
+              "January–February is best — few people and not hot"
+            ],
+            [
+              "March–May",
+              "Dry season, clearest (33–35℃)",
+              "Sweltering at midday — resorts crowded during Holy Week and school holidays"
+            ],
+            [
+              "June–November",
+              "Rainy season, high waves on the west coast",
+              "Hopping and camping are difficult — resorts close during typhoons"
+            ]
+          ]
         }
       ]
     },
@@ -497,9 +535,9 @@
               "note": "Check latest notice"
             },
             {
-              "label": "Burot Beach entry/camping",
-              "price": "About ₱70–200 per person",
-              "note": "Tent rental extra, about ₱300–500"
+              "label": "Campground entry (based on Manuel Uy)",
+              "price": "About ₱250–350 per person",
+              "note": "Day visit to 1 night; environmental fee ₱30 and tent rental of about ₱500 are extra"
             },
             {
               "label": "Resort day pass",
@@ -543,13 +581,15 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Calatagan's lodging falls into three broad types: campsites for pitching a tent, like Burot Beach; beach resorts with simple cottages and rooms (about "
+              "text": "Accommodation in Calatagan falls into three broad types: campgrounds where you pitch a tent, like Manuel Uy Beach Resort; beach resorts with simple cottages and rooms (about "
             },
             { "type": "price", "text": "₱2,000–4,000" },
-            { "text": " per night); and larger resorts with pools and over-water cottages (about " },
+            {
+              "text": " per night); and large resorts with swimming pools and even over-water cottages (about "
+            },
             { "type": "price", "text": "₱4,000–8,000" },
             {
-              "text": "). Stilts Calatagan Beach Resort, long popular for its over-water cottages and sandbar tours, is a well-known option, and simpler beach resorts also accept guests who just pay an entrance fee to spend the day. Cottages and rooms fill up fast on peak-season weekends, so book ahead."
+              "text": "). Stilts Calatagan Beach Resort, long popular for its over-water cottages and sandbar tours, is the best-known example, and simple beach resorts also accept guests who pay only an entrance fee and rest for the day. On peak-season weekends the cottages and rooms fill up fast, so book ahead."
             }
           ]
         },
@@ -624,6 +664,30 @@
                   "text": "Stopping in Tagaytay on the way back lets you end the trip with cool air, a view of Taal Volcano, and a bowl of bulalo."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Boats that tour the sandbars and snorkeling spots are usually rented by the hour, at about "
+                },
+                { "type": "price", "text": "₱1,500–2,000" },
+                { "text": " for " },
+                { "type": "duration", "text": "1 hour" },
+                {
+                  "text": " for four people. Extra charges apply if the group is larger or you visit several spots, so settle the route and time before you set out."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Calatagan charges tourists an environmental fee of " },
+                { "type": "price", "text": "₱30" },
+                {
+                  "text": " per person. Once paid, it is honored at other beaches and attractions in the municipality for "
+                },
+                { "type": "duration", "text": "3 days" },
+                { "text": ", so keep your receipt." }
+              ]
             }
           ]
         }
@@ -682,6 +746,17 @@
               "children": [
                 {
                   "text": "Waves on the west coast get very high during the rainy and typhoon season. Skip swimming and boat tours when there's a weather advisory."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The Cape Santiago Lighthouse tower is old and rusted, and climbing its stairs has been prohibited since around "
+                },
+                { "type": "date", "text": "2023" },
+                {
+                  "text": ". You'll be looking mainly at the lighthouse keeper's quarters exhibit and the views from outside, so check the latest notices to see whether it has reopened."
                 }
               ]
             }

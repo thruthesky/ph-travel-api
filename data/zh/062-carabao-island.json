@@ -47,7 +47,7 @@
     "type": "airport",
     "label": "最近机场",
     "icon": "flight",
-    "text": "卡蒂克兰机场 (MPH)",
+    "text": "卡蒂克兰戈多弗雷多·P·拉莫斯机场 (MPH)",
     "code": "MPH"
   },
   "image": {
@@ -63,17 +63,10 @@
     "items": [
       {
         "type": "image",
-        "url": "images/062-carabao-island-2.webp",
+        "url": "images/062-carabao-island-4.webp",
         "alt": "卡拉包岛",
-        "credit": "McNeil Gaila / CC BY-SA 4.0 / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Limbones_Island_2021.jpg"
-      },
-      {
-        "type": "image",
-        "url": "images/062-carabao-island-3.webp",
-        "alt": "卡拉包岛",
-        "credit": "USAID Biodiversity & Forestry / Public domain / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Philippines;_Nagkakaisang_Tribu_ng_Palawan)_(40248017142).jpg"
+        "credit": "Alexey Komarov / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Boracay_Island,_Philippines_-_panoramio.jpg"
       }
     ]
   },
@@ -241,6 +234,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "长滩岛出发当日往返",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "上午8点",
+                      "children": [
+                        { "text": "从长滩岛一站附近包方卡船出发（约" },
+                        { "type": "duration", "text": "40分钟~1小时" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "上午9点", "children": [{ "text": "在科丁科丁角悬崖跳水并体验水下洞穴游泳" }] },
+                    { "time": "上午10点30分", "children": [{ "text": "探索大教堂洞穴（当地向导陪同）" }] },
+                    { "time": "中午12点", "children": [{ "text": "在白沙滩餐厅享用午餐并下海游泳" }] },
+                    { "time": "下午2点", "children": [{ "text": "在岛屿周围的珊瑚区浮潜" }] },
+                    { "time": "下午3点30分", "children": [{ "text": "趁风变大之前返回长滩岛" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "包方卡船的费用会事先把往返和等候时间计算在内。若想连大雅台观景台的夕阳一起看，回程会天黑，因此在岛上住一晚更安全。" }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -269,6 +291,14 @@
                     { "text": "。卡蒂克兰机场离港口更近，更为方便；若在卡利博机场降落，还需再乘厢型车约" },
                     { "type": "duration", "text": "1小时30分钟~2小时" },
                     { "text": "才能到达卡蒂克兰。从宿务也有直飞卡蒂克兰、卡利博的航班。" }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从克拉克机场每天也有2~3班飞卡蒂克兰的直飞航班，约需" },
+                    { "type": "duration", "text": "1小时15分钟" },
+                    { "text": "，从马尼拉北部或安赫莱斯出发时很方便。" }
                   ]
                 }
               ]
@@ -359,6 +389,18 @@
             { "text": "期间经过这一带，请为行程预留余地。若与附近卡利博的阿提阿提汉节（" },
             { "text": "1月", "type": "date" },
             { "text": "第三周）结合安排，还能一并感受班乃岛的节庆氛围。" }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "各时期一览",
+          "icon": "calendar_month",
+          "columns": ["时期", "天气", "旅行要点"],
+          "rows": [
+            ["11月~12月", "旱季开始", "旱季旅行季的开端"],
+            ["1月~4月", "旱季，海面平静·天空晴朗", "适合乘方卡船移动、悬崖跳水——1月有阿蒂阿蒂汉节"],
+            ["5月", "旱季，非常炎热", "海水颜色最美"],
+            ["6月~10月", "雨季，西侧海面浪大", "方卡船常停航——台风集中在7~11月"]
           ]
         }
       ]

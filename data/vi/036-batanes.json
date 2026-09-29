@@ -278,21 +278,21 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "09:00",
+                      "time": "11:30",
                       "children": [
                         { "text": "Đến sân bay Basco, kiểm tra đăng ký khách rồi nhận phòng" }
                       ]
                     },
                     {
-                      "time": "11:00",
+                      "time": "12:30",
                       "children": [
                         {
                           "text": "Dạo quanh Nhà thờ Santo Domingo và quảng trường trung tâm Basco"
                         }
                       ]
                     },
-                    { "time": "12:00", "children": [{ "text": "Ăn trưa món nhà làm kiểu Ivatan" }] },
-                    { "time": "14:00", "children": [{ "text": "Đồi Naidi và hải đăng Basco" }] },
+                    { "time": "13:00", "children": [{ "text": "Ăn trưa món nhà làm kiểu Ivatan" }] },
+                    { "time": "14:30", "children": [{ "text": "Đồi Naidi và hải đăng Basco" }] },
                     {
                       "time": "16:30",
                       "children": [{ "text": "Dạo biển Basco, ngắm hoàng hôn ở đồi hải đăng" }]
@@ -439,15 +439,43 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Đây gần như là phương tiện thực tế duy nhất. PAL Express khai thác đường bay Manila–Basco (BSO) hằng ngày, thời gian bay khoảng "
+                      "text": "Trên thực tế đây là phương tiện thực tế duy nhất. Đường bay Manila – Basco của PAL Express đã kết thúc vào "
                     },
-                    { "type": "duration", "text": "1 giờ 30 – 1 giờ 45 phút" },
-                    { "text": ". Giá vé một chiều dao động rất lớn, từ khoảng " },
+                    { "type": "date", "text": "tháng 10 năm 2025" },
+                    {
+                      "text": ", nên hiện nay đường bay Clark – Basco (BSO) khai thác hằng ngày, thời gian bay khoảng "
+                    },
+                    { "type": "duration", "text": "1 giờ 15 phút" },
+                    { "text": ". Giá vé một chiều chênh lệch lớn, từ khoảng " },
                     { "type": "price", "text": "₱4,000" },
                     { "text": " vào đợt khuyến mãi đến hơn " },
                     { "type": "price", "text": "₱15,000" },
                     {
-                      "text": " vào mùa cao điểm, nên việc đặt vé trước vài tháng là bắt buộc. Tùy thời điểm, còn có chuyến bay nhỏ xuất phát từ Clark hoặc nối với Tuguegarao (Cagayan), vì vậy hãy kiểm tra thông tin chuyến bay mới nhất."
+                      "text": " vào mùa cao điểm, nên bắt buộc phải đặt trước vài tháng. Hãy kiểm tra thông tin chuyến bay mới nhất."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Từ Manila, đi xe buýt P2P đến Sân bay quốc tế Clark từ Nhà ga 3 NAIA, PITX, Cubao,... (khoảng "
+                    },
+                    { "type": "duration", "text": "2 giờ 30 phút – 3 giờ" },
+                    { "text": ", một chiều khoảng " },
+                    { "type": "price", "text": "₱550~630" },
+                    { "text": "). Chuyến đi Basco xuất phát khoảng " },
+                    { "type": "time", "text": "10 giờ sáng" },
+                    {
+                      "text": ", nên để tránh kẹt xe buổi sáng ở Manila, an toàn nhất là ở lại Clark hoặc Angeles từ hôm trước."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Từ Bắc Luzon cũng có thể đi các hãng hàng không nhỏ. Sky Pasada bay đến Basco từ Laoag, Tuguegarao và Binalonan (Pangasinan), còn Fliteline Airways bay từ Tuguegarao. Đây là máy bay nhỏ ít ghế nên hết vé sớm và giới hạn hành lý rất nghiêm, hãy kiểm tra điều kiện khi đặt. Rất tiện khi kết hợp chuyến đi Bắc Ilocos (Pagudpud, Laoag) với Batanes."
                     }
                   ]
                 }
@@ -548,6 +576,29 @@
               "text": ", du khách trong nước đông nhất, nên đặt vé máy bay và chỗ ở trước ít nhất 3 tháng để an toàn."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Gió mùa đông bắc, khoảng 15–20 độ, mưa và gió mạnh",
+              "Thời tiết se lạnh — thuyền đi Sabtang và Itbayat thường bị hủy"
+            ],
+            [
+              "Tháng 3 – tháng 6",
+              "Gió và sóng dịu bớt, trời quang",
+              "Máy bay và thuyền ổn định — mùa cao điểm tháng 4–5, đặt trước 3 tháng"
+            ],
+            [
+              "Tháng 7 – tháng 10",
+              "Mùa bão",
+              "Máy bay bị hủy nhiều ngày — chừa dư 2–3 ngày trong lịch trình"
+            ]
+          ]
         }
       ]
     },
@@ -563,7 +614,7 @@
           "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
           "items": [
             {
-              "label": "Máy bay Manila–Basco",
+              "label": "Chuyến bay Clark – Basco",
               "price": "Một chiều khoảng ₱4,000–15,000",
               "note": "Chênh lệch lớn tùy thời điểm và lúc đặt vé"
             },
@@ -807,7 +858,7 @@
               "place": "pagudpud",
               "children": [
                 {
-                  "text": "Khu nghỉ dưỡng bãi biển cực bắc Luzon, đến được bằng máy bay qua Manila và đường bộ."
+                  "text": "Khu nghỉ dưỡng biển ở cực bắc Luzon, có thể nối tiếp bằng máy bay nhỏ Laoag – Basco (Sky Pasada)."
                 }
               ]
             },

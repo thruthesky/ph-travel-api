@@ -36,8 +36,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 12.5413 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.1044 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 12.5388 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.1033 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -411,6 +411,23 @@
                         { "type": "price", "text": "₱100–150" },
                         { "text": "." }
                       ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Many buses go only as far as Sorsogon City. By DLTB, Cubao to the Sorsogon Central Terminal takes about "
+                        },
+                        { "type": "duration", "text": "14 hours" },
+                        { "text": " and costs about " },
+                        { "type": "price", "text": "₱1,275–1,504" },
+                        {
+                          "text": ", and most depart in the evening and arrive the next morning. Philtranco, which ran this route for a long time, stopped service from "
+                        },
+                        { "type": "date", "text": "March 30, 2026" },
+                        {
+                          "text": ", so use other companies such as DLTB, Peñafrancia, and Isarog. Fares rise from time to time with fuel-cost changes, so check when you book."
+                        }
+                      ]
                     }
                   ]
                 }
@@ -497,11 +514,13 @@
                     {
                       "children": [
                         {
-                          "text": "Ferries to Matnog run several times a day from Allen or San Isidro port in Northern Samar, taking about "
+                          "text": "Car ferries to Matnog run several times a day from Allen or San Isidro port in Northern Samar, taking about "
                         },
-                        { "type": "duration", "text": "1 hour–1 hour 30 minutes" },
+                        { "type": "duration", "text": "1 hour 30 minutes–2 hours" },
+                        { "text": ", and the passenger fare is about " },
+                        { "type": "price", "text": "₱190–390" },
                         {
-                          "text": ". It's a good stop on the way back to Luzon after visiting Samar, including Biri Island."
+                          "text": ". It's a good stop on the way over to Luzon after a Samar trip such as Biri Island."
                         }
                       ]
                     }
@@ -553,6 +572,29 @@
             {
               "text": ", domestic Filipino travelers increase sharply, so boats and camping spots fill up fast. Visit on a weekday if you want a quiet beach."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Northeast monsoon, frequent rain in southern Bicol",
+              "Many days of high waves in the strait"
+            ],
+            [
+              "March–May",
+              "Calm and clear sea, 30–33℃",
+              "Best for swimming — boats and camping are crowded on Holy Week and school-holiday weekends"
+            ],
+            [
+              "June–October",
+              "Frequent rain, typhoon season from August",
+              "Boats stop — traffic at Matnog port is congested with vehicles"
+            ]
           ]
         }
       ]

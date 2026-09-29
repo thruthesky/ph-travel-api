@@ -39,8 +39,8 @@
     "items": ["Crater lake", "T'boli people", "Camping", "Trekking", "Mount Melibengoy"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 6.1133 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.8917 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 6.1008 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.8885 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -557,6 +557,30 @@
               "text": " at night and dawn, feeling even colder with wind. The rest period and reopening dates change every year, so be sure to check the latest notices from the T'boli tourism office."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "January–February",
+              "Closed for the rest period at the start of the year",
+              "Closed for ecosystem recovery — dates vary each year"
+            ],
+            [
+              "March–May",
+              "Little rain and forest paths less muddy",
+              "Best for trekking — around the March reopening and the Seslong Festival"
+            ],
+            ["June–October", "Frequent afternoon rain", "Trails muddy, fog hides the lake view"],
+            [
+              "November–December",
+              "20–24℃ by day, 12–16℃ at night",
+              "Check the T'boli tourism office notice for rest-period dates"
+            ]
+          ]
         }
       ]
     },
@@ -736,6 +760,21 @@
           "ordered": false,
           "icon": "error",
           "items": [
+            {
+              "children": [
+                { "text": "A magnitude 7.8 earthquake off Sarangani on " },
+                { "text": "June 8, 2026", "type": "date" },
+                {
+                  "text": " triggered landslides on Mount Melibengoy and the Salacafe course, and the DENR Region 12 office suspended visits and trekking to Lake Holon until further notice. Earlier, in "
+                },
+                { "text": "April", "type": "date" },
+                { "text": ", the lake also closed for about " },
+                { "text": "2 weeks", "type": "duration" },
+                {
+                  "text": " because of fighting between the army and rebels in a nearby village, so make your plans only after confirming reopening and safety notices."
+                }
+              ]
+            },
             {
               "children": [
                 {

@@ -272,7 +272,7 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "15:00",
+                      "time": "13:00",
                       "children": [{ "text": "Làm thủ tục lên tàu tại cảng Iloilo" }]
                     },
                     {
@@ -372,6 +372,26 @@
                       "text": "Vì mỗi chiều tàu chỉ chạy khoảng 1 chuyến mỗi tuần, bạn cần lên lịch trình theo ngày tàu đến và tàu rời trước tiên. Nếu đến từ Iloilo rồi rời đi đến Puerto Princesa, chuyến đi sẽ nối liền tự nhiên với hành trình khám phá Palawan."
                     }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Theo lịch của Montenegro Lines năm 2026, tàu từ Iloilo rời bến vào thứ Bảy lúc "
+                    },
+                    { "type": "time", "text": "5 giờ chiều" },
+                    {
+                      "text": " và đến Cuyo vào sáng sớm Chủ nhật, còn tàu về Iloilo rời Cuyo vào thứ Tư lúc "
+                    },
+                    { "type": "time", "text": "3 giờ chiều" },
+                    {
+                      "text": ". Nếu đi khứ hồi Iloilo, bạn sẽ ở lại Cuyo 3 đêm, dư ra một ngày so với lịch trình này, có thể dùng để đi thêm một ngày tour đảo hoặc nghỉ ngơi ở bãi biển Kapsan. Tàu đi Puerto Princesa nối tiếp rời đi ngay lúc "
+                    },
+                    { "type": "time", "text": "2 giờ chiều" },
+                    {
+                      "text": " Chủ nhật khi tàu từ Iloilo vừa đến, nên nếu đi từ Iloilo sang Palawan, bạn chỉ có thể dạo nửa ngày hoặc phải ở lại một tuần chờ chuyến tàu tuần sau."
+                    }
+                  ]
                 }
               ]
             }
@@ -420,6 +440,42 @@
                       "children": [
                         {
                           "text": "Có những thời điểm các hãng khác như Milagrosa cũng khai thác tuyến này, nhưng ngày chạy và giá vé thường thay đổi tùy thời tiết và hãng tàu, nên bạn nhất định phải kiểm tra lịch trình mới nhất."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Ví dụ lịch tháng 9–10 năm 2026: rời Iloilo thứ Bảy " },
+                        { "type": "time", "text": "17:00" },
+                        { "text": " → đến Cuyo Chủ nhật " },
+                        { "type": "time", "text": "05:00" },
+                        { "text": " và rời đi " },
+                        { "type": "time", "text": "14:00" },
+                        { "text": " → đến Puerto Princesa thứ Hai " },
+                        { "type": "time", "text": "06:00" },
+                        { "text": "; tàu về rời Puerto Princesa thứ Ba " },
+                        { "type": "time", "text": "14:00" },
+                        { "text": " → đến Cuyo thứ Tư " },
+                        { "type": "time", "text": "06:00" },
+                        { "text": " và rời đi " },
+                        { "type": "time", "text": "15:00" },
+                        { "text": " → đến Iloilo thứ Năm " },
+                        { "type": "time", "text": "03:00" },
+                        {
+                          "text": ". Giờ khởi hành thường thay đổi theo tuần nên hãy xem thông báo của hãng tàu."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Hành khách phải có mặt tại cảng trước giờ khởi hành " },
+                        { "type": "duration", "text": "4 giờ" },
+                        { "text": ". Vé một chiều Cuyo–Puerto Princesa hạng thường khoảng " },
+                        { "type": "price", "text": "₱2,340" },
+                        { "text": ", hạng máy lạnh khoảng " },
+                        { "type": "price", "text": "₱3,040" },
+                        {
+                          "text": ", và học sinh, người cao tuổi, người khuyết tật, trẻ em được giảm giá khi xuất trình giấy tờ tùy thân."
                         }
                       ]
                     }
@@ -530,6 +586,46 @@
             { "text": "ngày 28 tháng 8", "type": "date" },
             { "text": " — ngày lễ thánh Augustinô — thời điểm chỗ ở thường hết phòng sớm." }
           ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Ngay cả đầu " },
+            { "type": "date", "text": "tháng 11" },
+            { "text": " vốn được coi là mùa khô, bão vẫn có thể đi qua. Vào " },
+            { "type": "date", "text": "ngày 4 tháng 11 năm 2025" },
+            {
+              "text": ", bão Tino (Kalmaegi) đã đổ bộ vào Magsaysay thuộc quần đảo Cuyo. Nếu đi vào cuối thu, nhất định hãy kiểm tra dự báo bão của PAGASA trước khi đi."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11",
+              "Mùa khô nhưng có thể có bão",
+              "Từng có bão đổ bộ vào đầu tháng — kiểm tra dự báo PAGASA trước khi đi"
+            ],
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, gió đông bắc mạnh",
+              "Tàu có thể bị trễ hoặc hủy — mùa chơi kite và lướt ván buồm"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, biển lặng nhất",
+              "Tốt nhất cho tour đảo và những chuyến tàu dài"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, mưa rào và bão",
+              "Nên dự phòng nhiều ngày — chỗ nghỉ hết sớm quanh ngày lễ 28 tháng 8"
+            ]
+          ]
         }
       ]
     },
@@ -556,8 +652,8 @@
             },
             {
               "label": "Phà Ro-Ro Cuyo–Puerto Princesa",
-              "price": "Khoảng ₱1,800–2,500",
-              "note": "Một chiều, khoảng 15 giờ"
+              "price": "Khoảng ₱2,340–3,040",
+              "note": "Một chiều, hạng thường–hạng máy lạnh, khoảng 16 giờ"
             },
             { "label": "Tricycle", "price": "Khoảng ₱20–50", "note": "1 lượt trong thị trấn" },
             { "label": "Thuê xe máy", "price": "Khoảng ₱500–700", "note": "1 ngày" },

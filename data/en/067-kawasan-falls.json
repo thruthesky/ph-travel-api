@@ -34,8 +34,8 @@
     "items": ["Canyoneering", "Turquoise water", "Cliff jumping", "River trekking", "Near Moalboal"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.7, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.8 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.3667 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.802 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.3739 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -459,6 +459,49 @@
               "text": "), the falls themselves are sometimes closed. If visiting in the rainy season, be sure to check whether it rained the day before and whether the operator is running normally. On weekends and during the Easter and Christmas holidays, local visitor numbers rise sharply, so an early morning visit is recommended."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "After Typhoon Odette badly damaged the canyon in " },
+            { "text": "December 2021", "type": "date" },
+            { "text": ", Cebu Province temporarily closed the falls in " },
+            { "text": "June 2023", "type": "date" },
+            {
+              "text": " to remove hazardous structures and clear out unlicensed canyoneering operators, and reopened them in "
+            },
+            { "text": "October 2023", "type": "date" },
+            { "text": " after guide training and other improvements. In " },
+            { "text": "June 2026", "type": "date" },
+            { "text": ", the provincial government allocated a renovation budget of " },
+            { "text": "₱110,000,000", "type": "price" },
+            {
+              "text": " for environmental restoration and better safety facilities, so some areas may be restricted during construction."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, clear water",
+              "Stable canyoneering — visit early in the morning over the Christmas holidays"
+            ],
+            [
+              "March–May",
+              "Dry season, strong sun",
+              "Water color at its most vivid — crowded, especially over the Easter holidays"
+            ],
+            [
+              "June–November",
+              "Rainy and typhoon season (August–November)",
+              "Muddy water and higher levels — canyoneering suspended and closure days, check operations"
+            ]
+          ]
         }
       ]
     },
@@ -660,6 +703,19 @@
               "children": [
                 {
                   "text": "Age limits (roughly 7–10 years and up) and health requirements vary by operator, so check in advance if bringing children."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "The regulated canyoneering fee was " },
+                { "type": "price", "text": "₱1,500" },
+                { "text": " per person as of " },
+                { "type": "date", "text": "2023" },
+                { "text": " (of which " },
+                { "type": "price", "text": "₱200" },
+                {
+                  "text": " goes to the local government). With the provincial government's renovation project underway, fees, courses, and open areas may change, so check the latest terms with a registered operator."
                 }
               ]
             }

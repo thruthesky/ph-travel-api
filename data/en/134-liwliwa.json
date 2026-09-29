@@ -75,7 +75,19 @@
     "credit": "Iloilo Wanderer / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Beach_at_San_Felipe_Zamabales.JPG"
   },
-  "gallery": { "type": "carousel", "label": "Photos", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "Photos",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/134-liwliwa-2.webp",
+        "alt": "Liwliwa",
+        "credit": "Iloilo Wanderer / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Beach_San_Felipe_Zambales.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -472,6 +484,39 @@
               "text": ", and accommodations fill up during summer break and Holy Week, so book ahead. On days with a typhoon warning, the coastal road and beach access may be restricted."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "During Holy Week " },
+            { "text": "2026", "type": "date" },
+            {
+              "text": ", more than 10,000 travelers flocked to San Felipe, and about 150 accommodations on the beach were almost fully booked around Good Friday, and on Maundy Thursday several jellyfish appeared on the beach and authorities issued a swimming caution. During Holy Week and summer-vacation weekends, book accommodation weeks ahead, and check the notices posted on the beach and your accommodation's announcements before you go in the water."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Cool, less rain and moderate waves",
+              "Easiest for combining surfing and travel"
+            ],
+            [
+              "March–May",
+              "Clear and calm, close to 35℃ at midday",
+              "Good for swimming and camping, surfing is hard — book for Holy Week"
+            ],
+            [
+              "June–October",
+              "Rainy season, frequent rain and possible typhoons",
+              "Best waves in August–October — follow the instructors' judgment when a typhoon approaches"
+            ]
+          ]
         }
       ]
     },
@@ -492,7 +537,7 @@
               "note": "Victory Liner express"
             },
             {
-              "label": "Tricycle",
+              "label": "By tricycle",
               "price": "About ₱40–50 per person",
               "note": "Shared ride, market to beach"
             },
@@ -643,6 +688,19 @@
                   "text": "Even during surf season, some days have no waves at all. Check a surf forecast app or ask your accommodation ahead of time, and stay flexible enough to switch your plans to the waterfall or island hopping if there's no swell."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "There is no public transport to Anghalo Falls, so it is common to hire a tricycle round trip from Liwliwa, at about "
+                },
+                { "type": "price", "text": "₱500" },
+                {
+                  "text": " per tricycle including waiting time. Near the falls' entrance you can also ride a carabao cart that carries up to six people (about "
+                },
+                { "type": "price", "text": "₱150" },
+                { "text": ")." }
+              ]
             }
           ]
         }
@@ -697,7 +755,20 @@
                 }
               ]
             },
-            { "children": [{ "text": "Don't leave valuables unattended in beach huts or tents." }] }
+            { "children": [{ "text": "Don't leave valuables unattended in beach huts or tents." }] },
+            {
+              "children": [
+                { "text": "The Liwliwa coast is heavily eroded, and since around " },
+                { "type": "date", "text": "July 2025" },
+                {
+                  "text": " waves have swept away huts and buildings built close to the beach, and in "
+                },
+                { "type": "date", "text": "August–September 2026" },
+                {
+                  "text": " part of the seawall and a temporary rock embankment collapsed, directly damaging nine resorts and forcing several to close temporarily. If you go in the rainy season, check ahead that your booked accommodation is operating and what condition the beach is in."
+                }
+              ]
+            }
           ]
         }
       ]

@@ -458,6 +458,21 @@
                           "text": "Không thể đến bằng tàu thuê riêng hay thuyền banca thông thường, và việc vào công viên mà không có giấy phép của Văn phòng Quản lý Công viên (TMO) sẽ bị xử phạt."
                         }
                       ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Phí bảo tồn khi vào công viên là " },
+                        { "type": "price", "text": "₱5,000" },
+                        {
+                          "text": "/người (miễn cho trẻ từ 12 tuổi trở xuống), chỉ nhận bằng peso và do đơn vị khai thác tàu nộp thay khi xin giấy phép vào công viên. Danh sách các tàu liveaboard được cấp phép và quy định có thể xem tại "
+                        },
+                        {
+                          "type": "link",
+                          "text": "trang web chính thức của Công viên Tự nhiên Rạn san hô Tubbataha",
+                          "url": "https://tubbatahareefs.org/"
+                        },
+                        { "text": "." }
+                      ]
                     }
                   ]
                 }
@@ -531,6 +546,35 @@
             { "type": "date", "text": "tháng 4–5" },
             { "text": " thường được đặt kín chỗ trước 9–12 tháng." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 1–tháng 2",
+              "Trước mùa",
+              "Công viên đóng cửa — ngày mở cửa được thông báo hằng năm"
+            ],
+            [
+              "Tháng 3",
+              "Mở cửa, vẫn còn sóng",
+              "Mở cửa vào khoảng giữa tháng 3 — thỉnh thoảng có sóng"
+            ],
+            [
+              "Tháng 4–tháng 5",
+              "Biển lặng, tầm nhìn tốt",
+              "Cao điểm — các chuyến tàu hết chỗ trước 9–12 tháng"
+            ],
+            [
+              "Tháng 6",
+              "Đóng cửa vào khoảng giữa tháng 6, thời tiết bất ổn",
+              "Thỉnh thoảng có báo cáo nhìn thấy cá nhám voi và cá đuối manta"
+            ],
+            ["Tháng 7–tháng 12", "Ngoài mùa", "Công viên đóng cửa"]
+          ]
         }
       ]
     },
@@ -557,8 +601,8 @@
             },
             {
               "label": "Phí bảo tồn công viên (Conservation Fee)",
-              "price": "Khoảng US$100–150",
-              "note": "Áp dụng cho thợ lặn nước ngoài, nộp qua công ty tàu"
+              "price": "Khoảng ₱5,000",
+              "note": "Tính theo người, miễn cho trẻ từ 12 tuổi trở xuống, nộp qua đơn vị khai thác tàu"
             },
             {
               "label": "Khí Nitrox",
@@ -729,6 +773,13 @@
                   "text": "Khi thời tiết xấu, lịch trình có thể thay đổi hoặc một số điểm lặn bị hủy, và việc hoàn tiền trong trường hợp này có thể bị giới hạn, nên hãy kiểm tra kỹ điều khoản đặt chỗ."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trong công viên cấm sử dụng đồ nhựa dùng một lần, và muốn bay drone phải xin giấy phép riêng từ Văn phòng Quản lý Công viên (TMO)."
+                }
+              ]
             }
           ]
         },
@@ -789,7 +840,9 @@
               "title": "Coron",
               "place": "coron",
               "children": [
-                { "text": "Kết nối bằng đường hàng không, thánh địa lặn xác tàu đắm Thế chiến II" }
+                {
+                  "text": "Kết nối từ Puerto Princesa bằng phà 2GO (mỗi tuần một chuyến) hoặc bằng máy bay quá cảnh Manila hoặc Clark, thánh địa lặn xác tàu đắm Thế chiến II"
+                }
               ]
             }
           ]

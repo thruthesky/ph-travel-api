@@ -36,7 +36,7 @@
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.6, "max": 5 },
   "latitude": { "type": "latitude", "label": "Latitude", "value": 17.2302 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.0777 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.0858 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -371,6 +371,17 @@
                     },
                     {
                       "children": [
+                        { "text": "Coda Lines buses to Bontoc depart from Cubao between " },
+                        { "type": "time", "text": "8 PM and 10:30 PM" },
+                        {
+                          "text": ", and the return Manila-bound buses from Bontoc depart between "
+                        },
+                        { "type": "time", "text": "11:30 AM and 5 PM" },
+                        { "text": ". In peak season seats fill quickly, so book in advance." }
+                      ]
+                    },
+                    {
+                      "children": [
                         {
                           "text": "If going via Baguio, a bus from Baguio to Bontoc along Halsema Highway takes about "
                         },
@@ -522,6 +533,29 @@
               "text": ", rain is frequent, and the Bontoc–Tinglayan mountain road is often closed by landslides. Roads can stay blocked for several days after a typhoon, so allow plenty of extra time in your schedule during this period. Keep in mind, too, that a tattoo getting wet in the rain can slow its healing."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, low 10s °C at dawn from December to February",
+              "Clear skies — tattoo waiting times get longer over the year-end holidays"
+            ],
+            [
+              "March–May",
+              "Dry season",
+              "Terraces are green — wait of more than a day during Holy Week"
+            ],
+            [
+              "June–October",
+              "Rainy season, frequent rain",
+              "Bontoc–Tinglayan mountain road closed by landslides — leave plenty of time"
+            ]
+          ]
         }
       ]
     },
@@ -572,7 +606,7 @@
               "note": "Provided by the homestay"
             },
             {
-              "label": "Tattooing tool souvenir",
+              "label": "A tattooing tool as a souvenir",
               "price": "About ₱150",
               "note": "Bamboo stick and thorn"
             }
@@ -790,6 +824,18 @@
               "children": [
                 {
                   "text": "In downtown Bontoc, a small museum displaying Cordillera indigenous everyday tools and old photographs."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Maligcong Rice Terraces",
+              "place": "maligcong-rice-terraces",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "30 minutes" },
+                {
+                  "text": " by jeepney from Bontoc, where you can see stone-walled terraces and the sea-of-clouds sunrise on Mount Kupapey, so it is a good stop on your way there or back."
                 }
               ]
             }

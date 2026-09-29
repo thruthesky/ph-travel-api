@@ -34,8 +34,8 @@
     "items": ["River cruise", "Buffet lunch", "Jungle", "Fireflies", "Spanish colonial church"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.6009 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.0088 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.6354 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.0298 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -291,9 +291,7 @@
                     {
                       "time": "1:00 PM",
                       "children": [
-                        {
-                          "text": "Afterward: head on to the Chocolate Hills or the Tarsier Sanctuary"
-                        }
+                        { "text": "Then head to the Chocolate Hills or the Tarsier Sanctuary" }
                       ]
                     }
                   ]
@@ -454,6 +452,29 @@
             { "text": " or going after " },
             { "type": "time", "text": "2:00 PM" },
             { "text": " is much more relaxed." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–January",
+              "Dry season, emerald river water",
+              "Waits at the ticket booth over the Christmas holidays — take the 10 AM first boat or go after 2 PM"
+            ],
+            [
+              "February–May",
+              "Dry season, hot at midday",
+              "River and forest colors most vivid February–April — crowded during Holy Week"
+            ],
+            [
+              "June–November",
+              "Rainy season, river water turns brown",
+              "Cruises stop after heavy rain — fireflies near the end of the rainy season"
+            ]
           ]
         }
       ]
@@ -658,6 +679,17 @@
               "children": [
                 {
                   "text": "Inside the church, covering your shoulders and knees is customary, and you should refrain from tourist photography during Mass."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Some people take photos of you at the pier and on the boat and then quote an inflated price of "
+                },
+                { "type": "price", "text": "₱2,000" },
+                {
+                  "text": " or more for the prints or files. If you don't want them, politely decline from the start, and if you do plan to buy, confirm the price first."
                 }
               ]
             }

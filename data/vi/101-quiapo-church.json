@@ -416,14 +416,12 @@
                     {
                       "children": [
                         {
-                          "text": "Cách thuận tiện nhất là đến ga Carriedo của tuyến LRT 1. Từ ga đi bộ dọc phố Carriedo đến nhà thờ mất khoảng "
+                          "text": "Cách thuận tiện nhất là ga Carriedo của tuyến LRT 1. Từ ga đi bộ dọc phố Carriedo đến nhà thờ mất khoảng "
                         },
                         { "type": "duration", "text": "5–10 phút" },
-                        { "text": ", giá vé khoảng " },
-                        { "type": "price", "text": "₱15–40" },
-                        {
-                          "text": " tùy ga xuất phát. Từ ga EDSA hoặc ga Baclaran ở Pasay mất khoảng "
-                        },
+                        { "text": ", giá vé tùy ga xuất phát, khoảng " },
+                        { "type": "price", "text": "₱16–40" },
+                        { "text": ". Từ ga EDSA hoặc ga Baclaran ở Pasay mất khoảng " },
                         { "type": "duration", "text": "25–30 phút" },
                         { "text": "." }
                       ]
@@ -435,6 +433,19 @@
                         },
                         { "type": "duration", "text": "15–20 phút" },
                         { "text": " và phải băng qua những con phố đông đúc." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Nếu dùng thẻ giao thông beep, giá sẽ rẻ hơn một chút so với vé một chiều và bạn không phải xếp hàng ở quầy vé. Giá thấp nhất là "
+                        },
+                        { "type": "price", "text": "₱16" },
+                        { "text": " với thẻ beep và " },
+                        { "type": "price", "text": "₱20" },
+                        {
+                          "text": " với vé một chiều; bạn có thể mua và nạp thẻ tại quầy vé hoặc máy bán vé tự động ở ga."
+                        }
                       ]
                     }
                   ]
@@ -484,11 +495,24 @@
                     {
                       "children": [
                         {
-                          "text": "Quiapo là trung tâm của nhiều tuyến xe jeepney ở Manila, nên bạn dễ dàng bắt xe mang biển \"Quiapo\" từ Ermita, Malate, Santa Mesa, Quezon City và nhiều nơi khác. Giá vé cơ bản khoảng "
+                          "text": "Quiapo là trung tâm của các tuyến jeepney Manila, nên có jeepney gắn biển 'Quiapo' chạy đến từ Ermita, Malate, Santa Mesa, Quezon City và nhiều nơi khác. Giá vé cơ bản khoảng "
                         },
-                        { "type": "price", "text": "₱13–15" },
+                        { "type": "price", "text": "₱14–17" },
                         {
-                          "text": ". Vì các tuyến khá phức tạp nên nếu là lần đầu, bạn nên đi LRT hoặc Grab."
+                          "text": ". Tuyến đường khá phức tạp nên nếu là lần đầu, chúng tôi khuyên bạn đi LRT hoặc Grab."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Kể từ " },
+                        { "type": "date", "text": "ngày 28 tháng 9 năm 2026" },
+                        { "text": ", giá vé cơ bản của jeepney đã tăng lên " },
+                        { "type": "price", "text": "₱14" },
+                        { "text": " với xe kiểu cũ và " },
+                        { "type": "price", "text": "₱17" },
+                        {
+                          "text": " với xe kiểu mới (jeepney hiện đại hóa, có điều hòa). Theo lệ địa phương, bạn nên chuẩn bị tiền lẻ và chuyền tiền qua tay các hành khách ngồi phía trước để đưa cho tài xế."
                         }
                       ]
                     }
@@ -566,6 +590,34 @@
               "text": " và Tuần Thánh. Nếu muốn trải nghiệm những sự kiện này, đứng quan sát từ xa sẽ an toàn hơn; còn nếu muốn tham quan nhà thờ trong yên tĩnh, hãy chọn buổi sáng ngày thường, tránh thứ Sáu và các ngày lễ."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, tương đối mát mẻ",
+              "Dễ chịu nhất — lễ rước Traslación ngày 9 tháng 1, đoàn rước tạ ơn ngày 31 tháng 12"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Cuối mùa khô, 34–36℃ vào tháng 4–5",
+              "Nên tham quan vào sáng sớm — số lượng tín hữu cũng tăng mạnh vào Tuần Thánh"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa và mùa bão",
+              "Mưa lớn gây ngập đường khu vực Quiapo và Recto"
+            ],
+            [
+              "Tháng 11",
+              "Giao mùa giữa mùa mưa và mùa khô",
+              "Nếu muốn tham quan yên tĩnh, hãy chọn buổi sáng ngày thường, tránh thứ Sáu và các ngày lễ"
+            ]
+          ]
         }
       ]
     },
@@ -583,7 +635,7 @@
             { "label": "Vào tham quan nhà thờ", "price": "Miễn phí", "note": "Quyên góp tùy tâm" },
             {
               "label": "Tuyến LRT 1",
-              "price": "Khoảng ₱15–40 một chiều",
+              "price": "Một chiều khoảng ₱16–40",
               "note": "Khác nhau tùy chặng và cách thanh toán"
             },
             {

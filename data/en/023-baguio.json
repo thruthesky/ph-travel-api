@@ -412,17 +412,19 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "Victory Liner, JoyBus, and Solid North buses run almost " },
-                        { "type": "duration", "text": "24 hours" },
                         {
-                          "text": " a day from Cubao, Pasay, and other Manila terminals. Using TPLEX, the trip takes about "
+                          "text": "Victory Liner, JoyBus, and Solid North buses run from Cubao, Pasay, PITX, and elsewhere in Manila almost "
                         },
+                        { "type": "duration", "text": "24 hours" },
+                        { "text": " a day. Via the TPLEX it takes about " },
                         { "type": "duration", "text": "4–6 hours" },
-                        { "text": ", with fares around " },
-                        { "type": "price", "text": "₱500–850" },
-                        { "text": " for a regular air-conditioned bus, or " },
-                        { "type": "price", "text": "₱900–1,000" },
-                        { "text": " or more for the more spacious premium/deluxe buses." }
+                        { "text": ", and fares are about " },
+                        { "type": "price", "text": "₱650–850" },
+                        { "text": " for a regular air-conditioned bus, about " },
+                        { "type": "price", "text": "₱750–1,000" },
+                        { "text": " for deluxe, and about " },
+                        { "type": "price", "text": "₱1,000–1,600" },
+                        { "text": " for first-class and premier buses with wider seats." }
                       ]
                     },
                     {
@@ -479,7 +481,11 @@
                     {
                       "children": [
                         {
-                          "text": "Baguio's Loakan Airport has almost no scheduled passenger flights, so it's not a realistic option. If arriving from abroad, landing at Clark International Airport (CRK) and continuing by bus is the closest route."
+                          "text": "Baguio Loakan Airport has had no scheduled passenger flights since the Cebu route was suspended in "
+                        },
+                        { "type": "date", "text": "July 2024" },
+                        {
+                          "text": ", so it is not a realistic option. If you are coming from overseas, landing at Clark International Airport (CRK) and going by bus is the closest."
                         }
                       ]
                     }
@@ -505,12 +511,10 @@
                     {
                       "children": [
                         {
-                          "text": "Jeepney stops for each route cluster at the bottom of Session Road and around the market, costing about "
+                          "text": "Jeepney stops for each route are clustered below Session Road and around the market, and a ride costs about "
                         },
-                        { "type": "price", "text": "₱13–20" },
-                        {
-                          "text": " per ride. Because Baguio is a highland city, there are almost no tricycles."
-                        }
+                        { "type": "price", "text": "₱14–20" },
+                        { "text": ". Because it is highland, there are almost no tricycles." }
                       ]
                     },
                     {
@@ -570,6 +574,29 @@
               "text": " is the rainy season; Baguio is one of the wettest cities in the Philippines. When a typhoon passes, hundreds of millimeters of rain can fall in a day, thick fog sets in, and mountain roads can be blocked by landslides, so check the weather forecast carefully during this period."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Coolest, around 10°C at dawn",
+              "Panagbenga Flower Festival in February — lodging prices rise on festival weekends"
+            ],
+            [
+              "March–May",
+              "Clear and mild",
+              "Peak season with the most tourists — severe crowding during Holy Week"
+            ],
+            [
+              "June–October",
+              "Rainy season, heavy rainfall and thick fog",
+              "Roads blocked by typhoons and landslides — check the forecast"
+            ]
+          ]
         }
       ]
     },
@@ -586,7 +613,7 @@
           "items": [
             {
               "label": "Manila–Baguio bus",
-              "price": "About ₱500–1,000 one way",
+              "price": "About ₱650–1,600 one way",
               "note": "Varies between regular and premium buses"
             },
             {
@@ -727,6 +754,25 @@
                   "text": "Most of the city is a no-smoking zone, and smoking outside designated areas can be fined."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The BenCab Museum is closed on Mondays, Christmas, and New Year's Day, and open Tuesday to Sunday from "
+                },
+                { "type": "time", "text": "9 AM to 6 PM" },
+                { "text": " (last admission " },
+                { "type": "time", "text": "5:30 PM" },
+                { "text": "). General admission is " },
+                { "type": "price", "text": "₱200" },
+                { "text": ", and more information is on the " },
+                {
+                  "type": "link",
+                  "text": "official BenCab Museum website",
+                  "url": "https://bencabmuseum.org/"
+                },
+                { "text": "." }
+              ]
             }
           ]
         }
@@ -790,6 +836,23 @@
                 {
                   "text": "If a taxi driver asks for a flat fare instead of using the meter, it's better to take a different taxi."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Burnham Lake reopened on " },
+                { "type": "date", "text": "September 1, 2026" },
+                {
+                  "text": " after about 11 months of renovation, but some boat operators asked for "
+                },
+                { "type": "price", "text": "₱350–450" },
+                { "text": " for " },
+                { "type": "duration", "text": "30 minutes" },
+                { "text": ", prompting the city to crack down. The city-set fare is " },
+                { "type": "price", "text": "₱250" },
+                { "text": " for " },
+                { "type": "duration", "text": "30 minutes" },
+                { "text": " regardless of boat size, so confirm the price before boarding." }
               ]
             }
           ]

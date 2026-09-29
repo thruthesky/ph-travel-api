@@ -401,19 +401,35 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ bến tàu thành phố Cebu đến Ormoc, các tàu cao tốc như OceanJet, SuperCat chạy nhiều chuyến mỗi ngày, mất khoảng "
+                      "text": "Từ bến ở thành phố Cebu đến Ormoc có tàu cao tốc OceanJet, SuperCat… chạy nhiều chuyến mỗi ngày, mất khoảng "
                     },
-                    { "type": "duration", "text": "2 giờ 30 phút – 3 giờ" },
-                    { "text": " (giá vé khoảng " },
-                    { "type": "price", "text": "₱800–1,300" },
-                    { "text": "). Từ bến gần cảng Ormoc, bắt xe van đi Palompon mất khoảng " },
-                    { "type": "duration", "text": "1 giờ" },
+                    { "type": "duration", "text": "2 tiếng 30 phút–3 tiếng" },
+                    { "text": " (giá khoảng " },
+                    { "type": "price", "text": "₱1,100–1,600" },
+                    { "text": "). Từ bến xe gần cảng Ormoc đi xe van đến Palompon mất khoảng " },
+                    { "type": "duration", "text": "1 tiếng" },
                     {
-                      "text": ". Cũng có các tour ghép hoặc thuê riêng từ đảo Malapascua hay cảng Maya ở phía bắc Cebu đến Kalanggaman, mất khoảng "
+                      "text": ". Cũng có các tour ghép hoặc thuê riêng từ đảo Malapascua hoặc cảng Maya ở bắc Cebu đến Kalanggaman, mất khoảng "
                     },
-                    { "type": "duration", "text": "1 giờ 30 phút – 2 giờ 30 phút" },
+                    { "type": "duration", "text": "1 tiếng 30 phút–2 tiếng 30 phút" },
+                    { "text": " một chiều, và nhất định phải kiểm tra xem đã gồm vé vào đảo chưa." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
                     {
-                      "text": " một chiều, và cần kiểm tra kỹ xem đã bao gồm phí vào cửa hay chưa."
+                      "text": "Cũng có tàu đi thẳng từ Cebu đến Palompon. Tàu cao tốc OceanJet rời Bến số 1 ở Cebu lúc "
+                    },
+                    { "type": "time", "text": "10 giờ sáng" },
+                    { "text": " mỗi ngày, khoảng " },
+                    { "type": "duration", "text": "3 tiếng" },
+                    { "text": " sau đến cảng Palompon (giá khoảng " },
+                    { "type": "price", "text": "₱1,100–1,600" },
+                    { "text": "), và chuyến về Cebu rời Palompon lúc " },
+                    { "type": "time", "text": "1 giờ 30 chiều" },
+                    {
+                      "text": ". Vì đến vào buổi chiều nên lịch trình hợp lý là ngủ lại Palompon vào ngày đầu rồi sáng sớm hôm sau vào đảo. Giờ chạy hay thay đổi và cũng có lúc bị hủy tạm thời, vì vậy hãy kiểm tra thông báo của OceanJet trước khi đi."
                     }
                   ]
                 }
@@ -480,6 +496,29 @@
               "text": " và dịp cuối năm đầu năm mới, số lượng khách mỗi ngày thường kín sớm nên cần đặt chỗ trước vài tuần. Giờ triều xuống khi dải cát lộ ra dài nhất thay đổi theo từng ngày, nên hãy xem lịch thủy triều để canh giờ đến đảo cho phù hợp."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 2",
+              "Gió đông bắc, có ngày sóng buổi chiều cao",
+              "Đi được — dịp cuối năm đầu năm nên đặt trước vài tuần"
+            ],
+            [
+              "Tháng 3–tháng 6",
+              "Biển lặng, trời trong",
+              "Màu bãi cát rõ nhất — dịp Tuần Thánh và nghỉ hè tháng 4–5 nên đặt sớm"
+            ],
+            [
+              "Tháng 7–tháng 11",
+              "Chịu ảnh hưởng của bão và áp thấp",
+              "Có ngày thuyền banca ngừng chạy — xem bảng thủy triều để biết giờ nước ròng"
+            ]
+          ]
         }
       ]
     },
@@ -526,13 +565,18 @@
             },
             {
               "label": "Tàu cao tốc Cebu – Ormoc",
-              "price": "Một chiều khoảng ₱800–1,300",
-              "note": "Khác nhau theo hạng ghế"
+              "price": "Khoảng ₱1,100–1,600 một chiều",
+              "note": "Theo hạng ghế, có thể chưa gồm phụ phí nhiên liệu"
             },
             {
               "label": "Nguyên liệu bữa ăn",
               "price": "Khoảng ₱300–600/người",
               "note": "Mua ở chợ Palompon"
+            },
+            {
+              "label": "Thuê thiết bị lặn ống thở",
+              "price": "Khoảng ₱100–150/bộ",
+              "note": "Thuê trước ở Palompon"
             }
           ]
         },
@@ -641,6 +685,17 @@
                   "text": "Ghế trên thuyền banca thường bị nước bắn vào, nên hãy để thiết bị điện tử và hộ chiếu trong túi chống nước."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Hòn đảo giới hạn khoảng 500 lượt khách mỗi ngày. Sau khi lọt vào danh sách \"50 bãi biển tốt nhất thế giới (World's 50 Best Beaches)\" ở vị trí thứ 25 vào "
+                },
+                { "type": "date", "text": "tháng 4 năm 2026" },
+                { "text": ", lượng người đến càng tăng, và vào mùa cao điểm " },
+                { "type": "date", "text": "tháng 4 đến đầu tháng 5" },
+                { "text": " số chỗ hết sớm, nên hãy đặt trước ít nhất một tháng." }
+              ]
             }
           ]
         }
@@ -720,9 +775,9 @@
               "place": "san-juanico-bridge",
               "children": [
                 { "text": "Khoảng " },
-                { "type": "duration", "text": "3–4 giờ" },
+                { "type": "duration", "text": "3–4 tiếng" },
                 {
-                  "text": " đi xe từ Palompon (đến Tacloban). Đây là cây cầu vượt eo biển dài nhất Philippines, nối liền Leyte và Samar."
+                  "text": " đi ô tô từ Palompon (Tacloban). Cầu bắc qua eo biển với vòm thép đỏ nối Leyte và Samar."
                 }
               ]
             },
@@ -753,6 +808,7 @@
             {
               "type": "card",
               "title": "Hồ Danao (Ormoc)",
+              "place": "lake-danao",
               "children": [
                 { "text": "Khoảng " },
                 { "type": "duration", "text": "1 giờ 30 phút" },

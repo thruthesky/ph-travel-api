@@ -186,7 +186,7 @@
               "title": "Taal Basilica",
               "children": [
                 {
-                  "text": "A massive church built of coral stone and brick, its high arched ceiling and long nave are overwhelming inside. During operating hours you can climb the bell tower for a view over the town and Balayan Bay (a small fee applies)."
+                  "text": "A huge church built of coral stone and brick, with an overwhelming high vaulted ceiling and long nave inside. In the past you could pay a small fee to climb the bell tower and look down on the town and Balayan Bay, but some recent visitors report that access to the tower has been closed, so check on site whether it is open."
                 }
               ]
             },
@@ -287,7 +287,11 @@
                     },
                     {
                       "time": "09:30",
-                      "children": [{ "text": "Tour Taal Basilica, climb the bell tower" }]
+                      "children": [
+                        {
+                          "text": "Tour Taal Basilica (check on site whether the bell tower is open)"
+                        }
+                      ]
                     },
                     {
                       "time": "10:30",
@@ -336,6 +340,49 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Half-day course (as a stop from Tagaytay or Lipa)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Arrive at Taal Basilica and see the church interior and the plaza"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:45",
+                      "children": [
+                        {
+                          "text": "Descend the San Lorenzo Ruiz Steps to Our Lady of Caysasay Church and Santa Lucia Well"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:45",
+                      "children": [
+                        { "text": "Visit either the Villavicencio Mansion or Galeria Taal (about " },
+                        { "type": "price", "text": "₱100" },
+                        { "text": " each, guided explanation included)" }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [
+                        {
+                          "text": "Lunch at a restaurant near the market with longsilog or Taal tapa, and buy longganisa as a souvenir"
+                        }
+                      ]
+                    },
+                    { "time": "13:00", "children": [{ "text": "Depart toward Tagaytay or Lipa" }] }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -358,20 +405,38 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "From bus terminals around Pasay Buendia in Manila, or from PITX, take a bus bound for Lemery, Batangas. It takes about "
+                      "text": "Take a bus bound for Lemery, Batangas from the bus terminals around Buendia in Pasay, Manila, or from PITX. It takes about "
                     },
                     { "type": "duration", "text": "2 hours 30 minutes–3 hours 30 minutes" },
-                    { "text": ", and fares are about " },
-                    { "type": "price", "text": "₱200–300" },
+                    { "text": " and costs about " },
+                    { "type": "price", "text": "₱180–250" },
                     {
-                      "text": ". Getting off at the Lemery terminal or near the Taal junction, it's about a "
+                      "text": ". If you get off at the Lemery terminus or near the Taal junction, a tricycle to the center of Taal town takes about "
                     },
-                    { "type": "duration", "text": "10-minute" },
-                    { "text": " tricycle ride to the town center, costing " },
+                    { "type": "duration", "text": "10 minutes" },
+                    { "text": " and costs " },
                     { "type": "price", "text": "₱50–100" },
-                    { "text": ". A jeepney costs about " },
+                    { "text": ". By jeepney it is only about " },
                     { "type": "price", "text": "₱15–20" },
                     { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "For Lemery, JAM Liner, which passes through Lipa, is the best known, running from the Buendia terminal from "
+                    },
+                    { "type": "time", "text": "4 AM" },
+                    { "text": " to " },
+                    { "type": "time", "text": "8 PM" },
+                    {
+                      "text": ", and also departing from the Cubao terminal. If you tell them when buying your ticket that you are getting off at Taal town, they will drop you at the town entrance on the national highway. Another option is to take an ALPS bus to the SM Lipa Grand Terminal in Lipa and transfer to a modern jeepney bound for Lemery (about "
+                    },
+                    { "type": "price", "text": "₱80" },
+                    { "text": ", about " },
+                    { "type": "duration", "text": "1 hour 30 minutes" },
+                    { "text": ")." }
                   ]
                 }
               ]
@@ -489,6 +554,34 @@
               "text": "If Taal Volcano's alert level rises, volcanic gas warnings may be issued for the lakeside area, so check announcements from the Philippine Institute of Volcanology and Seismology (PHIVOLCS)."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November",
+              "Start of the dry season",
+              "November 11 feast of St. Martin — book lodging and parking ahead"
+            ],
+            [
+              "December–February",
+              "Dry season, low humidity and cool",
+              "Best for walking — Marian river procession in early December"
+            ],
+            [
+              "March–May",
+              "Dry season, 34–35°C at midday",
+              "Start early in the morning — Good Friday flower-cart procession"
+            ],
+            [
+              "June–October",
+              "Rainy season, afternoon showers and typhoon downpours",
+              "Strong winds and heavy rain during typhoons — leave plenty of slack in your schedule"
+            ]
+          ]
         }
       ]
     },
@@ -505,7 +598,7 @@
           "items": [
             {
               "label": "Manila↔Lemery bus",
-              "price": "About ₱200–300 (one way)",
+              "price": "About ₱180–250 (one way)",
               "note": "2 hours 30 minutes–3 hours 30 minutes"
             },
             {
@@ -516,7 +609,7 @@
             {
               "label": "Basilica bell tower",
               "price": "About ₱20–50",
-              "note": "Check operating hours"
+              "note": "Recent visitors report access restrictions, check on site"
             },
             {
               "label": "Heritage-house museum admission",
@@ -658,6 +751,17 @@
                 },
                 { "type": "duration", "text": "1 hour" },
                 { "text": " early for a good spot." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Admission to the Villavicencio Mansion and Galeria Taal is about " },
+                { "type": "price", "text": "₱100" },
+                {
+                  "text": " each (guided explanation included), while the Marcela Agoncillo Historical Landmark and Leon Apacible Historical Landmark run by the National Historical Commission, the Basilica, and Caysasay Church are free. Galeria Taal is open Tuesday to Sunday from "
+                },
+                { "type": "time", "text": "8 AM to 5 PM" },
+                { "text": "." }
               ]
             }
           ]

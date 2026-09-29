@@ -34,8 +34,8 @@
     "items": ["Highest peak in Cebu", "Sunrise", "Camping", "Short hike", "Traverse hike"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.8519 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.4203 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.8202 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.4424 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -455,6 +455,29 @@
               "text": "). If hiking during the rainy season, an early morning hike, when weather is relatively stable, is recommended. Dawn is much cooler here than on the coast year-round, so bring a light long-sleeve layer."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, 15–18°C at dawn",
+              "A sea of clouds often forms — best for sunrise hikes"
+            ],
+            [
+              "March–May",
+              "Dry season, the grass turns yellow",
+              "Clear skies give good distant views — dry trails aren't slippery"
+            ],
+            [
+              "June–November",
+              "Rainy and typhoon season (August–November)",
+              "Afternoon clouds and rain, muddy trails — avoid the traverse in typhoon season and hike in the early morning"
+            ]
+          ]
         }
       ]
     },
@@ -650,6 +673,17 @@
               "children": [
                 {
                   "text": "When camping, only build fires in designated spots, and carry all your trash back down."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "When a typhoon or tropical storm warning is issued, Cebu Province temporarily closes its hiking sites. Osmeña Peak was also among the closures during Tropical Storm Basyang in "
+                },
+                { "type": "date", "text": "February 2026" },
+                {
+                  "text": ", so in bad-weather periods, check with the Dalaguete tourism office or a local guide before setting out whether it is open."
                 }
               ]
             }

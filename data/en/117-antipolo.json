@@ -29,8 +29,8 @@
     "items": ["Pilgrimage site", "Cathedral", "Art museum", "Waterfall", "Suman", "Night view"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.2, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 14.5866 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.1757 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 14.5876 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.1767 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -361,16 +361,29 @@
                     {
                       "children": [
                         {
-                          "text": "The easiest way is to take LRT-2 to its eastern terminus, Antipolo Station (formerly Masinag Station). It's about "
+                          "text": "The easiest way is to take the LRT-2 east to its terminus, Antipolo station (formerly Masinag). From Recto station it takes about "
                         },
                         { "type": "duration", "text": "35–45 minutes" },
-                        { "text": " from Recto Station, with a fare of about " },
-                        { "type": "price", "text": "₱30~45" },
+                        { "text": " and costs about " },
+                        { "type": "price", "text": "₱33–35" },
                         { "text": ". The first train runs around " },
                         { "type": "time", "text": "5 AM" },
-                        { "text": ", and the last train from Antipolo Station runs around " },
+                        { "text": " and the last train from Antipolo station around " },
                         { "type": "time", "text": "9 PM" },
                         { "text": ", so check your return time." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Since " },
+                        { "text": "March 23, 2026", "type": "date" },
+                        {
+                          "text": ", on the Department of Transportation's order, LRT-2 fares have been discounted 50% for all passengers, so the Recto–Antipolo trip is about "
+                        },
+                        { "text": "₱16.50–18", "type": "price" },
+                        {
+                          "text": ". It is a temporary measure in force \"until further notice,\" so it could end at any time."
+                        }
                       ]
                     }
                   ]
@@ -497,6 +510,29 @@
               "text": ", afternoon showers are frequent, but it's also when Hinulugang Taktak Falls carries the most water."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, cool evenings of 20–23℃",
+              "Nice on a viewpoint restaurant terrace — you can see all the way to the sea on a clear day"
+            ],
+            [
+              "March–May",
+              "Dry season, sweltering at midday and almost no rain",
+              "May pilgrimage month — roads around the church are closed, expect congestion"
+            ],
+            [
+              "June–October",
+              "Rainy season, frequent afternoon showers",
+              "Hinulugang Taktak Falls has its greatest volume of water"
+            ]
+          ]
         }
       ]
     },
@@ -513,7 +549,7 @@
           "items": [
             {
               "label": "LRT-2 Recto–Antipolo",
-              "price": "About ₱30–45 one way",
+              "price": "About ₱16.50–35 one way",
               "note": "Beep Card or QR payment accepted"
             },
             { "label": "Jeepney (station–downtown)", "price": "About ₱15–25", "note": "One way" },
@@ -524,7 +560,7 @@
             },
             {
               "label": "Pinto Art Museum admission",
-              "price": "About ₱250–350, adult",
+              "price": "Adults ₱250",
               "note": "Discounts for students/seniors, closed Mondays"
             },
             {
@@ -635,6 +671,23 @@
                 {
                   "text": "Pinto Art Museum has lots of stairs and slopes. Wear comfortable shoes, and visit later in the afternoon for softer garden photos."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "The Pinto Art Museum is open Tuesday to Sunday, " },
+                { "type": "time", "text": "10 AM–5 PM" },
+                { "text": ", and students pay " },
+                { "type": "price", "text": "₱125" },
+                {
+                  "text": ". Large bags and backpacks can't be brought in, and flash photography, video recording, and outside food are prohibited in the galleries. Check the latest information on the "
+                },
+                {
+                  "type": "link",
+                  "text": "official website",
+                  "url": "https://www.pintoartmuseum.org/"
+                },
+                { "text": "." }
               ]
             },
             {

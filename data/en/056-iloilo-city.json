@@ -115,7 +115,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Iloilo City is the hub of the West Visayas region, on the southeastern side of Panay Island facing the Guimaras Strait. It flourished as a sugar and textile trading port during the 19th-century Spanish colonial era, becoming one of the wealthiest cities after Manila, and the Spanish crown even bestowed on it the title \"La Muy Noble Ciudad\" (\"the most noble city\"). The stone mansions, shophouses, and beautiful churches built by sugar barons of that era still stand throughout the city today."
+              "text": "Iloilo City is the central city of the Western Visayas region, in the southeast of Panay Island facing the Guimaras Strait. It flourished as a sugar and textile trading port during the Spanish colonial era in the 19th century, ranking as the richest city after Manila, and in "
+            },
+            { "type": "date", "text": "1898" },
+            {
+              "text": " it received the title \"La Muy Leal y Noble Ciudad\" (the Most Loyal and Noble City) from the Spanish crown. Stone mansions and shop buildings built by sugar barons of that era, along with beautiful churches, still stand throughout the city today."
             }
           ]
         },
@@ -447,11 +451,11 @@
                     {
                       "children": [
                         {
-                          "text": "Jeepneys are the cheapest way around the city (base fare about "
+                          "text": "Jeepneys are the cheapest way to get around town (base fare about "
                         },
-                        { "type": "price", "text": "₱13–15" },
+                        { "type": "price", "text": "₱14–17" },
                         {
-                          "text": "), and Grab and taxis are also easy to find. Trips between districts by taxi generally cost around "
+                          "text": "), and Grab and taxis are easy to find. Taxi rides between districts usually cost "
                         },
                         { "type": "price", "text": "₱100–250" },
                         { "text": "." }
@@ -508,6 +512,29 @@
             { "text": "April", "type": "date" },
             { "text": " are also worth seeing." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, relatively cool",
+              "January Dinagyang Festival — accommodation full months ahead"
+            ],
+            [
+              "March–May",
+              "Dry season, hot and humid",
+              "Get around mostly in the morning and evening — Holy Week events in April"
+            ],
+            [
+              "June–November",
+              "Rainy season, frequent showers",
+              "City sightseeing still possible — typhoons August–November"
+            ]
+          ]
         }
       ]
     },
@@ -532,7 +559,7 @@
               "price": "About ₱80–100 one way",
               "note": "Taxi costs about ₱400–600"
             },
-            { "label": "Jeepney", "price": "About ₱13–20 per ride", "note": "Within the city" },
+            { "label": "Jeepney", "price": "About ₱14–20 per ride", "note": "Within the city" },
             {
               "label": "Taxi/Grab",
               "price": "About ₱100–250 per ride",
@@ -659,6 +686,19 @@
               "children": [
                 {
                   "text": "If you plan a day trip to Guimaras, leave from Parola wharf early in the morning to have enough time to look around properly."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The National Museum Western Visayas Regional Museum, housed in the former provincial jail building, and the Museum of Philippine Economic History are free, Museo Iloilo costs about "
+                },
+                { "type": "price", "text": "₱50" },
+                { "text": ", and the Iloilo Museum of Contemporary Art (ILOMOCA) costs about " },
+                { "type": "price", "text": "₱150" },
+                {
+                  "text": ". Check in advance the days the National Museum is closed and how entry reservations work."
                 }
               ]
             }

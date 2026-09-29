@@ -309,21 +309,29 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "06:30",
+                      "time": "08:30",
                       "children": [
                         {
-                          "text": "Nếu đang mùa cá mập voi, xuất phát tour lặn ống thở sáng sớm (nếu trái mùa thì lặn thuyền 2 lần)"
+                          "text": "Vào mùa cá mập voi, xuất phát tour lặn ống thở, đi thuyền khoảng "
+                        },
+                        { "type": "duration", "text": "1 giờ 30 phút" },
+                        { "text": " (ngoài mùa thì lặn thuyền 2 lần vào buổi sáng)" }
+                      ]
+                    },
+                    {
+                      "time": "10:00–13:00",
+                      "children": [
+                        {
+                          "text": "Lặn ống thở tìm cá mập voi, ăn trưa nhẹ trên thuyền (ngoài mùa thì ăn trưa tại resort)"
                         }
                       ]
                     },
                     {
-                      "time": "10:00",
-                      "children": [{ "text": "Về lại resort nghỉ ngơi và ăn sáng kiêm trưa" }]
-                    },
-                    {
-                      "time": "13:00",
+                      "time": "15:00",
                       "children": [
-                        { "text": "Đi thuyền lặn vách tại khu bảo tồn biển Napantao, đảo Panaon" }
+                        {
+                          "text": "Nghỉ ngơi sau khi về resort (ngoài mùa thì đi thuyền lặn thành vách tại Khu bảo tồn biển Napantao, đảo Panaon)"
+                        }
                       ]
                     },
                     {
@@ -464,15 +472,34 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "Từ Cebu, bạn có thể đi phà đêm đến Maasin (khoảng " },
-                        { "type": "duration", "text": "6–8 giờ" },
-                        { "text": ") hoặc phà đến Hilongos (khoảng " },
-                        { "type": "duration", "text": "4 giờ" },
+                        { "text": "Từ Cebu, tàu cao tốc OceanJet đi Maasin rời bến mỗi ngày lúc " },
+                        { "type": "time", "text": "7 giờ sáng" },
+                        { "text": ", mất khoảng " },
+                        { "type": "duration", "text": "3 giờ" },
+                        { "text": ". Vé khoảng " },
+                        { "type": "price", "text": "₱1,100–1,950" },
+                        {
+                          "text": " (tùy hạng ghế và phụ phí nhiên liệu), và từ cảng Maasin đến Padre Burgos đi ô tô mất khoảng "
+                        },
+                        { "type": "duration", "text": "30 phút" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Đi Hilongos có tàu cao tốc SeaCat (4 chuyến mỗi tuần, khoảng " },
+                        { "type": "duration", "text": "2 giờ 30 phút" },
                         { "text": ", khoảng " },
-                        { "type": "price", "text": "₱500–900" },
-                        { "text": "). Từ Hilongos đến Padre Burgos mất khoảng " },
-                        { "type": "duration", "text": "1 giờ 30 phút – 2 giờ" },
-                        { "text": " bằng xe buýt hoặc xe van." }
+                        { "type": "price", "text": "₱960–1,480" },
+                        { "text": ") và phà chở xe của Roble và Gabisan (khoảng " },
+                        { "type": "duration", "text": "5 giờ" },
+                        { "text": ", khoảng " },
+                        { "type": "price", "text": "₱430–800" },
+                        {
+                          "text": "). Từ Hilongos đến Padre Burgos đi xe buýt hoặc xe van mất khoảng "
+                        },
+                        { "type": "duration", "text": "1 giờ 30 phút–2 giờ" },
+                        { "text": "." }
                       ]
                     },
                     {
@@ -551,6 +578,29 @@
             { "text": "27–30℃", "type": "temperature" },
             { "text": " nên bộ đồ lặn 3mm là đủ." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Gió mùa đông bắc, thường có mưa",
+              "Mùa cá mập voi — có ngày biển ngoài vịnh động"
+            ],
+            [
+              "Tháng 3 – tháng 4",
+              "Thường hay gặp cá mập voi",
+              "Mùa cao điểm — dịp nghỉ lễ phòng resort hết nhanh"
+            ],
+            [
+              "Tháng 5 – tháng 10",
+              "Nhiều ngày biển lặng",
+              "Lặn ở các điểm xa — khi có bão thì bị chặn không ra khơi được"
+            ]
+          ]
         }
       ]
     },
@@ -567,8 +617,8 @@
           "items": [
             {
               "label": "Lặn giải trí (fun dive)",
-              "price": "Khoảng ₱1,500–2,000/lượt",
-              "note": "Đã gồm thuê thiết bị"
+              "price": "Khoảng ₱2,100–2,500 mỗi lần",
+              "note": "Tùy có thuê thiết bị hay không"
             },
             {
               "label": "Chứng chỉ Open Water",
@@ -577,8 +627,8 @@
             },
             {
               "label": "Tour lặn ống thở cá mập voi",
-              "price": "Khoảng ₱1,500–2,500/người",
-              "note": "Quy định hoàn tiền khác nhau tùy có xuất hiện hay không"
+              "price": "Khoảng ₱3,000–4,000 mỗi người",
+              "note": "Gồm bữa trưa và thiết bị, có điều kiện số người tối thiểu, quy định hoàn tiền khác nhau tùy có gặp cá hay không"
             },
             {
               "label": "Phí vào khu bảo tồn biển",
@@ -604,6 +654,11 @@
               "label": "Bữa ăn",
               "price": "Khoảng ₱200–500/bữa",
               "note": "Tính theo nhà hàng resort"
+            },
+            {
+              "label": "Tàu cao tốc Cebu–Maasin",
+              "price": "Khoảng ₱1,100–1,950 một chiều",
+              "note": "Khoảng 3 giờ, có thể có thêm phụ phí nhiên liệu"
             }
           ]
         },
@@ -718,6 +773,19 @@
                 {
                   "text": "Nếu kết hợp với Bohol hay Siargao, hãy kiểm tra trước giờ phà hướng Bato, Surigao để việc di chuyển thuận lợi hơn."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Theo sắc lệnh địa phương, tour cá mập voi chỉ cho phép lặn ống thở (cấm lặn bình khí) và thời gian quan sát tối đa "
+                },
+                { "type": "duration", "text": "3 giờ" },
+                { "text": ". Đi thuyền ra điểm gặp khoảng " },
+                { "type": "duration", "text": "1 giờ 30 phút" },
+                { "text": " và cả ngày mất " },
+                { "type": "duration", "text": "6–8 giờ" },
+                { "text": ", nên hãy lên kế hoạch lặn nhẹ nhàng cho ngày hôm đó." }
               ]
             }
           ]

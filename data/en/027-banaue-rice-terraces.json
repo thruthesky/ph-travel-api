@@ -385,14 +385,29 @@
                     {
                       "children": [
                         {
-                          "text": "Direct overnight buses to Banaue run daily from Manila. Ohayami Trans (departing from Sampaloc, Manila) and Coda Lines (departing from Cubao) are the main options, taking about "
+                          "text": "Direct night buses run daily from Manila to Banaue. Ohayami Trans (departing from Sampaloc, Manila) and Coda Lines (departing from Cubao) are the best known, taking about "
                         },
                         { "type": "duration", "text": "8–10 hours" },
-                        { "text": ", for a fare of about " },
+                        { "text": " and costing about " },
                         { "type": "price", "text": "₱650–1,000" },
-                        { "text": ". They usually depart around " },
-                        { "type": "time", "text": "9–10 PM" },
+                        { "text": ". Depending on the company and class, they depart between " },
+                        { "type": "time", "text": "5 PM and 10:30 PM" },
                         { "text": " and arrive early in the morning." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "With Ohayami you can buy seats in advance on the " },
+                        {
+                          "type": "link",
+                          "text": "official booking site",
+                          "url": "https://ohayami.ph/"
+                        },
+                        {
+                          "text": " with GCash or a card, and with Coda Lines you buy at the Cubao terminal counter or through an online booking agent. During Holy Week and the year-end holidays they often sell out "
+                        },
+                        { "type": "duration", "text": "1–2 weeks" },
+                        { "text": " ahead." }
                       ]
                     },
                     {
@@ -455,6 +470,21 @@
                         {
                           "text": " by car. Coming from Tuguegarao Airport (TUG) is also possible, but public transport connections are inconvenient."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "To save time, you can fly from Manila to Cauayan Airport (CYZ) in Isabela on Cebu Pacific or PAL Express for about "
+                        },
+                        { "type": "duration", "text": "1 hour" },
+                        { "text": ", then drive about " },
+                        { "type": "duration", "text": "3–4 hours" },
+                        {
+                          "text": " in a chartered vehicle to Banaue. Transferring by public transport takes more than "
+                        },
+                        { "type": "duration", "text": "5 hours" },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -526,17 +556,49 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "Weather-wise, the dry season of " },
+            { "text": "For weather, the " },
             { "type": "date", "text": "December–April" },
-            { "text": " is easiest for getting around, though dawns in " },
+            { "text": " dry season is easier for getting around, but dawns in " },
             { "type": "date", "text": "December–February" },
-            { "text": " are chilly, around " },
+            { "text": " are chilly at around " },
             { "type": "temperature", "text": "10℃" },
-            { "text": ". During the rainy season of " },
+            { "text": ". In the " },
             { "type": "date", "text": "June–October" },
             {
-              "text": ", rain and fog are frequent, and typhoons can cause landslides on the Lagawe–Banaue road. The Ifugao cultural festival \"Imbayah\" is held only once every few years, so check the tourist information center's notices to see if the timing lines up with your trip."
+              "text": " rainy season, rain and fog are frequent, and typhoons can cause landslides on the Lagawe–Banaue road. Banaue's cultural festival \"Imbayah\" is usually held in "
+            },
+            { "type": "date", "text": "late April–early May" },
+            {
+              "text": ", but whether it takes place and its dates vary each year, so check the tourist information office's announcements to see if your travel timing fits."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, around 10°C at dawn",
+              "Planting season in January–February — terrace preparation and flooding in December"
+            ],
+            [
+              "March–May",
+              "Dry season (until April), terraces turn green",
+              "Peak green in April–May — Imbayah Festival in late April–early May"
+            ],
+            [
+              "June–July",
+              "Rainy season, frequent rain and fog",
+              "Golden rice harvest — beware of landslides during typhoons"
+            ],
+            [
+              "August–November",
+              "Rainy season (until October), rain and fog",
+              "Terrace preparation and flooding make the terrace bund lines sharp"
+            ]
           ]
         }
       ]
@@ -808,6 +870,18 @@
                 { "text": "About " },
                 { "type": "duration", "text": "8–9 hours" },
                 { "text": " by bus, a good starting or ending point for a Cordillera loop." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Maligcong Rice Terraces",
+              "place": "maligcong-rice-terraces",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "3 hours" },
+                {
+                  "text": " by car via Bontoc, a mountain village near Bontoc known for its stone-walled terraces and sea-of-clouds sunrises."
+                }
               ]
             }
           ]

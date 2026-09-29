@@ -313,6 +313,50 @@
               ]
             },
             {
+              "title": "One extra day",
+              "subtitle": "For a 3-night, 4-day stay",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "8:00 AM",
+                      "children": [
+                        {
+                          "text": "Ask your accommodation to arrange a bangka tour of Campomanes Bay, and snorkel at a hidden beach"
+                        }
+                      ]
+                    },
+                    { "time": "Noon", "children": [{ "text": "Lunch at a beach inside the bay" }] },
+                    {
+                      "time": "2:00 PM",
+                      "children": [
+                        {
+                          "text": "A short trek to the Tinagong Dagat viewpoint (with a local guide)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "4:30 PM",
+                      "children": [
+                        {
+                          "text": "Return to your accommodation for snorkeling off the beach and the sunset"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Danjugan Island accepts only visitors who have booked in advance, so if you want to turn this day into a Danjugan Island tour, ask the managing foundation about dates and headcount before your trip. On days when the sea is rough, spend the day at the town market and relaxing on the beach instead of the boat itinerary."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "title": "Day 3",
               "blocks": [
                 {
@@ -467,6 +511,25 @@
             { "text": " or the Santo Niño festivals held in various towns around " },
             { "type": "date", "text": "January" },
             { "text": "." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, calm seas",
+              "Good diving visibility — Santo Niño festival around January"
+            ],
+            ["March–May", "Dry season, almost no rain and strong sun", "Best beach photos"],
+            [
+              "June–October",
+              "Rainy season, Habagat monsoon",
+              "Rough waves cancel hopping and boat diving — MassKara Festival in October"
+            ]
           ]
         }
       ]
@@ -673,6 +736,19 @@
               "children": [
                 {
                   "text": "There are unpaved sections and steep grades on the coastal road, so always wear a helmet when riding a motorcycle."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Kanlaon Volcano in central Negros has been erupting repeatedly since " },
+                { "type": "date", "text": "June 2024" },
+                { "text": " and, as of " },
+                { "type": "date", "text": "September 2026" },
+                { "text": ", is at Alert Level 2. Sipalay is about " },
+                { "type": "distance", "text": "110km" },
+                {
+                  "text": " from the volcano, so the direct danger is small, but during eruptions ash sometimes cancels flights at Bacolod-Silay Airport or falls around Bago and Pontevedra, on the route of buses from Bacolod, so check PHIVOLCS announcements and airline notices."
                 }
               ]
             }

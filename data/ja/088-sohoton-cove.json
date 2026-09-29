@@ -21,8 +21,8 @@
   },
   "tags": { "type": "tags", "label": "タグ", "items": ["ラグーン", "洞窟", "クラゲの湖", "カヤック", "クリフジャンプ"] },
   "rating": { "type": "rating", "label": "おすすめ度", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "緯度", "value": 9.6736 },
-  "longitude": { "type": "longitude", "label": "経度", "value": 125.9483 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 9.5971 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 125.9279 },
   "best_season": {
     "type": "date",
     "label": "ベストシーズン",
@@ -62,7 +62,19 @@
     "credit": "Michael Angelo Luna / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Middle_Bucas_Grande_in_Dapa,_Siargao.jpg"
   },
-  "gallery": { "type": "carousel", "label": "写真", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/088-sohoton-cove-2.webp",
+        "alt": "ソホトンコーブ",
+        "credit": "AGUSTIN MENDEZ, Tubod Founding Hero / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sohoton.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -265,13 +277,15 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "マニラからシアルガオのサヤク空港(IAO)まで約" },
-                    { "type": "duration", "text": "1時間45分〜2時間" },
-                    { "text": "、セブから約" },
+                    { "text": "マニラからシアルガオ・サヤック空港(IAO)までは、" },
+                    { "type": "date", "text": "2025年3月" },
+                    { "text": "から直行便がなくなったため、セブを経由するか(セブ〜シアルガオ約" },
                     { "type": "duration", "text": "1時間" },
-                    { "text": "かかります。空港からジェネラルルナまで乗合バンで約" },
+                    { "text": ")、クラーク空港から直行便(約" },
+                    { "type": "duration", "text": "2時間20分〜2時間30分" },
+                    { "text": ")に乗ります。空港からジェネラルルナまで乗合バンで約" },
                     { "type": "duration", "text": "45分〜1時間" },
-                    { "text": "移動した後、ツアーに参加するのが一般的です。" }
+                    { "text": "移動してからツアーに参加するのが一般的です。" }
                   ]
                 }
               ]
@@ -361,6 +375,17 @@
             {
               "text": "までは北東季節風で雨が多く海も荒れ、ツアーが中止になったり移動が非常に困難になったりすることがあります。クラゲの個体数は年によって差が大きく、ほとんど見られない月もあるため、期待値を調整するのがよいです。何よりも洞窟入口の通過は干潮時間に左右されるため、ツアーの出発時間は旅行会社が潮汐表に合わせて決めます。"
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "時期別ひと目でわかる表",
+          "icon": "calendar_month",
+          "columns": ["時期", "天気", "旅のポイント"],
+          "rows": [
+            ["3月〜7月", "海が穏やか、空が晴れる", "潟湖の水の色が鮮やか — ジェリーフィッシュ・レイクのクラゲが最も多い傾向"],
+            ["8月〜10月", "おおむね可能、南西風・うねり", "影響を受ける日あり — 洞窟入口の通過は干潮が基準"],
+            ["11月〜2月", "北東モンスーン、雨が多く海が荒れる", "ツアー中止・移動が困難 — クラゲの数は年ごとの差が大きい"]
           ]
         }
       ]

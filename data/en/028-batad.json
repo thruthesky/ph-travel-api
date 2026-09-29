@@ -328,6 +328,75 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Day trip",
+              "subtitle": "When you're short on time",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Set off from Banaue in a chartered tricycle (agree on driver waiting and round-trip terms beforehand)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "07:45",
+                      "children": [
+                        { "text": "Arrive at Saddle Point and walk down to the village" }
+                      ]
+                    },
+                    {
+                      "time": "08:30",
+                      "children": [
+                        {
+                          "text": "Register at the village entrance, pay the environmental fee, and arrange a certified guide"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:00–13:00",
+                      "children": [
+                        {
+                          "text": "Walk across the amphitheater terrace bunds to Tappiya Falls and back"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        { "text": "Lunch at a homestay restaurant with a view of the terraces" }
+                      ]
+                    },
+                    {
+                      "time": "14:30",
+                      "children": [
+                        { "text": "Climb up to Saddle Point and leave in the waiting vehicle" }
+                      ]
+                    },
+                    {
+                      "time": "15:30",
+                      "children": [
+                        {
+                          "text": "Arrive in Banaue, have dinner, and board the night bus to Manila"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "A day trip is possible, but you have to manage both the uphill return from the falls and the climb to Saddle Point in a single day, which is very tiring and means missing Batad's sunset and dawn views. If your schedule allows, one night's stay is recommended."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -392,6 +461,19 @@
                       "children": [
                         {
                           "text": "Shared jeepneys toward Batad tend to depart mostly in the afternoon and come back out in the morning, so the schedule is irregular. If you're staying overnight, a shared jeepney can work, but check the departure time at the tourist information center the day before."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "The shared jeepney fare is about " },
+                        { "type": "price", "text": "₱150–200" },
+                        {
+                          "text": " per tourist. Shared vehicles from Batad to Banaue usually leave by around "
+                        },
+                        { "type": "time", "text": "9 AM" },
+                        {
+                          "text": ", so on your return day you need to be up at Saddle Point early in the morning."
                         }
                       ]
                     }
@@ -489,6 +571,34 @@
             {
               "text": ", afternoon showers and fog are frequent, and if a typhoon comes, landslides can cut the Banaue–Batad road or make the way to the falls dangerous. Build in extra time if visiting during the rainy season."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, around 10°C at dawn",
+              "Planting in January–February — dry paths and good trekking"
+            ],
+            [
+              "March–May",
+              "Dry season (until April), terraces turn green",
+              "Peak green in April–May — the most beautiful photos"
+            ],
+            [
+              "June–July",
+              "Rainy season, afternoon showers and fog",
+              "Golden rice harvest — leave slack in your schedule"
+            ],
+            [
+              "August–November",
+              "Rainy season (until October), risk of landslides",
+              "Flooded terraces reflect the sky — terrace bund curves stand out"
+            ]
           ]
         }
       ]
@@ -762,6 +872,18 @@
                 { "type": "duration", "text": "4–5 hours" },
                 {
                   "text": " via Bontoc, a village where you can experience the traditional Kalinga tattoo, \"batok.\""
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Maligcong Rice Terraces",
+              "place": "maligcong-rice-terraces",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "3 hours" },
+                {
+                  "text": " by car from Banaue via Bontoc, a village with beautiful stone-walled terraces and sea-of-clouds sunrises on Mount Kupapey."
                 }
               ]
             }

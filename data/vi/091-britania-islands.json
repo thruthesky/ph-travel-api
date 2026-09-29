@@ -29,8 +29,8 @@
     "items": ["Khám phá các đảo", "Bãi cát nổi", "Đảo đá vôi", "Lặn ống thở", "Điểm đến ẩn mình"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 8.7437 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 126.2214 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 8.689 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 126.1898 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -318,7 +318,7 @@
                       "time": "11:00",
                       "children": [
                         {
-                          "text": "Sau đó — quay về Butuan, hoặc tiếp tục hành trình về hướng bắc Tandag hoặc hướng nam Bislig (thác Tinuy-an)."
+                          "text": "Sau đó — quay về Butuan, hoặc tiếp tục chuyến đi về phía bắc đến Tandag hay phía nam đến Bislig (thác Tinuy-an)."
                         }
                       ]
                     }
@@ -367,16 +367,22 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ sân bay Butuan, di chuyển vào trung tâm thành phố hoặc bến xe buýt, sau đó lên xe buýt hoặc xe van hướng Tandag (Tandag) và yêu cầu dừng ở \"Britania Crossing\" hoặc \"Salvacion\" (Salvacion). Thời gian di chuyển khoảng "
+                      "text": "Từ sân bay Butuan vào nội thành hoặc bến xe buýt, rồi đi xe buýt hoặc van hướng Tandag và nhờ họ cho xuống ở \"Britania Crossing\" hoặc \"Salvacion\". Thời gian di chuyển khoảng "
                     },
-                    { "type": "duration", "text": "4–5 giờ" },
-                    { "text": ", giá vé khoảng " },
+                    { "type": "duration", "text": "4–5 tiếng" },
+                    { "text": ", giá khoảng " },
                     { "type": "price", "text": "₱250–450" },
                     {
-                      "text": ". Nếu xuất phát từ Davao, cách phổ biến là đi qua San Francisco, Agusan del Sur rồi chuyển sang xe buýt hướng Tandag, mất khoảng "
+                      "text": ". Từ bến xe buýt Ecoland ở Davao có xe buýt thẳng Batchelor Express đi Tandag (đến Tandag khoảng "
                     },
-                    { "type": "duration", "text": "7–9 giờ" },
-                    { "text": "." }
+                    { "type": "duration", "text": "8 tiếng" },
+                    { "text": ", khoảng " },
+                    { "type": "price", "text": "₱780" },
+                    {
+                      "text": "). Phần lớn xe đi qua San Francisco, Barobo rồi chạy đường ven biển trước San Agustin, nên khi lên xe hãy hỏi xem có đi qua không, và nếu nói xuống ở Britania thì không cần đổi xe mà chỉ khoảng "
+                    },
+                    { "type": "duration", "text": "7–8 tiếng" },
+                    { "text": " là đến." }
                   ]
                 }
               ]
@@ -468,6 +474,39 @@
             { "type": "date", "text": "tháng 5" },
             { "text": ", lượng khách địa phương tăng lên có thể khiến các cottage đông đúc." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 3",
+              "Gần cuối mùa gió mùa",
+              "Xem bảng thủy triều rồi bàn với người lái thuyền về giờ đi tour đảo"
+            ],
+            [
+              "Tháng 4–tháng 6",
+              "Biển lặng, nắng đẹp",
+              "Màu nước rõ nhất — nhà chòi đông đúc dịp Tuần Thánh và kỳ nghỉ tháng 5"
+            ],
+            [
+              "Tháng 7–tháng 9",
+              "Lặng nhưng chịu ảnh hưởng gián tiếp của bão",
+              "Gió có thể mạnh lên nên hãy kiểm tra dự báo trước khi khởi hành"
+            ],
+            [
+              "Tháng 10",
+              "Trước khi mùa gió mùa bắt đầu",
+              "Bãi cát đảo Naked lúc thấy lúc không tùy theo thủy triều"
+            ],
+            [
+              "Tháng 11–tháng 2",
+              "Gió mùa đông bắc, mưa nhiều nhất",
+              "Sóng cao nên tour đảo hay bị hủy"
+            ]
+          ]
         }
       ]
     },
@@ -544,15 +583,15 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Quanh bến tàu Britania và dọc theo đường ven biển có vài khu nghỉ dưỡng nhỏ và bungalow do các gia đình địa phương điều hành. Phòng quạt giá khoảng "
+              "text": "Quanh bến Britania và dọc con đường ven biển có vài resort biển nhỏ và bungalow do gia đình vận hành. Phòng quạt khoảng "
             },
-            { "type": "price", "text": "₱1.000–1.500" },
-            { "text": "/đêm, phòng máy lạnh khoảng " },
-            { "type": "price", "text": "₱1.500–2.500" },
+            { "type": "price", "text": "₱1,000–1,500" },
+            { "text": "/đêm, phòng điều hòa khoảng " },
+            { "type": "price", "text": "₱1,500–2,500" },
             {
-              "text": ", và nhiều nơi không có nước nóng lẫn wifi. Nguồn điện cũng không dồi dào nên bạn hãy chuẩn bị đủ pin sạc dự phòng. Nếu cần nơi ở tiện nghi hơn, bạn cũng có thể nghỉ ở Tandag phía bắc (khoảng "
+              "text": ", và nhiều nơi không có nước nóng và Wi-Fi. Điện cũng không dồi dào nên hãy chuẩn bị đủ pin dự phòng. Nếu cần chỗ nghỉ tiện nghi hơn, bạn có thể ngủ ở Tandag phía bắc (khoảng "
             },
-            { "type": "duration", "text": "1 giờ" },
+            { "type": "duration", "text": "1 tiếng" },
             { "text": ") hoặc Bislig phía nam rồi đi về trong ngày." }
           ]
         },
@@ -628,7 +667,7 @@
             {
               "children": [
                 {
-                  "text": "Nếu đi theo cung đường ven biển phía đông, bạn nên kết hợp với sông Enchanted (Hinatuan) hoặc thác Tinuy-an (Bislig) để lên lịch trình 3–4 ngày cho hiệu quả."
+                  "text": "Nếu đi dọc đường bờ đông, kết hợp với sông Enchanted (Hinatuan) hoặc thác Tinuy-an (Bislig) thành lịch trình 3–4 ngày sẽ hiệu quả."
                 }
               ]
             }
@@ -707,9 +746,9 @@
               "place": "enchanted-river",
               "children": [
                 { "text": "Khoảng " },
-                { "type": "duration", "text": "2–3 giờ" },
+                { "type": "duration", "text": "1 tiếng 30 phút–2 tiếng" },
                 {
-                  "text": " đi ô tô đến Hinatuan phía nam, là điểm đến kỳ bí nổi tiếng với dòng sông xanh sâu không đáy."
+                  "text": " đi ô tô về phía nam đến Hinatuan, điểm đến kỳ bí nổi tiếng với dòng nước xanh không rõ độ sâu."
                 }
               ]
             },
@@ -719,9 +758,9 @@
               "place": "tinuy-an-falls",
               "children": [
                 { "text": "Khoảng " },
-                { "type": "duration", "text": "3–4 giờ" },
+                { "type": "duration", "text": "2–3 tiếng" },
                 {
-                  "text": " đi ô tô đến Bislig phía nam, là thác nước bậc thang rộng lớn được mệnh danh là \"Niagara của Philippines\"."
+                  "text": " đi ô tô về phía nam đến Bislig, thác bậc thang rộng được gọi là \"Niagara của Philippines\"."
                 }
               ]
             },

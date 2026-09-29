@@ -406,18 +406,38 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "OceanJet and SuperCat fast ferries run several times a day from Cebu City's pier to Ormoc, taking about "
+                      "text": "OceanJet, SuperCat, and other fast ferries run several times a day from the Cebu City pier to Ormoc, taking about "
                     },
                     { "type": "duration", "text": "2 hours 30 minutes–3 hours" },
                     { "text": " (fare about " },
-                    { "type": "price", "text": "₱800–1,300" },
-                    { "text": "). From near the Ormoc port terminal, a van to Palompon is about " },
+                    { "type": "price", "text": "₱1,100–1,600" },
+                    {
+                      "text": "). A van to Palompon from the terminal near Ormoc Port takes about "
+                    },
                     { "type": "duration", "text": "1 hour" },
                     {
-                      "text": " away. Shared or chartered tours to Kalanggaman also run from Malapascua Island or Maya port in northern Cebu, taking about "
+                      "text": ". Shared and chartered tours also run to Kalanggaman from Malapascua Island or Maya Port in northern Cebu, taking about "
                     },
                     { "type": "duration", "text": "1 hour 30 minutes–2 hours 30 minutes" },
-                    { "text": " one way; be sure to confirm whether the entrance fee is included." }
+                    { "text": " one way, and you must check whether the entrance fee is included." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "There are also boats from Cebu directly to Palompon. An OceanJet fast ferry leaves Cebu Pier 1 every day at "
+                    },
+                    { "type": "time", "text": "10:00 AM" },
+                    { "text": " and reaches Palompon Port about " },
+                    { "type": "duration", "text": "3 hours" },
+                    { "text": " later (fare about " },
+                    { "type": "price", "text": "₱1,100–1,600" },
+                    { "text": "), and the boat back to Cebu leaves Palompon at " },
+                    { "type": "time", "text": "1:30 PM" },
+                    {
+                      "text": ". Since you arrive in the afternoon, it works well to spend the first night in Palompon and go out to the island early the next morning. Departure times change often and there are occasional temporary cancellations, so check OceanJet's notices before you leave."
+                    }
                   ]
                 }
               ]
@@ -481,6 +501,29 @@
               "text": " summer break, and the year-end holidays, the daily visitor quota fills up quickly, so book several weeks ahead. The low tide when the sandbar is longest varies day to day, so check a tide table and time your arrival on the island accordingly."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Northeast wind, some days with high afternoon waves",
+              "Travel possible — book weeks ahead for the New Year holidays"
+            ],
+            [
+              "March–June",
+              "Calm seas, clear skies",
+              "Sandbar color at its most vivid — book early for Holy Week and the April–May school break"
+            ],
+            [
+              "July–November",
+              "Affected by typhoons and low pressure",
+              "Some days bangkas stop — check low tide times on the tide table"
+            ]
+          ]
         }
       ]
     },
@@ -527,13 +570,18 @@
             },
             {
               "label": "Cebu–Ormoc fast ferry",
-              "price": "About ₱800–1,300 one way",
-              "note": "Varies by seat class"
+              "price": "About ₱1,100–1,600 one way",
+              "note": "By seat class, fuel surcharge may be extra"
             },
             {
               "label": "Food ingredients",
               "price": "About ₱300–600 per person",
               "note": "Bought at the Palompon market"
+            },
+            {
+              "label": "Snorkel gear rental",
+              "price": "About ₱100–150 per set",
+              "note": "Rent in advance in Palompon"
             }
           ]
         },
@@ -642,6 +690,17 @@
                   "text": "Bangka seats get sprayed with sea water, so put electronics and passports in a waterproof bag."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The island caps daily visitors at about 500. Visitor numbers have grown further since it ranked 25th on the World's 50 Best Beaches list in "
+                },
+                { "type": "date", "text": "April 2026" },
+                { "text": ", and the daily quota fills early in the " },
+                { "type": "date", "text": "April to early May" },
+                { "text": " peak season, so book at least a month ahead if you can." }
+              ]
             }
           ]
         }
@@ -725,7 +784,7 @@
                 { "text": "About " },
                 { "type": "duration", "text": "3–4 hours" },
                 {
-                  "text": " by car from Palompon (to Tacloban). The Philippines' longest strait-crossing bridge, linking Leyte and Samar."
+                  "text": " by car from Palompon (Tacloban). A strait bridge with a red steel arch linking Leyte and Samar."
                 }
               ]
             },
@@ -756,6 +815,7 @@
             {
               "type": "card",
               "title": "Lake Danao (Ormoc)",
+              "place": "lake-danao",
               "children": [
                 { "text": "About " },
                 { "type": "duration", "text": "1 hour 30 minutes" },

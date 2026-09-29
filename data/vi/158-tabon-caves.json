@@ -275,7 +275,7 @@
                       "time": "07:00",
                       "children": [
                         {
-                          "text": "Khởi hành xe buýt · xe van đi Quezon từ bến xe San Jose, Puerto Princesa"
+                          "text": "Xe buýt · xe van đi Quezon xuất phát từ bến xe Irawan ở Puerto Princesa"
                         }
                       ]
                     },
@@ -286,7 +286,7 @@
                       ]
                     },
                     {
-                      "time": "13:00",
+                      "time": "12:00",
                       "children": [
                         {
                           "text": "Đăng ký tham quan và nhận hướng dẫn viên tại văn phòng Bảo tàng Quốc gia ở Quezon"
@@ -294,7 +294,7 @@
                       ]
                     },
                     {
-                      "time": "14:00–17:00",
+                      "time": "13:00–16:30",
                       "children": [
                         {
                           "text": "Tham quan bảo tàng tại chỗ ở mũi Lipuun, khám phá hang động dọc lối ván"
@@ -306,6 +306,22 @@
                       "children": [
                         { "text": "Ăn tối hải sản và ngắm hoàng hôn tại bến cảng Quezon" }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Tour hang có hướng dẫn viên chỉ mở vào thứ Ba, thứ Năm, thứ Bảy và Chủ nhật lúc "
+                    },
+                    { "type": "time", "text": "9 giờ sáng" },
+                    { "text": " và " },
+                    { "type": "time", "text": "1 giờ chiều" },
+                    { "text": ", nên hãy đến Quezon đúng vào những ngày này và đặt trước ít nhất " },
+                    { "type": "duration", "text": "3 ngày" },
+                    {
+                      "text": ". Nếu muốn đi tour buổi sáng, bạn phải nghỉ lại Quezon từ hôm trước."
                     }
                   ]
                 }
@@ -396,12 +412,12 @@
                     {
                       "children": [
                         {
-                          "text": "Xe buýt Cherry Bus và xe van ghép đi Quezon khởi hành từ bến xe San Jose phía bắc Puerto Princesa, đi qua thị trấn Narra, quãng đường khoảng "
+                          "text": "Xe buýt như Cherry Bus và xe van chung đi Quezon xuất phát từ bến xe Irawan ở ngoại ô thành phố Puerto Princesa, đi qua thị trấn Narra, quãng đường khoảng "
                         },
                         { "type": "distance", "text": "150km" },
-                        { "text": ", mất khoảng " },
+                        { "text": ", mất " },
                         { "type": "duration", "text": "3–4 giờ" },
-                        { "text": ". Giá vé khoảng " },
+                        { "text": ". Vé khoảng " },
                         { "type": "price", "text": "₱300–450" },
                         { "text": "." }
                       ]
@@ -508,6 +524,29 @@
             {
               "text": ", gió mùa tây nam thổi trực tiếp vào bờ biển phía tây nơi có Quezon, nên mưa thường xuyên và sóng cao. Bản thân hang động vẫn có thể đi bộ đến, nhưng thuyền khám phá đảo thường bị hủy, và sau mưa lớn nền hang trở nên lầy lội. Nếu đi vào thời gian này, một lịch trình ngắn tập trung vào hang động và bảo tàng sẽ thực tế hơn."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, biển phía tây tương đối lặng",
+              "Thích hợp kết hợp đi tour đảo — lối ván và nền hang ít trơn hơn"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, giữa trưa khoảng 33℃",
+              "Nên khám phá hang vào sáng sớm và chiều muộn"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, mưa và sóng do gió tây nam",
+              "Thuyền tour đảo hay bị hủy — chỉ nên đi ngắn, tập trung vào hang và bảo tàng"
+            ]
           ]
         }
       ]
@@ -625,8 +664,20 @@
           "items": [
             {
               "children": [
+                { "text": "Bảo tàng tại chỗ mở cửa hằng ngày từ " },
+                { "type": "time", "text": "9 giờ sáng–5 giờ chiều" },
+                { "text": " (ngừng nhận khách lúc " },
+                { "type": "time", "text": "4 giờ 30 chiều" },
                 {
-                  "text": "Cơ sở của Bảo tàng Quốc gia thường đóng cửa vào thứ Hai. Trước khi đến, hãy kiểm tra ngày mở cửa và cách đăng ký qua trang Facebook hoặc điện thoại của Khu di tích Hang Tabon thuộc Bảo tàng Quốc gia."
+                  "text": "), nhưng tour hang có hướng dẫn viên chỉ có vào thứ Ba, thứ Năm, thứ Bảy và Chủ nhật lúc "
+                },
+                { "type": "time", "text": "9 giờ sáng" },
+                { "text": " và " },
+                { "type": "time", "text": "1 giờ chiều" },
+                { "text": ", và phải đặt trước ít nhất " },
+                { "type": "duration", "text": "3 ngày" },
+                {
+                  "text": " qua Facebook hoặc điện thoại của Quần thể hang Tabon thuộc Bảo tàng Quốc gia. Cách vận hành có thể thay đổi nên hãy kiểm tra lại trước khi đi."
                 }
               ]
             },

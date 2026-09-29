@@ -65,7 +65,7 @@
     "type": "airport",
     "label": "Nearest airport",
     "icon": "flight",
-    "text": "Caticlan Airport (MPH)",
+    "text": "Godofredo P. Ramos Airport in Caticlan (MPH)",
     "code": "MPH"
   },
   "image": {
@@ -81,17 +81,10 @@
     "items": [
       {
         "type": "image",
-        "url": "images/062-carabao-island-2.webp",
+        "url": "images/062-carabao-island-4.webp",
         "alt": "Carabao Island",
-        "credit": "McNeil Gaila / CC BY-SA 4.0 / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Limbones_Island_2021.jpg"
-      },
-      {
-        "type": "image",
-        "url": "images/062-carabao-island-3.webp",
-        "alt": "Carabao Island",
-        "credit": "USAID Biodiversity & Forestry / Public domain / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Philippines;_Nagkakaisang_Tribu_ng_Palawan)_(40248017142).jpg"
+        "credit": "Alexey Komarov / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Boracay_Island,_Philippines_-_panoramio.jpg"
       }
     ]
   },
@@ -320,6 +313,58 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Day trip from Boracay",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "8:00 AM",
+                      "children": [
+                        {
+                          "text": "Chartered bangka departs from near Station 1 in Boracay (about "
+                        },
+                        { "type": "duration", "text": "40 minutes–1 hour" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "9:00 AM",
+                      "children": [
+                        {
+                          "text": "Cliff jumping and underwater cave swimming at Koding-Koding Point"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:30 AM",
+                      "children": [{ "text": "Explore Cathedral Cave (with a local guide)" }]
+                    },
+                    {
+                      "time": "Noon",
+                      "children": [{ "text": "Lunch and a swim at a White Beach restaurant" }]
+                    },
+                    {
+                      "time": "2:00 PM",
+                      "children": [{ "text": "Snorkel over the coral areas around the island" }]
+                    },
+                    {
+                      "time": "3:30 PM",
+                      "children": [{ "text": "Head back to Boracay before the wind picks up" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The fare for a chartered bangka is set in advance and includes the round trip and waiting time. If you also want to see the sunset at Tagaytay Point, the return trip will be in the dark, so it's safer to stay overnight on the island."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -351,6 +396,18 @@
                     { "type": "duration", "text": "1 hour 30 minutes–2 hours" },
                     {
                       "text": " by van to Caticlan. There are also direct flights to Caticlan and Kalibo from Cebu."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "There are also direct flights to Caticlan from Clark Airport, about two to three a day, taking about "
+                    },
+                    { "type": "duration", "text": "1 hour 15 minutes" },
+                    {
+                      "text": ", which is convenient when departing from north of Manila or Angeles."
                     }
                   ]
                 }
@@ -458,6 +515,30 @@
             },
             { "text": "January", "type": "date" },
             { "text": ") also lets you enjoy Panay's festival atmosphere." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–December",
+              "Start of the dry season",
+              "Start of the dry-season travel season"
+            ],
+            [
+              "January–April",
+              "Dry season, calm seas and clear skies",
+              "Good for bangka trips and cliff jumping — Ati-Atihan in January"
+            ],
+            ["May", "Dry season, very hot", "The water color is at its most beautiful"],
+            [
+              "June–October",
+              "Rainy season, rough seas on the west",
+              "Bangkas often cancelled — typhoons July–November"
+            ]
           ]
         }
       ]

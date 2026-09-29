@@ -329,13 +329,15 @@
                       "children": [{ "text": "Bắt xe buýt đi thành phố Batangas từ Manila" }]
                     },
                     {
-                      "time": "08:00",
+                      "time": "08:30",
                       "children": [
-                        { "text": "Đến cảng Batangas, kiểm tra rồi lên thuyền đi đảo Verde" }
+                        {
+                          "text": "Đến cảng Tabangao, lên tàu công cộng đi đảo Verde (tàu rời bến khi đủ khách)"
+                        }
                       ]
                     },
                     {
-                      "time": "10:00",
+                      "time": "10:30",
                       "children": [{ "text": "Đến đảo Verde, nhận phòng homestay" }]
                     },
                     {
@@ -373,7 +375,16 @@
                       "time": "07:00",
                       "children": [{ "text": "Lặn ống thở buổi sáng (thời điểm biển lặng nhất)" }]
                     },
-                    { "time": "09:00", "children": [{ "text": "Đi thuyền quay về cảng Batangas" }] },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Quay về đất liền bằng bangka thuê riêng đã đặt trước (tàu công cộng rời đảo lúc "
+                        },
+                        { "type": "time", "text": "4 giờ sáng" },
+                        { "text": ")" }
+                      ]
+                    },
                     {
                       "time": "11:00",
                       "children": [
@@ -423,7 +434,7 @@
               ]
             },
             {
-              "title": "Thuyền — Cảng Batangas",
+              "title": "Tàu — cảng Tabangao",
               "icon": "directions_boat",
               "blocks": [
                 {
@@ -433,12 +444,31 @@
                     {
                       "children": [
                         {
-                          "text": "Từ cảng Batangas có thuyền công cộng dành cho người dân đi đến làng trên đảo Verde, mất khoảng "
+                          "text": "Tàu công cộng dành cho người dân không xuất phát từ cảng Batangas mà từ cảng Tabangao (Tabangao Aplaya) ở thành phố Batangas, mỗi ngày một chuyến, mất khoảng "
                         },
-                        { "type": "duration", "text": "1 giờ – 1 giờ 30 phút" },
+                        { "type": "duration", "text": "1 giờ 30 phút" },
+                        { "text": " để ra đảo. Thông thường tàu rời bến khi đủ khách vào khoảng " },
+                        { "type": "time", "text": "9 giờ sáng" },
+                        { "text": ", còn tàu từ đảo ra khởi hành lúc " },
+                        { "type": "time", "text": "4 giờ sáng" },
                         {
-                          "text": ". Số chuyến khá ít và giờ giấc thay đổi tùy thời tiết, số lượng hành khách, nên việc đi về trong ngày có thể khó khăn; hãy kiểm tra tại cảng vào hôm trước hoặc sáng cùng ngày."
-                        }
+                          "text": " ngày hôm sau, nên đi tàu công cộng thì không thể đi về trong ngày. Giá vé khoảng "
+                        },
+                        { "type": "price", "text": "₱150–250" },
+                        { "text": " một chiều." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Để đến cảng Tabangao, từ Batangas Grand Terminal bạn đi jeepney đến Bagong Palengke (chợ mới) khoảng "
+                        },
+                        { "type": "price", "text": "₱14" },
+                        { "text": ", rồi đi jeepney đi Tabangao khoảng " },
+                        { "type": "price", "text": "₱19" },
+                        { "text": ". Ở cảng, bạn đi thuyền nhỏ ra tàu chở khách và trả " },
+                        { "type": "price", "text": "₱10" },
+                        { "text": "/người." }
                       ]
                     },
                     {
@@ -448,6 +478,19 @@
                         },
                         { "type": "price", "text": "₱3,000–6,000" },
                         { "text": ", thương lượng tùy theo số người và thời gian chờ." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Bangka thuê riêng chủ yếu xuất phát từ Ilijan hoặc bờ biển Dela Paz ở thành phố Batangas, gần đảo, mất khoảng "
+                        },
+                        { "type": "duration", "text": "45 phút – 1 giờ" },
+                        {
+                          "text": " để ra đảo. Một chiếc thuyền chở tối đa 6 người có giá từ khoảng "
+                        },
+                        { "type": "price", "text": "₱3,500" },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -545,6 +588,29 @@
               "text": ", gió mùa tây nam và bão khiến eo biển trở nên dữ dội, lực lượng tuần duyên thường xuyên tạm dừng các thuyền nhỏ. Các cửa hàng lặn cũng hay đổi sang điểm lặn gần đảo hơn hoặc hủy chuyến. Dòng chảy chịu ảnh hưởng của con nước nhiều hơn là mùa, đặc biệt mạnh vào những ngày triều cường quanh trăng tròn và trăng non."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, gió đông bắc mạnh vào buổi chiều",
+              "Nhiệt độ nước hơi thấp — ưu tiên lặn vào buổi sáng"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, biển lặng",
+              "Thời điểm lặn tốt nhất — tầm nhìn 15–25m, nước 26–29℃"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa và bão, eo biển động",
+              "Thuyền nhỏ thường ngừng chạy — hãy dự phòng việc hủy chuyến"
+            ]
+          ]
         }
       ]
     },
@@ -566,8 +632,13 @@
             },
             {
               "label": "Phà từ Batangas đến Puerto Galera",
-              "price": "Khoảng ₱400–600 một chiều",
+              "price": "Một chiều khoảng ₱650–900",
               "note": "Chưa gồm phí bến, phí môi trường"
+            },
+            {
+              "label": "Tàu công cộng (Tabangao – đảo Verde)",
+              "price": "Một chiều khoảng ₱150–250",
+              "note": "Một chuyến mỗi ngày"
             },
             {
               "label": "Lặn giải trí (fun dive)",
@@ -585,7 +656,7 @@
               "note": "Kiểm tra thông báo mới nhất"
             },
             {
-              "label": "Thuê nguyên thuyền banca (xuất phát từ cảng Batangas)",
+              "label": "Thuê bangka (xuất phát từ Ilijan · Tabangao)",
               "price": "Khoảng ₱3,000–6,000 khứ hồi",
               "note": "Thương lượng theo số người và thời gian chờ"
             },
@@ -701,6 +772,15 @@
                 },
                 { "type": "duration", "text": "18–24 giờ" },
                 { "text": " sau khi lặn biển." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Ở nhiều làng trên đảo, điện chủ yếu dựa vào máy phát và năng lượng mặt trời, nên chỉ có vào khoảng "
+                },
+                { "type": "time", "text": "6 giờ – 10 giờ tối" },
+                { "text": ". Nếu cần điều hòa, hãy chọn resort có máy phát điện riêng." }
               ]
             }
           ]

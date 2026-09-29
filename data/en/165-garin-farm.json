@@ -40,8 +40,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.2, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 10.5985 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 122.1325 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 10.5967 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 122.139 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -86,7 +86,26 @@
     "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_town_center.jpg"
   },
-  "gallery": { "type": "carousel", "label": "Photos", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "Photos",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/165-garin-farm-2.webp",
+        "alt": "San Joaquin Church near Garin Farm",
+        "credit": "Philip Nalangan / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Church_Iloilo_2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/165-garin-farm-3.webp",
+        "alt": "San Joaquin Campo Santo near Garin Farm",
+        "credit": "Ryomaandres / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Camposanto.png"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -172,7 +191,7 @@
             {
               "type": "card",
               "number": 2,
-              "title": "The Divine Mercy cross",
+              "title": "Divine Mercy cross",
               "children": [
                 {
                   "text": "A massive cross about 31m tall standing atop the hill, visible even from the San Joaquin coast far below. Many pilgrims pray or light a candle beneath it."
@@ -396,12 +415,14 @@
                     {
                       "children": [
                         {
-                          "text": "Get off in San Joaquin town or at the turnoff for Garin Farm's entrance, then travel in by tricycle, about "
+                          "text": "Get off in San Joaquin town or at the fork at the Garin Farm entrance, then take a tricycle about "
                         },
                         { "type": "duration", "text": "10–15 minutes" },
-                        { "text": ", for around " },
+                        { "text": " in. The fare is about " },
+                        { "type": "price", "text": "₱15–25" },
+                        { "text": " shared, or about " },
                         { "type": "price", "text": "₱50–100" },
-                        { "text": "." }
+                        { "text": " if you charter one alone." }
                       ]
                     }
                   ]
@@ -470,6 +491,29 @@
               "text": "Holy Week (the week before Easter) is the busiest time, packed with pilgrims walking the Way of the Cross, and Christmas, the year-end holidays, and weekends also bring many family visitors. For a quiet visit, early morning on a weekday is best. San Joaquin is also known for holding Pasungay, a traditional bull-fighting event, during its town festival, so check local notices for the festival schedule."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, clear skies",
+              "Blue sky and sea stand out — crowded during year-end holidays"
+            ],
+            [
+              "March–May",
+              "Dry season, midday 33–35℃",
+              "Climb before 10 AM or after 3 PM — busiest during Holy Week"
+            ],
+            [
+              "June–November",
+              "Rainy season, frequent afternoon showers",
+              "Slippery steps — facilities close during typhoons"
+            ]
+          ]
         }
       ]
     },
@@ -491,18 +535,18 @@
             },
             {
               "label": "Tricycle",
-              "price": "About ₱50–100 one way",
-              "note": "San Joaquin town to Garin Farm"
+              "price": "About ₱15–25 one way",
+              "note": "Shared basis; about ₱50–100 if chartered"
             },
             {
               "label": "Garin Farm admission",
-              "price": "About ₱300–500",
-              "note": "Meal-inclusive packages available, check current rates"
+              "price": "About ₱150",
+              "note": "20% discount for seniors, activities extra, check the latest fee"
             },
             {
               "label": "Pool/play facilities",
-              "price": "About ₱100–300",
-              "note": "Extra fee per facility"
+              "price": "About ₱80–350",
+              "note": "Pool ₱80, zip line ₱250–350, varying by facility"
             },
             {
               "label": "Lunch",
@@ -516,8 +560,8 @@
             },
             {
               "label": "Resort accommodation",
-              "price": "About ₱2,000–5,000 per night",
-              "note": "Varies by room type"
+              "price": "About ₱1,500–3,500 per night",
+              "note": "Breakfast and pool included, varies by room type"
             }
           ]
         },
@@ -541,11 +585,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Most travelers stay in Iloilo City and visit as a day trip. For a quiet countryside night, you can stay in a resort room at Garin Farm itself (about "
+              "text": "Most travelers stay in Iloilo City and visit as a day trip. If you want a quiet countryside night, you can stay in a resort room inside Garin Farm (about "
             },
-            { "type": "price", "text": "₱2,000–5,000" },
+            { "type": "price", "text": "₱1,500–3,500" },
             {
-              "text": " a night) or at a simple beach resort along the San Joaquin coast. Staying at the farm is convenient for climbing the pilgrimage hill early in the morning, and it's best to book early during Holy Week and holidays."
+              "text": " per night) or a simple beach resort on the San Joaquin coast. A farm stay is convenient for anyone planning to climb the pilgrimage hill early in the morning, and you should book early for Holy Week and holidays."
             }
           ]
         },
@@ -626,6 +670,15 @@
                 {
                   "text": "During Holy Week, there's a custom called Visita Iglesia, visiting several churches in turn to pray. If visiting during this period, walking the pilgrimage route linking Miagao and San Joaquin churches with Garin Farm alongside locals can be a special experience."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "It's 456 steps to the area with the Divine Mercy cross and about 480 steps to the very top. If the steps are too much, you can take a golf cart (about "
+                },
+                { "type": "price", "text": "₱60–90" },
+                { "text": ") to the pavilion or near the cross." }
               ]
             }
           ]

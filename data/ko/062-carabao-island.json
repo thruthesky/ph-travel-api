@@ -47,7 +47,7 @@
     "type": "airport",
     "label": "가까운 공항",
     "icon": "flight",
-    "text": "카티클란 고드프리 P. 라모스 공항(MPH)",
+    "text": "카티클란 고도프레도 P. 라모스 공항(MPH)",
     "code": "MPH"
   },
   "image": {
@@ -63,17 +63,10 @@
     "items": [
       {
         "type": "image",
-        "url": "images/062-carabao-island-2.webp",
+        "url": "images/062-carabao-island-4.webp",
         "alt": "카라바오 섬",
-        "credit": "McNeil Gaila / CC BY-SA 4.0 / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Limbones_Island_2021.jpg"
-      },
-      {
-        "type": "image",
-        "url": "images/062-carabao-island-3.webp",
-        "alt": "카라바오 섬",
-        "credit": "USAID Biodiversity & Forestry / Public domain / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Philippines;_Nagkakaisang_Tribu_ng_Palawan)_(40248017142).jpg"
+        "credit": "Alexey Komarov / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Boracay_Island,_Philippines_-_panoramio.jpg"
       }
     ]
   },
@@ -275,6 +268,37 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "보라카이 출발 당일치기",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "오전 8시",
+                      "children": [
+                        { "text": "보라카이 스테이션 1 인근에서 전세 방카 출발(약 " },
+                        { "type": "duration", "text": "40분~1시간" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "오전 9시", "children": [{ "text": "코딩코딩 포인트에서 절벽 다이빙과 수중 동굴 수영" }] },
+                    { "time": "오전 10시 30분", "children": [{ "text": "캐시드럴 동굴 탐험(현지 가이드 동행)" }] },
+                    { "time": "정오", "children": [{ "text": "화이트 비치 식당에서 점심과 해수욕" }] },
+                    { "time": "오후 2시", "children": [{ "text": "섬 주변 산호 지대에서 스노클링" }] },
+                    { "time": "오후 3시 30분", "children": [{ "text": "바람이 강해지기 전에 보라카이로 귀환" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "전세 방카는 왕복과 대기 시간을 포함해 요금을 미리 정합니다. 타가이타이 포인트 석양까지 보려면 돌아오는 길이 어두워지므로 섬에서 1박하는 편이 안전합니다."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -303,6 +327,14 @@
                     { "text": " 걸립니다. 카티클란 공항이 항구와 가까워 훨씬 편리하며, 칼리보 공항에 내리면 카티클란까지 밴으로 약 " },
                     { "type": "duration", "text": "1시간 30분~2시간" },
                     { "text": "을 더 가야 합니다. 세부에서도 카티클란·칼리보 직항이 있습니다." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "클락 공항에서도 카티클란 직항이 하루 2~3편 안팎 있으며 약 " },
+                    { "type": "duration", "text": "1시간 15분" },
+                    { "text": "이 걸려, 마닐라 북쪽이나 앙헬레스에서 출발할 때 편리합니다." }
                   ]
                 }
               ]
@@ -393,6 +425,18 @@
             { "text": "에 이 일대를 지나므로 일정에 여유를 두십시오. 인근 칼리보의 아티아티한 축제(" },
             { "type": "date", "text": "1월" },
             { "text": " 셋째 주)와 연계하면 파나이 섬의 축제 분위기도 함께 즐길 수 있습니다." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "시기별 한눈에 보기",
+          "icon": "calendar_month",
+          "columns": ["시기", "날씨", "여행 포인트"],
+          "rows": [
+            ["11월~12월", "건기 시작", "건기 여행 시즌의 시작"],
+            ["1월~4월", "건기, 바다 잔잔·하늘 맑음", "방카 이동·절벽 다이빙 적합 — 1월 아티아티한"],
+            ["5월", "건기, 무척 더움", "물빛이 가장 아름다움"],
+            ["6월~10월", "우기, 서쪽 바다 거침", "방카 결항 잦음 — 태풍은 7~11월"]
           ]
         }
       ]

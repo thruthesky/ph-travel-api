@@ -146,14 +146,16 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "Since opening a new passenger terminal in " },
-            { "type": "date", "text": "2021" },
             {
-              "text": ", Clark International Airport (CRK) has connected directly with Incheon, Busan, and other Korean cities, making it a gateway for starting a trip to northern Luzon without going through Manila. It's only "
+              "text": "Since Clark International Airport (CRK) opened a new passenger terminal in "
+            },
+            { "type": "date", "text": "2022" },
+            {
+              "text": ", it has been linked by direct flights with Korean cities such as Incheon and Busan, becoming a gateway for starting a trip to northern Luzon without passing through Manila. It takes only "
             },
             { "type": "duration", "text": "10–20 minutes" },
             {
-              "text": " by car from the airport to a hotel in town, making it easy to start your trip from the day you arrive."
+              "text": " by car from the airport to a hotel in the city, so it is easy to start traveling on the day you arrive."
             }
           ]
         },
@@ -391,6 +393,34 @@
                     { "type": "duration", "text": "10–20 minutes" },
                     { "text": " by taxi or hotel pickup." }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Since " },
+                    { "text": "March 29, 2026", "type": "date" },
+                    {
+                      "text": ", propeller aircraft have been banned from Manila airport, so Cebgo's small-aircraft routes have moved to Clark. As a result, you can take direct flights from Clark to "
+                    },
+                    { "text": "El Nido", "type": "place_link", "slug": "el-nido" },
+                    { "text": ", " },
+                    { "text": "Coron", "type": "place_link", "slug": "coron" },
+                    { "text": " (Busuanga), " },
+                    { "text": "Siargao", "type": "place_link", "slug": "siargao" },
+                    {
+                      "text": ", Naga, and San Jose (Mindoro), and in particular the direct flights to El Nido from Luzon now depart from Clark rather than Manila. PAL Express, a Philippine Airlines affiliate, also flies the "
+                    },
+                    { "text": "Batanes", "type": "place_link", "slug": "batanes" },
+                    {
+                      "text": " (Basco) route. Korea routes include direct flights from Cheongju in addition to Incheon and Busan. You can check routes on the "
+                    },
+                    {
+                      "text": "official Clark International Airport website",
+                      "type": "link",
+                      "url": "https://clarkinternationalairport.com"
+                    },
+                    { "text": "." }
+                  ]
                 }
               ]
             },
@@ -402,16 +432,38 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "The easiest way from Manila is the airport-connecting P2P bus. Buses (Genesis, etc.) run to Clark International Airport and SM Clark from NAIA Terminal 3, PITX, Trinoma, and Cubao, taking about "
+                      "text": "The most convenient way from Manila is the airport-linked P2P bus. Buses (Genesis, etc.) run from NAIA Terminal 3, PITX, Trinoma, Cubao, and elsewhere to Clark International Airport and SM Clark, taking about "
                     },
                     { "type": "duration", "text": "2.5–3 hours" },
-                    { "text": ", with fares around " },
-                    { "type": "price", "text": "₱480–550" },
+                    { "text": " and costing about " },
+                    { "type": "price", "text": "₱550–630" },
                     {
-                      "text": ". For a cheaper option, take a northbound bus (Victory Liner, etc.) from Cubao or Pasay, get off at the Dau terminal in Mabalacat, and continue into Clark by jeepney or taxi (bus fare about "
+                      "text": ". To go cheaply, take a north-bound bus such as Victory Liner from Cubao or Pasay, get off at the Dau terminal in Mabalacat, then take a jeepney or taxi into Clark (bus about "
                     },
                     { "type": "price", "text": "₱200–300" },
                     { "text": ")." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "P2P bus fares differ by departure point. From NAIA Terminal 3 and PITX it is about "
+                    },
+                    { "type": "price", "text": "₱520–600" },
+                    {
+                      "text": " (the Joybus, with wider seats and a toilet, costs more), and from Cubao and Trinoma about "
+                    },
+                    { "type": "price", "text": "₱370–400" },
+                    { "text": ". The PITX route was newly introduced on " },
+                    { "type": "date", "text": "March 17, 2026" },
+                    {
+                      "text": ", and most buses pass through SM Clark and stop at the arrivals level of the airport passenger terminal. If you have an early-morning or late-night flight, check the timetable in advance. P2P bus fares rose by about 15% on "
+                    },
+                    { "text": "September 28, 2026", "type": "date" },
+                    {
+                      "text": ", and the amounts above are rough figures that reflect the increase."
+                    }
                   ]
                 }
               ]
@@ -502,6 +554,29 @@
               "text": ", you can see the spectacle of enormous Christmas lanterns (parol) made of thousands of light bulbs twinkling in time with music. During Holy Week, some Pampanga towns hold religious events reenacting actual crucifixions, drawing large crowds."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, cool and clear from December to February",
+              "Best for outdoor activities — Lantern Festival in December, Hot Air Balloon Festival in February"
+            ],
+            [
+              "March–May",
+              "Dry season, hottest at around 35°C at midday",
+              "Mix indoor and outdoor — Holy Week crucifixion events"
+            ],
+            [
+              "June–October",
+              "Rainy season, strong afternoon showers",
+              "Pinatubo tours often suspended — typhoons in July–September"
+            ]
+          ]
         }
       ]
     },
@@ -518,7 +593,7 @@
           "items": [
             {
               "label": "Manila–Clark P2P bus",
-              "price": "About ₱480–550 one way",
+              "price": "About ₱550–630 one way",
               "note": "From NAIA/PITX/Trinoma/Cubao"
             },
             { "label": "Airport–hotel taxi", "price": "About ₱300–600", "note": "Within Clark" },
@@ -688,6 +763,15 @@
                 },
                 { "type": "time", "text": "3–4 AM" },
                 { "text": " is typical." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The Pinatubo Kapas route requires foreigners to have a Philippine Air Force visit permit, so you must send your passport photo page to the tour operator "
+                },
+                { "text": "at least 35 days", "bold": true },
+                { "text": " before your visit. Book before you come to Clark." }
               ]
             }
           ]

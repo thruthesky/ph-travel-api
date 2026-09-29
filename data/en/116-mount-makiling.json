@@ -390,6 +390,53 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Half-day route",
+              "subtitle": "Botanic garden and hot springs, no hiking",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Leave Manila, take the SLEX and exit at Calamba to reach Los Baños"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        { "text": "Stroll the Makiling Botanic Gardens inside the UPLB campus" }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        { "text": "Look around the campus around Carabao Park and Baker Hall" }
+                      ]
+                    },
+                    {
+                      "time": "11:30",
+                      "children": [
+                        {
+                          "text": "Buy freshly baked pies at a buko pie shop along the highway, and have lunch"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:00–16:00",
+                      "children": [
+                        {
+                          "text": "Relax with day-use entry at a hot spring resort, then head back to Manila"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -543,6 +590,29 @@
             {
               "text": " rainy season, the trail turns muddy and leeches multiply sharply. Because the mountain itself generates cloud cover, afternoon showers are frequent even in the dry season, so it's best to start early. All activities are suspended during typhoons or heavy rain, and landslides sometimes close the route, so check the latest notices from the managing agency. The hot springs and botanic garden can be enjoyed year-round."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, cool mornings and fewer leeches",
+              "Suitable for a first hike"
+            ],
+            [
+              "March–May",
+              "Dry season, 33–35℃ at the foot, shaded in the forest",
+              "Holy Week guide-fee waiver events — hikers flock in"
+            ],
+            [
+              "June–October",
+              "Rainy season, muddy and more leeches",
+              "Activities halt in heavy rain or typhoons — hot springs and the botanic garden are open year-round"
+            ]
           ]
         }
       ]
@@ -705,6 +775,17 @@
                 {
                   "text": "Combine it with Rizal Shrine Calamba, Nagcarlan Underground Cemetery, and Pagsanjan Falls to extend it into a 2–3 day trip around Laguna."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "When a typhoon or heavy-rain warning is issued, the Maria Makiling trail and the botanic garden are both temporarily closed (they also closed and then reopened during the "
+                },
+                { "type": "date", "text": "November 2024" },
+                { "text": " typhoon). Before you leave, check the management body MCME's " },
+                { "type": "link", "text": "official website", "url": "https://makiling.center/" },
+                { "text": " and its official Facebook notices." }
               ]
             }
           ]

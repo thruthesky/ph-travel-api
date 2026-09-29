@@ -255,20 +255,20 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "04:00–05:00",
+                      "time": "3–4 giờ sáng",
                       "children": [
                         {
-                          "text": "Lên xe van từ bến San Jose ở Puerto Princesa đi Rio Tuba (khoảng "
+                          "text": "Đón tại nơi lưu trú theo tour ghép, hoặc lên xe van đi Rio Tuba từ bến xe Irawan ở Puerto Princesa (khoảng "
                         },
                         { "type": "duration", "text": "5–6 tiếng" },
                         { "text": ")" }
                       ]
                     },
                     {
-                      "time": "10:00–11:00",
+                      "time": "9–11 giờ sáng",
                       "children": [
                         {
-                          "text": "Đến Rio Tuba, tập trung đoàn tour ghép hoặc lên thuyền banca tại cảng"
+                          "text": "Đến cảng Bulilluyan (tour ghép) hoặc cảng Rio Tuba (đi tự túc), lên thuyền banca"
                         }
                       ]
                     },
@@ -354,13 +354,17 @@
                     {
                       "time": "Buổi sáng",
                       "children": [
-                        { "text": "Dạo bộ trên bãi biển Punta Sebaring rồi quay về Rio Tuba" }
+                        {
+                          "text": "Đi dạo bãi biển Punta Sebaring rồi quay về cảng Bulilluyan hoặc Rio Tuba"
+                        }
                       ]
                     },
                     {
                       "time": "Buổi chiều",
                       "children": [
-                        { "text": "Từ Rio Tuba đi xe van về Puerto Princesa (đến nơi vào ban đêm)" }
+                        {
+                          "text": "Đi xe van từ cảng về lại Puerto Princesa (đến nơi vào cuối chiều đến tối)"
+                        }
                       ]
                     }
                   ]
@@ -412,15 +416,15 @@
                     {
                       "children": [
                         {
-                          "text": "Từ bến San Jose ở Puerto Princesa đến Rio Tuba thuộc huyện Bataraza ở phía nam, đi xe van mất khoảng "
+                          "text": "Từ bến xe Irawan ở Puerto Princesa đến Rio Tuba thuộc huyện Bataraza ở phía nam, đi xe van mất khoảng "
                         },
                         { "type": "duration", "text": "5–6 tiếng" },
                         { "text": ", giá khoảng " },
                         { "type": "price", "text": "₱450–600" },
-                        { "text": "/người. Chuyến sớm nhất khởi hành khoảng " },
-                        { "type": "time", "text": "04:00" },
+                        { "text": "/người. Chuyến đầu tiên khởi hành khoảng " },
+                        { "type": "time", "text": "4 giờ sáng" },
                         {
-                          "text": ", và các tour ghép thường khuyên khởi hành từ sáng sớm để kịp giờ tàu buổi sáng."
+                          "text": ", và các tour ghép thường khuyến nghị xuất phát từ tờ mờ sáng để kịp giờ tàu buổi sáng sớm."
                         }
                       ]
                     },
@@ -446,25 +450,44 @@
                     {
                       "children": [
                         {
-                          "text": "Tàu khách công cộng từ cảng Rio Tuba đến đảo chính Balabac (Poblacion) chạy ít nhất một chuyến mỗi ngày, mất khoảng "
+                          "text": "Từ cảng Rio Tuba đến đảo chính Balabac (Poblacion) có phà chung, thường mỗi ngày một chuyến khởi hành từ cuối buổi sáng đến đầu buổi chiều, mất khoảng "
                         },
                         { "type": "duration", "text": "3–4 tiếng" },
                         { "text": ", giá khoảng " },
                         { "type": "price", "text": "₱350–500" },
-                        {
-                          "text": "/người. Tàu có thể ghé qua đảo Bancalan và một số nơi khác trên đường đi."
-                        }
+                        { "text": "/người. Phà đôi khi ghé qua đảo Bancalan… giữa đường." }
                       ]
                     },
                     {
                       "children": [
                         {
-                          "text": "Các tour ghép bắt đầu tour đảo trực tiếp bằng thuyền banca riêng từ Rio Tuba, nên rút ngắn đáng kể thời gian di chuyển. Với gói "
+                          "text": "Hầu hết các tour ghép bắt đầu chuyến đảo ngay bằng thuyền banca riêng từ cảng Bulilluyan ở cuối huyện Bataraza, xa hơn về phía nam so với Rio Tuba, nên rút ngắn đáng kể thời gian di chuyển. Tour "
                         },
-                        { "type": "duration", "text": "3 đêm 4 ngày" },
-                        { "text": ", giá khoảng " },
+                        { "type": "duration", "text": "4 ngày 3 đêm" },
+                        { "text": " có giá khoảng " },
                         { "type": "price", "text": "₱13,000–18,000" },
-                        { "text": "/người, và có năm còn cộng thêm phụ phí nhiên liệu." }
+                        { "text": "/người, và trong " },
+                        { "type": "date", "text": "năm 2026" },
+                        { "text": " có lúc còn thu thêm phụ phí nhiên liệu " },
+                        { "type": "price", "text": "₱500–1,000" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Tour ghép Bulilluyan đón tại nơi lưu trú ở Puerto Princesa lúc "
+                        },
+                        { "type": "time", "text": "3–4 giờ sáng" },
+                        { "text": ", đến cảng vào khoảng " },
+                        { "type": "time", "text": "9 giờ sáng" },
+                        { "text": ", rồi đi thuyền banca khoảng " },
+                        { "type": "duration", "text": "1 tiếng" },
+                        {
+                          "text": " đến đảo Bancalan và bắt đầu tour đảo. Nếu một nhóm nhỏ thuê riêng xe van, chặng Puerto Princesa–Bulilluyan một chiều khoảng "
+                        },
+                        { "type": "price", "text": "₱9,750–11,300" },
+                        { "text": "/xe." }
                       ]
                     }
                   ]
@@ -529,6 +552,30 @@
               "text": ", mưa và sóng thường xuyên do ảnh hưởng của gió mùa tây nam, khiến tour hay bị hủy hoặc thay đổi lịch trình. Vì nằm ở cực nam Philippines nên hiếm khi có bão đi qua trực tiếp, nhưng khi một cơn bão ở xa kéo gió mùa mạnh lên, tàu có thể không chạy được trong nhiều ngày liền. Bãi cát nổi chỉ hiện rõ khi thủy triều xuống, nên việc kiểm tra bảng giờ thủy triều cũng rất quan trọng."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 1–tháng 2",
+              "Mùa khô, gió đông bắc còn sót lại",
+              "Đi được nhưng ngoài khơi có thể sóng cao"
+            ],
+            [
+              "Tháng 3–tháng 5",
+              "Mùa khô, gió yếu, biển lặng nhất",
+              "Thời điểm tốt nhất — tour ghép tập trung, kiểm tra bảng thủy triều"
+            ],
+            ["Tháng 6–tháng 10", "Mùa mưa, gió mùa tây nam", "Tour thường bị hủy hoặc đổi lịch"],
+            [
+              "Tháng 11–tháng 12",
+              "Không phải thời điểm tốt nhất",
+              "Kiểm tra tình trạng biển rồi hãy lên kế hoạch"
+            ]
+          ]
         }
       ]
     },
@@ -582,6 +629,11 @@
               "label": "Ăn uống",
               "price": "Khoảng ₱150–400/bữa",
               "note": "Phần lớn đã gồm trong tour"
+            },
+            {
+              "label": "Xe van thuê riêng đi Bulilluyan",
+              "price": "Khoảng ₱9,750–11,300/xe một chiều",
+              "note": "Nhóm riêng, tùy số người"
             }
           ]
         },
@@ -732,6 +784,13 @@
               "children": [
                 {
                   "text": "Một số đảo là đất tư nhân hoặc khu vực do cộng đồng bản địa quản lý, nên quy định ra vào và phí vào cổng có thể thay đổi thường xuyên. Hãy kiểm tra thông báo mới nhất."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Balabac có cá sấu nước mặn sinh sống. Đừng bơi ở các đầm lầy quanh Poblacion trên đảo chính Balabac, vùng nước ngập mặn phía đèn hải đăng Melville hay các cửa sông; chỉ xuống nước ở những bãi biển mà hướng dẫn viên chỉ định."
                 }
               ]
             }

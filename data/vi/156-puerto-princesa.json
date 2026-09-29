@@ -355,6 +355,59 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Ngày mưa",
+              "subtitle": "Chủ yếu tham quan trong thành phố",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Ghé Nhà thờ chính tòa Vô Nhiễm Nguyên Tội và Plaza Cuartel lúc tạnh mưa"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [
+                        {
+                          "text": "Xem hiện vật hang Tabon và đồ thủ công của người bản địa tại Bảo tàng Palawan"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [{ "text": "Ăn trưa với món mì nóng tại quán Chaolong" }]
+                    },
+                    {
+                      "time": "14:00",
+                      "children": [
+                        {
+                          "text": "Mua bánh hopia ở tiệm bánh Baker's Hill và mua hạt điều tại các cửa hàng lưu niệm trong thành phố"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "18:00",
+                      "children": [
+                        { "text": "Ăn tối hải sản tại Ka Lui hoặc Kinabuchs Grill & Bar" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Du thuyền ngắm đom đóm và tour vịnh Honda dễ bị hủy khi trời mưa, nên vào mùa mưa hãy xếp chúng vào phần đầu lịch trình thay vì ngày cuối để còn có thể dời lại."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -448,10 +501,10 @@
                     {
                       "children": [
                         {
-                          "text": "Xe van và xe buýt từ El Nido, Port Barton, Sabang, Quezon phía nam · Brooke's Point đều đến bến xe San Jose, cách trung tâm thành phố khoảng "
+                          "text": "Xe van và xe buýt từ El Nido, Port Barton, Sabang, nam Quezon và Brooke's Point đến bến xe Irawan, cách trung tâm thành phố khoảng "
                         },
-                        { "type": "distance", "text": "7km" },
-                        { "text": " về phía bắc. Từ El Nido đi xe van ghép mất khoảng " },
+                        { "type": "distance", "text": "12km" },
+                        { "text": " về phía nam. Từ El Nido đi xe van chung mất khoảng " },
                         { "type": "duration", "text": "5–6 giờ" },
                         { "text": "." }
                       ]
@@ -459,10 +512,10 @@
                     {
                       "children": [
                         {
-                          "text": "Từ bến xe San Jose vào trung tâm thành phố bằng multicab hoặc jeepney mất khoảng "
+                          "text": "Từ bến xe Irawan vào trung tâm thành phố đi multicab hoặc jeepney mất khoảng "
                         },
-                        { "type": "duration", "text": "20–30 phút" },
-                        { "text": ", thuê nguyên chuyến tricycle khoảng " },
+                        { "type": "duration", "text": "30 phút" },
+                        { "text": ", thuê nguyên chiếc tricycle khoảng " },
                         { "type": "price", "text": "₱150–250" },
                         { "text": "." }
                       ]
@@ -550,6 +603,30 @@
             { "text": "tháng 6", "type": "date" },
             { "text": ", lễ hội văn hóa Baragatan của toàn tỉnh Palawan kéo dài khoảng 3 tuần." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            ["Tháng 11 – tháng 12", "Đầu mùa khô", "Đầu mùa khô, thời điểm đẹp để đi chơi"],
+            [
+              "Tháng 1 – tháng 4",
+              "Mùa khô, ít mưa, biển lặng",
+              "Ít lo tour sông ngầm và vịnh Honda bị hủy — lễ hội Balayong quanh ngày 4 tháng 3"
+            ],
+            [
+              "Tháng 5",
+              "Cuối mùa khô, 31–33℃ oi bức",
+              "Nên dồn tham quan trong thành phố vào buổi sáng và lúc hoàng hôn"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió tây nam gây mưa rào thường xuyên",
+              "Du thuyền ngắm đom đóm có thể bị hủy — lễ hội Baragatan tháng 6"
+            ]
+          ]
         }
       ]
     },
@@ -575,7 +652,7 @@
               "note": "Một chiều, giá cố định theo điểm đến"
             },
             {
-              "label": "City tour",
+              "label": "Tham quan thành phố",
               "price": "Khoảng ₱700–1,200",
               "note": "1 người, tour ghép, gồm một phần vé vào cửa"
             },
@@ -599,7 +676,12 @@
               "price": "Khoảng ₱1,200–5,000",
               "note": "1 đêm, từ nhà khách đến khách sạn tầm trung"
             },
-            { "label": "Ăn uống", "price": "Khoảng ₱600–1,200", "note": "1 người/ngày" }
+            { "label": "Ăn uống", "price": "Khoảng ₱600–1,200", "note": "1 người/ngày" },
+            {
+              "label": "Thuyền ngắm đom đóm (tự đến)",
+              "price": "Khoảng ₱600",
+              "note": "Tính cho 1 thuyền 3 người, bến sông Iwahig"
+            }
           ]
         },
         {
@@ -710,6 +792,36 @@
               "children": [
                 {
                   "text": "Hạt điều ở các cửa hàng lưu niệm và chợ trong thành phố rẻ hơn ở cửa hàng sân bay, nên hãy mua trước một ngày trước khi rời đi."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bạn cũng có thể tự đến thay vì đi tour của công ty du lịch. Bến thuyền ngắm đom đóm Iwahig nằm ở km 20 trên quốc lộ phía nam, cách trung tâm thành phố khoảng "
+                },
+                { "type": "duration", "text": "35 phút" },
+                { "text": " đi xe, và từ " },
+                { "type": "time", "text": "6 giờ chiều" },
+                { "text": " bạn có thể đi thuyền với giá " },
+                { "type": "price", "text": "₱600" },
+                { "text": " cho 1 thuyền (3 người). Hãy xem giá mới nhất trong hướng dẫn của " },
+                {
+                  "type": "link",
+                  "text": "Văn phòng Du lịch Thành phố Puerto Princesa",
+                  "url": "https://citytourism.puertoprincesa.ph/iwahig-firefly-watching/"
+                },
+                { "text": "." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Ka Lui nghỉ vào Chủ nhật và chỉ mở cửa bữa trưa (" },
+                { "type": "time", "text": "11 giờ sáng–2 giờ chiều" },
+                { "text": ") và bữa tối (" },
+                { "type": "time", "text": "6 giờ chiều–10 giờ 30 tối" },
+                {
+                  "text": "). Buổi tối nhanh hết chỗ nên tốt nhất hãy gọi điện đặt trước rồi mới đến."
                 }
               ]
             }

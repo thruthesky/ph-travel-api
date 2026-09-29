@@ -283,7 +283,11 @@
                       "time": "10:00",
                       "children": [
                         {
-                          "text": "Ride the Skyrider, Skycycle, and other attractions (lines are shorter in the morning)"
+                          "text": "Use the activity facilities such as Skyrider and Skycycle (on Friday–Sunday, mornings have shorter lines). On Monday–Thursday the activity facilities open at "
+                        },
+                        { "type": "time", "text": "1 PM" },
+                        {
+                          "text": ", so walk the flower gardens and vegetable garden first at that time and put off the activities until after lunch"
                         }
                       ]
                     },
@@ -549,6 +553,39 @@
               "text": ", when Davao's biggest festival, Kadayawan, is held, as well as Holy Week and the year-end holidays, the park gets crowded and rooms fill up fast."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "January–May",
+              "Relatively clear, 18–25℃ by day",
+              "Best for walks and activities — crowded during Holy Week"
+            ],
+            [
+              "June–July",
+              "Afternoon showers and fog",
+              "Arrive early in the morning and do outdoor plans first"
+            ],
+            [
+              "August",
+              "Showers and fog, Kadayawan Festival",
+              "The park and lodging are crowded around the third week"
+            ],
+            [
+              "September–November",
+              "Afternoon showers and fog",
+              "Chilly mornings and nights — do outdoor plans in the morning"
+            ],
+            [
+              "December",
+              "Showers and fog, year-end",
+              "Year-end lights and events — lodging fills up quickly over the holidays"
+            ]
+          ]
         }
       ]
     },
@@ -565,18 +602,18 @@
           "items": [
             {
               "label": "Entrance fee (package with lunch buffet)",
-              "price": "About ₱600–900",
-              "note": "Weekday/weekend, varies by package"
+              "price": "About ₱680–980",
+              "note": "Weekday set lunch, weekend buffet; ages 4–10 ₱480–490"
             },
             {
               "label": "Guided shuttle tour",
-              "price": "About ₱120–200",
+              "price": "About ₱400–430",
               "note": "About 45 minutes, first-come, first-served"
             },
-            { "label": "Skyrider", "price": "About ₱200–350", "note": "Per ride" },
+            { "label": "Skyrider zipline", "price": "About ₱200", "note": "Per ride" },
             {
               "label": "Skycycle/Skyswing",
-              "price": "About ₱200–500",
+              "price": "About ₱250–500",
               "note": "Varies by activity and group size"
             },
             {
@@ -584,7 +621,7 @@
               "price": "About ₱100–300",
               "note": "Priced separately by time or catch"
             },
-            { "label": "Swimming pool", "price": "About ₱60–100", "note": "For day visitors" },
+            { "label": "Swimming pool", "price": "About ₱200", "note": "For day visitors" },
             {
               "label": "City–Eden taxi",
               "price": "About ₱600–1,000 one-way",
@@ -631,6 +668,18 @@
           "type": "paragraph",
           "children": [
             {
+              "text": "For a family gathering or a group, you can rent a whole house that sleeps 5–25 people together, such as Mountain Villa, Pine Lodge, Log Cabin, and Shangri-La. Rates run about "
+            },
+            { "type": "price", "text": "₱6,475–25,000" },
+            {
+              "text": " per night (room only, breakfast extra), and split among the group it can even work out cheaper than regular rooms."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
               "text": "The main meal is the lunch buffet at the park restaurant. It features salads and soups made from lettuce, herbs, and vegetables grown on the park's own farm, along with Filipino-style chicken and pork dishes, and choosing an entrance package that includes the buffet means you won't need to find a separate restaurant. Tilapia caught at the fishing pond can also be grilled or fried for you. Back in the city in the evening, be sure to try Davao's famous tuna dishes and tropical fruits like durian, mangosteen, and pomelo."
             }
           ]
@@ -650,11 +699,30 @@
           "items": [
             {
               "children": [
-                { "text": "The park is generally open from " },
-                { "type": "time", "text": "9 AM to 5 PM" },
+                { "text": "The park's operating hours are generally " },
+                { "type": "time", "text": "8 AM–5 PM" },
                 {
-                  "text": ". Arriving right at opening time means shorter lines for the attractions and a chance to see the misty forest."
+                  "text": ". If you arrive when it opens, the lines at the activity facilities are short and you can also see the fog-covered forest scenery."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Activity facilities such as Skyrider, Skycycle, and Sky Swing operate only "
+                },
+                { "type": "time", "text": "1–5 PM" },
+                { "text": " Monday to Thursday and " },
+                { "type": "time", "text": "8 AM–5 PM" },
+                {
+                  "text": " Friday to Sunday. All activities require signing a waiver, and minors need a guardian's consent. The latest price list is available on the "
+                },
+                {
+                  "type": "link",
+                  "text": "official website",
+                  "url": "https://www.edennaturepark.com.ph/rates/"
+                },
+                { "text": "." }
               ]
             },
             {

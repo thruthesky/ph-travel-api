@@ -390,6 +390,51 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Lịch trình nửa ngày",
+              "subtitle": "Vườn thực vật và suối nước nóng, không leo núi",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Xuất phát từ Manila, đi đường SLEX, ra ở lối ra Calamba rồi đến Los Baños"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        { "text": "Đi dạo Vườn thực vật Makiling trong khuôn viên UPLB" }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        { "text": "Tham quan khuôn viên quanh công viên Carabao và Baker Hall" }
+                      ]
+                    },
+                    {
+                      "time": "11:30",
+                      "children": [
+                        { "text": "Mua bánh buko pie mới nướng ở tiệm bên quốc lộ, ăn trưa" }
+                      ]
+                    },
+                    {
+                      "time": "13:00–16:00",
+                      "children": [
+                        {
+                          "text": "Nghỉ ngơi tại resort suối nước nóng theo vé vào cửa trong ngày rồi xuất phát về Manila"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -543,6 +588,29 @@
             {
               "text": ", đường mòn trở nên lầy lội và đỉa núi sinh sôi mạnh. Vì bản thân núi Makiling tạo ra mây nên ngay cả mùa khô cũng thường có mưa rào buổi chiều, nên bạn nên xuất phát sớm. Khi có bão hoặc mưa lớn, mọi hoạt động sẽ bị tạm dừng, và cung đường cũng có thể đóng do sạt lở, nên hãy kiểm tra thông báo mới nhất từ cơ quan quản lý. Suối nước nóng và vườn thực vật có thể tận hưởng quanh năm."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, sáng mát và ít đỉa",
+              "Thích hợp cho chuyến leo núi đầu tiên"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, chân núi 33–35℃, rừng có bóng râm",
+              "Sự kiện miễn phí hướng dẫn viên dịp Tuần Thánh — người leo núi đông đúc"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, đường lầy và đỉa nhiều hơn",
+              "Hoạt động tạm ngừng khi có mưa lớn hoặc bão — suối nước nóng và vườn thực vật mở quanh năm"
+            ]
           ]
         }
       ]
@@ -705,6 +773,23 @@
                 {
                   "text": "Nếu kết hợp với nhà lưu niệm Rizal ở Calamba, nghĩa trang ngầm Nagcarlan và thác Pagsanjan, bạn có thể mở rộng thành chuyến du lịch Laguna 2–3 ngày."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi có cảnh báo bão hoặc mưa lớn, đường mòn Mariang Makiling và vườn thực vật sẽ cùng bị đóng cửa tạm thời (trong đợt bão "
+                },
+                { "type": "date", "text": "tháng 11 năm 2024" },
+                {
+                  "text": " nơi đây cũng đóng cửa rồi mở lại). Trước khi đi, hãy kiểm tra thông báo trên "
+                },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức",
+                  "url": "https://makiling.center/"
+                },
+                { "text": " của cơ quan quản lý MCME và trang Facebook chính thức." }
               ]
             }
           ]

@@ -39,8 +39,8 @@
     "items": ["Highlands", "Pine forest", "Zipline", "Adventure park", "Cool climate"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 8.1986 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.8601 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 8.2025 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.8586 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -95,6 +95,13 @@
         "alt": "Dahilayan",
         "credit": "Obsidian Soul / CC0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Zorbing_at_Dahilayan_Forest_Park_Resort,_Manolo_Fortich,_Bukidnon,_Philippines_03.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/094-dahilayan-3.webp",
+        "alt": "Dahilayan",
+        "credit": "Obsidian Soul / CC0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pinus_kesiya_(Benguet_pine)_in_Dahilayan,_Bukidnon_4.jpg"
       }
     ]
   },
@@ -182,10 +189,12 @@
               "title": "The 840m dual zipline",
               "children": [
                 {
-                  "text": "Dahilayan's signature experience: two people fly side by side over the pine forest in a \"Superman\" pose, face down. Top speeds are said to reach "
+                  "text": "The signature Dahilayan experience, where two people fly side by side in a prone \"Superman\" position over the pine forest. Top speed is said to reach "
                 },
-                { "type": "distance", "text": "80–90 km/h" },
-                { "text": ", and on a clear day the Kitanglad range appears straight ahead." }
+                { "type": "distance", "text": "60–80km" },
+                {
+                  "text": " per hour, and on clear days the Kitanglad mountain range is right in front of you."
+                }
               ]
             },
             {
@@ -348,6 +357,66 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Shuttle day trip",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        { "text": "Depart on the shuttle from Limketkai Center in Cagayan de Oro." }
+                      ]
+                    },
+                    {
+                      "time": "10:30–12:30",
+                      "children": [
+                        { "text": "Ride the " },
+                        { "type": "distance", "text": "840 m" },
+                        {
+                          "text": " zipline and the mountain coaster at the Adventure Park. Shuttle guests all arrive at once, so go to the ticket booth first."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:30–13:30",
+                      "children": [
+                        {
+                          "text": "Have lunch at a restaurant in the park, with a warm soup dish such as bulalo."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:30–16:00",
+                      "children": [
+                        {
+                          "text": "Move to Dahilayan Forest Park for the luge, suspension bridge, and canopy walk, and stroll through the pine forest."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "16:30",
+                      "children": [
+                        {
+                          "text": "Take the shuttle back to Cagayan de Oro. It won't wait if you're late, so be at the boarding point by "
+                        },
+                        { "type": "time", "text": "4:00 PM" },
+                        { "text": "." }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The zipline stops when it rains or lightning strikes, so on such days it's better to switch your route to the Forest Park's indoor and outdoor family facilities and the Lodge Cafe."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -394,19 +463,37 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "From the Agora bus terminal in Cagayan de Oro, take a bus or van bound for Malaybalay in Bukidnon and get off at Tankulan or Alae junction in Manolo Fortich (about "
+                      "text": "From the Agora bus terminal in Cagayan de Oro, take a van or jeepney bound for Camp Phillips in Manolo Fortich, pass the Alae junction, and get off at Camp Phillips (about "
                     },
                     { "type": "duration", "text": "1 hour" },
                     { "text": ", about " },
                     { "type": "price", "text": "₱60–100" },
                     {
-                      "text": "). From there, transfer to a jeepney or habal-habal (motorbike taxi) bound for Dahilayan, another "
+                      "text": "). From there, transfer to a habal-habal (motorcycle taxi) and climb another "
                     },
                     { "type": "duration", "text": "40 minutes–1 hour" },
-                    { "text": " up, at a fare of about " },
-                    { "type": "price", "text": "₱50–150" },
+                    { "text": " uphill between pineapple fields, at about " },
+                    { "type": "price", "text": "₱200–300" },
                     {
-                      "text": ". Public transport connections are infrequent, so there may be no ride back late in the afternoon."
+                      "text": " per person one way. Public transport connections are sparse, so there may be no ride back in the late afternoon."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "There is also a shuttle for visitors (Magnum Express). It leaves Limketkai Center in Cagayan de Oro at "
+                    },
+                    { "type": "time", "text": "9:00 AM" },
+                    { "text": ", reaches Dahilayan in about " },
+                    { "type": "duration", "text": "1 hour 30 minutes" },
+                    { "text": ", and returns at " },
+                    { "type": "time", "text": "4:30 PM" },
+                    { "text": ". The fare is about " },
+                    { "type": "price", "text": "₱249" },
+                    {
+                      "text": " one way for adults, and you board first come, first served without a reservation. Operating days and times may change, so check the latest announcements before you leave."
                     }
                   ]
                 }
@@ -479,6 +566,29 @@
               "text": " to early March in Malaybalay, so visiting then lets you also catch performances of indigenous tribal culture."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Coolest, 10–15°C at dawn",
+              "Winter on the plateau — zipline waits of over an hour around the New Year"
+            ],
+            [
+              "March–May",
+              "Many clear days",
+              "Best for ziplines and mountain scenery — Kaamulan Festival in late February to early March"
+            ],
+            [
+              "June–November",
+              "Rain and fog every afternoon",
+              "Operations stop for lightning and strong winds — visit early in the morning"
+            ]
+          ]
         }
       ]
     },
@@ -496,18 +606,30 @@
             { "label": "Adventure park entrance fee", "price": "About ₱100", "note": "Per person" },
             { "label": "840m zipline", "price": "About ₱500", "note": "Per ride, per person" },
             {
-              "label": "Full zipline package",
-              "price": "About ₱600–900",
-              "note": "Varies by course combination"
+              "label": "Short zipline (320 m + 150 m)",
+              "price": "About ₱250",
+              "note": "Practice course for families"
             },
             {
               "label": "Mountain coaster / drop zone",
-              "price": "About ₱300–500",
-              "note": "Per ride"
+              "price": "About ₱400–750",
+              "note": "Per ride, includes 2 rides and 2-person fares"
             },
-            { "label": "Forest Park rides", "price": "About ₱100–400", "note": "Per ride" },
-            { "label": "CDO–Manolo Fortich bus", "price": "About ₱60–100", "note": "One-way" },
-            { "label": "Jeepney / habal-habal", "price": "About ₱50–150", "note": "One-way" },
+            {
+              "label": "Forest Park admission and play facilities",
+              "price": "About ₱150–900",
+              "note": "Admission ₱150, luge 2 rides ₱650, ride package ₱900"
+            },
+            {
+              "label": "CDO–Camp Phillips van/jeepney",
+              "price": "About ₱60–100",
+              "note": "One-way"
+            },
+            {
+              "label": "Habal-habal (Camp Phillips–Dahilayan)",
+              "price": "About ₱200–300",
+              "note": "One way, per person"
+            },
             {
               "label": "Vehicle charter",
               "price": "About ₱3,000–4,500",
@@ -583,7 +705,7 @@
             {
               "children": [
                 {
-                  "text": "The zipline and drop zone have weight limits (roughly 30–40 kg minimum, 100–120 kg maximum) and age restrictions. If you're traveling with children, check the conditions on-site first."
+                  "text": "Ziplines have weight and height limits. The 840 m zipline requires a weight of 40–75 kg and a height of about 122 cm (4 feet) or more, so anyone over 75 kg cannot ride. If you have children in your group, it's best to check the conditions on site first."
                 }
               ]
             },
@@ -624,6 +746,25 @@
                 {
                   "text": ", when sunlight filters through the pines, or in the afternoon when fog settles in."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Fees by ride and operating notices are available on the Adventure Park's "
+                },
+                {
+                  "type": "link",
+                  "text": "official site",
+                  "url": "https://www.dahilayanadventurepark.com/"
+                },
+                { "text": ", and Forest Park fees on the " },
+                {
+                  "type": "link",
+                  "text": "Forest Park official site",
+                  "url": "https://www.dahilayanforestpark.com/"
+                },
+                { "text": "." }
               ]
             }
           ]

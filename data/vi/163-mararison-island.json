@@ -448,21 +448,25 @@
                     {
                       "children": [
                         {
-                          "text": "Tại văn phòng du lịch gần tòa thị chính Culasi, bạn đăng ký tham quan và đóng phí môi trường · phí đăng ký (khoảng "
+                          "text": "Bạn đăng ký khách tham quan tại văn phòng du lịch gần tòa thị chính Culasi, đóng thuế môi trường và phí đăng ký (khoảng "
                         },
-                        { "type": "price", "text": "₱40–100" },
+                        { "type": "price", "text": "₱30" },
                         {
-                          "text": "/người) rồi được sắp xếp thuyền bangka. Giá và quy định có thể thay đổi, nên hãy kiểm tra thông báo mới nhất."
+                          "text": " mỗi người), rồi được phân bangka. Giá và quy định có thể thay đổi nên hãy kiểm tra thông báo mới nhất."
                         }
                       ]
                     },
                     {
                       "children": [
-                        { "text": "Thuyền bangka đến đảo mất khoảng " },
+                        { "text": "Bangka đi ra đảo mất khoảng " },
                         { "type": "duration", "text": "15–20 phút" },
-                        { "text": ", giá khứ hồi một thuyền cho 5 người khoảng " },
-                        { "type": "price", "text": "₱800–1,500" },
-                        { "text": ". Nếu đông người hơn, giá được tính theo đầu người." }
+                        {
+                          "text": ", theo giá niêm yết của văn phòng du lịch, một thuyền (tối đa 5 người) khứ hồi khoảng "
+                        },
+                        { "type": "price", "text": "₱750" },
+                        { "text": ", chia cho 5 người thì mỗi người khoảng " },
+                        { "type": "price", "text": "₱150" },
+                        { "text": ". Nếu đoàn đông thì tính theo giá mỗi người." }
                       ]
                     }
                   ]
@@ -530,6 +534,29 @@
             { "type": "date", "text": "tháng 11 – tháng 1" },
             { "text": " sẽ đẹp hơn." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, bờ biển phía tây nên biển lặng",
+              "Tháng 11–1 chụp ảnh đồi xanh rất đẹp"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Đỉnh điểm mùa khô, 32–34℃",
+              "Nước trong nhất, lặn ống thở tốt — lên đồi vào buổi sáng và lúc hoàng hôn"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió tây nam khiến sóng cao",
+              "Bangka ngừng chạy khi có cảnh báo đặc biệt — ngày nắng cây xanh thẫm, ít khách"
+            ]
+          ]
         }
       ]
     },
@@ -551,13 +578,13 @@
             },
             {
               "label": "Phí môi trường · phí đăng ký",
-              "price": "Khoảng ₱40–100/người",
+              "price": "Khoảng ₱30 mỗi người",
               "note": "Văn phòng du lịch Culasi, cần kiểm tra giá mới nhất"
             },
             {
               "label": "Thuyền bangka khứ hồi",
-              "price": "Khoảng ₱800–1,500/thuyền",
-              "note": "Tính cho 5 người, đông hơn thì tính theo đầu người"
+              "price": "Khoảng ₱750 một thuyền",
+              "note": "Tối đa 5 người, khoảng ₱150 mỗi người"
             },
             {
               "label": "Hướng dẫn viên trên đảo",
@@ -677,6 +704,17 @@
                   "text": "Để bảo vệ rạn san hô, hãy dùng kem chống nắng an toàn cho san hô, và mang rác của mình quay về."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vì lý do an toàn, bạn không được leo đồi một mình mà phải đi cùng hướng dẫn viên được cấp phép do văn phòng du lịch phân công. Phí hướng dẫn viên khoảng "
+                },
+                { "type": "price", "text": "₱200" },
+                {
+                  "text": " cho một nhóm tối đa 5 người, và chủ homestay thường kiêm luôn hướng dẫn viên."
+                }
+              ]
             }
           ]
         }
@@ -735,6 +773,15 @@
               "children": [
                 {
                   "text": "Khi lên thuyền bangka, hãy mặc áo phao, và đựng điện thoại cùng ví trong túi chống nước."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Chỉ đi bangka khi mặt trời còn trên cao. Vào tối " },
+                { "type": "date", "text": "ngày 6 tháng 5 năm 2026" },
+                {
+                  "text": ", một chiếc bangka của người dân bị lật ở vùng biển giữa đảo Mararison và đảo Batbatan, hành khách bị trôi trên biển rồi được cứu. Chuyến tàu rời đảo an toàn nhất là chậm nhất vào giữa chiều."
                 }
               ]
             }

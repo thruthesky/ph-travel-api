@@ -229,6 +229,18 @@
                   "text": "Small, round, and strongly garlicky, Alaminos longganisa is classically eaten as \"longsilog\" for breakfast. Many people also buy it packaged at the market to take home as a souvenir."
                 }
               ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Jesus statue on Pilgrimage Island",
+              "children": [
+                { "text": "A pilgrimage island with a statue of Christ the Savior about " },
+                { "type": "distance", "text": "17m" },
+                {
+                  "text": " tall on its summit. Climbing 263 steps from the beach along the Way of the Cross gives a view of the surrounding islands at a glance, and there are two walking paths, a short one and a long one."
+                }
+              ]
             }
           ]
         }
@@ -455,15 +467,19 @@
                     {
                       "children": [
                         {
-                          "text": "For island transfers, you rent a bangka at the Lucap Wharf tourist information center according to the official fare table: about "
+                          "text": "For island transport, you rent a bangka at the tourist information office at Lucap Wharf according to the public rate table. A city ordinance in "
                         },
-                        { "type": "price", "text": "₱1,500" },
-                        { "text": " for a small boat (1–5 people), about " },
-                        { "type": "price", "text": "₱1,800–2,000" },
-                        { "text": " for a medium boat (6–10 people), and about " },
-                        { "type": "price", "text": "₱2,000–2,500" },
+                        { "type": "date", "text": "May 2026" },
                         {
-                          "text": " for a large boat (11–15 people). These are split between a 3–4 island round tour and a round trip to a single island."
+                          "text": " raised the rates, so for a day tour the small boat (1–5 people) is about "
+                        },
+                        { "type": "price", "text": "₱1,920" },
+                        { "text": ", the medium (6–10 people) about " },
+                        { "type": "price", "text": "₱2,400" },
+                        { "text": ", and the large (11–15 people) about " },
+                        { "type": "price", "text": "₱2,880" },
+                        {
+                          "text": "; a course that stops at only three islands is slightly cheaper, and an overnight boat rental for spending a night on an island has a separate rate."
                         }
                       ]
                     }
@@ -511,6 +527,34 @@
               "text": " is a transitional period when the rain starts to ease, making it an uncrowded off-peak window."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, calm seas and clear skies",
+              "Best for island hopping"
+            ],
+            [
+              "March–May",
+              "Dry season, heat good for swimming and strong sun",
+              "Crowded during Holy Week and May holidays — leave early in the morning"
+            ],
+            [
+              "June–October",
+              "Rainy season, southwest monsoon and typhoons",
+              "High waves cause no-sail days — check the forecast"
+            ],
+            [
+              "November",
+              "Transition period when rain starts to ease",
+              "An uncrowded off-peak window"
+            ]
+          ]
         }
       ]
     },
@@ -537,17 +581,17 @@
             },
             {
               "label": "Registration & environmental fee (day trip)",
-              "price": "About ₱100 per person",
+              "price": "About ₱120 per person",
               "note": "Includes entrance, environmental fee, and insurance"
             },
             {
               "label": "Registration & environmental fee (overnight)",
-              "price": "About ₱160 per person",
+              "price": "About ₱200 per person",
               "note": "For island camping or overnight stays"
             },
             {
               "label": "Bangka island hopping",
-              "price": "About ₱1,500–2,500 per boat",
+              "price": "About ₱1,680–2,880 per boat",
               "note": "Priced by group size, split among your party"
             },
             {
@@ -666,6 +710,32 @@
                   "text": "A waterproof pouch or bag will protect your phone and wallet from spray while riding the bangka."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "Register at the tourist information office at Lucap Wharf (" },
+                { "type": "time", "text": "6 AM–5:30 PM" },
+                { "text": "), and tour bookings and the rate table can also be seen on the " },
+                {
+                  "type": "link",
+                  "text": "official Hundred Islands National Park website",
+                  "url": "https://thehundredislands.ph"
+                },
+                { "text": ". You pay a garbage deposit of " },
+                { "type": "price", "text": "₱200" },
+                { "text": " per group, which is returned if you bring back your trash sorted." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "There is a zipline about " },
+                { "type": "distance", "text": "546m" },
+                { "text": " long on Governor's Island and about " },
+                { "type": "distance", "text": "120m" },
+                { "text": " long on Quezon Island. The fare is about " },
+                { "type": "price", "text": "₱100–500" },
+                { "text": " per ride, and operation sometimes stops depending on the weather." }
+              ]
             }
           ]
         }
@@ -756,6 +826,7 @@
             {
               "type": "card",
               "title": "Manaoag Church",
+              "place": "manaoag-church",
               "children": [
                 { "text": "About " },
                 { "type": "duration", "text": "1 hour 30 minutes–2 hours" },

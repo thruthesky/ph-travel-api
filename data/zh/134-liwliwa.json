@@ -57,7 +57,19 @@
     "credit": "Iloilo Wanderer / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Beach_at_San_Felipe_Zamabales.JPG"
   },
-  "gallery": { "type": "carousel", "label": "照片", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/134-liwliwa-2.webp",
+        "alt": "利乌利瓦",
+        "credit": "Iloilo Wanderer / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Beach_San_Felipe_Zambales.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -375,6 +387,26 @@
             { "type": "temperature", "text": "35℃" },
             { "text": "，暑假和圣周期间住处会很拥挤，请提前预订。台风预警期间，沿海公路和海滩可能会实施管制。" }
           ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "2026年" },
+            {
+              "text": "圣周期间，圣费利佩涌入了超过1万名旅行者，海滩上约150家住宿在圣周五前后几乎全部订满，圣周四海滩上还出现了多只水母，当局提醒游客注意游泳安全。圣周与暑假周末，请提前数周预订住宿，并在查看海滩上的告示牌与住宿的公告后再下水。"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "各时期一览",
+          "icon": "calendar_month",
+          "columns": ["时期", "天气", "旅行要点"],
+          "rows": [
+            ["11月至2月", "凉爽，雨少、浪适中", "最适合同时享受冲浪与旅行"],
+            ["3月至5月", "晴朗平静，正午接近35℃", "适合海水浴·露营，冲浪较难——圣周请预订"],
+            ["6月至10月", "雨季，多雨且可能有台风", "8月至10月浪最佳——台风接近时请听从教练的判断"]
+          ]
         }
       ]
     },
@@ -468,7 +500,16 @@
             { "children": [{ "text": "穿防晒衣和冲浪专用打底裤，可以保护皮肤免受阳光、冲浪板摩擦和水母的伤害。" }] },
             { "children": [{ "text": "傍晚沙蝇（当地俗称nicnic）较多，请务必携带强效防虫喷雾。" }] },
             { "children": [{ "text": "周末会挤满从马尼拉来的旅行者。若想享受清静的海浪，建议平日前往；旺季周末住宿请尽早预订。" }] },
-            { "children": [{ "text": "即便在冲浪季，也可能完全没有浪。请提前查看浪况预报App或询问住处，没有浪时不妨灵活改去瀑布或跳岛游。" }] }
+            { "children": [{ "text": "即便在冲浪季，也可能完全没有浪。请提前查看浪况预报App或询问住处，没有浪时不妨灵活改去瀑布或跳岛游。" }] },
+            {
+              "children": [
+                { "text": "前往安加洛瀑布没有公共交通，通常从利乌利瓦包一辆三轮摩托车往返，含等候时间每辆约" },
+                { "type": "price", "text": "₱500" },
+                { "text": "。瀑布入口附近也可以乘坐最多载6人的水牛车（约" },
+                { "type": "price", "text": "₱150" },
+                { "text": "）。" }
+              ]
+            }
           ]
         }
       ]
@@ -496,7 +537,16 @@
             { "children": [{ "text": "请勿抢别的冲浪者正在乘的浪，这样可能引发碰撞事故，也会与当地冲浪者产生摩擦。" }] },
             { "children": [{ "text": "正午沙滩非常烫，紫外线也很强，请注意补水和防晒。" }] },
             { "children": [{ "text": "在篝火旁过量饮酒和夜间下海游泳很容易酿成事故，晚上请勿下水。" }] },
-            { "children": [{ "text": "请勿将贵重物品留在海滩小屋或帐篷内无人看管。" }] }
+            { "children": [{ "text": "请勿将贵重物品留在海滩小屋或帐篷内无人看管。" }] },
+            {
+              "children": [
+                { "text": "利乌利瓦海岸侵蚀严重，" },
+                { "type": "date", "text": "2025年7月" },
+                { "text": "前后起，建在海滩附近的小屋与建筑被海浪冲走，" },
+                { "type": "date", "text": "2026年8月至9月" },
+                { "text": "防波堤的一部分与临时堆砌的岩石堤坝坍塌，9家度假村直接受损，多家临时停业。雨季前往的话，请事先确认预订的住宿是否营业以及海滩状况。" }
+              ]
+            }
           ]
         }
       ]

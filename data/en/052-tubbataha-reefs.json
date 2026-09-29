@@ -452,6 +452,21 @@
                           "text": "The park cannot be visited by private charter or an ordinary bangka, and entering the park without permission from the Tubbataha Management Office (TMO) is punishable by law."
                         }
                       ]
+                    },
+                    {
+                      "children": [
+                        { "text": "The park conservation fee is " },
+                        { "type": "price", "text": "₱5,000" },
+                        {
+                          "text": " per person (free for children 12 and under), payable in pesos only, and the operator pays it on your behalf when obtaining the park entry permit. You can see the list of permitted liveaboards and the rules on the "
+                        },
+                        {
+                          "type": "link",
+                          "text": "official Tubbataha Reefs Natural Park website",
+                          "url": "https://tubbatahareefs.org/"
+                        },
+                        { "text": "." }
+                      ]
                     }
                   ]
                 }
@@ -527,6 +542,31 @@
             { "type": "date", "text": "April–May" },
             { "text": " departures often sell out 9 to 12 months in advance." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "January–February",
+              "Before the season",
+              "Park closed — opening date announced each year"
+            ],
+            ["March", "Park opens, some swell remains", "Opens around mid-March — occasional swell"],
+            [
+              "April–May",
+              "Calm seas, good visibility",
+              "Peak season — departures sell out 9 to 12 months ahead"
+            ],
+            [
+              "June",
+              "Closes in mid-June, unsettled weather",
+              "Whale shark and manta sightings often reported"
+            ],
+            ["July–December", "Off season", "Park closed"]
+          ]
         }
       ]
     },
@@ -553,8 +593,8 @@
             },
             {
               "label": "Conservation fee",
-              "price": "About US$100–150",
-              "note": "For foreign divers, paid through the operator"
+              "price": "About ₱5,000",
+              "note": "Per person, free for children 12 and under, paid through the operator"
             },
             { "label": "Nitrox", "price": "About US$100–200", "note": "For the full trip" },
             { "label": "Equipment rental", "price": "About US$25–40 per day", "note": "Full set" },
@@ -717,6 +757,13 @@
                   "text": "Bad weather can change the itinerary or cancel some dive sites, and refunds may be limited in that case, so check the booking terms."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Single-use plastics are banned inside the park, and flying a drone requires a separate permit from the Tubbataha Management Office (TMO)."
+                }
+              ]
             }
           ]
         },
@@ -780,7 +827,11 @@
               "type": "card",
               "title": "Coron",
               "place": "coron",
-              "children": [{ "text": "Connected by flight, a mecca for World War II wreck diving" }]
+              "children": [
+                {
+                  "text": "Reached by a 2GO passenger ferry from Puerto Princesa (once a week) or by flights via Manila or Clark; a mecca for World War II wreck diving"
+                }
+              ]
             }
           ]
         }

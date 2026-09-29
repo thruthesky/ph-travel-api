@@ -205,9 +205,11 @@
               "title": "Pháo đài San Pedro",
               "children": [
                 {
-                  "text": "Đây là pháo đài đá hình tam giác được xây dựng đầu tiên vào thời Legazpi; bạn có thể đi trên tường thành để ngắm nhìn cảng cũ bên dưới. Giá vé vào khoảng "
+                  "text": "Pháo đài đá hình tam giác được xây đầu tiên vào thời Legazpi, bạn có thể đi trên tường thành và nhìn xuống bến cảng cũ. Vé vào cửa người lớn "
                 },
-                { "type": "price", "text": "₱30–50" },
+                { "type": "price", "text": "₱50" },
+                { "text": ", học sinh, sinh viên và người cao tuổi " },
+                { "type": "price", "text": "₱40" },
                 { "text": "." }
               ]
             },
@@ -352,6 +354,53 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Lộ trình nửa ngày",
+              "subtitle": "Tham quan nhanh nội thành trước khi quá cảnh hoặc xuất cảnh",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "8 giờ sáng",
+                      "children": [
+                        { "text": "Thánh giá Magellan và Vương cung thánh đường Santo Niño" }
+                      ]
+                    },
+                    {
+                      "time": "9 giờ sáng",
+                      "children": [
+                        {
+                          "text": "Đi ngang Nhà thờ chính tòa Metropolitan Cebu rồi dạo trên tường thành pháo đài San Pedro"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10 giờ 30 sáng",
+                      "children": [
+                        {
+                          "text": "Một trong hai nơi: 1730 Jesuit House ở khu Parian hoặc Bảo tàng Casa Gorordo"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12 giờ trưa",
+                      "children": [
+                        { "text": "Ăn trưa tại tiệm lechon rồi di chuyển ra sân bay hoặc Mactan" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Vào ngày mưa, hãy rút ngắn đoạn đi bộ ở khu phố cổ và đổi sang các điểm trong nhà như Bảo tàng Casa Gorordo, 1730 Jesuit House, cùng các trung tâm thương mại Ayala Center Cebu và SM Seaside."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -389,6 +438,20 @@
                       "text": ". Dùng Grab sẽ tiện hơn vì giá được ấn định trước; taxi chính thức của sân bay (màu vàng) có giá mở cửa cao hơn taxi trắng."
                     }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Nếu ít hành lý và muốn tiết kiệm, bạn có thể đi xe buýt sân bay có điều hòa MyBus khởi hành trước Nhà ga 1 và 2 để đến SM City Cebu. Giá khoảng "
+                    },
+                    { "type": "price", "text": "₱50" },
+                    { "text": ", thời gian khoảng " },
+                    { "type": "duration", "text": "1 tiếng" },
+                    { "text": " tùy tình hình giao thông, chạy thường xuyên trong khoảng " },
+                    { "type": "time", "text": "7 giờ sáng đến 9 giờ tối" },
+                    { "text": ". Hãy kiểm tra lịch chạy tại sân bay." }
+                  ]
                 }
               ]
             },
@@ -417,19 +480,35 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    {
-                      "text": "Taxi và Grab là phương tiện tiện lợi nhất, đi từ phố cổ đến IT Park khoảng "
-                    },
+                    { "text": "Taxi và Grab là tiện nhất, từ khu phố cổ đến IT Park khoảng " },
                     { "type": "price", "text": "₱150–250" },
-                    { "text": ". Jeepney rẻ hơn, khoảng " },
-                    { "type": "price", "text": "₱13–15" },
-                    { "text": ", nhưng tuyến đường khá phức tạp. Vào khoảng " },
-                    { "type": "time", "text": "5–8 giờ chiều" },
+                    { "text": ". Jeepney rẻ, khoảng " },
+                    { "type": "price", "text": "₱14–17" },
+                    { "text": ", nhưng tuyến đường phức tạp. Từ " },
+                    { "type": "time", "text": "5–8 giờ tối" },
                     {
-                      "text": ", khu vực đại lộ Osmeña và đại lộ Mango thường kẹt xe nặng, nên hãy dự trù thêm thời gian di chuyển. Các điểm tham quan trong phố cổ cách nhau khoảng "
+                      "text": " khu vực đại lộ Osmeña và Mango thường kẹt xe nặng, hãy chừa nhiều thời gian di chuyển. Các điểm tham quan ở khu phố cổ cách nhau "
                     },
                     { "type": "duration", "text": "5–15 phút" },
                     { "text": " đi bộ." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ " },
+                    { "text": "13 tháng 3 năm 2026", "type": "date" },
+                    {
+                      "text": ", giai đoạn 1 của Cebu BRT (xe buýt nhanh) đã bắt đầu chạy một phần. Tuyến đi từ SRP (Il Corso, SM Seaside) qua Bến xe buýt phía Nam, Fuente Osmeña, Capitol, khu vực Ayala Center đến IT Park, giá cơ bản khoảng "
+                    },
+                    { "text": "₱18", "type": "price" },
+                    { "text": ". Vào giờ cao điểm (" },
+                    { "text": "6–9 giờ sáng", "type": "time" },
+                    { "text": ", " },
+                    { "text": "5–8 giờ tối", "type": "time" },
+                    {
+                      "text": ") có lúc chạy miễn phí, nhưng đoạn tuyến, giá vé và giờ miễn phí có thể thay đổi nên hãy kiểm tra thông báo mới nhất."
+                    }
                   ]
                 }
               ]
@@ -475,6 +554,44 @@
               "text": " hằng năm. Đây là lễ diễu hành đường phố và thi múa tôn vinh Santo Niño, cả thành phố mang không khí lễ hội khoảng một tuần trước và sau đó. Vào thời gian này, giá phòng tăng mạnh và giao thông bị hạn chế, nên hãy đặt trước vài tháng. Tuần Thánh trước lễ Phục sinh cũng có nhiều nghi lễ tại nhà thờ."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Vào " },
+            { "text": "4 tháng 11 năm 2025", "type": "date" },
+            {
+              "text": ", bão Tino (Kalmaegi) trút mưa kỷ lục xuống Cebu, lũ quét khiến hơn 70 người thiệt mạng chỉ riêng tỉnh Cebu. Khi có cảnh báo bão vào cuối mùa mưa ("
+            },
+            { "text": "tháng 10–11", "type": "date" },
+            {
+              "text": "), hãy tránh di chuyển ven sông và vùng trũng thấp, và chừa thời gian dư trong lịch trình ngày trước khi về nước để phòng hủy chuyến bay, chuyến tàu."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 2",
+              "Mùa khô, tương đối mát",
+              "Lễ hội Sinulog Chủ nhật thứ ba của tháng 1 — đặt chỗ nghỉ trước nhiều tháng"
+            ],
+            [
+              "Tháng 3–tháng 5",
+              "Mùa khô, rất nóng",
+              "Nên di chuyển vào sáng và cuối chiều — các sự kiện nhà thờ dịp Tuần Thánh"
+            ],
+            ["Tháng 6–tháng 9", "Mùa mưa, mưa rào buổi chiều", "Kiểm tra dự báo thời tiết"],
+            [
+              "Tháng 10–tháng 11",
+              "Cuối mùa mưa, có thể có bão",
+              "Chú ý mưa lớn và lũ — phòng khi chuyến bay, chuyến tàu bị hủy"
+            ]
+          ]
         }
       ]
     },
@@ -501,8 +618,8 @@
             },
             {
               "label": "Pháo đài San Pedro",
-              "price": "khoảng ₱30–50",
-              "note": "Giá dành cho người nước ngoài"
+              "price": "Khoảng ₱50",
+              "note": "Người lớn, học sinh, sinh viên và người cao tuổi ₱40"
             },
             { "label": "Bảo tàng · nhà di sản", "price": "khoảng ₱70–150", "note": "Mỗi địa điểm" },
             {
@@ -553,7 +670,21 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Món ăn tiêu biểu của Cebu là lechon. Các quán lechon lâu đời ở khu Lahug, Mandaue (Rico's Lechon, CnT Lechon, Zubuchon...) rất nổi tiếng với du khách. Khu nướng thịt xiên Larsian gần Fuente Osmeña là điểm ăn đêm kiểu Cebu, nơi bạn tự chọn xiên rồi nướng; ăn kèm pusô, cơm gói trong túi lá dừa nhỏ, mới đúng chất Cebu. Món ăn đường phố có pungko-pungko (gà và thịt heo chiên), còn món tráng miệng nổi tiếng để mua làm quà là xoài sấy khô và bánh otap."
+              "text": "Món tiêu biểu của ẩm thực Cebu là lechon. Các tiệm lechon lâu đời ở khu Lahug và Mandaue (Rico's Lechon, CnT Lechon, Zubuchon…) nổi tiếng với du khách. Khu nướng Larsian gần Fuente Osmeña là điểm ăn đêm kiểu Cebu, nơi bạn chọn xiên rồi nướng, và ăn kèm pusô, cơm gói trong túi lá dừa nhỏ, là đúng phong cách Cebu. Về đồ ăn đường phố có pungko-pungko bán gà và thịt heo chiên, còn món tráng miệng nổi tiếng có xoài sấy và bánh otap, rất hợp làm quà."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Larsian đã đóng cửa vì COVID-19, rồi vào " },
+            { "type": "date", "text": "tháng 9 năm 2023" },
+            {
+              "text": " chính quyền tỉnh cải tạo và mở lại với tên Sugbo Sentro. Người địa phương vẫn gọi là Larsian, giờ mở cửa "
+            },
+            { "type": "time", "text": "10 giờ sáng–nửa đêm" },
+            {
+              "text": ". Chính quyền tỉnh đang thúc đẩy việc chỉnh trang để khôi phục tên gọi và không khí cũ nên cơ cấu các quán có thể thay đổi."
             }
           ]
         }
@@ -621,6 +752,40 @@
                 },
                 { "type": "duration", "text": "3 giờ" },
                 { "text": "." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Đài quan sát Tops có xe đưa đón từ bến giao thông IT Park (đường Lahug Gorordo), giá khứ hồi gồm vé vào cửa là "
+                },
+                { "type": "price", "text": "₱200" },
+                { "text": ". Đài quan sát mở " },
+                { "type": "duration", "text": "24 giờ" },
+                { "text": ", nếu chỉ vào cửa thì người lớn " },
+                { "type": "price", "text": "₱100" },
+                { "text": " (" },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức của Tops",
+                  "url": "https://www.topscebu.ph"
+                },
+                { "text": ")." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Bảo tàng Casa Gorordo mở cửa từ thứ Hai đến thứ Bảy, " },
+                { "type": "time", "text": "9 giờ sáng–5 giờ chiều" },
+                {
+                  "text": ", và nghỉ vào Chủ nhật. Nếu đi dạo khu phố cổ vào Chủ nhật, hãy sắp xếp lịch trình thưởng thức không khí thánh lễ ở nhà thờ chính tòa thay cho bảo tàng ("
+                },
+                {
+                  "type": "link",
+                  "text": "Bảo tàng Casa Gorordo",
+                  "url": "https://www.casagorordomuseum.org"
+                },
+                { "text": ")." }
               ]
             }
           ]

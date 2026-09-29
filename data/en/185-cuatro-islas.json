@@ -305,7 +305,7 @@
                       "time": "Day 1 morning",
                       "children": [
                         {
-                          "text": "Take the ferry from Cebu to Hilongos, or head south by bus from Ormoc"
+                          "text": "Arrive at dawn in Hilongos on a ferry that left Cebu the night before, or take a morning fast boat from Cebu to Ormoc and continue south by van"
                         }
                       ]
                     },
@@ -390,9 +390,15 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "Ferries to Hilongos run daily from Cebu port, taking about " },
-                        { "type": "duration", "text": "3 hours 30 minutes to 4 hours" },
-                        { "text": ". From Hilongos to Inopacan is about " },
+                        {
+                          "text": "From Cebu port, a roll-on/roll-off passenger ferry to Hilongos (Roble and Gabisan shipping) leaves daily at "
+                        },
+                        { "type": "time", "text": "9 PM" },
+                        { "text": " and arrives at dawn about " },
+                        { "type": "duration", "text": "5 hours" },
+                        {
+                          "text": " later, with daytime sailings as well on some days such as weekends. From Hilongos to Inopacan is about "
+                        },
                         { "type": "duration", "text": "30–40 minutes" },
                         { "text": " by bus, van, or tricycle." }
                       ]
@@ -403,6 +409,17 @@
                         { "type": "duration", "text": "2 hours 30 minutes to 3 hours" },
                         {
                           "text": ") and head south from Ormoc. There's also a ferry from Ubay in Bohol to Hilongos, letting you link this trip with a Bohol itinerary. Schedules and fares change often, so check the shipping line's notices."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "OceanJet fast boats between Cebu and Ormoc run several times a day, about "
+                        },
+                        { "type": "price", "text": "₱1,100–1,600" },
+                        {
+                          "text": " one way in tourist class, and a fuel surcharge may be added. From Ormoc port to Inopacan you transfer to a van."
                         }
                       ]
                     }
@@ -446,13 +463,13 @@
                     {
                       "children": [
                         {
-                          "text": "There's essentially no scheduled ferry to the islands — you charter an outrigger boat from the Inopacan coast. It takes about "
+                          "text": "There are effectively no scheduled ferries to the islands, so you charter a bangka from the Inopacan shore. It takes about "
                         },
                         { "type": "duration", "text": "20–45 minutes" },
-                        { "text": " to reach the islands, and the fare runs about " },
-                        { "type": "price", "text": "₱1,500–3,500" },
+                        { "text": " to reach the islands, and fares run about " },
+                        { "type": "price", "text": "₱3,000–5,000" },
                         {
-                          "text": " per boat, depending on the number of islands and passengers. Boats can run short on weekends and holidays, so book a day ahead."
+                          "text": " per boat depending on boat size and number of people. Boats may be short on weekends and holidays, so book the day before."
                         }
                       ]
                     }
@@ -501,6 +518,31 @@
               "text": "), local family groups turn up in numbers, and boats and cottages fill up fast."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–January",
+              "Typhoons and northeast monsoon, rough sea in the afternoon",
+              "Set out early in the morning and return early"
+            ],
+            ["February–March", "Dry season, calm sea and clear sky", "Best for island hopping"],
+            [
+              "April–May",
+              "Dry season, midday 33–35℃",
+              "Clearest water — crowded on Holy Week and school-holiday weekends"
+            ],
+            ["June", "End of dry season, calm sea", "Hopping possible — typhoon season from July"],
+            [
+              "July–October",
+              "Typhoons and low-pressure areas, high waves",
+              "Many days when bangka service is cancelled"
+            ]
+          ]
         }
       ]
     },
@@ -517,8 +559,8 @@
           "items": [
             {
               "label": "Cebu–Hilongos ferry",
-              "price": "About ₱500–900 one way",
-              "note": "Varies by seat class"
+              "price": "About ₱480–1,250 one way",
+              "note": "Regular seating to cabin, fuel surcharge extra"
             },
             {
               "label": "Ormoc–Inopacan bus/van",
@@ -527,13 +569,13 @@
             },
             {
               "label": "Outrigger boat charter",
-              "price": "About ₱1,500–3,500 per boat",
-              "note": "Varies by island count and group size"
+              "price": "About ₱3,000–5,000 per boat",
+              "note": "Varies with boat size (10–30 seats) and number of islands"
             },
             {
               "label": "Environmental/island entrance fee",
-              "price": "About ₱50–150 per person",
-              "note": "May be charged separately per island"
+              "price": "About ₱50–300 per person",
+              "note": "Charged separately for each island and for locals versus foreigners"
             },
             {
               "label": "Cottage use fee",
@@ -656,6 +698,28 @@
               "children": [
                 {
                   "text": "Some islands have weak phone signal, so agree on a return time and meeting spot with your boatman in advance."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "To prevent environmental damage, the protected area management committee limits daily visitors to about 500, snorkelers to 200, and boats reaching the islands to 20. Entry may be blocked on peak-season weekends, so set out early in the morning."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Island visits usually take place from " },
+                { "type": "time", "text": "6 AM–4 PM" },
+                {
+                  "text": " and are suspended in bad weather. Dichay Island has cottages (open-type about "
+                },
+                { "type": "price", "text": "₱300" },
+                { "text": ", closed-type about " },
+                { "type": "price", "text": "₱500" },
+                {
+                  "text": ") and tent spaces, so if you want to stay overnight, check permits and fees in advance with the Inopacan tourism office."
                 }
               ]
             }

@@ -350,13 +350,36 @@
                     {
                       "children": [
                         {
-                          "text": "Take a bus to Santa Cruz, Zambales from the Victory Liner terminal in Cubao, Pasay, or Caloocan, Manila. It takes about "
+                          "text": "Take a Santa Cruz (Zambales)-bound bus from Victory Liner terminals in Cubao, Pasay, and Caloocan in Manila. It takes about "
                         },
                         { "type": "duration", "text": "5–7 hours" },
-                        { "text": ", with a one-way fare of around " },
-                        { "type": "price", "text": "₱550–700" },
+                        { "text": " and the fare is about " },
+                        { "type": "price", "text": "₱650–800" },
                         {
-                          "text": ". Tell the conductor in advance that you're getting off at Uacon, Candelaria."
+                          "text": " one way. Tell the conductor in advance that you're getting off at Candelaria Uacon."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "The Santa Cruz-bound bus from Cubao rests about " },
+                        { "type": "duration", "text": "30 minutes" },
+                        {
+                          "text": " at the Iba terminal and has few departures, about four a day (around "
+                        },
+                        { "type": "time", "text": "1 AM" },
+                        { "text": ", " },
+                        { "type": "time", "text": "5:20 AM" },
+                        { "text": ", " },
+                        { "type": "time", "text": "8:30 AM" },
+                        { "text": ", and " },
+                        { "type": "time", "text": "9:30 PM" },
+                        {
+                          "text": "). You can also take a bus to Iba and transfer there to a bus heading north. Provincial bus per-km fares rose from "
+                        },
+                        { "type": "date", "text": "September 28, 2026" },
+                        {
+                          "text": " and a fuel surcharge is sometimes added, so check the actual fare when you buy a ticket."
                         }
                       ]
                     }
@@ -496,6 +519,29 @@
               "text": " is the rainy season, when the southwest monsoon blows straight in off the sea, and the Zambales coast gets some of the heaviest rain in the Philippines. On high-wave days, boats don't run and the island sometimes closes. During this season, pick a clear day for a day trip, and postpone your plans if a typhoon is forecast."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, cool wind",
+              "Comfortable camping — many calm sea days because it's on the west coast"
+            ],
+            [
+              "March–May",
+              "Dry season, close to 35℃ at midday",
+              "Clearest water — book a cottage during Holy Week"
+            ],
+            [
+              "June–October",
+              "Rainy season, southwest monsoon and a lot of rain",
+              "Boats are canceled on high-wave days — go as a day trip on clear days, postponed in typhoons"
+            ]
+          ]
         }
       ]
     },
@@ -512,11 +558,11 @@
           "items": [
             {
               "label": "Manila–Candelaria bus",
-              "price": "About ₱550–700 one way",
+              "price": "About ₱650–800 one way",
               "note": "Victory Liner to Santa Cruz"
             },
             {
-              "label": "Tricycle",
+              "label": "By tricycle",
               "price": "About ₱20–50 per person",
               "note": "Roadside to boat landing"
             },
@@ -669,6 +715,19 @@
                 {
                   "text": "If you're combining this with Hundred Islands or Bolinao, an efficient west-coast loop is 3 days, 2 nights — one night in the Pangasinan area, one night at Potipot."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "When kayaks aren't included in the entrance fee, you can rent a two-person kayak for about "
+                },
+                { "type": "price", "text": "₱300" },
+                { "text": " per hour and snorkeling gear for about " },
+                { "type": "price", "text": "₱150" },
+                { "text": ". Ask the boatman and you can also do island hopping (about " },
+                { "type": "price", "text": "₱1,500" },
+                { "text": " per boat) as far as Hermana Menor Island off Santa Cruz." }
               ]
             }
           ]

@@ -35,8 +35,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.6009 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 124.0088 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.6354 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 124.0298 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -292,7 +292,7 @@
                     {
                       "time": "13:00",
                       "children": [
-                        { "text": "Sau đó: di chuyển đến Đồi Chocolate hoặc khu bảo tồn tarsier" }
+                        { "text": "Sau đó đi tiếp đến Đồi Chocolate hoặc Khu bảo tồn khỉ Tarsier" }
                       ]
                     }
                   ]
@@ -453,6 +453,29 @@
             { "text": " hoặc sau " },
             { "type": "time", "text": "14:00" },
             { "text": " sẽ thoải mái hơn nhiều." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 1",
+              "Mùa khô, nước sông xanh ngọc lục bảo",
+              "Dịp nghỉ Giáng sinh phải xếp hàng mua vé — đi chuyến đầu lúc 10 giờ sáng hoặc sau 2 giờ chiều"
+            ],
+            [
+              "Tháng 2–tháng 5",
+              "Mùa khô, giữa trưa oi bức",
+              "Tháng 2–4 màu nước sông và rừng rõ nhất — đông đúc dịp Tuần Thánh"
+            ],
+            [
+              "Tháng 6–tháng 11",
+              "Mùa mưa, nước sông chuyển màu nâu",
+              "Sau mưa lớn tàu ngừng chạy — cuối mùa mưa có đom đóm"
+            ]
           ]
         }
       ]
@@ -661,6 +684,17 @@
               "children": [
                 {
                   "text": "Bên trong nhà thờ, nên mặc trang phục che vai và đầu gối, và tránh chụp ảnh du lịch trong lúc đang có thánh lễ."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Có trường hợp họ chụp ảnh cho bạn ở bến tàu và trên thuyền rồi đòi giá cao trên "
+                },
+                { "type": "price", "text": "₱2,000" },
+                {
+                  "text": " cho ảnh in hoặc file. Nếu không muốn thì hãy lịch sự từ chối ngay từ đầu, còn nếu định mua thì hãy hỏi giá trước."
                 }
               ]
             }

@@ -232,6 +232,18 @@
                   "text": "Longganisa Alaminos nhỏ, tròn và đậm mùi tỏi, thường được ăn kèm cơm và trứng trong món \"longsilog\" cho bữa sáng theo cách truyền thống. Nhiều người còn mua đóng gói ở chợ để làm quà."
                 }
               ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Tượng Chúa trên đảo Pilgrimage",
+              "children": [
+                { "text": "Đảo hành hương có tượng Chúa Cứu Thế cao khoảng " },
+                { "type": "distance", "text": "17m" },
+                {
+                  "text": " ở trên đỉnh. Từ bãi biển đi bộ lên theo 263 bậc thang và đường Thánh giá thì nhìn xuống được các đảo xung quanh trong một tầm mắt; có hai lối đi bộ, đường ngắn và đường dài."
+                }
+              ]
             }
           ]
         }
@@ -460,15 +472,19 @@
                     {
                       "children": [
                         {
-                          "text": "Việc di chuyển giữa các đảo thực hiện bằng cách thuê thuyền banca theo bảng giá công bố tại trung tâm thông tin du lịch ở bến tàu Lucap. Thuyền nhỏ (1-5 người) khoảng "
+                          "text": "Để di chuyển giữa các đảo, hãy thuê thuyền bangka theo bảng giá công tại văn phòng thông tin du lịch ở bến Lucap. Từ "
                         },
-                        { "type": "price", "text": "₱1,500" },
-                        { "text": ", thuyền vừa (6-10 người) khoảng " },
-                        { "type": "price", "text": "₱1,800-2,000" },
-                        { "text": ", thuyền lớn (11-15 người) khoảng " },
-                        { "type": "price", "text": "₱2,000-2,500" },
+                        { "type": "date", "text": "tháng 5 năm 2026" },
                         {
-                          "text": ", chia thành tour tham quan 3-4 đảo hoặc đưa đón khứ hồi một đảo."
+                          "text": " giá tăng theo quy định của thành phố; với tour trong ngày, thuyền nhỏ (1–5 người) khoảng "
+                        },
+                        { "type": "price", "text": "₱1,920" },
+                        { "text": ", thuyền vừa (6–10 người) khoảng " },
+                        { "type": "price", "text": "₱2,400" },
+                        { "text": ", thuyền lớn (11–15 người) khoảng " },
+                        { "type": "price", "text": "₱2,880" },
+                        {
+                          "text": "; lộ trình chỉ cho xuống 3 đảo rẻ hơn một chút, còn thuê qua đêm để ngủ lại trên đảo thì có giá riêng."
                         }
                       ]
                     }
@@ -512,6 +528,26 @@
             { "type": "date", "text": "Tháng 11" },
             { "text": " là giai đoạn chuyển tiếp khi mưa bắt đầu giảm, là thời điểm ít đông đúc." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            ["Tháng 12 – tháng 2", "Mùa khô, biển lặng, trời quang", "Thích hợp nhất để nhảy đảo"],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, nóng vừa tắm biển, nắng gắt",
+              "Tuần Thánh và kỳ nghỉ hè tháng 5 đông đúc — xuất phát sớm"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió mùa tây nam và bão",
+              "Sóng cao nên có ngày cấm xuất bến — xem dự báo"
+            ],
+            ["Tháng 11", "Giai đoạn chuyển tiếp khi mưa bắt đầu giảm", "Thời điểm ít đông người"]
+          ]
         }
       ]
     },
@@ -538,17 +574,17 @@
             },
             {
               "label": "Phí đăng ký - môi trường (trong ngày)",
-              "price": "Khoảng ₱100/người",
+              "price": "Khoảng ₱120/người",
               "note": "Đã gồm phí vào cửa, môi trường và bảo hiểm"
             },
             {
               "label": "Phí đăng ký - môi trường (1 đêm)",
-              "price": "Khoảng ₱160/người",
+              "price": "Khoảng ₱200/người",
               "note": "Khi cắm trại hoặc ở lại qua đêm trên đảo"
             },
             {
               "label": "Thuyền banca khám phá đảo",
-              "price": "1 thuyền khoảng ₱1,500-2,500",
+              "price": "Khoảng ₱1,680~2,880/thuyền",
               "note": "Giá theo số người, chia đều với nhóm"
             },
             {
@@ -667,6 +703,32 @@
                   "text": "Chuẩn bị túi chống nước và balo chống nước sẽ giúp bảo vệ điện thoại và ví khỏi nước bắn khi di chuyển bằng thuyền banca."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "Đăng ký tại văn phòng thông tin du lịch ở bến Lucap (" },
+                { "type": "time", "text": "6 giờ sáng – 5 giờ 30 chiều" },
+                { "text": "); việc đặt tour và bảng giá cũng xem được trên " },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức của Vườn quốc gia Hundred Islands",
+                  "url": "https://thehundredislands.ph"
+                },
+                { "text": ". Mỗi nhóm nộp tiền đặt cọc rác " },
+                { "type": "price", "text": "₱200" },
+                { "text": ", và nếu phân loại rác mang về thì sẽ được hoàn lại." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Đảo Governor có zipline dài khoảng " },
+                { "type": "distance", "text": "546m" },
+                { "text": " và đảo Quezon dài khoảng " },
+                { "type": "distance", "text": "120m" },
+                { "text": ". Giá mỗi lượt khoảng " },
+                { "type": "price", "text": "₱100~500" },
+                { "text": ", và có lúc ngừng hoạt động tùy thời tiết." }
+              ]
             }
           ]
         }
@@ -757,6 +819,7 @@
             {
               "type": "card",
               "title": "Nhà thờ Đức Mẹ Manaoag",
+              "place": "manaoag-church",
               "children": [
                 { "text": "Cách khoảng " },
                 { "type": "duration", "text": "1 giờ 30 phút - 2 giờ" },

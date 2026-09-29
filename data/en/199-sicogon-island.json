@@ -53,10 +53,10 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱3,000–12,000 per person (for 2 days, 1 night, depending on accommodation class)",
+    "text": "About ₱3,000–7,000 per person (2 days, 1 night)",
     "currency": "PHP",
     "min": 3000,
-    "max": 12000
+    "max": 7000
   },
   "difficulty": {
     "type": "level",
@@ -148,18 +148,26 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "Starting in " },
+            { "text": "Sicogon began to make a name for itself again in " },
             { "text": "2013", "type": "date" },
             {
-              "text": ", a joint venture between Ayala Land and Sicogon Development Corporation, the island's landholder, launched a redevelopment worth roughly "
+              "text": ", when Ayala Land and Sicogon Development Corporation, which owns land on the island, launched a joint redevelopment worth about "
             },
             { "text": "₱10,000,000,000", "type": "price" },
-            {
-              "text": " (about ₱10 billion), and Sicogon began making a name for itself again. The old airstrip was renovated and Sicogon Airport reopened in "
-            },
+            { "text": ". The old airstrip was repaired and Sicogon Airport reopened in " },
             { "text": "2018", "type": "date" },
             {
-              "text": ", and resorts blending into the natural surroundings — Balai Kogon, Huni Sicogon, and Hatch Sicogon among them — opened one after another. The development process wasn't without controversy over resident resettlement, so the island today holds both resort areas and resident villages side by side."
+              "text": ", and nature-blended resorts such as Balay Kogon, Huni Sicogon, and Hatch Sicogon went up one after another. As losses piled up, however, flights to the airport ended in late "
+            },
+            { "text": "2025", "type": "date" },
+            {
+              "text": ", and the joint venture that ran the resorts (SITEC) permanently closed its tourism estate facilities, including Huni Sicogon and Balay Kogon, on "
+            },
+            { "text": "June 15, 2026", "type": "date" },
+            { "text": ". Disputes over resident relocation and land continue too: in " },
+            { "text": "June 2026", "type": "date" },
+            {
+              "text": " Ayala Land handed over about 63 hectares as residential and farming land for residents, but more than 700 households are demanding the return of about 80 hectares. The island itself can still be visited freely, and the residents' villages are the center of island life."
             }
           ]
         },
@@ -254,16 +262,6 @@
             {
               "type": "card",
               "number": 7,
-              "title": "The Lagoon Eco Trail",
-              "children": [
-                {
-                  "text": "A walking trail along the resort area's lagoon and forest, where you can spot waterbirds and mangroves. Check with your accommodation on whether it's open and any conditions for use."
-                }
-              ]
-            },
-            {
-              "type": "card",
-              "number": 8,
               "title": "Tasting Carles Seafood",
               "children": [
                 {
@@ -417,7 +415,13 @@
                     {
                       "children": [
                         {
-                          "text": "AirSWIFT has previously flown direct from Manila to Sicogon Airport (ICO) on the island itself, but whether it's operating and on which days changes often, so check the current schedule. Some resort packages include the flight."
+                          "text": "AirSWIFT ran flights from Manila to Sicogon Airport (ICO) on the island, but service stopped in late "
+                        },
+                        { "type": "date", "text": "2025" },
+                        { "text": ", and AirSWIFT itself was merged into Cebgo in " },
+                        { "type": "date", "text": "July 2026" },
+                        {
+                          "text": ". There are no scheduled flights now, so use Roxas or Iloilo airport."
                         }
                       ]
                     }
@@ -436,12 +440,12 @@
                     {
                       "children": [
                         {
-                          "text": "Ceres buses and vans bound for Estancia and Carles run from early morning from the Tagbak terminal (the northbound terminal) in the Jaro district of Iloilo City. It takes about "
+                          "text": "From the Tagbak Terminal (the northbound terminal) in Jaro district, Iloilo City, Ceres buses and vans to Estancia and Carles run from dawn. It takes about "
                         },
                         { "type": "duration", "text": "3–4 hours" },
-                        { "text": ", for around " },
-                        { "type": "price", "text": "₱200–300" },
-                        { "text": " one-way." }
+                        { "text": " and costs about " },
+                        { "type": "price", "text": "₱250–350" },
+                        { "text": " one way." }
                       ]
                     },
                     {
@@ -483,18 +487,18 @@
                     {
                       "children": [
                         {
-                          "text": "You can also catch a boat from Bancal port in Carles, taking about "
+                          "text": "You can also take a boat from Bancal port in Carles, which takes about "
                         },
-                        { "type": "duration", "text": "30 minutes" },
+                        { "type": "duration", "text": "30 minutes–1 hour 30 minutes" },
                         {
-                          "text": ". Register, book your boat, and pay the environmental fee at the tourism office at Bancal port."
+                          "text": ". At the tourist information office at Bancal port, you register, book a boat, and pay the environmental fee."
                         }
                       ]
                     },
                     {
                       "children": [
                         {
-                          "text": "If staying at a resort, they often arrange a pickup boat from Estancia or Bancal port, so request this when booking. Missing the shared boat means chartering one privately, which raises the cost significantly."
+                          "text": "If you stay at a homestay, ask the owner in advance to meet you at Estancia or Bancal port and arrange the boat connection. If you miss the shared boat, you'll have to call a chartered boat, and the cost rises sharply."
                         }
                       ]
                     }
@@ -513,12 +517,10 @@
                     {
                       "children": [
                         {
-                          "text": "There are almost no cars on the island, so you walk or take a habal-habal motorcycle taxi (about "
+                          "text": "There are almost no cars on the island, so you walk or take a motorbike taxi, habal-habal (about "
                         },
                         { "type": "price", "text": "₱100–200" },
-                        {
-                          "text": " per person). Resort guests can use the hotel shuttle or bicycles."
-                        }
+                        { "text": " per person)." }
                       ]
                     }
                   ]
@@ -554,15 +556,38 @@
           "type": "paragraph",
           "children": [
             { "type": "date", "text": "June–November" },
-            { "text": " is the rainy and typhoon season. Especially during " },
+            { "text": " is the rainy and typhoon season. Especially in " },
             { "type": "date", "text": "August–November" },
             {
-              "text": ", boats can be grounded for days at a time when a typhoon crosses the Visayas, so build a spare day into your schedule. During Holy Week and the early-"
+              "text": ", when a typhoon passes over the Visayas, boats may not sail for days at a time, so leave a day of slack in your schedule. During Holy Week and the early "
             },
             { "type": "date", "text": "May" },
             {
-              "text": " holidays, domestic travelers flood in and resorts and boats fill up fast, so book ahead. Since crossing to Tumakin Island and the look of the beach both change dramatically with the tide, it's worth checking a tide table before you go."
+              "text": " holidays, domestic travelers crowd in and lodging and boats fill up quickly, so book ahead. The crossing to Tumakin Island and the beach scenery change greatly with the tides, so it helps to check the tide table before you leave."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, northeast monsoon",
+              "East-side sea is rough and boats may be cancelled"
+            ],
+            [
+              "March–May",
+              "Dry season, light wind, 32–34℃",
+              "Boats and hopping most stable — book for Holy Week and the early-May holidays"
+            ],
+            [
+              "June–November",
+              "Rainy and typhoon season",
+              "Boats cancelled for days in typhoons in August–November — leave a spare day"
+            ]
           ]
         }
       ]
@@ -580,7 +605,7 @@
           "items": [
             {
               "label": "Iloilo–Estancia bus/van",
-              "price": "About ₱200–300 one-way",
+              "price": "About ₱250–350 one way",
               "note": "About 3–4 hours"
             },
             {
@@ -606,17 +631,17 @@
             {
               "label": "Habal-habal",
               "price": "About ₱100–200 per person",
-              "note": "For getting around the island"
+              "note": "Getting Around the Island"
             },
             {
               "label": "Accommodation",
-              "price": "About ₱1,300–12,000 per night",
-              "note": "From a hostel bed to a resort room"
+              "price": "About ₱800–3,000 per night",
+              "note": "Village homestay or mainland lodging"
             },
             {
               "label": "Meals",
-              "price": "About ₱250–800 per meal",
-              "note": "Resort restaurants cost more"
+              "price": "About ₱150–400 per meal",
+              "note": "Meals ordered at the homestay, scallops extra"
             }
           ]
         },
@@ -640,15 +665,15 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Accommodation on Sicogon centers on Ayala-affiliated resorts. Balai Kogon, tucked in the forest near Buaya Beach, and Huni Sicogon, with its infinity pool overlooking the sea, run about "
+              "text": "For a while, Sicogon's lodging centered on Ayala-affiliated resorts (Balay Kogon, Huni Sicogon, and others), but operator SITEC permanently closed the tourism estate facilities on "
             },
-            { "type": "price", "text": "₱5,000–12,000" },
+            { "type": "date", "text": "June 15, 2026" },
             {
-              "text": " a night and are often sold as packages bundling flights, pickup, and meals. Backpackers will find Hatch Sicogon's shared rooms (about "
+              "text": ", so you can't stay at a resort now. What remains are simple homestays and beach cottages in the villages of Buaya and San Fernando, and judging by island homestay rates elsewhere in Carles, about "
             },
-            { "type": "price", "text": "₱1,300–2,000" },
+            { "type": "price", "text": "₱800–3,000" },
             {
-              "text": " per bed) a good fit, and the village has a few simple homestays too. Options are limited, so book well ahead during peak season."
+              "text": " per night. Iloilo province and Carles municipality are preparing a \"Turista sa Barangay\" program to develop island residents' homes into Department of Tourism-accredited homestays, so ask the Carles tourism office for the latest homestay information. If you can't find a room on the island, you can also stay on the mainland in Estancia or Carles and visit as a day trip."
             }
           ]
         },
@@ -656,7 +681,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "There aren't many restaurants on the island, so most meals happen at your resort restaurant or homestay. Scallops caught off Carles are served grilled with butter and garlic or steamed, alongside dishes like steamed crab, kilawin (raw fish cured in vinegar and ginger), binakol chicken-vegetable soup, and KBL, an Ilonggo soup of beans, pork, and jackfruit. If staying at a homestay, it's best to order your meals a day ahead."
+              "text": "There are almost no restaurants on the island, so most meals are at the homestay. Scallops caught off Carles are eaten grilled with butter and garlic or steamed, and you can try Iloilo home cooking such as steamed crab, kilawin (raw fish cured in vinegar and ginger), binakol (chicken and vegetable soup), and KBL, an Ilonggo soup of beans, pork, and jackfruit. If you're staying at a homestay, it's best to order the meals ahead the day before."
             }
           ]
         }
@@ -774,6 +799,19 @@
               "children": [
                 {
                   "text": "There's a boundary between the resort area and resident villages. Don't enter areas marked private property, and respect residents' living spaces."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "The Huni Sicogon and Balay Kogon facilities that closed in " },
+                { "text": "June 2026", "type": "date" },
+                {
+                  "text": " are guarded by security, with no-entry signs posted. Because of the land dispute, on "
+                },
+                { "text": "June 25–26", "type": "date" },
+                {
+                  "text": " armed people entered the resorts and faced off with police, so don't go near facilities in dispute and follow the guidance of the Carles tourism office and police."
                 }
               ]
             },

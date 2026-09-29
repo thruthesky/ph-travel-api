@@ -189,7 +189,7 @@
               "title": "Vương cung thánh đường Taal",
               "children": [
                 {
-                  "text": "Đây là nhà thờ khổng lồ xây bằng đá san hô và gạch, với trần vòm cao và gian giữa dài bên trong tạo cảm giác choáng ngợp. Trong giờ mở cửa có thể leo lên tháp chuông để ngắm nhìn thị trấn và vịnh Balayan (có thu phí nhỏ)."
+                  "text": "Đây là nhà thờ đồ sộ xây bằng đá san hô và gạch, bên trong có trần vòm cao và gian giữa dài rất ấn tượng. Trước đây có thể trả một khoản phí nhỏ để lên tháp chuông nhìn xuống thị trấn và vịnh Balayan, nhưng gần đây có bài kể của du khách cho biết lối vào tháp chuông đã bị chặn, nên hãy hỏi tại chỗ xem có mở cửa hay không."
                 }
               ]
             },
@@ -289,7 +289,9 @@
                     {
                       "time": "09:30",
                       "children": [
-                        { "text": "Tham quan Vương cung thánh đường Taal, leo tháp chuông" }
+                        {
+                          "text": "Tham quan Vương cung thánh đường Taal (hỏi tại chỗ xem tháp chuông có mở cửa không)"
+                        }
                       ]
                     },
                     {
@@ -339,6 +341,51 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Lịch trình nửa ngày (ghé từ Tagaytay hoặc Lipa)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Đến Vương cung thánh đường Taal, tham quan bên trong nhà thờ và quảng trường"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:45",
+                      "children": [
+                        {
+                          "text": "Xuống Bậc thang San Lorenzo Ruiz đến Nhà thờ Caysasay và Giếng Santa Lucia"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:45",
+                      "children": [
+                        {
+                          "text": "Tham quan một trong hai nơi: dinh thự Villavicencio hoặc Galleria Taal (mỗi nơi khoảng "
+                        },
+                        { "type": "price", "text": "₱100" },
+                        { "text": ", gồm hướng dẫn thuyết minh)" }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [
+                        {
+                          "text": "Ăn trưa món longsilog hoặc tapa Taal ở quán gần chợ, mua xúc xích longganisa làm quà"
+                        }
+                      ]
+                    },
+                    { "time": "13:00", "children": [{ "text": "Khởi hành đi Tagaytay hoặc Lipa" }] }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -361,20 +408,38 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Bắt xe buýt đi Lemery, Batangas tại các bến quanh Buendia, Pasay, Manila hoặc PITX. Mất khoảng "
+                      "text": "Lên xe buýt đi Lemery, Batangas tại bến xe khu Buendia ở Pasay, Manila hoặc PITX. Mất khoảng "
                     },
                     { "type": "duration", "text": "2 giờ 30 phút – 3 giờ 30 phút" },
                     { "text": ", giá vé khoảng " },
-                    { "type": "price", "text": "₱200~300" },
+                    { "type": "price", "text": "₱180~250" },
                     {
-                      "text": ". Xuống tại bến cuối Lemery hoặc gần ngã tư Taal rồi đi tricycle khoảng "
+                      "text": ". Xuống ở điểm cuối Lemery hoặc gần ngã ba Taal, rồi đi tricycle vào trung tâm thị trấn Taal khoảng "
                     },
                     { "type": "duration", "text": "10 phút" },
-                    { "text": ", giá " },
+                    { "text": ", " },
                     { "type": "price", "text": "₱50~100" },
-                    { "text": " đến trung tâm thị trấn Taal. Nếu đi xe jeepney thì chỉ khoảng " },
+                    { "text": ". Nếu đi jeepney thì khoảng " },
                     { "type": "price", "text": "₱15~20" },
                     { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Đi Lemery tiêu biểu có JAM Liner đi qua Lipa, xuất phát từ bến Buendia từ "
+                    },
+                    { "type": "time", "text": "4 giờ sáng" },
+                    { "text": " đến " },
+                    { "type": "time", "text": "8 giờ tối" },
+                    {
+                      "text": " và cả từ bến Cubao. Khi mua vé hãy nói là xuống ở Taal Town thì xe sẽ thả ở lối vào thị trấn bên quốc lộ. Cách khác là đi xe buýt ALPS đến bến SM Lipa Grand Terminal ở Lipa, rồi đổi sang jeepney hiện đại đi Lemery (khoảng "
+                    },
+                    { "type": "price", "text": "₱80" },
+                    { "text": ", khoảng " },
+                    { "type": "duration", "text": "1 giờ 30 phút" },
+                    { "text": ")." }
                   ]
                 }
               ]
@@ -492,6 +557,34 @@
               "text": "Nếu mức cảnh báo núi lửa Taal gần đó tăng lên, khu vực ven hồ có thể bị cảnh báo khí núi lửa, nên hãy kiểm tra thông báo của Viện Núi lửa và Địa chấn Philippines (PHIVOLCS)."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11",
+              "Bắt đầu mùa khô",
+              "Lễ thánh Martin ngày 11 tháng 11 — đặt chỗ ở và bãi đỗ xe trước"
+            ],
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, độ ẩm thấp, mát mẻ",
+              "Thích hợp đi bộ nhất — đầu tháng 12 có rước kiệu Đức Mẹ trên sông"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, ban ngày 34–35 độ",
+              "Nên bắt đầu sớm buổi sáng — rước xe hoa Thứ Sáu Tuần Thánh"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, mưa rào buổi chiều và mưa lớn khi có bão",
+              "Bão thì gió mạnh, mưa lớn — nên chừa dư thời gian trong lịch trình"
+            ]
+          ]
         }
       ]
     },
@@ -508,7 +601,7 @@
           "items": [
             {
               "label": "Xe buýt Manila ↔ Lemery",
-              "price": "Khoảng ₱200~300 (một chiều)",
+              "price": "Khoảng ₱180~250 (một chiều)",
               "note": "2 giờ 30 phút – 3 giờ 30 phút"
             },
             {
@@ -519,7 +612,7 @@
             {
               "label": "Tháp chuông vương cung thánh đường",
               "price": "Khoảng ₱20~50",
-              "note": "Kiểm tra giờ mở cửa"
+              "note": "Gần đây có bài kể hạn chế ra vào, hãy hỏi tại chỗ"
             },
             {
               "label": "Vé vào bảo tàng nhà cổ",
@@ -663,6 +756,17 @@
                 },
                 { "type": "duration", "text": "1 giờ" },
                 { "text": " để có chỗ đứng tốt." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Vé vào cửa dinh thự Villavicencio và Galleria Taal mỗi nơi khoảng " },
+                { "type": "price", "text": "₱100" },
+                {
+                  "text": " (gồm hướng dẫn thuyết minh); Đài tưởng niệm Marcela Agoncillo và Đài tưởng niệm Leon Apacible do Ủy ban Lịch sử Quốc gia vận hành, cùng vương cung thánh đường và Nhà thờ Caysasay thì miễn phí. Galleria Taal mở cửa từ thứ Ba đến Chủ nhật, "
+                },
+                { "type": "time", "text": "8 giờ sáng – 5 giờ chiều" },
+                { "text": "." }
               ]
             }
           ]

@@ -29,8 +29,8 @@
     "items": ["Đèn lồng khổng lồ", "Giáng sinh", "Phố di sản", "Ẩm thực Kapampangan", "Tuần Thánh"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.2, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 15.0286 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.6898 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 15.0284 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.6932 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -460,6 +460,15 @@
                         { "type": "duration", "text": "10–15 phút" },
                         { "text": " đến khu di sản trong thành phố." }
                       ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Tuyến đường sắt đi lại phía bắc – nam (NSCR) nối Manila với sân bay Clark đang được xây dựng, và ga San Fernando mới đang được xây cạnh nhà ga cũ. Theo lịch trình điều chỉnh vào tháng 9 năm 2026, mục tiêu khai thông đoạn Malolos – Clark là "
+                        },
+                        { "type": "date", "text": "quý 4 năm 2028" },
+                        { "text": ", nên trước đó bạn hãy đi xe buýt hoặc xe riêng." }
+                      ]
                     }
                   ]
                 }
@@ -525,12 +534,12 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "Trong thành phố di chuyển bằng xe jeepney (giá cơ bản khoảng " },
-                        { "type": "price", "text": "₱13~15" },
-                        { "text": ") và xe tricycle (khoảng " },
-                        { "type": "price", "text": "₱30~80" },
+                        { "text": "Trong nội thành, bạn đi lại bằng jeepney (giá cơ bản khoảng " },
+                        { "type": "price", "text": "₱14–17" },
+                        { "text": ") và tricycle (chặng ngắn khoảng " },
+                        { "type": "price", "text": "₱30–80" },
                         {
-                          "text": " cho quãng ngắn). Grab cũng có nhưng thời gian chờ có thể lâu hơn ở Clark hay Manila."
+                          "text": "). Bạn cũng có thể gọi Grab, nhưng thời gian chờ có thể lâu hơn ở Clark hay Manila."
                         }
                       ]
                     },
@@ -590,6 +599,29 @@
             { "type": "date", "text": "ngày 30 tháng 5" },
             { "text": " có lễ hội mừng ngày lễ thánh bảo trợ Ferdinand." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, sáng tối mát mẻ",
+              "Lễ hội Đèn lồng khổng lồ giữa tháng 12 đến đầu tháng 1 — đông đúc vào đêm thi"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, giữa trưa khoảng 35℃",
+              "Giữa trưa nên đi lịch trình trong nhà — tái hiện việc đóng đinh vào Tuần Thánh · lễ kính ngày 30 tháng 5"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió mùa tây nam và bão",
+              "Khi mưa lớn, một số đường bị ngập"
+            ]
+          ]
         }
       ]
     },
@@ -621,7 +653,7 @@
             },
             {
               "label": "Xe jeepney · xe tricycle trong thành phố",
-              "price": "Khoảng ₱13–80/lượt",
+              "price": "Khoảng ₱14–80/lượt",
               "note": "Tùy khoảng cách"
             },
             {
@@ -757,6 +789,32 @@
                 {
                   "text": "Chợ, quán ăn nhỏ và xe tricycle chỉ nhận tiền mặt. Hãy chuẩn bị sẵn tiền lẻ."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Sky Ranch chỉ mở cửa mỗi ngày trong khoảng " },
+                { "type": "time", "text": "12 giờ trưa – 9 giờ tối" },
+                {
+                  "text": ". Bạn nên tham quan khu di sản vào buổi sáng rồi ghé Sky Ranch vào buổi chiều, và vé mua trước ở nơi bán trực tuyến thường rẻ hơn mua tại chỗ."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Cuộc thi đèn lồng thường diễn ra vào " },
+                { "type": "date", "text": "thứ Bảy tuần thứ hai hoặc thứ ba của tháng 12" },
+                { "text": ". Vào " },
+                { "type": "date", "text": "năm 2025" },
+                { "text": ", 10 barangay đã tranh tài tại Robinsons Starmills vào " },
+                { "type": "date", "text": "ngày 13 tháng 12" },
+                { "text": ". Hãy kiểm tra ngày và việc kiểm soát giao thông của năm đó trên " },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức",
+                  "url": "https://cityofsanfernando.gov.ph"
+                },
+                { "text": " của thành phố San Fernando." }
               ]
             }
           ]

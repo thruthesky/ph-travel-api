@@ -450,24 +450,28 @@
                 {
                   "type": "paragraph",
                   "children": [
+                    { "text": "Direct flights between Manila (NAIA) and Siargao ended in " },
+                    { "type": "date", "text": "March 2025" },
                     {
-                      "text": "Philippine Airlines and Cebu Pacific affiliates fly daily from Manila to Siargao Airport (IAO), taking about "
+                      "text": " when the small propeller-plane route moved to Clark Airport. From Manila, go via Cebu (Cebu–Siargao about "
                     },
-                    { "type": "duration", "text": "1 hour 45 minutes–2 hours" },
-                    { "text": ". From Cebu it's about " },
                     { "type": "duration", "text": "1 hour" },
                     {
-                      "text": ", and Clark also has a direct flight at certain times. Airfare runs about "
+                      "text": "), or take a direct flight from Clark Airport on a Cebu Pacific affiliate (about "
                     },
-                    { "type": "price", "text": "₱3,000–8,000" },
+                    { "type": "duration", "text": "2 hours 20 minutes–2 hours 30 minutes" },
+                    { "text": "). There is also a direct flight from Davao (about " },
+                    { "type": "duration", "text": "1 hour 10 minutes" },
+                    { "text": "). Airfare runs around " },
+                    { "type": "price", "text": "₱2,000–5,000" },
                     {
-                      "text": " one way, rising sharply in peak season. The airport is in Del Carmen, and a shared van to General Luna takes about "
+                      "text": " one way, but rises sharply in peak season, and routes and frequencies change often, so check before booking. The airport is in Del Carmen, and a shared van to General Luna takes about "
                     },
                     { "type": "duration", "text": "45 minutes–1 hour" },
-                    { "text": ", costing about " },
-                    { "type": "price", "text": "₱300–350" },
-                    { "text": " per person. Hotel pickup service costs about " },
-                    { "type": "price", "text": "₱1,500–2,500" },
+                    { "text": " at about " },
+                    { "type": "price", "text": "₱300–400" },
+                    { "text": " per person. Accommodation pickup or a chartered van costs about " },
+                    { "type": "price", "text": "₱2,000–2,700" },
                     { "text": " per vehicle." }
                   ]
                 }
@@ -481,20 +485,20 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "If flights are expensive or sold out, there's a route through Surigao City. Fly from Manila or Cebu to Surigao Airport (SUG) or Butuan Airport (BXU), then take a fast ferry from Surigao port to Siargao's Dapa port (about "
+                      "text": "If flights are expensive or sold out, you can go via Surigao City. Fly from Cebu or elsewhere to Surigao Airport (SUG), or from Manila or Cebu to Butuan Airport (BXU), then take a fast ferry (about "
                     },
                     { "type": "duration", "text": "1 hour 30 minutes–2 hours" },
                     { "text": ", about " },
-                    { "type": "price", "text": "₱400–600" },
-                    { "text": ") or a RORO ferry (about " },
-                    { "type": "duration", "text": "3 hours" },
-                    { "text": "). From Dapa port to General Luna is about " },
-                    { "type": "duration", "text": "30–40 minutes" },
+                    { "type": "price", "text": "₱350–700" },
+                    { "text": ") or a RoRo ferry (about " },
+                    { "type": "duration", "text": "3–4 hours" },
                     {
-                      "text": " by van or tricycle. An overnight ferry from Cebu to Surigao (about "
+                      "text": ") from Surigao Port to Dapa Port in Siargao. From Dapa Port to General Luna takes about "
                     },
+                    { "type": "duration", "text": "30–40 minutes" },
+                    { "text": " by van or tricycle. An overnight passenger ferry (about " },
                     { "type": "duration", "text": "8–10 hours" },
-                    { "text": ") also runs." }
+                    { "text": ") also runs from Cebu to Surigao." }
                   ]
                 }
               ]
@@ -570,6 +574,29 @@
             { "type": "date", "text": "December" },
             { "text": ", so check forecasts when traveling in the rainy season." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Northeast monsoon, lots of rain and rough seas",
+              "Hopping often cancelled — strong typhoons possible in December (Odette in 2021)"
+            ],
+            [
+              "March–June",
+              "Dry, calm and clear seas",
+              "Best for hopping and lagoon tours — small waves suit beginner surf lessons"
+            ],
+            [
+              "July–October",
+              "Relatively dry",
+              "Big swells from August, Cloud 9 at its best — surf competition September–October"
+            ]
+          ]
         }
       ]
     },
@@ -585,13 +612,13 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Manila–Siargao flight",
-              "price": "About ₱3,000–8,000 one way",
-              "note": "Surges in peak season; book early"
+              "label": "Cebu/Clark–Siargao flight",
+              "price": "About ₱2,000–5,000 one way",
+              "note": "Sharp rise in peak season, Manila via Cebu"
             },
             {
               "label": "Airport–General Luna shared van",
-              "price": "About ₱300–350 per person",
+              "price": "About ₱300–400 per person",
               "note": "About 45 minutes–1 hour"
             },
             { "label": "Scooter rental", "price": "About ₱350–500 per day", "note": "Fuel extra" },
@@ -602,7 +629,7 @@
             },
             {
               "label": "Three-island hopping tour",
-              "price": "About ₱1,200–2,000 per person",
+              "price": "About ₱1,500–2,200 per person",
               "note": "Based on shared groups with lunch included"
             },
             {
@@ -736,6 +763,13 @@
               "children": [
                 {
                   "text": "Internet is generally usable in central General Luna, but signal is weak in the island's north and around the lagoon."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "There are no gas stations in the north of the island, such as Pacifico, Burgos, and Alegria, only fuel sold in bottles by the roadside. Fill up completely in General Luna or Del Carmen before a loop of the north."
                 }
               ]
             }

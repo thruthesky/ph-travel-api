@@ -29,8 +29,8 @@
     "items": ["Volcano", "Taal Lake view", "Cliff viewpoint", "Trail closed", "Batangas lomi"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 13.9168 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.0521 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 13.9209 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.0517 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -195,7 +195,7 @@
               "title": "San Isidro Labrador Church",
               "children": [
                 {
-                  "text": "Cuenca Church, in the center of the village, is a Gothic-style church built in the late 19th century, dedicated to San Isidro, the patron saint of farmers. Its white twin-tower facade is striking."
+                  "text": "Cuenca Church in the town center is a Gothic-style church built in the late 19th century, dedicated to San Isidro, the patron saint of farmers. Its facade with pointed arches and a rose window and the bell tower beside it are striking."
                 }
               ]
             },
@@ -483,6 +483,29 @@
               "text": ") was once the busiest time on the mountain, for the pilgrimage hike, but since the closure, the local government has issued a fresh hiking ban for this period every year as well. Check the Cuenca tourism office's official page for the latest word on reopening."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, clear and cool air",
+              "The whole mountain stands out sharply — take photos in the morning"
+            ],
+            [
+              "March–May",
+              "Late dry season, frequent afternoon clouds",
+              "Climbing ban reaffirmed during Holy Week — check whether it is open"
+            ],
+            [
+              "June–October",
+              "Rainy season, clouds and rain hide the mountain",
+              "The lake is restricted under Taal Volcano alerts — check PHIVOLCS"
+            ]
+          ]
         }
       ]
     },
@@ -634,6 +657,15 @@
               "children": [
                 {
                   "text": "If reopening is announced, expect a rush of hikers in the early days. A weekday visit and booking a guide in advance are recommended."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "In " },
+                { "text": "July 2026", "type": "date" },
+                {
+                  "text": " the Cuenca tourism office again denied rumors that only Rocky's and the summit were closed while other trails were open, and reconfirmed that hiking is banned across the entire mountain. Trust the tourism office's notices over posts on travel forums or social media saying \"you can climb now.\""
                 }
               ]
             }

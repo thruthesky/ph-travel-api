@@ -35,8 +35,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.6979 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.9606 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.6915 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.9526 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -447,6 +447,34 @@
             { "type": "date", "text": "tháng 10–tháng 12" },
             { "text": ", áp thấp có thể gây mưa lớn." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 2",
+              "Mùa khô, đường rừng khô ráo",
+              "Quan sát được quanh năm — nên đến lúc 9–11 giờ sáng"
+            ],
+            [
+              "Tháng 3–tháng 5",
+              "Mùa khô, trời trong",
+              "Dễ chịu nhất — tránh các đoàn khách đông vào khoảng giữa trưa"
+            ],
+            [
+              "Tháng 6–tháng 9",
+              "Mùa mưa",
+              "Đường rừng trơn, nhiều muỗi — mưa lớn thì dừng tham quan"
+            ],
+            [
+              "Tháng 10–tháng 11",
+              "Mùa mưa, có thể có áp thấp và mưa lớn",
+              "Đường rừng trơn — có thể tạm dừng tham quan"
+            ]
+          ]
         }
       ]
     },
@@ -463,8 +491,8 @@
           "items": [
             {
               "label": "Vé vào khu bảo tồn",
-              "price": "Khoảng ₱100–150",
-              "note": "Giảm giá học sinh · người cao tuổi, kiểm tra giá mới nhất"
+              "price": "Khoảng ₱150",
+              "note": "Học sinh, sinh viên và người cao tuổi ₱120, dưới 8 tuổi miễn phí, kiểm tra giá mới nhất"
             },
             {
               "label": "Jeepney Tagbilaran → Corella",
@@ -577,6 +605,17 @@
               "children": [
                 {
                   "text": "Tài xế tour vùng quê có thể đưa bạn đến một cơ sở ven đường khác với lý do giá rẻ hơn. Nếu quan tâm đến phúc lợi động vật, hãy yêu cầu đến đúng khu bảo tồn do quỹ vận hành."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Giờ hoạt động thường là " },
+                { "type": "time", "text": "9 giờ sáng–4 giờ chiều" },
+                { "text": ", và lượt vào cuối cùng vào khoảng " },
+                { "type": "time", "text": "3 giờ 30 chiều" },
+                {
+                  "text": ". Nếu xếp vào điểm dừng cuối của tour vùng quê thì rất dễ lỡ giờ vào cửa, vì vậy hãy ghé vào buổi sáng."
                 }
               ]
             }

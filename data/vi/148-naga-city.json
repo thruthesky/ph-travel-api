@@ -439,14 +439,14 @@
                     {
                       "children": [
                         {
-                          "text": "Xe khách đi Naga của nhiều hãng như DLTB, Peñafrancia, Isarog khởi hành hằng ngày từ PITX, Cubao, Pasay ở Manila. Quãng đường khoảng "
+                          "text": "Mỗi ngày có xe buýt của nhiều hãng như DLTB, Peñafrancia, Isarog… đi Naga khởi hành từ PITX, Cubao, Pasay ở Manila. Quãng đường bộ khoảng "
                         },
-                        { "type": "distance", "text": "445km" },
+                        { "type": "distance", "text": "390km" },
                         { "text": ", mất khoảng " },
                         { "type": "duration", "text": "8–10 giờ" },
-                        { "text": ", giá vé tùy hạng ghế khoảng " },
-                        { "type": "price", "text": "₱900~1,500" },
-                        { "text": "." }
+                        { "text": ", giá vé khoảng " },
+                        { "type": "price", "text": "₱1,000–1,800" },
+                        { "text": " tùy hạng." }
                       ]
                     },
                     {
@@ -472,14 +472,16 @@
                   "items": [
                     {
                       "children": [
+                        { "text": "Kể từ " },
+                        { "text": "ngày 29 tháng 3 năm 2026", "type": "date" },
                         {
-                          "text": "Các chuyến bay của Cebu Pacific từ Manila đến sân bay Naga (WNP) ở Pili mất khoảng "
+                          "text": ", không còn chuyến bay thẳng Manila – Naga. Đến sân bay Naga (WNP) ở Pili, Cebgo — hãng thuộc Cebu Pacific — khai thác chuyến bay từ Clark, mất khoảng "
                         },
-                        { "type": "duration", "text": "1 giờ" },
-                        { "text": ", giá vé một chiều tùy thời điểm khoảng " },
-                        { "type": "price", "text": "₱2,000~5,000" },
+                        { "text": "1 giờ 20 phút", "type": "duration" },
+                        { "text": ", giá vé một chiều khoảng " },
+                        { "text": "₱2,000–5,000", "type": "price" },
                         {
-                          "text": ". Vì số chuyến không nhiều nên vé thường hết sớm, hãy kiểm tra lịch bay mới nhất."
+                          "text": " tùy thời điểm. Số chuyến ít và hết vé sớm, nên hãy kiểm tra lịch bay mới nhất."
                         }
                       ]
                     },
@@ -528,6 +530,40 @@
                         },
                         { "type": "price", "text": "₱20~40" },
                         { "text": ") rồi đổi sang tricycle hoặc xe ôm." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tàu hỏa",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Tàu ngoại ô Bicol Commuter của Đường sắt Quốc gia Philippines (PNR) chạy nhiều chuyến mỗi ngày từ ga Naga đến Sipocot, mất khoảng "
+                        },
+                        { "type": "duration", "text": "45 phút" },
+                        { "text": ". Giá vé rẻ nên rất đáng thử như một trải nghiệm đi tàu ngắn." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Đoạn Naga – Legazpi đã ngừng chạy do cầu sắt ở Guinobatan, Albay bị phá hủy bởi bão Uwan (Fung-wong) vào "
+                        },
+                        { "type": "date", "text": "tháng 11 năm 2025" },
+                        { "text": " và cho đến " },
+                        { "type": "date", "text": "tháng 7 năm 2026" },
+                        {
+                          "text": " vẫn chưa mở lại. Để đến Legazpi, hãy đi xe van hoặc xe buýt, và kiểm tra thông báo của PNR xem đã chạy lại chưa."
+                        }
                       ]
                     }
                   ]
@@ -616,6 +652,29 @@
             { "type": "date", "text": "Tháng 12" },
             { "text": " có lễ hội Giáng sinh Kamundagan, trang trí đèn khắp thành phố." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 1",
+              "Gió mùa đông bắc, trời nhiều mây và thường có mưa",
+              "Lễ hội Giáng sinh Kamundagan tháng 12 — trang trí đèn khắp nội thành"
+            ],
+            [
+              "Tháng 2 – tháng 5",
+              "Tương đối khô, 32–34℃ vào tháng 4–5",
+              "Thác nước và đường núi bớt trơn — khá nóng vào tháng 4–5"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Thường có mưa, từ tháng 8 là mùa bão",
+              "Lễ hội Peñafrancia tháng 9 — chỗ ở hết sạch từ vài tháng trước"
+            ]
+          ]
         }
       ]
     },
@@ -632,11 +691,11 @@
           "items": [
             {
               "label": "Xe khách Manila–Naga",
-              "price": "Khoảng ₱900~1,500 một chiều",
+              "price": "Một chiều khoảng ₱1,000–1,800",
               "note": "Theo hạng ghế thường đến giường nằm"
             },
             {
-              "label": "Vé máy bay Manila–Naga",
+              "label": "Chuyến bay Clark – Naga",
               "price": "Khoảng ₱2,000~5,000 một chiều",
               "note": "Ít chuyến, giá khác nhau theo thời điểm"
             },
@@ -771,7 +830,11 @@
             {
               "children": [
                 {
-                  "text": "Nếu có kế hoạch đi Caramoan, bạn cần bắt chuyến van đầu tiên đến cảng Sabang để kịp tàu buổi sáng, nên hãy nghỉ lại một đêm ở Naga và khởi hành từ sáng sớm."
+                  "text": "Nếu định đến Caramoan, hãy nghỉ một đêm ở Naga rồi xuất phát từ sáng sớm. Có báo cáo rằng vào "
+                },
+                { "type": "date", "text": "năm 2026" },
+                {
+                  "text": ", do giá nhiên liệu tăng, tàu định kỳ Sabang – Guijalo không chạy thường xuyên, nên an toàn hơn là kiểm tra trước xem tàu có chạy không, hoặc đi xe buýt, xe van đường bộ đến Caramoan."
                 }
               ]
             },
@@ -787,6 +850,19 @@
                 {
                   "text": "Trung tâm thương mại và ngân hàng trong thành phố có nhiều ATM, nhưng xe jeepney, tricycle và quán ăn nhỏ chỉ nhận tiền mặt."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bạn có thể xem lịch lễ hội, thông tin kiểm soát giao thông và hướng dẫn điểm tham quan trên "
+                },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức",
+                  "url": "https://tourism.naga.gov.ph/"
+                },
+                { "text": " của du lịch thành phố Naga." }
               ]
             }
           ]

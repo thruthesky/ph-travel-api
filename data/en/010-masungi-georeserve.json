@@ -240,11 +240,29 @@
             {
               "type": "card",
               "number": 7,
-              "title": "Try a shorter program",
+              "title": "Try a lighter program",
+              "children": [
+                { "text": "If the physical demands worry you, choose the Garden Picnic (average " },
+                { "type": "duration", "text": "3 hours" },
+                {
+                  "text": ", ages 1 and up), which combines a walk through the rock garden, a tasting of native plant tea, and a picnic. Seasonal special programs also run, such as Celestial Nights, an evening event with music and stargazing, so check the official announcements."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Origin Trail",
               "children": [
                 {
-                  "text": "If the full trail feels daunting, shorter programs are sometimes offered in season, such as an early-morning climb up the stone steps to watch the sunrise from a viewpoint, or a rock-garden walk with tea tasting — check the reservation page."
-                }
+                  "text": "A route that climbs more than 600 stone steps to a karst peak viewpoint, taking about "
+                },
+                { "type": "duration", "text": "2–3 hours" },
+                {
+                  "text": " and open to anyone aged 7 and up. Adding the optional rope-way section makes it take "
+                },
+                { "type": "duration", "text": "4 hours" },
+                { "text": " or more and raises the difficulty." }
               ]
             }
           ]
@@ -412,12 +430,26 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "From Metro Manila, take Marcos Highway east past Antipolo and continue on; the entrance is on the left at the "
+                      "text": "From Metro Manila, take Marcos Highway through Antipolo and keep going east; the entrance is on the right at the "
                     },
-                    { "type": "distance", "text": "47km" },
+                    { "type": "distance", "text": "47 km" },
                     {
-                      "text": " marker. The winding mountain road carries many motorcyclists, so defensive driving is needed. There's dedicated visitor parking, but you may need to register your vehicle details when booking."
+                      "text": " mark, just past the Garden Cottage, Foremost Farms, and Palo Alto signs. The road is winding mountain road and popular with motorcycle clubs, so drive defensively. There is parking for visitors only, but you may need to register your vehicle details when booking."
                     }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The official guidance advises avoiding Manila East Road and coming only by Marcos Highway. From Katipunan Avenue in Quezon City it is about "
+                    },
+                    { "type": "distance", "text": "35 km" },
+                    { "text": " and about " },
+                    { "type": "duration", "text": "1 hour 15 minutes" },
+                    { "text": ", and from Ninoy Aquino International Airport it can take " },
+                    { "type": "duration", "text": "3–3 hours 30 minutes" },
+                    { "text": " depending on traffic." }
                   ]
                 }
               ]
@@ -479,6 +511,29 @@
               "text": "The reserve generally operates Tuesday through Sunday, closed Mondays. Weekend slots often book out weeks in advance, and the year-end holidays and Holy Week fill up even faster."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, cool and clear mornings",
+              "Pleasant trails — slots fill quickly around the year-end holidays"
+            ],
+            [
+              "March–May",
+              "Dry season, rocks are hot at midday",
+              "Book the earliest time slot — fills quickly during Holy Week"
+            ],
+            [
+              "June–October",
+              "Rainy season, rocks and ropes are slippery",
+              "More leeches and mosquitoes — trails are canceled during typhoons"
+            ]
+          ]
         }
       ]
     },
@@ -495,7 +550,7 @@
           "items": [
             {
               "label": "Discovery Trail conservation fee",
-              "price": "About ₱1,500–1,800",
+              "price": "About ₱1,700–2,000",
               "note": "Weekday/weekend rates differ; check latest pricing"
             },
             { "label": "Grab (one way)", "price": "About ₱1,200–2,000", "note": "From Makati/BGC" },
@@ -632,6 +687,42 @@
                   "text": "The final stretch of the trail is the most physically demanding. Don't rush at the start — match the ranger's pace."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "The conservation fee is " },
+                { "type": "price", "text": "₱1,700" },
+                { "text": " on weekdays and " },
+                { "type": "price", "text": "₱2,000" },
+                { "text": " on weekends for the Discovery Trail (ages 13 and up), " },
+                { "type": "price", "text": "₱1,800" },
+                { "text": " on weekdays and " },
+                { "type": "price", "text": "₱2,000" },
+                { "text": " on weekends for the Legacy Trail (ages 10 and up), " },
+                { "type": "price", "text": "₱1,700" },
+                { "text": " on weekdays and " },
+                { "type": "price", "text": "₱2,000" },
+                { "text": " on weekends for the Origin Trail (ages 7 and up), and " },
+                { "type": "price", "text": "₱1,500" },
+                { "text": " for the Garden Picnic (ages 1 and up). Make visit requests on the " },
+                {
+                  "type": "link",
+                  "text": "official Masungi Georeserve website",
+                  "url": "https://www.masungigeoreserve.com/"
+                },
+                { "text": "." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The conservation fee cannot be paid on site and must be paid in advance. The nearest bank or ATM is also more than "
+                },
+                { "type": "duration", "text": "1 hour" },
+                {
+                  "text": " away by car, so prepare cash before leaving, and for mobile phones, the Smart network has relatively better reception."
+                }
+              ]
             }
           ]
         }
@@ -684,6 +775,17 @@
                   "text": ", Masungi has faced an ongoing dispute between the government and the foundation over land-use agreements, along with controversy over a nearby wind-farm project. Operations may change, so check the official channels for the latest announcements before visiting."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Littering, smoking, and collecting plants, animals, or rocks are fined "
+                },
+                { "type": "price", "text": "₱3,000" },
+                {
+                  "text": " from the first offense. Leave lighters and cigarettes at the entrance or in your car, and do not give rangers personal tips (use the shared donation box if you wish)."
+                }
+              ]
             }
           ]
         },
@@ -724,6 +826,7 @@
             {
               "type": "card",
               "title": "Tanay Daraitan and the Tinipak River",
+              "place": "mount-daraitan",
               "children": [
                 { "text": "About " },
                 { "type": "duration", "text": "1 hour 30 minutes" },

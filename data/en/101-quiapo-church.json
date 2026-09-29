@@ -413,16 +413,18 @@
                     {
                       "children": [
                         {
-                          "text": "The easiest way is Carriedo LRT-1 station. From the station it's about "
+                          "text": "The easiest way is LRT-1's Carriedo station. From the station it's about "
                         },
                         { "type": "duration", "text": "5–10 minutes" },
                         {
                           "text": " on foot along Carriedo Street to the church, and the fare is about "
                         },
-                        { "type": "price", "text": "₱15–40" },
-                        { "text": " depending on where you board. It takes about " },
+                        { "type": "price", "text": "₱16–40" },
+                        {
+                          "text": " depending on your starting station. From EDSA and Baclaran stations in Pasay, it takes about "
+                        },
                         { "type": "duration", "text": "25–30 minutes" },
-                        { "text": " from EDSA or Baclaran station in Pasay." }
+                        { "text": "." }
                       ]
                     },
                     {
@@ -430,6 +432,19 @@
                         { "text": "You can also walk from Recto LRT-2 station, but it's about " },
                         { "type": "duration", "text": "15–20 minutes" },
                         { "text": " on foot through crowded streets." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Using a beep card, the transit smartcard, is slightly cheaper than a single-journey ticket and saves you from queuing at the ticket window. The minimum fare is "
+                        },
+                        { "type": "price", "text": "₱16" },
+                        { "text": " with a beep card and " },
+                        { "type": "price", "text": "₱20" },
+                        {
+                          "text": " with a single-journey ticket, and you can buy and top up a card at station ticket counters or vending machines."
+                        }
                       ]
                     }
                   ]
@@ -479,11 +494,24 @@
                     {
                       "children": [
                         {
-                          "text": "Quiapo is a hub of Manila's jeepney routes, so jeepneys marked \"Quiapo\" run in from Ermita, Malate, Santa Mesa, Quezon City, and elsewhere. The base fare is about "
+                          "text": "Quiapo is the hub of Manila's jeepney routes, so jeepneys with a \"Quiapo\" sign come from all over, including Ermita, Malate, Santa Mesa, and Quezon City. The base fare is about "
                         },
-                        { "type": "price", "text": "₱13–15" },
+                        { "type": "price", "text": "₱14–17" },
                         {
-                          "text": ". Routes can be confusing, so first-timers are better off with the LRT or Grab."
+                          "text": ". The routes are confusing, so first-timers are better off with the LRT or Grab."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Starting " },
+                        { "type": "date", "text": "September 28, 2026" },
+                        { "text": ", the base jeepney fare rose to " },
+                        { "type": "price", "text": "₱14" },
+                        { "text": " for traditional jeepneys and " },
+                        { "type": "price", "text": "₱17" },
+                        {
+                          "text": " for modern (air-conditioned, modernized) ones. The local custom is to have small change ready and pass it forward through the front-seat passengers to the driver."
                         }
                       ]
                     }
@@ -559,6 +587,34 @@
               "text": " thanksgiving procession and during Holy Week. If you want to experience the event, it's safer to watch from a distance, and if you'd rather see the church quietly, choose a weekday morning that isn't a Friday or feast day."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, relatively cool",
+              "Most pleasant — January 9 Traslacion, December 31 thanksgiving procession"
+            ],
+            [
+              "March–May",
+              "End of dry season, 34–36℃ in April–May",
+              "Visit in the early morning — worshippers also surge during Holy Week"
+            ],
+            [
+              "June–October",
+              "Rainy and typhoon season",
+              "Heavy rain floods roads around Quiapo and Recto"
+            ],
+            [
+              "November",
+              "Between the rainy and dry seasons",
+              "For a quiet visit, choose a weekday morning avoiding Fridays and feast days"
+            ]
+          ]
         }
       ]
     },
@@ -576,7 +632,7 @@
             { "label": "Church admission", "price": "Free", "note": "Donations optional" },
             {
               "label": "LRT-1",
-              "price": "About ₱15–40 one way",
+              "price": "About ₱16–40 one way",
               "note": "Varies by distance and payment method"
             },
             {

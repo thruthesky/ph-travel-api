@@ -29,8 +29,8 @@
     "items": ["Khám phá các đảo", "Rùa biển", "Lặn ống thở", "Du lịch bụi", "Bãi biển vắng"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.5, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 10.4061 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 119.1631 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 10.4114 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 119.178 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -212,11 +212,11 @@
               "number": 5,
               "title": "Dạo bãi biển White Beach",
               "children": [
-                { "text": "Là bãi biển yên tĩnh cách khoảng " },
+                { "text": "Bãi biển yên tĩnh cách khoảng " },
                 { "type": "duration", "text": "30–40 phút" },
-                { "text": " đi bộ qua mũi đất phía bắc làng, hoặc khoảng " },
+                { "text": " đi bộ qua mũi đất phía nam làng, đi bangka thì khoảng " },
                 { "type": "duration", "text": "10 phút" },
-                { "text": " nếu đi thuyền bangka. Rất thích hợp để dành nửa ngày dưới bóng dừa." }
+                { "text": ". Thích hợp để dành nửa ngày dưới bóng dừa." }
               ]
             },
             {
@@ -362,6 +362,16 @@
                       "text": ". San Vicente cũng có sân bay nhỏ nhưng chuyến bay định kỳ không đều đặn, nên phần lớn du khách dùng Puerto Princesa. Cũng có cách bay vào sân bay El Nido (ENI), đi chơi El Nido xong rồi di chuyển xuống đây."
                     }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ " },
+                    { "type": "date", "text": "ngày 29 tháng 3 năm 2026" },
+                    {
+                      "text": ", các chuyến bay thẳng đến Sân bay El Nido không xuất phát từ Manila mà từ Clark, Cebu, Boracay (Caticlan),... Nếu xuất phát từ Manila, tuyến đi Puerto Princesa là tiện nhất và rẻ nhất."
+                    }
+                  ]
                 }
               ]
             },
@@ -373,18 +383,28 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ sân bay Puerto Princesa hoặc bến xe San Jose trong thành phố, bạn đón xe van ghép đi Port Barton, mất khoảng "
+                      "text": "Từ Sân bay Puerto Princesa hoặc bến Irawan, đi van chung đến Port Barton mất khoảng "
                     },
                     { "type": "duration", "text": "3–4 giờ" },
-                    { "text": ", giá khoảng " },
-                    { "type": "price", "text": "₱500–700" },
+                    { "text": ", khoảng " },
+                    { "type": "price", "text": "₱500~700" },
                     {
-                      "text": ". Bạn có thể đặt trước để được đón tại nơi lưu trú; xe chạy trên quốc lộ hướng Roxas rồi rẽ vào đường núi phía tây gần Salvacion, đoạn này đã được trải nhựa hoàn chỉnh nên việc di chuyển thuận tiện hơn nhiều so với trước. Cách đón xe buýt đi Roxas rồi đổi sang jeepney hoặc xe máy tại ngã ba Salvacion rẻ hơn nhưng mất nhiều thời gian hơn. Từ El Nido, xe van ghép mất khoảng "
+                      "text": ". Có thể đặt đón tại chỗ ở; xe chạy theo quốc lộ hướng Roxas, rồi rẽ vào đường núi phía tây gần Salvacion, đoạn này đã được trải nhựa xong nên đi lại dễ dàng hơn trước rất nhiều. Cách đi xe buýt đến Roxas rồi đổi sang jeepney hoặc xe máy ở ngã ba Salvacion thì rẻ hơn nhưng mất nhiều thời gian hơn. Từ El Nido đi van chung khoảng "
                     },
                     { "type": "duration", "text": "4–5 giờ" },
-                    { "text": ", giá khoảng " },
-                    { "type": "price", "text": "₱600–800" },
+                    { "text": ", khoảng " },
+                    { "type": "price", "text": "₱600~800" },
                     { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Bến tổng hợp của Puerto Princesa đã chuyển vào " },
+                    { "type": "date", "text": "năm 2023" },
+                    {
+                      "text": " từ San Jose ở phía bắc thành phố sang Irawan ở phía nam, nên đi Port Barton ở phía bắc lại thành đi đường vòng. Lên xe ngay tại sân bay hoặc đặt đón tại chỗ ở sẽ tiết kiệm thời gian. Xe van đi Port Barton chỉ xuất phát vài chuyến mỗi ngày (khoảng sáng, trưa, chiều), nên hãy đặt trước từ hôm trước và xác nhận lại giờ xuất phát."
+                    }
                   ]
                 }
               ]
@@ -462,6 +482,26 @@
               "text": ". Trong thời gian này, sóng cao khiến nhiều ngày tour khám phá đảo bị hủy hoặc chỉ đi được các đảo gần, và khi mưa thì việc di chuyển trên đường núi cũng chậm hơn. Bù lại, giá phòng rẻ hơn và làng yên tĩnh hơn. Nếu thăm vào mùa mưa, bạn nên sắp xếp ngày khám phá đảo có độ dư dả."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            ["Tháng 11", "Bắt đầu mùa khô", "Thời điểm tốt để đến"],
+            ["Tháng 12 – tháng 2", "Mùa khô, có gió và mát mẻ", "Thích hợp trekking"],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, biển lặng và nước trong",
+              "Thời điểm tốt nhất để nhảy đảo và lặn ống thở"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió mùa Habagat",
+              "Thường hủy nhảy đảo — giá rẻ và yên tĩnh"
+            ]
+          ]
         }
       ]
     },
@@ -488,8 +528,8 @@
             },
             {
               "label": "Tour ghép khám phá đảo",
-              "price": "Khoảng ₱1,000–1,500",
-              "note": "Mỗi người, gồm bữa trưa và thiết bị lặn ống thở"
+              "price": "Khoảng ₱1,500~1,700",
+              "note": "Mỗi người, gồm bữa trưa và đồ nghề, kiểm tra xem đã gồm thuế môi trường chưa"
             },
             {
               "label": "Thuyền bangka riêng",
@@ -611,6 +651,13 @@
               "children": [
                 {
                   "text": "Theo các hướng dẫn viên địa phương, khả năng gặp rùa biển cao hơn vào buổi sáng."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Vào những ngày Cảnh sát biển cấm ra khơi xa, nhảy đảo đôi khi đổi lộ trình sang những nơi lặng sóng trong vịnh. Khi đặt, nên hỏi về lộ trình thay thế và điều kiện hủy, hoàn tiền."
                 }
               ]
             }

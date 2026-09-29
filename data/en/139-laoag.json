@@ -419,14 +419,16 @@
                     {
                       "children": [
                         {
-                          "text": "Several daily buses to Laoag depart from Cubao, Sampaloc, and Pasay in Manila, operated by Partas, Farinas Trans, Maria de Leon, and others. The trip takes about "
+                          "text": "Several Laoag-bound buses run daily from Cubao, Sampaloc, and Pasay in Manila, including Partas, Fariñas Trans, GV Florida, and Maria de Leon. It takes about "
                         },
                         { "type": "duration", "text": "9–11 hours" },
-                        { "text": ", with fares running about " },
-                        { "type": "price", "text": "₱1,000–1,800" },
+                        { "text": " and the fare is about " },
+                        { "type": "price", "text": "₱1,150–1,800" },
                         {
-                          "text": " depending on class — a deluxe overnight bus with more legroom is the more comfortable choice."
-                        }
+                          "text": " depending on class, and a deluxe overnight bus with wide seats is the comfortable choice. Provincial bus fares rose on "
+                        },
+                        { "type": "date", "text": "September 28, 2026" },
+                        { "text": ", so check the fare again when you book." }
                       ]
                     },
                     {
@@ -487,6 +489,19 @@
                         { "type": "price", "text": "₱3,500–6,000" },
                         { "text": " for a van with driver." }
                       ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Traditional horse-drawn carriages called calesas also run in town. They are cheap at about "
+                        },
+                        { "type": "price", "text": "₱20" },
+                        { "text": " per person for a city ride (as of " },
+                        { "type": "date", "text": "April 2026" },
+                        {
+                          "text": "), and the city hall is preparing to improve the calesa routes and offer experience packages linking the market and restaurants. Taking a calesa once between the cathedral and Aurora Park is also a very Laoag experience."
+                        }
+                      ]
                     }
                   ]
                 }
@@ -536,6 +551,29 @@
             { "type": "date", "text": "February" },
             { "text": ", filling the city with street parades and performances." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, cool mornings and evenings in December–February",
+              "Most pleasant — February 10 city feast day, the Pamulinawen Festival"
+            ],
+            [
+              "March–May",
+              "Dry season, around 35℃ at midday",
+              "Walk around town and take a sand dune tour — museums and cafés at midday"
+            ],
+            [
+              "June–October",
+              "Rainy season, southwest monsoon and typhoons",
+              "July–September typhoons often cancel or delay flights and buses"
+            ]
+          ]
         }
       ]
     },
@@ -557,7 +595,7 @@
             },
             {
               "label": "Manila–Laoag bus",
-              "price": "About ₱1,000–1,800 one way",
+              "price": "About ₱1,150–1,800 one way",
               "note": "Regular to deluxe"
             },
             {
@@ -567,8 +605,13 @@
             },
             {
               "label": "La Paz Sand Dunes 4x4",
-              "price": "About ₱2,500–3,500 per vehicle",
-              "note": "Shared among 4–6 people, confirm whether sandboard is included"
+              "price": "About ₱2,000–3,500 per vehicle",
+              "note": "Shared by 4–5 people, check whether sandboarding is included"
+            },
+            {
+              "label": "The Ilocos Norte Museum",
+              "price": "About ₱50–100",
+              "note": "Student and senior discounts, check operating hours"
             },
             {
               "label": "Tricycle charter",
@@ -692,6 +735,19 @@
                 {
                   "text": "If you're doing a loop trip linking Vigan to the south and Pagudpud to the north, plan on about two nights in Laoag as a comfortable midway base."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "You can check event schedules such as the Pamulinawen Festival and attraction operating notices on the "
+                },
+                {
+                  "type": "link",
+                  "text": "Ilocos Norte provincial official website",
+                  "url": "https://ilocosnorte.gov.ph/"
+                },
+                { "text": "." }
               ]
             }
           ]

@@ -158,7 +158,13 @@
               "title": "Quầy bar nổi Tawhai",
               "children": [
                 {
-                  "text": "Hãy nằm dài trên giường tắm nắng tại quầy bar nổi lớn thả trước đảo, tận hưởng không khí giữa lòng biển khơi. Ngày hoạt động và thời gian sử dụng thường cố định, và nhiều khi có phụ phí riêng, nên hãy hỏi trước tại bến cảng."
+                  "text": "Bạn nằm trên giường tắm nắng ở quầy bar nổi lớn ngoài khơi đảo để tận hưởng không khí giữa biển. Quầy chỉ mở "
+                },
+                { "type": "date", "text": "thứ Sáu–Chủ nhật" },
+                { "text": ", mỗi lần được ở tối đa " },
+                { "type": "duration", "text": "3 giờ" },
+                {
+                  "text": ", và đóng cửa khi thời tiết xấu. Khách đi tour trong ngày vào cửa miễn phí nhưng đồ ăn và thức uống tính riêng."
                 }
               ]
             },
@@ -281,9 +287,9 @@
                     {
                       "time": "13:30–15:00",
                       "children": [
-                        {
-                          "text": "Nghỉ ngơi tại quầy bar nổi Tawhai (kiểm tra tình trạng hoạt động)"
-                        }
+                        { "text": "Nghỉ ngơi ở quầy bar nổi Tawhai (mở " },
+                        { "type": "date", "text": "thứ Sáu–Chủ nhật" },
+                        { "text": ")" }
                       ]
                     },
                     {
@@ -445,21 +451,39 @@
                     {
                       "children": [
                         {
-                          "text": "Sau khi đăng ký tại cảng Lakawon, bạn trả vé vào cửa · tàu khứ hồi · phí bến (tổng cộng khoảng "
+                          "text": "Tại quầy vé ở cảng Lakawon, bạn trả giá tour trong ngày gồm vé vào cổng, phí nhà ga, thuyền khứ hồi và cottage (người lớn đặt online trước một ngày "
                         },
-                        { "type": "price", "text": "₱350–450" },
-                        { "text": ") rồi đi thuyền bangka sang đảo mất khoảng " },
+                        { "type": "price", "text": "₱650" },
+                        { "text": ", mua tại chỗ " },
+                        { "type": "price", "text": "₱750" },
+                        { "text": ") rồi đi thuyền bangka khoảng " },
                         { "type": "duration", "text": "15–20 phút" },
-                        { "text": "." }
+                        { "text": " để sang đảo." }
                       ]
                     },
                     {
                       "children": [
-                        { "text": "Tàu định kỳ thường khởi hành trong khoảng " },
-                        { "type": "time", "text": "7 – 11 giờ sáng" },
+                        { "text": "Thuyền theo lịch xuất phát lúc " },
+                        { "type": "time", "text": "7 giờ sáng" },
+                        { "text": ", " },
+                        { "type": "time", "text": "9 giờ" },
+                        { "text": " và " },
+                        { "type": "time", "text": "11 giờ" },
                         {
-                          "text": " khi đủ khách, còn ngoài khung giờ đó sẽ tính phí chuyến đặc biệt khi thuê thuyền riêng. Resort đôi khi yêu cầu đặt chỗ online trước một ngày, nên hãy kiểm tra thông báo mới nhất."
-                        }
+                          "text": " khi một chiều có đủ từ 20 người. Nếu không đủ người hoặc đã quá 11 giờ sáng, bạn phải gọi special trip (từ 10 người trở xuống "
+                        },
+                        { "type": "price", "text": "₱1,000" },
+                        { "text": ", từ 11 người trở lên " },
+                        { "type": "price", "text": "₱1,500" },
+                        {
+                          "text": "). Đặt online không được trong ngày mà phải đặt trước một ngày, nên hãy xem thông báo mới nhất trên "
+                        },
+                        {
+                          "type": "link",
+                          "text": "trang chính thức của resort",
+                          "url": "https://lakawon.ph/"
+                        },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -520,6 +544,29 @@
             { "type": "date", "text": "tháng 1" },
             { "text": ", khiến thành phố nhộn nhịp trong thời gian này." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, gió đông bắc làm sóng hơi cao",
+              "Ít mưa — lễ hội Dinagsa tháng 1 làm thành phố náo nhiệt"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, biển lặng nhất",
+              "Quầy bar nổi và chèo kayak rất tốt — đông đúc vào Tuần Thánh và cuối tuần dịp nghỉ hè"
+            ],
+            [
+              "Tháng 6 – tháng 11",
+              "Mùa mưa, thường có mưa rào và trời âm u",
+              "Ngừng chạy khi có bão — vào đảo thật sớm và ra trước cơn mưa buổi chiều"
+            ]
+          ]
         }
       ]
     },
@@ -550,19 +597,19 @@
               "note": "Tính theo thuê nguyên chuyến"
             },
             {
-              "label": "Vé vào cửa · tàu khứ hồi · phí bến",
-              "price": "Khoảng ₱350–450/người",
-              "note": "Giá thường xuyên tăng"
+              "label": "Giá cơ bản tour trong ngày",
+              "price": "Khoảng ₱650–750 mỗi người",
+              "note": "Đã gồm vé vào cổng, phí nhà ga, thuyền khứ hồi và cottage, đặt trước thì rẻ hơn"
             },
             {
               "label": "Sử dụng quầy bar nổi",
-              "price": "Khoảng ₱250–300/người",
-              "note": "Có gói đã bao gồm sẵn"
+              "price": "Miễn phí",
+              "note": "Mở thứ Sáu–Chủ nhật, tối đa 3 giờ, đồ ăn và thức uống tính riêng"
             },
             {
-              "label": "Thuê cottage",
-              "price": "Khoảng ₱600–1,500",
-              "note": "Tùy số người · kích thước"
+              "label": "Thuyền special trip",
+              "price": "Khoảng ₱1,000–1,500 mỗi chuyến",
+              "note": "Khi thuyền theo lịch không đủ người hoặc sau 11 giờ sáng"
             },
             {
               "label": "Kayak · ván chèo đứng",
@@ -571,8 +618,8 @@
             },
             {
               "label": "Chỗ ở trên đảo",
-              "price": "Khoảng ₱2,500–12,000/đêm",
-              "note": "Từ cottage quạt đến phòng máy lạnh, 4–6 người"
+              "price": "Khoảng ₱4,400–13,800 một đêm",
+              "note": "Phòng và suite, tùy kích cỡ"
             },
             { "label": "Ăn uống", "price": "Khoảng ₱300–700/bữa", "note": "Nhà hàng resort" }
           ]
@@ -597,11 +644,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Chỗ ở trên đảo chỉ có cottage quạt, phòng máy lạnh và villa gia đình do resort vận hành, giá khoảng "
+              "text": "Chỗ ở trên đảo chỉ có phòng và suite do resort vận hành cùng lều cắm trại, phòng khoảng "
             },
-            { "type": "price", "text": "₱2,500–12,000" },
+            { "type": "price", "text": "₱4,400–13,800" },
             {
-              "text": "/đêm cho 4–6 người. Vì số phòng không nhiều, vào cuối tuần và mùa cao điểm cần đặt trước vài tuần. Phần lớn du khách ở Bacolod hoặc Silay và đi trong ngày, còn trong trung tâm Cadiz cũng có khách sạn nhỏ và nhà nghỉ, tiện cho việc bắt tàu sáng sớm."
+              "text": " một đêm. Số phòng không nhiều nên cuối tuần và mùa cao điểm phải đặt trước vài tuần. Phần lớn du khách ở Bacolod hoặc Silay rồi đi về trong ngày, và trong trung tâm Cadiz cũng có khách sạn nhỏ và nhà nghỉ, tiện để đi chuyến tàu sáng sớm."
             }
           ]
         },
@@ -686,6 +733,19 @@
               "children": [
                 {
                   "text": "Nếu đi đông người, thuê xe van cả ngày từ Bacolod để đi một lượt qua Lakawon, Rạn san hô Carbin và bờ biển Sagay sẽ tiết kiệm thời gian hơn nhiều so với đổi xe buýt. Hãy thỏa thuận trước về chi phí ăn của tài xế và thời gian chờ trước khi khởi hành."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Núi lửa Kanlaon hiện đang ở mức cảnh báo 2 của PHIVOLCS tính đến " },
+                { "type": "date", "text": "tháng 9 năm 2026" },
+                {
+                  "text": ", và khi phun trào, có lúc các chuyến bay đi và đến Bacolod bị hủy. Lakawon cách núi lửa khoảng "
+                },
+                { "type": "distance", "text": "70km" },
+                {
+                  "text": " nên ít nguy hiểm trực tiếp, nhưng nếu đi bằng máy bay, hãy dự phòng khoảng một ngày trong lịch về nước hoặc nối chuyến."
                 }
               ]
             }

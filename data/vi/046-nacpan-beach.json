@@ -29,8 +29,8 @@
     "items": ["Bãi cát trắng", "Bãi biển đôi", "Cây dừa", "Hoàng hôn", "Du lịch xe máy"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 11.3232 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 119.4169 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 11.3221 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 119.4284 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -329,20 +329,36 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Có chuyến bay thẳng từ Manila, Clark, Cebu, Boracay đến sân bay El Nido (ENI), từ Manila mất khoảng "
+                      "text": "Có chuyến bay thẳng từ Clark, Cebu, Boracay (Caticlan), Bohol và Coron (Busuanga) đến Sân bay El Nido (ENI), từ Clark mất khoảng "
                     },
-                    { "type": "duration", "text": "1 giờ 15 phút – 1 giờ 30 phút" },
+                    { "type": "duration", "text": "1 giờ 30 phút – 1 giờ 40 phút" },
                     {
-                      "text": ". Sân bay nằm ở phía bắc thị trấn El Nido nên thực ra lại gần bãi biển Nacpan hơn, cách khoảng "
+                      "text": ". Sân bay nằm ở phía bắc thị trấn El Nido nên thậm chí gần bãi biển Nacpan hơn, đi xe khoảng "
                     },
                     { "type": "duration", "text": "20–30 phút" },
                     {
-                      "text": " đi xe. Nếu dùng sân bay Puerto Princesa (PPS), bạn cần đi xe van đến thị trấn El Nido mất khoảng "
+                      "text": ". Nếu dùng Sân bay Puerto Princesa (PPS), đi van đến thị trấn El Nido mất khoảng "
                     },
                     { "type": "duration", "text": "5–6 giờ" },
                     { "text": " (khoảng " },
-                    { "type": "price", "text": "₱600–800" },
+                    { "type": "price", "text": "₱600~800" },
                     { "text": ")." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ " },
+                    { "text": "ngày 29 tháng 3 năm 2026", "type": "date" },
+                    {
+                      "text": ", do máy bay cánh quạt bị cấm khai thác ở Sân bay Ninoy Aquino Manila nên không còn chuyến bay thẳng Manila – El Nido. Nếu xuất phát từ Manila, hãy chọn một trong hai cách: đi xe buýt P2P từ Nhà ga 3 NAIA, PITX,... đến sân bay Clark khoảng "
+                    },
+                    { "text": "2 giờ 30 phút – 3 giờ", "type": "duration" },
+                    { "text": " (khoảng " },
+                    { "text": "₱550~630", "type": "price" },
+                    {
+                      "text": ") rồi lên máy bay, hoặc bay từ Manila đến Puerto Princesa rồi đi van."
+                    }
                   ]
                 }
               ]
@@ -452,6 +468,30 @@
               "text": " là mùa gió mùa tây nam Habagat và mùa mưa, mưa thường xuyên và có những ngày rong biển, rác trôi dạt vào bờ. Đường vào có thể biến thành bùn khiến việc đi xe máy khó khăn, nhưng bù lại ít khách nên bạn gần như có cả bãi biển cho riêng mình."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, sóng Amihan",
+              "Cẩn thận khi bơi — thích hợp để bodysurf"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, nhiệt độ cao và nắng gắt",
+              "Biển trong màu ngọc bích — hoạt động buổi sáng và cuối chiều"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió mùa Habagat",
+              "Rong biển trôi vào, đường vào lầy bùn — vắng vẻ"
+            ],
+            ["Tháng 11", "Bắt đầu mùa khô, sóng Amihan", "Cẩn thận khi bơi vào ngày sóng cao"]
+          ]
         }
       ]
     },
@@ -480,7 +520,7 @@
             {
               "label": "Phí môi trường El Nido (ETDF)",
               "price": "Khoảng ₱400",
-              "note": "Một lần trong thời gian ở El Nido"
+              "note": "1 người, có giá trị 10 ngày"
             },
             {
               "label": "Vào bãi biển · gửi xe",

@@ -57,7 +57,19 @@
     "credit": "StrangerNbystander / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Mantayupan_Falls_of_Barili,_Cebu.jpg"
   },
-  "gallery": { "type": "carousel", "label": "写真", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/176-mantayupan-falls-2.webp",
+        "alt": "マンタユパン滝",
+        "credit": "Seallynnjay / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mantayupan_Ambakan.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -147,9 +159,9 @@
               "children": [
                 { "text": "高さ約" },
                 { "type": "distance", "text": "14m" },
-                { "text": "の下の滝の前にある滝つぼでは、竹の筏(約" },
-                { "type": "price", "text": "₱100" },
-                { "text": ")を借りて滝のすぐ下まで近づくことができます。水しぶきを浴びながら写真を撮るのが、ここの代表的な体験です。" }
+                { "text": "の下の滝の前の水たまりでは、竹の筏(約" },
+                { "type": "price", "text": "₱100〜300" },
+                { "text": ")を借りて滝のすぐ下まで近づけます。水しぶきを浴びながら写真を撮るのが、ここの代表的な体験です。" }
               ]
             },
             {
@@ -418,6 +430,17 @@
             { "type": "temperature", "text": "27〜32℃" },
             { "text": "程度ですが、渓谷の中は日陰が多く涼しく感じます。" }
           ]
+        },
+        {
+          "type": "table",
+          "label": "時期別ひと目でわかる表",
+          "icon": "calendar_month",
+          "columns": ["時期", "天気", "旅のポイント"],
+          "rows": [
+            ["12月〜2月", "乾季、水が澄んで道が滑りにくい", "水たまりが青緑色 — 筏・水泳も安心"],
+            ["3月〜5月", "乾季、水量が減る", "主な滝の水の流れが細くなることがある"],
+            ["6月〜11月", "雨季、水量が大きく増える", "滝が最も壮大 — 大雨の後は水遊びが規制されることも"]
+          ]
         }
       ]
     },
@@ -432,11 +455,11 @@
           "currency": "PHP",
           "columns": ["項目", "予想費用", "備考"],
           "items": [
-            { "label": "入場料", "price": "約₱40〜50", "note": "大人1人、子供・シニア割引あり" },
+            { "label": "入場料", "price": "約₱40〜50", "note": "大人1人、6〜10歳・高齢者・障害者₱30、5歳以下無料" },
             { "label": "駐車料・環境料", "price": "約₱10〜20", "note": "車両・1人基準、別途徴収" },
             { "label": "セブシティ〜バリリバス", "price": "約₱100〜150", "note": "片道、2〜2時間30分" },
             { "label": "バリリ市街〜滝ハバルハバル", "price": "約₱50〜100", "note": "片道" },
-            { "label": "竹の筏", "price": "約₱100", "note": "1回" },
+            { "label": "竹の筏", "price": "約₱100〜300", "note": "1回、時間・人数によって異なる" },
             { "label": "ライフジャケットレンタル", "price": "約₱50", "note": "1個" },
             { "label": "テーブル・コテージレンタル", "price": "約₱200〜250", "note": "1日" },
             { "label": "車チャーター", "price": "約₱3,500〜5,000", "note": "1台、セブシティ発1日" },

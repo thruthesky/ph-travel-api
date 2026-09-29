@@ -533,6 +533,29 @@
               "text": " draw large crowds of local visitors, so choose a weekday morning if you want a quieter visit."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "October–February",
+              "Northeast monsoon in November–February, most rain",
+              "Grander with more water but murky — rockfalls and landslides possible; December typhoons rare"
+            ],
+            [
+              "March–May",
+              "Little rain, 27–32℃ by day",
+              "Water clear and travel easy — crowded on Holy Week and school-holiday weekends"
+            ],
+            [
+              "June–September",
+              "Relatively little rain",
+              "Water clear — go on a weekday morning for a quiet visit"
+            ]
+          ]
         }
       ]
     },
@@ -558,6 +581,11 @@
               "note": "Discounts for children and seniors"
             },
             { "label": "Zipline", "price": "About ₱200–300", "note": "Confirm operation on-site" },
+            {
+              "label": "Suspension bridge (monkey bridge)",
+              "price": "About ₱50",
+              "note": "A bundled fare with the zip line may be offered"
+            },
             {
               "label": "Picnic hut/table rental",
               "price": "About ₱100–300",
@@ -712,6 +740,19 @@
           "ordered": false,
           "icon": "error",
           "items": [
+            {
+              "children": [
+                {
+                  "text": "The eco-park closed temporarily for safety inspections after the magnitude 7.4 earthquake off Davao Oriental on "
+                },
+                { "type": "date", "text": "October 10, 2025" },
+                { "text": ", and the provincial government finished its on-site inspection in " },
+                { "type": "date", "text": "February 2026" },
+                {
+                  "text": " and is preparing to reopen. Before departure, be sure to check with the Cateel tourism office or the eco-park's Facebook page whether it is open and whether the zip line and suspension bridge are operating."
+                }
+              ]
+            },
             {
               "children": [
                 {

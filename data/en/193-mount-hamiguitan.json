@@ -40,8 +40,8 @@
     "type": "date",
     "label": "Best time to visit",
     "icon": "calendar_month",
-    "text": "March–September (relatively low rain)",
-    "months": [3, 4, 5, 6, 7, 8, 9]
+    "text": "March–June (July–September is the annual rest period, when entry is banned)",
+    "months": [3, 4, 5, 6]
   },
   "duration": {
     "type": "duration",
@@ -406,6 +406,16 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Mati Airport, near San Isidro, is undergoing terminal and runway expansion work, and the Department of Transportation is aiming to start scheduled small-propeller flights around "
+                    },
+                    { "type": "date", "text": "2027" },
+                    { "text": ". Until then, you go through Davao Airport and continue overland." }
+                  ]
                 }
               ]
             },
@@ -420,11 +430,11 @@
                     {
                       "children": [
                         {
-                          "text": "Taking an air-conditioned bus or van from DCOTT to Mati takes about "
+                          "text": "Taking an air-conditioned bus or van from DCOTT to Mati via Tagum takes about "
                         },
                         { "type": "duration", "text": "4–5 hours" },
-                        { "text": " via Tagum, for around " },
-                        { "type": "price", "text": "₱300–450" },
+                        { "text": " and costs about " },
+                        { "type": "price", "text": "₱390–450" },
                         { "text": "." }
                       ]
                     },
@@ -510,14 +520,14 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Hamiguitan sits somewhat outside the main typhoon path, but as a mountain cloud forest it sees frequent rain and fog year-round. "
+              "text": "Hamiguitan sits slightly off the typhoon track, but as a mountain cloud forest it gets frequent rain and fog year-round. In "
             },
             { "type": "date", "text": "November–February" },
             {
-              "text": ", when the northeast monsoon blows in off the Pacific, brings the heaviest rain, turning trails muddy and swelling valley streams, so it's best avoided. "
+              "text": ", when the northeast monsoon blows from the Pacific side, rainfall is heaviest, the trails turn to mud and stream water swells, so it's best avoided. "
             },
-            { "type": "date", "text": "March–September" },
-            { "text": ", with relatively less rain, and especially " },
+            { "type": "date", "text": "March–June" },
+            { "text": ", when there is relatively less rain, and especially " },
             { "type": "date", "text": "March–May" },
             { "text": ", is the best time to climb." }
           ]
@@ -525,19 +535,44 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "The coast at the base of the mountain runs a hot " },
+            { "text": "The coast below the mountain is hot at " },
             { "type": "temperature", "text": "28–33℃" },
-            { "text": ", but the camp and summit area drop to around " },
+            { "text": ", but the camps and the area near the summit drop to around " },
             { "type": "temperature", "text": "14–18℃" },
             {
-              "text": " at night, and wind and fog make it feel even colder. The protected area sometimes closes to climbers for a rest period to let the ecosystem recover, and there was an announcement that a rest period planned for "
+              "text": " at night, and wind and fog make it feel even colder. To let the ecosystem recover and to maintain the trails, the protected area sets "
+            },
+            { "type": "date", "text": "July 1–September 30" },
+            {
+              "text": " each year as a rest period, closing all trekking and ecotourism, including the San Isidro and Governor Generoso courses. In "
             },
             { "type": "date", "text": "2025" },
-            { "text": " was pushed back to " },
+            {
+              "text": " the rest period was postponed for facility inspections and then enforced again in "
+            },
             { "type": "date", "text": "2026" },
             {
-              "text": ". Be sure to check with the management office about the current status while planning your trip."
+              "text": ", so be sure to ask the management office during the planning stage whether it is operating."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "October–February",
+              "Frequent rain and fog, most rain in November–February",
+              "Open from October when the rest period ends — mud and swollen streams in November–February"
+            ],
+            [
+              "March–June",
+              "Relatively little rain, summit 14–18℃ at night",
+              "Best for climbing (especially March–May) — ask whether it is operating"
+            ],
+            ["July–September", "Annual rest period", "Entry, trekking, and ecotourism fully banned"]
           ]
         }
       ]
@@ -555,8 +590,8 @@
           "items": [
             {
               "label": "Touring fee (permit)",
-              "price": "About ₱1,500–3,000 per person",
-              "note": "For non-residents; discounts for locals and minors"
+              "price": "About ₱3,000 per person",
+              "note": "Based on 3 days, 2 nights; discounts for residents, students, and seniors"
             },
             {
               "label": "Guide/porter",
@@ -570,7 +605,7 @@
             },
             {
               "label": "Davao–San Isidro bus/van",
-              "price": "About ₱400–600 one-way",
+              "price": "About ₱450–600 one way",
               "note": "Including transfer in Mati"
             },
             {
@@ -629,7 +664,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "There are no shops on the mountain, so you need to bring all the food for the 3 days and 2 nights, and most climbers plan meals of rice, canned goods, and dried food with their porter. The protected area encourages reducing single-use plastic, so bring reusable containers. After descending, be sure to try grilled fish fresh from Pujada Bay, kinilaw (raw fish cured in vinegar), and coconut dishes in Mati, reflecting the region's abundance of coconuts."
+              "text": "There are no shops on the mountain, so you must bring all the food for 3 days and 2 nights, and most groups plan meals of rice, canned goods, and dried food together with porters. Disposable plastics and wet wipes are banned inside the protected area, so bring reusable containers and a handkerchief. After the descent, in Mati, try grilled fresh fish from Pujada Bay and kinilaw (raw fish cured in vinegar), and, as befits a coconut-rich region, coconut dishes."
             }
           ]
         }
@@ -754,6 +789,15 @@
               "children": [
                 {
                   "text": "Carry out all your trash, including food waste. Only build a fire at camp where it's permitted."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Since " },
+                { "text": "August 2026", "type": "date" },
+                {
+                  "text": ", single-use plastics such as wet wipes, PET bottles, plastic bags, and disposable packaging have been completely banned inside the protected area. They are screened out at the pre-climb orientation and the entrance bag check, and violators can be penalized under the Solid Waste Management Act and the protected area law (ENIPAS)."
                 }
               ]
             }

@@ -29,8 +29,8 @@
     "items": ["Ridge trek", "Pine forest", "Day hike", "Sea of clouds", "Rock cliffs"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.5, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 16.29 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 120.631 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 16.2871 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 120.6323 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -377,13 +377,13 @@
                     {
                       "children": [
                         {
-                          "text": "From Cubao, Pasay, and elsewhere, buses to Baguio (Victory Liner, JoyBus, Solid North, and others) take about "
+                          "text": "Take a Baguio-bound bus (Victory Liner, JoyBus, Solid North, etc.) from Cubao, Pasay, and elsewhere, taking about "
                         },
                         { "type": "duration", "text": "4–6 hours" },
-                        { "text": ", for a fare around " },
-                        { "type": "price", "text": "₱500–1,000" },
+                        { "text": " and costing about " },
+                        { "type": "price", "text": "₱650–1,600" },
                         {
-                          "text": ". For a dawn start, it's recommended to arrive in Baguio the day before and stay overnight."
+                          "text": ". For a dawn hike, arriving in Baguio the day before and staying one night is recommended."
                         }
                       ]
                     }
@@ -421,6 +421,23 @@
                         {
                           "text": ", and it's best to negotiate a fare that includes waiting at the Santa Fe exit and driving you back."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "The jeepney stop is on Lakandula Street next to Baguio Center Mall (toward Magsaysay Avenue); tell the driver you are going to Mount Ulap and he will drop you in front of the Ampucao barangay hall. Registration opens at "
+                        },
+                        { "type": "time", "text": "4 AM" },
+                        { "text": " on weekends and " },
+                        { "type": "time", "text": "5 AM" },
+                        { "text": " on weekdays and closes at " },
+                        { "type": "time", "text": "2 PM" },
+                        {
+                          "text": ", so arrive by the morning at the latest. Jeepneys between Ampucao and Baguio run until about "
+                        },
+                        { "type": "time", "text": "5 PM" },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -505,6 +522,29 @@
             {
               "text": ", afternoon rain and thick fog make the views hard to see. The dirt trail becomes slippery, and the trail may close if a typhoon comes. On weekends and public holidays, hikers crowd in and you may have to wait a long time at Gungal Rock, so a weekday hike is recommended if possible."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, around 10°C at dawn from December to February",
+              "High chance of a sea of clouds — pleasant for walking even by day"
+            ],
+            [
+              "March–May",
+              "Many clear days and very strong sun",
+              "Widest views — an early start is essential"
+            ],
+            [
+              "June–October",
+              "Rainy season, afternoon rain and thick fog",
+              "Views are difficult — trail closed during typhoons"
+            ]
           ]
         }
       ]
@@ -668,14 +708,7 @@
                   "text": "Only cash is accepted, so bring small bills for the registration and guide fees."
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "icon": "check_circle",
-          "items": [
+            },
             {
               "children": [
                 {

@@ -29,8 +29,8 @@
     "items": ["White sand beach", "Twin beaches", "Palm trees", "Sunset", "Motorbike trip"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 11.3232 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 119.4169 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 11.3221 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 119.4284 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -324,18 +324,34 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Direct flights from Manila, Clark, Cebu, and Boracay reach El Nido Airport (ENI), about "
+                      "text": "There are direct flights to El Nido Airport (ENI) from Clark, Cebu, Boracay (Caticlan), Bohol, and Coron (Busuanga), taking about "
                     },
-                    { "type": "duration", "text": "1 hour 15 minutes–1 hour 30 minutes" },
+                    { "type": "duration", "text": "1 hour 30 minutes–1 hour 40 minutes" },
                     {
-                      "text": " from Manila. The airport is north of El Nido town, so it's actually closer to Nacpan Beach, about "
+                      "text": " from Clark. The airport is north of El Nido town, so it is actually closer to Nacpan Beach, about "
                     },
                     { "type": "duration", "text": "20–30 minutes" },
-                    { "text": " by car. Using Puerto Princesa Airport (PPS) instead means about " },
+                    { "text": " by car. If you use Puerto Princesa Airport (PPS), it takes about " },
                     { "type": "duration", "text": "5–6 hours" },
-                    { "text": " by van to El Nido town (around " },
+                    { "text": " (about " },
                     { "type": "price", "text": "₱600–800" },
-                    { "text": ")." }
+                    { "text": ") by van to El Nido town." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Since " },
+                    { "text": "March 29, 2026", "type": "date" },
+                    {
+                      "text": ", propeller aircraft have been banned from Manila's Ninoy Aquino Airport, so there are no direct Manila–El Nido flights. If departing from Manila, choose between taking the P2P bus from NAIA Terminal 3, PITX, and elsewhere to Clark Airport (about "
+                    },
+                    { "text": "2 hours 30 minutes–3 hours", "type": "duration" },
+                    { "text": ", about " },
+                    { "text": "₱550–630", "type": "price" },
+                    {
+                      "text": ") and flying, or flying from Manila to Puerto Princesa and taking a van."
+                    }
                   ]
                 }
               ]
@@ -446,6 +462,34 @@
               "text": ", the southwest monsoon Habagat and the rainy season bring frequent rain, and seaweed and debris wash up on some days. The access road can turn muddy, making motorbike travel difficult, but the upside is that you can have the beach almost to yourself with fewer visitors."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, amihan waves",
+              "Take care when swimming — good for bodysurfing"
+            ],
+            [
+              "March–May",
+              "Dry season, high temperatures and strong sun",
+              "Clear, jade-green sea — do activities in the morning and late afternoon"
+            ],
+            [
+              "June–October",
+              "Rainy season, habagat monsoon",
+              "Seaweed washes in and the access road is muddy — quiet"
+            ],
+            [
+              "November",
+              "Start of the dry season, amihan waves",
+              "Take care when swimming on high-wave days"
+            ]
+          ]
         }
       ]
     },
@@ -474,7 +518,7 @@
             {
               "label": "El Nido environmental fee (ETDF)",
               "price": "About ₱400",
-              "note": "Once, for your stay in El Nido"
+              "note": "Per person, valid for 10 days"
             },
             {
               "label": "Beach entrance/parking",

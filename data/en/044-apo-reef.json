@@ -255,7 +255,9 @@
                     {
                       "time": "Morning",
                       "children": [
-                        { "text": "Arrive in Manila, fly to San Jose Airport, bus/van to Sablayan" }
+                        {
+                          "text": "Fly from Clark to San Jose Airport, then take a bus or van to Sablayan"
+                        }
                       ]
                     },
                     {
@@ -328,7 +330,7 @@
                       "time": "Afternoon",
                       "children": [
                         {
-                          "text": "Arrive in Sablayan, travel on to San Jose, return to Manila the next day or by an evening flight"
+                          "text": "After arriving in Sablayan, go to San Jose and stay one night, then return to Clark by plane the next day (or return to Batangas by boat from Abra de Ilog port)"
                         }
                       ]
                     }
@@ -357,18 +359,34 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "A flight from Manila to San Jose Airport (SJI) in Occidental Mindoro takes about "
+                      "text": "The flight from Clark to San Jose Airport (SJI) in Occidental Mindoro on Cebgo takes about "
                     },
-                    { "type": "duration", "text": "1 hour" },
-                    { "text": ", at around " },
+                    { "type": "duration", "text": "1 hour 20 minutes" },
+                    { "text": " and costs about " },
                     { "type": "price", "text": "₱2,000–5,000" },
                     {
-                      "text": " one way. Flights are infrequent, so check schedules well ahead. From San Jose Airport, take a tricycle to the bus terminal, then a bus or van to Sablayan, about "
+                      "text": " one way. There are few flights, so the schedule may not fit and you should check in advance. From San Jose Airport, take a tricycle to the bus terminal, then a Sablayan-bound bus or van takes about "
                     },
                     { "type": "duration", "text": "2–3 hours" },
-                    { "text": " for around " },
+                    { "text": " and costs about " },
                     { "type": "price", "text": "₱200–300" },
                     { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Since " },
+                    { "text": "March 29, 2026", "type": "date" },
+                    {
+                      "text": ", propeller aircraft have been banned from Manila's Ninoy Aquino Airport, so there are no direct Manila–San Jose flights. If departing from Manila, either take the P2P bus from NAIA Terminal 3, PITX, and elsewhere to Clark Airport (about "
+                    },
+                    { "text": "2 hours 30 minutes–3 hours", "type": "duration" },
+                    { "text": ", about " },
+                    { "text": "₱550–630", "type": "price" },
+                    {
+                      "text": ") and fly, or use the overland and sea route by taking a boat from Batangas port to Abra de Ilog."
+                    }
                   ]
                 }
               ]
@@ -494,6 +512,29 @@
               "text": "The island has little shade and strong sun. In the dry season, midday temperatures climb above 32°C, so pay close attention to hydration and sun protection."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Northeast monsoon, many days of strong wind and waves",
+              "Visits fully suspended in bad weather"
+            ],
+            [
+              "March–May",
+              "Weak wind and low waves, above 32°C at midday",
+              "Underwater visibility 20–30 m — liveaboard diving season"
+            ],
+            [
+              "June–October",
+              "Southwest monsoon (habagat) and typhoon season",
+              "Frequent sailing cancellations — even with a booking, be prepared for same-day cancellation"
+            ]
+          ]
         }
       ]
     },
@@ -509,7 +550,7 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Manila–San Jose flight",
+              "label": "Clark–San Jose flight",
               "price": "About ₱2,000–5,000",
               "note": "One-way, infrequent flights"
             },

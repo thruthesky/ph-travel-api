@@ -367,6 +367,48 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Phương án cho ngày mưa",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00–11:00",
+                      "children": [
+                        {
+                          "text": "Tham quan Museo Dabawenyo ở Poblacion để tìm hiểu các bộ tộc bản địa Davao và lịch sử thành phố."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:30–13:00",
+                      "children": [
+                        {
+                          "text": "Ghé Nhà thờ chính tòa San Pedro rồi ăn trưa tại quán cá ngừ trong nội thành."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "14:00–18:00",
+                      "children": [
+                        {
+                          "text": "Mua sắm, uống cà phê và ăn tráng miệng sầu riêng ở SM Lanang Premier ở Lanang hoặc Abreeza Mall ở Bajada."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Trung tâm Đại bàng và Công viên Thiên nhiên Eden ở ngoại ô khi mưa thì đường trơn và việc tham quan bất tiện, nên tốt hơn là dời sang ngày nắng."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -389,20 +431,24 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ Manila đến Sân bay quốc tế Francisco Bangoy (DVO) ở Davao bay thẳng khoảng "
+                      "text": "Từ Manila đến sân bay quốc tế Francisco Bangoy Davao (DVO) bay thẳng mất khoảng "
                     },
-                    { "type": "duration", "text": "1 giờ 50 phút" },
-                    { "text": ", giá vé một chiều khoảng " },
-                    { "type": "price", "text": "₱2.500–7.000" },
-                    { "text": ". Từ Cebu khoảng " },
-                    { "type": "duration", "text": "1 giờ 10 phút" },
+                    { "type": "duration", "text": "1 tiếng 50 phút" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱2,500–7,000" },
+                    { "text": " một chiều. Từ Cebu khoảng " },
+                    { "type": "duration", "text": "1 tiếng 10 phút" },
                     {
-                      "text": ", ngoài ra còn có chuyến bay thẳng từ nhiều thành phố như Iloilo, Clark, Butuan. Cũng có đường bay quốc tế đến một số thành phố nước ngoài như Singapore. Từ sân bay đến trung tâm thành phố khoảng "
+                      "text": ", và cũng có chuyến bay thẳng từ nhiều thành phố như Iloilo, Clark, Bacolod, Tagbilaran (Bohol), Siargao, Zamboanga. Về quốc tế có tuyến Singapore (Scoot), và từ "
+                    },
+                    { "type": "date", "text": "cuối tháng 10 năm 2026" },
+                    {
+                      "text": " các tuyến Hong Kong·Bangkok dự kiến khai thác lại. Từ sân bay đến trung tâm thành phố khoảng "
                     },
                     { "type": "duration", "text": "20–30 phút" },
-                    { "text": ", taxi khoảng " },
+                    { "text": ", đi taxi khoảng " },
                     { "type": "price", "text": "₱200–350" },
-                    { "text": ", Grab có giá tương tự hoặc nhỉnh hơn một chút." }
+                    { "text": ", đi Grab bằng hoặc cao hơn một chút." }
                   ]
                 }
               ]
@@ -415,17 +461,17 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ Cagayan de Oro qua Bukidnon đến Davao bằng xe buýt máy lạnh mất khoảng "
+                      "text": "Từ Cagayan de Oro qua Bukidnon đến Davao đi xe buýt điều hòa mất khoảng "
                     },
-                    { "type": "duration", "text": "6–8 giờ" },
+                    { "type": "duration", "text": "5 tiếng 30 phút–7 tiếng" },
                     { "text": " (khoảng " },
-                    { "type": "price", "text": "₱600–800" },
+                    { "type": "price", "text": "₱700–1,000" },
                     { "text": "), từ General Santos khoảng " },
-                    { "type": "duration", "text": "3–4 giờ" },
+                    { "type": "duration", "text": "3–4 tiếng" },
                     { "text": " (khoảng " },
                     { "type": "price", "text": "₱300–400" },
                     {
-                      "text": "). Xe buýt đường dài phần lớn đến Bến xe liên tỉnh Davao (DCOTT) ở Ecoland (Ecoland)."
+                      "text": "). Xe buýt đường dài hầu hết đến Bến giao thông liên tỉnh Davao City Overland (DCOTT) ở Ecoland."
                     }
                   ]
                 }
@@ -453,14 +499,14 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Taxi ở Davao có giá cơ bản rẻ và việc dùng đồng hồ tính tiền được tuân thủ khá tốt. Grab cũng được dùng phổ biến, còn jeepney có giá cơ bản khoảng "
+                      "text": "Taxi Davao có giá cơ bản rẻ và việc dùng đồng hồ tính tiền được tuân thủ khá tốt. Grab cũng được dùng rộng rãi, jeepney có giá cơ bản khoảng "
                     },
-                    { "type": "price", "text": "₱13–15" },
+                    { "type": "price", "text": "₱14–17" },
                     {
-                      "text": ". Nếu muốn đi các điểm ngoại ô như Trung tâm Đại bàng và Công viên thiên nhiên Eden trong một ngày, nên thuê nguyên chuyến taxi hoặc xe van (khoảng "
+                      "text": ". Khi đi các điểm ngoại ô như Trung tâm Đại bàng và Công viên Thiên nhiên Eden trong một ngày, thuê taxi hoặc van cả ngày (khoảng "
                     },
-                    { "type": "price", "text": "₱2.500–4.000" },
-                    { "text": "/ngày) cho tiện." }
+                    { "type": "price", "text": "₱2,500–4,000" },
+                    { "text": ") là thuận tiện." }
                   ]
                 }
               ]
@@ -509,6 +555,30 @@
             {
               "text": ", đến vào thời điểm này bạn sẽ được ăn sầu riêng rẻ và ngon nhất. Vào mùa lễ hội, chỗ ở hết phòng nhanh nên bạn nên đặt trước một, hai tháng."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 1–tháng 5",
+              "Nhiều ngày nắng ráo",
+              "Dễ chịu nhất trong năm — mỗi ngày khoảng 23–33 độ"
+            ],
+            [
+              "Tháng 6–tháng 7",
+              "Thường xuyên mưa rào buổi chiều",
+              "Bố trí lịch trình ngoại ô vào buổi sáng"
+            ],
+            [
+              "Tháng 8–tháng 11",
+              "Mưa rào buổi chiều, ít chịu ảnh hưởng của bão",
+              "Lễ hội Kadayawan tháng 8, mùa sầu riêng tháng 8–10 — nên đặt trước"
+            ],
+            ["Tháng 12", "Mưa đều quanh năm", "Rất hiếm thiệt hại do bão nên đi lại thuận lợi"]
           ]
         }
       ]
@@ -784,6 +854,18 @@
                 { "text": "Qua General Santos, Koronadal khoảng " },
                 { "type": "duration", "text": "5–6 giờ" },
                 { "text": ", là hồ cao nguyên với văn hóa người T'boli và zipline Bảy thác nước." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Trung tâm Đại bàng Philippines",
+              "place": "philippine-eagle-center",
+              "children": [
+                { "text": "Khoảng " },
+                { "type": "duration", "text": "1 tiếng" },
+                {
+                  "text": " đi ô tô đến Calinan Malagos, cơ sở bảo tồn và nhân giống nơi bạn có thể ngắm gần quốc điểu Philippines."
+                }
               ]
             }
           ]

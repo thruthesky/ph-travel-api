@@ -453,11 +453,11 @@
                     {
                       "children": [
                         {
-                          "text": "Register as a visitor at the tourism office near Culasi town hall, pay the environmental and registration fee (about "
+                          "text": "Register as a visitor at the tourism office near Roxas City Hall, pay the environmental fee and registration fee (about "
                         },
-                        { "type": "price", "text": "₱40–100" },
+                        { "type": "price", "text": "₱30" },
                         {
-                          "text": " per person), and you'll be assigned a bangka. Fees and rules can change, so check the latest notices."
+                          "text": " per person), and you'll be assigned a bangka. Fees and rules may change, so check the latest notices."
                         }
                       ]
                     },
@@ -465,10 +465,14 @@
                       "children": [
                         { "text": "The bangka takes about " },
                         { "type": "duration", "text": "15–20 minutes" },
-                        { "text": " to the island, costing about " },
-                        { "type": "price", "text": "₱800–1,500" },
                         {
-                          "text": " round trip per boat for up to 5 people. For larger groups, it's charged per person."
+                          "text": " to reach the island. At the tourism office's fixed rate, one boat (up to 5 people) costs about "
+                        },
+                        { "type": "price", "text": "₱750" },
+                        { "text": " round trip, or about " },
+                        { "type": "price", "text": "₱150" },
+                        {
+                          "text": " per person if 5 people split it. Larger groups are charged per person."
                         }
                       ]
                     }
@@ -539,6 +543,29 @@
             { "type": "date", "text": "November–January" },
             { "text": " is best." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, calm sea since it's on the west coast",
+              "Green hills photograph well in November–January"
+            ],
+            [
+              "March–May",
+              "Peak of dry season, 32–34℃",
+              "Clearest water, good snorkeling — visit the hill in the morning or around sunset"
+            ],
+            [
+              "June–October",
+              "Rainy season, high waves from the southwest monsoon",
+              "Bangkas stop when warnings are issued — deep green on clear days, few visitors"
+            ]
+          ]
         }
       ]
     },
@@ -560,13 +587,13 @@
             },
             {
               "label": "Environmental/registration fee",
-              "price": "About ₱40–100 per person",
+              "price": "About ₱30 per person",
               "note": "Culasi tourism office, check current rates"
             },
             {
               "label": "Round-trip bangka",
-              "price": "About ₱800–1,500 per boat",
-              "note": "Based on 5 people, charged per person for larger groups"
+              "price": "About ₱750 per boat",
+              "note": "Up to 5 people, about ₱150 per person"
             },
             {
               "label": "Island guide",
@@ -688,6 +715,17 @@
                   "text": "To protect the reef, use reef-safe sunscreen, and take your trash back out with you."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "For safety, you can't climb the hill alone; you must go with an accredited guide assigned by the tourism office. The guide fee is about "
+                },
+                { "type": "price", "text": "₱200" },
+                {
+                  "text": " for one group of up to 5 people, and homestay owners often double as guides."
+                }
+              ]
             }
           ]
         }
@@ -746,6 +784,15 @@
               "children": [
                 {
                   "text": "Wear a life jacket when riding the bangka, and keep your phone and wallet in a waterproof bag."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Ride bangkas only while the sun is up. On the evening of " },
+                { "type": "date", "text": "May 6, 2026" },
+                {
+                  "text": ", a residents' bangka capsized in the sea between Mararison Island and Batbatan Island, and its passengers were left floating in the water until they were rescued. It's safest to take the boat off the island by mid-afternoon at the latest."
                 }
               ]
             }

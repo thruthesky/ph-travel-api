@@ -313,26 +313,26 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "06:30",
+                      "time": "08:30",
+                      "children": [
+                        { "text": "In whale shark season, depart on a snorkeling tour, about " },
+                        { "type": "duration", "text": "1 hour 30 minutes" },
+                        { "text": " by boat (outside the season, two morning boat dives)" }
+                      ]
+                    },
+                    {
+                      "time": "10:00–13:00",
                       "children": [
                         {
-                          "text": "If it's whale shark season, depart for an early-morning snorkeling tour (two boat dives if it's off-season)"
+                          "text": "Snorkel in search of whale sharks, light lunch on the boat (outside the season, lunch at the resort)"
                         }
                       ]
                     },
                     {
-                      "time": "10:00",
+                      "time": "15:00",
                       "children": [
                         {
-                          "text": "Return to the resort to rest and have a late breakfast or early lunch"
-                        }
-                      ]
-                    },
-                    {
-                      "time": "13:00",
-                      "children": [
-                        {
-                          "text": "Boat to Napantao Marine Protected Area off Panaon Island for a wall dive"
+                          "text": "Rest after returning to the resort (outside the season, a wall dive at Napantao Marine Sanctuary on Panaon Island by boat)"
                         }
                       ]
                     },
@@ -476,15 +476,34 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "From Cebu, you can take an overnight ferry to Maasin (about " },
-                        { "type": "duration", "text": "6–8 hours" },
-                        { "text": ") or a ferry to Hilongos (about " },
-                        { "type": "duration", "text": "4 hours" },
-                        { "text": ", around " },
-                        { "type": "price", "text": "₱500–900" },
-                        { "text": "). From Hilongos, it's about " },
-                        { "type": "duration", "text": "1 hour 30 minutes to 2 hours" },
-                        { "text": " to Padre Burgos by bus or van." }
+                        { "text": "From Cebu, an OceanJet fast boat to Maasin leaves daily at " },
+                        { "type": "time", "text": "7 AM" },
+                        { "text": " and takes about " },
+                        { "type": "duration", "text": "3 hours" },
+                        { "text": ". The fare is about " },
+                        { "type": "price", "text": "₱1,100–1,950" },
+                        {
+                          "text": " (varies by seat class and fuel surcharge), and from Maasin port to Padre Burgos is about "
+                        },
+                        { "type": "duration", "text": "30 minutes" },
+                        { "text": " by car." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "To Hilongos, there is the SeaCat fast boat (4 times a week, about "
+                        },
+                        { "type": "duration", "text": "2 hours 30 minutes" },
+                        { "text": ", about " },
+                        { "type": "price", "text": "₱960–1,480" },
+                        { "text": ") and the Roble and Gabisan car ferries (about " },
+                        { "type": "duration", "text": "5 hours" },
+                        { "text": ", about " },
+                        { "type": "price", "text": "₱430–800" },
+                        { "text": "). From Hilongos to Padre Burgos is about " },
+                        { "type": "duration", "text": "1 hour 30 minutes–2 hours" },
+                        { "text": " by bus or van." }
                       ]
                     },
                     {
@@ -565,6 +584,29 @@
             { "text": "27–30℃", "type": "temperature" },
             { "text": " year-round, so a 3mm wetsuit is enough." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Northeast monsoon, frequent rain",
+              "Whale shark season — some days the sea outside the bay is rough"
+            ],
+            [
+              "March–April",
+              "Whale sharks appear often",
+              "Peak season — resort rooms fill up quickly on holidays"
+            ],
+            [
+              "May–October",
+              "Many days with calm seas",
+              "Dives at far points — departures blocked when a typhoon arrives"
+            ]
+          ]
         }
       ]
     },
@@ -581,8 +623,8 @@
           "items": [
             {
               "label": "Fun dive",
-              "price": "About ₱1,500–2,000 per dive",
-              "note": "Includes gear rental"
+              "price": "About ₱2,100–2,500 per trip",
+              "note": "Varies with whether you rent equipment"
             },
             {
               "label": "Open Water certification",
@@ -591,8 +633,8 @@
             },
             {
               "label": "Whale shark snorkeling tour",
-              "price": "About ₱1,500–2,500 per person",
-              "note": "Refund policy varies by sighting outcome"
+              "price": "About ₱3,000–4,000 per person",
+              "note": "Lunch and equipment included, minimum group size required, refund rules vary with whether sharks appear"
             },
             {
               "label": "Marine protected area entrance fee",
@@ -618,6 +660,11 @@
               "label": "Meals",
               "price": "About ₱200–500 per meal",
               "note": "Based on resort restaurant prices"
+            },
+            {
+              "label": "Cebu–Maasin fast boat",
+              "price": "About ₱1,100–1,950 one way",
+              "note": "About 3 hours, fuel surcharge may apply separately"
             }
           ]
         },
@@ -734,6 +781,19 @@
                 {
                   "text": "If you're combining this trip with Bohol or Siargao, checking ferry schedules toward Bato or Surigao in advance will make your onward travel smoother."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Under the ordinance, whale shark tours allow snorkeling only (scuba is prohibited), with a maximum observation time of "
+                },
+                { "type": "duration", "text": "3 hours" },
+                { "text": ". It takes about " },
+                { "type": "duration", "text": "1 hour 30 minutes" },
+                { "text": " by boat out to the meeting point and the whole day runs " },
+                { "type": "duration", "text": "6–8 hours" },
+                { "text": ", so plan a light dive schedule for that day." }
               ]
             }
           ]

@@ -16,8 +16,8 @@
   },
   "tags": { "type": "tags", "label": "标签", "items": ["朝圣山丘", "天堂阶梯", "慈悲耶稣十字架", "农场体验", "圣华金教堂"] },
   "rating": { "type": "rating", "label": "推荐指数", "value": 4.2, "max": 5 },
-  "latitude": { "type": "latitude", "label": "纬度", "value": 10.5985 },
-  "longitude": { "type": "longitude", "label": "经度", "value": 122.1325 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 10.5967 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 122.139 },
   "best_season": {
     "type": "date",
     "label": "最佳季节",
@@ -57,7 +57,26 @@
     "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_town_center.jpg"
   },
-  "gallery": { "type": "carousel", "label": "照片", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/165-garin-farm-2.webp",
+        "alt": "加林农场附近的圣华金教堂",
+        "credit": "Philip Nalangan / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Church_Iloilo_2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/165-garin-farm-3.webp",
+        "alt": "加林农场附近的圣华金坎波桑托",
+        "credit": "Ryomaandres / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Camposanto.png"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -295,9 +314,11 @@
                     },
                     {
                       "children": [
-                        { "text": "在圣华金市区或加林农场入口岔路下车后，乘三轮摩托车约" },
+                        { "text": "在圣华金市区或加林农场入口岔路口下车后，乘三轮摩托车约" },
                         { "type": "duration", "text": "10~15分钟" },
-                        { "text": "进入农场，车费约" },
+                        { "text": "进去。共乘约" },
+                        { "type": "price", "text": "₱15~25" },
+                        { "text": "，单独包车约" },
                         { "type": "price", "text": "₱50~100" },
                         { "text": "。" }
                       ]
@@ -361,6 +382,17 @@
               "text": "圣周（复活节前一周）期间前来走苦路的朝圣者最多，是全年最拥挤的时段；圣诞和年末连休、周末也有不少家庭游客。若想安静游览，最好选平日清晨前往。圣华金也以村庄节庆期间举行传统斗牛\"帕松盖（Pasungay）\"而闻名，具体日期请查看当地公告。"
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "各时期一览",
+          "icon": "calendar_month",
+          "columns": ["时期", "天气", "旅行要点"],
+          "rows": [
+            ["12月~2月", "旱季，天空晴朗", "蓝天与大海分外清晰——年末假期人多"],
+            ["3月~5月", "旱季，正午33~35℃", "上午10点前、下午3点后攀登——圣周最拥挤"],
+            ["6月~11月", "雨季，午后阵雨较多", "台阶湿滑——台风时设施停止运营"]
+          ]
         }
       ]
     },
@@ -376,12 +408,12 @@
           "columns": ["项目", "预估费用", "备注"],
           "items": [
             { "label": "伊洛伊洛–圣华金巴士·小巴", "price": "单程约₱80~150", "note": "约1小时30分钟~2小时" },
-            { "label": "三轮摩托车", "price": "单程约₱50~100", "note": "圣华金市区–加林农场" },
-            { "label": "加林农场门票", "price": "约₱300~500", "note": "含餐套餐可选，请确认最新票价" },
-            { "label": "泳池·游乐设施", "price": "约₱100~300", "note": "按设施另计" },
+            { "label": "三轮摩托车", "price": "单程约₱15~25", "note": "共乘价，包车约₱50~100" },
+            { "label": "加林农场门票", "price": "约₱150", "note": "老人享8折优惠，体验设施另计，请确认最新票价" },
+            { "label": "泳池·游乐设施", "price": "约₱80~350", "note": "泳池₱80，滑索₱250~350等，按设施而定" },
             { "label": "午餐", "price": "每人约₱200~450", "note": "以农场餐厅为准" },
             { "label": "包车", "price": "每日约₱3,000~5,000", "note": "含司机，可分摊" },
-            { "label": "度假村住宿", "price": "每晚约₱2,000~5,000", "note": "视房型而定" }
+            { "label": "度假村住宿", "price": "1晚约₱1,500~3,500", "note": "含早餐和泳池，视客房类型而异" }
           ]
         },
         {
@@ -403,9 +435,9 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "大多数旅行者住在伊洛伊洛市，当天往返。若想体验宁静的乡村夜晚，可以选择加林农场内的度假村客房（每晚约" },
-            { "type": "price", "text": "₱2,000~5,000" },
-            { "text": "），或圣华金海岸朴素的海滩度假村。若想赶清晨登山，住在农场内更为方便，圣周和连休假期请提前预订。" }
+            { "text": "大多数旅行者住在伊洛伊洛市，当天往返。若想体验宁静的乡村夜晚，可以住加林农场内的度假村客房（每晚约" },
+            { "type": "price", "text": "₱1,500~3,500" },
+            { "text": "），或圣华金海岸朴素的海滩度假村。想清晨登上朝圣山丘的人，住在农场里比较方便，圣周和连休假期请提早预订。" }
           ]
         },
         {
@@ -447,6 +479,13 @@
                 {
                   "text": "圣周期间当地有依次造访多座教堂祈祷的\"探访教堂\"（Visita Iglesia）传统。若正值这段时期前往，不妨与当地人一同走一走连接米亚高、圣华金教堂与加林农场的朝圣路线，会是特别的体验。"
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "到有慈悲耶稣十字架的区域共456级台阶，到最顶端约480级。若觉得爬台阶吃力，可以乘坐开往凉亭或十字架附近的高尔夫球车（约" },
+                { "type": "price", "text": "₱60~90" },
+                { "text": "）。" }
               ]
             }
           ]

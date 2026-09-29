@@ -34,8 +34,8 @@
     "items": ["Sandbar", "Marine protected area", "Snorkeling", "Resorts", "Near Oslob"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.4303 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.3886 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.4317 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.3896 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -366,13 +366,13 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "At Cebu City South Bus Terminal, take a Ceres bus on the 'Bato via Oslob' route or one bound for Santander, and get off at 'Bancogon (Sumilon jetty).' It takes about "
+                      "text": "From the South Bus Terminal in Cebu City, take a Ceres bus marked \"Bato via Oslob\" or a bus toward Santander, and get off at \"Bangcogon (Sumilon pier)\". It takes about "
                     },
                     { "type": "duration", "text": "3 hours 30 minutes–4 hours" },
-                    { "text": ", with air-conditioned bus fares around " },
-                    { "type": "price", "text": "₱200–260" },
+                    { "text": ", and the air-conditioned bus fare is about " },
+                    { "type": "price", "text": "₱250–330" },
                     {
-                      "text": ". Choosing a whale shark day tour from Cebu City or Mactan that includes the Sumilon sandbar solves transport and the boat ride in one go."
+                      "text": ". If you choose a whale shark day tour from Cebu City or Mactan that includes the Sumilon sandbar, transport and boats are all sorted at once."
                     }
                   ]
                 }
@@ -398,6 +398,28 @@
                     {
                       "text": " per boat plus a separate environmental fee. Whether independent visits are allowed and the fees involved change often depending on resort and local government policy, so check the latest rules locally."
                     }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Resort boats generally cross to the island at about " },
+                    { "type": "duration", "text": "2-hour" },
+                    { "text": " intervals starting at " },
+                    { "type": "time", "text": "8:00 AM" },
+                    {
+                      "text": ", and the last boat back from the island to the main island leaves around "
+                    },
+                    { "type": "time", "text": "3:00 PM" },
+                    {
+                      "text": ". Day pass prices and boat timetables change by season, so check the "
+                    },
+                    {
+                      "type": "link",
+                      "text": "official Blue Water Sumilon site",
+                      "url": "https://bluewatersumilon.com.ph/"
+                    },
+                    { "text": " before booking." }
                   ]
                 }
               ]
@@ -441,6 +463,29 @@
               "text": "), boat service can be suspended. The most important thing is the tide schedule. The sandbar is widest at low tide, so check a tide table before visiting and plan your schedule around the hours before and after low tide."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, some days with high waves from the northeast wind",
+              "When waves are high, the sandbar almost disappears"
+            ],
+            [
+              "March–June",
+              "Calm seas, strong sunlight",
+              "Best for sandbar photos — check the tide table for low tide times"
+            ],
+            [
+              "July–November",
+              "Rainy and typhoon season (August–November)",
+              "Boats may stop running — check whether they are operating"
+            ]
+          ]
         }
       ]
     },
@@ -457,7 +502,7 @@
           "items": [
             {
               "label": "Cebu–Oslob bus",
-              "price": "About ₱200–260",
+              "price": "About ₱250–330",
               "note": "One way, air-conditioned"
             },
             {
@@ -558,7 +603,7 @@
             {
               "children": [
                 {
-                  "text": "For cleaning and maintenance, sandbar access is sometimes restricted on certain weekdays (such as Wednesdays), so check in advance."
+                  "text": "Under Oslob local government policy, access to the sandbar is closed every Wednesday for maintenance and cleaning. If the sandbar is your goal, avoid Wednesdays, and check the latest announcements since this may change."
                 }
               ]
             },

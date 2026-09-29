@@ -408,12 +408,14 @@
                     {
                       "children": [
                         {
-                          "text": "A direct overnight bus run by Coda Lines runs daily from Cubao, Manila to Sagada. It takes about "
+                          "text": "Coda Lines direct night buses run daily from Cubao in Manila to Sagada via Banaue and Bontoc. It takes about "
                         },
                         { "type": "duration", "text": "10–12 hours" },
-                        { "text": ", for a fare of about " },
-                        { "type": "price", "text": "₱760–1,000" },
-                        { "text": ". Seats are limited, so book ahead for weekends and holidays." }
+                        { "text": " and the fare is about " },
+                        { "type": "price", "text": "₱1,300–1,500" },
+                        {
+                          "text": " depending on seat class. Seats are limited, so book ahead on weekends and holidays."
+                        }
                       ]
                     }
                   ]
@@ -562,6 +564,29 @@
               "text": ", you can see villagers gather at the cemetery to light candles in remembrance, but since this is a community event, you should observe it quietly."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, below 10°C at dawn from December to February",
+              "Sea of clouds and Sagada orange season — All Saints' Day remembrance on November 1"
+            ],
+            [
+              "March–May",
+              "Warm and clear",
+              "Lodging and guides run short during Holy Week and summer vacation"
+            ],
+            [
+              "June–October",
+              "Rainy season, frequent rain and thick fog",
+              "Cave routes suspended — beware of landslides on the Halsema Highway"
+            ]
+          ]
         }
       ]
     },
@@ -578,7 +603,7 @@
           "items": [
             {
               "label": "Manila–Sagada direct bus",
-              "price": "About ₱760–1,000 one way",
+              "price": "About ₱1,300–1,500 one way",
               "note": "Based on Coda Lines"
             },
             {
@@ -719,6 +744,21 @@
               "children": [
                 {
                   "text": "When taking photos, always ask permission before photographing residents, especially elders, or any ritual scenes."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "To avoid the queue at the tourist information center, register before you arrive with the "
+                },
+                {
+                  "type": "link",
+                  "text": "Sagada iPass online registration",
+                  "url": "https://umali-kayo.sagada.gov.ph"
+                },
+                {
+                  "text": " run by the Sagada municipality and get your QR pass. Paid bookings are non-refundable and non-transferable, and the date can be changed only for typhoons or road closures. Children aged 7 and under do not need to register."
                 }
               ]
             }

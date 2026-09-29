@@ -354,18 +354,32 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Direct flights connect Manila, Clark, Cebu, and El Nido to Busuanga Airport (USU, Francisco B. Reyes Airport). From Manila it takes about "
+                      "text": "Direct flights operate to Busuanga Airport (USU, Francisco B. Reyes Airport) from Clark, Cebu, and El Nido. From Clark it takes about "
                     },
                     { "type": "duration", "text": "1 hour" },
-                    { "text": ", at around " },
+                    { "text": " and costs about " },
                     { "type": "price", "text": "₱2,500–6,000" },
                     { "text": " one way. The airport is about " },
                     { "type": "duration", "text": "40 minutes" },
                     {
-                      "text": " from Coron town by car, and a shared van outside the airport costs about "
+                      "text": " by car from Coron town, and a shared van from in front of the airport costs about "
                     },
                     { "type": "price", "text": "₱150–250" },
-                    { "text": " per person, dropping you off at your accommodation." }
+                    { "text": " per person and drops you off at your lodging." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Since " },
+                    { "text": "March 29, 2026", "type": "date" },
+                    {
+                      "text": ", propeller aircraft have been banned from Manila's Ninoy Aquino Airport, so there are no direct Manila–Busuanga flights. If departing from Manila, either take the P2P bus from NAIA Terminal 3, PITX, and elsewhere to Clark Airport (about "
+                    },
+                    { "text": "2 hours 30 minutes–3 hours", "type": "duration" },
+                    { "text": ", about " },
+                    { "text": "₱550–630", "type": "price" },
+                    { "text": ") and fly, or use a large passenger ship departing from Manila." }
                   ]
                 }
               ]
@@ -377,19 +391,19 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Fast craft run daily between El Nido and Coron, taking about " },
+                    { "text": "Between El Nido and Coron, fast crafts run daily, taking about " },
                     { "type": "duration", "text": "3 hours 30 minutes–4 hours" },
-                    { "text": " for around " },
-                    { "type": "price", "text": "₱1,800–2,900" },
+                    { "text": " and costing about " },
+                    { "type": "price", "text": "₱2,800–4,000" },
                     {
-                      "text": ". From Manila, large passenger ferries run a few times a week, taking about "
+                      "text": ". From Manila, large passenger ships sail a few times a week and take about "
                     },
                     { "type": "duration", "text": "12–16 hours" },
                     {
-                      "text": ", though operators and schedules change often, so check the latest timetable. Cancellations are frequent from November to "
+                      "text": ", but operators and schedules change often, so check the latest timetable. In "
                     },
-                    { "type": "date", "text": "February" },
-                    { "text": ", when the sea is rough." }
+                    { "type": "date", "text": "November–February" },
+                    { "text": ", when the sea is rough, cancellations are frequent." }
                   ]
                 }
               ]
@@ -464,6 +478,30 @@
               "text": ", a strong typhoon can pass through, making forecast checks essential. Even in the rainy season, mornings are often clear, and wreck diving is possible nearly year-round, though visibility can drop."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, amihan winds",
+              "Far-island tours and the El Nido ferry may be canceled"
+            ],
+            [
+              "March–May",
+              "Dry season, calmest seas",
+              "Best for lake swimming and wreck diving — crowded during Holy Week"
+            ],
+            [
+              "June–October",
+              "Rainy and typhoon season",
+              "Must check the typhoon forecast — wreck diving is still possible"
+            ],
+            ["November", "Start of the dry season", "Start of the dry-season travel season"]
+          ]
         }
       ]
     },
@@ -478,7 +516,7 @@
           "currency": "PHP",
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
-            { "label": "Manila–Busuanga flight", "price": "About ₱2,500–6,000", "note": "One-way" },
+            { "label": "Clark–Busuanga flight", "price": "About ₱2,500–6,000", "note": "One-way" },
             {
               "label": "Airport–town shared van",
               "price": "About ₱150–250",
@@ -613,6 +651,17 @@
                 {
                   "text": "Smart and Globe signals are good in town but drop out almost entirely during island tours."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Kayangan Lake can be entered only between " },
+                { "type": "time", "text": "7 AM and 4 PM" },
+                { "text": ", and the admission fee of about " },
+                { "type": "price", "text": "₱300" },
+                { "text": " includes a life jacket and a local guide. If you arrive at " },
+                { "type": "time", "text": "7–8:30 AM" },
+                { "text": " just after opening, you will barely have to queue at the viewpoint." }
               ]
             }
           ]

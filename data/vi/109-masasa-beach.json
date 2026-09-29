@@ -405,7 +405,7 @@
                     {
                       "children": [
                         {
-                          "text": "Tại bến xe jeepney trong Bến xe Grand, bắt xe hướng Mabini, Anilao rồi xuống tại cảng Talaga (cảng Anilao). Mất khoảng "
+                          "text": "Từ bến jeepney trong Grand Terminal, đi jeepney hướng Mabini Anilao rồi xuống ở cảng Anilao hoặc cảng Talaga, tùy thời điểm nào có tàu đi Tingloy. Mất khoảng "
                         },
                         { "type": "duration", "text": "40 phút – 1 giờ" },
                         { "text": ", giá vé khoảng " },
@@ -444,6 +444,38 @@
                     },
                     {
                       "children": [
+                        {
+                          "text": "Tàu công cộng đi Tingloy do Montenegro Lines khai thác; mức giá điều chỉnh ngày "
+                        },
+                        { "type": "date", "text": "19 tháng 4 năm 2026" },
+                        { "text": " là " },
+                        { "type": "price", "text": "₱210" },
+                        { "text": " với người lớn, " },
+                        { "type": "price", "text": "₱168" },
+                        { "text": " với học sinh, " },
+                        { "type": "price", "text": "₱150" },
+                        { "text": " với người cao tuổi và " },
+                        { "type": "price", "text": "₱105" },
+                        { "text": " với trẻ em từ 2–7 tuổi. Lịch cơ bản là từ Anilao lúc " },
+                        { "type": "time", "text": "07:00·09:00·11:00·13:00·15:00·17:00" },
+                        { "text": " và từ Tingloy lúc " },
+                        { "type": "time", "text": "06:00·08:00·10:00·12:00·13:30·16:00" },
+                        { "text": ", và nhiều khi tàu chỉ rời bến khi đã đủ khách." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Cảng khởi hành thay đổi theo mùa. Nhìn chung, vào mùa khô có gió mùa đông bắc thì dùng cảng Anilao, còn vào mùa mưa có gió mùa tây nam thì dùng cảng Talaga cách về phía nam khoảng "
+                        },
+                        { "type": "distance", "text": "3km" },
+                        {
+                          "text": " để tránh sóng. Thời điểm chuyển đổi khác nhau mỗi năm, vì vậy hãy kiểm tra thông báo của văn phòng du lịch Mabini trước khi đi."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
                         { "text": "Tại cảng, bạn sẽ nộp phí môi trường khoảng " },
                         { "type": "price", "text": "₱100" },
                         { "text": ", phí sử dụng bến, và khoản đặt cọc rác khoảng " },
@@ -451,6 +483,17 @@
                         {
                           "text": " sẽ được hoàn lại khi quay về. Mức phí và quy định có thể thay đổi, nên hãy kiểm tra thông báo mới nhất."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Phí môi trường là tổng của Mabini " },
+                        { "type": "price", "text": "₱50" },
+                        { "text": " và Tingloy " },
+                        { "type": "price", "text": "₱50" },
+                        { "text": ", còn phí sử dụng nhà ga là " },
+                        { "type": "price", "text": "₱5" },
+                        { "text": ". Tiền đặt cọc rác chỉ cần nộp một lần cho mỗi 2 người." }
                       ]
                     },
                     {
@@ -477,14 +520,12 @@
                     {
                       "children": [
                         {
-                          "text": "Đi theo cao tốc SLEX–STAR về hướng thành phố Batangas, qua Bauan để đến cảng Talaga ở Mabini, mất khoảng "
+                          "text": "Đi theo đường cao tốc SLEX–STAR về hướng thành phố Batangas, qua Bauan rồi đến cảng Anilao hoặc cảng Talaga ở Mabini mất khoảng "
                         },
                         { "type": "duration", "text": "2 giờ 30 phút – 3 giờ 30 phút" },
-                        {
-                          "text": ". Bạn có thể gửi xe tại các bãi đậu xe tư nhân quanh cảng với giá khoảng "
-                        },
+                        { "text": ". Bạn gửi xe tại bãi đỗ tư nhân quanh cảng với giá khoảng " },
                         { "type": "price", "text": "₱100–300" },
-                        { "text": "/ngày rồi lên thuyền." }
+                        { "text": " một ngày rồi lên tàu." }
                       ]
                     }
                   ]
@@ -550,6 +591,29 @@
             },
             { "text": "30–34℃", "type": "temperature" },
             { "text": ", nên việc chống nắng luôn cần thiết bất kể mùa nào." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, gió mùa đông bắc",
+              "Là thời điểm tốt, nhưng tuyến tàu Anilao–Tingloy đôi khi hơi động"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, biển lặng và trong nhất",
+              "Lặn ống thở tốt nhất — cuối tuần và Tuần Thánh rất đông, nên đi ngày thường"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, sóng cao và nước đục",
+              "Tàu ngừng chạy khi có cảnh báo bão — hãy xác nhận chuyến trong ngày"
+            ]
           ]
         }
       ]
@@ -709,6 +773,15 @@
                   "text": "Lều che nắng dùng trong ngày được cho phép, nhưng phải dọn vào buổi tối. Quy định bãi biển có thể thay đổi, nên hãy kiểm tra bảng thông báo khi đến nơi."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Tại cảng Anilao, bạn phải nộp cùng lúc tiền vé tàu, phí môi trường, phí sử dụng nhà ga và tiền đặt cọc rác, nên nếu chuẩn bị sẵn khoảng "
+                },
+                { "type": "price", "text": "₱350" },
+                { "text": "/người bằng tiền mặt lẻ thì hàng người sẽ giảm nhanh hơn." }
+              ]
             }
           ]
         }
@@ -825,11 +898,13 @@
               "title": "Núi Maculot",
               "place": "mount-maculot",
               "children": [
-                { "text": "Từ cảng Anilao, cách khoảng " },
+                { "text": "Đây là ngọn núi ở Cuenca, cách cảng Anilao khoảng " },
                 { "type": "duration", "text": "1 giờ 30 phút" },
                 {
-                  "text": " đi xe, đây là ngọn núi ở Cuenca nổi tiếng với điểm ngắm cảnh vách đá \"Rockies\" nhìn xuống hồ Taal."
-                }
+                  "text": " đi xe, nổi tiếng với đài quan sát trên vách đá 'Rocky's' nhìn xuống hồ Taal. Tính đến "
+                },
+                { "type": "date", "text": "năm 2026" },
+                { "text": ", việc lên núi đang bị cấm để tu sửa." }
               ]
             }
           ]

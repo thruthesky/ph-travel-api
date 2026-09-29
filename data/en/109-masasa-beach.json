@@ -401,10 +401,10 @@
                     {
                       "children": [
                         {
-                          "text": "From the jeepney area inside the Grand Terminal, take one bound for Mabini/Anilao and get off at Talaga Port (Anilao Port). It takes about "
+                          "text": "At the jeepney stand inside the Grand Terminal, take a jeepney bound for Mabini–Anilao and get off at Anilao Port or Talaga Port, whichever the Tingloy boat is leaving from at that time of year. It takes about "
                         },
                         { "type": "duration", "text": "40 minutes–1 hour" },
-                        { "text": ", for around " },
+                        { "text": " and the fare is about " },
                         { "type": "price", "text": "₱60–80" },
                         { "text": "." }
                       ]
@@ -438,6 +438,40 @@
                     },
                     {
                       "children": [
+                        {
+                          "text": "The public boat to Tingloy is operated by Montenegro Lines, and the fares adjusted on "
+                        },
+                        { "type": "date", "text": "April 19, 2026" },
+                        { "text": " are " },
+                        { "type": "price", "text": "₱210" },
+                        { "text": " for regular passengers, " },
+                        { "type": "price", "text": "₱168" },
+                        { "text": " for students, " },
+                        { "type": "price", "text": "₱150" },
+                        { "text": " for seniors, and " },
+                        { "type": "price", "text": "₱105" },
+                        {
+                          "text": " for children aged 2–7. Departures from Anilao are normally at "
+                        },
+                        { "type": "time", "text": "07:00·09:00·11:00·13:00·15:00·17:00" },
+                        { "text": " and from Tingloy at " },
+                        { "type": "time", "text": "06:00·08:00·10:00·12:00·13:30·16:00" },
+                        { "text": ", and the boat often leaves only once it fills up." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "The departure port changes with the season. Generally, in the dry season when the northeast monsoon blows, Anilao Port is used, and in the rainy season, when the southwest monsoon blows, Talaga Port, about "
+                        },
+                        { "type": "distance", "text": "3km" },
+                        {
+                          "text": " to the south, is used to avoid the waves. The timing of the switch varies each year, so check the Mabini tourism office's notices before you leave."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
                         { "text": "At the port you'll pay an environmental fee of about " },
                         { "type": "price", "text": "₱100" },
                         { "text": ", a terminal fee, and a trash deposit of about " },
@@ -445,6 +479,17 @@
                         {
                           "text": ", refunded on your return. The amounts and the system may change, so check the latest notice."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "The environmental fee is the sum of " },
+                        { "type": "price", "text": "₱50" },
+                        { "text": " for Mabini and " },
+                        { "type": "price", "text": "₱50" },
+                        { "text": " for Tingloy, and the terminal fee is " },
+                        { "type": "price", "text": "₱5" },
+                        { "text": ". The garbage deposit is paid once per two people." }
                       ]
                     },
                     {
@@ -471,12 +516,14 @@
                     {
                       "children": [
                         {
-                          "text": "Take the SLEX–STAR Tollway toward Batangas City, then go through Bauan to Talaga Port in Mabini, about "
+                          "text": "Take the SLEX–STAR Tollway toward Batangas City, then go via Bauan to Anilao Port or Talaga Port in Mabini, which takes about "
                         },
                         { "type": "duration", "text": "2 hours 30 minutes–3 hours 30 minutes" },
-                        { "text": ". Leave your car at a private lot near the port for about " },
+                        {
+                          "text": ". You leave the car at a private parking lot around the port for about "
+                        },
                         { "type": "price", "text": "₱100–300" },
-                        { "text": " per day, then board the boat." }
+                        { "text": " a day, then board the boat." }
                       ]
                     }
                   ]
@@ -542,6 +589,29 @@
             },
             { "text": "30–34℃", "type": "temperature" },
             { "text": " year-round, so sun protection matters regardless of season." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, northeast monsoon",
+              "Good season, but the Anilao–Tingloy crossing is sometimes rough"
+            ],
+            [
+              "March–May",
+              "Dry season, calmest and clearest sea",
+              "Best snorkeling — weekends and Holy Week are crowded, so weekdays are recommended"
+            ],
+            [
+              "June–October",
+              "Rainy season, high waves and murky water",
+              "Boats stop under a typhoon warning — confirm service on the day"
+            ]
           ]
         }
       ]
@@ -701,6 +771,17 @@
                   "text": "Day-use tents (sunshades) are allowed but must come down in the evening. Beach rules can change, so check the posted signs when you arrive."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "At Anilao Port you have to pay the boat fare, environmental fee, terminal fee, and garbage deposit all at once, so having about "
+                },
+                { "type": "price", "text": "₱350" },
+                {
+                  "text": " per person ready in small-denomination cash makes the line move faster."
+                }
+              ]
             }
           ]
         }
@@ -820,8 +901,10 @@
                 { "text": "About " },
                 { "type": "duration", "text": "1 hour 30 minutes" },
                 {
-                  "text": " by car from Anilao port, a mountain in Cuenca famous for the \"Rockies\" cliff viewpoint overlooking Taal Lake."
-                }
+                  "text": " by car from Anilao Port, this mountain in Cuenca is known for its cliffside viewpoint \"Rocky's\" overlooking Taal Lake. As of "
+                },
+                { "type": "date", "text": "2026" },
+                { "text": ", climbing is prohibited while the site is being rehabilitated." }
               ]
             }
           ]

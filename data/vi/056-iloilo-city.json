@@ -115,7 +115,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Thành phố Iloilo là trung tâm của vùng Tây Visayas, nằm ở đông nam đảo Panay, đối diện eo biển Guimaras. Vào thế kỷ 19 thời thuộc địa Tây Ban Nha, nơi đây thịnh vượng nhờ là cảng buôn bán đường và vải, từng được xem là thành phố giàu có chỉ sau Manila, và được hoàng gia Tây Ban Nha ban tặng danh hiệu \"Thành phố cao quý nhất\" (La Muy Noble Ciudad). Những dinh thự đá, tòa nhà thương mại và nhà thờ xinh đẹp do các phú hào ngành đường xây dựng thời đó vẫn còn hiện diện khắp thành phố cho đến ngày nay."
+              "text": "Thành phố Iloilo là thành phố trung tâm của vùng Western Visayas, nằm ở đông nam đảo Panay, đối diện eo biển Guimaras. Vào thời thuộc địa Tây Ban Nha thế kỷ 19, nơi đây thịnh vượng nhờ cảng buôn bán đường và vải, được xem là thành phố giàu có chỉ sau Manila, và năm "
+            },
+            { "type": "date", "text": "1898" },
+            {
+              "text": " từng được hoàng gia Tây Ban Nha ban danh hiệu \"Thành phố Trung thành và Cao quý nhất (La Muy Leal y Noble Ciudad)\". Những dinh thự đá, cửa hàng và các nhà thờ tuyệt đẹp do các ông trùm đường thời đó xây dựng vẫn còn hiện diện khắp thành phố."
             }
           ]
         },
@@ -450,12 +454,10 @@
                   "items": [
                     {
                       "children": [
+                        { "text": "Đi lại trong nội thành, jeepney rẻ nhất (giá cơ bản khoảng " },
+                        { "type": "price", "text": "₱14–17" },
                         {
-                          "text": "Di chuyển trong thành phố, jeepney là rẻ nhất (giá cơ bản khoảng "
-                        },
-                        { "type": "price", "text": "₱13–15" },
-                        {
-                          "text": "), Grab và taxi cũng dễ bắt. Di chuyển giữa các khu vực bằng taxi thường khoảng "
+                          "text": "), Grab và taxi cũng dễ gọi. Di chuyển giữa các quận bằng taxi thường mất "
                         },
                         { "type": "price", "text": "₱100–250" },
                         { "text": "." }
@@ -510,6 +512,29 @@
             { "text": "tháng 4", "type": "date" },
             { "text": " cũng là những dịp đáng xem." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 2",
+              "Mùa khô, tương đối mát",
+              "Lễ hội Dinagyang tháng 1 — phòng kín từ nhiều tháng trước"
+            ],
+            [
+              "Tháng 3–tháng 5",
+              "Mùa khô, oi bức",
+              "Nên di chuyển chủ yếu vào sáng và chiều tối — các sự kiện Tuần Thánh tháng 4"
+            ],
+            [
+              "Tháng 6–tháng 11",
+              "Mùa mưa, thường xuyên có mưa rào",
+              "Vẫn tham quan thành phố được — bão từ tháng 8–11"
+            ]
+          ]
         }
       ]
     },
@@ -534,7 +559,7 @@
               "price": "Khoảng ₱80–100 một chiều",
               "note": "Taxi khoảng ₱400–600"
             },
-            { "label": "Jeepney", "price": "Khoảng ₱13–20/lượt", "note": "Trong nội thành" },
+            { "label": "Jeepney", "price": "Khoảng ₱14–20/lượt", "note": "Trong nội thành" },
             {
               "label": "Taxi · Grab",
               "price": "Khoảng ₱100–250/lượt",
@@ -659,6 +684,19 @@
               "children": [
                 {
                   "text": "Nếu dự định đi Guimaras trong ngày, hãy khởi hành từ bến Parola vào sáng sớm để có đủ thời gian khám phá thong thả."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Chi nhánh Visayas của Bảo tàng Quốc gia (được cải tạo từ tòa nhà nhà tù tỉnh cũ) và Bảo tàng Lịch sử Kinh tế Philippines đều miễn phí, Museo Iloilo khoảng "
+                },
+                { "type": "price", "text": "₱50" },
+                { "text": ", còn Bảo tàng Nghệ thuật Đương đại Iloilo (ILOMOCA) khoảng " },
+                { "type": "price", "text": "₱150" },
+                {
+                  "text": ". Hãy kiểm tra trước ngày nghỉ và cách đặt chỗ vào cửa của Bảo tàng Quốc gia."
                 }
               ]
             }

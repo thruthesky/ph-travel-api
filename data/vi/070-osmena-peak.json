@@ -29,8 +29,8 @@
     "items": ["Đỉnh cao nhất Cebu", "Bình minh", "Cắm trại", "Leo núi ngắn", "Trekking xuyên núi"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.8519 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.4203 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.8202 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.4424 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -444,6 +444,29 @@
               "text": "), hãy tránh trekking xuyên núi. Nếu leo vào mùa mưa, nên chọn leo sáng sớm khi thời tiết còn tương đối ổn định. Quanh năm, rạng sáng ở đây lạnh hơn nhiều so với vùng biển, nên hãy chuẩn bị áo dài tay mỏng."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 2",
+              "Mùa khô, rạng sáng 15–18 độ",
+              "Thường có biển mây — tốt nhất để leo ngắm bình minh"
+            ],
+            [
+              "Tháng 3–tháng 5",
+              "Mùa khô, cỏ ngả vàng",
+              "Trời trong nên tầm nhìn xa đẹp — đường núi khô nên không trơn"
+            ],
+            [
+              "Tháng 6–tháng 11",
+              "Mùa mưa và mùa bão (tháng 8–11)",
+              "Chiều có mây và mưa, đường lầy — mùa bão tránh đi xuyên núi và nên leo vào sáng sớm"
+            ]
+          ]
         }
       ]
     },
@@ -643,6 +666,17 @@
               "children": [
                 {
                   "text": "Khi cắm trại, chỉ đốt lửa ở nơi được chỉ định, và mang hết rác xuống núi."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi có cảnh báo bão hoặc áp thấp nhiệt đới, tỉnh Cebu tạm thời đóng cửa các điểm leo núi. Vào "
+                },
+                { "type": "date", "text": "tháng 2 năm 2026" },
+                {
+                  "text": ", khi bão nhiệt đới Basyang đổ bộ, đỉnh Osmeña cũng nằm trong danh sách bị đóng cửa, vì vậy vào thời điểm thời tiết xấu, hãy hỏi văn phòng du lịch Dalaguete hoặc hướng dẫn viên địa phương xem có mở cửa không trước khi xuất phát."
                 }
               ]
             }

@@ -253,7 +253,7 @@
               "title": "Bãi biển Digisit và cung đường ven biển",
               "children": [
                 {
-                  "text": "Đây là bãi biển đá nằm trên đường đến Dicasalarin, nơi cảnh sóng vỗ vào đá để lại ấn tượng sâu sắc. Xa hơn một chút, bãi biển Dinadiawan ở Dipaculao có nước trong xanh, rất thích hợp để tắm biển."
+                  "text": "Đây là bãi biển đá trên đường đến Dicasalarin, ấn tượng với cảnh sóng vỗ vào đá. Xa hơn một chút, bãi Dinadiawan ở Dipaculao có nước trong, thích hợp để tắm biển."
                 }
               ]
             }
@@ -374,7 +374,7 @@
                       ]
                     },
                     {
-                      "time": "11:00-13:00",
+                      "time": "13:30~15:30",
                       "children": [{ "text": "Lên xe buýt, đến Manila vào chiều tối" }]
                     }
                   ]
@@ -405,14 +405,41 @@
                     {
                       "children": [
                         {
-                          "text": "Từ bến xe Genesis và JoyBus ở Cubao, Manila, có nhiều chuyến xe đi thẳng đến Baler mỗi ngày. Thời gian di chuyển khoảng "
+                          "text": "Từ bến Genesis và JoyBus ở Cubao, Manila có nhiều chuyến đi thẳng Baler mỗi ngày. Mất khoảng "
                         },
-                        { "type": "duration", "text": "5-7 giờ" },
+                        { "type": "duration", "text": "5–7 giờ" },
                         { "text": ", giá vé xe buýt máy lạnh thường khoảng " },
-                        { "type": "price", "text": "₱500-700" },
-                        { "text": ", còn xe JoyBus ghế rộng rãi khoảng " },
-                        { "type": "price", "text": "₱900-1,000" },
+                        { "type": "price", "text": "₱500~700" },
+                        { "text": ", còn JoyBus ghế rộng khoảng " },
+                        { "type": "price", "text": "₱1,080" },
                         { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "JoyBus đi thẳng Baler xuất phát từ Cubao lúc " },
+                        { "type": "time", "text": "00:30" },
+                        { "text": ", " },
+                        { "type": "time", "text": "02:00" },
+                        { "text": ", " },
+                        { "type": "time", "text": "04:30" },
+                        { "text": ", và từ Baler (bến đường Rectos trong trung tâm) lúc " },
+                        { "type": "time", "text": "05:30" },
+                        { "text": ", " },
+                        { "type": "time", "text": "13:30" },
+                        { "text": ", " },
+                        { "type": "time", "text": "14:30" },
+                        { "text": ", " },
+                        { "type": "time", "text": "15:30" },
+                        { "text": " (theo " },
+                        { "type": "date", "text": "tháng 8 năm 2026" },
+                        { "text": "). Lịch chạy hay thay đổi, nên hãy xem trên " },
+                        {
+                          "type": "link",
+                          "text": "trang web chính thức của Genesis",
+                          "url": "https://www.genesistransportserviceinc.com"
+                        },
+                        { "text": " hoặc tại bến xe." }
                       ]
                     },
                     {
@@ -469,10 +496,10 @@
                     {
                       "children": [
                         {
-                          "text": "Baler không có chuyến bay thường lệ. Nếu đến từ nước ngoài, sân bay quốc tế Clark (CRK) là gần nhất, cách khoảng "
+                          "text": "Baler không có chuyến bay thường lệ. Nếu từ nước ngoài đến, Sân bay quốc tế Clark (CRK) là gần nhất, từ sân bay đi xe khoảng "
                         },
-                        { "type": "duration", "text": "4-5 giờ" },
-                        { "text": " đi xe từ sân bay." }
+                        { "type": "duration", "text": "4–5 giờ" },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -538,6 +565,29 @@
             { "type": "date", "text": "ngày 19 tháng 2" },
             { "text": "), khiến không khí lễ hội trong thị trấn thêm sôi động vào thời điểm này." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Gió mùa đông bắc, sóng tốt và hay mưa",
+              "Mùa lướt sóng — giải đấu quanh Ngày Aurora 19 tháng 2"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Biển lặng",
+              "Bãi biển và tắm biển tốt — Tuần Thánh nhà nghỉ hết chỗ sớm"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Nằm trong vùng ảnh hưởng của bão, sóng nguy hiểm",
+              "Từ tháng 10 có sóng lướt — kiểm tra dự báo PAGASA trước khi đi"
+            ]
+          ]
         }
       ]
     },
@@ -554,7 +604,7 @@
           "items": [
             {
               "label": "Xe buýt Manila - Baler",
-              "price": "Một chiều khoảng ₱500-1,000",
+              "price": "Khoảng ₱500~1,100 một chiều",
               "note": "Tùy loại xe thường hoặc cao cấp"
             },
             {

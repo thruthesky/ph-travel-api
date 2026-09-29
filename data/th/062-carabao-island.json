@@ -65,7 +65,7 @@
     "type": "airport",
     "label": "สนามบินใกล้เคียง",
     "icon": "flight",
-    "text": "สนามบินคาติคลัน (MPH)",
+    "text": "สนามบินคาติคลัน โกโดเฟรโด พี. รามอส (MPH)",
     "code": "MPH"
   },
   "image": {
@@ -81,17 +81,10 @@
     "items": [
       {
         "type": "image",
-        "url": "images/062-carabao-island-2.webp",
+        "url": "images/062-carabao-island-4.webp",
         "alt": "เกาะคาราบาว",
-        "credit": "McNeil Gaila / CC BY-SA 4.0 / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Limbones_Island_2021.jpg"
-      },
-      {
-        "type": "image",
-        "url": "images/062-carabao-island-3.webp",
-        "alt": "เกาะคาราบาว",
-        "credit": "USAID Biodiversity & Forestry / Public domain / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Philippines;_Nagkakaisang_Tribu_ng_Palawan)_(40248017142).jpg"
+        "credit": "Alexey Komarov / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Boracay_Island,_Philippines_-_panoramio.jpg"
       }
     ]
   },
@@ -312,6 +305,50 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "เที่ยววันเดียวจากโบราไกย์",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "8 โมงเช้า",
+                      "children": [
+                        { "text": "ออกเรือบังกาเหมาลำจากใกล้สเตชัน 1 โบราไกย์ (ประมาณ " },
+                        { "type": "duration", "text": "40 นาที–1 ชั่วโมง" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "09.00 น.",
+                      "children": [
+                        { "text": "กระโดดหน้าผาและว่ายน้ำในถ้ำใต้น้ำที่โคดิงโคดิงพอยต์" }
+                      ]
+                    },
+                    {
+                      "time": "10.30 น.",
+                      "children": [{ "text": "สำรวจถ้ำแคธีดรัล (มีไกด์ท้องถิ่นร่วมทาง)" }]
+                    },
+                    {
+                      "time": "เที่ยง",
+                      "children": [
+                        { "text": "รับประทานอาหารกลางวันที่ร้านอาหารหาดไวท์บีชและเล่นน้ำทะเล" }
+                      ]
+                    },
+                    { "time": "14.00 น.", "children": [{ "text": "ดำน้ำตื้นชมปะการังรอบเกาะ" }] },
+                    { "time": "15.30 น.", "children": [{ "text": "กลับโบราไกย์ก่อนลมแรงขึ้น" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "เรือบังกาเหมาลำจะตกลงราคาล่วงหน้ารวมไปกลับและเวลารอ หากอยากชมพระอาทิตย์ตกที่ทากายไทพอยต์ด้วย ขากลับจะมืด จึงปลอดภัยกว่าหากพักค้างคืนที่เกาะ"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -342,6 +379,16 @@
                     },
                     { "type": "duration", "text": "1 ชั่วโมง 30 นาที–2 ชั่วโมง" },
                     { "text": " จากเซบูก็มีเที่ยวบินตรงไปทั้งคาติคลันและกาลิโบเช่นกัน" }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "จากสนามบินคลาร์กก็มีเที่ยวบินตรงไปคาติคลันวันละ 2–3 เที่ยว ใช้เวลาประมาณ "
+                    },
+                    { "type": "duration", "text": "1 ชั่วโมง 15 นาที" },
+                    { "text": " สะดวกหากออกเดินทางจากมะนิลาตอนเหนือหรือแองเจลิส" }
                   ]
                 }
               ]
@@ -446,6 +493,26 @@
             },
             { "text": "มกราคม", "type": "date" },
             { "text": ") ก็จะได้สัมผัสบรรยากาศเทศกาลของเกาะปาไนย์ไปด้วย" }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "สรุปแต่ละช่วงเวลา",
+          "icon": "calendar_month",
+          "columns": ["ช่วงเวลา", "สภาพอากาศ", "จุดเด่นการเที่ยว"],
+          "rows": [
+            ["พฤศจิกายน–ธันวาคม", "เริ่มฤดูแล้ง", "ต้นฤดูท่องเที่ยวหน้าแล้ง"],
+            [
+              "มกราคม–เมษายน",
+              "ฤดูแล้ง ทะเลสงบ ท้องฟ้าแจ่มใส",
+              "เหมาะกับการนั่งเรือบังกาและกระโดดหน้าผา — เทศกาลอาติ-อาติฮันเดือนมกราคม"
+            ],
+            ["พฤษภาคม", "ฤดูแล้ง ร้อนมาก", "สีน้ำทะเลสวยที่สุด"],
+            [
+              "มิถุนายน–ตุลาคม",
+              "ฤดูฝน ทะเลฝั่งตะวันตกคลื่นแรง",
+              "เรือบังกาหยุดวิ่งบ่อย — ไต้ฝุ่นช่วงกรกฎาคม–พฤศจิกายน"
+            ]
           ]
         }
       ]

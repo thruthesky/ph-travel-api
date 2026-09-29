@@ -117,22 +117,20 @@
         {
           "type": "paragraph",
           "children": [
-            {
-              "text": "Its history runs longer than you might expect. It was founded as the town of \"San Pedro de Macati\" in the Spanish era around "
-            },
+            { "text": "The history is longer than you might expect. It was founded in " },
             { "type": "date", "text": "1670" },
             {
-              "text": ", and today's Poblacion still holds the Church of San Pedro and San Pablo, completed around "
+              "text": " during the Spanish era as a town called San Pedro de Macati, and in today's Poblacion stands the Church of Saints Peter and Paul, completed around "
             },
             { "type": "date", "text": "1620" },
             { "text": ". In " },
             { "type": "date", "text": "1851" },
             {
-              "text": ", the Zobel de Ayala family bought up farmland in the area, and before World War II the district was home to Nielson Field, one of Manila's early airports. After the war, the Ayala family laid out roads and buildings in a planned scheme over the old runways, and today's central business district took shape from the "
+              "text": " José Bonifacio Roxas, an ancestor of the Zobel de Ayala family, bought the estates in this area from the Jesuits, and before World War II the site held Nielson Airport, Manila's old airport. After the war, the Ayala family planned roads and buildings on the old runway site, and from the "
             },
             { "type": "date", "text": "1950s–1960s" },
             {
-              "text": " onward. The two long roads where Ayala Avenue and Paseo de Roxas cross are traces of that former runway."
+              "text": " the present-day central business district took shape. The two long roads crossing at Ayala Avenue and Paseo de Roxas trace the old runways."
             }
           ]
         },
@@ -210,7 +208,13 @@
               "title": "Greenbelt and Glorietta",
               "children": [
                 {
-                  "text": "Ayala Center — Greenbelt with its gardens, the huge Glorietta mall, One Ayala, and Landmark, all linked by covered walkways — is the heart of Makati shopping. Greenbelt 1 is under redevelopment, so check which stores are currently open."
+                  "text": "Greenbelt, with its gardens, and Ayala Center, where the giant malls Glorietta, One Ayala, and Landmark are linked by pedestrian walkways, are the center of Makati shopping. Greenbelt 1 closed in "
+                },
+                { "type": "date", "text": "April 2024" },
+                { "text": " and is being rebuilt as a new mixed-use complex (targeting a " },
+                { "type": "date", "text": "2028" },
+                {
+                  "text": " opening), and Glorietta is also under renovation, so some areas and passages may be closed off."
                 }
               ]
             },
@@ -439,6 +443,19 @@
                           "text": "From Manila's old town, take LRT-1 and get off at EDSA station, then transfer to MRT-3 at Taft Avenue station. Trains are very crowded during rush hour, so if you're carrying a lot of luggage, take a Grab instead."
                         }
                       ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Since " },
+                        { "type": "date", "text": "March 23, 2026" },
+                        {
+                          "text": ", the MRT-3 has been giving all passengers a 50% fare discount as a measure against soaring fuel costs, so you now pay only about "
+                        },
+                        { "type": "price", "text": "₱6.50–14" },
+                        {
+                          "text": ". It's a temporary measure with no set end date, so check the latest announcements."
+                        }
+                      ]
                     }
                   ]
                 }
@@ -455,14 +472,22 @@
                     {
                       "children": [
                         {
-                          "text": "The EDSA Carousel bus, running in the dedicated center lane of EDSA, stops at the Ayala station. The fare is about "
+                          "text": "The EDSA Carousel bus, which runs in the center bus lane of EDSA, stops at Ayala station. The fare is about "
                         },
-                        { "type": "price", "text": "₱15–75" },
+                        { "type": "price", "text": "₱18–86" },
+                        { "text": " (after the increase on " },
+                        { "type": "date", "text": "September 28, 2026" },
+                        { "text": ", the base fare for the first " },
+                        { "type": "distance", "text": "5km" },
+                        { "text": " is " },
+                        { "type": "price", "text": "₱18" },
+                        { "text": ", then " },
+                        { "type": "price", "text": "₱2.98" },
                         {
-                          "text": ". From Clark International Airport, a P2P bus to Manila takes about "
+                          "text": " for every additional kilometer). From Clark International Airport, a P2P bus to Manila takes about "
                         },
                         { "type": "duration", "text": "2–3 hours" },
-                        { "text": " — check current routes and stops." }
+                        { "text": "; check the latest information on routes and stops." }
                       ]
                     }
                   ]
@@ -531,6 +556,34 @@
               "text": " is the worst of the year. Schedule your travel for weekday daytime or weekend mornings whenever you can."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, cool mornings and evenings",
+              "Christmas light show — worst traffic on December Friday evenings"
+            ],
+            [
+              "March–May",
+              "End of dry season, 34–36℃ in April–May",
+              "Plan indoor activities for the midday hours when walking is hard"
+            ],
+            [
+              "June–October",
+              "Rainy season, frequent showers and typhoons",
+              "Heavy rain floods EDSA and Buendia and causes severe congestion"
+            ],
+            [
+              "November",
+              "Between the rainy and dry seasons",
+              "Get around on weekday daytimes or weekend mornings"
+            ]
+          ]
         }
       ]
     },
@@ -550,7 +603,11 @@
               "price": "About ₱250–500 one way",
               "note": "Varies by time of day and traffic"
             },
-            { "label": "MRT-3", "price": "About ₱13–28 one way", "note": "Fare varies by distance" },
+            {
+              "label": "MRT-3",
+              "price": "About ₱13–28 one way",
+              "note": "Fares vary by section, with a temporary 50% discount since March 2026"
+            },
             {
               "label": "Ayala Museum",
               "price": "About ₱500–700",
@@ -694,6 +751,19 @@
               "children": [
                 {
                   "text": "Currency exchange counters inside the malls tend to offer better rates than the airport. Compare rates at a few before you exchange."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "The light and music show in the Ayala Triangle Gardens (" },
+                { "type": "date", "text": "November–January" },
+                { "text": ") runs every " },
+                { "type": "duration", "text": "30 minutes" },
+                { "text": " between " },
+                { "type": "time", "text": "6 and 10 PM" },
+                {
+                  "text": ". The garden lawns and surrounding restaurants get crowded before and after the show, so claim your spot a little early."
                 }
               ]
             }

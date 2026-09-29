@@ -91,6 +91,13 @@
         "alt": "Linapacan",
         "credit": "Paul Christian B. Yang-ed / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Isla_ng_Nangalao_(Nangalao_Island),_Palawan,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/159-linapacan-3.webp",
+        "alt": "Linapacan",
+        "credit": "Tuderna / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pangaldauan_Island_Calamian_Group_-_panoramio.jpg"
       }
     ]
   },
@@ -377,12 +384,18 @@
                   "items": [
                     {
                       "children": [
+                        { "text": "Linapacan has no airport. Since " },
+                        { "type": "date", "text": "March 29, 2026" },
                         {
-                          "text": "Linapacan has no airport. Fly from Manila to Busuanga Airport (USU), about "
+                          "text": ", direct flights from Manila to Busuanga and El Nido have ended, so you either fly from Clark to Busuanga Airport (USU) in about "
                         },
-                        { "type": "duration", "text": "1 hour" },
+                        { "type": "duration", "text": "1 hour 20 minutes" },
                         {
-                          "text": ", and take a boat from Coron, or fly to El Nido Airport (ENI) and take a boat from the El Nido side."
+                          "text": " and take a boat from Coron, or fly from Clark to El Nido Airport (ENI) in about "
+                        },
+                        { "type": "duration", "text": "1 hour 35 minutes" },
+                        {
+                          "text": " and take a boat from the El Nido side. There are also direct flights to both airports from Cebu."
                         }
                       ]
                     },
@@ -525,6 +538,29 @@
             { "type": "temperature", "text": "30–33℃" },
             { "text": " year-round, and sun exposure is very strong on islands with little shade." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, waves from the northeast wind in December–February",
+              "Some days the Coron–Linapacan boat is cancelled"
+            ],
+            [
+              "March–May",
+              "Dry season, sea calm as a mirror",
+              "Best season — clearest water, easy travel by small bangka"
+            ],
+            [
+              "June–October",
+              "Rainy season, rain and waves from the southwest monsoon",
+              "Boats can be stranded for days after a typhoon — visiting not recommended"
+            ]
+          ]
         }
       ]
     },
@@ -539,7 +575,7 @@
           "currency": "PHP",
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
-            { "label": "Manila–Busuanga flight", "price": "About ₱2,500–6,000", "note": "One way" },
+            { "label": "Clark–Busuanga flight", "price": "About ₱2,500–6,000", "note": "One way" },
             {
               "label": "Airport–Coron town van",
               "price": "About ₱150–250",
@@ -732,6 +768,15 @@
               "children": [
                 {
                   "text": "Night swimming and snorkeling alone are dangerous due to currents, so avoid them."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "In " },
+                { "text": "November 2025", "type": "date" },
+                {
+                  "text": ", Typhoon Tino (Kalmaegi) passed off the coast of Linapacan, and the island villages suffered heavy damage. Some accommodations, camps, and passenger bangkas may still be under repair or have stopped operating, so contact them directly before departure to confirm they're open."
                 }
               ]
             }

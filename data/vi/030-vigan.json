@@ -540,6 +540,29 @@
               "text": " với các buổi biểu diễn đường phố và diễu hành trang phục truyền thống. Vào Tuần Thánh và cuối năm, chỗ ở khu phố cổ thường hết sớm, nên hãy đặt trước."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, tháng 12 – tháng 2 tương đối mát mẻ",
+              "Đi bộ được giữa trưa — lễ hội Longganisa khoảng 22 tháng 1"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, rất nóng và khô (có lúc trên 35℃)",
+              "Lịch trình buổi sáng và chiều tối — lễ hội Viva Vigan đầu tháng 5"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió mùa tây nam và bão",
+              "Tháng 7–9 lượng mưa đặc biệt nhiều — đặt chỗ ở cho Tuần Thánh và cuối năm"
+            ]
+          ]
         }
       ]
     },
@@ -693,6 +716,17 @@
                   "text": "Nếu sử dụng sân bay Laoag, hãy kết hợp thăm các điểm ở Ilocos Norte như nhà thờ Paoay (di sản thế giới), nhà thờ Batac."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "Bản đồ du lịch và thông báo lễ hội, sự kiện có thể xem trên " },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức của thành phố Vigan",
+                  "url": "https://vigancity.gov.ph/"
+                },
+                { "text": "." }
+              ]
             }
           ]
         }
@@ -749,6 +783,15 @@
               "children": [
                 {
                   "text": "Vào mùa mưa và mùa bão, đường ven biển phía bắc có thể bị ngập hoặc xe buýt bị trễ."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Trận động đất Abra " },
+                { "text": "ngày 27 tháng 7 năm 2022", "type": "date" },
+                {
+                  "text": " (độ lớn 7.0) làm sập một phần Tháp chuông Bantay và gây hư hại tường, cửa sổ Dinh thự Syquia cùng Nhà thờ chính tòa St. Paul. Do đang sửa chữa, việc tham quan bên trong hoặc leo tháp chuông có thể bị hạn chế, nên hãy kiểm tra xem có mở cửa không trước khi đến."
                 }
               ]
             }
@@ -808,6 +851,20 @@
                 { "text": "Từ Vigan vượt đường núi tây bắc khoảng " },
                 { "type": "duration", "text": "6-7 giờ" },
                 { "text": " (tùy tình trạng đường), dẫn đến ngôi làng miền núi Cordillera." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Nhà thờ Santa Maria",
+              "place": "santa-maria-church",
+              "children": [
+                { "text": "Cách khoảng " },
+                { "type": "distance", "text": "40km" },
+                { "text": " về phía nam, đi xe buýt hoặc van khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                {
+                  "text": ". Đây là nhà thờ Baroque được công nhận di sản thế giới, đứng như pháo đài trên đồi, thích hợp cho lịch trình nửa ngày."
+                }
               ]
             }
           ]

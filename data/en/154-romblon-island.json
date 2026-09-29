@@ -378,16 +378,48 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "The simplest way from Manila is to take the overnight RORO ferry from Batangas port to Romblon town. Montenegro Shipping and others depart in the evening and arrive at dawn, about "
+                      "text": "The simplest way from Manila is to take a roll-on/roll-off boat from Batangas port to Romblon town. Starlite Ferries departs daily at "
                     },
-                    { "type": "duration", "text": "8–10 hours" },
-                    { "text": ", for a regular-seat fare of around " },
-                    { "type": "price", "text": "₱950–1,400" },
+                    { "type": "time", "text": "3 PM" },
+                    { "text": " and arrives late at night about " },
+                    { "type": "duration", "text": "9 hours" },
+                    { "text": " later, for about " },
+                    { "type": "price", "text": "₱1,400" },
+                    { "text": " economy or about " },
+                    { "type": "price", "text": "₱2,000–2,200" },
                     {
-                      "text": ". Return sailings often run only on certain days of the week, so check the schedule before planning your trip. From Manila to Batangas port takes about "
+                      "text": " tourist class, varying with fuel surcharges. The return boat from Romblon to Batangas departs daily at "
                     },
+                    { "type": "time", "text": "10 PM" },
+                    { "text": ". From Manila to Batangas port is about " },
                     { "type": "duration", "text": "2–3 hours" },
                     { "text": " by bus." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "By boat (from Lucena)",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "From Lucena port in Quezon province, a Starhorse Shipping roll-on/roll-off boat also departs daily at "
+                    },
+                    { "type": "time", "text": "4 PM" },
+                    { "text": " and reaches Romblon port around dawn, about " },
+                    { "type": "duration", "text": "10 hours" },
+                    { "text": " later. Fares are about " },
+                    { "type": "price", "text": "₱800" },
+                    {
+                      "text": " for regular seating, cheaper than the Batangas boat, and Manila to Lucena is about "
+                    },
+                    { "type": "duration", "text": "3–4 hours" },
+                    {
+                      "text": " by bus. Sailing times change often, so confirm with the shipping company before you leave."
+                    }
                   ]
                 }
               ]
@@ -399,20 +431,24 @@
                 {
                   "type": "paragraph",
                   "children": [
+                    { "text": "From " },
+                    { "text": "August 11, 2026", "type": "date" },
                     {
-                      "text": "A small Cebu Pacific-affiliated plane flies a few times a week from Manila to Tugdan Airport (TBH) in Alcantara, Tablas Island, taking about "
+                      "text": ", Sunlight Air flies from Clark to Tugdan Airport (TBH) in Alcantara on Tablas Island twice a week, on Tuesdays and Saturdays, taking about "
                     },
-                    { "type": "duration", "text": "1 hour" },
+                    { "text": "1 hour 15 minutes", "type": "duration" },
                     {
-                      "text": ". From the airport, travel by van or tricycle to San Agustin Port in northeastern Tablas, about "
+                      "text": ". There is no direct flight from Manila's airport. From the airport, take a van or tricycle about "
                     },
-                    { "type": "duration", "text": "1 hour–1 hour 30 minutes" },
-                    { "text": ", then take a boat to Romblon Island, about " },
-                    { "type": "duration", "text": "1–2 hours" },
-                    { "text": ", for around " },
-                    { "type": "price", "text": "₱150–300" },
+                    { "text": "1–1.5 hours", "type": "duration" },
                     {
-                      "text": ". Flights are infrequent, so you'll need to coordinate the flight and boat schedules together."
+                      "text": " to San Agustin port on Tablas's northeast side, then board a boat to Romblon Island, about "
+                    },
+                    { "text": "40 minutes–1 hour", "type": "duration" },
+                    { "text": " for about " },
+                    { "text": "₱200–300", "type": "price" },
+                    {
+                      "text": ". The San Agustin–Romblon boat runs only once or twice a day, so you need to match flight and boat times, and if they don't line up, you'll have to stay overnight in San Agustin."
                     }
                   ]
                 }
@@ -495,6 +531,29 @@
               "text": " is the wet season, affected by the southwest monsoon and typhoons. The Sibuyan Sea is a frequent typhoon path, and boats linking Batangas and Tablas can be suspended for several days at a time during this period. If traveling in the wet season, it's safer to keep at least one spare day before your return."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, eastern seas somewhat rough",
+              "West side and bays are calm — crowded during the January Biniray Festival"
+            ],
+            [
+              "March–May",
+              "Dry season, 31–34℃, calmest seas",
+              "Good visibility for snorkeling and diving — best time for island hopping"
+            ],
+            [
+              "June–November",
+              "Rainy season, affected by southwest winds and typhoons",
+              "Frequent boat cancellations — keep at least one spare day for your return"
+            ]
+          ]
         }
       ]
     },
@@ -511,11 +570,11 @@
           "items": [
             {
               "label": "Batangas–Romblon boat",
-              "price": "About ₱950–1,400",
+              "price": "About ₱1,400–2,200",
               "note": "One way, overnight RORO ferry"
             },
             {
-              "label": "Manila–Tugdan flight",
+              "label": "Clark–Tugdan flight",
               "price": "About ₱2,500–6,000",
               "note": "One way, limited flights"
             },
@@ -610,7 +669,7 @@
             {
               "children": [
                 {
-                  "text": "Boats to Batangas often don't run daily, so if your return date is fixed, check the return sailing first before setting your arrival date."
+                  "text": "There is only one boat a day to Batangas, so if it's cancelled you'll be stuck until the next day. If you have a fixed departure date from the country, it's best to check the return boat first and then choose your arrival date."
                 }
               ]
             },

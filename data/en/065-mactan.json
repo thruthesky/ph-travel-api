@@ -352,6 +352,51 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Rainy day",
+              "subtitle": "When hopping tours are cancelled",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "10:00 AM",
+                      "children": [
+                        {
+                          "text": "See the Mactan Shrine and Lapu-Lapu statue, and the nearby guitar workshops"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00 PM",
+                      "children": [{ "text": "Seafood lunch at a sutukil restaurant" }]
+                    },
+                    {
+                      "time": "2:00 PM",
+                      "children": [
+                        {
+                          "text": "Cross the CCLEX bridge to Cebu City for mostly indoor sightseeing such as the Basilica of Santo Niño and the Casa Gorordo Museum"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "6:00 PM",
+                      "children": [
+                        { "text": "Dinner at a mall, then back to the resort for a massage (spa)" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "If a hopping tour is cancelled, most operators will reschedule or refund it, so check the cancellation policy when booking and leave a spare day toward the end of your itinerary."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -411,6 +456,20 @@
                       "text": ", with heavy congestion during rush hour. CCLEX has a toll and is convenient for crossing directly from Cebu City's south coast (SRP) to Cordova in southern Mactan."
                     }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "The CCLEX toll is about " },
+                    { "type": "price", "text": "₱107" },
+                    {
+                      "text": " for a car, and it is added to the fare if you cross by taxi or Grab. If you have little luggage, you can take MyBus, an air-conditioned airport bus that departs from in front of the airport, to SM City Cebu for about "
+                    },
+                    { "type": "price", "text": "₱50" },
+                    { "text": ", which takes about " },
+                    { "type": "duration", "text": "1 hour" },
+                    { "text": " depending on traffic." }
+                  ]
                 }
               ]
             },
@@ -427,6 +486,18 @@
                     { "type": "price", "text": "₱20–100" },
                     {
                       "text": ". Hopping tours depart from resort jetties or bangka jetties on Mactan's east coast, and agency tours often include hotel pickup."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "If you're hiring a bangka independently, Maribago Wharf is the most common departure point, and boats also leave from Marigondon Wharf and the wharves on the Cordova side. Charter fares often exclude the island entrance fee and lunch, and the entrance fee, about "
+                    },
+                    { "type": "price", "text": "₱150–300" },
+                    {
+                      "text": " per person depending on the island, is paid separately in cash on the spot."
                     }
                   ]
                 }
@@ -478,6 +549,26 @@
             },
             { "text": "January", "type": "date" },
             { "text": " brings Cebu City's Sinulog Festival." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            ["December", "Start of the dry season", "Start of the dry-season travel season"],
+            [
+              "January–April",
+              "Dry season, calm seas and good visibility",
+              "Best for hopping and diving — Kadaugan sa Mactan around April 27"
+            ],
+            ["May", "Dry season, hottest with strong sun", "Sun protection needed"],
+            [
+              "June–November",
+              "Rainy season, afternoon showers",
+              "Hopping may be cancelled in typhoons August–November"
+            ]
           ]
         }
       ]
@@ -628,6 +719,19 @@
                   "text": "Popular photo spots include Nalusuan Island's floating deck, Pandanon Island's sandbar, and in front of the Lapu-Lapu statue at Mactan Shrine."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "When entering the Philippines, you must register for the free online arrival declaration eTravel within "
+                },
+                { "type": "duration", "text": "72 hours" },
+                {
+                  "text": " of arrival. Screenshotting the QR code you receive after registering speeds up immigration at the airport ("
+                },
+                { "type": "link", "text": "official eTravel site", "url": "https://etravel.gov.ph" },
+                { "text": "). Beware of paid agency sites with similar names." }
+              ]
             }
           ]
         }
@@ -747,6 +851,18 @@
                 { "type": "duration", "text": "2 hours" },
                 {
                   "text": " by fastcraft from the Cebu pier, an island where you can see the Chocolate Hills and tarsiers."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Olango Island",
+              "place": "olango-island",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "20–30 minutes" },
+                {
+                  "text": " by ferry from the Punta Engaño pier in Mactan, an island with a Ramsar wetland migratory bird sanctuary and modest fishing villages."
                 }
               ]
             }

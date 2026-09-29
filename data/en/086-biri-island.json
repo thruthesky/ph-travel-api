@@ -40,8 +40,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.5, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 12.67 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.38 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 12.6861 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.3815 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -134,10 +134,10 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Collectively known as the \"Biri Rock Formations,\" seven sites run from west to east: Magasang, Magsapad, Magdaraog, Puhunan, Bel-at, Caranas, and Pinanahuan. Some rocks rise like walls dozens of meters high, some have been hollowed by waves into massive \"windows,\" and emerald-colored tide pools sit between the rocks. The area was designated the Biri-Larosa Protected Landscape and Seascape in "
+              "text": "These rock formations are collectively called the \"Biri Rock Formations,\" and from west to east the seven are Magasang, Maqueda, Macadlaw, Puhunan, Bel-at, Caranas, and Pinanahawan. Some rise like walls tens of meters high, others have been punched through by waves to make huge windows, and emerald tide pools collect between the rocks. The island was designated the Biri-Larosa Protected Landscape and Seascape in "
             },
             { "type": "date", "text": "2000" },
-            { "text": " and is managed accordingly." }
+            { "text": " and is managed as such." }
           ]
         },
         {
@@ -355,16 +355,14 @@
                 {
                   "type": "paragraph",
                   "children": [
+                    { "text": "Since " },
+                    { "type": "date", "text": "2025" },
                     {
-                      "text": "Small aircraft from Manila sometimes serve Catarman (CRM), the capital of Northern Samar, but flights are infrequent and routes change often, so confirm before booking. Flight time is about "
-                    },
-                    { "type": "duration", "text": "1 hour 15 minutes" },
-                    {
-                      "text": ". When there's no Catarman route, you can fly into Tacloban (TAC) and travel about "
+                      "text": ", PAL Express has flown a Cebu–Catarman route a few times a week to Catarman (CRM) Airport, the capital of Northern Samar. From Manila it is more usual to go via Cebu than direct, and some routes, like the one from Clark, are on and off, so check before booking. If flights don't work out, you can fly into Tacloban (TAC) Airport and travel to Northern Samar by bus or van (about "
                     },
                     { "type": "duration", "text": "6–7 hours" },
                     {
-                      "text": " by bus or van to Northern Samar, or use Calbayog Airport on Samar's west coast instead. From Catarman to Lavezares port is about "
+                      "text": "), or use Calbayog Airport (a Cebu route) on Samar's west coast. From Catarman to Lavezares Port takes about "
                     },
                     { "type": "duration", "text": "1 hour–1 hour 30 minutes" },
                     { "text": " by van or jeepney." }
@@ -380,14 +378,14 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "From Manila's Cubao and Pasay terminals, long-distance buses bound for Allen, Catarman, or Tacloban pass through the Bicol region and cross by RORO ferry from Matnog port in Sorsogon to Allen port in Samar (about "
+                      "text": "Take a long-distance bus from the Cubao or Pasay terminal in Manila toward Allen, Catarman, or Tacloban, pass through the Bicol region, and cross by RoRo from Matnog Port in Sorsogon to Allen Port in Samar (about "
                     },
-                    { "type": "duration", "text": "1–2 hours" },
+                    { "type": "duration", "text": "1 hour 30 minutes–2 hours" },
                     { "text": "). From Manila to Allen takes about " },
                     { "type": "duration", "text": "14–18 hours" },
                     { "text": " and costs about " },
                     { "type": "price", "text": "₱1,200–1,800" },
-                    { "text": ". From Allen to Lavezares port is about " },
+                    { "text": ". From Allen to Lavezares Port takes about " },
                     { "type": "duration", "text": "15–20 minutes" },
                     { "text": " by jeepney or tricycle." }
                   ]
@@ -475,6 +473,34 @@
             {
               "text": " is typhoon season, so always check the forecast. Whatever the season, the key is checking a tide table and planning around days and times with low, receding tides."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "January–February",
+              "Strong northeast wind, frequent rain",
+              "Spectacular waves crashing on the rocks — bangkas often cancelled and access often restricted"
+            ],
+            [
+              "March–June",
+              "Calm waves, little rain",
+              "Most stable for bangka trips and rock visits — tide pool water color vivid on clear days"
+            ],
+            [
+              "July–September",
+              "May lie in the path of typhoons",
+              "Check the weather forecast — choose days and times of low tide"
+            ],
+            [
+              "October–December",
+              "Strong northeast wind, high waves and frequent rain",
+              "Bangkas often cancelled and access often restricted — check the tide table"
+            ]
           ]
         }
       ]
@@ -637,6 +663,13 @@
                   "text": "The Biri tourism office's Facebook page frequently posts updates on boat schedules and rule changes, so check before departing."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "To the Waray people, the rocks of Biri are a sacred place where the goddess Verbinota lives. If a guide asks you not to make loud noises in front of the rocks, it is courteous to comply."
+                }
+              ]
             }
           ]
         }
@@ -720,7 +753,7 @@
                 { "text": "About " },
                 { "type": "duration", "text": "6–7 hours" },
                 {
-                  "text": " by car from Lavezares (to Tacloban). The Philippines' longest strait-crossing bridge, linking Leyte and Samar."
+                  "text": " by car from Lavezares (Tacloban). A strait bridge with a red steel arch linking Leyte and Samar."
                 }
               ]
             },

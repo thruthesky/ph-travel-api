@@ -258,7 +258,7 @@
                       "time": "Buổi sáng",
                       "children": [
                         {
-                          "text": "Đến sân bay San Jose từ Manila, di chuyển đến Sablayan bằng xe buýt hoặc xe van"
+                          "text": "Bay từ Clark đến Sân bay San Jose, đi xe buýt hoặc van đến Sablayan"
                         }
                       ]
                     },
@@ -330,7 +330,7 @@
                       "time": "Buổi chiều",
                       "children": [
                         {
-                          "text": "Đến Sablayan rồi di chuyển đến San Jose, quay về Manila bằng chuyến bay chiều tối hoặc ngày hôm sau"
+                          "text": "Sau khi đến Sablayan, di chuyển về San Jose ngủ 1 đêm, hôm sau bay về Clark (hoặc đi thuyền từ cảng Abra de Ilog về Batangas)"
                         }
                       ]
                     }
@@ -359,18 +359,34 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ Manila đến sân bay San Jose (SJI), Occidental Mindoro, mất khoảng "
+                      "text": "Từ Clark đến Sân bay San Jose (SJI) ở Occidental Mindoro bằng chuyến bay Cebgo mất khoảng "
                     },
-                    { "type": "duration", "text": "1 giờ" },
-                    { "text": " bay, giá vé một chiều khoảng " },
-                    { "type": "price", "text": "₱2,000–5,000" },
+                    { "type": "duration", "text": "1 giờ 20 phút" },
+                    { "text": ", giá vé một chiều khoảng " },
+                    { "type": "price", "text": "₱2,000~5,000" },
                     {
-                      "text": ". Vì số chuyến bay ít nên lịch trình có thể không khớp, cần kiểm tra trước. Từ sân bay San Jose, bạn đi tricycle đến bến xe rồi đón xe buýt hoặc xe van đi Sablayan, mất khoảng "
+                      "text": ". Số chuyến bay ít nên lịch có thể không khớp, cần kiểm tra trước. Từ sân bay San Jose đi tricycle đến bến xe buýt, rồi đi xe buýt hoặc van đến Sablayan mất khoảng "
                     },
                     { "type": "duration", "text": "2–3 giờ" },
                     { "text": ", khoảng " },
-                    { "type": "price", "text": "₱200–300" },
+                    { "type": "price", "text": "₱200~300" },
                     { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ " },
+                    { "text": "ngày 29 tháng 3 năm 2026", "type": "date" },
+                    {
+                      "text": ", do máy bay cánh quạt bị cấm khai thác ở Sân bay Ninoy Aquino Manila nên không còn chuyến bay thẳng Manila – San Jose. Nếu xuất phát từ Manila, hãy đi xe buýt P2P từ Nhà ga 3 NAIA, PITX,... đến sân bay Clark khoảng "
+                    },
+                    { "text": "2 giờ 30 phút – 3 giờ", "type": "duration" },
+                    { "text": " (khoảng " },
+                    { "text": "₱550~630", "type": "price" },
+                    {
+                      "text": ") rồi lên máy bay, hoặc dùng đường bộ kết hợp đường biển bằng tàu từ cảng Batangas đi Abra de Ilog."
+                    }
                   ]
                 }
               ]
@@ -492,6 +508,29 @@
               "text": "Đảo ít bóng râm và nắng gắt. Vào mùa khô, nhiệt độ giữa trưa có thể lên trên 32 độ, nên bạn cần chú ý bổ sung nước và chống nắng."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Gió mùa đông bắc, nhiều ngày gió và sóng mạnh",
+              "Thời tiết xấu thì ngừng hoàn toàn việc tham quan"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Gió yếu, sóng thấp, ban ngày trên 32 độ",
+              "Tầm nhìn dưới nước 20–30m — mùa lặn liveaboard"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Gió mùa tây nam (Habagat) và mùa bão",
+              "Thường hủy ra khơi — dù đã đặt vẫn phải chuẩn bị bị hủy trong ngày"
+            ]
+          ]
         }
       ]
     },
@@ -507,7 +546,7 @@
           "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
           "items": [
             {
-              "label": "Máy bay Manila–San Jose",
+              "label": "Chuyến bay Clark – San Jose",
               "price": "Khoảng ₱2,000–5,000",
               "note": "Một chiều, ít chuyến bay"
             },

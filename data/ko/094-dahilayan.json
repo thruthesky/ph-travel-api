@@ -21,8 +21,8 @@
   },
   "tags": { "type": "tags", "label": "태그", "items": ["고원", "소나무 숲", "집라인", "어드벤처 파크", "서늘한 날씨"] },
   "rating": { "type": "rating", "label": "추천도", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "위도", "value": 8.1986 },
-  "longitude": { "type": "longitude", "label": "경도", "value": 124.8601 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 8.2025 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 124.8586 },
   "best_season": {
     "type": "date",
     "label": "여행 최적기",
@@ -72,6 +72,13 @@
         "alt": "다힐라얀",
         "credit": "Obsidian Soul / CC0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Zorbing_at_Dahilayan_Forest_Park_Resort,_Manolo_Fortich,_Bukidnon,_Philippines_03.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/094-dahilayan-3.webp",
+        "alt": "다힐라얀",
+        "credit": "Obsidian Soul / CC0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pinus_kesiya_(Benguet_pine)_in_Dahilayan,_Bukidnon_4.jpg"
       }
     ]
   },
@@ -153,7 +160,7 @@
               "title": "840m 듀얼 집라인",
               "children": [
                 { "text": "두 사람이 나란히 엎드린 \"슈퍼맨\" 자세로 소나무 숲 위를 가르는 다힐라얀의 대표 체험입니다. 최고 속도가 시속 " },
-                { "type": "distance", "text": "80~90km" },
+                { "type": "distance", "text": "60~80km" },
                 { "text": "에 이른다고 알려져 있으며, 날씨가 맑으면 키탕라드 산맥이 정면으로 보입니다." }
               ]
             },
@@ -293,6 +300,54 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "셔틀로 가는 당일 코스",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [{ "text": "카가얀데오로 림켓카이 센터(Limketkai Center)에서 셔틀을 타고 출발합니다." }]
+                    },
+                    {
+                      "time": "10:30~12:30",
+                      "children": [
+                        { "text": "어드벤처 파크에서 " },
+                        { "type": "distance", "text": "840m" },
+                        { "text": " 집라인과 마운틴 코스터를 탑니다. 셔틀 손님이 한꺼번에 도착하므로 매표소부터 먼저 들릅니다." }
+                      ]
+                    },
+                    {
+                      "time": "12:30~13:30",
+                      "children": [{ "text": "파크 안 식당에서 불랄로 같은 따뜻한 국물 요리로 점심을 먹습니다." }]
+                    },
+                    {
+                      "time": "13:30~16:00",
+                      "children": [
+                        { "text": "다힐라얀 포레스트 파크로 옮겨 루지, 흔들다리, 캐노피 워크를 즐기고 소나무 숲을 산책합니다." }
+                      ]
+                    },
+                    {
+                      "time": "16:30",
+                      "children": [
+                        { "text": "셔틀을 타고 카가얀데오로로 돌아갑니다. 늦으면 기다려 주지 않으니 " },
+                        { "type": "time", "text": "오후 4시" },
+                        { "text": "까지 승차 장소로 갑니다." }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "비가 오거나 번개가 치면 집라인이 멈추니, 그런 날에는 포레스트 파크의 실내외 가족 시설과 롯지 카페 위주로 동선을 바꾸는 것이 좋습니다."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -335,16 +390,30 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "카가얀데오로 아그오라(Agora) 버스터미널에서 부키드논 말라이발라이 방면 버스나 밴을 타고 마놀로 포르티치 탄쿨란(Tankulan) 또는 알라에(Alae) 교차로에서 내립니다(약 "
+                      "text": "카가얀데오로 아그오라(Agora) 버스터미널에서 마놀로 포르티치 캠프 필립스(Camp Phillips)행 밴이나 지프니를 타고 알라에(Alae) 교차로를 지나 캠프 필립스에서 내립니다(약 "
                     },
                     { "type": "duration", "text": "1시간" },
                     { "text": ", 약 " },
                     { "type": "price", "text": "₱60~100" },
-                    { "text": "). 여기서 다힐라얀행 지프니나 하발하발(오토바이 택시)로 갈아타 약 " },
+                    { "text": "). 여기서 하발하발(오토바이 택시)로 갈아타 파인애플 밭 사이 오르막길을 약 " },
                     { "type": "duration", "text": "40분~1시간" },
-                    { "text": " 더 올라가며, 요금은 약 " },
-                    { "type": "price", "text": "₱50~150" },
+                    { "text": " 더 올라가며, 요금은 1인 편도 약 " },
+                    { "type": "price", "text": "₱200~300" },
                     { "text": "입니다. 대중교통 연결이 드문 편이라 오후 늦게는 돌아오는 차편이 없을 수 있습니다." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "방문객용 셔틀(Magnum Express)도 있습니다. 카가얀데오로 림켓카이 센터에서 " },
+                    { "type": "time", "text": "오전 9시" },
+                    { "text": "에 출발해 약 " },
+                    { "type": "duration", "text": "1시간 30분" },
+                    { "text": " 만에 다힐라얀에 닿고, " },
+                    { "type": "time", "text": "오후 4시 30분" },
+                    { "text": "에 돌아옵니다. 요금은 성인 편도 약 " },
+                    { "type": "price", "text": "₱249" },
+                    { "text": "이며 예약 없이 선착순으로 탑니다. 운행 요일과 시간은 바뀔 수 있으니 출발 전 최신 공지를 확인하시기 바랍니다." }
                   ]
                 }
               ]
@@ -405,6 +474,17 @@
             { "type": "date", "text": "2월 말~3월 초" },
             { "text": " 말라이발라이에서 열리니, 이 시기에 가면 원주민 부족 문화 공연을 함께 볼 수 있습니다." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "시기별 한눈에 보기",
+          "icon": "calendar_month",
+          "columns": ["시기", "날씨", "여행 포인트"],
+          "rows": [
+            ["12월~2월", "가장 서늘, 새벽 10~15도", "고원의 겨울 — 연말연시 집라인 대기 1시간 이상"],
+            ["3월~5월", "맑은 날 많음", "집라인·산 풍경 최적 — 2월 말~3월 초 카아물란 축제"],
+            ["6월~11월", "오후마다 비와 안개", "번개·강풍엔 운영 중단 — 오전 일찍 방문"]
+          ]
         }
       ]
     },
@@ -421,11 +501,15 @@
           "items": [
             { "label": "어드벤처 파크 입장료", "price": "약 ₱100", "note": "1인" },
             { "label": "840m 집라인", "price": "약 ₱500", "note": "1회, 1인" },
-            { "label": "집라인 전체 패키지", "price": "약 ₱600~900", "note": "코스 조합별 상이" },
-            { "label": "마운틴 코스터·드롭존", "price": "약 ₱300~500", "note": "기구당" },
-            { "label": "포레스트 파크 놀이 시설", "price": "약 ₱100~400", "note": "기구당" },
-            { "label": "CDO–마놀로 포르티치 버스", "price": "약 ₱60~100", "note": "편도" },
-            { "label": "지프니·하발하발", "price": "약 ₱50~150", "note": "편도" },
+            { "label": "짧은 집라인(320m+150m)", "price": "약 ₱250", "note": "가족용 연습 코스" },
+            { "label": "마운틴 코스터·드롭존", "price": "약 ₱400~750", "note": "기구당, 2회·2인 요금 포함" },
+            {
+              "label": "포레스트 파크 입장·놀이 시설",
+              "price": "약 ₱150~900",
+              "note": "입장료 ₱150, 루지 2회 ₱650, 기구 패키지 ₱900"
+            },
+            { "label": "CDO–캠프 필립스 밴·지프니", "price": "약 ₱60~100", "note": "편도" },
+            { "label": "하발하발(캠프 필립스–다힐라얀)", "price": "약 ₱200~300", "note": "편도, 1인" },
             { "label": "차량 전세", "price": "약 ₱3,000~4,500", "note": "하루, 기사 포함" },
             { "label": "숙박", "price": "약 ₱2,000~6,000", "note": "롯지·캐빈 1박" }
           ]
@@ -487,7 +571,7 @@
             {
               "children": [
                 {
-                  "text": "집라인과 드롭존에는 체중 제한(대략 최소 30~40kg, 최대 100~120kg)과 나이 제한이 있습니다. 가족 중 아이가 있다면 현장에서 조건을 먼저 확인하는 것이 좋습니다."
+                  "text": "집라인에는 체중·키 제한이 있습니다. 840m 집라인은 체중 40~75kg, 키 약 122cm(4피트) 이상이어야 탈 수 있어 체중이 75kg을 넘으면 이용할 수 없습니다. 가족 중 아이가 있다면 현장에서 조건을 먼저 확인하는 것이 좋습니다."
                 }
               ]
             },
@@ -516,6 +600,23 @@
                 { "text": "사진은 " },
                 { "type": "time", "text": "오전 9시" },
                 { "text": " 전 햇살이 소나무 사이로 비칠 때, 또는 오후 안개가 낄 때 분위기가 가장 좋습니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "기구별 요금과 운영 공지는 어드벤처 파크 " },
+                {
+                  "type": "link",
+                  "text": "공식 사이트",
+                  "url": "https://www.dahilayanadventurepark.com/"
+                },
+                { "text": ", 포레스트 파크 요금은 " },
+                {
+                  "type": "link",
+                  "text": "포레스트 파크 공식 사이트",
+                  "url": "https://www.dahilayanforestpark.com/"
+                },
+                { "text": "에서 확인할 수 있습니다." }
               ]
             }
           ]

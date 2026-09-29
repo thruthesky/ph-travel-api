@@ -36,7 +36,7 @@
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.2, "max": 5 },
   "latitude": { "type": "latitude", "label": "Latitude", "value": 14.1314 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.4148 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.4147 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -252,6 +252,20 @@
                   "text": "The neighboring town of Liliw is known for handmade sandals and slippers. Shops line the main street, making it easy to pick up cheap, sturdy footwear as a souvenir."
                 }
               ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "The newly refurbished museum exhibition hall",
+              "children": [
+                {
+                  "text": "The National Historical Commission of the Philippines renovated the cemetery and museum and reopened them in "
+                },
+                { "type": "date", "text": "December 2025" },
+                {
+                  "text": ". The new exhibition hall covers the cemetery's history, excavated artifacts, the restoration process, and Philippine funeral culture, so stopping there before touring the grounds deepens your understanding."
+                }
+              ]
             }
           ]
         }
@@ -316,6 +330,49 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Half-day route",
+              "subtitle": "Cemetery and church only, by private car",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [{ "text": "Leave Manila and take the SLEX toward San Pablo" }]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        { "text": "Arrive at Nagcarlan and see the museum exhibition hall first" }
+                      ]
+                    },
+                    {
+                      "time": "09:30",
+                      "children": [
+                        {
+                          "text": "Photograph the front gate arch, then look around the chapel, the underground ossuary, and the niche tombs"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [{ "text": "Explore San Bartolome Church in town" }]
+                    },
+                    {
+                      "time": "11:30",
+                      "children": [{ "text": "Lunch in San Pablo and buy buko pie" }]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        { "text": "Head back to Manila, arriving in the late afternoon" }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -347,6 +404,15 @@
                         { "text": ", for around " },
                         { "type": "price", "text": "₱180–250" },
                         { "text": " one way." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Buses to Lucena by DLTB, JAC Liner, and JAM Liner leave frequently from Cubao, Buendia, and PITX. Just tell the conductor you're getting off at \"SM San Pablo,\" and since provincial bus fares rose per km from "
+                        },
+                        { "type": "date", "text": "September 28, 2026" },
+                        { "text": ", the fare may be slightly higher." }
                       ]
                     },
                     {
@@ -461,6 +527,29 @@
             {
               "text": "), liturgies and visitors create a special atmosphere, but the visiting route may be restricted or hours may change. For a quiet visit, weekday mornings are best; check the NHCP museum's official page for the latest notices before you go."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, around 20℃ in the mornings and evenings",
+              "Comfortable driving — crowds of visitors on November 1–2"
+            ],
+            [
+              "March–May",
+              "Dry season, little rain",
+              "Good for waterfall and village walks — Holy Week liturgies and crowds of visitors"
+            ],
+            [
+              "June–October",
+              "Rainy season, frequent afternoon rain",
+              "Stairs and brick paths are slippery — avoid Bunga Falls after heavy rain"
+            ]
           ]
         }
       ]
@@ -610,6 +699,19 @@
                 {
                   "text": "Many shops and tricycles in town take cash only. Bring plenty of small bills."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Opening hours, temporary closures, and Holy Week liturgy schedules are posted first on the museum's "
+                },
+                {
+                  "type": "link",
+                  "text": "official Facebook page",
+                  "url": "https://www.facebook.com/mlilnofficial/"
+                },
+                { "text": ". Check it once the day before your visit." }
               ]
             }
           ]

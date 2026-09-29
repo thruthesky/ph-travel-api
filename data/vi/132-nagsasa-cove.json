@@ -339,6 +339,65 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Lịch trình hopping đảo trong ngày",
+              "subtitle": "Trường hợp ở resort Pundaquit",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00",
+                      "children": [
+                        { "text": "Nộp phí môi trường tại bãi biển Pundaquit rồi thuyền xuất phát" }
+                      ]
+                    },
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Đến Nagsasa, nộp phí vào cửa rồi đi dạo quanh đầm phá và bãi biển"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "07:30–08:30",
+                      "children": [{ "text": "Leo lên đồi ngắm cảnh để ngắm toàn cảnh vịnh" }]
+                    },
+                    {
+                      "time": "09:30",
+                      "children": [
+                        { "text": "Rời Nagsasa, xuống vịnh Anawangin nghỉ chân một lát" }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        { "text": "Ghé cồn cát đảo Camara và ngọn hải đăng đảo Capones" }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [
+                        { "text": "Quay lại Pundaquit trước khi sóng lớn hơn, tắm rửa rồi ăn trưa" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Vào những ngày mưa hoặc sóng cao khiến không thể hopping đảo, bạn có thể thay thế bằng việc nếm xoài và hải sản ở chợ San Antonio, học lướt ván trượt (skimboarding) ở bãi biển Pundaquit, hoặc tận hưởng không khí lướt sóng ở "
+                    },
+                    { "type": "place_link", "text": "Liwliwa", "slug": "liwliwa" },
+                    { "text": ", cách khoảng " },
+                    { "type": "duration", "text": "30–40 phút" },
+                    { "text": " đi xe." }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -370,6 +429,17 @@
                         { "text": ", giá vé khoảng " },
                         { "type": "price", "text": "₱450~550" },
                         { "text": " một chiều. Cũng có thể đổi xe tại Olongapo." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Ngoài Victory Liner, Cisco Bus Co. cũng chạy tuyến Pasay – Santa Cruz đi qua San Antonio. Kể từ "
+                        },
+                        { "type": "date", "text": "ngày 28 tháng 9 năm 2026" },
+                        {
+                          "text": ", giá xe buýt tỉnh tăng theo km và đôi khi có thêm phụ phí nhiên liệu, nên khi mua vé hãy kiểm tra giá thực tế."
+                        }
                       ]
                     }
                   ]
@@ -514,6 +584,39 @@
               "text": ", khả năng cao bạn sẽ được tận hưởng cả thác nước dồi dào lẫn biển êm đềm. Ngay sau khi bão đi qua, đôi khi cây trôi dạt và rác cũng chất đống trên bãi biển."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Theo thống kê của văn phòng du lịch San Antonio, trong Tuần Thánh " },
+            { "type": "date", "text": "năm 2026" },
+            {
+              "text": " hơn 40.000 người đã đổ về San Antonio, trong đó khoảng 28.000 người tập trung ở Pundaquit — nơi thuyền xuất phát. Vào những thời điểm như vậy, thuyền và chỗ cắm trại không đủ, nên tốt nhất hãy đặt trước hoặc tránh ngày đó."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, đêm tháng 12–2 khoảng 20℃",
+              "Cắm trại lều dễ chịu — tháng 11 có thác nước và biển lặng"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, nước ấm",
+              "Biển lặng nhất — đông đúc vào Tuần Thánh và cuối tuần kỳ nghỉ hè"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió mùa tây nam (Habagat)",
+              "Sóng cao nên thường hạn chế thuyền chạy, đi bộ đường dài nguy hiểm"
+            ]
+          ]
         }
       ]
     },
@@ -560,7 +663,7 @@
             },
             {
               "label": "Thuê lều · nhà tranh",
-              "price": "Khoảng ₱500–1,500",
+              "price": "Khoảng ₱300–1,500",
               "note": "Tính theo đêm, tùy kích thước và tiện nghi"
             },
             {
@@ -686,6 +789,15 @@
                   "text": "Nếu lỡ chuyến xe buýt đầu tiên vào rạng sáng, bạn sẽ đến Pundaquit muộn, và buổi chiều sóng cao có thể khiến thuyền khó xuất phát. Đến San Antonio hoặc Pundaquit từ tối hôm trước, nghỉ lại một đêm rồi khởi hành sớm vào sáng hôm sau cũng là cách hay."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "Có nhiều nơi cần tiền lẻ, như phí đường mòn lên đồi ngắm cảnh (khoảng " },
+                { "type": "price", "text": "₱20" },
+                { "text": "/người) và phí nhà tắm dùng khi quay về Pundaquit (khoảng " },
+                { "type": "price", "text": "₱20–50" },
+                { "text": "/người). Hãy chuẩn bị nhiều tờ 20 peso và 50 peso." }
+              ]
             }
           ]
         }
@@ -744,6 +856,15 @@
               "children": [
                 {
                   "text": "Đã có trường hợp mất đồ tại khu cắm trại. Hãy giữ đồ có giá trị bên người hoặc không mang theo."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Vào " },
+                { "text": "tháng 3 năm 2026", "type": "date" },
+                {
+                  "text": ", hai người leo núi đã kiệt sức và mất nước không thể di chuyển trên đường núi gần Anawangin và được Lực lượng Tuần duyên cứu. Khi lên đồi hoặc núi xung quanh, hãy mang đủ nước và đồ ăn nhẹ và tránh giữa trưa."
                 }
               ]
             }

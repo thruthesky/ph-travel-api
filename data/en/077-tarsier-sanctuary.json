@@ -34,8 +34,8 @@
     "items": ["Tarsiers", "Wildlife", "Forest trail", "Ecotourism", "Family trip"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.6979 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.9606 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.6915 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.9526 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -444,6 +444,34 @@
             { "type": "date", "text": "October–December" },
             { "text": " can still bring heavy rain from low-pressure systems." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, forest paths dry",
+              "Observable year-round — visiting 9–11 AM is recommended"
+            ],
+            [
+              "March–May",
+              "Dry season, clear skies",
+              "Most pleasant — avoid the tour groups around lunchtime"
+            ],
+            [
+              "June–September",
+              "Rainy season",
+              "Forest paths slippery and lots of mosquitoes — viewing suspended in heavy rain"
+            ],
+            [
+              "October–November",
+              "Rainy season, heavy rain possible from low pressure",
+              "Forest paths slippery — viewing may be temporarily suspended"
+            ]
+          ]
         }
       ]
     },
@@ -460,8 +488,8 @@
           "items": [
             {
               "label": "Sanctuary entrance fee",
-              "price": "About ₱100–150",
-              "note": "Student/senior discounts; check the latest rates"
+              "price": "About ₱150",
+              "note": "Students and seniors ₱120, free under age 8, check the latest fees"
             },
             {
               "label": "Tagbilaran → Corella (jeepney)",
@@ -566,6 +594,17 @@
               "children": [
                 {
                   "text": "A countryside tour driver might steer you to a different roadside facility, claiming it's cheaper. If animal welfare matters to you, ask for the foundation-run sanctuary."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Operating hours are generally " },
+                { "type": "time", "text": "9:00 AM to 4:00 PM" },
+                { "text": ", with last entry around " },
+                { "type": "time", "text": "3:30 PM" },
+                {
+                  "text": ". If you put it as the last stop of a countryside tour, it's easy to miss entry time, so drop by in the morning."
                 }
               ]
             }

@@ -344,6 +344,60 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Mariveles joining tour (departing from Villa Carmen)",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:30",
+                      "children": [
+                        {
+                          "text": "Arrive at Villa Carmen Pools and Beach in Mountain View, Mariveles, and register after showing ID"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "The morning tour boat departs, arriving at Corregidor about " },
+                        { "type": "duration", "text": "20 minutes" },
+                        { "text": " later" }
+                      ]
+                    },
+                    {
+                      "time": "08:30–12:30",
+                      "children": [
+                        {
+                          "text": "Tram tour — Bottomside, Mile Long Barracks, Battery Way and Hearn, the Pacific War Memorial, and Malinta Tunnel"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:50",
+                      "children": [
+                        {
+                          "text": "Return to Villa Carmen, have a late lunch at the resort, then depart for Manila"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "The noon tour departs at " },
+                    { "type": "time", "text": "11:00" },
+                    { "text": " and returns at " },
+                    { "type": "time", "text": "15:50" },
+                    {
+                      "text": ", so it works well for joining on a same-day trip from Manila by taking an early-morning bus. There is nowhere on the island to buy food or drinks, so bring water and snacks on board."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -371,6 +425,40 @@
                     { "type": "date", "text": "2026" },
                     {
                       "text": " there is effectively no scheduled ferry from Manila to the island. Most visits now use boats run by tour operators departing from Mariveles, Bataan. Since service arrangements change often, be sure to check the latest announcements from the Corregidor Foundation or tour operators before booking."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The most common departure point is Villa Carmen Pools and Beach in Mountain View, Mariveles. There is a morning tour (departs "
+                    },
+                    { "type": "time", "text": "08:00" },
+                    { "text": ", returns " },
+                    { "type": "time", "text": "13:50" },
+                    { "text": ") and a noon tour (departs " },
+                    { "type": "time", "text": "11:00" },
+                    { "text": ", returns " },
+                    { "type": "time", "text": "15:50" },
+                    {
+                      "text": "), and the boat, life jackets, admission, and tram tour are included. Seats are limited, so it is best to book at least "
+                    },
+                    { "type": "duration", "text": "3–5 days" },
+                    { "text": " in advance. You can book on the " },
+                    {
+                      "type": "link",
+                      "text": "Villa Carmen Corregidor tour booking site",
+                      "url": "https://www.corregidortours.com/"
+                    },
+                    { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Some travel agencies also recruit for ferry tours that go directly to Corregidor from a pier near the CCP (Cultural Center of the Philippines) in Pasay, Manila, but only on certain dates. Since this is not a regular route, check the departure date, inclusions, and vessel carefully before booking."
                     }
                   ]
                 }
@@ -416,6 +504,26 @@
                     { "text": " tricycle ride, costing " },
                     { "type": "price", "text": "₱50–150" },
                     { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "From the Pasay terminal, Genesis and Bataan Transit buses run to Mariveles about every "
+                    },
+                    { "type": "duration", "text": "20 minutes" },
+                    { "text": " from " },
+                    { "type": "time", "text": "1 AM" },
+                    { "text": " to " },
+                    { "type": "time", "text": "7:30 PM" },
+                    { "text": ", with a fare of about " },
+                    { "type": "price", "text": "₱300–350" },
+                    { "text": " and a travel time of about " },
+                    { "type": "duration", "text": "3 hours 20 minutes" },
+                    {
+                      "text": " when traffic is smooth. Schedules change often, so check the bus company's announcements before departing."
+                    }
                   ]
                 }
               ]
@@ -502,6 +610,25 @@
             {
               "text": ", the anniversary of the fall of Corregidor, veteran memorial events are also held."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            ["December–March", "Dry season, calm and cool seas", "Best time for walking the ruins"],
+            [
+              "April–May",
+              "Dry season, very hot with little shade",
+              "Hat and water essential — April 9 Day of Valor events"
+            ],
+            [
+              "June–November",
+              "Rainy season, rough seas from the southwest monsoon",
+              "Frequent boat cancellations — keep your schedule flexible"
+            ]
           ]
         }
       ]
@@ -662,6 +789,17 @@
                   "text": "Sit near the front of the tram if you want to hear the guide's commentary clearly."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Tours departing from Villa Carmen have non-refundable deposits, and the date can be changed only until "
+                },
+                { "type": "duration", "text": "96 hours" },
+                {
+                  "text": " before the tour. Payment can be made by cash, GCash, bank transfer, and so on. If sailing is canceled because of bad weather such as a typhoon, the schedule is adjusted."
+                }
+              ]
             }
           ]
         }
@@ -740,6 +878,7 @@
             {
               "type": "card",
               "title": "Mount Samat Shrine of Valor, Bataan",
+              "place": "mount-samat",
               "children": [
                 { "text": "About " },
                 { "type": "duration", "text": "40 minutes" },

@@ -29,8 +29,8 @@
     "items": ["Công viên địa chất", "Đài quan sát", "Xe ATV", "Tour vùng quê", "Điểm check-in"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.7, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.8297 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 124.1397 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.7988 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 124.1673 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -208,10 +208,10 @@
             {
               "type": "card",
               "number": 4,
-              "title": "Ngắm từ góc khác ở đỉnh Sagbayan",
+              "title": "Phong cảnh đồi trên đường nội địa Loay",
               "children": [
                 {
-                  "text": "Đỉnh Sagbayan (Sagbayan Peak) ở phía bắc tuy quy mô nhỏ hơn nhưng ít đông đúc và có nhà hàng cùng khu vui chơi, rất hợp cho gia đình có trẻ nhỏ."
+                  "text": "Ở cuối đường nội địa Loay (Loay Interior Road) đi qua Bilar rồi nối đến Carmen, những ngọn đồi áp sát hai bên đường. Nếu thuê xe, hãy dừng chốc lát ở chỗ lề đường an toàn để chụp cảnh đồi ở tầm mắt khác với đài quan sát."
                 }
               ]
             },
@@ -292,10 +292,7 @@
                       "time": "14:00–15:30",
                       "children": [{ "text": "Đài quan sát Đồi Chocolate và trải nghiệm ATV" }]
                     },
-                    {
-                      "time": "17:00",
-                      "children": [{ "text": "Khoảng giờ này: quay về nơi lưu trú" }]
-                    }
+                    { "time": "17:00", "children": [{ "text": "Về lại nơi lưu trú" }] }
                   ]
                 }
               ]
@@ -464,6 +461,35 @@
               "text": ", lễ hội Sandugo (Sandugo Festival) diễn ra khắp Bohol khiến Tagbilaran rất đông đúc."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            ["Tháng 1", "Hậu quả của mùa mưa, đồi xanh", "Đồi xanh cũng đẹp và ảnh rõ nét"],
+            [
+              "Tháng 2–tháng 3",
+              "Mùa khô, đồi chuyển sang màu nâu",
+              "Từ cuối tháng 2 có màu sô-cô-la — nên đến sớm buổi sáng"
+            ],
+            [
+              "Tháng 4–tháng 5",
+              "Mùa khô, ban ngày trên 33 độ",
+              "Màu nâu đậm nhất — nên đến buổi sáng để tránh nóng"
+            ],
+            [
+              "Tháng 6–tháng 9",
+              "Mùa mưa, đồi xanh",
+              "Tagbilaran đông đúc vào khoảng lễ hội Sandugo tuần thứ ba của tháng 7"
+            ],
+            [
+              "Tháng 10–tháng 12",
+              "Mùa mưa, áp thấp và mưa lớn",
+              "Đường núi trơn và đường ATV lầy lội"
+            ]
+          ]
         }
       ]
     },
@@ -617,6 +643,21 @@
                   "text": "Góc chụp được ưa chuộng là nhìn xuống các ngọn đồi từ giữa bậc thang, và cảnh đồi phía sau ruộng lúa trên tuyến ATV."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "Khu đài quan sát thường mở cửa lúc " },
+                { "type": "time", "text": "8 giờ sáng–5 giờ 30 chiều" },
+                { "text": ". Từ " },
+                { "type": "date", "text": "1 tháng 10 năm 2025" },
+                { "text": ", vé vào cửa tăng lên " },
+                { "type": "price", "text": "₱150" },
+                { "text": " cho người lớn không cư trú ở Bohol, " },
+                { "type": "price", "text": "₱75" },
+                {
+                  "text": " cho cư dân Bohol và trẻ em 6–12 tuổi, trẻ 5 tuổi trở xuống miễn phí, và chỉ nhận tiền mặt."
+                }
+              ]
             }
           ]
         }
@@ -668,6 +709,24 @@
               "children": [
                 {
                   "text": "Nắng giữa trưa rất gắt nên nhất định phải mang theo nước, kem chống nắng và mũ."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Đài quan sát Sagbayan Peak ở phía bắc đã đóng cửa từ khoảng " },
+                { "type": "date", "text": "tháng 4 năm 2025" },
+                {
+                  "text": " do vi phạm quy định vận hành thương mại. Dù có trong các hướng dẫn tour hoặc bản đồ cũ, hãy kiểm tra xem đã mở lại chưa trước khi đến."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Vào mùa khô, cỏ trên đồi khô giòn nên vào " },
+                { "type": "date", "text": "tháng 4 năm 2024" },
+                {
+                  "text": " từng có cháy cỏ ở hai ngọn đồi. Tuyệt đối không vứt tàn thuốc hay tàn lửa ở đài quan sát và đường ATV."
                 }
               ]
             }

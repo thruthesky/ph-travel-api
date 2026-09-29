@@ -328,6 +328,62 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Rainy and foggy day course",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00–08:30",
+                      "children": [
+                        {
+                          "text": "Check the view from a ridge cafe in the early morning before the fog thickens"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [
+                        {
+                          "text": "Spend some quiet time in the chapel of the Pink Sisters Convent"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:30",
+                      "children": [
+                        { "text": "Warm bulalo lunch at a restaurant around Mahogany Market" }
+                      ]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [
+                        {
+                          "text": "Spend the afternoon at a garden restaurant or indoor cafe with buko pie and Tagaytay coffee"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "15:30",
+                      "children": [
+                        {
+                          "text": "Souvenir shopping at a mall near the Rotonda or at a pasalubong shop, then head home early"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The fog on the ridge often thickens toward the afternoon, so on days with a rain forecast it is better to pack your sightseeing into the morning and fill the afternoon with indoor plans. The ziplines and Ferris wheel at Sky Ranch and Picnic Grove stop running in strong winds or lightning."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -409,12 +465,12 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Jeepneys run along the ridge road, with a base fare of about " },
-                    { "type": "price", "text": "₱13–20" },
-                    { "text": ". For short distances, take a tricycle (about " },
+                    { "text": "Jeepneys run along the ridge road with a base fare of about " },
+                    { "type": "price", "text": "₱14–20" },
+                    { "text": ". For short distances use a tricycle (about " },
                     { "type": "price", "text": "₱50–150" },
                     {
-                      "text": ", negotiable), and for touring several sights, an hourly tricycle charter (about "
+                      "text": ", negotiable), and if you want to visit several attractions, chartering a tricycle by the hour (about "
                     },
                     { "type": "price", "text": "₱300–500" },
                     { "text": " per hour) is convenient." }
@@ -466,6 +522,29 @@
               "text": ", the Philippine Institute of Volcanology and Seismology (PHIVOLCS) maintains Alert Level 1 (low-level unrest), with occasional minor steam explosions. If the alert level rises or volcanic gas (vog) thickens, those with respiratory conditions and young children should postpone their visit."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, 17–20°C in the morning (December–February)",
+              "Clear volcano views — bring long sleeves"
+            ],
+            [
+              "March–May",
+              "Dry season, 28–30°C at midday",
+              "Crowded with Manila residents escaping the heat"
+            ],
+            [
+              "June–October",
+              "Rainy season, afternoon rain and thick fog",
+              "Many days with no view — go early in the morning"
+            ]
+          ]
         }
       ]
     },
@@ -494,6 +573,11 @@
               "label": "Sky Ranch admission",
               "price": "About ₱120–150",
               "note": "Rides separate, or all-day pass"
+            },
+            {
+              "label": "Sky Eye Ferris wheel",
+              "price": "About ₱200",
+              "note": "Per ride, Sky Ranch admission separate"
             },
             { "label": "People's Park admission", "price": "About ₱30–50" },
             {
@@ -622,6 +706,23 @@
                   "text": "Popular restaurants can have long waits at weekend lunch, so an online reservation is worthwhile."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "Operating hours are " },
+                { "type": "time", "text": "06:00–22:00" },
+                { "text": " for Picnic Grove, " },
+                { "type": "time", "text": "06:00–19:00" },
+                { "text": " for People's Park in the Sky, and " },
+                { "type": "time", "text": "10:00–20:00" },
+                { "text": " on weekdays and " },
+                { "type": "time", "text": "08:00–21:00" },
+                {
+                  "text": " on weekends and holidays for Sky Ranch. Sky Ranch unlimited-ride passes are cheaper booked online than on site, but the "
+                },
+                { "type": "price", "text": "₱120" },
+                { "text": " admission fee is paid separately." }
+              ]
             }
           ]
         }
@@ -671,6 +772,23 @@
                 {
                   "text": "During the rainy season and typhoon period, landslides and fallen trees can block roads, so check the weather forecast."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The Philippine Institute of Volcanology and Seismology (PHIVOLCS) is still keeping Taal Volcano at Alert Level 1 as of "
+                },
+                { "type": "date", "text": "September 2026" },
+                {
+                  "text": ", recording steam emissions and volcanic earthquakes. Level 1 does not mean the risk of eruption has disappeared, so check the daily volcano bulletin on the "
+                },
+                {
+                  "type": "link",
+                  "text": "official PHIVOLCS website",
+                  "url": "https://www.phivolcs.dost.gov.ph/"
+                },
+                { "text": "." }
               ]
             }
           ]

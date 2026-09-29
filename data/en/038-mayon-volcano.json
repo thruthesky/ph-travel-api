@@ -412,13 +412,17 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Buses to Legazpi depart daily from Cubao, Pasay, and PITX terminals in Manila. Several companies, including DLTB and Philtranco, operate the route, taking about "
+                      "text": "Buses to Legazpi depart daily from the Cubao, Pasay, and PITX terminals in Manila. Several companies such as DLTB and Raymond run them, taking about "
                     },
-                    { "type": "duration", "text": "10–12 hours" },
-                    { "text": ", with fares of roughly " },
-                    { "type": "price", "text": "₱1,000–1,800" },
+                    { "type": "duration", "text": "12–13 hours" },
+                    { "text": ", and fares are about " },
+                    { "type": "price", "text": "₱1,500–1,800" },
                     {
-                      "text": " depending on class. An overnight bus gets you to Legazpi by morning."
+                      "text": " depending on class. Buses arrive at the Legazpi Grand Central Terminal. Philtranco, which ran this route for a long time, stopped operating from "
+                    },
+                    { "type": "date", "text": "March 30, 2026" },
+                    {
+                      "text": ", so don't go by old guides. If you take a night bus, you arrive in Legazpi in the morning."
                     }
                   ]
                 }
@@ -503,6 +507,34 @@
             { "type": "date", "text": "August" },
             { "text": ", both featuring street parades and performances." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "January",
+              "Bicol tends to have rain year-round",
+              "Viewing Mayon is better from February — check the forecast"
+            ],
+            [
+              "February–May",
+              "Dry season, little rain and clear skies",
+              "Summit clearly visible in early morning in March–April — Magayon Festival in April–May"
+            ],
+            [
+              "June–August",
+              "Typhoons and northeast monsoon, frequent rain",
+              "ATV suspended when lahar risk is high — Ibalong Festival in August"
+            ],
+            [
+              "September–December",
+              "Strong typhoons come often",
+              "ATV tours may be suspended due to lahar risk"
+            ]
+          ]
         }
       ]
     },
@@ -524,8 +556,8 @@
             },
             {
               "label": "Manila–Legazpi bus",
-              "price": "About ₱1,000–1,800",
-              "note": "One-way, about 10–12 hours"
+              "price": "About ₱1,500–1,800",
+              "note": "One way, about 12–13 hours"
             },
             {
               "label": "ATV tour",
@@ -711,6 +743,21 @@
                 {
                   "text": "), flights and buses can be canceled, so build extra time into your schedule."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "The alert level is Level 2 as of " },
+                { "text": "September 2026", "type": "date" },
+                {
+                  "text": ", but sulfur dioxide emissions have increased again and weak eruptions have been observed at the summit, so it could rise to Level 3 at any time. Check the latest bulletin on the "
+                },
+                {
+                  "text": "official PHIVOLCS website",
+                  "type": "link",
+                  "url": "https://www.phivolcs.dost.gov.ph/"
+                },
+                { "text": " right before you set off." }
               ]
             }
           ]

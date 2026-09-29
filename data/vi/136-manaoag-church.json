@@ -489,6 +489,34 @@
               "text": " và lễ kính Đức Mẹ vào mùa Phục Sinh, người hành hương từ khắp nước đổ về khiến đường quanh nhà thờ tắc nghẽn nghiêm trọng. Nếu muốn cầu nguyện yên tĩnh, hãy đi vào sáng ngày thường; nếu muốn cảm nhận không khí lễ hội, hãy đi đúng dịp lễ nhưng chuẩn bị tinh thần cho việc kẹt xe."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, ít mưa",
+              "Di chuyển thuận tiện — khách hành hương đông vào Chủ nhật đầu tiên của năm mới"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Cuối mùa khô, giữa trưa khoảng 35℃",
+              "Hành hương từ sáng sớm — đông đúc vào Tuần Thánh và các lễ Đức Mẹ dịp Phục Sinh"
+            ],
+            [
+              "Tháng 6 – tháng 9",
+              "Mùa mưa, gió mùa tây nam và bão",
+              "Khi mưa lớn, đường có thể bị ngập và xe buýt trễ giờ"
+            ],
+            [
+              "Tháng 10",
+              "Mùa mưa, tháng Mân Côi",
+              "Lễ kính quanh Chủ nhật đầu tháng — khách hành hương đổ về khiến đường cực kỳ đông"
+            ]
+          ]
         }
       ]
     },
@@ -617,9 +645,13 @@
             },
             {
               "children": [
+                { "text": "Hãy kiểm tra trước giờ lễ và lịch các ngày lễ kính trên " },
                 {
-                  "text": "Hãy kiểm tra trước giờ lễ và lịch các ngày lễ trên trang web chính thức hoặc thông báo Facebook của nhà thờ."
-                }
+                  "type": "link",
+                  "text": "trang web chính thức",
+                  "url": "https://www.manaoagminorbasilica.org/"
+                },
+                { "text": " của nhà thờ hoặc trên thông báo Facebook." }
               ]
             },
             {

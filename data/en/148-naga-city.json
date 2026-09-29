@@ -426,13 +426,13 @@
                     {
                       "children": [
                         {
-                          "text": "Buses to Naga run daily from Manila's PITX, Cubao, and Pasay terminals, operated by companies including DLTB, Peñafrancia, and Isarog. The road distance is about "
+                          "text": "Naga-bound buses from several companies, including DLTB, Peñafrancia, and Isarog, run daily from PITX, Cubao, and Pasay in Manila. The road distance is about "
                         },
-                        { "type": "distance", "text": "445km" },
-                        { "text": ", taking around " },
+                        { "type": "distance", "text": "390km" },
+                        { "text": ", it takes about " },
                         { "type": "duration", "text": "8–10 hours" },
-                        { "text": ", with fares around " },
-                        { "type": "price", "text": "₱900–1,500" },
+                        { "text": ", and the fare is about " },
+                        { "type": "price", "text": "₱1,000–1,800" },
                         { "text": " depending on class." }
                       ]
                     },
@@ -459,14 +459,16 @@
                   "items": [
                     {
                       "children": [
+                        { "text": "Since " },
+                        { "text": "March 29, 2026", "type": "date" },
                         {
-                          "text": "Cebu Pacific-affiliated flights from Manila to Naga Airport (WNP) in Pili take about "
+                          "text": " there have been no direct Manila–Naga flights. Cebgo, part of the Cebu Pacific group, flies to Naga Airport (WNP) in Pili from Clark, taking about "
                         },
-                        { "type": "duration", "text": "1 hour" },
-                        { "text": ", with one-way fares around " },
-                        { "type": "price", "text": "₱2,000–5,000" },
+                        { "text": "1 hour 20 minutes", "type": "duration" },
+                        { "text": ", and the one-way fare is about " },
+                        { "text": "₱2,000–5,000", "type": "price" },
                         {
-                          "text": " depending on the season. Flights aren't frequent and sell out early, so check the current schedule."
+                          "text": " depending on the period. Flights are few and sell out early, so check the latest schedule."
                         }
                       ]
                     },
@@ -515,6 +517,44 @@
                         },
                         { "type": "price", "text": "₱20–40" },
                         { "text": "), then transfer to a tricycle or motorcycle taxi." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Train",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "The Philippine National Railways (PNR) Bicol Commuter train runs several times a day from Naga station to Sipocot, taking about "
+                        },
+                        { "type": "duration", "text": "45 minutes" },
+                        {
+                          "text": ". The fare is cheap, so it's worth riding as a short train-trip experience."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "The Naga–Legazpi section stopped running when Typhoon Uwan (Fung-wong) in "
+                        },
+                        { "type": "date", "text": "November 2025" },
+                        {
+                          "text": " destroyed a railway bridge in Guinobatan, Albay, and it had not reopened even as of "
+                        },
+                        { "type": "date", "text": "July 2026" },
+                        {
+                          "text": ". Use a van or bus to Legazpi, and check PNR notices for whether service has resumed."
+                        }
                       ]
                     }
                   ]
@@ -603,6 +643,29 @@
             { "type": "date", "text": "December" },
             { "text": ", the Kamundagan Christmas festival lights up downtown." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–January",
+              "Northeast monsoon, cloudy with frequent rain",
+              "December Christmas festival Kamundagan — decorative lights around the city"
+            ],
+            [
+              "February–May",
+              "Relatively dry, 32–34℃ in April–May",
+              "Waterfalls and mountain trails less slippery — quite hot in April–May"
+            ],
+            [
+              "June–October",
+              "Frequent rain, typhoon season from August",
+              "September Peñafrancia Festival — accommodation sells out months ahead"
+            ]
+          ]
         }
       ]
     },
@@ -619,11 +682,11 @@
           "items": [
             {
               "label": "Manila–Naga bus",
-              "price": "About ₱900–1,500 one-way",
+              "price": "About ₱1,000–1,800 one way",
               "note": "By regular to sleeper class"
             },
             {
-              "label": "Manila–Naga flight",
+              "label": "Clark–Naga flight",
               "price": "About ₱2,000–5,000 one-way",
               "note": "Few flights, varies by season"
             },
@@ -758,7 +821,11 @@
             {
               "children": [
                 {
-                  "text": "If you're heading to Caramoan, you'll need the first van to Sabang Port to catch the morning boat, so spend a night in Naga and set off before dawn."
+                  "text": "If you plan to go to Caramoan, stay a night in Naga and set out at dawn. In "
+                },
+                { "type": "date", "text": "2026" },
+                {
+                  "text": " there were reports that scheduled boats from Sabang Port to Guijalo don't run often because of rising fuel costs, so it's safer to check ahead whether boats are running, or take a bus or van that goes overland to Caramoan."
                 }
               ]
             },
@@ -774,6 +841,19 @@
                 {
                   "text": "ATMs are plentiful at downtown malls and banks, but jeepneys, tricycles, and small eateries accept cash only."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "You can check festival schedules, traffic closures, and attraction information on the City of Naga tourism "
+                },
+                {
+                  "type": "link",
+                  "text": "official website",
+                  "url": "https://tourism.naga.gov.ph/"
+                },
+                { "text": "." }
               ]
             }
           ]

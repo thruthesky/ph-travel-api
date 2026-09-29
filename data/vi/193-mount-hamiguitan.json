@@ -41,8 +41,8 @@
     "type": "date",
     "label": "Thời điểm lý tưởng",
     "icon": "calendar_month",
-    "text": "Tháng 3 – Tháng 9 (mùa tương đối ít mưa)",
-    "months": [3, 4, 5, 6, 7, 8, 9]
+    "text": "Tháng 3 - tháng 6 (tháng 7 - tháng 9 là thời kỳ nghỉ hằng năm, cấm vào núi)",
+    "months": [3, 4, 5, 6]
   },
   "duration": {
     "type": "duration",
@@ -397,6 +397,16 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Sân bay Mati gần San Isidro đang được thi công mở rộng nhà ga hành khách và đường băng, và Bộ Giao thông đặt mục tiêu khai thác chuyến bay định kỳ bằng máy bay cánh quạt nhỏ vào khoảng "
+                    },
+                    { "type": "date", "text": "năm 2027" },
+                    { "text": ". Trước đó, bạn đi qua sân bay Davao rồi di chuyển bằng đường bộ." }
+                  ]
                 }
               ]
             },
@@ -410,10 +420,12 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "Từ DCOTT, xe buýt máy lạnh hoặc xe van đi Mati mất khoảng " },
-                        { "type": "duration", "text": "4~5 giờ" },
-                        { "text": " qua Tagum, giá khoảng " },
-                        { "type": "price", "text": "₱300~450" },
+                        {
+                          "text": "Từ DCOTT đi xe buýt máy lạnh hoặc xe van đến Mati qua Tagum mất khoảng "
+                        },
+                        { "type": "duration", "text": "4–5 giờ" },
+                        { "text": ", vé khoảng " },
+                        { "type": "price", "text": "₱390–450" },
                         { "text": "." }
                       ]
                     },
@@ -499,34 +511,61 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Hamiguitan nằm hơi lệch khỏi đường đi của bão, nhưng vì là rừng mây trên núi nên mưa và sương mù thường xuyên quanh năm. Vào "
+              "text": "Hamiguitan hơi lệch khỏi đường đi của bão nhưng là rừng mây trên núi nên quanh năm hay có mưa và sương mù. Vào "
             },
-            { "type": "date", "text": "tháng 11~tháng 2" },
+            { "type": "date", "text": "tháng 11 - tháng 2" },
             {
-              "text": " khi gió mùa đông bắc từ Thái Bình Dương thổi về, mưa nhiều nhất khiến đường mòn lầy lội và nước suối dâng cao, nên bạn nên tránh thời điểm này. "
+              "text": " khi gió mùa đông bắc từ phía Thái Bình Dương thổi, mưa nhiều nhất làm đường mòn lầy lội và nước suối dâng, nên tốt nhất hãy tránh. "
             },
-            { "type": "date", "text": "Tháng 3~tháng 9" },
-            { "text": ", đặc biệt " },
-            { "type": "date", "text": "tháng 3~tháng 5" },
-            { "text": ", tương đối ít mưa là thời điểm tốt nhất để leo núi." }
+            { "type": "date", "text": "Tháng 3 - tháng 6" },
+            { "text": ", khi mưa tương đối ít, đặc biệt là " },
+            { "type": "date", "text": "tháng 3 - tháng 5" },
+            { "text": ", là thời điểm tốt nhất để leo núi." }
           ]
         },
         {
           "type": "paragraph",
           "children": [
-            { "text": "Vùng ven biển dưới chân núi nóng khoảng " },
-            { "type": "temperature", "text": "28~33℃" },
-            { "text": ", nhưng khu trại và gần đỉnh núi ban đêm có thể giảm xuống khoảng " },
-            { "type": "temperature", "text": "14~18℃" },
+            { "text": "Bờ biển dưới chân núi nóng ở mức " },
+            { "type": "temperature", "text": "28–33℃" },
+            { "text": ", nhưng khu cắm trại và gần đỉnh ban đêm xuống khoảng " },
+            { "type": "temperature", "text": "14–18℃" },
             {
-              "text": ", và do gió cùng sương mù nên cảm giác còn lạnh hơn. Khu bảo tồn đôi khi có giai đoạn tạm ngừng leo núi để hệ sinh thái phục hồi, và có thông báo rằng giai đoạn tạm nghỉ dự kiến vào "
+              "text": " và cảm giác còn lạnh hơn vì gió và sương mù. Để phục hồi hệ sinh thái và tu sửa đường mòn, khu bảo tồn hằng năm định "
             },
-            { "type": "date", "text": "năm 2025" },
-            { "text": " đã được dời sang " },
-            { "type": "date", "text": "năm 2026" },
+            { "type": "date", "text": "1 tháng 7 - 30 tháng 9" },
             {
-              "text": ". Khi lên kế hoạch, bạn nhất định phải hỏi văn phòng quản lý xem có đang vận hành hay không."
+              "text": " là thời kỳ nghỉ, cấm mọi hoạt động trekking và du lịch sinh thái, kể cả các lộ trình San Isidro và Governor Generoso. Năm "
+            },
+            { "type": "date", "text": "2025" },
+            { "text": " thời kỳ nghỉ bị lùi lại do kiểm tra cơ sở vật chất và đến năm " },
+            { "type": "date", "text": "2026" },
+            {
+              "text": " lại được thực hiện, nên ở giai đoạn lên kế hoạch, nhất định hãy hỏi văn phòng quản lý xem có hoạt động không."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 10 - tháng 2",
+              "Thường có mưa và sương mù, tháng 11–2 mưa nhiều nhất",
+              "Mở cửa từ tháng 10 sau khi kết thúc thời kỳ nghỉ — tháng 11–2 lầy lội và suối dâng"
+            ],
+            [
+              "Tháng 3 - tháng 6",
+              "Tương đối ít mưa, đỉnh núi ban đêm 14–18℃",
+              "Tốt nhất để leo núi (nhất là tháng 3–5) — hỏi xem có hoạt động không"
+            ],
+            [
+              "Tháng 7 - tháng 9",
+              "Thời kỳ nghỉ hằng năm",
+              "Cấm hoàn toàn vào núi, trekking và du lịch sinh thái"
+            ]
           ]
         }
       ]
@@ -544,8 +583,8 @@
           "items": [
             {
               "label": "Phí tour (giấy phép)",
-              "price": "Khoảng ₱1,500~3,000/người",
-              "note": "Giá cho người ngoài, giảm cho cư dân·trẻ vị thành niên"
+              "price": "Khoảng ₱3,000 mỗi người",
+              "note": "Tính theo 3 ngày 2 đêm, giảm giá cho người địa phương, học sinh và người cao tuổi"
             },
             {
               "label": "Hướng dẫn viên · porter",
@@ -559,7 +598,7 @@
             },
             {
               "label": "Xe buýt · xe van Davao–San Isidro",
-              "price": "Một chiều khoảng ₱400~600",
+              "price": "Khoảng ₱450–600 một chiều",
               "note": "Đã gồm đổi xe ở Mati"
             },
             {
@@ -620,7 +659,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Trên núi không có quầy hàng nên bạn phải mang theo toàn bộ lương thực cho 3 ngày 2 đêm, phần lớn cùng porter chuẩn bị thực đơn từ gạo, đồ hộp và thực phẩm khô. Khu bảo tồn khuyến khích giảm nhựa dùng một lần nên bạn nên chuẩn bị hộp đựng tái sử dụng. Sau khi xuống núi, tại Mati bạn nên thử cá nướng tươi và kinilaw (cá sống ngâm giấm) từ vịnh Pujada, cùng các món chế biến từ dừa — đặc sản của vùng đất giàu dừa này."
+              "text": "Trên núi không có quán nên bạn phải mang theo toàn bộ đồ ăn cho 3 ngày 2 đêm, và phần lớn mọi người cùng người khuân vác chuẩn bị bữa ăn bằng gạo, đồ hộp và thực phẩm sấy khô. Trong khu bảo tồn cấm nhựa dùng một lần và khăn ướt, nên hãy chuẩn bị hộp đựng tái sử dụng và khăn tay. Sau khi xuống núi, ở Mati hãy thưởng thức cá nướng tươi từ vịnh Pujada, kinilaw (cá sống ướp giấm) và các món dừa vì đây là vùng nhiều dừa."
             }
           ]
         }
@@ -745,6 +784,15 @@
               "children": [
                 {
                   "text": "Bạn phải mang về hết rác kể cả thức ăn thừa. Chỉ đốt lửa tại trại ở nơi được cho phép."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Từ " },
+                { "text": "tháng 8 năm 2026", "type": "date" },
+                {
+                  "text": ", trong khu bảo tồn cấm hoàn toàn việc sử dụng nhựa dùng một lần như khăn ướt, chai nhựa, túi ni lông và bao bì dùng một lần. Những thứ này sẽ bị loại ra khi định hướng trước khi leo và kiểm tra hành lý ở lối vào, và nếu vi phạm có thể bị xử phạt theo luật quản lý chất thải và luật khu bảo tồn (ENIPAS)."
                 }
               ]
             }

@@ -36,8 +36,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 15.3942 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 121.423 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 15.388 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 121.3909 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -183,12 +183,12 @@
               "number": 2,
               "title": "Đài ngắm cảnh Mountain View",
               "children": [
-                { "text": "Đây là điểm ngắm cảnh mà bạn đến được sau khi leo khoảng " },
-                { "type": "duration", "text": "30 phút - 1 giờ" },
+                { "text": "Đây là điểm ngắm cảnh, leo khoảng " },
+                { "type": "duration", "text": "30 phút – 1 giờ" },
                 {
-                  "text": " theo triền núi cỏ từ White Beach. Phần lớn những bức ảnh \"Batanes phương Đông\" được chụp tại đây, vé vào cổng khoảng "
+                  "text": " từ White Beach dọc sườn đồi cỏ. Phần lớn ảnh 「Batanes phương Đông」 được chụp tại đây, và phí vào cửa khoảng "
                 },
-                { "type": "price", "text": "₱20" },
+                { "type": "price", "text": "₱30–50" },
                 { "text": "." }
               ]
             },
@@ -405,6 +405,21 @@
                     {
                       "children": [
                         {
+                          "text": "Xe buýt Dingalan Trans ở bến trung tâm Cabanatuan chạy trong khoảng "
+                        },
+                        { "type": "time", "text": "5 giờ sáng – 6 giờ chiều" },
+                        { "text": ", giá vé khoảng " },
+                        { "type": "price", "text": "₱120" },
+                        { "text": " xe có điều hòa và khoảng " },
+                        { "type": "price", "text": "₱100" },
+                        { "text": " xe thường (tính đến " },
+                        { "type": "date", "text": "tháng 1 năm 2026" },
+                        { "text": ")." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
                           "text": "Chuyến xe từ Dingalan đi Cabanatuan thường ngừng chạy khá sớm vào buổi chiều, nên vào ngày về, hãy chắc chắn kiểm tra giờ chuyến cuối tại chỗ."
                         }
                       ]
@@ -564,6 +579,29 @@
             {
               "text": ", và triền núi lên đài ngắm cảnh hầu như không có bóng râm. Nên bắt đầu trekking từ sáng sớm và hoàn thành trước giữa trưa."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Gần như mùa khô nhưng có gió mạnh Amihan",
+              "Sóng cao nên thuyền và hang Lamao bị chặn — hãy đi bộ đường dài"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Ít mưa, biển lặng nhất",
+              "Thời điểm tốt nhất để đi thuyền tham quan các điểm — đồi cỏ xanh"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa và bão",
+              "Nằm trên đường đổ bộ của bão — bão Karding tháng 9 năm 2022 gây thiệt hại lớn"
+            ]
           ]
         }
       ]
@@ -789,6 +827,17 @@
             {
               "children": [
                 { "text": "Hãy mang hết rác về, và đừng vẽ bậy lên vách đá hay trong hang." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Dingalan đã quy định bằng sắc lệnh địa phương " },
+                { "type": "date", "text": "năm 2024" },
+                {
+                  "text": " (số 266) rằng mọi du khách bắt buộc phải mua bảo hiểm du lịch bảo đảm thương tật và tử vong. Nếu không xuất trình được giấy chứng nhận hoặc biên lai của công ty bảo hiểm đã đăng ký và được cấp phép ở chính quyền huyện thì bạn không thể tham gia tour, nên hãy kiểm tra luôn khi đăng ký tại bến Feeder Port. Sản phẩm của đại lý địa phương ở mức khoảng "
+                },
+                { "type": "price", "text": "₱10–60" },
+                { "text": "." }
               ]
             }
           ]

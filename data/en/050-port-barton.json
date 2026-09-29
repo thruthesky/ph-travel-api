@@ -29,8 +29,8 @@
     "items": ["Island hopping", "Sea turtles", "Snorkeling", "Backpacking", "Secluded beach"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.5, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 10.4061 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 119.1631 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 10.4114 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 119.178 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -212,12 +212,12 @@
               "number": 5,
               "title": "A walk to White Beach",
               "children": [
-                { "text": "A quiet beach over the headland north of the village, about " },
+                { "text": "A quiet beach about " },
                 { "type": "duration", "text": "30–40 minutes" },
-                { "text": " on foot or about " },
+                { "text": " on foot over the headland south of the village, or about " },
                 { "type": "duration", "text": "10 minutes" },
                 {
-                  "text": " by bangka. A good place to spend half a day in the shade of the palms."
+                  "text": " by bangka. It is a good place to spend half a day in the shade of palm trees."
                 }
               ]
             },
@@ -357,6 +357,16 @@
                       "text": " one way. San Vicente also has a small airport, but scheduled flights are irregular, so most travelers use Puerto Princesa. You can also fly into El Nido Airport (ENI) and travel down after finishing your El Nido trip."
                     }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Since " },
+                    { "type": "date", "text": "March 29, 2026" },
+                    {
+                      "text": ", direct flights to El Nido Airport depart from Clark, Cebu, Boracay (Caticlan), and elsewhere instead of Manila. If departing from Manila, the Puerto Princesa route is the most convenient and cheapest."
+                    }
+                  ]
                 }
               ]
             },
@@ -368,18 +378,28 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "A shared van from Puerto Princesa airport or the San Jose terminal in the city to Port Barton takes about "
+                      "text": "A shared van from Puerto Princesa Airport or the Irawan terminal to Port Barton takes about "
                     },
                     { "type": "duration", "text": "3–4 hours" },
-                    { "text": " for around " },
+                    { "text": " and costs about " },
                     { "type": "price", "text": "₱500–700" },
                     {
-                      "text": ". You can book a hotel pickup; the route runs along the Roxas-direction highway before turning onto the western mountain road near Salvacion, and this stretch is now fully paved, making the trip much smoother than before. Taking a Roxas-bound bus and switching to a jeepney or motorbike at the Salvacion junction is cheaper but takes longer. From El Nido it's about "
+                      "text": ". You can book a lodging pickup, and the van runs along the national highway toward Roxas and turns onto the western mountain road near Salvacion; this section is fully paved now, so travel is much easier than before. Taking a Roxas-bound bus and transferring to a jeepney or motorcycle at the Salvacion junction is cheaper but takes much longer. From El Nido it is about "
                     },
                     { "type": "duration", "text": "4–5 hours" },
-                    { "text": " by shared van, around " },
+                    { "text": " by shared van, about " },
                     { "type": "price", "text": "₱600–800" },
                     { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Puerto Princesa's city integrated terminal moved in " },
+                    { "type": "date", "text": "2023" },
+                    {
+                      "text": " from San Jose in the north of the city to Irawan in the south, so going to Port Barton, which is to the north, means a detour. Boarding directly at the airport or booking a lodging pickup saves time. Vans to Port Barton leave only a few times a day (around morning, noon, and afternoon), so it is best to book the day before and reconfirm the departure time."
+                    }
                   ]
                 }
               ]
@@ -458,6 +478,26 @@
               "text": ". In this period, high waves often cancel island hopping or limit it to nearby islands only, and rain slows travel on the mountain road too. On the plus side, lodging is cheaper and the village gets even quieter. If you visit during the rainy season, it's best to schedule island hopping with some flexibility."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            ["November", "Start of the dry season", "Good time to visit"],
+            ["December–February", "Dry season, windy and cool", "Good for trekking"],
+            [
+              "March–May",
+              "Dry season, calm seas and clear water",
+              "Best season for island hopping and snorkeling"
+            ],
+            [
+              "June–October",
+              "Rainy season, habagat monsoon",
+              "Frequent hopping cancellations — cheap rates and quiet"
+            ]
+          ]
         }
       ]
     },
@@ -484,8 +524,8 @@
             },
             {
               "label": "Island-hopping join tour",
-              "price": "About ₱1,000–1,500",
-              "note": "Per person, includes lunch and snorkel gear"
+              "price": "About ₱1,500–1,700",
+              "note": "Per person, lunch and equipment included, check whether the environmental fee is included"
             },
             {
               "label": "Private bangka",
@@ -609,6 +649,13 @@
               "children": [
                 {
                   "text": "Local guides say your odds of meeting a sea turtle are best in the morning."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "On days when the Coast Guard blocks sailing to the open sea, island hopping is sometimes run on a changed course to calm spots inside the bay. When booking, it is a good idea to ask about the alternative course and the cancellation and refund terms."
                 }
               ]
             }

@@ -29,8 +29,8 @@
     "items": ["Waterfall swimming", "Bamboo raft", "Baroro River", "Trekking", "Day trip"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 16.6446 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 120.4484 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 16.6435 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 120.449 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -342,13 +342,13 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Take a northbound bus from Partas, Viron, or a similar line from the Cubao or Pasay terminal in Manila and get off in San Fernando or San Juan, La Union. It takes about "
+                      "text": "Take a northbound bus such as Partas or Viron from the Cubao or Pasay terminal in Manila and get off at San Fernando (La Union) or San Juan. It takes about "
                     },
                     { "type": "duration", "text": "5–7 hours" },
-                    { "text": ", with a one-way fare of around " },
-                    { "type": "price", "text": "₱600–800" },
+                    { "text": " and costs about " },
+                    { "type": "price", "text": "₱750–950" },
                     {
-                      "text": ". Seeing only the falls and returning the same day isn't realistic, so plan to base yourself in San Juan for at least one night."
+                      "text": " one way. Seeing only the falls and returning the same day is unrealistic, so we recommend staying at least one night in San Juan and making the trip from there."
                     }
                   ]
                 }
@@ -382,6 +382,17 @@
                         },
                         { "type": "price", "text": "₱300–400" },
                         { "text": " per person) from the municipal office to the falls entrance." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "If you have a large group, you can also take a jeepney from the jeepney stop beside the municipal hall to the falls' entrance. It costs about "
+                        },
+                        { "type": "price", "text": "₱120–150" },
+                        { "text": " per person, or about " },
+                        { "type": "price", "text": "₱1,800" },
+                        { "text": " to rent an entire vehicle that seats around 15." }
                       ]
                     }
                   ]
@@ -459,6 +470,29 @@
               "text": " rainy season, higher water volume makes the falls more dramatic, but the water can turn muddy and the river level can rise suddenly. The municipal office sometimes closes access right after heavy rain or during typhoon warnings, so if you're visiting in the rainy season, aim for 2–3 days after the rain stops, once the water has cleared, and check whether it's open before you set out."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, the canyon water is cold in December–February",
+              "Dry paths and clear water — swim at midday"
+            ],
+            [
+              "March–May",
+              "Dry season, 33–35℃ at midday",
+              "Most enjoyable for swimming — the flow thins at the end of the dry season"
+            ],
+            [
+              "June–October",
+              "Rainy season, plenty of water and muddy",
+              "Falls are magnificent, water level rises fast — recommended 2–3 days after the rain stops"
+            ]
+          ]
         }
       ]
     },
@@ -480,8 +514,8 @@
             },
             {
               "label": "Local guide",
-              "price": "About ₱500–700 per team",
-              "note": "Required, for about 5–7 people"
+              "price": "About ₱700 per group",
+              "note": "Required, about 5 people per guide"
             },
             {
               "label": "Habal-habal (round trip to trailhead)",
@@ -615,6 +649,21 @@
             {
               "children": [
                 { "text": "Carry out all your trash, and don't use shampoo or soap in the pool." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "According to the San Gabriel municipal office, the falls are open " },
+                { "type": "time", "text": "6 AM–5 PM" },
+                { "text": " but entry to the falls closes at " },
+                { "type": "time", "text": "3 PM" },
+                {
+                  "text": ", and when it's crowded visitors are let in in the order they registered at the tourism office. One guide trained in rescue and first aid accompanies every 5 or so visitors, and the daily guide fee (about "
+                },
+                { "type": "price", "text": "₱700" },
+                {
+                  "text": ") also lets you tour San Gabriel's other attractions, such as Dupagan Falls and Mugong Mountain."
+                }
               ]
             }
           ]

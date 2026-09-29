@@ -29,8 +29,8 @@
     "items": ["Đầm phá", "Hang động", "Hồ sứa", "Chèo kayak", "Nhảy vách đá"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.6736 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 125.9483 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.5971 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 125.9279 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -75,7 +75,19 @@
     "credit": "Michael Angelo Luna / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Middle_Bucas_Grande_in_Dapa,_Siargao.jpg"
   },
-  "gallery": { "type": "carousel", "label": "Hình ảnh", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/088-sohoton-cove-2.webp",
+        "alt": "Vịnh Sohoton",
+        "credit": "AGUSTIN MENDEZ, Tubod Founding Hero / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sohoton.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -330,14 +342,18 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Từ Manila đến sân bay Siargao Sayak (IAO) mất khoảng " },
-                    { "type": "duration", "text": "1 giờ 45 phút – 2 giờ" },
-                    { "text": ", từ Cebu khoảng " },
-                    { "type": "duration", "text": "1 giờ" },
                     {
-                      "text": ". Thường thì bạn sẽ đi xe van ghép chung từ sân bay đến General Luna khoảng "
+                      "text": "Từ Manila đến sân bay Sayak (IAO) ở Siargao không còn chuyến bay thẳng từ "
                     },
-                    { "type": "duration", "text": "45 phút – 1 giờ" },
+                    { "type": "date", "text": "tháng 3 năm 2025" },
+                    { "text": ", nên phải đi qua Cebu (Cebu–Siargao khoảng " },
+                    { "type": "duration", "text": "1 tiếng" },
+                    { "text": ") hoặc đi chuyến bay thẳng từ sân bay Clark (khoảng " },
+                    { "type": "duration", "text": "2 tiếng 20 phút–2 tiếng 30 phút" },
+                    {
+                      "text": "). Thông thường bạn đi xe van ghép từ sân bay đến General Luna khoảng "
+                    },
+                    { "type": "duration", "text": "45 phút–1 tiếng" },
                     { "text": " rồi tham gia tour." }
                   ]
                 }
@@ -443,6 +459,29 @@
             {
               "text": ", gió mùa đông bắc gây mưa nhiều và biển động khiến tour có thể bị hủy hoặc việc di chuyển rất khó khăn. Số lượng sứa thay đổi lớn theo từng năm, có năm gần như không thấy sứa vào một số tháng, nên hãy điều chỉnh kỳ vọng cho phù hợp. Quan trọng nhất là việc đi qua cửa hang phụ thuộc vào giờ triều xuống, nên công ty du lịch sẽ quyết định giờ xuất phát của tour theo lịch thủy triều."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 3–tháng 7",
+              "Biển lặng, trời trong",
+              "Màu nước đầm phá rõ nét — số lượng sứa ở Hồ Sứa có xu hướng nhiều nhất"
+            ],
+            [
+              "Tháng 8–tháng 10",
+              "Nhìn chung đi được, gió tây nam và sóng lớn",
+              "Có ngày bị ảnh hưởng — đi qua cửa hang tính theo lúc nước ròng"
+            ],
+            [
+              "Tháng 11–tháng 2",
+              "Gió mùa đông bắc, mưa nhiều và biển động",
+              "Tour bị hủy, đi lại khó — số lượng sứa chênh lệch lớn theo từng năm"
+            ]
           ]
         }
       ]

@@ -34,8 +34,8 @@
     "items": ["Island hopping", "Sandbar", "Limestone islands", "Snorkeling", "Hidden gem"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 8.7437 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 126.2214 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 8.689 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 126.1898 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -323,7 +323,7 @@
                       "time": "11:00",
                       "children": [
                         {
-                          "text": "Onward — head back to Butuan, or continue your trip north toward Tandag or south toward Bislig (Tinuy-an Falls)."
+                          "text": "After that — return to Butuan, or continue your trip north toward Tandag or south toward Bislig (Tinuy-an Falls)."
                         }
                       ]
                     }
@@ -372,16 +372,22 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "From Butuan Airport, head to downtown or the bus terminal, then take a bus or van bound for Tandag and ask to be dropped at \"Britania Crossing\" or \"Salvacion.\" The trip takes about "
+                      "text": "From Butuan Airport, go to downtown or the bus terminal, take a bus or van toward Tandag, and ask to be dropped at \"Britania Crossing\" or \"Salvacion\". It takes about "
                     },
                     { "type": "duration", "text": "4–5 hours" },
-                    { "text": ", and the fare is around " },
+                    { "text": " and costs about " },
                     { "type": "price", "text": "₱250–450" },
                     {
-                      "text": ". From Davao, the usual route is via San Francisco in Agusan del Sur, transferring to a Tandag-bound bus, which takes about "
+                      "text": ". From the Davao Ecoland bus terminal, there is a direct Bachelor Express bus to Tandag (about "
                     },
-                    { "type": "duration", "text": "7–9 hours" },
-                    { "text": "." }
+                    { "type": "duration", "text": "8 hours" },
+                    { "text": " to Tandag, about " },
+                    { "type": "price", "text": "₱780" },
+                    {
+                      "text": "). Most go via San Francisco and Barobo and along the coastal road in front of San Agustin, so confirm the route when boarding and tell them to drop you at Britania; then you can arrive in about "
+                    },
+                    { "type": "duration", "text": "7–8 hours" },
+                    { "text": " without transferring." }
                   ]
                 }
               ]
@@ -477,6 +483,39 @@
               "text": " holidays, visits from nearby residents increase and cottages can get crowded."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "March",
+              "Toward the end of the monsoon season",
+              "Check the tide table and discuss hopping times with your boatman"
+            ],
+            [
+              "April–June",
+              "Calm seas, good sunshine",
+              "Water color at its most vivid — cottages crowded during Holy Week and the May holidays"
+            ],
+            [
+              "July–September",
+              "Calm but indirectly affected by typhoons",
+              "Winds may pick up, so check the forecast before departing"
+            ],
+            [
+              "October",
+              "Before the monsoon season begins",
+              "The Naked Island sandbar is visible depending on the tide"
+            ],
+            [
+              "November–February",
+              "Northeast monsoon, the rainiest period",
+              "High waves often cancel island hopping"
+            ]
+          ]
         }
       ]
     },
@@ -549,16 +588,16 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "A handful of small, family-run beach resorts and bungalows sit near the Britania pier and along the coastal road. Fan rooms run about "
+              "text": "Around the Britania pier and along the coastal road there are a few small family-run beach resorts and bungalows. A fan room costs about "
             },
             { "type": "price", "text": "₱1,000–1,500" },
-            { "text": " a night, and air-conditioned rooms about " },
+            { "text": " a night and an air-conditioned room about " },
             { "type": "price", "text": "₱1,500–2,500" },
             {
-              "text": "; many places have no hot water or Wi-Fi. Power supply isn't very reliable either, so bring plenty of portable battery packs. If you'd rather stay somewhere more comfortable, you can also base yourself in Tandag to the north (about "
+              "text": ", and many places have no hot water or Wi-Fi. Power is not plentiful either, so bring plenty of power banks. If you need more comfortable lodging, you can also stay in Tandag to the north (about "
             },
             { "type": "duration", "text": "1 hour" },
-            { "text": ") or Bislig to the south and visit for the day." }
+            { "text": ") or Bislig to the south and make a day trip." }
           ]
         },
         {
@@ -633,7 +672,7 @@
             {
               "children": [
                 {
-                  "text": "If you're doing an east-coast road trip, it's efficient to combine this with Enchanted River (Hinatuan) or Tinuy-an Falls (Bislig) for a 3–4 day itinerary."
+                  "text": "If you're touring the eastern coastal road, it's efficient to plan a 3–4 day itinerary that combines the Enchanted River (Hinatuan) or Tinuy-an Falls (Bislig)."
                 }
               ]
             }
@@ -712,9 +751,9 @@
               "place": "enchanted-river",
               "children": [
                 { "text": "About " },
-                { "type": "duration", "text": "2–3 hours" },
+                { "type": "duration", "text": "1 hour 30 minutes–2 hours" },
                 {
-                  "text": " by car to Hinatuan in the south, a mysterious spot famed for its blue river of unknown depth."
+                  "text": " by car to Hinatuan in the south, a mysterious attraction famous for its blue river water of unknown depth."
                 }
               ]
             },
@@ -724,9 +763,9 @@
               "place": "tinuy-an-falls",
               "children": [
                 { "text": "About " },
-                { "type": "duration", "text": "3–4 hours" },
+                { "type": "duration", "text": "2–3 hours" },
                 {
-                  "text": " by car to Bislig in the south, a wide, tiered waterfall known as the \"Niagara of the Philippines.\""
+                  "text": " by car to Bislig in the south, a wide multi-tiered waterfall known as the \"Niagara of the Philippines.\""
                 }
               ]
             },

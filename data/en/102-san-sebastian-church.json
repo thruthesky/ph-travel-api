@@ -400,17 +400,21 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "The nearest station is Legarda on LRT Line 2, about a " },
-                        { "type": "duration", "text": "10-minute" },
+                        { "text": "The nearest station is LRT-2's Legarda station, about " },
+                        { "type": "duration", "text": "10 minutes" },
                         {
-                          "text": " walk past Legarda Street and San Sebastian College. Fares run about "
+                          "text": " on foot via Legarda Street and San Sebastian College. The fare is about "
                         },
                         { "type": "price", "text": "₱15–35" },
                         {
-                          "text": " depending on distance. From Cubao station in Quezon City it takes about "
+                          "text": " depending on the distance. From Cubao station in Quezon City it takes about "
                         },
                         { "type": "duration", "text": "15–20 minutes" },
-                        { "text": "." }
+                        { "text": ". Since " },
+                        { "type": "date", "text": "March 23, 2026" },
+                        {
+                          "text": ", LRT-2 has been giving all passengers a 50% fare discount (until further notice), so you currently pay only about half of that."
+                        }
                       ]
                     },
                     {
@@ -469,10 +473,10 @@
                     {
                       "children": [
                         {
-                          "text": "Take a jeepney marked \"Quiapo\" or \"Legarda\" and get off anywhere around Quiapo, then walk over. The base fare is about "
+                          "text": "Take a jeepney with a \"Quiapo\" or \"Legarda\" sign, get off around Quiapo, and walk. The base fare is about "
                         },
-                        { "type": "price", "text": "₱13–15" },
-                        { "text": ", though the LRT is easier for first-time visitors." }
+                        { "type": "price", "text": "₱14–17" },
+                        { "text": ", and the LRT is easier for first-time visitors." }
                       ]
                     }
                   ]
@@ -547,6 +551,34 @@
               "text": ", the procession passes in front of the church and the area fills with crowds. For the best view of the stained glass, visit at midday on a clear day when the sun is high, and note that weddings are often held on weekend afternoons, which can limit interior viewing."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season",
+              "Best to see the stained glass at midday on a clear day — January 9 procession, January 20 feast day"
+            ],
+            [
+              "March–May",
+              "End of dry season, 34–36℃ in April–May",
+              "No air conditioning, so a morning visit is recommended"
+            ],
+            [
+              "June–October",
+              "Rainy and typhoon season",
+              "July 16 feast of Our Lady of Mount Carmel — heavy rain floods the roads"
+            ],
+            [
+              "November",
+              "Between the rainy and dry seasons",
+              "Weekend afternoons may restrict interior visits because of weddings"
+            ]
+          ]
         }
       ]
     },
@@ -568,8 +600,8 @@
             },
             {
               "label": "LRT Line 2",
-              "price": "About ₱15–35 one-way",
-              "note": "Get off at Legarda station"
+              "price": "About ₱8–35 one way",
+              "note": "Get off at Legarda station, from the discounted fare to the full fare"
             },
             {
               "label": "Airport–church Grab",
@@ -581,7 +613,7 @@
               "price": "About ₱300–550 one-way",
               "note": "Surcharge during rush hour"
             },
-            { "label": "Jeepney", "price": "About ₱13–15", "note": "Base fare" },
+            { "label": "Jeepney", "price": "About ₱14–17", "note": "Base fare" },
             {
               "label": "Votive candles",
               "price": "About ₱20–100",
@@ -743,6 +775,19 @@
               "children": [
                 {
                   "text": "After dark, the streets around the church become dim and quiet. In the evening, call a Grab from a main road."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Conservation work began with treatment of dome corrosion in " },
+                { "type": "date", "text": "2023" },
+                { "text": ", followed by waterproofing and roof repairs in " },
+                { "type": "date", "text": "2025" },
+                { "text": ", and in " },
+                { "type": "date", "text": "2026" },
+                {
+                  "text": " the third phase, work on the bell tower and facade, is under way. The spires and facade may be hidden by scaffolding or screens, so photos may not match your expectations — check the official Facebook page's photos for the current situation before you visit."
                 }
               ]
             }

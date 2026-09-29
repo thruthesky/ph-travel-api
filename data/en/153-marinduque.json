@@ -399,19 +399,19 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "The most common route. From Cubao, Buendia, or PITX in Manila, take a JAC Liner or DLTB bus to Lucena, Quezon province, about "
+                      "text": "This is the most common route. From Cubao, Buendia, or PITX in Manila, take a JAC Liner or DLTB bus to Lucena in Quezon province in about "
                     },
                     { "type": "duration", "text": "3–5 hours" },
-                    { "text": ", for around " },
-                    { "type": "price", "text": "₱300–500" },
+                    { "text": ", for about " },
+                    { "type": "price", "text": "₱350–550" },
                     {
-                      "text": ". From Lucena Grand Terminal, take a jeepney or tricycle to Dalahican Port, then cross to Balanacan Port in Mogpog on a RORO ferry run by Starhorse Shipping or Montenegro Shipping, about "
+                      "text": ". From the Lucena Grand Terminal, take a jeepney or tricycle to Dalahican port, then a Starhorse Shipping or Montenegro Shipping roll-on/roll-off boat to Balanacan port in Mogpog, about "
                     },
                     { "type": "duration", "text": "3–4 hours" },
-                    { "text": ". The regular adult fare is around " },
-                    { "type": "price", "text": "₱450–550" },
+                    { "text": " across. The regular adult boat fare is about " },
+                    { "type": "price", "text": "₱300–470" },
                     {
-                      "text": ", with departures every 2–4 hours from dawn to night. The whole trip from Manila takes about "
+                      "text": ", with sailings every 2–4 hours from early morning to night. The whole trip from Manila takes about "
                     },
                     { "type": "duration", "text": "7–9 hours" },
                     { "text": "." }
@@ -427,11 +427,13 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "There's also a direct route from Cubao where the bus itself is loaded onto the ferry all the way to Santa Cruz, at a fare of around "
+                      "text": "There is also a direct route where the bus is loaded onto the ferry and continues from Cubao to Santa Cruz. Fares run about "
                     },
                     { "type": "price", "text": "₱1,300" },
+                    { "text": " to Mogpog and about " },
+                    { "type": "price", "text": "₱1,870" },
                     {
-                      "text": ". It runs only about once a day, so book ahead. It's convenient for travelers with a lot of luggage since there's no need to transfer."
+                      "text": " to Santa Cruz, with roughly one trip a day in the afternoon, so reserve ahead. With no transfers, it's convenient for travelers with a lot of luggage."
                     }
                   ]
                 }
@@ -445,12 +447,18 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Marinduque Airport (MRQ) is in Gasan, but regular commercial flights have repeatedly been suspended and resumed. Check with the airline before departure, and use the bus-and-boat route if there is no service. When flights operate, it's about "
+                      "text": "Marinduque Airport (MRQ) in Gasan exists, but scheduled commercial flights have stopped and restarted repeatedly, and no scheduled service is confirmed as of "
                     },
-                    { "type": "duration", "text": "45 minutes" },
-                    { "text": " from Manila, and about " },
+                    { "type": "date", "text": "2026" },
+                    {
+                      "text": ". Small propeller planes have not been able to depart Manila's airport since "
+                    },
+                    { "type": "date", "text": "March 29, 2026" },
+                    {
+                      "text": ", so if service resumes, it will likely be from Clark. Check with the airline before departure whether flights are operating, and if not, use the bus and boat route. From the airport to Boac is about "
+                    },
                     { "type": "duration", "text": "15 minutes" },
-                    { "text": " by tricycle from the airport to Boac." }
+                    { "text": " by tricycle." }
                   ]
                 }
               ]
@@ -518,6 +526,25 @@
               "text": " is the wet season, with frequent afternoon showers, and the Lucena–Balanacan boat is suspended when typhoons pass through southern Luzon. Even in the wet season you can still walk the heritage sites in Boac town, but island hopping and the Mount Malindig trek may be cancelled depending on the weather, so it's wise to keep a spare day."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            ["December–February", "Dry season", "Good for island hopping and drives"],
+            [
+              "March–May",
+              "Dry season, midday 33–35℃",
+              "Calm seas and clear water — reservations essential for the Moriones Festival"
+            ],
+            [
+              "June–November",
+              "Rainy season, frequent afternoon showers",
+              "Lucena–Balanacan boats are cancelled during typhoons — build in spare days"
+            ]
+          ]
         }
       ]
     },
@@ -534,17 +561,17 @@
           "items": [
             {
               "label": "Manila–Lucena bus",
-              "price": "About ₱300–500",
+              "price": "About ₱350–550",
               "note": "One way, 3–5 hours"
             },
             {
               "label": "Lucena–Balanacan boat",
-              "price": "About ₱450–550",
+              "price": "About ₱300–470",
               "note": "One way, regular adult"
             },
             {
               "label": "Cubao–Santa Cruz direct bus",
-              "price": "About ₱1,300",
+              "price": "About ₱1,870",
               "note": "One way, includes ferry"
             },
             {
@@ -629,6 +656,15 @@
               "children": [
                 {
                   "text": "Boat tickets can be bought at the Dalahican Port counter or booked online. Tickets sell out during Holy Week and long weekends, so reserve online in advance."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "From " },
+                { "text": "March 2026", "type": "date" },
+                {
+                  "text": ", boarding a Montenegro Shipping boat at Lucena port requires registering in advance in the Online Reservation Assistance System (ORAS), under Philippine Ports Authority (PPA) guidelines. You can register through the QR code on the port notice; passengers who have already bought tickets online and passengers traveling with a vehicle are exempt."
                 }
               ]
             },

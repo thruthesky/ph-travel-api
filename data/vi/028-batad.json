@@ -326,6 +326,71 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Đi về trong ngày",
+              "subtitle": "Khi thiếu thời gian",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Xuất phát từ Banaue bằng tricycle thuê nguyên chuyến (thỏa thuận trước việc tài xế chờ và khứ hồi)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "07:45",
+                      "children": [{ "text": "Đến Saddle Point, đi bộ xuống làng" }]
+                    },
+                    {
+                      "time": "08:30",
+                      "children": [
+                        {
+                          "text": "Đăng ký và nộp phí môi trường ở cổng làng, tìm hướng dẫn viên được cấp phép"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:00~13:00",
+                      "children": [
+                        {
+                          "text": "Đi ngang qua bờ ruộng hình nhà hát vòng cung để khứ hồi thác Tappiya"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        { "text": "Ăn trưa tại quán ăn của homestay nhìn ra ruộng bậc thang" }
+                      ]
+                    },
+                    {
+                      "time": "14:30",
+                      "children": [
+                        { "text": "Leo lên Saddle Point và lên chiếc xe đang chờ để rời đi" }
+                      ]
+                    },
+                    {
+                      "time": "15:30",
+                      "children": [
+                        { "text": "Về đến Banaue, ăn tối rồi lên xe buýt đêm đi Manila" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Đi về trong ngày cũng được, nhưng phải leo dốc từ thác về và leo dốc lên Saddle Point trong cùng một ngày nên rất tốn sức, lại bỏ lỡ hoàng hôn và cảnh bình minh của Batad. Nếu lịch trình cho phép, nên ở lại 1 đêm."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -387,6 +452,17 @@
                         {
                           "text": "Xe jeepney đi ghép thường xuất phát về hướng Batad vào buổi chiều và ra vào buổi sáng, nên giờ giấc không đều đặn. Nếu đi 1 đêm 2 ngày thì có thể đi ghép, nhưng hãy kiểm tra giờ xuất phát tại trung tâm thông tin du lịch từ hôm trước."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Giá xe jeepney đi chung khoảng " },
+                        { "type": "price", "text": "₱150~200" },
+                        {
+                          "text": " cho mỗi du khách. Xe đi chung từ Batad ra Banaue thường rời đi trước khoảng "
+                        },
+                        { "type": "time", "text": "9 giờ sáng" },
+                        { "text": ", nên vào ngày về phải lên đến Saddle Point từ sáng sớm." }
                       ]
                     }
                   ]
@@ -483,6 +559,34 @@
             {
               "text": ", mưa rào buổi chiều và sương mù thường xuyên, và nếu có bão, đường Banaue-Batad có thể bị sạt lở cắt đứt hoặc đường đến thác nước trở nên nguy hiểm. Nếu đi vào mùa mưa, hãy để dư thời gian trong lịch trình."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, sáng sớm khoảng 10℃",
+              "Tháng 1–2 mùa cấy — đường khô, trekking dễ chịu"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô (đến tháng 4), ruộng nhuộm màu xanh",
+              "Tháng 4–5 xanh đẹp nhất — ảnh đẹp nhất"
+            ],
+            [
+              "Tháng 6 – tháng 7",
+              "Mùa mưa, mưa rào chiều và sương mù",
+              "Lúa chín vàng thu hoạch — nên để lịch trình dư dả"
+            ],
+            [
+              "Tháng 8 – tháng 11",
+              "Mùa mưa (đến tháng 10), nguy cơ sạt lở",
+              "Ruộng đầy nước phản chiếu bầu trời — đường cong bờ ruộng rõ nét"
+            ]
           ]
         }
       ]
@@ -752,6 +856,18 @@
                 { "type": "duration", "text": "4-5 giờ" },
                 {
                   "text": " qua Bontoc, là ngôi làng nơi bạn có thể trải nghiệm nghệ thuật xăm truyền thống \"batok\" của người Kalinga."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Ruộng bậc thang Maligcong",
+              "place": "maligcong-rice-terraces",
+              "children": [
+                { "text": "Đi xe từ Banaue qua Bontoc khoảng " },
+                { "type": "duration", "text": "3 giờ" },
+                {
+                  "text": ", đây là ngôi làng có bờ ruộng xếp đá và bình minh biển mây trên núi Kupapey rất đẹp."
                 }
               ]
             }

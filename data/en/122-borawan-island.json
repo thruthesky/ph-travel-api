@@ -118,8 +118,10 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Borawan Beach is managed by a single locally run resort, divided into a few sections with huts, tent sites, showers, and restrooms. There's no large hotel or restaurant strip, and electricity relies on a generator — a simple camping beach."
-            }
+              "text": "Borawan Beach is managed by a single locally run resort, divided into several zones with huts, tent spots, and shower and toilet facilities. It is a simple camping beach with no large hotels or restaurant strips, and electricity began arriving in "
+            },
+            { "type": "date", "text": "December 2018" },
+            { "text": " when a submarine cable connecting it to the mainland was laid." }
           ]
         },
         {
@@ -345,11 +347,11 @@
                     {
                       "children": [
                         {
-                          "text": "Lucena-bound buses run frequently from Cubao and Buendia in Manila, operated by JAC Liner, JAM Liner, DLTB, Lucena Lines, and others. It takes about "
+                          "text": "Lucena-bound buses (JAC Liner, JAM Liner, DLTB, Lucena Lines, and others) leave frequently from Cubao and Buendia in Manila. To the Lucena Grand Terminal it takes about "
                         },
                         { "type": "duration", "text": "3–4 hours" },
-                        { "text": " to Lucena Grand Terminal, for a fare of about " },
-                        { "type": "price", "text": "₱250~350" },
+                        { "text": " and the fare is about " },
+                        { "type": "price", "text": "₱330–520" },
                         { "text": "." }
                       ]
                     },
@@ -490,6 +492,34 @@
               "text": " also sees frequent rain from the northeast monsoon. Bancas don't run when a small-craft warning is issued, so check PAGASA forecasts and coast guard notices, and keep your schedule flexible in the wet season. The water can turn cloudy on overcast days or right after rain."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–January",
+              "Northeast monsoon, frequent rain",
+              "Bancas are canceled under a rough-sea warning — check PAGASA"
+            ],
+            [
+              "February–March",
+              "Dry season, little rain and calm sea",
+              "Best for island hopping and camping"
+            ],
+            [
+              "April–May",
+              "Dry season, 33–35℃ at midday",
+              "Busiest as summer vacation and Holy Week overlap — weekdays recommended"
+            ],
+            [
+              "June–October",
+              "Southwest monsoon and typhoons, high waves",
+              "Keep your schedule flexible — seawater is murky after rain"
+            ]
+          ]
         }
       ]
     },
@@ -506,7 +536,7 @@
           "items": [
             {
               "label": "Manila–Lucena bus",
-              "price": "About ₱250–350 one way",
+              "price": "About ₱330–520 one way",
               "note": "Air-conditioned bus"
             },
             {
@@ -567,16 +597,20 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "To stay on Borawan, use a tent site or hut at the beach resort. A tent site runs about "
+              "text": "To stay on Borawan, use the tent spots or huts at the beach resort. Tent spots cost about "
             },
-            { "type": "price", "text": "₱200~300" },
-            { "text": ", a hut about " },
-            { "type": "price", "text": "₱700~1,500" },
+            { "type": "price", "text": "₱200–300" },
+            { "text": " and huts about " },
+            { "type": "price", "text": "₱700–1,500" },
             {
-              "text": ", and showers and restrooms sometimes charge a separate fee. Power usually comes from the generator only in the evening. If a tent isn't for you, you can also stay at a small resort on the Padre Burgos mainland coast or a hotel in Lucena (about "
+              "text": ", and showers and toilets sometimes carry a separate fee. Electricity is available, but many people charge their phones at the resort's paid charging station (about "
             },
-            { "type": "price", "text": "₱1,500~3,500" },
-            { "text": " per night) and visit the island as a day trip." }
+            { "type": "price", "text": "₱25" },
+            {
+              "text": " per charge). If tents are uncomfortable, you can also stay at a small resort on the Padre Burgos mainland coast or a hotel in Lucena (about "
+            },
+            { "type": "price", "text": "₱1,500–3,500" },
+            { "text": " per night) and make day trips to the island." }
           ]
         },
         {
@@ -654,6 +688,21 @@
                 {
                   "text": "Bring trash bags and carry all your garbage back out. The island lacks proper waste facilities."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "On the " },
+                {
+                  "type": "link",
+                  "text": "official website",
+                  "url": "https://borawanislandresort.com/"
+                },
+                {
+                  "text": " of Borawan Island Resort, which runs Borawan Beach, you can check room and tent reservations, island hopping, and kayak rates (about "
+                },
+                { "type": "price", "text": "₱250–300" },
+                { "text": " per hour). Book ahead for peak-season weekends." }
               ]
             }
           ]

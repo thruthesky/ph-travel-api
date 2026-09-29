@@ -348,6 +348,51 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Ngày mưa",
+              "subtitle": "Khi tour đảo bị hủy",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "10 giờ sáng",
+                      "children": [
+                        {
+                          "text": "Tham quan Đền Mactan và tượng Lapu-Lapu, ghé xem các xưởng làm guitar gần đó"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12 giờ trưa",
+                      "children": [{ "text": "Ăn trưa hải sản tại nhà hàng sutukil" }]
+                    },
+                    {
+                      "time": "2 giờ chiều",
+                      "children": [
+                        {
+                          "text": "Qua cầu CCLEX vào thành phố Cebu, tham quan các điểm trong nhà như Nhà thờ chính tòa Santo Niño và Bảo tàng Casa Gorordo"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "6 giờ chiều",
+                      "children": [
+                        { "text": "Ăn tối ở trung tâm thương mại rồi về resort để mát-xa (spa)" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Nếu tour đảo bị hủy, hầu hết các đơn vị sẽ dời ngày hoặc hoàn tiền, vì vậy hãy kiểm tra quy định hủy khi đặt và chừa lại một ngày dự phòng ở cuối lịch trình."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -407,6 +452,20 @@
                       "text": ", và thường kẹt xe nặng vào giờ tan tầm. CCLEX có thu phí và rất tiện khi đi thẳng từ bờ biển phía nam Cebu (SRP) sang Cordova ở phía nam Mactan."
                     }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Phí cầu CCLEX với ô tô con khoảng " },
+                    { "type": "price", "text": "₱107" },
+                    {
+                      "text": ", nếu đi taxi hay Grab qua cầu thì được cộng vào giá cước. Nếu ít hành lý, bạn có thể đi xe buýt sân bay có điều hòa MyBus khởi hành trước sân bay đến SM City Cebu với giá khoảng "
+                    },
+                    { "type": "price", "text": "₱50" },
+                    { "text": ", mất khoảng " },
+                    { "type": "duration", "text": "1 tiếng" },
+                    { "text": " tùy tình hình giao thông." }
+                  ]
                 }
               ]
             },
@@ -424,6 +483,16 @@
                     {
                       "text": ". Tour đảo thường khởi hành từ bến tàu của resort hoặc bến thuyền banca ở bờ đông Mactan, và các tour của công ty du lịch thường đã bao gồm đón tại khách sạn."
                     }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Khi tự thuê thuyền banca, bến Maribago là điểm xuất phát phổ biến nhất, ngoài ra cũng có thuyền ra từ bến Marigondon và bến phía Cordova. Giá thuê riêng thường chưa gồm vé vào đảo và bữa trưa, vé vào đảo khoảng "
+                    },
+                    { "type": "price", "text": "₱150–300" },
+                    { "text": "/người tùy đảo và trả riêng bằng tiền mặt tại chỗ." }
                   ]
                 }
               ]
@@ -475,6 +544,26 @@
             { "text": "tháng 1", "type": "date" },
             { "text": " là lễ hội Sinulog tại thành phố Cebu." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            ["Tháng 12", "Bắt đầu mùa khô", "Mở đầu mùa du lịch mùa khô"],
+            [
+              "Tháng 1–tháng 4",
+              "Mùa khô, biển lặng, tầm nhìn tốt",
+              "Tốt nhất cho tour đảo và lặn — lễ hội Kadaugan sa Mactan khoảng 27 tháng 4"
+            ],
+            ["Tháng 5", "Mùa khô, nóng nhất và nắng gắt", "Cần chống nắng"],
+            [
+              "Tháng 6–tháng 11",
+              "Mùa mưa, mưa rào buổi chiều",
+              "Có thể hủy tour đảo khi có bão tháng 8–11"
+            ]
+          ]
         }
       ]
     },
@@ -515,7 +604,7 @@
               "note": "1 lần, gồm thiết bị và hướng dẫn"
             },
             {
-              "label": "Vé day use resort",
+              "label": "Vé sử dụng khu nghỉ dưỡng trong ngày (day use)",
               "price": "khoảng ₱1,500–4,000",
               "note": "Kiểm tra có kèm suất ăn hay không"
             },
@@ -627,6 +716,23 @@
                 {
                   "text": "Các điểm chụp ảnh được ưa chuộng là sàn nổi đảo Nalusuan, bãi cát nổi đảo Pandanon và trước tượng Lapu-Lapu ở Đền Mactan."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi nhập cảnh Philippines, bạn phải đăng ký khai báo nhập cảnh trực tuyến miễn phí eTravel trong vòng "
+                },
+                { "type": "duration", "text": "72 giờ" },
+                {
+                  "text": " trước khi đến. Chụp lại mã QR nhận được sau khi đăng ký sẽ giúp kiểm tra nhập cảnh ở sân bay nhanh hơn ("
+                },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức của eTravel",
+                  "url": "https://etravel.gov.ph"
+                },
+                { "text": "). Hãy cẩn thận với các trang web đại lý có tên tương tự và thu phí." }
               ]
             }
           ]
@@ -747,6 +853,18 @@
                 { "type": "duration", "text": "2 giờ" },
                 {
                   "text": " đi tàu cao tốc từ bến tàu Cebu, hòn đảo nổi tiếng với Đồi Chocolate và khỉ lùn tarsier."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Đảo Olango",
+              "place": "olango-island",
+              "children": [
+                { "text": "Đi phà từ bến Punta Engaño ở Mactan khoảng " },
+                { "type": "duration", "text": "20–30 phút" },
+                {
+                  "text": ", hòn đảo có khu bảo tồn chim di cư đất ngập nước Ramsar và các làng chài mộc mạc."
                 }
               ]
             }

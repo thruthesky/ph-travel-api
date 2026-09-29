@@ -327,15 +327,15 @@
                       "children": [{ "text": "Take a bus from Manila to Batangas City" }]
                     },
                     {
-                      "time": "08:00",
+                      "time": "08:30",
                       "children": [
                         {
-                          "text": "Arrive at Batangas port, check and board the boat to Verde Island"
+                          "text": "Arrive at Tabangao Port and board the public boat to Verde Island (departs when full)"
                         }
                       ]
                     },
                     {
-                      "time": "10:00",
+                      "time": "10:30",
                       "children": [{ "text": "Arrive on Verde Island, check in at your homestay" }]
                     },
                     {
@@ -371,7 +371,16 @@
                       "time": "07:00",
                       "children": [{ "text": "Morning snorkel, when the sea is calmest" }]
                     },
-                    { "time": "09:00", "children": [{ "text": "Boat back to Batangas port" }] },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Return to the mainland on the pre-booked chartered banca (the public boat leaves at "
+                        },
+                        { "type": "time", "text": "4 AM" },
+                        { "text": ")" }
+                      ]
+                    },
                     {
                       "time": "11:00",
                       "children": [
@@ -421,7 +430,7 @@
               ]
             },
             {
-              "title": "Boat — from Batangas port",
+              "title": "Boat — Tabangao Port",
               "icon": "directions_boat",
               "blocks": [
                 {
@@ -431,12 +440,33 @@
                     {
                       "children": [
                         {
-                          "text": "A public boat for residents runs from Batangas port to the village on Verde Island, taking about "
+                          "text": "The public boat for residents leaves once a day not from Batangas Port but from Tabangao Port (Tabangao Aplaya) in Batangas City, and takes about "
                         },
-                        { "type": "duration", "text": "1 hour–1 hour 30 minutes" },
+                        { "type": "duration", "text": "1 hour 30 minutes" },
+                        { "text": " to reach the island. It usually departs around " },
+                        { "type": "time", "text": "9 AM" },
+                        { "text": " once full, and the boat back from the island leaves at " },
+                        { "type": "time", "text": "4 AM" },
                         {
-                          "text": ". Departures are infrequent and the schedule shifts with weather and passenger numbers, so a same-day round trip can be hard to manage — check at the port the day before or the morning of."
-                        }
+                          "text": " the next day, so a same-day round trip isn't possible on the public boat. The fare is about "
+                        },
+                        { "type": "price", "text": "₱150–250" },
+                        { "text": " one way." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "To get to Tabangao Port, take a jeepney from the Batangas Grand Terminal to Bagong Palengke (the new market) for about "
+                        },
+                        { "type": "price", "text": "₱14" },
+                        { "text": ", then another jeepney to Tabangao for about " },
+                        { "type": "price", "text": "₱19" },
+                        {
+                          "text": ". At the port you cross to the passenger ship by a small boat, paying "
+                        },
+                        { "type": "price", "text": "₱10" },
+                        { "text": " per person." }
                       ]
                     },
                     {
@@ -446,6 +476,17 @@
                         },
                         { "type": "price", "text": "₱3,000–6,000" },
                         { "text": ", negotiated based on group size and waiting time." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Chartered bancas mainly depart from Ilijan in Batangas City or the Dela Paz coast, which are close to the island, and take about "
+                        },
+                        { "type": "duration", "text": "45 minutes–1 hour" },
+                        { "text": " to reach it. A six-person boat starts from about " },
+                        { "type": "price", "text": "₱3,500" },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -549,6 +590,29 @@
               "text": " rainy season, the southwest monsoon and typhoons roughen the passage, and the coast guard often suspends small-boat service. Dive shops frequently switch to sites closer to shore or cancel the expedition altogether. Current is driven more by the tide than the season, running especially strong around the spring tides near the full and new moon."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, strong northeast wind in the afternoon",
+              "Water slightly cooler — mostly morning dives"
+            ],
+            [
+              "March–May",
+              "Dry season, calm sea",
+              "Best for diving — visibility 15–25m, water temperature 26–29℃"
+            ],
+            [
+              "June–October",
+              "Rainy season and typhoons, rough strait",
+              "Small boats often stop running — plan for trip cancellations"
+            ]
+          ]
         }
       ]
     },
@@ -570,8 +634,13 @@
             },
             {
               "label": "Batangas–Puerto Galera ferry",
-              "price": "About ₱400–600 one-way",
+              "price": "About ₱650–900 one way",
               "note": "Terminal fee/environmental fee separate"
+            },
+            {
+              "label": "Public boat (Tabangao–Verde Island)",
+              "price": "About ₱150–250 one way",
+              "note": "One trip a day"
             },
             {
               "label": "Fun dive",
@@ -585,7 +654,7 @@
               "note": "Check latest notice"
             },
             {
-              "label": "Chartered banca (from Batangas port)",
+              "label": "Banca charter (departing Ilijan or Tabangao)",
               "price": "About ₱3,000–6,000 round trip",
               "note": "Negotiated by group size/waiting time"
             },
@@ -701,6 +770,17 @@
                 },
                 { "type": "duration", "text": "18–24 hours" },
                 { "text": " of diving." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "In island villages, electricity often relies on generators and solar power and is available only around "
+                },
+                { "type": "time", "text": "6–10 PM" },
+                {
+                  "text": ". If you need air conditioning, choose a resort with its own generator."
+                }
               ]
             }
           ]

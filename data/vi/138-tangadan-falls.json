@@ -29,8 +29,8 @@
     "items": ["Bơi ở thác nước", "Bè tre", "Sông Balorio", "Trekking", "Du lịch trong ngày"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 16.6446 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.4484 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 16.6435 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.449 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -338,13 +338,13 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ bến Cubao·Pasay (Manila), đón xe buýt đi phía bắc như Partas, Viron rồi xuống ở San Fernando hoặc San Juan, La Union. Mất khoảng "
+                      "text": "Từ bến Cubao hoặc Pasay ở Manila, bạn đi xe buýt đi phía bắc như Partas, Viron rồi xuống ở San Fernando hoặc San Juan (La Union). Mất khoảng "
                     },
-                    { "type": "duration", "text": "5-7 giờ" },
+                    { "type": "duration", "text": "5–7 giờ" },
                     { "text": ", giá vé một chiều khoảng " },
-                    { "type": "price", "text": "₱600-800" },
+                    { "type": "price", "text": "₱750–950" },
                     {
-                      "text": ". Đi về trong ngày chỉ để thăm thác là khá vất vả, nên nên nghỉ lại San Juan ít nhất 1 đêm rồi đi thăm."
+                      "text": ". Chỉ xem thác rồi về trong ngày là quá sức, nên chúng tôi khuyên bạn ở lại San Juan ít nhất 1 đêm rồi đi."
                     }
                   ]
                 }
@@ -378,6 +378,19 @@
                         },
                         { "type": "price", "text": "₱300-400" },
                         { "text": "/người)." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Nếu đi đông người, bạn cũng có thể đi jeepney từ bến jeepney cạnh tòa thị chính đến lối vào thác, khoảng "
+                        },
+                        { "type": "price", "text": "₱120–150" },
+                        {
+                          "text": "/người, hoặc thuê nguyên chiếc xe chở khoảng 15 người với giá khoảng "
+                        },
+                        { "type": "price", "text": "₱1,800" },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -453,6 +466,29 @@
               "text": " mùa mưa, lượng nước nhiều nên thác trở nên hùng vĩ hơn, nhưng nước có thể chuyển đục và mực nước sông có thể dâng đột ngột. Ngay sau mưa lớn hoặc khi có cảnh báo bão, văn phòng thị trấn có thể ngăn không cho vào, nên nếu đi vào mùa mưa, hãy nhắm vào thời điểm 2-3 ngày sau khi mưa tạnh, khi nước đã trong trở lại, và kiểm tra tình trạng hoạt động tại chỗ trước khi khởi hành."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, nước suối tháng 12–2 lạnh",
+              "Đường khô và nước trong — hãy bơi vào giữa trưa"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, giữa trưa 33–35℃",
+              "Tắm nước vui nhất — cuối mùa khô dòng nước mảnh lại"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, nước nhiều và đục",
+              "Thác hùng vĩ nhưng mực nước dâng nhanh — nên đi 2–3 ngày sau khi tạnh mưa"
+            ]
+          ]
         }
       ]
     },
@@ -474,8 +510,8 @@
             },
             {
               "label": "Hướng dẫn viên địa phương",
-              "price": "Khoảng ₱500-700/nhóm",
-              "note": "Bắt buộc, tính cho khoảng 5-7 người"
+              "price": "Khoảng ₱700 mỗi nhóm",
+              "note": "Bắt buộc, khoảng 5 người mỗi hướng dẫn viên"
             },
             {
               "label": "Habal-habal (khứ hồi đến lối vào)",
@@ -604,6 +640,21 @@
               "children": [
                 {
                   "text": "Hãy mang hết rác ra ngoài, và không dùng dầu gội hay xà phòng trong hồ nước."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Theo tòa thị chính San Gabriel, thác mở cửa từ " },
+                { "type": "time", "text": "6 giờ sáng đến 5 giờ chiều" },
+                { "text": " nhưng việc vào thác đóng lúc " },
+                { "type": "time", "text": "3 giờ chiều" },
+                {
+                  "text": ", và khi đông người thì du khách được cho vào theo thứ tự đăng ký tại văn phòng du lịch. Cứ khoảng 5 du khách sẽ có 1 hướng dẫn viên đã được đào tạo cứu hộ và sơ cứu đi cùng, và với phí hướng dẫn viên trong ngày (khoảng "
+                },
+                { "type": "price", "text": "₱700" },
+                {
+                  "text": "), bạn có thể đi cùng cả các điểm tham quan khác của San Gabriel như thác Dupagan và núi Mugong."
                 }
               ]
             }

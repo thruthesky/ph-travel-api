@@ -252,6 +252,18 @@
                 { "type": "duration", "text": "30 phút – 1 giờ" },
                 { "text": ", và nhớ xác nhận trước xem giá tính theo đầu người hay theo cả xe." }
               ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Museo de Intramuros",
+              "children": [
+                { "text": "Bảo tàng nghệ thuật tôn giáo khai trương vào " },
+                { "type": "date", "text": "năm 2019" },
+                {
+                  "text": ", được dựng lại trên nền Nhà thờ San Ignacio bị phá hủy trong chiến tranh. Nơi đây trưng bày quy mô lớn nhất Philippines về cổ vật nhà thờ như tượng thánh, lễ phục và đồ nội thất do Cơ quan quản lý Intramuros sưu tầm; tham quan cùng Bảo tàng San Agustin sẽ giúp hiểu rõ hơn đời sống đức tin thời Tây Ban Nha."
+                }
+              ]
             }
           ]
         }
@@ -330,7 +342,13 @@
                     },
                     {
                       "time": "16:30",
-                      "children": [{ "text": "Baluarte de San Diego và lối đi trên tường thành" }]
+                      "children": [
+                        {
+                          "text": "Đi bộ trên lối đi dạo trên tường thành (Baluarte de San Diego cho vào cửa muộn nhất lúc "
+                        },
+                        { "type": "time", "text": "4 giờ chiều" },
+                        { "text": ", nên ghé trước trong lúc đi tour xe đạp)" }
+                      ]
                     },
                     { "time": "17:30", "children": [{ "text": "Ngắm hoàng hôn trên tường thành" }] },
                     {
@@ -338,6 +356,54 @@
                       "children": [
                         { "text": "Di chuyển đến Công viên Rizal hoặc Vịnh Manila để ăn tối" }
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Lịch trình ngày mưa",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Vào Casa Manila ngay khi mở cửa, tham quan bên trong dinh thự và sân trong"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [{ "text": "Tham quan Nhà thờ và Bảo tàng San Agustin" }]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [{ "text": "Ăn trưa tại nhà hàng trong Plaza San Luis" }]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [
+                        { "text": "Tham quan Museo de Intramuros và Centro de Turismo Intramuros" }
+                      ]
+                    },
+                    {
+                      "time": "15:30",
+                      "children": [
+                        {
+                          "text": "Đi Grab sang Bảo tàng Quốc gia Philippines để xem các triển lãm trong nhà"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Casa Manila và Museo de Intramuros đóng cửa thứ Hai, nên nếu thứ Hai trời mưa, hãy chuyển sang tập trung vào Bảo tàng San Agustin và Bảo tàng Quốc gia."
                     }
                   ]
                 }
@@ -384,18 +450,28 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Xuống ga Central Terminal của tuyến LRT 1, đi bộ qua trước tòa thị chính Manila khoảng "
+                      "text": "Xuống ga Central Terminal của tuyến LRT-1, đi bộ qua trước Tòa thị chính Manila khoảng "
                     },
                     { "type": "duration", "text": "10–15 phút" },
-                    { "text": " là đến cổng đông nam của thành cổ. Giá vé khoảng " },
-                    { "type": "price", "text": "₱15~35" },
+                    { "text": " là đến lối vào phía đông nam của tường thành. Giá vé khoảng " },
+                    { "type": "price", "text": "₱16~55" },
                     {
-                      "text": " tùy chặng, dùng thẻ giao thông (thẻ beep) hoặc thanh toán di động sẽ đỡ phải xếp hàng. Giờ cao điểm ("
+                      "text": " tùy chặng; dùng thẻ giao thông (thẻ beep) hoặc thanh toán qua điện thoại sẽ đỡ phải xếp hàng. Vào giờ cao điểm ("
                     },
                     { "type": "time", "text": "7–9 giờ sáng" },
                     { "text": ", " },
-                    { "type": "time", "text": "17–20 giờ" },
-                    { "text": ") rất đông đúc." }
+                    { "type": "time", "text": "5–8 giờ tối" },
+                    { "text": ") tàu rất đông." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ " },
+                    { "text": "tháng 11 năm 2024", "type": "date" },
+                    {
+                      "text": ", tuyến LRT-1 được kéo dài về phía Cavite đến ga Dr. Santos, nên từ ga Asia World cạnh PITX ở Parañaque hay ga Ninoy Aquino Avenue cũng có thể đến thẳng ga Central Terminal mà không phải đổi tàu. Tuy nhiên ga không nối trực tiếp với nhà ga sân bay, nên nếu mang nhiều hành lý thì đi Grab sẽ tiện hơn."
+                    }
                   ]
                 }
               ]
@@ -419,6 +495,24 @@
               ]
             },
             {
+              "title": "Phà sông Pasig",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Phà sông Pasig (Pasig River Ferry) do MMDA vận hành hiện miễn phí tính đến "
+                    },
+                    { "type": "date", "text": "năm 2026" },
+                    {
+                      "text": ", khi lên phà cần xuất trình giấy tờ tùy thân. Ga Escolta nằm ở bờ sông phía bắc Intramuros (sau tòa nhà Cục Di trú), nên từ các ga ven sông phía Pasig và Mandaluyong có thể đến mà không lo kẹt xe. Phà chỉ chạy ban ngày và có lúc tạm dừng để bảo trì, nên hãy xem thông báo của MMDA để biết lịch chạy."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "title": "Di chuyển bên trong tường thành",
               "icon": "commute",
               "blocks": [
@@ -430,6 +524,22 @@
                     },
                     { "type": "price", "text": "₱50~100" },
                     { "text": ", còn thuê theo giờ thì cần thương lượng." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ " },
+                    { "text": "tháng 3 năm 2026", "type": "date" },
+                    {
+                      "text": ", Cơ quan quản lý Intramuros chạy thử miễn phí xe điện e-tranvia (xe điện mô phỏng tàu điện xưa). Đây là tuyến vòng qua khoảng 10 điểm như Fort Santiago, Baluarte de San Diego và Cổng Parian, xuất phát từ Plaza Roma, chạy hai chuyến mỗi ngày ("
+                    },
+                    { "text": "9–10 giờ sáng", "type": "time" },
+                    { "text": ", " },
+                    { "text": "3–4 giờ chiều", "type": "time" },
+                    {
+                      "text": "), nhận tối đa 18 người theo thứ tự đến trước. Vì đang chạy thử nên lịch có thể thay đổi, hãy xem thông báo của Cơ quan quản lý."
+                    }
                   ]
                 }
               ]
@@ -484,6 +594,29 @@
               "text": ", nhà thờ và quảng trường được trang trí đèn lễ hội nên cảnh đêm đặc biệt đẹp."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, sáng tối mát mẻ 24–26 độ",
+              "Thích hợp đi bộ nhất — cảnh đêm với đèn Giáng sinh tháng 12"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, ban ngày 34–36 độ",
+              "Di chuyển vào buổi sáng hoặc sau 4 giờ chiều — lưu ý các nơi đóng cửa dịp Tuần Thánh"
+            ],
+            [
+              "Tháng 6 – tháng 11",
+              "Mùa mưa, mưa rào buổi chiều và bão (tháng 7–9)",
+              "Ưu tiên bảo tàng trong nhà — tránh đến vào ngày có cảnh báo bão"
+            ]
+          ]
         }
       ]
     },
@@ -529,7 +662,12 @@
               "price": "Khoảng ₱300~800",
               "note": "Từ cơm nhà Philippines đến nhà hàng"
             },
-            { "label": "Cà phê, đồ ăn nhẹ", "price": "Khoảng ₱150~300" }
+            { "label": "Cà phê, đồ ăn nhẹ", "price": "Khoảng ₱150~300" },
+            {
+              "label": "Museo de Intramuros",
+              "price": "Khoảng ₱150",
+              "note": "Đã gồm Centro de Turismo, đóng cửa thứ Hai"
+            }
           ]
         },
         {
@@ -603,7 +741,7 @@
             {
               "children": [
                 {
-                  "text": "Quầy vé ở Pháo đài Santiago và Casa Manila thường nhận thẻ và GCash, nhưng xe ngựa kalesa, tricycle và đồ ăn đường phố chỉ nhận tiền mặt, nên chuẩn bị sẵn nhiều tiền lẻ mệnh giá "
+                  "text": "Quầy vé Fort Santiago nhận tiền mặt, thanh toán Maya và vé đặt trước qua Klook, nhưng xe ngựa kalesa, tricycle và đồ ăn đường phố chỉ nhận tiền mặt, nên hãy chuẩn bị đủ tiền lẻ mệnh giá nhỏ "
                 },
                 { "type": "price", "text": "₱20~100" },
                 { "text": "." }
@@ -649,6 +787,29 @@
                 {
                   "text": "Thứ Hai một số bảo tàng như Casa Manila đóng cửa, nên đến vào thứ Ba đến thứ Sáu trong tuần là thoải mái nhất."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Vé vào Fort Santiago, Baluarte de San Diego và Casa Manila mỗi nơi là " },
+                { "type": "price", "text": "₱75" },
+                { "text": " (học sinh, người cao tuổi, người khuyết tật " },
+                { "type": "price", "text": "₱50" },
+                { "text": ", cần giấy tờ tùy thân). Fort Santiago mở cửa ngày thường " },
+                { "type": "time", "text": "8 giờ sáng – 10 giờ tối" },
+                { "text": " (vào cửa muộn nhất " },
+                { "type": "time", "text": "8 giờ tối" },
+                { "text": "), cuối tuần mở từ " },
+                { "type": "time", "text": "6 giờ sáng" },
+                { "text": ", còn Baluarte de San Diego cho vào cửa muộn nhất lúc " },
+                { "type": "time", "text": "4 giờ chiều" },
+                { "text": ". Hãy xem giờ và giá mới nhất trên " },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức của Cơ quan quản lý Intramuros",
+                  "url": "https://intramuros.gov.ph/hours/"
+                },
+                { "text": "." }
               ]
             }
           ]

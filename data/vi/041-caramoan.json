@@ -252,7 +252,7 @@
                       "time": "Buổi sáng",
                       "children": [
                         {
-                          "text": "Đến sân bay Naga từ Manila, ăn trưa tại trung tâm thành phố Naga"
+                          "text": "Bay từ Clark đến sân bay (hoặc đi xe buýt đêm từ Manila đến), ăn trưa tại trung tâm Naga"
                         }
                       ]
                     },
@@ -355,16 +355,18 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    {
-                      "text": "Philippine Airlines và các hãng thuộc Cebu Pacific khai thác chuyến bay từ Manila đến sân bay Naga (WNP), mất khoảng "
-                    },
-                    { "type": "duration", "text": "1 giờ" },
-                    { "text": ". Giá vé một chiều tùy thời điểm khoảng " },
-                    { "type": "price", "text": "₱2,000–5,000" },
-                    { "text": ". Sân bay nằm ở Pili, cách trung tâm thành phố Naga khoảng " },
+                    { "text": "Sân bay Naga (WNP) nằm ở Pili, cách trung tâm Naga khoảng " },
                     { "type": "duration", "text": "30 phút" },
                     {
-                      "text": ", nên bạn cần đi tricycle hoặc taxi vào thành phố. Bạn cũng có thể dùng sân bay quốc tế Bicol (DRP) gần Legazpi, nhưng thời gian di chuyển đến Caramoan sẽ dài hơn."
+                      "text": ". Do lệnh cấm máy bay cánh quạt nhỏ khai thác ở sân bay Manila, từ "
+                    },
+                    { "type": "date", "text": "ngày 29 tháng 3 năm 2026" },
+                    {
+                      "text": " không còn chuyến bay thẳng Manila – Naga, và hiện Cebu Pacific (Cebgo) khai thác đường bay Clark – Naga. Giá vé một chiều khoảng "
+                    },
+                    { "type": "price", "text": "₱2,000~5,000" },
+                    {
+                      "text": " tùy thời điểm. Nếu bay từ Manila, cũng có cách bay đến Sân bay quốc tế Bicol (DRP) có máy bay phản lực rồi đi đường bộ qua Naga, nhưng thời gian di chuyển đến Caramoan lâu hơn."
                     }
                   ]
                 }
@@ -397,6 +399,18 @@
                     { "type": "price", "text": "₱300–400" },
                     { "text": ", vào thẳng nơi mà không cần đi thuyền." }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Để đi không phải đổi xe từ Manila, hãy lên xe buýt máy lạnh đi thẳng Caramoan của Raymond, Peñafrancia,... Xe xuất phát chiều hoặc tối và đến vào sáng hôm sau, mất khoảng "
+                    },
+                    { "type": "duration", "text": "11–14 giờ" },
+                    { "text": ", giá vé khoảng " },
+                    { "type": "price", "text": "₱1,000~1,200" },
+                    { "text": ". Bến xuất phát và giờ chạy hay thay đổi nên hãy kiểm tra trước." }
+                  ]
                 }
               ]
             },
@@ -422,6 +436,16 @@
                     { "text": ", giá khoảng " },
                     { "type": "price", "text": "₱200–300" },
                     { "text": " mỗi xe." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Có báo cáo rằng từ " },
+                    { "text": "năm 2026", "type": "date" },
+                    {
+                      "text": ", do giá nhiên liệu tăng, nhiều ngày thuyền bangka chở khách thường lệ Sabang – Guijalo không chạy. Nếu không có thuyền thì phải đi thuyền bangka thuê riêng đắt tiền, nên khi dùng tuyến này hãy hỏi trước chỗ ở xem trong ngày có chạy không, và nếu không chắc thì an toàn nhất là lấy xe buýt đường bộ đi thẳng làm phương án chính."
+                    }
                   ]
                 }
               ]
@@ -499,6 +523,29 @@
               "text": ", trong dịp lễ hội Peñafrancia tổ chức tại Naga, chỗ ở tại trung tâm thành phố Naga rất đông, nhưng đây cũng là dịp tốt để tìm hiểu văn hóa Bicol."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Gió mùa đông bắc (Amihan), hay mưa và sóng cao",
+              "Thuyền thường bị hủy, nhảy đảo bị hủy"
+            ],
+            [
+              "Tháng 3 – tháng 6",
+              "Mùa khô, ít mưa và biển lặng",
+              "Màu nước trong nhất — Tuần Thánh và kỳ nghỉ hè nên đặt chỗ ở trước"
+            ],
+            [
+              "Tháng 7 – tháng 10",
+              "Mùa mưa và mùa bão",
+              "Xem dự báo PAGASA — lễ hội Peñafrancia tuần thứ ba của tháng 9"
+            ]
+          ]
         }
       ]
     },
@@ -514,7 +561,7 @@
           "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
           "items": [
             {
-              "label": "Máy bay Manila–Naga",
+              "label": "Chuyến bay Clark – Naga",
               "price": "Khoảng ₱2,000–5,000",
               "note": "Một chiều, thay đổi theo mùa"
             },

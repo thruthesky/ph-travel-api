@@ -35,8 +35,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.5, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 12.4167 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 122.5667 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 12.3856 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 122.5614 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -381,14 +381,20 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Lộ trình phổ biến nhất từ Manila là đi phà Ro-Ro từ cảng Batangas, qua đảo Romblon rồi đến Magdiwang, đảo Sibuyan. Tàu khởi hành vào buổi tối và đến nơi vào sáng hôm sau, mất khoảng "
+                      "text": "Tuyến chính từ Manila là đi tàu RoRo của Starlite Ferries từ cảng Batangas, qua đảo Romblon rồi đến cảng Ambulong ở Magdiwang, Sibuyan. Tàu khởi hành vào buổi chiều và đến nơi lúc nửa đêm hoặc sáng sớm, mất khoảng "
                     },
-                    { "type": "duration", "text": "12–16 giờ" },
-                    { "text": ", giá vé khoảng " },
-                    { "type": "price", "text": "₱1,200–1,800" },
+                    { "type": "duration", "text": "12 giờ" },
+                    { "text": ", vé khoảng " },
+                    { "type": "price", "text": "₱1,000–2,500" },
                     {
-                      "text": ". Vì thường chỉ có vài chuyến mỗi tuần nên bạn cần kiểm tra kỹ lịch trình của hãng tàu trước."
-                    }
+                      "text": " tùy hạng ghế. Ngày và giờ tàu chạy hay thay đổi nên nhất định phải kiểm tra lịch trình trên "
+                    },
+                    {
+                      "type": "link",
+                      "text": "trang chính thức của Starlite Ferries",
+                      "url": "https://starliteferries.com/"
+                    },
+                    { "text": " trước." }
                   ]
                 }
               ]
@@ -418,16 +424,20 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    {
-                      "text": "Bạn cũng có thể bay từ Manila đến sân bay Roxas (RXS) ở phía bắc đảo Panay, mất khoảng "
-                    },
+                    { "text": "Ngoài ra, bạn có thể bay khoảng " },
                     { "type": "duration", "text": "1 giờ" },
                     {
-                      "text": ", rồi từ cảng thành phố Roxas lên tàu đến San Fernando hoặc Cajidiocan trên đảo Sibuyan. Tàu mất khoảng "
+                      "text": " từ Manila đến sân bay Roxas (RXS) ở bắc đảo Panay, rồi lên tàu RoRo của Starlite Ferries tại cảng Culasi, thành phố Roxas để đến Magdiwang, Sibuyan. Tàu thường rời cảng mỗi ngày lúc "
                     },
-                    { "type": "duration", "text": "3–4 giờ" },
+                    { "type": "time", "text": "1 giờ chiều" },
+                    { "text": ", mất khoảng " },
+                    { "type": "duration", "text": "5 giờ" },
+                    { "text": ", vé khoảng " },
+                    { "type": "price", "text": "₱800–1,100" },
+                    { "text": ", còn chiều từ Sibuyan về Roxas khởi hành lúc " },
+                    { "type": "time", "text": "6 giờ sáng" },
                     {
-                      "text": " và chỉ chạy vào những ngày cố định trong tuần nên cần kiểm tra trước. Vì có nhiều chuyến bay nên cách này hữu ích cho du khách có lịch trình eo hẹp, nhưng do phần lớn là tàu nhỏ nên dễ bị hủy chuyến tùy thời tiết."
+                      "text": ". Cách này có nhiều chuyến bay nên hữu ích cho du khách có lịch trình gấp, nhưng khi thời tiết xấu tàu có thể bị hủy nên hãy dự phòng một ngày."
                     }
                   ]
                 }
@@ -494,6 +504,29 @@
               "text": " là mùa mưa và mùa bão, nước sông dâng cao khiến việc bơi lội trở nên nguy hiểm, và tàu qua biển Sibuyan thường xuyên bị hủy chuyến. Vào mùa bão, biển ở đây rất nguy hiểm — từng có một tàu khách bị lật ngoài khơi đảo này trong cơn bão năm 2008 gây thiệt hại lớn về người — nên khi có cảnh báo thời tiết, bạn cần hoãn lại việc di chuyển bằng tàu."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 1",
+              "Tháng 11–12 là mùa mưa và mùa bão",
+              "Thời gian hạn chế leo núi Guiting-Guiting — hãy xem thông báo"
+            ],
+            [
+              "Tháng 2 – tháng 5",
+              "Mùa khô, ven biển 30–34℃",
+              "Ít mưa, biển lặng — thời điểm lý tưởng để leo núi, đi sông và thác"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa và bão, nước sông dâng",
+              "Bơi lội nguy hiểm, tàu hay bị hủy chuyến — hoãn di chuyển khi có cảnh báo thời tiết"
+            ]
+          ]
         }
       ]
     },
@@ -510,7 +543,7 @@
           "items": [
             {
               "label": "Tàu Batangas–Sibuyan",
-              "price": "Khoảng ₱1,200–1,800",
+              "price": "Khoảng ₱1,000–2,500",
               "note": "Một chiều, phà Ro-Ro qua đảo Romblon"
             },
             { "label": "Tàu đảo Romblon–Sibuyan", "price": "Khoảng ₱200–400", "note": "Một chiều" },
@@ -526,8 +559,13 @@
             },
             {
               "label": "Thuyền bangka đến Cresta de Gallo",
-              "price": "Khoảng ₱1,500–3,000",
+              "price": "Khoảng ₱2,500–3,500",
               "note": "1 thuyền, khứ hồi"
+            },
+            {
+              "label": "Phí vào cổng Crestas de Gallo",
+              "price": "Khoảng ₱70–100",
+              "note": "1 người, trong ngày hoặc 1 đêm"
             },
             {
               "label": "Thuê nguyên chuyến tricycle",
@@ -611,6 +649,15 @@
             },
             {
               "children": [
+                { "text": "Theo quy định của Ban quản lý công viên (PAMB) năm " },
+                { "text": "2026", "type": "date" },
+                {
+                  "text": ", để leo lên đến đỉnh, bạn phải nộp chứng nhận đã hoàn thành ít nhất 2 chuyến leo núi lớn gần đây, còn nếu chỉ đi đến Camp 1, Camp 2 hoặc Mayos Peak thì được miễn. Ai cũng cần giấy khám sức khỏe và giấy tờ tùy thân, và tiêu chuẩn chi tiết hay thay đổi nên hãy hỏi văn phòng công viên trước."
+                }
+              ]
+            },
+            {
+              "children": [
                 {
                   "text": "Khi leo núi cần mang găng tay, mũ bảo hiểm và áo khoác chống thấm nhẹ. Rặng đá khá sắc và trơn trượt khi trời mưa."
                 }
@@ -642,6 +689,23 @@
                 {
                   "text": "Có nhiều muỗi và ruồi hút máu, nên khi ở trong rừng và ven sông cần mặc quần áo dài tay và mang theo thuốc chống côn trùng."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bạn thuê thuyền bangka đi Crestas de Gallo tại cảng Azagra ở San Fernando, mất khoảng "
+                },
+                { "type": "duration", "text": "1–2 giờ" },
+                { "text": " một chiều tùy sóng. Giá khoảng " },
+                { "type": "price", "text": "₱2,500" },
+                { "text": " cho 1–4 người đi trong ngày và khoảng " },
+                { "type": "price", "text": "₱3,500" },
+                { "text": " cho 5–8 người, phí vào đảo (" },
+                { "type": "price", "text": "₱70" },
+                { "text": " trong ngày, " },
+                { "type": "price", "text": "₱100" },
+                { "text": " một đêm) tính riêng." }
               ]
             }
           ]

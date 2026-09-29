@@ -277,7 +277,7 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "09:00",
+                      "time": "11:30",
                       "children": [
                         {
                           "text": "Arrive at Basco Airport, check in at your accommodation after visitor registration"
@@ -285,14 +285,14 @@
                       ]
                     },
                     {
-                      "time": "11:00",
+                      "time": "12:30",
                       "children": [
                         { "text": "Stroll Santo Domingo Church and the plaza in downtown Basco" }
                       ]
                     },
-                    { "time": "12:00", "children": [{ "text": "Ivatan home-style lunch" }] },
+                    { "time": "13:00", "children": [{ "text": "Ivatan home-style lunch" }] },
                     {
-                      "time": "14:00",
+                      "time": "14:30",
                       "children": [{ "text": "Naidi Hill and the Basco Lighthouse" }]
                     },
                     {
@@ -439,15 +439,45 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "This is essentially the only practical way in. PAL Express (Philippine Airlines) operates a daily Manila–Basco (BSO) route, a flight of about "
+                      "text": "This is effectively the only realistic means. The PAL Express Manila–Basco route ended in "
                     },
-                    { "type": "duration", "text": "1 hour 30 minutes–1 hour 45 minutes" },
-                    { "text": ". One-way fares vary widely, from around " },
+                    { "type": "date", "text": "October 2025" },
+                    {
+                      "text": ", so now the Clark–Basco (BSO) route operates daily, with a flight time of about "
+                    },
+                    { "type": "duration", "text": "1 hour 15 minutes" },
+                    { "text": ". One-way fares vary widely, from about " },
                     { "type": "price", "text": "₱4,000" },
                     { "text": " during sales to over " },
                     { "type": "price", "text": "₱15,000" },
                     {
-                      "text": " in peak season, so booking months ahead is essential. Depending on the season, there are also small-plane routes from Clark or connecting Tuguegarao in Cagayan province, so check the latest schedules."
+                      "text": " in peak season, so booking several months ahead is essential. Check the latest flight information."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "From Manila, take the P2P bus to Clark International Airport (about "
+                    },
+                    { "type": "duration", "text": "2 hours 30 minutes–3 hours" },
+                    { "text": ", about " },
+                    { "type": "price", "text": "₱550–630" },
+                    {
+                      "text": " one way) from NAIA Terminal 3, PITX, Cubao, and elsewhere. Flights to Basco depart at around "
+                    },
+                    { "type": "time", "text": "10 AM" },
+                    {
+                      "text": ", so to avoid Manila's morning traffic jams it is safer to stay in Clark or Angeles the night before."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "From northern Luzon you can also use small airlines. Sky Pasada flies from Laoag, Tuguegarao, and Binalonan (Pangasinan), and Fliteline Airways flies from Tuguegarao to Basco. They are small aircraft with few seats, so they sell out early and baggage weight limits are strict, so check the conditions when booking. It is convenient for combining a northern Ilocos (Pagudpud, Laoag) trip with Batanes in one go."
                     }
                   ]
                 }
@@ -548,6 +578,29 @@
               "text": " school break bring the most domestic travelers, so during those periods it's safest to book flights and lodging at least three months ahead."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Northeast monsoon, around 15–20°C, rain and strong wind",
+              "Chilly weather — boats to Sabtang and Itbayat are often canceled"
+            ],
+            [
+              "March–June",
+              "Wind and waves ease and skies are clear",
+              "Flights and boats are stable — peak season in April–May, book 3 months ahead"
+            ],
+            [
+              "July–October",
+              "Typhoon season",
+              "Flights canceled for days at a time — leave 2–3 days of slack in your schedule"
+            ]
+          ]
         }
       ]
     },
@@ -563,7 +616,7 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Manila–Basco flight",
+              "label": "Clark–Basco flight",
               "price": "About ₱4,000–15,000 one-way",
               "note": "Wide range depending on season and booking timing"
             },
@@ -803,7 +856,7 @@
               "place": "pagudpud",
               "children": [
                 {
-                  "text": "Luzon's northernmost beach resort, reached by air via Manila and then overland."
+                  "text": "The northernmost beach resort on Luzon, which can be combined with the Laoag–Basco small aircraft (Sky Pasada)."
                 }
               ]
             },

@@ -383,13 +383,13 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Get off at Central Terminal station on LRT Line 1 and walk past Manila City Hall — about a "
+                      "text": "Get off at Central Terminal station on LRT Line 1 and walk past Manila City Hall; the museum is about a "
                     },
                     { "type": "duration", "text": "10-minute" },
-                    { "text": " walk to the art museum. It's also about a " },
+                    { "text": " walk away. From United Nations Avenue station it is also a " },
                     { "type": "duration", "text": "10–15-minute" },
-                    { "text": " walk from United Nations Avenue station. Fares are about " },
-                    { "type": "price", "text": "₱15–35" },
+                    { "text": " walk. The fare is about " },
+                    { "type": "price", "text": "₱16–55" },
                     { "text": "." }
                   ]
                 }
@@ -422,12 +422,12 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "About a " },
+                    { "text": "It is about a " },
                     { "type": "duration", "text": "15-minute" },
-                    { "text": " walk from the south wall of Intramuros, and " },
+                    { "text": " walk from the south wall of Intramuros and " },
                     { "type": "duration", "text": "5–10 minutes" },
                     {
-                      "text": " from the center of Rizal Park. The Museum of Fine Arts and the Museum of Anthropology face each other across the Agrifina Circle (a round plaza)."
+                      "text": " from the center of Rizal Park. The fine arts museum and the anthropology museum face each other across Agrifina Circle (a circular plaza)."
                     }
                   ]
                 }
@@ -488,6 +488,29 @@
               "text": " — so check the official website (nationalmuseum.gov.ph) or official Facebook page for the latest hours before visiting."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Indoors, so little affected by weather",
+              "Visit year-round — quiet on weekdays after 2 PM"
+            ],
+            [
+              "March–May",
+              "Heat of around 35°C at midday",
+              "A refuge from the heat — May 18 is International Museum Day"
+            ],
+            [
+              "June–November",
+              "Rainy season, afternoon showers",
+              "A refuge from showers — October is Museum Month, beware of typhoon closures"
+            ]
+          ]
         }
       ]
     },
@@ -513,7 +536,7 @@
               "price": "About ₱280–550 (one way)",
               "note": "Varies with traffic"
             },
-            { "label": "LRT Line 1", "price": "About ₱15–35", "note": "Central Terminal station" },
+            { "label": "LRT Line 1", "price": "About ₱16–55", "note": "Central Terminal station" },
             {
               "label": "Gift shop",
               "price": "About ₱200–1,500",
@@ -638,6 +661,25 @@
                 {
                   "text": "Elevators and ramps for wheelchair users make it suitable for family trips with elderly or less mobile members too."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Groups of 20–150 people must book at least 3 business days ahead on the "
+                },
+                {
+                  "type": "link",
+                  "text": "official booking site",
+                  "url": "https://reservation.nationalmuseum.gov.ph/"
+                },
+                {
+                  "text": ", and group tours are scheduled only Tuesday to Saturday. Sundays, Mondays, and public holidays are for individual walk-in visits only, so there are fewer groups, and on Sundays at "
+                },
+                { "type": "time", "text": "10:30 AM" },
+                { "text": " and " },
+                { "type": "time", "text": "2 PM" },
+                { "text": " there are guided tours that individual visitors can join too." }
               ]
             }
           ]

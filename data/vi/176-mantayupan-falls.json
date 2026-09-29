@@ -75,7 +75,19 @@
     "credit": "StrangerNbystander / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Mantayupan_Falls_of_Barili,_Cebu.jpg"
   },
-  "gallery": { "type": "carousel", "label": "Hình ảnh", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/176-mantayupan-falls-2.webp",
+        "alt": "Thác Mantayupan",
+        "credit": "Seallynnjay / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mantayupan_Ambakan.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -169,12 +181,12 @@
               "number": 2,
               "title": "Bè tre ở thác dưới",
               "children": [
-                { "text": "Tại hồ nước trước thác dưới cao khoảng " },
+                { "text": "Ở vũng nước trước thác dưới cao khoảng " },
                 { "type": "distance", "text": "14m" },
                 { "text": ", bạn có thể thuê bè tre (khoảng " },
-                { "type": "price", "text": "₱100" },
+                { "type": "price", "text": "₱100–300" },
                 {
-                  "text": ") để chèo đến sát chân thác. Chụp ảnh trong lúc hứng dòng nước là trải nghiệm tiêu biểu ở đây."
+                  "text": ") để đến ngay dưới chân thác. Chụp ảnh dưới dòng nước đổ xuống là trải nghiệm tiêu biểu ở đây."
                 }
               ]
             },
@@ -516,6 +528,25 @@
             { "text": "27–32℃", "type": "temperature" },
             { "text": ", nhưng trong thung lũng nhiều bóng râm nên khá mát mẻ." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, nước trong và đường không trơn",
+              "Vũng nước xanh ngọc — yên tâm đi bè và bơi"
+            ],
+            ["Tháng 3 – tháng 5", "Mùa khô, lượng nước giảm", "Dòng nước thác chính có thể nhỏ lại"],
+            [
+              "Tháng 6 – tháng 11",
+              "Mùa mưa, lượng nước tăng mạnh",
+              "Thác hùng vĩ nhất — sau mưa lớn có thể bị cấm vui chơi dưới nước"
+            ]
+          ]
         }
       ]
     },
@@ -533,7 +564,7 @@
             {
               "label": "Phí vào cổng",
               "price": "Khoảng ₱40–50",
-              "note": "Người lớn/người, giảm giá cho trẻ em · người cao tuổi"
+              "note": "Người lớn 1 người; trẻ 6–10 tuổi, người cao tuổi, người khuyết tật ₱30; trẻ từ 5 tuổi trở xuống miễn phí"
             },
             {
               "label": "Phí đỗ xe · phí môi trường",
@@ -550,7 +581,11 @@
               "price": "Khoảng ₱50–100",
               "note": "Một chiều"
             },
-            { "label": "Bè tre", "price": "Khoảng ₱100", "note": "Một lượt" },
+            {
+              "label": "Bè tre",
+              "price": "Khoảng ₱100–300",
+              "note": "Mỗi lượt, tùy thời gian và số người"
+            },
             { "label": "Thuê áo phao", "price": "Khoảng ₱50", "note": "Một chiếc" },
             { "label": "Thuê bàn · nhà chòi", "price": "Khoảng ₱200–250", "note": "Một ngày" },
             {

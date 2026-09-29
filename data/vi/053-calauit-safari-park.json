@@ -29,8 +29,8 @@
     "items": ["Hươu cao cổ", "Ngựa vằn", "Hươu Calamian", "Safari", "Du lịch gia đình"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 12.3 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 119.9 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 12.3011 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 119.8989 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -218,10 +218,10 @@
               "number": 5,
               "title": "Vượt eo biển ngập mặn",
               "children": [
-                { "text": "Chuyến đi bắt đầu bằng một hành trình ngắn khoảng " },
-                { "type": "duration", "text": "10 phút" },
+                { "text": "Chuyến đi bắt đầu bằng đoạn đường thủy ngắn, đi thuyền banca khoảng " },
+                { "type": "duration", "text": "5–10 phút" },
                 {
-                  "text": " bằng thuyền banca từ bến Buluang trên đảo chính Busuanga sang đảo Calauit. Vào những ngày trời quang, mặt nước có màu ngọc lục bảo."
+                  "text": " từ bến tàu Makalachao ở mũi tây bắc đảo chính Busuanga sang đảo Calauit. Vào ngày trời quang, nước biển có màu xanh ngọc lục bảo."
                 }
               ]
             },
@@ -267,7 +267,7 @@
                     {
                       "time": "08:00",
                       "children": [
-                        { "text": "Đến bến Buluang, di chuyển sang đảo Calauit bằng thuyền banca" }
+                        { "text": "Đến bến tàu Makalachao, đi thuyền banca sang đảo Calauit" }
                       ]
                     },
                     {
@@ -347,11 +347,24 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "Từ Manila đến Sân bay Busuanga (USU, Coron) mất khoảng " },
-                        { "type": "duration", "text": "1 tiếng" },
+                        { "text": "Từ Clark đến sân bay Busuanga (USU, Coron) mất khoảng " },
+                        { "type": "duration", "text": "1 tiếng 20 phút" },
                         {
-                          "text": ", với các chuyến bay hàng ngày của Philippine Airlines và Cebu Pacific. Tuyến từ Cebu, Clark cũng hoạt động tùy mùa."
+                          "text": ", Philippine Airlines, Cebgo (thuộc Cebu Pacific) và Sunlight Air khai thác nhiều chuyến mỗi ngày. Cũng có các chuyến bay thẳng từ Cebu."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Từ " },
+                        { "text": "29 tháng 3 năm 2026", "type": "date" },
+                        {
+                          "text": ", máy bay cánh quạt bị cấm khai thác tại sân bay Ninoy Aquino Manila nên không còn chuyến bay thẳng Manila–Busuanga. Nếu xuất phát từ Manila, hãy chọn một trong hai cách: đi xe buýt P2P từ NAIA Terminal 3, PITX… đến sân bay Clark (khoảng "
+                        },
+                        { "text": "2 tiếng 30 phút–3 tiếng", "type": "duration" },
+                        { "text": ", khoảng " },
+                        { "text": "₱480–550", "type": "price" },
+                        { "text": ") rồi lên máy bay, hoặc bay qua Cebu." }
                       ]
                     },
                     {
@@ -388,10 +401,10 @@
                     },
                     {
                       "children": [
-                        { "text": "Từ El Nido đến Coron bằng tàu cao tốc mất khoảng " },
+                        { "text": "Từ El Nido đến Coron đi tàu cao tốc mất khoảng " },
                         { "type": "duration", "text": "4 tiếng" },
                         { "text": ", giá khoảng " },
-                        { "type": "price", "text": "₱2,000–2,800" },
+                        { "type": "price", "text": "₱2,800–4,000" },
                         { "text": "/người." }
                       ]
                     }
@@ -418,10 +431,10 @@
                     },
                     {
                       "children": [
-                        { "text": "Nếu muốn tự đi, bạn cần thuê riêng xe van (khoảng " },
+                        { "text": "Nếu đi riêng, bạn phải thuê van nguyên chiếc (khoảng " },
                         { "type": "price", "text": "₱4,000–6,000" },
                         {
-                          "text": "/xe) và thuê thuyền riêng tại bến Buluang, nên trừ khi đi nhóm từ 4 người trở lên, tour ghép vẫn tiết kiệm hơn."
+                          "text": "/xe) và thuê thêm thuyền riêng tại bến tàu Makalachao, nên nếu không đi nhóm từ 4 người trở lên thì tour ghép sẽ tiết kiệm hơn."
                         }
                       ]
                     }
@@ -493,6 +506,26 @@
               "text": ". Động vật hoạt động sôi nổi nhất vào giờ cho ăn buổi sáng và ngay sau khi mặt trời mọc, nên dù mùa nào, đến thăm vào sáng sớm vẫn là lựa chọn tốt nhất."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            ["Tháng 11", "Bắt đầu mùa khô", "Đường sá tốt — biển lặng"],
+            ["Tháng 12–tháng 2", "Mùa khô, mát mẻ", "Đi safari giữa trưa vẫn chịu được"],
+            [
+              "Tháng 3–tháng 5",
+              "Mùa khô, oi bức, thảo nguyên khô vàng",
+              "Cảnh quan giống savan châu Phi"
+            ],
+            [
+              "Tháng 6–tháng 10",
+              "Mùa mưa, mưa nhiều",
+              "Đường đất lầy lội — kiểm tra dự báo bão tháng 7–11"
+            ]
+          ]
         }
       ]
     },
@@ -524,7 +557,7 @@
               "note": "Gồm cả khứ hồi và thời gian chờ"
             },
             {
-              "label": "Thuyền tại bến Buluang",
+              "label": "Thuyền từ bến tàu Makalachao",
               "price": "Khoảng ₱500–1,000/thuyền",
               "note": "Tính khứ hồi"
             },
@@ -542,6 +575,11 @@
               "label": "Ăn uống",
               "price": "Khoảng ₱250–600/bữa",
               "note": "Bữa trưa trong tour thường đã bao gồm"
+            },
+            {
+              "label": "Máy bay Clark–Busuanga",
+              "price": "Khoảng ₱2,500–6,000 một chiều",
+              "note": "Không có chuyến bay thẳng từ Manila, đặt sớm sẽ rẻ hơn"
             }
           ]
         },

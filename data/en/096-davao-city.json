@@ -366,6 +366,48 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Rainy-day alternative",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00–11:00",
+                      "children": [
+                        {
+                          "text": "Learn about Davao's indigenous tribes and the city's history at Museo Dabawenyo in the Poblacion."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:30–13:00",
+                      "children": [
+                        {
+                          "text": "Stop by San Pedro Cathedral, then have lunch at a tuna restaurant downtown."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "14:00–18:00",
+                      "children": [
+                        {
+                          "text": "Shop, have coffee, and enjoy durian desserts at SM Lanang Premier in Lanang or Abreeza Mall in Bajada."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The Eagle Center and Eden Nature Park on the outskirts have slippery roads and awkward viewing in the rain, so it's better to postpone them to a clear day."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -388,20 +430,22 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "A direct flight from Manila to Davao's Francisco Bangoy International Airport (DVO) takes about "
+                      "text": "From Manila to Davao's Francisco Bangoy International Airport (DVO), a direct flight takes about "
                     },
                     { "type": "duration", "text": "1 hour 50 minutes" },
-                    { "text": ", one-way around " },
+                    { "text": " and costs about " },
                     { "type": "price", "text": "₱2,500–7,000" },
-                    { "text": ". From Cebu it's about " },
+                    { "text": " one way. From Cebu it is about " },
                     { "type": "duration", "text": "1 hour 10 minutes" },
                     {
-                      "text": ", and there are also direct flights from several other cities, including Iloilo, Clark, and Butuan. Some international routes run too, including to Singapore. From the airport to downtown takes about "
+                      "text": ", and there are also direct flights from many other cities, including Iloilo, Clark, Bacolod, Tagbilaran (Bohol), Siargao, and Zamboanga. Internationally, there is a Singapore (Scoot) route, and Hong Kong and Bangkok routes are scheduled to resume from "
                     },
+                    { "type": "date", "text": "late October 2026" },
+                    { "text": ". From the airport to the city center is about " },
                     { "type": "duration", "text": "20–30 minutes" },
-                    { "text": ", by taxi for about " },
+                    { "text": ", at about " },
                     { "type": "price", "text": "₱200–350" },
-                    { "text": ", or Grab for a similar or slightly higher fare." }
+                    { "text": " by taxi and about the same or slightly more by Grab." }
                   ]
                 }
               ]
@@ -413,12 +457,10 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    {
-                      "text": "An air-conditioned bus from Cagayan de Oro via Bukidnon to Davao takes about "
-                    },
-                    { "type": "duration", "text": "6–8 hours" },
-                    { "text": " (about " },
-                    { "type": "price", "text": "₱600–800" },
+                    { "text": "From Cagayan de Oro via Bukidnon to Davao takes about " },
+                    { "type": "duration", "text": "5 hours 30 minutes–7 hours" },
+                    { "text": " by air-conditioned bus (about " },
+                    { "type": "price", "text": "₱700–1,000" },
                     { "text": "), and from General Santos about " },
                     { "type": "duration", "text": "3–4 hours" },
                     { "text": " (about " },
@@ -452,14 +494,14 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Davao's taxis have low base fares and are generally good about running the meter. Grab is also widely used, and jeepneys charge a base fare of about "
+                      "text": "Davao taxis have a low flag-down rate and the meter is generally used properly. Grab is also widely used, and jeepneys have a base fare of about "
                     },
-                    { "type": "price", "text": "₱13–15" },
+                    { "type": "price", "text": "₱14–17" },
                     {
-                      "text": ". For a day covering outlying spots like the eagle center and Eden Nature Park, a day-long taxi or van charter (about "
+                      "text": ". If you're covering outlying attractions such as the Eagle Center and Eden Nature Park in a day, it's convenient to charter a taxi or van for the day (about "
                     },
                     { "type": "price", "text": "₱2,500–4,000" },
-                    { "text": ") is convenient." }
+                    { "text": ")." }
                   ]
                 }
               ]
@@ -508,6 +550,30 @@
             {
               "text": ", when it's cheapest and best. Accommodation fills up fast during the festival, so book one to two months ahead."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "January–May",
+              "Relatively many clear days",
+              "Most pleasant of the year — around 23–33°C a day"
+            ],
+            ["June–July", "Frequent afternoon showers", "Schedule outlying trips for the morning"],
+            [
+              "August–November",
+              "Afternoon showers, little typhoon impact",
+              "Kadayawan Festival in August, durian season August–October — make reservations"
+            ],
+            [
+              "December",
+              "Rain evenly spread through the year",
+              "Typhoon damage is very rare, so travel is easy"
+            ]
           ]
         }
       ]
@@ -782,6 +848,18 @@
                 { "type": "duration", "text": "5–6 hours" },
                 {
                   "text": " via General Santos and Koronadal, a highland lake with T'boli culture and a zipline over Seven Falls."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Philippine Eagle Center",
+              "place": "philippine-eagle-center",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "1 hour" },
+                {
+                  "text": " by car to Calinan and Malagos, a conservation and breeding facility where you can see the Philippines' national bird up close."
                 }
               ]
             }

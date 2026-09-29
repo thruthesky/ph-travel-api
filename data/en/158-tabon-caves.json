@@ -275,7 +275,7 @@
                       "time": "07:00",
                       "children": [
                         {
-                          "text": "Bus or van to Quezon departs from San Jose Terminal in Puerto Princesa"
+                          "text": "Bus or van departs Puerto Princesa's Irawan Terminal for Quezon"
                         }
                       ]
                     },
@@ -288,7 +288,7 @@
                       ]
                     },
                     {
-                      "time": "13:00",
+                      "time": "12:00",
                       "children": [
                         {
                           "text": "Register and get a guide briefing at the National Museum's Quezon office"
@@ -296,7 +296,7 @@
                       ]
                     },
                     {
-                      "time": "14:00–17:00",
+                      "time": "13:00–16:30",
                       "children": [
                         {
                           "text": "Tour the Lipuun Point on-site museum, explore the caves along the boardwalk"
@@ -306,6 +306,24 @@
                     {
                       "time": "Evening",
                       "children": [{ "text": "Seafood dinner and sunset at the Quezon pier" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Guided cave tours run only on Tuesdays, Thursdays, Saturdays, and Sundays at "
+                    },
+                    { "type": "time", "text": "9 AM" },
+                    { "text": " and " },
+                    { "type": "time", "text": "1 PM" },
+                    {
+                      "text": ", so time your arrival in Quezon to fit those days, and book at least "
+                    },
+                    { "type": "duration", "text": "3 days" },
+                    {
+                      "text": " ahead. If you want the morning tour, you'll need to stay overnight in Quezon the day before."
                     }
                   ]
                 }
@@ -396,12 +414,12 @@
                     {
                       "children": [
                         {
-                          "text": "Cherry Bus and other operators, along with shared vans, depart for Quezon from San Jose Terminal north of Puerto Princesa, passing through Narra town — about "
+                          "text": "Buses to Quezon such as Cherry Bus and shared vans depart from Irawan Terminal on the outskirts of Puerto Princesa, passing through Narra town, covering about "
                         },
                         { "type": "distance", "text": "150km" },
-                        { "text": ", taking " },
+                        { "text": " in " },
                         { "type": "duration", "text": "3–4 hours" },
-                        { "text": ". Fares run around " },
+                        { "text": ". The fare is about " },
                         { "type": "price", "text": "₱300–450" },
                         { "text": "." }
                       ]
@@ -511,6 +529,29 @@
             {
               "text": ", the southwest monsoon blows directly onto the west coast where Quezon sits, bringing frequent rain and high waves. The caves themselves are reachable on foot, but island-hopping boats are often canceled, and the cave floors turn muddy after heavy rain. If you visit during this period, a short itinerary focused on just the caves and museum is more realistic."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, western sea relatively calm",
+              "Easy to combine with island hopping — boardwalk and cave floor less slippery"
+            ],
+            [
+              "March–May",
+              "Dry season, around 33℃ at midday",
+              "Explore the caves early in the morning or late in the afternoon"
+            ],
+            [
+              "June–October",
+              "Rainy season, rain and waves from the southwest monsoon",
+              "Hopping boats often cancelled — keep it short, focused on the caves and museum"
+            ]
           ]
         }
       ]
@@ -628,8 +669,20 @@
           "items": [
             {
               "children": [
+                { "text": "The on-site museum is open daily " },
+                { "type": "time", "text": "9 AM–5 PM" },
+                { "text": " (last admission " },
+                { "type": "time", "text": "4:30 PM" },
                 {
-                  "text": "National Museum facilities are often closed on Mondays. Before visiting, it's best to check opening days and registration procedures through the National Museum Tabon Cave Complex's Facebook page or by phone."
+                  "text": "), but guided cave tours run only on Tuesdays, Thursdays, Saturdays, and Sundays at "
+                },
+                { "type": "time", "text": "9 AM" },
+                { "text": " and " },
+                { "type": "time", "text": "1 PM" },
+                { "text": ", and you need to book at least " },
+                { "type": "duration", "text": "3 days" },
+                {
+                  "text": " ahead through the National Museum Tabon Caves Complex Facebook page or by phone. Operating arrangements may change, so check again before you leave."
                 }
               ]
             },

@@ -16,8 +16,8 @@
   },
   "tags": { "type": "tags", "label": "标签", "items": ["潟湖", "洞穴", "水母湖", "皮划艇", "悬崖跳水"] },
   "rating": { "type": "rating", "label": "推荐指数", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "纬度", "value": 9.6736 },
-  "longitude": { "type": "longitude", "label": "经度", "value": 125.9483 },
+  "latitude": { "type": "latitude", "label": "纬度", "value": 9.5971 },
+  "longitude": { "type": "longitude", "label": "经度", "value": 125.9279 },
   "best_season": {
     "type": "date",
     "label": "最佳季节",
@@ -57,7 +57,19 @@
     "credit": "Michael Angelo Luna / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Middle_Bucas_Grande_in_Dapa,_Siargao.jpg"
   },
-  "gallery": { "type": "carousel", "label": "照片", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/088-sohoton-cove-2.webp",
+        "alt": "索霍顿湾",
+        "credit": "AGUSTIN MENDEZ, Tubod Founding Hero / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sohoton.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -243,13 +255,15 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "从马尼拉到锡亚高萨亚克机场（IAO）约需" },
-                    { "type": "duration", "text": "1小时45分钟～2小时" },
-                    { "text": "，从宿务约" },
+                    { "text": "从马尼拉到锡亚高萨亚克机场(IAO)，自" },
+                    { "type": "date", "text": "2025年3月" },
+                    { "text": "起没有直飞航班，需要经宿务中转（宿务–锡亚高约" },
                     { "type": "duration", "text": "1小时" },
-                    { "text": "。通常从机场乘合乘面包车前往赫纳勒尔卢纳约" },
-                    { "type": "duration", "text": "45分钟～1小时" },
-                    { "text": "，再参加当日团。" }
+                    { "text": "），或从克拉克机场乘直飞航班（约" },
+                    { "type": "duration", "text": "2小时20分钟~2小时30分钟" },
+                    { "text": "）。一般是从机场乘合乘面包车到赫纳勒尔卢纳约" },
+                    { "type": "duration", "text": "45分钟~1小时" },
+                    { "text": "，再参加行程。" }
                   ]
                 }
               ]
@@ -339,6 +353,17 @@
             {
               "text": "期间受东北季风影响，降雨频繁、海况恶劣，行程可能被取消或移动变得十分困难。水母数量因年份而波动很大，有些年份某些月份几乎看不到，建议适当调整期待值。最重要的是，穿越洞穴入口取决于退潮时间，因此团费出发时间由旅行社依潮汐表而定。"
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "各时期一览",
+          "icon": "calendar_month",
+          "columns": ["时期", "天气", "旅行要点"],
+          "rows": [
+            ["3月~7月", "海面平静，天空晴朗", "潟湖水色鲜明——水母湖的水母倾向于最多"],
+            ["8月~10月", "大体可以前往，西南风·涌浪", "部分日子受影响——通过洞口以退潮为准"],
+            ["11月~2月", "东北季风，多雨浪大", "行程取消·出行困难——水母数量逐年差异大"]
           ]
         }
       ]

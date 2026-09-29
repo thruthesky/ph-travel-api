@@ -29,8 +29,8 @@
     "items": ["Canyoneering", "Nước xanh ngọc", "Nhảy vách đá", "Trekking dọc suối", "Gần Moalboal"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.7, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.8 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.3667 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.802 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.3739 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -446,6 +446,49 @@
               "text": "), có ngày chính bản thân thác cũng đóng cửa. Nếu đi vào mùa mưa, nhất định phải kiểm tra xem hôm trước có mưa không và công ty có hoạt động bình thường không. Vào cuối tuần và các kỳ nghỉ Phục sinh, Giáng sinh, khách địa phương tăng mạnh nên nên đi vào sáng sớm."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Sau khi bão Odette làm hẻm núi hư hại nặng vào " },
+            { "text": "tháng 12 năm 2021", "type": "date" },
+            { "text": ", tỉnh Cebu đã tạm thời đóng cửa thác vào " },
+            { "text": "tháng 6 năm 2023", "type": "date" },
+            {
+              "text": " để dỡ bỏ các công trình nguy hiểm và dọn dẹp các đơn vị canyoneering không phép, rồi sau khi chỉnh trang như đào tạo hướng dẫn viên đã mở cửa trở lại vào "
+            },
+            { "text": "tháng 10 năm 2023", "type": "date" },
+            { "text": ". Vào " },
+            { "text": "tháng 6 năm 2026", "type": "date" },
+            { "text": ", chính quyền tỉnh phân bổ ngân sách chỉnh trang " },
+            { "text": "₱110,000,000", "type": "price" },
+            {
+              "text": " để phục hồi môi trường và cải thiện thiết bị an toàn, nên trong thời gian thi công có thể hạn chế sử dụng một số khu vực."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 2",
+              "Mùa khô, nước trong",
+              "Canyoneering ổn định — dịp nghỉ Giáng sinh nên đến vào sáng sớm"
+            ],
+            [
+              "Tháng 3–tháng 5",
+              "Mùa khô, nắng gắt",
+              "Màu nước rõ nhất — đông người, dịp nghỉ lễ Phục sinh rất đông"
+            ],
+            [
+              "Tháng 6–tháng 11",
+              "Mùa mưa và mùa bão (tháng 8–11)",
+              "Nước đục, mực nước dâng — có ngày dừng hoặc đóng cửa canyoneering, hãy kiểm tra hoạt động"
+            ]
+          ]
         }
       ]
     },
@@ -647,6 +690,19 @@
               "children": [
                 {
                   "text": "Giới hạn độ tuổi (khoảng từ 7–10 tuổi trở lên) và điều kiện sức khỏe khác nhau tùy công ty, nên nếu đi cùng trẻ em hãy kiểm tra trước."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Mức giá quy định cho canyoneering tính đến " },
+                { "type": "date", "text": "năm 2023" },
+                { "text": " là " },
+                { "type": "price", "text": "₱1,500" },
+                { "text": "/người (trong đó " },
+                { "type": "price", "text": "₱200" },
+                {
+                  "text": " thuộc về chính quyền địa phương). Vì chính quyền tỉnh đang thực hiện dự án chỉnh trang nên giá, lộ trình và khu vực mở cửa có thể thay đổi; hãy hỏi đơn vị đã đăng ký về điều kiện mới nhất."
                 }
               ]
             }

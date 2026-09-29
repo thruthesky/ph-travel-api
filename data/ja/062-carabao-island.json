@@ -47,7 +47,7 @@
     "type": "airport",
     "label": "最寄り空港",
     "icon": "flight",
-    "text": "カティクラン空港 (MPH)",
+    "text": "カティクラン ゴドフレド・P・ラモス空港(MPH)",
     "code": "MPH"
   },
   "image": {
@@ -63,17 +63,10 @@
     "items": [
       {
         "type": "image",
-        "url": "images/062-carabao-island-2.webp",
+        "url": "images/062-carabao-island-4.webp",
         "alt": "カラバオ島",
-        "credit": "McNeil Gaila / CC BY-SA 4.0 / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Limbones_Island_2021.jpg"
-      },
-      {
-        "type": "image",
-        "url": "images/062-carabao-island-3.webp",
-        "alt": "カラバオ島",
-        "credit": "USAID Biodiversity & Forestry / Public domain / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:USAID_Measuring_Impact_Conservation_Enterprise_Retrospective_(Philippines;_Nagkakaisang_Tribu_ng_Palawan)_(40248017142).jpg"
+        "credit": "Alexey Komarov / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Boracay_Island,_Philippines_-_panoramio.jpg"
       }
     ]
   },
@@ -271,6 +264,37 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "ボラカイ発の日帰り",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "午前8時",
+                      "children": [
+                        { "text": "ボラカイ・ステーション1付近からチャーターバンカが出発(約" },
+                        { "type": "duration", "text": "40分〜1時間" },
+                        { "text": ")" }
+                      ]
+                    },
+                    { "time": "午前9時", "children": [{ "text": "コディンコディン・ポイントで崖ダイビングと水中洞窟の遊泳" }] },
+                    { "time": "午前10時30分", "children": [{ "text": "カテドラル・ケーブを探検(現地ガイド同行)" }] },
+                    { "time": "正午", "children": [{ "text": "ホワイトビーチの食堂で昼食と海水浴" }] },
+                    { "time": "午後2時", "children": [{ "text": "島周辺のサンゴ地帯でシュノーケリング" }] },
+                    { "time": "午後3時30分", "children": [{ "text": "風が強くなる前にボラカイへ戻る" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "チャーターバンカは、往復と待機時間を含めて料金を事前に決めます。タガイタイ・ポイントの夕日まで見ると帰り道が暗くなるため、島で1泊するほうが安全です。"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -299,6 +323,14 @@
                     { "text": "かかります。カティクラン空港のほうが港に近くはるかに便利で、カリボ空港に着いた場合はカティクランまでバンでさらに約" },
                     { "type": "duration", "text": "1時間30分〜2時間" },
                     { "text": "かかります。セブからもカティクラン・カリボへの直行便があります。" }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "クラーク空港からもカティクランへの直行便が1日2〜3便前後あり、約" },
+                    { "type": "duration", "text": "1時間15分" },
+                    { "text": "かかるため、マニラ北部やアンヘレスから出発するときに便利です。" }
                   ]
                 }
               ]
@@ -389,6 +421,18 @@
             { "text": "にこの一帯を通過するため、日程に余裕を持たせてください。近隣カリボのアティアティハン祭り(" },
             { "type": "date", "text": "1月" },
             { "text": "第3週)と組み合わせれば、パナイ島の祭りの雰囲気も一緒に楽しめます。" }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "時期別ひと目でわかる表",
+          "icon": "calendar_month",
+          "columns": ["時期", "天気", "旅のポイント"],
+          "rows": [
+            ["11月〜12月", "乾季の始まり", "乾季の旅行シーズンの始まり"],
+            ["1月〜4月", "乾季、海が穏やか・空が晴れる", "バンカ移動・崖ダイビングに適する — 1月アティアティハン"],
+            ["5月", "乾季、非常に暑い", "海の色が最も美しい"],
+            ["6月〜10月", "雨季、西の海が荒れる", "バンカの欠航が多い — 台風は7〜11月"]
           ]
         }
       ]

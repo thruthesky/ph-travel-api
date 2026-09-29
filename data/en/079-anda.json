@@ -85,6 +85,13 @@
         "alt": "Anda",
         "credit": "pinay06 / CC BY 2.5 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Andabeach.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/079-anda-3.webp",
+        "alt": "Anda",
+        "credit": "P199 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Anda_Bohol_2.JPG"
       }
     ]
   },
@@ -200,7 +207,7 @@
               "title": "Exploring the Lamanok rock art",
               "children": [
                 {
-                  "text": "At Lamanok Point on the peninsula's east coast, a local guide leads you past mangroves and rock cliffs to see red handprints, ancient human figures painted on the rock, and old burial caves."
+                  "text": "On Lamanok Island, a small island off the village of Badiang on the northeast of the peninsula, you follow a local guide past mangroves and rock cliffs to see red handprints, ancient human-shaped murals, and old burial caves."
                 }
               ]
             },
@@ -291,6 +298,16 @@
                     },
                     { "time": "Evening", "children": [{ "text": "Rest at your accommodation" }] }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "You can't swim at Cabagnow Cave Pool on Mondays and Fridays, so if Day 2 falls on one of those days, swap it with your Day 3 plan. The cave pool generally stops admitting visitors around "
+                    },
+                    { "type": "time", "text": "3:30 PM" },
+                    { "text": ", so it's better to stop by in the morning first." }
+                  ]
                 }
               ]
             },
@@ -375,16 +392,30 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "A bus or van to Anda from the Dao Integrated Bus Terminal in Tagbilaran takes about "
+                      "text": "A Ceres bus from the Dao Integrated Bus Terminal in Tagbilaran to Anda takes about "
                     },
-                    { "type": "duration", "text": "3–3.5 hours" },
-                    { "text": ", with fares of about " },
-                    { "type": "price", "text": "₱150–200" },
-                    { "text": " by bus and about " },
-                    { "type": "price", "text": "₱250–350" },
+                    { "type": "duration", "text": "3 hours" },
+                    { "text": " and costs about " },
+                    { "type": "price", "text": "₱100–200" },
+                    { "text": ". Vans that leave once the seats fill are faster at about " },
+                    { "type": "duration", "text": "2 hours–2 hours 30 minutes" },
+                    { "text": " and cost about " },
+                    { "type": "price", "text": "₱130–200" },
                     {
-                      "text": " by van. It follows the coastal road through several towns, so it takes time but offers good scenery. The last departure is often in the early afternoon, so a morning departure is recommended."
+                      "text": ", and large luggage may be charged as an extra seat. The road follows the coast through several villages, so it takes time but the scenery is good. Services thin out in the late afternoon, so we recommend leaving in the morning."
                     }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "If you took a boat from Camiguin Island in Mindanao and landed at Jagna Port in southern Bohol, it takes about "
+                    },
+                    { "type": "duration", "text": "1 hour" },
+                    { "text": " from Jagna to Anda by bus or van, at around " },
+                    { "type": "price", "text": "₱100" },
+                    { "text": ". It is much closer than going through Tagbilaran." }
                   ]
                 }
               ]
@@ -465,6 +496,29 @@
               "text": " holidays, local Bohol residents crowd Quinale Beach and weekend afternoons get busy, but on weekdays you can have the beach almost to yourself."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, waves and seaweed from the northeast wind",
+              "Waves and seaweed may wash ashore on windy days"
+            ],
+            [
+              "March–May",
+              "Dry season, calm and clear seas",
+              "Best time — sunrise and diving visibility, crowded on Holy Week weekends"
+            ],
+            [
+              "June–November",
+              "Rainy season, frequent showers",
+              "Can-umantad Falls at higher volume — typhoons October–December may disrupt plans"
+            ]
+          ]
         }
       ]
     },
@@ -481,8 +535,8 @@
           "items": [
             {
               "label": "Tagbilaran → Anda (bus/van)",
-              "price": "About ₱150–350",
-              "note": "3–3.5 hours"
+              "price": "About ₱100–200",
+              "note": "Van 2–2.5 hours, bus about 3 hours"
             },
             {
               "label": "Airport/Panglao → Anda vehicle charter",
@@ -577,7 +631,11 @@
             {
               "children": [
                 {
-                  "text": "Anda has almost no ATMs, and the ones it has often break down, so bring all the cash you'll need from Tagbilaran or Panglao. Many small resorts don't accept card payments."
+                  "text": "There is one Metrobank ATM at the entrance to Anda's town hall that accepts foreign cards, but it dispenses only up to "
+                },
+                { "type": "price", "text": "₱10,000" },
+                {
+                  "text": " at a time, charges a fee, and often breaks down or runs out of cash. Bring plenty of the cash you need from Tagbilaran or Panglao. Many small resorts do not accept card payments."
                 }
               ]
             },
@@ -585,6 +643,21 @@
               "children": [
                 {
                   "text": "Cave pools have set closing days and opening hours by day of the week. Confirm through your accommodation or local tourism info before planning your itinerary."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Cabagnow Cave Pool is generally open " },
+                { "type": "time", "text": "8:00 AM to 3:30 PM" },
+                {
+                  "text": ", and swimming is not allowed on Mondays and Fridays. Admission is about "
+                },
+                { "type": "price", "text": "₱50" },
+                { "text": ", plus a separate " },
+                { "type": "price", "text": "₱30" },
+                {
+                  "text": " environmental fee; if you've already paid the environmental fee elsewhere in Anda, show your receipt and you won't have to pay it again."
                 }
               ]
             },
@@ -719,12 +792,12 @@
               "place": "camiguin",
               "children": [
                 {
-                  "text": "A volcanic island across the sea south of Bohol, off the north coast of Mindanao, reached by boat in about "
+                  "text": "A volcanic island off northern Mindanao, across the sea south of Bohol, about "
                 },
-                { "type": "duration", "text": "3–4 hours" },
-                { "text": " from Jagna Port, about " },
+                { "type": "duration", "text": "4 hours 30 minutes" },
+                { "text": " by boat from Jagna Port, which is about " },
                 { "type": "duration", "text": "1 hour" },
-                { "text": " from Anda by car (check sailing days)." }
+                { "text": " by car from Anda (check which days the boats run)." }
               ]
             }
           ]

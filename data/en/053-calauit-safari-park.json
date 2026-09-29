@@ -29,8 +29,8 @@
     "items": ["Giraffes", "Zebras", "Calamian deer", "Safari", "Family trip"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 12.3 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 119.9 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 12.3011 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 119.8989 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -211,10 +211,10 @@
               "number": 5,
               "title": "Cross the mangrove strait",
               "children": [
-                { "text": "The trip begins with a short bangka ride of about " },
-                { "type": "duration", "text": "10 minutes" },
+                { "text": "The trip begins with a short bangka crossing of about " },
+                { "type": "duration", "text": "5–10 minutes" },
                 {
-                  "text": " from Buluang Wharf on Busuanga's main island to Calauit Island. On a clear day, the water is emerald green."
+                  "text": " from Makalachao Pier at the northwestern tip of the main island of Busuanga to Calauit Island. On clear days the water is an emerald green."
                 }
               ]
             },
@@ -258,7 +258,7 @@
                     {
                       "time": "8:00 AM",
                       "children": [
-                        { "text": "Arrive at Buluang Wharf, cross to Calauit Island by bangka" }
+                        { "text": "Arrive at Makalachao Pier and take a bangka to Calauit Island" }
                       ]
                     },
                     {
@@ -336,11 +336,24 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "It's about " },
-                        { "type": "duration", "text": "1 hour" },
+                        { "text": "It takes about " },
+                        { "type": "duration", "text": "1 hour 20 minutes" },
                         {
-                          "text": " from Manila to Busuanga Airport (USU, Coron), with daily flights on Philippine Airlines and Cebu Pacific. Seasonal flights from Cebu and Clark are also available."
+                          "text": " from Clark to Busuanga Airport (USU, Coron), with several flights a day by Philippine Airlines, Cebgo (a Cebu Pacific affiliate), and Sunlight Air. There are also direct flights from Cebu."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "From " },
+                        { "text": "March 29, 2026", "type": "date" },
+                        {
+                          "text": ", propeller aircraft have been banned from operating at Manila's Ninoy Aquino Airport, so direct Manila–Busuanga flights no longer exist. From Manila, choose between taking a P2P bus from NAIA Terminal 3, PITX, or similar points to Clark Airport (about "
+                        },
+                        { "text": "2 hours 30 minutes–3 hours", "type": "duration" },
+                        { "text": ", about " },
+                        { "text": "₱480–550", "type": "price" },
+                        { "text": ") and flying from there, or going via Cebu." }
                       ]
                     },
                     {
@@ -381,10 +394,10 @@
                     },
                     {
                       "children": [
-                        { "text": "A fast craft between El Nido and Coron takes about " },
+                        { "text": "From El Nido to Coron, a fast ferry takes about " },
                         { "type": "duration", "text": "4 hours" },
                         { "text": " and costs about " },
-                        { "type": "price", "text": "₱2,000–2,800" },
+                        { "type": "price", "text": "₱2,800–4,000" },
                         { "text": " per person." }
                       ]
                     }
@@ -411,10 +424,10 @@
                     },
                     {
                       "children": [
-                        { "text": "To go independently, you'd need to charter a van (about " },
+                        { "text": "If you go independently, you have to charter a van (about " },
                         { "type": "price", "text": "₱4,000–6,000" },
                         {
-                          "text": ") and rent a separate boat at Buluang Wharf, so unless you're a group of four or more, a joiner tour is more economical."
+                          "text": " per vehicle) and hire a boat separately at Makalachao Pier, so unless you are a group of four or more, a joiner tour is more economical."
                         }
                       ]
                     }
@@ -486,6 +499,26 @@
               "text": ". Regardless of season, the animals are most active during the morning feeding and just after sunrise, so an early visit is best."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            ["November", "Start of the dry season", "Good road conditions — calm seas"],
+            ["December–February", "Dry season, cool", "Even a midday safari is bearable"],
+            [
+              "March–May",
+              "Dry season, hot, with the grassland turning yellow",
+              "Scenery like the African savanna"
+            ],
+            [
+              "June–October",
+              "Rainy season, frequent rain",
+              "Unpaved roads turn muddy — check typhoon forecasts July–November"
+            ]
+          ]
         }
       ]
     },
@@ -521,7 +554,7 @@
               "note": "Round trip with waiting time included"
             },
             {
-              "label": "Buluang Wharf boat",
+              "label": "Boat from Makalachao Pier",
               "price": "About ₱500–1,000 per boat",
               "note": "Round trip"
             },
@@ -539,6 +572,11 @@
               "label": "Meals",
               "price": "About ₱250–600 per meal",
               "note": "Tour lunch is usually included"
+            },
+            {
+              "label": "Clark–Busuanga flight",
+              "price": "About ₱2,500–6,000 one way",
+              "note": "No direct flights from Manila; cheaper if booked early"
             }
           ]
         },

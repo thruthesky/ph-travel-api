@@ -383,14 +383,29 @@
                     {
                       "children": [
                         {
-                          "text": "Xe buýt đêm trực tiếp từ Manila đi Banaue chạy hằng ngày. Tiêu biểu là Ohayami Trans (xuất phát từ Sampaloc, Manila) và Coda Lines (xuất phát từ Cubao), mất khoảng "
+                          "text": "Có xe buýt đêm đi thẳng từ Manila đến Banaue chạy hằng ngày. Tiêu biểu là Ohayami Trans (xuất phát từ Sampaloc, Manila) và Coda Lines (xuất phát từ Cubao), mất khoảng "
                         },
-                        { "type": "duration", "text": "8-10 giờ" },
-                        { "text": ", giá vé khoảng " },
-                        { "type": "price", "text": "₱650-1,000" },
-                        { "text": ". Thường xuất phát khoảng " },
-                        { "type": "time", "text": "9-10 giờ tối" },
+                        { "type": "duration", "text": "8–10 giờ" },
+                        { "text": " và giá vé khoảng " },
+                        { "type": "price", "text": "₱650~1,000" },
+                        { "text": ". Tùy công ty và hạng xe, xe xuất phát trong khoảng " },
+                        { "type": "time", "text": "5 giờ chiều đến 10 giờ 30 tối" },
                         { "text": " và đến nơi vào sáng sớm." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Ohayami có thể mua trước ghế bằng GCash hoặc thẻ trên " },
+                        {
+                          "type": "link",
+                          "text": "trang đặt vé chính thức",
+                          "url": "https://ohayami.ph/"
+                        },
+                        {
+                          "text": ", còn Coda Lines mua ở quầy vé bến Cubao hoặc qua đại lý đặt vé trực tuyến. Vào Tuần Thánh và dịp cuối năm – đầu năm, vé thường hết trước "
+                        },
+                        { "type": "duration", "text": "1–2 tuần" },
+                        { "text": "." }
                       ]
                     },
                     {
@@ -455,6 +470,19 @@
                         {
                           "text": " đi xe. Cũng có thể đến từ sân bay Tuguegarao (TUG), nhưng kết nối phương tiện công cộng không thuận tiện."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Để tiết kiệm thời gian, cũng có cách bay từ Manila đến Sân bay Cauayan (CYZ) ở tỉnh Isabela bằng Cebu Pacific hoặc PAL Express khoảng "
+                        },
+                        { "type": "duration", "text": "1 giờ" },
+                        { "text": ", rồi đi xe thuê riêng khoảng " },
+                        { "type": "duration", "text": "3–4 giờ" },
+                        { "text": " đến Banaue. Nếu đổi phương tiện công cộng thì mất hơn " },
+                        { "type": "duration", "text": "5 giờ" },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -528,15 +556,47 @@
           "children": [
             { "text": "Về thời tiết, mùa khô " },
             { "type": "date", "text": "tháng 12 - tháng 4" },
-            { "text": " thuận tiện để di chuyển, nhưng rạng sáng " },
+            { "text": " thuận tiện đi lại, nhưng sáng sớm " },
             { "type": "date", "text": "tháng 12 - tháng 2" },
-            { "text": " khá lạnh, khoảng " },
+            { "text": " lạnh khoảng " },
             { "type": "temperature", "text": "10℃" },
             { "text": ". Vào mùa mưa " },
             { "type": "date", "text": "tháng 6 - tháng 10" },
             {
-              "text": ", mưa và sương mù thường xuyên, và nếu có bão, đường Lagawe-Banaue có thể bị sạt lở. Lễ hội văn hóa Ifugao \"Imbayah\" chỉ tổ chức vài năm một lần, nên hãy kiểm tra thông báo của trung tâm thông tin du lịch xem có trùng thời gian đi hay không."
+              "text": ", mưa và sương mù thường xuyên, và nếu có bão thì đường Lagawe – Banaue có thể sạt lở. Lễ hội văn hóa \"Imbayah\" của Banaue thường diễn ra vào "
+            },
+            { "type": "date", "text": "cuối tháng 4 - đầu tháng 5" },
+            {
+              "text": ", nhưng việc tổ chức và ngày tháng thay đổi mỗi năm, nên hãy xem thông báo của văn phòng thông tin du lịch để biết có hợp với thời gian chuyến đi không."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, sáng sớm khoảng 10℃",
+              "Tháng 1–2 mùa cấy — tháng 12 là dọn ruộng, tháo nước vào ruộng"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô (đến tháng 4), ruộng xanh mướt",
+              "Tháng 4–5 xanh đẹp nhất — lễ hội Imbayah cuối tháng 4 đến đầu tháng 5"
+            ],
+            [
+              "Tháng 6 – tháng 7",
+              "Mùa mưa, mưa và sương mù thường xuyên",
+              "Lúa chín vàng thu hoạch — lưu ý sạt lở khi có bão"
+            ],
+            [
+              "Tháng 8 – tháng 11",
+              "Mùa mưa (đến tháng 10), mưa và sương mù",
+              "Dọn ruộng, tháo nước nên đường bờ ruộng hiện rõ nét"
+            ]
           ]
         }
       ]
@@ -809,6 +869,18 @@
                 { "type": "duration", "text": "8-9 giờ" },
                 {
                   "text": " đi xe buýt, thích hợp làm điểm bắt đầu hoặc kết thúc hành trình vòng quanh Cordillera."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Ruộng bậc thang Maligcong",
+              "place": "maligcong-rice-terraces",
+              "children": [
+                { "text": "Đi xe qua Bontoc khoảng " },
+                { "type": "duration", "text": "3 giờ" },
+                {
+                  "text": ", đây là ngôi làng miền núi gần Bontoc nổi tiếng với bờ ruộng xếp đá và bình minh biển mây."
                 }
               ]
             }

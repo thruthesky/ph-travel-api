@@ -34,8 +34,8 @@
     "items": ["Hồ miệng núi lửa", "Người T'boli", "Cắm trại", "Trekking", "Núi Melibengoy"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 6.1133 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 124.8917 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 6.1008 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 124.8885 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -550,6 +550,34 @@
               "text": ", và cảm giác lạnh hơn khi có gió. Lịch tạm đóng cửa và ngày mở lại thay đổi theo từng năm, nên bạn nhất định phải kiểm tra thông báo mới nhất của văn phòng du lịch T'boli."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 1 – tháng 2",
+              "Đóng cửa vì thời kỳ nghỉ đầu năm",
+              "Đóng để phục hồi hệ sinh thái — ngày thay đổi theo từng năm"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Ít mưa, đường rừng ít lầy",
+              "Tốt nhất để trekking — khoảng lúc mở cửa lại vào tháng 3 và lễ hội Seslong"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Thường có mưa vào buổi chiều",
+              "Đường núi lầy lội, sương mù che tầm nhìn hồ"
+            ],
+            [
+              "Tháng 11 – tháng 12",
+              "Ban ngày 20–24℃, ban đêm 12–16℃",
+              "Xem thông báo của văn phòng du lịch T'boli để biết lịch thời kỳ nghỉ"
+            ]
+          ]
         }
       ]
     },
@@ -725,6 +753,21 @@
           "ordered": false,
           "icon": "error",
           "items": [
+            {
+              "children": [
+                { "text": "Trận động đất mạnh 7.8 ngoài khơi Sarangani vào " },
+                { "text": "ngày 8 tháng 6 năm 2026", "type": "date" },
+                {
+                  "text": " đã gây sạt lở đất ở núi Melibengoy và lộ trình Salacafe, và văn phòng vùng 12 của Bộ Môi trường và Tài nguyên Thiên nhiên (DENR) đã tạm dừng việc thăm hồ Holon và trekking cho đến khi có thông báo khác. Trước đó vào "
+                },
+                { "text": "tháng 4", "type": "date" },
+                { "text": ", khu vực cũng đã đóng cửa khoảng " },
+                { "text": "2 tuần", "type": "duration" },
+                {
+                  "text": " do giao tranh giữa quân đội và phiến quân ở làng gần đó, vì vậy hãy nhất định xác nhận việc mở cửa lại và thông báo an toàn trước khi lên lịch trình."
+                }
+              ]
+            },
             {
               "children": [
                 {

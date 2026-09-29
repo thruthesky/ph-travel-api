@@ -488,6 +488,34 @@
               "text": " in particular, and Marian feast days around Easter, pilgrims pour in from across the country and the roads around the church get very congested. For quiet prayer, go on a weekday morning; for festival atmosphere, time your visit to a feast day but be ready for heavy traffic."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, little rain",
+              "Easy to get around — pilgrims flock in on the first Sunday of the new year"
+            ],
+            [
+              "March–May",
+              "Late dry season, around 35℃ at midday",
+              "Make your pilgrimage early in the morning — Holy Week and Marian feast days around Easter are crowded"
+            ],
+            [
+              "June–September",
+              "Rainy season, southwest monsoon and typhoons",
+              "Roads may flood and buses run late in heavy rain"
+            ],
+            [
+              "October",
+              "Rainy season, month of the Holy Rosary",
+              "Feast day around the first Sunday — pilgrims flock in and the roads are extremely congested"
+            ]
+          ]
         }
       ]
     },
@@ -614,9 +642,13 @@
             },
             {
               "children": [
+                { "text": "Check Mass times and feast day schedules in advance on the church's " },
                 {
-                  "text": "Check Mass times and the feast-day schedule in advance on the church's official website or Facebook page."
-                }
+                  "type": "link",
+                  "text": "official website",
+                  "url": "https://www.manaoagminorbasilica.org/"
+                },
+                { "text": " or Facebook notices." }
               ]
             },
             {

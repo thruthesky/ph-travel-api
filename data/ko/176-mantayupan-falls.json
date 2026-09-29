@@ -47,7 +47,7 @@
     "type": "airport",
     "label": "가까운 공항",
     "icon": "flight",
-    "text": "막탄 세부 국제공항(CEB)",
+    "text": "막탄-세부 국제공항(CEB)",
     "code": "CEB"
   },
   "image": {
@@ -57,7 +57,19 @@
     "credit": "StrangerNbystander / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Mantayupan_Falls_of_Barili,_Cebu.jpg"
   },
-  "gallery": { "type": "carousel", "label": "사진", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/176-mantayupan-falls-2.webp",
+        "alt": "만타유판 폭포",
+        "credit": "Seallynnjay / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mantayupan_Ambakan.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -148,7 +160,7 @@
                 { "text": "높이 약 " },
                 { "type": "distance", "text": "14m" },
                 { "text": "의 아래 폭포 앞 물웅덩이에서는 대나무 뗏목(약 " },
-                { "type": "price", "text": "₱100" },
+                { "type": "price", "text": "₱100~300" },
                 { "text": ")을 빌려 폭포 바로 밑까지 다가갈 수 있습니다. 물살을 맞으며 사진을 찍는 것이 이곳의 대표 체험입니다." }
               ]
             },
@@ -385,7 +397,7 @@
                     },
                     {
                       "children": [
-                        { "text": "막탄 세부 국제공항(CEB)에서 바로 간다면 그랩이나 대절 차량으로 약 " },
+                        { "text": "막탄-세부 국제공항(CEB)에서 바로 간다면 그랩이나 대절 차량으로 약 " },
                         { "type": "duration", "text": "2시간 30분~3시간" },
                         { "text": "을 잡습니다." }
                       ]
@@ -434,6 +446,17 @@
             { "type": "temperature", "text": "27~32℃" },
             { "text": " 정도이지만 계곡 안은 그늘이 많아 시원합니다." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "시기별 한눈에 보기",
+          "icon": "calendar_month",
+          "columns": ["시기", "날씨", "여행 포인트"],
+          "rows": [
+            ["12월~2월", "건기, 물 맑고 길 안 미끄러움", "물웅덩이 청록빛 — 뗏목·수영 안심"],
+            ["3월~5월", "건기, 수량 줄어듦", "주 폭포 물줄기가 가늘어질 수 있음"],
+            ["6월~11월", "우기, 수량 크게 늘어남", "폭포 가장 웅장 — 큰비 뒤 물놀이 통제 가능"]
+          ]
         }
       ]
     },
@@ -448,11 +471,11 @@
           "currency": "PHP",
           "columns": ["항목", "예상 비용", "비고"],
           "items": [
-            { "label": "입장료", "price": "약 ₱40~50", "note": "성인 1인, 어린이·노인 할인" },
+            { "label": "입장료", "price": "약 ₱40~50", "note": "성인 1인, 6~10세·노인·장애인 ₱30, 5세 이하 무료" },
             { "label": "주차료·환경 요금", "price": "약 ₱10~20", "note": "차량·1인 기준, 별도 징수" },
             { "label": "세부 시티–바릴리 버스", "price": "약 ₱100~150", "note": "편도, 2~2시간 30분" },
             { "label": "바릴리 시내–폭포 하발하발", "price": "약 ₱50~100", "note": "편도" },
-            { "label": "대나무 뗏목", "price": "약 ₱100", "note": "1회" },
+            { "label": "대나무 뗏목", "price": "약 ₱100~300", "note": "1회, 시간·인원에 따라 다름" },
             { "label": "구명조끼 대여", "price": "약 ₱50", "note": "1개" },
             { "label": "테이블·오두막 대여", "price": "약 ₱200~250", "note": "하루" },
             { "label": "차량 대절", "price": "약 ₱3,500~5,000", "note": "1대, 세부 시티 출발 하루" },

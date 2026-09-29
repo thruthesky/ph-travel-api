@@ -29,8 +29,8 @@
     "items": ["Manta rays", "Drift diving", "Sea waterfall", "Island hopping", "Snorkeling"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 12.5167 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.7 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 12.5292 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.6981 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -368,24 +368,28 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "There are two ways to get here from Manila. The first is to fly to Masbate Airport (MBT), take a boat from Masbate City port about "
+                      "text": "There are two ways from Manila. The first is to fly from Clark or Cebu on a small Cebgo plane to Masbate Airport (MBT) (the direct Manila flight has been discontinued since "
+                    },
+                    { "type": "date", "text": "March 29, 2026" },
+                    { "text": ", and it's about " },
+                    { "type": "duration", "text": "1 hour 30 minutes" },
+                    {
+                      "text": " from Clark), cross by boat from Masbate City port to Lagundi at the island's southern end in about "
                     },
                     { "type": "duration", "text": "30 minutes–1 hour" },
-                    {
-                      "text": " across to Lagundi on the island's south end, then continue to Monreal by motorbike taxi (habal-habal), for about "
-                    },
+                    { "text": ", then continue by motorbike taxi (habal-habal) to Monreal (about " },
                     { "type": "price", "text": "₱300–500" },
                     {
-                      "text": ". The second is to fly to Bicol International Airport (DRP, in Daraga, Albay), which has more flights, take a van about "
+                      "text": "). The second is to fly to Bicol International Airport (DRP, Daraga, Albay), which has more flights, take a van about "
                     },
-                    { "type": "duration", "text": "1 hour–1 hour 30 minutes" },
+                    { "type": "duration", "text": "1–1.5 hours" },
                     {
-                      "text": " to Pilar port in Sorsogon, then catch a boat. The Manila–Bicol International Airport flight takes about "
+                      "text": " to Pilar port in Sorsogon, and then board a boat. The Manila–Bicol International Airport flight takes about "
                     },
                     { "type": "duration", "text": "1 hour" },
-                    { "text": ", for a one-way fare of around " },
+                    { "text": " and costs about " },
                     { "type": "price", "text": "₱2,000–5,000" },
-                    { "text": "." }
+                    { "text": " one way." }
                   ]
                 }
               ]
@@ -519,6 +523,29 @@
             {
               "text": " brings the northeast monsoon Amihan, which roughens the strait and brings frequent rain, so if diving is your goal, it's wise to build in two or more weather buffer days."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Northeast monsoon, frequent rain",
+              "Rough waves in the strait — leave at least two spare days for weather"
+            ],
+            [
+              "March–June",
+              "Calm seas, 30–34℃",
+              "Best for reef mantas — good visibility, whale sharks often appear"
+            ],
+            [
+              "July–October",
+              "Rainy and typhoon season",
+              "Boats can stop for days during typhoons — chance of meeting thresher sharks"
+            ]
           ]
         }
       ]

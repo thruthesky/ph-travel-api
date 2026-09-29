@@ -29,7 +29,7 @@
     "items": ["Đồi cát", "Tour xe 4x4", "Trượt cát", "Hoàng hôn", "Hoạt động trải nghiệm"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 18.219 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 18.2189 },
   "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.545 },
   "best_season": {
     "type": "date",
@@ -85,6 +85,13 @@
         "alt": "Đồi cát La Paz",
         "credit": "ricky artigas / CC BY 2.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:La_Paz_Sand_Dunes.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/032-la-paz-sand-dunes-3.webp",
+        "alt": "Đồi cát La Paz",
+        "credit": "Luzviminda7641 / CC0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:4x4_riders_at_La_Paz_Sand_Dunes,_Laoag,_2015.jpg"
       }
     ]
   },
@@ -175,7 +182,7 @@
             {
               "type": "card",
               "number": 2,
-              "title": "Trượt ván cát",
+              "title": "Trượt cát",
               "children": [
                 {
                   "text": "Giữa tour, bạn sẽ trượt ván xuống từ những triền dốc đứng. Nếu khó đứng vững, chỉ cần nằm sấp hoặc ngồi trên ván trượt như trượt xe kéo cũng đủ vui. Đường leo ngược lên toàn cát nên khá mệt hơn bạn tưởng."
@@ -377,12 +384,12 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ các bến Cubao, Sampaloc ở Manila, xe buýt đi Laoag của Partas, Fariñas Trans, Maria de Leon… chạy hằng ngày. Thời gian di chuyển khoảng "
+                      "text": "Xe buýt đi Laoag của Partas, Fariñas Trans, Maria de Leon,... chạy hằng ngày từ bến Cubao, Sampaloc ở Manila. Mất khoảng "
                     },
                     { "type": "duration", "text": "9–11 giờ" },
                     { "text": ", giá vé khoảng " },
-                    { "type": "price", "text": "₱1,000–1,800" },
-                    { "text": " tùy hạng. Từ Vigan đi xe buýt đến Laoag mất khoảng " },
+                    { "type": "price", "text": "₱1,150~1,800" },
+                    { "text": " tùy hạng xe. Từ Vigan đi xe buýt đi Laoag mất khoảng " },
                     { "type": "duration", "text": "2 giờ" },
                     { "text": "." }
                   ]
@@ -457,6 +464,29 @@
               "text": " là mùa bão nhiều nên cần chừa thêm thời gian dự phòng cho lịch trình bay và xe buýt. Bù lại, vào những ngày nắng ngay sau mưa, bụi ít và trời trong nên ảnh chụp lại rất đẹp."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, cát khô và sáng tối mát mẻ",
+              "Tháng 12–2 gió tạo vân sóng trên cát — jeep và trượt cát rất hợp"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, cát rất nóng vào giữa trưa",
+              "Đi tour sau 4 giờ chiều — ánh nắng phản chiếu mạnh"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, tháng 7–9 hay có bão",
+              "Tour bị dừng, trượt cát kém — sau khi tạnh mưa chụp ảnh đẹp"
+            ]
+          ]
         }
       ]
     },
@@ -473,8 +503,8 @@
           "items": [
             {
               "label": "Tour xe jeep 4x4 + trượt ván cát",
-              "price": "Khoảng ₱2,500–3,500/xe",
-              "note": "Khoảng 1 giờ, chở 5–6 người"
+              "price": "Khoảng ₱2,000~3,500/xe",
+              "note": "30 phút – 1 giờ, chở 4–5 người"
             },
             {
               "label": "Thuê ATV",
@@ -482,12 +512,17 @@
               "note": "30 phút–1 giờ, tùy công ty"
             },
             {
+              "label": "Phí quản lý môi trường",
+              "price": "Khoảng ₱50~100/người",
+              "note": "Tùy đơn vị vận hành và khu vực, có nơi không thu"
+            },
+            {
               "label": "Tricycle Laoag–La Paz",
               "price": "Khứ hồi khoảng ₱300–500",
               "note": "Bao gồm thời gian chờ"
             },
             { "label": "Máy bay Manila–Laoag", "price": "Khoảng ₱2,000–6,000", "note": "Một chiều" },
-            { "label": "Xe buýt Manila–Laoag", "price": "Khoảng ₱1,000–1,800", "note": "Một chiều" },
+            { "label": "Xe buýt Manila–Laoag", "price": "Khoảng ₱1,150~1,800", "note": "Một chiều" },
             { "label": "Ăn uống", "price": "Khoảng ₱200–500/bữa", "note": "Trung tâm Laoag" },
             {
               "label": "Lưu trú (Laoag)",
@@ -557,7 +592,7 @@
             {
               "children": [
                 {
-                  "text": "Mỗi xe jeep chở được 5–6 người, nên nếu đi ít người, bạn có thể ghép chung với du khách khác tại chỗ để chia bớt chi phí."
+                  "text": "Mỗi xe jeep chở được 4–5 người, nên nếu đi ít người thì cũng có cách ghép chung với du khách khác tại chỗ để chia tiền."
                 }
               ]
             },
@@ -600,6 +635,13 @@
               "children": [
                 {
                   "text": "Leo ngược lên triền cát sau khi trượt ván khá mất sức. Hãy chuẩn bị đủ nước uống."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Tour 4x4 có thể đăng ký ngay tại quầy của đơn vị vận hành tại chỗ, hoặc mua trước trên các trang đặt chỗ như Klook gói có kèm đón tại khách sạn. Vào cuối tuần mùa cao điểm, kỳ nghỉ lễ và Tuần Thánh, khung giờ hoàng hôn buổi chiều rất đông, nên đặt trước một ngày cho an toàn."
                 }
               ]
             }
@@ -651,6 +693,17 @@
               "children": [
                 {
                   "text": "Thảm thực vật trên cồn cát giúp giữ cát và bảo vệ địa hình. Không giẫm lên cỏ hay xả rác."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Trong thời gian tập trận chung \"Balikatan\" giữa quân đội Mỹ và Philippines, khu vực đồi cát La Paz có doanh trại huấn luyện và vào những ngày bắn đạn thật thì việc ra vào bờ biển có thể bị kiểm soát ("
+                },
+                { "type": "date", "text": "cuối tháng 4 – đầu tháng 5 năm 2026" },
+                {
+                  "text": "). Nếu đi vào mùa xuân, hãy hỏi đơn vị vận hành xem tour có hoạt động không trước."
                 }
               ]
             }

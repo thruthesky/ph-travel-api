@@ -75,7 +75,19 @@
     "credit": "Nairb.Idi9 / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:View_of_Calicoan_Island_and_the_Philippine_Sea_from_the_DOST-PAGASA_Guiuan_Weather_Station_in_2022.jpg"
   },
-  "gallery": { "type": "carousel", "label": "Hình ảnh", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/184-calicoan-island-2.webp",
+        "alt": "Đảo Calicoan",
+        "credit": "Adrianvill / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Calicoan_Island_(aerial_view).jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -198,8 +210,10 @@
               "title": "Nhà thờ Guiuan",
               "children": [
                 {
-                  "text": "Đây là một trong những nhà thờ cổ nổi bật nhất Philippines, do Dòng Tên xây dựng vào thế kỷ 18, nổi tiếng với các họa tiết trang trí bằng vỏ sò. Nhà thờ bị hư hại nặng trong bão Haiyan và đã được phục dựng liên tục từ đó, nằm ngay cạnh quảng trường trung tâm nên rất dễ ghé qua."
-                }
+                  "text": "Đây là một trong những nhà thờ cổ nổi bật của Philippines do Dòng Tên xây vào thế kỷ 18, được biết đến với phần trang trí bằng vỏ sò. Mái và mặt tiền bị hư hại nặng trong bão Haiyan, rồi sau khi Bảo tàng Quốc gia phục dựng thì được thánh hiến lại vào "
+                },
+                { "type": "date", "text": "tháng 12 năm 2019" },
+                { "text": ", và vì nằm cạnh quảng trường trung tâm nên rất dễ ghé thăm." }
               ]
             },
             {
@@ -503,6 +517,29 @@
               "text": " thường nằm trên đường đi của bão, nên nếu đến vào thời gian này, hãy thường xuyên kiểm tra dự báo và dành thêm thời gian dự phòng. Tình trạng sóng thay đổi từng ngày nên hỏi trước trại lướt sóng địa phương là cách chính xác nhất."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 10 – tháng 2",
+              "Sóng lớn từ Thái Bình Dương, gió mùa đông bắc",
+              "Tốt nhất để lướt sóng — tháng 10–12 cần kiểm tra dự báo bão"
+            ],
+            [
+              "Tháng 3 – tháng 6",
+              "Ít mưa, biển lặng",
+              "Tốt nhất để đi biển và lặn ống thở — lướt sóng chủ yếu là lớp cho người mới"
+            ],
+            [
+              "Tháng 7 – tháng 9",
+              "Mùa mưa, thường nằm trên đường đi của bão",
+              "Kiểm tra dự báo thường xuyên, để dư thời gian trong lịch trình"
+            ]
+          ]
         }
       ]
     },
@@ -556,6 +593,11 @@
               "label": "Bữa ăn",
               "price": "Khoảng ₱150–500/bữa",
               "note": "Từ quán ăn địa phương đến nhà hàng resort"
+            },
+            {
+              "label": "Hang Linao",
+              "price": "Khoảng ₱25 mỗi người",
+              "note": "Hướng dẫn viên khoảng ₱300 mỗi nhóm, áo phao khoảng ₱50"
             }
           ]
         },
@@ -655,7 +697,22 @@
             {
               "children": [
                 {
-                  "text": "Nếu quan tâm đến lịch sử, hãy kiểm tra lịch sự kiện kỷ niệm đổ bộ Leyte được tổ chức trên đảo Suluan quanh ngày 17 tháng 10."
+                  "text": "Nếu bạn quan tâm đến lịch sử, hãy xem lịch sự kiện kỷ niệm cuộc đổ bộ Suluan tổ chức ở Guiuan quanh "
+                },
+                { "type": "date", "text": "ngày 17 tháng 10" },
+                {
+                  "text": ". Sự kiện tưởng niệm cuộc tập kích đảo Suluan, giai đoạn đầu của chiến dịch đổ bộ Leyte, và lễ kỷ niệm thường được tổ chức tại khu đất căn cứ hải quân Mỹ cũ ở làng Ngolos, đảo Calicoan."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Hằng năm vào khoảng mùa thu, đảo Calicoan tổ chức giải lướt sóng toàn quốc. Vào "
+                },
+                { "type": "date", "text": "14–19 tháng 10 năm 2025" },
+                {
+                  "text": ", giải \"Calicoan Odyssey Wave\" do Liên đoàn Lướt sóng Philippines (UPSA) công nhận đã được tổ chức tại bãi biển ABCD với 152 vận động viên đến từ 12 tỉnh trên cả nước. Trong thời gian giải, chỗ nghỉ hết nhanh nên nếu lịch trình trùng, hãy đặt sớm và xem thông báo của văn phòng du lịch Guiuan để biết ngày trong năm đó."
                 }
               ]
             }
@@ -718,6 +775,17 @@
               "children": [
                 {
                   "text": "Bệnh viện lớn nằm ở Tacloban, nên hãy chuẩn bị thuốc sơ cứu cơ bản và bảo hiểm du lịch để phòng khi bị thương lúc lướt sóng."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bệnh viện Tưởng niệm Felipe Abrigo ở Guiuan, từng bị sập trong bão Haiyan, đã được xây mới với sự hỗ trợ của Cơ quan Hợp tác Quốc tế Hàn Quốc (KOICA) và dự kiến mở cửa hoàn toàn trở lại vào "
+                },
+                { "type": "date", "text": "ngày 8 tháng 10 năm 2026" },
+                {
+                  "text": ". Đây là bệnh viện tuyến đầu quy mô 25 giường nên có thể sơ cứu, nhưng nếu bị thương nặng có thể phải chuyển đến Tacloban."
                 }
               ]
             }

@@ -29,8 +29,8 @@
     "items": ["Bãi cát nổi", "Khu bảo tồn biển", "Lặn ống thở", "Khu nghỉ dưỡng", "Gần Oslob"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.4303 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.3886 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.4317 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.3896 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -362,13 +362,13 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Tại bến xe South Bus Terminal thành phố Cebu, lên xe khách Ceres tuyến \"Bato via Oslob\" hoặc hướng Santander, xuống ở \"Bancogon (bến tàu Sumilon)\". Mất khoảng "
+                      "text": "Từ Bến xe buýt phía Nam ở thành phố Cebu, lên xe buýt Ceres \"Bato via Oslob\" hoặc xe đi hướng Santander, rồi xuống ở \"Bangcogon (bến tàu Sumilon)\". Mất khoảng "
                     },
-                    { "type": "duration", "text": "3 giờ 30 phút – 4 giờ" },
-                    { "text": ", giá xe máy lạnh khoảng " },
-                    { "type": "price", "text": "₱200–260" },
+                    { "type": "duration", "text": "3 tiếng 30 phút–4 tiếng" },
+                    { "text": ", giá xe buýt điều hòa khoảng " },
+                    { "type": "price", "text": "₱250–330" },
                     {
-                      "text": ". Nếu chọn tour cá mập voi trong ngày xuất phát từ thành phố Cebu · Mactan có kèm bãi cát nổi Sumilon, cả xe đưa đón lẫn thuyền đều được giải quyết trong một gói."
+                      "text": ". Nếu chọn tour cá nhám voi đi trong ngày từ thành phố Cebu hoặc Mactan có kèm bãi cát Sumilon thì việc đi lại và thuyền được giải quyết một lần."
                     }
                   ]
                 }
@@ -394,6 +394,26 @@
                     {
                       "text": "/thuyền cộng thêm phí môi trường riêng. Việc có được tự đi hay không và giá cả thường thay đổi tùy chính sách của resort và chính quyền địa phương, nên hãy kiểm tra quy định mới nhất tại chỗ."
                     }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Thuyền của resort thường sang đảo từ " },
+                    { "type": "time", "text": "8 giờ sáng" },
+                    { "text": " với khoảng cách khoảng " },
+                    { "type": "duration", "text": "2 tiếng" },
+                    { "text": " một chuyến, và chuyến thuyền cuối từ đảo về đảo chính khoảng " },
+                    { "type": "time", "text": "3 giờ chiều" },
+                    {
+                      "text": ". Giá vé day pass và lịch thuyền thay đổi theo mùa, vì vậy hãy kiểm tra trên "
+                    },
+                    {
+                      "type": "link",
+                      "text": "trang web chính thức của Bluewater Sumilon",
+                      "url": "https://bluewatersumilon.com.ph/"
+                    },
+                    { "text": " trước khi đặt." }
                   ]
                 }
               ]
@@ -437,6 +457,29 @@
               "text": "), thuyền có thể ngừng chạy. Điều quan trọng nhất là giờ thủy triều. Bãi cát nổi lộ ra rộng nhất vào lúc triều xuống, nên hãy kiểm tra bảng thủy triều (tide table) trước khi đi và canh lịch trình quanh khoảng thời gian triều xuống."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 2",
+              "Mùa khô, có ngày sóng cao do gió đông bắc",
+              "Khi sóng cao, bãi cát gần như biến mất"
+            ],
+            [
+              "Tháng 3–tháng 6",
+              "Biển lặng, nắng gắt",
+              "Chụp bãi cát đẹp nhất — xem bảng thủy triều để canh giờ nước rút"
+            ],
+            [
+              "Tháng 7–tháng 11",
+              "Mùa mưa và mùa bão (tháng 8–11)",
+              "Thuyền có thể ngừng chạy — hãy kiểm tra hoạt động"
+            ]
+          ]
         }
       ]
     },
@@ -453,7 +496,7 @@
           "items": [
             {
               "label": "Xe khách Cebu – Oslob",
-              "price": "khoảng ₱200–260",
+              "price": "Khoảng ₱250–330",
               "note": "Một chiều, xe máy lạnh"
             },
             {
@@ -554,7 +597,7 @@
             {
               "children": [
                 {
-                  "text": "Để dọn dẹp và bảo trì, có thể có ngày trong tuần (như thứ Tư) hạn chế ra vào bãi cát nổi, nên hãy kiểm tra trước."
+                  "text": "Theo chủ trương của chính quyền địa phương Oslob, vào thứ Tư hằng tuần bãi cát bị chặn ra vào để chỉnh trang và dọn dẹp. Nếu mục đích là bãi cát thì hãy tránh thứ Tư, và vì có thể thay đổi nên hãy kiểm tra thông báo mới nhất."
                 }
               ]
             },

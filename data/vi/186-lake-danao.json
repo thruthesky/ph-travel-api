@@ -407,17 +407,35 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Đi từ Cebu là cách thuận tiện nhất. Từ Bến tàu số 1 Cebu, các tàu cao tốc như OceanJet, SuperCat khởi hành nhiều chuyến mỗi ngày đến Ormoc, mất khoảng "
+                      "text": "Đi từ Cebu là cách tiện nhất. Từ Bến tàu số 1 Cebu, các tàu cao tốc như OceanJet, SuperCat chạy nhiều chuyến mỗi ngày đến Ormoc, mất khoảng "
                     },
-                    { "type": "duration", "text": "2 giờ 40 phút~3 giờ" },
-                    { "text": ", giá vé khoảng " },
-                    { "type": "price", "text": "₱900~2,300" },
+                    { "type": "duration", "text": "2 giờ 40 phút–3 giờ" },
+                    { "text": ", vé khoảng " },
+                    { "type": "price", "text": "₱1,100–2,000" },
                     {
-                      "text": " tùy hạng ghế. Tàu khách thường xuất phát ban đêm và đến vào rạng sáng mất khoảng "
+                      "text": " tùy hạng ghế và phụ phí nhiên liệu. Tàu khách thường rời bến vào ban đêm và đến vào rạng sáng mất khoảng "
                     },
-                    { "type": "duration", "text": "5~6 giờ" },
+                    { "type": "duration", "text": "5–6 giờ" },
                     {
-                      "text": " nhưng rẻ hơn. Lịch chạy tàu và giá vé thường thay đổi nên bạn cần kiểm tra thông báo của hãng tàu."
+                      "text": " nhưng rẻ hơn. Giờ chạy và giá vé hay thay đổi nên nên xem thông báo của hãng tàu."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Cũng có tàu cao tốc OceanJet đi thẳng từ Cebu đến Palompon ở bờ tây Leyte. Tàu rời Cebu lúc "
+                    },
+                    { "type": "time", "text": "10 giờ sáng" },
+                    { "text": " và mất khoảng " },
+                    { "type": "duration", "text": "3 giờ" },
+                    {
+                      "text": ", và nếu bạn sắp xếp đi Palompon rồi ghé đảo Kalanggaman trước, sau đó đi xe khoảng "
+                    },
+                    { "type": "duration", "text": "1 giờ 30 phút" },
+                    {
+                      "text": " sang Ormoc để xem hồ thì lộ trình sẽ gọn. Lịch chạy hay được điều chỉnh nên hãy xem thông báo trước khi đi."
                     }
                   ]
                 }
@@ -519,6 +537,26 @@
               "text": ", nên vào thời gian này bạn cần kiểm tra dự báo thời tiết và chừa dư thời gian trong lịch trình để phòng tàu bị hủy chuyến. Vì ở trong núi, sau khi mưa đường rất trơn trượt và cảnh hồ cũng dễ bị mây che khuất."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            ["Tháng 1", "Mưa khá đều quanh năm", "Sáng sớm và đêm xuống còn khoảng 18–20℃"],
+            [
+              "Tháng 2 – tháng 5",
+              "Ít mưa, nhiều ngày quang đãng",
+              "Thời điểm lý tưởng để đi hồ — mát mẻ 22–27℃ ban ngày"
+            ],
+            ["Tháng 6 – tháng 9", "Mưa rào tăng lên", "Đường trơn sau mưa và hồ bị mây che"],
+            [
+              "Tháng 10 – tháng 12",
+              "Chịu ảnh hưởng của bão và gió mùa đông bắc",
+              "Kiểm tra dự báo, chuẩn bị cho việc tàu bị hủy chuyến"
+            ]
+          ]
         }
       ]
     },
@@ -535,8 +573,8 @@
           "items": [
             {
               "label": "Tàu cao tốc Cebu–Ormoc",
-              "price": "Khoảng ₱900~2,300",
-              "note": "Một chiều, theo hạng ghế"
+              "price": "Khoảng ₱1,100–2,000",
+              "note": "Một chiều, tùy hạng ghế và phụ phí nhiên liệu"
             },
             {
               "label": "Xe van Tacloban–Ormoc",
@@ -684,6 +722,19 @@
                   "text": "Sóng điện thoại di động ở ven hồ có nơi yếu hoặc mất sóng. Bạn nên lưu sẵn số liên lạc tài xế và địa chỉ chỗ ở từ trước."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Các hoạt động trên mặt nước như chèo kayak và đi thuyền ở hồ đã bị dừng khoảng 11 tháng để tu sửa và được cho phép lại từ "
+                },
+                { "type": "date", "text": "ngày 29 tháng 8 năm 2026" },
+                { "text": ". Giờ hoạt động vào khoảng " },
+                { "type": "time", "text": "8 giờ sáng–5 giờ chiều" },
+                {
+                  "text": " và chủ yếu là tham quan trong ngày, nên hãy xác nhận việc cắm trại, giá thuê và tình hình hoạt động qua thông báo của văn phòng du lịch thành phố Ormoc hoặc ban quản lý công viên trước khi đến."
+                }
+              ]
             }
           ]
         }
@@ -779,7 +830,7 @@
               "place": "san-juanico-bridge",
               "children": [
                 {
-                  "text": "Là cây cầu dài nhất Philippines nối Leyte và Samar, nằm ở Tacloban, cách Ormoc khoảng "
+                  "text": "Đây là chiếc cầu vòm thép đỏ nối Leyte và Samar ở Tacloban, cách Ormoc khoảng "
                 },
                 { "type": "duration", "text": "2 giờ 30 phút" },
                 { "text": " đi xe." }

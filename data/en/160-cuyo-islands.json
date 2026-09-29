@@ -270,7 +270,7 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "15:00",
+                      "time": "13:00",
                       "children": [{ "text": "Check in for boarding at Iloilo port" }]
                     },
                     {
@@ -376,6 +376,26 @@
                       "text": "Boats run roughly once a week in each direction, so plan your trip around the arriving and departing boat dates first. Coming from Iloilo and leaving for Puerto Princesa flows naturally into a wider Palawan trip."
                     }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Per the 2026 Montenegro Lines schedule, the boat from Iloilo leaves on Saturday at "
+                    },
+                    { "type": "time", "text": "5 PM" },
+                    {
+                      "text": " and reaches Cuyo at dawn on Sunday, and the boat back to Iloilo leaves Cuyo on Wednesday at "
+                    },
+                    { "type": "time", "text": "3 PM" },
+                    {
+                      "text": ". For a round trip from Iloilo, you'd spend three nights in Cuyo, one day more than this itinerary, which you can use for another island-hopping day or a rest day at Capusan Beach. The boat to Puerto Princesa continues straight on at "
+                    },
+                    { "type": "time", "text": "2 PM" },
+                    {
+                      "text": " on the Sunday the boat from Iloilo arrives, so if you come from Iloilo and want to go on to Palawan, you either look around for only half a day or stay a full week until the next week's boat."
+                    }
+                  ]
                 }
               ]
             }
@@ -424,6 +444,44 @@
                       "children": [
                         {
                           "text": "Other shipping lines, such as Milagrosa, also operate at times, but sailing days and fares change often depending on weather and the shipping line, so always check the latest timetable."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Example September–October 2026 schedule: Iloilo Saturday " },
+                        { "type": "time", "text": "17:00" },
+                        { "text": " departure → Cuyo Sunday " },
+                        { "type": "time", "text": "05:00" },
+                        { "text": " arrival and " },
+                        { "type": "time", "text": "14:00" },
+                        { "text": " departure → Puerto Princesa Monday " },
+                        { "type": "time", "text": "06:00" },
+                        { "text": " arrival; the return boat leaves Puerto Princesa Tuesday " },
+                        { "type": "time", "text": "14:00" },
+                        { "text": " → Cuyo Wednesday " },
+                        { "type": "time", "text": "06:00" },
+                        { "text": " arrival and " },
+                        { "type": "time", "text": "15:00" },
+                        { "text": " departure → Iloilo Thursday " },
+                        { "type": "time", "text": "03:00" },
+                        {
+                          "text": " arrival. Departure times often change from week to week, so check the shipping company's notices."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Passengers must arrive at the port " },
+                        { "type": "duration", "text": "4 hours" },
+                        {
+                          "text": " before departure. One way from Cuyo to Puerto Princesa costs about "
+                        },
+                        { "type": "price", "text": "₱2,340" },
+                        { "text": " for regular seating and about " },
+                        { "type": "price", "text": "₱3,040" },
+                        {
+                          "text": " for air-conditioned seating, and students, seniors, persons with disabilities, and children get a discount on showing ID."
                         }
                       ]
                     }
@@ -534,6 +592,42 @@
             { "type": "date", "text": "August 28" },
             { "text": ", when lodging fills up early." }
           ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Even in early " },
+            { "type": "date", "text": "November" },
+            { "text": ", which counts as dry season, a typhoon can pass through. On " },
+            { "type": "date", "text": "November 4, 2025" },
+            {
+              "text": ", Typhoon Tino (Kalmaegi) made landfall at Magsaysay in the Cuyo Islands. If you go in late autumn, be sure to check the PAGASA typhoon forecast before departure."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November",
+              "Dry season, but typhoons possible",
+              "Typhoon landfall in early November on record — check PAGASA forecasts before departure"
+            ],
+            [
+              "December–February",
+              "Dry season, strong northeast wind",
+              "Boats may be delayed or cancelled — the season for kite- and windsurfing"
+            ],
+            ["March–May", "Dry season, calmest seas", "Best for island hopping and long boat rides"],
+            [
+              "June–October",
+              "Rainy season, showers and typhoons",
+              "Leave plenty of spare days — lodging fills up early around the August 28 feast day"
+            ]
+          ]
         }
       ]
     },
@@ -556,8 +650,8 @@
             },
             {
               "label": "Cuyo–Puerto Princesa RORO ferry",
-              "price": "About ₱1,800–2,500",
-              "note": "One way, about 15 hours"
+              "price": "About ₱2,340–3,040",
+              "note": "One way, regular to air-conditioned seating, about 16 hours"
             },
             { "label": "Tricycle", "price": "About ₱20–50", "note": "Per ride within town" },
             { "label": "Motorbike rental", "price": "About ₱500–700", "note": "Per day" },

@@ -217,9 +217,9 @@
               "title": "Công viên sinh thái rừng ngập mặn Bakhawan",
               "children": [
                 {
-                  "text": "Đây là khu rừng rộng khoảng 220 hecta được hồi sinh bằng cách trồng lại rừng ngập mặn trên bãi triều, được xem là một trong những câu chuyện thành công tiêu biểu ở Đông Nam Á. Đi dọc lối ván tre dài khoảng "
+                  "text": "Đây là khu rừng khoảng 220 hecta được hồi sinh bằng cách trồng rừng ngập mặn trên bãi bùn, một trong những ví dụ thành công nổi bật ở Đông Nam Á. Đi dọc lối đi tre dài khoảng "
                 },
-                { "type": "distance", "text": "1.1km" },
+                { "type": "distance", "text": "1.3km" },
                 { "text": ", biển sẽ mở ra ở cuối khu rừng." }
               ]
             },
@@ -400,12 +400,12 @@
                     {
                       "children": [
                         {
-                          "text": "Philippine Airlines và Cebu Pacific bay hằng ngày từ Manila đến sân bay quốc tế Kalibo (KLO), mất khoảng "
+                          "text": "Cebu Pacific và Philippines AirAsia khai thác chuyến bay mỗi ngày từ Manila đến sân bay quốc tế Kalibo (KLO), mất khoảng "
                         },
                         { "type": "duration", "text": "1 giờ" },
                         { "text": ". Giá vé một chiều khoảng " },
                         { "type": "price", "text": "₱2,000–5,000" },
-                        { "text": ", chênh lệch khá lớn tùy thời điểm." }
+                        { "text": ", chênh lệch nhiều tùy thời điểm." }
                       ]
                     },
                     {
@@ -415,6 +415,17 @@
                         {
                           "text": ". Hãng bay và số chuyến thay đổi theo mùa, nên hãy kiểm tra thông tin bay mới nhất."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Philippine Airlines đã ngừng tuyến Manila–Kalibo từ " },
+                        { "type": "date", "text": "tháng 3 năm 2025" },
+                        {
+                          "text": " và chỉ bay đến sân bay Caticlan gần đó. Từ các thành phố khác như Cebu, Clark cũng không có chuyến bay thẳng đến Kalibo, nên bạn đi chuyến bay đến Caticlan rồi đi xe buýt hoặc xe van khoảng "
+                        },
+                        { "type": "duration", "text": "1 giờ 30 phút" },
+                        { "text": " để đến Kalibo." }
                       ]
                     },
                     {
@@ -456,6 +467,19 @@
                         { "text": ", giá vé khoảng " },
                         { "type": "price", "text": "₱150–250" },
                         { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Bến xe buýt Ceres nằm gần tòa nhà hành chính tỉnh, cách sân bay khoảng "
+                        },
+                        { "type": "distance", "text": "2km" },
+                        {
+                          "text": ". Xe đi Caticlan chạy thường xuyên, và cũng có xe buýt đi qua Pandan, Culasi, Tibiao đến tận San Jose, Antique nên rất tiện để nối tiếp sang các điểm đến ở Antique (đến San Jose khoảng "
+                        },
+                        { "type": "duration", "text": "5 giờ 30 phút" },
+                        { "text": ")." }
                       ]
                     }
                   ]
@@ -557,6 +581,29 @@
               "text": ". Vào thời gian này, chỗ ở thường hết phòng trước vài tháng và giá tăng gấp hai, ba lần, nên hãy đặt trước sớm. Vào Tuần Thánh (tuần trước lễ Phục Sinh) cũng có đoàn diễu hành của nhà thờ, nơi bạn có thể chiêm ngưỡng một lễ hội tôn giáo yên tĩnh hơn."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, trời trong và khô ráo",
+              "Lễ hội Ati-Atihan tháng 1 — chỗ nghỉ hết trước nhiều tháng, giá gấp 2–3 lần"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, nóng nhất (33–35℃)",
+              "Hoạt động ngoài trời nên đi buổi sáng và chiều muộn — có rước kiệu Tuần Thánh ở nhà thờ"
+            ],
+            [
+              "Tháng 6 – tháng 11",
+              "Mùa mưa, giao thông ngừng trệ khi có bão",
+              "Chuyến bay và đường đi Caticlan có thể bị gián đoạn"
+            ]
+          ]
         }
       ]
     },
@@ -589,7 +636,7 @@
             {
               "label": "Museo it Akean",
               "price": "Khoảng ₱50",
-              "note": "Có thể có mức giá riêng cho người nước ngoài"
+              "note": "Học sinh, người cao tuổi ₱20, người nước ngoài khoảng US$1"
             },
             {
               "label": "Tricycle",
@@ -680,8 +727,10 @@
             },
             {
               "children": [
+                { "text": "Museo it Akean chỉ mở cửa từ thứ Hai đến thứ Sáu, " },
+                { "type": "time", "text": "8 giờ sáng–4 giờ chiều" },
                 {
-                  "text": "Museo it Akean chủ yếu mở cửa vào ngày thường, nên nếu ghé vào cuối tuần, hãy kiểm tra trước giờ mở cửa."
+                  "text": " nên cuối tuần không vào được. Nếu đi qua Kalibo vào cuối tuần, hãy dời lịch sang ngày thường hoặc ghé các nơi khác trước."
                 }
               ]
             },

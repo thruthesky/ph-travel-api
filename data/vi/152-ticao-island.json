@@ -35,8 +35,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.4, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 12.5167 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.7 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 12.5292 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.6981 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -375,20 +375,22 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ Manila có hai cách. Cách thứ nhất là bay đến sân bay Masbate (MBT), từ cảng thành phố Masbate đi thuyền khoảng "
+                      "text": "Từ Manila có hai cách đi. Thứ nhất là bay từ Clark hoặc Cebu bằng máy bay nhỏ của Cebgo đến sân bay Masbate (MBT) (chuyến bay thẳng từ Manila đã ngừng từ "
                     },
-                    { "type": "duration", "text": "30 phút - 1 giờ" },
+                    { "type": "date", "text": "ngày 29 tháng 3 năm 2026" },
+                    { "text": ", từ Clark mất khoảng " },
+                    { "type": "duration", "text": "1 giờ 30 phút" },
                     {
-                      "text": " qua Lagundi ở phía nam đảo, rồi đi habal-habal (xe máy) đến Monreal (khoảng "
+                      "text": "), rồi đi tàu từ cảng Masbate City sang Lagundi ở phía nam đảo mất khoảng "
                     },
+                    { "type": "duration", "text": "30 phút-1 giờ" },
+                    { "text": ", sau đó đi xe máy (habal-habal) đến Monreal (khoảng " },
                     { "type": "price", "text": "₱300-500" },
                     {
-                      "text": "). Cách thứ hai là bay đến sân bay quốc tế Bicol (DRP, Daraga, Albay) — nơi có nhiều chuyến bay hơn, rồi đi xe van đến cảng Pilar, Sorsogon khoảng "
+                      "text": "). Thứ hai là bay đến sân bay quốc tế Bicol (DRP, Daraga, Albay) có nhiều chuyến bay hơn, đi xe van đến cảng Pilar ở Sorsogon mất khoảng "
                     },
-                    { "type": "duration", "text": "1 giờ - 1 giờ 30 phút" },
-                    {
-                      "text": ", sau đó lên thuyền. Chuyến bay Manila–sân bay quốc tế Bicol mất khoảng "
-                    },
+                    { "type": "duration", "text": "1 giờ-1 giờ 30 phút" },
+                    { "text": " rồi lên tàu. Chuyến bay Manila–sân bay quốc tế Bicol mất khoảng " },
                     { "type": "duration", "text": "1 giờ" },
                     { "text": ", giá một chiều khoảng " },
                     { "type": "price", "text": "₱2,000-5,000" },
@@ -526,6 +528,29 @@
             {
               "text": ", gió mùa đông bắc Amihan thổi khiến sóng ở eo biển trở nên dữ dội và mưa cũng thường xuyên, nên nếu mục đích là lặn, nên dự phòng thêm ít nhất hai ngày thời tiết."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 - tháng 2",
+              "Gió mùa đông bắc, mưa thường xuyên",
+              "Sóng eo biển dữ — nên dự phòng ít nhất hai ngày vì thời tiết"
+            ],
+            [
+              "Tháng 3 - tháng 6",
+              "Biển lặng, 30-34℃",
+              "Tốt nhất để gặp cá đuối manta rạn san hô — tầm nhìn tốt, hay gặp cá mập voi"
+            ],
+            [
+              "Tháng 7 - tháng 10",
+              "Mùa mưa và mùa bão",
+              "Khi có bão, tàu ngừng chạy nhiều ngày — có thể gặp cá mập đuôi dài"
+            ]
           ]
         }
       ]

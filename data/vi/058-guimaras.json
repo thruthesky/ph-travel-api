@@ -353,6 +353,73 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Lộ trình trong ngày",
+              "subtitle": "Tập trung phía bắc, cũng hợp cho ngày mưa",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        { "text": "Từ bến Parola ở thành phố Iloilo lên thuyền banca đi Jordan" }
+                      ]
+                    },
+                    {
+                      "time": "07:30",
+                      "children": [
+                        {
+                          "text": "Thuê xe ba bánh nửa ngày đến cả ngày tại văn phòng du lịch ở bến Jordan"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [{ "text": "Đài quan sát tại thánh địa Balaan Bukid" }]
+                    },
+                    {
+                      "time": "09:30",
+                      "children": [
+                        {
+                          "text": "Tham quan khu vực Tu viện Trappist và Trung tâm Nghiên cứu Xoài"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [
+                        { "text": "Ăn trưa với pizza xoài và sinh tố xoài tại nhà hàng gần Jordan" }
+                      ]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [
+                        { "text": "Ngắm bên ngoài Rocca Encantada ở bờ biển Buenavista" }
+                      ]
+                    },
+                    {
+                      "time": "4 giờ chiều",
+                      "children": [
+                        {
+                          "text": "Mua đồ lưu niệm như xoài sấy ở phía trước bến Jordan rồi quay về Iloilo"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Bãi biển và tour đảo ở Nueva Valencia phía nam mất khoảng " },
+                    { "type": "duration", "text": "1 tiếng" },
+                    {
+                      "text": " một chiều từ Jordan, nên nếu muốn ra tận bãi biển trong ngày thì nên chỉ ghé một tu viện rồi xuống thẳng phía nam. Vào ngày mưa hoặc biển động, chỉ đi vòng lộ trình đất liền phía bắc ở trên cũng đã đủ."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -385,6 +452,15 @@
                         { "type": "duration", "text": "45 phút–1 tiếng" },
                         { "text": "." }
                       ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Từ sân bay Mactan Cebu cũng có chuyến bay thẳng đến Iloilo mỗi ngày, thời gian bay khoảng "
+                        },
+                        { "type": "duration", "text": "1 tiếng" },
+                        { "text": "." }
+                      ]
                     }
                   ]
                 }
@@ -401,18 +477,22 @@
                     {
                       "children": [
                         {
-                          "text": "Thuyền banca máy chạy từ bến Parola, thành phố Iloilo đến bến Jordan khoảng "
+                          "text": "Từ bến Parola ở thành phố Iloilo đến bến Jordan có thuyền banca máy chạy khoảng "
                         },
                         { "type": "duration", "text": "15 phút" },
-                        { "text": " một chuyến (giờ vắng khách khoảng " },
+                        { "text": " một chuyến (giờ vắng khoảng " },
                         { "type": "duration", "text": "30 phút–1 tiếng" },
-                        { "text": "), giá khoảng " },
-                        { "type": "price", "text": "₱20–40" },
-                        {
-                          "text": "/người. Chuyến đầu tiên vào sáng sớm, chuyến cuối thường vào khoảng "
-                        },
-                        { "type": "time", "text": "18:00–19:00" },
-                        { "text": "." }
+                        { "text": "), giá " },
+                        { "type": "price", "text": "₱40" },
+                        { "text": "/người (sau " },
+                        { "type": "time", "text": "8 giờ tối" },
+                        { "text": " là " },
+                        { "type": "price", "text": "₱50" },
+                        { "text": "). Chuyến đầu tiên khoảng " },
+                        { "type": "time", "text": "5 giờ sáng" },
+                        { "text": ", còn chuyến cuối thay đổi theo ngày trong khoảng " },
+                        { "type": "time", "text": "7–9 giờ tối" },
+                        { "text": ", nên hãy hỏi lại tại bến." }
                       ]
                     },
                     {
@@ -427,6 +507,39 @@
                         {
                           "text": "Giá vé và giờ chạy thuyền banca có thể thay đổi theo quyết định của cơ quan hàng hải và chính quyền tỉnh, nên hãy kiểm tra thông báo mới nhất."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Từ " },
+                        { "text": "24 tháng 3 năm 2026", "type": "date" },
+                        { "text": ", giá thuyền banca Iloilo–Jordan và Buenavista đã tăng từ " },
+                        { "text": "₱30", "type": "price" },
+                        { "text": " lên " },
+                        { "text": "₱40", "type": "price" },
+                        {
+                          "text": ". Học sinh, sinh viên, người cao tuổi, người khuyết tật và phụ nữ mang thai được giảm còn "
+                        },
+                        { "text": "₱32", "type": "price" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Cũng có thuyền banca nhỏ chạy thẳng từ đảo Negros sang, giữa Pulupandan (Negros Occidental) và bến phía đông Guimaras, nhưng ít chuyến và nhạy cảm với sóng, nên phần lớn du khách vào đảo qua Iloilo."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Thông tin về bến tàu và lịch tàu có thể xem trên " },
+                        {
+                          "type": "link",
+                          "text": "trang web chính thức",
+                          "url": "https://guimaras.gov.ph/how-to-get-there/"
+                        },
+                        { "text": " của chính quyền tỉnh Guimaras." }
                       ]
                     }
                   ]
@@ -531,6 +644,25 @@
               "text": ", khi đó thuyền banca Iloilo–Guimaras cũng có thể ngừng chạy. Vào Tuần Thánh trước lễ Phục sinh, lượng khách tăng mạnh vì lễ hành hương Balaan Bukid và vở kịch cuộc khổ nạn."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            ["Tháng 12–tháng 2", "Mùa khô", "Thích hợp đi vòng đảo và các hoạt động bãi biển"],
+            [
+              "Tháng 3–tháng 5",
+              "Mùa khô, xoài vào vụ thu hoạch cao điểm",
+              "Xoài ngon và rẻ nhất — lễ hội Manggahan cuối tháng 5"
+            ],
+            [
+              "Tháng 6–tháng 11",
+              "Mùa mưa, gió mùa tây nam",
+              "Tour đảo hay bị hủy — bão thì thuyền banca ngừng chạy"
+            ]
+          ]
         }
       ]
     },
@@ -547,8 +679,8 @@
           "items": [
             {
               "label": "Thuyền banca Parola ↔ Jordan",
-              "price": "Khoảng ₱20–40 một chiều",
-              "note": "Khoảng 15 phút"
+              "price": "Khoảng ₱40 một chiều",
+              "note": "Khoảng 15–20 phút, sau 8 giờ tối là ₱50"
             },
             {
               "label": "Thuê xe ba bánh đi vòng quanh đảo",

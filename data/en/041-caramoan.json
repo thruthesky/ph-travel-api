@@ -251,7 +251,9 @@
                     {
                       "time": "Morning",
                       "children": [
-                        { "text": "Arrive at Naga Airport from Manila, lunch in downtown Naga" }
+                        {
+                          "text": "Fly from Clark to arrive at the airport (or take an overnight bus from Manila and arrive), lunch in Naga city"
+                        }
                       ]
                     },
                     {
@@ -354,16 +356,18 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    {
-                      "text": "Philippine Airlines and Cebu Pacific group flights connect Manila to Naga Airport (WNP), taking about "
-                    },
-                    { "type": "duration", "text": "1 hour" },
-                    { "text": ". One-way fares are about " },
-                    { "type": "price", "text": "₱2,000–5,000" },
-                    { "text": " depending on the season. The airport is in Pili, about " },
+                    { "text": "Naga Airport (WNP) is in Pili, about " },
                     { "type": "duration", "text": "30 minutes" },
                     {
-                      "text": " from downtown Naga, reached by tricycle or taxi. Bicol International Airport (DRP) near Legazpi is another option, but travel time to Caramoan is longer."
+                      "text": " from Naga city. Because small propeller aircraft were banned from Manila airport, there have been no direct Manila–Naga flights since "
+                    },
+                    { "type": "date", "text": "March 29, 2026" },
+                    {
+                      "text": ", and now Cebu Pacific (Cebgo) flies the Clark–Naga route. One-way fares are about "
+                    },
+                    { "type": "price", "text": "₱2,000–5,000" },
+                    {
+                      "text": " depending on the season. If flying from Manila, you can also fly to Bicol International Airport (DRP), which has jet service, and continue overland via Naga, but the travel time to Caramoan is longer."
                     }
                   ]
                 }
@@ -396,6 +400,18 @@
                     { "type": "price", "text": "₱300–400" },
                     { "text": ", reaching the town without taking a boat." }
                   ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "To go from Manila without transferring, take a direct air-conditioned bus to Caramoan such as Raymond or Peñafrancia. It departs in the afternoon or evening and arrives the next morning, taking about "
+                    },
+                    { "type": "duration", "text": "11–14 hours" },
+                    { "text": " and costing about " },
+                    { "type": "price", "text": "₱1,000–1,200" },
+                    { "text": ". Departure terminals and times change often, so check in advance." }
+                  ]
                 }
               ]
             },
@@ -421,6 +437,16 @@
                     { "text": ", around " },
                     { "type": "price", "text": "₱200–300" },
                     { "text": " per vehicle." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "There are reports that since " },
+                    { "text": "2026", "type": "date" },
+                    {
+                      "text": ", because of rising fuel costs, the scheduled passenger bangka between Sabang and Guijalo has often not run. Without the boat you must take an expensive chartered bangka, so if you use this route, check with your lodging in advance whether it is running that day, and if you are not sure, it is safer to make the direct overland bus your default."
+                    }
                   ]
                 }
               ]
@@ -497,6 +523,29 @@
               "text": ", accommodation in downtown Naga fills up, but it's also a good chance to see genuine Bicolano culture."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Northeast monsoon (amihan), frequent rain and high waves",
+              "Boats and island hopping often canceled"
+            ],
+            [
+              "March–June",
+              "Dry season, little rain and calm seas",
+              "Clearest water — book lodging for Holy Week and school holidays"
+            ],
+            [
+              "July–October",
+              "Rainy and typhoon season",
+              "Check the PAGASA forecast — Peñafrancia Festival in the third week of September"
+            ]
+          ]
         }
       ]
     },
@@ -512,7 +561,7 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Manila–Naga flight",
+              "label": "Clark–Naga flight",
               "price": "About ₱2,000–5,000",
               "note": "One-way, varies by season"
             },

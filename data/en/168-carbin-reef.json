@@ -518,6 +518,34 @@
             { "type": "temperature", "text": "32–34℃" },
             { "text": " can feel much hotter than it sounds." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, some days with high waves from the northeast wind",
+              "Boats can rock a lot"
+            ],
+            [
+              "March–May",
+              "Dry season, calmest seas",
+              "Good visibility, best for snorkeling — sandbar at low tide"
+            ],
+            [
+              "June",
+              "Tends to have a run of days with little rain",
+              "End of the best season — check the tides on the day of your visit"
+            ],
+            [
+              "July–November",
+              "Rainy and typhoon season, water turns murky",
+              "Boats stop when a typhoon signal is raised"
+            ]
+          ]
         }
       ]
     },
@@ -627,7 +655,7 @@
             {
               "children": [
                 {
-                  "text": "Daily visitor numbers are capped at around 100, and some slots are reserved in advance. On weekends and during peak season, book ahead with the Sagay tourism office by phone or email."
+                  "text": "Carbin Reef's capacity is limited to 70 people, and up to 15 snorkelers can be in the water at one time. Advance booking is strongly recommended, so on weekends and in peak season, reserve ahead by phone or email with the Sagay tourism office."
                 }
               ]
             },
@@ -677,6 +705,19 @@
               "children": [
                 {
                   "text": "The last bus from Sagay bus terminal to Bacolod sometimes stops running before evening, so return to the terminal by mid-afternoon at the latest."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Kanlaon Volcano on Negros Island is at Alert Level 2 as of " },
+                { "type": "date", "text": "September 2026" },
+                {
+                  "text": ", and flights at Bacolod-Silay Airport have been cancelled whenever it has erupted. Sagay is about "
+                },
+                { "type": "distance", "text": "70km" },
+                {
+                  "text": " from the volcano, so the direct danger is small, but leave some slack in your flight schedule and check PHIVOLCS notices."
                 }
               ]
             }
@@ -737,6 +778,17 @@
               "children": [
                 {
                   "text": "With no shade, the risk of heatstroke and dehydration is high. Bring at least 1.5L of water per person."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Island boats from Old Sagay stopped for a while in early " },
+                { "type": "date", "text": "2026" },
+                { "text": " over an operating-permit issue, and resumed operating in " },
+                { "type": "date", "text": "early April" },
+                {
+                  "text": " after receiving a special operating permit from MARINA. Service may stop depending on how the permit renewal goes, so check with the tourism office before departure whether boats are running."
                 }
               ]
             }

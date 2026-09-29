@@ -537,6 +537,36 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Other starting points",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "From Bacolod, cross by fast boat to Iloilo City in about " },
+                        { "type": "duration", "text": "1 hour–1 hour 30 minutes" },
+                        { "text": " for about " },
+                        { "type": "price", "text": "₱300–800" },
+                        { "text": " per person, then transfer to a jeepney bound for Leon." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "From Boracay (Caticlan), the bus to Iloilo takes about " },
+                        { "type": "duration", "text": "5–6 hours" },
+                        {
+                          "text": ", so rather than going all the way up to Bucari on the same day, it's safer to stay overnight in Iloilo City and set out early the next morning."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -591,6 +621,29 @@
               "text": ", when typhoons cross the Visayas, landslides and washed-out roads are a risk, so be sure to check weather forecasts and municipal advisories."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, 18–22℃ by day, around 10℃ at dawn",
+              "Morning fog, fireflies, and views — a thick jacket is needed"
+            ],
+            [
+              "March–May",
+              "Dry season, lowlands 33–35℃",
+              "Summer capital crowded with people escaping the heat — book weekends in April–May"
+            ],
+            [
+              "June–November",
+              "Rainy season, afternoon showers and thick fog",
+              "Waterfalls at peak volume — paths slippery, watch for landslides in August–November"
+            ]
+          ]
         }
       ]
     },
@@ -616,7 +669,7 @@
               "note": "Last trip in the early afternoon"
             },
             {
-              "label": "Habal-habal",
+              "label": "By Habal-Habal",
               "price": "About ₱250–400 one-way",
               "note": "Leon plaza–campground; charter fare negotiable"
             },
@@ -719,6 +772,15 @@
               "children": [
                 {
                   "text": "Cell signal is weak or absent in many spots. Settle your return transport and communication plans before heading up the mountain."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Since " },
+                { "text": "August 2026", "type": "date" },
+                {
+                  "text": ", free Wi-Fi from the Department of Information and Communications Technology (DICT) has been available in Bucari Pine Forest. However, it may slow down when crowds gather, so download maps and transport information in advance."
                 }
               ]
             },

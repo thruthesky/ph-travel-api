@@ -367,16 +367,30 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Có chuyến bay thẳng từ Manila, Clark, Cebu, El Nido… đến sân bay Busuanga (USU, sân bay Francisco B. Reyes). Từ Manila mất khoảng "
+                      "text": "Có chuyến bay thẳng từ Clark, Cebu và El Nido đến Sân bay Busuanga (USU, Sân bay Francisco B. Reyes). Từ Clark mất khoảng "
                     },
                     { "type": "duration", "text": "1 giờ" },
-                    { "text": ", giá vé một chiều khoảng " },
-                    { "type": "price", "text": "₱2,500–6,000" },
+                    { "text": ", giá một chiều khoảng " },
+                    { "type": "price", "text": "₱2,500~6,000" },
                     { "text": ". Sân bay cách thị trấn Coron khoảng " },
                     { "type": "duration", "text": "40 phút" },
-                    { "text": " đi xe, và xe van ghép trước sân bay có giá khoảng " },
-                    { "type": "price", "text": "₱150–250" },
-                    { "text": "/người, đưa bạn xuống tận nơi lưu trú." }
+                    { "text": " đi xe; van đi chung trước sân bay khoảng " },
+                    { "type": "price", "text": "₱150~250" },
+                    { "text": "/người và thả khách tại chỗ ở." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ " },
+                    { "text": "ngày 29 tháng 3 năm 2026", "type": "date" },
+                    {
+                      "text": ", do máy bay cánh quạt bị cấm khai thác ở Sân bay Ninoy Aquino Manila nên không còn chuyến bay thẳng Manila – Busuanga. Nếu xuất phát từ Manila, hãy đi xe buýt P2P từ Nhà ga 3 NAIA, PITX,... đến sân bay Clark khoảng "
+                    },
+                    { "text": "2 giờ 30 phút – 3 giờ", "type": "duration" },
+                    { "text": " (khoảng " },
+                    { "text": "₱550~630", "type": "price" },
+                    { "text": ") rồi lên máy bay, hoặc đi phà lớn xuất phát từ Manila." }
                   ]
                 }
               ]
@@ -390,15 +404,15 @@
                   "children": [
                     { "text": "Giữa El Nido và Coron có tàu cao tốc chạy hằng ngày, mất khoảng " },
                     { "type": "duration", "text": "3 giờ 30 phút – 4 giờ" },
-                    { "text": ", giá khoảng " },
-                    { "type": "price", "text": "₱1,800–2,900" },
-                    { "text": ". Từ Manila, tàu khách lớn chạy vài chuyến mỗi tuần, mất khoảng " },
+                    { "text": ", khoảng " },
+                    { "type": "price", "text": "₱2,800~4,000" },
+                    { "text": ". Từ Manila có phà lớn chạy vài chuyến mỗi tuần, mất khoảng " },
                     { "type": "duration", "text": "12–16 giờ" },
                     {
-                      "text": ", nhưng hãng tàu và lịch trình thường xuyên thay đổi nên cần kiểm tra bảng giờ mới nhất. Vào "
+                      "text": ", nhưng hãng khai thác và lịch trình hay thay đổi nên phải kiểm tra lịch mới nhất. Vào "
                     },
                     { "type": "date", "text": "tháng 11 – tháng 2" },
-                    { "text": ", khi biển động, tàu hay bị hủy chuyến." }
+                    { "text": " khi biển động, thường có chuyến bị hủy." }
                   ]
                 }
               ]
@@ -474,6 +488,30 @@
               "text": " từng càn quét Coron, bão mạnh có thể đi qua nên việc theo dõi dự báo là bắt buộc. Ngay cả trong mùa mưa, buổi sáng vẫn thường trời quang, và lặn xác tàu đắm có thể thực hiện quanh năm dù tầm nhìn có thể giảm."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, gió Amihan",
+              "Tour đảo xa và phà đi El Nido có thể bị hủy"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, biển lặng nhất",
+              "Bơi hồ và lặn xác tàu tuyệt nhất — Tuần Thánh đông đúc"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa và mùa bão",
+              "Bắt buộc xem dự báo bão — vẫn lặn xác tàu được"
+            ],
+            ["Tháng 11", "Bắt đầu mùa khô", "Khởi đầu mùa du lịch mùa khô"]
+          ]
         }
       ]
     },
@@ -489,7 +527,7 @@
           "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
           "items": [
             {
-              "label": "Máy bay Manila–Busuanga",
+              "label": "Chuyến bay Clark – Busuanga",
               "price": "Khoảng ₱2,500–6,000",
               "note": "Một chiều"
             },
@@ -625,6 +663,17 @@
                 {
                   "text": "Sóng Smart và Globe tốt trong thị trấn nhưng gần như mất hẳn trong lúc đi tour đảo."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Chỉ vào được hồ Kayangan trong khoảng " },
+                { "type": "time", "text": "7 giờ sáng đến 4 giờ chiều" },
+                { "text": ", vé vào cửa khoảng " },
+                { "type": "price", "text": "₱300" },
+                { "text": " đã gồm áo phao và hướng dẫn viên địa phương. Nếu đến lúc " },
+                { "type": "time", "text": "7–8 giờ 30" },
+                { "text": " ngay sau khi mở cửa thì gần như không phải xếp hàng ở điểm ngắm cảnh." }
               ]
             }
           ]

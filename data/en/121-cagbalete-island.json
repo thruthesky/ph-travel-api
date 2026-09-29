@@ -29,7 +29,7 @@
     "items": ["Camping", "Low-tide sandbar", "Mangroves", "Sunrise", "Weekend trip"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 14.2778 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 14.2811 },
   "longitude": { "type": "longitude", "label": "Longitude", "value": 121.8231 },
   "best_season": {
     "type": "date",
@@ -139,7 +139,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "There are no large resorts or busy streets, and many places run electricity only on a limited basis from a resort generator or solar power. It suits travelers willing to put up with some inconvenience to pitch a tent or rest in a simple hut listening to the waves, and groups like college clubs or circles of friends camping together. If you're expecting a comfortable hotel and flashy activities, you may be disappointed."
+              "text": "There are no big resorts or busy streets. Electricity, which long depended on resort generators, has been supplied around the clock since Meralco's solar-and-battery microgrid went into operation in "
+            },
+            { "type": "date", "text": "December 2025" },
+            {
+              "text": ", but capacity is still being expanded and conditions differ from resort to resort. It suits travelers who are willing to put up with inconvenience to pitch a tent or rest in a simple hut to the sound of the waves, and groups such as university clubs or friends who want to camp together. If you expect comfortable hotels and flashy activities, you may be disappointed."
             }
           ]
         }
@@ -228,6 +232,22 @@
               "children": [
                 {
                   "text": "Most resorts either lend out a grill or offer a paluto service, cooking food you bring. With so little light on the island, you can hope to see the Milky Way on a clear night."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "The amihan wind and kiteboarding",
+              "children": [
+                { "text": "In " },
+                { "type": "date", "text": "November–March" },
+                {
+                  "text": ", when the northeast monsoon blows, the shallow, wide sea has good wind and kiteboarders come, and in "
+                },
+                { "type": "date", "text": "February 2026" },
+                {
+                  "text": " a Philippine kiteboarding tour event was held here. Ask the resort ahead of time about lessons and equipment rental."
                 }
               ]
             }
@@ -372,17 +392,17 @@
                     {
                       "children": [
                         {
-                          "text": "If you miss the direct bus, take a bus from Cubao or Buendia to Lucena Grand Terminal (about "
+                          "text": "If you missed the direct bus, take a bus from Cubao or Buendia to the Lucena Grand Terminal (about "
                         },
                         { "type": "duration", "text": "3–4 hours" },
                         { "text": ", about " },
-                        { "type": "price", "text": "₱250~350" },
+                        { "type": "price", "text": "₱330–520" },
                         {
-                          "text": "), then switch to a Mauban-bound van or minibus from the terminal (about "
+                          "text": "), then transfer at the terminal to a van or minibus for Mauban (about "
                         },
                         { "type": "duration", "text": "1 hour–1 hour 30 minutes" },
                         { "text": ", about " },
-                        { "type": "price", "text": "₱70~120" },
+                        { "type": "price", "text": "₱70–120" },
                         { "text": ")." }
                       ]
                     }
@@ -532,6 +552,29 @@
               "text": " is the wet season and typhoon season, and this area is directly affected when typhoons enter eastern Luzon. Boats don't sail when the Philippine Coast Guard issues a small-craft warning, so be sure to check PAGASA forecasts. Holy Week (the week before Easter) and summer-break weekends draw crowds of campers, so tent sites and huts sell out early — book ahead. If you want to see the low-tide sand flats, check the tide table for a daytime low tide when choosing your dates."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Northeast monsoon, frequent rain and high waves",
+              "Some days boats are canceled — check before you leave"
+            ],
+            [
+              "March–May",
+              "Dry season, calm sea and 33–35℃ at midday",
+              "Best time — tent spots sell out on Holy Week and school-holiday weekends"
+            ],
+            [
+              "June–October",
+              "Rainy season and typhoons, directly in the path",
+              "Boats don't run under a rough-sea warning — check the PAGASA forecast"
+            ]
+          ]
         }
       ]
     },
@@ -609,13 +652,13 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Accommodation consists entirely of small resorts along the island's east and southeast beaches. Long-running names like Villa Cleofas, MVT Sto. Niño Resort, and Pansacola Beach Resort are the best known, all centered on tent sites and fan huts, with only some offering air-conditioned rooms. A tent site runs about "
+              "text": "Accommodation consists entirely of small resorts on the island's east and southeast beaches. Long-running ones such as Villa Cleofas, MVT Santoniño Resort, and Pansacola Beach Resort are typical, and all focus on tent spots and fan-cooled huts, with only a few air-conditioned rooms. Tent spots run about "
             },
-            { "type": "price", "text": "₱200~300" },
-            { "text": " per night, a hut about " },
-            { "type": "price", "text": "₱1,000~2,000" },
+            { "type": "price", "text": "₱200–300" },
+            { "text": " a night and huts about " },
+            { "type": "price", "text": "₱1,000–2,000" },
             {
-              "text": ". Many places only run the generator from evening to morning, and the water, drawn from the ground, can taste slightly salty. Always book ahead for peak-season weekends, and ask about power hours and meal arrangements when you reserve."
+              "text": ". Electricity has improved with the microgrid, but supply hours may differ by resort, and the water is groundwater that can taste salty. On peak-season weekends always book ahead, and when you do, ask about power supply hours and how meals are handled."
             }
           ]
         },

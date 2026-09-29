@@ -528,6 +528,38 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Xuất phát từ nơi khác",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "Từ Bacolod, bạn đi tàu cao tốc khoảng " },
+                        { "type": "duration", "text": "1 giờ–1 giờ 30 phút" },
+                        { "text": ", giá khoảng " },
+                        { "type": "price", "text": "₱300–800" },
+                        {
+                          "text": " mỗi người để sang trung tâm Iloilo, rồi đổi sang jeepney đi Leon."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Từ Boracay (Caticlan) đi xe buýt đến Iloilo mất khoảng " },
+                        { "type": "duration", "text": "5–6 giờ" },
+                        {
+                          "text": ", nên thay vì lên đến tận Bucari trong ngày, sẽ an toàn hơn nếu nghỉ một đêm ở thành phố Iloilo rồi xuất phát sớm sáng hôm sau."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -581,6 +613,29 @@
             {
               "text": " khi bão đi qua vùng Visayas, có nguy cơ sạt lở và sập đường, nên nhất định phải kiểm tra dự báo thời tiết và thông báo của huyện."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, ban ngày 18–22℃, rạng sáng khoảng 10℃",
+              "Sương mù buổi sáng, đom đóm và cảnh quan — cần áo khoác dày"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, vùng đồng bằng 33–35℃",
+              "Là thủ đô mùa hè nên khách tránh nóng đổ về — hãy đặt trước cho cuối tuần tháng 4–5"
+            ],
+            [
+              "Tháng 6 – tháng 11",
+              "Mùa mưa, mưa rào buổi chiều và sương mù dày",
+              "Thác nhiều nước nhất — đường trơn, chú ý sạt lở đất tháng 8–11"
+            ]
           ]
         }
       ]
@@ -706,6 +761,15 @@
               "children": [
                 {
                   "text": "Nhiều nơi sóng điện thoại yếu hoặc mất sóng. Hãy sắp xếp trước phương tiện và liên lạc khi quay về trước khi lên núi."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Từ " },
+                { "text": "tháng 8 năm 2026", "type": "date" },
+                {
+                  "text": ", bạn có thể dùng wifi miễn phí của Bộ Công nghệ Thông tin và Truyền thông (DICT) tại rừng thông Bucari. Tuy nhiên khi đông người có thể chậm, nên hãy tải trước thông tin bản đồ và phương tiện đi lại."
                 }
               ]
             },

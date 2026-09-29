@@ -30,7 +30,7 @@
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.6, "max": 5 },
   "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 17.2302 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 121.0777 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 121.0858 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -366,6 +366,15 @@
                     },
                     {
                       "children": [
+                        { "text": "Xe Coda Lines đi Bontoc xuất phát từ Cubao trong khoảng " },
+                        { "type": "time", "text": "8 giờ đến 10 giờ 30 tối" },
+                        { "text": ", và chuyến từ Bontoc về Manila xuất phát trong khoảng " },
+                        { "type": "time", "text": "11 giờ 30 sáng đến 5 giờ chiều" },
+                        { "text": ". Vào mùa cao điểm ghế hết nhanh, nên hãy đặt trước." }
+                      ]
+                    },
+                    {
+                      "children": [
                         {
                           "text": "Nếu qua Baguio, đi xe buýt từ Baguio đến Bontoc dọc Halsema Highway mất khoảng "
                         },
@@ -514,6 +523,29 @@
             {
               "text": ", mưa thường xuyên, và đường núi Bontoc-Tinglayan thường bị chặn do sạt lở. Sau bão, đường có thể bị tắc nhiều ngày, nên hãy sắp xếp lịch trình dư dả vào thời gian này. Cũng cần lưu ý rằng nếu vết xăm bị ướt mưa, quá trình hồi phục có thể chậm hơn."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, sáng sớm tháng 12 – tháng 2 hơn 10℃ một chút",
+              "Trời quang — dịp nghỉ lễ cuối năm phải chờ xăm lâu hơn"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô",
+              "Ruộng bậc thang xanh — Tuần Thánh phải chờ hơn một ngày"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, mưa nhiều",
+              "Đường núi Bontoc – Tinglayan bị kiểm soát vì sạt lở — chừa nhiều thời gian"
+            ]
           ]
         }
       ]
@@ -777,6 +809,18 @@
               "children": [
                 {
                   "text": "Ở trung tâm Bontoc, là bảo tàng nhỏ nơi bạn có thể xem công cụ sinh hoạt và ảnh xưa của người bản địa Cordillera."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Ruộng bậc thang Maligcong",
+              "place": "maligcong-rice-terraces",
+              "children": [
+                { "text": "Đi jeepney từ Bontoc khoảng " },
+                { "type": "duration", "text": "30 phút" },
+                {
+                  "text": ", có thể ngắm ruộng bậc thang xếp đá và bình minh biển mây trên núi Kupapey, nên rất tiện ghé qua trên đường đi hoặc về."
                 }
               ]
             }

@@ -378,12 +378,25 @@
                     {
                       "children": [
                         {
-                          "text": "Có chuyến bay thẳng từ Manila, Clark, Cebu đến sân bay Busuanga (USU); từ Manila mất khoảng "
+                          "text": "Có chuyến bay thẳng đến sân bay Busuanga (USU) từ Clark, Cebu và El Nido, từ Clark mất khoảng "
                         },
                         { "type": "duration", "text": "1 giờ" },
-                        { "text": ", giá vé một chiều khoảng " },
+                        { "text": ", giá một chiều khoảng " },
                         { "type": "price", "text": "₱2,500–6,000" },
                         { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Từ " },
+                        { "text": "ngày 29 tháng 3 năm 2026", "type": "date" },
+                        {
+                          "text": ", máy bay cánh quạt bị cấm khai thác tại sân bay Manila Ninoy Aquino nên chuyến bay thẳng Manila–Busuanga không còn nữa. Nếu xuất phát từ Manila, bạn đi xe buýt P2P từ NAIA Terminal 3, PITX và các nơi khác đến sân bay Clark mất khoảng "
+                        },
+                        { "text": "2 giờ 30 phút–3 giờ", "type": "duration" },
+                        { "text": " (khoảng " },
+                        { "text": "₱480–550", "type": "price" },
+                        { "text": ") rồi lên máy bay, hoặc đi tàu khách lớn từ Manila đến Coron." }
                       ]
                     },
                     {
@@ -412,13 +425,13 @@
                     {
                       "children": [
                         {
-                          "text": "Tàu cao tốc của Montenegro Lines chạy khoảng 2 chuyến mỗi ngày giữa cảng Coron và Culion, mất khoảng "
+                          "text": "Tàu của Montenegro Lines chạy giữa cảng Coron và Culion khoảng hai chuyến mỗi ngày, mất khoảng "
                         },
-                        { "type": "duration", "text": "45 phút – 1 giờ" },
-                        { "text": ", giá vé một chiều khoảng " },
-                        { "type": "price", "text": "₱420" },
+                        { "type": "duration", "text": "45 phút–1 giờ 30 phút" },
+                        { "text": ", vé một chiều khoảng " },
+                        { "type": "price", "text": "₱455" },
                         {
-                          "text": " chưa gồm phí bến. Tàu thường khởi hành từ Coron vào sáng sớm và khoảng giữa trưa."
+                          "text": ", phí sử dụng nhà ga tính riêng và có thể cộng thêm phụ phí nhiên liệu. Chuyến từ Coron thường khởi hành vào sáng sớm và khoảng giữa trưa."
                         }
                       ]
                     },
@@ -539,6 +552,29 @@
               "text": " — thời điểm những bệnh nhân đầu tiên đặt chân đến — đôi khi có sự kiện kỷ niệm lịch sử của hòn đảo."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, có ngày sóng lớn do gió đông bắc",
+              "Tháng 12–2, tàu cao tốc tiện hơn bangka nhỏ"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, biển lặng nhất, oi bức",
+              "Lặn ống thở tốt — leo cầu thang vào sáng sớm hoặc hoàng hôn, sự kiện lịch sử đảo vào cuối tháng 5"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, cấm ra khơi khi có bão",
+              "Dự phòng thêm ngày trong lịch Coron — Culion nên đi trong ngày trời đẹp"
+            ]
+          ]
         }
       ]
     },
@@ -554,7 +590,7 @@
           "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
           "items": [
             {
-              "label": "Máy bay Manila–Busuanga",
+              "label": "Máy bay Clark–Busuanga",
               "price": "Khoảng ₱2,500–6,000",
               "note": "Một chiều"
             },
@@ -565,7 +601,7 @@
             },
             {
               "label": "Tàu cao tốc Coron–Culion",
-              "price": "Khoảng ₱420",
+              "price": "Khoảng ₱455",
               "note": "Một chiều, chưa gồm phí bến"
             },
             {

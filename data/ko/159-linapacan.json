@@ -67,6 +67,13 @@
         "alt": "리나파칸",
         "credit": "Paul Christian B. Yang-ed / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Isla_ng_Nangalao_(Nangalao_Island),_Palawan,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/159-linapacan-3.webp",
+        "alt": "리나파칸",
+        "credit": "Tuderna / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pangaldauan_Island_Calamian_Group_-_panoramio.jpg"
       }
     ]
   },
@@ -295,9 +302,13 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "리나파칸에는 공항이 없습니다. 마닐라에서 부수앙가 공항(USU)까지 약 " },
-                        { "type": "duration", "text": "1시간" },
-                        { "text": " 날아가 코론에서 배를 타거나, 엘니도 공항(ENI)으로 가서 엘니도 쪽에서 배를 탑니다." }
+                        { "text": "리나파칸에는 공항이 없습니다. " },
+                        { "type": "date", "text": "2026년 3월 29일" },
+                        { "text": "부터 마닐라에서 부수앙가·엘니도로 가는 직항이 없어져, 클락에서 부수앙가 공항(USU)까지 약 " },
+                        { "type": "duration", "text": "1시간 20분" },
+                        { "text": " 날아가 코론에서 배를 타거나, 클락에서 엘니도 공항(ENI)까지 약 " },
+                        { "type": "duration", "text": "1시간 35분" },
+                        { "text": " 날아가 엘니도 쪽에서 배를 탑니다. 세부에서도 두 공항으로 가는 직항이 있습니다." }
                       ]
                     },
                     {
@@ -425,6 +436,17 @@
             { "type": "temperature", "text": "30~33℃" },
             { "text": " 안팎으로, 그늘이 적은 섬에서는 햇볕이 매우 강합니다." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "시기별 한눈에 보기",
+          "icon": "calendar_month",
+          "columns": ["시기", "날씨", "여행 포인트"],
+          "rows": [
+            ["11월~2월", "건기, 12~2월 북동풍에 파도", "코론–리나파칸 구간 배편 취소되는 날 있음"],
+            ["3월~5월", "건기, 바다 거울처럼 잔잔", "최적기 — 물빛 가장 투명, 작은 방카 이동 편함"],
+            ["6월~10월", "우기, 남서풍에 비·파도", "태풍 후 배가 며칠 묶임 — 방문 비권장"]
+          ]
         }
       ]
     },
@@ -439,7 +461,7 @@
           "currency": "PHP",
           "columns": ["항목", "예상 비용", "비고"],
           "items": [
-            { "label": "마닐라–부수앙가 항공", "price": "약 ₱2,500~6,000", "note": "편도" },
+            { "label": "클락–부수앙가 항공", "price": "약 ₱2,500~6,000", "note": "편도" },
             { "label": "공항–코론 타운 밴", "price": "약 ₱150~250", "note": "1인, 편도" },
             { "label": "여객 방카", "price": "약 ₱700~1,200", "note": "코론·엘니도–리나파칸 편도, 운항 요일 확인" },
             { "label": "전세 보트", "price": "약 ₱4,000~8,000", "note": "1척, 편도" },
@@ -560,7 +582,15 @@
                 { "text": "해변과 섬 가운데 사유지나 캠프 구역이 있어 이용료를 받는 곳이 있습니다. 내리기 전에 사공에게 확인하는 것이 좋습니다." }
               ]
             },
-            { "children": [{ "text": "밤바다 수영과 혼자 하는 스노클링은 조류 때문에 위험하므로 피해야 합니다." }] }
+            { "children": [{ "text": "밤바다 수영과 혼자 하는 스노클링은 조류 때문에 위험하므로 피해야 합니다." }] },
+            {
+              "children": [
+                { "type": "date", "text": "2025년 11월" },
+                {
+                  "text": " 태풍 티노(칼마에기)가 리나파칸 앞바다를 지나며 섬마을이 큰 피해를 입었습니다. 일부 숙소와 캠프, 여객 방카는 아직 복구 중이거나 운영을 멈췄을 수 있으니 출발 전에 직접 연락해 영업 여부를 확인해야 합니다."
+                }
+              ]
+            }
           ]
         }
       ]

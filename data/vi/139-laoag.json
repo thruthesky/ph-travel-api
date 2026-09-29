@@ -415,12 +415,16 @@
                     {
                       "children": [
                         {
-                          "text": "Từ Cubao, Sampaloc, Pasay (Manila), xe buýt đi Laoag của các hãng Partas, Farinas Trans, Maria de Leon... khởi hành nhiều chuyến mỗi ngày. Mất khoảng "
+                          "text": "Mỗi ngày có nhiều chuyến xe buýt đi Laoag của Partas, Fariñas Trans, GV Florida, Maria de Leon… xuất phát từ Cubao, Sampaloc và Pasay ở Manila. Mất khoảng "
                         },
-                        { "type": "duration", "text": "9-11 giờ" },
-                        { "text": ", giá vé tùy hạng khoảng " },
-                        { "type": "price", "text": "₱1,000-1,800" },
-                        { "text": ", nên đi xe đêm hạng deluxe ghế rộng sẽ thoải mái hơn." }
+                        { "type": "duration", "text": "9–11 giờ" },
+                        { "text": ", giá vé khoảng " },
+                        { "type": "price", "text": "₱1,150–1,800" },
+                        {
+                          "text": " tùy hạng, và xe buýt đêm hạng Deluxe có ghế rộng là thoải mái nhất. Giá xe buýt tỉnh đã tăng từ "
+                        },
+                        { "type": "date", "text": "ngày 28 tháng 9 năm 2026" },
+                        { "text": ", nên khi đặt vé hãy kiểm tra lại giá." }
                       ]
                     },
                     {
@@ -481,6 +485,19 @@
                         { "type": "price", "text": "₱3,500-6,000" },
                         { "text": "." }
                       ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Trong nội thành còn có calesa, xe ngựa truyền thống do ngựa kéo. Giá rẻ, khoảng "
+                        },
+                        { "type": "price", "text": "₱20" },
+                        { "text": "/người cho chặng trong nội thành (tính đến " },
+                        { "type": "date", "text": "tháng 4 năm 2026" },
+                        {
+                          "text": "), và tòa thị chính đang chuẩn bị chỉnh trang các tuyến calesa và các sản phẩm trải nghiệm nối chợ với nhà hàng. Đi calesa một lần giữa nhà thờ chính tòa và công viên Aurora cũng là trải nghiệm rất Laoag."
+                        }
+                      ]
                     }
                   ]
                 }
@@ -526,6 +543,29 @@
             { "type": "date", "text": "ngày 10 tháng 2" },
             { "text": "), với diễu hành đường phố và biểu diễn làm cả thành phố náo nhiệt." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, sáng tối tháng 12–2 mát mẻ",
+              "Dễ chịu nhất — lễ hội Pamulinawen, lễ kính thành phố ngày 10 tháng 2"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, giữa trưa khoảng 35℃",
+              "Đi bộ nội thành và tour đồi cát — giữa trưa vào bảo tàng hoặc quán cà phê"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió mùa tây nam và bão",
+              "Tháng 7–9 chuyến bay, xe buýt thường bị hủy hoặc trễ do bão"
+            ]
+          ]
         }
       ]
     },
@@ -547,7 +587,7 @@
             },
             {
               "label": "Xe buýt Manila-Laoag",
-              "price": "Một chiều khoảng ₱1,000-1,800",
+              "price": "Một chiều khoảng ₱1,150–1,800",
               "note": "Từ thường đến deluxe"
             },
             {
@@ -557,8 +597,13 @@
             },
             {
               "label": "4x4 đồi cát La Paz",
-              "price": "Khoảng ₱2,500-3,500/xe",
-              "note": "Chia sẻ 4-6 người, kiểm tra có gồm trượt ván cát hay không"
+              "price": "Khoảng ₱2,000–3,500 mỗi xe",
+              "note": "4–5 người dùng chung, hãy kiểm tra xem có bao gồm ván trượt cát không"
+            },
+            {
+              "label": "Bảo tàng Ilocos Norte",
+              "price": "Khoảng ₱50–100",
+              "note": "Giảm giá cho học sinh và người cao tuổi, hãy kiểm tra giờ hoạt động"
             },
             {
               "label": "Thuê tricycle",
@@ -682,6 +727,19 @@
                 {
                   "text": "Nếu đi hành trình nối Vigan ở phía nam với Pagudpud ở phía bắc, nên nghỉ khoảng 2 đêm ở Laoag làm điểm trung chuyển để có thời gian thong thả."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bạn có thể xem lịch sự kiện như lễ hội Pamulinawen và thông báo hoạt động của các điểm tham quan trên "
+                },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức của tỉnh Ilocos Norte",
+                  "url": "https://ilocosnorte.gov.ph/"
+                },
+                { "text": "." }
               ]
             }
           ]

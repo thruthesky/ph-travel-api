@@ -20,8 +20,8 @@
     "items": ["순례 언덕", "천국 계단", "자비의 예수 십자가", "농장 체험", "산호아킨 성당"]
   },
   "rating": { "type": "rating", "label": "추천도", "value": 4.2, "max": 5 },
-  "latitude": { "type": "latitude", "label": "위도", "value": 10.5985 },
-  "longitude": { "type": "longitude", "label": "경도", "value": 122.1325 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 10.5967 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 122.139 },
   "best_season": {
     "type": "date",
     "label": "여행 최적기",
@@ -61,7 +61,26 @@
     "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_town_center.jpg"
   },
-  "gallery": { "type": "carousel", "label": "사진", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/165-garin-farm-2.webp",
+        "alt": "가린 팜 인근 산호아킨 성당",
+        "credit": "Philip Nalangan / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Church_Iloilo_2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/165-garin-farm-3.webp",
+        "alt": "가린 팜 인근 산호아킨 캄포 산토",
+        "credit": "Ryomaandres / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Camposanto.png"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -320,7 +339,9 @@
                       "children": [
                         { "text": "산호아킨 시내나 가린 팜 입구 갈림길에서 내린 뒤 트라이시클로 약 " },
                         { "type": "duration", "text": "10~15분" },
-                        { "text": " 들어갑니다. 요금은 약 " },
+                        { "text": " 들어갑니다. 요금은 합승 약 " },
+                        { "type": "price", "text": "₱15~25" },
+                        { "text": "이고, 혼자 대절하면 약 " },
                         { "type": "price", "text": "₱50~100" },
                         { "text": "입니다." }
                       ]
@@ -384,6 +405,17 @@
               "text": "성주간(부활절 전 주)에는 십자가의 길을 걷는 순례객이 몰려 가장 붐비고, 크리스마스와 연말 연휴, 주말에도 가족 단위 방문객이 많습니다. 한적하게 둘러보려면 평일 이른 아침이 가장 좋습니다. 산호아킨은 마을 축제 때 전통 소싸움 '파숭아이'가 열리는 곳으로도 알려져 있으니, 축제 일정은 현지 공지를 확인하십시오."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "시기별 한눈에 보기",
+          "icon": "calendar_month",
+          "columns": ["시기", "날씨", "여행 포인트"],
+          "rows": [
+            ["12월~2월", "건기, 하늘 맑음", "파란 하늘·바다 선명 — 연말 연휴 붐빔"],
+            ["3월~5월", "건기, 한낮 33~35℃", "오전 10시 이전·오후 3시 이후 오르기 — 성주간 가장 붐빔"],
+            ["6월~11월", "우기, 오후 소나기 잦음", "계단 미끄러움 — 태풍 시 시설 운영 중단"]
+          ]
         }
       ]
     },
@@ -399,12 +431,12 @@
           "columns": ["항목", "예상 비용", "비고"],
           "items": [
             { "label": "일로일로–산호아킨 버스·밴", "price": "편도 약 ₱80~150", "note": "약 1시간 30분~2시간" },
-            { "label": "트라이시클", "price": "편도 약 ₱50~100", "note": "산호아킨 시내–가린 팜" },
-            { "label": "가린 팜 입장료", "price": "약 ₱300~500", "note": "식사 포함 패키지 있음, 최신 요금 확인" },
-            { "label": "수영장·놀이 시설", "price": "약 ₱100~300", "note": "시설별 추가 요금" },
+            { "label": "트라이시클", "price": "편도 약 ₱15~25", "note": "합승 기준, 대절은 약 ₱50~100" },
+            { "label": "가린 팜 입장료", "price": "약 ₱150", "note": "노인 20% 할인, 체험 시설 별도, 최신 요금 확인" },
+            { "label": "수영장·놀이 시설", "price": "약 ₱80~350", "note": "수영장 ₱80, 짚라인 ₱250~350 등 시설별" },
             { "label": "점심 식사", "price": "1인 약 ₱200~450", "note": "농장 식당 기준" },
             { "label": "차량 대절", "price": "하루 약 ₱3,000~5,000", "note": "기사 포함, 인원 나눔" },
-            { "label": "리조트 숙박", "price": "1박 약 ₱2,000~5,000", "note": "객실 종류에 따라 다름" }
+            { "label": "리조트 숙박", "price": "1박 약 ₱1,500~3,500", "note": "조식·수영장 포함, 객실 종류에 따라 다름" }
           ]
         },
         {
@@ -427,7 +459,7 @@
           "type": "paragraph",
           "children": [
             { "text": "대부분의 여행자는 일로일로 시티에 묵으며 당일로 다녀갑니다. 조용한 시골 밤을 원한다면 가린 팜 안의 리조트 객실(1박 약 " },
-            { "type": "price", "text": "₱2,000~5,000" },
+            { "type": "price", "text": "₱1,500~3,500" },
             {
               "text": ")이나 산호아킨 해안의 소박한 비치 리조트에 묵을 수 있습니다. 이른 아침 순례 언덕에 오르려는 사람에게는 농장 숙박이 편하고, 성주간과 연휴에는 일찍 예약해야 합니다."
             }
@@ -480,6 +512,15 @@
                 {
                   "text": "성주간에는 여러 성당을 차례로 찾아 기도하는 '비지타 이글레시아' 풍습이 있습니다. 이 시기에 방문한다면 미아가오·산호아킨 성당과 가린 팜을 잇는 순례 코스를 현지인과 함께 걸어 보는 것도 특별한 경험입니다."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "디바인 머시 십자가가 있는 구역까지는 456계단, 맨 꼭대기까지는 약 480계단입니다. 계단이 부담스럽다면 파빌리온이나 십자가 근처까지 가는 골프 카트(약 "
+                },
+                { "type": "price", "text": "₱60~90" },
+                { "text": ")를 이용할 수 있습니다." }
               ]
             }
           ]

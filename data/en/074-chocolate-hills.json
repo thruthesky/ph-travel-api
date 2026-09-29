@@ -34,8 +34,8 @@
     "items": ["Geopark", "Viewpoint", "ATV", "Countryside tour", "Photo spot"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.7, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.8297 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.1397 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.7988 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 124.1673 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -215,10 +215,10 @@
             {
               "type": "card",
               "number": 4,
-              "title": "A different angle from Sagbayan Peak",
+              "title": "Hill scenery along the Loay Interior Road",
               "children": [
                 {
-                  "text": "Sagbayan Peak to the north is smaller in scale but less crowded, with restaurants and play areas, making it good for families."
+                  "text": "At the end of the Loay Interior Road, which runs past Vilar and on to Carmen, the hills press in close on both sides of the road. If you've chartered a vehicle, stop briefly on a safe shoulder to photograph the hills from a different eye level than the viewpoint."
                 }
               ]
             },
@@ -302,7 +302,7 @@
                     },
                     {
                       "time": "5:00 PM",
-                      "children": [{ "text": "Around this time: return to accommodation" }]
+                      "children": [{ "text": "Return to your accommodation at about this time" }]
                     }
                   ]
                 }
@@ -470,6 +470,39 @@
             { "type": "date", "text": "July" },
             { "text": ", when the Sandugo Festival is held across Bohol, Tagbilaran gets crowded." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "January",
+              "Aftermath of the rainy season, green hills",
+              "Green hills are beautiful too, and photos are sharp"
+            ],
+            [
+              "February–March",
+              "Dry season, hills turn brown",
+              "Chocolate-colored from late February — visit early in the morning"
+            ],
+            [
+              "April–May",
+              "Dry season, above 33°C at midday",
+              "Deepest brown — visit in the morning to avoid the heat"
+            ],
+            [
+              "June–September",
+              "Rainy season, green hills",
+              "Tagbilaran is crowded around the Sandugo Festival in the third week of July"
+            ],
+            [
+              "October–December",
+              "Rainy season, low pressure and heavy rain",
+              "Mountain roads slippery and ATV trails muddy"
+            ]
+          ]
         }
       ]
     },
@@ -619,6 +652,21 @@
                   "text": "Popular photo compositions are looking down at the hills from partway up the stairs, and the rice paddies beyond the hills along the ATV course."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "The viewpoint complex is generally open from " },
+                { "type": "time", "text": "8:00 AM to 5:30 PM" },
+                { "text": ". Since " },
+                { "type": "date", "text": "October 1, 2025" },
+                { "text": " admission has risen to " },
+                { "type": "price", "text": "₱150" },
+                { "text": " for adults not resident in Bohol and " },
+                { "type": "price", "text": "₱75" },
+                {
+                  "text": " for Bohol residents and children aged 6–12; children 5 and under are free, and only cash is accepted."
+                }
+              ]
             }
           ]
         }
@@ -670,6 +718,24 @@
               "children": [
                 {
                   "text": "Midday sun is very strong, so be sure to bring water, sunscreen, and a hat."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "The Sagbayan Peak viewpoint to the north has been closed since around " },
+                { "type": "date", "text": "April 2025" },
+                {
+                  "text": " for violating commercial operation rules. Even if it appears in older tour guides or maps, check whether it has reopened before visiting."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "In the dry season the grass on the hills dries out completely, and in " },
+                { "type": "date", "text": "April 2024" },
+                {
+                  "text": " grass fires broke out on two of the hills. Never throw away cigarettes or embers at the viewpoint or on the ATV trails."
                 }
               ]
             }

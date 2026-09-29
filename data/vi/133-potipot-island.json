@@ -347,13 +347,34 @@
                     {
                       "children": [
                         {
-                          "text": "Từ các bến Victory Liner ở Cubao, Pasay hoặc Caloocan (Manila), bạn đón xe buýt đi Santa Cruz (Zambales). Mất khoảng "
+                          "text": "Bạn đi xe buýt đi Santa Cruz (Zambales) từ các bến Victory Liner ở Cubao, Pasay, Caloocan tại Manila. Mất khoảng "
                         },
-                        { "type": "duration", "text": "5-7 giờ" },
+                        { "type": "duration", "text": "5–7 giờ" },
                         { "text": ", giá vé một chiều khoảng " },
-                        { "type": "price", "text": "₱550-700" },
+                        { "type": "price", "text": "₱650–800" },
+                        { "text": ". Hãy báo trước với phụ xe là bạn xuống ở Candelaria Uacon." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Xe đi Santa Cruz xuất phát từ Cubao nghỉ khoảng " },
+                        { "type": "duration", "text": "30 phút" },
                         {
-                          "text": ". Hãy báo trước với phụ xe rằng bạn sẽ xuống ở Uacon, Candelaria."
+                          "text": " ở bến Iba, và số chuyến ít, khoảng 4 chuyến mỗi ngày (vào khoảng "
+                        },
+                        { "type": "time", "text": "1 giờ sáng" },
+                        { "text": ", " },
+                        { "type": "time", "text": "5 giờ 20 sáng" },
+                        { "text": ", " },
+                        { "type": "time", "text": "8 giờ 30 sáng" },
+                        { "text": " và " },
+                        { "type": "time", "text": "9 giờ 30 tối" },
+                        {
+                          "text": "). Bạn cũng có thể đi xe đi Iba rồi đổi sang xe buýt đi về phía bắc tại Iba. Kể từ "
+                        },
+                        { "type": "date", "text": "ngày 28 tháng 9 năm 2026" },
+                        {
+                          "text": ", giá xe buýt tỉnh tăng theo km và đôi khi có thêm phụ phí nhiên liệu, nên khi mua vé hãy kiểm tra giá thực tế."
                         }
                       ]
                     }
@@ -492,6 +513,29 @@
               "text": " là mùa mưa khi gió mùa tây nam thổi thẳng từ biển vào, nên bờ biển Zambales là một trong những nơi mưa nhiều nhất Philippines. Vào những ngày sóng lớn, thuyền không chạy và đảo có thể đóng cửa. Trong thời gian này, bạn nên chọn ngày trời quang để đi về trong ngày, và nếu có tin bão thì hãy dời lịch trình."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, gió mát",
+              "Cắm trại thuận tiện — bờ biển phía tây nên nhiều ngày biển lặng"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, giữa trưa gần 35℃",
+              "Màu nước trong nhất — hãy đặt chòi vào Tuần Thánh"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, gió mùa tây nam và nhiều mưa",
+              "Tàu hủy chuyến vào ngày sóng cao — đi trong ngày khi trời quang, hoãn khi có bão"
+            ]
+          ]
         }
       ]
     },
@@ -508,7 +552,7 @@
           "items": [
             {
               "label": "Xe buýt Manila-Candelaria",
-              "price": "Một chiều khoảng ₱550-700",
+              "price": "Một chiều khoảng ₱650–800",
               "note": "Victory Liner, tuyến đi Santa Cruz"
             },
             {
@@ -661,6 +705,21 @@
                 {
                   "text": "Nếu kết hợp với Hundred Islands hoặc Bolinao, lịch trình 3 ngày 2 đêm vòng quanh bờ biển phía tây — 1 đêm ở khu vực Pangasinan và 1 đêm ở Potipot — sẽ hiệu quả hơn."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi kayak không nằm trong phí vào cửa, bạn có thể thuê kayak đôi khoảng "
+                },
+                { "type": "price", "text": "₱300" },
+                { "text": " cho 1 giờ và thiết bị lặn ống thở khoảng " },
+                { "type": "price", "text": "₱150" },
+                {
+                  "text": ". Nếu nhờ người chèo thuyền, bạn cũng có thể đi hopping đến đảo Hermana Menor ngoài khơi Santa Cruz (khoảng "
+                },
+                { "type": "price", "text": "₱1,500" },
+                { "text": " mỗi thuyền)." }
               ]
             }
           ]

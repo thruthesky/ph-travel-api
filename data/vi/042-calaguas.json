@@ -29,8 +29,8 @@
     "items": ["Bãi cát trắng", "Cắm trại", "Khám phá các đảo", "Dải Ngân Hà", "Du lịch vùng xa"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.5, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 14.45 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 122.9167 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 14.4766 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 122.939 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -320,6 +320,47 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Ngày cấm ra khơi",
+              "subtitle": "Khi bị kẹt lại ở Daet",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Hỏi cảng Vinzons hoặc người lái thuyền xem có ra khơi được không; nếu không thì dời lịch thuyền sang hôm sau"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Dạo quanh Đài tưởng niệm Rizal, nhà thờ và chợ ở trung tâm Daet"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        { "text": "Ăn trưa ở bãi biển Bagasbas rồi học lướt sóng hoặc dạo biển" }
+                      ]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [
+                        {
+                          "text": "Ngắm hoàng hôn ở bãi biển Bagasbas, ăn tối món Bicol ở trung tâm Daet"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -342,18 +383,18 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ các bến xe ở Cubao, Pasay, Buendia tại Manila, các hãng xe buýt như DLTB, Philtranco, Superlines chạy tuyến đi Daet hằng ngày, mất khoảng "
+                      "text": "Xe buýt đi Daet của DLTB, Superlines,... chạy hằng ngày từ các bến khu Cubao, Pasay, Buendia ở Manila, mất khoảng "
                     },
                     { "type": "duration", "text": "7–10 giờ" },
                     { "text": ", giá vé khoảng " },
-                    { "type": "price", "text": "₱750–1,200" },
+                    { "type": "price", "text": "₱750~1,200" },
                     {
-                      "text": ". Nếu đi xe đêm, bạn sẽ đến nơi vào sáng sớm và kịp chuyến thuyền buổi sáng cùng ngày. Từ Daet đến Vinzons đi bằng jeepney hoặc xe van mất khoảng "
+                      "text": ". Đi xe buýt đêm thì đến vào rạng sáng và có thể đi thuyền buổi sáng cùng ngày. Từ Daet đến Vinzons đi jeepney hoặc xe van khoảng "
                     },
                     { "type": "duration", "text": "30 phút – 1 giờ" },
                     { "text": ", khoảng " },
-                    { "type": "price", "text": "₱50–100" },
-                    { "text": ", và từ trung tâm Vinzons ra cảng đi tricycle mất khoảng " },
+                    { "type": "price", "text": "₱50~100" },
+                    { "text": ", và từ trung tâm Vinzons đến cảng đi tricycle khoảng " },
                     { "type": "duration", "text": "10–15 phút" },
                     { "text": "." }
                   ]
@@ -367,14 +408,16 @@
                 {
                   "type": "paragraph",
                   "children": [
+                    { "text": "Sân bay thương mại gần nhất là sân bay Naga (WNP). Từ " },
+                    { "type": "date", "text": "ngày 29 tháng 3 năm 2026" },
                     {
-                      "text": "Sân bay thương mại gần nhất là sân bay Naga (WNP), cách Manila khoảng "
+                      "text": ", do máy bay cánh quạt bị cấm khai thác ở Sân bay Ninoy Aquino Manila nên không còn chuyến bay thẳng Manila – Naga, và hiện đi từ Clark bằng chuyến của Cebgo mất khoảng "
                     },
-                    { "type": "duration", "text": "1 giờ" },
-                    { "text": " bay. Từ trung tâm Naga đến Daet mất khoảng " },
+                    { "type": "duration", "text": "1 giờ 20 phút" },
+                    { "text": ". Từ trung tâm Naga đến Daet đi xe buýt hoặc van mất khoảng " },
                     { "type": "duration", "text": "2–3 giờ" },
                     {
-                      "text": " bằng xe buýt hoặc xe van, nên dù đi máy bay thì tổng thời gian di chuyển cũng không giảm nhiều. Để tiết kiệm thời gian, cách thực tế là bay chuyến sáng sớm rồi bắt thuyền chiều cùng ngày, hoặc nghỉ lại một đêm ở Daet."
+                      "text": ", nên dù đi máy bay thì tổng thời gian di chuyển cũng không giảm nhiều. Để tiết kiệm thời gian, thực tế là đi chuyến bay đầu buổi sáng rồi bắt thuyền chiều cùng ngày, hoặc ở lại Daet 1 đêm."
                     }
                   ]
                 }
@@ -388,15 +431,15 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ cảng Vinzons đến Calaguas, thuê thuyền bangka riêng là cách phổ biến. Thuyền nhỏ 4–6 người có giá khứ hồi khoảng "
+                      "text": "Từ cảng Vinzons đến Calaguas thường đi bằng thuyền bangka thuê riêng. Thuyền nhỏ 4–6 người khứ hồi khoảng "
                     },
-                    { "type": "price", "text": "₱2,500–4,000" },
+                    { "type": "price", "text": "₱2,500~4,000" },
                     { "text": ", thuyền lớn 15–20 người khoảng " },
-                    { "type": "price", "text": "₱5,000–8,000" },
-                    { "text": ", và mất khoảng " },
+                    { "type": "price", "text": "₱5,000~8,000" },
+                    { "text": ", mỗi chiều mất khoảng " },
                     { "type": "duration", "text": "1 giờ 30 phút – 2 giờ 30 phút" },
                     {
-                      "text": " một chiều. Vào cuối tuần cao điểm cũng có thuyền bangka bán theo chỗ ngồi cho nhóm ghép. Trước đây tuyến xuất phát từ cảng Paracale cũng được dùng nhiều, nhưng hiện nay tuyến Vinzons gần hơn nên được ưa chuộng chính. Nếu dùng tour ghép của công ty du lịch (bao gồm xe buýt khứ hồi Manila, thuyền, lều), việc chuẩn bị sẽ đơn giản hơn nhiều."
+                      "text": ". Vào cuối tuần mùa cao điểm cũng có bangka đi chung gom người bán theo từng ghế. Thuyền cũng chạy từ cảng Paracale và đường biển ở đây hơi ngắn hơn, nhưng tuyến từ cảng Vinzons, nơi quản lý hòn đảo, được dùng phổ biến nhất. Nếu dùng tour ghép của công ty du lịch (gồm xe buýt khứ hồi từ Manila, thuyền và lều) thì việc chuẩn bị đơn giản hơn nhiều."
                     }
                   ]
                 }
@@ -455,6 +498,25 @@
               "text": ", nắng đặc biệt gắt, nên nếu chuẩn bị tấm bạt hoặc lều che nắng, bạn sẽ ở lại thoải mái hơn nhiều."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Gió mùa đông bắc (Amihan), sóng cao",
+              "Bangka thường ngừng chạy — nhiều ngày cấm ra khơi"
+            ],
+            [
+              "Tháng 3 – tháng 6",
+              "Mùa khô, gió yếu và biển lặng",
+              "Màu nước trong nhất — Tuần Thánh dân cắm trại đổ về nên khuyên đi ngày thường"
+            ],
+            ["Tháng 7 – tháng 10", "Mùa mưa và mùa bão", "Bão nhiều nên khó lên kế hoạch chuyến đi"]
+          ]
         }
       ]
     },
@@ -486,24 +548,29 @@
             },
             {
               "label": "Phí môi trường · phí lên đảo",
-              "price": "Khoảng ₱50–150",
-              "note": "Thu tại chỗ, hay thay đổi"
+              "price": "Khoảng ₱120~170",
+              "note": "Thuế môi trường barangay ₱20 và vé vào khu cắm trại, thu tại chỗ"
             },
             {
               "label": "Chỗ dựng lều · thuê lều",
-              "price": "Khoảng ₱300–1,000",
+              "price": "Khoảng ₱100~1,000",
               "note": "Mỗi đêm, tùy có thuê lều hay không"
             },
             { "label": "Ở chòi", "price": "Khoảng ₱2,000–5,000", "note": "Mỗi đêm, 2–4 người" },
             {
               "label": "Tắm tráng · sạc pin",
-              "price": "Khoảng ₱50–150",
+              "price": "Khoảng ₱10~50",
               "note": "Trả phí theo lượt"
             },
             {
               "label": "Ăn uống · thực phẩm",
               "price": "Khoảng ₱500–1,000",
               "note": "Mỗi người mỗi ngày"
+            },
+            {
+              "label": "Vé vào đồi ngắm cảnh",
+              "price": "Khoảng ₱20~60",
+              "note": "Theo đồi thấp và đồi cao"
             }
           ]
         },
@@ -612,6 +679,17 @@
                 {
                   "text": "Ảnh bình minh nên chụp trên đồi Tinaga, còn ảnh dải Ngân Hà nên chụp ở phía cuối bãi biển không có ánh đèn."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Điện từ máy phát trên đảo thường chỉ có từ " },
+                { "type": "time", "text": "6 giờ tối đến 6 giờ sáng" },
+                { "text": ". Một số chòi bán Wi-Fi vệ tinh Starlink khoảng " },
+                { "type": "price", "text": "₱100" },
+                { "text": " cho mỗi " },
+                { "type": "duration", "text": "1 giờ 30 phút" },
+                { "text": ", nhưng tốc độ khá chậm." }
               ]
             }
           ]
@@ -722,6 +800,18 @@
                 { "text": "Là núi lửa hình nón ở Legazpi, tỉnh Albay, cách Daet khoảng " },
                 { "type": "duration", "text": "4–5 giờ" },
                 { "text": " đi xe." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Thành phố Naga",
+              "place": "naga-city",
+              "children": [
+                { "text": "Thành phố trung tâm của Bicol cách Daet khoảng " },
+                { "type": "duration", "text": "2–3 giờ" },
+                {
+                  "text": " đi xe buýt hoặc van, là nơi khởi nguồn của tín ngưỡng Đức Mẹ Peñafrancia và là nơi bạn đi qua khi dùng sân bay Naga."
+                }
               ]
             }
           ]

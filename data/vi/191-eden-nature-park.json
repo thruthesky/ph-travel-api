@@ -273,7 +273,13 @@
                     {
                       "time": "10:00",
                       "children": [
-                        { "text": "Trải nghiệm Skyrider, Skycycle... (buổi sáng ít xếp hàng hơn)" }
+                        {
+                          "text": "Chơi các trò trải nghiệm như Skyrider và Skycycle (tính theo thứ Sáu–Chủ nhật, buổi sáng hàng chờ ngắn hơn). Từ thứ Hai đến thứ Năm, các trò trải nghiệm mở cửa lúc "
+                        },
+                        { "type": "time", "text": "1 giờ chiều" },
+                        {
+                          "text": ", nên vào giờ này hãy đi dạo vườn hoa và vườn rau trước rồi dời phần trải nghiệm sang sau bữa trưa"
+                        }
                       ]
                     },
                     {
@@ -530,6 +536,39 @@
               "text": " khi lễ hội lớn nhất Davao — Kadayawan — diễn ra, cùng Tuần Thánh và kỳ nghỉ cuối năm, công viên rất đông và chỗ ở nhanh hết."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 1 – tháng 5",
+              "Tương đối quang đãng, ban ngày 18–25℃",
+              "Thích hợp nhất để đi dạo và trải nghiệm — đông vào Tuần Thánh"
+            ],
+            [
+              "Tháng 6 – tháng 7",
+              "Mưa rào buổi chiều và sương mù",
+              "Đến sớm buổi sáng và làm các hoạt động ngoài trời trước"
+            ],
+            [
+              "Tháng 8",
+              "Mưa rào, sương mù, lễ hội Kadayawan",
+              "Công viên và chỗ nghỉ đông quanh tuần thứ ba"
+            ],
+            [
+              "Tháng 9 – tháng 11",
+              "Mưa rào buổi chiều và sương mù",
+              "Sáng và đêm se lạnh — nên làm hoạt động ngoài trời vào buổi sáng"
+            ],
+            [
+              "Tháng 12",
+              "Mưa rào, sương mù, cuối năm",
+              "Đèn và sự kiện cuối năm — dịp nghỉ lễ chỗ nghỉ hết nhanh"
+            ]
+          ]
         }
       ]
     },
@@ -546,18 +585,18 @@
           "items": [
             {
               "label": "Vé vào cổng (gói gồm buffet trưa)",
-              "price": "Khoảng ₱600~900",
-              "note": "Ngày thường·cuối tuần, tùy nội dung gói"
+              "price": "Khoảng ₱680–980",
+              "note": "Set lunch ngày thường, buffet cuối tuần, trẻ 4–10 tuổi ₱480–490"
             },
             {
               "label": "Tour xe điện có hướng dẫn viên",
-              "price": "Khoảng ₱120~200",
+              "price": "Khoảng ₱400–430",
               "note": "Khoảng 45 phút, theo thứ tự đến trước"
             },
-            { "label": "Skyrider", "price": "Khoảng ₱200~350", "note": "1 lượt" },
+            { "label": "Skyrider", "price": "Khoảng ₱200", "note": "1 lượt" },
             {
               "label": "Skycycle · Skyswing",
-              "price": "Khoảng ₱200~500",
+              "price": "Khoảng ₱250–500",
               "note": "Tùy trò chơi và số người"
             },
             {
@@ -565,7 +604,7 @@
               "price": "Khoảng ₱100~300",
               "note": "Tính riêng theo giờ·theo cá câu được"
             },
-            { "label": "Hồ bơi", "price": "Khoảng ₱60~100", "note": "Dành cho khách trong ngày" },
+            { "label": "Hồ bơi", "price": "Khoảng ₱200", "note": "Dành cho khách trong ngày" },
             {
               "label": "Taxi trung tâm–Eden",
               "price": "Một chiều khoảng ₱600~1,000",
@@ -612,6 +651,18 @@
           "type": "paragraph",
           "children": [
             {
+              "text": "Nếu đi họp mặt gia đình hoặc theo đoàn, bạn có thể thuê nguyên căn như Mountain Villa, Pine Lodge, Log Cabin và Shangri-La cho 5–25 người ở cùng nhau. Giá khoảng "
+            },
+            { "type": "price", "text": "₱6,475–25,000" },
+            {
+              "text": " một đêm (chỉ tiền phòng, bữa sáng tính riêng), và khi chia theo số người có khi còn rẻ hơn phòng thông thường."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
               "text": "Bữa ăn tiêu biểu là buffet trưa tại nhà hàng công viên. Có salad và súp làm từ xà lách, thảo mộc, rau trồng tại nông trại công viên, cùng các món gà, heo kiểu Philippines; nếu chọn gói vé đã gồm buffet, bạn không cần tìm quán ăn riêng. Cá rô phi câu được tại khu câu cá cũng có thể được chế biến nướng hoặc chiên. Khi về trung tâm vào buổi tối, bạn nên thử món cá ngừ đặc sản Davao cùng các loại trái cây nhiệt đới như sầu riêng, măng cụt, bưởi chùm (pomelo)."
             }
           ]
@@ -631,11 +682,30 @@
           "items": [
             {
               "children": [
-                { "text": "Công viên thường mở cửa từ khoảng " },
-                { "type": "time", "text": "9 giờ sáng đến 5 giờ chiều" },
+                { "text": "Giờ hoạt động của công viên nhìn chung là " },
+                { "type": "time", "text": "8 giờ sáng–5 giờ chiều" },
                 {
-                  "text": ". Nếu đến đúng giờ mở cửa, bạn sẽ ít phải xếp hàng ở các trò trải nghiệm và còn có thể ngắm khung cảnh rừng sương mù."
+                  "text": ". Nếu đến đúng giờ mở cửa, hàng chờ trò trải nghiệm ngắn và bạn còn được ngắm cảnh rừng có sương mù."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Các trò trải nghiệm như Skyrider, Skycycle và Skyswing chỉ hoạt động từ thứ Hai đến thứ Năm lúc "
+                },
+                { "type": "time", "text": "1 giờ–5 giờ chiều" },
+                { "text": " và từ thứ Sáu đến Chủ nhật lúc " },
+                { "type": "time", "text": "8 giờ sáng–5 giờ chiều" },
+                {
+                  "text": ". Mọi trò trải nghiệm đều phải ký giấy đồng ý sử dụng, và trẻ vị thành niên cần có sự đồng ý của người giám hộ. Bảng giá mới nhất có trên "
+                },
+                {
+                  "type": "link",
+                  "text": "trang chính thức",
+                  "url": "https://www.edennaturepark.com.ph/rates/"
+                },
+                { "text": "." }
               ]
             },
             {

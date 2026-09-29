@@ -414,15 +414,23 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Direct flights from Manila to Surigao Airport (SUG) take about " },
-                    { "type": "duration", "text": "1 hour 40 minutes" },
-                    { "text": ", with one-way fares around " },
-                    { "type": "price", "text": "₱2,500–6,000" },
+                    { "text": "The direct Manila–Surigao flight has been discontinued since " },
+                    { "type": "date", "text": "March 30, 2025" },
                     {
-                      "text": ". Flights to Surigao also run from Cebu. If no flight fits your schedule, you can fly to Butuan Airport (BXU) instead and continue to Surigao City by bus or van, about "
+                      "text": ", and Surigao Airport (SUG) now has only Cebgo flights from Cebu (about "
                     },
+                    { "type": "duration", "text": "1 hour" },
+                    {
+                      "text": "). From Manila, either fly direct on Philippine Airlines or Cebu Pacific to Butuan Airport (BXU), about "
+                    },
+                    { "type": "duration", "text": "1 hour 40 minutes" },
+                    { "text": " for about " },
+                    { "type": "price", "text": "₱2,500–6,000" },
+                    { "text": " one way, then take a bus or van about " },
                     { "type": "duration", "text": "2 hours 30 minutes–3 hours" },
-                    { "text": ". From Surigao Airport to the pier is about " },
+                    {
+                      "text": " to Surigao City, or route through Cebu into Surigao. From Surigao Airport to the pier is about "
+                    },
                     { "type": "duration", "text": "10–15 minutes" },
                     { "text": " by tricycle." }
                   ]
@@ -437,13 +445,31 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Passenger boats and fast ferries run frequently from the Surigao City pier to San Jose, the capital of Dinagat Islands, from early morning until afternoon. The trip takes about "
+                      "text": "Passenger ferries and fast ferries run frequently from early morning to afternoon from Surigao City pier to San Jose, the capital of Dinagat province. The trip takes about "
                     },
                     { "type": "duration", "text": "1–2 hours" },
-                    { "text": ", for around " },
-                    { "type": "price", "text": "₱120–200" },
+                    { "text": " and costs about " },
+                    { "type": "price", "text": "₱150–250" },
                     {
-                      "text": ", plus a separate pier terminal fee. Departure piers vary by operator, so check before buying your ticket. There is also a separate town called \"Dinagat\" on the north of the island with the same name as the province, so be sure to confirm your boat is bound for San Jose, the tourism hub."
+                      "text": ", with a pier terminal fee charged separately. The departure pier differs by shipping company, so check before you buy a ticket. A separate village also named \"Dinagat\" sits on the north of the island, so be sure you're heading to San Jose, the tourist center."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "If you want to start island hopping from Basilisa or Libjo, you can take a boat from Surigao Boulevard pier to Basilisa (around "
+                    },
+                    { "type": "time", "text": "12 noon" },
+                    { "text": ", about " },
+                    { "type": "duration", "text": "2 hours 30 minutes–3 hours" },
+                    { "text": ") or to Libjo (around " },
+                    { "type": "time", "text": "11 AM" },
+                    { "text": " Monday–Saturday, about " },
+                    { "type": "duration", "text": "3 hours" },
+                    {
+                      "text": "). There is about one boat a day and the return boat leaves at dawn, so check the schedule in advance."
                     }
                   ]
                 }
@@ -479,8 +505,8 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "Chartered island-hopping boat: about " },
-                        { "type": "price", "text": "₱5,000–8,000" },
+                        { "text": "Island-hopping boat charter: about " },
+                        { "type": "price", "text": "₱6,500–8,000" },
                         { "text": " for 2 days, 4–8 people per boat" }
                       ]
                     },
@@ -549,6 +575,34 @@
               "text": " it's essential to check the weather forecast and build about a day of slack into your schedule. Holy Week and summer break bring more local travelers, so it's best to book beach huts and boats in advance."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "October–January",
+              "In the typhoon path, heaviest rain in November–January",
+              "Boats often cancelled by waves — checking forecasts is essential"
+            ],
+            [
+              "February–March",
+              "Relatively little rain and calm seas",
+              "Good time for island hopping"
+            ],
+            [
+              "April–May",
+              "Strong sun, clearest water",
+              "Best for tide pools and limestone island photos"
+            ],
+            [
+              "June–September",
+              "Rain without a clear dry season",
+              "Hopping is fine through June — book lodging before peak season"
+            ]
+          ]
         }
       ]
     },
@@ -563,10 +617,14 @@
           "currency": "PHP",
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
-            { "label": "Manila–Surigao flight", "price": "About ₱2,500–6,000", "note": "One-way" },
+            {
+              "label": "Manila–Butuan flight",
+              "price": "About ₱2,500–6,000",
+              "note": "One way; Surigao via Cebu"
+            },
             {
               "label": "Surigao–San Jose boat",
-              "price": "About ₱120–200",
+              "price": "About ₱150–250",
               "note": "One-way, terminal fee separate"
             },
             {
@@ -576,7 +634,7 @@
             },
             {
               "label": "Island-hopping boat",
-              "price": "About ₱5,000–8,000",
+              "price": "About ₱6,500–8,000",
               "note": "Per boat, 2 days, 4–8 people"
             },
             { "label": "Attraction entrance fee", "price": "About ₱20–150", "note": "Per site" },
@@ -707,6 +765,23 @@
                 {
                   "text": "If combining this with a Siargao trip, the cleanest route is to base yourself in Surigao City, visit Dinagat first, then take the boat on to Siargao."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Lake Bababu is in Barangay Melgar in Basilisa, and is said to have an underwater cave about "
+                },
+                { "type": "distance", "text": "650m" },
+                {
+                  "text": " long running beneath the lake and connecting to the sea. The location and description of each attraction can be found in the Dinagat Islands province's "
+                },
+                {
+                  "type": "link",
+                  "text": "official tourism guide",
+                  "url": "https://dinagatislands.gov.ph/attractions/bababu-lake/"
+                },
+                { "text": "." }
               ]
             }
           ]

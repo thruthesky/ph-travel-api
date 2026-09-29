@@ -356,6 +356,77 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Day-trip route",
+              "subtitle": "Centered on the north; good even on rainy days",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "7:00 AM",
+                      "children": [
+                        { "text": "Take a bangka to Jordan from Parola Wharf in Iloilo City" }
+                      ]
+                    },
+                    {
+                      "time": "7:30 AM",
+                      "children": [
+                        {
+                          "text": "Hire a tricycle for half a day to a full day at the tourist information center at Jordan wharf"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "8:00 AM",
+                      "children": [{ "text": "Balaan Bukid pilgrimage site viewpoint" }]
+                    },
+                    {
+                      "time": "9:30 AM",
+                      "children": [
+                        {
+                          "text": "Visit the Trappist monastery and the mango research center area"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Noon",
+                      "children": [
+                        {
+                          "text": "Lunch of mango pizza and mango shake at a restaurant near Jordan"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "1:30 PM",
+                      "children": [
+                        { "text": "Admire the exterior of Roca Encantada on the Buenavista coast" }
+                      ]
+                    },
+                    {
+                      "time": "4:00 PM",
+                      "children": [
+                        {
+                          "text": "Buy souvenirs such as dried mangoes in front of Jordan wharf, then return to Iloilo"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The beaches and island hopping around Nueva Valencia in the south take about "
+                    },
+                    { "type": "duration", "text": "1 hour" },
+                    {
+                      "text": " one way from Jordan, so if you want to reach the beach on a day trip, it's better to visit just one monastery and head straight south. On rainy days or when the sea is rough, the northern land route above is enough on its own."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -388,6 +459,15 @@
                         { "type": "duration", "text": "45 minutes–1 hour" },
                         { "text": " by taxi or Grab." }
                       ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "There are also daily direct flights to Iloilo from Cebu's Mactan Airport, with a flight time of about "
+                        },
+                        { "type": "duration", "text": "1 hour" },
+                        { "text": "." }
+                      ]
                     }
                   ]
                 }
@@ -404,18 +484,22 @@
                     {
                       "children": [
                         {
-                          "text": "Motorized bangkas run from Parola wharf in Iloilo City to Jordan wharf roughly every "
+                          "text": "Motor bangkas run from Parola Wharf in Iloilo City to Jordan wharf about every "
                         },
                         { "type": "duration", "text": "15 minutes" },
                         { "text": " (every " },
                         { "type": "duration", "text": "30 minutes–1 hour" },
-                        { "text": " during quiet periods), costing about " },
-                        { "type": "price", "text": "₱20–40" },
-                        {
-                          "text": " per person. The first boat runs before dawn, and the last is usually around "
-                        },
-                        { "type": "time", "text": "6–7 PM" },
-                        { "text": "." }
+                        { "text": " at quiet times), and the fare is " },
+                        { "type": "price", "text": "₱40" },
+                        { "text": " per person (" },
+                        { "type": "price", "text": "₱50" },
+                        { "text": " after " },
+                        { "type": "time", "text": "8:00 PM" },
+                        { "text": "). The first boat leaves around " },
+                        { "type": "time", "text": "5:00 AM" },
+                        { "text": ", and the last boat varies from day to day between " },
+                        { "type": "time", "text": "7–9 PM" },
+                        { "text": ", so check at the wharf." }
                       ]
                     },
                     {
@@ -430,6 +514,43 @@
                         {
                           "text": "Bangka fares and schedules can change based on decisions by shipping authorities and the provincial government, so check the latest notice."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "From " },
+                        { "text": "March 24, 2026", "type": "date" },
+                        {
+                          "text": ", the bangka fare between Iloilo and Jordan or Buenavista rose from "
+                        },
+                        { "text": "₱30", "type": "price" },
+                        { "text": " to " },
+                        { "text": "₱40", "type": "price" },
+                        {
+                          "text": ". Students, seniors, persons with disabilities, and pregnant women get a discounted fare of "
+                        },
+                        { "text": "₱32", "type": "price" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "There are also small bangkas that cross directly from Negros Island between Pulupandan in Negros Occidental and the eastern Guimaras wharf, but they run infrequently and are sensitive to waves, so most people come via Iloilo."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Wharf and boat information is available on the Guimaras provincial government's "
+                        },
+                        {
+                          "type": "link",
+                          "text": "official website",
+                          "url": "https://guimaras.gov.ph/how-to-get-there/"
+                        },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -534,6 +655,25 @@
               "text": ", and bangka service between Iloilo and Guimaras can be suspended during these. Visitor numbers rise sharply during Holy Week before Easter, for the Balaan Bukid pilgrimage and passion play."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            ["December–February", "Dry season", "Good for island loops and beach activities"],
+            [
+              "March–May",
+              "Dry season, mango harvest at its peak",
+              "Mangoes at their tastiest and cheapest — Manggahan Festival in late May"
+            ],
+            [
+              "June–November",
+              "Rainy season, southwest monsoon",
+              "Island hopping often cancelled — bangkas stop running in typhoons"
+            ]
+          ]
         }
       ]
     },
@@ -550,8 +690,8 @@
           "items": [
             {
               "label": "Parola↔Jordan bangka",
-              "price": "About ₱20–40 one way",
-              "note": "About 15 minutes"
+              "price": "About ₱40 one way",
+              "note": "About 15–20 minutes, ₱50 after 8 PM"
             },
             {
               "label": "Chartered tricycle for an island loop",

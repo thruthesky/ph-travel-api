@@ -29,8 +29,8 @@
     "items": ["Điểm hành hương", "Nhà thờ", "Bảo tàng nghệ thuật", "Thác nước", "Suman", "Cảnh đêm"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.2, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 14.5866 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 121.1757 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 14.5876 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 121.1767 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -371,16 +371,29 @@
                     {
                       "children": [
                         {
-                          "text": "Cách thuận tiện nhất là đi tàu LRT-2 đến ga cuối phía đông là ga Antipolo (trước đây là ga Masinag). Từ ga Recto mất khoảng "
+                          "text": "Cách thuận tiện nhất là đi LRT-2 đến ga cuối phía đông là ga Antipolo (trước đây là ga Masinag). Từ ga Recto mất khoảng "
                         },
                         { "type": "duration", "text": "35–45 phút" },
                         { "text": ", giá vé khoảng " },
-                        { "type": "price", "text": "₱30~45" },
-                        { "text": ". Chuyến đầu tiên chạy khoảng " },
+                        { "type": "price", "text": "₱33–35" },
+                        { "text": ". Chuyến đầu tiên khởi hành vào khoảng " },
                         { "type": "time", "text": "5 giờ sáng" },
-                        { "text": ", chuyến cuối từ ga Antipolo khoảng " },
+                        { "text": " và chuyến cuối tại ga Antipolo vào khoảng " },
                         { "type": "time", "text": "9 giờ tối" },
                         { "text": ", nên hãy kiểm tra giờ về." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Kể từ " },
+                        { "text": "ngày 23 tháng 3 năm 2026", "type": "date" },
+                        {
+                          "text": ", theo chỉ đạo của Bộ Giao thông, giá vé LRT-2 được giảm 50% cho mọi hành khách, nên đoạn Recto – Antipolo hiện khoảng "
+                        },
+                        { "text": "₱16.50–18", "type": "price" },
+                        {
+                          "text": ". Đây là biện pháp tạm thời thực hiện 「cho đến khi có thông báo mới」 nên có thể kết thúc bất cứ lúc nào."
+                        }
                       ]
                     }
                   ]
@@ -506,6 +519,29 @@
               "text": ", mưa rào buổi chiều thường xuyên hơn, nhưng đây cũng là lúc thác Hinulugang Taktak có nhiều nước nhất."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, buổi tối mát mẻ 20–23℃",
+              "Sân thượng nhà hàng có tầm nhìn đẹp — trời quang có thể ngắm cả biển"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, giữa trưa oi bức và hầu như không mưa",
+              "Tháng hành hương tháng 5 — các con đường quanh nhà thờ bị kiểm soát, lưu ý tình trạng đông đúc"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, thường có mưa rào buổi chiều",
+              "Thác Hinulugang Taktak có lượng nước lớn nhất"
+            ]
+          ]
         }
       ]
     },
@@ -522,7 +558,7 @@
           "items": [
             {
               "label": "LRT-2 Recto–Antipolo",
-              "price": "Khoảng ₱30–45 một chiều",
+              "price": "Một chiều khoảng ₱16.50–35",
               "note": "Có thể dùng thẻ Beep hoặc QR"
             },
             { "label": "Xe jeepney (ga–trung tâm)", "price": "Khoảng ₱15–25", "note": "Một chiều" },
@@ -533,7 +569,7 @@
             },
             {
               "label": "Vé vào Bảo tàng Nghệ thuật Pinto",
-              "price": "Khoảng ₱250–350 (người lớn)",
+              "price": "Người lớn ₱250",
               "note": "Giảm giá cho học sinh, người cao tuổi; đóng cửa thứ Hai"
             },
             {
@@ -644,6 +680,23 @@
                 {
                   "text": "Bảo tàng Nghệ thuật Pinto có nhiều cầu thang và dốc. Nên đi giày thoải mái, và nếu đến vào chiều muộn thì ảnh chụp trong vườn sẽ có ánh sáng dịu hơn."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Bảo tàng Nghệ thuật Pinto mở cửa từ thứ Ba đến Chủ nhật, " },
+                { "type": "time", "text": "10 giờ sáng – 5 giờ chiều" },
+                { "text": ", học sinh trả " },
+                { "type": "price", "text": "₱125" },
+                {
+                  "text": ". Bạn không được mang túi lớn và ba lô vào, và trong phòng trưng bày cấm chụp ảnh có đèn flash, quay video và mang đồ ăn vào. Hãy xem hướng dẫn mới nhất trên "
+                },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức",
+                  "url": "https://www.pintoartmuseum.org/"
+                },
+                { "text": "." }
               ]
             },
             {

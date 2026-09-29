@@ -338,6 +338,57 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Lịch trình nhảy đảo trong ngày",
+              "subtitle": "Nếu ở tại khu nghỉ dưỡng Pundaquit",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:30",
+                      "children": [
+                        { "text": "Thuyền xuất phát từ bãi biển Pundaquit, nộp thuế môi trường" }
+                      ]
+                    },
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Đến Anawangin, nộp vé vào cửa (trong ngày), tắm biển và dạo quanh đầm phá"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [{ "text": "Leo lên đồi ngắm cảnh, nhìn xuống toàn bộ vịnh" }]
+                    },
+                    {
+                      "time": "09:30",
+                      "children": [{ "text": "Tắm biển và chụp ảnh ở bãi cát nổi đảo Camara" }]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [{ "text": "Lên đảo Capones, đi bộ lên ngọn hải đăng" }]
+                    },
+                    {
+                      "time": "11:30~12:00",
+                      "children": [{ "text": "Về lại Pundaquit, tắm rửa và ăn trưa" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Buổi chiều gió mạnh khiến sóng cao, nên hoàn tất việc di chuyển giữa các đảo trong buổi sáng thì tốt hơn. Nếu muốn thêm cả vịnh Nagsasa thì thời gian đi thuyền tăng lên, nên hãy xuất phát trước "
+                    },
+                    { "type": "time", "text": "06:00" },
+                    { "text": "." }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -486,6 +537,29 @@
             { "text": ", " },
             { "type": "date", "text": "tháng 1 – tháng 2" },
             { "text": "), bạn sẽ gặp một Anawangin yên tĩnh hơn nhiều." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, ban đêm khoảng 20 độ (tháng 12 – tháng 2)",
+              "Cắm trại dễ chịu nhất — tháng 11 và tháng 1–2 ngày thường vắng vẻ"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, nước biển ấm và trời quang",
+              "Tắm biển, ngắm sao — Tuần Thánh và cuối tuần kỳ nghỉ hè đông nghẹt"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, sóng cao và thường mưa lớn",
+              "Cấm thuyền chạy, đóng khu cắm trại — nên tránh đến"
+            ]
           ]
         }
       ]
@@ -666,6 +740,17 @@
                   "text": "Nguyên tắc là phải mang toàn bộ rác về. Hãy mang theo nhiều túi rác lớn."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Các khu nghỉ dưỡng và chủ thuyền ở Pundaquit bán gói 1 đêm gồm thuyền khứ hồi, vé vào cửa, nhảy đảo Capones, lều chung và nước uống. Càng đông thì càng rẻ, khoảng "
+                },
+                { "type": "price", "text": "₱800~2,300" },
+                {
+                  "text": "/người, nên với nhóm nhỏ không có đồ nghề thì có thể tiện và rẻ hơn thuê riêng từng thứ."
+                }
+              ]
             }
           ]
         }
@@ -786,7 +871,8 @@
                 {
                   "text": " đi xe. Làng biển lướt sóng ở phía bắc Zambales, nơi bạn có thể học lướt sóng cho người mới vào mùa sóng đẹp."
                 }
-              ]
+              ],
+              "place": "liwliwa"
             }
           ]
         }

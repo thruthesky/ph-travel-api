@@ -113,12 +113,18 @@
         {
           "type": "paragraph",
           "children": [
+            { "text": "Palaui Island is an island with a land area of about " },
+            { "type": "distance", "text": "24km²" },
             {
-              "text": "Palaui Island sits off the northeastern tip of Luzon, in the waters off Santa Ana, Cagayan province, covering about 70 km². Declared a marine reserve (the Palaui Island Marine Reserve) by presidential proclamation in "
+              "text": " lying off Santa Ana, Cagayan, at the northeastern tip of Luzon. It was designated a marine reserve (Palaui Island Marine Reserve) by presidential proclamation in "
             },
             { "type": "date", "text": "1994" },
+            { "text": ", and in " },
+            { "type": "date", "text": "2018" },
+            { "text": " a law (Republic Act 11038) upgraded about " },
+            { "type": "distance", "text": "80km²" },
             {
-              "text": ", development has been strictly limited, so grassy hills, primary forest, coral reefs, and quiet fishing villages remain almost untouched, without a single large resort. The healthy reefs and diverse marine life around the island also make it ecologically important."
+              "text": " including the surrounding sea to a Protected Landscape and Seascape. Thanks to strict limits on development, there is not a single large resort, and grassy hills, primary forest, coral reefs, and quiet fishing villages remain almost as they were. The sea around the island holds healthy coral reefs and a variety of fish, making it ecologically important as well."
             }
           ]
         },
@@ -340,6 +346,75 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Day course",
+              "subtitle": "Staying in Santa Ana",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:30",
+                      "children": [
+                        {
+                          "text": "Go from your lodging in Santa Ana town to San Vicente port by tricycle (about "
+                        },
+                        { "type": "duration", "text": "15–20 minutes" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "At the Ecozone Visitor Center, register and pay the environmental fee and guide fee, and arrange a 4-stop package boat (about "
+                        },
+                        { "type": "duration", "text": "7 hours" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "07:45",
+                      "children": [
+                        {
+                          "text": "Land on the Cape Engaño shore, climb uphill to the lighthouse, and enjoy the view"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        {
+                          "text": "Swim and have lunch at Anguib Beach (prepare a packed lunch in town)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        { "text": "Rest and take photos on the Crocodile Island sandbar" }
+                      ]
+                    },
+                    {
+                      "time": "14:00",
+                      "children": [
+                        {
+                          "text": "Return to the port, and get your deposit back after the visitor center checks your trash"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "On days when rough seas block landing on the northern shore near the lighthouse, you often switch to visiting only nearby Crocodile Island and Punta Verde, or landing at Punta Verde and walking a forest path to the lighthouse. Whether the boat goes out is decided at the port on the morning of the day."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -381,25 +456,23 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    {
-                      "text": "Vans to Santa Ana depart frequently from downtown Tuguegarao, taking about "
-                    },
+                    { "text": "Vans to Santa Ana leave Tuguegarao city regularly, taking about " },
                     { "type": "duration", "text": "3–4 hours" },
-                    { "text": " for roughly " },
+                    { "text": " and costing about " },
                     { "type": "price", "text": "₱250–400" },
                     {
-                      "text": ". From Manila, companies like Victory Liner and GV Florida run to Tuguegarao, about "
+                      "text": ". From Manila, Victory Liner, GV Florida, and others run to Tuguegarao in about "
                     },
                     { "type": "duration", "text": "11–12 hours" },
-                    { "text": " (roughly " },
-                    { "type": "price", "text": "₱900–1,400" },
+                    { "text": " (about " },
+                    { "type": "price", "text": "₱1,100–1,500" },
                     {
-                      "text": "), and some companies, including GV Florida, also run direct overnight buses from Sampaloc, Manila to Santa Ana (about "
+                      "text": "), and some companies such as Florida run direct night buses from Sampaloc, Manila to Santa Ana (about "
                     },
                     { "type": "duration", "text": "13–15 hours" },
-                    { "text": "). Coming from Pagudpud on the Ilocos side, it's about " },
+                    { "text": "). If coming from Pagudpud in Ilocos, it takes about " },
                     { "type": "duration", "text": "4–5 hours" },
-                    { "text": " along the coast road via Claveria and Aparri." }
+                    { "text": " along the coastal road via Claveria and Aparri." }
                   ]
                 }
               ]
@@ -472,6 +545,29 @@
             },
             { "text": "June", "type": "date" },
             { "text": " can sometimes be manageable, but weather swings widely." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Northeast monsoon, high waves and frequent rain",
+              "Boat trips often canceled"
+            ],
+            [
+              "March–May",
+              "Calm seas, clear skies",
+              "Boat travel is safe — lighthouse hill views are sharpest"
+            ],
+            [
+              "June–October",
+              "Rainy season and typhoon season",
+              "All boats stop when a typhoon is forecast — early June can sometimes be fine"
+            ]
           ]
         }
       ]
@@ -634,6 +730,23 @@
                   "text": " holidays. It's a good idea to contact the Santa Ana tourism office or a homestay in advance."
                 }
               ]
+            },
+            {
+              "children": [
+                { "text": "The registration fee and environmental fee (about " },
+                { "type": "price", "text": "₱50–70" },
+                { "text": " per person) and the guide fee (" },
+                { "type": "price", "text": "₱300" },
+                { "text": " for 1–4 people, " },
+                { "type": "price", "text": "₱600" },
+                {
+                  "text": " for 5–6 people) are paid only at the Ecozone Visitor Center at San Vicente port. You leave a separate "
+                },
+                { "type": "price", "text": "₱200" },
+                {
+                  "text": " garbage deposit, which is returned when you come back and show the trash you took along."
+                }
+              ]
             }
           ]
         }
@@ -737,7 +850,7 @@
               "place": "batanes",
               "children": [
                 {
-                  "text": "The Philippines' northernmost islands, reached by air via Manila, offering rolling hills and stone-house villages that echo Palaui's scenery in their own distinct way."
+                  "text": "The northernmost island in the Philippines, reached by small aircraft from Clark or Tuguegarao, where grassy hills and stone-house villages offer scenery that resembles Palaui yet differs from it."
                 }
               ]
             },

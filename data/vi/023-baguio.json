@@ -407,17 +407,17 @@
                   "items": [
                     {
                       "children": [
-                        {
-                          "text": "Từ các bến xe Cubao, Pasay ở Manila, các hãng xe Victory Liner, JoyBus, Solid North hoạt động gần như suốt "
-                        },
+                        { "text": "Xe buýt Victory Liner, JoyBus và Solid North chạy gần như " },
                         { "type": "duration", "text": "24 giờ" },
-                        { "text": ". Nếu đi qua cao tốc TPLEX, thời gian di chuyển khoảng " },
-                        { "type": "duration", "text": "4-6 giờ" },
-                        { "text": ", giá vé xe máy lạnh thường khoảng " },
-                        { "type": "price", "text": "₱500-850" },
-                        { "text": ", còn xe cao cấp - deluxe ghế rộng rãi từ khoảng " },
-                        { "type": "price", "text": "₱900-1,000" },
-                        { "text": " trở lên." }
+                        { "text": " từ Cubao, Pasay, PITX,... ở Manila. Đi qua TPLEX mất khoảng " },
+                        { "type": "duration", "text": "4–6 giờ" },
+                        { "text": ", giá vé xe buýt máy lạnh thường khoảng " },
+                        { "type": "price", "text": "₱650~850" },
+                        { "text": ", loại deluxe khoảng " },
+                        { "type": "price", "text": "₱750~1,000" },
+                        { "text": ", và loại first class, premier có ghế rộng khoảng " },
+                        { "type": "price", "text": "₱1,000~1,600" },
+                        { "text": "." }
                       ]
                     },
                     {
@@ -474,7 +474,11 @@
                     {
                       "children": [
                         {
-                          "text": "Sân bay Loakan của Baguio hầu như không có chuyến bay thường lệ nên không phải lựa chọn thực tế. Nếu đến từ nước ngoài, hạ cánh tại sân bay quốc tế Clark (CRK) rồi đi xe buýt là gần nhất."
+                          "text": "Sân bay Loakan của Baguio không có chuyến bay thường lệ kể từ khi đường bay Cebu bị dừng vào "
+                        },
+                        { "type": "date", "text": "tháng 7 năm 2024" },
+                        {
+                          "text": ", nên không phải lựa chọn thực tế. Nếu từ nước ngoài đến, xuống Sân bay quốc tế Clark (CRK) rồi đi xe buýt là gần nhất."
                         }
                       ]
                     }
@@ -500,10 +504,10 @@
                     {
                       "children": [
                         {
-                          "text": "Các trạm xe jeepney theo tuyến tập trung ở phía dưới đường Session Road và quanh khu chợ, giá khoảng "
+                          "text": "Xe jeepney có điểm dừng theo từng tuyến tập trung ở phía dưới Session Road và quanh chợ, giá mỗi lượt khoảng "
                         },
-                        { "type": "price", "text": "₱13-20" },
-                        { "text": " mỗi lượt. Vì là vùng cao nên hầu như không có xe tricycle." }
+                        { "type": "price", "text": "₱14~20" },
+                        { "text": ". Vì ở vùng cao nên gần như không có tricycle." }
                       ]
                     },
                     {
@@ -563,6 +567,29 @@
               "text": " là mùa mưa, và Baguio là một trong những thành phố có lượng mưa nhiều nhất Philippines. Khi bão đi qua, có thể có hàng trăm mm mưa trong một ngày, sương mù dày đặc và đường núi bị sạt lở chặn lối, nên hãy kiểm tra kỹ dự báo thời tiết vào thời gian này."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mát nhất, sáng sớm khoảng 10℃",
+              "Lễ hội hoa Panagbenga tháng 2 — giá chỗ ở tăng vào cuối tuần lễ hội"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Trời quang, ôn hòa",
+              "Mùa cao điểm đông khách nhất — Tuần Thánh cực kỳ đông"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, lượng mưa nhiều và sương mù dày",
+              "Bão và sạt lở làm tắc đường — xem dự báo"
+            ]
+          ]
         }
       ]
     },
@@ -579,7 +606,7 @@
           "items": [
             {
               "label": "Xe buýt Manila - Baguio",
-              "price": "Một chiều khoảng ₱500-1,000",
+              "price": "Khoảng ₱650~1,600 một chiều",
               "note": "Tùy loại xe thường hoặc cao cấp"
             },
             {
@@ -720,6 +747,25 @@
                   "text": "Phần lớn thành phố là khu vực cấm hút thuốc, và hút thuốc ngoài khu vực quy định có thể bị phạt tiền."
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bảo tàng BenCab đóng cửa vào thứ Hai và ngày Giáng sinh, Tết Dương lịch, mở cửa từ thứ Ba đến Chủ nhật, "
+                },
+                { "type": "time", "text": "9 giờ sáng – 6 giờ chiều" },
+                { "text": " (vào cửa muộn nhất " },
+                { "type": "time", "text": "5 giờ 30 chiều" },
+                { "text": "). Vé vào cửa thông thường là " },
+                { "type": "price", "text": "₱200" },
+                { "text": ", thông tin chi tiết có trên " },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức của Bảo tàng BenCab",
+                  "url": "https://bencabmuseum.org/"
+                },
+                { "text": "." }
+              ]
             }
           ]
         }
@@ -783,6 +829,21 @@
                 {
                   "text": "Nếu tài xế taxi yêu cầu giá cố định thay vì bật đồng hồ tính tiền, tốt nhất nên chọn taxi khác."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Hồ Burnham mở lại vào " },
+                { "type": "date", "text": "ngày 1 tháng 9 năm 2026" },
+                { "text": " sau khoảng 11 tháng bảo trì, nhưng một số chủ thuyền đòi " },
+                { "type": "price", "text": "₱350~450" },
+                { "text": " cho " },
+                { "type": "duration", "text": "30 phút" },
+                { "text": " nên thành phố đã siết chặt kiểm soát. Giá do thành phố quy định là " },
+                { "type": "price", "text": "₱250" },
+                { "text": " cho " },
+                { "type": "duration", "text": "30 phút" },
+                { "text": " bất kể cỡ thuyền, nên hãy xác nhận giá trước khi lên thuyền." }
               ]
             }
           ]

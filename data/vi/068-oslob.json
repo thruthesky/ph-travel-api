@@ -29,8 +29,8 @@
     "items": ["Cá mập voi", "Lặn ống thở", "Thác Tumalog", "Di sản Tây Ban Nha", "Tour trong ngày"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.4636 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.3803 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.4621 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.3786 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -364,12 +364,14 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Tại bến xe South Bus Terminal thành phố Cebu, lên xe khách Ceres tuyến \"Bato via Oslob\" hoặc hướng Santander · Liloan, và nhờ cho xuống ở Tan-awan (điểm ngắm cá mập voi). Thời gian đi khoảng "
+                      "text": "Từ Bến xe buýt phía Nam ở thành phố Cebu, lên xe buýt Ceres \"Bato via Oslob\" hoặc xe đi hướng Santander·Lilo-an, và nhờ phụ xe cho xuống ở Tan-awan (nơi ngắm cá nhám voi). Thời gian di chuyển khoảng "
                     },
-                    { "type": "duration", "text": "3 giờ 30 phút – 4 giờ" },
-                    { "text": ", giá xe máy lạnh khoảng " },
-                    { "type": "price", "text": "₱200–260" },
-                    { "text": ". Nên đi chuyến sớm nhất để đến kịp giờ quan sát buổi sáng." }
+                    { "type": "duration", "text": "3 tiếng 30 phút–4 tiếng" },
+                    { "text": ", giá xe buýt điều hòa khoảng " },
+                    { "type": "price", "text": "₱250–330" },
+                    {
+                      "text": ". Hãy đi chuyến đầu sáng sớm để kịp giờ ngắm buổi sáng một cách thong thả."
+                    }
                   ]
                 }
               ]
@@ -406,13 +408,33 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Nếu đến từ Dumaguete, phà từ cảng Sibulan đến cảng Liloan (Santander) chạy thường xuyên, giá khoảng "
+                      "text": "Nếu đến từ Dumaguete, có phà thường xuyên từ cảng Sibulan đến cảng Lilo-an (Santander), giá khoảng "
                     },
-                    { "type": "price", "text": "₱80–120" },
+                    { "type": "price", "text": "₱120–150" },
                     {
-                      "text": ". Từ cảng Liloan đến Tan-awan, Oslob bằng xe khách hoặc habal-habal mất khoảng "
+                      "text": ". Từ cảng Lilo-an đến Tan-awan ở Oslob đi xe buýt hoặc habal-habal mất khoảng "
                     },
                     { "type": "duration", "text": "20–30 phút" },
+                    { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Tuyến Lilo-an–Sibulan do Maayo Shipping và một số hãng khác khai thác nhiều chuyến mỗi ngày, từ "
+                    },
+                    { "type": "time", "text": "4 giờ 30 sáng" },
+                    { "text": " đến khoảng " },
+                    { "type": "time", "text": "10 giờ 30 đêm" },
+                    {
+                      "text": ". Ngoài giá cơ bản, tại quầy có thể thu thêm phụ phí nhiên liệu và phí sử dụng bến, vì vậy hãy kiểm tra lịch chạy và giá vé trên "
+                    },
+                    {
+                      "type": "link",
+                      "text": "trang web chính thức của Maayo Shipping",
+                      "url": "https://maayoshipping.com/"
+                    },
                     { "text": "." }
                   ]
                 }
@@ -461,6 +483,29 @@
             { "type": "date", "text": "8 tháng 12" },
             { "text": "." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 2",
+              "Mùa khô, có ngày sóng cao do gió đông bắc",
+              "Có thể ngắm cá nhám voi — lễ hội làng khoảng 8 tháng 12"
+            ],
+            [
+              "Tháng 3–tháng 6",
+              "Biển lặng, tầm nhìn tốt",
+              "Dễ chịu nhất — đến lúc 6–7 giờ sáng ngày thường thì vắng"
+            ],
+            [
+              "Tháng 7–tháng 11",
+              "Mùa mưa và mùa bão (tháng 8–11)",
+              "Khi có bão thì dừng ngắm cá — cuối tuần và ngày lễ phải chờ lâu"
+            ]
+          ]
         }
       ]
     },
@@ -477,7 +522,7 @@
           "items": [
             {
               "label": "Xe khách Cebu – Oslob",
-              "price": "khoảng ₱200–260",
+              "price": "Khoảng ₱250–330",
               "note": "Một chiều, xe máy lạnh"
             },
             {
@@ -666,6 +711,17 @@
               "children": [
                 {
                   "text": "Quanh điểm quan sát có người mời chào tour không chính thức, nên hãy sử dụng quầy đăng ký chính thức."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Ngay cả khi có cho ăn, cá nhám voi cũng không chắc chắn xuất hiện. Trong bốn ngày "
+                },
+                { "type": "date", "text": "22–25 tháng 5 năm 2026" },
+                {
+                  "text": ", cá nhám voi không xuất hiện ở khu vực ngắm nên hoạt động từng bị dừng. Hãy hỏi văn phòng du lịch địa phương hoặc đơn vị tour vào hôm trước xem có hoạt động không, và nếu bị dừng thì đổi lịch sang đảo Sumilon hoặc thác Tumalog."
                 }
               ]
             }

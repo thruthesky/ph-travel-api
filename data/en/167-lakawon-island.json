@@ -161,7 +161,13 @@
               "title": "Tawhai floating bar",
               "children": [
                 {
-                  "text": "Lie on a sunbed at the large floating bar offshore and enjoy the feeling of being in the middle of the sea. Operating days and hours are fixed, and there's often a separate fee, so check at the port first."
+                  "text": "Lie back on a sunbed at a large floating bar out in the water off the island and enjoy the feeling of being in the middle of the sea. It opens only "
+                },
+                { "type": "date", "text": "Friday–Sunday" },
+                { "text": ", allows stays of up to " },
+                { "type": "duration", "text": "3 hours" },
+                {
+                  "text": " at a time, and closes in bad weather. Entry is free for day-tour guests, but food and drinks are paid separately."
                 }
               ]
             },
@@ -284,7 +290,9 @@
                     {
                       "time": "13:30–15:00",
                       "children": [
-                        { "text": "Relax at the Tawhai floating bar (check if it's operating)" }
+                        { "text": "Relax at the Tawhai floating bar (open " },
+                        { "type": "date", "text": "Friday–Sunday" },
+                        { "text": ")" }
                       ]
                     },
                     {
@@ -444,21 +452,39 @@
                     {
                       "children": [
                         {
-                          "text": "After registering at Lakawon port, pay the admission, round-trip boat, and terminal fees (about "
+                          "text": "At the ticket office at Lakawon port, pay the day-tour fare bundling admission, terminal fee, round-trip boat, and cottage ("
                         },
-                        { "type": "price", "text": "₱350–450" },
-                        { "text": " combined) and cross by bangka, about " },
+                        { "type": "price", "text": "₱650" },
+                        { "text": " for adults booked online a day ahead, " },
+                        { "type": "price", "text": "₱750" },
+                        { "text": " bought on-site), and cross by bangka boat in about " },
                         { "type": "duration", "text": "15–20 minutes" },
                         { "text": "." }
                       ]
                     },
                     {
                       "children": [
-                        { "text": "Regular boats usually depart between " },
-                        { "type": "time", "text": "7:00 AM and 11:00 AM" },
+                        { "text": "Regular boats leave at " },
+                        { "type": "time", "text": "7 AM" },
+                        { "text": ", " },
+                        { "type": "time", "text": "9 AM" },
+                        { "text": ", and " },
+                        { "type": "time", "text": "11 AM" },
                         {
-                          "text": " once enough passengers have gathered; outside those hours, a special-trip fee applies for chartering a boat separately. The resort sometimes requires online booking by the day before, so check the latest notices."
-                        }
+                          "text": " once 20 or more people have gathered in one direction. If there aren't enough people or it's past 11 AM, you need to call a special trip ("
+                        },
+                        { "type": "price", "text": "₱1,000" },
+                        { "text": " for 10 or fewer, " },
+                        { "type": "price", "text": "₱1,500" },
+                        {
+                          "text": " for 11 or more). Online booking isn't available on the same day and must be made up to a day ahead, so check the latest notices on the "
+                        },
+                        {
+                          "type": "link",
+                          "text": "resort's official website",
+                          "url": "https://lakawon.ph/"
+                        },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -521,6 +547,29 @@
               "text": ", Cadiz City holds the Dinagsa Festival honoring the Santo Niño, and the town is lively during this period."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, slightly higher waves from the northeast wind",
+              "Little rain — town is lively with the January Dinagsa Festival"
+            ],
+            [
+              "March–May",
+              "Dry season, calmest seas",
+              "Good for the floating bar and kayaking — crowded on Holy Week and school-holiday weekends"
+            ],
+            [
+              "June–November",
+              "Rainy season, many showery and overcast days",
+              "Service stops during typhoons — go early in the morning and leave before the afternoon rain"
+            ]
+          ]
         }
       ]
     },
@@ -547,19 +596,19 @@
               "note": "Based on charter"
             },
             {
-              "label": "Admission, round-trip boat, terminal",
-              "price": "About ₱350–450 per person",
-              "note": "Fees rise often"
+              "label": "Day tour base fare",
+              "price": "About ₱650–750 per person",
+              "note": "Includes admission, terminal fee, round-trip boat, and cottage; booking ahead is cheaper"
             },
             {
               "label": "Floating bar use",
-              "price": "About ₱250–300 per person",
-              "note": "Sometimes included in packages"
+              "price": "Free",
+              "note": "Open Friday–Sunday, up to 3 hours, food and drinks extra"
             },
             {
-              "label": "Cottage rental",
-              "price": "About ₱600–1,500",
-              "note": "Varies by capacity and size"
+              "label": "Special trip boat",
+              "price": "About ₱1,000–1,500 per trip",
+              "note": "When regular boat lacks passengers, or after 11 AM"
             },
             {
               "label": "Kayak/paddleboard",
@@ -568,8 +617,8 @@
             },
             {
               "label": "Island accommodation",
-              "price": "About ₱2,500–12,000 per night",
-              "note": "Fan cottage to air-conditioned room, for 4–6 people"
+              "price": "About ₱4,400–13,800 per night",
+              "note": "Rooms and suites, by size"
             },
             { "label": "Meals", "price": "About ₱300–700 per meal", "note": "Resort restaurant" }
           ]
@@ -594,11 +643,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Lodging on the island is limited to resort-run fan cottages, air-conditioned rooms, and family villas, at about "
+              "text": "Accommodation on the island consists only of resort-run rooms and suites plus camping tents, with rooms running about "
             },
-            { "type": "price", "text": "₱2,500–12,000" },
+            { "type": "price", "text": "₱4,400–13,800" },
             {
-              "text": " a night for 4–6 people. Room numbers are limited, so book weeks ahead for weekends and peak season. Most travelers stay in Bacolod or Silay and visit as a day trip, and Cadiz town also has small hotels and pensions, convenient for catching an early boat."
+              "text": " per night. There aren't many rooms, so book weeks ahead for weekends and peak season. Most travelers stay in Bacolod or Silay and visit as a day trip, and Cadiz city also has small hotels and pensions that make it convenient to catch an early-morning boat."
             }
           ]
         },
@@ -683,6 +732,19 @@
               "children": [
                 {
                   "text": "If traveling as a group, chartering a van for the day in Bacolod to cover Lakawon, Carbin Reef, and the Sagay coast in one trip takes much less time than switching buses. Agree on the driver's meal allowance and waiting-time terms before you set out."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "As of " },
+                { "type": "date", "text": "September 2026" },
+                {
+                  "text": ", Kanlaon Volcano is at PHIVOLCS Alert Level 2, and flights to and from Bacolod are sometimes cancelled when it erupts. Lakawon is about "
+                },
+                { "type": "distance", "text": "70km" },
+                {
+                  "text": " from the volcano, so the direct danger is small, but if you come by plane, leave about a day of buffer in your return-home or transfer schedule."
                 }
               ]
             }

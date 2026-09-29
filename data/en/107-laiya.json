@@ -386,14 +386,27 @@
                     {
                       "children": [
                         {
-                          "text": "ALPS The Bus runs services from the Cubao, Buendia, PITX, and BGC terminals to San Juan, Batangas. It takes about "
+                          "text": "ALPS The Bus runs buses to San Juan, Batangas from the Cubao, Buendia, PITX, and BGC terminals. It takes about "
                         },
                         { "type": "duration", "text": "3–4 hours" },
-                        { "text": ", for around " },
-                        { "type": "price", "text": "₱300–350" },
-                        { "text": ". The first bus leaves around " },
+                        { "text": " and the fare is about " },
+                        { "type": "price", "text": "₱350–400" },
+                        { "text": " (a rough figure reflecting the " },
+                        { "type": "date", "text": "September 28, 2026" },
+                        { "text": " provincial bus fare increase). The first bus leaves around " },
                         { "type": "time", "text": "4–5 AM" },
-                        { "text": "; check the terminal for the current schedule." }
+                        { "text": "; check the timetable at the terminal." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "If you're starting from the south, ALPS also runs direct San Juan buses from the Alabang Starmall terminal between "
+                        },
+                        { "type": "time", "text": "5 AM and 8 PM" },
+                        {
+                          "text": ", and from Cavite you can take a direct van to San Juan from the Palapala terminal."
+                        }
                       ]
                     },
                     {
@@ -534,6 +547,29 @@
               "text": " is the rainy season, affected by the southwest monsoon and typhoons; since Laiya's beach opens to the south, waves often pick up and the water turns cloudy on many days. On the plus side, resort rates drop significantly, and some travelers look for off-season deals. When there's a typhoon warning, beachfront resorts ban swimming, and mountain roads can see landslides, so check the PAGASA forecast."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, not hot in January–February",
+              "Good sunshine and few people, so it's easy to pick accommodation"
+            ],
+            [
+              "March–May",
+              "Dry season, 32–35℃ at midday",
+              "Calmest, clearest sea — rates rise during school holidays and Holy Week"
+            ],
+            [
+              "June–October",
+              "Rainy season, southwest monsoon and typhoons",
+              "High waves and murky water — off-season rate discounts"
+            ]
+          ]
         }
       ]
     },
@@ -550,8 +586,8 @@
           "items": [
             {
               "label": "Manila–San Juan bus",
-              "price": "About ₱300–350 one-way",
-              "note": "Based on ALPS"
+              "price": "About ₱350–400 one way",
+              "note": "Based on ALPS, reflecting the September 2026 fare increase"
             },
             {
               "label": "San Juan–Laiya jeepney",
@@ -574,7 +610,7 @@
               "note": "Varies by size and resort"
             },
             {
-              "label": "Beach-hopping boat",
+              "label": "Beach-hopping boat tour",
               "price": "About ₱2,500–3,500 per boat",
               "note": "About 8–10 people"
             },
@@ -695,6 +731,23 @@
               "children": [
                 {
                   "text": "If you're traveling with a group during the summer peak season, claim a beachfront cottage early in the morning to secure a shaded spot."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "You can check the list of registered resorts and transport information on the "
+                },
+                {
+                  "type": "link",
+                  "text": "San Juan tourism website",
+                  "url": "https://tourism.sanjuanbatangas.gov.ph/"
+                },
+                { "text": ". The environmental fee of about " },
+                { "type": "price", "text": "₱50" },
+                {
+                  "text": " per person is paid at the San Juan tourism office or when you arrive at your resort."
                 }
               ]
             }

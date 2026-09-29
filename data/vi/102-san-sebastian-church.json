@@ -408,14 +408,18 @@
                     {
                       "children": [
                         {
-                          "text": "Ga gần nhất là ga Legarda của tuyến LRT 2; từ ga đi qua phố Legarda và trường San Sebastian College đến nhà thờ mất khoảng "
+                          "text": "Ga gần nhất là ga Legarda của tuyến LRT 2; từ đây đi bộ qua phố Legarda và trường San Sebastian College mất khoảng "
                         },
                         { "type": "duration", "text": "10 phút" },
-                        { "text": " đi bộ. Giá vé khoảng " },
+                        { "text": ". Giá vé tùy chặng, khoảng " },
                         { "type": "price", "text": "₱15–35" },
-                        { "text": " tùy chặng. Từ ga Cubao ở Quezon City mất khoảng " },
+                        { "text": ". Từ ga Cubao ở Quezon City mất khoảng " },
                         { "type": "duration", "text": "15–20 phút" },
-                        { "text": "." }
+                        { "text": ". Kể từ " },
+                        { "type": "date", "text": "ngày 23 tháng 3 năm 2026" },
+                        {
+                          "text": ", tuyến LRT 2 giảm 50% giá vé cho mọi hành khách (cho đến khi có thông báo mới), nên hiện bạn chỉ trả khoảng một nửa mức đó."
+                        }
                       ]
                     },
                     {
@@ -474,10 +478,10 @@
                     {
                       "children": [
                         {
-                          "text": "Bạn có thể bắt xe jeepney mang biển \"Quiapo\" hoặc \"Legarda\", xuống ở khu vực Quiapo rồi đi bộ đến. Giá vé cơ bản khoảng "
+                          "text": "Bạn có thể đi jeepney gắn biển 'Quiapo' hoặc 'Legarda', xuống ở khu vực Quiapo rồi đi bộ đến. Giá vé cơ bản khoảng "
                         },
-                        { "type": "price", "text": "₱13–15" },
-                        { "text": "; với người lần đầu đến đây, đi LRT sẽ dễ dàng hơn." }
+                        { "type": "price", "text": "₱14–17" },
+                        { "text": "; với du khách lần đầu đến, LRT dễ đi hơn." }
                       ]
                     }
                   ]
@@ -552,6 +556,34 @@
               "text": ", đoàn rước đi ngang qua trước nhà thờ khiến khu vực đông nghẹt người. Để ngắm kính màu rõ nhất, hãy chọn giữa trưa những ngày nắng đẹp; vào chiều cuối tuần thường có đám cưới tổ chức tại đây nên việc tham quan bên trong có thể bị hạn chế."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô",
+              "Kính màu đẹp nhất vào giữa trưa nắng — đoàn rước ngày 9 tháng 1, lễ kính ngày 20 tháng 1"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Cuối mùa khô, 34–36℃ vào tháng 4–5",
+              "Nhà thờ không có điều hòa nên nên tham quan vào buổi sáng"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa và mùa bão",
+              "Lễ Đức Mẹ Núi Camêlô ngày 16 tháng 7 — mưa lớn gây ngập đường"
+            ],
+            [
+              "Tháng 11",
+              "Giao mùa giữa mùa mưa và mùa khô",
+              "Buổi chiều cuối tuần có thể hạn chế tham quan bên trong do có đám cưới"
+            ]
+          ]
         }
       ]
     },
@@ -573,8 +605,8 @@
             },
             {
               "label": "Tuyến LRT 2",
-              "price": "Khoảng ₱15–35 một chiều",
-              "note": "Xuống ga Legarda"
+              "price": "Một chiều khoảng ₱8–35",
+              "note": "Xuống ở ga Legarda, giá từ mức giảm 50% đến giá đầy đủ"
             },
             {
               "label": "Grab từ sân bay đến nhà thờ",
@@ -586,7 +618,7 @@
               "price": "Khoảng ₱300–550 một chiều",
               "note": "Phụ thu giờ cao điểm"
             },
-            { "label": "Xe jeepney", "price": "Khoảng ₱13–15", "note": "Chặng cơ bản" },
+            { "label": "Xe jeepney", "price": "Khoảng ₱14–17", "note": "Chặng cơ bản" },
             {
               "label": "Nến dâng cúng",
               "price": "Khoảng ₱20–100",
@@ -748,6 +780,19 @@
               "children": [
                 {
                   "text": "Sau khi trời tối, các con hẻm quanh nhà thờ trở nên tối và vắng vẻ. Vào buổi tối, hãy gọi Grab ở đường lớn."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Công tác bảo tồn đã trải qua việc xử lý ăn mòn mái vòm vào " },
+                { "type": "date", "text": "năm 2023" },
+                { "text": ", chống thấm và sửa mái vào " },
+                { "type": "date", "text": "năm 2025" },
+                { "text": ", và đến " },
+                { "type": "date", "text": "năm 2026" },
+                {
+                  "text": " đang tiến hành giai đoạn 3 sửa chữa tháp chuông và mặt tiền. Tháp nhọn và mặt tiền có thể bị giàn giáo hoặc tấm che khuất nên ảnh chụp có thể không như mong đợi; hãy xem ảnh trên trang Facebook chính thức để kiểm tra tình hình trước khi đến."
                 }
               ]
             }

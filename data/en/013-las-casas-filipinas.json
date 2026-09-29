@@ -360,23 +360,35 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Take a bus (Bataan Transit, Genesis, etc.) bound for Balanga from Cubao, Avenida, Pasay, and similar terminals. It's about "
+                      "text": "Take a Balanga-bound bus (Bataan Transit, Genesis, etc.) from Cubao, Avenida, Pasay, and so on. It takes about "
                     },
                     { "type": "duration", "text": "3–4 hours" },
-                    { "text": ", with fares around " },
-                    { "type": "price", "text": "₱250–350" },
+                    { "text": " and costs about " },
+                    { "type": "price", "text": "₱310–350" },
                     {
-                      "text": ". From the Balanga terminal, take a jeepney or minibus to Bagac for about "
+                      "text": ". From the Balanga terminal, take a jeepney or minibus bound for Bagac or Morong for about "
                     },
-                    { "type": "duration", "text": "40–50 minutes" },
+                    { "type": "duration", "text": "45 minutes–1 hour" },
                     { "text": " (about " },
-                    { "type": "price", "text": "₱50–80" },
-                    { "text": "), then a tricycle from Bagac town to the resort (about " },
-                    { "type": "price", "text": "₱100–200" },
-                    { "text": "). Public transport takes close to " },
+                    { "type": "price", "text": "₱45–60" },
+                    {
+                      "text": ") and get off at the Philippine-Japanese Friendship Tower, Bagac's white obelisk, then go about "
+                    },
+                    { "type": "duration", "text": "10 minutes" },
+                    { "text": " by tricycle (about " },
+                    { "type": "price", "text": "₱60–100" },
+                    { "text": "). By public transport it takes nearly " },
                     { "type": "duration", "text": "5 hours" },
                     {
-                      "text": " one way, making a day trip tight, so staying overnight is recommended."
+                      "text": " each way, so a day trip is tight and one night's stay is recommended."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Jeepneys bound for Bagac often wait a long time until they fill up, so it is quicker to take one bound for Morong, which passes the same Friendship Tower and leaves more often. If the destination on a bus's windshield is Mariveles, first ask the conductor whether it enters the Balanga terminal. Tell the tricycle driver to drop you at Gate 5, where day-tour guests and overnight guests check in."
                     }
                   ]
                 }
@@ -409,11 +421,21 @@
                 {
                   "type": "paragraph",
                   "children": [
+                    { "text": "The 1Bataan ferry used to run in about " },
+                    { "type": "duration", "text": "1 hour" },
                     {
-                      "text": "A ferry route connecting Manila with Bataan's east coast (Orion, etc.) also operates at times. Since schedules and service change frequently, check the latest notices, and from the port you'll need another "
+                      "text": " from the Esplanade Seaside Terminal in Pasay, Manila (behind SM Mall of Asia) and the terminal near the CCP to Capinpin port in Orion, Bataan ("
+                    },
+                    { "type": "price", "text": "₱499" },
+                    {
+                      "text": " when bought on site), with a free shuttle from the port to Balanga, but as of "
+                    },
+                    { "type": "date", "text": "2026" },
+                    {
+                      "text": " service is suspended indefinitely. Check the latest announcements on whether it has resumed, and even if it is running, you still need about "
                     },
                     { "type": "duration", "text": "40 minutes–1 hour" },
-                    { "text": " by vehicle to reach Bagac." }
+                    { "text": " more by vehicle from Balanga to Bagac." }
                   ]
                 }
               ]
@@ -467,6 +489,29 @@
               "text": ", right after the wet season when the sky is clear and the greenery is lush, is recommended."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, cool sea breeze from December to February",
+              "Pleasant for walking tours — clear skies and good photos in November"
+            ],
+            [
+              "March–May",
+              "Dry season, very strong sun at midday",
+              "Take the tour in the morning — April 9 Bataan Day events"
+            ],
+            [
+              "June–October",
+              "Rainy season, frequent southwest monsoon and rain",
+              "Raft and beach activities restricted — road closures in July–September"
+            ]
+          ]
         }
       ]
     },
@@ -483,7 +528,7 @@
           "items": [
             {
               "label": "Day tour",
-              "price": "About ₱2,000–3,500 per person",
+              "price": "About ₱2,500–2,900 per person",
               "note": "Varies by weekday/weekend; check whether guided tour, welcome drink, lunch, and raft ride are included"
             },
             {
@@ -503,8 +548,8 @@
             },
             {
               "label": "Manila–Balanga bus",
-              "price": "About ₱250–350 one way",
-              "note": "Balanga–Bagac jeepney about ₱50–80 extra"
+              "price": "About ₱310–350 one way",
+              "note": "Balanga–Bagac jeepney about ₱45–60 extra"
             },
             { "label": "Car toll fees", "price": "About ₱400–600 one way", "note": "NLEX/SCTEX" },
             {
@@ -516,6 +561,11 @@
               "label": "Manila-departure tour",
               "price": "About ₱4,000–8,000 per person",
               "note": "Cheaper with a larger group"
+            },
+            {
+              "label": "Accommodation (hotel rooms)",
+              "price": "About ₱4,800–9,200 per night",
+              "note": "Rooms for 2–6 people, based on the official website listing"
             }
           ]
         },
@@ -553,6 +603,24 @@
           "type": "paragraph",
           "children": [
             {
+              "text": "There are also hotel-style rooms (for 2–6 people) that cost less than the old mansion rooms, at about "
+            },
+            { "type": "price", "text": "₱4,800–9,200" },
+            { "text": " a night based on the official website listing. Check-in is at " },
+            { "type": "time", "text": "3 PM" },
+            { "text": " and check-out at " },
+            { "type": "time", "text": "12 noon" },
+            { "text": ", and at check-in you leave a refundable deposit of " },
+            { "type": "price", "text": "₱3,000" },
+            {
+              "text": " in cash. Inside the resort are Kusina ni Nanay Maria for Filipino home cooking, La Bella Teodora for Italian, Cafe del Rio for Spanish tapas, and the beachside Dapitan Bar, all operating first come, first served without reservations."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
               "text": "In keeping with the Spanish colonial atmosphere, the resort restaurant serves paella, kaldereta (tomato-based meat stew), lechon, and seafood dishes. Bataan's local food includes shrimp and crab dishes from where the sea and river meet, home-style eateries around the Balanga market, and Bataan's specialty sugar treats. The east coast towns of Orion and Pilar are known for dried fish and shellfish dishes."
             }
           ]
@@ -573,7 +641,7 @@
             {
               "children": [
                 {
-                  "text": "Booking the day tour and accommodation in advance through official channels is essentially required. Without a reservation, you may be denied entry or unable to join a guided tour."
+                  "text": "Day tours also accept walk-ins, but booking on the official website must be made by the day before your visit, and full payment must be made within two days after booking. Accommodation and activities fill up early on weekends and holidays, so book in advance."
                 }
               ]
             },
@@ -630,6 +698,34 @@
                 {
                   "text": "If staying overnight, be sure to walk through the lantern-lit village after dinner. It's the most beautiful time, and only overnight guests get to experience it."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "The day tour rate is " },
+                { "type": "price", "text": "₱2,500" },
+                { "text": " on weekdays and " },
+                { "type": "price", "text": "₱2,900" },
+                {
+                  "text": " on weekends and some public holidays, and includes a welcome drink, a guided walking tour, a visit to Hotel de Oriente, the raft, lunch (a meal credit on some weekdays), and beach access. Children aged 4 and under are free, ages 5–10 are half price, and day-tour guests can stay from "
+                },
+                { "type": "time", "text": "8 AM to 6 PM" },
+                { "text": ". Check the latest rates on the " },
+                {
+                  "type": "link",
+                  "text": "official website",
+                  "url": "https://www.lascasasfilipinas.com/"
+                },
+                { "text": "." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "You must show ID on entry, and an environmental fee under a Bagac ordinance is charged separately. Outside food is prohibited, and if you bring it you must pay a corkage fee of "
+                },
+                { "type": "price", "text": "₱500" },
+                { "text": " per item of food." }
               ]
             }
           ]
@@ -705,7 +801,8 @@
                 {
                   "text": " by car. A massive cross memorial and viewing deck honoring the Battle of Bataan in World War II."
                 }
-              ]
+              ],
+              "place": "mount-samat"
             },
             {
               "type": "card",

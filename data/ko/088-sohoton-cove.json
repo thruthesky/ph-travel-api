@@ -21,8 +21,8 @@
   },
   "tags": { "type": "tags", "label": "태그", "items": ["석호", "동굴", "해파리 호수", "카약", "클리프 점프"] },
   "rating": { "type": "rating", "label": "추천도", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "위도", "value": 9.6736 },
-  "longitude": { "type": "longitude", "label": "경도", "value": 125.9483 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 9.5971 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 125.9279 },
   "best_season": {
     "type": "date",
     "label": "여행 최적기",
@@ -62,7 +62,19 @@
     "credit": "Michael Angelo Luna / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Middle_Bucas_Grande_in_Dapa,_Siargao.jpg"
   },
-  "gallery": { "type": "carousel", "label": "사진", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/088-sohoton-cove-2.webp",
+        "alt": "소호톤 코브",
+        "credit": "AGUSTIN MENDEZ, Tubod Founding Hero / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sohoton.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -274,11 +286,13 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "마닐라에서 시아르가오 사약 공항(IAO)까지 약 " },
-                    { "type": "duration", "text": "1시간 45분~2시간" },
-                    { "text": ", 세부에서 약 " },
+                    { "text": "마닐라에서 시아르가오 사약 공항(IAO)까지는 " },
+                    { "type": "date", "text": "2025년 3월" },
+                    { "text": "부터 직항이 없어 세부를 거치거나(세부–시아르가오 약 " },
                     { "type": "duration", "text": "1시간" },
-                    { "text": "이 걸립니다. 공항에서 제너럴루나까지 합승 밴으로 약 " },
+                    { "text": "), 클락 공항에서 직항(약 " },
+                    { "type": "duration", "text": "2시간 20분~2시간 30분" },
+                    { "text": ")을 탑니다. 공항에서 제너럴루나까지 합승 밴으로 약 " },
                     { "type": "duration", "text": "45분~1시간" },
                     { "text": " 이동한 뒤 투어에 참여하는 것이 일반적입니다." }
                   ]
@@ -372,6 +386,17 @@
             {
               "text": "까지는 북동 계절풍으로 비가 잦고 바다가 거칠어 투어가 취소되거나 이동이 매우 힘들어질 수 있습니다. 해파리 개체 수는 해마다 편차가 커서 어떤 해에는 거의 보이지 않는 달도 있으니 기대치를 조절하는 것이 좋습니다. 무엇보다 동굴 입구 통과는 썰물 시간에 좌우되므로 투어 출발 시간은 여행사가 조석표에 맞춰 정합니다."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "시기별 한눈에 보기",
+          "icon": "calendar_month",
+          "columns": ["시기", "날씨", "여행 포인트"],
+          "rows": [
+            ["3월~7월", "바다 잔잔, 하늘 맑음", "석호 물빛 선명 — 해파리 호수 해파리 가장 많은 경향"],
+            ["8월~10월", "대체로 가능, 남서풍·스웰", "영향받는 날 있음 — 동굴 입구 통과는 썰물 기준"],
+            ["11월~2월", "북동 계절풍, 비 잦고 바다 거침", "투어 취소·이동 힘듦 — 해파리 수는 해마다 편차 큼"]
           ]
         }
       ]

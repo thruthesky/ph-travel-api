@@ -34,8 +34,8 @@
     "items": ["Cao nguyên", "Rừng thông", "Zipline", "Công viên mạo hiểm", "Khí hậu mát mẻ"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 8.1986 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 124.8601 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 8.2025 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 124.8586 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -90,6 +90,13 @@
         "alt": "Dahilayan",
         "credit": "Obsidian Soul / CC0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Zorbing_at_Dahilayan_Forest_Park_Resort,_Manolo_Fortich,_Bukidnon,_Philippines_03.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/094-dahilayan-3.webp",
+        "alt": "Dahilayan",
+        "credit": "Obsidian Soul / CC0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pinus_kesiya_(Benguet_pine)_in_Dahilayan,_Bukidnon_4.jpg"
       }
     ]
   },
@@ -179,9 +186,9 @@
               "title": "Zipline đôi 840m",
               "children": [
                 {
-                  "text": "Đây là trải nghiệm tiêu biểu của Dahilayan, nơi hai người nằm sấp song song theo tư thế \"Superman\" lướt qua rừng thông. Tốc độ tối đa được cho là lên tới khoảng "
+                  "text": "Đây là trải nghiệm tiêu biểu của Dahilayan, hai người nằm sấp cạnh nhau theo tư thế \"Superman\" lao trên rừng thông. Tốc độ tối đa được cho là lên đến "
                 },
-                { "type": "distance", "text": "80–90km" },
+                { "type": "distance", "text": "60–80km" },
                 { "text": "/giờ, và khi trời quang bạn sẽ thấy dãy núi Kitanglad ngay trước mặt." }
               ]
             },
@@ -343,6 +350,66 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Lộ trình trong ngày đi bằng xe đưa đón",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        { "text": "Lên xe đưa đón khởi hành từ Limketkai Center ở Cagayan de Oro." }
+                      ]
+                    },
+                    {
+                      "time": "10:30–12:30",
+                      "children": [
+                        { "text": "Chơi zipline " },
+                        { "type": "distance", "text": "840m" },
+                        {
+                          "text": " và tàu lượn Mountain Coaster ở Adventure Park. Vì khách đi xe đưa đón đến cùng một lúc nên hãy ghé quầy vé trước."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:30–13:30",
+                      "children": [
+                        {
+                          "text": "Ăn trưa tại nhà hàng trong công viên với món canh nóng như bulalo."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:30–16:00",
+                      "children": [
+                        {
+                          "text": "Di chuyển đến Dahilayan Forest Park để chơi luge, cầu treo, đường đi trên tán cây và dạo trong rừng thông."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "16:30",
+                      "children": [
+                        {
+                          "text": "Đi xe đưa đón quay về Cagayan de Oro. Nếu trễ xe sẽ không chờ, nên hãy có mặt ở điểm lên xe trước "
+                        },
+                        { "type": "time", "text": "4 giờ chiều" },
+                        { "text": "." }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Nếu trời mưa hoặc có sấm sét thì zipline dừng hoạt động, nên vào những ngày đó tốt nhất là đổi lộ trình sang các cơ sở trong nhà và ngoài trời cho gia đình cùng quán cà phê lodge ở Forest Park."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -387,19 +454,37 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ bến xe buýt Agora (Agora) ở Cagayan de Oro, đi xe buýt hoặc xe van hướng Malaybalay, Bukidnon rồi xuống ở ngã ba Tankulan (Tankulan) hoặc Alae (Alae), Manolo Fortich (khoảng "
+                      "text": "Từ bến xe Agora ở Cagayan de Oro, đi van hoặc jeepney đến Camp Phillips ở Manolo Fortich, qua ngã tư Alae rồi xuống ở Camp Phillips (khoảng "
                     },
-                    { "type": "duration", "text": "1 giờ" },
+                    { "type": "duration", "text": "1 tiếng" },
                     { "text": ", khoảng " },
                     { "type": "price", "text": "₱60–100" },
                     {
-                      "text": "). Từ đây chuyển sang jeepney hoặc habal-habal (xe ôm) đi Dahilayan, leo thêm khoảng "
+                      "text": "). Từ đây đổi sang habal-habal (xe máy ôm) leo đường dốc giữa các ruộng dứa thêm khoảng "
                     },
-                    { "type": "duration", "text": "40 phút – 1 giờ" },
-                    { "text": ", giá vé khoảng " },
-                    { "type": "price", "text": "₱50–150" },
+                    { "type": "duration", "text": "40 phút–1 tiếng" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱200–300" },
                     {
-                      "text": ". Vì phương tiện công cộng khá thưa, buổi chiều muộn có thể không còn xe quay về."
+                      "text": "/người một chiều. Kết nối giao thông công cộng khá thưa nên cuối chiều có thể không còn xe về."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Cũng có xe đưa đón dành cho khách tham quan (Magnum Express). Xe khởi hành từ Limketkai Center ở Cagayan de Oro lúc "
+                    },
+                    { "type": "time", "text": "9 giờ sáng" },
+                    { "text": ", đến Dahilayan sau khoảng " },
+                    { "type": "duration", "text": "1 tiếng 30 phút" },
+                    { "text": " và quay về lúc " },
+                    { "type": "time", "text": "4 giờ 30 chiều" },
+                    { "text": ". Giá người lớn khoảng " },
+                    { "type": "price", "text": "₱249" },
+                    {
+                      "text": " một chiều, không cần đặt trước mà lên xe theo thứ tự đến trước. Ngày và giờ chạy có thể thay đổi nên hãy kiểm tra thông báo mới nhất trước khi đi."
                     }
                   ]
                 }
@@ -470,6 +555,29 @@
               "text": " tại Malaybalay; nếu đến vào thời điểm này bạn có thể xem thêm các buổi biểu diễn văn hóa của các bộ tộc bản địa."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12–tháng 2",
+              "Mát nhất, rạng sáng 10–15 độ",
+              "Mùa đông trên cao nguyên — dịp cuối năm đầu năm chờ zipline hơn 1 tiếng"
+            ],
+            [
+              "Tháng 3–tháng 5",
+              "Nhiều ngày trời quang",
+              "Tốt nhất cho zipline và cảnh núi — lễ hội Kaamulan cuối tháng 2–đầu tháng 3"
+            ],
+            [
+              "Tháng 6–tháng 11",
+              "Chiều nào cũng có mưa và sương mù",
+              "Dừng hoạt động khi có sét hoặc gió mạnh — nên đến sớm buổi sáng"
+            ]
+          ]
         }
       ]
     },
@@ -486,23 +594,31 @@
           "items": [
             { "label": "Vé vào công viên mạo hiểm", "price": "Khoảng ₱100", "note": "1 người" },
             { "label": "Zipline 840m", "price": "Khoảng ₱500", "note": "1 lượt, 1 người" },
-            { "label": "Trọn gói zipline", "price": "Khoảng ₱600–900", "note": "Tùy tổ hợp tuyến" },
+            {
+              "label": "Zipline ngắn (320m+150m)",
+              "price": "Khoảng ₱250",
+              "note": "Đường tập cho gia đình"
+            },
             {
               "label": "Máng trượt trên núi · Drop Zone",
-              "price": "Khoảng ₱300–500",
-              "note": "Mỗi thiết bị"
+              "price": "Khoảng ₱400–750",
+              "note": "Mỗi trò chơi, đã gồm 2 lượt và giá cho 2 người"
             },
             {
-              "label": "Trò chơi Công viên rừng",
-              "price": "Khoảng ₱100–400",
-              "note": "Mỗi thiết bị"
+              "label": "Vé vào Forest Park và các trò chơi",
+              "price": "Khoảng ₱150–900",
+              "note": "Vé vào cửa ₱150, luge 2 lượt ₱650, gói trò chơi ₱900"
             },
             {
-              "label": "Xe buýt CDO–Manolo Fortich",
+              "label": "Van·jeepney CDO–Camp Phillips",
               "price": "Khoảng ₱60–100",
               "note": "Một chiều"
             },
-            { "label": "Jeepney · habal-habal", "price": "Khoảng ₱50–150", "note": "Một chiều" },
+            {
+              "label": "Habal-habal (Camp Phillips–Dahilayan)",
+              "price": "Khoảng ₱200–300",
+              "note": "Một chiều, tính theo người"
+            },
             {
               "label": "Thuê xe nguyên chuyến",
               "price": "Khoảng ₱3.000–4.500",
@@ -574,7 +690,7 @@
             {
               "children": [
                 {
-                  "text": "Zipline và Drop Zone có giới hạn cân nặng (khoảng tối thiểu 30–40kg, tối đa 100–120kg) và giới hạn tuổi. Nếu trong gia đình có trẻ nhỏ, bạn nên kiểm tra điều kiện tại chỗ trước."
+                  "text": "Zipline có giới hạn về cân nặng và chiều cao. Zipline 840m yêu cầu cân nặng 40–75kg và chiều cao từ khoảng 122cm (4 feet) trở lên, nên nếu nặng hơn 75kg thì không thể chơi. Nếu gia đình có trẻ em, nên hỏi điều kiện tại chỗ trước."
                 }
               ]
             },
@@ -615,6 +731,23 @@
                 {
                   "text": ", lúc ánh nắng xuyên qua rừng thông, hoặc khi sương mù buổi chiều bao phủ."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Giá từng trò chơi và thông báo hoạt động có thể xem trên " },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức",
+                  "url": "https://www.dahilayanadventurepark.com/"
+                },
+                { "text": " của Adventure Park, còn giá Forest Park xem trên " },
+                {
+                  "type": "link",
+                  "text": "trang web chính thức của Forest Park",
+                  "url": "https://www.dahilayanforestpark.com/"
+                },
+                { "text": "." }
               ]
             }
           ]

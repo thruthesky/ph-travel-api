@@ -312,6 +312,53 @@
               ]
             },
             {
+              "title": "Thêm 1 ngày",
+              "subtitle": "Khi đi 4 ngày 3 đêm",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "8 giờ sáng",
+                      "children": [
+                        {
+                          "text": "Nhờ nơi lưu trú sắp xếp tour thuyền banca vịnh Campomanes, lặn ống thở ở các bãi biển ẩn mình"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Buổi trưa",
+                      "children": [{ "text": "Ăn trưa ở bãi biển trong vịnh" }]
+                    },
+                    {
+                      "time": "2 giờ chiều",
+                      "children": [
+                        {
+                          "text": "Đi bộ ngắn lên đài quan sát Tingaugan Dagat (có hướng dẫn viên địa phương đi cùng)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "4 giờ 30 chiều",
+                      "children": [
+                        {
+                          "text": "Về lại nơi lưu trú, lặn ống thở ngay trước bãi biển và ngắm hoàng hôn"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Đảo Danjugan chỉ nhận khách đã đặt trước, vì vậy nếu muốn đổi ngày này thành tour đảo Danjugan, hãy hỏi trước ngày và số người với quỹ quản lý trước khi đi. Vào ngày biển động, thay lịch đi thuyền bằng tham quan chợ trong thị trấn và nghỉ ngơi ở bãi biển."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "title": "Ngày 3",
               "blocks": [
                 {
@@ -460,6 +507,25 @@
             { "text": ", hoặc lễ hội Santo Niño ở các thành phố quanh " },
             { "type": "date", "text": "tháng 1" },
             { "text": "." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11–tháng 2",
+              "Mùa khô, biển lặng",
+              "Tầm nhìn khi lặn tốt — lễ hội Santo Niño quanh tháng 1"
+            ],
+            ["Tháng 3–tháng 5", "Mùa khô, hầu như không mưa và nắng gắt", "Ảnh bãi biển đẹp nhất"],
+            [
+              "Tháng 6–tháng 10",
+              "Mùa mưa, gió mùa Habagat",
+              "Sóng cao nên tour đảo và lặn bằng thuyền bị hủy — lễ hội MassKara tháng 10"
+            ]
           ]
         }
       ]
@@ -666,6 +732,19 @@
               "children": [
                 {
                   "text": "Khi chạy xe máy trên đường ven biển, có đoạn đường đất và dốc gắt nên nhất định phải đội mũ bảo hiểm."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Núi lửa Canlaon ở trung tâm Negros đã phun trào nhiều lần từ " },
+                { "type": "date", "text": "tháng 6 năm 2024" },
+                { "text": " và tính đến " },
+                { "type": "date", "text": "tháng 9 năm 2026" },
+                { "text": " đang ở mức cảnh báo 2. Sipalay cách núi lửa khoảng " },
+                { "type": "distance", "text": "110km" },
+                {
+                  "text": " nên nguy cơ trực tiếp thấp, nhưng khi phun trào, tro núi lửa có thể khiến các chuyến bay tại sân bay Bacolod–Silay bị hủy, hoặc tro rơi xuống khu vực Bago và Pontevedra nơi xe buýt từ Bacolod đi qua, vì vậy hãy theo dõi thông báo của PHIVOLCS và hãng bay."
                 }
               ]
             }

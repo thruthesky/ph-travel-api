@@ -35,8 +35,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.5, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 16.29 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.631 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 16.2871 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 120.6323 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -383,13 +383,13 @@
                     {
                       "children": [
                         {
-                          "text": "Từ Cubao, Pasay đi xe buýt đến Baguio (Victory Liner, JoyBus, Solid North...) mất khoảng "
+                          "text": "Đi xe buýt đi Baguio (Victory Liner, JoyBus, Solid North, v.v.) từ Cubao, Pasay,... mất khoảng "
                         },
-                        { "type": "duration", "text": "4-6 giờ" },
+                        { "type": "duration", "text": "4–6 giờ" },
                         { "text": ", giá vé khoảng " },
-                        { "type": "price", "text": "₱500-1,000" },
+                        { "type": "price", "text": "₱650~1,600" },
                         {
-                          "text": ". Để leo núi vào rạng sáng, nên đến Baguio và nghỉ lại một đêm trước đó."
+                          "text": ". Để leo núi từ sáng sớm, nên đến Baguio từ hôm trước và ngủ lại 1 đêm."
                         }
                       ]
                     }
@@ -427,6 +427,23 @@
                         {
                           "text": ", và nên thương lượng để tài xế chờ ở lối ra Santa Fe rồi đón về."
                         }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Bến jeepney nằm trên đường Lakandula cạnh Baguio Center Mall (phía đường Magsaysay); chỉ cần nói với tài xế là đi núi Ulap thì sẽ được thả xuống trước tòa nhà barangay Ampucao. Việc đăng ký nhận từ "
+                        },
+                        { "type": "time", "text": "4 giờ sáng" },
+                        { "text": " cuối tuần, " },
+                        { "type": "time", "text": "5 giờ sáng" },
+                        { "text": " ngày thường và đóng lúc " },
+                        { "type": "time", "text": "2 giờ chiều" },
+                        {
+                          "text": ", nên hãy đến muộn nhất là trong buổi sáng. Jeepney nối Ampucao và Baguio chạy đến khoảng "
+                        },
+                        { "type": "time", "text": "5 giờ chiều" },
+                        { "text": "." }
                       ]
                     }
                   ]
@@ -507,6 +524,29 @@
             {
               "text": ", chiều nào cũng có mưa và sương mù dày nên khó ngắm cảnh. Đường đất trở nên trơn trượt, và nếu có bão, cung đường có thể bị đóng cửa. Vào cuối tuần và ngày lễ, người leo núi đổ về đông nên phải chờ khá lâu ở tảng đá Gungal, nên nếu có thể, hãy đi vào ngày thường."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, sáng sớm tháng 12 – tháng 2 khoảng 10℃",
+              "Khả năng thấy biển mây cao — ban ngày đi bộ cũng dễ chịu"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Nhiều ngày quang đãng, nắng rất gắt",
+              "Tầm nhìn rộng nhất — bắt buộc xuất phát sớm"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, mưa chiều và sương mù dày",
+              "Khó ngắm cảnh — có bão thì đóng đường mòn"
+            ]
           ]
         }
       ]
@@ -670,14 +710,7 @@
                   "text": "Chỉ nhận tiền mặt nên hãy chuẩn bị phí đăng ký và phí hướng dẫn viên bằng tiền mệnh giá nhỏ."
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "icon": "check_circle",
-          "items": [
+            },
             {
               "children": [
                 {

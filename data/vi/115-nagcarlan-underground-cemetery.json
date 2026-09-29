@@ -36,7 +36,7 @@
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.2, "max": 5 },
   "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 14.1314 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 121.4148 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 121.4147 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -254,6 +254,20 @@
                   "text": "Làng lân cận Liliw nổi tiếng với dép và giày sandal thủ công. Các cửa hàng nối tiếp nhau dọc con đường chính, rất tiện để mua đôi giày bền chắc, giá rẻ làm quà lưu niệm."
                 }
               ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Phòng trưng bày bảo tàng mới được tu bổ",
+              "children": [
+                {
+                  "text": "Ủy ban Lịch sử Quốc gia đã chỉnh trang nghĩa trang và bảo tàng rồi mở cửa lại vào "
+                },
+                { "type": "date", "text": "tháng 12 năm 2025" },
+                {
+                  "text": ". Phòng trưng bày mới giới thiệu lịch sử nghĩa trang, các hiện vật khai quật, quá trình phục dựng và văn hóa tang lễ của Philippines, nên nếu ghé qua trước khi tham quan khu mộ, bạn sẽ hiểu sâu hơn."
+                }
+              ]
             }
           ]
         }
@@ -323,6 +337,49 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Lịch trình nửa ngày",
+              "subtitle": "Chỉ tham quan nghĩa trang và nhà thờ bằng xe riêng",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        { "text": "Xuất phát từ Manila, đi theo đường SLEX hướng San Pablo" }
+                      ]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        { "text": "Đến Nagcarlan, tham quan phòng trưng bày của bảo tàng trước" }
+                      ]
+                    },
+                    {
+                      "time": "09:30",
+                      "children": [
+                        {
+                          "text": "Chụp ảnh cổng vòm chính, tham quan nhà nguyện, hầm cốt ngầm và các ngôi mộ hốc tường"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [{ "text": "Tham quan nhà thờ San Bartolome trong thị trấn" }]
+                    },
+                    {
+                      "time": "11:30",
+                      "children": [{ "text": "Ăn trưa ở San Pablo và mua bánh buko pie" }]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [{ "text": "Xuất phát về Manila, đến nơi vào cuối buổi chiều" }]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -354,6 +411,17 @@
                         { "text": ", giá vé khoảng " },
                         { "type": "price", "text": "₱180–250" },
                         { "text": " một chiều." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Xe buýt của DLTB, JAC Liner và JAM Liner đi Lucena thường xuyên khởi hành từ Cubao, Buendia và PITX. Bạn chỉ cần nói với phụ xe là xuống ở 「SM San Pablo」; kể từ "
+                        },
+                        { "type": "date", "text": "ngày 28 tháng 9 năm 2026" },
+                        {
+                          "text": ", giá vé xe buýt tỉnh được tăng theo từng km nên giá có thể tăng nhẹ."
+                        }
                       ]
                     },
                     {
@@ -468,6 +536,29 @@
             {
               "text": "), các nghi lễ và người viếng thăm đông đúc mang lại không khí đặc biệt, nhưng lộ trình tham quan có thể bị hạn chế hoặc giờ mở cửa thay đổi. Nếu muốn tham quan yên tĩnh, hãy chọn buổi sáng ngày thường, và trước khi đến hãy kiểm tra thông báo mới nhất trên trang chính thức của bảo tàng NHCP."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 11 – tháng 2",
+              "Mùa khô, sáng tối khoảng 20℃",
+              "Lái xe dễ chịu — tín đồ đổ về ngày 1–2 tháng 11"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, ít mưa",
+              "Thích hợp đi dạo ở thác nước và làng — nghi lễ Tuần Thánh, tín đồ đông đúc"
+            ],
+            [
+              "Tháng 6 – tháng 10",
+              "Mùa mưa, thường có mưa buổi chiều",
+              "Cầu thang và đường gạch trơn — tránh thác Bunga sau mưa lớn"
+            ]
           ]
         }
       ]
@@ -627,6 +718,19 @@
                 {
                   "text": "Nhiều cửa hàng trong thị trấn và xe tricycle chỉ nhận tiền mặt. Hãy chuẩn bị sẵn nhiều tiền lẻ."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Giờ hoạt động, việc đóng cửa tạm thời và lịch nghi lễ Tuần Thánh luôn được đăng đầu tiên trên "
+                },
+                {
+                  "type": "link",
+                  "text": "Facebook chính thức",
+                  "url": "https://www.facebook.com/mlilnofficial/"
+                },
+                { "text": " của bảo tàng. Hãy kiểm tra một lần vào ngày hôm trước khi đến." }
               ]
             }
           ]

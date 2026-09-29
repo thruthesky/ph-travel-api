@@ -248,6 +248,18 @@
                   "text": " and are negotiated on the spot — be sure to confirm beforehand whether the fare is per person or per carriage."
                 }
               ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Museo de Intramuros",
+              "children": [
+                { "text": "A religious art museum that opened in " },
+                { "type": "date", "text": "2019" },
+                {
+                  "text": ", reviving the site of San Ignacio Church, which was destroyed in the war. It holds the Philippines' largest collection of church heritage gathered by the Intramuros Administration, including sacred images, vestments, and furniture, and seeing it together with the San Agustin Museum gives a fuller picture of Spanish-era faith and culture."
+                }
+              ]
             }
           ]
         }
@@ -320,13 +332,65 @@
                     {
                       "time": "16:30",
                       "children": [
-                        { "text": "Baluarte de San Diego and the walkway atop the walls" }
+                        {
+                          "text": "Walk the walkway atop the walls (the last admission to Baluarte de San Diego is at "
+                        },
+                        { "type": "time", "text": "4 PM" },
+                        { "text": ", so stop by there first during the bike tour)" }
                       ]
                     },
                     { "time": "17:30", "children": [{ "text": "Watch the sunset from the walls" }] },
                     {
                       "time": "18:30",
                       "children": [{ "text": "Head to Rizal Park or Manila Bay for dinner" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Rainy-day course",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Enter when Casa Manila opens and tour the mansion interior and courtyard"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [{ "text": "Visit San Agustin Church and Museum" }]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [{ "text": "Lunch at a restaurant inside Plaza San Luis" }]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [
+                        { "text": "Visit Museo de Intramuros and the Centro de Turismo Intramuros" }
+                      ]
+                    },
+                    {
+                      "time": "15:30",
+                      "children": [
+                        {
+                          "text": "Take a Grab to the National Museum of the Philippines for its indoor exhibits"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Casa Manila and Museo de Intramuros are closed on Mondays, so if it rains on a Monday, switch to focusing on the San Agustin Museum and the National Museum."
                     }
                   ]
                 }
@@ -380,15 +444,25 @@
                       "text": "Get off at Central Terminal station on LRT Line 1 and walk past Manila City Hall; it takes "
                     },
                     { "type": "duration", "text": "10–15 minutes" },
-                    { "text": " to reach the southeast entrance of the walls. Fares are about " },
-                    { "type": "price", "text": "₱15–35" },
+                    { "text": " to reach the southeast entrance of the walls. The fare is about " },
+                    { "type": "price", "text": "₱16–55" },
                     {
-                      "text": " depending on the section, and using a beep card or mobile payment means shorter queues. It gets very crowded during rush hour ("
+                      "text": " depending on distance, and using a transit card (beep card) or mobile payment means shorter queues. It gets very crowded during rush hour ("
                     },
                     { "type": "time", "text": "7–9 AM" },
                     { "text": ", " },
                     { "type": "time", "text": "5–8 PM" },
                     { "text": ")." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Since " },
+                    { "text": "November 2024", "type": "date" },
+                    {
+                      "text": ", LRT Line 1 has been extended toward Cavite as far as Dr. Santos station, so you can now ride to Central Terminal station without transferring from Asia World station next to PITX in Parañaque or from Ninoy Aquino Avenue station. However, the airport terminals are not directly connected to the station, so a Grab is more convenient if you have a lot of luggage."
+                    }
                   ]
                 }
               ]
@@ -412,6 +486,22 @@
               ]
             },
             {
+              "title": "Pasig River Ferry",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "The Pasig River Ferry, run by the MMDA, is free as of " },
+                    { "type": "date", "text": "2026" },
+                    {
+                      "text": ", and you show an ID when boarding. Escolta station is on the riverbank north of Intramuros (behind the Bureau of Immigration building), so you can arrive from the riverside stations on the Pasig and Mandaluyong side without traffic. It operates during daytime hours only and sometimes stops for maintenance, so check the MMDA announcements for the timetable."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "title": "Getting around inside the walls",
               "icon": "commute",
               "blocks": [
@@ -423,6 +513,22 @@
                     },
                     { "type": "price", "text": "₱50–100" },
                     { "text": ", while hourly tours need to be negotiated." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Since " },
+                    { "text": "March 2026", "type": "date" },
+                    {
+                      "text": ", the Intramuros Administration has been running an electric tranvia (e-tranvia, an electric vehicle styled like the old streetcars) on a free trial basis. It is a loop starting from Plaza Roma that stops at about 10 places, including Fort Santiago, Baluarte de San Diego, and Puerta del Parian, twice a day ("
+                    },
+                    { "text": "9–10 AM", "type": "time" },
+                    { "text": ", " },
+                    { "text": "3–4 PM", "type": "time" },
+                    {
+                      "text": "), carrying up to 18 people on a first-come basis. As it is a trial, the schedule may change, so check the Administration's announcements."
+                    }
                   ]
                 }
               ]
@@ -477,6 +583,29 @@
               "text": " Christmas season, light displays are installed around the churches and plazas, making the night view especially beautiful."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, cool at 24–26°C in the morning and evening",
+              "Best time for walking — December Christmas light night views"
+            ],
+            [
+              "March–May",
+              "Dry season, 34–36°C at midday",
+              "Move around in the morning or after 4 PM — note Holy Week closures"
+            ],
+            [
+              "June–November",
+              "Rainy season, afternoon showers and typhoons (July–September)",
+              "Focus on indoor museums — avoid visiting on typhoon warning days"
+            ]
+          ]
         }
       ]
     },
@@ -513,7 +642,7 @@
               "note": "Varies by route and whether admission is included"
             },
             {
-              "label": "Kalesa",
+              "label": "Kalesa ride",
               "price": "About ₱300–1,000",
               "note": "Per carriage, negotiation required"
             },
@@ -522,7 +651,12 @@
               "price": "About ₱300–800",
               "note": "Filipino home-style to restaurant dining"
             },
-            { "label": "Cafe/snacks", "price": "About ₱150–300" }
+            { "label": "Cafe/snacks", "price": "About ₱150–300" },
+            {
+              "label": "Museo de Intramuros",
+              "price": "About ₱150",
+              "note": "Includes Centro de Turismo, closed Mondays"
+            }
           ]
         },
         {
@@ -596,10 +730,10 @@
             {
               "children": [
                 {
-                  "text": "The ticket booths at Fort Santiago and Casa Manila often accept cards and GCash, but kalesas, tricycles, and street food are cash only, so keep plenty of small bills ("
+                  "text": "The Fort Santiago ticket office accepts cash, Maya payments, and Klook bookings, but kalesas, tricycles, and street food are cash only, so bring plenty of small bills in the "
                 },
                 { "type": "price", "text": "₱20–100" },
-                { "text": ") on hand." }
+                { "text": " range." }
               ]
             },
             {
@@ -642,6 +776,31 @@
                 {
                   "text": "Some museums, such as Casa Manila, are closed on Mondays, so visiting Tuesday to Friday is the most relaxed option."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Admission to Fort Santiago, Baluarte de San Diego, and Casa Manila is " },
+                { "type": "price", "text": "₱75" },
+                { "text": " each (" },
+                { "type": "price", "text": "₱50" },
+                {
+                  "text": " for students, seniors, and persons with disabilities, ID required). Fort Santiago is open on weekdays from "
+                },
+                { "type": "time", "text": "8 AM to 10 PM" },
+                { "text": " (last admission " },
+                { "type": "time", "text": "8 PM" },
+                { "text": ") and from " },
+                { "type": "time", "text": "6 AM" },
+                { "text": " on weekends, and the last admission to Baluarte de San Diego is " },
+                { "type": "time", "text": "4 PM" },
+                { "text": ". Check the latest hours and fares on the " },
+                {
+                  "type": "link",
+                  "text": "official Intramuros Administration website",
+                  "url": "https://intramuros.gov.ph/hours/"
+                },
+                { "text": "." }
               ]
             }
           ]

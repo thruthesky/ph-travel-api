@@ -35,8 +35,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.5, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 12.4167 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 122.5667 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 12.3856 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 122.5614 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -385,14 +385,20 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "The main route from Manila is a RORO ferry from Batangas port, via Romblon Island, to Magdiwang on Sibuyan. It departs in the evening and arrives the following morning, taking about "
+                      "text": "The main route from Manila is to take a Starlite Ferries roll-on/roll-off boat from Batangas port, via Romblon Island, to Ambulong port in Magdiwang, Sibuyan. It departs in the afternoon and arrives in the dead of night or at dawn, taking about "
                     },
-                    { "type": "duration", "text": "12–16 hours" },
-                    { "text": ", for a fare of around " },
-                    { "type": "price", "text": "₱1,200–1,800" },
+                    { "type": "duration", "text": "12 hours" },
+                    { "text": ", with fares of about " },
+                    { "type": "price", "text": "₱1,000–2,500" },
                     {
-                      "text": ". It often runs only a few times a week, so check the shipping line's schedule first."
-                    }
+                      "text": " depending on seat class. Sailing days and times change often, so be sure to check the schedule first on the "
+                    },
+                    {
+                      "type": "link",
+                      "text": "Starlite Ferries official website",
+                      "url": "https://starliteferries.com/"
+                    },
+                    { "text": "." }
                   ]
                 }
               ]
@@ -423,15 +429,21 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "You can also fly from Manila to Roxas Airport (RXS) in northern Panay, about "
+                      "text": "Another way is to fly from Manila to Roxas Airport (RXS) in northern Panay, about "
                     },
                     { "type": "duration", "text": "1 hour" },
                     {
-                      "text": ", then take a boat from Roxas City port to San Fernando or Cajidiocan on Sibuyan. The boat takes about "
+                      "text": ", then take a Starlite Ferries roll-on/roll-off boat from Culasi port in Roxas City to Magdiwang, Sibuyan. The boat usually leaves daily at "
                     },
-                    { "type": "duration", "text": "3–4 hours" },
+                    { "type": "time", "text": "1 PM" },
+                    { "text": ", takes about " },
+                    { "type": "duration", "text": "5 hours" },
+                    { "text": ", and costs about " },
+                    { "type": "price", "text": "₱800–1,100" },
+                    { "text": "; from Sibuyan to Roxas it departs at " },
+                    { "type": "time", "text": "6 AM" },
                     {
-                      "text": " and runs on fixed days, so check in advance. With more frequent flights, this is useful for travelers on a tight schedule, but since the boats are small, sailings are often cancelled due to weather."
+                      "text": ". With more flights available, this is useful for travelers on a tight schedule, but bad weather can cancel the boat, so leave a spare day."
                     }
                   ]
                 }
@@ -498,6 +510,29 @@
               "text": " is the wet season and typhoon period, when swollen rivers make swimming dangerous and boats crossing the Sibuyan Sea are often cancelled. The seas are dangerous during typhoon season — in 2008 a passenger ferry capsized off this island's coast with heavy loss of life — so postpone boat travel whenever a weather warning is issued."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–January",
+              "November–December is rainy and typhoon season",
+              "Mount Guiting-Guiting climbs may be restricted — check the notice"
+            ],
+            [
+              "February–May",
+              "Dry season, coast 30–34℃",
+              "Little rain and calm seas — best for climbs, rivers, and waterfall outings"
+            ],
+            [
+              "June–October",
+              "Rainy season and typhoons, rivers swell",
+              "Swimming is dangerous and boats are often cancelled — postpone travel when weather warnings are issued"
+            ]
+          ]
         }
       ]
     },
@@ -514,12 +549,12 @@
           "items": [
             {
               "label": "Batangas–Sibuyan boat",
-              "price": "About ₱1,200–1,800",
+              "price": "About ₱1,000–2,500",
               "note": "One way, RORO ferry via Romblon"
             },
             { "label": "Romblon Island–Sibuyan boat", "price": "About ₱200–400", "note": "One way" },
             {
-              "label": "Mount Guiting-Guiting climb",
+              "label": "Climbing Mount Guiting-Guiting",
               "price": "About ₱3,000–6,000",
               "note": "Registration and guide fees etc., per group for 2–3 days, confirm locally"
             },
@@ -530,8 +565,13 @@
             },
             {
               "label": "Cresta de Gallo bangka",
-              "price": "About ₱1,500–3,000",
+              "price": "About ₱2,500–3,500",
               "note": "Per boat, round trip"
+            },
+            {
+              "label": "Cresta de Gallo admission",
+              "price": "About ₱70–100",
+              "note": "Per person, day trip or overnight"
             },
             { "label": "Chartered tricycle", "price": "About ₱1,000–1,500", "note": "Per day" },
             {
@@ -611,6 +651,15 @@
             },
             {
               "children": [
+                { "text": "Under the " },
+                { "text": "2026", "type": "date" },
+                {
+                  "text": " Protected Area Management Board (PAMB) rules, climbing to the summit requires certificates for at least two recent major climbs, with an exemption if you only go as far as Camp 1, Camp 2, or Mayo's Peak. A medical certificate and ID are required for everyone, and the detailed criteria change often, so check with the park office first."
+                }
+              ]
+            },
+            {
+              "children": [
                 {
                   "text": "The climb requires gloves, a helmet, and a light waterproof jacket. The rock ridges are sharp and become slippery in the rain."
                 }
@@ -642,6 +691,23 @@
                 {
                   "text": "Mosquitoes and biting flies are common, so wear long clothing and use insect repellent in the forest and along riverbanks."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Boats to Cresta de Gallo are rented at Azagra port in San Fernando, taking about "
+                },
+                { "type": "duration", "text": "1–2 hours" },
+                { "text": " each way depending on waves. A day trip runs about " },
+                { "type": "price", "text": "₱2,500" },
+                { "text": " for 1–4 people and about " },
+                { "type": "price", "text": "₱3,500" },
+                { "text": " for 5–8 people, with the island admission fee (" },
+                { "type": "price", "text": "₱70" },
+                { "text": " for a day trip, " },
+                { "type": "price", "text": "₱100" },
+                { "text": " overnight) paid separately." }
               ]
             }
           ]

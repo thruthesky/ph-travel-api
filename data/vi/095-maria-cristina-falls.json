@@ -270,7 +270,7 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "07:30–08:30",
+                      "time": "08:30–09:00",
                       "children": [
                         {
                           "text": "Từ trung tâm Iligan đi jeepney hoặc taxi đến cổng chính Công viên Thiên nhiên NPC, kiểm tra giấy tờ tùy thân và ký cam kết."
@@ -278,7 +278,7 @@
                       ]
                     },
                     {
-                      "time": "08:30–10:30",
+                      "time": "09:00–10:30",
                       "children": [
                         {
                           "text": "Theo hướng dẫn di chuyển đến cơ sở quan sát, ngắm thác Maria Cristina và chụp ảnh."
@@ -304,7 +304,7 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "08:00–10:30",
+                      "time": "09:00–10:30",
                       "children": [
                         {
                           "text": "Tham quan thác Maria Cristina (nếu được cấp phép) hoặc khám phá nhà tổ tiên và nhà thờ lớn ở trung tâm thành phố."
@@ -461,6 +461,29 @@
             { "type": "date", "text": "29 tháng 9" },
             { "text": "), với diễu hành đường phố và biểu diễn làm thành phố sôi động." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 1",
+              "Mưa đều quanh năm",
+              "Lượng nước thác phụ thuộc vào hoạt động của nhà máy điện — hỏi vào ngày đi"
+            ],
+            [
+              "Tháng 2–tháng 5",
+              "Mùa khô ít mưa",
+              "Tốt nhất để đi tham quan các thác — bậc thang và đường núi ít trơn hơn"
+            ],
+            [
+              "Tháng 6–tháng 12",
+              "Thường xuyên mưa rào buổi chiều",
+              "Xuất phát sớm buổi sáng — lễ hội Diyandi tháng 9 (29 tháng 9)"
+            ]
+          ]
         }
       ]
     },
@@ -564,19 +587,19 @@
           "items": [
             {
               "children": [
+                { "text": "Thác Maria Cristina không cho phép vào cửa trực tiếp. Từ " },
+                { "type": "date", "text": "tháng 3 năm 2026" },
+                { "text": " chỉ được tham quan từ thứ Hai đến thứ Bảy, " },
+                { "type": "time", "text": "9 giờ sáng–12 giờ trưa" },
                 {
-                  "text": "Kể từ khi mở cửa lại, thác Maria Cristina không cho phép khách đến trực tiếp (walk-in), mà vận hành theo quy trình gửi thư yêu cầu tham quan đến văn phòng du lịch thành phố Iligan để được giới thiệu, rồi nhận phê duyệt từ NPC. Tính đến cuối năm "
-                },
-                { "type": "date", "text": "2025" },
-                {
-                  "text": ", số lượng bị giới hạn khoảng 10 người/ngày, nên bạn nên đăng ký trước ngày tham quan ít nhất 1–2 tuần."
+                  "text": ", và phải đặt trước ít nhất 1–2 ngày bằng đơn trực tuyến của văn phòng du lịch thành phố Iligan. Đây là biện pháp tránh mưa buổi chiều và kiểm soát số người nên lượng khách mỗi ngày không nhiều, vì vậy tốt nhất là nộp đơn sớm."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Trong thư đăng ký, bạn cần ghi tên, quốc tịch, ngày mong muốn, thông tin liên lạc của toàn bộ người tham quan và chuẩn bị bản sao hộ chiếu. Tại chỗ cần ký giấy miễn trừ trách nhiệm và kiểm tra giấy tờ tùy thân."
+                  "text": "Trong đơn ghi họ tên toàn bộ khách tham quan, ngày giờ mong muốn và thông tin phương tiện đi. Tại chỗ cần xuất trình giấy tờ tùy thân do chính phủ cấp (người nước ngoài là hộ chiếu), tham gia huấn luyện an toàn và ký cam kết miễn trừ trách nhiệm với NPC."
                 }
               ]
             },

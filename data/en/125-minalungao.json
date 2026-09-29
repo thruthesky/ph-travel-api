@@ -227,6 +227,16 @@
                   "text": "Renting a bamboo hut on the riverbank and spending half a day eating food you brought is the local way to enjoy the park. Some spots let you use a grill."
                 }
               ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Zipline and kayaking",
+              "children": [
+                {
+                  "text": "Near the park entrance there is a zipline across the gorge, and kayaks can be rented on the river. They suit small groups who want to go up and down the river more lightly than by raft, and whether they operate and at what price is decided on site depending on the weather and water level."
+                }
+              ]
             }
           ]
         }
@@ -363,6 +373,63 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Rainy-day route",
+              "subtitle": "An alternative in Gapan town",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Arrive in Gapan and first check the water level and color at the park with a tricycle driver or local notices"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:30",
+                      "children": [
+                        {
+                          "text": "If the river is murky or rafts have stopped running, pay a visit to Gapan Church (Diocesan Shrine and National Shrine of La Virgen Divina Pastora), which in "
+                        },
+                        { "type": "date", "text": "2024" },
+                        { "text": " became the first minor basilica in Nueva Ecija" }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        {
+                          "text": "Look around the cobblestone street of old mansions on Delos Reyes Street beside the church and the Gapan City Museum in the old municipal hall (free)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [{ "text": "Lunch at a café or restaurant on the old street" }]
+                    },
+                    {
+                      "time": "14:00",
+                      "children": [
+                        {
+                          "text": "Stop in San Miguel to buy carabao-milk pastillas and return to Manila"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "When the water clears up, it's better to come back on a dry-season weekend for a day trip to the park. Gapan Church and the old street are easy to see even in the rain, making them a good rainy-season alternative."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -388,12 +455,25 @@
                     {
                       "children": [
                         {
-                          "text": "From Cubao in Manila, take a bus bound for Gapan or Cabanatuan and get off in downtown Gapan. It takes about "
+                          "text": "From Cubao in Manila, take a bus toward Gapan or Cabanatuan (such as Five Star) and get off in Gapan town. It takes about "
                         },
                         { "type": "duration", "text": "2 hours 30 minutes–3 hours" },
-                        { "text": ", for a fare of about " },
-                        { "type": "price", "text": "₱200~300" },
+                        { "text": " and costs about " },
+                        { "type": "price", "text": "₱280–330" },
                         { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "The Five Star Cubao–Cabanatuan line runs frequently from " },
+                        { "type": "time", "text": "2 AM" },
+                        { "text": " to " },
+                        { "type": "time", "text": "11 PM" },
+                        { "text": ". Provincial bus per-km fares rose from " },
+                        { "type": "date", "text": "September 28, 2026" },
+                        { "text": " (air-conditioned buses " },
+                        { "type": "price", "text": "₱2.45" },
+                        { "text": " per km), so check the ticket price again at the terminal." }
                       ]
                     }
                   ]
@@ -494,6 +574,29 @@
               "text": ", rain in the upstream mountains often raises the river and turns it muddy. When the current gets strong, rafting and swimming are suspended, and the water stays cloudy for days after a typhoon passes. During this period, check notices from the park or General Tinio's tourism office before you go, and finish swimming in the morning before afternoon thunderstorms arrive."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Dry season, cool mornings and evenings",
+              "Clear river water and vivid green — good for climbing the stairs"
+            ],
+            [
+              "March–May",
+              "Dry season, 35–37℃ at midday",
+              "Good for swimming but the most crowded — rafts are hard to get on Black Saturday"
+            ],
+            [
+              "June–October",
+              "Rainy season, river swells and turns muddy",
+              "Rafting and swimming stop when the current is strong — swim in the morning"
+            ]
+          ]
         }
       ]
     },
@@ -510,7 +613,7 @@
           "items": [
             {
               "label": "Manila–Gapan bus",
-              "price": "About ₱200–300 one way",
+              "price": "About ₱280–330 one way",
               "note": "Departing Cubao"
             },
             {
@@ -525,17 +628,17 @@
             },
             {
               "label": "Entrance fee/environmental fee",
-              "price": "About ₱30–100",
-              "note": "Subject to change, paid on-site"
+              "price": "About ₱100",
+              "note": "Per person, may vary, paid on site"
             },
             {
               "label": "Bamboo raft",
-              "price": "About ₱300–800 per raft",
-              "note": "Varies by size, time, and roof"
+              "price": "About ₱800–1,300 per boat",
+              "note": "Based on 8–10 people and about 4 hours"
             },
             { "label": "Riverside hut", "price": "About ₱200–800", "note": "Varies by size" },
             { "label": "Life vest rental", "price": "About ₱50–100 each", "note": "Required" },
-            { "label": "Parking", "price": "About ₱50–100", "note": "If driving" },
+            { "label": "Parking", "price": "About ₱50–100", "note": "Private car" },
             {
               "label": "Meals",
               "price": "About ₱100–300 per meal",
@@ -647,6 +750,19 @@
               "children": [
                 {
                   "text": "Carry all your trash back out. It's also best to avoid using shampoo or soap in the river, to help keep the water clear."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "The park has closed before, in " },
+                { "type": "date", "text": "March 2023" },
+                { "text": " (amid a controversy over environmental-law violations) and " },
+                { "type": "date", "text": "March 2024" },
+                { "text": " (a carrying-capacity study and recovery from typhoon damage). As of " },
+                { "type": "date", "text": "February 2026" },
+                {
+                  "text": " it is open daily, but before you set out, check whether it is open on the park's Facebook page or in General Tinio tourism office notices."
                 }
               ]
             }

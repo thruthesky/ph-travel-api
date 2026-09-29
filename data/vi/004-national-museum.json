@@ -395,15 +395,13 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Xuống ga Central Terminal của tuyến LRT 1, đi bộ qua tòa thị chính Manila khoảng "
+                      "text": "Xuống ga Central Terminal của tuyến LRT-1, đi bộ qua Tòa thị chính Manila khoảng "
                     },
                     { "type": "duration", "text": "10 phút" },
-                    {
-                      "text": " là đến bảo tàng mỹ thuật. Từ ga United Nations Avenue cũng đi bộ khoảng "
-                    },
+                    { "text": " là đến bảo tàng mỹ thuật. Từ ga United Nations Avenue cũng đi bộ " },
                     { "type": "duration", "text": "10–15 phút" },
                     { "text": ". Giá vé khoảng " },
-                    { "type": "price", "text": "₱15~35" },
+                    { "type": "price", "text": "₱16~55" },
                     { "text": "." }
                   ]
                 }
@@ -436,10 +434,10 @@
                   "children": [
                     { "text": "Đi bộ khoảng " },
                     { "type": "duration", "text": "15 phút" },
-                    { "text": " từ tường thành phía nam Intramuros, hoặc " },
+                    { "text": " từ tường thành phía nam Intramuros, và " },
                     { "type": "duration", "text": "5–10 phút" },
                     {
-                      "text": " từ trung tâm Công viên Rizal. Bảo tàng mỹ thuật và bảo tàng nhân chủng học nằm đối diện nhau qua quảng trường tròn Agrifina Circle."
+                      "text": " từ giữa Công viên Rizal. Bảo tàng Mỹ thuật và Bảo tàng Nhân chủng học nằm đối diện nhau, ngăn cách bởi Agrifina Circle (quảng trường hình tròn)."
                     }
                   ]
                 }
@@ -494,6 +492,29 @@
               "text": " đã mở cửa cả thứ Hai nên lịch hoạt động có thay đổi, vì vậy hãy kiểm tra thông tin vận hành mới nhất trên trang chính thức (nationalmuseum.gov.ph) hoặc Facebook chính thức trước khi đến."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Trong nhà nên ít bị ảnh hưởng bởi thời tiết",
+              "Tham quan quanh năm — chiều ngày thường sau 2 giờ vắng khách"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Nóng khoảng 35 độ giữa trưa",
+              "Nơi tránh nóng — 18 tháng 5 là Ngày Bảo tàng Quốc tế"
+            ],
+            [
+              "Tháng 6 – tháng 11",
+              "Mùa mưa, mưa rào buổi chiều",
+              "Nơi tránh mưa rào — tháng 10 là Tháng Bảo tàng, lưu ý ngày nghỉ khi có bão"
+            ]
+          ]
         }
       ]
     },
@@ -519,7 +540,7 @@
               "price": "Khoảng ₱280~550 (một chiều)",
               "note": "Thay đổi theo tình hình giao thông"
             },
-            { "label": "Tuyến LRT 1", "price": "Khoảng ₱15~35", "note": "Ga Central Terminal" },
+            { "label": "Tuyến LRT 1", "price": "Khoảng ₱16~55", "note": "Ga Central Terminal" },
             {
               "label": "Cửa hàng lưu niệm",
               "price": "Khoảng ₱200~1,500",
@@ -642,6 +663,23 @@
                 {
                   "text": "Có thang máy và đường dốc cho người dùng xe lăn, nên cũng phù hợp cho gia đình đi cùng người già, người khuyết tật."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Đoàn từ 20 đến 150 người phải đặt trước ít nhất 3 ngày làm việc trên " },
+                {
+                  "type": "link",
+                  "text": "trang đặt chỗ chính thức",
+                  "url": "https://reservation.nationalmuseum.gov.ph/"
+                },
+                {
+                  "text": ", và tour đoàn chỉ được xếp từ thứ Ba đến thứ Bảy. Chủ nhật, thứ Hai và ngày lễ chỉ dành cho khách cá nhân đến trực tiếp nên ít đoàn, và vào Chủ nhật lúc "
+                },
+                { "type": "time", "text": "10 giờ 30 sáng" },
+                { "text": " và " },
+                { "type": "time", "text": "2 giờ chiều" },
+                { "text": " có tour thuyết minh mà khách cá nhân cũng có thể tham gia." }
               ]
             }
           ]

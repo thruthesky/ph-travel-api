@@ -29,8 +29,8 @@
     "items": ["White sand beach", "Camping", "Island hopping", "Milky Way", "Off the beaten path"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.5, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 14.45 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 122.9167 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 14.4766 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 122.939 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -326,6 +326,49 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "No-sail day",
+              "subtitle": "When stuck in Daet",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Check with Vinzons port or the boatman whether boats are sailing, and if not, push your boat booking to the next day"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Look around the Rizal monument, church, and market in Daet town"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        {
+                          "text": "Lunch at Bagasbas Beach, then a surfing lesson or a walk on the beach"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [
+                        {
+                          "text": "Sunset at Bagasbas Beach, and dinner in Daet town with Bicolano cuisine"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -348,18 +391,18 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "DLTB, Philtranco, Superlines, and other operators run daily buses from terminals in Cubao, Pasay, and Buendia in Manila to Daet, taking about "
+                      "text": "Buses to Daet such as DLTB and Superlines run daily from the terminals around Cubao, Pasay, and Buendia in Manila, taking about "
                     },
                     { "type": "duration", "text": "7–10 hours" },
-                    { "text": " for around " },
+                    { "text": " and costing about " },
                     { "type": "price", "text": "₱750–1,200" },
                     {
-                      "text": ". An overnight bus lets you arrive at dawn and catch the morning boat the same day. From Daet to Vinzons it's about "
+                      "text": ". If you take a night bus you arrive at dawn and can catch the morning boat the same day. From Daet to Vinzons takes about "
                     },
                     { "type": "duration", "text": "30 minutes–1 hour" },
-                    { "text": " by jeepney or van, around " },
+                    { "text": " by jeepney or van (about " },
                     { "type": "price", "text": "₱50–100" },
-                    { "text": ", and from downtown Vinzons to the port it's about " },
+                    { "text": "), and from Vinzons town to the port about " },
                     { "type": "duration", "text": "10–15 minutes" },
                     { "text": " by tricycle." }
                   ]
@@ -373,12 +416,16 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "The nearest commercial airport is Naga Airport (WNP), about " },
-                    { "type": "duration", "text": "1 hour" },
-                    { "text": " from Manila. From downtown Naga to Daet takes about " },
+                    { "text": "The closest commercial airport is Naga Airport (WNP). Since " },
+                    { "type": "date", "text": "March 29, 2026" },
+                    {
+                      "text": ", propeller aircraft have been banned from Manila's Ninoy Aquino Airport, so there are no direct Manila–Naga flights, and now it takes about "
+                    },
+                    { "type": "duration", "text": "1 hour 20 minutes" },
+                    { "text": " from Clark on a Cebgo flight. From Naga city to Daet takes about " },
                     { "type": "duration", "text": "2–3 hours" },
                     {
-                      "text": " by bus or van, so flying doesn't cut much off the overall travel time. To save time, catch the first morning flight and take the same-day afternoon boat, or plan to stay one night in Daet — either is realistic."
+                      "text": " by bus or van, so even if you fly, the total travel time is not greatly reduced. To save time, taking the first morning flight and catching an afternoon boat the same day, or spending a night in Daet, is realistic."
                     }
                   ]
                 }
@@ -392,15 +439,15 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "A chartered bangka is the usual way from Vinzons port to Calaguas. A small 4–6 person boat costs about "
+                      "text": "From Vinzons port to Calaguas, a chartered bangka is the norm. A small boat for 4–6 people costs about "
                     },
                     { "type": "price", "text": "₱2,500–4,000" },
-                    { "text": " round trip, and a large 15–20 person boat about " },
+                    { "text": " round trip, and a large boat for 15–20 people about " },
                     { "type": "price", "text": "₱5,000–8,000" },
-                    { "text": ", with a one-way trip of about " },
+                    { "text": ", taking about " },
                     { "type": "duration", "text": "1 hour 30 minutes–2 hours 30 minutes" },
                     {
-                      "text": ". On busy weekends, shared bangkas sold by the seat are also available. The Paracale port route used to be common too, but the shorter Vinzons route is mainly used now. Using a travel agency's join tour (round-trip bus from Manila, boat, and tent included) makes preparation much simpler."
+                      "text": " one way. On peak-season weekends there are also shared bangkas that gather people and sell seats individually. Boats also leave from Paracale port, and the sea route from there is slightly shorter, but the Vinzons port route, which has jurisdiction over the island, is the most widely used. Using a travel agency's join tour (including round-trip bus from Manila, boat, and tent) makes preparation much easier."
                     }
                   ]
                 }
@@ -457,6 +504,29 @@
             { "type": "date", "text": "May" },
             { "text": ", so bringing a tarp or shade canopy makes staying much more comfortable." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Northeast monsoon (amihan), high waves",
+              "Bangka trips often suspended — many no-sail days"
+            ],
+            [
+              "March–June",
+              "Dry season, weak wind and calm seas",
+              "Clearest water — campers flock in during Holy Week, so weekdays are recommended"
+            ],
+            [
+              "July–October",
+              "Rainy and typhoon season",
+              "Frequent typhoons make travel planning difficult"
+            ]
+          ]
         }
       ]
     },
@@ -488,12 +558,12 @@
             },
             {
               "label": "Environmental fee/island entrance fee",
-              "price": "About ₱50–150",
-              "note": "Collected on-site, changes often"
+              "price": "About ₱120–170",
+              "note": "Barangay environmental fee of ₱20 plus campsite entrance fee, collected on site"
             },
             {
               "label": "Tent spot/rental",
-              "price": "About ₱300–1,000",
+              "price": "About ₱100–1,000",
               "note": "Per night, depending on whether a tent is included"
             },
             {
@@ -501,11 +571,16 @@
               "price": "About ₱2,000–5,000",
               "note": "Per night, 2–4 people"
             },
-            { "label": "Shower/charging", "price": "About ₱50–150", "note": "Paid per use" },
+            { "label": "Shower/charging", "price": "About ₱10–50", "note": "Paid per use" },
             {
               "label": "Food/groceries",
               "price": "About ₱500–1,000",
               "note": "Per person, per day"
+            },
+            {
+              "label": "Viewpoint hill entrance fee",
+              "price": "About ₱20–60",
+              "note": "Varies by low hill and high hill"
             }
           ]
         },
@@ -614,6 +689,17 @@
                 {
                   "text": "Sunrise photos are best taken on top of Tinaga hill, and Milky Way photos at the end of the beach away from any lights."
                 }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Electricity from the island's generators usually comes on only from " },
+                { "type": "time", "text": "6 PM to 6 AM" },
+                { "text": ". Some huts sell Starlink satellite Wi-Fi for about " },
+                { "type": "price", "text": "₱100" },
+                { "text": " per " },
+                { "type": "duration", "text": "1 hour 30 minutes" },
+                { "text": ", but the speed is on the slow side." }
               ]
             }
           ]
@@ -726,6 +812,18 @@
                 { "text": "A cone-shaped active volcano in Albay province's Legazpi, about " },
                 { "type": "duration", "text": "4–5 hours" },
                 { "text": " by car from Daet." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Naga City",
+              "place": "naga-city",
+              "children": [
+                { "text": "The central city of Bicol, about " },
+                { "type": "duration", "text": "2–3 hours" },
+                {
+                  "text": " from Daet by bus or van, the home of devotion to Our Lady of Peñafrancia and the place you pass through when using Naga Airport."
+                }
               ]
             }
           ]

@@ -34,8 +34,8 @@
     "items": ["Whale sharks", "Snorkeling", "Tumalog Falls", "Spanish heritage", "Day tour"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.4636 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.3803 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.4621 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.3786 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -356,13 +356,13 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "At Cebu City South Bus Terminal, take a Ceres bus on the 'Bato via Oslob' route or one bound for Santander/Liloan, and tell them to drop you at Tan-awan (whale shark viewing site). The trip takes about "
+                      "text": "From the South Bus Terminal in Cebu City, take a Ceres bus marked \"Bato via Oslob\" or a bus toward Santander or Liloan, and tell the conductor to drop you at Tan-awan (the whale shark viewing site). The trip takes about "
                     },
                     { "type": "duration", "text": "3 hours 30 minutes–4 hours" },
-                    { "text": ", with air-conditioned bus fares around " },
-                    { "type": "price", "text": "₱200–260" },
+                    { "text": ", and the air-conditioned bus fare is about " },
+                    { "type": "price", "text": "₱250–330" },
                     {
-                      "text": ". You need to catch the first bus at dawn to arrive with time to spare for the morning viewing session."
+                      "text": ". Take the first bus at dawn to arrive with time to spare for the morning viewing."
                     }
                   ]
                 }
@@ -400,12 +400,32 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Coming from Dumaguete, ferries from Sibulan port to Liloan port (Santander) run frequently, with fares around "
+                      "text": "If you're coming from Dumaguete, ferries run frequently from Sibulan Port to Liloan Port (Santander), with a fare of about "
                     },
-                    { "type": "price", "text": "₱80–120" },
-                    { "text": ". From Liloan port to Tan-awan, Oslob, it's about " },
+                    { "type": "price", "text": "₱120–150" },
+                    { "text": ". From Liloan Port to Tan-awan in Oslob takes about " },
                     { "type": "duration", "text": "20–30 minutes" },
                     { "text": " by bus or habal-habal." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "On the Liloan–Sibulan route, operators such as Maayo Shipping run several times a day from "
+                    },
+                    { "type": "time", "text": "4:30 AM" },
+                    { "text": " until around " },
+                    { "type": "time", "text": "10:30 PM" },
+                    {
+                      "text": ". Fuel surcharges and terminal fees may be added to the base fare at the counter, so check the timetable and fares on the "
+                    },
+                    {
+                      "type": "link",
+                      "text": "official Maayo Shipping site",
+                      "url": "https://maayoshipping.com/"
+                    },
+                    { "text": "." }
                   ]
                 }
               ]
@@ -455,6 +475,29 @@
             { "type": "date", "text": "December 8" },
             { "text": "." }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, some days with high waves from the northeast wind",
+              "Whale shark viewing possible — town fiesta around December 8"
+            ],
+            [
+              "March–June",
+              "Calm seas, good visibility",
+              "Most pleasant — quiet if you arrive at 6–7 AM on weekdays"
+            ],
+            [
+              "July–November",
+              "Rainy and typhoon season (August–November)",
+              "Viewing stops in typhoons — long waits on weekends and holidays"
+            ]
+          ]
         }
       ]
     },
@@ -471,7 +514,7 @@
           "items": [
             {
               "label": "Cebu–Oslob bus",
-              "price": "About ₱200–260",
+              "price": "About ₱250–330",
               "note": "One way, air-conditioned"
             },
             {
@@ -662,6 +705,15 @@
               "children": [
                 {
                   "text": "Touts around the viewing site sometimes push unofficial tours, so use the official registration counter."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Even with feeding, whale sharks do not always appear. For four days, " },
+                { "type": "date", "text": "May 22–25, 2026" },
+                {
+                  "text": ", no whale sharks showed up in the viewing area and the experience was suspended. Check with the local tourist office or your tour operator the day before whether it is operating, and if it is suspended, switch your plans to Sumilon Island or Tumalog Falls."
                 }
               ]
             }

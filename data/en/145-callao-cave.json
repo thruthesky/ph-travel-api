@@ -138,14 +138,18 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "This cave also holds an important place in human history. In " },
+            { "text": "This cave is also important in human history. In " },
             { "type": "date", "text": "2007" },
             {
-              "text": ", a team led by Filipino archaeologist Armand Mijares found a human foot bone inside the cave, and after more teeth and bones turned up, the finds were announced in the journal Nature in "
+              "text": " an excavation team led by the Filipino archaeologist Armand Mijares found a human foot bone in the cave, and as more teeth and bones turned up, it was announced in "
             },
             { "type": "date", "text": "2019" },
             {
-              "text": " as belonging to a new hominin species, Homo luzonensis. The fossils are at least 50,000 to 67,000 years old, making them the oldest human fossils found in the Philippines."
+              "text": " in the scientific journal Nature as a new archaic human, Homo luzonensis. At the time of the announcement the fossils were estimated to be at least 50,000 to 67,000 years old, but uranium-series dating in "
+            },
+            { "type": "date", "text": "2023" },
+            {
+              "text": " pushed that back to about 134,000 years ago. They are the oldest human fossils found in the Philippines."
             }
           ]
         },
@@ -324,6 +328,65 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Morning route",
+              "subtitle": "Focused on the beams of light",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "08:30",
+                      "children": [
+                        {
+                          "text": "Charter a tricycle in Tuguegarao town and set off (agree on the return time in advance)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:15",
+                      "children": [
+                        {
+                          "text": "Register at the visitor center, receive your ticket and helmet, and get assigned a guide"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:30–11:00",
+                      "children": [
+                        {
+                          "text": "Climb the stairs and look around the seven chambers, then see the beams of light in the chapel after "
+                        },
+                        { "type": "time", "text": "10 AM" },
+                        { "text": " as the sun rises higher" }
+                      ]
+                    },
+                    {
+                      "time": "11:00–11:45",
+                      "children": [
+                        {
+                          "text": "Come down to the riverside and cross the Pinacanauan River by boat or take a short cruise"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:30",
+                      "children": [
+                        { "text": "Return to Tuguegarao and have lunch of pancit batil patong" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "This route avoids the midday heat and is good for seeing the beams of light. The day after heavy rain, first check the river level and whether the cave is open through a tricycle driver or your accommodation."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -372,15 +435,15 @@
                     {
                       "children": [
                         {
-                          "text": "Victory Liner, Florida, and other lines run daily buses to Tuguegarao from Cubao, Pasay, and Sampaloc in Manila. The distance is about "
+                          "text": "Tuguegarao-bound buses such as Victory Liner and Florida run daily from Cubao, Pasay, and Sampaloc in Manila. The distance is about "
                         },
                         { "type": "distance", "text": "480km" },
-                        { "text": ", taking about " },
-                        { "type": "duration", "text": "10–12 hours" },
-                        { "text": ", with fares of around " },
-                        { "type": "price", "text": "₱800–1,300" },
+                        { "text": ", it takes about " },
+                        { "type": "duration", "text": "11–13 hours" },
+                        { "text": ", and the fare is about " },
+                        { "type": "price", "text": "₱1,100–1,500" },
                         {
-                          "text": " depending on seat class. An overnight bus gets you there by morning."
+                          "text": " depending on seat class. An overnight bus arrives in the morning."
                         }
                       ]
                     }
@@ -489,6 +552,29 @@
               "text": ". Heavy rain can raise the Pinacanauan River's level, halting boat trips and sometimes temporarily closing the cave's tourism zone. Holy Week and long holidays draw crowds of local visitors, so it's best to arrive early in the morning."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Relatively cool, little rain",
+              "Best for climbing the stairs and river cruises"
+            ],
+            [
+              "March–May",
+              "Dry season, 38–40℃ in Tuguegarao",
+              "Rest inside the cave at midday — Holy Week crowds"
+            ],
+            [
+              "June–November",
+              "Rainy season, frequent typhoons in August–November",
+              "A rising river level may temporarily close boat and cave areas"
+            ]
+          ]
         }
       ]
     },
@@ -510,8 +596,8 @@
             },
             {
               "label": "Manila–Tuguegarao bus",
-              "price": "About ₱800–1,300 one way",
-              "note": "Varies by seat class"
+              "price": "About ₱1,100–1,500 one way",
+              "note": "Varies with seat class and fuel surcharge"
             },
             {
               "label": "Tricycle charter",
@@ -520,13 +606,18 @@
             },
             {
               "label": "Cave admission",
-              "price": "About ₱20–50 per person",
-              "note": "Subject to change, check the latest notice"
+              "price": "About ₱20–100 per person",
+              "note": "Local and foreign rates differ, check the latest notices"
             },
             {
               "label": "Guide",
-              "price": "About ₱100–300",
-              "note": "Fixed fee or tip, confirm on-site"
+              "price": "About ₱350 per group",
+              "note": "One guide per 4 or so people, the minimum fee set by the protected area"
+            },
+            {
+              "label": "Helmet rental",
+              "price": "About ₱20 per person",
+              "note": "Worn inside the cave"
             },
             {
               "label": "River crossing boat",
@@ -627,6 +718,13 @@
             {
               "children": [
                 {
+                  "text": "When you register at the entrance visitor center and buy a ticket, you are lent a helmet, and one local guide accompanies each group of about 4 people. The guide fee has a minimum set by the Peñablanca Protected Landscape and Seascape management board, so check the amount before you start."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
                   "text": "The chapel is still used as an active place of worship. If Mass or a wedding is underway, watch quietly from the back."
                 }
               ]
@@ -709,6 +807,19 @@
               "children": [
                 {
                   "text": "Wear a life vest on the boat, and don't board any boat that's over its passenger limit."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "After heavy rain in " },
+                { "text": "July 2025", "type": "date" },
+                {
+                  "text": ", rocks fell from the cave ceiling twice, and the Department of Environment and Natural Resources (DENR) temporarily closed the cave in "
+                },
+                { "text": "August", "type": "date" },
+                {
+                  "text": ". It may close again after heavy rain, so check whether it is operating before you set out, and be sure to wear a helmet inside the cave."
                 }
               ]
             }

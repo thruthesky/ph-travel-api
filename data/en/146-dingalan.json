@@ -36,8 +36,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.3, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 15.3942 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.423 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 15.388 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.3909 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -183,12 +183,14 @@
               "number": 2,
               "title": "Mountain View viewpoint",
               "children": [
-                { "text": "A viewpoint reached by climbing about " },
+                {
+                  "text": "A viewpoint reached by climbing the grassy ridge from White Beach for about "
+                },
                 { "type": "duration", "text": "30 minutes–1 hour" },
                 {
-                  "text": " along a grassy ridge from White Beach. Most \"Batanes of the East\" photos are taken here, with an admission fee of around "
+                  "text": ". Most of the \"Batanes of the East\" photos are taken here, and admission is about "
                 },
-                { "type": "price", "text": "₱20" },
+                { "type": "price", "text": "₱30–50" },
                 { "text": "." }
               ]
             },
@@ -411,6 +413,21 @@
                     {
                       "children": [
                         {
+                          "text": "Dingalan Trans buses from the Cabanatuan Central Terminal run between "
+                        },
+                        { "type": "time", "text": "5 AM and 6 PM" },
+                        { "text": ", and the fare is about " },
+                        { "type": "price", "text": "₱120" },
+                        { "text": " air-conditioned and " },
+                        { "type": "price", "text": "₱100" },
+                        { "text": " ordinary (as of " },
+                        { "type": "date", "text": "January 2026" },
+                        { "text": ")." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
                           "text": "Return trips from Dingalan to Cabanatuan often stop running in the early afternoon, so be sure to confirm the last departure time locally on your day of return."
                         }
                       ]
@@ -572,6 +589,29 @@
             {
               "text": " year-round, and the viewpoint ridge has almost no shade. It's best to start trekking early in the morning and finish before midday."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "November–February",
+              "Close to dry season but with strong amihan winds",
+              "High waves block boats and Lamao Cave — go trekking on foot"
+            ],
+            [
+              "March–May",
+              "Little rain, calmest sea",
+              "Best for touring the attractions by boat — green grassy hills"
+            ],
+            [
+              "June–October",
+              "Rainy and typhoon season",
+              "In the path of typhoon landfalls — Typhoon Carding caused major damage in September 2022"
+            ]
           ]
         }
       ]
@@ -799,6 +839,19 @@
                 {
                   "text": "Carry out all your trash, and don't write graffiti on the cliffs or inside the caves."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Dingalan required all tourists to carry travel insurance covering injury and death under a "
+                },
+                { "type": "date", "text": "2024" },
+                {
+                  "text": " ordinance (No. 266). You can't join a tour without showing a certificate or receipt from an insurer registered and accredited with the municipal office, so check this when you register at the feeder port. Products from local agents cost about "
+                },
+                { "type": "price", "text": "₱10–60" },
+                { "text": "." }
               ]
             }
           ]

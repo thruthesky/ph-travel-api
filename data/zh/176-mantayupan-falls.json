@@ -57,7 +57,19 @@
     "credit": "StrangerNbystander / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Mantayupan_Falls_of_Barili,_Cebu.jpg"
   },
-  "gallery": { "type": "carousel", "label": "照片", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "照片",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/176-mantayupan-falls-2.webp",
+        "alt": "曼塔尤潘瀑布",
+        "credit": "Seallynnjay / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mantayupan_Ambakan.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -133,11 +145,11 @@
               "number": 2,
               "title": "在下方瀑布乘竹筏",
               "children": [
-                { "text": "在落差约" },
-                { "type": "distance", "text": "14m" },
-                { "text": "的下方瀑布前的水潭，可以租借竹筏（约" },
-                { "type": "price", "text": "₱100" },
-                { "text": "）划到瀑布正下方。迎着水花拍照，是这里的代表性体验。" }
+                { "text": "在高约" },
+                { "type": "distance", "text": "14米" },
+                { "text": "的下瀑布前的水潭，可以租竹筏（约" },
+                { "type": "price", "text": "₱100~300" },
+                { "text": "）靠近瀑布正下方。迎着水流拍照是这里的代表性体验。" }
               ]
             },
             {
@@ -393,6 +405,17 @@
             { "type": "temperature", "text": "27~32℃" },
             { "text": "，但峡谷内树荫多，较为凉爽。" }
           ]
+        },
+        {
+          "type": "table",
+          "label": "各时期一览",
+          "icon": "calendar_month",
+          "columns": ["时期", "天气", "旅行要点"],
+          "rows": [
+            ["12月~2月", "旱季，水清、路不湿滑", "水潭青绿——竹筏和游泳都放心"],
+            ["3月~5月", "旱季，水量减少", "主瀑布水流可能变细"],
+            ["6月~11月", "雨季，水量大幅增加", "瀑布最为壮观——大雨过后可能禁止戏水"]
+          ]
         }
       ]
     },
@@ -407,11 +430,11 @@
           "currency": "PHP",
           "columns": ["项目", "预估费用", "备注"],
           "items": [
-            { "label": "门票", "price": "约₱40~50", "note": "每位成人，儿童·老人优惠" },
+            { "label": "门票", "price": "约₱40~50", "note": "成人每人，6~10岁、老人、残障人士₱30，5岁以下免费" },
             { "label": "停车费·环境费", "price": "约₱10~20", "note": "按车辆·每人，另行收取" },
             { "label": "宿务市–巴里利巴士", "price": "约₱100~150", "note": "单程，2~2小时30分钟" },
             { "label": "巴里利市区–瀑布habal-habal", "price": "约₱50~100", "note": "单程" },
-            { "label": "竹筏", "price": "约₱100", "note": "每次" },
+            { "label": "竹筏", "price": "约₱100~300", "note": "每次，视时间和人数而定" },
             { "label": "救生衣租赁", "price": "约₱50", "note": "每件" },
             { "label": "桌椅·小屋租赁", "price": "约₱200~250", "note": "每日" },
             { "label": "包车", "price": "约₱3,500~5,000", "note": "每辆，宿务市出发一日" },

@@ -266,7 +266,11 @@
                       "time": "11:00",
                       "children": [
                         {
-                          "text": "Tricycle to Kawayan port and charter a boat, or take the ferry from Naval to Maripipi"
+                          "text": "Tricycle to Kawayan port, then charter a boat (if going via Maripipi, you must catch the "
+                        },
+                        { "type": "time", "text": "10 AM" },
+                        {
+                          "text": " ferry from Naval, so it's better to stay in Naval the night before)"
                         }
                       ]
                     },
@@ -390,20 +394,34 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "There are also boats direct from Cebu to Naval. Fast craft take about "
+                      "text": "There are also boats going straight from Cebu to Naval. The fast boat takes about "
                     },
                     { "type": "duration", "text": "3 hours 30 minutes–4 hours" },
-                    { "text": ", for around " },
-                    { "type": "price", "text": "₱1,400–1,600" },
-                    { "text": ", while regular ferries departing at night take about " },
+                    { "text": " and costs about " },
+                    { "type": "price", "text": "₱1,450–1,950" },
+                    { "text": ", while regular passenger ferries that leave at night take about " },
                     { "type": "duration", "text": "7–8 hours" },
-                    { "text": ", for around " },
+                    { "text": " and cost about " },
                     { "type": "price", "text": "₱600–1,300" },
                     {
-                      "text": ". Ferries run only a few times a week and fast-craft schedules also change often, so check the shipping line's latest notices before you go. Another option is crossing from Cebu to Ormoc and then taking a van to Naval, about "
+                      "text": ". The ferries run only a few times a week and the fast boat's operation also changes often, so check the shipping company's notice before departure. You can also cross from Cebu to Ormoc and take a van to Naval, about "
                     },
-                    { "type": "duration", "text": "2 hours–2 hours 30 minutes" },
+                    { "type": "duration", "text": "2–2.5 hours" },
                     { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "The Cebu–Naval fast boat is operated by SeaCat, leaving Cebu at " },
+                    { "type": "time", "text": "7:30 AM" },
+                    { "text": " and reaching Naval around " },
+                    { "type": "time", "text": "11:10 AM" },
+                    { "text": ", and returning from Naval to Cebu at " },
+                    { "type": "time", "text": "4 PM" },
+                    {
+                      "text": ". Operating days are described differently in different sources, so check before you buy a ticket."
+                    }
                   ]
                 }
               ]
@@ -416,15 +434,17 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "The fastest way is to take a tricycle or habal-habal from Naval to Kawayan port on the northwest side of Biliran Island, about "
+                      "text": "The fastest way is to go from Naval by tricycle or habal-habal about "
                     },
                     { "type": "duration", "text": "30–40 minutes" },
-                    { "text": ", then charter a boat for the crossing, about " },
-                    { "type": "duration", "text": "30–45 minutes" },
-                    { "text": ". A round-trip boat costs about " },
+                    {
+                      "text": " to Kawayan port on the northwest of Biliran Island, then charter a boat to cross in about "
+                    },
+                    { "type": "duration", "text": "1–1.5 hours" },
+                    { "text": ". The boat costs about " },
                     { "type": "price", "text": "₱3,000–5,000" },
                     {
-                      "text": " per boat, which is much lighter split among 6–10 people. If staying overnight, be sure to set an exact pickup time for the next day."
+                      "text": " round trip per boat, so splitting it among 6–10 people reduces the burden. If you stay overnight, be sure to agree on the exact pickup time the next day."
                     }
                   ]
                 }
@@ -440,10 +460,13 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "Ferry from Naval port to Maripipi: 1–2 sailings a day, about " },
-                        { "type": "duration", "text": "1 hour–1 hour 30 minutes" },
-                        { "text": ", around " },
-                        { "type": "price", "text": "₱60–100" }
+                        { "text": "Ferry from Naval port to Maripipi: usually one a day (departs " },
+                        { "type": "time", "text": "10 AM" },
+                        { "text": ", check whether it runs on Sundays), about " },
+                        { "type": "duration", "text": "1 hour 30 minutes–2 hours" },
+                        { "text": ", about " },
+                        { "type": "price", "text": "₱100–110" },
+                        { "text": " including terminal fee" }
                       ]
                     },
                     {
@@ -456,11 +479,20 @@
                     },
                     {
                       "children": [
-                        { "text": "Chartered boat from Olog to Sambawan: about " },
+                        { "text": "Chartered boat from Olog to Sambawan about " },
                         { "type": "duration", "text": "15–20 minutes" },
-                        { "text": ", around " },
-                        { "type": "price", "text": "₱600–1,000" },
+                        { "text": ", about " },
+                        { "type": "price", "text": "₱500–700" },
                         { "text": " per boat" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "The ferry from Maripipi back to Naval leaves around " },
+                        { "type": "time", "text": "4–4:30 AM" },
+                        {
+                          "text": ", so if you return this way, you must stay a night in Maripipi and take the dawn boat."
+                        }
                       ]
                     },
                     {
@@ -506,6 +538,29 @@
               "text": ", typhoons and the northeast monsoon (Amihan) often raise waves in the Samar Sea high enough to keep boats docked. This area sits along a frequent typhoon path, so during the rainy season and winter months, it's important to check the weather forecast and coast guard departure restrictions before setting out, and to build buffer days into your schedule. Local campers crowd the island during Holy Week and summer-break weekends, so a weekday visit is recommended."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "October–February",
+              "Typhoons and the northeast monsoon Amihan",
+              "High waves keep boats from sailing on many days — check departure restrictions"
+            ],
+            [
+              "March–June",
+              "Calm sea, good sunshine",
+              "Best snorkeling visibility and views — midday 30–33℃"
+            ],
+            [
+              "July–September",
+              "Southwest monsoon, frequent showers",
+              "Keep spare days and check forecasts"
+            ]
+          ]
         }
       ]
     },
@@ -527,7 +582,7 @@
             },
             {
               "label": "Cebu–Naval fast craft",
-              "price": "About ₱1,400–1,600",
+              "price": "About ₱1,450–1,950",
               "note": "One-way, confirm schedule"
             },
             {

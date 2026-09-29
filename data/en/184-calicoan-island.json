@@ -75,7 +75,19 @@
     "credit": "Nairb.Idi9 / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:View_of_Calicoan_Island_and_the_Philippine_Sea_from_the_DOST-PAGASA_Guiuan_Weather_Station_in_2022.jpg"
   },
-  "gallery": { "type": "carousel", "label": "Photos", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "Photos",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/184-calicoan-island-2.webp",
+        "alt": "Calicoan Island",
+        "credit": "Adrianvill / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Calicoan_Island_(aerial_view).jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -200,8 +212,10 @@
               "title": "Guiuan Church",
               "children": [
                 {
-                  "text": "Built by Jesuits in the 18th century, this is one of the Philippines' most notable old churches, known for its shell decorations. It was heavily damaged by Typhoon Haiyan and has undergone ongoing restoration, and sits easy to visit beside the downtown plaza."
-                }
+                  "text": "One of the Philippines' notable old churches, built by the Jesuits in the 18th century and known for its shell decoration. Its roof and facade were heavily damaged by Typhoon Haiyan, and after restoration by the National Museum it was rededicated in "
+                },
+                { "type": "date", "text": "December 2019" },
+                { "text": "; it stands next to the town plaza, so it's easy to stop by." }
               ]
             },
             {
@@ -509,6 +523,29 @@
               "text": " falls frequently in typhoon season, so check forecasts often and build slack into your schedule if traveling then. Wave conditions vary day to day, so checking with a local surf camp beforehand is the most reliable approach."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "October–February",
+              "Pacific swells and northeast monsoon",
+              "Best for surfing — check typhoon forecasts in October–December"
+            ],
+            [
+              "March–June",
+              "Little rain and calm seas",
+              "Best for beaches and snorkeling — surfing mainly beginner lessons"
+            ],
+            [
+              "July–September",
+              "Rainy season, often in typhoon paths",
+              "Check forecasts often, leave slack in your schedule"
+            ]
+          ]
         }
       ]
     },
@@ -562,6 +599,11 @@
               "label": "Meals",
               "price": "About ₱150–500 per meal",
               "note": "Local eateries to resort restaurants"
+            },
+            {
+              "label": "Linao Cave",
+              "price": "About ₱25 per person",
+              "note": "Guide about ₱300 per group, life jacket about ₱50"
             }
           ]
         },
@@ -659,7 +701,22 @@
             {
               "children": [
                 {
-                  "text": "If you're interested in history, look into the Leyte landing commemoration held around October 17 on Suluan Island."
+                  "text": "If you're interested in history, check the schedule for the Suluan landing commemoration held in Guiuan around "
+                },
+                { "type": "date", "text": "October 17" },
+                {
+                  "text": ". It honors the raid on Suluan Island, the first step of the Leyte landing operation, and a ceremony is often held at the former US Navy base site in Barangay Ngolos on Calicoan Island."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "A national surfing competition is held on Calicoan every year around autumn. From "
+                },
+                { "type": "date", "text": "October 14–19, 2025" },
+                {
+                  "text": ", the United Philippine Surfing Association (UPSA)-sanctioned \"Calicoan Odyssey Wave\" was held at ABCD Beach, with 152 surfers from 12 provinces across the country taking part. Lodging fills up fast during the competition, so book early if your dates overlap, and check that year's dates on the Guiuan tourism office notice."
                 }
               ]
             }
@@ -722,6 +779,17 @@
               "children": [
                 {
                   "text": "The nearest major hospital is in Tacloban, so bring basic first-aid supplies and travel insurance in case of a surfing injury."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Felipe Abrigo Memorial Hospital in Guiuan, destroyed by Typhoon Haiyan, has been rebuilt with support from the Korea International Cooperation Agency (KOICA) and is due to fully reopen on "
+                },
+                { "type": "date", "text": "October 8, 2026" },
+                {
+                  "text": ". As a 25-bed primary hospital it can provide emergency first aid, but serious injuries may need to be moved to Tacloban."
                 }
               ]
             }

@@ -34,8 +34,8 @@
     "items": ["Sardine run", "Sea turtles", "Snorkeling", "Diving", "Pescador Island"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.7, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.95 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.4 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.9495 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.3658 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -342,6 +342,65 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Rough-wave day",
+              "subtitle": "When bangka tours have stopped",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "4:00 AM",
+                      "children": [
+                        { "text": "Charter a car and set out for Mantalongon in Dalaguete (about " },
+                        { "type": "duration", "text": "1 hour 30 minutes–2 hours" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "5:30 AM",
+                      "children": [
+                        { "text": "Sunrise trek to Osmeña Peak (about " },
+                        { "type": "duration", "text": "20–30 minutes" },
+                        { "text": " from the jump-off)" }
+                      ]
+                    },
+                    {
+                      "time": "9:00 AM",
+                      "children": [
+                        {
+                          "text": "Head down to Badian and swim at Kawasan Falls (skip it if heavy rain has made the water muddy)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "1:00 PM",
+                      "children": [
+                        {
+                          "text": "Lunch of lechon near the public market in Moalboal town, then rest at your accommodation"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Evening",
+                      "children": [
+                        {
+                          "text": "When the waves calm down, snorkel briefly in the shallows off the beach, or otherwise watch the sunset from a beach bar"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "On days when the southwest monsoon is strong, the Coast Guard stops bangkas from leaving, and after heavy rain Kawasan canyoneering may also be suspended. Leave one day of your itinerary free for tours, and check with your accommodation or dive shop the previous evening whether boats are running."
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -402,6 +461,16 @@
                     },
                     { "type": "duration", "text": "40 minutes–1 hour" },
                     { "text": " by taxi or Grab." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "The Cebu BRT, in partial service since " },
+                    { "text": "March 2026", "type": "date" },
+                    {
+                      "text": ", stops at the South Bus Terminal, so if you're staying around IT Park, Ayala, the Capitol, or Fuente Osmeña, you can also take the BRT to the terminal. For the first bus at dawn, a taxi or Grab is the safer choice; check the latest announcements for BRT operating hours and fares."
+                    }
                   ]
                 }
               ]
@@ -465,6 +534,29 @@
             {
               "text": "), bangka tours and canyoneering can be suspended. Still, walk-in snorkeling from the shore is possible year-round as long as sea conditions are fine."
             }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel tips"],
+          "rows": [
+            [
+              "December–February",
+              "Dry season, water temperature 26–27°C",
+              "A 3mm wetsuit or rash guard is comfortable"
+            ],
+            [
+              "March–May",
+              "Dry season, water temperature 29–30°C",
+              "You won't get cold even after a long time in the water"
+            ],
+            [
+              "June–November",
+              "Rainy season, southwest monsoon",
+              "Poor visibility on the west coast — tours may stop August–November"
+            ]
           ]
         }
       ]

@@ -35,8 +35,8 @@
     ]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.2, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 10.5985 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 122.1325 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 10.5967 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 122.139 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -81,7 +81,26 @@
     "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_town_center.jpg"
   },
-  "gallery": { "type": "carousel", "label": "Hình ảnh", "items": [] },
+  "gallery": {
+    "type": "carousel",
+    "label": "Hình ảnh",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/165-garin-farm-2.webp",
+        "alt": "Nhà thờ San Joaquin gần Garin Farm",
+        "credit": "Philip Nalangan / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Church_Iloilo_2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/165-garin-farm-3.webp",
+        "alt": "Campo Santo San Joaquin gần Garin Farm",
+        "credit": "Ryomaandres / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Camposanto.png"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -400,10 +419,12 @@
                     {
                       "children": [
                         {
-                          "text": "Xuống xe tại trung tâm San Joaquin hoặc ngã rẽ vào Trang trại Garin, rồi đi tricycle khoảng "
+                          "text": "Bạn xuống ở trung tâm San Joaquin hoặc ngã rẽ vào cổng Garin Farm, rồi đi tricycle vào khoảng "
                         },
                         { "type": "duration", "text": "10–15 phút" },
-                        { "text": " vào trong. Giá vé khoảng " },
+                        { "text": ". Giá đi ghép khoảng " },
+                        { "type": "price", "text": "₱15–25" },
+                        { "text": ", còn thuê riêng khoảng " },
                         { "type": "price", "text": "₱50–100" },
                         { "text": "." }
                       ]
@@ -474,6 +495,29 @@
               "text": "Vào Tuần Thánh (tuần trước lễ Phục Sinh), nơi đây đông đúc nhất vì người hành hương đổ về đi Đàng Thánh Giá, còn vào Giáng sinh, kỳ nghỉ cuối năm và cuối tuần cũng có nhiều gia đình đến thăm. Nếu muốn tham quan yên tĩnh, sáng sớm ngày thường là thời điểm tốt nhất. San Joaquin còn nổi tiếng với môn đấu bò truyền thống \"paasungay\" vào dịp lễ hội làng, nên hãy kiểm tra lịch lễ hội qua thông báo địa phương."
             }
           ]
+        },
+        {
+          "type": "table",
+          "label": "Tóm tắt theo thời điểm",
+          "icon": "calendar_month",
+          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "rows": [
+            [
+              "Tháng 12 – tháng 2",
+              "Mùa khô, trời quang",
+              "Trời và biển xanh rõ nét — đông đúc dịp nghỉ lễ cuối năm"
+            ],
+            [
+              "Tháng 3 – tháng 5",
+              "Mùa khô, giữa trưa 33–35℃",
+              "Nên leo trước 10 giờ sáng hoặc sau 3 giờ chiều — đông nhất vào Tuần Thánh"
+            ],
+            [
+              "Tháng 6 – tháng 11",
+              "Mùa mưa, thường có mưa rào buổi chiều",
+              "Cầu thang trơn — tạm ngừng hoạt động các cơ sở khi có bão"
+            ]
+          ]
         }
       ]
     },
@@ -495,18 +539,18 @@
             },
             {
               "label": "Tricycle",
-              "price": "Một chiều khoảng ₱50–100",
-              "note": "Trung tâm San Joaquin–Trang trại Garin"
+              "price": "Khoảng ₱15–25 một chiều",
+              "note": "Tính theo đi ghép, thuê riêng khoảng ₱50–100"
             },
             {
               "label": "Vé vào Trang trại Garin",
-              "price": "Khoảng ₱300–500",
-              "note": "Có gói gồm bữa ăn, cần kiểm tra giá mới nhất"
+              "price": "Khoảng ₱150",
+              "note": "Người cao tuổi giảm 20%, các trò trải nghiệm tính riêng, hãy kiểm tra giá mới nhất"
             },
             {
               "label": "Hồ bơi · khu vui chơi",
-              "price": "Khoảng ₱100–300",
-              "note": "Phụ phí theo từng khu vực"
+              "price": "Khoảng ₱80–350",
+              "note": "Tính theo từng cơ sở như hồ bơi ₱80, zipline ₱250–350"
             },
             {
               "label": "Bữa trưa",
@@ -520,8 +564,8 @@
             },
             {
               "label": "Nghỉ tại resort",
-              "price": "Khoảng ₱2,000–5,000/đêm",
-              "note": "Tùy loại phòng"
+              "price": "Khoảng ₱1,500–3,500 một đêm",
+              "note": "Đã gồm bữa sáng và hồ bơi, tùy loại phòng"
             }
           ]
         },
@@ -545,11 +589,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Phần lớn du khách ở lại thành phố Iloilo và đi trong ngày. Nếu muốn một đêm yên tĩnh ở miền quê, bạn có thể ở phòng resort trong Trang trại Garin (khoảng "
+              "text": "Phần lớn du khách ở Iloilo City rồi đi về trong ngày. Nếu muốn một đêm yên tĩnh ở vùng quê, bạn có thể nghỉ tại phòng resort trong Garin Farm (khoảng "
             },
-            { "type": "price", "text": "₱2,000–5,000" },
+            { "type": "price", "text": "₱1,500–3,500" },
             {
-              "text": "/đêm) hoặc các resort bãi biển giản dị ở bờ biển San Joaquin. Với những ai muốn leo đồi hành hương từ sáng sớm, ở lại nông trại sẽ tiện hơn, và vào Tuần Thánh cùng kỳ nghỉ lễ cần đặt phòng sớm."
+              "text": " một đêm) hoặc một resort biển giản dị ở bờ biển San Joaquin. Với những ai muốn leo đồi hành hương vào sáng sớm thì ở trong nông trại rất tiện, và vào Tuần Thánh hay các kỳ nghỉ lễ nên đặt chỗ sớm."
             }
           ]
         },
@@ -630,6 +674,15 @@
                 {
                   "text": "Vào Tuần Thánh có phong tục \"Visita Iglesia\" — lần lượt ghé thăm và cầu nguyện tại nhiều nhà thờ. Nếu đến vào thời gian này, cùng đi bộ hành hương qua Nhà thờ Miagao, San Joaquin và Trang trại Garin với người dân địa phương cũng là một trải nghiệm đặc biệt."
                 }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Từ đây đến khu có Thập giá Divine Mercy là 456 bậc thang, và lên tận đỉnh là khoảng 480 bậc. Nếu bậc thang là gánh nặng, bạn có thể đi xe golf (khoảng "
+                },
+                { "type": "price", "text": "₱60–90" },
+                { "text": ") đến gần pavilion hoặc thập giá." }
               ]
             }
           ]
