@@ -53,17 +53,13 @@
     - 저장소 빌드 스크립트가 만든 8개 언어 출력. 번역본은 자리 표시 글자였다.
   - 8개 언어 번역이 모두 들어오면 `travel-db.mjs build --base _site/v2` 로 DB 크기를 재서 database.md §2 표를 채우고, 세 조회 구현의 결과를 다시 비교한다(ko·en·zh 는 실제 번역으로 끝냈다).
   - 데이터 쪽 후속 결정(스킬 밖): 영어 번역 속 한국 독자 기준 문장(21곳)을 현지화할지, 예산 기준(1일·투어 1회)을 `budget.basis` 같은 언어 공통 key 로 둘지. 지금은 기준이 글 괄호에만 있어 `--sort budget` 이 기준이 다른 곳을 섞는다.
-  - 필고 Flutter 앱(`apps/travel`)을 v2 로 바꾼다.
-    - `travel-db.mjs build --langs <앱 언어들>` 로 만든 `travel.db` 를 애셋에 넣는다.
-    - `assets/travel_db.dart` 로 읽고 `assets/travel_blocks.dart` 로 그린다. 두 파일은 필고 공용 라이브러리로 옮겨 쓴다([embedding.md](embedding.md) §4).
   - 필고 웹사이트에 여행 정보를 넣는다 — `travel.db` + `export` 폴더 + `TravelDb.php`([embedding.md](embedding.md) §3).
-  - 바꾼 뒤 필고의 `apps/travel/data/travel/`(옛 마크다운 사본)을 지운다.
-  - 오프라인 첫 실행용으로 `places.json` 스냅샷 하나만 번들에 남길지 정한다.
-  - 필고의 `apps/travel/test/widget_test.dart` 는 그 사본을 검사하고 있으므로 함께 정리한다.
-  - 필고 앱의 현재 코드:
-    - 모델: `apps/lib/src/travel/travel_place.model.dart` 의 `TravelPlace.fromMarkdown()`
-    - 상태: `apps/lib/src/travel/travel.state.dart`
-    - 진입점: `apps/travel/lib/main.dart` 의 `TravelState(assetDir: 'data/travel')` — 번들 md 를 읽는다
+- **필고 Flutter 앱(`apps/travel`) — 끝냄(2026-09-30):**
+  - v2 로 바꿨다. `travel_db.dart`·`travel_blocks.dart` 를 옮긴 코드는 필고 공용 라이브러리 `apps/lib/src/travel/` 에 있고, 옛 마크다운 사본·`fromMarkdown` 은 없다.
+  - 오프라인 첫 실행 — 스냅샷 하나를 번들에 넣기로 정했다. 형식은 `places.json` 이 아니라 SQLite 다.
+    - 앱의 `tool/build_travel_db.dart` 가 앱 언어(en·zh·ja·ko)로 전문 검색 색인까지 넣은 DB 를 만든다. `assets/travel.db.gz`(약 24MB) + 버전 파일 `assets/travel.db.json` 이다.
+    - 기기 DB 가 없을 때, 또는 번들이 내용이 다르고(`version`) 더 새것일 때(`generated_at`)만 번들을 푼다. 서버에서 받아 둔 더 새 데이터를 앱 업데이트가 되돌리지 않게 한다.
+    - 켤 때 한 번 `manifest.json` 으로 확인해 version 이 다르면 뒤에서 조용히 받는다(§6.2 그대로).
 
 ## 2. 왜 GitHub Pages 인가
 
