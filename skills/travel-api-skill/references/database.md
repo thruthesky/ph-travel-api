@@ -29,7 +29,7 @@
 
 ## 2. 만들기 — `scripts/travel-db.mjs`
 
-외부 패키지 없음, Node 22.13+ (내장 `node:sqlite`).
+외부 패키지 없음, 내장 `node:sqlite` 를 쓴다. FTS5 가 들어 있는 Node 24 로 돌린다(22.14 의 `node:sqlite` 에는 FTS5 가 없다).
 
 ```bash
 node scripts/travel-db.mjs build --out travel.db                          # 모든 언어 + 전문 검색
@@ -42,21 +42,21 @@ node scripts/travel-db.mjs export --out ./public/travel [--no-json]       # 사�
 
 - 모르는 옵션(예: `--langs` 대신 `--lang`)을 주면 멈춘다. 엉뚱한 DB 를 만들지 않게 하려는 것이다.
 
-- 출력: `travel.db — ph version … · 100곳 · 언어 en,zh,ko · FTS5 trigram · 20.6MB · 364ms`.
+- 출력: `travel.db — ph version … · 198곳 · 언어 en,ko · FTS5 trigram · 31.0MB · 804ms`.
 - 함께 `travel.db.version` 파일을 쓴다(API version 한 줄). 앱은 이 글자가 바뀌었을 때만 DB 를 다시 복사한다.
 - `meta.base` 에는 공개 API 주소가 들어간다. 로컬 폴더로 만들어도 개발 컴퓨터 경로가 운영 DB 에 남지 않는다. 실제로 읽은 곳은 `meta.source` 다.
 - JSON 은 캐시(`~/.cache/travel-api-skill/<나라>/`)를 거친다. manifest version 이 같으면 다시 받지 않는다.
-- 크기(2026-09-28, ko·en·zh 는 실제 번역으로 잰 값):
+- 크기(2026-09-30, 198곳 · 8개 언어 실제 번역, Node 24 로 잰 값):
 
   | 언어 | 전문 검색 | 크기 |
   |------|-----------|------|
-  | en 하나 | 포함 | 7.2MB |
-  | ko + en(대체) | 포함 | 14.2MB |
-  | ko + en + zh | 포함 | 20.6MB (gzip 8.2MB) |
-  | ko + en + zh | 없음 | 12.4MB |
-  | 8개 모두 | 포함 | 번역이 모두 들어오면 다시 잰다 — 자리 표시가 섞인 값은 42.8MB |
+  | en 하나 | 포함 | 15.8MB |
+  | ko + en(대체) | 포함 | 31.0MB (gzip 13MB) |
+  | 8개 모두 | 포함 | 150.1MB |
+  | 8개 모두 | 없음 | 99.7MB |
 
-  - 언어 하나가 약 6~7MB 다(글이 긴 영어가 가장 크다). 실제 크기는 `build` 출력으로 확인한다.
+  - 언어 하나가 약 15~20MB 다(8개 평균 약 19MB). 실제 크기는 `build` 출력으로 확인한다.
+  - 100곳이던 2026-09-28 에는 en 7.2MB · ko+en 14.2MB · ko+en+zh 20.6MB 였다.
   - 앱에는 필요한 언어만 넣는다.
 - 임시 파일에 만든 뒤 이름을 바꿔 교체한다. 그래서 만드는 도중에 읽는 쪽이 반쯤 만든 DB 를 보지 않는다.
 

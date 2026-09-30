@@ -40,7 +40,7 @@
 | PHP 웹사이트 | `travel.db`(사이트 언어, 전문 검색) + `export --no-json` 폴더(travel.css·renderer.js·사진) | `assets/TravelDb.php` (PDO) | §3 |
 | Flutter 앱 | `travel.db`(앱 언어만) + `travel.db.version` | `assets/travel_db.dart` (sqlite3) | §4 |
 | 정적 웹·SPA | `export` 폴더(meta·places.<lang>.json·사진·renderer.js) | 브라우저 메모리 (200곳) | §5 |
-| AI·스크립트 | 캐시 DB | `scripts/travel.mjs` | SKILL.md §3 |
+| AI·스크립트 | 캐시 DB | `scripts/travel.mjs` | SKILL.md §4 |
 
 ## 3. PHP 웹사이트 (필고 등)
 
@@ -64,7 +64,7 @@ cp $S/assets/travel-page.php build/html/travel.php                              
 ```
 
 - `--no-json` — PHP 페이지는 DB 를 읽으므로 places·meta JSON 을 공개 폴더에 올리지 않는다.
-- 사이트가 지원하는 언어만 넣는다. 실제 번역 기준 ko+en 약 14MB, ko+en+zh 약 21MB 다(FTS 없이는 약 60%). 언어 하나가 약 6~7MB 이고, 글이 긴 언어(영어)는 더 크다. 정확한 크기는 `build` 출력으로 본다.
+- 사이트가 지원하는 언어만 넣는다. 198곳 기준 ko+en 약 31MB, 8개 언어 약 150MB 다(FTS 없이는 약 3분의 2). 언어 하나가 약 15~20MB 다. 정확한 크기는 `build` 출력으로 본다.
 
 ### 3.2 서버에 올리기
 
@@ -193,7 +193,7 @@ $text = $travel->text('boracay', $lang);                                     // 
 | 앱 크기가 중요 | `--no-fts` 로 색인을 뺀다(검색은 글에서 직접, 200곳이라 충분). 언어는 꼭 필요한 것만 |
 | 목록·상세만 있는 단순한 앱 | `export --out assets/travel --langs ko --no-images` 의 `places.ko.json`·`meta.json` 을 메모리로 |
 
-- 언어 하나가 DB 에서 대략 6~7MB 다(FTS 포함, 실제 번역 기준). 실제 크기는 `build` 출력으로 확인한다.
+- 언어 하나가 DB 에서 대략 15~20MB 다(FTS 포함, 198곳 기준). 실제 크기는 `build` 출력으로 확인한다.
 - 대체 언어(en)는 늘 함께 들어간다.
 
 ### 4.2 DB 넣어 쓰기 — `assets/travel_db.dart`
@@ -251,7 +251,7 @@ list.innerHTML = beaches.map((p) => renderPlaceCard(p, { base: '/travel/', place
 ```
 
 - 사이트와 같은 출처라 CORS 가 없다. `?v=<version>` 을 붙이면 데이터가 바뀔 때 브라우저 캐시를 건너뛴다.
-- 필요한 언어 파일 하나만 받는다. 약 2MB, gzip 전송이면 약 0.5MB 다.
+- 필요한 언어 파일 하나만 받는다. 언어에 따라 3.5~7MB, gzip 전송이면 약 1MB 다.
 - 거르기는 노드의 공통 key 로 한다(`category.value`·`island_group.value`·`region.value`·`difficulty.value`·`best_season.months`). 검색은 `children` 글을 이어 붙여 찾는다.
 - 브라우저 SQLite(sql.js 등)는 외부 패키지이고 1MB 가 넘는다. 200곳에는 과하다.
 

@@ -139,7 +139,7 @@ GitHub Pages 는 모든 응답에 `Cache-Control: max-age=600` 과 `Access-Contr
 | `languages` | 지원 언어 — `code`(파일 이름의 언어 코드)·`locale`(BCP 47, 날짜·숫자 형식용)·`name`(영어 이름)·`native`(그 언어로 쓴 이름, 언어 고르기 화면용)·`dir`(`ltr`·`rtl`) |
 | `categories` | 분류 7개 — `key`·`icon`·언어별 `name`. key: `beach` `diving` `mountain` `water` `heritage` `city` `nature` |
 | `island_groups` | 권역 3개 — `luzon` `visayas` `mindanao` |
-| `regions` | 지역 32개 — `key`·소속 `island_group`·언어별 `name` |
+| `regions` | 지역 35개 — `key`·소속 `island_group`·언어별 `name` |
 | `difficulties` | 난이도 3단계 — `value` 1~3 · `key` `easy` `moderate` `hard` |
 | `fields` | 여행지 속성마다 `type`·언어별 이름표 `label`·`icon`·`values`(정해진 목록 이름)·`role` |
 | `sections` | 본문 단락 10개의 `key`·`icon`·언어별 제목 — 순서가 곧 화면 순서다 |

@@ -79,7 +79,7 @@ API 가 내보내는 파일과 그 모양이다. **웹·앱은 이 파일을 개
 | `languages` | 언어 선택 메뉴 — `native`(그 언어로 쓴 이름), `locale`, `dir`(ltr·rtl) |
 | `categories` | 분류 7개 — key: `beach` `diving` `mountain` `water` `heritage` `city` `nature`, `icon`, 언어별 `name` |
 | `island_groups` | 권역 3개 — `luzon` `visayas` `mindanao` |
-| `regions` | 지역 32개 — `metro-manila` `cebu` `palawan` … , 속한 `island_group` |
+| `regions` | 지역 35개 — `metro-manila` `cebu` `palawan` … , 속한 `island_group` |
 | `difficulties` | 난이도 3개 — `value` 1·2·3, key `easy` `moderate` `hard` |
 | `fields` | 여행지 속성마다의 type·언어별 label·icon·값 목록(`values`)·역할 |
 | `sections` | 본문 단락 10개 — key·icon·언어별 제목, 순서 고정 |

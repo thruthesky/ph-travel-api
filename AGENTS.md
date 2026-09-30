@@ -14,6 +14,7 @@
 | 화면 그리기 — 표시 방법(type)·권장 위젯·웹/Flutter 참고 렌더러 | [references/rendering.md](skills/travel-api-skill/references/rendering.md) |
 | 웹·앱에 넣어 쓰기 — PHP·Flutter·정적 웹 | [references/embedding.md](skills/travel-api-skill/references/embedding.md) |
 | SQLite 스키마·쿼리·언어별 검색 | [references/database.md](skills/travel-api-skill/references/database.md) |
+| 다른 정보(밤문화·맛집·병원·비자 …)를 이 저장소와 같은 형태로 만들기 — 설계·파일별 고칠 곳·순서·가공·검증 | [references/blueprint.md](skills/travel-api-skill/references/blueprint.md) |
 | 현재 상태·남은 일·결정 기록 | [references/history.md](skills/travel-api-skill/references/history.md) |
 | 여행지 JSON 작성 규격 | [data/README.md](data/README.md) |
 | 다국어 — 번역본 만들기·맞추기 (`scripts/i18n.mjs`), 번역 지침·어휘집 | [data/README.md](data/README.md) §7 · [i18n/GUIDE.md](i18n/GUIDE.md) · `i18n/glossary/<언어>.json` |

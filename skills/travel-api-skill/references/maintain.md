@@ -228,7 +228,7 @@ ph-travel-api/
 
 ## 9. 새 나라 API 추가
 
-같은 구조의 저장소를 하나 더 만든다(예: `thruthesky/jp-travel-api`).
+같은 구조의 저장소를 하나 더 만든다(예: `thruthesky/jp-travel-api`). 여행이 아닌 다른 분야(밤문화·맛집 …)를 같은 형태로 만드는 것은 [blueprint.md](blueprint.md) 를 따른다.
 
 1. 이 저장소의 `scripts/`·`data/meta.json`·`i18n/`·`.github/workflows/deploy.yml`·`.gitignore` 를 복사한다.
 2. 나라별 값을 고친다.

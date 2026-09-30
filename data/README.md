@@ -31,7 +31,7 @@
 | `title_en` | `subtitle` | `lang: "en"`, `text` | 영문 이름 |
 | `tagline` | `typography` | `variant: "tagline"`, `text` | 20~32자 감성 카피, 마침표 없음 |
 | `island_group` | `badge` | `label: "권역"`, `value`, `text` | `value` 는 `meta.island_groups` 의 key(`luzon`·`visayas`·`mindanao`), `text` 는 그 이름(루손·비사야·민다나오). 팔라완·민도로·롬블론은 루손 |
-| `region` | `badge` | `label: "지역"`, `value`, `text` | `value` 는 `meta.regions` 의 key(`metro-manila`·`ilocos`·`palawan`·`cebu`·`bohol` … 32개), `text` 는 그 이름. 그 지역의 `island_group` 과 권역이 맞아야 한다 |
+| `region` | `badge` | `label: "지역"`, `value`, `text` | `value` 는 `meta.regions` 의 key(`metro-manila`·`ilocos`·`palawan`·`cebu`·`bohol` … 35개), `text` 는 그 이름. 그 지역의 `island_group` 과 권역이 맞아야 한다 |
 | `location` | `address` | `label: "위치"`, `icon: "location_on"`, `text` | 주(州)·도시 수준 위치 |
 | `category` | `badge` | `label: "분류"`, `icon`, `value`, `text` | 아래 분류 7개 중 하나 — `value` 는 key, `icon`·`text` 는 그 분류의 것 |
 | `tags` | `tags` | `label: "태그"`, `items` | 짧은 명사 3~6개 |

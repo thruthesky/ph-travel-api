@@ -1,8 +1,8 @@
 ---
 name: travel-api-skill
-description: 여행 정보 API(ph-travel-api — 필리핀 여행지 198곳, 8개 언어 en·zh·ja·ko·th·vi·ru·ar, 앞으로 다른 나라도 추가) 전용 스킬. JSON 을 받아 SQLite(travel.db)로 바꿔 언어별 전문 검색·인덱스로 여행지를 찾아 추천·일정·비용·가는 방법·가까운 곳을 답하고, 웹사이트(PHP)·Flutter 앱·정적 웹이 원격 API 대신 데이터를 넣어(임베딩) 쓰도록 DB·파일 만들기, 조회 코드(PHP·Dart), 블록 렌더러(tabs·accordion·card·stepper·pricing 등)를 제공하며, ph-travel-api 저장소의 여행지 추가·번역·검사·배포를 돕는다. 다음 경우 반드시 사용 — (1) 필리핀 여행지·여행 정보 질문(보라카이, 세부, 엘니도, 보홀, 12월에 갈 만한 해변, 예산, 일정, 가는 방법 등, 어느 언어든), (2) ph-travel-api·여행 API·places.json·meta.json·travel.db·SQLite 여행 DB 를 쓰는 웹/앱 개발, 필고 웹사이트·앱에 여행 정보 넣기, 화면 디자인, (3) 여행지 데이터 추가·수정·번역·검사·배포, (4) 사용자가 /travel-api-skill 을 부를 때 — 인자가 update 면 스킬을 최신으로 갱신한다.
+description: 여행 정보 API(ph-travel-api — 필리핀 여행지 198곳, 8개 언어 en·zh·ja·ko·th·vi·ru·ar, 앞으로 다른 나라도 추가) 전용 스킬. JSON 을 받아 SQLite(travel.db)로 바꿔 언어별 전문 검색·인덱스로 여행지를 찾아 추천·일정·비용·가는 방법·가까운 곳을 답하고, 웹사이트(PHP)·Flutter 앱·정적 웹이 원격 API 대신 데이터를 넣어(임베딩) 쓰도록 DB·파일 만들기, 조회 코드(PHP·Dart), 블록 렌더러(tabs·accordion·card·stepper·pricing 등)를 제공하며, ph-travel-api 저장소의 여행지 추가·번역·검사·배포를 돕는다. 다음 경우 반드시 사용 — (1) 필리핀 여행지·여행 정보 질문(보라카이, 세부, 엘니도, 보홀, 12월에 갈 만한 해변, 예산, 일정, 가는 방법 등, 어느 언어든), (2) ph-travel-api·여행 API·places.json·meta.json·travel.db·SQLite 여행 DB 를 쓰는 웹/앱 개발, 필고 웹사이트·앱에 여행 정보 넣기, 화면 디자인, (3) 여행지 데이터 추가·수정·번역·검사·배포, (4) 여행이 아닌 다른 정보(밤문화·맛집·병원·비자·생활 정보 등, 예: ph-night-api)를 ph-travel-api 와 같은 형태 — 다국어 블록 JSON 정적 API·빌드 검사·SQLite·조회 코드·스킬 — 로 새로 만들거나 기존 자료를 그 형태로 가공할 때(청사진 references/blueprint.md), (5) 사용자가 /travel-api-skill 을 부를 때 — 인자가 update 면 스킬을 최신으로 갱신한다.
 metadata:
-  version: "2026.09.29.4"
+  version: "2026.09.30"
   repo: "https://github.com/thruthesky/ph-travel-api"
 ---
 
@@ -10,6 +10,7 @@ metadata:
 
 필리핀 여행지 198곳을 **8개 언어 블록 JSON** 으로 내주는 정적 API 와, 그것을 받아 **SQLite 로 바꿔 넣어 쓰는** 방법이다.
 나라 목록은 `scripts/apis.json` 이다(지금은 `ph` 하나). 이 문서의 상대 경로는 모두 **스킬 폴더**(이 SKILL.md 가 있는 폴더) 기준이다.
+ph-travel-api 는 다른 정보를 같은 형태로 만들 때의 **본보기**이기도 하다(§7).
 
 ## 1. 인자 처리
 
@@ -41,12 +42,14 @@ metadata:
 | SQL·스키마·검색 규칙 | — | [database.md](references/database.md) |
 | 파일 모양·필드·다국어 계약 | — | [api.md](references/api.md) |
 | 화면 그리기·디자인 | `assets/renderer.mjs`·`assets/travel_blocks.dart` 를 가져다 고친다 | [rendering.md](references/rendering.md) |
-| ph-travel-api 저장소 일 — 여행지 추가·수정·번역, type 추가, 빌드·배포 | §7 절대 규칙을 지키며 절차를 따른다 | [maintain.md](references/maintain.md) |
+| ph-travel-api 저장소 일 — 여행지 추가·수정·번역, type 추가, 빌드·배포 | §8 절대 규칙을 지키며 절차를 따른다 | [maintain.md](references/maintain.md) |
+| **다른 정보**(밤문화·맛집·병원·비자 …)를 같은 형태로 제공·개발·가공 | §7 — ph-travel-api 를 본보기로 설계 → 뼈대 복사 → 작게 끝까지 → 채우기 | [blueprint.md](references/blueprint.md) |
+| 같은 여행 정보를 다른 나라로 | 같은 구조의 저장소 + `apis.json` 한 줄 | [maintain.md](references/maintain.md) §9 |
 | 왜 이 구조인가, 남은 일은 | — | [history.md](references/history.md) |
 
 ## 4. 여행 질문에 답하기
 
-대화에 JSON 을 통째로 읽지 않는다(언어당 약 2MB). 조회 도구가 캐시 DB(`~/.cache/travel-api-skill/<나라>/travel.db`, 모든 언어)를 만들어 필요한 부분만 꺼낸다.
+대화에 JSON 을 통째로 읽지 않는다(언어당 3.5~7MB). 조회 도구가 캐시 DB(`~/.cache/travel-api-skill/<나라>/travel.db`, 모든 언어)를 만들어 필요한 부분만 꺼낸다.
 
 ```bash
 travelq() { node <스킬 폴더>/scripts/travel.mjs "$@"; }  # 함수로 — zsh 는 $T 를 낱말로 나누지 않고, t 같은 짧은 이름은 별칭과 겹친다
@@ -91,7 +94,8 @@ travelq info                                                # version·언어·D
   - 띄어 쓰지 않는 언어(zh·ja·th)는 질문을 **2~4글자 낱말로 띄워** 찾는다 — `和鲸鲨一起游泳` 이 아니라 `鲸鲨 游泳`.
 - **달:** `--month` 는 12·12월·12月·Dec 를 받는다. 0곳이어도 불가능하다는 뜻은 아니다 — 연중 가능한 곳(오슬롭)이나 시즌이 긴 곳은 `best_time` 단락을 읽는다.
 - **로컬 빌드를 읽을 때**는 `--base <폴더>` 나 `TRAVEL_API_BASE=<폴더>` 를 쓴다. 예: 저장소 안에서 `node scripts/build.mjs` 뒤 `--base _site/v2`.
-- **받기 실패:** 받지 못하면 캐시로 답하고, 캐시도 없으면 원인을 한 줄로 알린다(주소 404, API 가 옛 형식 등). Node 22.13 이상이 필요하다(내장 `node:sqlite`).
+- **받기 실패:** 받지 못하면 캐시로 답하고, 캐시도 없으면 원인을 한 줄로 알린다(주소 404, API 가 옛 형식 등).
+- **Node:** 내장 `node:sqlite` 에 FTS5 가 들어 있어야 한다. Node 24 를 쓴다. `no such module: fts5` 가 나오면 Node 가 낮은 것이다(22.14 는 `node:sqlite` 는 있지만 FTS5 가 없다).
 - **순서:** 여러 조건이면 `list`·`search` 로 후보를 좁히고, 고른 곳을 `show --section` 으로 필요한 단락만 읽고 답한다.
 
 답할 때 지킬 것:
@@ -155,7 +159,30 @@ travelq info                                                # version·언어·D
   - 예외만 보지 말고 사진 저작자 글이 실제로 보이는지 확인한다.
   - DB·파일에 넣은 언어마다 목록·검색·상세를 돌려 본다. 아랍어를 넣었다면 오른쪽→왼쪽도 본다.
 
-## 7. ph-travel-api 저장소에서 일할 때 — 절대 규칙
+## 7. 다른 정보를 같은 형태로 만들 때
+
+여행이 아닌 정보(밤문화·맛집·병원·비자·생활 정보 …)를 새로 제공·개발하거나 기존 자료를 가공할 때는 ph-travel-api 를 본보기로 **같은 형태**로 만든다. 설계할 것, 파일마다 그대로 둘 곳과 고칠 곳, 순서, 검증은 [blueprint.md](references/blueprint.md) 에 있다. 시작하기 전에 읽는다.
+
+분야가 달라도 같게 두는 것:
+
+| 층 | 약속 | 본보기 (ph-travel-api 저장소) |
+|----|------|-------------------------------|
+| 원본 | 항목마다 JSON 파일 하나 + 사진. 규격은 `meta.json` 한 곳에 둔다 | `data/ko/*.json` · `data/meta.json` · `data/README.md` |
+| 모양 | 값은 노드, 글은 조각(`children`), 본문은 key·순서가 고정된 단락. type 48개를 그대로 쓴다 | `data/meta.json` 의 `fields`·`sections`·`display` |
+| 빌드 | 빌드가 곧 검사다. 어기면 아무것도 쓰지 않고 exit 1. 외부 패키지 없음. version 은 내용 해시 하나 | `scripts/build.mjs` |
+| 다국어 | 원본 언어 하나 + 모양이 같은 번역본. 언어는 파일 이름으로 나누고, 거르기는 언어 공통 key·숫자로 한다 | `scripts/i18n.mjs` · `data/README.md` §7 |
+| 배포 | `main` push → Actions → Pages. `manifest.json` → `meta.json` → `<항목들>.<lang>.json` + `images/` | `.github/workflows/deploy.yml` |
+| 쓰기 | 받아서 SQLite 로 넣어 쓴다. 언어 공통 표 + 언어별 글 + FTS5 trigram, 조회 구현 셋(Node·PHP·Dart), 렌더러 둘 | 이 스킬의 `scripts/` · `assets/` |
+| 스킬 | 분야마다 스킬 하나(`<분야>-api-skill`), 나라는 `apis.json`. 이 SKILL.md 의 절 구성을 따른다 | 이 폴더 |
+
+- **같은 분야·다른 나라**(일본 여행)는 새 스킬 없이 [maintain.md](references/maintain.md) §9 다. **다른 분야**가 blueprint 다.
+- **먼저 맞는 정보인지 본다.** 편집자가 쓰는 읽기 전용·공개 정보, 수십~수천 건이 맞는다. 사용자 글·실시간 값·비공개 자료는 맞지 않는다(blueprint §1).
+- **코드보다 설계가 먼저다.** 항목의 정의, 사람들이 물을 질문 열 개, 거르기에 쓸 언어 공통 값, 속성, 단락과 단락별 블록, 사진 방침을 정해 사용자에게 확인받는다(blueprint §4).
+- **서너 건으로 끝까지 뚫은 뒤 채운다.** 원본 → 빌드 → 번역 → DB → 조회 → 화면이 한 번 돌고 나서 전체를 쓴다(blueprint §6).
+- **공통 부분은 새 저장소에서 고치지 않는다.** 노드 검사·번역 도구·검색 규칙·블록 렌더러·type 목록은 ph-travel-api 에서 먼저 고쳐 옮긴다. type 은 추가만 한다. 분야마다 고치는 곳은 blueprint §5 의 표에 있다.
+- 새 저장소에서도 §8 의 절대 규칙 1~4 가 그대로다.
+
+## 8. ph-travel-api 저장소에서 일할 때 — 절대 규칙
 
 절차·검사·검증은 [maintain.md](references/maintain.md) 에 있다.
 
@@ -165,7 +192,7 @@ travelq info                                                # version·언어·D
 4. **원본은 한국어 `data/ko/` 다.** 원본을 먼저 고치고 번역본(7개 언어)은 `scripts/i18n.mjs` 로 맞춘다(`data/README.md` §7). 필고의 `apps/travel/data/travel/` 은 옛 사본이다.
 5. 스킬을 고치면 `metadata.version` 을 올린다. 입구 `.claude/skills/travel-api-skill/SKILL.md` 의 description 도 같게 맞춘다.
 
-## 8. 스킬 파일
+## 9. 스킬 파일
 
 | 파일 | 내용 |
 |------|------|
@@ -182,4 +209,5 @@ travelq info                                                # version·언어·D
 | `references/api.md` | API 계약 — manifest·meta·places.<lang>·불변식·받기 코드 |
 | `references/rendering.md` | 표시 방법(meta.display)·권장 위젯·렌더러 사용법 |
 | `references/maintain.md` | 저장소 구조·명령·규격 검사·규칙·작업·검증·새 나라 |
+| `references/blueprint.md` | 다른 정보를 같은 형태로 만드는 청사진 — 맞는 정보·약속·이름·설계·파일별 고칠 곳·순서·가공·검증·배운 것·크기 기준 |
 | `references/history.md` | 현재 상태·남은 일·결정 기록 |
