@@ -44,7 +44,7 @@ R2 공개 주소의 응답 헤더:
 
 - JSON 은 `Cache-Control: no-cache` 다. 받을 때마다 ETag 로 확인하므로(안 바뀌었으면 304) 배포가 곧바로 보인다.
 - 사진은 `Cache-Control: public, max-age=31536000, immutable` 이다. 주소에 사진 해시(`?v=`)가 있어 사진이 바뀌면 주소가 바뀐다.
-- `Access-Control-Allow-Origin` 은 아직 없다(2026-10-01). 앱·서버·넣어 쓰기는 상관없고, 다른 도메인의 웹 페이지가 브라우저에서 직접 받을 때만 버킷 CORS 설정이 필요하다.
+- `Access-Control-Allow-Origin: *` 다(GET·HEAD, 2026-10-01 부터). 다른 도메인의 웹 페이지도 브라우저에서 바로 불러 쓸 수 있다.
 - 옛 주소(GitHub Pages)는 모든 응답에 `Cache-Control: max-age=600` 과 `Access-Control-Allow-Origin: *` 를 붙인다.
 
 ## 2. manifest.json

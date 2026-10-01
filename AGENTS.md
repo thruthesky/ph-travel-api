@@ -26,10 +26,11 @@ Claude Code 에서는 `/api-skill:api-skill <요청>` 으로 부른다. 스킬 �
 
 ## 절대 규칙 (자세한 것은 maintain.md §5)
 
-1. **`main` push 는 곧 운영 배포다.** push 는 사용자가 요청할 때만 하고, 작업은 커밋까지만 한다.
-2. **push 전에 `node scripts/build.mjs` 가 성공해야 한다.**
+1. **운영 배포는 Cloudflare R2 업로드다** — api-skill 의 `r2.mjs deploy --country ph` → `https://files.withcenter.com/ph-travel-api/v2/`. 배포와 push 는 사용자가 요청할 때만 하고, 작업은 커밋까지만 한다. `main` push 는 옛 주소(GitHub Pages)에도 배포된다.
+2. **배포·push 전에 `node scripts/build.mjs` 와 `content.mjs check --dir _site/v2` 가 성공해야 한다.** 콘텐츠를 고쳤으면 `content.mjs stamp data/meta.json` 으로 `data_version` 을 먼저 찍는다.
 3. **`_site/` 는 커밋하지 않고, 외부 npm 패키지를 넣지 않는다.**
 4. **여행지 내용은 이 저장소의 `data/` 에서만 고친다.** 필고의 `apps/travel/data/travel/` 은 옛 사본이다.
    - 원본 언어는 한국어(`data/ko/`)다. 원본을 먼저 고치고, 번역본(`data/en`·`zh`·`ja`·`th`·`vi`·`ru`·`ar`)은 `scripts/i18n.mjs` 로 맞춘다.
    - 모든 언어의 여행지는 모양이 같아야 한다. 빌드가 원본과 비교해 다르면 실패한다.
-5. **서브모듈 커밋 순서:** 이 저장소에서 먼저 커밋·push 한 뒤, 필고 저장소에서 `submodules/ph-travel-api` 포인터를 커밋한다.
+5. **R2 배포 키:** `/Users/thruthesky/Documents/Keys/Cloudflare/r2/admin-permissions-all-r2.txt` (R2 관리 권한 — 계정의 모든 R2 버킷). `r2.mjs` 가 읽는다. 값은 출력·커밋하지 않는다.
+6. **서브모듈 커밋 순서:** 이 저장소에서 먼저 커밋·push 한 뒤, 필고 저장소에서 `submodules/ph-travel-api` 포인터를 커밋한다.
