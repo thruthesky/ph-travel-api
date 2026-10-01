@@ -3,8 +3,9 @@
 필리핀 여행지 198곳을 **8개 언어**의 JSON 으로 제공하는 정적 API 다. 서버 코드는 없다.
 
 - 언어: 영어 `en` · 중국어(간체) `zh` · 일본어 `ja` · 한국어 `ko` · 태국어 `th` · 베트남어 `vi` · 러시아어 `ru` · 아랍어 `ar`(오른쪽→왼쪽)
-- `main` 에 push 하면 GitHub Actions 가 `data/` 를 검사·빌드해 GitHub Pages 에 배포한다.
-- 기본 주소: `https://thruthesky.github.io/ph-travel-api/v2/`
+- 배포: **Cloudflare R2** — api-skill 의 `r2.mjs deploy` 로 올린다(2026-10-01 부터). `main` 에 push 하면 GitHub Actions 가 옛 주소인 GitHub Pages 에도 배포한다.
+- 기본 주소: `https://files.withcenter.com/ph-travel-api/v2/`
+  - 옛 주소 `https://thruthesky.github.io/ph-travel-api/v2/` 는 옛 앱을 위해 당분간 둔다. 같은 내용을 내보낸다.
 - 원본
   - 여행지: `data/<언어>/*.json` — 원본 언어는 한국어(`data/ko/`), 나머지 7개 언어는 번역본이다. 작성 규격은 [data/README.md](data/README.md) 에 있다.
   - 기준 정보: `data/meta.json` — 지원 언어·분류 목록(다국어)·속성·단락·표시 방법(type)
@@ -39,10 +40,12 @@ AI 코딩 에이전트가 이 API 를 잘 쓰도록 돕는 스킬은 **`api-skil
 | `v2/places.<언어>.json` | **한 언어의 여행지 198곳 전체** — `places.en.json` · `places.ko.json` … 8개 (각 3.4~7.0MB, 전송 때 gzip 으로 약 4분의 1) |
 | `v2/images/<이름>.webp` | 사진. JSON 의 `url` 로만 접근한다 |
 
-GitHub Pages 는 모든 응답에 `Cache-Control: max-age=600` 과 `Access-Control-Allow-Origin: *` 를 붙인다.
+R2 공개 주소의 응답 헤더:
 
-- push 한 내용이 클라이언트에 보이기까지 최대 10분 걸릴 수 있다.
-- 다른 도메인의 웹에서도 바로 불러 쓸 수 있다.
+- JSON 은 `Cache-Control: no-cache` 다. 받을 때마다 ETag 로 확인하므로(안 바뀌었으면 304) 배포가 곧바로 보인다.
+- 사진은 `Cache-Control: public, max-age=31536000, immutable` 이다. 주소에 사진 해시(`?v=`)가 있어 사진이 바뀌면 주소가 바뀐다.
+- `Access-Control-Allow-Origin` 은 아직 없다(2026-10-01). 앱·서버·넣어 쓰기는 상관없고, 다른 도메인의 웹 페이지가 브라우저에서 직접 받을 때만 버킷 CORS 설정이 필요하다.
+- 옛 주소(GitHub Pages)는 모든 응답에 `Cache-Control: max-age=600` 과 `Access-Control-Allow-Origin: *` 를 붙인다.
 
 ## 2. manifest.json
 
@@ -75,7 +78,7 @@ GitHub Pages 는 모든 응답에 `Cache-Control: max-age=600` 과 `Access-Contr
 
 ```json
 {
-  "schema": 2, "version": "VERSION_EXAMPLE",
+  "schema": 2, "version": "VERSION_EXAMPLE", "data_version": "2026-09-29T07:26:02Z",
   "source_language": "ko", "fallback_language": "en",
   "languages": [ { "code": "ar", "locale": "ar", "name": "Arabic", "native": "العربية", "dir": "rtl" }, … ],
   "categories": [ { "key": "heritage", "icon": "account_balance", "name": { "en": "History & Culture", "ko": "역사·문화", "ja": "歴史・文化", … } }, … ],
@@ -90,6 +93,7 @@ GitHub Pages 는 모든 응답에 `Cache-Control: max-age=600` 과 `Access-Contr
 
 | 키 | 내용 |
 |----|------|
+| `data_version` | 정보를 마지막으로 가공한 UTC 시각(`YYYY-MM-DDTHH:MM:SSZ`). 화면에 "정보 기준일"로 보여 준다. 다시 받을지는 `version` 으로 정한다 |
 | `languages` | 지원 언어 — `code`(파일 이름의 언어 코드)·`locale`(BCP 47, 날짜·숫자 형식용)·`name`(영어 이름)·`native`(그 언어로 쓴 이름, 언어 고르기 화면용)·`dir`(`ltr`·`rtl`) |
 | `categories` | 분류 7개 — `key`·`icon`·언어별 `name`. key: `beach` `diving` `mountain` `water` `heritage` `city` `nature` |
 | `island_groups` | 권역 3개 — `luzon` `visayas` `mindanao` |
@@ -206,7 +210,7 @@ GitHub Pages 는 모든 응답에 `Cache-Control: max-age=600` 과 `Access-Contr
 ### 4.4 사진
 
 - `url` 은 `images/030-vigan.webp?v=2869bd00` 처럼 **places.<언어>.json 이 있는 폴더(`v2/`) 기준 상대 경로**다.
-  - `https://thruthesky.github.io/ph-travel-api/v2/` 에 이어 붙여 쓴다.
+  - `https://files.withcenter.com/ph-travel-api/v2/` 에 이어 붙여 쓴다.
   - `?v=` 는 사진 내용 해시라서 사진이 바뀌면 주소도 바뀐다. 주소를 키로 삼아 오래 캐시해도 된다. 모든 언어가 같은 주소라서 언어를 바꿔도 캐시를 그대로 쓴다.
 - `width`·`height` 로 사진이 오기 전에 비율 자리를 잡는다.
 - 저작자 표기(`credit`·`source`)는 CC 라이선스 조건이라서 화면에 반드시 보여야 한다. `alt` 만 언어마다 다르다.
@@ -281,10 +285,12 @@ const renderRun = (r) => (r.type ? `<span class="cdt-${r.type}">${escape(r.text)
    1. `node scripts/i18n.mjs export <파일>` — 번역할 글을 `_i18n/src/<이름>.txt` 로 뽑는다.
    2. 언어마다 `_i18n/<언어>/<이름>.txt` 번역을 만든다. 형식·규칙은 [i18n/GUIDE.md](i18n/GUIDE.md), 고유명사·태그 표기는 `i18n/glossary/<언어>.json` 을 따른다.
    3. `node scripts/i18n.mjs import <언어> <파일>` — 번역을 검사해 `data/<언어>/` 에 쓴다.
-4. 저장소 루트에서 `node scripts/build.mjs` 로 규격을 검사한다.
-5. 커밋하고 `main` 에 push 하면 1~2분 뒤 배포된다. 진행 상황은 저장소의 Actions 탭에서 본다.
+4. `node <api-skill>/scripts/content.mjs stamp data/meta.json` 으로 `data_version`(가공한 UTC 시각)을 찍는다.
+5. 저장소 루트에서 `node scripts/build.mjs` 로 규격을 검사하고, `node <api-skill>/scripts/content.mjs check --dir _site/v2` 로 배포 규격(8개 언어·사진·`data_version`)을 검사한다.
+6. 커밋한 뒤 `node <api-skill>/scripts/r2.mjs deploy --dir _site/v2 --country ph` 로 R2 에 배포한다. 끝나면 공개 주소를 스스로 확인한다. 절차와 규칙은 api-skill 의 `references/pipeline.md` 에 있다.
+7. `main` 에 push 하면 옛 주소(GitHub Pages)에도 1~2분 뒤 배포된다.
 
-규격 검사에 실패하면 Actions 가 멈추고, 이전에 배포된 내용이 그대로 남는다.
+규격 검사에 실패하면 배포 도구가 아무것도 올리지 않는다. Actions 도 멈춰서 옛 주소에는 이전 내용이 그대로 남는다.
 
 ## 8. 바뀐 점
 
