@@ -85,6 +85,8 @@ R2 공개 주소의 응답 헤더:
   "island_groups": [ { "key": "luzon", "name": { … } }, … ],
   "regions": [ { "key": "ilocos", "island_group": "luzon", "name": { … } }, … ],
   "difficulties": [ { "value": 1, "key": "easy", "name": { … } }, … ],
+  "destinations": [ { "key": "manila", "icon": "location_city", "latitude": 14.5995, "longitude": 120.9842, "name": { … }, "tagline": { … }, "places": ["intramuros", "national-museum", …] }, … ],
+  "monthly_picks": [ { "month": 1, "places": ["cebu-city", "kalibo", …] }, … ],
   "fields": { "budget": { "type": "price", "label": { "en": "Budget", "ko": "예산", … }, "icon": "payments", "role": "…" }, … },
   "sections": [ { "key": "overview", "icon": "info", "title": { "en": "At a glance", "ko": "한눈에 보기", … } }, … ],
   "display": { "rules": [ … ], "common_props": { … }, "inline": { … }, "css_variables": "…", "layouts": { … }, "types": { … } }
@@ -99,12 +101,15 @@ R2 공개 주소의 응답 헤더:
 | `island_groups` | 권역 3개 — `luzon` `visayas` `mindanao` |
 | `regions` | 지역 35개 — `key`·소속 `island_group`·언어별 `name` |
 | `difficulties` | 난이도 3단계 — `value` 1~3 · `key` `easy` `moderate` `hard` |
+| `destinations` | 지역별 추천 베스트 — 외국인 여행자가 많이 찾는 큰 지역 9곳(`manila` `cebu` `angeles` `boracay` `palawan` `baguio` `bohol` `dumaguete` `davao`). `key`·`icon`·중심 좌표·언어별 `name`·`tagline`(한 줄 소개)·`places`(그 지역에서 많이 찾는 순서의 여행지 slug 5~10개). 앱 첫 화면의 「지역별 추천 베스트 10」 |
+| `monthly_picks` | 월별 추천 — 1~12월 12개, 달마다 `places`(여행지 slug 1~5개, 추천 순서). 그 달이 그 여행지의 `best_season.months` 안이어야 한다(빌드가 검사). 앱 첫 화면의 「월별 추천 여행지」 |
 | `fields` | 여행지 속성마다 `type`·언어별 이름표 `label`·`icon`·`values`(정해진 목록 이름)·`role` |
 | `sections` | 본문 단락 10개의 `key`·`icon`·언어별 제목 — 순서가 곧 화면 순서다 |
 | `display` | 표시 방법 — 5절 |
 
 - **분류·권역·지역·난이도는 언어와 무관한 key 로 거른다.** 여행지의 `category.value`·`island_group.value`·`region.value`·`difficulty.value` 가 이 목록의 key(난이도는 value)다.
 - 거르기 칩·목록 제목은 이 파일의 `name[언어]` 로, 여행지 화면의 값은 노드의 `text` 로 그린다. 둘은 같은 글이다.
+- **추천 모음(`destinations`·`monthly_picks`)은 2026-10-02 에 더했다.** 키 추가라 옛 클라이언트는 그냥 지나친다. 없으면(옛 데이터) 추천 화면을 숨기거나 추천도 순서로 대신한다.
 
 ## 4. places.<언어>.json
 

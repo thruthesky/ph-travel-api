@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-09-29T07:26:02Z",
+  "data_version": "2026-10-02T06:22:45Z",
   "title": "meta — 여행 정보 API 의 언어·분류·속성·표시 방법",
   "description": "places.<언어>.json 을 읽고 그리는 데 필요한 기준 정보를 한 파일에 모았다. languages 는 지원 언어, categories·island_groups·regions·difficulties 는 언어와 무관한 key 와 언어별 이름, fields·sections 는 여행지 속성과 본문 단락의 type·아이콘·언어별 이름표, display 는 노드 type(표시 방법)마다 역할·데이터 모양·권장 HTML·CSS·Flutter 위젯이다.",
   "source_language": "ko",
@@ -696,6 +696,103 @@
         "ar": "صعب"
       }
     }
+  ],
+  "destinations": [
+    {
+      "key": "manila",
+      "icon": "location_city",
+      "latitude": 14.5995,
+      "longitude": 120.9842,
+      "name": { "en": "Manila", "zh": "马尼拉", "ja": "マニラ", "ko": "마닐라", "th": "มะนิลา", "vi": "Manila", "ru": "Манила", "ar": "مانيلا" },
+      "tagline": { "en": "Walled city, museums and easy day trips", "zh": "古城、博物馆与周边一日游", "ja": "城壁都市と博物館、近郊への日帰り旅", "ko": "성곽 도시와 박물관, 근교 당일치기", "th": "เมืองกำแพงเก่า พิพิธภัณฑ์ และทริปวันเดียวรอบเมือง", "vi": "Thành cổ, bảo tàng và những chuyến đi trong ngày", "ru": "Старый город, музеи и поездки на один день", "ar": "المدينة المسوّرة والمتاحف ورحلات اليوم الواحد" },
+      "places": ["intramuros", "national-museum", "rizal-park", "binondo", "manila-bay", "tagaytay", "makati", "bgc", "corregidor", "pagsanjan-falls"]
+    },
+    {
+      "key": "cebu",
+      "icon": "scuba_diving",
+      "latitude": 10.3157,
+      "longitude": 123.8854,
+      "name": { "en": "Cebu", "zh": "宿务", "ja": "セブ", "ko": "세부", "th": "เซบู", "vi": "Cebu", "ru": "Себу", "ar": "سيبو" },
+      "tagline": { "en": "Mactan resorts, whale sharks, waterfalls and diving", "zh": "麦克坦岛度假村、鲸鲨、瀑布与潜水", "ja": "マクタン島のリゾートとジンベエザメ・滝・ダイビング", "ko": "막탄 리조트와 고래상어·폭포·다이빙", "th": "รีสอร์ตเกาะมักตัน ฉลามวาฬ น้ำตก และการดำน้ำ", "vi": "Resort đảo Mactan, cá mập voi, thác nước và lặn biển", "ru": "Курорты острова Мактан, китовые акулы, водопады и дайвинг", "ar": "منتجعات جزيرة ماكتان وأسماك القرش الحوتية والشلالات والغوص" },
+      "places": ["mactan", "oslob", "cebu-city", "moalboal", "kawasan-falls", "temple-of-leah", "malapascua", "bantayan-island", "osmena-peak", "sumilon-island"]
+    },
+    {
+      "key": "angeles",
+      "icon": "volcano",
+      "latitude": 15.145,
+      "longitude": 120.5887,
+      "name": { "en": "Angeles & Clark", "zh": "安吉利斯·克拉克", "ja": "アンヘレス・クラーク", "ko": "앙헬레스·클락", "th": "แองเจลิสและคลาร์ก", "vi": "Angeles & Clark", "ru": "Анхелес и Кларк", "ar": "أنجيليس وكلارك" },
+      "tagline": { "en": "From Clark to Mount Pinatubo and Subic Bay", "zh": "从克拉克出发，前往皮纳图博火山与苏比克湾", "ja": "クラークを拠点にピナツボ火山とスービック湾へ", "ko": "클락을 거점으로 피나투보 화산과 수빅 바다로", "th": "จากคลาร์กสู่ภูเขาไฟปินาตูโบและอ่าวซูบิก", "vi": "Từ Clark đến núi lửa Pinatubo và vịnh Subic", "ru": "Из Кларка — к вулкану Пинатубо и Субик-Бей", "ar": "من كلارك إلى بركان بيناتوبو وخليج سوبيك" },
+      "places": ["clark", "mount-pinatubo", "subic-bay", "san-fernando-pampanga", "bacolor-church", "las-casas-filipinas", "mount-arayat", "anawangin-cove", "capas-national-shrine", "mount-samat"]
+    },
+    {
+      "key": "boracay",
+      "icon": "beach_access",
+      "latitude": 11.9674,
+      "longitude": 121.9248,
+      "name": { "en": "Boracay", "zh": "长滩岛", "ja": "ボラカイ", "ko": "보라카이", "th": "โบราไกย์", "vi": "Boracay", "ru": "Боракай", "ar": "بوراكاي" },
+      "tagline": { "en": "White Beach sunsets and island hops around Panay", "zh": "白沙滩日落与班乃岛周边跳岛游", "ja": "ホワイトビーチの夕日とパナイ島周辺の島めぐり", "ko": "화이트 비치 노을과 파나이섬 주변 섬 여행", "th": "พระอาทิตย์ตกที่ไวต์บีชและเที่ยวเกาะรอบปาไนย์", "vi": "Hoàng hôn White Beach và du ngoạn đảo quanh Panay", "ru": "Закаты на Уайт-Бич и острова вокруг Паная", "ar": "غروب الشاطئ الأبيض وجولات الجزر حول باناي" },
+      "places": ["boracay", "carabao-island", "kalibo", "tibiao", "mararison-island", "iloilo-city", "islas-de-gigantes", "guimaras", "miagao-church", "roxas-city"]
+    },
+    {
+      "key": "palawan",
+      "icon": "kayaking",
+      "latitude": 9.7392,
+      "longitude": 118.7353,
+      "name": { "en": "Palawan", "zh": "巴拉望", "ja": "パラワン", "ko": "팔라완", "th": "ปาลาวัน", "vi": "Palawan", "ru": "Палаван", "ar": "بالاوان" },
+      "tagline": { "en": "Limestone islands of El Nido and Coron, and the Underground River", "zh": "爱妮岛、科隆的石灰岩岛屿与地下河", "ja": "エルニド・コロンの石灰岩の島々と地底河川", "ko": "엘니도·코론의 석회암 섬과 지하강", "th": "เกาะหินปูนเอลนีโด โครอน และแม่น้ำใต้ดิน", "vi": "Đảo đá vôi El Nido, Coron và sông ngầm", "ru": "Известняковые острова Эль-Нидо и Корона, подземная река", "ar": "جزر الحجر الجيري في إل نيدو وكورون والنهر الجوفي" },
+      "places": ["el-nido", "coron", "puerto-princesa-underground-river", "port-barton", "nacpan-beach", "puerto-princesa", "honda-bay", "calauit-safari-park", "san-vicente-long-beach", "tubbataha-reefs"]
+    },
+    {
+      "key": "baguio",
+      "icon": "forest",
+      "latitude": 16.4023,
+      "longitude": 120.596,
+      "name": { "en": "Baguio", "zh": "碧瑶", "ja": "バギオ", "ko": "바기오", "th": "บาเกียว", "vi": "Baguio", "ru": "Багио", "ar": "باغيو" },
+      "tagline": { "en": "Cool mountain city and the Cordillera rice terraces", "zh": "凉爽的山城与科迪勒拉梯田", "ja": "涼しい高原都市とコルディリェラの棚田", "ko": "선선한 산악 도시와 코르딜레라 계단식 논", "th": "เมืองบนเขาอากาศเย็นและนาขั้นบันไดคอร์ดิลเยรา", "vi": "Thành phố núi mát mẻ và ruộng bậc thang Cordillera", "ru": "Прохладный горный город и рисовые террасы Кордильеры", "ar": "مدينة جبلية باردة ومدرجات الأرز في كورديليرا" },
+      "places": ["baguio", "sagada", "banaue-rice-terraces", "batad", "san-juan-la-union", "buscalan", "mount-pulag", "mount-ulap", "maligcong-rice-terraces", "atok"]
+    },
+    {
+      "key": "bohol",
+      "icon": "landscape",
+      "latitude": 9.6496,
+      "longitude": 123.8549,
+      "name": { "en": "Bohol", "zh": "薄荷岛", "ja": "ボホール", "ko": "보홀", "th": "โบโฮล", "vi": "Bohol", "ru": "Бохоль", "ar": "بوهول" },
+      "tagline": { "en": "Chocolate Hills, tarsiers and Panglao beaches", "zh": "巧克力山、眼镜猴与邦劳岛海滩", "ja": "チョコレート・ヒルズとターシャ、パングラオ島の海", "ko": "초콜릿 힐스와 안경원숭이, 팡라오 바다", "th": "ช็อกโกแลตฮิลส์ ทาร์เซียร์ และชายหาดเกาะปังเลา", "vi": "Đồi Chocolate, khỉ lùn Tarsier và biển đảo Panglao", "ru": "Шоколадные холмы, долгопяты и пляжи Панглао", "ar": "تلال الشوكولاتة وقرود الترسير وشواطئ بانغلاو" },
+      "places": ["chocolate-hills", "panglao", "tarsier-sanctuary", "loboc-river", "balicasag-island", "pamilacan-island", "baclayon-church", "anda", "danao-adventure-park", "can-umantad-falls"]
+    },
+    {
+      "key": "dumaguete",
+      "icon": "scuba_diving",
+      "latitude": 9.3068,
+      "longitude": 123.3054,
+      "name": { "en": "Dumaguete", "zh": "杜马格特", "ja": "ドゥマゲテ", "ko": "두마게테", "th": "ดูมาเกเต", "vi": "Dumaguete", "ru": "Думагете", "ar": "دوماغيتي" },
+      "tagline": { "en": "A university town for Apo Island dives and Siquijor", "zh": "从大学城出发，潜水阿波岛、探访锡基霍尔岛", "ja": "大学町から行くアポ島ダイビングとシキホール島", "ko": "대학 도시에서 떠나는 아포섬 다이빙과 시키호르", "th": "เมืองมหาวิทยาลัย จุดเริ่มดำน้ำเกาะอาโปและเกาะซีกีฮอร์", "vi": "Thành phố đại học, lặn biển đảo Apo và đảo Siquijor", "ru": "Студенческий город, дайвинг у острова Апо и Сикихор", "ar": "مدينة جامعية للغوص في جزيرة آبو وزيارة سيكيهور" },
+      "places": ["dumaguete", "apo-island", "siquijor", "dauin", "manjuyod-sandbar", "twin-lakes-balinsasayao", "oslob", "casaroro-falls", "sumilon-island", "sipalay"]
+    },
+    {
+      "key": "davao",
+      "icon": "hiking",
+      "latitude": 7.0731,
+      "longitude": 125.6128,
+      "name": { "en": "Davao", "zh": "达沃", "ja": "ダバオ", "ko": "다바오", "th": "ดาเวา", "vi": "Davao", "ru": "Давао", "ar": "دافاو" },
+      "tagline": { "en": "Mount Apo, Philippine eagles and Samal beaches", "zh": "阿波山、菲律宾鹰与萨马尔岛海滩", "ja": "アポ山とフィリピンワシ、サマル島のビーチ", "ko": "아포산과 필리핀 독수리, 사말섬 해변", "th": "ภูเขาอาโป นกอินทรีฟิลิปปินส์ และชายหาดเกาะซามาล", "vi": "Núi Apo, đại bàng Philippines và biển đảo Samal", "ru": "Гора Апо, филиппинские орлы и пляжи Самала", "ar": "جبل آبو والنسر الفلبيني وشواطئ جزيرة سامال" },
+      "places": ["davao-city", "samal-island", "philippine-eagle-center", "eden-nature-park", "mount-apo", "dahican-beach", "mount-hamiguitan", "aliwagwag-falls", "lake-sebu", "general-santos"]
+    }
+  ],
+  "monthly_picks": [
+    { "month": 1, "places": ["cebu-city", "kalibo", "iloilo-city", "quiapo-church", "mount-pulag"] },
+    { "month": 2, "places": ["baguio", "binondo", "panglao", "boracay", "donsol"] },
+    { "month": 3, "places": ["marinduque", "donsol", "tubbataha-reefs", "chocolate-hills", "mayon-volcano"] },
+    { "month": 4, "places": ["batanes", "tubbataha-reefs", "calaguas", "malapascua", "marinduque"] },
+    { "month": 5, "places": ["lucban", "batanes", "apo-reef", "balabac", "camiguin"] },
+    { "month": 6, "places": ["banaue-rice-terraces", "sohoton-cove", "camiguin", "apo-island", "enchanted-river"] },
+    { "month": 7, "places": ["batad", "maligcong-rice-terraces", "banaue-rice-terraces", "tinuy-an-falls", "britania-islands"] },
+    { "month": 8, "places": ["davao-city", "philippine-eagle-center", "catanduanes", "aliwagwag-falls", "pagsanjan-falls"] },
+    { "month": 9, "places": ["siargao", "general-santos", "catanduanes", "olango-island", "enchanted-river"] },
+    { "month": 10, "places": ["siargao", "calicoan-island", "anilao", "olango-island", "pagsanjan-falls"] },
+    { "month": 11, "places": ["siargao", "boracay", "coron", "sagada", "san-juan-la-union"] },
+    { "month": 12, "places": ["san-fernando-pampanga", "intramuros", "el-nido", "mount-pulag", "moalboal"] }
   ],
   "fields": {
     "title": { "type": "title", "role": "여행지 이름" },

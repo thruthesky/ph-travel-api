@@ -65,6 +65,25 @@ function checkMeta() {
   for (const c of meta.categories) if (!/^[a-z0-9_]+$/.test(c.icon ?? '')) fail(`categories.${c.key} 의 icon 오류`);
   for (const r of meta.regions) if (!meta.island_groups.some((g) => g.key === r.island_group)) fail(`regions.${r.key} 의 island_group 오류 — ${r.island_group}`);
   meta.difficulties.forEach((d, i) => d.value === i + 1 || fail(`difficulties 의 value 는 1부터 차례로 — ${d.key}`));
+  // 추천 모음 — 지역별 베스트(destinations)·월별 추천(monthly_picks). 여행지 slug 는 여행지를 읽은 뒤 checkPicks 가 본다.
+  const destKeys = (meta.destinations ?? []).map((d) => d.key);
+  if (new Set(destKeys).size !== destKeys.length) fail('destinations 의 key 가 겹침');
+  for (const d of meta.destinations ?? []) {
+    const where = `destinations.${d.key}`;
+    if (!/^[a-z0-9-]+$/.test(d.key ?? '')) fail(`destinations 의 key 형식 오류 — ${d.key}`);
+    if (!/^[a-z0-9_]+$/.test(d.icon ?? '')) fail(`${where} 의 icon 오류`);
+    if (!(d.latitude >= 4 && d.latitude <= 22) || !(d.longitude >= 116 && d.longitude <= 127)) fail(`${where} 의 좌표가 필리핀 밖 — ${d.latitude}, ${d.longitude}`);
+    names(d.name, `${where}.name`);
+    names(d.tagline, `${where}.tagline`);
+    if (!Array.isArray(d.places) || d.places.length < 5 || d.places.length > 10) fail(`${where}.places 는 여행지 slug 5~10개 — 지금 ${d.places?.length ?? 0}개`);
+  }
+  if (meta.monthly_picks !== undefined) {
+    if (!Array.isArray(meta.monthly_picks) || meta.monthly_picks.length !== 12) fail('monthly_picks 는 1~12월 12개');
+    (meta.monthly_picks ?? []).forEach((m, i) => {
+      if (m.month !== i + 1) fail(`monthly_picks 는 1월부터 차례로 — ${i + 1}번째가 ${m.month}월`);
+      if (!Array.isArray(m.places) || m.places.length < 1 || m.places.length > 5) fail(`monthly_picks.${m.month}월 은 여행지 slug 1~5개 — 지금 ${m.places?.length ?? 0}개`);
+    });
+  }
   // 속성·단락
   for (const [key, f] of Object.entries(meta.fields)) {
     if (!TYPES[f.type]) fail(`fields.${key} 의 모르는 type — ${f.type}`);
@@ -454,6 +473,23 @@ for (const { raw, links } of sources) {
   for (const slug of links) {
     if (!slugs.has(slug)) errors.push(`${raw.slug}: 링크 대상 여행지 없음 — ${slug}`);
     if (slug === raw.slug) errors.push(`${raw.slug}: 자기 자신 링크`);
+  }
+}
+checkPicks();
+
+/** 추천 모음의 여행지 — 있는 slug 인지, 겹치지 않는지, 월별 추천은 그 달이 그 여행지의 최적기(best_season.months)인지 본다. */
+function checkPicks() {
+  const months = new Map(sources.map((p) => [p.raw.slug, p.raw.best_season?.months ?? []]));
+  const check = (list, where) => {
+    if (new Set(list).size !== list.length) errors.push(`meta.json: ${where} 에 같은 여행지가 두 번 있음`);
+    for (const slug of list) if (!months.has(slug)) errors.push(`meta.json: ${where} 의 여행지 없음 — ${slug}`);
+  };
+  for (const d of meta.destinations ?? []) check(d.places ?? [], `destinations.${d.key}.places`);
+  for (const m of meta.monthly_picks ?? []) {
+    check(m.places ?? [], `monthly_picks.${m.month}월`);
+    for (const slug of m.places ?? []) {
+      if (months.has(slug) && !months.get(slug).includes(m.month)) errors.push(`meta.json: monthly_picks.${m.month}월 의 ${slug} — ${m.month}월이 그곳의 여행 최적기(best_season.months: ${months.get(slug).join(',')})가 아님`);
+    }
   }
 }
 

@@ -130,6 +130,11 @@
 - `credit`(작가 / 라이선스 / 출처)과 `source`(원본 페이지, `https://`)는 CC 라이선스의 저작자 표시 조건이라 반드시 적는다.
 - `url` 은 이 폴더 기준 `images/[a-z0-9-]+\.webp` 형식이다. 빌드가 `?v=<사진 해시>` 와 `width`·`height` 를 붙여 내보낸다 — 직접 적지 않는다.
 - `gallery.items` 에 같은 모양의 image 노드를 넣는다. 상세 화면에서 대표 사진 다음으로 넘겨 본다.
+- **여행지마다 사진을 10장 이상 넣는다 — 대표 사진 1장 + `gallery` 9장 이상**(2026-10-02, 그전에는 3장).
+  - 10장은 그곳을 여러 면에서 보여 준다 — 대표 전경, 다른 각도·시간의 전경, `highlights` 의 명소, 활동·체험, 그곳의 것이 분명한 음식·축제. 같은 구도를 여러 장 넣지 않는다.
+  - 사진 파일 이름은 `<번호>-<slug>.webp`, `-2` … `-10` 처럼 이어 붙인다. gallery 사진의 `alt` 는 그 사진의 내용(예: `비간 대성당`)으로 쓰고, 번역본은 `scripts/i18n.mjs` 로 맞춘다.
+  - 후보 찾기·받기는 api-skill 의 `content.mjs photos --id <번호>`·`content.mjs fetch` 로 한다. 받은 사진은 직접 열어 그곳·그 모습인지 확인한다.
+  - 10장이 안 되는 여행지가 있으면 `content.mjs check` 와 R2 배포(`r2.mjs deploy`)가 막힌다. 옛 여행지(지금 198곳 모두 3장)를 채우는 동안 다른 고침을 내보낼 때만 `--allow-few-images` 를 쓴다.
 
 ## 6. 품질 기준
 
@@ -164,3 +169,32 @@
 - price 조각의 숫자는 원문과 같아야 한다. 원본에 `₱100억` 처럼 한국어 단위를 쓰면 다른 언어가 같은 숫자로 옮길 수 없으니 `₱10,000,000,000` 처럼 숫자로 쓴다. 규칙은 [i18n/GUIDE.md](../i18n/GUIDE.md) 에 있다.
 - 여행지 이름·지역·태그·공항 이름은 언어별 어휘집 `i18n/glossary/<언어>.json` 의 표기를 따른다.
 - `_i18n/` 은 작업 폴더라 git 에 넣지 않는다.
+
+## 8. 추천 모음 — `meta.json` 의 `destinations`·`monthly_picks`
+
+앱 첫 화면의 「지역별 추천 베스트 10」과 「월별 추천 여행지」는 이 두 목록이 정한다. 여행지 파일은 고치지 않는다.
+
+```json
+"destinations": [
+  {
+    "key": "manila", "icon": "location_city", "latitude": 14.5995, "longitude": 120.9842,
+    "name": { "en": "Manila", "ko": "마닐라", … 8개 언어 },
+    "tagline": { "en": "Walled city, museums and easy day trips", "ko": "성곽 도시와 박물관, 근교 당일치기", … },
+    "places": ["intramuros", "national-museum", "rizal-park", …]
+  }
+],
+"monthly_picks": [
+  { "month": 1, "places": ["cebu-city", "kalibo", "iloilo-city", "quiapo-church", "mount-pulag"] }
+]
+```
+
+| 목록 | 규칙 (빌드가 검사) |
+|------|-------------------|
+| `destinations` | `key` 는 `[a-z0-9-]`, 겹치지 않는다. `icon` 은 Material Symbols 이름. 좌표는 필리핀 안. `name`·`tagline` 은 8개 언어 모두. `places` 는 있는 여행지 slug 5~10개, 겹치지 않는다. 순서가 곧 순위다 |
+| `monthly_picks` | 1월부터 12월까지 12개, 차례대로. `places` 는 있는 여행지 slug 1~5개. **그 달이 그 여행지의 `best_season.months` 안이어야 한다** — 축제가 있어도 최적기가 아닌 달에는 넣지 않는다 |
+
+- **지역은 행정 지역(`regions`)이 아니라 여행자가 묵는 거점이다.** 그곳에서 당일치기·짧은 이동으로 가는 곳을 함께 넣는다(앙헬레스·클락 → 피나투보·수빅, 두마게테 → 아포섬·시키호르·오슬롭). 한 여행지가 여러 지역에 들어가도 된다.
+- **순서는 외국인 여행자가 많이 찾는 순서다.** 여행 플랫폼 순위(Trip.com·Tripadvisor 인용)·투어 상품 수·여행 매체를 2곳 이상 비교해 정한다.
+- **월별 추천은 그 달에 가야 하는 까닭이 있는 곳이다** — 건기 해변, 고래상어·환도상어 철, 서핑 철, 계단식 논, 운해, 축제(시눌로그·아티아티한·파낙벵가·파히야스·카다야완·자이언트 랜턴). 한 여행지는 세 달까지만 넣는다.
+- 근거(순위 비교·축제 날짜 출처)는 `sources/picks.json` 에 남긴다. 고칠 때마다 `content.mjs stamp data/meta.json` 으로 `data_version` 을 찍는다.
+
