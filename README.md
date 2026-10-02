@@ -3,7 +3,7 @@
 필리핀 여행지 198곳을 **8개 언어**의 JSON 으로 제공하는 정적 API 다. 서버 코드는 없다.
 
 - 언어: 영어 `en` · 중국어(간체) `zh` · 일본어 `ja` · 한국어 `ko` · 태국어 `th` · 베트남어 `vi` · 러시아어 `ru` · 아랍어 `ar`(오른쪽→왼쪽)
-- 배포: **Cloudflare R2** — api-skill 의 `r2.mjs deploy` 로 올린다(2026-10-01 부터). `main` 에 push 하면 GitHub Actions 가 옛 주소인 GitHub Pages 에도 배포한다.
+- 배포: **Cloudflare R2** — api-skill 의 `r2.mjs deploy` 로 올린다(2026-10-01 부터). 이 저장소는 GitHub 에 push 하지 않는다(2026-10-02) — 옛 주소인 GitHub Pages 는 2026-10-01 판에서 멈췄다.
 - 기본 주소: `https://files.withcenter.com/ph-travel-api/v2/`
   - 옛 주소 `https://thruthesky.github.io/ph-travel-api/v2/` 는 옛 앱을 위해 당분간 둔다. 같은 내용을 내보낸다.
 - 원본
@@ -293,7 +293,7 @@ const renderRun = (r) => (r.type ? `<span class="cdt-${r.type}">${escape(r.text)
 4. `node <api-skill>/scripts/content.mjs stamp data/meta.json` 으로 `data_version`(가공한 UTC 시각)을 찍는다.
 5. 저장소 루트에서 `node scripts/build.mjs` 로 규격을 검사하고, `node <api-skill>/scripts/content.mjs check --dir _site/v2` 로 배포 규격(8개 언어·사진·`data_version`)을 검사한다.
 6. 커밋한 뒤 `node <api-skill>/scripts/r2.mjs deploy --dir _site/v2 --country ph` 로 R2 에 배포한다. 끝나면 공개 주소를 스스로 확인한다. 절차와 규칙은 api-skill 의 `references/pipeline.md` 에 있다.
-7. `main` 에 push 하면 옛 주소(GitHub Pages)에도 1~2분 뒤 배포된다.
+7. GitHub 에는 push 하지 않는다 — 배포는 R2 뿐이다. 옛 주소(GitHub Pages)는 2026-10-01 판에서 멈췄다.
 
 규격 검사에 실패하면 배포 도구가 아무것도 올리지 않는다. Actions 도 멈춰서 옛 주소에는 이전 내용이 그대로 남는다.
 

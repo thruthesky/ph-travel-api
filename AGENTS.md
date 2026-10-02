@@ -22,15 +22,15 @@
 | 지원 언어·분류 목록·속성·단락·표시 방법(type) 규격 | `data/meta.json` |
 | 사람용 API 설명·스킬 설치 | [README.md](README.md) |
 
-Claude Code 에서는 `/api-skill:api-skill <요청>` 으로 부른다. 스킬 설치·업데이트는 [thruthesky/skills README](https://github.com/thruthesky/skills#readme) 에 있다. 스킬을 고치는 곳은 이 저장소가 아니라 thruthesky/skills 다(maintain.md §8).
+Claude Code 에서는 `/api-skill:api-skill <요청>` 으로 부른다. 스킬 설치·업데이트는 [thruthesky/skills README](https://github.com/thruthesky/skills#readme) 에 있다. 스킬을 고치는 곳은 이 저장소가 아니라 이 컴퓨터의 `~/apps/skills/skills/api-skill/`(thruthesky/skills 체크아웃) 하나뿐이다(maintain.md §8). 스킬 배포는 `~/apps/skills` 의 push 다.
 
 ## 절대 규칙 (자세한 것은 maintain.md §5)
 
-1. **운영 배포는 Cloudflare R2 업로드다** — api-skill 의 `r2.mjs deploy --country ph` → `https://files.withcenter.com/ph-travel-api/v2/`. 배포와 push 는 사용자가 요청할 때만 하고, 작업은 커밋까지만 한다. `main` push 는 옛 주소(GitHub Pages)에도 배포된다.
-2. **배포·push 전에 `node scripts/build.mjs` 와 `content.mjs check --dir _site/v2` 가 성공해야 한다.** 콘텐츠를 고쳤으면 `content.mjs stamp data/meta.json` 으로 `data_version` 을 먼저 찍는다.
+1. **배포는 오직 Cloudflare R2 다** — api-skill 의 `r2.mjs deploy --country ph` → `https://files.withcenter.com/ph-travel-api/v2/`. 배포는 사용자가 요청할 때만 하고, 작업은 커밋까지만 한다. **이 저장소는 GitHub 에 push 하지 않는다**(2026-10-02 사용자 결정). 옛 주소(GitHub Pages)는 2026-10-01 판에서 멈췄다.
+2. **배포 전에 `node scripts/build.mjs` 와 `content.mjs check --dir _site/v2` 가 성공해야 한다.** 콘텐츠를 고쳤으면 `content.mjs stamp data/meta.json` 으로 `data_version` 을 먼저 찍는다.
 3. **`_site/` 는 커밋하지 않고, 외부 npm 패키지를 넣지 않는다.**
 4. **여행지 내용은 이 저장소의 `data/` 에서만 고친다.** 필고의 `apps/travel/data/travel/` 은 옛 사본이다.
    - 원본 언어는 한국어(`data/ko/`)다. 원본을 먼저 고치고, 번역본(`data/en`·`zh`·`ja`·`th`·`vi`·`ru`·`ar`)은 `scripts/i18n.mjs` 로 맞춘다.
    - 모든 언어의 여행지는 모양이 같아야 한다. 빌드가 원본과 비교해 다르면 실패한다.
 5. **R2 배포 키:** `/Users/thruthesky/Documents/Keys/Cloudflare/r2/admin-permissions-all-r2.txt` (R2 관리 권한 — 계정의 모든 R2 버킷). `r2.mjs` 가 읽는다. 값은 출력·커밋하지 않는다.
-6. **서브모듈 커밋 순서:** 이 저장소에서 먼저 커밋·push 한 뒤, 필고 저장소에서 `submodules/ph-travel-api` 포인터를 커밋한다.
+6. **서브모듈 포인터:** GitHub 에 push 하지 않으므로 필고 저장소의 `submodules/ph-travel-api` 포인터는 커밋하지 않는다(GitHub 에 없는 커밋을 가리키게 된다).
