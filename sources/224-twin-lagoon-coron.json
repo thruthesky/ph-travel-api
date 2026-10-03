@@ -1,0 +1,293 @@
+{
+  "id": 224,
+  "slug": "twin-lagoon-coron",
+  "checked_at": "2026-10-03T15:30:00Z",
+  "facts": [
+    {
+      "where": "overview",
+      "fact": "위치·좌표",
+      "value": "코론 섬 해안, 11.9478, 120.2096",
+      "sources": [
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Twin+Lagoon+Coron&format=json",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "OSM 노드 Twin Lagoon(natural=reef) 11.9477545, 120.2095632"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Twin_Lagoon_of_Coron_Island.jpg",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "촬영 위치 11.9488N 120.2104E, 2026-02-20 촬영"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Twin_Lagoon,_Coron,_Palawan,_Philippines_-_panoramio.jpg",
+          "grade": "B",
+          "date": "2011-04-16",
+          "says": "좌표 11.947718, 120.2095"
+        }
+      ],
+      "decision": "후보 좌표(11.9482, 120.2085)와 100~200m 차이라 OSM 값 사용"
+    },
+    {
+      "where": "overview",
+      "fact": "구조: 두 라군, 낮은 석회암 벽, 썰물에는 수영으로만 통과, 안쪽 라군이 더 따뜻하고 담수·바닷물 혼합, 칼라미아네스 보호경관·타그바누아 조상 영역",
+      "value": "Commons 파일 설명(위키 로브즈 어스 2026 출품작)",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Twin_Lagoon_of_Coron_Island.jpg",
+          "grade": "B",
+          "date": "2026-02-20",
+          "says": "Two connected bodies of water separated by a low limestone wall passable only by swimming at low tide; inner lagoon warmer, mix of fresh and salt water; Calamianes Protected Seascape; Tagbanua ancestral domain"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Coron",
+          "grade": "B",
+          "date": "미상",
+          "says": "Twin Lagoon: 썰물에는 바위 구멍 아래로 카약/수영, 밀물에는 구멍을 헤엄치거나 통로로 건넘(서술이 파일 설명과 일부 엇갈림)"
+        }
+      ],
+      "decision": "밀물=사다리·통로, 썰물=수영 통과로 서술하되 '물때·그날 상황에 따라'로 완화. 원인(지열)은 '확실하지 않다'고 씀. 수온 숫자·층 방향은 허용된 출처로 교차 확인이 안 돼 본문에서 뺌"
+    },
+    {
+      "where": "overview",
+      "fact": "코론 섬 조상 영역 공식 인정",
+      "value": "1998-06-05 CADC No.134, 타그바누아",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Coron,_Palawan",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "On June 5, 1998, Coron Island was recognized as an ancestral domain with the issuance of CADC No. 134 to the Tagbanua people"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Calamian_Islands",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "칼라미안 타그바누아 CADT 24,520ha(2004)"
+        }
+      ],
+      "decision": "1998년 인정으로 씀. 입장료를 공동체가 관리한다는 서술은 기존 047·202 항목과 같음"
+    },
+    {
+      "where": "best_time",
+      "fact": "건기·우기",
+      "value": "건기 12~5월, 우기 6~11월 / 최적기 11~5월",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Busuanga,_Palawan",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "dry from December to May and rainy from June to November, 연강수 2,873.9mm"
+        },
+        {
+          "url": "https://www.lakwatsero.com/destinations/coron-travel-guide/",
+          "grade": "C",
+          "date": "2020-04-20",
+          "says": "Best months are from October to May"
+        }
+      ],
+      "decision": "11월은 우기 끝이지만 11~5월을 최적기(months)로 기존 202 항목과 맞춤. 표에 10~11월을 '날씨가 갈리는 시기'로 적음"
+    },
+    {
+      "where": "costs",
+      "fact": "트윈 라군 입장료",
+      "value": "약 ₱200",
+      "sources": [
+        {
+          "url": "https://thequeensescape.com/coron-palawan-travel-guide/",
+          "grade": "B",
+          "date": "2026-03-28",
+          "says": "섬 투어 A ₱1,200, 울티메이트 ₱1,700에 환경세·입장료 포함(개별 입장료 금액은 이 글에 없음)"
+        },
+        {
+          "url": "https://www.lakwatsero.com/destinations/coron-travel-guide/",
+          "grade": "C",
+          "date": "2020-04-20",
+          "says": "트윈 라군 입장 ₱50~100(2020년판, 오래됨)"
+        }
+      ],
+      "decision": "공식(A) 요금표를 못 찾았고 ₱200 은 기존 202 항목(sources/202-kayangan-lake.json)의 값을 따랐다. 이번 조사에서 허용된 출처로 독립 확인하지 못했으므로 '약'+'투어 포함 여부·최신 공지 확인'으로 썼다"
+    },
+    {
+      "where": "costs",
+      "fact": "코론 섬 조인 투어",
+      "value": "약 ₱1,200~1,700",
+      "sources": [
+        {
+          "url": "https://thequeensescape.com/coron-palawan-travel-guide/",
+          "grade": "B",
+          "date": "2026-03-28",
+          "says": "Coron Island Tour A PHP 1,200, Ultimate Tour PHP 1,700 (April 2026), 환경세·이동·점심·가이드 포함"
+        }
+      ],
+      "decision": "한 곳(B)만 직접 확인, 기존 202 항목 값과 일치"
+    },
+    {
+      "where": "costs",
+      "fact": "프라이빗 보트·스노클 대여·클락–부수앙가 항공 요금",
+      "value": "₱3,500~10,000 / ₱150 / ₱2,500~6,000",
+      "sources": [],
+      "decision": "확인 못 함 — 기존 202 항목의 값을 그대로 차용했고 허용된 출처로 재확인하지 못했다. 본문은 '약'으로 표기"
+    },
+    {
+      "where": "getting_there",
+      "fact": "마닐라–부수앙가 직항 중단(2026-03-29), 클락 이전",
+      "value": "PAL·세브고 터보프롭 마닐라 운항 종료, 부수앙가 노선은 클락으로",
+      "sources": [
+        {
+          "url": "https://bilyonaryo.com/2026/02/02/pal-ends-turboprops-from-manila-moves-busuanga-and-siargao-flights-to-clark/travel/",
+          "grade": "B",
+          "date": "2026-02-02",
+          "says": "2026-03-29 부터 PAL 마닐라 터보프롭 중단, 부수앙가 노선 클락으로 이전"
+        },
+        {
+          "url": "https://www.ch-aviation.com/news/163065-cebu-pacific-to-end-manila-turboprop-flights-in-late-1q26",
+          "grade": "B",
+          "date": "2026",
+          "says": "세브고 등이 2026-03-29 부터 마닐라 터보프롭을 클락으로, 클락–부수앙가 하루 2회"
+        },
+        {
+          "url": "https://coron-busuanga.com/how-to-get-to-coron/",
+          "grade": "C",
+          "date": "2026-03",
+          "says": "마닐라–코론 직항 없음, 클락·세부에서 1~1.5시간"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Francisco_B._Reyes_Airport",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "취항: Cebgo·PAL Express·Sunlight Air, 목적지 세부·클락·엘니도"
+        }
+      ],
+      "decision": "PAL 공식 공지 페이지가 404 라 A등급 출처는 없다. 기사 2곳이 일치해 본문에 씀"
+    },
+    {
+      "where": "getting_there",
+      "fact": "마닐라–클락 P2P, 공항–타운 밴, 환경세, 엘니도 쾌속선, 마닐라 2GO",
+      "value": "P2P 약 ₱450~600·2시간30분~3시간 / 밴 약 ₱250·30분 / 환경세 약 ₱200 / 엘니도 쾌속선 3시간30분~4시간·₱2,700~2,900 / 2GO 12~18시간·₱1,444~2,257",
+      "sources": [
+        {
+          "url": "https://coron-busuanga.com/how-to-get-to-coron/",
+          "grade": "C",
+          "date": "2026-03",
+          "says": "P2P 약 3시간, 밴 정액 ₱250·약 30분, 환경세 200페소, 2GO 주 2회 12~18시간 ₱1,444~2,257, 엘니도 쾌속선 3.5~4시간 ₱2,700~2,900"
+        }
+      ],
+      "decision": "개인 사이트 한 곳(C)만 직접 읽었고 기존 202 항목과 일치. '약'·'있다는 안내'·'최신 공지 확인'으로 완화"
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "코론 타운 호스텔 가격대",
+      "value": "1박 약 ₱1,250~2,500",
+      "sources": [
+        {
+          "url": "https://thequeensescape.com/coron-palawan-travel-guide/",
+          "grade": "B",
+          "date": "2026-03-28",
+          "says": "budget hostels starting around PHP 1,250/night"
+        }
+      ],
+      "decision": "상한은 기존 202 항목 값"
+    },
+    {
+      "where": "getting_there",
+      "fact": "코론 타운에서 트윈 라군까지 보트 시간",
+      "value": "코스에 따라 약 30분~1시간",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Twin_Lagoon_of_Coron_Island.jpg",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "좌표상 코론 타운(11.9989, 120.2053)에서 직선 약 5.7km"
+        }
+      ],
+      "decision": "허용된 출처에 소요 시간이 없어 거리로 어림해 넓은 범위로 썼다. 카양안 호수는 기존 항목에서 20~30분"
+    },
+    {
+      "where": "tips",
+      "fact": "구명조끼 의무, 카약 대여, 붐비는 시간, 수심, 사진 속 사다리·통로",
+      "value": "서술은 후기 수준으로 완화",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kayangan_Lake",
+          "grade": "B",
+          "date": "미상",
+          "says": "코론 호수 구명조끼는 2017년 사고 후 의무(기존 202 항목 근거)"
+        }
+      ],
+      "decision": "검색 엔진 결과 페이지에서 찾은 블로그 글들의 세부(카약 요금·붐비는 시각·수온 숫자)는 사용하지 않았다. 구명조끼·카약·수심·붐빔은 '안내가 있다'·'후기에서'·'이른 시간' 정도로 완화했다"
+    },
+    {
+      "where": "전체",
+      "fact": "조사 방식의 한계",
+      "value": "초반에 검색 엔진 결과 페이지(Brave·Bing·DuckDuckGo·Google)를 WebFetch 로 열었음",
+      "sources": [
+        {
+          "url": "https://search.brave.com/",
+          "grade": "C",
+          "date": "2026-10-03",
+          "says": "WebSearch 한도 소진 뒤 검색 엔진 페이지를 열어 후보 글을 찾았고, 작업 중 중단 지시를 받아 그 이후로는 쓰지 않음"
+        }
+      ],
+      "decision": "그 경로로만 확인된 수치(수온 26~29℃·최대 수심 15m·카약 대여료·정확한 보트 시간·픽업 시각)는 본문에서 뺐다. 이 항목은 조사 과정 기록이다"
+    }
+  ],
+  "images": [
+    {
+      "file": "224-twin-lagoon-coron.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Twins_of_Coron.jpg",
+      "check": "드론 사진, 두 라군이 비스듬히 보임, 아래 워터마크는 잘라냄"
+    },
+    {
+      "file": "224-twin-lagoon-coron-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Twin_Lagoon_Coron_Palawan.jpg",
+      "check": "드론 사진, 위에서 본 두 라군과 방카, 아래 워터마크는 잘라냄"
+    },
+    {
+      "file": "224-twin-lagoon-coron-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Coron_Twin_Lagoon_west_lobe_(Coron,_Palawan;_03-17-2024).jpg",
+      "check": "서쪽 라군과 카약, Commons 분류 Twin Lagoon (Coron, Palawan)"
+    },
+    {
+      "file": "224-twin-lagoon-coron-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Coron_Twin_ragun(코론의_트윈라군)_-_panoramio_(1).jpg",
+      "check": "선착장 나무 잔교와 방카, 좌표 11.9495,120.2091(0.2km)"
+    },
+    {
+      "file": "224-twin-lagoon-coron-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Isola_di_coron,_lagune_gemelle_(twin_lagoon)_05.jpg",
+      "check": "두 라군 사이 사다리, 분류 Twin Lagoon (Coron, Palawan), 위치정보 없음"
+    },
+    {
+      "file": "224-twin-lagoon-coron-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Twin_Lagoon,_Coron,_Palawan,_Philippines_-_panoramio.jpg",
+      "check": "절벽 아래 방카와 나무 통로, 좌표 0km"
+    },
+    {
+      "file": "224-twin-lagoon-coron-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Coron_Twin_ragun(코론의_트윈라군)_-_panoramio.jpg",
+      "check": "절벽 아래 나무 통로, 좌표 0.2km"
+    },
+    {
+      "file": "224-twin-lagoon-coron-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Twin_Lagoon_of_Coron_Island.jpg",
+      "check": "방카와 절벽, 2026 위키 러브즈 어스 출품, 좌표 0.1km"
+    },
+    {
+      "file": "224-twin-lagoon-coron-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Coron_Twin_ragun(코론_트윈_라군)_-_panoramio_(2).jpg",
+      "check": "석회암 절벽과 물빛, 좌표 0.3km"
+    },
+    {
+      "file": "224-twin-lagoon-coron-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Coron_Twin_ragun(코론_트윈_라군)_-_panoramio_(5).jpg",
+      "check": "라군 맑은 물, 좌표 0.1km"
+    },
+    {
+      "file": "224-twin-lagoon-coron-11.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Isola_di_coron,_lagune_gemelle_(twin_lagoon)_04.jpg",
+      "check": "라군 바깥 석회암 해안, Commons 분류 Twin Lagoon (Coron, Palawan), 위치정보 없음 — 본문의 석회암 지형 서술과 같지만 라군 내부는 아님"
+    }
+  ]
+}
