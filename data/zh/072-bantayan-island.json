@@ -27,10 +27,10 @@
     "type": "date",
     "label": "最佳季节",
     "icon": "calendar_month",
-    "text": "3月–5月（旱季）",
+    "text": "3月~5月（旱季）",
     "months": [3, 4, 5]
   },
-  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "2–3天" },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "2~3天" },
   "budget": {
     "type": "price",
     "label": "预算",
@@ -79,6 +79,55 @@
         "alt": "班塔延岛",
         "credit": "SYKE Travel & Tours / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Beach_in_Bantayan_Island.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/072-bantayan-island-4.webp",
+        "alt": "维尔亨岛海滩",
+        "credit": "MikelleBandin / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Virgin_Island_(Sillon_Island),_Santa_Fe,_Bantayan,_Cebu.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/072-bantayan-island-5.webp",
+        "alt": "隔海远眺希兰塔干岛",
+        "credit": "Unbuttered Parsnip / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hilantagaan_Island,_Santa_Fe_seen_from_the_south.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/072-bantayan-island-7.webp",
+        "alt": "糖海滩的白沙滩",
+        "credit": "Mike Gonzalez / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sugar_Beach_Bantayan.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/072-bantayan-island-8.webp",
+        "alt": "马德里德霍斯科塔要塞遗址",
+        "credit": "Juliethepearl / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kota_Park_Bantayan_Island_(1).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/072-bantayan-island-9.webp",
+        "alt": "马德里德霍斯海边的日落",
+        "credit": "Unbuttered Parsnip / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Enjoying_Madridejos.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/072-bantayan-island-11.webp",
+        "alt": "班塔延近海的日出",
+        "credit": "Herbert Kikoy / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bantayan_Sunrise.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/072-bantayan-island-12.webp",
+        "alt": "退潮时的圣菲海滩",
+        "credit": "Francisco M. Pajares / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Santa_Fe_Beach.jpg"
       }
     ]
   },
@@ -115,9 +164,7 @@
         {
           "type": "paragraph",
           "children": [
-            {
-              "text": "这座岛自古以来养鸡业发达，被称为\"米沙鄢的鸡蛋篮子\"，在海里捕获后经日晒风干的鱼干（danggit）和鱿鱼干是特产。岛屿西部的班塔延镇有一座起源于"
-            },
+            { "text": "这座岛自古以来养鸡业发达，被称为“米沙鄢的鸡蛋篮子”，在海里捕获后经日晒风干的鱼干（danggit）和鱿鱼干是特产。岛屿西部的班塔延镇有一座起源于" },
             { "type": "date", "text": "1580年" },
             { "text": "前后建立的教区的圣彼得与圣保罗教堂，被认为是菲律宾最古老的教区之一。北部的马德里德霍斯还留有西班牙时代为防海盗而修建的瞭望塔遗址（Kota）。" }
           ]
@@ -135,6 +182,18 @@
           "children": [
             { "type": "date", "text": "2013年" },
             { "text": "台风海燕正面袭击该岛，造成严重损失，如今大部分已经修复。岛屿四周环绕珊瑚礁，海水浅而平静，也很适合带孩子戏水。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "岛屿面积约108.8平方公里，略大于首尔的六分之一，地势平坦，最高处海拔也仅" },
+            { "type": "distance", "text": "26米" },
+            {
+              "text": "。人口约16万，三个市镇各具特色。圣菲是汇集港口、机场和海滨度假村的旅游据点；班塔延镇盛产鸡蛋，并有古老教堂，是岛上的中心；马德里德霍斯是位于岛屿北端、以鱼干加工和渔业为主的村镇。公共交通很少，因此通常的安排是住在圣菲，并留出一天骑摩托车环岛一周。"
+            },
+            { "type": "date", "text": "2025年9月30日" },
+            { "text": "宿务北部地震之后，海滩住宿和渡轮大体仍正常运营，但教堂和奥格通洞穴等处禁止进入，请查看下文说明。" }
           ]
         }
       ]
@@ -170,7 +229,15 @@
               "number": 3,
               "title": "奥格通洞穴游泳",
               "children": [
-                { "text": "可以在圣菲奥格通洞穴度假村（Ogtong Cave Resort）内的石灰岩洞穴中清澈的地下水潭里游泳。即便不是住客，只要缴纳门票也能使用。" }
+                { "text": "这里是圣菲奥格通洞穴度假村（Ogtong Cave Resort）内的名胜，可在石灰岩洞穴清澈的地下水池中游泳。不过" },
+                { "type": "date", "text": "2025年9月30日" },
+                { "text": "地震时发生落石，洞穴为安全检查而关闭，截至" },
+                { "type": "date", "text": "2026年" },
+                { "text": "仍不确定是否重新开放，因此前往前请先向度假村确认。度假村海滩和泳池的门票成人约" },
+                { "type": "price", "text": "₱200" },
+                { "text": "，儿童约" },
+                { "type": "price", "text": "₱150" },
+                { "text": "。" }
               ]
             },
             {
@@ -187,7 +254,13 @@
               "type": "card",
               "number": 5,
               "title": "科塔公园日落",
-              "children": [{ "text": "岛屿西部马德里德霍斯的科塔公园（Kota Park）是西班牙时代石造瞭望塔遗址面朝大海而立的地方，是欣赏日落的名地。" }]
+              "children": [
+                {
+                  "text": "岛屿北端马德里德霍斯的科塔公园（Kota Park）保留着为防海盗而修筑的西班牙时代石造要塞遗址（Kota），遗址面朝大海，附近还有一座灯塔。入场大体免费，据说是岛上观赏日落的最佳地点，请在日落前一小时左右抵达。从圣菲骑摩托车约需"
+                },
+                { "type": "duration", "text": "30~45分钟" },
+                { "text": "，返程时天色已暗，请检查摩托车的前灯。" }
+              ]
             },
             {
               "type": "card",
@@ -202,6 +275,22 @@
               "number": 7,
               "title": "选购鱼干",
               "children": [{ "text": "在班塔延镇市场和圣菲港口周边的商店，可以便宜买到鱼干、干鱿鱼和干虾。许多店铺提供真空包装服务，很适合作为伴手礼。" }]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "奥博奥布红树林生态公园",
+              "children": [
+                { "text": "这是位于班塔延镇奥博奥布（Obo-ob）村的红树林公园。沿着约" },
+                { "type": "distance", "text": "1公里" },
+                { "text": "长的竹制步道漫步，登上尽头的观景塔，森林与大海尽收眼底。门票约" },
+                { "type": "price", "text": "₱50~55" },
+                { "text": "，步行游览需" },
+                { "type": "duration", "text": "30~45分钟" },
+                { "text": "，从圣菲骑摩托车约" },
+                { "type": "duration", "text": "20~25分钟" },
+                { "text": "可达。营业时间以及皮划艇等附加体验的费用请在现场确认。" }
+              ]
             }
           ]
         }
@@ -245,7 +334,7 @@
                   "type": "stepper",
                   "items": [
                     { "time": "上午8点至12点", "children": [{ "text": "维尔亨岛·希兰塔干岛跳岛浮潜" }] },
-                    { "time": "下午1点至3点", "children": [{ "text": "在奥格通洞穴泳池休息" }] },
+                    { "time": "下午1点至3点", "children": [{ "text": "在奥格通洞穴度假村（若洞穴已重新开放）或天堂海滩休息" }] },
                     { "time": "下午3点至6点30分", "children": [{ "text": "骑摩托车游览班塔延镇教堂与市场，随后在科塔公园看日落" }] },
                     { "time": "傍晚", "children": [{ "text": "在班塔延镇或圣菲享用晚餐" }] }
                   ]
@@ -260,6 +349,50 @@
                   "items": [
                     { "time": "上午", "children": [{ "text": "在天堂海滩做最后一次游泳，选购鱼干" }] },
                     { "time": "中午前后", "children": [{ "text": "从圣菲港乘渡轮前往哈格纳亚，再返回宿务市区" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "跳岛游行程",
+              "subtitle": "4~5小时",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "上午8点", "children": [{ "text": "在圣菲旅游办公室缴纳生态费，分配螃蟹船" }] },
+                    {
+                      "time": "上午8点30分",
+                      "children": [
+                        { "text": "从圣菲港附近出发，约" },
+                        { "type": "duration", "text": "20分钟" },
+                        { "text": "后抵达维尔亨岛，享受白沙滩与浮潜" }
+                      ]
+                    },
+                    { "time": "上午10点", "children": [{ "text": "在Balidbid（Baigad）泻湖乘船穿行于红树林间" }] },
+                    { "time": "上午11点", "children": [{ "text": "在希兰塔干岛前的浅水珊瑚区浮潜" }] },
+                    { "time": "中午12点30分", "children": [{ "text": "返回圣菲吃一顿较晚的午餐" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [{ "text": "船只通常按5人一船包下，每座岛另收门票。顺序会因潮汐和风向而调整，请听从船夫的安排。" }]
+                }
+              ]
+            },
+            {
+              "title": "摩托车环岛行程",
+              "subtitle": "一天",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "05:30", "children": [{ "text": "在圣菲科塔海滩看日出" }] },
+                    { "time": "上午8点30分", "children": [{ "text": "参观班塔延镇教堂外观和市场，选购鱼干" }] },
+                    { "time": "上午10点", "children": [{ "text": "漫步奥博奥布红树林生态公园" }] },
+                    { "time": "中午12点", "children": [{ "text": "在sutukil餐厅享用海鲜午餐" }] },
+                    { "time": "下午2点30分", "children": [{ "text": "游览马德里德霍斯渔村和鱼干店" }] },
+                    { "time": "下午4点30分至日落", "children": [{ "text": "在科塔公园看日落，天黑前返回圣菲" }] }
                   ]
                 }
               ]
@@ -286,7 +419,15 @@
                   "children": [
                     { "text": "从马尼拉到麦克坦-宿务国际机场（CEB）约需" },
                     { "type": "duration", "text": "1小时20分钟" },
-                    { "text": "。圣菲虽有小型机场，但基本没有定期商业航班，一般都经宿务转乘。" }
+                    { "text": "。圣菲的班塔延机场（跑道" },
+                    { "type": "distance", "text": "1,200米" },
+                    { "text": "）自" },
+                    { "type": "date", "text": "2024年8月" },
+                    { "text": "起由LEASCOR开通了麦克坦—班塔延航线（约" },
+                    { "type": "duration", "text": "30分钟" },
+                    { "text": "）。不过航班每周只有少数几天，曾因燃料问题临时停飞，票价也因报道而异，单程从" },
+                    { "type": "price", "text": "₱888" },
+                    { "text": "到数千比索不等。请不要把行程押在这趟航班上，务必先向航空公司或旅行社确认是否运营。可靠的方式是经由宿务的陆路和水路。" }
                   ]
                 }
               ]
@@ -298,15 +439,17 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "从宿务市区SM宿务城旁的北部巴士总站，开往哈格纳亚（Hagnaya）的塞雷斯巴士从清晨起频繁发车。车程约" },
-                    { "type": "duration", "text": "3–4小时" },
+                    {
+                      "text": "从宿务市区SM City Cebu购物中心旁的北部巴士总站出发，开往哈格纳亚（Hagnaya）的Ceres巴士从清晨起班次频繁。耗时约"
+                    },
+                    { "type": "duration", "text": "3~4小时" },
                     { "text": "，票价约" },
-                    { "type": "price", "text": "₱180–250" },
-                    { "text": "。从麦克坦机场包车或包Grab前往哈格纳亚约需" },
-                    { "type": "duration", "text": "2小时30分钟–3小时" },
+                    { "type": "price", "text": "₱250~300" },
+                    { "text": "。从麦克坦机场包一辆小巴或叫Grab前往哈格纳亚，约需" },
+                    { "type": "duration", "text": "2小时30分钟~3小时" },
                     { "text": "，费用约" },
-                    { "type": "price", "text": "₱3,000–4,500" },
-                    { "text": "。部分巴士公司也出售巴士加渡轮的联程套票。" }
+                    { "type": "price", "text": "₱3,000~4,500" },
+                    { "text": "。部分巴士公司也出售巴士加渡轮的联票。" }
                   ]
                 }
               ]
@@ -330,12 +473,64 @@
                 {
                   "type": "paragraph",
                   "children": [
+                    { "text": "哈格纳亚码头使用费约" },
+                    { "type": "price", "text": "₱25" },
+                    { "text": "，抵达圣菲时另收" },
+                    { "type": "price", "text": "₱30" },
+                    { "text": "环境费。据运营公司公布，渡轮从凌晨2至3点一直运行到下午晚些时候，但末班船（大约" },
+                    { "type": "time", "text": "下午4点30分至7点30分" },
+                    { "text": "）因公司和星期而异。" },
+                    { "type": "date", "text": "3月" },
+                    { "text": "因燃油成本上涨的票价自" },
+                    { "type": "date", "text": "5月11日" },
+                    { "text": "起回落，现在视公司而定约为" },
+                    { "type": "price", "text": "₱370~392" },
+                    { "text": "。" }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
                     { "type": "date", "text": "2025年9月30日" },
                     {
                       "text": "宿务北部地震使哈格纳亚港部分下陷，涨潮时海水会漫过部分码头，受损区域禁止进入。海事工业管理局（MARINA）在涨潮时管制上下船，视潮汐情况航班常常推迟"
                     },
                     { "type": "duration", "text": "1小时" },
                     { "text": "以上，因此从宿务市出发尽量选上午，返程当天请与飞机时间留出余地。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "直达巴士",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Ceres Liner还提供从宿务北部巴士总站直达班塔延镇和马德里德霍斯的班次，巴士会连车一起开上渡轮。票价前往班塔延镇约" },
+                    { "type": "price", "text": "₱299" },
+                    { "text": "，前往马德里德霍斯约" },
+                    { "type": "price", "text": "₱330" },
+                    { "text": "，无需换乘，十分方便，但有评价称班次较少，请先在总站售票窗口确认发车时间。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "经麦德林（Cawit）港",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "在宿务北部麦德林（Medellin）的卡维特（Cawit）港，Aznar Shipping运营开往圣菲的客船和客货两用船。耗时约" },
+                    { "type": "duration", "text": "1小时~1小时30分钟" },
+                    { "text": "，普通票价约" },
+                    { "type": "price", "text": "₱315" },
+                    { "text": "（无空调）至" },
+                    { "type": "price", "text": "₱390" },
+                    { "text": "（空调）。每天三四班，各日时刻表不同，需确认最新时刻表，常被作为哈格纳亚码头拥挤或因潮汐延误时的备选方案。" }
                   ]
                 }
               ]
@@ -348,12 +543,26 @@
                   "type": "paragraph",
                   "children": [
                     { "text": "从圣菲港到海边住宿地乘三轮摩托车约" },
-                    { "type": "price", "text": "₱50–150" },
+                    { "type": "price", "text": "₱50~150" },
                     { "text": "。摩托车租赁每天约" },
-                    { "type": "price", "text": "₱350–500" },
+                    { "type": "price", "text": "₱350~500" },
                     { "text": "，三轮摩托半日游约" },
-                    { "type": "price", "text": "₱800–1,200" },
+                    { "type": "price", "text": "₱800~1,200" },
                     { "text": "。" }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从圣菲到班塔延镇约" },
+                    { "type": "distance", "text": "10公里" },
+                    { "text": "（骑摩托车约" },
+                    { "type": "duration", "text": "20分钟" },
+                    { "text": "），到马德里德霍斯的科塔公园约需" },
+                    { "type": "duration", "text": "30~45分钟" },
+                    { "text": "。从港口出发的合乘三轮摩托车每人约" },
+                    { "type": "price", "text": "₱30" },
+                    { "text": "起。" }
                   ]
                 }
               ]
@@ -400,6 +609,20 @@
           ]
         },
         {
+          "type": "paragraph",
+          "children": [
+            { "text": "旱季白天气温大体为" },
+            { "type": "temperature", "text": "28~32℃" },
+            { "text": "。各市镇的节庆各不相同。班塔延镇在守护圣人彼得与保罗的瞻礼日" },
+            { "type": "date", "text": "6月29日" },
+            { "text": "前后举行的Palawod节最为盛大。圣菲在" },
+            { "type": "date", "text": "1月" },
+            { "text": "圣婴节前后举办Panuhug节，马德里德霍斯则在" },
+            { "type": "date", "text": "12月8日" },
+            { "text": "圣母无染原罪瞻礼日举办纪念渔业的Isda节。日期和活动每年都会变化，请查看最新公告。" }
+          ]
+        },
+        {
           "type": "table",
           "label": "各时期一览",
           "icon": "calendar_month",
@@ -407,7 +630,8 @@
           "rows": [
             ["12月~2月", "旱季，风小·凉爽", "骑摩托车游览舒适"],
             ["3月~5月", "旱季，海面平静·阳光强烈", "海滩最佳时期——圣周住宿价格涨2~3倍，5月初连休拥挤"],
-            ["6月~11月", "雨季，阵雨·多云", "9~11月台风导致渡轮停航——请确认强风灾害预报"]
+            ["6月~8月", "雨季，阵雨·多云", "淡季——视天气灵活安排行程，6月末有Palawod节"],
+            ["9月~11月", "雨季后半段，受台风影响最大", "渡轮常停航——避免把行程排在归国前夕，并确认天气预报"]
           ]
         }
       ]
@@ -423,14 +647,15 @@
           "currency": "PHP",
           "columns": ["项目", "预估费用", "备注"],
           "items": [
-            { "label": "宿务 → 哈格纳亚巴士", "price": "约₱180–250", "note": "3–4小时" },
+            { "label": "宿务 → 哈格纳亚巴士", "price": "约₱250~300", "note": "3~4小时" },
             { "label": "哈格纳亚 → 圣菲渡轮", "price": "约₱370~400", "note": "另收码头使用费" },
-            { "label": "跳岛游", "price": "每人约₱500–1,500", "note": "包船约₱2,500–4,000" },
-            { "label": "维尔亨岛·洞穴泳池门票", "price": "各约₱100–500", "note": "视运营政策而变动" },
-            { "label": "摩托车租赁", "price": "每天约₱350–500", "note": "燃油另计" },
-            { "label": "住宿", "price": "每晚约₱1,000–5,000", "note": "圣周期间大幅上涨" },
-            { "label": "餐饮", "price": "每餐约₱150–500", "note": "海鲜烧烤按重量计价" },
-            { "label": "旅游·环境费", "price": "约₱30–100", "note": "抵达时或跳岛游时收取" }
+            { "label": "跳岛游", "price": "每人约₱500~1,500", "note": "包船约₱2,500~4,000" },
+            { "label": "维尔亨岛·洞穴泳池门票", "price": "各约₱100~500", "note": "视运营政策而变动" },
+            { "label": "摩托车租赁", "price": "每天约₱350~500", "note": "燃油另计" },
+            { "label": "住宿", "price": "每晚约₱1,000~5,000", "note": "圣周期间大幅上涨" },
+            { "label": "餐饮", "price": "每餐约₱150~500", "note": "海鲜烧烤按重量计价" },
+            { "label": "旅游·环境费", "price": "约₱30~100", "note": "抵达时或跳岛游时收取" },
+            { "label": "麦德林 → 圣菲渡轮（备选）", "price": "约₱315~390", "note": "无空调·空调票价" }
           ]
         },
         {
@@ -455,9 +680,9 @@
             { "text": "游客住宿大多集中在距圣菲港乘三轮摩托车" },
             { "type": "duration", "text": "10分钟" },
             { "text": "以内的南岸一带。海滩前的中档度假村每晚约" },
-            { "type": "price", "text": "₱2,500–5,000" },
+            { "type": "price", "text": "₱2,500~5,000" },
             { "text": "，村内的民宿约" },
-            { "type": "price", "text": "₱1,000–1,800" },
+            { "type": "price", "text": "₱1,000~1,800" },
             { "text": "。若想更清静，圣菲北部或岛屿西岸的小型度假村也不错，但餐厅和便利设施较少，租一辆摩托车会更方便。" }
           ]
         },
@@ -465,7 +690,21 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "班塔延的代表美食无疑是海鲜。圣菲海滩和班塔延镇市场周边的烧烤餐厅会让顾客挑选鱼、鱿鱼、虾、贝类，按重量计价现场烧烤，价格大多比宿务市区便宜。早餐时请务必尝一尝把鱼干油炸后配上蒜香饭和煎蛋的「鱼干煎蛋饭」（Danggit Silog）。得益于岛上发达的养鸡业，鸡蛋新鲜又便宜，当地蛋料理和焦糖布丁（Leche Flan）也很受欢迎。"
+              "text": "班塔延的代表美食无疑是海鲜。圣菲海滩和班塔延镇市场周边的烧烤餐厅会让顾客挑选鱼、鱿鱼、虾、贝类，按重量计价现场烧烤，价格大多比宿务市区便宜。早餐时请务必尝一尝把鱼干油炸后配上蒜香饭和煎蛋的“鱼干煎蛋饭”（Danggit Silog）。得益于岛上发达的养鸡业，鸡蛋新鲜又便宜，当地蛋料理和焦糖布丁（Leche Flan）也很受欢迎。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "按市镇来看，圣菲沿科塔海滩（Kota Beach）和糖海滩一线度假村相连，到海滩最为方便；班塔延镇和马德里德霍斯住宿较少，但价格便宜，也能近距离感受当地生活。用餐方面，当地小餐馆（carinderia）每餐约"
+            },
+            { "type": "price", "text": "₱100~150" },
+            { "text": "，海滩餐厅的主菜约" },
+            { "type": "price", "text": "₱150~450" },
+            {
+              "text": "。Sutukil是sugba（烧烤）、tuwa（汤）和kinilaw（醋腌生鱼）三个词的合称，可把挑好的鱼按喜欢的方式烹制。鱼干加工以马德里德霍斯为中心，鸡蛋以班塔延镇为中心，岛上各处也能喝到用椰子树汁液酿成的酒tuba。"
             }
           ]
         }
@@ -488,7 +727,20 @@
             { "children": [{ "text": "租摩托车时请务必戴头盔。菲律宾地方道路上也会有未戴头盔的取缔检查。" }] },
             { "children": [{ "text": "岛上大部分区域可以收到Smart、Globe信号，但偏远海滩的网速可能较慢。" }] },
             { "children": [{ "text": "海水虽浅，但退潮时海面会大幅后退，难以游泳。请事先确认潮汐时间，把海滩行程安排在满潮前后。" }] },
-            { "children": [{ "text": "鱼干带回韩国时可能属于检疫对象，请只购买少量真空包装产品，并事先确认携带规定。" }] }
+            { "children": [{ "text": "鱼干带入韩国等国家时可能属于检疫对象，请只购买少量真空包装产品，并确认返回国家的携带规定。" }] },
+            {
+              "children": [
+                { "text": "跳岛游最便宜的方式是在圣菲旅游办公室缴纳生态费（每人约" },
+                { "type": "price", "text": "₱100" },
+                { "text": "），再分配螃蟹船。船只按5人一船包下，约" },
+                { "type": "price", "text": "₱1,000~2,000" },
+                { "text": "，维尔亨岛门票因信息来源不同在" },
+                { "type": "price", "text": "₱200~350" },
+                { "text": "之间，出发前请先问清总价。" }
+              ]
+            },
+            { "children": [{ "text": "在班塔延教堂，请不要打扰在庭院举行的弥撒，也不要越过安全围栏。教区呼吁游客不要把坍塌的碎片带走当纪念品。" }] },
+            { "children": [{ "text": "如果有回国航班，与其航班当天才从班塔延出发，不如提前一天回到宿务市区住下，更为稳妥。" }] }
           ]
         }
       ]
@@ -562,7 +814,7 @@
               "place": "cebu-city",
               "children": [
                 { "text": "从哈格纳亚乘巴士约" },
-                { "type": "duration", "text": "3–4小时" },
+                { "type": "duration", "text": "3~4小时" },
                 { "text": "可达，有麦哲伦十字架和圣婴大教堂等西班牙殖民时期遗迹。" }
               ]
             },
