@@ -38,7 +38,12 @@
     "text": "November–May (dry season)",
     "months": [11, 12, 1, 2, 3, 4, 5]
   },
-  "duration": { "type": "duration", "label": "Time needed", "icon": "schedule", "text": "3 nights" },
+  "duration": {
+    "type": "duration",
+    "label": "Time needed",
+    "icon": "schedule",
+    "text": "4 days, 3 nights"
+  },
   "budget": {
     "type": "price",
     "label": "Budget",
@@ -87,6 +92,76 @@
         "alt": "Coron",
         "credit": "Lyndon Aguila / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Kayangan_Lake,_Coron_Island.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-4.webp",
+        "alt": "A limestone bay seen from the Kayangan Lake viewpoint",
+        "credit": "H.abanil / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Coron_-_Kayangan_Lake.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-5.webp",
+        "alt": "Barracuda Lake",
+        "credit": "Madcel / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Barracuda_Lake.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-6.webp",
+        "alt": "Twin Lagoon from above",
+        "credit": "Franz C. Trinidad / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Twin_Lagoon,_Coron,_Palawan.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-7.webp",
+        "alt": "The cross and sunset at the summit of Mount Tapyas",
+        "credit": "H.abanil / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Coron_-_Mt_Tapyas_Cross.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-8.webp",
+        "alt": "Maquinit seawater hot spring pool",
+        "credit": "Paul Christian B. Yang-ed / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Maquinit_Hotspring_-_Mainit_na_Bukal_ng_Maquinit_-_Hotspring_in_Coron,_Palawan,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-9.webp",
+        "alt": "A rocky islet in Siete Pecados Marine Park",
+        "credit": "Firth m / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Siete_Pecados.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-10.webp",
+        "alt": "The white-sand beach on Malcapuya Island",
+        "credit": "Sailko / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Isola_malcapuya,_01.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-11.webp",
+        "alt": "A shipwreck in Coron Bay",
+        "credit": "Manuae / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Busunga_Wrack.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-12.webp",
+        "alt": "Atwayan Beach",
+        "credit": "Rollymagpayo / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Atwayan_Beach.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/047-coron-13.webp",
+        "alt": "A small beach and bangka boat on Black Island",
+        "credit": "ProjectLumiere / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Black_Island_Coron_Palawan.jpg"
       }
     ]
   },
@@ -143,6 +218,26 @@
               "text": "Where El Nido centers on beaches and lagoons, Coron offers a wider range of experiences — lakes, wrecks, viewpoints, and hot springs. It especially suits divers, snorkeling enthusiasts, and travelers after dramatic scenic photos."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Coron town covers about 689 km² and has a population of roughly 70,000 (69,439 as of 2024), divided into 23 barangays. On "
+            },
+            { "type": "date", "text": "June 5, 1998" },
+            {
+              "text": ", Coron Island was officially recognized as the Tagbanwa people's ancestral domain, and after holding rituals, the community opened Kayangan Lake and Barracuda Lake to tourists from "
+            },
+            { "type": "date", "text": "2001" },
+            { "text": ". Siete Pecados Marine Park in Coron Bay received the Blue Park Award in " },
+            { "type": "date", "text": "April 2024" },
+            { "text": ". Kayangan Lake is only a little over " },
+            { "type": "duration", "text": "10 minutes" },
+            {
+              "text": " by boat from the Coron town pier, and the other lakes and the wreck-diving waters can also be reached and returned from within half a day, so the usual approach is to stay in Coron town and head out by boat each day."
+            }
+          ]
         }
       ]
     },
@@ -161,11 +256,15 @@
               "number": 1,
               "title": "Kayangan Lake",
               "children": [
-                { "text": "The highlight of a Coron Island tour: climb steps for about " },
+                { "text": "The highlight of the Coron Island tour: climb the steps for about " },
                 { "type": "duration", "text": "10–15 minutes" },
                 {
-                  "text": " to a viewpoint overlooking the bay between limestone peaks, then descend the other side to swim in the clear lake. Lines form at the viewpoint for photos, so it's best to go early."
-                }
+                  "text": " to a viewpoint overlooking the bay between limestone peaks, then descend to the clear lake on the other side to swim. A queue forms for photos at the viewpoint, so it's best to go early. The lake is brackish, with fresh water and seawater mixed at roughly 7 to 3, and its depth reaches about "
+                },
+                { "text": "10m", "type": "distance" },
+                { "text": " at most. Since a freediving accident in " },
+                { "text": "2017", "type": "date" },
+                { "text": ", wearing a life jacket has been mandatory." }
               ]
             },
             {
@@ -174,7 +273,17 @@
               "title": "Barracuda Lake",
               "children": [
                 {
-                  "text": "A curious lake where fresh and salt water form layers, with water temperature shifting sharply with depth. It's also known as a freediving and diving spot."
+                  "text": "A remarkable lake where fresh water and seawater form layers and the temperature changes sharply with depth. It is also known as a freediving and diving spot. The depth is about "
+                },
+                { "text": "40m", "type": "distance" },
+                { "text": " or more, and the surface water is a cool " },
+                { "text": "25–28℃", "type": "temperature" },
+                {
+                  "text": ", but the deeper layers are heated like hot spring water, in the high 30s ℃. The entrance fee is about "
+                },
+                { "text": "₱300–350", "type": "price" },
+                {
+                  "text": " and is often not included in tour prices; individual visits are not possible, and you can only go by island tour boat."
                 }
               ]
             },
@@ -214,10 +323,14 @@
               "title": "Sunset from Mount Tapyas",
               "children": [
                 {
-                  "text": "Climb more than 700 steps up the hill behind Coron town and watch the sun set over the sea and islands beside the large cross. The climb takes about "
+                  "text": "Climb the more than 700 steps up the mountain behind Coron town and watch the sun set over the sea and islands beside a large cross. The climb takes about "
                 },
                 { "type": "duration", "text": "20–30 minutes" },
-                { "text": "." }
+                {
+                  "text": ". There is no separate admission fee, though a small amount is sometimes collected at the foot of the steps, and it's best to start climbing "
+                },
+                { "text": "1 hour–1 hour 30 minutes", "type": "duration" },
+                { "text": " before sunset." }
               ]
             },
             {
@@ -226,8 +339,16 @@
               "title": "Maquinit Hot Spring",
               "children": [
                 {
-                  "text": "A seawater hot spring bubbling up beside a mangrove near the coast, where you can soak away the day's fatigue in water at about 38–40°C. It's cooler and more pleasant after dark."
-                }
+                  "text": "A seawater hot spring bubbling up beside coastal mangroves, where you can soak away the day's fatigue in warm water of about 38–40℃. Going after sunset is noticeably cooler. The entrance fee is about "
+                },
+                { "text": "₱200–300", "type": "price" },
+                { "text": " (adult and child rates differ), and opening hours are generally " },
+                { "text": "8:00 AM–7:00 PM", "type": "time" },
+                {
+                  "text": ". A round trip by tricycle from town, including waiting time, costs about "
+                },
+                { "text": "₱300–400", "type": "price" },
+                { "text": "." }
               ]
             },
             {
@@ -236,8 +357,14 @@
               "title": "Malcapuya, Banol, and CYC island tour",
               "children": [
                 {
-                  "text": "A beach-focused tour of islands with white sand and clear water, a good complement to the lake tour to see Coron's range of seas."
-                }
+                  "text": "A beach-focused tour of islands with white sand and clear water; alternating it with the lake tour lets you see the many faces of Coron's sea. Malcapuya Island is a distant island about "
+                },
+                { "text": "1 hour 30 minutes", "type": "duration" },
+                {
+                  "text": " by boat from Coron town, so it is usually visited on a separate island tour (Island Escapade, about "
+                },
+                { "text": "₱1,700", "type": "price" },
+                { "text": ")." }
               ]
             }
           ]
@@ -332,6 +459,183 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Coron Island day-tour itinerary",
+              "subtitle": "Based on the Super Ultimate tour; the order varies slightly by operator",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "07:30",
+                      "children": [
+                        {
+                          "text": "Meet at the Coron town pier (check at booking whether hotel pickup is included)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        {
+                          "text": "Departure. Tours usually start around this time and return at about "
+                        },
+                        { "type": "time", "text": "5:00–5:30 PM" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "time": "08:30",
+                      "children": [
+                        {
+                          "text": "Barracuda Lake or Kayangan Lake. Going early, before the crowds arrive, is best."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        {
+                          "text": "Twin Lagoon. Swim across at low tide, or use the ladder at high tide."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [
+                        {
+                          "text": "Lunch at Atwayan Beach. Grilled fish, chicken, fruit, and rice are served from the boat."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [
+                        {
+                          "text": "Kayangan Lake (if you did not go in the morning) and snorkeling around Siete Pecados"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "15:00",
+                      "children": [
+                        {
+                          "text": "Snorkeling at CYC Beach, the Skeleton Wreck, and the coral garden"
+                        }
+                      ]
+                    },
+                    { "time": "17:00", "children": [{ "text": "Return to Coron town" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Diving-focused itinerary",
+              "subtitle": "Based on three wreck dives; with an Advanced certification, Irako too",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "08:00",
+                      "children": [
+                        { "text": "Meet at the dive center for gear checks and a briefing" }
+                      ]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        { "text": "Dive 1: Olympia Maru. The shallowest point is about " },
+                        { "type": "distance", "text": "12m" },
+                        {
+                          "text": " and the hull openings are wide, making it well suited to an introduction to wreck diving."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:30",
+                      "children": [
+                        { "text": "Dive 2: Okikawa Maru. The top starts at about " },
+                        { "type": "distance", "text": "10m" },
+                        { "text": ", the deck is at " },
+                        { "type": "distance", "text": "16–18m" },
+                        { "text": ", and the bottom is at about " },
+                        { "type": "distance", "text": "26m" },
+                        { "text": "." }
+                      ]
+                    },
+                    { "time": "13:00", "children": [{ "text": "Lunch and a break on the boat" }] },
+                    {
+                      "time": "14:30",
+                      "children": [
+                        { "text": "Dive 3: Akitsushima. A seaplane tender lying on a slope at " },
+                        { "type": "distance", "text": "22–36m" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "time": "17:00",
+                      "children": [
+                        { "text": "Return. Do not fly within " },
+                        { "type": "duration", "text": "24 hours" },
+                        { "text": " after your last dive." }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Irako lies at " },
+                    { "type": "distance", "text": "33–42m" },
+                    {
+                      "text": " with currents, so only Advanced Open Water divers and above can go."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Arrival-day half-day itinerary",
+              "subtitle": "In town on the day you arrive on an afternoon flight",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "14:00",
+                      "children": [
+                        {
+                          "text": "Take the airport van to your lodging, check in, then book the next day's tour near the pier"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "16:30",
+                      "children": [
+                        {
+                          "text": "Sign up for a town tour combining Mount Tapyas and Maquinit Hot Spring (about "
+                        },
+                        { "type": "price", "text": "₱700–800" },
+                        { "text": "), or go by tricycle on your own" }
+                      ]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [{ "text": "Climb the Mount Tapyas steps and watch the sunset" }]
+                    },
+                    {
+                      "time": "19:00",
+                      "children": [
+                        {
+                          "text": "Soak in Maquinit Hot Spring, then have a seafood dinner at a restaurant in town"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -385,25 +689,55 @@
               ]
             },
             {
+              "title": "Airport and airlines",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Busuanga Airport (Francisco B. Reyes Airport, USU) is a small airport with a runway about "
+                    },
+                    { "type": "distance", "text": "1,225m" },
+                    {
+                      "text": " long, so it is served mainly by turboprops such as the ATR. The airlines flying here are Cebgo (Clark, Cebu, El Nido), PAL Express (Cebu, Clark), and Sunlight Air (Cebu, Clark); the Clark and Cebu routes take about "
+                    },
+                    { "type": "duration", "text": "1 hour 20 minutes" },
+                    { "text": ", and the El Nido route about " },
+                    { "type": "duration", "text": "30–40 minutes" },
+                    {
+                      "text": ". Cebu–Coron is flown by PAL almost daily, making it the easiest connection. Flight schedules change with the season, so check the timetable when you book."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "title": "By boat",
               "icon": "directions_boat",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Between El Nido and Coron, fast crafts run daily, taking about " },
-                    { "type": "duration", "text": "3 hours 30 minutes–4 hours" },
-                    { "text": " and costing about " },
-                    { "type": "price", "text": "₱2,800–4,000" },
                     {
-                      "text": ". From Manila, large passenger ships sail a few times a week and take about "
+                      "text": "Fast ferries operated by Montenegro Lines, Pimal Fast Ferry, Atienza Inter-Island, Jomalia, and others run daily between El Nido and Coron. They usually depart between "
                     },
-                    { "type": "duration", "text": "12–16 hours" },
+                    { "type": "time", "text": "6 and 8 AM" },
+                    { "text": ", take about " },
+                    { "type": "duration", "text": "3 hours 30 minutes–5 hours" },
+                    { "text": ", and cost about " },
+                    { "type": "price", "text": "₱1,760–3,980" },
                     {
-                      "text": ", but operators and schedules change often, so check the latest timetable. In "
+                      "text": " depending on the operator and seat class. In peak season it is safest to book one to two weeks ahead. From Manila, a large 2GO passenger ship sails one to two times a week (a schedule departing Friday evening and arriving the next morning is known), taking about "
+                    },
+                    { "type": "duration", "text": "13–16 hours" },
+                    { "text": " and costing about " },
+                    { "type": "price", "text": "₱2,600–4,100" },
+                    {
+                      "text": " depending on cabin class, but operators and schedules change often, so check the latest timetable. Cancellations are frequent in the rough-sea months of "
                     },
                     { "type": "date", "text": "November–February" },
-                    { "text": ", when the sea is rough, cancellations are frequent." }
+                    { "text": "." }
                   ]
                 }
               ]
@@ -422,6 +756,46 @@
                     },
                     { "type": "price", "text": "₱500–800" },
                     { "text": " per day." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tour boats and the pier",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Island tours leave from the Coron town pier by bangka boat. The Kayangan Lake landing is a little over "
+                    },
+                    { "type": "duration", "text": "10 minutes" },
+                    { "text": " away, and the Coron Island tour usually starts at " },
+                    { "type": "time", "text": "8:00 AM" },
+                    { "text": " and ends around " },
+                    { "type": "time", "text": "5:00–5:30 PM" },
+                    {
+                      "text": ". Many join tours are packages that include lake entrance fees and lunch, while private boats charge per boat. Booking by the day before is often enough, but in peak season the spots fill up quickly."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "From Puerto Princesa",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "There are currently no direct flights between Puerto Princesa and Coron; a 2GO passenger ship sails once a week and takes about "
+                    },
+                    { "type": "duration", "text": "12–13 hours" },
+                    {
+                      "text": ". The two cities are on different islands and are not connected by road, so most people go via El Nido or fly from Manila or Clark. Check the operator's notices for the timetable."
+                    }
                   ]
                 }
               ]
@@ -480,6 +854,24 @@
           ]
         },
         {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Coron's average annual rainfall is about 2,500 mm, and at its hottest the temperature climbs to "
+            },
+            { "type": "temperature", "text": "37℃" },
+            { "text": ". The peak season is " },
+            { "type": "date", "text": "December–March" },
+            { "text": ", and " },
+            { "type": "date", "text": "June–September" },
+            {
+              "text": " is the low season, when tour and lodging prices drop but the weather is much less predictable. The town fiesta honoring Coron's patron saint, Saint Augustine, is on "
+            },
+            { "type": "date", "text": "August 28" },
+            { "text": "." }
+          ]
+        },
+        {
           "type": "table",
           "label": "Season at a glance",
           "icon": "calendar_month",
@@ -524,22 +916,30 @@
             },
             {
               "label": "Coron Island join tour",
-              "price": "About ₱1,500–2,500",
-              "note": "Per person, check whether lunch is included"
+              "price": "About ₱1,200–2,000",
+              "note": "Per person, by tour type (A, B, Ultimate, Super Ultimate); check whether the environmental fee and lunch are included"
             },
             {
-              "label": "Lake/lagoon entrance fee",
+              "label": "Environmental fee and lake entrance fees",
               "price": "About ₱200–400",
-              "note": "Separate per site, Kayangan about ₱300"
+              "note": "Environmental fee about ₱200 (paid on arrival at the airport or port, valid for 10 days); Kayangan and Barracuda around ₱300"
             },
             { "label": "Private boat tour", "price": "About ₱6,000–10,000", "note": "Per boat" },
-            { "label": "Fun dive", "price": "About ₱2,500–3,500", "note": "Per dive, wreck" },
             {
-              "label": "Mount Tapyas/Maquinit hot spring",
+              "label": "Fun dive",
+              "price": "About ₱2,500–4,000",
+              "note": "Per dive, depending on wreck difficulty and whether equipment is included"
+            },
+            {
+              "label": "Mount Tapyas and Maquinit Hot Spring",
               "price": "About ₱200–300",
               "note": "Hot spring entrance fee"
             },
-            { "label": "Accommodation", "price": "About ₱1,500–7,000", "note": "Per night" },
+            {
+              "label": "Accommodation",
+              "price": "About ₱700–8,000",
+              "note": "Per night, guesthouse to boutique resort"
+            },
             { "label": "Meals", "price": "About ₱700–1,500", "note": "Per person, per day" }
           ]
         },
@@ -585,6 +985,36 @@
             {
               "text": " per person. Island tour lunches usually feature grilled fish, pork barbecue, rice, and fruit."
             }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Lodging prices run about " },
+            { "type": "price", "text": "₱350–600" },
+            { "text": " for a dorm bed, about " },
+            { "type": "price", "text": "₱700–1,800" },
+            { "text": " for a guesthouse, about " },
+            { "type": "price", "text": "₱2,000–4,500" },
+            { "text": " for a mid-range hotel, and about " },
+            { "type": "price", "text": "₱4,500–9,000" },
+            {
+              "text": " for a boutique resort on the Coron Bay side, while luxury resorts on Busuanga Island cost "
+            },
+            { "type": "price", "text": "₱8,000" },
+            {
+              "text": " or more. Rooms fill up early in peak season, so it's best to book together with your flights."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Local dishes worth trying in Coron include kilawin, fresh-caught fish cured in coconut vinegar, ginger, and chili, and tamilok, a mollusk that lives in mangrove logs, eaten raw dressed in vinegar and calamansi. Among the seafood restaurants, Lobster King is known for letting you pick fresh fish and live lobsters from the display and have them cooked right away, and Kawayanan Grill Station is known for its grilled dishes. Opinions on both are mixed, so it's best to check the price list and weights first. Restaurants around the public market serve a meal for about "
+            },
+            { "type": "price", "text": "₱80–150" },
+            { "text": ", and souvenir shops around town sell cashew products as gifts." }
           ]
         }
       ]
@@ -663,6 +1093,22 @@
                 { "type": "time", "text": "7–8:30 AM" },
                 { "text": " just after opening, you will barely have to queue at the viewpoint." }
               ]
+            },
+            {
+              "children": [
+                { "text": "The Coron environmental fee is about " },
+                { "type": "price", "text": "₱200" },
+                {
+                  "text": ", paid on arrival at the airport or port, and is reported to be valid for 10 days once paid. Where and how much you pay may change, so check the latest notices, and keep the receipt so you can show it on tours."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "You often get wet on tour boats, so bring a waterproof case or dry bag. The ATMs in Coron town (BPI and Landbank) can run out of cash on weekends and in peak season, so it's best to prepare small change in advance for the environmental fee and entrance fees."
+                }
+              ]
             }
           ]
         }
@@ -699,7 +1145,7 @@
             {
               "children": [
                 {
-                  "text": "A life vest is recommended at Barracuda Lake and Kayangan Lake, and required if you're not a confident swimmer."
+                  "text": "Wearing a life jacket is mandatory at Kayangan Lake, and at Barracuda Lake and other places you must wear one if you are not a confident swimmer."
                 }
               ]
             },
@@ -722,6 +1168,15 @@
                 { "text": "You must not fly within " },
                 { "type": "duration", "text": "24 hours" },
                 { "text": " of diving." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "In " },
+                { "text": "November 2025", "type": "date" },
+                {
+                  "text": ", Typhoon Tino (international name Kalmaegi) caused flooding and road cutoffs in northern Palawan, including Coron, Busuanga, and El Nido. During the rainy and typhoon season, tours, ferries, and flights can be suspended suddenly, so leave buffer time in your schedule and check weather forecasts."
+                }
               ]
             }
           ]
@@ -766,9 +1221,9 @@
               "place": "tubbataha-reefs",
               "children": [
                 {
-                  "text": "A UNESCO World Heritage coral reef in the middle of the Sulu Sea, reachable only by liveaboard from March to "
+                  "text": "A UNESCO World Heritage coral reef in the middle of the Sulu Sea, reachable only by liveaboard in "
                 },
-                { "type": "date", "text": "June" },
+                { "type": "date", "text": "March–June" },
                 { "text": "." }
               ]
             },
@@ -779,6 +1234,20 @@
               "children": [
                 {
                   "text": "A vast coral reef west of Mindoro, sometimes included together with Coron in liveaboard itineraries."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Culion Island",
+              "place": "culion",
+              "children": [
+                { "text": "It is about " },
+                { "type": "duration", "text": "45 minutes–1 hour" },
+                { "text": " from Coron port by fast craft, and the fare is about " },
+                { "type": "price", "text": "₱416" },
+                {
+                  "text": " one way. The island once housed the world's largest leprosarium in the early 20th century, and you can visit a museum and the site of the old sanatorium."
                 }
               ]
             }
