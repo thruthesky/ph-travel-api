@@ -27,15 +27,15 @@
     "type": "date",
     "label": "最佳季节",
     "icon": "calendar_month",
-    "text": "11月~4月（旱季）",
+    "text": "11月–4月（旱季）",
     "months": [11, 12, 1, 2, 3, 4]
   },
-  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "2~4小时" },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "2–4小时" },
   "budget": {
     "type": "price",
     "label": "预算",
     "icon": "payments",
-    "text": "每人约₱300~2,500",
+    "text": "每人约₱300–2,500",
     "currency": "PHP",
     "min": 300,
     "max": 2500
@@ -79,6 +79,62 @@
         "alt": "马尼拉湾",
         "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay,_Fishing,_South_China_Sea,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-4.webp",
+        "alt": "白云石海滩与罗哈斯大道",
+        "credit": "LMP 2001 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila_Dolomite_Beach_2023-11-16.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-5.webp",
+        "alt": "马尼拉游艇俱乐部的日落",
+        "credit": "GRMondala / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gerald_R_Mondala-Manila_Bay.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-6.webp",
+        "alt": "从海上眺望的马拉特天际线",
+        "credit": "Patrick Roque / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Roxas_Boulevard_skyline_(Ermita_and_Malate)_-_view_from_Manila_Bay_(Malate,_Manila;_2014-10-24).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-7.webp",
+        "alt": "SM by the Bay海滨步道",
+        "credit": "JDipterocarpus / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bay_Area_City_Pasay_19.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-8.webp",
+        "alt": "亚洲购物中心外海的烟花大赛",
+        "credit": "Bobbet21 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fireworks_at_Manila_Bay.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-9.webp",
+        "alt": "马拉特教堂",
+        "credit": "patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Malate_Church_(Manila;_02-06-2021).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-10.webp",
+        "alt": "马尼拉海洋公园的水母展",
+        "credit": "Lian Alyssa Cordon / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Jellyfish_Manila_Ocean_Park_(39004714845).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/005-manila-bay-11.webp",
+        "alt": "罗哈斯大道夜景",
+        "credit": "Waiting for serendipity / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay_at_night.JPG"
       }
     ]
   },
@@ -101,10 +157,10 @@
           "children": [
             { "text": "马尼拉湾（Manila Bay）是一处周长约" },
             { "type": "distance", "text": "190公里" },
-            { "text": "的天然港湾，湾口坐落着科雷希多岛，数百年来一直是东南亚最重要的港口之一。16世纪西班牙盖伦贸易船从这里驶往墨西哥阿卡普尔科，" },
+            { "text": "的天然港湾，湾口坐落着科雷希多岛，数百年来一直是东南亚最重要的港口之一。16世纪，西班牙的盖伦贸易船从这里驶往墨西哥阿卡普尔科；" },
             { "type": "date", "text": "1898年" },
             {
-              "text": "美国舰队在此击败西班牙舰队的马尼拉湾海战也曾在此上演。对旅行者而言，马尼拉湾首先是一片“日落之海”。夕阳在开阔的西侧海面上，沉入巴丹半岛山脉之后，天空被染成一片橙红与粉色，是马尼拉最具代表性的景色。"
+              "text": "，美国舰队击败西班牙舰队的马尼拉湾海战也在这里爆发。对旅行者而言，马尼拉湾首先是一片“日落之海”。当夕阳越过向西敞开的海湾，沉入巴丹半岛的山脉背后，整片天空被染成橙色与粉色，这是马尼拉最具代表性的风景。"
             }
           ]
         },
@@ -112,21 +168,41 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "旅行者主要造访的地方，是从马尼拉市埃尔米塔·马拉特延伸至帕赛市的罗哈斯大道（Roxas Boulevard）沿岸。椰树成排的海滨步道“海滨长廊（Baywalk）”绵延约"
+              "text": "旅行者主要前往的是从马尼拉市埃尔米塔、马拉特一直延伸到帕赛市的罗哈斯大道（Roxas Boulevard）海岸。椰树成排的海滨步道“海滨长廊（Baywalk）”绵延约"
             },
             { "type": "distance", "text": "2公里" },
-            { "text": "，美国大使馆前至马尼拉游艇俱乐部防波堤之间，是" },
+            { "text": "；在美国大使馆前至马尼拉游艇俱乐部防波堤之间，有一片" },
             { "type": "date", "text": "2020年" },
             { "text": "建成、长约" },
             { "type": "distance", "text": "500米" },
-            { "text": "的人工沙滩“白云石海滩”。南侧帕赛市的填海区，则有SM亚洲购物中心的滨海步道和大型赌场度假区，日落之后还能一路延续到夜景与购物。" }
+            {
+              "text": "的人工海滩“白云石海滩”。南边帕赛市与帕拉纳克市的填海区（海湾城）有SM亚洲购物中心的海滨步道和大型赌场度假村群，日落之后还能接着欣赏夜景、逛街购物。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "如今的海岸线大多是填海而成的。罗哈斯大道是" },
+            { "type": "date", "text": "20世纪10年代" },
+            { "text": "依照美国城市规划师丹尼尔·伯纳姆的马尼拉规划修建的滨海道路，曾名杜威大道，" },
+            { "type": "date", "text": "1963年" },
+            { "text": "改为现名，从黎刹公园延伸至帕拉纳克，全长约" },
+            { "type": "distance", "text": "7.6公里" },
+            { "text": "。" },
+            { "type": "date", "text": "2008年12月" },
+            { "text": "，菲律宾最高法院责令13个政府机构将马尼拉湾的水质恢复到可供人游泳的标准（SB级），自" },
+            { "type": "date", "text": "2019年" },
+            { "text": "起大规模的清理工程一直在进行。另一方面，" },
+            { "type": "date", "text": "2023年8月" },
+            { "text": "总统下令暂停马尼拉湾的全部填海工程，但部分项目经审查后又重新推进，因此海岸风貌今后仍可能改变。" }
           ]
         },
         {
           "type": "paragraph",
           "children": [
             {
-              "text": "老实说，马尼拉湾并非游泳沙滩。长年污染治理工作仍在持续，目前海滩仍禁止游泳与水上运动。取而代之的是，日落时分迎着海风散步，感受当地家庭与情侣聚集的热闹氛围，这样的方式满意度更高。"
+              "text": "老实说，马尼拉湾并不是游泳的海滩。由于长年污染，水质改善工程仍在持续，目前海滩仍禁止游泳和水上运动。不妨把这里当作傍晚迎着海风散步、感受当地家庭与情侣聚集的热闹氛围的地方，这样会玩得更满意。"
             }
           ]
         },
@@ -167,34 +243,82 @@
             {
               "type": "card",
               "number": 3,
-              "title": "亚洲购物中心滨海区",
-              "children": [{ "text": "在SM亚洲购物中心后方的滨海广场，可以隔着摩天轮欣赏落日景色。周末傍晚有时还会有烟花表演。" }]
+              "title": "亚洲购物中心与SM by the Bay",
+              "children": [
+                { "text": "SM by the Bay是沿SM亚洲购物中心后方海边延伸约" },
+                { "type": "distance", "text": "1.5公里" },
+                { "text": "的步道，在这里可以看到夕阳落在高" },
+                { "type": "distance", "text": "55米" },
+                { "text": "的MOA Eye摩天轮后方。游乐设施区从" },
+                { "type": "time", "text": "下午1–3点" },
+                { "text": "开始营业，一直开到午夜前后。每年" },
+                { "type": "date", "text": "2–3月" },
+                { "text": "的周六晚上，菲律宾国际烟花音乐大赛在这片海面上举行；跨年夜这里也会燃放大型烟火。" }
+              ]
             },
             {
               "type": "card",
               "number": 4,
               "title": "日落游船",
               "children": [
-                { "text": "傍晚绕行海湾内侧的晚间游船，多从菲律宾文化中心（CCP）附近码头出发。许多行程包含自助晚餐与现场音乐，适合特别的日子。" }
+                { "text": "傍晚绕行海湾内侧的晚餐游船从菲律宾文化中心（CCP）园区一带的码头出发，很多套餐时长" },
+                { "type": "duration", "text": "1.5–3小时" },
+                { "text": "，含餐食与现场音乐。长期作为代表性运营商的Sun Cruises于" },
+                { "type": "date", "text": "2020年" },
+                { "text": "停业后，运营商和出发地点经常变动，挑选时请先查看预订网站上最新评价的日期。" }
               ]
             },
             {
               "type": "card",
               "number": 5,
-              "title": "在海边餐厅享用晚餐",
-              "children": [{ "text": "罗哈斯大道周边有可现挑现做海鲜的“Dampa”式餐厅街。虾、蟹、鱿鱼按重量购买，再选择喜欢的烹调方式。" }]
+              "title": "在Seaside Dampa吃海鲜晚餐",
+              "children": [
+                { "text": "海边市场（Seaside Dampa）位于帕赛市马卡帕加尔大道，距亚洲购物中心车程" },
+                { "type": "duration", "text": "10–15分钟" },
+                {
+                  "text": "，是采用“帕卢托”（paluto）方式的餐饮街：先在水产市场按重量购买虾、蟹、贝类和鱼，再交给旁边的餐厅烹调。各餐厅另收烹调费，购买海鲜前请先谈好做法和烹调费。"
+                }
+              ]
             },
             {
               "type": "card",
               "number": 6,
               "title": "马尼拉海洋公园",
-              "children": [{ "text": "位于黎刹公园后方海岸的海洋主题公园，设有水族馆与水母展示，适合带孩子安排白天的行程。" }]
+              "children": [
+                { "text": "这是位于黎刹公园奎里诺大看台后方海岸的海洋主题公园，设有海洋馆（Oceanarium）、水母展、企鹅馆和海狮表演。平日" },
+                { "type": "time", "text": "上午10点–下午6点" },
+                { "text": "、周末及公共假日" },
+                { "type": "time", "text": "上午9点–下午6点" },
+                { "text": "开放，表演通常在" },
+                { "type": "time", "text": "12:30" },
+                { "text": "和" },
+                { "type": "time", "text": "16:30" },
+                { "text": "举行。带孩子的话，下午参观完后直接到门前的海岸看日落，路线很顺。" }
+              ]
             },
             {
               "type": "card",
               "number": 7,
               "title": "夜景兜风",
-              "children": [{ "text": "日落后沿罗哈斯大道驶向帕赛娱乐城方向，可以看到赌场度假区绚丽灯光倒映在海面上的夜景。" }]
+              "children": [
+                {
+                  "text": "日落后沿罗哈斯大道南下，前往帕拉纳克市的娱乐城（Entertainment City），可以看到Solaire、City of Dreams、Okada Manila等赌场度假村的灯光倒映在海面上的夜景。Okada Manila前有号称全球最大的多彩音乐喷泉“The Fountain”，表演时间请查看度假村公告。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "马拉特教堂与拉惹苏莱曼广场",
+              "children": [
+                { "text": "海滨长廊对面的马拉特区有马拉特教堂（雷梅迪奥斯圣母堂），最初的堂区教堂建于" },
+                { "type": "date", "text": "1588年" },
+                { "text": "，" },
+                { "type": "date", "text": "1864年" },
+                { "text": "以石材重建。教堂前的拉惹苏莱曼广场有" },
+                { "type": "date", "text": "1976年" },
+                { "text": "建造的拉惹苏莱曼雕像和喷泉，傍晚很适合把教堂和大海一并游览。" }
+              ]
             }
           ]
         }
@@ -228,8 +352,8 @@
                     {
                       "time": "17:30",
                       "children": [
-                        { "text": "在防波堤或沙滩上欣赏日落（旱季基准约" },
-                        { "type": "time", "text": "17:30~18:10" },
+                        { "text": "在防波堤或沙滩上欣赏日落（旱季约在" },
+                        { "type": "time", "text": "17:30–18:10" },
                         { "text": "）" }
                       ]
                     },
@@ -248,6 +372,48 @@
                     { "time": "16:30", "children": [{ "text": "抵达码头，办理登船手续" }] },
                     { "time": "17:00", "children": [{ "text": "日落游船启航，船上晚餐与表演" }] },
                     { "time": "19:00", "children": [{ "text": "下船后前往亚洲购物中心或酒店" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "家庭行程（海洋公园与日落）",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "13:00", "children": [{ "text": "进入马尼拉海洋公园——参观海洋馆与水母展（建议购买线上套票）" }] },
+                    { "time": "16:30", "children": [{ "text": "观看海狮表演或鸟类表演" }] },
+                    {
+                      "time": "17:15",
+                      "children": [
+                        { "text": "走到奎里诺大看台后方的海岸欣赏日落（旱季约在" },
+                        { "type": "time", "text": "17:25–18:10" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "18:30", "children": [{ "text": "在黎刹公园南侧的Harbor View餐厅或马拉特享用晚餐" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "亚洲购物中心行程",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "16:00", "children": [{ "text": "抵达SM亚洲购物中心，购物与休息" }] },
+                    { "time": "17:15", "children": [{ "text": "在SM by the Bay海滨步道欣赏日落" }] },
+                    {
+                      "time": "18:30",
+                      "children": [
+                        { "text": "搭乘MOA Eye摩天轮观赏海湾夜景（每人约" },
+                        { "type": "price", "text": "₱200–250" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "19:30", "children": [{ "text": "搭乘Grab前往Seaside Dampa，享用帕卢托海鲜晚餐" }] }
                   ]
                 }
               ]
@@ -273,16 +439,36 @@
                   "type": "paragraph",
                   "children": [
                     { "text": "从尼诺伊·阿基诺国际机场到罗哈斯大道海岸约" },
-                    { "type": "distance", "text": "7~10公里" },
+                    { "type": "distance", "text": "7–10公里" },
                     { "text": "，搭乘Grab需" },
-                    { "type": "duration", "text": "25分钟~1小时" },
+                    { "type": "duration", "text": "25分钟–1小时" },
                     { "text": "，车费约" },
-                    { "type": "price", "text": "₱250~500" },
+                    { "type": "price", "text": "₱250–500" },
                     { "text": "。亚洲购物中心距机场最近，约" },
-                    { "type": "duration", "text": "20~40分钟" },
+                    { "type": "duration", "text": "20–40分钟" },
                     { "text": "，车费约" },
-                    { "type": "price", "text": "₱200~400" },
+                    { "type": "price", "text": "₱200–400" },
                     { "text": "。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "从克拉克机场出发",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "在克拉克国际机场（CRK）下机后，可搭乘Genesis的P2P巴士前往马尼拉南部的PITX总站，车程约" },
+                    { "type": "duration", "text": "2.5–3小时" },
+                    { "text": "，票价" },
+                    { "type": "price", "text": "₱480–520" },
+                    { "text": "（普通Deluxe·JoyBus）。这条线路于" },
+                    { "type": "date", "text": "2026年3月" },
+                    { "text": "开通，双向每天运行8班。到达PITX后，可在同名的轻轨1号线车站乘车前往联合国大道站或佩德罗·希尔站，或搭乘Grab，" },
+                    { "type": "duration", "text": "20–40分钟" },
+                    { "text": "即可到达罗哈斯大道。" }
                   ]
                 }
               ]
@@ -294,11 +480,15 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "在轻轨1号线联合国大道站、佩德罗·希尔站、金特罗斯站（马拉特）下车，向西步行" },
-                    { "type": "duration", "text": "10~15分钟" },
-                    { "text": "即到罗哈斯大道海滨。票价约" },
-                    { "type": "price", "text": "₱16~55" },
-                    { "text": "。前往亚洲购物中心，可在轻轨1号线艾德萨站或MRT 3号线塔夫脱大道站下车，换乘开往亚洲购物中心的吉普尼或巴士。" }
+                    { "text": "搭乘轻轨1号线在联合国大道站、佩德罗·希尔站或奎里诺站（马拉特）下车，向西步行" },
+                    { "type": "duration", "text": "10–15分钟" },
+                    { "text": "即可到达罗哈斯大道海岸。票价约" },
+                    { "type": "price", "text": "₱16–55" },
+                    { "text": "。前往亚洲购物中心，可从" },
+                    { "type": "date", "text": "2024年11月" },
+                    { "text": "开通的轻轨1号线Redemptorist-Aseana站步行约" },
+                    { "type": "distance", "text": "2公里" },
+                    { "text": "，或在轻轨1号线EDSA站、MRT 3号线塔夫脱大道站换乘开往亚洲购物中心的吉普尼或巴士。" }
                   ]
                 }
               ]
@@ -325,10 +515,26 @@
                   "type": "paragraph",
                   "children": [
                     { "text": "从王城区、国家博物馆、黎刹公园出发，步行" },
-                    { "type": "duration", "text": "10~20分钟" },
+                    { "type": "duration", "text": "10–20分钟" },
                     { "text": "即可抵达海岸。沿海岸步道走到白云石海滩，从黎刹公园出发约" },
                     { "type": "duration", "text": "15分钟" },
                     { "text": "路程。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自驾·停车",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "罗哈斯大道南端在帕拉纳克与马尼拉—甲米地高速公路（CAVITEX）相连，从甲米地方向前来十分方便。日落时分的" },
+                    { "type": "time", "text": "下午5–8点" },
+                    {
+                      "text": "下班车流非常拥堵，请尽早到达。停车可利用黎刹公园、联合国大道、马尼拉海洋公园、马尼拉酒店、Robinsons Place Manila周边的收费停车场。"
+                    }
                   ]
                 }
               ]
@@ -347,37 +553,57 @@
           "type": "paragraph",
           "children": [
             { "text": "想好好欣赏日落，" },
-            { "type": "date", "text": "11月~4月" },
-            { "text": "旱季最为理想。天空晴朗、云量适中，容易出现绚丽晚霞，尤其" },
-            { "type": "date", "text": "12月~2月" },
-            { "text": "海风凉爽，最适合散步。旱季日落时间大致在" },
-            { "type": "time", "text": "17:30" },
-            { "text": "（" },
-            { "type": "date", "text": "12月" },
-            { "text": "）至" },
-            { "type": "time", "text": "18:20" },
-            { "text": "（" },
+            { "type": "date", "text": "11月–4月" },
+            { "text": "的旱季最好。天空晴朗、云量适中，容易出现红色晚霞；尤其是" },
+            { "type": "date", "text": "12月–2月" },
+            { "text": "，海风凉爽，很适合散步。根据紧邻海边的港区（Port Area）观测站的气候平均值，" },
+            { "type": "date", "text": "1–4月" },
+            { "text": "每月降雨日只有3–4天，白天最高气温从" },
+            { "type": "date", "text": "1月" },
+            { "text": "的约" },
+            { "type": "temperature", "text": "30℃" },
+            { "text": "升至" },
+            { "type": "date", "text": "4–5月" },
+            { "text": "的约" },
+            { "type": "temperature", "text": "34℃" },
+            { "text": "。日落时间以" },
+            { "type": "date", "text": "11月底–12月初" },
+            { "text": "最早，约为" },
+            { "type": "time", "text": "17:25" },
+            { "text": "；" },
             { "type": "date", "text": "4月" },
-            { "text": "）之间。" },
-            { "type": "date", "text": "3月~5月" },
+            { "text": "约为" },
+            { "type": "time", "text": "18:10" },
+            { "text": "，" },
+            { "type": "date", "text": "6–7月" },
+            { "text": "约为" },
+            { "type": "time", "text": "18:30" },
+            { "text": "。" },
+            { "type": "date", "text": "3月–5月" },
             { "text": "白天炎热，但傍晚散步并无大碍。" }
           ]
         },
         {
           "type": "paragraph",
           "children": [
-            { "type": "date", "text": "6月~10月" },
-            { "text": "雨季午后常有云层遮蔽阳光。不过雨后初晴时，有时也会出现绚丽的晚霞。" },
-            { "type": "date", "text": "7~9月" },
+            { "type": "date", "text": "6月–10月" },
+            { "text": "的雨季，午后常有雨云涌来遮住太阳。不过雨后初晴时，有时也会出现绚丽的晚霞。" },
+            { "type": "date", "text": "7–9月" },
             { "text": "台风来袭时，海岸会掀起大浪，罗哈斯大道也可能积水，此时应避免靠近防波堤。西南季风（哈巴加特）强劲的日子，海浪也可能漫上步道。" }
           ]
         },
         {
           "type": "paragraph",
           "children": [
-            { "text": "周末与公众假期的傍晚，当地出游家庭非常多。" },
+            { "text": "周末和公共假日的傍晚，当地出游的家庭非常多。SM亚洲购物中心海边每年" },
+            { "type": "date", "text": "2–3月" },
+            { "text": "的周六晚上会举办多国烟花公司同台竞技的菲律宾国际烟花音乐大赛（" },
+            { "type": "date", "text": "2026年" },
+            { "text": "为" },
+            { "type": "date", "text": "2月21日–3月21日" },
+            { "text": "）；" },
             { "type": "date", "text": "12月" },
-            { "text": "圣诞季，罗哈斯大道与亚洲购物中心会布置彩灯装饰，跨年夜还能在海岸一带看到烟花。" }
+            { "text": "圣诞季，罗哈斯大道和亚洲购物中心会挂上灯饰；跨年夜还能在沿岸一带看到烟火。" }
           ]
         },
         {
@@ -387,9 +613,9 @@
           "columns": ["时期", "天气", "旅行要点"],
           "rows": [
             ["11月", "旱季开始，天空晴朗", "晚霞容易呈现红色"],
-            ["12月~2月", "旱季，海风凉爽", "适合散步——圣诞灯饰、跨年烟火"],
-            ["3月~5月", "旱季，白天炎热，傍晚尚可", "以傍晚散步为主——4月日落约18:20"],
-            ["6月~10月", "雨季，午后乌云·台风（7~9月）", "雨刚停时晚霞格外壮观——台风时禁止靠近防波堤"]
+            ["12月–2月", "旱季，海风凉爽", "适合散步——圣诞灯饰、跨年烟火"],
+            ["3月–5月", "旱季，白天炎热，傍晚尚可", "以傍晚散步为主——4月日落约在18:10"],
+            ["6月–10月", "雨季，午后乌云·台风（7–9月）", "雨刚停时晚霞格外壮观——台风时禁止靠近防波堤"]
           ]
         }
       ]
@@ -406,12 +632,18 @@
           "columns": ["项目", "预估费用", "备注"],
           "items": [
             { "label": "海滨长廊·白云石海滩", "price": "免费", "note": "周四休场，18点截止入场" },
-            { "label": "机场↔罗哈斯大道 Grab", "price": "约₱250~500（单程）", "note": "下班高峰上涨" },
-            { "label": "轻轨1号线", "price": "约₱16~55", "note": "按区间计价" },
-            { "label": "日落晚宴游船", "price": "约₱1,500~3,000", "note": "含餐食套餐基准" },
-            { "label": "海鲜晚餐", "price": "约₱500~1,200", "note": "Dampa式，烹调费另计" },
-            { "label": "马尼拉海洋公园", "price": "约₱800~1,500", "note": "视套餐组合而异" },
-            { "label": "饮料·小吃", "price": "约₱50~200", "note": "步道摊贩" }
+            { "label": "机场↔罗哈斯大道 Grab", "price": "约₱250–500（单程）", "note": "下班高峰上涨" },
+            { "label": "轻轨1号线", "price": "约₱16–55", "note": "按区间计价" },
+            { "label": "日落晚宴游船", "price": "约₱3,000–6,000", "note": "以含酒店接送与餐食的预订套餐为准" },
+            { "label": "海鲜晚餐", "price": "约₱500–1,200", "note": "Dampa式，烹调费另计" },
+            { "label": "马尼拉海洋公园", "price": "约₱950–2,000", "note": "线上套票₱950起，现场购票更贵" },
+            { "label": "饮料·小吃", "price": "约₱50–200", "note": "步道摊贩" },
+            { "label": "MOA Eye摩天轮", "price": "约₱200–250", "note": "每次，普通·VIP车厢" },
+            {
+              "label": "克拉克机场↔PITX P2P巴士",
+              "price": "₱480–520（单程）",
+              "note": "Genesis，普通Deluxe·JoyBus"
+            }
           ]
         },
         {
@@ -433,15 +665,15 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "若想从房间欣赏马尼拉湾日落，可选择罗哈斯大道靠海一侧的酒店。" },
+            { "text": "如果想在房间里欣赏马尼拉湾日落，请选择罗哈斯大道靠海一侧的酒店。" },
             { "type": "date", "text": "1912年" },
-            { "text": "开业的马尼拉大酒店，以及罗哈斯大道中段的钻石酒店，长期以来都是知名的海景酒店，海景客房一晚约" },
-            { "type": "price", "text": "₱5,000~12,000" },
-            { "text": "。帕赛娱乐城的大型度假村（一晚约" },
+            { "text": "开业的马尼拉酒店、位于罗哈斯大道中段的钻石酒店等，长期以来以海湾景观闻名，海景房每晚约" },
+            { "type": "price", "text": "₱5,000–12,000" },
+            { "text": "。帕拉纳克娱乐城的大型度假村（每晚约" },
             { "type": "price", "text": "₱8,000" },
-            { "text": "以上）可在同一处享受赌场、秀场与餐厅。预算有限的话，马拉特内侧约" },
-            { "type": "price", "text": "₱1,500~3,000" },
-            { "text": "的酒店，步行到海边也只需" },
+            { "text": "起）可一站式享受赌场、演出与餐厅。预算有限的话，马拉特街区内约" },
+            { "type": "price", "text": "₱1,500–3,000" },
+            { "text": "的酒店，步行到海岸也在" },
             { "type": "duration", "text": "10分钟" },
             { "text": "以内。" }
           ]
@@ -454,6 +686,18 @@
             {
               "text": "开业的菲律宾餐厅阿里斯托克拉特（Aristocrat）是历史悠久的名店，招牌菜是炭烤鸡与爪哇饭。若喜欢海鲜，推荐亚洲购物中心附近的Dampa式餐厅街，购买虾、蟹、鱼后可选择烤制、辣酱或蒜香黄油等烹调方式。步道摊贩的烤玉米、伊萨乌（鸡内脏串）和布科汁，也很适合边等日落边享用。马拉特还有多家韩式餐厅。"
             }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "想边看海边用餐的话，位于黎刹公园南门前码头的Harbor View（" },
+            { "type": "date", "text": "1985年" },
+            {
+              "text": "开业）是老牌之选，以烤海鲜为主，日落时段和周末人多，最好提前预订。位于圣安德烈斯街转角的阿里斯托克拉特罗哈斯大道总店24小时营业，适合深夜散步后顺道光顾。Seaside Dampa的烹调费每公斤约"
+            },
+            { "type": "price", "text": "₱150–400" },
+            { "text": "，因餐厅和做法而异；不少评价提到被多收钱，请务必核对秤上读数和账单。" }
           ]
         }
       ]
@@ -474,7 +718,7 @@
                 { "text": "请用天气应用确认日落时间，并至少提前" },
                 { "type": "duration", "text": "30分钟" },
                 { "text": "抵达。切勿错过日落后" },
-                { "type": "duration", "text": "10~20分钟" },
+                { "type": "duration", "text": "10–20分钟" },
                 { "text": "内天空最红的“魔幻时刻”。" }
               ]
             },
@@ -491,7 +735,22 @@
             { "children": [{ "text": "海风较大，帽子容易被吹走。喷洒驱蚊剂能让傍晚散步更舒适。" }] },
             { "children": [{ "text": "摊贩与吉普尼只收现金，请准备小面额纸币。" }] },
             { "children": [{ "text": "日落时分罗哈斯大道会严重堵车，若晚上有约，请预留充裕的移动时间，或改搭轻轨。" }] },
-            { "children": [{ "text": "日落游船周末常常满员，请提前1~2天在线预订。" }] }
+            { "children": [{ "text": "日落游船周末常常满员，请提前1–2天在线预订。" }] },
+            {
+              "children": [
+                { "text": "白云石海滩的出入口在美国大使馆一侧，" },
+                { "type": "time", "text": "早上6点" },
+                { "text": "开门。洗手间可就近使用马尼拉海洋公园、Robinsons Place Manila或周边快餐店，较为方便。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "马尼拉海洋公园在官方网站或预订应用购买线上套票（" },
+                { "type": "price", "text": "₱950" },
+                { "text": "起）比现场售票处便宜得多，身高2英尺（约61厘米）以下的儿童免费。" }
+              ]
+            },
+            { "children": [{ "text": "如果要多次搭乘轻轨，可在车站购买交通卡beep卡，既免去排队买票，票价也比单程票略便宜。" }] }
           ]
         }
       ]
@@ -511,7 +770,14 @@
             { "children": [{ "text": "人潮聚集的日落时段有扒手出没。专注拍照时，手机或包很容易被盯上。" }] },
             { "children": [{ "text": "深夜人迹稀少的防波堤、罗哈斯大道地下通道及昏暗公园区域应避开，请搭乘Grab移动。" }] },
             { "children": [{ "text": "台风或强季风来袭时，海浪会越过防波堤涌上步道，请勿靠近海岸。" }] },
-            { "children": [{ "text": "步道上有人会强行递花或小饰品索要钱财，请勿接受，礼貌拒绝即可。" }] }
+            { "children": [{ "text": "步道上有人会强行递花或小饰品索要钱财，请勿接受，礼貌拒绝即可。" }] },
+            {
+              "children": [
+                { "text": "暴雨或西南季风过后，河流冲下来的垃圾会被冲上海滩，罗哈斯大道部分路段也可能被淹。" },
+                { "type": "date", "text": "2026年8月" },
+                { "text": "，仅白云石海滩就清理了约60吨垃圾。" }
+              ]
+            }
           ]
         },
         {
@@ -538,7 +804,7 @@
               "place": "rizal-park",
               "children": [
                 { "text": "从海滨长廊北端步行" },
-                { "type": "duration", "text": "5~10分钟" },
+                { "type": "duration", "text": "5–10分钟" },
                 { "text": "。这里是拥有黎刹纪念碑、宽阔广场与傍晚喷泉秀的公园。" }
               ]
             },
@@ -561,7 +827,7 @@
               "children": [
                 { "text": "步行约" },
                 { "type": "duration", "text": "15分钟" },
-                { "text": "。白天可参观免费博物馆，傍晚再转往海岸，这样的动线值得推荐。" }
+                { "text": "。推荐白天参观免费的博物馆，傍晚再到海边。" }
               ]
             },
             {
@@ -569,6 +835,20 @@
               "title": "科雷希多岛",
               "place": "corregidor",
               "children": [{ "text": "马尼拉湾入口处的战争遗迹岛屿。目前需经巴丹省马里维莱斯，以当日游形式前往。" }]
+            },
+            {
+              "type": "card",
+              "title": "岷伦洛唐人街",
+              "place": "binondo",
+              "children": [
+                { "text": "从海滨长廊向北约" },
+                { "type": "distance", "text": "3–4公里" },
+                { "text": "，搭Grab约" },
+                { "type": "duration", "text": "15–30分钟" },
+                { "text": "。这里是" },
+                { "type": "date", "text": "1594年" },
+                { "text": "形成的世界上最古老的唐人街，白天逛美食街，傍晚再到海边，路线很顺。" }
+              ]
             }
           ]
         }
