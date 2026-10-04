@@ -22,10 +22,10 @@
     "type": "date",
     "label": "最佳季节",
     "icon": "calendar_month",
-    "text": "3月–6月（海面平静的时节）",
+    "text": "3月~6月（海面平静的时节）",
     "months": [3, 4, 5, 6]
   },
-  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "2–3天" },
+  "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "2~3天" },
   "budget": {
     "type": "price",
     "label": "预算",
@@ -74,6 +74,69 @@
         "alt": "马拉帕斯卡岛",
         "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Malapascua_(island),_Tropical_beach,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/071-malapascua-4.webp",
+        "alt": "长尾鲨",
+        "credit": "James Heilman / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tresher1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/071-malapascua-5.webp",
+        "alt": "加托岛航拍照片",
+        "credit": "Tol.lynx / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gato_Island.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/071-malapascua-6.webp",
+        "alt": "邦蒂海滩",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Malapascua_(island),_Bounty_Beach_2,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/071-malapascua-7.webp",
+        "alt": "邦蒂海滩的日落",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Malapascua_Island,_Sunset_on_the_beach_2,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/071-malapascua-8.webp",
+        "alt": "达基特达基特岛",
+        "credit": "Martin Michlmayr / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Dakit-Dakit_Island_Malapscua.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/071-malapascua-9.webp",
+        "alt": "北侧海滩",
+        "credit": "Martin Michlmayr / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:North_Beach_in_Malapascua_001.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/071-malapascua-10.webp",
+        "alt": "从马雅港开往马拉帕斯卡岛的螃蟹船",
+        "credit": "Martin Michlmayr / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Malapascua_2021_09_002.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/071-malapascua-11.webp",
+        "alt": "红色海蛞蝓",
+        "credit": "Matt Kieffer / CC BY-SA 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Nudibranch.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/071-malapascua-12.webp",
+        "alt": "潜水船",
+        "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Malapascua_(island),_Boats_in_Visayan_Sea,_Philippines.jpg"
       }
     ]
   },
@@ -82,7 +145,7 @@
     "variant": "lead",
     "children": [
       { "text": "这座长约" },
-      { "type": "distance", "text": "2.5km" },
+      { "type": "distance", "text": "2.5公里" },
       { "text": "的小岛漂浮在宿务岛最北端外海，是世界上少数几乎每天都能看到长尾鲨的潜水胜地之一。岛上不通汽车的小巷与洁白的沙滩相映成趣，深受潜水者与度假游客喜爱。" }
     ]
   },
@@ -97,21 +160,29 @@
           "type": "paragraph",
           "children": [
             { "text": "马拉帕斯卡岛是一座小岛，从宿务本岛北端的马雅（Maya）港乘螃蟹船约" },
-            { "type": "duration", "text": "30–45分钟" },
+            { "type": "duration", "text": "30~45分钟" },
             { "text": "即可抵达。岛屿南北长约" },
-            { "type": "distance", "text": "2.5km" },
+            { "type": "distance", "text": "2.5公里" },
             { "text": "，宽约" },
-            { "type": "distance", "text": "1km" },
+            { "type": "distance", "text": "1公里" },
             { "text": "，步行即可绕岛一圈；岛上几乎没有汽车，沙土小路上往来的多是摩托车出租车和行人。行政区划上属于宿务省达安万岱（Daanbantayan）镇。" }
           ]
         },
         {
           "type": "paragraph",
           "children": [
-            { "text": "这座岛屿闻名世界只因一个原因——长尾鲨（Thresher Shark）。在岛屿以东约" },
-            { "type": "distance", "text": "8km" },
             {
-              "text": "海域的水下高地莫纳德浅滩（Monad Shoal），栖息在深海的长尾鲨每天清晨都会游上来，让清洁鱼为它们清理身体，像这样几乎每天都能观察到长尾鲨的地方，在全世界都十分罕见。它们摆动着镰刀状的长尾鳍从容游过的身影，被潜水者视为一生必看一次的画面。"
+              "text": "这座岛之所以闻名世界，原因只有一个——长尾鲨（Thresher Shark）。在水深数十米的水下高地（浅滩）上，有一处清洁站，栖息在深海的长尾鲨会游上来，让清洁鱼为自己清理身体；像这样几乎每天都能观察到长尾鲨的地方，在全世界都十分罕见。以前的舞台是岛屿以东约"
+            },
+            { "type": "distance", "text": "8公里" },
+            { "text": "海域的莫纳德浅滩（Monad Shoal），但" },
+            { "type": "date", "text": "2020~2022年" },
+            { "text": "前后，虎鲨出现在莫纳德浅滩，长尾鲨随之离开；" },
+            { "type": "date", "text": "2022年" },
+            { "text": "起，它们转移到乘船约" },
+            { "type": "duration", "text": "1小时" },
+            {
+              "text": "外的基穆德浅滩（Kimud Shoal），如今几乎每天都能在那里遇见。长尾鲨挥动着细长如镰刀的尾鳍悠然游过的身影，被潜水者们誉为一生中至少要看一次的画面。"
             }
           ]
         },
@@ -127,10 +198,26 @@
         {
           "type": "paragraph",
           "children": [
+            { "text": "岛屿面积约1.48平方公里，根据" },
+            { "type": "date", "text": "2024年" },
+            { "text": "人口普查，人口约6,100人，行政区划为罗贡（Logon）村（barangay）。作为潜水胜地而闻名，始于" },
+            { "type": "date", "text": "1990年代" },
+            { "text": "初。" },
+            { "type": "date", "text": "2025年9月30日" },
+            { "text": "地震刚发生后游客有所减少，但很快恢复，当地媒体报道，" },
+            { "type": "date", "text": "2025年11月~12月" },
+            { "text": "每天最多约400人（外国人约占90%），" },
+            { "type": "date", "text": "2026年" },
+            { "text": "初每天也有200多人到访。这里的规模不是大型度假村，而是小型潜水度假村沿海滩一字排开。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
             {
               "text": "与以大型度假村为主的长滩岛或邦劳岛相比，这里更加清静，价格也更实惠，特别适合以潜水为目的的游客，或是想要远离喧嚣的情侣。不过从宿务市区经陆路加船程需要"
             },
-            { "type": "duration", "text": "5–6小时" },
+            { "type": "duration", "text": "5~6小时" },
             { "text": "，建议至少安排两晚以上。" }
           ]
         }
@@ -149,13 +236,19 @@
             {
               "type": "card",
               "number": 1,
-              "title": "莫纳德浅滩长尾鲨潜水",
+              "title": "基穆德浅滩长尾鲨潜水",
               "children": [
-                { "text": "于" },
-                { "text": "凌晨4点30分至5点", "type": "time" },
-                { "text": "之间出发，在约" },
-                { "text": "25–30m", "type": "distance" },
-                { "text": "水深的清洁站等待长尾鲨出现。日出前后出现概率最高；只需具备开放水域潜水证即可参加，但由于水深较大，若拥有进阶潜水证或深潜经验会更加从容。" }
+                { "text": "船只在" },
+                { "type": "time", "text": "凌晨4点30分至5点30分" },
+                { "text": "之间从邦蒂海滩出发，航行约" },
+                { "type": "duration", "text": "1小时" },
+                { "text": "。长尾鲨接受清洁的区域水深约" },
+                { "type": "distance", "text": "12~22米" },
+                { "text": "，比以前的莫纳德浅滩（约" },
+                { "type": "distance", "text": "25~30米" },
+                {
+                  "text": "）更浅，能见度也较好，日出之后直到正午前后往往也能观察到，所以不再像以前那样必须很早出发。只有开放水域资格也可以在教练陪同下参加，但很多店家要求前一天先做检查潜水和浮力培训，如果持有进阶资格会从容得多。"
+                }
               ]
             },
             {
@@ -176,7 +269,7 @@
               "title": "卡兰加曼岛当日游",
               "children": [
                 { "text": "从马拉帕斯卡岛乘螃蟹船约" },
-                { "type": "duration", "text": "1小时30分钟–2小时" },
+                { "type": "duration", "text": "1小时30分钟~2小时" },
                 { "text": "可达的这座沙洲岛隶属莱特省帕隆蓬，两端延伸的长长沙洲因航拍照片而闻名。包船费和门票费用由同行人数分摊，人数越多越便宜。" }
               ]
             },
@@ -186,7 +279,7 @@
               "title": "在邦蒂海滩欣赏日落",
               "children": [
                 { "text": "岛屿南侧的邦蒂海滩（Bounty Beach）绵延近" },
-                { "type": "distance", "text": "1km" },
+                { "type": "distance", "text": "1公里" },
                 { "text": "，沿岸聚集着度假村和餐厅。下午海水较浅适合游泳，日落时分排列在岸边的螃蟹船景色十分优美。" }
               ]
             },
@@ -196,7 +289,7 @@
               "title": "环岛徒步之旅",
               "children": [
                 { "text": "沿着岛屿北侧的灯塔、西侧的罗贡（Logon）村和宁静的东侧海岸步行，" },
-                { "type": "duration", "text": "2–3小时" },
+                { "type": "duration", "text": "2~3小时" },
                 { "text": "即可绕行一圈。沿途可以近距离看到村里的孩子、斗鸡场和小礼拜堂等朴素的岛民生活。" }
               ]
             },
@@ -214,6 +307,18 @@
                 {
                   "text": "傍晚时分，在岛屿附近的灯塔角（Lighthouse Point），观察色彩绚丽的麒麟鱼交配是很受欢迎的日落潜水项目。耗时不长，即便行程紧凑也很容易安排进去。"
                 }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "考取开放水域潜水证",
+              "children": [
+                { "text": "即便是第一次下海的人，也可以在这座岛上用" },
+                { "type": "duration", "text": "3~4天" },
+                { "text": "完成PADI开放水域课程。费用因店而异，大致在" },
+                { "type": "price", "text": "₱19,500~26,500" },
+                { "text": "左右，课程结束后可以在教练陪同下挑战长尾鲨潜水。行程安排上，先安排课程，把鲨鱼潜水放在最后一天更为稳妥。" }
               ]
             }
           ]
@@ -250,8 +355,8 @@
                 {
                   "type": "stepper",
                   "items": [
-                    { "time": "凌晨4点30分", "children": [{ "text": "出发前往莫纳德浅滩进行长尾鲨潜水" }] },
-                    { "time": "上午8点", "children": [{ "text": "返回后享用早餐并休息" }] },
+                    { "time": "凌晨4点30分", "children": [{ "text": "前往基穆德浅滩进行长尾鲨潜水（乘船约1小时）" }] },
+                    { "time": "上午9点至10点", "children": [{ "text": "返回后享用早餐并休息" }] },
                     { "time": "上午10点至下午3点", "children": [{ "text": "加托岛潜水两次或前往卡兰加曼岛当日游" }] },
                     { "time": "下午5点", "children": [{ "text": "日落潜水（麒麟鱼）或海滩散步" }] },
                     { "time": "傍晚", "children": [{ "text": "前往罗贡村一带探访当地餐厅" }] }
@@ -270,9 +375,34 @@
                       "time": "中午",
                       "children": [
                         { "text": "退房后前往马雅港，返回宿务市区（请务必核对航班时间，遵守潜水后" },
-                        { "type": "duration", "text": "18–24小时" },
+                        { "type": "duration", "text": "18~24小时" },
                         { "text": "内禁止飞行的规定）" }
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "非潜水者行程",
+              "subtitle": "以浮潜和岛上漫步为主的3天2晚",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "第1天下午",
+                      "children": [{ "text": "从马雅港乘螃蟹船抵达，缴纳环境税后入住，在邦蒂海滩游泳并欣赏日落" }]
+                    },
+                    { "time": "第2天上午6点30分", "children": [{ "text": "第2天早餐后，步行前往罗贡村和北侧海滩，体验岛上生活" }] },
+                    {
+                      "time": "第2天上午9点至下午3点",
+                      "children": [{ "text": "卡兰加曼岛当日游（往返约4小时，含午餐）或岛屿周边半日浮潜" }]
+                    },
+                    { "time": "第2天傍晚", "children": [{ "text": "在海滩餐厅享用海鲜晚餐，早些休息" }] },
+                    {
+                      "time": "第3天上午",
+                      "children": [{ "text": "步行游览北侧灯塔后，上午从马雅港出发，赶在定期螃蟹船停航前返回宿务" }]
                     }
                   ]
                 }
@@ -301,7 +431,7 @@
                     { "text": "从马尼拉到麦克坦-宿务国际机场（CEB）约需" },
                     { "type": "duration", "text": "1小时20分钟" },
                     { "text": "，菲律宾航空、宿务太平洋航空等每天有数十个航班。单程票价约为" },
-                    { "type": "price", "text": "₱2,000–5,000" },
+                    { "type": "price", "text": "₱2,000~5,000" },
                     { "text": "。从韩国仁川、釜山每天都有直飞宿务的航班。" }
                   ]
                 }
@@ -314,20 +444,28 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "从宿务市区SM宿务城旁的北部巴士总站（North Bus Terminal）乘坐开往马雅（Maya）的塞雷斯巴士，约每" },
-                    { "type": "duration", "text": "30分钟至1小时" },
-                    { "text": "发一班，车程约" },
-                    { "type": "duration", "text": "4–5小时" },
-                    { "text": "，票价约" },
-                    { "type": "price", "text": "₱220–250" },
-                    { "text": "。从麦克坦机场到巴士总站乘Grab或出租车约" },
-                    { "type": "duration", "text": "40分钟至1小时" },
+                    {
+                      "text": "在宿务市区SM City Cebu旁的北部巴士总站（North Bus Terminal）乘坐开往马雅（Maya）的塞雷斯（Ceres）巴士。从清晨起每隔约"
+                    },
+                    { "type": "duration", "text": "30分钟~1小时" },
+                    { "text": "一班，车程" },
+                    { "type": "duration", "text": "4~5小时" },
+                    { "text": "，票价从普通巴士约" },
+                    { "type": "price", "text": "₱220" },
+                    { "text": "到空调巴士约" },
+                    { "type": "price", "text": "₱300" },
+                    { "text": "。坐满即发车的拼车小巴约需" },
+                    { "type": "duration", "text": "3小时30分钟~4小时" },
+                    { "text": "，价格约" },
+                    { "type": "price", "text": "₱250~350" },
+                    { "text": "。从麦克坦机场到总站，乘Grab或出租车需" },
+                    { "type": "duration", "text": "40分钟~1小时" },
                     { "text": "（约" },
-                    { "type": "price", "text": "₱300–500" },
-                    { "text": "）。若想节省时间，也可以选择从机场直接包车或包Grab前往马雅港（约" },
-                    { "type": "price", "text": "₱3,500–5,000" },
+                    { "type": "price", "text": "₱300~500" },
+                    { "text": "）。若想节省时间，也可以从机场直接包专车小巴或Grab前往马雅港（约" },
+                    { "type": "price", "text": "₱3,500~5,000" },
                     { "text": "，" },
-                    { "type": "duration", "text": "3–4小时" },
+                    { "type": "duration", "text": "3~4小时" },
                     { "text": "）。" }
                   ]
                 }
@@ -340,15 +478,43 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "从马雅港开往马拉帕斯卡岛的公共方卡船客满即发，票价约" },
+                    { "text": "从马雅港开往马拉帕斯卡岛的公共螃蟹船坐满即发，票价约" },
                     { "type": "price", "text": "₱200~240" },
-                    { "text": "，耗时" },
+                    { "text": "，航程" },
                     { "type": "duration", "text": "30~45分钟" },
-                    { "text": "。" },
-                    { "type": "time", "text": "下午5点" },
-                    { "text": "前后定期方卡船就停运了，因此晚到的话需要包船（约" },
-                    { "type": "price", "text": "₱3,000~5,000" },
-                    { "text": "），并在港口旅游窗口缴纳环境税。退潮或浪大的日子，方卡船无法靠近海滩，大多需要涉过没膝到大腿深的水上下船。" }
+                    { "text": "。头班船在" },
+                    { "type": "time", "text": "上午5点至6点" },
+                    { "text": "前后，而海岸警卫队会在" },
+                    { "type": "time", "text": "下午4点30分至5点30分" },
+                    { "text": "之间禁止出航，所以到得晚的话，要么包船（约" },
+                    { "type": "price", "text": "₱1,500~3,000" },
+                    { "text": "），要么就得在马雅住一晚。需要在港口旅游窗口以现金缴纳环境税" },
+                    { "type": "price", "text": "₱140" },
+                    {
+                      "text": "（环境税₱120加乘客费₱20）。退潮或浪大的日子，螃蟹船无法靠近海滩，需要换乘小船，或是涉过没过膝盖至大腿的水上下船，这时有时还会收取约"
+                    },
+                    { "type": "price", "text": "₱20~50" },
+                    { "text": "的额外费用或行李搬运费。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "自驾·出租车·度假村接送车",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从宿务市沿北部海岸公路到马雅港，自驾约需" },
+                    { "type": "duration", "text": "3~4小时" },
+                    { "text": "。出租车约" },
+                    { "type": "price", "text": "₱4,000~7,000" },
+                    { "text": "，Grab包车约" },
+                    { "type": "price", "text": "₱3,000~4,500" },
+                    { "text": "，大多数潜水度假村都运营机场与住宿专用车辆，约" },
+                    { "type": "price", "text": "₱4,500~7,500" },
+                    { "text": "（因人数和店家而异）即可送到马雅港前。若打算把车停放在港口再入岛，请提前向住宿处确认。" }
                   ]
                 }
               ]
@@ -361,7 +527,7 @@
                   "type": "paragraph",
                   "children": [
                     { "text": "岛上道路狭窄，只能依靠摩托车出租车（Habal-habal）和步行。从码头到邦蒂海滩的住宿地约" },
-                    { "type": "price", "text": "₱50–100" },
+                    { "type": "price", "text": "₱50~100" },
                     { "text": "。" }
                   ]
                 }
@@ -380,13 +546,13 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "旱季" },
-            { "type": "date", "text": "12月至5月" },
-            { "text": "整体天气较好，但" },
-            { "type": "date", "text": "12月至2月" },
-            { "text": "受东北季风（Amihan）影响，岛屿东侧海域风浪较大，螃蟹船颠簸明显，前往莫纳德浅滩的航程也可能变得艰险。海面最平静、水下能见度最佳的时节是" },
-            { "type": "date", "text": "3月至6月" },
-            { "text": "，这段时间水温也会升高到27–29摄氏度，潜水更加舒适。" }
+            { "text": "旱季的" },
+            { "type": "date", "text": "12月~5月" },
+            { "text": "总体上比较适宜，但" },
+            { "type": "date", "text": "12月~2月" },
+            { "text": "受东北季风（阿米汉）影响海面汹涌，螃蟹船摇晃，前往基穆德浅滩的航程可能颠簸。海面最平静、水下能见度最好的时期是" },
+            { "type": "date", "text": "3月~6月" },
+            { "text": "，这段时间水温也升至27~29度，潜水很舒适。" }
           ]
         },
         {
@@ -406,14 +572,27 @@
           ]
         },
         {
+          "type": "paragraph",
+          "children": [
+            { "text": "最拥挤的时期是圣周（" },
+            { "type": "date", "text": "3月底~4月" },
+            { "text": "）和" },
+            { "type": "date", "text": "12月~4月" },
+            { "text": "的旱季旺季。" },
+            { "type": "date", "text": "5月~7月" },
+            { "text": "天气不错，人又相对较少。若要赶上凌晨潜水，最稳妥的做法是前一天中午乘船入岛，住上一晚。" }
+          ]
+        },
+        {
           "type": "table",
           "label": "各时期一览",
           "icon": "calendar_month",
           "columns": ["时期", "天气", "旅行要点"],
           "rows": [
-            ["12月~2月", "旱季，东北风（阿米汉）", "东侧海面波涛汹涌——前往莫纳德浅滩的航程艰险，1月锡努洛节交通拥堵"],
+            ["12月~2月", "旱季，东北风（阿米汉）", "东侧海面汹涌——前往基穆德浅滩的航程颠簸，1月仙洛哥节期间交通拥堵"],
             ["3月~6月", "海面平静，水温27~29度", "潜水最佳——水下能见度好"],
-            ["7月~11月", "雨季·西南风，可能有台风（8~11月）", "海上航行可能中止——长尾鲨全年可见，清晨潜水至少2天以上"]
+            ["7月~11月", "雨季·西南风，可能有台风（8~11月）", "海上航行可能中止——长尾鲨全年可见，清晨潜水至少2天以上"],
+            ["圣周（3月底~4月）", "晴朗炎热，旺季", "房间、船和潜水需提前一个月预订，价格上涨"]
           ]
         }
       ]
@@ -429,15 +608,19 @@
           "currency": "PHP",
           "columns": ["项目", "预估费用", "备注"],
           "items": [
-            { "label": "宿务北部总站 → 马雅巴士", "price": "约₱220–250", "note": "视是否有空调而异" },
-            { "label": "马雅 → 马拉帕斯卡岛螃蟹船", "price": "约₱200~240", "note": "包船约₱3,000~5,000" },
-            { "label": "环境税·港口费", "price": "约₱140~150", "note": "马雅港旅游窗口" },
-            { "label": "一次休闲潜水", "price": "约₱1,500–2,000", "note": "装备租赁另计约₱300–500" },
-            { "label": "海洋公园门票", "price": "约₱150–450", "note": "按潜点收取，由潜水店代收" },
-            { "label": "开放水域潜水证课程", "price": "约₱18,000–24,000", "note": "需时3–4天" },
-            { "label": "卡兰加曼岛当日游", "price": "每人约₱1,500–3,000", "note": "视人数与船只大小而异" },
-            { "label": "住宿", "price": "每晚约₱1,200–6,000", "note": "从民宿到海滩度假村不等" },
-            { "label": "餐饮", "price": "每餐约₱250–600", "note": "从当地餐馆到度假村餐厅不等" }
+            { "label": "宿务北部总站 → 马雅巴士", "price": "约₱220~300", "note": "视是否有空调而异" },
+            { "label": "马雅 → 马拉帕斯卡岛螃蟹船", "price": "约₱200~240", "note": "包船约₱1,500~3,000" },
+            { "label": "环境税·港口费", "price": "约₱140", "note": "马雅港旅游窗口，环境税₱120＋乘客费₱20" },
+            { "label": "一次休闲潜水", "price": "约₱1,800~2,500", "note": "装备租赁另计约₱400，船只燃油附加费约₱500" },
+            {
+              "label": "海洋公园门票",
+              "price": "约₱300~700（1天）",
+              "note": "海洋公园₱300加浅滩保护费₱100~150等，由潜水店代收"
+            },
+            { "label": "开放水域潜水证课程", "price": "约₱19,500~26,500", "note": "需时3~4天" },
+            { "label": "卡兰加曼岛当日游", "price": "每人约₱1,500~3,000", "note": "视人数与船只大小而异" },
+            { "label": "住宿", "price": "每晚约₱1,200~6,000", "note": "从民宿到海滩度假村不等" },
+            { "label": "餐饮", "price": "每餐约₱250~600", "note": "从当地餐馆到度假村餐厅不等" }
           ]
         },
         {
@@ -460,9 +643,9 @@
           "type": "paragraph",
           "children": [
             { "text": "住宿大多集中在岛屿南侧的邦蒂海滩沿线。海滩前的度假村每晚约" },
-            { "type": "price", "text": "₱3,000–6,000" },
+            { "type": "price", "text": "₱3,000~6,000" },
             { "text": "，其中很多同时经营潜水店，方便凌晨出海潜水。若想省钱，可以到邦蒂海滩后方村落里的民宿寻找，约" },
-            { "type": "price", "text": "₱1,000–1,800" },
+            { "type": "price", "text": "₱1,000~1,800" },
             { "text": "就能订到带空调的房间。岛屿西侧的罗贡村一带比较安静，日落也很美，但餐厅选择较少。" }
           ]
         },
@@ -470,10 +653,20 @@
           "type": "paragraph",
           "children": [
             { "text": "作为潜水者聚集的岛屿，这里西式咖啡馆和披萨、意面餐厅很多；在当地餐馆里，也能以" },
-            { "type": "price", "text": "₱150–300" },
+            { "type": "price", "text": "₱150~300" },
             {
               "text": "品尝到炭烤鱼、鱿鱼、阿多波、酸汤（Sinigang）等菲律宾家常菜。到了傍晚，邦蒂海滩沿岸的餐厅会在沙滩上摆好桌子，按重量称卖当天捕获的海鲜并现场烹调。凌晨潜水前，潜水店大多只提供咖啡和面包，最好提前准备些简单的零食。"
             }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "海滩前的潜水度假村中，经常被推荐的有Ocean Vida、Tepanee Beach Resort和Angelina Beach Hotel等。最便宜的风扇房每晚约"
+            },
+            { "type": "price", "text": "₱500~800" },
+            { "text": "，大型度假村中配备星链（Starlink）网络的也越来越多。自来水是混有盐分的地下水，最好不要饮用，请购买净化水或瓶装水使用。" }
           ]
         }
       ]
@@ -492,7 +685,7 @@
             {
               "children": [
                 {
-                  "text": "岛上ATM数量不多，常出现故障或现金不足的情况，请在宿务市区或前往马雅途中的博戈（Bogo）、达安万岱先取足现金。潜水店刷卡通常会收取3%–5%的手续费。"
+                  "text": "岛上ATM数量不多，常出现故障或现金不足的情况，请在宿务市区或前往马雅途中的博戈（Bogo）、达安万岱先取足现金。潜水店刷卡通常会收取3%~5%的手续费。"
                 }
               ]
             },
@@ -506,15 +699,30 @@
             { "children": [{ "text": "上下螃蟹船时常会弄湿身体，请准备防水袋和凉鞋，比起拉杆箱，背包会方便得多。" }] },
             {
               "children": [
-                { "text": "凌晨潜水在日出前需下潜到接近" },
-                { "type": "distance", "text": "30m" },
-                { "text": "的深度，携带5mm潜水服或连帽背心可以减轻寒意。" }
+                { "text": "凌晨的船上风大寒冷，有些日子水下水温也会下降，带上防风外套和5mm潜水服或带帽背心，可以少受些冻。基穆德浅滩的清洁站水深约" },
+                { "type": "distance", "text": "12~22米" },
+                { "text": "。" }
               ]
             },
-            { "children": [{ "text": "莫纳德浅滩禁止使用闪光灯。请将相机设置为自然光模式。" }] },
+            { "children": [{ "text": "基穆德浅滩和莫纳德浅滩禁止使用频闪灯和相机闪光灯。请将相机设置为自然光模式。" }] },
             { "children": [{ "text": "岛上大部分区域都有手机信号，但网速较慢。住宿的Wi-Fi在停电时也会中断，重要工作最好在宿务处理完再出发。" }] },
             { "children": [{ "text": "拍照胜地是邦蒂海滩的日落、北侧灯塔和卡兰加曼岛的沙洲。卡兰加曼岛可以使用无人机拍摄，但请先确认当地规定。" }] },
-            { "children": [{ "text": "岛上没有像样的诊所，即使是轻微治疗也要去本岛，减压舱在宿务市。请购买潜水员保险，并多带一些常备药。" }] }
+            { "children": [{ "text": "岛上没有像样的诊所，即使是轻微治疗也要去本岛，减压舱在宿务市。请购买潜水员保险，并多带一些常备药。" }] },
+            {
+              "children": [
+                { "text": "需要在马雅港旅游窗口以现金缴纳环境税" },
+                { "type": "price", "text": "₱140" },
+                { "text": "，末班船会在" },
+                { "type": "time", "text": "下午4点30分至5点30分" },
+                { "text": "之间停航。请安排好巴士，务必在下午4点前抵达马雅。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "2026年3月", "type": "date" },
+                { "text": "前后，当地柴油价格曾从每升约₱60涨到₱90，潜水和旅游船的燃油附加费可能因此有所不同。预订时请询问总价是否已包含燃油费。" }
+              ]
+            }
           ]
         }
       ]
@@ -531,7 +739,7 @@
           "icon": "warning",
           "children": [
             { "text": "潜水后至少需要间隔" },
-            { "type": "duration", "text": "18–24小时" },
+            { "type": "duration", "text": "18~24小时" },
             { "text": "才能乘坐飞机。请务必将宿务机场的出境行程与最后一次潜水时间对应好。" }
           ]
         },
@@ -556,7 +764,7 @@
                 { "text": "，达安万岱近海发生6.9级地震，达安万岱教堂倒塌等，宿务北部受到严重破坏，" },
                 { "type": "date", "text": "2025年11月" },
                 {
-                  "text": "又有台风\"蒂诺\"（Kalmaegi）经过。马拉帕斯卡岛的度假村和潜水店自当年年底起已重新接待游客，但余震和修复工程可能仍在持续，请确认住宿处的避难指引，并了解最新的当地消息后再出发。"
+                  "text": "又有台风“蒂诺”（Kalmaegi）经过。马拉帕斯卡岛的度假村和潜水店自当年年底起已重新接待游客，但余震和修复工程可能仍在持续，请确认住宿处的避难指引，并了解最新的当地消息后再出发。"
                 }
               ]
             }
@@ -590,7 +798,7 @@
               "place": "kalanggaman-island",
               "children": [
                 { "text": "从马拉帕斯卡岛乘螃蟹船约" },
-                { "type": "duration", "text": "1小时30分钟–2小时" },
+                { "type": "duration", "text": "1小时30分钟~2小时" },
                 { "text": "可达，是一座以狭长沙洲著称的无人岛。" }
               ]
             },
@@ -610,8 +818,18 @@
               "place": "moalboal",
               "children": [
                 { "text": "位于宿务西南部约" },
-                { "type": "duration", "text": "5–6小时" },
+                { "type": "duration", "text": "5~6小时" },
                 { "text": "车程处，以沙丁鱼风暴和海龟浮潜闻名。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "宿务市",
+              "place": "cebu-city",
+              "children": [
+                { "text": "陆路到马雅港约" },
+                { "type": "duration", "text": "4~5小时" },
+                { "text": "，是进岛前后落脚的据点，可以游览机场、博物馆和教堂。" }
               ]
             }
           ]
