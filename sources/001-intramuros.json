@@ -1,0 +1,231 @@
+{
+  "id": 1,
+  "slug": "intramuros",
+  "checked_at": "2026-10-04T12:39:23Z",
+  "facts": [
+    {
+      "where": "tips",
+      "fact": "관리청 시설 운영 시간·요금 (포트 산티아고·바루아르테 데 산 디에고·카사 마닐라·센트로 데 투리스모·무세오)",
+      "value": "포트 산티아고 평일 08:00~22:00(마지막 20:00)·주말 06:00~22:00(마지막 20:30), ₱75/₱50 / 바루아르테 매일 08:00~17:00(마지막 16:00) / 카사 마닐라 화~일 09:00~18:00(마지막 17:00), 월 휴관 / 센트로 기본 전시 무료, 무세오·도서관 포함 ₱150/₱120, 월 휴관",
+      "sources": [
+        { "url": "https://intramuros.gov.ph/hours/", "grade": "A", "date": "2026-10-04", "says": "위 시간·요금 그대로, 'Entry from 8-10 PM may be allowed for Klook bookings only', FREE ACCESS: Visitor Center, Centro de Turismo Intramuros Museum / PAID ACCESS ₱150 (Museo de Intramuros, library, mezzanine)" },
+        { "url": "https://intramuros.gov.ph/cm/", "grade": "A", "date": "2026-10-04", "says": "Casa Manila Tue-Sun 9AM-6PM, Monday closed, PHP 75 regular / PHP 50 discounted, façade patterned after an 1850s house on Jaboneros St, Binondo" },
+        { "url": "https://thebeat.asia/manila/the-list/deals/baluarte-de-san-diego-ticket-in-intramuros-manila", "grade": "B", "date": "2025-10-01", "says": "Baluarte de San Diego P75, 8:00 AM - 5:00 PM" },
+        { "url": "sources/210-fort-santiago.json", "grade": "B", "date": "2026-10-03", "says": "포트 산티아고 ₱75/₱50·운영 시간을 공식 사이트·momentbook(2026-05) 두 곳으로 확인한 기록" }
+      ],
+      "decision": "기존 tips 의 요금·시간은 맞아 그대로 두고, 카드 4·6·8 과 비용표에 시설별 시간·요금을 더함. 공식 시설 안내 페이지 중 guide-museums·mdi 는 옛 요금(₱200·₱75, 주말만 개방)이 남아 있어 /hours/ 를 최신으로 봄"
+    },
+    {
+      "where": "costs",
+      "fact": "인트라무로스 패스포트",
+      "value": "₱350 (학생·노인·장애인 등 ₱280), 5개 시설 1회 입장 + 주말 무료 트란비아·제휴 할인",
+      "sources": [
+        { "url": "https://intramuros.gov.ph/ia_passport/", "grade": "A", "date": "2026-10-04", "says": "Get your Intramuros Passport for only ₱350 ... access to major Intramuros sites, free tranvia ride every weekend, plus exclusive perks and discounts from partner merchants" },
+        { "url": "https://www.gmanetwork.com/news/lifestyle/hobbiesandactivities/943706/introducing-the-intramuros-passport-5-exciting-things-you-can-get-access-to/story/", "grade": "B", "date": "2025-04-23", "says": "₱350 regular, ₱280 PWD/seniors/students/children; Fort Santiago, Casa Manila, Museo de Intramuros, Baluarte de San Diego, Centro de Turismo" }
+      ],
+      "decision": "할인가는 GMA 한 곳이지만 공식 정가가 같아 그대로 씀. 다섯 시설을 개별로 사는 것보다 싸다는 말은 바루아르테 요금 확신이 낮아 쓰지 않음"
+    },
+    {
+      "where": "highlights·costs",
+      "fact": "밤바이크 대나무 자전거 투어 요금",
+      "value": "익스프레스 2시간 ₱1,500, 익스피리언스 3시간(포트 산티아고 포함) ₱2,200, 선셋 ₱2,500, 야간 ₱1,700(17:00~19:00)",
+      "sources": [
+        { "url": "https://www.bambike.com/ecotours", "grade": "A", "date": "2026-10-04", "says": "Intramuros Express Tour PHP 1,500/pax, Intramuros Experience PHP 2,200/pax (all entrance fees, includes Fort Santiago), Sunset PHP 2,500/pax, Night Tour PHP 1,700/pax, Schedule 5:00 PM - up to 7:00 PM, meet-up Bambike HQ Plaza San Luis" },
+        { "url": "https://www.tripadvisor.com/Attraction_Review-g298573-d6589663-Reviews-Bambike_Ecotours_Intramuros-Manila_Metro_Manila_Luzon.html", "grade": "B", "date": "2026-10-04", "says": "검색 결과 요약: Intramuros Experience from ₱2,522 per adult (중개 판매가)" },
+        { "url": "https://www.topgear.com.ph/features/feature-articles/intramuros-guide-public-transport-tours-a4682-20241126-lfrm", "grade": "B", "date": "2024-11-26", "says": "Tours P999-P1,799 (옛 요금)" }
+      ],
+      "decision": "옛 값 ₱800~1,300 은 2024년 이전 요금이라 공식 2026 요금 범위 ₱1,500~2,500 으로 바로잡음"
+    },
+    {
+      "where": "highlights·costs",
+      "fact": "칼레사·페디캡·e-트라이크 관리청 기준 요금, 주차",
+      "value": "칼레사 1시간 ₱1,000(할인 ₱800, 최대 6명) / 페디캡 1회 ₱20, 1시간 ₱400 / e-트라이크 노선 ₱25, 전세 1시간 ₱800(플라사 로마 출발, 최대 8명) / 관리청 주차장 정액 ₱50",
+      "sources": [
+        { "url": "https://www.topgear.com.ph/features/feature-articles/intramuros-guide-public-transport-tours-a4682-20241126-lfrm", "grade": "B", "date": "2024-11-26", "says": "Kalesa P1,000 per hour regular / P800 discounted, up to 6; pedicab P20 regular trip, P400/hour; e-trike P25, P800/hour charter, pickup Plaza de Roma; parking P50 flat (Fort Santiago, Postigo, PC Barracks, Puerta Real)" },
+        { "url": "https://www.traveling-up.com/transport-guide-intramuros-manila/", "grade": "C", "date": "2026-04-29", "says": "Kalesa ₱1,000/hr (₱800 discounted), up to 6; pedicab ₱20 / ₱400/hr; e-trike ₱25 / ₱800/hr; IA parking ₱50 flat" }
+      ],
+      "decision": "옛 글의 칼레사 '₱300~1,000 흥정'·트라이시클 '₱50~100' 을 관리청 기준 요금으로 바로잡음. 실제로는 흥정 요구가 많아 기존 주의 문장은 그대로 둠"
+    },
+    {
+      "where": "getting_there",
+      "fact": "LRT 1호선 연장 역 이름·요금",
+      "value": "2024-11-16 개통, 역 이름은 PITX(옛 계획명 아시아 월드). 요금 교통카드 ₱16~52, 1회권 ₱20~55, PITX→센트럴 ₱32/₱35",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/PITX_station", "grade": "B", "date": "2026-10-04", "says": "originally known as Asia World station ... officially renamed as PITX station; opened November 16, 2024; accessible from the third level of PITX" },
+        { "url": "https://www.dzrh.com.ph/post/lrt-1-fare-hike-gets-approval-to-be-implemented-on-april-2", "grade": "B", "date": "2025-02-19", "says": "effective April 2, 2025: SJT Php20 to Php55, stored value Php16 to Php52" },
+        { "url": "https://mypinas.ph/transportation/lrt-1-fare-matrix/", "grade": "C", "date": "2026-08", "says": "PITX to Central ₱32 (Beep) / ₱35 (SJT)" }
+      ],
+      "decision": "'아시아 월드(Asia World)역' 을 지금 이름 PITX역으로 바로잡음. 구간 요금은 C 한 곳이지만 공식 산식(₱16.25 + ₱1.47/km)과 맞아 씀"
+    },
+    {
+      "where": "getting_there",
+      "fact": "2026-09-28 대중교통 요금 인상",
+      "value": "일반 지프니 최소 ₱14, 현대식 ₱17, 차량 호출(TNVS) 기본요금 +₱20, 공항 택시 기본요금 ₱115",
+      "sources": [
+        { "url": "https://www.topgear.com.ph/news/industry-news/dotr-fare-hike-september-28-2026-a6941-20260928", "grade": "B", "date": "2026-09-28", "says": "Traditional P14 minimum, Modern P17; TNVS P20 increase on base fare; Airport taxis P115 flag-down" },
+        { "url": "https://mb.com.ph/2026/09/27/transport-groups-thankful-as-puv-fare-hike-starts-sept-28", "grade": "B", "date": "2026-09-27", "says": "검색 결과 요약: PUV fare hike starts Sept. 28 (지프니 ₱14·₱17, TNVS +₱20)" },
+        { "url": "https://newsinfo.inquirer.net/2197419/buses-jeepneys-airport-cabs-tnvs-get-fare-hike", "grade": "B", "date": "2026-09", "says": "검색 결과 요약: buses, jeepneys, airport cabs, TNVS get fare hike" }
+      ],
+      "decision": "그랩 공항 요금 범위(₱300~600)는 정확한 새 값이 없어 그대로 두고 인상 사실만 덧붙임"
+    },
+    {
+      "where": "getting_there",
+      "fact": "지프니 경로",
+      "value": "LRT 카리에도역 근처에서 피어 방면 지프니 → 마닐라 대성당(플라사 로마) 근처, 10~15분",
+      "sources": [
+        { "url": "https://www.thepoortraveler.net/manila-cathedral/", "grade": "C", "date": "2026", "says": "From LRT 1 Carriedo or Doroteo Jose stations, take pier-bound jeepneys (approximately P13 fare, 10-15 minutes)" },
+        { "url": "https://www.traveling-up.com/transport-guide-intramuros-manila/", "grade": "C", "date": "2026-04-29", "says": "Carriedo Station ... jeeps bound for Pier 15 heading toward Plaza Roma and Manila Cathedral" }
+      ],
+      "decision": "요금은 9월 28일 인상값으로 씀"
+    },
+    {
+      "where": "getting_there",
+      "fact": "파시그강 페리 — 인트라무로스 가까운 역·운항",
+      "value": "에스콜타역(존스 다리 북쪽 끝, 비논도 쪽)·로턴역(중앙우체국 쪽), 무료, 신분증, 대략 07:00~17:30, 성주간·정비 때 중단",
+      "sources": [
+        { "url": "https://www.escapemanila.com/pasig-ferry-schedule/", "grade": "C", "date": "2026-05-06", "says": "13 stations incl. Lawton, Escolta (Plaza Mexico 없음); currently FREE; downstream from 7:00 am, ends ~5:20 pm Escolta, upstream to 5:30 pm" },
+        { "url": "https://mappedatlas.com/navigate/philippines-commute-guides/pasig-river-ferry-routes-stations-guide/", "grade": "C", "date": "2026-03", "says": "FREE (MMDA), valid ID required; Escolta = Binondo, Jones Bridge, Intramuros; Lawton = Manila Post Office" },
+        { "url": "https://placefinder.sakay.ph/point-to-point/escolta-pasig-ferry-station/manila-ocean-park", "grade": "C", "date": "2026-10-04", "says": "검색 결과 요약: Escolta station on the north bank of the Pasig River, next to Jones Bridge" },
+        { "url": "https://pia.gov.ph/news/mmda-suspends-operations-of-pasig-river-ferry-starting-april-1/", "grade": "A", "date": "2026-03", "says": "검색 결과 요약: 2026-04-01~04-05 정비로 운항 중단, 04-06 재개 (본문은 403 으로 열지 못함)" }
+      ],
+      "decision": "기존 글의 '인트라무로스 북쪽 강변(이민국 건물 뒤)의 에스콜타역' 은 위치가 틀려 고쳐 씀 — 에스콜타역은 강 건너 북쪽 기슭(존스 다리 옆)이다. 성벽 바로 옆 플라사 멕시코역은 traveling-up(2026-04)에만 나오고 2026년 역 목록 2곳(escapemanila·mappedatlas)에 없어 쓰지 않음. 일요일 운항 여부도 출처가 갈려 요일은 쓰지 않음"
+    },
+    {
+      "where": "getting_there",
+      "fact": "무료 e-트란비아",
+      "value": "2026-03-22 시범 운행, 플라사 로마 출발, 09~10시·15~16시, 18명, 10곳 정차 — 2026-09 에도 운행",
+      "sources": [
+        { "url": "https://www.topgear.com.ph/features/feature-articles/intramuros-e-tranvia-2026-guide-a4682-20260401-lfrm", "grade": "B", "date": "2026-04-01", "says": "pilot run March 22, 2026 at Plaza Roma; 9-10 AM and 3-4 PM daily; max 18; free first-come" },
+        { "url": "https://interaksyon.philstar.com/trends-spotlights/2026/04/21/312283/intramuros-free-e-tranvia-rides-limited-time/", "grade": "B", "date": "2026-04-21", "says": "twice a day daily, 9-10 a.m., 3-4 p.m., Plaza Roma, max 18, IA did not disclose how long" },
+        { "url": "https://x.com/Intramuros/status/2100855624561197227/photo/1", "grade": "A", "date": "2026-09", "says": "검색 결과 요약: 19 Sept 2026 9AM only; regular FREE Tranvia Ride schedules at 9:00 AM and 3:00 PM resume on 20 September 2026" }
+      ],
+      "decision": "기존 문단이 맞아 그대로 둠"
+    },
+    {
+      "where": "itinerary·getting_there",
+      "fact": "파시그강 에스플라나데",
+      "value": "3단계 플라사 멕시코~포트 산티아고 600m 2025-02-27 개통, 상점·노점 15:00~24:00",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Pasig_River_Esplanade", "grade": "B", "date": "2026-10-04", "says": "Phase 3 Plaza Mexico to Fort Santiago, opened February 27, 2025, 600 m; total 1,880 m" },
+        { "url": "https://www.topgear.com.ph/features/feature-articles/pasig-river-esplanade-guide-2026-a4682-20260427-lfrm", "grade": "B", "date": "2026-04-27", "says": "Phase 3: Plaza Mexico to Fort Santiago (600m); commercial areas 3:00pm to 12:00am; best 4-5 pm" }
+      ],
+      "decision": "야경 코스 단계로 씀"
+    },
+    {
+      "where": "highlights",
+      "fact": "마닐라 대성당 — 여덟 번째 건물·1981 준대성전·오르간·미사",
+      "value": "1954~1958 재건(8번째), 1981-04-27 준대성전, 1958 Pels & Zoon 오르간 5,000개 넘는 파이프·필리핀 최대, 평일 미사 07:30·12:10, 입장 무료",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Manila_Cathedral", "grade": "B", "date": "2026-10-04", "says": "8th reconstruction, 1954-1958; April 27, 1981 minor basilica; organ by Pels & Zoon 1958 'largest pipe organ in Southeast Asia'" },
+        { "url": "https://manilacathedral.com.ph/pipeorgan", "grade": "A", "date": "2026-10-04", "says": "more than 5000 pipes ... the largest pipe organ in the Philippines" },
+        { "url": "https://manilacathedral.com.ph/", "grade": "A", "date": "2026-10-04", "says": "Mass Mon-Fri 7:30 AM, 12:10 PM; Sat 7:30 AM; Sun 8:00, 10:00 AM, 6:00 PM" },
+        { "url": "https://www.thepoortraveler.net/manila-cathedral/", "grade": "C", "date": "2026", "says": "free entrance; eighth structure; minor basilica 1981; same mass times" }
+      ],
+      "decision": "파이프 수는 출처마다 5,500~6,446 으로 갈려 공식 표현 '5,000개가 넘는' 을 씀. '필리핀 최초 준대성전' 표현(2차 출처)은 산토니뇨 성당(1965)이 먼저라 쓰지 않음"
+    },
+    {
+      "where": "highlights",
+      "fact": "산 아구스틴 박물관 요금·시간",
+      "value": "₱200(할인 ₱160), 매일 08:00~12:00·13:00~17:00, 결혼식 때 관람 제한",
+      "sources": [
+        { "url": "sources/206-san-agustin-church.json", "grade": "B", "date": "2026-10-03", "says": "요금 5곳 일치(thepoortraveler 2026-04, trailblazing 2026-06, philippinescompass 2026-07, GMA 2023 등), 시간 2026년 3곳 일치" }
+      ],
+      "decision": "산 아구스틴 성당 항목의 근거를 그대로 따름(공식 페이지는 열리지 않음)"
+    },
+    {
+      "where": "highlights",
+      "fact": "포트 산티아고 백십자",
+      "value": "제2차 세계대전 희생자 약 600명의 합동 묘",
+      "sources": [
+        { "url": "https://intramuros.gov.ph/fs/", "grade": "A", "date": "2026-10-03", "says": "White Cross (mass grave of 600 WWII victims) — sources/210-fort-santiago.json 기록" },
+        { "url": "https://www.philippinescompass.com/fort-santiago-intramuros-complete-visitor-guide/", "grade": "C", "date": "2026-07", "says": "백십자 합동 무덤 소개 — sources/210-fort-santiago.json 기록" }
+      ],
+      "decision": "카드 1 에 덧붙임. 기존 '청동 발자국' 표현은 210 항목에서 재질이 갈린다고 적었으나 틀렸다는 근거가 없어 그대로 둠"
+    },
+    {
+      "where": "highlights",
+      "fact": "바루아르테 데 산 디에고 연혁",
+      "value": "1586~1587 안토니오 세데뇨 설계 원형 요새(누에스트라 세뇨라 데 기아) → 스페이드 모양 보루, 1979~1982 발굴로 동심원 구조 확인, 정원",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Baluarte_de_San_Diego", "grade": "B", "date": "2026-10-04", "says": "Fort Nuestra Señora de Guia, Antonio Sedeño, 1586-1587; circular to ace-of-spades with orillons; excavations 1979-1982 three concentric circular structures; restoration 1979-1992, gardens" },
+        { "url": "https://thebeat.asia/manila/the-list/deals/baluarte-de-san-diego-ticket-in-intramuros-manila", "grade": "B", "date": "2025-10-01", "says": "16th-century circular bastion, archaeological park with preserved ruins" }
+      ],
+      "decision": "카드 6 의 '원형 요새' 표기가 지금 모습과 달라 연혁을 넣어 고쳐 씀"
+    },
+    {
+      "where": "highlights",
+      "fact": "센트로 데 투리스모 인트라무로스",
+      "value": "2024-06-12 일반 개방, 재건된 산 이그나시오 성당 안, 기본 전시 무료",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Centro_de_Turismo_Intramuros", "grade": "B", "date": "2026-10-04", "says": "inside the reconstructed San Ignacio Church along Arzobispo Street; launched June 9, 2024, opened to the public June 12, 2024; 8,000 artifacts" },
+        { "url": "https://www.gmanetwork.com/news/lifestyle/travel/909596/intramuros-unveils-its-newest-interactive-museum-and-tourist-center/story/", "grade": "B", "date": "2024-06-10", "says": "Old San Ignacio Church, 9am-6pm, free admission, QR code videos" },
+        { "url": "https://intramuros.gov.ph/mdi/", "grade": "A", "date": "2026-10-04", "says": "Museo de Intramuros comprises the reconstructed San Ignacio Church and Mission House; Mission House opened 2019" }
+      ],
+      "decision": "카드 8 에 덧붙임. mdi 페이지의 요금(₱75)·주말 개방은 /hours/ 와 달라 쓰지 않음"
+    },
+    {
+      "where": "overview",
+      "fact": "성벽 연혁·규모·관리청 설립",
+      "value": "성벽 공사 1590~1872, 두께 8ft(약 2.4m)·높이 22ft(약 6.7m), 보루 7곳, 면적 64ha, 1979 대통령령 1616호로 관리청 설립",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Intramuros", "grade": "B", "date": "2026-10-04", "says": "Construction of the walls began on 1590 and continued ... until 1872; 8 ft thick, 22 ft high; 64 ha; seven bastions; walls estimated 3-5 km; Intramuros Administration PD 1616 (1979-04-10); 1945 battle destroyed ~95% of structures" },
+        { "url": "http://www.officialgazette.gov.ph/1979/04/10/presidential-decree-no-1616-s-1979/", "grade": "A", "date": "1979-04-10", "says": "Creating the Intramuros Administration (위키백과 인용 출처)" }
+      ],
+      "decision": "기존 '둘레 약 4.5km' 는 위키백과 추정 범위(3~5km) 안이라 그대로 둠"
+    },
+    {
+      "where": "best_time",
+      "fact": "인트라무로스 피에스타·그랜드 마리안 행렬·여름 축제",
+      "value": "피에스타 2024년부터 9월(2026년 3회), 그랜드 마리안 행렬 12월 첫 일요일 플라사 로마, 1981년부터 관리청·코프라디아 공동 개최, 성모상 100여 기",
+      "sources": [
+        { "url": "https://intramuros.gov.ph/2026/09/02/calendar-of-activities-for-september-2026/", "grade": "A", "date": "2026-09-02", "says": "As we celebrate the 3rd Fiesta de Intramuros ... solemn traditions, vibrant festivities" },
+        { "url": "https://en.wikipedia.org/wiki/San_Agustin_Church_(Manila)", "grade": "B", "date": "2026-10-03", "says": "first Fiesta de Intramuros Sept 8, 2024 (sources/206 기록)" },
+        { "url": "https://en.wikipedia.org/wiki/Intramuros_Grand_Marian_Procession", "grade": "B", "date": "2026-10-04", "says": "every First Sunday of December at the Plaza de Roma ... over 100 images ... since 1981 organized by the Intramuros Administration and the Cofradia" },
+        { "url": "https://intramuros.gov.ph/2021/09/14/reviving-the-walled-city-the-establishment-of-the-grand-marian-procession-in-post-war-intramuros/", "grade": "A", "date": "2021-09-14", "says": "전후 그랜드 마리안 행렬 부활 경위 (위키백과 인용 출처)" }
+      ],
+      "decision": "피에스타 날짜는 해마다 달라 월만 씀. 여름 축제(2026-04-25, 포트 산티아고)는 분량 때문에 넣지 않음"
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "바바라스 저녁 뷔페·공연",
+      "value": "1인 ₱1,650, 공연 19:15쯤 시작, 45분~1시간",
+      "sources": [
+        { "url": "https://www.barbaras.ph/service-page/buffet-with-cultural-show", "grade": "A", "date": "2026-10-04", "says": "Buffet with Cultural Show ₱1,650, 3 hours, General Luna Street" },
+        { "url": "https://primer.com.ph/food/location/philippines/manila/barbaras/", "grade": "B", "date": "2025-06-16", "says": "Dinner buffet with cultural show Php 1,650; show begins 7:15 p.m. after 6:30 p.m. service; up to 45 minutes to 1 hour" },
+        { "url": "https://www.eatmybananas.com/barbaras-intramuros-buffet-price/", "grade": "C", "date": "2024-07-22", "says": "₱1,500 (옛 요금)" }
+      ],
+      "decision": "공식 요금 기준"
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "숙소 요금 — 더 베이리프·화이트 나이트",
+      "value": "베이리프 1박 약 ₱4,000~6,500(유지), 화이트 나이트 1박 약 ₱1,600~3,000",
+      "sources": [
+        { "url": "https://www.expedia.com.ph/Manila-Hotels-The-Bayleaf-Intramuros.h4777184.Hotel-Information", "grade": "B", "date": "2026-10-04", "says": "검색 결과 요약: P4,194, standard $55-134" },
+        { "url": "https://white-knight-hotel-manila.h-rez.com/", "grade": "C", "date": "2026-10-04", "says": "Rates from PHP1,588" },
+        { "url": "https://www.klook.com/en-US/hotels/detail/66265-white-knight-hotel-intramuros/", "grade": "B", "date": "2026-10-04", "says": "검색 결과 요약: from USD 42 per night, Plaza San Luis Complex, opened 2010" }
+      ],
+      "decision": "화이트 나이트는 2010년부터 영업한 성벽 안 호텔이라 이름을 씀. 요금은 예약 사이트 시세라 '약' 과 범위로 씀"
+    },
+    {
+      "where": "nearby",
+      "fact": "퀴아포 성당 가는 법",
+      "value": "LRT 카리에도역에서 도보 약 5~10분",
+      "sources": [
+        { "url": "data/ko/101-quiapo-church.json", "grade": "B", "date": "2026-10-04", "says": "카리에도역에서 카리에도 거리를 따라 도보 약 5~10분 (같은 저장소 항목)" }
+      ],
+      "decision": "같은 저장소 항목과 맞춤"
+    }
+  ],
+  "images": [
+    { "file": "001-intramuros-4.webp", "source": "https://commons.wikimedia.org/wiki/File:The_Gate_of_Fort_Santiago_(17107690389).jpg", "check": "포트 산티아고 정문(성 야고보 부조가 있는 석조 문과 성벽) — 분류 Fort Santiago Gate in Manila, highlights 1 과 같다. CC BY 2.0" },
+    { "file": "001-intramuros-5.webp", "source": "https://commons.wikimedia.org/wiki/File:San_Agustin_Church_facade.jpg", "check": "산 아구스틴 성당 정면과 오른쪽 아우구스티노회 수도원(박물관) 건물 — 문화유산 사진(WLM 2012), highlights 2. CC BY-SA 3.0" },
+    { "file": "001-intramuros-6.webp", "source": "https://commons.wikimedia.org/wiki/File:Manila_Cathedral_at_Intramuros.jpg", "check": "마닐라 대성당 정면(시계탑·아치 입구·성인상) 2025-05 촬영 — 분류 Manila Cathedral, highlights 3. CC BY-SA 4.0" },
+    { "file": "001-intramuros-7.webp", "source": "https://commons.wikimedia.org/wiki/File:Casa_Manila_Courtyard_(34126888952).jpg", "check": "카사 마닐라 안뜰(분수·카피스 창) — 분류 Casa Manila, 촬영 위치 14.5896,120.9753(산 아구스틴 맞은편), highlights 4. CC BY-SA 2.0" },
+    { "file": "001-intramuros-8.webp", "source": "https://commons.wikimedia.org/wiki/File:Two_Kalesas_in_Intramuros_(2026-01-15).jpg", "check": "인트라무로스의 칼레사 두 대 2026-01 촬영 — 분류 Calesas of Intramuros, highlights 7. 먼저 받은 'Kalesa at Intramuros, Mar 2026' 은 장소가 드러나지 않는 근접 사진이라 지우고 이 사진으로 바꿈. CC BY 4.0" },
+    { "file": "001-intramuros-9.webp", "source": "https://commons.wikimedia.org/wiki/File:Baluarte_de_San_Diego,_Manila,_Filipinas,_2023-08-27,_DD_61.jpg", "check": "바루아르테 데 산 디에고의 동심원 모양 돌 구조물 — 분류 Baluarte de San Diego, Intramuros, highlights 6 의 설명과 같다. CC BY-SA 4.0 (대표 사진과 같은 작가지만 다른 날·다른 장소)" },
+    { "file": "001-intramuros-10.webp", "source": "https://commons.wikimedia.org/wiki/File:Santa_Lucia_Gate,_Intramuros,_2018_(01).jpg", "check": "산타 루시아 문과 이어진 성벽 — 분류 Santa Lucia Gate (Puerta de Santa Lucia) of Intramuros, 촬영 위치 14.5884,120.9735(성벽 안). CC BY-SA 4.0" },
+    { "file": "001-intramuros-11.webp", "source": "https://commons.wikimedia.org/wiki/File:Grand_Marian_Procession_2025_in_Intramuros,_Manila_(1).jpg", "check": "2025-12-07 그랜드 마리안 행렬의 성모상 카로사 — 분류 Intramuros Grand Marian Procession·Andres Soriano Avenue (Manila), 촬영 위치 14.5931,120.9735(성벽 안), best_time 의 행렬 설명과 같다. CC BY-SA 4.0" },
+    { "file": "001-intramuros-12.webp", "source": "https://commons.wikimedia.org/wiki/File:Pasig_River_Esplanade_Phase_3_CNE_08.jpg", "check": "파시그강 에스플라나데 3단계(포트 산티아고 구간) — 오른쪽이 요새 성벽, 개통일 2025-02-27 촬영, 야경 코스 단계와 같다. CC BY-SA 4.0" }
+  ]
+}
