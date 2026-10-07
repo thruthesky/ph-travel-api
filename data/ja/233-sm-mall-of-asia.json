@@ -1,0 +1,864 @@
+{
+  "id": 233,
+  "slug": "sm-mall-of-asia",
+  "title": { "type": "title", "text": "SMモール・オブ・アジア" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "SM Mall of Asia" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "マニラ湾の夕焼けと観覧車で締めくくる最終日" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "metro-manila", "text": "マニラ首都圏" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "マニラ首都圏パサイ市ベイシティ(マニラ湾の埋め立て地)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "location_city",
+    "value": "city",
+    "text": "都市・グルメ"
+  },
+  "tags": { "type": "tags", "label": "タグ", "items": ["ショッピングモール", "サンセット", "観覧車", "夜景", "家族旅行"] },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 14.5352 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 120.9819 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "通年(11月〜5月の乾季は夕日が最も美しい)",
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "半日〜1日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人約₱800〜3,000(買い物・宿泊を除く)",
+    "currency": "PHP",
+    "min": 800,
+    "max": 3000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ニノイ・アキノ国際空港 (MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/233-sm-mall-of-asia.webp",
+    "alt": "MOAアイとSMバイ・ザ・ベイの夕日",
+    "credit": "梅津拓哉 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:MOA%E3%81%AE%E8%A6%B3%E8%A6%A7%E8%BB%8A.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-2.webp",
+        "alt": "SMモール・オブ・アジアの外観",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:SM_Mall_of_Asia,_Pasay,_Sep_2025_(1).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-3.webp",
+        "alt": "上空から見たモール・オブ・アジアの敷地とグローブ・ロタンダ",
+        "credit": "Jimaggro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:SM_Mall_of_Asia_Aerial_Shot.JPG"
+      },
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-4.webp",
+        "alt": "夜のモール・オブ・アジアとエンターテインメント・モール",
+        "credit": "Redenertube / CC0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Upper_view_of_SM_Mall_of_Asia_(night).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-5.webp",
+        "alt": "MOAシーサイドの海辺の遊歩道",
+        "credit": "JDipterocarpus / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bay_Area_City_Pasay_20.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-6.webp",
+        "alt": "MOAアイとシーサイド大通りのレストラン街",
+        "credit": "RoyKabanlit / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:SM_Mall_of_Asia_Eye_and_La_Fiesta_Restaurant.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-7.webp",
+        "alt": "モール・オブ・アジアの海辺から見たマニラ湾の夕日",
+        "credit": "Patrick Roque / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Manila_Bay_sunset_-_from_Mall_of_Asia_seaside_(Pasay)(2017-12-31).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-8.webp",
+        "alt": "モール・オブ・アジア・アリーナとイケア",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:MOA_Arena,_Pasay,_Sep_2025.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-9.webp",
+        "alt": "バスケットボールの試合が行われたモール・オブ・アジア・アリーナの内部",
+        "credit": "Salmonpepperrice / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mall_of_Asia_Arena_2023_FIBA_World_Cup.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-10.webp",
+        "alt": "メインモール内の階段と中央ホール",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:SM_Mall_of_Asia_Interior,_Pasay,_Sep_2025_(2).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-11.webp",
+        "alt": "モール・オブ・アジア沖の花火競技大会",
+        "credit": "LMP 2001 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:12th_Philippine_International_Pyromusical_Competition_-_France_LuxFactory_Fireworks_(1)_2025-02-22.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/233-sm-mall-of-asia-12.webp",
+        "alt": "ガレオン博物館のドーム建物",
+        "credit": "Mdginc / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Museo_del_Gale%C3%B3n.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "マニラ湾の埋め立て地に建つフィリピン最大のショッピングモールです。海辺の遊歩道の夕日、観覧車MOAアイ、アイススケートリンクやアリーナの公演を一か所で楽しめ、空港にも近いので旅の最終日の予定に特におすすめです。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "SMモール・オブ・アジア(SM Mall of Asia、略してMOA)は、マニラ首都圏パサイ市ベイシティ、マニラ湾を埋め立てた土地の先端にあるフィリピン最大規模のショッピングモールです。"
+            },
+            { "type": "date", "text": "2006年5月21日" },
+            {
+              "text": "に開業し、メインモール・エンターテインメント・モールと南北の駐車場棟が通路でつながり、延床面積は約50万㎡に及びます。600を超える店舗と200以上の飲食店が入っており、ひと回り歩くだけで半日があっという間に過ぎてしまいます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "しかし旅行者にとってMOAが特別なのは、買い物よりも海があるからです。モールの裏手に約" },
+            { "type": "distance", "text": "1.5km" },
+            { "text": "続く海辺の遊歩道「SMバイ・ザ・ベイ」に立つと、マニラ湾の向こうに日が沈み、高さ" },
+            { "type": "distance", "text": "55m" },
+            {
+              "text": "の観覧車MOAアイに明かりがともって、遊園地とレストラン街が夜の風景に変わります。毎年年初にはこの沖合で国際花火競技大会が開かれ、大晦日には数十万人が集まってカウントダウンを楽しみます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "敷地内には屋内アイススケートリンク、1万5千人前後を収容するモール・オブ・アジア・アリーナ、屋上公園MOAスカイ、" },
+            { "type": "date", "text": "2021年" },
+            { "text": "に開業した大型のイケア、" },
+            { "type": "date", "text": "2026年5月" },
+            {
+              "text": "に開館したガレオン博物館(Museo del Galeón)までそろっています。EDSA大通りの南端、地球儀のモニュメントが立つグローブ・ロタンダがMOAの玄関口で、大通りの南側にはカジノリゾートが集まるエンターテインメント・シティが続きます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "何よりニノイ・アキノ国際空港(NAIA)から車で" },
+            { "type": "duration", "text": "15〜40分" },
+            {
+              "text": "の距離なので、最終日の動線に組み込みやすいのが魅力です。チェックアウト後に荷物を預け、買い物と夕食、夕日を楽しんでから夜の便に向かう在住者や旅行者も多くいます。暑さや雨をしのげる場所が欲しい家族連れ、公演を見に来た旅行者、マニラで一日を気軽に過ごしたい人に向いています。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "SMバイ・ザ・ベイで夕日を見る",
+              "children": [
+                { "text": "モール裏手の海辺の遊歩道で、マニラ湾の向こうに沈む夕日を眺めます。日の入りは季節により" },
+                { "type": "time", "text": "午後5時30分〜6時30分" },
+                { "text": "ごろで、30分ほど早めに出かけて防波堤側に場所を取れば、空が赤く染まっていく様子をすべて見られます。入場料はかかりません。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "観覧車MOAアイに乗る",
+              "children": [
+                { "text": "高さ" },
+                { "type": "distance", "text": "55m" },
+                { "text": "、エアコン付きゴンドラ36基の観覧車で、" },
+                { "type": "date", "text": "2011年12月" },
+                { "text": "から運行しています。料金は通常ゴンドラが約" },
+                { "type": "price", "text": "₱200" },
+                { "text": "、床が透明なVIPゴンドラが約" },
+                { "type": "price", "text": "₱250" },
+                { "text": "とされ、夕暮れ時や夜に乗ると海と街の夜景を一緒に楽しめます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "遊園地とシーサイド大通りの散歩",
+              "children": [
+                {
+                  "text": "MOAアイの周りには、メリーゴーラウンド・バイキング・バンパーカー・ドロップタワーなど10種類ほどの乗り物が集まっています。乗り物エリアは平日"
+                },
+                { "type": "time", "text": "午後1〜3時" },
+                { "text": "、週末" },
+                { "type": "time", "text": "午後1時" },
+                { "text": "ごろに開いて深夜0時ごろまで営業し、入場は無料で乗り物ごとにチケットを買います。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "屋内アイススケートリンク",
+              "children": [
+                { "text": "メインモール3階に約1,800㎡のオリンピック規格のアイススケートリンクがあります。2時間券は平日約" },
+                { "type": "price", "text": "₱360" },
+                { "text": "、週末・祝日約" },
+                { "type": "price", "text": "₱399" },
+                { "text": "で、スケート靴とヘルメットのレンタルが含まれます。時間帯ごとの入場制なので、現地の窓口かオンライン予約で空きを確認してください。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "モール・オブ・アジア・アリーナで公演を見る",
+              "children": [
+                { "type": "date", "text": "2012年" },
+                { "text": "に開業した屋内アリーナで、座席数は約15,000〜16,000席です。" },
+                { "type": "date", "text": "2023年" },
+                {
+                  "text": "のFIBAバスケットボール・ワールドカップでは決勝ラウンドが行われ、今もコンサートやバスケットボール・バレーボールの試合が頻繁に開かれます。公演のある日は敷地全体が混み合うので、日程を事前に確認しましょう。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "屋上公園MOAスカイ",
+              "children": [
+                { "text": "メインモールの屋上に約60,000㎡の開放的な空間が広がっています。サッカー場、ドッグラン、祈りのスペース、野外円形劇場、長さ約" },
+                { "type": "distance", "text": "1km" },
+                { "text": "のランニングトラックがあり、誰でも無料で入れます。海側の展望デッキから眺める夕焼けも見事です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "ガレオン博物館とイケア",
+              "children": [
+                { "text": "シーサイド大通りとサンセット・アベニューの角に立つ銀色のドーム建物は、" },
+                { "type": "date", "text": "2026年5月1日" },
+                { "text": "に開館したガレオン博物館で、実物大のガレオン船の複製が展示されています。アリーナの隣には、" },
+                { "type": "date", "text": "2021年11月" },
+                { "text": "に開業した世界最大規模とされるイケアがあります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "グローブ・ロタンダとショッピング",
+              "children": [
+                {
+                  "text": "EDSA大通り南端のロータリーに立つ地球儀のモニュメントはMOAのシンボルです。モール内ではフィリピンブランドの衣料品、ドライマンゴーやお菓子などのおみやげ、大型スーパーを一度に見て回れるので、帰国みやげを買うのに便利です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "最終日コース",
+              "subtitle": "チェックアウトから夜の便まで",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "12:00",
+                      "children": [
+                        {
+                          "text": "ホテルをチェックアウトし、GrabでMOAへ向かいます。大きな荷物はホテルに預けるか、荷物預かりサービスを事前に調べておきます"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [{ "text": "メインモールのレストラン街で昼食をとり、スーパーでドライマンゴーやお菓子などの帰国みやげを買います" }]
+                    },
+                    {
+                      "time": "15:00",
+                      "children": [
+                        { "text": "アイススケートリンクで" },
+                        { "type": "duration", "text": "2時間" },
+                        { "text": "滑るか、涼しい屋内で買い物を続けます" }
+                      ]
+                    },
+                    {
+                      "time": "17:00",
+                      "children": [{ "text": "SMバイ・ザ・ベイに出て、海辺の遊歩道を歩きながら夕日を見る場所を確保します" }]
+                    },
+                    {
+                      "time": "17:45",
+                      "children": [{ "text": "マニラ湾の夕日を眺め、日が沈んだらMOAアイに乗って夜景を楽しみます" }]
+                    },
+                    {
+                      "time": "19:00",
+                      "children": [{ "text": "シーサイド大通りのレストラン街かモール内の飲食店で夕食をとります" }]
+                    },
+                    {
+                      "time": "20:30",
+                      "children": [
+                        { "text": "国際線なら出発" },
+                        { "type": "duration", "text": "3時間" },
+                        { "text": "前に空港に着くようGrabを呼びます(通常" },
+                        { "type": "duration", "text": "15〜40分" },
+                        { "text": ")" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "金曜の夜や週末、公演のある日は、MOA周辺と空港へ向かう道路がひどく渋滞します。こうした日は空港へ向かう時間をさらに1時間早めると安心です。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1日コース",
+              "subtitle": "午前は博物館、午後は買い物、夕方は夕焼け",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "10:00",
+                      "children": [{ "text": "モールの開店時間に合わせて到着し、グローブ・ロタンダとメインモールを見て回ります" }]
+                    },
+                    {
+                      "time": "11:00",
+                      "children": [{ "text": "ガレオン博物館を見学します(開館時間と料金はお知らせを確認してください)" }]
+                    },
+                    { "time": "12:30", "children": [{ "text": "昼食後、北側のイケアとアリーナ周辺を散策します" }] },
+                    {
+                      "time": "15:00",
+                      "children": [{ "text": "屋上公園MOAスカイに上がり、海側の展望デッキとランニングトラックを歩きます" }]
+                    },
+                    { "time": "17:00", "children": [{ "text": "SMバイ・ザ・ベイで夕日を見て、乗り物を楽しみます" }] },
+                    {
+                      "time": "19:30",
+                      "children": [{ "text": "夕食の後はエンターテインメント・シティへ移動し、カジノリゾートの夜景と噴水ショーを楽しみます" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "海辺の夕日スポットをもっと巡りたい人は、" },
+                    { "type": "place_link", "text": "マニラ湾", "slug": "manila-bay" },
+                    { "text": "の項目で紹介しているロハス大通りの遊歩道もあわせて見るとよいでしょう。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "空港から",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "NAIAはMOAから約" },
+                        { "type": "distance", "text": "5〜8km" },
+                        { "text": "の距離です。Grabは渋滞がなければ" },
+                        { "type": "duration", "text": "15〜20分" },
+                        { "text": "、帰宅ラッシュ時は" },
+                        { "type": "duration", "text": "40分" },
+                        { "text": "以上かかり、料金は約" },
+                        { "type": "price", "text": "₱250〜450" },
+                        { "text": "です。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "type": "date", "text": "2026年9月28日" },
+                        { "text": "から、Grabなど配車サービスの基本料金が" },
+                        { "type": "price", "text": "₱20" },
+                        { "text": "上がり、空港タクシーの初乗り料金は" },
+                        { "type": "price", "text": "₱115" },
+                        { "text": "になりました。乗車前にアプリやメーターの料金を確認しましょう。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grab・タクシー",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "マカティから約" },
+                        { "type": "duration", "text": "20〜40分" },
+                        { "text": "、マニラのエルミタ・マラテから約" },
+                        { "type": "duration", "text": "15〜30分" },
+                        { "text": "かかります。降車地点を「メインモール」や「SMバイ・ザ・ベイ」のように正確に選ぶと、歩く距離が短くなります。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "夜に帰るときはシーサイド大通り側の乗り場が混雑するため、メインモールの正面入口や北側の駐車場棟付近で呼ぶと早くつかまることが多いです。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "EDSAカルーセル・バス",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "EDSA大通りの中央専用レーンを走るEDSAカルーセル・バスが「SM Mall of Asia」停留所に停まります。北のモニュメントから南のPITXまで"
+                        },
+                        { "type": "duration", "text": "24時間" },
+                        { "text": "運行しており、マカティのアヤラやオルティガス方面から乗り換えなしで来られます。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "運賃は距離制で、最初の" },
+                        { "type": "distance", "text": "5km" },
+                        { "text": "が" },
+                        { "type": "price", "text": "₱18" },
+                        { "text": "、以降1kmごとに" },
+                        { "type": "price", "text": "₱2.98" },
+                        { "text": "です(2026年9月28日の値上げ後の基準)。現金が最も確実で、beepカードが使える車両もあります。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "高架鉄道",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "最寄り駅はLRT1号線のレデンプトリスト・アセアナ駅で、MOAまで約" },
+                        { "type": "distance", "text": "2km" },
+                        { "text": "です。歩くのが暑ければ駅でGrabを呼びましょう。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "LRT1号線のEDSA駅やMRT3号線のタフト・アベニュー駅からは、「MOA」と書かれたジプニーかバスに乗り換えます。ジプニーの初乗り運賃は約"
+                        },
+                        { "type": "price", "text": "₱14〜17" },
+                        { "text": "です。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "現地での移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "敷地内は歩いて回れます。メインモールからSMバイ・ザ・ベイまで約" },
+                        { "type": "duration", "text": "5〜10分" },
+                        { "text": "、アリーナとイケアまで約" },
+                        { "type": "duration", "text": "10〜15分" },
+                        { "text": "です。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "MOA南側のバスターミナルからは、カビテ・バタンガス・ラグナ方面のバスが出ています。路線と時刻は現地で確認してください。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "MOAはほとんどが屋内なので一年中訪れられますが、夕日を見るなら空が澄んだ乾季の" },
+            { "type": "date", "text": "11月〜5月" },
+            { "text": "がおすすめです。特に" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "は風が涼しく、遊歩道を歩くのも快適です。" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "は日中の気温が" },
+            { "type": "temperature", "text": "33〜35℃" },
+            { "text": "前後まで上がるため、日中はモールの中で過ごし、夕暮れに海辺へ出る予定が向いています。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜10月" },
+            { "text": "の雨季は午後のスコールが多く、" },
+            { "type": "date", "text": "7月〜10月" },
+            { "text": "には台風が通過することもあります。強風警報が出るとMOAアイや乗り物が止まり、遊歩道が閉鎖されることがあります。毎年" },
+            { "type": "date", "text": "2月〜3月" },
+            { "text": "の土曜の夜にはフィリピン国際花火競技大会が沖合で開かれ(" },
+            { "type": "date", "text": "2026年" },
+            { "text": "は" },
+            { "type": "date", "text": "2月21日" },
+            { "text": "から" },
+            { "type": "date", "text": "3月21日" },
+            { "text": "まで)、クリスマスシーズンと大晦日には花火やイルミネーションを見に大勢の人が押し寄せます。" }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "時期別の早見表",
+          "icon": "calendar_month",
+          "columns": ["時期", "天気", "旅のポイント"],
+          "rows": [
+            ["11月〜2月", "乾季、比較的涼しい", "晴れた日の夕日、クリスマスのイルミネーション・年越し花火、2月に花火競技大会開幕"],
+            ["3月〜5月", "乾季、非常に暑い", "日中は屋内、夕暮れは遊歩道、3月は花火競技大会・聖週間は混雑"],
+            ["6月〜10月", "雨季、スコール・台風", "屋内中心の予定、強風時は観覧車が運休することも — 予報を確認"]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "費用の目安", "備考"],
+          "items": [
+            { "label": "モール・遊歩道・MOAスカイ", "price": "無料", "note": "モールは毎日10:00〜22:00" },
+            { "label": "観覧車MOAアイ", "price": "約₱200〜250", "note": "通常・VIPゴンドラ" },
+            { "label": "乗り物", "price": "乗り物ごとの料金", "note": "フリーパスの割引販売が多い" },
+            { "label": "アイススケート2時間", "price": "約₱360〜399", "note": "平日・週末、スケート靴・ヘルメット込み" },
+            { "label": "食事", "price": "1食約₱250〜1,200", "note": "フードコート〜ビュッフェ" },
+            { "label": "Grab NAIA–MOA", "price": "約₱250〜450", "note": "時間帯・需要により変動" },
+            { "label": "EDSAカルーセル", "price": "約₱18〜86", "note": "距離制、2026年9月の値上げ後の基準" },
+            { "label": "周辺のホテル", "price": "1泊約₱3,000〜12,000", "note": "ビジネスホテル〜ベイビューホテル" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "時点の目安で、現地の状況により変わる場合があります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "MOAの敷地内とすぐ隣にはマニラ湾を望む大型ホテルがあり、コンラッド・マニラのようにSMバイ・ザ・ベイと直結したホテルでは、オーシャンビューの客室が1泊約"
+            },
+            { "type": "price", "text": "₱8,000〜12,000" },
+            { "text": "ほどです。道の向かいのベイシティのビジネスホテルは約" },
+            { "type": "price", "text": "₱3,000〜5,000" },
+            { "text": "で、空港に近いため早朝便の前泊に便利です。南のエンターテインメント・シティのカジノリゾートでは、カジノ・ショー・レストランを一か所で楽しめます。" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "食事の選択肢は豊富です。メインモールにはフィリピンのファストフードから韓国料理・日本料理・中華のチェーン店、フードコートまでそろい、シーサイド大通りにはバイキングス(Vikings)やラ・フィエスタ(La Fiesta)といったビュッフェレストランが海を望んで並んでいます。シーフードを自分で選んで食べたいなら、車で"
+            },
+            { "type": "duration", "text": "10〜15分" },
+            {
+              "text": "のマカパガル大通りにあるシーサイド・ダンパで、エビ・カニ・魚を量り売りで買い、隣の食堂に調理を頼む「パルート」スタイルを体験してみてください。調理代は買う前に決めておきましょう。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "モールは" },
+                { "type": "date", "text": "2026年6月22日" },
+                { "text": "から毎日" },
+                { "type": "time", "text": "午前10時〜午後10時" },
+                { "text": "に営業しています。" },
+                { "type": "date", "text": "2026年3月〜6月" },
+                { "text": "には国家エネルギー非常事態のため営業時間が短縮されたことがあるので、祝日や非常時はSMのお知らせを確認してください。" }
+              ]
+            },
+            {
+              "children": [{ "text": "日没の30分前に遊歩道に出れば場所を取りやすくなります。日が沈んでから20分ほど残る赤い空が、写真撮影に最適です。" }]
+            },
+            {
+              "children": [
+                { "text": "MOAアイは夕暮れ時に行列が長くなります。先に遊歩道で夕日を見て、暗くなってから乗れば待ち時間が短く、夜景もきれいです。" }
+              ]
+            },
+            { "children": [{ "text": "アイススケートリンクはモール内でも寒いです。長袖の服と靴下を用意し、手袋は現地で買う必要があるかもしれません。" }] },
+            {
+              "children": [
+                { "text": "アリーナで公演がある日はGrabの料金が上がり、車もつかまりにくくなります。公演日程を事前に確認し、別の日を選ぶほうが楽です。" }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "最終日は出発する空港ターミナルを事前に確認しましょう。航空会社によってNAIAの第1・第2・第3ターミナルが異なり、ターミナル間の移動にも時間がかかります。"
+                }
+              ]
+            },
+            { "children": [{ "text": "モール内は冷房が強く、長くいると寒く感じます。外が暑くても薄手の上着を1枚持っていきましょう。" }] },
+            {
+              "children": [{ "text": "帰国みやげは、モール内の大型スーパーのほうが空港より安いことが多いです。液体やソース類は預け入れ荷物に入れましょう。" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "最終日の空港への道のりは、思ったより時間がかかることがあります。帰宅ラッシュ(" },
+            { "type": "time", "text": "午後5〜8時" },
+            { "text": ")や金曜の夜、雨の日には" },
+            { "type": "distance", "text": "5〜8km" },
+            { "text": "の距離でも1時間近くかかることがあるので、国際線は出発3時間前の到着を目安に、余裕をもって出発してください。" }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "花火競技大会・大晦日・大型公演の日は人出が非常に多く、スリが出ることがあります。スマートフォンや財布は体の前側のバッグに入れてください。" }
+              ]
+            },
+            { "children": [{ "text": "防波堤の岩場や手すりの向こうへ降りないでください。満潮時や波の高い日は遊歩道の端が濡れて滑りやすくなります。" }] },
+            { "children": [{ "text": "マニラ湾は泳げる海ではありません。遊歩道の前の海には入らないでください。" }] },
+            { "children": [{ "text": "モールとアリーナの入口では手荷物検査があります。刃物やスプレーなどは持ち込まないでください。" }] },
+            {
+              "children": [
+                { "text": "乗り物は強風や雨のときに止まり、点検で運休することもあります。運行状況と料金は現地窓口の最新のお知らせを確認してください。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "マニラ湾",
+              "place": "manila-bay",
+              "children": [
+                { "text": "ロハス大通りを北へ車で" },
+                { "type": "duration", "text": "10〜20分" },
+                { "text": "、ベイウォークとドロマイト・ビーチでまた違った夕日が見られます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "エンターテインメント・シティ",
+              "children": [
+                { "text": "南へ車で" },
+                { "type": "duration", "text": "5〜15分" },
+                { "text": "、ソレア、シティ・オブ・ドリームス、オカダ・マニラといったカジノリゾートの夜景と噴水ショーがあります。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "イントラムロス",
+              "place": "intramuros",
+              "children": [
+                { "text": "車で" },
+                { "type": "duration", "text": "20〜40分" },
+                { "text": "、スペイン統治時代の城壁都市とサン・アグスティン教会を巡れます。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ラス・ピニャスのバンブーオルガン",
+              "place": "las-pinas-bamboo-organ",
+              "children": [
+                { "text": "南へ車で" },
+                { "type": "duration", "text": "25〜45分" },
+                { "text": "、竹で造られた19世紀のパイプオルガンがある教会です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "マカティ",
+              "place": "makati",
+              "children": [
+                { "text": "EDSAカルーセルかGrabで" },
+                { "type": "duration", "text": "20〜40分" },
+                { "text": "、アヤラ・センターのショッピングモールや週末マーケット、ポブラシオンのグルメ街があります。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
