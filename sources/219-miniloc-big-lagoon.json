@@ -1,0 +1,387 @@
+{
+  "id": 219,
+  "slug": "miniloc-big-lagoon",
+  "checked_at": "2026-10-03T15:30:00Z",
+  "facts": [
+    {
+      "where": "latitude/longitude",
+      "fact": "빅 라군 좌표",
+      "value": "11.1535, 119.3225",
+      "sources": [
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Big+Lagoon,+El+Nido",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "OpenStreetMap: Big Lagoon, El Nido (lagoon) 11.1547, 119.3209"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Miniloc_Island",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "Commons 지오태그: Big lagoon entrance 11.1526/119.3248, Big Lagoon 11.1528/119.3243, 11.1533/119.3226"
+        }
+      ],
+      "decision": "OSM 점과 Commons 사진 위치 사이의 값으로 소수 4자리 정리 (둘 다 라군 안쪽 0.3km 이내)"
+    },
+    {
+      "where": "overview",
+      "fact": "시크릿 라군 위치 (섬 남서쪽, 빅 라군에서 약 1.5km)",
+      "value": "11.145, 119.312",
+      "sources": [
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Secret+Lagoon,+El+Nido",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "OSM Secret Lagoon 11.1450, 119.3124"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Secret_lagoon_beach_on_Miniloc_-_panoramio.jpg",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "지오태그 11.1454, 119.3129 (Tuderna, 2010-01-19)"
+        }
+      ],
+      "decision": "두 좌표 사이 직선거리를 계산해 약 1.5km 로 씀 (좌표상 직선, 실제 뱃길은 더 길 수 있음)"
+    },
+    {
+      "where": "overview/getting_there",
+      "fact": "엘니도 타운에서 미니록까지 보트 시간",
+      "value": "약 20~40분",
+      "sources": [
+        {
+          "url": "https://travelwithcmt.com/big-lagoon-el-nido/",
+          "grade": "B",
+          "date": "2026-07-25",
+          "says": "보트 8:30~9:00 출발, 베이까지 20~40분 (순서에 따라 다름)"
+        },
+        {
+          "url": "https://elnido.tours/",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "약 9시 출발, 9시 30분 빅 라군 도착 일정 예시"
+        }
+      ],
+      "decision": "두 출처가 맞아 범위로 씀"
+    },
+    {
+      "where": "overview/highlights",
+      "fact": "빅 라군 접근 — 보트는 입구 밖 정박, 카약 또는 헤엄으로 입장, 안은 반쯤 닫힌 가장 넓은 라군",
+      "value": "입구 얕은 수로",
+      "sources": [
+        {
+          "url": "https://travelwithcmt.com/big-lagoon-el-nido/",
+          "grade": "B",
+          "date": "2026-07-25",
+          "says": "semi-enclosed lagoon, largest of three; boat anchors outside lagoon mouth; kayak or swim through shallow entrance channel"
+        },
+        {
+          "url": "https://jonnymelon.com/big-lagoon-el-nido-palawan/",
+          "grade": "B",
+          "date": "2026-02-03",
+          "says": "swim from the boat into the opening where the water is quite shallow; kayak rental"
+        },
+        {
+          "url": "https://inelnido.com/guides/el-nido-lagoons",
+          "grade": "B",
+          "date": "2026-03",
+          "says": "Big Lagoon: depth 2~5m, 안에서 동력선 불가"
+        }
+      ],
+      "decision": "수심은 한 출처(2~5m)뿐이라 본문에는 \"입구 얕고 안쪽 수 미터로 알려져 있다\"로 약하게 씀"
+    },
+    {
+      "where": "overview/highlights",
+      "fact": "시크릿 라군 — 암벽의 작은 구멍을 몸을 숙이거나 기어 통과, 조수에 따라 난이도 다름, 안은 그늘져 서늘",
+      "value": "구멍 통과, 약 30분",
+      "sources": [
+        {
+          "url": "https://thepoortraveler.net/2012/03/secret-lagoon-miniloc-island-el-nido-palawan/",
+          "grade": "C",
+          "date": "2012-03",
+          "says": "a huge wall with a tiny hole; crawl through; enclosed by limestone cliffs, constant shadow, cooler water; 30+ minutes; boatmen warn depth increases"
+        },
+        {
+          "url": "https://inelnido.com/guides/el-nido-lagoons",
+          "grade": "B",
+          "date": "2026-03",
+          "says": "Secret Lagoon: wade through gap; 만조 가슴·어깨, 간조 허리 깊이; 아쿠아슈즈 필수"
+        },
+        {
+          "url": "https://elnido.tours/",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "accessible only by wading waist-deep through a narrow passage into a circular lagoon"
+        }
+      ],
+      "decision": "출처마다 만조/간조 쉬운 쪽이 엇갈려(inelnido: 만조 선호, 검색 요약들: 간조 권장) 본문은 \"조수에 따라 난이도가 다르니 사공에게 확인\"으로만 씀"
+    },
+    {
+      "where": "getting_there/itinerary",
+      "fact": "투어 A 출발 시각·일정 예시",
+      "value": "8:30~9:00 출발, 16~17시 복귀",
+      "sources": [
+        {
+          "url": "https://travelwithcmt.com/big-lagoon-el-nido/",
+          "grade": "B",
+          "date": "2026-07-25",
+          "says": "출발 8:30~9:00, 코롱코롱 해변 또는 타운 선착장, 빅 라군 1~1.5시간"
+        },
+        {
+          "url": "https://elnido.tours/",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "9시 출발, 빅 라군 9:30, 스몰 라군 10:30, 세븐 코만도스 점심 12:30, 시크릿 라군 14:00, 파옹파옹 15:00, 17시 복귀"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/El_Nido",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "8~9시 출발, 3:30PM 복귀, 4~5곳"
+        }
+      ],
+      "decision": "복귀 시각은 15:30~17:00 으로 갈려 16:00~17:00 로 씀. 일정 시각은 한 업체 예시임을 본문에 명시"
+    },
+    {
+      "where": "costs",
+      "fact": "환경세 ETDF",
+      "value": "₱400, 10일 유효, 현금",
+      "sources": [
+        {
+          "url": "https://elnido.gov.ph/el-nido-collects-fees-to-fund-environmental-protection",
+          "grade": "A",
+          "date": "2026-10-03",
+          "says": "검색 결과 요약으로만 확인(페이지 직접 열기는 403): 정규 ₱400, 10일간 모든 관광지 입장, 2024-06-01 부터 ₱200→₱400 (Municipal Ordinance 01 s.2024)"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/El_Nido",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "₱400 ETDF, valid 10 days, cash only, 온라인 예약에 포함 안 됨"
+        },
+        {
+          "url": "https://travelwithcmt.com/big-lagoon-el-nido/",
+          "grade": "B",
+          "date": "2026-07-25",
+          "says": "ETDF ₱400/person"
+        }
+      ],
+      "decision": "세 출처 일치. 공식 페이지는 직접 열지 못해 A등급 요약만 확인했다고 기록"
+    },
+    {
+      "where": "costs",
+      "fact": "빅 라군 입장료",
+      "value": "약 ₱200",
+      "sources": [
+        {
+          "url": "https://travelwithcmt.com/big-lagoon-el-nido/",
+          "grade": "B",
+          "date": "2026-07-25",
+          "says": "Big Lagoon entrance fee ~₱200/person"
+        },
+        {
+          "url": "https://jonnymelon.com/big-lagoon-el-nido-palawan/",
+          "grade": "B",
+          "date": "2026-02-03",
+          "says": "Big Lagoon entrance 200 pesos"
+        },
+        {
+          "url": "https://travel-palawan.com/el-nido-travel-guide/el-nido-island-hopping-tours/",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "Big Lagoon entrance ₱200"
+        }
+      ],
+      "decision": "세 출처 일치. 업체에 따라 투어비에 포함될 수 있다고 본문에 씀"
+    },
+    {
+      "where": "costs",
+      "fact": "카약 대여",
+      "value": "약 ₱300~400",
+      "sources": [
+        {
+          "url": "https://travelwithcmt.com/big-lagoon-el-nido/",
+          "grade": "B",
+          "date": "2026-07-25",
+          "says": "kayak (2-seater) ₱300~400"
+        },
+        {
+          "url": "https://jonnymelon.com/big-lagoon-el-nido-palawan/",
+          "grade": "B",
+          "date": "2026-02-03",
+          "says": "kayak rental 400 pesos"
+        },
+        {
+          "url": "https://inelnido.com/guides/el-nido-lagoons",
+          "grade": "B",
+          "date": "2026-03",
+          "says": "보트당 2대 무료, 추가 ₱150~200 (업체별 차이)"
+        }
+      ],
+      "decision": "₱300~400 으로 쓰고 포함 여부는 업체에 따라 다르다고 씀"
+    },
+    {
+      "where": "costs",
+      "fact": "투어 A 공동 투어 요금",
+      "value": "약 ₱1,200~1,600",
+      "sources": [
+        {
+          "url": "https://travelwithcmt.com/big-lagoon-el-nido/",
+          "grade": "B",
+          "date": "2026-07-25",
+          "says": "Shared Tour A ₱1,200~1,500"
+        },
+        {
+          "url": "https://travel-palawan.com/el-nido-travel-guide/el-nido-island-hopping-tours/",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "Shared from ₱1,575"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/El_Nido",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "₱850~1,200 (날짜 오래됨)"
+        }
+      ],
+      "decision": "최근 두 출처 기준 ₱1,200~1,600 (기존 045 의 투어 A~D ₱1,200~1,800 과도 겹침)"
+    },
+    {
+      "where": "costs",
+      "fact": "프라이빗 보트",
+      "value": "약 ₱4,500~10,000",
+      "sources": [
+        {
+          "url": "https://travelwithcmt.com/big-lagoon-el-nido/",
+          "grade": "B",
+          "date": "2026-07-25",
+          "says": "private boat charter ₱4,500~6,000"
+        },
+        {
+          "url": "https://travel-palawan.com/el-nido-travel-guide/el-nido-island-hopping-tours/",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "private from ₱3,120 pp for 6 guests (고급 패키지)"
+        }
+      ],
+      "decision": "출처 편차가 커 넓은 범위로 쓰고 \"크기와 업체에 따라 차이\"로 표기 (확신 낮음)"
+    },
+    {
+      "where": "best_time",
+      "fact": "최적기",
+      "value": "12월~5월 (건기); 12~2월 시야, 3~5월 잔잔",
+      "sources": [
+        {
+          "url": "https://travelwithcmt.com/big-lagoon-el-nido/",
+          "grade": "B",
+          "date": "2026-07-25",
+          "says": "Nov~May dry season, Dec~Feb best underwater visibility"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/El_Nido",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "투어는 조수·날씨에 따라 변동"
+        }
+      ],
+      "decision": "저장소 045 엘니도의 12~5월 기준과 맞춰 months 를 12~5로 두고 11월은 우기 끝으로 분류"
+    },
+    {
+      "where": "getting_there",
+      "fact": "푸에르토 프린세사–엘니도 밴 / 코론–엘니도 쾌속선",
+      "value": "밴 약 5~6시간 ₱600~800, 쾌속선 3.5~4시간",
+      "sources": [
+        {
+          "url": "https://en.wikivoyage.org/wiki/El_Nido",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "밴 4~5시간 ₱600, Montenegro 쾌속선 3.5시간"
+        },
+        {
+          "url": "data/ko/045-el-nido.json",
+          "grade": "B",
+          "date": "2026-10-03",
+          "says": "저장소 엘니도 항목의 기존 수치와 일치(밴 5~6시간 ₱600~800, 쾌속선 3.5~4시간)"
+        }
+      ],
+      "decision": "이 항목의 중심이 아니라 엘니도 항목과 같은 범위로 맞춤. 마닐라발 직항 사정은 확인하지 못해 \"최신 공지 확인\"으로만 씀"
+    },
+    {
+      "where": "status",
+      "fact": "2026년 현재 운영 여부",
+      "value": "운영 중 (폐쇄·출입 제한 확인되지 않음)",
+      "sources": [
+        {
+          "url": "https://jonnymelon.com/big-lagoon-el-nido-palawan/",
+          "grade": "B",
+          "date": "2026-02-03",
+          "says": "2026 가이드, 투어 A 로 방문 가능, 폐쇄 언급 없음"
+        },
+        {
+          "url": "https://travelwithcmt.com/big-lagoon-el-nido/",
+          "grade": "B",
+          "date": "2026-07-25",
+          "says": "2026 조건, 계절 폐쇄 언급 없음"
+        },
+        {
+          "url": "https://inelnido.com/guides/el-nido-lagoons",
+          "grade": "B",
+          "date": "2026-03",
+          "says": "2026-03 갱신, 정상 운영 서술"
+        }
+      ],
+      "decision": "세 출처가 2026년 운영을 전제로 서술해 만들어도 된다고 판단. 공식 공지는 열지 못했고 \"최신 공지 확인\"을 본문에 넣음"
+    }
+  ],
+  "images": [
+    {
+      "file": "219-miniloc-big-lagoon.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Big_Lagoon_at_El_Nido,_Palawan,_Philippines.jpg",
+      "check": "Big Lagoon 이름 명시. 옥빛 라군과 절벽, 입구 쪽 방카 — 본문 설명과 같음. 워터마크 없음"
+    },
+    {
+      "file": "219-miniloc-big-lagoon-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:El_Nido_Palawan_Big_Lagoon.jpg",
+      "check": "제목에 Big Lagoon. 절벽 사이 물길 정면 — 직접 확인"
+    },
+    {
+      "file": "219-miniloc-big-lagoon-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Big_lagoon_entrance,_Miniloc_island_-_panoramio.jpg",
+      "check": "Commons 지오태그 11.1526,119.3248 (항목 좌표에서 0.3km), 입구와 방카 보트"
+    },
+    {
+      "file": "219-miniloc-big-lagoon-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Big_Lagoon_on_Miniloc_island_-_panoramio_-_Tuderna.jpg",
+      "check": "지오태그 0.4km, 빅 라군 절벽과 보트"
+    },
+    {
+      "file": "219-miniloc-big-lagoon-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Last_Frontier,_El_Nido_Palawan_Big_Lagoon.jpg",
+      "check": "제목에 Big Lagoon, 절벽 사이 물길 — 위치 정보는 없으나 같은 구도의 빅 라군 입구 모습과 일치"
+    },
+    {
+      "file": "219-miniloc-big-lagoon-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Entrance_to_the_Big_Lagoon_El_Nido.jpg",
+      "check": "제목에 Big Lagoon 입구, 카약과 방카 다수 — 본문의 카약 입장과 일치. 작은 구명조끼 글자 외 로고 없음"
+    },
+    {
+      "file": "219-miniloc-big-lagoon-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Big_Lagoon_on_Miniloc_island_-_panoramio_-_Tuderna_(1).jpg",
+      "check": "지오태그 0.2km, 빅 라군 안쪽으로 이어지는 협곡형 물길"
+    },
+    {
+      "file": "219-miniloc-big-lagoon-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Secret_lagoon_beach_on_Miniloc_-_panoramio.jpg",
+      "check": "지오태그 시크릿 라군 지점(OSM 점에서 약 0.1km), 입구 앞 바위 절벽. 라군 안쪽이 아니라 입구 쪽 해안 풍경"
+    },
+    {
+      "file": "219-miniloc-big-lagoon-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Secret_lagoon_beach_on_Miniloc_island_-_panoramio_-_Tuderna.jpg",
+      "check": "시크릿 라군 지점 지오태그, 모래 해안과 야자수"
+    },
+    {
+      "file": "219-miniloc-big-lagoon-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Secret_lagoon_beach_on_Miniloc_island_-_panoramio_-_Tuderna_(1).jpg",
+      "check": "시크릿 라군 지점 지오태그, 방카 보트가 모래 해안에 닿은 모습"
+    }
+  ]
+}
