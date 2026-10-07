@@ -1,0 +1,149 @@
+{
+  "id": 247,
+  "slug": "lazi-church",
+  "checked_at": "2026-10-07T07:06:27Z",
+  "facts": [
+    {
+      "where": "title",
+      "fact": "한국어 표기",
+      "value": "라지 성당 (Lazi = 라지)",
+      "sources": [
+        { "url": "data/ko/080-siquijor.json", "grade": "C", "date": "2026-10-03", "says": "080 시키호르 본문이 Lazi 를 '라지', 성당을 '산 이시드로 라브라도르 성당'으로 씀" },
+        { "url": "data/ko/228-cambugahay-falls.json", "grade": "C", "date": "2026-10-03", "says": "228 캄부가하이 폭포도 '라지(Lazi)', '라지 성당과 수녀원'으로 씀" }
+      ],
+      "decision": "저장소 기존 표기 '라지'를 따름(가안 '라시'는 쓰지 않음). 080·228 은 convento 를 '수녀원'으로 옮겼으나 실제로는 레콜렉트회 사제관이라 이 항목은 080 의 괄호 표기 '콘벤토'를 쓰고 본문에서 뜻을 풀었다. 080·228 의 '수녀원' 표기는 이 작업 범위 밖이라 고치지 않음"
+    },
+    {
+      "where": "latitude/longitude",
+      "fact": "라지 성당 좌표",
+      "value": "9.1279, 123.6338",
+      "sources": [
+        { "url": "https://nominatim.openstreetmap.org/search?q=Lazi+Church&format=json", "grade": "B", "date": "2026-10-07", "says": "OSM way 547595336 'Lazi Church' amenity=place_of_worship, 9.1278737 / 123.6338073 (Zamora Street, Tigbawan, Lazi)" },
+        { "url": "https://en.wikipedia.org/wiki/Lazi_Church", "grade": "B", "date": "2026-10-07", "says": "coord 9.127913 N 123.633854 E" }
+      ],
+      "decision": "두 지도가 약 10m 안에서 일치. OSM 값을 소수 4자리로 사용"
+    },
+    {
+      "where": "overview",
+      "fact": "역사 — 1857 본당 독립, 1884 성당 완공, 이듬해 종탑, 콘벤토 1887 착공·1891 축복, 토리비오 산체스 신부(레콜렉트회), 필리핀 장인, 산호석·경목",
+      "value": "1857-08-08 / 1884 / 1885 종탑 / 1887~1891",
+      "sources": [
+        { "url": "https://commons.wikimedia.org/wiki/File:Simbahan_ng_Lazi_Marker.jpg", "grade": "A", "date": "2026-10-07", "says": "국가 역사 연구소 1984 표지석 원문: Agustino Rekoleto 1857 창립, P. Toribio Sanchez O.A.R. 감독, 바다 돌과 경목, 1884 필리핀 장인이 완성, 종탑 1년 뒤, 콘벤토 1887 착공·1891 축복, 42×38m, 필리핀에서 가장 큰 콘벤토 가운데 하나, PD 260(1973)·375(1974)·1505(1978)로 국가 역사 기념물" },
+        { "url": "https://en.wikipedia.org/wiki/Lazi_Church", "grade": "B", "date": "2026-10-07", "says": "independent parish August 8, 1857 (formerly Tigbawan); stone church 1884 by Filipino artisans, bell tower following year; convent 1887–1891; Father Toribio Sánchez" },
+        { "url": "https://iheartph.com/lazi-church-and-convent-siquijor/", "grade": "C", "date": "날짜 없음", "says": "established 1857, church completed 1884, convent completed 1891, 42 x 38 m" }
+      ],
+      "decision": "표지석 사진(공식 문구)과 위키백과가 일치. negrosseasonofculture(2025-11)의 '성당 1884~1887' 은 다른 출처와 어긋나 쓰지 않음. 1887 착공·1891 '축복식'은 표지석의 'binasbasan' 을 따름"
+    },
+    {
+      "where": "overview",
+      "fact": "문화재 지정 — 국가 역사 기념물·1984 표지석, 2001 국가 문화 보물, 2006 유네스코 잠정목록(Baroque Churches of the Philippines Extension), 세계유산 아님",
+      "value": "NHL(1984 표지석) · NCT 2001 · UNESCO 잠정목록 2006",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Lazi_Church", "grade": "B", "date": "2026-10-07", "says": "National Cultural Treasure by National Museum in 2001; National Historical Landmark 1984; Tentative List since 2006 with Boljoon, Guiuan, Loboc, Tumauini" },
+        { "url": "https://suroy.ph/siquijor-travel-guide/", "grade": "B", "date": "2026-08", "says": "Lazi Church: National Cultural Treasure declaration, made in 2001 — not UNESCO World Heritage" },
+        { "url": "https://pressone.ph/?p=4573", "grade": "B", "date": "2019-09-03", "says": "National Cultural Treasure; nominated for UNESCO World Heritage list of Baroque Churches" }
+      ],
+      "decision": "유네스코 공식 페이지(whc.unesco.org/en/tentativelists/3860)는 403 으로 열지 못함. 위키백과 인용과 suroy(2026-08)가 '잠정목록일 뿐 세계유산 아님'으로 일치해 본문에 '아직 정식 세계유산은 아니다'를 명시. 국가 역사 기념물 지정 연도는 대통령령 1973~1978 과 1984 표지석이 섞여 있어 '대통령령으로 지정, 1984년 표지석'으로 씀"
+    },
+    {
+      "where": "overview",
+      "fact": "NHCP 복원 2018~2019, 예산 ₱40M, 2019-08-26 교구에 인계",
+      "value": "₱40,000,000",
+      "sources": [
+        { "url": "https://pressone.ph/?p=4573", "grade": "B", "date": "2019-09-03", "says": "restoration began 2018; P40 million allotted for the Lazi church (of ~P70M for three churches); NHCP turned over August 26 in Lazi" },
+        { "url": "https://commons.wikimedia.org/wiki/File:Historical_San_Isidro_Labrador_Church.jpg", "grade": "B", "date": "2026-06-24", "says": "전시 패널 문구: NHCP with Diocese of Dumaguete initiated, funded, and implemented major restoration works from 2018 to 2019; convent houses the Siquijor Heritage Museum" }
+      ],
+      "decision": "두 출처가 2018~2019 복원으로 일치. 금액은 pressone 단독이지만 이미 끝난 사업의 확정 수치라 '약'을 붙여 씀"
+    },
+    {
+      "where": "highlights",
+      "fact": "건축 — 십자형 평면, 정문 북동쪽, 성당 남쪽 3층 종탑(산호석 블록), 박공은 목재, 설교단 2·레타블로 5, 지그재그 나무 바닥(entarimado), 콘벤토 2층(1층 산호석 아치, 2층 목조, sala·comedor, tabique pampango, 색유리 창), 백 년 아카시아",
+      "value": "위와 같음",
+      "sources": [
+        { "url": "https://commons.wikimedia.org/wiki/File:Historical_San_Isidro_Labrador_Church.jpg", "grade": "B", "date": "2026-06-24", "says": "패널 영문(원본 해상도에서 직접 읽음): cruciform plan east-west, main arched portal on the northeast end; three-level belfry south of the church of coral stone blocks; pediment of wood; two pulpits, five retablos, intact wooden floors (entarimado) in a zigzag-like pattern pointing to main altar and puerta mayor; separate two-story convent, one of the largest in the Philippines; coral stone arches at ground level, hardwood second level; sala, comedor, bedrooms with tabique pampango; colored glass panes; surrounded by century-old acacias" },
+        { "url": "https://en.wikipedia.org/wiki/Lazi_Church", "grade": "B", "date": "2026-10-07", "says": "two pulpits, original retablo and wood floorings; U-shaped Bahay na bato convent 42 m by 38 m; stonewalls first floor, wood panels second floor" },
+        { "url": "https://siquijorprovince.com/siquijor-coastal-tour/", "grade": "A", "date": "날짜 없음", "says": "church constructed in 1884, preserved hardwood floor, one of very few churches in the Philippines; Lazi Convent across from the church, 'the oldest and biggest of its kind in Asia'; restored by the national heritage commission" }
+      ],
+      "decision": "패널은 두마게테의 전시(위키 클럽 기록 사업)로 보이며 NHCP 사진을 쓰고 있어 B 로 봄. '아시아 최대·최고(最古)'는 주 정부 홍보 문구일 뿐 표지석은 '필리핀에서 가장 큰 것 가운데 하나'라 적으므로 본문은 표지석을 기준으로 쓰고 아시아 표현은 '현지에서 소개하기도 한다'로 낮춤"
+    },
+    {
+      "where": "highlights/tips/costs",
+      "fact": "콘벤토 박물관(시키호르 유산 박물관) 입장료·운영 시간, 성당 입장 무료, 박물관 내 촬영",
+      "value": "성당 무료, 박물관 약 ₱20~50(기부 형태 가능), 08:00~17:00 무렵",
+      "sources": [
+        { "url": "https://www.morefunwithjuan.com/2025/01/lazi-church-and-convent.html", "grade": "C", "date": "2025-01", "says": "Church free; Convent Museum ₱20–₱50 (voluntary donation encouraged); church 6:00 AM–6:00 PM, museum 8:00 AM–5:00 PM" },
+        { "url": "https://iheartph.com/lazi-church-and-convent-siquijor/", "grade": "C", "date": "날짜 없음", "says": "Museum entrance P20 (photography prohibited inside)" },
+        { "url": "https://wanderlog.com/place/details/7700/lazi-church", "grade": "C", "date": "2026-10-07 조회", "says": "Daily 7AM–5PM; admission free; parking across the street" },
+        { "url": "https://www.thingstodoinsiquijor.com/lazi-church-and-convent-guide-historic-places-to-visit-in-siquijor/", "grade": "C", "date": "날짜 없음", "says": "church generally open; museum or convent areas may have small entrance fees; ask permission before photographing exhibits; 30 minutes to one hour" }
+      ],
+      "decision": "A 나 12개월 안의 B 출처를 찾지 못함(공식 요금표·운영 시간 공지 없음, WebSearch 한도 소진). C 4곳이 '성당 무료·박물관 소액'으로 일치해 범위·'약'·'현장 확인'·'알려져 있다'로 단정을 피함. 확신 낮음"
+    },
+    {
+      "where": "overview/status",
+      "fact": "2026년 현재 운영·접근 가능 여부",
+      "value": "열려 있음(폐쇄·피해 보고 없음)",
+      "sources": [
+        { "url": "https://suroy.ph/siquijor-travel-guide/", "grade": "B", "date": "2026-08", "says": "2026년 판 섬 안내에서 라지 성당을 현재 명소로 소개" },
+        { "url": "https://commons.wikimedia.org/wiki/File:The_Sanctuary_of_the_Past.jpg", "grade": "B", "date": "2025-10-27", "says": "2025년 10월 촬영 콘벤토 — 복원된 모습, 방문객 출입" },
+        { "url": "https://www.negrosseasonofculture.com/2025/11/the-lazi-church-and-convent-national.html", "grade": "C", "date": "2025-11-24", "says": "convent functions as a heritage museum; ongoing preservation with NCCA" }
+      ],
+      "decision": "2025년 세부·민다나오 지진, 태풍으로 인한 라지 성당 피해·폐쇄 보도는 찾지 못함. 운영 중으로 보고 '미사 중 관람 제한' 정도만 주의로 씀"
+    },
+    {
+      "where": "getting_there",
+      "fact": "두마게테–시키호르 배편·요금, 오슬롭–라레나 신규 페리, 세부–시키호르 항공, 관광 생태 요금",
+      "value": "고속선 ₱304~750·45분~1시간, 로로 ₱234·1.5~2시간, 오슬롭–라레나 ₱500/650·약 2시간(2026-04-18~), 선라이트 에어 2025-12-15~ 약 55분, 생태 요금 ₱50(2026-02-01~ 출도 시)",
+      "sources": [
+        { "url": "https://suroy.ph/siquijor-travel-guide/", "grade": "B", "date": "2026-08", "says": "OceanJet ₱420 tourist 40–60 min; Anika Star ₱304 ~45 min; Montenegro RORO ₱234 1.5–2 h; Super Shuttle Ferry Oslob–Larena from April 18, 2026, ₱500 economy/₱650 aircon, about two hours; Sunlight Air Cebu–Siquijor from Dec 15, 2025, about 55 minutes, three weekly; ₱50 Tourism Ecological Fee since Feb 1, 2026 on departure; scooter ₱350–500" },
+        { "url": "data/ko/080-siquijor.json + sources/080", "grade": "B", "date": "2026-10", "says": "080 시키호르 본문: 고속선 약 ₱350~750, 로로 ₱234, 선라이트 에어 2025-12-15 첫 운항 약 55분, 생태 요금 ₱50" }
+      ],
+      "decision": "운항 상세는 080 시키호르와 같은 수치로 맞춤. 고속선 하한은 Anika Star ₱304 를 넣어 ₱304~750 으로 씀. 모두 '최신 공지 확인'"
+    },
+    {
+      "where": "getting_there",
+      "fact": "시키호르 항·산후안·공항에서 라지 성당까지 거리·시간, 트라이시클·오토바이 요금",
+      "value": "항구 약 25km(트라이시클 40~50분, 편도 약 ₱250~400), 산후안 약 20km(오토바이 약 30분), 공항 약 28km, 하루 대절 ₱1,200~2,000",
+      "sources": [
+        { "url": "https://router.project-osrm.org/route/v1/driving/123.5120,9.2176;123.6338,9.1279", "grade": "B", "date": "2026-10-07", "says": "OSRM 도로 거리: 시키호르 항 25.3km(27분), 산후안 19.7km(18분), 공항 27.7km(28분), 캄부가하이 1.9km, 발레테 나무 8.1km(8분) — 승용차 기준" },
+        { "url": "https://lakbaypinas.com/ultimate-guide-to-cambugahay-falls-siquijor/", "grade": "B", "date": "2025", "says": "tricycle PHP 250–350 one way, 30–40 minutes (항구–캄부가하이, 228 근거 재인용)" },
+        { "url": "https://suroy.ph/siquijor-trip-budget/", "grade": "B", "date": "2026-08-13", "says": "hired tricycle ₱1,200 to ₱1,500 per day (228 근거 재인용)" },
+        { "url": "https://www.morefunwithjuan.com/2025/01/lazi-church-and-convent.html", "grade": "C", "date": "2025-01", "says": "tricycle ₱300–₱600 round trip; 45 minutes to 1 hour from Siquijor Town or Larena" }
+      ],
+      "decision": "OSRM 승용차 시간에 트라이시클·오토바이 속도를 감안해 늘려 '약'으로 씀. 항구–라지 편도 요금은 항구–폭포(₱250~350)보다 조금 넓혀 ₱250~400 으로 추정 — 확신 낮음, '흥정'을 붙임. 멀티캡·지프니 요금은 출처를 찾지 못해 본문에 넣지 않음"
+    },
+    {
+      "where": "best_time/highlights",
+      "fact": "축일 5월 15일(성 이시도로 농부), 건기 11~5월·우기 6~10월",
+      "value": "5월 15일",
+      "sources": [
+        { "url": "https://iheartph.com/lazi-church-and-convent-siquijor/", "grade": "C", "date": "날짜 없음", "says": "Annual feast celebrated May 15 honoring Saint Isidore the Laborer" },
+        { "url": "https://en.wikipedia.org/wiki/Lazi_Church", "grade": "B", "date": "2026-10-07", "says": "dedication: Isidore the Laborer (전례력 축일 5월 15일)" },
+        { "url": "https://suroy.ph/siquijor-travel-guide/", "grade": "B", "date": "2026-08", "says": "Feb–May driest and busiest; Jun–Oct habagat; Nov–Jan most pleasant; sea conditions disrupt boats" }
+      ],
+      "decision": "축일 날짜는 성인 축일(5월 15일)로 확정적이나 마을 축제 규모는 확인 못 해 '축일 미사와 마을 축제로 붐빈다' 정도로 씀. 최적기는 228 과 같은 11~5월"
+    },
+    {
+      "where": "stay_and_food/nearby",
+      "fact": "산후안 숙박 가격대, 발레테 나무 입장료",
+      "value": "₱300~700 / ₱700~1,800 / ₱1,800~4,000, 발레테 ₱20",
+      "sources": [
+        { "url": "https://suroy.ph/siquijor-travel-guide/", "grade": "B", "date": "2026-08", "says": "Budget fan rooms ₱300 to ₱700, aircon guesthouses ₱700 to ₱1,800, beachfront and mid-range ₱1,800 to ₱4,000; Balete ₱20 fish spa" },
+        { "url": "https://lakbaypinas.com/ultimate-guide-to-cambugahay-falls-siquijor/", "grade": "B", "date": "2025", "says": "budget ₱300-700, mid-range ₱1,500-3,500" },
+        { "url": "https://siquijorprovince.com/siquijor-coastal-tour/", "grade": "A", "date": "날짜 없음", "says": "Centuries Old Balete Tree, Campalanas, Lazi — nearly 500 years per legend, natural cold spring, fish spa" }
+      ],
+      "decision": "업소 이름은 넣지 않음. 발레테 나무 나이는 전설이라 '수백 년 되었다고 전해지는'으로 씀. 라지 시내 점심 ₱100~300 은 080 의 카린데리아 ₱100~200 에 맞춘 대략치(직접 출처 없음)"
+    }
+  ],
+  "images": [
+    { "file": "247-lazi-church.webp", "source": "https://commons.wikimedia.org/wiki/File:Lazi_Church_San_Isidro_Labrador_Parish.jpg", "check": "2022-10 촬영, 촬영 좌표 9.1278/123.6333(성당 옆). 붉은 지붕의 긴 신랑과 붉은 돔 3층 산호석 종탑 — 패널의 '성당 남쪽 3층 종탑' 설명과 같다. 복원(2019) 뒤 모습. 대표 사진" },
+    { "file": "247-lazi-church-2.webp", "source": "https://commons.wikimedia.org/wiki/File:Lazi_church_front_sept2019.jpg", "check": "2019-09 복원 직후 정면 — 산호석 블록 정면과 목재 박공, 종탑. 분류 Lazi Church" },
+    { "file": "247-lazi-church-3.webp", "source": "https://commons.wikimedia.org/wiki/File:Lazi_Church_Left-Side_Grounds.jpg", "check": "2025-08 촬영, 분류 Lazi Church. 성당 옆 잔디밭과 종탑, 오른쪽 뒤로 길 건너 붉은 지붕 콘벤토와 아카시아 고목이 함께 보임" },
+    { "file": "247-lazi-church-4.webp", "source": "https://commons.wikimedia.org/wiki/File:Nef_%C3%A9glise_de_Lazi_sept_2019.jpg", "check": "2019-09 '라지 성당 신랑과 나무 바닥' — 지그재그 원목 바닥, 푸른 천장, 두 설교단, 레타블로가 본문 highlights 2·3 과 같다" },
+    { "file": "247-lazi-church-5.webp", "source": "https://commons.wikimedia.org/wiki/File:Lazi_Church_Interiors.jpg", "check": "2017-12 '라지 성당 내부' — 중앙 레타블로. 복원(2018~2019) 전 사진이지만 원래 레타블로를 유지했다는 설명(위키·패널)이 있고 4번 사진(2019) 속 제단과 모양이 같다" },
+    { "file": "247-lazi-church-6.webp", "source": "https://commons.wikimedia.org/wiki/File:The_Sanctuary_of_the_Past.jpg", "check": "2025-10 촬영, 설명에 Lazi convent finished in 1891. 아치 회랑 1층·목조 2층·붉은 지붕의 콘벤토 전경" },
+    { "file": "247-lazi-church-7.webp", "source": "https://commons.wikimedia.org/wiki/File:Lazi_Old_Convent.jpg", "check": "2022-10 촬영, 촬영 좌표 9.1278/123.6333. 콘벤토 정면 1층 산호석 아치 회랑과 2층 목조 창" },
+    { "file": "247-lazi-church-8.webp", "source": "https://commons.wikimedia.org/wiki/File:Lazi_Convent_Colorful_Window.jpg", "check": "2025-08 촬영, 분류 Lazi Church, 설명 'Lazi Convent ... retreat house for Spanish friars'. 2층 나무 발코니 난간과 색유리 창 — 패널의 'colored glass panes' 와 같다" },
+    { "file": "247-lazi-church-9.webp", "source": "https://commons.wikimedia.org/wiki/File:Lazi_convent_sept2019_inside_bench.jpg", "check": "2019-09 'Rows of benches found inside the Lazi Convent' — 콘벤토 2층 홀의 원목 마루와 옛 나무 의자, 성화. 같은 작가의 정면 사진(2번)과 주제가 달라 함께 씀" },
+    { "file": "247-lazi-church-10.webp", "source": "https://commons.wikimedia.org/wiki/File:Enchanted_Balete_Tree_in_Lazi.JPG", "check": "2015-09 촬영, 분류 Enchanted balete tree of Lazi, Siquijor. 기근이 늘어진 반얀 나무와 뿌리 밑 샘물 웅덩이(피시 스파) — 성당에서 약 8km, nearby·itinerary 에 나오는 곳" }
+  ]
+}
