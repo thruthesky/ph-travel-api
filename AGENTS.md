@@ -16,7 +16,8 @@
 | 웹·앱에 넣어 쓰기 — PHP·Flutter·정적 웹 | [references/embedding.md](https://github.com/thruthesky/skills/blob/main/skills/api-skill/references/embedding.md) |
 | SQLite 스키마·쿼리·언어별 검색 | [references/database.md](https://github.com/thruthesky/skills/blob/main/skills/api-skill/references/database.md) |
 | 다른 정보(밤문화·맛집·병원·비자 …)를 이 저장소와 같은 형태로 만들기 — 설계·파일별 고칠 곳·순서·가공·검증 | [references/blueprint.md](https://github.com/thruthesky/skills/blob/main/skills/api-skill/references/blueprint.md) |
-| 현재 상태·남은 일·결정 기록 | [references/history.md](https://github.com/thruthesky/skills/blob/main/skills/api-skill/references/history.md) |
+| **지금 상태·남은 일·작업 기록·사용 기록** — 개수·version·R2 판·검색·호출 횟수 | 이 저장소의 [work/](work/README.md) (`status.md`·`log.md`·`usage.jsonl`). 작업을 끝낼 때마다 고친다 |
+| 설계 결정 — 왜 이 구조인가 | [references/history.md](https://github.com/thruthesky/skills/blob/main/skills/api-skill/references/history.md) |
 | 여행지 JSON 작성 규격 | [data/README.md](data/README.md) |
 | 다국어 — 번역본 만들기·맞추기 (`scripts/i18n.mjs`), 번역 지침·어휘집 | [data/README.md](data/README.md) §7 · [i18n/GUIDE.md](i18n/GUIDE.md) · `i18n/glossary/<언어>.json` |
 | 지원 언어·분류 목록·속성·단락·표시 방법(type) 규격 | `data/meta.json` |
