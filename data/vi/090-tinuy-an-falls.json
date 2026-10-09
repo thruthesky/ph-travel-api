@@ -35,8 +35,8 @@
     "type": "date",
     "label": "Thời điểm lý tưởng",
     "icon": "calendar_month",
-    "text": "Tháng 3 – tháng 9 (thời điểm tương đối khô ráo)",
-    "months": [3, 4, 5, 6, 7, 8, 9]
+    "text": "Tháng 5 – tháng 10 (thời điểm tương đối ít mưa)",
+    "months": [5, 6, 7, 8, 9, 10]
   },
   "duration": {
     "type": "duration",
@@ -65,13 +65,13 @@
     "type": "airport",
     "label": "Sân bay gần nhất",
     "icon": "flight",
-    "text": "Sân bay quốc tế Francisco Bangoy (DVO)",
+    "text": "Sân bay quốc tế Francisco Bangoy, Davao (DVO)",
     "code": "DVO"
   },
   "image": {
     "type": "image",
     "url": "images/090-tinuy-an-falls.webp",
-    "alt": "Thác Tinuy-an",
+    "alt": "Toàn cảnh thác Tinuy-an",
     "credit": "JjGuia / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_Falls_in_Bislig.jpg"
   },
@@ -82,16 +82,72 @@
       {
         "type": "image",
         "url": "images/090-tinuy-an-falls-2.webp",
-        "alt": "Thác Tinuy-an",
+        "alt": "Thác chia thành nhiều dải đổ xuống từ vách đá và những chiếc bè tre",
         "credit": "Bro. Jeffrey Pioquinto, SJ / CC BY 2.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_Waterfalls_of_Bislig.jpg"
       },
       {
         "type": "image",
         "url": "images/090-tinuy-an-falls-3.webp",
-        "alt": "Thác Tinuy-an",
+        "alt": "Tầng dưới của thác chảy tràn qua các bậc đá theo từng lớp",
         "credit": "Jogie.dalumpines1990 / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_Falls_Entrance,_Bislig_City,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-4.webp",
+        "alt": "Ghềnh thượng nguồn nơi nước sông chảy qua bậc đá phía trên thác",
+        "credit": "Michael E. Peligro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls_3_mikepeligro.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-5.webp",
+        "alt": "Vũng nước rộng trước thác và du khách bên bờ nước",
+        "credit": "Michael E. Peligro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls_1_mikepeligro.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-6.webp",
+        "alt": "Cây cầu tre dẫn tới thác và bờ nước nông",
+        "credit": "Michael E. Peligro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls_6_mikepeligro.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-7.webp",
+        "alt": "Tầng dưới dạng bậc thang của thác nhìn từ bờ nước có lan can",
+        "credit": "Michael E. Peligro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls_5_mikepeligro.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-8.webp",
+        "alt": "Nước tràn qua mép tầng trên",
+        "credit": "Wolfgang Hägele / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-9.webp",
+        "alt": "Dòng nước đổ rộng ở chính diện thác",
+        "credit": "Wolfgang Hägele / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-10.webp",
+        "alt": "Thác phản chiếu trong vũng nước dưới bầu trời xanh",
+        "credit": "Rollymagpayo / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:TINY-AN_FALLS.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-11.webp",
+        "alt": "Du khách vui đùa dưới làn nước nông trước thác",
+        "credit": "Daxster16 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_Falls_in_Surigao.jpg"
       }
     ]
   },
@@ -99,13 +155,15 @@
     "type": "paragraph",
     "variant": "lead",
     "children": [
-      { "text": "Đây là thác nước dạng rèm rộng nhiều tầng với chiều cao khoảng " },
+      { "text": "Đây là thác dạng rèm ba tầng cao khoảng " },
       { "type": "distance", "text": "55m" },
-      { "text": ", chiều rộng khoảng " },
+      { "text": ", rộng khoảng " },
       { "type": "distance", "text": "95m" },
       {
-        "text": ", được mệnh danh là \"Niagara của Philippines\". Bạn có thể đi bè tre đến sát ngay dưới dòng nước đổ xuống, và vào buổi sáng những ngày trời quang, cầu vồng sẽ hiện lên trên làn bụi nước — đây là điểm đến tiêu biểu của Surigao del Sur."
-      }
+        "text": ", được xem là thác nước rộng nhất Philippines tính theo chiều ngang. Bạn có thể ngồi bè tre tiến sát đến dòng nước đổ xuống, và vào ngày trời quang, khoảng "
+      },
+      { "type": "time", "text": "9–11 giờ sáng" },
+      { "text": ", cầu vồng sẽ bắc ngang trên làn bụi nước." }
     ]
   },
   "sections": [
@@ -119,33 +177,39 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Thác Tinuy-an là thác nước nằm trong rừng nhiệt đới ở làng Burboanan, thành phố Bislig, tỉnh Surigao del Sur, bờ đông Mindanao. Chiều cao khoảng "
+              "text": "Thác Tinuy-an nằm trong rừng nhiệt đới ở làng Burboanan, thành phố Bislig, tỉnh Surigao del Sur, cực đông của Mindanao. Thác được cho là cao khoảng "
             },
             { "type": "distance", "text": "55m" },
-            { "text": " không quá cao, nhưng chiều rộng lên tới khoảng " },
+            { "text": " và rộng khoảng " },
             { "type": "distance", "text": "95m" },
             {
-              "text": " khiến cả dòng sông đổ xuống rộng như một bức rèm trắng. Thác gồm nhiều tầng, nước từ tầng trên đổ xuống qua bậc đá rộng rồi lại rơi xuống tầng dưới, trong đó tầng dưới cùng lớn và rộng nhất là khung cảnh tiêu biểu. Chính vì hình dáng này mà người Philippines gọi nơi đây là \"Niagara của Philippines\"."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "Tên thác bắt nguồn từ \"tinuyoan\" trong tiếng Cebuano, nghĩa là \"việc làm có chủ ý\". Truyền thuyết ẩn trong cái tên kể rằng ngày xưa những người dân núi Magdiwata bị bộ tộc từ Agusan bắt làm nô lệ đã đẩy bè tre (gakit) về phía thác để các ông chủ rơi xuống và giành lại tự do. Quanh thác thuộc vùng rừng rậm ở Bislig từng nổi tiếng với ngành gỗ, và nay được bảo vệ như một khu du lịch sinh thái do văn phòng du lịch thành phố Bislig cùng hội đồng bộ tộc Manobo quản lý. Nước sông tạo thành một vũng rộng và nông dưới thác rồi lại chảy vào rừng, nên bạn có thể vừa bơi vừa đi bè."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "Đặc sản của thác Tinuy-an là cầu vồng buổi sáng. Vào những ngày trời quang, khoảng "
+              "text": "; nước không đổ thành một dòng mà trải khắp chiều ngang như một bức rèm trắng. Vì là thác rộng nhất nên người Philippines gọi nơi này là \"Niagara nhỏ của Philippines\". Thác thường được giới thiệu là có ba tầng và nghe nói còn một tầng nữa khó thấy; cách đếm tầng khác nhau tùy tài liệu nên chiều cao cũng dao động từ "
             },
-            { "type": "time", "text": "9–11 giờ sáng" },
+            { "type": "distance", "text": "26m" },
+            { "text": " đến " },
+            { "type": "distance", "text": "55m" },
+            { "text": " theo từng nguồn." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
             {
-              "text": ", khi ánh nắng chiếu vào bụi nước của thác, một cầu vồng rực rỡ sẽ hiện lên trước thác. Bức ảnh có cả bức rèm nước khổng lồ, cầu vồng và những người ngồi trên bè tre luôn xuất hiện trong các tài liệu quảng bá du lịch của Surigao del Sur."
+              "text": "Cái tên \"Tinuy-an\" bắt nguồn từ từ \"tinuyo-an\" trong tiếng Cebuano, nghĩa là việc làm có chủ ý, làm một cách cố tình; trong tiếng Filipino người ta cũng ví với \"Babalik-balikan\", nghĩa là nơi muốn quay lại nhiều lần. Theo truyền thuyết, ngày xưa người dân núi Magdiwata bị bộ tộc phía Agusan bắt làm nô lệ; khi đang đi trên bè tre (gakit), họ nhảy xuống nước rồi đẩy bè về phía thác để các ông chủ rơi xuống và giành lại tự do. Thác do văn phòng du lịch thành phố Bislig và hội đồng bộ tộc Manobo cùng quản lý. Bislig được gọi là thành phố cực đông của Philippines, và quanh thác vẫn còn khu rừng rậm xanh um."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Khu rừng này được chỉ định vào " },
+            { "type": "date", "text": "năm 2018" },
+            {
+              "text": " là một trong ba khu bảo tồn của vùng Caraga theo Đạo luật NIPAS mở rộng (Expanded NIPAS Act, Republic Act No. 11038), và văn phòng môi trường và tài nguyên thiên nhiên cấp vùng cho biết đã xác nhận 91 loài động vật và 144 loài thực vật (trong đó 33 loài gần nguy cấp). Nơi này cũng nổi tiếng trong giới ngắm chim nhờ một sự kiện: "
+            },
+            { "type": "date", "text": "tháng 2 năm 2024" },
+            {
+              "text": ", nhà quan sát chim người Mỹ Peter Kaestner đã nhìn thấy một con bắt nhện mào cam (Orange-tufted spiderhunter) trong bụi heliconia bên thác, và ghi nhận loài chim thứ 10.000 trên thế giới của mình, lần đầu tiên được Sách Kỷ lục Guinness thế giới chính thức công nhận."
             }
           ]
         },
@@ -153,7 +217,13 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Từ cửa vào đến đài quan sát và bờ nước là đường bậc thang đã được chỉnh trang nên trẻ em và người lớn tuổi đều đi thoải mái. Cùng với sông Enchanted và quần đảo Britania gần đó, nơi đây tạo thành lộ trình cốt lõi của chuyến đi bờ đông Surigao del Sur, đặc biệt được khuyên cho du khách gia đình và người thích chụp ảnh thác nước, thiên nhiên."
+              "text": "Từ cửa vào đến bờ nước là đường đi và bậc thang đã được chỉnh trang nên trẻ em và người lớn tuổi cũng đi được; nửa ngày là đủ, nhưng dành cả ngày cũng không thấy chán. Nhiều du khách kết hợp thác với "
+            },
+            { "type": "place_link", "text": "Sông Enchanted", "slug": "enchanted-river" },
+            { "text": " và " },
+            { "type": "place_link", "text": "Quần đảo Britania", "slug": "britania-islands" },
+            {
+              "text": " trong chuyến đi dọc bờ đông Surigao del Sur, nên nơi này rất hợp với người thích chụp ảnh thác nước, du khách gia đình và người mê ngắm chim. Tuy nhiên đây là vùng hẻo lánh, đi xe buýt từ Davao hay từ Butuan đều mất gần nửa ngày, nên cần sắp xếp lịch trình thật rộng rãi."
             }
           ]
         }
@@ -172,10 +242,16 @@
             {
               "type": "card",
               "number": 1,
-              "title": "Đi bè tre đến sát chân thác",
+              "title": "Đi bè tre đến chân thác",
               "children": [
                 {
-                  "text": "Bạn ngồi trên bè tre do người lái thuyền địa phương điều khiển, tiến sát đến ngay trước dòng nước đổ xuống. Vì bụi nước sẽ ướt đẫm toàn thân, nên hãy để thiết bị điện tử trong túi chống nước trước khi lên bè."
+                  "text": "Người chèo bè dùng mái đưa bạn đến sát trước thác, nơi bụi nước đổ xuống. Mỗi lượt khoảng "
+                },
+                { "type": "duration", "text": "30 phút" },
+                { "text": ", giá tính theo một chiếc bè là " },
+                { "type": "price", "text": "₱150–300" },
+                {
+                  "text": " (khoảng 7 người), và bạn nhất định phải mặc áo phao. Toàn thân sẽ ướt nên hãy cho thiết bị điện tử vào túi chống nước."
                 }
               ]
             },
@@ -184,10 +260,10 @@
               "number": 2,
               "title": "Chụp ảnh cầu vồng buổi sáng",
               "children": [
-                { "text": "Vào những ngày trời quang, khoảng " },
+                { "text": "Vào ngày trời quang, khoảng " },
                 { "type": "time", "text": "9–11 giờ sáng" },
                 {
-                  "text": ", cầu vồng sẽ hiện lên trước thác. Sàn ngắm cảnh đối diện thác và trên tảng đá bên bờ nước là những vị trí tốt để chụp cả cầu vồng lẫn thác trong cùng khung hình."
+                  "text": ", khi ánh nắng chiếu vào bụi nước thì cầu vồng sẽ hiện lên trước bức tường thác. Tảng đá bên bờ nước ở chính diện thác và trên bè là những vị trí tốt để chụp cả cầu vồng lẫn thác; còn vào buổi sáng nhiều mây sau một ngày mưa lớn thì rất khó thấy."
                 }
               ]
             },
@@ -197,7 +273,11 @@
               "title": "Bơi trong vũng nước dưới thác",
               "children": [
                 {
-                  "text": "Vũng nước rộng dưới chân thác có phần mép nông, rất thích hợp để mặc áo phao và bơi lội. Nước lạnh và trong nên đặc biệt sảng khoái vào những ngày nóng."
+                  "text": "Vũng nước rộng nhất dưới thác có nước trong và mát, đặc biệt dễ chịu vào buổi trưa nóng. Hãy mặc áo phao (khoảng "
+                },
+                { "type": "price", "text": "₱30" },
+                {
+                  "text": ") và chỉ bơi ở khu vực mép nước có dòng chảy yếu, không đi vào ngay dưới chân thác."
                 }
               ]
             },
@@ -207,7 +287,7 @@
               "title": "Khám phá các tầng thác phía trên",
               "children": [
                 {
-                  "text": "Nếu đi theo đường bậc thang lên trên, bạn có thể nhìn gần tầng thác thứ hai, thứ ba. Ít người hơn tầng dưới nên có thể yên tĩnh thưởng thức tiếng nước chảy."
+                  "text": "Đi lên theo bậc thang bê tông bên cạnh thác, bạn sẽ thấy các thác nhỏ ở tầng trên và những hồ tự nhiên nông. Đá ở mép nước trơn vì rêu nên nên đi cùng hướng dẫn viên địa phương, và chi phí cho hướng dẫn viên thường được gửi dưới dạng tiền boa."
                 }
               ]
             },
@@ -217,7 +297,7 @@
               "title": "Massage bằng nước thác",
               "children": [
                 {
-                  "text": "Nếu ngồi trên tảng đá dưới dòng nước ở tầng nông, nước chảy xuống sẽ đập vào vai như một liệu pháp massage tự nhiên. Chỉ nên làm ở những điểm được hướng dẫn viên hoặc người quản lý cho phép."
+                  "text": "Khi bè tiến lại gần thác, bụi nước và dòng nước đổ xuống đập vào vai, mang lại cảm giác như được massage tự nhiên. Ở những đoạn dòng nước mạnh, bè chỉ tiến đến khoảng cách do người chèo bè quyết định, và bạn hãy di chuyển theo chỉ dẫn của họ."
                 }
               ]
             },
@@ -227,8 +307,10 @@
               "title": "Dã ngoại tại nhà chòi",
               "children": [
                 {
-                  "text": "Trước thác có nhà chòi và bàn cho thuê, nên bạn có thể vừa ngắm thác vừa ăn trưa. Đây là cách mà các gia đình địa phương yêu thích nhất."
-                }
+                  "text": "Trước thác có nhà chòi và bàn nên bạn có thể vừa ngắm thác vừa ăn trưa. Một căn được biết có giá khoảng "
+                },
+                { "type": "price", "text": "₱150–350" },
+                { "text": ", và vào cuối tuần các gia đình địa phương thường chiếm chỗ trước." }
               ]
             },
             {
@@ -237,11 +319,17 @@
               "title": "Dạo bộ đường rừng và ngắm chim",
               "children": [
                 {
-                  "text": "Quanh con đường rừng từ cửa vào đến thác có nhiều chim và bướm đa dạng. Vào "
-                },
-                { "type": "date", "text": "năm 2024" },
+                  "text": "Trên đường từ cửa vào đến thác và trong khu rừng quanh thác có nhiều cây heliconia, dương xỉ, chim nhiệt đới và bướm. Tiếng chim rộn ràng nhất ngay sau khi mặt trời mọc, nên hãy đến sớm và đi bộ thong thả."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Chụp phơi sáng dài dòng nước",
+              "children": [
                 {
-                  "text": ", nhà quan sát chim người Mỹ Peter Kaestner đã ghi nhận loài chim thứ 10.000 đầu tiên trên thế giới, một con bắt nhện mào cam (Orange-tufted spiderhunter), trong bụi heliconia ở đây. Nếu đến sớm buổi sáng, bạn sẽ nghe âm thanh của rừng rõ hơn."
+                  "text": "Đáy sông nông trước thác lộ ra nhiều tảng đá nên rất thích hợp để dựng chân máy và chụp phơi sáng dài, làm dòng nước mượt như lụa. Vào thời kỳ lượng nước giảm, bạn còn có thể chụp cả hình thác phản chiếu trong vũng nước."
                 }
               ]
             }
@@ -265,61 +353,147 @@
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "07:30",
+                      "time": "07:00",
                       "children": [
                         {
-                          "text": "Xuất phát từ nơi lưu trú ở Bislig (Mangagoy), di chuyển bằng xe habal-habal hoặc xe thuê riêng (khoảng "
+                          "text": "Xuất phát từ nơi lưu trú ở Mangagoy, Bislig bằng habal-habal (xe máy ôm) hoặc xe ba bánh tricycle. Đến thác mất khoảng "
                         },
-                        { "type": "duration", "text": "40 phút – 1 giờ" },
-                        { "text": ")" }
+                        { "type": "duration", "text": "30 phút – 1 giờ" },
+                        { "text": "." }
                       ]
                     },
                     {
-                      "time": "08:30",
+                      "time": "07:45",
                       "children": [
                         {
-                          "text": "Đến lối vào, nộp phí vào cửa rồi đi theo đường bậc thang đến thác"
+                          "text": "Đi qua cổng chào, khoảng 5 phút sau bạn đến bãi đỗ xe, nộp phí vào cửa "
+                        },
+                        { "type": "price", "text": "₱50" },
+                        { "text": " rồi đi bộ xuống thác." }
+                      ]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        {
+                          "text": "Vào buổi sáng ít người, chụp toàn cảnh và ảnh phản chiếu của thác từ bờ nước ở chính diện."
                         }
                       ]
                     },
                     {
                       "time": "09:00",
                       "children": [
-                        { "text": "Chụp toàn cảnh thác và cầu vồng buổi sáng từ sàn ngắm cảnh" }
+                        { "text": "Trong khung giờ cầu vồng " },
+                        { "type": "time", "text": "9–11 giờ sáng" },
+                        { "text": ", ngồi bè tiến sát đến trước thác." }
                       ]
                     },
-                    { "time": "09:45", "children": [{ "text": "Đi bè tre tiến sát chân thác" }] },
-                    { "time": "10:30", "children": [{ "text": "Bơi trong vũng nước dưới thác" }] },
                     {
-                      "time": "11:30",
-                      "children": [{ "text": "Dạo bộ đến các tầng thác phía trên" }]
+                      "time": "10:00",
+                      "children": [
+                        { "text": "Mặc áo phao bơi trong vũng nước hoặc nghỉ trên tảng đá bên bờ." }
+                      ]
                     },
-                    { "time": "12:30", "children": [{ "text": "Ăn trưa tại nhà chòi" }] },
                     {
-                      "time": "13:30",
-                      "children": [{ "text": "Quay về Bislig hoặc di chuyển đến sông Enchanted" }]
+                      "time": "11:00",
+                      "children": [
+                        {
+                          "text": "Đi cùng hướng dẫn viên lên theo bậc thang bên cạnh để ngắm các tầng thác phía trên."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [
+                        {
+                          "text": "Ăn trưa tại nhà chòi với cơm hộp mua sẵn hoặc đồ ăn ở quầy hàng nơi cửa vào."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        { "text": "Quay về Mangagoy hoặc đi tiếp đến " },
+                        {
+                          "type": "place_link",
+                          "text": "Sông Enchanted",
+                          "slug": "enchanted-river"
+                        },
+                        { "text": "." }
+                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "title": "Lịch trình cả ngày (kết hợp sông Enchanted)",
+              "title": "Lịch trình cả ngày (kết hợp Sông Enchanted)",
               "blocks": [
                 {
-                  "type": "list",
-                  "ordered": false,
+                  "type": "stepper",
                   "items": [
                     {
+                      "time": "06:30",
                       "children": [
                         {
-                          "text": "Sáng thác Tinuy-an (khung giờ cầu vồng) → ăn trưa → chiều bơi ở sông Enchanted (di chuyển khoảng "
-                        },
-                        { "type": "duration", "text": "1 tiếng–1 tiếng 30 phút" },
-                        {
-                          "text": ") → ngủ một đêm ở Hinatuan hoặc Bislig. Giờ cho cá ăn ở sông Enchanted đã thay đổi giữa buổi trưa và 3 giờ chiều, nên nếu hôm đó là buổi trưa thì hãy đổi thứ tự và ghé sông Enchanted trước."
+                          "text": "Xuất phát từ Mangagoy đến thác. Điều quan trọng là phải đến trước khung giờ có cầu vồng."
                         }
                       ]
+                    },
+                    {
+                      "time": "07:15",
+                      "children": [
+                        {
+                          "text": "Vào cửa, rồi hoàn tất đi bè, bơi lội và tham quan các tầng thác phía trên ngay trong buổi sáng."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:00",
+                      "children": [
+                        {
+                          "text": "Rời thác và đi đến Hinatuan. Từ thác đến Sông Enchanted đi ô tô khoảng "
+                        },
+                        { "type": "duration", "text": "1 giờ 30 phút" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "time": "12:30",
+                      "children": [{ "text": "Ăn trưa tại nhà hàng ở lối vào Sông Enchanted." }]
+                    },
+                    {
+                      "time": "14:00",
+                      "children": [
+                        {
+                          "text": "Ngắm làn nước xanh sapphire ở Sông Enchanted và kiểm tra giờ cho cá ăn."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "16:00",
+                      "children": [{ "text": "Quay về Bislig hoặc nghỉ lại một đêm ở Hinatuan." }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Giờ cho cá ăn ở Sông Enchanted đã thay đổi trong khoảng từ buổi trưa đến 3 giờ chiều, nên hãy kiểm tra giờ của hôm đó tại chỗ rồi sắp xếp thứ tự các điểm đến."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Phương án khi trời mưa",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Nếu hôm trước mưa lớn khiến việc đi bè và bơi bị dừng, hãy chuyển sang ngắm thác từ điểm quan sát, vào cửa sớm và chờ lúc nước trong trở lại. Nếu chiều mưa tạnh, bạn quay về Mangagoy, đi dạo trên bờ kè Baywalk ven biển và kết thúc lịch trình bằng bữa tối hải sản."
                     }
                   ]
                 }
@@ -346,12 +520,34 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Sân bay Bislig hiện không có tuyến thương mại định kỳ, nên bạn sẽ dùng sân bay Davao (DVO) hoặc sân bay Butuan (BXU). Từ Manila đến Davao mất khoảng "
+                      "text": "Sân bay Bislig có đường băng bê tông nhưng thường chỉ máy bay thuê chuyến và máy bay nhỏ sử dụng, còn đường bay thẳng Cebu–Bislig đã nhiều lần bị dừng rồi mở lại. Vào "
+                    },
+                    { "type": "date", "text": "ngày 20 tháng 9 năm 2024" },
+                    {
+                      "text": ", hãng Leading Edge Air Services đã mở lại đường bay thẳng đến Cebu bằng máy bay ATR 72-500 hai chuyến mỗi tuần, vào thứ Sáu và Chủ nhật (khởi hành từ Cebu lúc 6 giờ sáng, khoảng "
+                    },
+                    { "type": "duration", "text": "1 giờ 17 phút" },
+                    { "text": ", giá thường một chiều khoảng " },
+                    { "type": "price", "text": "₱4,800" },
+                    {
+                      "text": "); tình hình khai thác sau đó chưa được xác nhận, nên hãy kiểm tra thông báo của hãng bay hoặc thành phố Bislig trước khi đặt vé."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Cách thực tế là bay đến Davao hoặc Butuan rồi đi tiếp bằng đường bộ. Từ Manila đến Davao mất khoảng "
                     },
                     { "type": "duration", "text": "2 giờ" },
-                    { "text": ", đến Butuan khoảng " },
-                    { "type": "duration", "text": "1 giờ 40 phút" },
-                    { "text": ", và Davao có nhiều chuyến bay hơn hẳn." }
+                    { "text": ", từ Manila đến Butuan khoảng " },
+                    { "type": "duration", "text": "1 giờ 30 phút" },
+                    { "text": ", từ Cebu đến Butuan khoảng " },
+                    { "type": "duration", "text": "55 phút" },
+                    {
+                      "text": ". Davao có nhiều chuyến bay hơn hẳn, còn quãng đường bộ đến Bislig thì từ Butuan gần hơn."
+                    }
                   ]
                 }
               ]
@@ -364,19 +560,37 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ bến xe Ecoland ở Davao, bắt xe buýt đi Bislig (Mangagoy) sẽ qua Davao del Norte và Davao de Oro, mất khoảng "
+                      "text": "Từ bến xe Ecoland ở Davao, xe buýt máy lạnh của Bachelor Express chạy đi Bislig mỗi ngày. Trang thông tin (cập nhật "
                     },
-                    { "type": "duration", "text": "5–6 giờ" },
-                    { "text": " để đến trung tâm Bislig. Giá vé khoảng " },
-                    { "type": "price", "text": "₱400–550" },
+                    { "type": "date", "text": "tháng 6 năm 2026" },
+                    { "text": ") ghi giờ khởi hành là 5 giờ và 8 giờ sáng, khoảng " },
+                    { "type": "duration", "text": "9 giờ" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱813" },
+                    { "text": ", trong khi bài đánh giá " },
+                    { "type": "date", "text": "năm 2022" },
+                    { "text": " ghi khoảng " },
+                    { "type": "duration", "text": "4–5 giờ" },
+                    { "text": " với giá " },
+                    { "type": "price", "text": "₱402" },
                     {
-                      "text": ". Từ Butuan cũng có xe buýt và xe van đi Bislig, Mangagoy, mất khoảng "
+                      "text": ". Số lần dừng và tuyến đường khiến chênh lệch rất lớn, nên hãy tính trong khoảng 4–9 giờ; nếu đổi xe ở Monkayo thì mất khoảng "
                     },
                     { "type": "duration", "text": "5 giờ" },
-                    { "text": ", giá khoảng " },
-                    { "type": "price", "text": "₱350–500" },
+                    { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ Butuan, đi từ bến xe qua Trento đến Mangagoy mất khoảng " },
+                    { "type": "duration", "text": "4–5 giờ" },
+                    { "text": ", và theo bài đánh giá " },
+                    { "type": "date", "text": "năm 2022" },
+                    { "text": ", giá xe buýt và xe van sân bay khoảng " },
+                    { "type": "price", "text": "₱233–250" },
                     {
-                      "text": ". Nên bắt xe buýt máy lạnh khởi hành vào buổi sáng để đến nơi trước khi trời tối."
+                      "text": ". Từ Tandag cũng mất 4–5 giờ. Dù đi đường nào, hãy khởi hành vào buổi sáng để đến trước khi trời tối, và xuống xe ở trung tâm Mangagoy hoặc bến xe buýt thành phố Bislig."
                     }
                   ]
                 }
@@ -389,14 +603,68 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Từ trung tâm Mangagoy, Bislig đến thác khoảng " },
-                    { "type": "distance", "text": "20km" },
-                    { "text": ". Nếu thuê riêng xe habal-habal, giá khứ hồi khoảng " },
-                    { "type": "price", "text": "₱400–700" },
-                    { "text": " (đã gồm thời gian chờ), xe kèm tài xế khoảng " },
-                    { "type": "price", "text": "₱1,500–2,500" },
+                    { "text": "Từ trung tâm Mangagoy đến thác khoảng " },
+                    { "type": "distance", "text": "17km" },
+                    { "text": ", mất " },
+                    { "type": "duration", "text": "30 phút – 1 giờ" },
                     {
-                      "text": "/nửa ngày. Với phương tiện công cộng, bạn có thể bắt jeepney hoặc multicab hướng Burboanan rồi xuống ở ngã rẽ vào làng và chuyển sang xe habal-habal, nhưng vì số chuyến ít nên nếu không có nhiều thời gian thì thuê riêng sẽ tiện hơn. Nếu muốn đi cả thác Tinuy-an và sông Enchanted trong một ngày, nên thuê xe habal-habal hoặc xe theo ngày sẽ hiệu quả hơn."
+                      "text": ", một số đoạn là đường đất. Giá habal-habal khứ hồi gồm cả thời gian chờ khoảng "
+                    },
+                    { "type": "price", "text": "₱400–600" },
+                    { "text": " (bài đánh giá " },
+                    { "type": "date", "text": "năm 2022" },
+                    { "text": "); thuê cả ngày cũng theo bài đánh giá đó là xe máy từ khoảng " },
+                    { "type": "price", "text": "₱800" },
+                    { "text": ", xe ba bánh tricycle từ khoảng " },
+                    { "type": "price", "text": "₱1,500" },
+                    {
+                      "text": ", và hiện nay có thể đã tăng. Có đánh giá cho biết trong nội thành tài xế thường báo giá ban đầu cao, nên trước khi đi hãy xác nhận giá, thời gian chờ và giờ quay về."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Cũng có đánh giá cho biết nếu đi jeepney hoặc multicab từ bến jeepney ở Bislig thì mất khoảng "
+                    },
+                    { "type": "duration", "text": "1 giờ" },
+                    {
+                      "text": ", nhưng số chuyến ít. Nếu muốn đi cả Sông Enchanted trong cùng một ngày thì thuê xe cả ngày là hiệu quả nhất."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tự lái / thuê xe",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Đường đến cửa vào thác phần lớn được trải bê tông, và nếu tìm \"Tinuy-an Falls\" trên Google Maps thì sẽ được chỉ đường. Bãi đỗ xe nằm sâu hơn cổng chào khoảng 5 phút, phí gửi xe khoảng "
+                    },
+                    { "type": "price", "text": "₱20–50" },
+                    {
+                      "text": ". Vào mùa mưa, đường núi có thể có bùn và đá lở, nên chỉ lái xe vào ban ngày."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Từ các điểm xuất phát khác",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Từ Hinatuan và Sông Enchanted đi ô tô mất khoảng " },
+                    { "type": "duration", "text": "1 giờ 30 phút" },
+                    {
+                      "text": "; từ Siargao phải qua thành phố Surigao và Butuan, mất gần một ngày nên không thể đi về trong ngày."
                     }
                   ]
                 }
@@ -416,13 +684,41 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Tỉnh Surigao del Sur là một trong những khu vực có lượng mưa nhiều nhất Philippines, và từ "
+              "text": "Bờ đông Surigao del Sur, nơi Bislig thuộc về, là vùng mưa nhiều nhất Philippines. Lượng mưa trung bình năm ở trạm quan trắc Hinatuan lân cận được ghi nhận khoảng 4,554mm, cao nhất Philippines, và bảng khí hậu của Bislig cũng cho khoảng 4,198mm mỗi năm. Đây là khí hậu loại 2, không có mùa khô rõ rệt, nên mưa tập trung nhiều nhất từ "
             },
             { "type": "date", "text": "tháng 11" },
             { "text": " đến " },
-            { "type": "date", "text": "tháng 2" },
+            { "type": "date", "text": "tháng 1" },
+            { "text": "; theo bảng khí hậu, lượng mưa " },
+            { "type": "date", "text": "tháng 1" },
+            { "text": " khoảng 710mm, " },
+            { "type": "date", "text": "tháng 12" },
+            { "text": " khoảng 604mm, trong khi " },
+            { "type": "date", "text": "tháng 8" },
+            { "text": " khoảng 171mm và " },
+            { "type": "date", "text": "tháng 7" },
+            { "text": " khoảng 183mm." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Vì vậy khoảng từ " },
+            { "type": "date", "text": "tháng 5" },
+            { "text": " đến " },
+            { "type": "date", "text": "tháng 10" },
+            { "text": ", khi mưa tương đối ít, là hợp lý nhất, đặc biệt từ " },
+            { "type": "date", "text": "tháng 6" },
+            { "text": " đến " },
+            { "type": "date", "text": "tháng 9" },
             {
-              "text": ", gió mùa đông bắc gây mưa gần như mỗi ngày. Vào thời gian này, lượng nước ở thác rất lớn và hùng vĩ, nhưng nước chuyển sang màu đục, và có những ngày việc đi bè, bơi lội bị tạm dừng vì lý do an toàn."
+              "text": " có nhiều ngày trời quang nên nước trong và xác suất thấy cầu vồng buổi sáng cũng cao. Thác không bao giờ cạn và vào mùa mưa lượng nước dồi dào nhất, nên những ai muốn xem \"thác hùng vĩ\" đôi khi chọn "
+            },
+            { "type": "date", "text": "tháng 7" },
+            { "text": " đến " },
+            { "type": "date", "text": "tháng 12" },
+            {
+              "text": ", nhưng nước đổi sang màu đục và vì an toàn nên việc đi bè và bơi thường bị dừng. Ngay cả ngày quang đãng, buổi trưa mây cũng dễ kéo đến nên đến sớm vào buổi sáng sẽ tốt hơn."
             }
           ]
         },
@@ -430,15 +726,19 @@
           "type": "paragraph",
           "children": [
             { "text": "Từ " },
-            { "type": "date", "text": "tháng 3" },
+            { "text": "ngày 16 tháng 9", "type": "date" },
             { "text": " đến " },
-            { "type": "date", "text": "tháng 9" },
+            { "text": "ngày 18", "type": "date" },
+            { "text": " là dịp kỷ niệm thành lập thành phố Bislig, và vào " },
+            { "text": "ngày 17 tháng 9", "type": "date" },
             {
-              "text": ", thời điểm tương đối khô ráo, là lúc thích hợp để ghé thăm. Nước trong và nhiều ngày trời quang nên khả năng thấy cầu vồng buổi sáng cũng cao hơn. Tuy nhiên nếu mùa khô kéo dài, lượng nước giảm khiến bức rèm nước có thể mỏng hơn. Vào cuối tuần, ngày lễ và kỳ nghỉ hè "
+              "text": " có Lễ hội Tinuy-an Sayaw (Tinuy-an Sayaw Festival) mang tên thác nên chỗ ở và giao thông rất đông. Cuối tuần, ngày lễ và kỳ nghỉ hè "
             },
-            { "type": "date", "text": "tháng 4 – tháng 5" },
+            { "text": "tháng 4", "type": "date" },
+            { "text": " đến " },
+            { "text": "tháng 5", "type": "date" },
             {
-              "text": ", khách du lịch địa phương đổ về đông, nên đến vào sáng sớm ngày thường là tốt nhất."
+              "text": " cũng có nhiều du khách địa phương đổ về, nên bạn nên chọn buổi sáng ngày thường."
             }
           ]
         },
@@ -449,15 +749,19 @@
           "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
           "rows": [
             [
-              "Tháng 3–tháng 9",
-              "Tương đối khô, nhiều ngày nắng đẹp",
-              "Mong chờ cầu vồng buổi sáng — dịp nghỉ hè tháng 4–5 nên đi sáng sớm ngày thường"
+              "Tháng 5 – tháng 10",
+              "Tương đối ít mưa (theo bảng khí hậu khoảng 170–270mm mỗi tháng), nhiều ngày nắng đẹp",
+              "Mong chờ đi bè, bơi lội và cầu vồng buổi sáng — thời điểm hợp lý nhất, nhưng dịp lễ hội giữa tháng 9 rất đông"
             ],
-            ["Tháng 10", "Giữa mùa khô và mùa mưa", "Tốt nhất là đến sớm buổi sáng ngày thường"],
             [
-              "Tháng 11–tháng 2",
-              "Gió mùa đông bắc, mưa gần như mỗi ngày",
-              "Lượng nước lớn nhất nhưng nước đục màu đất, dừng đi bè và bơi"
+              "Tháng 11 – tháng 1",
+              "Mưa nhiều nhất do gió mùa đông bắc (khoảng 320–710mm mỗi tháng)",
+              "Lượng nước lớn nhất nhưng nước đục màu đất, việc đi bè và bơi thường bị dừng, cần chú ý đường bị ngập"
+            ],
+            [
+              "Tháng 2 – tháng 4",
+              "Giai đoạn chuyển tiếp khi mưa giảm dần (khoảng 340–530mm mỗi tháng)",
+              "Thời tiết thay đổi từng ngày nên hãy chọn ngày nắng để đi; kỳ nghỉ hè tháng 4 nên đi vào sáng sớm ngày thường"
             ]
           ]
         }
@@ -477,39 +781,39 @@
             {
               "label": "Vé máy bay Manila – Davao",
               "price": "Một chiều khoảng ₱2,500–6,000",
-              "note": "Cũng có thể quá cảnh qua Butuan"
+              "note": "Biến động lớn theo thời điểm, cũng có thể qua Butuan"
             },
             {
               "label": "Xe buýt Davao – Bislig",
-              "price": "Một chiều khoảng ₱400–550",
-              "note": "Khoảng 5–6 giờ"
+              "price": "Một chiều khoảng ₱400–810",
+              "note": "Khoảng 4–9 giờ, tùy đi thẳng hay đổi xe"
             },
             {
               "label": "Phí vào cửa",
               "price": "Khoảng ₱50/người",
-              "note": "Miễn phí dưới 7 tuổi, có thể thay đổi"
+              "note": "Miễn phí dưới 7 tuổi, chỉ nhận tiền mặt"
             },
-            { "label": "Phí gửi xe", "price": "Khoảng ₱10–20", "note": "Xe máy, ô tô" },
-            { "label": "Thuê áo phao", "price": "Khoảng ₱30", "note": "Bắt buộc khi bơi" },
             {
               "label": "Bè tre",
-              "price": "Khoảng ₱100–300",
-              "note": "Tùy theo số người và thời gian"
+              "price": "Khoảng ₱150–300/bè",
+              "note": "Khoảng 7 người, khoảng 30 phút"
+            },
+            { "label": "Thuê áo phao", "price": "Khoảng ₱30", "note": "Bắt buộc khi đi bè và bơi" },
+            { "label": "Phí gửi xe", "price": "Khoảng ₱20–50", "note": "Tính cho xe ô tô con" },
+            {
+              "label": "Habal-habal khứ hồi",
+              "price": "Khoảng ₱400–600",
+              "note": "Xuất phát từ Mangagoy, gồm thời gian chờ (đánh giá năm 2022)"
             },
             {
-              "label": "Thuê riêng xe habal-habal",
-              "price": "Khứ hồi khoảng ₱400–700",
-              "note": "Xuất phát từ trung tâm Bislig, đã gồm thời gian chờ"
-            },
-            {
-              "label": "Thuê nhà chòi",
-              "price": "Một căn khoảng ₱200–500",
+              "label": "Nhà chòi / bàn",
+              "price": "Khoảng ₱150–350/căn",
               "note": "Tùy theo kích cỡ"
             },
             {
               "label": "Lưu trú",
-              "price": "Một đêm khoảng ₱1,000–3,000",
-              "note": "Khách sạn trong trung tâm Bislig"
+              "price": "Khoảng ₱600–2,500/đêm",
+              "note": "Trong trung tâm Mangagoy, tùy hạng phòng"
             }
           ]
         },
@@ -533,11 +837,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Lưu trú thuận tiện nhất là ở trung tâm Bislig, đặc biệt là khu vực thương mại Mangagoy. Có các khách sạn kinh doanh và pension giá khoảng "
+              "text": "Lưu trú thuận tiện nhất là ở Mangagoy, trung tâm thương mại của Bislig. Nơi đây gần bến xe buýt, chợ, nhà hàng, ngân hàng và ATM, có các pension và khách sạn tầm trung với giá khoảng "
             },
-            { "type": "price", "text": "₱1,000–3,000" },
+            { "type": "price", "text": "₱600–2,500" },
             {
-              "text": "/đêm, gần nhà hàng, ATM và bến xe nên đi lại thuận tiện. Gần thác đôi khi cũng có cơ sở lưu trú nhỏ hoạt động, nhưng tiện nghi đơn giản và có thể thay đổi hoạt động nên cần kiểm tra trước. Nếu kết hợp thăm sông Enchanted, khu nghỉ dưỡng ven biển ở Hinatuan cũng là một lựa chọn thay thế."
+              "text": "/đêm. Ngay cạnh thác cũng có cơ sở lưu trú nhỏ với vài căn chòi, nhưng ít phòng và hoạt động không đều nên cần kiểm tra trước. Nếu đi cả Sông Enchanted thì nghỉ tại khu nghỉ dưỡng ven biển phía Hinatuan cũng là một cách."
             }
           ]
         },
@@ -545,7 +849,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Ở lối vào thác có quầy bán đồ ăn, thức uống đơn giản, nhưng nên học theo người địa phương, mua gà nướng (litson manok), cá, cơm, trái cây ở chợ rồi mang đến nhà chòi ăn. Vì Bislig là thành phố ven biển nên bạn có thể thưởng thức hải sản như cua, tôm, sò với giá rẻ tại chợ Mangagoy và các nhà hàng ven biển, cùng các món phổ biến như ginataan nấu với nước cốt dừa và kinilaw (cá sống ướp giấm)."
+              "text": "Ở lối vào thác có quầy bán đồ ăn, thức uống và quà lưu niệm, nhưng nhiều người mua gà hoặc cá nướng, cơm, trái cây ở chợ Mangagoy rồi mang đến nhà chòi ăn. Bislig là thành phố ven biển nên hải sản như cua, tôm, sò rất rẻ, và các món như kinilaw (cá sống trộn giấm) cùng thịt heo nướng rất phổ biến."
             }
           ]
         }
@@ -564,52 +868,78 @@
           "items": [
             {
               "children": [
-                { "text": "Nếu muốn xem cầu vồng buổi sáng, hãy đến trước " },
+                { "text": "Nếu muốn xem cầu vồng buổi sáng, hãy qua cửa vào trước " },
                 { "type": "time", "text": "9 giờ sáng" },
+                { "text": " và chọn ngày trời quang, không mưa hôm trước." }
+              ]
+            },
+            {
+              "children": [
                 {
-                  "text": " và chọn ngày trời quang. Vào ngày nhiều mây, cầu vồng hầu như không xuất hiện."
+                  "text": "Phí vào cửa, bè, áo phao, nhà chòi và tiền boa hướng dẫn viên đều trả bằng tiền mặt, không dùng được thẻ, nên hãy chuẩn bị nhiều tiền mệnh giá nhỏ như "
+                },
+                { "type": "price", "text": "₱20" },
+                { "text": ", " },
+                { "type": "price", "text": "₱50" },
+                { "text": ", " },
+                { "type": "price", "text": "₱100" },
+                { "text": ". Hãy rút tiền ATM sẵn ở Mangagoy." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi đi bè, toàn thân sẽ ướt nên hãy mặc áo rashguard ngoài đồ bơi, và để điện thoại, máy ảnh trong túi chống nước."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Trung tâm Bislig có ATM, nhưng tại thác chỉ nhận tiền mặt, nên hãy chuẩn bị tiền mệnh giá nhỏ cho phí vào cửa, bè tre, nhà chòi."
+                  "text": "Đá trước thác và ở các tầng trên rất trơn vì rêu, nên hãy mang giày đi nước hoặc dép có quai."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Khi đi bè bạn sẽ ướt hết người, nên hãy mặc áo rashguard ngoài đồ bơi, và đeo điện thoại trong túi chống nước quanh cổ."
+                  "text": "Dùng ống kính góc rộng để lấy trọn cả chiều rộng của thác, và nếu có chân máy cùng kính lọc ND thì chụp phơi sáng dài sẽ dễ hơn. Có đánh giá "
+                },
+                { "type": "date", "text": "năm 2022" },
+                {
+                  "text": " cho biết không bị hạn chế dùng drone, nhưng đây là khu bảo tồn nên hãy làm theo hướng dẫn tại chỗ."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Đá trước thác rất trơn vì có rêu, nên hãy mang giày đi biển hoặc dép quai."
+                  "text": "Hãy đi lên các tầng trên cùng hướng dẫn viên, và gửi tiền boa cho hướng dẫn viên tương xứng với sự giúp đỡ."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Nếu có ống kính góc rộng, bạn có thể lấy trọn cả thác rộng lớn trong một khung hình, và nếu dùng chân máy, bạn cũng có thể chụp phơi sáng dài để dòng nước trông mềm mại hơn."
+                  "text": "Hãy thống nhất giờ quay về với tài xế habal-habal từ trước và xin số điện thoại của họ. Có đánh giá cho biết sóng điện thoại bắt được ở mọi nhà mạng, nhưng trước thác sóng có thể yếu đi."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Khi kết hợp với " },
+                { "text": "Sông Enchanted", "type": "place_link", "slug": "enchanted-river" },
+                { "text": " trong cùng một ngày, hai nơi cách nhau khoảng " },
+                { "text": "1 giờ 30 phút", "type": "duration" },
+                {
+                  "text": " đi ô tô, nên hãy xếp thác vào buổi sáng và Sông Enchanted vào buổi chiều."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Chiều cuối tuần đông đúc khách gia đình, nên khuyến khích đi vào buổi sáng ngày thường."
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "text": "Sóng điện thoại ở đây khá yếu, nên hãy hẹn trước giờ quay về với tài xế habal-habal."
+                  "text": "Chiều cuối tuần đông đúc khách gia đình, nên nên đi vào buổi sáng ngày thường."
                 }
               ]
             }
@@ -629,7 +959,7 @@
           "icon": "warning",
           "children": [
             {
-              "text": "Sau những trận mưa lớn, lượng nước ở thác tăng đột ngột khiến dòng chảy rất mạnh. Nếu người quản lý dừng hoạt động bơi lội hay bè tre, nhất định phải tuân theo, và không được đi vào ngay dưới dòng nước đổ trực tiếp từ thác."
+              "text": "Sau những trận mưa lớn, lượng nước ở thác tăng đột ngột và dòng chảy rất mạnh. Nếu người quản lý dừng việc bơi lội hay đi bè thì nhất định phải tuân theo, và tuyệt đối không đi vào dòng nước đổ trực tiếp ngay dưới thác. Mép các tầng trên trơn và dòng nước chảy xiết nên không được bơi ở đó."
             }
           ]
         },
@@ -641,35 +971,54 @@
             {
               "children": [
                 {
-                  "text": "Khi bơi bắt buộc phải mặc áo phao, và không được vượt qua ranh giới đã đánh dấu ở khu vực nước sâu hay dòng chảy mạnh."
+                  "text": "Khi bơi và đi bè bắt buộc phải mặc áo phao; ở chỗ nước sâu và khu vực dòng chảy mạnh, hãy làm theo biển báo và chỉ dẫn của người quản lý."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Vì thác và rừng là khu bảo tồn nên hãy mang rác về, không sử dụng xà phòng, dầu gội và không thu thập động thực vật."
+                  "text": "Thác và rừng là khu bảo tồn nên hãy mang rác về, không dùng xà phòng, dầu gội và không thu thập động thực vật."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Phí vào cửa, giờ mở cửa, phí hoạt động có thể thay đổi theo quy định của thành phố Bislig, nên hãy kiểm tra thông báo mới nhất trước khi ghé thăm."
+                  "text": "Từng có tiền lệ hoạt động bị dừng đột ngột. Thác đóng cửa để sửa đường từ "
+                },
+                { "type": "date", "text": "ngày 4 tháng 6 năm 2018" },
+                { "text": " đến " },
+                { "type": "date", "text": "ngày 1 tháng 8" },
+                { "text": ", và vào " },
+                { "type": "date", "text": "tháng 12 năm 2022" },
+                {
+                  "text": " tạm đóng do đàm phán về quyền tiếp cận giữa chính quyền địa phương và hội đồng bộ tộc Manobo, rồi mở lại vào "
+                },
+                { "type": "date", "text": "ngày 21 tháng 12" },
+                {
+                  "text": ". Trước khi đi, hãy kiểm tra thông báo của văn phòng du lịch thành phố Bislig."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Vào mùa mưa, sạt lở và ngập nước có thể xảy ra ở nhiều đoạn đường, nên hãy để dư thời gian cho lịch trình xe buýt đường dài."
+                  "text": "Phí vào cửa, giờ hoạt động và phí các hoạt động có thể thay đổi. Giờ giấc khác nhau tùy bài đánh giá nên chỉ xác nhận được là có thể vào từ sáng sớm; hãy kiểm tra thông báo mới nhất."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Một số khu vực ở Mindanao có cảnh báo du lịch, nên trước khi đi hãy kiểm tra thông tin an toàn du lịch nước ngoài từ cơ quan ngoại giao của mình, và tránh di chuyển đường dài vào ban đêm."
+                  "text": "Vào mùa mưa, đường núi có thể sạt lở và ngập nước, nên hãy để dư thời gian cho lịch trình xe buýt đường dài và tránh di chuyển ban đêm."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Một số khu vực ở Mindanao có cảnh báo du lịch, nên trước khi đi hãy kiểm tra thông tin an toàn du lịch nước ngoài của cơ quan ngoại giao nước mình."
                 }
               ]
             }
@@ -692,11 +1041,9 @@
               "title": "Sông Enchanted",
               "place": "enchanted-river",
               "children": [
-                { "text": "Khoảng " },
-                { "type": "duration", "text": "1 giờ – 1 giờ 30 phút" },
-                {
-                  "text": " đi xe (đến Hinatuan). Nổi tiếng với dòng sông xanh sapphire không rõ đáy."
-                }
+                { "text": "Đi ô tô khoảng " },
+                { "type": "duration", "text": "1 giờ 30 phút" },
+                { "text": " (Hinatuan). Dòng sông dẫn đến con suối xanh sapphire không thấy đáy." }
               ]
             },
             {
@@ -704,10 +1051,10 @@
               "title": "Quần đảo Britania",
               "place": "britania-islands",
               "children": [
-                { "text": "Khoảng " },
-                { "type": "duration", "text": "2 giờ" },
+                { "text": "Đi ô tô khoảng " },
+                { "type": "duration", "text": "3–4 giờ" },
                 {
-                  "text": " đi xe (đến San Agustin), sau đó tour đảo bằng thuyền banca. Đây là vùng biển trong xanh với 24 hòn đảo nhỏ rải rác."
+                  "text": " (San Agustin), rồi tour đảo bằng thuyền banca. Vùng biển trong xanh với những hòn đảo nhỏ rải rác, thường nên dành riêng một ngày."
                 }
               ]
             },
@@ -717,7 +1064,7 @@
               "place": "siargao",
               "children": [
                 {
-                  "text": "Hơn nửa ngày đi xe và tàu qua Butuan, thành phố Surigao. Đây là hòn đảo của lướt sóng và khám phá đảo."
+                  "text": "Phải đi qua Butuan và thành phố Surigao, lại còn đi tàu, nên mất gần một ngày. Đây là hòn đảo của lướt sóng và khám phá đảo."
                 }
               ]
             },
@@ -726,10 +1073,19 @@
               "title": "Davao",
               "place": "davao-city",
               "children": [
-                { "text": "Khoảng " },
-                { "type": "duration", "text": "5–6 giờ" },
+                { "text": "Đi xe buýt khoảng " },
+                { "type": "duration", "text": "4–9 giờ" },
                 {
-                  "text": " đi xe buýt. Đây là thành phố lớn nhất Mindanao, nổi tiếng với núi Apo, Trung tâm Đại bàng Philippines và sầu riêng."
+                  "text": ". Thành phố lớn nhất Mindanao, nổi tiếng với núi Apo, Trung tâm Đại bàng Philippines và sầu riêng."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Baywalk Bislig",
+              "children": [
+                {
+                  "text": "Con đường đi dạo ven biển gần Mangagoy, rất hợp để dạo bộ lúc hoàng hôn sau khi kết thúc lịch trình thăm thác."
                 }
               ]
             }

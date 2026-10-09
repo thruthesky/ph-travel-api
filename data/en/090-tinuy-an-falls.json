@@ -46,8 +46,8 @@
     "type": "date",
     "label": "Best time to visit",
     "icon": "calendar_month",
-    "text": "March–September (relatively dry)",
-    "months": [3, 4, 5, 6, 7, 8, 9]
+    "text": "May–October (relatively less rain)",
+    "months": [5, 6, 7, 8, 9, 10]
   },
   "duration": {
     "type": "duration",
@@ -93,16 +93,72 @@
       {
         "type": "image",
         "url": "images/090-tinuy-an-falls-2.webp",
-        "alt": "Tinuy-an Falls",
+        "alt": "Several channels of the falls splitting off the cliff, with a bamboo raft",
         "credit": "Bro. Jeffrey Pioquinto, SJ / CC BY 2.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_Waterfalls_of_Bislig.jpg"
       },
       {
         "type": "image",
         "url": "images/090-tinuy-an-falls-3.webp",
-        "alt": "Tinuy-an Falls",
+        "alt": "The lower tier of the falls stepping down over rock ledges",
         "credit": "Jogie.dalumpines1990 / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_Falls_Entrance,_Bislig_City,_Philippines.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-4.webp",
+        "alt": "The upstream shallows above the falls, where the river flows over a rock ledge",
+        "credit": "Michael E. Peligro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls_3_mikepeligro.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-5.webp",
+        "alt": "The wide pool in front of the falls, with visitors at the water's edge",
+        "credit": "Michael E. Peligro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls_1_mikepeligro.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-6.webp",
+        "alt": "A bamboo bridge and the shallow water leading to the falls",
+        "credit": "Michael E. Peligro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls_6_mikepeligro.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-7.webp",
+        "alt": "The stepped lower tier of the falls seen from a railed spot by the water",
+        "credit": "Michael E. Peligro / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls_5_mikepeligro.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-8.webp",
+        "alt": "Water spilling over the edge of the upper tier",
+        "credit": "Wolfgang Hägele / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-9.webp",
+        "alt": "The broad stream pouring down the front of the falls",
+        "credit": "Wolfgang Hägele / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_falls1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-10.webp",
+        "alt": "The falls reflected in the pool under a blue sky",
+        "credit": "Rollymagpayo / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:TINY-AN_FALLS.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/090-tinuy-an-falls-11.webp",
+        "alt": "Visitors playing in the shallow water in front of the falls",
+        "credit": "Daxster16 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tinuy-an_Falls_in_Surigao.jpg"
       }
     ]
   },
@@ -110,13 +166,15 @@
     "type": "paragraph",
     "variant": "lead",
     "children": [
-      { "text": "A broad, multi-tiered curtain waterfall about " },
+      { "text": "A three-tiered curtain waterfall about " },
       { "type": "distance", "text": "55m" },
-      { "text": " high and " },
+      { "text": " high and about " },
       { "type": "distance", "text": "95m" },
       {
-        "text": " wide, known as the Niagara of the Philippines. You can ride a bamboo raft right up to the base of the cascading water, and on clear mornings a rainbow rises over the spray — a signature attraction of Surigao del Sur."
-      }
+        "text": " wide, considered the widest waterfall in the Philippines. You can ride a bamboo raft right up to the pouring water, and on clear days between "
+      },
+      { "type": "time", "text": "9–11 AM" },
+      { "text": " a rainbow hangs over the spray." }
     ]
   },
   "sections": [
@@ -130,33 +188,39 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Tinuy-an Falls is a waterfall in the tropical forest of Burboanan village, Bislig City, on Mindanao's east coast in Surigao del Sur Province. At about "
+              "text": "Tinuy-an Falls lies in the tropical rainforest of Burboanan village, Bislig City, Surigao del Sur, on the eastern edge of Mindanao. It is said to be about "
             },
             { "type": "distance", "text": "55m" },
-            { "text": " high, it isn't especially tall, but its width of about " },
+            { "text": " high and about " },
             { "type": "distance", "text": "95m" },
             {
-              "text": " makes the whole river cascade down like a broad white curtain. The falls drop in several tiers, with water from the upper tier flowing over wide rock steps down to the next, and the largest, widest bottom tier is its signature view. This appearance is why Filipinos call it the \"Niagara of the Philippines.\""
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "The falls take their name from the Cebuano word \"tinuyoan,\" meaning \"done on purpose.\" The legend behind the name is that the people of Mount Magdiwata, once enslaved by a tribe from Agusan, pushed a bamboo raft (gakit) toward the falls and sent their masters over the edge, winning back their freedom. The area around the falls belongs to the lush forest zone of Bislig, once famous for its timber industry, and is now protected as an ecotourism site managed jointly by the Bislig City tourism office and the Manobo tribal council. Below the falls the river forms a wide, shallow pool before flowing back into the forest, so you can both swim and ride a raft."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "Tinuy-an Falls' signature feature is its morning rainbow. On clear days around "
+              "text": " wide, and instead of falling in a single stream, the water pours across its whole width like a white curtain. Because it is counted as the widest waterfall in the country, Filipinos call it the \"Little Niagara of the Philippines.\" The falls are usually described as having three tiers, with one more, less conspicuous tier said to exist, and since sources count the tiers differently, the stated height also ranges from "
             },
-            { "type": "time", "text": "9–11 AM" },
+            { "type": "distance", "text": "26m" },
+            { "text": " to " },
+            { "type": "distance", "text": "55m" },
+            { "text": " depending on the source." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
             {
-              "text": ", sunlight hitting the falls' spray creates a vivid rainbow in front of the waterfall. Photos capturing the massive water curtain, the rainbow, and people on bamboo rafts all in one frame are a constant fixture of Surigao del Sur's tourism promotion."
+              "text": "The name \"Tinuy-an\" comes from the Cebuano word \"Tinuyo-an,\" meaning something done deliberately and with purpose, and in Filipino it is also compared to \"Babalik-balikan,\" meaning a place you keep coming back to. According to legend, the people of Mount Magdiwata, who were once forced to serve as slaves of a tribe from the Agusan side, jumped into the water while riding a bamboo raft (gakit), pushed the raft toward the falls to send their masters over, and won their freedom. The falls are managed jointly by the Bislig City tourism office and the Manobo tribal council. Bislig is called the easternmost city in the Philippines, and thick forest remains around the falls."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "In " },
+            { "type": "date", "text": "2018" },
+            {
+              "text": ", this forest was designated one of three protected areas in the Caraga region under the Expanded NIPAS Act (Republic Act No. 11038), and the regional Environment and Natural Resources office reported confirming 91 animal species and 144 plant species (33 of them near threatened). It also became famous among birdwatchers. In "
+            },
+            { "type": "date", "text": "February 2024" },
+            {
+              "text": ", American birder Peter Kaestner spotted an Orange-tufted spiderhunter in a heliconia thicket beside the falls, recording the world's 10,000th bird species seen, the first person ever to do so, as officially recognized by Guinness World Records."
             }
           ]
         },
@@ -164,7 +228,13 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "The path from the entrance to the viewpoint and the water's edge is a maintained stairway, so children and seniors can go without strain. Together with the nearby Enchanted River and the Britania Islands, it forms the core of an east-coast Surigao del Sur trip, and is especially recommended for family travelers and those who love waterfalls and nature photography."
+              "text": "The way from the entrance down to the water is a maintained path with steps, so children and older visitors can manage it, and half a day is enough, though you could spend a whole day here without getting bored. Many travelers tour the Surigao del Sur east coast together with "
+            },
+            { "type": "place_link", "text": "Enchanted River", "slug": "enchanted-river" },
+            { "text": " and " },
+            { "type": "place_link", "text": "Britania Islands", "slug": "britania-islands" },
+            {
+              "text": ", which makes this a good fit for waterfall photo lovers, families, and birdwatchers. It is a remote place, though, nearly half a day by bus from either Davao or Butuan, so allow plenty of time in your schedule."
             }
           ]
         }
@@ -183,10 +253,16 @@
             {
               "type": "card",
               "number": 1,
-              "title": "Riding a bamboo raft to the base of the falls",
+              "title": "To the foot of the falls by bamboo raft",
               "children": [
                 {
-                  "text": "A local boatman poles a bamboo raft right up to the cascading water. Spray showers your whole body, so put electronics in a waterproof bag before boarding."
+                  "text": "A raftsman poles you right up to the front of the falls, where the spray comes pouring down. One ride takes about "
+                },
+                { "type": "duration", "text": "30 min" },
+                { "text": ", and the fare is " },
+                { "type": "price", "text": "₱150~300" },
+                {
+                  "text": " per raft (about 7 people); you must wear a life vest. You will get soaked, so put electronics in a waterproof bag."
                 }
               ]
             },
@@ -198,7 +274,7 @@
                 { "text": "On clear days around " },
                 { "type": "time", "text": "9–11 AM" },
                 {
-                  "text": ", a rainbow arcs in front of the falls. The viewing deck facing the falls and the rocks by the water's edge are the best spots to capture both the rainbow and the falls together."
+                  "text": ", when sunlight strikes the spray, a rainbow hangs in front of the wall of the falls. The rocks at the water's edge directly facing the falls and the raft itself are good spots to capture the rainbow and the falls together, but it is hard to see on cloudy mornings after heavy rain the day before."
                 }
               ]
             },
@@ -208,17 +284,21 @@
               "title": "Swimming in the falls' pool",
               "children": [
                 {
-                  "text": "The broad pool beneath the falls is shallow near the edges, good for swimming with a life vest on. The water is cold and clear, especially refreshing on a hot day."
+                  "text": "The widest pool below the falls has clear, cool water that is especially welcome on a hot day. Wear a life vest (about "
+                },
+                { "type": "price", "text": "₱30" },
+                {
+                  "text": "), swim only in the calmer edge areas where the current is weak, and do not go right under the falls."
                 }
               ]
             },
             {
               "type": "card",
               "number": 4,
-              "title": "Visiting the upper tiers",
+              "title": "Exploring the upper tiers",
               "children": [
                 {
-                  "text": "Following the stairway path upward brings you close to the second and third tiers. With fewer people than the bottom tier, you can enjoy the sound of the water quietly."
+                  "text": "Climb the concrete steps beside the falls to see the small cascades of the upper tier and a shallow natural pool. The rocks at the edge are slippery with moss, so it is best to go up with a local guide, and the guide's fee is usually handled as a tip."
                 }
               ]
             },
@@ -228,31 +308,39 @@
               "title": "A natural water massage",
               "children": [
                 {
-                  "text": "Sitting on a rock beneath a shallow-tier cascade lets the falling water pound your shoulders like a natural massage. Only do this where your guide or the caretaker permits."
+                  "text": "When the raft gets close to the falls, the pouring spray and water pound your shoulders and feel like a natural massage. Where the flow is strong, the raftsman only goes as close as a set distance, so follow his instructions."
                 }
               ]
             },
             {
               "type": "card",
               "number": 6,
-              "title": "Picnicking at a cottage",
+              "title": "Picnic at a cottage",
               "children": [
                 {
-                  "text": "In front of the falls there are rental huts and tables where you can eat lunch while looking at the falls. This is the way local families enjoy it most."
-                }
+                  "text": "There are huts and tables in front of the falls where you can eat lunch while looking at the falls. They are known to cost about "
+                },
+                { "type": "price", "text": "₱150~350" },
+                { "text": " per hut, and on weekends local families take the spots first." }
               ]
             },
             {
               "type": "card",
               "number": 7,
-              "title": "Forest trail walk and birdwatching",
+              "title": "Forest walks and birdwatching",
               "children": [
                 {
-                  "text": "Around the forest path from the entrance to the falls there are many kinds of birds and butterflies. In "
-                },
-                { "type": "date", "text": "2024" },
+                  "text": "The path from the entrance to the falls and the forest around them are full of heliconia, ferns, tropical birds, and butterflies. Birdsong is most active just after sunrise, so arrive early in the morning and walk slowly."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Long-exposure shots of flowing water",
+              "children": [
                 {
-                  "text": ", American birder Peter Kaestner became the first person in the world to record a 10,000th bird species, an Orange-tufted spiderhunter, in a heliconia thicket here. If you arrive early in the morning, you can hear the sounds of the forest more clearly."
+                  "text": "The shallow riverbed in front of the falls has exposed rocks, so it is a good place to set up a tripod and use a long exposure to make the water look like silk. When the water volume is lower, you can even try for the falls' reflection in the pool."
                 }
               ]
             }
@@ -270,69 +358,155 @@
           "type": "tabs",
           "items": [
             {
-              "title": "Half-day course (from Bislig)",
+              "title": "Half-day course (starting from Bislig)",
               "blocks": [
                 {
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "07:30",
+                      "time": "07:00",
                       "children": [
                         {
-                          "text": "Depart your accommodation in Bislig (Mangagoy), travel by habal-habal or chartered vehicle (about "
+                          "text": "Set out from your lodging in Mangagoy, Bislig, by habal-habal (motorcycle taxi) or tricycle. It takes about "
                         },
-                        { "type": "duration", "text": "40 minutes–1 hour" },
-                        { "text": ")" }
+                        { "type": "duration", "text": "30 min–1 hr" },
+                        { "text": " to reach the falls." }
                       ]
                     },
                     {
-                      "time": "08:30",
+                      "time": "07:45",
                       "children": [
                         {
-                          "text": "Arrive at the entrance, pay the entrance fee, walk the stairway path to the falls"
+                          "text": "After passing the welcome arch, you arrive at the parking area about 5 minutes later, pay the "
+                        },
+                        { "type": "price", "text": "₱50" },
+                        { "text": " entrance fee, and walk down to the falls." }
+                      ]
+                    },
+                    {
+                      "time": "08:00",
+                      "children": [
+                        {
+                          "text": "Take photos of the whole view and the reflection from the water's edge in front of the falls in the quiet morning hours."
                         }
                       ]
                     },
                     {
                       "time": "09:00",
                       "children": [
+                        { "text": "During the " },
+                        { "type": "time", "text": "9–11 AM" },
+                        { "text": " rainbow window, ride a raft up to the front of the falls." }
+                      ]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [
                         {
-                          "text": "Photograph the full view and the morning rainbow from the viewing deck"
+                          "text": "Put on a life vest and swim in the pool, or rest on the rocks by the water."
                         }
                       ]
                     },
                     {
-                      "time": "09:45",
-                      "children": [{ "text": "Ride a bamboo raft to the base of the falls" }]
+                      "time": "11:00",
+                      "children": [
+                        {
+                          "text": "Climb the side steps with a guide to look around the upper-tier falls."
+                        }
+                      ]
                     },
-                    { "time": "10:30", "children": [{ "text": "Swim in the falls' pool" }] },
-                    { "time": "11:30", "children": [{ "text": "Walk up to the upper tiers" }] },
-                    { "time": "12:30", "children": [{ "text": "Lunch at a cottage" }] },
                     {
-                      "time": "13:30",
-                      "children": [{ "text": "Return to Bislig or head to Enchanted River" }]
+                      "time": "12:00",
+                      "children": [
+                        {
+                          "text": "Have lunch at a cottage with a packed lunch you bought beforehand, or with food from the stalls at the entrance."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        { "text": "Head back to Mangagoy, or continue on to " },
+                        {
+                          "type": "place_link",
+                          "text": "Enchanted River",
+                          "slug": "enchanted-river"
+                        },
+                        { "text": "." }
+                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "title": "Full-day course (paired with Enchanted River)",
+              "title": "Full-day course (combined with Enchanted River)",
               "blocks": [
                 {
-                  "type": "list",
-                  "ordered": false,
+                  "type": "stepper",
                   "items": [
                     {
+                      "time": "06:30",
                       "children": [
                         {
-                          "text": "Morning at Tinuy-an Falls (rainbow hours) → lunch → afternoon swim at Enchanted River (about "
-                        },
-                        { "type": "duration", "text": "1 hour–1 hour 30 minutes" },
-                        {
-                          "text": " away) → overnight in Hinatuan or Bislig. The fish feeding at Enchanted River has shifted between noon and 3 PM, so if it is at noon that day, swap the order and visit Enchanted River first."
+                          "text": "Leave Mangagoy and head for the falls. The key is to arrive before the rainbow window."
                         }
                       ]
+                    },
+                    {
+                      "time": "07:15",
+                      "children": [
+                        {
+                          "text": "Enter, and finish the raft ride, swimming, and upper-tier sightseeing within the morning."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:00",
+                      "children": [
+                        { "text": "Leave the falls and head for Hinatuan. It is about " },
+                        { "type": "duration", "text": "1 hr 30 min" },
+                        { "text": " by car from the falls to Enchanted River." }
+                      ]
+                    },
+                    {
+                      "time": "12:30",
+                      "children": [
+                        { "text": "Have lunch at a restaurant near the Enchanted River entrance." }
+                      ]
+                    },
+                    {
+                      "time": "14:00",
+                      "children": [
+                        {
+                          "text": "Admire the sapphire-colored water at Enchanted River and check the fish feeding time."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "16:00",
+                      "children": [{ "text": "Return to Bislig, or spend the night in Hinatuan." }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The fish feeding time at Enchanted River has shifted between noon and 3 PM, so check that day's time on the spot and plan your order accordingly."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Rainy-day alternative",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "If heavy rain the day before has suspended rafting and swimming, switch to enjoying the falls from the viewpoint and enter early to wait for the water to clear. If the rain clears in the afternoon, return to Mangagoy, walk the coastal bay walk, and finish the day with seafood for dinner."
                     }
                   ]
                 }
@@ -359,37 +533,77 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Bislig Airport currently has no scheduled commercial flights, so use Davao Airport (DVO) or Butuan Airport (BXU). It's about "
+                      "text": "Bislig Airport has a concrete runway, but it is mostly used by charter and small aircraft, and the direct Cebu–Bislig flight has been suspended and resumed repeatedly. On "
                     },
-                    { "type": "duration", "text": "2 hours" },
-                    { "text": " from Manila to Davao and about " },
-                    { "type": "duration", "text": "1 hour 40 minutes" },
-                    { "text": " to Butuan, with Davao having far more flights." }
+                    { "type": "date", "text": "September 20, 2024" },
+                    {
+                      "text": ", Leading Edge Air Services reopened the direct Cebu route twice a week, on Fridays and Sundays, with an ATR 72-500 (departing Cebu at 6 AM, about "
+                    },
+                    { "type": "duration", "text": "1 hr 17 min" },
+                    { "text": ", regular one-way fare about " },
+                    { "type": "price", "text": "₱4,800" },
+                    {
+                      "text": "). I could not confirm the operating status after that, so check with the airline or a Bislig City announcement before booking."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The realistic way is to fly to Davao or Butuan and continue overland. From Manila, Davao takes about "
+                    },
+                    { "type": "duration", "text": "2 hr" },
+                    { "text": " and Butuan about " },
+                    { "type": "duration", "text": "1 hr 30 min" },
+                    { "text": ", and from Cebu, Butuan takes about " },
+                    { "type": "duration", "text": "55 min" },
+                    {
+                      "text": ". Davao has far more flights, while Butuan is closer to Bislig by road."
+                    }
                   ]
                 }
               ]
             },
             {
-              "title": "By bus/van",
+              "title": "By bus or van",
               "icon": "directions_bus",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "From Davao's Ecoland bus terminal, a Bislig (Mangagoy)-bound bus passes through Davao del Norte and Davao de Oro to reach downtown Bislig in about "
+                      "text": "From Davao, Bachelor Express air-conditioned buses run daily to Bislig from the Ecoland Bus Terminal. An information site (updated "
                     },
-                    { "type": "duration", "text": "5–6 hours" },
-                    { "text": ", for a fare of about " },
-                    { "type": "price", "text": "₱400–550" },
+                    { "type": "date", "text": "June 2026" },
+                    { "text": ") lists departures at 5 AM and 8 AM, about " },
+                    { "type": "duration", "text": "9 hr" },
+                    { "text": ", and a fare of about " },
+                    { "type": "price", "text": "₱813" },
+                    { "text": ", while a " },
+                    { "type": "date", "text": "2022" },
+                    { "text": " review reported about " },
+                    { "type": "duration", "text": "4–5 hr" },
+                    { "text": " for " },
+                    { "type": "price", "text": "₱402" },
                     {
-                      "text": ". From Butuan, buses and vans also run to Bislig/Mangagoy, taking about "
+                      "text": ". It varies greatly with the number of stops and the route, so plan on 4 to 9 hours; the option of transferring at Monkayo takes about "
                     },
-                    { "type": "duration", "text": "5 hours" },
-                    { "text": " for about " },
-                    { "type": "price", "text": "₱350–500" },
+                    { "type": "duration", "text": "5 hr" },
+                    { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "From Butuan, it takes about " },
+                    { "type": "duration", "text": "4–5 hr" },
+                    { "text": " from the terminal via Trento to Mangagoy, and according to a " },
+                    { "type": "date", "text": "2022" },
+                    { "text": " review, bus and airport van fares were about " },
+                    { "type": "price", "text": "₱233~250" },
                     {
-                      "text": ". Take an air-conditioned bus departing in the morning so you arrive before dark."
+                      "text": ". From Tandag it is also 4 to 5 hours away. Either way, leave in the morning so that you arrive before dark, and get off in Mangagoy town or at the Bislig City bus terminal."
                     }
                   ]
                 }
@@ -402,16 +616,66 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "From downtown Bislig (Mangagoy) to the falls is about " },
-                    { "type": "distance", "text": "20km" },
-                    { "text": ". Chartering a habal-habal costs about " },
-                    { "type": "price", "text": "₱400–700" },
+                    { "text": "From Mangagoy town to the falls is about " },
+                    { "type": "distance", "text": "17km" },
+                    { "text": " and takes " },
+                    { "type": "duration", "text": "30 min–1 hr" },
                     {
-                      "text": " round trip (including waiting), while a vehicle with driver runs about "
+                      "text": ", with some sections unpaved. A round-trip habal-habal costs about "
                     },
-                    { "type": "price", "text": "₱1,500–2,500" },
+                    { "type": "price", "text": "₱400~600" },
+                    { "text": " including waiting time (per a " },
+                    { "type": "date", "text": "2022" },
+                    { "text": " review), and a full-day charter started from about " },
+                    { "type": "price", "text": "₱800" },
+                    { "text": " for a motorcycle and about " },
+                    { "type": "price", "text": "₱1,500" },
                     {
-                      "text": " for half a day. By public transport, you can take a jeepney or multicab bound for Burboanan and get off at the village turnoff, then switch to a habal-habal, but service is infrequent, so if you're short on time, chartering is easier. To cover both this and Enchanted River in a day, renting a habal-habal or vehicle for the whole day is more efficient."
+                      "text": " for a tricycle in the same review, though prices may have gone up since. Reviews mention that drivers in town quote a high price at first, so confirm the price, waiting time, and return time before setting off."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Some reviews say you can also reach it in about " },
+                    { "type": "duration", "text": "1 hr" },
+                    {
+                      "text": " by jeepney or multicab from the Bislig jeepney terminal, but trips are infrequent. To combine it with Enchanted River on the same day, a full-day charter is the most efficient."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "By private car or rental car",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The road is mostly concrete-paved up to the falls entrance, and searching Google Maps for \"Tinuy-an Falls\" will guide you. The parking area is about 5 minutes further in from the welcome arch, and parking costs about "
+                    },
+                    { "type": "price", "text": "₱20~50" },
+                    {
+                      "text": ". In the rainy season the mountain road can get muddy and have rockfalls, so drive only in daylight."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "From other starting points",
+              "icon": "route",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "From Hinatuan and Enchanted River it is about " },
+                    { "type": "duration", "text": "1 hr 30 min" },
+                    {
+                      "text": " by car, and from Siargao it takes nearly a full day via Surigao City and Butuan, so a day trip is difficult."
                     }
                   ]
                 }
@@ -430,51 +694,82 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "Surigao del Sur is one of the rainiest provinces in the Philippines; from " },
+            {
+              "text": "The Surigao del Sur east coast, where Bislig is located, is the rainiest part of the Philippines. The Hinatuan station nearby reported an average annual rainfall of about 4,554 mm, the highest in the Philippines, and the Bislig climate table also shows about 4,198 mm a year. With a Type II climate with no distinct dry season, rain is most concentrated from "
+            },
             { "type": "date", "text": "November" },
             { "text": " to " },
-            { "type": "date", "text": "February" },
+            { "type": "date", "text": "January" },
+            { "text": "; according to the climate table, " },
+            { "type": "date", "text": "January" },
+            { "text": " rainfall is about 710 mm and " },
+            { "type": "date", "text": "December" },
+            { "text": " about 604 mm, while " },
+            { "type": "date", "text": "August" },
+            { "text": " is about 171 mm and " },
+            { "type": "date", "text": "July" },
+            { "text": " about 183 mm." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "So the relatively drier " },
+            { "type": "date", "text": "May" },
+            { "text": "–" },
+            { "type": "date", "text": "October" },
+            { "text": " is the safest choice, and especially " },
+            { "type": "date", "text": "June" },
+            { "text": "–" },
+            { "type": "date", "text": "September" },
             {
-              "text": ", the northeast monsoon brings rain nearly every day. During this period, the falls carry much more water and look grand, but the water turns muddy, and rafting and swimming are sometimes suspended for safety."
+              "text": " has many clearing skies, with clear water and a higher chance of seeing the morning rainbow. The falls never dry up and have the most water in the rainy season, so some who want to see a \"mighty waterfall\" choose "
+            },
+            { "type": "date", "text": "July" },
+            { "text": "–" },
+            { "type": "date", "text": "December" },
+            {
+              "text": ", but the water turns muddy and rafting and swimming are often suspended for safety. Even on clear days, clouds tend to build around midday, so it is better to arrive early in the morning."
             }
           ]
         },
         {
           "type": "paragraph",
           "children": [
-            { "text": "The relatively dry period from " },
-            { "type": "date", "text": "March" },
-            { "text": " to " },
-            { "type": "date", "text": "September" },
+            { "type": "date", "text": "September 16" },
+            { "text": "–" },
+            { "type": "date", "text": "18" },
+            { "text": " is the Bislig City founding anniversary period, and on " },
+            { "type": "date", "text": "September 17" },
             {
-              "text": " is the best time to visit. Clear water and clearing skies are more common, raising your chances of seeing the morning rainbow. However, if the dry season runs long, water volume can drop and the curtain may thin out somewhat. Weekends, holidays, and the April–"
+              "text": " the Tinuy-an Sayaw Festival, named after the falls, is held, so lodging and transport get crowded. Local visitors also flock here on weekends, holidays, and during the "
             },
+            { "type": "date", "text": "April" },
+            { "text": "–" },
             { "type": "date", "text": "May" },
-            {
-              "text": " summer break bring crowds of local tourists, so arriving early on a weekday morning is best."
-            }
+            { "text": " school break, so a weekday morning is recommended." }
           ]
         },
         {
           "type": "table",
           "label": "Season at a glance",
           "icon": "calendar_month",
-          "columns": ["Period", "Weather", "Travel tips"],
+          "columns": ["Period", "Weather", "Travel highlights"],
           "rows": [
             [
-              "March–September",
-              "Relatively dry, many clear days",
-              "Look for the morning rainbow — on April–May school breaks, go early on weekdays"
+              "May–October",
+              "Relatively less rain (climate table about 170–270 mm a month), many clear days",
+              "Expect rafting, swimming, and the morning rainbow. The safest time, though the mid-September festival period is crowded"
             ],
             [
-              "October",
-              "Between the dry and rainy seasons",
-              "Arriving early on a weekday morning is best"
+              "November–January",
+              "Heaviest rain from the northeast monsoon (about 320–710 mm a month)",
+              "Maximum water volume, but the water is muddy, rafting and swimming are often suspended, watch for flooded roads"
             ],
             [
-              "November–February",
-              "Northeast monsoon, rain almost every day",
-              "Peak water volume but the water turns earthy, rafting and swimming suspended"
+              "February–April",
+              "A transition period as rain eases (about 340–530 mm a month)",
+              "The weather changes day to day, so pick a clear day to visit; during the April school break, go on a weekday at dawn"
             ]
           ]
         }
@@ -494,48 +789,52 @@
             {
               "label": "Manila–Davao flight",
               "price": "About ₱2,500–6,000 one way",
-              "note": "A Butuan connection is also possible"
+              "note": "Varies greatly by season; a route via Butuan is also possible"
             },
             {
               "label": "Davao–Bislig bus",
-              "price": "About ₱400–550 one way",
-              "note": "About 5–6 hours"
+              "price": "About ₱400–810 one way",
+              "note": "About 4–9 hours, depending on direct or connecting service"
             },
             {
               "label": "Entrance fee",
               "price": "About ₱50 per person",
-              "note": "Free under age 7, subject to change"
+              "note": "Free under age 7, cash only"
             },
-            { "label": "Parking fee", "price": "About ₱10–20", "note": "Motorbike/car" },
-            { "label": "Life vest rental", "price": "About ₱30", "note": "Required for swimming" },
             {
               "label": "Bamboo raft",
-              "price": "About ₱100–300",
-              "note": "Varies with group size and time"
+              "price": "About ₱150–300 per raft",
+              "note": "About 7 people, about 30 minutes"
             },
             {
-              "label": "Habal-habal charter",
-              "price": "About ₱400–700 round trip",
-              "note": "From downtown Bislig, including waiting"
+              "label": "Life vest rental",
+              "price": "About ₱30",
+              "note": "Required for rafting and swimming"
+            },
+            { "label": "Parking fee", "price": "About ₱20–50", "note": "For a passenger car" },
+            {
+              "label": "Habal-habal round trip",
+              "price": "About ₱400–600",
+              "note": "From Mangagoy, including waiting (2022 review)"
             },
             {
-              "label": "Cottage rental",
-              "price": "About ₱200–500 per unit",
-              "note": "Varies with size"
+              "label": "Cottage/table",
+              "price": "About ₱150–350 per hut",
+              "note": "Varies by size"
             },
             {
               "label": "Accommodation",
-              "price": "About ₱1,000–3,000 per night",
-              "note": "Downtown Bislig hotels"
+              "price": "About ₱600–2,500 per night",
+              "note": "In Mangagoy town, depending on room class"
             }
           ]
         },
         {
           "type": "caption",
           "children": [
-            { "text": "Prices are approximate as of " },
+            { "text": "Prices are rough estimates as of " },
             { "type": "date", "text": "2026" },
-            { "text": " and may vary depending on local conditions." }
+            { "text": " and may vary with local conditions." }
           ]
         }
       ]
@@ -550,11 +849,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Staying in downtown Bislig, especially the commercial area of Mangagoy, is the most convenient option. There are business hotels and pensions at about "
+              "text": "The most convenient place to stay is Mangagoy, Bislig's commercial center. The bus terminal, market, restaurants, banks, and ATMs are close, and there are pension houses and mid-range hotels at "
             },
-            { "type": "price", "text": "₱1,000–3,000" },
+            { "type": "price", "text": "₱600~2,500" },
             {
-              "text": " per night, close to restaurants, ATMs, and the bus terminal for easy transport. Small lodgings sometimes operate near the falls too, but facilities are basic and availability changes, so check in advance. If also visiting Enchanted River, Hinatuan's coastal resorts are an alternative."
+              "text": " per night. There is also small-scale lodging of a few huts right beside the falls, but with few rooms and irregular operation, you need to check ahead. If you are also visiting Enchanted River, staying at a coastal resort on the Hinatuan side is another option."
             }
           ]
         },
@@ -562,7 +861,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "The falls' entrance has stalls selling simple food and drinks, but it's better to buy grilled chicken (litson manok), fish, rice, and fruit at the market like a local and eat it at a cottage. As a coastal city, Bislig lets you enjoy cheap seafood like crab, shrimp, and shellfish from the Mangagoy market and beach eateries, with coconut-milk ginataan stew and vinegar-cured kinilaw common dishes."
+              "text": "There are stalls at the falls entrance selling meals, drinks, and souvenirs, but many people buy grilled chicken or fish, rice, and fruit at the Mangagoy market and eat them at a cottage. Bislig is a coastal city, so seafood such as crab, shrimp, and shellfish is cheap, and kinilaw (raw fish dressed in vinegar) and grilled pork are common."
             }
           ]
         }
@@ -581,50 +880,78 @@
           "items": [
             {
               "children": [
-                { "text": "To see the morning rainbow, arrive before " },
+                { "text": "To see the morning rainbow, pass through the entrance before " },
                 { "type": "time", "text": "9 AM" },
-                { "text": " and pick a clear day. On overcast days, the rainbow rarely appears." }
+                { "text": " and pick a clear day with no rain the day before." }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Downtown Bislig has ATMs, but the falls area is cash only, so bring small bills for the entrance fee, raft, and cottage costs."
+                  "text": "The entrance fee, raft, life vest, cottage, and guide tip are all cash and cards cannot be used, so bring plenty of small bills such as "
+                },
+                { "type": "price", "text": "₱20" },
+                { "text": ", " },
+                { "type": "price", "text": "₱50" },
+                { "text": ", and " },
+                { "type": "price", "text": "₱100" },
+                { "text": ". Withdraw cash at an ATM in Mangagoy beforehand." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Rafting soaks you completely, so wear a rash guard over your swimsuit and put your phone and camera in a waterproof bag."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Riding the raft soaks you completely, so wear a rash guard over your swimsuit and hang your phone from your neck in a waterproof pouch."
+                  "text": "The rocks in front of the falls and on the upper tier are very slippery with moss, so wear water shoes or strap sandals."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "The rocks in front of the falls are very slippery with moss, so wear aqua shoes or strap sandals."
+                  "text": "A wide-angle lens captures the full width, and with a tripod and an ND filter, long-exposure shots are easy. A "
+                },
+                { "type": "date", "text": "2022" },
+                {
+                  "text": " review said there were no restrictions on drones, but this is a protected area, so follow the on-site instructions."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "A wide-angle lens lets you capture the whole broad waterfall in one frame, and a tripod enables long-exposure shots that render the water smoothly."
+                  "text": "Go up to the upper tier with a guide, and tip the guide as much as you feel is deserved."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Weekend afternoons get crowded with families, so weekday mornings are recommended."
+                  "text": "Agree on a return time with your habal-habal driver in advance and get his phone number. A review says there is signal from all carriers, but it can get weak in front of the falls."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "When combining it with " },
+                { "text": "Enchanted River", "type": "place_link", "slug": "enchanted-river" },
+                { "text": " on the same day, the two are about " },
+                { "text": "1 hr 30 min", "type": "duration" },
+                {
+                  "text": " apart by car, so schedule the falls in the morning and Enchanted River in the afternoon."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Cell signal is weak, so arrange a return time with your habal-habal driver in advance."
+                  "text": "Weekend afternoons are crowded with families, so a weekday morning is recommended."
                 }
               ]
             }
@@ -644,7 +971,7 @@
           "icon": "warning",
           "children": [
             {
-              "text": "After heavy rain, the falls' water volume surges sharply and the current becomes very strong. Always follow the caretaker if they suspend swimming or rafting, and never enter the flow directly beneath the falls."
+              "text": "After heavy rain, the water volume at the falls rises sharply and the current becomes very strong. If the caretaker suspends swimming or rafting, always comply, and do not enter the stream falling directly below the falls. The edge of the upper tier is slippery with fast water, so do not swim there."
             }
           ]
         },
@@ -656,35 +983,52 @@
             {
               "children": [
                 {
-                  "text": "Wearing a life vest is mandatory when swimming, and you must not cross the marked boundary into deep or fast-moving areas."
+                  "text": "A life vest is required for swimming and rafting, and in deep areas and strong-current zones follow the signs and the caretaker's instructions."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "The falls and forest are a protected area, so take your trash with you and don't use soap or shampoo or collect plants and animals."
+                  "text": "The falls and forest are a protected area, so take your trash back with you and do not use soap or shampoo or collect plants or animals."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "The entrance fee, operating hours, and activity fees can change under Bislig city regulations, so check the latest notices before visiting."
+                  "text": "Operations have stopped suddenly before. It was closed for road works from "
+                },
+                { "type": "date", "text": "June 4, 2018" },
+                { "text": " to " },
+                { "type": "date", "text": "August 1" },
+                { "text": ", and in " },
+                { "type": "date", "text": "December 2022" },
+                {
+                  "text": " it was temporarily closed because of access negotiations between the local government and the Manobo tribal council, then reopened on "
+                },
+                { "type": "date", "text": "December 21" },
+                { "text": ". Check the Bislig City tourism office announcements before you leave." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Entrance fees, operating hours, and activity fees can change. The schedule differs by review, and I could only confirm that entry is possible from early morning, so check the latest announcement."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "During the rainy season, landslides and flooding can occur on roads, so allow extra time for long-distance bus schedules."
+                  "text": "In the rainy season, landslides and flooding can occur on the mountain road, so leave extra time in your long-distance bus schedule and avoid traveling at night."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Some parts of Mindanao carry travel advisories, so check your foreign ministry's travel safety information before departing and avoid night-time long-distance travel."
+                  "text": "There are travel advisories for parts of Mindanao, so check the Korean Ministry of Foreign Affairs' overseas travel safety information before departure."
                 }
               ]
             }
@@ -708,9 +1052,9 @@
               "place": "enchanted-river",
               "children": [
                 { "text": "About " },
-                { "type": "duration", "text": "1 hour–1 hour 30 minutes" },
+                { "type": "duration", "text": "1 hr 30 min" },
                 {
-                  "text": " by car (to Hinatuan). Famous for its sapphire-blue river of unknown depth."
+                  "text": " by car (Hinatuan). A river leading to a sapphire-colored spring whose bottom cannot be seen."
                 }
               ]
             },
@@ -720,9 +1064,9 @@
               "place": "britania-islands",
               "children": [
                 { "text": "About " },
-                { "type": "duration", "text": "2 hours" },
+                { "type": "duration", "text": "3–4 hr" },
                 {
-                  "text": " by car (to San Agustin), then an island tour by bangka. A clear sea scattered with 24 small islands."
+                  "text": " by car (San Agustin), then an island-hopping bangka tour. Clear seas dotted with small islands, usually set aside as a separate day."
                 }
               ]
             },
@@ -732,7 +1076,7 @@
               "place": "siargao",
               "children": [
                 {
-                  "text": "About half a day or more by car and boat via Butuan and Surigao City. An island of surfing and hopping tours."
+                  "text": "It takes nearly a full day, going via Butuan and Surigao City and then taking a boat. An island of surfing and island hopping."
                 }
               ]
             },
@@ -742,9 +1086,18 @@
               "place": "davao-city",
               "children": [
                 { "text": "About " },
-                { "type": "duration", "text": "5–6 hours" },
+                { "type": "duration", "text": "4–9 hr" },
                 {
-                  "text": " by bus. Mindanao's largest city, famous for Mount Apo, the Philippine Eagle Center, and durian."
+                  "text": " by bus. The largest city in Mindanao, famous for Mount Apo, the Philippine Eagle Center, and durian."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Bislig Bay Walk",
+              "children": [
+                {
+                  "text": "A coastal promenade close to Mangagoy, good for an evening stroll at sunset after you finish the falls itinerary."
                 }
               ]
             }
