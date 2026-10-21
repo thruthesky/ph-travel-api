@@ -1,0 +1,215 @@
+{
+  "id": 88,
+  "slug": "sohoton-cove",
+  "checked_at": "2026-10-09T02:00:00Z",
+  "facts": [
+    {
+      "where": "latitude/longitude",
+      "fact": "소호톤 코브 좌표",
+      "value": "9.5971, 125.9279",
+      "sources": [
+        { "url": "https://nominatim.openstreetmap.org/search?q=Sohoton+Cove+Socorro&format=json", "grade": "B", "date": "2026-10-09", "says": "OSM 'Sohoton Cove' attraction 9.5970747, 125.9278632 (Sudlon, Socorro, Surigao del Norte)" },
+        { "url": "https://nominatim.openstreetmap.org/search?q=Club+Tara+Resort+Socorro&format=json", "grade": "B", "date": "2026-10-09", "says": "OSM Club Tara Resort 9.5883450, 125.9129367 — 같은 'Sohoton Cove Road' 위, 항목 좌표에서 약 2km" }
+      ],
+      "decision": "기존 좌표 그대로 둠 — OSM 지점이 같고 인접한 리조트도 같은 도로·같은 바랑가이(Sudlon)"
+    },
+    {
+      "where": "overview",
+      "fact": "부카스 그란데·소코로의 규모와 소호톤 이름 뜻",
+      "value": "부카스 그란데 면적 128㎢, 소코로 14개 바랑가이·2024년 인구 28,436명·1961년 2월 22일 시 승격(행정명령 219호), 소호톤은 비사야어로 '좁은 틈'",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Bucas_Grande", "grade": "B", "date": "2026-10-09", "says": "area 128 km², contiguous with Socorro, Sohoton = narrow opening in Visayan, 이름이 비슷한 사마르 소호톤 자연교 국립공원과 혼동" },
+        { "url": "https://en.wikipedia.org/wiki/Socorro,_Surigao_del_Norte", "grade": "B", "date": "2026-10-09", "says": "14 barangays, 2024 census 28,436, EO 219 on Feb 22, 1961, annual precipitation 1,988 mm, tarsiers·hornbills in limestone forests" },
+        { "url": "https://www.jonnymelon.com/sohoton-national-park/", "grade": "C", "date": "2026-02-01", "says": "Sohoton means 'Narrow Opening' in Visayan languages" }
+      ],
+      "decision": "기존 서술의 '동남아시아 유명 석회암 해안과 비슷' 같은 막연한 문장을 빼고 위 수치로 바꿈. 이름 뜻은 위키백과+블로그 2곳"
+    },
+    {
+      "where": "highlights/tips/cautions",
+      "fact": "하구칸·마쿠쿠옵 동굴의 통과 방식과 점프 높이 (정정)",
+      "value": "하구칸: 작은 틈을 헤엄쳐 들어가는 동굴(썰물에만), 약 3m 잠수 또는 누워서 통과. 마쿠쿠옵: 헤엄·허리 깊이 걷기·바위 오르기 후 절벽 위 출구에서 약 5m(15ft) 점프로 석호로 나옴",
+      "sources": [
+        { "url": "https://www.jonnymelon.com/sohoton-national-park/", "grade": "C", "date": "2026-02-01", "says": "Hagukan: 배에서 뛰어내려 약 3m 잠수 후 바위 턱 아래로 헤엄, 물을 튀기면 푸른빛; Magkukuob: 작은 입구로 헤엄, 걸어서 통과, 절벽 위 열린 곳으로 나와 5m 점프" },
+        { "url": "https://awanderfulsole.com/sohoton-cove-guide-itinerary-budget-bucas-grande/", "grade": "C", "date": "2024-10-07", "says": "Hagukan: 누워서 작은 입구 통과해 돔형 천장·종유석; Magkokoob: 무릎 깊이 걷고 매우 어두움, 상부 유일한 출구는 15피트 점프" },
+        { "url": "https://www.weseektravel.com/sohoton-cove-siargao/", "grade": "C", "date": "2024-05-14", "says": "Hagukan 5m 바위에서 절벽 점프, Magkukuob 절벽 점프; 소호톤 가메이 리조트 5m 다이빙대와 슬라이드" },
+        { "url": "https://www.maridenresort.com/guides/sohoton-cove", "grade": "B", "date": "2026-04-26", "says": "Hagukan 은 썰물에만 접근(만조에는 입구 잠김), Magkukuob 은 헤엄·허리 깊이 걷기·5m 점프" },
+        { "url": "https://www.journeyera.com/sohoton-cove-national-park-lagoon-cave/", "grade": "C", "date": "2025-02-01", "says": "Hagukan 은 30m 넘는 안쪽 구역, 썰물에만 접근(같은 글 도입부는 만조가 좋다고 하여 모순); Magkuku-ob 5m 절벽 점프" }
+      ],
+      "decision": "기존은 '마쿠쿠옵 = 바위 아래 잠수해 빠져나오는 동굴, 하구칸 = 햇빛 반사 물빛'이라 서로 뒤섞여 있었음. 4곳 이상이 일치하는 대로 하구칸=헤엄 입장(썰물), 마쿠쿠옵=절벽 출구 점프(약 5m)로 정정. 기존 '3~10m 점프대'는 근거가 없어 '약 5m'로 고침. 하구칸의 푸른빛은 원인(생물 발광·햇빛 반사)이 출처마다 달라 원인은 쓰지 않음"
+    },
+    {
+      "where": "highlights/best_time/cautions",
+      "fact": "토조만 해파리 호수의 해파리 시기와 수영 규정 (정정)",
+      "value": "점박이 해파리(Mastigias papua), 수명 약 4개월, 3~6월 최다(2~6월·4~6월·3~9월 안내도 있음), 수영 허용 여부는 안내마다 다름",
+      "sources": [
+        { "url": "https://www.lakwatsero.com/?p=4108", "grade": "C", "date": "2011-06", "says": "perhaps millions of non-stinging jellyfish, Mastigias papua, 수명 약 4개월이라 3월~6월 초에 주로 보임, 작은 입구가 만조에 잠겨 보트가 갇힐 수 있음" },
+        { "url": "https://awanderfulsole.com/sohoton-cove-guide-itinerary-budget-bucas-grande/", "grade": "C", "date": "2024-10-07", "says": "해파리 시즌 2월~6월, 작은 노 젓는 배로 등록처에서 약 10분, 호수 시간제한 약 20분" },
+        { "url": "https://www.maridenresort.com/guides/sohoton-cove", "grade": "B", "date": "2026-04-26", "says": "Tojoman 해파리 보호구역에서 조용한 수영은 허용, 뛰어들기·물장구는 금지, 피크는 3~6월" },
+        { "url": "https://www.jojowanderlust.com/post/visit-sohotoncove", "grade": "C", "date": "2025-03-07", "says": "해파리 시즌 3~9월, 만지지 말 것" },
+        { "url": "https://thepinaysolobackpacker.com/bucas-grande-sohoton-travel-guide/", "grade": "C", "date": "2018-12-16", "says": "관광 담당관: 수영 금지, 해파리는 연중 있다고 하나 3~6월만이라는 후기도 있음" },
+        { "url": "https://theabroadguide.com/sohoton-cove-swim-with-jellyfish-explore-hidden-lagoons/", "grade": "C", "date": "2026", "says": "해파리 만지지 말 것, 건강하고 수영할 수 있는 사람만 참가" }
+      ],
+      "decision": "기존 '3~7월에 많음·함께 헤엄칠 수 있음'을 '3~6월 최다, 수영 허용은 시기·안내인에 따라 다름(선크림 오염 이유로 막은 후기), 최근 안내는 조용한 수영만'으로 고침. 공식(A) 규정 문서를 못 찾아 단정하지 않고 '최신 공지 확인'을 붙임. best_season.months(3~7월)는 칼만 바다·건기 기준이라 그대로 둠"
+    },
+    {
+      "where": "costs/getting_there/tips",
+      "fact": "소호톤 현장 요금 (통합 요금과 항목별 요금)",
+      "value": "통합 약 ₱800/인(입장·환경·안전장비·가이드). 항목별(2024): 허가+입장+환경 내국인 ₱50+25+25, 외국인 ₱100+100+50, 안전장비 ₱40, 펌프보트+가이드 ₱830/척, 토조만 노 젓는 배 ₱100/인. 크리스털 동굴 ₱50~100",
+      "sources": [
+        { "url": "https://www.maridenresort.com/guides/sohoton-cove", "grade": "B", "date": "2026-04-26", "says": "소호톤 관광 센터에서 레인저가 통합 요금 약 ₱800 징수, 입장·환경세·헬멧·구명조끼·가이드 포함, 가이드 필수" },
+        { "url": "https://www.jojowanderlust.com/post/visit-sohotoncove", "grade": "C", "date": "2025-03-07", "says": "입장 약 ₱800/인(입장·환경·안전장비·허가·보트 요금)" },
+        { "url": "https://awanderfulsole.com/sohoton-cove-guide-itinerary-budget-bucas-grande/", "grade": "C", "date": "2024-10-07", "says": "필리핀인 permit 50·entrance 25·environmental 25, 외국인 100·100·50, 안전장비 40, 펌프보트+가이드 830/척, Tojoman 노 젓는 배 100/인" },
+        { "url": "https://twomonkeystravelgroup.com/?p=78323", "grade": "C", "date": "2026-09-19", "says": "입장 25(외국인 100), permit 50(100), 환경 25(50) — 같은 항목별 구조의 다른 판" },
+        { "url": "https://thepinaysolobackpacker.com/bucas-grande-sohoton-travel-guide/", "grade": "C", "date": "2018-12-16", "says": "입장 50/150, 환경 50, 도킹 100/척, 구명조끼·헬멧 80, 펌프보트 500/척, 가이드 330 — 옛 요금" },
+        { "url": "https://www.jonnymelon.com/sohoton-national-park/", "grade": "C", "date": "2026-02-01", "says": "크리스털 동굴 입장 100페소" },
+        { "url": "https://www.weseektravel.com/sohoton-cove-siargao/", "grade": "C", "date": "2024-05-14", "says": "크리스털 동굴 가이드 50페소" }
+      ],
+      "decision": "소코로 지방정부의 공식 요금표·조례(A)를 찾지 못함. 최근 12개월 안 B(Mariden 2026-04)와 2025-03 블로그가 통합 ₱800 으로 일치해 대표값으로 쓰고, 항목별 요금은 2024년 안내로 표시. 기존 비용표의 '석호 내부 노 젓는 배 ₱300~600'·'스노클 대여 ₱150~300'은 근거가 없어 2024년 안내(₱100/인, ₱830/척)로 바꾸거나 뺌. '최신 공지 확인' 문구 유지"
+    },
+    {
+      "where": "costs/getting_there/itinerary",
+      "fact": "투어 요금과 시아르가오(제너럴루나)에서의 보트 소요 시간 (정정)",
+      "value": "합승 투어 1인 ₱2,000~3,100, 전세 보트 소호톤만 ₱3,000(최대 6~10명)·쓰리 아일랜드 포함 ₱4,000, 편도 약 1시간 30분~2시간 30분(길게는 3시간)",
+      "sources": [
+        { "url": "https://www.maridenresort.com/guides/sohoton-cove", "grade": "B", "date": "2026-04-26", "says": "합승 ₱2,300~3,100, 전세 ₱7,500~11,000(10명), 제너럴루나에서 편도 2~2.5시간(델카르멘에서는 1.5~2시간)" },
+        { "url": "https://www.philippinestourism.org/siargao-travel-guide/", "grade": "B", "date": "2026-06-20", "says": "제너럴루나에서 보트 1.5~2시간, 합승 ₱2,300~3,100" },
+        { "url": "https://www.jojowanderlust.com/post/visit-sohotoncove", "grade": "C", "date": "2025-03-07", "says": "2~3시간, 전세 약 ₱4,000(6명), 보트만 ₱3,000, 단체 투어 약 ₱2,000(20명 이상)" },
+        { "url": "https://awanderfulsole.com/sohoton-cove-guide-itinerary-budget-bucas-grande/", "grade": "C", "date": "2024-10-07", "says": "제너럴루나 보트 ₱3,000(소호톤만)·₱4,000(트라이 아일랜드 포함), 2~3시간" },
+        { "url": "https://www.weseektravel.com/sohoton-cove-siargao/", "grade": "C", "date": "2024-05-14", "says": "제너럴루나·다파에서 보트로 '1시간 남짓'(다파 기준으로 보임), 다파→소코로 여객선 ₱200 + 보트 ₱1,200~1,500" }
+      ],
+      "decision": "기존 '왕복 방카 4~5시간, 편도 2~2시간 30분'이 출처마다 1.5~3시간으로 갈려 '약 1시간 30분~2시간 30분(길게는 3시간)'으로 넓힘. 기존 전세 ₱7,500~11,000(Mariden 한 곳)은 대신 블로그 2곳과 일치하는 ₱3,000~4,000(소호톤만~쓰리 아일랜드 포함)으로 정정. 합승은 ₱2,300~3,100(Mariden·philippinestourism)에 단체 ₱2,000(2025) 을 합쳐 ₱2,000~3,100"
+    },
+    {
+      "where": "getting_there",
+      "fact": "다파(시아르가오)–소코로 여객선",
+      "value": "약 1시간, 편도 ₱100~200, 하루 여러 편(오전 7~10시·오후 2~4시 무렵)",
+      "sources": [
+        { "url": "https://www.surigaoislands.com/news-and-updates/item/399-dapa-to-socorro-boat-schedule", "grade": "B", "date": "2019-11-18", "says": "Dapa–Socorro(–Hayanggabon) 07:00·08:30·10:30·14:30·16:00 매일, ₱120 (옛 안내)" },
+        { "url": "https://awanderfulsole.com/sohoton-cove-guide-itinerary-budget-bucas-grande/", "grade": "C", "date": "2024-10-07", "says": "다파–소코로 여객선 ₱100, 오전 7~8시·오후 2~4시" },
+        { "url": "https://www.weseektravel.com/sohoton-cove-siargao/", "grade": "C", "date": "2024-05-14", "says": "다파→소코로 여객선 200페소" },
+        { "url": "https://thepinaysolobackpacker.com/bucas-grande-sohoton-travel-guide/", "grade": "C", "date": "2018-12-16", "says": "다파–소코로 약 1시간 ₱100 매일" }
+      ],
+      "decision": "공식(A) 시간표를 못 찾았고 요금·시각이 출처마다 달라 범위로 쓰고 '다파 항에서 확인'을 붙임. 1시간 소요는 2곳(2018·2024)이 일치"
+    },
+    {
+      "where": "getting_there/itinerary",
+      "fact": "수리가오시·클라베르(하양가본) 경유 경로",
+      "value": "수리가오시→하양가본 버스·밴 약 1시간 ₱120, 하양가본→소코로 여객선 약 1시간 ₱100(오전 10시·오후 4시 출발 안내), 수리가오 항→소코로 약 3시간, 하양가본→소호톤 전세 보트 ₱3,500(10명), 부투안→수리가오 버스 약 4시간",
+      "sources": [
+        { "url": "https://thepinaysolobackpacker.com/bucas-grande-sohoton-travel-guide/", "grade": "C", "date": "2018-12-16", "says": "수리가오–하양가본 버스 ₱120 약 1시간, 하양가본→소코로 ₱100 약 1시간, 수리가오 부두→소코로 ₱220 약 3시간(낮 12시, 월~토), 부투안 경유" },
+        { "url": "https://awanderfulsole.com/sohoton-cove-guide-itinerary-budget-bucas-grande/", "grade": "C", "date": "2024-10-07", "says": "하양가본 전세 왕복 ₱3,500(10명), 하양가본→소코로 ₱100 오전 10시·오후 4시, 수리가오 부두에서 오전 6~7시 출발, 부투안→수리가오 4시간 ₱220" },
+        { "url": "https://en.wikivoyage.org/wiki/Socorro_(Surigao_del_Norte)", "grade": "B", "date": "2026-10-09", "says": "하양가본 부두에서 보트 30~40분, ₱1,500~2,000 협상" },
+        { "url": "https://asianews.network/cult-scare-dampens-tourism-in-surigaos-bucas-grande/", "grade": "B", "date": "2023-11-23", "says": "본토에서는 클라베르 타운에서, 시아르가오에서는 다파에서 보트로 소코로에 접근" }
+      ],
+      "decision": "공식 시간표가 없고 2018~2024년 안내라 표에는 '약'과 '안내' 표시. 수리가오 출발 시간은 쓰지 않고 '1일차 낮 출발 안내'만 씀"
+    },
+    {
+      "where": "getting_there",
+      "fact": "시아르가오 항공편(마닐라 직항 없음)",
+      "value": "세부 55~60분·클락 2시간 20분~2시간 30분·다바오 1시간 10분~1시간 15분, 편도 ₱1,900~5,000, 공항→제너럴루나 45~60분 합승 ₱300~400",
+      "sources": [
+        { "url": "https://suroy.ph/how-to-get-to-siargao/", "grade": "B", "date": "2026-08", "says": "마닐라–시아르가오 직항 없음, PAL 클락 노선 2026-05-04 중단, Cebgo·PAL Express·Sunlight Air 프로펠러기, 공항→제너럴루나 45~60분, 합승 ₱300~400, 전세 ₱2,000~2,700" },
+        { "url": "https://www.maridenresort.com/guides/sohoton-cove", "grade": "B", "date": "2026-04-26", "says": "제너럴루나→다파 항 도로 35~45분" }
+      ],
+      "decision": "087 시아르가오 카드의 항공 서술(2025년 3월 마닐라 직항 중단, 클락·세부·다바오)과 일치하므로 그대로 맞춤. 노선·편수는 자주 바뀌므로 문구에 반영"
+    },
+    {
+      "where": "overview/cautions",
+      "fact": "소코로 관광객 수 추이와 2023년 사건의 영향",
+      "value": "2010년 약 4천 명, 2017년 5만 명 이상, 2023년 1분기 월 3천 명 이상·6월 8천 명 이상, 2023년 10월 약 1천 명",
+      "sources": [
+        { "url": "https://asianews.network/cult-scare-dampens-tourism-in-surigaos-bucas-grande/", "grade": "B", "date": "2023-11-23", "says": "Philippine Daily Inquirer 재게재(2023-11-23): 소코로 관광 사무소 자료, 2017년 5만 명 이상, 팬데믹과 2021년 슈퍼태풍 오데트로 타격, 2023년 SBSI 사건 노출 뒤 10월 방문객 약 1천 명" },
+        { "url": "https://www.maridenresort.com/guides/sohoton-cove", "grade": "B", "date": "2026-04-26", "says": "2026년 시점 소호톤 투어 정상 판매·운영 시간 안내" },
+        { "url": "https://www.philippinestourism.org/siargao-travel-guide/", "grade": "B", "date": "2026-06-20", "says": "소호톤 합승 투어를 현재 요금으로 소개" }
+      ],
+      "decision": "2024~2026년 방문객 통계는 찾지 못해 '2026년 현재 투어가 정상 판매'로만 씀. 사건 이름(SBSI)은 본문에 쓰지 않고 '지역 단체 사건 보도'로 완곡하게 표현"
+    },
+    {
+      "where": "overview",
+      "fact": "보호구역 지위(SIPLAS)",
+      "value": "시아르가오 섬 보호경관·보호해역 관리 구역에 들어간다고 '알려져 있음'",
+      "sources": [
+        { "url": "https://lawphil.net/executive/proc/proc1996/proc_902_1996.html", "grade": "A", "date": "1996-10-10", "says": "포고령 902호는 시아르가오 섬과 주변 소도(Surigao del Norte)를 보호경관·보호해역으로 지정, 총 약 278,914ha — 부카스 그란데·소코로는 문서에 명시되지 않음" },
+        { "url": "https://asianews.network/cult-scare-dampens-tourism-in-surigaos-bucas-grande/", "grade": "B", "date": "2023-11-23", "says": "소코로 바랑가이 세링의 지역 단체 '보호구역 공동체 기반 자원관리 협약'을 DENR 이 취소해야 한다고 요구 — 소코로가 보호구역 관리 안에 있음을 시사" },
+        { "url": "https://denr.gov.ph/?p=11020", "grade": "B", "date": "2026-10-09", "says": "검색 요약상 'SIPLAS 안 353ha 소코로 CBRMA 취소' 기사 — 사이트가 403 이라 본문은 열지 못함" }
+      ],
+      "decision": "포고령 원문에 부카스 그란데가 없고 DENR 본문을 못 열어 단정하지 못함. '들어간다고 알려져 있으며'로 약화해 쓰고, 등록·가이드 의무는 Mariden(2026)의 규정 설명으로 따로 근거를 둠"
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "숙소·식사 이름과 요금",
+      "value": "클럽 타라 리조트(수상 방갈로, 소코로 도냐 헬렌)·히든 아일랜드 리조트(바이앙)·소호톤 베이 리조트, 1박 약 ₱1,000~5,000, 식사 패키지 ₱250~300, 선착장 점심 약 ₱200, 소호톤 안에 상점·ATM 없음",
+      "sources": [
+        { "url": "https://en.wikivoyage.org/wiki/Socorro_(Surigao_del_Norte)", "grade": "B", "date": "2026-10-09", "says": "Club Tara 의 요금 ₱1,500~5,000(체크인 14시·체크아웃 10시), 히든 아일랜드 리조트·소호톤 베이 리조트 등재" },
+        { "url": "https://awanderfulsole.com/sohoton-cove-guide-itinerary-budget-bucas-grande/", "grade": "C", "date": "2024-10-07", "says": "Club Tara Resort(Doña Helen, Socorro), Hidden Island Resort(Barangay Bay-Ang), 식사 패키지 ₱250~300" },
+        { "url": "https://www.journeyera.com/sohoton-cove-national-park-lagoon-cave/", "grade": "C", "date": "2025-02-01", "says": "Club Tara 수상 방갈로, Enchanted Cove Resort, Sohoton Bay Resort" },
+        { "url": "https://www.jojowanderlust.com/post/visit-sohotoncove", "grade": "C", "date": "2025-03-07", "says": "점심 약 ₱200/인, 소호톤 안 ATM 없음" },
+        { "url": "https://thepinaysolobackpacker.com/bucas-grande-sohoton-travel-guide/", "grade": "C", "date": "2018-12-16", "says": "소호톤에 상점·시장 없음, 클럽 타라 도미토리 ₱1,000/인·신혼 객실 ₱4,000+(옛 요금)" },
+        { "url": "https://philstar.com/cebu-lifestyle/2009/08/02/492053/caraga-experience", "grade": "B", "date": "2009-08-02", "says": "Club Tara·Hidden Islands Resort 가 2009년에도 영업(오래 운영된 업소 확인용)" }
+      ],
+      "decision": "2009년부터 2024~2025년까지 이어서 보도된 업소만 이름을 씀. 요금은 범위로 쓰고 사전 예약 안내. 기존 '게와 조개 요리가 유명' 문장은 근거가 없어 뺌"
+    },
+    {
+      "where": "cautions/hours",
+      "fact": "소코로 관광 사무소 운영 시간·가이드 의무",
+      "value": "매일 오전 8시~낮 12시, 오후 1~5시(안내), 소호톤 가이드·해안경비대 체크인 필수",
+      "sources": [
+        { "url": "https://en.wikivoyage.org/wiki/Socorro_(Surigao_del_Norte)", "grade": "B", "date": "2026-10-09", "says": "Socorro Tourism Office +63 907 117 1767, daily 8AM–noon and 1PM–5PM" },
+        { "url": "https://www.maridenresort.com/guides/sohoton-cove", "grade": "B", "date": "2026-04-26", "says": "관광 센터 운영 07:00~17:00(조석에 좌우), 해안경비대 체크인 필수, 가이드는 공원 규정상 필수" }
+      ],
+      "decision": "공식 공지(A)를 못 찾아 '안내상'을 붙이고 '최신 공지 확인'을 둠. 연락처는 본문에 넣지 않음"
+    },
+    {
+      "where": "highlights",
+      "fact": "크리스털·볼리타스 동굴, 티크티칸 호수, 대성당 봉우리",
+      "value": "크리스털 동굴: 걸어 들어가는 종유동굴·박쥐·제비집·좁은 통로(수백 m), 볼리타스: 기어서 통과, 티크티칸: 클럽 타라 뒤 언덕 약 5분·카약/SUP, 대성당: 종소리 같은 울림에서 유래한 이름, 봉우리 7개",
+      "sources": [
+        { "url": "https://www.jonnymelon.com/sohoton-national-park/", "grade": "C", "date": "2026-02-01", "says": "크리스털 동굴은 고드름 모양 종유석·박쥐 수백 마리·끝없는 터널, 클럽 타라→티크티칸 약 5분" },
+        { "url": "https://www.journeyera.com/sohoton-cove-national-park-lagoon-cave/", "grade": "C", "date": "2025-02-01", "says": "크리스털 동굴 수백 m 걷기·좁은 관 통로, 티크티칸 호수와 소호톤 가메이 리조트 뒤 약 5분" },
+        { "url": "https://thepinaysolobackpacker.com/bucas-grande-sohoton-travel-guide/", "grade": "C", "date": "2018-12-16", "says": "볼리타스 동굴은 아주 좁은 통로를 기어야 하고, 크리스털 동굴은 식용 제비집" },
+        { "url": "https://awanderfulsole.com/sohoton-cove-guide-itinerary-budget-bucas-grande/", "grade": "C", "date": "2024-10-07", "says": "카르스트 봉우리 7개, '대성당'은 종소리 같은 소리에서 유래, 토조만 호수에 벌레잡이풀" },
+        { "url": "https://www.weseektravel.com/sohoton-cove-siargao/", "grade": "C", "date": "2024-05-14", "says": "티크티칸 호수에서 카약·SUP 대여, 크리스털 동굴에서 울타리 친 만의 상어 — 동물 복지 우려" }
+      ],
+      "decision": "공식 자료가 없는 서술 항목이라 숫자를 단정하지 않고 '~라고 합니다·약'으로 씀. 상어 이야기는 한 곳(2024) 뿐이라 '후기가 있으니 피한다'로 완곡하게"
+    },
+    {
+      "where": "best_time",
+      "fact": "건기·성수기·북동 계절풍과 연 강수량",
+      "value": "건기 3~10월, 성수기 3~6월, 11~2월 거친 바다·투어 취소, 소코로 연 강수량 약 1,988mm",
+      "sources": [
+        { "url": "https://www.journeyera.com/sohoton-cove-national-park-lagoon-cave/", "grade": "C", "date": "2025-02-01", "says": "3~5월 성수기, 6~10월 간헐적 비, 11~2월 우기·거친 바다·일부 동굴 높은 수위로 접근 불가" },
+        { "url": "https://www.maridenresort.com/guides/sohoton-cove", "grade": "B", "date": "2026-04-26", "says": "건기 3~10월 바다 잔잔, 11~2월 디나갓 해협 거침·운항 취소" },
+        { "url": "https://www.jojowanderlust.com/post/visit-sohotoncove", "grade": "C", "date": "2025-03-07", "says": "3~10월 건기, 4~6월 성수기" },
+        { "url": "https://en.wikipedia.org/wiki/Socorro,_Surigao_del_Norte", "grade": "B", "date": "2026-10-09", "says": "연평균 강수량 1,988mm" }
+      ],
+      "decision": "기존 3~7월 최적기·8~10월 '남서풍'은 근거가 없어, 건기 3~10월(바다 잔잔)과 해파리 3~6월로 나눠 씀. 연 강수량은 위키백과 수치"
+    }
+  ],
+  "images": [
+    {
+      "file": "088-sohoton-cove.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Middle_Bucas_Grande_in_Dapa,_Siargao.jpg",
+      "check": "대표 사진 — Commons 설명 'Middle Bucas Grande … en route to Sohoton Cove', 부카스 그란데 섬 중앙부의 초록 언덕과 바다. 소호톤 석호 자체가 아니라 가는 길의 풍경이라 alt 를 '소호톤 가는 길에 보는 부카스 그란데 섬의 언덕과 바다'로 정정(기존 alt '소호톤 코브'는 과장). 촬영 위치 정보 없음, CC BY-SA 4.0 작가 일치"
+    },
+    {
+      "file": "088-sohoton-cove-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sohoton.jpg",
+      "check": "소호톤 코브 — 파일명·Commons 분류 Socorro, Surigao del Norte, 석회암 절벽과 청록색 얕은 바다가 본문의 석호 묘사와 같음. 촬영 위치 정보 없음, 사진 안에 장소 표지가 없어 '눈으로 본 것' 수준의 확인(2010-09-26 촬영, CC BY-SA 4.0)"
+    },
+    {
+      "file": "088-sohoton-cove-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Dapa_channel.jpg",
+      "check": "다파 해협에서 본 부카스 그란데 섬 — Commons 설명 'Dapa Channel, with view to hills on islands Middle Bucas Grande and East Bucas Grande', 좌표 9.78, 125.95(촬영 지점, 항목 좌표에서 약 20km 떨어진 해협 위). 다파–소코로 여객선이 건너는 바로 그 해협이라 getting_there 와 맞음. 같은 작가의 'Dapa channel 2' 는 같은 구도라 쓰지 않음"
+    },
+    {
+      "file": "088-sohoton-cove-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Nepenthes_merrilliana_lower_pitchers.jpg",
+      "check": "네펜테스 메릴리아나 — Commons 설명 'Lower pitchers of Nepenthes merrilliana from Bucas Grande'(Wiki Science Competition 2025 필리핀, 2025-07-30). 본문의 '석회암 숲에 벌레잡이풀' 서술과 같음. 같은 종의 다른 파일(Nepenthes merrilliana upper pitcher 등)은 디나갓 섬 촬영이라 쓰지 않음"
+    },
+    {
+      "file": "(후보 없음)",
+      "source": "https://commons.wikimedia.org/w/index.php?search=Sohoton",
+      "check": "Commons 에서 'Sohoton'·'Bucas Grande'·'Socorro Surigao del Norte'·'Hagukan'·'Tojoman'·'Magkukuob'·'Tiktikan' 이름 검색, Category:Socorro·Siargao·Dapa·Del Carmen, 위키백과·위키보야지 문서 삽화, 좌표 10km 반경 검색을 모두 했으나 소호톤 사진은 위 2장 뿐이었다. 가까운 사진은 NASA ISS 위성 사진·Siargao 일반 사진·다른 곳(디나갓·애닐라오)의 해파리·벌레잡이풀 사진이라 쓰지 않았다. 사진 10장을 못 채움"
+    }
+  ]
+}

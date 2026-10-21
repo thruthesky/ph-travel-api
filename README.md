@@ -99,7 +99,7 @@ R2 공개 주소의 응답 헤더:
 | `languages` | 지원 언어 — `code`(파일 이름의 언어 코드)·`locale`(BCP 47, 날짜·숫자 형식용)·`name`(영어 이름)·`native`(그 언어로 쓴 이름, 언어 고르기 화면용)·`dir`(`ltr`·`rtl`) |
 | `categories` | 분류 7개 — `key`·`icon`·언어별 `name`. key: `beach` `diving` `mountain` `water` `heritage` `city` `nature` |
 | `island_groups` | 권역 3개 — `luzon` `visayas` `mindanao` |
-| `regions` | 지역 35개 — `key`·소속 `island_group`·언어별 `name` |
+| `regions` | 지역 39개 — `key`·소속 `island_group`·언어별 `name` |
 | `difficulties` | 난이도 3단계 — `value` 1~3 · `key` `easy` `moderate` `hard` |
 | `destinations` | 지역별 추천 베스트 — 외국인 여행자가 많이 찾는 큰 지역 9곳(`manila` `cebu` `angeles` `boracay` `palawan` `baguio` `bohol` `dumaguete` `davao`). `key`·`icon`·중심 좌표·언어별 `name`·`tagline`(한 줄 소개)·`places`(그 지역에서 많이 찾는 순서의 여행지 slug 5~10개). 앱 첫 화면의 「지역별 추천 베스트 10」 |
 | `monthly_picks` | 월별 추천 — 1~12월 12개, 달마다 `places`(여행지 slug 1~5개, 추천 순서). 그 달이 그 여행지의 `best_season.months` 안이어야 한다(빌드가 검사). 앱 첫 화면의 「월별 추천 여행지」 |

@@ -40,14 +40,14 @@
     ]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.5167 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.6833 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.5171 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.6844 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
     "icon": "calendar_month",
-    "text": "March–June (calmest seas)",
-    "months": [3, 4, 5, 6]
+    "text": "March–May (calmest seas)",
+    "months": [3, 4, 5]
   },
   "duration": {
     "type": "duration",
@@ -59,10 +59,10 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱1,000–4,000 per person (tour or diving)",
+    "text": "About ₱1,200–5,000 per person (joiner tour or diving)",
     "currency": "PHP",
-    "min": 1000,
-    "max": 4000
+    "min": 1200,
+    "max": 5000
   },
   "difficulty": {
     "type": "level",
@@ -82,7 +82,7 @@
   "image": {
     "type": "image",
     "url": "images/078-balicasag-island.webp",
-    "alt": "Balicasag Island",
+    "alt": "Palm trees and a hammock on the beach of Balicasag Island",
     "credit": "Ric V Obedencio / CC BY-SA 4.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Balicasag_Island,_Panglao,_Bohol_1.jpg"
   },
@@ -93,16 +93,72 @@
       {
         "type": "image",
         "url": "images/078-balicasag-island-2.webp",
-        "alt": "Balicasag Island",
+        "alt": "White coral-sand beach and shade trees",
         "credit": "Ric V Obedencio / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Balicasag_Island,_Panglao,_Bohol.jpg"
       },
       {
         "type": "image",
         "url": "images/078-balicasag-island-3.webp",
-        "alt": "Balicasag Island",
+        "alt": "Balicasag Island and its lighthouse seen from a bangka",
         "credit": "Wiki.mjmasangkay / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Balicasag_Island.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/078-balicasag-island-4.webp",
+        "alt": "Island beach lined with hopping-tour bangkas",
+        "credit": "Qaalvin / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Balicasag_island_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/078-balicasag-island-5.webp",
+        "alt": "Island beach and bangkas seen from the clear, shallow water",
+        "credit": "Marie Antoinette Calvez / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Balicasag_Marine_Sanctuary,_Bohol,_Philippines_02.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/078-balicasag-island-6.webp",
+        "alt": "Silhouette of the island over the sea at dusk",
+        "credit": "Jan Hazevoet / CC BY 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunset_over_Balicasag_Island_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/078-balicasag-island-7.webp",
+        "alt": "Bangkas anchored along the island shore",
+        "credit": "ACTA314 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Boats_docked_on_Balicasag_Island.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/078-balicasag-island-8.webp",
+        "alt": "The small chapel in the island village",
+        "credit": "Qaalvin / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Balicasag_island_chapel.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/078-balicasag-island-9.webp",
+        "alt": "Coral and yellow fish off Balicasag",
+        "credit": "Thomas Brown / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Balicasag_Reef.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/078-balicasag-island-10.webp",
+        "alt": "Clownfish swimming among the coral",
+        "credit": "Thomas Brown / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Clownfish_(Amphiprioninae)_(6206381551).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/078-balicasag-island-11.webp",
+        "alt": "Melon-headed whales spotted in the sea between Balicasag and Alona Beach",
+        "credit": "Thomas Brown / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Melon-headed_Whale_(Peponocephala_electra)_(6206904718).jpg"
       }
     ]
   },
@@ -111,9 +167,9 @@
     "variant": "lead",
     "children": [
       { "text": "A small coral island about " },
-      { "type": "distance", "text": "2km" },
+      { "type": "distance", "text": "600m" },
       {
-        "text": " around, floating in the sea southwest of Panglao Island, where a sheer coral wall rings the island as a designated marine protected area. Sea turtle sightings are nearly guaranteed, making it a key destination for Bohol hopping tours and diving."
+        "text": " across, floating in the sea southwest of Panglao Island, where the sheer coral wall around the island has been managed as a marine protected area since the mid-1980s. Guided snorkeling with sea turtles up close and wall diving are the heart of Bohol hopping tours."
       }
     ]
   },
@@ -127,26 +183,24 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "Balicasag Island is a small, flat coral island about " },
-            { "type": "distance", "text": "6–7km" },
-            { "text": " southwest of Alona Beach on Panglao Island. At about " },
-            { "type": "distance", "text": "2km" },
-            { "text": " around — small enough to circle on foot in " },
-            { "type": "duration", "text": "30 minutes" },
             {
-              "text": " — it consists of little more than a fishing village, a lighthouse, and a dive resort run by a government tourism agency, all administratively part of the Panglao municipality."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "The island's real appeal lies underwater. The shallow coral flat at the island's edge drops away after just a few steps into a sheer coral wall plunging tens of meters deep, where fan corals and soft corals grow thick and every kind of reef fish gathers. Since the mid-"
+              "text": "Balicasag Island is a small, round coral island floating in the sea southwest of Panglao Island. It is about "
             },
-            { "type": "date", "text": "1980s" },
+            { "type": "distance", "text": "600m" },
             {
-              "text": ", part of the waters around the island has been managed as a no-fishing marine protected area, and thanks to that protection, sea turtles and huge schools of jackfish (trevally) linger without much fear of people."
+              "text": " across and roughly 30 hectares in area, so a walk around the shore takes only "
+            },
+            { "type": "duration", "text": "30 minutes" },
+            { "text": ", and a white lighthouse rises in the middle of the island. It lies about " },
+            { "type": "distance", "text": "6.5km" },
+            { "text": " from the nearest shore of Panglao and about " },
+            { "type": "distance", "text": "10km" },
+            {
+              "text": " in a straight line from Alona Beach, where most travelers depart, so the bangka ride takes "
+            },
+            { "type": "duration", "text": "30–45 minutes" },
+            {
+              "text": ". The island has a fishing village, a small chapel, and a government-owned dive resort, and its population is said to be around 800."
             }
           ]
         },
@@ -154,7 +208,33 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Balicasag is ranked among Filipino divers as \"Bohol's best wall diving,\" with well-known sites such as Black Forest, Divers Heaven, and Cathedral encircling the island. Even non-divers can join a guided snorkel to drift over the shallow coral and watch sea turtles come up for air."
+              "text": "The real appeal of this island is underwater. A shallow coral shelf stretching "
+            },
+            { "type": "distance", "text": "10–55m" },
+            { "text": " out from the shore sits at a depth of about " },
+            { "type": "distance", "text": "3–8m" },
+            {
+              "text": " before dropping suddenly into a sheer wall, and the north and northwest walls in particular descend to more than "
+            },
+            { "type": "distance", "text": "80m" },
+            {
+              "text": ". Fan corals, soft corals, and black corals cover the wall thickly, and the water stays warm year-round at "
+            },
+            { "type": "temperature", "text": "27–29℃" },
+            { "text": "." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Around " },
+            { "type": "date", "text": "1985" },
+            {
+              "text": ", a marine conservation program at Silliman University stopped illegal and destructive fishing around the island, turning the waters into a protected area. The Philippine marine protected area database lists the official registration year as "
+            },
+            { "type": "date", "text": "1998" },
+            {
+              "text": ", so the year differs depending on the source. Either way, thanks to more than 40 years of restricted fishing, green sea turtles and hawksbills are not very afraid of people and come into the seagrass beds close to shore, while big schools of jackfish (trevally) circle along the wall."
             }
           ]
         },
@@ -162,7 +242,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Most travelers stop at Balicasag as one leg of a hopping tour departing Alona Beach at dawn. The most common route combines dolphin-watching, snorkeling at Balicasag, and the Virgin Island sandbar into a half-day trip, while divers typically do two to three dives around Balicasag in a day."
+              "text": "Most travelers visit the island on a hopping tour that leaves Alona Beach at dawn. The most common route is a half-day trip combining dolphin-watching, snorkeling at Balicasag, and the Virgin Island (Pontod) sandbar, and divers generally do two dives a day at Balicasag. Even weak swimmers can see turtles thanks to life jackets and guides, but the island sits in open water and is strongly affected by waves and swell, so leave some slack in your schedule for the weather."
             }
           ]
         }
@@ -181,76 +261,110 @@
             {
               "type": "card",
               "number": 1,
-              "title": "Guided snorkeling",
+              "title": "Guided sea turtle snorkeling",
               "children": [
                 {
-                  "text": "In the protected waters off the island, you tour the coral with a local guide, either by small boat or swimming. Sea turtles pass close by over the shallow coral at "
+                  "text": "You meet sea turtles grazing on the seagrass beds off the island's shore in shallow water just a few meters from the beach. Reviews vary on how many turtles you see at a time, from 4–7 to around 15 on a good day. A guide is required, and your time in the water is limited to about "
                 },
-                { "type": "distance", "text": "3–10m" },
-                { "text": " depth." }
+                { "type": "duration", "text": "30–45 minutes" },
+                { "text": "." }
               ]
             },
             {
               "type": "card",
               "number": 2,
-              "title": "Diving Black Forest",
+              "title": "Coral shelf and wall snorkeling",
               "children": [
                 {
-                  "text": "A sloping site on the island's west side, named for the black whip corals growing like a forest. When there's current, chances are good of encountering turtles, jackfish, and barracuda."
+                  "text": "Apart from the turtle zone, there is a separate coral zone. You float over a shelf at "
+                },
+                { "type": "distance", "text": "0.5–2m" },
+                { "text": " depth and look down at the wall that drops sharply to " },
+                { "type": "distance", "text": "6–10m" },
+                {
+                  "text": " below the edge. The west coast is off-limits when the waves are high, and the water near the crowded landing beach tends to get cloudy."
                 }
               ]
             },
             {
               "type": "card",
               "number": 3,
-              "title": "Wall diving at Divers Heaven",
+              "title": "Cathedral wall diving",
               "children": [
+                { "text": "This wall starts " },
+                { "type": "distance", "text": "30–50m" },
+                { "text": " off the shore in front of the resort, in shallows only " },
+                { "type": "distance", "text": "2–3m" },
                 {
-                  "text": "A sheer coral wall on the island's south side, where you drift slowly along, taking in fan corals, sponges, lionfish, and turtles. On clear days, visibility can exceed "
-                },
-                { "type": "distance", "text": "20–30m" },
-                { "text": "." }
+                  "text": " deep, which makes it a good introduction for beginner divers. There are many caves and crevices, so a flashlight is useful, and you can see big jackfish hanging in the current."
+                }
               ]
             },
             {
               "type": "card",
               "number": 4,
-              "title": "Meeting a jackfish tornado",
+              "title": "Black Forest diving",
               "children": [
                 {
-                  "text": "A whirling mass of hundreds of jackfish spinning like a tornado is one of Balicasag's signature sights. The odds are best while diving, but with luck it can also be seen snorkeling."
+                  "text": "A slope at the northern tip of the island, notable for black coral, which normally lives below "
+                },
+                { "type": "distance", "text": "50m" },
+                { "text": ", growing in shallows of around " },
+                { "type": "distance", "text": "30m" },
+                {
+                  "text": ". The current is strong, so dives go in at slack water with a pickup boat waiting on the surface, and it is most comfortable for Advanced divers and above."
                 }
               ]
             },
             {
               "type": "card",
               "number": 5,
-              "title": "Pairing it with dawn dolphin-watching",
+              "title": "Divers Heaven drift dive",
               "children": [
-                { "text": "Hopping tours departing Alona Beach at " },
-                { "type": "time", "text": "5:30–6:00 AM" },
                 {
-                  "text": " look for spinner dolphins on the way to Balicasag. After the dolphins, you head straight to Balicasag to snorkel in the clear early-morning water."
+                  "text": "A slope on the south side of the island, where a hard-coral and soft-coral-covered incline runs from "
+                },
+                { "type": "distance", "text": "10m" },
+                { "text": " down to around " },
+                { "type": "distance", "text": "30m" },
+                {
+                  "text": ". You can drift slowly with the current and finish in the shallows, which makes it a popular spot for a second dive, and you often meet turtles and nudibranchs."
                 }
               ]
             },
             {
               "type": "card",
               "number": 6,
-              "title": "Beach walk and the island lighthouse",
+              "title": "Jackfish schools and marine life",
               "children": [
                 {
-                  "text": "After snorkeling, landing on the island lets you explore the white sand beach, the small village, and the lighthouse. Beach stalls selling shell necklaces and fresh coconut juice are a good place to rest."
+                  "text": "Hundreds of jackfish swirling along the wall are Balicasag's signature sight. Your odds are high on a dive, and barracuda, schools of mackerel, clownfish, lionfish, and frogfish are also commonly reported around the island."
                 }
               ]
             },
             {
               "type": "card",
               "number": 7,
-              "title": "Stopping at the Virgin Island sandbar",
+              "title": "Dawn dolphin-watching",
+              "children": [
+                { "text": "Hopping tours leaving Alona Beach at " },
+                { "type": "time", "text": "5:30–6:00 AM" },
+                {
+                  "text": " look for spinner and bottlenose dolphins in the sea between Panglao and Balicasag. They are most active at dawn, but there is no guarantee, and reviews range from more than 30 dolphins on some days to only 4–5 on others. Occasionally a pod of melon-headed whales passes by."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Island beach walk and village",
               "children": [
                 {
-                  "text": "On the way back from Balicasag, stopping at the sandbar that emerges at low tide for photos and a taste of sea-urchin dishes rounds off the hopping tour."
+                  "text": "If you land on the island between snorkeling stops, you can look around the white coral-sand beach, the fishing village, the small chapel, and the lighthouse. A walk around the island takes about "
+                },
+                { "type": "duration", "text": "30 minutes" },
+                {
+                  "text": ", which makes it a good short break, and walking along the shoreline is easier than taking the inland paths."
                 }
               ]
             }
@@ -269,39 +383,80 @@
           "items": [
             {
               "title": "Half-day hopping itinerary",
+              "subtitle": "Dolphins · Balicasag · Virgin Island",
               "blocks": [
                 {
                   "type": "stepper",
                   "items": [
-                    { "time": "5:30 AM", "children": [{ "text": "Depart Alona Beach by bangka" }] },
                     {
-                      "time": "6:00–7:30 AM",
+                      "time": "5:30 AM",
                       "children": [
                         {
-                          "text": "Look for dolphins in the waters between Pamilacan and Balicasag"
+                          "text": "Get picked up at an Alona Beach tour booth or your accommodation, put on a life jacket, and board the bangka"
                         }
                       ]
                     },
                     {
-                      "time": "7:30–9:30 AM",
+                      "time": "6:00 AM",
+                      "children": [
+                        { "text": "After departure, look for dolphins off Panglao. Travel " },
+                        { "type": "duration", "text": "20 minutes" },
+                        { "text": ", watching " },
+                        { "type": "duration", "text": "30 minutes–1 hour" }
+                      ]
+                    },
+                    {
+                      "time": "7:00 AM",
                       "children": [
                         {
-                          "text": "Arrive at Balicasag, pay the environmental fee, guided snorkeling"
+                          "text": "Arrive at Balicasag, pay the environmental fee and snorkeling fee, and head to the turtle zone with a guide"
                         }
                       ]
                     },
                     {
-                      "time": "9:30–10:00 AM",
-                      "children": [{ "text": "Walk and rest on the island beach" }]
+                      "time": "7:00–8:30 AM",
+                      "children": [
+                        {
+                          "text": "Guided snorkeling in the turtle zone and the coral zone (time is limited)"
+                        }
+                      ]
                     },
-                    { "time": "10:30–11:30 AM", "children": [{ "text": "Virgin Island sandbar" }] },
-                    { "time": "Noon", "children": [{ "text": "Return to Alona Beach" }] }
+                    {
+                      "time": "8:30–9:00 AM",
+                      "children": [
+                        {
+                          "text": "Land on the island to rest on the beach and take care of restrooms and snacks"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "9:30 AM",
+                      "children": [
+                        { "text": "Head to Virgin Island, about " },
+                        { "type": "duration", "text": "15 minutes" },
+                        { "text": " by boat. The sandbar is widest at low tide" }
+                      ]
+                    },
+                    { "time": "Around 11:00 AM", "children": [{ "text": "Return to Alona Beach" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Virgin Island was closed from " },
+                    { "type": "date", "text": "September 2024" },
+                    { "text": " because of coral damage and reopened in " },
+                    { "type": "date", "text": "February 2026" },
+                    {
+                      "text": ". Vendor stalls are gone, so bring your own food. Length of stay and visitor numbers are limited, so check with your operator when booking."
+                    }
                   ]
                 }
               ]
             },
             {
               "title": "Full-day diver itinerary",
+              "subtitle": "Two wall dives",
               "blocks": [
                 {
                   "type": "stepper",
@@ -309,18 +464,40 @@
                     {
                       "time": "8:00 AM",
                       "children": [
-                        { "text": "Depart the Alona dive shop, first dive at Black Forest" }
+                        {
+                          "text": "Gather at a licensed dive shop in Alona for briefing and equipment check"
+                        }
                       ]
                     },
                     {
-                      "time": "10:30 AM",
-                      "children": [{ "text": "Surface interval and snacks on the Balicasag beach" }]
+                      "time": "8:30 AM",
+                      "children": [
+                        { "text": "Dive boat to Balicasag, about " },
+                        { "type": "duration", "text": "30–40 minutes" }
+                      ]
                     },
-                    { "time": "11:30 AM", "children": [{ "text": "Second dive at Divers Heaven" }] },
+                    {
+                      "time": "9:30 AM",
+                      "children": [
+                        {
+                          "text": "First dive — Black Forest or Cathedral (the shop decides based on the current)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:00 AM",
+                      "children": [{ "text": "Surface interval and snacks on the island beach" }]
+                    },
+                    {
+                      "time": "Noon",
+                      "children": [{ "text": "Second dive — a gentle slope such as Divers Heaven" }]
+                    },
                     {
                       "time": "1:30 PM",
                       "children": [
-                        { "text": "Return, with an optional afternoon dive at Alona's house reef" }
+                        {
+                          "text": "Return, with an optional afternoon dive at Alona's house reef if you like"
+                        }
                       ]
                     }
                   ]
@@ -341,60 +518,110 @@
           "type": "accordion",
           "items": [
             {
-              "title": "Plane",
+              "title": "Plane (from Manila or Korea)",
               "icon": "flight",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "About " },
-                    { "type": "duration", "text": "1 hour 20 minutes" },
                     {
-                      "text": " from Manila to Bohol–Panglao International Airport (TAG). From the airport to Alona Beach is about "
+                      "text": "From Manila to Bohol-Panglao International Airport (TAG), PAL Express (a Philippine Airlines affiliate) and Cebu Pacific fly the route. The flight takes about "
                     },
-                    { "type": "duration", "text": "15–20 minutes" },
-                    { "text": " by car." }
+                    { "type": "duration", "text": "1 hour 20 minutes–1 hour 40 minutes" },
+                    { "text": " and costs about " },
+                    { "type": "price", "text": "₱2,000–5,000" },
+                    {
+                      "text": " one way. From Korea, Jeju Air (Incheon, Busan) and Jin Air (Incheon) operate direct flights taking about "
+                    },
+                    { "type": "duration", "text": "4 hours 30 minutes" },
+                    { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "From the airport to Alona Beach is about " },
+                    { "type": "duration", "text": "15–25 minutes" },
+                    { "text": " by car, and there is no direct bus. Grab or a taxi costs about " },
+                    { "type": "price", "text": "₱200–600" },
+                    { "text": " and a tricycle about " },
+                    { "type": "price", "text": "₱150–300" },
+                    {
+                      "text": " after bargaining; airport taxis tend to quote high, so agree on the fare first."
+                    }
                   ]
                 }
               ]
             },
             {
-              "title": "Boat",
+              "title": "Boat (from Cebu or Siquijor)",
               "icon": "directions_boat",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "A fast craft such as OceanJet from Cebu takes about " },
+                    {
+                      "text": "The OceanJet fast craft from Cebu Pier 1 to Tagbilaran Port takes about "
+                    },
                     { "type": "duration", "text": "2 hours" },
-                    { "text": " to Tagbilaran Port (about " },
-                    { "type": "price", "text": "₱800–1,500" },
-                    { "text": "); from Tagbilaran to Alona Beach is about " },
-                    { "type": "duration", "text": "30–40 minutes" },
-                    { "text": " by car." }
+                    { "text": ". Based on notices from June–July 2026, Tourist class is about " },
+                    { "type": "price", "text": "₱880–920" },
+                    { "text": " and Business class about " },
+                    { "type": "price", "text": "₱1,320–1,450" },
+                    {
+                      "text": ", and fuel surcharges have changed several times, so recheck the fare and timetable when you book. OceanJet also runs from Siquijor to Tagbilaran in about "
+                    },
+                    { "type": "duration", "text": "2 hours" },
+                    { "text": " for about " },
+                    { "type": "price", "text": "₱880–950" },
+                    { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "From Tagbilaran Port to Alona Beach is about " },
+                    { "type": "distance", "text": "20km" },
+                    { "text": ": a taxi or Grab takes " },
+                    { "type": "duration", "text": "30–45 minutes" },
+                    { "text": " and costs about " },
+                    { "type": "price", "text": "₱400–700" },
+                    { "text": ", while a bus takes about " },
+                    { "type": "duration", "text": "45 minutes–1 hour" },
+                    { "text": " and costs about " },
+                    { "type": "price", "text": "₱70–100" },
+                    { "text": "." }
                   ]
                 }
               ]
             },
             {
-              "title": "Bangka (hopping tour)",
+              "title": "Bangka hopping tour",
               "icon": "directions_boat",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Balicasag has no scheduled passenger ferry, so you go by bangka from Panglao beaches such as Alona Beach. It takes about "
+                      "text": "There is no scheduled passenger ferry to Balicasag, so you go by bangka from Panglao beaches such as Alona Beach. It takes about "
                     },
-                    { "type": "duration", "text": "30–40 minutes" },
-                    { "text": " from Alona, and chartering the whole boat costs about " },
-                    { "type": "price", "text": "₱3,000–5,000" },
+                    { "type": "duration", "text": "30–45 minutes" },
+                    { "text": " from Alona, and boats usually leave around " },
+                    { "type": "time", "text": "6:00 AM" },
                     {
-                      "text": " for the dolphin, Balicasag, and Virgin Island route, while a joiner tour sharing with other travelers costs about "
+                      "text": " and return around 11 AM. A joiner tour shared with other travelers costs about "
                     },
-                    { "type": "price", "text": "₱1,000–2,000" },
+                    { "type": "price", "text": "₱1,100–2,500" },
+                    { "text": " per person, and chartering the whole boat costs about " },
+                    { "type": "price", "text": "₱2,500–5,000" },
+                    { "text": "." }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
                     {
-                      "text": " per person. Book through a tour booth on Alona Beach, your accommodation, or a dive shop."
+                      "text": "Book through a tour booth, your accommodation, a dive shop, or an online booking site. Beach touts quote high prices at first, so check what is included (environmental fee, snorkel gear, lunch, Virgin Island entry) before agreeing."
                     }
                   ]
                 }
@@ -408,7 +635,21 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Diving trips travel by the Alona Beach dive shop's boat, with the boat transfer included in the diving fee. The marine park entrance fee is often charged separately."
+                      "text": "Dive trips go by the boat of a licensed dive shop on Alona Beach, and the boat transfer is included in the diving fee. The Panglao municipality caps daily visitor numbers and licensed shops register in advance, so you cannot just walk up and board. The shop usually collects the environmental fee on your behalf."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Island resort guests",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "If you stay at the Balicasag Island Dive Resort on the island, the resort arranges the boat transfer. Contact the resort directly about booking and whether boats are running."
                     }
                   ]
                 }
@@ -427,37 +668,59 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "The waters around Balicasag are calmest and clearest from " },
-            { "type": "date", "text": "March to June" },
             {
-              "text": ", ideal for both snorkeling and diving. Water temperature stays warm year-round at 26–30°C, but from "
-            },
-            { "type": "date", "text": "December to February" },
-            {
-              "text": " the northeast monsoon raises waves and lowers the temperature slightly, so a 3mm-or-thicker wetsuit is more comfortable."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            { "text": "During the rainy season, " },
-            { "text": "June–November", "type": "date" },
-            {
-              "text": ", showers are frequent and the sea can turn rough in the afternoon due to the southwest monsoon. When a typhoon or tropical depression passes, the coast guard bans small-boat departures, which can lead to tour cancellations."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "Early morning is best. The sea is calm, the low sun brightens the water, and you'll wait less to snorkel before the group tour boats arrive. During peak season, "
+              "text": "Bohol has no sharply defined dry and wet seasons and rain falls fairly evenly through the year, so conditions at Balicasag depend less on rain than on which monsoon is blowing. "
             },
             { "type": "date", "text": "March–May" },
-            { "text": ", and holidays, the protected area gets very crowded after " },
-            { "type": "time", "text": "9:00 AM" },
+            {
+              "text": " is the calmest, with hopping tours going out almost every morning, and diving visibility is best from "
+            },
+            { "type": "date", "text": "December–April" },
+            { "text": ", reaching " },
+            { "type": "distance", "text": "20–30m" },
+            { "text": ". Water temperature is " },
+            { "type": "temperature", "text": "27–30℃" },
+            {
+              "text": " year-round, so a thin suit is enough, though a 3mm suit is more comfortable if you stay in the water long."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "From " },
+            { "text": "June–September", "type": "date" },
+            {
+              "text": " the southwest monsoon (Habagat) pushes swell onto Panglao's south coast, making the afternoon sea rough and tour cancellations more frequent. From "
+            },
+            { "text": "December–February", "type": "date" },
+            {
+              "text": " the northeast monsoon (Amihan) stirs up wind, and bangkas to Balicasag are cancelled more often than you might expect. The flattest seas come in the transition periods of "
+            },
+            { "text": "late February–May", "type": "date" },
+            { "text": " and " },
+            { "text": "October", "type": "date" },
             { "text": "." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Bohol lies south of the typhoon track, but in " },
+            { "type": "date", "text": "December 2021" },
+            {
+              "text": " Super Typhoon Odette passed directly over it. When a typhoon or tropical depression approaches, the coast guard bars small boats from leaving and tours are cancelled, so if you go in "
+            },
+            { "type": "date", "text": "November–January" },
+            {
+              "text": ", arrange travel insurance and check the refund policy. Early morning is best in the day, and the Bohol tourism office also advises leaving before "
+            },
+            { "type": "time", "text": "7:00 AM" },
+            { "text": " and returning before " },
+            { "type": "time", "text": "2:00 PM" },
+            {
+              "text": ". In the afternoon the wind picks up and the tide rises, making the sea rough."
+            }
           ]
         },
         {
@@ -468,18 +731,23 @@
           "rows": [
             [
               "December–February",
-              "Northeast wind, higher waves and lower water temperature",
-              "A wetsuit of 3mm or thicker is comfortable"
+              "Northeast wind (Amihan), good visibility, year-end peak season",
+              "Good diving visibility but cancellations on windy days; a 3mm suit is recommended"
             ],
             [
-              "March–June",
-              "Calm seas, good visibility",
-              "Best for snorkeling and diving — peak season March–May, crowded after 9 AM"
+              "March–May",
+              "Calmest seas, hot and strong sun",
+              "Best for snorkeling and diving; crowded after 9 AM on holidays and in peak season"
             ],
             [
-              "July–November",
-              "Rainy season, rough afternoon seas from the southwest wind",
-              "Departures banned and tours cancelled in typhoons and low-pressure areas"
+              "June–September",
+              "Southwest wind (Habagat), showers and swell",
+              "Rough afternoon seas and frequent tour cancellations; leave early in the morning"
+            ],
+            [
+              "October–November",
+              "Transition period with relatively calm seas, showers",
+              "Relatively quiet, but typhoon season begins, so leave slack in your schedule"
             ]
           ]
         }
@@ -498,40 +766,49 @@
           "items": [
             {
               "label": "Hopping tour boat charter",
-              "price": "About ₱3,000–5,000 per boat",
-              "note": "Dolphins, Balicasag, Virgin Island"
+              "price": "About ₱2,500–5,000 per boat",
+              "note": "Dolphins, Balicasag, Virgin Island; entry fees are usually extra"
             },
             {
-              "label": "Shared hopping tour",
-              "price": "About ₱1,000–2,000 per person",
-              "note": "Varies by operator"
+              "label": "Joiner hopping tour",
+              "price": "About ₱1,100–2,500 per person",
+              "note": "Inclusions vary by operator"
             },
             {
-              "label": "Island environmental fee",
+              "label": "Balicasag environmental fee (snorkeling)",
+              "price": "About ₱300 per person",
+              "note": "Guide included, cash; check the latest fee"
+            },
+            {
+              "label": "Landing on Balicasag only",
               "price": "About ₱100 per person",
-              "note": "On landing"
-            },
-            {
-              "label": "Snorkeling fee",
-              "price": "About ₱250–300 per person",
-              "note": "Guide and boat included; check the latest notice"
+              "note": "For those not snorkeling; based on 2023 reviews"
             },
             {
               "label": "Snorkel gear rental",
-              "price": "About ₱150–200",
-              "note": "Mask and snorkel"
+              "price": "About ₱150–350",
+              "note": "Mask and snorkel; bring your own to save money"
             },
             {
-              "label": "One fun dive",
-              "price": "About ₱1,800–2,500",
-              "note": "Equipment rental extra"
+              "label": "Virgin Island entry",
+              "price": "About ₱100–200 per person",
+              "note": "Fees since the reopening in February 2026 vary by review"
             },
             {
-              "label": "Marine park diving fee",
-              "price": "About ₱300–500",
+              "label": "Diver environmental fee",
+              "price": "About ₱250 per person per day",
               "note": "Collected by the dive shop"
             },
-            { "label": "Virgin Island landing", "price": "About ₱100", "note": "Collected on site" }
+            {
+              "label": "Two fun dives",
+              "price": "About ₱3,600–5,500",
+              "note": "Boat, tank, and guide included; check whether equipment and fees are extra"
+            },
+            {
+              "label": "Airport or port to Alona",
+              "price": "About ₱200–700",
+              "note": "Grab or taxi; about ₱400–700 from Tagbilaran Port"
+            }
           ]
         },
         {
@@ -554,19 +831,19 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "A government tourism-agency dive resort on Balicasag Island itself does allow an overnight stay, but with few rooms and limited amenities, most people base themselves on Alona Beach, Panglao Island, and visit for the day. Alona Beach offers a wide range from "
+              "text": "On the island there is the Balicasag Island Dive Resort, owned by the Tourism Infrastructure and Enterprise Zone Authority (TIEZA), so you can spend a night on the island. It is a small resort with cottage-style rooms on about 1.5 hectares; the location is the best, but some reviews mention worn facilities and unreliable water and electricity, so lower your expectations and check its condition before booking. Most people stay at Alona Beach in Panglao and visit for the day, and Alona offers a wide range, from "
             },
             { "type": "price", "text": "₱1,500–3,000" },
-            { "text": " guesthouses to " },
+            { "text": " guesthouses to beach resorts at " },
             { "type": "price", "text": "₱5,000–12,000" },
-            { "text": "-or-more beach resorts." }
+            { "text": " and up." }
           ]
         },
         {
           "type": "paragraph",
           "children": [
             {
-              "text": "The island itself has almost no proper restaurants — just beach stalls selling coconut juice, instant noodles, and simple snacks. If your tour boat doesn't include lunch, bring water and snacks. On the way back at Virgin Island, local vendors crack open sea urchins on the spot or sell mango and buko juice. For a proper meal, it's best to head back to Alona Beach for a seafood barbecue or Filipino home-style food."
+              "text": "The island has almost no proper restaurants, only beach stalls selling coconut juice and simple snacks. If lunch is not included on your tour boat, bring water and snacks. Since Virgin Island reopened, the vendor stalls there are gone, so you can no longer expect to buy sea urchin or fruit as before. For a proper meal, head back to Alona Beach for a seafood barbecue and Filipino home cooking."
             }
           ]
         }
@@ -586,21 +863,14 @@
             {
               "children": [
                 {
-                  "text": "The environmental fee and snorkeling fee are collected on site in cash. Confirm when booking whether they're included in the tour price."
+                  "text": "Pay the environmental fee and snorkeling fee in cash. Be sure to check when booking whether the tour price includes the environmental fee, gear, lunch, and Virgin Island entry."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Protected-area snorkeling requires a guide and you can't drift on your own. If you're not confident swimming, wear a life jacket and hold on to the tube the guide pulls."
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "text": "Early morning gives the best odds of seeing sea turtles. Set your departure time so you arrive at the island around "
+                  "text": "Sea turtles are best seen in the early morning, before group boats crowd in, so the wait is shorter too. Set your departure time so you reach the island around "
                 },
                 { "type": "time", "text": "7 AM" },
                 { "text": "." }
@@ -609,41 +879,62 @@
             {
               "children": [
                 {
-                  "text": "Bringing a waterproof camera or case lets you capture turtles and coral. Underwater, wrap the strap around your wrist to avoid losing it."
+                  "text": "A guide is mandatory for snorkeling, and time in the water is limited. If you are not confident swimming, wear a life jacket and move along holding on to the guide's canoe."
                 }
               ]
             },
             {
               "children": [
-                { "text": "If you're prone to seasickness, take medication " },
+                {
+                  "text": "The quality of rental masks is inconsistent, so if possible bring your own mask and snorkel. The engine is loud, so earplugs can help too."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The area in front of the landing beach is crowded with boats, so see the coral zone on the opposite side, as your guide directs, first. The west coast is off-limits on days when the waves are high."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Some days the turtle zone has many jellyfish. A long-sleeved rash guard protects against both stings and sun, and wrap your waterproof camera strap around your wrist."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "If you are prone to seasickness, take your medication " },
                 { "type": "duration", "text": "30 minutes" },
                 {
-                  "text": " before departure. The sea around Balicasag has more swell than it looks."
+                  "text": " before departure. The sea has more swell than it looks, and the signal can be weak, so agree on a meeting time and place with your group in advance."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Smart and Globe signal is weak on the island. Agree on a meeting place and time with your group before you depart."
+                  "text": "Even with an Open Water certification, divers need to be careful about depth management on the wall, so use a dive computer, and Advanced level or above is recommended for Black Forest, where the current is strong."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Divers should use a dive computer even with an Open Water certification, given how carefully depth must be managed on the wall."
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "text": "Diving in the Balicasag sanctuary is capped at about 150 people a day (total across two dives), and a diver environmental fee (about "
+                  "text": "Diving at Balicasag has a daily visitor cap (about 150 people, two dives, according to the notice), and a separate environmental fee of about "
                 },
                 { "type": "price", "text": "₱250" },
                 {
-                  "text": " per person per day) is charged separately. In peak season, book with a licensed dive shop on Alona Beach by the evening before."
+                  "text": " applies. In peak season, book with a licensed dive shop a few days ahead."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "The sea depends on the weather, so scheduling this on a day with slack rather than the first day of your trip helps you cope with cancellations."
                 }
               ]
             }
@@ -663,10 +954,10 @@
           "icon": "warning",
           "children": [
             {
-              "text": "Touching or riding sea turtles and coral is strictly prohibited and subject to a fine if caught. Keep at least "
+              "text": "Touching, chasing, or feeding sea turtles, and stepping on or touching coral, are prohibited by marine protected area rules. Keep at least "
             },
             { "type": "distance", "text": "2–3m" },
-            { "text": " away from turtles." }
+            { "text": " away from turtles and stay within the zones and time set by your guide." }
           ]
         },
         {
@@ -677,35 +968,42 @@
             {
               "children": [
                 {
-                  "text": "Control your buoyancy so you don't stand on coral or kick it with your fins, and kick gently near the surface."
+                  "text": "Control your buoyancy so you don't kick or stand on the coral with your fins, and kick slowly at the surface."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Some ingredients in ordinary sunscreen harm coral. Use a reef-safe product or a rash guard instead."
+                  "text": "Some sunscreen ingredients harm coral. Use a reef-safe product or wear a rash guard."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Currents can suddenly strengthen at wall diving sites. Stay close to your guide and keep to the planned depth."
+                  "text": "Currents at wall diving sites can suddenly strengthen. Stay close to your guide and keep to the planned depth."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "The coast guard can ban departures in bad weather. Check the refund policy in advance in case your tour is cancelled."
+                  "text": "In bad weather the coast guard may bar departures and tours can be cancelled. Check the refund policy before you pay."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Accelerating a hopping boat to chase dolphins, or crowding them with multiple boats, causes the animals great stress. Ask your boat driver to keep a distance."
+                  "text": "Hopping boats accelerating to chase dolphins, or several boats surrounding them, cause the animals great stress. Ask your boat driver to keep a distance."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "At Virgin Island you must carry your trash back, and there are limits on length of stay and visitor numbers. The rules change often, so check the latest notice."
                 }
               ]
             }
@@ -725,11 +1023,11 @@
           "blocks": [
             {
               "type": "card",
-              "title": "Panglao Island",
               "place": "panglao",
+              "title": "Panglao Island",
               "children": [
                 { "text": "About " },
-                { "type": "duration", "text": "30–40 minutes" },
+                { "type": "duration", "text": "30–45 minutes" },
                 {
                   "text": " from Balicasag by boat, the departure point for hopping tours, with Alona Beach and cave pools."
                 }
@@ -737,36 +1035,48 @@
             },
             {
               "type": "card",
-              "title": "Chocolate Hills",
-              "place": "chocolate-hills",
+              "place": "alona-beach",
+              "title": "Alona Beach",
+              "children": [
+                {
+                  "text": "Panglao's main beach, where hopping tours and dive shops cluster, about "
+                },
+                { "type": "distance", "text": "10km" },
+                { "text": " in a straight line from Balicasag." }
+              ]
+            },
+            {
+              "type": "card",
+              "place": "pamilacan-island",
+              "title": "Pamilacan Island",
               "children": [
                 { "text": "About " },
-                { "type": "duration", "text": "1.5–2 hours" },
+                { "type": "duration", "text": "45 minutes–1 hour" },
                 {
-                  "text": " by car from Alona Beach, Bohol's signature cone-shaped hill landscape."
+                  "text": " by bangka from Panglao, a quiet fishing island on the route where dolphins and whales pass."
                 }
               ]
             },
             {
               "type": "card",
-              "title": "Loboc River",
+              "place": "chocolate-hills",
+              "title": "Chocolate Hills",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "1 hour 30 minutes–2 hours" },
+                {
+                  "text": " by car from Alona Beach, Bohol's signature landscape of cone-shaped hills."
+                }
+              ]
+            },
+            {
+              "type": "card",
               "place": "loboc-river",
+              "title": "Loboc River",
               "children": [
                 { "text": "About " },
                 { "type": "duration", "text": "1 hour" },
-                { "text": " by car from Alona Beach, famous for a buffet lunch river cruise." }
-              ]
-            },
-            {
-              "type": "card",
-              "title": "Siquijor",
-              "place": "siquijor",
-              "children": [
-                { "text": "About " },
-                { "type": "duration", "text": "2 hours" },
-                {
-                  "text": " by fast craft from Tagbilaran, an island of waterfalls, beaches, and mysterious legends."
-                }
+                { "text": " by car from Alona Beach, famous for its buffet lunch river cruise." }
               ]
             }
           ]

@@ -1,0 +1,963 @@
+{
+  "id": 267,
+  "slug": "ortigas-center",
+  "title": { "type": "title", "text": "オルティガス・センター" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Ortigas Center" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "モールと高層ビルが連なるマニラ第2のビジネス地区" },
+  "island_group": { "type": "badge", "label": "地方", "value": "luzon", "text": "ルソン" },
+  "region": { "type": "badge", "label": "地域", "value": "metro-manila", "text": "マニラ首都圏" },
+  "location": {
+    "type": "address",
+    "label": "所在地",
+    "icon": "location_on",
+    "text": "マニラ首都圏 パシグ・マンダルヨン・ケソン市の境界"
+  },
+  "category": {
+    "type": "badge",
+    "label": "カテゴリー",
+    "icon": "location_city",
+    "value": "city",
+    "text": "都市・グルメ"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "タグ",
+    "items": ["ビジネス地区", "ショッピングモール", "EDSA聖堂", "夜景", "屋内観光"]
+  },
+  "rating": { "type": "rating", "label": "おすすめ度", "value": 4.2, "max": 5 },
+  "latitude": { "type": "latitude", "label": "緯度", "value": 14.5833 },
+  "longitude": { "type": "longitude", "label": "経度", "value": 121.0611 },
+  "best_season": {
+    "type": "date",
+    "label": "ベストシーズン",
+    "icon": "calendar_month",
+    "text": "12月〜5月(乾季、12月〜2月が最も涼しい)",
+    "months": [12, 1, 2, 3, 4, 5]
+  },
+  "duration": { "type": "duration", "label": "旅行日数", "icon": "schedule", "text": "半日〜1日" },
+  "budget": {
+    "type": "price",
+    "label": "予算",
+    "icon": "payments",
+    "text": "1人あたり約₱600〜3,000(食事・交通・コーヒー・スカイバー、宿泊と買い物は除く)",
+    "currency": "PHP",
+    "min": 600,
+    "max": 3000
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "難易度",
+    "icon": "signal_cellular_alt",
+    "text": "やさしい",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "最寄り空港",
+    "icon": "flight",
+    "text": "ニノイ・アキノ国際空港(MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/267-ortigas-center.webp",
+    "alt": "高層ビルが集まるオルティガス・センター全景",
+    "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:EDSA-Ortigas_Avenue,_Ortigas_Center,_Wack-Wack_drone_(Quezon_City;_02-22-2026).jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "写真",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/267-ortigas-center-2.webp",
+        "alt": "夕暮れのオルティガス・センターの高層ビル群",
+        "credit": "Dandy1022 / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ortigas_Center_at_dusk.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/267-ortigas-center-3.webp",
+        "alt": "エドサ・シャングリ・ラとSMメガモールの屋根の向こうに見えるメガ・タワー",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mega_Tower_&_Ortigas_Center_in_the_afternoon,_June_2025.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/267-ortigas-center-4.webp",
+        "alt": "EDSA聖堂の平和の聖母像",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:EDSA_Shrine,_Ortigas_Center,_Apr_2025_(1).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/267-ortigas-center-5.webp",
+        "alt": "ロビンソンズ・ギャレリア正面の看板",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Robinsons_Galleria,_Ortigas_Center,_Apr_2025.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/267-ortigas-center-6.webp",
+        "alt": "ロビンソンズ・ギャレリア内部のアトリウム",
+        "credit": "Matthew Gan / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Robinsons_Galleria_Mall_Interior_Atrium_Quezon_City.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/267-ortigas-center-7.webp",
+        "alt": "MRT-3の線路沿いに立つSMメガモールのメガ・ファッション・ホールとメガ・タワー",
+        "credit": "Ganmatthew / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:SM_Megamall_Side_View_1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/267-ortigas-center-8.webp",
+        "alt": "ADBアベニューのザ・ポディウムの垂直庭園",
+        "credit": "Ganmatthew / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Podium_Mall_ADB_Avenue_1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/267-ortigas-center-9.webp",
+        "alt": "夜のシャングリ・ラ・プラザ",
+        "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Shangri-la_Mall,_Mandaluyong,_May_2025.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/267-ortigas-center-10.webp",
+        "alt": "高層ビルの間にあるオルティガス公園の入口",
+        "credit": "Ganmatthew / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ortigas_Park_Entrance.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/267-ortigas-center-11.webp",
+        "alt": "キャピトル・コモンズのエスタンシア・モール",
+        "credit": "RioHondo / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Estancia_Mall.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "EDSAの東側に高層ビルとSMメガモール、ロビンソンズ・ギャレリア、ザ・ポディウムが連なる、マニラ首都圏第2のビジネス地区です。EDSA聖堂で現代史に触れ、モールで買い物と食事を楽しみ、ホテルの屋上バーで夜景を眺める、半日〜1日の都市コースにぴったりです。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "概要",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "オルティガス・センターは、EDSAの東側、北はオルティガス通り、東はメラルコ通り、南はショー大通りに囲まれたビジネス地区です。面積は約1㎢(100ヘクタール強)と広くはありませんが、パシグ市・マンダルヨン市・ケソン市の3市の境にまたがっているため、同じ地区なのに住所表記は3つに分かれます。マカティに次ぐマニラ首都圏第2の中心業務地区(CBD)で、大企業の本社や銀行、大型ショッピングモール、ホテルがぎっしり集まっています。有名な観光名所を巡る場所というより、エアコンの効いたモールと高層ビルの間を歩きながら、マニラの人々の都会の暮らしを眺める場所に近いといえます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "この土地はもともと、アウグスチノ会の修道士が所有していた約4,000ヘクタールの「マンダルヨン領地(アシエンダ・デ・マンダルヨン)」でした。" },
+            { "type": "date", "text": "1920年1月20日" },
+            { "text": "に修道会が領地をフランク・W・ダドリーとドン・フランシスコ・オルティガスに売却し、" },
+            { "type": "date", "text": "1931年7月10日" },
+            {
+              "text": "にオルティガス・アンド・カンパニーが正式な会社として設立されました。現在の名前はこのオルティガス家に由来します。領地がビジネス・商業・住宅地区へと変わっていく中で、"
+            },
+            { "type": "date", "text": "1982年" },
+            {
+              "text": "に地区の管理を担うオルティガス・センター協会が作られ、この協会は今も地区の開発と管理を担っています。オルティガス公園の壁画や案内板で、この開発の歴史を絵で見ることができます。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "地区の姿を変えたのは" },
+            { "type": "date", "text": "1990年代" },
+            { "text": "の初めです。ロビンソンズ・ギャレリアが" },
+            { "type": "date", "text": "1990年1月12日" },
+            { "text": "、SMメガモールが" },
+            { "type": "date", "text": "1991年6月28日" },
+            { "text": "、シャングリ・ラ・プラザが" },
+            { "type": "date", "text": "1991年11月21日" },
+            { "text": "に相次いで開業し、アジア開発銀行(ADB)も" },
+            { "type": "date", "text": "1991年5月31日" },
+            { "text": "に本部をこのマンダルヨンに移しました。EDSAとオルティガス通りが交わる北端は、" },
+            { "type": "date", "text": "1986年2月" },
+            {
+              "text": "のピープルパワー革命で群衆が集まった場所で、その感謝を込めて建てられたEDSA聖堂が今も立っています。ショッピングモール、国際機関、大企業の本社、歴史の現場が1つの地区に重なっていることが、オルティガス・センターの個性です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "地区は大きく3つに分かれます。北側のケソン市側にはEDSA聖堂とロビンソンズ・ギャレリアが、西側のマンダルヨン側にはSMメガモール、ザ・ポディウム、シャングリ・ラ・プラザ、アジア開発銀行が、東側のパシグ側にはサンミゲル本社や銀行ビルなどの高層ビルが集まっています。同じマニラ首都圏の都心でも、性格は違います。"
+            },
+            { "type": "place_link", "text": "BGC", "slug": "bgc" },
+            { "text": "は旧軍基地跡に計画的に造られた新都心で、広い歩道と壁画が魅力、" },
+            { "type": "place_link", "text": "マカティ", "slug": "makati" },
+            {
+              "text": "はアヤラ通り沿いに博物館や庭園があり、ポブラシオンの路地には夜の遊び場が続きます。オルティガス・センターは、この2つより素朴で実用的です。モールがEDSAやMRTの駅にそのまま接しているので、雨の日や昼の暑さを避けて屋内で過ごすのに向いていて、日が暮れれば高層ホテルのスカイバーから夜景を眺められます。買い物と食事、都会の街歩き、EDSA聖堂のような現代史の現場を半日〜1日でまとめて回りたい旅行者によく合います。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "訪れる時間帯によって雰囲気が大きく変わります。平日の昼間は、お昼時(正午〜午後1時)にオフィスから出てきた会社員でフードコートやカフェが混み合い、帰宅ラッシュ(午後5〜8時)にはEDSAとオルティガス通りが最も渋滞します。週末はオフィスビル側が静かになる代わりに、どのモールも家族連れや映画・買い物を楽しむ若者でにぎわいます。旅行者なら、平日の午前か午後早めにEDSA聖堂と公園を見て、日が傾くころにモールとスカイバーへ移る流れがいちばん楽です。見どころの大半が屋内で移動も短いので、子どもや両親と一緒でも負担が少なくて済みます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "ぜひやりたいこと",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "SMメガモール",
+              "children": [
+                { "text": "EDSAとジュリア・バルガス通りの角にある大型モールで、" },
+                { "type": "date", "text": "1991年6月28日" },
+                { "text": "に開業しました。A・B・C棟と、" },
+                { "type": "date", "text": "2014年1月28日" },
+                {
+                  "text": "に開業したメガ・ファッション・ホールがつながっていて、メガ・ファッション・ホールにはオリンピック規格のアイスリンクとIMAXシアターがあります。隣のメガ・タワーは50階建て、高さ"
+                },
+                { "type": "distance", "text": "249.7m" },
+                { "text": "のオフィスビルです。SMは" },
+                { "type": "date", "text": "2024年6月" },
+                { "text": "に再開発計画を発表してA棟の一部を取り壊したので、工事で閉鎖されているエリアがないか、行く前に確認してください。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "ロビンソンズ・ギャレリア",
+              "children": [
+                { "type": "date", "text": "1990年1月12日" },
+                {
+                  "text": "に開業した、ロビンソンズ・モールの第1号店であり旗艦店です。5階建ての建物に約400の店とレストランが入り、同じ敷地にクラウンプラザとホリデイ・インのホテルが付いています。オルティガス・センターの最北端にあり、EDSA聖堂やMRTオルティガス駅から歩いて行くのに便利です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "EDSA聖堂",
+              "children": [
+                { "type": "date", "text": "1986年" },
+                { "text": "のピープルパワー革命に感謝して建てられ、" },
+                { "type": "date", "text": "1989年12月15日" },
+                { "text": "に献堂された聖堂です。建築家はフランシスコ・マニョーサで、広場の真ん中には高さ約" },
+                { "type": "distance", "text": "10.7m" },
+                { "text": "のブロンズの「平和の聖母像」が両腕を広げて立っています。" },
+                { "type": "date", "text": "2019年" },
+                { "text": "に重要文化財に指定され、" },
+                { "type": "date", "text": "2025年1月25日" },
+                { "text": "には司教協議会から国立聖地の地位を受けました。誰でも訪れることができる開かれた空間で、現代フィリピンの民主化の歴史を感じるのによい場所です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "ザ・ポディウムとADBアベニュー",
+              "children": [
+                { "type": "date", "text": "2002年8月" },
+                {
+                  "text": "に開業した約5万㎡のモールで、外壁を覆う垂直庭園が遠くからでも目を引きます。カフェやレストランが多く食事の場所として人気が高く、前のADBアベニューには自転車専用レーンがあり、歩いたり自転車に乗ったりしながら周囲の高層ビルを見上げるのによい通りです。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "シャングリ・ラ・プラザ",
+              "children": [
+                { "type": "date", "text": "1991年11月21日" },
+                {
+                  "text": "に開業したマンダルヨン側の大型モールで、MRTショー大通り駅とそのままつながっています。複数の階に約300の店とレストランがあり、6〜7階には映画館があって、すぐ隣にエドサ・シャングリ・ラ・ホテルがあります。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "オルティガス公園",
+              "children": [
+                {
+                  "text": "ルビー通りとオパール通りの交差点にある小さな都心の公園です。高層ビルの間に木陰と芝生があり、公園の壁にはマンダルヨン領地の時代からオルティガス家が地区を開発してきた過程を描いた壁画と案内板が掲げられています。モールの間を行き来する途中で、ちょっと一息つくのによい場所です。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "マルコ・ポーロの屋上スカイバー",
+              "children": [
+                {
+                  "text": "マルコ・ポーロ・オルティガス・マニラ・ホテル屋上のVU'sスカイバー&ラウンジは、オルティガス・センターの夜景を見下ろせる代表的な場所です。月〜土曜の"
+                },
+                { "type": "time", "text": "午後5時〜午前1時" },
+                { "text": "に営業し、日曜は休みで、入場は18歳以上、服装はスマートカジュアルです。" }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "エスタンシアとティエンデシタス",
+              "children": [
+                {
+                  "text": "メラルコ通りとショー大通りが交わるキャピトル・コモンズの敷地にあるエスタンシアは、通り沿いに店やレストランが並ぶ屋外型のモールです。中心から東へ約"
+                },
+                { "type": "distance", "text": "3km" },
+                { "text": "離れたオルティガス・イーストのティエンデシタスは、" },
+                { "type": "date", "text": "2005年" },
+                {
+                  "text": "に開業した市場兼ショッピングエリアで、工芸品や骨董品、屋台がそろっています。同じオルティガス系列ですがビジネス地区の中ではないので、車で別に出かけてください。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "モデルコース",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "半日コース",
+              "subtitle": "午後3時〜午後10時",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "15:00",
+                      "children": [
+                        {
+                          "text": "MRT-3のオルティガス駅で降り、EDSAとオルティガス通りの角にあるEDSA聖堂へ向かいます。平和の聖母像と広場を見て回ります"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "16:00",
+                      "children": [{ "text": "すぐ隣のロビンソンズ・ギャレリアでコーヒーを飲んで休んだり、買い物をしたりします" }]
+                    },
+                    {
+                      "time": "17:30",
+                      "children": [
+                        { "text": "MRTかタクシーでショー大通り方面へ南下し、SMメガモールのメガ・ファッション・ホールとシャングリ・ラ・プラザを見て回ります" }
+                      ]
+                    },
+                    {
+                      "time": "19:00",
+                      "children": [{ "text": "ザ・ポディウムかシャングリ・ラ・プラザのレストランで夕食をとります" }]
+                    },
+                    {
+                      "time": "20:30",
+                      "children": [{ "text": "マルコ・ポーロ・オルティガスのVU'sスカイバーに上がって夜景を楽しみます(月〜土)" }]
+                    },
+                    { "time": "22:00", "children": [{ "text": "Grabかタクシーを呼んでホテルに戻ります" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1日コース",
+              "subtitle": "午前9時〜午後10時",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "09:00", "children": [{ "text": "まずEDSA聖堂を訪れ、人の少ない時間に静かに見て回ります" }] },
+                    { "time": "10:30", "children": [{ "text": "ロビンソンズ・ギャレリアを見て回り、早めの昼食をとります" }] },
+                    {
+                      "time": "13:00",
+                      "children": [{ "text": "タクシーでADBアベニューのザ・ポディウムに移動し、カフェで休みます" }]
+                    },
+                    {
+                      "time": "14:30",
+                      "children": [{ "text": "オルティガス公園で壁画を見て、キャピトル・コモンズのエスタンシアまで歩きます" }]
+                    },
+                    {
+                      "time": "16:00",
+                      "children": [{ "text": "SMメガモールのメガ・ファッション・ホールで買い物と見物をし、アイスリンクをのぞきます" }]
+                    },
+                    {
+                      "time": "18:30",
+                      "children": [{ "text": "シャングリ・ラ・プラザ周辺で夕食をとり、夕暮れに高層ビルの明かりがともるのを眺めます" }]
+                    },
+                    { "time": "20:30", "children": [{ "text": "VU'sスカイバーで夜景を眺め、Grabで帰ります" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "時間が余れば、タクシーで" },
+                    { "type": "duration", "text": "10〜20分" },
+                    { "text": "の距離にあるグリーンヒルズ・ショッピングセンターやカピトリヨのレストラン街を組み合わせられます。マニラ首都圏のほかの都心は、" },
+                    { "type": "place_link", "text": "BGC", "slug": "bgc" },
+                    { "text": "と" },
+                    { "type": "place_link", "text": "マカティ", "slug": "makati" },
+                    { "text": "の項目でご覧いただけます。" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "アクセス",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "マニラ空港からタクシー・Grab",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "ニノイ・アキノ国際空港(NAIA)からオルティガス・センターまでは約" },
+                        { "type": "distance", "text": "14km" },
+                        { "text": "で、交通状況により" },
+                        { "type": "duration", "text": "30分〜1時間10分" },
+                        { "text": "かかります。通勤ラッシュの時間帯はさらに延びます。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "空港の案内では、タクシーのメーター料金はオルティガス・センターまでおよそ" },
+                        { "type": "price", "text": "₱200〜300" },
+                        { "text": "(通行料別)とされ、Grabは約" },
+                        { "type": "price", "text": "₱300〜600" },
+                        { "text": "と案内されています。" },
+                        { "type": "date", "text": "2026年9月28日" },
+                        {
+                          "text": "から、アプリ配車(TNVS)の基本料金が車種により20%上がり、空港タクシーの初乗り料金も₱115に上がったので、まずアプリで料金を確認してください。"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "到着ロビーの外で客引きをする個人の車は避け、公式のタクシー乗り場かGrabの乗車エリアを利用してください。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "MRT-3電車",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "MRT-3のオルティガス駅はEDSAのど真ん中にあり、北端のノース・アベニュー駅から約" },
+                        { "type": "distance", "text": "7.9km" },
+                        { "text": "です。ショー大通り駅(シャングリ・ラ・プラザに直結)がすぐ次の駅です。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "料金は乗った駅の数によって約" },
+                        { "type": "price", "text": "₱13〜28" },
+                        { "text": "で、政府は" },
+                        { "type": "date", "text": "2026年3月23日" },
+                        { "text": "からMRT-3とLRT-2の運賃を50%割引にすると発表しました。今も適用されているかは、駅の窓口で確認してください。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "この路線は" },
+                        { "text": "2025年", "type": "date" },
+                        {
+                          "text": "に1日平均約39万人が乗った路線なので、通勤ラッシュ(午前7〜9時、午後5〜8時)は非常に混みます。バッグは前に抱え、スリに気をつけてください。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "EDSAカルーセルバス",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "EDSAのバス専用レーンを走るカルーセルバスがオルティガス・センターを通り、オルティガス停留所はMRTオルティガス駅の横の中央停留所です。"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "料金は最初の" },
+                        { "type": "distance", "text": "4km" },
+                        { "text": "が約" },
+                        { "type": "price", "text": "₱15" },
+                        { "text": "で、その後は距離に応じて上がります。現金が便利ですが、Beepカードも使える場合があるので、乗るときに確認してください。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ジープニー・UVエクスプレス",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "オルティガス通りとEDSAを行き来するジープニーや、マカティ・ケソン市方面のUVエクスプレスがたくさんあります。" },
+                        { "type": "date", "text": "2026年9月28日" },
+                        { "text": "から、一般のジープニーの最低料金は" },
+                        { "type": "price", "text": "₱14" },
+                        { "text": "、モダン・ジープニーは" },
+                        { "type": "price", "text": "₱17" },
+                        { "text": "に上がりました。" }
+                      ]
+                    },
+                    { "children": [{ "text": "路線名は地元の人に尋ねて確認し、降りる場所は運転手に前もって伝えてください。" }] }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "BGC・マカティから移動",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "type": "place_link", "text": "BGC", "slug": "bgc" },
+                        { "text": "からは、" },
+                        { "type": "date", "text": "2021年10月" },
+                        { "text": "に完成したBGC–オルティガス連絡道路のおかげで、車で約" },
+                        { "type": "duration", "text": "12〜30分" },
+                        { "text": "(交通状況による)で行けます。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "type": "place_link", "text": "マカティ", "slug": "makati" },
+                        { "text": "のアヤラからは、タクシーやGrabで" },
+                        { "type": "duration", "text": "30分〜1時間" },
+                        { "text": "前後で、帰宅ラッシュにはEDSAの渋滞がひどくなります。" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "歩いて回る",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "EDSA聖堂、ギャレリア、SMメガモール、シャングリ・ラ・プラザはEDSA沿いに並んでいますが、それぞれ" },
+                        { "type": "distance", "text": "1〜2km" },
+                        { "text": "離れているので、昼間は暑さを避けてMRTやタクシーを組み合わせてください。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "メラルコ通り側は、マニラ首都圏地下鉄オルティガス駅の工事のため、一部の道が閉鎖されたり遠回りが必要になったりすることがあります。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "ベストシーズンと天気",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "マニラ首都圏は" },
+            { "type": "date", "text": "12月〜5月" },
+            { "text": "が乾季で、そのうち" },
+            { "type": "date", "text": "12月〜2月" },
+            { "text": "が最も涼しい時期です。1月の日中の平均最高気温は約" },
+            { "type": "temperature", "text": "30℃" },
+            { "text": "で、地区の中を歩いて回るのに最もよい時期です。" },
+            { "type": "date", "text": "3月〜5月" },
+            { "text": "は暑くて乾燥し、4月には平均最高気温が約" },
+            { "type": "temperature", "text": "34℃" },
+            {
+              "text": "まで上がるので、この時期は昼間をモールなど屋内で過ごし、屋外は朝と夕暮れに回ってください。オルティガス・センターはモールが中心なので、どの季節でも屋内の予定を組みやすいのが利点です。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "type": "date", "text": "6月〜11月" },
+            { "text": "の雨季はにわか雨が多く、" },
+            { "type": "date", "text": "6月〜9月" },
+            {
+              "text": "には台風が最も多く通ります。7〜8月は1か月に19日近く雨が降り、大雨になるとEDSAや地区内の道路が冠水して渋滞が極端にひどくなります。雨の予報があれば移動を前倒しし、帰宅ラッシュの時間帯(午後5〜8時)は避けてください。"
+            },
+            { "type": "date", "text": "12月" },
+            { "text": "はモールごとにクリスマスの飾りつけとセールが続き、いちばん活気があります。" }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "時期別ひと目表",
+          "icon": "calendar_month",
+          "columns": ["時期", "天気", "旅のポイント"],
+          "rows": [
+            ["12月〜2月", "乾季、涼しく晴れ", "歩くのに最適な時期、12月のモールの飾りつけと年末の雰囲気"],
+            ["3月〜5月", "暑くて乾燥、日中は30℃台半ば", "昼は屋内のモール中心、夕暮れ以降は夜景とスカイバー"],
+            ["6月〜9月", "雨季、にわか雨と台風", "大雨で道路が渋滞、屋内の予定が中心"],
+            ["10月〜11月", "雨季から乾季への移行期", "天気は落ち着き始めるが、にわか雨に備える"]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "費用の目安",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["項目", "予想費用", "備考"],
+          "items": [
+            { "label": "EDSA聖堂・オルティガス公園", "price": "無料", "note": "聖堂への献金は任意" },
+            { "label": "MRT-3", "price": "約₱13〜28", "note": "区間別、2026年3月から50%割引と発表" },
+            { "label": "EDSAカルーセルバス", "price": "約₱15〜", "note": "最初の4km基準" },
+            { "label": "ジープニー", "price": "₱14〜", "note": "2026年9月28日からの最低料金" },
+            {
+              "label": "空港〜オルティガス間のタクシー・Grab",
+              "price": "約₱300〜600",
+              "note": "メーター料金は₱200〜300前後、通行料別"
+            },
+            { "label": "モールのフードコートで1食", "price": "約₱250〜350", "note": "ファストフードは₱150前後から" },
+            { "label": "カフェのコーヒー1杯", "price": "約₱140〜220", "note": "チェーン店か専門カフェかで異なる" },
+            { "label": "エコノミーホテル", "price": "1泊約₱1,500〜2,500", "note": "Go HotelsやRed Planetクラス" },
+            {
+              "label": "4〜5つ星ホテル",
+              "price": "1泊約₱4,500〜8,000",
+              "note": "クラウンプラザ・マルコ・ポーロ・シャングリ・ラクラス、日にちにより変動"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "料金は" },
+            { "type": "date", "text": "2026年" },
+            { "text": "基準のおおよその目安で、現地の事情により変わることがあります。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "宿泊とグルメ",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "泊まる場所は大きく3種類あります。いちばん便利なのは地区内のホテルで、ロビンソンズ・ギャレリアの敷地にあるクラウンプラザとホリデイ・イン、エドサ・シャングリ・ラ、マルコ・ポーロ・オルティガス・マニラが代表的です。4〜5つ星は日にちにより1泊約"
+            },
+            { "type": "price", "text": "₱4,500〜8,000" },
+            { "text": "です。費用を抑えるなら、地区の端にあるGo HotelsやRed Planetのようなエコノミーホテル(1泊約" },
+            { "type": "price", "text": "₱1,500〜2,500" },
+            {
+              "text": ")を選ぶとよく、これらもMRTの駅やモールまで歩いて行ける所が多くあります。オルティガス・センターはビジネス地区なので、平日の昼は人が多く、週末の夜は静かになり、週末はホテルの値段が下がることがよくあります。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "食べ物はモールの中にほとんどそろっています。フードコートは1食約" },
+            { "type": "price", "text": "₱250〜350" },
+            {
+              "text": "で、ザ・ポディウムやシャングリ・ラ・プラザ、SMメガモールには和食・韓国料理・洋食・カフェが各階に集まっています。フィリピンを代表するファストフードのジョリビーの本社ビルであるジョリビー・タワーもこの地区にあり、どこでもジョリビーを簡単に見つけられます。韓国料理が恋しくなったら、ザ・ポディウムのようなモールで韓国料理店も見つかり、マルコ・ポーロ・ホテルの広東料理、マンダルヨン側のさまざまなアジア料理店もあります。もう少し地元の雰囲気のある飲食街を望むなら、タクシーで近くのパシグのカピトリヨへどうぞ。民家を改装したフィリピン・東南アジア料理店やイタリア料理店、カフェが路地に集まっています。店はよく入れ替わるので、営業しているかは行く前に地図アプリで確認してください。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "ブランチやパンを楽しむなら、ザ・ポディウムにあるWildflour Café + Bakeryが昔から知られています。お酒と夜景が目的なら、マルコ・ポーロ・ホテル屋上のVU'sスカイバーが"
+            },
+            { "type": "date", "text": "2014年" },
+            {
+              "text": "ごろからこの地区の代表的な展望バーに挙げられてきました。ドリンクとおつまみの値段はモールのレストランより高いので、夕暮れの時間に合わせて上がり、カクテルを1〜2杯飲みながら景色を楽しむ方法なら負担が少なくて済みます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "旅のヒント",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "モールは通常、午前10時に開き、午後9〜10時に閉まります。" },
+                { "type": "date", "text": "2026年3月" },
+                { "text": "にエネルギー緊急事態で短縮されていた営業時間は、" },
+                { "type": "date", "text": "6月" },
+                { "text": "末からほとんどのモールで通常に戻りましたが、モールによって違うことがあるので、訪れる前に確認してください。" }
+              ]
+            },
+            { "children": [{ "text": "たいていのモールはエアコンが強いです。薄手の上着を1枚持っていくと、屋内で寒く感じにくくなります。" }] },
+            {
+              "children": [
+                { "text": "モールの入口ではバッグ検査と金属探知機を通ります。大きなリュックやスーツケースは、荷物預かりの案内を確認してください。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "EDSA聖堂は宗教施設です。露出の多い服は避け、ミサの間は静かにしてください。ミサの時間は変わるので、" },
+                { "type": "link", "text": "公式サイト", "url": "https://edsashrine.org" },
+                { "text": "か聖堂に確認してください。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "VU'sスカイバーは、短パン・サンダル・ノースリーブの服装だと入場を断られることがあります。予約して行くのが安全です。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "タクシーよりGrabを使うと、料金を事前に知ることができます。ラッシュ時は配車待ちが長くなるので、余裕を持って呼んでください。" }
+              ]
+            },
+            { "children": [{ "text": "雨の日は地区内の歩道が滑りやすく、一部の道路が冠水します。モール同士をつなぐ歩道橋や屋内通路を活用してください。" }] },
+            { "children": [{ "text": "お昼時(正午〜午後1時)はフードコートや人気店に長い列ができます。少し早めか遅めに食べるとゆったりできます。" }] },
+            {
+              "children": [
+                { "text": "モールはカード決済が広く使えますが、小さな屋台やタクシー、ジープニーは現金が便利です。小額紙幣を多めに用意してください。" }
+              ]
+            },
+            {
+              "children": [
+                { "text": "買い物が目的なら、隣のグリーンヒルズのティアンゲ(露店市場)は値段交渉ができますが、真珠のような高額品は何軒か価格を比べてください。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "注意事項",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            { "text": "EDSA聖堂の周辺は、" },
+            { "type": "date", "text": "2025年9月" },
+            { "text": "から" },
+            { "type": "date", "text": "2026年2月" },
+            {
+              "text": "まで、汚職に抗議する「1兆ペソ行進」など大規模な集会が開かれた場所です。集会がある日はEDSAの交通が規制されて人が集まるので、その日は聖堂への訪問を避けるか、ニュースを確認してください。"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "韓国外交部は" },
+                { "type": "date", "text": "2026年7月" },
+                {
+                  "text": "の渡航情報の定期調整で、フィリピンのサンボアンガ半島とスールー・バシラン・タウィタウィ諸島を渡航禁止地域に維持し、マニラ首都圏は含まれていません。それでも出発前に、外交部の海外安全旅行サイトで現在の警報を確認してください。"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "MRTやジープニー、モール前の歩道でスリやスマートフォンのひったくりが起きています。スマートフォンは道路側で取り出さず、バッグは前に抱えてください。"
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "雨季の大雨の際は、EDSAや地区内の道路が冠水して、タクシーをつかまえにくくなります。台風の予報があれば、屋外の予定を減らしてください。" }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "SMメガモールは再開発計画に沿って工事が続くことがあり、メラルコ通り側では地下鉄オルティガス駅の工事が進行中です。閉鎖された道や騒音、迂回の案内板があるかもしれません。"
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "マニラ首都圏地下鉄は" },
+                { "type": "date", "text": "2032年" },
+                { "text": "開業予定のため、今回の旅程では利用できません。案内記事に地下鉄で来る方法が載っていても、まだ利用できません。" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "あわせて訪れたい場所",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "グリーンヒルズ・ショッピングセンター",
+              "children": [
+                { "text": "タクシーで" },
+                { "type": "duration", "text": "10〜20分" },
+                {
+                  "text": "、サンファン市にある大型ショッピングセンターと露店市場(ティアンゲ)で、お土産や真珠製品を見て回るのによい場所です。価格比較は必ずしてください。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "BGC",
+              "place": "bgc",
+              "children": [
+                { "text": "車で約" },
+                { "type": "duration", "text": "12〜30分" },
+                { "text": "、壁画と広い歩道、世界各国のレストランが集まる計画新都心です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "マカティ",
+              "place": "makati",
+              "children": [
+                { "text": "タクシーで" },
+                { "type": "duration", "text": "30分〜1時間" },
+                { "text": "、アヤラ博物館と庭園、ポブラシオンの路地があるマニラ随一の金融都市です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "ケソン・メモリアル・サークル",
+              "place": "quezon-memorial-circle",
+              "children": [
+                { "text": "タクシーで" },
+                { "type": "duration", "text": "30〜50分" },
+                { "text": "(交通状況で大きく変わります)、記念塔と博物館、フードパークがあるケソン市の代表的な公園です。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "アンティポロ",
+              "place": "antipolo",
+              "children": [
+                { "text": "車で" },
+                { "type": "duration", "text": "1〜2時間" },
+                { "text": "(交通状況による)、巡礼教会とマニラの眺めがあるリサール州の丘の町です。週末は渋滞がひどいです。" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

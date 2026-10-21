@@ -29,8 +29,8 @@
     "items": ["Rùa biển", "Lặn ống thở", "Lặn scuba", "Khu bảo tồn biển", "Rạn san hô"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.8, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.076 },
-  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.27 },
+  "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.0768 },
+  "longitude": { "type": "longitude", "label": "Kinh độ", "value": 123.2688 },
   "best_season": {
     "type": "date",
     "label": "Thời điểm lý tưởng",
@@ -48,7 +48,7 @@
     "type": "price",
     "label": "Ngân sách",
     "icon": "payments",
-    "text": "Khoảng ₱2,500–4,500/người",
+    "text": "Khoảng ₱2,500–4,500/người (tính theo tour trong ngày)",
     "currency": "PHP",
     "min": 2500,
     "max": 4500
@@ -71,7 +71,7 @@
   "image": {
     "type": "image",
     "url": "images/082-apo-island.webp",
-    "alt": "Đảo Apo",
+    "alt": "Toàn cảnh đảo Apo nhô lên giữa biển",
     "credit": "Mike Gonzalez (TheCoffee) / CC BY-SA 3.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_east.jpg"
   },
@@ -82,16 +82,72 @@
       {
         "type": "image",
         "url": "images/082-apo-island-2.webp",
-        "alt": "Đảo Apo",
+        "alt": "Rùa xanh nghỉ ngơi trên rạn san hô",
         "credit": "Anna Varona / CC BY 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Sea_Turtle_in_Apo_Island.jpg"
       },
       {
         "type": "image",
         "url": "images/082-apo-island-3.webp",
-        "alt": "Đảo Apo",
+        "alt": "Thuyền bangka và khu nghỉ dưỡng neo trước bãi biển của làng",
         "credit": "Clover117 / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_on_the_side_of_Balay_Reef.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-4.webp",
+        "alt": "Lặn ống thở cùng rùa biển trên thảm cỏ biển",
+        "credit": "Achilezweb / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Swimming-with-turtles-apo-island-archie-mercader.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-5.webp",
+        "alt": "Thuyền bangka đậu trên bãi cát dưới vách đá",
+        "credit": "jackylim / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_island_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-6.webp",
+        "alt": "Biển và thuyền bangka nhìn qua khe đá",
+        "credit": "jackylim / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_-_Negros_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-7.webp",
+        "alt": "Thợ lặn bơi qua vườn san hô trong khu bảo tồn",
+        "credit": "Anna Varona / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Visitors_in_a_Marine_Sanctuary.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-8.webp",
+        "alt": "Vách đá và rạn san hô nông của đảo (ảnh chụp một nửa trên mặt nước, một nửa dưới nước)",
+        "credit": "Pacificklaus / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_Over-Under.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-9.webp",
+        "alt": "Vách đá đen gần nơi tàu cập bờ",
+        "credit": "Mike / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_rocks.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-10.webp",
+        "alt": "Rạn san hô đảo Apo với sao lông vũ và san hô đĩa",
+        "credit": "Wellbeach Dive Resort / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2Apo_Island_scuba_diving.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-11.webp",
+        "alt": "Thuyền bangka nổi ngoài khơi và sườn núi phủ rừng",
+        "credit": "CariolaMinze / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Island,_near_Negros.JPG"
       }
     ]
   },
@@ -115,11 +171,27 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Đảo Apo là một hòn đảo núi lửa nhỏ có diện tích khoảng 0,7km², cách bờ biển đông nam đảo Negros khoảng "
+              "text": "Đảo Apo là một hòn đảo núi lửa nhỏ nhô lên giữa biển, cách mũi đông nam đảo Negros khoảng "
             },
             { "type": "distance", "text": "7km" },
+            { "text": ". Diện tích đảo khoảng 0,74㎢, chỉ dài khoảng " },
+            { "type": "distance", "text": "1,5km" },
+            { "text": " theo hướng bắc–nam và khoảng " },
+            { "type": "distance", "text": "1km" },
+            { "text": " theo hướng đông–tây, điểm cao nhất cũng chỉ khoảng " },
+            { "type": "distance", "text": "120m" },
+            { "text": " so với mực nước biển. Đường bờ biển dài khoảng " },
+            { "type": "distance", "text": "4,5km" },
             {
-              "text": ". Về hành chính, đảo thuộc thành phố Dauin, với khoảng 1.000 cư dân sinh sống bằng nghề đánh cá và du lịch. Đảo trùng tên với núi Apo ở Mindanao nhưng hoàn toàn là hai nơi khác nhau, đừng nhầm lẫn. Phía tây đảo có làng chài và bãi cát, phía đông là vách đá, và toàn bộ đảo được bao quanh bởi rạn san hô."
+              "text": ", với bảy bãi biển nhỏ nằm xen giữa những vách đá dựng đứng. Về hành chính, đảo là một barangay (làng) của thành phố Dauin, tỉnh Negros Oriental; theo điều tra dân số "
+            },
+            { "type": "date", "text": "năm 2020" },
+            {
+              "text": ", 920 người sống bằng nghề đánh cá và du lịch. Đảo trùng tên với núi Apo ở Mindanao và "
+            },
+            { "type": "place_link", "text": "Rạn san hô Apo", "slug": "apo-reef" },
+            {
+              "text": " ngoài khơi Mindoro nhưng hoàn toàn là những nơi khác, nên đừng nhầm lẫn khi đặt chỗ."
             }
           ]
         },
@@ -127,19 +199,29 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Lý do hòn đảo này nổi tiếng khắp thế giới không nằm ở bản thân vùng biển, mà ở \"cách nó được gìn giữ\". Vào những năm "
+              "text": "Lý do hòn đảo này nổi tiếng không nằm ở bản thân vùng biển mà ở cách nó được gìn giữ. Vào những năm "
             },
             { "type": "date", "text": "1970" },
             {
-              "text": ", khi rạn san hô bị tàn phá bởi đánh bắt bằng thuốc nổ và khai thác quá mức, nhà sinh vật học biển Tiến sĩ Angel Alcala của Đại học Silliman cùng người dân đã thiết lập một khu vực cấm đánh bắt ở phía đông nam đảo vào khoảng năm "
+              "text": ", rạn san hô bị tàn phá bởi đánh bắt bằng thuốc nổ và muro-ami (kiểu đánh bắt đập san hô để lùa cá), khiến sản lượng cá liên tục giảm. Năm "
+            },
+            { "type": "date", "text": "1979" },
+            {
+              "text": ", Viện Nghiên cứu Biển của Đại học Silliman ở Dumaguete đề xuất lập khu bảo tồn cấm hoàn toàn việc đánh bắt, và sau nhiều cuộc trao đổi kéo dài với người dân, TS. Angel Alcala cùng ngư dân đã tự quy định vào năm "
             },
             { "type": "date", "text": "1982" },
+            { "text": " một khu vực cấm đánh bắt gồm đoạn bờ biển khoảng " },
+            { "type": "distance", "text": "450m" },
+            { "text": " và vùng biển ra phía ngoài " },
+            { "type": "distance", "text": "500m" },
+            { "text": ". Năm " },
+            { "type": "date", "text": "1985" },
             {
-              "text": ". Nhờ người dân tự tuần tra và tuân thủ quy định, chỉ vài năm sau cá đã trở lại, và sản lượng đánh bắt ngoài khu vực cấm cũng tăng lên. Sau đó, vào năm "
+              "text": ", người dân và hội đồng địa phương đưa quy định này thành sắc lệnh, giao cho người dân được bầu trên đảo quản lý, và "
             },
-            { "type": "date", "text": "1994" },
+            { "type": "date", "text": "ngày 9 tháng 8 năm 1994" },
             {
-              "text": ", nơi đây được công nhận là cảnh quan và vùng biển được bảo vệ, trở thành mô hình mẫu mực trên thế giới về khu bảo tồn biển dựa vào cộng đồng."
+              "text": ", theo Tuyên bố của Tổng thống số 438, đảo cùng vùng biển xung quanh rộng khoảng 691 ha được công nhận là khu cảnh quan và vùng biển được bảo vệ. Đây là khu bảo tồn biển cộng đồng lâu đời thứ hai ở Philippines, và có báo cáo cho biết khối lượng cá săn mồi lớn trong khu vực cấm đã tăng gấp tám lần."
             }
           ]
         },
@@ -147,11 +229,15 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Ngày nay, vùng biển đảo Apo được ghi nhận có hơn 650 loài cá và hơn 400 loài san hô. Điều hấp dẫn nhất với du khách là gần như lần nào cũng có thể thấy rùa xanh và rùa đồi mồi ăn rong biển ở vùng nước nông sâu khoảng "
+              "text": "Ngày nay, vùng biển đảo Apo được ghi nhận có hơn 650 loài cá và hơn 400 loài san hô, chiếm phần lớn trong khoảng 450 loài san hô có ở Philippines. Điều hấp dẫn nhất với du khách là có thể ngắm từ gần rùa xanh và rùa đồi mồi đang gặm cỏ trên thảm cỏ biển nông ngay trước bãi biển. Dù bơi không giỏi, bạn vẫn có thể tận hưởng đầy đủ nếu mặc áo phao và đi theo hướng dẫn viên của làng. Các hướng dẫn viên này thuộc tổ chức mà người dân thành lập chính thức vào "
             },
-            { "type": "distance", "text": "2–5m" },
+            { "type": "date", "text": "năm 2010" },
             {
-              "text": ". Dù bơi không giỏi, bạn vẫn có thể tận hưởng đầy đủ nếu mặc áo phao và đi theo hướng dẫn viên."
+              "text": " (ASIERGA), có hơn 300 thành viên và được đào tạo về luật môi trường cũng như cách tiếp đón khách. Vào "
+            },
+            { "type": "date", "text": "năm 2024" },
+            {
+              "text": ", cán bộ hiện trường của Bộ Môi trường và Tài nguyên Thiên nhiên (DENR) cho biết mỗi tháng có khoảng 3.000 người đến đảo."
             }
           ]
         },
@@ -159,7 +245,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Với thợ lặn, nơi đây có vách đá phía đông với dòng chảy mạnh và các điểm lặn trải dài vườn san hô. Đây là nơi làm hài lòng nhiều đối tượng khác nhau, từ gia đình muốn lặn ống thở ngắm rùa biển, thợ lặn dày dạn muốn xem đàn cá jack, cho đến những ai muốn qua đêm trên hòn đảo yên tĩnh với điện hạn chế."
+              "text": "Nơi đây phù hợp với gia đình muốn lặn ống thở ngắm rùa, thợ lặn dày dạn tìm kiếm những vách đá có dòng chảy và vườn san hô, cũng như du khách muốn nghỉ đêm trên hòn đảo yên tĩnh vào buổi chiều khi khách đi trong ngày đã rời đi. Tuy nhiên, điện, nước và sóng điện thoại đều hạn chế, và có những ngày thuyền không ra khơi được vì thời tiết."
             }
           ]
         }
@@ -178,32 +264,34 @@
             {
               "type": "card",
               "number": 1,
-              "title": "Lặn ống thở ngắm rùa biển",
+              "title": "Lặn ống thở ngắm rùa",
               "children": [
                 {
-                  "text": "Bạn có thể ngắm nhìn từ gần những con rùa biển đang ăn rong ở vùng nước nông trước bãi biển của làng. Bắt buộc phải có hướng dẫn viên đi cùng, và cần giữ khoảng cách ít nhất "
+                  "text": "Gần như lần nào bạn cũng gặp rùa biển đang gặm cỏ trên thảm cỏ biển nông trước làng. Khu vực có rùa về nguyên tắc phải có hướng dẫn viên của làng đi cùng, và theo hướng dẫn, bạn cần giữ khoảng cách từ "
                 },
-                { "type": "distance", "text": "4m" },
-                { "text": " với rùa, không được chạm vào hay đuổi theo." }
+                { "type": "distance", "text": "3m" },
+                {
+                  "text": " trở lên, không được chạm vào hay đuổi theo rùa. Để bảo vệ san hô, có lúc người ta không cho dùng chân vịt mà chỉ cho dùng kính lặn và áo phao, nên hãy làm theo chỉ dẫn của hướng dẫn viên."
+                }
               ]
             },
             {
               "type": "card",
               "number": 2,
-              "title": "Lặn ngắm vườn san hô trong khu bảo tồn",
+              "title": "Vườn san hô trong khu bảo tồn",
               "children": [
                 {
-                  "text": "Quanh khu bảo tồn ở phía đông nam đảo, san hô bàn và san hô mềm mọc dày đặc, và nếu may mắn bạn có thể gặp đàn cá jack và cá nhồng. Việc lặn trong khu bảo tồn được quản lý về số lượng người và số lần lặn, nên cần đặt chỗ qua tiệm lặn địa phương."
+                  "text": "Bên trong khu bảo tồn của đảo, san hô lá, san hô bàn và san hô mềm mọc dày đặc, bạn có thể thấy rùa, cá bò (triggerfish) và cá mó (parrotfish). Số người được phép vào bị giới hạn, có những ngày chỉ cho phép lặn ống thở, nên hãy đặt chỗ qua tiệm lặn và làm theo hướng dẫn tại chỗ vào ngày đó."
                 }
               ]
             },
             {
               "type": "card",
               "number": 3,
-              "title": "Coconut Point và Chapel Point",
+              "title": "Chapel Point · Coconut Point · Cogon Point",
               "children": [
                 {
-                  "text": "Coconut Point ở phía đông bắc đảo nổi tiếng với kiểu lặn trôi theo dòng chảy, còn Chapel Point ở phía tây tương đối êm dịu nên được thợ lặn trình độ trung bình ưa chuộng. Vì nhiều ngày có dòng chảy mạnh, hãy luôn làm theo chỉ dẫn của hướng dẫn viên."
+                  "text": "Ở Chapel Point, dốc cát nối liền với vách đá sâu hơn 30m, nơi bạn có thể thấy hang nhỏ và rùa. Coconut Point và Cogon Point có dòng chảy mạnh, nổi tiếng với kiểu lặn trôi theo dòng, dành cho thợ lặn trình độ trung cấp và cao cấp; còn Rock Point East và West có nhiều cá frogfish và sên biển trên sườn san hô. Đi điểm nào do tiệm lặn quyết định dựa trên dòng chảy của ngày hôm đó."
                 }
               ]
             },
@@ -212,10 +300,16 @@
               "number": 4,
               "title": "Trekking đến đài quan sát hải đăng",
               "children": [
-                { "text": "Từ làng, đi theo bậc thang và đường đất khoảng " },
+                {
+                  "text": "Từ phía sau Liberty's Lodge ở trên làng, leo bậc thang dốc và đường đất khoảng "
+                },
                 { "type": "duration", "text": "20–30 phút" },
                 {
-                  "text": " leo lên là đến ngọn hải đăng gần đỉnh đảo. Từ đây bạn có thể nhìn xuống đảo Negros, Siquijor, và vào những ngày trời quang có thể thấy cả vùng biển hướng về Mindanao."
+                  "text": " là đến ngọn hải đăng gần đỉnh đảo. Leo thang bên trong hải đăng mất khoảng "
+                },
+                { "type": "price", "text": "₱50" },
+                {
+                  "text": ", và từ trên cao bạn có thể nhìn bao quát đảo Negros cùng biển cả. Dọc đường không có chỗ bán đồ, nên hãy mang theo nước."
                 }
               ]
             },
@@ -225,27 +319,27 @@
               "title": "Dạo bộ quanh làng và nghe câu chuyện bảo tồn",
               "children": [
                 {
-                  "text": "Ngôi làng nhỏ có văn phòng quản lý khu bảo tồn biển, trường học và các quầy hàng lưu niệm. Nếu mua áo thun hay khăn tay do người dân làm, lợi nhuận sẽ quay trở lại cộng đồng."
+                  "text": "Trong làng có văn phòng quản lý khu bảo tồn, trường học và các quầy lưu niệm. Người ta cho biết một phần thu nhập từ du lịch sinh thái nộp cho nhà nước, phần còn lại dùng để quản lý khu bảo tồn và nuôi sống làng, nên mua áo thun và đồ thủ công do người dân làm sẽ giúp ích cho họ."
                 }
               ]
             },
             {
               "type": "card",
               "number": 6,
-              "title": "Qua đêm trên đảo",
+              "title": "Nghỉ qua đêm trên đảo",
               "children": [
                 {
-                  "text": "Từ buổi chiều khi khách tour trong ngày rời đi, hòn đảo trở nên yên tĩnh đến bất ngờ. Bạn có thể ngắm hoàng hôn lặn xuống biển phía tây, và bầu trời đêm đầy sao vì hầu như không có ánh đèn điện."
+                  "text": "Từ buổi chiều sau khi các thuyền tour trong ngày rời đi, đảo trở nên yên tĩnh đến ngạc nhiên. Bạn có thể ngắm mặt trời lặn xuống biển phía tây và những vì sao trên bầu trời ít ánh đèn, còn sáng sớm có thể gặp rùa trên bãi biển vắng người."
                 }
               ]
             },
             {
               "type": "card",
               "number": 7,
-              "title": "Ghé chợ Malatapay ngày thứ Tư",
+              "title": "Chợ thứ Tư ở Malatapay",
               "children": [
                 {
-                  "text": "Tại Malatapay, nơi tàu đi đảo xuất phát, cứ mỗi thứ Tư lại có phiên chợ gia súc và các quán bán lechon (heo quay nguyên con). Rất đáng để ghé xem trước khi lên tàu vào sáng sớm."
+                  "text": "Ở Malatapay, nơi tàu xuất phát, cứ mỗi thứ Tư lại có chợ mua bán gia súc như bò, heo, dê, và bán heo quay nguyên con (lechon) theo từng ký. Cũng có nhiều quầy hải sản và trái cây, rất đáng ghé xem vào buổi sáng trước khi lên tàu."
                 }
               ]
             }
@@ -263,69 +357,107 @@
           "type": "tabs",
           "items": [
             {
-              "title": "Lịch trình trong ngày",
+              "title": "Tour trong ngày",
+              "subtitle": "Xuất phát từ Malatapay",
               "blocks": [
                 {
                   "type": "stepper",
                   "items": [
                     {
                       "time": "06:30",
-                      "children": [{ "text": "Xuất phát từ nơi lưu trú ở Dumaguete hoặc Dauin" }]
-                    },
-                    {
-                      "time": "07:15",
                       "children": [
-                        { "text": "Đến bến tàu Malatapay, nộp phí môi trường và đăng ký danh sách" }
+                        {
+                          "text": "Xuất phát từ chỗ nghỉ ở Dumaguete bằng xe buýt, jeepney hoặc tricycle"
+                        }
                       ]
                     },
                     {
-                      "time": "07:45",
+                      "time": "07:30",
                       "children": [
-                        { "text": "Đi thuyền banca đến đảo Apo (khoảng " },
-                        { "type": "duration", "text": "30–45 phút" },
-                        { "text": ")" }
+                        {
+                          "text": "Đến Malatapay, nếu là thứ Tư thì dạo chợ, sau đó được xếp thuyền bangka"
+                        }
                       ]
                     },
                     {
                       "time": "08:30",
                       "children": [
+                        { "text": "Đi thuyền bangka ra đảo Apo (khoảng " },
+                        { "type": "duration", "text": "30–45 phút" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "09:30",
+                      "children": [
                         {
-                          "text": "Lần lặn ống thở đầu tiên — khu vực rùa biển (có hướng dẫn viên)"
+                          "text": "Đến đảo, đóng phí vào cửa và phí lặn ống thở tại điểm tiếp nhận ở bãi biển, rồi nhận hướng dẫn viên và áo phao"
                         }
                       ]
                     },
                     {
-                      "time": "10:30",
+                      "time": "09:45",
                       "children": [
-                        { "text": "Lần lặn ống thở hoặc lặn scuba thứ hai — vườn san hô" }
+                        { "text": "Lặn ống thở ở khu vực có rùa (khoảng " },
+                        { "type": "duration", "text": "1 giờ" },
+                        { "text": "), đi theo sau hướng dẫn viên và giữ khoảng cách" }
                       ]
                     },
                     {
-                      "time": "12:00",
+                      "time": "11:30",
                       "children": [
-                        { "text": "Ăn trưa tại nhà hàng trên đảo hoặc suất ăn trưa của tour" }
+                        {
+                          "text": "Lặn ống thở hoặc lặn scuba lần thứ hai — vườn san hô trong khu bảo tồn"
+                        }
                       ]
                     },
                     {
-                      "time": "13:00",
+                      "time": "12:30",
                       "children": [
-                        { "text": "Trekking đến đài quan sát hải đăng và dạo bộ quanh làng" }
+                        { "text": "Ăn trưa tại quán ăn trên đảo hoặc bằng cơm hộp của tour" }
                       ]
                     },
                     {
-                      "time": "14:30",
-                      "children": [{ "text": "Rời đảo, quay về trước khi gió chiều mạnh lên" }]
+                      "time": "13:30",
+                      "children": [
+                        { "text": "Trekking đến đài quan sát hải đăng và dạo quanh làng" }
+                      ]
                     },
                     {
-                      "time": "15:30",
-                      "children": [{ "text": "Đến Malatapay, nghỉ ngơi tại bãi biển Dauin" }]
+                      "time": "15:00",
+                      "children": [
+                        { "text": "Rời đảo, quay về trước khi sóng lớn lên vào buổi chiều" }
+                      ]
+                    },
+                    {
+                      "time": "16:00",
+                      "children": [
+                        { "text": "Đến Malatapay, nghỉ ngơi ở bãi biển Dumaguete hoặc Dauin" }
+                      ]
                     }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Tour của tiệm lặn thường xuất phát từ khu nghỉ dưỡng ở Dauin vào khoảng "
+                    },
+                    { "type": "time", "text": "8 giờ sáng" },
+                    { "text": " và quay về vào khoảng " },
+                    { "type": "time", "text": "4 giờ chiều" },
+                    { "text": ". Nếu đi thuyền chung, thuyền được hướng dẫn xuất phát lúc " },
+                    { "type": "time", "text": "9–10 giờ sáng" },
+                    { "text": " và rời đảo vào khoảng " },
+                    { "type": "time", "text": "3 giờ chiều" },
+                    { "text": ", nên hãy xác nhận trước giờ quay về." }
                   ]
                 }
               ]
             },
             {
               "title": "Lịch trình 2 ngày 1 đêm",
+              "subtitle": "Nghỉ đêm trên đảo",
               "blocks": [
                 {
                   "type": "stepper",
@@ -334,17 +466,53 @@
                       "time": "Sáng ngày 1",
                       "children": [
                         {
-                          "text": "Di chuyển rồi lặn ống thở, buổi chiều trekking đến hải đăng, ngắm hoàng hôn ở bãi biển phía tây, buổi tối ngắm sao"
+                          "text": "Đi thuyền bangka từ Malatapay ra đảo, cất hành lý ở chỗ nghỉ và đóng phí vào cửa"
                         }
                       ]
                     },
                     {
-                      "time": "Sáng sớm ngày 2",
+                      "time": "Chiều ngày 1",
                       "children": [
                         {
-                          "text": "Lặn ống thở ngắm rùa lúc vắng người, lặn scuba 2 lần buổi sáng, quay về đất liền sau bữa trưa"
+                          "text": "Sau khi khách đi trong ngày rời đi, lặn ống thở ở khu vực có rùa, rồi trekking đến hải đăng theo đường phía sau Liberty's Lodge"
                         }
                       ]
+                    },
+                    {
+                      "time": "Tối ngày 1",
+                      "children": [
+                        {
+                          "text": "Ngắm hoàng hôn lặn xuống biển phía tây, ăn tối tại chỗ nghỉ, ngắm sao trên bầu trời đêm"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Rạng sáng ngày 2",
+                      "children": [
+                        { "text": "Lặn ống thở ngắm rùa ở vùng biển trước bãi khi vắng người" }
+                      ]
+                    },
+                    {
+                      "time": "Sáng ngày 2",
+                      "children": [
+                        { "text": "Lặn 2 lần cùng tiệm lặn hoặc đến điểm lặn ống thở thứ hai" }
+                      ]
+                    },
+                    {
+                      "time": "Chiều ngày 2",
+                      "children": [
+                        {
+                          "text": "Sau bữa trưa, đi thuyền bangka về Malatapay, xuất phát trước khi sóng lớn lên"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Nghỉ đêm trên đảo giúp bạn có những buổi sáng và chiều tối yên tĩnh, nhưng nếu thời tiết xấu thì ngày về có thể bị lùi, nên hãy chừa dư một ngày trong lịch trình trở về."
                     }
                   ]
                 }
@@ -365,63 +533,112 @@
           "items": [
             {
               "title": "Máy bay",
+              "subtitle": "Từ Manila đến Dumaguete",
               "icon": "flight",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Từ Manila đến Dumaguete (sân bay Sibulan, DGT) mất khoảng " },
+                    {
+                      "text": "Từ Manila đến Dumaguete (sân bay Sibulan, DGT) có chuyến bay thẳng do Cebu Pacific và PAL Express, hãng thuộc Philippine Airlines, khai thác, mất khoảng "
+                    },
                     { "type": "duration", "text": "1 giờ 20 phút" },
-                    { "text": ". Nếu xuất phát từ Cebu, đi tàu và xe buýt sẽ tiện hơn máy bay." }
+                    { "text": ". Sân bay nằm cách phía bắc trung tâm Dumaguete khoảng " },
+                    { "type": "distance", "text": "3–5km" },
+                    {
+                      "text": ", đi tricycle khoảng 15 phút. Thuyền ra đảo Apo xuất phát từ Malatapay, cách sân bay khoảng "
+                    },
+                    { "type": "distance", "text": "25–30km" },
+                    {
+                      "text": " về phía nam, nên ngày đến bạn nên nghỉ 1 đêm ở Dumaguete hoặc Dauin rồi ra đảo vào sáng hôm sau cho thong thả."
+                    }
                   ]
                 }
               ]
             },
             {
-              "title": "Xe cộ",
+              "title": "Xe buýt · jeepney",
               "subtitle": "Từ Dumaguete đến Malatapay",
-              "icon": "directions_car",
+              "icon": "directions_bus",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Tàu đi đảo Apo xuất phát từ bến tàu Malatapay ở Zamboanguita, cách Dumaguete khoảng "
+                      "text": "Từ bến xe phía nam Dumaguete hoặc ven đường, bạn lên xe buýt hay jeepney đi hướng Zamboanguita, Bais, Bayawan rồi nói xuống ở Malatapay. Mất khoảng "
                     },
-                    { "type": "distance", "text": "25km" },
+                    { "type": "duration", "text": "40 phút – 1 giờ" },
+                    { "text": ", giá xe buýt hoặc jeepney một chiều khoảng " },
+                    { "type": "price", "text": "₱25–60" },
+                    { "text": ". Xuống ở ven đường, bạn đi bộ " },
+                    { "type": "duration", "text": "5–10 phút" },
                     {
-                      "text": " về phía nam. Từ bến xe phía nam thành phố Dumaguete hoặc ven đường, bắt xe buýt hoặc jeepney hướng Bais/Siaton rồi xuống ở lối vào Malatapay, mất khoảng "
-                    },
-                    { "type": "duration", "text": "40–60 phút" },
-                    { "text": ", giá vé khoảng " },
-                    { "type": "price", "text": "₱40–60" },
-                    { "text": ". Nếu thuê xe ba bánh riêng, giá một chiều khoảng " },
-                    { "type": "price", "text": "₱400–600" },
-                    { "text": ". Từ khu nghỉ dưỡng ven biển Dauin, khoảng cách chỉ " },
-                    { "type": "duration", "text": "15–20 phút" },
-                    { "text": "." }
+                      "text": " theo con đường chợ đến bến tàu. Nếu báo trước với tài xế hoặc phụ xe rằng mình đi \"Apo Island\", họ sẽ báo cho bạn chỗ xuống."
+                    }
                   ]
                 }
               ]
             },
             {
-              "title": "Tàu thuyền",
+              "title": "Tricycle · thuê xe riêng",
+              "subtitle": "Khi có nhiều hành lý hoặc đi theo nhóm",
+              "icon": "electric_rickshaw",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Thuê tricycle từ Dumaguete đến Malatapay, tùy mặc cả, giá một chiều khoảng "
+                    },
+                    { "type": "price", "text": "₱200–600" },
+                    {
+                      "text": "; từng có thông tin dịch vụ đưa đón từ Dumaguete của chỗ nghỉ trên đảo (Liberty's Lodge) khoảng "
+                    },
+                    { "type": "price", "text": "₱350" },
+                    { "text": "/người. Từ khu nghỉ dưỡng ven biển Dauin chỉ cách khoảng " },
+                    { "type": "duration", "text": "15–20 phút" },
+                    { "text": ", nên tiệm lặn sẽ chuẩn bị luôn cả thuyền lẫn xe." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Thuyền",
+              "subtitle": "Từ Malatapay đến đảo Apo",
               "icon": "directions_boat",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Từ Malatapay đến đảo Apo mất khoảng " },
+                    { "text": "Từ bến tàu Malatapay đến đảo Apo đi thuyền bangka mất khoảng " },
                     { "type": "duration", "text": "30–45 phút" },
+                    { "text": ". Thuyền chung thường xuất phát khoảng " },
+                    { "type": "time", "text": "9–10 giờ sáng" },
+                    { "text": " và được hướng dẫn giá một chiều khoảng " },
+                    { "type": "price", "text": "₱300" },
                     {
-                      "text": " đi thuyền banca. Không có tàu khách chạy theo lịch cố định, mà phải thuê thuyền qua hiệp hội banca tại bến tàu. Thuê trọn một thuyền banca nhỏ khứ hồi khoảng "
+                      "text": ", nhưng giờ chạy và giá vé thay đổi thường xuyên. Thuê riêng một thuyền bangka nhỏ khứ hồi khoảng "
                     },
-                    { "type": "price", "text": "₱3,000–4,000" },
+                    { "type": "price", "text": "₱2,500–4,000" },
                     {
-                      "text": " (cho 4–6 người), nếu đi một mình thì nên ghép chung với du khách khác tại bến tàu để tiết kiệm hơn. Cách thuận tiện nhất là đặt tour trong ngày của các tiệm lặn ở Dumaguete hoặc Dauin, đã bao gồm đón khách, thuyền banca, thiết bị lặn ống thở, bữa trưa và hướng dẫn viên, giá khoảng "
+                      "text": " (3–6 người); càng đông người thì chi phí mỗi người càng giảm, và bạn nên kiểm tra xem giá đã gồm thời gian chờ và chuyến về chưa. Đảo không có cầu tàu nên thuyền cập thẳng vào bãi và bạn phải xuống nước sâu đến đầu gối; nếu lực lượng tuần duyên đánh giá biển nguy hiểm thì chuyến tàu bị hủy."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Cách thuận tiện nhất là tour trong ngày của các tiệm lặn ở Dauin và Dumaguete, đã gồm đưa đón, thuyền bangka, dụng cụ, bữa trưa và phí vào cửa, giá khoảng "
                     },
-                    { "type": "price", "text": "₱2,500–3,500" },
-                    { "text": "/người." }
+                    { "type": "price", "text": "₱2,300–4,100" },
+                    {
+                      "text": "/người (tính theo lặn ống thở); một số tiệm tính riêng phụ phí nhiên liệu "
+                    },
+                    { "type": "price", "text": "₱500" },
+                    { "text": " từ " },
+                    { "type": "date", "text": "ngày 12 tháng 4 năm 2026" },
+                    { "text": "." }
                   ]
                 }
               ]
@@ -434,15 +651,61 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ bến xe phía nam Cebu, đi xe buýt đến cảng Liloan gần Oslob mất khoảng "
+                      "text": "Từ bến xe buýt phía nam thành phố Cebu đến cảng Santander (Liloan) đi xe buýt mất khoảng "
                     },
-                    { "type": "duration", "text": "3–4 giờ" },
-                    { "text": ", sau đó đi tàu đến cảng Sibulan khoảng " },
+                    { "type": "duration", "text": "4–5 giờ" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱160–300" },
+                    { "text": ". Từ cảng Liloan đến cảng Sibulan có tàu RoRo chạy khoảng " },
+                    { "type": "time", "text": "4 giờ sáng – 8 giờ tối" },
+                    { "text": ", cách nhau khoảng 1 tiếng 30 phút một chuyến, mất khoảng " },
                     { "type": "duration", "text": "30 phút" },
-                    { "text": ", rồi tiếp tục đi xe về phía nam đến Malatapay khoảng " },
-                    { "type": "duration", "text": "1 giờ" },
+                    { "text": ", giá khoảng " },
+                    { "type": "price", "text": "₱150" },
                     {
-                      "text": ". Vì đi trong một ngày đến đảo khá gấp gáp, nên nghỉ đêm ở Dumaguete hoặc Dauin rồi xuất phát vào sáng hôm sau sẽ tốt hơn."
+                      "text": " (chưa gồm phụ phí nhiên liệu). Từ Sibulan đến Malatapay còn phải đi qua Dumaguete, mất thêm khoảng "
+                    },
+                    { "type": "duration", "text": "1 giờ 30 phút" },
+                    {
+                      "text": ", nên đi đến đảo trong một ngày là quá sức và chúng tôi khuyên nghỉ 1 đêm ở Dumaguete."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Tàu cao tốc OceanJet đi từ Cebu qua Tagbilaran (Bohol) đến Dumaguete mất khoảng "
+                    },
+                    { "type": "duration", "text": "4 giờ 20 phút" },
+                    { "text": ", giá được hướng dẫn khoảng " },
+                    { "type": "price", "text": "₱1,700–2,600" },
+                    { "text": ". Tuy nhiên, từ " },
+                    { "type": "date", "text": "năm 2026" },
+                    {
+                      "text": " đã có những khoảng thời gian chuyến tàu giảm hoặc ngừng chạy vì chi phí nhiên liệu, nên hãy kiểm tra thông báo chính thức trước khi khởi hành."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Xuất phát từ Siquijor",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Chúng tôi chưa xác nhận được tuyến tàu định kỳ đi thẳng từ Siquijor ra đảo Apo, và bạn phải đi qua Dumaguete. Tàu cao tốc OceanJet Siquijor–Dumaguete mất khoảng "
+                    },
+                    { "type": "duration", "text": "50 phút – 1 giờ" },
+                    { "text": ", giá thay đổi tùy nguồn hướng dẫn, trong khoảng " },
+                    { "type": "price", "text": "₱250–500" },
+                    { "text": ". Vào mùa xuân " },
+                    { "type": "date", "text": "năm 2026" },
+                    {
+                      "text": " một số chuyến đã tạm ngừng, nên hãy kiểm tra lịch tàu, rồi nghỉ ở Dumaguete và sáng hôm sau di chuyển đến Malatapay sẽ an toàn hơn."
                     }
                   ]
                 }
@@ -461,49 +724,51 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "Chất lượng chuyến đi ở đảo Apo phụ thuộc rất nhiều vào sóng biển. Từ " },
-            { "type": "date", "text": "tháng 3" },
-            { "text": " đến " },
-            { "type": "date", "text": "tháng 6" },
-            { "text": ", biển êm nhất và nước ấm, nhiều ngày tầm nhìn đạt tới " },
-            { "type": "distance", "text": "20–30m" },
-            { "text": ". Từ " },
-            { "type": "date", "text": "tháng 12" },
-            { "text": " đến " },
-            { "type": "date", "text": "tháng 2" },
             {
-              "text": ", gió mùa đông bắc (Amihan) thổi khiến một số buổi chiều sóng cao hơn, nhưng nhìn chung vẫn có thể đi được."
+              "text": "Chất lượng chuyến đi đến đảo Apo thay đổi rất nhiều theo sóng biển. Các hướng dẫn du lịch thường coi "
+            },
+            { "type": "date", "text": "tháng 11 – tháng 5" },
+            { "text": " là thời điểm tốt, và vào " },
+            { "type": "date", "text": "tháng 3 – tháng 6" },
+            { "text": ", khi biển êm nhất và nước ấm nhất, có nhiều ngày tầm nhìn đẹp nhất. Vào " },
+            { "type": "date", "text": "tháng 12 – tháng 2" },
+            {
+              "text": ", gió mùa đông bắc (amihan) thổi nên sóng có thể lớn lên vào buổi chiều, nhưng nhìn chung vẫn đi được."
             }
           ]
         },
         {
           "type": "paragraph",
           "children": [
-            { "text": "Từ " },
-            { "text": "tháng 7", "type": "date" },
-            { "text": " đến " },
-            { "text": "tháng 10", "type": "date" },
+            { "text": "Vào " },
+            { "text": "tháng 7 – tháng 10", "type": "date" },
             {
-              "text": ", do ảnh hưởng của gió mùa tây nam (Habagat) và bão, số ngày thuyền banca bị hủy chuyến tăng lên. Đặc biệt buổi chiều sóng thường cao hơn, nên bất kể mùa nào cũng nên xuất phát sớm buổi sáng và quay về vào đầu giờ chiều. Nhiệt độ nước quanh năm khoảng 26–29°C, chỉ cần đồ lặn mỏng hoặc áo rashguard là đủ."
-            }
+              "text": ", do gió mùa tây nam (habagat) và ảnh hưởng của bão, số ngày thuyền bangka bị hủy chuyến tăng lên và biển động. Dù vào mùa nào, nguyên tắc là sang đảo thật sớm vào buổi sáng và quay về vào đầu giờ chiều, vì buổi chiều nhiều ngày sóng lớn lên. Nhiệt độ nước quanh năm nhìn chung khoảng "
+            },
+            { "text": "27–29℃", "type": "temperature" },
+            { "text": ", nên chỉ cần áo rashguard mỏng là có thể lặn ống thở." }
           ]
         },
         {
           "type": "table",
-          "label": "Tóm tắt theo thời điểm",
+          "label": "Tổng quan theo thời điểm",
           "icon": "calendar_month",
-          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "columns": ["Thời điểm", "Thời tiết", "Điểm nhấn chuyến đi"],
           "rows": [
             [
-              "Tháng 12–tháng 2",
-              "Mùa khô, sóng buổi chiều do gió đông bắc (Amihan)",
-              "Nhìn chung đi được — xuất phát sớm, về vào đầu giờ chiều"
+              "Tháng 11 – tháng 2",
+              "Mùa khô, sóng chiều do gió đông bắc (amihan)",
+              "Nhìn chung đi được — xuất phát thật sớm, quay về đầu giờ chiều"
             ],
-            ["Tháng 3–tháng 6", "Biển lặng, nước ấm", "Tầm nhìn 20–30m — thời điểm lặn tốt nhất"],
             [
-              "Tháng 7–tháng 11",
-              "Chịu ảnh hưởng của gió tây nam và bão (tháng 7–10)",
-              "Thuyền banca bị hủy nhiều hơn — nhiệt độ nước quanh năm 26–29 độ"
+              "Tháng 3 – tháng 6",
+              "Biển êm, nước ấm",
+              "Lúc tầm nhìn đẹp nhất — thời điểm lý tưởng để lặn và lặn ống thở"
+            ],
+            [
+              "Tháng 7 – tháng 10",
+              "Chịu ảnh hưởng của gió tây nam (habagat) và bão",
+              "Thuyền bangka bị hủy nhiều hơn — chừa dư một ngày trong lịch trình"
             ]
           ]
         }
@@ -521,53 +786,58 @@
           "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
           "items": [
             {
-              "label": "Di chuyển Dumaguete – Malatapay",
-              "price": "Một chiều khoảng ₱40–600",
-              "note": "Xe buýt, jeepney hoặc xe ba bánh thuê riêng"
+              "label": "Đi lại Dumaguete–Malatapay",
+              "price": "Một chiều khoảng ₱25–600",
+              "note": "Xe buýt, jeepney ₱25–60; thuê tricycle thì mặc cả"
             },
             {
-              "label": "Thuê thuyền banca khứ hồi",
-              "price": "Một thuyền khoảng ₱3,000–4,000",
-              "note": "Tính cho 4–6 người, chia nhau sẽ rẻ hơn"
+              "label": "Phí vào đảo",
+              "price": "Khoảng ₱100/người",
+              "note": "Đóng một lần tại điểm tiếp nhận ở bãi biển; cũng có hướng dẫn về mức phí riêng cho người nước ngoài"
             },
             {
-              "label": "Phí môi trường",
-              "price": "Khoảng ₱300 với người nước ngoài, khoảng ₱100 với người Philippines",
-              "note": "Nộp tại quầy đăng ký ở Malatapay"
+              "label": "Phí lặn ống thở",
+              "price": "Khoảng ₱100/người",
+              "note": "Thợ lặn: phí vào cửa ₱100 + phí lặn ₱200"
             },
             {
-              "label": "Hướng dẫn viên lặn ống thở",
-              "price": "Khoảng ₱300/nhóm",
-              "note": "Bắt buộc tại khu vực rùa biển"
+              "label": "Hướng dẫn viên ngắm rùa · dụng cụ",
+              "price": "Khoảng ₱300",
+              "note": "Có nguồn tính theo nhóm, có nguồn tính theo người; thuê dụng cụ tính riêng"
             },
             {
-              "label": "Tour lặn ống thở trong ngày",
-              "price": "Khoảng ₱2,500–3,500/người",
-              "note": "Đã bao gồm đón khách, thuyền, thiết bị, bữa trưa"
+              "label": "Đi thuyền bangka",
+              "price": "Thuyền chung một chiều khoảng ₱300",
+              "note": "Thuê riêng khứ hồi khoảng ₱2,500–4,000 (3–6 người)"
             },
             {
-              "label": "Lặn vui",
-              "price": "Mỗi lần khoảng ₱1,800–2,500",
-              "note": "Lặn trong khu bảo tồn có phụ phí thêm"
+              "label": "Tour lặn ống thở của tiệm lặn",
+              "price": "Khoảng ₱2,300–4,100/người",
+              "note": "Đã gồm thuyền, bữa trưa, phí vào cửa; có nơi tính riêng phụ phí nhiên liệu ₱500"
             },
             {
-              "label": "Lưu trú trên đảo",
-              "price": "Một đêm khoảng ₱1,500–4,500",
-              "note": "Kiểm tra xem đã bao gồm bữa ăn hay chưa"
+              "label": "Lặn giải trí (fun dive)",
+              "price": "Khoảng ₱2,300/lần",
+              "note": "Trong ngày 3 bình khoảng ₱5,900–6,400, đã gồm ₱200 phí khu bảo tồn mỗi ngày"
             },
             {
-              "label": "Ăn uống",
-              "price": "Một bữa khoảng ₱200–450",
-              "note": "Tính theo nhà hàng trên đảo"
+              "label": "Chỗ nghỉ trên đảo",
+              "price": "Khoảng ₱2,000–4,500/đêm",
+              "note": "Kiểm tra xem đã gồm bữa ăn chưa; phòng tập thể rẻ hơn"
+            },
+            {
+              "label": "Bữa ăn",
+              "price": "Khoảng ₱200–450/bữa",
+              "note": "Theo giá quán ăn trên đảo"
             }
           ]
         },
         {
           "type": "caption",
           "children": [
-            { "text": "Giá cả là mức ước tính năm " },
-            { "type": "date", "text": "2026" },
-            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+            { "text": "Giá chỉ là mức ước tính tính đến " },
+            { "type": "date", "text": "năm 2026" },
+            { "text": " và có thể thay đổi tùy tình hình địa phương." }
           ]
         }
       ]
@@ -582,19 +852,21 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Phần lớn du khách ở lại Dumaguete hoặc khu nghỉ dưỡng ven biển Dauin rồi đi về trong ngày. Ở Dauin tập trung nhiều khu nghỉ dưỡng có gói lặn nên rất thuận tiện để xuất phát ra đảo vào buổi sáng. Trên đảo cũng có vài nơi lưu trú nhỏ lâu năm như Liberty's Lodge và Apo Island Beach Resort, thường có giá khoảng "
+              "text": "Phần lớn du khách nghỉ ở trung tâm Dumaguete hoặc các khu nghỉ dưỡng ven biển Dauin rồi đi về trong ngày. Ở Dauin có hàng loạt khu nghỉ dưỡng lặn biển tự vận hành thuyền ra đảo Apo như Atlantis Dive Resort và Mike's Dauin Beach Resort, nên việc xuất phát buổi sáng rất tiện. Trên đảo có các chỗ nghỉ nhỏ như Liberty's Lodge, Apo Island Beach Resort, Mario's Homestay; giá khoảng "
             },
-            { "type": "price", "text": "₱1,500–4,500" },
+            { "type": "price", "text": "₱2,000–4,500" },
             {
-              "text": "/đêm đã bao gồm bữa ăn. Vì số phòng ít nên vào mùa cao điểm cần đặt trước vài tuần."
-            }
+              "text": "/đêm, nhiều nơi đã gồm bữa ăn, và cũng có thông tin phòng tập thể từ khoảng "
+            },
+            { "type": "price", "text": "₱800" },
+            { "text": ". Do ít phòng, vào mùa cao điểm nên đặt trước." }
           ]
         },
         {
           "type": "paragraph",
           "children": [
             {
-              "text": "Điện trên đảo phụ thuộc vào máy phát và năng lượng mặt trời, nhiều nơi chỉ có điện vài giờ vào buổi tối, và phòng không có điều hòa là chuyện bình thường. Bữa ăn được giải quyết tại nhà hàng của nơi lưu trú hoặc quán ăn nhỏ trong làng, chủ yếu là các món ăn gia đình Philippines giản dị như cá nướng, rau xào, cơm. Lechon và cá nướng bán ở chợ thứ Tư Malatapay trên đất liền là đặc sản của vùng này, nếu lịch trình cho phép hãy nhất định thử qua."
+              "text": "Điện trên đảo phụ thuộc vào máy phát và chỉ cấp vào những giờ nhất định, phòng không có điều hòa là phổ biến. Nhiều nơi dùng nước mưa tích trữ và tắm bằng xô lớn, còn wifi chỉ có ở một vài chỗ nghỉ. Bữa ăn giải quyết tại quán ăn của chỗ nghỉ hoặc các quán nhỏ trong làng, chủ yếu là món nhà đơn giản như cá nướng, rau xào và cơm. Lechon và hải sản nướng ở chợ thứ Tư Malatapay trên đất liền là đặc sản của vùng này, nên nếu lịch trình phù hợp thì nhất định hãy thử."
             }
           ]
         }
@@ -614,58 +886,69 @@
             {
               "children": [
                 {
-                  "text": "Trên đảo không có ATM và hầu như không thể thanh toán bằng thẻ, nên hãy chuẩn bị tiền mặt cho phí môi trường, phí hướng dẫn viên và chi phí ăn uống."
+                  "text": "Trên đảo không có ATM và gần như không thanh toán được bằng thẻ, nên hãy chuẩn bị dư tiền mặt cho phí vào cửa, phí hướng dẫn viên và tiền ăn."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Sóng điện thoại chỉ có ở một số khu vực trên đảo, nên hãy xác nhận trước các cuộc hẹn với nơi lưu trú và tài công thuyền banca."
+                  "text": "Sóng điện thoại chỉ bắt được ở một phần của đảo. Hãy chốt trước trên đất liền việc đặt chỗ nghỉ và hẹn với tài xế thuyền bangka."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Để bảo vệ rạn san hô, nên dùng kem chống nắng không có thành phần gây hại cho san hô, hoặc che da bằng áo rashguard và quần legging dài."
+                  "text": "Dù chưa xác nhận được đây là quy định chính thức, để bảo vệ san hô, tốt hơn là che da bằng áo rashguard và quần legging dài thay vì dùng kem chống nắng có thành phần hóa học."
                 }
               ]
             },
             {
               "children": [
-                { "text": "Khu vực rùa biển trước làng vắng người nhất vào lúc " },
-                { "type": "time", "text": "8–10 giờ sáng" },
-                { "text": ", sau " },
-                { "type": "time", "text": "10 giờ" },
-                { "text": " khi các thuyền tour trong ngày đổ về thì đông người hơn." }
-              ]
-            },
-            {
-              "children": [
+                { "text": "Khu vực có rùa đông đúc vào khoảng " },
+                { "type": "time", "text": "10 giờ sáng" },
+                { "text": " đến " },
+                { "type": "time", "text": "2 giờ chiều" },
                 {
-                  "text": "Nếu bơi không giỏi, hãy mặc áo phao và luôn đi sát bên hướng dẫn viên; nếu có chân vịt, bạn sẽ đỡ mệt hơn nhiều khi gặp dòng chảy."
+                  "text": ", lúc các thuyền tour trong ngày đổ về. Ngay sau khi đến, cuối buổi chiều, hoặc rạng sáng hôm sau nếu bạn nghỉ đêm trên đảo là lúc vắng vẻ; giờ có nhiều rùa đến cũng thay đổi theo thủy triều nên hãy hỏi hướng dẫn viên."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Khi quay chụp rùa biển bằng máy ảnh chống nước hay camera hành động, hãy tắt đèn flash và chụp theo góc nhìn từ trên xuống để không làm phiền rùa."
+                  "text": "Đảo không có cầu tàu nên bạn xuống nước sâu đến đầu gối. Hãy đi giày lặn hoặc dép chống nước, và cho hộ chiếu, đồ điện tử vào túi chống nước."
                 }
               ]
             },
             {
               "children": [
-                { "text": "Nếu dễ say sóng, hãy uống thuốc chống say " },
+                {
+                  "text": "Khi chụp bằng máy ảnh chống nước, hãy tắt đèn flash và chụp từ góc nhìn xuống từ phía trên để không làm phiền rùa."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Nếu bạn say sóng nặng, hãy uống thuốc chống say " },
                 { "type": "duration", "text": "30 phút" },
-                { "text": " trước khi lên thuyền banca và ngồi ở phía sau thuyền." }
+                {
+                  "text": " trước khi lên thuyền bangka và ngồi ở giữa phía sau thuyền. Bạn có thể bị nước bắn ướt."
+                }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Nếu ở lại qua đêm trên đảo, hãy mang theo đèn pin (đèn đội đầu), pin dự phòng và thuốc chống muỗi."
+                  "text": "Nếu bơi không giỏi, hãy mặc áo phao và đi sát bên hướng dẫn viên. Dù trông nước nông, bên ngoài mép rạn vẫn có dòng chảy."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nếu nghỉ đêm trên đảo, hãy mang đèn đội đầu, pin sạc dự phòng, thuốc chống muỗi và nước, và sạc pin vào giờ có điện."
                 }
               ]
             }
@@ -685,7 +968,7 @@
           "icon": "warning",
           "children": [
             {
-              "text": "Hành vi chạm vào, đuổi theo hoặc cưỡi lên lưng rùa biển, giẫm lên san hô đều bị nghiêm cấm tuyệt đối, và có thể bị phạt tiền hoặc trục xuất khỏi đảo nếu bị phát hiện."
+              "text": "Việc chạm vào, đuổi theo hay cưỡi lên rùa và giẫm lên san hô bị nghiêm cấm, và bạn có thể bị phạt tiền hoặc bị yêu cầu rời đảo."
             }
           ]
         },
@@ -697,35 +980,46 @@
             {
               "children": [
                 {
-                  "text": "Các điểm ở phía đông và phía nam đảo có dòng chảy rất mạnh có thể cuốn trôi người lặn ống thở, nên chỉ xuống nước ở khu vực được hướng dẫn viên cho phép."
+                  "text": "Những nơi có dòng chảy mạnh như Coconut Point và Cogon Point có thể cuốn người lặn ống thở trôi đi. Chỉ xuống nước ở những khu vực mà hướng dẫn viên cho phép."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Buổi chiều sóng dễ cao hơn, nên nếu tài công thuyền banca đề nghị quay về sớm hơn, hãy làm theo để đảm bảo an toàn."
+                  "text": "Buổi chiều sóng dễ lớn lên, nên nếu tài xế thuyền bangka đề nghị quay về sớm hơn thì hãy làm theo. Cũng có ngày lực lượng tuần duyên cấm ra khơi, nên hãy chừa dư thời gian vào ngày trở về."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Quy định vào đảo, phí môi trường và giới hạn số khách mỗi ngày có thể thay đổi theo quyết định của ban quản lý khu bảo tồn, nên hãy kiểm tra thông báo mới nhất trước khi khởi hành."
+                  "text": "Phí vào cửa, phí lặn ống thở và phí dành cho thợ lặn do ban quản lý khu bảo tồn quyết định, và đến "
+                },
+                { "type": "date", "text": "năm 2026" },
+                {
+                  "text": " vẫn có thông tin đang xem xét cũng như lo ngại về việc tăng giá. Hãy kiểm tra thông báo mới nhất trước khi khởi hành."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Trên đảo không có bệnh viện, nên nếu bị thương hãy sát trùng ngay; vết xước do san hô rất dễ nhiễm trùng nên cần điều trị kỹ sau khi quay về đất liền."
+                  "text": "Vì là đảo nhỏ nên muốn điều trị chính thức bạn phải ra đất liền. Vết xước do san hô cần được sát trùng ngay và kiểm tra lại sau khi về."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Có trường hợp bị sứa hoặc nhím biển chích, nên đừng đi chân trần trên vùng đá nông mà hãy mang giày đi biển."
+                  "text": "Bạn có thể bị sứa và nhím biển đốt, nên đừng đi chân trần trên những vùng đá nông."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Đảo Apo (Negros) có tên giống núi Apo ở Mindanao và Rạn san hô Apo gần Coron. Hãy kiểm tra khu vực khi đặt tour lặn."
                 }
               ]
             }
@@ -748,11 +1042,33 @@
               "title": "Dumaguete",
               "place": "dumaguete",
               "children": [
-                { "text": "Khoảng " },
-                { "type": "duration", "text": "40–60 phút" },
+                { "text": "Đi xe đến Malatapay khoảng " },
+                { "type": "duration", "text": "40 phút – 1 giờ" },
                 {
-                  "text": " đi xe từ Malatapay. Đây là thành phố hiền hòa nổi tiếng với đường dạo ven biển, phố đại học và các món tráng miệng."
+                  "text": ". Đây là thành phố ôn hòa nổi tiếng với con đường đi dạo ven biển, khu đại học và món tráng miệng, đồng thời là căn cứ cho chuyến đi đảo Apo."
                 }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Dauin",
+              "place": "dauin",
+              "children": [
+                {
+                  "text": "Nằm ngay trên bờ biển phía nam Dumaguete, trên đường đến Malatapay. Các khu nghỉ dưỡng lặn biển và điểm lặn muck nối tiếp nhau, và thuyền ra đảo Apo xuất phát từ Dauin mất khoảng "
+                },
+                { "type": "duration", "text": "45 phút" },
+                { "text": "." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Siquijor",
+              "place": "siquijor",
+              "children": [
+                { "text": "Đi tàu cao tốc từ Dumaguete khoảng " },
+                { "type": "duration", "text": "1 giờ" },
+                { "text": ". Hòn đảo của thác nước, bãi biển và những truyền thuyết huyền bí." }
               ]
             },
             {
@@ -760,32 +1076,20 @@
               "title": "Hồ đôi Balinsasayao",
               "place": "twin-lakes-balinsasayao",
               "children": [
-                { "text": "Khoảng " },
+                { "text": "Đi xe từ Dumaguete khoảng " },
                 { "type": "duration", "text": "1 giờ" },
-                { "text": " đi xe từ Dumaguete. Đây là hồ núi lửa đôi nằm giữa rừng nguyên sinh." }
+                { "text": ". Hai hồ núi lửa song sinh giữa rừng nguyên sinh." }
               ]
             },
             {
               "type": "card",
-              "title": "Đảo Siquijor",
-              "place": "siquijor",
-              "children": [
-                { "text": "Khoảng " },
-                { "type": "duration", "text": "1 giờ" },
-                {
-                  "text": " đi tàu cao tốc từ Dumaguete. Đây là hòn đảo huyền bí với thác nước, bãi biển và những truyền thuyết kỳ bí."
-                }
-              ]
-            },
-            {
-              "type": "card",
-              "title": "Oslob (phía nam Cebu)",
+              "title": "Oslob (nam Cebu)",
               "place": "oslob",
               "children": [
-                { "text": "Khoảng " },
+                { "text": "Từ cảng Sibulan ở Dumaguete đi tàu đến cảng Liloan khoảng " },
                 { "type": "duration", "text": "30 phút" },
                 {
-                  "text": " đi tàu từ cảng Sibulan gần Dumaguete. Nổi tiếng với hoạt động ngắm cá mập voi."
+                  "text": ", rồi còn phải đi đường bộ thêm. Nổi tiếng với việc ngắm cá mập voi, và rất khó kết hợp vào lịch trình một ngày."
                 }
               ]
             }

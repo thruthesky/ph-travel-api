@@ -40,7 +40,7 @@
     "type": "date",
     "label": "Best time to visit",
     "icon": "calendar_month",
-    "text": "December–May (dry season, when the river runs clear)",
+    "text": "December-May (dry season, when the river runs clear)",
     "months": [12, 1, 2, 3, 4, 5]
   },
   "duration": {
@@ -53,7 +53,7 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱1,000–2,500 per person",
+    "text": "About ₱1,000-2,500 per person",
     "currency": "PHP",
     "min": 1000,
     "max": 2500
@@ -87,16 +87,86 @@
       {
         "type": "image",
         "url": "images/076-loboc-river-2.webp",
-        "alt": "Loboc River",
+        "alt": "Loboc River lined with palm trees",
         "credit": "Renz Rueda / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_01.jpg"
       },
       {
         "type": "image",
         "url": "images/076-loboc-river-3.webp",
-        "alt": "Loboc River",
-        "credit": "Renz Rueda / CC BY-SA 4.0 / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_02.jpg"
+        "alt": "A cruise boat passing through the forest",
+        "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_in_the_early_afternoon.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-4.webp",
+        "alt": "A low waterfall on the upstream riverbank",
+        "credit": "shankar s. from Dubai / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Busay_Falls-_time_to_turn_back_(9277740358).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-5.webp",
+        "alt": "Buffet lunch aboard the cruise",
+        "credit": "Øyvind Holmstad / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lunch_at_Loboc_River_Cruice_in_Bohol.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-6.webp",
+        "alt": "Stand-up paddleboarding on the Loboc River",
+        "credit": "Ric V Obedencio / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Stand_Paddle_At_Loboc_River.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-7.webp",
+        "alt": "A floating restaurant docked at the performance stage",
+        "credit": "Ric V Obedencio / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_Cruise_2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-8.webp",
+        "alt": "The river running through a lush, forested gorge",
+        "credit": "Øyvind Holmstad / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_Bohol_2017_1_small_waterfall.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-9.webp",
+        "alt": "The restored facade of San Pedro Apostol Church",
+        "credit": "ACTA314 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_of_the_Loboc_Church.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-10.webp",
+        "alt": "The octagonal bell tower standing apart beside the church",
+        "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Loboc_Belfry_(Loay_Interior_Road,_Loboc,_Bohol;_01-12-2023).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-11.webp",
+        "alt": "Sipatan bamboo hanging bridge",
+        "credit": "shankar s. from Dubai / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sipatan_Hanging_bridge_(9275008559).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-12.webp",
+        "alt": "The Loboc River swollen with muddy water after rain, with the town church beyond",
+        "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Loboc_River,_Loboc_Poblacion_with_church_(Loboc,_Bohol;_01-12-2023).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-13.webp",
+        "alt": "A lunch cruise boat heading upriver",
+        "credit": "Unbuttered Parsnip / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lunch_cruise_on_the_Loboc_river.jpg"
       }
     ]
   },
@@ -105,7 +175,7 @@
     "variant": "lead",
     "children": [
       {
-        "text": "A green river flowing through lush palm forest in inland Bohol, famous for a river cruise where floating restaurants serve a buffet lunch with live music. Sitting on the road to the Chocolate Hills, it's a fixture on the lunch stop of any Bohol countryside tour."
+        "text": "A green river flowing through lush palm forest in inland Bohol, famous for a river cruise where raft-style floating restaurants serve a buffet lunch with live music. Sitting on the road to the Chocolate Hills, it's a fixture on the lunch stop of any countryside tour."
       }
     ]
   },
@@ -120,11 +190,13 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "The Loboc River rises in the mountains of central Bohol, flows through Loboc town, and empties into the Bohol Sea at Loay to the south. Coconut, nipa palm, and bamboo grow thick along both banks, and where the water has passed through limestone terrain, it takes on a deep emerald color on a clear day. About "
+              "text": "The Loboc River rises in the Carmen highlands in the middle of Bohol, passes through the towns of Batuan, Sevilla and Loboc in turn, and empties into the sea off Loay in the south (the Bohol Sea); it is also called the Loay River. Its watershed covers about 520 km², and coconut and nipa palms, bamboo and tropical broadleaf trees crowd both banks. The water, which has passed through limestone country, takes on a deep emerald color on a clear day. It is about "
             },
+            { "type": "distance", "text": "24 km" },
+            { "text": " from Tagbilaran, roughly " },
             { "type": "duration", "text": "40 minutes" },
             {
-              "text": " from Tagbilaran by car, right on the main road to the Chocolate Hills, it's rarely left out of a Bohol countryside tour."
+              "text": " by car, and because it lies on the main road to the Chocolate Hills, it is almost never left out of a Bohol countryside tour."
             }
           ]
         },
@@ -132,21 +204,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "What made the Loboc River famous is its floating restaurant cruise. Raft-boats built with two banana-boat-shaped hulls topped with a roof and dining tables move slowly upriver while passengers eat a Filipino buffet lunch and listen to live singing accompanied by guitar and keyboard. Partway along, riverside villagers put on a stage show of traditional dance and song, and the boat turns back near a small waterfall upstream (Busay Falls)."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "In the riverside village of Loboc stands the Church of San Pedro Apostol, built by the Jesuits in the 17th century. Considered one of the oldest churches in Bohol, it was heavily damaged in the magnitude-7.2 Bohol earthquake of "
+              "text": "What made the Loboc River famous is its floating restaurant cruise. A raft-style boat, with a roof and dining tables set on a twin-hull base, moves slowly upriver from the town pier while passengers eat a Filipino buffet lunch and listen to live singing. Partway along, the boat pulls up to a bamboo stage where village children and residents perform traditional dances and songs, and then it turns around in front of the small Busay Falls upstream and heads back down. The round trip takes about "
             },
-            { "type": "date", "text": "2013" },
-            { "text": " but reopened in " },
-            { "type": "date", "text": "2021" },
+            { "type": "duration", "text": "1 hour" },
             {
-              "text": " after a long restoration. The village is also known as the hometown of the Loboc Children's Choir, winner of several international choir competitions."
+              "text": ". Several operators run cruises, including Loboc Riverwatch, Rio Verde and Village Floating Restaurant, and prices are almost the same from one operator to the next."
             }
           ]
         },
@@ -154,7 +216,49 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "The Loboc River cruise is quiet and physically undemanding, making it especially well suited to family trips with parents or young children. More active travelers can enjoy the same river in a completely different mood with an early-morning stand-up paddleboard (SUP) session or a nighttime firefly tour."
+              "text": "Riverside Loboc is one of the starting points of the mission in Bohol. The Jesuits founded a mission station here in late "
+            },
+            { "type": "date", "text": "1596" },
+            { "text": ", it became a parish in " },
+            { "type": "date", "text": "1602" },
+            { "text": ", and the present coral-stone San Pedro Apostol Church was completed in " },
+            { "type": "date", "text": "1734" },
+            { "text": ". The ceiling paintings were done by Canuto Avila from " },
+            { "type": "date", "text": "1926" },
+            { "text": " to " },
+            { "type": "date", "text": "1927" },
+            {
+              "text": ". The church lost its facade and part of its bell tower in the magnitude 7.2 Bohol earthquake of "
+            },
+            { "type": "date", "text": "October 15, 2013" },
+            {
+              "text": ", and it was restored under the supervision of the National Museum and reopened on "
+            },
+            { "type": "date", "text": "May 16, 2021" },
+            {
+              "text": ". The town is also home to the Loboc Children's Choir, which began as the Loboc Central Elementary School choir in "
+            },
+            { "type": "date", "text": "1980" },
+            { "text": ". The choir won top prizes at the national youth music competition (" },
+            { "type": "date", "text": "1993" },
+            { "text": ", " },
+            { "type": "date", "text": "1995" },
+            { "text": " and " },
+            { "type": "date", "text": "2001" },
+            { "text": "), a gold medal at the Barcelona choir festival in " },
+            { "type": "date", "text": "2003" },
+            { "text": ", and in " },
+            { "type": "date", "text": "2024" },
+            {
+              "text": " received the Gawad CCP Para sa Sining, the highest honor of the Cultural Center of the Philippines (CCP)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The cruise is quiet and takes almost no effort, so it suits trips with parents or children especially well. More active travelers can enjoy the same river in a completely different mood with a zipline across the gorge, early-morning stand-up paddleboarding, or a sunset firefly paddle tour. Be aware, though, that the cruise stops right away in rain or when a typhoon warning is issued, so leave some slack in your schedule."
             }
           ]
         }
@@ -173,79 +277,119 @@
             {
               "type": "card",
               "number": 1,
-              "title": "Buffet lunch river cruise",
+              "title": "Lunch buffet river cruise",
               "children": [
                 {
-                  "text": "Departing from the pier at the Loboc Tourism Complex, the boat makes a round trip upriver over about "
+                  "text": "Boats leave from the Loboc Tourism Complex pier for a round trip of about "
                 },
                 { "type": "duration", "text": "1 hour" },
                 {
-                  "text": ". It includes a Filipino-style buffet of rice, fish, chicken adobo, vegetables, and fruit, plus live music, with departures throughout "
+                  "text": ". Reviews say the Filipino buffet includes dishes such as fish sinigang, beef caldereta, pork barbecue, grilled fish, pancit and maja blanca, with drinks sold separately. Departures start around "
                 },
-                { "type": "time", "text": "10:00 AM to 3:00 PM" },
+                { "type": "time", "text": "10:00 AM" },
+                { "text": " and run roughly every 30 minutes, and the last boat leaves between " },
+                { "type": "time", "text": "2:30-3:00 PM" },
                 { "text": "." }
               ]
             },
             {
               "type": "card",
               "number": 2,
-              "title": "Watching riverside folk performances",
+              "title": "Riverside folk performances",
               "children": [
                 {
-                  "text": "Partway through the cruise, the boat briefly pulls up to a bamboo stage on the riverbank, where locals perform traditional dances such as tinikling with bamboo poles, along with songs. A small tip or souvenir purchase may be encouraged after the show."
-                }
+                  "text": "When the boat docks at the bamboo stage floating midway along the cruise, villagers and children perform traditional dances and play instruments, and sometimes invite guests to dance along. Tips for the performers are voluntary, and small bills of "
+                },
+                { "type": "price", "text": "₱20-100" },
+                { "text": " are commonly used." }
               ]
             },
             {
               "type": "card",
               "number": 3,
-              "title": "The scenery at Busay Falls",
+              "title": "Busay Falls scenery",
               "children": [
                 {
-                  "text": "At the upstream turning point of the cruise is a broad, low, stepped waterfall, letting you take in the white spray and green forest up close."
+                  "text": "This is the small waterfall at the upstream point where most cruises turn around. It is not a tall, plunging fall but a low stream of water spilling along the width of the river, so keep your expectations modest and enjoy the view of the water blending with the forest. Many notices say swimming is not allowed here."
                 }
               ]
             },
             {
               "type": "card",
               "number": 4,
-              "title": "Visiting Loboc Church",
+              "title": "San Pedro Apostol Church and bell tower",
               "children": [
+                { "text": "It is about " },
+                { "type": "distance", "text": "150 m" },
+                { "text": " from the tourism complex, a " },
+                { "type": "duration", "text": "3-minute" },
                 {
-                  "text": "Right beside the pier, the Church of San Pedro Apostol has an impressive stone facade restored after earthquake damage and striking ceiling paintings inside. The view of the river from the bridge in front of the church is also worthwhile."
+                  "text": " walk. The sights are the coral-stone facade with three arches and the four-story octagonal bell tower standing apart beside the church. Seven bells hang in the tower, and the oldest dates from "
+                },
+                { "type": "date", "text": "1863" },
+                {
+                  "text": ". On the third floor of the convent building attached to the church is the Loboc Museum, which displays church relics."
                 }
               ]
             },
             {
               "type": "card",
               "number": 5,
-              "title": "Early-morning SUP tour",
+              "title": "Ecotourism Adventure Park",
               "children": [
+                { "text": "A zipline (about " },
+                { "type": "distance", "text": "520 m" },
+                { "text": ") and a cable car span a gorge about " },
+                { "type": "distance", "text": "2.5 km" },
                 {
-                  "text": "Operators upstream run stand-up paddleboard tours that start early in the morning before the cruise boats begin running, letting you enjoy the quiet river and birdsong. Beginners can join after a short lesson."
+                  "text": " north of the town. Operations stop in heavy rain or typhoons, and prices change often, so check on site."
                 }
               ]
             },
             {
               "type": "card",
               "number": 6,
-              "title": "Nighttime firefly tour",
+              "title": "Paddleboards and firefly tours",
               "children": [
                 {
-                  "text": "There are tours by boat or SUP after dark to see fireflies gathering in the mangroves and trees along the river. They're especially visible on moonless nights and toward the end of the rainy season."
+                  "text": "Riverside resorts such as Fox & The Firefly Cottages run stand-up paddleboard tours. The "
+                },
+                { "type": "duration", "text": "2 to 2.5 hour" },
+                {
+                  "text": " sunset course starts with a short lesson, then you paddle quietly in search of fireflies. The fireflies are wild, so some nights you won't see any."
                 }
               ]
             },
             {
               "type": "card",
               "number": 7,
-              "title": "Sevilla bamboo hanging bridge",
+              "title": "Sipatan Twin Hanging Bridge",
               "children": [
-                { "text": "About " },
-                { "type": "duration", "text": "15 minutes" },
+                { "text": "This is a bamboo hanging bridge in Sipatan, Sevilla, about " },
+                { "type": "duration", "text": "10-15 minutes" },
+                { "text": " by car from the town. The two parallel spans are each about " },
+                { "type": "distance", "text": "40 m" },
+                { "text": " long and take only " },
+                { "type": "duration", "text": "2-3 minutes" },
+                { "text": " to cross. Wet bamboo is slippery, so wear sneakers." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Combine it with a countryside tour",
+              "children": [
+                { "text": "Loboc is the lunch stop on the central Bohol tour. See the " },
+                { "type": "place_link", "text": "Chocolate Hills", "slug": "chocolate-hills" },
+                { "text": " and the " },
+                { "type": "place_link", "text": "Tarsier Sanctuary", "slug": "tarsier-sanctuary" },
+                { "text": " in the morning, then stop at the " },
                 {
-                  "text": " from Loboc toward the Chocolate Hills, Sevilla has a hanging bridge woven from bamboo over the river — a good brief stop during a countryside tour."
-                }
+                  "type": "place_link",
+                  "text": "Bilar Man-Made Forest",
+                  "slug": "bilar-man-made-forest"
+                },
+                { "text": " after the lunch cruise to complete a full-day itinerary." }
               ]
             }
           ]
@@ -262,36 +406,50 @@
           "type": "tabs",
           "items": [
             {
-              "title": "Half-day itinerary (cruise-focused)",
+              "title": "Half-day itinerary",
+              "subtitle": "Cruise-focused, departing from Tagbilaran or Panglao",
               "blocks": [
                 {
                   "type": "stepper",
                   "items": [
-                    { "time": "9:00 AM", "children": [{ "text": "Depart Panglao or Tagbilaran" }] },
                     {
-                      "time": "9:40 AM",
-                      "children": [{ "text": "Arrive in Loboc, tour Loboc Church" }]
+                      "time": "8:00 AM",
+                      "children": [{ "text": "Leave Panglao or Tagbilaran by car" }]
                     },
                     {
-                      "time": "10:30 AM",
+                      "time": "9:15 AM",
                       "children": [
-                        { "text": "Buy tickets at the Tourism Complex and board the cruise" }
+                        {
+                          "text": "Arrive in Loboc; visit San Pedro Apostol Church and its bell tower"
+                        }
                       ]
                     },
                     {
-                      "time": "10:30–11:45 AM",
+                      "time": "10:00 AM",
                       "children": [
-                        { "text": "Buffet lunch, folk performances, turn back at Busay Falls" }
+                        {
+                          "text": "Check in at the Loboc Tourism Complex information desk, get assigned a table and a boat, and wait"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:30-11:30 AM",
+                      "children": [
+                        {
+                          "text": "Buffet lunch, folk performance on the bamboo stage, turn around at Busay Falls"
+                        }
                       ]
                     },
                     {
                       "time": "Noon",
-                      "children": [{ "text": "Visit the Sevilla bamboo hanging bridge" }]
+                      "children": [
+                        { "text": "Visit the Sipatan hanging bridge (10-15 minutes by car)" }
+                      ]
                     },
                     {
                       "time": "1:00 PM",
                       "children": [
-                        { "text": "Then head to the Chocolate Hills or the Tarsier Sanctuary" }
+                        { "text": "Head to the Chocolate Hills or the Tarsier Sanctuary" }
                       ]
                     }
                   ]
@@ -299,23 +457,39 @@
               ]
             },
             {
-              "title": "Overnight itinerary (staying by the river)",
+              "title": "Overnight itinerary",
+              "subtitle": "Riverside stay, with zipline and fireflies",
               "blocks": [
                 {
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "Afternoon",
+                      "time": "2:00 PM",
                       "children": [
-                        { "text": "Check in at a riverside lodge, swim or kayak on the river" }
+                        {
+                          "text": "Check in at a riverside lodge, then ride the zipline at the Ecotourism Adventure Park"
+                        }
                       ]
                     },
-                    { "time": "Evening", "children": [{ "text": "Nighttime firefly tour" }] },
                     {
-                      "time": "6:00 AM the next day",
-                      "children": [
-                        { "text": "SUP tour to enjoy the morning river, then the lunch cruise" }
-                      ]
+                      "time": "4:00 PM",
+                      "children": [{ "text": "Stroll around Loboc town and the church" }]
+                    },
+                    {
+                      "time": "5:30 PM",
+                      "children": [{ "text": "Sunset paddleboard tour departs" }]
+                    },
+                    {
+                      "time": "Evening",
+                      "children": [{ "text": "Watch the fireflies after dark" }]
+                    },
+                    {
+                      "time": "Next day, 7:00 AM",
+                      "children": [{ "text": "Misty early-morning walk along the river" }]
+                    },
+                    {
+                      "time": "Next day, 10:00 AM",
+                      "children": [{ "text": "Lunch cruise on the first boat - the wait is short" }]
                     }
                   ]
                 }
@@ -335,74 +509,104 @@
           "type": "accordion",
           "items": [
             {
-              "title": "Plane",
+              "title": "By air",
               "icon": "flight",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "About " },
-                    { "type": "duration", "text": "1 hour 20 minutes" },
                     {
-                      "text": " from Manila to Bohol–Panglao International Airport (TAG). From the airport to Loboc is about "
+                      "text": "Direct flights from Manila to Bohol-Panglao International Airport (TAG) take about "
                     },
-                    { "type": "duration", "text": "1 hour" },
-                    { "text": " by car." }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Boat",
-              "icon": "directions_boat",
-              "blocks": [
-                {
-                  "type": "paragraph",
-                  "children": [
-                    { "text": "A fast craft such as OceanJet from Cebu takes about " },
-                    { "type": "duration", "text": "2 hours" },
-                    { "text": " to Tagbilaran Port (about " },
-                    { "type": "price", "text": "₱800–1,500" },
-                    { "text": "). From Tagbilaran Port to Loboc is about " },
-                    { "type": "duration", "text": "40 minutes to 1 hour" },
-                    { "text": " by car." }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Bus & jeepney",
-              "icon": "airport_shuttle",
-              "blocks": [
-                {
-                  "type": "paragraph",
-                  "children": [
+                    { "type": "duration", "text": "1 hour 20 minutes to 1 hour 40 minutes" },
                     {
-                      "text": "A bus or jeepney toward Loboc or Carmen from the Dao Integrated Bus Terminal in Tagbilaran takes about "
+                      "text": " and are operated by Cebu Pacific, Philippine Airlines and AirAsia. From the airport to Loboc is about "
                     },
-                    { "type": "duration", "text": "1 hour" },
-                    { "text": ", with a fare of about " },
-                    { "type": "price", "text": "₱40–70" },
+                    { "type": "distance", "text": "40-45 km" },
+                    { "text": ", roughly " },
+                    { "type": "duration", "text": "50 minutes to 1 hour 15 minutes" },
+                    { "text": " by taxi, and the fare is about " },
+                    { "type": "price", "text": "₱1,800-2,500" },
                     {
-                      "text": ". Get off on the road in front of Loboc Church, and the pier is right next door."
+                      "text": ". Many notices say Grab is hard to get in Bohol, so it is safer to book a car before you arrive."
                     }
                   ]
                 }
               ]
             },
             {
-              "title": "Chartering a vehicle",
+              "title": "By boat",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "From Cebu Pier 1 to Tagbilaran Port, the OceanJet, SuperCat and Weesam Express fast ferries take about "
+                    },
+                    { "type": "duration", "text": "2 hours" },
+                    {
+                      "text": ". OceanJet runs up to around 10 trips a day, while Weesam has fewer. Economy costs about "
+                    },
+                    { "type": "price", "text": "₱600-850" },
+                    { "text": " and business about " },
+                    { "type": "price", "text": "₱1,000-1,200" },
+                    {
+                      "text": ", and the port fee is paid in cash on site. From Tagbilaran Port, take a taxi or tricycle to the Dao Integrated Bus Terminal and transfer to a bus."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "By bus or jeepney",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "At the Dao Integrated Bus Terminal in Tagbilaran, take a bus or jeepney bound for Carmen and get off at Loboc. The ride takes about "
+                    },
+                    { "type": "duration", "text": "1 hour" },
+                    { "text": " and the fare is about " },
+                    { "type": "price", "text": "₱40-60" },
+                    {
+                      "text": ", depending on whether it is air-conditioned. Some buses will drop you in front of the Loboc Tourism Complex. From the airport, transferring by public transport takes "
+                    },
+                    { "type": "duration", "text": "1 hour 30 minutes to 2 hours 30 minutes" },
+                    { "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chartered vehicle",
               "icon": "directions_car",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "The most common approach is to charter a countryside tour vehicle. Starting from Panglao, a car runs about "
+                      "text": "The most common way is to charter a vehicle for a countryside tour. A full-day charter from Panglao costs about "
                     },
-                    { "type": "price", "text": "₱2,500–4,000" },
+                    { "type": "price", "text": "₱3,000-5,000" },
                     {
-                      "text": " and can cover the Chocolate Hills and the Tarsier Sanctuary in the same day. Tour packages often include the cruise lunch, so confirm this when booking."
+                      "text": " per vehicle, depending on the vehicle type, the number of people, and whether the driver acts as a guide. You can see the Chocolate Hills and the Tarsier Sanctuary in the same day, and tour packages often include the cruise lunch, so confirm this when you book."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Getting around locally",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The town pier and the church are within walking distance. For farther places such as the Sipatan hanging bridge and the Ecotourism Adventure Park, take a habal-habal (motorcycle taxi) or a tricycle, and negotiate the fare before you get on. Some operators also depart from the pier near the Loay bridge downstream, so check the departure point when you book."
                     }
                   ]
                 }
@@ -421,59 +625,75 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "The river is at its clearest emerald when rain is scarce, during " },
-            { "type": "date", "text": "December–May" },
-            { "text": ". " },
-            { "type": "date", "text": "February–April" },
+            { "text": "The dry months of " },
+            { "type": "date", "text": "December-May" },
             {
-              "text": " especially has clear skies that make the river's color and the forest's green stand out vividly. Midday is hot, but the cruise boats have a roof and a river breeze, so it's bearable."
+              "text": " are when the river runs clearest and the skies open up, so the green of the forest contrasts sharply with the color of the water. Midday is hot and humid, but the cruise boat has a roof and the river breeze makes it bearable."
             }
           ]
         },
         {
           "type": "paragraph",
           "children": [
-            { "text": "During the rainy season, " },
-            { "text": "June–November", "type": "date" },
+            { "text": "During the " },
+            { "text": "June-November", "type": "date" },
             {
-              "text": ", soil washed down from upstream often turns the river brown, and after heavy rain the water level can rise enough to halt cruises. Check whether the cruise is running that day if a typhoon has passed through or a heavy rain warning is in effect. Fireflies are relatively plentiful toward the end of the rainy season and in early dry season."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "During Holy Week, the Christmas holidays, and Korean holiday periods, tour groups crowd in and the ticket line lengthens between "
+              "text": " rainy season, soil washes down from upstream and the river often turns brown, and the cruise stops if the rain continues. In early January "
             },
-            { "type": "time", "text": "11:00 AM and 1:00 PM" },
-            { "text": ". Taking the first boat around " },
-            { "type": "time", "text": "10:00 AM" },
+            { "text": "2018", "type": "date" },
+            {
+              "text": ", Tropical Storm Agaton (Urduja) flooded the town and operations were canceled, and the cruise, which was suspended after Typhoon Odette damaged the boats, resumed only on "
+            },
+            { "text": "March 1, 2022", "type": "date" },
+            { "text": ". On " },
+            { "text": "February 6, 2026", "type": "date" },
+            {
+              "text": ", the Loboc tourism office also halted all water activities on the river because of Tropical Depression Basyang, a precaution taken while the storm was still "
+            },
+            { "text": "650 km", "type": "distance" },
+            {
+              "text": " away. Even in the dry season, the weather can stop operations suddenly like this, so check the latest announcements before you visit."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Around Holy Week, New Year's and long holidays, tour groups crowd in and the wait is said to grow from "
+            },
+            { "type": "duration", "text": "30 minutes" },
+            { "text": " to as long as " },
+            { "type": "duration", "text": "2 hours" },
+            { "text": ". Checking in before " },
+            { "type": "time", "text": "11:30 AM" },
             { "text": " or going after " },
             { "type": "time", "text": "2:00 PM" },
-            { "text": " is much more relaxed." }
+            {
+              "text": " is much more relaxed. Fireflies are easier to see on nights with a weak moon, and one notice says sightings are reliable in the dry season (November-May), though they are never guaranteed."
+            }
           ]
         },
         {
           "type": "table",
           "label": "Season at a glance",
           "icon": "calendar_month",
-          "columns": ["Period", "Weather", "Travel tips"],
+          "columns": ["Season", "Weather", "Travel tip"],
           "rows": [
             [
-              "December–January",
-              "Dry season, emerald river water",
-              "Waits at the ticket booth over the Christmas holidays — take the 10 AM first boat or go after 2 PM"
+              "December-February",
+              "Dry season, emerald water",
+              "Long waits around New Year's - check in early in the morning"
             ],
             [
-              "February–May",
+              "March-May",
               "Dry season, hot at midday",
-              "River and forest colors most vivid February–April — crowded during Holy Week"
+              "Crowded during Holy Week - go after 2 PM or take the first boat"
             ],
             [
-              "June–November",
-              "Rainy season, river water turns brown",
-              "Cruises stop after heavy rain — fireflies near the end of the rainy season"
+              "June-November",
+              "Rainy season, brown water",
+              "Operations stop after heavy rain or typhoons - check same-day announcements"
             ]
           ]
         }
@@ -491,49 +711,54 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Buffet lunch river cruise",
-              "price": "About ₱850–1,000",
-              "note": "About 1 hour, includes buffet and performance"
+              "label": "Lunch buffet river cruise (adult)",
+              "price": "About ₱1,000-1,200",
+              "note": "About 1 hour, buffet and performance included, drinks extra"
             },
             {
-              "label": "Riverside folk performance tip",
-              "price": "About ₱20–100",
-              "note": "Optional"
+              "label": "Cruise for seniors, persons with disabilities and children",
+              "price": "About ₱800 / about ₱412",
+              "note": "ID checked; children 3-4 ft tall ₱412, under 3 ft free, 4 ft and taller pay the adult fare"
+            },
+            { "label": "Tips for folk performance", "price": "About ₱20-100", "note": "Voluntary" },
+            {
+              "label": "Ecotourism Adventure Park",
+              "price": "Zipline about ₱700 / cable car about ₱460",
+              "note": "Both round trip about ₱900, photo package extra"
             },
             {
-              "label": "SUP tour",
-              "price": "About ₱1,000–2,000",
-              "note": "Around 2 hours, includes lesson"
+              "label": "Sunset and firefly paddleboard tour",
+              "price": "About ₱750-800",
+              "note": "2 to 2.5 hours, lesson included"
             },
             {
-              "label": "Nighttime firefly tour",
-              "price": "About ₱500–1,500",
-              "note": "Boat or SUP"
+              "label": "Sipatan hanging bridge fee",
+              "price": "About ₱20-35",
+              "note": "Cash; some notices say it is free"
             },
             {
-              "label": "Tagbilaran → Loboc (bus/jeepney)",
-              "price": "About ₱40–70",
+              "label": "Tagbilaran to Loboc bus or jeepney",
+              "price": "About ₱40-60",
               "note": "One way"
             },
             {
-              "label": "Countryside tour vehicle charter",
-              "price": "About ₱2,500–4,000 per vehicle",
-              "note": "Entrance fees and meals extra"
+              "label": "Airport to Loboc taxi",
+              "price": "About ₱1,800-2,500",
+              "note": "One way; pre-booked car ₱2,000-2,800"
             },
             {
-              "label": "Riverside lodge accommodation",
-              "price": "About ₱1,500–4,000 per night",
-              "note": "Varies by facility"
-            },
-            { "label": "Church donation/souvenirs", "price": "About ₱50–300", "note": "Optional" }
+              "label": "Countryside tour vehicle charter",
+              "price": "About ₱3,000-5,000 per vehicle",
+              "note": "Full day, admission and meals extra"
+            }
           ]
         },
         {
           "type": "caption",
           "children": [
-            { "text": "Prices are approximate as of " },
+            { "text": "Prices are rough estimates as of " },
             { "type": "date", "text": "2026" },
-            { "text": " and may vary depending on local conditions." }
+            { "text": " and may vary with local conditions." }
           ]
         }
       ]
@@ -548,11 +773,19 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Most people visit the Loboc River as a day trip, but there are a few bamboo-and-wood lodges and bungalows along the riverbank worth an overnight stay. Prices run about "
+              "text": "Most people visit the Loboc River as a day trip, but there are a few bamboo and timber lodgings along the river. Nuts Huts in Gotozon village costs around "
             },
-            { "type": "price", "text": "₱1,500–4,000" },
+            { "type": "price", "text": "₱1,200" },
             {
-              "text": " a night, and many lack air conditioning, so confirm when booking. If you want amenities, it's more common to base yourself on Panglao Island or in Tagbilaran city and visit for the day."
+              "text": " a night, but reviews mention about 200 steps and no Wi-Fi or hot water. Fox & The Firefly Cottages has 11 traditional-style riverside cottages and runs its own paddleboard tours, and Loboc River Resort in Kamayaan costs around "
+            },
+            { "type": "price", "text": "₱2,700" },
+            {
+              "text": " a night with breakfast. Prices change by date, so expect a range of roughly "
+            },
+            { "type": "price", "text": "₱1,000-3,000" },
+            {
+              "text": " a night; if you want more amenities, stay on Panglao Island or in Tagbilaran city and visit as a day trip."
             }
           ]
         },
@@ -560,7 +793,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "The cruise buffet is unassuming Filipino home cooking — rice, grilled fish, chicken and pork adobo, pancit (stir-fried noodles), stir-fried vegetables, and fruit like mango and banana. It's best thought of as a meal for the atmosphere more than the food. Around Loboc village, shops sell Bohol specialty snacks such as calamay, buko pie, and ube halaya, and buying buko juice (fresh coconut juice) from a stall in front of the church is also a treat."
+              "text": "The cruise buffet is Filipino home cooking built around rice, grilled dishes, beef caldereta, sinigang, pancit, tropical fruit, and desserts such as maja blanca. Reviews say the food is decent and varied, so think of it as a meal to enjoy for the atmosphere rather than the flavor. Shops in town sell Bohol specialty snacks such as calamay (sticky rice sweet in a coconut shell) and kisses, a peanut candy, and buko juice (fresh coconut juice) from roadside stalls is a treat too."
             }
           ]
         }
@@ -580,58 +813,77 @@
             {
               "children": [
                 {
-                  "text": "The pier ticket booth runs mainly on cash. Loboc has few ATMs, so bring cash from Tagbilaran or Panglao."
+                  "text": "Check in for the cruise at the information desk of the Loboc Tourism Complex. You are assigned a table and a boat and wait to be called, so arrive 30 minutes before departure. The desk will keep your bags next to the counter for about "
+                },
+                { "type": "price", "text": "₱50-100" },
+                { "text": " each." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Cash is the norm. Prepare small bills in Tagbilaran or Panglao for tips, drinks and the hanging bridge fee."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Since several cruise boats run almost the same route, sitting at a railing seat facing the river gives you the best view of the scenery. Boarding earlier works in your favor for seat choice."
+                  "text": "Several boats run almost the same route, so sit at the riverside railing to get a proper view. The earlier you board, the better."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "The buffet line gets long right after departure, so it's more comfortable to enjoy the scenery for the first "
+                  "text": "The line at the buffet gets long right after departure, so enjoy the scenery for the first "
                 },
                 { "type": "duration", "text": "10 minutes" },
-                { "text": " and then get your food at a slower pace." }
-              ]
-            },
-            {
-              "children": [
                 {
-                  "text": "During the rainy season, whether the cruise runs can be decided the morning of. Check with your tour driver or accommodation ahead of time."
+                  "text": " and then fetch your food at a relaxed pace. Drinks are paid for each time you order."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "SUP and firefly tours have limited capacity and need booking at least a day ahead. Bring a waterproof bag and a change of clothes."
+                  "text": "In peak season, it is best to book the day before by phone or Facebook message. For tour packages, check whether the cruise is included."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Good photo spots are the view of the river from the bridge beside the church, in front of Busay Falls, and the riverside bamboo performance stage."
+                  "text": "Paddleboard and firefly tours have limited group sizes and need to be booked at least a day ahead. Bring a waterproof bag, a change of clothes and mosquito repellent."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "There are a lot of mosquitoes, so bring long clothing and repellent, especially for evening tours."
+                  "text": "Good photo spots are the town bridge, where you can frame the river and church together, the front of Busay Falls, and the riverside bamboo performance stage."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "The cruise fare includes the buffet lunch, but drinks are usually extra. Bring some small cash if you want bottled water or soda."
+                  "text": "Ride the zipline and visit the church in the morning, and take the cruise after 2 PM to avoid the crowded midday hours; splitting your schedule this way shortens the wait."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "The fare rose from " },
+                { "type": "price", "text": "₱850" },
+                { "text": " to " },
+                { "type": "price", "text": "₱1,000" },
+                { "text": " in " },
+                { "type": "date", "text": "April 2024" },
+                { "text": ", and some notices report a further increase (" },
+                { "type": "price", "text": "₱1,200" },
+                {
+                  "text": ") since then, so confirm that day's price and any discounts you qualify for at check-in. Life jackets are provided on board, so be sure children wear one."
                 }
               ]
             }
@@ -651,7 +903,7 @@
           "icon": "warning",
           "children": [
             {
-              "text": "After heavy rain in the rainy season, the river level rises quickly and the current gets strong. During this period, don't swim or SUP in the river, and follow the operators' instructions."
+              "text": "When the river rises or a typhoon or tropical depression warning is issued, cruises and paddle tours stop, even a day ahead. After heavy rain the current is strong, so do not swim or paddleboard in the river then, and follow the operator's instructions."
             }
           ]
         },
@@ -663,33 +915,37 @@
             {
               "children": [
                 {
-                  "text": "Don't lean on the cruise boat's railing or stand at the bow for photos. The boat rocks when it turns."
-                }
-              ]
-            },
-            { "children": [{ "text": "Littering or throwing food into the river is prohibited." }] },
-            {
-              "children": [
-                {
-                  "text": "Catching fireflies or shining a flashlight on them reduces their numbers. Observe quietly only."
+                  "text": "Do not lean on the cruise boat's railing or stand at the edge of the boat to take photos. The boat rocks when it turns."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Inside the church, covering your shoulders and knees is customary, and you should refrain from tourist photography during Mass."
+                  "text": "Throwing trash or food into the river is prohibited. Many notices also say swimming in front of Busay Falls is not allowed."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Some people take photos of you at the pier and on the boat and then quote an inflated price of "
-                },
+                  "text": "Fireflies are easier to see in darkness and quiet. Do not shine flashlights or flash at them, do not make noise, and do not catch them."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Inside the church, covering your shoulders and knees is polite, and refrain from sightseeing photography during Mass."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Photographers on the boat or at the pier sometimes charge " },
                 { "type": "price", "text": "₱2,000" },
                 {
-                  "text": " or more for the prints or files. If you don't want them, politely decline from the start, and if you do plan to buy, confirm the price first."
+                  "text": " or more later for photos they took. If you don't want them, politely decline from the start, and if you do plan to buy, confirm the price first."
                 }
               ]
             }
@@ -713,8 +969,8 @@
               "place": "tarsier-sanctuary",
               "children": [
                 { "text": "About " },
-                { "type": "duration", "text": "30–40 minutes" },
-                { "text": " by car to Corella, where you can see the palm-sized tarsier." }
+                { "type": "duration", "text": "30-40 minutes" },
+                { "text": " by car from Loboc to Corella, where you can see palm-sized tarsiers." }
               ]
             },
             {
@@ -723,8 +979,38 @@
               "place": "chocolate-hills",
               "children": [
                 { "text": "About " },
+                { "type": "distance", "text": "30 km" },
+                { "text": " away and about " },
                 { "type": "duration", "text": "40 minutes" },
-                { "text": " by car, Bohol's iconic landscape of over 1,000 cone-shaped hills." }
+                {
+                  "text": " by car, this is Bohol's symbol, with more than 1,000 cone-shaped hills spread out."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Bilar Man-Made Forest",
+              "place": "bilar-man-made-forest",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "20 minutes" },
+                { "text": " by car from town along the Loay inland road, a roughly " },
+                { "type": "distance", "text": "2 km" },
+                { "text": " stretch where mahogany trees form a tunnel." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Baclayon Church",
+              "place": "baclayon-church",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "40 minutes" },
+                { "text": " by car toward Tagbilaran, this coral-stone church was completed in " },
+                { "type": "date", "text": "1727" },
+                {
+                  "text": " and, together with the Loboc church, lets you compare church architecture in Bohol."
+                }
               ]
             },
             {
@@ -734,19 +1020,7 @@
               "children": [
                 { "text": "About " },
                 { "type": "duration", "text": "1 hour" },
-                { "text": " by car, the hub for Alona Beach and hopping tours." }
-              ]
-            },
-            {
-              "type": "card",
-              "title": "Anda",
-              "place": "anda",
-              "children": [
-                { "text": "About " },
-                { "type": "duration", "text": "2 hours" },
-                {
-                  "text": " by car, a village with quiet white sand beaches and cave pools at the eastern tip of Bohol."
-                }
+                { "text": " by car, the base for Alona Beach and island-hopping tours." }
               ]
             }
           ]

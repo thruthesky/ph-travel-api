@@ -6,7 +6,7 @@
   "tagline": {
     "type": "typography",
     "variant": "tagline",
-    "text": "Buổi trưa trên dòng sông ngọc bích với tiếng hát và bữa trưa"
+    "text": "Buổi trưa hát ca và dùng bữa trên dòng sông màu ngọc bích"
   },
   "island_group": { "type": "badge", "label": "Nhóm đảo", "value": "visayas", "text": "Visayas" },
   "region": { "type": "badge", "label": "Khu vực", "value": "bohol", "text": "Bohol" },
@@ -14,7 +14,7 @@
     "type": "address",
     "label": "Vị trí",
     "icon": "location_on",
-    "text": "Loboc · Loay, tỉnh Bohol"
+    "text": "Tỉnh Bohol, Loboc·Loay"
   },
   "category": {
     "type": "badge",
@@ -26,13 +26,7 @@
   "tags": {
     "type": "tags",
     "label": "Thẻ",
-    "items": [
-      "Du thuyền trên sông",
-      "Buffet trưa",
-      "Rừng rậm",
-      "Đom đóm",
-      "Nhà thờ thời Tây Ban Nha"
-    ]
+    "items": ["Du thuyền sông", "Buffet trưa", "Rừng nhiệt đới", "Đom đóm", "Nhà thờ Tây Ban Nha"]
   },
   "rating": { "type": "rating", "label": "Đánh giá", "value": 4.3, "max": 5 },
   "latitude": { "type": "latitude", "label": "Vĩ độ", "value": 9.6354 },
@@ -41,7 +35,7 @@
     "type": "date",
     "label": "Thời điểm lý tưởng",
     "icon": "calendar_month",
-    "text": "Tháng 12 – tháng 5 (mùa khô, thời điểm nước sông trong)",
+    "text": "Tháng 12~tháng 5 (mùa khô, nước sông trong)",
     "months": [12, 1, 2, 3, 4, 5]
   },
   "duration": {
@@ -54,7 +48,7 @@
     "type": "price",
     "label": "Ngân sách",
     "icon": "payments",
-    "text": "Khoảng ₱1,000–2,500/người",
+    "text": "Khoảng ₱1,000~2,500/người",
     "currency": "PHP",
     "min": 1000,
     "max": 2500
@@ -71,7 +65,7 @@
     "type": "airport",
     "label": "Sân bay gần nhất",
     "icon": "flight",
-    "text": "Sân bay quốc tế Bohol–Panglao (TAG)",
+    "text": "Sân bay quốc tế Bohol-Panglao (TAG)",
     "code": "TAG"
   },
   "image": {
@@ -88,16 +82,86 @@
       {
         "type": "image",
         "url": "images/076-loboc-river-2.webp",
-        "alt": "Sông Loboc",
+        "alt": "Sông Loboc với hàng dừa hai bên bờ",
         "credit": "Renz Rueda / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_01.jpg"
       },
       {
         "type": "image",
         "url": "images/076-loboc-river-3.webp",
-        "alt": "Sông Loboc",
-        "credit": "Renz Rueda / CC BY-SA 4.0 / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_02.jpg"
+        "alt": "Du thuyền băng qua rừng cây",
+        "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_in_the_early_afternoon.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-4.webp",
+        "alt": "Thác nước thấp bên bờ thượng nguồn",
+        "credit": "shankar s. from Dubai / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Busay_Falls-_time_to_turn_back_(9277740358).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-5.webp",
+        "alt": "Bữa buffet trưa trên du thuyền",
+        "credit": "Øyvind Holmstad / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lunch_at_Loboc_River_Cruice_in_Bohol.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-6.webp",
+        "alt": "Chèo ván đứng (SUP) trên sông Loboc",
+        "credit": "Ric V Obedencio / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Stand_Paddle_At_Loboc_River.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-7.webp",
+        "alt": "Nhà hàng nổi cập bên sân khấu biểu diễn",
+        "credit": "Ric V Obedencio / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_Cruise_2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-8.webp",
+        "alt": "Dòng sông giữa thung lũng rừng rậm",
+        "credit": "Øyvind Holmstad / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Loboc_River_Bohol_2017_1_small_waterfall.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-9.webp",
+        "alt": "Mặt tiền nhà thờ Thánh Peter Tông đồ sau khi phục dựng",
+        "credit": "ACTA314 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_of_the_Loboc_Church.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-10.webp",
+        "alt": "Tháp chuông bát giác đứng riêng bên cạnh nhà thờ",
+        "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Loboc_Belfry_(Loay_Interior_Road,_Loboc,_Bohol;_01-12-2023).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-11.webp",
+        "alt": "Cầu treo tre Sipatan",
+        "credit": "shankar s. from Dubai / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sipatan_Hanging_bridge_(9275008559).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-12.webp",
+        "alt": "Sông Loboc đục ngầu dâng cao sau mưa và nhà thờ trong thị trấn",
+        "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Loboc_River,_Loboc_Poblacion_with_church_(Loboc,_Bohol;_01-12-2023).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/076-loboc-river-13.webp",
+        "alt": "Du thuyền bữa trưa ngược dòng sông",
+        "credit": "Unbuttered Parsnip / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lunch_cruise_on_the_Loboc_river.jpg"
       }
     ]
   },
@@ -106,7 +170,7 @@
     "variant": "lead",
     "children": [
       {
-        "text": "Đây là dòng sông xanh chảy giữa rừng dừa rậm rạp trong nội địa Bohol, nổi tiếng với du thuyền nhà hàng nổi hình bè, nơi bạn vừa ăn buffet trưa vừa nghe nhạc sống. Vì nằm trên đường đến Đồi Chocolate nên hầu như không bao giờ vắng mặt trong lịch trình ăn trưa của tour vùng quê."
+        "text": "Dòng sông xanh biếc chảy giữa rừng dừa rậm rạp ở nội địa Bohol, nổi tiếng với du thuyền sông để vừa ăn buffet trưa trên nhà hàng nổi dạng bè vừa nghe nhạc sống. Nằm trên đường đến Đồi Chocolate nên luôn là điểm dừng ăn trưa không thể thiếu của tour vùng quê."
       }
     ]
   },
@@ -121,11 +185,13 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Sông Loboc bắt nguồn từ vùng núi trung tâm đảo Bohol, chảy qua làng Loboc rồi đổ ra biển Bohol tại Loay ở phía nam. Hai bên bờ sông rợp bóng dừa, lá nipa và tre rậm rạp; dòng nước chảy qua vùng đá vôi có màu ngọc bích đậm vào những ngày trời đẹp. Cách Tagbilaran khoảng "
+              "text": "Sông Loboc bắt nguồn từ vùng núi Carmen ở trung tâm đảo Bohol, lần lượt chảy qua Batuan, Sevilla và làng Loboc rồi đổ ra biển Bohol ngoài khơi Loay ở phía nam; vì vậy còn được gọi là sông Loay. Lưu vực rộng khoảng 520 km², hai bên bờ rậm rạp dừa, dừa nước nipa, tre và cây lá rộng nhiệt đới. Nước chảy qua vùng đá vôi có màu ngọc bích đậm vào những ngày trời đẹp. Cách Tagbilaran khoảng "
             },
+            { "type": "distance", "text": "24km" },
+            { "text": ", đi ô tô khoảng " },
             { "type": "duration", "text": "40 phút" },
             {
-              "text": " đi ô tô, nằm ngay trên trục đường chính đến Đồi Chocolate nên hầu như luôn có mặt trong các tour vùng quê ở Bohol."
+              "text": " là tới, lại nằm trên trục đường chính đến Đồi Chocolate nên hầu như luôn có mặt trong các tour vùng quê ở Bohol."
             }
           ]
         },
@@ -133,21 +199,11 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Điều khiến sông Loboc nổi tiếng chính là du thuyền nhà hàng nổi trên sông. Trong lúc chiếc bè có mái che và bàn ăn đặt trên hai thân thuyền giống xuồng chuối từ từ ngược dòng lên thượng nguồn, hành khách vừa ăn buffet trưa kiểu Philippines vừa nghe hát live với đệm guitar và keyboard. Giữa chặng đường có một sân khấu bên bờ sông nơi dân làng biểu diễn múa hát truyền thống, rồi thuyền quay đầu gần thác nước nhỏ ở thượng nguồn (thác Busay) để xuôi dòng trở về."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "Ở làng Loboc ven sông có nhà thờ Thánh Peter Tông đồ do dòng Tên xây dựng từ thế kỷ 17. Được xem là một trong những nhà thờ lâu đời nhất Bohol, nhà thờ này đã sụp đổ nghiêm trọng trong trận động đất Bohol 7,2 độ vào năm "
+              "text": "Điều khiến sông Loboc nổi tiếng là du thuyền nhà hàng nổi. Chiếc bè hai thân có mái che và bàn ăn phía trên từ bến trong thị trấn từ từ ngược dòng lên thượng nguồn, trong lúc hành khách ăn buffet trưa kiểu Philippines và nghe hát nhạc sống. Giữa chặng đường thuyền cập vào sân khấu bằng tre, nơi trẻ em và người dân trong làng biểu diễn múa hát truyền thống, rồi quay đầu trước thác Busay nhỏ ở thượng nguồn để xuôi dòng trở về. Một vòng đi-về mất khoảng "
             },
-            { "type": "date", "text": "2013" },
-            { "text": ", nhưng sau quá trình phục dựng kéo dài đã mở cửa trở lại vào năm " },
-            { "type": "date", "text": "2021" },
+            { "type": "duration", "text": "1 giờ" },
             {
-              "text": ". Ngôi làng cũng được biết đến là quê hương của Dàn hợp xướng thiếu nhi Loboc (Loboc Children's Choir), từng nhiều lần đoạt giải tại các cuộc thi hợp xướng quốc tế."
+              "text": ". Có nhiều đơn vị khai thác như Loboc Riverwatch, Rio Verde, Village Floating Resto và giá gần như giống nhau."
             }
           ]
         },
@@ -155,7 +211,49 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Du thuyền sông Loboc yên tĩnh và hầu như không đòi hỏi thể lực nên đặc biệt phù hợp với chuyến đi báo hiếu cha mẹ hay đi cùng trẻ nhỏ. Nếu là người thích vận động hơn, bạn có thể trải nghiệm cùng dòng sông này theo một không khí hoàn toàn khác qua ván chèo đứng (SUP) vào sáng sớm hoặc tour ngắm đom đóm ban đêm."
+              "text": "Loboc ven sông là một trong những điểm khởi đầu của việc truyền giáo ở Bohol. Dòng Tên lập cơ sở truyền giáo vào cuối năm "
+            },
+            { "type": "date", "text": "1596" },
+            { "text": " và trở thành giáo xứ năm " },
+            { "type": "date", "text": "1602" },
+            { "text": "; nhà thờ Thánh Peter Tông đồ bằng đá san hô hiện nay hoàn thành năm " },
+            { "type": "date", "text": "1734" },
+            { "text": ". Tranh trần do Canuto Ávila vẽ từ năm " },
+            { "type": "date", "text": "1926" },
+            { "text": " đến năm " },
+            { "type": "date", "text": "1927" },
+            { "text": ". Trong trận động đất 7,2 độ ở Bohol ngày " },
+            { "type": "date", "text": "15 tháng 10 năm 2013" },
+            {
+              "text": ", mặt tiền và một phần tháp chuông của nhà thờ bị sập, được phục dựng dưới sự giám sát của Bảo tàng Quốc gia và mở cửa trở lại ngày "
+            },
+            { "type": "date", "text": "16 tháng 5 năm 2021" },
+            {
+              "text": ". Ngôi làng cũng là quê hương của Dàn hợp xướng thiếu nhi Loboc (Loboc Children's Choir), khởi đầu là dàn hợp xướng của trường tiểu học Trung tâm Loboc năm "
+            },
+            { "type": "date", "text": "1980" },
+            {
+              "text": ", từng giành giải cao nhất cuộc thi âm nhạc thanh thiếu niên toàn quốc (các năm "
+            },
+            { "type": "date", "text": "1993" },
+            { "text": "·" },
+            { "type": "date", "text": "1995" },
+            { "text": "·" },
+            { "type": "date", "text": "2001" },
+            { "text": "), huy chương vàng tại liên hoan hợp xướng ở Barcelona năm " },
+            { "type": "date", "text": "2003" },
+            {
+              "text": " và nhận Gawad CCP Para sa Sining, vinh dự cao nhất của Trung tâm Văn hóa Philippines (CCP), năm "
+            },
+            { "type": "date", "text": "2024" },
+            { "text": "." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Du thuyền yên tĩnh và gần như không tốn sức nên đặc biệt hợp với chuyến đi cùng bố mẹ hoặc đi cùng trẻ nhỏ. Nếu thích hoạt động hơn, bạn có thể cảm nhận cùng dòng sông ấy trong bầu không khí hoàn toàn khác qua zipline vắt ngang thung lũng, chèo ván đứng (SUP) buổi sáng sớm hay chuyến chèo xem đom đóm lúc chiều tà. Tuy nhiên, hễ có mưa hoặc cảnh báo bão là du thuyền dừng ngay, nên hãy để lịch trình thật thoải mái."
             }
           ]
         }
@@ -174,27 +272,29 @@
             {
               "type": "card",
               "number": 1,
-              "title": "Du thuyền buffet trưa",
+              "title": "Du thuyền sông kèm buffet trưa",
               "children": [
-                {
-                  "text": "Thuyền xuất phát từ bến tàu khu phức hợp du lịch Loboc, đi ngược lên thượng nguồn và quay về trong khoảng "
-                },
+                { "text": "Xuất phát từ bến của Khu du lịch Loboc, khứ hồi khoảng " },
                 { "type": "duration", "text": "1 giờ" },
                 {
-                  "text": ". Bao gồm buffet kiểu Philippines với cơm, cá, gà adobo, rau và trái cây cùng nhạc sống, khởi hành liên tục trong khoảng "
+                  "text": ". Theo các bài đánh giá, buffet có món kiểu Philippines như canh cá sinigang, thịt bò caldereta, thịt heo nướng, cá nướng, pancit và bánh maja blanca, còn đồ uống tính riêng. Thuyền xuất phát cách nhau khoảng 30 phút từ khoảng "
                 },
-                { "type": "time", "text": "10:00–15:00" },
+                { "type": "time", "text": "10 giờ sáng" },
+                { "text": " và chuyến cuối nằm trong khoảng " },
+                { "type": "time", "text": "2 giờ 30~3 giờ chiều" },
                 { "text": "." }
               ]
             },
             {
               "type": "card",
               "number": 2,
-              "title": "Xem biểu diễn dân gian ven sông",
+              "title": "Xem biểu diễn dân gian bên sông",
               "children": [
                 {
-                  "text": "Giữa chuyến du thuyền, khi ghé qua sân khấu tre bên bờ sông, người dân sẽ biểu diễn các điệu múa và bài hát truyền thống như tinikling với gậy tre. Sau buổi biểu diễn, bạn có thể được mời cho một khoản tiền boa nhỏ hoặc mua quà lưu niệm."
-                }
+                  "text": "Khi thuyền cập vào sân khấu tre nổi giữa đường, người dân và trẻ em biểu diễn múa truyền thống và chơi nhạc cụ, đôi khi còn kéo du khách cùng nhảy. Tiền tip cho người biểu diễn là tùy tâm, thường dùng tờ tiền nhỏ "
+                },
+                { "type": "price", "text": "₱20~100" },
+                { "text": "." }
               ]
             },
             {
@@ -203,50 +303,92 @@
               "title": "Cảnh thác Busay",
               "children": [
                 {
-                  "text": "Tại điểm thượng nguồn nơi du thuyền quay đầu, có một thác nước bậc thang rộng và thấp, nơi bạn có thể ngắm gần khung cảnh bọt nước trắng xóa hòa cùng rừng xanh."
+                  "text": "Đây là thác nhỏ ở thượng nguồn nơi hầu hết các du thuyền quay đầu. Không phải thác cao đổ xuống mà là dòng nước thấp chảy dọc theo bề rộng của sông, nên hãy hạ kỳ vọng và tận hưởng khung cảnh hòa cùng rừng cây. Nhiều nguồn cho biết ở đây không được phép bơi."
                 }
               ]
             },
             {
               "type": "card",
               "number": 4,
-              "title": "Ghé thăm nhà thờ Loboc",
+              "title": "Nhà thờ Thánh Peter Tông đồ và tháp chuông",
               "children": [
+                { "text": "Cách Khu du lịch khoảng " },
+                { "type": "distance", "text": "150m" },
+                { "text": ", đi bộ " },
+                { "type": "duration", "text": "3 phút" },
                 {
-                  "text": "Nhà thờ Thánh Peter Tông đồ ngay cạnh bến tàu gây ấn tượng với mặt ngoài bằng đá đã trải qua quá trình phục dựng sau động đất, và các bức tranh trần bên trong. Cảnh nhìn xuống sông từ cây cầu ven sông trước nhà thờ cũng rất đẹp."
+                  "text": " là tới. Điểm nhấn là mặt tiền bằng đá san hô với ba vòm cổng và tháp chuông bát giác bốn tầng đứng riêng bên cạnh nhà thờ. Tháp có 7 quả chuông, quả cổ nhất đúc năm "
+                },
+                { "type": "date", "text": "1863" },
+                {
+                  "text": ". Tầng 3 của tòa nhà tu viện kề bên nhà thờ là Bảo tàng Loboc trưng bày di vật của giáo hội."
                 }
               ]
             },
             {
               "type": "card",
               "number": 5,
-              "title": "Tour SUP sáng sớm",
+              "title": "Công viên phiêu lưu sinh thái",
               "children": [
+                { "text": "Nằm cách trung tâm thị trấn khoảng " },
+                { "type": "distance", "text": "2.5km" },
+                { "text": " về phía bắc, có zipline (dài khoảng " },
+                { "type": "distance", "text": "520m" },
                 {
-                  "text": "Tour ván chèo đứng do các cơ sở ở thượng nguồn tổ chức bắt đầu vào sáng sớm, trước khi du thuyền hoạt động, để bạn tận hưởng dòng sông yên tĩnh và tiếng chim hót. Người mới cũng có thể tham gia sau một buổi hướng dẫn."
+                  "text": ") vắt ngang thung lũng và cáp treo. Khi mưa lớn hoặc có bão sẽ ngừng hoạt động, giá cũng hay thay đổi nên hãy kiểm tra tại chỗ."
                 }
               ]
             },
             {
               "type": "card",
               "number": 6,
-              "title": "Tour ngắm đom đóm ban đêm",
+              "title": "Chèo ván đứng và xem đom đóm",
               "children": [
                 {
-                  "text": "Sau khi mặt trời lặn, có tour đi bằng thuyền hoặc SUP để ngắm đom đóm tụ tập trên rừng ngập mặn và cây cối ven sông. Chúng xuất hiện nhiều nhất vào những đêm không trăng, gần cuối mùa mưa."
+                  "text": "Một số nơi như khu nghỉ ven sông Fox & The Firefly Cottages tổ chức tour chèo ván đứng. Lộ trình khoảng "
+                },
+                { "type": "duration", "text": "2 giờ~2 giờ 30 phút" },
+                {
+                  "text": " từ lúc chiều tà là chèo nhẹ nhàng tìm đom đóm sau buổi hướng dẫn ngắn. Đom đóm là động vật hoang dã nên có ngày không thấy."
                 }
               ]
             },
             {
               "type": "card",
               "number": 7,
-              "title": "Cầu treo tre Sevilla",
+              "title": "Cầu treo đôi Sipatan",
               "children": [
-                { "text": "Tại Sevilla, cách Loboc khoảng " },
-                { "type": "duration", "text": "15 phút" },
+                { "text": "Cầu treo tre ở Sipatan, Sevilla, cách thị trấn khoảng " },
+                { "type": "duration", "text": "10~15 phút" },
+                { "text": " đi ô tô. Hai lối đi song song mỗi lối dài khoảng " },
+                { "type": "distance", "text": "40m" },
+                { "text": ", đi qua chỉ mất " },
+                { "type": "duration", "text": "2~3 phút" },
+                { "text": ". Tre ướt rất trơn nên hãy mang giày thể thao." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Kết hợp với tour vùng quê",
+              "children": [
                 {
-                  "text": " theo hướng Đồi Chocolate, có một cây cầu treo đan bằng tre bắc qua sông, rất hợp để ghé qua trong lúc đi tour vùng quê."
-                }
+                  "text": "Loboc là điểm ăn trưa trong tour miền trung Bohol. Buổi sáng tham quan "
+                },
+                { "type": "place_link", "text": "Đồi Chocolate", "slug": "chocolate-hills" },
+                { "text": " và " },
+                {
+                  "type": "place_link",
+                  "text": "Khu bảo tồn khỉ lùn Tarsier",
+                  "slug": "tarsier-sanctuary"
+                },
+                { "text": ", sau chuyến du thuyền bữa trưa ghé " },
+                {
+                  "type": "place_link",
+                  "text": "Rừng gỗ dái ngựa nhân tạo Bilar",
+                  "slug": "bilar-man-made-forest"
+                },
+                { "text": " là bạn có trọn vẹn lịch trình một ngày." }
               ]
             }
           ]
@@ -263,36 +405,48 @@
           "type": "tabs",
           "items": [
             {
-              "title": "Lịch trình nửa ngày (trọng tâm là du thuyền)",
+              "title": "Lịch trình nửa ngày",
+              "subtitle": "Tập trung vào du thuyền, khởi hành từ Tagbilaran hoặc Panglao",
               "blocks": [
                 {
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "09:00",
-                      "children": [{ "text": "Xuất phát từ Panglao hoặc Tagbilaran" }]
+                      "time": "8 giờ sáng",
+                      "children": [{ "text": "Xuất phát bằng xe từ Panglao hoặc Tagbilaran" }]
                     },
                     {
-                      "time": "09:40",
-                      "children": [{ "text": "Đến Loboc, tham quan nhà thờ Loboc" }]
-                    },
-                    {
-                      "time": "10:30",
-                      "children": [{ "text": "Mua vé tại khu phức hợp du lịch rồi lên du thuyền" }]
-                    },
-                    {
-                      "time": "10:30–11:45",
+                      "time": "9 giờ 15 sáng",
                       "children": [
                         {
-                          "text": "Ăn buffet trưa, xem biểu diễn dân gian, quay đầu tại thác Busay"
+                          "text": "Đến Loboc, tham quan nhà thờ Thánh Peter Tông đồ và tháp chuông"
                         }
                       ]
                     },
-                    { "time": "Buổi trưa", "children": [{ "text": "Ghé cầu treo tre Sevilla" }] },
                     {
-                      "time": "13:00",
+                      "time": "10 giờ sáng",
                       "children": [
-                        { "text": "Sau đó đi tiếp đến Đồi Chocolate hoặc Khu bảo tồn khỉ Tarsier" }
+                        {
+                          "text": "Đăng ký tại quầy hướng dẫn của Khu du lịch Loboc, nhận bàn và thuyền được chỉ định rồi chờ gọi"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10 giờ 30 đến 11 giờ 30 sáng",
+                      "children": [
+                        {
+                          "text": "Ăn buffet trưa, xem biểu diễn dân gian trên sân khấu tre, quay đầu trước thác Busay"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Giữa trưa",
+                      "children": [{ "text": "Ghé cầu treo Sipatan (đi ô tô 10~15 phút)" }]
+                    },
+                    {
+                      "time": "1 giờ chiều",
+                      "children": [
+                        { "text": "Di chuyển đến Đồi Chocolate hoặc Khu bảo tồn khỉ lùn Tarsier" }
                       ]
                     }
                   ]
@@ -300,24 +454,40 @@
               ]
             },
             {
-              "title": "Lịch trình 1 đêm (nghỉ ven sông)",
+              "title": "Lịch trình 2 ngày 1 đêm",
+              "subtitle": "Nghỉ ven sông, chơi zipline và xem đom đóm",
               "blocks": [
                 {
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "Buổi chiều",
-                      "children": [
-                        { "text": "Nhận phòng tại lodge ven sông, bơi hoặc chèo kayak trên sông" }
-                      ]
-                    },
-                    { "time": "Buổi tối", "children": [{ "text": "Tour ngắm đom đóm ban đêm" }] },
-                    {
-                      "time": "06:00 hôm sau",
+                      "time": "2 giờ chiều",
                       "children": [
                         {
-                          "text": "Ngắm cảnh sông buổi sáng qua tour SUP rồi đi du thuyền buổi trưa"
+                          "text": "Nhận phòng ở nơi nghỉ ven sông rồi chơi zipline tại Công viên phiêu lưu sinh thái"
                         }
+                      ]
+                    },
+                    {
+                      "time": "4 giờ chiều",
+                      "children": [{ "text": "Dạo quanh thị trấn Loboc và nhà thờ" }]
+                    },
+                    {
+                      "time": "5 giờ 30 chiều",
+                      "children": [{ "text": "Xuất phát tour chèo ván đứng lúc chiều tà" }]
+                    },
+                    {
+                      "time": "Buổi tối",
+                      "children": [{ "text": "Ngắm đom đóm sau khi trời tối" }]
+                    },
+                    {
+                      "time": "7 giờ sáng hôm sau",
+                      "children": [{ "text": "Dạo bờ sông trong sương mỏng buổi sáng sớm" }]
+                    },
+                    {
+                      "time": "10 giờ sáng hôm sau",
+                      "children": [
+                        { "text": "Đi chuyến thuyền đầu tiên để ăn trưa — hàng chờ ngắn" }
                       ]
                     }
                   ]
@@ -344,11 +514,21 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Từ Manila đến Sân bay quốc tế Bohol–Panglao (TAG) mất khoảng " },
-                    { "type": "duration", "text": "1 giờ 20 phút" },
-                    { "text": ". Từ sân bay đến Loboc cách khoảng " },
-                    { "type": "duration", "text": "1 giờ" },
-                    { "text": " đi ô tô." }
+                    {
+                      "text": "Từ Manila đến Sân bay quốc tế Bohol-Panglao (TAG) có chuyến bay thẳng khoảng "
+                    },
+                    { "type": "duration", "text": "1 giờ 20 phút~1 giờ 40 phút" },
+                    {
+                      "text": ", do Cebu Pacific, Philippine Airlines và AirAsia khai thác. Từ sân bay đến Loboc khoảng "
+                    },
+                    { "type": "distance", "text": "40~45km" },
+                    { "text": ", đi taxi khoảng " },
+                    { "type": "duration", "text": "50 phút~1 giờ 15 phút" },
+                    { "text": " với giá khoảng " },
+                    { "type": "price", "text": "₱1,800~2,500" },
+                    {
+                      "text": ". Nhiều nguồn cho biết ở Bohol rất khó gọi Grab, nên tốt nhất hãy đặt xe trước khi đến."
+                    }
                   ]
                 }
               ]
@@ -360,33 +540,41 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Từ Cebu, tàu cao tốc như OceanJet đến cảng Tagbilaran mất khoảng " },
+                    {
+                      "text": "Từ Bến số 1 ở Cebu đến cảng Tagbilaran bằng tàu cao tốc OceanJet, SuperCat, Weesam Express mất khoảng "
+                    },
                     { "type": "duration", "text": "2 giờ" },
-                    { "text": " (khoảng " },
-                    { "type": "price", "text": "₱800–1,500" },
-                    { "text": "). Từ cảng Tagbilaran đến Loboc mất khoảng " },
-                    { "type": "duration", "text": "40 phút–1 giờ" },
-                    { "text": " đi ô tô." }
+                    {
+                      "text": ". OceanJet có tối đa khoảng 10 chuyến mỗi ngày, Weesam ít chuyến hơn. Hạng phổ thông khoảng "
+                    },
+                    { "type": "price", "text": "₱600~850" },
+                    { "text": ", hạng thương gia khoảng " },
+                    { "type": "price", "text": "₱1,000~1,200" },
+                    {
+                      "text": ", phí cảng trả bằng tiền mặt tại chỗ. Từ cảng Tagbilaran đi taxi hoặc tricycle đến bến xe buýt tổng hợp Dao rồi chuyển sang xe buýt."
+                    }
                   ]
                 }
               ]
             },
             {
-              "title": "Xe buýt · xe jeepney",
+              "title": "Xe buýt · jeepney",
               "icon": "airport_shuttle",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Từ bến xe buýt tổng hợp Dao ở Tagbilaran, bắt xe buýt hoặc jeepney đi hướng Loboc hoặc Carmen mất khoảng "
+                      "text": "Từ bến xe buýt tổng hợp Dao ở Tagbilaran, đi xe buýt hoặc jeepney hướng Carmen rồi xuống ở Loboc. Mất khoảng "
                     },
                     { "type": "duration", "text": "1 giờ" },
                     { "text": ", giá vé khoảng " },
-                    { "type": "price", "text": "₱40–70" },
+                    { "type": "price", "text": "₱40~60" },
                     {
-                      "text": ". Xuống ngay trên đường trước nhà thờ Loboc là bến tàu nằm ngay cạnh."
-                    }
+                      "text": " tùy có máy lạnh hay không. Có xe buýt dừng ngay trước Khu du lịch Loboc. Nếu đi từ sân bay bằng phương tiện công cộng thì mất "
+                    },
+                    { "type": "duration", "text": "1 giờ 30 phút~2 giờ 30 phút" },
+                    { "text": "." }
                   ]
                 }
               ]
@@ -399,11 +587,25 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Cách phổ biến nhất là thuê xe cho tour vùng quê. Xuất phát từ Panglao, giá thuê một xe khoảng "
+                      "text": "Cách phổ biến nhất là thuê xe cho tour vùng quê. Xuất phát từ Panglao, thuê cả ngày một xe khoảng "
                     },
-                    { "type": "price", "text": "₱2,500–4,000" },
+                    { "type": "price", "text": "₱3,000~5,000" },
                     {
-                      "text": ", có thể kết hợp tham quan Đồi Chocolate và khu bảo tồn tarsier trong một ngày. Các gói tour của công ty lữ hành thường đã bao gồm bữa trưa trên du thuyền, nên hãy kiểm tra khi đặt."
+                      "text": ", tùy loại xe, số người và có tài xế kiêm hướng dẫn hay không. Có thể kết hợp tham quan Đồi Chocolate và Khu bảo tồn khỉ lùn Tarsier trong một ngày; các gói tour của công ty lữ hành thường đã gồm bữa trưa trên du thuyền, nên hãy kiểm tra khi đặt."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Di chuyển tại chỗ",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Bến thuyền trong thị trấn và nhà thờ có thể đi bộ tới. Những nơi xa hơn như cầu treo Sipatan và Công viên phiêu lưu sinh thái thì đi habal-habal (xe ôm) hoặc tricycle và thỏa thuận giá trước khi lên xe. Một số đơn vị còn xuất phát từ bến phía cầu Loay ở hạ lưu, nên hãy kiểm tra điểm xuất phát khi đặt."
                     }
                   ]
                 }
@@ -422,12 +624,10 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "Thời điểm nước sông có màu ngọc bích trong nhất là " },
-            { "type": "date", "text": "tháng 12–tháng 5" },
-            { "text": ", khi mưa ít. Đặc biệt " },
-            { "type": "date", "text": "tháng 2–tháng 4" },
+            { "text": "Khoảng " },
+            { "type": "date", "text": "tháng 12~tháng 5" },
             {
-              "text": " trời quang giúp màu nước sông và màu xanh của rừng tương phản rõ nét. Giữa trưa khá oi bức nhưng thuyền có mái che và có gió sông nên vẫn chịu được."
+              "text": " ít mưa là lúc nước sông trong nhất, trời quang, màu xanh của rừng và màu nước tương phản rõ nét. Buổi trưa nóng nhưng du thuyền có mái che và gió sông nên vẫn chịu được."
             }
           ]
         },
@@ -435,9 +635,23 @@
           "type": "paragraph",
           "children": [
             { "text": "Vào mùa mưa " },
-            { "text": "tháng 6–tháng 11", "type": "date" },
+            { "text": "tháng 6~tháng 11", "type": "date" },
             {
-              "text": ", đất từ thượng nguồn bị cuốn trôi khiến nước sông chuyển màu nâu nhiều ngày, và sau những trận mưa lớn mực nước dâng cao có thể khiến du thuyền ngừng hoạt động. Nếu có bão đi qua hoặc cảnh báo mưa lớn, hãy kiểm tra tình trạng hoạt động ngay trong ngày. Đom đóm xuất hiện tương đối nhiều vào cuối mùa mưa và đầu mùa khô."
+              "text": ", đất ở thượng nguồn bị cuốn xuống khiến nước sông nhiều ngày chuyển sang màu nâu, và khi mưa kéo dài thì du thuyền dừng chạy. Đầu tháng 1 năm "
+            },
+            { "text": "2018", "type": "date" },
+            {
+              "text": ", khi bão nhiệt đới Agaton đổ bộ, thị trấn bị ngập và hoạt động bị hủy; du thuyền từng ngừng vì tàu hư hại do bão Odette mãi đến "
+            },
+            { "text": "1 tháng 3 năm 2022", "type": "date" },
+            {
+              "text": " mới hoạt động trở lại. Văn phòng Du lịch Loboc cũng đã dừng toàn bộ hoạt động trên sông ngày "
+            },
+            { "text": "6 tháng 2 năm 2026", "type": "date" },
+            { "text": " vì áp thấp nhiệt đới Basyang, khi cơn bão còn ở cách xa " },
+            { "text": "650km", "type": "distance" },
+            {
+              "text": " — một biện pháp phòng ngừa từ trước. Vì vậy ngay cả mùa khô cũng có thể đột ngột dừng vì thời tiết, hãy kiểm tra thông báo mới nhất trước khi đi."
             }
           ]
         },
@@ -445,36 +659,40 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Vào Tuần Thánh, kỳ nghỉ Giáng sinh và các kỳ nghỉ lễ của Hàn Quốc, đoàn khách đông đảo kéo đến khiến hàng chờ mua vé kéo dài trong khoảng "
+              "text": "Dịp Tuần Thánh, Tết Dương lịch và các kỳ nghỉ lễ, khách đoàn đổ về đông nên thời gian xếp hàng được cho là kéo dài từ "
             },
-            { "type": "time", "text": "11:00–13:00" },
-            { "text": ". Nếu đi chuyến thuyền đầu tiên vào khoảng " },
-            { "type": "time", "text": "10:00" },
-            { "text": " hoặc sau " },
-            { "type": "time", "text": "14:00" },
-            { "text": " sẽ thoải mái hơn nhiều." }
+            { "type": "duration", "text": "30 phút" },
+            { "text": " đến tận " },
+            { "type": "duration", "text": "2 giờ" },
+            { "text": ". Đăng ký xong trước " },
+            { "type": "time", "text": "11 giờ 30 sáng" },
+            { "text": " hoặc đi sau " },
+            { "type": "time", "text": "2 giờ chiều" },
+            {
+              "text": " sẽ thong thả hơn nhiều. Đom đóm dễ thấy hơn vào những đêm ít trăng, và có hướng dẫn cho rằng mùa khô (tháng 11~tháng 5) thường thấy ổn định hơn, nhưng không có gì đảm bảo."
+            }
           ]
         },
         {
           "type": "table",
-          "label": "Tóm tắt theo thời điểm",
+          "label": "Tổng quan theo thời điểm",
           "icon": "calendar_month",
-          "columns": ["Thời điểm", "Thời tiết", "Điểm lưu ý"],
+          "columns": ["Thời điểm", "Thời tiết", "Điểm nổi bật"],
           "rows": [
             [
-              "Tháng 12–tháng 1",
-              "Mùa khô, nước sông xanh ngọc lục bảo",
-              "Dịp nghỉ Giáng sinh phải xếp hàng mua vé — đi chuyến đầu lúc 10 giờ sáng hoặc sau 2 giờ chiều"
+              "Tháng 12~tháng 2",
+              "Mùa khô, nước sông màu ngọc bích",
+              "Cuối năm hàng chờ dài — đăng ký thật sớm"
             ],
             [
-              "Tháng 2–tháng 5",
-              "Mùa khô, giữa trưa oi bức",
-              "Tháng 2–4 màu nước sông và rừng rõ nhất — đông đúc dịp Tuần Thánh"
+              "Tháng 3~tháng 5",
+              "Mùa khô, trưa nóng",
+              "Tuần Thánh đông đúc — sau 2 giờ chiều hoặc chuyến đầu"
             ],
             [
-              "Tháng 6–tháng 11",
-              "Mùa mưa, nước sông chuyển màu nâu",
-              "Sau mưa lớn tàu ngừng chạy — cuối mùa mưa có đom đóm"
+              "Tháng 6~tháng 11",
+              "Mùa mưa, nước chuyển màu nâu",
+              "Dừng chạy sau mưa lớn·bão — kiểm tra thông báo trong ngày"
             ]
           ]
         }
@@ -492,53 +710,54 @@
           "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
           "items": [
             {
-              "label": "Du thuyền buffet trưa",
-              "price": "Khoảng ₱850–1,000",
-              "note": "Khoảng 1 giờ, đã gồm buffet · biểu diễn"
+              "label": "Du thuyền sông kèm buffet trưa (người lớn)",
+              "price": "Khoảng ₱1,000~1,200",
+              "note": "Khoảng 1 giờ, gồm buffet và biểu diễn, đồ uống tính riêng"
             },
             {
-              "label": "Tiền boa cho biểu diễn dân gian ven sông",
-              "price": "Khoảng ₱20–100",
-              "note": "Tùy tâm"
+              "label": "Du thuyền cho người cao tuổi·người khuyết tật·trẻ em",
+              "price": "Khoảng ₱800 / khoảng ₱412",
+              "note": "Kiểm tra giấy tờ, trẻ cao 3~4 feet ₱412, dưới 3 feet miễn phí, từ 4 feet trở lên tính giá người lớn"
+            },
+            { "label": "Tiền tip biểu diễn dân gian", "price": "Khoảng ₱20~100", "note": "Tùy tâm" },
+            {
+              "label": "Công viên phiêu lưu sinh thái",
+              "price": "Zipline khoảng ₱700 / cáp treo khoảng ₱460",
+              "note": "Khứ hồi cả hai khoảng ₱900, gói ảnh tính riêng"
             },
             {
-              "label": "Tour SUP",
-              "price": "Khoảng ₱1,000–2,000",
-              "note": "Khoảng 2 giờ, đã gồm hướng dẫn"
+              "label": "Tour chèo ván đứng chiều tà·xem đom đóm",
+              "price": "Khoảng ₱750~800",
+              "note": "2 giờ~2 giờ 30 phút, gồm hướng dẫn cơ bản"
             },
             {
-              "label": "Tour ngắm đom đóm ban đêm",
-              "price": "Khoảng ₱500–1,500",
-              "note": "Thuyền hoặc SUP"
+              "label": "Phí qua cầu treo Sipatan",
+              "price": "Khoảng ₱20~35",
+              "note": "Tiền mặt, cũng có nguồn nói miễn phí"
             },
             {
-              "label": "Xe buýt · jeepney Tagbilaran → Loboc",
-              "price": "Khoảng ₱40–70",
+              "label": "Tagbilaran → Loboc xe buýt·jeepney",
+              "price": "Khoảng ₱40~60",
               "note": "Một chiều"
             },
             {
-              "label": "Thuê xe cho tour vùng quê",
-              "price": "Khoảng ₱2,500–4,000/xe",
-              "note": "Chưa gồm vé vào cửa · bữa ăn"
+              "label": "Sân bay → Loboc taxi",
+              "price": "Khoảng ₱1,800~2,500",
+              "note": "Một chiều, xe đặt trước ₱2,000~2,800"
             },
             {
-              "label": "Lưu trú lodge ven sông",
-              "price": "Khoảng ₱1,500–4,000/đêm",
-              "note": "Chênh lệch tùy cơ sở vật chất"
-            },
-            {
-              "label": "Tiền dâng nhà thờ · quà lưu niệm",
-              "price": "Khoảng ₱50–300",
-              "note": "Tùy tâm"
+              "label": "Thuê xe tour vùng quê",
+              "price": "Khoảng ₱3,000~5,000/xe",
+              "note": "Cả ngày, chưa gồm vé vào cửa và bữa ăn"
             }
           ]
         },
         {
           "type": "caption",
           "children": [
-            { "text": "Giá cả là mức ước tính " },
-            { "type": "date", "text": "năm 2026" },
-            { "text": " và có thể thay đổi tùy theo tình hình thực tế tại địa phương." }
+            { "text": "Chi phí là mức tham khảo ước chừng của năm " },
+            { "type": "date", "text": "2026" },
+            { "text": " và có thể thay đổi tùy tình hình tại chỗ." }
           ]
         }
       ]
@@ -553,11 +772,19 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Sông Loboc thường được ghé thăm trong ngày, nhưng ven sông cũng có vài lodge và bungalow bằng tre, gỗ rất hợp để nghỉ lại một đêm. Giá khoảng "
+              "text": "Sông Loboc phần lớn chỉ ghé trong ngày, nhưng ven sông có vài nơi lưu trú xây bằng tre và gỗ. Nuts Huts ở làng Gotozon giá khoảng "
             },
-            { "type": "price", "text": "₱1,500–4,000" },
+            { "type": "price", "text": "₱1,200" },
             {
-              "text": "/đêm, nhiều nơi không có điều hòa nên hãy kiểm tra khi đặt. Nếu muốn đầy đủ tiện nghi, cách phổ biến là ở tại đảo Panglao hoặc trung tâm Tagbilaran rồi đi về trong ngày."
+              "text": " mỗi đêm, tuy nhiên có đánh giá cho biết phải leo khoảng 200 bậc thang và không có Wi-Fi hay nước nóng. Fox & The Firefly Cottages gồm 11 nhà nhỏ kiểu truyền thống ven sông, tự tổ chức tour chèo ván đứng, còn Loboc River Resort ở Camayaan giá khoảng "
+            },
+            { "type": "price", "text": "₱2,700" },
+            {
+              "text": " mỗi đêm đã gồm bữa sáng. Giá thay đổi theo ngày, nhìn chung bạn có thể ước khoảng "
+            },
+            { "type": "price", "text": "₱1,000~3,000" },
+            {
+              "text": " mỗi đêm; nếu muốn đầy đủ tiện nghi thì ở đảo Panglao hoặc trung tâm Tagbilaran rồi đi về trong ngày."
             }
           ]
         },
@@ -565,7 +792,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Buffet trên du thuyền là các món nhà kiểu Philippines giản dị: cơm, cá nướng, adobo gà · heo, pancit (mì xào), rau xào, và trái cây như xoài, chuối. Nên xem đây là bữa ăn để tận hưởng không khí hơn là hương vị. Quanh làng Loboc có các cửa hàng bán đặc sản Bohol như calamay, bánh buko pie và ube halaya, và mua nước dừa tươi (buko juice) tại các quầy hàng trước nhà thờ cũng là một thú vui."
+              "text": "Buffet trên du thuyền gồm cơm, các món nướng, thịt bò caldereta, sinigang, pancit, trái cây nhiệt đới và món tráng miệng như maja blanca, là bữa ăn gia đình kiểu Philippines. Các bài đánh giá cho rằng vị khá bình thường nhưng đa dạng, nên hãy coi đây là bữa ăn để tận hưởng không khí hơn là hương vị. Ở các cửa hàng trong thị trấn có bán đặc sản Bohol là calamay (bánh gạo nếp đựng trong gáo dừa) và bánh đậu phộng Peanut Kisses, còn nước buko (nước dừa tươi) ở hàng rong ven đường cũng là một thú vui."
             }
           ]
         }
@@ -585,58 +812,75 @@
             {
               "children": [
                 {
-                  "text": "Quầy vé tại bến tàu chủ yếu thanh toán bằng tiền mặt. Loboc có ít ATM nên hãy chuẩn bị tiền mặt từ Tagbilaran hoặc Panglao."
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "text": "Vì nhiều thuyền cùng chạy gần như cùng một tuyến đường, bạn cần ngồi ở chỗ sát lan can phía sông mới ngắm cảnh được rõ. Lên thuyền càng sớm càng có lợi."
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "text": "Ngay sau khi khởi hành, hàng lấy đồ ăn thường rất dài, nên bạn có thể ngắm cảnh trong khoảng "
+                  "text": "Đăng ký du thuyền thực hiện tại quầy hướng dẫn của Khu du lịch Loboc. Bạn nhận bàn và thuyền được chỉ định rồi chờ được gọi, vì vậy hãy đến trước giờ xuất phát 30 phút. Cạnh quầy có nơi gửi hành lý, khoảng "
                 },
+                { "type": "price", "text": "₱50~100" },
+                { "text": " mỗi kiện." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Tiền mặt là chính. Hãy chuẩn bị sẵn tiền lẻ cho tiền tip, đồ uống và phí qua cầu treo ở Tagbilaran hoặc Panglao."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Nhiều thuyền đi gần như cùng một lộ trình, nên phải ngồi cạnh lan can phía sông mới ngắm cảnh trọn vẹn. Lên thuyền càng sớm càng có lợi."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Buffet ngay sau khi xuất phát hàng rất dài, vì vậy " },
                 { "type": "duration", "text": "10 phút" },
-                { "text": " đầu rồi từ từ lấy đồ ăn sau." }
-              ]
-            },
-            {
-              "children": [
                 {
-                  "text": "Vào mùa mưa, việc du thuyền có chạy hay không đôi khi chỉ được quyết định vào sáng hôm đó. Hãy kiểm tra trước qua tài xế tour hoặc nơi lưu trú."
+                  "text": " đầu hãy ngắm cảnh rồi từ từ lấy đồ ăn sẽ thoải mái hơn. Đồ uống trả tiền mỗi lần gọi."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Tour SUP và ngắm đom đóm có giới hạn số người nên cần đặt trước ít nhất một ngày. Hãy mang theo túi chống nước và quần áo dự phòng."
+                  "text": "Vào mùa cao điểm nên đặt trước một ngày qua điện thoại hoặc tin nhắn Facebook. Với tour trọn gói, hãy kiểm tra xem có bao gồm du thuyền hay không."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Các điểm chụp ảnh đẹp gồm góc nhìn xuống sông từ cây cầu cạnh nhà thờ, trước thác Busay, và sân khấu tre biểu diễn ven sông."
+                  "text": "Tour chèo ván đứng và xem đom đóm có giới hạn số người, cần đặt trước ít nhất một ngày. Hãy mang túi chống nước, quần áo thay và thuốc chống muỗi."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Có nhiều muỗi nên đặc biệt với tour buổi tối, hãy mặc quần áo dài tay và mang theo thuốc chống muỗi."
+                  "text": "Điểm chụp ảnh đẹp là góc nhìn cả sông lẫn nhà thờ từ cây cầu trong thị trấn, trước thác Busay và sân khấu tre ven sông."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Giá vé du thuyền đã bao gồm buffet trưa nhưng đồ uống hầu hết tính riêng. Hãy mang theo ít tiền lẻ nếu muốn mua nước lọc hoặc nước ngọt."
+                  "text": "Nếu chia lịch trình để chơi zipline và thăm nhà thờ vào buổi sáng, rồi đi du thuyền sau 2 giờ chiều để tránh giờ trưa đông đúc thì sẽ đỡ phải xếp hàng."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Giá du thuyền đã tăng từ " },
+                { "type": "price", "text": "₱850" },
+                { "text": " lên " },
+                { "type": "price", "text": "₱1,000" },
+                { "text": " vào " },
+                { "type": "date", "text": "tháng 4 năm 2024" },
+                { "text": ", và một số nguồn cho biết sau đó còn tăng nữa (" },
+                { "type": "price", "text": "₱1,200" },
+                {
+                  "text": "), nên khi đăng ký hãy hỏi giá trong ngày và đối tượng được giảm giá. Trên thuyền có sẵn áo phao, hãy nhớ mặc cho trẻ em."
                 }
               ]
             }
@@ -656,7 +900,7 @@
           "icon": "warning",
           "children": [
             {
-              "text": "Sau những trận mưa lớn mùa mưa, mực nước sông dâng nhanh và dòng chảy trở nên mạnh. Vào thời điểm này, không nên bơi hoặc chèo SUP trên sông, hãy làm theo hướng dẫn của đơn vị vận hành."
+              "text": "Khi mực nước sông dâng lên hoặc có cảnh báo bão, áp thấp nhiệt đới, du thuyền và tour chèo ván có thể dừng từ trước một ngày. Sau mưa lớn dòng chảy mạnh lên, vì vậy lúc này đừng bơi hay chèo ván đứng trên sông và hãy làm theo hướng dẫn của đơn vị vận hành."
             }
           ]
         },
@@ -668,33 +912,39 @@
             {
               "children": [
                 {
-                  "text": "Không nên tựa vào lan can thuyền hay đứng ở mũi/đuôi thuyền để chụp ảnh. Thuyền sẽ lắc khi đổi hướng."
-                }
-              ]
-            },
-            { "children": [{ "text": "Việc xả rác hay ném thức ăn xuống sông đều bị cấm." }] },
-            {
-              "children": [
-                {
-                  "text": "Việc bắt đom đóm hoặc chiếu đèn pin vào chúng sẽ làm giảm số lượng. Chỉ nên quan sát trong yên lặng."
+                  "text": "Đừng dựa vào lan can hay đứng ở đuôi thuyền để chụp ảnh. Thuyền sẽ lắc khi chuyển hướng."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Bên trong nhà thờ, nên mặc trang phục che vai và đầu gối, và tránh chụp ảnh du lịch trong lúc đang có thánh lễ."
+                  "text": "Cấm xả rác hay ném thức ăn xuống sông. Nhiều nguồn cho biết trước thác Busay cũng không được bơi."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Có trường hợp họ chụp ảnh cho bạn ở bến tàu và trên thuyền rồi đòi giá cao trên "
+                  "text": "Đom đóm dễ thấy hơn trong bóng tối và sự yên tĩnh. Đừng chiếu đèn pin hay đèn flash, đừng gây tiếng động và đừng bắt chúng."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Khi vào bên trong nhà thờ, che vai và đầu gối là phép lịch sự, và hãy tránh chụp ảnh du lịch trong lúc làm lễ."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Có khi nhiếp ảnh gia trên thuyền hoặc ở bến tính tiền ảnh đã chụp hộ về sau từ "
                 },
                 { "type": "price", "text": "₱2,000" },
                 {
-                  "text": " cho ảnh in hoặc file. Nếu không muốn thì hãy lịch sự từ chối ngay từ đầu, còn nếu định mua thì hãy hỏi giá trước."
+                  "text": " trở lên. Nếu không muốn, hãy lịch sự từ chối ngay từ đầu; còn nếu định mua thì hãy hỏi giá trước."
                 }
               ]
             }
@@ -717,11 +967,9 @@
               "title": "Khu bảo tồn khỉ lùn Tarsier",
               "place": "tarsier-sanctuary",
               "children": [
-                { "text": "Cách Corella khoảng " },
-                { "type": "duration", "text": "30–40 phút" },
-                {
-                  "text": " đi ô tô từ Loboc, nơi bạn có thể ngắm khỉ lùn tarsier nhỏ bằng lòng bàn tay."
-                }
+                { "text": "Từ Loboc đến Corella đi ô tô khoảng " },
+                { "type": "duration", "text": "30~40 phút" },
+                { "text": ", nơi bạn có thể ngắm khỉ lùn tarsier nhỏ bằng lòng bàn tay." }
               ]
             },
             {
@@ -730,10 +978,34 @@
               "place": "chocolate-hills",
               "children": [
                 { "text": "Cách khoảng " },
+                { "type": "distance", "text": "30km" },
+                { "text": ", đi ô tô khoảng " },
                 { "type": "duration", "text": "40 phút" },
-                {
-                  "text": " đi ô tô, biểu tượng của Bohol với hơn 1.000 ngọn đồi hình nón trải rộng."
-                }
+                { "text": ", biểu tượng của Bohol với hơn 1.000 ngọn đồi hình nón trải rộng." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Rừng gỗ dái ngựa nhân tạo Bilar",
+              "place": "bilar-man-made-forest",
+              "children": [
+                { "text": "Từ thị trấn theo đường nội địa Loay đi ô tô khoảng " },
+                { "type": "duration", "text": "20 phút" },
+                { "text": ", đoạn khoảng " },
+                { "type": "distance", "text": "2km" },
+                { "text": " có hàng dái ngựa xếp thành đường hầm." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Nhà thờ Baclayon",
+              "place": "baclayon-church",
+              "children": [
+                { "text": "Đi ô tô theo hướng Tagbilaran khoảng " },
+                { "type": "duration", "text": "40 phút" },
+                { "text": ", nhà thờ đá san hô hoàn thành năm " },
+                { "type": "date", "text": "1727" },
+                { "text": ", có thể so sánh kiến trúc nhà thờ Bohol cùng với nhà thờ Loboc." }
               ]
             },
             {
@@ -741,21 +1013,9 @@
               "title": "Đảo Panglao",
               "place": "panglao",
               "children": [
-                { "text": "Cách khoảng " },
+                { "text": "Đi ô tô khoảng " },
                 { "type": "duration", "text": "1 giờ" },
-                { "text": " đi ô tô, điểm trung tâm của Alona Beach và các tour khám phá đảo." }
-              ]
-            },
-            {
-              "type": "card",
-              "title": "Anda",
-              "place": "anda",
-              "children": [
-                { "text": "Cách khoảng " },
-                { "type": "duration", "text": "2 giờ" },
-                {
-                  "text": " đi ô tô, thị trấn có bãi cát trắng yên tĩnh và hồ bơi trong hang ở cực đông Bohol."
-                }
+                { "text": ", điểm trung tâm của Alona Beach và các tour khám phá đảo." }
               ]
             }
           ]

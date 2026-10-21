@@ -27,7 +27,7 @@
     "type": "date",
     "label": "最佳季节",
     "icon": "calendar_month",
-    "text": "1月至5月（旱季）",
+    "text": "1月~5月（旱季）",
     "months": [1, 2, 3, 4, 5]
   },
   "duration": { "type": "duration", "label": "行程天数", "icon": "schedule", "text": "半天" },
@@ -52,7 +52,7 @@
     "type": "airport",
     "label": "最近机场",
     "icon": "flight",
-    "text": "杜马格特-锡布兰机场 (DGT)",
+    "text": "锡布兰机场（杜马格特机场，DGT）",
     "code": "DGT"
   },
   "image": {
@@ -69,16 +69,79 @@
       {
         "type": "image",
         "url": "images/083-twin-lakes-balinsasayao-2.webp",
-        "alt": "巴林萨萨尧双子湖",
+        "alt": "公园内湖畔的草地与森林",
         "credit": "choypictures / CC0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Balinsasayao_Twin_Lakes_Natural_Park.jpg"
       },
       {
         "type": "image",
         "url": "images/083-twin-lakes-balinsasayao-3.webp",
-        "alt": "巴林萨萨尧双子湖",
+        "alt": "树木半浸水中、倒映湖面的卡瓦利南湖",
         "credit": "Jsinglador / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Lake_Kabalin-an_at_the_Balinsasayao_Twin_Lakes_Natural_Park.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-4.webp",
+        "alt": "可见码头与小船的巴林萨萨尧湖全景",
+        "credit": "rocker_jkb / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Balinsasayao_(42012955844).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-5.webp",
+        "alt": "湖边的木码头与小船",
+        "credit": "Capture Golden Light / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Man_standing_on_wooden_piers_at_Lake_Balinsasayao_01.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-6.webp",
+        "alt": "奥拉扬瀑布下段的阶梯式瀑布",
+        "credit": "Singapore.Alice / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:OlayanFallsLowerCascadeLakeBalinsasayao.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-7.webp",
+        "alt": "奥拉扬瀑布上段",
+        "credit": "Singapore.Alice / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:OlayanFallsUpperCascades-PearlPoolLakeBalinsasayao.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-8.webp",
+        "alt": "云雾笼罩的湖泊与森林",
+        "credit": "Vincent Lecolley / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_lake_in_the_clouds.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-9.webp",
+        "alt": "达瑙湖",
+        "credit": "Glenn.manalo / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Danao_-_Balinsasayao_Twin_Lakes.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-10.webp",
+        "alt": "雨天里尼巴棚屋与小船停靠的码头",
+        "credit": "Mike Gonzalez / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Balinsasayao.JPG"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-11.webp",
+        "alt": "湖边盛开的天使喇叭花",
+        "credit": "Capture Golden Light / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Angel's_Trumpet_Flowers_at_Lake_Balinsasayao.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-12.webp",
+        "alt": "停在林间枝头的鸟（White-winged Cuckooshrike）",
+        "credit": "Onnie Espeña / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:White-winged_Cuckooshrike.jpg"
       }
     ]
   },
@@ -86,9 +149,11 @@
     "type": "paragraph",
     "variant": "lead",
     "children": [
-      { "text": "这是位于杜马格特车程约" },
+      { "text": "从杜马格特驱车约" },
       { "type": "duration", "text": "1小时" },
-      { "text": "的山中，由巴林萨萨尧湖与达瑙湖组成的双子湖。在被浓密热带雨林环绕的宁静火山湖上乘皮划艇或竹筏，再到湖畔餐厅品尝罗非鱼料理，是一处清凉宜人的半日游胜地。" }
+      {
+        "text": "上山，隔着一道狭窄山脊的两座火山湖与热带雨林保护区便坐落在群山之中。可以在码头乘小船、划皮划艇，登上观景塔同时俯瞰两座湖泊，还能游览奥拉扬瀑布、观赏鸟类，是一处清凉宜人的半日游景点。"
+      }
     ]
   },
   "sections": [
@@ -101,24 +166,48 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "巴林萨萨尧双子湖位于内格罗斯东方省锡布兰的山区，在杜马格特市区西北约" },
-            { "type": "distance", "text": "15~20公里" },
-            { "text": "、海拔约" },
-            { "type": "distance", "text": "830~850米" },
-            { "text": "的高地上，是两座火山湖。隔着一道狭窄的山脊，更大且更容易到达的巴林萨萨尧湖（约76公顷，最大水深约" },
-            { "type": "distance", "text": "90米" },
-            { "text": "）与稍深、位于森林中的达瑙湖（约30公顷，水深约" },
-            { "type": "distance", "text": "58米" },
-            { "text": "）并排而立，因此被称为\"双子湖\"。公园内还散布着比它们更小的卡巴利南、亚古姆云等沼泽型湖泊。" }
+            { "text": "巴林萨萨尧双子湖自然公园是横跨内格罗斯东方省锡布兰、圣何塞、瓦伦西亚三个市镇、面积约8,016公顷（ha）的保护区。从杜马格特市区向西直线距离约" },
+            { "type": "distance", "text": "14.5km" },
+            { "text": "，沿公路上山约" },
+            { "type": "duration", "text": "1小时" },
+            { "text": "即可到达，湖泊位于海拔约" },
+            { "type": "distance", "text": "830~900m" },
+            {
+              "text": "的高地。公园得名的两座湖泊，是隔着一道狭窄山脊并排而立的火山口湖。面积较大、更容易到达的巴林萨萨尧湖约76公顷，藏在森林深处的达瑙湖约28~30公顷，水面略低一些。两座湖泊位于马洪贡、卡尔巴桑、巴林萨萨尧、金塔本穹丘等山峰环绕的破火山口盆地之中。关于湖水深度，各种资料的说法从"
+            },
+            { "type": "distance", "text": "27m" },
+            { "text": "到" },
+            { "type": "distance", "text": "90m" },
+            { "text": "不等，具体数值尚未得到确认。" }
           ]
         },
         {
           "type": "paragraph",
           "children": [
-            { "text": "这些湖泊是雨水与地下水汇聚在古老火山活动形成的盆地中而成。周边是内格罗斯岛为数不多留存的低地与山地热带雨林，" },
-            { "type": "date", "text": "2000年" },
             {
-              "text": "被划定为巴林萨萨尧双子湖自然公园（Balinsasayao Twin Lakes Natural Park）加以保护。据传“巴林萨萨尧”一词源自当地语言中对这片森林里常见的雨燕（金丝燕类）的称呼，如今这里仍栖息着犀鸟、鸽类与蝴蝶等多种生物。"
+              "text": "“巴林萨萨尧”源自宿务语中表示雨燕（形似燕子的鸟）的“balinsasayaw”，“达瑙”则源自宿务语中表示湖泊的“danaw”。这一带因刀耕火种和非法砍伐导致森林减少，于"
+            },
+            { "type": "date", "text": "2000年11月21日" },
+            { "text": "依第414号总统公告设为自然公园，" },
+            { "type": "date", "text": "2024年" },
+            { "text": "又被列入东盟遗产公园（ASEAN Heritage Park）。" },
+            { "type": "date", "text": "2025年11月21日" },
+            {
+              "text": "在锡布兰举行的纪念碑揭幕仪式上，它被介绍为米沙鄢地区首座、东盟范围内第59座遗产公园。不过据公园管理人员介绍，守护这片逾8,000公顷森林的护林员只有5人，因此游客遵守规定本身就是一种保护。"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "即便沿海的杜马格特正午气温超过30度，这里依然凉爽。" },
+            { "type": "date", "text": "1987年" },
+            { "text": "锡利曼大学的研究记录显示，湖区年平均气温约" },
+            { "type": "temperature", "text": "22℃" },
+            { "text": "，比杜马格特市区低约" },
+            { "type": "temperature", "text": "5.4℃" },
+            {
+              "text": "，降雨量则是杜马格特的2.5倍以上。清晨湖面上会升起水雾，午后云层顺着山腰下沉，笼罩整片湖泊。湖水没有向外流出的河道，水是渗入地下流走的，湖泊及其周边森林是内格罗斯东方省南部河流的水源。这也是湖中禁止游泳的原因。"
             }
           ]
         },
@@ -126,15 +215,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "即便沿海的杜马格特白天气温超过30度，这里的气温也会降至20度出头，凉意足以需要穿长袖。清晨湖面上会升起薄薄水雾，午后则常有云雾顺着山腰滑落，笼罩整片湖泊。浓绿森林与如镜湖面交织而成的风景，带来与典型菲律宾海岛旅行截然不同的感受。"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "这里既没有宏大的规模，也没有戏剧性的景观，却很适合想在幽静森林中划着皮划艇、静静漂浮于水面的旅行者，想在杜马格特的海洋行程之间安排一天休憩的旅行者，以及喜爱鸟类与森林的自然爱好者。"
+              "text": "公园是赏鸟和观察植物者的首选之地。东盟生物多样性中心记录到蕨类325种、树木237种、鸟类209种（其中14种为全球濒危物种）。内格罗斯流血鸠、米沙鄢皱盔犀鸟、米沙鄢斑鹿、米沙鄢疣猪等只栖息于内格罗斯及邻近岛屿的珍稀动物，至今仍生活在这片森林中。比起震撼的绝景或刺激的活动，这里更适合在森林与水面上静静歇息，很适合想在海边行程之间抽出一天上山避暑的旅行者、喜欢划船和轻度徒步的家庭，以及热爱鸟类和植物的自然爱好者。"
             }
           ]
         }
@@ -153,56 +234,98 @@
             {
               "type": "card",
               "number": 1,
-              "title": "巴林萨萨尧湖皮划艇",
+              "title": "观景台与湖畔餐厅",
               "children": [
-                { "text": "在入口处的码头可以租借单人或双人皮划艇，环湖游览一圈。几乎无风的上午，森林会完整倒映在水面，每一次划桨都让风景微微晃动，美不胜收。" }
+                {
+                  "text": "在停车场旁的观景台上，可以一眼望见较大的巴林萨萨尧湖。观景台旁的餐厅可以喝咖啡、用餐歇脚，因此即使是不方便走到码头的长辈，也能欣赏湖光山色。从观景台到码头是一条铺石的陡峭小路，步行约"
+                },
+                { "type": "duration", "text": "5分钟" },
+                { "text": "。" }
               ]
             },
             {
               "type": "card",
               "number": 2,
-              "title": "竹筏体验",
-              "children": [{ "text": "若不想自己划桨，也可以搭乘当地船夫撑的竹筏。沿着湖边缓缓绕行，正好聆听森林中的鸟鸣，儿童与长者也都能轻松乘坐。" }]
+              "title": "乘小船与划皮划艇",
+              "children": [
+                { "text": "在码头可以租到划桨小船。费用每小时约" },
+                { "type": "price", "text": "₱250" },
+                { "text": "，一条船可坐4~7人，由同行者分摊更划算。想自己划桨的话，可以租皮划艇（每小时约" },
+                { "type": "price", "text": "₱100~150" },
+                { "text": "）。风小的上午，森林会原样倒映在水面上。是否提供皮划艇租借，请到现场确认。" }
+              ]
             },
             {
               "type": "card",
               "number": 3,
-              "title": "从观景台俯瞰湖泊",
+              "title": "沿湖步道前往观景塔",
               "children": [
-                { "text": "在入口附近的路边与步道上的观景平台，可以将巴林萨萨尧湖全景尽收眼底。水雾散去的" },
-                { "type": "time", "text": "上午9~10点" },
-                { "text": "左右最适合拍照。" }
+                { "text": "从码头沿着湖边林间小道步行到观景塔约" },
+                { "type": "duration", "text": "30分钟" },
+                { "text": "，乘小船过去则更短。登上塔顶，巴林萨萨尧湖与达瑙湖尽收眼底，从塔下步行到达瑙湖畔约" },
+                { "type": "duration", "text": "5分钟" },
+                { "text": "。这座塔也是观鸟的好位置。" }
               ]
             },
             {
               "type": "card",
               "number": 4,
-              "title": "徒步林间小道前往达瑙湖",
+              "title": "卡瓦利南湖中半浸水里的森林",
               "children": [
-                { "text": "从巴林萨萨尧湖沿着翻越山脊的林间小道步行约" },
-                { "type": "duration", "text": "20~40分钟" },
-                { "text": "，便能抵达更为宁静的达瑙湖。路面潮湿时容易打滑，需要运动鞋或徒步凉鞋。" }
+                {
+                  "text": "这是上湖路边的一座小沼泽湖。半浸在水中的树木倒映在镜面般的水面上，清晨与薄雾相映，很容易拍出好照片。上山途中可以停车，或者在哈巴哈巴上暂时下车顺路看看。"
+                }
               ]
             },
             {
               "type": "card",
               "number": 5,
-              "title": "观鸟与生态观察",
+              "title": "奥拉扬瀑布与浅水潭",
               "children": [
-                { "text": "清晨时分可以听到森林中犀鸟、果鸽与翠鸟等的鸣叫。带上望远镜能增添不少乐趣，向公园管理处提出请求还可以获得当地向导的介绍。" }
+                { "text": "乘小船或皮划艇渡湖，或沿湖岸绕行后，再沿林间小道步行约" },
+                { "type": "duration", "text": "10分钟" },
+                {
+                  "text": "，就能看到奥拉扬瀑布。流水在岩石间层层跌落，下方的浅水潭里可以下水歇凉。与湖泊禁止游泳不同，据说瀑布水潭是允许下水的，入园时请向工作人员确认。"
+                }
               ]
             },
             {
               "type": "card",
               "number": 6,
-              "title": "湖畔餐厅品尝罗非鱼午餐",
-              "children": [{ "text": "湖畔餐厅供应烤罗非鱼、新鲜蔬菜汤与米饭等朴素餐点。坐在伸出水面的小屋桌旁，边赏湖景边用餐，是这里小小的乐趣所在。" }]
+              "title": "观鸟与猫头鹰探访",
+              "children": [
+                { "text": "公园属于重要鸟区，清晨森林各处都能听到鸟鸣。果鸽、太阳鸟、犀鸟等都值得一寻。望远镜租借约" },
+                { "type": "price", "text": "₱200" },
+                { "text": "，向导2~3人约" },
+                { "type": "price", "text": "₱300" },
+                { "text": "，观察猫头鹰的向导约" },
+                { "type": "price", "text": "₱1,500" },
+                { "text": "。" }
+              ]
             },
             {
               "type": "card",
               "number": 7,
-              "title": "与卡萨罗罗瀑布连游",
-              "children": [{ "text": "与同处山区的瓦伦西亚卡萨罗罗瀑布一并游览，可组成一趟充实的半日自然行程。很多旅行者会包车一次逛完两处。" }]
+              "title": "蕨类苗圃与可食用蕨菜",
+              "children": [
+                {
+                  "text": "在公园内的蕨类苗圃，可以看到可食用蕨菜的种植情况，餐厅会把这种蕨菜做成沙拉。这片森林记录有多达325种蕨类，连路边也能遇到高大的树蕨、兰花和食虫植物。"
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "野餐与露营",
+              "children": [
+                { "text": "各处都有尼巴棕榈屋顶的棚屋，适合吃自带的便当，据说也可以露营。据" },
+                { "type": "date", "text": "2026年5月" },
+                { "text": "报道，帐篷租借3人用的约" },
+                { "type": "price", "text": "₱300" },
+                { "text": "，每人住宿费约" },
+                { "type": "price", "text": "₱50" },
+                { "text": "。不过也有说法称未经许可不得过夜，请先向管理处咨询。" }
+              ]
             }
           ]
         }
@@ -223,38 +346,81 @@
                 {
                   "type": "stepper",
                   "items": [
-                    { "time": "07:30", "children": [{ "text": "从杜马格特出发（包车或哈发哈发摩的）" }] },
-                    { "time": "08:30", "children": [{ "text": "抵达公园入口，缴纳门票并登记名单" }] },
-                    { "time": "08:45", "children": [{ "text": "在观景台欣赏清晨水雾景色" }] },
                     {
-                      "time": "09:15",
+                      "time": "07:00",
                       "children": [
-                        { "text": "巴林萨萨尧湖皮划艇或竹筏（约" },
+                        { "text": "从杜马格特出发——乘吉普尼到双子湖岔路口约" },
+                        { "type": "duration", "text": "20~30分钟" },
+                        { "text": "，再乘哈巴哈巴走山路约" },
+                        { "type": "duration", "text": "30~45分钟" }
+                      ]
+                    },
+                    { "time": "08:00", "children": [{ "text": "在入口游客中心登记姓名、缴纳门票" }] },
+                    { "time": "08:20", "children": [{ "text": "在观景台眺望湖泊，沿石径步行下到码头" }] },
+                    {
+                      "time": "08:40",
+                      "children": [
+                        { "text": "乘小船或皮划艇游览巴林萨萨尧湖（约" },
                         { "type": "duration", "text": "1小时" },
                         { "text": "）" }
                       ]
                     },
-                    { "time": "10:30", "children": [{ "text": "沿林间小道往返徒步至达瑙湖" }] },
-                    { "time": "12:00", "children": [{ "text": "在湖畔餐厅享用罗非鱼午餐" }] },
-                    { "time": "13:00", "children": [{ "text": "下山返回杜马格特，或前往卡萨罗罗瀑布" }] }
+                    {
+                      "time": "09:50",
+                      "children": [
+                        { "text": "沿湖边林间小道前往观景塔（约" },
+                        { "type": "duration", "text": "30分钟" },
+                        { "text": "），俯瞰两座湖泊，再往返达瑙湖畔" }
+                      ]
+                    },
+                    { "time": "11:00", "children": [{ "text": "时间允许的话前往奥拉扬瀑布（乘船渡湖后走林间小道）" }] },
+                    { "time": "12:00", "children": [{ "text": "在观景台餐厅吃午餐" }] },
+                    { "time": "13:00", "children": [{ "text": "下山返回杜马格特——趁午后下雨前下山" }] }
                   ]
                 }
               ]
             },
             {
-              "title": "全日行程（含卡萨罗罗瀑布）",
+              "title": "一日行程（含卡萨罗罗瀑布）",
               "blocks": [
                 {
-                  "type": "list",
-                  "ordered": false,
+                  "type": "stepper",
                   "items": [
                     {
+                      "time": "07:30",
                       "children": [
-                        { "text": "上午先游览双子湖并用午餐，随后前往瓦伦西亚徒步卡萨罗罗瀑布的阶梯步道（往返约" },
-                        { "type": "duration", "text": "1~2小时" },
-                        { "text": "），傍晚在杜马格特黎刹大道欣赏日落，为一天画上句点。" }
+                        { "text": "从杜马格特乘包车（含司机）出发（约" },
+                        { "type": "duration", "text": "1小时" },
+                        { "text": "）" }
                       ]
-                    }
+                    },
+                    { "time": "08:30~12:00", "children": [{ "text": "双子湖——观景台、乘船、观景塔、达瑙湖畔" }] },
+                    { "time": "12:00", "children": [{ "text": "在餐厅吃午餐" }] },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        { "text": "下山前往瓦伦西亚方向（约" },
+                        { "type": "duration", "text": "40分钟~1小时" },
+                        { "text": "）" }
+                      ]
+                    },
+                    {
+                      "time": "14:30",
+                      "children": [
+                        { "text": "徒步卡萨罗罗瀑布的阶梯步道（往返约" },
+                        { "type": "duration", "text": "1~2小时" },
+                        { "text": "）" }
+                      ]
+                    },
+                    { "time": "17:00", "children": [{ "text": "返回杜马格特，在海滨步道（黎刹大道）欣赏日落" }] }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "公园" },
+                    { "type": "time", "text": "下午5点" },
+                    { "text": "关门，而且午后常有云层笼罩湖面，所以最稳妥的安排是上午先游览双子湖，下午再去卡萨罗罗瀑布。" }
                   ]
                 }
               ]
@@ -279,49 +445,77 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "从马尼拉到杜马格特（锡布兰机场，DGT）约需" },
-                    { "type": "duration", "text": "1小时20分钟" },
-                    { "text": "，从宿务出发则通常乘船前往。由于机场本身就在锡布兰，也可以直接从机场前往湖区。" }
+                    { "text": "从马尼拉到杜马格特（锡布兰机场，DGT），有宿务太平洋航空和PAL Express执飞，约需" },
+                    { "type": "duration", "text": "1小时20分钟~1小时30分钟" },
+                    { "text": "。从宿务出发有Cebgo的小型飞机，但班次较少。机场位于杜马格特市区以北约" },
+                    { "type": "distance", "text": "3km" },
+                    { "text": "的锡布兰，也可以从机场直接前往山区。航班时刻经常变动，预订时请务必确认。" }
                   ]
                 }
               ]
             },
             {
-              "title": "包车",
+              "title": "轮船",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "从宿务市乘OceanJet快船，经薄荷岛塔比拉兰前往杜马格特港，含中转时间约需" },
+                    { "type": "duration", "text": "4~6小时" },
+                    { "text": "。从塔比拉兰到杜马格特约" },
+                    { "type": "duration", "text": "2小时" },
+                    {
+                      "text": "，每天3班左右。票价各处说法不一，从₱1,200到₱2,600不等，时刻表也会随日期变动，预订前请确认船公司的公告。从杜马格特港到市区可乘三轮车。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "包车·租车",
               "icon": "directions_car",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "最方便的方式是在杜马格特市区租一辆含司机的车或面包车，租半天到一天。单程约需" },
+                    { "text": "最方便的方式是在杜马格特包一辆含司机的车或面包车。单程约" },
                     { "type": "duration", "text": "1小时" },
-                    { "text": "，半天租车约" },
-                    { "type": "price", "text": "₱2,000~3,000" },
-                    { "text": "，若加上卡萨罗罗瀑布则约" },
-                    { "type": "price", "text": "₱3,000~3,500" },
-                    { "text": "。道路大部分已铺装，但后半段陡坡与狭窄弯道连绵不断。" }
+                    { "text": "，包车一天约" },
+                    { "type": "price", "text": "₱2,500~3,500" },
+                    { "text": "，若加上卡萨罗罗瀑布，可以在同一天的价格内商议。如果自驾，租车每天约" },
+                    { "type": "price", "text": "₱1,500~2,000" },
+                    { "text": "，摩托车每天约" },
+                    { "type": "price", "text": "₱500~800" },
+                    { "text": "。道路大部分已铺装，但后半段陡坡和狭窄弯道连绵不断，从入口前的纪念品店起车辆无法进入。" }
                   ]
                 }
               ]
             },
             {
-              "title": "吉普尼·哈发哈发",
+              "title": "吉普尼·哈巴哈巴",
               "icon": "airport_shuttle",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "预算有限的旅行者可以在杜马格特搭乘开往锡布兰方向的吉普尼，先到锡布兰市区或通往湖区的岔路口（约" },
+                    {
+                      "text": "预算有限的旅行者可以在杜马格特公共市场或塞雷斯客运站附近，乘开往圣何塞、阿姆兰方向的吉普尼、Multicab或巴士，在双子湖岔路口（拉拉安岔路口）下车。约需"
+                    },
                     { "type": "duration", "text": "20~30分钟" },
-                    { "text": "，约" },
+                    { "text": "，车费约" },
                     { "type": "price", "text": "₱15~30" },
-                    { "text": "），再换乘摩托车出租车哈发哈发上山（约" },
-                    { "type": "duration", "text": "30~40分钟" },
-                    { "text": "）。哈发哈发单程通常约" },
-                    { "type": "price", "text": "₱250" },
-                    { "text": "，含等候的往返价常为约" },
+                    { "text": "，也有游客反馈最长花了" },
+                    { "type": "duration", "text": "1小时" },
+                    { "text": "。从岔路口乘摩托车出租车哈巴哈巴走山路上山约" },
+                    { "type": "duration", "text": "30~45分钟" },
+                    { "text": "，单程多报价约" },
+                    { "type": "price", "text": "₱200~300" },
+                    { "text": "，含等候的往返多报价约" },
                     { "type": "price", "text": "₱300~500" },
-                    { "text": "，上车前请务必谈好价格与等候时间。也可以直接从杜马格特市区包哈发哈发。" }
+                    {
+                      "text": "。请在圣何塞的观光哈巴哈巴司机中，挑选获得DENR或地方政府认证的司机，上车前先谈好价格和等候时间。返程最晚要在午后早些时候下山，才容易在岔路口拦到吉普尼。"
+                    }
                   ]
                 }
               ]
@@ -332,7 +526,36 @@
               "blocks": [
                 {
                   "type": "paragraph",
-                  "children": [{ "text": "普通三轮车难以爬上陡坡路段，常常会被司机拒载。使用山路专用车辆或哈发哈发更为现实。" }]
+                  "children": [{ "text": "普通三轮车爬不了陡坡路段，常被司机拒载。山区路段乘哈巴哈巴或包车更现实。" }]
+                }
+              ]
+            },
+            {
+              "title": "公园内交通",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    { "children": [{ "text": "在入口游客中心登记姓名并缴纳门票。车辆只能开到纪念品店前的停车场。" }] },
+                    {
+                      "children": [
+                        { "text": "从停车场到观景台和餐厅很近，从观景台沿石径到湖边码头约" },
+                        { "type": "duration", "text": "5分钟" },
+                        { "text": "。" }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "从码头步行到观景塔约" },
+                        { "type": "duration", "text": "30分钟" },
+                        { "text": "，从塔到达瑙湖畔约" },
+                        { "type": "duration", "text": "5分钟" },
+                        { "text": "。" }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -349,13 +572,13 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "双子湖地处山区，降雨比沿海地区频繁得多。" },
+            { "text": "双子湖地处山区，比沿海降雨频繁得多，气温也更低。" },
             { "type": "date", "text": "1月" },
             { "text": "至" },
             { "type": "date", "text": "5月" },
-            { "text": "的旱季天空晴朗、山路干燥，便于通行与徒步。尤其3月至" },
-            { "type": "date", "text": "4月" },
-            { "text": "，正值沿海酷热之时，这里却能享受清凉空气，是最佳造访时节。" }
+            { "text": "的旱季天空晴朗、山路干燥，出行和徒步都方便。尤其是" },
+            { "type": "date", "text": "3~5月" },
+            { "text": "，沿海酷热之时，这里依然空气凉爽，是最佳时节。" }
           ]
         },
         {
@@ -363,21 +586,26 @@
           "children": [
             { "type": "date", "text": "6月" },
             { "text": "至" },
-            { "type": "date", "text": "12月" },
-            { "text": "几乎每天午后都会出现降雨与云雾，暴雨过后部分山路可能湿滑或发生落石。无论季节如何，上午的天气都最为稳定，" },
+            { "type": "date", "text": "10月" },
+            {
+              "text": "是杜马格特一带降雨最多的月份，山里几乎每天午后都有降雨和云雾。暴雨过后，部分山路可能湿滑或发生落石，台风季还可能出现道路冲毁和关闭，因此到访前必须确认天气预报和管理处公告。无论什么季节，上午都最稳定，"
+            },
             { "type": "time", "text": "下午2点" },
-            { "text": "以后云雾常会笼罩湖面。全年气温大致在18～26度之间，清晨需要一件薄外套。" }
+            { "text": "以后常有云层笼罩湖面。湖边年平均气温约" },
+            { "type": "temperature", "text": "22℃" },
+            { "text": "，清晨需要一件薄外套。" }
           ]
         },
         {
           "type": "table",
-          "label": "各时期一览",
+          "label": "分时期一览",
           "icon": "calendar_month",
           "columns": ["时期", "天气", "旅行要点"],
           "rows": [
-            ["1月~2月", "旱季，晴朗", "山路干燥，徒步方便——清晨备一件薄外套"],
-            ["3月~5月", "旱季，沿海闷热", "湖边空气清凉——3~4月最佳"],
-            ["6月~12月", "雨季，每天午后有雨·雾", "暴雨后山路湿滑且有落石——请上午前往"]
+            ["1月~2月", "旱季，晴朗凉爽", "山路干燥，徒步方便——清晨备薄外套"],
+            ["3月~5月", "旱季，沿海闷热", "湖区空气清凉，清晨水雾——3~5月最佳"],
+            ["6月~10月", "雨季，午后降雨与云雾", "暴雨后山路湿滑、落石——上午到访，关注台风预报"],
+            ["11月~12月", "雨季结束之时，阵雨与云雾", "天气多变——备好雨衣和替换袜子以防下雨"]
           ]
         }
       ]
@@ -391,24 +619,25 @@
         {
           "type": "pricing",
           "currency": "PHP",
-          "columns": ["项目", "预估费用", "备注"],
+          "columns": ["项目", "预计费用", "备注"],
           "items": [
-            { "label": "门票", "price": "外国人约₱100，本地人约₱50", "note": "附近居民享有折扣" },
-            { "label": "包车（半天）", "price": "单车约₱2,000～3,000", "note": "含杜马格特往返，可多人分摊" },
-            { "label": "哈发哈发", "price": "往返约₱300～500", "note": "需确认是否含等候时间" },
-            { "label": "吉普尼（杜马格特–锡布兰）", "price": "单程约₱15～30", "note": "至岔路口为止" },
-            { "label": "皮划艇租借", "price": "约₱100～300", "note": "依时间与人数而异" },
-            { "label": "竹筏", "price": "约₱200～500", "note": "含船夫，按组计费" },
-            { "label": "向导（可选）", "price": "约₱200～500", "note": "达瑙湖、观鸟行程" },
-            { "label": "午餐", "price": "人均约₱200～400", "note": "以湖畔餐厅为准" }
+            { "label": "门票", "price": "每人约₱50~100", "note": "外国人多为₱100，7岁以下免费，附近居民、学生有折扣" },
+            { "label": "小船", "price": "每小时约₱250", "note": "每船4~7人，超时另计" },
+            { "label": "皮划艇", "price": "每小时约₱100~150", "note": "是否可租请到现场确认" },
+            { "label": "向导（可选）", "price": "约₱300", "note": "按2~3人计，观察猫头鹰约₱1,500" },
+            { "label": "望远镜租借", "price": "约₱200", "note": "观鸟用" },
+            { "label": "帐篷露营", "price": "帐篷约₱300 + 每人约₱50", "note": "3人用帐篷，需确认是否允许过夜" },
+            { "label": "哈巴哈巴", "price": "单程约₱200~300", "note": "含等候的往返约₱300~500" },
+            { "label": "吉普尼·巴士", "price": "单程约₱15~30", "note": "从杜马格特到双子湖岔路口" },
+            { "label": "包车（一天）", "price": "每车约₱2,500~3,500", "note": "杜马格特往返，可多人分摊" }
           ]
         },
         {
           "type": "caption",
           "children": [
-            { "text": "以上价格为" },
+            { "text": "费用为" },
             { "type": "date", "text": "2026年" },
-            { "text": "的大致参考，可能因当地情况而有所变动。" }
+            { "text": "前后的大致参考，可能因当地情况而有所变动。" }
           ]
         }
       ]
@@ -422,18 +651,18 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "双子湖属于当日游景点，通常在杜马格特市区住宿。黎刹大道与锡利曼大学周边有许多单晚约" },
+            { "text": "双子湖是一日游景点，因此通常在杜马格特市区住宿。黎刹大道和锡利曼大学周边有许多每晚大约" },
             { "type": "price", "text": "₱1,200~3,000" },
-            { "text": "的酒店；若想寻求更宁静的环境，锡布兰或瓦伦西亚山脚也有小型度假村与山间小屋式住宿（单晚约" },
+            { "text": "的酒店和旅馆，若想要安静一些，锡布兰或瓦伦西亚山脚也有小型度假村（每晚大约" },
             { "type": "price", "text": "₱1,500~4,000" },
-            { "text": "）。公园内有时也会提供简单的住宿设施或露营场地，但运营与否常有变动，需提前向管理处确认。" }
+            { "text": "）。有信息称公园内设有露营和简易住宿设施，但运营情况经常变动，须提前向管理处确认。" }
           ]
         },
         {
           "type": "paragraph",
           "children": [
             {
-              "text": "湖畔餐厅的招牌菜是用炭火烤制或以醋汁焖煮的湖养罗非鱼，以及蔬菜丰富的浓汤。价格低廉，但菜单简单，午后有时还会缺货。返回杜马格特后，建议在海滨步道的海鲜餐厅用餐，或以桑斯里瓦尔的西尔瓦纳斯为这一天画上句点。"
+              "text": "观景台的餐厅和咖啡馆供应餐食、咖啡、巧克力饮品（tsokolate）和巴拉科咖啡，以公园自己种植的可食用蕨菜沙拉最具代表性。菜单很简单，公园内也没有大型餐厅，最好自带饮水和零食。回到杜马格特后，建议在海滨步道的餐饮街吃晚餐，并品尝这座城市的名物甜点西尔瓦纳斯和桑斯里瓦尔。"
             }
           ]
         }
@@ -450,18 +679,21 @@
           "ordered": false,
           "icon": "check_circle",
           "items": [
-            { "children": [{ "text": "公园内没有ATM，请提前准备好小面额现金，用于门票、皮划艇、餐费与哈发哈发车费。" }] },
-            { "children": [{ "text": "越往山上走手机信号越弱，请提前与哈发哈发司机约定好返程时间，并尽量留下司机的联系方式。" }] },
-            { "children": [{ "text": "这里气候凉爽、降雨频繁，请携带薄风衣或雨衣及备用袜子。" }] },
-            { "children": [{ "text": "哈发哈发后座在陡坡路段颠簸较大，请要求佩戴头盔，并避免携带大件行李。" }] },
+            { "children": [{ "text": "公园内没有ATM，请用小面额现金备好门票、小船、餐费和哈巴哈巴的费用。大面额钞票可能找不开。" }] },
+            {
+              "children": [{ "text": "越往山上手机信号越弱，请提前和哈巴哈巴司机约好返程时间，可能的话留下司机的号码。公园有免费Wi-Fi，但信号很弱。" }]
+            },
+            { "children": [{ "text": "这里凉爽多雨，请带上薄风衣或雨衣、替换袜子和抓地力好的鞋子。" }] },
+            { "children": [{ "text": "哈巴哈巴后座在陡坡路段晃动很大，请要求戴头盔，并避免携带大件行李。" }] },
             {
               "children": [
                 { "type": "time", "text": "上午8~10点" },
-                { "text": "到达，既能拍到水雾也能拍到倒影照片，还能避开周末午后的团客人潮。" }
+                { "text": "到达，既能拍到水雾，也能拍到倒影，还能避开周末午后的团体游客。" }
               ]
             },
-            { "children": [{ "text": "乘皮划艇时请将手机放入防水袋，没有防水功能的相机留在岸上更为安全。" }] },
-            { "children": [{ "text": "若对观鸟感兴趣，请携带望远镜与长焦镜头，并放低声音、缓步走过林间小道。" }] }
+            { "children": [{ "text": "乘小船或皮划艇时，请把手机放进防水袋，没有防水功能的相机不要放在水边。" }] },
+            { "children": [{ "text": "如果对观鸟感兴趣，请带上望远镜（租借约₱200）和长焦镜头，放轻声音，缓步走在林间小道上。" }] },
+            { "children": [{ "text": "门票、活动费用和露营规定可能会变，出发前请通过公园的Facebook页面或地方政府旅游办公室咨询最新信息。" }] }
           ]
         }
       ]
@@ -473,19 +705,28 @@
       "icon": "warning",
       "blocks": [
         {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "两座湖泊都禁止游泳，也不能放飞无人机。湖泊是杜马格特一带部分饮用水的水源，公园也是保护野生鸟类的区域。曾有人放飞无人机时遭到鸟类攻击。乘小船和皮划艇时务必穿好救生衣。"
+            }
+          ]
+        },
+        {
           "type": "list",
           "ordered": false,
           "icon": "error",
           "items": [
-            { "children": [{ "text": "湖水深且冰凉，乘皮划艇或竹筏时务必穿好救生衣。除许可区域外，不建议在湖中游泳。" }] },
-            { "children": [{ "text": "雨后林间小道与码头木栈道会非常湿滑，请穿抓地力好的鞋子，而非拖鞋。" }] },
-            { "children": [{ "text": "自然公园内禁止采集动植物、乱扔垃圾及大声播放音乐。请将自己带来的垃圾全部带走。" }] },
-            { "children": [{ "text": "有暴雨或台风预报时，山路存在落石与道路冲毁的风险，请延后造访。" }] },
+            { "children": [{ "text": "雨后林间小道和码头的木栈道非常湿滑，请穿抓地力好的鞋子，不要穿拖鞋。从观景台下到码头的石径长有青苔。" }] },
+            { "children": [{ "text": "自然公园内禁止采集动植物、投喂、乱扔垃圾和大声播放音乐。请把带来的垃圾全部带走，林间小道请按指示牌行走。" }] },
+            { "children": [{ "text": "有暴雨或台风预报时，山路有落石和道路冲毁的风险，请推迟到访。" }] },
             {
               "children": [
-                { "text": "门票、活动费用与开放时间（通常为" },
-                { "type": "time", "text": "上午8点至下午5点" },
-                { "text": "）可能依自然公园管理规定而变动，请确认最新公告。" }
+                { "text": "开放时间通常为" },
+                { "type": "time", "text": "上午8点~下午5点" },
+                { "text": "，门票、活动费用以及是否允许露营可能依管理规定而变动，请确认最新公告。必须在天黑前下山。" }
               ]
             },
             {
@@ -493,10 +734,10 @@
                 { "text": "双子湖位于南部塔利尼斯山（Cuernos de Negros）火山地带，与从" },
                 { "type": "date", "text": "2024年" },
                 { "text": "起持续喷发的北部坎拉翁火山（约" },
-                { "type": "distance", "text": "120公里" },
+                { "type": "distance", "text": "120km" },
                 { "text": "距离）不是同一处。截至" },
-                { "type": "date", "text": "2026年9月" },
-                { "text": "坎拉翁的PHIVOLCS警戒为2级，几乎不会直接影响这一带，但如有大规模喷发的消息，请确认PHIVOLCS和航班公告。" }
+                { "type": "date", "text": "2026年7月" },
+                { "text": "报道，坎拉翁的PHIVOLCS警戒为2级，几乎不会直接影响这一带，但如有大规模喷发的消息，请确认PHIVOLCS和航班公告。" }
               ]
             }
           ]
@@ -520,7 +761,27 @@
               "children": [
                 { "text": "车程约" },
                 { "type": "duration", "text": "1小时" },
-                { "text": "。是前往双子湖旅行的出发城市，海滨步道与大学城别具魅力。" }
+                { "text": "。是双子湖之旅的出发城市，海滨步道、大学城和西尔瓦纳斯店别具魅力。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "卡萨罗罗瀑布",
+              "place": "casaroro-falls",
+              "children": [
+                { "text": "从双子湖车程约" },
+                { "type": "duration", "text": "40分钟~1小时" },
+                { "text": "。是峡谷中阶梯步道尽头飞泻而下的一道细瀑，很适合与双子湖串成一日行程。" }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "道因",
+              "place": "dauin",
+              "children": [
+                { "text": "从杜马格特向南车程约" },
+                { "type": "duration", "text": "30分钟" },
+                { "text": "。是以黑沙滩和淤泥潜水闻名的海滨小镇。" }
               ]
             },
             {
@@ -528,10 +789,10 @@
               "title": "阿波岛",
               "place": "apo-island",
               "children": [
-                { "text": "经杜马格特车程约" },
-                { "type": "duration", "text": "1小时30分钟" },
+                { "text": "到马拉塔帕伊码头车程约" },
+                { "type": "duration", "text": "40~60分钟" },
                 { "text": "，再乘船约" },
-                { "type": "duration", "text": "40分钟" },
+                { "type": "duration", "text": "30~45分钟" },
                 { "text": "。是海龟浮潜的胜地。" }
               ]
             },
@@ -541,18 +802,8 @@
               "place": "siquijor",
               "children": [
                 { "text": "从杜马格特乘快艇约" },
-                { "type": "duration", "text": "1小时" },
-                { "text": "。拥有瀑布与静谧海滩的岛屿。" }
-              ]
-            },
-            {
-              "type": "card",
-              "title": "卡萨罗罗瀑布",
-              "place": "casaroro-falls",
-              "children": [
-                { "text": "从双子湖车程约" },
-                { "type": "duration", "text": "40分钟～1小时" },
-                { "text": "。是峡谷中阶梯步道尽头飞泻而下的一道细瀑。" }
+                { "type": "duration", "text": "45分钟~1小时" },
+                { "text": "。是有瀑布和静谧海滩的岛屿。" }
               ]
             }
           ]

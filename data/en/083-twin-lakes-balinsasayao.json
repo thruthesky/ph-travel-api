@@ -19,7 +19,7 @@
     "type": "address",
     "label": "Location",
     "icon": "location_on",
-    "text": "Balinsasayao Twin Lakes Natural Park, Sibulan, Negros Oriental"
+    "text": "Twin Lakes Balinsasayao Natural Park, Sibulan, Negros Oriental"
   },
   "category": {
     "type": "badge",
@@ -43,17 +43,12 @@
     "text": "January–May (dry season)",
     "months": [1, 2, 3, 4, 5]
   },
-  "duration": {
-    "type": "duration",
-    "label": "Time needed",
-    "icon": "schedule",
-    "text": "Half a day"
-  },
+  "duration": { "type": "duration", "label": "Time needed", "icon": "schedule", "text": "Half day" },
   "budget": {
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱700–2,500 per person",
+    "text": "About ₱700~2,500 per person",
     "currency": "PHP",
     "min": 700,
     "max": 2500
@@ -70,7 +65,7 @@
     "type": "airport",
     "label": "Nearest airport",
     "icon": "flight",
-    "text": "Dumaguete-Sibulan Airport (DGT)",
+    "text": "Sibulan Airport (Dumaguete Airport, DGT)",
     "code": "DGT"
   },
   "image": {
@@ -87,16 +82,79 @@
       {
         "type": "image",
         "url": "images/083-twin-lakes-balinsasayao-2.webp",
-        "alt": "Balinsasayao Twin Lakes",
+        "alt": "Grassy lakeshore and forest inside the park",
         "credit": "choypictures / CC0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Balinsasayao_Twin_Lakes_Natural_Park.jpg"
       },
       {
         "type": "image",
         "url": "images/083-twin-lakes-balinsasayao-3.webp",
-        "alt": "Balinsasayao Twin Lakes",
+        "alt": "Lake Kabalin-an with submerged trees reflected in the water",
         "credit": "Jsinglador / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Lake_Kabalin-an_at_the_Balinsasayao_Twin_Lakes_Natural_Park.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-4.webp",
+        "alt": "View of Lake Balinsasayao with the boat landing and boats",
+        "credit": "rocker_jkb / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Balinsasayao_(42012955844).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-5.webp",
+        "alt": "Wooden jetty and boats on the lakeshore",
+        "credit": "Capture Golden Light / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Man_standing_on_wooden_piers_at_Lake_Balinsasayao_01.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-6.webp",
+        "alt": "Lower tiered cascade of Olayan Falls",
+        "credit": "Singapore.Alice / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:OlayanFallsLowerCascadeLakeBalinsasayao.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-7.webp",
+        "alt": "Upper cascade of Olayan Falls",
+        "credit": "Singapore.Alice / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:OlayanFallsUpperCascades-PearlPoolLakeBalinsasayao.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-8.webp",
+        "alt": "Lake and forest wrapped in clouds and mist",
+        "credit": "Vincent Lecolley / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_lake_in_the_clouds.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-9.webp",
+        "alt": "Lake Danao",
+        "credit": "Glenn.manalo / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Danao_-_Balinsasayao_Twin_Lakes.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-10.webp",
+        "alt": "Boat landing with nipa huts and boats on a rainy day",
+        "credit": "Mike Gonzalez / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Balinsasayao.JPG"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-11.webp",
+        "alt": "Angel's trumpet flowers blooming by the lake",
+        "credit": "Capture Golden Light / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Angel's_Trumpet_Flowers_at_Lake_Balinsasayao.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/083-twin-lakes-balinsasayao-12.webp",
+        "alt": "A bird perched on a forest branch (White-winged Cuckooshrike)",
+        "credit": "Onnie Espeña / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:White-winged_Cuckooshrike.jpg"
       }
     ]
   },
@@ -104,10 +162,10 @@
     "type": "paragraph",
     "variant": "lead",
     "children": [
-      { "text": "Lake Balinsasayao and Lake Danao sit in the mountains about " },
+      { "text": "About " },
       { "type": "duration", "text": "1 hour" },
       {
-        "text": " by car from Dumaguete. In these quiet volcanic lakes ringed by dense rainforest, you can kayak or ride a raft and enjoy tilapia dishes at a lakeside restaurant — a cool half-day getaway."
+        "text": " by road up the mountains from Dumaguete, this is a rainforest reserve with two volcanic lakes separated by a narrow ridge. It is a cool half-day destination where you can take a boat or kayak from the landing, look down on both lakes together from the viewing tower, and enjoy Olayan Falls and birdwatching."
       }
     ]
   },
@@ -122,33 +180,37 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "The Balinsasayao Twin Lakes are two volcanic lakes in the mountains of Sibulan, Negros Oriental, at an elevation of about "
+              "text": "Balinsasayao Twin Lakes Natural Park is a protected area of about 8,016 hectares (ha) spanning the three municipalities of Sibulan, San Jose, and Valencia in Negros Oriental. It lies about "
             },
-            { "type": "distance", "text": "830–850m" },
-            { "text": ", about " },
-            { "type": "distance", "text": "15–20km" },
+            { "type": "distance", "text": "14.5km" },
+            { "text": " west of central Dumaguete in a straight line, or about " },
+            { "type": "duration", "text": "1 hour" },
+            { "text": " up the mountain by road, and the lakes sit at an elevation of about " },
+            { "type": "distance", "text": "830~900m" },
             {
-              "text": " northwest of downtown Dumaguete. Separated by a single narrow ridge, the larger and more accessible Lake Balinsasayao (about 76 ha, maximum depth about "
+              "text": ". The two lakes that give the park its name are volcanic crater lakes lying side by side, separated by a single narrow ridge. The larger and more accessible Lake Balinsasayao covers about 76 ha, while Lake Danao, hidden deeper in the forest, covers about 28~30 ha and sits slightly lower. Both lakes lie in a caldera basin ringed by peaks such as Mount Magahong, Mount Kalbasan, Mount Balinsasayao, and the Gintabon dome. Sources disagree on the lake depth, ranging from "
             },
+            { "type": "distance", "text": "27m" },
+            { "text": " to " },
             { "type": "distance", "text": "90m" },
+            { "text": ", so the exact figure has not been confirmed." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
             {
-              "text": ") and the somewhat deeper Lake Danao in the forest (about 30 ha, depth about "
+              "text": "\"Balinsasayao\" comes from \"balinsasayaw,\" the Cebuano word for the swiftlet (a bird resembling a swallow), and \"Danao\" comes from \"danaw,\" the Cebuano word for lake. After slash-and-burn farming and illegal logging shrank the forest here, the area became a natural park under Presidential Proclamation No. 414 on "
             },
-            { "type": "distance", "text": "58m" },
+            { "type": "date", "text": "November 21, 2000" },
+            { "text": ", and in " },
+            { "type": "date", "text": "2024" },
             {
-              "text": ") lie side by side, which is why they are called the \"Twin Lakes.\" Smaller swamp-type lakes such as Kabalinan and Yagumyum are also scattered within the park."
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
-            {
-              "text": "These lakes were formed when rainwater and groundwater collected in a basin created by ancient volcanic activity. The surrounding area is one of the few remaining stretches of lowland and montane rainforest on Negros Island, protected since "
+              "text": " it was named an ASEAN Heritage Park. At the marker unveiling ceremony held in Sibulan on "
             },
-            { "type": "date", "text": "2000" },
+            { "type": "date", "text": "November 21, 2025" },
             {
-              "text": " as Balinsasayao Twin Lakes Natural Park. \"Balinsasayao\" is said to come from the local word for the swiftlets that once filled the surrounding forest, and today the area is still home to hornbills, pigeons, butterflies, and other wildlife."
+              "text": ", it was introduced as the first in the Visayas and the 59th ASEAN Heritage Park overall. A park manager has reportedly said there are only five forest rangers to protect more than 8,000 ha of forest, so following the rules as a visitor is itself a form of protection."
             }
           ]
         },
@@ -156,7 +218,17 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "While Dumaguete on the coast can exceed 30°C at midday, temperatures here drop into the low 20s, cool enough to need long sleeves. Mist rises over the lake in the early morning, and clouds often roll down the mountainside in the afternoon to blanket the whole lake. The scenery of deep green forest and mirror-still water offers a completely different feeling from the typical Philippine beach trip."
+              "text": "Even when coastal Dumaguete tops 30 degrees at midday, it stays cool here. A "
+            },
+            { "type": "date", "text": "1987" },
+            {
+              "text": " Silliman University study recorded an average annual temperature of about "
+            },
+            { "type": "temperature", "text": "22℃" },
+            { "text": " around the lakes, about " },
+            { "type": "temperature", "text": "5.4℃" },
+            {
+              "text": " lower than in central Dumaguete, with rainfall more than 2.5 times that of Dumaguete. In the early morning, mist rises over the lakes, and in the afternoon clouds slide down the mountainsides and wrap the whole lake. The lakes have no outflowing stream, so the water seeps out underground, and the lakes and surrounding forest serve as the source of rivers in southern Negros Oriental. This is also why swimming in the lakes is prohibited."
             }
           ]
         },
@@ -164,7 +236,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "It's not a place with grand or dramatic sights, but it suits travelers who want to quietly paddle a kayak across a peaceful lake in the forest, those looking to rest for a day between beach itineraries in Dumaguete, and nature lovers who enjoy birds and forests."
+              "text": "The park is one of the best places for people who come to see birds and plants. The ASEAN Centre for Biodiversity recorded 325 species of ferns, 237 species of trees, and 209 species of birds, 14 of which are globally threatened. Rare animals found only on Negros and nearby islands, such as the Negros bleeding-heart, the Visayan wrinkled hornbill, the Visayan spotted deer, and the Visayan warty pig, survive in this forest. Rather than overwhelming scenery or thrilling activities, it is a place to rest quietly in the forest and on the water, which suits travelers who want to climb to the cool mountains for a day between beach plans, families who enjoy boating and light trekking, and nature lovers who like birds and plants."
             }
           ]
         }
@@ -183,76 +255,112 @@
             {
               "type": "card",
               "number": 1,
-              "title": "Kayaking on Lake Balinsasayao",
+              "title": "Viewing deck and lakeside restaurant",
               "children": [
                 {
-                  "text": "You can rent a one- or two-person kayak at the entrance dock and paddle around the lake. On calm mornings with little wind, the forest reflects perfectly on the surface, creating a beautiful rippling scene with every stroke."
-                }
+                  "text": "From the viewing deck next to the parking lot, you get a full view of the larger Lake Balinsasayao. You can rest over coffee or a meal at the restaurant attached to the deck, so even older visitors who find it hard to go down to the landing can enjoy the lake scenery. From the deck to the landing is a steep stone-paved path that takes about "
+                },
+                { "type": "duration", "text": "5 minutes" },
+                { "text": " on foot." }
               ]
             },
             {
               "type": "card",
               "number": 2,
-              "title": "Bamboo raft ride",
+              "title": "Boating and kayaking",
               "children": [
+                { "text": "You can rent a rowboat at the landing. The fee is about " },
+                { "type": "price", "text": "₱250" },
                 {
-                  "text": "If paddling feels like too much, you can ride a bamboo raft steered by a local boatman. Drifting slowly along the lake's edge, it's a great way to listen to the birdsong in the forest, and children and seniors can ride comfortably too."
+                  "text": " per hour, and one boat holds 4~7 people, so splitting it among your group keeps the cost low. If you want to paddle yourself, rent a kayak (about "
+                },
+                { "type": "price", "text": "₱100~150" },
+                {
+                  "text": " per hour). In the calm morning, the forest is mirrored perfectly on the water. Check on-site whether kayaks are available for rent."
                 }
               ]
             },
             {
               "type": "card",
               "number": 3,
-              "title": "Looking down on the lake from the viewpoint",
+              "title": "Lakeside trek to the viewing tower",
               "children": [
+                { "text": "It takes about " },
+                { "type": "duration", "text": "30 minutes" },
                 {
-                  "text": "From the roadside near the entrance and the viewing deck along the trail, all of Lake Balinsasayao comes into view at once. Around "
+                  "text": " on foot from the landing to the viewing tower along a lakeside forest trail, and less if you cross by boat. From the top of the tower you can see both Lake Balinsasayao and Lake Danao, and from the base of the tower it is about "
                 },
-                { "type": "time", "text": "9–10 AM" },
-                { "text": ", once the mist clears, is the best time for photos." }
+                { "type": "duration", "text": "5 minutes" },
+                {
+                  "text": " on foot to the shore of Lake Danao. The tower is also a good spot for birdwatching."
+                }
               ]
             },
             {
               "type": "card",
               "number": 4,
-              "title": "Forest trek to Lake Danao",
+              "title": "The submerged forest of Lake Kabalin-an",
               "children": [
                 {
-                  "text": "From Lake Balinsasayao, a forest trail crossing the ridge leads to the even quieter Lake Danao in about "
-                },
-                { "type": "duration", "text": "20–40 minutes" },
-                {
-                  "text": ". The path can be slippery when wet, so sneakers or trekking sandals are needed."
+                  "text": "This is a small swamp lake along the road up to the lakes. Half-submerged trees reflected on the mirror-like surface make for great photos together with the early morning mist. You can stop the car on the way up, or hop off your habal-habal briefly, to visit."
                 }
               ]
             },
             {
               "type": "card",
               "number": 5,
-              "title": "Birdwatching and nature observation",
+              "title": "Olayan Falls and the shallow pool",
               "children": [
                 {
-                  "text": "In the early morning you can hear hornbills, fruit pigeons, and kingfishers calling in the forest. Bringing binoculars adds to the enjoyment, and asking at the park office can get you a local guide."
+                  "text": "After crossing the lake by boat or kayak, or going around the lakeshore, walk about "
+                },
+                { "type": "duration", "text": "10 minutes" },
+                {
+                  "text": " more along a forest trail to reach Olayan Falls. Water tumbles in tiers over the rocks, and you can get in the shallow pool below to rest. Unlike the lakes, the falls pool is said to be open for wading, so check with the staff when you enter."
                 }
               ]
             },
             {
               "type": "card",
               "number": 6,
-              "title": "Tilapia lunch at a lakeside restaurant",
+              "title": "Birdwatching and owl tours",
               "children": [
                 {
-                  "text": "Lakeside restaurants serve simple meals of grilled tilapia, fresh vegetable soup, and rice. Sitting at a hut table jutting out over the water while eating lunch overlooking the lake is one of this place's small pleasures."
-                }
+                  "text": "The park lies within an Important Bird Area, and in the early morning birdsong can be heard all over the forest. Fruit doves, sunbirds, and hornbills are worth looking out for. Binocular rental is about "
+                },
+                { "type": "price", "text": "₱200" },
+                { "text": ", a guide is about " },
+                { "type": "price", "text": "₱300" },
+                { "text": " for 2~3 people, and an owl-spotting guide is about " },
+                { "type": "price", "text": "₱1,500" },
+                { "text": "." }
               ]
             },
             {
               "type": "card",
               "number": 7,
-              "title": "Combining with Casaroro Falls",
+              "title": "Fern nursery and edible ferns",
               "children": [
                 {
-                  "text": "Pairing this with Casaroro Falls, in the same mountain area in Valencia, makes for a full half-day nature circuit. Many travelers use a chartered vehicle to cover both places in one go."
+                  "text": "At the fern nursery inside the park you can see edible ferns being grown, and the restaurant serves these ferns as a salad. Because the forest has 325 recorded species of ferns, you can also see large tree ferns, orchids, and pitcher plants even along the roadside."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Picnics and camping",
+              "children": [
+                {
+                  "text": "Nipa-roofed huts are scattered around the park, which are good for eating a packed lunch, and camping is reportedly possible as well. According to a "
+                },
+                { "type": "date", "text": "May 2026" },
+                { "text": " report, a tent rental for 3 people costs about " },
+                { "type": "price", "text": "₱300" },
+                { "text": ", and the overnight fee is about " },
+                { "type": "price", "text": "₱50" },
+                {
+                  "text": " per person. However, there are also notices saying overnight stays are not allowed without a permit, so inquire at the park office first."
                 }
               ]
             }
@@ -270,47 +378,73 @@
           "type": "tabs",
           "items": [
             {
-              "title": "Half-day course",
+              "title": "Half-day itinerary",
               "blocks": [
                 {
                   "type": "stepper",
                   "items": [
                     {
-                      "time": "07:30",
+                      "time": "7:00 AM",
                       "children": [
-                        { "text": "Depart Dumaguete (chartered vehicle or habal-habal)" }
+                        { "text": "Leave Dumaguete — about " },
+                        { "type": "duration", "text": "20~30 minutes" },
+                        { "text": " by jeepney to the Twin Lakes junction, then about " },
+                        { "type": "duration", "text": "30~45 minutes" },
+                        { "text": " up the mountain road by habal-habal" }
                       ]
                     },
                     {
-                      "time": "08:30",
+                      "time": "8:00 AM",
                       "children": [
-                        { "text": "Arrive at the park entrance, pay the entrance fee and register" }
+                        {
+                          "text": "Register your name and pay the entrance fee at the entrance information center"
+                        }
                       ]
                     },
                     {
-                      "time": "08:45",
-                      "children": [{ "text": "Enjoy the morning mist view from the viewpoint" }]
+                      "time": "8:20 AM",
+                      "children": [
+                        {
+                          "text": "Take in the lake views from the viewing deck, then walk down the stone path to the landing"
+                        }
+                      ]
                     },
                     {
-                      "time": "09:15",
+                      "time": "8:40 AM",
                       "children": [
-                        { "text": "Kayak or raft on Lake Balinsasayao (about " },
+                        { "text": "Tour Lake Balinsasayao by boat or kayak (about " },
                         { "type": "duration", "text": "1 hour" },
                         { "text": ")" }
                       ]
                     },
                     {
-                      "time": "10:30",
-                      "children": [{ "text": "Round-trip forest trek to Lake Danao" }]
-                    },
-                    {
-                      "time": "12:00",
-                      "children": [{ "text": "Tilapia lunch at a lakeside restaurant" }]
-                    },
-                    {
-                      "time": "13:00",
+                      "time": "9:50 AM",
                       "children": [
-                        { "text": "Descend and return to Dumaguete, or move on to Casaroro Falls" }
+                        { "text": "Walk the lakeside forest trail to the viewing tower (about " },
+                        { "type": "duration", "text": "30 minutes" },
+                        {
+                          "text": "), look down on both lakes, and go to the shore of Lake Danao and back"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:00 AM",
+                      "children": [
+                        {
+                          "text": "If time allows, Olayan Falls (cross by boat, then a forest trail)"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00 PM",
+                      "children": [{ "text": "Lunch at the viewing deck restaurant" }]
+                    },
+                    {
+                      "time": "1:00 PM",
+                      "children": [
+                        {
+                          "text": "Head down the mountain and return to Dumaguete — come down before the afternoon rain"
+                        }
                       ]
                     }
                   ]
@@ -318,22 +452,61 @@
               ]
             },
             {
-              "title": "Full-day course (with Casaroro Falls)",
+              "title": "Full-day itinerary (including Casaroro Falls)",
               "blocks": [
                 {
-                  "type": "list",
-                  "ordered": false,
+                  "type": "stepper",
                   "items": [
                     {
+                      "time": "7:30 AM",
+                      "children": [
+                        { "text": "Leave Dumaguete in a vehicle with a driver (about " },
+                        { "type": "duration", "text": "1 hour" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "8:30 AM~12:00 PM",
                       "children": [
                         {
-                          "text": "Tour the twin lakes first in the morning, have lunch, then head to Valencia for the Casaroro Falls stair trek (round trip about "
-                        },
-                        { "type": "duration", "text": "1–2 hours" },
-                        {
-                          "text": "), finishing with a sunset view along Dumaguete's Rizal Boulevard toward evening."
+                          "text": "Twin Lakes — viewing deck, boat, viewing tower, Lake Danao shore"
                         }
                       ]
+                    },
+                    { "time": "12:00 PM", "children": [{ "text": "Lunch at the restaurant" }] },
+                    {
+                      "time": "1:00 PM",
+                      "children": [
+                        { "text": "Head down and travel toward Valencia (about " },
+                        { "type": "duration", "text": "40 minutes to 1 hour" },
+                        { "text": ")" }
+                      ]
+                    },
+                    {
+                      "time": "2:30 PM",
+                      "children": [
+                        { "text": "Trek the stairway trail to Casaroro Falls (about " },
+                        { "type": "duration", "text": "1~2 hours" },
+                        { "text": " round trip)" }
+                      ]
+                    },
+                    {
+                      "time": "5:00 PM",
+                      "children": [
+                        {
+                          "text": "Return to Dumaguete and watch the sunset along the waterfront promenade (Rizal Boulevard)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "The park closes at " },
+                    { "type": "time", "text": "5 PM" },
+                    {
+                      "text": ", and on many afternoons clouds cover the lake, so it is safest to see the Twin Lakes first in the morning and visit Casaroro Falls in the afternoon."
                     }
                   ]
                 }
@@ -359,60 +532,92 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "It takes about " },
-                    { "type": "duration", "text": "1 hour 20 minutes" },
                     {
-                      "text": " from Manila to Dumaguete (Sibulan Airport, DGT); from Cebu, arriving by boat is more common. Since the airport itself is in Sibulan, you can head straight from the airport to the lakes."
+                      "text": "Cebu Pacific and PAL Express fly from Manila to Dumaguete (Sibulan Airport, DGT), taking about "
+                    },
+                    { "type": "duration", "text": "1 hour 20 minutes to 1 hour 30 minutes" },
+                    {
+                      "text": ". From Cebu there are small Cebgo aircraft, but flights are few. The airport is in Sibulan, about "
+                    },
+                    { "type": "distance", "text": "3km" },
+                    {
+                      "text": " north of central Dumaguete, so you can also head straight from the airport to the mountain road. Flight schedules change often, so check when you book."
                     }
                   ]
                 }
               ]
             },
             {
-              "title": "Chartered vehicle",
+              "title": "By boat",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "From Cebu City, OceanJet fast ferries go to Dumaguete Port via Tagbilaran, Bohol, taking about "
+                    },
+                    { "type": "duration", "text": "4~6 hours" },
+                    { "text": " including the stopover. From Tagbilaran to Dumaguete takes about " },
+                    { "type": "duration", "text": "2 hours" },
+                    {
+                      "text": ", with around 3 trips a day. Fares range from ₱1,200 to ₱2,600 depending on the source, and timetables change by date, so check the shipping line's notices before booking. From Dumaguete Port, travel into town by tricycle."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chartered vehicle or rental car",
               "icon": "directions_car",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "The easiest option is renting a vehicle or van with a driver for half a day or a full day from downtown Dumaguete. The one-way drive takes about "
+                      "text": "The easiest way is to hire a vehicle or van with a driver in Dumaguete. One way takes about "
                     },
                     { "type": "duration", "text": "1 hour" },
-                    { "text": "; a half-day rental costs about " },
-                    { "type": "price", "text": "₱2,000–3,000" },
-                    { "text": ", or about " },
-                    { "type": "price", "text": "₱3,000–3,500" },
+                    { "text": ", and a full-day charter costs around " },
+                    { "type": "price", "text": "₱2,500~3,500" },
                     {
-                      "text": " if adding Casaroro Falls. Most of the road is paved, but the last stretch has steep grades and narrow curves."
+                      "text": "; if you add Casaroro Falls, negotiate it within the same day rate. If you drive yourself, a rental car costs about "
+                    },
+                    { "type": "price", "text": "₱1,500~2,000" },
+                    { "text": " per day and a motorbike about " },
+                    { "type": "price", "text": "₱500~800" },
+                    {
+                      "text": " per day. The road is mostly paved, but the later stretch has steep slopes and narrow winding curves, and vehicles cannot go past the souvenir shop in front of the entrance."
                     }
                   ]
                 }
               ]
             },
             {
-              "title": "Jeepney/habal-habal",
+              "title": "Jeepney and habal-habal",
               "icon": "airport_shuttle",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Budget travelers can take a Sibulan-bound jeepney from Dumaguete to Sibulan town or the turnoff toward the lakes (about "
+                      "text": "Budget travelers take a jeepney, multicab, or bus bound for San Jose or Amlan from near the Dumaguete public market or the Ceres terminal and get off at the Twin Lakes junction (Laraan Junction). It takes about "
                     },
-                    { "type": "duration", "text": "20–30 minutes" },
-                    { "text": ", about " },
-                    { "type": "price", "text": "₱15–30" },
+                    { "type": "duration", "text": "20~30 minutes" },
+                    { "text": " and costs about " },
+                    { "type": "price", "text": "₱15~30" },
+                    { "text": ", though some reviews say it took up to " },
+                    { "type": "duration", "text": "1 hour" },
                     {
-                      "text": "), then climb the mountain road by habal-habal motorcycle taxi (about "
+                      "text": ". From the junction, you ride a habal-habal (motorcycle taxi) about "
                     },
-                    { "type": "duration", "text": "30–40 minutes" },
-                    { "text": "). Habal-habal drivers often quote about " },
-                    { "type": "price", "text": "₱250" },
+                    { "type": "duration", "text": "30~45 minutes" },
+                    { "text": " up the mountain road, and drivers often ask about " },
+                    { "type": "price", "text": "₱200~300" },
                     { "text": " one way, or about " },
-                    { "type": "price", "text": "₱300–500" },
+                    { "type": "price", "text": "₱300~500" },
                     {
-                      "text": " round trip including waiting time, so agree on the price and wait time before boarding. You can also charter a habal-habal directly from downtown Dumaguete."
+                      "text": " round trip including waiting time. Choose a San Jose tourist habal-habal driver accredited by the DENR or the local government, and agree on the price and waiting time before you get on. On the way back, come down by early afternoon at the latest so it is easier to catch a jeepney at the junction."
                     }
                   ]
                 }
@@ -426,7 +631,44 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Regular tricycles often refuse the steep sections, so a mountain-capable vehicle or habal-habal is the practical choice."
+                      "text": "Regular tricycles often refuse to climb the steep sections. For the mountain stretch, it is more realistic to use a habal-habal or a chartered vehicle."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Getting around inside the park",
+              "icon": "directions_walk",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Register your name and pay the entrance fee at the entrance information center. Vehicles can only go as far as the parking lot in front of the souvenir shop."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "The viewing deck and restaurant are close to the parking lot, and from the deck to the lakeside landing is about "
+                        },
+                        { "type": "duration", "text": "5 minutes" },
+                        { "text": " along a stone path." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "Walking from the landing to the viewing tower takes about " },
+                        { "type": "duration", "text": "30 minutes" },
+                        { "text": ", and from the tower to the shore of Lake Danao about " },
+                        { "type": "duration", "text": "5 minutes" },
+                        { "text": "." }
+                      ]
                     }
                   ]
                 }
@@ -446,17 +688,17 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Twin Lakes is mountainous, so it rains far more often than on the coast. During the dry season from "
+              "text": "The Twin Lakes are in a mountainous area, so it rains much more often and is cooler than on the coast. During the dry season from "
             },
             { "type": "date", "text": "January" },
             { "text": " to " },
             { "type": "date", "text": "May" },
             {
-              "text": ", the skies are clear and the mountain roads dry, making travel and trekking easy. March–"
+              "text": ", the skies are clear and the mountain road is dry, making travel and trekking easy. "
             },
-            { "type": "date", "text": "April" },
+            { "type": "date", "text": "March to May" },
             {
-              "text": " in particular is the best time, letting you enjoy cool air here while the coast swelters."
+              "text": " in particular is the best time, when you can enjoy cool air here while the coast is sweltering."
             }
           ]
         },
@@ -466,32 +708,43 @@
             { "text": "From " },
             { "text": "June", "type": "date" },
             { "text": " to " },
-            { "text": "December", "type": "date" },
+            { "text": "October", "type": "date" },
             {
-              "text": ", afternoon rain and fog arrive almost daily, and after heavy rain parts of the mountain road can become slippery or subject to rockfall. Regardless of season, mornings are the most stable weather-wise, and clouds often blanket the lake after "
+              "text": ", the rainiest months in the Dumaguete area continue, and in the mountains afternoon rain and mist come almost every day. After heavy rain, parts of the mountain road may be slippery or have rockfalls, and during typhoon season there can be road washouts and closures, so check the weather forecast and the park office's notices before visiting. Regardless of the season, mornings are the most reliable, and after "
             },
             { "text": "2 PM", "type": "time" },
             {
-              "text": ". Temperatures run roughly 18–26°C year-round, so a light jacket is needed in the early morning."
-            }
+              "text": " clouds often cover the lake. The average annual temperature near the lakes is about "
+            },
+            { "text": "22℃", "type": "temperature" },
+            { "text": ", so you will need a light jacket in the early morning." }
           ]
         },
         {
           "type": "table",
-          "label": "Season at a glance",
+          "label": "At a glance by season",
           "icon": "calendar_month",
-          "columns": ["Period", "Weather", "Travel tips"],
+          "columns": ["Period", "Weather", "Travel highlights"],
           "rows": [
             [
               "January–February",
-              "Dry season, clear",
-              "Dry trails make trekking easy — a light jacket in the early morning"
+              "Dry season, clear and cool",
+              "Dry mountain trails make trekking easy — light jacket in the early morning"
             ],
-            ["March–May", "Dry season, hot on the coast", "Cool lake air — March–April is best"],
             [
-              "June–December",
-              "Rainy season, rain and fog every afternoon",
-              "Trails slippery and rockfall after heavy rain — visit in the morning"
+              "March–May",
+              "Dry season, sweltering on the coast",
+              "Cool lake air, morning mist — March to May is the best time"
+            ],
+            [
+              "June–October",
+              "Rainy season, afternoon rain and mist",
+              "Slippery trails and rockfalls after heavy rain — visit in the morning, check typhoon forecasts"
+            ],
+            [
+              "November–December",
+              "End of the rainy season, showers and mist",
+              "Changeable weather — bring a raincoat and spare socks in case of rain"
             ]
           ]
         }
@@ -510,43 +763,44 @@
           "items": [
             {
               "label": "Entrance fee",
-              "price": "About ₱100 for foreigners, about ₱50 for Filipinos",
-              "note": "Discount for nearby residents"
+              "price": "About ₱50~100 per person",
+              "note": "Many sources say ₱100 for foreigners; free for ages 7 and under, discounts for nearby residents and students"
             },
             {
-              "label": "Chartered vehicle (half day)",
-              "price": "About ₱2,000–3,000 per vehicle",
-              "note": "Round trip from Dumaguete, cost can be split"
+              "label": "Boat",
+              "price": "About ₱250 per hour",
+              "note": "4~7 people per boat, extra charge for overtime"
             },
             {
-              "label": "Habal-habal",
-              "price": "About ₱300–500 round trip",
-              "note": "Check whether waiting time is included"
-            },
-            {
-              "label": "Jeepney (Dumaguete–Sibulan)",
-              "price": "About ₱15–30 one way",
-              "note": "To the turnoff"
-            },
-            {
-              "label": "Kayak rental",
-              "price": "About ₱100–300",
-              "note": "Varies by time and group size"
-            },
-            {
-              "label": "Bamboo raft",
-              "price": "About ₱200–500",
-              "note": "Includes boatman, per group"
+              "label": "Kayak",
+              "price": "About ₱100~150 per hour",
+              "note": "Check on-site whether it is available for rent"
             },
             {
               "label": "Guide (optional)",
-              "price": "About ₱200–500",
-              "note": "For Lake Danao or birdwatching"
+              "price": "About ₱300",
+              "note": "Based on 2~3 people; owl spotting is about ₱1,500"
+            },
+            { "label": "Binocular rental", "price": "About ₱200", "note": "For birdwatching" },
+            {
+              "label": "Tent camping",
+              "price": "Tent about ₱300 + about ₱50 per person",
+              "note": "Tent for 3 people; check whether overnight stays are allowed"
             },
             {
-              "label": "Lunch",
-              "price": "About ₱200–400 per person",
-              "note": "Based on lakeside restaurants"
+              "label": "Habal-habal",
+              "price": "About ₱200~300 one way",
+              "note": "About ₱300~500 round trip including waiting"
+            },
+            {
+              "label": "Jeepney/bus",
+              "price": "About ₱15~30 one way",
+              "note": "From Dumaguete to the Twin Lakes junction"
+            },
+            {
+              "label": "Chartered vehicle (per day)",
+              "price": "About ₱2,500~3,500 per vehicle",
+              "note": "Round trip from Dumaguete, cost can be shared"
             }
           ]
         },
@@ -570,15 +824,15 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Since Twin Lakes is a day-trip destination, most travelers stay in downtown Dumaguete. There are many hotels around Rizal Boulevard and Silliman University at about "
+              "text": "The Twin Lakes are a day-trip destination, so it is common to stay in central Dumaguete. There are many hotels and guesthouses around Rizal Boulevard and Silliman University at roughly "
             },
-            { "type": "price", "text": "₱1,200–3,000" },
+            { "type": "price", "text": "₱1,200~3,000" },
             {
-              "text": " per night, and if you prefer somewhere quieter, small resorts and lodge-style stays in Sibulan or at the foot of Valencia's mountains (about "
+              "text": " per night, and if you want somewhere quiet, there are also small resorts at the foot of the mountains in Sibulan or Valencia (roughly "
             },
-            { "type": "price", "text": "₱1,500–4,000" },
+            { "type": "price", "text": "₱1,500~4,000" },
             {
-              "text": " per night) are also available. Simple lodging or a camping area sometimes operates inside the park, but availability changes often, so confirm with the park office in advance."
+              "text": " per night). There are notices that camping and simple lodging are available inside the park, but operations change often, so check with the park office in advance."
             }
           ]
         },
@@ -586,7 +840,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "The signature dish at lakeside restaurants is tilapia raised in the lake, either grilled over charcoal or stewed in a vinegar sauce, along with vegetable-rich soup. Prices are low, but the menu is limited and ingredients can run out in the afternoon. Back in Dumaguete, it's worth finishing the day with seafood from a promenade restaurant or silvanas from Sans Rival."
+              "text": "The restaurant and cafe at the viewing deck serve meals, coffee, hot chocolate (tsokolate), and Barako coffee, and the signature dish is the salad of edible ferns grown in the park. The menu is simple and there is no large restaurant inside the park, so it is best to bring water and snacks. Back in Dumaguete, have dinner at the restaurants along the waterfront promenade and try the city's famous desserts, silvanas and sans rival."
             }
           ]
         }
@@ -606,51 +860,58 @@
             {
               "children": [
                 {
-                  "text": "There are no ATMs inside the park, so bring cash in small bills for the entrance fee, kayak, meals, and habal-habal fare."
+                  "text": "There is no ATM inside the park, so prepare small bills in cash for the entrance fee, boat, food, and habal-habal fares. Larger bills may not get change."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Cell signal weakens the higher you go, so agree on a return time with your habal-habal driver beforehand, and if possible, get their phone number."
+                  "text": "Mobile signal weakens the higher you go, so agree on a return time with your habal-habal driver in advance and, if possible, get the driver's phone number. The park has free Wi-Fi, but it is weak."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "It's cool and rainy often, so bring a light windbreaker or raincoat and a spare pair of socks."
+                  "text": "It is cool and rainy often, so bring a light windbreaker or raincoat, spare socks, and shoes with good grip."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "The back seat of a habal-habal shakes a lot on the steep sections, so ask to wear a helmet and avoid bringing large bags."
+                  "text": "The back seat of a habal-habal shakes a lot on steep sections, so ask for a helmet and avoid big bags."
                 }
               ]
             },
             {
               "children": [
-                { "text": "Arriving around " },
+                { "text": "If you arrive between " },
                 { "text": "8–10 AM", "type": "time" },
                 {
-                  "text": " gets you both the mist and the reflection shots, and also lets you avoid weekend afternoon crowds."
+                  "text": ", you can get both the mist and reflection photos and avoid the weekend afternoon tour groups."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "When kayaking, put your phone in a waterproof pouch, and it's safer to leave a non-waterproof camera on shore."
+                  "text": "When boating or kayaking, put your phone in a waterproof pouch and do not leave cameras that are not waterproof near the water."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "If you're interested in birdwatching, bring binoculars and a telephoto lens, and walk the forest trail slowly and quietly."
+                  "text": "If you are interested in birdwatching, bring binoculars (rental about ₱200) and a telephoto lens, and walk the forest trail slowly and quietly."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Entrance fees, activity fees, and camping rules can change, so before you leave, ask the park's Facebook page or the local government tourism office for the latest information."
                 }
               ]
             }
@@ -665,6 +926,16 @@
       "icon": "warning",
       "blocks": [
         {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "Swimming is prohibited in both lakes, and drones cannot be flown either. The lakes are part of the drinking water source for the Dumaguete area, and the park is a protected zone for wild birds. There was even a case where a drone was attacked by a bird. Always wear a life jacket when boating or kayaking."
+            }
+          ]
+        },
+        {
           "type": "list",
           "ordered": false,
           "icon": "error",
@@ -672,52 +943,45 @@
             {
               "children": [
                 {
-                  "text": "The lake is deep and the water cold, so always wear a life vest when kayaking or rafting. Swimming in the lake outside designated areas is not recommended."
+                  "text": "After rain, the forest trails and the wooden deck at the landing are very slippery, so wear shoes with good grip instead of sandals. The stone path down from the deck to the landing is covered in moss."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "After rain, the forest trail and the dock's wooden deck become very slippery, so wear shoes with good grip instead of sandals."
+                  "text": "Inside the natural park, collecting plants and animals, feeding wildlife, littering, and loud music are prohibited. Take all your trash back with you, and follow the signs on the forest trails."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Collecting plants or animals, littering, and loud music are prohibited inside the natural park. Take out all the trash you bring in."
+                  "text": "When heavy rain or a typhoon is forecast, there is a risk of rockfalls and road washouts on the mountain road, so postpone your visit."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Operating hours are usually " },
+                { "type": "time", "text": "8 AM to 5 PM" },
+                {
+                  "text": ", and entrance fees, activity fees, and whether camping is allowed may change under park regulations, so check the latest notices. You must come down the mountain before sunset."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "When heavy rain or a typhoon is forecast, postpone your visit due to the risk of rockfall and washed-out roads."
-                }
-              ]
-            },
-            {
-              "children": [
-                { "text": "The entrance fee, activity fees, and operating hours (generally " },
-                { "type": "time", "text": "8 AM–5 PM" },
-                {
-                  "text": ") can change according to the natural park's management rules, so check the latest notices."
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "text": "The Twin Lakes lie in the Talinis (Cuernos de Negros) volcanic area to the south, which is a different place from Kanlaon Volcano to the north (about "
+                  "text": "The Twin Lakes are in the volcanic zone of Mount Talinis (Cuernos de Negros) to the south, a different place from Kanlaon Volcano to the north (about "
                 },
                 { "type": "distance", "text": "120km" },
-                { "text": " away), which has kept erupting since " },
+                { "text": " away), which has continued erupting since " },
                 { "type": "date", "text": "2024" },
-                { "text": ". As of " },
-                { "type": "date", "text": "September 2026" },
+                { "text": ". As of a " },
+                { "type": "date", "text": "July 2026" },
                 {
-                  "text": " Kanlaon is at PHIVOLCS Alert Level 2 and has almost no direct effect on this area, but if there is news of a major eruption, check PHIVOLCS and flight announcements."
+                  "text": " report, Kanlaon is at PHIVOLCS Alert Level 2 and has almost no direct effect on this area, but if there is news of a major eruption, check PHIVOLCS and flight notices."
                 }
               ]
             }
@@ -743,31 +1007,7 @@
                 { "text": "About " },
                 { "type": "duration", "text": "1 hour" },
                 {
-                  "text": " by car. The starting city for the Twin Lakes trip, appealing for its seaside promenade and college-town atmosphere."
-                }
-              ]
-            },
-            {
-              "type": "card",
-              "title": "Apo Island",
-              "place": "apo-island",
-              "children": [
-                { "text": "About " },
-                { "type": "duration", "text": "1 hour 30 minutes" },
-                { "text": " by car via Dumaguete, then about " },
-                { "type": "duration", "text": "40 minutes" },
-                { "text": " by boat. A renowned spot for sea turtle snorkeling." }
-              ]
-            },
-            {
-              "type": "card",
-              "title": "Siquijor",
-              "place": "siquijor",
-              "children": [
-                { "text": "About " },
-                { "type": "duration", "text": "1 hour" },
-                {
-                  "text": " by fast ferry from Dumaguete. An island with waterfalls and quiet beaches."
+                  "text": " by car. The starting city for a Twin Lakes trip, with its waterfront promenade, university district, and silvanas shops."
                 }
               ]
             },
@@ -777,9 +1017,45 @@
               "place": "casaroro-falls",
               "children": [
                 { "text": "About " },
-                { "type": "duration", "text": "40 minutes–1 hour" },
+                { "type": "duration", "text": "40 minutes to 1 hour" },
                 {
-                  "text": " by car from Twin Lakes. A slender waterfall dropping at the end of a stair trail through a gorge."
+                  "text": " by car from the Twin Lakes. A slender waterfall at the end of a stairway trail in a gorge, easy to combine into a full-day itinerary."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Dauin",
+              "place": "dauin",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "30 minutes" },
+                {
+                  "text": " by car south of Dumaguete. A coastal town known for its black sand beaches and muck diving."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Apo Island",
+              "place": "apo-island",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "40~60 minutes" },
+                { "text": " by car to Malatapay port, then about " },
+                { "type": "duration", "text": "30~45 minutes" },
+                { "text": " by boat. A famous spot for snorkeling with sea turtles." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Siquijor",
+              "place": "siquijor",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "45 minutes to 1 hour" },
+                {
+                  "text": " by fast ferry from Dumaguete. An island with waterfalls and quiet beaches."
                 }
               ]
             }

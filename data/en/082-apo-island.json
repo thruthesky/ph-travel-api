@@ -34,8 +34,8 @@
     "items": ["Sea turtles", "Snorkeling", "Scuba diving", "Marine protected area", "Coral reef"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.8, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.076 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.27 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.0768 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.2688 },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
@@ -53,7 +53,7 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱2,500–4,500 per person",
+    "text": "About ₱2,500–4,500 per person (day tour)",
     "currency": "PHP",
     "min": 2500,
     "max": 4500
@@ -76,7 +76,7 @@
   "image": {
     "type": "image",
     "url": "images/082-apo-island.webp",
-    "alt": "Apo Island",
+    "alt": "Apo Island rising from the sea",
     "credit": "Mike Gonzalez (TheCoffee) / CC BY-SA 3.0 / Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_east.jpg"
   },
@@ -87,16 +87,72 @@
       {
         "type": "image",
         "url": "images/082-apo-island-2.webp",
-        "alt": "Apo Island",
+        "alt": "A green sea turtle resting on the coral",
         "credit": "Anna Varona / CC BY 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Sea_Turtle_in_Apo_Island.jpg"
       },
       {
         "type": "image",
         "url": "images/082-apo-island-3.webp",
-        "alt": "Apo Island",
+        "alt": "Bangkas and a resort on the beach in front of the village",
         "credit": "Clover117 / CC BY-SA 4.0 / Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_on_the_side_of_Balay_Reef.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-4.webp",
+        "alt": "Snorkeling with sea turtles over the seagrass",
+        "credit": "Achilezweb / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Swimming-with-turtles-apo-island-archie-mercader.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-5.webp",
+        "alt": "A bangka on a sand beach beneath a rocky cliff",
+        "credit": "jackylim / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_island_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-6.webp",
+        "alt": "The sea and a bangka seen through a gap in the rocks",
+        "credit": "jackylim / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_-_Negros_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-7.webp",
+        "alt": "A diver passing over the coral garden of the sanctuary",
+        "credit": "Anna Varona / CC BY 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Visitors_in_a_Marine_Sanctuary.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-8.webp",
+        "alt": "The island's rocky cliffs and shallow coral reef (a half-over, half-under split shot)",
+        "credit": "Pacificklaus / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_Over-Under.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-9.webp",
+        "alt": "Black rocky cliffs near where the boats land",
+        "credit": "Mike / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Island_rocks.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-10.webp",
+        "alt": "Feather stars and plate coral on Apo Island's reef",
+        "credit": "Wellbeach Dive Resort / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2Apo_Island_scuba_diving.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/082-apo-island-11.webp",
+        "alt": "A bangka floating off the island and the forested slopes behind it",
+        "credit": "CariolaMinze / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apo_Island,_near_Negros.JPG"
       }
     ]
   },
@@ -119,40 +175,56 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "Apo Island is a small volcanic island of about 0.7 km² lying roughly " },
+            { "text": "Apo Island is a small volcanic island rising from the sea about " },
             { "type": "distance", "text": "7km" },
             {
-              "text": " off the southeastern coast of Negros. Administratively part of Dauin, it is home to around 1,000 residents who live by fishing and tourism. It shares its name with Mount Apo in Mindanao but is an entirely different place, so don't confuse the two. The island's west side has the village and a sand beach, its east side has rocky cliffs, and coral reef surrounds the whole island."
-            }
+              "text": " off the southeastern tip of Negros. It covers only about 0.74 km², measuring around "
+            },
+            { "type": "distance", "text": "1.5km" },
+            { "text": " north to south and " },
+            { "type": "distance", "text": "1km" },
+            { "text": " east to west, and its highest point is about " },
+            { "type": "distance", "text": "120m" },
+            { "text": " above sea level. Its coastline runs about " },
+            { "type": "distance", "text": "4.5km" },
+            {
+              "text": ", with seven small beaches tucked between steep rocky cliffs. Administratively it is one barangay (village) of the city of Dauin in Negros Oriental, and according to the "
+            },
+            { "type": "date", "text": "2020" },
+            {
+              "text": " census 920 residents live here by fishing and tourism. It has nothing to do with Mount Apo in Mindanao or "
+            },
+            { "type": "place_link", "text": "Apo Reef", "slug": "apo-reef" },
+            { "text": " off Mindoro, so take care not to confuse them when booking." }
           ]
         },
         {
           "type": "paragraph",
           "children": [
             {
-              "text": "What made this island world famous lies less in the sea itself than in \"how it was protected.\" When dynamite fishing and overfishing collapsed the coral reefs in the "
+              "text": "The island is famous less for the sea itself than for the way it has been protected. In the "
             },
             { "type": "date", "text": "1970s" },
             {
-              "text": ", Silliman University marine biologist Dr. Angel Alcala worked with residents to designate part of the island's southeast as a no-fishing zone around "
+              "text": ", dynamite fishing and muro-ami (a method of pounding the coral to drive fish into nets) wrecked the reefs and catches kept shrinking. In "
             },
+            { "type": "date", "text": "1979" },
+            {
+              "text": ", the marine laboratory of Silliman University in Dumaguete proposed a sanctuary where fishing would be banned completely, and after long conversations between Dr. Angel Alcala and the residents, the fishermen themselves set aside about "
+            },
+            { "type": "distance", "text": "450m" },
+            { "text": " of coastline and " },
+            { "type": "distance", "text": "500m" },
+            { "text": " out to sea as a no-fishing zone in " },
             { "type": "date", "text": "1982" },
+            { "text": ". In " },
+            { "type": "date", "text": "1985" },
             {
-              "text": ". As residents patrolled and enforced the rules themselves, fish returned within a few years, and catches even increased outside the no-fishing zone. It was later designated a protected landscape and seascape in "
+              "text": ", residents and the local council turned this into an ordinance to be managed by elected island residents, and on "
             },
-            { "type": "date", "text": "1994" },
-            { "text": ", becoming a world-renowned model of community-based marine protection." }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "children": [
+            { "type": "date", "text": "August 9, 1994" },
             {
-              "text": "Today, more than 650 fish species and over 400 coral species have been recorded in Apo Island's waters. The island's biggest draw for travelers is that at depths of just "
-            },
-            { "type": "distance", "text": "2–5m" },
-            {
-              "text": ", you can see green and hawksbill sea turtles grazing on seagrass almost every time. Even if you're not a strong swimmer, wearing a life vest and following a guide lets you enjoy it fully."
+              "text": ", Presidential Proclamation No. 438 designated the island and about 691 hectares of surrounding sea as a protected landscape and seascape. It is the second-oldest community-based marine sanctuary in the Philippines, and there are reports that the weight of large predatory fish inside the no-take zone has grown eightfold."
             }
           ]
         },
@@ -160,7 +232,23 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "For divers, the east wall with its strong currents and coral gardens await. The island satisfies a wide range of visitors, from families wanting turtle snorkeling to experienced divers hoping to see schools of jackfish, to travelers who just want a quiet night on an island with limited electricity."
+              "text": "Today more than 650 fish species and over 400 coral species have been recorded in Apo Island's waters, and the corals account for most of the roughly 450 species found in the Philippines. The biggest draw for travelers is the chance to see green and hawksbill sea turtles grazing on the shallow seagrass just off the beach from up close. Even weak swimmers can enjoy it in a life vest by following a village guide. These guides belong to an association the residents formally set up in "
+            },
+            { "type": "date", "text": "2010" },
+            {
+              "text": " (ASIERGA); it has more than 300 members, who are said to have been trained in environmental law and in serving visitors. In "
+            },
+            { "type": "date", "text": "2024" },
+            {
+              "text": ", a field officer of the Department of Environment and Natural Resources (DENR) said that about 3,000 people visit the island each month."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "It suits families who want to snorkel with turtles, experienced divers looking for current-swept walls and coral gardens, and travelers who want to stay on a quiet island in the afternoons after the day-trippers have left. Note, however, that electricity, water, and cell signal are limited, and on some days boats cannot run because of the weather."
             }
           ]
         }
@@ -182,29 +270,31 @@
               "title": "Turtle snorkeling",
               "children": [
                 {
-                  "text": "In the shallow waters in front of the village, you can get a close look at sea turtles grazing on seagrass. A guide is mandatory, and you must keep a distance of at least "
+                  "text": "In the shallow seagrass in front of the village, you meet grazing sea turtles almost every time. A village guide must accompany you in the turtle area, and under the guidelines you should stay at least "
                 },
-                { "type": "distance", "text": "4m" },
-                { "text": " from the turtles without touching or chasing them." }
+                { "type": "distance", "text": "3m" },
+                {
+                  "text": " away from the turtles and never touch or chase them. To protect the coral, fins are sometimes not allowed and you may be limited to a mask and life vest, so follow your guide's instructions."
+                }
               ]
             },
             {
               "type": "card",
               "number": 2,
-              "title": "Diving in the protected coral garden",
+              "title": "Protected coral garden",
               "children": [
                 {
-                  "text": "Around the protected area on the island's southeast, table coral and soft coral grow densely, and if you're lucky you'll encounter schools of jackfish and barracuda. Diving within the protected area is managed by headcount and frequency, so book through a local dive shop."
+                  "text": "Inside the island's sanctuary, leaf and plate corals and soft corals grow thickly, and you can see turtles, triggerfish, and parrotfish. Access is limited, and on some days only snorkeling is allowed, so book through a dive shop and follow the instructions on site that day."
                 }
               ]
             },
             {
               "type": "card",
               "number": 3,
-              "title": "Coconut Point and Chapel Point",
+              "title": "Chapel, Coconut, and Cogon Points",
               "children": [
                 {
-                  "text": "Coconut Point on the island's northeast is known for drift diving carried by the current, while Chapel Point to the west is relatively gentle and popular with intermediate divers. Currents are often strong, so always follow your guide's judgment."
+                  "text": "At Chapel Point, a sand slope drops into a wall that falls past 30 m, with small caves and turtles to see. Coconut and Cogon Points have strong currents and are famous for drift diving, suited to intermediate and advanced divers, while the coral slopes at Rock Point East and West are full of frogfish and nudibranchs. The dive shop decides where to go by checking the current that day."
                 }
               ]
             },
@@ -213,20 +303,26 @@
               "number": 4,
               "title": "Lighthouse viewpoint trek",
               "children": [
-                { "text": "From the village, following steps and a dirt path for about " },
+                {
+                  "text": "Starting behind Liberty's Lodge above the village, a steep climb up stairs and a dirt path takes "
+                },
                 { "type": "duration", "text": "20–30 minutes" },
                 {
-                  "text": " brings you to the lighthouse near the island's summit. On a clear day you can see the main island of Negros, Siquijor, and even as far as Mindanao."
+                  "text": " to reach the lighthouse near the top of the island. Climbing the ladder inside the lighthouse costs about "
+                },
+                { "type": "price", "text": "₱50" },
+                {
+                  "text": ", and from the top you can see the main island of Negros and the sea in one sweep. There is nowhere to buy anything along the path, so bring water."
                 }
               ]
             },
             {
               "type": "card",
               "number": 5,
-              "title": "Village walk and hearing the conservation story",
+              "title": "Village walk and conservation stories",
               "children": [
                 {
-                  "text": "The small village has a marine sanctuary management office, a school, and souvenir stalls. Buying t-shirts and handkerchiefs made by residents sends the proceeds back to the community."
+                  "text": "The island village has the sanctuary's management office, a school, and souvenir stalls. Part of the ecotourism income is said to go to the national government, with the rest used for managing the sanctuary and supporting village livelihoods, so buying T-shirts and handicrafts made by the residents helps."
                 }
               ]
             },
@@ -236,17 +332,17 @@
               "title": "Spending a night on the island",
               "children": [
                 {
-                  "text": "From the afternoon when the day-trippers leave, the island becomes surprisingly quiet. You can watch the sun set into the western sea and see the stars in a night sky with almost no electric light."
+                  "text": "Once the day-tour boats leave in the afternoon, the island becomes surprisingly quiet. You can watch the sun set over the western sea, see stars in a sky with few lights, and in the early morning meet turtles on an empty beach."
                 }
               ]
             },
             {
               "type": "card",
               "number": 7,
-              "title": "Stopping by the Malatapay Wednesday market",
+              "title": "Malatapay Wednesday Market",
               "children": [
                 {
-                  "text": "At Malatapay, where the boats to the island depart, a livestock market and lechon (whole roast pig) stalls open every Wednesday. It's a good place to look around before catching an early boat."
+                  "text": "In Malatapay, where the boats depart, a market is held every Wednesday, trading livestock such as cattle, pigs, and goats and selling roast whole pig (lechon) by the kilogram. There are also many seafood and fruit stalls, so it is a good place to look around in the morning before boarding your boat."
                 }
               ]
             }
@@ -265,6 +361,7 @@
           "items": [
             {
               "title": "Day trip",
+              "subtitle": "Departing from Malatapay",
               "blocks": [
                 {
                   "type": "stepper",
@@ -272,59 +369,92 @@
                     {
                       "time": "06:30",
                       "children": [
-                        { "text": "Depart from your accommodation in Dumaguete or Dauin" }
+                        { "text": "Leave your Dumaguete lodging by bus, jeepney, and tricycle" }
                       ]
                     },
                     {
-                      "time": "07:15",
+                      "time": "07:30",
                       "children": [
                         {
-                          "text": "Arrive at Malatapay port, pay the environmental fee and register"
+                          "text": "Arrive in Malatapay; on Wednesdays, look around the market, then get assigned a bangka"
                         }
                       ]
                     },
                     {
-                      "time": "07:45",
+                      "time": "08:30",
                       "children": [
-                        { "text": "Bangka ride to Apo Island (about " },
+                        { "text": "Cross to Apo Island by bangka (about " },
                         { "type": "duration", "text": "30–45 minutes" },
                         { "text": ")" }
                       ]
                     },
                     {
-                      "time": "08:30",
-                      "children": [{ "text": "First snorkel — turtle zone (with guide)" }]
-                    },
-                    {
-                      "time": "10:30",
-                      "children": [{ "text": "Second snorkel or dive — coral garden" }]
-                    },
-                    {
-                      "time": "12:00",
+                      "time": "09:30",
                       "children": [
-                        { "text": "Lunch at an island restaurant or a packed tour lunch" }
+                        {
+                          "text": "Arrive on the island; pay the entrance and snorkeling fees at the beach registration desk, then get your guide and life vest"
+                        }
                       ]
                     },
                     {
-                      "time": "13:00",
-                      "children": [{ "text": "Lighthouse viewpoint trek and village walk" }]
-                    },
-                    {
-                      "time": "14:30",
+                      "time": "09:45",
                       "children": [
-                        { "text": "Depart the island before the afternoon winds pick up" }
+                        { "text": "Snorkel the turtle area (about " },
+                        { "type": "duration", "text": "1 hour" },
+                        { "text": "), following behind the guide and keeping your distance" }
                       ]
                     },
                     {
-                      "time": "15:30",
-                      "children": [{ "text": "Arrive back at Malatapay, rest at a Dauin beach" }]
+                      "time": "11:30",
+                      "children": [
+                        { "text": "Second snorkel or dive — the sanctuary's coral garden" }
+                      ]
+                    },
+                    {
+                      "time": "12:30",
+                      "children": [
+                        { "text": "Lunch at an island restaurant or from the tour's packed lunch" }
+                      ]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [{ "text": "Lighthouse viewpoint trek and a village walk" }]
+                    },
+                    {
+                      "time": "15:00",
+                      "children": [
+                        {
+                          "text": "Leave the island, returning before the waves pick up in the afternoon"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "16:00",
+                      "children": [
+                        { "text": "Arrive in Malatapay; relax on a beach in Dumaguete or Dauin" }
+                      ]
                     }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Dive-shop tours usually leave from Dauin resorts around " },
+                    { "type": "time", "text": "8 a.m." },
+                    { "text": " and return around " },
+                    { "type": "time", "text": "4 p.m." },
+                    { "text": ". If you take a shared boat, it is said to leave at " },
+                    { "type": "time", "text": "9–10 a.m." },
+                    { "text": " and depart the island around " },
+                    { "type": "time", "text": "3 p.m." },
+                    { "text": ", so confirm the return time in advance." }
                   ]
                 }
               ]
             },
             {
               "title": "1 night, 2 days",
+              "subtitle": "Staying on the island",
               "blocks": [
                 {
                   "type": "stepper",
@@ -333,7 +463,23 @@
                       "time": "Day 1 morning",
                       "children": [
                         {
-                          "text": "Transfer and snorkeling, afternoon lighthouse trek, sunset at the west-side beach, stargazing at night"
+                          "text": "Take a bangka from Malatapay to the island, drop your bags at your lodging, and pay the entrance fee"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Day 1 afternoon",
+                      "children": [
+                        {
+                          "text": "After the day-trippers have left, snorkel the turtle area, then trek to the lighthouse by the path behind Liberty's Lodge"
+                        }
+                      ]
+                    },
+                    {
+                      "time": "Day 1 evening",
+                      "children": [
+                        {
+                          "text": "Watch the sunset over the western sea, have dinner at your lodging, and stargaze"
                         }
                       ]
                     },
@@ -341,9 +487,31 @@
                       "time": "Day 2 dawn",
                       "children": [
                         {
-                          "text": "Turtle snorkeling before the crowds arrive, two morning dives, return to the main island after lunch"
+                          "text": "Snorkel with turtles in the sea in front of the beach while no one else is around"
                         }
                       ]
+                    },
+                    {
+                      "time": "Day 2 morning",
+                      "children": [
+                        { "text": "Two dives with a dive shop, or a second snorkeling spot" }
+                      ]
+                    },
+                    {
+                      "time": "Day 2 afternoon",
+                      "children": [
+                        {
+                          "text": "After lunch, return to Malatapay by bangka, leaving before the waves pick up"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Staying on the island gives you quiet mornings and evenings, but if the weather turns, your return can be delayed, so leave a spare day in your return schedule."
                     }
                   ]
                 }
@@ -364,86 +532,177 @@
           "items": [
             {
               "title": "By air",
+              "subtitle": "From Manila to Dumaguete",
               "icon": "flight",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "It takes about " },
-                    { "type": "duration", "text": "1 hour 20 minutes" },
                     {
-                      "text": " from Manila to Dumaguete (Sibulan Airport, DGT). Coming from Cebu, boats and buses are more convenient than flying."
+                      "text": "Cebu Pacific and PAL Express, a Philippine Airlines affiliate, fly nonstop from Manila to Dumaguete (Sibulan Airport, DGT), taking about "
+                    },
+                    { "type": "duration", "text": "1 hour 20 minutes" },
+                    { "text": ". The airport lies about " },
+                    { "type": "distance", "text": "3–5km" },
+                    {
+                      "text": " north of downtown Dumaguete, around 15 minutes by tricycle. The Apo Island boats leave from Malatapay, about "
+                    },
+                    { "type": "distance", "text": "25–30km" },
+                    {
+                      "text": " south of the airport, so on your arrival day it is more relaxed to spend the night in Dumaguete or Dauin and head to the island the next morning."
                     }
                   ]
                 }
               ]
             },
             {
-              "title": "By vehicle",
+              "title": "By bus or jeepney",
               "subtitle": "From Dumaguete to Malatapay",
-              "icon": "directions_car",
+              "icon": "directions_bus",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Boats to Apo Island depart from Malatapay port in Zamboanguita, about "
+                      "text": "At the Dumaguete southern terminal or along the road, take a bus or jeepney bound for Zamboanguita, Bais, or Bayawan and ask to be dropped off at Malatapay. It takes about "
                     },
-                    { "type": "distance", "text": "25km" },
+                    { "type": "duration", "text": "40 minutes–1 hour" },
+                    { "text": ", and the one-way fare by bus or jeepney is about " },
+                    { "type": "price", "text": "₱25–60" },
+                    { "text": ". After getting off at the roadside, it is a " },
+                    { "type": "duration", "text": "5–10 minutes" },
                     {
-                      "text": " south of Dumaguete. Taking a bus or jeepney bound for Bais or Siaton from Dumaguete's southern bus terminal or roadside and getting off at the Malatapay turnoff takes about "
+                      "text": " walk along the market road to the pier. If you tell the driver or conductor in advance that you are going to \"Apo Island,\" they will let you know where to get off."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "By tricycle or chartered vehicle",
+              "subtitle": "When you have heavy luggage or a group",
+              "icon": "electric_rickshaw",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Chartering a tricycle from Dumaguete to Malatapay costs about " },
+                    { "type": "price", "text": "₱200–600" },
+                    {
+                      "text": " one way depending on bargaining, and the island lodging Liberty's Lodge has been listed as offering a transfer service from Dumaguete for about "
                     },
-                    { "type": "duration", "text": "40–60 minutes" },
-                    { "text": ", for a fare of about " },
-                    { "type": "price", "text": "₱40–60" },
-                    { "text": ". Chartering a tricycle costs about " },
-                    { "type": "price", "text": "₱400–600" },
-                    { "text": " one way. From a Dauin beach resort, it's about " },
+                    { "type": "price", "text": "₱350" },
+                    { "text": " per person. From the Dauin coastal resorts it is only about " },
                     { "type": "duration", "text": "15–20 minutes" },
-                    { "text": " away." }
+                    { "text": " away, so dive shops arrange the boat and the vehicle together." }
                   ]
                 }
               ]
             },
             {
               "title": "By boat",
+              "subtitle": "From Malatapay to Apo Island",
               "icon": "directions_boat",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "From Malatapay to Apo Island takes about " },
+                    { "text": "From the Malatapay pier to Apo Island takes about " },
                     { "type": "duration", "text": "30–45 minutes" },
+                    { "text": " by bangka. The shared boat leaves around " },
+                    { "type": "time", "text": "9–10 a.m." },
+                    { "text": " with a fare listed at about " },
+                    { "type": "price", "text": "₱300" },
                     {
-                      "text": " by bangka. There is no scheduled passenger ferry; instead you charter a boat through the bangka association at the port. A round-trip charter on a small bangka costs about "
+                      "text": " one way, but departure times and fares change often. Chartering a small bangka round trip costs about "
                     },
-                    { "type": "price", "text": "₱3,000–4,000" },
+                    { "type": "price", "text": "₱2,500–4,000" },
                     {
-                      "text": " (for 4–6 people), and if you're alone, joining other travelers at the port is more economical. The easiest option is a day tour from a Dumaguete or Dauin dive shop, which includes pickup, bangka, snorkel gear, lunch, and a guide for about "
+                      "text": " (3–6 people); the more people, the less each person pays, so check whether waiting and return time are included. The island has no pier, so the boat touches the beach and you step off into knee-deep water, and if the coast guard judges the sea dangerous, the trip is canceled."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The easiest way is a day tour from a dive shop in Dauin or Dumaguete, which includes pickup, bangka, equipment, lunch, and entrance fees for about "
                     },
-                    { "type": "price", "text": "₱2,500–3,500" },
-                    { "text": " per person." }
+                    { "type": "price", "text": "₱2,300–4,100" },
+                    {
+                      "text": " per person (for snorkeling); some shops charge a separate fuel fee of "
+                    },
+                    { "type": "price", "text": "₱500" },
+                    { "text": " from " },
+                    { "type": "date", "text": "April 12, 2026" },
+                    { "text": "." }
                   ]
                 }
               ]
             },
             {
-              "title": "Coming from Cebu",
+              "title": "From Cebu",
               "icon": "route",
               "blocks": [
                 {
                   "type": "paragraph",
                   "children": [
+                    { "text": "From Cebu City's South Bus Terminal, it takes about " },
+                    { "type": "duration", "text": "4–5 hours" },
+                    { "text": " by bus to the port of Santander (Liloan), at a fare of about " },
+                    { "type": "price", "text": "₱160–300" },
                     {
-                      "text": "From Cebu's South Bus Terminal, a bus to Liloan port near Oslob takes about "
+                      "text": ". From Liloan port to Sibulan port, a RoRo ferry runs roughly every 1 hour 30 minutes between about "
                     },
-                    { "type": "duration", "text": "3–4 hours" },
-                    { "text": ", then a boat to Sibulan port takes about " },
+                    { "type": "time", "text": "4 a.m.–8 p.m." },
+                    { "text": ", taking about " },
                     { "type": "duration", "text": "30 minutes" },
-                    { "text": ", and another car ride south to Malatapay takes about " },
-                    { "type": "duration", "text": "1 hour" },
+                    { "text": ", for a fare of about " },
+                    { "type": "price", "text": "₱150" },
                     {
-                      "text": ". Reaching the island in a single day is tight, so it's better to stay overnight in Dumaguete or Dauin and depart the next morning."
+                      "text": " (fuel surcharge extra). From Sibulan to Malatapay, passing through Dumaguete again takes about "
+                    },
+                    { "type": "duration", "text": "1 hour 30 minutes" },
+                    {
+                      "text": ", so reaching the island in a single day is a stretch, and we recommend spending a night in Dumaguete."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The OceanJet fast ferry from Cebu via Tagbilaran, Bohol to Dumaguete takes about "
+                    },
+                    { "type": "duration", "text": "4 hours 20 minutes" },
+                    { "text": ", with fares listed at about " },
+                    { "type": "price", "text": "₱1,700–2,600" },
+                    { "text": ". However, in " },
+                    { "type": "date", "text": "2026" },
+                    {
+                      "text": " there were periods when service was reduced or suspended because of fuel costs, so check the official announcements before you leave."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "From Siquijor",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "We could not confirm any scheduled boat that goes from Siquijor straight to Apo Island, so you go through Dumaguete. The Siquijor–Dumaguete OceanJet fast ferry takes about "
+                    },
+                    { "type": "duration", "text": "50 minutes–1 hour" },
+                    { "text": ", and fares vary by source, at around " },
+                    { "type": "price", "text": "₱250–500" },
+                    { "text": ". In the spring of " },
+                    { "type": "date", "text": "2026" },
+                    {
+                      "text": " some trips were suspended, so check the timetable, and it is safer to stay in Dumaguete and head to Malatapay in the morning."
                     }
                   ]
                 }
@@ -463,52 +722,52 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "How enjoyable the trip to Apo Island is depends heavily on the waves. From "
+              "text": "Your trip to Apo Island varies a great deal with the waves. Travel guides generally treat "
             },
-            { "type": "date", "text": "March" },
-            { "text": " to " },
-            { "type": "date", "text": "June" },
+            { "type": "date", "text": "November–May" },
             {
-              "text": ", the sea is calmest and the water warmest, with visibility often reaching "
+              "text": " as the good season, and many of the days with the best visibility fall in "
             },
-            { "type": "distance", "text": "20–30m" },
-            { "text": ". From " },
-            { "type": "date", "text": "December" },
-            { "text": " to " },
-            { "type": "date", "text": "February" },
+            { "type": "date", "text": "March–June" },
+            { "text": ", when the sea is calmest and the water warmest. From " },
+            { "type": "date", "text": "December–February" },
             {
-              "text": ", the northeast monsoon (Amihan) blows and afternoon waves can pick up on some days, but travel is generally still possible."
+              "text": " the northeast monsoon (amihan) blows and waves can rise in the afternoon, but travel is generally possible."
             }
           ]
         },
         {
           "type": "paragraph",
           "children": [
-            { "text": "Between " },
-            { "text": "July", "type": "date" },
-            { "text": " and " },
-            { "text": "October", "type": "date" },
+            { "text": "From " },
+            { "text": "July–October", "type": "date" },
             {
-              "text": ", the southwest monsoon (Habagat) and typhoons increase the number of days when bangka trips are canceled. Waves tend to rise especially in the afternoon, so regardless of season, the rule is to depart early in the morning and return by early afternoon. Water temperature stays around 26–29°C year-round, so a thin wetsuit or rash guard is enough."
-            }
+              "text": ", the southwest monsoon (habagat) and typhoons mean more days when bangka trips are canceled and the sea turns rough. In any season, the rule is to cross early in the morning and return in the early afternoon, since the waves often rise in the afternoon. The water temperature is generally "
+            },
+            { "text": "27–29℃", "type": "temperature" },
+            { "text": " all year, so a thin rash guard is enough for snorkeling." }
           ]
         },
         {
           "type": "table",
-          "label": "Season at a glance",
+          "label": "At a glance by season",
           "icon": "calendar_month",
-          "columns": ["Period", "Weather", "Travel tips"],
+          "columns": ["Period", "Weather", "Travel notes"],
           "rows": [
             [
-              "December–February",
-              "Dry season, afternoon waves from the northeast wind (Amihan)",
-              "Mostly possible to visit — leave early in the morning and return in the early afternoon"
+              "November–February",
+              "Dry season; afternoon waves with the northeast wind (amihan)",
+              "Generally possible to travel — leave early in the morning, return in the early afternoon"
             ],
-            ["March–June", "Calm seas, warm water", "Visibility of 20–30m — best time for diving"],
             [
-              "July–November",
-              "Southwest wind and typhoon influence (July–October)",
-              "More bangka cancellations — water temperature 26–29°C year-round"
+              "March–June",
+              "Calm sea, warm water",
+              "Best visibility — prime time for diving and snorkeling"
+            ],
+            [
+              "July–October",
+              "Southwest wind (habagat) and typhoon influence",
+              "More bangka cancellations — leave a spare day in your schedule"
             ]
           ]
         }
@@ -527,38 +786,43 @@
           "items": [
             {
               "label": "Dumaguete–Malatapay transport",
-              "price": "About ₱40–600 one way",
-              "note": "By bus/jeepney, or chartered tricycle"
+              "price": "About ₱25–600 one way",
+              "note": "Bus or jeepney ₱25–60; tricycle charter is negotiable"
             },
             {
-              "label": "Round-trip bangka charter",
-              "price": "About ₱3,000–4,000 per boat",
-              "note": "Based on 4–6 people; cheaper if split"
+              "label": "Island entrance fee",
+              "price": "About ₱100 per person",
+              "note": "Paid once at the beach registration desk; some sources list a separate foreigner rate"
             },
             {
-              "label": "Environmental fee",
-              "price": "About ₱300 for foreigners, about ₱100 for Filipinos",
-              "note": "Paid at the Malatapay registration office"
+              "label": "Snorkeling fee",
+              "price": "About ₱100 per person",
+              "note": "For divers: ₱100 entrance fee + ₱200 diving fee"
             },
             {
-              "label": "Snorkeling guide",
-              "price": "About ₱300 per group",
-              "note": "Mandatory in the turtle zone"
+              "label": "Turtle guide and equipment",
+              "price": "About ₱300",
+              "note": "Sources differ on per-group or per-person; equipment rental is separate"
             },
             {
-              "label": "Day snorkeling tour",
-              "price": "About ₱2,500–3,500 per person",
-              "note": "Based on packages including pickup, boat, gear, and lunch"
+              "label": "Bangka transfer",
+              "price": "Shared boat about ₱300 one way",
+              "note": "Round-trip charter about ₱2,500–4,000 (3–6 people)"
             },
             {
-              "label": "Fun dive",
-              "price": "About ₱1,800–2,500 per dive",
-              "note": "Extra fee for diving inside the protected area"
+              "label": "Dive-shop snorkeling tour",
+              "price": "About ₱2,300–4,100 per person",
+              "note": "Boat, lunch, and entrance fee included; some places charge a separate ₱500 fuel surcharge"
+            },
+            {
+              "label": "Fun diving",
+              "price": "About ₱2,300 per dive",
+              "note": "Three-tank day about ₱5,900–6,400, including the ₱200 daily sanctuary fee"
             },
             {
               "label": "Island accommodation",
-              "price": "About ₱1,500–4,500 per night",
-              "note": "Check whether meals are included"
+              "price": "About ₱2,000–4,500 per night",
+              "note": "Check whether meals are included; dorms are cheaper"
             },
             {
               "label": "Meals",
@@ -570,9 +834,9 @@
         {
           "type": "caption",
           "children": [
-            { "text": "Prices are approximate as of " },
+            { "text": "Prices are rough figures as of " },
             { "type": "date", "text": "2026" },
-            { "text": " and may vary depending on local conditions." }
+            { "text": " and may vary with local conditions." }
           ]
         }
       ]
@@ -587,19 +851,19 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Most travelers stay in downtown Dumaguete or a Dauin beach resort and visit as a day trip. Dauin has a cluster of resorts running diving packages, making it convenient to head out to the island in the morning. On the island itself there are a few small guesthouses, including the long-running Liberty's Lodge and Apo Island Beach Resort, often around "
+              "text": "Most travelers stay in downtown Dumaguete or at a Dauin coastal resort and visit as a day trip. Dauin has a string of dive resorts, such as Atlantis Dive Resort and Mike's Dauin Beach Resort, that run their own Apo Island boats, making an early departure easy. On the island there are small lodgings such as Liberty's Lodge, Apo Island Beach Resort, and Mario's Homestay; many cost about "
             },
-            { "type": "price", "text": "₱1,500–4,500" },
-            {
-              "text": " per night with meals frequently included. Rooms are limited, so book several weeks ahead for peak season."
-            }
+            { "type": "price", "text": "₱2,000–4,500" },
+            { "text": " per night and include meals, and dorm beds are said to start at about " },
+            { "type": "price", "text": "₱800" },
+            { "text": ". Rooms are few, so book ahead in the high season." }
           ]
         },
         {
           "type": "paragraph",
           "children": [
             {
-              "text": "The island's electricity relies on generators and solar power, supplied for only a few hours in the evening in many places, and rooms without air conditioning are the norm. Meals are taken at the accommodation's kitchen or a small village eatery, mostly simple Filipino home cooking like grilled fish, sautéed vegetables, and rice. The lechon and grilled fish sold at the mainland's Malatapay Wednesday market are a local specialty, so be sure to try them if your schedule allows."
+              "text": "Electricity on the island comes from generators and is supplied only at set hours, and rooms without air conditioning are the norm. Water is collected rain, and many places wash with a large bucket; Wi-Fi is available only at some lodgings. Meals are taken at your lodging's restaurant or a small village eatery and center on simple home cooking such as grilled fish, stir-fried vegetables, and rice. The lechon and grilled seafood at the Wednesday market in Malatapay on the main island are local specialties, so be sure to try them if your schedule allows."
             }
           ]
         }
@@ -619,58 +883,69 @@
             {
               "children": [
                 {
-                  "text": "The island has no ATMs and card payments are rarely accepted, so bring enough cash for the environmental fee, guide fee, and meals."
+                  "text": "There are no ATMs on the island and cards are rarely accepted, so bring plenty of cash for entrance fees, guide fees, and meals."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Cell signal only reaches parts of the island, so confirm arrangements with your accommodation and boatman in advance."
+                  "text": "Cell signal reaches only parts of the island. Confirm lodging reservations and arrangements with your bangka driver on the mainland beforehand."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "To protect the coral reef, use reef-safe sunscreen or cover your skin with a rash guard and leggings."
+                  "text": "Although we could not confirm it as an official rule, it is better to cover your skin with a rash guard and long leggings rather than chemical sunscreen, for the sake of the coral."
                 }
               ]
             },
             {
               "children": [
-                { "text": "The turtle zone in front of the village is calmest around " },
-                { "type": "time", "text": "8–10 AM" },
-                { "text": ", and gets crowded after " },
-                { "type": "time", "text": "10 AM" },
-                { "text": " when day-tour boats arrive." }
-              ]
-            },
-            {
-              "children": [
+                { "text": "The turtle area is crowded around " },
+                { "type": "time", "text": "10 a.m." },
+                { "text": "–" },
+                { "type": "time", "text": "2 p.m." },
                 {
-                  "text": "If you're not a confident swimmer, wear a life vest and stay close to your guide; fins help a lot in cutting fatigue from the current."
+                  "text": ", when the day-tour boats arrive. It is quieter right after you arrive, in the late afternoon, and at dawn the next day if you stay overnight; the times when many turtles come also vary with the tide, so ask your guide."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "When filming turtles with a waterproof camera or action cam, turn off the flash and shoot from above so as not to disturb them."
+                  "text": "The island has no pier, so you step off into knee-deep water. Wear aqua shoes or waterproof sandals, and keep your passport and electronics in a waterproof bag."
                 }
               ]
             },
             {
               "children": [
-                { "text": "If you're prone to seasickness, take medication " },
+                {
+                  "text": "When photographing with a waterproof camera, turn off the flash and shoot from above at a downward angle so you don't disturb the turtles."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "If you get seasick badly, take motion-sickness medicine " },
                 { "type": "duration", "text": "30 minutes" },
-                { "text": " before boarding the bangka and sit toward the back." }
+                {
+                  "text": " before boarding the bangka and sit in the middle of the back of the boat. You may get wet from splashing waves."
+                }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Island guests should bring a flashlight (headlamp), a portable battery, and mosquito repellent."
+                  "text": "If you are a weak swimmer, wear a life vest and stay close to the guide. Even where it looks shallow, there is current beyond the edge."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "If you are staying overnight on the island, bring a headlamp, a power bank, insect repellent, and water, and charge your devices when the electricity is on."
                 }
               ]
             }
@@ -690,7 +965,7 @@
           "icon": "warning",
           "children": [
             {
-              "text": "Touching, chasing, or riding turtles, and stepping on coral, are strictly prohibited and can result in fines and expulsion if caught."
+              "text": "Touching, chasing, or riding turtles and stepping on coral are strictly prohibited, and you may be fined or expelled from the island."
             }
           ]
         },
@@ -702,35 +977,46 @@
             {
               "children": [
                 {
-                  "text": "The currents on the island's east and south points are very strong and can sweep snorkelers away, so only enter the water in areas your guide permits."
+                  "text": "In strong-current spots such as Coconut and Cogon Points, snorkelers can be swept away. Enter the water only in areas the guide permits."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Waves tend to rise in the afternoon, so if the boatman suggests moving up the return time, it's safer to follow."
+                  "text": "Waves tend to rise in the afternoon, so if the bangka driver suggests returning earlier, follow his advice. There are also days when the coast guard stops departures, so leave yourself some slack on the day you return."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Entry rules, the environmental fee, and daily visitor limits can change based on decisions by the protected area management committee, so check the latest notices before departing."
+                  "text": "Entrance, snorkeling, and diver fees are set by the sanctuary's management board, and as of "
+                },
+                { "type": "date", "text": "2026" },
+                {
+                  "text": " there are reports that they are under review and concerns about increases. Check the latest announcements before you leave."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "The island has no hospital, so disinfect wounds immediately, and be sure to treat coral cuts once back on the main island, since they're prone to infection."
+                  "text": "It is a small island, so you have to go back to the main island for proper medical care. Disinfect coral scrapes right away and check them again after you return."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Jellyfish and sea urchin stings occur, so don't walk barefoot on shallow rocky areas — wear aqua shoes."
+                  "text": "Jellyfish and sea urchins can sting, so do not walk barefoot across shallow rocky areas."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Apo Island (Negros) has a name similar to Mount Apo in Mindanao and Apo Reef near Coron. Confirm the location when you book a dive."
                 }
               ]
             }
@@ -754,20 +1040,22 @@
               "place": "dumaguete",
               "children": [
                 { "text": "About " },
-                { "type": "duration", "text": "40–60 minutes" },
+                { "type": "duration", "text": "40 minutes–1 hour" },
                 {
-                  "text": " by car from Malatapay. A gentle city famous for its seaside promenade, college-town atmosphere, and desserts."
+                  "text": " by car to Malatapay. A gentle city famous for its seaside promenade, university district, and desserts, and the base for an Apo Island trip."
                 }
               ]
             },
             {
               "type": "card",
-              "title": "Balinsasayao Twin Lakes",
-              "place": "twin-lakes-balinsasayao",
+              "title": "Dauin",
+              "place": "dauin",
               "children": [
-                { "text": "About " },
-                { "type": "duration", "text": "1 hour" },
-                { "text": " by car from Dumaguete. Twin volcanic lakes set in primary forest." }
+                {
+                  "text": "On the coast just south of Dumaguete, on the way to Malatapay. Dive resorts and muck diving points line the coast, and the Apo Island boat from Dauin takes about "
+                },
+                { "type": "duration", "text": "45 minutes" },
+                { "text": "." }
               ]
             },
             {
@@ -778,8 +1066,18 @@
                 { "text": "About " },
                 { "type": "duration", "text": "1 hour" },
                 {
-                  "text": " by fast ferry from Dumaguete. A mystery-shrouded island of waterfalls and beaches."
+                  "text": " from Dumaguete by fast ferry. An island of waterfalls, beaches, and mysterious legends."
                 }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Balinsasayao Twin Lakes",
+              "place": "twin-lakes-balinsasayao",
+              "children": [
+                { "text": "About " },
+                { "type": "duration", "text": "1 hour" },
+                { "text": " by car from Dumaguete. Twin volcanic lakes in primeval forest." }
               ]
             },
             {
@@ -787,10 +1085,10 @@
               "title": "Oslob (southern Cebu)",
               "place": "oslob",
               "children": [
-                { "text": "About " },
+                { "text": "From Dumaguete's Sibulan port it is about " },
                 { "type": "duration", "text": "30 minutes" },
                 {
-                  "text": " by boat from Sibulan port near Dumaguete. Famous for whale shark watching."
+                  "text": " by boat to Liloan port, and then you still have to travel overland. It is famous for whale shark watching, and fitting it into the same day is a tight squeeze."
                 }
               ]
             }
