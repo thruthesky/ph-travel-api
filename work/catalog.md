@@ -74,3 +74,7 @@ node scripts/duplicate.mjs --wikidata Q31479468
 ```bash
 node --test scripts/catalog.test.mjs scripts/place-files.test.mjs scripts/large-id.test.mjs
 ```
+
+## 두 전체 게시글 목록을 대조할 때
+
+`node scripts/audit-post-registration.mjs`는 이전388글 CSV와 이후1,153글 TSV 전체를 현재 JSON·별칭·본문 및 공개판 스냅샷과 대조한다. 결과와 한계는 [전체 수록 대조 보고서](philgo-registration-audit.md)에 있다. 기존 `candidates.mjs`의 필터된 후보 목록과는 범위가 다르며, 이름 미검출을 확정된 신규 여행지로 해석하지 않는다. 원본 파일의 내용과 공개판 스냅샷 시각도 확인한다.
