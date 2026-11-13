@@ -1,0 +1,281 @@
+{
+  "id": 290,
+  "slug": "colon-street",
+  "checked_at": "2026-11-13T04:00:11Z",
+  "facts": [
+    {
+      "where": "전체",
+      "fact": "바탕 글",
+      "value": "필고 travel 게시판 글 1275712279, 1275712420",
+      "sources": [
+        { "url": "philgo:travel/1275712279", "grade": "C", "says": "콜론 스트리트 쇼핑 가이드 — 1565년 레가스피 건설, 길이 약 1km, 가이사노·138 몰·콜로네이드·아이코니크, 시네 오리엔테 1895년, 의류·잡화 값, 지프니 ₱9~13, 공항 택시 20~30분 ₱150~250, 소매치기 주의" },
+        { "url": "philgo:travel/1275712420", "grade": "C", "says": "콜론 스트리트 역사 — 길이 약 900m, 1910년대 엽서·1933 아메리칸 익스프레스 가이드북, 오벨리스크 1966년, 역사 투어 순서, 소매치기·야간 골목 주의" }
+      ],
+      "decision": "구성·항목(역사·논쟁, 오벨리스크, 옛 극장, 저가 쇼핑몰, 길거리 음식, 구시가지 도보 연계, 소매치기 주의)을 재활용, 값은 아래 출처로 확인했다. 길이(1km·900m → 약 1.2km), 지프니 요금(₱9~13 → ₱14~17), 공항 택시(20~30분 ₱150~250 → 40분~1시간 30분 ₱300~500), 시네 오리엔테(1895년 설립·현재 영화관 운영 → 1895년 완공된 테아트로 훙케라가 뒤에 시네 오리엔테가 되었고 그 자리는 지금 콜로네이드 몰)를 바로잡았다. 확인하지 못한 오벨리스크 1966년, 아이코니크 몰 옥상 푸드파크, 쇼핑 시간 08:00~21:00, '쇼핑몰보다 30~50% 저렴', '흥정 20~30%', '마감 직전 할인', '가이사노 세부 본점', 1933 아메리칸 익스프레스 가이드북, 이스크라밀·탱후루·바로트 같은 음식 이름은 버렸다"
+    },
+    {
+      "where": "title",
+      "fact": "한국어 표기",
+      "value": "콜론 거리",
+      "sources": [
+        { "url": "data/ko/063-cebu-city.json", "grade": "B", "date": "2026-11-13", "says": "저장소 세부 시티·마젤란 십자가·산 페드로 요새·카본 시장 본문이 모두 '콜론 거리'로 표기" },
+        { "url": "philgo:travel/1275712279", "grade": "C", "says": "필고 원글은 '콜론 스트리트'" }
+      ],
+      "decision": "저장소 기존 표기 '콜론 거리'를 따랐다"
+    },
+    {
+      "where": "overview",
+      "fact": "길이·양 끝·좌표",
+      "value": "약 1.2km(1.17km), 동쪽 P. 부르고스 거리 ~ 서쪽 C. 파디야 거리, 중간에 오스메냐 대로 교차, 좌표 10.2967, 123.8990",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Colon_Street", "grade": "B", "date": "2026-11-13", "says": "Length 1.17 km (Google Maps); east end P. Burgos Street, west end C. Padilla Street; 10°17′48.28″N 123°53′56.45″E (= 10.29674, 123.89901)" },
+        { "url": "https://overpass-api.de/api/interpreter (way[name=\"Colon Street\"])", "grade": "B", "date": "2026-11-13", "says": "OSM 'Colon Street' 구간을 이으면 서쪽 끝 10.29431,123.89355 ~ 동쪽 끝 10.29792,123.90374, 양방향 분리 구간 하나를 빼면 약 1.2km. 오스메냐 대로 교차점 노드 10.29674,123.89904" },
+        { "url": "https://suroy.ph/colon-street-cebu/", "grade": "C", "date": "2026-11-13", "says": "About 1.17 km from P. Burgos Street near the Parian to C. Padilla Street; crosses Osmeña Boulevard in the middle; roughly 15 minutes end to end" }
+      ],
+      "decision": "위키백과 좌표와 OSM 교차점 노드가 같은 곳(콜론–오스메냐 대로 교차로)을 가리켜 10.2967, 123.8990 으로 썼다. 바탕 글의 1km·900m 대신 약 1.2km 로 썼다"
+    },
+    {
+      "where": "overview",
+      "fact": "이름 유래",
+      "value": "크리스토발 콜론(콜럼버스), 세부아노 Dalan Colon",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Colon_Street", "grade": "B", "date": "2026-11-13", "says": "named after Cristóbal Colón (Christopher Columbus); native name Dalan Colon" },
+        { "url": "https://www.gmanetwork.com/regionaltv/features/106446/colon-street-not-oldest-in-ph-says-cebu-historian-archaelogist/story", "grade": "B", "date": "2025-02-05", "says": "Colon is named after Christopher Columbus, who never set foot in the Philippines" }
+      ],
+      "decision": "이름을 붙인 연도는 출처가 없어 쓰지 않았다"
+    },
+    {
+      "where": "overview",
+      "fact": "역사 표지석 연도와 글",
+      "value": "1961-10-16 영어 'Also known as the Parian, the oldest street in the Philippines. Built in 1565.', 1999-05-17 필리핀어(오벨리스크)",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/List_of_historical_markers_of_the_Philippines_in_Central_Visayas", "grade": "B", "date": "2026-11-13", "says": "Colon Street, 16 Oct 1961, English: 'Also known as the Parian, the oldest street in the Philippines. Built in 1565.'; Daang Colon, 17 May 1999, Filipino, at Colon Street Obelisk: 'First street in the Philippines. Also known as Parian. Built in 1565.'" },
+        { "url": "https://www.gmanetwork.com/regionaltv/features/106446/colon-street-not-oldest-in-ph-says-cebu-historian-archaelogist/story", "grade": "B", "date": "2025-02-05", "says": "1961 National Historical Institute marker; second marker in 1999, 38 years later" },
+        { "url": "https://commons.wikimedia.org/wiki/File:Colon_Street_NHCP_Historical_Marker.jpg", "grade": "B", "date": "2020-01-18", "says": "옛 건물 기둥에 붙은 표지석 사진, 촬영 위치 10.297848, 123.902255(오벨리스크 서쪽 약 140m)" }
+      ],
+      "decision": "1961년 당시 기관 이름이 출처마다 달라(NHI·NHCP) '국가 역사 기관'으로 썼다. 오벨리스크 자체의 건립 연도는 찾지 못해 바탕 글의 1966년을 버렸다"
+    },
+    {
+      "where": "overview",
+      "fact": "'가장 오래된 거리' 주장과 반론",
+      "value": "1565년 레가스피, 1910년 아메리칸 바자르 엽서, 1699년 지도에서 콜론은 시가지 밖, 베르살레스는 마가야네스 거리를 꼽음, 콜론이 나온 가장 오래된 지도 1873년",
+      "sources": [
+        { "url": "https://www.gmanetwork.com/regionaltv/features/106446/colon-street-not-oldest-in-ph-says-cebu-historian-archaelogist/story", "grade": "B", "date": "2025-02-05", "says": "1699 earliest known map shows ciudad bordered by Estero de Parian, Colon outside; 1910 American Bazar postcard 'Oldest Street in Cebu'; Bersales points to Calle Magallanes crossing Plaza Sugbu" },
+        { "url": "https://manilatimes.net/2025/02/07/regions/historian-says-colon-street-is-not-the-oldest-in-ph/2051235", "grade": "B", "date": "2025-02-07", "says": "Historian Jobers Reyes Bersales says the widely accepted narrative is wrong (본문 일부만 공개)" },
+        { "url": "https://en.wikipedia.org/wiki/Colon_Street", "grade": "B", "date": "2026-11-13", "says": "no document or map confirms early Spanish construction; earliest map showing the street dated 1873; 1910 American Bazar postcard, later L.G. Joseph 'Oldest Street in the Philippines'" },
+        { "url": "https://nominatim.openstreetmap.org/search?q=Magellan's+Cross+Cebu+City&format=json", "grade": "B", "date": "2026-11-13", "says": "Magellan's Cross Pavilion, Magallanes Street" }
+      ],
+      "decision": "단정하지 않고 '확정된 사실이라기보다 백 년 넘게 이어 온 이야기'로 썼다. 바탕 글의 1933 아메리칸 익스프레스 가이드북은 위키백과 본문에서 확인되지 않아 뺐다"
+    },
+    {
+      "where": "overview",
+      "fact": "상업·오락 중심지 시절과 쇠퇴",
+      "value": "1910년대~1990년대 중심지, 극장(오리엔테·비전·에덴·아이디얼), 1990년대부터 새 쇼핑몰·업무 지구로 이동, 극장은 상가·도매 매장으로",
+      "sources": [
+        { "url": "https://bluprint-onemega.com/architecture/heritage/colon-street-movie-theaters/", "grade": "B", "date": "2018-09-11", "says": "Cebu's entertainment and business center from the 1910s until the 1990s; Oriente, Vision, Eden, Ideal, Cinema; Cinema Theater now a wholesale supermarket; malls drew audiences away" },
+        { "url": "https://en.wikipedia.org/wiki/Colon_Street", "grade": "B", "date": "2026-11-13", "says": "once the heart of shopping and business; from the early 1990s activity moved to newer commercial and business districts" },
+        { "url": "https://suroy.ph/colon-street-cebu/", "grade": "C", "date": "2026-11-13", "says": "historic cinemas converted to shops; Cinema Theater now a wholesale mart; Eden now a shopping arcade" }
+      ],
+      "decision": "연대는 두 출처가 겹치는 '1910년대부터 1990년대까지'로 썼다"
+    },
+    {
+      "where": "overview·highlights",
+      "fact": "테아트로 훙케라·시네 오리엔테",
+      "value": "1895년 완공, 아빌라 가문이 사들여 시네 오리엔테로 개명, 지금은 콜로네이드 몰 자리",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Inocencio_Junquera", "grade": "B", "date": "2026-11-13", "says": "The theater was finished in 1895; inaugurated 19 April 1896; renamed Teatro/Cine Oriente under Don Jose Leon Avila" },
+        { "url": "https://bluprint-onemega.com/architecture/heritage/colon-street-movie-theaters/", "grade": "B", "date": "2018-09-11", "says": "Avila bought Teatro Junquera at Colon and Legazpi in the early 1930s, renamed Cinema Oriente; bombed 1945, rebuilt; today part of the Colonnade Mall and supermarket" },
+        { "url": "https://www.thevisualtraveler.net/2017/04/colon-streets-forgotten-heritage-markers.html", "grade": "C", "date": "2017-04", "says": "marker: Teatro Junquera established 1895, Cebu's oldest playhouse; 1920 renamed Cine Oriente" }
+      ],
+      "decision": "바탕 글의 '1895년 설립된 세부 최고령 영화관, 지금도 영화관 운영'은 틀려 '1895년에 완공된 테아트로 훙케라(뒤의 시네 오리엔테)'와 '콜로네이드 몰 자리는 시네 오리엔테가 있던 곳'으로 바로잡았다. 개명 연도(1920·1930년대 초)는 갈려 쓰지 않았다. 지금 영화 상영 여부는 확인하지 못해 쓰지 않았다"
+    },
+    {
+      "where": "highlights",
+      "fact": "비전 극장",
+      "value": "1930년대 건립, 1945년 폭격에서 살아남음, 지금은 아래층 가게·위층 낡음",
+      "sources": [
+        { "url": "https://bluprint-onemega.com/architecture/heritage/colon-street-movie-theaters/", "grade": "B", "date": "2018-09-11", "says": "Vision built by Avila after Oriente, before the war; the only building on the block to survive the 1945 bombings; now decrepit, houses businesses and ukay-ukay stalls" },
+        { "url": "https://www.thevisualtraveler.net/2017/04/colon-streets-forgotten-heritage-markers.html", "grade": "C", "date": "2017-04", "says": "Vision Theatre inaugurated in the 1930s by Agustin and Beatriz Jereza; classical design, sculptures" },
+        { "url": "https://commons.wikimedia.org/wiki/File:Vision_Theater_Building_in_Colon_Street_(2025-05-17).jpg", "grade": "B", "date": "2025-05-17", "says": "건물 정면 사진 — VISION 세로 간판, 조각 장식, 1층에 항공권 판매소·가게" },
+        { "url": "https://suroy.ph/colon-street-cebu/", "grade": "C", "date": "2026-11-13", "says": "Vision Theatre (1930) is derelict; don't approach it" }
+      ],
+      "decision": "연도는 '1930년대'로 범위를 두었다. 안전 때문에 '길 건너에서 보라'고 썼다"
+    },
+    {
+      "where": "overview",
+      "fact": "비사야 대학교 본교",
+      "value": "1919년 비사얀 인스티튜트로 설립, 1946년 콜론으로 이전, 본교 콜론·D. 하코살렘 거리 모퉁이",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/University_of_the_Visayas", "grade": "B", "date": "2026-11-13", "says": "Corner Colon and D. Jakosalem Streets; founded 1919 as Visayan Institute; moved to present site on Colon Street in 1946; university status 1948" },
+        { "url": "https://www.thevisualtraveler.net/2017/04/colon-streets-forgotten-heritage-markers.html", "grade": "C", "date": "2017-04", "says": "Block 12 marker: The Visayan Institute, later the University of the Visayas" }
+      ],
+      "decision": "1946년 이전만 썼다"
+    },
+    {
+      "where": "overview",
+      "fact": "보행자 거리 계획",
+      "value": "2006년 관광 구역 제안, 2015년 재생 연구, 2024년 헤리티지 루프 보행화 구상 — 아직 실행 안 됨",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Colon_Street", "grade": "B", "date": "2026-11-13", "says": "2006 council proposed closing parts to vehicles as a tourism zone, opposed by businessmen and motorists; 2015 P5-M revitalization study" },
+        { "url": "https://suroy.ph/colon-street-cebu/", "grade": "C", "date": "2026-11-13", "says": "Pedestrianization: only a proposed 'Heritage Loop' concept, with no implementation date" },
+        { "url": "https://www.philstar.com/cebu-news/2024/06/28/2366202/citys-pedestrianization-project-start-year", "grade": "B", "date": "2024-06-28", "says": "검색 결과 요약 — 헤리티지 루프 보행화를 콜론부터 하려 했으나 허가 대기 (본문은 열지 않음)" }
+      ],
+      "decision": "'계획이 여러 번 나왔지만 아직 실행되지 않았다'로만 썼다"
+    },
+    {
+      "where": "highlights",
+      "fact": "쇼핑몰 위치·메트로 콜론 재개장",
+      "value": "메트로 콜론, 가이사노 캐피털 사우스, 콜로네이드 몰, 138 홀세일 몰, 아이코니크 몰이 콜론 둘레, 메트로 콜론 2026-07 재단장 재개장",
+      "sources": [
+        { "url": "https://nominatim.openstreetmap.org/search?q=Colonnade+Colon+Street+Cebu+City&format=json", "grade": "B", "date": "2026-11-13", "says": "Colonnade Mall/Supermarket, Iconique Mall, Gaisano Capital South 가 Colon Street 주소로, Metro Colon 은 P. Lopez Street(콜론 남쪽 한 블록)로 나옴" },
+        { "url": "https://insiderph.com/metro-retail-h1-profit-jumps-45-as-margins-widen", "grade": "B", "date": "2026-08-13", "says": "In July, the company relaunched its pioneer Metro Colon store in Cebu after renovations" },
+        { "url": "https://suroy.ph/colon-street-cebu/", "grade": "C", "date": "2026-11-13", "says": "Metro Colon relaunched 23 July 2026 after renovation" },
+        { "url": "https://commons.wikimedia.org/wiki/File:138_Wholesale_Mall_in_Colon_Street_(2025-05-17).jpg", "grade": "B", "date": "2025-05-17", "says": "138 Wholesale Mall 간판 'Retail pag palit, wholesale ang presyo'(소매로 사도 도매값)" }
+      ],
+      "decision": "영업시간은 두 출처로 확인되지 않아 쓰지 않았다(바탕 글 08:00~21:00 버림). 바탕 글의 '가이사노 몰 콜론 = 세부 본점'은 확인하지 못해 가이사노 캐피털 사우스 이름만 썼다"
+    },
+    {
+      "where": "highlights",
+      "fact": "우카이우카이·휴대전화 잡화",
+      "value": "콜론은 중고 옷 가게와 휴대전화 액세서리 가게가 많은 저가 상가 거리",
+      "sources": [
+        { "url": "https://suroy.ph/colon-street-cebu/", "grade": "C", "date": "2026-11-13", "says": "budget retail: ukay-ukay, phone accessories and repair" },
+        { "url": "https://bluprint-onemega.com/architecture/heritage/colon-street-movie-theaters/", "grade": "B", "date": "2018-09-11", "says": "Vision now houses businesses and ukay-ukay stalls" },
+        { "url": "https://commons.wikimedia.org/wiki/File:Phone_cases_and_bags_(2023-07-16).jpg", "grade": "B", "date": "2023-07-16", "says": "Phone cases and bags at Colon Street" }
+      ],
+      "decision": "서술만 썼다"
+    },
+    {
+      "where": "highlights",
+      "fact": "콜론 야시장",
+      "value": "2007년 시작, 하반기~시눌룩 무렵, 2025년 9월 5일 시작·18:30~02:00 차량 통제·노점 600곳 넘음, 허가 논란, 2026년 일정 미확인",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Colon_Street", "grade": "B", "date": "2026-11-13", "says": "Colon Night Market launched in 2007 to revive the street; runs several times a year, notably September–December until Sinulog; not held 2020–2021" },
+        { "url": "https://www.sunstar.com.ph/cebu/colon-night-market-hits-regulatory-wall", "grade": "B", "date": "2025-11-23", "says": "market began Sept. 5; proposed closure 6:30 p.m. to 2 a.m. Oct 15–Dec 30, 2025; Osmeña Blvd–Pelaez St and Junquera St–Mabini St; allegedly over 600 vendors; DPWH concurrence needed" },
+        { "url": "https://mytv.ph/article/Cebu_City_Legal_Office_debunks_Alcover%2C_says_Colon_Night_Market_legally_operating", "grade": "B", "date": "2025-10-28", "says": "permit road closure 6:00 p.m.–2:00 a.m.; City Legal Office opinion: legal and valid; councilor disputes" },
+        { "url": "https://vismin.ph/2025/your-guide-to-colon-night-market-in-post-quake-cebu", "grade": "C", "date": "2025-11-06", "says": "liveliest 6:00–10:30 PM; budget ₱200–600; cash in small bills" }
+      ],
+      "decision": "통제 시각은 SunStar 의 18:30~02:00 을 썼다. 2026년 개장 여부·기간은 찾지 못해 '해마다 기간과 시간이 달라지니 최신 공지를 확인'으로 썼다"
+    },
+    {
+      "where": "highlights",
+      "fact": "해 질 녘 칼새 떼",
+      "value": "콜론 전깃줄에 칼새(사야우) 떼가 모여 앉음",
+      "sources": [
+        { "url": "https://commons.wikimedia.org/wiki/File:Colon_Street.jpg", "grade": "B", "date": "2019-02-02", "says": "On Colon Street ... hundreds of swiftlets perch on cable wires (사진으로도 확인)" },
+        { "url": "https://cebudailynews.inquirer.net/46295/birds-on-the-wire-why-roost-there/amp", "grade": "B", "date": "미상", "says": "검색 결과 요약 — DENR 추정 콜론·보로메오 거리에 칼새 4,000~5,000마리 (본문은 열지 못함)" }
+      ],
+      "decision": "마릿수와 철은 확인하지 못해 쓰지 않고 '작은 칼새 떼'로만 썼다"
+    },
+    {
+      "where": "getting_there",
+      "fact": "지프니 노선·요금",
+      "value": "13C(탈람반–콜론), 01K·14D 콜론 경유, 2026-09-28 부터 첫 4km 전통 ₱14·현대식 ₱17",
+      "sources": [
+        { "url": "https://www.sunstar.com.ph/cebu/fare-hike-takes-effect-before-wage-increase", "grade": "B", "date": "2026-09-27", "says": "effective Sept. 28, 2026: traditional PUJ P14 (from P13), modern PUJ P17 (from P15)" },
+        { "url": "https://suroy.ph/cebu-city-jeepney-guide-2026/", "grade": "C", "date": "2026-11-13", "says": "routes passing Colon: 01K, 02B, 08F, 10M, 12G, 12I, 13C Talamban–Colon, 14D, 17B; fares ₱14/₱17 since 28 Sep 2026" },
+        { "url": "https://commons.wikimedia.org/wiki/File:Colonnade_Mall_(2023-07-16).jpg", "grade": "B", "date": "2023-07-16", "says": "콜로네이드 몰 앞의 'TALAMBAN-COLON 13C' 지프니" }
+      ],
+      "decision": "바탕 글의 ₱9~13 을 ₱14~17 로 바로잡았다. 노선은 바뀔 수 있다고 붙였다"
+    },
+    {
+      "where": "getting_there",
+      "fact": "남부 버스 터미널·도보 거리",
+      "value": "세부 남부 버스 터미널–콜론 서쪽 끝 직선 약 0.4km(걸어서 약 500m), 대성당–교차로 직선 0.43km, 카본 0.59km, 산 페드로 요새–오벨리스크 0.69km",
+      "sources": [
+        { "url": "https://nominatim.openstreetmap.org/search?q=Cebu+South+Bus+Terminal&format=json", "grade": "B", "date": "2026-11-13", "says": "Cebu South Bus Terminal 10.29788,123.89346 (N. Bacalso Ave); Colon Obelisk 10.29798,123.90365; Basilica 10.29434,123.90210; Fort San Pedro 10.29272,123.90589" },
+        { "url": "data/ko/242-carbon-market.json", "grade": "B", "date": "2026-11-13", "says": "콜론 거리에서 카본까지 걸어서 5~10분" }
+      ],
+      "decision": "좌표 간 직선 거리에 길 우회를 더한 대략치"
+    },
+    {
+      "where": "getting_there",
+      "fact": "항공·공항–시내 택시·시내 택시·보홀 쾌속선",
+      "value": "1시간 20분 / 40분~1시간 30분 ₱300~500 / 20~40분 ₱150~300 / 약 2시간",
+      "sources": [
+        { "url": "data/ko/242-carbon-market.json", "grade": "B", "date": "2026-11-13", "says": "같은 다운타운 항목에 같은 교통 수치가 검증돼 실려 있음" },
+        { "url": "data/ko/063-cebu-city.json", "grade": "B", "date": "2026-11-13", "says": "같은 도시 항목의 교통 수치" }
+      ],
+      "decision": "바탕 글의 공항 택시 20~30분 ₱150~250 은 기존 검증값과 달라 버렸다. 교통 수치는 기존 세부 항목과 맞췄다"
+    },
+    {
+      "where": "best_time",
+      "fact": "건기·우기·시눌룩·태풍 티노",
+      "value": "12~5월 건기, 6~11월 우기, 1월 셋째 일요일 시눌룩, 2025-11 태풍 티노 침수",
+      "sources": [
+        { "url": "data/ko/242-carbon-market.json", "grade": "B", "date": "2026-11-13", "says": "같은 다운타운 항목의 계절·33℃·태풍 티노 서술" },
+        { "url": "data/ko/063-cebu-city.json", "grade": "B", "date": "2026-11-13", "says": "같은 도시 항목의 계절·축제 서술" }
+      ],
+      "decision": "기존 세부 항목과 맞췄다"
+    },
+    {
+      "where": "costs",
+      "fact": "쇼핑·간식 값",
+      "value": "티셔츠 약 ₱100~300, 중고 옷 약 ₱50~200, 샌들 약 ₱100~300, 휴대전화 케이스·케이블 약 ₱50~300, 간식 약 ₱10~50, 야시장 약 ₱200~600",
+      "sources": [
+        { "url": "philgo:travel/1275712279", "grade": "C", "says": "티셔츠 ₱50~150, 샌들 ₱100~300, 케이스 ₱50~200, 케이블 ₱100~300, 꼬치 ₱10~25" },
+        { "url": "https://vismin.ph/2025/your-guide-to-colon-night-market-in-post-quake-cebu", "grade": "C", "date": "2025-11-06", "says": "night market budget ₱200–600 for food and shopping" },
+        { "url": "data/ko/242-carbon-market.json", "grade": "B", "date": "2026-11-13", "says": "길거리 간식·꼬치 1개 약 ₱10~50" }
+      ],
+      "decision": "시세 값이라 C 등급뿐이다. 바탕 글 값을 넓혀 '약'과 범위로 썼고 비고에 '가게와 품질에 따라 다름'을 붙였다"
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "숙박비·숙소 권고",
+      "value": "콜론 둘레 1박 약 ₱1,000~3,500, IT 파크·아얄라 약 ₱2,500~6,000, 밤에 한산해 첫 방문자에게 권하지 않음",
+      "sources": [
+        { "url": "data/ko/203-basilica-del-santo-nino.json", "grade": "B", "date": "2026-11-13", "says": "콜론 거리를 낀 다운타운 중저가 호텔 1박 약 ₱800~3,500" },
+        { "url": "data/ko/213-fort-san-pedro.json", "grade": "B", "date": "2026-11-13", "says": "콜론 거리와 푸엔테 오스메냐 둘레 약 ₱1,500~3,500, 아얄라·IT 파크 약 ₱2,500~6,000" },
+        { "url": "data/ko/063-cebu-city.json", "grade": "B", "date": "2026-11-13", "says": "콜론 거리 일대는 저렴하지만 밤에는 한적하고 치안이 덜 좋아 첫 방문자에게 권하지 않음" }
+      ],
+      "decision": "기존 항목들의 범위를 합쳐 ₱1,000~3,500 으로 썼다"
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "라르시안 바비큐·푸엔테 오스메냐 거리",
+      "value": "푸엔테 오스메냐 서클까지 직선 약 1.6km(약 2km), 택시 약 10분",
+      "sources": [
+        { "url": "data/ko/204-magellans-cross.json", "grade": "B", "date": "2026-11-13", "says": "푸엔테 오스메냐의 라르시안 바비큐 골목에서 꼬치와 푸소" },
+        { "url": "https://nominatim.openstreetmap.org/search?q=Fuente+Osmena+Circle&format=json", "grade": "B", "date": "2026-11-13", "says": "Fuente Osmeña Circle 10.31029,123.89365" }
+      ],
+      "decision": "길로 가는 거리를 생각해 '약 2km'로 썼다"
+    },
+    {
+      "where": "cautions",
+      "fact": "소매치기·날치기",
+      "value": "콜론은 오래전부터 소매치기·날치기 잦은 곳, 해 진 뒤 지프니 승하차 때 노림, 2026-09 세부 시 경찰 연말 순찰 강화·소매치기 경계",
+      "sources": [
+        { "url": "https://www.sunstar.com.ph/cebu/cebu-city-police-step-up-patrolsmonitoring-for-ber-months", "grade": "B", "date": "2026-09-05", "says": "police closely tracking petty thieves, robbers and pickpockets who usually operate during the holiday season; patrols near commercial centers, transport terminals, public markets" },
+        { "url": "https://philstar.com/the-freeman/opinion/2018/04/18/1807056/pickpockets-rise/amp", "grade": "B", "date": "2018-04-18", "says": "pickpockets favor downtown around Colon Street, target passengers boarding jeepneys that loop around Colon, prefer after dark" },
+        { "url": "https://suroy.ph/colon-street-cebu/", "grade": "C", "date": "2026-11-13", "says": "police named Colon pickpocket-prone; keep phone out of sight, bag in front at crossings; December Saturdays busiest" },
+        { "url": "https://mb.com.ph/2025/08/14/cebu-city-cops-mapping-out-security-for-ber-months", "grade": "B", "date": "2025-08-14", "says": "검색 결과 요약 — CCPO to increase police visibility in downtown areas, especially on Colon St., one of the city's most crowded areas (본문 403)" },
+        { "url": "data/ko/063-cebu-city.json", "grade": "B", "date": "2026-11-13", "says": "카본 시장, 콜론 거리, 산토 니뇨 대성당 주변은 소매치기와 날치기가 잦다" }
+      ],
+      "decision": "최근 12개월 안에 콜론만 다룬 사건 기사는 찾지 못했다. 2026-09 경찰 발표(도시 전체)와 콜론을 특정한 옛 보도·2026 안내를 함께 써 '오래전부터 꼽혀 왔다'로 표현했다"
+    },
+    {
+      "where": "nearby",
+      "fact": "주변 명소 거리",
+      "value": "산토 니뇨 대성당·마젤란 십자가·카본 시장 걸어서 약 10분, 산 페드로 요새 오벨리스크에서 약 15분",
+      "sources": [
+        { "url": "data/ko/204-magellans-cross.json", "grade": "B", "date": "2026-11-13", "says": "산 페드로 요새와 콜론 거리까지 각각 약 10분" },
+        { "url": "https://nominatim.openstreetmap.org/search?q=Colon+Obelisk+Cebu+City&format=json", "grade": "B", "date": "2026-11-13", "says": "좌표 간 직선 거리 — 교차로–대성당 0.43km, 교차로–마젤란 십자가 0.48km, 교차로–카본 0.59km, 오벨리스크–요새 0.69km" }
+      ],
+      "decision": "직선 거리에 길 우회를 더해 걷는 시간을 정했다"
+    }
+  ],
+  "images": [
+    { "file": "290-colon-street.webp", "source": "https://commons.wikimedia.org/wiki/File:Colon_Street_sunrise_(Cebu_City;_09-05-2022).jpg", "check": "횡단보도를 건너는 사람들 뒤로 VISION 세로 간판의 옛 극장 건물과 상가가 이어진 거리 — 분류 Colon Street (Cebu City). 거리와 옛 극장이 함께 보여 대표 사진으로 씀" },
+    { "file": "290-colon-street-2.webp", "source": "https://commons.wikimedia.org/wiki/File:Colon_Street_drone_view_(Cebu_City;_01-21-2025).jpg", "check": "드론으로 내려다본 좁은 콜론 거리와 양쪽 상가 지붕 — 분류 Aerial photographs of Colon Street (Cebu City), 2025-01 촬영" },
+    { "file": "290-colon-street-3.webp", "source": "https://commons.wikimedia.org/wiki/File:Colon_Street_Obelisk,_Aug_2026.jpg", "check": "P. 부르고스 거리 쪽에서 본 오벨리스크와 받침돌 표지석 — 설명 'Colon Street Obelisk as seen from P. Burgos St, August 2026'. 같은 구도의 2011·2015 사진(c06·c20)은 빼고 최신 것만 씀" },
+    { "file": "290-colon-street-4.webp", "source": "https://commons.wikimedia.org/wiki/File:Colon_Street_NHCP_Historical_Marker.jpg", "check": "낡은 2층 건물 기둥에 붙은 역사 표지석 — 분류 Colon Street historical marker, 촬영 위치 10.297848,123.902255 (오벨리스크 서쪽)" },
+    { "file": "290-colon-street-5.webp", "source": "https://commons.wikimedia.org/wiki/File:Vision_Theater_Building_in_Colon_Street_(2025-05-17).jpg", "check": "분홍 정면에 조각 장식과 VISION 세로 간판, 1층 가게 — 설명 'Vision Theater Building located in Colon Street', highlights 의 비전 극장" },
+    { "file": "290-colon-street-6.webp", "source": "https://commons.wikimedia.org/wiki/File:Colon_Street_Cebu._P.I._The_Oldest_Street_In_The_Philippines,_KITLV_1401562.tiff", "check": "기와지붕 2층 목조 상가가 늘어선 옛 거리 흑백 엽서, 아래에 원래 엽서 글씨 'Colon Street Cebu P.I. The Oldest Street in the Philippines' — 라이덴대 KITLV 소장(1938년 무렵). overview 의 엽서 이야기와 맞는 옛 사진이라 gallery 에만 둠. 글씨는 엽서 원본의 것이지 덧씌운 워터마크가 아님" },
+    { "file": "290-colon-street-7.webp", "source": "https://commons.wikimedia.org/wiki/File:138_Wholesale_Mall_in_Colon_Street_(2025-05-17).jpg", "check": "138 WHOLESALE MALL 간판과 'Retail pag palit, wholesale ang presyo' 문구, 앞 횡단보도 — 설명 '138 Wholesale Mall located in Colon Street'. 사람은 뒷모습뿐" },
+    { "file": "290-colon-street-8.webp", "source": "https://commons.wikimedia.org/wiki/File:Colonnade_Mall_(2023-07-16).jpg", "check": "Colonnade MALL 간판 앞을 지나는 'TALAMBAN-COLON 13C' 현대식 지프니 — 분류 Colon Street (Cebu City). 쇼핑몰과 지프니 노선을 함께 보여 줌" },
+    { "file": "290-colon-street-9.webp", "source": "https://commons.wikimedia.org/wiki/File:Phone_cases_and_bags_(2023-07-16).jpg", "check": "휴대전화 케이스·가방·모자를 벽 가득 건 가게 — 설명 'Phone cases and bags at Colon Street', 촬영 위치 10.296429,123.898530 (거리 위)" },
+    { "file": "290-colon-street-10.webp", "source": "https://commons.wikimedia.org/wiki/File:Colon_Street_night_market_(Cebu_City;_01-20-2023).jpg", "check": "차를 막은 거리에 색색 천막 노점과 성탄 별 장식 — 설명 'Colon Street night market', 분류 Colon Street (Cebu City) at night" },
+    { "file": "290-colon-street-11.webp", "source": "https://commons.wikimedia.org/wiki/File:Colon_Street_night_view_(Cebu_City;_09-06-2022).jpg", "check": "METRO 간판과 원통형 건물이 보이는 밤의 교차로, 길을 건너는 사람들 — 분류 Colon Street (Cebu City) at night. 같은 작가의 대표 사진(2022-09-05)과 다른 날·다른 장면" },
+    { "file": "290-colon-street-12.webp", "source": "https://commons.wikimedia.org/wiki/File:Colon_Street.jpg", "check": "해 질 녘 전깃줄에 빽빽이 앉은 칼새 떼와 마차·지프니가 지나는 교차로 — 설명 'On Colon Street ... hundreds of swiftlets perch on cable wires'. highlights 의 칼새 떼" }
+  ]
+}
