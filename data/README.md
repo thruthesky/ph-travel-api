@@ -33,12 +33,12 @@
 | `island_group` | `badge` | `label: "권역"`, `value`, `text` | `value` 는 `meta.island_groups` 의 key(`luzon`·`visayas`·`mindanao`), `text` 는 그 이름(루손·비사야·민다나오). 팔라완·민도로·롬블론은 루손 |
 | `region` | `badge` | `label: "지역"`, `value`, `text` | `value` 는 `meta.regions` 의 key(`metro-manila`·`ilocos`·`palawan`·`cebu`·`bohol` … 39개), `text` 는 그 이름. 그 지역의 `island_group` 과 권역이 맞아야 한다 |
 | `location` | `address` | `label: "위치"`, `icon: "location_on"`, `text` | 주(州)·도시 수준 위치 |
-| `category` | `badge` | `label: "분류"`, `icon`, `value`, `text` | 아래 분류 7개 중 하나 — `value` 는 key, `icon`·`text` 는 그 분류의 것 |
+| `category` | `badge` | `label: "분류"`, `icon`, `value`, `text` | 아래 분류 8개 중 하나 — `value` 는 key, `icon`·`text` 는 그 분류의 것 |
 | `tags` | `tags` | `label: "태그"`, `items` | 짧은 명사 3~6개 |
 | `rating` | `rating` | `label: "추천도"`, `value`, `max: 5` | 4.0~5.0 소수 1자리 |
 | `latitude` | `latitude` | `label: "위도"`, `value` | 소수 4자리, 4~22 |
 | `longitude` | `longitude` | `label: "경도"`, `value` | 소수 4자리, 116~127 |
-| `best_season` | `date` | `label: "여행 최적기"`, `icon: "calendar_month"`, `text`, `months` | `months` 는 해당 달(1~12)을 첫 기간의 시작 달부터 순서대로. 목적별 기간(서핑·해변 등)이 여럿이면 모두 합치고, 축제 달은 넣지 않는다. `연중` 이면 1~12 |
+| `best_season` | `date` | `label: "여행 최적기"`, `icon: "calendar_month"`, `text`, `months` | `months` 는 해당 달(1~12)을 첫 기간의 시작 달부터 순서대로. 목적별 기간(서핑·해변 등)이 여럿이면 모두 합치고, 축제 달은 넣지 않는다. `연중` 이면 1~12. **`festival` 분류는 축제가 열리는 달**(보통 1~2달, 해마다 바뀌면 text 에 "해마다 다름") |
 | `duration` | `duration` | `label: "여행 기간"`, `icon: "schedule"`, `text` | 반나절, 1박 2일, 2~3일 … |
 | `budget` | `price` | `label: "예산"`, `icon: "payments"`, `text`, `currency: "PHP"`, `min`, `max` | 1인 기준, text 에 "약"을 붙인다. 1일이 아닌 기준(투어 1회, 리브어보드 등)은 text 끝 괄호에 적는다. min·max 는 text 의 ₱ 범위 |
 | `difficulty` | `level` | `label: "난이도"`, `icon: "signal_cellular_alt"`, `text`, `value`, `max: 3` | 쉬움 1 · 보통 2 · 어려움 3 (접근성·체력 기준, `meta.difficulties`) |
@@ -62,6 +62,7 @@
 | `heritage` | 역사·문화 | History & Culture | `account_balance` |
 | `city` | 도시·미식 | Cities & Food | `location_city` |
 | `nature` | 자연 경관 | Natural Scenery | `landscape` |
+| `festival` | 축제·행사 | Festivals & Events | `celebration` |
 
 분류·지역을 새로 만들 때는 `meta.json` 의 목록에 key 와 8개 언어 이름을 먼저 넣는다.
 
