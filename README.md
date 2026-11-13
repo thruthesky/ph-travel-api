@@ -1,6 +1,6 @@
 # ph-travel-api
 
-필리핀 여행지 242곳을 **8개 언어**의 JSON 으로 제공하는 정적 API 다. 서버 코드는 없다.
+필리핀 여행지를 **8개 언어**의 JSON 으로 제공하는 정적 API 다. 서버 코드는 없다. 로컬 수록 목록은 [data.csv](data.csv), 공개 판과 남은 일은 [work/status.md](work/status.md)에서 확인한다.
 
 - 언어: 영어 `en` · 중국어(간체) `zh` · 일본어 `ja` · 한국어 `ko` · 태국어 `th` · 베트남어 `vi` · 러시아어 `ru` · 아랍어 `ar`(오른쪽→왼쪽)
 - 배포: **Cloudflare R2** — api-skill 의 `r2.mjs deploy` 로 올린다(2026-10-01 부터). 이 저장소는 GitHub 에 push 하지 않는다(2026-10-02) — 옛 주소인 GitHub Pages 는 2026-10-01 판에서 멈췄다.
@@ -37,7 +37,7 @@ AI 코딩 에이전트가 이 API 를 잘 쓰도록 돕는 스킬은 **`api-skil
 |------|------|
 | `v2/manifest.json` | 버전 확인용 작은 파일. 클라이언트는 이것만 주기적으로 받는다 |
 | `v2/meta.json` | 기준 정보 — 지원 언어, 다국어 분류·권역·지역·난이도 목록, 속성·단락 이름표, 표시 방법 type 48개 (약 100KB) |
-| `v2/places.<언어>.json` | **한 언어의 여행지 242곳 전체** — `places.en.json` · `places.ko.json` … 8개 (각 5.2~10.6MB, 전송 때 gzip 으로 약 4분의 1) |
+| `v2/places.<언어>.json` | **한 언어의 여행지 전체** — `places.en.json` · `places.ko.json` … 8개. 수록 수는 `manifest.count`에서 확인한다 |
 | `v2/images/<이름>.webp` | 사진. JSON 의 `url` 로만 접근한다 |
 
 R2 공개 주소의 응답 헤더:
@@ -284,6 +284,8 @@ const renderRun = (r) => (r.type ? `<span class="cdt-${r.type}">${escape(r.text)
 
 원본 언어(한국어)를 먼저 고치고, 번역을 따라 맞춘다. 번역 도구는 `scripts/i18n.mjs` 다.
 
+추가 전에 [대장 사용법](work/catalog.md)에 따라 `data.csv`에서 이름·별칭·좌표·기존 본문을 대조한다. 추가 후 `node scripts/catalog.mjs`와 `node scripts/candidates.mjs`로 대장과 후보를 갱신한다. 번호는 최소 세 자리이며 1000번 이후 파일도 빌드·번역 도구에서 처리한다.
+
 1. `data/ko/` 의 JSON 과 `data/images/` 의 사진을 고친다 ([data/README.md](data/README.md) 규격).
 2. **숫자·코드·사진만 바꿨다면:** `node scripts/i18n.mjs sync` 가 7개 언어 파일에 그 값을 옮긴다.
 3. **글을 바꿨거나 여행지를 추가했다면:** 번역을 다시 만든다.
@@ -292,7 +294,7 @@ const renderRun = (r) => (r.type ? `<span class="cdt-${r.type}">${escape(r.text)
    3. `node scripts/i18n.mjs import <언어> <파일>` — 번역을 검사해 `data/<언어>/` 에 쓴다.
 4. `node <api-skill>/scripts/content.mjs stamp data/meta.json` 으로 `data_version`(가공한 UTC 시각)을 찍는다.
 5. 저장소 루트에서 `node scripts/build.mjs` 로 규격을 검사하고, `node <api-skill>/scripts/content.mjs check --dir _site/v2` 로 배포 규격(8개 언어·사진·`data_version`)을 검사한다.
-6. 커밋한 뒤 `node <api-skill>/scripts/r2.mjs deploy --dir _site/v2 --country ph` 로 R2 에 배포한다. 끝나면 공개 주소를 스스로 확인한다. 절차와 규칙은 api-skill 의 `references/pipeline.md` 에 있다.
+6. 작업은 커밋까지 한다. **사용자가 배포를 요청했을 때만** `node <api-skill>/scripts/r2.mjs deploy --dir _site/v2 --country ph`로 R2에 배포하고 공개 주소를 확인한다. 절차와 규칙은 api-skill 의 `references/pipeline.md` 에 있다.
 7. GitHub 에는 push 하지 않는다 — 배포는 R2 뿐이다. 옛 주소(GitHub Pages)는 2026-10-01 판에서 멈췄다.
 
 규격 검사에 실패하면 배포 도구가 아무것도 올리지 않는다. Actions 도 멈춰서 옛 주소에는 이전 내용이 그대로 남는다.

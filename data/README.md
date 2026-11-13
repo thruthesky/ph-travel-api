@@ -1,6 +1,6 @@
 # 필리핀 여행지 — 여행지 JSON 작성 규격
 
-- 여행지 원본: `data/ko/<번호 3자리>-<slug>.json` (예: `data/ko/030-vigan.json`) — 한국어가 원본 언어다.
+- 여행지 원본: `data/ko/<번호 최소 3자리>-<slug>.json` (예: `data/ko/030-vigan.json`, 1000번부터 `1000-<slug>.json`) — 한국어가 원본 언어다.
 - 번역본: `data/<언어>/<같은 이름>.json` — `en`·`zh`·`ja`·`th`·`vi`·`ru`·`ar` (7절)
 - 사진: `data/images/<같은 이름>.webp`, 추가 사진은 `-2`, `-3` 을 붙인다. 모든 언어가 같은 사진을 쓴다.
 - 기준 정보: `data/meta.json` — 지원 언어, 분류·권역·지역·난이도 목록(언어별 이름), 속성·단락의 이름표, 그리고 모든 노드의 `type` 과 그 type 이 가질 수 있는 키(`display.types`)가 여기에 정의돼 있다.

@@ -1,0 +1,22 @@
+시눌로그 축제의 검증된 Commons 원본 사진을 API용 WebP로 정확하게 변환한다.
+이번 작업은 정해진 수치에 따른 포맷·크기 변환이다. 이미지 생성·재구성·리터칭을 하지 않는다.
+색·피사체·얼굴·글자·구도·내용·원래 가로세로 비율을 유지한다. 자르기·합성·샤프닝·새 요소 추가를 금지한다.
+아래 JPEG를 가로 1080px, 원래 비율의 높이, WebP quality 80으로 각각 저장한다.
+원본 파일을 덮어쓰지 않는다. 외부 API·서비스를 쓰지 않는다. 하위 에이전트를 실행하지 않는다.
+저장 경로는 /Users/thruthesky/apps/philgo/submodules/ph-travel-api 기준이다.
+
+_i18n/work/295-sinulog-festival/original-2.jpg -> data/images/295-sinulog-festival.webp
+_i18n/work/295-sinulog-festival/original-3.jpg -> data/images/295-sinulog-festival-2.webp
+_i18n/work/295-sinulog-festival/original-5.jpg -> data/images/295-sinulog-festival-3.webp
+_i18n/work/295-sinulog-festival/original-6.jpg -> data/images/295-sinulog-festival-4.webp
+_i18n/work/295-sinulog-festival/original-7.jpg -> data/images/295-sinulog-festival-5.webp
+_i18n/work/295-sinulog-festival/original-9.jpg -> data/images/295-sinulog-festival-6.webp
+_i18n/work/295-sinulog-festival/original-11.jpg -> data/images/295-sinulog-festival-7.webp
+_i18n/work/295-sinulog-festival/original-12.jpg -> data/images/295-sinulog-festival-8.webp
+
+아래 2장은 기존에 검증한 WebP를 내용을 전혀 바꾸지 않고 복사한다.
+data/images/203-basilica-del-santo-nino-5.webp -> data/images/295-sinulog-festival-9.webp
+data/images/204-magellans-cross-12.webp -> data/images/295-sinulog-festival-10.webp
+
+이미지 외의 JSON·스크립트·문서는 변경하지 않는다. 빌드·커밋·push·배포는 실행하지 않는다.
+완료 시 결과 10장의 경로·가로·세로만 한국어로 보고한다.

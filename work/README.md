@@ -10,6 +10,10 @@ api-skill 로 이 저장소에서 일할 때 **쌓이는 값**을 모두 여기�
 | `status.md` | 지금 상태 — 항목 수·사진 수·언어·version·data_version·R2 에 올라간 판·남은 일 | 작업을 끝낼 때마다 덮어쓴다. 값은 명령 출력에서 옮긴다 |
 | `log.md` | 작업 기록 — 날짜별로 요청·한 일·숫자·배운 것·결정. 새 기록이 위 | 작업을 끝낼 때 한 절을 위에 더한다. 옛 절은 고치지 않는다 |
 | `usage.jsonl` | 사용 기록 — 작업 한 번에 한 줄. 검색·외부 API 호출·에이전트·업로드 횟수 | 작업을 끝낼 때 한 줄을 끝에 더한다 |
+| `catalog.md` | `data.csv` 71개 열의 의미·갱신·주소 분리의 한계·신규 중복 대조 명령 | 대장 구조나 작업 방법을 고칠 때 |
+| `catalog-details.json` | 주소·연락처·별칭 등 출처를 확인한 보충 정보 | 새 정보를 확인했을 때 |
+| `addition-candidates.csv` | 두 팀의 필고 후보를 `data.csv`에 대조한 결과. 실제 API 수록 건수와 구분한다 | 대장 갱신 후 `node scripts/candidates.mjs` |
+| `catalog-duplicates.md` | 기존 여행지끼리 동일 이름 키를 가진 항목 검토 | `node scripts/catalog.mjs` |
 
 ## usage.jsonl 한 줄의 모양
 

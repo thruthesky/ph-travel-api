@@ -7,6 +7,7 @@ import { createHash } from 'node:crypto';
 import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { comparePlaceFiles, isPlaceFile } from './place-files.mjs';
 
 /** JSON 구조가 바뀌어 옛 클라이언트가 읽을 수 없게 되면 올리고, 출력 경로도 /v3/ 으로 바꾼다. */
 const SCHEMA = 2;
@@ -439,7 +440,7 @@ rmSync(join(root, '_site'), { recursive: true, force: true });
 mkdirSync(join(outDir, 'images'), { recursive: true });
 
 checkMeta();
-const placeFiles = (lang) => (existsSync(join(dataDir, lang)) ? readdirSync(join(dataDir, lang)).filter((name) => /^\d{3}-.+\.json$/.test(name)).sort() : []);
+const placeFiles = (lang) => (existsSync(join(dataDir, lang)) ? readdirSync(join(dataDir, lang)).filter(isPlaceFile).sort(comparePlaceFiles) : []);
 const files = placeFiles(SOURCE);
 // 번역 중인 언어 — data/<언어>/ 폴더가 아직 없으면 이번 배포에서 뺀다. 폴더가 생기면 그때부터 모든 여행지가 있어야 한다.
 const PENDING = LANGS.filter((l) => l !== SOURCE && !existsSync(join(dataDir, l)));

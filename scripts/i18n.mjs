@@ -17,6 +17,7 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { comparePlaceFiles, isPlaceFile, placeId, placeSlug } from './place-files.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = join(root, 'data');
@@ -213,7 +214,7 @@ function orderLike(ref, v) {
 
 // ───────────── 파일 ─────────────
 
-const placeFiles = (lang) => (existsSync(join(dataDir, lang)) ? readdirSync(join(dataDir, lang)).filter((f) => /^\d{3}-.+\.json$/.test(f)).sort() : []);
+const placeFiles = (lang) => (existsSync(join(dataDir, lang)) ? readdirSync(join(dataDir, lang)).filter(isPlaceFile).sort(comparePlaceFiles) : []);
 const readPlace = (lang, file) => JSON.parse(readFileSync(join(dataDir, lang, file), 'utf8'));
 
 /** 인자로 받은 이름들을 원본 파일 이름으로 바꾼다. */
@@ -222,7 +223,7 @@ function resolveFiles(args) {
   if (!args.length) return all;
   return args.map((a) => {
     const name = a.replace(/\.(json|txt)$/, '');
-    const hit = all.find((f) => f === `${name}.json` || f.slice(4, -5) === name || Number(f.slice(0, 3)) === Number(name));
+    const hit = all.find((f) => f === `${name}.json` || placeSlug(f) === name || placeId(f) === Number(name));
     if (!hit) throw new Error(`원본에 없는 여행지 — ${a}`);
     return hit;
   });
