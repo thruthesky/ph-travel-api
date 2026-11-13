@@ -1,0 +1,947 @@
+{
+  "id": 272,
+  "slug": "manila-zoo",
+  "title": { "type": "title", "text": "마닐라 동물원" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Manila Zoo" },
+  "tagline": { "type": "typography", "variant": "tagline", "text": "말라테 도심 숲에서 만나는 백호와 밤 분수" },
+  "island_group": { "type": "badge", "label": "권역", "value": "luzon", "text": "루손" },
+  "region": { "type": "badge", "label": "지역", "value": "metro-manila", "text": "메트로 마닐라" },
+  "location": {
+    "type": "address",
+    "label": "위치",
+    "icon": "location_on",
+    "text": "메트로 마닐라 마닐라시 말라테 (아드리아티코 거리·퀴리노 애비뉴 모퉁이)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "분류",
+    "icon": "location_city",
+    "value": "city",
+    "text": "도시·미식"
+  },
+  "tags": { "type": "tags", "label": "태그", "items": ["동물원", "식물원", "나비 정원", "가족 여행", "도시 공원"] },
+  "rating": { "type": "rating", "label": "추천도", "value": 4.1, "max": 5 },
+  "latitude": { "type": "latitude", "label": "위도", "value": 14.5648 },
+  "longitude": { "type": "longitude", "label": "경도", "value": 120.9883 },
+  "best_season": {
+    "type": "date",
+    "label": "여행 최적기",
+    "icon": "calendar_month",
+    "text": "12월~3월 (선선한 건기, 평일 오전 추천)",
+    "months": [12, 1, 2, 3]
+  },
+  "duration": { "type": "duration", "label": "여행 기간", "icon": "schedule", "text": "반나절" },
+  "budget": {
+    "type": "price",
+    "label": "예산",
+    "icon": "payments",
+    "text": "1인 약 ₱600~1,500 (반나절, 입장료·식사·교통 포함)",
+    "currency": "PHP",
+    "min": 600,
+    "max": 1500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "난이도",
+    "icon": "signal_cellular_alt",
+    "text": "쉬움",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "가까운 공항",
+    "icon": "flight",
+    "text": "니노이 아키노 국제공항(MNL)",
+    "code": "MNL"
+  },
+  "image": {
+    "type": "image",
+    "url": "images/272-manila-zoo.webp",
+    "alt": "마닐라 동물원 정문과 코끼리 조형물",
+    "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Redevelopment_of_Manila_Zoo_04.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "사진",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-2.webp",
+        "alt": "분수가 솟는 라군",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Redevelopment_of_Manila_Zoo_23.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-3.webp",
+        "alt": "바닥 분수 광장",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Redevelopment_of_Manila_Zoo_26.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-4.webp",
+        "alt": "조류관 공중 관람로",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Redevelopment_of_Manila_Zoo_19.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-5.webp",
+        "alt": "낮잠 자는 백호",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Redevelopment_of_Manila_Zoo_15.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-6.webp",
+        "alt": "물웅덩이 옆에 누운 수사자",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Redevelopment_of_the_Manila_Zoo_15.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-7.webp",
+        "alt": "물에 몸을 담근 카피바라 가족",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Redevelopment_of_the_Manila_Zoo_33.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-8.webp",
+        "alt": "초원 방사장의 타조와 필리핀사슴",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Redevelopment_of_the_Manila_Zoo_20.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-9.webp",
+        "alt": "풀을 먹는 얼룩말",
+        "credit": "LJP584 / CC0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_ONLY_Zebra_in_Manila_Zoo_11-23-2025.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-10.webp",
+        "alt": "초원을 내려다보는 관람 데크",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Redevelopment_of_the_Manila_Zoo_29.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-11.webp",
+        "alt": "나비 정원의 투명 지붕과 열대 식물",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Redevelopment_of_Manila_Zoo_42.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-12.webp",
+        "alt": "나비 표본 액자",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Butterfly_Garden_(Manila_Zoo)_05.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-13.webp",
+        "alt": "왕도마뱀 조형물이 붙은 파충류관",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Redevelopment_Manila_Zoo_17.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-14.webp",
+        "alt": "바위 연못의 악어",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Redevelopment_of_the_Manila_Zoo_05.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-15.webp",
+        "alt": "어린이 놀이터의 그물 타워와 미끄럼틀",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Redevelopment_Manila_Zoo_12.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/272-manila-zoo-16.webp",
+        "alt": "식물원 산책로",
+        "credit": "Video13 / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Redevelopment_of_Manila_Zoo_48.jpg"
+      }
+    ]
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "마닐라 말라테 한복판에 있는 시립 동물원 겸 식물원입니다. 1959년에 문을 열었고, 재단장을 거쳐 2022년 다시 열면서 유리 관람창과 높은 관람 데크, 나비 정원, 밤 조명을 갖췄습니다. 백호와 사자, 카피바라를 반나절이면 둘러볼 수 있어 아이와 함께 가기 좋습니다."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "한눈에 보기",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "마닐라 동물원의 정식 이름은 마닐라 동식물원(Manila Zoological and Botanical Garden)입니다. 말라테의 아드리아티코 거리와 퀴리노 애비뉴가 만나는 모퉁이에 자리한 약 5.5헥타르 넓이의 시립 동물원으로, "
+            },
+            { "type": "date", "text": "1959년 7월 25일" },
+            {
+              "text": " 아르세니오 락손 시장 때 문을 열었습니다. 마닐라시 안에 있는 하나뿐인 공립 동물원이며, 시가 세운 기념판에는 아시아에서 가장 오래된 동물원 가운데 하나라고 적혀 있습니다. 고층 콘도에 둘러싸인 도심 한복판이라, 큰 나무 그늘 아래 공원을 걷다가 동물을 만나는 느낌에 가깝습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "지금 모습은 재단장으로 만들어졌습니다. 정화하지 않은 하수가 마닐라 베이로 흘러든다는 환경천연자원부(DENR)의 지적에 따라 " },
+            { "type": "date", "text": "2019년 1월 23일" },
+            { "text": " 무기한 문을 닫았고, " },
+            { "type": "date", "text": "2020년 7월" },
+            { "text": " 착공해 약 " },
+            { "type": "price", "text": "₱1,700,000,000" },
+            { "text": "(17억 페소)을 들여 고쳤습니다. " },
+            { "type": "date", "text": "2021년 12월 30일" },
+            { "text": " 준공식과 함께 부분 개장했고 " },
+            { "type": "date", "text": "2022년 11월 21일" },
+            {
+              "text": " 전면 재개장했습니다. 이때 물을 일곱 단계로 거르는 하수 처리 시설을 새로 지었고, 철창 대신 두꺼운 유리 관람창과 우리를 위에서 내려다보는 관람 데크, 나비 정원과 식물원, 밤에 색이 바뀌는 분수를 갖췄습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "사는 동물도 예전과 다릅니다. 공식 안내에 따르면 포유류 13종, 조류 38종, 파충류 21종, 모두 550마리 남짓이 있습니다. 간판은 "
+            },
+            { "type": "date", "text": "2021년" },
+            {
+              "text": " 기증받은 백호 코이스(Kois)와 사자, 벵골호랑이이고, 카피바라와 얼룩말, 필리핀사슴, 타조, 화식조, 악어, 여러 앵무새와 맹금류가 뒤를 잇습니다. 반면 오랫동안 이곳의 상징이던 아시아코끼리 말리(Mali)는 "
+            },
+            { "type": "date", "text": "2023년 11월 28일" },
+            { "text": " 세상을 떠났고, 박제한 모습은 " },
+            { "type": "date", "text": "2026년 8월" },
+            {
+              "text": "부터 국립 자연사 박물관에 전시되어 있습니다. 하마도 이제 없으니, 옛 안내서의 코끼리·하마·동물 만지기 체험을 기대하고 가면 실망할 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "규모가 작아 " },
+            { "type": "duration", "text": "2~3시간" },
+            { "text": "이면 다 돌 수 있고, " },
+            { "type": "time", "text": "오후 8시" },
+            { "text": "까지 문을 열어 해가 진 뒤에도 산책할 수 있습니다. 마닐라 시민이 아닌 사람의 입장료는 " },
+            { "type": "price", "text": "₱300" },
+            {
+              "text": "입니다. 전시 대부분이 야외라 한낮 더위와 비를 그대로 맞는다는 점은 감안해야 합니다. 세계적인 동물원을 기대하기보다 아이와 함께 반나절 가볍게 다녀오는 도심 속 쉼터로 생각하면 만족도가 높고, "
+            },
+            { "type": "place_link", "text": "리잘 공원", "slug": "rizal-park" },
+            { "text": "이나 " },
+            { "type": "place_link", "text": "마닐라 베이", "slug": "manila-bay" },
+            { "text": " 일몰과 묶기에도 좋습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "꼭 해봐야 할 것",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "백호 코이스와 맹수 구역",
+              "children": [
+                {
+                  "text": "'에이펙스 프레데터(Apex Predators)'라는 이름이 붙은 구역에 백호 코이스와 벵골호랑이, 사자가 두꺼운 유리 너머에 삽니다. 한낮에는 대부분 누워 자므로 개장 직후나 "
+                },
+                { "type": "time", "text": "오후 4시" },
+                { "text": " 이후에 가야 움직이는 모습을 볼 가능성이 큽니다. " },
+                { "type": "date", "text": "2026년 7월" },
+                { "text": "에는 새끼 호랑이 아폴로와 아틀라스가 새 식구로 소개되었습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "걸어서 지나는 조류관",
+              "children": [
+                {
+                  "text": "대나무 모양 기둥에 그물을 높이 두른 조류관은 나무 높이의 공중 관람로를 따라 안쪽을 걸어서 통과합니다. 솔개 같은 맹금류가 머리 위를 날고, 주변 새장에서는 마코앵무와 코카투, 공작, 화식조를 볼 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "초원 방사장과 관람 데크",
+              "children": [
+                {
+                  "text": "타조와 필리핀사슴, 오리가 함께 지내는 넓은 방사장을 지붕이 있는 높은 데크에서 내려다봅니다. 가까이에는 한 마리 남은 얼룩말과 물웅덩이에 몸을 담근 카피바라, 큰 육지거북 우리가 이어져 아이들이 가장 오래 머무는 구간입니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "파충류관과 악어 연못",
+              "children": [
+                {
+                  "text": "벽에 왕도마뱀 조형물이 붙은 파충류관에는 비단뱀과 도마뱀, 거북이 있고, 바깥 바위 연못에서는 악어가 물 위에 떠 있는 모습을 내려다볼 수 있습니다. "
+                },
+                { "type": "date", "text": "2025년 12월" },
+                { "text": "에는 파충류관이 닫혀 있었다는 후기도 있으니 못 볼 수도 있다고 생각해 두십시오." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "나비 정원과 표본실",
+              "children": [
+                {
+                  "text": "투명한 지붕 아래 열대 식물을 심은 온실 모양의 정원입니다. 살아 있는 나비는 철에 따라 많지 않은 날도 있지만, 나비를 종류별로 액자에 담은 표본실이 붙어 있고 길이 기념품점으로 이어집니다."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "식물원과 라군 보트",
+              "children": [
+                {
+                  "text": "1만 그루가 넘는 식물을 가꾸는 식물원에는 이름표가 달린 큰 나무 사이로 나무 다리와 산책로가 나 있습니다. 한가운데 라군에는 분수가 솟고, "
+                },
+                { "type": "date", "text": "2026년 7월" },
+                { "text": "부터 보트 타기가 다시 시작되어 4명까지 약 " },
+                { "type": "duration", "text": "20분" },
+                { "text": "에 " },
+                { "type": "price", "text": "₱120" },
+                { "text": "이라고 보도되었습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "영장류 구역과 어린이 놀이터",
+              "children": [
+                {
+                  "text": "원숭이 우리 옆에 그물 타워와 미끄럼틀을 갖춘 놀이터가 있어 아이들이 한참 놀다 갑니다. 보호자가 반드시 곁에 있어야 하는 것이 규칙이고, "
+                },
+                { "type": "date", "text": "2026년 7월" },
+                { "text": "에는 긴팔원숭이 시저가 새로 소개되었습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "해 진 뒤의 분수와 산책",
+              "children": [
+                {
+                  "text": "해가 지면 산책로와 라군에 조명이 켜지고 바닥 분수의 색이 바뀝니다. 다만 저녁에는 나비 정원과 일부 동물사가 먼저 닫히므로, 동물은 밝을 때 보고 야경은 마지막에 즐기는 순서가 좋습니다."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "추천 일정",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "오전 반나절 코스",
+              "subtitle": "덜 덥고 한산한 개장 직후",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "개장 시간에 맞춰 도착합니다. 온라인 예매 QR 코드를 보여 주거나 무인 발권기에서 표를 사고, 신분증 확인을 거쳐 들어갑니다. 월요일은 "
+                        },
+                        { "type": "time", "text": "11:00" },
+                        { "text": "에 엽니다." }
+                      ]
+                    },
+                    {
+                      "time": "09:15",
+                      "children": [{ "text": "정문에서 가까운 얼룩말 방사장을 보고, 카피바라와 육지거북 우리로 올라갑니다." }]
+                    },
+                    {
+                      "time": "09:45",
+                      "children": [{ "text": "맹수 구역에서 백호와 벵골호랑이, 사자를 봅니다. 아침에는 깨어 움직일 때가 많습니다." }]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [{ "text": "조류관 공중 관람로를 걷고 주변 새장의 앵무새와 화식조를 둘러봅니다." }]
+                    },
+                    {
+                      "time": "11:00",
+                      "children": [{ "text": "관람 데크에서 타조와 사슴을 내려다본 뒤 악어 연못과 파충류관으로 갑니다." }]
+                    },
+                    { "time": "11:40", "children": [{ "text": "영장류 구역을 보고 아이들은 놀이터에서 쉬어 갑니다." }] },
+                    { "time": "12:10", "children": [{ "text": "푸드 파크나 조류관 옆 카페에서 점심을 먹습니다." }] },
+                    {
+                      "time": "13:00",
+                      "children": [{ "text": "식물원 산책로와 나비 정원, 표본실을 차례로 보고 기념품점을 지나 나옵니다." }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "늦은 오후·야간 코스",
+              "subtitle": "더위가 꺾인 뒤 들어가 조명까지",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    { "time": "15:30", "children": [{ "text": "입장해 일찍 닫히는 나비 정원과 표본실부터 봅니다." }] },
+                    { "time": "16:00", "children": [{ "text": "해가 기울어 유리 반사가 줄어든 맹수 구역으로 갑니다." }] },
+                    { "time": "16:45", "children": [{ "text": "조류관과 초원 관람 데크, 악어 연못을 돕니다." }] },
+                    {
+                      "time": "17:30",
+                      "children": [{ "text": "라군에서 보트를 타거나 카페에서 쉬며 해가 지기를 기다립니다." }]
+                    },
+                    {
+                      "time": "18:15",
+                      "children": [{ "text": "조명이 켜진 식물원 산책로와 색이 바뀌는 바닥 분수를 봅니다." }]
+                    },
+                    {
+                      "time": "19:00",
+                      "children": [{ "text": "퇴장해 그랩으로 말라테 식당가나 로하스 대로로 가서 저녁을 먹습니다." }]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "입장 마감은 " },
+                    { "type": "time", "text": "오후 6시" },
+                    { "text": "라 그 전에 들어가야 합니다. 마닐라 베이 일몰을 보려면 " },
+                    { "type": "time", "text": "17:00" },
+                    { "text": "쯤 나와 로하스 대로 해안까지 걸어서 약 " },
+                    { "type": "duration", "text": "15분" },
+                    { "text": "이면 닿습니다." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "가는 방법",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "공항에서",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "니노이 아키노 국제공항(MNL)에서 직선거리로 약 " },
+                        { "type": "distance", "text": "6km" },
+                        { "text": "입니다. 그랩으로 보통 " },
+                        { "type": "duration", "text": "20~40분" },
+                        { "text": ", 길이 막히면 " },
+                        { "type": "duration", "text": "1시간" },
+                        { "text": " 안팎이 걸리고 요금은 약 " },
+                        { "type": "price", "text": "₱250~500" },
+                        { "text": "입니다. 목적지를 'Manila Zoo'로 입력하면 아드리아티코 거리 쪽 정문에 내려 줍니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "공항의 노란 택시는 " },
+                        { "type": "date", "text": "2026년" },
+                        { "text": " 요금 인상으로 기본요금이 " },
+                        { "type": "price", "text": "₱115" },
+                        { "text": "(첫 500m)입니다. 미터기를 켜는지 꼭 확인하십시오." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LRT 1호선",
+              "icon": "train",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "LRT 1호선 퀴리노(Quirino)역에서 내려 퀴리노 애비뉴를 따라 바다 쪽(서쪽)으로 " },
+                        { "type": "duration", "text": "10~15분" },
+                        { "text": " 걸으면 아드리아티코 거리 모퉁이의 동물원에 닿습니다. 요금은 출발 역에 따라 약 " },
+                        { "type": "price", "text": "₱16~55" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    {
+                      "children": [{ "text": "역 앞에서 트라이시클이나 페디캡을 탈 수도 있습니다. 타기 전에 요금을 먼저 정하십시오." }]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "마카티에서는 MRT-3 타프트 애비뉴(Taft Avenue)역에서 LRT-1 EDSA역으로 갈아타 북쪽으로 네 번째 역이 퀴리노역입니다."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "그랩·택시",
+              "icon": "local_taxi",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "마카티에서 그랩으로 " },
+                        { "type": "duration", "text": "25~50분" },
+                        { "text": ", 요금은 약 " },
+                        { "type": "price", "text": "₱200~400" },
+                        { "text": "이며 러시아워와 비 오는 날에는 더 오릅니다. 아이와 함께라면 가장 편한 방법입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "에르미타·말라테 호텔 지역에서는 차로 " },
+                        { "type": "duration", "text": "5~15분" },
+                        { "text": ", 리잘 공원이나 인트라무로스에서는 " },
+                        { "type": "duration", "text": "10~20분" },
+                        { "text": " 거리입니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "지프니",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "타프트 애비뉴를 오가는 지프니를 타고 LRT 퀴리노역 아래 퀴리노 애비뉴 모퉁이에서 내려 걷습니다. 기사에게 'Manila Zoo'라고 말해 두면 됩니다. "
+                        },
+                        { "type": "date", "text": "2026년 9월 28일" },
+                        { "text": "부터 재래식 지프니 최저 요금은 " },
+                        { "type": "price", "text": "₱14" },
+                        { "text": ", 모던 지프니는 " },
+                        { "type": "price", "text": "₱17" },
+                        { "text": "입니다. 처음이라면 그랩이나 LRT가 훨씬 편합니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "자가용",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        { "text": "정문 옆에 주차장이 있지만 입장권을 산 사람만 댈 수 있고 넓지 않습니다. 주말에는 " },
+                        { "type": "time", "text": "오전 10시" },
+                        { "text": "쯤이면 찬다는 후기가 있고, 요금은 승용차 약 " },
+                        { "type": "price", "text": "₱50" },
+                        { "text": "입니다." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "자리가 없으면 로빈슨 플레이스 마닐라 같은 가까운 쇼핑몰 유료 주차장에 대고 그랩이나 트라이시클로 옵니다." }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "여행 최적기와 날씨",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "전시 대부분이 야외라 날씨가 관람의 질을 좌우합니다. 마닐라는 " },
+            { "type": "date", "text": "12월~5월" },
+            { "text": "이 건기이고, 그중 " },
+            { "type": "date", "text": "12월~2월" },
+            { "text": "은 낮 최고 기온이 " },
+            { "type": "temperature", "text": "30℃" },
+            { "text": " 안팎으로 비교적 선선해 걸어 다니기 가장 좋습니다. " },
+            { "type": "date", "text": "3월~5월" },
+            { "text": "은 한낮에 " },
+            { "type": "temperature", "text": "34℃" },
+            { "text": " 안팎까지 올라 그늘이 적은 맹수 구역과 관람 데크가 뜨겁고, 동물들도 그늘에서 잠만 잡니다. 이때는 개장 직후나 " },
+            { "type": "time", "text": "오후 4시" },
+            { "text": " 이후에 들어가는 편이 낫습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "우기인 " },
+            { "type": "date", "text": "6월~11월" },
+            { "text": "에는 오후 소나기가 잦고, " },
+            { "type": "date", "text": "7월~9월" },
+            {
+              "text": "은 비 오는 날이 한 달에 18~19일에 이릅니다. 비가 오면 지붕이 있는 관람 데크와 나비 정원, 파충류관 정도만 편하게 볼 수 있으니 오전 일찍 다녀오는 것이 좋습니다. 태풍이 지나갈 때나 성주간, 연말연시에는 운영 시간을 따로 공지하므로 공식 페이스북을 확인하십시오."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "요일도 중요합니다. 주말과 공휴일, 개원 기념일인 " },
+            { "type": "date", "text": "7월 25일" },
+            { "text": " 무렵에는 가족 나들이객이 몰리고, 화요일부터 목요일 오전이 가장 한산합니다. 월요일은 정비 때문에 " },
+            { "type": "time", "text": "오전 11시" },
+            { "text": "에 엽니다." }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "시기별 한눈에 보기",
+          "icon": "calendar_month",
+          "columns": ["시기", "날씨", "여행 포인트"],
+          "rows": [
+            ["12월~2월", "건기, 낮 30℃ 안팎으로 선선함", "걷기 가장 좋은 때, 연말 휴가철 주말은 혼잡"],
+            ["3월~5월", "건기, 한낮 34℃ 안팎", "개장 직후나 오후 4시 이후 입장, 물과 모자 필수"],
+            ["6월~9월", "우기, 소나기와 태풍", "오전 일찍 관람, 7월 25일 개원 기념일 무렵 붐빔"],
+            ["10월~11월", "우기 끝자락, 비가 줄어듦", "비 그친 날 오후와 야간 산책이 쾌적"]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "예상 비용",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["항목", "예상 비용", "비고"],
+          "items": [
+            {
+              "label": "입장료 (마닐라 시민이 아닌 성인·3세 이상 어린이)",
+              "price": "₱300",
+              "note": "외국인 여행자도 이 요금, 2세 이하는 무료"
+            },
+            { "label": "입장료 (마닐라 시민이 아닌 학생)", "price": "₱200", "note": "학생증 제시" },
+            { "label": "입장료 (마닐라 시민이 아닌 경로·장애인)", "price": "₱240", "note": "필리핀 경로·장애인 신분증 제시" },
+            {
+              "label": "입장료 (마닐라 시민)",
+              "price": "₱150",
+              "note": "학생 ₱100, 경로·장애인 ₱120, 마닐라 주소가 적힌 신분증 필요"
+            },
+            { "label": "라군 보트", "price": "1척 약 ₱120", "note": "4명까지 약 20분, 2026년 7월 보도 기준" },
+            { "label": "공항–동물원 그랩", "price": "편도 약 ₱250~500", "note": "러시아워·우천 시 상승" },
+            { "label": "LRT 1호선", "price": "약 ₱16~55", "note": "퀴리노역 하차, 구간별 요금" },
+            { "label": "동물원 안 식사·간식", "price": "1인 약 ₱150~400", "note": "외부 음식 반입 불가, 잔돈 준비" },
+            { "label": "주차", "price": "약 ₱50", "note": "승용차 기준, 입장권을 산 사람만" }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "요금은 " },
+            { "type": "date", "text": "2026년" },
+            { "text": " 기준 대략치이며 현지 사정에 따라 달라질 수 있습니다. 입장료는 " },
+            { "type": "date", "text": "2026년 11월" },
+            { "text": " 공식 예매 사이트에 올라 있는 값이며, 시 조례로 정하므로 바뀔 수 있습니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "숙소와 먹거리",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "동물원에는 외부 음식과 병 음료를 가지고 들어갈 수 없고, 개인 텀블러만 됩니다. 대신 정문 쪽 푸드 파크에 핫도그와 감자튀김, 덮밥, 와플, 주스를 파는 매점이 모여 있고, 새를 보며 쉴 수 있는 에이비어리 카페(The Aviary Café)에서 커피와 케이크를 팝니다. 한 사람에 약 "
+            },
+            { "type": "price", "text": "₱150~400" },
+            { "text": "이면 간단히 먹을 수 있지만 종류가 많지 않고, 매점에 큰 지폐의 거스름돈이 없을 때가 있어 소액권을 챙기는 것이 좋습니다." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "제대로 된 식사는 밖에서 하는 편이 낫습니다. 걸어서 " },
+            { "type": "duration", "text": "10~15분" },
+            { "text": " 거리인 로하스 대로에는 " },
+            { "type": "date", "text": "1936년" },
+            {
+              "text": " 문을 연 필리핀 식당 아리스토크랫(The Aristocrat)이 있어 치킨 바비큐와 자바 라이스를 맛볼 수 있고, 24시간 영업합니다. 말라테 안쪽 식당가와 로빈슨 플레이스 마닐라 쇼핑몰에도 필리핀 음식점과 한식당, 카페가 많습니다."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "숙소는 동물원이 있는 말라테와 북쪽 에르미타에 몰려 있습니다. 중급 호텔은 1박 약 " },
+            { "type": "price", "text": "₱2,000~5,000" },
+            { "text": ", 저렴한 호텔은 약 " },
+            { "type": "price", "text": "₱1,500~3,000" },
+            { "text": " 정도이고, 동물원 남쪽으로 걸어서 약 " },
+            { "type": "duration", "text": "10분" },
+            { "text": " 거리에는 오래된 대형 호텔인 센추리 파크 호텔이 있습니다. 바다 일몰이 보이는 로하스 대로의 호텔은 1박 약 " },
+            { "type": "price", "text": "₱5,000~12,000" },
+            { "text": "입니다." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "여행 팁",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "운영 시간은 월요일 " },
+                { "type": "time", "text": "오전 11시~오후 8시" },
+                { "text": ", 화요일~일요일과 공휴일 " },
+                { "type": "time", "text": "오전 9시~오후 8시" },
+                { "text": "이고 입장 마감은 " },
+                { "type": "time", "text": "오후 6시" },
+                { "text": "입니다." }
+              ]
+            },
+            {
+              "children": [
+                { "type": "link", "text": "공식 예매 사이트", "url": "https://manilazoo.ph/" },
+                {
+                  "text": "에서 날짜를 정해 미리 사면 줄을 서지 않고 QR 코드로 들어갑니다. 결제가 GCash·Maya 같은 필리핀 전자지갑 위주라, 없는 여행자는 현장 무인 발권기를 쓰면 됩니다."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "무인 발권기는 현금만 받고 거스름돈이 나오지 않는다는 후기가 있습니다. 금액에 맞춰 소액권을 준비하십시오." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "입구에서 신분증을 확인합니다. 외국인 여행자는 여권이나 여권 사본을 챙기고, 학생 할인을 받으려면 학생증을 보여 줍니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "맹수는 한낮에 거의 움직이지 않습니다. 개장 직후나 늦은 오후에 가고, 유리 반사가 심하면 렌즈를 유리에 바짝 붙여 찍습니다." }
+              ]
+            },
+            { "children": [{ "text": "중간에 나갔다 다시 들어오려면 입구에서 손등에 도장을 받아 두면 됩니다." }] },
+            { "children": [{ "text": "길이 포장되어 있어 유모차와 휠체어로 다니기 좋지만 빌려주지는 않으니 직접 가져가야 합니다." }] },
+            {
+              "children": [
+                { "text": "물은 개인 텀블러에 담아 가고, 모자와 양산, 자외선 차단제를 챙깁니다. 우기에는 접이식 우산이 필요합니다." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "코끼리 말리의 박제는 이제 " },
+                { "type": "place_link", "text": "국립박물관", "slug": "national-museum" },
+                { "text": " 단지의 자연사 박물관에 있습니다. 입장이 무료이니 같은 날 묶어 볼 만합니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "주의사항",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "옛 안내서와 일부 안내도에 나오는 코끼리와 하마는 이제 없고, 동물 만지기·먹이 주기 체험도 하지 않습니다. 저녁에는 나비 정원과 일부 동물사가 먼저 닫히며, 입장료와 운영 시간은 시의 결정에 따라 바뀔 수 있으니 가기 전에 최신 공지를 확인하십시오."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "동물에게 먹이를 주거나 만지는 것, 유리를 두드리는 것은 금지입니다. 아이가 난간에 올라서지 않게 살펴 주십시오." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "외부 음식과 음료, 반려동물, 풍선과 장난감, 술, 날카로운 물건은 가지고 들어갈 수 없고, 안에서는 담배와 전자담배도 피울 수 없습니다."
+                }
+              ]
+            },
+            { "children": [{ "text": "한낮에는 그늘이 없는 구간이 뜨겁습니다. 물을 자주 마시고 지붕 있는 데크와 카페에서 쉬어 가십시오." }] },
+            {
+              "children": [
+                { "text": "맹수 우리가 좁고 동물 수가 예전보다 적다는 지적이 꾸준히 있습니다. 큰 사파리형 동물원을 기대한다면 실망할 수 있습니다." }
+              ]
+            },
+            { "children": [{ "text": "퀴리노역과 말라테 거리를 걸을 때는 소매치기를 조심하고, 해가 진 뒤에는 그랩으로 이동하십시오." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "함께 가보면 좋은 곳",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "마닐라 베이",
+              "place": "manila-bay",
+              "children": [
+                { "text": "서쪽 로하스 대로 해안까지 걸어서 약 " },
+                { "type": "duration", "text": "15분" },
+                { "text": ", 해 질 무렵 베이워크에서 마닐라의 대표 일몰을 봅니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "리잘 공원",
+              "place": "rizal-park",
+              "children": [
+                { "text": "북쪽으로 약 " },
+                { "type": "distance", "text": "2km" },
+                { "text": ", 그랩으로 " },
+                { "type": "duration", "text": "10~15분" },
+                { "text": "입니다. 리잘 기념비와 넓은 잔디 광장이 있는 도심 공원입니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "필리핀 국립박물관",
+              "place": "national-museum",
+              "children": [
+                { "text": "약 " },
+                { "type": "distance", "text": "2.5km" },
+                { "text": ", 그랩으로 " },
+                { "type": "duration", "text": "10~15분" },
+                { "text": "입니다. 자연사 박물관에서 박제된 코끼리 말리와 대형 악어 롤롱의 골격을 무료로 볼 수 있습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "마닐라 오션 파크",
+              "place": "manila-ocean-park",
+              "children": [
+                { "text": "약 " },
+                { "type": "distance", "text": "2.5km" },
+                { "text": ", 그랩으로 " },
+                { "type": "duration", "text": "10~15분" },
+                { "text": "입니다. 수중 터널과 펭귄관이 있는 실내 위주 시설이라 비 오는 날 대안으로 좋습니다." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "인트라무로스",
+              "place": "intramuros",
+              "children": [
+                { "text": "약 " },
+                { "type": "distance", "text": "3.5km" },
+                { "text": ", 그랩으로 " },
+                { "type": "duration", "text": "15~20분" },
+                { "text": "입니다. 산티아고 요새와 산 아구스틴 성당이 있는 스페인 시대 성벽 도시입니다." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
