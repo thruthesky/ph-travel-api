@@ -1,0 +1,583 @@
+{
+  "id": 275,
+  "slug": "wright-park-the-mansion",
+  "checked_at": "2026-11-13T04:10:38Z",
+  "facts": [
+    {
+      "where": "전체",
+      "fact": "바탕 글",
+      "value": "필고 travel 게시판 글 953394952, 953394950, 953394947, 953394954, 953394959 (모두 2012-11-14 한 사람의 바기오 여행기)",
+      "sources": [
+        {
+          "url": "philgo:travel/953394952",
+          "grade": "C",
+          "date": "2012-11-14",
+          "says": "더 맨션에서 길을 따라 1km쯤 내려오면 말 타는 공원, 1시간 300페소"
+        },
+        {
+          "url": "philgo:travel/953394950",
+          "grade": "C",
+          "date": "2012-11-14",
+          "says": "승마장을 지나 파크 로드 서클에서 시내 쪽으로 100m쯤 내려가면 왼쪽에 보타닉 가든, 다리 건너면 볼 것이 적음, 입구 건너편 지프니 정류장"
+        },
+        {
+          "url": "philgo:travel/953394947",
+          "grade": "C",
+          "date": "2012-11-14",
+          "says": "953394950 과 같은 글(보타닉 가든)"
+        },
+        {
+          "url": "philgo:travel/953394954",
+          "grade": "C",
+          "date": "2012-11-14",
+          "says": "마인즈 뷰에서 택시 45페소(기본 35)로 더 맨션, 대통령 여름 별장, 연못에 물고기, 소나무·파란 하늘, 이른 크리스마스 장식"
+        },
+        {
+          "url": "philgo:travel/953394959",
+          "grade": "C",
+          "date": "2012-11-14",
+          "says": "케넌 로드 뷰포인트 택시 이야기(이 항목과 직접 관계 적음), 바기오 소나무 인상"
+        }
+      ],
+      "decision": "구성(맨션 → 연못 → 승마장 → 식물원 동선)과 항목을 재활용, 값은 아래 출처로 확인. 승마 '1시간 ₱300'(2012)은 낡아 '30분 약 ₱200~300'으로, 택시 ₱45·기본요금 ₱35 는 쓰지 않고 2026 기준 범위로 바꿈. '맨션에서 1km 내려가면 승마장'은 실제로 길 하나 건너 계단 아래라 쓰지 않음. 953394959(케넌 로드)는 내용에 쓰지 않음"
+    },
+    {
+      "where": "lat,lon",
+      "fact": "좌표",
+      "value": "16.4151, 120.6186 (라이트 공원 연못 중앙 — 정문과 승마장 사이)",
+      "sources": [
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Wright+Park+Baguio&format=json",
+          "grade": "B",
+          "date": "2026-11-13",
+          "says": "OSM Wright Park 16.41514, 120.61859"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Wright_Park_(Baguio)",
+          "grade": "B",
+          "date": "2026-11-13",
+          "says": "좌표 16°24′55″N 120°37′07″E (16.41533, 120.6185)"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:The_Mansion_view_from_Gate,_Baguio_City,_Feb_2025.jpg",
+          "grade": "C",
+          "date": "2025-02",
+          "says": "사진 GPS 16.4141, 120.6201 (맨션 정문 앞 — 공원 동쪽 끝)"
+        }
+      ],
+      "decision": "두 지도(OSM·위키백과)가 소수 3자리까지 같고 차이 약 20m. 공원과 맨션을 함께 다루므로 연못 쪽 OSM 값을 4자리로 반올림"
+    },
+    {
+      "where": "overview,summary,tagline",
+      "fact": "더 맨션 연혁",
+      "value": "1908 완공, 윌리엄 E. 파슨스 설계(번햄 구상), 포브스 집안 별장 이름, 1910 제2대 필리핀 의회 회기, 커먼웰스 이후 대통령 여름 관저",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Mansion_(Baguio)",
+          "grade": "B",
+          "date": "2026-11-13",
+          "says": "Built in 1908 as summer residence of the American Governor-General; architect William E. Parsons from preliminary plans by Daniel H. Burnham; named after the New England summer cottage of William Cameron Forbes (Governor-General from 1909); Second Philippine Legislature met there in 1910 for three weeks; turned over to the President of the Commonwealth in 1935"
+        },
+        {
+          "url": "https://web.archive.org/web/20260716021017/https://baguiomansionhouse.gov.ph/",
+          "grade": "A",
+          "date": "2026-07-16",
+          "says": "originally built as the summer headquarters for American Governors-General; eventually became the official summer residence of the President of the Philippines"
+        },
+        {
+          "url": "https://philstarlife.com/news-and-views/292041-baguio-mansion-house-featuring-presidential-memorabilia-is-now-open-to-public",
+          "grade": "B",
+          "date": "2024-09-11",
+          "says": "The Mansion House was built in 1908 as the summer home of the American Governors-General"
+        }
+      ],
+      "decision": "1908·대통령 여름 관저는 세 곳 일치. 이름의 유래는 위키백과 한 곳이라 '…했다고 전합니다'로 씀. 위키백과는 포브스 집안의 '뉴잉글랜드 여름 별장'이라 하고 본문은 '매사추세츠의 집안 저택'으로 씀(포브스 집안 본거지가 매사추세츠) (포브스 집안 여름 별장이 있는 노숀섬이 매사추세츠) — 사람 검토 권장"
+    },
+    {
+      "where": "overview",
+      "fact": "전쟁 피해·재건과 국제회의",
+      "value": "2차 대전 크게 파손, 1947 재건, 1947 ECAFE 2차 회기, 1948 FAO 2차 회기, 1950 바기오 회의(키리노)",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Mansion_(Baguio)",
+          "grade": "B",
+          "date": "2026-11-13",
+          "says": "badly damaged during World War II and rebuilt in 1947; 1947 second session of ECAFE; 1948 second session of FAO; 1950 Baguio Conference convened by President Elpidio Quirino"
+        }
+      ],
+      "decision": "연혁(값이 바뀌지 않는 역사 사실)이라 위키백과 한 곳으로 씀. 본문은 ECAFE 연도를 따로 쓰지 않고 FAO 1948·바기오 회의 1950 만 날짜 조각으로 둠. 1994 발웨그 사건은 넣지 않음"
+    },
+    {
+      "where": "overview,summary,highlights 2",
+      "fact": "국가 사적 지정·대통령 박물관 개관",
+      "value": "NHCP 국가 사적 2009-01-16, 대통령 박물관 2024-09-08 일반 공개, 역대 대통령 유품·그림, 무료",
+      "sources": [
+        {
+          "url": "https://philstar.com/nation/2024/09/08/2383759/presidential-museum-baguio-mansion-house-opens-public",
+          "grade": "B",
+          "date": "2024-09-08",
+          "says": "Presidential Museum at The Mansion, C.P. Romulo Drive in Wright Park, opened to the public on Sunday morning, September 8; historical memorabilia and paintings, some paintings from Malacañang; 20 people every tour; still pending construction work inside"
+        },
+        {
+          "url": "https://philstarlife.com/news-and-views/292041-baguio-mansion-house-featuring-presidential-memorabilia-is-now-open-to-public",
+          "grade": "B",
+          "date": "2024-09-11",
+          "says": "opened to the public on Sunday, September 8, 2024; Tuesday to Sunday 9 a.m.–5 p.m.; admission free; walk-ins restricted to 20 individuals per tour every 30 minutes; in 2009 declared a National Historical Landmark"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Mansion_(Baguio)",
+          "grade": "B",
+          "date": "2026-11-13",
+          "says": "Opened to the public on September 8, 2024, with a museum of presidential memorabilia; NHCP declaration 2009"
+        },
+        {
+          "url": "https://web.archive.org/web/20260716021017/https://baguiomansionhouse.gov.ph/",
+          "grade": "A",
+          "date": "2026-07-16",
+          "says": "On 8 September 2024, the Baguio Mansion House reopened as the Presidential Museum; admission is free"
+        }
+      ],
+      "decision": "개관일·무료는 A 1곳+B 3곳 일치. 전시 내용은 보도가 '유품과 그림'만 말해 그 이상(옷·차 등)은 쓰지 않음. 국가 사적 지정 날짜 2009-01-16 은 위키백과 기준"
+    },
+    {
+      "where": "highlights 2,tips,itinerary,cautions",
+      "fact": "운영 요일·시간·투어 시각",
+      "value": "화~일(월 휴관), 투어 09:00~11:00·13:00~15:00 30분마다, 정문·잔디밭 사진은 08:00~17:00, 무료",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260716021017/https://baguiomansionhouse.gov.ph/",
+          "grade": "A",
+          "date": "2026-07-16",
+          "says": "open to everyone from Tuesdays to Sundays, 8am to 5pm; admission is free; for private tours reservations are required, but walk-ins are welcome too, depending on available tour slots (2025-09-14·2026-05-01·2026-06-12 보관본도 같은 문구)"
+        },
+        {
+          "url": "https://web.archive.org/web/20251007191302/https://museums.gov.ph/baguio-mansion-tour-request-form/",
+          "grade": "A",
+          "date": "2025-10-07",
+          "says": "Tour schedules 9:00, 9:30, 10:00, 10:30, 11:00 AM and 1:00, 1:30, 2:00, 2:30, 3:00 PM; gates open for photo opportunities 8:00 AM–5:00 PM; free of charge; max 20 guests per tour"
+        },
+        {
+          "url": "https://philstarlife.com/news-and-views/292041-baguio-mansion-house-featuring-presidential-memorabilia-is-now-open-to-public",
+          "grade": "B",
+          "date": "2024-09-11",
+          "says": "Tuesday to Sunday, 9 a.m. to 5 p.m."
+        },
+        {
+          "url": "data/ko/023-baguio.json · sources/023-baguio.json",
+          "grade": "C",
+          "date": "2026-10-04",
+          "says": "023 항목은 공식 사이트를 인용해 '화~일 09:00~18:00' 으로 씀 — 같은 사이트의 보관본(2025-09~2026-07) 과 2026-11-13 검색 색인은 모두 8am to 5pm"
+        }
+      ],
+      "decision": "공식(A) 두 곳(홈페이지·SOP)을 따라 투어 시각과 사진 시간(8~17시)을 나눠 씀. 2024 보도의 9~5시, 023 항목의 9~18시와 어긋나 주의사항에 '출처마다 다르니 공식 공지 확인'을 붙임. 023 항목의 시간은 이 작업 범위 밖이라 고치지 않고 보고"
+    },
+    {
+      "where": "tips,stay_and_food,cautions",
+      "fact": "예약·현장 번호표·복장·사진 규칙",
+      "value": "3영업일 전 예약(월·공휴일 제외), 방문자 센터 번호표, 20명 넘는 단체 분할·소규모 합류, 민소매·탱크톱·슬리퍼 자제, 5세 이상 보호자 동반, 지정 구역만 사진·동영상 금지, 음식 반입 금지, 전시물 만지기 금지, 경호원 동행",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20251007191302/https://museums.gov.ph/baguio-mansion-tour-request-form/",
+          "grade": "A",
+          "date": "2025-10-07",
+          "says": "submit request at least three (3) working days before (excluding Mondays and holidays); walk-in guests accommodated subject to slots, secure your number at the Visitor Center; groups over 20 divided into next schedule, small groups combined; no sleeveless, tank tops, slippers; children 5 years old and above accompanied by parent/guardian; photos within designated areas, video recording strictly prohibited; no food and drinks; do not touch; security personnel present, tour may be stopped for violations"
+        },
+        {
+          "url": "https://web.archive.org/web/20260716021017/https://baguiomansionhouse.gov.ph/",
+          "grade": "A",
+          "date": "2026-07-16",
+          "says": "reservations required for private tours, walk-ins welcome depending on available tour slots"
+        },
+        {
+          "url": "https://philstar.com/nation/2024/09/08/2383759/presidential-museum-baguio-mansion-house-opens-public",
+          "grade": "B",
+          "date": "2024-09-08",
+          "says": "visitors advised to book a tour, 20 people every tour"
+        }
+      ],
+      "decision": "운영 규칙은 공식 SOP(A)를 따르고 공식 홈페이지·보도로 뒷받침. 예약 페이지 링크는 museums.gov.ph 의 Tour Request Form"
+    },
+    {
+      "where": "highlights 3",
+      "fact": "정문(버킹엄 궁전 모방설)",
+      "value": "철제 정문이 버킹엄 궁전 정문을 본떴다는 소문은 확인되지 않음",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Mansion_(Baguio)",
+          "grade": "B",
+          "date": "2026-11-13",
+          "says": "The ironwork front gate was once rumored to replicate that of Buckingham Palace; 이 소문은 사실이 아닌 것으로 정리돼 있음"
+        }
+      ],
+      "decision": "'소문이 있지만 확인된 사실은 아닙니다'로만 씀"
+    },
+    {
+      "where": "overview,highlights 4",
+      "fact": "라이트 공원 이름·조성·포니 보이",
+      "value": "루크 E. 라이트(총독 1904~1905) 이름, 미국 식민지 시대 휴양지, 조랑말을 다루는 포니 보이는 이발로이족이 많음",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wright_Park_(Baguio)",
+          "grade": "B",
+          "date": "2026-11-13",
+          "says": "named after American Governor Luke E. Wright; wooded area established as a recreational area; known for horseback riding; horses handled by pony boys, often members of the Ibaloi community"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Luke_Edward_Wright",
+          "grade": "B",
+          "date": "2026-11-13",
+          "says": "Governor-General February 1, 1904 – November 3, 1905 (본문은 1904 to 1905)"
+        },
+        {
+          "url": "https://newsinfo.inquirer.net/1306876/in-baguio-pony-boys-raring-to-get-horses-back-on-track",
+          "grade": "B",
+          "date": "2020",
+          "says": "검색 결과 제목만 확인(본문 403): 바기오 포니 보이들의 승마 재개 기사"
+        }
+      ],
+      "decision": "재임 기간은 위키백과 본문 표기(1904~1905)로. 이발로이족은 '많다'로 씀"
+    },
+    {
+      "where": "overview,highlights 1·5",
+      "fact": "소나무 연못(Pool of Pines)·아고호·퍼걸러·돌계단",
+      "value": "두 줄 소나무 사이의 긴 리플렉팅 풀, 가장자리 아고호, 서쪽 끝 나무 퍼걸러, 승마장으로 내려가는 돌계단",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/?p=18094",
+          "grade": "C",
+          "date": "2025-07-14",
+          "says": "the long reflecting pool that runs between two rows of towering pine trees; paved walkway lined with benches; the stairs at the top of the reflecting pool"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Mansion_(Baguio)",
+          "grade": "B",
+          "date": "2026-11-13",
+          "says": "Wright Park directly across the road has a long reflecting pool lined with agoho (Australian pine) trees and pony rides"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Reflecting_pool_of_Wright_Park_with_Mansion_House_in_the_background.jpg",
+          "grade": "C",
+          "date": "2024-12-10",
+          "says": "사진 설명: The Mansion while it is reflected by the Pool of Pines"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Wright_Pergola,_Baguio_City,_Feb_2025.jpg",
+          "grade": "C",
+          "date": "2025-02",
+          "says": "퍼걸러 사진(연못 서쪽 끝)"
+        }
+      ],
+      "decision": "이름·모습은 출처와 사진이 일치. 계단 수·연못 길이는 출처가 없어 쓰지 않음"
+    },
+    {
+      "where": "highlights 4,costs,tips",
+      "fact": "조랑말 승마 요금",
+      "value": "30분 약 ₱200~300 (공식 요금표 없음)",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/?p=18094",
+          "grade": "C",
+          "date": "2025-07-14",
+          "says": "basic rate around ₱200 for 30 minutes up to ₱300 for a full hour; trail rides 1–3 hours ₱600 or more; from around 7:00 AM until sunset"
+        },
+        {
+          "url": "https://au.trip.com/moments/poi-riding-stable-at-wright-park-58271926",
+          "grade": "C",
+          "date": "2025-07",
+          "says": "200 per 30 minutes or 1 hour, you have to negotiate (검색 결과 요약으로 확인)"
+        },
+        {
+          "url": "https://wanderlog.com/place/details/21559/wright-park",
+          "grade": "C",
+          "date": "2025",
+          "says": "방문 후기 모음(검색 결과 요약으로만 확인, 후기 원문은 직접 열어 보지 못함): 30분 300페소·등록비 20페소, 두 사람이 15분씩 번갈아 타 350페소를 낸 사례"
+        }
+      ],
+      "decision": "A·B 출처가 없고 C 출처끼리 ₱200~350 으로 갈림. '공식 요금표가 없고 약 ₱200~300/30분으로 알려져 있다'로 쓰고 타기 전에 값·시간을 정하라는 팁과 '두 사람 번갈아 타면 따로 받는 사례'를 붙임. 바탕 글의 2012년 1시간 ₱300 은 낡아 쓰지 않음 — 사람 검토 권장"
+    },
+    {
+      "where": "cautions",
+      "fact": "승마장 다목적 건물 공사",
+      "value": "2024 공사 중단·재입찰, 마구간 약 40칸·포니 보이 숙소·상점 100여 칸",
+      "sources": [
+        {
+          "url": "https://manilatimes.net/2024/10/25/regions/baguio-city-rebids-wright-park-projects/1990978",
+          "grade": "B",
+          "date": "2024-10-25",
+          "says": "city stopped construction of two multipurpose buildings at Wright Park due to contractor's failure; structures to house about 40 stables, pony boys' quarters, Lualhati community hall and more than 100 commercial stalls; rebidding"
+        },
+        {
+          "url": "https://mb.com.ph/2020/09/22/baguio-city-eyeing-p717-m-development-plan-for-wright-park",
+          "grade": "B",
+          "date": "2020-09-22",
+          "says": "₱717M Wright Park development plan (검색 결과 제목·요약)"
+        }
+      ],
+      "decision": "2025~2026 완공 소식을 찾지 못해 '2024년부터 공사가 이어지고 있어 일부 구간이 막히거나 말 대기 장소가 바뀔 수 있다'로만 씀 — 사람 검토 권장(현재 상태 미확인)"
+    },
+    {
+      "where": "highlights 6",
+      "fact": "바기오 아파치 기념 정원",
+      "value": "노란 기마 전사상, 제로니모 이름을 딴 바기오 지역 오랜 모임",
+      "sources": [
+        {
+          "url": "https://www.sunstar.com.ph/baguio/opinion/tibaldo-the-baguio-apaches-80th-anniversary",
+          "grade": "B",
+          "date": "",
+          "says": "founding members took the name from Geronimo, the Apache leader; club's 80th anniversary (검색 결과 요약)"
+        },
+        {
+          "url": "https://www.baguiomidlandcourier.com.ph/?p=4932",
+          "grade": "B",
+          "date": "",
+          "says": "Baguio Apache Park memorial for braves blessed at Wright Park (검색 결과 요약)"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:The_Baguio_Apaches_Monument,_Feb_2025.jpg",
+          "grade": "C",
+          "date": "2025-02",
+          "says": "노란 기마상 사진, 분류 Wright Park"
+        }
+      ],
+      "decision": "설립 연도·조각가는 확인 못 해 쓰지 않음"
+    },
+    {
+      "where": "best_time,cautions",
+      "fact": "악천후 임시 폐쇄 사례",
+      "value": "2026-08-31 라이트 공원·더 맨션·마인즈 뷰·식물원·캠프 존 헤이 등 임시 폐쇄",
+      "sources": [
+        {
+          "url": "https://tribune.net.ph/2026/08/31/baguio-closes-parks-amid-heavy-rains",
+          "grade": "B",
+          "date": "2026-08-31",
+          "says": "temporarily closed due to inclement weather: Camp John Hay attractions, Museo Kordilyera, Botanical Garden, Mines View Park, Wright Park, Bayan Park, Diplomat Hotel, Baguio Museum, The Mansion House, BenCab Museum; Burnham Park stayed open"
+        }
+      ],
+      "decision": "날짜 있는 사례로만 쓰고 '우기에는 바기오시 관광청 공지 확인'을 붙임"
+    },
+    {
+      "where": "best_time",
+      "fact": "12월 크리스마스트리 점등",
+      "value": "맨션 정문 앞 대형 트리·점등식",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260716021017/https://baguiomansionhouse.gov.ph/",
+          "grade": "A",
+          "date": "2026-07-16",
+          "says": "홈페이지 행사 목록에 '2025 Christmas Tree Lighting'"
+        },
+        {
+          "url": "philgo:travel/953394954",
+          "grade": "C",
+          "date": "2012-11-14",
+          "says": "11월 중순에 이미 크리스마스 장식"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:The_Mansion_Baguio_gate_(Leonard_Wood_Road,_Baguio_City;_12-04-2022).jpg",
+          "grade": "C",
+          "date": "2022-12-04",
+          "says": "정문 안쪽에 대형 트리가 선 사진"
+        }
+      ],
+      "decision": "행사 날짜는 해마다 달라 '12월'로만 씀"
+    },
+    {
+      "where": "highlights 7,nearby,costs,getting_there",
+      "fact": "바기오 식물원 위치·요금",
+      "value": "레너드 우드 로드로 걸어서 약 10분, 관광객 약 ₱100~110",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Baguio_Botanical_Garden",
+          "grade": "B",
+          "date": "2026-10-04",
+          "says": "Leonard Wood Road between Wright Park and Teacher's Camp; Igorot carvings, sculptures, huts (023 근거 기록)"
+        },
+        {
+          "url": "https://www.thepoortraveler.net/baguio-tourist-spots-things-to-do/",
+          "grade": "C",
+          "date": "2026-08-11",
+          "says": "Botanical Garden Adult P110 (023 근거 기록)"
+        },
+        {
+          "url": "https://tribune.net.ph/2026/02/18/residents-now-must-pay-for-baguio-botanical-garden",
+          "grade": "B",
+          "date": "2026-02-18",
+          "says": "BLISTT residents now must pay entrance fees after free period under Ordinance No. 62 s.2025 ended"
+        },
+        {
+          "url": "https://lakbaypinas.com/?p=18094",
+          "grade": "C",
+          "date": "2025-07-14",
+          "says": "Botanical Garden 은 라이트 공원에서 걸어갈 수 있는 거리, 입장 약 ₱100"
+        }
+      ],
+      "decision": "023 항목과 같은 '약 ₱100~110'. 거리는 OSM(Nominatim) 식물원 중심 16.4141, 120.6138 과 연못 중앙 사이 직선 약 0.5km 라 '걸어서 약 10분'"
+    },
+    {
+      "where": "getting_there,costs,nearby",
+      "fact": "마닐라·클락–바기오 버스, 지프니·택시, 마인즈 뷰와의 거리",
+      "value": "버스 일반 ₱655~680·디럭스 ₱850~1,065·퍼스트 ₱1,055~1,080(2026-08), 클락 ₱470~630, 지프니 최저 ₱14(2026-09-28), 'Mines View' 지프니 10~15분 ₱14~20, 택시 ₱100~200, 마인즈 뷰에서 약 1.5~1.7km 걸어서 20~25분",
+      "sources": [
+        {
+          "url": "https://www.thepoortraveler.net/manila-to-baguio-bus-schedule/",
+          "grade": "C",
+          "date": "2026-08",
+          "says": "Victory Liner regular ₱655–680, first ₱1,055–1,078; Genesis Joybus ₱999–1,065; Solid North luxury ₱1,080; 5–6 hours (214·240 근거 기록)"
+        },
+        {
+          "url": "https://www.philstar.com/the-freeman/cebu-news/2026/09/29/2559748/nationwide-transport-strike-proceeds-puv-fare-hike-takes-effect",
+          "grade": "B",
+          "date": "2026-09-29",
+          "says": "Effective September 28: traditional jeepneys ₱13→₱14 (first 4km), bus fares also increased (239·240 근거 기록)"
+        },
+        {
+          "url": "https://genesisjoybus.com/schedules",
+          "grade": "A",
+          "date": "2026-10-04",
+          "says": "Clark Airport–Baguio 3–4 hours (023·239 근거 기록)"
+        },
+        {
+          "url": "https://lakbaypinas.com/?p=18094",
+          "grade": "C",
+          "date": "2025-07-14",
+          "says": "jeepney 'Mines View – Plaza' from Burnham ₱13, 10–15 min, drop at Wright Park or The Mansion; taxi from Burnham ₱80–100; Wright Park about 1.5 km downhill from Mines View, 20–25 minutes walk"
+        },
+        {
+          "url": "data/ko/239-mines-view-park.json",
+          "grade": "C",
+          "date": "2026-10-07",
+          "says": "내부 항목: 마인즈 뷰–라이트 공원 도로 약 1.7km, 택시 10~15분 약 ₱100~200"
+        }
+      ],
+      "decision": "인접 항목(023·214·239·240)과 같은 값으로 맞추고 9월 말 인상을 함께 안내. 지프니는 인상분 반영 ₱14~20, 택시는 C 출처가 ₱80~200 으로 갈려 '약 ₱100~200'. 거리는 두 값을 합쳐 1.5~1.7km"
+    },
+    {
+      "where": "costs,tips,highlights 7",
+      "fact": "화장실·사진 노점·딸기 타호",
+      "value": "화장실 약 ₱5~10, 사진 노점 약 ₱10~50, 딸기 타호 약 ₱25~50",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/?p=18094",
+          "grade": "C",
+          "date": "2025-07-14",
+          "says": "restroom fee ₱5–10; photo ops with St. Bernard dogs or in Igorot attire ₱10–50; strawberry taho ₱25–50; vendors cash only"
+        },
+        {
+          "url": "https://www.jmgnest.com/things-to-do/mines-view-park-baguio-complete-guide",
+          "grade": "C",
+          "date": "2025-12-05",
+          "says": "St. Bernard dogs ₱20–50 per photo (239 근거 기록)"
+        },
+        {
+          "url": "data/ko/239-mines-view-park.json",
+          "grade": "C",
+          "date": "2026-10-07",
+          "says": "내부 항목: 딸기 타호 약 ₱25~40"
+        }
+      ],
+      "decision": "C 출처뿐이라 모두 '약'과 범위로 쓰고 '찍기 전에 값을 확인'을 붙임"
+    },
+    {
+      "where": "best_time",
+      "fact": "기온·건기·우기·축제",
+      "value": "연평균 18~20℃, 11~4월 건기, 6~10월 우기, 2월 파낭벵가, 3~4월 성주간",
+      "sources": [
+        {
+          "url": "data/ko/214-burnham-park-baguio.json",
+          "grade": "C",
+          "date": "2026-10-03",
+          "says": "내부 항목: 바기오 연평균 18~20℃, 11~2월 새벽 10℃ 안팎"
+        },
+        {
+          "url": "https://www.spot.ph/things-to-do/the-latest-things-to-do/panagbenga-festival-2026-schedule-of-activities-in-baguio-a5138-20260126-dyn",
+          "grade": "B",
+          "date": "2026-01-26",
+          "says": "2026 Panagbenga 2026-02-01 opening parade to 03-08 closing (240 근거 기록)"
+        }
+      ],
+      "decision": "인접 항목과 같게 씀"
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "숙소·먹거리 가격대",
+      "value": "게스트하우스 약 ₱1,500~2,500, 중급 호텔 약 ₱3,000~6,000, 박물관 음식 반입 금지",
+      "sources": [
+        {
+          "url": "data/ko/023-baguio.json",
+          "grade": "C",
+          "date": "2026-10-04",
+          "says": "내부 항목: 바기오 숙소 가격대(게스트하우스·중급 호텔)"
+        },
+        {
+          "url": "https://web.archive.org/web/20251007191302/https://museums.gov.ph/baguio-mansion-tour-request-form/",
+          "grade": "A",
+          "date": "2025-10-07",
+          "says": "no food and drinks allowed inside the museum"
+        }
+      ],
+      "decision": "숙소 가격은 023 항목 범위에 맞추고 '약'을 붙임. 특정 숙소·식당 이름은 쓰지 않음"
+    }
+  ],
+  "images": [
+    {
+      "file": "275-wright-park-the-mansion.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mansion_House_Reflection.jpg",
+      "check": "소나무 연못에 비친 맨션(2023-10-22, Richmond Chi, CC BY-SA 4.0) — 분류 The Mansion (Baguio)·Wright Park, 본문 '연못에 비친 맨션' 대표 장면과 일치. 같은 구도 후보(2022·2026 일출)보다 선명해 대표 사진으로. 023 항목은 이 파일을 쓰지 않음. 직접 열어 확인, 워터마크·로고 없음"
+    },
+    {
+      "file": "275-wright-park-the-mansion-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Facade_of_The_Mansion,_Baguio.jpg",
+      "check": "맨션 정면(2013, PCDSPO, 퍼블릭 도메인) — 흰 벽·초록 지붕 확인, 하이라이트 대통령 박물관과 일치. 직접 열어 확인, 워터마크·로고 없음"
+    },
+    {
+      "file": "275-wright-park-the-mansion-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Mansion_view_from_Gate,_Baguio_City,_Feb_2025.jpg",
+      "check": "정문 너머 잔디밭과 건물(2025-02, Ralff Nestor Nacor, CC BY-SA 4.0) — GPS 16.4141, 120.6201 로 정문 앞, 하이라이트 '철문과 잔디밭'과 일치. 023 이 쓰는 The_Mansion,_Baguio_City,_Feb_2025.jpg 와 다른 파일. 직접 열어 확인"
+    },
+    {
+      "file": "275-wright-park-the-mansion-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mansion_House_Gate,_Baguio_City,_Feb_2025_(1).jpg",
+      "check": "덩굴무늬 철제 정문(2025-02, Ralff Nestor Nacor, CC BY-SA 4.0) — 하이라이트 '철문' 서술과 일치. 비슷한 2022 정문 사진은 중복이라 뺌. 직접 열어 확인"
+    },
+    {
+      "file": "275-wright-park-the-mansion-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Wright_Park_Lake,_Baguio_City,_Feb_2025_(2).jpg",
+      "check": "두 줄 소나무 사이 리플렉팅 풀(2025-02, Ralff Nestor Nacor, CC BY-SA 4.0) — 분류 Wright Park, 개요 '소나무 연못'과 일치. 직접 열어 확인"
+    },
+    {
+      "file": "275-wright-park-the-mansion-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:An_Old_Way_Through_01.jpg",
+      "check": "아침 햇살 속 나무 퍼걸러(2026-10-28, VnctL, CC BY-SA 4.0) — 분류 Wright Park, 하이라이트 '퍼걸러와 돌계단'과 일치. 같은 퍼걸러의 2025-02 사진보다 빛이 좋아 이것만 씀. 직접 열어 확인"
+    },
+    {
+      "file": "275-wright-park-the-mansion-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Wright_Park_High_Stairways,_Baguio_City,_Feb_2025.jpg",
+      "check": "승마장으로 내려가는 돌계단과 아래 조랑말(2025-02, Ralff Nestor Nacor, CC BY-SA 4.0) — 본문 '긴 돌계단을 내려가면 승마장'과 일치. 위에서 찍은 같은 계단 사진은 중복이라 뺌. 직접 열어 확인"
+    },
+    {
+      "file": "275-wright-park-the-mansion-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:04_16_2006_Wright_Park_Baguio_City_(5).jpg",
+      "check": "승마장에 늘어선 대여용 조랑말(2006-04-16, Jose Angelito P. Angeles, 퍼블릭 도메인) — 분류 Wright Park, 하이라이트 '조랑말 승마'와 일치. 023 이 쓰는 Lane_of_horses_in_Wright_Park 와 다른 파일, 아이 얼굴이 중심인 후보는 뺌. 직접 열어 확인"
+    },
+    {
+      "file": "275-wright-park-the-mansion-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Baguio_Apaches_Monument,_Feb_2025.jpg",
+      "check": "노란 기마 전사상(2025-02, Ralff Nestor Nacor, CC BY-SA 4.0) — 하이라이트 '바기오 아파치 기념 정원'과 일치. 직접 열어 확인"
+    },
+    {
+      "file": "275-wright-park-the-mansion-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Wright_Park_Kiosk,_Baguio,_Feb_2025.jpg",
+      "check": "화분 노점이 늘어선 공원 입구 길(2025-02, Ralff Nestor Nacor, CC BY-SA 4.0) — 하이라이트 '입구 길 노점'과 일치. 직접 열어 확인"
+    },
+    {
+      "file": "275-wright-park-the-mansion-11.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Gov._Gen's_Mansion,_Baguio,_P.I._LOC_14333026840.jpg",
+      "check": "1915~1920년 무렵 총독 관저(미국 의회도서관, 퍼블릭 도메인) — 개요 '미국 총독 여름 관저' 연혁과 일치. 직접 열어 확인"
+    },
+    {
+      "file": "275-wright-park-the-mansion-12.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Mansion_(Baguio)_aerial_photo_-_NARA_-_68155840.jpg",
+      "check": "1923-03-15 항공 사진(미국 국립문서보관소, 퍼블릭 도메인, 작자 미상) — 전쟁 전 관저 모습, 연혁 서술과 일치. 직접 열어 확인"
+    }
+  ]
+}
