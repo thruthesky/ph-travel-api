@@ -1,0 +1,42 @@
+{
+  "requested_at": "2026-11-16",
+  "checked_at": "2026-11-16T14:49:28Z",
+  "request": "기존 항목에 신규 여행정보 최소 2,000개 추가",
+  "baseline_registered": 268,
+  "requested_new_minimum": 2000,
+  "required_total_minimum": 2268,
+  "current_registered": 268,
+  "new_registered": 0,
+  "remaining_new_minimum": 2000,
+  "complete": false,
+  "inputs": [
+    {
+      "path": "work/philgo-travel-posts-before-2025-08-09.csv",
+      "sha256": "e30b6c3f58cf1abe1d028122bdeca7252be16bac1dc9ef62a6f1b674b857575b",
+      "rows": 388
+    },
+    {
+      "path": "work/philgo-travel-posts-since-2025-08-10.tsv",
+      "sha256": "a29367edaf18ba0a434cbf98bb6255177ddb720ef4149a860f3969acf6856ad9",
+      "rows": 1153
+    }
+  ],
+  "prior_audit_checked_at": "2026-11-13T10:50:10.236Z",
+  "candidate_groups_from_prior_audit": 513,
+  "candidate_posts_from_prior_audit": 548,
+  "candidate_count_is_verified_places": false,
+  "research_started": [
+    "aliwan-fiesta",
+    "dinagyang-festival",
+    "panagbenga-festival"
+  ],
+  "prepared_image_files": 27,
+  "prepared_images_are_registered": false,
+  "source_scope_note": "1,541글은 신규 장소 수나 장소 수의 상한이 아님. 513묶음도 목록 이름 기준 조사 후보이므로 본문 하위 명소 추가 발굴과 외부 출처 조사가 필요함.",
+  "blocking_observations": [
+    "Wikimedia 원본 다운로드에서 HTTP 429, 이후 서버 권장 표준 1280px 공개 사진으로 확보. Commons API 한 요청은 HTTP 403.",
+    "Google Translate 연결 확인 두 차례 모두 HTTP 429. 번역문을 만들거나 검증 완료했다고 기록하지 않음."
+  ],
+  "production_data_changed": false,
+  "deployed": false
+}

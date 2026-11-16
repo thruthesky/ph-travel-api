@@ -14,6 +14,7 @@ api-skill 로 이 저장소에서 일할 때 **쌓이는 값**을 모두 여기�
 | `catalog-details.json` | 주소·연락처·별칭 등 출처를 확인한 보충 정보 | 새 정보를 확인했을 때 |
 | `addition-candidates.csv` | 두 팀의 필고 후보를 `data.csv`에 대조한 결과. 실제 API 수록 건수와 구분한다 | 대장 갱신 후 `node scripts/candidates.mjs` |
 | `catalog-duplicates.md` | 기존 여행지끼리 동일 이름 키를 가진 항목 검토 | `node scripts/catalog.mjs` |
+| `expansion-2000/` | 신규 2,000개 추가 요청의 미완료 진행 기록·후보 조사·준비 사진. API 등록 수와 구분 | 실제 검증을 마쳐 등록할 때 진행 수 갱신 |
 
 ## usage.jsonl 한 줄의 모양
 
