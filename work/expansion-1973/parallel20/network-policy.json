@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-17T12:18:33.821567+00:00",
+  "sources": [
+    "https://www.mediawiki.org/wiki/API:Etiquette",
+    "https://www.mediawiki.org/wiki/Manual:Creating_a_bot"
+  ],
+  "read": "검색후실제공식본문읽음",
+  "before": {
+    "global_gap_seconds": 15,
+    "recent_successes_http200": 30,
+    "queue_fairness": "flock편향을FIFO로교정"
+  },
+  "current": {
+    "concurrent_http_requests": 1,
+    "minimum_gap_seconds": 6,
+    "per_minute_max_without_response_time": 10,
+    "user_agent": "ph-travel-api-content/1.0 (https://github.com/thruthesky/ph-travel-api; public-content-research)",
+    "http403_429_cooldown_min_seconds": 600,
+    "respect_retry_after": true,
+    "failed_remote_url_repeated": false,
+    "download_url_rewriting": false,
+    "batch_titles_max": 50
+  },
+  "reason": "공식지침의순차요청·식별가능한클라이언트·묶음조회·maxlag미사용시분당10이하를따른다.최근30요청전부200을확인한뒤불필요한15초대기를6초로줄여처리량개선.시행중인기존요청은중복재시작하지않는다.식별UA는브라우저위장이아니고공식예절준수용이며현재차단우회가아니다."
+}

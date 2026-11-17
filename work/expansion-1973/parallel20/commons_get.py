@@ -58,7 +58,8 @@ try:
         if delay:
             time.sleep(delay)
         headers = output.with_name(output.name + '.headers.txt')
-        result = subprocess.run(['curl', '--silent', '--show-error', '--max-time', '40', '--dump-header', str(headers), '--output', str(output), '--write-out', '%{http_code}', args.url], capture_output=True, text=True)
+        request_started = time.time()
+        result = subprocess.run(['curl', '--silent', '--show-error', '--max-time', '40', '--user-agent', 'ph-travel-api-content/1.0 (https://github.com/thruthesky/ph-travel-api; public-content-research)', '--dump-header', str(headers), '--output', str(output), '--write-out', '%{http_code}', args.url], capture_output=True, text=True)
         code = int(result.stdout) if result.stdout.isdigit() else 0
         now = time.time()
         retry_after = None
@@ -73,8 +74,8 @@ try:
                             retry_after = max(0, email.utils.parsedate_to_datetime(raw).timestamp() - now)
                         except (ValueError, TypeError, OverflowError):
                             pass
-        record = {'at': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'arrival_ns': arrival, 'queue_wait_seconds': round(now - arrival / 1e9, 3), 'url': args.url, 'out': str(output), 'http_status': code, 'curl_exit_code': result.returncode, 'retry_after_seconds': retry_after, 'request_attempted': True, 'http_response_received': bool(code), 'request_sent': False if result.returncode == 6 else (True if code else None), 'transport_error_kind': 'dns_resolution_failed' if result.returncode == 6 else ('curl_transport_error' if result.returncode else None)}
-        pause = max(600, retry_after or 0) if code in [403, 429] else 15
+        record = {'at': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'arrival_ns': arrival, 'queue_wait_seconds': round(request_started - arrival / 1e9, 3), 'url': args.url, 'out': str(output), 'http_status': code, 'curl_exit_code': result.returncode, 'retry_after_seconds': retry_after, 'request_attempted': True, 'http_response_received': bool(code), 'request_sent': False if result.returncode == 6 else (True if code else None), 'minimum_gap_seconds': 6, 'client_notice': 'categorymembers가500파일을반환해도imageinfo는50개에만붙을수있다.실제imageinfo있는파일수를세고필요제목을최대50개batch titles로보완한다.', 'transport_error_kind': 'dns_resolution_failed' if result.returncode == 6 else ('curl_transport_error' if result.returncode else None)}
+        pause = max(600, retry_after or 0) if code in [403, 429] else 6
         temporary = state_dir / f'state-{os.getpid()}.tmp'
         temporary.write_text(json.dumps({'next_allowed': now + pause, 'last_status': code, 'last_url': args.url}) + '\n')
         temporary.replace(state_file)

@@ -47,12 +47,12 @@
   "new_verified_count": 36,
   "remaining_new_minimum": 1937,
   "complete": false,
-  "goal_status": "active",
+  "goal_status": "user_cleared",
   "requirements": [
     {
       "id": 1,
       "requirement": "입력 두 파일의 미수록 여행지를 모두 골라 등록",
-      "status": "1541개 공개본문 점검 완료:본문1501/삭제35/빈본문3/API없음2. 하위명소 자동추출 후 수동검증·미수록등록 계속"
+      "status": "1501개전문1차분석완료·후보중복/실재검토와전체미수록등록은미완료·사용자요청종료"
     },
     {
       "id": 2,
@@ -99,14 +99,11 @@
     "manual_failure_verification_requests": 2,
     "summary": "work/expansion-1973/source-fetch-summary.json"
   },
-  "updated_at": "2026-11-17T12:08:31.484Z",
+  "updated_at": "2026-11-17T12:42:54.676479+00:00",
   "build_version": "25e96048921c",
   "data_version": "2026-11-17T12:08:16Z",
   "worker_next": {
-    "luzon_batch": "387보카우에·388칼룸핏사진검토",
-    "ormoc_finish": "343푸엔테오스메냐서클사진검토",
-    "mindanao_batch": "363바코르사진·364칼로오칸·365만달루용서부조사",
-    "root": "377SanPedroLaguna원글/사진16후보확보CLI진행"
+    "note": "자동재개없음·후속팀이새지시를받을때HANDOFF.md참고"
   },
   "browser_handoff": {
     "space_id": 13,
@@ -156,7 +153,15 @@
     "full_goal_complete": false,
     "first_pass_report": "work/expansion-1973/parallel20/first-pass-review.json",
     "authors_launched": 20,
-    "authors_active_last_verified": 20,
-    "network_dispatch": "도착시각FIFO·15초간격·403429최소10분냉각"
-  }
+    "authors_active_last_verified": 0,
+    "network_dispatch": "도착시각FIFO·단일요청·6초간격·403429최소10분냉각",
+    "evidence_review": "표시글밖40구절원문HTML속성/URL에모두존재·장소실재인증아님",
+    "authors_closed": 20,
+    "handoff_index": "work/expansion-1973/parallel20/airport-handoff-index.json"
+  },
+  "execution_status": "사용자요청으로전체확대종료·현재진행분인계완료",
+  "goal_complete": false,
+  "new_work_allowed": false,
+  "handoff_document": "work/HANDOFF.md",
+  "handoff_complete": true
 }

@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "prompt": "현재377산페드로의추가사진2장확보만수행합니다. 당신은이미CodexCLI이며다른CLI호출금지입니다. 입력 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/sanpedro-extra-preparation.json의두후보(경계아치와2025시장)를각original경로로확보합니다. 기존01~16성공사진재다운로드금지. 모든Commons GET은python3 work/expansion-1973/parallel20/commons_get.py URL --out 파일로실행해공유잠금/15초간격/403429냉각을준수합니다. exit75는요청안보냈다는뜻이므로다른준비를하면서만료후새시도. 실제403429실패URL반복/호스트/IP/UA변경금지. 공식imageinfo API iiurlwidth=1600이직접반환한thumburl그대로받습니다. 경계아치는full원본폭1600이라공식thumburl도unscaled원본일수있습니다. 이번에는원본실측폭1080~1920일때API가반환한그정상URL확보를허용합니다. 다른큰전체원본다운로드금지는유지. 숫자URL재조립/크기호스트변경없음. API표시치수와실제파일1920경우구별. 이작업은원본확보/읽기전용디코딩/SHA뿐이며픽셀변환/수정/합성없음. 프롬프트와결과보고서 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/sanpedro-extra-acquisition-report.json에각파일/출처/metadata요청/다운로드게시URL/HTTP/RetryAfter/실측/SHA/바이트/호출수를저장. 부모가원본을직접눈검수하므로눈검수완료나최종선정표시금지. data/sources/work전역/커밋변경금지. 입력JSON보존. 완료까지진행하고보고서만인계하세요.",
+  "started_at": "2026-11-17T12:10:59.028796+00:00",
+  "finished_at": "2026-11-17T12:31:28.233449+00:00",
+  "status": "completed",
+  "input_path": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/sanpedro-extra-preparation.json",
+  "input_sha256_before": "5ad2826e01268197ea16d679c493585d68b947fbcdeab907a70d2baf77dd21d2",
+  "candidate_count": 2,
+  "requested_iiurlwidth": 1600,
+  "minimum_actual_input_width": 1080,
+  "unscaled_original_exception": {
+    "minimum_actual_width": 1080,
+    "maximum_actual_width": 1920,
+    "only_api_returned_thumburl": true
+  },
+  "execution": "현재 Codex CLI에서 직접 수행. 다른 Codex CLI·하위 에이전트·외부 AI 호출 없음.",
+  "network_policy": {
+    "helper": "work/expansion-1973/parallel20/commons_get.py",
+    "shared_lock": true,
+    "minimum_gap_seconds": 15,
+    "actual_request_retries": 0,
+    "exit75_only_rescheduled_after_cooldown": true,
+    "host_ip_or_user_agent_workarounds": false
+  },
+  "pixel_operations": {
+    "generated": false,
+    "retouched": false,
+    "resized_locally": false,
+    "cropped": false,
+    "composited": false,
+    "converted_to_webp": false
+  },
+  "stats": {
+    "helper_invocations": 4,
+    "cooldown_deferrals": 0,
+    "api_calls": 2,
+    "download_attempts": 2,
+    "successful_downloads": 2,
+    "success_count": 2,
+    "preserved_existing_valid": 0,
+    "http_failures": {},
+    "transport_failures": 0,
+    "validation_failures": 0,
+    "last_retry_after": null,
+    "last_retry_after_seconds": null,
+    "last_request_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg/1920px-San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "not_attempted_count": 0,
+    "actual_get_count": 4,
+    "http_status_counts": {
+      "200": 4
+    },
+    "total_acquired_bytes": 1097925
+  },
+  "helper_events": [
+    {
+      "kind": "api",
+      "candidate_index": 1,
+      "request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&titles=File%3ASan+Pedro-Rosario+Arch.JPG&iiprop=url%7Csize%7Cmime&iiurlwidth=1600",
+      "invoked_at": "2026-11-17T12:10:59.029994+00:00",
+      "returned_at": "2026-11-17T12:20:06.271531+00:00",
+      "exit_code": 0,
+      "result": {
+        "at": "2026-11-17T12:20:06.263338+00:00",
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&titles=File%3ASan+Pedro-Rosario+Arch.JPG&iiprop=url%7Csize%7Cmime&iiurlwidth=1600",
+        "out": "/private/var/folders/n8/2tn4qc3s6zx63v6ks3bnfh500000gn/T/sanpedro-extra-acquisition-0_wm7100/api.json",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "retry_after_seconds": null,
+        "request_sent": true
+      }
+    },
+    {
+      "kind": "download",
+      "candidate_index": 1,
+      "request_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/San_Pedro-Rosario_Arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "invoked_at": "2026-11-17T12:20:06.273800+00:00",
+      "returned_at": "2026-11-17T12:29:48.402009+00:00",
+      "exit_code": 0,
+      "result": {
+        "at": "2026-11-17T12:29:48.394707+00:00",
+        "arrival_ns": 1794918006306045000,
+        "queue_wait_seconds": 580.673,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/San_Pedro-Rosario_Arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "out": "/private/var/folders/n8/2tn4qc3s6zx63v6ks3bnfh500000gn/T/sanpedro-extra-acquisition-0_wm7100/downloaded.jpg",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "retry_after_seconds": null,
+        "request_attempted": true,
+        "http_response_received": true,
+        "request_sent": true,
+        "minimum_gap_seconds": 6,
+        "client_notice": "categorymembers가500파일을반환해도imageinfo는50개에만붙을수있다.실제imageinfo있는파일수를세고필요제목을최대50개batch titles로보완한다.",
+        "transport_error_kind": null
+      }
+    },
+    {
+      "kind": "api",
+      "candidate_index": 2,
+      "request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&titles=File%3ASan+Pedro+Town+Center+-+Wet+%26+Dry+Market%2C+Laguna%2C+Jun+2025.jpg&iiprop=url%7Csize%7Cmime&iiurlwidth=1600",
+      "invoked_at": "2026-11-17T12:29:48.439962+00:00",
+      "returned_at": "2026-11-17T12:30:45.801615+00:00",
+      "exit_code": 0,
+      "result": {
+        "at": "2026-11-17T12:30:45.793854+00:00",
+        "arrival_ns": 1794918588476165000,
+        "queue_wait_seconds": 56.813,
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&titles=File%3ASan+Pedro+Town+Center+-+Wet+%26+Dry+Market%2C+Laguna%2C+Jun+2025.jpg&iiprop=url%7Csize%7Cmime&iiurlwidth=1600",
+        "out": "/private/var/folders/n8/2tn4qc3s6zx63v6ks3bnfh500000gn/T/sanpedro-extra-acquisition-0_wm7100/api.json",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "retry_after_seconds": null,
+        "request_attempted": true,
+        "http_response_received": true,
+        "request_sent": true,
+        "minimum_gap_seconds": 6,
+        "client_notice": "categorymembers가500파일을반환해도imageinfo는50개에만붙을수있다.실제imageinfo있는파일수를세고필요제목을최대50개batch titles로보완한다.",
+        "transport_error_kind": null
+      }
+    },
+    {
+      "kind": "download",
+      "candidate_index": 2,
+      "request_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg/1920px-San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "invoked_at": "2026-11-17T12:30:45.802638+00:00",
+      "returned_at": "2026-11-17T12:31:28.203808+00:00",
+      "exit_code": 0,
+      "result": {
+        "at": "2026-11-17T12:31:28.198257+00:00",
+        "arrival_ns": 1794918645835647000,
+        "queue_wait_seconds": 41.66,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg/1920px-San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "out": "/private/var/folders/n8/2tn4qc3s6zx63v6ks3bnfh500000gn/T/sanpedro-extra-acquisition-0_wm7100/downloaded.jpg",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "retry_after_seconds": null,
+        "request_attempted": true,
+        "http_response_received": true,
+        "request_sent": true,
+        "minimum_gap_seconds": 6,
+        "client_notice": "categorymembers가500파일을반환해도imageinfo는50개에만붙을수있다.실제imageinfo있는파일수를세고필요제목을최대50개batch titles로보완한다.",
+        "transport_error_kind": null
+      }
+    }
+  ],
+  "requests": [
+    {
+      "kind": "api",
+      "candidate_index": 1,
+      "request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&titles=File%3ASan+Pedro-Rosario+Arch.JPG&iiprop=url%7Csize%7Cmime&iiurlwidth=1600",
+      "helper_invoked_at": "2026-11-17T12:10:59.029994+00:00",
+      "completed_at": "2026-11-17T12:20:06.263338+00:00",
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "retry_after": null,
+      "retry_after_seconds": null,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "1021",
+        "date": "Tue, 17 Nov 2026 11:30:35 GMT"
+      },
+      "helper_record": {
+        "at": "2026-11-17T12:20:06.263338+00:00",
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&titles=File%3ASan+Pedro-Rosario+Arch.JPG&iiprop=url%7Csize%7Cmime&iiurlwidth=1600",
+        "out": "/private/var/folders/n8/2tn4qc3s6zx63v6ks3bnfh500000gn/T/sanpedro-extra-acquisition-0_wm7100/api.json",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "retry_after_seconds": null,
+        "request_sent": true
+      }
+    },
+    {
+      "kind": "download",
+      "candidate_index": 1,
+      "request_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/San_Pedro-Rosario_Arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "helper_invoked_at": "2026-11-17T12:20:06.273800+00:00",
+      "completed_at": "2026-11-17T12:29:48.394707+00:00",
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "retry_after": null,
+      "retry_after_seconds": null,
+      "response_headers": {
+        "content-type": "image/jpeg",
+        "content-length": "617181",
+        "date": "Tue, 17 Nov 2026 12:29:47 GMT"
+      },
+      "helper_record": {
+        "at": "2026-11-17T12:29:48.394707+00:00",
+        "arrival_ns": 1794918006306045000,
+        "queue_wait_seconds": 580.673,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/San_Pedro-Rosario_Arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "out": "/private/var/folders/n8/2tn4qc3s6zx63v6ks3bnfh500000gn/T/sanpedro-extra-acquisition-0_wm7100/downloaded.jpg",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "retry_after_seconds": null,
+        "request_attempted": true,
+        "http_response_received": true,
+        "request_sent": true,
+        "minimum_gap_seconds": 6,
+        "client_notice": "categorymembers가500파일을반환해도imageinfo는50개에만붙을수있다.실제imageinfo있는파일수를세고필요제목을최대50개batch titles로보완한다.",
+        "transport_error_kind": null
+      }
+    },
+    {
+      "kind": "api",
+      "candidate_index": 2,
+      "request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&titles=File%3ASan+Pedro+Town+Center+-+Wet+%26+Dry+Market%2C+Laguna%2C+Jun+2025.jpg&iiprop=url%7Csize%7Cmime&iiurlwidth=1600",
+      "helper_invoked_at": "2026-11-17T12:29:48.439962+00:00",
+      "completed_at": "2026-11-17T12:30:45.793854+00:00",
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "retry_after": null,
+      "retry_after_seconds": null,
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "1970",
+        "date": "Tue, 17 Nov 2026 12:30:45 GMT"
+      },
+      "helper_record": {
+        "at": "2026-11-17T12:30:45.793854+00:00",
+        "arrival_ns": 1794918588476165000,
+        "queue_wait_seconds": 56.813,
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&titles=File%3ASan+Pedro+Town+Center+-+Wet+%26+Dry+Market%2C+Laguna%2C+Jun+2025.jpg&iiprop=url%7Csize%7Cmime&iiurlwidth=1600",
+        "out": "/private/var/folders/n8/2tn4qc3s6zx63v6ks3bnfh500000gn/T/sanpedro-extra-acquisition-0_wm7100/api.json",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "retry_after_seconds": null,
+        "request_attempted": true,
+        "http_response_received": true,
+        "request_sent": true,
+        "minimum_gap_seconds": 6,
+        "client_notice": "categorymembers가500파일을반환해도imageinfo는50개에만붙을수있다.실제imageinfo있는파일수를세고필요제목을최대50개batch titles로보완한다.",
+        "transport_error_kind": null
+      }
+    },
+    {
+      "kind": "download",
+      "candidate_index": 2,
+      "request_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg/1920px-San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "helper_invoked_at": "2026-11-17T12:30:45.802638+00:00",
+      "completed_at": "2026-11-17T12:31:28.198257+00:00",
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "retry_after": null,
+      "retry_after_seconds": null,
+      "response_headers": {
+        "content-type": "image/jpeg",
+        "content-length": "480744",
+        "date": "Tue, 17 Nov 2026 06:03:28 GMT"
+      },
+      "helper_record": {
+        "at": "2026-11-17T12:31:28.198257+00:00",
+        "arrival_ns": 1794918645835647000,
+        "queue_wait_seconds": 41.66,
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg/1920px-San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "out": "/private/var/folders/n8/2tn4qc3s6zx63v6ks3bnfh500000gn/T/sanpedro-extra-acquisition-0_wm7100/downloaded.jpg",
+        "http_status": 200,
+        "curl_exit_code": 0,
+        "retry_after_seconds": null,
+        "request_attempted": true,
+        "http_response_received": true,
+        "request_sent": true,
+        "minimum_gap_seconds": 6,
+        "client_notice": "categorymembers가500파일을반환해도imageinfo는50개에만붙을수있다.실제imageinfo있는파일수를세고필요제목을최대50개batch titles로보완한다.",
+        "transport_error_kind": null
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "index": 1,
+      "title": "File:San Pedro-Rosario Arch.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:San_Pedro-Rosario_Arch.JPG",
+      "original_path": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/sanpedro-originals/04.jpg",
+      "initial_source_metadata": {
+        "id": 377,
+        "slug": "san-pedro-laguna",
+        "title": "File:San Pedro-Rosario Arch.JPG",
+        "width": 1600,
+        "height": 908,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/San_Pedro-Rosario_Arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Pedro-Rosario_Arch.JPG",
+        "artist": "Totoyba2",
+        "license": "CC BY-SA 3.0",
+        "date": "2012-10-22 17:58:54",
+        "description": "A boundary arch between Binan City & San Pedro Town Laguna",
+        "categories": "Taken with Canon EOS 1100D|San Pedro, Laguna|Self-published work|Arch gates of populated places in the Philippines",
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/sanpedro-originals/04.jpg"
+      },
+      "full_original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/San_Pedro-Rosario_Arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "published_source_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/San_Pedro-Rosario_Arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "actual_input_width": 1600,
+      "actual_input_height": 908,
+      "sha256": "6bef2a6b865ff9831a2c9518fee10440210c0d2b7b948947eec3155f78352b59",
+      "file_size_bytes": 617181,
+      "status": "downloaded_verified",
+      "visual_review": "부모 검수 대기",
+      "final_selection": "부모 선정 대기",
+      "api_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&titles=File%3ASan+Pedro-Rosario+Arch.JPG&iiprop=url%7Csize%7Cmime&iiurlwidth=1600",
+      "api_response": {
+        "batchcomplete": true,
+        "query": {
+          "pages": [
+            {
+              "pageid": 22565478,
+              "ns": 6,
+              "title": "File:San Pedro-Rosario Arch.JPG",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "size": 617181,
+                  "width": 1600,
+                  "height": 908,
+                  "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/58/San_Pedro-Rosario_Arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                  "thumbwidth": 1600,
+                  "thumbheight": 908,
+                  "thumbattribs": {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/San_Pedro-Rosario_Arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                    "decoding": "async",
+                    "loading": "lazy",
+                    "width": 1600,
+                    "height": 908
+                  },
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/San_Pedro-Rosario_Arch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                  "descriptionurl": "https://commons.wikimedia.org/wiki/File:San_Pedro-Rosario_Arch.JPG",
+                  "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/22565478",
+                  "mime": "image/jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "api_full_original_metadata": {
+        "width": 1600,
+        "height": 908,
+        "size": 617181,
+        "mime": "image/jpeg"
+      },
+      "api_published_metadata": {
+        "width": 1600,
+        "height": 908,
+        "mime": null
+      },
+      "api_published_metadata_note": "API 표시 치수. 실제 확보 파일 치수는 actual_input_width/height에 별도 기록함.",
+      "download_is_unscaled_original": true,
+      "unscaled_original_exception_applied": true,
+      "decoded_format": "JPEG",
+      "decoder": "ImageMagick identify: -ping 없이 전체 디코딩, 픽셀 저장·변경 없음",
+      "bytes_unchanged_by_validation": true,
+      "decoded_dimensions_match_api_thumbnail": true,
+      "acquired_at": "2026-11-17T12:29:48.439649+00:00",
+      "api_http_status": 200,
+      "download_http_status": 200,
+      "api_retry_after": null,
+      "download_retry_after": null
+    },
+    {
+      "index": 2,
+      "title": "File:San Pedro Town Center - Wet & Dry Market, Laguna, Jun 2025.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:San_Pedro_Town_Center_-_Wet_%26_Dry_Market,_Laguna,_Jun_2025.jpg",
+      "original_path": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/sanpedro-originals/17.jpg",
+      "initial_source_metadata": {
+        "id": 377,
+        "slug": "san-pedro-laguna",
+        "title": "File:San Pedro Town Center - Wet & Dry Market, Laguna, Jun 2025.jpg",
+        "width": 4080,
+        "height": 3072,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Pedro_Town_Center_-_Wet_%26_Dry_Market,_Laguna,_Jun_2025.jpg",
+        "artist": "Ralff Nestor Nacor",
+        "license": "CC BY-SA 4.0",
+        "date": "2025-06-20 06:27:56",
+        "description": "San Pedro Town Center - Wet & Dry Market, Laguna, Jun 2025",
+        "categories": "San Pedro, Laguna|Self-published work|Files with coordinates missing SDC location of creation|Photographs by User:Ralffralff|Philippine Panorama Project/Food & Beverages|Philippine Panorama Project/San Pedro, Laguna",
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/sanpedro-originals/17.jpg"
+      },
+      "full_original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "published_source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg/1920px-San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "actual_input_width": 1920,
+      "actual_input_height": 1446,
+      "sha256": "f718f7cd42fb2673899c20455b45b57ac080931259f8e7366224b5eff5d0d769",
+      "file_size_bytes": 480744,
+      "status": "downloaded_verified",
+      "visual_review": "부모 검수 대기",
+      "final_selection": "부모 선정 대기",
+      "api_request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&titles=File%3ASan+Pedro+Town+Center+-+Wet+%26+Dry+Market%2C+Laguna%2C+Jun+2025.jpg&iiprop=url%7Csize%7Cmime&iiurlwidth=1600",
+      "api_response": {
+        "batchcomplete": true,
+        "query": {
+          "pages": [
+            {
+              "pageid": 168158510,
+              "ns": 6,
+              "title": "File:San Pedro Town Center - Wet & Dry Market, Laguna, Jun 2025.jpg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "size": 3070374,
+                  "width": 4080,
+                  "height": 3072,
+                  "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg/1920px-San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                  "thumbwidth": 1600,
+                  "thumbheight": 1205,
+                  "responsiveUrls": {
+                    "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg/3840px-San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                  },
+                  "thumbattribs": {
+                    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg/1920px-San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                    "decoding": "async",
+                    "loading": "lazy",
+                    "width": 1600,
+                    "height": 1205,
+                    "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg/3840px-San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+                  },
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/San_Pedro_Town_Center_-_Wet_%26_Dry_Market%2C_Laguna%2C_Jun_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                  "descriptionurl": "https://commons.wikimedia.org/wiki/File:San_Pedro_Town_Center_-_Wet_%26_Dry_Market,_Laguna,_Jun_2025.jpg",
+                  "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/168158510",
+                  "mime": "image/jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "api_full_original_metadata": {
+        "width": 4080,
+        "height": 3072,
+        "size": 3070374,
+        "mime": "image/jpeg"
+      },
+      "api_published_metadata": {
+        "width": 1600,
+        "height": 1205,
+        "mime": null
+      },
+      "api_published_metadata_note": "API 표시 치수. 실제 확보 파일 치수는 actual_input_width/height에 별도 기록함.",
+      "download_is_unscaled_original": false,
+      "unscaled_original_exception_applied": false,
+      "decoded_format": "JPEG",
+      "decoder": "ImageMagick identify: -ping 없이 전체 디코딩, 픽셀 저장·변경 없음",
+      "bytes_unchanged_by_validation": true,
+      "decoded_dimensions_match_api_thumbnail": false,
+      "dimension_note": "API 표시 치수와 실제 파일 치수가 다름. URL을 변경하지 않고 받은 파일의 실제 디코딩 치수를 기록함.",
+      "acquired_at": "2026-11-17T12:31:28.232789+00:00",
+      "api_http_status": 200,
+      "download_http_status": 200,
+      "api_retry_after": null,
+      "download_retry_after": null
+    }
+  ],
+  "stop": null,
+  "input_sha256_after": "5ad2826e01268197ea16d679c493585d68b947fbcdeab907a70d2baf77dd21d2",
+  "initial_metadata_unchanged": true,
+  "verification": {
+    "checked_at": "2026-11-17T12:31:58.855259+00:00",
+    "saved_files_sha256_and_size_match_report": true,
+    "original_paths_exactly_match_input": true,
+    "input_metadata_sha256_unchanged": true,
+    "prompt_saved": true,
+    "all_gets_through_required_shared_helper": true,
+    "spacing_and_cooldown_enforcement": "지정 commons_get.py의 공유 flock·next_allowed·403/429 냉각 로직에 맡김. 실제 네트워크 시작 시각은 도구가 제공하지 않아 별도 실측 간격으로 기록하지 않음.",
+    "all_download_urls_exactly_match_api_thumburl": true,
+    "all_actual_widths_at_least_1080": true,
+    "unscaled_original_exception_actual_width_validated": true,
+    "large_full_original_not_downloaded": true,
+    "actual_request_retries": 0,
+    "only_requested_extra_original_paths_written": true,
+    "visual_review_and_final_selection": "부모가 수행; 이번 작업에서는 미실시",
+    "pixel_changes_performed": false
+  }
+}

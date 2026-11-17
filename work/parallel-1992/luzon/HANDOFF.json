@@ -1,0 +1,169 @@
+{
+  "agent": "luzon_batch",
+  "finalized_at": "2026-11-17T12:35:03.821433+00:00",
+  "user_instruction": "전체목표해제·현재작업정리후다른팀인계·추가조사중단",
+  "global_target_achieved": false,
+  "completed_ids": [
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326
+  ],
+  "latest_completed": [
+    {
+      "id": 325,
+      "slug": "guiguinto",
+      "status": "부모328통합검증완료통보",
+      "scratch": "_i18n/work/parallel-1992/luzon/handoff/325-guiguinto",
+      "ko_section_chars": 5111,
+      "photos": 10,
+      "i18n_lines": 89,
+      "usage": "work/parallel-1992/luzon/325-usage.json"
+    },
+    {
+      "id": 326,
+      "slug": "bulakan-town",
+      "status": "부모331통합검증완료통보",
+      "scratch": "_i18n/work/parallel-1992/luzon/handoff/326-bulakan-town",
+      "ko_section_chars": 5035,
+      "photos": 10,
+      "i18n_lines": 89,
+      "usage": "work/parallel-1992/luzon/326-usage.json"
+    }
+  ],
+  "held_current": {
+    "id": 387,
+    "slug": "bocaue",
+    "status": "미등록·10독립사진미충족보류",
+    "actual_downloaded_originals": 7,
+    "visually_reviewed_originals": 7,
+    "conditional_usable_groups": 2,
+    "missing_groups": 8,
+    "publication_files_written": false,
+    "ko_en_body_written": false,
+    "converted_final_images": 0,
+    "source_research": "work/parallel-1992/luzon/387-bocaue-research.json",
+    "photo_review": "work/parallel-1992/luzon/387-photo-review.json",
+    "original_metadata": "_i18n/work/parallel-1992/luzon/bocaue-selected-all.json",
+    "metadata_caches": [
+      "_i18n/work/parallel-1992/luzon/bocaue-town-photos.json",
+      "_i18n/work/parallel-1992/luzon/bocaue-church-photos.json",
+      "_i18n/work/parallel-1992/luzon/bocaue-st-martin-photos.json",
+      "_i18n/work/parallel-1992/luzon/bocaue-kim-photos.json",
+      "_i18n/work/parallel-1992/luzon/bocaue-new-authors-photos.json"
+    ],
+    "resume_first_steps": [
+      "기존사진검수대장을먼저읽고아동초상6/7·사무실생수통1·천장4·가로1024px5는제외한다.",
+      "조건부가능2번2017김대건성지정원과3번2022성당제대는각한방문으로만계산하고총10독립묶음을충족하는다른사진을새로확보·직접검수한다.",
+      "bocaue-new-authors메타의2012Ramon/2008Shubert/2024Ralff후보는아직원본다운로드/검수하지않았다.기존이름만으로완료로세지않는다.",
+      "성당과김대건본당/수녀회성지공간구분및공식출처재확인뒤한국어5000~7000자/10섹션/정수카드6·직접영어를작성한다.",
+      "CodexCLI정량변환·원본최종눈검수·공식i18nexport/check/import후에만새부모담당이공유data로인수한다."
+    ]
+  },
+  "preliminary_only": {
+    "id": 388,
+    "slug": "calumpit",
+    "status": "예비조사만보존·미등록·추가조사중단",
+    "research": "work/parallel-1992/luzon/388-calumpit-research.json",
+    "metadata_caches": [
+      "_i18n/work/parallel-1992/luzon/calumpit-town-photos.json",
+      "_i18n/work/parallel-1992/luzon/calumpit-church-photos.json"
+    ],
+    "original_downloads": 0,
+    "visual_reviews": 0,
+    "body_written": false
+  },
+  "unstarted_ids": [
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406
+  ],
+  "usage": "work/parallel-1992/luzon/387-388-final-usage.json",
+  "cumulative_progress": "work/parallel-1992/luzon/progress.json",
+  "processes": {
+    "checked_at": "2026-11-17T12:35:03.821433+00:00",
+    "active_luzon_get_or_driver_processes": [],
+    "all_stopped": true,
+    "driver_pid": 51306,
+    "driver_action": "SIGTERM전달·종료확인",
+    "previously_observed_get_pid": 16344,
+    "previously_observed_get_action": "5번째GET완료·종료확인",
+    "note": "종료신호전이미진행된6/7원본도공유GET대장200확인후보존·눈검수.8번째원본없음·새조사/새GET발행안함.",
+    "last_rechecked_at": "2026-11-17T12:37:30.507552+00:00"
+  },
+  "shared_data_or_git_mutations_after_325": false,
+  "notes": [
+    "325/326의data반영과공유빌드·커밋은부모담당자가수행했다.",
+    "387/388을등록완료건수에포함하지않는다.",
+    "공유Commons요청은후속팀도기존직렬화/403429냉각규칙을따른다.",
+    "APIcategory제목수와imageinfo보유수를구분한다(500제목이라도thumb/메타50개제한)."
+  ],
+  "completed_count_including_parent_integrated_scratch": 19,
+  "original_files_verified": [
+    {
+      "path": "_i18n/work/parallel-1992/luzon/assets/387-bocaue-original-1.jpg",
+      "bytes": 458453,
+      "sha256": "f57c45b22d863364193ea101ad722fee72f482f50024108c2ba843070210fd18"
+    },
+    {
+      "path": "_i18n/work/parallel-1992/luzon/assets/387-bocaue-original-2.jpg",
+      "bytes": 348968,
+      "sha256": "755c18d9c53abda23173847a602d2cd2b3ce206af91550c2bfbb85c4b68d14b4"
+    },
+    {
+      "path": "_i18n/work/parallel-1992/luzon/assets/387-bocaue-original-3.jpg",
+      "bytes": 382054,
+      "sha256": "51ea08a3aa9744c884c885c1d036b3e6ab6e88388121e14b05240118dc4f6df7"
+    },
+    {
+      "path": "_i18n/work/parallel-1992/luzon/assets/387-bocaue-original-4.jpg",
+      "bytes": 289506,
+      "sha256": "5402bba5d7cdf98e7cf5134fd72df75abcf6dd827a9c716e871e9c28f4999172"
+    },
+    {
+      "path": "_i18n/work/parallel-1992/luzon/assets/387-bocaue-original-5.jpg",
+      "bytes": 357305,
+      "sha256": "9ad231f804fd01e61a80d76443ceb25ab22d284bc6e99bd5670f46f2c378f71d"
+    },
+    {
+      "path": "_i18n/work/parallel-1992/luzon/assets/387-bocaue-original-6.jpg",
+      "bytes": 350653,
+      "sha256": "e0b44050569d2e1fe770c466bfc26e3828c9d97d13c4cb277478e799a424763e"
+    },
+    {
+      "path": "_i18n/work/parallel-1992/luzon/assets/387-bocaue-original-7.jpg",
+      "bytes": 201863,
+      "sha256": "f3ebc6e87610995e677d5fcf4aeda090114fd7bb3002e67d06d78dadb54c8177"
+    }
+  ]
+}

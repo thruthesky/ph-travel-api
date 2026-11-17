@@ -1,12 +1,11 @@
 {
   "id": 377,
   "slug": "san-pedro-laguna",
-  "checked_at": "2026-11-17T11:48:17.925980+00:00",
+  "checked_at": "2026-11-17T12:33:09.838999+00:00",
   "registered": false,
   "original_post": "1275713649",
   "acquisition": {
-    "raw_files": 14,
-    "actual_width": 1920,
+    "raw_files": 16,
     "api_requests": 16,
     "download_success": 14,
     "skipped_full_originals": [
@@ -14,7 +13,9 @@
       16
     ],
     "cli_tokens": 84660,
-    "report": "_i18n/work/expansion-1973/root/sanpedro-acquisition-report.json"
+    "report": "_i18n/work/expansion-1973/root/sanpedro-acquisition-report.json",
+    "initial_14_width": 1920,
+    "all_16_widths": "15장1920px·04경계아치1600px"
   },
   "all_14_raw_files_visually_viewed_by_parent": true,
   "selection_not_complete": true,
@@ -25,7 +26,8 @@
     "12": "11과같은작가같은방문",
     "13": "교량전체아닌부분아치·사진만으로독립볼거리성립부족",
     "14": "초기일반분류와달리성당종탑·CalendolaBridge사진으로쓰기금지",
-    "15": "원본06과같은작가같은방문"
+    "15": "원본06과같은작가같은방문",
+    "04": "PhotographbyT3N60워터마크·큰상업광고·차량유리반사·흐림.가로1600이지만품질기준탈락.자르기/워터마크제거하지않음."
   },
   "quality_review_pending": [
     "01도서관사진초점",
@@ -55,5 +57,31 @@
     "PIA옛노선본문timeout",
     "추가Commons메타403반복안함"
   ],
-  "note": "규격을못채워서아직data미등록이며추가확인후등록여부판단.사진확보나후보수는등록완료수가아님."
+  "note": "규격을못채워서아직data미등록이며추가확인후등록여부판단.사진확보나후보수는등록완료수가아님.",
+  "status": "현재진행분정리완료·미등록·다른팀인계",
+  "new_research_allowed": false,
+  "all_16_acquired_raw_files_visually_viewed_by_parent": true,
+  "additional_acquisition": {
+    "api_calls": 2,
+    "downloads": 2,
+    "http200": 4,
+    "cli_tokens": 115476,
+    "reports": "_i18n/work/expansion-1973/root/sanpedro-extra-acquisition-report.json",
+    "pixel_operations": 0,
+    "original_widths": [
+      1600,
+      1920
+    ]
+  },
+  "additional_photo_review": {
+    "17": "2025시장건물외벽과간판이주제·기존2024Ralff와별도방문이나시장생활전경이아니어서최종선정전추가구도판단필요"
+  },
+  "final_decision": "정확하고다양한사진10장·독립방문10회와지도2곳/현행교통교차·한영본문이완성되지않아data미등록.이번팀은추가탐색을중단하고확보자료를넘김.",
+  "next_team_first_steps": [
+    "워터마크04·인물중심09·흔들림10·부분교량13과같은탈락사진을재사용하지말것",
+    "파일14는교량아닌성당종탑으로장소를재확인",
+    "서로다른방문의정확한실사10장확보가능성먼저검토",
+    "본문개통/시간표/요금은원문에서전재하지말고공식·최근독립본문확인",
+    "두지도동일기준점확인후한영집필/i18n검사"
+  ]
 }
