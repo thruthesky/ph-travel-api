@@ -1,6 +1,6 @@
 # ph-travel-api
 
-필리핀 여행지를 **8개 언어**의 JSON 으로 제공하는 정적 API 다. 서버 코드는 없다. 로컬 수록 목록은 [data.csv](data.csv), 공개 판과 남은 일은 [work/status.md](work/status.md)에서 확인한다.
+필리핀 여행지를 **8개 언어**의 JSON 으로 제공하는 정적 API 다. 신규 항목 중 번역 대기 중인 것은 한국어·영어로 먼저 수록하고, 다른 언어에서는 영어를 표시한다. 서버 코드는 없다. 로컬 수록 목록은 [data.csv](data.csv), 공개 판과 남은 일은 [work/status.md](work/status.md)에서 확인한다.
 
 - 언어: 영어 `en` · 중국어(간체) `zh` · 일본어 `ja` · 한국어 `ko` · 태국어 `th` · 베트남어 `vi` · 러시아어 `ru` · 아랍어 `ar`(오른쪽→왼쪽)
 - 배포: **Cloudflare R2** — api-skill 의 `r2.mjs deploy` 로 올린다(2026-10-01 부터). 이 저장소는 GitHub 에 push 하지 않는다(2026-10-02) — 옛 주소인 GitHub Pages 는 2026-10-01 판에서 멈췄다.
@@ -70,9 +70,12 @@ R2 공개 주소의 응답 헤더:
 | `count` | 여행지 수 (모든 언어가 같다) |
 | `source_language` | 원본 언어. 다른 언어는 이 언어를 옮긴 번역본이다 |
 | `fallback_language` | 기기 언어가 목록에 없을 때 쓸 언어 |
+| `translation_fallbacks` | 선택 사항. 언어 코드 → 영어로 표시하는 여행지 slug 배열. 이 항목은 해당 언어 번역이 아직 없다는 뜻이다 |
 | `languages` | 지원 언어 코드 |
 | `meta` · `places` | 파일 이름 (manifest 기준 상대 경로). `places` 는 언어 코드 → 파일 이름 |
 | `generated_at` | 빌드 시각. 참고용이며 비교에 쓰지 않는다 |
+
+`translation_fallbacks`는 `meta.json`에도 같다. 해당 언어의 `places.<언어>.json`에는 `fallback_language: "en"`과 `fallback_places: ["slug", …]`가 함께 들어간다. 배열에 있는 여행지는 이름표·제목·본문 전체가 영어이며, 언어 파일의 나머지 항목은 기존 번역을 유지한다. 클라이언트는 이 목록으로 실제 표시 언어를 알릴 수 있다. 영어 대체 항목도 `count`에는 한 번만 센다. 작성 방법은 [번역 규격](data/README.md#7-다른-언어--번역본)을 따른다.
 
 ## 3. meta.json
 

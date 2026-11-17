@@ -1,13 +1,13 @@
 {
   "requested_at": "2026-11-16",
-  "checked_at": "2026-11-16T14:49:28Z",
+  "checked_at": "2026-11-17T02:06:37Z",
   "request": "기존 항목에 신규 여행정보 최소 2,000개 추가",
   "baseline_registered": 268,
   "requested_new_minimum": 2000,
   "required_total_minimum": 2268,
-  "current_registered": 268,
-  "new_registered": 0,
-  "remaining_new_minimum": 2000,
+  "current_registered": 272,
+  "new_registered": 4,
+  "remaining_new_minimum": 1996,
   "complete": false,
   "inputs": [
     {
@@ -27,16 +27,39 @@
   "candidate_count_is_verified_places": false,
   "research_started": [
     "aliwan-fiesta",
+    "ati-atihan-festival",
     "dinagyang-festival",
+    "feast-of-jesus-nazarene",
     "panagbenga-festival"
   ],
-  "prepared_image_files": 27,
+  "prepared_image_files": 43,
   "prepared_images_are_registered": false,
-  "source_scope_note": "1,541글은 신규 장소 수나 장소 수의 상한이 아님. 513묶음도 목록 이름 기준 조사 후보이므로 본문 하위 명소 추가 발굴과 외부 출처 조사가 필요함.",
+  "source_scope_note": "1,541글·508묶음은 검증 완료된 신규 장소 수가 아니다. 4개 등록만 실제 추가로 센다. 1,996개 추가가 남아 있어 요청 미완료.",
   "blocking_observations": [
-    "Wikimedia 원본 다운로드에서 HTTP 429, 이후 서버 권장 표준 1280px 공개 사진으로 확보. Commons API 한 요청은 HTTP 403.",
-    "Google Translate 연결 확인 두 차례 모두 HTTP 429. 번역문을 만들거나 검증 완료했다고 기록하지 않음."
+    "이전 외부 번역429를 전체 등록 중단 이유로 삼지 않고 한국어·영어를 직접 작성해 수록했다.",
+    "알리완은 2026취소를 최신 MBC 소유방송 보도로 확인해 등록에서 제외했다.",
+    "2,000개 신규 등록 목표는 미완료이며 나머지 후보·하위 명소의 조사와 집필을 계속해야 한다."
   ],
-  "production_data_changed": false,
-  "deployed": false
+  "production_data_changed": true,
+  "deployed": false,
+  "registered_ids": [
+    299,
+    300,
+    301,
+    302
+  ],
+  "translation_completed": [
+    "ko",
+    "en"
+  ],
+  "translation_pending": [
+    "zh",
+    "ja",
+    "th",
+    "vi",
+    "ru",
+    "ar"
+  ],
+  "translation_policy": "2026-11-17 사용자 요청에 따라 한·영 우선. i18n/fallbacks.json에 신규4건의6언어 영어 대체 선언.",
+  "registered_prepared_images": 33
 }

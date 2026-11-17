@@ -442,6 +442,26 @@ mkdirSync(join(outDir, 'images'), { recursive: true });
 checkMeta();
 const placeFiles = (lang) => (existsSync(join(dataDir, lang)) ? readdirSync(join(dataDir, lang)).filter(isPlaceFile).sort(comparePlaceFiles) : []);
 const files = placeFiles(SOURCE);
+// 2026-11-17 사용자 요청: 신규 항목은 한·영으로 먼저 수록한다.
+// 누락을 자동 허용하지 않고, 명시한 파일·언어만 검증된 영어 원문으로 대체한다.
+const fallbackPath = join(root, 'i18n', 'fallbacks.json');
+let fallbackEntries = {};
+if (existsSync(fallbackPath)) {
+  try {
+    const policy = JSON.parse(readFileSync(fallbackPath, 'utf8'));
+    if (policy.source_language !== meta.fallback_language) throw new Error('source_language 는 meta.fallback_language 와 같아야 함');
+    if (!isObject(policy.entries)) throw new Error('entries 는 파일 이름별 언어 배열 객체여야 함');
+    fallbackEntries = policy.entries;
+    for (const [file, langs] of Object.entries(fallbackEntries)) {
+      if (!files.includes(file)) throw new Error(`원본에 없는 파일 — ${file}`);
+      if (!Array.isArray(langs) || !langs.length || new Set(langs).size !== langs.length) throw new Error(`${file}: 언어 배열이 비었거나 중복됨`);
+      for (const lang of langs) {
+        if (!LANGS.includes(lang) || lang === SOURCE || lang === meta.fallback_language) throw new Error(`${file}: 대체할 수 없는 언어 — ${lang}`);
+        if (existsSync(join(dataDir, lang, file))) throw new Error(`${lang}/${file}: 실제 번역이 있으므로 대체 선언을 제거해야 함`);
+      }
+    }
+  } catch (e) { fallbackEntries = {}; errors.push(`i18n/fallbacks.json: ${e.message}`); }
+}
 // 번역 중인 언어 — data/<언어>/ 폴더가 아직 없으면 이번 배포에서 뺀다. 폴더가 생기면 그때부터 모든 여행지가 있어야 한다.
 const PENDING = LANGS.filter((l) => l !== SOURCE && !existsSync(join(dataDir, l)));
 const PUBLISHED = LANGS.filter((l) => !PENDING.includes(l));
@@ -454,13 +474,15 @@ for (const name of readdirSync(dataDir)) {
 
 // 원본 언어를 먼저 읽는다 — 다른 언어는 원본과 모양을 비교한다.
 const parsed = { [SOURCE]: files.map((file) => parsePlace(SOURCE, file, null)) };
-for (const lang of PUBLISHED.filter((l) => l !== SOURCE)) {
+const translationOrder = [meta.fallback_language, ...PUBLISHED.filter((l) => l !== SOURCE && l !== meta.fallback_language)];
+for (const lang of translationOrder.filter((l) => PUBLISHED.includes(l) && l !== SOURCE)) {
   const names = placeFiles(lang);
-  for (const file of files) if (!names.includes(file)) errors.push(`${lang}/${file}: 번역 파일 없음`);
+  for (const file of files) if (!names.includes(file) && !fallbackEntries[file]?.includes(lang)) errors.push(`${lang}/${file}: 번역 파일 없음`);
   for (const file of names) if (!files.includes(file)) errors.push(`${lang}/${file}: 원본(${SOURCE})에 없는 여행지`);
   parsed[lang] = files.map((file, i) => {
     const source = parsed[SOURCE][i];
-    return names.includes(file) && source ? parsePlace(lang, file, source) : null;
+    if (names.includes(file) && source) return parsePlace(lang, file, source);
+    return source && fallbackEntries[file]?.includes(lang) ? parsed[meta.fallback_language]?.[i] ?? null : null;
   });
 }
 
@@ -500,9 +522,14 @@ if (errors.length) {
 }
 
 const places = Object.fromEntries(PUBLISHED.map((lang) => [lang, parsed[lang].map((p) => p.place).sort((a, b) => a.id - b.id)]));
+const translationFallbacks = Object.fromEntries(PUBLISHED.map((lang) => [lang,
+  files.flatMap((file, i) => fallbackEntries[file]?.includes(lang) ? [parsed[SOURCE][i].raw.slug] : []),
+]).filter(([, slugs]) => slugs.length));
+const fallbackInfo = Object.keys(translationFallbacks).length ? { translation_fallbacks: translationFallbacks } : {};
 // 쓰인 횟수를 붙인 기준 정보. 클라이언트는 used 가 0 이 아닌 type 부터 구현하면 된다. 모든 언어의 모양이 같아서 원본만 센다.
 const metaOut = {
   ...meta,
+  ...fallbackInfo,
   languages: meta.languages.filter((l) => PUBLISHED.includes(l.code)),
   display: { ...DISPLAY, types: Object.fromEntries(Object.entries(TYPES).map(([name, spec]) => [name, { ...spec, used: used[name] }])) },
 };
@@ -513,7 +540,9 @@ const count = sources.length;
 const head = { schema: SCHEMA, version };
 const placesFile = (lang) => `places.${lang}.json`;
 for (const { code, dir } of metaOut.languages) {
-  writeFileSync(join(outDir, placesFile(code)), JSON.stringify({ ...head, lang: code, dir, count, places: places[code] }));
+  writeFileSync(join(outDir, placesFile(code)), JSON.stringify({ ...head, lang: code, dir, count,
+    ...(translationFallbacks[code]?.length ? { fallback_language: meta.fallback_language, fallback_places: translationFallbacks[code] } : {}),
+    places: places[code] }));
 }
 writeFileSync(join(outDir, 'meta.json'), `${JSON.stringify({ ...head, ...metaOut }, null, 2)}\n`);
 writeFileSync(
@@ -523,6 +552,7 @@ writeFileSync(
     count,
     source_language: SOURCE,
     fallback_language: meta.fallback_language,
+    ...fallbackInfo,
     languages: PUBLISHED,
     meta: 'meta.json',
     places: Object.fromEntries(PUBLISHED.map((lang) => [lang, placesFile(lang)])),
@@ -531,5 +561,6 @@ writeFileSync(
 );
 const unused = Object.keys(used).filter((t) => !used[t]);
 console.log(`여행지 ${count}곳 × ${PUBLISHED.length}개 언어(${PUBLISHED.join('·')}) → _site/v${SCHEMA}/ (version ${version})`);
+for (const [lang, slugs] of Object.entries(translationFallbacks)) console.log(`${lang}: ${slugs.length}곳은 ${meta.fallback_language} 대체 표시 (번역 미완료)`);
 if (PENDING.length) console.log(`번역 중이라 뺀 언어: ${PENDING.join('·')} — data/<언어>/ 폴더가 생기면 함께 배포된다`);
 console.log(`표시 방법(type) ${Object.keys(TYPES).length}개 중 ${Object.keys(TYPES).length - unused.length}개 사용 — 미사용: ${unused.join(', ')}`);
