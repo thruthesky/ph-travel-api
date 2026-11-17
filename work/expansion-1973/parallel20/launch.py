@@ -1,6 +1,7 @@
 """사용자 요청에 따른 원문 분석용 Codex CLI 20개를 별도 결과 경로로 실행한다."""
 import json,pathlib,subprocess,datetime,sys
 R=pathlib.Path.cwd();P=R/'_i18n/work/expansion-1973/parallel20';W=R/'work/expansion-1973/parallel20';P.mkdir(parents=True,exist_ok=True)
+if (P/'manifest.json').exists():raise SystemExit('기존20개실행기록이있다.중복시작하지말고collect.py와실제PID를확인한다.')
 index=[json.loads(x)for x in (R/'work/expansion-1973/source-fetch-index.jsonl').read_text().splitlines()if x.strip()];byid={str(x['idx']):x for x in index}
 posts=[]
 for f in sorted((R/'_i18n/work/expansion-1973/posts').glob('*.json')):

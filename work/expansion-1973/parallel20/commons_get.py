@@ -1,23 +1,87 @@
-"""병렬 담당의 Commons 공개 GET 요청을 직렬화한다. 픽셀 가공은 하지 않는다."""
-import argparse,pathlib,json,time,urllib.parse,subprocess,fcntl,datetime,sys,email.utils
-p=argparse.ArgumentParser();p.add_argument('url');p.add_argument('--out',required=True);a=p.parse_args();u=urllib.parse.urlparse(a.url)
-if u.scheme!='https' or u.hostname not in {'commons.wikimedia.org','upload.wikimedia.org','thumb.wikimedia.org'} or u.username or u.password:raise SystemExit('허용된 Commons 공개 HTTPS GET 주소만 사용한다')
-root=pathlib.Path(__file__).resolve().parents[3];state=root/'_i18n/work/expansion-1973/parallel20/network';state.mkdir(parents=True,exist_ok=True);out=pathlib.Path(a.out).resolve();out.parent.mkdir(parents=True,exist_ok=True)
-# 잠금 중 요청까지 완료해 동시에 외부 요청이 발생하지 않는다.
-with (state/'lock').open('a+')as lock:
- fcntl.flock(lock,fcntl.LOCK_EX);s=state/'state.json';d=json.loads(s.read_text())if s.exists()else{};delay=max(0,d.get('next_allowed',0)-time.time())
- if delay>60:print(json.dumps({'status':'cooldown','wait_seconds':round(delay),'request_sent':False},ensure_ascii=False));raise SystemExit(75)
- if delay:time.sleep(delay)
- headers=out.with_name(out.name+'.headers.txt');r=subprocess.run(['curl','--silent','--show-error','--max-time','40','--dump-header',str(headers),'--output',str(out),'--write-out','%{http_code}',a.url],capture_output=True,text=True);code=int(r.stdout)if r.stdout.isdigit()else 0;now=time.time();retry=None
- if headers.exists():
-  for line in headers.read_text(errors='replace').splitlines():
-   if line.lower().startswith('retry-after:'):
-    raw=line.split(':',1)[1].strip()
-    try:retry=float(raw)
-    except ValueError:
-     try:retry=max(0,email.utils.parsedate_to_datetime(raw).timestamp()-now)
-     except Exception:pass
- record={'at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'url':a.url,'out':str(out),'http_status':code,'curl_exit_code':r.returncode,'retry_after_seconds':retry,'request_sent':True};d={'next_allowed':now+(max(600,retry or 0)if code in [403,429]else 15),'last_status':code,'last_url':a.url};s.write_text(json.dumps(d)+'\n')
- with (state/'requests.jsonl').open('a')as log:log.write(json.dumps(record,ensure_ascii=False)+'\n')
- print(json.dumps(record,ensure_ascii=False))
- if code!=200 or r.returncode:raise SystemExit(8)
+"""공개 Commons GET을 도착 순서대로 직렬화한다. 픽셀을 만들거나 바꾸지 않는다."""
+import argparse, pathlib, json, time, urllib.parse, subprocess, fcntl, datetime, sys, email.utils, os
+
+parser = argparse.ArgumentParser()
+parser.add_argument('url')
+parser.add_argument('--out', required=True)
+args = parser.parse_args()
+url = urllib.parse.urlparse(args.url)
+if url.scheme != 'https' or url.hostname not in {'commons.wikimedia.org', 'upload.wikimedia.org', 'thumb.wikimedia.org'} or url.username or url.password:
+    raise SystemExit('허용된 Commons 공개 HTTPS GET 주소만 사용한다')
+root = pathlib.Path(__file__).resolve().parents[3]
+state_dir = root / '_i18n/work/expansion-1973/parallel20/network'
+state_dir.mkdir(parents=True, exist_ok=True)
+queue_dir = state_dir / 'queue'
+queue_dir.mkdir(exist_ok=True)
+output = pathlib.Path(args.out).resolve()
+output.parent.mkdir(parents=True, exist_ok=True)
+state_file = state_dir / 'state.json'
+arrival = time.time_ns()
+ticket = queue_dir / f'{arrival:020d}-{os.getpid()}.json'
+ticket.write_text(json.dumps({'pid': os.getpid(), 'arrival_ns': arrival, 'url': args.url}) + '\n')
+
+def read_state():
+    try:
+        return json.loads(state_file.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+def cooldown(state):
+    remaining = max(0, state.get('next_allowed', 0) - time.time())
+    if remaining > 60:
+        print(json.dumps({'status': 'cooldown', 'wait_seconds': round(remaining), 'request_sent': False}, ensure_ascii=False))
+        raise SystemExit(75)
+    return remaining
+
+try:
+    with (state_dir / 'lock').open('a+') as lock:
+        while True:
+            cooldown(read_state())
+            # 예기치 않게 종료된 클라이언트만 대기열에서 제거한다.
+            for candidate in queue_dir.glob('*.json'):
+                try:
+                    pid = json.loads(candidate.read_text())['pid']
+                    os.kill(pid, 0)
+                except ProcessLookupError:
+                    candidate.unlink(missing_ok=True)
+                except (FileNotFoundError, json.JSONDecodeError, KeyError, PermissionError):
+                    pass
+            ordered = sorted(queue_dir.glob('*.json'))
+            if ordered and ordered[0] == ticket:
+                try:
+                    fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                    break
+                except BlockingIOError:
+                    pass
+            time.sleep(0.5)
+        delay = cooldown(read_state())
+        if delay:
+            time.sleep(delay)
+        headers = output.with_name(output.name + '.headers.txt')
+        result = subprocess.run(['curl', '--silent', '--show-error', '--max-time', '40', '--dump-header', str(headers), '--output', str(output), '--write-out', '%{http_code}', args.url], capture_output=True, text=True)
+        code = int(result.stdout) if result.stdout.isdigit() else 0
+        now = time.time()
+        retry_after = None
+        if headers.exists():
+            for line in headers.read_text(errors='replace').splitlines():
+                if line.lower().startswith('retry-after:'):
+                    raw = line.split(':', 1)[1].strip()
+                    try:
+                        retry_after = float(raw)
+                    except ValueError:
+                        try:
+                            retry_after = max(0, email.utils.parsedate_to_datetime(raw).timestamp() - now)
+                        except (ValueError, TypeError, OverflowError):
+                            pass
+        record = {'at': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'arrival_ns': arrival, 'queue_wait_seconds': round(now - arrival / 1e9, 3), 'url': args.url, 'out': str(output), 'http_status': code, 'curl_exit_code': result.returncode, 'retry_after_seconds': retry_after, 'request_attempted': True, 'http_response_received': bool(code), 'request_sent': False if result.returncode == 6 else (True if code else None), 'transport_error_kind': 'dns_resolution_failed' if result.returncode == 6 else ('curl_transport_error' if result.returncode else None)}
+        pause = max(600, retry_after or 0) if code in [403, 429] else 15
+        temporary = state_dir / f'state-{os.getpid()}.tmp'
+        temporary.write_text(json.dumps({'next_allowed': now + pause, 'last_status': code, 'last_url': args.url}) + '\n')
+        temporary.replace(state_file)
+        with (state_dir / 'requests.jsonl').open('a') as log:
+            log.write(json.dumps(record, ensure_ascii=False) + '\n')
+        print(json.dumps(record, ensure_ascii=False))
+        if code != 200 or result.returncode:
+            raise SystemExit(8)
+finally:
+    ticket.unlink(missing_ok=True)
