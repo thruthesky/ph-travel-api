@@ -1,0 +1,590 @@
+{
+  "id": 330,
+  "slug": "ormoc",
+  "checked_at": "2026-11-17T06:22:42Z",
+  "facts": [
+    {
+      "where": "overview",
+      "fact": "필고 원문과 항목 범위",
+      "value": "필고 1275712909의 오르목 도시 안내",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712909",
+          "grade": "C",
+          "says": "공개 API에서 idx·subject·content만 읽었다. 원문은 도시·해안·파인애플·주변 호수를 소개한다."
+        },
+        {
+          "url": "https://www.ormoc.gov.ph/new_site/",
+          "grade": "A",
+          "says": "시정부 공식 사이트의 관광·도시 지도·역사 메뉴를 확인했다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ormoc",
+          "grade": "B",
+          "says": "레이테 서부의 경제·상업·교통 거점으로 설명한다."
+        }
+      ],
+      "decision": "기존 lake-danao 항목은 호수 전용이다. 새 항목은 도심·해안 산책을 중심으로 쓰고 호수는 별도 선택 일정으로 연결한다. 원문의 잘못된 지도 핀, 마닐라 직항, 고정 운임, 미확인 야시장·업소·생산량 순위 주장은 옮기지 않았다."
+    },
+    {
+      "where": "latitude, longitude",
+      "fact": "도심 산책 대표 지도 핀",
+      "value": "성 베드로·바오로 성당 11.00557, 124.60968",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/node/436403248",
+          "grade": "B",
+          "says": "성 베드로·바오로 성당 노드. 저장한 Nominatim 응답은 11.0055673, 124.6096783이다."
+        },
+        {
+          "url": "https://mapcarta.com/N436403248",
+          "grade": "B",
+          "says": "동일 성당과 OSM 노드에 11.00557, 124.60968을 표시한다."
+        }
+      ],
+      "decision": "도시 행정 중심 좌표가 아닌 성당 핀임을 본문에 적었다. Mapcarta는 OSM을 사용하는 지도이므로 독립 측량 대조는 아니다. 해당 페이지의 Davao Region 혼입 표기는 배제했다."
+    },
+    {
+      "where": "overview, highlights, tips",
+      "fact": "해안의 역사 표지와 리살 기념상",
+      "value": "1944년 오르목만 전투 표지, 옛 시청 앞 리살상",
+      "sources": [
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/labanan-sa-look-ng-ormoc/",
+          "grade": "A",
+          "says": "NHCP 등록부는 오르목 소재 표지와 1944년 연합군 작전을 설명하고 표지 공개일을 2023-02-28로 기록한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Labanan_sa_Look_ng_Ormoc_historical_marker_-_NHCP.jpg",
+          "grade": "A",
+          "says": "NHCP 제공 표지 사진의 글자를 직접 읽어 1944년 전투 설명과 대조했다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Rizal_Monument_in_Ormoc_City.jpg",
+          "grade": "C",
+          "says": "리살상 설명과 GPS 11.005186, 124.609108 및 배경 건물을 대조했다."
+        }
+      ],
+      "decision": "전투 표지는 항만 내부 견학과 다르다. 공공 보행 동선만 안내한다. 옛 시청과 현재 시청을 구별하고 박물관 내부 개방은 보장하지 않는다."
+    },
+    {
+      "where": "highlights, best_time, stay_and_food",
+      "fact": "피냐 축제와 퀸 파인애플",
+      "value": "6월 피냐 축제, Queen 파인애플",
+      "sources": [
+        {
+          "url": "https://pia.gov.ph/news/pina-festival-remains-ormoc-citys-primary-economic-driver/",
+          "grade": "A",
+          "date": "2026-06-22",
+          "says": "정부 통신기관은 6월 축제와 6월 29일 성 베드로·바오로 축일의 연결, Queen Pineapple의 지역 대표성을 설명한다."
+        },
+        {
+          "url": "https://www.globe.com.ph/about-us/newsroom/corporate/globe-boosts-connectivity-ormoc-pina-festival-2026",
+          "grade": "A",
+          "date": "2026-07-10",
+          "says": "2026년 축제 후원사의 공식 기록은 축제와 Queen/Formosa 파인애플을 설명한다."
+        }
+      ],
+      "decision": "한 해의 공연일을 매년 고정된 날짜로 쓰지 않는다. 파인애플 생산량 순위와 무예약 농장 체험은 확인하지 못해 제외했다. 사진은 각각 2019년과 2025년 행사 기록이다."
+    },
+    {
+      "where": "overview, highlights, cautions",
+      "fact": "다나오 호수 수상 활동 재개 보도",
+      "value": "2026-08-29부터 제한 해제되었다는 최근 보도",
+      "sources": [
+        {
+          "url": "https://tribune.net.ph/2026/08/31/ormoc-reopens-lake-danao-natural-park-after-11-month-rehabilitation",
+          "grade": "B",
+          "date": "2026-08-31",
+          "says": "CENRO가 수상 활동 임시 중단을 2026-08-29부터 해제했다고 보도한다. 환경·폐기물 규칙 준수를 함께 요청한다."
+        },
+        {
+          "url": "https://dndphilippines.substack.com/p/lake-danao-reopens-water-activities",
+          "grade": "C",
+          "date": "2026-08-30",
+          "says": "시 관광국과 시정부가 공유한 CENRO 공지를 인용해 같은 재개일을 전한다."
+        },
+        {
+          "url": "https://r8.emb.gov.ph/wp-content/uploads/2026/04/NOTICE_PDS-Lake-Danao-Natural-Park.pdf",
+          "grade": "A",
+          "date": "2026-04",
+          "says": "환경관리국의 Lake Danao Natural Park 사업 공고로 공원의 보호·정비 맥락을 확인한다. 재개일의 직접 증거는 아니다.",
+          "access_note": "이번 재확인에서는 HTTP 403으로 본문을 다시 열지 못했다. 재개일의 근거로 쓰지 않는다."
+        }
+      ],
+      "decision": "재개일의 공식 원공지 직접 열람은 확보하지 못했다. 최근 언론 보도로 출처를 한정하고 최신 공원 공지 확인을 요구한다. 과거 사진의 장비·코티지·요금이 현재도 같다고 쓰지 않는다. 2017년 구명조끼 없는 활동 모습은 따라 하지 말라고 명시했다."
+    },
+    {
+      "where": "overview, itinerary, cautions",
+      "fact": "박물관 보수와 임시 휴관 공지 기록",
+      "value": "2026년 보수 기록 때문에 실내 개방 재확인 필요",
+      "sources": [
+        {
+          "url": "https://www.findglocal.com/PH/Ormoc-City/553537464847179/Ormoc-City-Tourism-Office",
+          "grade": "C",
+          "date": "2026-08-17",
+          "says": "검색 색인에 보존된 2026-08-17 관광국 공지에는 박물관 임시 휴관 및 관광안내소 임시 이전이 나온다. 직접 연 현재 본문은 이후 게시물로 바뀌었다."
+        },
+        {
+          "url": "https://www.globaltenders.com/tender-detail/renovationimprovement-of-ormoc-city-museum-GHrzgjQTBdq5jBXf",
+          "grade": "C",
+          "date": "2026-09-09",
+          "says": "시정부 발주 박물관 보수 입찰을 재전재한다. 본문에 시정부 입찰서 일부, 2026년 9월 공고와 9월 30일 마감이 나온다."
+        },
+        {
+          "url": "https://tenderimpulse.com/government-tenders/philippines/renovation-improvement-of-ormoc-city-museum-at-molave-st-brgy-south-ormoc-city-14759514",
+          "grade": "C",
+          "date": "2026-09-10",
+          "says": "같은 보수 입찰 CB72-2026을 9월 10일 공고, 9월 30일 마감으로 기록한다."
+        }
+      ],
+      "decision": "현재 휴관 중이라고 단정할 공식 원공지·재개장 공지는 확보하지 못했다. 보수·휴관 공지 기록이 있어 개방 재확인이 필요하다고 썼다. 실내 관람을 확정 코스나 고정 운영시간으로 제시하지 않는다. 외부 공공 동선도 현장 공사 통제를 따른다."
+    },
+    {
+      "where": "getting_there, airport",
+      "fact": "마닐라 항공 접근",
+      "value": "MNL–TAC 항공 후 오르목까지 육로",
+      "sources": [
+        {
+          "url": "https://flights.philippineairlines.com/en-ph/flights-from-manila-to-tacloban-city",
+          "grade": "A",
+          "says": "항공사 공식 페이지에서 마닐라–타클로반 항공편 판매를 확인했다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Daniel_Z._Romualdez_Airport",
+          "grade": "B",
+          "says": "다니엘 Z. 로무알데스 공항과 TAC 코드, 마닐라 연결을 확인한다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ormoc",
+          "grade": "B",
+          "says": "오르목의 도로 교통과 타클로반 연결을 설명한다."
+        }
+      ],
+      "decision": "오르목 공항의 존재나 과거 취항 계획을 현재 마닐라 직항으로 쓰지 않았다. 운임·비행시간·육로 최소시간은 고정하지 않고 수속과 대기를 따로 고려한다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "세부–오르목 배편",
+      "value": "선사별 현행 운항·부두·운임 확인",
+      "sources": [
+        {
+          "url": "https://www.oceanjet.net/news-and-updates/oceanjet-advisory-schedule-adjustments-and-temporary-fare-updates-amid-fuel-price-increase",
+          "grade": "A",
+          "date": "2026-03-20",
+          "says": "세부–오르목 왕복 노선의 유류비 관련 운임·운항 조정을 공지했다."
+        },
+        {
+          "url": "https://www.ferryservices.info/routes/cebu-to-ormoc",
+          "grade": "C",
+          "says": "복수 선사의 세부–오르목 연결을 안내한다. 개별 예약의 최종 기준으로 쓰지 않는다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ormoc",
+          "grade": "B",
+          "says": "항구 교통과 세부 연결을 설명한다."
+        }
+      ],
+      "decision": "2026년 변동 공지가 있으므로 옛 글의 고정 요금·시간표를 복제하지 않는다. 공식 예약에서 출발 부두·수하물·승선 마감·취소 조건을 확인한다."
+    },
+    {
+      "where": "best_time",
+      "fact": "도보 여행 시기와 강수",
+      "value": "연중 비에 대비, 2~5월은 편집 추천",
+      "sources": [
+        {
+          "url": "https://openjicareport.jica.go.jp/pdf/11210879_02.pdf",
+          "grade": "A",
+          "says": "오르목과 Anilao·Malbasag 유역의 강수 분포를 Type IV로 설명한다.",
+          "access_note": "공식 PDF는 다시 내려받았으나 스캔 문서라 pdftotext에서 본문 추출이 되지 않았다. 검색 색인의 Type IV 문장은 보조 단서로만 남기며 수치 근거로 사용하지 않았다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ormoc",
+          "grade": "B",
+          "says": "도시 기후 자료에 연중 강수가 나타난다."
+        }
+      ],
+      "decision": "2~5월을 비가 없는 건기나 운항 보장 기간으로 쓰지 않는다. 수치 기온·강우량 대신 도시 산책과 산지 호수 일정을 예보에 맞추도록 안내했다. JICA 원본 텍스트를 직접 추출하지 못했으므로 현재 본문의 연중 강수 대비는 직접 연 도시 기후 표로 확인했다."
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "간식과 상업 공간",
+      "value": "퀸 파인애플, 모론, 실내 식사·휴식",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712909",
+          "grade": "C",
+          "says": "원문에서 파인애플·moron·Robinsons Place Ormoc를 소개한다."
+        },
+        {
+          "url": "https://pia.gov.ph/news/pina-festival-remains-ormoc-citys-primary-economic-driver/",
+          "grade": "A",
+          "date": "2026-06-22",
+          "says": "Queen Pineapple을 지역 대표 농산물로 설명한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Robinsons_Ormoc_1st-floor_view.jpg",
+          "grade": "C",
+          "says": "2024년 오르목 쇼핑몰 실내 사진이다."
+        }
+      ],
+      "decision": "특정 야시장·식당의 현재 영업을 보장하지 않는다. 쇼핑몰 사진은 상업 공간 기록이며 개별 점포·가격 안내가 아니다. 모론의 특정 판매처·가격은 적지 않았다."
+    },
+    {
+      "where": "costs, budget",
+      "fact": "개인 지출 계획",
+      "value": "1인 도심 하루 PHP 1,200~2,400",
+      "sources": [],
+      "decision": "업체가 제시한 판매가격이 아닌 편집상 개인 배분이다. 식사 350~700 + 음료·과일·간식 150~300 + 도심 이동 300~600 + 선택 지출·예비비 400~800 = 1,200~2,400으로 검산했다. 항공·선박·숙박·호수 차량·유료 체험은 별도이며 2026년 기준 대략치라고 밝혔다."
+    }
+  ],
+  "images": [
+    {
+      "file": "330-ormoc.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Ormoc_bay.JPG",
+      "credit": "Jordz / CC BY-SA 3.0 / Wikimedia Commons",
+      "date": "2010-08-10",
+      "author_date_group": "Jordz | 2010-08-10",
+      "check": "2010년 오르목만의 수면과 맞은편 산지를 보여 준다. 현재 항만 시설의 모습이라는 주장은 하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc.webp",
+        "reviewed_at": "2026-11-17T06:22:42Z",
+        "result": "원본과 최종 WebP를 각각 열어 구도·요소·비율 유지와 본문 일치를 확인했다."
+      },
+      "source_metadata": {
+        "id": 330,
+        "slug": "ormoc",
+        "number": 1,
+        "title": "File:Ormoc bay.JPG",
+        "artist": "Jordz",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ormoc_bay.JPG",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Ormoc_bay.JPG/1280px-Ormoc_bay.JPG",
+        "width": 2048,
+        "height": 1536,
+        "date": "2010-08-10",
+        "description": "Ormoc Bay facing Merida, Leyte with the Magsanga mountain peak.",
+        "categories": "Taken with Kodak EasyShare C513|Ormoc|Ormoc Bay|Self-published work",
+        "sha256": "3713aa8b06fe83a79e9e93d7cefdbf6464b10b065585f2867c82bdc238e6b515"
+      }
+    },
+    {
+      "file": "330-ormoc-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sts._Peter_and_Paul_Church_Ormoc.jpg",
+      "credit": "JinJian / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2016-08-21 13:30:27",
+      "author_date_group": "JinJian | 2016-08-21 13:30:27",
+      "check": "2016년 성 베드로·바오로 성당 외관으로 종탑·성인상·정면을 본문과 대조했다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-2.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-2.webp",
+        "reviewed_at": "2026-11-17T06:22:42Z",
+        "result": "원본과 최종 WebP를 각각 열어 구도·요소·비율 유지와 본문 일치를 확인했다."
+      },
+      "source_metadata": {
+        "id": 330,
+        "slug": "ormoc",
+        "number": 2,
+        "title": "File:Sts. Peter and Paul Church Ormoc.jpg",
+        "artist": "JinJian",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sts._Peter_and_Paul_Church_Ormoc.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-2.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-2.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Sts._Peter_and_Paul_Church_Ormoc.jpg/1280px-Sts._Peter_and_Paul_Church_Ormoc.jpg",
+        "width": 4104,
+        "height": 2736,
+        "date": "2016-08-21 13:30:27",
+        "description": "Saints Peter and Paul Parish Church at Ormoc PH",
+        "categories": "Self-published work|Saints Peter and Paul Parish Church (Ormoc)",
+        "sha256": "2e644779e77f9a8f6ee844ce6a489b355722c9ca5568592d39ac589ea30b0733"
+      }
+    },
+    {
+      "file": "330-ormoc-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Ormoc_Port_night_view_(Laneti,_Ormoc,_Leyte;_01-17-2024).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-01-17",
+      "author_date_group": "Patrickroque01 | 2024-01-17",
+      "check": "2024년 오르목항과 접안 여객선의 야경이다. 늦은 운항편의 증거로 쓰지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-3.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-3.webp",
+        "reviewed_at": "2026-11-17T06:22:42Z",
+        "result": "원본과 최종 WebP를 각각 열어 구도·요소·비율 유지와 본문 일치를 확인했다."
+      },
+      "source_metadata": {
+        "id": 330,
+        "slug": "ormoc",
+        "number": 3,
+        "title": "File:Ormoc Port night view (Laneti, Ormoc, Leyte; 01-17-2024).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ormoc_Port_night_view_(Laneti,_Ormoc,_Leyte;_01-17-2024).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-3.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-3.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Ormoc_Port_night_view_%28Laneti%2C_Ormoc%2C_Leyte%3B_01-17-2024%29.jpg/1280px-Ormoc_Port_night_view_%28Laneti%2C_Ormoc%2C_Leyte%3B_01-17-2024%29.jpg",
+        "width": 3552,
+        "height": 2664,
+        "date": "2024-01-17",
+        "description": "Ormoc Port, Laneti, Ormoc City, Leyte night view",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|Port of Ormoc|Night in Ormoc",
+        "sha256": "6b159293af5b1fb53713ce0a1495c747c1cbcd1c995fa1d3ea12e5de66a69ca3"
+      }
+    },
+    {
+      "file": "330-ormoc-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Labanan_sa_Look_ng_Ormoc_historical_marker_-_NHCP.jpg",
+      "credit": "National Historical Commission of the Philippines / Public domain / Wikimedia Commons",
+      "date": "Taken on 27 February 2023",
+      "author_date_group": "National Historical Commission of the Philippines | Taken on 27 February 2023",
+      "check": "오르목만 전투 표지의 글자를 직접 읽고 NHCP 등록부와 대조했다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-4.webp",
+        "reviewed_at": "2026-11-17T06:22:42Z",
+        "result": "원본과 최종 WebP를 각각 열어 구도·요소·비율 유지와 본문 일치를 확인했다."
+      },
+      "source_metadata": {
+        "id": 330,
+        "slug": "ormoc",
+        "number": 4,
+        "title": "File:Labanan sa Look ng Ormoc historical marker - NHCP.jpg",
+        "artist": "National Historical Commission of the Philippines",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Labanan_sa_Look_ng_Ormoc_historical_marker_-_NHCP.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-4.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-4.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Labanan_sa_Look_ng_Ormoc_historical_marker_-_NHCP.jpg/1280px-Labanan_sa_Look_ng_Ormoc_historical_marker_-_NHCP.jpg",
+        "width": 1825,
+        "height": 2443,
+        "date": "Taken on 27 February 2023",
+        "description": "Historical marker created by the National Historical Commission of the Philippines to commemorate the Battle of Ormoc Bay. The marker is located at the waterfront of Ormoc City.",
+        "categories": "PD-PhilippinesGov|Labanan sa Look ng Ormoc historical marker|Information field template with formatting|Philippines photographs taken on 2023-02-27|Photos from the National Historical Commission of the Philippines|Objects with inscriptions in Tagalog needing translation",
+        "sha256": "cdc93e8bc297db2922d3c74cacf5c297b033c44aead62ad06bd9c51f54527fd5"
+      }
+    },
+    {
+      "file": "330-ormoc-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Rizal_Monument_in_Ormoc_City.jpg",
+      "credit": "Alvinhizon / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2018-09-07",
+      "author_date_group": "Alvinhizon | 2018-09-07",
+      "check": "리살 기념상과 뒤의 옛 시청 건물이다. 파일 설명·GPS를 함께 대조했다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-5.webp",
+        "reviewed_at": "2026-11-17T06:22:42Z",
+        "result": "원본과 최종 WebP를 각각 열어 구도·요소·비율 유지와 본문 일치를 확인했다."
+      },
+      "source_metadata": {
+        "id": 330,
+        "slug": "ormoc",
+        "number": 5,
+        "title": "File:Rizal Monument in Ormoc City.jpg",
+        "artist": "Alvinhizon",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rizal_Monument_in_Ormoc_City.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-5.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-5.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Rizal_Monument_in_Ormoc_City.jpg/1280px-Rizal_Monument_in_Ormoc_City.jpg",
+        "width": 1536,
+        "height": 2048,
+        "date": "2018-09-07",
+        "description": "",
+        "categories": "Ormoc|Media lacking a description|Images from Wiki Loves Monuments 2018|Self-published work|Uploaded via Campaign:wlm-ph|Files with coordinates missing SDC location of creation|Images from Wiki Loves Monuments 2018 in the Philippines|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Monuments and memorials to José Rizal in the Philippines",
+        "sha256": "837c8f001f23f40f5478cddbc9e3e0b4b19f7054b69857b4ec5eede64281152a"
+      }
+    },
+    {
+      "file": "330-ormoc-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Pina_Festival_of_Ormoc_City.jpg",
+      "credit": "Ranieljosecastaneda / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2019-06-23 16:13:19",
+      "author_date_group": "Ranieljosecastaneda | 2019-06-23 16:13:19",
+      "check": "2019년 거리 공연으로 파인애플을 든 공연자와 군무·의상 맥락이 보인다. 얼굴만 찍은 사진이 아니다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-6.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-6.webp",
+        "reviewed_at": "2026-11-17T06:22:42Z",
+        "result": "원본과 최종 WebP를 각각 열어 구도·요소·비율 유지와 본문 일치를 확인했다."
+      },
+      "source_metadata": {
+        "id": 330,
+        "slug": "ormoc",
+        "number": 6,
+        "title": "File:Pina Festival of Ormoc City.jpg",
+        "artist": "Ranieljosecastaneda",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pina_Festival_of_Ormoc_City.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-6.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-6.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Pina_Festival_of_Ormoc_City.jpg/1280px-Pina_Festival_of_Ormoc_City.jpg",
+        "width": 3600,
+        "height": 2400,
+        "date": "2019-06-23 16:13:19",
+        "description": "The Piña Festival seeks to promote not only Ormoc’s very own sweet queen pineapple, but will manifest every Ormocanon’s beautiful and sunshine-y nature that despite the challenges portrayed by the fruit’s thorny exterior.",
+        "categories": "Self-published work|Images from Wiki Loves Fashion in the Philippines|Wiki Loves Fashion|Images from Wiki Loves Fashion in the Philippines to check|Uploaded via Campaign:wlfa-ph",
+        "sha256": "cb07949eddc1aeaf142eb248c88fd5f722632490474f786ee1d4ac1e399ec899"
+      }
+    },
+    {
+      "file": "330-ormoc-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Ritual_of_Ormoc%27s_Pinya_Festival.jpg",
+      "credit": "CharMel Creations / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2025-06-22 19:07:57",
+      "author_date_group": "CharMel Creations | 2025-06-22 19:07:57",
+      "check": "2025년 공연으로 여러 무용수와 초록빛 농산물 모티프가 보인다. 2019년 사진과 작가·날짜·구도가 다르다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-7.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-7.webp",
+        "reviewed_at": "2026-11-17T06:22:42Z",
+        "result": "원본과 최종 WebP를 각각 열어 구도·요소·비율 유지와 본문 일치를 확인했다."
+      },
+      "source_metadata": {
+        "id": 330,
+        "slug": "ormoc",
+        "number": 7,
+        "title": "File:Ritual of Ormoc's Pinya Festival.jpg",
+        "artist": "CharMel Creations",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ritual_of_Ormoc%27s_Pinya_Festival.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-7.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-7.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Ritual_of_Ormoc%27s_Pinya_Festival.jpg/1280px-Ritual_of_Ormoc%27s_Pinya_Festival.jpg",
+        "width": 4743,
+        "height": 3162,
+        "date": "2025-06-22 19:07:57",
+        "description": "Ritual of Ormoc's Pinya Festival",
+        "categories": "Self-published work|Images from Wiki Loves Folklore 2026|Images from Wiki Loves Folklore 2026 in the Philippines|Images from Wiki Loves Folklore 2026 to check|Uploaded via Campaign:wlf 2026",
+        "sha256": "c5eea2da0d3de12138a4b5e1fd8a076d54d9f1a35eb0115d06d305f1e2a34369"
+      }
+    },
+    {
+      "file": "330-ormoc-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Robinsons_Ormoc_1st-floor_view.jpg",
+      "credit": "TheNuggeteer / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "28 July 2024 (according to Exif data)",
+      "author_date_group": "TheNuggeteer | 28 July 2024 (according to Exif data)",
+      "check": "2024년 Robinsons Ormoc 실내 통로·식당 구역이다. 개별 점포의 현재 영업을 보장하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-8.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-8.webp",
+        "reviewed_at": "2026-11-17T06:22:42Z",
+        "result": "원본과 최종 WebP를 각각 열어 구도·요소·비율 유지와 본문 일치를 확인했다."
+      },
+      "source_metadata": {
+        "id": 330,
+        "slug": "ormoc",
+        "number": 8,
+        "title": "File:Robinsons Ormoc 1st-floor view.jpg",
+        "artist": "TheNuggeteer",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Robinsons_Ormoc_1st-floor_view.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-8.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-8.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Robinsons_Ormoc_1st-floor_view.jpg/1280px-Robinsons_Ormoc_1st-floor_view.jpg",
+        "width": 3056,
+        "height": 3056,
+        "date": "28 July 2024 (according to Exif data)",
+        "description": "Robinsons Ormoc 1st-floor view",
+        "categories": "Ormoc|Robinsons Malls|Self-published work|Uploaded with Mobile/Android|Photographs taken on 2024-07-28",
+        "sha256": "fcc6856ca649a88a3e3fd437eb4338b3004bf4bcc6160ba95c52dbf3b17c7a7f"
+      }
+    },
+    {
+      "file": "330-ormoc-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Always_take_the_scenic_route.jpg",
+      "credit": "Hydrochic / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2017-12-12 14:32:24",
+      "author_date_group": "Hydrochic | 2017-12-12 14:32:24",
+      "check": "2017년 레이테 다나오 호수 활동 기록이다. 현행 장비·운영의 증거가 아니며 구명조끼 없는 모습을 따라 하지 말라고 본문에 적었다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-9.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-9.webp",
+        "reviewed_at": "2026-11-17T06:22:42Z",
+        "result": "원본과 최종 WebP를 각각 열어 구도·요소·비율 유지와 본문 일치를 확인했다."
+      },
+      "source_metadata": {
+        "id": 330,
+        "slug": "ormoc",
+        "number": 9,
+        "title": "File:Always take the scenic route.jpg",
+        "artist": "Hydrochic",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Always_take_the_scenic_route.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-9.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-9.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Always_take_the_scenic_route.jpg/1280px-Always_take_the_scenic_route.jpg",
+        "width": 1616,
+        "height": 1080,
+        "date": "2017-12-12 14:32:24",
+        "description": "Lake Danao , Leyte Philippines",
+        "categories": "Ormoc|Lake Danao (Leyte)|Self-published work|Images from Wiki Loves Earth 2018|Images from Wiki Loves Earth 2018 in the Philippines|Uploaded via Campaign:wle-ph|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation",
+        "sha256": "152cd711f7f542970003e23523ec20759201abd3428ca4a79d71c76f1a0f5f74"
+      }
+    },
+    {
+      "file": "330-ormoc-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Inbound2194941336149626746_Protected_Tourist_Spot_LAKE_DANAO_of_Ormoc_City_Philippines.jpg",
+      "credit": "JIMMYLEOJAYAGAGAPITO / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-05-24 11:48:54",
+      "author_date_group": "JIMMYLEOJAYAGAGAPITO | 2022-05-24 11:48:54",
+      "check": "2022년 레이테 다나오 호수의 숲·수면·수상 시설 기록이다. 재정비 뒤 동일 시설 대여를 보장하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-10.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-10.webp",
+        "reviewed_at": "2026-11-17T06:22:42Z",
+        "result": "원본과 최종 WebP를 각각 열어 구도·요소·비율 유지와 본문 일치를 확인했다."
+      },
+      "source_metadata": {
+        "id": 330,
+        "slug": "ormoc",
+        "number": 10,
+        "title": "File:Inbound2194941336149626746 Protected Tourist Spot LAKE DANAO of Ormoc City Philippines.jpg",
+        "artist": "JIMMYLEOJAYAGAGAPITO",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Inbound2194941336149626746_Protected_Tourist_Spot_LAKE_DANAO_of_Ormoc_City_Philippines.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-10.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-10.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Inbound2194941336149626746_Protected_Tourist_Spot_LAKE_DANAO_of_Ormoc_City_Philippines.jpg/1280px-Inbound2194941336149626746_Protected_Tourist_Spot_LAKE_DANAO_of_Ormoc_City_Philippines.jpg",
+        "width": 3264,
+        "height": 1840,
+        "date": "2022-05-24 11:48:54",
+        "description": "",
+        "categories": "Lake Danao (Leyte)|Self-published work|Images from Wiki Loves Earth 2022|Images from Wiki Loves Earth 2022 in the Philippines|Uploaded via Campaign:wle-ph|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation|Images from Wiki Loves Earth 2022 in the Philippines - missing",
+        "sha256": "85da8b89cd4a138fe8d0c41a73fcfe3e389d63c4c1c6351e61ec35d4cf310a50"
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_author_date_groups": 10,
+    "conversion": "Codex CLI가 정량 리사이즈·WebP 변환을 수행했다. 이미지 생성·재합성은 하지 않았다.",
+    "prompt": "work/parallel-1992/visayas/330-ormoc-prompt.txt",
+    "report": "work/parallel-1992/visayas/330-conversion-report.json",
+    "excluded": "동명 Negros Oriental 호수 사진, 촬영 장소가 불명확한 전시패널, 재해 이전 성당 사진, 같은 작가·같은 날 연속 촬영은 제외했다.",
+    "automated_check": {
+      "repair": 0,
+      "distant": 0,
+      "visual_review_required": 9,
+      "matched": 1,
+      "visual_review_complete": 10
+    }
+  },
+  "verification": {
+    "source_recheck": "PIA·Globe·Daily Tribune·PAL·OceanJet·GlobalTenders·OSM API·Mapcarta 본문을 다시 열었다. NHCP는 HTTP로 원문을 다시 받아 표지 글자와 비교했다.",
+    "philgo_fields_read": [
+      "idx",
+      "subject",
+      "content"
+    ],
+    "philgo_archive": "_i18n/work/parallel-1992/visayas/recheck-330/philgo.json",
+    "nhcp_archive": "_i18n/work/parallel-1992/visayas/recheck-330/nhcp.html",
+    "osm_archive": "_i18n/work/parallel-1992/visayas/recheck-330/osm.json",
+    "limits": "박물관 임시 휴관 원공지와 호수 재개 원공지는 직접 확보하지 못했다. 전자는 기록 때문에 현재 개방 재확인을 요구하고 후자는 재개 보도로 한정했다."
+  }
+}

@@ -1,0 +1,53 @@
+너는 이미 Codex CLI로 실행 중이다. 하위 에이전트나 Codex CLI 재호출 없이 직접 정량 변환한다. 다른 저장소 파일 탐색 금지. 아래 JSON에 주어진 input 사진 10장의 수치 가공만 처리한다. 그림 내용은 바꾸지 말고 기존 원본을 가로 정확히 1080px, 원본 종횡비 유지, WebP quality 80으로 output 경로에 저장한다. crop·업스케일·색보정·문자 추가/제거·합성 금지. input은 원본 확보된 1280px 사진이고 수정 금지. 원본 파일 SHA256가 expected_sha256와 일치하는지 검증하고, 각 원본과 결과를 전체 디코딩 검증하고, 출력width1080 및 비율과 크기를 보고한다. 픽셀변환은 네가 직접 수치 변환 도구를 써서 수행하며 이미지 생성 모델은 호출하지 않는다. 허용 output10개 및 report 한 개 외 수정·파일 탐색 금지. source width1080 미만이면 작업 실패로 남기고 업스케일하지 않는다. 결과 보고서 JSON을 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/visayas/330-conversion-report.json에 저장한다. 이 프롬프트가 결과 옆에 이미 보존돼 있다.
+[
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc.webp",
+    "expected_sha256": "3713aa8b06fe83a79e9e93d7cefdbf6464b10b065585f2867c82bdc238e6b515"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-2.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-2.webp",
+    "expected_sha256": "2e644779e77f9a8f6ee844ce6a489b355722c9ca5568592d39ac589ea30b0733"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-3.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-3.webp",
+    "expected_sha256": "6b159293af5b1fb53713ce0a1495c747c1cbcd1c995fa1d3ea12e5de66a69ca3"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-4.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-4.webp",
+    "expected_sha256": "cdc93e8bc297db2922d3c74cacf5c297b033c44aead62ad06bd9c51f54527fd5"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-5.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-5.webp",
+    "expected_sha256": "837c8f001f23f40f5478cddbc9e3e0b4b19f7054b69857b4ec5eede64281152a"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-6.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-6.webp",
+    "expected_sha256": "cb07949eddc1aeaf142eb248c88fd5f722632490474f786ee1d4ac1e399ec899"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-7.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-7.webp",
+    "expected_sha256": "c5eea2da0d3de12138a4b5e1fd8a076d54d9f1a35eb0115d06d305f1e2a34369"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-8.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-8.webp",
+    "expected_sha256": "fcc6856ca649a88a3e3fd437eb4338b3004bf4bcc6160ba95c52dbf3b17c7a7f"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-9.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-9.webp",
+    "expected_sha256": "152cd711f7f542970003e23523ec20759201abd3428ca4a79d71c76f1a0f5f74"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-10.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/330-ormoc-10.webp",
+    "expected_sha256": "85da8b89cd4a138fe8d0c41a73fcfe3e389d63c4c1c6351e61ec35d4cf310a50"
+  }
+]

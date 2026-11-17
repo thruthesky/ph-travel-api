@@ -1,0 +1,776 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "started_at_utc": "2026-11-17T06:28:46.502399+00:00",
+  "completed_at_utc": "2026-11-17T06:28:48.601001+00:00",
+  "manifest": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-final-preparation.json",
+  "manifest_sha256": "f1dad59f0b1165805a43ef6270460faf6440f81301e6832957aae5b74bbce6ad",
+  "manifest_unchanged": true,
+  "report_path": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/root/372-conversion-report.json",
+  "encoder": {
+    "name": "Pillow",
+    "version": "13.0.0",
+    "libwebp_version": "1.6.0"
+  },
+  "parameters": {
+    "format": "WEBP",
+    "width": 1080,
+    "height": "nearest integer of decoded source height * 1080 / decoded source width; ties rounded up",
+    "quality": 80,
+    "lossless": false,
+    "method": 6,
+    "resampling": "LANCZOS"
+  },
+  "operations": [
+    "full-frame proportional downscale",
+    "WebP encoding at quality 80"
+  ],
+  "prohibited_operations_applied": [],
+  "image_generation_used": false,
+  "nested_codex_cli_used": false,
+  "subagents_used": false,
+  "repository_exploration_performed": false,
+  "notes_ko": [
+    "manifest의 width/height는 게시 원본 크기이며 실제 다운로드 파일 10장의 폭은 모두 1280픽셀이다. 높이는 SHA256이 일치하는 실제 파일의 디코딩 크기를 기준으로 계산했다.",
+    "자르기, 회전, 색상 변환, 노출·명암 조정, 합성, 글자·로고·워터마크 제거, 업스케일을 수행하지 않았다.",
+    "ICC 바이트를 그대로 보존했다. EXIF는 JPEG의 Exif 접두어 6바이트가 WebP 저장 시 생략되며, 그 뒤의 메타데이터 본문이 바이트 단위로 동일함을 확인했다.",
+    "품질 80은 실제 인코더 전달 인자로 기록했다. 품질 80 손실 압축과 축소에 수반되는 픽셀 변화 외에 사진 내용 편집은 수행하지 않았다."
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "originals_unchanged": true,
+    "all_sources_full_decode": true,
+    "all_outputs_full_decode": true,
+    "all_output_widths_1080": true,
+    "all_height_errors_at_most_1_pixel": true,
+    "all_aspect_ratios_preserved_with_integer_rounding": true,
+    "no_upscaling": true,
+    "max_height_error_pixels": 0.375
+  },
+  "results": [
+    {
+      "index": 1,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-originals/ust-01.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/372-university-of-santo-tomas.webp",
+      "status": "passed",
+      "source_sha256_expected": "5cffd2e4e3dbb93406273517222b55409e95f7bd4ff85be9db360fa3e171b301",
+      "source_sha256_before": "5cffd2e4e3dbb93406273517222b55409e95f7bd4ff85be9db360fa3e171b301",
+      "source_bytes": 217945,
+      "source_format": "JPEG",
+      "source_mode": "RGB",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 723
+      },
+      "manifest_dimensions": {
+        "width": 2039,
+        "height": 1152
+      },
+      "dimension_basis": "decoded_original_file",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 610
+      },
+      "ideal_output_height": 610.03125,
+      "height_error_pixels": 0.03125,
+      "manifest_ratio_height_error_pixels": 0.1814615007356224,
+      "source_aspect_ratio": 1.7704011065006915,
+      "output_aspect_ratio": 1.7704918032786885,
+      "aspect_ratio_relative_error": 5.122950819669292e-05,
+      "scale_factor_width": 0.84375,
+      "quality_encoder_argument": 80,
+      "output_sha256": "367c9572c86cb5f2e777a03f6e0eb79b99961722f10314c8383f3eed8c7a5235",
+      "output_bytes": 93756,
+      "metadata_preservation": {},
+      "source_stat_before": {
+        "st_size": 217945,
+        "st_mtime_ns": 1794896595884455976,
+        "st_ctime_ns": 1794896595884455976,
+        "st_ino": 313489878,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_verify": true,
+        "source_full_decode": true,
+        "output_width_1080": true,
+        "height_nearest_integer": true,
+        "height_error_at_most_1_pixel": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "no_upscale": true,
+        "metadata_preserved": true,
+        "quality_80_passed_to_encoder": true,
+        "output_format_webp": true,
+        "output_verify": true,
+        "output_full_decode": true,
+        "saved_output_sha256_matches_encoded_bytes": true,
+        "original_bytes_unchanged": true,
+        "original_stat_unchanged": true,
+        "source_full_decode_after_conversion": true
+      },
+      "source_sha256_after": "5cffd2e4e3dbb93406273517222b55409e95f7bd4ff85be9db360fa3e171b301",
+      "source_stat_after": {
+        "st_size": 217945,
+        "st_mtime_ns": 1794896595884455976,
+        "st_ctime_ns": 1794896595884455976,
+        "st_ino": 313489878,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      }
+    },
+    {
+      "index": 2,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-originals/ust-02.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/372-university-of-santo-tomas-2.webp",
+      "status": "passed",
+      "source_sha256_expected": "f771440edacc53a486f2f50011d9e5e5e24b4af82b45f95ba55827877040b0c2",
+      "source_sha256_before": "f771440edacc53a486f2f50011d9e5e5e24b4af82b45f95ba55827877040b0c2",
+      "source_bytes": 624356,
+      "source_format": "JPEG",
+      "source_mode": "RGB",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 961
+      },
+      "manifest_dimensions": {
+        "width": 4624,
+        "height": 3472
+      },
+      "dimension_basis": "decoded_original_file",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 811
+      },
+      "ideal_output_height": 810.84375,
+      "height_error_pixels": 0.15625,
+      "manifest_ratio_height_error_pixels": 0.06574394463666522,
+      "source_aspect_ratio": 1.331945889698231,
+      "output_aspect_ratio": 1.3316892725030827,
+      "aspect_ratio_relative_error": 0.00019266337854495497,
+      "scale_factor_width": 0.84375,
+      "quality_encoder_argument": 80,
+      "output_sha256": "dc60e7ff8c2a7187c2b6ce2e66c2c3218691ede0f0249c1fef72356f74bbd340",
+      "output_bytes": 342024,
+      "metadata_preservation": {
+        "icc_profile": true
+      },
+      "source_stat_before": {
+        "st_size": 624356,
+        "st_mtime_ns": 1794896594866106993,
+        "st_ctime_ns": 1794896594866106993,
+        "st_ino": 313489872,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_verify": true,
+        "source_full_decode": true,
+        "output_width_1080": true,
+        "height_nearest_integer": true,
+        "height_error_at_most_1_pixel": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "no_upscale": true,
+        "metadata_preserved": true,
+        "quality_80_passed_to_encoder": true,
+        "output_format_webp": true,
+        "output_verify": true,
+        "output_full_decode": true,
+        "saved_output_sha256_matches_encoded_bytes": true,
+        "original_bytes_unchanged": true,
+        "original_stat_unchanged": true,
+        "source_full_decode_after_conversion": true
+      },
+      "source_sha256_after": "f771440edacc53a486f2f50011d9e5e5e24b4af82b45f95ba55827877040b0c2",
+      "source_stat_after": {
+        "st_size": 624356,
+        "st_mtime_ns": 1794896594866106993,
+        "st_ctime_ns": 1794896594866106993,
+        "st_ino": 313489872,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      }
+    },
+    {
+      "index": 3,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-originals/ust-03.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/372-university-of-santo-tomas-3.webp",
+      "status": "passed",
+      "source_sha256_expected": "c730d49bca90b483f00ade979e1341a1a9df22655f3ed42caa1ce9a973612062",
+      "source_sha256_before": "c730d49bca90b483f00ade979e1341a1a9df22655f3ed42caa1ce9a973612062",
+      "source_bytes": 1065314,
+      "source_format": "JPEG",
+      "source_mode": "RGB",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 1600
+      },
+      "manifest_dimensions": {
+        "width": 2755,
+        "height": 3444
+      },
+      "dimension_basis": "decoded_original_file",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "ideal_output_height": 1350.0,
+      "height_error_pixels": 0.0,
+      "manifest_ratio_height_error_pixels": 0.09800362976397992,
+      "source_aspect_ratio": 0.8,
+      "output_aspect_ratio": 0.8,
+      "aspect_ratio_relative_error": 0.0,
+      "scale_factor_width": 0.84375,
+      "quality_encoder_argument": 80,
+      "output_sha256": "2e271e04ad851b2d110ef293a7890f2aae76fc8fea3edc817a74299193e29c60",
+      "output_bytes": 629084,
+      "metadata_preservation": {
+        "icc_profile": true
+      },
+      "source_stat_before": {
+        "st_size": 1065314,
+        "st_mtime_ns": 1794896596495384431,
+        "st_ctime_ns": 1794896596495384431,
+        "st_ino": 313489880,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_verify": true,
+        "source_full_decode": true,
+        "output_width_1080": true,
+        "height_nearest_integer": true,
+        "height_error_at_most_1_pixel": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "no_upscale": true,
+        "metadata_preserved": true,
+        "quality_80_passed_to_encoder": true,
+        "output_format_webp": true,
+        "output_verify": true,
+        "output_full_decode": true,
+        "saved_output_sha256_matches_encoded_bytes": true,
+        "original_bytes_unchanged": true,
+        "original_stat_unchanged": true,
+        "source_full_decode_after_conversion": true
+      },
+      "source_sha256_after": "c730d49bca90b483f00ade979e1341a1a9df22655f3ed42caa1ce9a973612062",
+      "source_stat_after": {
+        "st_size": 1065314,
+        "st_mtime_ns": 1794896596495384431,
+        "st_ctime_ns": 1794896596495384431,
+        "st_ino": 313489880,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      }
+    },
+    {
+      "index": 4,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-originals/ust-04.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/372-university-of-santo-tomas-4.webp",
+      "status": "passed",
+      "source_sha256_expected": "c7adf26bad2422d355940033e2f1380057782358e1176543997783de129a3452",
+      "source_sha256_before": "c7adf26bad2422d355940033e2f1380057782358e1176543997783de129a3452",
+      "source_bytes": 373610,
+      "source_format": "JPEG",
+      "source_mode": "RGB",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 964
+      },
+      "manifest_dimensions": {
+        "width": 4080,
+        "height": 3072
+      },
+      "dimension_basis": "decoded_original_file",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 813
+      },
+      "ideal_output_height": 813.375,
+      "height_error_pixels": 0.375,
+      "manifest_ratio_height_error_pixels": 0.1764705882352473,
+      "source_aspect_ratio": 1.3278008298755186,
+      "output_aspect_ratio": 1.3284132841328413,
+      "aspect_ratio_relative_error": 0.0004612546125462025,
+      "scale_factor_width": 0.84375,
+      "quality_encoder_argument": 80,
+      "output_sha256": "ed5f2fd61b0935e1f2e628878775c4fe736092d15876ec18c8c84ed4275e0977",
+      "output_bytes": 172350,
+      "metadata_preservation": {},
+      "source_stat_before": {
+        "st_size": 373610,
+        "st_mtime_ns": 1794896596585871150,
+        "st_ctime_ns": 1794896596585871150,
+        "st_ino": 313489883,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_verify": true,
+        "source_full_decode": true,
+        "output_width_1080": true,
+        "height_nearest_integer": true,
+        "height_error_at_most_1_pixel": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "no_upscale": true,
+        "metadata_preserved": true,
+        "quality_80_passed_to_encoder": true,
+        "output_format_webp": true,
+        "output_verify": true,
+        "output_full_decode": true,
+        "saved_output_sha256_matches_encoded_bytes": true,
+        "original_bytes_unchanged": true,
+        "original_stat_unchanged": true,
+        "source_full_decode_after_conversion": true
+      },
+      "source_sha256_after": "c7adf26bad2422d355940033e2f1380057782358e1176543997783de129a3452",
+      "source_stat_after": {
+        "st_size": 373610,
+        "st_mtime_ns": 1794896596585871150,
+        "st_ctime_ns": 1794896596585871150,
+        "st_ino": 313489883,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      }
+    },
+    {
+      "index": 5,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-originals/ust-06.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/372-university-of-santo-tomas-5.webp",
+      "status": "passed",
+      "source_sha256_expected": "3b29121d1ed1480dc2bb4ca146de3be811e444697652ef577e0c998daa7f59b6",
+      "source_sha256_before": "3b29121d1ed1480dc2bb4ca146de3be811e444697652ef577e0c998daa7f59b6",
+      "source_bytes": 256708,
+      "source_format": "JPEG",
+      "source_mode": "RGB",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 853
+      },
+      "manifest_dimensions": {
+        "width": 5184,
+        "height": 3456
+      },
+      "dimension_basis": "decoded_original_file",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 720
+      },
+      "ideal_output_height": 719.71875,
+      "height_error_pixels": 0.28125,
+      "manifest_ratio_height_error_pixels": 0.0,
+      "source_aspect_ratio": 1.5005861664712778,
+      "output_aspect_ratio": 1.5,
+      "aspect_ratio_relative_error": 0.0003906249999999778,
+      "scale_factor_width": 0.84375,
+      "quality_encoder_argument": 80,
+      "output_sha256": "87a46bd0688f0edba5b05964fe667400f70c2e08cf69fb055230b4cda9b6069b",
+      "output_bytes": 106982,
+      "metadata_preservation": {
+        "icc_profile": true
+      },
+      "source_stat_before": {
+        "st_size": 256708,
+        "st_mtime_ns": 1794896597596898095,
+        "st_ctime_ns": 1794896597596898095,
+        "st_ino": 313489885,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_verify": true,
+        "source_full_decode": true,
+        "output_width_1080": true,
+        "height_nearest_integer": true,
+        "height_error_at_most_1_pixel": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "no_upscale": true,
+        "metadata_preserved": true,
+        "quality_80_passed_to_encoder": true,
+        "output_format_webp": true,
+        "output_verify": true,
+        "output_full_decode": true,
+        "saved_output_sha256_matches_encoded_bytes": true,
+        "original_bytes_unchanged": true,
+        "original_stat_unchanged": true,
+        "source_full_decode_after_conversion": true
+      },
+      "source_sha256_after": "3b29121d1ed1480dc2bb4ca146de3be811e444697652ef577e0c998daa7f59b6",
+      "source_stat_after": {
+        "st_size": 256708,
+        "st_mtime_ns": 1794896597596898095,
+        "st_ctime_ns": 1794896597596898095,
+        "st_ino": 313489885,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      }
+    },
+    {
+      "index": 6,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-originals/ust-07.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/372-university-of-santo-tomas-6.webp",
+      "status": "passed",
+      "source_sha256_expected": "ceef735e08942d579ce25e13873f805729638bf6187bfce32dce9887e4e7d803",
+      "source_sha256_before": "ceef735e08942d579ce25e13873f805729638bf6187bfce32dce9887e4e7d803",
+      "source_bytes": 649006,
+      "source_format": "JPEG",
+      "source_mode": "RGB",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 1707
+      },
+      "manifest_dimensions": {
+        "width": 3024,
+        "height": 4032
+      },
+      "dimension_basis": "decoded_original_file",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 1440
+      },
+      "ideal_output_height": 1440.28125,
+      "height_error_pixels": 0.28125,
+      "manifest_ratio_height_error_pixels": 0.0,
+      "source_aspect_ratio": 0.7498535442296427,
+      "output_aspect_ratio": 0.75,
+      "aspect_ratio_relative_error": 0.0001953125000000444,
+      "scale_factor_width": 0.84375,
+      "quality_encoder_argument": 80,
+      "output_sha256": "efb7d85a2acfb10681d3be71dd1dee86d27e7c944a82dd0532302df548109c13",
+      "output_bytes": 303150,
+      "metadata_preservation": {
+        "icc_profile": true
+      },
+      "source_stat_before": {
+        "st_size": 649006,
+        "st_mtime_ns": 1794896597751051726,
+        "st_ctime_ns": 1794896597751051726,
+        "st_ino": 313489887,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_verify": true,
+        "source_full_decode": true,
+        "output_width_1080": true,
+        "height_nearest_integer": true,
+        "height_error_at_most_1_pixel": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "no_upscale": true,
+        "metadata_preserved": true,
+        "quality_80_passed_to_encoder": true,
+        "output_format_webp": true,
+        "output_verify": true,
+        "output_full_decode": true,
+        "saved_output_sha256_matches_encoded_bytes": true,
+        "original_bytes_unchanged": true,
+        "original_stat_unchanged": true,
+        "source_full_decode_after_conversion": true
+      },
+      "source_sha256_after": "ceef735e08942d579ce25e13873f805729638bf6187bfce32dce9887e4e7d803",
+      "source_stat_after": {
+        "st_size": 649006,
+        "st_mtime_ns": 1794896597751051726,
+        "st_ctime_ns": 1794896597751051726,
+        "st_ino": 313489887,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      }
+    },
+    {
+      "index": 7,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-originals/ust-08.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/372-university-of-santo-tomas-7.webp",
+      "status": "passed",
+      "source_sha256_expected": "5c45f65f830cf8857333e247d9a6bece9f0d807236cee95027099d55bd517cb0",
+      "source_sha256_before": "5c45f65f830cf8857333e247d9a6bece9f0d807236cee95027099d55bd517cb0",
+      "source_bytes": 451783,
+      "source_format": "JPEG",
+      "source_mode": "RGB",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "manifest_dimensions": {
+        "width": 4032,
+        "height": 3024
+      },
+      "dimension_basis": "decoded_original_file",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "ideal_output_height": 810.0,
+      "height_error_pixels": 0.0,
+      "manifest_ratio_height_error_pixels": 0.0,
+      "source_aspect_ratio": 1.3333333333333333,
+      "output_aspect_ratio": 1.3333333333333333,
+      "aspect_ratio_relative_error": 0.0,
+      "scale_factor_width": 0.84375,
+      "quality_encoder_argument": 80,
+      "output_sha256": "772b670b9a194cfd67f2307db8eebcfb87a63ccc9cf54f61d1c29165a0e28f72",
+      "output_bytes": 217902,
+      "metadata_preservation": {
+        "icc_profile": true
+      },
+      "source_stat_before": {
+        "st_size": 451783,
+        "st_mtime_ns": 1794896598810699839,
+        "st_ctime_ns": 1794896598810699839,
+        "st_ino": 313489900,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_verify": true,
+        "source_full_decode": true,
+        "output_width_1080": true,
+        "height_nearest_integer": true,
+        "height_error_at_most_1_pixel": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "no_upscale": true,
+        "metadata_preserved": true,
+        "quality_80_passed_to_encoder": true,
+        "output_format_webp": true,
+        "output_verify": true,
+        "output_full_decode": true,
+        "saved_output_sha256_matches_encoded_bytes": true,
+        "original_bytes_unchanged": true,
+        "original_stat_unchanged": true,
+        "source_full_decode_after_conversion": true
+      },
+      "source_sha256_after": "5c45f65f830cf8857333e247d9a6bece9f0d807236cee95027099d55bd517cb0",
+      "source_stat_after": {
+        "st_size": 451783,
+        "st_mtime_ns": 1794896598810699839,
+        "st_ctime_ns": 1794896598810699839,
+        "st_ino": 313489900,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      }
+    },
+    {
+      "index": 8,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-originals/ust-09.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/372-university-of-santo-tomas-8.webp",
+      "status": "passed",
+      "source_sha256_expected": "3493cd7176ab73239d2e240f4958bf664739f8365c4c2d1e2c03c81b744cd7d7",
+      "source_sha256_before": "3493cd7176ab73239d2e240f4958bf664739f8365c4c2d1e2c03c81b744cd7d7",
+      "source_bytes": 460602,
+      "source_format": "JPEG",
+      "source_mode": "RGB",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "manifest_dimensions": {
+        "width": 4000,
+        "height": 3000
+      },
+      "dimension_basis": "decoded_original_file",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "ideal_output_height": 810.0,
+      "height_error_pixels": 0.0,
+      "manifest_ratio_height_error_pixels": 0.0,
+      "source_aspect_ratio": 1.3333333333333333,
+      "output_aspect_ratio": 1.3333333333333333,
+      "aspect_ratio_relative_error": 0.0,
+      "scale_factor_width": 0.84375,
+      "quality_encoder_argument": 80,
+      "output_sha256": "7354a4f84a065b2a3cf054cd2d142011de51782bbd71e0102281cda3e0b9d6f1",
+      "output_bytes": 233418,
+      "metadata_preservation": {
+        "exif": true
+      },
+      "source_stat_before": {
+        "st_size": 460602,
+        "st_mtime_ns": 1794896598809222832,
+        "st_ctime_ns": 1794896598809222832,
+        "st_ino": 313489899,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_verify": true,
+        "source_full_decode": true,
+        "output_width_1080": true,
+        "height_nearest_integer": true,
+        "height_error_at_most_1_pixel": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "no_upscale": true,
+        "metadata_preserved": true,
+        "quality_80_passed_to_encoder": true,
+        "output_format_webp": true,
+        "output_verify": true,
+        "output_full_decode": true,
+        "saved_output_sha256_matches_encoded_bytes": true,
+        "original_bytes_unchanged": true,
+        "original_stat_unchanged": true,
+        "source_full_decode_after_conversion": true
+      },
+      "source_sha256_after": "3493cd7176ab73239d2e240f4958bf664739f8365c4c2d1e2c03c81b744cd7d7",
+      "source_stat_after": {
+        "st_size": 460602,
+        "st_mtime_ns": 1794896598809222832,
+        "st_ctime_ns": 1794896598809222832,
+        "st_ino": 313489899,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      }
+    },
+    {
+      "index": 9,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-originals/ust-11.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/372-university-of-santo-tomas-9.webp",
+      "status": "passed",
+      "source_sha256_expected": "1c41883d0d9fd360128f0623d7b50fa22fef92b4473924cf5a7b81a23492a459",
+      "source_sha256_before": "1c41883d0d9fd360128f0623d7b50fa22fef92b4473924cf5a7b81a23492a459",
+      "source_bytes": 671011,
+      "source_format": "JPEG",
+      "source_mode": "RGB",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 1920
+      },
+      "manifest_dimensions": {
+        "width": 2848,
+        "height": 4272
+      },
+      "dimension_basis": "decoded_original_file",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 1620
+      },
+      "ideal_output_height": 1620.0,
+      "height_error_pixels": 0.0,
+      "manifest_ratio_height_error_pixels": 0.0,
+      "source_aspect_ratio": 0.6666666666666666,
+      "output_aspect_ratio": 0.6666666666666666,
+      "aspect_ratio_relative_error": 0.0,
+      "scale_factor_width": 0.84375,
+      "quality_encoder_argument": 80,
+      "output_sha256": "1361bbe2607be614cf67411489c921030e0371958b38a1b46fbc91c26841b66d",
+      "output_bytes": 284830,
+      "metadata_preservation": {},
+      "source_stat_before": {
+        "st_size": 671011,
+        "st_mtime_ns": 1794896602442169397,
+        "st_ctime_ns": 1794896602442169397,
+        "st_ino": 313489913,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_verify": true,
+        "source_full_decode": true,
+        "output_width_1080": true,
+        "height_nearest_integer": true,
+        "height_error_at_most_1_pixel": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "no_upscale": true,
+        "metadata_preserved": true,
+        "quality_80_passed_to_encoder": true,
+        "output_format_webp": true,
+        "output_verify": true,
+        "output_full_decode": true,
+        "saved_output_sha256_matches_encoded_bytes": true,
+        "original_bytes_unchanged": true,
+        "original_stat_unchanged": true,
+        "source_full_decode_after_conversion": true
+      },
+      "source_sha256_after": "1c41883d0d9fd360128f0623d7b50fa22fef92b4473924cf5a7b81a23492a459",
+      "source_stat_after": {
+        "st_size": 671011,
+        "st_mtime_ns": 1794896602442169397,
+        "st_ctime_ns": 1794896602442169397,
+        "st_ino": 313489913,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      }
+    },
+    {
+      "index": 10,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/ust-originals/ust-12.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/372-university-of-santo-tomas-10.webp",
+      "status": "passed",
+      "source_sha256_expected": "bb7cf84be3cee032eee438fe294f97e5f7af91d952bf46dc9d4878cf57cf6e33",
+      "source_sha256_before": "bb7cf84be3cee032eee438fe294f97e5f7af91d952bf46dc9d4878cf57cf6e33",
+      "source_bytes": 376346,
+      "source_format": "JPEG",
+      "source_mode": "RGB",
+      "source_dimensions": {
+        "width": 1280,
+        "height": 1707
+      },
+      "manifest_dimensions": {
+        "width": 1536,
+        "height": 2048
+      },
+      "dimension_basis": "decoded_original_file",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 1440
+      },
+      "ideal_output_height": 1440.28125,
+      "height_error_pixels": 0.28125,
+      "manifest_ratio_height_error_pixels": 0.0,
+      "source_aspect_ratio": 0.7498535442296427,
+      "output_aspect_ratio": 0.75,
+      "aspect_ratio_relative_error": 0.0001953125000000444,
+      "scale_factor_width": 0.84375,
+      "quality_encoder_argument": 80,
+      "output_sha256": "ab12b422733dd3c2ce3987685b31ea80bb2c01137d0183e8b3f6e1a6dee2ac2a",
+      "output_bytes": 123438,
+      "metadata_preservation": {},
+      "source_stat_before": {
+        "st_size": 376346,
+        "st_mtime_ns": 1794896601656703162,
+        "st_ctime_ns": 1794896601656703162,
+        "st_ino": 313489909,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_verify": true,
+        "source_full_decode": true,
+        "output_width_1080": true,
+        "height_nearest_integer": true,
+        "height_error_at_most_1_pixel": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "no_upscale": true,
+        "metadata_preserved": true,
+        "quality_80_passed_to_encoder": true,
+        "output_format_webp": true,
+        "output_verify": true,
+        "output_full_decode": true,
+        "saved_output_sha256_matches_encoded_bytes": true,
+        "original_bytes_unchanged": true,
+        "original_stat_unchanged": true,
+        "source_full_decode_after_conversion": true
+      },
+      "source_sha256_after": "bb7cf84be3cee032eee438fe294f97e5f7af91d952bf46dc9d4878cf57cf6e33",
+      "source_stat_after": {
+        "st_size": 376346,
+        "st_mtime_ns": 1794896601656703162,
+        "st_ctime_ns": 1794896601656703162,
+        "st_ino": 313489909,
+        "st_dev": 16777232,
+        "st_mode": 33188
+      }
+    }
+  ]
+}

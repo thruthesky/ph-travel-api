@@ -1,0 +1,69 @@
+{
+  "id": 331,
+  "slug": "sm-city-cebu",
+  "status": "한영 상세·사진·출처 완성 후 data 반영",
+  "primary_philgo_post_ids": [
+    1275713030,
+    1275712612
+  ],
+  "ko": "data/ko/331-sm-city-cebu.json",
+  "en": "data/en/331-sm-city-cebu.json",
+  "sources": "sources/331-sm-city-cebu.json",
+  "body_characters_ko": 6290,
+  "body_characters_en": 10607,
+  "section_count": 10,
+  "highlights": 6,
+  "translation_lines": 115,
+  "image_count": 10,
+  "unique_author_date_groups": 10,
+  "image_bytes": 1119416,
+  "images_metadata": "work/parallel-1992/visayas/331-image-preparation.json",
+  "images_check": "work/parallel-1992/visayas/331-images-check.json",
+  "images_check_levels": {
+    "고칠 것": 0,
+    "먼저 볼 것": 0,
+    "눈으로 볼 것": 9,
+    "맞음": 1
+  },
+  "visual_review": "후보 원본 13장을 각각 열어 확인하고 최종 선별 10장의 WebP를 각각 열어 구도·글자·비율·장소 일치를 대조했다. 후보25와 복사 원본도 다시 직접 대조했다.",
+  "image_conversion": {
+    "tool": "Codex CLI",
+    "command": "codex exec --skip-git-repo-check - < work/parallel-1992/visayas/331-sm-city-cebu-prompt.txt",
+    "operation": "수치 리사이즈·WebP 변환만 수행, 이미지 내용 생성·수정 없음",
+    "width": 1080,
+    "quality": 80,
+    "tokens": 26171,
+    "report": "work/parallel-1992/visayas/331-conversion-report.json",
+    "prompt": "work/parallel-1992/visayas/331-sm-city-cebu-prompt.txt"
+  },
+  "validation": {
+    "export": "부모보완후115줄통과",
+    "check_en": "통과",
+    "import_en": "통과",
+    "isolated_build": "292곳 × en·ko 통과",
+    "isolated_path": "_i18n/work/parallel-1992/visayas/validation-331/_site/v2",
+    "scope_note": "6개 언어 번역과 전역 빌드·data_version·카탈로그·커밋은 부모 담당. 예약 번호·조사 후보를 완성 수로 세지 않는다.",
+    "isolated_version": "07b08fc347fb"
+  },
+  "usage": {
+    "commons_search_queries": 10,
+    "image_download_success": 13,
+    "selected_images": 10,
+    "codex_cli": 1,
+    "translation_api": 0,
+    "image_generation": 0,
+    "web_search_queries": 11,
+    "web_open": 22,
+    "web_find": 4,
+    "http_requests": 7,
+    "http_status_success": 7,
+    "usable_http_sources": 5,
+    "nominatim": 1,
+    "philgo_api": 2,
+    "images_check_runs": 2,
+    "note": "Commons 10개 질의에는 후속 후보 사전검사 질의가 포함된다. 2회 사진 검사 중 첫 회는 선행 빌드 오류로 manifest 없음, 재검사는 10장 대조 완료."
+  },
+  "completed_at": "2026-11-17T06:46:45Z",
+  "body_characters_basis": "최종대장visibleText기준·구분공백포함",
+  "parent_correction": "통합검사에서볼거리5개만있음을발견,공식SM시네마확인후6번카드추가. 115줄export/check/import재통과. 이전scratch원고재실행으로최종JSON을덮어쓰지않을것."
+}

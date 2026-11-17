@@ -1,15 +1,32 @@
 {
   "id": 309,
   "slug": "lucena",
-  "title": { "type": "title", "text": "Lucena" },
-  "title_en": { "type": "subtitle", "lang": "en", "text": "Lucena" },
+  "title": {
+    "type": "title",
+    "text": "Lucena"
+  },
+  "title_en": {
+    "type": "subtitle",
+    "lang": "en",
+    "text": "Lucena"
+  },
   "tagline": {
     "type": "typography",
     "variant": "tagline",
     "text": "A Quezon city stop for a cathedral, civic gardens and a plate of chami"
   },
-  "island_group": { "type": "badge", "label": "Island group", "value": "luzon", "text": "Luzon" },
-  "region": { "type": "badge", "label": "Region", "value": "quezon", "text": "Quezon" },
+  "island_group": {
+    "type": "badge",
+    "label": "Island group",
+    "value": "luzon",
+    "text": "Luzon"
+  },
+  "region": {
+    "type": "badge",
+    "label": "Region",
+    "value": "quezon",
+    "text": "Quezon"
+  },
   "location": {
     "type": "address",
     "label": "Location",
@@ -26,17 +43,40 @@
   "tags": {
     "type": "tags",
     "label": "Tags",
-    "items": ["City walk", "Chami", "Quezon", "Cathedral", "Port"]
+    "items": [
+      "City walk",
+      "Chami",
+      "Quezon",
+      "Cathedral",
+      "Port"
+    ]
   },
-  "rating": { "type": "rating", "label": "Rating", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 13.936 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.6122 },
+  "rating": {
+    "type": "rating",
+    "label": "Rating",
+    "value": 4.6,
+    "max": 5
+  },
+  "latitude": {
+    "type": "latitude",
+    "label": "Latitude",
+    "value": 13.936
+  },
+  "longitude": {
+    "type": "longitude",
+    "label": "Longitude",
+    "value": 121.6122
+  },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
     "icon": "calendar_month",
     "text": "A dry day in December–February for walking; confirm any May event for the year of travel",
-    "months": [12, 1, 2]
+    "months": [
+      12,
+      1,
+      2
+    ]
   },
   "duration": {
     "type": "duration",
@@ -403,7 +443,11 @@
           "type": "table",
           "label": "Season at a glance",
           "icon": "calendar_month",
-          "columns": ["Period", "Conditions", "Planning notes"],
+          "columns": [
+            "Period",
+            "Conditions",
+            "Planning notes"
+          ],
           "rows": [
             [
               "December–February",
@@ -441,8 +485,13 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "The table is a " },
-            { "text": "personal planning allowance", "bold": true },
+            {
+              "text": "The table is a "
+            },
+            {
+              "text": "personal planning allowance",
+              "bold": true
+            },
             {
               "text": " for a day in Lucena and one overnight stay, not a published tariff. Adjust it for accommodation, meals and party size. Add intercity buses from Manila, flights and any Marinduque ferry separately. Viewing public-building exteriors does not include an interior admission entitlement; follow any specific access or photography charge."
             }
@@ -451,7 +500,11 @@
         {
           "type": "pricing",
           "currency": "PHP",
-          "columns": ["Item", "Budget or charge", "Notes"],
+          "columns": [
+            "Item",
+            "Budget or charge",
+            "Notes"
+          ],
           "items": [
             {
               "label": "Meals, water and snacks",
@@ -468,7 +521,11 @@
               "price": "₱800–1,400",
               "note": "Budget assuming a shared room; not a quoted room price"
             },
-            { "label": "Reserve", "price": "₱200–400", "note": "For delays or extra transfers" }
+            {
+              "label": "Reserve",
+              "price": "₱200–400",
+              "note": "For delays or extra transfers"
+            }
           ]
         },
         {
@@ -634,7 +691,8 @@
                 {
                   "text": "Pair Lucena with Tayabas’s church and heritage architecture. Its sights are separate from Lucena’s provincial-capitol area, so select buildings and plan the transfer."
                 }
-              ]
+              ],
+              "place": "tayabas"
             },
             {
               "type": "card",

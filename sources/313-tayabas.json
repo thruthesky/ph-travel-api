@@ -1,0 +1,397 @@
+{
+  "id": 313,
+  "slug": "tayabas",
+  "checked_at": "2026-11-17T06:22:37.978773+00:00",
+  "facts": [
+    {
+      "where": "전체",
+      "fact": "원문하위명소추출과독립신규성",
+      "value": "필고1275712392케손주종합글TSV896행의TayabasBasilica",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/?module=post&action=view&idx=1275712392",
+          "grade": "C",
+          "says": "원문3578자공개post.get직접읽음,타야박성당TayabasBasilica하위명소·부정확지리/음식/버스/가격다수"
+        },
+        {
+          "url": "work/philgo-registration-audit.csv",
+          "grade": "C",
+          "says": "케손주종합글은단일명소아님.하위명소분리조사대상"
+        },
+        {
+          "url": "data/ko/309-lucena.json",
+          "grade": "C",
+          "says": "기존루세나nearby타야바스설명만,미등록링크라부모가place제거한항목"
+        }
+      ],
+      "decision": "Tayabas도시구도심/성당/Casa/다리를독립방문단위로연결.duplicate.mjs286개대장일치0,Lucena/Lucban별도도시확인.원문바다/폭포/국립공원/무검증음식/부정확버스브랜드·시간/가격·유네스코잠정목록등미채택.원문사진·댓글·개인정보미사용.한영독창집필이며과거원고복제없음."
+    },
+    {
+      "where": "location,latitude,longitude",
+      "fact": "도시범위와좌표기준",
+      "value": "케손주타야바스구도심·바실리카기준14.0260,121.5908",
+      "sources": [
+        {
+          "url": "https://tayabas.gov.ph/tourism/",
+          "grade": "A",
+          "says": "현행시관광청:바실리카·Casa·석조다리·Mayohan·부딘,관광사무소Casa1F주소"
+        },
+        {
+          "url": "https://tayabas.gov.ph/tourism/singles/?collection=WhatToSee&id=24",
+          "grade": "A",
+          "says": "성미카엘바실리카·열쇠형상·1988바실리카·문화재,주소·공식성당소셜링크"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Tayabas_Basilica",
+          "grade": "B",
+          "says": "바실리카위치14.025942,121.590831·바로크·긴통로·실내장식·여러차례확장보수"
+        },
+        {
+          "url": "https://mapcarta.com/W315190046",
+          "grade": "B",
+          "says": "OSMway315190046동일바실리카건물14.0261,121.59065·근처구도심과Malagonlong별도3km"
+        }
+      ],
+      "decision": "2지도교차:Wikipedia14.025942,121.590831과OSM14.0261,121.59065약26m.둘사이구도심대표점채택,도시전체경계/모든다리좌표가아님명시.도시Wikivoyage대표14.0167,121.5833은광역점이라사용안함.한항목에서다리·성당의정확입구/픽업핀같다고보장하지않음."
+    },
+    {
+      "where": "overview",
+      "fact": "옛주도와현재지리",
+      "value": "Tayabas옛주도·1901Lucena로이전·내륙구도심",
+      "sources": [
+        {
+          "url": "https://memory.nhcp.gov.ph/historical-sites/tayabas/",
+          "grade": "A",
+          "says": "NHCP공식Tayabas표지:1578·1605주도·1901-03-10Lucena로이전"
+        },
+        {
+          "url": "https://tayabas.gov.ph/tourism/history-heritage/",
+          "grade": "A",
+          "says": "시도시연혁과Casa/성당/옛다리"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Tayabas",
+          "grade": "B",
+          "says": "구도심바실리카/Casa·Malagonlong·Lucena/Lucban연결·구교와옆현대교량·음식·숙소"
+        },
+        {
+          "url": "https://mapcarta.com/W315190046",
+          "grade": "B",
+          "says": "OSMway315190046동일바실리카건물14.0261,121.59065·근처구도심과Malagonlong별도3km"
+        }
+      ],
+      "decision": "TayabasBay해수욕안내와구도심구별.도시명어원guava/민담설혼재라확정기원수록안함.공식NHCP레코드하단RegionIV-B태그오류보다시/주공식CalabarzonIV-A우선.도시전체UNESCO/heritagezone지정주장없음."
+    },
+    {
+      "where": "highlights,overview",
+      "fact": "바실리카건축과역사",
+      "value": "StMichael바실리카·종탑·긴통로·실내장식",
+      "sources": [
+        {
+          "url": "https://tayabas.gov.ph/tourism/singles/?collection=WhatToSee&id=24",
+          "grade": "A",
+          "says": "성미카엘바실리카·열쇠형상·1988바실리카·문화재,주소·공식성당소셜링크"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Tayabas_Basilica",
+          "grade": "B",
+          "says": "바실리카위치14.025942,121.590831·바로크·긴통로·실내장식·여러차례확장보수"
+        },
+        {
+          "url": "https://memory.nhcp.gov.ph/historical-sites/tayabas/",
+          "grade": "A",
+          "says": "NHCP관련레코드BasilikangTayabas2025표지존재"
+        },
+        {
+          "url": "https://tayabas.gov.ph/news-and-events/article/?article_id=981",
+          "grade": "A",
+          "says": "2026-06-25시공식:6월22일LGU/NCCA/NHCP회의에서ReinaIsabelII재활·현지교통영향·Casa/바실리카정비계획논의",
+          "date": "2026-06-25"
+        }
+      ],
+      "decision": "창건연도1578/1580/1585출처기준다름으로본문연대확정안함.건물전부16세기라고안함.원문유네스코잠정목록표기독립검증없어제외.1988바실리카는성립확인했으나여행본문숫자불필요로대부분생략.2026-11-12SanDiego교구성지신규호칭검색있지만공식소셜열람throttle로확인부족,기존안정된바실리카이름사용.실내/부속시설현장허가조건."
+    },
+    {
+      "where": "highlights,overview",
+      "fact": "CasaComunidad역사와현재방문",
+      "value": "석조아래층·목조위층·1831석조재건·관광안내/전시",
+      "sources": [
+        {
+          "url": "https://tayabas.gov.ph/tourism/singles/?collection=WhatToSee&id=28",
+          "grade": "A",
+          "says": "CasaComunidad석조/목조구조·1831·전시및시관광안내"
+        },
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/casa-de-comunidad-de-tayabas/",
+          "grade": "A",
+          "says": "NHCP:1776가벼운건물기원·1831석조재건·1835개관·1837완료·화재/전후복구·NationalHistoricalLandmark"
+        },
+        {
+          "url": "https://tayabas.gov.ph/tourism/",
+          "grade": "A",
+          "says": "현행시관광청:바실리카·Casa·석조다리·Mayohan·부딘,관광사무소Casa1F주소"
+        },
+        {
+          "url": "https://tayabas.gov.ph/news-and-events/article/?article_id=981",
+          "grade": "A",
+          "says": "2026-06-25시공식:6월22일LGU/NCCA/NHCP회의에서ReinaIsabelII재활·현지교통영향·Casa/바실리카정비계획논의",
+          "date": "2026-06-25"
+        }
+      ],
+      "decision": "1831모든건물완공/스페인원형그대로아님,재건표현.1835개관1837완료등복잡연대본문핵심만.화재/재활당시전시항상공개보장안함.현재시관광소위치는1F Casa공식안내.옛시청사진은별도TahanangBayan건물이며Casa나BrgyBaguio새시청과혼동안함."
+    },
+    {
+      "where": "highlights,cautions,getting_there",
+      "fact": "옛석조다리의범위와현재접근",
+      "value": "Malagonlong두마카아강/현대교량구별·다른다리는별도위치",
+      "sources": [
+        {
+          "url": "https://tayabas.gov.ph/tourism/singles/?collection=WhatToSee&id=25",
+          "grade": "A",
+          "says": "Malagonlong1840~1850·두마카아강·아치5개·Lakawan/TayabasPagbilaoRoad·2011문화재"
+        },
+        {
+          "url": "https://www.nationalmuseum.gov.ph/2022/07/07/the-spanish-era-colonial-bridges-of-tayabas/",
+          "grade": "A",
+          "says": "국립박물관Malagonlong및다른10개다리2011NCT·옛석조다리의동네/강연결·ReinaIsabelII등구별",
+          "date": "2022-07-07"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Tayabas",
+          "grade": "B",
+          "says": "구도심바실리카/Casa·Malagonlong·Lucena/Lucban연결·구교와옆현대교량·음식·숙소"
+        },
+        {
+          "url": "https://tayabas.gov.ph/news-and-events/article/?article_id=981",
+          "grade": "A",
+          "says": "2026-06-25시공식:6월22일LGU/NCCA/NHCP회의에서ReinaIsabelII재활·현지교통영향·Casa/바실리카정비계획논의",
+          "date": "2026-06-25"
+        }
+      ],
+      "decision": "Malagonlong구도심바로옆도보구간아님.아치개수/길이/최장랭킹/노역규모불필요세부본문생략.구다리현행차량통과자유/강바닥도보/교각클라이밍권장금지.시관광안내와국립박물관교차.현재교량전면영구폐쇄숫자시간보장없음.강변옛사진은현재수위/접근허가가아닌장소기록."
+    },
+    {
+      "where": "overview,best_time,cautions",
+      "fact": "보존사업과통행변동",
+      "value": "2026ReinaIsabelII재활교통영향·Casa/바실리카정비논의",
+      "sources": [
+        {
+          "url": "https://tayabas.gov.ph/news-and-events/article/?article_id=981",
+          "grade": "A",
+          "says": "2026-06-25시공식:6월22일LGU/NCCA/NHCP회의에서ReinaIsabelII재활·현지교통영향·Casa/바실리카정비계획논의",
+          "date": "2026-06-25"
+        },
+        {
+          "url": "https://www.nationalmuseum.gov.ph/2022/07/07/the-spanish-era-colonial-bridges-of-tayabas/",
+          "grade": "A",
+          "says": "국립박물관Malagonlong및다른10개다리2011NCT·옛석조다리의동네/강연결·ReinaIsabelII등구별",
+          "date": "2022-07-07"
+        },
+        {
+          "url": "https://tayabas.gov.ph/tourism/tourism-services/tour-assistance/",
+          "grade": "A",
+          "says": "현지관광기관통한일정협의와방문안내"
+        }
+      ],
+      "decision": "2022국립박물관표기ReinaIsabelII가벼운차량통과를2026현재상태로보장하지않음.공식2026새공지우선.모든명소일괄폐쇄/공사완료라고추측안함.사진2022ReinaIsabelII는2026보수논의이전기록alt명시."
+    },
+    {
+      "where": "highlights,stay_and_food",
+      "fact": "지역음식",
+      "value": "부딘카사바·예마케이크·수만",
+      "sources": [
+        {
+          "url": "https://tayabas.gov.ph/tourism/products/",
+          "grade": "A",
+          "says": "시제품직접설명:Budin카사바/코코넛·YemaCake계란/우유·Suman쌀코코넛"
+        },
+        {
+          "url": "https://tayabas.gov.ph/tourism/",
+          "grade": "A",
+          "says": "현행시관광청:바실리카·Casa·석조다리·Mayohan·부딘,관광사무소Casa1F주소"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Tayabas",
+          "grade": "B",
+          "says": "구도심바실리카/Casa·Malagonlong·Lucena/Lucban연결·구교와옆현대교량·음식·숙소"
+        }
+      ],
+      "decision": "특정상점추천/가격/원산지유일성/항상안전한보관시간생성안함.알레르기/구체레시피는가게별확인.술/전통은선택존중·운전분리일반조언,고도수술구매/음주강요없음.원문Yaya/Pilonen/Tinatian등무검증음식명미전재."
+    },
+    {
+      "where": "best_time,itinerary",
+      "fact": "축제와날씨",
+      "value": "Mayohan5월·Pahiyas별도도시/행사",
+      "sources": [
+        {
+          "url": "https://tayabas.gov.ph/tourism/feast-and-festivals/",
+          "grade": "A",
+          "says": "Mayohan5월·성주간/성미카엘9월등서로다른행사"
+        },
+        {
+          "url": "https://tayabas.gov.ph/tourism/tourism-services/things-to-remember-when-visiting-tayabas/",
+          "grade": "A",
+          "says": "시관광청우산/겉옷·지역전통·유산존중"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Tayabas",
+          "grade": "B",
+          "says": "구도심바실리카/Casa·Malagonlong·Lucena/Lucban연결·구교와옆현대교량·음식·숙소"
+        }
+      ],
+      "decision": "웹카드기본08~17시간을매년모든축제확정시간표로복제안함.평상시유산산책이며공연/축제일정이매일열린다고안함.건기/태풍기간숫자확정·일기예보보장없음.비올때다리접근줄이기일반방문조언."
+    },
+    {
+      "where": "getting_there",
+      "fact": "교통과지역구분",
+      "value": "마닐라→Lucena등연결후Tayabas시내구간별도",
+      "sources": [
+        {
+          "url": "https://jacliner.com/terminals-and-routes",
+          "grade": "A",
+          "says": "현행운영사마닐라Kamias/Buendia·LucenaGrandCentralTerminal과Mauban등노선"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Tayabas",
+          "grade": "B",
+          "says": "구도심바실리카/Casa·Malagonlong·Lucena/Lucban연결·구교와옆현대교량·음식·숙소"
+        },
+        {
+          "url": "https://tayabas.gov.ph/tourism/",
+          "grade": "A",
+          "says": "현행시관광청:바실리카·Casa·석조다리·Mayohan·부딘,관광사무소Casa1F주소"
+        }
+      ],
+      "decision": "운영사루세나접근과지역지도교차,원문JAL/LucenaStar/Viñan등무검증운수사이름미채택.타야바스정차직통은예약전확인조건으로만설명.정해진요금/배차/몇분운전/특정승차대/항공출발편미기재.공항MNL뒤육로필요,타야바스공항존재추측없음."
+    },
+    {
+      "where": "budget,costs,itinerary,stay_and_food",
+      "fact": "편집계획예산·현지안내",
+      "value": "식음400–700+지역교통500–1000+예비300–500=1200–2200PHP",
+      "sources": [
+        {
+          "url": "https://tayabas.gov.ph/tourism/tourism-services/tour-assistance/",
+          "grade": "A",
+          "says": "공식가이드사전요청·일정협의·승인/요금안내·시재무과납부절차"
+        },
+        {
+          "url": "https://tayabas.gov.ph/tourism/",
+          "grade": "A",
+          "says": "현행시관광청:바실리카·Casa·석조다리·Mayohan·부딘,관광사무소Casa1F주소"
+        }
+      ],
+      "decision": "모두개인계획액으로현재입장료/메뉴/운임아님.마닐라장거리/공항/항공/숙박/가이드/전시/헌금/대량기념품제외.공식가이드무료확정아님·현장즉시배정보장없음.4.6은저장소형식의편집값,외부리뷰평균아님.산악보호구역등산허가/통제는추가활동선택시별도확인안내,자유등산권장없음."
+    }
+  ],
+  "images": [
+    {
+      "file": "313-tayabas.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_Minore_de_San_Miguel_Arcangel_Tayabas.JPG",
+      "artist": "Joelaldor",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "Taken on 28 October 2014, 16:20:40 (according to Exif data)",
+      "source_original_width": 3216,
+      "source_original_height": 2136,
+      "check": "2014년 타야바스 바실리카의 정면과 종탑, 잔디 앞마당 — Commons작가·라이선스·장소·촬영일/형태대조.원본23장·최종10장직접열람.부드럽게흐린정면/강한역광2026다리/비슷한Casa외관/글자중심문양/가게간판/흐린강단/사무실클로즈업제외.10작가9촬영일,대표성당전체·Casa외관/안쪽석조아치·다리전체/교각·다른ReinaIsabelII·옛시청·동문·제단/천장·긴통로로대상/시점/구도분산.원본색/명암유지,추가워터마크없음.예전계절장식과보행가능은현재보장아님."
+    },
+    {
+      "file": "313-tayabas-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Comunidad_de_Tayabas.JPG",
+      "artist": "Nickrds09",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "Taken on 6 February 2011, 12:40:26 (according to Exif data)",
+      "source_original_width": 3398,
+      "source_original_height": 1953,
+      "check": "2011년 Casa Comunidad의 석조 아래층과 목조 윗층 외관 — Commons작가·라이선스·장소·촬영일/형태대조.원본23장·최종10장직접열람.부드럽게흐린정면/강한역광2026다리/비슷한Casa외관/글자중심문양/가게간판/흐린강단/사무실클로즈업제외.10작가9촬영일,대표성당전체·Casa외관/안쪽석조아치·다리전체/교각·다른ReinaIsabelII·옛시청·동문·제단/천장·긴통로로대상/시점/구도분산.원본색/명암유지,추가워터마크없음.예전계절장식과보행가능은현재보장아님."
+    },
+    {
+      "file": "313-tayabas-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:TayabasCasajf0195_15.JPG",
+      "artist": "Ramon FVelasquez",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2013-12-12 16:21:33",
+      "source_original_width": 4608,
+      "source_original_height": 3456,
+      "check": "2013년 Casa Comunidad 안쪽의 석조 아치와 통로 — Commons작가·라이선스·장소·촬영일/형태대조.원본23장·최종10장직접열람.부드럽게흐린정면/강한역광2026다리/비슷한Casa외관/글자중심문양/가게간판/흐린강단/사무실클로즈업제외.10작가9촬영일,대표성당전체·Casa외관/안쪽석조아치·다리전체/교각·다른ReinaIsabelII·옛시청·동문·제단/천장·긴통로로대상/시점/구도분산.원본색/명암유지,추가워터마크없음.예전계절장식과보행가능은현재보장아님."
+    },
+    {
+      "file": "313-tayabas-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Puente_de_Malagonlong.jpg",
+      "artist": "Carol Zornosa",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2012-06-10 15:18:47",
+      "source_original_width": 2941,
+      "source_original_height": 2000,
+      "check": "2012년 두마카아강과 나란히 보이는 옛 Malagonlong 석조 다리와 새 교량 — Commons작가·라이선스·장소·촬영일/형태대조.원본23장·최종10장직접열람.부드럽게흐린정면/강한역광2026다리/비슷한Casa외관/글자중심문양/가게간판/흐린강단/사무실클로즈업제외.10작가9촬영일,대표성당전체·Casa외관/안쪽석조아치·다리전체/교각·다른ReinaIsabelII·옛시청·동문·제단/천장·긴통로로대상/시점/구도분산.원본색/명암유지,추가워터마크없음.예전계절장식과보행가능은현재보장아님."
+    },
+    {
+      "file": "313-tayabas-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:IJVMalagonlongBridge2.jpg",
+      "artist": "IJVelas",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2013-08-26 16:23:47",
+      "source_original_width": 3872,
+      "source_original_height": 2592,
+      "check": "2013년 Malagonlong Bridge의 아치·교각과 강물 — Commons작가·라이선스·장소·촬영일/형태대조.원본23장·최종10장직접열람.부드럽게흐린정면/강한역광2026다리/비슷한Casa외관/글자중심문양/가게간판/흐린강단/사무실클로즈업제외.10작가9촬영일,대표성당전체·Casa외관/안쪽석조아치·다리전체/교각·다른ReinaIsabelII·옛시청·동문·제단/천장·긴통로로대상/시점/구도분산.원본색/명암유지,추가워터마크없음.예전계절장식과보행가능은현재보장아님."
+    },
+    {
+      "file": "313-tayabas-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tayabas-Sariaya_Road,_Puente_de_Reina_Isabel_II_(Tayabas,_Quezon;_10-08-2022).jpg",
+      "artist": "Patrickroque01",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "10-08-2022",
+      "source_original_width": 3552,
+      "source_original_height": 2664,
+      "check": "2022년 보수 논의 이전의 Puente de Reina Isabel II와 주변 건물 — Commons작가·라이선스·장소·촬영일/형태대조.원본23장·최종10장직접열람.부드럽게흐린정면/강한역광2026다리/비슷한Casa외관/글자중심문양/가게간판/흐린강단/사무실클로즈업제외.10작가9촬영일,대표성당전체·Casa외관/안쪽석조아치·다리전체/교각·다른ReinaIsabelII·옛시청·동문·제단/천장·긴통로로대상/시점/구도분산.원본색/명암유지,추가워터마크없음.예전계절장식과보행가능은현재보장아님."
+    },
+    {
+      "file": "313-tayabas-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Tayabas_City_Hall,_Quezon.jpg",
+      "artist": "Ralff Nestor Nacor",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2023-09-09 15:18:15",
+      "source_original_width": 4080,
+      "source_original_height": 3072,
+      "check": "2023년 타야바스 옛 시청 건물의 기둥과 발코니 — Commons작가·라이선스·장소·촬영일/형태대조.원본23장·최종10장직접열람.부드럽게흐린정면/강한역광2026다리/비슷한Casa외관/글자중심문양/가게간판/흐린강단/사무실클로즈업제외.10작가9촬영일,대표성당전체·Casa외관/안쪽석조아치·다리전체/교각·다른ReinaIsabelII·옛시청·동문·제단/천장·긴통로로대상/시점/구도분산.원본색/명암유지,추가워터마크없음.예전계절장식과보행가능은현재보장아님."
+    },
+    {
+      "file": "313-tayabas-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:East_Entrance_to_the_Minor_Basilica_of_St._Michael_the_Archangel.jpg",
+      "artist": "Carcollector",
+      "license": "CC BY 3.0",
+      "captured_at": "Taken on 11 June 2009 (according to Exif data)",
+      "source_original_width": 3072,
+      "source_original_height": 2304,
+      "check": "2009년 타야바스 바실리카의 동쪽 문과 석조 장식 — Commons작가·라이선스·장소·촬영일/형태대조.원본23장·최종10장직접열람.부드럽게흐린정면/강한역광2026다리/비슷한Casa외관/글자중심문양/가게간판/흐린강단/사무실클로즈업제외.10작가9촬영일,대표성당전체·Casa외관/안쪽석조아치·다리전체/교각·다른ReinaIsabelII·옛시청·동문·제단/천장·긴통로로대상/시점/구도분산.원본색/명암유지,추가워터마크없음.예전계절장식과보행가능은현재보장아님."
+    },
+    {
+      "file": "313-tayabas-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tayabas_Basilica_Altar.JPG",
+      "artist": "Ramiltibayan",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2014-10-28 16:45:03",
+      "source_original_width": 2816,
+      "source_original_height": 2112,
+      "check": "2014년 타야바스 바실리카의 제단과 장식 천장 — Commons작가·라이선스·장소·촬영일/형태대조.원본23장·최종10장직접열람.부드럽게흐린정면/강한역광2026다리/비슷한Casa외관/글자중심문양/가게간판/흐린강단/사무실클로즈업제외.10작가9촬영일,대표성당전체·Casa외관/안쪽석조아치·다리전체/교각·다른ReinaIsabelII·옛시청·동문·제단/천장·긴통로로대상/시점/구도분산.원본색/명암유지,추가워터마크없음.예전계절장식과보행가능은현재보장아님."
+    },
+    {
+      "file": "313-tayabas-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Minor_Basilica_of_St._Michael_the_Archangel.jpg",
+      "artist": "Rabosajr",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2012-02-24 16:37:34",
+      "source_original_width": 3264,
+      "source_original_height": 4928,
+      "check": "2012년 타야바스 바실리카의 긴 중앙 통로와 천장 — Commons작가·라이선스·장소·촬영일/형태대조.원본23장·최종10장직접열람.부드럽게흐린정면/강한역광2026다리/비슷한Casa외관/글자중심문양/가게간판/흐린강단/사무실클로즈업제외.10작가9촬영일,대표성당전체·Casa외관/안쪽석조아치·다리전체/교각·다른ReinaIsabelII·옛시청·동문·제단/천장·긴통로로대상/시점/구도분산.원본색/명암유지,추가워터마크없음.예전계절장식과보행가능은현재보장아님."
+    }
+  ],
+  "image_processing": {
+    "prompt": "data/images/313-tayabas-prompt.txt",
+    "method": "CodexCLI에만가로1080비율유지WebPq80정량변환위임.크롭회전색보정내용생성없음.원본SHA불변·치수·디코딩전부통과.",
+    "report": "work/parallel-1992/luzon/313-tayabas-conversion-report.json"
+  },
+  "translation": {
+    "method": "한영직접집필101줄export/check/import성공",
+    "fallback": "다른6언어부모통합선언대기"
+  }
+}

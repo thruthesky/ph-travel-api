@@ -1,0 +1,581 @@
+{
+  "id": 331,
+  "slug": "sm-city-cebu",
+  "checked_at": "2026-11-17T06:44:33Z",
+  "primary_philgo_post_ids": [
+    1275713030,
+    1275712612
+  ],
+  "facts": [
+    {
+      "where": "overview, identity",
+      "fact": "필고 원문과 독립 항목",
+      "value": "SM City Cebu, SM Mabolo",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275713030",
+          "grade": "C",
+          "says": "공개 API에서 idx·subject·content만 읽었다. 원문은 세부 SM시티몰 안내다."
+        },
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712612",
+          "grade": "C",
+          "says": "같은 쇼핑몰의 중복 가이드로 새 항목 하나에 통합했다."
+        },
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-city-cebu/information",
+          "grade": "A",
+          "says": "SM City Cebu의 마볼로·North Reclamation Area 주소와 현재 영업시간을 제공한다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_City_Cebu",
+          "grade": "B",
+          "says": "SM City Cebu를 SM Mabolo라고도 부르며 SM Seaside와 구별한다."
+        }
+      ],
+      "decision": "data.csv와 실제 data/ko를 대조했다. 063-cebu-city의 넓은 도시 안내와 구분한 쇼핑몰 상세 항목으로 신규 작성한다. 원문의 495,000㎡·세부 최대·매일 10~22시·모든 교통 허브 연결·미확인 브랜드와 스크린 수는 옮기지 않았다."
+    },
+    {
+      "where": "latitude, longitude, location",
+      "fact": "대표 지도 핀",
+      "value": "10.3118, 123.9187",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/539905149",
+          "grade": "B",
+          "says": "Nominatim은 mall 도형 중심 10.3117900,123.9186700과 쇼핑몰 경계를 반환했다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_City_Cebu",
+          "grade": "B",
+          "says": "10.31111,123.91806은 같은 대형 쇼핑몰 본관을 가리킨다."
+        },
+        {
+          "url": "https://www.google.com/maps/search/SM%20City%20Cebu%2C%208W69%2BG7Q%2C%20Cebu%20City%2C%206000%20Cebu%2C%20Philippines",
+          "grade": "B",
+          "says": "마볼로 Juan Luna Avenue의 동일 쇼핑몰을 표시한다."
+        }
+      ],
+      "decision": "OSM 도형 중심을 소수 네 자리로 썼다. 위키백과 본관 핀과 약 100m 차이는 넓은 복합시설의 서로 다른 지점이며 두 점 모두 동일 경계 안이다. 실제 승차문·라운지·버스 정류장 핀은 별도 확인하도록 안내한다."
+    },
+    {
+      "where": "overview, highlights",
+      "fact": "본관·Northwing·복합 개발",
+      "value": "소매 공간과 대학·사무실 개발의 구분",
+      "sources": [
+        {
+          "url": "https://www.smprime.com/wp-content/uploads/2026/02/17-C-SM-Offices-Plans-60000-Square-Meter-Cebu-Expansion-as-Demand-Surges_FINAL.pdf",
+          "grade": "A",
+          "date": "2026-02-19",
+          "says": "North Wing 단지가 소매 시설·NU 캠퍼스·사무실 개발을 결합한다고 설명한다. 사무실은 발표 당시 2026년 4분기 공급 목표다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_City_Cebu",
+          "grade": "B",
+          "says": "Main Mall·Northwing과 확장 구역, 2026년 개보수 상태를 설명한다."
+        },
+        {
+          "url": "https://www.navicebuph.com/sm-city-cebu-main-mall-northwing-floor-guide/",
+          "grade": "C",
+          "date": "2026-11-03",
+          "says": "현장 건물명과 층 표기를 함께 확인하고 오래된 평면도를 주의하도록 안내한다."
+        }
+      ],
+      "decision": "개발 목표일을 실제 전체 개장일로 쓰지 않는다. 모든 건물의 일반 관광 개방을 약속하지 않고 쇼핑객 동선과 대학·사무실 구역을 구분한다."
+    },
+    {
+      "where": "best_time",
+      "fact": "통상 몰 영업시간",
+      "value": "월~목 10:00~21:00, 금~일 10:00~22:00",
+      "sources": [
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-city-cebu/information",
+          "grade": "A",
+          "says": "현재 본문에 요일별 통상 시간과 2026년 11월 16일 이후 연말 특별시간 및 2027년 1월 1일 시간이 함께 게시되어 있다."
+        },
+        {
+          "url": "https://suroy.ph/sm-city-cebu/",
+          "grade": "B",
+          "date": "2026-11-08",
+          "says": "2026년 10월 29일 확인으로 같은 평일·주말 시간을 기록한다."
+        },
+        {
+          "url": "https://www.navicebuph.com/sm-city-cebu-main-mall-northwing-floor-guide/",
+          "grade": "C",
+          "date": "2026-11-03",
+          "says": "몰 전체와 개별 점포의 마감이 다를 수 있다고 설명한다."
+        }
+      ],
+      "decision": "2026년 11월 공식 목록 기준이라고 명시한다. 본문에 통상 시간을 값 조각으로 넣고 공휴일·연말은 날짜별 공지를 우선하도록 안내했다. 라운지·식당·영화 마감에 그대로 적용하지 않는다. 공식 본문은 web 도구 403 뒤 직접 HTTP로 정상 확보했다."
+    },
+    {
+      "where": "highlights, stay_and_food",
+      "fact": "쇼핑·식사·오락의 구분",
+      "value": "Foodcourt와 Food Hall은 서로 다른 공간",
+      "sources": [
+        {
+          "url": "https://www.navicebuph.com/sm-city-cebu-main-mall-northwing-floor-guide/",
+          "grade": "C",
+          "date": "2026-11-03",
+          "says": "Main Mall의 Foodcourt와 Food Hall이 서로 다른 층의 시설이며 건물·층·점포로 만남을 정하라고 설명한다."
+        },
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-city-cebu/shops/sm-cinema",
+          "grade": "A",
+          "says": "직접 HTTP로 SM City Cebu의 SM Cinema 점포 페이지를 확보했다."
+        },
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-city-cebu/shops/the-travel-club",
+          "grade": "A",
+          "says": "쇼핑몰 운영사의 점포 안내에서 여행용품 매장 존재를 확인했다."
+        },
+        {
+          "url": "https://thetravelclub.ph/pages/store-locator",
+          "grade": "A",
+          "says": "브랜드 공식 매장 목록은 SM City Cebu와 SM Seaside Cebu를 각각 다른 주소에 안내한다."
+        }
+      ],
+      "decision": "상영관 수·요금·좌석·현행 브랜드 전체 목록과 면적을 고정하지 않는다. 현재 회차·메뉴·점포 안내를 보도록 하고 사진은 촬영일의 상업 공간 기록으로 사용한다."
+    },
+    {
+      "where": "highlights, tips",
+      "fact": "여행자 라운지 서비스",
+      "value": "보관 가능 여부와 마감 확인 후 이용",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:SM_Travellers%27_Lounge_(11-20-2022).jpg",
+          "grade": "C",
+          "says": "2022년 라운지 외관과 대기 공간을 보여 준다."
+        },
+        {
+          "url": "https://www.top-rated.online/cities/Cebu%2BCity/place/p/5969410/SM%2BTravellers%27%2BLounge",
+          "grade": "C",
+          "date": "2026-09-30",
+          "says": "라운지와 짐 보관 후기가 있지만 샤워·냉방·시간 설명이 서로 다르다."
+        },
+        {
+          "url": "https://wanderlog.com/place/details/1015010/sm-travellers-lounge-cebu",
+          "grade": "C",
+          "says": "별도 라운지 위치와 보관 관련 후기가 있다. 현재 제공 조건을 확정하는 공식 자료는 아니다."
+        }
+      ],
+      "decision": "서비스가 현재 운영된다고 확정하지 않고 현장 문의를 먼저 하도록 썼다. 고정 요금·샤워·무료 보관·24시간·냉방·환승 보장을 모두 제외했다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "공항 MyBus와 몰 연결",
+      "value": "현재 노선·운임·정류장은 운영사 확인",
+      "sources": [
+        {
+          "url": "https://byahi.ph/cebu/terminals/53",
+          "grade": "C",
+          "says": "SM City Cebu MyBus Terminal에서 공항 연결 노선을 안내한다."
+        },
+        {
+          "url": "https://suroy.ph/getting-around-cebu/",
+          "grade": "B",
+          "date": "2026-11-08",
+          "says": "현재 공항버스와 2026년 운임 변동 맥락을 설명한다."
+        },
+        {
+          "url": "https://tourism.ph/travel-guides/cebu-airport-to-cebu-city/",
+          "grade": "C",
+          "date": "2026-08-27",
+          "says": "공항–SM City Cebu 연결과 최종 목적지까지의 추가 이동을 설명한다."
+        },
+        {
+          "url": "https://www.mactancebuairport.com/pdf/mybus/SMCC-MCIAROUTEScheduleMap.pdf",
+          "grade": "A",
+          "says": "검색 색인에는 공항–SM City Cebu 노선표가 있으나 직접 연 현재 URL은 공항 소개 HTML을 반환해 원표 본문을 확인하지 못했다."
+        }
+      ],
+      "decision": "공식 PDF 색인과 최근 교통 안내로 연결을 대조하되 현재 공식 원표 직접 열람 한계를 남긴다. 버스 연결을 검토할 선택지로만 쓰고 운임·간격·첫차·막차·소요시간·수하물 허용을 고정하지 않았다. 예전 자료의 25·40·50페소 차이를 임의로 해소하지 않고 현행 게시 운임 확인을 요구한다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "북부 버스 터미널과 MyBus 정류장 구별",
+      "value": "북부 터미널 시설 정비와 승차 위치 확인",
+      "sources": [
+        {
+          "url": "https://www.sunstar.com.ph/amp/story/cebu/pb-clears-gridlock-for-cnbt",
+          "grade": "B",
+          "date": "2026-06-29",
+          "says": "Cebu North Bus Terminal은 SM City Cebu 부지에 있으며 2026년 6월 부지 사용과 시설 정비를 위한 협약 논의가 있었다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cebu_North_Bus_Terminal",
+          "grade": "B",
+          "says": "시 북부 방면 장거리 버스를 위한 별도 터미널로 설명한다."
+        },
+        {
+          "url": "https://suroy.ph/sm-city-cebu/",
+          "grade": "B",
+          "date": "2026-11-08",
+          "says": "MyBus·시내 교통·북부 터미널을 구별한다."
+        }
+      ],
+      "decision": "몰의 공항버스 정류장 사진을 장거리 북부 터미널 사진이라고 잘못 표시하지 않는다. 시설·승강장은 현장 안내를 우선하고 항구의 모든 Pier와 도보 연결된다고 쓰지 않았다."
+    },
+    {
+      "where": "costs, budget",
+      "fact": "1인 반나절 개인 지출 배분",
+      "value": "PHP 600~1,800",
+      "sources": [],
+      "decision": "확인된 업체 판매가가 아닌 개인 예산 배분이다. 식사 250~600 + 음료·간식 100~250 + 시내 이동 200~650 + 예비비 50~300 = 600~1,800으로 검산했다. 상품·기념품·영화·보관 서비스·공항 이동·장거리 이동은 별도다. 2026년 기준 대략치라고 본문에 명시했다."
+    },
+    {
+      "where": "highlights",
+      "fact": "6번째 볼거리 영화 관람 보완",
+      "value": "SM Cinema 입점 확인·당일 지점/상영표 확인",
+      "sources": [
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-city-cebu/shops/sm-cinema",
+          "grade": "A",
+          "says": "부모가 직접HTTP200본문과SM CINEMA at SM City Cebu제목확인. 원본HTML 331-cinema-primary.html 보존."
+        },
+        {
+          "url": "https://takilya.ph/box-office/branches/sm-sm-city-cebu",
+          "grade": "C",
+          "says": "2026-11-16 현재 해당지점 상영기록. 비공식추정매출/좌석수/가격은안내에미사용."
+        }
+      ],
+      "decision": "통합검사에서5개카드만있음을발견해기존근거로확인된시네마를6번째독립활동으로보완. 고정요금/상영관수/영화제목미기재."
+    }
+  ],
+  "images": [
+    {
+      "file": "331-sm-city-cebu.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_City_Cebu_Main_Mall_Facade_(2023).jpg",
+      "credit": "Themaller / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2023-02-12 15:58:40",
+      "author_date_group": "Themaller|2023-02-12",
+      "check": "SM City Cebu 글자가 보이는 본관 외관. 대표 사진으로 장소를 식별할 수 있다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 확인했다. 내용 수정·합성 없이 수치 변환했다."
+      },
+      "source_metadata": {
+        "index": 14,
+        "title": "File:SM City Cebu Main Mall Facade (2023).jpg",
+        "artist": "Themaller",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SM_City_Cebu_Main_Mall_Facade_(2023).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/SM_City_Cebu_Main_Mall_Facade_%282023%29.jpg/1280px-SM_City_Cebu_Main_Mall_Facade_%282023%29.jpg",
+        "width": 2184,
+        "height": 1636,
+        "date": "2023-02-12 15:58:40",
+        "description": "Facade of the Main Mall of SM City Cebu",
+        "categories": "SM City Cebu|Self-published work",
+        "sha256": "888f835712c2cc50174ff3313fcbddaf1e2a6da3130244bb7743b1bb833d9353",
+        "id": 331,
+        "slug": "sm-city-cebu",
+        "number": 1,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu.webp"
+      }
+    },
+    {
+      "file": "331-sm-city-cebu-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Entrance_of_the_Northwing_Expansion_of_SM_City_Cebu_from_the_multi-level_parking_lot_(2025-07-07).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2025-07-07 15:30:20",
+      "author_date_group": "Wide Awake!|2025-07-07",
+      "check": "Northwing 확장 구역의 유리 출입구와 내부 에스컬레이터. 주차동 쪽 접근을 보여 준다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-2.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-2.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 확인했다. 내용 수정·합성 없이 수치 변환했다."
+      },
+      "source_metadata": {
+        "index": 46,
+        "title": "File:Entrance of the Northwing Expansion of SM City Cebu from the multi-level parking lot (2025-07-07).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Entrance_of_the_Northwing_Expansion_of_SM_City_Cebu_from_the_multi-level_parking_lot_(2025-07-07).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-2.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Entrance_of_the_Northwing_Expansion_of_SM_City_Cebu_from_the_multi-level_parking_lot_%282025-07-07%29.jpg/1280px-Entrance_of_the_Northwing_Expansion_of_SM_City_Cebu_from_the_multi-level_parking_lot_%282025-07-07%29.jpg",
+        "width": 4160,
+        "height": 3120,
+        "date": "2025-07-07 15:30:20",
+        "description": "Entrance of the Northwing Expansion of SM City Cebu from the multi-level parking lot is located in Cebu City.",
+        "categories": "SM City Cebu|Self-published work|Philippines photographs taken on 2025-07-07|Photographs of Cebu City by Thewideawake1|Photographs by Thewideawake1 taken with Tecno Spark Go 1S|July 2025 photographs by Thewideawake1",
+        "sha256": "206cd3d21bdac8c41548a99c4879191b0f4a3aac5237af0b22066984113e3cf2",
+        "id": 331,
+        "slug": "sm-city-cebu",
+        "number": 2,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-2.webp"
+      }
+    },
+    {
+      "file": "331-sm-city-cebu-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_Travellers%27_Lounge_(11-20-2022).jpg",
+      "credit": "PaulGorduiz106 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-11-20 17:49:21",
+      "author_date_group": "PaulGorduiz106|2022-11-20",
+      "check": "여행자 라운지 외관과 대기 공간. 현행 유료 서비스 제공 조건은 보장하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-3.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-3.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 확인했다. 내용 수정·합성 없이 수치 변환했다."
+      },
+      "source_metadata": {
+        "index": 4,
+        "title": "File:SM Travellers' Lounge (11-20-2022).jpg",
+        "artist": "PaulGorduiz106",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SM_Travellers%27_Lounge_(11-20-2022).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-3.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/SM_Travellers%27_Lounge_%2811-20-2022%29.jpg/1280px-SM_Travellers%27_Lounge_%2811-20-2022%29.jpg",
+        "width": 8064,
+        "height": 6144,
+        "date": "2022-11-20 17:49:21",
+        "description": "SM Travellers' Lounge at SM City Cebu.",
+        "categories": "SM City Cebu|Self-published work|Philippines photographs taken on 2022-11-20|Files with coordinates missing SDC location of creation|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|November 2022 photographs by Thewideawake1",
+        "sha256": "81d95742f968333992adea23eaae982f1872de511c30048462177cc3bea59d7b",
+        "id": 331,
+        "slug": "sm-city-cebu",
+        "number": 3,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-3.webp"
+      }
+    },
+    {
+      "file": "331-sm-city-cebu-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_Food_Court_(01)_(12-08-2022).jpg",
+      "credit": "PaulGorduiz106 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-12-08 18:03:08",
+      "author_date_group": "PaulGorduiz106|2022-12-08",
+      "check": "식당과 공용 좌석이 함께 보이는 푸드코트 전경. 특정 인물의 초상 사진이 아니다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-4.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 확인했다. 내용 수정·합성 없이 수치 변환했다."
+      },
+      "source_metadata": {
+        "index": 7,
+        "title": "File:SM Food Court (01) (12-08-2022).jpg",
+        "artist": "PaulGorduiz106",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SM_Food_Court_(01)_(12-08-2022).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-4.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/SM_Food_Court_%2801%29_%2812-08-2022%29.jpg/1280px-SM_Food_Court_%2801%29_%2812-08-2022%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "date": "2022-12-08 18:03:08",
+        "description": "SM Food Court at SM City Cebu.",
+        "categories": "Self-published work|Philippines photographs taken on 2022-12-08|Photographs by Thewideawake1 taken with Fujifilm FinePix HS30EXR|Photographs of Cebu City by Thewideawake1|December 2022 photographs by Thewideawake1|SM Food Court (old) at SM City Cebu",
+        "sha256": "4cdc905ae62546dbc3b75372e34da8dcdad86f3347abe41147c880d07f85e8c0",
+        "id": 331,
+        "slug": "sm-city-cebu",
+        "number": 4,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-4.webp"
+      }
+    },
+    {
+      "file": "331-sm-city-cebu-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tuburan_Cafe_at_SM_City_Cebu_(2024-05-01).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-05-01 13:58:26",
+      "author_date_group": "Wide Awake!|2024-05-01",
+      "check": "라운지 옆 Tuburan Cafe 점포 외관. 촬영일 기록이며 현재 메뉴·요금의 근거로 쓰지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-5.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 확인했다. 내용 수정·합성 없이 수치 변환했다."
+      },
+      "source_metadata": {
+        "index": 25,
+        "title": "File:Tuburan Cafe at SM City Cebu (2024-05-01).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tuburan_Cafe_at_SM_City_Cebu_(2024-05-01).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-5.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Tuburan_Cafe_at_SM_City_Cebu_%282024-05-01%29.jpg/1280px-Tuburan_Cafe_at_SM_City_Cebu_%282024-05-01%29.jpg",
+        "width": 8064,
+        "height": 6144,
+        "date": "2024-05-01 13:58:26",
+        "description": "Tuburan Cafe at SM City Cebu in Cebu City.",
+        "categories": "SM City Cebu|Self-published work|Philippines photographs taken on 2024-05-01|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|May 2024 photographs by Thewideawake1",
+        "sha256": "3afa3c4ce698eac52bde74751f22b42045948f1b293143e974695502af2716c3",
+        "id": 331,
+        "slug": "sm-city-cebu",
+        "number": 5,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-5.webp"
+      }
+    },
+    {
+      "file": "331-sm-city-cebu-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bus_station_at_SM_City_Cebu_(2024-08-30).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-08-30 14:02:26",
+      "author_date_group": "Wide Awake!|2024-08-30",
+      "check": "MyBus 정류장 간판과 실제 버스. 북부 장거리 터미널과 구별해 표시했다. 행사 현수막은 현장 시설이며 합성 워터마크가 아니다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-6.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-6.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 확인했다. 내용 수정·합성 없이 수치 변환했다."
+      },
+      "source_metadata": {
+        "index": 34,
+        "title": "File:Bus station at SM City Cebu (2024-08-30).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bus_station_at_SM_City_Cebu_(2024-08-30).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-6.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Bus_station_at_SM_City_Cebu_%282024-08-30%29.jpg/1280px-Bus_station_at_SM_City_Cebu_%282024-08-30%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "date": "2024-08-30 14:02:26",
+        "description": "Bus station at SM City Cebu located in Cebu City.",
+        "categories": "SM City Cebu|Self-published work|Philippines photographs taken on 2024-08-30|Photographs by Thewideawake1 taken with Fujifilm FinePix HS30EXR|Photographs of Cebu City by Thewideawake1|August 2024 photographs by Thewideawake1",
+        "sha256": "b72e981111b7d7bdaa9660170ef65430bd5529fdec1add4f2d1b721987b3779e",
+        "id": 331,
+        "slug": "sm-city-cebu",
+        "number": 6,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-6.webp"
+      }
+    },
+    {
+      "file": "331-sm-city-cebu-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Entrance_of_SM_City_Cebu_(2024-07-19).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-07-19 11:32:41",
+      "author_date_group": "Wide Awake!|2024-07-19",
+      "check": "몰 출입구와 차량 하차 동선. 2024년 세일 현수막을 현행 프로모션으로 소개하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-7.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-7.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 확인했다. 내용 수정·합성 없이 수치 변환했다."
+      },
+      "source_metadata": {
+        "index": 29,
+        "title": "File:Entrance of SM City Cebu (2024-07-19).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Entrance_of_SM_City_Cebu_(2024-07-19).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-7.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Entrance_of_SM_City_Cebu_%282024-07-19%29.jpg/1280px-Entrance_of_SM_City_Cebu_%282024-07-19%29.jpg",
+        "width": 8064,
+        "height": 6144,
+        "date": "2024-07-19 11:32:41",
+        "description": "Entrance of SM City Cebu located in Cebu City.",
+        "categories": "SM City Cebu|Self-published work|Philippines photographs taken on 2024-07-19|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|July 2024 photographs by Thewideawake1",
+        "sha256": "19226a8d962c732a5506ac8eda4b76e3cc741c0c1a84cd59eedfdd8d0854c5d1",
+        "id": 331,
+        "slug": "sm-city-cebu",
+        "number": 7,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-7.webp"
+      }
+    },
+    {
+      "file": "331-sm-city-cebu-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Luggage_bags_on_sale_at_SM_City_Cebu_(2025-02-08).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2025-02-08 12:52:53",
+      "author_date_group": "Wide Awake!|2025-02-08",
+      "check": "실내 통로의 여행용 가방 전시. 여행용품 쇼핑이라는 본문 내용과 일치한다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-8.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-8.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 확인했다. 내용 수정·합성 없이 수치 변환했다."
+      },
+      "source_metadata": {
+        "index": 43,
+        "title": "File:Luggage bags on sale at SM City Cebu (2025-02-08).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Luggage_bags_on_sale_at_SM_City_Cebu_(2025-02-08).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-8.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Luggage_bags_on_sale_at_SM_City_Cebu_%282025-02-08%29.jpg/1280px-Luggage_bags_on_sale_at_SM_City_Cebu_%282025-02-08%29.jpg",
+        "width": 4080,
+        "height": 3072,
+        "date": "2025-02-08 12:52:53",
+        "description": "Luggage bags on sale located at SM City Cebu is located in Cebu City.",
+        "categories": "Self-published work|Philippines photographs taken on 2025-02-08|Interior of SM City Cebu|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|February 2025 photographs by Thewideawake1",
+        "sha256": "380c748fff1cf9cb239e3b5892cd93531faefc191d104169c22abf7d83d53d67",
+        "id": 331,
+        "slug": "sm-city-cebu",
+        "number": 8,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-8.webp"
+      }
+    },
+    {
+      "file": "331-sm-city-cebu-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Vikings_Luxury_Buffet_at_SM_City_Cebu_(2026-10-11).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2026-10-11 14:49:58",
+      "author_date_group": "Wide Awake!|2026-10-11",
+      "check": "Vikings 식당 대기 공간과 인접 전시. 사진 속 가격표는 본문 가격 근거로 사용하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-9.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-9.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 확인했다. 내용 수정·합성 없이 수치 변환했다."
+      },
+      "source_metadata": {
+        "index": 49,
+        "title": "File:Vikings Luxury Buffet at SM City Cebu (2026-10-11).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vikings_Luxury_Buffet_at_SM_City_Cebu_(2026-10-11).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-9.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Vikings_Luxury_Buffet_at_SM_City_Cebu_%282026-10-11%29.jpg/1280px-Vikings_Luxury_Buffet_at_SM_City_Cebu_%282026-10-11%29.jpg",
+        "width": 4080,
+        "height": 3072,
+        "date": "2026-10-11 14:49:58",
+        "description": "Location: SM City Cebu, Cebu CityCamera: Realme Narzo 50A Prime",
+        "categories": "Self-published work|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Self-published work missing SDC copyright license|Buffets in the Philippines|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|October 2026 photographs by Thewideawake1|SM City Cebu Northwing Expansion|Philippines photographs taken on 2026-10-11",
+        "sha256": "af92851192bb5de56646dc648c1955afee9f5920e9b8149e7e28982cfca6b5a1",
+        "id": 331,
+        "slug": "sm-city-cebu",
+        "number": 9,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-9.webp"
+      }
+    },
+    {
+      "file": "331-sm-city-cebu-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:H%26M_at_SM_City_Cebu_(2024-01-27).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-01-27 16:25:47",
+      "author_date_group": "Wide Awake!|2024-01-27",
+      "check": "Northwing H&M 점포와 쇼핑 통로. 본문은 촬영일 사진으로만 다루고 현재 매장 배치를 고정하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-10.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-10.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 확인했다. 내용 수정·합성 없이 수치 변환했다."
+      },
+      "source_metadata": {
+        "index": 23,
+        "title": "File:H&M at SM City Cebu (2024-01-27).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:H%26M_at_SM_City_Cebu_(2024-01-27).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-10.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/H%26M_at_SM_City_Cebu_%282024-01-27%29.jpg/1280px-H%26M_at_SM_City_Cebu_%282024-01-27%29.jpg",
+        "width": 8064,
+        "height": 6144,
+        "date": "2024-01-27 16:25:47",
+        "description": "H&M store at SM City Cebu in Cebu City.",
+        "categories": "Self-published work|Philippines photographs taken on 2024-01-27|H&M stores in the Philippines|SM City Cebu Northwing|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|January 2024 photographs by Thewideawake1",
+        "sha256": "56a77bd5218bc6d434ca3d1bff47ff120cbeff0ef2c327d5d4fc3525aa83b34f",
+        "id": 331,
+        "slug": "sm-city-cebu",
+        "number": 10,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-10.webp"
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_author_date_groups": 10,
+    "groups_note": "같은 작가는 날짜가 다른 사진만 골랐다. 같은 날 연속 촬영·유사 정면 중복·층 번호 표지 단독 사진은 제외했다.",
+    "conversion": "Codex CLI에서 cwebp로 가로 1080px·품질 80·원본 비율 유지 변환. 생성 모델·내용 변경·합성·크롭 없음.",
+    "prompt": "work/parallel-1992/visayas/331-sm-city-cebu-prompt.txt",
+    "report": "work/parallel-1992/visayas/331-conversion-report.json"
+  },
+  "archives": {
+    "philgo": "_i18n/work/parallel-1992/visayas/research331/philgo-1275713030.json",
+    "official": "_i18n/work/parallel-1992/visayas/research331/sm-official.html",
+    "official_text": "_i18n/work/parallel-1992/visayas/research331/sm-official.txt",
+    "osm": "_i18n/work/parallel-1992/visayas/research331/osm.json"
+  }
+}

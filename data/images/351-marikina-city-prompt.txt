@@ -1,0 +1,5 @@
+이미지의 정량 변환만 수행하세요. 에이전트를 만들거나 다른 저장소 지침을 탐색하지 마세요.
+입력 manifest: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/marikina-image-preparation.json
+각 원소의 input 파일을 output 경로로 변환하세요. 정확히 cwebp 품질80, 가로1080픽셀, 원본 종횡비 유지, 업스케일 금지입니다. 파일 생성 전 모든 입력의 정상디코딩과 가로1080이상을 확인하세요. 자르기, 회전, 색 보정, 내용 변경, 그림 생성, 합성, 글자 추가·제거를 금지합니다. 입력을 덮어쓰지 마세요. 여러 이미지를 순차적으로 변환하고 출력 폴더는 필요하면 생성하세요.
+다음 경로 이외의 파일을 수정하지 마세요: manifest의 output 경로10개와 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/351-conversion-report.json.
+보고서에는 각 input/output의 SHA256, 가로·세로, 정상디코딩 여부, 원본비율 대비오차, 사용명령, 전체성공여부를 JSON으로 남기세요. 원본sha가 manifest sha256과 같은지 확인하세요. 출력 모두 가로1080이고 정상WebP이며 종횡비가 반올림 오차내인지 검증하세요. Pillow 등은 읽기·검증에만 쓸 수 있고 실제 변환은 cwebp로 하세요.

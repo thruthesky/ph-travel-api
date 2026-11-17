@@ -1,0 +1,53 @@
+너는 Codex CLI다. 아래 10개 입력 이미지의 정확한 수치 가공만 수행한다. 내용 편집·그리기·합성·재생성은 금지한다. 원본 파일은 바꾸지 않는다. input의 SHA256가 sha256와 일치하는지 확인하고 가로 정확히1080px, 원본 종횡비유지, WebP 품질80으로 output에 저장한다. crop·업스케일·색보정·글자변형 금지. 수치 변환 도구를 직접 이용하고 이미지 생성 모델은 필요 없다. 모든 원본과 결과를 전체 디코딩 검증한다. input/output 외 파일 탐색이나 저장소 다른 파일 수정은 하지 않는다. 하위 에이전트·Codex 재호출 금지. 원본/결과의 크기·SHA256·바이트수·성공여부를 JSON으로 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/visayas/331-conversion-report.json 에 저장한다.
+[
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu.webp",
+    "sha256": "888f835712c2cc50174ff3313fcbddaf1e2a6da3130244bb7743b1bb833d9353"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-2.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-2.webp",
+    "sha256": "206cd3d21bdac8c41548a99c4879191b0f4a3aac5237af0b22066984113e3cf2"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-3.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-3.webp",
+    "sha256": "81d95742f968333992adea23eaae982f1872de511c30048462177cc3bea59d7b"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-4.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-4.webp",
+    "sha256": "4cdc905ae62546dbc3b75372e34da8dcdad86f3347abe41147c880d07f85e8c0"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-5.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-5.webp",
+    "sha256": "3afa3c4ce698eac52bde74751f22b42045948f1b293143e974695502af2716c3"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-6.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-6.webp",
+    "sha256": "b72e981111b7d7bdaa9660170ef65430bd5529fdec1add4f2d1b721987b3779e"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-7.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-7.webp",
+    "sha256": "19226a8d962c732a5506ac8eda4b76e3cc741c0c1a84cd59eedfdd8d0854c5d1"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-8.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-8.webp",
+    "sha256": "380c748fff1cf9cb239e3b5892cd93531faefc191d104169c22abf7d83d53d67"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-9.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-9.webp",
+    "sha256": "af92851192bb5de56646dc648c1955afee9f5920e9b8149e7e28982cfca6b5a1"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-10.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets331/331-sm-city-cebu-10.webp",
+    "sha256": "56a77bd5218bc6d434ca3d1bff47ff120cbeff0ef2c327d5d4fc3525aa83b34f"
+  }
+]

@@ -1,0 +1,282 @@
+{
+  "id": 372,
+  "slug": "university-of-santo-tomas",
+  "checked_at": "2026-11-17T06:37:30.063505+00:00",
+  "facts": [
+    {
+      "where": "전체",
+      "fact": "신규 독립성과 범위",
+      "value": "UST 마닐라 삼팔록 역사 캠퍼스 한 항목",
+      "sources": [
+        {
+          "url": "https://www.ust.edu.ph/sdg-11-sustainable-cities-and-communities/",
+          "grade": "A",
+          "says": "실제 본문 읽음. 사립대학이지만박물관/도서관/성당등일부공간일반공개·4구조물2010국가문화재. NHCP지정/표지설치연도혼동위험으로정확연도본문에미기재."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/University_of_Santo_Tomas_Main_Building",
+          "grade": "B",
+          "says": "실제 본문/지도 읽음. 본관좌표14.61028,120.98917·1927개관·현행교육행정/박물관·본관/아치/신학교/개방공간문화재."
+        }
+      ],
+      "decision": "기존291개대장/data/ko독립UST없음대조. 다른캠퍼스·병원·학교건물별로숫자쪼개지않음. CSV/TSV직접글처리완료로표시하지않음."
+    },
+    {
+      "where": "location,latitude,longitude",
+      "fact": "위치와 지도 교차",
+      "value": "삼팔록/14.6103,120.9892 본관대표핀",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/University_of_Santo_Tomas_Main_Building",
+          "grade": "B",
+          "says": "실제 본문/지도 읽음. 본관좌표14.61028,120.98917·1927개관·현행교육행정/박물관·본관/아치/신학교/개방공간문화재."
+        },
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=University+of+Santo+Tomas&format=jsonv2&limit=3&viewbox=120.98%2C14.62%2C121.00%2C14.60&bounded=1",
+          "grade": "B",
+          "says": "OSM공개Nominatim응답직접읽음. relation21046172 캠퍼스중심14.6098426,120.9894646·경계14.606849~14.6127914/120.9864093~120.9925724. 위키본관점이캠퍼스내포함,대표중심과약60m차이. 응답ust-campus-osm.json보존."
+        },
+        {
+          "url": "https://www.ust.edu.ph/wp-content/uploads/2023/04/CI77-Visit-of-St.-Therese-of-the-Child-Jesus.pdf",
+          "grade": "A",
+          "says": "공식PDF 지도검색추출. España/Lacson/Dapitan/P.Noval경계·본관/신학교/성당/식물원/도서관상대배치. 과거행사의문번호를현행고정방문자출입문으로안내하지않음.",
+          "date": "2023-04"
+        }
+      ],
+      "decision": "2지도비교:위키본관점과OSM캠퍼스경계내부합치,캠퍼스중심은다른대표점으로약60m차이명시. 출입문/승차점보장아님. Latitude.to의14.6062,120.9868값은미채택."
+    },
+    {
+      "where": "overview,highlights",
+      "fact": "본관과 국가문화재",
+      "value": "1927개관·RoqueRuaño·4개구조물",
+      "sources": [
+        {
+          "url": "https://www.ust.edu.ph/the-ust-main-building-and-its-treasures/",
+          "grade": "A",
+          "says": "실제 본문 읽음. 본관1927-11-12개관·RoqueRuaño·현행건물과조각상·박물관. Baybayin문서2010일괄지정표기는다른공식자료와충돌해미채택.",
+          "date": "2026-11-13"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/University_of_Santo_Tomas_Main_Building",
+          "grade": "B",
+          "says": "실제 본문/지도 읽음. 본관좌표14.61028,120.98917·1927개관·현행교육행정/박물관·본관/아치/신학교/개방공간문화재."
+        },
+        {
+          "url": "https://www.ust.edu.ph/sdg-11-sustainable-cities-and-communities/",
+          "grade": "A",
+          "says": "실제 본문 읽음. 사립대학이지만박물관/도서관/성당등일부공간일반공개·4구조물2010국가문화재. NHCP지정/표지설치연도혼동위험으로정확연도본문에미기재."
+        },
+        {
+          "url": "https://www.ust.edu.ph/arts-and-culture-in-ust/",
+          "grade": "A",
+          "says": "본문검색추출 읽음. 본관/아치/신학교/그랜드스탠드와개방공간국가문화재·바야바인문서2015별도설명."
+        }
+      ],
+      "decision": "최근2026-11-13공식안내로현재본관과박물관을확인. Baybayin문서지정년충돌과세계/최초내진최상급은본문미기재."
+    },
+    {
+      "where": "highlights",
+      "fact": "아치 원형과 복제 면",
+      "value": "구인트라무로스돌문+España복제면",
+      "sources": [
+        {
+          "url": "https://www.ust.edu.ph/wp-content/uploads/2022/06/CI64-Arch-of-the-Centuries.pdf",
+          "grade": "A",
+          "says": "2쪽PDF 본문 읽음. 캠퍼스향한면은옛인트라무로스건물문석재,España면복제품. 학생통과행사·2010문화재.",
+          "date": "2022-06-03"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Arch_of_the_Centuries",
+          "grade": "B",
+          "says": "실제 본문 읽음. 옛아치+복제면/1954재건·국가문화재·현재교내행사와초기캠퍼스연결. 1954/1955혼동은정확재건년도미기재로회피."
+        }
+      ],
+      "decision": "실제2쪽공식PDF와위키본문교차. 이전년도1954/1955정확주장대신원형전체현장존속오해방지."
+    },
+    {
+      "where": "overview,best_time,costs,tips",
+      "fact": "박물관 현행 방문조건",
+      "value": "화~금08:30~16:30·50/30페소·외부walk-in/휴일예외",
+      "sources": [
+        {
+          "url": "https://ustmuseum.ust.edu.ph/visitor-info",
+          "grade": "A",
+          "says": "실제 방문안내 본문 읽음. 화~금08:30~16:30·월휴관·토특별협의·학사휴일/기상중단예외·외부walk-in·비학생50/외부학생ID30PHP·개인비상업무플래시촬영/그외서면승인·복장. 대학전체자유출입권아님."
+        },
+        {
+          "url": "https://www.ust.edu.ph/sdg-11-sustainable-cities-and-communities/",
+          "grade": "A",
+          "says": "실제 본문 읽음. 사립대학이지만박물관/도서관/성당등일부공간일반공개·4구조물2010국가문화재. NHCP지정/표지설치연도혼동위험으로정확연도본문에미기재."
+        },
+        {
+          "url": "https://ustmuseum.ust.edu.ph/home",
+          "grade": "A",
+          "says": "본문검색추출 읽음. 본관박물관·자연사/미술등소장자료. 창립/이전연도는자료불일치가능성있어상세년도미채택."
+        }
+      ],
+      "decision": "현행정확시간/요금은박물관운영자직접안내우선. SDG/박물관홈은일반공개/장소만확인하며두번째독립최신요금확인으로꾸미지않음. 학사방학/공휴일/기상중단예외명시. 박물관표가캠퍼스전체시설이용권아님."
+    },
+    {
+      "where": "highlights,itinerary,tips",
+      "fact": "도서관 투어와 연구접근 분리",
+      "value": "투어최소1주전요청·신분증·승인",
+      "sources": [
+        {
+          "url": "https://library.ust.edu.ph/heritage-library.html",
+          "grade": "A",
+          "says": "실제 본문 읽음. 연구이용최소3일전요청과투어최소1주전요청은별도. 투어15인범위/큰그룹분리·외부신분증/방문증·자료접촉제한·허가사진조건. 본문은관광투어1주전안내로정정."
+        },
+        {
+          "url": "https://www.ust.edu.ph/sdg-11-sustainable-cities-and-communities/",
+          "grade": "A",
+          "says": "실제 본문 읽음. 사립대학이지만박물관/도서관/성당등일부공간일반공개·4구조물2010국가문화재. NHCP지정/표지설치연도혼동위험으로정확연도본문에미기재."
+        }
+      ],
+      "decision": "초안에서연구요청3일과투어를혼동한부분을원문112/131행vs249행대조후1주전으로정정. 연구요금/연구석3인수치는관광안내로확대하지않음. 원본자료전체열람보장안함."
+    },
+    {
+      "where": "highlights",
+      "fact": "신학교와 성당·조경의 관계",
+      "value": "동일캠퍼스/별도출입조건",
+      "sources": [
+        {
+          "url": "https://www.ust.edu.ph/sdg-11-sustainable-cities-and-communities/",
+          "grade": "A",
+          "says": "실제 본문 읽음. 사립대학이지만박물관/도서관/성당등일부공간일반공개·4구조물2010국가문화재. NHCP지정/표지설치연도혼동위험으로정확연도본문에미기재."
+        },
+        {
+          "url": "https://www.ust.edu.ph/wp-content/uploads/2023/04/CI77-Visit-of-St.-Therese-of-the-Child-Jesus.pdf",
+          "grade": "A",
+          "says": "공식PDF 지도검색추출. España/Lacson/Dapitan/P.Noval경계·본관/신학교/성당/식물원/도서관상대배치. 과거행사의문번호를현행고정방문자출입문으로안내하지않음.",
+          "date": "2023-04"
+        }
+      ],
+      "decision": "공식일반공개공간/지도교차. 성당사진과학교기숙/주거공간출입은다르게설명. 식물원명칭은공식지도/안내표지에근거하고현재모든교육구역자유입장이나나비관찰보장안함."
+    },
+    {
+      "where": "getting_there,itinerary",
+      "fact": "경계도로와 방문 절차",
+      "value": "시설별 방문목적/현장경비안내",
+      "sources": [
+        {
+          "url": "https://www.ust.edu.ph/wp-content/uploads/2023/04/CI77-Visit-of-St.-Therese-of-the-Child-Jesus.pdf",
+          "grade": "A",
+          "says": "공식PDF 지도검색추출. España/Lacson/Dapitan/P.Noval경계·본관/신학교/성당/식물원/도서관상대배치. 과거행사의문번호를현행고정방문자출입문으로안내하지않음.",
+          "date": "2023-04"
+        },
+        {
+          "url": "https://ustmuseum.ust.edu.ph/visitor-info",
+          "grade": "A",
+          "says": "실제 방문안내 본문 읽음. 화~금08:30~16:30·월휴관·토특별협의·학사휴일/기상중단예외·외부walk-in·비학생50/외부학생ID30PHP·개인비상업무플래시촬영/그외서면승인·복장. 대학전체자유출입권아님."
+        },
+        {
+          "url": "https://www.ust.edu.ph/administrative-offices/office-of-public-affairs/",
+          "grade": "A",
+          "says": "검색본문추출에Campus tours are provided by the Office 확인. webopen본문은일부만/추가find타임아웃으로현재접수조건직접읽었다고기록하지않음. 투어는별도문의로만안내."
+        }
+      ],
+      "decision": "현재고정문번호·무료주차·철도역도보고정시간은미확인으로미기재. 홍보실투어접수조건은추가확인권고. 과거행사문열림을일반출입으로안내하지않음."
+    },
+    {
+      "where": "tips",
+      "fact": "촬영·복장",
+      "value": "박물관개인비상업무플래시/기타사전서면허가",
+      "sources": [
+        {
+          "url": "https://ustmuseum.ust.edu.ph/visitor-info",
+          "grade": "A",
+          "says": "실제 방문안내 본문 읽음. 화~금08:30~16:30·월휴관·토특별협의·학사휴일/기상중단예외·외부walk-in·비학생50/외부학생ID30PHP·개인비상업무플래시촬영/그외서면승인·복장. 대학전체자유출입권아님."
+        },
+        {
+          "url": "https://library.ust.edu.ph/heritage-library.html",
+          "grade": "A",
+          "says": "실제 본문 읽음. 연구이용최소3일전요청과투어최소1주전요청은별도. 투어15인범위/큰그룹분리·외부신분증/방문증·자료접촉제한·허가사진조건. 본문은관광투어1주전안내로정정."
+        }
+      ],
+      "decision": "박물관규정과도서관규정을별개로설명. 한시설의촬영허가가전교내허가로확장되지않음. 도서관투어촬영과연구자료촬영도구별."
+    },
+    {
+      "where": "budget,costs,itinerary",
+      "fact": "편집상 예산과 체류",
+      "value": "2~4시간·1인600~1250PHP",
+      "sources": [
+        {
+          "url": "https://ustmuseum.ust.edu.ph/visitor-info",
+          "grade": "A",
+          "says": "실제 방문안내 본문 읽음. 화~금08:30~16:30·월휴관·토특별협의·학사휴일/기상중단예외·외부walk-in·비학생50/외부학생ID30PHP·개인비상업무플래시촬영/그외서면승인·복장. 대학전체자유출입권아님."
+        },
+        {
+          "url": "https://www.ust.edu.ph/wp-content/uploads/2023/04/CI77-Visit-of-St.-Therese-of-the-Child-Jesus.pdf",
+          "grade": "A",
+          "says": "공식PDF 지도검색추출. España/Lacson/Dapitan/P.Noval경계·본관/신학교/성당/식물원/도서관상대배치. 과거행사의문번호를현행고정방문자출입문으로안내하지않음.",
+          "date": "2023-04"
+        }
+      ],
+      "decision": "공식박물관일반입장50+교통150~500+식음/여유400~700=600~1250. 교통/식음/체류는편집상계획제안임을명시. 항공/숙박/별도투어제외,공식패키지아님."
+    },
+    {
+      "where": "photos",
+      "fact": "사진 선정과 연도",
+      "value": "9작가·10촬영묶음·10장",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:USTMainBuilding03182026.jpg",
+          "grade": "C",
+          "says": "GCB1109 / CC BY 4.0 / 2026-03-18"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Arch_of_the_Centuries,_University_of_Santo_Tomas,_Manila.jpg",
+          "grade": "C",
+          "says": "Arius1998 / CC BY-SA 4.0 / 2025-10-23"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:University_of_Santo_Tomas_UST_Fountain_of_Knowledge_1.jpg",
+          "grade": "C",
+          "says": "Pampi1010 / CC BY-SA 4.0 / 2024-03-17 08:47:41"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Sant%C3%ADsimo_Rosario_Parish_Church,_UST_Manila,_Apr_2024.jpg",
+          "grade": "C",
+          "says": "Ralff Nestor Nacor / CC BY-SA 4.0 / 2024-04-07 16:24:40"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Unending_Grace.jpg",
+          "grade": "C",
+          "says": "Tristantamayo / CC BY-SA 3.0 / 2012-08-17 18:39:57"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:University_of_Santo_Tomas_UST_Miguel_de_Benavides_Library.jpg",
+          "grade": "C",
+          "says": "Pampi1010 / CC BY-SA 4.0 / 2024-03-24 09:45:43"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:The_nave_of_the_Santisimo_Rosario_Chapel_within_the_UST_Central_Seminary_Building.jpg",
+          "grade": "C",
+          "says": "A.C.T. Alejandre / CC BY-SA 4.0 / Taken on 17 May 2025 (according to Exif data)"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:University_of_Santo_Tomas_drone_(Espa%C3%B1a_Boulevard,_Sampaloc,_Manila;_08-20-2026).jpg",
+          "grade": "C",
+          "says": "Patrickroque01 / CC BY-SA 4.0 / 08-20-2026"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:UST_Botanical_Garden_Marker.jpg",
+          "grade": "C",
+          "says": "Hariboneagle927 / CC BY-SA 4.0 / 2015-03-16 05:17:16"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Ang_Unang_Limbagan_sa_Pilipinas_historical_marker_02.jpg",
+          "grade": "C",
+          "says": "National Historical Commission of the Philippines\n / Public domain / 2019"
+        }
+      ],
+      "decision": "원본12+교체후보2=14장직접열람,10장선정. 같은분수오명칭/반복구도와발이보이는묘비사진제외. 전경/아치/조각세부/신학교외관/본관야경/도서관/성당실내/항공/식물원표지/인쇄기복제품. 과거사진촬영년도와복제품을명확히표기. 원본/최종직접검수. CLI폭1080q80WebP/해시/디코딩/비율검사통과. 최신항공2026-08/본관2026-03으로현재배치대조."
+    }
+  ],
+  "excluded_evidence": [
+    "NHCP등록부webopen2회타임아웃:본문직접읽은근거로미사용",
+    "Comprehensive-Brochure-2020.pdf는49.7MB로webopen실패:검색발견만,독립핵심근거로미채택",
+    "Mapcarta R21046172열기실패:대신실제OSMNominatim응답사용",
+    "공식페이지간2010/2014/2015Baybayin문서지정년충돌은상세년도기재않음"
+  ]
+}

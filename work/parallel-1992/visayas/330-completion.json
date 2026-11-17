@@ -1,0 +1,108 @@
+{
+  "id": 330,
+  "slug": "ormoc",
+  "title_ko": "오르목 시티",
+  "title_en": "Ormoc City",
+  "primary_philgo_post_ids": [
+    1275712909
+  ],
+  "body_characters": 6438,
+  "section_count": 10,
+  "highlights": 6,
+  "image_count": 10,
+  "translation_lines": 122,
+  "image_bytes": 1001848,
+  "coordinates": [
+    11.00557,
+    124.60968
+  ],
+  "coordinates_note": "성 베드로·바오로 성당을 도심 산책 대표 핀으로 사용",
+  "osm_url": "https://www.openstreetmap.org/node/436403248",
+  "images_metadata": "work/parallel-1992/visayas/330-image-preparation.json",
+  "sources": "sources/330-ormoc.json",
+  "image_conversion": {
+    "tool": "Codex CLI",
+    "tokens": 22819,
+    "prompt": "work/parallel-1992/visayas/330-ormoc-prompt.txt",
+    "report": "work/parallel-1992/visayas/330-conversion-report.json"
+  },
+  "usage": {
+    "web_search_queries": 18,
+    "web_open": 28,
+    "web_click": 2,
+    "commons_api_searches": 4,
+    "nominatim": 1,
+    "image_download_attempts": 17,
+    "image_download_success": 17,
+    "codex_cli": 1,
+    "translation_api": 0,
+    "image_generation": 0,
+    "philgo_api": 1,
+    "philgo_http_failed": 3,
+    "nhcp_http": 1
+  },
+  "excluded_images": [
+    "LAKE DANAO.jpg Jophel: 원설명NegrosOriental동명다른호수",
+    "2026재난전시패널:촬영박물관위치불명확",
+    "2012성당사진:2013욜란다이전",
+    "2016오르목공항:현재항공접근근거부족",
+    "같은작가·같은날연사및거의같은구도"
+  ],
+  "files": {
+    "ko": "data/ko/330-ormoc.json",
+    "en": "data/en/330-ormoc.json",
+    "sources": "sources/330-ormoc.json",
+    "images": "data/images/330-ormoc*.webp",
+    "prompt": "data/images/330-ormoc-prompt.txt"
+  },
+  "validation": {
+    "i18n_export_lines": 122,
+    "i18n_check_en": "통과",
+    "i18n_import_en": "통과",
+    "isolated_ko_en_build": "291곳 × en·ko, version de261a11d55a, exit 0",
+    "isolated_build_path": "_i18n/work/parallel-1992/visayas/validation-330/_site/v2",
+    "content_check": "8개 언어 중 6개 없음 및 기존 120곳 사진 부족으로 exit 1. 330은 사진 10장 충족. 전체 저장소 배포 검사 통과를 뜻하지 않는다.",
+    "commons_images": {
+      "repair": 0,
+      "distant": 0,
+      "visual_review_required": 9,
+      "matched": 1
+    },
+    "unique_author_date_groups": 10,
+    "original_and_final_visual_reviews": 20,
+    "sha256_matches": 20,
+    "images_check_report": "work/parallel-1992/visayas/330-images-check.json",
+    "remaining": "기타 6개 언어 번역·전체 빌드·data_version·작업 로그와 커밋은 부모 에이전트가 통합 수행한다."
+  },
+  "source_recheck": {
+    "facts": 11,
+    "main_sources": [
+      "PIA 2026-06-22",
+      "Globe 2026-07-10",
+      "Daily Tribune 2026-08-31",
+      "NHCP 역사 등록부",
+      "PAL 공식 마닐라–타클로반 판매 페이지",
+      "OceanJet 2026-03-20 공지",
+      "OSM 노드 436403248·Mapcarta",
+      "GlobalTenders 박물관 보수 입찰 기록"
+    ],
+    "museum_note": "2026-08 휴관 공지 검색 기록과 2026-09 보수 입찰로 개방 재확인 요구. 실내 관람 보장 없음.",
+    "lake_note": "2026-08-29 재개일은 최근 언론 보도로 한정. 과거 시설·요금·장비 현행 제공 보장 없음."
+  },
+  "finish_usage": {
+    "web_search_queries": 10,
+    "web_open": 20,
+    "web_click": 2,
+    "web_find": 2,
+    "web_screenshot": 4,
+    "http_requests": 5,
+    "http_success": 4,
+    "http_failed": 1,
+    "commons_images_check_runs": 2,
+    "codex_cli": 0,
+    "image_generation": 0,
+    "translation_api": 0,
+    "note": "앞선 담당자의 사용량은 usage에 보존했다. 이번 재확인은 별도 집계다."
+  },
+  "completed_at": "2026-11-17T06:26:36Z"
+}

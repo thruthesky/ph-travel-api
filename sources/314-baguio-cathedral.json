@@ -1,0 +1,454 @@
+{
+  "id": 314,
+  "slug": "baguio-cathedral",
+  "checked_at": "2026-11-17T06:40:24.320565+00:00",
+  "facts": [
+    {
+      "where": "전체",
+      "fact": "원글 연결·기존 항목과 별개 방문 가치",
+      "value": "1275712888 세션로드글 위치에 바기오대성당 언급,TSV87행",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/?module=post&action=view&idx=1275712888",
+          "grade": "C",
+          "says": "공개post.get실제3418자읽음,위치상 바기오대성당~번햄공원 연결.원글1275713171바기오광역도추가읽음"
+        },
+        {
+          "url": "data/ko/293-session-road.json",
+          "grade": "C",
+          "says": "기존거리전체안내 중대성당/104계단/1936짧은하이라이트와일정"
+        },
+        {
+          "url": "data/ko/023-baguio.json",
+          "grade": "C",
+          "says": "도시광역개요에대성당하위명소/사진존재"
+        }
+      ],
+      "decision": "단순원글복사아닌하위명소독립심화.314는성당예배실·성모상/목조부조·실내구조·2022계단정비·한국어미사·차량/보행구분을추가.duplicate.mjs291대장293SessionRoad92m인접경고만,동일slug/OSM명소등록없음.원글이름/위치연결만활용,법률/비자/의료/환전/사업광고·옛가격·틀린야시장지명전재없음.원글사진/개인정보미사용."
+    },
+    {
+      "where": "latitude,longitude,location",
+      "fact": "2지도 좌표와 실제 접근 위치",
+      "value": "16.4127,120.5985 CathedralHill 본당 건물",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Baguio_Cathedral",
+          "grade": "B",
+          "says": "성당 1920 착공·1936-07-09 봉헌, CathedralLoop/SessionRoad 인접·주교좌·쌍첨탑/스테인드글라스,좌표16.412744,120.598435"
+        },
+        {
+          "url": "https://mapcarta.com/W42936372/Map",
+          "grade": "B",
+          "says": "OSM way42936372 성당건물16.41273,120.59853,FrCarluSt주소·wheelchair=yes,옆HolyFaceChapel/계단·도로지도"
+        },
+        {
+          "url": "https://baguiodiocese.org/home/?p=1",
+          "grade": "A",
+          "says": "바기오교구 현행 홈페이지:CathedralHill주교좌성당·OurLadyofAtonement·1936본당기준·July9축일·전화.1907선교/2004교구분리"
+        },
+        {
+          "url": "https://catholink.ph/baguio/",
+          "grade": "B",
+          "says": "가톨릭교구주소록:성당CathedralHill·1936·July9·공식본당FB링크,교구72FrCarluSt.인사정보일부과거상태"
+        }
+      ],
+      "decision": "Wikipedia16.412744/120.598435와OSM16.41273/120.59853약10m일치,중간반올림대표점.계단아래/차량픽업핀동일아님명시.바기오는벵게트와같은CAR위치이지만독립고도화도시이므로본문주소는바기오시로표기.지도openinghours월9~17/화일8~17은미사오전6시등과충돌하여관람표로채택안함."
+    },
+    {
+      "where": "overview,highlights",
+      "fact": "건축/연혁과 예배 공간",
+      "value": "1920착공·1936봉헌·주교좌성당·쌍첨탑/원형창/아치·스테인드글라스",
+      "sources": [
+        {
+          "url": "https://baguiodiocese.org/home/?p=1",
+          "grade": "A",
+          "says": "바기오교구 현행 홈페이지:CathedralHill주교좌성당·OurLadyofAtonement·1936본당기준·July9축일·전화.1907선교/2004교구분리"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Baguio_Cathedral",
+          "grade": "B",
+          "says": "성당 1920 착공·1936-07-09 봉헌, CathedralLoop/SessionRoad 인접·주교좌·쌍첨탑/스테인드글라스,좌표16.412744,120.598435"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral_Historical_Marker,_Baguio_City.jpg",
+          "grade": "B",
+          "says": "2026-11-07현장역사판사진 직접열람:1907선교·1920건축시작·1936봉헌·전쟁피난·2004교구·2025성지.본당자체표지의2차사진"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral_Decree_of_Recognition_%26_Elevation_Marker,_Baguio_City.jpg",
+          "grade": "B",
+          "says": "2026-11-07현장교구명령판사진 직접열람:2025-11-21 OurLadyofAtonement성지승격.권리/성사규칙은관광권리로확대안함"
+        },
+        {
+          "url": "https://mirror.pia.gov.ph/news/2022/03/08/iconic-baguio-cathedral-pilgrim-stairs-inaugurated",
+          "grade": "A",
+          "says": "2022-03-08 PIA 전문이 검색결과에 실제 노출:3/7계단재단장축복·캐노피철거·천사/성인상·식물·SessionRoad연결.직접open2회timeout이나검색본문읽음",
+          "date": "2022-03-08"
+        }
+      ],
+      "decision": "원선교1907·현건물1936봉헌·교구2004별개사건.교구homepage1936본당기준과명령판1907본당기원이다르므로본문본당창설연도확정안함.스페인시대교회로부르지않음.희망희년2025혜택을2026유효로확장안함.네오로마네스크는PIA/영문wiki확인,스페인어wiki네오고딕분류상충있어본문기법세부딱지대신직접관찰창/탑/아치.항상분홍빛/원형도장상태보장없음."
+    },
+    {
+      "where": "overview",
+      "fact": "전쟁과 도시 기억",
+      "value": "2차세계대전 주민 피란처",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral_Historical_Marker,_Baguio_City.jpg",
+          "grade": "B",
+          "says": "2026-11-07현장역사판사진 직접열람:1907선교·1920건축시작·1936봉헌·전쟁피난·2004교구·2025성지.본당자체표지의2차사진"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Baguio_Cathedral",
+          "grade": "B",
+          "says": "성당 1920 착공·1936-07-09 봉헌, CathedralLoop/SessionRoad 인접·주교좌·쌍첨탑/스테인드글라스,좌표16.412744,120.598435"
+        },
+        {
+          "url": "https://memory.nhcp.gov.ph/wp-content/uploads/2026/07/JPLHH-V6N2-Luga.pdf",
+          "grade": "A",
+          "says": "NHCP출판 연구에1945폭격중성당피난과주변민간인희생맥락"
+        },
+        {
+          "url": "https://tribune.net.ph/2026/10/20/baguio-cathedral-where-a-city-sought-refuge",
+          "grade": "B",
+          "says": "2026-10-20 역사기사 피난/도시기억·1936·전후/지진수리교차",
+          "date": "2026-10-20"
+        }
+      ],
+      "decision": "도시유일생존건물/희생0/전쟁안전보장등과장미사용.전쟁피난기억만간결히독창서술하며과거유해수·정확폭격일·전쟁사세부는불필요로미확정."
+    },
+    {
+      "where": "highlights,itinerary,getting_there",
+      "fact": "순례자 계단과 접근성",
+      "value": "SessionRoad에서성당위언덕계단·2022재단장",
+      "sources": [
+        {
+          "url": "https://mirror.pia.gov.ph/news/2022/03/08/iconic-baguio-cathedral-pilgrim-stairs-inaugurated",
+          "grade": "A",
+          "says": "2022-03-08 PIA 전문이 검색결과에 실제 노출:3/7계단재단장축복·캐노피철거·천사/성인상·식물·SessionRoad연결.직접open2회timeout이나검색본문읽음",
+          "date": "2022-03-08"
+        },
+        {
+          "url": "https://mapcarta.com/W42936372/Map",
+          "grade": "B",
+          "says": "OSM way42936372 성당건물16.41273,120.59853,FrCarluSt주소·wheelchair=yes,옆HolyFaceChapel/계단·도로지도"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Baguio_Cathedral",
+          "grade": "B",
+          "says": "성당 1920 착공·1936-07-09 봉헌, CathedralLoop/SessionRoad 인접·주교좌·쌍첨탑/스테인드글라스,좌표16.412744,120.598435"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Steps_to_Baguio_Cathedral,_Baguio_City,_Nov_2026.jpg",
+          "grade": "B",
+          "says": "2026-11-07 실제계단·난간·성인상·하늘노출직접사진확인"
+        }
+      ],
+      "decision": "104개숫자는위키/기존293에있으나새항목불필요확정숫자생략.2022캐노피철거공식전문확인했으므로구2011차양소개미사용.인접SLU교육시설무단통과권장없음.지도wheelchair=yes만으로전구간무단차/장애인시설인증보장안함.차량FrCarlu접근/당일승하차는현장조건."
+    },
+    {
+      "where": "highlights,tips",
+      "fact": "예배실과 한국어 미사",
+      "value": "2025Nov도입공지기준 토17시HolyFaceChapel,2026보조표교차",
+      "sources": [
+        {
+          "url": "https://www.sunstar.com.ph/manila/baguio-cathedral-sets-weekly-mass-in-korean-language",
+          "grade": "B",
+          "says": "2025-10-21 교구Circular15-2025인용:2025Nov부터토17시HolyFaceChapel한국어미사·해당참석자주차gatepass",
+          "date": "2025-10-21"
+        },
+        {
+          "url": "https://www.mass-schedules.com/catholic-church/10/our-lady-of-atonement-cathedral-baguio-cathedral.html",
+          "grade": "C",
+          "says": "2026-04-30갱신표 토17시한국어HolyFaceChapel·동시각본당영어미사.사이트는본당비연결/정확성확인요청명시",
+          "date": "2026-04-30"
+        },
+        {
+          "url": "https://businessmirror.com.ph/2025/10/21/baguio-diocese-to-launch-korean-language-mass-starting-next-month/",
+          "grade": "B",
+          "says": "같은교구도입공지보도검색전문·토17시HolyFaceChapel",
+          "date": "2025-10-21"
+        },
+        {
+          "url": "https://masstimes.org/map?SearchQueryTerm=La+Trinidad%2C+Cordillera%2C+Philippines&lat=16.455&lng=120.587&sortDistance=",
+          "grade": "C",
+          "says": "2026-06-03갱신한국어HolyFaceChapel17시보조표"
+        },
+        {
+          "url": "https://mapcarta.com/W42936372/Map",
+          "grade": "B",
+          "says": "OSM way42936372 성당건물16.41273,120.59853,FrCarluSt주소·wheelchair=yes,옆HolyFaceChapel/계단·도로지도"
+        }
+      ],
+      "decision": "시간은2025도입당시공지임명시·2026표가본당공식아님알리고방문전해당주운영/장소직접확인.본당영어17시동시미사와구별.전례언어도입/외부표가관람개방시간아님.본당공식FBhttps://www.facebook.com/baguiocathedralofficial/직접차단(login/throttle),읽었다고하지않음.2025신문specialparking은해당교우gatepass조건,관광객무료주차혜택으로전재없음."
+    },
+    {
+      "where": "highlights,gallery",
+      "fact": "실내 작품·기도 공간",
+      "value": "중앙통로/제단·속죄의성모·성인목조부조·성체조배실",
+      "sources": [
+        {
+          "url": "https://baguiodiocese.org/home/?p=1",
+          "grade": "A",
+          "says": "바기오교구 현행 홈페이지:CathedralHill주교좌성당·OurLadyofAtonement·1936본당기준·July9축일·전화.1907선교/2004교구분리"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Baguio_Cathedral",
+          "grade": "B",
+          "says": "성당 1920 착공·1936-07-09 봉헌, CathedralLoop/SessionRoad 인접·주교좌·쌍첨탑/스테인드글라스,좌표16.412744,120.598435"
+        },
+        {
+          "url": "https://mapcarta.com/W42936372/Map",
+          "grade": "B",
+          "says": "OSM way42936372 성당건물16.41273,120.59853,FrCarluSt주소·wheelchair=yes,옆HolyFaceChapel/계단·도로지도"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:2025-01-05_-_Episcopally_crowned_image_of_Our_Lady_of_the_Atonement_in_Baguio_Cathedral.jpg",
+          "grade": "B",
+          "says": "성모상주제·2025-01-05촬영·독립작가"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:BaguioCathedraljf0230_15.JPG",
+          "grade": "B",
+          "says": "2013-11-29 목조성인패널·의자·스테인드글라스실제눈검수"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral_Adoration_Chapel,_Feb_2025.jpg",
+          "grade": "B",
+          "says": "성체조배실실제출입문·벽체사진.문에당시시간6:30~18있음"
+        }
+      ],
+      "decision": "AdorationChapel과HolyFaceChapel동일방이라고추정안함.성체조배실사진은전체기도실입구/벽체로제공하되사진속옛시간을현행으로전재안함.제단·주교좌·부조무제한접근/촬영보장없음.갤러리2022크리스마스장식은영구설치아님명시."
+    },
+    {
+      "where": "tips,cautions,overview",
+      "fact": "보수·도장과 날짜가 다른 사진",
+      "value": "2015덮개있는통로·2022이후덮개철거·2026비계관찰",
+      "sources": [
+        {
+          "url": "https://mirror.pia.gov.ph/news/2022/03/08/iconic-baguio-cathedral-pilgrim-stairs-inaugurated",
+          "grade": "A",
+          "says": "2022-03-08 PIA 전문이 검색결과에 실제 노출:3/7계단재단장축복·캐노피철거·천사/성인상·식물·SessionRoad연결.직접open2회timeout이나검색본문읽음",
+          "date": "2022-03-08"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral_2.JPG",
+          "grade": "B",
+          "says": "2015-03-28 전면차양을포함한성당외관"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral,_Nov_2026_(1).jpg",
+          "grade": "B",
+          "says": "2026-11-07정면출입구/옆면에비계직접눈검수.이사진연구용이며선정갤러리안씀"
+        }
+      ],
+      "decision": "사진별촬영시점명시.2026비계보였다고영구폐쇄/전면통행금지/공사완료/입장불가라고추정안함.본문통제선따르기와현재출입문의만.예전2018덮개/2015주차차량은현재주차허가증거아님."
+    },
+    {
+      "where": "airport,getting_there",
+      "fact": "장거리 교통",
+      "value": "CRK클라크이후바기오육로·시내마지막이동별도",
+      "sources": [
+        {
+          "url": "https://clarkinternationalairport.com/shuttle-and-bus-services/",
+          "grade": "A",
+          "says": "공항운영사LIPAD공식Genesis연결·2026Nov스케줄이미지공개"
+        },
+        {
+          "url": "https://www.genesistransportserviceinc.com/",
+          "grade": "A",
+          "says": "현행운영사Baguio↔Clark/Avenida/Cubao/Pasay/NAIA등노선목록"
+        },
+        {
+          "url": "https://visita.baguio.gov.ph/",
+          "grade": "A",
+          "says": "2026시공식관광portal·등록숙박/업소/관광지·행사공지·codingzone지도.옛코로나의무QR조건현재기재없음"
+        }
+      ],
+      "decision": "CRK사용국제선관문과육로연결을설명.이미지시간표값본문기재안함,출발일공항/운수사대조.미검증victorylinerbus.com/pitxbaguio.com같은사칭유사도메인검색결과미사용.바기오Loakan정기항공현행보장/아무공항출발즉시성당직행/모든시간대버스존재안함.노선시간/요금숫자생성없음."
+    },
+    {
+      "where": "best_time,stay_and_food,nearby",
+      "fact": "시행사·등록숙소·주변 구분",
+      "value": "VISITA등록숙박·시행사별통제,SessionRoad/Burnham별도동선",
+      "sources": [
+        {
+          "url": "https://visita.baguio.gov.ph/",
+          "grade": "A",
+          "says": "2026시공식관광portal·등록숙박/업소/관광지·행사공지·codingzone지도.옛코로나의무QR조건현재기재없음"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Session_Road",
+          "grade": "B",
+          "says": "거리경사·FrCarluSt/GovPackRoad연결·성당접근"
+        },
+        {
+          "url": "sources/293-session-road.json",
+          "grade": "C",
+          "says": "2025상설일요통제중지와2026날짜별시행정명령교차기록"
+        },
+        {
+          "url": "https://baguiodiocese.org/home/?p=1",
+          "grade": "A",
+          "says": "바기오교구 현행 홈페이지:CathedralHill주교좌성당·OurLadyofAtonement·1936본당기준·July9축일·전화.1907선교/2004교구분리"
+        }
+      ],
+      "decision": "공식July9축일은날짜만,연간프로그램고정안함.매주일요일도로전체항상보행전용안함.옛코로나시기QR/등록허가의무현재규칙으로안함.등록숙소를특정방등급/현재가격보장으로안함.날씨표는방문계획조언이며월별강수/태풍확률추측없음."
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "성당 옆 카페와 수녀원 판매장 구분",
+      "value": "GoodShepherdCafe2025개점·별도사업운영",
+      "sources": [
+        {
+          "url": "https://philstarlife.com/living/569917-good-shepherd-cafe-in-baguio-now-open",
+          "grade": "B",
+          "says": "2025-07-24 사업주인터뷰:7/20softopening·성당옆기존종교물품점공간·수녀원일상운영불참·독립소유",
+          "date": "2025-07-24"
+        },
+        {
+          "url": "https://baguioheraldexpressonline.com/good-shepherd-cafe-reimagining-heritage-with-a-heart-for-the-community/",
+          "grade": "B",
+          "says": "2025-08-24 현지기사:PortaVaga상단/순례계단옆·별도소유·수녀원지원인터뷰",
+          "date": "2025-08-24"
+        }
+      ],
+      "decision": "수녀원직영/본점이전이라고안함.2025softopening시간6~19현재고정안함.미검증directory2026June개점/takeoutonly주장보다2025사업주인터뷰우선.음식가격/영양·의료효능/메뉴상시재고추천미생성.방문일현재운영문의조건으로역사/위치만수록."
+    },
+    {
+      "where": "budget,costs,duration,tips,cautions",
+      "fact": "편집 계획 예산과 일반 방문 예절",
+      "value": "식음250–500+시내이동150–400+예비100–200=500–1100PHP,1–2시간관람",
+      "sources": [
+        {
+          "url": "https://visita.baguio.gov.ph/",
+          "grade": "A",
+          "says": "2026시공식관광portal·등록숙박/업소/관광지·행사공지·codingzone지도.옛코로나의무QR조건현재기재없음"
+        },
+        {
+          "url": "https://baguiodiocese.org/home/?p=1",
+          "grade": "A",
+          "says": "바기오교구 현행 홈페이지:CathedralHill주교좌성당·OurLadyofAtonement·1936본당기준·July9축일·전화.1907선교/2004교구분리"
+        },
+        {
+          "url": "https://www.mass-schedules.com/catholic-church/10/our-lady-of-atonement-cathedral-baguio-cathedral.html",
+          "grade": "C",
+          "says": "2026-04-30갱신표 토17시한국어HolyFaceChapel·동시각본당영어미사.사이트는본당비연결/정확성확인요청명시",
+          "date": "2026-04-30"
+        }
+      ],
+      "decision": "모두계획액이며실제입장요금·의무헌금·Mass참가비아님.장거리/항공/숙박별도.후원/촛불/종교물품자율확인.방문시간미사/대기포함보장없음.4.6은저장소형식의편집값,외부리뷰평균아님.개인기도존중/촬영허락·차도/계단주의는일반실행조언.인접학교·주교관관광출입권장없음."
+    }
+  ],
+  "images": [
+    {
+      "file": "314-baguio-cathedral.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral_of_Our_Lady_of_the_Atonement.jpg",
+      "artist": "Juanitoooww",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2024-06-21",
+      "source_original_width": 4050,
+      "source_original_height": 2700,
+      "check": "2024년 장시간 노출로 담은 바기오 대성당의 쌍첨탑과 정면 — 원본20장·최종10장모두직접열람.7작가10촬영일,야간전체/최신계단/최신제단/전경중앙통로/성모/목조성인부조/조배실입구/십자가군상/도시속위치/과거전면차양으로시점·영역분산.같은작가같은날연사1장.기존023Feb2025정면·2932024정면및2023계단사진재사용없음.정면유사추가/성모상반복/흐린뒤쪽통로·다른MtPeace시설·연혁/명령판텍스트주제는미채택.계단사람은포즈기념사진아닌장소의부수인물이며절대식별기재안함.조배실입구당시안내문시간은현재보장없음."
+    },
+    {
+      "file": "314-baguio-cathedral-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Steps_to_Baguio_Cathedral,_Baguio_City,_Nov_2026.jpg",
+      "artist": "Ralff Nestor Nacor",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "Taken on 7 November 2026, 17:09:43 (according to Exif data)",
+      "source_original_width": 3072,
+      "source_original_height": 4080,
+      "check": "2026년 11월 세션로드에서 대성당으로 오르는 순례자 계단과 성인상 — 원본20장·최종10장모두직접열람.7작가10촬영일,야간전체/최신계단/최신제단/전경중앙통로/성모/목조성인부조/조배실입구/십자가군상/도시속위치/과거전면차양으로시점·영역분산.같은작가같은날연사1장.기존023Feb2025정면·2932024정면및2023계단사진재사용없음.정면유사추가/성모상반복/흐린뒤쪽통로·다른MtPeace시설·연혁/명령판텍스트주제는미채택.계단사람은포즈기념사진아닌장소의부수인물이며절대식별기재안함.조배실입구당시안내문시간은현재보장없음."
+    },
+    {
+      "file": "314-baguio-cathedral-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sanctuary_of_Baguio_Cathedral_(Oct_2026).jpg",
+      "artist": "Shiryu15",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "Taken on 26 October 2026, 05:54:11 (according to Exif data)",
+      "source_original_width": 3293,
+      "source_original_height": 4608,
+      "check": "2026년 10월 바기오 대성당의 제단과 십자가, 아치형 천장 — 원본20장·최종10장모두직접열람.7작가10촬영일,야간전체/최신계단/최신제단/전경중앙통로/성모/목조성인부조/조배실입구/십자가군상/도시속위치/과거전면차양으로시점·영역분산.같은작가같은날연사1장.기존023Feb2025정면·2932024정면및2023계단사진재사용없음.정면유사추가/성모상반복/흐린뒤쪽통로·다른MtPeace시설·연혁/명령판텍스트주제는미채택.계단사람은포즈기념사진아닌장소의부수인물이며절대식별기재안함.조배실입구당시안내문시간은현재보장없음."
+    },
+    {
+      "file": "314-baguio-cathedral-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral_Interior,_Dec_2022.jpg",
+      "artist": "Ralff Nestor Nacor",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2022-12-31 15:11:52",
+      "source_original_width": 4080,
+      "source_original_height": 3072,
+      "check": "2022년 12월 중앙 통로와 나무 기둥, 계절 장식이 보이는 성당 내부 — 원본20장·최종10장모두직접열람.7작가10촬영일,야간전체/최신계단/최신제단/전경중앙통로/성모/목조성인부조/조배실입구/십자가군상/도시속위치/과거전면차양으로시점·영역분산.같은작가같은날연사1장.기존023Feb2025정면·2932024정면및2023계단사진재사용없음.정면유사추가/성모상반복/흐린뒤쪽통로·다른MtPeace시설·연혁/명령판텍스트주제는미채택.계단사람은포즈기념사진아닌장소의부수인물이며절대식별기재안함.조배실입구당시안내문시간은현재보장없음."
+    },
+    {
+      "file": "314-baguio-cathedral-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:2025-01-05_-_Episcopally_crowned_image_of_Our_Lady_of_the_Atonement_in_Baguio_Cathedral.jpg",
+      "artist": "EyeTrick",
+      "license": "CC BY 4.0",
+      "captured_at": "2025-01-05",
+      "source_original_width": 3310,
+      "source_original_height": 4414,
+      "check": "2025년 1월 성당 안에 모셔진 속죄의 성모상과 금빛 장식 — 원본20장·최종10장모두직접열람.7작가10촬영일,야간전체/최신계단/최신제단/전경중앙통로/성모/목조성인부조/조배실입구/십자가군상/도시속위치/과거전면차양으로시점·영역분산.같은작가같은날연사1장.기존023Feb2025정면·2932024정면및2023계단사진재사용없음.정면유사추가/성모상반복/흐린뒤쪽통로·다른MtPeace시설·연혁/명령판텍스트주제는미채택.계단사람은포즈기념사진아닌장소의부수인물이며절대식별기재안함.조배실입구당시안내문시간은현재보장없음."
+    },
+    {
+      "file": "314-baguio-cathedral-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:BaguioCathedraljf0230_15.JPG",
+      "artist": "Ramon FVelasquez",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2013-11-29 17:50:12",
+      "source_original_width": 3456,
+      "source_original_height": 4608,
+      "check": "2013년 성당 내부의 성인 부조와 목조 벽, 스테인드글라스 — 원본20장·최종10장모두직접열람.7작가10촬영일,야간전체/최신계단/최신제단/전경중앙통로/성모/목조성인부조/조배실입구/십자가군상/도시속위치/과거전면차양으로시점·영역분산.같은작가같은날연사1장.기존023Feb2025정면·2932024정면및2023계단사진재사용없음.정면유사추가/성모상반복/흐린뒤쪽통로·다른MtPeace시설·연혁/명령판텍스트주제는미채택.계단사람은포즈기념사진아닌장소의부수인물이며절대식별기재안함.조배실입구당시안내문시간은현재보장없음."
+    },
+    {
+      "file": "314-baguio-cathedral-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral_Adoration_Chapel,_Feb_2025.jpg",
+      "artist": "Ralff Nestor Nacor",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "Taken on 17 February 2025, 14:46:33 (according to Exif data)",
+      "source_original_width": 3072,
+      "source_original_height": 4080,
+      "check": "2025년 2월 성체조배실의 출입문과 벽체, 당시 안내문 — 원본20장·최종10장모두직접열람.7작가10촬영일,야간전체/최신계단/최신제단/전경중앙통로/성모/목조성인부조/조배실입구/십자가군상/도시속위치/과거전면차양으로시점·영역분산.같은작가같은날연사1장.기존023Feb2025정면·2932024정면및2023계단사진재사용없음.정면유사추가/성모상반복/흐린뒤쪽통로·다른MtPeace시설·연혁/명령판텍스트주제는미채택.계단사람은포즈기념사진아닌장소의부수인물이며절대식별기재안함.조배실입구당시안내문시간은현재보장없음."
+    },
+    {
+      "file": "314-baguio-cathedral-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral_with_cross_(Baguio,_Benguet)(2018-11-26).jpg",
+      "artist": "patrickroque01",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "Taken on 26 November 2018 (according to Exif data)",
+      "source_original_width": 3648,
+      "source_original_height": 2736,
+      "check": "2018년 십자가 군상과 계단 너머로 보이는 바기오 대성당 — 원본20장·최종10장모두직접열람.7작가10촬영일,야간전체/최신계단/최신제단/전경중앙통로/성모/목조성인부조/조배실입구/십자가군상/도시속위치/과거전면차양으로시점·영역분산.같은작가같은날연사1장.기존023Feb2025정면·2932024정면및2023계단사진재사용없음.정면유사추가/성모상반복/흐린뒤쪽통로·다른MtPeace시설·연혁/명령판텍스트주제는미채택.계단사람은포즈기념사진아닌장소의부수인물이며절대식별기재안함.조배실입구당시안내문시간은현재보장없음."
+    },
+    {
+      "file": "314-baguio-cathedral-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:2025-01-04_-_Baguio_City_at_night_01.jpg",
+      "artist": "EyeTrick",
+      "license": "CC BY 4.0",
+      "captured_at": "2025-01-04",
+      "source_original_width": 4391,
+      "source_original_height": 3293,
+      "check": "2025년 1월 세션로드 일대 야경 속 언덕 위의 바기오 대성당 — 원본20장·최종10장모두직접열람.7작가10촬영일,야간전체/최신계단/최신제단/전경중앙통로/성모/목조성인부조/조배실입구/십자가군상/도시속위치/과거전면차양으로시점·영역분산.같은작가같은날연사1장.기존023Feb2025정면·2932024정면및2023계단사진재사용없음.정면유사추가/성모상반복/흐린뒤쪽통로·다른MtPeace시설·연혁/명령판텍스트주제는미채택.계단사람은포즈기념사진아닌장소의부수인물이며절대식별기재안함.조배실입구당시안내문시간은현재보장없음."
+    },
+    {
+      "file": "314-baguio-cathedral-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Baguio_Cathedral_2.JPG",
+      "artist": "Raani Paranas",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2015-03-28",
+      "source_original_width": 2000,
+      "source_original_height": 1500,
+      "check": "2015년 지붕이 있던 전면 통로와 대성당의 정면·옆면 — 원본20장·최종10장모두직접열람.7작가10촬영일,야간전체/최신계단/최신제단/전경중앙통로/성모/목조성인부조/조배실입구/십자가군상/도시속위치/과거전면차양으로시점·영역분산.같은작가같은날연사1장.기존023Feb2025정면·2932024정면및2023계단사진재사용없음.정면유사추가/성모상반복/흐린뒤쪽통로·다른MtPeace시설·연혁/명령판텍스트주제는미채택.계단사람은포즈기념사진아닌장소의부수인물이며절대식별기재안함.조배실입구당시안내문시간은현재보장없음."
+    }
+  ],
+  "image_processing": {
+    "prompt": "data/images/314-baguio-cathedral-prompt.txt",
+    "method": "Codex CLI에만원본10개가로1080비율유지WebPq80정량변환위임.내용생성/크롭/회전/색보정없음.원본SHA불변/치수/디코딩검증모두passed.",
+    "report": "work/parallel-1992/luzon/314-baguio-cathedral-conversion-report.json"
+  },
+  "translation": {
+    "method": "한영직접집필97줄export/check/import성공",
+    "fallback": "다른6언어부모통합선언대기"
+  }
+}
