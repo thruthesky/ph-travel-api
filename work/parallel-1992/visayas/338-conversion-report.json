@@ -1,0 +1,1104 @@
+{
+  "status": "success",
+  "count": 10,
+  "started_at_utc": "2026-11-17T10:09:42.298062+00:00",
+  "results": [
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.webp",
+      "expected_sha256": "13eb9ae7e02d799d2a4760963133961e511b1e07df7f6a1beaceb9897ae22d94",
+      "input_info": {
+        "sha256": "13eb9ae7e02d799d2a4760963133961e511b1e07df7f6a1beaceb9897ae22d94",
+        "bytes": 250893,
+        "mtime_ns": 1794909696398619915,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 853,
+        "aspect_ratio": 1.5005861664712778,
+        "aspect_ratio_fraction": "1280/853",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/djpeg",
+            "-rgb",
+            "-pnm",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.jpg"
+          ],
+          "exit_code": 0,
+          "stderr": "",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 3275520,
+          "expected_pixel_bytes": 3275520,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "ee0fddd6c556d8e86d9402c91149b13fe61ebd4acff4b7367a79dc8076287bda"
+        },
+        "after_conversion": {
+          "sha256": "13eb9ae7e02d799d2a4760963133961e511b1e07df7f6a1beaceb9897ae22d94",
+          "bytes": 250893,
+          "mtime_ns": 1794909696398619915
+        },
+        "original_preserved": true
+      },
+      "output_info": {
+        "sha256": "b5c4332f172e6a293b9a7a9c7bf6e392d0ef0a1dc78290f1bdab8bb55e4958ce",
+        "bytes": 103644,
+        "mtime_ns": 1794910182449219232,
+        "format": "WebP",
+        "width": 1080,
+        "height": 720,
+        "aspect_ratio": 1.5,
+        "aspect_ratio_fraction": "3/2",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.webp",
+            "-ppm",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved to stdout",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 2332800,
+          "expected_pixel_bytes": 2332800,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "8b5d3cc967eb62d82e23bf9a8d79ac330b4e495b42f1ff7fbef03802192f3fd5"
+        }
+      },
+      "success": true,
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.jpg\nDimension: 1080 x 720\nOutput:    102986 bytes Y-U-V-All-PSNR 40.50 42.49 43.02   41.13 dB\n           (1.06 bpp)\nblock count:  intra4:       2381  (77.81%)\n              intra16:       679  (22.19%)\n              skipped:        28  (0.92%)\nbytes used:  header:            336  (0.3%)\n             mode-partition:  12214  (11.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       7%|      18%|      35%|      41%|    3060\n      quantizer:  |      27 |      25 |      20 |      14 |\n   filter level:  |       8 |       6 |       4 |      20 |\nMetadata:\n  * ICC profile:     524 bytes\n  * EXIF data:       100 bytes"
+      },
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_container_signature_valid": true,
+        "webp_riff_length_matches": true,
+        "requested_width": 1080,
+        "expected_width_without_upscaling": 1080,
+        "width_valid": true,
+        "no_upscaling": true,
+        "ideal_output_height": 719.71875,
+        "ideal_output_height_fraction": "23031/32",
+        "height_rounding_error_px": 0.28125,
+        "aspect_ratio_relative_error": 0.0003906249999999778,
+        "aspect_ratio_preserved_within_one_pixel": true,
+        "quality_argument": 80,
+        "quality_argument_verified": true,
+        "quality_verification_note": "품질 값은 인코더 실행 인자로 검증함; 완성 WebP에 품질 80이 별도 메타데이터로 저장되는 것은 아님",
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.webp",
+      "expected_sha256": "af363e96f6fcce1efc9eee5817e618002142544f7ce643e90356e8e05e2e5fad",
+      "input_info": {
+        "sha256": "af363e96f6fcce1efc9eee5817e618002142544f7ce643e90356e8e05e2e5fad",
+        "bytes": 197123,
+        "mtime_ns": 1794909698062443660,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 961,
+        "aspect_ratio": 1.331945889698231,
+        "aspect_ratio_fraction": "1280/961",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/djpeg",
+            "-rgb",
+            "-pnm",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.jpg"
+          ],
+          "exit_code": 0,
+          "stderr": "",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 3690240,
+          "expected_pixel_bytes": 3690240,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "1586553f974d02f39bb860c5dce1382467fd8cee65d64a5e7badcc4843439a1b"
+        },
+        "after_conversion": {
+          "sha256": "af363e96f6fcce1efc9eee5817e618002142544f7ce643e90356e8e05e2e5fad",
+          "bytes": 197123,
+          "mtime_ns": 1794909698062443660
+        },
+        "original_preserved": true
+      },
+      "output_info": {
+        "sha256": "65ded9fc86ae23fe2f3cbd1e637c657310cb35338c436dbf4c1cb957ca0fb8c4",
+        "bytes": 52600,
+        "mtime_ns": 1794910182512241510,
+        "format": "WebP",
+        "width": 1080,
+        "height": 811,
+        "aspect_ratio": 1.3316892725030827,
+        "aspect_ratio_fraction": "1080/811",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.webp",
+            "-ppm",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.webp. Dimensions: 1080 x 811 . Format: lossy. Now saving...\nSaved to stdout",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 2627640,
+          "expected_pixel_bytes": 2627640,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "41898edf239144ab4c5e1d64b26884b0c7bcfba7f8d8d1b66f80e6dd8b481de5"
+        }
+      },
+      "success": true,
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.jpg\nDimension: 1080 x 811\nOutput:    52600 bytes Y-U-V-All-PSNR 42.15 49.19 49.30   43.51 dB\n           (0.48 bpp)\nblock count:  intra4:       2312  (66.67%)\n              intra16:      1156  (33.33%)\n              skipped:       103  (2.97%)\nbytes used:  header:            186  (0.4%)\n             mode-partition:   9037  (17.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       1%|       8%|      29%|      62%|    3468\n      quantizer:  |      27 |      26 |      22 |      17 |\n   filter level:  |       8 |       5 |      20 |      20 |"
+      },
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_container_signature_valid": true,
+        "webp_riff_length_matches": true,
+        "requested_width": 1080,
+        "expected_width_without_upscaling": 1080,
+        "width_valid": true,
+        "no_upscaling": true,
+        "ideal_output_height": 810.84375,
+        "ideal_output_height_fraction": "25947/32",
+        "height_rounding_error_px": 0.15625,
+        "aspect_ratio_relative_error": 0.00019266337854495497,
+        "aspect_ratio_preserved_within_one_pixel": true,
+        "quality_argument": 80,
+        "quality_argument_verified": true,
+        "quality_verification_note": "품질 값은 인코더 실행 인자로 검증함; 완성 WebP에 품질 80이 별도 메타데이터로 저장되는 것은 아님",
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.webp",
+      "expected_sha256": "22da8989bcaa60826d2a29c6ca23b252624069b0cd6bcdc1c54cccdfef5f56cc",
+      "input_info": {
+        "sha256": "22da8989bcaa60826d2a29c6ca23b252624069b0cd6bcdc1c54cccdfef5f56cc",
+        "bytes": 420619,
+        "mtime_ns": 1794909697768274165,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 720,
+        "aspect_ratio": 1.7777777777777777,
+        "aspect_ratio_fraction": "16/9",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/djpeg",
+            "-rgb",
+            "-pnm",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.jpg"
+          ],
+          "exit_code": 0,
+          "stderr": "",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 2764800,
+          "expected_pixel_bytes": 2764800,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "c7c568b1e1ec029ee5b570a1195e165aabe01bd4fa674551f7fa403d13b21684"
+        },
+        "after_conversion": {
+          "sha256": "22da8989bcaa60826d2a29c6ca23b252624069b0cd6bcdc1c54cccdfef5f56cc",
+          "bytes": 420619,
+          "mtime_ns": 1794909697768274165
+        },
+        "original_preserved": true
+      },
+      "output_info": {
+        "sha256": "4a899f0518308498825d937f7031dc99d49f39b4134d4c022192a0346d03516e",
+        "bytes": 202052,
+        "mtime_ns": 1794910182578967098,
+        "format": "WebP",
+        "width": 1080,
+        "height": 608,
+        "aspect_ratio": 1.7763157894736843,
+        "aspect_ratio_fraction": "135/76",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.webp",
+            "-ppm",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.webp. Dimensions: 1080 x 608 . Format: lossy. Now saving...\nSaved to stdout",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 1969920,
+          "expected_pixel_bytes": 1969920,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "3c0220c0c1032aba33129a49e552099d9ea3b4d0e021b076cf1f7c722a8b6c96"
+        }
+      },
+      "success": true,
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.jpg\nDimension: 1080 x 608\nOutput:    201502 bytes Y-U-V-All-PSNR 38.06 42.39 44.42   39.21 dB\n           (2.45 bpp)\nblock count:  intra4:       2357  (91.22%)\n              intra16:       227  (8.78%)\n              skipped:        84  (3.25%)\nbytes used:  header:            347  (0.2%)\n             mode-partition:  13653  (6.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      48%|      20%|      18%|      14%|    2584\n      quantizer:  |      25 |      19 |      14 |      11 |\n   filter level:  |       8 |       4 |       2 |       2 |\nMetadata:\n  * ICC profile:     524 bytes"
+      },
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_container_signature_valid": true,
+        "webp_riff_length_matches": true,
+        "requested_width": 1080,
+        "expected_width_without_upscaling": 1080,
+        "width_valid": true,
+        "no_upscaling": true,
+        "ideal_output_height": 607.5,
+        "ideal_output_height_fraction": "1215/2",
+        "height_rounding_error_px": 0.5,
+        "aspect_ratio_relative_error": 0.0008223684210525439,
+        "aspect_ratio_preserved_within_one_pixel": true,
+        "quality_argument": 80,
+        "quality_argument_verified": true,
+        "quality_verification_note": "품질 값은 인코더 실행 인자로 검증함; 완성 WebP에 품질 80이 별도 메타데이터로 저장되는 것은 아님",
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.webp",
+      "expected_sha256": "3564bd999bcd10a686b99b094db79b1c3896685401e15a3f11c37f3b52cb9eb7",
+      "input_info": {
+        "sha256": "3564bd999bcd10a686b99b094db79b1c3896685401e15a3f11c37f3b52cb9eb7",
+        "bytes": 604252,
+        "mtime_ns": 1794909696177579042,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 1430,
+        "aspect_ratio": 0.8951048951048951,
+        "aspect_ratio_fraction": "128/143",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/djpeg",
+            "-rgb",
+            "-pnm",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.jpg"
+          ],
+          "exit_code": 0,
+          "stderr": "",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 5491200,
+          "expected_pixel_bytes": 5491200,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "a780781394e58cf72d6558371d0eb1cc1a86922ba88fbb35be7c92915d6cea17"
+        },
+        "after_conversion": {
+          "sha256": "3564bd999bcd10a686b99b094db79b1c3896685401e15a3f11c37f3b52cb9eb7",
+          "bytes": 604252,
+          "mtime_ns": 1794909696177579042
+        },
+        "original_preserved": true
+      },
+      "output_info": {
+        "sha256": "ae102a8f9174fa85f40c4b7aefaafdc404da35a8aa338e0cbcc9c3c30105df62",
+        "bytes": 253220,
+        "mtime_ns": 1794910182684874887,
+        "format": "WebP",
+        "width": 1080,
+        "height": 1207,
+        "aspect_ratio": 0.8947804473902237,
+        "aspect_ratio_fraction": "1080/1207",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.webp",
+            "-ppm",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.webp. Dimensions: 1080 x 1207 . Format: lossy. Now saving...\nSaved to stdout",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 3910680,
+          "expected_pixel_bytes": 3910680,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "3474c4714330006cb199bf95f6cf408c4ed43e9d0098aea89e984eb81d17495a"
+        }
+      },
+      "success": true,
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.jpg\nDimension: 1080 x 1207\nOutput:    253220 bytes Y-U-V-All-PSNR 38.84 43.31 45.95   40.04 dB\n           (1.55 bpp)\nblock count:  intra4:       3887  (75.21%)\n              intra16:      1281  (24.79%)\n              skipped:        34  (0.66%)\nbytes used:  header:            388  (0.2%)\n             mode-partition:  20399  (8.1%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      28%|      15%|      17%|      41%|    5168\n      quantizer:  |      27 |      23 |      18 |      12 |\n   filter level:  |       8 |       5 |       3 |       9 |"
+      },
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_container_signature_valid": true,
+        "webp_riff_length_matches": true,
+        "requested_width": 1080,
+        "expected_width_without_upscaling": 1080,
+        "width_valid": true,
+        "no_upscaling": true,
+        "ideal_output_height": 1206.5625,
+        "ideal_output_height_fraction": "19305/16",
+        "height_rounding_error_px": 0.4375,
+        "aspect_ratio_relative_error": 0.0003624689312344831,
+        "aspect_ratio_preserved_within_one_pixel": true,
+        "quality_argument": 80,
+        "quality_argument_verified": true,
+        "quality_verification_note": "품질 값은 인코더 실행 인자로 검증함; 완성 WebP에 품질 80이 별도 메타데이터로 저장되는 것은 아님",
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.webp",
+      "expected_sha256": "bfbad2a1629267c0f545bea331f3f096caf62bc73eab90cebe8b654d827a4bdf",
+      "input_info": {
+        "sha256": "bfbad2a1629267c0f545bea331f3f096caf62bc73eab90cebe8b654d827a4bdf",
+        "bytes": 378415,
+        "mtime_ns": 1794909699093621358,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/djpeg",
+            "-rgb",
+            "-pnm",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.jpg"
+          ],
+          "exit_code": 0,
+          "stderr": "",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 3686400,
+          "expected_pixel_bytes": 3686400,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "cc236e689a748788c93e6c285d0c3afccd097aaba9a3f41cf10d186b8fdd53bb"
+        },
+        "after_conversion": {
+          "sha256": "bfbad2a1629267c0f545bea331f3f096caf62bc73eab90cebe8b654d827a4bdf",
+          "bytes": 378415,
+          "mtime_ns": 1794909699093621358
+        },
+        "original_preserved": true
+      },
+      "output_info": {
+        "sha256": "e5846696b92133c9db0000cfcd1a6bd26d046d3da9ba095ab7423d20c01a2ce3",
+        "bytes": 144660,
+        "mtime_ns": 1794910182767984017,
+        "format": "WebP",
+        "width": 1080,
+        "height": 810,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.webp",
+            "-ppm",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 2624400,
+          "expected_pixel_bytes": 2624400,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "6c7d7883eba046c872d783e2c8173b5bec8724330332e1cdead387d3c36e4a01"
+        }
+      },
+      "success": true,
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.jpg\nDimension: 1080 x 810\nOutput:    144512 bytes Y-U-V-All-PSNR 39.88 42.11 42.64   40.56 dB\n           (1.32 bpp)\nblock count:  intra4:       3075  (88.67%)\n              intra16:       393  (11.33%)\n              skipped:        49  (1.41%)\nbytes used:  header:            453  (0.3%)\n             mode-partition:  15061  (10.4%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       6%|      20%|      45%|      28%|    3468\n      quantizer:  |      27 |      23 |      19 |      14 |\n   filter level:  |       8 |       4 |      13 |       6 |\nMetadata:\n  * EXIF data:       122 bytes"
+      },
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_container_signature_valid": true,
+        "webp_riff_length_matches": true,
+        "requested_width": 1080,
+        "expected_width_without_upscaling": 1080,
+        "width_valid": true,
+        "no_upscaling": true,
+        "ideal_output_height": 810.0,
+        "ideal_output_height_fraction": "810",
+        "height_rounding_error_px": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "aspect_ratio_preserved_within_one_pixel": true,
+        "quality_argument": 80,
+        "quality_argument_verified": true,
+        "quality_verification_note": "품질 값은 인코더 실행 인자로 검증함; 완성 WebP에 품질 80이 별도 메타데이터로 저장되는 것은 아님",
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.webp",
+      "expected_sha256": "e0e95b6902c4d62a5c19d950e669b3324362fe81abd61938026dc05a8a40359c",
+      "input_info": {
+        "sha256": "e0e95b6902c4d62a5c19d950e669b3324362fe81abd61938026dc05a8a40359c",
+        "bytes": 238272,
+        "mtime_ns": 1794909826942012149,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/djpeg",
+            "-rgb",
+            "-pnm",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.jpg"
+          ],
+          "exit_code": 0,
+          "stderr": "",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 3686400,
+          "expected_pixel_bytes": 3686400,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "4b30e13b0c4bbd87b796f9236f8981b50ef1259cfdab141f487dc2a797bef9ce"
+        },
+        "after_conversion": {
+          "sha256": "e0e95b6902c4d62a5c19d950e669b3324362fe81abd61938026dc05a8a40359c",
+          "bytes": 238272,
+          "mtime_ns": 1794909826942012149
+        },
+        "original_preserved": true
+      },
+      "output_info": {
+        "sha256": "ce0425574e3fd4aa2dbb49dd860718a4993fc9cc324c04d67ee1fc0e53993626",
+        "bytes": 77198,
+        "mtime_ns": 1794910182834818524,
+        "format": "WebP",
+        "width": 1080,
+        "height": 810,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.webp",
+            "-ppm",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 2624400,
+          "expected_pixel_bytes": 2624400,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "897e227605ff3c810f3a8de8e29094e642166ffa1f6fe358a1df222ae74c5418"
+        }
+      },
+      "success": true,
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.jpg\nDimension: 1080 x 810\nOutput:    77198 bytes Y-U-V-All-PSNR 41.11 48.13 48.73   42.48 dB\n           (0.71 bpp)\nblock count:  intra4:       2225  (64.16%)\n              intra16:      1243  (35.84%)\n              skipped:       126  (3.63%)\nbytes used:  header:            278  (0.4%)\n             mode-partition:   9649  (12.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|      11%|      19%|      67%|    3468\n      quantizer:  |      27 |      26 |      22 |      17 |\n   filter level:  |       8 |       5 |      25 |      20 |"
+      },
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_container_signature_valid": true,
+        "webp_riff_length_matches": true,
+        "requested_width": 1080,
+        "expected_width_without_upscaling": 1080,
+        "width_valid": true,
+        "no_upscaling": true,
+        "ideal_output_height": 810.0,
+        "ideal_output_height_fraction": "810",
+        "height_rounding_error_px": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "aspect_ratio_preserved_within_one_pixel": true,
+        "quality_argument": 80,
+        "quality_argument_verified": true,
+        "quality_verification_note": "품질 값은 인코더 실행 인자로 검증함; 완성 WebP에 품질 80이 별도 메타데이터로 저장되는 것은 아님",
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.webp",
+      "expected_sha256": "0adfd0757d569a00307d5f76bea4fcf399b36a01ec8543b99a463016c0766cb4",
+      "input_info": {
+        "sha256": "0adfd0757d569a00307d5f76bea4fcf399b36a01ec8543b99a463016c0766cb4",
+        "bytes": 411316,
+        "mtime_ns": 1794909694786942851,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/djpeg",
+            "-rgb",
+            "-pnm",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.jpg"
+          ],
+          "exit_code": 0,
+          "stderr": "",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 3686400,
+          "expected_pixel_bytes": 3686400,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "d5e06e8becfd9c131c72e5d229dc4c05bd9b7d3235cb97240c98787e356bd0a5"
+        },
+        "after_conversion": {
+          "sha256": "0adfd0757d569a00307d5f76bea4fcf399b36a01ec8543b99a463016c0766cb4",
+          "bytes": 411316,
+          "mtime_ns": 1794909694786942851
+        },
+        "original_preserved": true
+      },
+      "output_info": {
+        "sha256": "ce3c0317aef09f5bd6a9a3512105a3bfd33ed03b5a6f7acd7323780442f46e59",
+        "bytes": 179446,
+        "mtime_ns": 1794910182910646284,
+        "format": "WebP",
+        "width": 1080,
+        "height": 810,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.webp",
+            "-ppm",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 2624400,
+          "expected_pixel_bytes": 2624400,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "24a2bd9fb860b219ed452f10d3e088c4950f92e40c64d8cfbe3f3203f75de75c"
+        }
+      },
+      "success": true,
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.jpg\nDimension: 1080 x 810\nOutput:    179350 bytes Y-U-V-All-PSNR 38.89 42.57 44.88   39.97 dB\n           (1.64 bpp)\nblock count:  intra4:       2865  (82.61%)\n              intra16:       603  (17.39%)\n              skipped:        79  (2.28%)\nbytes used:  header:            321  (0.2%)\n             mode-partition:  14924  (8.3%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      31%|      13%|      13%|      43%|    3468\n      quantizer:  |      27 |      23 |      18 |      12 |\n   filter level:  |       8 |       5 |       3 |      12 |\nMetadata:\n  * EXIF data:        70 bytes"
+      },
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_container_signature_valid": true,
+        "webp_riff_length_matches": true,
+        "requested_width": 1080,
+        "expected_width_without_upscaling": 1080,
+        "width_valid": true,
+        "no_upscaling": true,
+        "ideal_output_height": 810.0,
+        "ideal_output_height_fraction": "810",
+        "height_rounding_error_px": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "aspect_ratio_preserved_within_one_pixel": true,
+        "quality_argument": 80,
+        "quality_argument_verified": true,
+        "quality_verification_note": "품질 값은 인코더 실행 인자로 검증함; 완성 WebP에 품질 80이 별도 메타데이터로 저장되는 것은 아님",
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.webp",
+      "expected_sha256": "198f8766462fd319f734958c6eb52422e232c21dfcd974452a04fd8d7ffa674b",
+      "input_info": {
+        "sha256": "198f8766462fd319f734958c6eb52422e232c21dfcd974452a04fd8d7ffa674b",
+        "bytes": 282934,
+        "mtime_ns": 1794909698120142745,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 853,
+        "aspect_ratio": 1.5005861664712778,
+        "aspect_ratio_fraction": "1280/853",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/djpeg",
+            "-rgb",
+            "-pnm",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.jpg"
+          ],
+          "exit_code": 0,
+          "stderr": "",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 3275520,
+          "expected_pixel_bytes": 3275520,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "1e73dadd544ef814e034077ad52125236c15f54a6a3a8cb902123f36e4e3babb"
+        },
+        "after_conversion": {
+          "sha256": "198f8766462fd319f734958c6eb52422e232c21dfcd974452a04fd8d7ffa674b",
+          "bytes": 282934,
+          "mtime_ns": 1794909698120142745
+        },
+        "original_preserved": true
+      },
+      "output_info": {
+        "sha256": "814b83110d5d214631039c48a9e438cd791c981ac5ae4eddd6a2d92d6171fc36",
+        "bytes": 114872,
+        "mtime_ns": 1794910182979100215,
+        "format": "WebP",
+        "width": 1080,
+        "height": 720,
+        "aspect_ratio": 1.5,
+        "aspect_ratio_fraction": "3/2",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.webp",
+            "-ppm",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved to stdout",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 2332800,
+          "expected_pixel_bytes": 2332800,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "4fe39b01a736641ebc8397c4dad88d81461c97ab0ca083855e811cb20efaea53"
+        }
+      },
+      "success": true,
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.jpg\nDimension: 1080 x 720\nOutput:    114334 bytes Y-U-V-All-PSNR 40.05 44.80 47.66   41.29 dB\n           (1.18 bpp)\nblock count:  intra4:       2445  (79.90%)\n              intra16:       615  (20.10%)\n              skipped:       352  (11.50%)\nbytes used:  header:            358  (0.3%)\n             mode-partition:  13050  (11.4%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       8%|      18%|      42%|      31%|    3060\n      quantizer:  |      27 |      24 |      19 |      14 |\n   filter level:  |       8 |       5 |       3 |      13 |\nMetadata:\n  * ICC profile:     456 bytes\n  * EXIF data:        48 bytes"
+      },
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_container_signature_valid": true,
+        "webp_riff_length_matches": true,
+        "requested_width": 1080,
+        "expected_width_without_upscaling": 1080,
+        "width_valid": true,
+        "no_upscaling": true,
+        "ideal_output_height": 719.71875,
+        "ideal_output_height_fraction": "23031/32",
+        "height_rounding_error_px": 0.28125,
+        "aspect_ratio_relative_error": 0.0003906249999999778,
+        "aspect_ratio_preserved_within_one_pixel": true,
+        "quality_argument": 80,
+        "quality_argument_verified": true,
+        "quality_verification_note": "품질 값은 인코더 실행 인자로 검증함; 완성 WebP에 품질 80이 별도 메타데이터로 저장되는 것은 아님",
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.webp",
+      "expected_sha256": "87a14c1059ee650856e74ebe3516e322cf88f79e4a0400b05a2d101bcb980b95",
+      "input_info": {
+        "sha256": "87a14c1059ee650856e74ebe3516e322cf88f79e4a0400b05a2d101bcb980b95",
+        "bytes": 585752,
+        "mtime_ns": 1794909697638246838,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/djpeg",
+            "-rgb",
+            "-pnm",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.jpg"
+          ],
+          "exit_code": 0,
+          "stderr": "",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 3686400,
+          "expected_pixel_bytes": 3686400,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "c13c0ce3dea23976d46c375432e4677970abf34f69df22202ce41baa2ab205e7"
+        },
+        "after_conversion": {
+          "sha256": "87a14c1059ee650856e74ebe3516e322cf88f79e4a0400b05a2d101bcb980b95",
+          "bytes": 585752,
+          "mtime_ns": 1794909697638246838
+        },
+        "original_preserved": true
+      },
+      "output_info": {
+        "sha256": "f1866b37663c559be0112fdfef26fa7f67e17aea3cb54ee358dcc392c2e82fce",
+        "bytes": 288952,
+        "mtime_ns": 1794910183069341090,
+        "format": "WebP",
+        "width": 1080,
+        "height": 810,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.webp",
+            "-ppm",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 2624400,
+          "expected_pixel_bytes": 2624400,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "0ee074a443adab88d80f28836f67811ca2244c3f6833f9d0f8543b4c46150106"
+        }
+      },
+      "success": true,
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.jpg\nDimension: 1080 x 810\nOutput:    288390 bytes Y-U-V-All-PSNR 37.83 44.90 47.05   39.26 dB\n           (2.64 bpp)\nblock count:  intra4:       3454  (99.60%)\n              intra16:        14  (0.40%)\n              skipped:         0  (0.00%)\nbytes used:  header:            392  (0.1%)\n             mode-partition:  20864  (7.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      49%|      19%|      21%|      11%|    3468\n      quantizer:  |      25 |      19 |      13 |      11 |\n   filter level:  |       8 |       4 |       2 |       0 |\nMetadata:\n  * ICC profile:     536 bytes"
+      },
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_container_signature_valid": true,
+        "webp_riff_length_matches": true,
+        "requested_width": 1080,
+        "expected_width_without_upscaling": 1080,
+        "width_valid": true,
+        "no_upscaling": true,
+        "ideal_output_height": 810.0,
+        "ideal_output_height_fraction": "810",
+        "height_rounding_error_px": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "aspect_ratio_preserved_within_one_pixel": true,
+        "quality_argument": 80,
+        "quality_argument_verified": true,
+        "quality_verification_note": "품질 값은 인코더 실행 인자로 검증함; 완성 WebP에 품질 80이 별도 메타데이터로 저장되는 것은 아님",
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.webp",
+      "expected_sha256": "438be1202eae9986b5c9839802d9600afee36e9fd1a3b98040e7485b97cac635",
+      "input_info": {
+        "sha256": "438be1202eae9986b5c9839802d9600afee36e9fd1a3b98040e7485b97cac635",
+        "bytes": 294285,
+        "mtime_ns": 1794909695210461461,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 719,
+        "aspect_ratio": 1.7802503477051461,
+        "aspect_ratio_fraction": "1280/719",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/djpeg",
+            "-rgb",
+            "-pnm",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.jpg"
+          ],
+          "exit_code": 0,
+          "stderr": "",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 2760960,
+          "expected_pixel_bytes": 2760960,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "801776193ae1e9eef62552aa236441e10ab42945505f0afab1a4cc8f8c627c68"
+        },
+        "after_conversion": {
+          "sha256": "438be1202eae9986b5c9839802d9600afee36e9fd1a3b98040e7485b97cac635",
+          "bytes": 294285,
+          "mtime_ns": 1794909695210461461
+        },
+        "original_preserved": true
+      },
+      "output_info": {
+        "sha256": "5499e7a40087f0c9c93bc09b5f5925cab1359e1c8107fa2b9fd60d631b9b8a17",
+        "bytes": 122166,
+        "mtime_ns": 1794910183139195445,
+        "format": "WebP",
+        "width": 1080,
+        "height": 607,
+        "aspect_ratio": 1.7792421746293245,
+        "aspect_ratio_fraction": "1080/607",
+        "full_decode": {
+          "success": true,
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.webp",
+            "-ppm",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.webp. Dimensions: 1080 x 607 . Format: lossy. Now saving...\nSaved to stdout",
+          "decoded_format": "RGB8",
+          "decoded_pixel_bytes": 1966680,
+          "expected_pixel_bytes": 1966680,
+          "all_pixels_present": true,
+          "decoded_pixels_sha256": "32ffe0fa733d7f971f0caf16f443b9c829451a2e6d5dfb343b14ddb13646e98d"
+        }
+      },
+      "success": true,
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.jpg\nDimension: 1080 x 607\nOutput:    122080 bytes Y-U-V-All-PSNR 39.21 45.76 46.42   40.54 dB\n           (1.49 bpp)\nblock count:  intra4:       2249  (87.04%)\n              intra16:       335  (12.96%)\n              skipped:         1  (0.04%)\nbytes used:  header:            342  (0.3%)\n             mode-partition:  11942  (9.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      14%|      16%|      38%|      31%|    2584\n      quantizer:  |      27 |      23 |      18 |      14 |\n   filter level:  |       8 |       4 |       4 |      16 |\nMetadata:\n  * EXIF data:        60 bytes"
+      },
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_container_signature_valid": true,
+        "webp_riff_length_matches": true,
+        "requested_width": 1080,
+        "expected_width_without_upscaling": 1080,
+        "width_valid": true,
+        "no_upscaling": true,
+        "ideal_output_height": 606.65625,
+        "ideal_output_height_fraction": "19413/32",
+        "height_rounding_error_px": 0.34375,
+        "aspect_ratio_relative_error": 0.0005663097199340994,
+        "aspect_ratio_preserved_within_one_pixel": true,
+        "quality_argument": 80,
+        "quality_argument_verified": true,
+        "quality_verification_note": "품질 값은 인코더 실행 인자로 검증함; 완성 WebP에 품질 80이 별도 메타데이터로 저장되는 것은 아님",
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    }
+  ],
+  "execution": {
+    "context": "현재 Codex CLI 실행에서 설치된 로컬 도구를 직접 사용",
+    "encoder": "/opt/homebrew/bin/cwebp",
+    "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+    "jpeg_decoder_version": "libjpeg-turbo version 3.2.0 (build 20260630)",
+    "webp_decoder_version": "1.6.0",
+    "quality": 80,
+    "requested_width": 1080,
+    "resize_mode": "down_only",
+    "aspect_ratio_policy": "높이 0을 전달하여 자동 계산; 정수 픽셀 반올림 오차 1px 이내 검증",
+    "metadata_policy": "-metadata all로 지원되는 EXIF·ICC·XMP 보존",
+    "visual_review": {
+      "performed": false,
+      "assigned_to": "상위 에이전트"
+    },
+    "network_used": false,
+    "generation_model_used": false,
+    "additional_codex_used": false,
+    "subagents_used": false,
+    "allowed_write_paths": [
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/visayas/338-conversion-report.json"
+    ]
+  },
+  "all_input_sha256_verified_before_conversion": true,
+  "all_inputs_fully_decoded_before_conversion": true,
+  "completed_at_utc": "2026-11-17T10:09:43.154142+00:00",
+  "successful_count": 10
+}

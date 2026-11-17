@@ -1,0 +1,611 @@
+{
+  "id": 338,
+  "slug": "silliman-university",
+  "checked_at": "2026-11-17T10:15:37.996274+00:00",
+  "primary_philgo_post_ids": [
+    1275713022,
+    1275713076
+  ],
+  "facts": [
+    {
+      "where": "identity, overview",
+      "fact": "지역 원문의 독립 대학 하위절 확장",
+      "value": "Silliman University 주 캠퍼스",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275713022",
+          "grade": "C",
+          "says": "부모가공개API의idx·subject·content만보존한캐시에서리잘대로원문의실리만대학교하위절을읽었다."
+        },
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275713076",
+          "grade": "C",
+          "says": "두마게테시내원문의실리만대학교하위절을읽었다."
+        },
+        {
+          "url": "https://su.edu.ph/about/history/",
+          "grade": "A",
+          "says": "학교공식역사는두마게테설립과주캠퍼스의교육·역사적맥락을설명한다."
+        },
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/silliman-university-declaration-marker/",
+          "grade": "A",
+          "says": "공식등록부에독립된대학역사유산으로등록된다."
+        }
+      ],
+      "decision": "원본CSV·TSV와data.csv·실제data/ko대조.기존081두마게테·294리잘대로는도시/거리이며대학단독항목은없다.원문두개는같은대학1개로연결하고리잘대로나두마게테원글전체완료로세지않는다.추가검토한2946/2601원글은대학신규항목의주출처로연결하지않았다."
+    },
+    {
+      "where": "latitude, longitude, location",
+      "fact": "대표핀과 두 지도 교차",
+      "value": "9.3108,123.3088 Silliman Hall 부근",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/109375295",
+          "grade": "B",
+          "says": "Nominatim실제응답의SillimanHall건물중심9.3108073,123.3088255와경계를보존했다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Silliman_Hall",
+          "grade": "B",
+          "says": "직접열어Geohack지도좌표9.3107,123.3090을읽었다.이는OSM건물중심에서약23m로건물범위부근이다."
+        },
+        {
+          "url": "https://su.edu.ph/about/campus-map/",
+          "grade": "A",
+          "says": "학교공식지도본문은86SillimanHall·96HibbardHall·100SUChurch를각각나열하고HibbardAvenue주캠퍼스의배치를보인다."
+        },
+        {
+          "url": "https://www.waze.com/live-map/directions/ph/central-visayas/dumaguete-city/silliman-university?to=place.ChIJAWUIhv1uqzMRHGR1eVp8TDE",
+          "grade": "B",
+          "says": "직접본문의SU·Dumaguete·8864+MW3와공식학교도메인·전화가주캠퍼스임을교차확인한다.박물관과다른09~17일반시간은채택하지않았다."
+        }
+      ],
+      "decision": "OSM건물중심과별도Wikidata/Geohack좌표를교차해소수4자리로표시한다.학교지도는건물간관계확인에사용했다.Waze주캠퍼스핀과건물핀은대상이달라평균하지않고대표점은학교전체의확정관광입구가아님을원고에명시했다.학교공식Google지도구링크는도구접근실패이므로검증성공으로세지않았다."
+    },
+    {
+      "where": "overview, highlights",
+      "fact": "설립자·기부자·대학 전환",
+      "value": "1901개교·1938대학",
+      "sources": [
+        {
+          "url": "https://su.edu.ph/about/history/",
+          "grade": "A",
+          "says": "공식역사본문은HoraceB.Silliman기부와DavidSutherlandHibbard·Laura부부의현지교육,1901년8월28일설립·1938년대학지위를구별한다."
+        },
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/silliman-university/",
+          "grade": "A",
+          "says": "1966표지공식전문은1901Hibbard부부와Silliman기부,1938대학전환을확인한다."
+        }
+      ],
+      "decision": "원문의미국선교사DavidSilliman설립은기부자와초대교육자를섞은오류이므로제외.아시아최초라는넓은비교·현행재학생수·현총장·수목정확개수는원고에쓰지않았다.공식역사Present부분에2018수치가남아있어현행통계로확장하지않는다."
+    },
+    {
+      "where": "overview, highlights",
+      "fact": "역사유산 지정과 표지",
+      "value": "2002선언·2022선언표지·1966역사표지",
+      "sources": [
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/silliman-university-declaration-marker/",
+          "grade": "A",
+          "says": "NationalHistoricalLandmark·NHIResolution7s2002·2002년6월19일선언·2022년9월23일표지설치를공식등록부본문에서읽었다."
+        },
+        {
+          "url": "https://su.edu.ph/about/history/",
+          "grade": "A",
+          "says": "학교공식역사는2002년6월19일NationalLandmark지정을확인한다."
+        },
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/silliman-university/",
+          "grade": "A",
+          "says": "1966표지는별도LevelII역사표지등록이며학교성장사전문을담는다."
+        }
+      ],
+      "decision": "지정2002와표지설치2022를구별한다.1966판을현행선언판으로쓰지않으며학교모든건물이동일지정범위라고확대하지않았다.유네스코·국보등다른등급으로바꾸지않는다."
+    },
+    {
+      "where": "highlights, itinerary",
+      "fact": "인류학박물관 위치와 수집",
+      "value": "Hibbard Hall2층,2015이전",
+      "sources": [
+        {
+          "url": "https://su.edu.ph/academics/museums/anthropology-museum/",
+          "grade": "A",
+          "says": "직접본문은1970박물관설립·2015SillimanHall에서HibbardHall2층이전,네그로스/민다나오발굴자료와여러섬공동체민족학자료를구별한다."
+        },
+        {
+          "url": "https://su.edu.ph/horace-b-silliman-exhibit-unveiled-at-the-anthropology-museum-for-founders-day/",
+          "grade": "A",
+          "says": "2025년9월1일공식기사본문은8월22일HibbardHall의박물관에서새Horace전시를열었음을확인한다."
+        },
+        {
+          "url": "https://www.philippinescompass.com/silliman-university-is-it-worth-visiting-on-a-visayas-trip/",
+          "grade": "C",
+          "says": "2026년9월정보점검을명시한독립여행페이지전체HTTP본문은현박물관Hibbard2층·사전협의·소수인원주의를다시설명한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Silliman_University_Anthropology_Museum_Display_01.jpg",
+          "grade": "C",
+          "says": "2026년6월24일현장사진의DUYAS·UNGOT·SUKONG나무그릇/주걱전시를직접읽었다."
+        }
+      ],
+      "decision": "2026여행블로그RenCalago와위키SillimanHall의박물관잔존설명을그대로쓰지않고학교현행위치와최근전시기사에맞췄다.오래된장례유물사진·전시정확연대·같은전시항시유지는보장하지않는다."
+    },
+    {
+      "where": "highlights, itinerary, best_time, duration",
+      "fact": "공식 캠퍼스 견학 신청",
+      "value": "학생안내·평일·90분·확정필요",
+      "sources": [
+        {
+          "url": "https://tours.su.edu.ph/",
+          "grade": "A",
+          "says": "2026년11월17일본문은CampusAmbassador의Heritage&Highlights90분·월~금일정가용성·신청후담당확인,개별학사시설승인·이동감각휴식지원신청을안내한다."
+        },
+        {
+          "url": "https://su.edu.ph/admissions/quick-student-guide/",
+          "grade": "A",
+          "says": "학교QuickStudentGuide는학생CampusAmbassadors의캠퍼스소개와HibbardAvenueInformationBooth를설명한다."
+        },
+        {
+          "url": "https://www.philippinescompass.com/silliman-university-is-it-worth-visiting-on-a-visayas-trip/",
+          "grade": "C",
+          "says": "독립현행본문은InformationBooth에서견학/박물관상담·학사시설개별출입을구분하라고설명한다."
+        },
+        {
+          "url": "https://su.edu.ph/texas-tech-delegation-visits-silliman-university-for-annual-intl-educational-tour/",
+          "grade": "A",
+          "says": "2026년10월1일기사본문의9월28일교육방문에캠퍼스투어가실제로포함되지만대학간프로그램이다."
+        }
+      ],
+      "decision": "현재학교공식도메인의예약내용을읽었으나신청/연락/제출은하지않았다.90분은안내프로그램이며박물관/학과/교회자동포함아니다.2026교육방문기사를일반관광무조건개방근거로쓰지않는다.2~3시간합산은편집상계획이다."
+    },
+    {
+      "where": "best_time, costs, tips",
+      "fact": "개방·가격의 충돌과 제한",
+      "value": "박물관평일협의·투어요금담당확인",
+      "sources": [
+        {
+          "url": "https://su.edu.ph/academics/museums/anthropology-museum/",
+          "grade": "A",
+          "says": "방문자가이드직접본문은월~금08:30~11:30/14~16:30,사전협의·시험/행사/보수/휴일/확정10명미만제한을명시한다.다만요금제목은MonSat,일반100·학생40이고휴일요청일반200·학생100이다."
+        },
+        {
+          "url": "https://tours.su.edu.ph/",
+          "grade": "A",
+          "says": "신청폼은25/head끝에수금이라고쓰고FAQ는승인비용FinanceOffice납부·공식영수증확인을안내해결제방식도일치하지않는다."
+        },
+        {
+          "url": "https://su.edu.ph/admissions/quick-student-guide/",
+          "grade": "A",
+          "says": "기존학생안내본문은freecampustours라고기재한다."
+        },
+        {
+          "url": "https://www.philippinescompass.com/silliman-university-is-it-worth-visiting-on-a-visayas-trip/",
+          "grade": "C",
+          "says": "2026독립본문은공식박물관시간과표를인용하면서사전협의·인원제한·재확인을강조한다."
+        }
+      ],
+      "decision": "공식끼리무료/25·수금방식이충돌하므로무료나25고정가격/결제수단을단정하지않는다.박물관토요일요금제목을토요일일반개방으로해석하지않고평일오전오후·주말특별협의로쓴다.과거2026년8월26일무료행사는종료된일회성으로연중무료정책에확대하지않았다.원고표는개인예산이지요금표아니다."
+    },
+    {
+      "where": "highlights, stay_and_food, tips, cautions",
+      "fact": "예배·생활 공간과 신분 확인",
+      "value": "활동중인 사립 교육시설",
+      "sources": [
+        {
+          "url": "https://su.edu.ph/church/",
+          "grade": "A",
+          "says": "직접본문은대학구성원과이웃을섬기는교회와Presbyterian기원·현재예배공동체역할을설명한다."
+        },
+        {
+          "url": "https://su.edu.ph/admissions/quick-student-guide/",
+          "grade": "A",
+          "says": "학교공식본문은NoIDNoEntry보안방침·기숙사·식당·치즈빵·교회·학술시설을구별한다."
+        },
+        {
+          "url": "https://www.philippinescompass.com/silliman-university-is-it-worth-visiting-on-a-visayas-trip/",
+          "grade": "C",
+          "says": "현행독립본문도신분증·수업과학생개인사진·내부사진허가를강조한다."
+        }
+      ],
+      "decision": "교회실내는허가시관람이며2015사진을현재입장보장으로쓰지않았다.기숙사를관광숙소로안내하지않으며카페테리아외부인이용·메뉴·가격·판매를당일확인으로남긴다.수목정확나이·수량·도심안전절대평가는제외했다."
+    },
+    {
+      "where": "cautions, images",
+      "fact": "현행 공사와 사진 시점",
+      "value": "Alumni Hall은 별도 재건",
+      "sources": [
+        {
+          "url": "https://su.edu.ph/news/rebuilding-without-forgetting-a-new-chapter-for-alumni-hall/",
+          "grade": "A",
+          "says": "2026년9월3일공식전체본문은AlumniHall구조열화·2024평가·2026년8월27일재건타임캡슐행사·기존형태일부계승계획을설명한다."
+        },
+        {
+          "url": "https://su.edu.ph/about/campus-map/",
+          "grade": "A",
+          "says": "공식학교지도는77AlumniHall과86SillimanHall·96HibbardHall을다른건물로표시한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Silliman_Hall_2025.jpg",
+          "grade": "C",
+          "says": "2025원본을열어붉은지붕흰목조Hall형태가선정2017/2019사진과일치함을비교했다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Hibbard_Hall_at_Silliman_University,_Dumaguete_City_01.jpg",
+          "grade": "C",
+          "says": "2026원본을열어Hibbard기본외관이선정2015사진과일치함을확인했다."
+        }
+      ],
+      "decision": "재건대상AlumniHall을SillimanHall로혼동하지않았다.선정사진에동문회관을넣지않고공사구역상시출입을보장하지않는다.2009문기둥은날짜있는도로장면으로만사용하고현출입문기능을약속하지않는다.교회2025외관과2015실내형태도구별했다."
+    },
+    {
+      "where": "budget, costs",
+      "fact": "개인 예산 합계",
+      "value": "PHP750~1600",
+      "sources": [],
+      "decision": "견학박물관배분150~300+시내왕복200~500+식사250~500+물음료예비150~300=750~1600.현행공식요금표/견적아닌개인계획이다.공항·숙박·다른섬·추가시설은별도다."
+    }
+  ],
+  "images": [
+    {
+      "file": "338-silliman-university.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:ALLAN_JAY_QUESADA_-_SILIMAN_01_DSC_3997.jpg",
+      "credit": "Allan Jay Quesada / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2017-02-08",
+      "author_date_group": "Allan Jay Quesada|2017-02-08",
+      "check": "SillimanHall2017풀전경.2025후보로기본구조·형태동일확인.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.webp",
+        "result": "후보원본18장과선정최종WebP10장을각각직접열어장소·장면·글자·방향·비율을비교했다.수치리사이즈/포맷변환만,내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "silliman-hall",
+        "index": 19,
+        "title": "File:ALLAN JAY QUESADA - SILIMAN 01 DSC 3997.jpg",
+        "artist": "Allan Jay Quesada",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 8 February 2017, 09:00:41 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:ALLAN_JAY_QUESADA_-_SILIMAN_01_DSC_3997.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/ALLAN_JAY_QUESADA_-_SILIMAN_01_DSC_3997.jpg/1280px-ALLAN_JAY_QUESADA_-_SILIMAN_01_DSC_3997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4701,
+        "height": 3134,
+        "description": "This is a photo of a cultural heritage property in the Philippines with ID",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.jpg",
+        "sha256": "13eb9ae7e02d799d2a4760963133961e511b1e07df7f6a1beaceb9897ae22d94",
+        "categories": "Silliman Hall|Self-published work|Cultural heritage monuments in the Philippines with known IDs|Uploaded via Campaign:wlm-ph|Philippines photographs taken on 2017-02-08|Buildings in the Philippines photographed in 2017|Images from Wiki Loves Monuments 2020|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Images from Wiki Loves Monuments 2020 in the Philippines|Cultural heritage monuments in the Philippines missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC depicts",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university.webp",
+        "id": 338,
+        "slug": "silliman-university",
+        "number": 1,
+        "canonical_date": "2017-02-08"
+      }
+    },
+    {
+      "file": "338-silliman-university-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Silliman_University_Anthropology_Museum_Display_01.jpg",
+      "credit": "QueenCityCebu / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-06-24",
+      "author_date_group": "QueenCityCebu|2026-06-24",
+      "check": "2026Hibbard박물관실제나무그릇·도구와라벨.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.webp",
+        "result": "후보원본18장과선정최종WebP10장을각각직접열어장소·장면·글자·방향·비율을비교했다.수치리사이즈/포맷변환만,내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "hibbard-hall",
+        "index": 8,
+        "title": "File:Silliman University Anthropology Museum Display 01.jpg",
+        "artist": "QueenCityCebu",
+        "license": "CC BY-SA 4.0",
+        "date": "2026-06-24 16:27:30",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Silliman_University_Anthropology_Museum_Display_01.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Silliman_University_Anthropology_Museum_Display_01.jpg/1280px-Silliman_University_Anthropology_Museum_Display_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4624,
+        "height": 3472,
+        "description": "Located in Hibbard Hall in Dumaguete City, the Silliman University Anthropology Museum display preserves the rich cultural heritage of the Visayas and Negros regions. This ethnographic exhibit showcases traditional, hand-carved household utensils—such as the ungot (coconut shell drinking bowl) and duyas (wooden plates)—highlighting an era before modern plastics.\nBy feature-focusing on these everyday tools crafted from natural materials, the display provides a profound look into early Filipino indigenous lifestyles, tribal structures, and enduring ancestral craftsmanship.",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.jpg",
+        "sha256": "af363e96f6fcce1efc9eee5817e618002142544f7ce643e90356e8e05e2e5fad",
+        "categories": "Self-published work|Files with coordinates missing SDC location of creation|WikiClub Cebu|Philippine Knowledge Continuity Project|Dumaguete Knowledge Continuity Project",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-2.webp",
+        "id": 338,
+        "slug": "silliman-university",
+        "number": 2,
+        "canonical_date": "2026-06-24"
+      }
+    },
+    {
+      "file": "338-silliman-university-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Silliman_University_Hibbard_Hall.jpg",
+      "credit": "Franz Miko Verzon / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2015-04-04",
+      "author_date_group": "Franz Miko Verzon|2015-04-04",
+      "check": "2015HibbardHall정면.2026근접후보와형태대조.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.webp",
+        "result": "후보원본18장과선정최종WebP10장을각각직접열어장소·장면·글자·방향·비율을비교했다.수치리사이즈/포맷변환만,내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "hibbard-hall",
+        "index": 2,
+        "title": "File:Silliman University Hibbard Hall.jpg",
+        "artist": "Franz Miko Verzon",
+        "license": "CC BY-SA 4.0",
+        "date": "2015-04-04",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Silliman_University_Hibbard_Hall.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Silliman_University_Hibbard_Hall.jpg/1280px-Silliman_University_Hibbard_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4216,
+        "height": 2372,
+        "description": "Front neoclassical facade of the Hibbard Hall",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.jpg",
+        "sha256": "22da8989bcaa60826d2a29c6ca23b252624069b0cd6bcdc1c54cccdfef5f56cc",
+        "categories": "Self-published work|Philippine Cultural Heritage Mapping Project content|Hibbard Hall (Dumaguete)",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-3.webp",
+        "id": 338,
+        "slug": "silliman-university",
+        "number": 3,
+        "canonical_date": "2015-04-04"
+      }
+    },
+    {
+      "file": "338-silliman-university-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SU_Church_4-23-2025.jpg",
+      "credit": "Aclarado / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2025-04-23",
+      "author_date_group": "Aclarado|2025-04-23",
+      "check": "2025교회뾰족아치창·지붕십자가의외관.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.webp",
+        "result": "후보원본18장과선정최종WebP10장을각각직접열어장소·장면·글자·방향·비율을비교했다.수치리사이즈/포맷변환만,내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "silliman",
+        "index": 26,
+        "title": "File:SU Church 4-23-2025.jpg",
+        "artist": "Aclarado",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 23 April 2025, 07:56:41 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SU_Church_4-23-2025.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/SU_Church_4-23-2025.jpg/1280px-SU_Church_4-23-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3608,
+        "height": 4032,
+        "description": "Silliman University Church, Dumaguete City, Negros Oriental, Philippines.",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.jpg",
+        "sha256": "3564bd999bcd10a686b99b094db79b1c3896685401e15a3f11c37f3b52cb9eb7",
+        "categories": "Self-published work|Church facades in the Philippines|Churches in the Philippines photographed in 2025|Files with coordinates missing SDC location of creation|Philippines photographs taken on 2025-04-23|Silliman University Church|Taken with Vivo Y22s",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-4.webp",
+        "id": 338,
+        "slug": "silliman-university",
+        "number": 4,
+        "canonical_date": "2025-04-23"
+      }
+    },
+    {
+      "file": "338-silliman-university-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Inside_of_the_Foundation_of_God.jpg",
+      "credit": "FroyAgta / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2015-02-26",
+      "author_date_group": "FroyAgta|2015-02-26",
+      "check": "2015교회후면내부좌석·목조갤러리·유리창.입장보장아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.webp",
+        "result": "후보원본18장과선정최종WebP10장을각각직접열어장소·장면·글자·방향·비율을비교했다.수치리사이즈/포맷변환만,내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "silliman-church",
+        "index": 24,
+        "title": "File:Inside of the Foundation of God.jpg",
+        "artist": "FroyAgta",
+        "license": "CC BY-SA 4.0",
+        "date": "2015-02-26 09:12:50",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Inside_of_the_Foundation_of_God.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Inside_of_the_Foundation_of_God.jpg/1280px-Inside_of_the_Foundation_of_God.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4608,
+        "height": 3456,
+        "description": "",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.jpg",
+        "sha256": "bfbad2a1629267c0f545bea331f3f096caf62bc73eab90cebe8b654d827a4bdf",
+        "categories": "Media lacking a description|Self-published work|Uploaded via Campaign:wlm-ph|Silliman University Church",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-5.webp",
+        "id": 338,
+        "slug": "silliman-university",
+        "number": 5,
+        "canonical_date": "2015-02-26"
+      }
+    },
+    {
+      "file": "338-silliman-university-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Silliman_Hall_from_across_Silliman_Avenue_-_1.jpg",
+      "credit": "Eugene Alvin Villar (seav) / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2019-08-05",
+      "author_date_group": "Eugene Alvin Villar (seav)|2019-08-05",
+      "check": "2019거리건너Hall과문기둥.현행문개방보장아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.webp",
+        "result": "후보원본18장과선정최종WebP10장을각각직접열어장소·장면·글자·방향·비율을비교했다.수치리사이즈/포맷변환만,내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "silliman-hall",
+        "index": 17,
+        "title": "File:Silliman Hall from across Silliman Avenue - 1.jpg",
+        "artist": "Eugene Alvin Villar (seav)",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 5 August 2019, 16:45:27 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Silliman_Hall_from_across_Silliman_Avenue_-_1.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Silliman_Hall_from_across_Silliman_Avenue_-_1.jpg/1280px-Silliman_Hall_from_across_Silliman_Avenue_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4608,
+        "height": 3456,
+        "description": "Silliman Hall from across the intersection of Silliman and Rizal Avenues.",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.jpg",
+        "sha256": "e0e95b6902c4d62a5c19d950e669b3324362fe81abd61938026dc05a8a40359c",
+        "categories": "Silliman Hall|Self-published work|Buildings in the Philippines photographed in 2019|Philippines photographs taken on 2019-08-05|Encyclopedia of Philippine Heritage content|Photos by Eugene Alvin Villar",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-6.webp",
+        "id": 338,
+        "slug": "silliman-university",
+        "number": 6,
+        "canonical_date": "2019-08-05"
+      }
+    },
+    {
+      "file": "338-silliman-university-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Silliman_University_campus_flagpole_(Hibbard_Avenue,_Dumaguete,_Negros_Oriental;_01-19-2023).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2023-01-19",
+      "author_date_group": "Patrickroque01|2023-01-19",
+      "check": "2023국기기둥·수목·잔디·캠퍼스생활공간.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.webp",
+        "result": "후보원본18장과선정최종WebP10장을각각직접열어장소·장면·글자·방향·비율을비교했다.수치리사이즈/포맷변환만,내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "silliman",
+        "index": 21,
+        "title": "File:Silliman University campus flagpole (Hibbard Avenue, Dumaguete, Negros Oriental; 01-19-2023).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "date": "2023-01-19",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Silliman_University_campus_flagpole_(Hibbard_Avenue,_Dumaguete,_Negros_Oriental;_01-19-2023).jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Silliman_University_campus_flagpole_%28Hibbard_Avenue%2C_Dumaguete%2C_Negros_Oriental%3B_01-19-2023%29.jpg/1280px-Silliman_University_campus_flagpole_%28Hibbard_Avenue%2C_Dumaguete%2C_Negros_Oriental%3B_01-19-2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552,
+        "height": 2664,
+        "description": "Siliman Univerity campus, Hibbard Avenue, Dumaguete City, Negros Oriental",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.jpg",
+        "sha256": "0adfd0757d569a00307d5f76bea4fcf399b36a01ec8543b99a463016c0766cb4",
+        "categories": "GFDL|Silliman University|License migration not eligible|Self-published work|Photographs by Patrick Roque|Photographs of flags of the Philippines in Negros Oriental",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-7.webp",
+        "id": 338,
+        "slug": "silliman-university",
+        "number": 7,
+        "canonical_date": "2023-01-19"
+      }
+    },
+    {
+      "file": "338-silliman-university-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bust_of_Horace_Silliman_-_NHCP_-_2.jpg",
+      "credit": "National Historical Commission of the Philippines / Public domain / Wikimedia Commons",
+      "date": "2022-09-23",
+      "author_date_group": "National Historical Commission of the Philippines|2022-09-23",
+      "check": "2022Silliman기부자흉상·Hall배경.이름라벨직접확인.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.webp",
+        "result": "후보원본18장과선정최종WebP10장을각각직접열어장소·장면·글자·방향·비율을비교했다.수치리사이즈/포맷변환만,내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "silliman-hall",
+        "index": 25,
+        "title": "File:Bust of Horace Silliman - NHCP - 2.jpg",
+        "artist": "National Historical Commission of the Philippines",
+        "license": "Public domain",
+        "date": "Taken on 23 September 2022",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Horace_Silliman_-_NHCP_-_2.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Bust_of_Horace_Silliman_-_NHCP_-_2.jpg/1280px-Bust_of_Horace_Silliman_-_NHCP_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2048,
+        "height": 1365,
+        "description": "Bust of Horace Silliman, namesake and patron of w:Silliman University, found outside and to the east of Silliman Hall seen in the background. Below the bust and mounted on the plinth is a name plate stating \"Horace B. Silliman 1825–1910\".",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.jpg",
+        "sha256": "198f8766462fd319f734958c6eb52422e232c21dfcd974452a04fd8d7ffa674b",
+        "categories": "PD-PhilippinesGov|Silliman Hall|Philippines photographs taken on 2022-09-23|Photos from the National Historical Commission of the Philippines|Bust of Horace Silliman",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-8.webp",
+        "id": 338,
+        "slug": "silliman-university",
+        "number": 8,
+        "canonical_date": "2022-09-23"
+      }
+    },
+    {
+      "file": "338-silliman-university-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_the_Silliman_University_(1966)_Historical_Marker.jpg",
+      "credit": "Carlo Joseph Moskito / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2023-10-10",
+      "author_date_group": "Carlo Joseph Moskito|2023-10-10",
+      "check": "2023찍은1966역사표지와실제외벽.2022선언판과구별.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.webp",
+        "result": "후보원본18장과선정최종WebP10장을각각직접열어장소·장면·글자·방향·비율을비교했다.수치리사이즈/포맷변환만,내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "silliman-hall",
+        "index": 28,
+        "title": "File:View of the Silliman University (1966) Historical Marker.jpg",
+        "artist": "Carlo Joseph Moskito",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 10 October 2023, 11:09:37 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:View_of_the_Silliman_University_(1966)_Historical_Marker.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/View_of_the_Silliman_University_%281966%29_Historical_Marker.jpg/1280px-View_of_the_Silliman_University_%281966%29_Historical_Marker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4032,
+        "height": 3024,
+        "description": "View of the Silliman University (1966) Historical Marker",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.jpg",
+        "sha256": "87a14c1059ee650856e74ebe3516e322cf88f79e4a0400b05a2d101bcb980b95",
+        "categories": "Silliman Hall|Self-published work|Taken on missing SDC inception|Philippines photographs taken on 2023-10-10|Buildings in the Philippines photographed in 2023|Files with coordinates missing SDC location of creation|Encyclopedia of Philippine Heritage content|Silliman University historical marker (1966)|Images by Carlojoseph14",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-9.webp",
+        "id": 338,
+        "slug": "silliman-university",
+        "number": 9,
+        "canonical_date": "2023-10-10"
+      }
+    },
+    {
+      "file": "338-silliman-university-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Silliman_University_Entrance.JPG",
+      "credit": "Mjuadiong / CC BY-SA 3.0 / Wikimedia Commons",
+      "date": "2009-08-25",
+      "author_date_group": "Mjuadiong|2009-08-25",
+      "check": "2009문기둥·도로.현재차량진입기능보장아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.webp",
+        "result": "후보원본18장과선정최종WebP10장을각각직접열어장소·장면·글자·방향·비율을비교했다.수치리사이즈/포맷변환만,내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "silliman",
+        "index": 7,
+        "title": "File:Silliman University Entrance.JPG",
+        "artist": "Mjuadiong",
+        "license": "CC BY-SA 3.0",
+        "date": "2009-08-25 08:52:12",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Silliman_University_Entrance.JPG",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Silliman_University_Entrance.JPG/1280px-Silliman_University_Entrance.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4000,
+        "height": 2248,
+        "description": "This is a photo of a cultural heritage property in the Philippines with ID",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.jpg",
+        "sha256": "438be1202eae9986b5c9839802d9600afee36e9fd1a3b98040e7485b97cac635",
+        "categories": "Taken with GE G3WP|Silliman University|Self-published work|Images from Wiki Loves Monuments 2012|Cultural heritage monuments in the Philippines with known IDs|Images from Wiki Loves Monuments 2012 in the Philippines|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC depicts",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets338/338-silliman-university-10.webp",
+        "id": 338,
+        "slug": "silliman-university",
+        "number": 10,
+        "canonical_date": "2009-08-25"
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_authors": 10,
+    "unique_author_date_groups": 10,
+    "independent_travel_groups": 10,
+    "groups_note": "선정10장은모두다른작가다.Franz2015Gate/Hibbard·Carlo2023두표지·Aclarado2025Hall/교회는각각한여행으로묶어한장만썼다.QueenCityCebu2026년6월23~24·IndayLiburan·PAULIX04는같은행사동행가능성을한그룹으로묶고박물관1장만선정했다.",
+    "conversion": "CodexCLI1회·설치cwebp수치변환1080pxWebP품질80.내용편집·생성모델·추가CLI없음.",
+    "prompt": "work/parallel-1992/visayas/338-silliman-university-prompt.txt",
+    "report": "work/parallel-1992/visayas/338-conversion-report.json"
+  },
+  "archives": {
+    "philgo": [
+      "_i18n/work/expansion-1973/posts/1275713022.json",
+      "_i18n/work/expansion-1973/posts/1275713076.json"
+    ],
+    "research_directory": "_i18n/work/parallel-1992/visayas/research338",
+    "candidate_audit": "work/parallel-1992/visayas/338-candidate-audit.json",
+    "deferred_candidates": "work/parallel-1992/visayas/338-deferred-candidates.json"
+  }
+}
