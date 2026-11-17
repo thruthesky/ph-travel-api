@@ -1,0 +1,468 @@
+{
+  "id": 327,
+  "slug": "tagbilaran",
+  "checked_at": "2026-11-17T05:29:37Z",
+  "facts": [
+    {
+      "where": "overview, highlights",
+      "fact": "도시 범위와 기존 항목 중복 대조",
+      "value": "타그빌라란 도심 문화·생활·쇼핑. 팡라오·바클라욘·초콜릿힐스 기존 항목과 범위 구분",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tagbilaran",
+          "grade": "B",
+          "says": "보홀 주도·항구, 도심의 박물관·성당·항구"
+        },
+        {
+          "url": "https://tourism.bohol.gov.ph/visitbohol-tagbilaran/",
+          "grade": "A",
+          "says": "성당·박물관·산두고를 시 관광 자원으로 안내"
+        }
+      ],
+      "decision": "duplicate.mjs 일치0건, data/ko 본문 언급은 교통 노선뿐. 필고 1275712837의 오류가 있는 몰·가격·옛 공항 표현은 그대로 수입하지 않음"
+    },
+    {
+      "where": "latitude, longitude",
+      "fact": "대표 지도 좌표",
+      "value": [
+        9.6393,
+        123.8557
+      ],
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/242261502",
+          "grade": "B",
+          "says": "Saint Joseph the Worker Cathedral, 중심9.6392788 123.8557499. Nominatim 응답 보존"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Tagbilaran_Cathedral",
+          "grade": "B",
+          "says": "같은 대성당9.6392 123.85571"
+        }
+      ],
+      "decision": "시 전체의 행정 중심 대신 도심 산책 기준인 대성당 핀이라고 본문에서 명시. 약10m 차이"
+    },
+    {
+      "where": "overview, highlights",
+      "fact": "옛 주청사의 국립박물관 복원·개관과 전시 주제",
+      "value": "2013년 지진 피해 후 복구, 2018년 개관. 자연사·조각·유산 복원 전시",
+      "sources": [
+        {
+          "url": "https://www.nationalmuseum.gov.ph/our-museums/regional-area-and-site-museums/bohol/",
+          "grade": "A",
+          "says": "2013 지진 피해, 2018-07-22 개관. Pagpauli·Pagbanhaw·Natural History 전시"
+        },
+        {
+          "url": "https://ppdo.bohol.gov.ph/ppdofiles/Profile/SocioEconomicProfile/EconomicDevelopment/TourismProfile2025.pdf",
+          "grade": "A",
+          "date": "2025",
+          "says": "PDF167쪽 옛 주청사·2018년 개관 및 전시 소개"
+        }
+      ],
+      "decision": "현재 전시실 전체를 고정 목록으로 보장하지 않고 관심 주제를 고르는 관람 안내로 가공"
+    },
+    {
+      "where": "costs, tips",
+      "fact": "박물관 입장료·관람시간",
+      "value": "무료, 09:00~18:00. 임시 휴관 확인",
+      "sources": [
+        {
+          "url": "https://reservation.nationalmuseum.gov.ph/reservation/book/region-museum",
+          "grade": "A",
+          "says": "Bohol 지점 Mon–Sun09:00–18:00"
+        },
+        {
+          "url": "https://www.waze.com/live-map/directions/ph/central-visayas/tagbilaran-city/national-museum-of-the-philippines-bohol?to=place.ChIJF-YN6rBNqjMRUJ7NFzwG0bw",
+          "grade": "B",
+          "says": "같은 주소 매일09:00–18:00"
+        },
+        {
+          "url": "https://www.nationalmuseum.gov.ph/about-us/laws-and-issuances/",
+          "grade": "A",
+          "says": "RA11333 무료입장 원칙"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_the_Philippines_-_Bohol.jpg",
+          "grade": "A",
+          "date": "2026-03-19",
+          "says": "NMP 자체 공개2026-03-19 외관사진 입구 FREE ADMISSION 표지"
+        }
+      ],
+      "decision": "옛2017운영 매뉴얼의5~10페소 유료표·주말휴관은 폐기. 휴관 예외는 재확인 안내"
+    },
+    {
+      "where": "highlights, stay_and_food",
+      "fact": "가르시아 가옥 지정과 소장품 이전",
+      "value": "2009년 유산가옥 지정. 국립박물관 유품전시2024개막, 가옥 외관 관람을 기본",
+      "sources": [
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/carlos-p-garcia-house/",
+          "grade": "A",
+          "says": "2009-09-04 Heritage House 지정 표석"
+        },
+        {
+          "url": "https://ppdo.bohol.gov.ph/ppdofiles/Profile/SocioEconomicProfile/EconomicDevelopment/TourismProfile2025.pdf",
+          "grade": "A",
+          "says": "PDF159쪽 가옥 소장품은 현재 국립박물관에 전시"
+        },
+        {
+          "url": "https://pia.gov.ph/news/nmp-bohol-opens-paghandum-exhibition-on-pres-cpgs-128th-birth-anniversary/",
+          "grade": "A",
+          "date": "2024-11-04",
+          "says": "가옥과 케손시티 소장품으로 Paghandum 개막"
+        }
+      ],
+      "decision": "가옥 실내·카페 영업·옛 유물 전시를 현재 제공으로 단정하지 않음"
+    },
+    {
+      "where": "getting_there, airport",
+      "fact": "마닐라 직항과 실제 여객공항",
+      "value": "MNL–TAG 직항 약1시간30분, 도착지는 팡라오섬",
+      "sources": [
+        {
+          "url": "https://flights.philippineairlines.com/en-ph/flights-from-manila-to-tagbilaran-city",
+          "grade": "A",
+          "says": "현재 MNL–TAG 직접 판매"
+        },
+        {
+          "url": "https://aviability.com/en/route/mnl-manila-ninoy-aquino/tag-tagbilaran/available-flights",
+          "grade": "B",
+          "says": "2026-10-21 직항1h25–1h45"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bohol%E2%80%93Panglao_International_Airport",
+          "grade": "B",
+          "says": "TAG는 팡라오섬의 현재 공항"
+        },
+        {
+          "url": "https://caap.gov.ph/wp-content/uploads/2025/06/Status-of-Certification-as-of-June-16-2025.pdf",
+          "grade": "A",
+          "date": "2025-06-16",
+          "says": "Bohol–Panglao International Airport/RPSP 운영 인증"
+        }
+      ],
+      "decision": "날짜별 항공 운임은 본문 수록하지 않음. TAG와옛도심공항 혼동 바로잡음"
+    },
+    {
+      "where": "getting_there",
+      "fact": "세부–타그빌라란 고속선",
+      "value": "OceanJet, 세부Pier1–타그빌라란 약2시간",
+      "sources": [
+        {
+          "url": "https://www.oceanjet.net/",
+          "grade": "A",
+          "says": "공식 현재 인기 노선Cebu–Tagbilaran"
+        },
+        {
+          "url": "https://ppdo.bohol.gov.ph/ppdofiles/Profile/SocioEconomicProfile/EconomicDevelopment/TourismProfile2025.pdf",
+          "grade": "A",
+          "date": "2025",
+          "says": "Port Management Office의OceanJet시각표 대부분2시간"
+        },
+        {
+          "url": "https://cebu.travel/guides/cebu-to-bohol-ferry",
+          "grade": "C",
+          "says": "2026-10검토 세부Pier1–타그빌라란2시간"
+        }
+      ],
+      "decision": "공식+주정부로 노선·시간 확인. 서로다른최종요금표가있어운임은고정기재하지않음"
+    },
+    {
+      "where": "highlights, best_time",
+      "fact": "산두고와 아일랜드시티몰 박람회",
+      "value": "2026거리춤7/26, ICM OTOP7/14~19. 상설아님",
+      "sources": [
+        {
+          "url": "https://pia.gov.ph/news/salt-caves-and-carabao-how-bohol-towns-put-local-heritage-on-the-street/",
+          "grade": "A",
+          "date": "2026-09-07",
+          "says": "Tagbilaran7/26/2026거리춤 개최"
+        },
+        {
+          "url": "https://sandugo.bohol.gov.ph/events/kasumaran/event-30",
+          "grade": "A",
+          "says": "2026-07-26 CPG Avenue–SportsComplex. 검색결과읽음;본문도구timeout"
+        },
+        {
+          "url": "https://pia.gov.ph/news/dti-trade-expo-gives-bohol-out-of-region-msmes-a-direct-market-in-tagbilaran/",
+          "grade": "A",
+          "date": "2026-08-12",
+          "says": "ICM ActivityCenter OTOP7/14~19/2026, 타지역업체도참여"
+        }
+      ],
+      "decision": "사진 없는 축제 자체를 신규항목으로 등록하지 않고 도시의 계절 선택정보로만 사용"
+    },
+    {
+      "where": "costs, itinerary, stay_and_food",
+      "fact": "일정과 지출계획의 성격",
+      "value": "하루1500~3000PHP, 장거리교통·기념품별도",
+      "sources": [],
+      "decision": "무료입장외비용은확인된판매가가아니라본문에명시한편집자개인지출배분. 합계최소450+150+200+500+200=1500,최대700+300+400+1000+600=3000. 일정시각도운영표가아닌예시. 실내접근불확정가옥외관기본"
+    },
+    {
+      "where": "best_time",
+      "fact": "야외 산책 시기",
+      "value": "1~5월 우선검토, 소나기와 더위고려",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tagbilaran#Climate",
+          "grade": "B",
+          "says": "PAGASA1981–2010평년강수량1~5월이연중비교적적음"
+        }
+      ],
+      "decision": "여행추천범위이며무강우·계절보장아님. 원출처PAGASA추적은이후별도기록"
+    }
+  ],
+  "images": [
+    {
+      "file": "327-tagbilaran.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tagbilaran_City_from_air_(Bohol;_04-22-2024).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-04-22",
+      "check": "도시와해협을한눈에보이는항공사진. Tagbilaran과Panglao양쪽이보이며Tagbilaran해안도시대표로선정; 원본과CodexCLI변환결과를모두직접열어눈검수함",
+      "source_metadata": {
+        "id": 327,
+        "slug": "tagbilaran",
+        "number": 1,
+        "title": "File:Tagbilaran City from air (Bohol; 04-22-2024).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tagbilaran_City_from_air_(Bohol;_04-22-2024).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Tagbilaran_City_from_air_%28Bohol%3B_04-22-2024%29.jpg/1280px-Tagbilaran_City_from_air_%28Bohol%3B_04-22-2024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552,
+        "height": 2664,
+        "sha256": "9c466219d1764296007e49bc7baf8767e457612b9b192f91d2382e0f1cd49da0",
+        "date": "2024-04-22",
+        "description": "Tagbilaran City, Bohol from air",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|Views of Tagbilaran"
+      }
+    },
+    {
+      "file": "327-tagbilaran-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_Tagbilaran_from_Dauis.jpg",
+      "credit": "Howdy.carabao / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-04-16 17:22:50",
+      "check": "Dauis에서찍었으나Tagbilaran해안을보는전경임을Commons설명으로확인; 원본과CodexCLI변환결과를모두직접열어눈검수함",
+      "source_metadata": {
+        "id": 327,
+        "slug": "tagbilaran",
+        "number": 2,
+        "title": "File:View of Tagbilaran from Dauis.jpg",
+        "artist": "Howdy.carabao",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:View_of_Tagbilaran_from_Dauis.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-2.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-2.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/View_of_Tagbilaran_from_Dauis.jpg/1280px-View_of_Tagbilaran_from_Dauis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4080,
+        "height": 3060,
+        "sha256": "d490d36a1d6936f9610300c3073fe9cfd33db1914620898488ab996c1101ef82",
+        "date": "2026-04-16 17:22:50",
+        "description": "View of Poblacion II, Tagbilaran from Casa Filomena, Totolan, Dauis, Bohol.",
+        "categories": "Self-published work|Cityscapes of Tagbilaran"
+      }
+    },
+    {
+      "file": "327-tagbilaran-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tagbilaran_Plaza_Rizal,_Cathedral_(CPG_Avenue,_Tagbilaran,_Bohol;_01-09-2023).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "01-09-2023",
+      "check": "PlazaRizal정면성당과광장. 실내와다른구도; 원본과CodexCLI변환결과를모두직접열어눈검수함",
+      "source_metadata": {
+        "id": 327,
+        "slug": "tagbilaran",
+        "number": 3,
+        "title": "File:Tagbilaran Plaza Rizal, Cathedral (CPG Avenue, Tagbilaran, Bohol; 01-09-2023).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tagbilaran_Plaza_Rizal,_Cathedral_(CPG_Avenue,_Tagbilaran,_Bohol;_01-09-2023).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-3.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-3.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tagbilaran_Plaza_Rizal%2C_Cathedral_%28CPG_Avenue%2C_Tagbilaran%2C_Bohol%3B_01-09-2023%29.jpg/1280px-Tagbilaran_Plaza_Rizal%2C_Cathedral_%28CPG_Avenue%2C_Tagbilaran%2C_Bohol%3B_01-09-2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552,
+        "height": 2664,
+        "sha256": "ccc4380a84eef491b1e55403faa7f053a2f83f34d71072d9844855e40827e33f",
+        "date": "01-09-2023",
+        "description": "Tagbilaran Plaza Rizal with Cathedral, CPG Avenue, Tagbilaran City, Bohol",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|Plaza Rizal (Tagbilaran)"
+      }
+    },
+    {
+      "file": "327-tagbilaran-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tagbilaran_Cathedral_interior_-_nave_to_altar.jpg",
+      "credit": "National Museum of the Philippines / Public domain / Wikimedia Commons",
+      "date": "Taken on 30 May 2024",
+      "check": "2024NMP촬영천장화·중앙제단.2013지진전사진제외; 원본과CodexCLI변환결과를모두직접열어눈검수함",
+      "source_metadata": {
+        "id": 327,
+        "slug": "tagbilaran",
+        "number": 4,
+        "title": "File:Tagbilaran Cathedral interior - nave to altar.jpg",
+        "artist": "National Museum of the Philippines",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tagbilaran_Cathedral_interior_-_nave_to_altar.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-4.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-4.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tagbilaran_Cathedral_interior_-_nave_to_altar.jpg/1280px-Tagbilaran_Cathedral_interior_-_nave_to_altar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1536,
+        "height": 2048,
+        "sha256": "982afa6a41178e87407c23cdfc31430042b6d7240cf2d8c5a53e26d8074cb3e1",
+        "date": "Taken on 30 May 2024",
+        "description": "Interior of Tagbilaran Cathedral from the nave looking towards the altar",
+        "categories": "PD-PhilippinesGov|Taken on missing SDC inception|Churches in the Philippines photographed in 2024|Philippines photographs taken on 2024-05-30|Interior of Tagbilaran Cathedral|Photos from the National Museum of the Philippines"
+      }
+    },
+    {
+      "file": "327-tagbilaran-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:National_Museum_of_the_Philippines_-_Bohol.jpg",
+      "credit": "National Museum of the Philippines / CC BY 4.0 / Wikimedia Commons",
+      "date": "2026-03-19",
+      "check": "2026복원박물관외관.오래된붕괴모습사진제외; 원본과CodexCLI변환결과를모두직접열어눈검수함",
+      "source_metadata": {
+        "id": 327,
+        "slug": "tagbilaran",
+        "number": 5,
+        "title": "File:National Museum of the Philippines - Bohol.jpg",
+        "artist": "National Museum of the Philippines",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_the_Philippines_-_Bohol.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-5.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-5.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/National_Museum_of_the_Philippines_-_Bohol.jpg/1280px-National_Museum_of_the_Philippines_-_Bohol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2560,
+        "height": 1920,
+        "sha256": "add19f518b1e131d427973c259c6046b363ac60e8b7a8773d5294118fbccb4ce",
+        "date": "2026-03-19",
+        "description": "National Museum of The Philippines - Bohol",
+        "categories": "Old Bohol Provincial Capitol"
+      }
+    },
+    {
+      "file": "327-tagbilaran-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_National_Museum_of_the_Philippines_-_Bohol.jpg",
+      "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2025-08-11",
+      "check": "2025내부아트리움.정면과다른대상·작가; 원본과CodexCLI변환결과를모두직접열어눈검수함",
+      "source_metadata": {
+        "id": 327,
+        "slug": "tagbilaran",
+        "number": 6,
+        "title": "File:Interior of the National Museum of the Philippines - Bohol.jpg",
+        "artist": "A.C.T. Alejandre",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Interior_of_the_National_Museum_of_the_Philippines_-_Bohol.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-6.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-6.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Interior_of_the_National_Museum_of_the_Philippines_-_Bohol.jpg/1280px-Interior_of_the_National_Museum_of_the_Philippines_-_Bohol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4032,
+        "height": 3024,
+        "sha256": "394d9a2c97e4e3af8297cb89005c7976165794eef5ba2ba154ce59b9d9dfb75e",
+        "date": "2025-08-11",
+        "description": "Interior atrium of the National Museum of the Philippines - Bohol",
+        "categories": "Tagbilaran|Self-published work|Old Bohol Provincial Capitol"
+      }
+    },
+    {
+      "file": "327-tagbilaran-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Carlos_P._Garcia_House_(F._Rocha,_Tagbilaran,_Bohol;_01-12-2023).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "01-12-2023",
+      "check": "2023Garcia가옥외관.워터마크있는CasaRocha를제외하고교체; 원본과CodexCLI변환결과를모두직접열어눈검수함",
+      "source_metadata": {
+        "id": 327,
+        "slug": "tagbilaran",
+        "number": 7,
+        "title": "File:Carlos P. Garcia House (F. Rocha, Tagbilaran, Bohol; 01-12-2023).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Carlos_P._Garcia_House_(F._Rocha,_Tagbilaran,_Bohol;_01-12-2023).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-7.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-7.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Carlos_P._Garcia_House_%28F._Rocha%2C_Tagbilaran%2C_Bohol%3B_01-12-2023%29.jpg/1280px-Carlos_P._Garcia_House_%28F._Rocha%2C_Tagbilaran%2C_Bohol%3B_01-12-2023%29.jpg",
+        "width": 3552,
+        "height": 2664,
+        "sha256": "bed443457627d1b16d63701e4d1938d5a772590cb1d7eea8652396e7a02c2493",
+        "date": "01-12-2023",
+        "description": "Carlos P. Garcia House, F. Rocha, Tagbilaran, Bohol",
+        "categories": "GFDL|License migration not eligible|Carlos P. Garcia Heritage House|Self-published work|Photographs by Patrick Roque|PD-Philippines FoP work"
+      }
+    },
+    {
+      "file": "327-tagbilaran-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tagbilaran_Port_(Wharf_Road,_Tagbilaran,_Bohol;_01-13-2023).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2023-01-13",
+      "check": "2023여객항.방문교통본문과대조; 원본과CodexCLI변환결과를모두직접열어눈검수함",
+      "source_metadata": {
+        "id": 327,
+        "slug": "tagbilaran",
+        "number": 8,
+        "title": "File:Tagbilaran Port (Wharf Road, Tagbilaran, Bohol; 01-13-2023).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tagbilaran_Port_(Wharf_Road,_Tagbilaran,_Bohol;_01-13-2023).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-8.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-8.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tagbilaran_Port_%28Wharf_Road%2C_Tagbilaran%2C_Bohol%3B_01-13-2023%29.jpg/1280px-Tagbilaran_Port_%28Wharf_Road%2C_Tagbilaran%2C_Bohol%3B_01-13-2023%29.jpg",
+        "width": 3552,
+        "height": 2664,
+        "sha256": "5f5aec71c3d0518f3a02b3b8c7343644c26024f1b6c9b3b40b02e92df2c1e751",
+        "date": "2023-01-13",
+        "description": "Tagbilaran Port, Wharf Road, Tagbilaran, Bohol",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|Port of Tagbilaran"
+      }
+    },
+    {
+      "file": "327-tagbilaran-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Island_city_mall_tagbilaran.jpg",
+      "credit": "OxyLight / CC0 / Wikimedia Commons",
+      "date": "2026-06-25 13:37:46",
+      "check": "2026ICM내부통로.사진주제는상업공간구조이며배경매장간판은원래시설일부; 원본과CodexCLI변환결과를모두직접열어눈검수함",
+      "source_metadata": {
+        "id": 327,
+        "slug": "tagbilaran",
+        "number": 9,
+        "title": "File:Island city mall tagbilaran.jpg",
+        "artist": "OxyLight",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Island_city_mall_tagbilaran.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-9.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-9.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Island_city_mall_tagbilaran.jpg/1280px-Island_city_mall_tagbilaran.jpg",
+        "width": 4000,
+        "height": 3000,
+        "sha256": "ec63b4a4d19380964b993ee301339c461d9e112a2453d5c0e8c985d5ef9debcc",
+        "date": "2026-06-25 13:37:46",
+        "description": "Interior of Island City Mall, Tagbilaran. I do not own the logos in the background but I believe that their inclusion is considered too minimal to be considered actionable.",
+        "categories": "CC-Zero|Self-published work|Interiors of shopping malls in the Philippines|Files with coordinates missing SDC location of creation"
+      }
+    },
+    {
+      "file": "327-tagbilaran-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tagbilaran,_Sunset_in_Cebu_Strait,_Bohol_Island,_Philippines.jpg",
+      "credit": "Vyacheslav Argenberg / CC BY 4.0 / Wikimedia Commons",
+      "date": "Taken on 19 February 2009, 17:42:29",
+      "check": "2009Tagbilaran앞바다석양.건축현황을보장하는사진으로사용않고해안풍경보조; 원본과CodexCLI변환결과를모두직접열어눈검수함",
+      "source_metadata": {
+        "id": 327,
+        "slug": "tagbilaran",
+        "number": 10,
+        "title": "File:Tagbilaran, Sunset in Cebu Strait, Bohol Island, Philippines.jpg",
+        "artist": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tagbilaran,_Sunset_in_Cebu_Strait,_Bohol_Island,_Philippines.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-10.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/327-tagbilaran-10.webp",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Tagbilaran%2C_Sunset_in_Cebu_Strait%2C_Bohol_Island%2C_Philippines.jpg/1280px-Tagbilaran%2C_Sunset_in_Cebu_Strait%2C_Bohol_Island%2C_Philippines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4000,
+        "height": 2667,
+        "sha256": "f43180770983c116926a86c91fc4fa5b04740831cc24eacf5dd1c13392304f12",
+        "date": "Taken on 19 February 2009, 17:42:29",
+        "description": "Sunset in Cebu Strait. Tagbilaran, Bohol Island, Philippines.",
+        "categories": "Photos by Vyacheslav Argenberg|Bohol Sea|Bohol (island)|Self-published work|Philippines photographs taken on 2009-02-19|Images from Wiki Loves Earth 2022|Images from Wiki Loves Earth 2022 in the Philippines|Uploaded via Campaign:wle-ph|Images from Wiki Loves Earth missing SDC location of creation|Views of Tagbilaran|Sunsets of Tagbilaran|Cebu Strait|Photos by Vyacheslav Argenberg in 2009|Photos by Vyacheslav Argenberg in the Philippines|Images from Wiki Loves Earth 2022 in the Philippines - landscape"
+      }
+    }
+  ]
+}

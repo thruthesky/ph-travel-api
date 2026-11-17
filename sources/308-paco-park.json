@@ -1,0 +1,286 @@
+{
+  "id": 308,
+  "slug": "paco-park",
+  "checked_at": "2026-11-17T05:26:03.515554+00:00",
+  "facts": [
+    {
+      "where": "전체",
+      "fact": "원본대조·신규독립성",
+      "value": "원본CSV·TSV및276개대장에파코공원독립항목없음",
+      "sources": [
+        {
+          "url": "work/philgo-registration-audit.csv",
+          "grade": "C",
+          "says": "Paco Park·파코 공원문자열독립후보없음;핀토1273507170은별도후보"
+        }
+      ],
+      "decision": "원목록의마닐라·리잘공원여행범위를보완하는외부발굴신규명소. 필고의특정글에서확인한장소라고주장하지않음. duplicate.mjs name+좌표일치없음, data/ko본문단순문자열도독립설명없음. 해당결과는work/parallel-1992/luzon/308-catalog-supplement.json에보존."
+    },
+    {
+      "where": "location,latitude,longitude",
+      "fact": "위치·좌표",
+      "value": "마닐라파코지구14.5812/120.9889",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Paco_Park",
+          "grade": "B",
+          "says": "파코공원중앙좌표14.58122,120.98889·원형벽감과돔예배당·리살유해이장·1966국립공원"
+        },
+        {
+          "url": "https://npdc.gov.ph/venue-rentals/paco-park-garden/",
+          "grade": "A",
+          "says": "공원대관장소·개인촬영과특별행사촬영구분·대관요금·공식Google지도"
+        },
+        {
+          "url": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3861.3185613336595!2d120.98839399999999!3d14.580914999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c989cc049609%3A0x2f300e9d49ff67de!2sPaco%20Park!5e0!3m2!1sen!2sus!4v1747146413872!5m2!1sen!2sus",
+          "grade": "A",
+          "says": "NPDC대관페이지iframe src원문:명칭Paco Park,Google장소ID0x3397c989cc049609:0x2f300e9d49ff67de,14.580915/120.988394(서남입구).동일페이지스트리트뷰14.581347/120.988726(원형공원내부).위키중앙점14.58122/120.98889와각각약63m·23m거리로같은공원임을대조."
+        }
+      ],
+      "decision": "위키중앙점과공식대관Google지도14.580915/120.988394및스트리트뷰14.581347/120.988726이같은원형공원을가리킴. 대표좌표는위키중앙점반올림.지도핀을호텔·파코지구중심으로오인하지않음."
+    },
+    {
+      "where": "overview,highlights",
+      "fact": "역사·구조·추모대상",
+      "value": "옛공동묘지·원형벽감·예배당·1966국립공원·리살첫매장지",
+      "sources": [
+        {
+          "url": "https://npdc.gov.ph/paco-park/",
+          "grade": "A",
+          "says": "파코공원·옛묘지·예배당·리살·곰부르사·1966국립공원·공연의기원 안내"
+        },
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/jose-rizal-paco-cemetery/",
+          "grade": "A",
+          "says": "1957표지:1896-12-30매장·1898-08-17발굴·1912-12-30루네타안치"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Paco_Park",
+          "grade": "B",
+          "says": "파코공원중앙좌표14.58122,120.98889·원형벽감과돔예배당·리살유해이장·1966국립공원"
+        }
+      ],
+      "decision": "리살현재유해는루네타,파코는첫매장기념지로구별. 건설1807/1814/1820/1822가출처별서술충돌하여본문정확착공·완공연도생략. 1938NHCP묘지표지의1896–1912계속매장처럼읽히는문구는더구체적인1957표지와충돌해채택안함. 공원면적0.411ha/1ha충돌도생략. 곰부르사매장정확자리단정안함."
+    },
+    {
+      "where": "best_time",
+      "fact": "일반공원개방시간",
+      "value": "매일06:00–18:30공휴일포함",
+      "sources": [
+        {
+          "url": "https://npdc.gov.ph/contact-us/",
+          "grade": "A",
+          "says": "파코공원매일06:00–18:30공휴일포함,NPDC사무실08–17및리잘공원시간과구분"
+        },
+        {
+          "url": "https://whatsonmnl.com/blog/parks-in-metro-manila",
+          "grade": "B",
+          "says": "2026-11-08검증표기;파코공원06:00–18:30·NPDC입장료미게시",
+          "date": "2026-11-08"
+        }
+      ],
+      "decision": "일반공원시간만채택.공식대관06–18/18–06요금시간은행사시간이며공원개방과구분.예배당내부개방·행사입장·분수상시가동은보장하지않음."
+    },
+    {
+      "where": "highlights",
+      "fact": "문화행사현재성",
+      "value": "2026-08무료목관공연공지확인·매주금요일상시운영단정안함",
+      "sources": [
+        {
+          "url": "https://npdc.gov.ph/paco-park/",
+          "grade": "A",
+          "says": "파코공원·옛묘지·예배당·리살·곰부르사·1966국립공원·공연의기원 안내"
+        },
+        {
+          "url": "https://pia.gov.ph/news/free-harana-ng-hangin-concert-celebrates-filipino-musical-heritage-at-paco-park",
+          "grade": "A",
+          "says": "2026-08-12공지:08-14/18시무료Harana ng Hangin공연;1980이래문화행사",
+          "date": "2026-08-12"
+        },
+        {
+          "url": "https://pia.gov.ph/news/paco-park-presents-harana-ng-hangin-isang-gabi-ng-musikang-pilipino-para-sa-woodwind-quintet/",
+          "grade": "A",
+          "says": "2026-08-14파코공원목관공연공지",
+          "date": "2026-08"
+        }
+      ],
+      "decision": "지난행사로만서술하고그날방문객에일정권장하지않음.최신NPDC날짜공지확인안내.첫PIA본문open타임아웃이라검색색인본문과동일행사별도정부공지를대조."
+    },
+    {
+      "where": "getting_there",
+      "fact": "철도접근",
+      "value": "LRT1UnitedNations역·타프트서쪽기준공원은동쪽",
+      "sources": [
+        {
+          "url": "https://www.lrta.gov.ph/distance-between-stations/",
+          "grade": "A",
+          "says": "Line1PedroGil–UnitedNationsAvenue–CentralTerminal역간구간표"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/United_Nations_station_(LRT)",
+          "grade": "B",
+          "says": "UnitedNations역타프트위치,파코공원주변관광지"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Paco_Park",
+          "grade": "B",
+          "says": "파코공원중앙좌표14.58122,120.98889·원형벽감과돔예배당·리살유해이장·1966국립공원"
+        }
+      ],
+      "decision": "운행시간·배차·교통수단고정운임·도보분단위미확인으로생략.역에서지도와현장열린입구확인권장.공항직행철도노선주장안함."
+    },
+    {
+      "where": "tips,cautions",
+      "fact": "개인촬영·허가·금연음주드론",
+      "value": "캐주얼개인촬영과특별행사·상업촬영구분",
+      "sources": [
+        {
+          "url": "https://npdc.gov.ph/venue-rentals/paco-park-garden/",
+          "grade": "A",
+          "says": "공원대관장소·개인촬영과특별행사촬영구분·대관요금·공식Google지도"
+        },
+        {
+          "url": "https://npdc.gov.ph/wp-content/uploads/2026/04/New-NPDC-PP-F002.02-Application-Form-for-Big-Events-and-Use-of-Venue-for-Reception.pdf",
+          "grade": "A",
+          "says": "행사조건:금연·음주금지·지정주차·드론MPD별도협의",
+          "date": "2026-04"
+        },
+        {
+          "url": "https://sites.google.com/npdc.gov.ph/npdc-venue-rentals/terms-and-conditions",
+          "grade": "A",
+          "says": "NPDC와Manila시규정준수·허가전공간이용권없음"
+        }
+      ],
+      "decision": "허가신청대상행사와일반스냅촬영을구별.개인사진무조건허가필요또는자유드론허용이라고단정안함.규정과당일통제우선."
+    },
+    {
+      "where": "budget,costs,itinerary,stay_and_food",
+      "fact": "계획예산·편집일정",
+      "value": "600–1300PHP=식음300–600+교통200–500+예비100–200",
+      "sources": [
+        {
+          "url": "https://npdc.gov.ph/contact-us/",
+          "grade": "A",
+          "says": "파코공원매일06:00–18:30공휴일포함,NPDC사무실08–17및리잘공원시간과구분"
+        },
+        {
+          "url": "https://npdc.gov.ph/venue-rentals/paco-park-garden/",
+          "grade": "A",
+          "says": "공원대관장소·개인촬영과특별행사촬영구분·대관요금·공식Google지도"
+        }
+      ],
+      "decision": "표는판매가격아닌개인지출계획액.공식일반입장료확정안돼무료보장안함.일정은편집자제안,숙소·식당가격·운행시간은새로만들지않음.항공·숙박·공항이동·특별행사별도.계절권장은일반도심보행기준이며기상보장아님.4.6평점은기존저장소방식의편집값이며외부이용자평균아님."
+    }
+  ],
+  "images": [
+    {
+      "file": "308-paco-park.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Paco_Park.jpg",
+      "artist": "TheCoffee (Mike Gonzalez)",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "Taken on 22 August 2012 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+      "original_width": 3264,
+      "original_height": 2448,
+      "check": "2012년 파코 공원의 원형 정원과 중앙 분수 공간 — Commons작가·라이선스·설명과장소대조.원본및최종1080WebP직접눈검수.얼굴주제사진·예식내부흐린사진·묘비문자클로즈업·같은작가동일날연속사진은제외.2007–2026사진으로촬영연도alt명시,분수가동·현재통제보장근거로쓰지않음."
+    },
+    {
+      "file": "308-paco-park-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:PacoParkjf0813_03.JPG",
+      "artist": "Ramon FVelasquez",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2013-03-23 15:48:35",
+      "original_width": 4608,
+      "original_height": 3456,
+      "check": "2013년 파코 공원 외벽을 따라 조성된 식재 — Commons작가·라이선스·설명과장소대조.원본및최종1080WebP직접눈검수.얼굴주제사진·예식내부흐린사진·묘비문자클로즈업·같은작가동일날연속사진은제외.2007–2026사진으로촬영연도alt명시,분수가동·현재통제보장근거로쓰지않음."
+    },
+    {
+      "file": "308-paco-park-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sementeryo_ng_Paco.JPG",
+      "artist": "Dennisraymondm",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "Taken on 7 January 2007, 11:33:40 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+      "original_width": 3296,
+      "original_height": 2472,
+      "check": "2007년 분수가 작동하던 파코 공원과 성 판크라티우스 예배당 — Commons작가·라이선스·설명과장소대조.원본및최종1080WebP직접눈검수.얼굴주제사진·예식내부흐린사진·묘비문자클로즈업·같은작가동일날연속사진은제외.2007–2026사진으로촬영연도alt명시,분수가동·현재통제보장근거로쓰지않음."
+    },
+    {
+      "file": "308-paco-park-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Paco_Cemetery_Niches.JPG",
+      "artist": "Carlojoseph14",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2014-05-03 15:19:46",
+      "original_width": 3264,
+      "original_height": 2448,
+      "check": "2014년 옛 묘지 벽에 남은 여러 층의 벽감 — Commons작가·라이선스·설명과장소대조.원본및최종1080WebP직접눈검수.얼굴주제사진·예식내부흐린사진·묘비문자클로즈업·같은작가동일날연속사진은제외.2007–2026사진으로촬영연도alt명시,분수가동·현재통제보장근거로쓰지않음."
+    },
+    {
+      "file": "308-paco-park-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Paco_Park_-_wall_structures_1.jpg",
+      "artist": "Eugene Alvin Villar (seav)",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "Taken on 15 January 2011, 14:30:36 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+      "original_width": 2048,
+      "original_height": 1536,
+      "check": "2011년 파코 공원 석벽 사이의 좁은 돌계단 — Commons작가·라이선스·설명과장소대조.원본및최종1080WebP직접눈검수.얼굴주제사진·예식내부흐린사진·묘비문자클로즈업·같은작가동일날연속사진은제외.2007–2026사진으로촬영연도alt명시,분수가동·현재통제보장근거로쓰지않음."
+    },
+    {
+      "file": "308-paco-park-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Paco_Park_(Manila;_12-13-2020).jpg",
+      "artist": "patrickroque01",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2020-12-13",
+      "original_width": 3648,
+      "original_height": 2736,
+      "check": "2020년 안쪽 정원으로 이어지는 석조 아치 — Commons작가·라이선스·설명과장소대조.원본및최종1080WebP직접눈검수.얼굴주제사진·예식내부흐린사진·묘비문자클로즈업·같은작가동일날연속사진은제외.2007–2026사진으로촬영연도alt명시,분수가동·현재통제보장근거로쓰지않음."
+    },
+    {
+      "file": "308-paco-park-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Parque_Paco,_Manila,_Filipinas,_2023-08-26,_DD_47.jpg",
+      "artist": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2023-08-26 17:35:15",
+      "original_width": 8499,
+      "original_height": 5666,
+      "check": "2023년 중앙 보행로에서 바라본 예배당과 나무 — Commons작가·라이선스·설명과장소대조.원본및최종1080WebP직접눈검수.얼굴주제사진·예식내부흐린사진·묘비문자클로즈업·같은작가동일날연속사진은제외.2007–2026사진으로촬영연도alt명시,분수가동·현재통제보장근거로쓰지않음."
+    },
+    {
+      "file": "308-paco-park-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Paco_Park_top_view_(Manila;_12-23-2023).jpg",
+      "artist": "Patrickroque01",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2023-12-23",
+      "original_width": 3552,
+      "original_height": 2664,
+      "check": "2023년 주변 시가지 사이에 자리한 파코 공원의 항공 전경 — Commons작가·라이선스·설명과장소대조.원본및최종1080WebP직접눈검수.얼굴주제사진·예식내부흐린사진·묘비문자클로즈업·같은작가동일날연속사진은제외.2007–2026사진으로촬영연도alt명시,분수가동·현재통제보장근거로쓰지않음."
+    },
+    {
+      "file": "308-paco-park-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Paco_Park_Manila.jpg",
+      "artist": "Matthew Gan",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2021-10-27 17:06:26",
+      "original_width": 4032,
+      "original_height": 2268,
+      "check": "2021년 파코 공원의 바깥 출입문과 석벽 — Commons작가·라이선스·설명과장소대조.원본및최종1080WebP직접눈검수.얼굴주제사진·예식내부흐린사진·묘비문자클로즈업·같은작가동일날연속사진은제외.2007–2026사진으로촬영연도alt명시,분수가동·현재통제보장근거로쓰지않음."
+    },
+    {
+      "file": "308-paco-park-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Jose_Rizal%27s_first_burial_site.jpg",
+      "artist": "Aerous",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "10 January 2026 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+      "original_width": 3056,
+      "original_height": 4080,
+      "check": "2026년 리살의 첫 매장지를 기리는 십자가와 기념 표지 — Commons작가·라이선스·설명과장소대조.원본및최종1080WebP직접눈검수.얼굴주제사진·예식내부흐린사진·묘비문자클로즈업·같은작가동일날연속사진은제외.2007–2026사진으로촬영연도alt명시,분수가동·현재통제보장근거로쓰지않음."
+    }
+  ],
+  "image_processing": {
+    "prompt": "data/images/308-paco-park-prompt.txt",
+    "method": "Codex CLI에게만 cwebp가로1080·비율유지·WebPq80정량변환위임.내용생성·크롭·회전·보정없음.원본SHA불변·치수·디코딩검증통과.",
+    "report": "work/parallel-1992/luzon/308-paco-park-conversion-report.json"
+  },
+  "translation": {
+    "method": "한국어·영어직접집필,101줄export/check/import성공",
+    "fallback": "나머지6언어는부모에이전트통합선언대기,번역완료로세지않음"
+  }
+}

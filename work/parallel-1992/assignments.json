@@ -1,0 +1,76 @@
+{
+  "started_at": "2026-11-17T05:17:26Z",
+  "request": "상세 기준 유지하며 여러 에이전트로 남은 여행정보 병렬 추가",
+  "starting_total": 276,
+  "original_baseline": 268,
+  "target_total": 2268,
+  "remaining_at_start": 1992,
+  "complete": false,
+  "accepted_new_ids": [
+    308,
+    327,
+    347,
+    367
+  ],
+  "assignments": [
+    {
+      "agent": "luzon_batch",
+      "scope": "루손",
+      "ids": [
+        307,
+        326
+      ],
+      "state": "조사·집필 중"
+    },
+    {
+      "agent": "visayas_batch",
+      "scope": "비사야",
+      "ids": [
+        327,
+        346
+      ],
+      "state": "조사·집필 중"
+    },
+    {
+      "agent": "mindanao_batch",
+      "scope": "민다나오·팔라완",
+      "ids": [
+        347,
+        366
+      ],
+      "state": "조사·집필 중"
+    },
+    {
+      "agent": "root",
+      "scope": "통합검증·중복대조·보충조사",
+      "ids": [
+        367,
+        386
+      ],
+      "state": "진행 중"
+    }
+  ],
+  "policy": {
+    "source_languages": [
+      "ko",
+      "en"
+    ],
+    "fallback_languages": [
+      "zh",
+      "ja",
+      "th",
+      "vi",
+      "ru",
+      "ar"
+    ],
+    "minimum_images": 10,
+    "detailed_standard_retained": true,
+    "deploy": false,
+    "github_push": false,
+    "parent_submodule_commit": false
+  },
+  "note": "번호 예약·조사 후보·사진 준비는 실제 등록 개수에 포함하지 않는다. 완성·검증 후에만 accepted_new_ids에 기록한다.",
+  "checked_at": "2026-11-17T05:33:05Z",
+  "current_total": 280,
+  "remaining": 1988
+}
