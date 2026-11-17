@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-11-17T09:01:17.261259+00:00",
+  "manifest": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-replacement-manifest.json",
+  "id": 315,
+  "tool": {
+    "name": "cwebp",
+    "path": "/opt/homebrew/bin/cwebp",
+    "version": "1.6.0\nlibsharpyuv: 0.4.2"
+  },
+  "quality": 80,
+  "encoding": "lossy WebP",
+  "command": [
+    "/opt/homebrew/bin/cwebp",
+    "-q",
+    "80",
+    "-resize",
+    "1080",
+    "1620",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-replacement-chapel-2.jpg",
+    "-o",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-replacement-3.webp"
+  ],
+  "operations": {
+    "resize": true,
+    "crop": false,
+    "rotation": false,
+    "color_correction": false,
+    "compositing": false,
+    "content_editing": false,
+    "upscaling": false,
+    "original_overwritten": false
+  },
+  "original": {
+    "path": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-replacement-chapel-2.jpg",
+    "format": "JPEG",
+    "width": 1280,
+    "height": 1920,
+    "aspect_ratio": {
+      "width_to_height": 0.6666666666666666,
+      "height_to_width": 1.5,
+      "reduced_width_height": "2:3"
+    },
+    "sha256_before": "c3bb10814586c9f463d9e6a65b6f61970aeb3517b2c1cfee65251427c342c559",
+    "sha256_after_conversion": "c3bb10814586c9f463d9e6a65b6f61970aeb3517b2c1cfee65251427c342c559",
+    "sha256_after": "c3bb10814586c9f463d9e6a65b6f61970aeb3517b2c1cfee65251427c342c559"
+  },
+  "output": {
+    "path": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-replacement-3.webp",
+    "format": "WEBP",
+    "width": 1080,
+    "height": 1620,
+    "aspect_ratio": {
+      "width_to_height": 0.6666666666666666,
+      "height_to_width": 1.5,
+      "reduced_width_height": "2:3"
+    },
+    "size_bytes": 120280,
+    "sha256": "e5f1d524602e3ea8d25a28c607ba1996c5331ccd72042da0e5f7644219d3fd9c"
+  },
+  "geometry_verification": {
+    "dimension_source": "Actual image headers read by ImageMagick identify; manifest dimensions not used",
+    "dimension_reader": "Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org",
+    "target_width": 1080,
+    "expected_height_unrounded": 1620.0,
+    "expected_height_exact_fraction": "1620",
+    "rounding": "nearest integer, ties upward",
+    "expected_height_rounded": 1620,
+    "height_error_vs_rounded_pixels": 0,
+    "height_error_vs_unrounded_pixels": 0.0,
+    "width_to_height_ratio_error": 0.0,
+    "height_to_width_ratio_error": 0.0
+  },
+  "decoding_verification": {
+    "tool": "dwebp",
+    "version": "1.6.0",
+    "exit_code": 0,
+    "full_image_decoded": true,
+    "decoded_width": 1080,
+    "decoded_height": 1620,
+    "decoded_channels": 4,
+    "decoded_pixel_bytes": 6998400,
+    "expected_pixel_bytes": 6998400,
+    "destination": "memory only; no temporary file"
+  },
+  "checks": {
+    "original_width_at_least_1080": true,
+    "original_sha256_unchanged": true,
+    "output_width_is_1080": true,
+    "output_height_matches_rounded_expected": true,
+    "output_is_webp": true,
+    "no_upscaling": true,
+    "full_webp_decode_success": true,
+    "output_sha256_stable_during_verification": true
+  }
+}

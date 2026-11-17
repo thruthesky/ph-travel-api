@@ -1,0 +1,732 @@
+{
+  "manifest": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-manifest.json",
+  "report": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-conversion-report.json",
+  "started_at_utc": "2026-11-17T08:56:22.213495+00:00",
+  "prompt_summary": "저장소·AGENTS 탐색 및 추가 에이전트 없이 지정 manifest의 원본 10개 실제 치수를 먼저 확인하고 모두 width>=1080일 때만 진행한다. 실제 height*1080/width를 최근접 정수(정확히 절반은 올림)로 반올림하여 cwebp -q 80 -resize 1080 HEIGHT로 지정 output에 저장한다. 원본 덮어쓰기, 크롭, 회전 및 EXIF 자동회전, 색보정, 합성, 내용편집, 업스케일 및 이미지 생성 모델 사용은 하지 않는다. 지정 output 10개와 report만 작성하며 임시파일·스크립트는 작성하지 않는다. 모든 변환 전과 모든 변환 후 원본 SHA256을 계산해 일치를 확인하고 Pillow load로 WebP 전체 디코딩 및 출력 치수를 검증한다. 각 경로, 실제 치수·가로세로비, 이상적 높이·오차, 원본 전후 및 출력 해시, WebP 형식·디코딩, 실행 인수, quality80, 검증 결과를 기록한다.",
+  "cwebp_version": "1.6.0\nlibsharpyuv: 0.4.2",
+  "target_width": 1080,
+  "quality": 80,
+  "expected_count": 10,
+  "preflight_all_actual_widths_at_least_1080": true,
+  "transformations": {
+    "resize": true,
+    "lossy_webp_encoding": true,
+    "crop": false,
+    "rotation": false,
+    "exif_auto_rotation": false,
+    "color_correction": false,
+    "compositing": false,
+    "content_editing": false,
+    "upscaling": false
+  },
+  "files": [
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-1.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city.webp",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "reduced": "4:3"
+      },
+      "original_format": "JPEG",
+      "original_exif_orientation": null,
+      "original_exif_orientation_applied": false,
+      "ideal_output_height": 810.0,
+      "ideal_output_height_exact": "810",
+      "rounded_output_height": 810,
+      "rounding_rule": "nearest integer, half up",
+      "quality": 80,
+      "cwebp_arguments": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-1.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city.webp"
+      ],
+      "output_format": "WEBP",
+      "output_decode_success": true,
+      "original_sha256_before": "982d2e0e0b9e28e16ef39f3c74c1cfe09d4a22dc38f3028d0b385b4a5f7d7aa1",
+      "cwebp_returncode": 0,
+      "cwebp_stdout": "",
+      "cwebp_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-1.jpg\nDimension: 1080 x 810\nOutput:    99206 bytes Y-U-V-All-PSNR 40.01 44.25 44.24   41.02 dB\n           (0.91 bpp)\nblock count:  intra4:       2902  (83.68%)\n              intra16:       566  (16.32%)\n              skipped:        21  (0.61%)\nbytes used:  header:            211  (0.2%)\n             mode-partition:  14232  (14.3%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       4%|      15%|      30%|      51%|    3468\n      quantizer:  |      27 |      26 |      21 |      16 |\n   filter level:  |       8 |       6 |       9 |      19 |\n",
+      "original_sha256_after": "982d2e0e0b9e28e16ef39f3c74c1cfe09d4a22dc38f3028d0b385b4a5f7d7aa1",
+      "original_sha256_match": true,
+      "output_sha256": "c9b4768229944a7fe1c428feb24a94274e773f5c185f54611b0fb18705d2c4c9",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "reduced": "4:3"
+      },
+      "output_mode": "RGB",
+      "height_error_pixels": 0.0,
+      "height_error_pixels_exact": "0",
+      "absolute_height_error_pixels": 0.0,
+      "relative_height_error": 0.0,
+      "aspect_ratio_error": 0.0,
+      "relative_aspect_ratio_error": 0.0,
+      "checks": {
+        "original_width_at_least_1080": true,
+        "original_sha256_unchanged": true,
+        "cwebp_execution_success": true,
+        "output_is_webp": true,
+        "output_full_decode_success": true,
+        "output_width_is_1080": true,
+        "output_height_matches_rounded_ideal": true,
+        "absolute_height_error_at_most_half_pixel": true,
+        "no_upscaling": true,
+        "quality_argument_is_80": true,
+        "only_requested_cwebp_arguments": true
+      },
+      "all_validations_passed": true
+    },
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-2.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-2.webp",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 850
+      },
+      "original_aspect_ratio": {
+        "width_over_height": 1.5058823529411764,
+        "reduced": "128:85"
+      },
+      "original_format": "JPEG",
+      "original_exif_orientation": null,
+      "original_exif_orientation_applied": false,
+      "ideal_output_height": 717.1875,
+      "ideal_output_height_exact": "11475/16",
+      "rounded_output_height": 717,
+      "rounding_rule": "nearest integer, half up",
+      "quality": 80,
+      "cwebp_arguments": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "717",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-2.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-2.webp"
+      ],
+      "output_format": "WEBP",
+      "output_decode_success": true,
+      "original_sha256_before": "59c8dbf16f860f7198b6249b50947b60f455e8deaee8dd6299d0725997e613e4",
+      "cwebp_returncode": 0,
+      "cwebp_stdout": "",
+      "cwebp_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-2.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-2.jpg\nDimension: 1080 x 717\nOutput:    70532 bytes Y-U-V-All-PSNR 41.65 45.80 46.43   42.69 dB\n           (0.73 bpp)\nblock count:  intra4:       1935  (63.24%)\n              intra16:      1125  (36.76%)\n              skipped:       244  (7.97%)\nbytes used:  header:            259  (0.4%)\n             mode-partition:   9420  (13.4%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|      12%|      30%|      55%|    3060\n      quantizer:  |      27 |      25 |      21 |      16 |\n   filter level:  |       8 |       5 |       4 |      15 |\n",
+      "original_sha256_after": "59c8dbf16f860f7198b6249b50947b60f455e8deaee8dd6299d0725997e613e4",
+      "original_sha256_match": true,
+      "output_sha256": "309108e2a8d92ac6dcefbc9a0f6e64804a782994e073eb0ec5898d748d1ded53",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 717
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.506276150627615,
+        "reduced": "360:239"
+      },
+      "output_mode": "RGB",
+      "height_error_pixels": -0.1875,
+      "height_error_pixels_exact": "-3/16",
+      "absolute_height_error_pixels": 0.1875,
+      "relative_height_error": -0.00026143790849673205,
+      "aspect_ratio_error": 0.00039379768643859215,
+      "relative_aspect_ratio_error": 0.0002615062761506276,
+      "checks": {
+        "original_width_at_least_1080": true,
+        "original_sha256_unchanged": true,
+        "cwebp_execution_success": true,
+        "output_is_webp": true,
+        "output_full_decode_success": true,
+        "output_width_is_1080": true,
+        "output_height_matches_rounded_ideal": true,
+        "absolute_height_error_at_most_half_pixel": true,
+        "no_upscaling": true,
+        "quality_argument_is_80": true,
+        "only_requested_cwebp_arguments": true
+      },
+      "all_validations_passed": true
+    },
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-3.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-3.webp",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "reduced": "4:3"
+      },
+      "original_format": "JPEG",
+      "original_exif_orientation": null,
+      "original_exif_orientation_applied": false,
+      "ideal_output_height": 810.0,
+      "ideal_output_height_exact": "810",
+      "rounded_output_height": 810,
+      "rounding_rule": "nearest integer, half up",
+      "quality": 80,
+      "cwebp_arguments": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-3.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-3.webp"
+      ],
+      "output_format": "WEBP",
+      "output_decode_success": true,
+      "original_sha256_before": "7b716da724b9fc90594853a662f7b80a46dd766ac0eaca3d176674de882906fb",
+      "cwebp_returncode": 0,
+      "cwebp_stdout": "",
+      "cwebp_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-3.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-3.jpg\nDimension: 1080 x 810\nOutput:    95680 bytes Y-U-V-All-PSNR 40.08 48.16 48.91   41.54 dB\n           (0.87 bpp)\nblock count:  intra4:       2347  (67.68%)\n              intra16:      1121  (32.32%)\n              skipped:       254  (7.32%)\nbytes used:  header:            256  (0.3%)\n             mode-partition:  10860  (11.4%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       4%|      11%|      28%|      56%|    3468\n      quantizer:  |      27 |      26 |      21 |      16 |\n   filter level:  |       8 |       5 |       4 |      11 |\n",
+      "original_sha256_after": "7b716da724b9fc90594853a662f7b80a46dd766ac0eaca3d176674de882906fb",
+      "original_sha256_match": true,
+      "output_sha256": "ea83561c186f3c9bc3a88ae6d75eef0a296a974bb042d0686590dc89fbe4fcaa",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "reduced": "4:3"
+      },
+      "output_mode": "RGB",
+      "height_error_pixels": 0.0,
+      "height_error_pixels_exact": "0",
+      "absolute_height_error_pixels": 0.0,
+      "relative_height_error": 0.0,
+      "aspect_ratio_error": 0.0,
+      "relative_aspect_ratio_error": 0.0,
+      "checks": {
+        "original_width_at_least_1080": true,
+        "original_sha256_unchanged": true,
+        "cwebp_execution_success": true,
+        "output_is_webp": true,
+        "output_full_decode_success": true,
+        "output_width_is_1080": true,
+        "output_height_matches_rounded_ideal": true,
+        "absolute_height_error_at_most_half_pixel": true,
+        "no_upscaling": true,
+        "quality_argument_is_80": true,
+        "only_requested_cwebp_arguments": true
+      },
+      "all_validations_passed": true
+    },
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-5.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-4.webp",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "reduced": "4:3"
+      },
+      "original_format": "JPEG",
+      "original_exif_orientation": null,
+      "original_exif_orientation_applied": false,
+      "ideal_output_height": 810.0,
+      "ideal_output_height_exact": "810",
+      "rounded_output_height": 810,
+      "rounding_rule": "nearest integer, half up",
+      "quality": 80,
+      "cwebp_arguments": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-5.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-4.webp"
+      ],
+      "output_format": "WEBP",
+      "output_decode_success": true,
+      "original_sha256_before": "a5cfdcea36134bce0a48dbf1ec2aae52dccf4dff2df383c10aebdf155a7dc9cb",
+      "cwebp_returncode": 0,
+      "cwebp_stdout": "",
+      "cwebp_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-4.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-5.jpg\nDimension: 1080 x 810\nOutput:    117534 bytes Y-U-V-All-PSNR 39.90 46.51 45.95   41.18 dB\n           (1.07 bpp)\nblock count:  intra4:       2660  (76.70%)\n              intra16:       808  (23.30%)\n              skipped:       119  (3.43%)\nbytes used:  header:            204  (0.2%)\n             mode-partition:  14293  (12.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       8%|      16%|      31%|      45%|    3468\n      quantizer:  |      27 |      25 |      20 |      15 |\n   filter level:  |       8 |       5 |       4 |      14 |\n",
+      "original_sha256_after": "a5cfdcea36134bce0a48dbf1ec2aae52dccf4dff2df383c10aebdf155a7dc9cb",
+      "original_sha256_match": true,
+      "output_sha256": "ed3936de85ccf7333cb9c1ad678e88db3e4ff06612d0ca6f73af30c3df358fc6",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "reduced": "4:3"
+      },
+      "output_mode": "RGB",
+      "height_error_pixels": 0.0,
+      "height_error_pixels_exact": "0",
+      "absolute_height_error_pixels": 0.0,
+      "relative_height_error": 0.0,
+      "aspect_ratio_error": 0.0,
+      "relative_aspect_ratio_error": 0.0,
+      "checks": {
+        "original_width_at_least_1080": true,
+        "original_sha256_unchanged": true,
+        "cwebp_execution_success": true,
+        "output_is_webp": true,
+        "output_full_decode_success": true,
+        "output_width_is_1080": true,
+        "output_height_matches_rounded_ideal": true,
+        "absolute_height_error_at_most_half_pixel": true,
+        "no_upscaling": true,
+        "quality_argument_is_80": true,
+        "only_requested_cwebp_arguments": true
+      },
+      "all_validations_passed": true
+    },
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-9.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-5.webp",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 1707
+      },
+      "original_aspect_ratio": {
+        "width_over_height": 0.7498535442296427,
+        "reduced": "1280:1707"
+      },
+      "original_format": "JPEG",
+      "original_exif_orientation": null,
+      "original_exif_orientation_applied": false,
+      "ideal_output_height": 1440.28125,
+      "ideal_output_height_exact": "46089/32",
+      "rounded_output_height": 1440,
+      "rounding_rule": "nearest integer, half up",
+      "quality": 80,
+      "cwebp_arguments": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "1440",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-9.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-5.webp"
+      ],
+      "output_format": "WEBP",
+      "output_decode_success": true,
+      "original_sha256_before": "b30c5c4846992767fdebfed6afeddeb483fa4041360f52ad27e626461887dbed",
+      "cwebp_returncode": 0,
+      "cwebp_stdout": "",
+      "cwebp_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-5.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-9.jpg\nDimension: 1080 x 1440\nOutput:    186384 bytes Y-U-V-All-PSNR 39.75 46.52 46.72   41.09 dB\n           (0.96 bpp)\nblock count:  intra4:       4022  (65.72%)\n              intra16:      2098  (34.28%)\n              skipped:       412  (6.73%)\nbytes used:  header:            312  (0.2%)\n             mode-partition:  20422  (11.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      12%|      16%|      18%|      54%|    6120\n      quantizer:  |      27 |      26 |      21 |      14 |\n   filter level:  |       8 |       6 |      19 |      16 |\n",
+      "original_sha256_after": "b30c5c4846992767fdebfed6afeddeb483fa4041360f52ad27e626461887dbed",
+      "original_sha256_match": true,
+      "output_sha256": "c6289077de3237c188597b7326018e815456653b53dfa0394a475180ef18261c",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 1440
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 0.75,
+        "reduced": "3:4"
+      },
+      "output_mode": "RGB",
+      "height_error_pixels": -0.28125,
+      "height_error_pixels_exact": "-9/32",
+      "absolute_height_error_pixels": 0.28125,
+      "relative_height_error": -0.00019527436047646945,
+      "aspect_ratio_error": 0.00014645577035735208,
+      "relative_aspect_ratio_error": 0.0001953125,
+      "checks": {
+        "original_width_at_least_1080": true,
+        "original_sha256_unchanged": true,
+        "cwebp_execution_success": true,
+        "output_is_webp": true,
+        "output_full_decode_success": true,
+        "output_width_is_1080": true,
+        "output_height_matches_rounded_ideal": true,
+        "absolute_height_error_at_most_half_pixel": true,
+        "no_upscaling": true,
+        "quality_argument_is_80": true,
+        "only_requested_cwebp_arguments": true
+      },
+      "all_validations_passed": true
+    },
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-6.webp",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "reduced": "4:3"
+      },
+      "original_format": "JPEG",
+      "original_exif_orientation": null,
+      "original_exif_orientation_applied": false,
+      "ideal_output_height": 810.0,
+      "ideal_output_height_exact": "810",
+      "rounded_output_height": 810,
+      "rounding_rule": "nearest integer, half up",
+      "quality": 80,
+      "cwebp_arguments": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-10.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-6.webp"
+      ],
+      "output_format": "WEBP",
+      "output_decode_success": true,
+      "original_sha256_before": "1cf57b21c4a36632fc2a5c8dd52d48971b4095384b8538858b7f6a05fec5f2d8",
+      "cwebp_returncode": 0,
+      "cwebp_stdout": "",
+      "cwebp_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-6.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-10.jpg\nDimension: 1080 x 810\nOutput:    121012 bytes Y-U-V-All-PSNR 39.73 45.16 45.09   40.90 dB\n           (1.11 bpp)\nblock count:  intra4:       2846  (82.06%)\n              intra16:       622  (17.94%)\n              skipped:         4  (0.12%)\nbytes used:  header:            264  (0.2%)\n             mode-partition:  13483  (11.1%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       5%|      17%|      34%|      44%|    3468\n      quantizer:  |      27 |      24 |      20 |      15 |\n   filter level:  |       8 |       5 |       4 |      14 |\n",
+      "original_sha256_after": "1cf57b21c4a36632fc2a5c8dd52d48971b4095384b8538858b7f6a05fec5f2d8",
+      "original_sha256_match": true,
+      "output_sha256": "c8d26fc1a049f6a51393964d94e8109b725e7d8fbd09cba173fb858ddf180a3b",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "reduced": "4:3"
+      },
+      "output_mode": "RGB",
+      "height_error_pixels": 0.0,
+      "height_error_pixels_exact": "0",
+      "absolute_height_error_pixels": 0.0,
+      "relative_height_error": 0.0,
+      "aspect_ratio_error": 0.0,
+      "relative_aspect_ratio_error": 0.0,
+      "checks": {
+        "original_width_at_least_1080": true,
+        "original_sha256_unchanged": true,
+        "cwebp_execution_success": true,
+        "output_is_webp": true,
+        "output_full_decode_success": true,
+        "output_width_is_1080": true,
+        "output_height_matches_rounded_ideal": true,
+        "absolute_height_error_at_most_half_pixel": true,
+        "no_upscaling": true,
+        "quality_argument_is_80": true,
+        "only_requested_cwebp_arguments": true
+      },
+      "all_validations_passed": true
+    },
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-11.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-7.webp",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 722
+      },
+      "original_aspect_ratio": {
+        "width_over_height": 1.7728531855955678,
+        "reduced": "640:361"
+      },
+      "original_format": "JPEG",
+      "original_exif_orientation": null,
+      "original_exif_orientation_applied": false,
+      "ideal_output_height": 609.1875,
+      "ideal_output_height_exact": "9747/16",
+      "rounded_output_height": 609,
+      "rounding_rule": "nearest integer, half up",
+      "quality": 80,
+      "cwebp_arguments": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "609",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-11.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-7.webp"
+      ],
+      "output_format": "WEBP",
+      "output_decode_success": true,
+      "original_sha256_before": "f82cbd56891fc969a48d1dbb68f52cd8d30d6feea9eae28b2a02c068f5a7dc7f",
+      "cwebp_returncode": 0,
+      "cwebp_stdout": "",
+      "cwebp_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-7.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-11.jpg\nDimension: 1080 x 609\nOutput:    112258 bytes Y-U-V-All-PSNR 39.40 43.88 42.44   40.32 dB\n           (1.37 bpp)\nblock count:  intra4:       2388  (90.05%)\n              intra16:       264  (9.95%)\n              skipped:         9  (0.34%)\nbytes used:  header:            270  (0.2%)\n             mode-partition:  11734  (10.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       5%|      23%|      36%|      36%|    2652\n      quantizer:  |      27 |      24 |      19 |      14 |\n   filter level:  |       8 |       5 |       3 |      10 |\n",
+      "original_sha256_after": "f82cbd56891fc969a48d1dbb68f52cd8d30d6feea9eae28b2a02c068f5a7dc7f",
+      "original_sha256_match": true,
+      "output_sha256": "063026b54036febff5a264efc590e317ddf41be588faa5ecfa33528b1d2e106d",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 609
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.7733990147783252,
+        "reduced": "360:203"
+      },
+      "output_mode": "RGB",
+      "height_error_pixels": -0.1875,
+      "height_error_pixels_exact": "-3/16",
+      "absolute_height_error_pixels": 0.1875,
+      "relative_height_error": -0.0003077870113881194,
+      "aspect_ratio_error": 0.0005458291827572561,
+      "relative_aspect_ratio_error": 0.0003078817733990148,
+      "checks": {
+        "original_width_at_least_1080": true,
+        "original_sha256_unchanged": true,
+        "cwebp_execution_success": true,
+        "output_is_webp": true,
+        "output_full_decode_success": true,
+        "output_width_is_1080": true,
+        "output_height_matches_rounded_ideal": true,
+        "absolute_height_error_at_most_half_pixel": true,
+        "no_upscaling": true,
+        "quality_argument_is_80": true,
+        "only_requested_cwebp_arguments": true
+      },
+      "all_validations_passed": true
+    },
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-13.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-8.webp",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 1920
+      },
+      "original_aspect_ratio": {
+        "width_over_height": 0.6666666666666666,
+        "reduced": "2:3"
+      },
+      "original_format": "JPEG",
+      "original_exif_orientation": null,
+      "original_exif_orientation_applied": false,
+      "ideal_output_height": 1620.0,
+      "ideal_output_height_exact": "1620",
+      "rounded_output_height": 1620,
+      "rounding_rule": "nearest integer, half up",
+      "quality": 80,
+      "cwebp_arguments": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "1620",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-13.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-8.webp"
+      ],
+      "output_format": "WEBP",
+      "output_decode_success": true,
+      "original_sha256_before": "57ddcb398897baa977f3450e912d2ba44d910da7bee76aba4d2c49c26b92becf",
+      "cwebp_returncode": 0,
+      "cwebp_stdout": "",
+      "cwebp_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-8.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-13.jpg\nDimension: 1080 x 1620\nOutput:    34816 bytes Y-U-V-All-PSNR 45.85 49.75 50.24   46.84 dB\n           (0.16 bpp)\nblock count:  intra4:       2499  (36.03%)\n              intra16:      4437  (63.97%)\n              skipped:      1561  (22.51%)\nbytes used:  header:            165  (0.5%)\n             mode-partition:  10083  (29.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       2%|       7%|      16%|      74%|    6936\n      quantizer:  |      27 |      27 |      22 |      18 |\n   filter level:  |       8 |      18 |      30 |      21 |\n",
+      "original_sha256_after": "57ddcb398897baa977f3450e912d2ba44d910da7bee76aba4d2c49c26b92becf",
+      "original_sha256_match": true,
+      "output_sha256": "3baaf11f779eb8266baa97f1dedabc876b796cdcaad24c3c5397b4eb4eb48cde",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 1620
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 0.6666666666666666,
+        "reduced": "2:3"
+      },
+      "output_mode": "RGB",
+      "height_error_pixels": 0.0,
+      "height_error_pixels_exact": "0",
+      "absolute_height_error_pixels": 0.0,
+      "relative_height_error": 0.0,
+      "aspect_ratio_error": 0.0,
+      "relative_aspect_ratio_error": 0.0,
+      "checks": {
+        "original_width_at_least_1080": true,
+        "original_sha256_unchanged": true,
+        "cwebp_execution_success": true,
+        "output_is_webp": true,
+        "output_full_decode_success": true,
+        "output_width_is_1080": true,
+        "output_height_matches_rounded_ideal": true,
+        "absolute_height_error_at_most_half_pixel": true,
+        "no_upscaling": true,
+        "quality_argument_is_80": true,
+        "only_requested_cwebp_arguments": true
+      },
+      "all_validations_passed": true
+    },
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-16.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-9.webp",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 853
+      },
+      "original_aspect_ratio": {
+        "width_over_height": 1.5005861664712778,
+        "reduced": "1280:853"
+      },
+      "original_format": "JPEG",
+      "original_exif_orientation": null,
+      "original_exif_orientation_applied": false,
+      "ideal_output_height": 719.71875,
+      "ideal_output_height_exact": "23031/32",
+      "rounded_output_height": 720,
+      "rounding_rule": "nearest integer, half up",
+      "quality": 80,
+      "cwebp_arguments": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "720",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-16.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-9.webp"
+      ],
+      "output_format": "WEBP",
+      "output_decode_success": true,
+      "original_sha256_before": "6f44206966afdf04eb6a8569b5c8dfcec6dacd4931be8a7ee9a0c4e7ca8319cc",
+      "cwebp_returncode": 0,
+      "cwebp_stdout": "",
+      "cwebp_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-9.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-16.jpg\nDimension: 1080 x 720\nOutput:    83660 bytes Y-U-V-All-PSNR 40.90 45.02 44.75   41.87 dB\n           (0.86 bpp)\nblock count:  intra4:       2035  (66.50%)\n              intra16:      1025  (33.50%)\n              skipped:       345  (11.27%)\nbytes used:  header:            302  (0.4%)\n             mode-partition:   9388  (11.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       5%|      14%|      34%|      47%|    3060\n      quantizer:  |      27 |      25 |      21 |      16 |\n   filter level:  |       8 |       5 |       4 |       7 |\n",
+      "original_sha256_after": "6f44206966afdf04eb6a8569b5c8dfcec6dacd4931be8a7ee9a0c4e7ca8319cc",
+      "original_sha256_match": true,
+      "output_sha256": "4e5ea46282e17da70ec328982b84533351fca7b4570c39d17b8f0c7a040f14f7",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 720
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.5,
+        "reduced": "3:2"
+      },
+      "output_mode": "RGB",
+      "height_error_pixels": 0.28125,
+      "height_error_pixels_exact": "9/32",
+      "absolute_height_error_pixels": 0.28125,
+      "relative_height_error": 0.00039077764751856197,
+      "aspect_ratio_error": -0.0005861664712778429,
+      "relative_aspect_ratio_error": -0.000390625,
+      "checks": {
+        "original_width_at_least_1080": true,
+        "original_sha256_unchanged": true,
+        "cwebp_execution_success": true,
+        "output_is_webp": true,
+        "output_full_decode_success": true,
+        "output_width_is_1080": true,
+        "output_height_matches_rounded_ideal": true,
+        "absolute_height_error_at_most_half_pixel": true,
+        "no_upscaling": true,
+        "quality_argument_is_80": true,
+        "only_requested_cwebp_arguments": true
+      },
+      "all_validations_passed": true
+    },
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-21.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-10.webp",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "reduced": "4:3"
+      },
+      "original_format": "JPEG",
+      "original_exif_orientation": null,
+      "original_exif_orientation_applied": false,
+      "ideal_output_height": 810.0,
+      "ideal_output_height_exact": "810",
+      "rounded_output_height": 810,
+      "rounding_rule": "nearest integer, half up",
+      "quality": 80,
+      "cwebp_arguments": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-21.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-10.webp"
+      ],
+      "output_format": "WEBP",
+      "output_decode_success": true,
+      "original_sha256_before": "d815811f0956edb4cb8d789986ed8b3d0fa87e348cbc44990233b314f4b3a49e",
+      "cwebp_returncode": 0,
+      "cwebp_stdout": "",
+      "cwebp_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-10.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/316-sorsogon-city-original-21.jpg\nDimension: 1080 x 810\nOutput:    153006 bytes Y-U-V-All-PSNR 38.81 44.32 45.61   40.07 dB\n           (1.40 bpp)\nblock count:  intra4:       2773  (79.96%)\n              intra16:       695  (20.04%)\n              skipped:       108  (3.11%)\nbytes used:  header:            212  (0.1%)\n             mode-partition:  16040  (10.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      15%|      22%|      27%|      36%|    3468\n      quantizer:  |      27 |      24 |      19 |      13 |\n   filter level:  |       8 |       6 |       3 |      13 |\n",
+      "original_sha256_after": "d815811f0956edb4cb8d789986ed8b3d0fa87e348cbc44990233b314f4b3a49e",
+      "original_sha256_match": true,
+      "output_sha256": "61ddd8a2fb8cbc4ee45676e4226cc78ffd84e7cadd797e4158ef889d3639f2e3",
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "reduced": "4:3"
+      },
+      "output_mode": "RGB",
+      "height_error_pixels": 0.0,
+      "height_error_pixels_exact": "0",
+      "absolute_height_error_pixels": 0.0,
+      "relative_height_error": 0.0,
+      "aspect_ratio_error": 0.0,
+      "relative_aspect_ratio_error": 0.0,
+      "checks": {
+        "original_width_at_least_1080": true,
+        "original_sha256_unchanged": true,
+        "cwebp_execution_success": true,
+        "output_is_webp": true,
+        "output_full_decode_success": true,
+        "output_width_is_1080": true,
+        "output_height_matches_rounded_ideal": true,
+        "absolute_height_error_at_most_half_pixel": true,
+        "no_upscaling": true,
+        "quality_argument_is_80": true,
+        "only_requested_cwebp_arguments": true
+      },
+      "all_validations_passed": true
+    }
+  ],
+  "original_hash_before_started_at_utc": "2026-11-17T08:56:22.219382+00:00",
+  "original_hash_before_completed_at_utc": "2026-11-17T08:56:22.222159+00:00",
+  "conversions_started_at_utc": "2026-11-17T08:56:22.222165+00:00",
+  "conversions_finished_at_utc": "2026-11-17T08:56:22.873343+00:00",
+  "original_hash_after_started_at_utc": "2026-11-17T08:56:22.873380+00:00",
+  "original_hash_after_completed_at_utc": "2026-11-17T08:56:22.874677+00:00",
+  "checks": {
+    "exactly_10_records": true,
+    "all_actual_original_widths_at_least_1080": true,
+    "all_original_hashes_computed_before_any_conversion": true,
+    "all_original_hashes_recomputed_after_all_conversions": true,
+    "all_original_sha256_match": true,
+    "all_outputs_fully_decoded_as_webp": true,
+    "all_file_validations_passed": true,
+    "no_conversion_error": true
+  },
+  "all_validations_passed": true,
+  "completed_at_utc": "2026-11-17T08:56:22.959680+00:00"
+}

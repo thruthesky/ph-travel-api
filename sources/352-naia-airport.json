@@ -1,0 +1,547 @@
+{
+  "id": 352,
+  "slug": "naia-airport",
+  "checked_at": "2026-11-17",
+  "facts": [
+    {
+      "where": "overview",
+      "fact": "원본미수록공항여행정보를한항목으로통합",
+      "value": "1275712962(TSV31행),1275712426(TSV1035행)",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/?module=post&action=view&idx=1275712962",
+          "grade": "C",
+          "says": "공개post.get의idx/subject/content실제전체읽음,공항도착·터미널·교통개요"
+        },
+        {
+          "url": "https://www.philgo.com/?module=post&action=view&idx=1275712426",
+          "grade": "C",
+          "says": "공개post.get실제전체읽음,공항교통·환승·출국안내"
+        }
+      ],
+      "decision": "터미널별로건수나누지않음.원문잘못된T2PAL전용/국제선·T4현역·항공사배치·T3층수·S-TRAIN예정·BGC직통버스·요금·SIM99무제한·고정짐보관료·세금단정·시내시간보장배제.사진·댓글·개인정보미사용.구체국적별비자자격전재안함."
+    },
+    {
+      "where": "overview",
+      "fact": "공항단지·공항코드",
+      "value": "MNL,파사이·파라냐케",
+      "sources": [
+        {
+          "url": "https://www.miaa.gov.ph/index.php/faq",
+          "grade": "A",
+          "says": "MIAA공식공항/터미널FAQ,배치목록3월10일기준"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ninoy_Aquino_International_Airport",
+          "grade": "B",
+          "says": "공항명MNL/RPLL와파사이·파라냐케단지"
+        }
+      ],
+      "decision": "최근단지운영정보는NNIC와항공사현재안내우선;MIAA구배치목록복제안함"
+    },
+    {
+      "where": "location",
+      "fact": "지도점은T3건물대표점",
+      "value": "14.5192,121.0134",
+      "sources": [
+        {
+          "url": "https://mapcarta.com/W303142869",
+          "grade": "B",
+          "says": "직접본문14.51923,121.01344 T3건물OSMway303142869"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q55622055",
+          "grade": "B",
+          "says": "직접본문14°31′9.1″N,121°0′48.6″E=14.5191944,121.0135"
+        }
+      ],
+      "decision": "동일T3건물의약7m차이.건물면적안대표위치로Mapcarta4자리채택;모든터미널공통출입구아님을본문명시.전체공항ARP/버스정류장/계획역좌표와혼용안함"
+    },
+    {
+      "where": "highlights",
+      "fact": "2026항공사터미널변경",
+      "value": "항공편별현재배정확인",
+      "sources": [
+        {
+          "url": "https://www.jal.co.jp/jp/en/inter/airport/mnl/transit/index.html",
+          "grade": "A",
+          "says": "2026-04-01 JAL운항은T3,4월배치·목적지별터미널차이"
+        },
+        {
+          "url": "https://www.spot.ph/things-to-do/the-latest-things-to-do/guide-updated-terminal-assignments-naia-a5138-20260513-bsc",
+          "grade": "B",
+          "says": "2026-05-13 배치변경과각항공편재확인권고,검색본문전체확인"
+        }
+      ],
+      "decision": "일부구MIAA/JAL목록상미운항브랜드존재로고정항공사전체목록미기재;실제운항사/날짜별확인"
+    },
+    {
+      "where": "overview",
+      "fact": "진행중시설개선공사",
+      "value": "탑승구·카운터위치변동가능",
+      "sources": [
+        {
+          "url": "https://www.ana.co.jp/ja/jp/guide/prepare/airport-guide/international/mnl.html",
+          "grade": "A",
+          "says": "현재공사와탑승구/카운터위치변경경고,직접본문"
+        },
+        {
+          "url": "https://newnaia.com.ph/about-us/news/naia-projects-up-to-125-million-undas-passengers-nnic-steps-up-preparations",
+          "grade": "A",
+          "says": "2026Undas공지새전광판/대기공간개선",
+          "api_url": "https://newnaia.com.ph/api/v1/page/naia-projects-up-to-125-million-undas-passengers-nnic-steps-up-preparations"
+        },
+        {
+          "url": "https://www.spot.ph/things-to-do/the-latest-things-to-do/guide-updated-terminal-assignments-naia-a5138-20260513-bsc",
+          "grade": "B",
+          "says": "2026터미널재배치"
+        }
+      ],
+      "decision": "2026공사사진은촬영월alt명시;현재공사구간을사진만으로고정안함"
+    },
+    {
+      "where": "highlights",
+      "fact": "연결편수하물·환승데스크",
+      "value": "항공사에게재수취/세관/재위탁확인",
+      "sources": [
+        {
+          "url": "https://www.ana.co.jp/ja/jp/guide/prepare/airport-guide/international/mnl.html",
+          "grade": "A",
+          "says": "국제·국내연결수하물재수취,국제선연결은심사전데스크직원처리"
+        },
+        {
+          "url": "https://www.jal.co.jp/jp/en/inter/airport/mnl/transit/index.html",
+          "grade": "A",
+          "says": "다른터미널연결수하물수취·세관,국제선연결시직원안내"
+        }
+      ],
+      "decision": "환승모두무조건입국으로일반화안함;동일터미널국제선은심사전직원문의"
+    },
+    {
+      "where": "highlights",
+      "fact": "무료터미널셔틀",
+      "value": "탑승대상·정류장·대기현재문의",
+      "sources": [
+        {
+          "url": "https://newnaia.com.ph/transport",
+          "grade": "A",
+          "says": "직접공개API본문무료24/7·연결항공권제시·매시간안내",
+          "api_url": "https://newnaia.com.ph/api/v1/page/transport"
+        },
+        {
+          "url": "https://www.spot.ph/things-to-do/the-latest-things-to-do/naia-inter-terminal-shuttle-a8204-20260820-bsc",
+          "grade": "B",
+          "says": "2026-08-20 15~30분/당일연결우선/대상확대·Bay12~13"
+        },
+        {
+          "url": "https://www.ana.co.jp/ja/jp/guide/prepare/airport-guide/international/mnl.html",
+          "grade": "A",
+          "says": "무료셔틀과운행/교통에따른대기차이"
+        }
+      ],
+      "decision": "공식구본문매시간vs2026기사15~30분불일치라배차·Bay고정값미기재.항공권준비와직원확인,환승시간항공사상담"
+    },
+    {
+      "where": "getting_there",
+      "fact": "지상교통공식부스·배차표",
+      "value": "배차표승객보관·공식승차",
+      "sources": [
+        {
+          "url": "https://newnaia.com.ph/transport",
+          "grade": "A",
+          "says": "택시배차표승객보관·택시/앱/버스별위치·요금방식실제공개API본문",
+          "api_url": "https://newnaia.com.ph/api/v1/page/transport"
+        },
+        {
+          "url": "https://newnaia.com.ph/about-us/news/naia-projects-up-to-125-million-undas-passengers-nnic-steps-up-preparations",
+          "grade": "A",
+          "says": "최신공지공식교통만이용/불법호객신고권고",
+          "api_url": "https://newnaia.com.ph/api/v1/page/naia-projects-up-to-125-million-undas-passengers-nnic-steps-up-preparations"
+        },
+        {
+          "url": "https://www.jal.co.jp/jp/en/inter/airport/mnl/transit/index.html",
+          "grade": "A",
+          "says": "터미널간택시/무료버스·시간변동"
+        }
+      ],
+      "decision": "구공식택시금액과2026요금변경가능성있어고정미터값미기재.앱차량/미터/정액차량차이를안내"
+    },
+    {
+      "where": "getting_there",
+      "fact": "버스종류구분",
+      "value": "공항루프/시내P2P/클락P2P별도",
+      "sources": [
+        {
+          "url": "https://newnaia.com.ph/transport",
+          "grade": "A",
+          "says": "UBE/Genesis/공항Loop서로다른서비스,시간가격은각운영사확인",
+          "api_url": "https://newnaia.com.ph/api/v1/page/transport"
+        },
+        {
+          "url": "https://blog.wego.com/manila-airport-guide/",
+          "grade": "B",
+          "says": "2026가이드공항간/도심교통과터미널별서비스구분,검색보조"
+        }
+      ],
+      "decision": "구T4목적지·구주차/배차번호미사용,특정노선상시운행보장안함"
+    },
+    {
+      "where": "best_time",
+      "fact": "권고공항도착여유",
+      "value": "국제선최소3시간·국내선2시간",
+      "sources": [
+        {
+          "url": "https://newnaia.com.ph/about-us/news/naia-projects-up-to-125-million-undas-passengers-nnic-steps-up-preparations",
+          "grade": "A",
+          "says": "2026Undas최신공지직접API본문3시간/2시간및도로/보안여유",
+          "api_url": "https://newnaia.com.ph/api/v1/page/naia-projects-up-to-125-million-undas-passengers-nnic-steps-up-preparations"
+        },
+        {
+          "url": "https://www.jal.co.jp/jp/en/inter/airport/mnl/transit/index.html",
+          "grade": "A",
+          "says": "연결은수속·교통혼잡고려충분한여유권고"
+        }
+      ],
+      "decision": "여행자의수속시간보장이나최소환승시간규칙으로오인금지.공항접근시간별도;국제연결180분은항공사특정조건이라본문고정미기재"
+    },
+    {
+      "where": "tips",
+      "fact": "eTravel공식무료등록",
+      "value": "본인여정적용대상·입력기간공식확인",
+      "sources": [
+        {
+          "url": "https://etravel.gov.ph/frequently-asked-questions",
+          "grade": "A",
+          "says": "정부공식FAQ등록과무료안내"
+        },
+        {
+          "url": "https://newnaia.com.ph/about-us/news/naia-projects-up-to-125-million-undas-passengers-nnic-steps-up-preparations",
+          "grade": "A",
+          "says": "대상국제승객공식eTravel무료등록·72시간안내",
+          "api_url": "https://newnaia.com.ph/api/v1/page/naia-projects-up-to-125-million-undas-passengers-nnic-steps-up-preparations"
+        },
+        {
+          "url": "https://www.ana.co.jp/ja/jp/guide/prepare/airport-guide/international/mnl.html",
+          "grade": "A",
+          "says": "2026사전eTravel등록·QR저장안내"
+        }
+      ],
+      "decision": "국적/비자별입국허가판정안함;정확본인대상과기간공식사이트문의"
+    },
+    {
+      "where": "highlights",
+      "fact": "T1공간모습",
+      "value": "높은천장출발홀·추모공간",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Departure_hall_at_Manila%27s_Ninoy_Aquino_International_Airport_Terminal_1_in_2023.jpg",
+          "grade": "A",
+          "says": "MIAA정부공개사진,2023-10-23 출발홀직접검수"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:NAIA_Important_Cultural_Treasure_01.jpg",
+          "grade": "B",
+          "says": "2023-09-17 T1외부추모공간직접검수"
+        }
+      ],
+      "decision": "별도관광순회·제한구역접근추천안함;안내역할사진이고현재카운터배치도아님"
+    },
+    {
+      "where": "costs",
+      "fact": "도착일개인준비금",
+      "value": "₱1200~2500",
+      "sources": [
+        {
+          "url": "https://newnaia.com.ph/transport",
+          "grade": "A",
+          "says": "교통종류별요금방식이다르고앱/목적지/거리따라달라짐",
+          "api_url": "https://newnaia.com.ph/api/v1/page/transport"
+        }
+      ],
+      "decision": "저자예산배분교통600~1200/식사300~600/예비300~700.항공/호텔/라운지별도;공식요금표아님"
+    },
+    {
+      "where": "itinerary",
+      "fact": "여정별추천절차",
+      "value": "도착-수하물-교통/연결-재수속",
+      "sources": [
+        {
+          "url": "https://www.ana.co.jp/ja/jp/guide/prepare/airport-guide/international/mnl.html",
+          "grade": "A",
+          "says": "실제도착및환승절차"
+        },
+        {
+          "url": "https://www.jal.co.jp/jp/en/inter/airport/mnl/transit/index.html",
+          "grade": "A",
+          "says": "연결시세관/보안/직원처리"
+        }
+      ],
+      "decision": "추천순서이며시설영업시각/고정소요시간미기재"
+    }
+  ],
+  "images": [
+    {
+      "id": 352,
+      "slug": "naia-airport",
+      "index": "8-18",
+      "title": "File:Departure hall at Manila's Ninoy Aquino International Airport Terminal 1 in 2023.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Departure_hall_at_Manila%27s_Ninoy_Aquino_International_Airport_Terminal_1_in_2023.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Departure_hall_at_Manila%27s_Ninoy_Aquino_International_Airport_Terminal_1_in_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Departure_hall_at_Manila%27s_Ninoy_Aquino_International_Airport_Terminal_1_in_2023.jpg/1280px-Departure_hall_at_Manila%27s_Ninoy_Aquino_International_Airport_Terminal_1_in_2023.jpg",
+      "artist": "Manila International Airport Authority",
+      "license": "Public domain",
+      "date": "2023-10-23",
+      "description": "Terminal 1 departure hall",
+      "original_width": 1600,
+      "original_height": 860,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-originals/8-18.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-converted/352-naia-airport-01.webp",
+      "sha256": "b5108f048a2c5db6819375e5c1a6f82b4d1c46cfb8e274d107d7684d890959ad",
+      "url": "images/352-naia-airport-01.webp",
+      "output_sha256": "a00d25bf80019785110538f8d933f93cc07fcbcf7c21ce868afbb21ca6224eb6",
+      "output_width": 1080,
+      "output_height": 581,
+      "original_visual_review": "2026-11-17 원본직접눈검수:실제NAIA장소/부품일치·워터마크없음·얼굴이주제아님",
+      "final_visual_review": "2026-11-17 최종WebP직접눈검수:원본내용·색·비율유지"
+    },
+    {
+      "id": 352,
+      "slug": "naia-airport",
+      "index": "1-26",
+      "title": "File:NAIA photo.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NAIA_photo.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/NAIA_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/NAIA_photo.jpg/1280px-NAIA_photo.jpg",
+      "artist": "ShiminUfesoj",
+      "license": "CC0",
+      "date": "2025-08-21 04:27:50",
+      "description": "NAIA terminal 3 at night",
+      "original_width": 4096,
+      "original_height": 3072,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-originals/1-26.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-converted/352-naia-airport-02.webp",
+      "sha256": "4bdc9261cc22302323598fb879b1e605a2c11e26fc68d52ae2dc9c0dc6c2b33a",
+      "url": "images/352-naia-airport-02.webp",
+      "output_sha256": "5c98be4543d1e4aeb4efe2647f229920efd2bbcbaf02f18fcae07abb324990fc",
+      "output_width": 1080,
+      "output_height": 810,
+      "original_visual_review": "2026-11-17 원본직접눈검수:실제NAIA장소/부품일치·워터마크없음·얼굴이주제아님",
+      "final_visual_review": "2026-11-17 최종WebP직접눈검수:원본내용·색·비율유지"
+    },
+    {
+      "id": 352,
+      "slug": "naia-airport",
+      "index": "3-13",
+      "title": "File:NAIA terminal 2 from runway.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NAIA_terminal_2_from_runway.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/NAIA_terminal_2_from_runway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/NAIA_terminal_2_from_runway.jpg/1280px-NAIA_terminal_2_from_runway.jpg",
+      "artist": "Alticzon",
+      "license": "CC BY-SA 4.0",
+      "date": "2024-08-24",
+      "description": "A view of Terminal 2's north wing",
+      "original_width": 1920,
+      "original_height": 1150,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-originals/3-13.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-converted/352-naia-airport-03.webp",
+      "sha256": "01478c1a00753a35badaff54f5b6b342c774330358507cdefba4be8a00ab22b0",
+      "url": "images/352-naia-airport-03.webp",
+      "output_sha256": "0fccec23e1d3ab38486c622856c9d8b8b8fb5a372b18bb9bbed0314d6334d9fa",
+      "output_width": 1080,
+      "output_height": 647,
+      "original_visual_review": "2026-11-17 원본직접눈검수:실제NAIA장소/부품일치·워터마크없음·얼굴이주제아님",
+      "final_visual_review": "2026-11-17 최종WebP직접눈검수:원본내용·색·비율유지"
+    },
+    {
+      "id": 352,
+      "slug": "naia-airport",
+      "index": "5-11",
+      "title": "File:Baggage claim area of NAIA Terminal 3.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Baggage_claim_area_of_NAIA_Terminal_3.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Baggage_claim_area_of_NAIA_Terminal_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Baggage_claim_area_of_NAIA_Terminal_3.jpg/1280px-Baggage_claim_area_of_NAIA_Terminal_3.jpg",
+      "artist": "A.C.T. Alejandre",
+      "license": "CC BY-SA 4.0",
+      "date": "2025-12-14",
+      "description": "Baggage claim area of NAIA Terminal 3",
+      "original_width": 4032,
+      "original_height": 3024,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-originals/5-11.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-converted/352-naia-airport-04.webp",
+      "sha256": "20cf99d957aec2be53c41e27bfb27d415450cb45780a54c8b7a98795599739b5",
+      "url": "images/352-naia-airport-04.webp",
+      "output_sha256": "59c458ec8c1423c0c58801079f686fc44b655ba3c70a317173f701c6dcd7fe59",
+      "output_width": 1080,
+      "output_height": 810,
+      "original_visual_review": "2026-11-17 원본직접눈검수:실제NAIA장소/부품일치·워터마크없음·얼굴이주제아님",
+      "final_visual_review": "2026-11-17 최종WebP직접눈검수:원본내용·색·비율유지"
+    },
+    {
+      "id": 352,
+      "slug": "naia-airport",
+      "index": "5-23",
+      "title": "File:Stairs and escalators at the Terminal 3 of the Ninoy Aquino International Airport (2026-01-19).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Stairs_and_escalators_at_the_Terminal_3_of_the_Ninoy_Aquino_International_Airport_(2026-01-19).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Stairs_and_escalators_at_the_Terminal_3_of_the_Ninoy_Aquino_International_Airport_%282026-01-19%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Stairs_and_escalators_at_the_Terminal_3_of_the_Ninoy_Aquino_International_Airport_%282026-01-19%29.jpg/1280px-Stairs_and_escalators_at_the_Terminal_3_of_the_Ninoy_Aquino_International_Airport_%282026-01-19%29.jpg",
+      "artist": "Wide Awake!",
+      "license": "CC BY 4.0",
+      "date": "2026-01-19 14:47:53",
+      "description": "Stairs and escalators located at the Terminal 3 of the Ninoy Aquino International Airport is located in Pasay.\nLocation: Ninoy Aquino International Airport Terminal 3, Pasay\n\nCamera: Fujifilm FinePix HS30EXR",
+      "original_width": 4608,
+      "original_height": 3072,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-originals/5-23.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-converted/352-naia-airport-05.webp",
+      "sha256": "377a69b5e2b3ebe7f3b763ca20613889c6eac7c7e35d6088c6152ce4313d5603",
+      "url": "images/352-naia-airport-05.webp",
+      "output_sha256": "bd3f0353bdaa012436c9cd1b8ab2ac2010340b271b31ddf2d81ca928afcaaad9",
+      "output_width": 1080,
+      "output_height": 720,
+      "original_visual_review": "2026-11-17 원본직접눈검수:실제NAIA장소/부품일치·워터마크없음·얼굴이주제아님",
+      "final_visual_review": "2026-11-17 최종WebP직접눈검수:원본내용·색·비율유지"
+    },
+    {
+      "id": 352,
+      "slug": "naia-airport",
+      "index": "2-30",
+      "title": "File:NAIA Terminal 1 Flags.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NAIA_Terminal_1_Flags.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/NAIA_Terminal_1_Flags.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/NAIA_Terminal_1_Flags.jpg/1280px-NAIA_Terminal_1_Flags.jpg",
+      "artist": "Hariboneagle927",
+      "license": "CC BY-SA 4.0",
+      "date": "2018-01-24 11:03:47",
+      "description": "Flags of different countries at the ramp of NAIA Terminal 1",
+      "original_width": 4160,
+      "original_height": 2340,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-originals/2-30.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-converted/352-naia-airport-06.webp",
+      "sha256": "457f0e7fb6112cde6871881d883017e9b9a68434737eaa4f44e1c8ab772b4c42",
+      "url": "images/352-naia-airport-06.webp",
+      "output_sha256": "b84ee9730397b7a997f2e69e5e82a3c64ac3dffc7a3f194df3b6f129bb266a15",
+      "output_width": 1080,
+      "output_height": 608,
+      "original_visual_review": "2026-11-17 원본직접눈검수:실제NAIA장소/부품일치·워터마크없음·얼굴이주제아님",
+      "final_visual_review": "2026-11-17 최종WebP직접눈검수:원본내용·색·비율유지"
+    },
+    {
+      "id": 352,
+      "slug": "naia-airport",
+      "index": "2-35",
+      "title": "File:NAIA Important Cultural Treasure 01.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NAIA_Important_Cultural_Treasure_01.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/NAIA_Important_Cultural_Treasure_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/NAIA_Important_Cultural_Treasure_01.jpg/1280px-NAIA_Important_Cultural_Treasure_01.jpg",
+      "artist": "Roel Balingit",
+      "license": "CC BY-SA 4.0",
+      "date": "Taken on 17 September 2023",
+      "description": "NAIA Important Cultural Treasure marker",
+      "original_width": 3468,
+      "original_height": 4624,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-originals/2-35.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-converted/352-naia-airport-07.webp",
+      "sha256": "74e161ec3c7af74a339259ee24b9342aa9248998c01447373b3eaa851d18820e",
+      "url": "images/352-naia-airport-07.webp",
+      "output_sha256": "38376440f85b5acc75ed865a0662701058eaf3a4a6ad5cedf8c52e29ac178b9d",
+      "output_width": 1080,
+      "output_height": 1440,
+      "original_visual_review": "2026-11-17 원본직접눈검수:실제NAIA장소/부품일치·워터마크없음·얼굴이주제아님",
+      "final_visual_review": "2026-11-17 최종WebP직접눈검수:원본내용·색·비율유지"
+    },
+    {
+      "id": 352,
+      "slug": "naia-airport",
+      "index": "8-25",
+      "title": "File:Ninoy Aquino International Airport Terminal 1, 05.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ninoy_Aquino_International_Airport_Terminal_1,_05.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ninoy_Aquino_International_Airport_Terminal_1%2C_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Ninoy_Aquino_International_Airport_Terminal_1%2C_05.jpg/1280px-Ninoy_Aquino_International_Airport_Terminal_1%2C_05.jpg",
+      "artist": "Aliceinthealice",
+      "license": "CC0",
+      "date": "2025-05-25 20:33:06",
+      "description": "Customs at the Ninoy Aquino International Airport Terminal 1",
+      "original_width": 4032,
+      "original_height": 3024,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-originals/8-25.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-converted/352-naia-airport-08.webp",
+      "sha256": "94d5f1f4f45a70bb41eceaf38257353b4ff6c3884bd173fdec073d57f50da962",
+      "url": "images/352-naia-airport-08.webp",
+      "output_sha256": "70101f0267337696c38c47c716776e3f00cce2c73eccf1e3fb42fa6953a62117",
+      "output_width": 1080,
+      "output_height": 810,
+      "original_visual_review": "2026-11-17 원본직접눈검수:실제NAIA장소/부품일치·워터마크없음·얼굴이주제아님",
+      "final_visual_review": "2026-11-17 최종WebP직접눈검수:원본내용·색·비율유지"
+    },
+    {
+      "id": 352,
+      "slug": "naia-airport",
+      "index": "8-11",
+      "title": "File:Landing in Manila (53082228624).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Landing_in_Manila_(53082228624).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Landing_in_Manila_%2853082228624%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Landing_in_Manila_%2853082228624%29.jpg/1280px-Landing_in_Manila_%2853082228624%29.jpg",
+      "artist": "Quinn Dombrowski from Berkeley, USA",
+      "license": "CC BY-SA 2.0",
+      "date": "2023-05-27 05:56",
+      "description": "Landing in Manila",
+      "original_width": 4032,
+      "original_height": 3024,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-originals/8-11.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-converted/352-naia-airport-09.webp",
+      "sha256": "953b29507b6bb31441640f322dd68ef74a5abfd92ee0ef8e4baad689b90f07d4",
+      "url": "images/352-naia-airport-09.webp",
+      "output_sha256": "fa95400771e53a998e7c37050d557f5c4d480c0f076d9b6c3afae43b40fbc6d8",
+      "output_width": 1080,
+      "output_height": 810,
+      "original_visual_review": "2026-11-17 원본직접눈검수:실제NAIA장소/부품일치·워터마크없음·얼굴이주제아님",
+      "final_visual_review": "2026-11-17 최종WebP직접눈검수:원본내용·색·비율유지"
+    },
+    {
+      "id": 352,
+      "slug": "naia-airport",
+      "index": "1-27",
+      "title": "File:NAIA Terminal 3 renovation 4Feb2026 02.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NAIA_Terminal_3_renovation_4Feb2026_02.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/NAIA_Terminal_3_renovation_4Feb2026_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/NAIA_Terminal_3_renovation_4Feb2026_02.jpg/1280px-NAIA_Terminal_3_renovation_4Feb2026_02.jpg",
+      "artist": "RFNirmala",
+      "license": "CC0",
+      "date": "2026-02-04 06:48:41",
+      "description": "Renovation of Ninoy Aquino International Airport Terminal 3",
+      "original_width": 8064,
+      "original_height": 6048,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-originals/1-27.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/352-converted/352-naia-airport-10.webp",
+      "sha256": "b49946f1674b29d5402b7d9211cf1b9a7ccab5d754a6e79b7b7bd2641c33cd68",
+      "url": "images/352-naia-airport-10.webp",
+      "output_sha256": "b9457b2f55024abc3759b940a015e6dd3cdfcc42974ec8170ab86cab57fd50ad",
+      "output_width": 1080,
+      "output_height": 810,
+      "original_visual_review": "2026-11-17 원본직접눈검수:실제NAIA장소/부품일치·워터마크없음·얼굴이주제아님",
+      "final_visual_review": "2026-11-17 최종WebP직접눈검수:원본내용·색·비율유지"
+    }
+  ],
+  "original_post_ids": [
+    1275712962,
+    1275712426
+  ],
+  "original_tsv_rows": [
+    31,
+    1035
+  ],
+  "translation": {
+    "en": "직접집필·i18n export/check/import 통과"
+  },
+  "photo_diversity_review": {
+    "groups": 10,
+    "same_artist_day_duplicates": 0,
+    "originals_viewed": 28,
+    "finals_viewed": 10,
+    "excluded": "T4폐쇄시설/구단지항공사진,인물중심의전/도착/체크인혼잡,워터마크MNL/PCO,큰광고패널,거의같은구도·같은날연사제외"
+  },
+  "retrieval_notes": [
+    "newnaia본페이지는SPA여서Web직접열람본문0줄.공식JS에서공개본문API확인후transport와최신Undas공지JSON실제조회·본문직접읽음.검색스니펫을읽은것으로대체하지않음.",
+    "같은운영사의교통페이지일부구값과최신공지차이있어시간표·요금·특정Bay를본문고정하지않음.",
+    "공식공개본문API캐시는scratch에만보존,선정근거·메타·검증기록은work에보존"
+  ]
+}

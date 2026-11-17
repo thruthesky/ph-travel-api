@@ -1,0 +1,532 @@
+{
+  "id": 333,
+  "slug": "ayala-center-cebu",
+  "checked_at": "2026-11-17T08:59:34.507543+00:00",
+  "primary_philgo_post_ids": [
+    1275712987,
+    1275713511
+  ],
+  "facts": [
+    {
+      "where": "overview, identity",
+      "fact": "원문 중복 통합과 독립 상세",
+      "value": "Ayala Center Cebu, Cebu Business Park",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712987",
+          "grade": "C",
+          "says": "공개 API에서 idx·subject·content만 추출했다. 같은 몰의 중복 안내다."
+        },
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275713511",
+          "grade": "C",
+          "says": "공개 API에서 idx·subject·content만 추출했다. 같은 몰의 중복 안내다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ayala_Center_Cebu",
+          "grade": "B",
+          "says": "Cebu Business Park의 몰이며 Central Bloc과 다른 시설임을 확인했다."
+        },
+        {
+          "url": "https://buchan.au/projects/ayala-center-cebu/",
+          "grade": "A",
+          "says": "설계사 프로젝트 본문은 Cebu Business Park의 Ayala Center Cebu를 설명한다."
+        }
+      ],
+      "decision": "data.csv와 실제data/ko 및 원본CSV/TSV를 대조했다. 기존063세부시티·278IT파크의 지구 소개와 별도의 몰 상세로 신규 작성한다. 원문의 최대 순위·방문자 수·브랜드 전체목록·검증 안 된 숙소명·식당가격은 옮기지 않았다."
+    },
+    {
+      "where": "latitude, longitude",
+      "fact": "대표 지도 핀",
+      "value": "10.3181,123.9052",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/1290804007",
+          "grade": "B",
+          "says": "Nominatim은 commercial 도형 중심10.3181002,123.9051635와 경계10.3164983~10.3196932,123.9034057~123.9068647을 반환했다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ayala_Center_Cebu",
+          "grade": "B",
+          "says": "좌표10.31778,123.90500은 같은 몰 안 지점이다."
+        }
+      ],
+      "decision": "OSM 단지 도형 중심을 소수 네 자리로 썼다. 위키백과 핀과 약40m 차이이며 같은 몰이다. 정문·Terraces·도로 승차 위치와 단지 대표 핀은 구분한다."
+    },
+    {
+      "where": "overview, cautions",
+      "fact": "기존 몰 개보수와 별도 증축",
+      "value": "주요 개보수 완료 기록과 인접 증축은 별개",
+      "sources": [
+        {
+          "url": "https://ir.ayalaland.com.ph/wp-content/uploads/2026/04/ALI-2025-Integrated-Report.pdf",
+          "grade": "A",
+          "says": "직접 내려받고 pdftotext로 읽은2025통합보고서의 business model·운영 설명은2025년 Ayala Center Cebu 주요 reinvention works 완료를 기록한다."
+        },
+        {
+          "url": "https://ir.ayalaland.com.ph/sustainability/our-policies/redevelopment-of-brownfield-sites/",
+          "grade": "A",
+          "says": "운영사 본문은2024년 시작한1차 개보수 대상에 Ayala Center Cebu를 포함하며 상업 구성·공간 재정비를 설명한다."
+        },
+        {
+          "url": "https://www.philstar.com/cebu-business/2025/08/22/2467316/ayala-invests-p127-billion-cebu-mall-projects",
+          "grade": "B",
+          "says": "2025년8월22일 본문은 기존 개보수와 인접18,000㎡확장 계획을 구분한다."
+        },
+        {
+          "url": "https://suroy.ph/ayala-malls-cebu-business-park/",
+          "grade": "C",
+          "says": "2026년11월5일 갱신 안내는 운영 중인 몰과 Seda측 인접 공사 가림막을 구분한다."
+        }
+      ],
+      "decision": "전체공사 완료나 새증축동 개방을 약속하지 않는다. 미래 목표일·면적은 원고에 고정하지 않았다. 설계사 페이지의1차완료2026예상과 운영사보고서2025완료는 단계 표현이 달라 최근 실적기록을 우선하고 모든 구역 완료로 확대하지 않는다."
+    },
+    {
+      "where": "highlights, overview",
+      "fact": "더 테라시스와 새 중앙 공간",
+      "value": "녹지·식사·연결 통로·개보수된 실내",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ayala_Center_Cebu",
+          "grade": "B",
+          "says": "The Terraces를 식음료 시설과 녹지가 있는 몰 확장으로 설명한다."
+        },
+        {
+          "url": "https://buchan.au/projects/ayala-center-cebu/",
+          "grade": "A",
+          "says": "아트리움·활동센터·다이닝·영화관 로비·놀이 공간의 재설계를 설명한다."
+        },
+        {
+          "url": "https://philstarproperty.com/office/2025/07/25/41422/ayala-malls-reimagination-more-than-a-makeover-its-a-movement/",
+          "grade": "B",
+          "says": "경영진 설명을 취재한2025년7월25일 기사는 새 Activity Center와 실내 변경을 설명한다."
+        },
+        {
+          "url": "https://suroy.ph/ayala-malls-cebu-business-park/",
+          "grade": "C",
+          "says": "2026년 현장 안내는 여전히 이용하는Terraces와 바뀐실내를 보여준다."
+        }
+      ],
+      "decision": "원고는 녹지·층간 보행·실내 관찰을 소개하며 개장 연도·금액·LED벽 높이 같은 숫자는 쓰지 않았다.2022정원·2024상층통로는 구조와 분위기의 날짜 있는 기록이다. 전면 변경 전 중앙무대 사진은 제외했다."
+    },
+    {
+      "where": "highlights",
+      "fact": "영화관 현행 시설",
+      "value": "A-Giant·A-Luxe",
+      "sources": [
+        {
+          "url": "https://www.ayalaallaccess.com/sites/Ayala-Center-Cebu/1004",
+          "grade": "A",
+          "says": "web도구로 직접 읽은 운영사 본문은4thLevel의 A-Giant와 A-Luxe 시설을 소개한다. 당일 회차영역은 No showtimes available로 표시되었다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ayala_Center_Cebu",
+          "grade": "B",
+          "says": "새 A-Giant·A-Luxe 시설을 기록한다."
+        },
+        {
+          "url": "https://suroy.ph/ayala-malls-cebu-business-park/",
+          "grade": "C",
+          "says": "최근2026현장 안내에서도 해당 영화 시설을 설명한다."
+        }
+      ],
+      "decision": "형식과 좌석을 현재 예매 화면에서 확인할 선택지로 소개했다.2025년11월 개장과2026년4월 재출범 기사 간 행사 표현 차이가 있어 정확한 개장일·대형스크린 배수·정밀 좌석수·가격·현재 상영작은 쓰지 않았다. CDN기사본문은403이므로 읽었다고 기록하지 않는다. 직접HTTP의JS응답보다 web으로 확보한 운영사 본문을 근거로 삼았다."
+    },
+    {
+      "where": "best_time",
+      "fact": "자료가 어긋난 몰 영업시간",
+      "value": "고정 시간 미기재",
+      "sources": [
+        {
+          "url": "https://www.ayalamalls.com/main/malls/ayala-center-cebu/",
+          "grade": "A",
+          "says": "검색 색인에는 요일별 시간이 있지만 직접 연 현재 본문은 일반몰 탐색 화면만 제공하여 해당 시간표를 본문으로 재확인하지 못했다."
+        },
+        {
+          "url": "https://suroy.ph/ayala-malls-cebu-business-park/",
+          "grade": "C",
+          "says": "본문은10시개장으로 안내하면서 늦게닫는요일 표기가 다른 목록과 갈린다고 명시한다."
+        }
+      ],
+      "decision": "공식색인·원문·최근안내의 평일개장과 주말늦은마감 요일이 일치하지 않는다. 스니펫만으로 운영시간을 쓰지 않고 방문 날짜 운영사 공지와 점포별 시간을 확인하도록 안내했다. 주차시간·수하물보관·렌탈도 고정하지 않는다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "접근과 목적지 구분",
+      "value": "Business Park의 실제 출입문 확인",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ayala_Center_Cebu",
+          "grade": "B",
+          "says": "Business Park 주소와 주변 대중교통 접근을 설명한다."
+        },
+        {
+          "url": "https://suroy.ph/ayala-malls-cebu-business-park/",
+          "grade": "C",
+          "says": "차량·지프니 접근 및 공사쪽 임시동선을 설명한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Cebu_Business_Park_2025-08_035.jpg",
+          "grade": "C",
+          "says": "정면 차량 접근부와 실제 몰 이름을 확인했다."
+        }
+      ],
+      "decision": "특정노선 운항을 보장하지 않고 현재 차량 행선지·정류장 확인을 안내한다. 공항직행버스·고정소요시간·운임·막차·짐보관 운영은 미확정으로 제외한다. Central Bloc과마카티AyalaCenter 혼동방지, 대표핀과실제승차문 구분을 강조했다."
+    },
+    {
+      "where": "costs, budget",
+      "fact": "1인 반나절 개인 예산",
+      "value": "PHP700~1700",
+      "sources": [],
+      "decision": "식사300~600+음료100~250+시내왕복200~550+예비100~300=700~1700으로 계산한 개인 배분이다. 검증된 업체 판매가격이 아님을 명시했다. 쇼핑·영화·공항·숙박은 별도다."
+    }
+  ],
+  "images": [
+    {
+      "file": "333-ayala-center-cebu.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cebu_Business_Park_2025-08_035.jpg",
+      "credit": "Martin Michlmayr / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2025-08-06 10:03:23",
+      "author_date_group": "Martin Michlmayr|2025-08-06",
+      "check": "2025년 실제몰 정면·차량 접근부·표지.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu.webp",
+        "result": "원본과최종WebP각각열어장소·구도·글자·비율을직접대조했다.내용수정·합성·크롭없이수치변환만했다."
+      },
+      "source_metadata": {
+        "index": 6,
+        "cache": "ayala-all-category",
+        "title": "File:Cebu Business Park 2025-08 035.jpg",
+        "artist": "Martin Michlmayr",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cebu_Business_Park_2025-08_035.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Cebu_Business_Park_2025-08_035.jpg/1280px-Cebu_Business_Park_2025-08_035.jpg",
+        "width": 4032,
+        "height": 2268,
+        "date": "2025-08-06 10:03:23",
+        "description": "Ayala Center Cebu in Cebu Business Park",
+        "categories": "Ayala Center Cebu|Self-published work|Files with coordinates missing SDC location of creation|Photos by Martin Michlmayr",
+        "sha256": "dc689a60989f9803c310c17c48f1c7b84569f10c38fd96a31a2b34994e1a43c5",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu.webp",
+        "id": 333,
+        "slug": "ayala-center-cebu",
+        "number": 1
+      }
+    },
+    {
+      "file": "333-ayala-center-cebu-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Palm_trees_at_Ayala_Center_Cebu_(10-05-2022).jpg",
+      "credit": "PaulGorduiz106 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-10-05 17:23:43",
+      "author_date_group": "PaulGorduiz106|2022-10-05",
+      "check": "Terraces 야자수·정원계단의2022년 기록. 실내개보수전 무대사진과다른구역이다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-2.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-2.webp",
+        "result": "원본과최종WebP각각열어장소·구도·글자·비율을직접대조했다.내용수정·합성·크롭없이수치변환만했다."
+      },
+      "source_metadata": {
+        "index": 1,
+        "cache": "ayala-cebu-next-photos",
+        "title": "File:Palm trees at Ayala Center Cebu (10-05-2022).jpg",
+        "artist": "PaulGorduiz106",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Palm_trees_at_Ayala_Center_Cebu_(10-05-2022).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-2.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Palm_trees_at_Ayala_Center_Cebu_%2810-05-2022%29.jpg/1280px-Palm_trees_at_Ayala_Center_Cebu_%2810-05-2022%29.jpg",
+        "width": 3264,
+        "height": 2176,
+        "date": "2022-10-05 17:23:43",
+        "description": "Palm trees at Ayala Center Cebu.",
+        "categories": "Self-published work|Arecaceae in the Philippines|Philippines photographs taken on 2022-10-05|The Terraces at Ayala Center Cebu|Photographs by Thewideawake1 taken with Fujifilm FinePix HS30EXR|Photographs of Cebu City by Thewideawake1|October 2022 photographs by Thewideawake1",
+        "sha256": "98751a4fd87ca4494420abefc50e8ed24649f9f0652d5677c62bdd6e00726e19",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-2.webp",
+        "id": 333,
+        "slug": "ayala-center-cebu",
+        "number": 2
+      }
+    },
+    {
+      "file": "333-ayala-center-cebu-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Terraces_at_Ayala_Center_Cebu_(2025-04-01).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2025-04-01 17:07:14",
+      "author_date_group": "Wide Awake!|2025-04-01",
+      "check": "2025년 Terraces 상층의 테이블·개방휴게구역. 전망 전체 사진으로 표현하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-3.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-3.webp",
+        "result": "원본과최종WebP각각열어장소·구도·글자·비율을직접대조했다.내용수정·합성·크롭없이수치변환만했다."
+      },
+      "source_metadata": {
+        "index": 11,
+        "cache": "ayala-wide-next-photos",
+        "title": "File:The Terraces at Ayala Center Cebu (2025-04-01).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_Terraces_at_Ayala_Center_Cebu_(2025-04-01).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-3.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/The_Terraces_at_Ayala_Center_Cebu_%282025-04-01%29.jpg/1280px-The_Terraces_at_Ayala_Center_Cebu_%282025-04-01%29.jpg",
+        "width": 2176,
+        "height": 3264,
+        "date": "2025-04-01 17:07:14",
+        "description": "The Terraces located at Ayala Center Cebu is located in Cebu City.",
+        "categories": "Self-published work|Philippines photographs taken on 2025-04-01|The Terraces at Ayala Center Cebu|Photographs by Thewideawake1 taken with Fujifilm FinePix HS30EXR|Photographs of Cebu City by Thewideawake1|April 2025 photographs by Thewideawake1",
+        "sha256": "25691b37527cd2565fa89d58378f1ebcf41c250577c574d44f21014f29de18b0",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-3.webp",
+        "id": 333,
+        "slug": "ayala-center-cebu",
+        "number": 3
+      }
+    },
+    {
+      "file": "333-ayala-center-cebu-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Terraces_third_floor_at_Ayala_Center_Cebu_(2024-12-28).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-12-28 15:00:25",
+      "author_date_group": "Wide Awake!|2024-12-28",
+      "check": "2024년 Terraces 상층의 지붕있는 연결통로와녹지.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-4.webp",
+        "result": "원본과최종WebP각각열어장소·구도·글자·비율을직접대조했다.내용수정·합성·크롭없이수치변환만했다."
+      },
+      "source_metadata": {
+        "index": 9,
+        "cache": "ayala-wide-next-photos",
+        "title": "File:The Terraces third floor at Ayala Center Cebu (2024-12-28).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_Terraces_third_floor_at_Ayala_Center_Cebu_(2024-12-28).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-4.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/The_Terraces_third_floor_at_Ayala_Center_Cebu_%282024-12-28%29.jpg/1280px-The_Terraces_third_floor_at_Ayala_Center_Cebu_%282024-12-28%29.jpg",
+        "width": 4080,
+        "height": 3072,
+        "date": "2024-12-28 15:00:25",
+        "description": "Third floor of The Terraces at Ayala Center Cebu located in Cebu City.",
+        "categories": "Self-published work|Philippines photographs taken on 2024-12-28|The Terraces at Ayala Center Cebu|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|December 2024 photographs by Thewideawake1",
+        "sha256": "da7dfcb4348c0ef445d2de7292bcad8a242e4d7ebee2f5b7c3c2ccc3aff97d59",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-4.webp",
+        "id": 333,
+        "slug": "ayala-center-cebu",
+        "number": 4
+      }
+    },
+    {
+      "file": "333-ayala-center-cebu-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Ayala_Christmas_2025_010.jpg",
+      "credit": "Martin Michlmayr / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2025-12-25 18:51:51",
+      "author_date_group": "Martin Michlmayr|2025-12-25",
+      "check": "2025년12월25일 실내 중앙공간 크리스마스 장식. 올해같은설치·무료공연을약속하지않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-5.webp",
+        "result": "원본과최종WebP각각열어장소·구도·글자·비율을직접대조했다.내용수정·합성·크롭없이수치변환만했다."
+      },
+      "source_metadata": {
+        "index": 45,
+        "cache": "ayala-cebu-next-photos",
+        "title": "File:Ayala Christmas 2025 010.jpg",
+        "artist": "Martin Michlmayr",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ayala_Christmas_2025_010.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-5.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Ayala_Christmas_2025_010.jpg/1280px-Ayala_Christmas_2025_010.jpg",
+        "width": 4032,
+        "height": 2268,
+        "date": "2025-12-25 18:51:51",
+        "description": "Christmas decorations at Ayala in 2025",
+        "categories": "Self-published work|Christmas trees in the Philippines|Files with coordinates missing SDC location of creation|Interior of Ayala Center Cebu|Photos by Martin Michlmayr",
+        "sha256": "d8eae62e812d0a68d8341b05610671eb85f3f7ed270d4be11ec005766b518308",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-5.webp",
+        "id": 333,
+        "slug": "ayala-center-cebu",
+        "number": 5
+      }
+    },
+    {
+      "file": "333-ayala-center-cebu-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Kulinarya_at_Ayala_Center_Cebu_(2026-10-31).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2026-10-31 15:04:44",
+      "author_date_group": "Wide Awake!|2026-10-31",
+      "check": "2026년10월31일 Kulinarya 식당가 공용좌석. 현행메뉴·요금근거로쓰지않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-6.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-6.webp",
+        "result": "원본과최종WebP각각열어장소·구도·글자·비율을직접대조했다.내용수정·합성·크롭없이수치변환만했다."
+      },
+      "source_metadata": {
+        "index": 6,
+        "cache": "ayala-new-next-photos",
+        "title": "File:Kulinarya at Ayala Center Cebu (2026-10-31).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kulinarya_at_Ayala_Center_Cebu_(2026-10-31).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-6.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Kulinarya_at_Ayala_Center_Cebu_%282026-10-31%29.jpg/1280px-Kulinarya_at_Ayala_Center_Cebu_%282026-10-31%29.jpg",
+        "width": 4080,
+        "height": 3072,
+        "date": "2026-10-31 15:04:44",
+        "description": "Location: Ayala Center Cebu, Cebu CityCamera: Realme Narzo 50A Prime",
+        "categories": "Self-published work|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Self-published work missing SDC copyright license|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|October 2026 photographs by Thewideawake1|Philippines photographs taken on 2026-10-31|Kulinarya at Ayala Center Cebu",
+        "sha256": "da3cd1786c639d5ec381a55c753a75be5e5ed88e6f7d6ad0ff6f6379c09b3e3d",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-6.webp",
+        "id": 333,
+        "slug": "ayala-center-cebu",
+        "number": 6
+      }
+    },
+    {
+      "file": "333-ayala-center-cebu-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:True_Value_at_the_Ayala_Center_Cebu_(2026-05-23).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2026-05-23 14:12:32",
+      "author_date_group": "Wide Awake!|2026-05-23",
+      "check": "2026년5월23일 TrueValue점포와실내통로. 쇼핑공간예시.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-7.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-7.webp",
+        "result": "원본과최종WebP각각열어장소·구도·글자·비율을직접대조했다.내용수정·합성·크롭없이수치변환만했다."
+      },
+      "source_metadata": {
+        "index": 2,
+        "cache": "ayala-new-next-photos",
+        "title": "File:True Value at the Ayala Center Cebu (2026-05-23).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:True_Value_at_the_Ayala_Center_Cebu_(2026-05-23).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-7.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/True_Value_at_the_Ayala_Center_Cebu_%282026-05-23%29.jpg/1280px-True_Value_at_the_Ayala_Center_Cebu_%282026-05-23%29.jpg",
+        "width": 4160,
+        "height": 3120,
+        "date": "2026-05-23 14:12:32",
+        "description": "Location: Ayala Center Cebu, Cebu CityCamera: Tecno Spark Go 1S",
+        "categories": "True Value|Self-published work|Interior of Ayala Center Cebu|Photographs of Cebu City by Thewideawake1|Photographs by Thewideawake1 taken with Tecno Spark Go 1S|May 2026 photographs by Thewideawake1|Philippines photographs taken on 2026-05-23",
+        "sha256": "64ed0f969e7481ac9035cbbdf9d32d9facf689b6841d3a22513cc71179004886",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-7.webp",
+        "id": 333,
+        "slug": "ayala-center-cebu",
+        "number": 7
+      }
+    },
+    {
+      "file": "333-ayala-center-cebu-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Ladies_Jeans_at_Metro_Ayala_Cebu_(2024-04-09).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-04-09 15:22:30",
+      "author_date_group": "Wide Awake!|2024-04-09",
+      "check": "2024년 Metro백화점의류매대. 현재재고나배치보장없음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-8.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-8.webp",
+        "result": "원본과최종WebP각각열어장소·구도·글자·비율을직접대조했다.내용수정·합성·크롭없이수치변환만했다."
+      },
+      "source_metadata": {
+        "index": 21,
+        "cache": "ayala-cebu-next-photos",
+        "title": "File:Ladies Jeans at Metro Ayala Cebu (2024-04-09).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ladies_Jeans_at_Metro_Ayala_Cebu_(2024-04-09).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-8.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ladies_Jeans_at_Metro_Ayala_Cebu_%282024-04-09%29.jpg/1280px-Ladies_Jeans_at_Metro_Ayala_Cebu_%282024-04-09%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "date": "2024-04-09 15:22:30",
+        "description": "Ladies Jeans at Metro Ayala Cebu at the Ayala Center Cebu.",
+        "categories": "Self-published work|Philippines photographs taken on 2024-04-09|Metro Ayala Cebu|Photographs by Thewideawake1 taken with Fujifilm FinePix HS30EXR|Photographs of Cebu City by Thewideawake1|April 2024 photographs by Thewideawake1",
+        "sha256": "648921c4d25f845e28e4db5ac4be5d7dbc26de58a327bf20bc315054c5ba8d84",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-8.webp",
+        "id": 333,
+        "slug": "ayala-center-cebu",
+        "number": 8
+      }
+    },
+    {
+      "file": "333-ayala-center-cebu-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_at_Ayala_Center_Cebu_(2024-02-25).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-02-25 16:51:46",
+      "author_date_group": "Wide Awake!|2024-02-25",
+      "check": "2024년 장난감매장과가족쇼핑공간. 현점포추천영업보장이아닌촬영기록.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-9.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-9.webp",
+        "result": "원본과최종WebP각각열어장소·구도·글자·비율을직접대조했다.내용수정·합성·크롭없이수치변환만했다."
+      },
+      "source_metadata": {
+        "index": 15,
+        "cache": "ayala-cebu-next-photos",
+        "title": "File:Toys \"R\" Us at Ayala Center Cebu (2024-02-25).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_at_Ayala_Center_Cebu_(2024-02-25).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-9.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Toys_%22R%22_Us_at_Ayala_Center_Cebu_%282024-02-25%29.jpg/1280px-Toys_%22R%22_Us_at_Ayala_Center_Cebu_%282024-02-25%29.jpg",
+        "width": 8064,
+        "height": 6144,
+        "date": "2024-02-25 16:51:46",
+        "description": "Toys \"R\" Us at Ayala Center Cebu in Cebu City.",
+        "categories": "Self-published work|Toys \"R\" Us in the Philippines|Philippines photographs taken on 2024-02-25|Interior of Ayala Center Cebu|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|February 2024 photographs by Thewideawake1",
+        "sha256": "935e4a6d77f6828f191f2a029ae72f58c8d6f8a06429d3a16fadaf602bbcbd39",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-9.webp",
+        "id": 333,
+        "slug": "ayala-center-cebu",
+        "number": 9
+      }
+    },
+    {
+      "file": "333-ayala-center-cebu-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mr._DIY_at_Ayala_Center_Cebu_(2025-01-01).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2025-01-01 16:16:14",
+      "author_date_group": "Wide Awake!|2025-01-01",
+      "check": "2025년 생활용품매대와계산대. 이전사진과다른날짜·구도다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-10.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-10.webp",
+        "result": "원본과최종WebP각각열어장소·구도·글자·비율을직접대조했다.내용수정·합성·크롭없이수치변환만했다."
+      },
+      "source_metadata": {
+        "index": 39,
+        "cache": "ayala-cebu-next-photos",
+        "title": "File:Mr. DIY at Ayala Center Cebu (2025-01-01).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mr._DIY_at_Ayala_Center_Cebu_(2025-01-01).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-10.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Mr._DIY_at_Ayala_Center_Cebu_%282025-01-01%29.jpg/1280px-Mr._DIY_at_Ayala_Center_Cebu_%282025-01-01%29.jpg",
+        "width": 4080,
+        "height": 3072,
+        "date": "2025-01-01 16:16:14",
+        "description": "Mr. DIY located at Ayala Center Cebu is located in Cebu City.",
+        "categories": "MR.DIY|Self-published work|Philippines photographs taken on 2025-01-01|Interior of Ayala Center Cebu|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|January 2025 photographs by Thewideawake1",
+        "sha256": "39548698b7ee9657ec8e019a1c18b7b97eb9047b07eaff382ceddc2a79db8b73",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-10.webp",
+        "id": 333,
+        "slug": "ayala-center-cebu",
+        "number": 10
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_author_date_groups": 10,
+    "groups_note": "같은작가는다른날짜만사용했다.정면·정원·상층휴게·연결통로·계절실내·최근식당가·생활매장·백화점·가족쇼핑을대조했다.",
+    "conversion": "Codex CLI 수치리사이즈1080px·WebP품질80·종횡비유지.내용생성·수정·합성없음.",
+    "prompt": "work/parallel-1992/visayas/333-ayala-center-cebu-prompt.txt",
+    "report": "work/parallel-1992/visayas/333-conversion-report.json"
+  },
+  "archives": {
+    "philgo": "_i18n/work/parallel-1992/visayas/research333/philgo-1275712987.json",
+    "philgo_duplicate": "_i18n/work/parallel-1992/visayas/research333/philgo-1275713511.json",
+    "annual": "_i18n/work/parallel-1992/visayas/research333/annual2025.pdf",
+    "annual_text": "_i18n/work/parallel-1992/visayas/research333/annual2025.txt",
+    "news": "_i18n/work/parallel-1992/visayas/research333/news.html",
+    "osm": "_i18n/work/parallel-1992/visayas/research333/osm.json"
+  }
+}

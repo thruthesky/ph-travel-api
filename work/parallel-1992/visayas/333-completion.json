@@ -1,0 +1,68 @@
+{
+  "id": 333,
+  "slug": "ayala-center-cebu",
+  "status": "한영 상세·사진·출처 검증 완료 후 data 반영",
+  "primary_philgo_post_ids": [
+    1275712987,
+    1275713511
+  ],
+  "ko": "data/ko/333-ayala-center-cebu.json",
+  "en": "data/en/333-ayala-center-cebu.json",
+  "sources": "sources/333-ayala-center-cebu.json",
+  "body_characters_ko": 5926,
+  "body_characters_en": 10051,
+  "body_characters_basis": "build visibleText sections·구분공백 포함",
+  "section_count": 10,
+  "highlights": 6,
+  "translation_lines": 114,
+  "image_count": 10,
+  "unique_author_date_groups": 10,
+  "image_bytes": 1480786,
+  "images_metadata": "work/parallel-1992/visayas/333-image-preparation.json",
+  "images_check": "work/parallel-1992/visayas/333-images-check.json",
+  "images_check_levels": {
+    "고칠 것": 0,
+    "먼저 볼 것": 0,
+    "눈으로 볼 것": 8,
+    "맞음": 2
+  },
+  "visual_review": "선별 원본10장과 최종WebP10장을 각각 열어 장소·장면·글자·비율을 대조했다. 위치메타 없는8장은 제목·설명·형태·공식사진과 본문으로 확인했다.",
+  "image_conversion": {
+    "tool": "Codex CLI",
+    "operation": "수치 리사이즈·WebP변환만, 내용수정·합성 없음",
+    "width": 1080,
+    "quality": 80,
+    "tokens": 29278,
+    "report": "work/parallel-1992/visayas/333-conversion-report.json",
+    "prompt": "work/parallel-1992/visayas/333-ayala-center-cebu-prompt.txt"
+  },
+  "validation": {
+    "export": "114줄 통과",
+    "check_en": "통과",
+    "import_en": "통과",
+    "isolated_build": "294곳 × en·ko 통과",
+    "isolated_version": "dd8e37eaf28c",
+    "isolated_path": "_i18n/work/parallel-1992/visayas/validation-333/_site/v2",
+    "scope_note": "전역빌드·다른언어·meta·카탈로그·커밋은 부모 담당"
+  },
+  "usage": {
+    "commons_requests": 6,
+    "image_download_success": 10,
+    "selected_images": 10,
+    "codex_cli": 2,
+    "codex_cli_completed": 1,
+    "codex_cli_interrupted": 1,
+    "translation_api": 0,
+    "image_generation": 0,
+    "web_search_queries": 4,
+    "web_open": 12,
+    "web_find": 2,
+    "http_requests": 8,
+    "http_success": 7,
+    "nominatim": 1,
+    "philgo_api": 2,
+    "images_check_runs": 1,
+    "note": "Codex 첫 실행은 이전항목SHA를발견해가공전중단했고정확한SHA로프롬프트수정후10장완료했다.부모의전역기록에부분계수와합산한다."
+  },
+  "completed_at": "2026-11-17T09:00:13.950280+00:00"
+}

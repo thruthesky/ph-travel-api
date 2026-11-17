@@ -1,0 +1,61 @@
+{
+  "id": 332,
+  "slug": "sm-seaside-city-cebu",
+  "status": "한영 상세·사진·출처 검증 완료 후 data 반영",
+  "primary_philgo_post_ids": [
+    1275712982,
+    1275713514
+  ],
+  "ko": "data/ko/332-sm-seaside-city-cebu.json",
+  "en": "data/en/332-sm-seaside-city-cebu.json",
+  "sources": "sources/332-sm-seaside-city-cebu.json",
+  "body_characters_ko": 5967,
+  "body_characters_en": 10149,
+  "body_characters_basis": "build visibleText sections·구분공백 포함",
+  "section_count": 10,
+  "highlights": 6,
+  "translation_lines": 114,
+  "image_count": 10,
+  "unique_author_date_groups": 10,
+  "image_bytes": 1326830,
+  "images_metadata": "work/parallel-1992/visayas/332-image-preparation.json",
+  "images_check": "work/parallel-1992/visayas/332-images-check.json",
+  "images_check_levels": {
+    "고칠 것": 0,
+    "먼저 볼 것": 0,
+    "눈으로 볼 것": 10,
+    "맞음": 0
+  },
+  "visual_review": "선별 원본10장과 최종WebP10장을 각각 열어 장소·장면·글자·비율을 대조했다. 위치메타 없는10장은 제목·설명·형태·공식사진과 본문으로 확인했다.",
+  "image_conversion": {
+    "tool": "Codex CLI",
+    "operation": "수치 리사이즈·WebP변환만, 내용수정·합성 없음",
+    "width": 1080,
+    "quality": 80,
+    "tokens": 27087,
+    "report": "work/parallel-1992/visayas/332-conversion-report.json",
+    "prompt": "work/parallel-1992/visayas/332-sm-seaside-city-cebu-prompt.txt"
+  },
+  "validation": {
+    "export": "114줄 통과",
+    "check_en": "통과",
+    "import_en": "통과",
+    "isolated_build": "293곳 × en·ko 통과",
+    "isolated_version": "031b73eddc58",
+    "isolated_path": "_i18n/work/parallel-1992/visayas/validation-332/_site/v2",
+    "scope_note": "전역빌드·다른언어·meta·카탈로그·커밋은 부모 담당"
+  },
+  "usage": {
+    "image_download_success": 10,
+    "selected_images": 10,
+    "codex_cli": 1,
+    "translation_api": 0,
+    "image_generation": 0,
+    "nominatim": 1,
+    "philgo_api": 2,
+    "images_check_runs": 1,
+    "archived_http_sources": 8,
+    "note": "정확히 확인 가능한 산출물·호출만 계수했다. 이전 컨텍스트의 web 검색·열기 및 실패HTTP 수는 합산 불가로 미계상이며0으로 간주하지 않는다."
+  },
+  "completed_at": "2026-11-17T08:49:09.986556+00:00"
+}

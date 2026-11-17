@@ -1,0 +1,576 @@
+{
+  "created_at": "2026-11-17T08:39:06.481268+00:00",
+  "operation": "가로 1080px, 원본 종횡비 유지, WebP 품질 80 수치 변환",
+  "encoder": "cwebp",
+  "quality": 80,
+  "target_width": 1080,
+  "height_policy": "cwebp -resize 1080 0으로 비율을 유지하며 정수 픽셀 높이 계산",
+  "metadata_policy": "원본 메타데이터 보존; 색보정이나 방향 변환 없음",
+  "validation": "ImageMagick 전체 디코딩 및 WebP 결과의 dwebp 전체 디코딩, 원본 SHA256 전후 비교",
+  "total": 10,
+  "success_count": 10,
+  "failure_count": 0,
+  "success": true,
+  "items": [
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu.webp",
+      "expected_input_sha256": "4b4a635ab6781255c60d0217dcf17e60fa05dff2b5ac50ff392e94d48191946b",
+      "original": {
+        "full_decode_success": true,
+        "sha256": "4b4a635ab6781255c60d0217dcf17e60fa05dff2b5ac50ff392e94d48191946b",
+        "bytes": 393716,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG"
+      },
+      "result": {
+        "sha256": "7010773884ede7af97a34510a064d6043949c62e323530c83b99ef1cdfa62cc3",
+        "bytes": 168820,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "full_decode_success": true,
+        "libwebp_full_decode_success": true
+      },
+      "success": true,
+      "input_sha256_match": true,
+      "preflight_success": true,
+      "original_after": {
+        "sha256": "4b4a635ab6781255c60d0217dcf17e60fa05dff2b5ac50ff392e94d48191946b",
+        "bytes": 393716
+      },
+      "original_unchanged": true,
+      "conversion_command": [
+        "cwebp",
+        "-quiet",
+        "-q",
+        "80",
+        "-metadata",
+        "all",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu.webp"
+      ],
+      "checks": {
+        "width_exactly_1080": true,
+        "webp_format": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "height_rounding_error_pixels": 0.0,
+        "no_upscale": true,
+        "quality_parameter_80": true,
+        "no_crop": true,
+        "no_color_correction": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-2.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-2.webp",
+      "expected_input_sha256": "95d6995f6c0d411a4f8f5a50b1a0ba9710875a30372766d17a7104454ca7ec93",
+      "original": {
+        "full_decode_success": true,
+        "sha256": "95d6995f6c0d411a4f8f5a50b1a0ba9710875a30372766d17a7104454ca7ec93",
+        "bytes": 313849,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG"
+      },
+      "result": {
+        "sha256": "4f9a15bdcb3b3afba2ecb1642869c3a90845435c1fe8711c5aff49583eb6b66f",
+        "bytes": 125960,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "full_decode_success": true,
+        "libwebp_full_decode_success": true
+      },
+      "success": true,
+      "input_sha256_match": true,
+      "preflight_success": true,
+      "original_after": {
+        "sha256": "95d6995f6c0d411a4f8f5a50b1a0ba9710875a30372766d17a7104454ca7ec93",
+        "bytes": 313849
+      },
+      "original_unchanged": true,
+      "conversion_command": [
+        "cwebp",
+        "-quiet",
+        "-q",
+        "80",
+        "-metadata",
+        "all",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-2.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-2.webp"
+      ],
+      "checks": {
+        "width_exactly_1080": true,
+        "webp_format": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "height_rounding_error_pixels": 0.0,
+        "no_upscale": true,
+        "quality_parameter_80": true,
+        "no_crop": true,
+        "no_color_correction": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-3.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-3.webp",
+      "expected_input_sha256": "3da6e5320041f9964b19ffc038a245d3543d1ad7c19a598065e45b52ebbc238e",
+      "original": {
+        "full_decode_success": true,
+        "sha256": "3da6e5320041f9964b19ffc038a245d3543d1ad7c19a598065e45b52ebbc238e",
+        "bytes": 313017,
+        "width": 1280,
+        "height": 964,
+        "format": "JPEG"
+      },
+      "result": {
+        "sha256": "75a9e4009a629341979916ce1830ea16a997fd7ec0442c081942c17caacc3221",
+        "bytes": 118810,
+        "width": 1080,
+        "height": 814,
+        "format": "WEBP",
+        "full_decode_success": true,
+        "libwebp_full_decode_success": true
+      },
+      "success": true,
+      "input_sha256_match": true,
+      "preflight_success": true,
+      "original_after": {
+        "sha256": "3da6e5320041f9964b19ffc038a245d3543d1ad7c19a598065e45b52ebbc238e",
+        "bytes": 313017
+      },
+      "original_unchanged": true,
+      "conversion_command": [
+        "cwebp",
+        "-quiet",
+        "-q",
+        "80",
+        "-metadata",
+        "all",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-3.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-3.webp"
+      ],
+      "checks": {
+        "width_exactly_1080": true,
+        "webp_format": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "height_rounding_error_pixels": 0.625,
+        "no_upscale": true,
+        "quality_parameter_80": true,
+        "no_crop": true,
+        "no_color_correction": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-4.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-4.webp",
+      "expected_input_sha256": "e68e6161bfcac048b405d410c39c0d6457747ac51efa46d00811151e38921e30",
+      "original": {
+        "full_decode_success": true,
+        "sha256": "e68e6161bfcac048b405d410c39c0d6457747ac51efa46d00811151e38921e30",
+        "bytes": 542040,
+        "width": 1280,
+        "height": 1680,
+        "format": "JPEG"
+      },
+      "result": {
+        "sha256": "d24a3e9cd5847bd57ec9f96072b13328686edd3917774d08d2b9aa599b9cd322",
+        "bytes": 195560,
+        "width": 1080,
+        "height": 1418,
+        "format": "WEBP",
+        "full_decode_success": true,
+        "libwebp_full_decode_success": true
+      },
+      "success": true,
+      "input_sha256_match": true,
+      "preflight_success": true,
+      "original_after": {
+        "sha256": "e68e6161bfcac048b405d410c39c0d6457747ac51efa46d00811151e38921e30",
+        "bytes": 542040
+      },
+      "original_unchanged": true,
+      "conversion_command": [
+        "cwebp",
+        "-quiet",
+        "-q",
+        "80",
+        "-metadata",
+        "all",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-4.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-4.webp"
+      ],
+      "checks": {
+        "width_exactly_1080": true,
+        "webp_format": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "height_rounding_error_pixels": 0.5,
+        "no_upscale": true,
+        "quality_parameter_80": true,
+        "no_crop": true,
+        "no_color_correction": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-5.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-5.webp",
+      "expected_input_sha256": "069f747f2f2c57451691094131caf12166cc3b0027e3bfb559bff0b2fe58b14a",
+      "original": {
+        "full_decode_success": true,
+        "sha256": "069f747f2f2c57451691094131caf12166cc3b0027e3bfb559bff0b2fe58b14a",
+        "bytes": 355852,
+        "width": 1280,
+        "height": 975,
+        "format": "JPEG"
+      },
+      "result": {
+        "sha256": "66115dc7a2a37998dc8b63b3fbb810bd8942e13d0f6dd6be41b6cbb85bbe895f",
+        "bytes": 144908,
+        "width": 1080,
+        "height": 823,
+        "format": "WEBP",
+        "full_decode_success": true,
+        "libwebp_full_decode_success": true
+      },
+      "success": true,
+      "input_sha256_match": true,
+      "preflight_success": true,
+      "original_after": {
+        "sha256": "069f747f2f2c57451691094131caf12166cc3b0027e3bfb559bff0b2fe58b14a",
+        "bytes": 355852
+      },
+      "original_unchanged": true,
+      "conversion_command": [
+        "cwebp",
+        "-quiet",
+        "-q",
+        "80",
+        "-metadata",
+        "all",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-5.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-5.webp"
+      ],
+      "checks": {
+        "width_exactly_1080": true,
+        "webp_format": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "height_rounding_error_pixels": 0.34375,
+        "no_upscale": true,
+        "quality_parameter_80": true,
+        "no_crop": true,
+        "no_color_correction": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-6.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-6.webp",
+      "expected_input_sha256": "7a50aa7f1b4a3073574eba55472f26cc050b1b3947edc4f912d7d35713402eac",
+      "original": {
+        "full_decode_success": true,
+        "sha256": "7a50aa7f1b4a3073574eba55472f26cc050b1b3947edc4f912d7d35713402eac",
+        "bytes": 358024,
+        "width": 1280,
+        "height": 964,
+        "format": "JPEG"
+      },
+      "result": {
+        "sha256": "286ddfcdfa9689b8b206302c5dc5d4349891dd15c2a77f8e50db98ab155cbbde",
+        "bytes": 150900,
+        "width": 1080,
+        "height": 814,
+        "format": "WEBP",
+        "full_decode_success": true,
+        "libwebp_full_decode_success": true
+      },
+      "success": true,
+      "input_sha256_match": true,
+      "preflight_success": true,
+      "original_after": {
+        "sha256": "7a50aa7f1b4a3073574eba55472f26cc050b1b3947edc4f912d7d35713402eac",
+        "bytes": 358024
+      },
+      "original_unchanged": true,
+      "conversion_command": [
+        "cwebp",
+        "-quiet",
+        "-q",
+        "80",
+        "-metadata",
+        "all",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-6.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-6.webp"
+      ],
+      "checks": {
+        "width_exactly_1080": true,
+        "webp_format": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "height_rounding_error_pixels": 0.625,
+        "no_upscale": true,
+        "quality_parameter_80": true,
+        "no_crop": true,
+        "no_color_correction": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-7.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-7.webp",
+      "expected_input_sha256": "be1ddfac5cc5384b8c248c333dfb23162223de1bca06eed098ab4672a25acc42",
+      "original": {
+        "full_decode_success": true,
+        "sha256": "be1ddfac5cc5384b8c248c333dfb23162223de1bca06eed098ab4672a25acc42",
+        "bytes": 335979,
+        "width": 1280,
+        "height": 853,
+        "format": "JPEG"
+      },
+      "result": {
+        "sha256": "5057173b1debcab6a04fdb041e5a84024890c6f1022e329fa3939958a1c1783c",
+        "bytes": 127308,
+        "width": 1080,
+        "height": 720,
+        "format": "WEBP",
+        "full_decode_success": true,
+        "libwebp_full_decode_success": true
+      },
+      "success": true,
+      "input_sha256_match": true,
+      "preflight_success": true,
+      "original_after": {
+        "sha256": "be1ddfac5cc5384b8c248c333dfb23162223de1bca06eed098ab4672a25acc42",
+        "bytes": 335979
+      },
+      "original_unchanged": true,
+      "conversion_command": [
+        "cwebp",
+        "-quiet",
+        "-q",
+        "80",
+        "-metadata",
+        "all",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-7.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-7.webp"
+      ],
+      "checks": {
+        "width_exactly_1080": true,
+        "webp_format": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "height_rounding_error_pixels": 0.28125,
+        "no_upscale": true,
+        "quality_parameter_80": true,
+        "no_crop": true,
+        "no_color_correction": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-8.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-8.webp",
+      "expected_input_sha256": "970a2c8a2331afebf4990d23cadaee14cf4ef81272d97cc961fdca294492be5d",
+      "original": {
+        "full_decode_success": true,
+        "sha256": "970a2c8a2331afebf4990d23cadaee14cf4ef81272d97cc961fdca294492be5d",
+        "bytes": 205529,
+        "width": 1280,
+        "height": 853,
+        "format": "JPEG"
+      },
+      "result": {
+        "sha256": "f12ea428d64c92954f70c38f275d0e4626d4c2be6601fca0fada137e93efa999",
+        "bytes": 65742,
+        "width": 1080,
+        "height": 720,
+        "format": "WEBP",
+        "full_decode_success": true,
+        "libwebp_full_decode_success": true
+      },
+      "success": true,
+      "input_sha256_match": true,
+      "preflight_success": true,
+      "original_after": {
+        "sha256": "970a2c8a2331afebf4990d23cadaee14cf4ef81272d97cc961fdca294492be5d",
+        "bytes": 205529
+      },
+      "original_unchanged": true,
+      "conversion_command": [
+        "cwebp",
+        "-quiet",
+        "-q",
+        "80",
+        "-metadata",
+        "all",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-8.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-8.webp"
+      ],
+      "checks": {
+        "width_exactly_1080": true,
+        "webp_format": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "height_rounding_error_pixels": 0.28125,
+        "no_upscale": true,
+        "quality_parameter_80": true,
+        "no_crop": true,
+        "no_color_correction": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-9.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-9.webp",
+      "expected_input_sha256": "17086ba24404130d4a064f37a5c2d1f5eac2ba5585e12364e39bb1bc41040cc9",
+      "original": {
+        "full_decode_success": true,
+        "sha256": "17086ba24404130d4a064f37a5c2d1f5eac2ba5585e12364e39bb1bc41040cc9",
+        "bytes": 315021,
+        "width": 1280,
+        "height": 975,
+        "format": "JPEG"
+      },
+      "result": {
+        "sha256": "ee971d1bd372e3d94c3f9dad6b0991c549e5a31530c665158b838974ef341c6e",
+        "bytes": 117596,
+        "width": 1080,
+        "height": 823,
+        "format": "WEBP",
+        "full_decode_success": true,
+        "libwebp_full_decode_success": true
+      },
+      "success": true,
+      "input_sha256_match": true,
+      "preflight_success": true,
+      "original_after": {
+        "sha256": "17086ba24404130d4a064f37a5c2d1f5eac2ba5585e12364e39bb1bc41040cc9",
+        "bytes": 315021
+      },
+      "original_unchanged": true,
+      "conversion_command": [
+        "cwebp",
+        "-quiet",
+        "-q",
+        "80",
+        "-metadata",
+        "all",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-9.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-9.webp"
+      ],
+      "checks": {
+        "width_exactly_1080": true,
+        "webp_format": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "height_rounding_error_pixels": 0.34375,
+        "no_upscale": true,
+        "quality_parameter_80": true,
+        "no_crop": true,
+        "no_color_correction": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-10.webp",
+      "expected_input_sha256": "7bf16b7a81e066f45e2c4b539b44f06d470a084c12ac86f210af3a7e03a84262",
+      "original": {
+        "full_decode_success": true,
+        "sha256": "7bf16b7a81e066f45e2c4b539b44f06d470a084c12ac86f210af3a7e03a84262",
+        "bytes": 322452,
+        "width": 1280,
+        "height": 1707,
+        "format": "JPEG"
+      },
+      "result": {
+        "sha256": "be34660bab826bdbb1fb5f34d53104d23d05557da26d8c7f9a56849c999ef0b3",
+        "bytes": 111226,
+        "width": 1080,
+        "height": 1441,
+        "format": "WEBP",
+        "full_decode_success": true,
+        "libwebp_full_decode_success": true
+      },
+      "success": true,
+      "input_sha256_match": true,
+      "preflight_success": true,
+      "original_after": {
+        "sha256": "7bf16b7a81e066f45e2c4b539b44f06d470a084c12ac86f210af3a7e03a84262",
+        "bytes": 322452
+      },
+      "original_unchanged": true,
+      "conversion_command": [
+        "cwebp",
+        "-quiet",
+        "-q",
+        "80",
+        "-metadata",
+        "all",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-10.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-10.webp"
+      ],
+      "checks": {
+        "width_exactly_1080": true,
+        "webp_format": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "height_rounding_error_pixels": 0.71875,
+        "no_upscale": true,
+        "quality_parameter_80": true,
+        "no_crop": true,
+        "no_color_correction": true
+      }
+    }
+  ]
+}

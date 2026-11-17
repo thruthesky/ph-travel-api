@@ -1,0 +1,88 @@
+{
+  "started_at": "2026-11-17T08:38:26.095Z",
+  "objective": "입력 CSV·TSV의 현재 미수록 여행지를 모두 조사해 등록하고, 시작판295개에서 여행정보를 최소1973개 이상 추가한다.",
+  "baseline_revision": "dee9c2e",
+  "baseline_registered": 295,
+  "required_new_minimum": 1973,
+  "required_total_minimum": 2268,
+  "current_verified_registered": 302,
+  "new_verified_ids": [
+    315,
+    316,
+    332,
+    333,
+    352,
+    353,
+    373
+  ],
+  "new_verified_count": 7,
+  "remaining_new_minimum": 1966,
+  "complete": false,
+  "goal_status": "active",
+  "requirements": [
+    {
+      "id": 1,
+      "requirement": "입력 두 파일의 미수록 여행지를 모두 골라 등록",
+      "status": "1541개 공개본문 점검 완료:본문1501/삭제35/빈본문3/API없음2. 하위명소 자동추출 후 수동검증·미수록등록 계속"
+    },
+    {
+      "id": 2,
+      "requirement": "규격에 맞는 신규 여행정보 최소1973개 추가",
+      "status": "미완료"
+    }
+  ],
+  "policy": {
+    "ko_en_first": true,
+    "detailed_standard_retained": true,
+    "photos_per_new_place_minimum": 10,
+    "crosschecked_sources": true,
+    "deploy": false,
+    "push": false,
+    "parent_submodule_pointer_commit": false
+  },
+  "workers": {
+    "luzon_batch": [
+      315,
+      326
+    ],
+    "ormoc_finish": [
+      332,
+      346
+    ],
+    "mindanao_batch": [
+      352,
+      366
+    ],
+    "root": [
+      373,
+      386
+    ]
+  },
+  "previous_turn_classification": "progress:19개실제신규등록. 그러나목표전체미완료때임의배치종료한행동은되풀이하지않는다.",
+  "crawler": {
+    "session_id": 10239,
+    "script": "work/expansion-1973/crawl-public-posts.mjs",
+    "log": "_i18n/work/expansion-1973-crawl.log",
+    "status": "complete",
+    "active_session_id": null,
+    "http_attempts_first_run": 1484,
+    "http_attempts_resume": 2,
+    "manual_failure_verification_requests": 2,
+    "summary": "work/expansion-1973/source-fetch-summary.json"
+  },
+  "updated_at": "2026-11-17T09:09:06.681Z",
+  "build_version": "4b4275a7a2b0",
+  "data_version": "2026-11-17T09:05:44Z",
+  "worker_next": {
+    "luzon_batch": "317타바코",
+    "ormoc_finish": "334산호아킨",
+    "mindanao_batch": "354타나이",
+    "root": "374파시그사진조사·전체통합검증"
+  },
+  "browser_handoff": {
+    "space_id": 13,
+    "state": "사용자제어",
+    "reason": "조사중웹사이트의알림권한프롬프트",
+    "instruction": "사용자확인전ego브라우저공간13조작/탈취/새공간우회금지.현재373근거는이미읽은자료로완성."
+  }
+}

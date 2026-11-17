@@ -1,0 +1,945 @@
+{
+  "schema_version": 1,
+  "manifest": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-manifest.json",
+  "report": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-conversion-report.json",
+  "encoder": {
+    "path": "/opt/homebrew/bin/cwebp",
+    "version": "1.6.0\nlibsharpyuv: 0.4.2",
+    "version_command": [
+      "/opt/homebrew/bin/cwebp",
+      "-version"
+    ]
+  },
+  "decoder": {
+    "path": "/opt/homebrew/bin/dwebp",
+    "version": "1.6.0",
+    "version_command": [
+      "/opt/homebrew/bin/dwebp",
+      "-version"
+    ]
+  },
+  "settings": {
+    "quality": 80,
+    "target_width": 1080,
+    "height_formula": "floor(1080 * original_pixel_height / original_pixel_width + 0.5)",
+    "height_integer_formula": "(2 * 1080 * H + W) // (2 * W)",
+    "dimension_source": "JPEG SOF raw stored pixel dimensions; EXIF orientation not applied",
+    "output_format": "WEBP",
+    "output_encoding": "lossy VP8",
+    "crop": false,
+    "rotation": false,
+    "automatic_exif_rotation": false,
+    "color_correction": false,
+    "compositing": false,
+    "content_edits": false,
+    "upscaling": false,
+    "generative_model": false,
+    "metadata_policy": "cwebp default: none",
+    "quality_verification": "Actual successful cwebp command uses -q 80; not estimated from the bitstream"
+  },
+  "preflight": {
+    "all_10_original_dimensions_and_sha256_checked_before_conversion": true,
+    "all_original_widths_at_least_1080": true,
+    "original_count": 10,
+    "target_alias_checks_passed": true,
+    "all_original_hashes_rechecked_before_conversion": true
+  },
+  "items": [
+    {
+      "index": 1,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-1.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao.webp",
+      "original_format": "JPEG",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "manifest_dimensions": {
+        "width": 2878,
+        "height": 2159
+      },
+      "manifest_dimensions_match_actual": false,
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "original_sha256_before": "791e68478a5354882ce81058c5188ca98e4ad75209c908b948741a8c215c439c",
+      "original_sha256_after": "791e68478a5354882ce81058c5188ca98e4ad75209c908b948741a8c215c439c",
+      "original_sha256_unchanged": true,
+      "expected_width": 1080,
+      "expected_height": 810,
+      "ideal_height": 810.0,
+      "ideal_height_exact": "810",
+      "rounding_error_pixels": 0.0,
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "output_sha256": "4e90b4b575f8607dceeee32c40947f86193ccf75692718c42d6810b2dac4d9f7",
+      "output_format": "WEBP",
+      "output_encoding": "lossy VP8",
+      "height_error_from_expected_pixels": 0,
+      "height_error_from_ideal_pixels": 0.0,
+      "quality": 80,
+      "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 810 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-1.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao.webp",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-1.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao.webp"
+      ],
+      "encoder_returncode": 0,
+      "webp_decode_success": true,
+      "success": true,
+      "encoder_stdout": "",
+      "encoder_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-1.jpg\nDimension: 1080 x 810\nOutput:    268148 bytes Y-U-V-All-PSNR 38.03 43.05 43.19   39.16 dB\n           (2.45 bpp)\nblock count:  intra4:       3375  (97.32%)\n              intra16:        93  (2.68%)\n              skipped:         0  (0.00%)\nbytes used:  header:            397  (0.1%)\n             mode-partition:  20388  (7.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      34%|      32%|      20%|      15%|    3468\n      quantizer:  |      25 |      20 |      15 |      11 |\n   filter level:  |       8 |       5 |       2 |       0 |\n",
+      "output_size_bytes": 268148,
+      "webp_chunks": [
+        "VP8 "
+      ],
+      "height_error_from_ideal_exact": "0",
+      "aspect_ratio_absolute_error": 0.0,
+      "expected_dimensions_match": true,
+      "no_upscale_verified": true,
+      "decode_command_argv": [
+        "/opt/homebrew/bin/dwebp",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao.webp",
+        "-pam",
+        "-o",
+        "/dev/null"
+      ],
+      "decode_command": "/opt/homebrew/bin/dwebp /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao.webp -pam -o /dev/null",
+      "decoder_returncode": 0,
+      "decoder_stdout": "",
+      "decoder_stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+      "decoded_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "full_decode_validation": "dwebp decodes every pixel and writes PAM to /dev/null; no additional file",
+      "conversion_validation_success": true,
+      "original_dimensions_after": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_dimensions_unchanged": true
+    },
+    {
+      "index": 2,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-15.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-2.webp",
+      "original_format": "JPEG",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "manifest_dimensions": {
+        "width": 3552,
+        "height": 2664
+      },
+      "manifest_dimensions_match_actual": false,
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "original_sha256_before": "59223fae8491dd7c2839651e0d8a1912b770f20903f9cf07e87affc9b67b2f12",
+      "original_sha256_after": "59223fae8491dd7c2839651e0d8a1912b770f20903f9cf07e87affc9b67b2f12",
+      "original_sha256_unchanged": true,
+      "expected_width": 1080,
+      "expected_height": 810,
+      "ideal_height": 810.0,
+      "ideal_height_exact": "810",
+      "rounding_error_pixels": 0.0,
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "output_sha256": "f5c3c1ee6059ecb53d2ec3745683373c830d64715af5f546617c38269ca29784",
+      "output_format": "WEBP",
+      "output_encoding": "lossy VP8",
+      "height_error_from_expected_pixels": 0,
+      "height_error_from_ideal_pixels": 0.0,
+      "quality": 80,
+      "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 810 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-15.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-2.webp",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-15.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-2.webp"
+      ],
+      "encoder_returncode": 0,
+      "webp_decode_success": true,
+      "success": true,
+      "encoder_stdout": "",
+      "encoder_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-2.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-15.jpg\nDimension: 1080 x 810\nOutput:    100330 bytes Y-U-V-All-PSNR 40.45 46.57 46.01   41.68 dB\n           (0.92 bpp)\nblock count:  intra4:       2176  (62.75%)\n              intra16:      1292  (37.25%)\n              skipped:       222  (6.40%)\nbytes used:  header:            264  (0.3%)\n             mode-partition:  10507  (10.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       7%|      16%|      27%|      50%|    3468\n      quantizer:  |      27 |      25 |      21 |      15 |\n   filter level:  |       8 |       6 |       4 |       3 |\n",
+      "output_size_bytes": 100330,
+      "webp_chunks": [
+        "VP8 "
+      ],
+      "height_error_from_ideal_exact": "0",
+      "aspect_ratio_absolute_error": 0.0,
+      "expected_dimensions_match": true,
+      "no_upscale_verified": true,
+      "decode_command_argv": [
+        "/opt/homebrew/bin/dwebp",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-2.webp",
+        "-pam",
+        "-o",
+        "/dev/null"
+      ],
+      "decode_command": "/opt/homebrew/bin/dwebp /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-2.webp -pam -o /dev/null",
+      "decoder_returncode": 0,
+      "decoder_stdout": "",
+      "decoder_stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-2.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+      "decoded_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "full_decode_validation": "dwebp decodes every pixel and writes PAM to /dev/null; no additional file",
+      "conversion_validation_success": true,
+      "original_dimensions_after": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_dimensions_unchanged": true
+    },
+    {
+      "index": 3,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-19.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-3.webp",
+      "original_format": "JPEG",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "manifest_dimensions": {
+        "width": 3552,
+        "height": 2664
+      },
+      "manifest_dimensions_match_actual": false,
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "original_sha256_before": "65fe8aea910d57c89b344b5bfdff8c6a4e1b80abbcf61ccdc7fb15a15bf2de27",
+      "original_sha256_after": "65fe8aea910d57c89b344b5bfdff8c6a4e1b80abbcf61ccdc7fb15a15bf2de27",
+      "original_sha256_unchanged": true,
+      "expected_width": 1080,
+      "expected_height": 810,
+      "ideal_height": 810.0,
+      "ideal_height_exact": "810",
+      "rounding_error_pixels": 0.0,
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "output_sha256": "83459bc16e660f5f08038aa5c99613240cef7b735d4cf938cef510a75ab04528",
+      "output_format": "WEBP",
+      "output_encoding": "lossy VP8",
+      "height_error_from_expected_pixels": 0,
+      "height_error_from_ideal_pixels": 0.0,
+      "quality": 80,
+      "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 810 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-19.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-3.webp",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-19.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-3.webp"
+      ],
+      "encoder_returncode": 0,
+      "webp_decode_success": true,
+      "success": true,
+      "encoder_stdout": "",
+      "encoder_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-3.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-19.jpg\nDimension: 1080 x 810\nOutput:    161802 bytes Y-U-V-All-PSNR 39.30 45.04 45.00   40.51 dB\n           (1.48 bpp)\nblock count:  intra4:       2728  (78.66%)\n              intra16:       740  (21.34%)\n              skipped:       102  (2.94%)\nbytes used:  header:            364  (0.2%)\n             mode-partition:  14446  (8.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      18%|      18%|      30%|      35%|    3468\n      quantizer:  |      27 |      23 |      18 |      13 |\n   filter level:  |       8 |       5 |      21 |       3 |\n",
+      "output_size_bytes": 161802,
+      "webp_chunks": [
+        "VP8 "
+      ],
+      "height_error_from_ideal_exact": "0",
+      "aspect_ratio_absolute_error": 0.0,
+      "expected_dimensions_match": true,
+      "no_upscale_verified": true,
+      "decode_command_argv": [
+        "/opt/homebrew/bin/dwebp",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-3.webp",
+        "-pam",
+        "-o",
+        "/dev/null"
+      ],
+      "decode_command": "/opt/homebrew/bin/dwebp /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-3.webp -pam -o /dev/null",
+      "decoder_returncode": 0,
+      "decoder_stdout": "",
+      "decoder_stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-3.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+      "decoded_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "full_decode_validation": "dwebp decodes every pixel and writes PAM to /dev/null; no additional file",
+      "conversion_validation_success": true,
+      "original_dimensions_after": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_dimensions_unchanged": true
+    },
+    {
+      "index": 4,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-2.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-4.webp",
+      "original_format": "JPEG",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 964
+      },
+      "manifest_dimensions": {
+        "width": 4080,
+        "height": 3072
+      },
+      "manifest_dimensions_match_actual": false,
+      "original_aspect_ratio": {
+        "width_over_height": 1.3278008298755186,
+        "exact_ratio": "320:241"
+      },
+      "original_sha256_before": "5277f8252ee160f4f4c2dc9fc28f6739c8e79b76a552bc5ead4e40597be41849",
+      "original_sha256_after": "5277f8252ee160f4f4c2dc9fc28f6739c8e79b76a552bc5ead4e40597be41849",
+      "original_sha256_unchanged": true,
+      "expected_width": 1080,
+      "expected_height": 813,
+      "ideal_height": 813.375,
+      "ideal_height_exact": "6507/8",
+      "rounding_error_pixels": -0.375,
+      "output_dimensions": {
+        "width": 1080,
+        "height": 813
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3284132841328413,
+        "exact_ratio": "360:271"
+      },
+      "output_sha256": "be780f7a983345eb336701d92f31e1b3068015660e186a43aecdac390276979e",
+      "output_format": "WEBP",
+      "output_encoding": "lossy VP8",
+      "height_error_from_expected_pixels": 0,
+      "height_error_from_ideal_pixels": -0.375,
+      "quality": 80,
+      "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 813 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-2.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-4.webp",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "813",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-2.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-4.webp"
+      ],
+      "encoder_returncode": 0,
+      "webp_decode_success": true,
+      "success": true,
+      "encoder_stdout": "",
+      "encoder_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-4.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-2.jpg\nDimension: 1080 x 813\nOutput:    92830 bytes Y-U-V-All-PSNR 41.07 45.61 46.03   42.16 dB\n           (0.85 bpp)\nblock count:  intra4:       2661  (76.73%)\n              intra16:       807  (23.27%)\n              skipped:        37  (1.07%)\nbytes used:  header:            326  (0.4%)\n             mode-partition:  11640  (12.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|      10%|      38%|      49%|    3468\n      quantizer:  |      27 |      25 |      21 |      16 |\n   filter level:  |       8 |       5 |      14 |      19 |\n",
+      "output_size_bytes": 92830,
+      "webp_chunks": [
+        "VP8 "
+      ],
+      "height_error_from_ideal_exact": "-3/8",
+      "aspect_ratio_absolute_error": 0.0006124542573227032,
+      "expected_dimensions_match": true,
+      "no_upscale_verified": true,
+      "decode_command_argv": [
+        "/opt/homebrew/bin/dwebp",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-4.webp",
+        "-pam",
+        "-o",
+        "/dev/null"
+      ],
+      "decode_command": "/opt/homebrew/bin/dwebp /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-4.webp -pam -o /dev/null",
+      "decoder_returncode": 0,
+      "decoder_stdout": "",
+      "decoder_stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-4.webp. Dimensions: 1080 x 813 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+      "decoded_dimensions": {
+        "width": 1080,
+        "height": 813
+      },
+      "full_decode_validation": "dwebp decodes every pixel and writes PAM to /dev/null; no additional file",
+      "conversion_validation_success": true,
+      "original_dimensions_after": {
+        "width": 1280,
+        "height": 964
+      },
+      "original_dimensions_unchanged": true
+    },
+    {
+      "index": 5,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-14.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-5.webp",
+      "original_format": "JPEG",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 2279
+      },
+      "manifest_dimensions": {
+        "width": 2912,
+        "height": 5184
+      },
+      "manifest_dimensions_match_actual": false,
+      "original_aspect_ratio": {
+        "width_over_height": 0.5616498464238702,
+        "exact_ratio": "1280:2279"
+      },
+      "original_sha256_before": "200053630ba2dbd1af4e90a2297ac5b5a523f640c9230310cec98a42ec52aaff",
+      "original_sha256_after": "200053630ba2dbd1af4e90a2297ac5b5a523f640c9230310cec98a42ec52aaff",
+      "original_sha256_unchanged": true,
+      "expected_width": 1080,
+      "expected_height": 1923,
+      "ideal_height": 1922.90625,
+      "ideal_height_exact": "61533/32",
+      "rounding_error_pixels": 0.09375,
+      "output_dimensions": {
+        "width": 1080,
+        "height": 1923
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 0.5616224648985959,
+        "exact_ratio": "360:641"
+      },
+      "output_sha256": "da292bd0b7948df65e9196230db17a4bef3521eb04cd6179b2e83f9f7c8c6990",
+      "output_format": "WEBP",
+      "output_encoding": "lossy VP8",
+      "height_error_from_expected_pixels": 0,
+      "height_error_from_ideal_pixels": 0.09375,
+      "quality": 80,
+      "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 1923 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-14.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-5.webp",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "1923",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-14.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-5.webp"
+      ],
+      "encoder_returncode": 0,
+      "webp_decode_success": true,
+      "success": true,
+      "encoder_stdout": "",
+      "encoder_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-5.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-14.jpg\nDimension: 1080 x 1923\nOutput:    186736 bytes Y-U-V-All-PSNR 40.96 47.79 47.48   42.28 dB\n           (0.72 bpp)\nblock count:  intra4:       5109  (62.09%)\n              intra16:      3119  (37.91%)\n              skipped:      1122  (13.64%)\nbytes used:  header:            319  (0.2%)\n             mode-partition:  22470  (12.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       5%|      11%|      21%|      63%|    8228\n      quantizer:  |      27 |      26 |      22 |      16 |\n   filter level:  |       8 |       5 |       4 |      19 |\n",
+      "output_size_bytes": 186736,
+      "webp_chunks": [
+        "VP8 "
+      ],
+      "height_error_from_ideal_exact": "3/32",
+      "aspect_ratio_absolute_error": -2.738152527426152e-05,
+      "expected_dimensions_match": true,
+      "no_upscale_verified": true,
+      "decode_command_argv": [
+        "/opt/homebrew/bin/dwebp",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-5.webp",
+        "-pam",
+        "-o",
+        "/dev/null"
+      ],
+      "decode_command": "/opt/homebrew/bin/dwebp /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-5.webp -pam -o /dev/null",
+      "decoder_returncode": 0,
+      "decoder_stdout": "",
+      "decoder_stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-5.webp. Dimensions: 1080 x 1923 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+      "decoded_dimensions": {
+        "width": 1080,
+        "height": 1923
+      },
+      "full_decode_validation": "dwebp decodes every pixel and writes PAM to /dev/null; no additional file",
+      "conversion_validation_success": true,
+      "original_dimensions_after": {
+        "width": 1280,
+        "height": 2279
+      },
+      "original_dimensions_unchanged": true
+    },
+    {
+      "index": 6,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-4.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-6.webp",
+      "original_format": "JPEG",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "manifest_dimensions": {
+        "width": 3264,
+        "height": 2448
+      },
+      "manifest_dimensions_match_actual": false,
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "original_sha256_before": "c9c489c469a04c61353e7819d759bf486c1ac80dd92573fed94d8fa322f5b2b2",
+      "original_sha256_after": "c9c489c469a04c61353e7819d759bf486c1ac80dd92573fed94d8fa322f5b2b2",
+      "original_sha256_unchanged": true,
+      "expected_width": 1080,
+      "expected_height": 810,
+      "ideal_height": 810.0,
+      "ideal_height_exact": "810",
+      "rounding_error_pixels": 0.0,
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "output_sha256": "35e19a0e1ac7a45bc872ed85d53b1383b583c8dc728afd2ee66eab81d28d18ba",
+      "output_format": "WEBP",
+      "output_encoding": "lossy VP8",
+      "height_error_from_expected_pixels": 0,
+      "height_error_from_ideal_pixels": 0.0,
+      "quality": 80,
+      "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 810 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-4.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-6.webp",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-4.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-6.webp"
+      ],
+      "encoder_returncode": 0,
+      "webp_decode_success": true,
+      "success": true,
+      "encoder_stdout": "",
+      "encoder_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-6.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-4.jpg\nDimension: 1080 x 810\nOutput:    58302 bytes Y-U-V-All-PSNR 42.66 46.99 46.89   43.68 dB\n           (0.53 bpp)\nblock count:  intra4:       1749  (50.43%)\n              intra16:      1719  (49.57%)\n              skipped:       654  (18.86%)\nbytes used:  header:            289  (0.5%)\n             mode-partition:   8139  (14.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       2%|       7%|      21%|      69%|    3468\n      quantizer:  |      27 |      26 |      22 |      17 |\n   filter level:  |       8 |       5 |      15 |      16 |\n",
+      "output_size_bytes": 58302,
+      "webp_chunks": [
+        "VP8 "
+      ],
+      "height_error_from_ideal_exact": "0",
+      "aspect_ratio_absolute_error": 0.0,
+      "expected_dimensions_match": true,
+      "no_upscale_verified": true,
+      "decode_command_argv": [
+        "/opt/homebrew/bin/dwebp",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-6.webp",
+        "-pam",
+        "-o",
+        "/dev/null"
+      ],
+      "decode_command": "/opt/homebrew/bin/dwebp /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-6.webp -pam -o /dev/null",
+      "decoder_returncode": 0,
+      "decoder_stdout": "",
+      "decoder_stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-6.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+      "decoded_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "full_decode_validation": "dwebp decodes every pixel and writes PAM to /dev/null; no additional file",
+      "conversion_validation_success": true,
+      "original_dimensions_after": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_dimensions_unchanged": true
+    },
+    {
+      "index": 7,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-7.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-7.webp",
+      "original_format": "JPEG",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "manifest_dimensions": {
+        "width": 3552,
+        "height": 2664
+      },
+      "manifest_dimensions_match_actual": false,
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "original_sha256_before": "28300d5d63c462d609ba64e8e84b0ba60cdfb3691761d84493dade26b6382bf4",
+      "original_sha256_after": "28300d5d63c462d609ba64e8e84b0ba60cdfb3691761d84493dade26b6382bf4",
+      "original_sha256_unchanged": true,
+      "expected_width": 1080,
+      "expected_height": 810,
+      "ideal_height": 810.0,
+      "ideal_height_exact": "810",
+      "rounding_error_pixels": 0.0,
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "output_sha256": "fdf343aefae06d5da68b370ef4e00fc9b2fadebac8f31f2b2f0238a274e4f1de",
+      "output_format": "WEBP",
+      "output_encoding": "lossy VP8",
+      "height_error_from_expected_pixels": 0,
+      "height_error_from_ideal_pixels": 0.0,
+      "quality": 80,
+      "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 810 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-7.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-7.webp",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-7.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-7.webp"
+      ],
+      "encoder_returncode": 0,
+      "webp_decode_success": true,
+      "success": true,
+      "encoder_stdout": "",
+      "encoder_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-7.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-7.jpg\nDimension: 1080 x 810\nOutput:    99054 bytes Y-U-V-All-PSNR 39.87 43.72 45.35   40.94 dB\n           (0.91 bpp)\nblock count:  intra4:       2835  (81.75%)\n              intra16:       633  (18.25%)\n              skipped:        94  (2.71%)\nbytes used:  header:            170  (0.2%)\n             mode-partition:  14240  (14.4%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       6%|      18%|      29%|      47%|    3468\n      quantizer:  |      27 |      25 |      21 |      15 |\n   filter level:  |       8 |       6 |       4 |      14 |\n",
+      "output_size_bytes": 99054,
+      "webp_chunks": [
+        "VP8 "
+      ],
+      "height_error_from_ideal_exact": "0",
+      "aspect_ratio_absolute_error": 0.0,
+      "expected_dimensions_match": true,
+      "no_upscale_verified": true,
+      "decode_command_argv": [
+        "/opt/homebrew/bin/dwebp",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-7.webp",
+        "-pam",
+        "-o",
+        "/dev/null"
+      ],
+      "decode_command": "/opt/homebrew/bin/dwebp /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-7.webp -pam -o /dev/null",
+      "decoder_returncode": 0,
+      "decoder_stdout": "",
+      "decoder_stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-7.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+      "decoded_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "full_decode_validation": "dwebp decodes every pixel and writes PAM to /dev/null; no additional file",
+      "conversion_validation_success": true,
+      "original_dimensions_after": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_dimensions_unchanged": true
+    },
+    {
+      "index": 8,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-5.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-8.webp",
+      "original_format": "JPEG",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 850
+      },
+      "manifest_dimensions": {
+        "width": 3216,
+        "height": 2136
+      },
+      "manifest_dimensions_match_actual": false,
+      "original_aspect_ratio": {
+        "width_over_height": 1.5058823529411764,
+        "exact_ratio": "128:85"
+      },
+      "original_sha256_before": "e2715fa3c92560f2ee4cdab61861991fb2847db2e5468786c64f5a8ff503b474",
+      "original_sha256_after": "e2715fa3c92560f2ee4cdab61861991fb2847db2e5468786c64f5a8ff503b474",
+      "original_sha256_unchanged": true,
+      "expected_width": 1080,
+      "expected_height": 717,
+      "ideal_height": 717.1875,
+      "ideal_height_exact": "11475/16",
+      "rounding_error_pixels": -0.1875,
+      "output_dimensions": {
+        "width": 1080,
+        "height": 717
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.506276150627615,
+        "exact_ratio": "360:239"
+      },
+      "output_sha256": "1d92ab1498a8a81dac638529202b59ab836b939f380a198017f0abbf62b9d67b",
+      "output_format": "WEBP",
+      "output_encoding": "lossy VP8",
+      "height_error_from_expected_pixels": 0,
+      "height_error_from_ideal_pixels": -0.1875,
+      "quality": 80,
+      "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 717 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-5.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-8.webp",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "717",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-5.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-8.webp"
+      ],
+      "encoder_returncode": 0,
+      "webp_decode_success": true,
+      "success": true,
+      "encoder_stdout": "",
+      "encoder_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-8.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-5.jpg\nDimension: 1080 x 717\nOutput:    291874 bytes Y-U-V-All-PSNR 38.06 39.11 41.91   38.69 dB\n           (3.02 bpp)\nblock count:  intra4:       3042  (99.41%)\n              intra16:        18  (0.59%)\n              skipped:        12  (0.39%)\nbytes used:  header:            350  (0.1%)\n             mode-partition:  19360  (6.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      65%|      21%|      10%|       4%|    3060\n      quantizer:  |      22 |      17 |      12 |      11 |\n   filter level:  |       7 |       4 |       2 |       0 |\n",
+      "output_size_bytes": 291874,
+      "webp_chunks": [
+        "VP8 "
+      ],
+      "height_error_from_ideal_exact": "-3/16",
+      "aspect_ratio_absolute_error": 0.0003937976864385462,
+      "expected_dimensions_match": true,
+      "no_upscale_verified": true,
+      "decode_command_argv": [
+        "/opt/homebrew/bin/dwebp",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-8.webp",
+        "-pam",
+        "-o",
+        "/dev/null"
+      ],
+      "decode_command": "/opt/homebrew/bin/dwebp /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-8.webp -pam -o /dev/null",
+      "decoder_returncode": 0,
+      "decoder_stdout": "",
+      "decoder_stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-8.webp. Dimensions: 1080 x 717 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+      "decoded_dimensions": {
+        "width": 1080,
+        "height": 717
+      },
+      "full_decode_validation": "dwebp decodes every pixel and writes PAM to /dev/null; no additional file",
+      "conversion_validation_success": true,
+      "original_dimensions_after": {
+        "width": 1280,
+        "height": 850
+      },
+      "original_dimensions_unchanged": true
+    },
+    {
+      "index": 9,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-8.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-9.webp",
+      "original_format": "JPEG",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "manifest_dimensions": {
+        "width": 2048,
+        "height": 1536
+      },
+      "manifest_dimensions_match_actual": false,
+      "original_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "original_sha256_before": "b13193cd57077f3365abb8b8ddd233ca750829c39ee36a820893529a919a7970",
+      "original_sha256_after": "b13193cd57077f3365abb8b8ddd233ca750829c39ee36a820893529a919a7970",
+      "original_sha256_unchanged": true,
+      "expected_width": 1080,
+      "expected_height": 810,
+      "ideal_height": 810.0,
+      "ideal_height_exact": "810",
+      "rounding_error_pixels": 0.0,
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.3333333333333333,
+        "exact_ratio": "4:3"
+      },
+      "output_sha256": "3553cf56672cdeb9467b47de98c8a8585f7960016fac1fa92bba3e5210e36d2d",
+      "output_format": "WEBP",
+      "output_encoding": "lossy VP8",
+      "height_error_from_expected_pixels": 0,
+      "height_error_from_ideal_pixels": 0.0,
+      "quality": 80,
+      "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 810 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-8.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-9.webp",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-8.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-9.webp"
+      ],
+      "encoder_returncode": 0,
+      "webp_decode_success": true,
+      "success": true,
+      "encoder_stdout": "",
+      "encoder_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-9.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-8.jpg\nDimension: 1080 x 810\nOutput:    114250 bytes Y-U-V-All-PSNR 39.94 44.29 44.76   41.00 dB\n           (1.04 bpp)\nblock count:  intra4:       2227  (64.22%)\n              intra16:      1241  (35.78%)\n              skipped:       111  (3.20%)\nbytes used:  header:            260  (0.2%)\n             mode-partition:  11708  (10.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      11%|      18%|      17%|      54%|    3468\n      quantizer:  |      27 |      25 |      21 |      15 |\n   filter level:  |       8 |       6 |       4 |      14 |\n",
+      "output_size_bytes": 114250,
+      "webp_chunks": [
+        "VP8 "
+      ],
+      "height_error_from_ideal_exact": "0",
+      "aspect_ratio_absolute_error": 0.0,
+      "expected_dimensions_match": true,
+      "no_upscale_verified": true,
+      "decode_command_argv": [
+        "/opt/homebrew/bin/dwebp",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-9.webp",
+        "-pam",
+        "-o",
+        "/dev/null"
+      ],
+      "decode_command": "/opt/homebrew/bin/dwebp /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-9.webp -pam -o /dev/null",
+      "decoder_returncode": 0,
+      "decoder_stdout": "",
+      "decoder_stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-9.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+      "decoded_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "full_decode_validation": "dwebp decodes every pixel and writes PAM to /dev/null; no additional file",
+      "conversion_validation_success": true,
+      "original_dimensions_after": {
+        "width": 1280,
+        "height": 960
+      },
+      "original_dimensions_unchanged": true
+    },
+    {
+      "index": 10,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-9.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-10.webp",
+      "original_format": "JPEG",
+      "original_dimensions": {
+        "width": 1280,
+        "height": 857
+      },
+      "manifest_dimensions": {
+        "width": 1936,
+        "height": 1296
+      },
+      "manifest_dimensions_match_actual": false,
+      "original_aspect_ratio": {
+        "width_over_height": 1.4935822637106184,
+        "exact_ratio": "1280:857"
+      },
+      "original_sha256_before": "ee5621174618e8be98e8f361c849421de573aa4fcf9b630f8f50bf993e9bc86e",
+      "original_sha256_after": "ee5621174618e8be98e8f361c849421de573aa4fcf9b630f8f50bf993e9bc86e",
+      "original_sha256_unchanged": true,
+      "expected_width": 1080,
+      "expected_height": 723,
+      "ideal_height": 723.09375,
+      "ideal_height_exact": "23139/32",
+      "rounding_error_pixels": -0.09375,
+      "output_dimensions": {
+        "width": 1080,
+        "height": 723
+      },
+      "output_aspect_ratio": {
+        "width_over_height": 1.4937759336099585,
+        "exact_ratio": "360:241"
+      },
+      "output_sha256": "c7e1389fcec8839a412435828eb9dedaefea028790149629de7c904868ea15b7",
+      "output_format": "WEBP",
+      "output_encoding": "lossy VP8",
+      "height_error_from_expected_pixels": 0,
+      "height_error_from_ideal_pixels": -0.09375,
+      "quality": 80,
+      "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 723 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-9.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-10.webp",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "723",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-9.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-10.webp"
+      ],
+      "encoder_returncode": 0,
+      "webp_decode_success": true,
+      "success": true,
+      "encoder_stdout": "",
+      "encoder_stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-10.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-original-9.jpg\nDimension: 1080 x 723\nOutput:    99858 bytes Y-U-V-All-PSNR 40.46 45.62 45.57   41.60 dB\n           (1.02 bpp)\nblock count:  intra4:       2502  (79.99%)\n              intra16:       626  (20.01%)\n              skipped:        81  (2.59%)\nbytes used:  header:            290  (0.3%)\n             mode-partition:  11035  (11.1%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       5%|      13%|      35%|      47%|    3128\n      quantizer:  |      27 |      25 |      20 |      16 |\n   filter level:  |       8 |       5 |       4 |      23 |\n",
+      "output_size_bytes": 99858,
+      "webp_chunks": [
+        "VP8 "
+      ],
+      "height_error_from_ideal_exact": "-3/32",
+      "aspect_ratio_absolute_error": 0.0001936698993401098,
+      "expected_dimensions_match": true,
+      "no_upscale_verified": true,
+      "decode_command_argv": [
+        "/opt/homebrew/bin/dwebp",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-10.webp",
+        "-pam",
+        "-o",
+        "/dev/null"
+      ],
+      "decode_command": "/opt/homebrew/bin/dwebp /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-10.webp -pam -o /dev/null",
+      "decoder_returncode": 0,
+      "decoder_stdout": "",
+      "decoder_stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/315-tuguegarao-10.webp. Dimensions: 1080 x 723 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+      "decoded_dimensions": {
+        "width": 1080,
+        "height": 723
+      },
+      "full_decode_validation": "dwebp decodes every pixel and writes PAM to /dev/null; no additional file",
+      "conversion_validation_success": true,
+      "original_dimensions_after": {
+        "width": 1280,
+        "height": 857
+      },
+      "original_dimensions_unchanged": true
+    }
+  ],
+  "errors": [],
+  "overall_success": true,
+  "all_original_sha256_unchanged": true,
+  "all_outputs_fully_decoded": true,
+  "successful_count": 10,
+  "completed_at_utc": "2026-11-17T08:41:12.279595+00:00"
+}

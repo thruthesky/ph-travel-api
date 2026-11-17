@@ -1,0 +1,53 @@
+너는 Codex CLI다. 아래 10개 입력 이미지의 정확한 수치 가공만 수행한다. 내용 편집·그리기·합성·재생성은 금지한다. 원본 파일은 바꾸지 않는다. input의 SHA256가 sha256와 일치하는지 확인하고 가로 정확히1080px, 원본 종횡비유지, WebP 품질80으로 output에 저장한다. crop·업스케일·색보정·글자변형 금지. 수치 변환 도구를 직접 이용하고 이미지 생성 모델은 필요 없다. 모든 원본과 결과를 전체 디코딩 검증한다. input/output 외 파일 탐색이나 저장소 다른 파일 수정은 하지 않는다. 하위 에이전트·Codex 재호출 금지. 원본/결과의 크기·SHA256·바이트수·성공여부를 JSON으로 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/visayas/333-conversion-report.json 에 저장한다.
+[
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu.webp",
+    "sha256": "dc689a60989f9803c310c17c48f1c7b84569f10c38fd96a31a2b34994e1a43c5"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-2.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-2.webp",
+    "sha256": "98751a4fd87ca4494420abefc50e8ed24649f9f0652d5677c62bdd6e00726e19"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-3.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-3.webp",
+    "sha256": "25691b37527cd2565fa89d58378f1ebcf41c250577c574d44f21014f29de18b0"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-4.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-4.webp",
+    "sha256": "da7dfcb4348c0ef445d2de7292bcad8a242e4d7ebee2f5b7c3c2ccc3aff97d59"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-5.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-5.webp",
+    "sha256": "d8eae62e812d0a68d8341b05610671eb85f3f7ed270d4be11ec005766b518308"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-6.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-6.webp",
+    "sha256": "da3cd1786c639d5ec381a55c753a75be5e5ed88e6f7d6ad0ff6f6379c09b3e3d"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-7.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-7.webp",
+    "sha256": "64ed0f969e7481ac9035cbbdf9d32d9facf689b6841d3a22513cc71179004886"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-8.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-8.webp",
+    "sha256": "648921c4d25f845e28e4db5ac4be5d7dbc26de58a327bf20bc315054c5ba8d84"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-9.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-9.webp",
+    "sha256": "935e4a6d77f6828f191f2a029ae72f58c8d6f8a06429d3a16fadaf602bbcbd39"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-10.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets333/333-ayala-center-cebu-10.webp",
+    "sha256": "39548698b7ee9657ec8e019a1c18b7b97eb9047b07eaff382ceddc2a79db8b73"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": 352,
+  "slug": "naia-airport",
+  "name": "NAIA 마닐라 공항 도착·환승 안내",
+  "title_en": "NAIA Manila Airport Arrival and Transfer Guide",
+  "category": "city",
+  "region": "metro-manila",
+  "island_group": "luzon",
+  "original_post_ids": [
+    1275712962,
+    1275712426
+  ],
+  "original_tsv_rows": [
+    31,
+    1035
+  ],
+  "mapping": "원본미수록공항·공항교통2행을한여행정보로통합,터미널별분할안함",
+  "photos": 10,
+  "photo_groups": 10,
+  "ko_visible_section_chars": 5566,
+  "translation_lines": 68,
+  "facts": 14,
+  "status": "한영완료·6언어부모통합대기",
+  "calls": {
+    "web_run": 7,
+    "commons_metadata_api": 9,
+    "commons_downloads": 31,
+    "philgo_post_get": 2,
+    "official_direct_http": 4,
+    "codex_cli": 1
+  },
+  "review_notes": [
+    "newnaiaSPA본문0줄→실제공개API본문조회2개",
+    "셔틀배차공식구1시간vs기사15~30분차이로고정값미기재",
+    "T3대표좌표두서비스약7m차이기록·전체단지대표출입구아님",
+    "모든선정원본·최종눈검수,SHA·디코딩·가로1080·q80검증",
+    "원본폐쇄T4/구배치/S-TRAIN/층수/요금/입장및국적비자자격미검증값제외"
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "manifest": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-final-preparation.json",
+  "report_path": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-1973/373-conversion-report.json",
+  "started_at": "2026-11-17T08:49:19.498088+00:00",
+  "execution_actor": "Current Codex CLI session; direct local subprocess execution",
+  "tool": {
+    "name": "cwebp",
+    "path": "/opt/homebrew/bin/cwebp",
+    "version": "1.6.0\nlibsharpyuv: 0.4.2",
+    "preferred_sharp_path": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/node_modules/sharp",
+    "preferred_sharp_available": false,
+    "verification_tools": [
+      {
+        "name": "ImageMagick",
+        "path": "/opt/homebrew/bin/magick",
+        "version": "Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org"
+      },
+      {
+        "name": "dwebp",
+        "path": "/opt/homebrew/bin/dwebp",
+        "version": "1.6.0"
+      },
+      {
+        "name": "Python hashlib",
+        "algorithm": "SHA256"
+      }
+    ]
+  },
+  "settings": {
+    "format": "WebP",
+    "width": 1080,
+    "quality": 80,
+    "height": "Proportional, calculated by cwebp -resize 1080 0",
+    "resize_mode": "down_only",
+    "metadata": "all",
+    "crop": false,
+    "color_or_brightness_adjustment": false,
+    "sharpening": false,
+    "compositing": false,
+    "content_regeneration": false,
+    "upscale": false,
+    "original_overwrite": false
+  },
+  "files": [
+    {
+      "index": 1,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/01.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta.webp",
+      "manifest_sha256": "6dcb16ecb9a720de427b1005867e66bbce8248584c4c9865a18bf8b5b7e61ae3",
+      "manifest_dimensions": {
+        "width": 4080,
+        "height": 3072
+      },
+      "status": "success",
+      "validation": {
+        "original_sha256_matches_manifest": true,
+        "original_decode_success": true,
+        "original_width_at_least_1080": true,
+        "output_decode_success": true,
+        "output_is_webp": true,
+        "output_width_is_1080": true,
+        "aspect_ratio_height_error_pixels": 0.625,
+        "aspect_ratio_error_within_1_pixel": true,
+        "no_upscale": true,
+        "original_unchanged": true,
+        "orientation_preserved": true
+      },
+      "original_info": {
+        "size_bytes": 550817,
+        "sha256": "6dcb16ecb9a720de427b1005867e66bbce8248584c4c9865a18bf8b5b7e61ae3",
+        "format": "JPEG",
+        "width": 1280,
+        "height": 964,
+        "orientation": "Undefined",
+        "decode_success": true
+      },
+      "expected_height_exact": 813.375,
+      "preflight_completed_at": "2026-11-17T08:49:19.538252+00:00",
+      "conversion_started_at": "2026-11-17T08:49:19.677902+00:00",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/01.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta.webp"
+      ],
+      "output_info": {
+        "format": "WEBP",
+        "width": 1080,
+        "height": 814,
+        "orientation": "Undefined",
+        "decode_success": true,
+        "size_bytes": 254996,
+        "sha256": "6e667aa11369e6f47cbd22896d87219060e9e9426f0b8d5b48398129de434438"
+      },
+      "conversion_finished_at": "2026-11-17T08:49:19.791574+00:00"
+    },
+    {
+      "index": 2,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/02.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-2.webp",
+      "manifest_sha256": "1b2427f4adb153dd189e0de01ae047c224bf4c0ffc5e3a45314c860840b572f7",
+      "manifest_dimensions": {
+        "width": 4080,
+        "height": 3072
+      },
+      "status": "success",
+      "validation": {
+        "original_sha256_matches_manifest": true,
+        "original_decode_success": true,
+        "original_width_at_least_1080": true,
+        "output_decode_success": true,
+        "output_is_webp": true,
+        "output_width_is_1080": true,
+        "aspect_ratio_height_error_pixels": 0.625,
+        "aspect_ratio_error_within_1_pixel": true,
+        "no_upscale": true,
+        "original_unchanged": true,
+        "orientation_preserved": true
+      },
+      "original_info": {
+        "size_bytes": 370819,
+        "sha256": "1b2427f4adb153dd189e0de01ae047c224bf4c0ffc5e3a45314c860840b572f7",
+        "format": "JPEG",
+        "width": 1280,
+        "height": 964,
+        "orientation": "Undefined",
+        "decode_success": true
+      },
+      "expected_height_exact": 813.375,
+      "preflight_completed_at": "2026-11-17T08:49:19.553405+00:00",
+      "conversion_started_at": "2026-11-17T08:49:19.791592+00:00",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/02.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-2.webp"
+      ],
+      "output_info": {
+        "format": "WEBP",
+        "width": 1080,
+        "height": 814,
+        "orientation": "Undefined",
+        "decode_success": true,
+        "size_bytes": 151270,
+        "sha256": "aa622d2ebc900923377fcf02e6ca09ec3facf16bafd64837c15956d82b7dccee"
+      },
+      "conversion_finished_at": "2026-11-17T08:49:19.884979+00:00"
+    },
+    {
+      "index": 3,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/03.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-3.webp",
+      "manifest_sha256": "96f77415b27f9cb14dbc1a1282d42f2c43672cb5fcd741f64a80f6ecf8b40518",
+      "manifest_dimensions": {
+        "width": 3024,
+        "height": 4032
+      },
+      "status": "success",
+      "validation": {
+        "original_sha256_matches_manifest": true,
+        "original_decode_success": true,
+        "original_width_at_least_1080": true,
+        "output_decode_success": true,
+        "output_is_webp": true,
+        "output_width_is_1080": true,
+        "aspect_ratio_height_error_pixels": 0.71875,
+        "aspect_ratio_error_within_1_pixel": true,
+        "no_upscale": true,
+        "original_unchanged": true,
+        "orientation_preserved": true
+      },
+      "original_info": {
+        "size_bytes": 587134,
+        "sha256": "96f77415b27f9cb14dbc1a1282d42f2c43672cb5fcd741f64a80f6ecf8b40518",
+        "format": "JPEG",
+        "width": 1280,
+        "height": 1707,
+        "orientation": "Undefined",
+        "decode_success": true
+      },
+      "expected_height_exact": 1440.28125,
+      "preflight_completed_at": "2026-11-17T08:49:19.571787+00:00",
+      "conversion_started_at": "2026-11-17T08:49:19.884998+00:00",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/03.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-3.webp"
+      ],
+      "output_info": {
+        "format": "WEBP",
+        "width": 1080,
+        "height": 1441,
+        "orientation": "Undefined",
+        "decode_success": true,
+        "size_bytes": 245786,
+        "sha256": "20bbc1ad7c847a91df532ad239f9315b0d778d1da19237104f584f23a4b8539a"
+      },
+      "conversion_finished_at": "2026-11-17T08:49:20.028873+00:00"
+    },
+    {
+      "index": 4,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/04.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-4.webp",
+      "manifest_sha256": "7249a92f454af9b7a17e694bff1f378efbd58b09a8bf743856a5578e189b1905",
+      "manifest_dimensions": {
+        "width": 2000,
+        "height": 1500
+      },
+      "status": "success",
+      "validation": {
+        "original_sha256_matches_manifest": true,
+        "original_decode_success": true,
+        "original_width_at_least_1080": true,
+        "output_decode_success": true,
+        "output_is_webp": true,
+        "output_width_is_1080": true,
+        "aspect_ratio_height_error_pixels": 0.0,
+        "aspect_ratio_error_within_1_pixel": true,
+        "no_upscale": true,
+        "original_unchanged": true,
+        "orientation_preserved": true
+      },
+      "original_info": {
+        "size_bytes": 396130,
+        "sha256": "7249a92f454af9b7a17e694bff1f378efbd58b09a8bf743856a5578e189b1905",
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "orientation": "Undefined",
+        "decode_success": true
+      },
+      "expected_height_exact": 810.0,
+      "preflight_completed_at": "2026-11-17T08:49:19.586006+00:00",
+      "conversion_started_at": "2026-11-17T08:49:20.028895+00:00",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/04.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-4.webp"
+      ],
+      "output_info": {
+        "format": "WEBP",
+        "width": 1080,
+        "height": 810,
+        "orientation": "Undefined",
+        "decode_success": true,
+        "size_bytes": 172990,
+        "sha256": "721d7084c273640602639b24f52ca3abcba280cfadafab3943c763cd52ef6ac5"
+      },
+      "conversion_finished_at": "2026-11-17T08:49:20.127727+00:00"
+    },
+    {
+      "index": 5,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/05.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-5.webp",
+      "manifest_sha256": "b9a848b66f7980e6e0dcfb2d3c541174ad31b62f17760f5abd34b4a0af214e3b",
+      "manifest_dimensions": {
+        "width": 4516,
+        "height": 2994
+      },
+      "status": "success",
+      "validation": {
+        "original_sha256_matches_manifest": true,
+        "original_decode_success": true,
+        "original_width_at_least_1080": true,
+        "output_decode_success": true,
+        "output_is_webp": true,
+        "output_width_is_1080": true,
+        "aspect_ratio_height_error_pixels": 0.65625,
+        "aspect_ratio_error_within_1_pixel": true,
+        "no_upscale": true,
+        "original_unchanged": true,
+        "orientation_preserved": true
+      },
+      "original_info": {
+        "size_bytes": 341354,
+        "sha256": "b9a848b66f7980e6e0dcfb2d3c541174ad31b62f17760f5abd34b4a0af214e3b",
+        "format": "JPEG",
+        "width": 1280,
+        "height": 849,
+        "orientation": "Undefined",
+        "decode_success": true
+      },
+      "expected_height_exact": 716.34375,
+      "preflight_completed_at": "2026-11-17T08:49:19.599008+00:00",
+      "conversion_started_at": "2026-11-17T08:49:20.127748+00:00",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/05.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-5.webp"
+      ],
+      "output_info": {
+        "format": "WEBP",
+        "width": 1080,
+        "height": 717,
+        "orientation": "Undefined",
+        "decode_success": true,
+        "size_bytes": 138980,
+        "sha256": "b111c13f27f28a0b4b972269a044a3e26002609ae3184dea214f955b5ef4cb91"
+      },
+      "conversion_finished_at": "2026-11-17T08:49:20.213295+00:00"
+    },
+    {
+      "index": 6,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/06.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-6.webp",
+      "manifest_sha256": "3d8ed19028ff52e9e51d62a3715b10d5cf541f2e7184d36cb5e9f3289d7c7b9e",
+      "manifest_dimensions": {
+        "width": 3531,
+        "height": 2664
+      },
+      "status": "success",
+      "validation": {
+        "original_sha256_matches_manifest": true,
+        "original_decode_success": true,
+        "original_width_at_least_1080": true,
+        "output_decode_success": true,
+        "output_is_webp": true,
+        "output_width_is_1080": true,
+        "aspect_ratio_height_error_pixels": 0.9375,
+        "aspect_ratio_error_within_1_pixel": true,
+        "no_upscale": true,
+        "original_unchanged": true,
+        "orientation_preserved": true
+      },
+      "original_info": {
+        "size_bytes": 599938,
+        "sha256": "3d8ed19028ff52e9e51d62a3715b10d5cf541f2e7184d36cb5e9f3289d7c7b9e",
+        "format": "JPEG",
+        "width": 1280,
+        "height": 966,
+        "orientation": "Undefined",
+        "decode_success": true
+      },
+      "expected_height_exact": 815.0625,
+      "preflight_completed_at": "2026-11-17T08:49:19.614295+00:00",
+      "conversion_started_at": "2026-11-17T08:49:20.213314+00:00",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/06.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-6.webp"
+      ],
+      "output_info": {
+        "format": "WEBP",
+        "width": 1080,
+        "height": 816,
+        "orientation": "Undefined",
+        "decode_success": true,
+        "size_bytes": 297778,
+        "sha256": "a1331022872c6e13326c61e4983b1ea3db07cc8daf251c3a5ee54788ce340a34"
+      },
+      "conversion_finished_at": "2026-11-17T08:49:20.329742+00:00"
+    },
+    {
+      "index": 7,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/07.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-7.webp",
+      "manifest_sha256": "af0c06267379a35b84d646458d36cceb9de4e7382f1b8bd990793f045ba8c08d",
+      "manifest_dimensions": {
+        "width": 4032,
+        "height": 3024
+      },
+      "status": "success",
+      "validation": {
+        "original_sha256_matches_manifest": true,
+        "original_decode_success": true,
+        "original_width_at_least_1080": true,
+        "output_decode_success": true,
+        "output_is_webp": true,
+        "output_width_is_1080": true,
+        "aspect_ratio_height_error_pixels": 0.0,
+        "aspect_ratio_error_within_1_pixel": true,
+        "no_upscale": true,
+        "original_unchanged": true,
+        "orientation_preserved": true
+      },
+      "original_info": {
+        "size_bytes": 399492,
+        "sha256": "af0c06267379a35b84d646458d36cceb9de4e7382f1b8bd990793f045ba8c08d",
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "orientation": "Undefined",
+        "decode_success": true
+      },
+      "expected_height_exact": 810.0,
+      "preflight_completed_at": "2026-11-17T08:49:19.628021+00:00",
+      "conversion_started_at": "2026-11-17T08:49:20.329763+00:00",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/07.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-7.webp"
+      ],
+      "output_info": {
+        "format": "WEBP",
+        "width": 1080,
+        "height": 810,
+        "orientation": "Undefined",
+        "decode_success": true,
+        "size_bytes": 167656,
+        "sha256": "2f1d82bbda56194eb0f92e81f9ef0eb03a5db02ac4de82914773a7f75bbda469"
+      },
+      "conversion_finished_at": "2026-11-17T08:49:20.430644+00:00"
+    },
+    {
+      "index": 8,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/08.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-8.webp",
+      "manifest_sha256": "63f7fa422410ad5563629af6ed410b587071b1054471a73a65966efd2b83fd7d",
+      "manifest_dimensions": {
+        "width": 3072,
+        "height": 4096
+      },
+      "status": "success",
+      "validation": {
+        "original_sha256_matches_manifest": true,
+        "original_decode_success": true,
+        "original_width_at_least_1080": true,
+        "output_decode_success": true,
+        "output_is_webp": true,
+        "output_width_is_1080": true,
+        "aspect_ratio_height_error_pixels": 0.71875,
+        "aspect_ratio_error_within_1_pixel": true,
+        "no_upscale": true,
+        "original_unchanged": true,
+        "orientation_preserved": true
+      },
+      "original_info": {
+        "size_bytes": 620194,
+        "sha256": "63f7fa422410ad5563629af6ed410b587071b1054471a73a65966efd2b83fd7d",
+        "format": "JPEG",
+        "width": 1280,
+        "height": 1707,
+        "orientation": "Undefined",
+        "decode_success": true
+      },
+      "expected_height_exact": 1440.28125,
+      "preflight_completed_at": "2026-11-17T08:49:19.646704+00:00",
+      "conversion_started_at": "2026-11-17T08:49:20.430664+00:00",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/08.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-8.webp"
+      ],
+      "output_info": {
+        "format": "WEBP",
+        "width": 1080,
+        "height": 1441,
+        "orientation": "Undefined",
+        "decode_success": true,
+        "size_bytes": 228834,
+        "sha256": "5f8665ceb9cafdf815e21781e9e4ae1603713cf0d896c6560f4f4bafd2fe4d73"
+      },
+      "conversion_finished_at": "2026-11-17T08:49:20.573781+00:00"
+    },
+    {
+      "index": 9,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/09.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-9.webp",
+      "manifest_sha256": "e7b3ec1ff84eb85e5b466177c3e2c7c5621e29a7820542f90feb4c4d53a257d8",
+      "manifest_dimensions": {
+        "width": 3456,
+        "height": 4608
+      },
+      "status": "success",
+      "validation": {
+        "original_sha256_matches_manifest": true,
+        "original_decode_success": true,
+        "original_width_at_least_1080": true,
+        "output_decode_success": true,
+        "output_is_webp": true,
+        "output_width_is_1080": true,
+        "aspect_ratio_height_error_pixels": 0.71875,
+        "aspect_ratio_error_within_1_pixel": true,
+        "no_upscale": true,
+        "original_unchanged": true,
+        "orientation_preserved": true
+      },
+      "original_info": {
+        "size_bytes": 440146,
+        "sha256": "e7b3ec1ff84eb85e5b466177c3e2c7c5621e29a7820542f90feb4c4d53a257d8",
+        "format": "JPEG",
+        "width": 1280,
+        "height": 1707,
+        "orientation": "Undefined",
+        "decode_success": true
+      },
+      "expected_height_exact": 1440.28125,
+      "preflight_completed_at": "2026-11-17T08:49:19.664175+00:00",
+      "conversion_started_at": "2026-11-17T08:49:20.573801+00:00",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/09.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-9.webp"
+      ],
+      "output_info": {
+        "format": "WEBP",
+        "width": 1080,
+        "height": 1441,
+        "orientation": "Undefined",
+        "decode_success": true,
+        "size_bytes": 144924,
+        "sha256": "413139f71d3fb92f1a4678778fdc0ade760044445fa18ed52ef655f6b079950d"
+      },
+      "conversion_finished_at": "2026-11-17T08:49:20.700479+00:00"
+    },
+    {
+      "index": 10,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-10.webp",
+      "manifest_sha256": "de4a75f2147183f4423a528ecca73a52212ec06ca736dac6f3e12e95cb337712",
+      "manifest_dimensions": {
+        "width": 3998,
+        "height": 3000
+      },
+      "status": "success",
+      "validation": {
+        "original_sha256_matches_manifest": true,
+        "original_decode_success": true,
+        "original_width_at_least_1080": true,
+        "output_decode_success": true,
+        "output_is_webp": true,
+        "output_width_is_1080": true,
+        "aspect_ratio_height_error_pixels": 0.0,
+        "aspect_ratio_error_within_1_pixel": true,
+        "no_upscale": true,
+        "original_unchanged": true,
+        "orientation_preserved": true
+      },
+      "original_info": {
+        "size_bytes": 369715,
+        "sha256": "de4a75f2147183f4423a528ecca73a52212ec06ca736dac6f3e12e95cb337712",
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "orientation": "Undefined",
+        "decode_success": true
+      },
+      "expected_height_exact": 810.0,
+      "preflight_completed_at": "2026-11-17T08:49:19.677840+00:00",
+      "conversion_started_at": "2026-11-17T08:49:20.700499+00:00",
+      "command_argv": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/escolta-originals/10.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/373-escolta-10.webp"
+      ],
+      "output_info": {
+        "format": "WEBP",
+        "width": 1080,
+        "height": 810,
+        "orientation": "Undefined",
+        "decode_success": true,
+        "size_bytes": 142844,
+        "sha256": "540e89dece56fe110b8ea479d89ae0f21423b23fef10967f46c1728aa182d104"
+      },
+      "conversion_finished_at": "2026-11-17T08:49:20.796664+00:00"
+    }
+  ],
+  "errors": [],
+  "all_sources_verified_before_conversion": true,
+  "finished_at": "2026-11-17T08:49:20.796682+00:00",
+  "completed_count": 10,
+  "failed_count": 0,
+  "skipped_count": 0,
+  "failure": false
+}

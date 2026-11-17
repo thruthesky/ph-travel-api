@@ -1,0 +1,530 @@
+{
+  "id": 332,
+  "slug": "sm-seaside-city-cebu",
+  "checked_at": "2026-11-17T08:48:15.062727+00:00",
+  "primary_philgo_post_ids": [
+    1275712982,
+    1275713514
+  ],
+  "facts": [
+    {
+      "where": "overview, identity",
+      "fact": "원문 중복과 독립 항목",
+      "value": "남쪽 SRP의 SM Seaside City Cebu",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712982",
+          "grade": "C",
+          "says": "공개 API에서 idx·subject·content만 추출했다. 같은 쇼핑몰의 중복 안내다."
+        },
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275713514",
+          "grade": "C",
+          "says": "공개 API에서 idx·subject·content만 추출했다. 같은 쇼핑몰의 중복 안내다."
+        },
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-seaside-city-cebu/information",
+          "grade": "A",
+          "says": "South Road Properties의 SM Seaside City Cebu 주소를 확인했다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_Seaside_City",
+          "grade": "B",
+          "says": "SM City Cebu와 다른 SRP 쇼핑몰임을 확인했다."
+        }
+      ],
+      "decision": "data.csv·data/ko·원본 CSV/TSV를 대조해 독립 상세가 없음을 확인했다. 원문 두 건을 신규 한 항목으로 통합하며 최대 순위·면적·타워 전망대·고정 요금은 옮기지 않았다."
+    },
+    {
+      "where": "latitude, longitude",
+      "fact": "대표 지도 핀",
+      "value": "10.2818, 123.8824",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/relation/7722019",
+          "grade": "B",
+          "says": "Nominatim의 mall relation 중심은 10.2818233,123.8824099이고 경계는 위도10.2800468~10.2836270,경도123.8797559~123.8827249다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_Seaside_City",
+          "grade": "B",
+          "says": "좌표 10.280389,123.881833은 같은 쇼핑몰 남쪽 구역을 가리킨다."
+        }
+      ],
+      "decision": "OSM mall 중심을 소수 네 자리로 썼다. 위키백과 지점과 약170m 차이는 같은 넓은 건물 경계 내 지점이다. 승차문·Wing 위치와 대표 핀을 구분한다."
+    },
+    {
+      "where": "best_time",
+      "fact": "통상 몰 시간과 연말 예외",
+      "value": "월~목10~21시·금~일10~22시",
+      "sources": [
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-seaside-city-cebu/information",
+          "grade": "A",
+          "says": "직접 HTTP로 확보한 공식 본문 요일표와 FAQ에서 통상 시간을 확인했다. 2026년11월16일 이후 연말 별도 표와 2027년1월1일 시간도 게시되어 있다."
+        },
+        {
+          "url": "https://suroy.ph/sm-seaside-city-cebu/",
+          "grade": "C",
+          "says": "2026년11월8일 갱신,10월31일 확인이라고 밝힌 본문이 같은 통상 시간을 기록한다."
+        }
+      ],
+      "decision": "검색 스니펫이 아닌 공식 HTML 본문으로 확인했다. 본문에 통상 시간과 날짜별 공지 우선을 함께 적었고 스케이팅·영화·옥상 마감에 그대로 적용하지 않는다. 현재11월17일은 연말 예외표 확인을 먼저 하도록 안내했다."
+    },
+    {
+      "where": "overview, highlights",
+      "fact": "곡선 건물과 옥상 시설",
+      "value": "Wing·Sky Park·Sky Play",
+      "sources": [
+        {
+          "url": "https://suroy.ph/sm-seaside-city-cebu/",
+          "grade": "C",
+          "says": "Mountain·City·Seaview·Cube 네 Wing과 옥상 정원·Sky Play를 설명한다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_Seaside_City",
+          "grade": "B",
+          "says": "곡선 형태의 쇼핑몰과 옥상 공원·놀이 공간을 설명한다."
+        },
+        {
+          "url": "https://www.smprime.com/latest_news/interior-design-magazine-fantastical-rooftop-playground-by-kenneth-cobonpue/",
+          "grade": "A",
+          "says": "SM Prime이 2016년11월29일 재전재한 Interior Design Magazine 본문에서 Kenneth Cobonpue의 옥상 Sky Play와 생물·우주선 형태를 확인했다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Sky_Play_on_Sky_Park_at_SM_Seaside_City_(02)_(2024-08-25).jpg",
+          "grade": "C",
+          "says": "2024년 현장 사진의 인조잔디와 놀이 구조물 형태를 직접 보았다."
+        }
+      ],
+      "decision": "설계 특징은 공식 본문과 실제 사진을 대조했고 최근 독립 안내로 시설 존재를 교차했다. 면적·구조물 수·타워 높이·타워 개방은 근거가 갈리므로 기재하지 않았다. 오래된 도시 전망과 주변 공사 사진은 촬영 시점 기록으로 명시한다."
+    },
+    {
+      "where": "highlights",
+      "fact": "스케이팅 현행 영업 흔적",
+      "value": "SM SKATING",
+      "sources": [
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-seaside-city-cebu/shops/sm-skating",
+          "grade": "A",
+          "says": "직접 HTTP 본문에서 SM SKATING at SM Seaside City Cebu·3rd floor 및 2026년11월30일까지의 프로모션을 확인했다."
+        },
+        {
+          "url": "https://suroy.ph/sm-seaside-city-cebu/",
+          "grade": "C",
+          "says": "2026년 확인 안내에 스케이팅 운영을 설명한다."
+        }
+      ],
+      "decision": "공식 현행 점포 페이지가 있으므로 체험으로 소개한다. 재개일은 독립 안내 두 곳이 다르므로 쓰지 않았고 옛 요금·수업·장비 포함 조건을 확정하지 않는다. 날짜가 붙은 프로모션 가격이나 무료권은 재사용하지 않았다."
+    },
+    {
+      "where": "highlights",
+      "fact": "영화관",
+      "value": "SM Cinema",
+      "sources": [
+        {
+          "url": "https://suroy.ph/sm-seaside-city-cebu/",
+          "grade": "C",
+          "says": "최근 확인 안내에서 영화 시설을 설명한다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_Seaside_City",
+          "grade": "B",
+          "says": "쇼핑몰의 영화관을 설명한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:SM_Cinema_at_SM_Seaside_City_(2025-03-01).jpg",
+          "grade": "C",
+          "says": "현장 매표·입구 사진을 직접 확인했다."
+        }
+      ],
+      "decision": "회차를 확인할 선택지로만 소개하고 스크린 수·요금·현재 상영작·형식을 확정하지 않는다. 공식 점포 경로 shops/sm-cinema는404로 확인돼 현행 정상 페이지라고 기록하지 않는다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "SRP 접근과 MyBus",
+      "value": "현행 목적지·정류장 확인",
+      "sources": [
+        {
+          "url": "https://www.smxconventioncenter.com/wp-content/uploads/2023/02/SKY-HALL-SEASIDE-CEBU_Capacity-Sheet.pdf",
+          "grade": "A",
+          "says": "직접 읽은 운영사 Sky Hall 문서에서 SM Seaside3층·SRP·MyBus와 택시 접근을 확인했다. 문서 인쇄 기준은2017년9월이다."
+        },
+        {
+          "url": "https://suroy.ph/sm-seaside-city-cebu/",
+          "grade": "C",
+          "says": "2026년 확인 안내에서 시내와 쇼핑몰의 MyBus 연결을 설명한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:SM_Seaside_Mountain_Wing.jpg",
+          "grade": "C",
+          "says": "2026년9월1일 사진의 Mountain Wing과 버스 안내 표지를 확인했다."
+        }
+      ],
+      "decision": "오래된 공식 접근 자료와 최근 안내·2026년 사진을 대조하되 현재 노선·운임·첫막차·간격을 보장하지 않는다. 사진의 무료 노선 표지는 촬영일 기록으로만 적었다. 공항에서 환승 없이 도착한다고 쓰지 않았고 공항 옛 PDF URL의 HTML 응답은 근거에서 제외했다."
+    },
+    {
+      "where": "costs, budget",
+      "fact": "1인 반나절 개인 배분",
+      "value": "PHP800~1900",
+      "sources": [],
+      "decision": "확인된 판매가격이 아닌 개인 일정 예산이다. 식사300~600+음료100~250+시내왕복300~700+예비100~350=800~1900. 쇼핑·유료 체험·공항 이동은 별도다. 스니펫의 요금은 사용하지 않았다."
+    },
+    {
+      "where": "stay_and_food, cautions",
+      "fact": "현장 운영과 사진 시점",
+      "value": "현재 메뉴·개방·날씨 확인",
+      "sources": [
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-seaside-city-cebu/information",
+          "grade": "A",
+          "says": "현재 점포 목록과 몰 정보를 제공한다."
+        },
+        {
+          "url": "https://suroy.ph/sm-seaside-city-cebu/",
+          "grade": "C",
+          "says": "쇼핑·식사·옥상 동선과 현장 확인 필요를 안내한다."
+        }
+      ],
+      "decision": "특정 카페·식당을 현재 추천 영업점으로 고정하지 않고 촬영일의 상업 공간 예로만 사용한다. 타워 전망대·모든 옥상 상시개방·사진의 환전율·무료버스를 보장하지 않는다. 일정·기상·어린이 감독은 일반 여행 계획 조언이다."
+    }
+  ],
+  "images": [
+    {
+      "file": "332-sm-seaside-city-cebu.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SRP_Complex,_SM_Seaside,_Basak_San_Nicolas_drone_view_(Cebu_City;_01-21-2025).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2025-01-21",
+      "author_date_group": "Patrickroque01|2025-01-21",
+      "check": "원형 몰·중앙 타워·SRP 해안 항공 전경. 주변 공사 현황은2025년 기록이다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 직접 대조했다. 내용 변경·합성·크롭 없이 수치 리사이즈·포맷 변환만 했다."
+      },
+      "source_metadata": {
+        "index": 33,
+        "title": "File:SRP Complex, SM Seaside, Basak San Nicolas drone view (Cebu City; 01-21-2025).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SRP_Complex,_SM_Seaside,_Basak_San_Nicolas_drone_view_(Cebu_City;_01-21-2025).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/SRP_Complex%2C_SM_Seaside%2C_Basak_San_Nicolas_drone_view_%28Cebu_City%3B_01-21-2025%29.jpg/1280px-SRP_Complex%2C_SM_Seaside%2C_Basak_San_Nicolas_drone_view_%28Cebu_City%3B_01-21-2025%29.jpg",
+        "width": 4032,
+        "height": 3024,
+        "date": "2025-01-21",
+        "description": "SRP Complex, SM Seaside and Basak San Nicolas, Cebu City",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|Cityscapes of Cebu City|Photos from unmanned aerial vehicles in the Philippines",
+        "sha256": "4b4a635ab6781255c60d0217dcf17e60fa05dff2b5ac50ff392e94d48191946b",
+        "id": 332,
+        "slug": "sm-seaside-city-cebu",
+        "number": 1,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu.webp"
+      }
+    },
+    {
+      "file": "332-sm-seaside-city-cebu-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cebu_City_skyline_from_SM_Seaside_Skypark_(Cebu_City;_09-07-2022).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "09-07-2022",
+      "author_date_group": "Patrickroque01|2022-09-07",
+      "check": "Sky Park에서 본 세부 시내. 앞 공사장과 skyline은2022년 촬영 기록으로 현 전망을 보장하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-2.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-2.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 직접 대조했다. 내용 변경·합성·크롭 없이 수치 리사이즈·포맷 변환만 했다."
+      },
+      "source_metadata": {
+        "index": 5,
+        "title": "File:Cebu City skyline from SM Seaside Skypark (Cebu City; 09-07-2022).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cebu_City_skyline_from_SM_Seaside_Skypark_(Cebu_City;_09-07-2022).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-2.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Cebu_City_skyline_from_SM_Seaside_Skypark_%28Cebu_City%3B_09-07-2022%29.jpg/1280px-Cebu_City_skyline_from_SM_Seaside_Skypark_%28Cebu_City%3B_09-07-2022%29.jpg",
+        "width": 3552,
+        "height": 2664,
+        "date": "09-07-2022",
+        "description": "Cebu City skyline from SM Seaside Skypark",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|Skylines of Cebu City",
+        "sha256": "95d6995f6c0d411a4f8f5a50b1a0ba9710875a30372766d17a7104454ca7ec93",
+        "id": 332,
+        "slug": "sm-seaside-city-cebu",
+        "number": 2,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-2.webp"
+      }
+    },
+    {
+      "file": "332-sm-seaside-city-cebu-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_City_Seaside_Cebu,_Jan_2024.jpg",
+      "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-01-27 01:05:22",
+      "author_date_group": "Ralff Nestor Nacor|2024-01-27",
+      "check": "실제 SM Seaside 입구와 타워 외관. 타워 정상 관광 개방으로 표현하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-3.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-3.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 직접 대조했다. 내용 변경·합성·크롭 없이 수치 리사이즈·포맷 변환만 했다."
+      },
+      "source_metadata": {
+        "index": 15,
+        "title": "File:SM City Seaside Cebu, Jan 2024.jpg",
+        "artist": "Ralff Nestor Nacor",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SM_City_Seaside_Cebu,_Jan_2024.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-3.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/SM_City_Seaside_Cebu%2C_Jan_2024.jpg/1280px-SM_City_Seaside_Cebu%2C_Jan_2024.jpg",
+        "width": 3866,
+        "height": 2911,
+        "date": "2024-01-27 01:05:22",
+        "description": "SM City Seaside Cebu, Jan 2024",
+        "categories": "Self-published work|Photographs by User:Ralffralff|SM Seaside City|Philippine Panorama Project/Cebu City",
+        "sha256": "3da6e5320041f9964b19ffc038a245d3543d1ad7c19a598065e45b52ebbc238e",
+        "id": 332,
+        "slug": "sm-seaside-city-cebu",
+        "number": 3,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-3.webp"
+      }
+    },
+    {
+      "file": "332-sm-seaside-city-cebu-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Upper_Ground_floor_of_SM_Seaside_City_(2024-06-13).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-06-13 15:15:59",
+      "author_date_group": "Wide Awake!|2024-06-13",
+      "check": "Upper Ground 실내 통로와 여러 층의 쇼핑 공간.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-4.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 직접 대조했다. 내용 변경·합성·크롭 없이 수치 리사이즈·포맷 변환만 했다."
+      },
+      "source_metadata": {
+        "index": 18,
+        "title": "File:The Upper Ground floor of SM Seaside City (2024-06-13).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_Upper_Ground_floor_of_SM_Seaside_City_(2024-06-13).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-4.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/The_Upper_Ground_floor_of_SM_Seaside_City_%282024-06-13%29.jpg/1280px-The_Upper_Ground_floor_of_SM_Seaside_City_%282024-06-13%29.jpg",
+        "width": 6144,
+        "height": 8064,
+        "date": "2024-06-13 15:15:59",
+        "description": "The Upper Ground floor of SM Seaside City in Cebu City.",
+        "categories": "Self-published work|Philippines photographs taken on 2024-06-13|Interior of SM Seaside City|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|June 2024 photographs by Thewideawake1",
+        "sha256": "e68e6161bfcac048b405d410c39c0d6457747ac51efa46d00811151e38921e30",
+        "id": 332,
+        "slug": "sm-seaside-city-cebu",
+        "number": 4,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-4.webp"
+      }
+    },
+    {
+      "file": "332-sm-seaside-city-cebu-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sky_Play_on_Sky_Park_at_SM_Seaside_City_(02)_(2024-08-25).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-08-25 13:24:57",
+      "author_date_group": "Wide Awake!|2024-08-25",
+      "check": "Sky Play 인조잔디·미끄럼틀·생물 형태 구조물.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-5.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 직접 대조했다. 내용 변경·합성·크롭 없이 수치 리사이즈·포맷 변환만 했다."
+      },
+      "source_metadata": {
+        "index": 27,
+        "title": "File:Sky Play on Sky Park at SM Seaside City (02) (2024-08-25).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sky_Play_on_Sky_Park_at_SM_Seaside_City_(02)_(2024-08-25).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-5.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Sky_Play_on_Sky_Park_at_SM_Seaside_City_%2802%29_%282024-08-25%29.jpg/1280px-Sky_Play_on_Sky_Park_at_SM_Seaside_City_%2802%29_%282024-08-25%29.jpg",
+        "width": 8064,
+        "height": 6144,
+        "date": "2024-08-25 13:24:57",
+        "description": "Sky Play on Sky Park at SM Seaside City located in Cebu City.",
+        "categories": "Self-published work|Philippines photographs taken on 2024-08-25|Sky Park at SM Seaside City|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|August 2024 photographs by Thewideawake1",
+        "sha256": "069f747f2f2c57451691094131caf12166cc3b0027e3bfb559bff0b2fe58b14a",
+        "id": 332,
+        "slug": "sm-seaside-city-cebu",
+        "number": 5,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-5.webp"
+      }
+    },
+    {
+      "file": "332-sm-seaside-city-cebu-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Escalator_to_the_second_floor_at_SM_Seaside_City_(2024-12-14).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-12-14 14:22:17",
+      "author_date_group": "Wide Awake!|2024-12-14",
+      "check": "2024년12월 실내 층간 에스컬레이터. 이전 사진과 다른 날짜·다른 장면이다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-6.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-6.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 직접 대조했다. 내용 변경·합성·크롭 없이 수치 리사이즈·포맷 변환만 했다."
+      },
+      "source_metadata": {
+        "index": 31,
+        "title": "File:Escalator to the second floor at SM Seaside City (2024-12-14).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Escalator_to_the_second_floor_at_SM_Seaside_City_(2024-12-14).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-6.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Escalator_to_the_second_floor_at_SM_Seaside_City_%282024-12-14%29.jpg/1280px-Escalator_to_the_second_floor_at_SM_Seaside_City_%282024-12-14%29.jpg",
+        "width": 4080,
+        "height": 3072,
+        "date": "2024-12-14 14:22:17",
+        "description": "Escalator to the second floor from the third floor at SM Seaside City located in Cebu City.",
+        "categories": "Self-published work|Escalators in the Philippines|Philippines photographs taken on 2024-12-14|Interior of SM Seaside City|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|December 2024 photographs by Thewideawake1",
+        "sha256": "7a50aa7f1b4a3073574eba55472f26cc050b1b3947edc4f912d7d35713402eac",
+        "id": 332,
+        "slug": "sm-seaside-city-cebu",
+        "number": 6,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-6.webp"
+      }
+    },
+    {
+      "file": "332-sm-seaside-city-cebu-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_Cinema_at_SM_Seaside_City_(2025-03-01).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2025-03-01 16:02:20",
+      "author_date_group": "Wide Awake!|2025-03-01",
+      "check": "영화관 출입구·매표 구역. 현재 작품·요금 근거로 사용하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-7.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-7.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 직접 대조했다. 내용 변경·합성·크롭 없이 수치 리사이즈·포맷 변환만 했다."
+      },
+      "source_metadata": {
+        "index": 35,
+        "title": "File:SM Cinema at SM Seaside City (2025-03-01).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SM_Cinema_at_SM_Seaside_City_(2025-03-01).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-7.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/SM_Cinema_at_SM_Seaside_City_%282025-03-01%29.jpg/1280px-SM_Cinema_at_SM_Seaside_City_%282025-03-01%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "date": "2025-03-01 16:02:20",
+        "description": "SM Cinema located at SM Seaside City is located in Cebu City.",
+        "categories": "Self-published work|Interior of SM Seaside City|Philippines photographs taken on 2025-03-01|SM Cinema|Photographs by Thewideawake1 taken with Fujifilm FinePix HS30EXR|Photographs of Cebu City by Thewideawake1|March 2025 photographs by Thewideawake1",
+        "sha256": "be1ddfac5cc5384b8c248c333dfb23162223de1bca06eed098ab4672a25acc42",
+        "id": 332,
+        "slug": "sm-seaside-city-cebu",
+        "number": 7,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-7.webp"
+      }
+    },
+    {
+      "file": "332-sm-seaside-city-cebu-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Money_Changer_and_Billy_Payment_on_SM_Supermarket_at_SM_Seaside_City_(2025-04-19).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2025-04-19 16:05:37",
+      "author_date_group": "Wide Awake!|2025-04-19",
+      "check": "슈퍼마켓 생활서비스·환전 창구. 유리한 환율이나 현재 운영 보장으로 쓰지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-8.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-8.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 직접 대조했다. 내용 변경·합성·크롭 없이 수치 리사이즈·포맷 변환만 했다."
+      },
+      "source_metadata": {
+        "index": 38,
+        "title": "File:Money Changer and Billy Payment on SM Supermarket at SM Seaside City (2025-04-19).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Money_Changer_and_Billy_Payment_on_SM_Supermarket_at_SM_Seaside_City_(2025-04-19).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-8.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Money_Changer_and_Billy_Payment_on_SM_Supermarket_at_SM_Seaside_City_%282025-04-19%29.jpg/1280px-Money_Changer_and_Billy_Payment_on_SM_Supermarket_at_SM_Seaside_City_%282025-04-19%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "date": "2025-04-19 16:05:37",
+        "description": "Money Changer and Billy Payment on SM Supermarket located at SM Seaside City is located in Cebu City.",
+        "categories": "Self-published work|SM Supermarket at SM Seaside City|Photographs by Thewideawake1 taken with Fujifilm FinePix HS30EXR|Photographs of Cebu City by Thewideawake1|April 2025 photographs by Thewideawake1|Philippines photographs taken on 2025-04-19",
+        "sha256": "970a2c8a2331afebf4990d23cadaee14cf4ef81272d97cc961fdca294492be5d",
+        "id": 332,
+        "slug": "sm-seaside-city-cebu",
+        "number": 8,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-8.webp"
+      }
+    },
+    {
+      "file": "332-sm-seaside-city-cebu-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Starbucks_Coffee_at_SM_Seaside_(11-27-2022).jpg",
+      "credit": "PaulGorduiz106 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "Taken on 27 November 2022, 16:36:45 (according to Exif data)",
+      "author_date_group": "PaulGorduiz106|2022-11-27",
+      "check": "실내 카페와 주문 대기.2022년 점포 기록으로 현재 영업을 보장하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-9.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-9.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 직접 대조했다. 내용 변경·합성·크롭 없이 수치 리사이즈·포맷 변환만 했다."
+      },
+      "source_metadata": {
+        "index": 6,
+        "title": "File:Starbucks Coffee at SM Seaside (11-27-2022).jpg",
+        "artist": "PaulGorduiz106",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Starbucks_Coffee_at_SM_Seaside_(11-27-2022).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-9.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Starbucks_Coffee_at_SM_Seaside_%2811-27-2022%29.jpg/1280px-Starbucks_Coffee_at_SM_Seaside_%2811-27-2022%29.jpg",
+        "width": 8064,
+        "height": 6144,
+        "date": "Taken on 27 November 2022, 16:36:45 (according to Exif data)",
+        "description": "Starbucks Coffee at SM Seaside.",
+        "categories": "Starbucks Coffee in the Philippines|Self-published work|Philippines photographs taken on 2022-11-27|Interior of SM Seaside City|Photographs by Thewideawake1 taken with Realme Narzo 50A Prime|Photographs of Cebu City by Thewideawake1|November 2022 photographs by Thewideawake1",
+        "sha256": "17086ba24404130d4a064f37a5c2d1f5eac2ba5585e12364e39bb1bc41040cc9",
+        "id": 332,
+        "slug": "sm-seaside-city-cebu",
+        "number": 9,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-9.webp"
+      }
+    },
+    {
+      "file": "332-sm-seaside-city-cebu-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_Seaside_Mountain_Wing.jpg",
+      "credit": "Homelessbaldkitten / CC BY 4.0 / Wikimedia Commons",
+      "date": "september 1 2026",
+      "author_date_group": "Homelessbaldkitten|2026-09-01",
+      "check": "Mountain Wing 출입구와 MyBus 표지. 무료노선은 촬영 당시 기록으로 명시한다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-10.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-10.webp",
+        "result": "원본과 최종 WebP를 각각 열어 장소·구도·글자·비율을 직접 대조했다. 내용 변경·합성·크롭 없이 수치 리사이즈·포맷 변환만 했다."
+      },
+      "source_metadata": {
+        "index": 49,
+        "title": "File:SM Seaside Mountain Wing.jpg",
+        "artist": "Homelessbaldkitten",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SM_Seaside_Mountain_Wing.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-10.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/SM_Seaside_Mountain_Wing.jpg/1280px-SM_Seaside_Mountain_Wing.jpg",
+        "width": 1536,
+        "height": 2048,
+        "date": "september 1 2026",
+        "description": "this shows sm seasides mountain wing side.",
+        "categories": "Self-published work|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Self-published work missing SDC copyright license|All media needing categories as of 2026|Media needing categories as of 1 September 2026",
+        "sha256": "7bf16b7a81e066f45e2c4b539b44f06d470a084c12ac86f210af3a7e03a84262",
+        "id": 332,
+        "slug": "sm-seaside-city-cebu",
+        "number": 10,
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-10.webp"
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_author_date_groups": 10,
+    "groups_note": "같은 작가의 사진은 모두 다른 날짜다. 외관·드론·도시전망·실내·놀이·영화·서비스·식음·교통 출입구를 골랐다.",
+    "conversion": "Codex CLI에서 수치 리사이즈1080px·WebP품질80·종횡비 유지. 생성 모델·내용 수정·합성 없음.",
+    "prompt": "work/parallel-1992/visayas/332-sm-seaside-city-cebu-prompt.txt",
+    "report": "work/parallel-1992/visayas/332-conversion-report.json"
+  },
+  "archives": {
+    "philgo": "_i18n/work/parallel-1992/visayas/research332/philgo-1275712982.json",
+    "philgo_duplicate": "_i18n/work/parallel-1992/visayas/research332/philgo-1275713514.json",
+    "official": "_i18n/work/parallel-1992/visayas/research332/sm-official.html",
+    "skating": "_i18n/work/parallel-1992/visayas/research332/skating.html",
+    "osm": "_i18n/work/parallel-1992/visayas/research332/osm.json",
+    "skyhall": "_i18n/work/parallel-1992/visayas/research332/skyhall.pdf"
+  }
+}

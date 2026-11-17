@@ -1,0 +1,53 @@
+너는 Codex CLI다. 아래 10개 입력 이미지의 정확한 수치 가공만 수행한다. 내용 편집·그리기·합성·재생성은 금지한다. 원본 파일은 바꾸지 않는다. input의 SHA256가 sha256와 일치하는지 확인하고 가로 정확히1080px, 원본 종횡비유지, WebP 품질80으로 output에 저장한다. crop·업스케일·색보정·글자변형 금지. 수치 변환 도구를 직접 이용하고 이미지 생성 모델은 필요 없다. 모든 원본과 결과를 전체 디코딩 검증한다. input/output 외 파일 탐색이나 저장소 다른 파일 수정은 하지 않는다. 하위 에이전트·Codex 재호출 금지. 원본/결과의 크기·SHA256·바이트수·성공여부를 JSON으로 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/visayas/332-conversion-report.json 에 저장한다.
+[
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu.webp",
+    "sha256": "4b4a635ab6781255c60d0217dcf17e60fa05dff2b5ac50ff392e94d48191946b"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-2.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-2.webp",
+    "sha256": "95d6995f6c0d411a4f8f5a50b1a0ba9710875a30372766d17a7104454ca7ec93"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-3.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-3.webp",
+    "sha256": "3da6e5320041f9964b19ffc038a245d3543d1ad7c19a598065e45b52ebbc238e"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-4.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-4.webp",
+    "sha256": "e68e6161bfcac048b405d410c39c0d6457747ac51efa46d00811151e38921e30"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-5.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-5.webp",
+    "sha256": "069f747f2f2c57451691094131caf12166cc3b0027e3bfb559bff0b2fe58b14a"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-6.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-6.webp",
+    "sha256": "7a50aa7f1b4a3073574eba55472f26cc050b1b3947edc4f912d7d35713402eac"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-7.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-7.webp",
+    "sha256": "be1ddfac5cc5384b8c248c333dfb23162223de1bca06eed098ab4672a25acc42"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-8.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-8.webp",
+    "sha256": "970a2c8a2331afebf4990d23cadaee14cf4ef81272d97cc961fdca294492be5d"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-9.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-9.webp",
+    "sha256": "17086ba24404130d4a064f37a5c2d1f5eac2ba5585e12364e39bb1bc41040cc9"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-10.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets332/332-sm-seaside-city-cebu-10.webp",
+    "sha256": "7bf16b7a81e066f45e2c4b539b44f06d470a084c12ac86f210af3a7e03a84262"
+  }
+]
