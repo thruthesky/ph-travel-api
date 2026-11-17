@@ -1,0 +1,71 @@
+{
+  "id": 336,
+  "slug": "yap-sandiego-house",
+  "status": "한영 상세·사진·출처 검증 완료 후 data 반영",
+  "primary_philgo_post_ids": [
+    1275713409
+  ],
+  "ko": "data/ko/336-yap-sandiego-house.json",
+  "en": "data/en/336-yap-sandiego-house.json",
+  "sources": "sources/336-yap-sandiego-house.json",
+  "body_characters_ko": 5446,
+  "body_characters_en": 9455,
+  "body_characters_basis": "build visibleText sections·구분공백 포함",
+  "section_count": 10,
+  "highlights": 6,
+  "translation_lines": 113,
+  "image_count": 10,
+  "unique_author_date_groups": 10,
+  "independent_travel_groups": 10,
+  "image_bytes": 1914364,
+  "images_metadata": "work/parallel-1992/visayas/336-image-preparation.json",
+  "images_check": "work/parallel-1992/visayas/336-images-check.json",
+  "images_check_levels": {
+    "고칠 것": 0,
+    "먼저 볼 것": 0,
+    "눈으로 볼 것": 7,
+    "맞음": 3
+  },
+  "visual_review": "후보 원본21장과 최종WebP10장을 각각 열어 장소·장면·글자·비율을 대조했다. 위치메타 없는7장은 제목·설명·형태·공식사진과 본문으로 확인했다.",
+  "image_conversion": {
+    "tool": "Codex CLI",
+    "operation": "수치 리사이즈·WebP변환만, 내용수정·합성 없음",
+    "width": 1080,
+    "quality": 80,
+    "tokens": 105485,
+    "report": "work/parallel-1992/visayas/336-conversion-report.json",
+    "prompt": "work/parallel-1992/visayas/336-yap-sandiego-house-prompt.txt"
+  },
+  "validation": {
+    "export": "113줄 통과",
+    "check_en": "통과",
+    "import_en": "통과",
+    "isolated_build": "297곳 × en·ko 통과",
+    "isolated_version": "61b25389f006",
+    "isolated_path": "_i18n/work/parallel-1992/visayas/validation-336/_site/v2",
+    "scope_note": "전역빌드·다른언어·meta·카탈로그·커밋은 부모 담당",
+    "root_export_check_import": "data 반영 후113줄 export/check/import 재통과"
+  },
+  "usage": {
+    "commons_requests": 4,
+    "image_download_success": 21,
+    "selected_images": 10,
+    "codex_cli": 2,
+    "codex_cli_outer_tokens": 81560,
+    "codex_cli_inner_tokens": 23925,
+    "translation_api": 0,
+    "image_generation": 0,
+    "web_search_queries": 8,
+    "web_open": 11,
+    "web_find": 3,
+    "web_click": 1,
+    "http_requests": 6,
+    "http_success": 6,
+    "nominatim": 1,
+    "philgo_api": 0,
+    "philgo_cache_read": 1,
+    "images_check_runs": 1,
+    "note": "CodexCLI가 내부CLI1회를 추가 호출했다. 두호출 토큰을 분리계수했고 다음에는 실행주체·추가CLI금지 프롬프트로 방지한다. Inquirer403·Rappler직접추정URL/위키링크실패는 현행 근거로 쓰지 않았다. 웹검색에는 후속CasaGorordoCommons사전조사1건 포함."
+  },
+  "completed_at": "2026-11-17T09:43:18.655683+00:00"
+}

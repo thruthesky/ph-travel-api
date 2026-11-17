@@ -1,0 +1,8 @@
+너는 이미 Codex CLI로 실행 중이다. 다른 Codex CLI, 하위 에이전트, 저장소 탐색을 호출하지 않는다. 이 요청은 실제 사진의 정확한 수치 변환이며 새 그림을 그리거나 내용을 수정하는 작업이 아니다. 이미지 생성 모델을 호출하지 않는다.
+
+입력 목록: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/pasig-final-preparation.json
+이 JSON의 10개 original 파일을 각 output 경로로 직접 변환한다. 저장소에 이미 설치된 sharp를 찾을 때는 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/node_modules/sharp 를 우선 사용하고, 없으면 사용 가능한 기존 이미지 도구로 정확히 변환한다. 패키지를 새로 설치하지 않는다.
+
+모든 결과는 WebP, 폭 정확히 1080픽셀, 품질80이다. 종횡비는 유지하고 높이는 비례 계산한다. 잘라내기, 색상/밝기 수정, 샤프닝, 그림/글자/워터마크 추가·삭제, 합성, 내용 재생성, 업스케일을 금지한다. 원본은 덮어쓰지 않는다. 원본 SHA256이 manifest의 sha256과 일치하는지 먼저 확인한다. 원본 디코드 성공·폭1080이상과 결과 디코드·폭1080·종횡비 오차1픽셀 이내를 확인한다. 출력 파일에 이미지 처리를 하는 주체는 이 Codex CLI다.
+
+검증 보고서는 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-1973/374-conversion-report.json 에 남긴다. 도구명, 각 원본/결과 경로, 원본/결과 크기와 SHA256, 실행 시각을 기록한다. 변환 완료 수와 실패 여부를 한글로 보고한다. 임의의 콘텐츠 데이터나 git·work 전역 파일은 고치지 않는다.

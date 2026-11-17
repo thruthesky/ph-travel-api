@@ -1,0 +1,1293 @@
+{
+  "status": "success",
+  "count": 10,
+  "results": [
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.webp",
+      "expected_sha256": "2d98ed299da414fec1547db7a89775b6b382747f05af07f870ca3b1496a73d49",
+      "input_info": {
+        "sha256": "2d98ed299da414fec1547db7a89775b6b382747f05af07f870ca3b1496a73d49",
+        "bytes": 351797,
+        "mtime_ns": 1794908693795488016,
+        "ctime_ns": 1794908981406618685,
+        "inode": 313693906,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 853,
+        "aspect_ratio": 1.5005861664712778,
+        "aspect_ratio_fraction": "1280/853",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "b8be7fa26bb1922a6f0023561aaedd30a0da4a162f68511d6c175272f0c2c8e0",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.jpg",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "after_conversion": {
+          "sha256": "2d98ed299da414fec1547db7a89775b6b382747f05af07f870ca3b1496a73d49",
+          "bytes": 351797,
+          "mtime_ns": 1794908693795488016,
+          "ctime_ns": 1794908981406618685,
+          "inode": 313693906
+        },
+        "preserved": true
+      },
+      "output_info": {
+        "sha256": "a62a56d82ed4361f059a06f0e971d929102995ce02261e1b5889e711268cf2d9",
+        "bytes": 150940,
+        "mtime_ns": 1794909083153015002,
+        "ctime_ns": 1794909083153015002,
+        "inode": 313694610,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 720,
+        "aspect_ratio": 1.5,
+        "aspect_ratio_fraction": "3/2",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "7581a6981393a1af8a138b220071a6468a51e0d0a5674d8f42b95ef4e4abc719",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.webp",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "aspect_ratio_validation": {
+          "ideal_height_at_1080px_width": 719.71875,
+          "actual_height": 720,
+          "height_rounding_error_px": 0.28125,
+          "height_error_must_be_less_than_px": 1,
+          "absolute_ratio_error": 0.0005861664712778492,
+          "relative_ratio_error": 0.0003906249999999778,
+          "note": "가로 1080, 세로 자동 산출. 정수 픽셀 반올림 오차가 1px 미만인지 검증한다.",
+          "success": true
+        }
+      },
+      "success": true,
+      "conversion": {
+        "args": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.webp"
+        ],
+        "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.webp",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.jpg\nDimension: 1080 x 720\nOutput:    150390 bytes Y-U-V-All-PSNR 39.12 44.29 43.83   40.23 dB\n           (1.55 bpp)\nblock count:  intra4:       2475  (80.88%)\n              intra16:       585  (19.12%)\n              skipped:         2  (0.07%)\nbytes used:  header:            428  (0.3%)\n             mode-partition:  13289  (8.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      22%|      16%|      23%|      38%|    3060\n      quantizer:  |      27 |      23 |      18 |      13 |\n   filter level:  |       8 |       5 |      29 |      22 |\nMetadata:\n  * ICC profile:     524 bytes\n"
+      },
+      "verification": {
+        "expected_input_sha256_matches": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format_matches": true,
+        "width_is_1080": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "no_upscale": true,
+        "quality_80_argument_used": true,
+        "output_nonempty": true,
+        "orientation_unchanged": true,
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.webp",
+      "expected_sha256": "bebcee95c69b014bf9cae14e2fd566efee211c1434f8e6eaa60cd415a6be945d",
+      "input_info": {
+        "sha256": "bebcee95c69b014bf9cae14e2fd566efee211c1434f8e6eaa60cd415a6be945d",
+        "bytes": 207329,
+        "mtime_ns": 1794908694111630873,
+        "ctime_ns": 1794908981406847019,
+        "inode": 313693907,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 854,
+        "aspect_ratio": 1.4988290398126465,
+        "aspect_ratio_fraction": "640/427",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "7ae7b18aa71b96af482dc289a2ead0ba2ee207a2eef8c12aba3a3a494e193c48",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.jpg",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "after_conversion": {
+          "sha256": "bebcee95c69b014bf9cae14e2fd566efee211c1434f8e6eaa60cd415a6be945d",
+          "bytes": 207329,
+          "mtime_ns": 1794908694111630873,
+          "ctime_ns": 1794908981406847019,
+          "inode": 313693907
+        },
+        "preserved": true
+      },
+      "output_info": {
+        "sha256": "ba1c8c23d2766fc6867c3003bc7862f70b7de423ecf3cd67224a2cace8532667",
+        "bytes": 75682,
+        "mtime_ns": 1794909083256587903,
+        "ctime_ns": 1794909083256587903,
+        "inode": 313694611,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 721,
+        "aspect_ratio": 1.4979195561719834,
+        "aspect_ratio_fraction": "1080/721",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "4e83c0a6e6e0b88e15bf79c698606b0de394f4e3f3b1d9247186c66c61d4b777",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.webp",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "aspect_ratio_validation": {
+          "ideal_height_at_1080px_width": 720.5625,
+          "actual_height": 721,
+          "height_rounding_error_px": 0.4375,
+          "height_error_must_be_less_than_px": 1,
+          "absolute_ratio_error": 0.0009094836406631224,
+          "relative_ratio_error": 0.0006067961165049374,
+          "note": "가로 1080, 세로 자동 산출. 정수 픽셀 반올림 오차가 1px 미만인지 검증한다.",
+          "success": true
+        }
+      },
+      "success": true,
+      "conversion": {
+        "args": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.webp"
+        ],
+        "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.webp",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.jpg\nDimension: 1080 x 721\nOutput:    75682 bytes Y-U-V-All-PSNR 41.41 45.70 45.79   42.44 dB\n           (0.78 bpp)\nblock count:  intra4:       2228  (71.23%)\n              intra16:       900  (28.77%)\n              skipped:       263  (8.41%)\nbytes used:  header:            263  (0.3%)\n             mode-partition:  10761  (14.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|       9%|      36%|      52%|    3128\n      quantizer:  |      27 |      25 |      21 |      17 |\n   filter level:  |       8 |       5 |      14 |      12 |\n"
+      },
+      "verification": {
+        "expected_input_sha256_matches": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format_matches": true,
+        "width_is_1080": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "no_upscale": true,
+        "quality_80_argument_used": true,
+        "output_nonempty": true,
+        "orientation_unchanged": true,
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.webp",
+      "expected_sha256": "a0418a8e8d2442482c91733812a1a4be1fc0ed3a21717ecfe1f97144f9576919",
+      "input_info": {
+        "sha256": "a0418a8e8d2442482c91733812a1a4be1fc0ed3a21717ecfe1f97144f9576919",
+        "bytes": 257731,
+        "mtime_ns": 1794908880262695191,
+        "ctime_ns": 1794908981407049020,
+        "inode": 313693908,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "436b3d807a8bb03b5d8e5fffc70741d8539774a1620fe10fc8b9716439611c46",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.jpg",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "after_conversion": {
+          "sha256": "a0418a8e8d2442482c91733812a1a4be1fc0ed3a21717ecfe1f97144f9576919",
+          "bytes": 257731,
+          "mtime_ns": 1794908880262695191,
+          "ctime_ns": 1794908981407049020,
+          "inode": 313693908
+        },
+        "preserved": true
+      },
+      "output_info": {
+        "sha256": "73c4d713c9f980a5338ba27cf4c8f9eb733292cd140854ae448afb8e59387728",
+        "bytes": 92386,
+        "mtime_ns": 1794909083372939786,
+        "ctime_ns": 1794909083372939786,
+        "inode": 313694612,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 810,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "b005257d40a79ce538f8b7f23f2756f48febccd247e8f1e4f9f78aa85bec8af5",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.webp",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "aspect_ratio_validation": {
+          "ideal_height_at_1080px_width": 810.0,
+          "actual_height": 810,
+          "height_rounding_error_px": 0.0,
+          "height_error_must_be_less_than_px": 1,
+          "absolute_ratio_error": 0.0,
+          "relative_ratio_error": 0.0,
+          "note": "가로 1080, 세로 자동 산출. 정수 픽셀 반올림 오차가 1px 미만인지 검증한다.",
+          "success": true
+        }
+      },
+      "success": true,
+      "conversion": {
+        "args": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.webp"
+        ],
+        "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.webp",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.jpg\nDimension: 1080 x 810\nOutput:    91836 bytes Y-U-V-All-PSNR 40.74 44.89 45.68   41.80 dB\n           (0.84 bpp)\nblock count:  intra4:       2934  (84.60%)\n              intra16:       534  (15.40%)\n              skipped:         3  (0.09%)\nbytes used:  header:            224  (0.2%)\n             mode-partition:  14696  (16.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|      16%|      37%|      44%|    3468\n      quantizer:  |      27 |      25 |      21 |      15 |\n   filter level:  |       8 |       5 |      28 |      18 |\nMetadata:\n  * ICC profile:     524 bytes\n"
+      },
+      "verification": {
+        "expected_input_sha256_matches": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format_matches": true,
+        "width_is_1080": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "no_upscale": true,
+        "quality_80_argument_used": true,
+        "output_nonempty": true,
+        "orientation_unchanged": true,
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.webp",
+      "expected_sha256": "ee41a2e14fde40ad9b8f161b86d3f2db10ec21ef10eb8b80237c9f9cda4b4588",
+      "input_info": {
+        "sha256": "ee41a2e14fde40ad9b8f161b86d3f2db10ec21ef10eb8b80237c9f9cda4b4588",
+        "bytes": 506093,
+        "mtime_ns": 1794908693956626668,
+        "ctime_ns": 1794908981407350355,
+        "inode": 313693909,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "c98a4d16b6d4e2fc3730abf946d0b73cf64c07cb7015dde78c941925e7429b39",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.jpg",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "after_conversion": {
+          "sha256": "ee41a2e14fde40ad9b8f161b86d3f2db10ec21ef10eb8b80237c9f9cda4b4588",
+          "bytes": 506093,
+          "mtime_ns": 1794908693956626668,
+          "ctime_ns": 1794908981407350355,
+          "inode": 313693909
+        },
+        "preserved": true
+      },
+      "output_info": {
+        "sha256": "c7a6b6247468251921034415dbdde8e1c2b1ecffad159292084983f73cbc3643",
+        "bytes": 244234,
+        "mtime_ns": 1794909083505840128,
+        "ctime_ns": 1794909083505840128,
+        "inode": 313694613,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 810,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "397b402c81854fed79ad8add66ec34d7eb373c9a5852a0883113dfcef488a300",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.webp",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "aspect_ratio_validation": {
+          "ideal_height_at_1080px_width": 810.0,
+          "actual_height": 810,
+          "height_rounding_error_px": 0.0,
+          "height_error_must_be_less_than_px": 1,
+          "absolute_ratio_error": 0.0,
+          "relative_ratio_error": 0.0,
+          "note": "가로 1080, 세로 자동 산출. 정수 픽셀 반올림 오차가 1px 미만인지 검증한다.",
+          "success": true
+        }
+      },
+      "success": true,
+      "conversion": {
+        "args": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.webp"
+        ],
+        "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.webp",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.jpg\nDimension: 1080 x 810\nOutput:    243672 bytes Y-U-V-All-PSNR 38.07 45.89 46.48   39.51 dB\n           (2.23 bpp)\nblock count:  intra4:       3314  (95.56%)\n              intra16:       154  (4.44%)\n              skipped:        29  (0.84%)\nbytes used:  header:            384  (0.2%)\n             mode-partition:  19417  (8.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      34%|      23%|      27%|      17%|    3468\n      quantizer:  |      26 |      20 |      15 |      11 |\n   filter level:  |       8 |       5 |       2 |       2 |\nMetadata:\n  * ICC profile:     536 bytes\n"
+      },
+      "verification": {
+        "expected_input_sha256_matches": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format_matches": true,
+        "width_is_1080": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "no_upscale": true,
+        "quality_80_argument_used": true,
+        "output_nonempty": true,
+        "orientation_unchanged": true,
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.webp",
+      "expected_sha256": "26ea6c130422acb8d989199e92d956ec736df7a575aa5714f06f8a1b7fb6ace7",
+      "input_info": {
+        "sha256": "26ea6c130422acb8d989199e92d956ec736df7a575aa5714f06f8a1b7fb6ace7",
+        "bytes": 618620,
+        "mtime_ns": 1794908877792479388,
+        "ctime_ns": 1794908981407590565,
+        "inode": 313693910,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 1707,
+        "aspect_ratio": 0.7498535442296427,
+        "aspect_ratio_fraction": "1280/1707",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "d389f8187900e5a14ffd45fc329d043b480313b6503c514fe5b5eb41f6cce87b",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.jpg",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "after_conversion": {
+          "sha256": "26ea6c130422acb8d989199e92d956ec736df7a575aa5714f06f8a1b7fb6ace7",
+          "bytes": 618620,
+          "mtime_ns": 1794908877792479388,
+          "ctime_ns": 1794908981407590565,
+          "inode": 313693910
+        },
+        "preserved": true
+      },
+      "output_info": {
+        "sha256": "d8c124d56e44e2a957d39b229832881ac1ca385ec5477f47eab45349d623a5c4",
+        "bytes": 252474,
+        "mtime_ns": 1794909083679360093,
+        "ctime_ns": 1794909083679360093,
+        "inode": 313694614,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 1441,
+        "aspect_ratio": 0.7494795281054824,
+        "aspect_ratio_fraction": "1080/1441",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "8aa21535dfa7a97c998b7e5f148e8b216d50c18969b24f6ec44811f8bc4409d9",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.webp",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "aspect_ratio_validation": {
+          "ideal_height_at_1080px_width": 1440.28125,
+          "actual_height": 1441,
+          "height_rounding_error_px": 0.71875,
+          "height_error_must_be_less_than_px": 1,
+          "absolute_ratio_error": 0.0003740161241603257,
+          "relative_ratio_error": 0.0004987855655794737,
+          "note": "가로 1080, 세로 자동 산출. 정수 픽셀 반올림 오차가 1px 미만인지 검증한다.",
+          "success": true
+        }
+      },
+      "success": true,
+      "conversion": {
+        "args": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.webp"
+        ],
+        "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.webp",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.jpg\nDimension: 1080 x 1441\nOutput:    251782 bytes Y-U-V-All-PSNR 39.88 44.63 46.05   41.06 dB\n           (1.29 bpp)\nblock count:  intra4:       5402  (87.30%)\n              intra16:       786  (12.70%)\n              skipped:        72  (1.16%)\nbytes used:  header:            422  (0.2%)\n             mode-partition:  26690  (10.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       9%|      17%|      46%|      28%|    6188\n      quantizer:  |      27 |      23 |      19 |      14 |\n   filter level:  |       8 |       4 |       8 |      16 |\nMetadata:\n  * ICC profile:     536 bytes\n  * EXIF data:       122 bytes\n"
+      },
+      "verification": {
+        "expected_input_sha256_matches": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format_matches": true,
+        "width_is_1080": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "no_upscale": true,
+        "quality_80_argument_used": true,
+        "output_nonempty": true,
+        "orientation_unchanged": true,
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.webp",
+      "expected_sha256": "3d2065369c456a16dd6b263f806bd1d4cee98630492c06e82bf5bc9590c956a3",
+      "input_info": {
+        "sha256": "3d2065369c456a16dd6b263f806bd1d4cee98630492c06e82bf5bc9590c956a3",
+        "bytes": 915809,
+        "mtime_ns": 1794908693486713572,
+        "ctime_ns": 1794908981407882608,
+        "inode": 313693911,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 1707,
+        "aspect_ratio": 0.7498535442296427,
+        "aspect_ratio_fraction": "1280/1707",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "bcc2272c99b587f9e8c1b77d80c72087ac179679038368869942c665eaf0fef7",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.jpg",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "after_conversion": {
+          "sha256": "3d2065369c456a16dd6b263f806bd1d4cee98630492c06e82bf5bc9590c956a3",
+          "bytes": 915809,
+          "mtime_ns": 1794908693486713572,
+          "ctime_ns": 1794908981407882608,
+          "inode": 313693911
+        },
+        "preserved": true
+      },
+      "output_info": {
+        "sha256": "6a23465467515563625a65eebd2f9c2299e00c983a5d1a9fe4094d4b6c5c64db",
+        "bytes": 429360,
+        "mtime_ns": 1794909083913971327,
+        "ctime_ns": 1794909083913971327,
+        "inode": 313694615,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 1441,
+        "aspect_ratio": 0.7494795281054824,
+        "aspect_ratio_fraction": "1080/1441",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "9f616e3431b05267af4340c263ce8df41591f1f1780e71112beee3bdb7f0f99b",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.webp",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "aspect_ratio_validation": {
+          "ideal_height_at_1080px_width": 1440.28125,
+          "actual_height": 1441,
+          "height_rounding_error_px": 0.71875,
+          "height_error_must_be_less_than_px": 1,
+          "absolute_ratio_error": 0.0003740161241603257,
+          "relative_ratio_error": 0.0004987855655794737,
+          "note": "가로 1080, 세로 자동 산출. 정수 픽셀 반올림 오차가 1px 미만인지 검증한다.",
+          "success": true
+        }
+      },
+      "success": true,
+      "conversion": {
+        "args": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.webp"
+        ],
+        "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.webp",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.jpg\nDimension: 1080 x 1441\nOutput:    428798 bytes Y-U-V-All-PSNR 38.17 42.93 46.53   39.44 dB\n           (2.20 bpp)\nblock count:  intra4:       5836  (94.31%)\n              intra16:       352  (5.69%)\n              skipped:        42  (0.68%)\nbytes used:  header:            394  (0.1%)\n             mode-partition:  33257  (7.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      39%|      17%|      30%|      15%|    6188\n      quantizer:  |      26 |      20 |      15 |      11 |\n   filter level:  |       8 |       5 |       2 |      11 |\nMetadata:\n  * ICC profile:     536 bytes\n"
+      },
+      "verification": {
+        "expected_input_sha256_matches": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format_matches": true,
+        "width_is_1080": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "no_upscale": true,
+        "quality_80_argument_used": true,
+        "output_nonempty": true,
+        "orientation_unchanged": true,
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.webp",
+      "expected_sha256": "1574a8d63dbd0bffa30d4a2a2f5691a3efb52b78662063582dfc33b5144ba222",
+      "input_info": {
+        "sha256": "1574a8d63dbd0bffa30d4a2a2f5691a3efb52b78662063582dfc33b5144ba222",
+        "bytes": 422706,
+        "mtime_ns": 1794908692793477716,
+        "ctime_ns": 1794908981408100067,
+        "inode": 313693912,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "40ee5f8db4bbbcc320e01ef544981f0fcc6e666fd0deecbcc581ac878f8f6884",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.jpg",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "after_conversion": {
+          "sha256": "1574a8d63dbd0bffa30d4a2a2f5691a3efb52b78662063582dfc33b5144ba222",
+          "bytes": 422706,
+          "mtime_ns": 1794908692793477716,
+          "ctime_ns": 1794908981408100067,
+          "inode": 313693912
+        },
+        "preserved": true
+      },
+      "output_info": {
+        "sha256": "380492d517dea182a227f9eeaaafe8f73248315849b38d094a48ff940021d14d",
+        "bytes": 185378,
+        "mtime_ns": 1794909084090571974,
+        "ctime_ns": 1794909084090571974,
+        "inode": 313694616,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 810,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "325007b9a16b8e5d5029d214177f5d7042e216d98599c29252d162ead5b8e81c",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.webp",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "aspect_ratio_validation": {
+          "ideal_height_at_1080px_width": 810.0,
+          "actual_height": 810,
+          "height_rounding_error_px": 0.0,
+          "height_error_must_be_less_than_px": 1,
+          "absolute_ratio_error": 0.0,
+          "relative_ratio_error": 0.0,
+          "note": "가로 1080, 세로 자동 산출. 정수 픽셀 반올림 오차가 1px 미만인지 검증한다.",
+          "success": true
+        }
+      },
+      "success": true,
+      "conversion": {
+        "args": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.webp"
+        ],
+        "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.webp",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.jpg\nDimension: 1080 x 810\nOutput:    185282 bytes Y-U-V-All-PSNR 38.76 43.61 45.44   39.97 dB\n           (1.69 bpp)\nblock count:  intra4:       2926  (84.37%)\n              intra16:       542  (15.63%)\n              skipped:        32  (0.92%)\nbytes used:  header:            351  (0.2%)\n             mode-partition:  15419  (8.3%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      18%|      19%|      32%|      30%|    3468\n      quantizer:  |      27 |      23 |      18 |      13 |\n   filter level:  |       8 |       5 |       8 |       9 |\nMetadata:\n  * EXIF data:        70 bytes\n"
+      },
+      "verification": {
+        "expected_input_sha256_matches": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format_matches": true,
+        "width_is_1080": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "no_upscale": true,
+        "quality_80_argument_used": true,
+        "output_nonempty": true,
+        "orientation_unchanged": true,
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.webp",
+      "expected_sha256": "2b0b4e1a89476247be84cd0849653c2643bd46f7cbbeae215dcb75b241d29485",
+      "input_info": {
+        "sha256": "2b0b4e1a89476247be84cd0849653c2643bd46f7cbbeae215dcb75b241d29485",
+        "bytes": 311155,
+        "mtime_ns": 1794908692731079732,
+        "ctime_ns": 1794908981408338319,
+        "inode": 313693913,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "87983cf755bd260e309cc3af3a83f66cea614bb48e11f4f67c657f760ae77758",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.jpg",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "after_conversion": {
+          "sha256": "2b0b4e1a89476247be84cd0849653c2643bd46f7cbbeae215dcb75b241d29485",
+          "bytes": 311155,
+          "mtime_ns": 1794908692731079732,
+          "ctime_ns": 1794908981408338319,
+          "inode": 313693913
+        },
+        "preserved": true
+      },
+      "output_info": {
+        "sha256": "c8c04cefa799e0e81c02085d55237c7faec0b2fd8d691c4fd25bbe8335800b92",
+        "bytes": 123534,
+        "mtime_ns": 1794909084213725475,
+        "ctime_ns": 1794909084213725475,
+        "inode": 313694617,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 810,
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "4/3",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "0c6a44b8574506720235da6a5372e7bc798b44860e49bf33714214e3de7176bf",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.webp",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "aspect_ratio_validation": {
+          "ideal_height_at_1080px_width": 810.0,
+          "actual_height": 810,
+          "height_rounding_error_px": 0.0,
+          "height_error_must_be_less_than_px": 1,
+          "absolute_ratio_error": 0.0,
+          "relative_ratio_error": 0.0,
+          "note": "가로 1080, 세로 자동 산출. 정수 픽셀 반올림 오차가 1px 미만인지 검증한다.",
+          "success": true
+        }
+      },
+      "success": true,
+      "conversion": {
+        "args": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.webp"
+        ],
+        "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.webp",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.jpg\nDimension: 1080 x 810\nOutput:    123438 bytes Y-U-V-All-PSNR 39.71 46.61 44.35   40.91 dB\n           (1.13 bpp)\nblock count:  intra4:       2499  (72.06%)\n              intra16:       969  (27.94%)\n              skipped:       305  (8.79%)\nbytes used:  header:            305  (0.2%)\n             mode-partition:  12820  (10.4%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       7%|      19%|      28%|      46%|    3468\n      quantizer:  |      27 |      25 |      20 |      15 |\n   filter level:  |       8 |       5 |       9 |       7 |\nMetadata:\n  * EXIF data:        70 bytes\n"
+      },
+      "verification": {
+        "expected_input_sha256_matches": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format_matches": true,
+        "width_is_1080": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "no_upscale": true,
+        "quality_80_argument_used": true,
+        "output_nonempty": true,
+        "orientation_unchanged": true,
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.webp",
+      "expected_sha256": "3976ed9501a2dccab221087efb05979427b63ff0c7dea51684e1067d09b474ef",
+      "input_info": {
+        "sha256": "3976ed9501a2dccab221087efb05979427b63ff0c7dea51684e1067d09b474ef",
+        "bytes": 265311,
+        "mtime_ns": 1794908693678843673,
+        "ctime_ns": 1794908981408528736,
+        "inode": 313693914,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 859,
+        "aspect_ratio": 1.490104772991851,
+        "aspect_ratio_fraction": "1280/859",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "5070aa1b03b613161a34f426477ee3cea9827e391116e34f58b8528150033263",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.jpg",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "after_conversion": {
+          "sha256": "3976ed9501a2dccab221087efb05979427b63ff0c7dea51684e1067d09b474ef",
+          "bytes": 265311,
+          "mtime_ns": 1794908693678843673,
+          "ctime_ns": 1794908981408528736,
+          "inode": 313693914
+        },
+        "preserved": true
+      },
+      "output_info": {
+        "sha256": "6d729490b20ee27a8be89ca74eba8ff4efed15c16d50feb290a061a9f663f984",
+        "bytes": 107960,
+        "mtime_ns": 1794909084325723794,
+        "ctime_ns": 1794909084325723794,
+        "inode": 313694618,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 725,
+        "aspect_ratio": 1.4896551724137932,
+        "aspect_ratio_fraction": "216/145",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "ae752893487629f125e475befa03f674f7ec82e90871da0d564c0ef4182c72a3",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.webp",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "aspect_ratio_validation": {
+          "ideal_height_at_1080px_width": 724.78125,
+          "actual_height": 725,
+          "height_rounding_error_px": 0.21875,
+          "height_error_must_be_less_than_px": 1,
+          "absolute_ratio_error": 0.0004496005780578738,
+          "relative_ratio_error": 0.0003017241379310587,
+          "note": "가로 1080, 세로 자동 산출. 정수 픽셀 반올림 오차가 1px 미만인지 검증한다.",
+          "success": true
+        }
+      },
+      "success": true,
+      "conversion": {
+        "args": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.webp"
+        ],
+        "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.webp",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.jpg\nDimension: 1080 x 725\nOutput:    107960 bytes Y-U-V-All-PSNR 40.26 44.01 44.96   41.27 dB\n           (1.10 bpp)\nblock count:  intra4:       2426  (77.56%)\n              intra16:       702  (22.44%)\n              skipped:       129  (4.12%)\nbytes used:  header:            292  (0.3%)\n             mode-partition:  12574  (11.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       7%|      18%|      34%|      41%|    3128\n      quantizer:  |      27 |      24 |      20 |      15 |\n   filter level:  |       8 |       5 |      13 |      25 |\n"
+      },
+      "verification": {
+        "expected_input_sha256_matches": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format_matches": true,
+        "width_is_1080": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "no_upscale": true,
+        "quality_80_argument_used": true,
+        "output_nonempty": true,
+        "orientation_unchanged": true,
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.webp",
+      "expected_sha256": "9b287f02eac547a0f7da904adeccfdcc7737002b5c9125e42f31d33620d9fd6c",
+      "input_info": {
+        "sha256": "9b287f02eac547a0f7da904adeccfdcc7737002b5c9125e42f31d33620d9fd6c",
+        "bytes": 4651196,
+        "mtime_ns": 1794908692583216106,
+        "ctime_ns": 1794908981409239032,
+        "inode": 313693915,
+        "format": "PNG",
+        "width": 1280,
+        "height": 1660,
+        "aspect_ratio": 0.7710843373493976,
+        "aspect_ratio_fraction": "64/83",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "0af1b9ba4c8e29a642027b6eae35fcb734a75f697279766eeec0b27baccf4a27",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.jpg",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "after_conversion": {
+          "sha256": "9b287f02eac547a0f7da904adeccfdcc7737002b5c9125e42f31d33620d9fd6c",
+          "bytes": 4651196,
+          "mtime_ns": 1794908692583216106,
+          "ctime_ns": 1794908981409239032,
+          "inode": 313693915
+        },
+        "preserved": true
+      },
+      "output_info": {
+        "sha256": "3cd242b970fd89126bc1b9aa5794e5d3b4527995ffe9c04893d2f8fc8cd24561",
+        "bytes": 423164,
+        "mtime_ns": 1794909084517061266,
+        "ctime_ns": 1794909084517061266,
+        "inode": 313694619,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 1401,
+        "aspect_ratio": 0.7708779443254818,
+        "aspect_ratio_fraction": "360/467",
+        "channels": "srgb  3.0",
+        "orientation": "Undefined",
+        "full_decode": {
+          "success": true,
+          "method": "ImageMagick 전체 픽셀 디코딩 및 픽셀 서명 계산",
+          "decoded_pixel_signature": "364514215ef921ee5cac5f75564bf1d17df7fe1c0a07357e26dd4198f2c2daca",
+          "args": [
+            "/opt/homebrew/bin/magick",
+            "-limit",
+            "disk",
+            "0",
+            "-regard-warnings",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.webp",
+            "-format",
+            "%m\n%w\n%h\n%[channels]\n%#\n%[orientation]\n",
+            "info:"
+          ],
+          "exit_code": 0,
+          "stderr": ""
+        },
+        "aspect_ratio_validation": {
+          "ideal_height_at_1080px_width": 1400.625,
+          "actual_height": 1401,
+          "height_rounding_error_px": 0.375,
+          "height_error_must_be_less_than_px": 1,
+          "absolute_ratio_error": 0.00020639302391578518,
+          "relative_ratio_error": 0.0002676659528907388,
+          "note": "가로 1080, 세로 자동 산출. 정수 픽셀 반올림 오차가 1px 미만인지 검증한다.",
+          "success": true
+        }
+      },
+      "success": true,
+      "conversion": {
+        "args": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.webp"
+        ],
+        "command": "/opt/homebrew/bin/cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.jpg -o /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.webp",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.jpg\nDimension: 1080 x 1401\nOutput:    419168 bytes Y-U-V-All-PSNR 38.23 40.59 41.63   38.99 dB\n           (2.22 bpp)\nblock count:  intra4:       5935  (99.18%)\n              intra16:        49  (0.82%)\n              skipped:         6  (0.10%)\nbytes used:  header:            435  (0.1%)\n             mode-partition:  35221  (8.4%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      17%|      40%|      31%|      12%|    5984\n      quantizer:  |      27 |      21 |      17 |      11 |\n   filter level:  |       8 |       5 |       3 |       2 |\nMetadata:\n  * XMP data:       3969 bytes\n"
+      },
+      "verification": {
+        "expected_input_sha256_matches": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format_matches": true,
+        "width_is_1080": true,
+        "aspect_ratio_preserved_with_integer_pixel_rounding": true,
+        "no_upscale": true,
+        "quality_80_argument_used": true,
+        "output_nonempty": true,
+        "orientation_unchanged": true,
+        "original_preserved": true,
+        "output_hash_and_bytes_rechecked": true
+      }
+    }
+  ],
+  "started_at_utc": "2026-11-17T09:51:22.198279+00:00",
+  "parameters": {
+    "format": "WEBP",
+    "width": 1080,
+    "quality": 80,
+    "preserve_aspect_ratio": true,
+    "upscale": false,
+    "metadata": "all"
+  },
+  "visual_review": {
+    "performed": false,
+    "responsibility": "상위 에이전트"
+  },
+  "scope": {
+    "network_used": false,
+    "nested_codex_used": false,
+    "subagents_used": false,
+    "generative_model_used": false,
+    "pixel_operations": [
+      "비율 유지 축소",
+      "WebP 품질 80 인코딩"
+    ],
+    "writes_allowed": [
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/visayas/337-conversion-report.json"
+    ]
+  },
+  "tools": {
+    "encoder": {
+      "path": "/opt/homebrew/bin/cwebp",
+      "version": "1.6.0\nlibsharpyuv: 0.4.2"
+    },
+    "decoder": {
+      "path": "/opt/homebrew/bin/magick",
+      "version": "Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\nCopyright: (C) 1999 ImageMagick Studio LLC\nLicense: https://imagemagick.org/license/\nFeatures: Cipher DPC HDRI Modules \nDelegates (built-in): bzlib freetype heic jng jpeg lcms ltdl lzma png tiff webp xml zlib zstd\nCompiler: clang (21.0.0)"
+    }
+  },
+  "all_input_sha256_verified_before_any_conversion": true,
+  "all_input_sha256_verified_at_utc": "2026-11-17T09:51:22.216485+00:00",
+  "all_input_full_decodes_passed_before_any_conversion": true,
+  "conversion_started_at_utc": "2026-11-17T09:51:23.091444+00:00",
+  "success_count": 10,
+  "verification_success": true,
+  "totals": {
+    "input_bytes": 8507747,
+    "output_bytes": 2085112
+  },
+  "finished_at_utc": "2026-11-17T09:51:24.625229+00:00"
+}

@@ -1,0 +1,580 @@
+{
+  "id": 337,
+  "slug": "casa-gorordo-museum",
+  "checked_at": "2026-11-17T09:55:52.822632+00:00",
+  "primary_philgo_post_ids": [
+    1275712334,
+    1275713099
+  ],
+  "facts": [
+    {
+      "where": "identity, overview",
+      "fact": "중복 원문과 독립 시설 상세",
+      "value": "Casa Gorordo Museum",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712334",
+          "grade": "C",
+          "says": "공개API idx·subject·content만 보존한 부모 캐시에서 첫 원문을 읽었다."
+        },
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275713099",
+          "grade": "C",
+          "says": "같은 시설의 두 번째 원문 캐시를 읽고 중복으로 묶었다."
+        },
+        {
+          "url": "https://www.casagorordomuseum.org/",
+          "grade": "A",
+          "says": "박물관 공식사이트 실제본문은RAFI운영과집의기원·주소를소개한다."
+        },
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/casa-gorordo/",
+          "grade": "A",
+          "says": "공식등록부의독립주택·박물관과NationalHistoricalLandmark를확인했다."
+        }
+      ],
+      "decision": "원본 CSV/TSV·data.csv·실제data/ko와대조했다.기존277파리안은지역안내이고336얍산디에고는별도고택이다.두원문을이시설1개로만집계하고지역전체를완료로세지않는다."
+    },
+    {
+      "where": "latitude, longitude, location",
+      "fact": "대표핀 교차 검증",
+      "value": "10.2999,123.9048",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/721502852",
+          "grade": "B",
+          "says": "Nominatim은35EduardoAboitizStreet박물관중심10.2999150,123.9048230과건물경계를반환했다."
+        },
+        {
+          "url": "https://www.waze.com/live-map/directions/ph/central-visayas/cebu-city/casa-gorordo-museum?to=place.ChIJdZVg9F6ZqTMRbU7ErBLR6vU",
+          "grade": "B",
+          "says": "직접본문은같은주소·박물관명을표시한다.공개HTML의geo좌표10.299913,123.9048616을읽었다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Casa_Gorordo_Museum",
+          "grade": "B",
+          "says": "위키본문좌표10.301,123.905는실제박물관건물보다약120m북쪽이다."
+        }
+      ],
+      "decision": "OSM과Waze약4m일치로대표핀을소수4자리로정했다.위키핀을평균하지않았다.공식사이트삽입Google지도는같은장소엔티티이나지도화면중심좌표를출입구핀으로쓰지않았다.Mapcarta는OSM기반이어서독립지도에추가계수하지않았다."
+    },
+    {
+      "where": "overview",
+      "fact": "건립·가문·주교",
+      "value": "1850년대주택·가문4대",
+      "sources": [
+        {
+          "url": "https://www.casagorordomuseum.org/",
+          "grade": "A",
+          "says": "직접본문은1850년대원소유자AlejandroReynesyRosales·매입자IsidroGorordo·가문4대·세부최초필리핀인주교JuanGorordo를구분한다."
+        },
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/casa-gorordo/",
+          "grade": "A",
+          "says": "표지전문은19세기중반건립자·1863매입·가문4대와주교1910~1932를설명한다."
+        }
+      ],
+      "decision": "원문의JuanGorordo가건립했다는혼동·1931주교임명·Archbishop표현·필리핀전국최초원주민주교·생가단정·Bauhaus용어를옮기지않았다.주교는세부최초필리핀인주교이며가문의여러세대주택으로썼다."
+    },
+    {
+      "where": "overview",
+      "fact": "박물관 개관과 지정",
+      "value": "1983개관·1991국가역사랜드마크",
+      "sources": [
+        {
+          "url": "https://www.casagorordomuseum.org/",
+          "grade": "A",
+          "says": "박물관은RAFI인수1979·1983공개개관·1991NationalHistoricalLandmark를기재한다."
+        },
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/casa-gorordo/",
+          "grade": "A",
+          "says": "공식등록부는Resolution4s1991·1998표지설치와표지전문의RAFI인수1980을표시한다."
+        }
+      ],
+      "decision": "인수1979/1980차이가있어원고에서인수연도는제외했다.개관1983·지정1991은일치한다.1998은표지설치이고지정연도와혼동하지않는다.유네스코·국보로등급을바꾸지않았다."
+    },
+    {
+      "where": "highlights",
+      "fact": "건축·칼라도·기도실·아소테아",
+      "value": "재료와 가정 공간",
+      "sources": [
+        {
+          "url": "https://www.casagorordomuseum.org/",
+          "grade": "A",
+          "says": "공식본문은balayngatisa와토착·중국·스페인영향의조합을설명한다."
+        },
+        {
+          "url": "https://rafi.org.ph/2025/01/30/5-must-see-artifacts-at-the-kabilin-center-and-casa-gorordo-museum/",
+          "grade": "A",
+          "says": "RAFI직접HTML본문을읽고위층칼라도의손님접근경계·주교개인미사기도실·정원쪽Azotea를확인했다.웹도구재조회2회시간초과했으나HTTP전체본문은성공·보존했다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Haligi_collection,_Aug_2026.jpg",
+          "grade": "A",
+          "says": "2026년8월박물관Haligi공식해설판을사진으로직접읽었다.보수과정교체한옛집기둥임을설명한다."
+        }
+      ],
+      "decision": "기도실이세계에서유일한고택내예배공간이라는식의유일성은피했다.기둥별정확한교체연도·모든재료완전원형·재난성능은추측하지않았다.현대전시와실제집의재료를구별한다."
+    },
+    {
+      "where": "highlights, itinerary",
+      "fact": "실내 생활 전시와 해설",
+      "value": "방·가구·안내인",
+      "sources": [
+        {
+          "url": "https://www.casagorordomuseum.org/",
+          "grade": "A",
+          "says": "직접본문은가족의식민지→근대생활변화,상호작용·디지털전시,안내인이맞는관람을소개한다."
+        },
+        {
+          "url": "https://rafi.org.ph/2025/01/30/5-must-see-artifacts-at-the-kabilin-center-and-casa-gorordo-museum/",
+          "grade": "A",
+          "says": "위층생활과기도실·아소테아의구체적방문주제를설명한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:GLAM_Philippines_at_Casa_Gorordo_16.jpg",
+          "grade": "C",
+          "says": "2024년7월식당사진에서실제긴식탁·식기·의자를직접확인했다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Musueum10.jpg",
+          "grade": "C",
+          "says": "2025년1월침실사진을열어침대와창을확인했다."
+        }
+      ],
+      "decision": "태블릿이모든방에서항상작동·무료안내·언어별오디오·후손직접내레이션·모든전시물접촉허용을약속하지않았다.1~2시간은편집일정이고고정투어상품이아니다.가구연대는개별해설을따르도록했다."
+    },
+    {
+      "where": "best_time, costs",
+      "fact": "공식 기본시간과 실제 요금 구별",
+      "value": "월~토09~17시, 요금 미확정",
+      "sources": [
+        {
+          "url": "https://www.casagorordomuseum.org/",
+          "grade": "A",
+          "says": "2026년11월17일직접열어ContactUs의MondayToSaturday9AM~5PM을확인했다.현행요금표는없다."
+        },
+        {
+          "url": "https://www.waze.com/live-map/directions/ph/central-visayas/cebu-city/casa-gorordo-museum?to=place.ChIJdZVg9F6ZqTMRbU7ErBLR6vU",
+          "grade": "B",
+          "says": "직접본문의월~토09~17시가일치한다."
+        },
+        {
+          "url": "https://tribune.net.ph/2023/05/01/casa-gorordo-more-than-just-a-house",
+          "grade": "B",
+          "says": "검색상2023기사요금은100/150/50으로형식별다르지만현행요금으로채택하지않았다."
+        }
+      ],
+      "decision": "원문의화~일09~18·월휴관을현재공식기본시간으로고쳤다.마지막접수·공휴일·특별개방은확인안내다.100페소가모든해설형식의현행요금이라고단정하지않는다.묶음패스는2025소개에서있지만현재판매·가격·범위는확인하도록했다."
+    },
+    {
+      "where": "best_time, highlights",
+      "fact": "현행 문화 활동과 행사",
+      "value": "Sinug는 날짜 있는 전통",
+      "sources": [
+        {
+          "url": "https://rafi.org.ph/2026/01/19/house-tradition-meets-living-faith/",
+          "grade": "A",
+          "says": "운영재단의2026년1월19일본문은박물관정원에서열린Sinug·주교축일뒤월요일가족추모전통을설명한다."
+        },
+        {
+          "url": "https://www.sunstar.com.ph/cebu/gabii-sa-kabilin-marks-20-years",
+          "grade": "B",
+          "says": "336조사때2026년10월3일전체본문을읽었고10월2일문화행사참여시설에CasaGorordo가포함됨을확인했다."
+        },
+        {
+          "url": "https://rafi.org.ph/2026/11/03/gabii-sa-kabilin-journey-to-20th-anniversary/",
+          "grade": "A",
+          "says": "2026년11월현행운영재단의행사문서를직접열어20주년여정주제를확인했다."
+        }
+      ],
+      "decision": "2025지진뒤의옛폐쇄소식을현재폐쇄로단정하지않는다.연례Sinug·야간행사는상시공연이아니고행사별시간·표·예약이따로있다.임시PANIMALAY전시의11월25일종료는운영사본문으로교차확인하지못해원고에서기재하지않았다."
+    },
+    {
+      "where": "stay_and_food, nearby",
+      "fact": "상점·카페와 주변 시설",
+      "value": "공식Bo’sCoffee·별도카빌린센터",
+      "sources": [
+        {
+          "url": "https://www.casagorordomuseum.org/",
+          "grade": "A",
+          "says": "박물관공식사이트본문은상점과Bo’sCoffeeCasaGorordoBranch를소개한다."
+        },
+        {
+          "url": "https://rafi.org.ph/2025/01/30/5-must-see-artifacts-at-the-kabilin-center-and-casa-gorordo-museum/",
+          "grade": "A",
+          "says": "RAFI는박물관과별도TheKabilinCenter를구별하고2025년CultureCollabPass를소개한다."
+        }
+      ],
+      "decision": "카페의현행메뉴·가격·영업시간·무조건무입장접근을보장하지않는다.카빌린센터의현대공예전시사진을CasaGorordo실내사진으로쓰지않는다.현재묶음표범위는별도확인이다."
+    },
+    {
+      "where": "budget, costs",
+      "fact": "1인 개인 배분",
+      "value": "PHP850~1900",
+      "sources": [],
+      "decision": "입장배분150~300+시내왕복300~800+식사250~500+물음료예비150~300=850~1900.업체공식가격표가아닌개인계획이며공항·리조트·숙박·다른시설은제외한다."
+    }
+  ],
+  "images": [
+    {
+      "file": "337-casa-gorordo-museum.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Cebu.jpg",
+      "credit": "CharMel Creations / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-09-24",
+      "author_date_group": "CharMel Creations|2024-09-24",
+      "check": "2024년노란벽·녹색창·기와의현재형태정면.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.webp",
+        "result": "후보원본24장과선택최종WebP10장을각각직접열어장소·글자·구도·방향·비율을대조했다.내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "casa-gorordo",
+        "index": 11,
+        "title": "File:Casa Gorordo Cebu.jpg",
+        "artist": "CharMel Creations",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 24 September 2024, 14:02:24 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Cebu.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Casa_Gorordo_Cebu.jpg/1280px-Casa_Gorordo_Cebu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 7302,
+        "height": 4868,
+        "description": "Casa Gorordo in Cebu City",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.jpg",
+        "sha256": "2d98ed299da414fec1547db7a89775b6b382747f05af07f870ca3b1496a73d49",
+        "categories": "Tiled roofs|Self-published work|Images from Wiki Loves Monuments 2024|Uploaded via Campaign:wlm-ph|Images from Wiki Loves Monuments missing SDC location of creation|Casa Gorordo|Philippines photographs taken on 2024-09-24|Images from Wiki Loves Monuments 2024 in the Philippines",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum.webp",
+        "id": 337,
+        "slug": "casa-gorordo-museum",
+        "number": 1,
+        "canonical_date": "2024-09-24"
+      }
+    },
+    {
+      "file": "337-casa-gorordo-museum-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Musueum10.jpg",
+      "credit": "CebuCityCInfo / CC0 / Wikimedia Commons",
+      "date": "2025-01-11",
+      "author_date_group": "CebuCityCInfo|2025-01-11",
+      "check": "2025년실내침대·창.현재그대로배치되었다는보장없음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.webp",
+        "result": "후보원본24장과선택최종WebP10장을각각직접열어장소·글자·구도·방향·비율을대조했다.내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "gorordo-interior",
+        "index": 8,
+        "title": "File:Casa Gorordo Musueum10.jpg",
+        "artist": "CebuCityCInfo",
+        "license": "CC0",
+        "date": "2025-01-11",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Musueum10.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Casa_Gorordo_Musueum10.jpg/1280px-Casa_Gorordo_Musueum10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 6024,
+        "height": 4020,
+        "description": "Casa Gorordo Musueum",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.jpg",
+        "sha256": "bebcee95c69b014bf9cae14e2fd566efee211c1434f8e6eaa60cd415a6be945d",
+        "categories": "CC-Zero|Self-published work|Interior of Casa Gorordo",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-2.webp",
+        "id": 337,
+        "slug": "casa-gorordo-museum",
+        "number": 2,
+        "canonical_date": "2025-01-11"
+      }
+    },
+    {
+      "file": "337-casa-gorordo-museum-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:GLAM_Philippines_at_Casa_Gorordo_16.jpg",
+      "credit": "Filipinayzd / CC0 / Wikimedia Commons",
+      "date": "2024-07-04",
+      "author_date_group": "Filipinayzd|2024-07-04",
+      "check": "2024년실제식당전시.가구·식기접촉허가근거아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.webp",
+        "result": "후보원본24장과선택최종WebP10장을각각직접열어장소·글자·구도·방향·비율을대조했다.내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "gorordo-independent",
+        "index": 12,
+        "title": "File:GLAM Philippines at Casa Gorordo 16.jpg",
+        "artist": "Filipinayzd",
+        "license": "CC0",
+        "date": "2024-07-04 16:56:22",
+        "source_url": "https://commons.wikimedia.org/wiki/File:GLAM_Philippines_at_Casa_Gorordo_16.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/GLAM_Philippines_at_Casa_Gorordo_16.jpg/1280px-GLAM_Philippines_at_Casa_Gorordo_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4032,
+        "height": 3024,
+        "description": "Dining table at Casa Gorordo owned by the Ramon Aboitiz Foundation Inc.",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.jpg",
+        "sha256": "a0418a8e8d2442482c91733812a1a4be1fc0ed3a21717ecfe1f97144f9576919",
+        "categories": "CC-Zero|Self-published work|Files with coordinates missing SDC location of creation|GLAM Philippines at Casa Gorordo",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-3.webp",
+        "id": 337,
+        "slug": "casa-gorordo-museum",
+        "number": 3,
+        "canonical_date": "2024-07-04"
+      }
+    },
+    {
+      "file": "337-casa-gorordo-museum-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Haligi_collection,_Aug_2026.jpg",
+      "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-08-26",
+      "author_date_group": "A.C.T. Alejandre|2026-08-26",
+      "check": "2026년Haligi옛교체기둥과실제해설판.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.webp",
+        "result": "후보원본24장과선택최종WebP10장을각각직접열어장소·글자·구도·방향·비율을대조했다.내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "gorordo-old",
+        "index": 49,
+        "title": "File:Casa Gorordo Haligi collection, Aug 2026.jpg",
+        "artist": "A.C.T. Alejandre",
+        "license": "CC BY-SA 4.0",
+        "date": "2026-08-26",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Haligi_collection,_Aug_2026.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Casa_Gorordo_Haligi_collection%2C_Aug_2026.jpg/1280px-Casa_Gorordo_Haligi_collection%2C_Aug_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4032,
+        "height": 3024,
+        "description": "Casa Gorordo Haligi (wooden pillars that supprot the house) collection, Aug 2026",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.jpg",
+        "sha256": "ee41a2e14fde40ad9b8f161b86d3f2db10ec21ef10eb8b80237c9f9cda4b4588",
+        "categories": "Cebu City|Self-published work|Casa Gorordo",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-4.webp",
+        "id": 337,
+        "slug": "casa-gorordo-museum",
+        "number": 4,
+        "canonical_date": "2026-08-26"
+      }
+    },
+    {
+      "file": "337-casa-gorordo-museum-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Museum_2.jpg",
+      "credit": "Churihan / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-01-27",
+      "author_date_group": "Churihan|2024-01-27",
+      "check": "2024년Sinug해설패널·아소테아하부.현재같은임시전시보장없음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.webp",
+        "result": "후보원본24장과선택최종WebP10장을각각직접열어장소·글자·구도·방향·비율을대조했다.내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "gorordo-retry",
+        "index": 0,
+        "title": "File:Casa Gorordo Museum 2.jpg",
+        "artist": "Churihan",
+        "license": "CC BY-SA 4.0",
+        "date": "2024-01-27 14:49:29",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Museum_2.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Casa_Gorordo_Museum_2.jpg/1280px-Casa_Gorordo_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3000,
+        "height": 4000,
+        "description": "Casa Gorordo Museum 2",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.jpg",
+        "sha256": "26ea6c130422acb8d989199e92d956ec736df7a575aa5714f06f8a1b7fb6ace7",
+        "categories": "Self-published work|Casa Gorordo|Philippine Panorama Project/GLAM|Philippine Panorama Project/Cebu City",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-5.webp",
+        "id": 337,
+        "slug": "casa-gorordo-museum",
+        "number": 5,
+        "canonical_date": "2024-01-27"
+      }
+    },
+    {
+      "file": "337-casa-gorordo-museum-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_from_the_outside.jpg",
+      "credit": "Vatskili / CC0 / Wikimedia Commons",
+      "date": "2024-12-28",
+      "author_date_group": "Vatskili|2024-12-28",
+      "check": "2024년정원쪽아소테아·흰난간·식물.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.webp",
+        "result": "후보원본24장과선택최종WebP10장을각각직접열어장소·글자·구도·방향·비율을대조했다.내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "casa-gorordo",
+        "index": 13,
+        "title": "File:Casa Gorordo from the outside.jpg",
+        "artist": "Vatskili",
+        "license": "CC0",
+        "date": "2024-12-28 10:00:54",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_from_the_outside.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Casa_Gorordo_from_the_outside.jpg/1280px-Casa_Gorordo_from_the_outside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3024,
+        "height": 4032,
+        "description": "Casa Gorordo",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.jpg",
+        "sha256": "3d2065369c456a16dd6b263f806bd1d4cee98630492c06e82bf5bc9590c956a3",
+        "categories": "CC-Zero|Self-published work|Files with coordinates missing SDC location of creation|Casa Gorordo",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-6.webp",
+        "id": 337,
+        "slug": "casa-gorordo-museum",
+        "number": 6,
+        "canonical_date": "2024-12-28"
+      }
+    },
+    {
+      "file": "337-casa-gorordo-museum-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Museum_(E._Aboitiz,_Cebu_City;_09-05-2022).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-09-05",
+      "author_date_group": "Patrickroque01|2022-09-05",
+      "check": "2022년뒤정원별동·잔디·동선.2024마당사진과비교.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.webp",
+        "result": "후보원본24장과선택최종WebP10장을각각직접열어장소·글자·구도·방향·비율을대조했다.내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "casa-gorordo",
+        "index": 5,
+        "title": "File:Casa Gorordo Museum (E. Aboitiz, Cebu City; 09-05-2022).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 5 September 2022 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_Museum_(E._Aboitiz,_Cebu_City;_09-05-2022).jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Casa_Gorordo_Museum_%28E._Aboitiz%2C_Cebu_City%3B_09-05-2022%29.jpg/1280px-Casa_Gorordo_Museum_%28E._Aboitiz%2C_Cebu_City%3B_09-05-2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552,
+        "height": 2664,
+        "description": "Casa Gordo Museum, E. Aboitiz, Cebu City",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.jpg",
+        "sha256": "1574a8d63dbd0bffa30d4a2a2f5691a3efb52b78662063582dfc33b5144ba222",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|Philippines photographs taken on 2022-09-05|PD-Philippines FoP work|Casa Gorordo",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-7.webp",
+        "id": 337,
+        "slug": "casa-gorordo-museum",
+        "number": 7,
+        "canonical_date": "2022-09-05"
+      }
+    },
+    {
+      "file": "337-casa-gorordo-museum-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Gorodo_Museum_(E._Aboitiz,_Cebu_City;_01-10-2024).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-01-10",
+      "author_date_group": "Patrickroque01|2024-01-10",
+      "check": "2024년창을닫은거리정면.사진속계절행사를현재상품으로쓰지않음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.webp",
+        "result": "후보원본24장과선택최종WebP10장을각각직접열어장소·글자·구도·방향·비율을대조했다.내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "casa-gorordo",
+        "index": 10,
+        "title": "File:Casa Gorodo Museum (E. Aboitiz, Cebu City; 01-10-2024).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 10 January 2024 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Gorodo_Museum_(E._Aboitiz,_Cebu_City;_01-10-2024).jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Casa_Gorodo_Museum_%28E._Aboitiz%2C_Cebu_City%3B_01-10-2024%29.jpg/1280px-Casa_Gorodo_Museum_%28E._Aboitiz%2C_Cebu_City%3B_01-10-2024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552,
+        "height": 2664,
+        "description": "Cebu Metropolitan Cathedral, P. Burgos, Cebu City",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.jpg",
+        "sha256": "2b0b4e1a89476247be84cd0849653c2643bd46f7cbbeae215dcb75b241d29485",
+        "categories": "GFDL|Tiled roofs|License migration not eligible|Self-published work|Photographs by Patrick Roque|PD-Philippines FoP work|Philippines photographs taken on 2024-01-10|Casa Gorordo",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-8.webp",
+        "id": 337,
+        "slug": "casa-gorordo-museum",
+        "number": 8,
+        "canonical_date": "2024-01-10"
+      }
+    },
+    {
+      "file": "337-casa-gorordo-museum-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Night_shot_of_Casa_Gorordo.jpg",
+      "credit": "Fisca Plyder / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-10-21",
+      "author_date_group": "Fisca Plyder|2022-10-21",
+      "check": "2022년야간의사선외관.현재야간개방근거아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.webp",
+        "result": "후보원본24장과선택최종WebP10장을각각직접열어장소·글자·구도·방향·비율을대조했다.내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "gorordo-old",
+        "index": 2,
+        "title": "File:Night shot of Casa Gorordo.jpg",
+        "artist": "Fisca Plyder",
+        "license": "CC BY-SA 4.0",
+        "date": "2022-10-21 07:13:09",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Night_shot_of_Casa_Gorordo.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Night_shot_of_Casa_Gorordo.jpg/1280px-Night_shot_of_Casa_Gorordo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5400,
+        "height": 3623,
+        "description": "Casa Gorordo is a house museum located in the historic Parian area of Cebu, the oldest city in the Philippines. It is owned and managed by the Ramon Aboitiz Foundation Inc. (RAFI) under its Culture & Heritage focus area. The house was acquired by RAFI from the Gorordo family in 1979, renovated and enhanced, and opened to the public as a museum in 1983.\nIn recognition of its historical and social significance, the National Historical Institute (now National Historical Commission of the Philippines) conferred on Casa Gorordo Museum the title “National Historical Landmark” in 1991.",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.jpg",
+        "sha256": "3976ed9501a2dccab221087efb05979427b63ff0c7dea51684e1067d09b474ef",
+        "categories": "Self-published work|Uploaded via Campaign:wlm-ph|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Images from Wiki Loves Monuments 2022|Images from Wiki Loves Monuments 2022 in the Philippines|Casa Gorordo at night",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-9.webp",
+        "id": 337,
+        "slug": "casa-gorordo-museum",
+        "number": 9,
+        "canonical_date": "2022-10-21"
+      }
+    },
+    {
+      "file": "337-casa-gorordo-museum-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_NHCP_Marker.png",
+      "credit": "Kej Andres (Ryomaandres) / CC BY 4.0 / Wikimedia Commons",
+      "date": "2024-06-04",
+      "author_date_group": "Kej Andres (Ryomaandres)|2024-06-04",
+      "check": "2024년NHI현장표지의실제전문을읽었다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.webp",
+        "result": "후보원본24장과선택최종WebP10장을각각직접열어장소·글자·구도·방향·비율을대조했다.내용변경·크롭·회전·합성없음."
+      },
+      "source_metadata": {
+        "cache": "casa-gorordo",
+        "index": 6,
+        "title": "File:Casa Gorordo NHCP Marker.png",
+        "artist": "Kej Andres (Ryomaandres)",
+        "license": "CC BY 4.0",
+        "date": "Taken on 4 June 2024 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Gorordo_NHCP_Marker.png",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Casa_Gorordo_NHCP_Marker.png/1280px-Casa_Gorordo_NHCP_Marker.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3045,
+        "height": 3948,
+        "description": "Casa Gorordo NHCP Historical Marker",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.jpg",
+        "sha256": "9b287f02eac547a0f7da904adeccfdcc7737002b5c9125e42f31d33620d9fd6c",
+        "categories": "Casa Gorordo historical marker|Self-published work|Information field template with formatting|Philippines photographs taken on 2024-06-04",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets337/337-casa-gorordo-museum-10.webp",
+        "id": 337,
+        "slug": "casa-gorordo-museum",
+        "number": 10,
+        "canonical_date": "2024-06-04"
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_author_date_groups": 10,
+    "unique_authors": 9,
+    "independent_travel_groups": 10,
+    "groups_note": "Patrick2022년9월5일과2024년1월10일은16개월간격의다른방문이다.CebuCityCInfo2025년1월5/11과QueenCityCebu1월11은중복그룹으로묶어1장만선택했다.2024GLAM방문도1장이다.Bim연속2월일자를그룹추가로세지않았다.",
+    "conversion": "CodexCLI직접수치변환1080px·WebP품질80.추가CLI재호출·생성모델·내용편집없음.",
+    "prompt": "work/parallel-1992/visayas/337-casa-gorordo-museum-prompt.txt",
+    "report": "work/parallel-1992/visayas/337-conversion-report.json"
+  },
+  "archives": {
+    "philgo": [
+      "_i18n/work/expansion-1973/posts/1275712334.json",
+      "_i18n/work/expansion-1973/posts/1275713099.json"
+    ],
+    "research_directory": "_i18n/work/parallel-1992/visayas/research337",
+    "candidate_audit": "work/parallel-1992/visayas/337-candidate-audit.json"
+  }
+}

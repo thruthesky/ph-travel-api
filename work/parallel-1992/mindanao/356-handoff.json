@@ -1,0 +1,41 @@
+{
+  "id": 356,
+  "slug": "cabanatuan-city",
+  "title": "카바나투안 역사·광장 여행",
+  "status": "한영 data 반영·i18n 검증 완료, 전체 빌드·통합 부모 담당",
+  "ko_visible_chars": 6766,
+  "en_authored_lines": 68,
+  "facts": 12,
+  "photos": 10,
+  "unique_artist_date_groups": 10,
+  "original_post_ids": [
+    1275712376
+  ],
+  "original_tsv_rows": [
+    903
+  ],
+  "mapping": "누에바에시하 주 전체 완료 아님, 카바나투안 도시 부분만 독립 확장",
+  "usage": {
+    "web_calls": 11,
+    "commons_api_calls": 11,
+    "photo_downloads": 15,
+    "cached_original_posts_read": 1,
+    "codex_cli_calls": 1
+  },
+  "validation": [
+    "JSON.parse 성공",
+    "10섹션",
+    "하이라이트정수1~6",
+    "원본/최종사진10직접눈검수",
+    "SHA256·원본불변·디코딩·1080가로·비율검증",
+    "i18n export/check/import en356성공"
+  ],
+  "notes": [
+    "기존124·146은버스경유만·도시독립중복없음",
+    "Ryomaandres와KejAndrés동일작가정규화후10날짜묶음",
+    "ABMC현행개별방문09~17무료·2017보수폐쇄과거자료구분",
+    "지도Mapcarta/Wikidata성당같은POI약27m,공유원천가능성기록",
+    "음식사진은판촉배경/장소미확정으로선정제외",
+    "CodexCLI정량변환q80WebP1080비율유지·프롬프트data/images/356-cabanatuan-city-prompt.txt"
+  ]
+}

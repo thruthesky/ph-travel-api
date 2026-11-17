@@ -9,28 +9,31 @@
     314,
     315,
     316,
-    317
+    317,
+    318,
+    319,
+    320
   ],
   "reserved": {
     "307": "핀토사진다양성10미달보류"
   },
-  "web_calls": 97,
-  "commons_metadata_calls": 65,
+  "web_calls": 127,
+  "commons_metadata_calls": 87,
   "commons_metadata_local_write_failures": 2,
-  "commons_downloads": 171,
+  "commons_downloads": 224,
   "failed_downloads": 16,
   "philgo_post_get_calls": 11,
-  "codex_image_calls": 11,
-  "codex_image_tokens": 291150,
+  "codex_image_calls": 16,
+  "codex_image_tokens": 361576,
   "imagegen_calls": 0,
-  "images_viewed_original": 171,
-  "images_viewed_final": 101,
-  "updated_at": "2026-11-17T09:20:45.624826+00:00",
-  "status": "317완료·318~326연속처리진행",
-  "completed_count": 10,
+  "images_viewed_original": 224,
+  "images_viewed_final": 131,
+  "updated_at": "2026-11-17T09:58:54.261632+00:00",
+  "status": "320완료·321~326연속처리진행",
+  "completed_count": 13,
   "global_goal_complete": false,
   "global_goal_note": "전체2000개및두입력미수록여행지전체목표계속.315투게가라오·316소르소곤시완료;전체목표미완료.",
-  "next_id": 318,
+  "next_id": 321,
   "candidates": [
     {
       "name": "아얄라 박물관",
@@ -143,9 +146,30 @@
       "source": "sources/317-tabaco.json",
       "supplement": "work/parallel-1992/luzon/317-catalog-supplement.json",
       "photo_metadata": "work/parallel-1992/luzon/317-photo-metadata.json"
+    },
+    {
+      "id": 318,
+      "slug": "batangas-city",
+      "source": "sources/318-batangas-city.json",
+      "supplement": "work/parallel-1992/luzon/318-catalog-supplement.json",
+      "photo_metadata": "work/parallel-1992/luzon/318-photo-metadata.json"
+    },
+    {
+      "id": 319,
+      "slug": "cavite-city",
+      "source": "sources/319-cavite-city.json",
+      "supplement": "work/parallel-1992/luzon/319-catalog-supplement.json",
+      "photo_metadata": "work/parallel-1992/luzon/319-photo-metadata.json"
+    },
+    {
+      "id": 320,
+      "slug": "imus-city",
+      "source": "sources/320-imus-city.json",
+      "supplement": "work/parallel-1992/luzon/320-catalog-supplement.json",
+      "photo_metadata": "work/parallel-1992/luzon/320-photo-metadata.json"
     }
   ],
   "parent_deduplication_note": "315마리키나후보는351-marikina-city로수록. 동일도시315별도등록금지.",
-  "commons_metadata_remote_failures": 1,
+  "commons_metadata_remote_failures": 2,
   "nominatim_calls": 1
 }

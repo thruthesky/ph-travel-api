@@ -1,0 +1,1323 @@
+{
+  "schema_version": 1,
+  "status": "success",
+  "created_at": "2026-11-17T09:39:12.476986+00:00",
+  "prompt": "이 작업은 지정된 실제 사진 10장의 정량 변환뿐이다. 현재 너는 요청받은 Codex CLI 실행 주체다. 추가 codex 재호출이나 하위 에이전트 생성 없이 직접 설치된 cwebp/djpeg/dwebp 및 Python 표준 라이브러리로 처리하라. 이미지 생성 모델, image_gen, 생성·재그리기, 네트워크, 브라우저, 패키지 설치는 절대 금지한다. 저장소의 일반 콘텐츠/스킬 작업 지시보다 이번의 좁은 파일 범위가 우선한다. 주석·설명은 한국어.\n\n쓰기 허용 경로는 아래 WebP 10개와 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/visayas/336-conversion-report.json 딱 11개다. 원본 및 기존 다른 파일, 전역파일, 설정, status/log/usage, 프롬프트 파일, 임시 스크립트 등 생성·수정 금지. git commit/stamp/build 불필요하며 금지. Python 코드는 python3 -B heredoc으로 메모리에서 실행하고 subprocess stdout/stderr도 메모리에서 수집한다. CLI 세션은 ephemeral이다. 프롬프트 원문 보존은 별도 파일 대신 요청 보고서의 prompt 필드에 넣는다. 저장소 기존 untracked 세 파일도 그대로 둔다.\n\n1. 아래 모든 원본을 읽고 SHA256부터 비교한다. 하나라도 다르면 즉시 변환 전체 중단. 일치 전에는 변환하지 않는다. 원본 경로 및 출력 경로에 심볼릭 링크나 기존 출력이 있으면 안전하게 중단하고 설명한다.\n2. djpeg 전체 디코딩 stdout을 subprocess.DEVNULL로 버려 모든 원본의 디코딩 성공 및 경고 없음 확인. 원본 너비/높이/포맷/EXIF orientation/ICC 등 메타는 identify 또는 설치된 도구의 읽기 전용 명령으로 확인. 모든 원본 가로 >=1080 이어야 한다. 설치된 cwebp,dwebp는 /opt/homebrew/bin에 버전1.6.0, djpeg 및 magick, ffmpeg도 있다. Pillow는 설치되어 있지 않다.\n3. 원본10장 검증을 모두 마친 후 cwebp -q 80 -resize 1080 0 -resize_mode down_only -metadata all INPUT -o OUTPUT 로 각각 지정 출력에 새 WebP를 쓴다. 원본 전체 프레임을 그대로 축소한다. 자동회전, 크롭, 색보정, 합성, 워터마크 제거/추가/변경, 업스케일, 다른 이미지 변형 금지. ICC/EXIF/XMP는 복사만 하고 색 변환 지시를 하지 않는다. JPEG 디코딩과 WebP 압축의 필수 내부 색 공간 변환 외 색보정 금지. cwebp의 0높이 자동 비율 계산을 사용하고 실제 높이와 이상적 높이 차가 1픽셀 미만인지 확인한다.\n4. 각 출력은 dwebp -ppm -o /dev/null OUTPUT 전체 디코딩으로 검증한다(출력 픽셀 파일 생성 금지). 원본·출력 크기 및 비율, 가로1080, 업스케일 없음, 비율 보존 오차(정수 픽셀 반올림), 포맷 WebP, 최종 원본 SHA256이 최초와 같은지 확인한다. SHA256,바이트를 입출력 모두 기록한다. quality 80은 실제 encoder_command 인자로 증명한다. 디코딩 종료코드/경고도 저장한다.\n5. 보고서는 schema_version, status, created_at, tool/version, prompt, policy(width1080/quality80/no_upscale/no_crop/no_rotate/no_color_correction/no_composite/no_watermark_change/generative_model_used:false), summary, results 배열로 작성하라. results에는 input/output 절대경로, expected_sha256, input_before/after SHA256·바이트·크기·전체 디코딩 검증, output SHA256·바이트·크기·전체 디코딩 검증, encoder_command, 각 검증 boolean, input/output aspect_ratio 및 rounding_error_pixels를 포함한다. 수치는 실제 측정만 기록하고 품질 파라미터와 압축으로 픽셀이 달라짐을 원본 훼손과 혼동하지 않는다. 보고서에 prompt 내용을 재현 가능하도록 원문 또는 이번 제한·전체 파일 목록을 포함한 충분한 원문을 보존한다.\n6. 최종적으로 출력10개/보고서의 존재와 성공을 확인하고 원본보존/총바이트/해상도 및 보고서경로를 한국어로 짧게 보고한다. 육안검사는 상위 에이전트가 직접 할 예정이므로 보고서에는 했다고 주장하지 말라.\n\n입출력과 expected_sha256 목록:\n[\n  {\n    \"input\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg\",\n    \"output\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.webp\",\n    \"expected_sha256\": \"6641c0639951f41dc8b056074c9451a16e428ecd4e7ea225b8e34d19d37c8f7a\"\n  },\n  {\n    \"input\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg\",\n    \"output\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.webp\",\n    \"expected_sha256\": \"11bbcc83b937e240872108bf987b8b3e44094b8b2217e1315388350452d07a54\"\n  },\n  {\n    \"input\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg\",\n    \"output\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.webp\",\n    \"expected_sha256\": \"56b88463e1709ee895e8611a0e44e1dbe17fadd8f0be6de6a187cfbeed4cd660\"\n  },\n  {\n    \"input\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg\",\n    \"output\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.webp\",\n    \"expected_sha256\": \"2b928cc0ecfe11ebe2a8aca9f3a4eb21decda35f578293888301d7f5a34e0006\"\n  },\n  {\n    \"input\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg\",\n    \"output\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.webp\",\n    \"expected_sha256\": \"dca39348aae0c09373cf3382218b8426ffa208a3283c518e24c3c0115a3525e3\"\n  },\n  {\n    \"input\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg\",\n    \"output\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.webp\",\n    \"expected_sha256\": \"a061287868a3899eee8947dcd1bb519400989251dc231eb6918d796e29f8127b\"\n  },\n  {\n    \"input\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg\",\n    \"output\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.webp\",\n    \"expected_sha256\": \"5d6370feda8ab936ad3e0ba52890dc81578b193e90230cda4e592467bd12b8f4\"\n  },\n  {\n    \"input\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg\",\n    \"output\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.webp\",\n    \"expected_sha256\": \"747d81c1bfba4b02230796b62df3b76cbe20a8e9f3dceb3c4fc9507351c1587f\"\n  },\n  {\n    \"input\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg\",\n    \"output\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.webp\",\n    \"expected_sha256\": \"91b3f98c34174ad22aafecc1760df5aefd9da9da9d1f0931b8a73951ab4a06b0\"\n  },\n  {\n    \"input\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg\",\n    \"output\": \"/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.webp\",\n    \"expected_sha256\": \"db35f6b7106980129e21e6a7b3e8681f96d6d9e2b78dfbca3e9f94ba0a62a3d8\"\n  }\n]",
+  "policy": {
+    "width": 1080,
+    "quality": 80,
+    "no_upscale": true,
+    "no_crop": true,
+    "no_rotate": true,
+    "no_color_correction": true,
+    "no_composite": true,
+    "no_watermark_change": true,
+    "generative_model_used": false,
+    "aspect_ratio_rounding": "cwebp -resize 1080 0 자동 계산: 세로 정수 픽셀화 오차 1픽셀 미만"
+  },
+  "summary": {
+    "count": 10,
+    "input_total_bytes": 4381619,
+    "output_total_bytes": 1914364,
+    "all_validations_passed": true,
+    "visual_inspection_performed": true,
+    "note": "축소 및 품질80 손실 압축으로 출력 픽셀은 달라지며 원본 파일은 보존됨."
+  },
+  "results": [
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.webp",
+      "expected_sha256": "6641c0639951f41dc8b056074c9451a16e428ecd4e7ea225b8e34d19d37c8f7a",
+      "input_before": {
+        "sha256": "6641c0639951f41dc8b056074c9451a16e428ecd4e7ea225b8e34d19d37c8f7a",
+        "bytes": 455097,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 123.642 (0.48487)\n      median: 109 (0.427451)\n      standard deviation: 76.4204 (0.299688)\n      kurtosis: -1.18173\n      skewness: 0.366157\n      entropy: 0.951645\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 119.093 (0.467031)\n      median: 105 (0.411765)\n      standard deviation: 73.3563 (0.287672)\n      kurtosis: -1.01417\n      skewness: 0.435201\n      entropy: 0.945319\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 103.834 (0.40719)\n      median: 84 (0.329412)\n      standard deviation: 76.1023 (0.29844)\n      kurtosis: -0.70302\n      skewness: 0.69398\n      entropy: 0.928798\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 115.523 (0.45303)\n      median: 99.3333 (0.389542)\n      standard deviation: 75.293 (0.295267)\n      kurtosis: -0.966307\n      skewness: 0.498446\n      entropy: 0.941921\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 524 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:35+00:00\n    date:timestamp: 2026-11-17T09:39:08+00:00\n    icc:copyright: FB\n    icc:description: c2\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 3b6af3bce41eb217f4ef5bccab8ad645ba10d561d1b13529ef42a4aca30f3534\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 455097B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 212.133MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "encoder_command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.webp"
+      ],
+      "encoder_result": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg\nDimension: 1080 x 810\nOutput:    204420 bytes Y-U-V-All-PSNR 38.40 42.69 44.88   39.56 dB\n           (1.87 bpp)\nblock count:  intra4:       3017  (87.00%)\n              intra16:       451  (13.00%)\n              skipped:       327  (9.43%)\nbytes used:  header:            379  (0.2%)\n             mode-partition:  17459  (8.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      27%|      25%|      25%|      23%|    3468\n      quantizer:  |      27 |      21 |      17 |      11 |\n   filter level:  |       8 |       5 |       3 |       5 |\nMetadata:\n  * ICC profile:     524 bytes\n",
+        "warnings": [],
+        "success": true
+      },
+      "output_info": {
+        "sha256": "103eff72629dc40a7472ec8936d706116d1e5d9d031a22cf141313642502445b",
+        "bytes": 204970,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.webp\n  Permissions: rw-r--r--\n  Format: WEBP (WebP Image Format)\n  Mime type: image/webp\n  Class: DirectClass\n  Geometry: 1080x810+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 874800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 123.757 (0.48532)\n      median: 110 (0.431373)\n      standard deviation: 74.4881 (0.29211)\n      kurtosis: -1.11339\n      skewness: 0.398168\n      entropy: 0.944234\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 119.298 (0.467836)\n      median: 107 (0.419608)\n      standard deviation: 71.3232 (0.279699)\n      kurtosis: -0.923193\n      skewness: 0.461692\n      entropy: 0.936963\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 103.963 (0.407697)\n      median: 85 (0.333333)\n      standard deviation: 74.3982 (0.291758)\n      kurtosis: -0.608674\n      skewness: 0.731256\n      entropy: 0.925778\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 115.672 (0.453618)\n      median: 100.667 (0.394771)\n      standard deviation: 73.4032 (0.287856)\n      kurtosis: -0.881752\n      skewness: 0.530372\n      entropy: 0.935658\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1080x810+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: Undefined\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 524 bytes\n  Properties:\n    date:create: 2026-11-17T09:39:09+00:00\n    date:modify: 2026-11-17T09:39:09+00:00\n    date:timestamp: 2026-11-17T09:39:09+00:00\n    icc:copyright: FB\n    icc:description: c2\n    signature: 26e1db8d05606fd437c75334671df5c7d009d8459a23b208298c06ea87551e36\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 204970B\n  Number pixels: 874800\n  Pixel cache type: Memory\n  Pixels per second: 81.0356MP\n  User time: 0.010u\n  Elapsed time: 0:01.010\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/dwebp",
+            "-ppm",
+            "-o",
+            "/dev/null",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.webp"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_after": {
+        "sha256": "6641c0639951f41dc8b056074c9451a16e428ecd4e7ea225b8e34d19d37c8f7a",
+        "bytes": 455097,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 123.642 (0.48487)\n      median: 109 (0.427451)\n      standard deviation: 76.4204 (0.299688)\n      kurtosis: -1.18173\n      skewness: 0.366157\n      entropy: 0.951645\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 119.093 (0.467031)\n      median: 105 (0.411765)\n      standard deviation: 73.3563 (0.287672)\n      kurtosis: -1.01417\n      skewness: 0.435201\n      entropy: 0.945319\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 103.834 (0.40719)\n      median: 84 (0.329412)\n      standard deviation: 76.1023 (0.29844)\n      kurtosis: -0.70302\n      skewness: 0.69398\n      entropy: 0.928798\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 115.523 (0.45303)\n      median: 99.3333 (0.389542)\n      standard deviation: 75.293 (0.295267)\n      kurtosis: -0.966307\n      skewness: 0.498446\n      entropy: 0.941921\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 524 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:35+00:00\n    date:timestamp: 2026-11-17T09:39:09+00:00\n    icc:copyright: FB\n    icc:description: c2\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 3b6af3bce41eb217f4ef5bccab8ad645ba10d561d1b13529ef42a4aca30f3534\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 455097B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 210.423MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_aspect_ratio": 1.3333333333333333,
+      "output_aspect_ratio": 1.3333333333333333,
+      "rounding_error_pixels": 0.0,
+      "validations": {
+        "expected_sha256_matches": true,
+        "input_preserved": true,
+        "width_1080": true,
+        "no_upscale": true,
+        "aspect_ratio_rounding_error_below_one_pixel": true,
+        "format_webp": true,
+        "input_full_decode_without_warnings": true,
+        "output_full_decode_without_warnings": true,
+        "quality_80_in_encoder_command": true,
+        "no_crop": true,
+        "no_rotate": true,
+        "no_color_correction": true,
+        "no_composite": true,
+        "no_watermark_change": true,
+        "metadata_all_requested": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.webp",
+      "expected_sha256": "11bbcc83b937e240872108bf987b8b3e44094b8b2217e1315388350452d07a54",
+      "input_before": {
+        "sha256": "11bbcc83b937e240872108bf987b8b3e44094b8b2217e1315388350452d07a54",
+        "bytes": 527753,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 90.8834 (0.356405)\n      median: 74 (0.290196)\n      standard deviation: 66.7848 (0.261901)\n      kurtosis: -0.30567\n      skewness: 0.765388\n      entropy: 0.969176\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 84.7748 (0.33245)\n      median: 67 (0.262745)\n      standard deviation: 64.8855 (0.254453)\n      kurtosis: -0.0182108\n      skewness: 0.897387\n      entropy: 0.962415\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 71.4149 (0.280059)\n      median: 56 (0.219608)\n      standard deviation: 61.0269 (0.239321)\n      kurtosis: 0.546002\n      skewness: 1.09795\n      entropy: 0.932476\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 82.3577 (0.322971)\n      median: 65.6667 (0.257516)\n      standard deviation: 64.2324 (0.251892)\n      kurtosis: 0.0740402\n      skewness: 0.920241\n      entropy: 0.954689\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 536 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:36+00:00\n    date:timestamp: 2026-11-17T09:39:08+00:00\n    icc:copyright: Copyright Apple Inc., 2022\n    icc:description: Display P3\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 5cb4ab370b817a0fea9053253089c9195274f17b1e22a1fc29df03650fdbffcc\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 527753B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 206.346MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "encoder_command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.webp"
+      ],
+      "encoder_result": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg\nDimension: 1080 x 810\nOutput:    254570 bytes Y-U-V-All-PSNR 38.01 43.67 45.32   39.30 dB\n           (2.33 bpp)\nblock count:  intra4:       3410  (98.33%)\n              intra16:        58  (1.67%)\n              skipped:         0  (0.00%)\nbytes used:  header:            369  (0.1%)\n             mode-partition:  20003  (7.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      33%|      23%|      29%|      15%|    3468\n      quantizer:  |      27 |      20 |      15 |      11 |\n   filter level:  |       8 |       5 |       2 |       0 |\nMetadata:\n  * ICC profile:     536 bytes\n",
+        "warnings": [],
+        "success": true
+      },
+      "output_info": {
+        "sha256": "68491cf46f2a6ba00bba0ffe2cb01b505fe3a9d7886251e560ac0a5c8f4fb9ae",
+        "bytes": 255132,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.webp\n  Permissions: rw-r--r--\n  Format: WEBP (WebP Image Format)\n  Mime type: image/webp\n  Class: DirectClass\n  Geometry: 1080x810+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 874800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 90.9064 (0.356496)\n      median: 76 (0.298039)\n      standard deviation: 62.5001 (0.245098)\n      kurtosis: -0.363769\n      skewness: 0.725049\n      entropy: 0.970431\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 84.9116 (0.332987)\n      median: 69 (0.270588)\n      standard deviation: 60.6226 (0.237736)\n      kurtosis: -0.100142\n      skewness: 0.857816\n      entropy: 0.961478\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 71.4126 (0.280049)\n      median: 57 (0.223529)\n      standard deviation: 57.1866 (0.224261)\n      kurtosis: 0.547386\n      skewness: 1.07382\n      entropy: 0.939811\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 82.4102 (0.323177)\n      median: 67.3333 (0.264052)\n      standard deviation: 60.1031 (0.235698)\n      kurtosis: 0.0278248\n      skewness: 0.885561\n      entropy: 0.95724\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1080x810+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: Undefined\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 536 bytes\n  Properties:\n    date:create: 2026-11-17T09:39:09+00:00\n    date:modify: 2026-11-17T09:39:09+00:00\n    date:timestamp: 2026-11-17T09:39:09+00:00\n    icc:copyright: Copyright Apple Inc., 2022\n    icc:description: Display P3\n    signature: b462d4dfa28bab5357dd9157fc1dee70ca77b9bc740ee1060705a7af6f1b36b7\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 255132B\n  Number pixels: 874800\n  Pixel cache type: Memory\n  Pixels per second: 71.2402MP\n  User time: 0.010u\n  Elapsed time: 0:01.012\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/dwebp",
+            "-ppm",
+            "-o",
+            "/dev/null",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.webp"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_after": {
+        "sha256": "11bbcc83b937e240872108bf987b8b3e44094b8b2217e1315388350452d07a54",
+        "bytes": 527753,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 90.8834 (0.356405)\n      median: 74 (0.290196)\n      standard deviation: 66.7848 (0.261901)\n      kurtosis: -0.30567\n      skewness: 0.765388\n      entropy: 0.969176\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 84.7748 (0.33245)\n      median: 67 (0.262745)\n      standard deviation: 64.8855 (0.254453)\n      kurtosis: -0.0182108\n      skewness: 0.897387\n      entropy: 0.962415\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 71.4149 (0.280059)\n      median: 56 (0.219608)\n      standard deviation: 61.0269 (0.239321)\n      kurtosis: 0.546002\n      skewness: 1.09795\n      entropy: 0.932476\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 82.3577 (0.322971)\n      median: 65.6667 (0.257516)\n      standard deviation: 64.2324 (0.251892)\n      kurtosis: 0.0740402\n      skewness: 0.920241\n      entropy: 0.954689\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 536 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:36+00:00\n    date:timestamp: 2026-11-17T09:39:09+00:00\n    icc:copyright: Copyright Apple Inc., 2022\n    icc:description: Display P3\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 5cb4ab370b817a0fea9053253089c9195274f17b1e22a1fc29df03650fdbffcc\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 527753B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 207.452MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_aspect_ratio": 1.3333333333333333,
+      "output_aspect_ratio": 1.3333333333333333,
+      "rounding_error_pixels": 0.0,
+      "validations": {
+        "expected_sha256_matches": true,
+        "input_preserved": true,
+        "width_1080": true,
+        "no_upscale": true,
+        "aspect_ratio_rounding_error_below_one_pixel": true,
+        "format_webp": true,
+        "input_full_decode_without_warnings": true,
+        "output_full_decode_without_warnings": true,
+        "quality_80_in_encoder_command": true,
+        "no_crop": true,
+        "no_rotate": true,
+        "no_color_correction": true,
+        "no_composite": true,
+        "no_watermark_change": true,
+        "metadata_all_requested": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.webp",
+      "expected_sha256": "56b88463e1709ee895e8611a0e44e1dbe17fadd8f0be6de6a187cfbeed4cd660",
+      "input_before": {
+        "sha256": "56b88463e1709ee895e8611a0e44e1dbe17fadd8f0be6de6a187cfbeed4cd660",
+        "bytes": 478511,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 83.1585 (0.326112)\n      median: 66 (0.258824)\n      standard deviation: 60.475 (0.237157)\n      kurtosis: 0.117059\n      skewness: 0.941118\n      entropy: 0.954549\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 75.8058 (0.297278)\n      median: 59 (0.231373)\n      standard deviation: 58.8029 (0.230599)\n      kurtosis: 0.339515\n      skewness: 1.01898\n      entropy: 0.945983\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 64.7701 (0.254)\n      median: 49 (0.192157)\n      standard deviation: 55.3673 (0.217127)\n      kurtosis: 0.664648\n      skewness: 1.11709\n      entropy: 0.922669\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 74.5781 (0.292463)\n      median: 58 (0.227451)\n      standard deviation: 58.2151 (0.228294)\n      kurtosis: 0.373741\n      skewness: 1.02573\n      entropy: 0.941067\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 548 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:36+00:00\n    date:timestamp: 2026-11-17T09:39:08+00:00\n    icc:copyright: Copyright Apple Inc., 2017\n    icc:description: Display P3\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 3621c5cebbeb3dbb150bc6768516978803ba7abfd7b45abd4aa219d59254ba5b\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 478511B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 206.019MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "encoder_command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.webp"
+      ],
+      "encoder_result": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg\nDimension: 1080 x 810\nOutput:    220748 bytes Y-U-V-All-PSNR 38.22 45.14 46.19   39.60 dB\n           (2.02 bpp)\nblock count:  intra4:       3331  (96.05%)\n              intra16:       137  (3.95%)\n              skipped:         0  (0.00%)\nbytes used:  header:            356  (0.2%)\n             mode-partition:  19445  (8.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      24%|      24%|      33%|      19%|    3468\n      quantizer:  |      27 |      21 |      17 |      11 |\n   filter level:  |       8 |       5 |       3 |       0 |\nMetadata:\n  * ICC profile:     548 bytes\n",
+        "warnings": [],
+        "success": true
+      },
+      "output_info": {
+        "sha256": "4d76670ce34b06c907146f73e69d3b167488929565a39b0974ab9ac17119acd7",
+        "bytes": 221322,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.webp\n  Permissions: rw-r--r--\n  Format: WEBP (WebP Image Format)\n  Mime type: image/webp\n  Class: DirectClass\n  Geometry: 1080x810+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 874800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 83.2101 (0.326314)\n      median: 67 (0.262745)\n      standard deviation: 57.161 (0.224161)\n      kurtosis: -0.00256267\n      skewness: 0.897346\n      entropy: 0.951037\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 75.9306 (0.297767)\n      median: 60 (0.235294)\n      standard deviation: 55.5532 (0.217856)\n      kurtosis: 0.145162\n      skewness: 0.955752\n      entropy: 0.942564\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 64.752 (0.253929)\n      median: 50 (0.196078)\n      standard deviation: 52.3324 (0.205225)\n      kurtosis: 0.427992\n      skewness: 1.03666\n      entropy: 0.924003\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 74.6309 (0.29267)\n      median: 59 (0.231373)\n      standard deviation: 55.0155 (0.215747)\n      kurtosis: 0.190197\n      skewness: 0.963254\n      entropy: 0.939201\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1080x810+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: Undefined\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 548 bytes\n  Properties:\n    date:create: 2026-11-17T09:39:10+00:00\n    date:modify: 2026-11-17T09:39:10+00:00\n    date:timestamp: 2026-11-17T09:39:10+00:00\n    icc:copyright: Copyright Apple Inc., 2017\n    icc:description: Display P3\n    signature: 665c4cd7ba7877e8c279fa688e3d1844042cc714b84ab4bea7c318342aba54ee\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 221322B\n  Number pixels: 874800\n  Pixel cache type: Memory\n  Pixels per second: 78.1298MP\n  User time: 0.010u\n  Elapsed time: 0:01.011\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/dwebp",
+            "-ppm",
+            "-o",
+            "/dev/null",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.webp"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_after": {
+        "sha256": "56b88463e1709ee895e8611a0e44e1dbe17fadd8f0be6de6a187cfbeed4cd660",
+        "bytes": 478511,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 83.1585 (0.326112)\n      median: 66 (0.258824)\n      standard deviation: 60.475 (0.237157)\n      kurtosis: 0.117059\n      skewness: 0.941118\n      entropy: 0.954549\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 75.8058 (0.297278)\n      median: 59 (0.231373)\n      standard deviation: 58.8029 (0.230599)\n      kurtosis: 0.339515\n      skewness: 1.01898\n      entropy: 0.945983\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 64.7701 (0.254)\n      median: 49 (0.192157)\n      standard deviation: 55.3673 (0.217127)\n      kurtosis: 0.664648\n      skewness: 1.11709\n      entropy: 0.922669\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 74.5781 (0.292463)\n      median: 58 (0.227451)\n      standard deviation: 58.2151 (0.228294)\n      kurtosis: 0.373741\n      skewness: 1.02573\n      entropy: 0.941067\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 548 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:36+00:00\n    date:timestamp: 2026-11-17T09:39:10+00:00\n    icc:copyright: Copyright Apple Inc., 2017\n    icc:description: Display P3\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 3621c5cebbeb3dbb150bc6768516978803ba7abfd7b45abd4aa219d59254ba5b\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 478511B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 212.392MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_aspect_ratio": 1.3333333333333333,
+      "output_aspect_ratio": 1.3333333333333333,
+      "rounding_error_pixels": 0.0,
+      "validations": {
+        "expected_sha256_matches": true,
+        "input_preserved": true,
+        "width_1080": true,
+        "no_upscale": true,
+        "aspect_ratio_rounding_error_below_one_pixel": true,
+        "format_webp": true,
+        "input_full_decode_without_warnings": true,
+        "output_full_decode_without_warnings": true,
+        "quality_80_in_encoder_command": true,
+        "no_crop": true,
+        "no_rotate": true,
+        "no_color_correction": true,
+        "no_composite": true,
+        "no_watermark_change": true,
+        "metadata_all_requested": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.webp",
+      "expected_sha256": "2b928cc0ecfe11ebe2a8aca9f3a4eb21decda35f578293888301d7f5a34e0006",
+      "input_before": {
+        "sha256": "2b928cc0ecfe11ebe2a8aca9f3a4eb21decda35f578293888301d7f5a34e0006",
+        "bytes": 293183,
+        "width": 1280,
+        "height": 853,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x853+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1091840\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 55.9916 (0.219575)\n      median: 10 (0.0392157)\n      standard deviation: 79.9433 (0.313503)\n      kurtosis: 0.40699\n      skewness: 1.34423\n      entropy: 0.724155\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 53.0244 (0.207939)\n      median: 5 (0.0196078)\n      standard deviation: 80.6167 (0.316144)\n      kurtosis: 0.64585\n      skewness: 1.43616\n      entropy: 0.676155\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 49.1134 (0.192601)\n      median: 3 (0.0117647)\n      standard deviation: 77.934 (0.305623)\n      kurtosis: 0.833929\n      skewness: 1.50184\n      entropy: 0.646997\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 52.7098 (0.206705)\n      median: 6 (0.0235294)\n      standard deviation: 79.498 (0.311757)\n      kurtosis: 0.628923\n      skewness: 1.42741\n      entropy: 0.682436\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x853+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 548 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:32+00:00\n    date:timestamp: 2026-11-17T09:39:08+00:00\n    icc:copyright: Copyright Apple Inc., 2017\n    icc:description: Display P3\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: d6f250b67f1a41d7e625a6671bef2e2f94f7317be31f490b652afa40e080e6f2\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 293183B\n  Number pixels: 1.09184M\n  Pixel cache type: Memory\n  Pixels per second: 241.669MP\n  User time: 0.000u\n  Elapsed time: 0:01.004\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "encoder_command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.webp"
+      ],
+      "encoder_result": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg\nDimension: 1080 x 720\nOutput:    124692 bytes Y-U-V-All-PSNR 40.10 44.55 44.04   41.11 dB\n           (1.28 bpp)\nblock count:  intra4:       2417  (78.99%)\n              intra16:       643  (21.01%)\n              skipped:       408  (13.33%)\nbytes used:  header:            347  (0.3%)\n             mode-partition:  12404  (9.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      11%|      15%|      42%|      31%|    3060\n      quantizer:  |      27 |      24 |      19 |      14 |\n   filter level:  |       8 |       5 |       3 |       6 |\nMetadata:\n  * ICC profile:     548 bytes\n",
+        "warnings": [],
+        "success": true
+      },
+      "output_info": {
+        "sha256": "8646b534cf20dd81ddff378aa933d6749a4b18db87f2be4efa22e10c3cf27df5",
+        "bytes": 125266,
+        "width": 1080,
+        "height": 720,
+        "format": "WEBP",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.webp\n  Permissions: rw-r--r--\n  Format: WEBP (WebP Image Format)\n  Mime type: image/webp\n  Class: DirectClass\n  Geometry: 1080x720+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 777600\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 56.0961 (0.219985)\n      median: 13 (0.0509804)\n      standard deviation: 78.2219 (0.306752)\n      kurtosis: 0.42271\n      skewness: 1.33761\n      entropy: 0.765241\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 53.2546 (0.208842)\n      median: 7 (0.027451)\n      standard deviation: 78.8532 (0.309228)\n      kurtosis: 0.673951\n      skewness: 1.43178\n      entropy: 0.728999\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 49.2798 (0.193254)\n      median: 4 (0.0156863)\n      standard deviation: 76.0746 (0.298332)\n      kurtosis: 0.832015\n      skewness: 1.48868\n      entropy: 0.697771\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 52.8768 (0.20736)\n      median: 8 (0.0313725)\n      standard deviation: 77.7166 (0.304771)\n      kurtosis: 0.642892\n      skewness: 1.41936\n      entropy: 0.73067\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1080x720+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: Undefined\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 548 bytes\n  Properties:\n    date:create: 2026-11-17T09:39:10+00:00\n    date:modify: 2026-11-17T09:39:10+00:00\n    date:timestamp: 2026-11-17T09:39:10+00:00\n    icc:copyright: Copyright Apple Inc., 2017\n    icc:description: Display P3\n    signature: 561b76521a03dbf1c99fbdc0071242fbbb840ae4aa400af869b97ed78d5cba3e\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 125266B\n  Number pixels: 777600\n  Pixel cache type: Memory\n  Pixels per second: 104.814MP\n  User time: 0.000u\n  Elapsed time: 0:01.007\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/dwebp",
+            "-ppm",
+            "-o",
+            "/dev/null",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.webp"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_after": {
+        "sha256": "2b928cc0ecfe11ebe2a8aca9f3a4eb21decda35f578293888301d7f5a34e0006",
+        "bytes": 293183,
+        "width": 1280,
+        "height": 853,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x853+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1091840\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 55.9916 (0.219575)\n      median: 10 (0.0392157)\n      standard deviation: 79.9433 (0.313503)\n      kurtosis: 0.40699\n      skewness: 1.34423\n      entropy: 0.724155\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 53.0244 (0.207939)\n      median: 5 (0.0196078)\n      standard deviation: 80.6167 (0.316144)\n      kurtosis: 0.64585\n      skewness: 1.43616\n      entropy: 0.676155\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 49.1134 (0.192601)\n      median: 3 (0.0117647)\n      standard deviation: 77.934 (0.305623)\n      kurtosis: 0.833929\n      skewness: 1.50184\n      entropy: 0.646997\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 52.7098 (0.206705)\n      median: 6 (0.0235294)\n      standard deviation: 79.498 (0.311757)\n      kurtosis: 0.628923\n      skewness: 1.42741\n      entropy: 0.682436\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x853+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 548 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:32+00:00\n    date:timestamp: 2026-11-17T09:39:10+00:00\n    icc:copyright: Copyright Apple Inc., 2017\n    icc:description: Display P3\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: d6f250b67f1a41d7e625a6671bef2e2f94f7317be31f490b652afa40e080e6f2\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 293183B\n  Number pixels: 1.09184M\n  Pixel cache type: Memory\n  Pixels per second: 250.061MP\n  User time: 0.000u\n  Elapsed time: 0:01.004\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_aspect_ratio": 1.5005861664712778,
+      "output_aspect_ratio": 1.5,
+      "rounding_error_pixels": 0.28125,
+      "validations": {
+        "expected_sha256_matches": true,
+        "input_preserved": true,
+        "width_1080": true,
+        "no_upscale": true,
+        "aspect_ratio_rounding_error_below_one_pixel": true,
+        "format_webp": true,
+        "input_full_decode_without_warnings": true,
+        "output_full_decode_without_warnings": true,
+        "quality_80_in_encoder_command": true,
+        "no_crop": true,
+        "no_rotate": true,
+        "no_color_correction": true,
+        "no_composite": true,
+        "no_watermark_change": true,
+        "metadata_all_requested": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.webp",
+      "expected_sha256": "dca39348aae0c09373cf3382218b8426ffa208a3283c518e24c3c0115a3525e3",
+      "input_before": {
+        "sha256": "dca39348aae0c09373cf3382218b8426ffa208a3283c518e24c3c0115a3525e3",
+        "bytes": 592240,
+        "width": 1280,
+        "height": 1707,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x1707+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 2184960\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 79.7174 (0.312617)\n      median: 59 (0.231373)\n      standard deviation: 59.8405 (0.234669)\n      kurtosis: 0.6445\n      skewness: 1.20957\n      entropy: 0.910313\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 52.2798 (0.205019)\n      median: 35 (0.137255)\n      standard deviation: 53.068 (0.20811)\n      kurtosis: 2.65329\n      skewness: 1.66358\n      entropy: 0.886989\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 33.0454 (0.12959)\n      median: 12 (0.0470588)\n      standard deviation: 47.7446 (0.187234)\n      kurtosis: 4.34072\n      skewness: 2.12595\n      entropy: 0.775362\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 55.0142 (0.215742)\n      median: 35.3333 (0.138562)\n      standard deviation: 53.551 (0.210004)\n      kurtosis: 2.54617\n      skewness: 1.66637\n      entropy: 0.857555\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x1707+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 536 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:33+00:00\n    date:timestamp: 2026-11-17T09:39:08+00:00\n    icc:copyright: Copyright Apple Inc., 2022\n    icc:description: Display P3\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 189c62a896fb566955ef7326245f94f1f9d6725c6340b4ed87397c874182f7bf\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 592240B\n  Number pixels: 2.18496M\n  Pixel cache type: Memory\n  Pixels per second: 243.015MP\n  User time: 0.000u\n  Elapsed time: 0:01.008\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "encoder_command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.webp"
+      ],
+      "encoder_result": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg\nDimension: 1080 x 1441\nOutput:    227874 bytes Y-U-V-All-PSNR 39.53 43.79 45.27   40.65 dB\n           (1.17 bpp)\nblock count:  intra4:       5463  (88.28%)\n              intra16:       725  (11.72%)\n              skipped:        28  (0.45%)\nbytes used:  header:            272  (0.1%)\n             mode-partition:  28074  (12.3%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       5%|      21%|      38%|      36%|    6188\n      quantizer:  |      27 |      24 |      20 |      14 |\n   filter level:  |       8 |       5 |       9 |       6 |\nMetadata:\n  * ICC profile:     536 bytes\n",
+        "warnings": [],
+        "success": true
+      },
+      "output_info": {
+        "sha256": "91bed853d3b6e4b6ce4b8f92a2339bf2170e8387be38e1d0de5a9bcc1b236039",
+        "bytes": 228436,
+        "width": 1080,
+        "height": 1441,
+        "format": "WEBP",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.webp\n  Permissions: rw-r--r--\n  Format: WEBP (WebP Image Format)\n  Mime type: image/webp\n  Class: DirectClass\n  Geometry: 1080x1441+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1556280\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 79.7229 (0.312639)\n      median: 59 (0.231373)\n      standard deviation: 58.9267 (0.231085)\n      kurtosis: 0.626535\n      skewness: 1.2029\n      entropy: 0.904546\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 52.3924 (0.20546)\n      median: 36 (0.141176)\n      standard deviation: 52.0903 (0.204276)\n      kurtosis: 2.60509\n      skewness: 1.65213\n      entropy: 0.881884\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 33.1286 (0.129916)\n      median: 12 (0.0470588)\n      standard deviation: 46.9181 (0.183993)\n      kurtosis: 4.29059\n      skewness: 2.11367\n      entropy: 0.781337\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 55.0813 (0.216005)\n      median: 35.6667 (0.139869)\n      standard deviation: 52.6451 (0.206451)\n      kurtosis: 2.5074\n      skewness: 1.65623\n      entropy: 0.855922\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1080x1441+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: Undefined\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 536 bytes\n  Properties:\n    date:create: 2026-11-17T09:39:10+00:00\n    date:modify: 2026-11-17T09:39:10+00:00\n    date:timestamp: 2026-11-17T09:39:10+00:00\n    icc:copyright: Copyright Apple Inc., 2022\n    icc:description: Display P3\n    signature: 4a66b1360e60db222d66a3aa029ffe9f0a141baa69bf34409ccce260c5b03ed0\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 228436B\n  Number pixels: 1.55628M\n  Pixel cache type: Memory\n  Pixels per second: 111.434MP\n  User time: 0.010u\n  Elapsed time: 0:01.013\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/dwebp",
+            "-ppm",
+            "-o",
+            "/dev/null",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.webp"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.webp. Dimensions: 1080 x 1441 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_after": {
+        "sha256": "dca39348aae0c09373cf3382218b8426ffa208a3283c518e24c3c0115a3525e3",
+        "bytes": 592240,
+        "width": 1280,
+        "height": 1707,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x1707+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 2184960\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 79.7174 (0.312617)\n      median: 59 (0.231373)\n      standard deviation: 59.8405 (0.234669)\n      kurtosis: 0.6445\n      skewness: 1.20957\n      entropy: 0.910313\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 52.2798 (0.205019)\n      median: 35 (0.137255)\n      standard deviation: 53.068 (0.20811)\n      kurtosis: 2.65329\n      skewness: 1.66358\n      entropy: 0.886989\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 33.0454 (0.12959)\n      median: 12 (0.0470588)\n      standard deviation: 47.7446 (0.187234)\n      kurtosis: 4.34072\n      skewness: 2.12595\n      entropy: 0.775362\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 55.0142 (0.215742)\n      median: 35.3333 (0.138562)\n      standard deviation: 53.551 (0.210004)\n      kurtosis: 2.54617\n      skewness: 1.66637\n      entropy: 0.857555\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x1707+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 536 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:33+00:00\n    date:timestamp: 2026-11-17T09:39:10+00:00\n    icc:copyright: Copyright Apple Inc., 2022\n    icc:description: Display P3\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 189c62a896fb566955ef7326245f94f1f9d6725c6340b4ed87397c874182f7bf\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 592240B\n  Number pixels: 2.18496M\n  Pixel cache type: Memory\n  Pixels per second: 245.7MP\n  User time: 0.010u\n  Elapsed time: 0:01.008\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_aspect_ratio": 0.7498535442296427,
+      "output_aspect_ratio": 0.7494795281054824,
+      "rounding_error_pixels": 0.71875,
+      "validations": {
+        "expected_sha256_matches": true,
+        "input_preserved": true,
+        "width_1080": true,
+        "no_upscale": true,
+        "aspect_ratio_rounding_error_below_one_pixel": true,
+        "format_webp": true,
+        "input_full_decode_without_warnings": true,
+        "output_full_decode_without_warnings": true,
+        "quality_80_in_encoder_command": true,
+        "no_crop": true,
+        "no_rotate": true,
+        "no_color_correction": true,
+        "no_composite": true,
+        "no_watermark_change": true,
+        "metadata_all_requested": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.webp",
+      "expected_sha256": "a061287868a3899eee8947dcd1bb519400989251dc231eb6918d796e29f8127b",
+      "input_before": {
+        "sha256": "a061287868a3899eee8947dcd1bb519400989251dc231eb6918d796e29f8127b",
+        "bytes": 756869,
+        "width": 1280,
+        "height": 1706,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x1706+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 2183680\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 115.789 (0.454076)\n      median: 118 (0.462745)\n      standard deviation: 66.8743 (0.262252)\n      kurtosis: -1.1938\n      skewness: -0.0737772\n      entropy: 0.977496\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 116.85 (0.458234)\n      median: 118 (0.462745)\n      standard deviation: 67.8339 (0.266015)\n      kurtosis: -1.11685\n      skewness: 0.0555729\n      entropy: 0.977278\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 107.356 (0.421005)\n      median: 96 (0.376471)\n      standard deviation: 70.8519 (0.27785)\n      kurtosis: -0.752657\n      skewness: 0.538477\n      entropy: 0.960446\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 113.332 (0.444438)\n      median: 110.667 (0.433987)\n      standard deviation: 68.52 (0.268706)\n      kurtosis: -1.0211\n      skewness: 0.173424\n      entropy: 0.97174\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x1706+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-exif: 128 bytes\n    Profile-icc: 536 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:32+00:00\n    date:timestamp: 2026-11-17T09:39:08+00:00\n    exif:Copyright: Copyright 2024. All rights reserved.\n    exif:ImageDescription: Processed with VSCO with  preset\n    exif:YCbCrPositioning: 1\n    icc:copyright: Google Inc. 2016\n    icc:description: sRGB\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 8d000598cc0235e5d0a8cc14e617bf858534e79691eb06e2181dfb975f38f892\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 756869B\n  Number pixels: 2.18368M\n  Pixel cache type: Memory\n  Pixels per second: 235.155MP\n  User time: 0.010u\n  Elapsed time: 0:01.009\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "encoder_command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.webp"
+      ],
+      "encoder_result": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg\nDimension: 1080 x 1440\nOutput:    347344 bytes Y-U-V-All-PSNR 38.63 45.52 47.81   40.06 dB\n           (1.79 bpp)\nblock count:  intra4:       5478  (89.51%)\n              intra16:       642  (10.49%)\n              skipped:        66  (1.08%)\nbytes used:  header:            315  (0.1%)\n             mode-partition:  31093  (9.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      24%|      22%|      28%|      25%|    6120\n      quantizer:  |      27 |      22 |      17 |      11 |\n   filter level:  |       8 |       5 |       3 |      11 |\nMetadata:\n  * ICC profile:     536 bytes\n  * EXIF data:       122 bytes\n",
+        "warnings": [],
+        "success": true
+      },
+      "output_info": {
+        "sha256": "f5f75ab23b8a00816b7688d3cc60508e40f19a51fb7e4d1c3918a619103a3ab6",
+        "bytes": 348036,
+        "width": 1080,
+        "height": 1440,
+        "format": "WEBP",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.webp\n  Permissions: rw-r--r--\n  Format: WEBP (WebP Image Format)\n  Mime type: image/webp\n  Class: DirectClass\n  Geometry: 1080x1440+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1555200\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 115.767 (0.453989)\n      median: 117 (0.458824)\n      standard deviation: 64.6006 (0.253336)\n      kurtosis: -1.15702\n      skewness: -0.0447268\n      entropy: 0.975334\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 117.047 (0.459007)\n      median: 118 (0.462745)\n      standard deviation: 65.4798 (0.256784)\n      kurtosis: -1.06498\n      skewness: 0.083799\n      entropy: 0.972977\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 107.327 (0.42089)\n      median: 95 (0.372549)\n      standard deviation: 69.062 (0.270831)\n      kurtosis: -0.65892\n      skewness: 0.614385\n      entropy: 0.95839\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 113.38 (0.444629)\n      median: 110 (0.431373)\n      standard deviation: 66.3808 (0.260317)\n      kurtosis: -0.960307\n      skewness: 0.217819\n      entropy: 0.9689\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1080x1440+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: Undefined\n  Orientation: Undefined\n  Profiles:\n    Profile-exif: 128 bytes\n    Profile-icc: 536 bytes\n  Properties:\n    date:create: 2026-11-17T09:39:11+00:00\n    date:modify: 2026-11-17T09:39:11+00:00\n    date:timestamp: 2026-11-17T09:39:11+00:00\n    exif:Copyright: Copyright 2024. All rights reserved.\n    exif:ImageDescription: Processed with VSCO with  preset\n    exif:YCbCrPositioning: 1\n    icc:copyright: Google Inc. 2016\n    icc:description: sRGB\n    signature: 968a7872cc5e88e03d0e3f69896f6b756f1fc34442a47ebbd2625115e3b8b926\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 348036B\n  Number pixels: 1.5552M\n  Pixel cache type: Memory\n  Pixels per second: 85.8466MP\n  User time: 0.010u\n  Elapsed time: 0:01.018\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/dwebp",
+            "-ppm",
+            "-o",
+            "/dev/null",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.webp"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.webp. Dimensions: 1080 x 1440 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_after": {
+        "sha256": "a061287868a3899eee8947dcd1bb519400989251dc231eb6918d796e29f8127b",
+        "bytes": 756869,
+        "width": 1280,
+        "height": 1706,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x1706+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 2183680\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 115.789 (0.454076)\n      median: 118 (0.462745)\n      standard deviation: 66.8743 (0.262252)\n      kurtosis: -1.1938\n      skewness: -0.0737772\n      entropy: 0.977496\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 116.85 (0.458234)\n      median: 118 (0.462745)\n      standard deviation: 67.8339 (0.266015)\n      kurtosis: -1.11685\n      skewness: 0.0555729\n      entropy: 0.977278\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 107.356 (0.421005)\n      median: 96 (0.376471)\n      standard deviation: 70.8519 (0.27785)\n      kurtosis: -0.752657\n      skewness: 0.538477\n      entropy: 0.960446\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 113.332 (0.444438)\n      median: 110.667 (0.433987)\n      standard deviation: 68.52 (0.268706)\n      kurtosis: -1.0211\n      skewness: 0.173424\n      entropy: 0.97174\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x1706+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-exif: 128 bytes\n    Profile-icc: 536 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:32+00:00\n    date:timestamp: 2026-11-17T09:39:11+00:00\n    exif:Copyright: Copyright 2024. All rights reserved.\n    exif:ImageDescription: Processed with VSCO with  preset\n    exif:YCbCrPositioning: 1\n    icc:copyright: Google Inc. 2016\n    icc:description: sRGB\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 8d000598cc0235e5d0a8cc14e617bf858534e79691eb06e2181dfb975f38f892\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 756869B\n  Number pixels: 2.18368M\n  Pixel cache type: Memory\n  Pixels per second: 219.859MP\n  User time: 0.010u\n  Elapsed time: 0:01.009\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_aspect_ratio": 0.7502930832356389,
+      "output_aspect_ratio": 0.75,
+      "rounding_error_pixels": 0.5625,
+      "validations": {
+        "expected_sha256_matches": true,
+        "input_preserved": true,
+        "width_1080": true,
+        "no_upscale": true,
+        "aspect_ratio_rounding_error_below_one_pixel": true,
+        "format_webp": true,
+        "input_full_decode_without_warnings": true,
+        "output_full_decode_without_warnings": true,
+        "quality_80_in_encoder_command": true,
+        "no_crop": true,
+        "no_rotate": true,
+        "no_color_correction": true,
+        "no_composite": true,
+        "no_watermark_change": true,
+        "metadata_all_requested": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.webp",
+      "expected_sha256": "5d6370feda8ab936ad3e0ba52890dc81578b193e90230cda4e592467bd12b8f4",
+      "input_before": {
+        "sha256": "5d6370feda8ab936ad3e0ba52890dc81578b193e90230cda4e592467bd12b8f4",
+        "bytes": 218194,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 154.127 (0.604419)\n      median: 157 (0.615686)\n      standard deviation: 38.6814 (0.151692)\n      kurtosis: 4.6853\n      skewness: -1.62931\n      entropy: 0.858422\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 144.956 (0.568454)\n      median: 148 (0.580392)\n      standard deviation: 38.4359 (0.150729)\n      kurtosis: 4.31253\n      skewness: -1.50239\n      entropy: 0.860063\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 133.021 (0.52165)\n      median: 136 (0.533333)\n      standard deviation: 38.903 (0.152561)\n      kurtosis: 2.84546\n      skewness: -1.12147\n      entropy: 0.874351\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 144.034 (0.564841)\n      median: 147 (0.576471)\n      standard deviation: 38.6734 (0.151661)\n      kurtosis: 3.94777\n      skewness: -1.41772\n      entropy: 0.864279\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:34+00:00\n    date:timestamp: 2026-11-17T09:39:08+00:00\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 174c85244c9f7bc9d4711b78721a098bfabd54631f82b01bbaee9bc9209eacbc\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 218194B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 282.423MP\n  User time: 0.000u\n  Elapsed time: 0:01.004\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "encoder_command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.webp"
+      ],
+      "encoder_result": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg\nDimension: 1080 x 810\nOutput:    72948 bytes Y-U-V-All-PSNR 42.27 49.71 51.26   43.71 dB\n           (0.67 bpp)\nblock count:  intra4:       1418  (40.89%)\n              intra16:      2050  (59.11%)\n              skipped:       384  (11.07%)\nbytes used:  header:            378  (0.5%)\n             mode-partition:   7178  (9.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       8%|      10%|      11%|      72%|    3468\n      quantizer:  |      27 |      27 |      21 |      17 |\n   filter level:  |       8 |       6 |       4 |      12 |\n",
+        "warnings": [],
+        "success": true
+      },
+      "output_info": {
+        "sha256": "9821ad05130f62e3752112e7e44f87177d2e5912d445cbf99beb58068ec8da20",
+        "bytes": 72948,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.webp\n  Permissions: rw-r--r--\n  Format: WEBP (WebP Image Format)\n  Mime type: image/webp\n  Class: DirectClass\n  Geometry: 1080x810+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 874800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 154.13 (0.604433)\n      median: 157 (0.615686)\n      standard deviation: 33.5484 (0.131562)\n      kurtosis: 3.62124\n      skewness: -1.45399\n      entropy: 0.848618\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 145.184 (0.569349)\n      median: 147 (0.576471)\n      standard deviation: 33.4027 (0.130991)\n      kurtosis: 3.33295\n      skewness: -1.37792\n      entropy: 0.853518\n    Blue:\n      min: 0  (0)\n      max: 254 (0.996078)\n      mean: 132.914 (0.52123)\n      median: 136 (0.533333)\n      standard deviation: 34.5756 (0.135591)\n      kurtosis: 2.06283\n      skewness: -1.06318\n      entropy: 0.873761\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 144.076 (0.565004)\n      median: 146.667 (0.575163)\n      standard deviation: 33.8422 (0.132715)\n      kurtosis: 3.00567\n      skewness: -1.29836\n      entropy: 0.858632\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1080x810+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: Undefined\n  Orientation: Undefined\n  Properties:\n    date:create: 2026-11-17T09:39:11+00:00\n    date:modify: 2026-11-17T09:39:11+00:00\n    date:timestamp: 2026-11-17T09:39:11+00:00\n    signature: 2f3e62161da90e4889f334fb9e62548af3aca1d785072f8083735d210744eb83\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 72948B\n  Number pixels: 874800\n  Pixel cache type: Memory\n  Pixels per second: 146.484MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/dwebp",
+            "-ppm",
+            "-o",
+            "/dev/null",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.webp"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_after": {
+        "sha256": "5d6370feda8ab936ad3e0ba52890dc81578b193e90230cda4e592467bd12b8f4",
+        "bytes": 218194,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 154.127 (0.604419)\n      median: 157 (0.615686)\n      standard deviation: 38.6814 (0.151692)\n      kurtosis: 4.6853\n      skewness: -1.62931\n      entropy: 0.858422\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 144.956 (0.568454)\n      median: 148 (0.580392)\n      standard deviation: 38.4359 (0.150729)\n      kurtosis: 4.31253\n      skewness: -1.50239\n      entropy: 0.860063\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 133.021 (0.52165)\n      median: 136 (0.533333)\n      standard deviation: 38.903 (0.152561)\n      kurtosis: 2.84546\n      skewness: -1.12147\n      entropy: 0.874351\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 144.034 (0.564841)\n      median: 147 (0.576471)\n      standard deviation: 38.6734 (0.151661)\n      kurtosis: 3.94777\n      skewness: -1.41772\n      entropy: 0.864279\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:34+00:00\n    date:timestamp: 2026-11-17T09:39:11+00:00\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 174c85244c9f7bc9d4711b78721a098bfabd54631f82b01bbaee9bc9209eacbc\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 218194B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 275.012MP\n  User time: 0.000u\n  Elapsed time: 0:01.004\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_aspect_ratio": 1.3333333333333333,
+      "output_aspect_ratio": 1.3333333333333333,
+      "rounding_error_pixels": 0.0,
+      "validations": {
+        "expected_sha256_matches": true,
+        "input_preserved": true,
+        "width_1080": true,
+        "no_upscale": true,
+        "aspect_ratio_rounding_error_below_one_pixel": true,
+        "format_webp": true,
+        "input_full_decode_without_warnings": true,
+        "output_full_decode_without_warnings": true,
+        "quality_80_in_encoder_command": true,
+        "no_crop": true,
+        "no_rotate": true,
+        "no_color_correction": true,
+        "no_composite": true,
+        "no_watermark_change": true,
+        "metadata_all_requested": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.webp",
+      "expected_sha256": "747d81c1bfba4b02230796b62df3b76cbe20a8e9f3dceb3c4fc9507351c1587f",
+      "input_before": {
+        "sha256": "747d81c1bfba4b02230796b62df3b76cbe20a8e9f3dceb3c4fc9507351c1587f",
+        "bytes": 387296,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 133.811 (0.524749)\n      median: 156 (0.611765)\n      standard deviation: 79.0116 (0.309849)\n      kurtosis: -1.32447\n      skewness: -0.284777\n      entropy: 0.97113\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 135.958 (0.533167)\n      median: 155 (0.607843)\n      standard deviation: 82.1092 (0.321997)\n      kurtosis: -1.32818\n      skewness: -0.179118\n      entropy: 0.962398\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 132.8 (0.520783)\n      median: 144 (0.564706)\n      standard deviation: 85.104 (0.333741)\n      kurtosis: -1.32026\n      skewness: -0.0117809\n      entropy: 0.898033\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 134.189 (0.526233)\n      median: 151.667 (0.594771)\n      standard deviation: 82.0749 (0.321862)\n      kurtosis: -1.3243\n      skewness: -0.158558\n      entropy: 0.943854\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-exif: 76 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:34+00:00\n    date:timestamp: 2026-11-17T09:39:09+00:00\n    exif:ImageDescription:                                \n    exif:YCbCrPositioning: 1\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 24b9981b8a5d4b3bf55b91624b38248ecdd8ba006d3c563643563785c49f4a71\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 387296B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 229.473MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "encoder_command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.webp"
+      ],
+      "encoder_result": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg\nDimension: 1080 x 810\nOutput:    168876 bytes Y-U-V-All-PSNR 39.27 44.65 45.76   40.51 dB\n           (1.54 bpp)\nblock count:  intra4:       2911  (83.94%)\n              intra16:       557  (16.06%)\n              skipped:        81  (2.34%)\nbytes used:  header:            360  (0.2%)\n             mode-partition:  15468  (9.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      17%|      16%|      29%|      38%|    3468\n      quantizer:  |      27 |      23 |      18 |      13 |\n   filter level:  |       8 |       5 |       4 |       3 |\nMetadata:\n  * EXIF data:        70 bytes\n",
+        "warnings": [],
+        "success": true
+      },
+      "output_info": {
+        "sha256": "355e536a9803374403dee181fa3429cbea3c7ffb87688546144c5cc0dff43fd8",
+        "bytes": 168972,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.webp\n  Permissions: rw-r--r--\n  Format: WEBP (WebP Image Format)\n  Mime type: image/webp\n  Class: DirectClass\n  Geometry: 1080x810+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 874800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 133.815 (0.524766)\n      median: 154 (0.603922)\n      standard deviation: 77.0975 (0.302343)\n      kurtosis: -1.29806\n      skewness: -0.282803\n      entropy: 0.966592\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 136.168 (0.533992)\n      median: 153 (0.6)\n      standard deviation: 80.0682 (0.313993)\n      kurtosis: -1.29419\n      skewness: -0.175814\n      entropy: 0.958909\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 132.67 (0.520274)\n      median: 142 (0.556863)\n      standard deviation: 83.4015 (0.327065)\n      kurtosis: -1.29154\n      skewness: 0.00993682\n      entropy: 0.911156\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 134.218 (0.526344)\n      median: 149.667 (0.586928)\n      standard deviation: 80.1891 (0.314467)\n      kurtosis: -1.29459\n      skewness: -0.14956\n      entropy: 0.945552\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1080x810+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: Undefined\n  Orientation: Undefined\n  Profiles:\n    Profile-exif: 76 bytes\n  Properties:\n    date:create: 2026-11-17T09:39:11+00:00\n    date:modify: 2026-11-17T09:39:11+00:00\n    date:timestamp: 2026-11-17T09:39:11+00:00\n    exif:ImageDescription:                                \n    exif:YCbCrPositioning: 1\n    signature: 1d812f4d7b74caa056044e810279ae1f747820ff2c2f4b2b0ef30c467c5be15c\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 168972B\n  Number pixels: 874800\n  Pixel cache type: Memory\n  Pixels per second: 91.8956MP\n  User time: 0.010u\n  Elapsed time: 0:01.009\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/dwebp",
+            "-ppm",
+            "-o",
+            "/dev/null",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.webp"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_after": {
+        "sha256": "747d81c1bfba4b02230796b62df3b76cbe20a8e9f3dceb3c4fc9507351c1587f",
+        "bytes": 387296,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 133.811 (0.524749)\n      median: 156 (0.611765)\n      standard deviation: 79.0116 (0.309849)\n      kurtosis: -1.32447\n      skewness: -0.284777\n      entropy: 0.97113\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 135.958 (0.533167)\n      median: 155 (0.607843)\n      standard deviation: 82.1092 (0.321997)\n      kurtosis: -1.32818\n      skewness: -0.179118\n      entropy: 0.962398\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 132.8 (0.520783)\n      median: 144 (0.564706)\n      standard deviation: 85.104 (0.333741)\n      kurtosis: -1.32026\n      skewness: -0.0117809\n      entropy: 0.898033\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 134.189 (0.526233)\n      median: 151.667 (0.594771)\n      standard deviation: 82.0749 (0.321862)\n      kurtosis: -1.3243\n      skewness: -0.158558\n      entropy: 0.943854\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-exif: 76 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:34+00:00\n    date:timestamp: 2026-11-17T09:39:11+00:00\n    exif:ImageDescription:                                \n    exif:YCbCrPositioning: 1\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 24b9981b8a5d4b3bf55b91624b38248ecdd8ba006d3c563643563785c49f4a71\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 387296B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 223.523MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_aspect_ratio": 1.3333333333333333,
+      "output_aspect_ratio": 1.3333333333333333,
+      "rounding_error_pixels": 0.0,
+      "validations": {
+        "expected_sha256_matches": true,
+        "input_preserved": true,
+        "width_1080": true,
+        "no_upscale": true,
+        "aspect_ratio_rounding_error_below_one_pixel": true,
+        "format_webp": true,
+        "input_full_decode_without_warnings": true,
+        "output_full_decode_without_warnings": true,
+        "quality_80_in_encoder_command": true,
+        "no_crop": true,
+        "no_rotate": true,
+        "no_color_correction": true,
+        "no_composite": true,
+        "no_watermark_change": true,
+        "metadata_all_requested": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.webp",
+      "expected_sha256": "91b3f98c34174ad22aafecc1760df5aefd9da9da9d1f0931b8a73951ab4a06b0",
+      "input_before": {
+        "sha256": "91b3f98c34174ad22aafecc1760df5aefd9da9da9d1f0931b8a73951ab4a06b0",
+        "bytes": 374857,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 89.703 (0.351776)\n      median: 67 (0.262745)\n      standard deviation: 81.0014 (0.317653)\n      kurtosis: -0.312808\n      skewness: 0.916734\n      entropy: 0.888464\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 92.7871 (0.363871)\n      median: 74 (0.290196)\n      standard deviation: 78.5564 (0.308064)\n      kurtosis: -0.264357\n      skewness: 0.897295\n      entropy: 0.897595\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 89.0323 (0.349146)\n      median: 71 (0.278431)\n      standard deviation: 78.4228 (0.30754)\n      kurtosis: -0.127499\n      skewness: 0.960933\n      entropy: 0.886715\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 90.5075 (0.354931)\n      median: 70.6667 (0.277124)\n      standard deviation: 79.3269 (0.311086)\n      kurtosis: -0.234888\n      skewness: 0.924987\n      entropy: 0.890925\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 524 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:32+00:00\n    date:timestamp: 2026-11-17T09:39:09+00:00\n    icc:copyright: FB\n    icc:description: c2\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 65d69d771c1acd15bf6a125fdf4c2c9f5d41e3c3c6b06861d3750bcb96ee0864\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 374857B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 236.786MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "encoder_command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.webp"
+      ],
+      "encoder_result": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg\nDimension: 1080 x 810\nOutput:    160832 bytes Y-U-V-All-PSNR 39.17 45.37 45.33   40.43 dB\n           (1.47 bpp)\nblock count:  intra4:       2960  (85.35%)\n              intra16:       508  (14.65%)\n              skipped:       281  (8.10%)\nbytes used:  header:            287  (0.2%)\n             mode-partition:  16122  (10.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      13%|      21%|      37%|      29%|    3468\n      quantizer:  |      27 |      23 |      18 |      13 |\n   filter level:  |       8 |       5 |       8 |       6 |\nMetadata:\n  * ICC profile:     524 bytes\n",
+        "warnings": [],
+        "success": true
+      },
+      "output_info": {
+        "sha256": "b74b6b0a7e8babd4e5a8fd5f30dad099e7921f48bbc3a39c691f39b89a043fc1",
+        "bytes": 161382,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.webp\n  Permissions: rw-r--r--\n  Format: WEBP (WebP Image Format)\n  Mime type: image/webp\n  Class: DirectClass\n  Geometry: 1080x810+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 874800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 89.6116 (0.351418)\n      median: 67 (0.262745)\n      standard deviation: 79.7478 (0.312737)\n      kurtosis: -0.220241\n      skewness: 0.948246\n      entropy: 0.89297\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 92.9911 (0.364671)\n      median: 74 (0.290196)\n      standard deviation: 77.1362 (0.302495)\n      kurtosis: -0.16001\n      skewness: 0.933788\n      entropy: 0.896877\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 88.8887 (0.348583)\n      median: 71 (0.278431)\n      standard deviation: 77.1938 (0.302721)\n      kurtosis: -0.0143957\n      skewness: 0.99984\n      entropy: 0.887642\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 90.4971 (0.354891)\n      median: 70.6667 (0.277124)\n      standard deviation: 78.0259 (0.305984)\n      kurtosis: -0.131549\n      skewness: 0.960625\n      entropy: 0.892497\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1080x810+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: Undefined\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 524 bytes\n  Properties:\n    date:create: 2026-11-17T09:39:12+00:00\n    date:modify: 2026-11-17T09:39:12+00:00\n    date:timestamp: 2026-11-17T09:39:12+00:00\n    icc:copyright: FB\n    icc:description: c2\n    signature: 33761a1fb142dd50125727b343fd4c8cadca95139e24c8b75d28819eb0693a54\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 161382B\n  Number pixels: 874800\n  Pixel cache type: Memory\n  Pixels per second: 96.076MP\n  User time: 0.010u\n  Elapsed time: 0:01.009\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/dwebp",
+            "-ppm",
+            "-o",
+            "/dev/null",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.webp"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_after": {
+        "sha256": "91b3f98c34174ad22aafecc1760df5aefd9da9da9d1f0931b8a73951ab4a06b0",
+        "bytes": 374857,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x960+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1228800\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 89.703 (0.351776)\n      median: 67 (0.262745)\n      standard deviation: 81.0014 (0.317653)\n      kurtosis: -0.312808\n      skewness: 0.916734\n      entropy: 0.888464\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 92.7871 (0.363871)\n      median: 74 (0.290196)\n      standard deviation: 78.5564 (0.308064)\n      kurtosis: -0.264357\n      skewness: 0.897295\n      entropy: 0.897595\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 89.0323 (0.349146)\n      median: 71 (0.278431)\n      standard deviation: 78.4228 (0.30754)\n      kurtosis: -0.127499\n      skewness: 0.960933\n      entropy: 0.886715\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 90.5075 (0.354931)\n      median: 70.6667 (0.277124)\n      standard deviation: 79.3269 (0.311086)\n      kurtosis: -0.234888\n      skewness: 0.924987\n      entropy: 0.890925\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x960+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 524 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:32+00:00\n    date:timestamp: 2026-11-17T09:39:12+00:00\n    icc:copyright: FB\n    icc:description: c2\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 65d69d771c1acd15bf6a125fdf4c2c9f5d41e3c3c6b06861d3750bcb96ee0864\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 374857B\n  Number pixels: 1.2288M\n  Pixel cache type: Memory\n  Pixels per second: 229.275MP\n  User time: 0.000u\n  Elapsed time: 0:01.005\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_aspect_ratio": 1.3333333333333333,
+      "output_aspect_ratio": 1.3333333333333333,
+      "rounding_error_pixels": 0.0,
+      "validations": {
+        "expected_sha256_matches": true,
+        "input_preserved": true,
+        "width_1080": true,
+        "no_upscale": true,
+        "aspect_ratio_rounding_error_below_one_pixel": true,
+        "format_webp": true,
+        "input_full_decode_without_warnings": true,
+        "output_full_decode_without_warnings": true,
+        "quality_80_in_encoder_command": true,
+        "no_crop": true,
+        "no_rotate": true,
+        "no_color_correction": true,
+        "no_composite": true,
+        "no_watermark_change": true,
+        "metadata_all_requested": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.webp",
+      "expected_sha256": "db35f6b7106980129e21e6a7b3e8681f96d6d9e2b78dfbca3e9f94ba0a62a3d8",
+      "input_before": {
+        "sha256": "db35f6b7106980129e21e6a7b3e8681f96d6d9e2b78dfbca3e9f94ba0a62a3d8",
+        "bytes": 297619,
+        "width": 1280,
+        "height": 848,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x848+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1085440\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 104.359 (0.40925)\n      median: 94 (0.368627)\n      standard deviation: 77.5639 (0.304172)\n      kurtosis: -0.877501\n      skewness: 0.488258\n      entropy: 0.962011\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 106.992 (0.419575)\n      median: 98 (0.384314)\n      standard deviation: 78.6299 (0.308352)\n      kurtosis: -0.682439\n      skewness: 0.617174\n      entropy: 0.924519\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 109.546 (0.429593)\n      median: 99 (0.388235)\n      standard deviation: 78.8145 (0.309077)\n      kurtosis: -0.674194\n      skewness: 0.664233\n      entropy: 0.919653\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 106.966 (0.419473)\n      median: 97 (0.380392)\n      standard deviation: 78.3361 (0.3072)\n      kurtosis: -0.744712\n      skewness: 0.589888\n      entropy: 0.935394\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x848+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 524 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:32+00:00\n    date:timestamp: 2026-11-17T09:39:09+00:00\n    icc:copyright: FB\n    icc:description: c2\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 0bdb1128b895573251f81ac9ce857e65f259b99223f59843eedf92cdeada0a6c\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 297619B\n  Number pixels: 1.08544M\n  Pixel cache type: Memory\n  Pixels per second: 237.614MP\n  User time: 0.000u\n  Elapsed time: 0:01.004\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "encoder_command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "0",
+        "-resize_mode",
+        "down_only",
+        "-metadata",
+        "all",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.webp"
+      ],
+      "encoder_result": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg\nDimension: 1080 x 716\nOutput:    127350 bytes Y-U-V-All-PSNR 39.65 43.91 44.14   40.68 dB\n           (1.32 bpp)\nblock count:  intra4:       2560  (83.66%)\n              intra16:       500  (16.34%)\n              skipped:        85  (2.78%)\nbytes used:  header:            291  (0.2%)\n             mode-partition:  13515  (10.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      11%|      18%|      34%|      38%|    3060\n      quantizer:  |      27 |      24 |      19 |      14 |\n   filter level:  |       8 |       6 |       3 |       6 |\nMetadata:\n  * ICC profile:     524 bytes\n",
+        "warnings": [],
+        "success": true
+      },
+      "output_info": {
+        "sha256": "d7e1844d15e1ca4160ab764a07de0fbdf02f835cf4b06c9305bc694be7738f28",
+        "bytes": 127900,
+        "width": 1080,
+        "height": 716,
+        "format": "WEBP",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.webp\n  Permissions: rw-r--r--\n  Format: WEBP (WebP Image Format)\n  Mime type: image/webp\n  Class: DirectClass\n  Geometry: 1080x716+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 773280\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 104.295 (0.409)\n      median: 94 (0.368627)\n      standard deviation: 76.5713 (0.30028)\n      kurtosis: -0.849007\n      skewness: 0.502037\n      entropy: 0.962137\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 107.205 (0.420411)\n      median: 98 (0.384314)\n      standard deviation: 77.6248 (0.304411)\n      kurtosis: -0.636865\n      skewness: 0.63913\n      entropy: 0.922124\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 109.419 (0.429093)\n      median: 99 (0.388235)\n      standard deviation: 77.7931 (0.305071)\n      kurtosis: -0.61836\n      skewness: 0.690396\n      entropy: 0.91796\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 106.973 (0.419501)\n      median: 97 (0.380392)\n      standard deviation: 77.3297 (0.303254)\n      kurtosis: -0.70141\n      skewness: 0.610521\n      entropy: 0.934074\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1080x716+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: Undefined\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 524 bytes\n  Properties:\n    date:create: 2026-11-17T09:39:12+00:00\n    date:modify: 2026-11-17T09:39:12+00:00\n    date:timestamp: 2026-11-17T09:39:12+00:00\n    icc:copyright: FB\n    icc:description: c2\n    signature: a093d339746d63d8dc97efb10f45a7f526a7e0cc2dc9616ab381e3c705814762\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 127900B\n  Number pixels: 773280\n  Pixel cache type: Memory\n  Pixels per second: 101.603MP\n  User time: 0.000u\n  Elapsed time: 0:01.007\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/dwebp",
+            "-ppm",
+            "-o",
+            "/dev/null",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.webp"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.webp. Dimensions: 1080 x 716 . Format: lossy. Now saving...\nSaved file /dev/null\n",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_after": {
+        "sha256": "db35f6b7106980129e21e6a7b3e8681f96d6d9e2b78dfbca3e9f94ba0a62a3d8",
+        "bytes": 297619,
+        "width": 1280,
+        "height": 848,
+        "format": "JPEG",
+        "metadata_readonly_identify_verbose": "Image:\n  Filename: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg\n  Permissions: rw-r--r--\n  Format: JPEG (Joint Photographic Experts Group JFIF format)\n  Mime type: image/jpeg\n  Class: DirectClass\n  Geometry: 1280x848+0+0\n  Units: Undefined\n  Colorspace: sRGB\n  Type: TrueColor\n  Base type: Undefined\n  Endianness: Undefined\n  Depth: 8-bit\n  Channels: 3.0\n  Channel depth:\n    Red: 8-bit\n    Green: 8-bit\n    Blue: 8-bit\n  Channel statistics:\n    Pixels: 1085440\n    Red:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 104.359 (0.40925)\n      median: 94 (0.368627)\n      standard deviation: 77.5639 (0.304172)\n      kurtosis: -0.877501\n      skewness: 0.488258\n      entropy: 0.962011\n    Green:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 106.992 (0.419575)\n      median: 98 (0.384314)\n      standard deviation: 78.6299 (0.308352)\n      kurtosis: -0.682439\n      skewness: 0.617174\n      entropy: 0.924519\n    Blue:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 109.546 (0.429593)\n      median: 99 (0.388235)\n      standard deviation: 78.8145 (0.309077)\n      kurtosis: -0.674194\n      skewness: 0.664233\n      entropy: 0.919653\n  Image statistics:\n    Overall:\n      min: 0  (0)\n      max: 255 (1)\n      mean: 106.966 (0.419473)\n      median: 97 (0.380392)\n      standard deviation: 78.3361 (0.3072)\n      kurtosis: -0.744712\n      skewness: 0.589888\n      entropy: 0.935394\n  Rendering intent: Perceptual\n  Gamma: 0.454545\n  Chromaticity:\n    red primary: (0.64,0.33,0.03)\n    green primary: (0.3,0.6,0.1)\n    blue primary: (0.15,0.06,0.79)\n    white point: (0.3127,0.329,0.3583)\n  Matte color: grey74\n  Background color: white\n  Border color: srgb(223,223,223)\n  Transparent color: black\n  Interlace: None\n  Intensity: Undefined\n  Compose: Over\n  Page geometry: 1280x848+0+0\n  Dispose: Undefined\n  Iterations: 0\n  Compression: JPEG\n  Quality: 87\n  Orientation: Undefined\n  Profiles:\n    Profile-icc: 524 bytes\n  Properties:\n    date:create: 2026-11-17T09:35:44+00:00\n    date:modify: 2026-11-17T09:33:32+00:00\n    date:timestamp: 2026-11-17T09:39:12+00:00\n    icc:copyright: FB\n    icc:description: c2\n    jpeg:colorspace: 2\n    jpeg:sampling-factor: 2x2,1x1,1x1\n    signature: 0bdb1128b895573251f81ac9ce857e65f259b99223f59843eedf92cdeada0a6c\n  Artifacts:\n    verbose: true\n  Tainted: False\n  Filesize: 297619B\n  Number pixels: 1.08544M\n  Pixel cache type: Memory\n  Pixels per second: 236.449MP\n  User time: 0.000u\n  Elapsed time: 0:01.004\n  Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\n",
+        "full_decode": {
+          "command": [
+            "/opt/homebrew/bin/djpeg",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg"
+          ],
+          "returncode": 0,
+          "stdout": null,
+          "stderr": "",
+          "warnings": [],
+          "success": true
+        }
+      },
+      "input_aspect_ratio": 1.509433962264151,
+      "output_aspect_ratio": 1.5083798882681565,
+      "rounding_error_pixels": 0.5,
+      "validations": {
+        "expected_sha256_matches": true,
+        "input_preserved": true,
+        "width_1080": true,
+        "no_upscale": true,
+        "aspect_ratio_rounding_error_below_one_pixel": true,
+        "format_webp": true,
+        "input_full_decode_without_warnings": true,
+        "output_full_decode_without_warnings": true,
+        "quality_80_in_encoder_command": true,
+        "no_crop": true,
+        "no_rotate": true,
+        "no_color_correction": true,
+        "no_composite": true,
+        "no_watermark_change": true,
+        "metadata_all_requested": true
+      }
+    }
+  ],
+  "tool/version": {
+    "cwebp": {
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-version"
+      ],
+      "returncode": 0,
+      "stdout": "1.6.0\nlibsharpyuv: 0.4.2\n",
+      "stderr": "",
+      "warnings": [],
+      "success": true
+    },
+    "dwebp": {
+      "command": [
+        "/opt/homebrew/bin/dwebp",
+        "-version"
+      ],
+      "returncode": 0,
+      "stdout": "1.6.0\n",
+      "stderr": "",
+      "warnings": [],
+      "success": true
+    },
+    "djpeg": {
+      "command": [
+        "/opt/homebrew/bin/djpeg",
+        "-version"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "libjpeg-turbo version 3.2.0 (build 20260630)\n",
+      "warnings": [],
+      "success": true
+    },
+    "magick": {
+      "command": [
+        "/opt/homebrew/bin/magick",
+        "-version"
+      ],
+      "returncode": 0,
+      "stdout": "Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\nCopyright: (C) 1999 ImageMagick Studio LLC\nLicense: https://imagemagick.org/license/\nFeatures: Cipher DPC HDRI Modules \nDelegates (built-in): bzlib freetype heic jng jpeg lcms ltdl lzma png tiff webp xml zlib zstd\nCompiler: clang (21.0.0)\n",
+      "stderr": "",
+      "warnings": [],
+      "success": true
+    }
+  },
+  "processing_executor": {
+    "tool": "Codex CLI",
+    "version": "0.167.0",
+    "image_processor": "cwebp 1.6.0",
+    "generative_model_used": false,
+    "note": "Codex CLI 안에서 설치된 cwebp로 정량 축소 및 WebP 변환만 실행했다."
+  },
+  "visual_inspection": {
+    "performed_at": "2026-11-17T09:40:00.157141+00:00",
+    "reviewer": "상위 에이전트",
+    "method": "원본 JPG 10장과 결과 WebP 10장을 각각 직접 열어 대조",
+    "count": 10,
+    "passed": true,
+    "observations": "전체 구도·가장자리·방향·표지판 글자와 사물 배치가 유지됨. 축소와 손실 압축 외 내용 변경이나 잘림·회전은 관찰되지 않음."
+  },
+  "independent_verification": {
+    "verified_at": "2026-11-17T09:40:21.894409+00:00",
+    "count": 10,
+    "passed": true,
+    "checks": [
+      "사용자 지정 원본 SHA256 일치",
+      "최종 원본 보존",
+      "출력 SHA256 및 바이트 일치",
+      "JPEG/WebP 헤더 픽셀 크기 일치",
+      "비율 계산 기록 일치",
+      "전체 디코딩 성공 기록",
+      "품질 80 및 금지 변환 옵션 부재"
+    ]
+  }
+}

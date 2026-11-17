@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "manifest": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/320-imus-city-replacement-manifest.json",
+  "manifest_entry_count": 1,
+  "outputs": [
+    {
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/320-imus-city-original-15.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/320-imus-city-10.webp",
+      "original_sha256_before": "f8f144b865593c7959475551fd15886e179077b8253787ac45d5e01bbc2c02bf",
+      "original_sha256_after": "f8f144b865593c7959475551fd15886e179077b8253787ac45d5e01bbc2c02bf",
+      "original_sha256_unchanged": true,
+      "original_dimensions": {
+        "width": 1280,
+        "height": 960
+      },
+      "output_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "original_aspect_ratio": 1.3333333333333333,
+      "output_aspect_ratio": 1.3333333333333333,
+      "expected_height": 810.0,
+      "height_error_px": 0.0,
+      "webp_quality": 80,
+      "webp_decode_success": true,
+      "output_sha256": "135d0527d15d47587042237da9937b6b01cec2e80c3540783c2b583c3c184e89",
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/320-imus-city-original-15.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/luzon/assets/320-imus-city-10.webp"
+      ],
+      "verified": true
+    }
+  ]
+}

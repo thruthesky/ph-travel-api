@@ -1,0 +1,567 @@
+{
+  "id": 336,
+  "slug": "yap-sandiego-house",
+  "checked_at": "2026-11-17T09:42:07.879867+00:00",
+  "primary_philgo_post_ids": [
+    1275713409
+  ],
+  "facts": [
+    {
+      "where": "identity, overview",
+      "fact": "기존 지구 안내와 별도 고택 상세",
+      "value": "얍·산디에고 고택",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275713409",
+          "grade": "C",
+          "says": "부모가 공개 API에서 idx·subject·content만 수집한 캐시에서 독립 고택 원문을 읽었다."
+        },
+        {
+          "url": "https://tpb.gov.ph/wp-content/uploads/2025/11/Annex-B_Itinerary-Lots-1-7.pdf",
+          "grade": "A",
+          "says": "정부 관광진흥청의 ASEAN Tourism Forum2026 공식 일정 PDF1쪽에서 Yap-San Diego House를 별도 방문 시설로 명시한다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yap%E2%80%93San_Diego_House",
+          "grade": "B",
+          "says": "세부 파리안의2층 주택·박물관을 확인했다."
+        }
+      ],
+      "decision": "원본 CSV/TSV와 data.csv·실제 data/ko를 비교했다.277파리안 지구의 하위 시설을 한 채 중심으로 확장한다. 카사 고로르도·예수회 하우스와는 별개이며 파리안 원글 전체를 신규완료로 세지 않는다."
+    },
+    {
+      "where": "latitude, longitude, location",
+      "fact": "두 지도 교차와 모퉁이 주소",
+      "value": "10.2993,123.9040",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/407368310",
+          "grade": "B",
+          "says": "Nominatim 건물 중심10.2992579,123.9039722와 경계를 확인했다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yap%E2%80%93San_Diego_House",
+          "grade": "B",
+          "says": "지도 좌표10.29927,123.90394가 같은 집을 가리킨다."
+        },
+        {
+          "url": "https://www.spot.ph/arts-culture/the-latest-arts-culture/75171/yap-sandiego-ancestral-home-cebu-a125-20180919-lfrm",
+          "grade": "B",
+          "says": "2018년 현장 기사 본문은155 Lopez Jaena corner Mabini Street,Parian 주소를 명시한다."
+        }
+      ],
+      "decision": "지도 차이는약4m로 같은 집이다. OSM의 Tinago/Carreta 행정 세분화와 일반 유산 안내의Parian 명칭을 구별하고 원고는 통용 파리안과 실제 두 거리로 안내한다. 시내·공항 고정거리와 도보분수는 쓰지 않았다."
+    },
+    {
+      "where": "overview",
+      "fact": "가문과 건립 시기",
+      "value": "17세기 말의 가문 주택",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Yap-San_Diego_House_Cebu_City_CHAFI_Marker.jpg",
+          "grade": "A",
+          "says": "2026년8월 사진의 공식 City of Cebu·Cultural and Historical Affairs Commission 현장 표지를 직접 확대해 읽었다. 산호석·경목·테라코타,JuanVelosoYap와MariaDelMarFlorido,딸과MarianoSandiego,가족주거·유산기능을 설명한다.2025표기·Resolution21series2024가 있다."
+        },
+        {
+          "url": "https://veejayaragon.wixsite.com/yapsandiego/about-us",
+          "grade": "C",
+          "says": "고택 명의 Wix 소개 페이지의 실제 본문은17세기말 추정·JuanYap·MariaFlorido·딸Maria의혼인·Val후손 관리 등을 소개한다. 운영사 소유를 독립 확인하지 못해A로 등급을 높이지 않았다."
+        },
+        {
+          "url": "https://proudbisayabai.ph/story/2026/04/17/inside-old-cebu-yap-san-diego-ancestral-house",
+          "grade": "C",
+          "says": "2026년4월17일 현장 글의 직접 본문도 가문·재료·후손의 박물관 관리를 설명한다."
+        }
+      ],
+      "decision": "400년이넘었다거나 정확한1675년착공을 확정하지 않는다.17세기말·여러세대의집으로 쓴다. 소유자 긴 이름의 자료별 차이와 정확한세대수·2003/2008복원연도 차이를 피하고 확인되는 짧은 이름만 쓴다."
+    },
+    {
+      "where": "highlights",
+      "fact": "집의 건축과 관찰 포인트",
+      "value": "산호석·목재·기와와 창",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Yap-San_Diego_House_Cebu_City_CHAFI_Marker.jpg",
+          "grade": "A",
+          "says": "현장 공식 표지에 산호석 기초·경목 구조·테라코타 기와와 중국/스페인 건축 영향이 명시되어 있다."
+        },
+        {
+          "url": "https://www.spot.ph/arts-culture/the-latest-arts-culture/75171/yap-sandiego-ancestral-home-cebu-a125-20180919-lfrm",
+          "grade": "B",
+          "says": "현장 사진과 본문에서 재료·창·가구·성상·마당을 확인했다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yap%E2%80%93San_Diego_House",
+          "grade": "B",
+          "says": "두 층과 열린 마당·창·내려오는 지붕을 설명한다."
+        }
+      ],
+      "decision": "원재료95/90%보존율은 오래된 소유자 진술과 기사 수치가 달라 쓰지 않았다. 내진성·온도절감·못이나 달걀흰자 공법의 성능을 추정하지 않고 실제 보이는 재료와 공간을 설명했다."
+    },
+    {
+      "where": "highlights, overview",
+      "fact": "가구·식기·성상과 수집품",
+      "value": "가정 생활과 신앙",
+      "sources": [
+        {
+          "url": "https://www.spot.ph/arts-culture/the-latest-arts-culture/75171/yap-sandiego-ancestral-home-cebu-a125-20180919-lfrm",
+          "grade": "B",
+          "says": "직접 읽은 기사에 가문 사진·식기·성상·가구·부엌 물건과 세대별수집품이 있다."
+        },
+        {
+          "url": "https://proudbisayabai.ph/story/2026/04/17/inside-old-cebu-yap-san-diego-ancestral-house",
+          "grade": "C",
+          "says": "2026년 실제 본문은 종교상·오래된가구·사진·가보와 좁은목조통로의현장장면을 묘사한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Yap-San_Diego_Ancestral_House_20260113_06.jpg",
+          "grade": "C",
+          "says": "2026년1월의 성상·제단 장면을 직접 열어 확인했다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Yap-San_Diego_House_entrance,_Aug_2026.jpg",
+          "grade": "C",
+          "says": "2026년8월 입구 안쪽의 기둥·가구·수집품 사진을 열어 확인했다."
+        }
+      ],
+      "decision": "모든물건의연대를17세기나건립때로묶지 않았다. 개별물건이현재같은위치에있는지·모든물건의접촉허가·공연일정을 보장하지 않는다. 사진은 촬영일 기록이다."
+    },
+    {
+      "where": "best_time, itinerary, costs",
+      "fact": "현재 이용과 충돌하는 운영 안내",
+      "value": "현행시간·요금 고정하지 않음",
+      "sources": [
+        {
+          "url": "https://veejayaragon.wixsite.com/yapsandiego",
+          "grade": "C",
+          "says": "소개 페이지 실제본문은09~19시·P50을 적고 같은페이지푸터는09~20시여서 자체충돌한다.2020저작권과오래된사진을포함한다."
+        },
+        {
+          "url": "https://www.travelcebu.ph/blog/yap-san-diego-ancestral-house/",
+          "grade": "C",
+          "says": "검색상2024년5월P100·본문시간표오기가보였으나 최종현행요금의근거로쓰지않았다."
+        },
+        {
+          "url": "https://tpb.gov.ph/wp-content/uploads/2025/11/Annex-B_Itinerary-Lots-1-7.pdf",
+          "grade": "A",
+          "says": "2026년1월26일 투어 계획에 고택을포함하나 행사일정안이며상시개방시간표가아니다."
+        },
+        {
+          "url": "https://proudbisayabai.ph/story/2026/04/17/inside-old-cebu-yap-san-diego-ancestral-house",
+          "grade": "C",
+          "says": "2026년 현장관람을설명하고1월·8월실내사진도있어 옛폐쇄기사만으로현재폐쇄라고단정하지않았다."
+        }
+      ],
+      "decision": "원문의일요일·공휴일휴관·점심휴관·무료가이드·고정팁은 현재자료로확정되지않아옮기지않았다.정밀시간·요금은미기재하고현재접수·개방층·실제비용확인을안내한다.45~60분은편집상관람여유이지고정가이드일정이아니다."
+    },
+    {
+      "where": "cautions",
+      "fact": "지정과 지진 후 이용 상태",
+      "value": "무리한 인증·안전 보장 배제",
+      "sources": [
+        {
+          "url": "https://newsinfo.inquirer.net/1601616/ancestral-house-in-cebu-now-a-cultural-icon",
+          "grade": "B",
+          "says": "2022년기사검색내용에ImportantCulturalProperty선언이있지만 직접열기는403이었다."
+        },
+        {
+          "url": "https://weblinks.nationalmuseum.gov.ph/wp-content/uploads/2021/07/NMP-Annual-Report-FY-2019.pdf",
+          "grade": "A",
+          "says": "검색상2019년보고서는Yap-SanDiegoHouse등의ICP심의를deferred/objected로표시한다.2022결정문본문은확보하지못했다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Yap-San_Diego_House_Cebu_City_CHAFI_Marker.jpg",
+          "grade": "A",
+          "says": "세부시 공식 현장유산표지는직접읽었다."
+        }
+      ],
+      "decision": "국립박물관2022지정원문을검증하지못해ICP·국가문화재·유네스코·세계최고/유일인증을원고에쓰지않았다.2025지진뒤옛폐쇄정보를현재폐쇄로연장하지않고,지진·악천후후현장개방과제한을확인하도록했다.계단·좁은통로와유물접촉규칙도직접현장조건우선이다."
+    },
+    {
+      "where": "getting_there, nearby",
+      "fact": "구도심 방문과 별도 주변 시설",
+      "value": "파리안·세부시티·산페드로",
+      "sources": [
+        {
+          "url": "https://tpb.gov.ph/wp-content/uploads/2025/11/Annex-B_Itinerary-Lots-1-7.pdf",
+          "grade": "A",
+          "says": "공식2026유산투어일정은고택·카사고로르도·산페드로등을별도명소로묶는다."
+        },
+        {
+          "url": "https://www.spot.ph/arts-culture/the-latest-arts-culture/75171/yap-sandiego-ancestral-home-cebu-a125-20180919-lfrm",
+          "grade": "B",
+          "says": "기념비가까운모퉁이주소와별도주택을확인한다."
+        },
+        {
+          "url": "https://www.sunstar.com.ph/cebu/gabii-sa-kabilin-marks-20-years",
+          "grade": "B",
+          "says": "2026년10월3일행사기사전체본문은2027의20주년준비와2026년10월2일행사·별도참여시설들을다룬다.명단에이집은없다."
+        }
+      ],
+      "decision": "가비이행사가항상5월이거나고택이2026참여한다고쓰지않았다.주변고택의표·휴관일을공유한다고보장하지않으며특정차량노선번호·고정운임·이동분수도미기재했다."
+    },
+    {
+      "where": "budget, costs",
+      "fact": "개인 지출 배분",
+      "value": "PHP800~1800",
+      "sources": [],
+      "decision": "고택입장개인배분100~300+시내왕복300~800+식사250~500+물간식예비150~200=800~1800.현행공식입장료나운임표가아닌계획이다.공항/리조트교통·다른시설·숙박·기념품은별도다."
+    }
+  ],
+  "images": [
+    {
+      "file": "336-yap-sandiego-house.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Ancestral_House_in_parian_san_diego.jpg",
+      "credit": "Claudio monceda / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-10-30",
+      "author_date_group": "Claudio monceda|2026-10-30",
+      "check": "2026년10월전체외관.현재기본구조와모퉁이위치를확인했다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.webp",
+        "result": "후보원본21장과선택최종WebP10장을각각직접열어장소·글자·구도·비율을대조했다.내용변경·크롭·합성없음."
+      },
+      "source_metadata": {
+        "cache": "yap-house",
+        "index": 11,
+        "title": "File:Ancestral House in parian san diego.jpg",
+        "artist": "Claudio monceda",
+        "license": "CC BY-SA 4.0",
+        "date": "2026-10-30 15:20:01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ancestral_House_in_parian_san_diego.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Ancestral_House_in_parian_san_diego.jpg/1280px-Ancestral_House_in_parian_san_diego.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 6324,
+        "height": 4743,
+        "description": "This photo captures the Yap-Sandiego Ancestral House in Parian, Cebu City, featuring its historic two-story structure of coral stone walls and dark wooden upper cladding adorned with Philippine flags, hanging greenery, and decorative potted plants along the street front.",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.jpg",
+        "sha256": "6641c0639951f41dc8b056074c9451a16e428ecd4e7ea225b8e34d19d37c8f7a",
+        "categories": "Cultural heritage monuments in the Philippines|Self-published work|Uploaded via Campaign:wlm-ph|Images from Wiki Loves Monuments missing SDC participant in|Images from Wiki Loves Monuments missing SDC inception|Images from Wiki Loves Monuments missing SDC creator|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Images from Wiki Loves Monuments missing SDC source of file|Images from Wiki Loves Monuments 2026|Images from Wiki Loves Monuments 2026 in the Philippines",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house.webp",
+        "id": 336,
+        "slug": "yap-sandiego-house",
+        "number": 1,
+        "canonical_date": "2026-10-30"
+      }
+    },
+    {
+      "file": "336-yap-sandiego-house-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Yap-San_Diego_House_entrance,_Aug_2026.jpg",
+      "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-08-26",
+      "author_date_group": "A.C.T. Alejandre|2026-08-26",
+      "check": "2026년8월입구실내.기둥·가구·빛·장식.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.webp",
+        "result": "후보원본21장과선택최종WebP10장을각각직접열어장소·글자·구도·비율을대조했다.내용변경·크롭·합성없음."
+      },
+      "source_metadata": {
+        "cache": "yap-house-alt",
+        "index": 29,
+        "title": "File:Yap-San Diego House entrance, Aug 2026.jpg",
+        "artist": "A.C.T. Alejandre",
+        "license": "CC BY-SA 4.0",
+        "date": "2026-08-26",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yap-San_Diego_House_entrance,_Aug_2026.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Yap-San_Diego_House_entrance%2C_Aug_2026.jpg/1280px-Yap-San_Diego_House_entrance%2C_Aug_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4032,
+        "height": 3024,
+        "description": "Yap-San Diego House ground floor entrance, Cebu City, August 2026",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.jpg",
+        "sha256": "11bbcc83b937e240872108bf987b8b3e44094b8b2217e1315388350452d07a54",
+        "categories": "Cebu City|Self-published work|Yap-San Diego Ancestral House",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-2.webp",
+        "id": 336,
+        "slug": "yap-sandiego-house",
+        "number": 2,
+        "canonical_date": "2026-08-26"
+      }
+    },
+    {
+      "file": "336-yap-sandiego-house-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Yap-San_Diego_Ancestral_House_20260113_06.jpg",
+      "credit": "西安兵马俑 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-01-13",
+      "author_date_group": "西安兵马俑|2026-01-13",
+      "check": "2026년1월성상·제단.개별물건연대와현재배치추정없음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.webp",
+        "result": "후보원본21장과선택최종WebP10장을각각직접열어장소·글자·구도·비율을대조했다.내용변경·크롭·합성없음."
+      },
+      "source_metadata": {
+        "cache": "yap-house-alt",
+        "index": 18,
+        "title": "File:Yap-San Diego Ancestral House 20260113 06.jpg",
+        "artist": "西安兵马俑",
+        "license": "CC BY-SA 4.0",
+        "date": "2026-01-13 13:41:58",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yap-San_Diego_Ancestral_House_20260113_06.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Yap-San_Diego_Ancestral_House_20260113_06.jpg/1280px-Yap-San_Diego_Ancestral_House_20260113_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4032,
+        "height": 3024,
+        "description": "​宿务叶氏古宅",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.jpg",
+        "sha256": "56b88463e1709ee895e8611a0e44e1dbe17fadd8f0be6de6a187cfbeed4cd660",
+        "categories": "Self-published work|Files with coordinates missing SDC location of creation|Interior of Yap-San Diego Ancestral House|Philippines photographs taken on 2026-01-13",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-3.webp",
+        "id": 336,
+        "slug": "yap-sandiego-house",
+        "number": 3,
+        "canonical_date": "2026-01-13"
+      }
+    },
+    {
+      "file": "336-yap-sandiego-house-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Dine_for_a_Thousand_Years_and_More.jpg",
+      "credit": "Roseannpalma / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2013-09-15",
+      "author_date_group": "Roseannpalma|2013-09-15",
+      "check": "2013년식당의날짜있는기록.현재전시배치나가구접촉허용근거아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.webp",
+        "result": "후보원본21장과선택최종WebP10장을각각직접열어장소·글자·구도·비율을대조했다.내용변경·크롭·합성없음."
+      },
+      "source_metadata": {
+        "cache": "yap-house",
+        "index": 1,
+        "title": "File:Dine for a Thousand Years and More.jpg",
+        "artist": "Roseannpalma",
+        "license": "CC BY-SA 4.0",
+        "date": "2013-09-15 16:41:24",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dine_for_a_Thousand_Years_and_More.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Dine_for_a_Thousand_Years_and_More.jpg/1280px-Dine_for_a_Thousand_Years_and_More.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3688,
+        "height": 2458,
+        "description": "This is captured from one of the oldest residential houses in Cebu City, Yap-Sandiego Ancestral house built in the 17th century.",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.jpg",
+        "sha256": "2b928cc0ecfe11ebe2a8aca9f3a4eb21decda35f578293888301d7f5a34e0006",
+        "categories": "Self-published work|Uploaded via Campaign:wle-ph|PD-Philippines FoP work|Interior of Yap-San Diego Ancestral House",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-4.webp",
+        "id": 336,
+        "slug": "yap-sandiego-house",
+        "number": 4,
+        "canonical_date": "2013-09-15"
+      }
+    },
+    {
+      "file": "336-yap-sandiego-house-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Yap_Sandiego_Ancestral_House.jpg",
+      "credit": "Nicel Mae / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-08-09",
+      "author_date_group": "Nicel Mae|2026-08-09",
+      "check": "2026년8월야간의창·조명·성상.늦은개방/공연보장없음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.webp",
+        "result": "후보원본21장과선택최종WebP10장을각각직접열어장소·글자·구도·비율을대조했다.내용변경·크롭·합성없음."
+      },
+      "source_metadata": {
+        "cache": "yap-house",
+        "index": 9,
+        "title": "File:Yap Sandiego Ancestral House.jpg",
+        "artist": "Nicel Mae",
+        "license": "CC BY-SA 4.0",
+        "date": "2026-08-09 19:11:00",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yap_Sandiego_Ancestral_House.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Yap_Sandiego_Ancestral_House.jpg/1280px-Yap_Sandiego_Ancestral_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3024,
+        "height": 4032,
+        "description": "one of the oldest residential structures in the Philippines and one of the earliest Chinese homes built outside of China.",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.jpg",
+        "sha256": "dca39348aae0c09373cf3382218b8426ffa208a3283c518e24c3c0115a3525e3",
+        "categories": "Self-published work|Files with coordinates missing SDC location of creation|All media needing categories as of 2026|Media needing categories as of 1 September 2026",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-5.webp",
+        "id": 336,
+        "slug": "yap-sandiego-house",
+        "number": 5,
+        "canonical_date": "2026-08-09"
+      }
+    },
+    {
+      "file": "336-yap-sandiego-house-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Yap-Sandiego_Ancestral_House_1.jpg",
+      "credit": "Charrie Anne Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-01-27",
+      "author_date_group": "Charrie Anne Nacor|2024-01-27",
+      "check": "2024년박공·간판세로세부.사진속시간표는현재시간으로전재하지않음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.webp",
+        "result": "후보원본21장과선택최종WebP10장을각각직접열어장소·글자·구도·비율을대조했다.내용변경·크롭·합성없음."
+      },
+      "source_metadata": {
+        "cache": "yap-house",
+        "index": 8,
+        "title": "File:Yap-Sandiego Ancestral House 1.jpg",
+        "artist": "Charrie Anne Nacor",
+        "license": "CC BY-SA 4.0",
+        "date": "2024-01-27 14:45:26",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yap-Sandiego_Ancestral_House_1.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Yap-Sandiego_Ancestral_House_1.jpg/1280px-Yap-Sandiego_Ancestral_House_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2811,
+        "height": 3747,
+        "description": "Yap-Sandiego Ancestral House 1",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.jpg",
+        "sha256": "a061287868a3899eee8947dcd1bb519400989251dc231eb6918d796e29f8127b",
+        "categories": "Self-published work|Philippine Panorama Project/Ancestral Houses|Yap-San Diego Ancestral House|Philippine Panorama Project/GLAM|Philippine Panorama Project/Cebu City",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-6.webp",
+        "id": 336,
+        "slug": "yap-sandiego-house",
+        "number": 6,
+        "canonical_date": "2024-01-27"
+      }
+    },
+    {
+      "file": "336-yap-sandiego-house-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Parian_District,_Cebu_City-5.jpg",
+      "credit": "WishywizPH / CC0 / Wikimedia Commons",
+      "date": "2024-11-28",
+      "author_date_group": "WishywizPH|2024-11-28",
+      "check": "2024년파리안해설판.고택의지역맥락을설명하며실내전시위치를고택으로잘못단정하지않음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.webp",
+        "result": "후보원본21장과선택최종WebP10장을각각직접열어장소·글자·구도·비율을대조했다.내용변경·크롭·합성없음."
+      },
+      "source_metadata": {
+        "cache": "yap-house-alt",
+        "index": 12,
+        "title": "File:Parian District, Cebu City-5.jpg",
+        "artist": "WishywizPH",
+        "license": "CC0",
+        "date": "2024-11-28 14:42:32",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Parian_District,_Cebu_City-5.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Parian_District%2C_Cebu_City-5.jpg/1280px-Parian_District%2C_Cebu_City-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4096,
+        "height": 3072,
+        "description": "This photo was taken in the Philippine National Museum\nContext:\n\"THE PARIAN DISTRICT OF CEBU CITY\"\nAt the beginning of Cebu as the first Spanish settlement in the Philippines, the colonizers wanted to keep different nationalities separate. To implement this, Miguel Lopez de Legazpi divided Cebu into two, the poblacion de naturales which became San Nicolas, for the natives, and the poblacion de europeos, which became the ciudad or city of Cebu, for the Europeans. In 1590, the Chinese settled to the north of Cebu, becoming a trading hub called the Parian district, from a Chinese term meaning \"trade\" or \"barter. \n\nThe homes and stores that made up the Parian district represent distinct architectural style and are lasting examples of the unique Houses such as the Casa Gorordo, the Yap-San Diego House, and the Jesuit House to the built heritage and historic urban context of the Parian, and Cebu as a whole.",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.jpg",
+        "sha256": "5d6370feda8ab936ad3e0ba52890dc81578b193e90230cda4e592467bd12b8f4",
+        "categories": "CC-Zero|Self-published work|Taken with Realme 12 Pro+ 5G|National Museum of the Philippines - Cebu",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-7.webp",
+        "id": 336,
+        "slug": "yap-sandiego-house",
+        "number": 7,
+        "canonical_date": "2024-11-28"
+      }
+    },
+    {
+      "file": "336-yap-sandiego-house-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Yap-Santiago_Ancestral_House_(Mabini,_Parian,_Cebu_City;_09-05-2022).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-09-05",
+      "author_date_group": "Patrickroque01|2022-09-05",
+      "check": "2022년정면.2026년외관과같은석조/목조/기와기본구조확인.계절장식은달라짐.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.webp",
+        "result": "후보원본21장과선택최종WebP10장을각각직접열어장소·글자·구도·비율을대조했다.내용변경·크롭·합성없음."
+      },
+      "source_metadata": {
+        "cache": "yap-house-alt",
+        "index": 8,
+        "title": "File:Yap-Santiago Ancestral House (Mabini, Parian, Cebu City; 09-05-2022).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "date": "09-05-2022",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yap-Santiago_Ancestral_House_(Mabini,_Parian,_Cebu_City;_09-05-2022).jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Yap-Santiago_Ancestral_House_%28Mabini%2C_Parian%2C_Cebu_City%3B_09-05-2022%29.jpg/1280px-Yap-Santiago_Ancestral_House_%28Mabini%2C_Parian%2C_Cebu_City%3B_09-05-2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552,
+        "height": 2664,
+        "description": "Yap-Santiago Ancestral House, Parian, Cebu City",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.jpg",
+        "sha256": "747d81c1bfba4b02230796b62df3b76cbe20a8e9f3dceb3c4fc9507351c1587f",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|PD-Philippines FoP work|Yap-San Diego Ancestral House",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-8.webp",
+        "id": 336,
+        "slug": "yap-sandiego-house",
+        "number": 8,
+        "canonical_date": "2022-09-05"
+      }
+    },
+    {
+      "file": "336-yap-sandiego-house-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Parian_Heritage_Park_Cebu_(11)_(C._Agustin)_-_Flickr.jpg",
+      "credit": "Constantine Agustin from Manila, Philippines / CC BY-SA 2.0 / Wikimedia Commons",
+      "date": "2010-11-19",
+      "author_date_group": "Constantine Agustin from Manila, Philippines|2010-11-19",
+      "check": "2010년마당측면의역사기록.현재출입문·동선·식물배치보장없음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.webp",
+        "result": "후보원본21장과선택최종WebP10장을각각직접열어장소·글자·구도·비율을대조했다.내용변경·크롭·합성없음."
+      },
+      "source_metadata": {
+        "cache": "yap-house",
+        "index": 7,
+        "title": "File:Parian Heritage Park Cebu (11) (C. Agustin) - Flickr.jpg",
+        "artist": "Constantine Agustin from Manila, Philippines",
+        "license": "CC BY-SA 2.0",
+        "date": "2010-11-19 17:00",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Parian_Heritage_Park_Cebu_(11)_(C._Agustin)_-_Flickr.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Parian_Heritage_Park_Cebu_%2811%29_%28C._Agustin%29_-_Flickr.jpg/1280px-Parian_Heritage_Park_Cebu_%2811%29_%28C._Agustin%29_-_Flickr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2816,
+        "height": 2112,
+        "description": "yap-sandiego ancestral house and museum",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.jpg",
+        "sha256": "91b3f98c34174ad22aafecc1760df5aefd9da9da9d1f0931b8a73951ab4a06b0",
+        "categories": "Flickr images reviewed by FlickreviewR 2|Flickr images imported by User:JWilz12345|PD-Philippines FoP work|Yap-San Diego Ancestral House",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-9.webp",
+        "id": 336,
+        "slug": "yap-sandiego-house",
+        "number": 9,
+        "canonical_date": "2010-11-19"
+      }
+    },
+    {
+      "file": "336-yap-sandiego-house-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Yap-Sandiego_Ancestral_House,_Cebu_City.jpg",
+      "credit": "Subhashish Panigrahi / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2015-01-23",
+      "author_date_group": "Subhashish Panigrahi|2015-01-23",
+      "check": "2015년박공/간판의역사기록.현재영업시간표근거아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.webp",
+        "result": "후보원본21장과선택최종WebP10장을각각직접열어장소·글자·구도·비율을대조했다.내용변경·크롭·합성없음."
+      },
+      "source_metadata": {
+        "cache": "yap-house",
+        "index": 2,
+        "title": "File:Yap-Sandiego Ancestral House, Cebu City.jpg",
+        "artist": "Subhashish Panigrahi",
+        "license": "CC BY-SA 4.0",
+        "date": "2015-01-23 02:12:37",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yap-Sandiego_Ancestral_House,_Cebu_City.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Yap-Sandiego_Ancestral_House%2C_Cebu_City.jpg/1280px-Yap-Sandiego_Ancestral_House%2C_Cebu_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4928,
+        "height": 3264,
+        "description": "Yap-Sandiego Ancestral House, Cebu City, the Philippines.",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.jpg",
+        "sha256": "db35f6b7106980129e21e6a7b3e8681f96d6d9e2b78dfbca3e9f94ba0a62a3d8",
+        "categories": "PD-Philippines FoP work|Yap-San Diego Ancestral House",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets336/336-yap-sandiego-house-10.webp",
+        "id": 336,
+        "slug": "yap-sandiego-house",
+        "number": 10,
+        "canonical_date": "2015-01-23"
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_author_date_groups": 10,
+    "independent_travel_groups": 10,
+    "groups_note": "2026년1월13일西安兵马俑의실내연속사진은1장만,ACT2026년8월26일사진도실내1장만썼다.동일작가연속여행을중복으로묶었다.선택사진10개는모두작가도다르다.",
+    "conversion": "Codex CLI 안에서 cwebp1080px·품질80 수치변환만.생성모델·내용수정·합성없음.",
+    "prompt": "work/parallel-1992/visayas/336-yap-sandiego-house-prompt.txt",
+    "report": "work/parallel-1992/visayas/336-conversion-report.json"
+  },
+  "archives": {
+    "philgo": "_i18n/work/expansion-1973/posts/1275713409.json",
+    "research_directory": "_i18n/work/parallel-1992/visayas/research336",
+    "candidate_audit": "work/parallel-1992/visayas/336-candidate-audit.json"
+  }
+}
