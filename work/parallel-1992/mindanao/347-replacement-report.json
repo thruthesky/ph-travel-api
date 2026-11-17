@@ -1,0 +1,43 @@
+{
+  "overall_success": true,
+  "entries": [
+    {
+      "input": {
+        "path": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/replacement-originals/347-balanghay.jpg",
+        "sha256": "162e6be34f05e1b878db01c5a6ab4efd5ef34514344e1c3ddfaf2a9ca8943dff",
+        "width": 1280,
+        "height": 1707,
+        "normal_decode": true,
+        "format": "JPEG"
+      },
+      "output": {
+        "path": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/replacement-converted/347-butuan-city-03.webp",
+        "sha256": "6afc03dac46d85d3a9b31047afe9f29408533cdd213f564336b429333c405fc7",
+        "width": 1080,
+        "height": 1440,
+        "normal_decode": true,
+        "format": "WEBP"
+      },
+      "manifest_sha256": "162e6be34f05e1b878db01c5a6ab4efd5ef34514344e1c3ddfaf2a9ca8943dff",
+      "source_sha256_matches_manifest": true,
+      "success": true,
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "1440",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/replacement-originals/347-balanghay.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/replacement-converted/347-butuan-city-03.webp"
+      ],
+      "height_rounding_error_pixels": 0.28125,
+      "aspect_ratio_absolute_error": 0.00014645577035732327,
+      "aspect_ratio_relative_error": 0.0001953125000000444,
+      "within_rounding_error": true,
+      "input_unchanged": true
+    }
+  ],
+  "all_inputs_prevalidated": true
+}
