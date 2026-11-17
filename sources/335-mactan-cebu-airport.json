@@ -1,0 +1,545 @@
+{
+  "id": 335,
+  "slug": "mactan-cebu-airport",
+  "checked_at": "2026-11-17T09:31:26.505680+00:00",
+  "primary_philgo_post_ids": [
+    1275712960
+  ],
+  "facts": [
+    {
+      "where": "identity, overview",
+      "fact": "원문 여행지와 독립 항목",
+      "value": "막탄·세부 국제공항 CEB",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712960",
+          "grade": "C",
+          "says": "부모가 공개 API의 idx·subject·content만 보존한 캐시에서 공항 안내를 읽었다."
+        },
+        {
+          "url": "https://help.cebupacificair.com/article/cebu-travel-guide-mactan-cebu-international-airport-ceb-211355",
+          "grade": "A",
+          "says": "항공사 공항 안내의 실제 본문과 저장 HTML에서 CEB·T1·T2를 확인했다."
+        },
+        {
+          "url": "https://mciaa.gov.ph/2026/04/15/mciaa-champions-cebus-connectivity-at-routes-asia-2026/",
+          "grade": "A",
+          "says": "2026년 공항청의 실제 본문은 터미널과 공항 운영을 다룬다."
+        }
+      ],
+      "decision": "data.csv·기존 data/ko·원본 목록을 대조했다. 막탄섬 지역065·세부시티063과 다른 공항 상세다. 원문의 잘못된 층별 구성·마닐라 Mall of Asia 연결·보홀 태그빌라란 직항·고정 운임·셔틀 간격·항공사 노선 목록은 옮기지 않았다."
+    },
+    {
+      "where": "latitude, longitude",
+      "fact": "대표 위치와 공항 기준점 구별",
+      "value": "10.3132,123.9763",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/565082418",
+          "grade": "B",
+          "says": "Nominatim에서 Terminal 2 중심 10.3131988,123.9763092와 건물 경계를 확인했다."
+        },
+        {
+          "url": "https://mapcarta.com/W565082418",
+          "grade": "B",
+          "says": "T2 좌표10.31322,123.97683을 표시한다. OSM 기반이므로 독립 지도 검증으로 세지 않았다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mactan%E2%80%93Cebu_International_Airport",
+          "grade": "B",
+          "says": "공항 전체 좌표10.30722,123.97889와 T1·T2가 같은 공항임을 확인했다."
+        }
+      ],
+      "decision": "대표핀은 T2 건물 중심이다. 위키 공항 기준점은 T2와 약720m 떨어진 공항 전체 위치여서 승차장이나 실제 출입구로 쓰지 않았다. Mapcarta의 잘못된 Davao/Mindanao 분류는 배제했다. 정확한 승차·터미널은 항공권과 현장 표지를 따른다."
+    },
+    {
+      "where": "overview, highlights, getting_there",
+      "fact": "터미널과 조용한 공항",
+      "value": "국내선 T1·국제선 T2의 기본 구분과 전광판",
+      "sources": [
+        {
+          "url": "https://help.cebupacificair.com/article/cebu-travel-guide-mactan-cebu-international-airport-ceb-211355",
+          "grade": "A",
+          "says": "직접 본문에 T1 국내선·T2 국제선의 기본 구분과 silent airport, FIDS 확인이 있다. 최초 웹 읽기와 저장 HTML은 성공했고 최종 웹 재접속은 시간초과했다."
+        },
+        {
+          "url": "https://www.grab.com/global/airport-rides/mactan-cebu-international-airport/",
+          "grade": "A",
+          "says": "운송서비스 운영사의 직접 본문은 T1 대부분 국내선, T2 국제선 및 일부 국내선과 실제 터미널 확인을 설명한다."
+        }
+      ],
+      "decision": "기본 구분을 안내하되 본인 항공사의 현재 안내를 우선한다. 방송 축소를 빈 대기열이나 무절차 공항으로 해석하지 않는다. 항공사별 수속 마감 수치는 원고에서 고정하지 않았다."
+    },
+    {
+      "where": "highlights",
+      "fact": "T2 물결 지붕과 건축",
+      "value": "아치와 높은 지붕",
+      "sources": [
+        {
+          "url": "https://www.arup.com/en-us/projects/mactan-cebu-international-airport/",
+          "grade": "A",
+          "says": "설계 참여사 본문은 목재 아치·바다 물결을 연상시키는 지붕과 높이·빛·열을 조절하는 설계를 설명한다."
+        },
+        {
+          "url": "https://help.cebupacificair.com/article/cebu-travel-guide-mactan-cebu-international-airport-ceb-211355",
+          "grade": "A",
+          "says": "항공사의 공항 안내에서 두 터미널의 실용적 이용 구분을 확인했다."
+        }
+      ],
+      "decision": "외부에서 안전하게 지붕을 볼 장면으로 소개한다. 보안구역이나 계류장 관광 개방, 사진만 찍으러 접근 가능한 모든 구역을 보장하지 않는다."
+    },
+    {
+      "where": "highlights, itinerary",
+      "fact": "Cebu Connect와 환승",
+      "value": "티켓별 환승 경로 확인",
+      "sources": [
+        {
+          "url": "https://mciaa.gov.ph/2024/06/20/cebu-connect-launching/",
+          "grade": "A",
+          "says": "공항청 본문은 두 터미널 환승과 안내 지원을 소개한다."
+        },
+        {
+          "url": "https://immigration.gov.ph/bi-deploys-personnel-for-cebu-connect-at-mcia/",
+          "grade": "A",
+          "says": "이민국 본문은 환승 심사 구역과 인력 배치를 확인한다."
+        },
+        {
+          "url": "https://www.sunstar.com.ph/amp/story/cebu/mcia-eyes-20-e-gates-operational-by-december",
+          "grade": "B",
+          "says": "2026년8월18일 현지 언론의 실제 본문은 당시 같은 항공사 연결 조건과 환승 체계의 운영 상황을 설명한다."
+        }
+      ],
+      "decision": "별도 티켓·다른 항공사·짐 연결과 심사 조건이 같다고 가정하지 않는다. 모든 승객 35분/60분 환승·무료 셔틀·자동 수하물 연결을 보장하지 않고 Transfer Desk에서 본인 티켓의 절차를 확인하도록 한다."
+    },
+    {
+      "where": "stay_and_food, best_time",
+      "fact": "라운지 보수와 임시 공간",
+      "value": "2026년11월 보수 공지 반영",
+      "sources": [
+        {
+          "url": "https://www.plazapremiumlounge.com/en-uk/find/asia/philippines/cebu",
+          "grade": "A",
+          "says": "운영사 실제 본문에 T2 보수12Oct~21Dec2026와 Gates14~15 인근 임시공간, T1 보수18Oct~21Dec2026와 Gate9 인근 임시공간을 확인했다. 같은 페이지는 Aerotel Cebu T2를 소개한다."
+        }
+      ],
+      "decision": "2026년11월의 보수와 임시 공간 공지를 원고에 명시한다. 종료 목표를 실제 재개장으로 보장하지 않는다. 보수 전 라운지 실내 사진은 제외했다. 운영사가 표시한 프로모션 시작가·24시간·카드 무료이용·샤워·짐 보관 조건은 원고에서 보장하지 않는다."
+    },
+    {
+      "where": "cautions, costs",
+      "fact": "무료 eTravel과 정부 안내",
+      "value": "etravel.gov.ph",
+      "sources": [
+        {
+          "url": "https://etravel.gov.ph/en/frequently-asked-questions",
+          "grade": "A",
+          "says": "정부 FAQ 직접 본문에서 유일한 공식 주소·무료 등록·현재 적용대상·등록기간·QR 보관을 확인했다."
+        },
+        {
+          "url": "https://immigration.gov.ph/bi-on-full-force-for-holy-week-exodus-warns-vs-fake-etravel-sites/",
+          "grade": "A",
+          "says": "2026년 이민국 본문은 가짜 유료 등록 사이트를 경고하고 정부 공식 등록을 안내한다."
+        }
+      ],
+      "decision": "등록 자체의 무료 사실과 공식 주소만 명시하며 대상·시기는 최신 FAQ를 확인하도록 했다. 비자·여행세·액체·세관 한도·수하물 중량을 원문의 고정표대로 옮기지 않았다. 정확한 법률 조건을 독자에게 일괄 적용하지 않는다."
+    },
+    {
+      "where": "cautions, gallery",
+      "fact": "전자 게이트 사진과 신규 도입 계획",
+      "value": "촬영 당시와 현행 이용 조건 구별",
+      "sources": [
+        {
+          "url": "https://www.sunstar.com.ph/amp/story/cebu/mcia-eyes-20-e-gates-operational-by-december",
+          "grade": "B",
+          "says": "직접 읽은 2026년8월18일 기사에서 신규20기 설치 후12월 가동 목표와 시험·제한적 이용 계획을 확인했다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:EGates_at_Mactan%E2%80%93Cebu_International_Airport.jpg",
+          "grade": "C",
+          "says": "교통부2025년5월8일 공개 사진의 전자 게이트와 e-Philippine Passport 표지를 원본·최종에서 직접 확인했다."
+        }
+      ],
+      "decision": "2025년 기존 장비 사진을 2026년12월 계획의 완료 사진으로 쓰지 않는다. 모든 국적 이용이나 전면 가동을 약속하지 않고 현장 자격·운영 확인을 안내했다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "택시·앱 차량과 터미널 승차",
+      "value": "기사·위치·조건 확인",
+      "sources": [
+        {
+          "url": "https://www.grab.com/global/airport-rides/mactan-cebu-international-airport/",
+          "grade": "A",
+          "says": "운송서비스 운영사의 직접 본문은 앱의 실제 승차 안내·핀·기사 연락·터미널 확인을 설명한다."
+        }
+      ],
+      "decision": "정확한 bay를 영구 고정하지 않았다. 운임·소요시간의 예시를 보장값으로 옮기지 않았으며 전세·공항차량·앱차량의 결제와 최종 숙소 구간을 확인하도록 했다."
+    },
+    {
+      "where": "budget, costs",
+      "fact": "1인 개인 지출 배분",
+      "value": "PHP800~1800",
+      "sources": [],
+      "decision": "편도 지상 이동300~900+식사250~500+물·음료100~200+예비150~200=800~1800. 업체 운임표가 아닌 개인 배분이다. 항공권·세금·숙박·유료라운지·추가수하물과 왕복은 별도다."
+    }
+  ],
+  "images": [
+    {
+      "file": "335-mactan-cebu-airport.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mactan-Cebu_international_Airport_from_departure_entrance.jpg",
+      "credit": "ShiminUfesoj / CC0 / Wikimedia Commons",
+      "date": "2025-08-24",
+      "author_date_group": "ShiminUfesoj|2025-08-24",
+      "check": "T2 낮 외관과 지붕·접근부.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport.webp",
+        "result": "후보 원본17장 중10장을 선별했고 최종 WebP10장도 각각 열어 장소·표지 글자·구도·비율을 대조했다. 내용 변경·합성·크롭 없음."
+      },
+      "source_metadata": {
+        "index": 38,
+        "cache": "cebu-airport-next-photos",
+        "title": "File:Mactan-Cebu international Airport from departure entrance.jpg",
+        "artist": "ShiminUfesoj",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mactan-Cebu_international_Airport_from_departure_entrance.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Mactan-Cebu_international_Airport_from_departure_entrance.jpg/1280px-Mactan-Cebu_international_Airport_from_departure_entrance.jpg",
+        "width": 4096,
+        "height": 3072,
+        "date": "2025-08-24 14:43:36",
+        "description": "Mactan-Cebu international Airport",
+        "categories": "CC-Zero|Self-published work|Taken with Poco X7 Pro|ShiminUfesoj photos",
+        "sha256": "a7dca194179f0016b067ddeea14ce3edaf4ace45da120a3c9a62dfc786360426",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport.webp",
+        "id": 335,
+        "slug": "mactan-cebu-airport",
+        "number": 1,
+        "canonical_date": "2025-08-24"
+      }
+    },
+    {
+      "file": "335-mactan-cebu-airport-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mactan-Cebu_International_Airport_Terminal_2,_Jan_2024.jpg",
+      "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-01-26",
+      "author_date_group": "Ralff Nestor Nacor|2024-01-26",
+      "check": "T2 밤 외관과 차량 접근부.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-2.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-2.webp",
+        "result": "후보 원본17장 중10장을 선별했고 최종 WebP10장도 각각 열어 장소·표지 글자·구도·비율을 대조했다. 내용 변경·합성·크롭 없음."
+      },
+      "source_metadata": {
+        "index": 2,
+        "cache": "cebu-airport-t2-next-photos",
+        "title": "File:Mactan-Cebu International Airport Terminal 2, Jan 2024.jpg",
+        "artist": "Ralff Nestor Nacor",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mactan-Cebu_International_Airport_Terminal_2,_Jan_2024.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-2.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Mactan-Cebu_International_Airport_Terminal_2%2C_Jan_2024.jpg/1280px-Mactan-Cebu_International_Airport_Terminal_2%2C_Jan_2024.jpg",
+        "width": 4080,
+        "height": 3072,
+        "date": "2024-01-26 18:27:49",
+        "description": "Mactan-Cebu International Airport Terminal 2, Jan 2024",
+        "categories": "Self-published work|Photographs by User:Ralffralff|2024 at Mactan-Cebu International Airport|Philippine Panorama Project/Roads & Transportation|Philippine Panorama Project/Lapu-Lapu City, Cebu",
+        "sha256": "a4d93f7fa940ad9c558c8c76bf1f772fb7ee69ab1a225831727e875fd79dbe58",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-2.webp",
+        "id": 335,
+        "slug": "mactan-cebu-airport",
+        "number": 2,
+        "canonical_date": "2024-01-26"
+      }
+    },
+    {
+      "file": "335-mactan-cebu-airport-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mactan-Cebu_International_Airport_(Lapu-Lapu_City,_Cebu;_09-08-2022).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-09-08",
+      "author_date_group": "Patrickroque01|2022-09-08",
+      "check": "2022년 두 터미널과 관제탑. 현재 운항·보안구역 접근 근거가 아니다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-3.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-3.webp",
+        "result": "후보 원본17장 중10장을 선별했고 최종 WebP10장도 각각 열어 장소·표지 글자·구도·비율을 대조했다. 내용 변경·합성·크롭 없음."
+      },
+      "source_metadata": {
+        "index": 21,
+        "cache": "cebu-airport-next-photos",
+        "title": "File:Mactan-Cebu International Airport (Lapu-Lapu City, Cebu; 09-08-2022).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mactan-Cebu_International_Airport_(Lapu-Lapu_City,_Cebu;_09-08-2022).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-3.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Mactan-Cebu_International_Airport_%28Lapu-Lapu_City%2C_Cebu%3B_09-08-2022%29.jpg/1280px-Mactan-Cebu_International_Airport_%28Lapu-Lapu_City%2C_Cebu%3B_09-08-2022%29.jpg",
+        "width": 3552,
+        "height": 2664,
+        "date": "09-08-2022",
+        "description": "Mactan-Cebu International Airport, Lapu-Lapu City",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|PD-Philippines FoP work|2022 at Mactan-Cebu International Airport",
+        "sha256": "268987003de705f47cd01bdc9609e4d08000179760578c1ec0b165244480bc4a",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-3.webp",
+        "id": 335,
+        "slug": "mactan-cebu-airport",
+        "number": 3,
+        "canonical_date": "2022-09-08"
+      }
+    },
+    {
+      "file": "335-mactan-cebu-airport-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Seafood_Paradise_Kitchen_Express_at_the_Mactan-Cebu_International_Airport_(2025-03-02).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2025-03-02",
+      "author_date_group": "Wide Awake!|2025-03-02",
+      "check": "2025년 식당·교통 표지. 현재 매장 영업·메뉴·가격 보장 없음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-4.webp",
+        "result": "후보 원본17장 중10장을 선별했고 최종 WebP10장도 각각 열어 장소·표지 글자·구도·비율을 대조했다. 내용 변경·합성·크롭 없음."
+      },
+      "source_metadata": {
+        "index": 30,
+        "cache": "cebu-airport-next-photos",
+        "title": "File:Seafood Paradise Kitchen Express at the Mactan-Cebu International Airport (2025-03-02).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Seafood_Paradise_Kitchen_Express_at_the_Mactan-Cebu_International_Airport_(2025-03-02).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-4.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Seafood_Paradise_Kitchen_Express_at_the_Mactan-Cebu_International_Airport_%282025-03-02%29.jpg/1280px-Seafood_Paradise_Kitchen_Express_at_the_Mactan-Cebu_International_Airport_%282025-03-02%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "date": "2025-03-02 19:07:18",
+        "description": "Seafood Paradise Kitchen Express located at the Mactan-Cebu International Airport is located in Lapu-Lapu City.",
+        "categories": "Self-published work|2025 at Mactan-Cebu International Airport|Philippines photographs taken on 2025-03-02|Photographs by Thewideawake1 taken with Fujifilm FinePix HS30EXR|Photographs of Lapu-Lapu City by Thewideawake1|March 2025 photographs by Thewideawake1",
+        "sha256": "5c5b3a05c6fa6e71e2e0ff5bd73ffdf05466cb7c3671b851b869c431b6141c4e",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-4.webp",
+        "id": 335,
+        "slug": "mactan-cebu-airport",
+        "number": 4,
+        "canonical_date": "2025-03-02"
+      }
+    },
+    {
+      "file": "335-mactan-cebu-airport-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:EGates_at_Mactan%E2%80%93Cebu_International_Airport.jpg",
+      "credit": "Department of Transportation / Public domain / Wikimedia Commons",
+      "date": "2025-05-08",
+      "author_date_group": "Department of Transportation|2025-05-08",
+      "check": "2025년 교통부 전자 게이트 기록. 모든 여권 이용·신규20기 완료 근거 아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-5.webp",
+        "result": "후보 원본17장 중10장을 선별했고 최종 WebP10장도 각각 열어 장소·표지 글자·구도·비율을 대조했다. 내용 변경·합성·크롭 없음."
+      },
+      "source_metadata": {
+        "index": 32,
+        "cache": "cebu-airport-next-photos",
+        "title": "File:EGates at Mactan–Cebu International Airport.jpg",
+        "artist": "Department of Transportation",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:EGates_at_Mactan%E2%80%93Cebu_International_Airport.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-5.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/EGates_at_Mactan%E2%80%93Cebu_International_Airport.jpg/1280px-EGates_at_Mactan%E2%80%93Cebu_International_Airport.jpg",
+        "width": 2048,
+        "height": 1448,
+        "date": "2025-05-08",
+        "description": "Automated border control systems, also known as eGates, at Mactan–Cebu International Airport in the Philippines in 2025.",
+        "categories": "Bureau of Immigration, Manila|Automated Border Control systems|PD-PhilippinesGov|Files with coordinates missing SDC location of creation|2025 at Mactan-Cebu International Airport|Philippines photographs taken on 2025-05-08",
+        "sha256": "7ef6332acb067546747a6c4ccccecb3fa843ae8f9b67a153410b8c53022fba38",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-5.webp",
+        "id": 335,
+        "slug": "mactan-cebu-airport",
+        "number": 5,
+        "canonical_date": "2025-05-08"
+      }
+    },
+    {
+      "file": "335-mactan-cebu-airport-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Mactan-Cebu_International_Airport_(03)_(2026-01-13).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2026-01-13",
+      "author_date_group": "Wide Awake!|2026-01-13",
+      "check": "2026년 T1 검색 대기와 탑승구 안내.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-6.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-6.webp",
+        "result": "후보 원본17장 중10장을 선별했고 최종 WebP10장도 각각 열어 장소·표지 글자·구도·비율을 대조했다. 내용 변경·합성·크롭 없음."
+      },
+      "source_metadata": {
+        "index": 41,
+        "cache": "cebu-airport-next-photos",
+        "title": "File:Interior of Mactan-Cebu International Airport (03) (2026-01-13).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Interior_of_Mactan-Cebu_International_Airport_(03)_(2026-01-13).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-6.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Interior_of_Mactan-Cebu_International_Airport_%2803%29_%282026-01-13%29.jpg/1280px-Interior_of_Mactan-Cebu_International_Airport_%2803%29_%282026-01-13%29.jpg",
+        "width": 4608,
+        "height": 3072,
+        "date": "2026-01-13 22:52:44",
+        "description": "Interior of Mactan-Cebu International Airport is located in Lapu-Lapu City\nLocation: Mactan-Cebu International Airport, Lapu-Lapu City\n\nCamera: Fujifilm FinePix HS30EXR",
+        "categories": "Self-published work|2026 at Mactan-Cebu International Airport|Photographs by Thewideawake1 taken with Fujifilm FinePix HS30EXR|Photographs of Lapu-Lapu City by Thewideawake1|January 2026 photographs by Thewideawake1|Philippines photographs taken on 2026-01-13",
+        "sha256": "358a5787d6e9cd9b8bcbb8ec698162b0fa9a17d7104d66962dcaf607150cce2e",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-6.webp",
+        "id": 335,
+        "slug": "mactan-cebu-airport",
+        "number": 6,
+        "canonical_date": "2026-01-13"
+      }
+    },
+    {
+      "file": "335-mactan-cebu-airport-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:CEB_Airport_2026-03-30_001.jpg",
+      "credit": "Martin Michlmayr / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-03-30",
+      "author_date_group": "Martin Michlmayr|2026-03-30",
+      "check": "2026년 국내선 체크인·수하물 위탁.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-7.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-7.webp",
+        "result": "후보 원본17장 중10장을 선별했고 최종 WebP10장도 각각 열어 장소·표지 글자·구도·비율을 대조했다. 내용 변경·합성·크롭 없음."
+      },
+      "source_metadata": {
+        "index": 0,
+        "cache": "cebu-airport-martin-next-photos",
+        "title": "File:CEB Airport 2026-03-30 001.jpg",
+        "artist": "Martin Michlmayr",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:CEB_Airport_2026-03-30_001.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-7.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/CEB_Airport_2026-03-30_001.jpg/1280px-CEB_Airport_2026-03-30_001.jpg",
+        "width": 3840,
+        "height": 2160,
+        "date": "2026-03-30 07:09:26",
+        "description": "Checkin area of Cebu Pacific at Cebu airport",
+        "categories": "Self-published work|Files with coordinates missing SDC location of creation|2026 at Mactan-Cebu International Airport|Photos by Martin Michlmayr",
+        "sha256": "45e9dfb09c1da4a70bcee0a38342effafbc0a0d6db0fe376002c3a358e199af6",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-7.webp",
+        "id": 335,
+        "slug": "mactan-cebu-airport",
+        "number": 7,
+        "canonical_date": "2026-03-30"
+      }
+    },
+    {
+      "file": "335-mactan-cebu-airport-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Elevator_on_Mactan-Cebu_International_Airport_Terminal_1.jpg",
+      "credit": "Camra1220 / CC BY 4.0 / Wikimedia Commons",
+      "date": "2026-11-14",
+      "author_date_group": "Camra1220|2026-11-14",
+      "check": "2026년11월 T1 승강기·우선 이용 표지.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-8.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-8.webp",
+        "result": "후보 원본17장 중10장을 선별했고 최종 WebP10장도 각각 열어 장소·표지 글자·구도·비율을 대조했다. 내용 변경·합성·크롭 없음."
+      },
+      "source_metadata": {
+        "index": 4,
+        "cache": "cebu-airport-t1-next-photos",
+        "title": "File:Elevator on Mactan-Cebu International Airport Terminal 1.jpg",
+        "artist": "Camra1220",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elevator_on_Mactan-Cebu_International_Airport_Terminal_1.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-8.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Elevator_on_Mactan-Cebu_International_Airport_Terminal_1.jpg/1280px-Elevator_on_Mactan-Cebu_International_Airport_Terminal_1.jpg",
+        "width": 2448,
+        "height": 2448,
+        "date": "2026-11-14 21:11:17",
+        "description": "Elevator from SCHINDLER",
+        "categories": "Self-published work|Elevators in the Philippines|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Self-published work missing SDC copyright license|2026 at Mactan-Cebu International Airport",
+        "sha256": "7ddb7d6337ff06f18d38b5148d290743c03bbfcea901e6bfc4a07469279a8834",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-8.webp",
+        "id": 335,
+        "slug": "mactan-cebu-airport",
+        "number": 8,
+        "canonical_date": "2026-11-14"
+      }
+    },
+    {
+      "file": "335-mactan-cebu-airport-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:RP-C4117_CEB_(002)_2024-07-07.jpg",
+      "credit": "LMP 2001 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-07-07",
+      "author_date_group": "LMP 2001|2024-07-07",
+      "check": "2024년 CEB 민간항공기. 특정편 현행 운항을 보장하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-9.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-9.webp",
+        "result": "후보 원본17장 중10장을 선별했고 최종 WebP10장도 각각 열어 장소·표지 글자·구도·비율을 대조했다. 내용 변경·합성·크롭 없음."
+      },
+      "source_metadata": {
+        "index": 26,
+        "cache": "cebu-airport-next-photos",
+        "title": "File:RP-C4117 CEB (002) 2024-07-07.jpg",
+        "artist": "LMP 2001",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:RP-C4117_CEB_(002)_2024-07-07.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-9.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/RP-C4117_CEB_%28002%29_2024-07-07.jpg/1280px-RP-C4117_CEB_%28002%29_2024-07-07.jpg",
+        "width": 4000,
+        "height": 3000,
+        "date": "2024-07-07 15:48:01",
+        "description": "Cebu Pacific A321-211 as flight 5J 557 from Cebu to Manila",
+        "categories": "Self-published work|Files with coordinates missing SDC location of creation|Airbus A321 in 2024|2024 at Mactan-Cebu International Airport|RP-C4117 (aircraft)|Airbus A321 of Cebu Pacific at Mactan-Cebu International Airport",
+        "sha256": "48bfde28c2cfc5e8045873dfd87e85804c1d0a960900a7cbbd790975a69a35a6",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-9.webp",
+        "id": 335,
+        "slug": "mactan-cebu-airport",
+        "number": 9,
+        "canonical_date": "2024-07-07"
+      }
+    },
+    {
+      "file": "335-mactan-cebu-airport-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mactan-Mandaue_Bridge,_Mactan-Cebu_International_Airport_drone_distant_SBD_(Lapu-Lapu_City,_Cebu;_01-17-2026).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-01-17",
+      "author_date_group": "Patrickroque01|2026-01-17",
+      "check": "2026년1월 다리 너머 막탄섬과 공항. 공항을 다리 자체와 혼동하지 않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-10.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-10.webp",
+        "result": "후보 원본17장 중10장을 선별했고 최종 WebP10장도 각각 열어 장소·표지 글자·구도·비율을 대조했다. 내용 변경·합성·크롭 없음."
+      },
+      "source_metadata": {
+        "index": 48,
+        "cache": "cebu-airport-next-photos",
+        "title": "File:Mactan-Mandaue Bridge, Mactan-Cebu International Airport drone distant SBD (Lapu-Lapu City, Cebu; 01-17-2026).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mactan-Mandaue_Bridge,_Mactan-Cebu_International_Airport_drone_distant_SBD_(Lapu-Lapu_City,_Cebu;_01-17-2026).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-10.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mactan-Mandaue_Bridge%2C_Mactan-Cebu_International_Airport_drone_distant_SBD_%28Lapu-Lapu_City%2C_Cebu%3B_01-17-2026%29.jpg/1280px-Mactan-Mandaue_Bridge%2C_Mactan-Cebu_International_Airport_drone_distant_SBD_%28Lapu-Lapu_City%2C_Cebu%3B_01-17-2026%29.jpg",
+        "width": 4000,
+        "height": 3000,
+        "date": "2026-01-17",
+        "description": "Mactan-Mandaue Bridge",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photos from unmanned aerial vehicles in the Philippines|Photographs of bridges by Patrick Roque|Aerial photographs of Mactan-Mandaue Bridge|Incidental views of Mactan-Cebu International Airport",
+        "sha256": "c50dbcc1bbc25aa7c525e3fbc35e585345d20cf2c586e77a89452bf148d70a63",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-10.webp",
+        "id": 335,
+        "slug": "mactan-cebu-airport",
+        "number": 10,
+        "canonical_date": "2026-01-17"
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_author_date_groups": 10,
+    "independent_travel_groups": 10,
+    "groups_note": "동일 작가의 연속 여행도 한 그룹으로 묶었다. Ralff2024년1월26~28일·Wide2026년1월13~19일·Martin2026년3월30~4월3일·Camra2026년11월14일 각1장만 선택했다. Patrick2022/2026은 수년, Wide2025년3월/2026년1월은10개월 간격의 별도 여행이다.",
+    "conversion": "Codex CLI 수치 리사이즈1080px·WebP품질80·종횡비 유지. 내용 생성·수정·합성 없음.",
+    "prompt": "work/parallel-1992/visayas/335-mactan-cebu-airport-prompt.txt",
+    "report": "work/parallel-1992/visayas/335-conversion-report.json"
+  },
+  "archives": {
+    "philgo": "_i18n/work/expansion-1973/posts/1275712960.json",
+    "research_directory": "_i18n/work/parallel-1992/visayas/research335",
+    "candidate_audit": "work/parallel-1992/visayas/335-candidate-audit.json"
+  },
+  "limitations": [
+    "공항 운영사 메인 mactancebuairport.com은 유지보수 화면/리디렉션으로 현행 본문 확인에 쓰지 않았다.",
+    "하이픈이 있는 mactan-cebuairport.com은 운영사와 무관한 안내 사이트이므로 공식 출처로 쓰지 않았다.",
+    "최종 항공사 웹 재조회 시간초과는 최초 직접 읽기와 저장된 전체 HTML을 통해 보완했다."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": 334,
+  "slug": "san-joaquin-iloilo",
+  "status": "한영 상세·사진·출처 검증 완료 후 data 반영",
+  "primary_philgo_post_ids": [
+    1275712585
+  ],
+  "ko": "data/ko/334-san-joaquin-iloilo.json",
+  "en": "data/en/334-san-joaquin-iloilo.json",
+  "sources": "sources/334-san-joaquin-iloilo.json",
+  "body_characters_ko": 5847,
+  "body_characters_en": 10101,
+  "body_characters_basis": "build visibleText sections·구분공백 포함",
+  "section_count": 10,
+  "highlights": 6,
+  "translation_lines": 114,
+  "image_count": 10,
+  "unique_author_date_groups": 10,
+  "independent_travel_groups": 10,
+  "image_bytes": 1794170,
+  "images_metadata": "work/parallel-1992/visayas/334-image-preparation.json",
+  "images_check": "work/parallel-1992/visayas/334-images-check.json",
+  "images_check_levels": {
+    "고칠 것": 0,
+    "먼저 볼 것": 0,
+    "눈으로 볼 것": 8,
+    "맞음": 2
+  },
+  "visual_review": "후보 원본20장과 최종WebP10장을 각각 열어 장소·장면·글자·비율을 대조했다. 위치메타 없는8장은 제목·설명·형태·공식사진과 본문으로 확인했다.",
+  "image_conversion": {
+    "tool": "Codex CLI",
+    "operation": "수치 리사이즈·WebP변환만, 내용수정·합성 없음",
+    "width": 1080,
+    "quality": 80,
+    "tokens": 14022,
+    "report": "work/parallel-1992/visayas/334-conversion-report.json",
+    "prompt": "work/parallel-1992/visayas/334-san-joaquin-iloilo-prompt.txt"
+  },
+  "validation": {
+    "export": "114줄 통과",
+    "check_en": "통과",
+    "import_en": "통과",
+    "isolated_build": "295곳 × en·ko 통과",
+    "isolated_version": "e8a3945f2472",
+    "isolated_path": "_i18n/work/parallel-1992/visayas/validation-334/_site/v2",
+    "scope_note": "전역빌드·다른언어·meta·카탈로그·커밋은 부모 담당"
+  },
+  "usage": {
+    "commons_requests": 12,
+    "image_download_success": 20,
+    "selected_images": 10,
+    "codex_cli": 1,
+    "translation_api": 0,
+    "image_generation": 0,
+    "web_search_queries": 11,
+    "web_open": 10,
+    "web_find": 2,
+    "http_requests": 5,
+    "http_success": 4,
+    "nominatim": 1,
+    "philgo_api": 0,
+    "philgo_cache_read": 1,
+    "images_check_runs": 2,
+    "note": "첫사진검사는선행격리빌드의region키오류로manifest가없어실패했다.올바른panay키로수정·한영재검증·빌드후사진검사를완료했다.검색수에는후속도시5곳사전사진검토를포함한다."
+  },
+  "completed_at": "2026-11-17T09:16:59.833025+00:00"
+}

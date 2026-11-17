@@ -1,0 +1,522 @@
+{
+  "id": 334,
+  "slug": "san-joaquin-iloilo",
+  "checked_at": "2026-11-17T09:15:57.875076+00:00",
+  "primary_philgo_post_ids": [
+    1275712585
+  ],
+  "facts": [
+    {
+      "where": "overview, identity",
+      "fact": "원문 하위 명소와 독립 상세",
+      "value": "산호아킨 읍내의 성당·Campo Santo·생활 공간",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712585",
+          "grade": "C",
+          "says": "부모가 공개API에서 idx·subject·content만 수집한 로컬 캐시를 읽었다. 일로일로 성당 투어 본문에 San Joaquin Church가 있다."
+        },
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/simbahan-ng-san-joaquin/",
+          "grade": "A",
+          "says": "공식 등록부는 San Joaquin, Iloilo의 성당을 확인한다."
+        },
+        {
+          "url": "https://pia.gov.ph/features/revisiting-san-joaquins-national-cultural-treasures/",
+          "grade": "A",
+          "says": "2025년11월3일 정부기관 본문은 성당과 별도의 공동묘지를 마을 유산으로 설명한다."
+        }
+      ],
+      "decision": "data.csv·실제data/ko·원본CSV/TSV와 하위명소 캐시를 대조했다. 기존 미아가오 성당057·가린팜165와 다른 읍내 상세다. 원문의 산토토마스 성인명·영국군전투·쌍탑·유네스코표현·무료가이드·고정요금은 옮기지 않았다."
+    },
+    {
+      "where": "latitude, longitude",
+      "fact": "대표 지도 핀",
+      "value": "10.5859,122.1410",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/289380413",
+          "grade": "B",
+          "says": "Nominatim의 San Joaquin Church 중심10.5859489,122.1410276과 경계10.5856855~10.5862124,122.1406920~122.1413632를 확인했다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Joaquin_Church_(Iloilo)",
+          "grade": "B",
+          "says": "좌표10.585929,122.140910이 같은 성당을 가리킨다."
+        }
+      ],
+      "decision": "성당을 읍내 방문의 대표점으로 소수네자리 표기했다. 두 지도 차이는약13m다. Campo Santo는 별도 위치10.592741,122.145127이며 대표핀으로 찾아가면 안 된다. 성당·묘지 사이 고정 도보거리와 시간은 적지 않았다."
+    },
+    {
+      "where": "highlights",
+      "fact": "전투 부조와 성당 유산",
+      "value": "Rendicion de Tetuan",
+      "sources": [
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/simbahan-ng-san-joaquin/",
+          "grade": "A",
+          "says": "직접 본문에서 테투안 모로코의 스페인군·모로세력 전투를 묘사한 박공 부조와 역사유적 지정을 확인했다."
+        },
+        {
+          "url": "https://cdnc.heyzine.com/files/uploaded/e0624215dcc633b2bcac8e52b54088f934911de2-1.pdf",
+          "grade": "A",
+          "says": "일로일로주 관광사무소 명의의 성당 안내PDF를 직접 내려받아 읽었다. 산호아킨 성당과 테투안 부조를 소개한다."
+        },
+        {
+          "url": "https://www.nomadicexperiences.com/2026/08/san-joaquin-and-tigbauan-iloilo.html",
+          "grade": "C",
+          "says": "2026년8월22일 현장 여행기에서 부조를 촬영하고 같은 주제를 설명한다."
+        }
+      ],
+      "decision": "필리핀에서 영국군을 이긴1762년전투라는 원문 오류를 바로잡았다. 자료에 전투연도1859/1860 차이가 있어 원고에 정확한연도는 쓰지 않았다. NHCP 설명과 현장 조각을 함께 읽도록 했다. 성당이 문화유산인 점과 매일 내부 관광개방은 구분한다."
+    },
+    {
+      "where": "highlights, overview",
+      "fact": "Campo Santo의 건축과 추모 기능",
+      "value": "석문·높은계단·언덕의 예배당",
+      "sources": [
+        {
+          "url": "https://pia.gov.ph/features/revisiting-san-joaquins-national-cultural-treasures/",
+          "grade": "A",
+          "says": "정부기관 본문은 묘지의 석문·계단·높은예배당·가족추모 이용을 설명한다."
+        },
+        {
+          "url": "https://npdc.gov.ph/wp-content/uploads/2026/08/Paco-Park-Conservation-Management-Plan.pdf",
+          "grade": "A",
+          "says": "2026년8월 경로의 Paco Park 보존계획PDF를 직접 읽었고 비교사례로 Campo Santo의 돌·벽돌·돔·계단 배치를 확인했다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Joaquin_Campo_Santo",
+          "grade": "B",
+          "says": "교구 소유 공동묘지이며 성당과 다른 위치임을 확인했다."
+        },
+        {
+          "url": "https://www.nomadicexperiences.com/2026/08/san-joaquin-and-tigbauan-iloilo.html",
+          "grade": "C",
+          "says": "최근 현장 여행기에도 Campo Santo를 별도 방문한다."
+        }
+      ],
+      "decision": "정확한 평면형태는 자료의육각/팔각표현이갈리므로 기재하지 않는다. 내부·야간개방·관광시설 전환을 보장하지 않고 추모 공간 예절과 계단 아래 대안을 적었다.2016년훼손·복구 사건을 현재폐쇄상태로 오해하지 않는다."
+    },
+    {
+      "where": "best_time, cautions",
+      "fact": "현재 개방·가격·종탑 사진 차이",
+      "value": "고정 관광시간과 무료입장 미기재",
+      "sources": [
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/simbahan-ng-san-joaquin/",
+          "grade": "A",
+          "says": "공식 등록은 유산의 정체성과 역사 설명이며 관광객 개방시간표가 아니다."
+        },
+        {
+          "url": "https://pia.gov.ph/features/revisiting-san-joaquins-national-cultural-treasures/",
+          "grade": "A",
+          "says": "실제 교구·가족 추모 이용을 설명하며 현행 관광요금표를 제공하지 않는다."
+        },
+        {
+          "url": "https://www.nomadicexperiences.com/2026/08/san-joaquin-and-tigbauan-iloilo.html",
+          "grade": "C",
+          "says": "2026년 방문 흔적은 있으나 매일 내부개방을 확정할 운영자료가 아니다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:San_Joaquín_Parish_Church,_San_Joaquin,_Iloilo.jpg",
+          "grade": "C",
+          "says": "2025년12월8일 정면 사진을 눈으로 확인하니2013·2018년 전체외관 사진과 종탑 상부가 다르다."
+        }
+      ],
+      "decision": "현재 공식 관광시간·요금표가 없어 무료·상시·야간·내부개방을 약속하지 않는다. 변경 전 전체종탑 사진은 제외하고 최신정면을 썼다. 변화 원인·날짜를 확인하지못해 지진이나보수라고 추정하지 않았다.2016사진은 박공조각 세부만 날짜있는기록으로 쓴다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "남부 출발점과 이동 확인",
+      "value": "현재 승차장과행선지 확인",
+      "sources": [
+        {
+          "url": "https://www.iloiloph.com/kuliatan-marine-sanctuary/",
+          "grade": "C",
+          "says": "본문은 Mohon지역 출발과SanJoaquin목적지·별도버스터미널을 설명한다."
+        },
+        {
+          "url": "https://ph.commutetour.com/ph/terminal/mohon-terminal/",
+          "grade": "C",
+          "says": "2026년1월19일 갱신 본문에서 지프니시설과버스시설을 구별한다. 운영사와무관하다고밝힌다."
+        }
+      ],
+      "decision": "운영사공식현재표를 확보하지못해 특정회사·노선번호·운임·소요시간·간격·막차를 확정하지 않는다. 원고는 터미널에서 실제차량과귀환조건을확인할 이동선택지로만 쓴다. 오래된Molo명칭과현재Mohon승차위치 혼동을 주의한다."
+    },
+    {
+      "where": "highlights, stay_and_food",
+      "fact": "지역 먹거리와 해안 선택",
+      "value": "반디와별도해안시설",
+      "sources": [
+        {
+          "url": "https://www.nomadicexperiences.com/2026/08/san-joaquin-and-tigbauan-iloilo.html",
+          "grade": "C",
+          "says": "현장관광담당자 인터뷰에서 반디를 땅콩·캐러멜설탕으로 만드는지역먹거리로소개하며해안을설명한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Peanut_Candy_from_San_Joaquin,_Iloilo,_Sep_2026.jpg",
+          "grade": "C",
+          "says": "2026년9월13일 촬영한 실제 반디제품을 직접확인했다."
+        },
+        {
+          "url": "https://pia.gov.ph/features/revisiting-san-joaquins-national-cultural-treasures/",
+          "grade": "A",
+          "says": "산호아킨의해안과유산을함께소개한다."
+        },
+        {
+          "url": "https://www.waze.com/live-map/directions/ph/western-visayas/san-joaquin/embers-beach-resort?to=place.ChIJO_ouV9VrrjMR7gTVTeih4g0",
+          "grade": "B",
+          "says": "직접본문은 Ember시설을 SanJoaquin의 SitioMagurampao로표시한다. 다른사이트세부좌표는갈린다."
+        }
+      ],
+      "decision": "특정업소 영업·메뉴·가격·수영·무료입장을 추천 보장하지않는다. Ember사진은 제목·설명에기록된해안시설의2018년풍경이며현재시설사진이아님을명시했다.지도위치충돌때문에정확한리조트핀·도보거리·예약안내는제외했다.반디는현재상품재고가아닌지역먹거리로소개한다."
+    },
+    {
+      "where": "costs, budget",
+      "fact": "1인 당일 개인 예산",
+      "value": "PHP900~2100",
+      "sources": [],
+      "decision": "왕복·현지이동500~1100+식사200~500+물·간식100~200+예비100~300=900~2100으로계산했다. 업체요금이아닌개인배분이며전세차·리조트·숙박·별도입장은제외한다."
+    }
+  ],
+  "images": [
+    {
+      "file": "334-san-joaquin-iloilo.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Joaqu%C3%ADn_Parish_Church,_San_Joaquin,_Iloilo.jpg",
+      "credit": "A.C.T. Alejandre / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2025-12-08",
+      "author_date_group": "A.C.T. Alejandre|2025-12-08",
+      "check": "2025년 성당정면과종탑. 변경전전체외관사진은대신사용하지않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo.webp",
+        "result": "후보원본20장을열어선별하고선택10장의최종WebP도각각열어장소·글자·구도·비율을대조했다.내용변경·합성·크롭없음."
+      },
+      "source_metadata": {
+        "index": 43,
+        "title": "File:San Joaquín Parish Church, San Joaquin, Iloilo.jpg",
+        "artist": "A.C.T. Alejandre",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Joaqu%C3%ADn_Parish_Church,_San_Joaquin,_Iloilo.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/San_Joaqu%C3%ADn_Parish_Church%2C_San_Joaquin%2C_Iloilo.jpg/1280px-San_Joaqu%C3%ADn_Parish_Church%2C_San_Joaquin%2C_Iloilo.jpg",
+        "width": 4032,
+        "height": 3024,
+        "date": "2025-12-08",
+        "description": "San Joaquín Parish Church, San Joaquin, Iloilo in 2025",
+        "categories": "San Joaquin, Iloilo|Self-published work",
+        "sha256": "170e123fc6d3a3a5a9f0be4fe2a428c4479f18a646143c47343c7bac02c80943",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo.webp",
+        "id": 334,
+        "slug": "san-joaquin-iloilo",
+        "number": 1
+      }
+    },
+    {
+      "file": "334-san-joaquin-iloilo-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Church.png",
+      "credit": "Ryomaandres / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2016-01-13",
+      "author_date_group": "Ryomaandres|2016-01-13",
+      "check": "박공 부조세부의2016년기록. 전체종탑의옛형태를현행전경으로쓰지않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-2.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-2.webp",
+        "result": "후보원본20장을열어선별하고선택10장의최종WebP도각각열어장소·글자·구도·비율을대조했다.내용변경·합성·크롭없음."
+      },
+      "source_metadata": {
+        "index": 9,
+        "title": "File:San Joaquin Church.png",
+        "artist": "Ryomaandres",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Church.png",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-2.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/San_Joaquin_Church.png/1280px-San_Joaquin_Church.png",
+        "width": 2592,
+        "height": 1944,
+        "date": "2016-01-13",
+        "description": "San Joaquin Church",
+        "categories": "Saint Joachim Church (San Joaquin, Iloilo)|Self-published work|Philippines photographs taken on 2015-05-04|PD-Philippines FoP work|Building pediments",
+        "sha256": "51d03bab12ab02890113e80d8a604b226f01dd0ab275f46b5955579cc1628fcd",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-2.webp",
+        "id": 334,
+        "slug": "san-joaquin-iloilo",
+        "number": 2
+      }
+    },
+    {
+      "file": "334-san-joaquin-iloilo-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Church_Iloilo_inside_(Rizal_Street,_San_Joaquin,_Iloilo;_01-24-2023).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2023-01-24",
+      "author_date_group": "Patrickroque01|2023-01-24",
+      "check": "2023년 성당내부. 내부관람허용·현재제단배치를보장하지않는다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-3.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-3.webp",
+        "result": "후보원본20장을열어선별하고선택10장의최종WebP도각각열어장소·글자·구도·비율을대조했다.내용변경·합성·크롭없음."
+      },
+      "source_metadata": {
+        "index": 0,
+        "cache": "san-joaquin-detail-next-photos",
+        "title": "File:San Joaquin Church Iloilo inside (Rizal Street, San Joaquin, Iloilo; 01-24-2023).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Church_Iloilo_inside_(Rizal_Street,_San_Joaquin,_Iloilo;_01-24-2023).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-3.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/San_Joaquin_Church_Iloilo_inside_%28Rizal_Street%2C_San_Joaquin%2C_Iloilo%3B_01-24-2023%29.jpg/1280px-San_Joaquin_Church_Iloilo_inside_%28Rizal_Street%2C_San_Joaquin%2C_Iloilo%3B_01-24-2023%29.jpg",
+        "width": 3552,
+        "height": 2664,
+        "date": "2023-01-24",
+        "description": "Inside San Joaquin Church, Rizal Street, San Joaquin, Iloilo",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|Interior of Saint Joachim Church (San Joaquin, Iloilo)",
+        "sha256": "5b961d9898593242b7c21670a2904809176ddcfddcc7f3397713b7678c0ac1ef",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-3.webp",
+        "id": 334,
+        "slug": "san-joaquin-iloilo",
+        "number": 3
+      }
+    },
+    {
+      "file": "334-san-joaquin-iloilo-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Town_Plaza,_Iloilo,_Aug_2024_(2).jpg",
+      "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-08-12 12:32:52",
+      "author_date_group": "Ralff Nestor Nacor|2024-08-12",
+      "check": "2024년 읍내광장표지와생활공간.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-4.webp",
+        "result": "후보원본20장을열어선별하고선택10장의최종WebP도각각열어장소·글자·구도·비율을대조했다.내용변경·합성·크롭없음."
+      },
+      "source_metadata": {
+        "index": 33,
+        "title": "File:San Joaquin Town Plaza, Iloilo, Aug 2024 (2).jpg",
+        "artist": "Ralff Nestor Nacor",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Town_Plaza,_Iloilo,_Aug_2024_(2).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-4.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/San_Joaquin_Town_Plaza%2C_Iloilo%2C_Aug_2024_%282%29.jpg/1280px-San_Joaquin_Town_Plaza%2C_Iloilo%2C_Aug_2024_%282%29.jpg",
+        "width": 4080,
+        "height": 3072,
+        "date": "2024-08-12 12:32:52",
+        "description": "San Joaquin Town Plaza, Iloilo, Aug 2024 (2)",
+        "categories": "San Joaquin, Iloilo|Self-published work|Photographs by User:Ralffralff|Philippine Panorama Project/San Joaquin, Iloilo",
+        "sha256": "8e83d8bd2dd9ec36407af44125122d0aa45f3d27ea16889862d3619375f24586",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-4.webp",
+        "id": 334,
+        "slug": "san-joaquin-iloilo",
+        "number": 4
+      }
+    },
+    {
+      "file": "334-san-joaquin-iloilo-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Peanut_Candy_from_San_Joaquin,_Iloilo,_Sep_2026.jpg",
+      "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-09-13 13:33:00",
+      "author_date_group": "Ralff Nestor Nacor|2026-09-13",
+      "check": "2026년 지역땅콩과자. 상표·재고·가격보장없음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-5.webp",
+        "result": "후보원본20장을열어선별하고선택10장의최종WebP도각각열어장소·글자·구도·비율을대조했다.내용변경·합성·크롭없음."
+      },
+      "source_metadata": {
+        "index": 49,
+        "title": "File:Peanut Candy from San Joaquin, Iloilo, Sep 2026.jpg",
+        "artist": "Ralff Nestor Nacor",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Peanut_Candy_from_San_Joaquin,_Iloilo,_Sep_2026.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-5.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Peanut_Candy_from_San_Joaquin%2C_Iloilo%2C_Sep_2026.jpg/1280px-Peanut_Candy_from_San_Joaquin%2C_Iloilo%2C_Sep_2026.jpg",
+        "width": 4080,
+        "height": 3072,
+        "date": "2026-09-13 13:33:00",
+        "description": "Peanut Candy from San Joaquin, Iloilo, Sep 2026",
+        "categories": "Self-published work|Files with coordinates missing SDC location of creation|Photographs by User:Ralffralff|Philippine Panorama Project/Food & Beverages",
+        "sha256": "83ed34afdf6912b13216e6e7695db53f1b8bced31a0dd4bdd6d2caa895b01a33",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-5.webp",
+        "id": 334,
+        "slug": "san-joaquin-iloilo",
+        "number": 5
+      }
+    },
+    {
+      "file": "334-san-joaquin-iloilo-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Ember_Beach%27s_majestic_view.jpg",
+      "credit": "Camillemae25 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2018-04-15 09:32:47",
+      "author_date_group": "Camillemae25|2018-04-15",
+      "check": "2018년 Ember해안시설의야자수와바다. 현재리조트영업·무료접근·수영보장없음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-6.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-6.webp",
+        "result": "후보원본20장을열어선별하고선택10장의최종WebP도각각열어장소·글자·구도·비율을대조했다.내용변경·합성·크롭없음."
+      },
+      "source_metadata": {
+        "index": 12,
+        "title": "File:Ember Beach's majestic view.jpg",
+        "artist": "Camillemae25",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ember_Beach%27s_majestic_view.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-6.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Ember_Beach%27s_majestic_view.jpg/1280px-Ember_Beach%27s_majestic_view.jpg",
+        "width": 3264,
+        "height": 2448,
+        "date": "2018-04-15 09:32:47",
+        "description": "Located in San Joaquin, Iloilo City, Philippines",
+        "categories": "Self-published work|Images from Wiki Loves Earth 2018|Images from Wiki Loves Earth 2018 in the Philippines|Uploaded via Campaign:wle-ph|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation|Ember's Beach Resort|Nature of San Joaquin, Iloilo",
+        "sha256": "8060fbd8a071bc97b95a481c5d48557da1df8fefec707ee08657f438da27749f",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-6.webp",
+        "id": 334,
+        "slug": "san-joaquin-iloilo",
+        "number": 6
+      }
+    },
+    {
+      "file": "334-san-joaquin-iloilo-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cemetery_of_San_Joaquin.jpg",
+      "credit": "EdseastresD600 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2019-02-27 07:49:37",
+      "author_date_group": "EdseastresD600|2019-02-27",
+      "check": "2019년 낮의석문아치와안쪽예배당.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-7.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-7.webp",
+        "result": "후보원본20장을열어선별하고선택10장의최종WebP도각각열어장소·글자·구도·비율을대조했다.내용변경·합성·크롭없음."
+      },
+      "source_metadata": {
+        "index": 15,
+        "title": "File:Cemetery of San Joaquin.jpg",
+        "artist": "EdseastresD600",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cemetery_of_San_Joaquin.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-7.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Cemetery_of_San_Joaquin.jpg/1280px-Cemetery_of_San_Joaquin.jpg",
+        "width": 5869,
+        "height": 3832,
+        "date": "2019-02-27 07:49:37",
+        "description": "The San Joaquin cemetery also known as \"Campo Santo\" or mortuary chapel, is a Roman Catholic cemetery located in the Municipality of San Joaquin, Iloilo, Philippines. The cemetery is perhaps the grandest and best preserved in the entire Province of Iloilo. The cemetery was built during the Spanish-colonial period of the Philippines, the San Joaquin cemetery was initiated in 1892 by Fray Mariano Vamba, the last Augustinian parish priest of the town. A statue of Jesus with his arms outstretched stands on top of a Baroque-style gate, and on each side of Christ, two columns with angelic figures are poised as guards. In addition, sculpted heads of two cherubs and a skull representing death marks the entrance of the cemetery. After entering the gate, visitors are by the mortuary chapel or “Campo Santo,” decorated with stone carvings of floral and leaf patterns.",
+        "categories": "Cemetery of San Joaquin, Iloilo|Self-published work",
+        "sha256": "78ef47b87ff4b94d922fa5e1d00a8d4b63eace36ab9d9e24652b4fcc685e43a5",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-7.webp",
+        "id": 334,
+        "slug": "san-joaquin-iloilo",
+        "number": 7
+      }
+    },
+    {
+      "file": "334-san-joaquin-iloilo-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Campo_Santo_de_San_Joaquin.jpg",
+      "credit": "EdseastresD600 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2017-03-03 18:18:39",
+      "author_date_group": "EdseastresD600|2017-03-03",
+      "check": "2017년 저녁의아치장식과조명. 현재야간개방근거가아니다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-8.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-8.webp",
+        "result": "후보원본20장을열어선별하고선택10장의최종WebP도각각열어장소·글자·구도·비율을대조했다.내용변경·합성·크롭없음."
+      },
+      "source_metadata": {
+        "index": 0,
+        "title": "File:Campo Santo de San Joaquin.jpg",
+        "artist": "EdseastresD600",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Campo_Santo_de_San_Joaquin.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-8.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Campo_Santo_de_San_Joaquin.jpg/1280px-Campo_Santo_de_San_Joaquin.jpg",
+        "width": 5911,
+        "height": 3938,
+        "date": "2017-03-03 18:18:39",
+        "description": "The CAMPO SANTO de San Joaquin is located along the main highway in San Joaquin Town around 57 kilometers away from Iloilo City, which is situated in the southern part of Iloilo and one of the oldest cemetery in Panay Island. The construction of San Joaquin Cemetery was commenced by Fray Mariano Vamba, the last Augustinian parish priest of the town in 1892. A statue of Jesus with his arms outstretched stands on top of a baroque style gate, and on each side of Christ, two columns with angelic figures are poised as guards. In addition, sculpted heads of two cherubs and a skull representing death marks the entrance of the cemetery. Twenty stone steps after entering the gate and you will be greeted by the Baroque designed mortuary chapel standing on the center.",
+        "categories": "Cemetery of San Joaquin, Iloilo|Self-published work",
+        "sha256": "d4023cc28c21723b71c5fb100ba7424a555e8063a5fb135e0f2a233198066e84",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-8.webp",
+        "id": 334,
+        "slug": "san-joaquin-iloilo",
+        "number": 8
+      }
+    },
+    {
+      "file": "334-san-joaquin-iloilo-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Campo_Santo.jpg",
+      "credit": "Philip Nalangan / CC BY 4.0 / Wikimedia Commons",
+      "date": "2010-02-08",
+      "author_date_group": "Philip Nalangan|2010-02-08",
+      "check": "2010년 예배당전체계단과외관.2024·2025외관과대조해같은구조를확인했다.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-9.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-9.webp",
+        "result": "후보원본20장을열어선별하고선택10장의최종WebP도각각열어장소·글자·구도·비율을대조했다.내용변경·합성·크롭없음."
+      },
+      "source_metadata": {
+        "index": 5,
+        "title": "File:San Joaquin Campo Santo.jpg",
+        "artist": "Philip Nalangan",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Campo_Santo.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-9.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/San_Joaquin_Campo_Santo.jpg/1280px-San_Joaquin_Campo_Santo.jpg",
+        "width": 3872,
+        "height": 2592,
+        "date": "2010-02-08",
+        "description": "Twenty stone steps after entering the cemetery's gate, you will be greeted by the Baroque-designed mortuary chapel standing in the center",
+        "categories": "Cemeteries in the Philippines|San Joaquin, Iloilo|Self-published work",
+        "sha256": "17380a24ee2c71c88612f5ad62ca266687f743969e5023b0c3c3760bc061c9ff",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-9.webp",
+        "id": 334,
+        "slug": "san-joaquin-iloilo",
+        "number": 9
+      }
+    },
+    {
+      "file": "334-san-joaquin-iloilo-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Iloilo_Campo_Santo.jpg",
+      "credit": "Mhlayson / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-03-01 11:50:03",
+      "author_date_group": "Mhlayson|2024-03-01",
+      "check": "2024년 가까이본벽돌·석조·돔·문장식.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-10.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-10.webp",
+        "result": "후보원본20장을열어선별하고선택10장의최종WebP도각각열어장소·글자·구도·비율을대조했다.내용변경·합성·크롭없음."
+      },
+      "source_metadata": {
+        "index": 41,
+        "title": "File:San Joaquin Iloilo Campo Santo.jpg",
+        "artist": "Mhlayson",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Joaquin_Iloilo_Campo_Santo.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-10.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/San_Joaquin_Iloilo_Campo_Santo.jpg/1280px-San_Joaquin_Iloilo_Campo_Santo.jpg",
+        "width": 4818,
+        "height": 5840,
+        "date": "2024-03-01 11:50:03",
+        "description": "The San Joaquin Cemetery, commonly known as the San Joaquín Campo Santo, is a Roman Catholic cemetery in San Joaquin, Iloilo, Philippines. Declared a National Cultural Treasure in 2015.",
+        "categories": "Cemetery of San Joaquin, Iloilo|Self-published work|Images from Wiki Takes Iloilo",
+        "sha256": "9b08b28e8e8e77185b9de639dc47273f0983a3c690aa026d89e727c671b3c8cd",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-10.webp",
+        "id": 334,
+        "slug": "san-joaquin-iloilo",
+        "number": 10
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_author_date_groups": 10,
+    "independent_travel_groups": 10,
+    "groups_note": "동일작가연속여행도중복으로묶었다. Patrick2023년1월24·26일은한장만, A.C.T2025년12월8·14일도한장만썼다. 반복작가Ed2017/2019및Ralff2024/2026은약2년간격이다.",
+    "conversion": "CodexCLI 수치리사이즈1080px·WebP품질80·종횡비유지.내용생성·수정·합성없음.",
+    "prompt": "work/parallel-1992/visayas/334-san-joaquin-iloilo-prompt.txt",
+    "report": "work/parallel-1992/visayas/334-conversion-report.json"
+  },
+  "archives": {
+    "philgo": "_i18n/work/expansion-1973/posts/1275712585.json",
+    "nhcp": "_i18n/work/parallel-1992/visayas/research334/nhcp.html",
+    "provincial_brochure": "_i18n/work/parallel-1992/visayas/research334/provincial-brochure.pdf",
+    "npdc": "_i18n/work/parallel-1992/visayas/research334/npdc.pdf",
+    "osm": "_i18n/work/parallel-1992/visayas/research334/osm.json"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 335,
+  "slug": "mactan-cebu-airport",
+  "status": "한영 상세·사진·출처 검증 완료 후 data 반영",
+  "primary_philgo_post_ids": [
+    1275712960
+  ],
+  "ko": "data/ko/335-mactan-cebu-airport.json",
+  "en": "data/en/335-mactan-cebu-airport.json",
+  "sources": "sources/335-mactan-cebu-airport.json",
+  "body_characters_ko": 5790,
+  "body_characters_en": 10440,
+  "body_characters_basis": "build visibleText sections·구분공백 포함",
+  "section_count": 10,
+  "highlights": 6,
+  "translation_lines": 115,
+  "image_count": 10,
+  "unique_author_date_groups": 10,
+  "independent_travel_groups": 10,
+  "image_bytes": 1163940,
+  "images_metadata": "work/parallel-1992/visayas/335-image-preparation.json",
+  "images_check": "work/parallel-1992/visayas/335-images-check.json",
+  "images_check_levels": {
+    "고칠 것": 0,
+    "먼저 볼 것": 0,
+    "눈으로 볼 것": 7,
+    "맞음": 3
+  },
+  "visual_review": "후보 원본17장과 최종WebP10장을 각각 열어 장소·장면·글자·비율을 대조했다. 위치메타 없는7장은 제목·설명·형태·공식사진과 본문으로 확인했다.",
+  "image_conversion": {
+    "tool": "Codex CLI",
+    "operation": "수치 리사이즈·WebP변환만, 내용수정·합성 없음",
+    "width": 1080,
+    "quality": 80,
+    "tokens": 23167,
+    "report": "work/parallel-1992/visayas/335-conversion-report.json",
+    "prompt": "work/parallel-1992/visayas/335-mactan-cebu-airport-prompt.txt"
+  },
+  "validation": {
+    "export": "115줄 통과",
+    "check_en": "통과",
+    "import_en": "통과",
+    "isolated_build": "296곳 × en·ko 통과",
+    "isolated_version": "d147f8c7b7c8",
+    "isolated_path": "_i18n/work/parallel-1992/visayas/validation-335/_site/v2",
+    "scope_note": "전역빌드·다른언어·meta·카탈로그·커밋은 부모 담당",
+    "root_export_check_import": "data 반영 후115줄 export/check/import 재통과"
+  },
+  "usage": {
+    "commons_requests": 6,
+    "image_download_success": 17,
+    "selected_images": 10,
+    "codex_cli": 1,
+    "translation_api": 0,
+    "image_generation": 0,
+    "web_search_queries": 7,
+    "web_open": 19,
+    "web_find": 2,
+    "http_requests": 6,
+    "http_success": 6,
+    "nominatim": 1,
+    "philgo_api": 0,
+    "philgo_cache_read": 1,
+    "images_check_runs": 1,
+    "note": "최종 웹 재조회3건 중 항공사1건은 시간초과했다. 최초 직접 읽기와 보존 전체HTML로 확인했다. 공식 운영사 유지보수 화면과 잘못 추정한 연결항공권 도움말URL은 근거로 쓰지 않았다."
+  },
+  "completed_at": "2026-11-17T09:32:08.925984+00:00"
+}

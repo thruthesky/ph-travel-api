@@ -1,0 +1,53 @@
+너는 Codex CLI다. 아래 10개 입력 이미지의 정확한 수치 가공만 수행한다. 내용 편집·그리기·합성·재생성은 금지한다. 원본 파일은 바꾸지 않는다. input의 SHA256가 sha256와 일치하는지 확인하고 가로 정확히1080px, 원본 종횡비유지, WebP 품질80으로 output에 저장한다. crop·업스케일·색보정·글자변형 금지. 수치 변환 도구를 직접 이용하고 이미지 생성 모델은 필요 없다. 모든 원본과 결과를 전체 디코딩 검증한다. input/output 외 파일 탐색이나 저장소 다른 파일 수정은 하지 않는다. 하위 에이전트·Codex 재호출 금지. 원본/결과의 크기·SHA256·바이트수·성공여부를 JSON으로 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/visayas/335-conversion-report.json 에 저장한다.
+[
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport.webp",
+    "sha256": "a7dca194179f0016b067ddeea14ce3edaf4ace45da120a3c9a62dfc786360426"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-2.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-2.webp",
+    "sha256": "a4d93f7fa940ad9c558c8c76bf1f772fb7ee69ab1a225831727e875fd79dbe58"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-3.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-3.webp",
+    "sha256": "268987003de705f47cd01bdc9609e4d08000179760578c1ec0b165244480bc4a"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-4.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-4.webp",
+    "sha256": "5c5b3a05c6fa6e71e2e0ff5bd73ffdf05466cb7c3671b851b869c431b6141c4e"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-5.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-5.webp",
+    "sha256": "7ef6332acb067546747a6c4ccccecb3fa843ae8f9b67a153410b8c53022fba38"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-6.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-6.webp",
+    "sha256": "358a5787d6e9cd9b8bcbb8ec698162b0fa9a17d7104d66962dcaf607150cce2e"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-7.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-7.webp",
+    "sha256": "45e9dfb09c1da4a70bcee0a38342effafbc0a0d6db0fe376002c3a358e199af6"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-8.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-8.webp",
+    "sha256": "7ddb7d6337ff06f18d38b5148d290743c03bbfcea901e6bfc4a07469279a8834"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-9.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-9.webp",
+    "sha256": "48bfde28c2cfc5e8045873dfd87e85804c1d0a960900a7cbbd790975a69a35a6"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-10.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets335/335-mactan-cebu-airport-10.webp",
+    "sha256": "c50dbcc1bbc25aa7c525e3fbc35e585345d20cf2c586e77a89452bf148d70a63"
+  }
+]

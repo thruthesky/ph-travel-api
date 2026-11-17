@@ -1,0 +1,530 @@
+{
+  "created_at": "2026-11-17T09:10:45.061366+00:00",
+  "requested_count": 10,
+  "success_count": 10,
+  "all_success": true,
+  "settings": {
+    "width": 1080,
+    "format": "WebP",
+    "quality": 80,
+    "preserve_aspect_ratio": true,
+    "crop": false,
+    "upscale": false,
+    "color_correction": false,
+    "content_editing": false,
+    "source_files_modified": false,
+    "height_rounding": "원본 비율에 가장 가까운 정수 픽셀"
+  },
+  "full_decode_validation_tools": [
+    "ImageMagick",
+    "FFmpeg",
+    "dwebp (출력 추가 검증)"
+  ],
+  "files": [
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo.webp",
+      "expected_input_sha256": "170e123fc6d3a3a5a9f0be4fe2a428c4479f18a646143c47343c7bac02c80943",
+      "success": true,
+      "original": {
+        "sha256": "170e123fc6d3a3a5a9f0be4fe2a428c4479f18a646143c47343c7bac02c80943",
+        "bytes": 381837,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "full_decode_valid": true
+      },
+      "input_sha256_matches": true,
+      "conversion": {
+        "tool": "cwebp",
+        "quality": 80,
+        "resize_width": 1080,
+        "resize_height": "auto",
+        "metadata": "all",
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo.webp"
+        ]
+      },
+      "result": {
+        "sha256": "9e5218da85b6536e6cdbce86af34a43d0f19782713a7134f5b85884b3cf23e73",
+        "bytes": 159622,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "full_decode_valid": true,
+        "dwebp_full_decode_valid": true
+      },
+      "aspect_ratio": {
+        "exact_scaled_height": 810.0,
+        "height_rounding_error_px": 0.0,
+        "preserved_with_integer_pixel_rounding": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-2.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-2.webp",
+      "expected_input_sha256": "51d03bab12ab02890113e80d8a604b226f01dd0ab275f46b5955579cc1628fcd",
+      "success": true,
+      "original": {
+        "sha256": "51d03bab12ab02890113e80d8a604b226f01dd0ab275f46b5955579cc1628fcd",
+        "bytes": 1943957,
+        "width": 1280,
+        "height": 960,
+        "format": "PNG",
+        "full_decode_valid": true
+      },
+      "input_sha256_matches": true,
+      "conversion": {
+        "tool": "cwebp",
+        "quality": 80,
+        "resize_width": 1080,
+        "resize_height": 810,
+        "height_calculation": "원본 높이 × 1080 ÷ 원본 너비, 정수 픽셀 반올림",
+        "metadata": "all",
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "810",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-2.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-2.webp"
+        ]
+      },
+      "result": {
+        "sha256": "923e0b425734bc606d506e69976adeb94dcd73980d00948653622413728e2fc9",
+        "bytes": 148448,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "full_decode_valid": true,
+        "dwebp_full_decode_valid": true
+      },
+      "aspect_ratio": {
+        "exact_scaled_height": 810.0,
+        "height_rounding_error_px": 0.0,
+        "preserved_with_integer_pixel_rounding": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-3.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-3.webp",
+      "expected_input_sha256": "5b961d9898593242b7c21670a2904809176ddcfddcc7f3397713b7678c0ac1ef",
+      "success": true,
+      "original": {
+        "sha256": "5b961d9898593242b7c21670a2904809176ddcfddcc7f3397713b7678c0ac1ef",
+        "bytes": 270825,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "full_decode_valid": true
+      },
+      "input_sha256_matches": true,
+      "conversion": {
+        "tool": "cwebp",
+        "quality": 80,
+        "resize_width": 1080,
+        "resize_height": "auto",
+        "metadata": "all",
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-3.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-3.webp"
+        ]
+      },
+      "result": {
+        "sha256": "49c44a326cfc05a65d0a6053496cc4f548a7e6afc0f6434d346210b1bf3d902d",
+        "bytes": 78460,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "full_decode_valid": true,
+        "dwebp_full_decode_valid": true
+      },
+      "aspect_ratio": {
+        "exact_scaled_height": 810.0,
+        "height_rounding_error_px": 0.0,
+        "preserved_with_integer_pixel_rounding": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-4.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-4.webp",
+      "expected_input_sha256": "8e83d8bd2dd9ec36407af44125122d0aa45f3d27ea16889862d3619375f24586",
+      "success": true,
+      "original": {
+        "sha256": "8e83d8bd2dd9ec36407af44125122d0aa45f3d27ea16889862d3619375f24586",
+        "bytes": 491644,
+        "width": 1280,
+        "height": 964,
+        "format": "JPEG",
+        "full_decode_valid": true
+      },
+      "input_sha256_matches": true,
+      "conversion": {
+        "tool": "cwebp",
+        "quality": 80,
+        "resize_width": 1080,
+        "resize_height": 813,
+        "height_calculation": "원본 높이 × 1080 ÷ 원본 너비, 정수 픽셀 반올림",
+        "metadata": "all",
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "813",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-4.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-4.webp"
+        ]
+      },
+      "result": {
+        "sha256": "6f793e1731a0179bfb8d3c655383aaf066028a9ecb8865e914ef38b54be0ece8",
+        "bytes": 221570,
+        "width": 1080,
+        "height": 813,
+        "format": "WEBP",
+        "full_decode_valid": true,
+        "dwebp_full_decode_valid": true
+      },
+      "aspect_ratio": {
+        "exact_scaled_height": 813.375,
+        "height_rounding_error_px": 0.375,
+        "preserved_with_integer_pixel_rounding": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-5.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-5.webp",
+      "expected_input_sha256": "83ed34afdf6912b13216e6e7695db53f1b8bced31a0dd4bdd6d2caa895b01a33",
+      "success": true,
+      "original": {
+        "sha256": "83ed34afdf6912b13216e6e7695db53f1b8bced31a0dd4bdd6d2caa895b01a33",
+        "bytes": 492972,
+        "width": 1280,
+        "height": 964,
+        "format": "JPEG",
+        "full_decode_valid": true
+      },
+      "input_sha256_matches": true,
+      "conversion": {
+        "tool": "cwebp",
+        "quality": 80,
+        "resize_width": 1080,
+        "resize_height": 813,
+        "height_calculation": "원본 높이 × 1080 ÷ 원본 너비, 정수 픽셀 반올림",
+        "metadata": "all",
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "813",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-5.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-5.webp"
+        ]
+      },
+      "result": {
+        "sha256": "7edc4653a9bcb736804da43b23bc31cc5e0fc36f244e2360d8b874b1d32b0ec0",
+        "bytes": 234202,
+        "width": 1080,
+        "height": 813,
+        "format": "WEBP",
+        "full_decode_valid": true,
+        "dwebp_full_decode_valid": true
+      },
+      "aspect_ratio": {
+        "exact_scaled_height": 813.375,
+        "height_rounding_error_px": 0.375,
+        "preserved_with_integer_pixel_rounding": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-6.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-6.webp",
+      "expected_input_sha256": "8060fbd8a071bc97b95a481c5d48557da1df8fefec707ee08657f438da27749f",
+      "success": true,
+      "original": {
+        "sha256": "8060fbd8a071bc97b95a481c5d48557da1df8fefec707ee08657f438da27749f",
+        "bytes": 485169,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "full_decode_valid": true
+      },
+      "input_sha256_matches": true,
+      "conversion": {
+        "tool": "cwebp",
+        "quality": 80,
+        "resize_width": 1080,
+        "resize_height": "auto",
+        "metadata": "all",
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-6.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-6.webp"
+        ]
+      },
+      "result": {
+        "sha256": "e0e6ff82408b427ad0b7105561d8f0edc2dcb6bf68e5b604620c295fa7d6dc36",
+        "bytes": 213240,
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "full_decode_valid": true,
+        "dwebp_full_decode_valid": true
+      },
+      "aspect_ratio": {
+        "exact_scaled_height": 810.0,
+        "height_rounding_error_px": 0.0,
+        "preserved_with_integer_pixel_rounding": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-7.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-7.webp",
+      "expected_input_sha256": "78ef47b87ff4b94d922fa5e1d00a8d4b63eace36ab9d9e24652b4fcc685e43a5",
+      "success": true,
+      "original": {
+        "sha256": "78ef47b87ff4b94d922fa5e1d00a8d4b63eace36ab9d9e24652b4fcc685e43a5",
+        "bytes": 374831,
+        "width": 1280,
+        "height": 836,
+        "format": "JPEG",
+        "full_decode_valid": true
+      },
+      "input_sha256_matches": true,
+      "conversion": {
+        "tool": "cwebp",
+        "quality": 80,
+        "resize_width": 1080,
+        "resize_height": 705,
+        "height_calculation": "원본 높이 × 1080 ÷ 원본 너비, 정수 픽셀 반올림",
+        "metadata": "all",
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "705",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-7.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-7.webp"
+        ]
+      },
+      "result": {
+        "sha256": "2fe55a3042e378913efc5670542901c58681729e48e58a0e7c431cce69043dd6",
+        "bytes": 163688,
+        "width": 1080,
+        "height": 705,
+        "format": "WEBP",
+        "full_decode_valid": true,
+        "dwebp_full_decode_valid": true
+      },
+      "aspect_ratio": {
+        "exact_scaled_height": 705.375,
+        "height_rounding_error_px": 0.375,
+        "preserved_with_integer_pixel_rounding": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-8.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-8.webp",
+      "expected_input_sha256": "d4023cc28c21723b71c5fb100ba7424a555e8063a5fb135e0f2a233198066e84",
+      "success": true,
+      "original": {
+        "sha256": "d4023cc28c21723b71c5fb100ba7424a555e8063a5fb135e0f2a233198066e84",
+        "bytes": 337602,
+        "width": 1280,
+        "height": 853,
+        "format": "JPEG",
+        "full_decode_valid": true
+      },
+      "input_sha256_matches": true,
+      "conversion": {
+        "tool": "cwebp",
+        "quality": 80,
+        "resize_width": 1080,
+        "resize_height": "auto",
+        "metadata": "all",
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-8.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-8.webp"
+        ]
+      },
+      "result": {
+        "sha256": "8880277c078f2f0265d8e5a713359979eac59c0dcc9d243937bec6fd3530e345",
+        "bytes": 140188,
+        "width": 1080,
+        "height": 720,
+        "format": "WEBP",
+        "full_decode_valid": true,
+        "dwebp_full_decode_valid": true
+      },
+      "aspect_ratio": {
+        "exact_scaled_height": 719.71875,
+        "height_rounding_error_px": 0.28125,
+        "preserved_with_integer_pixel_rounding": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-9.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-9.webp",
+      "expected_input_sha256": "17380a24ee2c71c88612f5ad62ca266687f743969e5023b0c3c3760bc061c9ff",
+      "success": true,
+      "original": {
+        "sha256": "17380a24ee2c71c88612f5ad62ca266687f743969e5023b0c3c3760bc061c9ff",
+        "bytes": 437104,
+        "width": 1280,
+        "height": 857,
+        "format": "JPEG",
+        "full_decode_valid": true
+      },
+      "input_sha256_matches": true,
+      "conversion": {
+        "tool": "cwebp",
+        "quality": 80,
+        "resize_width": 1080,
+        "resize_height": 723,
+        "height_calculation": "원본 높이 × 1080 ÷ 원본 너비, 정수 픽셀 반올림",
+        "metadata": "all",
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "723",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-9.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-9.webp"
+        ]
+      },
+      "result": {
+        "sha256": "397a26c23c3bd380e9c25a44b64a6dc789f5882379836e3356baeca10995a6d2",
+        "bytes": 198092,
+        "width": 1080,
+        "height": 723,
+        "format": "WEBP",
+        "full_decode_valid": true,
+        "dwebp_full_decode_valid": true
+      },
+      "aspect_ratio": {
+        "exact_scaled_height": 723.09375,
+        "height_rounding_error_px": 0.09375,
+        "preserved_with_integer_pixel_rounding": true
+      },
+      "input_unchanged": true
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-10.webp",
+      "expected_input_sha256": "9b08b28e8e8e77185b9de639dc47273f0983a3c690aa026d89e727c671b3c8cd",
+      "success": true,
+      "original": {
+        "sha256": "9b08b28e8e8e77185b9de639dc47273f0983a3c690aa026d89e727c671b3c8cd",
+        "bytes": 572985,
+        "width": 1280,
+        "height": 1552,
+        "format": "JPEG",
+        "full_decode_valid": true
+      },
+      "input_sha256_matches": true,
+      "conversion": {
+        "tool": "cwebp",
+        "quality": 80,
+        "resize_width": 1080,
+        "resize_height": "auto",
+        "metadata": "all",
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-10.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-10.webp"
+        ]
+      },
+      "result": {
+        "sha256": "b25c1a66fac2d94d2bd491142af0ed48bfd022219348845862b3e51306499f43",
+        "bytes": 236660,
+        "width": 1080,
+        "height": 1310,
+        "format": "WEBP",
+        "full_decode_valid": true,
+        "dwebp_full_decode_valid": true
+      },
+      "aspect_ratio": {
+        "exact_scaled_height": 1309.5,
+        "height_rounding_error_px": 0.5,
+        "preserved_with_integer_pixel_rounding": true
+      },
+      "input_unchanged": true
+    }
+  ]
+}

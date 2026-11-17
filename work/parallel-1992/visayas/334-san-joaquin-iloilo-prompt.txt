@@ -1,0 +1,53 @@
+너는 Codex CLI다. 아래 10개 입력 이미지의 정확한 수치 가공만 수행한다. 내용 편집·그리기·합성·재생성은 금지한다. 원본 파일은 바꾸지 않는다. input의 SHA256가 sha256와 일치하는지 확인하고 가로 정확히1080px, 원본 종횡비유지, WebP 품질80으로 output에 저장한다. crop·업스케일·색보정·글자변형 금지. 수치 변환 도구를 직접 이용하고 이미지 생성 모델은 필요 없다. 모든 원본과 결과를 전체 디코딩 검증한다. input/output 외 파일 탐색이나 저장소 다른 파일 수정은 하지 않는다. 하위 에이전트·Codex 재호출 금지. 원본/결과의 크기·SHA256·바이트수·성공여부를 JSON으로 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/visayas/334-conversion-report.json 에 저장한다.
+[
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo.webp",
+    "sha256": "170e123fc6d3a3a5a9f0be4fe2a428c4479f18a646143c47343c7bac02c80943"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-2.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-2.webp",
+    "sha256": "51d03bab12ab02890113e80d8a604b226f01dd0ab275f46b5955579cc1628fcd"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-3.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-3.webp",
+    "sha256": "5b961d9898593242b7c21670a2904809176ddcfddcc7f3397713b7678c0ac1ef"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-4.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-4.webp",
+    "sha256": "8e83d8bd2dd9ec36407af44125122d0aa45f3d27ea16889862d3619375f24586"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-5.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-5.webp",
+    "sha256": "83ed34afdf6912b13216e6e7695db53f1b8bced31a0dd4bdd6d2caa895b01a33"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-6.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-6.webp",
+    "sha256": "8060fbd8a071bc97b95a481c5d48557da1df8fefec707ee08657f438da27749f"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-7.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-7.webp",
+    "sha256": "78ef47b87ff4b94d922fa5e1d00a8d4b63eace36ab9d9e24652b4fcc685e43a5"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-8.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-8.webp",
+    "sha256": "d4023cc28c21723b71c5fb100ba7424a555e8063a5fb135e0f2a233198066e84"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-9.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-9.webp",
+    "sha256": "17380a24ee2c71c88612f5ad62ca266687f743969e5023b0c3c3760bc061c9ff"
+  },
+  {
+    "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-10.jpg",
+    "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets334/334-san-joaquin-iloilo-10.webp",
+    "sha256": "9b08b28e8e8e77185b9de639dc47273f0983a3c690aa026d89e727c671b3c8cd"
+  }
+]
