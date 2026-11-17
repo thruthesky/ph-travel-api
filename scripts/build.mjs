@@ -31,6 +31,7 @@ const COMMON = new Set(Object.keys(DISPLAY.common_props));
 const INLINE_KEYS = new Set(Object.keys(DISPLAY.inline.props));
 const STYLE_PROPS = new Set(DISPLAY.style_properties);
 /** 여행지의 속성과 그 속성에 써야 하는 type. 이 순서가 파일 안의 키 순서다. */
+const PHOTOLESS = new Set(existsSync(join(root, 'i18n/photoless.json')) ? Object.keys(JSON.parse(readFileSync(join(root, 'i18n/photoless.json'), 'utf8')).entries ?? {}) : []);
 const FIELDS = Object.fromEntries(Object.entries(meta.fields).map(([key, f]) => [key, f.type]));
 const used = Object.fromEntries(Object.keys(TYPES).map((t) => [t, 0]));
 /** 번역문이 원문보다 이만큼 짧으면 빠진 글이 있다고 본다 (중국어가 가장 짧다 — 한국어의 약 0.7배). */
@@ -359,6 +360,8 @@ function parsePlace(lang, file, source) {
   // 속성마다 정해진 type 이어야 하고, 그 type 의 규격을 지켜야 한다. 이름표·아이콘은 meta 의 fields 와 같아야 한다.
   for (const [key, type] of Object.entries(FIELDS)) {
     const node = raw[key];
+    // 텍스트 먼저·사진 나중 — i18n/photoless.json 에 올린 항목만 대표 사진·gallery 없이 허용한다(가짜 사진 금지).
+    if (!isObject(node) && (key === 'image' || key === 'gallery') && PHOTOLESS.has(file) && raw.image === undefined && raw.gallery === undefined) continue;
     if (!isObject(node)) { fail(`${key} 없음`); continue; }
     if (node.type !== type) fail(`${key} 의 type 은 ${type} 이어야 함 — ${node.type}`);
     checkNode(node, `${where}: ${key}`, 'block', ctx);
