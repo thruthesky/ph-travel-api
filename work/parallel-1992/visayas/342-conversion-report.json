@@ -1,0 +1,1962 @@
+{
+  "status": "success",
+  "count": 10,
+  "results": [
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-4.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay.webp",
+      "expected_sha256": "5470d42f21ef15762d96e4d8b8f9b8de6422e27a75b684542bf1f066bbc5bc11",
+      "input_info": {
+        "sha256": "5470d42f21ef15762d96e4d8b8f9b8de6422e27a75b684542bf1f066bbc5bc11",
+        "bytes": 300633,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 853,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.5005861664712778,
+        "aspect_ratio_fraction": "1280/853",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 3275520,
+          "decoded_sha256": "3509514b2c478ad24db6548de654de353cf51352fa9447f4b537044105306ebb",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 0,
+          "sha256": null
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 300633,
+          "mtime_ns": 1794915906030463448,
+          "ctime_ns": 1794915906030463448,
+          "inode": 313828961,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "preservation": {
+          "success": true,
+          "sha256_after": "5470d42f21ef15762d96e4d8b8f9b8de6422e27a75b684542bf1f066bbc5bc11",
+          "stat_after": {
+            "bytes": 300633,
+            "mtime_ns": 1794915906030463448,
+            "ctime_ns": 1794915906030463448,
+            "inode": 313828961,
+            "device": 16777232,
+            "mode": 33188
+          },
+          "content_bytes_unchanged": true,
+          "size_mtime_ctime_inode_mode_unchanged": true
+        }
+      },
+      "output_info": {
+        "sha256": "4d4fa9bb5a4e67dc968f22e4fd4607e78e2b6a93b2d70221e5593f230fd86157",
+        "bytes": 123270,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 720,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.5,
+        "aspect_ratio_fraction": "1080/720",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 2332800,
+          "decoded_sha256": "350d74ea6368a88dafbd232f92036abc612b12b0c75cf51d4dab9d700f20022b",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 0,
+          "sha256": null
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 123270,
+          "mtime_ns": 1794916458532756575,
+          "ctime_ns": 1794916458532756575,
+          "inode": 313838967,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "independent_full_decode": {
+          "success": true,
+          "decoder": "dwebp",
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "returncode": 0,
+          "width": 1080,
+          "height": 720,
+          "depth": 4,
+          "decoded_bytes": 3110400,
+          "decoded_sha256": "27e593e4b51e071ff1dca131fa7043781cad32f5ea3b3ec0a3800bafdff554bc",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved to stdout\n",
+          "output_destination": "표준 출력, 메모리에서만 검증"
+        }
+      },
+      "success": true,
+      "execution": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-alpha_q",
+          "100",
+          "-exact",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-4.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-4.jpg\nDimension: 1080 x 720\nOutput:    123158 bytes Y-U-V-All-PSNR 40.00 45.05 44.57   41.10 dB\n           (1.27 bpp)\nblock count:  intra4:       2120  (69.28%)\n              intra16:       940  (30.72%)\n              skipped:       331  (10.82%)\nbytes used:  header:            348  (0.3%)\n             mode-partition:  10817  (8.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      14%|      15%|      28%|      43%|    3060\n      quantizer:  |      27 |      24 |      19 |      14 |\n   filter level:  |       8 |       5 |       3 |       3 |\nMetadata:\n  * EXIF data:        86 bytes\n",
+        "quality": 80,
+        "alpha_quality": 100,
+        "metadata": "all",
+        "started_after_all_input_sha256_verified": true
+      },
+      "geometry": {
+        "ideal_height": 719.71875,
+        "ideal_height_fraction": "921240/1280",
+        "expected_ceiling_height": 720,
+        "actual_height": 720,
+        "height_error_px": 0.28125,
+        "input_aspect_ratio": 1.5005861664712778,
+        "output_aspect_ratio": 1.5,
+        "aspect_ratio_absolute_error": 0.0005861664712778492,
+        "aspect_ratio_relative_error": 0.0003906249999999778,
+        "width_scale": 0.84375,
+        "height_scale": 0.8440797186400938,
+        "rounding_note": "cwebp 자동 높이 올림으로 생긴 1px 미만 오차는 정상"
+      },
+      "transparency_note": "원본 알파값은 모두 255. 최종도 완전 불투명으로 동일하며 불필요한 알파 채널은 인코더가 생략할 수 있음.",
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format": true,
+        "width_1080": true,
+        "height_is_ceil_of_ideal": true,
+        "height_error_less_than_1px": true,
+        "no_upscale": true,
+        "icc_profile_preserved": true,
+        "transparency_preserved": true,
+        "quality_80_argument": true,
+        "non_empty_output": true,
+        "original_preserved": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-25.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-2.webp",
+      "expected_sha256": "ce13158a88e3d14bb522ea4b900260c5c3d46ab1d677b590858901c9fd9041ce",
+      "input_info": {
+        "sha256": "ce13158a88e3d14bb522ea4b900260c5c3d46ab1d677b590858901c9fd9041ce",
+        "bytes": 411870,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "1280/960",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 3686400,
+          "decoded_sha256": "a61b7d577a24e4589256d02bee00ec87d568d48b58a4f3ae4ccecfda47d5d08a",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 0,
+          "sha256": null
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 411870,
+          "mtime_ns": 1794915665829228497,
+          "ctime_ns": 1794915665829228497,
+          "inode": 313825338,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "preservation": {
+          "success": true,
+          "sha256_after": "ce13158a88e3d14bb522ea4b900260c5c3d46ab1d677b590858901c9fd9041ce",
+          "stat_after": {
+            "bytes": 411870,
+            "mtime_ns": 1794915665829228497,
+            "ctime_ns": 1794915665829228497,
+            "inode": 313825338,
+            "device": 16777232,
+            "mode": 33188
+          },
+          "content_bytes_unchanged": true,
+          "size_mtime_ctime_inode_mode_unchanged": true
+        }
+      },
+      "output_info": {
+        "sha256": "8f60eb13731b951077b2f792a7ec916456ffd0231b7ef8212709bef0764c375f",
+        "bytes": 178822,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 810,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "1080/810",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 2624400,
+          "decoded_sha256": "0eb6254f6caceb549fbb1127bf60da48b05ae6524f1ad4880a0886abf0dbcd40",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 0,
+          "sha256": null
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 178822,
+          "mtime_ns": 1794916458752238651,
+          "ctime_ns": 1794916458752238651,
+          "inode": 313838968,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "independent_full_decode": {
+          "success": true,
+          "decoder": "dwebp",
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-2.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "returncode": 0,
+          "width": 1080,
+          "height": 810,
+          "depth": 4,
+          "decoded_bytes": 3499200,
+          "decoded_sha256": "b14f5a6c9d1c01814928b14e6e74defd5dce2bac2654194a9a0508860d53e4e5",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-2.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout\n",
+          "output_destination": "표준 출력, 메모리에서만 검증"
+        }
+      },
+      "success": true,
+      "execution": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-alpha_q",
+          "100",
+          "-exact",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-25.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-2.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-2.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-25.jpg\nDimension: 1080 x 810\nOutput:    178726 bytes Y-U-V-All-PSNR 38.94 46.42 46.65   40.34 dB\n           (1.63 bpp)\nblock count:  intra4:       2782  (80.22%)\n              intra16:       686  (19.78%)\n              skipped:       131  (3.78%)\nbytes used:  header:            398  (0.2%)\n             mode-partition:  15028  (8.4%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      18%|      20%|      29%|      33%|    3468\n      quantizer:  |      27 |      23 |      18 |      13 |\n   filter level:  |       8 |       5 |       3 |       6 |\nMetadata:\n  * EXIF data:        70 bytes\n",
+        "quality": 80,
+        "alpha_quality": 100,
+        "metadata": "all",
+        "started_after_all_input_sha256_verified": true
+      },
+      "geometry": {
+        "ideal_height": 810.0,
+        "ideal_height_fraction": "1036800/1280",
+        "expected_ceiling_height": 810,
+        "actual_height": 810,
+        "height_error_px": 0.0,
+        "input_aspect_ratio": 1.3333333333333333,
+        "output_aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_absolute_error": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "width_scale": 0.84375,
+        "height_scale": 0.84375,
+        "rounding_note": "cwebp 자동 높이 올림으로 생긴 1px 미만 오차는 정상"
+      },
+      "transparency_note": "원본 알파값은 모두 255. 최종도 완전 불투명으로 동일하며 불필요한 알파 채널은 인코더가 생략할 수 있음.",
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format": true,
+        "width_1080": true,
+        "height_is_ceil_of_ideal": true,
+        "height_error_less_than_1px": true,
+        "no_upscale": true,
+        "icc_profile_preserved": true,
+        "transparency_preserved": true,
+        "quality_80_argument": true,
+        "non_empty_output": true,
+        "original_preserved": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-1.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-3.webp",
+      "expected_sha256": "0246ea3ef87a91bbb0897682bdd2ceccd2636c11957eb627e9e9644f00e852ce",
+      "input_info": {
+        "sha256": "0246ea3ef87a91bbb0897682bdd2ceccd2636c11957eb627e9e9644f00e852ce",
+        "bytes": 424427,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 848,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.509433962264151,
+        "aspect_ratio_fraction": "1280/848",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 3256320,
+          "decoded_sha256": "bafab7fc6112073d84b7da27e2a94b775aa8570f5a3b094a6839aa5f1465eb13",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 524,
+          "sha256": "61bb24bd075ae1179b562cb484a2737fa63bcf35133a951843db1f1f7c97ce7f"
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 424427,
+          "mtime_ns": 1794915869647808568,
+          "ctime_ns": 1794915869647808568,
+          "inode": 313827841,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "preservation": {
+          "success": true,
+          "sha256_after": "0246ea3ef87a91bbb0897682bdd2ceccd2636c11957eb627e9e9644f00e852ce",
+          "stat_after": {
+            "bytes": 424427,
+            "mtime_ns": 1794915869647808568,
+            "ctime_ns": 1794915869647808568,
+            "inode": 313827841,
+            "device": 16777232,
+            "mode": 33188
+          },
+          "content_bytes_unchanged": true,
+          "size_mtime_ctime_inode_mode_unchanged": true
+        }
+      },
+      "output_info": {
+        "sha256": "88f911ffa5e15f2395ae2d68f23cc2cf7f9b32c6a4a93a7bf7fa7b3153872f3f",
+        "bytes": 190406,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 716,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.5083798882681565,
+        "aspect_ratio_fraction": "1080/716",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 2319840,
+          "decoded_sha256": "c1474a81f7a6c08dbeb67af8d30b9b7946e2ea5856aac23e55c9680b54f4724b",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 524,
+          "sha256": "61bb24bd075ae1179b562cb484a2737fa63bcf35133a951843db1f1f7c97ce7f"
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 190406,
+          "mtime_ns": 1794916458845708812,
+          "ctime_ns": 1794916458845708812,
+          "inode": 313838970,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "independent_full_decode": {
+          "success": true,
+          "decoder": "dwebp",
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-3.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "returncode": 0,
+          "width": 1080,
+          "height": 716,
+          "depth": 4,
+          "decoded_bytes": 3093120,
+          "decoded_sha256": "87c2b5fe408b3417f24a86c9a0ee304ac1c2508c534199c5687468a309633dfc",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-3.webp. Dimensions: 1080 x 716 . Format: lossy. Now saving...\nSaved to stdout\n",
+          "output_destination": "표준 출력, 메모리에서만 검증"
+        }
+      },
+      "success": true,
+      "execution": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-alpha_q",
+          "100",
+          "-exact",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-1.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-3.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-3.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-1.jpg\nDimension: 1080 x 716\nOutput:    189856 bytes Y-U-V-All-PSNR 39.05 39.55 41.32   39.44 dB\n           (1.96 bpp)\nblock count:  intra4:       2682  (87.65%)\n              intra16:       378  (12.35%)\n              skipped:       147  (4.80%)\nbytes used:  header:            491  (0.3%)\n             mode-partition:  14402  (7.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      28%|      19%|      21%|      32%|    3060\n      quantizer:  |      27 |      22 |      17 |      11 |\n   filter level:  |       8 |       5 |       3 |      17 |\nMetadata:\n  * ICC profile:     524 bytes\n",
+        "quality": 80,
+        "alpha_quality": 100,
+        "metadata": "all",
+        "started_after_all_input_sha256_verified": true
+      },
+      "geometry": {
+        "ideal_height": 715.5,
+        "ideal_height_fraction": "915840/1280",
+        "expected_ceiling_height": 716,
+        "actual_height": 716,
+        "height_error_px": 0.5,
+        "input_aspect_ratio": 1.509433962264151,
+        "output_aspect_ratio": 1.5083798882681565,
+        "aspect_ratio_absolute_error": 0.0010540739959945533,
+        "aspect_ratio_relative_error": 0.0006983240223463749,
+        "width_scale": 0.84375,
+        "height_scale": 0.8443396226415094,
+        "rounding_note": "cwebp 자동 높이 올림으로 생긴 1px 미만 오차는 정상"
+      },
+      "transparency_note": "원본 알파값은 모두 255. 최종도 완전 불투명으로 동일하며 불필요한 알파 채널은 인코더가 생략할 수 있음.",
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format": true,
+        "width_1080": true,
+        "height_is_ceil_of_ideal": true,
+        "height_error_less_than_1px": true,
+        "no_upscale": true,
+        "icc_profile_preserved": true,
+        "transparency_preserved": true,
+        "quality_80_argument": true,
+        "non_empty_output": true,
+        "original_preserved": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-0.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-4.webp",
+      "expected_sha256": "7af6f999221856e288d1efd396a93a64bedb432fa876971afbcef966a406b00e",
+      "input_info": {
+        "sha256": "7af6f999221856e288d1efd396a93a64bedb432fa876971afbcef966a406b00e",
+        "bytes": 317558,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "1280/960",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 3686400,
+          "decoded_sha256": "09b33cb59c6f489935c6e0ff9f48fdad6867ebd3b3832818e9723b0d71a528b8",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 0,
+          "sha256": null
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 317558,
+          "mtime_ns": 1794916034660500076,
+          "ctime_ns": 1794916034660500076,
+          "inode": 313830883,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "preservation": {
+          "success": true,
+          "sha256_after": "7af6f999221856e288d1efd396a93a64bedb432fa876971afbcef966a406b00e",
+          "stat_after": {
+            "bytes": 317558,
+            "mtime_ns": 1794916034660500076,
+            "ctime_ns": 1794916034660500076,
+            "inode": 313830883,
+            "device": 16777232,
+            "mode": 33188
+          },
+          "content_bytes_unchanged": true,
+          "size_mtime_ctime_inode_mode_unchanged": true
+        }
+      },
+      "output_info": {
+        "sha256": "b122025e9ca3ddde077515620f081b759ddb3bc5e37c88c6a36d709d63cf6fc4",
+        "bytes": 116810,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 810,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "1080/810",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 2624400,
+          "decoded_sha256": "d9eb6c684f9a32f02520f0360bf85b62ff32d5b81490d0cb660ecae15e80ba77",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 0,
+          "sha256": null
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 116810,
+          "mtime_ns": 1794916458940545105,
+          "ctime_ns": 1794916458940545105,
+          "inode": 313838972,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "independent_full_decode": {
+          "success": true,
+          "decoder": "dwebp",
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-4.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "returncode": 0,
+          "width": 1080,
+          "height": 810,
+          "depth": 4,
+          "decoded_bytes": 3499200,
+          "decoded_sha256": "fefba2947a0f341dd1b7746cde327e70fe101964810ca4cef438833bfcc6751e",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-4.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout\n",
+          "output_destination": "표준 출력, 메모리에서만 검증"
+        }
+      },
+      "success": true,
+      "execution": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-alpha_q",
+          "100",
+          "-exact",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-0.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-4.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-4.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-0.jpg\nDimension: 1080 x 810\nOutput:    116810 bytes Y-U-V-All-PSNR 39.85 41.64 43.23   40.54 dB\n           (1.07 bpp)\nblock count:  intra4:       2594  (74.80%)\n              intra16:       874  (25.20%)\n              skipped:         4  (0.12%)\nbytes used:  header:            322  (0.3%)\n             mode-partition:  12215  (10.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       7%|      14%|      29%|      51%|    3468\n      quantizer:  |      27 |      25 |      20 |      16 |\n   filter level:  |       8 |       5 |       4 |       7 |\n",
+        "quality": 80,
+        "alpha_quality": 100,
+        "metadata": "all",
+        "started_after_all_input_sha256_verified": true
+      },
+      "geometry": {
+        "ideal_height": 810.0,
+        "ideal_height_fraction": "1036800/1280",
+        "expected_ceiling_height": 810,
+        "actual_height": 810,
+        "height_error_px": 0.0,
+        "input_aspect_ratio": 1.3333333333333333,
+        "output_aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_absolute_error": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "width_scale": 0.84375,
+        "height_scale": 0.84375,
+        "rounding_note": "cwebp 자동 높이 올림으로 생긴 1px 미만 오차는 정상"
+      },
+      "transparency_note": "원본 알파값은 모두 255. 최종도 완전 불투명으로 동일하며 불필요한 알파 채널은 인코더가 생략할 수 있음.",
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format": true,
+        "width_1080": true,
+        "height_is_ceil_of_ideal": true,
+        "height_error_less_than_1px": true,
+        "no_upscale": true,
+        "icc_profile_preserved": true,
+        "transparency_preserved": true,
+        "quality_80_argument": true,
+        "non_empty_output": true,
+        "original_preserved": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-27.png",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-5.webp",
+      "expected_sha256": "2bc8a7ed98843de73e97f468dc5ce7bd1534558171ae1328a8cd80b9166f4de3",
+      "input_info": {
+        "sha256": "2bc8a7ed98843de73e97f468dc5ce7bd1534558171ae1328a8cd80b9166f4de3",
+        "bytes": 2689711,
+        "format": "PNG",
+        "width": 1280,
+        "height": 1152,
+        "mode": "RGBA",
+        "bands": [
+          "R",
+          "G",
+          "B",
+          "A"
+        ],
+        "aspect_ratio": 1.1111111111111112,
+        "aspect_ratio_fraction": "1280/1152",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 5898240,
+          "decoded_sha256": "a95b6fb1f1c3aac900355da298f272224b99d75c8b05b3d251efbe24cf02efac",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": true,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": "d3a97b1cf6929b20bd2eac5e10d1a02e647ba9366155ed017ba7c31b1c048a5c"
+        },
+        "icc_profile": {
+          "bytes": 3344,
+          "sha256": "e7e3fa42ebfd2f5693a00e2d5f2f6aecf63e16f4d2263576cacb5373456885a9"
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 2689711,
+          "mtime_ns": 1794916003445934130,
+          "ctime_ns": 1794916341565988564,
+          "inode": 313830302,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "preservation": {
+          "success": true,
+          "sha256_after": "2bc8a7ed98843de73e97f468dc5ce7bd1534558171ae1328a8cd80b9166f4de3",
+          "stat_after": {
+            "bytes": 2689711,
+            "mtime_ns": 1794916003445934130,
+            "ctime_ns": 1794916341565988564,
+            "inode": 313830302,
+            "device": 16777232,
+            "mode": 33188
+          },
+          "content_bytes_unchanged": true,
+          "size_mtime_ctime_inode_mode_unchanged": true
+        }
+      },
+      "output_info": {
+        "sha256": "b354ca4b6a4380f27af6dd03a70d4fa50642c16809a80b09bdc71155fc5db7c7",
+        "bytes": 176948,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 972,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.1111111111111112,
+        "aspect_ratio_fraction": "1080/972",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 3149280,
+          "decoded_sha256": "a8174429313cb6b1a0b958ee2d0e69cc4e514ef82bff21bdcebb7930850aecde",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 3344,
+          "sha256": "e7e3fa42ebfd2f5693a00e2d5f2f6aecf63e16f4d2263576cacb5373456885a9"
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 176948,
+          "mtime_ns": 1794916459056942220,
+          "ctime_ns": 1794916459056942220,
+          "inode": 313838973,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "independent_full_decode": {
+          "success": true,
+          "decoder": "dwebp",
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-5.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "returncode": 0,
+          "width": 1080,
+          "height": 972,
+          "depth": 4,
+          "decoded_bytes": 4199040,
+          "decoded_sha256": "a8f6f272edb63b40587ef94a5125e649b32957a82210e0b09be0d1a556be0c3a",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-5.webp. Dimensions: 1080 x 972 . Format: lossy. Now saving...\nSaved to stdout\n",
+          "output_destination": "표준 출력, 메모리에서만 검증"
+        }
+      },
+      "success": true,
+      "execution": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-alpha_q",
+          "100",
+          "-exact",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-27.png",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-5.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-5.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-27.png\nDimension: 1080 x 972\nOutput:    172974 bytes Y-U-V-All-PSNR 39.75 45.10 45.15   40.92 dB\n           (1.32 bpp)\nblock count:  intra4:       3334  (80.38%)\n              intra16:       814  (19.62%)\n              skipped:        46  (1.11%)\nbytes used:  header:            329  (0.2%)\n             mode-partition:  18304  (10.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      10%|      22%|      36%|      33%|    4148\n      quantizer:  |      27 |      24 |      19 |      14 |\n   filter level:  |       8 |       5 |       3 |      10 |\nMetadata:\n  * ICC profile:    3344 bytes\n  * EXIF data:       138 bytes\n  * XMP data:        450 bytes\n",
+        "quality": 80,
+        "alpha_quality": 100,
+        "metadata": "all",
+        "started_after_all_input_sha256_verified": true
+      },
+      "geometry": {
+        "ideal_height": 972.0,
+        "ideal_height_fraction": "1244160/1280",
+        "expected_ceiling_height": 972,
+        "actual_height": 972,
+        "height_error_px": 0.0,
+        "input_aspect_ratio": 1.1111111111111112,
+        "output_aspect_ratio": 1.1111111111111112,
+        "aspect_ratio_absolute_error": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "width_scale": 0.84375,
+        "height_scale": 0.84375,
+        "rounding_note": "cwebp 자동 높이 올림으로 생긴 1px 미만 오차는 정상"
+      },
+      "transparency_note": "원본 알파값은 모두 255. 최종도 완전 불투명으로 동일하며 불필요한 알파 채널은 인코더가 생략할 수 있음.",
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format": true,
+        "width_1080": true,
+        "height_is_ceil_of_ideal": true,
+        "height_error_less_than_1px": true,
+        "no_upscale": true,
+        "icc_profile_preserved": true,
+        "transparency_preserved": true,
+        "quality_80_argument": true,
+        "non_empty_output": true,
+        "original_preserved": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-5.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-6.webp",
+      "expected_sha256": "2d6092ce37479763fdcfd67a190a7453403f2215e9b836ed3c56f4c8a6d24957",
+      "input_info": {
+        "sha256": "2d6092ce37479763fdcfd67a190a7453403f2215e9b836ed3c56f4c8a6d24957",
+        "bytes": 478068,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 1924,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 0.6652806652806653,
+        "aspect_ratio_fraction": "1280/1924",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 7388160,
+          "decoded_sha256": "b6cf1b56f583e4d85405b6a38516d3def0b1baa3b4c2dd32d300741de0d1ca36",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 0,
+          "sha256": null
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 478068,
+          "mtime_ns": 1794916116632363253,
+          "ctime_ns": 1794916116632363253,
+          "inode": 313831885,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "preservation": {
+          "success": true,
+          "sha256_after": "2d6092ce37479763fdcfd67a190a7453403f2215e9b836ed3c56f4c8a6d24957",
+          "stat_after": {
+            "bytes": 478068,
+            "mtime_ns": 1794916116632363253,
+            "ctime_ns": 1794916116632363253,
+            "inode": 313831885,
+            "device": 16777232,
+            "mode": 33188
+          },
+          "content_bytes_unchanged": true,
+          "size_mtime_ctime_inode_mode_unchanged": true
+        }
+      },
+      "output_info": {
+        "sha256": "d2cd31d4aa5e7183f9879bab16ba605f20ae7f541089be226ac0547d4def5bef",
+        "bytes": 150028,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 1624,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 0.6650246305418719,
+        "aspect_ratio_fraction": "1080/1624",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 5261760,
+          "decoded_sha256": "594856edbb9d10c405d4027c056ce88d697a1298b69df2d91fda17089bd23663",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 0,
+          "sha256": null
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 150028,
+          "mtime_ns": 1794916459218476323,
+          "ctime_ns": 1794916459218476323,
+          "inode": 313838974,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "independent_full_decode": {
+          "success": true,
+          "decoder": "dwebp",
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-6.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "returncode": 0,
+          "width": 1080,
+          "height": 1624,
+          "depth": 4,
+          "decoded_bytes": 7015680,
+          "decoded_sha256": "93f2e7bdabdd7b8eaec373bbdf90c966e67f37c8afe921dd1965a6d7ef3f14b0",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-6.webp. Dimensions: 1080 x 1624 . Format: lossy. Now saving...\nSaved to stdout\n",
+          "output_destination": "표준 출력, 메모리에서만 검증"
+        }
+      },
+      "success": true,
+      "execution": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-alpha_q",
+          "100",
+          "-exact",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-5.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-6.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-6.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-5.jpg\nDimension: 1080 x 1624\nOutput:    150028 bytes Y-U-V-All-PSNR 41.40 44.63 44.46   42.22 dB\n           (0.68 bpp)\nblock count:  intra4:       5997  (86.46%)\n              intra16:       939  (13.54%)\n              skipped:        12  (0.17%)\nbytes used:  header:            269  (0.2%)\n             mode-partition:  26891  (17.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|      15%|      48%|      35%|    6936\n      quantizer:  |      27 |      25 |      21 |      14 |\n   filter level:  |       8 |       6 |       9 |      20 |\n",
+        "quality": 80,
+        "alpha_quality": 100,
+        "metadata": "all",
+        "started_after_all_input_sha256_verified": true
+      },
+      "geometry": {
+        "ideal_height": 1623.375,
+        "ideal_height_fraction": "2077920/1280",
+        "expected_ceiling_height": 1624,
+        "actual_height": 1624,
+        "height_error_px": 0.625,
+        "input_aspect_ratio": 0.6652806652806653,
+        "output_aspect_ratio": 0.6650246305418719,
+        "aspect_ratio_absolute_error": 0.0002560347387934314,
+        "aspect_ratio_relative_error": 0.0003848522167488877,
+        "width_scale": 0.84375,
+        "height_scale": 0.8440748440748441,
+        "rounding_note": "cwebp 자동 높이 올림으로 생긴 1px 미만 오차는 정상"
+      },
+      "transparency_note": "원본 알파값은 모두 255. 최종도 완전 불투명으로 동일하며 불필요한 알파 채널은 인코더가 생략할 수 있음.",
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format": true,
+        "width_1080": true,
+        "height_is_ceil_of_ideal": true,
+        "height_error_less_than_1px": true,
+        "no_upscale": true,
+        "icc_profile_preserved": true,
+        "transparency_preserved": true,
+        "quality_80_argument": true,
+        "non_empty_output": true,
+        "original_preserved": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-13.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-7.webp",
+      "expected_sha256": "306ce4750f1373c053b3e3755f026b0a1c32b155a35c26f43606585f88331c71",
+      "input_info": {
+        "sha256": "306ce4750f1373c053b3e3755f026b0a1c32b155a35c26f43606585f88331c71",
+        "bytes": 244500,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 853,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.5005861664712778,
+        "aspect_ratio_fraction": "1280/853",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 3275520,
+          "decoded_sha256": "7b5921e577ccab7ef0a9706b6c01b0189a0bc32d0b7edfc55c311cd6bbcdd379",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 480,
+          "sha256": "2b8daf8cabe783b17f801e6687f57016b53c775a826269e21c51313083c9fefc"
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 244500,
+          "mtime_ns": 1794916207822308546,
+          "ctime_ns": 1794916207822308546,
+          "inode": 313832963,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "preservation": {
+          "success": true,
+          "sha256_after": "306ce4750f1373c053b3e3755f026b0a1c32b155a35c26f43606585f88331c71",
+          "stat_after": {
+            "bytes": 244500,
+            "mtime_ns": 1794916207822308546,
+            "ctime_ns": 1794916207822308546,
+            "inode": 313832963,
+            "device": 16777232,
+            "mode": 33188
+          },
+          "content_bytes_unchanged": true,
+          "size_mtime_ctime_inode_mode_unchanged": true
+        }
+      },
+      "output_info": {
+        "sha256": "c742004024e873f76e3f6692da89d62831c1d960c06eac67683272110fcbe770",
+        "bytes": 86506,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 720,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.5,
+        "aspect_ratio_fraction": "1080/720",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 2332800,
+          "decoded_sha256": "3dcb637ff13f3d0db8bf63e2cc5d5be6520b3b3a091fc67a5b1978d24b0059ed",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 480,
+          "sha256": "2b8daf8cabe783b17f801e6687f57016b53c775a826269e21c51313083c9fefc"
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 86506,
+          "mtime_ns": 1794916459319433065,
+          "ctime_ns": 1794916459319433065,
+          "inode": 313838975,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "independent_full_decode": {
+          "success": true,
+          "decoder": "dwebp",
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-7.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "returncode": 0,
+          "width": 1080,
+          "height": 720,
+          "depth": 4,
+          "decoded_bytes": 3110400,
+          "decoded_sha256": "ecee980e72fd4273d6b0f536e6e5f4636449015c7100c759452e9cb829be489a",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-7.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved to stdout\n",
+          "output_destination": "표준 출력, 메모리에서만 검증"
+        }
+      },
+      "success": true,
+      "execution": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-alpha_q",
+          "100",
+          "-exact",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-13.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-7.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-7.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-13.jpg\nDimension: 1080 x 720\nOutput:    86000 bytes Y-U-V-All-PSNR 40.73 44.65 45.15   41.73 dB\n           (0.88 bpp)\nblock count:  intra4:       1996  (65.23%)\n              intra16:      1064  (34.77%)\n              skipped:       510  (16.67%)\nbytes used:  header:            297  (0.3%)\n             mode-partition:  10071  (11.7%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       6%|      16%|      29%|      49%|    3060\n      quantizer:  |      27 |      24 |      21 |      16 |\n   filter level:  |       8 |       5 |       9 |      15 |\nMetadata:\n  * ICC profile:     480 bytes\n",
+        "quality": 80,
+        "alpha_quality": 100,
+        "metadata": "all",
+        "started_after_all_input_sha256_verified": true
+      },
+      "geometry": {
+        "ideal_height": 719.71875,
+        "ideal_height_fraction": "921240/1280",
+        "expected_ceiling_height": 720,
+        "actual_height": 720,
+        "height_error_px": 0.28125,
+        "input_aspect_ratio": 1.5005861664712778,
+        "output_aspect_ratio": 1.5,
+        "aspect_ratio_absolute_error": 0.0005861664712778492,
+        "aspect_ratio_relative_error": 0.0003906249999999778,
+        "width_scale": 0.84375,
+        "height_scale": 0.8440797186400938,
+        "rounding_note": "cwebp 자동 높이 올림으로 생긴 1px 미만 오차는 정상"
+      },
+      "transparency_note": "원본 알파값은 모두 255. 최종도 완전 불투명으로 동일하며 불필요한 알파 채널은 인코더가 생략할 수 있음.",
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format": true,
+        "width_1080": true,
+        "height_is_ceil_of_ideal": true,
+        "height_error_less_than_1px": true,
+        "no_upscale": true,
+        "icc_profile_preserved": true,
+        "transparency_preserved": true,
+        "quality_80_argument": true,
+        "non_empty_output": true,
+        "original_preserved": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-24.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-8.webp",
+      "expected_sha256": "5bb17a7f306c5288544b94c13ec233883352808eb640e7fc6d8c4227e04e1abd",
+      "input_info": {
+        "sha256": "5bb17a7f306c5288544b94c13ec233883352808eb640e7fc6d8c4227e04e1abd",
+        "bytes": 416885,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 960,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "1280/960",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 3686400,
+          "decoded_sha256": "e3ceee1eb258593fe27d99d50f5e5657662fc3348b149a55c6f608b99996c00e",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 0,
+          "sha256": null
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 416885,
+          "mtime_ns": 1794915634586485843,
+          "ctime_ns": 1794915634586485843,
+          "inode": 313825145,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "preservation": {
+          "success": true,
+          "sha256_after": "5bb17a7f306c5288544b94c13ec233883352808eb640e7fc6d8c4227e04e1abd",
+          "stat_after": {
+            "bytes": 416885,
+            "mtime_ns": 1794915634586485843,
+            "ctime_ns": 1794915634586485843,
+            "inode": 313825145,
+            "device": 16777232,
+            "mode": 33188
+          },
+          "content_bytes_unchanged": true,
+          "size_mtime_ctime_inode_mode_unchanged": true
+        }
+      },
+      "output_info": {
+        "sha256": "903ca15e296a1b686be346fd493ab505915d4c2f9fc5c6f64946c5cc0dba822d",
+        "bytes": 187366,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 810,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_fraction": "1080/810",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 2624400,
+          "decoded_sha256": "fd5c36244c651b2845444a1728183a42e9969efca5d194f67694b47095b3c722",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 0,
+          "sha256": null
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 187366,
+          "mtime_ns": 1794916459415099237,
+          "ctime_ns": 1794916459415099237,
+          "inode": 313838976,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "independent_full_decode": {
+          "success": true,
+          "decoder": "dwebp",
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-8.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "returncode": 0,
+          "width": 1080,
+          "height": 810,
+          "depth": 4,
+          "decoded_bytes": 3499200,
+          "decoded_sha256": "747ec1591aa39adc2a630793bf2e2c43aa8dfd9b75e43eb948507f2a75e24ead",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-8.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout\n",
+          "output_destination": "표준 출력, 메모리에서만 검증"
+        }
+      },
+      "success": true,
+      "execution": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-alpha_q",
+          "100",
+          "-exact",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-24.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-8.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-8.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-24.jpg\nDimension: 1080 x 810\nOutput:    187218 bytes Y-U-V-All-PSNR 38.83 44.29 46.05   40.11 dB\n           (1.71 bpp)\nblock count:  intra4:       3108  (89.62%)\n              intra16:       360  (10.38%)\n              skipped:        68  (1.96%)\nbytes used:  header:            312  (0.2%)\n             mode-partition:  16625  (8.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      25%|      20%|      23%|      33%|    3468\n      quantizer:  |      27 |      22 |      17 |      12 |\n   filter level:  |       8 |       5 |       3 |      18 |\nMetadata:\n  * EXIF data:       122 bytes\n",
+        "quality": 80,
+        "alpha_quality": 100,
+        "metadata": "all",
+        "started_after_all_input_sha256_verified": true
+      },
+      "geometry": {
+        "ideal_height": 810.0,
+        "ideal_height_fraction": "1036800/1280",
+        "expected_ceiling_height": 810,
+        "actual_height": 810,
+        "height_error_px": 0.0,
+        "input_aspect_ratio": 1.3333333333333333,
+        "output_aspect_ratio": 1.3333333333333333,
+        "aspect_ratio_absolute_error": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "width_scale": 0.84375,
+        "height_scale": 0.84375,
+        "rounding_note": "cwebp 자동 높이 올림으로 생긴 1px 미만 오차는 정상"
+      },
+      "transparency_note": "원본 알파값은 모두 255. 최종도 완전 불투명으로 동일하며 불필요한 알파 채널은 인코더가 생략할 수 있음.",
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format": true,
+        "width_1080": true,
+        "height_is_ceil_of_ideal": true,
+        "height_error_less_than_1px": true,
+        "no_upscale": true,
+        "icc_profile_preserved": true,
+        "transparency_preserved": true,
+        "quality_80_argument": true,
+        "non_empty_output": true,
+        "original_preserved": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-29.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-9.webp",
+      "expected_sha256": "f5019f10035cf66d3bc39d55646c7b9b5e4cbd14da5f0734b6fd024beb3352f5",
+      "input_info": {
+        "sha256": "f5019f10035cf66d3bc39d55646c7b9b5e4cbd14da5f0734b6fd024beb3352f5",
+        "bytes": 697302,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 1494,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 0.856760374832664,
+        "aspect_ratio_fraction": "1280/1494",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 5736960,
+          "decoded_sha256": "e850fd4b2fbcfea9d33bdbacc6af491641f3258ce8c00422700ba9a0cf4582ea",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 456,
+          "sha256": "12afb4d9953adee0607d347daee5b78b18d6b3cab2d572b88970703f5edb37bc"
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 697302,
+          "mtime_ns": 1794915571326489868,
+          "ctime_ns": 1794915571326489868,
+          "inode": 313824681,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "preservation": {
+          "success": true,
+          "sha256_after": "f5019f10035cf66d3bc39d55646c7b9b5e4cbd14da5f0734b6fd024beb3352f5",
+          "stat_after": {
+            "bytes": 697302,
+            "mtime_ns": 1794915571326489868,
+            "ctime_ns": 1794915571326489868,
+            "inode": 313824681,
+            "device": 16777232,
+            "mode": 33188
+          },
+          "content_bytes_unchanged": true,
+          "size_mtime_ctime_inode_mode_unchanged": true
+        }
+      },
+      "output_info": {
+        "sha256": "0e82fa669c6ed438f9771a3d07b65278e53a9f2ca69537577864c722db415c57",
+        "bytes": 313146,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 1261,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 0.8564631245043616,
+        "aspect_ratio_fraction": "1080/1261",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 4085640,
+          "decoded_sha256": "f0c39aa9a7bf8910eeadebd873553f29fe5d651cb2ac0c6af8291ca57c2785d2",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 456,
+          "sha256": "12afb4d9953adee0607d347daee5b78b18d6b3cab2d572b88970703f5edb37bc"
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 313146,
+          "mtime_ns": 1794916459557258113,
+          "ctime_ns": 1794916459557258113,
+          "inode": 313838977,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "independent_full_decode": {
+          "success": true,
+          "decoder": "dwebp",
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-9.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "returncode": 0,
+          "width": 1080,
+          "height": 1261,
+          "depth": 4,
+          "decoded_bytes": 5447520,
+          "decoded_sha256": "d66b2c5ddbd2aa855fff806c3da77ff1ecf3940ba4ad4f72de8bef28a93cafc7",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-9.webp. Dimensions: 1080 x 1261 . Format: lossy. Now saving...\nSaved to stdout\n",
+          "output_destination": "표준 출력, 메모리에서만 검증"
+        }
+      },
+      "success": true,
+      "execution": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-alpha_q",
+          "100",
+          "-exact",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-29.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-9.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-9.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-29.jpg\nDimension: 1080 x 1261\nOutput:    312664 bytes Y-U-V-All-PSNR 38.18 44.10 46.33   39.52 dB\n           (1.84 bpp)\nblock count:  intra4:       4691  (87.32%)\n              intra16:       681  (12.68%)\n              skipped:         7  (0.13%)\nbytes used:  header:            346  (0.1%)\n             mode-partition:  26591  (8.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      27%|      25%|      20%|      29%|    5372\n      quantizer:  |      27 |      22 |      17 |      11 |\n   filter level:  |       8 |       5 |       3 |       2 |\nMetadata:\n  * ICC profile:     456 bytes\n",
+        "quality": 80,
+        "alpha_quality": 100,
+        "metadata": "all",
+        "started_after_all_input_sha256_verified": true
+      },
+      "geometry": {
+        "ideal_height": 1260.5625,
+        "ideal_height_fraction": "1613520/1280",
+        "expected_ceiling_height": 1261,
+        "actual_height": 1261,
+        "height_error_px": 0.4375,
+        "input_aspect_ratio": 0.856760374832664,
+        "output_aspect_ratio": 0.8564631245043616,
+        "aspect_ratio_absolute_error": 0.00029725032830241194,
+        "aspect_ratio_relative_error": 0.00034694686756542303,
+        "width_scale": 0.84375,
+        "height_scale": 0.8440428380187416,
+        "rounding_note": "cwebp 자동 높이 올림으로 생긴 1px 미만 오차는 정상"
+      },
+      "transparency_note": "원본 알파값은 모두 255. 최종도 완전 불투명으로 동일하며 불필요한 알파 채널은 인코더가 생략할 수 있음.",
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format": true,
+        "width_1080": true,
+        "height_is_ceil_of_ideal": true,
+        "height_error_less_than_1px": true,
+        "no_upscale": true,
+        "icc_profile_preserved": true,
+        "transparency_preserved": true,
+        "quality_80_argument": true,
+        "non_empty_output": true,
+        "original_preserved": true
+      }
+    },
+    {
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-26.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-10.webp",
+      "expected_sha256": "a841a096a6a58f2c6bb3bf737a6529de041c6dd43e12d223e463cf553717b06a",
+      "input_info": {
+        "sha256": "a841a096a6a58f2c6bb3bf737a6529de041c6dd43e12d223e463cf553717b06a",
+        "bytes": 457683,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 853,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.5005861664712778,
+        "aspect_ratio_fraction": "1280/853",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 3275520,
+          "decoded_sha256": "7e0cfeb48fbe9ad58ff440af1611f761a4872f1b67c480d18a96accfc4ba82cd",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 524,
+          "sha256": "61bb24bd075ae1179b562cb484a2737fa63bcf35133a951843db1f1f7c97ce7f"
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 457683,
+          "mtime_ns": 1794915971481001928,
+          "ctime_ns": 1794915971481001928,
+          "inode": 313830021,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "preservation": {
+          "success": true,
+          "sha256_after": "a841a096a6a58f2c6bb3bf737a6529de041c6dd43e12d223e463cf553717b06a",
+          "stat_after": {
+            "bytes": 457683,
+            "mtime_ns": 1794915971481001928,
+            "ctime_ns": 1794915971481001928,
+            "inode": 313830021,
+            "device": 16777232,
+            "mode": 33188
+          },
+          "content_bytes_unchanged": true,
+          "size_mtime_ctime_inode_mode_unchanged": true
+        }
+      },
+      "output_info": {
+        "sha256": "87397892892aa9228ea427d395d195fd555c734ef7e0ec8794c947595b0ea539",
+        "bytes": 199612,
+        "format": "WEBP",
+        "width": 1080,
+        "height": 720,
+        "mode": "RGB",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ],
+        "aspect_ratio": 1.5,
+        "aspect_ratio_fraction": "1080/720",
+        "frame_count": 1,
+        "full_decode": {
+          "success": true,
+          "decoder": "Pillow 11.3.0",
+          "method": "Image.verify() 후 다시 열어 Image.load()와 Image.tobytes()로 전체 픽셀 확인",
+          "decoded_bytes": 2332800,
+          "decoded_sha256": "1cd59eb7f5d53dc92d4c36370e17fb9c338f308e39cfa7395c7f24961968d6d7",
+          "warnings": []
+        },
+        "alpha": {
+          "channel_present": false,
+          "extrema": [
+            255,
+            255
+          ],
+          "non_opaque_pixels": 0,
+          "fully_transparent_pixels": 0,
+          "decoded_alpha_sha256": null
+        },
+        "icc_profile": {
+          "bytes": 524,
+          "sha256": "61bb24bd075ae1179b562cb484a2737fa63bcf35133a951843db1f1f7c97ce7f"
+        },
+        "exif_orientation": null,
+        "stat": {
+          "bytes": 199612,
+          "mtime_ns": 1794916459668066031,
+          "ctime_ns": 1794916459668066031,
+          "inode": 313838978,
+          "device": 16777232,
+          "mode": 33188
+        },
+        "independent_full_decode": {
+          "success": true,
+          "decoder": "dwebp",
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-10.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "returncode": 0,
+          "width": 1080,
+          "height": 720,
+          "depth": 4,
+          "decoded_bytes": 3110400,
+          "decoded_sha256": "02b8e4ed58b30f6fb269d7742342a1c497a083c3a1974e4a0ef1c0d7a357c9ff",
+          "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-10.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved to stdout\n",
+          "output_destination": "표준 출력, 메모리에서만 검증"
+        }
+      },
+      "success": true,
+      "execution": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "-resize_mode",
+          "down_only",
+          "-alpha_q",
+          "100",
+          "-exact",
+          "-metadata",
+          "all",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-26.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-10.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-10.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-26.jpg\nDimension: 1080 x 720\nOutput:    199062 bytes Y-U-V-All-PSNR 38.40 39.13 39.73   38.71 dB\n           (2.05 bpp)\nblock count:  intra4:       2851  (93.17%)\n              intra16:       209  (6.83%)\n              skipped:         0  (0.00%)\nbytes used:  header:            490  (0.2%)\n             mode-partition:  15374  (7.7%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      34%|      21%|      22%|      23%|    3060\n      quantizer:  |      27 |      21 |      16 |      11 |\n   filter level:  |       8 |       5 |       3 |      11 |\nMetadata:\n  * ICC profile:     524 bytes\n",
+        "quality": 80,
+        "alpha_quality": 100,
+        "metadata": "all",
+        "started_after_all_input_sha256_verified": true
+      },
+      "geometry": {
+        "ideal_height": 719.71875,
+        "ideal_height_fraction": "921240/1280",
+        "expected_ceiling_height": 720,
+        "actual_height": 720,
+        "height_error_px": 0.28125,
+        "input_aspect_ratio": 1.5005861664712778,
+        "output_aspect_ratio": 1.5,
+        "aspect_ratio_absolute_error": 0.0005861664712778492,
+        "aspect_ratio_relative_error": 0.0003906249999999778,
+        "width_scale": 0.84375,
+        "height_scale": 0.8440797186400938,
+        "rounding_note": "cwebp 자동 높이 올림으로 생긴 1px 미만 오차는 정상"
+      },
+      "transparency_note": "원본 알파값은 모두 255. 최종도 완전 불투명으로 동일하며 불필요한 알파 채널은 인코더가 생략할 수 있음.",
+      "validation": {
+        "input_sha256_matches_expected": true,
+        "input_full_decode_success": true,
+        "output_full_decode_success": true,
+        "webp_format": true,
+        "width_1080": true,
+        "height_is_ceil_of_ideal": true,
+        "height_error_less_than_1px": true,
+        "no_upscale": true,
+        "icc_profile_preserved": true,
+        "transparency_preserved": true,
+        "quality_80_argument": true,
+        "non_empty_output": true,
+        "original_preserved": true
+      }
+    }
+  ],
+  "started_at": "2026-11-17T11:54:18.344739+00:00",
+  "encoder": {
+    "executable": "/opt/homebrew/bin/cwebp",
+    "version": "1.6.0\nlibsharpyuv: 0.4.2"
+  },
+  "requested": {
+    "format": "WebP",
+    "width": 1080,
+    "quality": 80,
+    "preserve_aspect_ratio": true,
+    "height_rounding": "ceil",
+    "maximum_height_error_exclusive_px": 1,
+    "upscale": false,
+    "crop": false,
+    "rotation": false,
+    "color_correction": false,
+    "content_editing": false,
+    "compositing": false,
+    "watermark_changes": false
+  },
+  "write_scope": [
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay.webp",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-2.webp",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-3.webp",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-4.webp",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-5.webp",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-6.webp",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-7.webp",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-8.webp",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-9.webp",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-10.webp",
+    "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/parallel-1992/visayas/342-conversion-report.json"
+  ],
+  "visual_review": {
+    "performed": false,
+    "responsibility": "상위 에이전트"
+  },
+  "execution_note": "현재 Codex CLI 실행에서 설치된 cwebp로만 수치 변환. Pillow와 dwebp는 메모리 내 읽기 전용 검증에만 사용.",
+  "preflight": {
+    "all_sha256_verified_before_conversion": true,
+    "sha256_verified_count": 10,
+    "sha256_verified_at": "2026-11-17T11:54:18.357510+00:00",
+    "all_inputs_fully_decoded_before_conversion": true,
+    "completed_at": "2026-11-17T11:54:18.472275+00:00"
+  },
+  "summary": {
+    "success_count": 10,
+    "failure_count": 0,
+    "input_bytes": 6438637,
+    "output_bytes": 1722914,
+    "all_originals_preserved": true,
+    "all_full_decodes_succeeded": true,
+    "all_aspect_ratio_rounding_checks_succeeded": true
+  },
+  "completed_at": "2026-11-17T11:54:19.699814+00:00"
+}

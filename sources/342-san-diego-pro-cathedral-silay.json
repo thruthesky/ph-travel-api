@@ -1,0 +1,607 @@
+{
+  "id": 342,
+  "slug": "san-diego-pro-cathedral-silay",
+  "checked_at": "2026-11-17T12:00:20.985426+00:00",
+  "primary_philgo_post_ids": [
+    1275712362
+  ],
+  "facts": [
+    {
+      "where": "identity,overview",
+      "fact": "도시 원문의 독립 하위 성당",
+      "value": "San Diego Pro-Cathedral, Silay",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712362",
+          "grade": "C",
+          "says": "부모 캐시 idx·subject·content의 실레이 헤리티지타운 원문에서 역사 교회·실레이 성당 하위 언급을 읽었다. 정식 San Diego 이름이 원문에 있었다고 주장하지 않는다."
+        },
+        {
+          "url": "https://bacoloddiocese.org/wp/parishes.php",
+          "grade": "A",
+          "says": "실제 HTTP200 공식 본당 목록은 Vicariate of Silay의 San Diego Parish·Zamora Street·6116 Silay 주소를 확인한다."
+        },
+        {
+          "url": "https://bacoloddiocese.org/wp/diocese.php",
+          "grade": "A",
+          "says": "실제 HTTP200 공식 교구 소개가 San Diego Pro-Cathedral in Silay를 현재 교구의pro-cathedral로 설명한다."
+        }
+      ],
+      "decision": "data.csv·data/ko·원본CSV/TSV 대조. 기존166실라이 도시는 지역 안내이며 성당 단독 항목이 아니다. 원문의 일반 실레이 성당을 실제 운영 교구 주소와 독립 자료로 구체화한다. 도시 원글 전체를 완료 처리하지 않는다. 336세부 고택·339바콜로드 대성당과 구별한다. 원문의19세기 성당·가짜 저택명·반복 해양활동·5분 도보·고정 운임은 재사용하지 않았다."
+    },
+    {
+      "where": "latitude,longitude,location",
+      "fact": "두 지도와 공식 주소 교차",
+      "value": "10.8002,122.9759",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/56198994",
+          "grade": "B",
+          "says": "Nominatim 실제 응답은 성당 건물10.8002287,122.9758600·Rizal Street·Silay의 예배시설을 반환한다."
+        },
+        {
+          "url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1sSan+Diego+Pro+Cathedral+Silay",
+          "grade": "B",
+          "says": "공개 Google 삽입지도 실제 HTML의 장소 핀은10.8003579,122.9758175다."
+        },
+        {
+          "url": "https://bacoloddiocese.org/wp/parishes.php",
+          "grade": "A",
+          "says": "Zamora Street·Silay 공식 본당 주소와 건물 위치를 교차한다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Diego_Pro-Cathedral,_Silay",
+          "grade": "C",
+          "says": "직접 본문의Geohack10.800153,122.975839를 보조로 확인한다."
+        }
+      ],
+      "decision": "OSM과 Google핀 약15m는 같은 성당 건물의 기준점 차이다. 대표점은 OSM부근 소수4자리이며 실제 열린 문·하차 지점을 보장하지 않는다. 처음 Google검색 HTML에는 장소 좌표가 없어 지도 검증으로 쓰지 않았고 삽입지도 응답으로 보완했다. Rizal/Zamora의 성당과 광장을 다른 도시 시설로 섞지 않는다."
+    },
+    {
+      "where": "overview,highlights",
+      "fact": "본당·건립·보수 시기 구별",
+      "value": "1776본당 기념·1925건립표지·2002~2005보수",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Story_of_San_Diego_de_Alcala,_Silay_Pro-Cathedral,_Negros_Occidental.jpg",
+          "grade": "A",
+          "says": "2026년 실제 본당 홍보판 원본을 직접 열어1776–2026·250주년과 San Diego de Alcala/Didacus 동일 성인 이름을 읽었다. 사진 자체는Commons작가CC BY-SA다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Silay_Pro-Cathedral_Dedication_Marker,_Negros_Occidental.jpg",
+          "grade": "A",
+          "says": "실제 현장 후원·보수 표지 원본은1925건립,Jose Ledesma와 시민 기여,Lucio Bernasconi 설계,2002시작2005완료 대보수,2005년11월13일 재축복을 기록한다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Diego_Pro-Cathedral,_Silay",
+          "grade": "C",
+          "says": "1925착공·1927완공과1776본당 기원을 설명한다."
+        },
+        {
+          "url": "https://negrosnowdaily.com/san-diego-pro-cathedral-in-silay-marks-100th-year/",
+          "grade": "B",
+          "says": "2026년1월12일 백주년 및 본당250주년 행사를 보도한다."
+        }
+      ],
+      "decision": "정확 완공연도는 표지1925·완공1927자료·2026백주년의 산술상 차이가 있어 하나로 단정하지 않았다. 원고는20세기 건물과1925건축 사업의 현장 기록을 설명한다. 250주년을 현재 건물 나이로 옮기지 않는다. 보수 표지는 국가 역사 랜드마크 지정 표지가 아니며 UNESCO·국가 유산 등급을 창작하지 않는다."
+    },
+    {
+      "where": "overview",
+      "fact": "현재 Pro-Cathedral 역할",
+      "value": "바콜로드 교구의 pro-cathedral",
+      "sources": [
+        {
+          "url": "https://bacoloddiocese.org/wp/diocese.php",
+          "grade": "A",
+          "says": "현재 공식 교구 본문은 교구 주교좌 San Sebastian Cathedral과 San Diego Pro-Cathedral in Silay 역할을 구별한다."
+        },
+        {
+          "url": "https://gcatholic.org/churches/asia/5133.htm",
+          "grade": "C",
+          "says": "교회 유형 pro-cathedral과 수호성인 Didacus·1994.12.25지정을 설명한다. 본당1982·옛 주교 정보는 공식 현행 본문과 차이가 있다."
+        },
+        {
+          "url": "https://bukaw.ph/day-trips/silay-heritage-walk",
+          "grade": "C",
+          "says": "직접 도시문화 걷기 본문은1994지정과 교구 성당 역할을 보조 설명한다."
+        }
+      ],
+      "decision": "원고는 현재 교구가 부르는 지위와 기능의 관계를 설명하며 전국 유일·두 번째·정확 승격일 같은 비교 주장은 생략한다. GCatholic의1982본당 기원과 옛 주교는 채택하지 않았다. 바콜로드 SanSebastian을 이 실라이 성당의 다른 이름으로 쓰지 않는다."
+    },
+    {
+      "where": "highlights,images",
+      "fact": "정면·돔·실내의 실제 형태",
+      "value": "원형창·아치·두 탑·큰 돔·기하 바닥",
+      "sources": [
+        {
+          "url": "https://www.theoldchurches.com/philippines/negros-occidental/silay-city/san-diego-pro-cathedral-silay/",
+          "grade": "C",
+          "says": "직접 본문은 둥근 입구,Corinthian기둥,원형창,종과 시계 탑,십자형 평면과 큰 돔을 설명한다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Diego_Pro-Cathedral,_Silay",
+          "grade": "C",
+          "says": "설계Lucio Bernasconi와 큰 돔·라틴 십자 배치를 교차한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Silay_Pro-Cathedral_Interior,_Negros_Occidental,_Sep_2026.jpg",
+          "grade": "C",
+          "says": "선정 전2026 신랑 원본을 직접 열어2014선정 바닥 사진과 기하 문양·아치·주요 고정 구조를 대조했다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral_09.JPG",
+          "grade": "C",
+          "says": "2014년10월14일 원본의 원형창·아치·기둥머리 세부를 직접 확인했다."
+        }
+      ],
+      "decision": "정밀40m높이·건축 양식의 과도한 분류·실제 은 재료·원형 모든 부분 보존을 보장하지 않는다. 2014 바닥·창은2026원본과 기능별 고정 요소를 대조했다. 의자·성상 장식·조명과 임시 현수막은 정확한 현행 배치를 보장하지 않는다. 2007스마트폰 사진의 색·노이즈도 원본 그대로 유지하며 추가 보정하지 않았다."
+    },
+    {
+      "where": "highlights,cautions",
+      "fact": "옛 교회 흔적과 부속 공간",
+      "value": "후면 돌벽·아치와 현재 돔",
+      "sources": [
+        {
+          "url": "https://www.theoldchurches.com/philippines/negros-occidental/silay-city/san-diego-pro-cathedral-silay/",
+          "grade": "C",
+          "says": "직접 본문은1841시작 옛 석조 교회가 혁명기 미완성으로 남았으며 유구와 기도 공간의 관계를 설명한다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Diego_Pro-Cathedral,_Silay",
+          "grade": "C",
+          "says": "옛 교회 유구와 돔의 갤러리·건립 단계를 교차한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral_back_with_old_church_ruins_(Zamora,_Silay,_Negros_Occidental;_10-30-2022).jpg",
+          "grade": "C",
+          "says": "직접 연2022원본은 거친 돌벽·아치·문과 현재 돔이 같은 구내에 있는 모습을 보여준다. 파일명30일과메타27일은같은연속방문으로합쳤다."
+        }
+      ],
+      "decision": "원고는 허가된 시점에서 비교하는 선택 동선으로 쓰며 유구 내부 상시 입장·무료 기도실 투어·돌벽 오르기를 보장하지 않는다. 기도 공간·부속문이 닫혔으면 정면과 광장으로 조정한다. 옛 유구를 현재 성당 전체의 건립연도로 바꾸지 않는다."
+    },
+    {
+      "where": "best_time,highlights",
+      "fact": "2026 조명과 축일의 범위",
+      "value": "새 외부 조명 보도·11월13일 수호성인 축일",
+      "sources": [
+        {
+          "url": "https://negrosnowdaily.com/san-diego-pro-cathedral-in-silay-marks-100th-year/",
+          "grade": "B",
+          "says": "2026년1월15일 본문은1월12일 새 외부 조명 점등·본당/시/전력사 협력을 설명한다."
+        },
+        {
+          "url": "https://www.theblueink.com/san-diego-pro-cathedral-illumination-marks-milestone-for-silay-city-heritage/",
+          "grade": "C",
+          "says": "1월12일 전체 본문은 점등 행사와 축복·인수의 실제 행사를 교차한다. 회사명 링크는 회사 공식 홈페이지가 아니라tag페이지여서 공식 근거로 세지 않는다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Silay_Pro-Cathedral_Dedication_Marker,_Negros_Occidental.jpg",
+          "grade": "A",
+          "says": "실제 본당 표지는11월13일 SanDiego축일을 기록한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Story_of_San_Diego_de_Alcala,_Silay_Pro-Cathedral,_Negros_Occidental.jpg",
+          "grade": "A",
+          "says": "실제 본당 안내판은 봉사·자선의 성인 전승을 설명한다."
+        }
+      ],
+      "decision": "새 조명 자체의 점등 보도와 매일 운영시간을 구별한다. 갤러리에2026 이전 야경을 현재 조명으로 넣지 않았다. 축일 날짜와 연도별 행사 시각·행렬 참가 조건을 구별한다. 빵과 장미 설화는 종교 전승으로 설명하며 역사적 기적의 실증 사실로 쓰지 않는다."
+    },
+    {
+      "where": "best_time,costs",
+      "fact": "관람·예배·현재 시간표 구별",
+      "value": "당일 예배와 실제 접근 확인",
+      "sources": [
+        {
+          "url": "https://bacoloddiocese.org/wp/diocese.php",
+          "grade": "A",
+          "says": "현재 예배 공동체와 교구내 역할을 공식 확인한다."
+        },
+        {
+          "url": "https://bacoloddiocese.org/wp/parishes.php",
+          "grade": "A",
+          "says": "공식 본당 창구와 주소가 있다. 교구 사무실 운영시간을 성당 관광시간으로 전용하지 않는다."
+        },
+        {
+          "url": "https://bukaw.ph/explore/silay",
+          "grade": "C",
+          "says": "2026년10월27일 점검 독립 안내는 운영 성당·예배 우선·현재 시간표 확인을 안내한다."
+        },
+        {
+          "url": "https://www.theoldchurches.com/philippines/negros-occidental/silay-city/san-diego-pro-cathedral-silay/",
+          "grade": "C",
+          "says": "검색 요약의11월주차와 직접 본문의4월주차가 달라현재 정밀 미사시간으로 채택하지 않았다."
+        }
+      ],
+      "decision": "본당Facebook은웹접근throttled로못읽었으며 공식현행교구HTTP본문과실제2026본당안내판·최근독립자료로보완했다. 특정 요일 미사시간·상시 무료 실내 관람·야간 개방·무료 가이드·보관 서비스를 보장하지 않는다. 헌금은 개인 선택이고 공통 관광 입장권이 아니다."
+    },
+    {
+      "where": "itinerary,getting_there,stay_and_food,nearby",
+      "fact": "실라이와 주변 목적지 구별",
+      "value": "성당 중심45~75분·실라이 산책 반나절",
+      "sources": [
+        {
+          "url": "https://bacoloddiocese.org/wp/parishes.php",
+          "grade": "A",
+          "says": "실라이 도심 ZamoraStreet를 확인한다."
+        },
+        {
+          "url": "https://bukaw.ph/explore/silay",
+          "grade": "C",
+          "says": "도심 성당·공공 광장·실라이공항·바콜로드의 별도 이동과 간식·저택 접근을 설명한다."
+        },
+        {
+          "url": "https://bukaw.ph/day-trips/silay-heritage-walk",
+          "grade": "C",
+          "says": "직접 문화 걷기 본문은 현재 성당과 광장,저택들의 실제 방문 관계를 보여준다."
+        },
+        {
+          "url": "https://ph.trip.com/travel-guide/attraction/silay-city/balay-negrense-38683398?scene=DISTRICT",
+          "grade": "C",
+          "says": "직접 본문은BalayNegrense의temporarilyclosed를 표시한다."
+        }
+      ],
+      "decision": "시간은 편집 일정이며 판매 투어 시간표가 아니다. 원문의 일괄5분도보·고정운임은 제외. 공항·바콜로드·탈리사이·숙박을 별도 계획한다. BalayNegrense는최근독립안내·직접방문기·현행목록의보존휴관을교차해실내고정코스에서제외했다. 현재 열린 저택과 점포는 각각 확인한다. 인근 카드는 실제등록silay·san-sebastian-cathedral-bacolod·the-ruins만 쓴다. 부모검토:휴관표시근거는C등급목록/방문기이며공식현행개방확인불충분.본문은확정폐쇄선언대신일부안내의휴관표시와최신개방확인전실내코스제외로조건부교정했다."
+    },
+    {
+      "where": "budget,costs",
+      "fact": "편집상 개인 배분",
+      "value": "PHP1000~2200",
+      "sources": [],
+      "decision": "바콜로드시내출발 교통500~1000+식사250~500+음료100~250+예비150~450=1000~2200. 입장권이나 본당 공식 요금표가 아니다. 공항·숙박·다른 박물관·별도 단체 해설을 제외한다."
+    }
+  ],
+  "images": [
+    {
+      "file": "342-san-diego-pro-cathedral-silay.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral.JPG",
+      "credit": "Elmer B. Domingo / CC BY-SA 3.0 / Wikimedia Commons",
+      "date": "2013-10-19",
+      "author_date_group": "Elmer B. Domingo|2013-10-19",
+      "check": "2013 전체정면·두탑과열린입구.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay.webp",
+        "result": "확보 원본18장 모두 직접 열어 비교하고 선정10원본·최종10WebP 직접 눈검수. 내용·방향·문구·구도·비율과 원래 색 유지 확인. JPEG9/PNG1 수치변환 외 크롭·색보정·내용편집·합성 없음."
+      },
+      "source_metadata": {
+        "index": 4,
+        "title": "File:San Diego Pro-Cathedral.JPG",
+        "artist": "Elmer B. Domingo",
+        "license": "CC BY-SA 3.0",
+        "date": "2013-10-19 06:00:56",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral.JPG",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/San_Diego_Pro-Cathedral.JPG/1280px-San_Diego_Pro-Cathedral.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4272,
+        "height": 2848,
+        "description": "Silay City",
+        "categories": "Taken with Canon EOS 1100D|Images with annotations|Self-published work|Facade of San Diego Pro-Cathedral (Silay)",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-4.jpg",
+        "sha256": "5470d42f21ef15762d96e4d8b8f9b8de6422e27a75b684542bf1f066bbc5bc11",
+        "id": 342,
+        "slug": "san-diego-pro-cathedral-silay",
+        "number": 1,
+        "canonical_date": "2013-10-19",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay.webp"
+      }
+    },
+    {
+      "file": "342-san-diego-pro-cathedral-silay-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral_(Zamora,_Silay,_Negros_Occidental;_10-19-2023).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2023-10-19",
+      "author_date_group": "Patrickroque01|2023-10-19",
+      "check": "2023나무그늘·벤치·시민활동과성당의도시관계.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-25.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-2.webp",
+        "result": "확보 원본18장 모두 직접 열어 비교하고 선정10원본·최종10WebP 직접 눈검수. 내용·방향·문구·구도·비율과 원래 색 유지 확인. JPEG9/PNG1 수치변환 외 크롭·색보정·내용편집·합성 없음."
+      },
+      "source_metadata": {
+        "index": 25,
+        "title": "File:San Diego Pro-Cathedral (Zamora, Silay, Negros Occidental; 10-19-2023).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "date": "2023-10-19",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral_(Zamora,_Silay,_Negros_Occidental;_10-19-2023).jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/San_Diego_Pro-Cathedral_%28Zamora%2C_Silay%2C_Negros_Occidental%3B_10-19-2023%29.jpg/1280px-San_Diego_Pro-Cathedral_%28Zamora%2C_Silay%2C_Negros_Occidental%3B_10-19-2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552,
+        "height": 2664,
+        "description": "San Diego Pro-Cathedral, Zamora, Silay City, Negros Occidental",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|Exterior of San Diego Pro-Cathedral (Silay)",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-25.jpg",
+        "sha256": "ce13158a88e3d14bb522ea4b900260c5c3d46ab1d677b590858901c9fd9041ce",
+        "id": 342,
+        "slug": "san-diego-pro-cathedral-silay",
+        "number": 2,
+        "canonical_date": "2023-10-19",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-2.webp"
+      }
+    },
+    {
+      "file": "342-san-diego-pro-cathedral-silay-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral,_Silay,_Negros_Occidental.jpg",
+      "credit": "Ninya Regalado / CC BY-SA 3.0 / Wikimedia Commons",
+      "date": "2012-09-09",
+      "author_date_group": "Ninya Regalado|2012-09-09",
+      "check": "2012비스듬한시점의측면·도로와성당.원본강한채도유지.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-1.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-3.webp",
+        "result": "확보 원본18장 모두 직접 열어 비교하고 선정10원본·최종10WebP 직접 눈검수. 내용·방향·문구·구도·비율과 원래 색 유지 확인. JPEG9/PNG1 수치변환 외 크롭·색보정·내용편집·합성 없음."
+      },
+      "source_metadata": {
+        "index": 1,
+        "title": "File:San Diego Pro-Cathedral, Silay, Negros Occidental.jpg",
+        "artist": "Ninya Regalado",
+        "license": "CC BY-SA 3.0",
+        "date": "2012-09-09",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral,_Silay,_Negros_Occidental.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/San_Diego_Pro-Cathedral%2C_Silay%2C_Negros_Occidental.jpg/1280px-San_Diego_Pro-Cathedral%2C_Silay%2C_Negros_Occidental.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3696,
+        "height": 2448,
+        "description": "This is a photo of a cultural heritage property in the Philippines with ID",
+        "categories": "Taken with Nikon D5100|Self-published work|Images from Wiki Loves Monuments 2012|Images from Wiki Loves Monuments 2012 in the Philippines|Cultural heritage monuments in the Philippines without known IDs|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC depicts|Facade of San Diego Pro-Cathedral (Silay)",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-1.jpg",
+        "sha256": "0246ea3ef87a91bbb0897682bdd2ceccd2636c11957eb627e9e9644f00e852ce",
+        "id": 342,
+        "slug": "san-diego-pro-cathedral-silay",
+        "number": 3,
+        "canonical_date": "2012-09-09",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-3.webp"
+      }
+    },
+    {
+      "file": "342-san-diego-pro-cathedral-silay-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sandiegoprocathedral.jpg",
+      "credit": "Kguirnela / CC BY-SA 3.0 / Wikimedia Commons",
+      "date": "2007-05-14",
+      "author_date_group": "Kguirnela|2007-05-14",
+      "check": "2007아래에서본두탑·시계와큰돔.원본노이즈/색조추가보정없음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-0.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-4.webp",
+        "result": "확보 원본18장 모두 직접 열어 비교하고 선정10원본·최종10WebP 직접 눈검수. 내용·방향·문구·구도·비율과 원래 색 유지 확인. JPEG9/PNG1 수치변환 외 크롭·색보정·내용편집·합성 없음."
+      },
+      "source_metadata": {
+        "index": 0,
+        "title": "File:Sandiegoprocathedral.jpg",
+        "artist": "Kguirnela",
+        "license": "CC BY-SA 3.0",
+        "date": "2007-05-14",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sandiegoprocathedral.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Sandiegoprocathedral.jpg/1280px-Sandiegoprocathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2048,
+        "height": 1536,
+        "description": "The San Diego Pro-cathedral in Silay City, Negros Occidental, Philippines.",
+        "categories": "GFDL|License migration redundant|Self-published work|Taken with Nokia N73|Facade of San Diego Pro-Cathedral (Silay)",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-0.jpg",
+        "sha256": "7af6f999221856e288d1efd396a93a64bedb432fa876971afbcef966a406b00e",
+        "id": 342,
+        "slug": "san-diego-pro-cathedral-silay",
+        "number": 4,
+        "canonical_date": "2007-05-14",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-4.webp"
+      }
+    },
+    {
+      "file": "342-san-diego-pro-cathedral-silay-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:%E3%82%B7%E3%83%A9%E3%82%A4%E5%89%AF%E5%8F%B8%E6%95%99%E5%BA%A7%E5%A4%A7%E8%81%96%E5%A0%82.png",
+      "credit": "Ruifeng77 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2025-09-11",
+      "author_date_group": "Ruifeng77|2025-09-11",
+      "check": "2025상부돔·원형창과당시깃발.행사장식현행존속보장아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-27.png",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-5.webp",
+        "result": "확보 원본18장 모두 직접 열어 비교하고 선정10원본·최종10WebP 직접 눈검수. 내용·방향·문구·구도·비율과 원래 색 유지 확인. JPEG9/PNG1 수치변환 외 크롭·색보정·내용편집·합성 없음."
+      },
+      "source_metadata": {
+        "index": 27,
+        "title": "File:シライ副司教座大聖堂.png",
+        "artist": "Ruifeng77",
+        "license": "CC BY-SA 4.0",
+        "date": "2025-09-11",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E3%82%B7%E3%83%A9%E3%82%A4%E5%89%AF%E5%8F%B8%E6%95%99%E5%BA%A7%E5%A4%A7%E8%81%96%E5%A0%82.png",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E3%82%B7%E3%83%A9%E3%82%A4%E5%89%AF%E5%8F%B8%E6%95%99%E5%BA%A7%E5%A4%A7%E8%81%96%E5%A0%82.png/1280px-%E3%82%B7%E3%83%A9%E3%82%A4%E5%89%AF%E5%8F%B8%E6%95%99%E5%BA%A7%E5%A4%A7%E8%81%96%E5%A0%82.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1344,
+        "height": 1210,
+        "description": "正面",
+        "categories": "Self-published work|Facade of San Diego Pro-Cathedral (Silay)",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-27.png",
+        "sha256": "2bc8a7ed98843de73e97f468dc5ce7bd1534558171ae1328a8cd80b9166f4de3",
+        "id": 342,
+        "slug": "san-diego-pro-cathedral-silay",
+        "number": 5,
+        "canonical_date": "2025-09-11",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-5.webp"
+      }
+    },
+    {
+      "file": "342-san-diego-pro-cathedral-silay-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral_02.JPG",
+      "credit": "ClaireMRA / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2014-07-19",
+      "author_date_group": "ClaireMRA|2014-07-19",
+      "check": "2014년7월 기하학바닥 중심의실내.2026신랑원본과고정구조대조.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-6.webp",
+        "result": "확보 원본18장 모두 직접 열어 비교하고 선정10원본·최종10WebP 직접 눈검수. 내용·방향·문구·구도·비율과 원래 색 유지 확인. JPEG9/PNG1 수치변환 외 크롭·색보정·내용편집·합성 없음."
+      },
+      "source_metadata": {
+        "index": 5,
+        "title": "File:San Diego Pro-Cathedral 02.JPG",
+        "artist": "ClaireMRA",
+        "license": "CC BY-SA 4.0",
+        "date": "2014-07-19 16:30:09",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral_02.JPG",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/San_Diego_Pro-Cathedral_02.JPG/1280px-San_Diego_Pro-Cathedral_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1288,
+        "height": 1936,
+        "description": "Elaborate flooring.",
+        "categories": "Taken with Canon EOS 1000D|Self-published work|Philippine Cultural Heritage Mapping Project content|Nave of San Diego Pro-Cathedral (Silay)",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-5.jpg",
+        "sha256": "2d6092ce37479763fdcfd67a190a7453403f2215e9b836ed3c56f4c8a6d24957",
+        "id": 342,
+        "slug": "san-diego-pro-cathedral-silay",
+        "number": 6,
+        "canonical_date": "2014-07-19",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-6.webp"
+      }
+    },
+    {
+      "file": "342-san-diego-pro-cathedral-silay-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral_09.JPG",
+      "credit": "ClaireMRA / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2014-10-14",
+      "author_date_group": "ClaireMRA|2014-10-14",
+      "check": "2014년10월 원형창·격자·아치·기둥머리세부.7월과약3개월다른방문.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-13.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-7.webp",
+        "result": "확보 원본18장 모두 직접 열어 비교하고 선정10원본·최종10WebP 직접 눈검수. 내용·방향·문구·구도·비율과 원래 색 유지 확인. JPEG9/PNG1 수치변환 외 크롭·색보정·내용편집·합성 없음."
+      },
+      "source_metadata": {
+        "index": 13,
+        "title": "File:San Diego Pro-Cathedral 09.JPG",
+        "artist": "ClaireMRA",
+        "license": "CC BY-SA 4.0",
+        "date": "2014-10-14 20:00:05",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral_09.JPG",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/San_Diego_Pro-Cathedral_09.JPG/1280px-San_Diego_Pro-Cathedral_09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3888,
+        "height": 2592,
+        "description": "The circular window above the main door.",
+        "categories": "Taken with Canon EOS 1000D|Self-published work|Rose windows in the Philippines|Philippine Cultural Heritage Mapping Project content|Details of the facade of San Diego Pro-Cathedral (Silay)",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-13.jpg",
+        "sha256": "306ce4750f1373c053b3e3755f026b0a1c32b155a35c26f43606585f88331c71",
+        "id": 342,
+        "slug": "san-diego-pro-cathedral-silay",
+        "number": 7,
+        "canonical_date": "2014-10-14",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-7.webp"
+      }
+    },
+    {
+      "file": "342-san-diego-pro-cathedral-silay-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral_back_with_old_church_ruins_(Zamora,_Silay,_Negros_Occidental;_10-30-2022).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-10-27",
+      "author_date_group": "Patrickroque01|2022-10-27",
+      "check": "2022년10월 후면옛돌벽·아치와돔.27/30일파일서식은같은여행.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-24.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-8.webp",
+        "result": "확보 원본18장 모두 직접 열어 비교하고 선정10원본·최종10WebP 직접 눈검수. 내용·방향·문구·구도·비율과 원래 색 유지 확인. JPEG9/PNG1 수치변환 외 크롭·색보정·내용편집·합성 없음."
+      },
+      "source_metadata": {
+        "index": 24,
+        "title": "File:San Diego Pro-Cathedral back with old church ruins (Zamora, Silay, Negros Occidental; 10-30-2022).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "date": "2022-10-27",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Diego_Pro-Cathedral_back_with_old_church_ruins_(Zamora,_Silay,_Negros_Occidental;_10-30-2022).jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/San_Diego_Pro-Cathedral_back_with_old_church_ruins_%28Zamora%2C_Silay%2C_Negros_Occidental%3B_10-30-2022%29.jpg/1280px-San_Diego_Pro-Cathedral_back_with_old_church_ruins_%28Zamora%2C_Silay%2C_Negros_Occidental%3B_10-30-2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552,
+        "height": 2664,
+        "description": "San Diego Pro-Cathedral, Zamora, Silay City, Negros Occidental",
+        "categories": "GFDL|License migration not eligible|Self-published work|Photographs by Patrick Roque|PD-Philippines FoP work|Dome of San Diego Pro-Cathedral (Silay)",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-24.jpg",
+        "sha256": "5bb17a7f306c5288544b94c13ec233883352808eb640e7fc6d8c4227e04e1abd",
+        "id": 342,
+        "slug": "san-diego-pro-cathedral-silay",
+        "number": 8,
+        "canonical_date": "2022-10-27",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-8.webp"
+      }
+    },
+    {
+      "file": "342-san-diego-pro-cathedral-silay-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Silay_Pro-Cathedral_Dedication_Marker,_Negros_Occidental.jpg",
+      "credit": "Ralff Nestor Nacor / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-09-11",
+      "author_date_group": "Ralff Nestor Nacor|2026-09-11",
+      "check": "2026촬영 본당후원/보수표지.1925·2002~2005·11월13일재축복전문직접확인.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-29.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-9.webp",
+        "result": "확보 원본18장 모두 직접 열어 비교하고 선정10원본·최종10WebP 직접 눈검수. 내용·방향·문구·구도·비율과 원래 색 유지 확인. JPEG9/PNG1 수치변환 외 크롭·색보정·내용편집·합성 없음."
+      },
+      "source_metadata": {
+        "index": 29,
+        "title": "File:Silay Pro-Cathedral Dedication Marker, Negros Occidental.jpg",
+        "artist": "Ralff Nestor Nacor",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 11 September 2026, 22:49:56 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Silay_Pro-Cathedral_Dedication_Marker,_Negros_Occidental.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Silay_Pro-Cathedral_Dedication_Marker%2C_Negros_Occidental.jpg/1280px-Silay_Pro-Cathedral_Dedication_Marker%2C_Negros_Occidental.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2340,
+        "height": 2731,
+        "description": "Silay Pro-Cathedral Dedication Marker, Negros Occidental",
+        "categories": "Vicente Navarra|San Diego Pro-Cathedral (Silay)|Self-published work|Files with coordinates missing SDC location of creation|English-language plaques in the Philippines|Photographs by User:Ralffralff|Metal plaques in the Philippines|Philippine Panorama Project/Historical Markers|Philippines photographs taken on 2026-09-11|Plaques to churches in the Philippines|Philippine Panorama Project/Silay, Negros Occidental",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-29.jpg",
+        "sha256": "f5019f10035cf66d3bc39d55646c7b9b5e4cbd14da5f0734b6fd024beb3352f5",
+        "id": 342,
+        "slug": "san-diego-pro-cathedral-silay",
+        "number": 9,
+        "canonical_date": "2026-09-11",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-9.webp"
+      }
+    },
+    {
+      "file": "342-san-diego-pro-cathedral-silay-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Diego_Silay_Parish.jpg",
+      "credit": "Klienneeco / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-10-24",
+      "author_date_group": "Klienneeco|2022-10-24",
+      "check": "2022색우산·문자장식과자전거/도시움직임.정확한오늘장식보장아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-26.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-10.webp",
+        "result": "확보 원본18장 모두 직접 열어 비교하고 선정10원본·최종10WebP 직접 눈검수. 내용·방향·문구·구도·비율과 원래 색 유지 확인. JPEG9/PNG1 수치변환 외 크롭·색보정·내용편집·합성 없음."
+      },
+      "source_metadata": {
+        "index": 26,
+        "title": "File:San Diego Silay Parish.jpg",
+        "artist": "Klienneeco",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 24 October 2022, 13:15:38 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Diego_Silay_Parish.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/San_Diego_Silay_Parish.jpg/1280px-San_Diego_Silay_Parish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5610,
+        "height": 3740,
+        "description": "San Diego Pro-cathedral, formerly known as San Diego Parish Church or St. Didacus Parish Church before its declaration as a pro-cathedral in 1994, is an early 20th-century Roman Catholic church in Silay City, Negros Occidental in the Philippines. It is under the jurisdiction of the Diocese of Bacolod.",
+        "categories": "Self-published work|Images from Wiki Loves Monuments 2024|Uploaded via Campaign:wlm-ph|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Philippines photographs taken on 2022-10-24|Images from Wiki Loves Monuments 2024 in the Philippines|Exterior of San Diego Pro-Cathedral (Silay)",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/candidate-silay-church-26.jpg",
+        "sha256": "a841a096a6a58f2c6bb3bf737a6529de041c6dd43e12d223e463cf553717b06a",
+        "id": 342,
+        "slug": "san-diego-pro-cathedral-silay",
+        "number": 10,
+        "canonical_date": "2022-10-24",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets342/342-san-diego-pro-cathedral-silay-10.webp"
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_authors": 8,
+    "unique_author_date_groups": 10,
+    "independent_travel_groups": 10,
+    "groups_note": "Claire2014년7월/10월은약3개월,Patrick2022/2023은약1년다른방문. Nacor2026년9월11/12와Patrick2022년10월27/30은각각한연속여행으로합쳤다. 다른작가의같은행사동행명시는선정사진에서없음.",
+    "conversion": "CodexCLI1회·JPEG9/PNG1 가로1080px·q80·비율유지WebP. 크롭·회전·추가색보정·내용편집·합성·생성모델없음.",
+    "prompt": "work/parallel-1992/visayas/342-san-diego-pro-cathedral-silay-prompt.txt",
+    "report": "work/parallel-1992/visayas/342-conversion-report.json",
+    "images_check_mode": "공유Commons냉각보호를위해같은날확보한실제API원본메타캐시를네트워크차단fetch어댑터로재사용해표준content.mjs images검사실행. 새로운Commons요청0."
+  },
+  "archives": {
+    "philgo": [
+      "_i18n/work/expansion-1973/posts/1275712362.json"
+    ],
+    "research_directory": "_i18n/work/parallel-1992/visayas/research342",
+    "candidate_audit": "_i18n/work/parallel-1992/visayas/342-candidate-audit.json",
+    "research_notes": "work/parallel-1992/visayas/342-research-notes.json",
+    "cache_adapter": "_i18n/work/parallel-1992/visayas/342-commons-cache-fetch.mjs",
+    "archive_warning": "교구웹도구403은새HTTP200전체본문으로보완. 실라이옛공식기사404·Facebookthrottled는읽은출처로세지않음. Google검색앱HTML은좌표가없어삽입지도실제응답으로보완."
+  }
+}

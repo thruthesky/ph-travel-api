@@ -1,0 +1,78 @@
+{
+  "id": 342,
+  "status": "후보 조사·사진 확보 중, 미등록·미완료",
+  "candidate": "San Diego Pro-Cathedral, Silay",
+  "primary_philgo_post_ids": [
+    1275712362
+  ],
+  "source_scope": "실레이 헤리티지타운 원문의 역사 교회·실레이 성당 하위시설을 공식 교구의 Silay SanDiego주소와 독립 현행 출처로 구체화. 원글에 SanDiego 전체이름이 직접있다고 주장하지않으며 도시원글전체완료아님.",
+  "duplicate_check": "기존166실라이 도시는별도.336YapSandiego고택·339바콜로드성당과동명이시설아님.원본CSV/TSV 및data.csv/data/ko대조.",
+  "holds": [
+    {
+      "candidate": "Balay Negrense",
+      "registered": false,
+      "reason": "2026현행목록에서2023부터보존휴관·5년사업·재개일미확정.공식보수시점추가확인전실내사진/방문보장금지.이번342후보에서보류."
+    },
+    {
+      "candidate": "Santa Barbara Church Iloilo",
+      "registered": false,
+      "reason": "메타검색은14표기이나촬영일서식중복정규화와2015보수전사진을제하면독립10여행·다양한현행구도확정전.원본명소연결근거도추가확인필요.이번후보에서보류."
+    }
+  ],
+  "usage_so_far": {
+    "commons_requests": 6,
+    "web_search_queries": 8,
+    "web_open": 11,
+    "web_click": 3,
+    "http_requests": 9,
+    "philgo_api": 0,
+    "philgo_cache_read_operations": 1505,
+    "official_archive_reuse": 2,
+    "http_success": 8,
+    "http_failed": 1,
+    "nominatim": 1,
+    "http_meaningful_body_success": 7,
+    "google_bootstrap_no_entity": 1
+  },
+  "facts": [
+    "2026년1월12일 새외부조명점등·100주년/본당250주년을 독립두본문에서확인.완성1927위키와기념1926계산이달라헌당표지원본추가확인예정.",
+    "교구parishes직접open403은기존339에서보존한공식본문으로보완.실라이 SanDiego Parish ZamoraStreet6116주소확인.",
+    "현재일반미사안내는디렉토리업데이트일/현재주차가엇갈리므로정밀미사시간과무료상시실내보장금지.",
+    "사진Nacor9월11/12는같은여행. Patrick10월27/30도같은여행,2023년10월은다른해분리. Claire2014년7월/10월은3개월다른방문으로검토.",
+    "2026원본후원/보수표지:1925건립·2002~2005대보수·2005년11월13일축복. 현장후원표지는 국가역사랜드마크지정표지가아님.",
+    "2026실제본당홍보판에1776–2026과250주년표기,SanDiegodeAlcala/Didacus동일성인확인. 기적설화는신앙전승으로만설명가능.",
+    "공식교구현재diocese본문에서SanDiegoProCathedral을교구procathedral로확인. 교구성당SanSebastian과구분."
+  ],
+  "created_at": "2026-11-17T11:38:57.261279+00:00",
+  "source_notes": [
+    "공식교구diocese/parishes HTTP새본문모두200. 웹도구둘403은HTTP로보완. 현재SanDiegoProCathedral역할과ZamoraStreet주소확인.",
+    "2026원본헌당표지는1925건립·2002시작2005완료대보수·2005년11월13일재축복문구. 2026백주년보도와1927완공자료차이가있어정밀완공연도는확정하지않음.",
+    "Nacor이미지30은야간이아닌낮정면. UTC/GPS·카메라날짜표시가다를가능성으로촬영11/12일모두한여행. 야경사진이라고소개하지않음.",
+    "Oldchurches검색스니펫주차Nov9~15와직접본문April6~12가달라정밀현재미사시간근거로채택안함.",
+    "현행GCatholic본문Bishop구정보·본당1982가공식교구및1776기념표지와달라지도/명칭보조만사용.",
+    "실라이옛공식콘텐츠URL404. Facebook웹접근throttled. BlueInk외부회사로보인36링크는실제tagarchive여서회사공식확인으로세지않음."
+  ],
+  "resumed": "사용자가전체최소1973개추가목표를재활성화하여342검토재개.완성본scratch인계유지.",
+  "retry_after_timing_correction": {
+    "failure_record_utc": "2026-11-17T11:42:40.284578+00:00",
+    "next_request_start_utc": "2026-11-17T11:44:28.252724+00:00",
+    "elapsed_seconds": 107.968146,
+    "required_seconds": 120,
+    "early_seconds": 12.031854,
+    "result": "미시도 정상후보1장 HTTP200 성공. 부모에게 즉시 계산오차를 보고했고 이후 요청시 실제시각차를 검사한다. 같은 실패URL반복/호스트우회 없음."
+  },
+  "maps": {
+    "osm_way": 56198994,
+    "osm": [
+      10.8002287,
+      122.97586
+    ],
+    "google_embed": [
+      10.8003579,
+      122.9758175
+    ],
+    "google_embed_url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1sSan+Diego+Pro+Cathedral+Silay",
+    "decision": "두핀약15m차이의같은성당. 지도검색앱부트스트랩HTTP는장소좌표가없어핀검증으로사용하지않고삽입지도실제HTML로보완."
+  },
+  "image_check_note": "같은날확보한실제Commons원본API메타캐시를외부네트워크차단어댑터로재사용해표준content.mjs images검사실행. 추가Commons요청0."
+}

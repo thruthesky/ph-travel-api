@@ -1,0 +1,42 @@
+{
+  "id": 362,
+  "slug": "obando-fertility-rites",
+  "status": "scratch완성·부모인수후i18nCLI및전체빌드검증필요",
+  "ready": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/362-ready",
+  "ko_chars": 5539,
+  "sections": 10,
+  "highlights": 6,
+  "translation_lines": 68,
+  "images": 10,
+  "artist_date_groups": 10,
+  "independent_trip_groups": 10,
+  "original_post_ids": [
+    "1275713687"
+  ],
+  "original_mapping": "원본오반도축제하나에대응·성인별쪼개지않음",
+  "calls": {
+    "web": 10,
+    "commons_api": 10,
+    "commons_api_success": 9,
+    "commons_http429": 1,
+    "photo_download_success": 23,
+    "direct_http403": 1,
+    "cached_original_post": 1,
+    "codex_cli_image_conversion": 1
+  },
+  "verification": [
+    "ko/en추출68경로동일",
+    "영어applyMeta일치·한글잔존없음",
+    "10섹션·6정수카드·메타키유효",
+    "최종10장/원본10장직접눈검수",
+    "CLI q80webp1080·원본불변SHA·최종SHA/디코딩검증",
+    "data/전역/sources직접복사안함"
+  ],
+  "pending": [
+    "부모data인수후node scripts/i18n.mjs export 362 /check en 362 /import en 362",
+    "부모다른6언어fallback·전체빌드·contentcheck"
+  ],
+  "photo_prompt": "/tmp/ph-travel-mindanao-362/prompt.txt",
+  "image_processing": "CodexCLI가정해진수치의리사이즈/포맷변환만수행.생성/다시그림없음",
+  "source_notes": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/362-research-notes.json"
+}
