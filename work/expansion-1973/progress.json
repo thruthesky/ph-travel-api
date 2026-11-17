@@ -5,7 +5,7 @@
   "baseline_registered": 295,
   "required_new_minimum": 1973,
   "required_total_minimum": 2268,
-  "current_verified_registered": 316,
+  "current_verified_registered": 321,
   "new_verified_ids": [
     315,
     316,
@@ -14,6 +14,7 @@
     319,
     320,
     321,
+    322,
     332,
     333,
     334,
@@ -21,16 +22,20 @@
     336,
     337,
     338,
+    339,
     352,
     353,
     354,
     355,
     356,
+    358,
+    359,
     373,
-    374
+    374,
+    375
   ],
-  "new_verified_count": 21,
-  "remaining_new_minimum": 1952,
+  "new_verified_count": 26,
+  "remaining_new_minimum": 1947,
   "complete": false,
   "goal_status": "active",
   "requirements": [
@@ -84,14 +89,14 @@
     "manual_failure_verification_requests": 2,
     "summary": "work/expansion-1973/source-fetch-summary.json"
   },
-  "updated_at": "2026-11-17T10:34:14.571Z",
-  "build_version": "8c49d1edab56",
-  "data_version": "2026-11-17T10:33:59Z",
+  "updated_at": "2026-11-17T10:55:47.565Z",
+  "build_version": "2b5bdeddb824",
+  "data_version": "2026-11-17T10:55:33Z",
   "worker_next": {
-    "luzon_batch": "322링가옌·323칸돈 후보조사",
-    "ormoc_finish": "339바콜로드산세바스티안대성당·340주청사/라군 후보조사",
-    "mindanao_batch": "357다구판연속여행사진발견철회·교체대기·358발리왁/산페르난도검토",
-    "root": "375말라본상세한영원고작성·원본429대기·376발렌수엘라근거조사"
+    "luzon_batch": "323풀리란·324부스토스후보조사",
+    "ormoc_finish": "340주청사/라군후보검증",
+    "mindanao_batch": "360피나글라바난단지·두박물관한항목후보검증",
+    "root": "376발렌수엘라공식본문·두지도·사진14후보확보CLI진행"
   },
   "browser_handoff": {
     "space_id": 13,
@@ -99,8 +104,8 @@
     "reason": "조사중웹사이트의알림권한프롬프트",
     "instruction": "사용자확인전ego브라우저공간13조작/탈취/새공간우회금지.현재373근거는이미읽은자료로완성."
   },
-  "commons_download_cooldown": "10:27UTC루트첫원본요청429재발.333품질수정용1장만10:30이후담당자가정상URL로요청예정.민다나오담당의다른정상원본URL은10:27성공하여공유호스트전부장애로단정안함.즉시반복/호스트우회없음.",
-  "current_registered": 316,
+  "commons_download_cooldown": "정상API제공게시해상도일부다운로드성공.파일별429시즉시중단/RetryAfter이상대기·다른정상후보순차확보·실패URL반복/호스트우회없음.루트375는CodexCLI가공식thumburl16장확보완료.",
+  "current_registered": 321,
   "quality_repairs": [
     {
       "id": 333,
@@ -110,5 +115,13 @@
       "independent_travel_groups": 10,
       "unique_canonical_authors": 2
     }
-  ]
+  ],
+  "worker_additional_ranges": {
+    "luzon_batch": [
+      [
+        387,
+        406
+      ]
+    ]
+  }
 }

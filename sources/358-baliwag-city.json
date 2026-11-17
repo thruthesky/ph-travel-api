@@ -1,0 +1,622 @@
+{
+  "id": 358,
+  "slug": "baliwag-city",
+  "checked_at": "2026-11-17",
+  "facts": [
+    {
+      "where": "overview",
+      "fact": "도시 범위와 중복",
+      "value": "발리왁 포블라시온·티바그의 독립 도시 문화 안내",
+      "sources": [
+        {
+          "url": "https://www.baliwag.gov.ph/about/tourism",
+          "grade": "A",
+          "says": "시청 실제 본문 관광 플랫폼·지역 문화와 음식"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Baliwag",
+          "grade": "C",
+          "says": "실제 본문 도시 중심가·두 박물관 별도 주소"
+        }
+      ],
+      "decision": "data.csv/data/ko 전체 대조. 123·253은 말롤로스와 버스 경유,124·146은 버스회사·통과 언급. 발리왁 독립 도시 항목 없음. 두 입력 목록에서 직접 도시 행 연결 미발견; 원본 본행 완료로 처리하지 않음."
+    },
+    {
+      "where": "latitude/longitude",
+      "fact": "지도2서비스 같은 성당",
+      "value": "14.95546,120.90046",
+      "sources": [
+        {
+          "url": "https://mapcarta.com/W162815972",
+          "grade": "B",
+          "says": "실제 본문 OSM way162815972·14.95546,120.90046·BS Aquino Avenue"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q7587193",
+          "grade": "C",
+          "says": "실제 본문 좌표14°57′19.8″N120°54′1.4″E"
+        }
+      ],
+      "decision": "같은 성당 약9m 차이. Mapcarta는 OSM·Wikidata 원천을 공유하므로 독립 측량값이라 주장하지 않음. Wikidata 설립1801은 NHCP1769와 맞지 않아 연대 근거로 배제."
+    },
+    {
+      "where": "highlights",
+      "fact": "성당 건축·연혁",
+      "value": "1733본당·1769현석조건물",
+      "sources": [
+        {
+          "url": "https://nhcphistoricsites.blogspot.com/2023/09/simbahan-ng-baliwag.html",
+          "grade": "A",
+          "says": "실제 NHCP 표지 전문·본당1733·석조건물1769·개보수 기록"
+        },
+        {
+          "url": "https://bulacan.gov.ph/tourism/heritage-sites/",
+          "grade": "A",
+          "says": "실제 본문 Baliuag San Agustin1769~1774건축"
+        },
+        {
+          "url": "https://www.philstar.com/nation/2025/03/30/2432120/2-philippines-churches-get-spiritual-bond-italian-basilicas",
+          "grade": "B",
+          "says": "실제2025기사Baliwag교구순례성지와Pavia성당spiritualbond"
+        }
+      ],
+      "decision": "본당과 현건물 연대 구분. 2025영적결연을소성전승격으로오역하지 않음. 2026ICP검색결과는원문paywall로 법정등급단정미기재."
+    },
+    {
+      "where": "highlights",
+      "fact": "2023역사표지",
+      "value": "NHCP LevelII Historical marker",
+      "sources": [
+        {
+          "url": "https://nhcphistoricsites.blogspot.com/2023/09/simbahan-ng-baliwag.html",
+          "grade": "A",
+          "says": "실제 본문2023-08-28표지설치·지방선거1899-05-06"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Simbahan_ng_Baliwag_Bulakan_(Province;_2023-08-29)_E911a_04.jpg",
+          "grade": "B",
+          "says": "E911a2023-08-29표지원본과최종실사진전문눈검수"
+        },
+        {
+          "url": "https://www.baliwag.gov.ph/about/history",
+          "grade": "A",
+          "says": "시청 실제 본문 선거1899-05-07로상충"
+        }
+      ],
+      "decision": "성당표지실재확인. 시청선거날짜상충으로본문연도1899만기재. 표지와NationalHistoricalLandmark등급동일시금지. 댓글의광고링크는기관본문과무관해배제."
+    },
+    {
+      "where": "highlights",
+      "fact": "시계탑·도시 중심가",
+      "value": "공공보도에서외관관찰",
+      "sources": [
+        {
+          "url": "https://en.wikivoyage.org/wiki/Baliwag",
+          "grade": "C",
+          "says": "실제 본문DrGonzalesStreet/SenatorNinoyAquinoAvenue시계탑"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Baliuag_Clock_Tower.JPG",
+          "grade": "B",
+          "says": "Elmer2012시계탑실사진·탑이름과거리풍경직접눈검수"
+        }
+      ],
+      "decision": "구조물실재와도심관계확인. 유일·최초기록·특정개장연대·현재야간조명·탑내부개방은단정하지 않음. 2012야간자료사진임을한영명시."
+    },
+    {
+      "where": "overview/highlights",
+      "fact": "두박물관구분·폰세실재",
+      "value": "NHCP Museo ni Mariano Ponce, Tibag",
+      "sources": [
+        {
+          "url": "https://memory.nhcp.gov.ph/a-v-material/museo-ni-mariano-ponce-nhcp-museum-virtual-tour/",
+          "grade": "A",
+          "says": "실제 본문 NHCP 박물관·공식가상관람과방문일정공식FB문의안내"
+        },
+        {
+          "url": "https://themarynette.com/2026/09/12/icymi-hs-ignacian-marians-visit-museo-ni-mariano-ponce-during-local-lakbay-aral/",
+          "grade": "B",
+          "says": "2026-09-12학교기사실제80~86행:9월관람·2층박물관·생애와스페인/일본활동전시"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Baliwag",
+          "grade": "C",
+          "says": "실제 본문별도Tibag주소·시립박물관과다른목록"
+        }
+      ],
+      "decision": "학교관람은최근작동증거이나모든날무예약일반공개증거는아님. 고정요일·시간·무료조건은최신운영기관본문확인미달로확정기재안함. 공식방문문의경로안내."
+    },
+    {
+      "where": "highlights/cautions",
+      "fact": "폰세박물관촬영",
+      "value": "최신현장규칙우선",
+      "sources": [
+        {
+          "url": "https://themarynette.com/2026/09/12/icymi-hs-ignacian-marians-visit-museo-ni-mariano-ponce-during-local-lakbay-aral/",
+          "grade": "B",
+          "says": "실제 본문 학교관람의플래시·동영상금지orientation"
+        },
+        {
+          "url": "https://memory.nhcp.gov.ph/a-v-material/museo-ni-mariano-ponce-nhcp-museum-virtual-tour/",
+          "grade": "A",
+          "says": "공식방문문의경로"
+        }
+      ],
+      "decision": "특정방문촬영규칙을미래영구규정으로단정하지않고직원지침우선. 문서·사진·생애전시를요약하고모든전시물이진품유물이라고확대안함."
+    },
+    {
+      "where": "highlights",
+      "fact": "옛청사와시립박물관",
+      "value": "Gonzalez집이후옛municipio",
+      "sources": [
+        {
+          "url": "https://www.baliwag.gov.ph/about/history",
+          "grade": "A",
+          "says": "실제152행1907화재뒤Gonzalez집임대·1915구입·옛청사"
+        },
+        {
+          "url": "https://baliwaglibrary.wixsite.com/info/about",
+          "grade": "A",
+          "says": "운영자실제본문1971도서관설립·옛청사·2017업무분리"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:09610jfBaliuag_Museum_and_Library_Bulacan_Exhibitfvf_01.jpg",
+          "grade": "B",
+          "says": "2016옛시립박물관외벽과창장식눈검수"
+        }
+      ],
+      "decision": "시청공식역사우선. Yoyongko첫청사와Gonzalez옛청사혼동배제. 별도후기행정청사사진9를옛박물관사진이라고설명하지않음."
+    },
+    {
+      "where": "overview/itinerary",
+      "fact": "옛Museo ng Baliwag 현재실내",
+      "value": "2026개보수휴관뒤재개관확인필요",
+      "sources": [
+        {
+          "url": "https://en.wikivoyage.org/wiki/Baliwag",
+          "grade": "C",
+          "says": "실제162행2026Augupdated개보수휴관명시"
+        },
+        {
+          "url": "https://www.google.com/maps/search/Baliuag%20Museum%20%26%20Library-%28Old%20Municipal%20Building%29%2C%20Poblacion%2C%20Baliwag%2C%20Bulacan%2C%20Central%20Luzon%2C%20Philippines",
+          "grade": "C",
+          "says": "검색표시temporarilyclosed;실시간현장확정아님"
+        },
+        {
+          "url": "https://www.baliwag.gov.ph/?r=1119227660130",
+          "grade": "A",
+          "says": "검색캐시에10월28일재개관목표문장;직접본문에서는해당문구미확인하여search-only"
+        }
+      ],
+      "decision": "재개관실행보도는미확인. 휴관을영구폐쇄로단정하지않으며현재실내를필수일정에서뺌. 공공공간외관관찰과닫힌문/공사구역진입금지안내."
+    },
+    {
+      "where": "highlights/tips",
+      "fact": "분탈모자공예",
+      "value": "Virgen delas Flores지역제작기반",
+      "sources": [
+        {
+          "url": "https://museongbaliwag.wixsite.com/culturalproperties/post/buntal-hat-weaving",
+          "grade": "A",
+          "says": "시립박물관문화매핑실제본문34~47행섬유연화·close/sawaliweave·마을공예"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Baliwag",
+          "grade": "C",
+          "says": "실제본문175행buntal모자섬유공예"
+        }
+      ],
+      "decision": "시립문화매핑기관운영표방·제작기법직접자료. 정기공방투어·상설시연·매년축제날짜미확정. 제작자예약있을때만시연권장. 사진의Google저작물은다운로드/수록하지않음."
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "비빙카지역먹거리",
+      "value": "시청소개Baliwag Bibingka",
+      "sources": [
+        {
+          "url": "https://www.baliwag.gov.ph/about/tourism",
+          "grade": "A",
+          "says": "실제123~124행점토화로·바나나잎·연말판매풍경"
+        },
+        {
+          "url": "https://baliwagtourism.wixsite.com/info/home",
+          "grade": "A",
+          "says": "시청관광본문에서공식플랫폼으로직접연결"
+        }
+      ],
+      "decision": "지역음식기관소개만근거로상설특정점포영업보장안함. 전국체인이름을지역전통제조방식과동일시안함. 매장·가격·알레르기성분은현장확인."
+    },
+    {
+      "where": "getting_there",
+      "fact": "대중교통",
+      "value": "발리왁행목적지·하차확인",
+      "sources": [
+        {
+          "url": "https://baliwag.ph/",
+          "grade": "A",
+          "says": "운송사현재페이지11월2026배너·예약과터미널섹션·당일일정확인경로"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Baliwag",
+          "grade": "C",
+          "says": "실제본문144~157행Baliwag행중심가진입과우회도로통과구분·트라이시클"
+        }
+      ],
+      "decision": "운송사이름만으로모든노선발리왁행단정안함. 현재동적일정표본문미추출로고정운임·막차·공항직행·확정소요시간미기재. 귀환확인과차량요금합의조언."
+    },
+    {
+      "where": "best_time/costs",
+      "fact": "축제·예산성격",
+      "value": "연간공지·편집자제안",
+      "sources": [
+        {
+          "url": "https://nhcphistoricsites.blogspot.com/2023/09/simbahan-ng-baliwag.html",
+          "grade": "A",
+          "says": "실제성주간대규모행렬전통"
+        },
+        {
+          "url": "https://museongbaliwag.wixsite.com/culturalproperties/post/buntal-hat-weaving",
+          "grade": "A",
+          "says": "2022문화매핑5월분탈축제전통기록"
+        }
+      ],
+      "decision": "연도별프로그램·행렬수·2026시연일확정값복사안함. 예산800~1800은개인준비금편집제안이며요금표아님;각분배항목과장거리/숙박/공예품별도안내."
+    }
+  ],
+  "images": [
+    {
+      "candidate": 1,
+      "query": "l:heritage",
+      "idx": 36,
+      "title": "File:Baliwag Church, Bulacan, Nov 2025 (1).jpg",
+      "artist": "Ralff Nestor Nacor",
+      "date": "2025-11-15 08:02:35",
+      "desc": "Baliwag Church, Bulacan, Nov 2025 (1)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Baliwag_Church,_Bulacan,_Nov_2025_(1).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Baliwag_Church%2C_Bulacan%2C_Nov_2025_%281%29.jpg/1280px-Baliwag_Church%2C_Bulacan%2C_Nov_2025_%281%29.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-01.jpg",
+      "license": "CC BY-SA 4.0",
+      "original_width": 4080,
+      "original_height": 3072,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Baliwag_Church%2C_Bulacan%2C_Nov_2025_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "id": 358,
+      "slug": "baliwag-city",
+      "index": 1,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-01.jpg",
+      "output": "/tmp/ph-travel-mindanao-358/output/358-baliwag-city-01.webp",
+      "sha256": "32684665d351921001786b579454ddc3241857a6bd1bae946e35b4aeb47f8e94",
+      "normalized_artist": "Ralff Nestor Nacor",
+      "independent_trip_group": "Ralff Nestor Nacor / 2025-11",
+      "url": "images/358-baliwag-city-01.webp",
+      "output_sha256": "774138bdfdab4b1ed6fe9287e17279a4ca32d6e1ee1cea22302abc833b7f365b",
+      "output_width": 1080,
+      "output_height": 813,
+      "capture_date_normalized": "2025-11-15",
+      "artist_group": "Ralff Nestor Nacor",
+      "original_visual_review": "원본 직접 열람·내용 확인, 풍경·건축 중심, 얼굴 근접 사진 제외",
+      "final_visual_review": "최종10장 직접 눈검수·비율과 내용 유지",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "candidate": 4,
+      "query": "2",
+      "idx": 0,
+      "title": "File:Mariano Ponce Museum, Baliwag, Bulacan, Mar 2024 (1).jpg",
+      "artist": "Ralff Nestor Nacor",
+      "date": "2024-03-10 13:01:28",
+      "desc": "Mariano Ponce Museum, Baliwag, Bulacan, Mar 2024 (1)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mariano_Ponce_Museum,_Baliwag,_Bulacan,_Mar_2024_(1).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Mariano_Ponce_Museum%2C_Baliwag%2C_Bulacan%2C_Mar_2024_%281%29.jpg/1280px-Mariano_Ponce_Museum%2C_Baliwag%2C_Bulacan%2C_Mar_2024_%281%29.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-04.jpg",
+      "license": "CC BY-SA 4.0",
+      "original_width": 4080,
+      "original_height": 3072,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Mariano_Ponce_Museum%2C_Baliwag%2C_Bulacan%2C_Mar_2024_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "id": 358,
+      "slug": "baliwag-city",
+      "index": 2,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-04.jpg",
+      "output": "/tmp/ph-travel-mindanao-358/output/358-baliwag-city-02.webp",
+      "sha256": "b091a9951af842dfc7c29b0da97ee7b8cf177d610efb2489e63225b887735f02",
+      "normalized_artist": "Ralff Nestor Nacor",
+      "independent_trip_group": "Ralff Nestor Nacor / 2024-03",
+      "url": "images/358-baliwag-city-02.webp",
+      "output_sha256": "6e85af4b40d67242432475e394b6edaeef724f3e6f293ee17ffc06378d78040a",
+      "output_width": 1080,
+      "output_height": 813,
+      "capture_date_normalized": "2024-03-10",
+      "artist_group": "Ralff Nestor Nacor",
+      "original_visual_review": "원본 직접 열람·내용 확인, 풍경·건축 중심, 얼굴 근접 사진 제외",
+      "final_visual_review": "최종10장 직접 눈검수·비율과 내용 유지",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "candidate": 3,
+      "query": "3",
+      "idx": 46,
+      "title": "File:Baliuag Clock Tower.JPG",
+      "artist": "Elmer B. Domingo",
+      "date": "2012-01-25 19:18:34",
+      "desc": "A famous landmark in the town of Baliuag, Bulacan",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Baliuag_Clock_Tower.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Baliuag_Clock_Tower.JPG/1280px-Baliuag_Clock_Tower.JPG",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-03.jpg",
+      "license": "CC BY-SA 3.0",
+      "original_width": 2848,
+      "original_height": 4272,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Baliuag_Clock_Tower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "id": 358,
+      "slug": "baliwag-city",
+      "index": 3,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-03.jpg",
+      "output": "/tmp/ph-travel-mindanao-358/output/358-baliwag-city-03.webp",
+      "sha256": "229152e9a010d6bf27719d423df0e4aaccfbf3a05f91880d547094314f9227d4",
+      "normalized_artist": "Elmer B. Domingo",
+      "independent_trip_group": "Elmer B. Domingo / 2012-01",
+      "url": "images/358-baliwag-city-03.webp",
+      "output_sha256": "d9449371f8af4571f187a817f303df00d9cf7f9c9657f1fdfa2b2f2aaa8ab893",
+      "output_width": 1080,
+      "output_height": 1620,
+      "capture_date_normalized": "2012-01-25",
+      "artist_group": "Elmer B. Domingo",
+      "original_visual_review": "원본 직접 열람·내용 확인, 풍경·건축 중심, 얼굴 근접 사진 제외",
+      "final_visual_review": "최종10장 직접 눈검수·비율과 내용 유지",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "candidate": 11,
+      "query": "11",
+      "idx": 20,
+      "title": "File:09610jfBaliuag Museum and Library Bulacan Exhibitfvf 01.jpg",
+      "artist": "Judgefloro",
+      "date": "2016-06-03 15:55:47",
+      "desc": "The Facade, Exterior is recently restored,  renovated Baliuag Museum and Library or Museo ng Baliuag (Sentro ng Kalinangan at Kasaysayan ng Baliuag, formerly known as \"Lumang Municipio\" or Old Municipal Building) in Poblacion, Baliuag, Bulacan, province; on August 28, 2915, the  National Museum of the Philippines by its Historical Marker for the Old Municipio of Baliuag, Bulacan, has Officially Declared it as Important Cultural Property Important Cultural Properties of the Philippines, under Sec. 5 of R.A. No. 10066, National Cultural Heritage Act of 2009, Lists of Cultural Properties of the Philippines, List of historical markers of the Philippines in Central Luzon in Bulacan; Tahanan ng Kasaysayan at Kalinangan ng Baliwag under Kapasiyahan Blg. 40. 2015 Sangguniang Bayan, Tourism BulacanLandmark).",
+      "source_url": "https://commons.wikimedia.org/wiki/File:09610jfBaliuag_Museum_and_Library_Bulacan_Exhibitfvf_01.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/09610jfBaliuag_Museum_and_Library_Bulacan_Exhibitfvf_01.jpg/1280px-09610jfBaliuag_Museum_and_Library_Bulacan_Exhibitfvf_01.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-11.jpg",
+      "license": "Public domain",
+      "original_width": 4608,
+      "original_height": 3456,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/09610jfBaliuag_Museum_and_Library_Bulacan_Exhibitfvf_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "id": 358,
+      "slug": "baliwag-city",
+      "index": 4,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-11.jpg",
+      "output": "/tmp/ph-travel-mindanao-358/output/358-baliwag-city-04.webp",
+      "sha256": "609f8e7e0928f2459687b92af4932098f8c17c803c6afc669f318bb86982389c",
+      "normalized_artist": "Floro 작가군",
+      "independent_trip_group": "Floro 작가군 / 2016-06",
+      "url": "images/358-baliwag-city-04.webp",
+      "output_sha256": "3937c9d72453de6e047088c05ccd163bc71c1b169ac09d48eae566716975705f",
+      "output_width": 1080,
+      "output_height": 810,
+      "capture_date_normalized": "2016-06-03",
+      "artist_group": "Floro 작가군",
+      "original_visual_review": "원본 직접 열람·내용 확인, 풍경·건축 중심, 얼굴 근접 사진 제외",
+      "final_visual_review": "최종10장 직접 눈검수·비율과 내용 유지",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "candidate": 8,
+      "query": "l:heritage",
+      "idx": 29,
+      "title": "File:Simbahan ng Baliwag Bulakan (Province; 2023-08-29) E911a 04.jpg",
+      "artist": "E911a",
+      "date": "2023-08-29 10:18:28",
+      "desc": "Historical marker created by the National Historical Commission of the Philippines in 2023 to commemorate Baliwag Church",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Simbahan_ng_Baliwag_Bulakan_(Province;_2023-08-29)_E911a_04.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Simbahan_ng_Baliwag_Bulakan_%28Province%3B_2023-08-29%29_E911a_04.jpg/1280px-Simbahan_ng_Baliwag_Bulakan_%28Province%3B_2023-08-29%29_E911a_04.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-08.jpg",
+      "license": "CC BY-SA 4.0",
+      "original_width": 3888,
+      "original_height": 5184,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Simbahan_ng_Baliwag_Bulakan_%28Province%3B_2023-08-29%29_E911a_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "id": 358,
+      "slug": "baliwag-city",
+      "index": 5,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-08.jpg",
+      "output": "/tmp/ph-travel-mindanao-358/output/358-baliwag-city-05.webp",
+      "sha256": "2b3cd6552289de1736ad0ac209b6d4f404aa9b9d59264e7ff02c0c996c007a92",
+      "normalized_artist": "E911a",
+      "independent_trip_group": "E911a / 2023-08",
+      "url": "images/358-baliwag-city-05.webp",
+      "output_sha256": "f942eb998e0b83422bb9a29e9352bc735496c1cc2b12a230c6a3fa1e614f869f",
+      "output_width": 1080,
+      "output_height": 1440,
+      "capture_date_normalized": "2023-08-29",
+      "artist_group": "E911a",
+      "original_visual_review": "원본 직접 열람·내용 확인, 풍경·건축 중심, 얼굴 근접 사진 제외",
+      "final_visual_review": "최종10장 직접 눈검수·비율과 내용 유지",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "candidate": 18,
+      "query": "14",
+      "idx": 0,
+      "title": "File:07286jfSaint Augustine Parish Church Baliuagfvf 25.jpg",
+      "artist": "Judgefloro",
+      "date": "2016-12-04 12:34:36",
+      "desc": "New Sanctuary-Altar and Restored Interior of the Saubt Augustine Parish Church of Baliuag, 2016 St. Augustine Parish Church of Baliuag Saint Augustine Parish Church (Baliuag) in Barangay, Poblacion  14°57'17\"N  120°54'2\"E Baliuag, Bulacan, Bulacan (accessed from Maharlika Highway (Cagayan Valley Road, Baliuag-Pulilan-Guiguinto, Bulacan) Pan-Philippine Highway, also known as the Maharlika \"Nobility/freeman\" Highway or Asian Highway 26, Cagayan Valley Road).",
+      "source_url": "https://commons.wikimedia.org/wiki/File:07286jfSaint_Augustine_Parish_Church_Baliuagfvf_25.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/07286jfSaint_Augustine_Parish_Church_Baliuagfvf_25.jpg/1280px-07286jfSaint_Augustine_Parish_Church_Baliuagfvf_25.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-18.jpg",
+      "license": "CC0",
+      "original_width": 4608,
+      "original_height": 3456,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/07286jfSaint_Augustine_Parish_Church_Baliuagfvf_25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "id": 358,
+      "slug": "baliwag-city",
+      "index": 6,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-18.jpg",
+      "output": "/tmp/ph-travel-mindanao-358/output/358-baliwag-city-06.webp",
+      "sha256": "589a6585b85b750917e7b6decd65434b5f056cbc4c9b71d9d90fab66947b443d",
+      "normalized_artist": "Floro 작가군",
+      "independent_trip_group": "Floro 작가군 / 2016-12",
+      "url": "images/358-baliwag-city-06.webp",
+      "output_sha256": "e542cd1763451f14e6f5a3bb20d9a4b091571a27491394a1653cd9f76db5c56b",
+      "output_width": 1080,
+      "output_height": 810,
+      "capture_date_normalized": "2016-12-04",
+      "artist_group": "Floro 작가군",
+      "original_visual_review": "원본 직접 열람·내용 확인, 풍경·건축 중심, 얼굴 근접 사진 제외",
+      "final_visual_review": "최종10장 직접 눈검수·비율과 내용 유지",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "candidate": 14,
+      "query": "10",
+      "idx": 38,
+      "title": "File:BaliuagChurchjf9702 09.JPG",
+      "artist": "Ramon FVelasquez",
+      "date": "2013-09-29 07:54:22",
+      "desc": "Upload Wizard (general description) photos of the  -- 1733 St. Augustine Parish Church of Baliuag (Saint Agustin of Hippo Parish Church)[1][2][3]Baliuag, Bulacan[4] (Note: since this time the sun is so good and bright, I decided to again take photos of the facade and convent of this heritage Church).",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BaliuagChurchjf9702_09.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/BaliuagChurchjf9702_09.JPG/1280px-BaliuagChurchjf9702_09.JPG",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-14.jpg",
+      "license": "CC BY-SA 3.0",
+      "original_width": 3456,
+      "original_height": 4608,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/BaliuagChurchjf9702_09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "id": 358,
+      "slug": "baliwag-city",
+      "index": 7,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-14.jpg",
+      "output": "/tmp/ph-travel-mindanao-358/output/358-baliwag-city-07.webp",
+      "sha256": "e2bc5ad2d2fb14c7777f226970cba273ac11e8bfeaf838848802febf368f6bab",
+      "normalized_artist": "Floro 작가군",
+      "independent_trip_group": "Floro 작가군 / 2013-09",
+      "url": "images/358-baliwag-city-07.webp",
+      "output_sha256": "f9a410da9af69fb633454b2eae055874c9dfb395511a78c3793621ae095c44aa",
+      "output_width": 1080,
+      "output_height": 1440,
+      "capture_date_normalized": "2013-09-29",
+      "artist_group": "Floro 작가군",
+      "original_visual_review": "원본 직접 열람·내용 확인, 풍경·건축 중심, 얼굴 근접 사진 제외",
+      "final_visual_review": "최종10장 직접 눈검수·비율과 내용 유지",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "candidate": 16,
+      "query": "10",
+      "idx": 24,
+      "title": "File:Baliuagchurchjf5974 01.JPG",
+      "artist": "Ramon FVelasquez",
+      "date": "2013-02-08 11:46:37",
+      "desc": "1733 St. Augustine Parish Church of Baliuag (Saint Agustin of Hippo Parish Church)[1][2][3]Baliuag, Bulacan[4]",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Baliuagchurchjf5974_01.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Baliuagchurchjf5974_01.JPG/1280px-Baliuagchurchjf5974_01.JPG",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-16.jpg",
+      "license": "CC BY-SA 3.0",
+      "original_width": 4608,
+      "original_height": 3456,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Baliuagchurchjf5974_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "id": 358,
+      "slug": "baliwag-city",
+      "index": 8,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-16.jpg",
+      "output": "/tmp/ph-travel-mindanao-358/output/358-baliwag-city-08.webp",
+      "sha256": "cd1eeaa83c4647cd3db9e0f043fb7c89b998f103896873f75a90df935b576547",
+      "normalized_artist": "Floro 작가군",
+      "independent_trip_group": "Floro 작가군 / 2013-02",
+      "url": "images/358-baliwag-city-08.webp",
+      "output_sha256": "67006efbe351673e109921abab69ce8ec91010c5db9c96d527ca4e788e7a9b25",
+      "output_width": 1080,
+      "output_height": 810,
+      "capture_date_normalized": "2013-02-08",
+      "artist_group": "Floro 작가군",
+      "original_visual_review": "원본 직접 열람·내용 확인, 풍경·건축 중심, 얼굴 근접 사진 제외",
+      "final_visual_review": "최종10장 직접 눈검수·비율과 내용 유지",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "candidate": 2,
+      "query": "12",
+      "idx": 47,
+      "title": "File:Municipal Hall, Baliwag, Bulacan.jpg",
+      "artist": "Elmer B. Domingo",
+      "date": "2016-11-20 14:56:43",
+      "desc": "Municipal Hall, Baliwag, Bulacan",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Municipal_Hall,_Baliwag,_Bulacan.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Municipal_Hall%2C_Baliwag%2C_Bulacan.jpg/1280px-Municipal_Hall%2C_Baliwag%2C_Bulacan.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-02.jpg",
+      "license": "CC BY-SA 4.0",
+      "original_width": 4272,
+      "original_height": 2848,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Municipal_Hall%2C_Baliwag%2C_Bulacan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "id": 358,
+      "slug": "baliwag-city",
+      "index": 9,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-02.jpg",
+      "output": "/tmp/ph-travel-mindanao-358/output/358-baliwag-city-09.webp",
+      "sha256": "64738d3bfaf4f2d2765c7b83f4374dedcc7b921f1c3ade4e0a162266e878bf4f",
+      "normalized_artist": "Elmer B. Domingo",
+      "independent_trip_group": "Elmer B. Domingo / 2016-11",
+      "url": "images/358-baliwag-city-09.webp",
+      "output_sha256": "3c84173740105d10d2c75c023efcff3a58bf5300d27c809d23565a056f54c5dd",
+      "output_width": 1080,
+      "output_height": 720,
+      "capture_date_normalized": "2016-11-20",
+      "artist_group": "Elmer B. Domingo",
+      "original_visual_review": "원본 직접 열람·내용 확인, 풍경·건축 중심, 얼굴 근접 사진 제외",
+      "final_visual_review": "최종10장 직접 눈검수·비율과 내용 유지",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "candidate": 5,
+      "query": "13",
+      "idx": 45,
+      "title": "File:Mariano Ponce Monument (Baliuag, Bulacan) 09.jpg",
+      "artist": "SwarmCheng",
+      "date": "2022-12-17 14:03:08",
+      "desc": "Mariano Ponce Monument (Baliuag, Bulacan)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mariano_Ponce_Monument_(Baliuag,_Bulacan)_09.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Mariano_Ponce_Monument_%28Baliuag%2C_Bulacan%29_09.jpg/1280px-Mariano_Ponce_Monument_%28Baliuag%2C_Bulacan%29_09.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-05.jpg",
+      "license": "CC BY-SA 4.0",
+      "original_width": 3998,
+      "original_height": 3874,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Mariano_Ponce_Monument_%28Baliuag%2C_Bulacan%29_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "id": 358,
+      "slug": "baliwag-city",
+      "index": 10,
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/358-originals/candidate-05.jpg",
+      "output": "/tmp/ph-travel-mindanao-358/output/358-baliwag-city-10.webp",
+      "sha256": "9113b955defe9a90609eb01192dd84cedbee72e23128902c6bbdf5592ecb786a",
+      "normalized_artist": "Floro 작가군",
+      "independent_trip_group": "Floro 작가군 / 2022-12",
+      "url": "images/358-baliwag-city-10.webp",
+      "output_sha256": "92eb1816a6353a6251655a30ba9ff9a027de658f0285ffdb50303de955a06843",
+      "output_width": 1080,
+      "output_height": 1046,
+      "capture_date_normalized": "2022-12-17",
+      "artist_group": "Floro 작가군",
+      "original_visual_review": "원본 직접 열람·내용 확인, 풍경·건축 중심, 얼굴 근접 사진 제외",
+      "final_visual_review": "최종10장 직접 눈검수·비율과 내용 유지",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "place_note": "Commons 작가가 Baliuag의 Mariano Ponce Monument로 식별. 세부 거리·학교·박물관 안 위치는 확인되지 않아 특정 입구나 일정 지점으로 안내하지 않음. 시내 폰세 추모 문화 자료 사진으로 한정."
+    }
+  ],
+  "original_post_ids": [],
+  "original_tsv_rows": [],
+  "original_mapping": "두입력목록과캐시불라칸1275712475검토에서발리왁독립행연결미발견. 외부미수록도시확장;원본행완료연결없음.",
+  "translation": "한국어원본과직접집필영어,기타6언어fallback은부모통합",
+  "photo_diversity_review": {
+    "artist_date_groups": 10,
+    "independent_trip_groups": 10,
+    "notes": [
+      "Floro=Judgefloro/RamonFVelasquez/SwarmCheng별칭보수적통합",
+      "동일작가다른방문은2013Feb/2013Sep/2016Jun/2016Dec/2022Dec로6개월~여러해간격",
+      "Elmer2012Jan/2016Nov, Ralff2024Mar/2025Nov서로여러해간격",
+      "같은작가연속일답사선정없음",
+      "구도는성당wide/표지/회중석/현관기둥/박공상과박물관/시계탑/옛청사/행정청사/폰세흉상으로분리"
+    ]
+  },
+  "rejected_sources": [
+    "candidate06표지훼손·생일제목/설명상충배제",
+    "candidate09시장사진앞인물이크게가림배제",
+    "candidate17동상배경광고지배배제",
+    "candidate07/12동일날옛청사근접반복배제",
+    "성당13/15/10정면유사구도반복배제",
+    "NCCA2026ICP기사402본문미독·검색만으로등급확정안함"
+  ]
+}

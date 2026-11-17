@@ -1,0 +1,1257 @@
+{
+  "schema_version": 1,
+  "id": 375,
+  "slug": "malabon-city",
+  "started_at_utc": "2026-11-17T10:45:58.524154+00:00",
+  "manifest": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-final-preparation.json",
+  "manifest_sha256_before": "b42cea03e32de3f48b12be1aaacccf8d872c29221fd4ec7ec4c13ba895d14e64",
+  "status": "부모 최종 눈검수 대기",
+  "technical_conversion_status": "수치 변환 및 무결성 검사 통과",
+  "summary": {
+    "requested_count": 10,
+    "converted_and_decoded_count": 10,
+    "technical_checks_passed_count": 10,
+    "originals_unchanged_count": 10,
+    "input_dimensions_match_manifest_count": 10,
+    "input_sha256_matches_manifest_count": 10,
+    "total_output_bytes": 1674598,
+    "technical_checks_passed": true,
+    "final_visual_review_completed": false,
+    "final_visual_review_status": "부모 검수 대기"
+  },
+  "processing": {
+    "executor": "현재 Codex CLI 세션에서 직접 실행",
+    "operation": "가로 1080px 축소 및 WebP quality 80 인코딩",
+    "target_width": 1080,
+    "quality": 80,
+    "height_rule": "실제 입력 height × 1080 / 실제 입력 width를 가장 가까운 정수로 반올림(정확히 0.5이면 올림)",
+    "height_formula": "(2 * input_height * 1080 + input_width) // (2 * input_width)",
+    "aspect_ratio_pixel_rounding_tolerance": 0.5,
+    "resize_mode": "down_only",
+    "upscaling": false,
+    "cropping": false,
+    "retouching": false,
+    "color_or_exposure_correction": false,
+    "compositing": false,
+    "generative_image_tools_used": false,
+    "additional_ai_or_subagents_invoked": false,
+    "downloads_or_web_searches": 0,
+    "commons_full_original_dimensions_used_for_resizing": false,
+    "note": "Commons 전체 원본 치수와 실제 로컬 입력 치수를 구분하며, 변환에는 실제 디코딩 치수만 사용했다. WebP 손실 압축 외의 내용 변경은 수행하지 않았다."
+  },
+  "tools": [
+    {
+      "name": "magick",
+      "path": "/opt/homebrew/bin/magick",
+      "version": "Version: ImageMagick 7.1.2-21 Q16-HDRI aarch64 51e1d5d97:20260421 https://imagemagick.org\nCopyright: (C) 1999 ImageMagick Studio LLC\nLicense: https://imagemagick.org/license/\nFeatures: Cipher DPC HDRI Modules \nDelegates (built-in): bzlib freetype heic jng jpeg lcms ltdl lzma png tiff webp xml zlib zstd\nCompiler: clang (21.0.0)",
+      "purpose": "입력 JPEG 전체 읽기와 실제 치수 확인; 이미지 저장·수정에는 사용하지 않음"
+    },
+    {
+      "name": "cwebp",
+      "path": "/opt/homebrew/bin/cwebp",
+      "version": "1.6.0\nlibsharpyuv: 0.4.2",
+      "purpose": "정량 축소 및 quality 80 WebP 저장"
+    },
+    {
+      "name": "dwebp",
+      "path": "/opt/homebrew/bin/dwebp",
+      "version": "1.6.0",
+      "purpose": "출력 WebP 전체 픽셀을 메모리의 PAM 스트림으로 실제 디코딩"
+    },
+    {
+      "name": "webpinfo",
+      "path": "/opt/homebrew/bin/webpinfo",
+      "version": "WebP Decoder version: 1.6.0",
+      "purpose": "출력 WebP 구조 및 비트스트림 검사"
+    },
+    {
+      "name": "Python",
+      "path": "/opt/homebrew/opt/python@3.15/bin/python3.15",
+      "version": "3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)]",
+      "purpose": "표준 라이브러리로 실행 조율·SHA256·바이트 수·PAM 검증·JSON 보고서 기록"
+    }
+  ],
+  "visual_review": {
+    "original_selection": "사용자 설명 및 manifest에 따르면 부모가 원본 16장을 직접 열어 검수하고 10장을 선정함",
+    "original_and_final_visually_reviewed": false,
+    "final_visual_review_status": "부모 검수 대기",
+    "photo_content_accuracy_automatically_approved": false,
+    "note": "이 보고서의 통과는 수치·파일 무결성 검사에만 해당하며, 사진 내용의 정확성이나 최종 눈검수 완료를 뜻하지 않는다."
+  },
+  "items": [
+    {
+      "index": 1,
+      "title": "File:San Bartolome Church, Malabon City.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/01.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city.webp",
+      "commons_full_original_dimensions": {
+        "width": 4096,
+        "height": 3072,
+        "source": "manifest의 Commons API 전체 원본 메타데이터; 실제 로컬 파일 치수와 구분"
+      },
+      "input": {
+        "manifest_width": 1920,
+        "manifest_height": 1440,
+        "actual_width": 1920,
+        "actual_height": 1440,
+        "format": "JPEG",
+        "orientation": "Undefined",
+        "size_bytes": 701304,
+        "manifest_sha256": "8d609521adc479e716376ca716ce5e9a5dcd474d9f1c3076a89d70206f163514",
+        "sha256_before": "8d609521adc479e716376ca716ce5e9a5dcd474d9f1c3076a89d70206f163514",
+        "decode_argv": [
+          "/opt/homebrew/bin/magick",
+          "-regard-warnings",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/01.jpg",
+          "-format",
+          "%m %w %h %[orientation]",
+          "info:"
+        ],
+        "decode_exit_code": 0,
+        "dimensions_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "sha256_after": "8d609521adc479e716376ca716ce5e9a5dcd474d9f1c3076a89d70206f163514"
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 810,
+        "ideal_height": 810.0,
+        "quality": 80
+      },
+      "original_visually_reviewed_per_manifest": true,
+      "original_and_final_visually_reviewed": false,
+      "final_visual_review_status": "부모 검수 대기",
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "810",
+          "-resize_mode",
+          "down_only",
+          "-short",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/01.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "138156 40.84"
+      },
+      "output_details": {
+        "format": "WebP",
+        "mime_type": "image/webp",
+        "actual_width": 1080,
+        "actual_height": 810,
+        "size_bytes": 138156,
+        "sha256": "6f678ad7f034bd52779d04988565b76b25564e013b5e47ee45c9c5cc07c1e36b",
+        "height_rounding_error_pixels": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "full_decode": {
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "diagnostics": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout",
+          "pam_header": "P7\nWIDTH 1080\nHEIGHT 810\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\n",
+          "decoded_pixel_bytes": 3499200,
+          "expected_pixel_bytes": 3499200,
+          "decoded_pixel_sha256": "7217603e30663e488e15f4f23006b1a3b2226b7fc6888d07f46f99c4fdaa0064",
+          "decoded_pixels_saved_to_disk": false
+        },
+        "structure_check": {
+          "argv": [
+            "/opt/homebrew/bin/webpinfo",
+            "-diag",
+            "-summary",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city.webp"
+          ],
+          "exit_code": 0,
+          "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city.webp\nRIFF HEADER:\n  File size: 138156\nChunk VP8  at offset     12, length 138144\n  Width: 1080\n  Height: 810\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\nSummary:\nNumber of frames: 1\nChunk type  :  VP8 VP8L VP8X ALPH ANIM ANMF(VP8 /VP8L/ALPH) ICCP EXIF  XMP\nChunk counts:    1    0    0    0    0    0    0    0    0     0    0    0 \nNo error detected.",
+          "stderr": ""
+        }
+      },
+      "checks": {
+        "input_dimensions_match_manifest": true,
+        "input_sha256_matches_manifest": true,
+        "conversion_exit_zero": true,
+        "quality_argument_80": true,
+        "no_upscaling": true,
+        "valid_webp_signature": true,
+        "riff_size_matches_file_size": true,
+        "webp_structure_valid": true,
+        "full_decode_succeeded": true,
+        "decoded_pixel_buffer_complete": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_original_ratio": true,
+        "aspect_ratio_rounding_error_within_half_pixel": true,
+        "output_file_nonempty": true,
+        "original_unchanged": true
+      },
+      "original_unchanged": true
+    },
+    {
+      "index": 2,
+      "title": "File:Interior of San Bartolome Church (Malabon 2023-03-19) E911a 24.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/15.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-2.webp",
+      "commons_full_original_dimensions": {
+        "width": 5184,
+        "height": 3888,
+        "source": "manifest의 Commons API 전체 원본 메타데이터; 실제 로컬 파일 치수와 구분"
+      },
+      "input": {
+        "manifest_width": 1920,
+        "manifest_height": 1440,
+        "actual_width": 1920,
+        "actual_height": 1440,
+        "format": "JPEG",
+        "orientation": "Undefined",
+        "size_bytes": 865324,
+        "manifest_sha256": "cd88a70833362a14ee16e5266cd92c776666ce5bc073fbff2965972b89f95667",
+        "sha256_before": "cd88a70833362a14ee16e5266cd92c776666ce5bc073fbff2965972b89f95667",
+        "decode_argv": [
+          "/opt/homebrew/bin/magick",
+          "-regard-warnings",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/15.jpg",
+          "-format",
+          "%m %w %h %[orientation]",
+          "info:"
+        ],
+        "decode_exit_code": 0,
+        "dimensions_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "sha256_after": "cd88a70833362a14ee16e5266cd92c776666ce5bc073fbff2965972b89f95667"
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 810,
+        "ideal_height": 810.0,
+        "quality": 80
+      },
+      "original_visually_reviewed_per_manifest": true,
+      "original_and_final_visually_reviewed": false,
+      "final_visual_review_status": "부모 검수 대기",
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "810",
+          "-resize_mode",
+          "down_only",
+          "-short",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/15.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-2.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "163912 39.35"
+      },
+      "output_details": {
+        "format": "WebP",
+        "mime_type": "image/webp",
+        "actual_width": 1080,
+        "actual_height": 810,
+        "size_bytes": 163912,
+        "sha256": "81a9f85b8a56333ac11e6c037e86013812f4e8ce4794767e05f73bdc36c2fb5f",
+        "height_rounding_error_pixels": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "full_decode": {
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-2.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "diagnostics": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-2.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout",
+          "pam_header": "P7\nWIDTH 1080\nHEIGHT 810\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\n",
+          "decoded_pixel_bytes": 3499200,
+          "expected_pixel_bytes": 3499200,
+          "decoded_pixel_sha256": "a310bd6864aa48cea8a0f20703f2264fddd674976d7563ebeebb282b312d6f6f",
+          "decoded_pixels_saved_to_disk": false
+        },
+        "structure_check": {
+          "argv": [
+            "/opt/homebrew/bin/webpinfo",
+            "-diag",
+            "-summary",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-2.webp"
+          ],
+          "exit_code": 0,
+          "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-2.webp\nRIFF HEADER:\n  File size: 163912\nChunk VP8  at offset     12, length 163900\n  Width: 1080\n  Height: 810\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\nSummary:\nNumber of frames: 1\nChunk type  :  VP8 VP8L VP8X ALPH ANIM ANMF(VP8 /VP8L/ALPH) ICCP EXIF  XMP\nChunk counts:    1    0    0    0    0    0    0    0    0     0    0    0 \nNo error detected.",
+          "stderr": ""
+        }
+      },
+      "checks": {
+        "input_dimensions_match_manifest": true,
+        "input_sha256_matches_manifest": true,
+        "conversion_exit_zero": true,
+        "quality_argument_80": true,
+        "no_upscaling": true,
+        "valid_webp_signature": true,
+        "riff_size_matches_file_size": true,
+        "webp_structure_valid": true,
+        "full_decode_succeeded": true,
+        "decoded_pixel_buffer_complete": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_original_ratio": true,
+        "aspect_ratio_rounding_error_within_half_pixel": true,
+        "output_file_nonempty": true,
+        "original_unchanged": true
+      },
+      "original_unchanged": true
+    },
+    {
+      "index": 3,
+      "title": "File:Malabon City Hall, Aug 2025.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/03.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-3.webp",
+      "commons_full_original_dimensions": {
+        "width": 4080,
+        "height": 3072,
+        "source": "manifest의 Commons API 전체 원본 메타데이터; 실제 로컬 파일 치수와 구분"
+      },
+      "input": {
+        "manifest_width": 1920,
+        "manifest_height": 1446,
+        "actual_width": 1920,
+        "actual_height": 1446,
+        "format": "JPEG",
+        "orientation": "Undefined",
+        "size_bytes": 734523,
+        "manifest_sha256": "96106fba12f1af27c18a43a7d76ca8d580a8e6b373de603a6ed6cb067209276e",
+        "sha256_before": "96106fba12f1af27c18a43a7d76ca8d580a8e6b373de603a6ed6cb067209276e",
+        "decode_argv": [
+          "/opt/homebrew/bin/magick",
+          "-regard-warnings",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/03.jpg",
+          "-format",
+          "%m %w %h %[orientation]",
+          "info:"
+        ],
+        "decode_exit_code": 0,
+        "dimensions_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "sha256_after": "96106fba12f1af27c18a43a7d76ca8d580a8e6b373de603a6ed6cb067209276e"
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 813,
+        "ideal_height": 813.375,
+        "quality": 80
+      },
+      "original_visually_reviewed_per_manifest": true,
+      "original_and_final_visually_reviewed": false,
+      "final_visual_review_status": "부모 검수 대기",
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "813",
+          "-resize_mode",
+          "down_only",
+          "-short",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/03.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-3.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "158074 40.82"
+      },
+      "output_details": {
+        "format": "WebP",
+        "mime_type": "image/webp",
+        "actual_width": 1080,
+        "actual_height": 813,
+        "size_bytes": 158074,
+        "sha256": "d4f08840652f2aa20913a95040b826e5f5c456e9ed363db8459dd0396954a706",
+        "height_rounding_error_pixels": -0.375,
+        "aspect_ratio_relative_error": 0.0004612546125462025,
+        "full_decode": {
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-3.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "diagnostics": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-3.webp. Dimensions: 1080 x 813 . Format: lossy. Now saving...\nSaved to stdout",
+          "pam_header": "P7\nWIDTH 1080\nHEIGHT 813\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\n",
+          "decoded_pixel_bytes": 3512160,
+          "expected_pixel_bytes": 3512160,
+          "decoded_pixel_sha256": "942f63e699fde1e395a44d3104173babf8c2669bfc2439d4390e65eb5d6b5ed3",
+          "decoded_pixels_saved_to_disk": false
+        },
+        "structure_check": {
+          "argv": [
+            "/opt/homebrew/bin/webpinfo",
+            "-diag",
+            "-summary",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-3.webp"
+          ],
+          "exit_code": 0,
+          "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-3.webp\nRIFF HEADER:\n  File size: 158074\nChunk VP8  at offset     12, length 158062\n  Width: 1080\n  Height: 813\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\nSummary:\nNumber of frames: 1\nChunk type  :  VP8 VP8L VP8X ALPH ANIM ANMF(VP8 /VP8L/ALPH) ICCP EXIF  XMP\nChunk counts:    1    0    0    0    0    0    0    0    0     0    0    0 \nNo error detected.",
+          "stderr": ""
+        }
+      },
+      "checks": {
+        "input_dimensions_match_manifest": true,
+        "input_sha256_matches_manifest": true,
+        "conversion_exit_zero": true,
+        "quality_argument_80": true,
+        "no_upscaling": true,
+        "valid_webp_signature": true,
+        "riff_size_matches_file_size": true,
+        "webp_structure_valid": true,
+        "full_decode_succeeded": true,
+        "decoded_pixel_buffer_complete": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_original_ratio": true,
+        "aspect_ratio_rounding_error_within_half_pixel": true,
+        "output_file_nonempty": true,
+        "original_unchanged": true
+      },
+      "original_unchanged": true
+    },
+    {
+      "index": 4,
+      "title": "File:Rivera House Malabon 001.JPG",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/11.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-4.webp",
+      "commons_full_original_dimensions": {
+        "width": 3648,
+        "height": 2736,
+        "source": "manifest의 Commons API 전체 원본 메타데이터; 실제 로컬 파일 치수와 구분"
+      },
+      "input": {
+        "manifest_width": 1920,
+        "manifest_height": 1440,
+        "actual_width": 1920,
+        "actual_height": 1440,
+        "format": "JPEG",
+        "orientation": "Undefined",
+        "size_bytes": 739108,
+        "manifest_sha256": "639fc6fe24ca702a75af16a2d74ab251b4964f4898db583037e8d854fd16ccd4",
+        "sha256_before": "639fc6fe24ca702a75af16a2d74ab251b4964f4898db583037e8d854fd16ccd4",
+        "decode_argv": [
+          "/opt/homebrew/bin/magick",
+          "-regard-warnings",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/11.jpg",
+          "-format",
+          "%m %w %h %[orientation]",
+          "info:"
+        ],
+        "decode_exit_code": 0,
+        "dimensions_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "sha256_after": "639fc6fe24ca702a75af16a2d74ab251b4964f4898db583037e8d854fd16ccd4"
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 810,
+        "ideal_height": 810.0,
+        "quality": 80
+      },
+      "original_visually_reviewed_per_manifest": true,
+      "original_and_final_visually_reviewed": false,
+      "final_visual_review_status": "부모 검수 대기",
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "810",
+          "-resize_mode",
+          "down_only",
+          "-short",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/11.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-4.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "138558 40.52"
+      },
+      "output_details": {
+        "format": "WebP",
+        "mime_type": "image/webp",
+        "actual_width": 1080,
+        "actual_height": 810,
+        "size_bytes": 138558,
+        "sha256": "9a04ba761bcfa0deb15143eda2d820570a37c312add3917c2931601715be0161",
+        "height_rounding_error_pixels": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "full_decode": {
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-4.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "diagnostics": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-4.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout",
+          "pam_header": "P7\nWIDTH 1080\nHEIGHT 810\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\n",
+          "decoded_pixel_bytes": 3499200,
+          "expected_pixel_bytes": 3499200,
+          "decoded_pixel_sha256": "fc66199d64f70623c189aa7e77de02078ef704e463bec7aed5fc30218f9bdf54",
+          "decoded_pixels_saved_to_disk": false
+        },
+        "structure_check": {
+          "argv": [
+            "/opt/homebrew/bin/webpinfo",
+            "-diag",
+            "-summary",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-4.webp"
+          ],
+          "exit_code": 0,
+          "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-4.webp\nRIFF HEADER:\n  File size: 138558\nChunk VP8  at offset     12, length 138546\n  Width: 1080\n  Height: 810\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\nSummary:\nNumber of frames: 1\nChunk type  :  VP8 VP8L VP8X ALPH ANIM ANMF(VP8 /VP8L/ALPH) ICCP EXIF  XMP\nChunk counts:    1    0    0    0    0    0    0    0    0     0    0    0 \nNo error detected.",
+          "stderr": ""
+        }
+      },
+      "checks": {
+        "input_dimensions_match_manifest": true,
+        "input_sha256_matches_manifest": true,
+        "conversion_exit_zero": true,
+        "quality_argument_80": true,
+        "no_upscaling": true,
+        "valid_webp_signature": true,
+        "riff_size_matches_file_size": true,
+        "webp_structure_valid": true,
+        "full_decode_succeeded": true,
+        "decoded_pixel_buffer_complete": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_original_ratio": true,
+        "aspect_ratio_rounding_error_within_half_pixel": true,
+        "output_file_nonempty": true,
+        "original_unchanged": true
+      },
+      "original_unchanged": true
+    },
+    {
+      "index": 5,
+      "title": "File:Old house in Malabon City, Metro Manila.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/05.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-5.webp",
+      "commons_full_original_dimensions": {
+        "width": 4101,
+        "height": 2734,
+        "source": "manifest의 Commons API 전체 원본 메타데이터; 실제 로컬 파일 치수와 구분"
+      },
+      "input": {
+        "manifest_width": 1920,
+        "manifest_height": 1280,
+        "actual_width": 1920,
+        "actual_height": 1280,
+        "format": "JPEG",
+        "orientation": "Undefined",
+        "size_bytes": 707296,
+        "manifest_sha256": "22c5d1af88201aada3aa8541243ed1401b4b729e445fc4c4432bb3bd319c2de2",
+        "sha256_before": "22c5d1af88201aada3aa8541243ed1401b4b729e445fc4c4432bb3bd319c2de2",
+        "decode_argv": [
+          "/opt/homebrew/bin/magick",
+          "-regard-warnings",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/05.jpg",
+          "-format",
+          "%m %w %h %[orientation]",
+          "info:"
+        ],
+        "decode_exit_code": 0,
+        "dimensions_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "sha256_after": "22c5d1af88201aada3aa8541243ed1401b4b729e445fc4c4432bb3bd319c2de2"
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 720,
+        "ideal_height": 720.0,
+        "quality": 80
+      },
+      "original_visually_reviewed_per_manifest": true,
+      "original_and_final_visually_reviewed": false,
+      "final_visual_review_status": "부모 검수 대기",
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "720",
+          "-resize_mode",
+          "down_only",
+          "-short",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/05.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-5.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "154372 39.85"
+      },
+      "output_details": {
+        "format": "WebP",
+        "mime_type": "image/webp",
+        "actual_width": 1080,
+        "actual_height": 720,
+        "size_bytes": 154372,
+        "sha256": "c3d3568dddcb4efcd9931cdeaa74d89c029eaa09dd82b65c95fb3bd2c1650a5a",
+        "height_rounding_error_pixels": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "full_decode": {
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-5.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "diagnostics": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-5.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved to stdout",
+          "pam_header": "P7\nWIDTH 1080\nHEIGHT 720\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\n",
+          "decoded_pixel_bytes": 3110400,
+          "expected_pixel_bytes": 3110400,
+          "decoded_pixel_sha256": "19a46bd1b5063be2fef9bb323f69532e969c420808a7fd7d53137777ce26a4f4",
+          "decoded_pixels_saved_to_disk": false
+        },
+        "structure_check": {
+          "argv": [
+            "/opt/homebrew/bin/webpinfo",
+            "-diag",
+            "-summary",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-5.webp"
+          ],
+          "exit_code": 0,
+          "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-5.webp\nRIFF HEADER:\n  File size: 154372\nChunk VP8  at offset     12, length 154360\n  Width: 1080\n  Height: 720\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\nSummary:\nNumber of frames: 1\nChunk type  :  VP8 VP8L VP8X ALPH ANIM ANMF(VP8 /VP8L/ALPH) ICCP EXIF  XMP\nChunk counts:    1    0    0    0    0    0    0    0    0     0    0    0 \nNo error detected.",
+          "stderr": ""
+        }
+      },
+      "checks": {
+        "input_dimensions_match_manifest": true,
+        "input_sha256_matches_manifest": true,
+        "conversion_exit_zero": true,
+        "quality_argument_80": true,
+        "no_upscaling": true,
+        "valid_webp_signature": true,
+        "riff_size_matches_file_size": true,
+        "webp_structure_valid": true,
+        "full_decode_succeeded": true,
+        "decoded_pixel_buffer_complete": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_original_ratio": true,
+        "aspect_ratio_rounding_error_within_half_pixel": true,
+        "output_file_nonempty": true,
+        "original_unchanged": true
+      },
+      "original_unchanged": true
+    },
+    {
+      "index": 6,
+      "title": "File:Concepcion Bridge, Malabon City 10.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/06.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-6.webp",
+      "commons_full_original_dimensions": {
+        "width": 5184,
+        "height": 3888,
+        "source": "manifest의 Commons API 전체 원본 메타데이터; 실제 로컬 파일 치수와 구분"
+      },
+      "input": {
+        "manifest_width": 1920,
+        "manifest_height": 1440,
+        "actual_width": 1920,
+        "actual_height": 1440,
+        "format": "JPEG",
+        "orientation": "Undefined",
+        "size_bytes": 916585,
+        "manifest_sha256": "02e9d6587410309484d594069bd05fc1909503dc9e78432b8275769e2f147983",
+        "sha256_before": "02e9d6587410309484d594069bd05fc1909503dc9e78432b8275769e2f147983",
+        "decode_argv": [
+          "/opt/homebrew/bin/magick",
+          "-regard-warnings",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/06.jpg",
+          "-format",
+          "%m %w %h %[orientation]",
+          "info:"
+        ],
+        "decode_exit_code": 0,
+        "dimensions_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "sha256_after": "02e9d6587410309484d594069bd05fc1909503dc9e78432b8275769e2f147983"
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 810,
+        "ideal_height": 810.0,
+        "quality": 80
+      },
+      "original_visually_reviewed_per_manifest": true,
+      "original_and_final_visually_reviewed": false,
+      "final_visual_review_status": "부모 검수 대기",
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "810",
+          "-resize_mode",
+          "down_only",
+          "-short",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/06.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-6.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "192990 39.69"
+      },
+      "output_details": {
+        "format": "WebP",
+        "mime_type": "image/webp",
+        "actual_width": 1080,
+        "actual_height": 810,
+        "size_bytes": 192990,
+        "sha256": "1c76d3ca80108dfdf3a119eafa2ec82fa2498f4fbef2f69244b8c980cb6c0566",
+        "height_rounding_error_pixels": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "full_decode": {
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-6.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "diagnostics": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-6.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout",
+          "pam_header": "P7\nWIDTH 1080\nHEIGHT 810\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\n",
+          "decoded_pixel_bytes": 3499200,
+          "expected_pixel_bytes": 3499200,
+          "decoded_pixel_sha256": "4b62ca4ead3b84b2c4c54c30f135e129990a91daa6d60cd64e5bea9e85b57da1",
+          "decoded_pixels_saved_to_disk": false
+        },
+        "structure_check": {
+          "argv": [
+            "/opt/homebrew/bin/webpinfo",
+            "-diag",
+            "-summary",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-6.webp"
+          ],
+          "exit_code": 0,
+          "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-6.webp\nRIFF HEADER:\n  File size: 192990\nChunk VP8  at offset     12, length 192978\n  Width: 1080\n  Height: 810\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\nSummary:\nNumber of frames: 1\nChunk type  :  VP8 VP8L VP8X ALPH ANIM ANMF(VP8 /VP8L/ALPH) ICCP EXIF  XMP\nChunk counts:    1    0    0    0    0    0    0    0    0     0    0    0 \nNo error detected.",
+          "stderr": ""
+        }
+      },
+      "checks": {
+        "input_dimensions_match_manifest": true,
+        "input_sha256_matches_manifest": true,
+        "conversion_exit_zero": true,
+        "quality_argument_80": true,
+        "no_upscaling": true,
+        "valid_webp_signature": true,
+        "riff_size_matches_file_size": true,
+        "webp_structure_valid": true,
+        "full_decode_succeeded": true,
+        "decoded_pixel_buffer_complete": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_original_ratio": true,
+        "aspect_ratio_rounding_error_within_half_pixel": true,
+        "output_file_nonempty": true,
+        "original_unchanged": true
+      },
+      "original_unchanged": true
+    },
+    {
+      "index": 7,
+      "title": "File:Dampalit Riverside, Malabon, Sep 2025.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/07.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-7.webp",
+      "commons_full_original_dimensions": {
+        "width": 4080,
+        "height": 3072,
+        "source": "manifest의 Commons API 전체 원본 메타데이터; 실제 로컬 파일 치수와 구분"
+      },
+      "input": {
+        "manifest_width": 1920,
+        "manifest_height": 1446,
+        "actual_width": 1920,
+        "actual_height": 1446,
+        "format": "JPEG",
+        "orientation": "Undefined",
+        "size_bytes": 675560,
+        "manifest_sha256": "21be6061de7a898bbf904aba411db3ccde47f1a62bd6934ee6b100c113b38806",
+        "sha256_before": "21be6061de7a898bbf904aba411db3ccde47f1a62bd6934ee6b100c113b38806",
+        "decode_argv": [
+          "/opt/homebrew/bin/magick",
+          "-regard-warnings",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/07.jpg",
+          "-format",
+          "%m %w %h %[orientation]",
+          "info:"
+        ],
+        "decode_exit_code": 0,
+        "dimensions_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "sha256_after": "21be6061de7a898bbf904aba411db3ccde47f1a62bd6934ee6b100c113b38806"
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 813,
+        "ideal_height": 813.375,
+        "quality": 80
+      },
+      "original_visually_reviewed_per_manifest": true,
+      "original_and_final_visually_reviewed": false,
+      "final_visual_review_status": "부모 검수 대기",
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "813",
+          "-resize_mode",
+          "down_only",
+          "-short",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/07.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-7.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "125598 40.80"
+      },
+      "output_details": {
+        "format": "WebP",
+        "mime_type": "image/webp",
+        "actual_width": 1080,
+        "actual_height": 813,
+        "size_bytes": 125598,
+        "sha256": "c2f6f49a0b00d99de7e508a5a6ff35d97db93d3f9ce7895e246c33b72ec6a354",
+        "height_rounding_error_pixels": -0.375,
+        "aspect_ratio_relative_error": 0.0004612546125462025,
+        "full_decode": {
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-7.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "diagnostics": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-7.webp. Dimensions: 1080 x 813 . Format: lossy. Now saving...\nSaved to stdout",
+          "pam_header": "P7\nWIDTH 1080\nHEIGHT 813\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\n",
+          "decoded_pixel_bytes": 3512160,
+          "expected_pixel_bytes": 3512160,
+          "decoded_pixel_sha256": "7eb403f125ca3d70c3f0f120860a522546ed14a5182394e47810b6b1db679508",
+          "decoded_pixels_saved_to_disk": false
+        },
+        "structure_check": {
+          "argv": [
+            "/opt/homebrew/bin/webpinfo",
+            "-diag",
+            "-summary",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-7.webp"
+          ],
+          "exit_code": 0,
+          "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-7.webp\nRIFF HEADER:\n  File size: 125598\nChunk VP8  at offset     12, length 125586\n  Width: 1080\n  Height: 813\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\nSummary:\nNumber of frames: 1\nChunk type  :  VP8 VP8L VP8X ALPH ANIM ANMF(VP8 /VP8L/ALPH) ICCP EXIF  XMP\nChunk counts:    1    0    0    0    0    0    0    0    0     0    0    0 \nNo error detected.",
+          "stderr": ""
+        }
+      },
+      "checks": {
+        "input_dimensions_match_manifest": true,
+        "input_sha256_matches_manifest": true,
+        "conversion_exit_zero": true,
+        "quality_argument_80": true,
+        "no_upscaling": true,
+        "valid_webp_signature": true,
+        "riff_size_matches_file_size": true,
+        "webp_structure_valid": true,
+        "full_decode_succeeded": true,
+        "decoded_pixel_buffer_complete": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_original_ratio": true,
+        "aspect_ratio_rounding_error_within_half_pixel": true,
+        "output_file_nonempty": true,
+        "original_unchanged": true
+      },
+      "original_unchanged": true
+    },
+    {
+      "index": 8,
+      "title": "File:Malabon & Navotas WW2 Memorial, Malabon, Feb 2026.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/08.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-8.webp",
+      "commons_full_original_dimensions": {
+        "width": 4080,
+        "height": 3072,
+        "source": "manifest의 Commons API 전체 원본 메타데이터; 실제 로컬 파일 치수와 구분"
+      },
+      "input": {
+        "manifest_width": 1920,
+        "manifest_height": 1446,
+        "actual_width": 1920,
+        "actual_height": 1446,
+        "format": "JPEG",
+        "orientation": "Undefined",
+        "size_bytes": 1215983,
+        "manifest_sha256": "2372cfa1684d9d3abffb94a5399f372263bce42ed347cb9ab2bb29bfef4684e8",
+        "sha256_before": "2372cfa1684d9d3abffb94a5399f372263bce42ed347cb9ab2bb29bfef4684e8",
+        "decode_argv": [
+          "/opt/homebrew/bin/magick",
+          "-regard-warnings",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/08.jpg",
+          "-format",
+          "%m %w %h %[orientation]",
+          "info:"
+        ],
+        "decode_exit_code": 0,
+        "dimensions_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "sha256_after": "2372cfa1684d9d3abffb94a5399f372263bce42ed347cb9ab2bb29bfef4684e8"
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 813,
+        "ideal_height": 813.375,
+        "quality": 80
+      },
+      "original_visually_reviewed_per_manifest": true,
+      "original_and_final_visually_reviewed": false,
+      "final_visual_review_status": "부모 검수 대기",
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "813",
+          "-resize_mode",
+          "down_only",
+          "-short",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/08.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-8.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "255058 38.97"
+      },
+      "output_details": {
+        "format": "WebP",
+        "mime_type": "image/webp",
+        "actual_width": 1080,
+        "actual_height": 813,
+        "size_bytes": 255058,
+        "sha256": "93e56972b6f3540bd5a799e308bc310bf7d1455de20583751fe05d7abf204f1a",
+        "height_rounding_error_pixels": -0.375,
+        "aspect_ratio_relative_error": 0.0004612546125462025,
+        "full_decode": {
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-8.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "diagnostics": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-8.webp. Dimensions: 1080 x 813 . Format: lossy. Now saving...\nSaved to stdout",
+          "pam_header": "P7\nWIDTH 1080\nHEIGHT 813\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\n",
+          "decoded_pixel_bytes": 3512160,
+          "expected_pixel_bytes": 3512160,
+          "decoded_pixel_sha256": "4f2d0148ef031faf94d6dce22a2c2edc700b71049ebb2ce13352d6fdf79e0019",
+          "decoded_pixels_saved_to_disk": false
+        },
+        "structure_check": {
+          "argv": [
+            "/opt/homebrew/bin/webpinfo",
+            "-diag",
+            "-summary",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-8.webp"
+          ],
+          "exit_code": 0,
+          "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-8.webp\nRIFF HEADER:\n  File size: 255058\nChunk VP8  at offset     12, length 255046\n  Width: 1080\n  Height: 813\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\nSummary:\nNumber of frames: 1\nChunk type  :  VP8 VP8L VP8X ALPH ANIM ANMF(VP8 /VP8L/ALPH) ICCP EXIF  XMP\nChunk counts:    1    0    0    0    0    0    0    0    0     0    0    0 \nNo error detected.",
+          "stderr": ""
+        }
+      },
+      "checks": {
+        "input_dimensions_match_manifest": true,
+        "input_sha256_matches_manifest": true,
+        "conversion_exit_zero": true,
+        "quality_argument_80": true,
+        "no_upscaling": true,
+        "valid_webp_signature": true,
+        "riff_size_matches_file_size": true,
+        "webp_structure_valid": true,
+        "full_decode_succeeded": true,
+        "decoded_pixel_buffer_complete": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_original_ratio": true,
+        "aspect_ratio_rounding_error_within_half_pixel": true,
+        "output_file_nonempty": true,
+        "original_unchanged": true
+      },
+      "original_unchanged": true
+    },
+    {
+      "index": 9,
+      "title": "File:Malabon Food & Gift Expo 2022 at the Oreta Sports Center 09.jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/13.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-9.webp",
+      "commons_full_original_dimensions": {
+        "width": 3199,
+        "height": 5134,
+        "source": "manifest의 Commons API 전체 원본 메타데이터; 실제 로컬 파일 치수와 구분"
+      },
+      "input": {
+        "manifest_width": 1920,
+        "manifest_height": 3081,
+        "actual_width": 1920,
+        "actual_height": 3081,
+        "format": "JPEG",
+        "orientation": "Undefined",
+        "size_bytes": 1418211,
+        "manifest_sha256": "609b85b5ef6b4de3ec0610abc3686d3864ca4e86efa8bfbf6635ed72df7bf423",
+        "sha256_before": "609b85b5ef6b4de3ec0610abc3686d3864ca4e86efa8bfbf6635ed72df7bf423",
+        "decode_argv": [
+          "/opt/homebrew/bin/magick",
+          "-regard-warnings",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/13.jpg",
+          "-format",
+          "%m %w %h %[orientation]",
+          "info:"
+        ],
+        "decode_exit_code": 0,
+        "dimensions_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "sha256_after": "609b85b5ef6b4de3ec0610abc3686d3864ca4e86efa8bfbf6635ed72df7bf423"
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 1733,
+        "ideal_height": 1733.0625,
+        "quality": 80
+      },
+      "original_visually_reviewed_per_manifest": true,
+      "original_and_final_visually_reviewed": false,
+      "final_visual_review_status": "부모 검수 대기",
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "1733",
+          "-resize_mode",
+          "down_only",
+          "-short",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/13.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-9.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "226508 40.17"
+      },
+      "output_details": {
+        "format": "WebP",
+        "mime_type": "image/webp",
+        "actual_width": 1080,
+        "actual_height": 1733,
+        "size_bytes": 226508,
+        "sha256": "8e2f5ce63546b8189bd8af66dab9c0f86ac88e68bf74a226487853d23378bd38",
+        "height_rounding_error_pixels": -0.0625,
+        "aspect_ratio_relative_error": 3.606462781280406e-05,
+        "full_decode": {
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-9.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "diagnostics": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-9.webp. Dimensions: 1080 x 1733 . Format: lossy. Now saving...\nSaved to stdout",
+          "pam_header": "P7\nWIDTH 1080\nHEIGHT 1733\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\n",
+          "decoded_pixel_bytes": 7486560,
+          "expected_pixel_bytes": 7486560,
+          "decoded_pixel_sha256": "9f8720c4c979cf53cd4f56e0938c9b62cef702e5f969994777da0efba1d7f820",
+          "decoded_pixels_saved_to_disk": false
+        },
+        "structure_check": {
+          "argv": [
+            "/opt/homebrew/bin/webpinfo",
+            "-diag",
+            "-summary",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-9.webp"
+          ],
+          "exit_code": 0,
+          "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-9.webp\nRIFF HEADER:\n  File size: 226508\nChunk VP8  at offset     12, length 226496\n  Width: 1080\n  Height: 1733\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\nSummary:\nNumber of frames: 1\nChunk type  :  VP8 VP8L VP8X ALPH ANIM ANMF(VP8 /VP8L/ALPH) ICCP EXIF  XMP\nChunk counts:    1    0    0    0    0    0    0    0    0     0    0    0 \nNo error detected.",
+          "stderr": ""
+        }
+      },
+      "checks": {
+        "input_dimensions_match_manifest": true,
+        "input_sha256_matches_manifest": true,
+        "conversion_exit_zero": true,
+        "quality_argument_80": true,
+        "no_upscaling": true,
+        "valid_webp_signature": true,
+        "riff_size_matches_file_size": true,
+        "webp_structure_valid": true,
+        "full_decode_succeeded": true,
+        "decoded_pixel_buffer_complete": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_original_ratio": true,
+        "aspect_ratio_rounding_error_within_half_pixel": true,
+        "output_file_nonempty": true,
+        "original_unchanged": true
+      },
+      "original_unchanged": true
+    },
+    {
+      "index": 10,
+      "title": "File:Malabon City proper, Rizal Ave. Extension (Malabon; 02-11-2022).jpg",
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-10.webp",
+      "commons_full_original_dimensions": {
+        "width": 3552,
+        "height": 2664,
+        "source": "manifest의 Commons API 전체 원본 메타데이터; 실제 로컬 파일 치수와 구분"
+      },
+      "input": {
+        "manifest_width": 1920,
+        "manifest_height": 1440,
+        "actual_width": 1920,
+        "actual_height": 1440,
+        "format": "JPEG",
+        "orientation": "Undefined",
+        "size_bytes": 624773,
+        "manifest_sha256": "c89d75cb218ad27644f239746b4640f8664611cc3d2e4b5244c6cd88335d7ef2",
+        "sha256_before": "c89d75cb218ad27644f239746b4640f8664611cc3d2e4b5244c6cd88335d7ef2",
+        "decode_argv": [
+          "/opt/homebrew/bin/magick",
+          "-regard-warnings",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/10.jpg",
+          "-format",
+          "%m %w %h %[orientation]",
+          "info:"
+        ],
+        "decode_exit_code": 0,
+        "dimensions_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "sha256_after": "c89d75cb218ad27644f239746b4640f8664611cc3d2e4b5244c6cd88335d7ef2"
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 810,
+        "ideal_height": 810.0,
+        "quality": 80
+      },
+      "original_visually_reviewed_per_manifest": true,
+      "original_and_final_visually_reviewed": false,
+      "final_visual_review_status": "부모 검수 대기",
+      "conversion": {
+        "argv": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "810",
+          "-resize_mode",
+          "down_only",
+          "-short",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-originals/10.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-10.webp"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "121372 41.30"
+      },
+      "output_details": {
+        "format": "WebP",
+        "mime_type": "image/webp",
+        "actual_width": 1080,
+        "actual_height": 810,
+        "size_bytes": 121372,
+        "sha256": "7b41a1363ac3e0f76d1eefd5d27683dc08428b9a5b86cddcfd3b204051b46a2a",
+        "height_rounding_error_pixels": 0.0,
+        "aspect_ratio_relative_error": 0.0,
+        "full_decode": {
+          "argv": [
+            "/opt/homebrew/bin/dwebp",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-10.webp",
+            "-pam",
+            "-o",
+            "-"
+          ],
+          "exit_code": 0,
+          "diagnostics": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-10.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout",
+          "pam_header": "P7\nWIDTH 1080\nHEIGHT 810\nDEPTH 4\nMAXVAL 255\nTUPLTYPE RGB_ALPHA\n",
+          "decoded_pixel_bytes": 3499200,
+          "expected_pixel_bytes": 3499200,
+          "decoded_pixel_sha256": "a9446403760cd24fdb258e2b8fdab7bc805b07ff4f2c394ad424f9c98cf764ad",
+          "decoded_pixels_saved_to_disk": false
+        },
+        "structure_check": {
+          "argv": [
+            "/opt/homebrew/bin/webpinfo",
+            "-diag",
+            "-summary",
+            "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-10.webp"
+          ],
+          "exit_code": 0,
+          "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/375-malabon-city-10.webp\nRIFF HEADER:\n  File size: 121372\nChunk VP8  at offset     12, length 121360\n  Width: 1080\n  Height: 810\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\nSummary:\nNumber of frames: 1\nChunk type  :  VP8 VP8L VP8X ALPH ANIM ANMF(VP8 /VP8L/ALPH) ICCP EXIF  XMP\nChunk counts:    1    0    0    0    0    0    0    0    0     0    0    0 \nNo error detected.",
+          "stderr": ""
+        }
+      },
+      "checks": {
+        "input_dimensions_match_manifest": true,
+        "input_sha256_matches_manifest": true,
+        "conversion_exit_zero": true,
+        "quality_argument_80": true,
+        "no_upscaling": true,
+        "valid_webp_signature": true,
+        "riff_size_matches_file_size": true,
+        "webp_structure_valid": true,
+        "full_decode_succeeded": true,
+        "decoded_pixel_buffer_complete": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_original_ratio": true,
+        "aspect_ratio_rounding_error_within_half_pixel": true,
+        "output_file_nonempty": true,
+        "original_unchanged": true
+      },
+      "original_unchanged": true
+    }
+  ],
+  "errors": [],
+  "manifest_sha256_after": "b42cea03e32de3f48b12be1aaacccf8d872c29221fd4ec7ec4c13ba895d14e64",
+  "manifest_unchanged": true,
+  "finished_at_utc": "2026-11-17T10:45:59.819723+00:00"
+}

@@ -1,0 +1,611 @@
+{
+  "id": 339,
+  "slug": "san-sebastian-cathedral-bacolod",
+  "checked_at": "2026-11-17T10:45:14.214271+00:00",
+  "primary_philgo_post_ids": [
+    1275712577,
+    1275713413
+  ],
+  "facts": [
+    {
+      "where": "identity, overview",
+      "fact": "지역 원문의 독립 대성당 확장",
+      "value": "San Sebastian Cathedral, Bacolod",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712577",
+          "grade": "C",
+          "says": "공개API idx·subject·content만보존한부모캐시에서바콜로드여행원문의대성당하위절을읽었다."
+        },
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275713413",
+          "grade": "C",
+          "says": "마스카라축제원문의주변대성당하위명소를읽었다."
+        },
+        {
+          "url": "https://bacoloddiocese.org/wp/diocese.php",
+          "grade": "A",
+          "says": "운영교구직접본문은SanSebastian을바콜로드주교좌성당으로소개한다."
+        },
+        {
+          "url": "https://bacoloddiocese.org/wp/parishes.php",
+          "grade": "A",
+          "says": "공식교구본당목록에서SanSebastian1755RizalStreet를확인한다."
+        }
+      ],
+      "decision": "원본CSV/TSV·data.csv·data/ko대조.기존060바콜로드는도시·297마스카라는축제이고대성당단독항목은없다.102는마닐라철골성당·355타를락동명성당과다르다.두원문의하위시설만1개연결하며원글전체완료로세지않는다."
+    },
+    {
+      "where": "latitude, longitude, location",
+      "fact": "두 지도 교차와 대표점",
+      "value": "10.6700,122.9470 남쪽 정면",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/53385500",
+          "grade": "B",
+          "says": "Nominatim응답은SanSebastian건물중심10.6703280,122.9471513·건물경계·JoseRizalStreet주소를반환한다."
+        },
+        {
+          "url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1sSan+Sebastian+Cathedral+Bacolod",
+          "grade": "A",
+          "says": "교구공식사이트삽입Google지도링크를열고공개HTML의장소핀10.6700138,122.9469509·SanSebastianCathedral1755RizalStreet엔티티를읽었다."
+        },
+        {
+          "url": "https://bacoloddiocese.org/wp/diocese.php",
+          "grade": "A",
+          "says": "공식주소RizalSt와지도엔티티가일치한다."
+        },
+        {
+          "url": "https://bacolod.com/places/san-sebastian-cathedral",
+          "grade": "C",
+          "says": "독립포털직접본문은PublicPlaza맞은편RizalStreet로설명한다."
+        }
+      ],
+      "decision": "두핀약41m차이는건물중심과남쪽정면관계다.대표핀은Google정면부근을소수4자리로정하며두점을평균하지않는다.주교관·학교·마닐라동명성당을목적지로섞지않는다.Mapcarta는OSM재사용이어서독립지도추가계수하지않았다."
+    },
+    {
+      "where": "overview",
+      "fact": "공사와 개관·기원 구별",
+      "value": "1876주춧돌·1882개관",
+      "sources": [
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/cathedral-of-bacolod/",
+          "grade": "A",
+          "says": "공식1952역사표지전문은1876년4월27일주춧돌·1882년1월20일개관·MauricioFerrero를설명한다."
+        },
+        {
+          "url": "https://heritageconservation.wordpress.com/2006/07/27/bacolod-cathedral/",
+          "grade": "B",
+          "says": "유산보존단체전체본문은1876착공·1882헌당·1885탑완성으로공사단계를구별한다."
+        },
+        {
+          "url": "https://digicastnegros.com/simbahan-sa-bakulod-san-sebastian-cathedral-marks-220-years-of-faith-history/",
+          "grade": "B",
+          "says": "2026년11월11일지역언론본문도현석조건물1876/1882를확인하며본당상주신부기원을1806으로설명한다."
+        }
+      ],
+      "decision": "원문의1876건립/1882건립은시작과개관단계로풀어썼다.본당기원1755/1788/1806등자료가달라특정시작연도를모든공동체의단일설립일로단정하지않는다.가장오래된성당·전국최초등비교는제외한다."
+    },
+    {
+      "where": "overview, highlights",
+      "fact": "역사 표지의 등급과 충돌",
+      "value": "1952PHC표지·현재교구좌",
+      "sources": [
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/cathedral-of-bacolod/",
+          "grade": "A",
+          "says": "현재등록부는LevelIIHistoricalmarker·1952PHC설치를명시한다.표지의1922년대성당전환표기는교구1932/33연혁과맞지않는다."
+        },
+        {
+          "url": "https://bacoloddiocese.org/wp/diocese.php",
+          "grade": "A",
+          "says": "운영교구의현행본문은현재주교좌성당임을확인한다."
+        },
+        {
+          "url": "https://heritageconservation.wordpress.com/2006/07/27/bacolod-cathedral/",
+          "grade": "B",
+          "says": "역사단체는1932교구승격으로설명한다."
+        }
+      ],
+      "decision": "표지를NationalHistoricalLandmark나UNESCO지정으로확대하지않았다.1922/1932/1933대성당전환의정확연도는원고에서제외하고현재역할과표지읽는법을썼다.역사표지설치연도와건립연도를구별한다."
+    },
+    {
+      "where": "highlights",
+      "fact": "정면·탑·마당 옛 종",
+      "value": "세아치·쌍탑·Centennial Belfry",
+      "sources": [
+        {
+          "url": "https://heritageconservation.wordpress.com/2006/07/27/bacolod-cathedral/",
+          "grade": "B",
+          "says": "직접본문은삼중아치포티코·가느다란쌍탑·1969탑보수·1976마당으로옮긴옛종을설명한다."
+        },
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/park-inn-bacolod",
+          "grade": "A",
+          "says": "현재호텔운영사본문의대성당관광명소설명은산호석건물·마당에서보는옛탑종을교차한다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Bacolod_Cathedral_Centennial_Belfry.jpg",
+          "grade": "C",
+          "says": "2024년10월26일원본을직접열어벽돌두아치·옛종두개·CentennialBelfry해설판을확인했다."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral_Bacolod_(Rizal_Street,_Bacolod,_Negros_Occidental;_10-31-2022).jpg",
+          "grade": "C",
+          "says": "기존060검수1080WebP의삼중아치와쌍탑·정문형태를직접재확인했다."
+        }
+      ],
+      "decision": "탑모든부분을19세기원형이나현재공공전망대로설명하지않는다.종이전연도를주조연도로바꾸지않았다.현재종울리기체험·탑등반·전망대프로그램은확인되지않아제외했다."
+    },
+    {
+      "where": "highlights, cautions, images",
+      "fact": "보수 시점과 현행 활동",
+      "value": "2025실내보수뒤현재예배공동체",
+      "sources": [
+        {
+          "url": "https://www.panaynews.net/nhcp-halts-repair-works-on-san-sebastian-cathedral/",
+          "grade": "B",
+          "says": "2024년2월15일직접본문은지붕/배선보수임시중단·NHCP협의를설명한다."
+        },
+        {
+          "url": "https://digicastnegros.com/bishop-blesses-newly-repaired-enhanced-san-sebastian-cathedral-funded-by-ovy/",
+          "grade": "B",
+          "says": "2025년1월20일기사전체본문은주교가새로보수·개선한성소와실내를축복하고성상/성유물추가를설명한다."
+        },
+        {
+          "url": "https://digicastnegros.com/simbahan-sa-bakulod-san-sebastian-cathedral-marks-220-years-of-faith-history/",
+          "grade": "B",
+          "says": "2026년11월11일기사전체본문은11월17일감사미사와정면기념연극예고로현재공동체활동을확인한다."
+        },
+        {
+          "url": "https://bacoloddiocese.org/wp/diocese.php",
+          "grade": "A",
+          "says": "현재운영교구와본당목록이이시설을활동중인교구좌로소개한다."
+        }
+      ],
+      "decision": "2024중단을현재전면폐쇄로단정하지않는다.2025보수전옛실내중앙강조사진은선정하지않고2025년10월·2026년5월장면만썼다.2026년8월주교좌의자가바뀌었다는개인게시물은공식확인없이변경사실로확정하지않는다.사진은고정성소아치/기둥/제단장식이주대상이며그때의의자·임시성상배치를현행으로보장하지않는다.과거외관은최근안내와형태가일치하는부분만사용한다."
+    },
+    {
+      "where": "best_time, costs",
+      "fact": "미사 시간과 관람·요금 구분",
+      "value": "고정관람시간/입장료단정없음",
+      "sources": [
+        {
+          "url": "https://bacoloddiocese.org/wp/diocese.php",
+          "grade": "A",
+          "says": "직접본문하단월~금8~17주말폐쇄는교구사무실안내이고성당관광시간으로확인되지않는다."
+        },
+        {
+          "url": "https://bacolod.com/places/san-sebastian-cathedral",
+          "grade": "C",
+          "says": "2026년9월11일점검독립안내의직접본문은활동중예배처·예배시간/관람허가/촬영규칙현장확인을강조한다."
+        },
+        {
+          "url": "https://www.mass-schedules.com/catholic-church/7/san-sebastian-cathedral.html",
+          "grade": "C",
+          "says": "검색의2026표시와별개로lastupdate2024년12월15일이어서현재정밀시간근거로채택하지않았다."
+        },
+        {
+          "url": "https://digicastnegros.com/simbahan-sa-bakulod-san-sebastian-cathedral-marks-220-years-of-faith-history/",
+          "grade": "B",
+          "says": "2026기념행사의오후감사미사/무료연극은특정날짜행사이며일반운영시간·무료관광정책이아니다."
+        }
+      ],
+      "decision": "공식창구시간을교회관람시간으로쓰지않고당일예배/예식/접근확인으로안내했다.요일별미사시각·영어미사시간·주일횟수·현재정액관광입장료/무료내부항상개방을보장하지않는다.자율소액지출은개인배분이고정액표가아니다."
+    },
+    {
+      "where": "itinerary, getting_there, nearby",
+      "fact": "도심·공항·근교 구분",
+      "value": "Rizal Street와Public Plaza",
+      "sources": [
+        {
+          "url": "https://bacoloddiocese.org/wp/parishes.php",
+          "grade": "A",
+          "says": "공식목록의전체주소가RizalStreet도심성당임을확인한다."
+        },
+        {
+          "url": "https://bacolod.com/places/san-sebastian-cathedral",
+          "grade": "C",
+          "says": "현재독립안내는PublicPlaza와성당을도로맞은편시설로구별한다."
+        },
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/park-inn-bacolod",
+          "grade": "A",
+          "says": "현재호텔운영사의위치/명소본문은공항이BacolodSilay인점·도심성당/광장·더루인스의별도목적지관계를보인다."
+        }
+      ],
+      "decision": "호텔이제시한공항운임/소요시간은성당직접노선으로확대하지않는다.원문의막탄~바콜로드1시간페리일반화·가짜행선지·고정요금은이항목에옮기지않았다.45~75분/2~3시간은편집상일정이며고정유료투어가아니다.실라이/탈리사이는별도차량·입장을확인한다."
+    },
+    {
+      "where": "stay_and_food, cautions",
+      "fact": "예배 장소·도심 식사와 접근 예절",
+      "value": "교구공간과외부판매구분",
+      "sources": [
+        {
+          "url": "https://bacoloddiocese.org/wp/diocese.php",
+          "grade": "A",
+          "says": "운영교구가현재공동체와주교좌역할을설명한다."
+        },
+        {
+          "url": "https://bacolod.com/places/san-sebastian-cathedral",
+          "grade": "C",
+          "says": "적절한복장·예배방해금지·사진/입장규칙확인을현행안내로쓴다."
+        },
+        {
+          "url": "https://www.philgo.com/api.php?method=post.get&idx=1275712577",
+          "grade": "C",
+          "says": "원문의바콜로드도심식사와관광조합은맥락으로만활용하고세부점포·가격은재사용하지않았다."
+        }
+      ],
+      "decision": "성당의관광숙박·공식노점운영·일반관광객제단출입·무료가이드·수하물보관을보장하지않는다.이나살/피야는도시의일반적인식사선택이며특정점포영업과같은자리를현재보장하지않는다.정확한드레스코드규정이나복장별일률거부도만들지않았다."
+    },
+    {
+      "where": "budget, costs",
+      "fact": "1인 개인 배분",
+      "value": "PHP650~1450",
+      "sources": [],
+      "decision": "자율헌금/소액지출50~150+시내왕복250~600+식사250~500+물음료100~200=650~1450.판매요금표아닌편집개인계획이며선택항목은조정가능하다.공항·숙박·근교표·예식/증명서신청은별도다."
+    }
+  ],
+  "images": [
+    {
+      "file": "339-san-sebastian-cathedral-bacolod.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral_Bacolod_(Rizal_Street,_Bacolod,_Negros_Occidental;_10-31-2022).jpg",
+      "credit": "Patrickroque01 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2022-10-31",
+      "author_date_group": "Patrickroque01|2022-10-31",
+      "check": "기존060검수1080WebP의2022낮정면·삼중아치와쌍탑.재가공없이같은바이트복사.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/data/images/060-bacolod.webp",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod.webp",
+        "result": "신규JPEG9장과기존검수WebP1장·선정최종10장을각각직접열어장소·문구·방향·구도·비율확인.9장수치변환만하고1장그대로복사.내용편집/크롭/회전/합성없음."
+      },
+      "source_metadata": {
+        "id": 339,
+        "slug": "san-sebastian-cathedral-bacolod",
+        "number": 1,
+        "cache": "bacolod-cathedral",
+        "index": 28,
+        "title": "File:San Sebastian Cathedral Bacolod (Rizal Street, Bacolod, Negros Occidental; 10-31-2022).jpg",
+        "artist": "Patrickroque01",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 31 October 2022 (according to Exif data)",
+        "canonical_date": "2022-10-31",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral_Bacolod_(Rizal_Street,_Bacolod,_Negros_Occidental;_10-31-2022).jpg",
+        "width": 1080,
+        "height": 810,
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/data/images/060-bacolod.webp",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod.webp",
+        "sha256": "e66251c7fd7b85380a038a5bffb3afca25e915435434592dc3468f8e4409f170",
+        "reused_without_pixel_processing": true,
+        "previous_validation": "sources/060-bacolod.json의검수와현원본/최종직접열람·현행2025외관교차"
+      }
+    },
+    {
+      "file": "339-san-sebastian-cathedral-bacolod-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bacolod%E2%80%99s_Center_of_Faith.jpg",
+      "credit": "Balairos Helton / CC0 / Wikimedia Commons",
+      "date": "2025-10-16",
+      "author_date_group": "Balairos Helton|2025-10-16",
+      "check": "2025년10월보수뒤실제문/천장/신랑.원본의이동인물흐림은촬영기록그대로.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-2.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-2.webp",
+        "result": "신규JPEG9장과기존검수WebP1장·선정최종10장을각각직접열어장소·문구·방향·구도·비율확인.9장수치변환만하고1장그대로복사.내용편집/크롭/회전/합성없음."
+      },
+      "source_metadata": {
+        "cache": "bacolod-cathedral",
+        "index": 44,
+        "title": "File:Bacolod’s Center of Faith.jpg",
+        "artist": "Balairos Helton",
+        "license": "CC0",
+        "date": "2025-10-16 07:27:29",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacolod%E2%80%99s_Center_of_Faith.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Bacolod%E2%80%99s_Center_of_Faith.jpg/1280px-Bacolod%E2%80%99s_Center_of_Faith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2683,
+        "height": 3578,
+        "description": "The San Sebastian Cathedral is standing still and built century ago. It is the center of faith in Bacolod City.",
+        "categories": "CC-Zero|Self-published work|Interior of Bacolod Cathedral",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-2.jpg",
+        "sha256": "83a037aa1d2ee08f9b52be7df1924612eace541202077cb279b3f9643d0f3be6",
+        "id": 339,
+        "slug": "san-sebastian-cathedral-bacolod",
+        "number": 2,
+        "canonical_date": "2025-10-16",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-2.webp"
+      }
+    },
+    {
+      "file": "339-san-sebastian-cathedral-bacolod-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral_(Diocese_of_Bacolod).jpg",
+      "credit": "EDITOR685422 / CC0 / Wikimedia Commons",
+      "date": "2026-05-18",
+      "author_date_group": "EDITOR685422|2026-05-18",
+      "check": "2026년5월성소고정아치/기둥/장식.현재의자의정확배치보장아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-3.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-3.webp",
+        "result": "신규JPEG9장과기존검수WebP1장·선정최종10장을각각직접열어장소·문구·방향·구도·비율확인.9장수치변환만하고1장그대로복사.내용편집/크롭/회전/합성없음."
+      },
+      "source_metadata": {
+        "cache": "bacolod-cathedral",
+        "index": 49,
+        "title": "File:San Sebastian Cathedral (Diocese of Bacolod).jpg",
+        "artist": "EDITOR685422",
+        "license": "CC0",
+        "date": "2026-05-18 06:55:28",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral_(Diocese_of_Bacolod).jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/San_Sebastian_Cathedral_%28Diocese_of_Bacolod%29.jpg/1280px-San_Sebastian_Cathedral_%28Diocese_of_Bacolod%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3000,
+        "height": 4000,
+        "description": "Interior view of San Sebastian Cathedral, Bacolod",
+        "categories": "CC-Zero|Self-published work|All media needing categories as of 2026|Taken with Honor X7d|Media needing categories as of 20 June 2026",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-3.jpg",
+        "sha256": "193d3db983ce0ffb25bb5f1e4d4dfa0c1bb974839a99deb7e8b732daed10c506",
+        "id": 339,
+        "slug": "san-sebastian-cathedral-bacolod",
+        "number": 3,
+        "canonical_date": "2026-05-18",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-3.webp"
+      }
+    },
+    {
+      "file": "339-san-sebastian-cathedral-bacolod-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bacolod_Cathedral_Centennial_Belfry.jpg",
+      "credit": "Kramthenik27 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-10-26",
+      "author_date_group": "Kramthenik27|2024-10-26",
+      "check": "2024CentennialBelfry의옛종두개와벽돌아치.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-4.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-4.webp",
+        "result": "신규JPEG9장과기존검수WebP1장·선정최종10장을각각직접열어장소·문구·방향·구도·비율확인.9장수치변환만하고1장그대로복사.내용편집/크롭/회전/합성없음."
+      },
+      "source_metadata": {
+        "cache": "bacolod-cathedral",
+        "index": 35,
+        "title": "File:Bacolod Cathedral Centennial Belfry.jpg",
+        "artist": "Kramthenik27",
+        "license": "CC BY-SA 4.0",
+        "date": "Taken on 26 October 2024, 01:17:54 (according to Exif data)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacolod_Cathedral_Centennial_Belfry.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Bacolod_Cathedral_Centennial_Belfry.jpg/1280px-Bacolod_Cathedral_Centennial_Belfry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5380,
+        "height": 3668,
+        "description": "The Centennial Belfry of San Sebastian Cathedral in Bacolod City. Built for the celebration of the centennial of the cathedral's existence (1876 - 1976)",
+        "categories": "Self-published work|Images from Wiki Loves Monuments 2024|Uploaded via Campaign:wlm-ph|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Philippines photographs taken on 2024-10-26|Images from Wiki Loves Monuments 2024 in the Philippines|Bell frames in the Philippines|Bacolod Cathedral centennial bells|Images from Wiki Takes Bacolod",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-4.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-4.webp",
+        "sha256": "e2e5f10a56d6d83b27f98b3588c27655de4681b41c889b2d07c9eb55581fc980",
+        "id": 339,
+        "slug": "san-sebastian-cathedral-bacolod",
+        "number": 4,
+        "canonical_date": "2024-10-26"
+      }
+    },
+    {
+      "file": "339-san-sebastian-cathedral-bacolod-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:IJVBacolodCathedral1.jpg",
+      "credit": "IJVelas / CC BY-SA 3.0 / Wikimedia Commons",
+      "date": "2011-05-19",
+      "author_date_group": "IJVelas|2011-05-19",
+      "check": "2011마당과인접건물·탑.마당출입허가근거아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-5.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-5.webp",
+        "result": "신규JPEG9장과기존검수WebP1장·선정최종10장을각각직접열어장소·문구·방향·구도·비율확인.9장수치변환만하고1장그대로복사.내용편집/크롭/회전/합성없음."
+      },
+      "source_metadata": {
+        "cache": "bacolod-cathedral",
+        "index": 6,
+        "title": "File:IJVBacolodCathedral1.jpg",
+        "artist": "IJVelas",
+        "license": "CC BY-SA 3.0",
+        "date": "2011-05-19 16:16:27",
+        "source_url": "https://commons.wikimedia.org/wiki/File:IJVBacolodCathedral1.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/IJVBacolodCathedral1.jpg/1280px-IJVBacolodCathedral1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2623,
+        "height": 3951,
+        "description": "This is a photo of a cultural heritage property in the Philippines with ID",
+        "categories": "Taken with Nikon D90|Self-published work|Images from Wiki Loves Monuments 2013|Cultural heritage monuments in the Philippines with known IDs|Images from Wiki Loves Monuments 2013 in the Philippines|Uploaded via Campaign:wlm-ph|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC depicts|Exterior of Bacolod Cathedral",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-5.jpg",
+        "sha256": "e3b2c38d8f796f4ffc2bd84db8ed7d5daf707b24b127ff39688380316dad84d9",
+        "id": 339,
+        "slug": "san-sebastian-cathedral-bacolod",
+        "number": 5,
+        "canonical_date": "2011-05-19",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-5.webp"
+      }
+    },
+    {
+      "file": "339-san-sebastian-cathedral-bacolod-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SanSebastianCathedral.JPG",
+      "credit": "(WT-shared) SnappyHip / CC BY-SA 3.0 / Wikimedia Commons",
+      "date": "2011-06-24",
+      "author_date_group": "(WT-shared) SnappyHip|2011-06-24",
+      "check": "2011탑과상부석벽의세부.원본의따뜻한색조는추가보정안함.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-6.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-6.webp",
+        "result": "신규JPEG9장과기존검수WebP1장·선정최종10장을각각직접열어장소·문구·방향·구도·비율확인.9장수치변환만하고1장그대로복사.내용편집/크롭/회전/합성없음."
+      },
+      "source_metadata": {
+        "cache": "bacolod-cathedral",
+        "index": 4,
+        "title": "File:SanSebastianCathedral.JPG",
+        "artist": "(WT-shared) SnappyHip",
+        "license": "CC BY-SA 3.0",
+        "date": "2011-06-24",
+        "source_url": "https://commons.wikimedia.org/wiki/File:SanSebastianCathedral.JPG",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/SanSebastianCathedral.JPG/1280px-SanSebastianCathedral.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3000,
+        "height": 4000,
+        "description": "A close up. A close up of one of San Sebastian Cathedral bell tower., Bacolod City.",
+        "categories": "Taken with Sony DSC-W190|Self-published work|Files from Wikivoyage wts|Files moved from wts.oldwikivoyage to Commons requiring review|Files moved to Commons requiring review as of 28 November 2012|Files by Wikivoyage user SnappyHip|Exterior of Bacolod Cathedral",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-6.jpg",
+        "sha256": "baebce52c25e38c7bad47e6c11afa73612dfba6884da72e1d5d4e664fd300484",
+        "id": 339,
+        "slug": "san-sebastian-cathedral-bacolod",
+        "number": 6,
+        "canonical_date": "2011-06-24",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-6.webp"
+      }
+    },
+    {
+      "file": "339-san-sebastian-cathedral-bacolod-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral_in_Bacolod_City.jpg",
+      "credit": "Mark Daniel Lecciones / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2018-08-11",
+      "author_date_group": "Mark Daniel Lecciones|2018-08-11",
+      "check": "2018상부벽면감실/창/석재의낮표정.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-7.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-7.webp",
+        "result": "신규JPEG9장과기존검수WebP1장·선정최종10장을각각직접열어장소·문구·방향·구도·비율확인.9장수치변환만하고1장그대로복사.내용편집/크롭/회전/합성없음."
+      },
+      "source_metadata": {
+        "cache": "bacolod-cathedral",
+        "index": 16,
+        "title": "File:San Sebastian Cathedral in Bacolod City.jpg",
+        "artist": "Mark Daniel Lecciones",
+        "license": "CC BY-SA 4.0",
+        "date": "2018-08-11 13:50:30",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral_in_Bacolod_City.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/San_Sebastian_Cathedral_in_Bacolod_City.jpg/1280px-San_Sebastian_Cathedral_in_Bacolod_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2048,
+        "height": 1362,
+        "description": "The San Sebastian Cathedral is a Roman Catholic Church constructed in 1825. Located in Bacolod City, Negros Occidental, Philippines.",
+        "categories": "Self-published work|Uploaded via Campaign:wle-ph|Facade of Bacolod Cathedral",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-7.jpg",
+        "sha256": "83076e47d6dd95982cd2e1a5c52c9614c2a07175106c8f720b359c0f634d1bb2",
+        "id": 339,
+        "slug": "san-sebastian-cathedral-bacolod",
+        "number": 7,
+        "canonical_date": "2018-08-11",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-7.webp"
+      }
+    },
+    {
+      "file": "339-san-sebastian-cathedral-bacolod-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Allan_Jay_Quesada_-_San_Sebastian_Church_-_Bacolod_001.jpg",
+      "credit": "Allan Jay Quesada / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2018-08-20",
+      "author_date_group": "Allan Jay Quesada|2018-08-20",
+      "check": "2018전체야간정면과도로불빛궤적.현행야간관람/조명시간보장아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-8.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-8.webp",
+        "result": "신규JPEG9장과기존검수WebP1장·선정최종10장을각각직접열어장소·문구·방향·구도·비율확인.9장수치변환만하고1장그대로복사.내용편집/크롭/회전/합성없음."
+      },
+      "source_metadata": {
+        "cache": "bacolod-cathedral",
+        "index": 17,
+        "title": "File:Allan Jay Quesada - San Sebastian Church - Bacolod 001.jpg",
+        "artist": "Allan Jay Quesada",
+        "license": "CC BY-SA 4.0",
+        "date": "2018-08-20 20:29:06",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Allan_Jay_Quesada_-_San_Sebastian_Church_-_Bacolod_001.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Allan_Jay_Quesada_-_San_Sebastian_Church_-_Bacolod_001.jpg/1280px-Allan_Jay_Quesada_-_San_Sebastian_Church_-_Bacolod_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4371,
+        "height": 3122,
+        "description": "This is a photo of a cultural heritage property in the Philippines with ID",
+        "categories": "Images from Wiki Loves Monuments 2019|Self-published work|Cultural heritage monuments in the Philippines with known IDs|Uploaded via Campaign:wlm-ph|Images from Wiki Loves Monuments 2019 in the Philippines|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC depicts|Bacolod Cathedral at night",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-8.jpg",
+        "sha256": "59c2e2e99464475cf40ed714fd2a145f4f236c921d592759b195dde8d7a02427",
+        "id": 339,
+        "slug": "san-sebastian-cathedral-bacolod",
+        "number": 8,
+        "canonical_date": "2018-08-20",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-8.webp"
+      }
+    },
+    {
+      "file": "339-san-sebastian-cathedral-bacolod-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bacolod_City%27s_San_Sebastian_Curch.jpg",
+      "credit": "Chrisphotographs / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2019-11-11",
+      "author_date_group": "Chrisphotographs|2019-11-11",
+      "check": "2019물웅덩이속대성당반영.원본구도이므로회전하지않음.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-9.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-9.webp",
+        "result": "신규JPEG9장과기존검수WebP1장·선정최종10장을각각직접열어장소·문구·방향·구도·비율확인.9장수치변환만하고1장그대로복사.내용편집/크롭/회전/합성없음."
+      },
+      "source_metadata": {
+        "cache": "bacolod-cathedral",
+        "index": 18,
+        "title": "File:Bacolod City's San Sebastian Curch.jpg",
+        "artist": "Chrisphotographs",
+        "license": "CC BY-SA 4.0",
+        "date": "2019-11-11 18:46:34",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bacolod_City%27s_San_Sebastian_Curch.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Bacolod_City%27s_San_Sebastian_Curch.jpg/1280px-Bacolod_City%27s_San_Sebastian_Curch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4000,
+        "height": 3000,
+        "description": "A reflection of San Sebastian Cathedral Church .The San Sebastian Cathedral is a late 19th-century church in Bacolod City, Negros Occidental in the Philippines. It is the seat of the Roman Catholic Diocese of Bacolod. (Wikipidea)",
+        "categories": "Self-published work|Files with coordinates missing SDC location of creation|Uploaded via Campaign:wle-ph|Taken with Oppo A9 2020|Bacolod Cathedral at night",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-9.jpg",
+        "sha256": "b26f7a5f987ee3b6e03a68a11fd2674569e822119263628780b0823a09b9b940",
+        "id": 339,
+        "slug": "san-sebastian-cathedral-bacolod",
+        "number": 9,
+        "canonical_date": "2019-11-11",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-9.webp"
+      }
+    },
+    {
+      "file": "339-san-sebastian-cathedral-bacolod-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral,_Bacolod,_Negros_Occidental.jpg",
+      "credit": "Ninya Regalado / CC BY-SA 3.0 / Wikimedia Commons",
+      "date": "2012-09-09",
+      "author_date_group": "Ninya Regalado|2012-09-09",
+      "check": "2012상부정면야간·쌍탑.현재야간조명상품보장아님.",
+      "visual_review": {
+        "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-10.jpg",
+        "final": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-10.webp",
+        "result": "신규JPEG9장과기존검수WebP1장·선정최종10장을각각직접열어장소·문구·방향·구도·비율확인.9장수치변환만하고1장그대로복사.내용편집/크롭/회전/합성없음."
+      },
+      "source_metadata": {
+        "cache": "bacolod-cathedral",
+        "index": 1,
+        "title": "File:San Sebastian Cathedral, Bacolod, Negros Occidental.jpg",
+        "artist": "Ninya Regalado",
+        "license": "CC BY-SA 3.0",
+        "date": "2012-09-09",
+        "source_url": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral,_Bacolod,_Negros_Occidental.jpg",
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/San_Sebastian_Cathedral%2C_Bacolod%2C_Negros_Occidental.jpg/1280px-San_Sebastian_Cathedral%2C_Bacolod%2C_Negros_Occidental.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3696,
+        "height": 2448,
+        "description": "This is a photo of a cultural heritage property in the Philippines with ID",
+        "categories": "Taken with Nikon D5100|Self-published work|Images from Wiki Loves Monuments 2012|Cultural heritage monuments in the Philippines with known IDs|Images from Wiki Loves Monuments 2012 in the Philippines|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC location of creation|Cultural heritage monuments in the Philippines missing SDC depicts|Bacolod Cathedral at night",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-10.jpg",
+        "sha256": "457aa3e09eace9c2ab52188fcdaa6fc61be9e715472c70e9534db2ab8010ce83",
+        "id": 339,
+        "slug": "san-sebastian-cathedral-bacolod",
+        "number": 10,
+        "canonical_date": "2012-09-09",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets339/339-san-sebastian-cathedral-bacolod-10.webp"
+      }
+    }
+  ],
+  "image_review": {
+    "count": 10,
+    "unique_authors": 10,
+    "unique_author_date_groups": 10,
+    "independent_travel_groups": 10,
+    "groups_note": "선정10장은모두다른작가다.Hbalairos/Helton/BalairosHelton은같은작가로정규화해2025장면한장만선택.Patrick2022연속날짜도한장뿐이며기존060의10월31일검수사진을재사용했다.Kram/Herbertkikoy/Jumzchino/CharMel/Nepox/Raux의2024년10월동행행사가능성은한그룹으로묶어Kram종한장만선택했다.Paolo원본/2025보정복사본은별도그룹아니다.",
+    "conversion": "CodexCLI1회9장1080px/q80수치변환·기존1080WebP1장은재변환없이해시/디코딩읽기검증.추가CLI/생성모델/내용편집없음.",
+    "prompt": "work/parallel-1992/visayas/339-san-sebastian-cathedral-bacolod-prompt.txt",
+    "report": "work/parallel-1992/visayas/339-conversion-report.json"
+  },
+  "archives": {
+    "philgo": [
+      "_i18n/work/expansion-1973/posts/1275712577.json",
+      "_i18n/work/expansion-1973/posts/1275713413.json"
+    ],
+    "research_directory": "_i18n/work/parallel-1992/visayas/research339",
+    "candidate_audit": "work/parallel-1992/visayas/339-candidate-audit.json",
+    "research_notes": "work/parallel-1992/visayas/339-research-notes.json",
+    "archive_warning": "Digicast두페이지는웹도구전체본문으로읽었으나HTTP보존시WordPress설치화면을반환했다.별도HTTP본문아카이브성공으로세지않는다.정부CLUP50MBPDF웹본문크기제한실패는검증완료출처로쓰지않았다."
+  }
+}

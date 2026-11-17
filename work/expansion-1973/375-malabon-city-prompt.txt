@@ -1,0 +1,6 @@
+현재 이미 Codex CLI에서 실행 중입니다. 다른CLI/하위에이전트/외부AI를호출하지마세요. 부모가 원본16장을 직접 열어 검수하고10장을 선정했습니다. 이번 작업은 정해진 수치 변환만입니다. 이미지 생성·리터칭·색조/노출 보정·자르기·합성·글자/얼굴/로고 변경은 하지 않습니다.
+입력 manifest: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/malabon-final-preparation.json
+각 original 경로를 그 항목의 output 경로로만 변환합니다. 모두 Commons가 공개 제공한1920px파일이며API전체원본치수와실제입력치수는분리돼있습니다. 가로1080px, 세로는원비율유지,WebP quality80. cwebp 등 로컬 정량 도구를 사용해 크기만 변환하세요. 원본을 덮어쓰거나 업스케일하지마세요. data/와sources/·전역meta·번역·커밋은 건드리지않습니다. 다운로드나추가웹검색도하지않습니다.
+검증: 입력10개 SHA256을변환전후대조해원본불변을확인하고, 출력10개를실제로디코딩하여가로1080/세로원비율/정상WebP/파일크기/해시를기록합니다. 입력actualwidth는manifest와실제디코딩값을대조하세요. 픽셀저장/변환은이CodexCLI가수행해야하며다른에이전트로넘기지않습니다.
+보고서 저장: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-1973/375-conversion-report.json
+보고서에는요약·사용도구·각원본/출력경로·실제치수·SHA·원본불변·검사결과를기록하고완료하세요. 사진내용의정확성최종눈검수는부모가하므로자동완료라고표시하지마세요.

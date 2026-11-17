@@ -1,0 +1,43 @@
+{
+  "id": 359,
+  "slug": "san-fernando-la-union",
+  "title": "산페르난도 라우니온 역사·해안 여행",
+  "status": "한영 data 반영·i18n 검증 완료, 전체 빌드·통합 부모 담당",
+  "ko_visible_chars": 6378,
+  "en_authored_lines": 65,
+  "facts": 12,
+  "photos": 10,
+  "unique_artist_date_groups": 10,
+  "independent_trip_groups": 10,
+  "original_post_ids": [],
+  "original_tsv_rows": [],
+  "mapping": "외부 미수록 도시 확장. 원문1275713440(TSV20)은 도시/산후안서핑명칭혼동으로 검토만·원본행완료연결없음. CSV112행962475는삭제.",
+  "usage": {
+    "web_calls": 17,
+    "commons_api_calls": 13,
+    "photo_downloads": 15,
+    "photo_download_http429": 1,
+    "cached_original_posts_read": 1,
+    "codex_cli_calls": 1
+  },
+  "validation": [
+    "JSON.parse 성공",
+    "10섹션",
+    "하이라이트정수1~6",
+    "원본/최종사진10직접눈검수",
+    "SHA256·원본불변·디코딩·1080가로·비율검증",
+    "i18n export/check/import en359성공"
+  ],
+  "notes": [
+    "기존137MaCho카드/일정Pindangan부분중복고지·전체도시독립내용없음",
+    "Dominique작가대소문자정규화·2017Feb/2018Mar/2018Dec서로13·9개월간격여행",
+    "PoroLighthouse일본홋카이도동명사진메타/육안대조배제·data없음",
+    "원문가공YusufPoint/시설명·고정파도/운임복사안함",
+    "핀단간수도원부분울타리2025실제후기와2026공식투어교차,공개구역만안내",
+    "등대현행개인출입/등반미확정조건부·일반군부대관광추천안함",
+    "NHCP기관웹open429·검색전문은search-only,2026실제표지사진직접읽어연혁확인",
+    "시청현재공항private/charter안내우선·주정부옛SEAIR정기편문구배제",
+    "CodexCLI정량가공q80WebP1080비율유지·사진내용생성/수정없음",
+    "프롬프트 data/images/359-san-fernando-la-union-prompt.txt"
+  ]
+}

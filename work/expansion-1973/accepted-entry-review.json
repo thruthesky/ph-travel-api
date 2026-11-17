@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T10:34:14.571Z",
+  "checked_at": "2026-11-17T10:55:47.565Z",
   "ids": [
     315,
     316,
@@ -8,6 +8,7 @@
     319,
     320,
     321,
+    322,
     332,
     333,
     334,
@@ -15,13 +16,17 @@
     336,
     337,
     338,
+    339,
     352,
     353,
     354,
     355,
     356,
+    358,
+    359,
     373,
-    374
+    374,
+    375
   ],
   "records": [
     {
@@ -83,6 +88,15 @@
       "file": "321-balanga-city.json",
       "ko_body_characters": 5240,
       "en_body_characters": 8901,
+      "section_count": 10,
+      "integer_highlights": 6,
+      "photos": 10
+    },
+    {
+      "id": 322,
+      "file": "322-lingayen.json",
+      "ko_body_characters": 5551,
+      "en_body_characters": 9447,
       "section_count": 10,
       "integer_highlights": 6,
       "photos": 10
@@ -151,6 +165,15 @@
       "photos": 10
     },
     {
+      "id": 339,
+      "file": "339-san-sebastian-cathedral-bacolod.json",
+      "ko_body_characters": 5470,
+      "en_body_characters": 9445,
+      "section_count": 10,
+      "integer_highlights": 6,
+      "photos": 10
+    },
+    {
       "id": 352,
       "file": "352-naia-airport.json",
       "ko_body_characters": 5620,
@@ -196,6 +219,24 @@
       "photos": 10
     },
     {
+      "id": 358,
+      "file": "358-baliwag-city.json",
+      "ko_body_characters": 6291,
+      "en_body_characters": 9141,
+      "section_count": 10,
+      "integer_highlights": 6,
+      "photos": 10
+    },
+    {
+      "id": 359,
+      "file": "359-san-fernando-la-union.json",
+      "ko_body_characters": 6429,
+      "en_body_characters": 9832,
+      "section_count": 10,
+      "integer_highlights": 6,
+      "photos": 10
+    },
+    {
       "id": 373,
       "file": "373-escolta.json",
       "ko_body_characters": 5794,
@@ -212,10 +253,19 @@
       "section_count": 10,
       "integer_highlights": 6,
       "photos": 10
+    },
+    {
+      "id": 375,
+      "file": "375-malabon-city.json",
+      "ko_body_characters": 5263,
+      "en_body_characters": 10073,
+      "section_count": 10,
+      "integer_highlights": 6,
+      "photos": 10
     }
   ],
-  "build_version": "8c49d1edab56",
-  "content_check": "316×8언어·기존사진부족만예외통과",
+  "build_version": "2b5bdeddb824",
+  "content_check": "321×8언어·기존사진부족만예외통과",
   "images_check": {
     "first70": {
       "total": 70,
@@ -239,11 +289,11 @@
       "matched": 3
     },
     "combined": {
-      "total": 210,
+      "total": 260,
       "fix": 0,
       "distant": 0,
-      "visual": 152,
-      "matched": 58
+      "visual": 191,
+      "matched": 69
     },
     "additional80": {
       "total": 80,
@@ -265,7 +315,14 @@
       "distant": 0,
       "visual": 7,
       "matched": 3
+    },
+    "lingayen_bacolod_baliwag_sanfernando_malabon50": {
+      "total": 50,
+      "fix": 0,
+      "distant": 0,
+      "visual": 39,
+      "matched": 11
     }
   },
-  "note": "신규21항목210사진담당자원본/최종검수.333연말연속여행문제는독립2023사진으로교체후10묶음재확인.작가별칭통합333=2명/318=7명/319=6명이며각10여행유지.357은연속여행사진미달철회.사진재검사를신규사진추가로중복계산하지않음.전체목표미완료."
+  "note": "신규26항목총260사진원본/최종직접검수.333교체후독립10묶음·357미달초안철회유지.375는16원본중얼굴/흐림/간판중심제외해10선택·전처리API원본치수와실측1920구별.도시/시설부분연결을원글전체완료로안셈.전체목표미완료."
 }
