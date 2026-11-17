@@ -1,0 +1,295 @@
+{
+  "id": 310,
+  "slug": "greenhills-shopping-center",
+  "checked_at": "2026-11-17T05:42:55.927932+00:00",
+  "facts": [
+    {
+      "where": "전체",
+      "fact": "필고원문과독립신규성",
+      "value": "필고1275712221,TSV49행,기존ortigas-center본문언급만",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/?module=post&action=view&idx=1275712221",
+          "grade": "C",
+          "says": "그린힐스쇼핑센터7025자목록·공개post.get제목본문읽음"
+        },
+        {
+          "url": "work/philgo-registration-audit.csv",
+          "grade": "C",
+          "says": "2026-02-25그린힐스독립미수록,ortigas-center본문언급"
+        }
+      ],
+      "decision": "소재와관심품목만참고해직접한영재작성.원문의10–21연중무휴·정액가격표·40~60%또는50~60%흥정률·짧은차량시간·모조품권장·모든진주동급저가·검증없는최상급은미채택.duplicate.mjs280개대장일치0,기존오르티가스소개와산후안별도상업단지구분.개인정보·댓글·원문사진미사용."
+    },
+    {
+      "where": "location,latitude,longitude",
+      "fact": "범위와좌표",
+      "value": "산후안오르티가스애비뉴쇼핑단지14.6017,121.0498",
+      "sources": [
+        {
+          "url": "https://www.ortigas.com.ph/malls/gh-mall",
+          "grade": "A",
+          "says": "GHMall at OrtigasAvenue SanJuan,의류·신발·진주·전자제품특화"
+        },
+        {
+          "url": "https://www.ortigas.com.ph/estates/greenhills-center",
+          "grade": "A",
+          "says": "OrtigasLand운영그린힐스단지소개"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Greenhills_(mixed-use_development)",
+          "grade": "B",
+          "says": "쇼핑단지구조·Vmall·OSquare·신관2023·좌표14.6017389,121.0498389"
+        },
+        {
+          "url": "https://mapcarta.com/W30086770",
+          "grade": "B",
+          "says": "OSMway30086770landuse=retail동일상업단지14.6018,121.04985"
+        }
+      ],
+      "decision": "Wikipedia단지대표점과OSM동일retail경계중앙점차약7m.새GHMall건물별도OSMway31927098714.60225,121.04862와혼동안함.원문OrtigasCenter또는barangay전체좌표아님,전체단지명시."
+    },
+    {
+      "where": "overview,highlights",
+      "fact": "단지구성과품목",
+      "value": "티앙게와브랜드매장·GHMall·VMall·Shoppesville·Promenade·OSquare",
+      "sources": [
+        {
+          "url": "https://www.ortigas.com.ph/malls/gh-mall",
+          "grade": "A",
+          "says": "GHMall at OrtigasAvenue SanJuan,의류·신발·진주·전자제품특화"
+        },
+        {
+          "url": "https://www.ortigas.com.ph/estates/greenhills-center",
+          "grade": "A",
+          "says": "OrtigasLand운영그린힐스단지소개"
+        },
+        {
+          "url": "https://www.ortigasmalls.com/greenhills/",
+          "grade": "A",
+          "says": "검색색인디렉터리:GHMall·Vmall·Shoppesville·Promenade·OSquare점포와식당,월–목10–21/금–일10–22표시.본문읽기는동적페이지로빈결과"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Greenhills_(mixed-use_development)",
+          "grade": "B",
+          "says": "쇼핑단지구조·Vmall·OSquare·신관2023·좌표14.6017389,121.0498389"
+        }
+      ],
+      "decision": "건물별매장종류를절대독점배치로단정안함.최신개별점포는디렉터리/현장확인.진주필리핀산·진짜·동급·가격보장없음.명품모조품쇼핑권장안함."
+    },
+    {
+      "where": "overview",
+      "fact": "2023신관개장과과거사진구별",
+      "value": "새GHMall2023개장",
+      "sources": [
+        {
+          "url": "https://www.ayalaland.com.ph/wp-content/uploads/2024/07/2023-Ayala-Land-Integrated-Report_Updated.pdf",
+          "grade": "A",
+          "says": "2023연차보고서39쪽OrtigasLandGHMall2023-11개장"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Greenhills_(mixed-use_development)",
+          "grade": "B",
+          "says": "쇼핑단지구조·Vmall·OSquare·신관2023·좌표14.6017389,121.0498389"
+        }
+      ],
+      "decision": "정확개장일은softopen/wing날짜혼재해연도만채택.새신관이전체그린힐스의첫개장이라고쓰지않음.옛간판2010·VMall2012와신관2026매장사진구별.현재동선을옛사진기준으로보장안함."
+    },
+    {
+      "where": "getting_there",
+      "fact": "철도접근",
+      "value": "MRT3Santolan–Annapolis역+마지막구간별도",
+      "sources": [
+        {
+          "url": "https://www.dotrmrt3.gov.ph/about-us",
+          "grade": "A",
+          "says": "MRT3SantolanAnnapolis역노선목록"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Santolan%E2%80%93Annapolis_station",
+          "grade": "B",
+          "says": "EDSA/AnnapolisGreenhills지프니연결"
+        },
+        {
+          "url": "https://www.transit.land/explore/stops/s-wdw54er08e-mrt~3santolan~annapolisstationedsaepifaniodelossantosavquezoncitymanila",
+          "grade": "B",
+          "says": "LTFRB원천Gate5–Greenhills연결노선데이터"
+        }
+      ],
+      "decision": "운영사공식역존재와다른출처접근대조.지프니운영사당일배차/운임미확인으로정해진요금·배차·승차대번호미수록,실제운행차확인안내.원문MRTOrtigas최적/택시5분주장미채택.별도LRT2Santolan혼동방지."
+    },
+    {
+      "where": "best_time",
+      "fact": "영업시간충돌",
+      "value": "고정시간·연중무휴보장안함",
+      "sources": [
+        {
+          "url": "https://www.ortigasmalls.com/greenhills/",
+          "grade": "A",
+          "says": "검색색인디렉터리:GHMall·Vmall·Shoppesville·Promenade·OSquare점포와식당,월–목10–21/금–일10–22표시.본문읽기는동적페이지로빈결과"
+        },
+        {
+          "url": "https://mapcarta.com/W319270987",
+          "grade": "B",
+          "says": "OSM개별GHMall월–목11–21/금–일10–22로공식검색디렉터리10시오픈과다름"
+        },
+        {
+          "url": "https://interaksyon.philstar.com/trends-spotlights/2026/03/27/311220/rundown-malls-adjust-hours-nationwide-amid-energy-emergency/amp/",
+          "grade": "B",
+          "says": "2026-03-27GHMall4월1일이후월–목시간단축공식성명인용",
+          "date": "2026-03-27"
+        }
+      ],
+      "decision": "변동·충돌때문에숫자시간수록하지않고방문전날최신Greenhills/OrtigasMalls확인.2026-11-16연말시간변경소셜미러검색발견했으나공식원문미확인이라시간추정안함.시즌권장은일반실내쇼핑·도심보행편집계획."
+    },
+    {
+      "where": "cautions,tips",
+      "fact": "위조품문제·거래확인",
+      "value": "진위와출처확인·2026현장IP창구공지",
+      "sources": [
+        {
+          "url": "https://www.ipophil.gov.ph/news/ipophl-ncipr-open-historic-greenhills-ip-help-desk-to-reinforce-respect-for-ip-rights-among-traders/",
+          "grade": "A",
+          "says": "2026-04-21그린힐스IP상담창구개설·정당한거래전환·위조상품이슈",
+          "date": "2026-04-21"
+        },
+        {
+          "url": "https://businessmirror.com.ph/2026/04/20/ipophl-desk-eyes-notorious-markets-exit/",
+          "grade": "B",
+          "says": "2026-04-20IP상담창구개설보도",
+          "date": "2026-04-20"
+        }
+      ],
+      "decision": "실제공식공지·최근기사교차대조.모든매장이가짜라고단정안함,진위미확인제품구매보류권장.법률처벌·세관구체규칙새로주장안함.계정/보증확인은일반구매절차조언이며특정업소사고주장아님."
+    },
+    {
+      "where": "budget,costs,itinerary,stay_and_food",
+      "fact": "계획예산·일정",
+      "value": "식음400–700+시내교통400–1000+예비200–300=1000–2000PHP",
+      "sources": [
+        {
+          "url": "https://www.ortigas.com.ph/malls/gh-mall",
+          "grade": "A",
+          "says": "GHMall at OrtigasAvenue SanJuan,의류·신발·진주·전자제품특화"
+        },
+        {
+          "url": "https://www.ortigasmalls.com/greenhills/",
+          "grade": "A",
+          "says": "검색색인디렉터리:GHMall·Vmall·Shoppesville·Promenade·OSquare점포와식당,월–목10–21/금–일10–22표시.본문읽기는동적페이지로빈결과"
+        }
+      ],
+      "decision": "전부개인계획액명시,현재판매가·입장료아님.쇼핑·영화·주차·항공·숙박·공항이동제외.특정매장의카드결제·진위·보증·가격을보장하지않음.4.6평점은기존저장소방식의편집값,외부리뷰평균아님."
+    }
+  ],
+  "images": [
+    {
+      "file": "310-greenhills-shopping-center.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Greenhills_Mall_Park.jpg",
+      "artist": "Ganmatthew",
+      "license": "CC0",
+      "captured_at": "2024-02-21 15:59:12",
+      "original_width": 4032,
+      "original_height": 2268,
+      "check": "2024년 그린힐스 몰 건물 사이의 나무와 보행 공간 — Commons작가·라이선스·설명·단지대조.원본11장및최종10장직접열어눈검수.식당로고클로즈업GloriaMaris는제외,2025Vmall자전거는다운로드429로제외.공원·옛표지·실내장식·티앙게전경·연결도로·VMall일반내부·OSquare전경·자전거시설·의류매대·2026신관실제점포로다른대상/날짜분산.과거사진연도alt기재.실제점포간판은현장사진의일부이며추가워터마크없음."
+    },
+    {
+      "file": "310-greenhills-shopping-center-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Greenhills_Shopping_Center.jpg",
+      "artist": "Badudoy",
+      "license": "CC BY 3.0",
+      "captured_at": "2010-11-04",
+      "original_width": 2592,
+      "original_height": 1552,
+      "check": "2010년 그린힐스의 옛 입구 간판과 계절 장식 — Commons작가·라이선스·설명·단지대조.원본11장및최종10장직접열어눈검수.식당로고클로즈업GloriaMaris는제외,2025Vmall자전거는다운로드429로제외.공원·옛표지·실내장식·티앙게전경·연결도로·VMall일반내부·OSquare전경·자전거시설·의류매대·2026신관실제점포로다른대상/날짜분산.과거사진연도alt기재.실제점포간판은현장사진의일부이며추가워터마크없음."
+    },
+    {
+      "file": "310-greenhills-shopping-center-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Vmalljf.JPG",
+      "artist": "Ramon FVelasquez",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2012-01-17",
+      "original_width": 3264,
+      "original_height": 2448,
+      "check": "2012년 V-Mall 내부의 에스컬레이터와 계절 장식 — Commons작가·라이선스·설명·단지대조.원본11장및최종10장직접열어눈검수.식당로고클로즈업GloriaMaris는제외,2025Vmall자전거는다운로드429로제외.공원·옛표지·실내장식·티앙게전경·연결도로·VMall일반내부·OSquare전경·자전거시설·의류매대·2026신관실제점포로다른대상/날짜분산.과거사진연도alt기재.실제점포간판은현장사진의일부이며추가워터마크없음."
+    },
+    {
+      "file": "310-greenhills-shopping-center-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Greenhills_Shopping_Center_(35106417321).jpg",
+      "artist": "Takamorry from Fukui, Japan",
+      "license": "CC BY-SA 2.0",
+      "captured_at": "2017-06-11 13:18",
+      "original_width": 2048,
+      "original_height": 1536,
+      "check": "2017년 그린힐스 티앙게의 의류와 전자제품 매대 전경 — Commons작가·라이선스·설명·단지대조.원본11장및최종10장직접열어눈검수.식당로고클로즈업GloriaMaris는제외,2025Vmall자전거는다운로드429로제외.공원·옛표지·실내장식·티앙게전경·연결도로·VMall일반내부·OSquare전경·자전거시설·의류매대·2026신관실제점포로다른대상/날짜분산.과거사진연도alt기재.실제점포간판은현장사진의일부이며추가워터마크없음."
+    },
+    {
+      "file": "310-greenhills-shopping-center-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Greenhills_Shopping_Center_San_Juan_Driveway_Bridgeway.jpg",
+      "artist": "Matthew Gan",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2022-06-02 14:52:45",
+      "original_width": 4032,
+      "original_height": 2268,
+      "check": "2022년 그린힐스 건물 사이 차도와 연결 통로 — Commons작가·라이선스·설명·단지대조.원본11장및최종10장직접열어눈검수.식당로고클로즈업GloriaMaris는제외,2025Vmall자전거는다운로드429로제외.공원·옛표지·실내장식·티앙게전경·연결도로·VMall일반내부·OSquare전경·자전거시설·의류매대·2026신관실제점포로다른대상/날짜분산.과거사진연도alt기재.실제점포간판은현장사진의일부이며추가워터마크없음."
+    },
+    {
+      "file": "310-greenhills-shopping-center-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Virra-Mall_Interior.jpg",
+      "artist": "Villem Ogost",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2023-01-15",
+      "original_width": 4640,
+      "original_height": 3472,
+      "check": "2023년 V-Mall 내부의 여러 층과 상점 — Commons작가·라이선스·설명·단지대조.원본11장및최종10장직접열어눈검수.식당로고클로즈업GloriaMaris는제외,2025Vmall자전거는다운로드429로제외.공원·옛표지·실내장식·티앙게전경·연결도로·VMall일반내부·OSquare전경·자전거시설·의류매대·2026신관실제점포로다른대상/날짜분산.과거사진연도alt기재.실제점포간판은현장사진의일부이며추가워터마크없음."
+    },
+    {
+      "file": "310-greenhills-shopping-center-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Greenhills_O_Square_1.jpg",
+      "artist": "Ganmatthew",
+      "license": "CC0",
+      "captured_at": "2024-01-21 15:35:44",
+      "original_width": 4032,
+      "original_height": 2268,
+      "check": "2024년 오 스퀘어 1의 식당과 중정 — Commons작가·라이선스·설명·단지대조.원본11장및최종10장직접열어눈검수.식당로고클로즈업GloriaMaris는제외,2025Vmall자전거는다운로드429로제외.공원·옛표지·실내장식·티앙게전경·연결도로·VMall일반내부·OSquare전경·자전거시설·의류매대·2026신관실제점포로다른대상/날짜분산.과거사진연도alt기재.실제점포간판은현장사진의일부이며추가워터마크없음."
+    },
+    {
+      "file": "310-greenhills-shopping-center-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Greenhills_O_Square_2_Bike_Racks.jpg",
+      "artist": "Ganmatthew",
+      "license": "CC BY 4.0",
+      "captured_at": "2024-05-01 18:52:12",
+      "original_width": 4000,
+      "original_height": 2252,
+      "check": "2024년 오 스퀘어 2 주변 식당과 자전거 거치 공간 — Commons작가·라이선스·설명·단지대조.원본11장및최종10장직접열어눈검수.식당로고클로즈업GloriaMaris는제외,2025Vmall자전거는다운로드429로제외.공원·옛표지·실내장식·티앙게전경·연결도로·VMall일반내부·OSquare전경·자전거시설·의류매대·2026신관실제점포로다른대상/날짜분산.과거사진연도alt기재.실제점포간판은현장사진의일부이며추가워터마크없음."
+    },
+    {
+      "file": "310-greenhills-shopping-center-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Clothes_stall_at_Greenhills.jpg",
+      "artist": "Hariboneagle927",
+      "license": "CC0",
+      "captured_at": "2024-06-18 09:23:34",
+      "original_width": 2770,
+      "original_height": 2268,
+      "check": "2024년 그린힐스의 의류 티앙게 매대 — Commons작가·라이선스·설명·단지대조.원본11장및최종10장직접열어눈검수.식당로고클로즈업GloriaMaris는제외,2025Vmall자전거는다운로드429로제외.공원·옛표지·실내장식·티앙게전경·연결도로·VMall일반내부·OSquare전경·자전거시설·의류매대·2026신관실제점포로다른대상/날짜분산.과거사진연도alt기재.실제점포간판은현장사진의일부이며추가워터마크없음."
+    },
+    {
+      "file": "310-greenhills-shopping-center-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Brooks_Store,_GH_Mall.jpg",
+      "artist": "Areaseven",
+      "license": "CC0",
+      "captured_at": "2026-11-10 12:17:46",
+      "original_width": 4000,
+      "original_height": 2252,
+      "check": "2026년 11월 GH Mall 신관의 스포츠용품 매장 — Commons작가·라이선스·설명·단지대조.원본11장및최종10장직접열어눈검수.식당로고클로즈업GloriaMaris는제외,2025Vmall자전거는다운로드429로제외.공원·옛표지·실내장식·티앙게전경·연결도로·VMall일반내부·OSquare전경·자전거시설·의류매대·2026신관실제점포로다른대상/날짜분산.과거사진연도alt기재.실제점포간판은현장사진의일부이며추가워터마크없음."
+    }
+  ],
+  "image_processing": {
+    "prompt": "data/images/310-greenhills-shopping-center-prompt.txt",
+    "method": "CodexCLI에만가로1080비율유지WebPq80정량변환위임.크롭회전색보정내용생성없음.원본SHA불변·치수·디코딩검증통과.",
+    "report": "work/parallel-1992/luzon/310-greenhills-shopping-center-conversion-report.json"
+  },
+  "translation": {
+    "method": "한영직접집필101줄export/check/import성공",
+    "fallback": "다른6언어부모통합선언대기"
+  }
+}

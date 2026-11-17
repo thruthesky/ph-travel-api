@@ -1,0 +1,467 @@
+{
+  "id": 328,
+  "slug": "danao-city",
+  "checked_at": "2026-11-17T05:43:43Z",
+  "facts": [
+    {
+      "where": "overview, duplicate",
+      "fact": "세부 다나오의 독립 범위",
+      "value": "세부 해안도심, 기존180보홀 Danao Adventure Park와 별개",
+      "sources": [
+        {
+          "url": "https://tourism.cebu.gov.ph/explore/danao-city/",
+          "grade": "A",
+          "says": "세부 Danao 위치와 관광지 소개"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Danao,_Cebu",
+          "grade": "B",
+          "says": "세부 북동부 도시·카모테스해"
+        }
+      ],
+      "decision": "duplicate.mjs 명칭/좌표 대조 일치0건. 필고1275712774의보홀파크 혼동·불명섬/동굴·낡은운임·불법총기연계관광은수입안함. 기존306릴로안과도별개"
+    },
+    {
+      "where": "latitude, longitude",
+      "fact": "지도 대표 핀",
+      "value": [
+        10.5207,
+        124.0284
+      ],
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/way/620778886",
+          "grade": "B",
+          "says": "Santo Tomas Church9가아닌10.5206554,124.0284360. Nominatim JSON보존"
+        },
+        {
+          "url": "https://mapcarta.com/W620778886",
+          "grade": "B",
+          "says": "동일church10.52066,124.02846"
+        },
+        {
+          "url": "https://waypoints.ph/detail_gen_wpt_danaoc.html",
+          "grade": "C",
+          "says": "직접GPS표시10°31.226N124°01.737E, 성당범위대조"
+        }
+      ],
+      "decision": "본핀은시전체무게중심아닌도보출발성당임을명시. Mapcarta의Davao지역혼입메타는버리고OSM·시정부주소대조"
+    },
+    {
+      "where": "overview, highlights, itinerary",
+      "fact": "시정부 도보 코스와 참가 조건",
+      "value": "2024년 City Walk Tour의항구·대포·옛시장자리·기념비·성당·종·로터리·리살기념물등",
+      "sources": [
+        {
+          "url": "https://danaocity.gov.ph/2024/09/08/danao-city-launches-another-tourism-activity-the-danao-city-walk-tour-welcomes-clean-mobility-collective-southeast-asia-as-first-guests/",
+          "grade": "A",
+          "date": "2024-09-08",
+          "says": "12개지점 CityWalk출범. 당시무료는dryrun한정,별도sikad200PHP"
+        },
+        {
+          "url": "https://danaocity.gov.ph/2026/10/27/danao-city-charts-tourism-growth-that-creates-livelihoods-protects-heritage/",
+          "grade": "A",
+          "date": "2026-10-27",
+          "says": "2026현재유산·공동체관광을연결하고서비스개발중"
+        }
+      ],
+      "decision": "2024무료/200PHP를현재확정요금으로소개하지않음. 실제예약·가이드는현행문의"
+    },
+    {
+      "where": "overview, highlights, cautions",
+      "fact": "향후 개발과 현재 구분",
+      "value": "Tawsan확장·MtManghilao캠핑·라운지는2027개발계획",
+      "sources": [
+        {
+          "url": "https://danaocity.gov.ph/2026/10/27/danao-city-charts-tourism-growth-that-creates-livelihoods-protects-heritage/",
+          "grade": "A",
+          "date": "2026-10-27",
+          "says": "2027개발3계획:맹그로브보드워크·캠프장/전망대·관광라운지"
+        },
+        {
+          "url": "https://www.philstar.com/the-freeman/cebu-news/2026/10/28/2566287/danao-opens-tourism-and-expo-summit/",
+          "grade": "B",
+          "date": "2026-10-28",
+          "says": "2027계획과아직예산승인필요한사업을보도"
+        }
+      ],
+      "decision": "미완공시설을상설개방명소로판매하지않음. 내륙시설은해안도심과별도일정"
+    },
+    {
+      "where": "highlights, best_time",
+      "fact": "카란사와 파믹피카이",
+      "value": "2026-09-20거리춤·RitualShowdown,도자기전통과연계",
+      "sources": [
+        {
+          "url": "https://danaocity.gov.ph/2026/09/23/danao-celebrates-20-years-of-karansa-honors-faith-and-culture-shaped-by-danawanon-hands/",
+          "grade": "A",
+          "date": "2026-09-23",
+          "says": "2026축제20주년,9/20거리춤·경기장쇼다운,도자기모티프"
+        },
+        {
+          "url": "https://danaocity.gov.ph/2026/10/27/danao-city-charts-tourism-growth-that-creates-livelihoods-protects-heritage/",
+          "grade": "A",
+          "date": "2026-10-27",
+          "says": "2026다섯MasterArtisan인증"
+        },
+        {
+          "url": "https://www.philstar.com/the-freeman/cebu-news/2026/10/28/2566287/danao-opens-tourism-and-expo-summit/",
+          "grade": "B",
+          "date": "2026-10-28",
+          "says": "도자기전통보존·장인인증보도"
+        }
+      ],
+      "decision": "2027일정미확정,무예약상설공방단정안함. 축제사진은2023·2024기록"
+    },
+    {
+      "where": "highlights",
+      "fact": "성당의 현재 종교 활동",
+      "value": "산토토마스성당,2026-09축제미사개최",
+      "sources": [
+        {
+          "url": "https://thearchdioceseofcebu.com/the-poor-are-gods-presence-says-archbishop-abet/",
+          "grade": "A",
+          "date": "2026-09-21",
+          "says": "2026-09-21Danao본당축제미사기록"
+        },
+        {
+          "url": "https://danaocity.gov.ph/2024/09/08/danao-city-launches-another-tourism-activity-the-danao-city-walk-tour-welcomes-clean-mobility-collective-southeast-asia-as-first-guests/",
+          "grade": "A",
+          "says": "도보코스성당·옛종 포함"
+        },
+        {
+          "url": "https://www.theoldchurches.com/philippines/cebu/danao-city/sto-tomas-de-villanueva-church-in-danao-cebu/",
+          "grade": "C",
+          "says": "정면코랄스톤·비대칭종탑·공간설명"
+        }
+      ],
+      "decision": "건립연도서로달라본문연도단정하지않음. 2025재난이후활동을확인했고임시규정은현장안내우선"
+    },
+    {
+      "where": "getting_there, best_time, stay_and_food",
+      "fact": "북행 접근·지역 음식·계절",
+      "value": "NorthBusTerminal북행, CebuNorthRoad축, tinap-anan,11~5월권장자료",
+      "sources": [
+        {
+          "url": "https://tourism.cebu.gov.ph/explore/danao-city/",
+          "grade": "A",
+          "says": "북행버스·지프니·현대식교통,통과도시,훈제생선·계절"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Danao,_Cebu",
+          "grade": "B",
+          "says": "세부 북동부 도로·카모테스해 위치"
+        }
+      ],
+      "decision": "안내주행45분~1시간을대기/정체포함보장시간으로수록안함. 운임·막차현재조회. 추천시기는1~5월부분집합"
+    },
+    {
+      "where": "getting_there, airport",
+      "fact": "마닐라–세부 항공 접근",
+      "value": "MNL–CEB후육로,CEB는막탄섬",
+      "sources": [
+        {
+          "url": "https://flights.philippineairlines.com/en-ph/flights-from-manila-to-cebu",
+          "grade": "A",
+          "says": "MNL–CEB직항판매현황"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mactan%E2%80%93Cebu_International_Airport",
+          "grade": "B",
+          "says": "막탄섬공항·Manila노선"
+        }
+      ],
+      "decision": "시간·운임고정수록안함. 공항·도시육로구간분리"
+    },
+    {
+      "where": "getting_there, nearby",
+      "fact": "카모테스 연결",
+      "value": "DanaoPort에서Camotes방향,도착항·시간은선사별확인",
+      "sources": [
+        {
+          "url": "https://www.cpa.gov.ph/the-cebu-port-system",
+          "grade": "A",
+          "says": "DanaoSubport및CamotesPoro항확인"
+        },
+        {
+          "url": "https://gothongseabus.com/",
+          "grade": "A",
+          "says": "현재Camotes–Danao연결및회사공식시각표"
+        }
+      ],
+      "decision": "특정회사운임·시각을모든Camotes도착항노선에대입하지않음"
+    },
+    {
+      "where": "costs, itinerary, budget",
+      "fact": "개인 지출·일정 계획",
+      "value": "1000~2000PHP하루예시",
+      "sources": [],
+      "decision": "식300~600+음료100~200+현지200~400+왕복배분200~400+예비200~400=1000~2000검산. 업체요금아닌배분액임을한영명시. 숙박·항공·공항·유료체험별도"
+    },
+    {
+      "where": "gallery, overview, tips",
+      "fact": "보조사진의 정확한 맥락",
+      "value": "Intosan2015압착기·SandayongSur2021경기 사진",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Trapiche_in_Intosan_resort,_Taboc,_Danao.jpg",
+          "grade": "C",
+          "says": "Commons원설명TabocIntosan의relic"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Peak_of_Danao_Cebu.jpg",
+          "grade": "C",
+          "says": "Commons원설명SandayongSurDanao자전거경기"
+        },
+        {
+          "url": "https://danaocity.gov.ph/accommodation1/",
+          "grade": "A",
+          "says": "TabocIntosan시설주소등재"
+        }
+      ],
+      "decision": "사진의촬영시기/장소명시. 유료시설현재제공·전시물존속·경기코스상시개방근거로쓰지않음"
+    }
+  ],
+  "images": [
+    {
+      "file": "328-danao-city.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Danao_city_from_the_sea.jpg",
+      "credit": "Headshop5 / CC0 / Wikimedia Commons",
+      "date": "2026-07-07 09:35:50",
+      "check": "실제Danao해안과부두를바다에서보는전경; 원본과가공본모두직접열어눈검수",
+      "source_metadata": {
+        "id": 328,
+        "slug": "danao-city",
+        "number": 1,
+        "title": "File:Danao city from the sea.jpg",
+        "artist": "Headshop5",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Danao_city_from_the_sea.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city.webp",
+        "width": 6192,
+        "height": 4128,
+        "date": "2026-07-07 09:35:50",
+        "description": "A view of Danao, Philippines from the sea",
+        "categories": "CC-Zero|Self-published work|All media needing categories as of 2026|Media needing categories as of 15 July 2026",
+        "sha256": "c393c117c5c2cb0c963cb7572aaf669458cf5dc8d38ec391f2b2dd50b83fee88"
+      }
+    },
+    {
+      "file": "328-danao-city-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Danao_City_Hall_at_night_02.jpg",
+      "credit": "QueenCityCebu / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-06-14 20:40:25",
+      "check": "시청기둥과정면,밤사진. 보드워크와다른작가; 원본과가공본모두직접열어눈검수",
+      "source_metadata": {
+        "id": 328,
+        "slug": "danao-city",
+        "number": 2,
+        "title": "File:Danao City Hall at night 02.jpg",
+        "artist": "QueenCityCebu",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Danao_City_Hall_at_night_02.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-2.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-2.webp",
+        "width": 4032,
+        "height": 2268,
+        "date": "2026-06-14 20:40:25",
+        "description": "Danao City Hall at night in City of Danao, Cebu",
+        "categories": "Danao, Cebu|Self-published work|Files with coordinates missing SDC location of creation|WikiClub Cebu|WikiNights|WikiNights Cebu",
+        "sha256": "e7559e770eddd7e086c0d22e0b4c2c52ca194d96d866e3ff4001f9c262ef26c9"
+      }
+    },
+    {
+      "file": "328-danao-city-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Danao_Boardwalk_at_night_in_City_of_Danao,_Cebu_02.jpg",
+      "credit": "Iampjanz / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2026-06-14 20:12:11",
+      "check": "주민이쉬는해안공공공간,시청사진과다른작가; 원본과가공본모두직접열어눈검수",
+      "source_metadata": {
+        "id": 328,
+        "slug": "danao-city",
+        "number": 3,
+        "title": "File:Danao Boardwalk at night in City of Danao, Cebu 02.jpg",
+        "artist": "Iampjanz",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Danao_Boardwalk_at_night_in_City_of_Danao,_Cebu_02.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-3.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-3.webp",
+        "width": 4032,
+        "height": 2268,
+        "date": "2026-06-14 20:12:11",
+        "description": "Danao Boardwalk at night in City of Danao, Cebu",
+        "categories": "Danao, Cebu|Self-published work|Files with coordinates missing SDC location of creation|WikiClub Cebu|WikiNights|WikiNights Cebu",
+        "sha256": "8282a22786c38bd60d597d07bd69c4033e825b25afcfc3728e2f307d241d0d05"
+      }
+    },
+    {
+      "file": "328-danao-city-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sto._Tomas_de_Villanueva_Parish_Church.jpg",
+      "credit": "Hams nocete / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "Taken on 15 September 2024, 06:44:34 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+      "check": "2024성당정면흑백. 원본부터흑백임을확인; 원본과가공본모두직접열어눈검수",
+      "source_metadata": {
+        "id": 328,
+        "slug": "danao-city",
+        "number": 4,
+        "title": "File:Sto. Tomas de Villanueva Parish Church.jpg",
+        "artist": "Hams nocete",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sto._Tomas_de_Villanueva_Parish_Church.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-4.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-4.webp",
+        "width": 6000,
+        "height": 4000,
+        "date": "Taken on 15 September 2024, 06:44:34 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+        "description": "The church was administered by the Augustinian Recollects as early as 1621, It became an independent parish in 1742, marking its formal recognition as a distinct religious community. St. Thomas of Villanova, A Spanish saint known for his charity and humility. The church remains a vital spiritual center for Danao City, Cebu, hosting regular masses, feast day celebrations, and community events. It is a landmark of faith and heritage, reflecting centuries of devotion and resilience.",
+        "categories": "Self-published work|Taken on missing SDC inception|Uploaded via Campaign:wlm-ph|Churches in the Philippines photographed in 2024|Images from Wiki Loves Monuments missing SDC inception|Images from Wiki Loves Monuments missing SDC creator|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation|Images from Wiki Loves Monuments missing SDC source of file|Black and white photographs of the Philippines in the 2020s|Philippines photographs taken on 2024-09-15|Images from Wiki Loves Monuments 2025|Facade of Santo Tomas de Villanueva Parish Church (Danao, Cebu)|Images from Wiki Loves Monuments 2025 in the Philippines",
+        "sha256": "5993b29f26b19ed54d5278c52ed2263dc6fd057af7e6206e24c8739cf4f7135f"
+      }
+    },
+    {
+      "file": "328-danao-city-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Trapiche_in_Intosan_resort,_Taboc,_Danao.jpg",
+      "credit": "Alice Zhang Mengping / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2015-12-21 15:09:00",
+      "check": "2015Intosan압착기. 오래된보조자료임을alt와본문에명시; 원본과가공본모두직접열어눈검수",
+      "source_metadata": {
+        "id": 328,
+        "slug": "danao-city",
+        "number": 5,
+        "title": "File:Trapiche in Intosan resort, Taboc, Danao.jpg",
+        "artist": "Alice Zhang Mengping",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Trapiche_in_Intosan_resort,_Taboc,_Danao.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-5.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-5.webp",
+        "width": 2592,
+        "height": 1456,
+        "date": "2015-12-21 15:09:00",
+        "description": "Trapiche now a relic on the Intosan campus.",
+        "categories": "Danao, Cebu|Trapiche|Self-published work|Files with coordinates missing SDC location of creation",
+        "sha256": "8a1ea5c39e33b485e04ed166d8d9541db93dd86d40df78edbefca75d927c7767"
+      }
+    },
+    {
+      "file": "328-danao-city-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Peak_of_Danao_Cebu.jpg",
+      "credit": "Mr.moonlight24 / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2021-06-12 14:25:05",
+      "check": "SandayongSur자전거경기. 얼굴이주제가아닌산지와활동; 원본과가공본모두직접열어눈검수",
+      "source_metadata": {
+        "id": 328,
+        "slug": "danao-city",
+        "number": 6,
+        "title": "File:Peak of Danao Cebu.jpg",
+        "artist": "Mr.moonlight24",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Peak_of_Danao_Cebu.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-6.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-6.webp",
+        "width": 3600,
+        "height": 2400,
+        "date": "2021-06-12 14:25:05",
+        "description": "Wheels on ordinary roads is no longer a challenging coarse for this riders. Breaking that normal and ordinary rides, a group of cyclers took the challenge in this muddy mountain in Sandayong Sur, Danao, Cebu, Philippines. From above, breathing the fresh air adds the endurance of these riders. Life away from the city makes you to embrace the beauty of the Earth.",
+        "categories": "Mountain biking|Danao, Cebu|Self-published work|Images from Wiki Loves Earth 2021|Images from Wiki Loves Earth 2021 in the Philippines|Uploaded via Campaign:wle-ph|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation",
+        "sha256": "f458097577423df402b9d8fffcf70ca9b409ac6b471ef4a1405f703f093d0b85"
+      }
+    },
+    {
+      "file": "328-danao-city-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cebu_North_Road_in_Danao,_Cebu_(2025-06-06).jpg",
+      "credit": "Wide Awake! / CC BY 4.0 / Wikimedia Commons",
+      "date": "2025-06-06 13:10:16",
+      "check": "CebuNorthRoad도심거리와교통관계; 원본과가공본모두직접열어눈검수",
+      "source_metadata": {
+        "id": 328,
+        "slug": "danao-city",
+        "number": 7,
+        "title": "File:Cebu North Road in Danao, Cebu (2025-06-06).jpg",
+        "artist": "Wide Awake!",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cebu_North_Road_in_Danao,_Cebu_(2025-06-06).jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-7.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-7.webp",
+        "width": 4160,
+        "height": 3120,
+        "date": "2025-06-06 13:10:16",
+        "description": "Cebu North Road is located in Danao, Cebu.",
+        "categories": "Danao, Cebu|Self-published work|Philippines photographs taken on 2025-06-06|Photographs of streets by Thewideawake1|Photographs of Cebu (province) by Thewideawake1|Photographs by Thewideawake1 taken with Tecno Spark Go 1S|June 2025 photographs by Thewideawake1",
+        "sha256": "7baaf77ef06a93455ce4731dd124b8cfec1124827dcaf915c70e92df12409e9c"
+      }
+    },
+    {
+      "file": "328-danao-city-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Danao,_Cebu_2017-05_02.jpg",
+      "credit": "John Martin Perry / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2017-05-04 10:30:28",
+      "check": "2017성당중앙공간. 2024정면과다른각도·작가; 원본과가공본모두직접열어눈검수",
+      "source_metadata": {
+        "id": 328,
+        "slug": "danao-city",
+        "number": 8,
+        "title": "File:Danao, Cebu 2017-05 02.jpg",
+        "artist": "John Martin Perry",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Danao,_Cebu_2017-05_02.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-8.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-8.webp",
+        "width": 2592,
+        "height": 1456,
+        "date": "2017-05-04 10:30:28",
+        "description": "Sto Tomas de Villanueva (inside)",
+        "categories": "Self-published work|Files with coordinates missing SDC location of creation|Nave of Santo Tomas de Villanueva Parish Church (Danao, Cebu)",
+        "sha256": "d963c0cd5f71d496b811e43f486cff77044ca253320aa4d6e8a625524e653c86"
+      }
+    },
+    {
+      "file": "328-danao-city-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Karansa_Festival_13.jpg",
+      "credit": "Jumzchino / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2023-09-17 14:24:40",
+      "check": "Karansa2023무대전신공연·여러무용수의장면. 얼굴근접사진제외; 원본과가공본모두직접열어눈검수",
+      "source_metadata": {
+        "id": 328,
+        "slug": "danao-city",
+        "number": 9,
+        "title": "File:Karansa Festival 13.jpg",
+        "artist": "Jumzchino",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Karansa_Festival_13.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-9.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-9.webp",
+        "width": 3388,
+        "height": 2420,
+        "date": "2023-09-17 14:24:40",
+        "description": "Karansa Festival is a cultural festival and religious fiesta in the city of Dana, Philippines celebrated very third Sunday of September in honor of St. Thomas de Villanueva, the patron saint of the City.",
+        "categories": "Self-published work|Images from Wiki Loves Folklore 2024|Festivals in the Philippines|Images from Wiki Loves Folklore 2024 in the Philippines|Images from Wiki Loves Folklore 2024 to check|Uploaded via Campaign:wlf 2024|Karansa Festival",
+        "sha256": "54336a9fe56d45b057dae99e65a0546170d2b2065fb4f647be696f63c1019a01"
+      }
+    },
+    {
+      "file": "328-danao-city-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Karansa_na_Kita!.jpg",
+      "credit": "Kentfotosx / CC BY-SA 4.0 / Wikimedia Commons",
+      "date": "2024-09-15 13:45:50",
+      "check": "Karansa2024항아리소품단체춤.2023밤무대와다른시기·작가·구도; 원본과가공본모두직접열어눈검수",
+      "source_metadata": {
+        "id": 328,
+        "slug": "danao-city",
+        "number": 10,
+        "title": "File:Karansa na Kita!.jpg",
+        "artist": "Kentfotosx",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Karansa_na_Kita!.jpg",
+        "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-10.jpg",
+        "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/visayas/assets/328-danao-city-10.webp",
+        "width": 4000,
+        "height": 2667,
+        "date": "2024-09-15 13:45:50",
+        "description": "Karansa Festival dancers are seen dancing with their big props of pot/vase replica despite the rain.",
+        "categories": "Self-published work|Philippine folklore|Images from Wiki Loves Folklore 2025|Images from Wiki Loves Folklore 2025 in the Philippines|Images from Wiki Loves Folklore 2025 to check|Uploaded via Campaign:wlf 2025",
+        "sha256": "29d6c619f6bd36b0f4f7bfd77ff205379a36131f76e2d3d755ad788e675e9843"
+      }
+    }
+  ]
+}

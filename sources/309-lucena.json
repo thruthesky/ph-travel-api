@@ -1,0 +1,299 @@
+{
+  "id": 309,
+  "slug": "lucena",
+  "checked_at": "2026-11-17T05:35:14.421102+00:00",
+  "facts": [
+    {
+      "where": "전체",
+      "fact": "원본대조와신규성",
+      "value": "원본CSV·TSV에Lucena독립행없음·기존276개대장일치없음",
+      "sources": [
+        {
+          "url": "work/philgo-registration-audit.csv",
+          "grade": "C",
+          "says": "루세나독립항목없음,기존루크반·마린두케·카그발레테본문교통거점으로언급"
+        }
+      ],
+      "decision": "외부발굴보완:원목록에연계된케손주·마린두케여행의교통거점겸독립도심.특정필고글직접원문유래라고주장하지않음.두원본csv/tsv문자열대조Lucena/루세나행0.duplicate.mjs name/좌표일치0.기존본문교통언급은실제도시관광상세와구분."
+    },
+    {
+      "where": "location,latitude,longitude",
+      "fact": "대표좌표",
+      "value": "성페르디난도대성당13.9360/121.6122",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lucena_Cathedral",
+          "grade": "B",
+          "says": "대성당13.93597/121.61222·구도심Barangay5·현역성당"
+        },
+        {
+          "url": "https://mapcarta.com/W553876737",
+          "grade": "B",
+          "says": "OSMway553876737대성당13.93595/121.61235,주소QuezonAvenue"
+        },
+        {
+          "url": "https://www.waze.com/live-map/directions/ph/calabarzon/lucena-city/st.-ferdinand-cathedral-parish?to=place.ChIJtVQg61tLvTMR51bScIB0u60",
+          "grade": "B",
+          "says": "St.FerdinandCathedralParish도시명과WJP6+9WP지번·교구사이트연결"
+        }
+      ],
+      "decision": "도시전체중앙점을임의선정하지않고본문에성당주변구도심기준명시.위키/OSM건물점차약14m로동일대상.터미널·항구좌표아님."
+    },
+    {
+      "where": "overview,highlights",
+      "fact": "도심볼거리·음식",
+      "value": "성당·PerezPark·주청사·차미·틴아파",
+      "sources": [
+        {
+          "url": "https://quezon.gov.ph/citiesmunicipalities/",
+          "grade": "A",
+          "says": "CityofLucena절:케손주도·교통/서비스중심·주청사·대성당·PerezPark·차미"
+        },
+        {
+          "url": "https://dioceseoflucena.org/parish.cfm",
+          "grade": "A",
+          "says": "St.FerdinandCathedralParishLucenaCity,교구현재본당목록"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lucena",
+          "grade": "B",
+          "says": "케손주의도시,주청사·성당·항구·차미·틴아파,일부수치신뢰성경고와행정지위본문모순있음"
+        },
+        {
+          "url": "https://www.philstar.com/pilipino-star-ngayon/probinsiya/2025/05/24/2445401/pasayahan-sa-lucena-2025-sinimulan",
+          "grade": "B",
+          "says": "2025차미요리먹기경연·틴아파관련행사",
+          "date": "2025-05-24"
+        }
+      ],
+      "decision": "도시인구·면적·HUC/component행정지위·건설연도·양식등출처충돌수치는본문생략.성당·청사내부자유개방및도시전체운영시간보장안함.식재료는가게별다름명시,예산판매가없음."
+    },
+    {
+      "where": "getting_there",
+      "fact": "육상교통",
+      "value": "JAC마닐라–루세나·그랜드터미널과달라히칸종점구별",
+      "sources": [
+        {
+          "url": "https://jacliner.com/terminals-and-routes",
+          "grade": "A",
+          "says": "Kamias·Buendia·LucenaGrandCentralTerminalIlayangDupay·DalahicanPort명칭과Lucena/Dalahican노선"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Lucena",
+          "grade": "B",
+          "says": "수도·도심·버스·항구·시내이동관광.일부주소등은공식정보와차이있어우선순위낮춤"
+        },
+        {
+          "url": "https://lto.gov.ph/wp-content/uploads/2025/07/R4A-Directory-07152025.pdf",
+          "grade": "A",
+          "says": "정부LTO주소LucenaGrandCentralTerminal·LucenaCity"
+        }
+      ],
+      "decision": "브랜드검색으로나온jaclinerbus.com은별도모방/예약사이트가능해미사용.운영사jacliner.com우선.정액운임·배차·소요시간미확정생략,정류장도착일확인.공항이후육로필요만안내."
+    },
+    {
+      "where": "getting_there,highlights",
+      "fact": "선박연계",
+      "value": "Lucena–Balanacan",
+      "sources": [
+        {
+          "url": "https://starhorse.com.ph/routes",
+          "grade": "A",
+          "says": "FromLucena목록Lucena–Balanacan항로"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Lucena",
+          "grade": "B",
+          "says": "수도·도심·버스·항구·시내이동관광.일부주소등은공식정보와차이있어우선순위낮춤"
+        },
+        {
+          "url": "https://www.ppa.com.ph/node/23531",
+          "grade": "A",
+          "says": "2026신여객터미널시설보도·도시관광거점",
+          "date": "2026-07"
+        }
+      ],
+      "decision": "현재항로존재와지리적연계만안내.선박시간·요금·접수마감수치미확정생략.당일운항사/항만확인.항구관광객자유입장이나부두산책허용주장안함."
+    },
+    {
+      "where": "getting_there,tips",
+      "fact": "2026항만변화",
+      "value": "옛사진으로현재건물·창구안내하지않음",
+      "sources": [
+        {
+          "url": "https://www.ppa.com.ph/node/23531",
+          "grade": "A",
+          "says": "신루세나여객터미널시설확충",
+          "date": "2026-07"
+        },
+        {
+          "url": "https://www.ppa.com.ph/node/24180?page=1",
+          "grade": "A",
+          "says": "2026-11-03새PTB이용관련후속공지",
+          "date": "2026-11-03"
+        },
+        {
+          "url": "https://www.pna.gov.ph/articles/1279885",
+          "grade": "A",
+          "says": "2026-07-21새여객터미널점검보도",
+          "date": "2026-07-21"
+        }
+      ],
+      "decision": "web본문열기PPA502/PNA로그인리다이렉트여서검색색인본문을보조활용.새시설의정원·면적·정확개장일·무료종료일은수록안함.기존사진12는실제로2012선박/바다이며철거/개축전터미널건물사진이아님을눈검수.현재운항선박보장근거로사용안함."
+    },
+    {
+      "where": "best_time",
+      "fact": "축제현재성",
+      "value": "매년동일규모보장불가·2026주요활동축소/연기보도",
+      "sources": [
+        {
+          "url": "https://newsinfo.inquirer.net/2236148/lucena-misses-annual-pasayahan-after-austerity-driven-cancellation",
+          "grade": "B",
+          "says": "2026-05-29기사:시장EO014/2026긴축으로대부분프로그램연기·퍼레이드미개최",
+          "date": "2026-05-29"
+        },
+        {
+          "url": "https://www.diskurso.ph/news/2026/04/27/pasayahan-sa-lucena-2026-scaled-back-amid-austerity-responsible-leadership-or-loss-of-cultural-spirit",
+          "grade": "B",
+          "says": "2026-04-27위원회성명/EO014/2026인용·대부분행사축소연기",
+          "date": "2026-04-27"
+        }
+      ],
+      "decision": "공식EO원문을직접못찾아폐쇄확정법령사실로단정하지않고보도존재만서술.행사현재확정날짜·규모·장소안내안함.2027미래일정만든사이트배제.일반도심관람은계절편집권장,기상보장아님."
+    },
+    {
+      "where": "budget,costs,itinerary,stay_and_food",
+      "fact": "예산과일정",
+      "value": "식음600–1000+교통300–600+숙박분담800–1400+예비200–400=1900–3400PHP",
+      "sources": [
+        {
+          "url": "https://quezon.gov.ph/citiesmunicipalities/",
+          "grade": "A",
+          "says": "CityofLucena절:케손주도·교통/서비스중심·주청사·대성당·PerezPark·차미"
+        },
+        {
+          "url": "https://jacliner.com/terminals-and-routes",
+          "grade": "A",
+          "says": "Kamias·Buendia·LucenaGrandCentralTerminalIlayangDupay·DalahicanPort명칭과Lucena/Dalahican노선"
+        },
+        {
+          "url": "https://starhorse.com.ph/routes",
+          "grade": "A",
+          "says": "FromLucena목록Lucena–Balanacan항로"
+        }
+      ],
+      "decision": "전부개인계획한도명시,판매가격아님.숙박은공유가정1인분담액,마닐라왕복·항공·배제외.예시는운행표아님.특정숙소·메뉴·트라이시클요금·차량호출서비스범위는만들지않음."
+    }
+  ],
+  "images": [
+    {
+      "file": "309-lucena.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lucena_Poblacion,_Tagarao-MH_Del_Pilar_EB,_Lucena_City_Hall_drone_(Lucena,_Quezon;_05-16-2026).jpg",
+      "artist": "Patrickroque01",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2026-05-16",
+      "original_width": 4000,
+      "original_height": 3000,
+      "check": "2026년 루세나 포블라시온의 거리와 옛 시청을 내려다본 전경 — Commons작가·라이선스·설명·도시대조.원본12장과최종10장직접열어눈검수.QuezonAve2013사진은하단워터마크있어제외,2012성당사진은2025정면과유사해제외.사진별연도alt명시,옛우체국내부공개·상점영업·현재선박보장없음.도시전경·어선·공원/주청사·우편함·새/옛시청·터미널외부/식당·성당·선박으로분산."
+    },
+    {
+      "file": "309-lucena-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Port_of_Lucena_boats_(Dalahican,_Lucena,_Quezon;_10-09-2022).jpg",
+      "artist": "Patrickroque01",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "10-09-2022",
+      "original_width": 3552,
+      "original_height": 2664,
+      "check": "2022년 달라히칸 연안에 정박한 소형 어선들 — Commons작가·라이선스·설명·도시대조.원본12장과최종10장직접열어눈검수.QuezonAve2013사진은하단워터마크있어제외,2012성당사진은2025정면과유사해제외.사진별연도alt명시,옛우체국내부공개·상점영업·현재선박보장없음.도시전경·어선·공원/주청사·우편함·새/옛시청·터미널외부/식당·성당·선박으로분산."
+    },
+    {
+      "file": "309-lucena-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:PerezParkLucenajf643.JPG",
+      "artist": "Ramon FVelasquez",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2013-12-23 15:16:37",
+      "original_width": 4608,
+      "original_height": 3456,
+      "check": "2013년 페레스 공원과 뒤편 케손주 청사 — Commons작가·라이선스·설명·도시대조.원본12장과최종10장직접열어눈검수.QuezonAve2013사진은하단워터마크있어제외,2012성당사진은2025정면과유사해제외.사진별연도alt명시,옛우체국내부공개·상점영업·현재선박보장없음.도시전경·어선·공원/주청사·우편함·새/옛시청·터미널외부/식당·성당·선박으로분산."
+    },
+    {
+      "file": "309-lucena-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lucena_Post_Office_2.JPG",
+      "artist": "Nickrds09",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2010-10-01 20:40:58",
+      "original_width": 2592,
+      "original_height": 1944,
+      "check": "2010년 루세나 우체국의 목재 칸막이와 우편함 — Commons작가·라이선스·설명·도시대조.원본12장과최종10장직접열어눈검수.QuezonAve2013사진은하단워터마크있어제외,2012성당사진은2025정면과유사해제외.사진별연도alt명시,옛우체국내부공개·상점영업·현재선박보장없음.도시전경·어선·공원/주청사·우편함·새/옛시청·터미널외부/식당·성당·선박으로분산."
+    },
+    {
+      "file": "309-lucena-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:New_Lucena_City_Hall.jpg",
+      "artist": "Noel.ayal",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2022-02-03",
+      "original_width": 2048,
+      "original_height": 1152,
+      "check": "2022년 루세나 시정부 복합청사 정면 — Commons작가·라이선스·설명·도시대조.원본12장과최종10장직접열어눈검수.QuezonAve2013사진은하단워터마크있어제외,2012성당사진은2025정면과유사해제외.사진별연도alt명시,옛우체국내부공개·상점영업·현재선박보장없음.도시전경·어선·공원/주청사·우편함·새/옛시청·터미널외부/식당·성당·선박으로분산."
+    },
+    {
+      "file": "309-lucena-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lucena,_City_Hall_-_panoramio.jpg",
+      "artist": "evert1949",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "Taken on 12 January 2003",
+      "original_width": 2048,
+      "original_height": 1536,
+      "check": "2003년 루세나 구도심의 옛 시청과 리살 동상 — Commons작가·라이선스·설명·도시대조.원본12장과최종10장직접열어눈검수.QuezonAve2013사진은하단워터마크있어제외,2012성당사진은2025정면과유사해제외.사진별연도alt명시,옛우체국내부공개·상점영업·현재선박보장없음.도시전경·어선·공원/주청사·우편함·새/옛시청·터미널외부/식당·성당·선박으로분산."
+    },
+    {
+      "file": "309-lucena-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lucena_Grand_Central_Terminal,_Quezon.jpg",
+      "artist": "Ralff Nestor Nacor",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2023-09-09 17:46:26",
+      "original_width": 4080,
+      "original_height": 3072,
+      "check": "2023년 루세나 그랜드 센트럴 터미널의 차량 이동 구역 — Commons작가·라이선스·설명·도시대조.원본12장과최종10장직접열어눈검수.QuezonAve2013사진은하단워터마크있어제외,2012성당사진은2025정면과유사해제외.사진별연도alt명시,옛우체국내부공개·상점영업·현재선박보장없음.도시전경·어선·공원/주청사·우편함·새/옛시청·터미널외부/식당·성당·선박으로분산."
+    },
+    {
+      "file": "309-lucena-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Eatery_Lane,_Lucena_Grand_Central_Terminal,_Quezon.jpg",
+      "artist": "Ralff Nestor Nacor",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2024-07-20 17:59:18",
+      "original_width": 4080,
+      "original_height": 3072,
+      "check": "2024년 루세나 그랜드 센트럴 터미널의 식당 통로 — Commons작가·라이선스·설명·도시대조.원본12장과최종10장직접열어눈검수.QuezonAve2013사진은하단워터마크있어제외,2012성당사진은2025정면과유사해제외.사진별연도alt명시,옛우체국내부공개·상점영업·현재선박보장없음.도시전경·어선·공원/주청사·우편함·새/옛시청·터미널외부/식당·성당·선박으로분산."
+    },
+    {
+      "file": "309-lucena-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lucena_City_Church.jpg",
+      "artist": "Aerous",
+      "license": "CC BY 4.0",
+      "captured_at": "Taken on 2 March 2025, 18:10:01 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+      "original_width": 3024,
+      "original_height": 4032,
+      "check": "2025년 저녁의 성 페르디난도 대성당 정면 — Commons작가·라이선스·설명·도시대조.원본12장과최종10장직접열어눈검수.QuezonAve2013사진은하단워터마크있어제외,2012성당사진은2025정면과유사해제외.사진별연도alt명시,옛우체국내부공개·상점영업·현재선박보장없음.도시전경·어선·공원/주청사·우편함·새/옛시청·터미널외부/식당·성당·선박으로분산."
+    },
+    {
+      "file": "309-lucena-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Dalahican_Ferry_Terminal.jpg",
+      "artist": "T3n60",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2012-06-09 03:16:02",
+      "original_width": 1920,
+      "original_height": 1280,
+      "check": "2012년 달라히칸 선착장에 정박한 스타호스 선박 — Commons작가·라이선스·설명·도시대조.원본12장과최종10장직접열어눈검수.QuezonAve2013사진은하단워터마크있어제외,2012성당사진은2025정면과유사해제외.사진별연도alt명시,옛우체국내부공개·상점영업·현재선박보장없음.도시전경·어선·공원/주청사·우편함·새/옛시청·터미널외부/식당·성당·선박으로분산."
+    }
+  ],
+  "image_processing": {
+    "prompt": "data/images/309-lucena-prompt.txt",
+    "method": "CodexCLI에만가로1080비율유지WebPq80정량변환위임.크롭회전색보정내용생성없음.원본SHA불변·치수·디코딩검증통과.",
+    "report": "work/parallel-1992/luzon/309-lucena-conversion-report.json"
+  },
+  "translation": {
+    "method": "한국어·영어직접집필104줄export/check/import통과",
+    "fallback": "나머지6언어부모통합선언대기"
+  }
+}
