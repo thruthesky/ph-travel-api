@@ -1,0 +1,630 @@
+{
+  "id": 361,
+  "slug": "meycauayan-city",
+  "checked_at": "2026-11-17",
+  "facts": [
+    {
+      "where": "overview",
+      "fact": "독립도시·범위·중복검토",
+      "value": "Meycauayan,Bulacan",
+      "sources": [
+        {
+          "url": "https://bulacan.gov.ph/cities-and-municipalities/meycauayan-city/",
+          "grade": "A",
+          "says": "실제104~126행1578프란치스코회마을·장신구/가죽산업·26barangays"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Meycauayan",
+          "grade": "C",
+          "says": "실제126~157행Valenzuela북쪽Bulacan도시·Poblacion과동쪽행정구역분리"
+        },
+        {
+          "url": "https://philgo.com/?1275713687",
+          "grade": "C",
+          "says": "입력TSV오반도축제원문캐시실제전체검색·숙박경유·금은방하위만.독립도시/성당본문없음"
+        }
+      ],
+      "decision": "data.csv와data/ko전수이름/slug대조후기존독립등록없음.오반도축제본행완료표시안함.외부추가도시로관리.메트로마닐라/말롤로스와구분.정확인구·현직시장명미기재."
+    },
+    {
+      "where": "latitude/longitude",
+      "fact": "지도2서비스같은성당",
+      "value": "14.73511,120.95698",
+      "sources": [
+        {
+          "url": "https://mapcarta.com/W291854999",
+          "grade": "B",
+          "says": "실제본문14.73511,120.95698·MeycauayanChurch/MarcosIraStreet/OSMway291854999"
+        },
+        {
+          "url": "https://www.outdooractive.com/en/poi/bulacan/meycauayan-church/807797535/",
+          "grade": "B",
+          "says": "web본문timeout뒤직접HTTP전체197878byte확보·POInameMeycauayanChurch·JSONLD와visibleDD14.735117,120.956977"
+        },
+        {
+          "url": "https://www.openstreetmap.org/api/0.6/way/291854999/full.json",
+          "grade": "C",
+          "says": "직접HTTP성당건물polygon과tags확인·원문캐시361-osm-church.json"
+        }
+      ],
+      "decision": "Mapcarta와Outdooractive약0.84m일치.공유OSM/위키계열원천가능성있어독립현장측량이라주장안함. Q9007747의14°43′54N120°57′24E는약374m남쪽으로불일치해대표좌표로배제. Waze검색결과는표지POI일뿐직접본문은Drivingdirections만으로근거불충분,좌표교차근거로안씀."
+    },
+    {
+      "where": "highlights",
+      "fact": "성당역사·정부유산등급",
+      "value": "1939PHC표지·LevelII",
+      "sources": [
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/church-of-meycauayan/",
+          "grade": "A",
+          "says": "실제12~20행HouseofWorship·LevelIIHistoricalMarker1939·1588태풍/1668이후현위치/1882태풍"
+        },
+        {
+          "url": "https://www.bulakenyo.ph/discovering-the-beauty-and-history-of-meycauayan-church/",
+          "grade": "B",
+          "says": "실제21~46행1578본당·1668석조건립·1949대화재설명"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Church_of_Meycauayan_PHC_historical_marker.jpg",
+          "grade": "A",
+          "says": "현장1939정부표지사진직접전문읽음·등록부생략된1800종탑도기재"
+        }
+      ],
+      "decision": "본당설립1578과현건물완공동일시안함. LevelIIHistoricalMarker를국보/유네스코/국립사적으로과장안함. 원주민공격설은오래된서술의일방적관점위험으로본문생략.1710등타성당연대추가안함."
+    },
+    {
+      "where": "highlights",
+      "fact": "현행본당·예배공간",
+      "value": "SaintFrancisofAssisiParish",
+      "sources": [
+        {
+          "url": "https://dioceseofmalolos.ph/vicariate-of-meycauayan/",
+          "grade": "A",
+          "says": "교구공식문서헤더VICARIATEOFMEYCAUAYAN실제확인.개별본당내용추가읽기와직접HTTP는401이므로상세운영시간원문확인근거로안씀"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Meycauayan_Church_April_2026.jpg",
+          "grade": "B",
+          "says": "Borgenland2026Apr14실제석조정면과종탑눈검수"
+        },
+        {
+          "url": "https://pantasyarista.blogspot.com/2012/08/meycauayan-spots-parish-church-of-st.html",
+          "grade": "B",
+          "says": "2012현장저자10년봉사·교회내외실제개인사진설명"
+        }
+      ],
+      "decision": "본당실재와현행예배공간으로보되고정미사시각/모든실내매일공개보장안함. 특정직원/교구장현재인명본문안씀."
+    },
+    {
+      "where": "highlights",
+      "fact": "종탑연결아치·관람경계",
+      "value": "지상관찰",
+      "sources": [
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/church-of-meycauayan/",
+          "grade": "A",
+          "says": "공식표지와현장사진1800종탑연혁"
+        },
+        {
+          "url": "https://www.bulakenyo.ph/discovering-the-beauty-and-history-of-meycauayan-church/",
+          "grade": "B",
+          "says": "실제36/53행아치연결종탑·현재도이어지는건축특징"
+        },
+        {
+          "url": "https://pantasyarista.blogspot.com/2012/08/meycauayan-spots-parish-church-of-st.html",
+          "grade": "B",
+          "says": "실제42~61행계단가파름·특별허가로일반비공개구역사진촬영했다고명시"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:MeycauayanChurchBulacan_10.JPG",
+          "grade": "B",
+          "says": "Judge2015아치/연결통로별도각도실사진"
+        }
+      ],
+      "decision": "최초/유일/두곳뿐최상급카운트생략.2012특별허가를상설종탑등반체험으로옮기지않음. 지상종과반환제대종별개."
+    },
+    {
+      "where": "highlights",
+      "fact": "화재·재건·최근제단",
+      "value": "1949대화재·2020내부봉헌",
+      "sources": [
+        {
+          "url": "https://www.bulakenyo.ph/discovering-the-beauty-and-history-of-meycauayan-church/",
+          "grade": "B",
+          "says": "실제46~51행1949화재와후속재건"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Meycauayan_Church",
+          "grade": "C",
+          "says": "실제220~226행화재·2020Nov30내부제단봉헌"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Meycauayan_Church_sanctuary_during_its_consecration_in_2020.jpg",
+          "grade": "B",
+          "says": "Robby2020Nov30실제봉헌일제단사진·유물사진아님"
+        },
+        {
+          "url": "https://dioceseofmalolos.ph/wp-content/uploads/2022/12/THE-JUBILEE-CHURCHES-OF-THE-DIOCESE-OF-MALOLOS-FOR-THE-500-YEARS-OF-CHRISTIANITY-IN-THE-PHILIPPINES.pdf",
+          "grade": "A",
+          "says": "교구공식PDF11p첫본문은열렸으나Meycauayan해당설명은검색캐시만확인.추가본문/직접HTTP401로해당부분완독주장안함·그래픽분석안함"
+        }
+      ],
+      "decision": "Wikivoyage1953재건vsWikidata1956완공혼선으로정확완공연도본문생략.2012블로그1950화재는보다명시적1949자료와충돌하므로채택안함.현제단을식민기무손상원형으로설명안함."
+    },
+    {
+      "where": "highlights",
+      "fact": "큰종과반환제대종구분",
+      "value": "지상종전시",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Three_Bells,_Meycauayan_Church,_Bulacan,_Mar_2024.jpg",
+          "grade": "B",
+          "says": "Ralff2024Mar29ThreeBells실사진눈검수·타도시사진아님"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Meycauayan_Church",
+          "grade": "C",
+          "says": "실제231~236행반환제대종은목제연결작은handbells·2012DioceseMalolos인계"
+        },
+        {
+          "url": "https://www.nationalmuseum.gov.ph/wp-content/uploads/2021/07/NM-2012-AR-Final_upload.pdf",
+          "grade": "A",
+          "says": "검색캐시만:2012Aug6MeycauayanBellsDioceseofMalolos인계,직접본문완독주장안함"
+        }
+      ],
+      "decision": "정확반환연대본문생략해검색만으로확정안함. 지상3대형종을전리품제대종반환세트라고잘못연결안함.종무게·주조연대충돌수치생략."
+    },
+    {
+      "where": "highlights/tips",
+      "fact": "마당나무·교구전시공간",
+      "value": "MeycauayanTree·ParishMuseum",
+      "sources": [
+        {
+          "url": "https://pantasyarista.blogspot.com/2012/08/meycauayan-spots-parish-church-of-st.html",
+          "grade": "B",
+          "says": "실제37~61행나무·스테인드글라스·비공개공간저자특별관람"
+        },
+        {
+          "url": "https://www.bulakenyo.ph/discovering-the-beauty-and-history-of-meycauayan-church/",
+          "grade": "B",
+          "says": "실제44~46행나무/화재때유물보존"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:00006jfSaint_Francis_Church_Exhibit_Meycauayan_Heritage_Belfry_Bulacanfvf_04.JPG",
+          "grade": "B",
+          "says": "2016교구종교조각전시원본·최종직접눈검수"
+        },
+        {
+          "url": "https://mapcarta.com/W291854999",
+          "grade": "C",
+          "says": "실제140~144행oldbellspark/parishmuseum식별"
+        }
+      ],
+      "decision": "나무수령·Quezon어린시절일화는강한교차미달로미기재.2016전시물모두현재동일배치보장안함.현수막크게걸린2024tree사진은품질사유배제."
+    },
+    {
+      "where": "highlights",
+      "fact": "시립박물관·현재행정구역",
+      "value": "MuseongPamanangMeycaueñoCamalig",
+      "sources": [
+        {
+          "url": "https://www.sineliksikbulacan.app/",
+          "grade": "A",
+          "says": "주정부PHACTO명의beta앱직접본문158/267~311행성당·옛역·시립박물관유산여권목록"
+        },
+        {
+          "url": "https://www.findglocal.com/PH/Meycawayan/101631754788335/City-of-Meycauayan-Tourism-and-Cultural-Affairs",
+          "grade": "C",
+          "says": "운영자게시물의외부mirror실제본문2026July20박물관방문/June15관광가이드방문·PasalubongCenter제품·PutongSaluysoy확인"
+        },
+        {
+          "url": "https://bplohistories.blogspot.com/2018/04/meycauayan.html",
+          "grade": "B",
+          "says": "실제도서관장인터뷰19~38행시청Camalig도서관/미니박물관과Poblacion구청사이전구분"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Meycauayan_Heritage_Museum_03.jpg",
+          "grade": "B",
+          "says": "2022Swarm현장citymuseum음반전시사진·PLAKA/AwitngMeycauayan직접읽음"
+        }
+      ],
+      "decision": "원운영자FB직접본문읽었다고안함.2025mirror평일08~17은현행확정시간아니므로미기재.박물관구체층수2026확정안함.교구박물관과시립박물관별도.반드시방문전문의."
+    },
+    {
+      "where": "getting_there/cautions",
+      "fact": "NSCR건설현황",
+      "value": "철도관광접근으로안내하지않음",
+      "sources": [
+        {
+          "url": "https://pia.gov.ph/news/7-nscr-trainsets-target-bumiyahe-sa-rutang-malolos-valenzuela-sa-2027/",
+          "grade": "A",
+          "says": "실제2026May8본문15~24행시험/공사·2027부분운행목표"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Meycauayan",
+          "grade": "C",
+          "says": "실제166~167행옛역내부폐쇄·신역공사"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:New_Meycauayan_station_November_13_2026_Barangay_Malhacan_01.jpg",
+          "grade": "B",
+          "says": "2026Nov13실제신역외관비계공사사진직접눈검수"
+        }
+      ],
+      "decision": "운행목표는확정개통일아님.보수/공사구역관람이나기차탑승추천안함.신역공사사진은교통주의사항설명용이며관광볼거리개수로쪼개지않음."
+    },
+    {
+      "where": "getting_there",
+      "fact": "도로·환승·과거공사",
+      "value": "NLEX/MacArthurHighway",
+      "sources": [
+        {
+          "url": "https://bulacan.gov.ph/cities-and-municipalities/meycauayan-city/",
+          "grade": "A",
+          "says": "공식도시위치·메트로북부관계"
+        },
+        {
+          "url": "https://pia.gov.ph/news/kalidad-ng-kalsada-sa-pangunahing-mga-interchange-ng-nlex-pinapainam/",
+          "grade": "A",
+          "says": "실제2026Feb18MeycauayanInterchangeeastboundNovaliches/westbounddowntown·March26까지과거공사공지"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Meycauayan",
+          "grade": "C",
+          "says": "실제140~162행CommonTerminal/StoNiño동쪽과Poblacion환승차이·모누멘토/말란다이연결"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Meycauayan_Bridge.jpg",
+          "grade": "B",
+          "says": "FBen2022Meycauayan도로교량실사진"
+        }
+      ],
+      "decision": "고정운임/막차/공항직행편미검증.본문은환승확인조건부.2026Feb공지를현재폐쇄로연장안함.2022교량은1791역사석교잔존근거아님.현재전체다리구조보존단정안함."
+    },
+    {
+      "where": "best_time/costs/stay_and_food",
+      "fact": "기상·쇼핑·음식·편집자예산",
+      "value": "비/침수확인·700~1700준비금",
+      "sources": [
+        {
+          "url": "https://bulacan.gov.ph/cities-and-municipalities/meycauayan-city/",
+          "grade": "A",
+          "says": "실제장신구·가죽제품주요산업"
+        },
+        {
+          "url": "https://www.findglocal.com/PH/Meycawayan/101631754788335/City-of-Meycauayan-Tourism-and-Cultural-Affairs",
+          "grade": "C",
+          "says": "2026June15실제방문단PutongSaluysoy·보석/가죽제품구매기록"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Meycauayan",
+          "grade": "C",
+          "says": "실제220행도시저지대홍수위험"
+        },
+        {
+          "url": "https://newsinfo.inquirer.net/2295374/parts-of-nlex-macarthur-highway-bulacan-roads-impassable-due-to-floods",
+          "grade": "B",
+          "says": "검색캐시2026Aug30침수교통통제예.직접본문미독으로해당과거통제현재상태로안씀"
+        }
+      ],
+      "decision": "식당고정영업/품질/가격과호텔등급보장없음.푸통판매처현장문의.무료여권과모든시설입장료별개.700~1700은편집자계획값공식가격아님.의료예방약권고는Wikivoyage에서복사하지않음."
+    }
+  ],
+  "images": [
+    {
+      "id": 361,
+      "slug": "meycauayan-city",
+      "index": 1,
+      "candidate": 1,
+      "title": "File:Meycauayan Church April 2026.jpg",
+      "artist": "Borgenland",
+      "date": "2026-04-14",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Meycauayan_Church_April_2026.jpg",
+      "license": "CC0",
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/361-originals/candidate-01.jpg",
+      "output": "/tmp/ph-travel-mindanao-361/output/361-meycauayan-city-01.webp",
+      "original_width": 4032,
+      "original_height": 3024,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Meycauayan_Church_April_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "ef9bf506aea28f37b955b2718924cd84471c53474ed904c3e6ac75d7597321d7",
+      "normalized_artist": "Borgenland",
+      "capture_date_normalized": "2026-04-14",
+      "independent_trip_group": "Borgenland-2026-04-14",
+      "url": "images/361-meycauayan-city-01.webp",
+      "output_sha256": "76ea0327325eab95b92d5c3cd7b82e1078bd4a9d5491e3bd261465e9813cf5b7",
+      "output_width": 1080,
+      "output_height": 810,
+      "artist_group": "Borgenland",
+      "original_visual_review": "선정원본직접눈검수·실제장소·구도확인",
+      "final_visual_review": "최종10장직접눈검수·비율과내용유지",
+      "quality_review": "워터마크·로고·큰 글자가 없고 사람 얼굴이 주제가 아니다. 원본 가로1080px이상. 역사표지·실물음반의제조자표시는현장사물일부이며작가워터마크아님",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": 361,
+      "slug": "meycauayan-city",
+      "index": 2,
+      "candidate": 3,
+      "title": "File:Meycauayan Church sanctuary during its consecration in 2020.jpg",
+      "artist": "Robby dela vega",
+      "date": "2020-11-30 14:42:37",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Meycauayan_Church_sanctuary_during_its_consecration_in_2020.jpg",
+      "license": "CC BY-SA 4.0",
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/361-originals/candidate-03.jpg",
+      "output": "/tmp/ph-travel-mindanao-361/output/361-meycauayan-city-02.webp",
+      "original_width": 4608,
+      "original_height": 2858,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Meycauayan_Church_sanctuary_during_its_consecration_in_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "566e535fb01f8988128317544b0b49b5d378a952f9fddf3c6b4add2c4c0f9977",
+      "normalized_artist": "Robby",
+      "capture_date_normalized": "2020-11-30",
+      "independent_trip_group": "Robby-2020-11-30",
+      "url": "images/361-meycauayan-city-02.webp",
+      "output_sha256": "96ce15d524122e34fbb798c522517b8a607614d6ae5e0d6c746786aa41a27a94",
+      "output_width": 1080,
+      "output_height": 670,
+      "artist_group": "Robby",
+      "original_visual_review": "선정원본직접눈검수·실제장소·구도확인",
+      "final_visual_review": "최종10장직접눈검수·비율과내용유지",
+      "quality_review": "워터마크·로고·큰 글자가 없고 사람 얼굴이 주제가 아니다. 원본 가로1080px이상. 역사표지·실물음반의제조자표시는현장사물일부이며작가워터마크아님",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": 361,
+      "slug": "meycauayan-city",
+      "index": 3,
+      "candidate": 13,
+      "title": "File:Church of Meycauayan PHC historical marker.jpg",
+      "artist": "Photo: Robby dela vega; perspective correction: Eugene Alvin Villar (seav)",
+      "date": "2025-02-22",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Church_of_Meycauayan_PHC_historical_marker.jpg",
+      "license": "CC BY-SA 4.0",
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/361-originals/candidate-13.jpg",
+      "output": "/tmp/ph-travel-mindanao-361/output/361-meycauayan-city-03.webp",
+      "original_width": 3000,
+      "original_height": 3543,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Church_of_Meycauayan_PHC_historical_marker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "f5faa0f7f6631e349054d48c6ba9400527943136b0cb740763b83ff6f7e16c84",
+      "normalized_artist": "Robby",
+      "capture_date_normalized": "2020-05-09",
+      "independent_trip_group": "Robby-2020-05-09",
+      "url": "images/361-meycauayan-city-03.webp",
+      "output_sha256": "779bd9ce6a2e332526863131cf3889945bb7ad67eac3513078e15f5b725b14fb",
+      "output_width": 1080,
+      "output_height": 1276,
+      "artist_group": "Robby",
+      "original_visual_review": "선정원본직접눈검수·실제장소·구도확인",
+      "final_visual_review": "최종10장직접눈검수·비율과내용유지",
+      "quality_review": "워터마크·로고·큰 글자가 없고 사람 얼굴이 주제가 아니다. 원본 가로1080px이상. 역사표지·실물음반의제조자표시는현장사물일부이며작가워터마크아님",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date_review": "Commons2025-02-22는Seav보정시각,EXIF원촬영2020-05-09.원사진RobbydelaVega·보정자Seav전체명시.현장촬영묶음은Robby2020May로계산."
+    },
+    {
+      "id": 361,
+      "slug": "meycauayan-city",
+      "index": 4,
+      "candidate": 14,
+      "title": "File:Three Bells, Meycauayan Church, Bulacan, Mar 2024.jpg",
+      "artist": "Ralff Nestor Nacor",
+      "date": "2024-03-29 14:31:16",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Three_Bells,_Meycauayan_Church,_Bulacan,_Mar_2024.jpg",
+      "license": "CC BY-SA 4.0",
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/361-originals/candidate-14.jpg",
+      "output": "/tmp/ph-travel-mindanao-361/output/361-meycauayan-city-04.webp",
+      "original_width": 4080,
+      "original_height": 3072,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Three_Bells%2C_Meycauayan_Church%2C_Bulacan%2C_Mar_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "22fcc0ae21c2b68ac6475e03a5004ae542a992dfc5c9f63dcfac810d542326e0",
+      "normalized_artist": "Ralff",
+      "capture_date_normalized": "2024-03-29",
+      "independent_trip_group": "Ralff-2024-03-29",
+      "url": "images/361-meycauayan-city-04.webp",
+      "output_sha256": "736c3cf195acad8abbc8be86a43fc737fccf303203efdecbf573be77498446eb",
+      "output_width": 1080,
+      "output_height": 813,
+      "artist_group": "Ralff",
+      "original_visual_review": "선정원본직접눈검수·실제장소·구도확인",
+      "final_visual_review": "최종10장직접눈검수·비율과내용유지",
+      "quality_review": "워터마크·로고·큰 글자가 없고 사람 얼굴이 주제가 아니다. 원본 가로1080px이상. 역사표지·실물음반의제조자표시는현장사물일부이며작가워터마크아님",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": 361,
+      "slug": "meycauayan-city",
+      "index": 5,
+      "candidate": 5,
+      "title": "File:MeycauayanChurchBulacan 10.JPG",
+      "artist": "Judgefloro",
+      "date": "2015-01-28 10:29:11",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MeycauayanChurchBulacan_10.JPG",
+      "license": "CC BY-SA 4.0",
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/361-originals/candidate-05.jpg",
+      "output": "/tmp/ph-travel-mindanao-361/output/361-meycauayan-city-05.webp",
+      "original_width": 4608,
+      "original_height": 3456,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/MeycauayanChurchBulacan_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "01a20af83cdc117c5f64ab81516d73e2e118f3f52aebc81ac01423e3cc6c5834",
+      "normalized_artist": "Floro",
+      "capture_date_normalized": "2015-01-28",
+      "independent_trip_group": "Floro-2015-01-28",
+      "url": "images/361-meycauayan-city-05.webp",
+      "output_sha256": "864cae7ae4983ca3d16df4abe38f8f3c90ed7983afd63ad696a412cd8d440733",
+      "output_width": 1080,
+      "output_height": 810,
+      "artist_group": "Floro",
+      "original_visual_review": "선정원본직접눈검수·실제장소·구도확인",
+      "final_visual_review": "최종10장직접눈검수·비율과내용유지",
+      "quality_review": "워터마크·로고·큰 글자가 없고 사람 얼굴이 주제가 아니다. 원본 가로1080px이상. 역사표지·실물음반의제조자표시는현장사물일부이며작가워터마크아님",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": 361,
+      "slug": "meycauayan-city",
+      "index": 6,
+      "candidate": 6,
+      "title": "File:Saint Francis of Assisi stained glass window at the Meycauayan Church.jpg",
+      "artist": "Ramon FVelasquez",
+      "date": "2012-12-14 16:13:33",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Saint_Francis_of_Assisi_stained_glass_window_at_the_Meycauayan_Church.jpg",
+      "license": "CC BY-SA 3.0",
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/361-originals/candidate-06.jpg",
+      "output": "/tmp/ph-travel-mindanao-361/output/361-meycauayan-city-06.webp",
+      "original_width": 3456,
+      "original_height": 4608,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Saint_Francis_of_Assisi_stained_glass_window_at_the_Meycauayan_Church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "5557b37ac4c1cab5771ba0aec64ffd6e6817e4c17e990e61556b2ce26812bd83",
+      "normalized_artist": "Floro",
+      "capture_date_normalized": "2012-12-14",
+      "independent_trip_group": "Floro-2012-12-14",
+      "url": "images/361-meycauayan-city-06.webp",
+      "output_sha256": "e67e7e40b9dac42178662b3405e0db40c35f433fb79cabe38c006f10e4873f62",
+      "output_width": 1080,
+      "output_height": 1440,
+      "artist_group": "Floro",
+      "original_visual_review": "선정원본직접눈검수·실제장소·구도확인",
+      "final_visual_review": "최종10장직접눈검수·비율과내용유지",
+      "quality_review": "워터마크·로고·큰 글자가 없고 사람 얼굴이 주제가 아니다. 원본 가로1080px이상. 역사표지·실물음반의제조자표시는현장사물일부이며작가워터마크아님",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": 361,
+      "slug": "meycauayan-city",
+      "index": 7,
+      "candidate": 4,
+      "title": "File:00006jfSaint Francis Church Exhibit Meycauayan Heritage Belfry Bulacanfvf 04.JPG",
+      "artist": "Judgefloro",
+      "date": "2016-03-11 14:31:08",
+      "source_url": "https://commons.wikimedia.org/wiki/File:00006jfSaint_Francis_Church_Exhibit_Meycauayan_Heritage_Belfry_Bulacanfvf_04.JPG",
+      "license": "Public domain",
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/361-originals/candidate-04.jpg",
+      "output": "/tmp/ph-travel-mindanao-361/output/361-meycauayan-city-07.webp",
+      "original_width": 4608,
+      "original_height": 3456,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/00006jfSaint_Francis_Church_Exhibit_Meycauayan_Heritage_Belfry_Bulacanfvf_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "2addcad872f58b36bb45622f3760f1133dda529db33b15bb858c2d007376f0c3",
+      "normalized_artist": "Floro",
+      "capture_date_normalized": "2016-03-11",
+      "independent_trip_group": "Floro-2016-03-11",
+      "url": "images/361-meycauayan-city-07.webp",
+      "output_sha256": "50b4ff671cedea44a6ce65385427baf86dd375e2037222fd854b2f09df3bb270",
+      "output_width": 1080,
+      "output_height": 810,
+      "artist_group": "Floro",
+      "original_visual_review": "선정원본직접눈검수·실제장소·구도확인",
+      "final_visual_review": "최종10장직접눈검수·비율과내용유지",
+      "quality_review": "워터마크·로고·큰 글자가 없고 사람 얼굴이 주제가 아니다. 원본 가로1080px이상. 역사표지·실물음반의제조자표시는현장사물일부이며작가워터마크아님",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": 361,
+      "slug": "meycauayan-city",
+      "index": 8,
+      "candidate": 8,
+      "title": "File:Meycauayan Heritage Museum 03.jpg",
+      "artist": "SwarmCheng",
+      "date": "2022-11-22 16:39:20",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Meycauayan_Heritage_Museum_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/361-originals/candidate-08.jpg",
+      "output": "/tmp/ph-travel-mindanao-361/output/361-meycauayan-city-08.webp",
+      "original_width": 5184,
+      "original_height": 3888,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Meycauayan_Heritage_Museum_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "106f29fc1fee4dfbb5de7084d4ab81561ba7425cac1d0b859ba600ce59d4ab3e",
+      "normalized_artist": "Floro",
+      "capture_date_normalized": "2022-11-22",
+      "independent_trip_group": "Floro-2022-11-22",
+      "url": "images/361-meycauayan-city-08.webp",
+      "output_sha256": "5c83c1b80a6401a4282494b4a7b2c9e9659d1999101dfa2b765de7b35ebc9104",
+      "output_width": 1080,
+      "output_height": 810,
+      "artist_group": "Floro",
+      "original_visual_review": "선정원본직접눈검수·실제장소·구도확인",
+      "final_visual_review": "최종10장직접눈검수·비율과내용유지",
+      "quality_review": "워터마크·로고·큰 글자가 없고 사람 얼굴이 주제가 아니다. 원본 가로1080px이상. 역사표지·실물음반의제조자표시는현장사물일부이며작가워터마크아님",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": 361,
+      "slug": "meycauayan-city",
+      "index": 9,
+      "candidate": 9,
+      "title": "File:Meycauayan Bridge.jpg",
+      "artist": "FBenjr123",
+      "date": "2022-01-01 13:31:14",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Meycauayan_Bridge.jpg",
+      "license": "CC BY-SA 4.0",
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/361-originals/candidate-09.jpg",
+      "output": "/tmp/ph-travel-mindanao-361/output/361-meycauayan-city-09.webp",
+      "original_width": 5184,
+      "original_height": 3888,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Meycauayan_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "f5bb19a4b484cbd7b9e1079741b427ba3c761c461a6af5f13b94ec0c582e06d5",
+      "normalized_artist": "Floro",
+      "capture_date_normalized": "2022-01-01",
+      "independent_trip_group": "Floro-2022-01-01",
+      "url": "images/361-meycauayan-city-09.webp",
+      "output_sha256": "aa65bab289fa8ad28d03970ac79565cfe002989dcffc554f1f332ad028b1f2a3",
+      "output_width": 1080,
+      "output_height": 810,
+      "artist_group": "Floro",
+      "original_visual_review": "선정원본직접눈검수·실제장소·구도확인",
+      "final_visual_review": "최종10장직접눈검수·비율과내용유지",
+      "quality_review": "워터마크·로고·큰 글자가 없고 사람 얼굴이 주제가 아니다. 원본 가로1080px이상. 역사표지·실물음반의제조자표시는현장사물일부이며작가워터마크아님",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": 361,
+      "slug": "meycauayan-city",
+      "index": 10,
+      "candidate": 10,
+      "title": "File:New Meycauayan station November 13 2026 Barangay Malhacan 01.jpg",
+      "artist": "P1898",
+      "date": "2026-11-13 02:40:17",
+      "source_url": "https://commons.wikimedia.org/wiki/File:New_Meycauayan_station_November_13_2026_Barangay_Malhacan_01.jpg",
+      "license": "CC BY 4.0",
+      "input": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/mindanao/361-originals/candidate-10.jpg",
+      "output": "/tmp/ph-travel-mindanao-361/output/361-meycauayan-city-10.webp",
+      "original_width": 4163,
+      "original_height": 3456,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/New_Meycauayan_station_November_13_2026_Barangay_Malhacan_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "a901d2a4909d11f308132abaf89625ec39e75a00c0bc1466e8f61d35cf9dcbac",
+      "normalized_artist": "P1898",
+      "capture_date_normalized": "2026-11-13",
+      "independent_trip_group": "P1898-2026-11-13",
+      "url": "images/361-meycauayan-city-10.webp",
+      "output_sha256": "98677ece35d848023077a83ac52d9f04db726bc23224536a18a7a2c3196a93ec",
+      "output_width": 1080,
+      "output_height": 897,
+      "artist_group": "P1898",
+      "original_visual_review": "선정원본직접눈검수·실제장소·구도확인",
+      "final_visual_review": "최종10장직접눈검수·비율과내용유지",
+      "quality_review": "워터마크·로고·큰 글자가 없고 사람 얼굴이 주제가 아니다. 원본 가로1080px이상. 역사표지·실물음반의제조자표시는현장사물일부이며작가워터마크아님",
+      "license_url": ""
+    }
+  ],
+  "original_post_ids": [],
+  "original_tsv_rows": [],
+  "original_mapping": "외부독립미수록도시확장.원본1275713687오반도축제(TSV)본문은숙박경유/금은방소개참고만,축제본행완료로연결안함.",
+  "translation": "한국어5856자10섹션·영어직접집필68줄,나머지6언어부모fallback통합",
+  "photo_diversity_review": {
+    "artist_date_groups": 10,
+    "independent_trip_groups": 10,
+    "notes": [
+      "Floro/Ramon/Judge/FBenjr123/SwarmCheng별칭통합:2012Dec/2015Jan/2016Mar/2022Jan/2022Nov수개월~수년간격각독립",
+      "Robby원촬영2020May9표지와2020Nov30제단6개월간격독립,2025보정일은새여행으로세지않음",
+      "Ralff2024Mar그룹은종1장만·현수막나무배제",
+      "Borgen2026Apr/P1898Nov2026독립작가·공사주의구도와성당정면다름",
+      "서로다른성당정면/제단/표지/종/연결아치/유리창/전시조각·시립음반·도로교량·철도공사주의구도"
+    ]
+  },
+  "rejected_sources": [
+    "정치홍보큰현수막의2012옛청사사진배제",
+    "큰현수막걸린2024나무사진배제",
+    "같은작가같은날종/나무/내부여러장중종1장만",
+    "P1898사립학교외관은여행범위/공개미확정으로배제",
+    "주정부옛현직자/인구2015값현재정보로전재안함",
+    "Wikidata좌표불일치배제·Outdooractive직접HTTP원문확인",
+    "원문오반도축제의조세리잘칼람바35km/가공근처명소를전재안함"
+  ]
+}
