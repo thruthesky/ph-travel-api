@@ -1,0 +1,102 @@
+{
+  "id": 478,
+  "slug": "malcapuya-island",
+  "checked_at": "2026-11-17T17:00:00Z",
+  "facts": [
+    {
+      "where": "lat/lon",
+      "fact": "좌표",
+      "value": "11.7907, 120.1148",
+      "sources": [
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Malcapuya&format=json",
+          "grade": "A",
+          "date": "2026-11-17",
+          "says": "Malcapuya Island, Culion, Palawan 11.7906517, 120.1148394; Malcapuya Beach 11.7883, 120.1124"
+        },
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Malcapuya+Island+Culion&format=json",
+          "grade": "A",
+          "date": "2026-11-17",
+          "says": "같은 값"
+        }
+      ],
+      "decision": "지도 2곳 확인은 OSM 두 검색뿐(위키백과 404) — 해변 11.7883과 100m 이내라 섬 좌표 사용. OSM은 쿨리온 관할로 표시"
+    },
+    {
+      "where": "overview",
+      "fact": "항해 시간·투어 구성",
+      "value": "약 1.5~2시간, 투어 C 약 8시간",
+      "sources": [
+        {
+          "url": "https://islandhoppinginthephilippines.com/palawan/boat-stops/malcapuya-island",
+          "grade": "C",
+          "date": "미상(2020~2022 후기)",
+          "says": "up to about 2 hours, first stop after 1.5h; new resort work begun"
+        },
+        {
+          "url": "https://www.waug.com/en/activities/166539",
+          "grade": "B",
+          "date": "2026-11-17",
+          "says": "8 hours; Banana, Malcapuya, Bulog Dos; entrance fees included; snorkel not included"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "costs",
+      "fact": "섬 입장료·환경세·투어 가격",
+      "value": "입장 ₱150~200, 투어 ₱1,300~1,950",
+      "sources": [
+        {
+          "url": "https://islandhoppinginthephilippines.com/palawan/boat-stops/malcapuya-island",
+          "grade": "C",
+          "date": "미상",
+          "says": "Entrance fee 200 pesos per person; cottage 750 per person"
+        },
+        {
+          "url": "https://www.waug.com/en/activities/166539",
+          "grade": "B",
+          "date": "2026-11-17",
+          "says": "entrance fees included in tour; US$38.9~39.7"
+        }
+      ],
+      "decision": "2곳 이상 일치 못해 범위·'업체별'로 씀. 환경세 ₱200은 repo 코론 항목 값(data/ko/047-coron.json) 재사용"
+    },
+    {
+      "where": "getting_there",
+      "fact": "마닐라 직항 중단",
+      "value": "2026-03-29 부터 MNL-USU 직항 없음",
+      "sources": [
+        {
+          "url": "data/ko/047-coron.json",
+          "grade": "B",
+          "date": "2026-11-17",
+          "says": "저장소 코론 항목 본문"
+        }
+      ],
+      "decision": "저장소 기존 조사 재사용 — 새로 확인하지 못함"
+    },
+    {
+      "where": "overview",
+      "fact": "시설(코티지·화장실·발전기)·신규 리조트 공사",
+      "value": "개방 지속 불확실",
+      "sources": [
+        {
+          "url": "https://islandhoppinginthephilippines.com/palawan/boat-stops/malcapuya-island",
+          "grade": "C",
+          "date": "2022 이전",
+          "says": "enclosed beach cottages, generator, resort work begun"
+        },
+        {
+          "url": "https://www.aaa.com/tripcanvas/attraction/malcapuya-island-VA99857",
+          "grade": "C",
+          "date": "검색 요약",
+          "says": "Malcapuya has basic restrooms"
+        }
+      ],
+      "decision": "출처가 오래돼 '알려져 있다·확인 필요'로 씀"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,108 @@
+{
+  "id": 499,
+  "slug": "saud-beach",
+  "checked_at": "2026-11-17T00:00:00Z",
+  "facts": [
+    {
+      "where": "latitude/longitude",
+      "fact": "좌표",
+      "value": "18.5930,120.7843",
+      "sources": [
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Saud+Beach+Pagudpud",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "OSM 해변 way 18.5971,120.7826, 인접 way 18.5887,120.7860"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pagudpud",
+          "grade": "B",
+          "date": "2026",
+          "says": "시 좌표 18.5614,120.7878(시 중심, 해변은 북쪽)"
+        }
+      ],
+      "decision": "해변 길이 구간의 중간값 채택"
+    },
+    {
+      "where": "overview",
+      "fact": "길이 약 2km, 거리",
+      "value": "약 2km, 라오아그 72.5km, 마닐라 558km",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-saud-beach-pagudpud-ilocos-norte/",
+          "grade": "C",
+          "date": "2026",
+          "says": "길이 2km, 크림색 모래"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pagudpud",
+          "grade": "B",
+          "date": "2026",
+          "says": "라오아그 72.5km, 마닐라 558km, 2024 관광 휴게소"
+        }
+      ],
+      "decision": "채택"
+    },
+    {
+      "where": "costs",
+      "fact": "환경세·코티지·투어·블루라군·카비간",
+      "value": "₱20~50, ₱350~500, ₱600, ₱20, ₱20+100",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-saud-beach-pagudpud-ilocos-norte/",
+          "grade": "C",
+          "date": "2026",
+          "says": "수수료·투어 요금"
+        },
+        {
+          "url": "https://www.tripadvisor.com/FAQ_Answers-g676742-d3825930-t9080830-How_much_is_the_entrance_fee.html",
+          "grade": "C",
+          "date": "미상",
+          "says": "입장 ₱20~50, ₱50+₱20 환경세 등 엇갈림"
+        }
+      ],
+      "decision": "범위로 표기, 현지 확인 문구"
+    },
+    {
+      "where": "getting_there",
+      "fact": "야간 버스·항공·밴",
+      "value": "10~12시간, ₱900~1,392, 비행 1시간 ₱2,400~, 라오아그~파구드푸드 ₱60~200",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-saud-beach-pagudpud-ilocos-norte/",
+          "grade": "C",
+          "date": "2026",
+          "says": "교통 정보"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pagudpud",
+          "grade": "B",
+          "date": "2026",
+          "says": "라오아그에서 버스 약 90분"
+        }
+      ],
+      "decision": "변동 문구 추가"
+    },
+    {
+      "where": "best_time",
+      "fact": "계절 파도",
+      "value": "3~5월 잔잔, 9~10월 이안류, 안전요원 없음",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-saud-beach-pagudpud-ilocos-norte/",
+          "grade": "C",
+          "date": "2026",
+          "says": "계절별 해상 상태"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pagudpud",
+          "grade": "B",
+          "date": "2026",
+          "says": "건기 12~4월, 7~8월 최다 강수"
+        }
+      ],
+      "decision": "채택"
+    }
+  ],
+  "images": []
+}
