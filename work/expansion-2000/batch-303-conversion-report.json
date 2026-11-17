@@ -1,0 +1,1358 @@
+{
+  "manifest": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/conversion-manifest.json",
+  "manifest_sha256": "fcad0acb26b87e178bd173f9f4cdae2fb0c74d1da73805ca62aa50dd898a5119",
+  "started_at": "2026-11-17T04:11:27.133340+00:00",
+  "operation": "정량 변환만: cwebp -q 80 -resize 1080 0",
+  "tools": {
+    "cwebp": {
+      "path": "/opt/homebrew/bin/cwebp",
+      "version": "1.6.0\nlibsharpyuv: 0.4.2"
+    },
+    "webpinfo": {
+      "path": "/opt/homebrew/bin/webpinfo",
+      "version": "WebP Decoder version: 1.6.0"
+    },
+    "dwebp": {
+      "path": "/opt/homebrew/bin/dwebp",
+      "version": "1.6.0"
+    }
+  },
+  "aspect_ratio_validation": "가로 1080px, 세로는 원본 비율에 따른 libwebp 정수 올림값과 일치하며 오차는 세로 1px 미만",
+  "decoder_output_destination": "/dev/null",
+  "files": [
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/2.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town.webp",
+      "source_width": 1280,
+      "source_height": 960,
+      "source_sha256_expected": "f00393995975f288f700229574e1c0512b3af4e3efc5ad9bf222433f13134813",
+      "source_sha256_before": "f00393995975f288f700229574e1c0512b3af4e3efc5ad9bf222433f13134813",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 810.0,
+      "expected_output_height": 810,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/2.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/2.jpg\nDimension: 1080 x 810\nOutput:    162480 bytes Y-U-V-All-PSNR 39.03 45.94 45.59   40.35 dB\n           (1.49 bpp)\nblock count:  intra4:       2958  (85.29%)\n              intra16:       510  (14.71%)\n              skipped:        32  (0.92%)\nbytes used:  header:            272  (0.2%)\n             mode-partition:  15636  (9.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      20%|      19%|      26%|      36%|    3468\n      quantizer:  |      27 |      23 |      18 |      13 |\n   filter level:  |       8 |       5 |       3 |      13 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town.webp\nRIFF HEADER:\n  File size: 162480\nChunk VP8  at offset     12, length 162468\n  Width: 1080\n  Height: 810\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   15908\n  Width:            1080\n  X scale:          0\n  Height:           810\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 23 18 13\n  Filter strength:  8 5 3 13\n  Prob segment:     99 129 107\n  Simple filter:    0\n  Level:            13\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -3\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 810,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.0,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "6e4167c3e6dfab3e547d763957fcb94094eefb8e4f7bc48ad7db5ed7aafc9722",
+      "output_bytes": 162480,
+      "status": "passed",
+      "source_sha256_after": "f00393995975f288f700229574e1c0512b3af4e3efc5ad9bf222433f13134813",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/1.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-2.webp",
+      "source_width": 1280,
+      "source_height": 853,
+      "source_sha256_expected": "d8aec4bab41cec79f79ad0a79e73e8fdb6660234a75f94b6c0c391471a72da75",
+      "source_sha256_before": "d8aec4bab41cec79f79ad0a79e73e8fdb6660234a75f94b6c0c391471a72da75",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 719.71875,
+      "expected_output_height": 720,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/1.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-2.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-2.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/1.jpg\nDimension: 1080 x 720\nOutput:    239726 bytes Y-U-V-All-PSNR 37.98 38.35 38.44   38.11 dB\n           (2.47 bpp)\nblock count:  intra4:       2934  (95.88%)\n              intra16:       126  (4.12%)\n              skipped:         0  (0.00%)\nbytes used:  header:            523  (0.2%)\n             mode-partition:  16479  (6.9%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      36%|      28%|      24%|      12%|    3060\n      quantizer:  |      25 |      20 |      15 |      11 |\n   filter level:  |       8 |       5 |       2 |       2 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-2.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-2.webp\nRIFF HEADER:\n  File size: 239726\nChunk VP8  at offset     12, length 239714\n  Width: 1080\n  Height: 720\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   17002\n  Width:            1080\n  X scale:          0\n  Height:           720\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        25 20 15 11\n  Filter strength:  8 5 2 2\n  Prob segment:     163 142 168\n  Simple filter:    0\n  Level:            8\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           25\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         4\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-2.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-2.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 720,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.28125,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "df00a27271ca3aa3ebd175716a4ef2ec83e9a76869d89a6b0f41f4a41131dce4",
+      "output_bytes": 239726,
+      "status": "passed",
+      "source_sha256_after": "d8aec4bab41cec79f79ad0a79e73e8fdb6660234a75f94b6c0c391471a72da75",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/3-replacement.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-3.webp",
+      "source_width": 1280,
+      "source_height": 853,
+      "source_sha256_expected": "4763a388657462cc8b50e32dd3fb63c5c68f0603e8a7408ed5beea434bbdef35",
+      "source_sha256_before": "4763a388657462cc8b50e32dd3fb63c5c68f0603e8a7408ed5beea434bbdef35",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 719.71875,
+      "expected_output_height": 720,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/3-replacement.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-3.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-3.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/3-replacement.jpg\nDimension: 1080 x 720\nOutput:    66458 bytes Y-U-V-All-PSNR 41.13 47.03 47.83   42.40 dB\n           (0.68 bpp)\nblock count:  intra4:       1638  (53.53%)\n              intra16:      1422  (46.47%)\n              skipped:       177  (5.78%)\nbytes used:  header:            197  (0.3%)\n             mode-partition:   7988  (12.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       7%|      12%|      17%|      65%|    3060\n      quantizer:  |      27 |      26 |      21 |      16 |\n   filter level:  |       8 |       6 |       4 |      23 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-3.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-3.webp\nRIFF HEADER:\n  File size:  66458\nChunk VP8  at offset     12, length  66446\n  Width: 1080\n  Height: 720\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   8185\n  Width:            1080\n  X scale:          0\n  Height:           720\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 26 21 16\n  Filter strength:  8 6 4 23\n  Prob segment:     47 91 52\n  Simple filter:    0\n  Level:            23\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -3\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-3.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-3.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 720,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.28125,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "a87e6b9f3f2b9f3c54605cbe23368b850ac0f870ca6b5e2e4c6d6a70ed71c56e",
+      "output_bytes": 66458,
+      "status": "passed",
+      "source_sha256_after": "4763a388657462cc8b50e32dd3fb63c5c68f0603e8a7408ed5beea434bbdef35",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/4.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-4.webp",
+      "source_width": 1280,
+      "source_height": 960,
+      "source_sha256_expected": "cc7728f22a3fc1c7b2110b36b538bae7258a9aaa90661f77d768c27f7965a455",
+      "source_sha256_before": "cc7728f22a3fc1c7b2110b36b538bae7258a9aaa90661f77d768c27f7965a455",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 810.0,
+      "expected_output_height": 810,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/4.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-4.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-4.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/4.jpg\nDimension: 1080 x 810\nOutput:    57164 bytes Y-U-V-All-PSNR 41.56 48.05 48.15   42.87 dB\n           (0.52 bpp)\nblock count:  intra4:       2048  (59.05%)\n              intra16:      1420  (40.95%)\n              skipped:        86  (2.48%)\nbytes used:  header:            205  (0.4%)\n             mode-partition:   9003  (15.7%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       1%|       6%|      15%|      78%|    3468\n      quantizer:  |      27 |      27 |      22 |      18 |\n   filter level:  |       8 |       5 |      10 |      29 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-4.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-4.webp\nRIFF HEADER:\n  File size:  57164\nChunk VP8  at offset     12, length  57152\n  Width: 1080\n  Height: 810\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   9208\n  Width:            1080\n  X scale:          0\n  Height:           810\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 27 22 18\n  Filter strength:  8 5 10 29\n  Prob segment:     20 47 40\n  Simple filter:    0\n  Level:            29\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -4\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-4.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-4.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 810,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.0,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "a00c27a54baa7bf1717d240ffdf92a1955a8a05bd08ab0fe855ab0ff8c0e0efd",
+      "output_bytes": 57164,
+      "status": "passed",
+      "source_sha256_after": "cc7728f22a3fc1c7b2110b36b538bae7258a9aaa90661f77d768c27f7965a455",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/5.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-5.webp",
+      "source_width": 1280,
+      "source_height": 1707,
+      "source_sha256_expected": "ecc7cf740dbe4aa0a079b570e902811502167c75ab5ded2584f56eb2800f8968",
+      "source_sha256_before": "ecc7cf740dbe4aa0a079b570e902811502167c75ab5ded2584f56eb2800f8968",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 1440.28125,
+      "expected_output_height": 1441,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/5.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-5.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-5.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/5.jpg\nDimension: 1080 x 1441\nOutput:    223772 bytes Y-U-V-All-PSNR 40.18 43.33 43.79   41.04 dB\n           (1.15 bpp)\nblock count:  intra4:       5884  (95.09%)\n              intra16:       304  (4.91%)\n              skipped:         3  (0.05%)\nbytes used:  header:            306  (0.1%)\n             mode-partition:  30808  (13.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       5%|      15%|      48%|      32%|    6188\n      quantizer:  |      27 |      24 |      20 |      15 |\n   filter level:  |       8 |       5 |       4 |       3 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-5.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-5.webp\nRIFF HEADER:\n  File size: 223772\nChunk VP8  at offset     12, length 223760\n  Width: 1080\n  Height: 1441\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   31114\n  Width:            1080\n  X scale:          0\n  Height:           1441\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 24 20 15\n  Filter strength:  8 5 4 3\n  Prob segment:     50 60 154\n  Simple filter:    0\n  Level:            8\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -1\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-5.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-5.webp. Dimensions: 1080 x 1441 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 1441,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.71875,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "13d81b1fd7820a6333616572f8d158d53881ee626e44ce6f6c7c2d961e9b080f",
+      "output_bytes": 223772,
+      "status": "passed",
+      "source_sha256_after": "ecc7cf740dbe4aa0a079b570e902811502167c75ab5ded2584f56eb2800f8968",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/6.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-6.webp",
+      "source_width": 1280,
+      "source_height": 851,
+      "source_sha256_expected": "e57aef17c2295362ff58be82dcb412d50ca39567413a8c0347d446e5e0ab4a94",
+      "source_sha256_before": "e57aef17c2295362ff58be82dcb412d50ca39567413a8c0347d446e5e0ab4a94",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 718.03125,
+      "expected_output_height": 719,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/6.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-6.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-6.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/6.jpg\nDimension: 1080 x 719\nOutput:    150032 bytes Y-U-V-All-PSNR 39.31 42.85 43.40   40.25 dB\n           (1.55 bpp)\nblock count:  intra4:       2584  (84.44%)\n              intra16:       476  (15.56%)\n              skipped:       274  (8.95%)\nbytes used:  header:            426  (0.3%)\n             mode-partition:  13894  (9.3%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      13%|      22%|      36%|      28%|    3060\n      quantizer:  |      27 |      23 |      18 |      13 |\n   filter level:  |       8 |       5 |       3 |      16 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-6.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-6.webp\nRIFF HEADER:\n  File size: 150032\nChunk VP8  at offset     12, length 150020\n  Width: 1080\n  Height: 719\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   14320\n  Width:            1080\n  X scale:          0\n  Height:           719\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 23 18 13\n  Filter strength:  8 5 3 16\n  Prob segment:     92 95 144\n  Simple filter:    0\n  Level:            16\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -1\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-6.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-6.webp. Dimensions: 1080 x 719 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 719,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.96875,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "6369c388331b48383b5a862a6258d6141b0d95d3ebd6c37ad5c666e19d9665f3",
+      "output_bytes": 150032,
+      "status": "passed",
+      "source_sha256_after": "e57aef17c2295362ff58be82dcb412d50ca39567413a8c0347d446e5e0ab4a94",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/7.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-7.webp",
+      "source_width": 1280,
+      "source_height": 800,
+      "source_sha256_expected": "d7b58367d06976dab40fdab81f46de2564a483172144ae895f901c65c3e62c9e",
+      "source_sha256_before": "d7b58367d06976dab40fdab81f46de2564a483172144ae895f901c65c3e62c9e",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 675.0,
+      "expected_output_height": 675,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/7.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-7.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-7.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/7.jpg\nDimension: 1080 x 675\nOutput:    37824 bytes Y-U-V-All-PSNR 42.75 46.44 48.51   43.82 dB\n           (0.42 bpp)\nblock count:  intra4:       1393  (47.64%)\n              intra16:      1531  (52.36%)\n              skipped:        53  (1.81%)\nbytes used:  header:            198  (0.5%)\n             mode-partition:   5959  (15.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       1%|       3%|      14%|      83%|    2924\n      quantizer:  |      27 |      27 |      22 |      19 |\n   filter level:  |       8 |       5 |      15 |      26 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-7.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-7.webp\nRIFF HEADER:\n  File size:  37824\nChunk VP8  at offset     12, length  37812\n  Width: 1080\n  Height: 675\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   6157\n  Width:            1080\n  X scale:          0\n  Height:           675\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 27 22 19\n  Filter strength:  8 5 15 26\n  Prob segment:     8 50 37\n  Simple filter:    0\n  Level:            26\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -3\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-7.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-7.webp. Dimensions: 1080 x 675 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 675,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.0,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "e4e04e59d313879f4e0f01629278b96151d3b99b36d23831f62fd7822e4bc71e",
+      "output_bytes": 37824,
+      "status": "passed",
+      "source_sha256_after": "d7b58367d06976dab40fdab81f46de2564a483172144ae895f901c65c3e62c9e",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/8.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-8.webp",
+      "source_width": 1280,
+      "source_height": 960,
+      "source_sha256_expected": "9af96cb80b7ca0589426e5801740ad056ea6c57e0da1f6283bd99ff45ec25f1b",
+      "source_sha256_before": "9af96cb80b7ca0589426e5801740ad056ea6c57e0da1f6283bd99ff45ec25f1b",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 810.0,
+      "expected_output_height": 810,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/8.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-8.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-8.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/8.jpg\nDimension: 1080 x 810\nOutput:    119984 bytes Y-U-V-All-PSNR 39.43 44.03 43.38   40.45 dB\n           (1.10 bpp)\nblock count:  intra4:       2719  (78.40%)\n              intra16:       749  (21.60%)\n              skipped:        15  (0.43%)\nbytes used:  header:            245  (0.2%)\n             mode-partition:  13456  (11.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       6%|      18%|      24%|      52%|    3468\n      quantizer:  |      27 |      25 |      20 |      15 |\n   filter level:  |       8 |       6 |       4 |      18 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-8.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-8.webp\nRIFF HEADER:\n  File size: 119984\nChunk VP8  at offset     12, length 119972\n  Width: 1080\n  Height: 810\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   13701\n  Width:            1080\n  X scale:          0\n  Height:           810\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 25 20 15\n  Filter strength:  8 6 4 18\n  Prob segment:     61 61 81\n  Simple filter:    0\n  Level:            18\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -2\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-8.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-8.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 810,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.0,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "3a2ceed236339130ae0338f9e01d515852b4dc9205666101c40798c167b4cc92",
+      "output_bytes": 119984,
+      "status": "passed",
+      "source_sha256_after": "9af96cb80b7ca0589426e5801740ad056ea6c57e0da1f6283bd99ff45ec25f1b",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/9.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-9.webp",
+      "source_width": 1280,
+      "source_height": 853,
+      "source_sha256_expected": "7746f9e2ec2f175d23ae9b241c18b1edcea7afff9d2faadc1bbc979eee4f8640",
+      "source_sha256_before": "7746f9e2ec2f175d23ae9b241c18b1edcea7afff9d2faadc1bbc979eee4f8640",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 719.71875,
+      "expected_output_height": 720,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/9.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-9.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-9.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/9.jpg\nDimension: 1080 x 720\nOutput:    111064 bytes Y-U-V-All-PSNR 40.10 42.30 42.99   40.79 dB\n           (1.14 bpp)\nblock count:  intra4:       2163  (70.69%)\n              intra16:       897  (29.31%)\n              skipped:       316  (10.33%)\nbytes used:  header:            259  (0.2%)\n             mode-partition:  11472  (10.3%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      10%|      19%|      27%|      44%|    3060\n      quantizer:  |      27 |      25 |      20 |      14 |\n   filter level:  |       8 |       6 |       4 |       3 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-9.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-9.webp\nRIFF HEADER:\n  File size: 111064\nChunk VP8  at offset     12, length 111052\n  Width: 1080\n  Height: 720\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   11731\n  Width:            1080\n  X scale:          0\n  Height:           720\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 25 20 14\n  Filter strength:  8 6 4 3\n  Prob segment:     74 85 96\n  Simple filter:    0\n  Level:            8\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -1\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-9.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-9.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 720,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.28125,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "a4c9480a0bfecfdf6c7cd22e99cce2153fb648171c75248e052f1a5b5041d63a",
+      "output_bytes": 111064,
+      "status": "passed",
+      "source_sha256_after": "7746f9e2ec2f175d23ae9b241c18b1edcea7afff9d2faadc1bbc979eee4f8640",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-10.webp",
+      "source_width": 1280,
+      "source_height": 853,
+      "source_sha256_expected": "844f1fec965479b07260d81e317dc844f434811afb306dc436c3ecc2b8a5f463",
+      "source_sha256_before": "844f1fec965479b07260d81e317dc844f434811afb306dc436c3ecc2b8a5f463",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 719.71875,
+      "expected_output_height": 720,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/10.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-10.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-10.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/boac-heritage-town/10.jpg\nDimension: 1080 x 720\nOutput:    229234 bytes Y-U-V-All-PSNR 38.08 41.26 42.65   39.02 dB\n           (2.36 bpp)\nblock count:  intra4:       2943  (96.18%)\n              intra16:       117  (3.82%)\n              skipped:         4  (0.13%)\nbytes used:  header:            339  (0.1%)\n             mode-partition:  17567  (7.7%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      40%|      20%|      23%|      17%|    3060\n      quantizer:  |      26 |      20 |      14 |      11 |\n   filter level:  |       8 |       5 |       2 |       0 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-10.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-10.webp\nRIFF HEADER:\n  File size: 229234\nChunk VP8  at offset     12, length 229222\n  Width: 1080\n  Height: 720\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   17906\n  Width:            1080\n  X scale:          0\n  Height:           720\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        26 20 14 11\n  Filter strength:  8 5 2 0\n  Prob segment:     153 172 147\n  Simple filter:    0\n  Level:            8\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           26\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -1\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-10.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/304-boac-heritage-town-10.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 720,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.28125,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "1c55ec23e83654cdc61f7e07c474acbd5f2e1fa9a8d389bcca8b5e2a1f0e1864",
+      "output_bytes": 229234,
+      "status": "passed",
+      "source_sha256_after": "844f1fec965479b07260d81e317dc844f434811afb306dc436c3ecc2b8a5f463",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/1.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao.webp",
+      "source_width": 1280,
+      "source_height": 960,
+      "source_sha256_expected": "f9b9c3c0580120b020a0663d45a4b1ac57bdd8544eaf30943a861c05578aa0e8",
+      "source_sha256_before": "f9b9c3c0580120b020a0663d45a4b1ac57bdd8544eaf30943a861c05578aa0e8",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 810.0,
+      "expected_output_height": 810,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/1.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/1.jpg\nDimension: 1080 x 810\nOutput:    242652 bytes Y-U-V-All-PSNR 38.12 43.29 44.15   39.32 dB\n           (2.22 bpp)\nblock count:  intra4:       3174  (91.52%)\n              intra16:       294  (8.48%)\n              skipped:         1  (0.03%)\nbytes used:  header:            437  (0.2%)\n             mode-partition:  18348  (7.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      41%|      17%|      17%|      25%|    3468\n      quantizer:  |      26 |      20 |      15 |      11 |\n   filter level:  |       8 |       5 |       2 |      17 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao.webp\nRIFF HEADER:\n  File size: 242652\nChunk VP8  at offset     12, length 242640\n  Width: 1080\n  Height: 810\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   18785\n  Width:            1080\n  X scale:          0\n  Height:           810\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        26 20 15 11\n  Filter strength:  8 5 2 17\n  Prob segment:     147 180 103\n  Simple filter:    0\n  Level:            17\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           26\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -2\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 810,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.0,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "1e95efb60c9776cb622616aa054b0f987297d7156ee64fcd99334013d2083b87",
+      "output_bytes": 242652,
+      "status": "passed",
+      "source_sha256_after": "f9b9c3c0580120b020a0663d45a4b1ac57bdd8544eaf30943a861c05578aa0e8",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/2.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-2.webp",
+      "source_width": 1280,
+      "source_height": 719,
+      "source_sha256_expected": "84d135c3b554b64e5da72b7564e329a610830bbb2d445990d93dd4f813ea8738",
+      "source_sha256_before": "84d135c3b554b64e5da72b7564e329a610830bbb2d445990d93dd4f813ea8738",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 606.65625,
+      "expected_output_height": 607,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/2.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-2.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-2.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/2.jpg\nDimension: 1080 x 607\nOutput:    63056 bytes Y-U-V-All-PSNR 40.20 45.55 46.53   41.42 dB\n           (0.77 bpp)\nblock count:  intra4:       1979  (76.59%)\n              intra16:       605  (23.41%)\n              skipped:         1  (0.04%)\nbytes used:  header:            174  (0.3%)\n             mode-partition:   8856  (14.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|       9%|      35%|      52%|    2584\n      quantizer:  |      27 |      25 |      21 |      16 |\n   filter level:  |       8 |       5 |       9 |      11 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-2.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-2.webp\nRIFF HEADER:\n  File size:  63056\nChunk VP8  at offset     12, length  63044\n  Width: 1080\n  Height: 607\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   9031\n  Width:            1080\n  X scale:          0\n  Height:           607\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 25 21 16\n  Filter strength:  8 5 9 11\n  Prob segment:     33 69 102\n  Simple filter:    0\n  Level:            11\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -3\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-2.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-2.webp. Dimensions: 1080 x 607 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 607,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.34375,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "a6e246ec44d4a10924ba7e14462b6ad7192fbb8427d13b4851719b7b75fcdb6e",
+      "output_bytes": 63056,
+      "status": "passed",
+      "source_sha256_after": "84d135c3b554b64e5da72b7564e329a610830bbb2d445990d93dd4f813ea8738",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/3.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-3.webp",
+      "source_width": 1280,
+      "source_height": 841,
+      "source_sha256_expected": "28e4511749e45adfab20c74ce64dd197329c90dc6223533a5f1a0a70c55edca0",
+      "source_sha256_before": "28e4511749e45adfab20c74ce64dd197329c90dc6223533a5f1a0a70c55edca0",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 709.59375,
+      "expected_output_height": 710,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/3.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-3.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-3.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/3.jpg\nDimension: 1080 x 710\nOutput:    100670 bytes Y-U-V-All-PSNR 40.48 45.47 46.68   41.67 dB\n           (1.05 bpp)\nblock count:  intra4:       2118  (69.22%)\n              intra16:       942  (30.78%)\n              skipped:       230  (7.52%)\nbytes used:  header:            329  (0.3%)\n             mode-partition:  10273  (10.2%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      12%|      10%|      21%|      56%|    3060\n      quantizer:  |      27 |      25 |      20 |      15 |\n   filter level:  |       8 |       5 |       4 |      21 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-3.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-3.webp\nRIFF HEADER:\n  File size: 100670\nChunk VP8  at offset     12, length 100658\n  Width: 1080\n  Height: 710\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   10602\n  Width:            1080\n  X scale:          0\n  Height:           710\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 25 20 15\n  Filter strength:  8 5 4 21\n  Prob segment:     57 137 70\n  Simple filter:    0\n  Level:            21\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -3\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-3.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-3.webp. Dimensions: 1080 x 710 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 710,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.40625,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "a6a2090621055297b337bc2d3b02444348d2a11d8138df27431f395813454485",
+      "output_bytes": 100670,
+      "status": "passed",
+      "source_sha256_after": "28e4511749e45adfab20c74ce64dd197329c90dc6223533a5f1a0a70c55edca0",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/4.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-4.webp",
+      "source_width": 1280,
+      "source_height": 856,
+      "source_sha256_expected": "e60368a366e4f9f7e338c43cded60d159e4b352b6fbcc62baf0308461d20d490",
+      "source_sha256_before": "e60368a366e4f9f7e338c43cded60d159e4b352b6fbcc62baf0308461d20d490",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 722.25,
+      "expected_output_height": 723,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/4.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-4.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-4.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/4.jpg\nDimension: 1080 x 723\nOutput:    68718 bytes Y-U-V-All-PSNR 41.23 45.04 45.14   42.18 dB\n           (0.70 bpp)\nblock count:  intra4:       2276  (72.76%)\n              intra16:       852  (27.24%)\n              skipped:        67  (2.14%)\nbytes used:  header:            234  (0.3%)\n             mode-partition:   9946  (14.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|       9%|      34%|      54%|    3128\n      quantizer:  |      27 |      25 |      21 |      17 |\n   filter level:  |       8 |       5 |       9 |      20 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-4.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-4.webp\nRIFF HEADER:\n  File size:  68718\nChunk VP8  at offset     12, length  68706\n  Width: 1080\n  Height: 723\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   10180\n  Width:            1080\n  X scale:          0\n  Height:           723\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 25 21 17\n  Filter strength:  8 5 9 20\n  Prob segment:     30 56 99\n  Simple filter:    0\n  Level:            20\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -2\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-4.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-4.webp. Dimensions: 1080 x 723 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 723,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.75,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "16ea14f2368efdaa1746342d29d85e3241fe9fb33618ca045c11cefe8ca11583",
+      "output_bytes": 68718,
+      "status": "passed",
+      "source_sha256_after": "e60368a366e4f9f7e338c43cded60d159e4b352b6fbcc62baf0308461d20d490",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/5.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-5.webp",
+      "source_width": 1280,
+      "source_height": 2276,
+      "source_sha256_expected": "613291a09354f44fa388e2b62aee38f5c12e5b773a782fdcd76287abee6bbff3",
+      "source_sha256_before": "613291a09354f44fa388e2b62aee38f5c12e5b773a782fdcd76287abee6bbff3",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 1920.375,
+      "expected_output_height": 1921,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/5.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-5.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-5.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/5.jpg\nDimension: 1080 x 1921\nOutput:    236724 bytes Y-U-V-All-PSNR 40.81 47.43 48.82   42.18 dB\n           (0.91 bpp)\nblock count:  intra4:       4881  (59.32%)\n              intra16:      3347  (40.68%)\n              skipped:       550  (6.68%)\nbytes used:  header:            409  (0.2%)\n             mode-partition:  23864  (10.1%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       8%|      10%|      23%|      59%|    8228\n      quantizer:  |      27 |      26 |      21 |      16 |\n   filter level:  |       8 |       6 |       4 |      23 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-5.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-5.webp\nRIFF HEADER:\n  File size: 236724\nChunk VP8  at offset     12, length 236712\n  Width: 1080\n  Height: 1921\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   24273\n  Width:            1080\n  X scale:          0\n  Height:           1921\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 26 21 16\n  Filter strength:  8 6 4 23\n  Prob segment:     45 112 72\n  Simple filter:    0\n  Level:            23\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -3\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-5.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-5.webp. Dimensions: 1080 x 1921 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 1921,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.625,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "1c90289f63bce1fc415e8ddc59bfa30f3b556b50a044d3f6a61b6217927609bf",
+      "output_bytes": 236724,
+      "status": "passed",
+      "source_sha256_after": "613291a09354f44fa388e2b62aee38f5c12e5b773a782fdcd76287abee6bbff3",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/6.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-6.webp",
+      "source_width": 1280,
+      "source_height": 854,
+      "source_sha256_expected": "2848c09f0f94a2637cc455af81e4517487d4c13a7b06f3e6bf866a5f64896780",
+      "source_sha256_before": "2848c09f0f94a2637cc455af81e4517487d4c13a7b06f3e6bf866a5f64896780",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 720.5625,
+      "expected_output_height": 721,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/6.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-6.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-6.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/6.jpg\nDimension: 1080 x 721\nOutput:    39992 bytes Y-U-V-All-PSNR 43.11 79.87 88.59   44.87 dB\n           (0.41 bpp)\nblock count:  intra4:       1429  (45.68%)\n              intra16:      1699  (54.32%)\n              skipped:       703  (22.47%)\nbytes used:  header:            223  (0.6%)\n             mode-partition:   5805  (14.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       1%|       5%|      18%|      75%|    3128\n      quantizer:  |      27 |      26 |      22 |      18 |\n   filter level:  |       8 |       5 |       4 |      21 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-6.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-6.webp\nRIFF HEADER:\n  File size:  39992\nChunk VP8  at offset     12, length  39980\n  Width: 1080\n  Height: 721\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   6028\n  Width:            1080\n  X scale:          0\n  Height:           721\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 26 22 18\n  Filter strength:  8 5 4 21\n  Prob segment:     17 43 50\n  Simple filter:    0\n  Level:            21\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -4\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-6.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-6.webp. Dimensions: 1080 x 721 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 721,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.4375,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "2ba219ba581b12971128ab18d67043803fbe1c57005e76d193c17d2bd6b7d1cc",
+      "output_bytes": 39992,
+      "status": "passed",
+      "source_sha256_after": "2848c09f0f94a2637cc455af81e4517487d4c13a7b06f3e6bf866a5f64896780",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/7.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-7.webp",
+      "source_width": 1280,
+      "source_height": 1807,
+      "source_sha256_expected": "f63af21c058eafc539b8082e54c0b50ab9385f0ef45b0a88ee13e8d3a6ae7eaa",
+      "source_sha256_before": "f63af21c058eafc539b8082e54c0b50ab9385f0ef45b0a88ee13e8d3a6ae7eaa",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 1524.65625,
+      "expected_output_height": 1525,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/7.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-7.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-7.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/7.jpg\nDimension: 1080 x 1525\nOutput:    179786 bytes Y-U-V-All-PSNR 40.30 46.62 48.22   41.65 dB\n           (0.87 bpp)\nblock count:  intra4:       4474  (68.54%)\n              intra16:      2054  (31.46%)\n              skipped:        25  (0.38%)\nbytes used:  header:            402  (0.2%)\n             mode-partition:  18123  (10.1%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      10%|       9%|      14%|      67%|    6528\n      quantizer:  |      27 |      26 |      21 |      16 |\n   filter level:  |       8 |       6 |       4 |      19 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-7.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-7.webp\nRIFF HEADER:\n  File size: 179786\nChunk VP8  at offset     12, length 179774\n  Width: 1080\n  Height: 1525\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   18525\n  Width:            1080\n  X scale:          0\n  Height:           1525\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 26 21 16\n  Filter strength:  8 6 4 19\n  Prob segment:     47 137 44\n  Simple filter:    0\n  Level:            19\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -3\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-7.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-7.webp. Dimensions: 1080 x 1525 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 1525,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.34375,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "b7deee30a30a659fd24d70696b1aed0c8a0317db9b28fa378b0559bdac479de7",
+      "output_bytes": 179786,
+      "status": "passed",
+      "source_sha256_after": "f63af21c058eafc539b8082e54c0b50ab9385f0ef45b0a88ee13e8d3a6ae7eaa",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/8.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-8.webp",
+      "source_width": 1280,
+      "source_height": 853,
+      "source_sha256_expected": "dfc8fbd8cd5876e0a3b8ca2464cee9f267217b969364aa8bdefa264ab9c63811",
+      "source_sha256_before": "dfc8fbd8cd5876e0a3b8ca2464cee9f267217b969364aa8bdefa264ab9c63811",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 719.71875,
+      "expected_output_height": 720,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/8.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-8.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-8.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/8.jpg\nDimension: 1080 x 720\nOutput:    149536 bytes Y-U-V-All-PSNR 39.23 42.45 44.81   40.24 dB\n           (1.54 bpp)\nblock count:  intra4:       2189  (71.54%)\n              intra16:       871  (28.46%)\n              skipped:       216  (7.06%)\nbytes used:  header:            388  (0.3%)\n             mode-partition:  11557  (7.7%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      25%|      12%|      19%|      44%|    3060\n      quantizer:  |      27 |      23 |      19 |      13 |\n   filter level:  |       8 |       5 |       3 |       3 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-8.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-8.webp\nRIFF HEADER:\n  File size: 149536\nChunk VP8  at offset     12, length 149524\n  Width: 1080\n  Height: 720\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   11945\n  Width:            1080\n  X scale:          0\n  Height:           720\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 23 19 13\n  Filter strength:  8 5 3 3\n  Prob segment:     95 170 76\n  Simple filter:    0\n  Level:            8\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -2\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-8.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-8.webp. Dimensions: 1080 x 720 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 720,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.28125,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "108b1007ab3034b68aa8da08ff2a699f250042860f329cba5e9067cf15e7caf4",
+      "output_bytes": 149536,
+      "status": "passed",
+      "source_sha256_after": "dfc8fbd8cd5876e0a3b8ca2464cee9f267217b969364aa8bdefa264ab9c63811",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/9-replacement.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-9.webp",
+      "source_width": 1280,
+      "source_height": 1708,
+      "source_sha256_expected": "92882c587637b8993e96c1df1f7bc400182ac73bb2aa8b97bd30bb56f0cfc3aa",
+      "source_sha256_before": "92882c587637b8993e96c1df1f7bc400182ac73bb2aa8b97bd30bb56f0cfc3aa",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 1441.125,
+      "expected_output_height": 1442,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/9-replacement.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-9.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-9.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/9-replacement.jpg\nDimension: 1080 x 1442\nOutput:    89546 bytes Y-U-V-All-PSNR 42.79 46.77 46.63   43.74 dB\n           (0.46 bpp)\nblock count:  intra4:       3978  (64.29%)\n              intra16:      2210  (35.71%)\n              skipped:      1027  (16.60%)\nbytes used:  header:            251  (0.3%)\n             mode-partition:  13804  (15.4%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       2%|       6%|      19%|      73%|    6188\n      quantizer:  |      27 |      27 |      23 |      17 |\n   filter level:  |       8 |       5 |       4 |      24 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-9.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-9.webp\nRIFF HEADER:\n  File size:  89546\nChunk VP8  at offset     12, length  89534\n  Width: 1080\n  Height: 1442\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   14055\n  Width:            1080\n  X scale:          0\n  Height:           1442\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 27 23 17\n  Filter strength:  8 5 4 24\n  Prob segment:     21 61 52\n  Simple filter:    0\n  Level:            24\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -3\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-9.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-9.webp. Dimensions: 1080 x 1442 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 1442,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.875,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "acc2bae72e21c05ed9884865b88375131732988962beb5806c69b015d0c5a8ee",
+      "output_bytes": 89546,
+      "status": "passed",
+      "source_sha256_after": "92882c587637b8993e96c1df1f7bc400182ac73bb2aa8b97bd30bb56f0cfc3aa",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    },
+    {
+      "source": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-10.webp",
+      "source_width": 1280,
+      "source_height": 960,
+      "source_sha256_expected": "bb4f74cb5dd717ae750fe81e169634b3745507b350553d1420ffae672689e51b",
+      "source_sha256_before": "bb4f74cb5dd717ae750fe81e169634b3745507b350553d1420ffae672689e51b",
+      "source_sha256_before_matches_manifest": true,
+      "quality": 80,
+      "target_width": 1080,
+      "ideal_output_height": 810.0,
+      "expected_output_height": 810,
+      "conversion": {
+        "command": [
+          "/opt/homebrew/bin/cwebp",
+          "-q",
+          "80",
+          "-resize",
+          "1080",
+          "0",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/10.jpg",
+          "-o",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-10.webp"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-10.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-2000/batch-303/originals/san-pedro-cathedral-davao/10.jpg\nDimension: 1080 x 810\nOutput:    74124 bytes Y-U-V-All-PSNR 41.33 46.62 46.80   42.50 dB\n           (0.68 bpp)\nblock count:  intra4:       2994  (86.33%)\n              intra16:       474  (13.67%)\n              skipped:         9  (0.26%)\nbytes used:  header:            173  (0.2%)\n             mode-partition:  13412  (18.1%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       0%|       6%|      46%|      48%|    3468\n      quantizer:  |      27 |      26 |      21 |      17 |\n   filter level:  |       8 |       5 |      14 |      20 |\n"
+      },
+      "webpinfo": {
+        "command": [
+          "/opt/homebrew/bin/webpinfo",
+          "-diag",
+          "-bitstream_info",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-10.webp"
+        ],
+        "returncode": 0,
+        "stdout": "File: /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-10.webp\nRIFF HEADER:\n  File size:  74124\nChunk VP8  at offset     12, length  74112\n  Width: 1080\n  Height: 810\n  Alpha: 0\n  Animation: 0\n  Format: Lossy (1)\n  Parsing lossy bitstream...\n  Key frame:        Yes\n  Profile:          0\n  Display:          Yes\n  Part. 0 length:   13585\n  Width:            1080\n  X scale:          0\n  Height:           810\n  Y scale:          0\n  Color space:      0\n  Clamp type:       0\n  Use segment:      1\n  Update map:       1\n  Update data:      1\n  Absolute delta:   1\n  Quantizer:        27 26 21 17\n  Filter strength:  8 5 14 20\n  Prob segment:     17 17 125\n  Simple filter:    0\n  Level:            20\n  Sharpness:        0\n  Use lf delta:     0\n  Total partitions: 1\n  Base Q:           27\n  DQ Y1 DC:         0\n  DQ Y2 DC:         0\n  DQ Y2 AC:         0\n  DQ UV DC:         -2\n  DQ UV AC:         -3\nNo error detected.\n",
+        "stderr": ""
+      },
+      "dwebp": {
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-10.webp",
+          "-ppm",
+          "-o",
+          "/dev/null"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/work/expansion-2000/assets/303-san-pedro-cathedral-davao-10.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved file /dev/null\n"
+      },
+      "output_width": 1080,
+      "output_height": 810,
+      "width_matches": true,
+      "height_matches": true,
+      "aspect_ratio_preserved": true,
+      "height_rounding_error_px": 0.0,
+      "webpinfo_ok": true,
+      "dwebp_decode_ok": true,
+      "output_sha256": "0b2f76dfc47c0326d3bc578bde21389e2b3a98b0180128dcb2d9a019a263d491",
+      "output_bytes": 74124,
+      "status": "passed",
+      "source_sha256_after": "bb4f74cb5dd717ae750fe81e169634b3745507b350553d1420ffae672689e51b",
+      "source_sha256_after_matches_manifest": true,
+      "source_unchanged": true
+    }
+  ],
+  "manifest_unchanged": true,
+  "completed_at": "2026-11-17T04:11:28.742558+00:00",
+  "summary": {
+    "total": 20,
+    "passed": 20,
+    "failed": 0,
+    "webpinfo_passed": 20,
+    "dwebp_decode_passed": 20,
+    "width_1080_passed": 20,
+    "aspect_ratio_passed": 20,
+    "source_sha256_unchanged": 20,
+    "total_output_bytes": 2642542
+  },
+  "status": "passed"
+}
