@@ -1,0 +1,435 @@
+{
+  "id": 323,
+  "slug": "pulilan",
+  "checked_at": "2026-11-17T11:17:40.339270+00:00",
+  "facts": [
+    {
+      "where": "identity",
+      "fact": "원문과미등록검사",
+      "value": "풀리란자치단체·새도시항목",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/?module=post&action=view&idx=1275713721",
+          "grade": "C",
+          "says": "입력2파일과공개본문cache직접읽음·풀리란물소축제/성당/주변소개.19C중반시작·200년·세계유일·참여항상400~500·30분이동·원문숙소/요금전재안함"
+        },
+        {
+          "url": "https://celebrate.pulilan.gov.ph/attractions/",
+          "grade": "A",
+          "says": "지자체관광목록:성당/무세오데풀리란/무세오산이시드로/유산가옥/앙갓강/수만/지역생산품·현재매일관람보장아님"
+        }
+      ],
+      "decision": "입력원문1275713721도시및성당/축제명시.기존data.csv및data/ko동일명소상세도시없음.358발리왁과별도도시"
+    },
+    {
+      "where": "latitude/longitude",
+      "fact": "지도2곳교차",
+      "value": [
+        14.9027,
+        120.8489
+      ],
+      "sources": [
+        {
+          "url": "https://mapcarta.com/W161052432",
+          "grade": "B",
+          "says": "직접지도성당건물way16105243214.90272/120.8489·townhall160m남쪽·city전체OSM아님"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Isidro_Labrador_Church",
+          "grade": "B",
+          "says": "직접지도좌표14.902728/120.848902Mapcarta와1m이내.역사문장발간물인용은NHCP로교차·Wikidata오래된14°54′4″/120°50′45″점은본성당에서벗어나므로미사용"
+        },
+        {
+          "url": "https://www.coordinatesfinder.com/coordinates/1446694-san-isidro-labrador-parish-church",
+          "grade": "B",
+          "says": "직접지도주소/좌표14.90260445/120.848893863863·지도건물점보다13m남쪽정면접근추가대조·상류OSM공유가능성명시"
+        }
+      ],
+      "decision": "성당부근구도심방문anchor·municipality전체중심아님·성당way를도시OSM으로대장기재안함.2지도<1m/정면추가13m.상류자료공유가능성있음"
+    },
+    {
+      "where": "overview/highlights",
+      "fact": "성당과복원",
+      "value": "현역교구성지",
+      "sources": [
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/simbahan-ng-pulilan/",
+          "grade": "A",
+          "says": "NHCP표지전체읽음1749visita/1764parish/1793relocate/1798stonepermission·1863/1880지진/2013retablo와floor교체/2019restoration/2020Dec13diocesanshrine.원문1794설립등상충하여확정연도일괄전재안함"
+        },
+        {
+          "url": "https://celebrate.pulilan.gov.ph/tourism/San-Isidro-Labrador-Parish/20",
+          "grade": "A",
+          "says": "지자체성당명/도심/농민수호성인/성당과물소축제연결·연혁본문1826/1829·지진1862/1863내부상충으로NHCP우선·현재예식표없음"
+        },
+        {
+          "url": "https://bulacan.gov.ph/375-carabaos-take-center-stage-at-kneeling-carabao-festival-in-pulilan/",
+          "grade": "A",
+          "says": "2026May16주정부기사직접읽음May14행렬/May15마무리공연.375carabaos19floats는그해숫자이며본문참여수고정X.산이시드로교구성지/옛PUP/Paltao학교행사장구분.기념상다채색은전통상징설명으로실제물소를칠하라는안내아님"
+        }
+      ],
+      "decision": "원문1794/1829일괄확정연대는상충자료로제외·현재건물전체식민원형주장X·현행미사표/실내자유개방미확인"
+    },
+    {
+      "where": "highlights",
+      "fact": "박물관구분",
+      "value": "무세오데풀리란≠무세오산이시드로",
+      "sources": [
+        {
+          "url": "https://celebrate.pulilan.gov.ph/attractions/",
+          "grade": "A",
+          "says": "지자체관광목록:성당/무세오데풀리란/무세오산이시드로/유산가옥/앙갓강/수만/지역생산품·현재매일관람보장아님"
+        },
+        {
+          "url": "https://celebrate.pulilan.gov.ph/tourism/Gabaldon-Museo-de-PulilanTrial-Court/25",
+          "grade": "A",
+          "says": "학교1908/2013복원/박물관법원관광사무소활용지자체설명직접읽음.모든업무공간상시자유개방/확정시간요금X"
+        },
+        {
+          "url": "https://pulilan.gov.ph/news/8-things-to-do-in-pulilan/",
+          "grade": "C",
+          "says": "지자체게재이지만저작/취재LangyawMedia2018인개인방문기재게시.박물관/옛집/농업예술/음식단서만사용·2018운영업소/개장·요금현행근거로안씀"
+        }
+      ],
+      "decision": "옛학교활용과업무공간구분.명칭유사CentralSchoolMuseum/농업박물관을동일전시실로합치지않음·확정운영요일/시간/요금미전재"
+    },
+    {
+      "where": "highlights/costs",
+      "fact": "2026문화유산여권",
+      "value": "프로그램에박물관소개",
+      "sources": [
+        {
+          "url": "https://radyopilipinas.ph/2026/10/07/bulacan-pamana-pass-inilunsad-upang-palakasin-ang-heritage-tourism-sa-lalawigan/",
+          "grade": "B",
+          "says": "2026Oct7RadyoPHacto담당자인터뷰·24곳참여목록MuseodePulilan확인.고유링크webTimeout뒤같은정상URLurllib요청성공하여실제HTML본문전체를읽음.무료booklet≠모든시설입장무료."
+        },
+        {
+          "url": "https://bulacan.gov.ph/category/news-and-announcements/page/4/",
+          "grade": "A",
+          "says": "2026Oct22/23Pass-yalPamana기사목록실제전체본문및2026수상프로그램지속확인.참여개별박물관의상세시간/요금아님"
+        }
+      ],
+      "decision": "정확배부상태/할인업체/모든입장무료확정X.기사접근한계기록·계속운영주체확인안내"
+    },
+    {
+      "where": "highlights",
+      "fact": "유산가옥",
+      "value": "Casanova-Aguirre외관/사유재산",
+      "sources": [
+        {
+          "url": "https://celebrate.pulilan.gov.ph/tourism/Old-House-Casanova-Aguirre-House/5",
+          "grade": "A",
+          "says": "Casanova-Aguirre가옥위치Poblacion/Lumbac경계·보존외관/촬영지이력.실내자유관람·유료공개확정아님"
+        },
+        {
+          "url": "https://bulacan.gov.ph/wp-content/uploads/2025/04/BulacanPDPFP_2024-2036.pdf",
+          "grade": "A",
+          "says": "2024~2036주계획문서문화유산inventoryCasanovaAguirre1033Poblacion/학교·박물관·성당·townhall서로다른건물확인.전체원문PDF의계획/상시운영이혼합되지않게구분 웹도구는22.9MB길이제한이어서정상URL다운로드후pdftotext본문p234~235실제확인."
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Pulilan",
+          "grade": "B",
+          "says": "실제본문직접읽음·구도심과간선도로교차로/SMPulilan구분·버스전부정차단정은공식교차안되어본문미전재·오래된박물관시각/숙소미검증상호제외"
+        }
+      ],
+      "decision": "준공연도1927vs1930s사진설명등상충연도미전재·영화촬영지이력은현재영업아님·실내자유개방주장없음"
+    },
+    {
+      "where": "overview/tips",
+      "fact": "현재청사와옛청사",
+      "value": "서로다른공공건물",
+      "sources": [
+        {
+          "url": "https://celebrate.pulilan.gov.ph/tourism/Old-Town-Hall/59",
+          "grade": "A",
+          "says": "옛청사1963청사이전/PUP2008~2023/2023Mar20이전후PESO등임시사무실.사진2012MunicipalHall을이옛청사로잘못명명X"
+        },
+        {
+          "url": "https://celebrate.pulilan.gov.ph/tourism/Gabaldon-Museo-de-PulilanTrial-Court/25",
+          "grade": "A",
+          "says": "학교1908/2013복원/박물관법원관광사무소활용지자체설명직접읽음.모든업무공간상시자유개방/확정시간요금X"
+        },
+        {
+          "url": "https://mapcarta.com/W161052432",
+          "grade": "B",
+          "says": "직접지도성당건물way16105243214.90272/120.8489·townhall160m남쪽·city전체OSM아님"
+        }
+      ],
+      "decision": "2012사진의MunicipalHall을옛청사PUP로오인하지않음·사진별실제전경과촬영연도기재"
+    },
+    {
+      "where": "highlights/best_time",
+      "fact": "물소축제",
+      "value": "2026May14행렬/15마무리",
+      "sources": [
+        {
+          "url": "https://bulacan.gov.ph/375-carabaos-take-center-stage-at-kneeling-carabao-festival-in-pulilan/",
+          "grade": "A",
+          "says": "2026May16주정부기사직접읽음May14행렬/May15마무리공연.375carabaos19floats는그해숫자이며본문참여수고정X.산이시드로교구성지/옛PUP/Paltao학교행사장구분.기념상다채색은전통상징설명으로실제물소를칠하라는안내아님"
+        },
+        {
+          "url": "https://pia.gov.ph/features/kneeling-carabao-festival-preserving-traditions-in-pulilan/",
+          "grade": "A",
+          "says": "2025May21PIA관광담당자인터뷰·농업기계화속전통/물소와감사문화·축제1920s시작소개.원문19C중반및200년역사주장불일치로연도미전재"
+        },
+        {
+          "url": "https://newsinfo.inquirer.net/2229713/faith-color-and-fun-draws-30000-crowd-to-kneeling-carabao-festival",
+          "grade": "B",
+          "says": "2026May16행렬취재검색전체본문읽음·개별open403접근한계.직접읽은주정부고유기사와교차하며관중수등본문전재안함"
+        }
+      ],
+      "decision": "참여수/세계유일/19C시작/항상400마리이상/오후2시고정/차량통제노선확정주장없음.행렬을상시물소타기/훈련체험으로소개안함"
+    },
+    {
+      "where": "highlights/cautions",
+      "fact": "강과농업",
+      "value": "앙갓강·농경배경",
+      "sources": [
+        {
+          "url": "https://celebrate.pulilan.gov.ph/tourism/Angat-River-and-the-Pulilan-River-Tour/50",
+          "grade": "A",
+          "says": "앙갓강/지역생활연결.옛시장시기RiverTour/esplanade계획은현재상설유람선매일운항증거아님"
+        },
+        {
+          "url": "https://pia.gov.ph/features/kneeling-carabao-festival-preserving-traditions-in-pulilan/",
+          "grade": "A",
+          "says": "2025May21PIA관광담당자인터뷰·농업기계화속전통/물소와감사문화·축제1920s시작소개.원문19C중반및200년역사주장불일치로연도미전재"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Pulilan",
+          "grade": "B",
+          "says": "실제본문직접읽음·구도심과간선도로교차로/SMPulilan구분·버스전부정차단정은공식교차안되어본문미전재·오래된박물관시각/숙소미검증상호제외"
+        }
+      ],
+      "decision": "옛강투어계획을현재유람선운항으로재작성금지·논의촬영시기/농업작업과상시관광체험구분"
+    },
+    {
+      "where": "food",
+      "fact": "지역간식",
+      "value": "수만불라그타와카카닌",
+      "sources": [
+        {
+          "url": "https://celebrate.pulilan.gov.ph/tourism/Sumang-Bulagta/6",
+          "grade": "A",
+          "says": "바나나잎찹쌀간식과설탕/코코넛곁들임설명·개별사진음식이다같은수만이아님"
+        },
+        {
+          "url": "https://pulilan.gov.ph/news/8-things-to-do-in-pulilan/",
+          "grade": "C",
+          "says": "지자체게재이지만저작/취재LangyawMedia2018인개인방문기재게시.박물관/옛집/농업예술/음식단서만사용·2018운영업소/개장·요금현행근거로안씀"
+        },
+        {
+          "url": "https://celebrate.pulilan.gov.ph/attractions/",
+          "grade": "A",
+          "says": "지자체관광목록:성당/무세오데풀리란/무세오산이시드로/유산가옥/앙갓강/수만/지역생산품·현재매일관람보장아님"
+        }
+      ],
+      "decision": "음식사진은그대로카카닌으로표현·사진의다층떡을바나나잎수만이라고오명명안함·특정가게현재영업/요금미전재"
+    },
+    {
+      "where": "getting_there",
+      "fact": "교통조건",
+      "value": "정차점/도심연결을운영사확인",
+      "sources": [
+        {
+          "url": "https://baliwag.ph/",
+          "grade": "A",
+          "says": "운영사직접열람November2026배너·예약/일정/터미널UI.동적개별Pulilan노선/시각추출안되어정차점·노선·운임·막차확정미전재"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Pulilan",
+          "grade": "B",
+          "says": "실제본문직접읽음·구도심과간선도로교차로/SMPulilan구분·버스전부정차단정은공식교차안되어본문미전재·오래된박물관시각/숙소미검증상호제외"
+        }
+      ],
+      "decision": "정확노선·SM정차모든버스·고정운임·막차공식추출불가로전재안함·구체버스회사없이북부차편확인과지역연결안내로한정"
+    },
+    {
+      "where": "cautions/best_time",
+      "fact": "침수위험",
+      "value": "2026Aug기록과현재당일공지구분",
+      "sources": [
+        {
+          "url": "https://bulacan.gov.ph/bulacan-declares-province-wide-state-of-calamity-amid-widespread-flooding/",
+          "grade": "A",
+          "says": "2026Aug20주공식재난공지실제읽음·주전역피해/재난모니터링.기록시점수위숫자를현재Nov수위로옮기지않음"
+        },
+        {
+          "url": "https://punto.com.ph/139-bulacan-barangays-still-submerged-in-floodwaters/",
+          "grade": "B",
+          "says": "2026Aug19독립현지취재·PDRRMO보고Pulilan포함침수지자체명명.다른CalumpitSapangBayan심한수위를Pulilan성당에대입금지"
+        }
+      ],
+      "decision": "과거피해를현재전면폐쇄또는해제보장으로추정안함·다른마을침수수치풀리란전체에적용금지"
+    },
+    {
+      "where": "budget/duration/rating",
+      "fact": "편집계획값",
+      "value": "식음400~700+지역400~700+예비300~600=1100~2000PHP",
+      "sources": [
+        {
+          "url": "editorial://323-pulilan",
+          "grade": "D",
+          "says": "예산/추천시간/월/평점4.6은편집계획·운영주체정가나실측자료아님"
+        }
+      ],
+      "decision": "장거리왕복/공항/숙박/대절별도·실제박물관요금표없으므로예비비를입장료로오인금지"
+    },
+    {
+      "where": "images",
+      "fact": "원본최종직접검수",
+      "value": "10독립촬영묶음",
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:843Francisco_Casanova_Felicidad_Aguirre_Ancestral_House_07.jpg",
+          "grade": "B",
+          "says": "Judgefloro 2019-06-07 13:19:44"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Pulilan_Church_20191013-1jwilz.jpg",
+          "grade": "B",
+          "says": "JWilz12345 Taken on 13 October 2019, 10:34:13"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Jf9996Pulilan_Municipal_Court_Gabaldon_Museum_Housefvf_25.JPG",
+          "grade": "B",
+          "says": "Judgefloro 2015-03-25 15:07:20"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:0310jfSan_Isidro_Labrador_Parish_Fiesta_Pulilan_Bulacan_Carabao_Kneeling_Festivalfvf_36.jpg",
+          "grade": "B",
+          "says": "Judgefloro 2017-05-14 16:11:59"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:9819San_Isidro_Labrador_Parish_Church_of_Pulilan_Interior_03.jpg",
+          "grade": "B",
+          "says": "JFVelasquez Floro 2021-04-18 11:09:08"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Municippuljf.JPG",
+          "grade": "B",
+          "says": "Ramon FVelasquez 2012-01-01"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:0348jfAngat_River_Longos_Resort_Restaurant_Bridge_Hall_Carabao_Pulilan_Bulacanfvf_08.JPG",
+          "grade": "B",
+          "says": "Judgefloro 2015-11-07 13:50:38"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Pulilanjf1816_03.JPG",
+          "grade": "B",
+          "says": "Ramon FVelasquez 2013-06-21 10:41:25"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:0225jfKakanin_Pulilan_Bulacan_Landmarksfvf_06.jpg",
+          "grade": "B",
+          "says": "Judgefloro 2017-08-07 12:53:31"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_Espino-Santos_Heritage_House_May_14_2026_Pulilan_06.jpg",
+          "grade": "B",
+          "says": "P1898 2026-05-14"
+        }
+      ],
+      "decision": "선정과제외·실제내용/촬영연도/작가별칭정규화는work323사진메타에기록.429즉시중단120초이상휴식·실패URL반복/호스트우회없음 원본27장/최종10장직접열람.표시작가명5개/별칭정규화3명·독립방문10묶음: Judge/Ramon/JF계보8방문은2012Jan1,2013Jun21,2015Mar25/Nov7,2017May14/Aug7,2019Jun7,2021Apr18;JWilz2019Oct13/P18982026May14는별도.초상/흐린야경/판사책상/표지확대/실제강없는제방/같은구도·연사제외."
+    }
+  ],
+  "images": [
+    {
+      "file": "data/images/323-pulilan.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:843Francisco_Casanova_Felicidad_Aguirre_Ancestral_House_07.jpg",
+      "creator": "Judgefloro",
+      "license": "CC0",
+      "captured": "2019-06-07 13:19:44",
+      "check": "2019JunCasanovaAguirre가옥전체·복원색상/지붕/창호명확.실내나영업허가주장X"
+    },
+    {
+      "file": "data/images/323-pulilan-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Pulilan_Church_20191013-1jwilz.jpg",
+      "creator": "JWilz12345",
+      "license": "CC BY-SA 4.0",
+      "captured": "Taken on 13 October 2019, 10:34:13",
+      "check": "2019Oct산이시드로성당측면전체와거리·교통.초상중심X·현행교통노선보장X"
+    },
+    {
+      "file": "data/images/323-pulilan-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Jf9996Pulilan_Municipal_Court_Gabaldon_Museum_Housefvf_25.JPG",
+      "creator": "Judgefloro",
+      "license": "CC BY-SA 4.0",
+      "captured": "2015-03-25 15:07:20",
+      "check": "2015MarMuseodePulilan/municipaltrialcourt명칭표시된옛가발돈학교건물외관.표지접사아니고실제건물전체.당시행사banner현재시간표X"
+    },
+    {
+      "file": "data/images/323-pulilan-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:0310jfSan_Isidro_Labrador_Parish_Fiesta_Pulilan_Bulacan_Carabao_Kneeling_Festivalfvf_36.jpg",
+      "creator": "Judgefloro",
+      "license": "CC0",
+      "captured": "2017-05-14 16:11:59",
+      "check": "2017May물소와수레가전경.큰술광고없고사육자얼굴근접주제아님.행렬뒤관람객과작은행사표지는배경.원본/CLI최종직접눈검수"
+    },
+    {
+      "file": "data/images/323-pulilan-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:9819San_Isidro_Labrador_Parish_Church_of_Pulilan_Interior_03.jpg",
+      "creator": "JFVelasquez Floro",
+      "license": "CC0",
+      "captured": "2021-04-18 11:09:08",
+      "check": "2021Apr성당중앙통로/아치/제단전체.예배자는먼배경·성모상확대사진제외"
+    },
+    {
+      "file": "data/images/323-pulilan-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Municippuljf.JPG",
+      "creator": "Ramon FVelasquez",
+      "license": "CC BY-SA 3.0",
+      "captured": "2012-01-01",
+      "check": "2012Jan현MunicipalHall구역외관/녹지.공식옛청사PUP건물과구별·당시조경현재보장X"
+    },
+    {
+      "file": "data/images/323-pulilan-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:0348jfAngat_River_Longos_Resort_Restaurant_Bridge_Hall_Carabao_Pulilan_Bulacanfvf_08.JPG",
+      "creator": "Judgefloro",
+      "license": "Public domain",
+      "captured": "2015-11-07 13:50:38",
+      "check": "2015Nov앙갓강과다리·공공경관.현재유람선/수영허가주장X"
+    },
+    {
+      "file": "data/images/323-pulilan-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Pulilanjf1816_03.JPG",
+      "creator": "Ramon FVelasquez",
+      "license": "CC BY-SA 3.0",
+      "captured": "2013-06-21 10:41:25",
+      "check": "2013Jun풀리란논과관개수면/농촌풍경.배경Nestle공장정보는업소추천아님·현행농작물/통행보장X"
+    },
+    {
+      "file": "data/images/323-pulilan-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:0225jfKakanin_Pulilan_Bulacan_Landmarksfvf_06.jpg",
+      "creator": "Judgefloro",
+      "license": "CC0",
+      "captured": "2017-08-07 12:53:31",
+      "check": "2017Aug카카닌다층떡의실사진.바나나잎수만불라그타라고오명명안함·접시주변바닥원본그대로·특정노점영업추천X"
+    },
+    {
+      "file": "data/images/323-pulilan-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Exterior_Espino-Santos_Heritage_House_May_14_2026_Pulilan_06.jpg",
+      "creator": "P1898",
+      "license": "CC BY 4.0",
+      "captured": "2026-05-14",
+      "check": "2026MayEspinoSantos가옥의창호/철제장식건축세부.판독가능한장식·전체집다른사진과구별·허락없는출입금지"
+    }
+  ],
+  "image_processing": {
+    "prompts": [
+      "data/images/323-pulilan-prompt.txt",
+      "data/images/323-pulilan-replacement-prompt.txt"
+    ],
+    "reports": [
+      "work/parallel-1992/luzon/323-pulilan-conversion-report.json",
+      "work/parallel-1992/luzon/323-pulilan-replacement-conversion-report.json"
+    ],
+    "method": "CodexCLI1080WebPq80·크롭회전색수정업스케일금지·원본SHA/비율/디코딩검증",
+    "replacement": "광고/얼굴비중큰종전4번을동일2017May14방문다른물소/수레컷으로교체·독립그룹10유지"
+  },
+  "translation": {
+    "method": "직접한영작성·i18n export/check/import99줄통과",
+    "fallback": "기타6언어부모통합"
+  }
+}

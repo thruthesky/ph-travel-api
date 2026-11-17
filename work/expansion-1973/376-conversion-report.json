@@ -1,0 +1,827 @@
+{
+  "manifest": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-conversion-manifest.json",
+  "started_at_utc": "2026-11-17T11:12:19.053727+00:00",
+  "status": "변환·디코드 검증·1차 눈검수 완료",
+  "settings": {
+    "encoder": "cwebp",
+    "encoder_version": "1.6.0\nlibsharpyuv: 0.4.2",
+    "decoder": "dwebp",
+    "decoder_version": "1.6.0",
+    "width": 1080,
+    "height_rule": "floor(원본 실제 높이 × 1080 / 원본 실제 가로 + 0.5)",
+    "quality": 80,
+    "metadata": "기존 ICC 프로필을 바이트 그대로 복사",
+    "crop": false,
+    "upscale": false,
+    "color_correction": false,
+    "rotation": false,
+    "compositing": false,
+    "text_insertion": false,
+    "image_generation": false,
+    "network_requests": false,
+    "source_access": "읽기 전용",
+    "manifest_fields_used": [
+      "original",
+      "output"
+    ]
+  },
+  "files": [
+    {
+      "index": 1,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/07.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city.webp",
+      "original_sha256_before": "766e9fff152fdcb6a43d41674b1d916a238420100fd31c07732bcf0cd866e58f",
+      "input_actual_dimensions": {
+        "width": 1920,
+        "height": 1440
+      },
+      "target_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "input_bytes": 1378081,
+      "input_icc_sha256": null,
+      "input_icc_bytes": 0,
+      "success": true,
+      "visual_review": {
+        "status": "통과",
+        "method": "view_image로 원본과 실제 WebP 출력 파일을 각각 열어 10쌍 직접 비교",
+        "original_opened": true,
+        "output_opened": true,
+        "content_and_framing_preserved": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "unexpected_crop_rotation_or_added_elements": false,
+        "observations": "도시 항공사진의 수평선·도로·건물·공원과 네 가장자리 구도가 보존됨.",
+        "note": "축소와 WebP 손실 압축에 따른 세부 묘사 감소는 있으나 내용 보완·추가·제거는 없음.",
+        "parent_recheck_pending": true
+      },
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "-metadata",
+        "icc",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/07.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city.webp"
+      ],
+      "encoder_exit_code": 0,
+      "encoder_log": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/07.jpg\nDimension: 1080 x 810\nOutput:    323618 bytes Y-U-V-All-PSNR 37.96 41.07 41.76   38.84 dB\n           (2.96 bpp)\nblock count:  intra4:       3420  (98.62%)\n              intra16:        48  (1.38%)\n              skipped:         3  (0.09%)\nbytes used:  header:            465  (0.1%)\n             mode-partition:  19857  (6.1%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      62%|      17%|      15%|       6%|    3468\n      quantizer:  |      23 |      17 |      12 |      11 |\n   filter level:  |       7 |       4 |       2 |       8 |",
+      "output_bytes": 323618,
+      "output_sha256": "b260f6e10de9a81fd3fbff4c0d242f8ec845c2e34b64236fe4b52afa99961bf2",
+      "output_icc_sha256": null,
+      "icc_preserved": true,
+      "output_actual_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "decode_validation": {
+        "success": true,
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city.webp",
+          "-ppm",
+          "-o",
+          "-"
+        ],
+        "exit_code": 0,
+        "actual_dimensions": {
+          "width": 1080,
+          "height": 810
+        },
+        "decoded_rgb_bytes": 2624400,
+        "expected_rgb_bytes": 2624400,
+        "saved_decoded_file": false,
+        "note": "dwebp로 전체 디코드한 PPM을 메모리에서 검사; 추가 파일 저장 없음",
+        "decoder_log": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout"
+      },
+      "height_rounding_error_px": 0,
+      "aspect_ratio_preserved_with_integer_rounding": true,
+      "original_sha256_after": "766e9fff152fdcb6a43d41674b1d916a238420100fd31c07732bcf0cd866e58f",
+      "original_unchanged": true
+    },
+    {
+      "index": 2,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/01.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-2.webp",
+      "original_sha256_before": "e23974f417107a15fa4be4eea43ef4fa7a5b13a5a4509a23a92b7359d388baad",
+      "input_actual_dimensions": {
+        "width": 1920,
+        "height": 1440
+      },
+      "target_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "input_bytes": 593362,
+      "input_icc_sha256": null,
+      "input_icc_bytes": 0,
+      "success": true,
+      "visual_review": {
+        "status": "통과",
+        "method": "view_image로 원본과 실제 WebP 출력 파일을 각각 열어 10쌍 직접 비교",
+        "original_opened": true,
+        "output_opened": true,
+        "content_and_framing_preserved": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "unexpected_crop_rotation_or_added_elements": false,
+        "observations": "계단·중앙 동상·오른쪽 건물·하늘의 전선과 화면 가장자리가 보존됨.",
+        "note": "축소와 WebP 손실 압축에 따른 세부 묘사 감소는 있으나 내용 보완·추가·제거는 없음.",
+        "parent_recheck_pending": true
+      },
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "-metadata",
+        "icc",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/01.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-2.webp"
+      ],
+      "encoder_exit_code": 0,
+      "encoder_log": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-2.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/01.jpg\nDimension: 1080 x 810\nOutput:    95380 bytes Y-U-V-All-PSNR 40.44 45.53 45.84   41.60 dB\n           (0.87 bpp)\nblock count:  intra4:       2586  (74.57%)\n              intra16:       882  (25.43%)\n              skipped:       258  (7.44%)\nbytes used:  header:            310  (0.3%)\n             mode-partition:  11878  (12.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|      12%|      44%|      41%|    3468\n      quantizer:  |      27 |      25 |      20 |      16 |\n   filter level:  |       8 |       5 |       4 |      11 |",
+      "output_bytes": 95380,
+      "output_sha256": "3aa03b3c1e5b158403241028443cf85ad10eb1b4748640839c965baab1958c61",
+      "output_icc_sha256": null,
+      "icc_preserved": true,
+      "output_actual_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "decode_validation": {
+        "success": true,
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-2.webp",
+          "-ppm",
+          "-o",
+          "-"
+        ],
+        "exit_code": 0,
+        "actual_dimensions": {
+          "width": 1080,
+          "height": 810
+        },
+        "decoded_rgb_bytes": 2624400,
+        "expected_rgb_bytes": 2624400,
+        "saved_decoded_file": false,
+        "note": "dwebp로 전체 디코드한 PPM을 메모리에서 검사; 추가 파일 저장 없음",
+        "decoder_log": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-2.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout"
+      },
+      "height_rounding_error_px": 0,
+      "aspect_ratio_preserved_with_integer_rounding": true,
+      "original_sha256_after": "e23974f417107a15fa4be4eea43ef4fa7a5b13a5a4509a23a92b7359d388baad",
+      "original_unchanged": true
+    },
+    {
+      "index": 3,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/03.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-3.webp",
+      "original_sha256_before": "8b2e56e945f3aaa27864cf2fa411b26977c42711366e69683d0daa3f4c3a55ed",
+      "input_actual_dimensions": {
+        "width": 1920,
+        "height": 2550
+      },
+      "target_dimensions": {
+        "width": 1080,
+        "height": 1434
+      },
+      "input_bytes": 1357568,
+      "input_icc_sha256": "12afb4d9953adee0607d347daee5b78b18d6b3cab2d572b88970703f5edb37bc",
+      "input_icc_bytes": 456,
+      "success": true,
+      "visual_review": {
+        "status": "통과",
+        "method": "view_image로 원본과 실제 WebP 출력 파일을 각각 열어 10쌍 직접 비교",
+        "original_opened": true,
+        "output_opened": true,
+        "content_and_framing_preserved": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "unexpected_crop_rotation_or_added_elements": false,
+        "observations": "세로 종탑의 꼭대기·출입구·전경의 무너진 석벽이 모두 유지되고 세로 구도가 보존됨.",
+        "note": "축소와 WebP 손실 압축에 따른 세부 묘사 감소는 있으나 내용 보완·추가·제거는 없음.",
+        "parent_recheck_pending": true
+      },
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "1434",
+        "-metadata",
+        "icc",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/03.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-3.webp"
+      ],
+      "encoder_exit_code": 0,
+      "encoder_log": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-3.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/03.jpg\nDimension: 1080 x 1434\nOutput:    272210 bytes Y-U-V-All-PSNR 38.56 45.15 47.26   39.95 dB\n           (1.41 bpp)\nblock count:  intra4:       5039  (82.34%)\n              intra16:      1081  (17.66%)\n              skipped:        89  (1.45%)\nbytes used:  header:            279  (0.1%)\n             mode-partition:  26441  (9.7%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      17%|      26%|      22%|      35%|    6120\n      quantizer:  |      27 |      23 |      19 |      12 |\n   filter level:  |       8 |       5 |       3 |      18 |\nMetadata:\n  * ICC profile:     456 bytes",
+      "output_bytes": 272692,
+      "output_sha256": "ef1a780f1c09e04e84447a827d23534f6815e130364ab31c9bddd82ebfbebf7b",
+      "output_icc_sha256": "12afb4d9953adee0607d347daee5b78b18d6b3cab2d572b88970703f5edb37bc",
+      "icc_preserved": true,
+      "output_actual_dimensions": {
+        "width": 1080,
+        "height": 1434
+      },
+      "decode_validation": {
+        "success": true,
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-3.webp",
+          "-ppm",
+          "-o",
+          "-"
+        ],
+        "exit_code": 0,
+        "actual_dimensions": {
+          "width": 1080,
+          "height": 1434
+        },
+        "decoded_rgb_bytes": 4646160,
+        "expected_rgb_bytes": 4646160,
+        "saved_decoded_file": false,
+        "note": "dwebp로 전체 디코드한 PPM을 메모리에서 검사; 추가 파일 저장 없음",
+        "decoder_log": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-3.webp. Dimensions: 1080 x 1434 . Format: lossy. Now saving...\nSaved to stdout"
+      },
+      "height_rounding_error_px": -0.375,
+      "aspect_ratio_preserved_with_integer_rounding": true,
+      "original_sha256_after": "8b2e56e945f3aaa27864cf2fa411b26977c42711366e69683d0daa3f4c3a55ed",
+      "original_unchanged": true
+    },
+    {
+      "index": 4,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/04.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-4.webp",
+      "original_sha256_before": "4143d70c47ad35538b48567a211d090a374555b6124affe5e500523e5b5d5e62",
+      "input_actual_dimensions": {
+        "width": 1920,
+        "height": 1440
+      },
+      "target_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "input_bytes": 549204,
+      "input_icc_sha256": null,
+      "input_icc_bytes": 0,
+      "success": true,
+      "visual_review": {
+        "status": "통과",
+        "method": "view_image로 원본과 실제 WebP 출력 파일을 각각 열어 10쌍 직접 비교",
+        "original_opened": true,
+        "output_opened": true,
+        "content_and_framing_preserved": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "unexpected_crop_rotation_or_added_elements": false,
+        "observations": "교회 정면·종탑·깃발·하단 인물과 차량의 배치 및 기존 색조가 보존됨.",
+        "note": "축소와 WebP 손실 압축에 따른 세부 묘사 감소는 있으나 내용 보완·추가·제거는 없음.",
+        "parent_recheck_pending": true
+      },
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "-metadata",
+        "icc",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/04.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-4.webp"
+      ],
+      "encoder_exit_code": 0,
+      "encoder_log": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-4.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/04.jpg\nDimension: 1080 x 810\nOutput:    98744 bytes Y-U-V-All-PSNR 40.56 44.57 44.55   41.54 dB\n           (0.90 bpp)\nblock count:  intra4:       2278  (65.69%)\n              intra16:      1190  (34.31%)\n              skipped:       427  (12.31%)\nbytes used:  header:            337  (0.3%)\n             mode-partition:  10852  (11.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       7%|      12%|      23%|      57%|    3468\n      quantizer:  |      27 |      25 |      21 |      16 |\n   filter level:  |       8 |       5 |       4 |      15 |",
+      "output_bytes": 98744,
+      "output_sha256": "6539ffb655c5743ae0e7f028b608398291dddda15ec374b4266c2d813cac3c47",
+      "output_icc_sha256": null,
+      "icc_preserved": true,
+      "output_actual_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "decode_validation": {
+        "success": true,
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-4.webp",
+          "-ppm",
+          "-o",
+          "-"
+        ],
+        "exit_code": 0,
+        "actual_dimensions": {
+          "width": 1080,
+          "height": 810
+        },
+        "decoded_rgb_bytes": 2624400,
+        "expected_rgb_bytes": 2624400,
+        "saved_decoded_file": false,
+        "note": "dwebp로 전체 디코드한 PPM을 메모리에서 검사; 추가 파일 저장 없음",
+        "decoder_log": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-4.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout"
+      },
+      "height_rounding_error_px": 0,
+      "aspect_ratio_preserved_with_integer_rounding": true,
+      "original_sha256_after": "4143d70c47ad35538b48567a211d090a374555b6124affe5e500523e5b5d5e62",
+      "original_unchanged": true
+    },
+    {
+      "index": 5,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/06.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-5.webp",
+      "original_sha256_before": "2643def64751aaa0ffb6f4794e0e6447b261b5bc7ce27a1708ad8788ea2c83cb",
+      "input_actual_dimensions": {
+        "width": 1920,
+        "height": 1446
+      },
+      "target_dimensions": {
+        "width": 1080,
+        "height": 813
+      },
+      "input_bytes": 1195274,
+      "input_icc_sha256": null,
+      "input_icc_bytes": 0,
+      "success": true,
+      "visual_review": {
+        "status": "통과",
+        "method": "view_image로 원본과 실제 WebP 출력 파일을 각각 열어 10쌍 직접 비교",
+        "original_opened": true,
+        "output_opened": true,
+        "content_and_framing_preserved": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "unexpected_crop_rotation_or_added_elements": false,
+        "observations": "공원의 나무·흰 동상·자전거·사람과 전경 바닥이 보존됨.",
+        "note": "축소와 WebP 손실 압축에 따른 세부 묘사 감소는 있으나 내용 보완·추가·제거는 없음.",
+        "parent_recheck_pending": true
+      },
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "813",
+        "-metadata",
+        "icc",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/06.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-5.webp"
+      ],
+      "encoder_exit_code": 0,
+      "encoder_log": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-5.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/06.jpg\nDimension: 1080 x 813\nOutput:    279400 bytes Y-U-V-All-PSNR 38.12 40.38 44.67   39.08 dB\n           (2.55 bpp)\nblock count:  intra4:       3239  (93.40%)\n              intra16:       229  (6.60%)\n              skipped:         0  (0.00%)\nbytes used:  header:            507  (0.2%)\n             mode-partition:  19123  (6.8%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      46%|      18%|      19%|      18%|    3468\n      quantizer:  |      25 |      19 |      14 |      11 |\n   filter level:  |       8 |       4 |       2 |       8 |",
+      "output_bytes": 279400,
+      "output_sha256": "a9a78d1842bad754f158c0dc957677a7639f03432c314acf9a4b00dead801190",
+      "output_icc_sha256": null,
+      "icc_preserved": true,
+      "output_actual_dimensions": {
+        "width": 1080,
+        "height": 813
+      },
+      "decode_validation": {
+        "success": true,
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-5.webp",
+          "-ppm",
+          "-o",
+          "-"
+        ],
+        "exit_code": 0,
+        "actual_dimensions": {
+          "width": 1080,
+          "height": 813
+        },
+        "decoded_rgb_bytes": 2634120,
+        "expected_rgb_bytes": 2634120,
+        "saved_decoded_file": false,
+        "note": "dwebp로 전체 디코드한 PPM을 메모리에서 검사; 추가 파일 저장 없음",
+        "decoder_log": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-5.webp. Dimensions: 1080 x 813 . Format: lossy. Now saving...\nSaved to stdout"
+      },
+      "height_rounding_error_px": -0.375,
+      "aspect_ratio_preserved_with_integer_rounding": true,
+      "original_sha256_after": "2643def64751aaa0ffb6f4794e0e6447b261b5bc7ce27a1708ad8788ea2c83cb",
+      "original_unchanged": true
+    },
+    {
+      "index": 6,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/02.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-6.webp",
+      "original_sha256_before": "0b645094fc89ca4d7d5114afca96e1105b11fae5f0b851004d019bc861dd3610",
+      "input_actual_dimensions": {
+        "width": 1920,
+        "height": 1558
+      },
+      "target_dimensions": {
+        "width": 1080,
+        "height": 876
+      },
+      "input_bytes": 703241,
+      "input_icc_sha256": "7f5ed381e7104a0270dfdf5f44d06610620596faf0c76b308986e97400022649",
+      "input_icc_bytes": 500,
+      "success": true,
+      "visual_review": {
+        "status": "통과",
+        "method": "view_image로 원본과 실제 WebP 출력 파일을 각각 열어 10쌍 직접 비교",
+        "original_opened": true,
+        "output_opened": true,
+        "content_and_framing_preserved": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "unexpected_crop_rotation_or_added_elements": false,
+        "observations": "계단·난간·기념물·뒤쪽 크레인과 오른쪽 원래의 빛 번짐이 보존됨.",
+        "note": "축소와 WebP 손실 압축에 따른 세부 묘사 감소는 있으나 내용 보완·추가·제거는 없음.",
+        "parent_recheck_pending": true
+      },
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "876",
+        "-metadata",
+        "icc",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/02.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-6.webp"
+      ],
+      "encoder_exit_code": 0,
+      "encoder_log": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-6.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/02.jpg\nDimension: 1080 x 876\nOutput:    131596 bytes Y-U-V-All-PSNR 39.93 45.37 46.19   41.16 dB\n           (1.11 bpp)\nblock count:  intra4:       2677  (71.58%)\n              intra16:      1063  (28.42%)\n              skipped:        50  (1.34%)\nbytes used:  header:            420  (0.3%)\n             mode-partition:  13586  (10.3%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      11%|      10%|      30%|      49%|    3740\n      quantizer:  |      27 |      25 |      19 |      15 |\n   filter level:  |       8 |       5 |       3 |      18 |\nMetadata:\n  * ICC profile:     500 bytes",
+      "output_bytes": 132122,
+      "output_sha256": "180f0c822746f9b1e717a7d44f9e31fb4692cc63936a90ddef21defbafc969ff",
+      "output_icc_sha256": "7f5ed381e7104a0270dfdf5f44d06610620596faf0c76b308986e97400022649",
+      "icc_preserved": true,
+      "output_actual_dimensions": {
+        "width": 1080,
+        "height": 876
+      },
+      "decode_validation": {
+        "success": true,
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-6.webp",
+          "-ppm",
+          "-o",
+          "-"
+        ],
+        "exit_code": 0,
+        "actual_dimensions": {
+          "width": 1080,
+          "height": 876
+        },
+        "decoded_rgb_bytes": 2838240,
+        "expected_rgb_bytes": 2838240,
+        "saved_decoded_file": false,
+        "note": "dwebp로 전체 디코드한 PPM을 메모리에서 검사; 추가 파일 저장 없음",
+        "decoder_log": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-6.webp. Dimensions: 1080 x 876 . Format: lossy. Now saving...\nSaved to stdout"
+      },
+      "height_rounding_error_px": -0.375,
+      "aspect_ratio_preserved_with_integer_rounding": true,
+      "original_sha256_after": "0b645094fc89ca4d7d5114afca96e1105b11fae5f0b851004d019bc861dd3610",
+      "original_unchanged": true
+    },
+    {
+      "index": 7,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/05.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-7.webp",
+      "original_sha256_before": "3ba5f6aa3d8629dafaf3e776ecdcced3cde5240b9d6ed1eb0265c9aea897adb8",
+      "input_actual_dimensions": {
+        "width": 1920,
+        "height": 1440
+      },
+      "target_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "input_bytes": 889069,
+      "input_icc_sha256": null,
+      "input_icc_bytes": 0,
+      "success": true,
+      "visual_review": {
+        "status": "통과",
+        "method": "view_image로 원본과 실제 WebP 출력 파일을 각각 열어 10쌍 직접 비교",
+        "original_opened": true,
+        "output_opened": true,
+        "content_and_framing_preserved": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "unexpected_crop_rotation_or_added_elements": false,
+        "observations": "입구 구조물과 기존 문구·전선·화단·오토바이 및 도로 구도가 보존됨.",
+        "note": "축소와 WebP 손실 압축에 따른 세부 묘사 감소는 있으나 내용 보완·추가·제거는 없음.",
+        "parent_recheck_pending": true
+      },
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "-metadata",
+        "icc",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/05.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-7.webp"
+      ],
+      "encoder_exit_code": 0,
+      "encoder_log": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-7.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/05.jpg\nDimension: 1080 x 810\nOutput:    177696 bytes Y-U-V-All-PSNR 38.73 44.07 43.56   39.87 dB\n           (1.63 bpp)\nblock count:  intra4:       2949  (85.03%)\n              intra16:       519  (14.97%)\n              skipped:         6  (0.17%)\nbytes used:  header:            372  (0.2%)\n             mode-partition:  15083  (8.5%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |      21%|      20%|      29%|      31%|    3468\n      quantizer:  |      27 |      23 |      18 |      12 |\n   filter level:  |       8 |       5 |       3 |      12 |",
+      "output_bytes": 177696,
+      "output_sha256": "f6dee3ca3d6e15f4b76a6becbf729ca4818916f546f9596b023928fa6b260de1",
+      "output_icc_sha256": null,
+      "icc_preserved": true,
+      "output_actual_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "decode_validation": {
+        "success": true,
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-7.webp",
+          "-ppm",
+          "-o",
+          "-"
+        ],
+        "exit_code": 0,
+        "actual_dimensions": {
+          "width": 1080,
+          "height": 810
+        },
+        "decoded_rgb_bytes": 2624400,
+        "expected_rgb_bytes": 2624400,
+        "saved_decoded_file": false,
+        "note": "dwebp로 전체 디코드한 PPM을 메모리에서 검사; 추가 파일 저장 없음",
+        "decoder_log": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-7.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout"
+      },
+      "height_rounding_error_px": 0,
+      "aspect_ratio_preserved_with_integer_rounding": true,
+      "original_sha256_after": "3ba5f6aa3d8629dafaf3e776ecdcced3cde5240b9d6ed1eb0265c9aea897adb8",
+      "original_unchanged": true
+    },
+    {
+      "index": 8,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-8.webp",
+      "original_sha256_before": "b4c0b9c7d9476dc72b7cbd07467962ce3bcc16ae0482903a537b2cbb69e947be",
+      "input_actual_dimensions": {
+        "width": 1920,
+        "height": 1446
+      },
+      "target_dimensions": {
+        "width": 1080,
+        "height": 813
+      },
+      "input_bytes": 679955,
+      "input_icc_sha256": null,
+      "input_icc_bytes": 0,
+      "success": true,
+      "visual_review": {
+        "status": "통과",
+        "method": "view_image로 원본과 실제 WebP 출력 파일을 각각 열어 10쌍 직접 비교",
+        "original_opened": true,
+        "output_opened": true,
+        "content_and_framing_preserved": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "unexpected_crop_rotation_or_added_elements": false,
+        "observations": "조형물·TAGALAG 글자·방문자 건물·자전거·상단 나뭇잎 및 바닥 구도가 보존됨.",
+        "note": "축소와 WebP 손실 압축에 따른 세부 묘사 감소는 있으나 내용 보완·추가·제거는 없음.",
+        "parent_recheck_pending": true
+      },
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "813",
+        "-metadata",
+        "icc",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/10.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-8.webp"
+      ],
+      "encoder_exit_code": 0,
+      "encoder_log": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-8.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/10.jpg\nDimension: 1080 x 813\nOutput:    133542 bytes Y-U-V-All-PSNR 39.61 46.17 47.32   40.97 dB\n           (1.22 bpp)\nblock count:  intra4:       2822  (81.37%)\n              intra16:       646  (18.63%)\n              skipped:        39  (1.12%)\nbytes used:  header:            297  (0.2%)\n             mode-partition:  14722  (11.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       7%|      18%|      37%|      38%|    3468\n      quantizer:  |      27 |      24 |      20 |      14 |\n   filter level:  |       8 |       5 |       9 |      16 |",
+      "output_bytes": 133542,
+      "output_sha256": "af4294e2ff0efd4a6dc7e149be63ca27b0c7e4021c5f252421f09c1c7efc45eb",
+      "output_icc_sha256": null,
+      "icc_preserved": true,
+      "output_actual_dimensions": {
+        "width": 1080,
+        "height": 813
+      },
+      "decode_validation": {
+        "success": true,
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-8.webp",
+          "-ppm",
+          "-o",
+          "-"
+        ],
+        "exit_code": 0,
+        "actual_dimensions": {
+          "width": 1080,
+          "height": 813
+        },
+        "decoded_rgb_bytes": 2634120,
+        "expected_rgb_bytes": 2634120,
+        "saved_decoded_file": false,
+        "note": "dwebp로 전체 디코드한 PPM을 메모리에서 검사; 추가 파일 저장 없음",
+        "decoder_log": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-8.webp. Dimensions: 1080 x 813 . Format: lossy. Now saving...\nSaved to stdout"
+      },
+      "height_rounding_error_px": -0.375,
+      "aspect_ratio_preserved_with_integer_rounding": true,
+      "original_sha256_after": "b4c0b9c7d9476dc72b7cbd07467962ce3bcc16ae0482903a537b2cbb69e947be",
+      "original_unchanged": true
+    },
+    {
+      "index": 9,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/14.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-9.webp",
+      "original_sha256_before": "5ed086f7aae3c35f5afac56812a58424a9c7fd1fa33cc323c69688e89e371b3d",
+      "input_actual_dimensions": {
+        "width": 1920,
+        "height": 1220
+      },
+      "target_dimensions": {
+        "width": 1080,
+        "height": 686
+      },
+      "input_bytes": 332211,
+      "input_icc_sha256": "61bb24bd075ae1179b562cb484a2737fa63bcf35133a951843db1f1f7c97ce7f",
+      "input_icc_bytes": 524,
+      "success": true,
+      "visual_review": {
+        "status": "통과",
+        "method": "view_image로 원본과 실제 WebP 출력 파일을 각각 열어 10쌍 직접 비교",
+        "original_opened": true,
+        "output_opened": true,
+        "content_and_framing_preserved": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "unexpected_crop_rotation_or_added_elements": false,
+        "observations": "Valenzuela 글자·공원 표지·분수·하늘과 바닥 무늬가 보존됨.",
+        "note": "축소와 WebP 손실 압축에 따른 세부 묘사 감소는 있으나 내용 보완·추가·제거는 없음.",
+        "parent_recheck_pending": true
+      },
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "686",
+        "-metadata",
+        "icc",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/14.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-9.webp"
+      ],
+      "encoder_exit_code": 0,
+      "encoder_log": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-9.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/14.jpg\nDimension: 1080 x 686\nOutput:    57834 bytes Y-U-V-All-PSNR 42.22 43.65 43.98   42.68 dB\n           (0.62 bpp)\nblock count:  intra4:       1820  (62.24%)\n              intra16:      1104  (37.76%)\n              skipped:       460  (15.73%)\nbytes used:  header:            251  (0.4%)\n             mode-partition:   8103  (14.0%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       3%|       9%|      20%|      69%|    2924\n      quantizer:  |      27 |      27 |      22 |      17 |\n   filter level:  |       8 |       5 |      10 |      20 |\nMetadata:\n  * ICC profile:     524 bytes",
+      "output_bytes": 58384,
+      "output_sha256": "e9b32da0403e7e5105e8dd4f68f90f65260cf921738f9a17e6dd58f0ee58c836",
+      "output_icc_sha256": "61bb24bd075ae1179b562cb484a2737fa63bcf35133a951843db1f1f7c97ce7f",
+      "icc_preserved": true,
+      "output_actual_dimensions": {
+        "width": 1080,
+        "height": 686
+      },
+      "decode_validation": {
+        "success": true,
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-9.webp",
+          "-ppm",
+          "-o",
+          "-"
+        ],
+        "exit_code": 0,
+        "actual_dimensions": {
+          "width": 1080,
+          "height": 686
+        },
+        "decoded_rgb_bytes": 2222640,
+        "expected_rgb_bytes": 2222640,
+        "saved_decoded_file": false,
+        "note": "dwebp로 전체 디코드한 PPM을 메모리에서 검사; 추가 파일 저장 없음",
+        "decoder_log": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-9.webp. Dimensions: 1080 x 686 . Format: lossy. Now saving...\nSaved to stdout"
+      },
+      "height_rounding_error_px": -0.25,
+      "aspect_ratio_preserved_with_integer_rounding": true,
+      "original_sha256_after": "5ed086f7aae3c35f5afac56812a58424a9c7fd1fa33cc323c69688e89e371b3d",
+      "original_unchanged": true
+    },
+    {
+      "index": 10,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/09.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-10.webp",
+      "original_sha256_before": "649b124d9820fcfce542925bf0fea2c09496d45258147cf4157ff800996b5aa6",
+      "input_actual_dimensions": {
+        "width": 1920,
+        "height": 1440
+      },
+      "target_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "input_bytes": 556648,
+      "input_icc_sha256": null,
+      "input_icc_bytes": 0,
+      "success": true,
+      "visual_review": {
+        "status": "통과",
+        "method": "view_image로 원본과 실제 WebP 출력 파일을 각각 열어 10쌍 직접 비교",
+        "original_opened": true,
+        "output_opened": true,
+        "content_and_framing_preserved": true,
+        "aspect_ratio_preserved_with_integer_rounding": true,
+        "unexpected_crop_rotation_or_added_elements": false,
+        "observations": "성당 내부의 제단·중앙 통로·양쪽 사람·창문·천장과 원래 프레임이 보존됨.",
+        "note": "축소와 WebP 손실 압축에 따른 세부 묘사 감소는 있으나 내용 보완·추가·제거는 없음.",
+        "parent_recheck_pending": true
+      },
+      "command": [
+        "/opt/homebrew/bin/cwebp",
+        "-q",
+        "80",
+        "-resize",
+        "1080",
+        "810",
+        "-metadata",
+        "icc",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/09.jpg",
+        "-o",
+        "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-10.webp"
+      ],
+      "encoder_exit_code": 0,
+      "encoder_log": "Saving file '/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-10.webp'\nFile:      /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-originals/09.jpg\nDimension: 1080 x 810\nOutput:    85638 bytes Y-U-V-All-PSNR 40.28 44.19 45.22   41.32 dB\n           (0.78 bpp)\nblock count:  intra4:       2738  (78.95%)\n              intra16:       730  (21.05%)\n              skipped:         6  (0.17%)\nbytes used:  header:            264  (0.3%)\n             mode-partition:  12523  (14.6%)\n Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total\n    macroblocks:  |       4%|      11%|      28%|      58%|    3468\n      quantizer:  |      27 |      26 |      21 |      17 |\n   filter level:  |       8 |       5 |      14 |      32 |",
+      "output_bytes": 85638,
+      "output_sha256": "bc212229f7dc75f7552e3a1ff96a8fd9162f59ad56d09a92436558517a1ed4df",
+      "output_icc_sha256": null,
+      "icc_preserved": true,
+      "output_actual_dimensions": {
+        "width": 1080,
+        "height": 810
+      },
+      "decode_validation": {
+        "success": true,
+        "command": [
+          "/opt/homebrew/bin/dwebp",
+          "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-10.webp",
+          "-ppm",
+          "-o",
+          "-"
+        ],
+        "exit_code": 0,
+        "actual_dimensions": {
+          "width": 1080,
+          "height": 810
+        },
+        "decoded_rgb_bytes": 2624400,
+        "expected_rgb_bytes": 2624400,
+        "saved_decoded_file": false,
+        "note": "dwebp로 전체 디코드한 PPM을 메모리에서 검사; 추가 파일 저장 없음",
+        "decoder_log": "Decoded /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-10.webp. Dimensions: 1080 x 810 . Format: lossy. Now saving...\nSaved to stdout"
+      },
+      "height_rounding_error_px": 0,
+      "aspect_ratio_preserved_with_integer_rounding": true,
+      "original_sha256_after": "649b124d9820fcfce542925bf0fea2c09496d45258147cf4157ff800996b5aa6",
+      "original_unchanged": true
+    }
+  ],
+  "conversion_success_count": 10,
+  "all_conversions_successful": true,
+  "completed_at_utc": "2026-11-17T11:13:25.631731+00:00",
+  "success": true,
+  "summary": {
+    "total_files": 10,
+    "successful_files": 10,
+    "original_sha256_matches": 10,
+    "decode_passes": 10,
+    "visual_review_passes": 10,
+    "total_output_bytes": 1657216,
+    "parent_visual_review": "대기",
+    "written_files": [
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-2.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-3.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-4.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-5.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-6.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-7.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-8.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-9.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-valenzuela-city-10.webp",
+      "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/376-conversion-report.json"
+    ],
+    "scope": "manifest의 10개 output과 이 보고서만 저장; 원본 읽기 전용; 네트워크·이미지 생성 모델·git·i18n·build·조사·에이전트 호출 없음"
+  }
+}

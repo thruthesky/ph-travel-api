@@ -1,0 +1,6 @@
+이전375공개사진확보를끝냈으므로새376발렌수엘라후보14장확보를진행합니다. 현재이미CodexCLI이며다른CLI나하위에이전트호출금지입니다. 적용스킬/AGENTS지침은이미읽었으니새로저장소를탐색하지말고이번정해진입력/출력에한정합니다.
+입력 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-candidate-preparation.json
+모든original경로에공개실사사진을확보합니다. 공식Commons imageinfo API에iiurlwidth=1600을주고API가직접반환한thumburl만받으세요. 공식반환호스트thumb.wikimedia.org와upload.wikimedia.org는둘다정상입니다. URL/호스트/크기를임의로조립하거나변경하지마세요. API가1600치수를보고하면서URL은1920px이던앞선사례처럼실제디코딩치수를정확히적으세요. 실제가로1080이상이어야하며full-original치수와구분합니다. 원본전체URL은기록만하고받지않습니다. 이전375사진을재다운로드하지마세요.
+한장씩순차요청·요청사이최소5초간격,429/403이면RetryAfter/URL기록하고즉시중단,재시도/다른호스트우회/소급변형URL금지. 성공분보존. 현재다른담당이Commons다운로드를진행하므로서버부하를낮춥니다. 픽셀생성/보정/합성/자르기/WebP변환은이번에안하며원본확보와읽기전용디코딩/SHA확인만합니다. 숫자해상도요청도이CodexCLI에서만수행합니다.
+보고서 /Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/expansion-1973/root/valenzuela-acquisition-report.json
+실제원본경로/다운로드게시URL/full원본URL/실제치수/SHA256/바이트/요청수/실패상태/RetryAfter를기록합니다. 부모가16~14장원본을눈검수후최종10장선정하므로자동눈검수완료표시금지. 메타입력JSON·data/·sources/·전역work·커밋은변경하지마세요. 보고서를검토하고끝내세요.
