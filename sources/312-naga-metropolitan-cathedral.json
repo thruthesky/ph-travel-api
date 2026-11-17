@@ -1,0 +1,393 @@
+{
+  "id": 312,
+  "slug": "naga-metropolitan-cathedral",
+  "checked_at": "2026-11-17T06:06:43.368008+00:00",
+  "facts": [
+    {
+      "where": "전체",
+      "fact": "원문과중복예외검토",
+      "value": "필고1275712320,TSV147행·기존148도시/305축제와구별",
+      "sources": [
+        {
+          "url": "https://www.philgo.com/?module=post&action=view&idx=1275712320",
+          "grade": "C",
+          "says": "나가대성당원문7292자공개post.get읽음"
+        },
+        {
+          "url": "work/philgo-registration-audit.csv",
+          "grade": "C",
+          "says": "naga-city본문언급·독립항목미확인"
+        },
+        {
+          "url": "data/ko/305-penafrancia-festival.json",
+          "grade": "C",
+          "says": "기존305는9월트라슬라시온/노베나/수상행렬/연도별통제중심행사안내"
+        }
+      ],
+      "decision": "duplicate.mjs286개대장에서305동일OSMway23666715·동점좌표를발견.305는도시전체여러장소를순회하는기간행사의대표집결점을성당으로선정한경우.312는연중상설성당건축·경내/기념문/신학교/박물관·미사간방문안내로독립.식별자같음을숨기지않고행사/상설시설예외기록.개별명소10장·원문전재없이한영직접재작성.원문의4대고대대성당·검은벽색변화신비효과·잘못된미사·행렬방향·비콜강·주도나가·박물관이름/가격·맨날마닐라직항·짧은장거리시간·식당영업·획일복장금지·고정축제일등미채택."
+    },
+    {
+      "where": "location,latitude,longitude",
+      "fact": "주소와좌표",
+      "value": "EliasAngelesStreet,NagaCity,CamarinesSur·13.6283,123.1873",
+      "sources": [
+        {
+          "url": "https://www.nagametropolitancathedral.ph/",
+          "grade": "A",
+          "says": "2026-10성당직접발행·StJohnEvangelist카세레스대교구주교좌·현재본당예배·미사언어/요일·주소·사무실시간",
+          "date": "2026-10"
+        },
+        {
+          "url": "https://tourism.naga.gov.ph/attractions/the-naga-metropolitan-cathedral/",
+          "grade": "A",
+          "says": "시관광청성당주소·1808~1843현재건물·옛종보수/정원예정안내·홈페이지일부검색무료이나직접페이지EntranceN/A"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Naga_Cathedral",
+          "grade": "B",
+          "says": "성당대표13.6282,123.1872·주교좌/현건물연대·실내아치와천장화"
+        },
+        {
+          "url": "https://mapcarta.com/W23666715",
+          "grade": "B",
+          "says": "OSMway23666715성당건물13.62835,123.18736·PortaMariae/신학교와인접지"
+        }
+      ],
+      "decision": "Wikipedia13.6282,123.1872와OSM건물13.62835,123.18736약24m대조해둘사이대표점채택.시·성당공식주소Naga기준.지도서비스상위행정MunicipalityofGainza표기는역지오코딩오류로미사용.세부나가시와필리주청사혼동방지.정확픽업/단일출입문보장아님."
+    },
+    {
+      "where": "overview,summary",
+      "fact": "정체성과연혁",
+      "value": "성요한복음사가봉헌카세레스대교구주교좌·현재건물1808~1843",
+      "sources": [
+        {
+          "url": "https://www.nagametropolitancathedral.ph/",
+          "grade": "A",
+          "says": "2026-10성당직접발행·StJohnEvangelist카세레스대교구주교좌·현재본당예배·미사언어/요일·주소·사무실시간",
+          "date": "2026-10"
+        },
+        {
+          "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/cathedral-of-naga/",
+          "grade": "A",
+          "says": "NHCP공식표지문:1595교구설립·1768화재·1808착공/1843완공·1856태풍/1887지진과이후보수"
+        },
+        {
+          "url": "https://www.archdioceseofcaceres.org/",
+          "grade": "A",
+          "says": "2026현행대교구성당지위·1595교구/1951대교구·별도바실리카/옛성당"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Naga_Cathedral",
+          "grade": "B",
+          "says": "성당대표13.6282,123.1872·주교좌/현건물연대·실내아치와천장화"
+        }
+      ],
+      "decision": "1595현재건물창건이라고혼동안함.태풍/지진과여러차례수복사실만간략채택.1939또는1950표지설치연도출처충돌로본문생략.유네스코세계유산/국보최상위지정주장없음.교황/역대주교전체명단·현재성직자인사불필요미수록."
+    },
+    {
+      "where": "overview,highlights",
+      "fact": "건축과사진시점",
+      "value": "중앙정문·쌍탑·아치/기둥·장식천장·옛어두운외벽과최근밝은정면",
+      "sources": [
+        {
+          "url": "https://www.nagametropolitancathedral.ph/",
+          "grade": "A",
+          "says": "2026-10성당직접발행·StJohnEvangelist카세레스대교구주교좌·현재본당예배·미사언어/요일·주소·사무실시간",
+          "date": "2026-10"
+        },
+        {
+          "url": "https://www.nagametropolitancathedral.ph/pilgrim-s-guide",
+          "grade": "A",
+          "says": "2026-10-17공식최신방문안내:정문성인부조·실내·주교좌·NovenaryImage·HeritageBells/CandleGarden·직원인솔종탑·PortaMariaeMuseum·부속기도실",
+          "date": "2026-10-17"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Naga_Cathedral",
+          "grade": "B",
+          "says": "성당대표13.6282,123.1872·주교좌/현건물연대·실내아치와천장화"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Naga_Cathedral,_Dec_2025_(1).jpg",
+          "grade": "B",
+          "says": "2025-12-14촬영밝은외벽실제사진"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Naga_City_Metropolitan_Cathedral,_Naga_City,_Philippines.JPG",
+          "grade": "B",
+          "says": "2012-09-02촬영어두운외벽실제사진"
+        }
+      ],
+      "decision": "직접원본/최종눈검수로양시기동일형태확인.색차이를신비현상·현재검은벽특징으로안내안함.천장/성인/아치위치는직접사진관찰과공식안내교차.주교좌/제단출입은허가없는자유접근권장안함."
+    },
+    {
+      "where": "highlights,nearby",
+      "fact": "PortaMariae",
+      "value": "2010신심300주년기념문·성당경내입구",
+      "sources": [
+        {
+          "url": "https://tourism.naga.gov.ph/attractions/the-porta-mariae/",
+          "grade": "A",
+          "says": "시관광청2010개장/300주년/경내위치·신학교옆배치"
+        },
+        {
+          "url": "https://www.nagametropolitancathedral.ph/pilgrim-s-guide",
+          "grade": "A",
+          "says": "2026-10-17공식최신방문안내:정문성인부조·실내·주교좌·NovenaryImage·HeritageBells/CandleGarden·직원인솔종탑·PortaMariaeMuseum·부속기도실",
+          "date": "2026-10-17"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Porta_Mariae",
+          "grade": "B",
+          "says": "2010년9월성모신심300주년기념문"
+        }
+      ],
+      "decision": "오래된스페인도시성문이라고쓰지않음.정확폭/높이/세계유일성수치불필요생략.2026석양사진은기념문실제공간,상부전망방문권리/연중개방보장아님."
+    },
+    {
+      "where": "highlights,nearby",
+      "fact": "신학교와박물관",
+      "value": "HolyRosaryMinorSeminary안Museo와별도PortaMariaeMuseum구분",
+      "sources": [
+        {
+          "url": "https://hrms-jshs.edu.ph/",
+          "grade": "A",
+          "says": "학교직접현재교육활동·성당옆1785기원신학교·박물관링크"
+        },
+        {
+          "url": "https://tourism.naga.gov.ph/attractions/holy-rosary-minor-seminary/",
+          "grade": "A",
+          "says": "시관광청경내신학교·역사유산"
+        },
+        {
+          "url": "https://tourism.naga.gov.ph/attractions/museo-del-seminario-conciliar-de-nueva-caceres-2/",
+          "grade": "A",
+          "says": "신학교내교회박물관성화/유물·무료및자율기부안내"
+        },
+        {
+          "url": "https://tourism.naga.gov.ph/attractions/porta-mariae-museum/",
+          "grade": "A",
+          "says": "별도기념문박물관·사진2023기록·축제철9~21/30PHP안내"
+        },
+        {
+          "url": "https://www.nagametropolitancathedral.ph/pilgrim-s-guide",
+          "grade": "A",
+          "says": "2026-10-17공식최신방문안내:정문성인부조·실내·주교좌·NovenaryImage·HeritageBells/CandleGarden·직원인솔종탑·PortaMariaeMuseum·부속기도실",
+          "date": "2026-10-17"
+        }
+      ],
+      "decision": "전시두곳구별.2023축제철특정개방/30페소를2026매일요금/영업으로재사용하지않음.신학교무료기부표기도전공간무료개방확대하지않음.현장각담당자현재확인.학교교실/기숙/복도관광자유출입권장안함."
+    },
+    {
+      "where": "highlights,tips,cautions",
+      "fact": "새안내와과거계획구분",
+      "value": "종/촛불정원·종탑은직원허가및현재개방문의",
+      "sources": [
+        {
+          "url": "https://www.nagametropolitancathedral.ph/pilgrim-s-guide",
+          "grade": "A",
+          "says": "2026-10-17공식최신방문안내:정문성인부조·실내·주교좌·NovenaryImage·HeritageBells/CandleGarden·직원인솔종탑·PortaMariaeMuseum·부속기도실",
+          "date": "2026-10-17"
+        },
+        {
+          "url": "https://tourism.naga.gov.ph/attractions/the-naga-metropolitan-cathedral/",
+          "grade": "A",
+          "says": "시관광청성당주소·1808~1843현재건물·옛종보수/정원예정안내·홈페이지일부검색무료이나직접페이지EntranceN/A"
+        },
+        {
+          "url": "https://www.gmanetwork.com/regionaltv/features/103392/new-bells-to-ring-for-100th-penafrancia-coronation-anniversary/story/",
+          "grade": "B",
+          "says": "2024년종6개내림·일부수리/일부정원계획보도"
+        }
+      ],
+      "decision": "시관광청정원미래형은옛상태.2026-10성당직접안내가더최신이며현재방문요소로소개하되일반관광자의임의울림/접근허용이라고단정안함.최신공식1743종연대등세부는독립교차불충분해본문생략.직원인솔문의조건.사적기도실전부항시공개보장없음."
+    },
+    {
+      "where": "best_time,itinerary,cautions",
+      "fact": "예배와축제일정",
+      "value": "요일/미사언어확인·상시관람과축제구분",
+      "sources": [
+        {
+          "url": "https://www.nagametropolitancathedral.ph/",
+          "grade": "A",
+          "says": "2026-10성당직접발행·StJohnEvangelist카세레스대교구주교좌·현재본당예배·미사언어/요일·주소·사무실시간",
+          "date": "2026-10"
+        },
+        {
+          "url": "https://www.nagametropolitancathedral.ph/pilgrim-s-guide",
+          "grade": "A",
+          "says": "2026-10-17공식최신방문안내:정문성인부조·실내·주교좌·NovenaryImage·HeritageBells/CandleGarden·직원인솔종탑·PortaMariaeMuseum·부속기도실",
+          "date": "2026-10-17"
+        },
+        {
+          "url": "https://www.archdioceseofcaceres.org/",
+          "grade": "A",
+          "says": "2026공식트라슬라시온옛성당→대성당/노베나·나가강수상행렬순서"
+        },
+        {
+          "url": "https://tourism.naga.gov.ph/tour/footsteps-of-the-faithful-2-days/",
+          "grade": "A",
+          "says": "도시공식성당/기념문/신학교박물관을연결하는순례동선"
+        }
+      ],
+      "decision": "원문평일06/07/12/18·일요일매시와공식표불일치라정확시간본문생략.사무실08~17:30을성당자유관람시간으로쓰지않음.복장/사진은존중과현장허가권장,반바지전면금지등검증없는절대규칙없음.2026종교행사는이미지났으므로매년같은정확날짜가아닌해당연도확인안내.305행사상세전재안함."
+    },
+    {
+      "where": "getting_there,airport",
+      "fact": "항공/버스/시내접근",
+      "value": "WNP공항필리·BCS별도시내구간·DRP장거리연결",
+      "sources": [
+        {
+          "url": "https://tourism.naga.gov.ph/travel-tips/",
+          "grade": "A",
+          "says": "갱신된시관광청나가공항필리/루손허브Clark연결·DRP다라가육상이동·BCS버스터미널"
+        },
+        {
+          "url": "https://tourism.naga.gov.ph/getting-here-and-around/",
+          "grade": "A",
+          "says": "시내지프니/트라이시클·BCS,항공본문일부낡음"
+        },
+        {
+          "url": "https://businessmirror.com.ph/2026/01/23/transfer-of-all-turboprop-flights-from-naia-t2-to-clark-intl-airport/",
+          "grade": "B",
+          "says": "항공사성명2026-03-29NagaCebgoNAIA→Clark이전"
+        },
+        {
+          "url": "https://www.flightconnections.com/flights-from-naga-camarines-sur-wnp",
+          "grade": "B",
+          "says": "2026-11WNP현운항Clark확인"
+        }
+      ],
+      "decision": "옛시청페이지/원문마닐라매일직항은미채택.정확항공운임/비행시간/배차없음,예약화면출발공항확인권장.시관광청travel-tips의북부고속도로NLEX/CLEX/TPLEx경유비콜자동차경로는지리오류여서미사용.PNR현재상시보장/특정시간·택시/지프니정액미수록."
+    },
+    {
+      "where": "costs,budget,stay_and_food,itinerary",
+      "fact": "개인계획예산과식사",
+      "value": "식음250–500+시내교통200–400+예비150–300=600–1200PHP",
+      "sources": [
+        {
+          "url": "https://www.nagametropolitancathedral.ph/",
+          "grade": "A",
+          "says": "2026-10성당직접발행·StJohnEvangelist카세레스대교구주교좌·현재본당예배·미사언어/요일·주소·사무실시간",
+          "date": "2026-10"
+        },
+        {
+          "url": "https://tourism.naga.gov.ph/tour/footsteps-of-the-faithful-2-days/",
+          "grade": "A",
+          "says": "교회기부·식음/가이드/이동은별도조건인공식순례상품안내"
+        }
+      ],
+      "decision": "예산은입장료아닌편집계획액.박물관/가이드/헌금/기념품/항공/장거리버스/공항이동/숙박제외.성당입장료직접최신확인불충분해고정숫자무료보장안함.특정식당추천미검증이므로원문식당/가격전재없음.4.6은저장소형식편집값으로외부리뷰평균아님.일정순서/안전/편한복장은일반방문조언."
+    }
+  ],
+  "images": [
+    {
+      "file": "312-naga-metropolitan-cathedral.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Naga_Cathedral,_Dec_2025_(1).jpg",
+      "artist": "Ralff Nestor Nacor",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "Taken on 14 December 2025, 09:05:57 (according to Exif data)",
+      "source_original_width": 3827,
+      "source_original_height": 2881,
+      "check": "2025년 12월 밝은 색으로 보이는 나가 대성당 정면과 쌍탑 — Commons작가·라이선스·성당형태/주소·촬영일대조.원본12장및최종10장직접열람.행렬사진은SanFrancisco성당앞이어서대상불일치제외,2025실내는대표외관과같은작가같은날이라제외.9작가10날짜,정면/석양기념문/실내/문부조/신학교/광장/야간/옛외벽/단지항공/긴측벽으로구분.과거사진연도명시,추가워터마크없음.오래된측면은밝은하늘이나건축구조식별가능하며색보정없음."
+    },
+    {
+      "file": "312-naga-metropolitan-cathedral-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Porta_Mariae_at_Sunset,_Naga_City_(2026)_01.jpg",
+      "artist": "Tertio3",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "Taken on 28 October 2026, 17:31:36 (according to Exif data)",
+      "source_original_width": 4003,
+      "source_original_height": 3003,
+      "check": "2026년 10월 석양 아래 Porta Mariae와 성당 경내 입구 — Commons작가·라이선스·성당형태/주소·촬영일대조.원본12장및최종10장직접열람.행렬사진은SanFrancisco성당앞이어서대상불일치제외,2025실내는대표외관과같은작가같은날이라제외.9작가10날짜,정면/석양기념문/실내/문부조/신학교/광장/야간/옛외벽/단지항공/긴측벽으로구분.과거사진연도명시,추가워터마크없음.오래된측면은밝은하늘이나건축구조식별가능하며색보정없음."
+    },
+    {
+      "file": "312-naga-metropolitan-cathedral-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Naga_Cathedral_Interior,_Apr_2024.jpg",
+      "artist": "Ralff Nestor Nacor",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2024-04-30 12:20:20",
+      "source_original_width": 4080,
+      "source_original_height": 3072,
+      "check": "2024년 나가 대성당 내부의 아치와 장식 천장, 중앙 통로 — Commons작가·라이선스·성당형태/주소·촬영일대조.원본12장및최종10장직접열람.행렬사진은SanFrancisco성당앞이어서대상불일치제외,2025실내는대표외관과같은작가같은날이라제외.9작가10날짜,정면/석양기념문/실내/문부조/신학교/광장/야간/옛외벽/단지항공/긴측벽으로구분.과거사진연도명시,추가워터마크없음.오래된측면은밝은하늘이나건축구조식별가능하며색보정없음."
+    },
+    {
+      "file": "312-naga-metropolitan-cathedral-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Naga_Cathedral_Main_Door.jpg",
+      "artist": "FroyAgta",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2018-09-22 08:12:50",
+      "source_original_width": 1872,
+      "source_original_height": 3328,
+      "check": "2018년 성인 부조와 문장이 새겨진 나가 대성당 정문 — Commons작가·라이선스·성당형태/주소·촬영일대조.원본12장및최종10장직접열람.행렬사진은SanFrancisco성당앞이어서대상불일치제외,2025실내는대표외관과같은작가같은날이라제외.9작가10날짜,정면/석양기념문/실내/문부조/신학교/광장/야간/옛외벽/단지항공/긴측벽으로구분.과거사진연도명시,추가워터마크없음.오래된측면은밝은하늘이나건축구조식별가능하며색보정없음."
+    },
+    {
+      "file": "312-naga-metropolitan-cathedral-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Holy_Rosary_Minor_Seminary_and_Naga_Cathedral.jpg",
+      "artist": "Jun Pasa",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2014-05-18",
+      "source_original_width": 3979,
+      "source_original_height": 1917,
+      "check": "2014년 성당 옆 Holy Rosary Minor Seminary와 경내의 녹지 — Commons작가·라이선스·성당형태/주소·촬영일대조.원본12장및최종10장직접열람.행렬사진은SanFrancisco성당앞이어서대상불일치제외,2025실내는대표외관과같은작가같은날이라제외.9작가10날짜,정면/석양기념문/실내/문부조/신학교/광장/야간/옛외벽/단지항공/긴측벽으로구분.과거사진연도명시,추가워터마크없음.오래된측면은밝은하늘이나건축구조식별가능하며색보정없음."
+    },
+    {
+      "file": "312-naga-metropolitan-cathedral-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Plaza_infront_of_Naga_Cathedral.jpg",
+      "artist": "Carlo Joseph Moskito",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "2016-02-20 09:14:23",
+      "source_original_width": 4160,
+      "source_original_height": 3120,
+      "check": "2016년 성당 앞 광장의 보행 길과 작은 돔 구조물 — Commons작가·라이선스·성당형태/주소·촬영일대조.원본12장및최종10장직접열람.행렬사진은SanFrancisco성당앞이어서대상불일치제외,2025실내는대표외관과같은작가같은날이라제외.9작가10날짜,정면/석양기념문/실내/문부조/신학교/광장/야간/옛외벽/단지항공/긴측벽으로구분.과거사진연도명시,추가워터마크없음.오래된측면은밝은하늘이나건축구조식별가능하며색보정없음."
+    },
+    {
+      "file": "312-naga-metropolitan-cathedral-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Facade_of_Naga_Cathedral_at_night.jpg",
+      "artist": "Kej Andrés (Ryomaandres)",
+      "license": "CC BY-SA 4.0",
+      "captured_at": "Taken on 27 April 2025, 19:04:05 (according to Exif data)",
+      "source_original_width": 4032,
+      "source_original_height": 3024,
+      "check": "2025년 저녁 조명 아래 나가 대성당과 앞마당의 차량 — Commons작가·라이선스·성당형태/주소·촬영일대조.원본12장및최종10장직접열람.행렬사진은SanFrancisco성당앞이어서대상불일치제외,2025실내는대표외관과같은작가같은날이라제외.9작가10날짜,정면/석양기념문/실내/문부조/신학교/광장/야간/옛외벽/단지항공/긴측벽으로구분.과거사진연도명시,추가워터마크없음.오래된측면은밝은하늘이나건축구조식별가능하며색보정없음."
+    },
+    {
+      "file": "312-naga-metropolitan-cathedral-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Naga_City_Metropolitan_Cathedral,_Naga_City,_Philippines.JPG",
+      "artist": "Totle12",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2012-09-02",
+      "source_original_width": 4928,
+      "source_original_height": 3264,
+      "check": "2012년 어두운 색 외벽이 남아 있던 나가 대성당 정면 — Commons작가·라이선스·성당형태/주소·촬영일대조.원본12장및최종10장직접열람.행렬사진은SanFrancisco성당앞이어서대상불일치제외,2025실내는대표외관과같은작가같은날이라제외.9작가10날짜,정면/석양기념문/실내/문부조/신학교/광장/야간/옛외벽/단지항공/긴측벽으로구분.과거사진연도명시,추가워터마크없음.오래된측면은밝은하늘이나건축구조식별가능하며색보정없음."
+    },
+    {
+      "file": "312-naga-metropolitan-cathedral-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Naga_Metropolitan_Cathedral_and_Porta_Mariae.jpg",
+      "artist": "Diosdado Bien",
+      "license": "CC0",
+      "captured_at": "2018-01-23 15:42:46",
+      "source_original_width": 3968,
+      "source_original_height": 2976,
+      "check": "2018년 Porta Mariae와 광장, 대성당, 신학교를 함께 본 항공 전경 — Commons작가·라이선스·성당형태/주소·촬영일대조.원본12장및최종10장직접열람.행렬사진은SanFrancisco성당앞이어서대상불일치제외,2025실내는대표외관과같은작가같은날이라제외.9작가10날짜,정면/석양기념문/실내/문부조/신학교/광장/야간/옛외벽/단지항공/긴측벽으로구분.과거사진연도명시,추가워터마크없음.오래된측면은밝은하늘이나건축구조식별가능하며색보정없음."
+    },
+    {
+      "file": "312-naga-metropolitan-cathedral-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:WTNaga_Mr.Kengkoy_B19.JPG",
+      "artist": "JR Relloso",
+      "license": "CC BY-SA 3.0",
+      "captured_at": "2012-11-24 03:54:24",
+      "source_original_width": 1296,
+      "source_original_height": 864,
+      "check": "2012년 나가 대성당의 오른쪽 종탑과 긴 측면 외벽 — Commons작가·라이선스·성당형태/주소·촬영일대조.원본12장및최종10장직접열람.행렬사진은SanFrancisco성당앞이어서대상불일치제외,2025실내는대표외관과같은작가같은날이라제외.9작가10날짜,정면/석양기념문/실내/문부조/신학교/광장/야간/옛외벽/단지항공/긴측벽으로구분.과거사진연도명시,추가워터마크없음.오래된측면은밝은하늘이나건축구조식별가능하며색보정없음."
+    }
+  ],
+  "image_processing": {
+    "prompt": "data/images/312-naga-metropolitan-cathedral-prompt.txt",
+    "method": "CodexCLI에만가로1080비율유지WebPq80정량변환위임.크롭회전색보정내용생성없음.원본SHA불변·치수·디코딩전부통과.",
+    "report": "work/parallel-1992/luzon/312-naga-metropolitan-cathedral-conversion-report.json"
+  },
+  "translation": {
+    "method": "한영직접집필101줄export/check/import성공",
+    "fallback": "다른6언어부모통합선언대기"
+  }
+}

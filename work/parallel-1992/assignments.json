@@ -11,12 +11,14 @@
     309,
     310,
     311,
+    312,
     327,
     328,
     329,
     347,
     367,
-    369
+    369,
+    371
   ],
   "assignments": [
     {
@@ -54,6 +56,15 @@
         386
       ],
       "state": "진행 중"
+    },
+    {
+      "agent": "ormoc_finish",
+      "scope": "330 출처 기록 오류 검토·완성본 통합",
+      "ids": [
+        330,
+        330
+      ],
+      "state": "검토 중"
     }
   ],
   "policy": {
@@ -76,9 +87,9 @@
     "parent_submodule_commit": false
   },
   "note": "번호 예약·조사 후보·사진 준비는 실제 등록 개수에 포함하지 않는다. 완성·검증 후에만 accepted_new_ids에 기록한다.",
-  "checked_at": "2026-11-17T06:03:13Z",
-  "current_total": 286,
-  "remaining": 1982,
+  "checked_at": "2026-11-17T06:19:23Z",
+  "current_total": 288,
+  "remaining": 1980,
   "held_ids": {
     "307": "사진 10개 독립 촬영 묶음 부족",
     "348": "통합 후 사진 다양성 미달을 발견해 철회·held-348 보존",

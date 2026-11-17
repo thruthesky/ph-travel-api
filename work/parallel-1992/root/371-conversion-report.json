@@ -1,0 +1,571 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-11-17T06:08:49.615887+00:00",
+  "manifest": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-final-preparation.json",
+  "manifest_sha256_before": "8e78519eaeffcf5ec91a8a94aa1ce171b8bbf7ce04f5a0ff09fd05d21bf5682c",
+  "tool": {
+    "name": "Pillow",
+    "version": "13.0.0",
+    "webp_version": "1.6.0"
+  },
+  "parameters": {
+    "format": "WEBP",
+    "width": 1080,
+    "quality": 80,
+    "lossless": false,
+    "encoder_method": 6,
+    "resampling": "LANCZOS",
+    "height_rounding": "nearest integer, half up",
+    "dimension_basis": "actual decoded source dimensions",
+    "height_error_limit_pixels": 1,
+    "crop": false,
+    "upscale": false,
+    "color_adjustment": false,
+    "exposure_adjustment": false,
+    "contrast_adjustment": false,
+    "compositing": false,
+    "text_logo_watermark_removal": false,
+    "image_generation": false,
+    "nested_codex_or_subagents": false,
+    "orientation_transform": false
+  },
+  "notes": [
+    "사진 내용 편집 없이 크기 축소 및 품질 80의 WebP 인코딩만 수행.",
+    "manifest의 참조 치수가 아닌 실제 파일 치수로 출력 높이를 계산.",
+    "ICC/XMP 바이트와 EXIF TIFF 내용을 보존. WebP 인코더가 생략하는 JPEG 전용 Exif 헤더 6바이트는 비교 시 정규화."
+  ],
+  "results": [
+    {
+      "index": 1,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-originals/baclaran-01.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/371-baclaran-church.webp",
+      "manifest_reference_dimensions": {
+        "width": 3492,
+        "height": 2619
+      },
+      "source": {
+        "width": 1280,
+        "height": 960,
+        "bytes": 338551,
+        "mode": "RGB",
+        "sha256_expected": "2fdaaf25f5329a41f6af871dc536144200333fff72b0baaf40a73945683a3195",
+        "sha256_before": "2fdaaf25f5329a41f6af871dc536144200333fff72b0baaf40a73945683a3195",
+        "mtime_ns_before": 1794895447461867290,
+        "sha256_after": "2fdaaf25f5329a41f6af871dc536144200333fff72b0baaf40a73945683a3195",
+        "mtime_ns_after": 1794895447461867290
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 810,
+        "unrounded_height": 810.0
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_full_decode": true,
+        "output_webp": true,
+        "output_full_decode": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_target": true,
+        "height_error_at_most_1px": true,
+        "aspect_ratio_preserved_with_pixel_rounding": true,
+        "no_upscale": true,
+        "metadata_content_preserved": true,
+        "source_bytes_unchanged": true,
+        "source_size_mtime_inode_mode_unchanged": true
+      },
+      "output_details": {
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "bytes": 153436,
+        "sha256": "2862293bca0cb38d6dfec59f69e785af843d94eef418d84846fc281ac0d63581",
+        "quality_parameter": 80,
+        "height_rounding_error_pixels": 0.0,
+        "source_aspect_ratio": 1.3333333333333333,
+        "output_aspect_ratio": 1.3333333333333333,
+        "metadata_checks": {
+          "icc_profile": true
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-originals/baclaran-02.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/371-baclaran-church-2.webp",
+      "manifest_reference_dimensions": {
+        "width": 4061,
+        "height": 3057
+      },
+      "source": {
+        "width": 1280,
+        "height": 964,
+        "bytes": 275731,
+        "mode": "RGB",
+        "sha256_expected": "0bcdf97f329ec2f2f36cb6934dc972acf77012de33a182d1057ca94f7caf44e2",
+        "sha256_before": "0bcdf97f329ec2f2f36cb6934dc972acf77012de33a182d1057ca94f7caf44e2",
+        "mtime_ns_before": 1794895449135189019,
+        "sha256_after": "0bcdf97f329ec2f2f36cb6934dc972acf77012de33a182d1057ca94f7caf44e2",
+        "mtime_ns_after": 1794895449135189019
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 813,
+        "unrounded_height": 813.375
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_full_decode": true,
+        "output_webp": true,
+        "output_full_decode": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_target": true,
+        "height_error_at_most_1px": true,
+        "aspect_ratio_preserved_with_pixel_rounding": true,
+        "no_upscale": true,
+        "metadata_content_preserved": true,
+        "source_bytes_unchanged": true,
+        "source_size_mtime_inode_mode_unchanged": true
+      },
+      "output_details": {
+        "width": 1080,
+        "height": 813,
+        "format": "WEBP",
+        "bytes": 108936,
+        "sha256": "0207b9adacfb0a07cbd31909fa582a8a31520b0c4b5132972ec791750f85542c",
+        "quality_parameter": 80,
+        "height_rounding_error_pixels": 0.375,
+        "source_aspect_ratio": 1.3278008298755186,
+        "output_aspect_ratio": 1.3284132841328413,
+        "metadata_checks": {
+          "icc_profile": true
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-originals/baclaran-03.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/371-baclaran-church-3.webp",
+      "manifest_reference_dimensions": {
+        "width": 4608,
+        "height": 2304
+      },
+      "source": {
+        "width": 1280,
+        "height": 640,
+        "bytes": 390417,
+        "mode": "RGB",
+        "sha256_expected": "e1edced8c63c9f26ba9614e14d1020067a6a790ba58378eafb003be52a80e5ff",
+        "sha256_before": "e1edced8c63c9f26ba9614e14d1020067a6a790ba58378eafb003be52a80e5ff",
+        "mtime_ns_before": 1794895448481934197,
+        "sha256_after": "e1edced8c63c9f26ba9614e14d1020067a6a790ba58378eafb003be52a80e5ff",
+        "mtime_ns_after": 1794895448481934197
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 540,
+        "unrounded_height": 540.0
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_full_decode": true,
+        "output_webp": true,
+        "output_full_decode": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_target": true,
+        "height_error_at_most_1px": true,
+        "aspect_ratio_preserved_with_pixel_rounding": true,
+        "no_upscale": true,
+        "metadata_content_preserved": true,
+        "source_bytes_unchanged": true,
+        "source_size_mtime_inode_mode_unchanged": true
+      },
+      "output_details": {
+        "width": 1080,
+        "height": 540,
+        "format": "WEBP",
+        "bytes": 214418,
+        "sha256": "f87541825f2dcb62f2a3eb76c03fe5311d5935903dbea7f1a12ce21148695707",
+        "quality_parameter": 80,
+        "height_rounding_error_pixels": 0.0,
+        "source_aspect_ratio": 2.0,
+        "output_aspect_ratio": 2.0,
+        "metadata_checks": {}
+      }
+    },
+    {
+      "index": 4,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-originals/baclaran-04.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/371-baclaran-church-4.webp",
+      "manifest_reference_dimensions": {
+        "width": 4080,
+        "height": 3072
+      },
+      "source": {
+        "width": 1280,
+        "height": 964,
+        "bytes": 583550,
+        "mode": "RGB",
+        "sha256_expected": "e0ca31f432bac82c06104f74c2bd777fb903ceaa5b35e3cb4c6718852208cedb",
+        "sha256_before": "e0ca31f432bac82c06104f74c2bd777fb903ceaa5b35e3cb4c6718852208cedb",
+        "mtime_ns_before": 1794895449905139757,
+        "sha256_after": "e0ca31f432bac82c06104f74c2bd777fb903ceaa5b35e3cb4c6718852208cedb",
+        "mtime_ns_after": 1794895449905139757
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 813,
+        "unrounded_height": 813.375
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_full_decode": true,
+        "output_webp": true,
+        "output_full_decode": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_target": true,
+        "height_error_at_most_1px": true,
+        "aspect_ratio_preserved_with_pixel_rounding": true,
+        "no_upscale": true,
+        "metadata_content_preserved": true,
+        "source_bytes_unchanged": true,
+        "source_size_mtime_inode_mode_unchanged": true
+      },
+      "output_details": {
+        "width": 1080,
+        "height": 813,
+        "format": "WEBP",
+        "bytes": 318844,
+        "sha256": "91aa82f1054fb3499e97808db385b500422d8ee7d0be4dbbab73eeecfc3e5b1c",
+        "quality_parameter": 80,
+        "height_rounding_error_pixels": 0.375,
+        "source_aspect_ratio": 1.3278008298755186,
+        "output_aspect_ratio": 1.3284132841328413,
+        "metadata_checks": {}
+      }
+    },
+    {
+      "index": 5,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-originals/baclaran-05.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/371-baclaran-church-5.webp",
+      "manifest_reference_dimensions": {
+        "width": 1636,
+        "height": 1861
+      },
+      "source": {
+        "width": 1280,
+        "height": 1456,
+        "bytes": 718696,
+        "mode": "RGB",
+        "sha256_expected": "2a381fd626b4280a10b3ff5ccfd594017b79942afb79daac050010afdffa25ab",
+        "sha256_before": "2a381fd626b4280a10b3ff5ccfd594017b79942afb79daac050010afdffa25ab",
+        "mtime_ns_before": 1794895450548234566,
+        "sha256_after": "2a381fd626b4280a10b3ff5ccfd594017b79942afb79daac050010afdffa25ab",
+        "mtime_ns_after": 1794895450548234566
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 1229,
+        "unrounded_height": 1228.5
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_full_decode": true,
+        "output_webp": true,
+        "output_full_decode": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_target": true,
+        "height_error_at_most_1px": true,
+        "aspect_ratio_preserved_with_pixel_rounding": true,
+        "no_upscale": true,
+        "metadata_content_preserved": true,
+        "source_bytes_unchanged": true,
+        "source_size_mtime_inode_mode_unchanged": true
+      },
+      "output_details": {
+        "width": 1080,
+        "height": 1229,
+        "format": "WEBP",
+        "bytes": 405518,
+        "sha256": "057a38ab69c40ee9d9ea538fa777d5b8e952ad570e3a67afd691378b0ebee470",
+        "quality_parameter": 80,
+        "height_rounding_error_pixels": 0.5,
+        "source_aspect_ratio": 0.8791208791208791,
+        "output_aspect_ratio": 0.8787632221318145,
+        "metadata_checks": {
+          "icc_profile": true
+        }
+      }
+    },
+    {
+      "index": 6,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-originals/baclaran-replacement-06.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/371-baclaran-church-6.webp",
+      "manifest_reference_dimensions": {
+        "width": 4608,
+        "height": 3456
+      },
+      "source": {
+        "width": 1280,
+        "height": 960,
+        "bytes": 292009,
+        "mode": "RGB",
+        "sha256_expected": "08b885676534214f02e9493063fdb09011fd7f21d3de93faffb05eed286e6627",
+        "sha256_before": "08b885676534214f02e9493063fdb09011fd7f21d3de93faffb05eed286e6627",
+        "mtime_ns_before": 1794895523962723302,
+        "sha256_after": "08b885676534214f02e9493063fdb09011fd7f21d3de93faffb05eed286e6627",
+        "mtime_ns_after": 1794895523962723302
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 810,
+        "unrounded_height": 810.0
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_full_decode": true,
+        "output_webp": true,
+        "output_full_decode": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_target": true,
+        "height_error_at_most_1px": true,
+        "aspect_ratio_preserved_with_pixel_rounding": true,
+        "no_upscale": true,
+        "metadata_content_preserved": true,
+        "source_bytes_unchanged": true,
+        "source_size_mtime_inode_mode_unchanged": true
+      },
+      "output_details": {
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "bytes": 111114,
+        "sha256": "6a55465abad69d62283b9564ce294e06f5df34b76f680ba669366c7d16b906dc",
+        "quality_parameter": 80,
+        "height_rounding_error_pixels": 0.0,
+        "source_aspect_ratio": 1.3333333333333333,
+        "output_aspect_ratio": 1.3333333333333333,
+        "metadata_checks": {
+          "exif": true
+        }
+      }
+    },
+    {
+      "index": 7,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-originals/baclaran-07.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/371-baclaran-church-7.webp",
+      "manifest_reference_dimensions": {
+        "width": 4608,
+        "height": 3456
+      },
+      "source": {
+        "width": 1280,
+        "height": 960,
+        "bytes": 239046,
+        "mode": "RGB",
+        "sha256_expected": "378975f40da9fd06d45e2d79d1f25e286887448b88638bfa6fc5ae847c71a216",
+        "sha256_before": "378975f40da9fd06d45e2d79d1f25e286887448b88638bfa6fc5ae847c71a216",
+        "mtime_ns_before": 1794895452772136486,
+        "sha256_after": "378975f40da9fd06d45e2d79d1f25e286887448b88638bfa6fc5ae847c71a216",
+        "mtime_ns_after": 1794895452772136486
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 810,
+        "unrounded_height": 810.0
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_full_decode": true,
+        "output_webp": true,
+        "output_full_decode": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_target": true,
+        "height_error_at_most_1px": true,
+        "aspect_ratio_preserved_with_pixel_rounding": true,
+        "no_upscale": true,
+        "metadata_content_preserved": true,
+        "source_bytes_unchanged": true,
+        "source_size_mtime_inode_mode_unchanged": true
+      },
+      "output_details": {
+        "width": 1080,
+        "height": 810,
+        "format": "WEBP",
+        "bytes": 85282,
+        "sha256": "1c42e7f625dee3e40a055c8c83fb300d6cb80ef644293a82441ba4198a19f1b3",
+        "quality_parameter": 80,
+        "height_rounding_error_pixels": 0.0,
+        "source_aspect_ratio": 1.3333333333333333,
+        "output_aspect_ratio": 1.3333333333333333,
+        "metadata_checks": {
+          "exif": true
+        }
+      }
+    },
+    {
+      "index": 8,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-originals/baclaran-09.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/371-baclaran-church-8.webp",
+      "manifest_reference_dimensions": {
+        "width": 2588,
+        "height": 1903
+      },
+      "source": {
+        "width": 1280,
+        "height": 941,
+        "bytes": 361914,
+        "mode": "RGB",
+        "sha256_expected": "a05ecf95c0477bda0574dbbfc6f4d849df498e43950894c7f2feb7b4240dfb1c",
+        "sha256_before": "a05ecf95c0477bda0574dbbfc6f4d849df498e43950894c7f2feb7b4240dfb1c",
+        "mtime_ns_before": 1794895452767683837,
+        "sha256_after": "a05ecf95c0477bda0574dbbfc6f4d849df498e43950894c7f2feb7b4240dfb1c",
+        "mtime_ns_after": 1794895452767683837
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 794,
+        "unrounded_height": 793.96875
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_full_decode": true,
+        "output_webp": true,
+        "output_full_decode": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_target": true,
+        "height_error_at_most_1px": true,
+        "aspect_ratio_preserved_with_pixel_rounding": true,
+        "no_upscale": true,
+        "metadata_content_preserved": true,
+        "source_bytes_unchanged": true,
+        "source_size_mtime_inode_mode_unchanged": true
+      },
+      "output_details": {
+        "width": 1080,
+        "height": 794,
+        "format": "WEBP",
+        "bytes": 164166,
+        "sha256": "897749bf5356147b060333c0a179e3a567813d7e44b23b3478e6900102c30921",
+        "quality_parameter": 80,
+        "height_rounding_error_pixels": 0.03125,
+        "source_aspect_ratio": 1.3602550478214666,
+        "output_aspect_ratio": 1.3602015113350125,
+        "metadata_checks": {}
+      }
+    },
+    {
+      "index": 9,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-originals/baclaran-10.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/371-baclaran-church-9.webp",
+      "manifest_reference_dimensions": {
+        "width": 4080,
+        "height": 3072
+      },
+      "source": {
+        "width": 1280,
+        "height": 964,
+        "bytes": 352163,
+        "mode": "RGB",
+        "sha256_expected": "7b1a147d6afb20a0dc774d20dc78e9273c125f092213a38316419ca74a84037b",
+        "sha256_before": "7b1a147d6afb20a0dc774d20dc78e9273c125f092213a38316419ca74a84037b",
+        "mtime_ns_before": 1794895454024757926,
+        "sha256_after": "7b1a147d6afb20a0dc774d20dc78e9273c125f092213a38316419ca74a84037b",
+        "mtime_ns_after": 1794895454024757926
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 813,
+        "unrounded_height": 813.375
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_full_decode": true,
+        "output_webp": true,
+        "output_full_decode": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_target": true,
+        "height_error_at_most_1px": true,
+        "aspect_ratio_preserved_with_pixel_rounding": true,
+        "no_upscale": true,
+        "metadata_content_preserved": true,
+        "source_bytes_unchanged": true,
+        "source_size_mtime_inode_mode_unchanged": true
+      },
+      "output_details": {
+        "width": 1080,
+        "height": 813,
+        "format": "WEBP",
+        "bytes": 141530,
+        "sha256": "714e28840a51f126e391c01b00de26146c8e5cdc305651c65cad851bbcb71936",
+        "quality_parameter": 80,
+        "height_rounding_error_pixels": 0.375,
+        "source_aspect_ratio": 1.3278008298755186,
+        "output_aspect_ratio": 1.3284132841328413,
+        "metadata_checks": {}
+      }
+    },
+    {
+      "index": 10,
+      "original": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/baclaran-originals/baclaran-11.jpg",
+      "output": "/Users/thruthesky/apps/philgo/submodules/ph-travel-api/_i18n/work/parallel-1992/root/371-baclaran-church-10.webp",
+      "manifest_reference_dimensions": {
+        "width": 3456,
+        "height": 4608
+      },
+      "source": {
+        "width": 1280,
+        "height": 1707,
+        "bytes": 825868,
+        "mode": "RGB",
+        "sha256_expected": "19dcc452b1a12acbf801126bfbf7a72f5ee8aef699f05c1a1c8d403709950abc",
+        "sha256_before": "19dcc452b1a12acbf801126bfbf7a72f5ee8aef699f05c1a1c8d403709950abc",
+        "mtime_ns_before": 1794895454286429366,
+        "sha256_after": "19dcc452b1a12acbf801126bfbf7a72f5ee8aef699f05c1a1c8d403709950abc",
+        "mtime_ns_after": 1794895454286429366
+      },
+      "expected_output": {
+        "width": 1080,
+        "height": 1440,
+        "unrounded_height": 1440.28125
+      },
+      "checks": {
+        "source_sha256_matches_manifest": true,
+        "source_full_decode": true,
+        "output_webp": true,
+        "output_full_decode": true,
+        "output_width_1080": true,
+        "output_height_matches_rounded_target": true,
+        "height_error_at_most_1px": true,
+        "aspect_ratio_preserved_with_pixel_rounding": true,
+        "no_upscale": true,
+        "metadata_content_preserved": true,
+        "source_bytes_unchanged": true,
+        "source_size_mtime_inode_mode_unchanged": true
+      },
+      "output_details": {
+        "width": 1080,
+        "height": 1440,
+        "format": "WEBP",
+        "bytes": 421966,
+        "sha256": "ceaa9a1f114c148d26d8516cf6fcb2420af43502123cb19b6d9db06d0c8585b5",
+        "quality_parameter": 80,
+        "height_rounding_error_pixels": 0.28125,
+        "source_aspect_ratio": 0.7498535442296427,
+        "output_aspect_ratio": 0.75,
+        "metadata_checks": {
+          "exif": true
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "manifest_sha256_after": "8e78519eaeffcf5ec91a8a94aa1ce171b8bbf7ce04f5a0ff09fd05d21bf5682c",
+  "manifest_unchanged": true,
+  "summary": {
+    "requested_count": 10,
+    "converted_count": 10,
+    "passed_count": 10,
+    "failed_count": 0
+  },
+  "completed_at_utc": "2026-11-17T06:08:51.258695+00:00"
+}
