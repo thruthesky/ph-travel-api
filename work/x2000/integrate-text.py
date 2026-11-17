@@ -12,7 +12,10 @@ for n in names:
     W = X / n
     try: done = json.loads((W / 'done.json').read_text())
     except Exception: continue
-    if done.get('status') != 'ready' or (R / 'data/ko' / f'{n}.json').exists(): continue
+    if done.get('status') != 'ready': continue
+    kos = sorted((W / 'ready/ko').glob('*.json')) if (W / 'ready/ko').exists() else []
+    if kos: n = kos[0].stem  # 폴더 이름과 slug 가 다를 때는 파일 이름(= id-slug)을 쓴다
+    if (R / 'data/ko' / f'{n}.json').exists(): continue
     ko = W / 'ready/ko' / f'{n}.json'; en = W / 'ready/en' / f'{n}.json'
     if not ko.exists() or not en.exists(): print(f'! {n}: ready/ko·en 없음'); continue
     for lang, f in (('ko', ko), ('en', en)):
