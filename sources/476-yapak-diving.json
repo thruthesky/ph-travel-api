@@ -1,0 +1,116 @@
+{
+  "id": 476,
+  "slug": "yapak-diving",
+  "checked_at": "2026-11-17T17:30:00Z",
+  "facts": [
+    {
+      "where": "lat/lon",
+      "fact": "좌표",
+      "value": "11.9852, 121.9161 (야팍 지구 중심, 실제 다이브 포인트는 북쪽 해상)",
+      "sources": [
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Yapak+Boracay&format=json",
+          "grade": "A",
+          "date": "2026-11-17",
+          "says": "Yapak, Malay: 11.9849731,121.9220321 / 11.9854092,121.9101135"
+        },
+        {
+          "url": "https://islandsphilippines.com/diving/boracay-dive-sites.php",
+          "grade": "B",
+          "date": "2026-11-17",
+          "says": "Yapak (north Boracay)"
+        }
+      ],
+      "decision": "다이브 포인트 정확 좌표를 못 찾아 지구 중심 사용 — 사람이 볼 점"
+    },
+    {
+      "where": "overview",
+      "fact": "수심·조류·등급",
+      "value": "벽 30~60m(일부 70m), 강한 조류, 상급자",
+      "sources": [
+        {
+          "url": "https://islandsphilippines.com/diving/boracay-dive-sites.php",
+          "grade": "B",
+          "date": "2026-11-17",
+          "says": "Walls descend from 30 to 60 m; rough waters and strong currents; experienced divers only"
+        },
+        {
+          "url": "https://divezone.net/?p=650",
+          "grade": "B",
+          "date": "2026-11-17",
+          "says": "Advanced; 30-32 m wall top, beyond 70 m; strong current; 30m+ visibility"
+        }
+      ],
+      "decision": "일치. 70m·2노트는 목록별 수치"
+    },
+    {
+      "where": "overview",
+      "fact": "생물",
+      "value": "바라쿠다·참치·트레발리·리프샤크, 드물게 귀상어·만타",
+      "sources": [
+        {
+          "url": "https://islandsphilippines.com/diving/boracay-dive-sites.php",
+          "grade": "B",
+          "date": "2026-11-17",
+          "says": "whitetip and gray reef sharks; hammerheads and mantas occasionally"
+        },
+        {
+          "url": "https://divezone.net/?p=650",
+          "grade": "B",
+          "date": "2026-11-17",
+          "says": "barracuda, tuna, trevally, whitetip, eagle rays; sightings not guaranteed"
+        }
+      ],
+      "decision": "보장 없음으로 씀"
+    },
+    {
+      "where": "overview",
+      "fact": "업체 요건",
+      "value": "AOW·30회 로그·딥/드리프트·평가 다이빙",
+      "sources": [
+        {
+          "url": "https://divezone.net/?p=650",
+          "grade": "C",
+          "date": "2026-11-17",
+          "says": "Wicked Squid: AOW, 30 logged dives, deep and drift experience, assessment dive"
+        }
+      ],
+      "decision": "한 업체 기준이라고 명시, 업체명은 쓰지 않음"
+    },
+    {
+      "where": "costs",
+      "fact": "1회 다이빙 요금·시기",
+      "value": "₱2,400/45분, 10~5월 시야, 12~2월 조류",
+      "sources": [
+        {
+          "url": "https://myboracayguide.com/info/boracay-scuba-diving",
+          "grade": "C",
+          "date": "2024-09-03",
+          "says": "2,400 PHP per person for a 45-minute dive; visibility best Oct-May; Dec-Feb stronger currents; 25+ sites"
+        },
+        {
+          "url": "https://islandsphilippines.com/diving/boracay-dive-sites.php",
+          "grade": "B",
+          "date": "2026-11-17",
+          "says": "가격 언급 없음 — 요금은 '약·업체별'"
+        }
+      ],
+      "decision": "요금은 2곳 확인 못 해 범위·업체별"
+    },
+    {
+      "where": "costs",
+      "fact": "보라카이 환경세·터미널·뱃삯",
+      "value": "외국인 ₱300, ₱150, ₱50~60",
+      "sources": [
+        {
+          "url": "_i18n/work/x2000/469-willys-rock/sources.json",
+          "grade": "B",
+          "date": "2026-11-17",
+          "says": "같은 팀이 기록한 값 재사용"
+        }
+      ],
+      "decision": "새로 확인하지 못함 — 변경 가능 표기"
+    }
+  ],
+  "images": []
+}
