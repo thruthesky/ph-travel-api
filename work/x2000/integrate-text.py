@@ -16,6 +16,8 @@ for n in names:
     kos = sorted((W / 'ready/ko').glob('*.json')) if (W / 'ready/ko').exists() else []
     if kos: n = kos[0].stem  # 폴더 이름과 slug 가 다를 때는 파일 이름(= id-slug)을 쓴다
     if (R / 'data/ko' / f'{n}.json').exists(): continue
+    slug = n.split('-', 1)[1]
+    if any(f.name.split('-', 1)[1] == f'{slug}.json' for f in (R / 'data/ko').glob('*.json')): print(f'! {n}: slug 중복 — 건너뜀'); continue
     ko = W / 'ready/ko' / f'{n}.json'; en = W / 'ready/en' / f'{n}.json'
     if not ko.exists() or not en.exists(): print(f'! {n}: ready/ko·en 없음'); continue
     for lang, f in (('ko', ko), ('en', en)):
