@@ -364,13 +364,17 @@
                   "items": [
                     {
                       "children": [
-                        {
-                          "text": "Long-distance buses run from Manila to Vigan, both overnight and by day. Several companies operate, including Partas, Dominion, Viron and Florida, and the trip takes about "
-                        },
+                        { "text": "Allow about " },
                         { "type": "duration", "text": "8–10 hours" },
+                        { "text": " by coach from Manila to Vigan. The " },
                         {
-                          "text": ". Schedules and fares differ by company, so confirm when booking."
-                        }
+                          "type": "link",
+                          "text": "official Viron Transit route listing",
+                          "url": "https://virontransit.com/routes"
+                        },
+                        { "text": " shows fares from " },
+                        { "type": "price", "text": "₱880" },
+                        { "text": " one way. Confirm the terminal and seat class when booking." }
                       ]
                     },
                     {
@@ -486,19 +490,19 @@
             },
             {
               "label": "Old-town tricycle",
-              "price": "Check locally",
-              "note": "Short city rides; negotiate before boarding"
+              "price": "Sample ₱20 per person in the old town",
+              "note": "2026 old town visit, shared short ride. Private hire is separate."
             },
             {
               "label": "Calesa carriage tour",
               "price": "About ₱150–250 per hour",
               "note": "Tourism department estimates. Agree on the time, stops and total before boarding."
             },
-            { "label": "Lunch", "price": "Check locally", "note": "Varies by old-town restaurant" },
+            { "label": "Vigan sinanglao soup", "price": "Sample ₱90 per bowl at First Sinanglaoan", "note": "2026 visitor report. Check prices for other dishes or eateries." },
             {
               "label": "Bus from Manila",
-              "price": "About ₱880 one way from Cubao",
-              "note": "Viron Transit example to Vigan from February 2026. Recheck when booking."
+              "price": "Viron one way from ₱880",
+              "note": "Starting fare published by the operator. Confirm the departure terminal and class."
             }
           ]
         },
