@@ -4,6 +4,13 @@
 
 2026-10-07 까지의 기록은 api-skill 의 `references/history.md`·`database.md`·`rendering.md`·`pipeline.md`·`blueprint.md` 에 있던 것을 2026-10-08 에 옮겼다.
 
+## 2026-11-18 텍스트 먼저 확대(x2000) — 331곳 → 700곳
+
+- 요청: ph-travel-api 를 2,000곳으로(한국어·영어 텍스트 먼저, 사진 나중, 사진 없는 항목은 별도 기록, 가짜 사진 금지).
+- 한 일: 하위 에이전트(sonnet)를 7~8곳씩 병렬로 투입해 작성 → `integrate-text.py` 로 data·sources 에 통합 → 빌드 → 묶음 커밋. 후보는 queue·queue2·queue3·queue4. 이번 반복에서 queue4 중심으로 약 70곳 시도.
+- 숫자: 700곳 × 8개 언어(ko·en 실제, 나머지 영어 대체). 작업 폴더 집계 ready 370 · hold 635 · duplicate 154. 로컬 빌드 통과.
+- 배운 것: 수율 약 32%. 시·군·업소형·출처 한 곳뿐인 후보는 hold. 이미 등록된 곳의 다른 이름(카빈티 폭포=팍상한, 에코 밸리=사가다 매달린 관, 미라도르 힐=루르드 동굴)이 중복의 주원인이다. 후보를 만들 때 `data/ko` 를 본문까지 grep 해서 미리 걸러야 한다.
+
 
 
 
