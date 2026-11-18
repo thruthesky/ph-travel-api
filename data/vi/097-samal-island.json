@@ -266,10 +266,10 @@
                       "time": "07:30–08:00",
                       "children": [
                         {
-                          "text": "Từ cảng Sasa, Davao, đi tàu khách hoặc phà roro qua cảng Kinawitnon, Babak (khoảng "
+                          "text": "Đi tàu hướng Babak từ Sasa hoặc Panacan ở Davao sang đảo Samal. Thời gian trên tàu khoảng "
                         },
-                        { "type": "duration", "text": "10–15 phút" },
-                        { "text": ")." }
+                        { "type": "duration", "text": "15 phút" },
+                        { "text": ", chưa tính thời gian xe xếp hàng." }
                       ]
                     },
                     {
@@ -282,7 +282,7 @@
                     },
                     {
                       "time": "10:00–11:30",
-                      "children": [{ "text": "Bơi nước ngọt tại thác Hagimit." }]
+                      "children": [{ "text": "Đến thác Hagimit sau khi xác nhận ngày mở cửa và khu vực được phép bơi." }]
                     },
                     {
                       "time": "12:00–16:00",
@@ -371,19 +371,7 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Cách phổ biến nhất là đi từ cảng Sasa (Sasa), Davao qua cảng Kinawitnon (Kinawitnon) ở khu vực Babak, Samal. Tàu khách nhỏ mất khoảng "
-                    },
-                    { "type": "duration", "text": "10–15 phút" },
-                    { "text": ", giá vé khoảng " },
-                    { "type": "price", "text": "₱15–30" },
-                    { "text": "/người, còn phà roro chở xe hoạt động gần như suốt " },
-                    { "type": "duration", "text": "24 giờ" },
-                    {
-                      "text": ". Từ cảng Santa Ana trong thành phố cũng có tàu khách đi Kaputian phía nam Samal và đảo Talikud, mất khoảng "
-                    },
-                    { "type": "duration", "text": "30 phút – 1 giờ" },
-                    {
-                      "text": ". Một số khu nghỉ dưỡng cao cấp như Pearl Farm Beach Resort vận hành thuyền riêng từ khu vực Lanang, Davao, nên khi đặt phòng bạn nên hỏi rõ cách đón."
+                      "text": "Tàu đi Babak ở bắc Samal xuất phát tại Sasa Km 11 hoặc Panacan Km 13 ở Davao. Nếu đưa xe lên phà RoRo, hãy xác nhận hãng và bến đi, đồng thời dự trù thời gian xếp hàng vào mùa cao điểm. Muốn đi thẳng Talicud hoặc Kaputian, hãy hỏi đích đến và chuyến về tại bến Sta. Ana ở Davao. Với tàu riêng của khu nghỉ dưỡng, xác nhận điểm lên tàu khi đặt."
                     }
                   ]
                 }
@@ -714,13 +702,17 @@
             },
             {
               "children": [
-                { "text": "Thác Hagimit đã đóng cửa từ " },
-                { "type": "date", "text": "tháng 11 năm 2022" },
-                { "text": " do vấn đề ô nhiễm nguồn nước, và đang chuẩn bị mở lại trong " },
+                { "text": "Thác Hagimit đóng để bảo tồn và phục hồi vào " },
+                { "type": "date", "text": "năm 2022" },
+                { "text": ". Truyền thông địa phương đưa tin thác mở lại vào " },
                 { "type": "date", "text": "năm 2026" },
+                { "text": ". Giờ mở và phí có thể khác nhau theo cổng. Hỏi " },
                 {
-                  "text": ". Tốt nhất hãy hỏi văn phòng du lịch thành phố Samal hoặc resort xem đã mở cửa chưa và khu vực nào bơi được rồi mới đưa vào lịch trình."
-                }
+                  "type": "link",
+                  "text": "văn phòng du lịch thành phố Samal",
+                  "url": "https://turismo.samalcity.gov.ph/"
+                },
+                { "text": " về cổng mở và khu vực được phép bơi trong ngày đi." }
               ]
             }
           ]

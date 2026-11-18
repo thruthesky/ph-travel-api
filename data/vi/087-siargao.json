@@ -236,11 +236,11 @@
             {
               "type": "card",
               "number": 7,
-              "title": "Xích đu cây dừa cong trên sông Maasin",
+              "title": "Đi thuyền trên sông Maasin",
               "children": [
-                {
-                  "text": "Nơi đây nổi tiếng với những bức ảnh nhảy xuống nước từ chiếc xích đu treo trên cây dừa cong ra sông. Nước sông êm đềm và có thu một khoản phí vào cửa nhỏ."
-                }
+                { "text": "Cây dừa cong từng treo xích đu ở sông Maasin đã đổ vào " },
+                { "type": "date", "text": "tháng 2 năm 2023" },
+                { "text": ". Du khách vẫn có thể ngắm sông và hàng dừa, hoặc đi thuyền nhỏ khi có dịch vụ." }
               ]
             },
             {
@@ -392,7 +392,7 @@
                     {
                       "time": "08:00",
                       "children": [
-                        { "text": "Đi xe máy đến đài quan sát rừng dừa, ghé xích đu sông Maasin" }
+                        { "text": "Đi xe máy đến điểm ngắm rừng dừa và sông Maasin" }
                       ]
                     },
                     {
@@ -452,29 +452,21 @@
                 {
                   "type": "paragraph",
                   "children": [
-                    { "text": "Chuyến bay thẳng Manila (NAIA)–Siargao đã không còn từ " },
-                    { "type": "date", "text": "tháng 3 năm 2025" },
                     {
-                      "text": " khi các tuyến máy bay cánh quạt nhỏ chuyển sang sân bay Clark. Từ Manila bạn có thể đi qua Cebu (Cebu–Siargao khoảng "
+                      "text": "Từ sân bay Ninoy Aquino ở Manila (MNL), nối chuyến tại Cebu (CEB) đến sân bay Sayak (IAO) của Siargao. Chuyến bay Cebu–Siargao mất khoảng "
                     },
-                    { "type": "duration", "text": "1 tiếng" },
+                    { "type": "duration", "text": "1 giờ" },
+                    { "text": ". Muốn bay thẳng từ Luzon, tra " },
                     {
-                      "text": "), hoặc đi chuyến bay thẳng của nhóm Cebu Pacific từ sân bay Clark (khoảng "
+                      "type": "link",
+                      "text": "chuyến bay thẳng từ sân bay quốc tế Clark (CRK)",
+                      "url": "https://clarkinternationalairport.com/flights/"
                     },
-                    { "type": "duration", "text": "2 tiếng 20 phút–2 tiếng 30 phút" },
-                    { "text": "). Từ Davao cũng có chuyến bay thẳng (khoảng " },
-                    { "type": "duration", "text": "1 tiếng 10 phút" },
-                    { "text": "). Giá vé máy bay khoảng " },
-                    { "type": "price", "text": "₱2,000–5,000" },
                     {
-                      "text": " một chiều nhưng tăng mạnh vào mùa cao điểm, và tuyến cùng số chuyến hay thay đổi nên hãy kiểm tra trước khi đặt. Sân bay nằm ở Del Carmen, đến General Luna đi xe van ghép khoảng "
+                      "text": " và xác nhận ngày bay với hãng. Sân bay Sayak ở Del Carmen, cách General Luna khoảng "
                     },
-                    { "type": "duration", "text": "45 phút–1 tiếng" },
-                    { "text": ", giá khoảng " },
-                    { "type": "price", "text": "₱300–400" },
-                    { "text": "/người. Xe đón của nơi lưu trú hoặc van thuê riêng khoảng " },
-                    { "type": "price", "text": "₱2,000–2,700" },
-                    { "text": "/xe." }
+                    { "type": "duration", "text": "45 phút đến 1 giờ" },
+                    { "text": " bằng xe van ghép khách." }
                   ]
                 }
               ]
