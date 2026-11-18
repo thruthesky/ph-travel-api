@@ -48,7 +48,7 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱150–450 (per person, admission varies by source, transport extra)",
+    "text": "₱450 general admission or ₱650 with guided activities per person, transport extra",
     "currency": "PHP",
     "min": 150,
     "max": 450
@@ -112,7 +112,7 @@
           "type": "paragraph",
           "children": [
             {
-              "text": "Museo Pambata closed in 2020 because of COVID-19 and, after extensive renovation, reopened on December 6, 2024 for its 30th anniversary. Right after the reopening, the first floor opened first and the remaining exhibits were opened in stages, so it is a good idea to check which exhibits are open before you go. Opening hours and fees differ by source, so this guide gives only ranges. It fits well into a half-day plan for families traveling in Manila with children. Many of the exhibits are easy to follow in English, so even children not used to English can join in through hands-on play. Many families in Manila combine it with Intramuros or the National Museum area for a full day. As a children's museum it is not really a place for adults on their own, but it is a good way to introduce a niece, nephew or your own children to old Manila and Philippine culture."
+              "text": "Museo Pambata closed in 2020 for renovation and reopened on its 30th anniversary, 6 December 2024. Children can discover life in old Manila and Filipino culture through role-play and interactive displays. After a half-day visit, Rizal Park and the National Museum district are within walking distance. See the price table and visitor tips for hours, admission and activity packages."
             }
           ]
         }
@@ -494,26 +494,26 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Admission (adult)",
-              "price": "About ₱150–450",
-              "note": "Varies by source, confirm locally"
+              "label": "General admission",
+              "price": "₱450 per person",
+              "note": "Published museum rate. Walk in or book ahead."
             },
             {
-              "label": "Admission (child)",
-              "price": "About ₱120–450",
-              "note": "Varies by source, one announcement says free under age 3"
+              "label": "Children under two and teachers",
+              "price": "Free",
+              "note": "Teachers must show valid ID"
             },
             {
               "label": "Seniors and persons with disabilities",
-              "price": "Confirm locally",
-              "note": "Check whether a discount applies"
+              "price": "Statutory discount with valid ID",
+              "note": "Per the museum’s published admission policy"
             },
             {
               "label": "Taxi/Grab",
               "price": "Confirm locally",
               "note": "Varies by distance and time of day"
             },
-            { "label": "LRT-1", "price": "Confirm locally", "note": "Fare depends on distance" },
+            { "label": "LRT-1", "price": "₱16.25 base fare plus ₱1.47/km", "note": "Approved LRMC formula. Actual fare depends on stations and fare medium." },
             {
               "label": "Cafe and gifts in the museum",
               "price": "Confirm locally",
@@ -568,9 +568,19 @@
           "items": [
             {
               "children": [
+                { "text": "The " },
                 {
-                  "text": "Before you go, check on the museum's social media which rooms are open, plus the hours and fees. Some announcements say it is open Tuesday to Sunday and others say mainly Friday to Sunday, so checking the day before is safest."
-                }
+                  "text": "museum’s visitor page",
+                  "type": "link",
+                  "url": "https://www.museopambata.com.ph/getting-here"
+                },
+                { "text": " lists Friday and Saturday " },
+                { "text": "10:00–17:00", "type": "time" },
+                { "text": " and Sunday " },
+                { "text": "13:00–17:00", "type": "time" },
+                { "text": ". The package with a guide, storytelling and arts and crafts is " },
+                { "text": "₱650", "type": "price" },
+                { "text": " per person. Check activity times in the booking calendar or call 0917 879 4646." }
               ]
             },
             {
@@ -631,7 +641,7 @@
           "icon": "warning",
           "children": [
             {
-              "text": "The museum is reported to be opening its exhibits in stages after the reopening, so be sure to check the open rooms, hours and fees before you go."
+              "text": "If you are visiting for a specific room or activity, check its availability with the museum."
             }
           ]
         },
@@ -643,7 +653,7 @@
             {
               "children": [
                 {
-                  "text": "Hours and fees differ by source, so you may make the trip for nothing. The information in this guide is what could be confirmed in 2026."
+                  "text": "Check the museum’s notice for your date, since public holidays or group events may change general hours."
                 }
               ]
             },

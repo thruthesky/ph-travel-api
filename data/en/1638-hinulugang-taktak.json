@@ -476,19 +476,19 @@
           "items": [
             {
               "label": "Park admission",
-              "price": "Check locally",
-              "note": "Past listings gave ₱30 (locals) and ₱100 (foreigners), and recent reviews also mention free entry"
+              "price": "Free in the cited report",
+              "note": "August 2026 visitor guide. Check notices for your date."
             },
             {
               "label": "Parking",
-              "price": "About ₱45",
-              "note": "Based on one visitor's review; check locally"
+              "price": "Motorcycle ₱20 · car ₱45",
+              "note": "August 2026 published example, per vehicle"
             },
-            { "label": "Swimming pool", "price": "Check locally", "note": "Past listings gave ₱50" },
+            { "label": "Swimming pool", "price": "Listed as free when open", "note": "October 2026 visitor guide. Confirm the pool is open on your date." },
             {
               "label": "Tricycle",
-              "price": "Check locally",
-              "note": "Negotiated by distance and number of riders"
+              "price": "About ₱50–100",
+              "note": "Sample one-way special ride from Antipolo Cathedral to the park gate"
             },
             { "label": "Grab (in town)", "price": "Check locally", "note": "Varies with traffic" },
             { "label": "A meal", "price": "Check locally", "note": "Per person" },
@@ -558,7 +558,17 @@
                 { "text": " and it is known to close on Mondays, so check before you go." }
               ]
             },
-            { "children": [{ "text": "Do not swim in the river; use the park's swimming pool." }] },
+            { "children": [
+              { "text": "Stay out of the river below the falls. An " },
+              {
+                "type": "link",
+                "text": "October 2026 visitor guide",
+                "url": "https://www.summersettravelagency.com/rizal-province-travel-guide/antipolo/hinulugang-taktak/"
+              },
+              {
+                "text": " lists the park pool as a free amenity. Check the pool’s hours and entry conditions on the day."
+              }
+            ] },
             { "children": [{ "text": "Shoes with good grip are better than sandals." }] },
             {
               "children": [
@@ -567,7 +577,21 @@
                 }
               ]
             },
-            { "children": [{ "text": "The admission fee is small, so bring small change." }] },
+            { "children": [
+              { "text": "An " },
+              {
+                "text": "August 2026 local visitor guide",
+                "type": "link",
+                "url": "https://ninjammoves.com/travel/philippines/hinulugang-taktak-rizal/"
+              },
+              { "text": " reports free park admission with parking at " },
+              { "text": "₱20", "type": "price" },
+              { "text": " for motorcycles and " },
+              { "text": "₱45", "type": "price" },
+              {
+                "text": " for cars. Ask at the gate which pool and adventure facilities are operating and whether there are additional fees."
+              }
+            ] },
             {
               "children": [
                 {

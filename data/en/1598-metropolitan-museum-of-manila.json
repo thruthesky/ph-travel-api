@@ -54,7 +54,7 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱300–1,000 (admission to be confirmed, meals included)",
+    "text": "Sample general admission ₱550 per person, meals and transport extra",
     "currency": "PHP",
     "min": 300,
     "max": 1000
@@ -498,14 +498,14 @@
           "items": [
             {
               "label": "Admission (regular)",
-              "price": "Check the official site",
-              "note": "Options include an all-access day pass, senior/PWD, student, and family or group bundles"
+              "price": "₱550",
+              "note": "November 2026 price for the official online All Access Day Pass"
             },
             { "label": "Children (4 and under)", "price": "Free", "note": "Per the official site" },
             {
               "label": "Seniors, PWD and students",
-              "price": "Discounted (check the amount)",
-              "note": "Valid verification required"
+              "price": "Senior and PWD ₱440 · student ₱275",
+              "note": "November 2026 online examples. Bring eligible senior or PWD ID, or student ID."
             },
             {
               "label": "Printmaking workshop",
@@ -576,9 +576,17 @@
           "items": [
             {
               "children": [
+                { "text": "The " },
+                { "text": "museum’s official visitor page", "type": "link", "url": "https://metmuseum.ph/visit" },
                 {
-                  "text": "Before you go, check the current special exhibitions on the official site (metmuseum.ph). Some reviewers say the permanent displays alone can feel thin."
-                }
+                  "text": " lists exhibitions and links to tickets. November 2026 All Access Day Pass prices were "
+                },
+                { "text": "₱550", "type": "price" },
+                { "text": " regular, " },
+                { "text": "₱440", "type": "price" },
+                { "text": " for senior citizens and PWDs and " },
+                { "text": "₱275", "type": "price" },
+                { "text": " for students. Check the ticket calendar and ID requirements before booking." }
               ]
             },
             {
@@ -658,7 +666,7 @@
             {
               "children": [
                 {
-                  "text": "Admission prices and free days differ between sources, so confirm them on the official site's booking page. Figures such as ₱100 in older sources come from the Malate years."
+                  "text": "Some exhibitions and events may have separate tickets. Check which exhibitions the All Access Day Pass covers on the date you choose."
                 }
               ]
             },

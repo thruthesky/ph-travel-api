@@ -488,11 +488,11 @@
               "price": "Free",
               "note": "Reviews say you leave one ID per group"
             },
-            { "label": "LRT-2 fare", "price": "Check locally", "note": "Depends on the stations" },
+            { "label": "LRT-2 Cubao to Santolan", "price": "Beep ₱9.50 · single-trip ticket ₱10", "note": "Fare matrix for the 50% discount introduced in March 2026" },
             {
               "label": "Jeepney and tricycle",
-              "price": "Check locally",
-              "note": "Varies by distance and number of riders"
+              "price": "Traditional jeepney from ₱14 for the first 4 km",
+              "note": "September 2026 fare change. Jeepney ₱2/km thereafter; agree tricycle fare separately."
             },
             { "label": "Grab (Angono)", "price": "Check locally", "note": "Varies with traffic" },
             { "label": "A meal", "price": "Check locally", "note": "Per person" },
@@ -558,8 +558,18 @@
           "items": [
             {
               "children": [
+                { "text": "From Cubao, take LRT-2 to Santolan and transfer towards Angono. The " },
                 {
-                  "text": "Before you go, check opening hours and closure days on the National Museum's official channels."
+                  "type": "link",
+                  "text": "LRTA discount fares",
+                  "url": "https://www.lrta.gov.ph/tickets-and-fares/"
+                },
+                { "text": " are " },
+                { "type": "price", "text": "₱9.50" },
+                { "text": " with Beep or " },
+                { "type": "price", "text": "₱10" },
+                {
+                  "text": " for a single-trip ticket. Agree the return price for your final tricycle leg to the site beforehand."
                 }
               ]
             },
