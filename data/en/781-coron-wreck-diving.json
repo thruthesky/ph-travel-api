@@ -500,13 +500,13 @@
             },
             {
               "label": "Park entrance fee and environmental fee",
-              "price": "Check locally",
-              "note": "Some parts of Coron Island charge a separate entrance fee"
+              "price": "Included in some packages · ₱250–300 extra at some sites",
+              "note": "Busuanga Pirate Divers 2026 tariff. Additional boat charges for Barracuda Lake or Black Island are shared separately."
             },
             {
               "label": "Snorkeling tour",
-              "price": "Check locally",
-              "note": "Route that includes shallow wrecks"
+              "price": "Sample ₱1,700 per person",
+              "note": "Experience Coron Reef & Wreck Tour D includes Lusong Gunboat and lunch. Mask and fins are ₱150 each to rent."
             },
             {
               "label": "Airport van",
@@ -576,9 +576,17 @@
             },
             {
               "children": [
+                { "text": "For a shallow wreck, the " },
                 {
-                  "text": "If you are seeing wrecks for the first time, it is best to start with the shallow Okikawa Maru deck or snorkeling at the Lusong Gunboat."
-                }
+                  "type": "link",
+                  "text": "Experience Coron Reef & Wreck Tour D",
+                  "url": "https://www.coronislandtours.com/tours/reef---wreck-tour-d"
+                },
+                { "text": " includes Lusong Gunboat. The listed price is " },
+                { "type": "price", "text": "₱1,700" },
+                { "text": " per person, with mask and fins rentals at " },
+                { "type": "price", "text": "₱150" },
+                { "text": " each. Check the route and gear inclusions before departure." }
               ]
             },
             {

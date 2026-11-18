@@ -471,9 +471,9 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Park entrance",
-              "price": "Confirm locally",
-              "note": "Could not be confirmed from sources"
+              "label": "Bulusan Lake park admission",
+              "price": "Example: ₱50–80 local visitors · ₱150 foreign visitors",
+              "note": "May 2026 visitor guide. Confirm opening and admission for your date."
             },
             {
               "label": "Manila–Legazpi flight",
@@ -486,12 +486,12 @@
               "note": "By bus or van"
             },
             {
-              "label": "Guide or vehicle charter",
-              "price": "Confirm locally",
-              "note": "Depends on group size and distance"
+              "label": "Lake electric jeepney shuttle",
+              "price": "Sample ₱35 per person return",
+              "note": "May 2026 guide, from the visitor area to the lake entrance"
             },
             { "label": "Meals", "price": "About ₱150–350", "note": "At restaurants" },
-            { "label": "Hot springs", "price": "Confirm locally", "note": "Varies by facility" },
+            { "label": "San Mateo springs, Irosin", "price": "Sample adult ₱35 daytime · ₱40–45 at night", "note": "2026 visitor guide. Confirm operating hours and admission with the venue." },
             { "label": "Lodging", "price": "Confirm locally", "note": "Mainly in Sorsogon City" }
           ]
         },
@@ -558,7 +558,7 @@
             {
               "children": [
                 {
-                  "text": "The 4 km danger zone is closed at Alert Level 1 and above. Follow signs and instructions from officials."
+                  "text": "The 4 km Permanent Danger Zone around the summit is off limits even at Alert Level 0. Stay within areas opened by park and local authorities."
                 }
               ]
             },
@@ -575,7 +575,23 @@
               ]
             },
             {
-              "children": [{ "text": "Prepare cash in advance. Many villages do not take cards." }]
+              "children": [
+                { "text": "A " },
+                {
+                  "text": "May 2026 lake guide",
+                  "type": "link",
+                  "url": "https://lakbaypinas.com/mt-bulusan-travel-guide-bulusan-lake-hike/"
+                },
+                { "text": " lists a return electric jeepney at " },
+                { "text": "₱35", "type": "price" },
+                { "text": " and a kayak at around " },
+                { "text": "₱100", "type": "price" },
+                { "text": " for " },
+                { "text": "30 minutes", "type": "duration" },
+                {
+                  "text": ". These are planning examples for open days. Check admission, shuttle and kayaking before setting out."
+                }
+              ]
             },
             { "children": [{ "text": "Early morning is best for birds, and binoculars help." }] },
             { "children": [{ "text": "When it rains, stay away from rivers and gullies." }] }

@@ -578,13 +578,13 @@
             },
             {
               "label": "공원 입장료·환경세",
-              "price": "현지에서 확인",
-              "note": "코론 섬 일부는 별도 입장료 있음"
+              "price": "기본 패키지 포함 사례 · 일부 지점 ₱250~300 추가",
+              "note": "부수앙가 Pirate Divers 2026년 요금표. 바라쿠다호·블랙아일랜드의 추가 보트비는 별도 분담"
             },
             {
               "label": "스노클링 투어",
-              "price": "현지에서 확인",
-              "note": "얕은 난파선 포함 코스"
+              "price": "1인 ₱1,700 사례",
+              "note": "Experience Coron의 Reef & Wreck Tour D, 루손 건보트·점심 포함. 마스크·핀 대여는 각 ₱150"
             },
             {
               "label": "공항 밴",
@@ -661,9 +661,17 @@
             },
             {
               "children": [
+                { "text": "얕은 난파선은 " },
                 {
-                  "text": "처음 난파선을 보려면 얕은 오키카와 마루 갑판이나 루손 건보트 스노클링부터 시작하는 편이 좋습니다."
-                }
+                  "type": "link",
+                  "text": "Experience Coron의 Reef & Wreck Tour D",
+                  "url": "https://www.coronislandtours.com/tours/reef---wreck-tour-d"
+                },
+                { "text": "처럼 루손 건보트를 포함한 스노클링 상품으로 볼 수 있습니다. 게시가는 1인 " },
+                { "type": "price", "text": "₱1,700" },
+                { "text": "이며 마스크와 핀 대여는 각각 " },
+                { "type": "price", "text": "₱150" },
+                { "text": "입니다. 출항 전 코스와 장비 포함 여부를 확인하세요." }
               ]
             },
             {

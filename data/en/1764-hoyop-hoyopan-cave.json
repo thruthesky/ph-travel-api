@@ -43,7 +43,7 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱300–700 (entrance, guide and transport, not per person)",
+    "text": "Sample ₱50 admission per person and ₱300 guide for 1–5. Transport extra.",
     "currency": "PHP",
     "min": 300,
     "max": 700
@@ -553,8 +553,8 @@
           "items": [
             {
               "label": "Cave entrance and guide",
-              "price": "About ₱300",
-              "note": "A 2025 guide lists ₱300 for five people plus ₱70 per additional person; confirm locally"
+              "price": "Sample ₱50 entry per person and ₱300 guide",
+              "note": "Local operator example. The guide fee covers one group of up to five."
             },
             {
               "label": "Parking",
@@ -563,8 +563,8 @@
             },
             {
               "label": "Guide tip",
-              "price": "Check locally",
-              "note": "Some reviews mention guide fees of ₱100–300"
+              "price": "Optional gratuity",
+              "note": "Separate from the guide fee. Bring cash if you choose to tip."
             },
             {
               "label": "Legazpi–Camalig jeepney",
@@ -573,8 +573,8 @@
             },
             {
               "label": "Camalig–cave tricycle",
-              "price": "Check locally",
-              "note": "About 15 minutes; negotiate the fare"
+              "price": "About ₱100–300 for a one-way charter",
+              "note": "Example per tricycle from Camalig proper. Agree return and waiting charges separately."
             },
             {
               "label": "Airport chartered van",
@@ -668,8 +668,18 @@
             },
             {
               "children": [
+                { "text": "A " },
                 {
-                  "text": "A guide is practically essential, because some openings are hidden and some sections are narrow and slippery."
+                  "text": "local tour operator’s cave guide",
+                  "type": "link",
+                  "url": "https://viajekita.com/blogs/hoyop-hoyopan-cave-camalig-albay/"
+                },
+                { "text": " lists " },
+                { "text": "₱50", "type": "price" },
+                { "text": " per person for entry and " },
+                { "text": "₱300", "type": "price" },
+                {
+                  "text": " for a guide for up to five. At registration, confirm your total and whether helmets are supplied before entering with the guide."
                 }
               ]
             },

@@ -483,15 +483,15 @@
           "items": [
             {
               "label": "Fort entry",
-              "price": "Donation (fixed amount unconfirmed)",
-              "note": "Known to go toward upkeep"
+              "price": "Free, donations optional",
+              "note": "Visitor guides describe optional upkeep donations"
             },
             {
               "label": "Tricycle (in town)",
-              "price": "Check locally",
-              "note": "Short ride to the stair entrance"
+              "price": "₱15 base fare (October 2025 municipal notice)",
+              "note": "Romblon municipality base fare. Agree a charter fare to the fort before boarding."
             },
-            { "label": "Motorcycle taxi", "price": "Check locally", "note": "Getting around town" },
+            { "label": "Motorcycle rental in Romblon town", "price": "Sample ₱400–500 per day", "note": "September 2026 guide example. Ask about fuel and deposit." },
             {
               "label": "Meal",
               "price": "Check locally",
@@ -503,9 +503,9 @@
               "note": "Guesthouses and small hotels in town"
             },
             {
-              "label": "Ferry fare",
-              "price": "Check locally",
-              "note": "Boats from Batangas and other ports"
+              "label": "Batangas to Odiongan ferry",
+              "price": "Sample ₱1,428 economy · ₱1,856 air-conditioned",
+              "note": "Montenegro fares from 22 June 2026. Transfer from Tablas to Romblon Island is separate."
             }
           ]
         },
@@ -578,7 +578,17 @@
                 }
               ]
             },
-            { "children": [{ "text": "Prepare small change for the donation at entry." }] },
+            { "children": [
+              { "text": "A " },
+              {
+                "text": "Romblon visitor guide",
+                "type": "link",
+                "url": "https://romblonparadise.com/fort-san-andres-in-romblon/"
+              },
+              {
+                "text": " describes free entry with optional donations. The walking approach from the port uses the Termopilas Street steps, while vehicles can take the Sabang Road approach. Confirm access to interior areas on arrival."
+              }
+            ] },
             {
               "children": [
                 {
@@ -595,9 +605,15 @@
             },
             {
               "children": [
+                { "text": "An " },
                 {
-                  "text": "Opening hours and donation rules change, so check the latest announcements."
-                }
+                  "text": "October 2025 report citing Romblon municipality",
+                  "type": "link",
+                  "url": "https://romblonnews.net/2025/10/lgu-romblon-sa-mga-tricycle-driver-%E2%82%B115-pa-rin-ang-base-fare-hanggat-walang-bagong-ordinansa/"
+                },
+                { "text": " put the regular tricycle base fare at " },
+                { "text": "₱15", "type": "price" },
+                { "text": ". A charter to the fort can cost more. Agree the total before boarding." }
               ]
             },
             {

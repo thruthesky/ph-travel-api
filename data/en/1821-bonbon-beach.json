@@ -513,13 +513,13 @@
           "items": [
             {
               "label": "Bonbon Beach entrance",
-              "price": "Check locally",
-              "note": "The mayor announced a ₱60 regular rate in 2023. Confirm current admission and parking separately."
+              "price": "Regular ₱60 (2023) · tourist ₱50 (2025 example)",
+              "note": "Mayor’s rate reported in 2023 and later visitor example. Confirm admission and parking for your date."
             },
             {
               "label": "Tricycle / motorbike taxi",
-              "price": "Check locally",
-              "note": "One way from Romblon town to the beach"
+              "price": "Sample about ₱50 one way",
+              "note": "Romblon town to Bonbon Beach, as reported in 2026"
             },
             {
               "label": "Motorbike rental",
@@ -527,9 +527,9 @@
               "note": "Per one travel account, prices vary"
             },
             {
-              "label": "Odiongan–Romblon boat",
-              "price": "Check locally",
-              "note": "A 2023 guide exists but fares change"
+              "label": "San Agustin to Romblon Island ferry",
+              "price": "Sample regular fare ₱144",
+              "note": "Montenegro fare from 1 June 2026. Travel on land from Odiongan to San Agustin is separate."
             },
             {
               "label": "Lodging per night",
@@ -643,8 +643,20 @@
             },
             {
               "children": [
+                { "text": "The mayor announced regular admission at " },
+                { "type": "price", "text": "₱60" },
+                { "text": " on reopening in 2023. A " },
                 {
-                  "text": "Carry plenty of cash. Cards and money exchange can be hard to find in remote places."
+                  "type": "link",
+                  "text": "later visitor guide",
+                  "url": "https://lakbaypinas.com/best-romblon-tourist-spot-2024/"
+                },
+                { "text": " reports the 2025 tourist fee at " },
+                { "type": "price", "text": "₱50" },
+                { "text": " and around " },
+                { "type": "price", "text": "₱50" },
+                {
+                  "text": " for a one-way tricycle ride from town. At the gate, check your day’s fee and permitted sandbar hours."
                 }
               ]
             }

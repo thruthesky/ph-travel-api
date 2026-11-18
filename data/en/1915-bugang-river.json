@@ -548,9 +548,9 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Cold spring resort admission",
-              "price": "Confirm locally",
-              "note": "Varies with season and how it is run"
+              "label": "Malumpati admission and environmental fee",
+              "price": "Sample ₱100 total",
+              "note": "September 2025 visitor expense report. Combined fee. Check the rate for your date."
             },
             {
               "label": "Kalibo–Pandan bus or van",
@@ -558,15 +558,15 @@
               "note": "Varies by season"
             },
             {
-              "label": "Tricycle in the village",
-              "price": "Confirm locally",
-              "note": "By distance and number of people"
+              "label": "Tricycle between Pandan proper and Malumpati",
+              "price": "Sample ₱200 for a one-way charter",
+              "note": "September 2025 charter from the Fullon Monument. Agree the return fare before boarding."
             },
             { "label": "Meal", "price": "About ₱100~350", "note": "Per person, one meal, estimate" },
             {
-              "label": "Vehicle hire (half day to full day)",
-              "price": "Confirm locally",
-              "note": "Negotiate by vehicle and hours"
+              "label": "Bugang River tubing",
+              "price": "Sample ₱250 per person",
+              "note": "September 2025 visitor expenses. Check gear and guide inclusions and whether trips are running."
             },
             {
               "label": "Lodging (Pandan)",
@@ -655,7 +655,23 @@
                 }
               ]
             },
-            { "children": [{ "text": "Bring cash. In Pandan the ATMs are concentrated in town." }] },
+            { "children": [
+              { "text": "A " },
+              {
+                "text": "September 2025 Malumpati trip expense report",
+                "type": "link",
+                "url": "https://www.youtube.com/watch?v=Yjdi1OJsH34"
+              },
+              { "text": " lists " },
+              { "text": "₱100", "type": "price" },
+              { "text": " for admission and environmental fees together, " },
+              { "text": "₱250", "type": "price" },
+              { "text": " for tubing, and " },
+              { "text": "₱200", "type": "price" },
+              {
+                "text": " for a one-way tricycle charter from Pandan proper. Tubing depends on river conditions. Check availability before travelling."
+              }
+            ] },
             {
               "children": [
                 {
@@ -726,7 +742,7 @@
             {
               "children": [
                 {
-                  "text": "No confirmed information was found on entrance fees and opening hours, so check locally."
+                  "text": "The reported costs are examples from that visit. Check current prices and operating hours with Malumpati Cold Spring."
                 }
               ]
             },
