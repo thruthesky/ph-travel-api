@@ -1,8 +1,15 @@
 {
   "id": 1100,
   "slug": "panagsama-beach",
-  "title": { "type": "title", "text": "Panagsama Beach" },
-  "title_en": { "type": "subtitle", "lang": "en", "text": "Panagsama Beach" },
+  "title": {
+    "type": "title",
+    "text": "Panagsama Beach"
+  },
+  "title_en": {
+    "type": "subtitle",
+    "lang": "en",
+    "text": "Panagsama Beach"
+  },
   "tagline": {
     "type": "typography",
     "variant": "tagline",
@@ -14,7 +21,12 @@
     "value": "visayas",
     "text": "Visayas"
   },
-  "region": { "type": "badge", "label": "Region", "value": "cebu", "text": "Cebu" },
+  "region": {
+    "type": "badge",
+    "label": "Region",
+    "value": "cebu",
+    "text": "Cebu"
+  },
   "location": {
     "type": "address",
     "label": "Location",
@@ -31,19 +43,50 @@
   "tags": {
     "type": "tags",
     "label": "Tags",
-    "items": ["Diving", "Snorkeling", "Sardine run", "Pescador Island", "Backpacking"]
+    "items": [
+      "Diving",
+      "Snorkeling",
+      "Sardine run",
+      "Pescador Island",
+      "Backpacking"
+    ]
   },
-  "rating": { "type": "rating", "label": "Rating", "value": 4.6, "max": 5 },
-  "latitude": { "type": "latitude", "label": "Latitude", "value": 9.9466 },
-  "longitude": { "type": "longitude", "label": "Longitude", "value": 123.3662 },
+  "rating": {
+    "type": "rating",
+    "label": "Rating",
+    "value": 4.6,
+    "max": 5
+  },
+  "latitude": {
+    "type": "latitude",
+    "label": "Latitude",
+    "value": 9.9466
+  },
+  "longitude": {
+    "type": "longitude",
+    "label": "Longitude",
+    "value": 123.3662
+  },
   "best_season": {
     "type": "date",
     "label": "Best time to visit",
     "icon": "calendar_month",
     "text": "December–May dry season",
-    "months": [12, 1, 2, 3, 4, 5]
+    "months": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
-  "duration": { "type": "duration", "label": "Time needed", "icon": "schedule", "text": "1–3 days" },
+  "duration": {
+    "type": "duration",
+    "label": "Time needed",
+    "icon": "schedule",
+    "text": "1–3 days"
+  },
   "budget": {
     "type": "price",
     "label": "Budget",
@@ -68,6 +111,89 @@
     "text": "Mactan-Cebu International Airport (CEB)",
     "code": "CEB"
   },
+  "image": {
+    "type": "image",
+    "url": "images/1100-panagsama-beach.webp",
+    "alt": "Silhouettes of people playing in the shallows of Panagsama Beach at sunset with banca boats and distant mountains",
+    "credit": "Paul Grach / CC BY 2.0 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Children_playing_on_Panagsama_beach.jpg"
+  },
+  "gallery": {
+    "type": "carousel",
+    "label": "Photos",
+    "items": [
+      {
+        "type": "image",
+        "url": "images/1100-panagsama-beach-2.webp",
+        "alt": "Coral slope and sardines off Panagsama Beach",
+        "credit": "Iampjanz / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sea_floor_in_Panagsama_Beach,_Moalboal_01.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/1100-panagsama-beach-3.webp",
+        "alt": "Sea turtle swimming over the reef at Panagsama Beach",
+        "credit": "Iampjanz / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sea_Turtle_in_Moalboal_01.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/1100-panagsama-beach-4.webp",
+        "alt": "Green sea turtle descending along the coral slope",
+        "credit": "Iampjanz / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sea_Turtle_in_Moalboal_3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/1100-panagsama-beach-5.webp",
+        "alt": "Sardine run, a huge school of sardines at Moalboal",
+        "credit": "Lakshmi Sawitri / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2014_11_Moalboal_21_sardine_run_(16024303526).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/1100-panagsama-beach-6.webp",
+        "alt": "Tight ball of sardines beside a reef wall",
+        "credit": "Lakshmi Sawitri / CC BY 2.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2014_11_Moalboal_19_tight_ball_(16024303436).jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/1100-panagsama-beach-7.webp",
+        "alt": "Narrow road in Panagsama lined with restaurants and resorts",
+        "credit": "Robert Breivik / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Panagsama_beach_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/1100-panagsama-beach-8.webp",
+        "alt": "Sunset over the sea off Panagsama with a banca boat",
+        "credit": "ＤＡＶＩＤ / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:MoalBoal_-_Sun_set._-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/1100-panagsama-beach-9.webp",
+        "alt": "Dive boat and a distant island toward Pescador Island",
+        "credit": "ＤＡＶＩＤ / CC BY-SA 3.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:MoalBoal_%E3%83%A2%E3%82%A2%E3%83%AB%E3%83%9C%E3%82%A2%E3%83%AB%EF%BC%8F%E3%83%9A%E3%82%B9%E3%82%AB%E3%83%89%E3%83%BC%E3%83%AB_-_panoramio.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/1100-panagsama-beach-10.webp",
+        "alt": "Banca boats floating in clear shallow water with mountains across the strait",
+        "credit": "Martin Michlmayr / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Moalboal_2025-07-05_001.jpg"
+      },
+      {
+        "type": "image",
+        "url": "images/1100-panagsama-beach-11.webp",
+        "alt": "Dive boat on the water at dusk",
+        "credit": "Martin Michlmayr / CC BY-SA 4.0 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Moalboal_2025-07-04_008.jpg"
+      }
+    ]
+  },
   "summary": {
     "type": "paragraph",
     "variant": "lead",
@@ -90,8 +216,13 @@
             {
               "text": "Panagsama Beach is a beach in Barangay Basdiot in the municipality of Moalboal, on the southwestern coast of Cebu Island. Wikipedia says most of Moalboal's resorts and restaurants are concentrated here. Wikivoyage calls it a haven for snorkeling and diving and describes a place where dive resorts, schools, restaurants and nightlife sit side by side. The sand strip is narrow and the bottom is somewhat rocky, so it is less a swimming beach than a town built around what lies underwater. It is about "
             },
-            { "type": "distance", "text": "3.5km" },
-            { "text": " from the main bus stop in Moalboal town." }
+            {
+              "type": "distance",
+              "text": "3.5km"
+            },
+            {
+              "text": " from the main bus stop in Moalboal town."
+            }
           ]
         },
         {
@@ -100,11 +231,17 @@
             {
               "text": "What makes it famous is the underwater terrain that starts right off the shore. In front of the beach is a coral drop-off where the bottom falls away steeply, and according to Wikivoyage you only need to swim about "
             },
-            { "type": "distance", "text": "20–30m" },
+            {
+              "type": "distance",
+              "text": "20–30m"
+            },
             {
               "text": " out to reach the edge and see the sardines. The drop-off reaches depths of "
             },
-            { "type": "distance", "text": "70m" },
+            {
+              "type": "distance",
+              "text": "70m"
+            },
             {
               "text": ", and jacks and tuna sometimes come in to hunt the sardines. The fact that you can see all this without boarding a boat is why Panagsama is known to divers and snorkelers around the world."
             }
@@ -113,8 +250,13 @@
         {
           "type": "paragraph",
           "children": [
-            { "text": "About " },
-            { "type": "distance", "text": "3km" },
+            {
+              "text": "About "
+            },
+            {
+              "type": "distance",
+              "text": "3km"
+            },
             {
               "text": " offshore lies Pescador Island. The municipality of Moalboal declared it a marine park and fish sanctuary in 1990, and an open-top underwater cave on its west side, nicknamed \"the Cathedral,\" made it the signature dive trip. Behind the beach, the road is lined with local eateries, convenience stores and hostels, so everything is within walking distance. Wikipedia reports that dive shops pay the municipality a fee for each diver they bring to Pescador Island, and that the money goes to patrols, waste management, and reef and mangrove rehabilitation. So part of the cost of a boat dive goes toward protecting the site."
             }
@@ -145,8 +287,13 @@
               "number": 1,
               "title": "Snorkeling with the shoreline sardines",
               "children": [
-                { "text": "Swim out about " },
-                { "type": "distance", "text": "20–30m" },
+                {
+                  "text": "Swim out about "
+                },
+                {
+                  "type": "distance",
+                  "text": "20–30m"
+                },
                 {
                   "text": " from the beach and you can reportedly see a cloud of sardines at the edge of the coral drop-off. The school left after the February 2012 earthquake and returned in May 2013. Its position and size change from year to year, so ask a local shop first."
                 }
@@ -167,17 +314,30 @@
               "number": 3,
               "title": "Diving at Pescador Island",
               "children": [
-                { "text": "This limestone island about " },
-                { "type": "distance", "text": "3km" },
+                {
+                  "text": "This limestone island about "
+                },
+                {
+                  "type": "distance",
+                  "text": "3km"
+                },
                 {
                   "text": " off the Basdiot coast is Moalboal's signature dive site. Many trips start at the south end and drift with the current along the east or west side, and visibility can reach about "
                 },
-                { "type": "distance", "text": "40m" },
+                {
+                  "type": "distance",
+                  "text": "40m"
+                },
                 {
                   "text": " on a good day. The underwater cave called \"the Cathedral\" is on the west side. The reef has a sandy slope with soft coral at 5–10 m, below which a hard-coral wall continues down to about "
                 },
-                { "type": "distance", "text": "40m" },
-                { "text": "." }
+                {
+                  "type": "distance",
+                  "text": "40m"
+                },
+                {
+                  "text": "."
+                }
               ]
             },
             {
@@ -198,16 +358,34 @@
                 {
                   "text": "The town has many PADI and SSI shops. According to Wikivoyage, one dive costs about "
                 },
-                { "type": "price", "text": "₱1,500" },
-                { "text": " with gear, locally owned shops charge " },
-                { "type": "price", "text": "₱1,100–1,200" },
+                {
+                  "type": "price",
+                  "text": "₱1,500"
+                },
+                {
+                  "text": " with gear, locally owned shops charge "
+                },
+                {
+                  "type": "price",
+                  "text": "₱1,100–1,200"
+                },
                 {
                   "text": ", and three dives a day is the usual schedule. A beginner course takes about "
                 },
-                { "type": "duration", "text": "4 days" },
-                { "text": " and costs " },
-                { "type": "price", "text": "₱14,500–19,000" },
-                { "text": "." }
+                {
+                  "type": "duration",
+                  "text": "4 days"
+                },
+                {
+                  "text": " and costs "
+                },
+                {
+                  "type": "price",
+                  "text": "₱14,500–19,000"
+                },
+                {
+                  "text": "."
+                }
               ]
             },
             {
@@ -218,8 +396,13 @@
                 {
                   "text": "Farther north in Basdako are two white-sand beaches that suit sunbathing and swimming. A motorbike taxi between Panagsama and White Beach was reported at about "
                 },
-                { "type": "price", "text": "₱150" },
-                { "text": ". Check entrance fees on site." }
+                {
+                  "type": "price",
+                  "text": "₱150"
+                },
+                {
+                  "text": ". Check entrance fees on site."
+                }
               ]
             },
             {
@@ -227,8 +410,13 @@
               "number": 7,
               "title": "Day trip to Kawasan Falls",
               "children": [
-                { "text": "Wikipedia puts Kawasan Falls about " },
-                { "type": "distance", "text": "20km" },
+                {
+                  "text": "Wikipedia puts Kawasan Falls about "
+                },
+                {
+                  "type": "distance",
+                  "text": "20km"
+                },
                 {
                   "text": " from Moalboal. Wikivoyage says the walk to the falls is easy and a guide is not required, so you can politely decline guide offers."
                 }
@@ -286,18 +474,29 @@
                         {
                           "text": "Have lunch at a local eatery on the beach road. Wikivoyage reports that meals at local eateries cost about "
                         },
-                        { "type": "price", "text": "₱80–100" },
-                        { "text": " (2019)." }
+                        {
+                          "type": "price",
+                          "text": "₱80–100"
+                        },
+                        {
+                          "text": " (2019)."
+                        }
                       ]
                     },
                     {
                       "time": "13:30",
-                      "children": [{ "text": "Walk toward Tongo Point and look for sea turtles." }]
+                      "children": [
+                        {
+                          "text": "Walk toward Tongo Point and look for sea turtles."
+                        }
+                      ]
                     },
                     {
                       "time": "16:00",
                       "children": [
-                        { "text": "Relax at a beach café and have dinner after sunset." }
+                        {
+                          "text": "Relax at a beach café and have dinner after sunset."
+                        }
                       ]
                     }
                   ]
@@ -346,7 +545,9 @@
                     {
                       "time": "Day 2, afternoon",
                       "children": [
-                        { "text": "Check the no-fly rules after diving, then travel on." }
+                        {
+                          "text": "Check the no-fly rules after diving, then travel on."
+                        }
                       ]
                     }
                   ]
@@ -379,16 +580,31 @@
                         {
                           "text": "Wikivoyage says the yellow Ceres Liner bus from the South Bus Terminal in Cebu City takes about "
                         },
-                        { "type": "duration", "text": "4 hours" },
-                        { "text": "." }
+                        {
+                          "type": "duration",
+                          "text": "4 hours"
+                        },
+                        {
+                          "text": "."
+                        }
                       ]
                     },
                     {
                       "children": [
-                        { "text": "Fares were " },
-                        { "type": "price", "text": "₱115" },
-                        { "text": " for the non-air-conditioned bus and " },
-                        { "type": "price", "text": "₱156" },
+                        {
+                          "text": "Fares were "
+                        },
+                        {
+                          "type": "price",
+                          "text": "₱115"
+                        },
+                        {
+                          "text": " for the non-air-conditioned bus and "
+                        },
+                        {
+                          "type": "price",
+                          "text": "₱156"
+                        },
                         {
                           "text": " for the air-conditioned one (2019 record). Check current fares locally."
                         }
@@ -399,8 +615,13 @@
                         {
                           "text": "The bus drops you off just past the Moalboal market. From there, take a tricycle about "
                         },
-                        { "type": "distance", "text": "3.5km" },
-                        { "text": " to Panagsama." }
+                        {
+                          "type": "distance",
+                          "text": "3.5km"
+                        },
+                        {
+                          "text": " to Panagsama."
+                        }
                       ]
                     }
                   ]
@@ -425,10 +646,20 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "Hiring a whole van is quoted at around " },
-                        { "type": "price", "text": "₱2,500" },
-                        { "text": " for about " },
-                        { "type": "duration", "text": "2 hours 30 minutes" },
+                        {
+                          "text": "Hiring a whole van is quoted at around "
+                        },
+                        {
+                          "type": "price",
+                          "text": "₱2,500"
+                        },
+                        {
+                          "text": " for about "
+                        },
+                        {
+                          "type": "duration",
+                          "text": "2 hours 30 minutes"
+                        },
                         {
                           "text": ". It is expensive for one or two people but realistic for a group."
                         }
@@ -436,9 +667,16 @@
                     },
                     {
                       "children": [
-                        { "text": "One traveler also reports a fixed taxi fare of " },
-                        { "type": "price", "text": "₱2,500" },
-                        { "text": " from Cebu airport (2018)." }
+                        {
+                          "text": "One traveler also reports a fixed taxi fare of "
+                        },
+                        {
+                          "type": "price",
+                          "text": "₱2,500"
+                        },
+                        {
+                          "text": " from Cebu airport (2018)."
+                        }
                       ]
                     }
                   ]
@@ -462,9 +700,16 @@
                     },
                     {
                       "children": [
-                        { "text": "A taxi from the airport to the South Bus Terminal costs about " },
-                        { "type": "price", "text": "₱250–300" },
-                        { "text": "." }
+                        {
+                          "text": "A taxi from the airport to the South Bus Terminal costs about "
+                        },
+                        {
+                          "type": "price",
+                          "text": "₱250–300"
+                        },
+                        {
+                          "text": "."
+                        }
                       ]
                     }
                   ]
@@ -481,16 +726,32 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "A tricycle from Moalboal town to Panagsama is " },
-                        { "type": "price", "text": "₱20" },
+                        {
+                          "text": "A tricycle from Moalboal town to Panagsama is "
+                        },
+                        {
+                          "type": "price",
+                          "text": "₱20"
+                        },
                         {
                           "text": " per person by day, and even if you ride alone you are advised not to pay more than "
                         },
-                        { "type": "price", "text": "₱50" },
-                        { "text": "." }
+                        {
+                          "type": "price",
+                          "text": "₱50"
+                        },
+                        {
+                          "text": "."
+                        }
                       ]
                     },
-                    { "children": [{ "text": "The beach road is easy to cover on foot." }] }
+                    {
+                      "children": [
+                        {
+                          "text": "The beach road is easy to cover on foot."
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
@@ -525,7 +786,11 @@
           "type": "table",
           "label": "Season at a glance",
           "icon": "calendar_month",
-          "columns": ["Period", "Weather", "Travel notes"],
+          "columns": [
+            "Period",
+            "Weather",
+            "Travel notes"
+          ],
           "rows": [
             [
               "Dec–Feb",
@@ -555,7 +820,11 @@
         {
           "type": "pricing",
           "currency": "PHP",
-          "columns": ["Item", "Estimated cost", "Notes"],
+          "columns": [
+            "Item",
+            "Estimated cost",
+            "Notes"
+          ],
           "items": [
             {
               "label": "One dive (gear included)",
@@ -577,7 +846,11 @@
               "price": "About ₱150",
               "note": "Between Panagsama and White Beach"
             },
-            { "label": "Local eatery meal", "price": "About ₱80~100", "note": "2019 record" },
+            {
+              "label": "Local eatery meal",
+              "price": "About ₱80~100",
+              "note": "2019 record"
+            },
             {
               "label": "Regular restaurant in Panagsama",
               "price": "Burger from about ₱200, local dish from about ₱160",
@@ -598,9 +871,16 @@
         {
           "type": "caption",
           "children": [
-            { "text": "Prices are approximate as of " },
-            { "type": "date", "text": "2026" },
-            { "text": " and may vary with local conditions." }
+            {
+              "text": "Prices are approximate as of "
+            },
+            {
+              "type": "date",
+              "text": "2026"
+            },
+            {
+              "text": " and may vary with local conditions."
+            }
           ]
         }
       ]
@@ -649,7 +929,9 @@
             },
             {
               "children": [
-                { "text": "Do not step on or touch the coral, and use reef-friendly sunscreen." }
+                {
+                  "text": "Do not step on or touch the coral, and use reef-friendly sunscreen."
+                }
               ]
             },
             {
@@ -721,7 +1003,9 @@
           "items": [
             {
               "children": [
-                { "text": "The beach is somewhat rocky, so water shoes are safer than flip-flops." }
+                {
+                  "text": "The beach is somewhat rocky, so water shoes are safer than flip-flops."
+                }
               ]
             },
             {
@@ -740,7 +1024,9 @@
             },
             {
               "children": [
-                { "text": "Currents can run at the sardine site, so do not swim far out alone." }
+                {
+                  "text": "Currents can run at the sardine site, so do not swim far out alone."
+                }
               ]
             }
           ]
@@ -765,8 +1051,13 @@
                 {
                   "text": "The municipality Panagsama belongs to. The town center with its market and church is about "
                 },
-                { "type": "distance", "text": "3.5km" },
-                { "text": " away by tricycle." }
+                {
+                  "type": "distance",
+                  "text": "3.5km"
+                },
+                {
+                  "text": " away by tricycle."
+                }
               ]
             },
             {
@@ -774,9 +1065,16 @@
               "title": "Kawasan Falls",
               "place": "kawasan-falls",
               "children": [
-                { "text": "A tiered waterfall about " },
-                { "type": "distance", "text": "20km" },
-                { "text": " from Moalboal, famous for its canyoneering route." }
+                {
+                  "text": "A tiered waterfall about "
+                },
+                {
+                  "type": "distance",
+                  "text": "20km"
+                },
+                {
+                  "text": " from Moalboal, famous for its canyoneering route."
+                }
               ]
             },
             {
@@ -793,9 +1091,16 @@
               "type": "card",
               "title": "White Beach",
               "children": [
-                { "text": "A white-sand beach in Basdako, reachable by motorbike taxi for about " },
-                { "type": "price", "text": "₱150" },
-                { "text": "." }
+                {
+                  "text": "A white-sand beach in Basdako, reachable by motorbike taxi for about "
+                },
+                {
+                  "type": "price",
+                  "text": "₱150"
+                },
+                {
+                  "text": "."
+                }
               ]
             },
             {

@@ -1,22 +1,196 @@
-{ "id": 536, "slug": "malapascua-thresher-shark-diving", "checked_at": "2026-11-18T00:00:00Z",
+{
+  "id": 536,
+  "slug": "malapascua-thresher-shark-diving",
+  "checked_at": "2026-11-18T00:00:00Z",
   "facts": [
-    { "where": "overview", "fact": "환도상어가 2022년경 모나드에서 키무드 암초로 이동, 현재 키무드 중심", "value": "키무드", "sources": [
-      { "url": "https://malapascua-diving.com/complete-guide-malapascua-diving/", "grade": "B", "date": "2026", "says": "Threshers moved from Monad Shoal to Kimud in 2022; rarely seen at Monad; tiger sharks ~10-20% of Monad dives" },
-      { "url": "https://girlonazebra.com/diving-in-malapascua/", "grade": "B", "date": "2025", "says": "Monad was once the main thresher spot but now mainly known for possible tiger sharks; threshers seen on both Kimud dives" } ], "decision": "일치" },
-    { "where": "highlights", "fact": "키무드 수심: 윗부분 약 12~14m, 청소 정거장 20~28m, 배로 약 1시간. 모나드 20~25분", "value": "12~28m", "sources": [
-      { "url": "https://girlonazebra.com/diving-in-malapascua/", "grade": "B", "date": "2025", "says": "Kimud ~1 hour by boat, top ~14 m, cleaning stations ~28 m; Monad ~25 min" },
-      { "url": "https://malapascua-diving.com/complete-guide-malapascua-diving/", "grade": "B", "date": "2026", "says": "plateau 12 m, cleaning station 12-22 m; Kimud 60 min boat; Monad 20 min" } ], "decision": "자료별로 청소 정거장 깊이가 다르므로 20~28m 범위로 쓰고 모나드는 후기 범위" },
-    { "where": "costs", "fact": "다이빙 요금: 1회 ₱1,800~2,500, 오전 2회 ₱3,000~4,000, 3회 ₱5,000~7,000", "value": "₱1,800~7,000", "sources": [
-      { "url": "https://suroy.ph/malapascua-island-cebu/", "grade": "B", "date": "2026", "says": "single dive 1,800-2,500; two-dive Kimud morning 3,000-4,000 all-in; env fee 140 + 20 terminal; Kimud site fee 100; boat 200-240" },
-      { "url": "https://girlonazebra.com/diving-in-malapascua/", "grade": "B", "date": "2025", "says": "three-dive trip 6,000; single local fun dive 1,800" },
-      { "url": "https://www.philippinestourism.org/malapascua-diving/", "grade": "C", "date": "2026", "says": "two-dive morning ~3,500-4,000" } ], "decision": "범위로 표기, 숍별 상이 안내" },
-    { "where": "getting_there", "fact": "세부 북부 터미널~마야 버스 약 5~6시간 ₱220, 마야~섬 방카 30~45분", "value": "5~6시간 / 30~45분", "sources": [
-      { "url": "https://girlonazebra.com/diving-in-malapascua/", "grade": "B", "date": "2025", "says": "Cebu North Bus Terminal to Maya ~5 hours, 220 pesos; ferry ~40 min" },
-      { "url": "https://waitwhereisshe.com/thresher-shark-diving-malapascua-philippines-travel-guide-with-dive-pricing/", "grade": "C", "date": "2025", "says": "~6-hour bus, ~45-minute bangka" } ], "decision": "범위로 표기" },
-    { "where": "overview", "fact": "환도상어 몸길이 약 3m, IUCN 멸종 위기, 청소 정거장 습성", "value": "약 3m / Endangered", "sources": [
-      { "url": "https://en.wikipedia.org/wiki/Pelagic_thresher", "grade": "B", "date": "2026", "says": "~3 m; Endangered (IUCN 2019); cleaning stations off Malapascua in early morning" },
-      { "url": "https://www.zubludiving.com/articles/zublu-insights/thresher-sharks-of-malapascua", "grade": "C", "date": "미확인", "says": "(검색 결과로만 확인, 본문은 열지 못함)" } ], "decision": "위키 단독 근거에 가까워 단정 표현 최소화" },
-    { "where": "lat/lon", "fact": "섬 좌표(등록된 malapascua 항목과 동일)", "value": "11.3347, 124.1161", "sources": [
-      { "url": "https://en.wikipedia.org/wiki/Malapascua", "grade": "B", "date": "2026", "says": "Malapascua Island, Daanbantayan, Cebu (검색 결과)" },
-      { "url": "work/x2000/registered.tsv", "grade": "B", "date": "2026-11", "says": "malapascua 11.3347,124.1161" } ], "decision": "키무드 암초 좌표는 확인하지 못해 출발 섬 좌표를 사용" }
-  ], "images": [] }
+    {
+      "where": "overview",
+      "fact": "환도상어가 2022년경 모나드에서 키무드 암초로 이동, 현재 키무드 중심",
+      "value": "키무드",
+      "sources": [
+        {
+          "url": "https://malapascua-diving.com/complete-guide-malapascua-diving/",
+          "grade": "B",
+          "date": "2026",
+          "says": "Threshers moved from Monad Shoal to Kimud in 2022; rarely seen at Monad; tiger sharks ~10-20% of Monad dives"
+        },
+        {
+          "url": "https://girlonazebra.com/diving-in-malapascua/",
+          "grade": "B",
+          "date": "2025",
+          "says": "Monad was once the main thresher spot but now mainly known for possible tiger sharks; threshers seen on both Kimud dives"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "highlights",
+      "fact": "키무드 수심: 윗부분 약 12~14m, 청소 정거장 20~28m, 배로 약 1시간. 모나드 20~25분",
+      "value": "12~28m",
+      "sources": [
+        {
+          "url": "https://girlonazebra.com/diving-in-malapascua/",
+          "grade": "B",
+          "date": "2025",
+          "says": "Kimud ~1 hour by boat, top ~14 m, cleaning stations ~28 m; Monad ~25 min"
+        },
+        {
+          "url": "https://malapascua-diving.com/complete-guide-malapascua-diving/",
+          "grade": "B",
+          "date": "2026",
+          "says": "plateau 12 m, cleaning station 12-22 m; Kimud 60 min boat; Monad 20 min"
+        }
+      ],
+      "decision": "자료별로 청소 정거장 깊이가 다르므로 20~28m 범위로 쓰고 모나드는 후기 범위"
+    },
+    {
+      "where": "costs",
+      "fact": "다이빙 요금: 1회 ₱1,800~2,500, 오전 2회 ₱3,000~4,000, 3회 ₱5,000~7,000",
+      "value": "₱1,800~7,000",
+      "sources": [
+        {
+          "url": "https://suroy.ph/malapascua-island-cebu/",
+          "grade": "B",
+          "date": "2026",
+          "says": "single dive 1,800-2,500; two-dive Kimud morning 3,000-4,000 all-in; env fee 140 + 20 terminal; Kimud site fee 100; boat 200-240"
+        },
+        {
+          "url": "https://girlonazebra.com/diving-in-malapascua/",
+          "grade": "B",
+          "date": "2025",
+          "says": "three-dive trip 6,000; single local fun dive 1,800"
+        },
+        {
+          "url": "https://www.philippinestourism.org/malapascua-diving/",
+          "grade": "C",
+          "date": "2026",
+          "says": "two-dive morning ~3,500-4,000"
+        }
+      ],
+      "decision": "범위로 표기, 숍별 상이 안내"
+    },
+    {
+      "where": "getting_there",
+      "fact": "세부 북부 터미널~마야 버스 약 5~6시간 ₱220, 마야~섬 방카 30~45분",
+      "value": "5~6시간 / 30~45분",
+      "sources": [
+        {
+          "url": "https://girlonazebra.com/diving-in-malapascua/",
+          "grade": "B",
+          "date": "2025",
+          "says": "Cebu North Bus Terminal to Maya ~5 hours, 220 pesos; ferry ~40 min"
+        },
+        {
+          "url": "https://waitwhereisshe.com/thresher-shark-diving-malapascua-philippines-travel-guide-with-dive-pricing/",
+          "grade": "C",
+          "date": "2025",
+          "says": "~6-hour bus, ~45-minute bangka"
+        }
+      ],
+      "decision": "범위로 표기"
+    },
+    {
+      "where": "overview",
+      "fact": "환도상어 몸길이 약 3m, IUCN 멸종 위기, 청소 정거장 습성",
+      "value": "약 3m / Endangered",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pelagic_thresher",
+          "grade": "B",
+          "date": "2026",
+          "says": "~3 m; Endangered (IUCN 2019); cleaning stations off Malapascua in early morning"
+        },
+        {
+          "url": "https://www.zubludiving.com/articles/zublu-insights/thresher-sharks-of-malapascua",
+          "grade": "C",
+          "date": "미확인",
+          "says": "(검색 결과로만 확인, 본문은 열지 못함)"
+        }
+      ],
+      "decision": "위키 단독 근거에 가까워 단정 표현 최소화"
+    },
+    {
+      "where": "lat/lon",
+      "fact": "섬 좌표(등록된 malapascua 항목과 동일)",
+      "value": "11.3347, 124.1161",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Malapascua",
+          "grade": "B",
+          "date": "2026",
+          "says": "Malapascua Island, Daanbantayan, Cebu (검색 결과)"
+        },
+        {
+          "url": "work/x2000/registered.tsv",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "malapascua 11.3347,124.1161"
+        }
+      ],
+      "decision": "키무드 암초 좌표는 확인하지 못해 출발 섬 좌표를 사용"
+    }
+  ],
+  "images": [
+    {
+      "file": "536-malapascua-thresher-shark-diving.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Malapascua_Island_-_51862939310.jpg",
+      "check": "Monad Shoal 좌표 GPS 와 설명 + 환도상어 모습 확인"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Malapascua_Island_-_51861322162.jpg",
+      "check": "Malapascua Island 분류 'Diving Malapascua Island' 사진에서 환도상어 확인"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Threshershark.jpg",
+      "check": "설명 'Monad Shoal, Malapascua' 환도상어"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Malapascua_(island),_Boats_in_Visayan_Sea,_Philippines.jpg",
+      "check": "분류 Malapascua Island, 설명 '다이빙 보트' 확인"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sunrise_on_a_boat_in_Malapascua_001.jpg",
+      "check": "설명 Sunrise on a boat in Malapascua, GPS 말라파스쿠아 인근"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangka_in_Malapascua_003.jpg",
+      "check": "설명 Bangka in Malapascua, GPS 11.326,124.112 말라파스쿠아 북부"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Gato_islet_seen_from_Tepanee_Beach_Resort,_Malapascua.jpg",
+      "check": "설명 Gato islet(말라파스쿠아 인근 섬), GPS 11.333,124.117"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Malapascua_Island_-_51862614564.jpg",
+      "check": "분류 Diving Malapascua Island, 말라파스쿠아 다이빙 시 보이는 줄무늬 쏠종개 떼"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Anemone_with_Anemone_fish.jpg",
+      "check": "GPS 11.333,124.117 말라파스쿠아 다이빙 사진"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Pyjama_Chromodoris_Nudibranch.jpg",
+      "check": "GPS 11.333,124.117 말라파스쿠아 다이빙 사진"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-11.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Nudibranch.jpg",
+      "check": "GPS 11.333,124.117 말라파스쿠아 다이빙 사진"
+    },
+    {
+      "file": "536-malapascua-thresher-shark-diving-12.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Malapascua%27s_Thresher_Shark.jpg",
+      "check": "설명 Malapascua's Thresher Shark, GPS 11.329,124.121 말라파스쿠아 섬 안"
+    }
+  ],
+  "photos_checked_at": "2026-11-18T16:01:19Z"
+}

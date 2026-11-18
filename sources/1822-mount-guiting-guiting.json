@@ -1,9 +1,205 @@
-{"id":1822,"slug":"mount-guiting-guiting","checked_at":"2026-11-18T00:00:00Z","facts":[
-{"where":"overview","fact":"높이·난이도·자연공원","value":"2,058m, 난이도 9/9, 1996 자연공원","sources":[{"url":"https://en.wikipedia.org/wiki/Mount_Guiting-Guiting","grade":"B","date":"2026","says":"2,058m, 1996 자연공원 지정, 난이도 9"},{"url":"https://transitpinas.com/guiting-guiting-romblon-travel-guide-2023/","grade":"C","date":"2023-03-29","says":"2,058m, 9/9, Class 5, 3일"}],"decision":"반영"},
-{"where":"coords","fact":"좌표","value":"12.4139, 122.5678","sources":[{"url":"https://en.wikipedia.org/wiki/Mount_Guiting-Guiting","grade":"B","date":"2026","says":"12°24′50″N 122°34′04″E"},{"url":"https://nominatim.openstreetmap.org/search?q=Mount+Guiting-Guiting","grade":"B","date":"2026","says":"12.4142, 122.5687"}],"decision":"위키백과 값"},
-{"where":"overview","fact":"입산 제한 11~1월","value":"2026년부터 매년 11~1월","sources":[{"url":"https://en.wikipedia.org/wiki/Mount_Guiting-Guiting","grade":"B","date":"2026","says":"DENR 연례 폐쇄 11~1월, 2026부터"},{"url":"https://lakbaypinas.com/mt-guiting-guiting-masl-difficulty-hike-location","grade":"B","date":"2026-06-13","says":"11~1월 폐쇄, 2~5월 최적"}],"decision":"최신 공지 확인 문구 추가"},
-{"where":"costs","fact":"허가·가이드·포터","value":"허가 ₱500/₱1,000, 가이드·포터 ₱4,000, 3:1","sources":[{"url":"https://lakbaypinas.com/mt-guiting-guiting-masl-difficulty-hike-location","grade":"B","date":"2026-06-13","says":"허가 500/1,000, 가이드·포터 4,000, 3:1, 합계 12,000~16,000"},{"url":"https://transitpinas.com/guiting-guiting-romblon-travel-guide-2023/","grade":"C","date":"2023-03-29","says":"등록 500, 환경 100, 가이드·포터 3,000"},{"url":"https://www.pinoymountaineer.com/2014/02/mt-guiting-guiting-traverse-2058.html","grade":"C","date":"2014","says":"등록 300, 가이드·포터 3,000"}],"decision":"연도별 변동 병기"},
-{"where":"getting_there","fact":"바탕가스-암불롱 배","value":"16:00, 9~12시간, ₱700~1,250","sources":[{"url":"https://transitpinas.com/guiting-guiting-romblon-travel-guide-2023/","grade":"C","date":"2023-03-29","says":"월~토 4PM 9-10시간 ₱1,250"},{"url":"https://lakbaypinas.com/mt-guiting-guiting-masl-difficulty-hike-location","grade":"B","date":"2026-06-13","says":"매일 4PM 약 12시간 ₱700~1,000"}],"decision":"두 자료 차이를 병기"},
-{"where":"overview","fact":"식물·새","value":"700종, 고유 54, 새 130","sources":[{"url":"https://en.wikipedia.org/wiki/Mount_Guiting-Guiting","grade":"B","date":"2026","says":"약 700종 관속식물 중 54 고유, 새 130종"}],"decision":"단일 출처이므로 '위키백과에 따르면' 명시"},
-{"where":"trail","fact":"캠프 고도","value":"올랑고 620/980/1,320m, 탐파얀 캠프3 1,270m, 마요봉 1,526~1,550","sources":[{"url":"https://lakbaypinas.com/mt-guiting-guiting-masl-difficulty-hike-location","grade":"B","date":"2026-06-13","says":"캠프 고도"},{"url":"https://www.pinoymountaineer.com/2014/02/mt-guiting-guiting-traverse-2058.html","grade":"C","date":"2014","says":"캠프 2·3, 마요봉 순서"}],"decision":"마요봉 고도 불일치 병기"}
-],"images":[]}
+{
+  "id": 1822,
+  "slug": "mount-guiting-guiting",
+  "checked_at": "2026-11-18T00:00:00Z",
+  "facts": [
+    {
+      "where": "overview",
+      "fact": "높이·난이도·자연공원",
+      "value": "2,058m, 난이도 9/9, 1996 자연공원",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mount_Guiting-Guiting",
+          "grade": "B",
+          "date": "2026",
+          "says": "2,058m, 1996 자연공원 지정, 난이도 9"
+        },
+        {
+          "url": "https://transitpinas.com/guiting-guiting-romblon-travel-guide-2023/",
+          "grade": "C",
+          "date": "2023-03-29",
+          "says": "2,058m, 9/9, Class 5, 3일"
+        }
+      ],
+      "decision": "반영"
+    },
+    {
+      "where": "coords",
+      "fact": "좌표",
+      "value": "12.4139, 122.5678",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mount_Guiting-Guiting",
+          "grade": "B",
+          "date": "2026",
+          "says": "12°24′50″N 122°34′04″E"
+        },
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Mount+Guiting-Guiting",
+          "grade": "B",
+          "date": "2026",
+          "says": "12.4142, 122.5687"
+        }
+      ],
+      "decision": "위키백과 값"
+    },
+    {
+      "where": "overview",
+      "fact": "입산 제한 11~1월",
+      "value": "2026년부터 매년 11~1월",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mount_Guiting-Guiting",
+          "grade": "B",
+          "date": "2026",
+          "says": "DENR 연례 폐쇄 11~1월, 2026부터"
+        },
+        {
+          "url": "https://lakbaypinas.com/mt-guiting-guiting-masl-difficulty-hike-location",
+          "grade": "B",
+          "date": "2026-06-13",
+          "says": "11~1월 폐쇄, 2~5월 최적"
+        }
+      ],
+      "decision": "최신 공지 확인 문구 추가"
+    },
+    {
+      "where": "costs",
+      "fact": "허가·가이드·포터",
+      "value": "허가 ₱500/₱1,000, 가이드·포터 ₱4,000, 3:1",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/mt-guiting-guiting-masl-difficulty-hike-location",
+          "grade": "B",
+          "date": "2026-06-13",
+          "says": "허가 500/1,000, 가이드·포터 4,000, 3:1, 합계 12,000~16,000"
+        },
+        {
+          "url": "https://transitpinas.com/guiting-guiting-romblon-travel-guide-2023/",
+          "grade": "C",
+          "date": "2023-03-29",
+          "says": "등록 500, 환경 100, 가이드·포터 3,000"
+        },
+        {
+          "url": "https://www.pinoymountaineer.com/2014/02/mt-guiting-guiting-traverse-2058.html",
+          "grade": "C",
+          "date": "2014",
+          "says": "등록 300, 가이드·포터 3,000"
+        }
+      ],
+      "decision": "연도별 변동 병기"
+    },
+    {
+      "where": "getting_there",
+      "fact": "바탕가스-암불롱 배",
+      "value": "16:00, 9~12시간, ₱700~1,250",
+      "sources": [
+        {
+          "url": "https://transitpinas.com/guiting-guiting-romblon-travel-guide-2023/",
+          "grade": "C",
+          "date": "2023-03-29",
+          "says": "월~토 4PM 9-10시간 ₱1,250"
+        },
+        {
+          "url": "https://lakbaypinas.com/mt-guiting-guiting-masl-difficulty-hike-location",
+          "grade": "B",
+          "date": "2026-06-13",
+          "says": "매일 4PM 약 12시간 ₱700~1,000"
+        }
+      ],
+      "decision": "두 자료 차이를 병기"
+    },
+    {
+      "where": "overview",
+      "fact": "식물·새",
+      "value": "700종, 고유 54, 새 130",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mount_Guiting-Guiting",
+          "grade": "B",
+          "date": "2026",
+          "says": "약 700종 관속식물 중 54 고유, 새 130종"
+        }
+      ],
+      "decision": "단일 출처이므로 '위키백과에 따르면' 명시"
+    },
+    {
+      "where": "trail",
+      "fact": "캠프 고도",
+      "value": "올랑고 620/980/1,320m, 탐파얀 캠프3 1,270m, 마요봉 1,526~1,550",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/mt-guiting-guiting-masl-difficulty-hike-location",
+          "grade": "B",
+          "date": "2026-06-13",
+          "says": "캠프 고도"
+        },
+        {
+          "url": "https://www.pinoymountaineer.com/2014/02/mt-guiting-guiting-traverse-2058.html",
+          "grade": "C",
+          "date": "2014",
+          "says": "캠프 2·3, 마요봉 순서"
+        }
+      ],
+      "decision": "마요봉 고도 불일치 병기"
+    }
+  ],
+  "images": [
+    {
+      "file": "1822-mount-guiting-guiting.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Guiting-guiting_4.jpg",
+      "check": "분류 Mount Guiting-Guiting, 설명 'as seen from the south (Espana town)', GPS 12.416,122.569, 산 능선 전경"
+    },
+    {
+      "file": "1822-mount-guiting-guiting-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Guiting-guiting_1.jpg",
+      "check": "분류·설명에 'jagged peaks that give Mt. Guiting-Guiting its name', GPS 일치, 칼날 능선이 보임"
+    },
+    {
+      "file": "1822-mount-guiting-guiting-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Guiting-guiting_3.jpg",
+      "check": "설명 'summit ... viewed from Mayo's Peak', GPS 일치, 정상부 암봉이 보임"
+    },
+    {
+      "file": "1822-mount-guiting-guiting-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mount_Guiting-Guiting_DSC06614.jpg",
+      "check": "제목 Mount Guiting-Guiting, GPS 12.418,122.568(정상 부근), 칼날 능선과 해안이 보임"
+    },
+    {
+      "file": "1822-mount-guiting-guiting-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Guiting-guiting_2.jpg",
+      "check": "설명 'Hikers climbing the last assault to the summit peak', GPS 일치, 등산객과 정상 암봉이 보임"
+    },
+    {
+      "file": "1822-mount-guiting-guiting-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Guiting-guiting_5.jpg",
+      "check": "설명 'Extensive virgin forests on the slope', GPS 일치, 숲과 바다가 보임"
+    },
+    {
+      "file": "1822-mount-guiting-guiting-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mt._Guiting_-_Guiting.jpg",
+      "check": "설명 'Highest mountain in the province of Romblon', 분류 일치, 능선이 보임"
+    },
+    {
+      "file": "1822-mount-guiting-guiting-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Up_to_the_summit_of_Mt._Guiting-Guiting_2.jpg",
+      "check": "분류 Mount Guiting-Guiting, 설명 'Traversing the rocky mountains of Mt. Guiting-Guiting in Sibuyan Romblon', 암릉이 보임"
+    },
+    {
+      "file": "1822-mount-guiting-guiting-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mount_Guiting_Guiting.jpg",
+      "check": "분류 Mount Guiting-Guiting, 설명 'Part of the Mount Guiting Guiting range', 능선 파노라마가 보임"
+    },
+    {
+      "file": "1822-mount-guiting-guiting-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mount_Guiting_Guiting_6.jpg",
+      "check": "분류 Mount Guiting-Guiting, 설명 'Part of the knife-edge trail going to the summit', 칼날 능선과 구름이 보임"
+    },
+    {
+      "file": "1822-mount-guiting-guiting-11.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mount_Guiting_Guiting_4.jpg",
+      "check": "분류 Mount Guiting-Guiting, 설명 'The trail going up to the summit', 안개 낀 바위 능선이 보임"
+    }
+  ],
+  "photos_checked_at": "2026-11-18T16:01:19Z"
+}
