@@ -43,7 +43,7 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱9,000–12,000 (round-trip flights from Cauayan to Palanan, local boats and lodging; estimated from a 2019 review)",
+    "text": "Palanan registration and park use ₱300 for general visitors. Flights, lodging and guide extra",
     "currency": "PHP",
     "min": 9000,
     "max": 12000
@@ -60,7 +60,7 @@
     "type": "airport",
     "label": "Nearest airport",
     "icon": "flight",
-    "text": "Small plane to Palanan from Cauayan Airport (CYZ) or Tuguegarao Airport (TUG)",
+    "text": "Cauayan Airport (CYZ). Confirm onward small-aircraft service to Palanan",
     "code": "CYZ"
   },
   "summary": {
@@ -227,7 +227,7 @@
                       "time": "Day 1",
                       "children": [
                         {
-                          "text": "Travel from Manila to Cauayan. Cebu Pacific reportedly flew Manila–Cauayan (as of 2019)."
+                          "text": "Travel from Manila to Cauayan. Philippine Airlines advertises the route. Book the small aircraft to Palanan separately."
                         }
                       ]
                     },
@@ -235,7 +235,7 @@
                       "time": "Day 2",
                       "children": [
                         {
-                          "text": "Fly from Cauayan to Palanan on a small plane; the flight takes about 30 minutes. Settle into your lodging and see the Aguinaldo Shrine and church in town."
+                          "text": "On arrival in Palanan, register at the Tourist Assistance Desk and follow the park procedure through the police station, DENR office and municipal treasury."
                         }
                       ]
                     },
@@ -269,15 +269,15 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "One 2019 review's itinerary was five days, and a packaged joiner tour reportedly cost about ₱9,000 per person. Small planes and boats can be canceled by weather, so keep a spare day."
+                      "text": "Both small aircraft and boats may be canceled. Leave a buffer between the return journey and your Manila connection."
                     }
                   ]
                 }
               ]
             },
             {
-              "title": "Overland and sea expedition",
-              "subtitle": "Seven days or more across sea and mountains",
+              "title": "Sea approach from Dilasag",
+              "subtitle": "Confirm both departures before traveling",
               "blocks": [
                 {
                   "type": "stepper",
@@ -286,7 +286,7 @@
                       "time": "Day 1",
                       "children": [
                         {
-                          "text": "Travel from Manila via Cabanatuan and Baler to Dilasag or Dingalan in Aurora."
+                          "text": "Travel from Manila to Dilasag, Aurora, after confirming the sailing date and embarkation point for Palanan."
                         }
                       ]
                     },
@@ -294,19 +294,19 @@
                       "time": "Day 2",
                       "children": [
                         {
-                          "text": "Take a large outrigger boat (lancha) from Dilasag (or Dingalan or Baler) to Palanan, about 6–7 hours."
+                          "text": "Board for Palanan after the operator and port confirm departure. Sea and weather conditions can change sailing plans."
                         }
                       ]
                     },
                     {
                       "time": "Days 3–5",
-                      "children": [{ "text": "Walk around Palanan and tour the coast." }]
+                      "children": [{ "text": "Register at the Palanan Tourist Assistance Desk, then confirm which coastal and park sites you can visit with a local guide." }]
                     },
                     {
                       "time": "Day 6 onward",
                       "children": [
                         {
-                          "text": "Fly back on a small plane, or, for experienced groups, attempt the 3–5 day river-trek crossing to San Mariano. Always take a local guide on this route."
+                          "text": "Return on a confirmed boat or small aircraft to Cauayan. If canceled, adjust plans around the resumption of service."
                         }
                       ]
                     }
@@ -316,7 +316,7 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "The overland itinerary depends heavily on weather and boat operations. Leave plenty of spare time."
+                      "text": "The Dilasag–Palanan leg is by sea. Confirm sailings and return dates with the port, and consult the authorities separately about any overland crossing."
                     }
                   ]
                 }
@@ -346,22 +346,17 @@
                     {
                       "children": [
                         {
-                          "text": "Cebu Pacific reportedly flew from Manila to Cauayan Airport (as of 2019). Check current routes with the airline. By bus, Santiago is about "
+                          "type": "link",
+                          "text": "Philippine Airlines",
+                          "url": "https://flights.philippineairlines.com/en-ph/flights-to-santiago"
                         },
-                        { "type": "duration", "text": "8 hours" },
-                        { "text": " from Manila and Cauayan is about " },
-                        { "type": "duration", "text": "1 hour" },
-                        { "text": " from Santiago." }
+                        { "text": " lists Manila (MNL)–Cauayan (CYZ). Check service and fares for your travel dates." }
                       ]
                     },
                     {
                       "children": [
-                        { "text": "From Cauayan, a six-seater Cyclone Cessna flies to Palanan in " },
-                        { "type": "duration", "text": "30–35 minutes" },
-                        { "text": ". A 2019 review gave the cost as about " },
-                        { "type": "price", "text": "₱3,000" },
                         {
-                          "text": " per person, varying with baggage weight. Wikipedia gives the flight time as 23–30 minutes."
+                          "text": "Small aircraft connect Cauayan and Palanan. Confirm departure date, seating, baggage limits and the return flight with the local operator."
                         }
                       ]
                     }
@@ -371,7 +366,7 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "There is also a route via Tuguegarao. Travel to Tuguegarao from Manila by air or sleeper bus, then take a small plane from there. Check whether the flights operate."
+                      "text": "If booking the two flights separately, check whether a same-day connection is possible in Cauayan. Small-aircraft schedules can change with weather."
                     }
                   ]
                 }
@@ -387,20 +382,22 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "One review says it takes about " },
-                        { "type": "duration", "text": "10 hours" },
-                        { "text": " by road from Manila to Dilasag in Aurora and then about " },
-                        { "type": "duration", "text": "6 hours" },
-                        { "text": " by boat to Palanan. Boats also leave from Dingalan and Baler." }
+                        { "text": "The " },
+                        {
+                          "text": "Cagayan Valley tourism office",
+                          "type": "link",
+                          "url": "https://www.region2fun.ph/official/isabela-2/"
+                        },
+                        {
+                          "text": " describes an approach to Palanan by boat from Dilasag, Aurora. Confirm the schedule, boarding point and sailing status with the port."
+                        }
                       ]
                     },
                     {
                       "children": [
-                        { "text": "From Divilacan to Palanan it is about " },
-                        { "type": "duration", "text": "2–3 hours" },
-                        { "text": " by boat, and from Baler or Dingalan " },
-                        { "type": "duration", "text": "6–7 hours" },
-                        { "text": "." }
+                        {
+                          "text": "Ask locally about arranging a boat between Divilacan and Palanan and whether it can sail. Confirm the return trip before departure."
+                        }
                       ]
                     }
                   ]
@@ -418,16 +415,20 @@
                     {
                       "children": [
                         {
-                          "text": "No road connects Palanan to the western part of Isabela. Wikipedia says a trek of 3–5 days over the Sierra Madre from San Mariano to Palanan is possible."
+                          "text": "Plan a crossing from the San Mariano side only after checking permits, weather, river levels and guiding with tourism officials and DENR."
                         }
                       ]
                     },
                     {
                       "children": [
-                        { "text": "There is information that an " },
-                        { "type": "distance", "text": "82 km" },
+                        { "text": "According to the " },
                         {
-                          "text": " Ilagan–Divilacan road began construction in March 2016 and was due for completion in 2024, but its current status could not be confirmed. Check local government announcements before you leave."
+                          "text": "provincial safety officer’s June 2026 account",
+                          "type": "link",
+                          "url": "https://cauayan.bomboradyo.com/travel-guidelines-sa-ilagan-divilacan-road-mahigpit-na-ipinatutupad-ng-pamahalaang-panlalawigan-ng-isabela/"
+                        },
+                        {
+                          "text": ", Ilagan–Divilacan Road access is primarily for residents of coastal towns and authorized work travel with documentation. Ask the province about eligibility before planning any tourist access."
                         }
                       ]
                     }
@@ -501,8 +502,8 @@
           "items": [
             {
               "label": "Small plane, Cauayan to Palanan",
-              "price": "About ₱3,000",
-              "note": "2019 review, estimated one way; varies with baggage weight"
+              "price": "Travel guide example ₱3,500–5,000",
+              "note": "Range quoted in a travel guide available in 2026. Ask the operator about return travel, baggage and actual fare"
             },
             {
               "label": "Boat charter",
@@ -510,33 +511,33 @@
               "note": "Negotiated on site, e.g. from the Culasi port near Dicotcotan"
             },
             {
-              "label": "Entrance permit",
-              "price": "About ₱100–200 (estimate from one travel site)",
-              "note": "No official information; check with DENR"
+              "label": "Palanan environmental and park-use fees",
+              "price": "General visitors ₱300 (environment ₱200 + park use ₱100)",
+              "note": "2026 Palanan municipal charter. Same for domestic and foreign visitors. Educational park-use fee ₱50 per person"
             },
             {
-              "label": "Guide and trek crossing",
-              "price": "No confirmed information",
-              "note": "Daily guide fee to be negotiated locally"
+              "label": "Guide and local park tour",
+              "price": "Ask the municipal tourism desk for your route",
+              "note": "Separate price matrix for the chosen package"
             },
             {
-              "label": "Lodging (resort or homestay)",
-              "price": "No confirmed information",
-              "note": "Bilay Makadawi resort and others; ask for rates"
+              "label": "Lodging in central Palanan",
+              "price": "Travel guide example ₱1,000–1,500 per night",
+              "note": "Budget estimate for town inns and guesthouses. Confirm room and meal inclusions"
             },
             {
-              "label": "Five-day joiner tour (review)",
-              "price": "About ₱9,000 per person",
-              "note": "2019, including meals and miscellaneous costs"
+              "label": "Manila–Cauayan flight example",
+              "price": "Philippine Airlines return fare example ₱4,731",
+              "note": "Economy fare example for November 16–20, 2026. Onward travel to Palanan separate"
             }
           ]
         },
         {
           "type": "caption",
           "children": [
-            { "text": "Prices are approximate as of " },
+            { "text": "Park fees follow the " },
             { "type": "date", "text": "2026" },
-            { "text": " and may vary with local conditions." }
+            { "text": " Palanan municipal charter. Flight and lodging rates are examples. Request quotes for your dates." }
           ]
         }
       ]
@@ -599,8 +600,14 @@
             },
             {
               "children": [
+                { "text": "Under the " },
                 {
-                  "text": "Areas inside the park may require a permit, so check permit and guide rules with the DENR regional office or the local tourism office."
+                  "text": "2026 Palanan charter, pages 173–174",
+                  "type": "link",
+                  "url": "https://www.palanan.gov.ph/wp-content/uploads/1.-CITIZENS-CHARTER-2026-ALL-Depts-FINAL-PDF.pdf#page=173"
+                },
+                {
+                  "text": ", register and collect a payment order at the tourist desk, check in at the police station, and receive a rules briefing at DENR-CENRO. Pay at the municipal treasury, keep the receipt, and confirm your route and any guide charges at the tourism desk. Foreign guests need an original passport and domestic visitors a valid ID."
                 }
               ]
             },
@@ -621,7 +628,7 @@
             {
               "children": [
                 {
-                  "text": "Price information comes mostly from old reviews, so reconfirm rates just before departure."
+                  "text": "Recheck airfare and lodging for your dates and ask the tourism desk about separate guide fees."
                 }
               ]
             }
@@ -641,7 +648,7 @@
           "icon": "warning",
           "children": [
             {
-              "text": "Northern Sierra Madre is a remote area without roads. Small planes, boats and hiking are all heavily affected by weather, and medical and communication facilities are limited, so prepare thoroughly."
+              "text": "Air and sea travel depend on weather. On arrival in Palanan, register at the municipal tourism desk and check which park sites you can enter."
             }
           ]
         },
@@ -653,7 +660,7 @@
             {
               "children": [
                 {
-                  "text": "No official information on entrance and permit fees and guide rules could be found. Even the descriptions of the entrance permit on one site gave inconsistent amounts, so confirm locally."
+                  "text": "The ₱300 total covers Palanan’s environmental and park-user fees for general visitors. Ask the municipality you are visiting about its own registration and fees elsewhere in the park."
                 }
               ]
             },
@@ -667,14 +674,14 @@
             {
               "children": [
                 {
-                  "text": "River crossings on foot are dangerous because rivers rise quickly when it rains, so do not attempt them without an experienced guide."
+                  "text": "Before a river crossing, confirm permission, a guide, rainfall upstream and river levels. Postpone the crossing after rain or when water rises."
                 }
               ]
             },
             {
               "children": [
                 {
-                  "text": "Some reviews are old, so infrastructure such as the Ilagan–Divilacan road may have changed."
+                  "text": "Ilagan–Divilacan Road access is restricted. Plan the Palanan visit around a confirmed flight or boat."
                 }
               ]
             },
@@ -723,7 +730,7 @@
               "place": "baler",
               "children": [
                 {
-                  "text": "A surfing town in Aurora and one of the starting points for reaching Palanan by boat or road."
+                  "text": "A surfing city in Aurora. For sea travel to Palanan, check embarkation and departures in Dilasag separately."
                 }
               ]
             },
@@ -733,7 +740,7 @@
               "place": "dingalan",
               "children": [
                 {
-                  "text": "A coastal town in Aurora from which boats toward Palanan reportedly depart."
+                  "text": "A coastal town in Aurora. For Palanan sails, check departures from Dilasag."
                 }
               ]
             }

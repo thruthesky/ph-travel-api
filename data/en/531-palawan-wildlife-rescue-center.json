@@ -61,7 +61,7 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱300~1,500 (entrance fee plus round-trip transport from the city; no extra cost if included in a tour)",
+    "text": "Listed centre admission ₱100 adults, ₱80 children, ₱90 seniors. Check transport and optional tours separately",
     "currency": "PHP",
     "min": 300,
     "max": 1500
@@ -190,8 +190,14 @@
               "number": 5,
               "title": "Guided tours",
               "children": [
+                { "text": "The " },
                 {
-                  "text": "Guided visits are available, and one guide says they run about every 15 minutes. You can learn about crocodile behavior, how to tell species apart and the center's history, so join a guide if you follow English or Tagalog."
+                  "text": "centre booking page",
+                  "type": "link",
+                  "url": "https://pwrcc.penropalawan.com/Pages/Reservation"
+                },
+                {
+                  "text": " lists admission and optional guided routes. Confirm available routes and the start time for your visit."
                 }
               ]
             },
@@ -396,15 +402,21 @@
                     },
                     {
                       "children": [
+                        { "text": "The " },
                         {
-                          "text": "If you take a van or jeepney, confirm with the driver that it goes toward Irawan and ask to be dropped in front of the center. Routes and fares change, so check locally."
+                          "text": "Puerto Princesa tourism office",
+                          "type": "link",
+                          "url": "https://citytourism.puertoprincesa.ph/crocodile-farm-nature-park/"
+                        },
+                        {
+                          "text": " lists Irawan jeepneys or multicabs on the highway at ₱25 per person and tricycles from the airport or city at ₱300 per vehicle for up to three passengers. Check fares and the return ride before boarding."
                         }
                       ]
                     },
                     {
                       "children": [
                         {
-                          "text": "It is often included in Puerto Princesa city tours, so booking a half-day city tour removes any transport worries."
+                          "text": "A half-day city tour may substitute the butterfly garden for the centre. Confirm the actual stop before booking."
                         }
                       ]
                     }
@@ -480,28 +492,28 @@
           "items": [
             {
               "label": "Entrance fee",
-              "price": "About ₱30~100 (varies by source)",
-              "note": "Confirm the exact amount at the entrance. One source mentions discounts for children"
+              "price": "₱100 adult / ₱80 child / ₱90 senior",
+              "note": "Centre booking page. Confirm age limits and proof for child or senior tickets"
             },
             {
-              "label": "Photo experience",
-              "price": "Extra charge possible",
-              "note": "Visitors report a fee for souvenir photos"
+              "label": "Centre’s optional tours A–E",
+              "price": "₱50–150",
+              "note": "A ₱50, B ₱100, C and E ₱120, D ₱150. Check the total with admission and route terms when booking"
             },
             {
-              "label": "Tricycle or taxi, city to center",
-              "price": "About ₱300~800 (chartered)",
-              "note": "Varies with bargaining and waiting time"
+              "label": "Airport or city to the centre by tricycle",
+              "price": "₱300 per vehicle",
+              "note": "City tourism listing for up to three. Confirm one-way or return travel and any waiting fee"
             },
             {
-              "label": "Joining a city tour",
-              "price": "Varies by operator",
-              "note": "Check whether the entrance fee is included"
+              "label": "Puerto Princesa half-day shared tour",
+              "price": "Operator example ₱600 per person",
+              "note": "Costa Palawan Resort listing with admission included. Confirm whether the centre or butterfly garden is your stop"
             },
             {
-              "label": "Iwahig River paddle boat",
-              "price": "Check locally",
-              "note": "Check hours and price locally"
+              "label": "Irawan jeepney or multicab",
+              "price": "₱25 per person",
+              "note": "City tourism listing for Irawan services on the national highway"
             },
             {
               "label": "Snacks and drinks",
@@ -513,9 +525,9 @@
         {
           "type": "caption",
           "children": [
-            { "text": "Prices are approximate as of " },
-            { "type": "date", "text": "2026" },
-            { "text": " and may vary with local conditions." }
+            { "text": "Centre, city tourism and resort listings were checked in " },
+            { "type": "date", "text": "November 2026" },
+            { "text": ". Confirm availability and your booking total for the date." }
           ]
         }
       ]
@@ -626,8 +638,14 @@
           "variant": "warning",
           "icon": "warning",
           "children": [
+            { "text": "Use the " },
             {
-              "text": "Entrance fees and opening hours differ from source to source and cannot be confirmed. To avoid a wasted trip, check the latest information with your lodging or tour operator before you leave."
+              "text": "centre booking page",
+              "type": "link",
+              "url": "https://pwrcc.penropalawan.com/Pages/Reservation"
+            },
+            {
+              "text": " to review admission and optional routes. Contact the centre at +63 995 033 8967 about opening times for a particular date or a group visit."
             }
           ]
         },
@@ -660,7 +678,7 @@
             {
               "children": [
                 {
-                  "text": "Opening days and hours change. One source says it opens only on weekdays and another says daily, so check before you visit."
+                  "text": "Confirm the visit time and open areas before booking a group or city tour."
                 }
               ]
             },

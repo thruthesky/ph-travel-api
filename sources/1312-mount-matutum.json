@@ -1,12 +1,107 @@
-{ "id": 1312, "slug": "mount-matutum", "checked_at": "2026-11-18T00:00:00Z",
+{ "id": 1312, "slug": "mount-matutum", "checked_at": "2026-11-18",
   "facts": [
-    { "where": "overview", "fact": "고도·분화구·1911 분출 추정·보호 경관", "value": "2,286~2,293m, 분화구 폭 320m, 깊이 120m, 1911-03-07 추정", "sources": [
-      { "url": "https://en.wikipedia.org/wiki/Mount_Matutum", "grade": "B", "date": "2026-11", "says": "2,286m, 기저 지름 25km, 분화구 320m, 120m, 1911 수증기 폭발 추정, 보호 경관, 블라안" },
-      { "url": "https://www.pinoymountaineer.com/2008/01/mt-matutum-2293.html", "grade": "B", "date": "2015-09-06", "says": "2,293m, 활화산, 1911-03-07, 난이도 5/9, 110종 식물·57종 동물" } ], "decision": "고도는 범위로 표기" },
-    { "where": "itinerary/costs", "fact": "등산 입구·허가·묘목·식수", "value": "시티오 글란당(카블론), 허가 ₱150, 묘목 ₱10, 물 3리터", "sources": [
-      { "url": "https://www.pinoymountaineer.com/2008/01/mt-matutum-2293.html", "grade": "B", "date": "2015-09-06", "says": "글란당·캠프1·정상 3~4시간·₱150·₱10·3리터·투피 관광 사무소 허가" },
-      { "url": "https://www.traveldojo.com/mount-matutum", "grade": "C", "date": "2026", "says": "허가 필요, 현지 가이드 고용, 건기 권장, 블라안 성지 존중" } ], "decision": "요금은 과거 기록으로 표기, 현지 확인" },
-    { "where": "latitude/longitude", "fact": "좌표", "value": "6.3600, 125.0762", "sources": [
-      { "url": "https://nominatim.openstreetmap.org/search?q=Mount+Matutum&format=json", "grade": "B", "date": "2026-11-18", "says": "6.3600441,125.0761806 volcano" },
-      { "url": "https://www.pinoymountaineer.com/2008/01/mt-matutum-2293.html", "grade": "B", "date": "2015", "says": "6°22'N 125°06.5'E (약 3km 차이)" } ], "decision": "위키 정보상자(6.4333)는 더 벗어나 OSM 값 채택" }
+    {
+      "where": "overview·getting_there·cautions",
+      "fact": "마투툼산 등산로와 출발 전 입산 확인",
+      "value": "투피 카블론 글란당, 폴로목 팔칸 크망. 출발 전 허가, 가이드, 개방 확인.",
+      "sources": [
+        {
+          "url": "https://tupi.gov.ph/contact/",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "군청 대표 전화"
+        },
+        {
+          "url": "https://highlandreflections.com/2025/12/24/mt-matutum-2286-masl-south-cotabatos-iconic-mountain/",
+          "grade": "C",
+          "date": "2025-12-24",
+          "says": "글란당 등반 및 두 등산로 출발 바랑가이"
+        },
+        {
+          "url": "https://volcano.si.edu/volcano.cfm?vn=271020",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "활화산과 1911년 미확인 활동"
+        },
+        {
+          "url": "https://www.gmanetwork.com/regionaltv/news/113043/notice-of-violation-issued-for-11-structures-within-mt-matutum-protected-area/story/",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "글란당의 일부 구조물에 대한 환경 규정 집행"
+        }
+      ],
+      "decision": "등산로 유효 여부는 관할에 문의. 개별 시설 조치로 산 전체 개방 상태를 추정하지 않음."
+    },
+    {
+      "where": "costs",
+      "fact": "마투툼산 입산 사례와 셔틀 운임",
+      "value": "등산 안내 내국인 ₱150·외국인 ₱250, 묘목 약 ₱10, 가이드·포터 약 ₱500 사례. 투피·폴로목행 공항 셔틀 ₱149.",
+      "sources": [
+        {
+          "url": "https://www.gunungbagging.com/mount-matutum/",
+          "grade": "C",
+          "date": "2026-11-18",
+          "says": "등산 안내의 국적별 요금 및 가이드·포터 사례"
+        },
+        {
+          "url": "https://akyat.app/trails/kablon-trail",
+          "grade": "C",
+          "date": "2026-11-18",
+          "says": "묘목 비용이 포함된 등산 안내"
+        },
+        {
+          "url": "https://booking.page/en/company/page/summitairportshuttle",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "투피·폴로목행 1인 ₱149 예약 안내"
+        },
+        {
+          "url": "https://outdoorislife.com/event/mount-matutum-tupi-south-cotabato-3/",
+          "grade": "A",
+          "date": "2018-05-05",
+          "says": "업체 모집 ₱1,750의 날짜와 포함·불포함 항목"
+        }
+      ],
+      "decision": "입산·묘목·가이드 및 2018년 모집은 참고 사례로 표시하고 셔틀은 업체 게시가로 표시."
+    },
+    {
+      "where": "overview",
+      "fact": "고도·분화구·1911 분출 추정·보호 경관",
+      "value": "2,286~2,293m, 분화구 폭 320m, 깊이 120m, 1911-03-07 추정",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mount_Matutum",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "2,286m, 기저 지름 25km, 분화구 320m, 120m, 1911 수증기 폭발 추정, 보호 경관, 블라안"
+        },
+        {
+          "url": "https://www.pinoymountaineer.com/2008/01/mt-matutum-2293.html",
+          "grade": "B",
+          "date": "2015-09-06",
+          "says": "2,293m, 활화산, 1911-03-07, 난이도 5/9, 110종 식물·57종 동물"
+        }
+      ],
+      "decision": "고도는 범위로 표기"
+    },
+    {
+      "where": "latitude/longitude",
+      "fact": "좌표",
+      "value": "6.3600, 125.0762",
+      "sources": [
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Mount+Matutum&format=json",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "6.3600441,125.0761806 volcano"
+        },
+        {
+          "url": "https://www.pinoymountaineer.com/2008/01/mt-matutum-2293.html",
+          "grade": "B",
+          "date": "2015",
+          "says": "6°22'N 125°06.5'E (약 3km 차이)"
+        }
+      ],
+      "decision": "위키 정보상자(6.4333)는 더 벗어나 OSM 값 채택"
+    }
   ], "images": [] }
