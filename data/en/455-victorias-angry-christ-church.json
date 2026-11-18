@@ -63,7 +63,7 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱0–1,500 (no entrance fee; rough estimate for transport and meals on a half-day trip from Bacolod)",
+    "text": "Free entry. Allow about ₱0–1,500 for a half-day by public transport from Bacolod and food. Private transfers are extra.",
     "currency": "PHP",
     "min": 0,
     "max": 1500
@@ -126,13 +126,17 @@
         {
           "type": "paragraph",
           "children": [
+            { "text": "The chapel still holds Mass. The " },
             {
-              "text": "The chapel is still a living parish where worshippers attend Mass. It is said to be run by the Salesians, and because it lies inside the mill compound, a guard checks your ID at the entrance. No admission fee is known, but I could not confirm visiting hours or the compound's entry rules, so contact the parish or VMC before you go. At about "
+              "type": "link",
+              "text": "August 2026 visitor guide",
+              "url": "https://meridiela.com/philippines/church-of-the-angry-christ/"
             },
-            { "type": "distance", "text": "34 km" },
             {
-              "text": " from Bacolod, it combines well with Silay and Bacolod for a half-day to full-day trip."
-            }
+              "text": " describes free entry with visitor registration at the mill compound gate. Bring photo ID and check Mass and visitor hours before leaving. It is about "
+            },
+            { "type": "distance", "text": "34km" },
+            { "text": " from Bacolod." }
           ]
         }
       ]
@@ -413,19 +417,19 @@
                   "items": [
                     {
                       "children": [
-                        { "text": "Victorias is about " },
-                        { "type": "distance", "text": "34 km" },
+                        { "text": "Take a northbound bus serving Victorias from the " },
+                        { "type": "link", "text": "Ceres North Terminal", "url": "https://ygbcbooking.com/fare-schedule" },
                         {
-                          "text": " from Bacolod. Take a north-bound bus from the Ceres bus terminal in Mandalagan; older guides say it takes about "
+                          "text": " in Mandalagan, Bacolod. Victorias is about "
                         },
-                        { "type": "duration", "text": "45 minutes" },
-                        { "text": "." }
+                        { "type": "distance", "text": "34km" },
+                        { "text": " from central Bacolod." }
                       ]
                     },
                     {
                       "children": [
                         {
-                          "text": "Tell the conductor you are getting off at \"Bangga Central\" or in front of Victorias City Hall."
+                          "text": "Tell the conductor you are going to the mill (VMC) and want to get off at Bangga Central. Ask a tricycle driver about drop-off at the gate and access to the chapel."
                         }
                       ]
                     },
@@ -438,7 +442,17 @@
                     },
                     {
                       "children": [
-                        { "text": "I found no current bus fare information, so check it locally." }
+                        { "text": "Under the " },
+                        {
+                          "type": "link",
+                          "text": "provincial ordinary bus tariff",
+                          "url": "https://www.topgear.com.ph/news/industry-news/dotr-fare-hike-september-28-2026-a6941-20260928"
+                        },
+                        { "text": " effective September 28, 2026, the first 5 km cost " },
+                        { "type": "price", "text": "₱12" },
+                        { "text": " and each extra kilometer " },
+                        { "type": "price", "text": "₱2.20" },
+                        { "text": ". Check the fare guide on the bus for your stop." }
                       ]
                     }
                   ]
@@ -469,8 +483,20 @@
                     },
                     {
                       "children": [
+                        { "text": "The " },
                         {
-                          "text": "Charter rates vary with distance and bargaining, so check locally."
+                          "text": "Bacolod Rent a Car transfer tariff",
+                          "type": "link",
+                          "url": "https://www.bacolodrentacar.com/pick-up-drop-off-taxi/"
+                        },
+                        { "text": " lists Bacolod City to Victorias town proper at " },
+                        { "text": "₱1,600", "type": "price" },
+                        { "text": " by sedan, " },
+                        { "text": "₱2,100", "type": "price" },
+                        { "text": " by minivan and " },
+                        { "text": "₱2,600", "type": "price" },
+                        {
+                          "text": " by van. Get quotes for a chapel drop-off inside the compound and for airport pickup."
                         }
                       ]
                     }
@@ -566,18 +592,18 @@
           "currency": "PHP",
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
-            { "label": "Admission", "price": "No known fee", "note": "Check locally" },
+            { "label": "Admission", "price": "Free in a reported visit (₱0)", "note": "August 2026 visitor guide. Register at the mill compound gate." },
             {
               "label": "Bacolod–Victorias bus",
-              "price": "Check locally",
-              "note": "No current fare information"
+              "price": "Standard ordinary provincial bus base ₱12 plus distance fare",
+              "note": "First 5 km, then ₱2.20/km. Check the posted fare for your stop."
             },
             {
               "label": "Victorias tricycle",
               "price": "Check locally",
               "note": "Agree on the fare before riding"
             },
-            { "label": "ID check", "price": "Free", "note": "Bring ID or a copy of your passport" },
+            { "label": "Private transfer from Bacolod City to Victorias town proper", "price": "Sedan ₱1,600 · minivan ₱2,100 · van ₱2,600", "note": "Published one-way tariff per vehicle. Confirm extra distance to the chapel and waiting time." },
             {
               "label": "Snack or lunch",
               "price": "About ₱100–300",
