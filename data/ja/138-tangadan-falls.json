@@ -471,7 +471,11 @@
           "ordered": false,
           "icon": "check_circle",
           "items": [
-            { "children": [{ "text": "ガイドなしでは入場できません。必ずサン・ガブリエル町役場で先に登録し、ガイドの割り当てを受けてください。" }] },
+            { "children": [
+              { "text": "登山口に向かう前にサンガブリエル観光事務所で登録し、ガイドの割り当てを受けてください。繁忙期は待つ場合があります。出発前に" },
+              { "type": "link", "text": "町の公式告知", "url": "https://www.sangabriellaunion.gov.ph/announcement/" },
+              { "text": "で受付や立ち入り制限を確認してください。" }
+            ] },
             {
               "children": [
                 { "text": "営業時間はおおむね" },

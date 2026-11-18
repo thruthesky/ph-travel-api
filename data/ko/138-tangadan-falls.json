@@ -472,7 +472,11 @@
           "ordered": false,
           "icon": "check_circle",
           "items": [
-            { "children": [{ "text": "가이드 없이는 입장할 수 없습니다. 반드시 산가브리엘 군청에서 먼저 등록하고 가이드를 배정받으십시오." }] },
+            { "children": [
+              { "text": "폭포 입구로 바로 가지 말고 산가브리엘 관광사무소에 먼저 등록해 가이드를 배정받으세요. 성수기에는 가이드를 기다릴 수 있습니다. 출발 전에 " },
+              { "type": "link", "text": "군청 공지", "url": "https://www.sangabriellaunion.gov.ph/announcement/" },
+              { "text": "에서 접수와 출입 제한을 확인하세요." }
+            ] },
             {
               "children": [
                 { "text": "운영 시간은 대체로 " },

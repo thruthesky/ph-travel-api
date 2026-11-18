@@ -439,7 +439,11 @@
           "ordered": false,
           "icon": "check_circle",
           "items": [
-            { "children": [{ "text": "没有向导不能入内，请务必先到圣加布里埃尔镇政府登记并分配向导。" }] },
+            { "children": [
+              { "text": "出发去步道前，请先在圣加布里埃尔旅游办公室登记并等候分配向导。旺季可能要等候。出发前可在" },
+              { "type": "link", "text": "市政府公告", "url": "https://www.sangabriellaunion.gov.ph/announcement/" },
+              { "text": "查询登记安排和通行限制。" }
+            ] },
             {
               "children": [
                 { "text": "开放时间大致为" },
