@@ -1,0 +1,822 @@
+{
+  "id": 2200,
+  "slug": "candaba-swamp",
+  "title": { "type": "title", "text": "Candaba Swamp" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Candaba Swamp" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "A migratory-bird haven and vast floodplain wetland close to Manila"
+  },
+  "island_group": { "type": "badge", "label": "Island group", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Region", "value": "pampanga", "text": "Pampanga" },
+  "location": {
+    "type": "address",
+    "label": "Location",
+    "icon": "location_on",
+    "text": "Candaba, Pampanga (Doña Simang and Vizal San Pablo area)"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Category",
+    "icon": "landscape",
+    "value": "nature",
+    "text": "Natural Scenery"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Tags",
+    "items": ["Migratory birds", "Birdwatching", "Wetland", "Important Bird Area", "Day trip"]
+  },
+  "rating": { "type": "rating", "label": "Rating", "value": 4.1, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 15.0708 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 120.8772 },
+  "best_season": {
+    "type": "date",
+    "label": "Best time to visit",
+    "icon": "calendar_month",
+    "text": "Nov–Feb migratory season",
+    "months": [11, 12, 1, 2]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Time needed",
+    "icon": "schedule",
+    "text": "Half day to full day"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Budget",
+    "icon": "payments",
+    "text": "About ₱500~1,500 (day trip from Manila, transport included)",
+    "currency": "PHP",
+    "min": 500,
+    "max": 1500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Difficulty",
+    "icon": "signal_cellular_alt",
+    "text": "Easy",
+    "value": 1,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Nearest airport",
+    "icon": "flight",
+    "text": "Clark International Airport (CRK)",
+    "code": "CRK"
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Candaba Swamp is a large wetland on the Pampanga plain, about 60km north of Manila, where migratory birds from the Siberia and China side gather in winter. It makes a good day trip for early-morning birdwatching and a walk along the dikes between rice fields."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "At a glance",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Candaba Swamp is a low-lying wetland about " },
+            { "type": "distance", "text": "60km" },
+            {
+              "text": " north of Manila, spread across Candaba in Pampanga and the surrounding towns. Wikipedia and other sources describe ponds, swamps, marshes and seasonally flooded grassland together as roughly "
+            },
+            { "text": "32,000 hectares", "bold": true },
+            {
+              "text": ". Every rainy season the whole swamp goes under water, and from about November to April the water recedes and the land becomes farmland planted with crops such as watermelon and rice. The same place therefore looks completely different depending on the season."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Birds are what put this place on travelers' maps. According to reports citing the DENR Biodiversity Management Bureau, about 54 resident species and about 68 migratory species have been recorded here since 1940. They include globally threatened birds such as the Philippine duck, Baer's pochard and streaked reed warbler. The swamp is one of the Philippines' Important Bird Areas (IBA), and many sources describe its Ramsar listing as a candidacy still in progress. Please check official announcements for the current listing status."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Inside the swamp lies the Candaba Swamp Wildlife Reserve. It covers about " },
+            { "text": "72 hectares", "bold": true },
+            {
+              "text": " and was protected on private initiative, and in 2004 a local ordinance declared the whole municipality of Candaba a bird sanctuary and banned hunting and poaching of wild birds. Some descriptions mention an observation deck and a dike walking trail about "
+            },
+            { "type": "distance", "text": "4km" },
+            { "text": " long. Facilities may change from year to year, however." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The atmosphere is closer to a nature outing, looking for birds among rice fields and ponds, than to a manicured park. There are no flashy attractions, but you can make a round trip from Manila in a day, and it is very rewarding if you love birds and photography. On the other hand there are almost no amenities, and at some times of year you cannot get in at all, so timing and preparation matter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Top things to do",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "Migratory bird watching",
+              "children": [
+                {
+                  "text": "You are said to see the most birds between November and February. Great egrets, common moorhens, black-winged stilts, purple swamphens, garganey and Philippine ducks appear in local birding records."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Early-morning birding",
+              "children": [
+                { "text": "Bird activity is said to peak between " },
+                { "type": "time", "text": "05:00" },
+                { "text": " and " },
+                { "type": "time", "text": "07:00" },
+                {
+                  "text": ". If you set out before sunrise and arrive then, the sun is gentle and the birds come closer."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Wildlife reserve observation deck",
+              "children": [
+                {
+                  "text": "Descriptions say the roughly 72-hectare reserve has an observation deck and hides for watching birds unseen. Whether it is open now needs to be confirmed."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Walking the dikes",
+              "children": [
+                {
+                  "text": "You walk unpaved dike paths and watch the birds among the paddies. The terrain is flat, so it is easy on the legs. After rain the paths turn muddy."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "Wetland farm scenery",
+              "children": [
+                {
+                  "text": "In the dry season watermelon and rice grow on the drained land. Candaba is also known for its melons, and the swamp soil is said to be fertile and rich in humus."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Wetland experiences",
+              "children": [
+                {
+                  "text": "Local guides and news reports mention experiences such as wetland walks, fishing, carabao cart rides and local meals. Please ask in advance whether they are currently offered."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "A flood-control wetland",
+              "children": [
+                {
+                  "text": "Small rivers such as the Maasim, San Miguel, Garlang, Bulu and Peñaranda drain into it. In the rainy season it holds the water and releases it into the Pampanga River, acting as a natural retention basin."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 8,
+              "title": "Ibon-Ebon Festival",
+              "children": [
+                {
+                  "text": "The Ibon-Ebon Festival, whose name means \"birds and eggs,\" was held on February 1–2 in 2008. Some years events are held around World Wetlands Day on February 2, so check the schedule with the Candaba tourist information center."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Suggested itinerary",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "One-day birding course",
+              "subtitle": "Early-morning birding from Manila",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "04:30",
+                      "children": [
+                        {
+                          "text": "Set out from Manila. If you have no car, it is easier for dawn birding to stay the night before in Pampanga or in Baliwag, Bulacan."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "06:30",
+                      "children": [
+                        {
+                          "text": "Arrive in Candaba, sign in at the information point on the reserve side and pay the entrance fee. Past reports mention around "
+                        },
+                        { "type": "price", "text": "₱150" },
+                        { "text": ", but you need to confirm this locally." }
+                      ]
+                    },
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Walk slowly along the dikes and pond edges looking for birds. Keep your voice low and it is better to stay in one spot for a while."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "10:00",
+                      "children": [
+                        {
+                          "text": "As the sun gets stronger the birds thin out. Sort your photos and notes and head back."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [
+                        {
+                          "text": "Move to Candaba or San Fernando town for lunch. Many reports say there are no restaurants inside the swamp."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Bring water and snacks yourself without fail. Buy them at a market or convenience store before you arrive."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pampanga combined course",
+              "subtitle": "Candaba with San Fernando and Arayat",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "06:00",
+                      "children": [{ "text": "Finish early-morning birding at Candaba Swamp." }]
+                    },
+                    {
+                      "time": "10:30",
+                      "children": [
+                        {
+                          "text": "Drive toward San Fernando and look around the town's church and market."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "13:00",
+                      "children": [
+                        {
+                          "text": "Have lunch with Kapampangan local food. Some shops near the swamp sell buro (fermented rice and fish) and salted duck eggs."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "15:00",
+                      "children": [
+                        {
+                          "text": "If time remains, head toward Mount Arayat to enjoy the scenery, then return to Manila."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Getting there",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "From Manila by car or rental car",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "From Manila take NLEX toward the San Fernando exit, continue onto JASA (Gapan–Olongapo Road), and head toward Santa Ana and Candaba."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "The Candaba Viaduct carrying NLEX crosses over the swamp, so you can get a sense of its scale from nearby."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "The destination is the reserve in the Doña Simang or Vizal San Pablo area. Map-app coordinates may differ slightly, so confirm with the information office by phone."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "One description says it is about 5 minutes by private vehicle from the town proper to the reserve, but bringing vehicles deep into the wetland startles the birds, so it is better to park at the entrance and walk."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "From Manila by bus",
+              "icon": "directions_bus",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Some travelers report taking a bus from a northern Manila terminal to Baliwag, Bulacan (for example Baliwag Transit), getting off in Baliwag and continuing to Candaba by tricycle."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Another option described is taking a bus to San Fernando and then a jeepney to Candaba from near the mall in San Fernando. Service intervals are irregular, so move early in the morning."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "One report says visitors had to walk from where the paved road ends at Doña Simang to the reserve, which is about "
+                        },
+                        { "type": "distance", "text": "3km" },
+                        { "text": ", or " },
+                        { "type": "duration", "text": "40 minutes" },
+                        { "text": " on foot." }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Routes and fares change. Check recent information with the Candaba tourist information center (the number in one report is +63 45 632 1299) or the local government."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "By air to Clark",
+              "icon": "flight",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "From Clark International Airport (CRK) you travel to Candaba on roads inside Pampanga. A rental car or ride-hailing service is convenient."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "When coming up from Manila (NAIA), the usual approach is to leave the airport toward NLEX and head north."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Getting around near the swamp",
+              "icon": "commute",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Within Candaba town, tricycles run between villages. Past reports record a tricycle to the reserve costing at least "
+                        },
+                        { "type": "price", "text": "₱140" },
+                        { "text": " one way." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Mobile signal is reported to be weak on the walking approach, so download an offline map."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Best time to visit & weather",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For birding, the best time is said to be from November, when the migratory birds arrive, to February or March of the following year. Activity peaks from dawn to early morning and in the late afternoon before sunset. In the Philippines, birds tend to gather in one place as the water drains with the start of the dry season."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Around September and October in the rainy season, notices say the swamp floods and it becomes hard to enter the reserve. When typhoons pass, the Pampanga River can overflow and cause sudden floods, so check the weather forecast when planning."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel notes"],
+          "rows": [
+            [
+              "Nov–Feb",
+              "Relatively cool and clear",
+              "Migratory season and the best time for birding. Check for events around World Wetlands Day in early February"
+            ],
+            [
+              "Mar–May",
+              "Hot and dry",
+              "Water drops and the fields dry out. Early morning only is recommended"
+            ],
+            ["Jun–Aug", "Frequent rain", "The swamp gradually fills. Fewer birds and muddy paths"],
+            ["Sep–Oct", "Peak of the rainy season", "Flooding may make the reserve hard to reach"]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Estimated costs",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Item", "Estimated cost", "Notes"],
+          "items": [
+            {
+              "label": "Reserve entrance fee",
+              "price": "About ₱150 or more",
+              "note": "Based on past reports. Confirm locally"
+            },
+            {
+              "label": "Guided birding",
+              "price": "About ₱150~400",
+              "note": "Based on past reports. Varies by type of guide service"
+            },
+            {
+              "label": "Tricycle",
+              "price": "About ₱100~150",
+              "note": "Baliwag–Candaba stretch. Depends on distance and negotiation"
+            },
+            {
+              "label": "Meals",
+              "price": "About ₱100~300",
+              "note": "Restaurants in town; none inside the swamp"
+            },
+            {
+              "label": "Accommodation (reserve lodging)",
+              "price": "Confirm locally",
+              "note": "Reports say guesthouse stays and camping were possible"
+            },
+            {
+              "label": "Bus from Manila",
+              "price": "Confirm locally",
+              "note": "Varies with route and time"
+            },
+            {
+              "label": "Parking",
+              "price": "Confirm locally",
+              "note": "Many people park near the entrance"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Prices are approximate as of " },
+            { "type": "date", "text": "2026" },
+            { "text": " and may vary with local conditions." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Where to stay & eat",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Many reports say there are almost no commercial facilities inside the swamp. Past records mention lodging on the reserve side, but it has not been confirmed whether it operates now. Most visitors stay in San Fernando or Baliwag and travel in early in the morning. A farm-style resort near Candaba town has also been mentioned."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Take care of food in town. Candaba is known for fish caught in the swamp and for duck eggs, and buro (fermented rice and fish) and salted duck eggs are described as local foods. Hunting is banned and there is a history of avian influenza outbreaks, so wild-bird dishes are not recommended, and even if someone sells them it is better not to eat them."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For a day trip it is convenient to eat and shop in San Fernando or Baliwag before heading into Candaba. Candaba is said to be famous for its melons, so in season you may taste them at the market. When returning to Manila, leave early to avoid the NLEX rush-hour traffic."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Travel tips",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "Arrive between " },
+                { "type": "time", "text": "05:00" },
+                { "text": " and " },
+                { "type": "time", "text": "07:00" },
+                { "text": " in the early morning to see the most birds." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Binoculars are essential, and many reports say you need a telephoto lens of at least 300mm for photos."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Wear shoes that can get muddy, and bring a hat and sunscreen." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Bring your own water, snacks and a bag for trash. There are no shops in the swamp."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Move quietly so the birds are not startled, and never make loud noises such as gunshots."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Do not take cars and motorcycles deep into the reserve; park at the entrance and walk."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Before you go, phone the Candaba tourist information center or the local government to confirm admission, fees and guide bookings."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Starting from Manila, an early dawn departure is easier; allow for NLEX congestion on holidays."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "If you are new to birding, joining a Wild Bird Club of the Philippines event or going with a local guide makes it easier to identify birds."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Precautions",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "In the rainy season (roughly September–October) the swamp floods and access to the reserve can be blocked, so be sure to confirm it is open before you set out."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                {
+                  "text": "Entrance fees, guide fees and contact numbers come from old reports, so they need to be confirmed locally."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Some assessments say the habitat has shrunk greatly compared with the past, and conversion to rice fields, poaching and water hyacinth growth are cited as threats. Do not chase birds or flush them for photos."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "There is almost no shade and a risk of heatstroke at midday. Do not walk for long at midday."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Mobile signal is weak in some stretches and the paths branch, so prepare an offline map."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Some residents have suffered long-term flooding, so be considerate when you talk about floods and displacement."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Nearby places to visit",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Mount Arayat",
+              "place": "mount-arayat",
+              "children": [
+                {
+                  "text": "A mountain rising in the middle of the Pampanga plain north of the swamp. It is in the same area as Candaba, so it pairs well in one day. Travel time depends on local road conditions, so check in advance."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "San Fernando",
+              "place": "san-fernando-pampanga",
+              "children": [
+                {
+                  "text": "As the capital of Pampanga it has many restaurants, markets and places to stay, making it a base before and after a Candaba visit."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Baliwag",
+              "place": "baliwag-city",
+              "children": [
+                {
+                  "text": "A city in Bulacan that serves as the stop where you get on and off the bus toward Candaba, with churches and crafts."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Clark",
+              "place": "clark",
+              "children": [
+                {
+                  "text": "The airport and urban area in Pampanga, and the starting point when you arrive by plane."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
