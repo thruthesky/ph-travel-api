@@ -473,7 +473,18 @@
           "ordered": false,
           "icon": "check_circle",
           "items": [
-            { "children": [{ "text": "开放时间、休园日和费用可能因基金会安排而变动。出发前请通过基金会官方渠道确认，团体或向导讲解也建议提前预约。" }] },
+            { "children": [
+              {
+                "type": "link",
+                "text": "菲律宾鹰基金会预约页面",
+                "url": "https://www.philippineeaglefoundation.org/book-online"
+              },
+              { "text": "列出的马拉戈斯中心 Into the Wild 导览为" },
+              { "type": "duration", "text": "45 分钟" },
+              { "text": "，" },
+              { "type": "price", "text": "₱120 起" },
+              { "text": "。请在预约页面或致电 +63 917 708 9084 确认可选场次及门票加导览的总价。" }
+            ] },
             { "children": [{ "text": "鸟舍内的独鹰有一定距离，若携带长焦镜头或望远镜，连表情都能看得一清二楚。" }] },
             { "children": [{ "text": "隔着铁网拍照时，把镜头贴近铁网、对焦在鸟身上，铁网就会虚化，画面更干净。请勿使用闪光灯。" }] },
             { "children": [{ "text": "林间步道雨后可能湿滑，请穿舒适的运动鞋，并建议携带防蚊液。" }] },
