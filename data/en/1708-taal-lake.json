@@ -26,7 +26,7 @@
   "tags": {
     "type": "tags",
     "label": "Tags",
-    "items": ["Caldera lake", "Volcano", "Scenic views", "Sailing", "Day trip"]
+    "items": ["Caldera lake", "Volcano", "Scenic views", "Lakeside views", "Day trip"]
   },
   "rating": { "type": "rating", "label": "Rating", "value": 4.5, "max": 5 },
   "latitude": { "type": "latitude", "label": "Latitude", "value": 13.9847 },
@@ -73,7 +73,7 @@
     "variant": "lead",
     "children": [
       {
-        "text": "Taal Lake in Batangas is a freshwater caldera lake of about 234 km² and, at a maximum depth of 172 m, the deepest lake in the Philippines. Taal Volcano Island rises in the middle, and the Tagaytay ridge and lakeside towns offer views, sailing, and lake cuisine."
+        "text": "Taal Lake fills a volcanic caldera in Batangas. Taal Volcano Island rises from its center. View the lake and island together from the Tagaytay ridge or from lakeside towns where access is permitted."
       }
     ]
   },
@@ -157,10 +157,10 @@
             {
               "type": "card",
               "number": 3,
-              "title": "Taal Lake Yacht Club",
+              "title": "Talisay lakeshore",
               "children": [
                 {
-                  "text": "The yacht club in Talisay is known for hosting sailing events on the lake. One guide lists non-member entry at ₱100 per hour or ₱400 per day, and tents and huts can also be rented. Rates change, so check."
+                  "text": "Check local access notices before visiting the Talisay lakeshore. Choose an open land-based viewpoint and leave water activities off the itinerary."
                 }
               ]
             },
@@ -177,10 +177,10 @@
             {
               "type": "card",
               "number": 5,
-              "title": "Windsurfing and kiteboarding",
+              "title": "Photograph the lake from land",
               "children": [
                 {
-                  "text": "The open lake is also known to windsurfers and kiteboarders. Check equipment and safety rules with the operator."
+                  "text": "The Tagaytay ridge offers views of the lake and Volcano Island together. If the lakeshore is restricted, use an open viewpoint on the ridge."
                 }
               ]
             },
@@ -296,7 +296,7 @@
                       "time": "10:00",
                       "children": [
                         {
-                          "text": "Spend time by the water at the yacht club or a lakeside resort."
+                          "text": "View the lake from an open land-based viewpoint or resort in Talisay."
                         }
                       ]
                     },
@@ -479,9 +479,9 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Yacht club entry (non-members)",
-              "price": "About ₱100–400",
-              "note": "Listed as ₱100 per hour or ₱400 per day, confirm"
+              "label": "Boating and water activities on Taal Lake",
+              "price": "Leave out of the itinerary",
+              "note": "PHIVOLCS bulletin dated November 18, 2026"
             },
             {
               "label": "Tent pitching and huts",
@@ -648,8 +648,14 @@
           "variant": "warning",
           "icon": "warning",
           "children": [
+            { "text": "The " },
             {
-              "text": "Taal is an active volcano. All of Volcano Island is a Permanent Danger Zone, and when the alert level rises, access around the lake is restricted. Be sure to check PHIVOLCS notices and local government guidance before you go."
+              "text": "PHIVOLCS bulletin dated November 18, 2026",
+              "type": "link",
+              "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-tvo?bid=15158&lang=en"
+            },
+            {
+              "text": " recommends keeping Taal Volcano Island closed to visitors and disallowing occupancy and boating on the lake at Alert Level 1. Check the latest bulletin and local restrictions for your date."
             }
           ]
         },
@@ -661,7 +667,7 @@
             {
               "children": [
                 {
-                  "text": "Depending on the alert level, access to Volcano Island and lake tours may be suspended."
+                  "text": "Volcano Island is a Permanent Danger Zone. Avoid trips that land on the island."
                 }
               ]
             },
@@ -682,7 +688,7 @@
             {
               "children": [
                 {
-                  "text": "For swimming and boating, use safety equipment and follow the operator's instructions."
+                  "text": "View the lake from open locations on land and follow local access restrictions in lakeside towns."
                 }
               ]
             },

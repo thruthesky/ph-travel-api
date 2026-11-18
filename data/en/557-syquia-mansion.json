@@ -48,7 +48,7 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱20~50 (admission only)",
+    "text": "Regular admission ₱100",
     "currency": "PHP",
     "min": 20,
     "max": 50
@@ -476,8 +476,8 @@
           "items": [
             {
               "label": "Admission",
-              "price": "About ₱20~50",
-              "note": "Amounts differ by source. Confirm locally"
+              "price": "Regular ₱100 · seniors and students ₱80",
+              "note": "Mansion’s published visitor rates"
             },
             {
               "label": "Guided explanation",
@@ -491,14 +491,14 @@
             },
             {
               "label": "Calesa carriage tour",
-              "price": "Check locally",
-              "note": "A loop of the old town is typical"
+              "price": "About ₱150–250 per hour",
+              "note": "Tourism department estimates. Agree on the time, stops and total before boarding."
             },
             { "label": "Lunch", "price": "Check locally", "note": "Varies by old-town restaurant" },
             {
               "label": "Bus from Manila",
-              "price": "Check locally",
-              "note": "Varies by company and seat class"
+              "price": "About ₱880 one way from Cubao",
+              "note": "Viron Transit example to Vigan from February 2026. Recheck when booking."
             }
           ]
         },
@@ -564,8 +564,14 @@
             },
             {
               "children": [
+                { "text": "The " },
                 {
-                  "text": "There may be a midday closure, so go early in the morning or late in the afternoon."
+                  "text": "mansion’s official visitor page",
+                  "type": "link",
+                  "url": "https://syquiamansion.com/pages/visit"
+                },
+                {
+                  "text": " lists exhibition hours as 9 a.m.–noon and 1:30–4:30 p.m. The mansion closes on Tuesdays."
                 }
               ]
             },
@@ -628,7 +634,7 @@
             {
               "children": [
                 {
-                  "text": "There is a midday lunch closure and a note about Tuesdays being by appointment. Check the latest announcements."
+                  "text": "Plan around the midday break and Tuesday closure. Check holiday notices for your date."
                 }
               ]
             },
