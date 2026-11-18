@@ -1,0 +1,454 @@
+{
+ "id": 431,
+ "slug": "taal-volcano",
+ "checked_at": "2026-11-18T00:00:00Z",
+ "facts": [
+  {
+   "where": "header",
+   "fact": "좌표(볼카노 섬·타알 화산)",
+   "value": "14.0107, 120.9986",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Volcano",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "14°0′36″N 120°59′51″E (14.0100, 120.9975)"
+    },
+    {
+     "url": "https://nominatim.openstreetmap.org/search?q=Taal+Volcano&format=json",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "Taal Volcano, San Nicolas, Batangas 14.0106736, 120.9985863 (volcano)"
+    }
+   ],
+   "decision": "두 지도 차이 약 100m, OSM 화산 지점 사용"
+  },
+  {
+   "where": "cautions.alert / overview",
+   "fact": "현재 경보 단계와 권고",
+   "value": "경보 1단계, 섬(PDZ) 출입·호수 체류와 보트 운항·화산 가까이 비행 불허 권고",
+   "sources": [
+    {
+     "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-tvo?bid=15154&lang=en",
+     "grade": "A",
+     "date": "2026-11-17",
+     "says": "ALERT LEVEL 1 (Low-level unrest). Should not be allowed: Entry into Taal Volcano Island (Permanent Danger Zone or PDZ), especially the Main Crater and Daang Kastila fissures, and occupancy and boating on Taal Lake; Flying any aircraft close to the volcano. SO2 484 t/d (13 Nov 2026)"
+    },
+    {
+     "url": "https://www.gmanetwork.com/news/topstories/regions/1006330/minor-phreatic-eruptions-recorded-at-taal-volcano-main-crater-says-phivolcs/story/",
+     "grade": "B",
+     "date": "2026-10-18",
+     "says": "두 차례 소규모 수증기 폭발, PHIVOLCS 경보 1단계 유지"
+    },
+    {
+     "url": "https://suroy.ph/taal-volcano-guide/",
+     "grade": "B",
+     "date": "2026-10-28",
+     "says": "Level 1 since 11 July 2022; island closed (PDZ) since January 2020, boat service to island not resumed; PHIVOLCS says boating on Taal Lake should not be allowed"
+    }
+   ],
+   "decision": "공식 공보 원문대로 상륙 금지·호수 보트 비권장으로 쓰고 보트 투어를 권하지 않음"
+  },
+  {
+   "where": "overview",
+   "fact": "2026-10-08 분화",
+   "value": "18:06 시작 약 5분, 분연 4,000m, 아공시요 29가구 107명 대피",
+   "sources": [
+    {
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/09/over-20-families-flee-homes-after-minor-eruption-of-taal-volcano",
+     "grade": "B",
+     "date": "2026-10-09",
+     "says": "began 6:06 p.m., about five minutes, plume 4,000m above main crater lake, 29 families (107 people) evacuated in Agoncillo"
+    },
+    {
+     "url": "https://suroy.ph/taal-volcano-guide/",
+     "grade": "B",
+     "date": "2026-10-28",
+     "says": "8 Oct, 6:06 PM: five-minute eruption, plume 4,000 m ... 107 evacuated in Agoncillo"
+    }
+   ],
+   "decision": "그대로 사용"
+  },
+  {
+   "where": "overview",
+   "fact": "2020 분화·경보 변화",
+   "value": "2020-01-12 분화 경보 4, 2022-07 1단계로",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Volcano",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "2020 January 12 alert raised 2→4; 2022 raised to 3 March 26, lowered to 1 July 11"
+    },
+    {
+     "url": "https://suroy.ph/taal-volcano-guide/",
+     "grade": "B",
+     "date": "2026-10-28",
+     "says": "Level 1 in force since 11 July 2022; off limits since January 2020"
+    }
+   ],
+   "decision": "그대로 사용"
+  },
+  {
+   "where": "overview",
+   "fact": "호수 제원",
+   "value": "면적 234.2㎢, 필리핀 3위, 최대 수심 172m, 수면 해발 5m, 출구 판시핏 강",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Lake",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "234.2 km2, third-largest after Laguna de Bay and Lake Lanao, max depth 172 m, surface elevation 5 m, outflow Pansipit River"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Volcano",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "caldera 25–30 km across; 1754 eruption blocked Pansipit River"
+    }
+   ],
+   "decision": "변하지 않는 지리 수치라 위키백과 기준"
+  },
+  {
+   "where": "overview",
+   "fact": "볼카노 섬 제원",
+   "value": "약 23㎢, 최고점 311m, 메인 크레이터 약 2km, 기록 분화 30여 회",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Volcano",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "Volcano Island about 23 km2, 2 km Main Crater, highest point 311 m; 33 events since 1572 / 39 confirmed historical eruptions"
+    },
+    {
+     "url": "https://en.wikivoyage.org/wiki/Taal_Lake",
+     "grade": "C",
+     "date": "2026-05",
+     "says": "volcano covered in vegetation until 2020 eruption; landing banned since 2020"
+    }
+   ],
+   "decision": "분화 횟수는 출처마다 달라 '30여 차례'로 씀"
+  },
+  {
+   "where": "overview",
+   "fact": "옛 타알 마을과 1754 분화",
+   "value": "옛 타알 마을은 지금의 산니콜라스 자리, 1754 분화로 피난",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal,_Batangas",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "In 1754, Taal Volcano erupted, endangering the town of Taal which stood at present-day San Nicolas; townspeople sought refuge in Caysasay"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Lake",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "1754 eruption blocked the Pansipit River, lake level rose"
+    }
+   ],
+   "decision": "그대로 사용"
+  },
+  {
+   "where": "highlights",
+   "fact": "보호 지정",
+   "value": "1967 국립공원, 1996 보호 경관, 1998 국가 지질 기념물",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Lake",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "Proclamation No. 235 (1967) Taal Volcano National Park; Proclamation No. 906 (1996) Taal Volcano Protected Landscape"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Volcano",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "National Geological Monument in 1998"
+    }
+   ],
+   "decision": "그대로 사용"
+  },
+  {
+   "where": "highlights / stay_and_food",
+   "fact": "타위리스 멸종위기·금어기",
+   "value": "IUCN 멸종위기, 3월 1일~4월 30일 금어기, 전통 어법만 허용",
+   "sources": [
+    {
+     "url": "https://ptvnews.ph/spare-tawilis-this-holy-week/",
+     "grade": "B",
+     "date": "2019-04-17",
+     "says": "DENR: closed season for tawilis March 1 to April 30; IUCN endangered"
+    },
+    {
+     "url": "https://en.wikivoyage.org/wiki/Taal_Lake",
+     "grade": "C",
+     "date": "2026-05",
+     "says": "tawilis listed as endangered in 2019 and a closed season is in place"
+    },
+    {
+     "url": "https://commons.wikimedia.org/wiki/File:Batangas_fisherfolk_catching_Tawilis_using_Pukot_method_in_Taal_Lake_in_Batangas.jpg",
+     "grade": "C",
+     "date": "2022-06-12",
+     "says": "Tawilis is allowed to be harvested only by using traditional methods of Pukot, Pante, and Sudsod"
+    }
+   ],
+   "decision": "금어기는 '3~4월'로만 쓰고 주문 자제를 권함"
+  },
+  {
+   "where": "highlights",
+   "fact": "말리푸토·민물 적응",
+   "value": "민물에 적응한 전갱이 말리푸토",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Lake",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "freshwater-adapted trevally Caranx ignobilis (maliputo); endemic Sardinella tawilis"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Volcano",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "after 1754 some fish adapted to freshwater, e.g. Sardinella tawilis"
+    }
+   ],
+   "decision": "그대로 사용"
+  },
+  {
+   "where": "highlights",
+   "fact": "산니콜라스 거리",
+   "value": "화산에서 약 10km",
+   "sources": [
+    {
+     "url": "https://suroy.ph/taal-volcano-guide/",
+     "grade": "B",
+     "date": "2026-10-28",
+     "says": "San Nicolas (southern shore): about 10 km from the volcano"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Taal_Volcano",
+     "grade": "B",
+     "date": "2026-11-17",
+     "says": "Volcano Island split between Talisay (north) and San Nicolas (south)"
+    }
+   ],
+   "decision": "'약'을 붙여 씀"
+  },
+  {
+   "where": "getting_there / costs",
+   "fact": "마닐라–타가이타이 버스",
+   "value": "PITX·부엔디아, 약 2시간, 약 ₱90~200",
+   "sources": [
+    {
+     "url": "https://www.philippinebeaches.org/manila-to-tagaytay-bus-schedules-fares/",
+     "grade": "B",
+     "date": "2025-01-15",
+     "says": "DLTB LRT Buendia or PITX; about P90 to P200; around two hours"
+    },
+    {
+     "url": "https://bustickets.ph/dltb-manila-to-tagaytay-bus/",
+     "grade": "C",
+     "date": "2026-11-17",
+     "says": "PITX and Buendia terminals; PHP 88 / 110–170; about 2 hours"
+    },
+    {
+     "url": "https://suroy.ph/taal-volcano-guide/",
+     "grade": "B",
+     "date": "2026-10-28",
+     "says": "DLTB from LRT Buendia or PITX, bus marked 'Nasugbu via Tagaytay', about 2 hours in fair traffic"
+    }
+   ],
+   "decision": "범위로 씀"
+  },
+  {
+   "where": "getting_there / costs",
+   "fact": "타가이타이–탈리사이 트라이시클",
+   "value": "대절 약 ₱150~200",
+   "sources": [
+    {
+     "url": "https://suroy.ph/taal-volcano-guide/",
+     "grade": "B",
+     "date": "2026-10-28",
+     "says": "Tagaytay to Talisay: chartered tricycle ₱150 to ₱200"
+    },
+    {
+     "url": "https://www.thepoortraveler.net/tagaytay-travel-guide-itinerary/",
+     "grade": "C",
+     "date": "2019-04-17",
+     "says": "Tricycle from Tagaytay to Talisay: P150–P200"
+    }
+   ],
+   "decision": "그대로 사용"
+  },
+  {
+   "where": "getting_there",
+   "fact": "타나우안 경유",
+   "value": "마닐라–바탕가스 버스로 타나우안, 시장 근처에서 탈리사이·라우렐행 지프니; 직행 버스 없음",
+   "sources": [
+    {
+     "url": "https://en.wikivoyage.org/wiki/Taal_Lake",
+     "grade": "C",
+     "date": "2026-05",
+     "says": "No buses serve Talisay or Laurel. Tanauan has frequent Manila-Batangas buses; jeepneys to Talisay/Laurel from terminal near public market"
+    }
+   ],
+   "decision": "요금·막차는 '현지 확인'"
+  },
+  {
+   "where": "getting_there",
+   "fact": "자가용",
+   "value": "SLEX 산타로사 출구, 약 60km, 1.5~2.5시간",
+   "sources": [
+    {
+     "url": "https://suroy.ph/taal-volcano-guide/",
+     "grade": "B",
+     "date": "2026-10-28",
+     "says": "SLEX to Santa Rosa exit, then about 25 km on Santa Rosa–Tagaytay road. About 60 km, 1.5 to 2.5 hours"
+    },
+    {
+     "url": "https://en.wikivoyage.org/wiki/Taal_Lake",
+     "grade": "C",
+     "date": "2026-05",
+     "says": "Talisay-Tanauan Road connects to STAR Tollway at Tanauan; Talisay-Tagaytay Road; signs unclear"
+    }
+   ],
+   "decision": "그대로 사용"
+  },
+  {
+   "where": "costs",
+   "fact": "전망 공원 입장료",
+   "value": "피플스 파크 ₱50, 피크닉 그로브 ₱50~75, 스카이 랜치 ₱80~120",
+   "sources": [
+    {
+     "url": "https://suroy.ph/taal-volcano-guide/",
+     "grade": "B",
+     "date": "2026-08",
+     "says": "People's Park ₱50; Picnic Grove ₱75; Sky Ranch ₱120 (listed August 2026)"
+    },
+    {
+     "url": "https://www.thepoortraveler.net/tagaytay-travel-guide-itinerary/",
+     "grade": "C",
+     "date": "2019-04-17",
+     "says": "People's Park P50; Picnic Grove P50; SkyRanch P80 weekdays / P100 weekends"
+    }
+   ],
+   "decision": "두 출처 범위로 씀"
+  },
+  {
+   "where": "costs",
+   "fact": "식사 한 끼",
+   "value": "약 ₱150~400",
+   "sources": [
+    {
+     "url": "https://www.thepoortraveler.net/tagaytay-travel-guide-itinerary/",
+     "grade": "C",
+     "date": "2019-04-17",
+     "says": "itinerary budgets P300 lunch, P150 lunch; lomi P100"
+    }
+   ],
+   "decision": "출처 1곳이라 넓은 범위와 '식당에 따라 다름'으로 씀"
+  },
+  {
+   "where": "tips / cautions",
+   "fact": "무단 상륙 단속",
+   "value": "2026-02-08 외국인 4명 라우렐 부소부소 방카로 상륙, PCG 조사, 선주 무등록·무허가 출항 적발",
+   "sources": [
+    {
+     "url": "https://www.dzrh.com.ph/post/pcg-probes-entry-of-unauthorized-foreign-tourists-into-taal-volcano-danger-zone",
+     "grade": "B",
+     "date": "2026-02-10",
+     "says": "four foreign tourists hired a motorized banca from Barangay Buso-Buso, Laurel ... owner apprehended for unregistered vessel and leaving port without PCG clearance"
+    },
+    {
+     "url": "https://suroy.ph/taal-volcano-guide/",
+     "grade": "B",
+     "date": "2026-10-28",
+     "says": "island closed, boat service to island has not resumed"
+    }
+   ],
+   "decision": "그대로 사용"
+  },
+  {
+   "where": "tips",
+   "fact": "드론",
+   "value": "화산 가까이 비행 불허 권고, CAAP 제한",
+   "sources": [
+    {
+     "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-tvo?bid=15154&lang=en",
+     "grade": "A",
+     "date": "2026-11-17",
+     "says": "Should not be allowed: Flying any aircraft close to the volcano"
+    },
+    {
+     "url": "https://suroy.ph/taal-volcano-guide/",
+     "grade": "B",
+     "date": "2026-10-28",
+     "says": "CAAP restricts flight from the surface up to 11,000 feet over the volcano"
+    }
+   ],
+   "decision": "그대로 사용"
+  },
+  {
+   "where": "cautions",
+   "fact": "이산화황·vog",
+   "value": "매일 수백 톤 SO2, 화산 스모그",
+   "sources": [
+    {
+     "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-tvo?bid=15154&lang=en",
+     "grade": "A",
+     "date": "2026-11-17",
+     "says": "Sulfur Dioxide Flux 484 tonnes/day (13 Nov 2026); hazards: lethal accumulations or expulsions of volcanic gas"
+    },
+    {
+     "url": "https://en.wikivoyage.org/wiki/Taal_Lake",
+     "grade": "C",
+     "date": "2026-05",
+     "says": "at least a few hundred tons daily ... volcanic smog (vog) irritates eyes and airways; N95 masks"
+    }
+   ],
+   "decision": "그대로 사용"
+  },
+  {
+   "where": "stay_and_food",
+   "fact": "클럽 발라이 이사벨(탈리사이 방가)",
+   "value": "호숫가 리조트",
+   "sources": [
+    {
+     "url": "https://www.beautyofthephilippines.com/balai-isabel/",
+     "grade": "C",
+     "date": "2009-03-06",
+     "says": "Club Balai Isabel is in Barangay Banga, Talisay, Batangas, on the shore of Taal Lake with views of Taal Volcano; infinity pool"
+    },
+    {
+     "url": "https://en.wikivoyage.org/wiki/Taal_Lake",
+     "grade": "C",
+     "date": "2026-05",
+     "says": "Club Balai Isabel, Talisay, pool and lake views"
+    }
+   ],
+   "decision": "업소 이름 하나만, 요금은 쓰지 않음"
+  },
+  {
+   "where": "stay_and_food",
+   "fact": "타가이타이 불랄로 식당",
+   "value": "레슬리스·조세핀",
+   "sources": [
+    {
+     "url": "https://www.thepoortraveler.net/tagaytay-travel-guide-itinerary/",
+     "grade": "C",
+     "date": "2019-04-17",
+     "says": "Leslie's and Josephine Restaurant named as local favorites for bulalo"
+    },
+    {
+     "url": "https://commons.wikimedia.org/wiki/File:Panorama_of_Lake_Taal_%26_Volcano,_Philippines.jpg",
+     "grade": "C",
+     "date": "2016",
+     "says": "Panorama shot of the Taal lake and volcano from the Josephine Restaurant in Tagaytay"
+    }
+   ],
+   "decision": "오래 운영된 유명 식당만 이름으로 씀"
+  }
+ ],
+ "images": []
+}
