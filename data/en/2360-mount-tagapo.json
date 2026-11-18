@@ -1,0 +1,835 @@
+{
+  "id": 2360,
+  "slug": "mount-tagapo",
+  "title": { "type": "title", "text": "Mount Tagapo" },
+  "title_en": { "type": "subtitle", "lang": "en", "text": "Mount Tagapo" },
+  "tagline": {
+    "type": "typography",
+    "variant": "tagline",
+    "text": "A conical peak rising above Talim Island in Laguna de Bay"
+  },
+  "island_group": { "type": "badge", "label": "Island group", "value": "luzon", "text": "Luzon" },
+  "region": { "type": "badge", "label": "Region", "value": "rizal", "text": "Rizal" },
+  "location": {
+    "type": "address",
+    "label": "Location",
+    "icon": "location_on",
+    "text": "Barangay Janosa (trailhead), Talim Island, Binangonan, Rizal"
+  },
+  "category": {
+    "type": "badge",
+    "label": "Category",
+    "icon": "hiking",
+    "value": "mountain",
+    "text": "Mountains & Trekking"
+  },
+  "tags": {
+    "type": "tags",
+    "label": "Tags",
+    "items": ["Talim Island", "Laguna de Bay", "Beginner hike", "Bangka ride", "Scenic views"]
+  },
+  "rating": { "type": "rating", "label": "Rating", "value": 4.3, "max": 5 },
+  "latitude": { "type": "latitude", "label": "Latitude", "value": 14.3393 },
+  "longitude": { "type": "longitude", "label": "Longitude", "value": 121.2325 },
+  "best_season": {
+    "type": "date",
+    "label": "Best time to visit",
+    "icon": "calendar_month",
+    "text": "November–February (dry season)",
+    "months": [11, 12, 1, 2]
+  },
+  "duration": {
+    "type": "duration",
+    "label": "Time needed",
+    "icon": "schedule",
+    "text": "Day trip (about 8–10 hours round trip from Manila)"
+  },
+  "budget": {
+    "type": "price",
+    "label": "Budget",
+    "icon": "payments",
+    "text": "About ₱800–1,500 (per person, day trip from Manila)",
+    "currency": "PHP",
+    "min": 800,
+    "max": 1500
+  },
+  "difficulty": {
+    "type": "level",
+    "label": "Difficulty",
+    "icon": "signal_cellular_alt",
+    "text": "Moderate",
+    "value": 2,
+    "max": 3
+  },
+  "airport": {
+    "type": "airport",
+    "label": "Nearest airport",
+    "icon": "flight",
+    "text": "Ninoy Aquino International Airport (MNL)",
+    "code": "MNL"
+  },
+  "summary": {
+    "type": "paragraph",
+    "variant": "lead",
+    "children": [
+      {
+        "text": "Mount Tagapo is the 438 m summit of Talim Island, the highest point in the middle of Laguna de Bay. You take a bangka from Binangonan, then climb through bamboo forest and cogon-grass ridges to a summit with views of the lake and Metro Manila, making it an easy day hike."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "section",
+      "key": "overview",
+      "title": "At a glance",
+      "icon": "info",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "Mount Tagapo is a " },
+            { "text": "438 m", "bold": true },
+            {
+              "text": " peak on Talim Island, set in Laguna de Bay, the largest lake in the Philippines. It is the highest point on the island, and its smooth conical shape seen from afar earned it the local nickname \"Susong Dalaga.\" Administratively it straddles the Rizal towns of Binangonan and Cardona, and the name is said to come from the Tagalog word \"taga,\" meaning \"to chop.\""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Geologically it is part of a volcanic ridge on the southwestern rim of the Laguna Caldera. The mountain is not especially tall, but water surrounds it on every side, so from the top the view opens over the whole lake, the Metro Manila skyline and the Banahaw mountain complex to the south. The treeless grassland summit, where sky and lake meet, is the mountain's biggest draw."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "It is also an easy trip from Manila in a single day. You travel overland to Binangonan Port, then take a bangka (small passenger boat) to Barangay Janosa on Talim Island, where the hike begins. The difficulty is manageable for beginners, but the shadeless cogon-grass section and the boat schedule mean you should plan a relaxed itinerary. There are two main trails. The western trail from Janosa on the Binangonan side is easy to moderate and is used by most visitors. The eastern trail from Barangay Lambac on the Cardona side is known to be steeper and tougher. Guides lead the way uphill, and you also hire one when traversing between the two towns. Most reports describe a round trip from Janosa, so this guide focuses on that route."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The fees and boat times here come from comparing hiking reports and local-government information from 2021 to 2026. Amounts differ slightly from one report to another, so check the latest notices at the Janosa barangay office before you go."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "highlights",
+      "title": "Top things to do",
+      "icon": "star",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "number": 1,
+              "title": "360-degree views of Laguna de Bay",
+              "children": [
+                {
+                  "text": "From the summit you look down on the whole lake, the fish-pen enclosures on its surface and the surrounding Rizal towns. On a clear day the Makati and Taguig skyline appears to the northwest. Reports say that on clear days you can also make out neighboring mountains such as Mount Sembrano, Mount Makiling and Mount Maculot. On cloudy days, mist lifting off the lake is a sight in itself."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 2,
+              "title": "Bamboo forest section",
+              "children": [
+                { "text": "After about " },
+                { "type": "distance", "text": "1 km" },
+                {
+                  "text": " from the start, a shaded path lined with bamboo like a tunnel begins. It stays cool even at midday and is a pleasant stretch for cooling off as you walk."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 3,
+              "title": "Cogon ridge and summit marker",
+              "children": [
+                {
+                  "text": "Near the top, the ridge is overgrown with cogon grass taller than a person. Your guide goes ahead cutting a path with a bolo, and the summit has a marker showing the mountain's name and elevation. The summit plateau is small, but big enough to rest and eat a snack. Some reports say drones are allowed, but rules can change, so ask when you register."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 4,
+              "title": "Views of the Pililla windmills",
+              "children": [
+                {
+                  "text": "On a clear day you can see wind turbines lined up along the Pililla ridge across the lake. Some travelers combine the hike with "
+                },
+                { "type": "place_link", "text": "Pililla Wind Farm", "slug": "pililla-wind-farm" },
+                { "text": "." }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 5,
+              "title": "A boat trip across the lake",
+              "children": [
+                {
+                  "text": "The bangka ride to the trailhead is already part of the experience. Passing fishing villages and fish pens as the boat circles the island, you see lake life up close."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 6,
+              "title": "Overnight at the designated campsite",
+              "children": [
+                { "text": "A designated campsite lies about " },
+                { "type": "duration", "text": "10–15 minutes" },
+                {
+                  "text": " below the summit, so you can enjoy the sunset and the dawn. Camping on the summit itself is not allowed."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "number": 7,
+              "title": "A beginner-friendly day hike",
+              "children": [
+                { "text": "The round trip is about " },
+                { "type": "distance", "text": "6.5 km" },
+                { "text": ", and the summit takes roughly " },
+                { "type": "duration", "text": "1.5–2.5 hours" },
+                {
+                  "text": ", so it suits families and friends with little mountain experience. Children aged 7 and up have made the climb with an adult and plenty of rests, but starting early to avoid the midday heat is important."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "itinerary",
+      "title": "Suggested itinerary",
+      "icon": "event_note",
+      "blocks": [
+        {
+          "type": "tabs",
+          "items": [
+            {
+              "title": "Day hike",
+              "subtitle": "Leave Manila, be back before dark",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "04:30",
+                      "children": [
+                        {
+                          "text": "Take a van or jeepney bound for Binangonan from Manila (EDSA Shaw or Cubao)."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "06:30",
+                      "children": [
+                        {
+                          "text": "Arrive in Binangonan town and take a tricycle to Pritil Port (Binangonan Port)."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "07:00",
+                      "children": [
+                        {
+                          "text": "Board the bangka. It departs once it fills with passengers and stops at several village piers around the island, so reaching Janosa takes "
+                        },
+                        { "type": "duration", "text": "30 minutes–1.5 hours" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "time": "08:30",
+                      "children": [
+                        {
+                          "text": "Register at the Janosa barangay office, pay the environmental fee and guide fee, and buy drinking water."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "09:00",
+                      "children": [
+                        {
+                          "text": "Start hiking. You pass the village concrete road, bamboo forest, a steep section, the campsite and then the cogon-grass section."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "11:00",
+                      "children": [
+                        {
+                          "text": "Rest at the summit with photos and a snack. Keep away from the large hole near the summit, which is roped off."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "12:00",
+                      "children": [
+                        { "text": "Start the descent, which takes " },
+                        { "type": "duration", "text": "1–1.5 hours" },
+                        { "text": " back to Janosa." }
+                      ]
+                    },
+                    {
+                      "time": "14:30",
+                      "children": [
+                        {
+                          "text": "Take the bangka back to Binangonan Port and head home in the afternoon. Always confirm the last boat time locally."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Reports differ: some say the last boat leaves around 4:30 and others say until 6. The safest plan is to be back at the port by "
+                    },
+                    { "type": "time", "text": "15:00" },
+                    {
+                      "text": ". Guides are assigned in turn and some reports say you cannot book one in advance, and weekends can mean a wait, so register early."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Overnight camping",
+              "subtitle": "Sunset from the summit and lake night views",
+              "blocks": [
+                {
+                  "type": "stepper",
+                  "items": [
+                    {
+                      "time": "09:00",
+                      "children": [
+                        { "text": "Leave Manila, have lunch in Binangonan and shop for supplies." }
+                      ]
+                    },
+                    {
+                      "time": "13:30",
+                      "children": [
+                        {
+                          "text": "After arriving in Janosa, register and pay the camping fee and guide fee. Ask whether you can leave large bags at the office."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "15:00",
+                      "children": [
+                        {
+                          "text": "Climb to the campsite and pitch your tent. The campsite has no toilet, so take care of that in the village beforehand."
+                        }
+                      ]
+                    },
+                    {
+                      "time": "17:00",
+                      "children": [
+                        { "text": "Go up to the summit for the sunset, then come down for dinner." }
+                      ]
+                    },
+                    {
+                      "time": "06:00",
+                      "children": [
+                        {
+                          "text": "Watch the sunrise, eat breakfast, pack up the tent and descend."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Camping on the summit is not allowed, only at the designated campsite. Nights are windy and chilly, so bring a light warm layer."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "getting_there",
+      "title": "Getting there",
+      "icon": "directions",
+      "blocks": [
+        {
+          "type": "accordion",
+          "items": [
+            {
+              "title": "From Manila to Binangonan Port",
+              "icon": "airport_shuttle",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Reports say a UV Express from EDSA Shaw (near Starmall) to Binangonan costs about "
+                        },
+                        { "type": "price", "text": "₱70–100" },
+                        { "text": " and takes " },
+                        { "type": "duration", "text": "about 2 hours" },
+                        { "text": ". Ask the driver to drop you at Binangonan Port (Pritil)." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "From Cubao you can also take a jeepney toward Binangonan and go on to Pritil Port."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "A tricycle from Binangonan town to the port is about " },
+                        { "type": "price", "text": "₱20" },
+                        { "text": " per person." }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    { "text": "Travel times vary a lot with traffic. Leaving Manila around " },
+                    { "type": "time", "text": "04:30" },
+                    { "text": " is recommended." }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "From Binangonan Port to Janosa on Talim Island",
+              "icon": "directions_boat",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Board a bangka at Pritil Port. There is no fixed departure time and boats leave once full; reports say they run from early morning until around "
+                        },
+                        { "type": "time", "text": "18:00" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "The fare to Janosa is about " },
+                        { "type": "price", "text": "₱50–65" },
+                        {
+                          "text": " depending on the report, and reports also disagree on whether that is one way or round trip. Confirm when you board."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "One report says chartering a private boat costs about " },
+                        { "type": "price", "text": "₱1,500–2,000" },
+                        { "text": "." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        { "text": "The coast guard may suspend boat service in bad weather." }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "The boat circles the island and stops at each village, so Janosa may not be the first stop. Tell the crew in advance that you are getting off at Janosa."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "By car",
+              "icon": "directions_car",
+              "blocks": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    {
+                      "children": [
+                        {
+                          "text": "Drive to the area around Binangonan Port, park and take the boat. Cars do not go to Janosa, so check parking availability and fees at the port locally."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "best_time",
+      "title": "Best time to visit & weather",
+      "icon": "wb_sunny",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            { "text": "The best time is the cool, clear " },
+            { "type": "date", "text": "November–February" },
+            {
+              "text": ". The sun is milder and boat service is more stable, but weekends draw crowds of hikers."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "The summit stretch has almost no shade, so in any season the key is to start early in the morning."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "From December to February the mornings are cool and the wind at the summit is quite cold. In the rainy season sudden showers are common during the day, which makes schedules easy to disrupt."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Season at a glance",
+          "icon": "calendar_month",
+          "columns": ["Period", "Weather", "Travel notes"],
+          "rows": [
+            [
+              "Nov–Feb",
+              "Cool and clear",
+              "Best hiking season. Crowded on weekends, quiet on weekdays"
+            ],
+            [
+              "Mar–May",
+              "Very hot with strong sun",
+              "The cogon section is scorching. Bring an umbrella, hat and water"
+            ],
+            [
+              "Jun–Oct",
+              "Rainy, typhoon influence",
+              "Muddy trail, risk of canceled boats and being stranded on the island"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "costs",
+      "title": "Estimated costs",
+      "icon": "payments",
+      "blocks": [
+        {
+          "type": "pricing",
+          "currency": "PHP",
+          "columns": ["Item", "Estimated cost", "Notes"],
+          "items": [
+            {
+              "label": "Environmental fee",
+              "price": "About ₱40–50",
+              "note": "Reports range from ₱30 to ₱50. Confirm at registration"
+            },
+            {
+              "label": "Guide fee (day hike)",
+              "price": "About ₱500",
+              "note": "Per group of up to 4–5 people, required"
+            },
+            {
+              "label": "Guide fee (overnight)",
+              "price": "About ₱1,000",
+              "note": "Some reports mention a separate camping fee for overnight stays"
+            },
+            {
+              "label": "Bangka fare",
+              "price": "About ₱50–65",
+              "note": "Reports disagree on one way or round trip"
+            },
+            {
+              "label": "Van from Manila to Binangonan",
+              "price": "About ₱70–100",
+              "note": "Based on reports from Shaw and Cubao"
+            },
+            { "label": "Tricycle (town to port)", "price": "About ₱20", "note": "Per person" },
+            {
+              "label": "Water and snacks",
+              "price": "About ₱200–400",
+              "note": "Nothing is sold on the mountain, so buy in the village"
+            },
+            {
+              "label": "Total for a day trip",
+              "price": "About ₱800–1,500",
+              "note": "Per person, sharing the guide fee"
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "children": [
+            { "text": "Prices are approximate as of " },
+            { "type": "date", "text": "2026" },
+            { "text": " and may vary depending on local conditions." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "stay_and_food",
+      "title": "Where to stay & eat",
+      "icon": "restaurant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "Talim Island has almost no formal hotels, so most visitors make a day trip or spend one night in a tent at the campsite. Staying in a hotel around Binangonan or Antipolo is the usual choice."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "There are no shops on the mountain, so buy water, bread and packed meals beforehand at the Binangonan market or small stores in Janosa. After the hike you can eat freshwater lake fish and Filipino home cooking at restaurants near the port."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "For a day hike it is best to eat breakfast near Binangonan Port before climbing. Some shops sell local snacks, bread and instant noodles, so you can restock at the trailhead one last time. Energy bars or gummies brought from home come in handy at the summit. If you camp, bring your own cooking gear, dishes and a headlamp, and carry all food waste out with you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "tips",
+      "title": "Travel tips",
+      "icon": "lightbulb",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "check_circle",
+          "items": [
+            {
+              "children": [
+                { "text": "There is no shade on the summit stretch, so start before " },
+                { "type": "time", "text": "08:00" },
+                { "text": "." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Bring at least " },
+                { "text": "2 liters", "bold": true },
+                { "text": " of water, and 3 liters in hot months." }
+              ]
+            },
+            { "children": [{ "text": "Wear hiking shoes or sneakers and avoid sandals." }] },
+            {
+              "children": [
+                {
+                  "text": "Cogon blades are sharp, so long sleeves and arm sleeves help. Thin gloves make it easier when you use your hands."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "In the rainy season bring poles and a raincoat, and watch for slipping on the descent."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "When you register, leave your contact number and expected return time." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Pack out your trash and do not pick plants, following Leave No Trace." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Phone signal is mostly available, but bring a full battery and a power bank."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "Use the " },
+                { "text": "toilet", "bold": true },
+                {
+                  "text": " and wash area at the Janosa trailhead before the hike. There are none farther up."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "cautions",
+      "title": "Precautions",
+      "icon": "warning",
+      "blocks": [
+        {
+          "type": "alert",
+          "variant": "warning",
+          "icon": "warning",
+          "children": [
+            {
+              "text": "There is a large hole near the summit and digging is banned across the island, so do not step inside the rope."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "icon": "error",
+          "items": [
+            {
+              "children": [
+                { "text": "A guide is required, as hikers without one have gotten lost." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Heatstroke and dehydration are the most common problems, so avoid the midday stretch."
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "If boats are canceled by a typhoon or strong winds you may be stuck on the island, so leave slack in your schedule."
+                }
+              ]
+            },
+            {
+              "children": [
+                { "text": "There is no hospital on the island, so emergency response is slow." }
+              ]
+            },
+            {
+              "children": [
+                { "text": "There are no toilets or water at the campsite or higher up." }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "text": "Fees, boat times and rules change often, so check the latest notices. On muddy trails, slow down on the descent and use poles for safety."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "key": "nearby",
+      "title": "Nearby places to visit",
+      "icon": "explore",
+      "blocks": [
+        {
+          "type": "grid",
+          "columns": 2,
+          "blocks": [
+            {
+              "type": "card",
+              "title": "Pililla Wind Farm",
+              "place": "pililla-wind-farm",
+              "children": [
+                {
+                  "text": "Across the lake in Pililla you can see a cluster of wind turbines, about "
+                },
+                { "type": "duration", "text": "1.5–2 hours" },
+                { "text": " away by car." }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Angono Art Town",
+              "place": "angono",
+              "children": [
+                {
+                  "text": "An art town on the Rizal lakeshore, close to Binangonan and a good stop after the hike."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Antipolo",
+              "place": "antipolo",
+              "children": [
+                {
+                  "text": "A city with a pilgrimage church and scenic cafes, easy to add on the way home."
+                }
+              ]
+            },
+            {
+              "type": "card",
+              "title": "Exploring Talim Island villages",
+              "children": [
+                {
+                  "text": "Go around the island's pier villages by bangka to see fishing life on the lake."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
