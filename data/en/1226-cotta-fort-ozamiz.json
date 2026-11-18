@@ -532,8 +532,8 @@
           "items": [
             {
               "label": "Fort entry",
-              "price": "Ask at the entrance",
-              "note": "Check access to the fort interior and outdoor shrine separately"
+              "price": "Sample listings for the walled area: ₱5 or ₱20",
+              "note": "Listings differ. Ask separately about the outdoor shrine, walls and exhibits at the gate."
             },
             {
               "label": "Tricycle (in town)",
@@ -557,8 +557,8 @@
             },
             {
               "label": "Meals",
-              "price": "Confirm locally",
-              "note": "Prices at downtown restaurants and stalls vary"
+              "price": "Sample grilled dish and rice ₱120–250",
+              "note": "Ozamiz city meal budget guide. Varies by menu and venue."
             }
           ]
         },
@@ -622,9 +622,17 @@
             },
             {
               "children": [
+                { "text": "Visit the seaside shrine quietly if prayers are taking place. One " },
                 {
-                  "text": "The seaside shrine is a pilgrimage site. Keep quiet during services and be considerate of others when taking photos."
-                }
+                  "type": "link",
+                  "text": "Ozamiz visitor guide",
+                  "url": "https://visitphilippinestoday.com/top-things-to-do-in-ozamis-city/"
+                },
+                { "text": " gives about " },
+                { "type": "price", "text": "₱5" },
+                { "text": " for the walled fort, while another lists " },
+                { "type": "price", "text": "₱20" },
+                { "text": ". Ask the ticket desk about current admission and exhibit access separately." }
               ]
             },
             {
