@@ -507,8 +507,8 @@
             },
             {
               "label": "Parish museum",
-              "price": "Ask the tourism office",
-              "note": "Check opening and admission for the former convent gallery"
+              "price": "₱30 per person (2020 visitor example)",
+              "note": "Old rectory galleries. Ask the tourism office about access and current rates."
             },
             {
               "label": "Round-trip bus from Cebu City",
@@ -520,7 +520,7 @@
               "price": "Check locally",
               "note": "For trips on the town outskirts"
             },
-            { "label": "Meals", "price": "Check locally", "note": "Based on town restaurants" },
+            { "label": "Meals", "price": "Seaside resort restaurant example: about ₱570 per person", "note": "Club Fort Med restaurant listing. Town restaurants vary by menu." },
             {
               "label": "Cemetery and plaza",
               "price": "Free",
@@ -592,15 +592,17 @@
             },
             {
               "children": [
-                { "text": "Ask the " },
+                { "text": "A 2020 visit put the old rectory museum at " },
+                { "type": "price", "text": "₱30" },
                 {
-                  "type": "link",
-                  "text": "Boljoon Tourism Office listed by Cebu Province",
-                  "url": "https://tourism.cebu.gov.ph/explore/boljoon/"
+                  "text": " per person. For current opening, admission and display of the panels, contact the Boljoon tourism office at (+63) 995-622-9318 through the "
                 },
                 {
-                  "text": " at (+63) 995-622-9318 about museum days, admission fees and whether the pulpit panels are on public display."
-                }
+                  "type": "link",
+                  "text": "Cebu provincial guide",
+                  "url": "https://tourism.cebu.gov.ph/explore/boljoon/"
+                },
+                { "text": "." }
               ]
             },
             {

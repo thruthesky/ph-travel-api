@@ -461,13 +461,13 @@
             { "label": "Entrance fee", "price": "Free", "note": "Public market" },
             {
               "label": "Grab or taxi (in town)",
-              "price": "Confirm locally",
-              "note": "Depends on hotel location and traffic"
+              "price": "Sample regular taxi flag-down ₱65",
+              "note": "Davao Region provisional flag-down from September 2026. Meter adds distance and time. Check Grab in the app."
             },
             {
               "label": "Durian",
-              "price": "Market price varies",
-              "note": "Large differences by variety and season, check directly"
+              "price": "Puyat example: about ₱180–250/kg",
+              "note": "Market reporting around Araw ng Dabaw 2026. Varies by harvest, variety and stall."
             },
             {
               "label": "Mangosteen and pomelo",
@@ -475,9 +475,9 @@
               "note": "Priced by weight, bargain"
             },
             {
-              "label": "Snacks (chicharon, fish crackers)",
-              "price": "Confirm locally",
-              "note": "Depends on bag size"
+              "label": "Market snacks and cacao drinks",
+              "price": "Sample puto maya ₱18 · sikwate with milk ₱48",
+              "note": "Del Mar Painitan Bankerohan delivery menu. Check dine-in prices and any delivery fee."
             },
             {
               "label": "Souvenirs (wooden utensils, malong, banig)",
@@ -543,7 +543,17 @@
           "items": [
             {
               "children": [
-                { "text": "Early morning (6–8) is when the market is liveliest and not yet hot." }
+                { "text": "Early mornings are cooler. " },
+                {
+                  "type": "link",
+                  "text": "2026 reporting from Davao fruit stalls",
+                  "url": "https://www.sunstar.com.ph/davao/davao-gears-up-for-durian-rush"
+                },
+                { "text": " gives about " },
+                { "type": "price", "text": "₱180–250" },
+                {
+                  "text": " a kilo for Puyat durian. Before buying, ask which variety it is, the price per kilo and whether the weight includes the husk."
+                }
               ]
             },
             {

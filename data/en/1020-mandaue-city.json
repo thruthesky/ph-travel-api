@@ -547,20 +547,20 @@
             },
             {
               "label": "Taxi/Grab (per trip)",
-              "price": "Check locally",
-              "note": "Meter or app fare; higher in traffic"
+              "price": "Sample regular taxi flag-down ₱50–65",
+              "note": "Provisional ₱65 from September 2026. Actual cost depends on meter setup, distance and time. Check Grab in the app."
             },
             {
               "label": "Jeepney/minibus",
-              "price": "Check locally",
-              "note": "Fare depends on the route"
+              "price": "First 4 km: traditional ₱14 · modern ₱17",
+              "note": "From 28 September 2026. Each additional km: ₱2 traditional or ₱2.40 modern."
             },
             {
               "label": "Restaurant meal",
               "price": "Check locally",
               "note": "Per person; varies by restaurant"
             },
-            { "label": "Mall meal/cafe", "price": "Check locally", "note": "Per person" }
+            { "label": "Mall meal/cafe", "price": "Chicken and rice from ₱120", "note": "Mang Inasal Super Metro Mandaue delivery menu example. Check dine-in prices and any delivery fee." }
           ]
         },
         {
@@ -617,15 +617,19 @@
             },
             {
               "children": [
-                { "text": "Rush hours (roughly " },
-                { "type": "time", "text": "07:00" },
-                { "text": "–" },
-                { "type": "time", "text": "09:00" },
-                { "text": " and " },
-                { "type": "time", "text": "17:00" },
-                { "text": "–" },
-                { "type": "time", "text": "20:00" },
-                { "text": ") jam the bridges and main roads, so allow plenty of travel time." }
+                { "text": "The " },
+                {
+                  "text": "November 2026 Cebu transport guide",
+                  "type": "link",
+                  "url": "https://suroy.ph/getting-around-cebu/"
+                },
+                { "text": " lists " },
+                { "text": "₱14", "type": "price" },
+                { "text": " for the first 4 km on a traditional jeepney and " },
+                { "text": "₱17", "type": "price" },
+                {
+                  "text": " on a modern unit. A provisional flag-down applies to regular taxis, so check the meter at departure. Allow for bridge and main-road traffic at rush hour."
+                }
               ]
             },
             {

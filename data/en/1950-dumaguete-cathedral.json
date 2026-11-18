@@ -53,7 +53,7 @@
     "type": "price",
     "label": "Budget",
     "icon": "payments",
-    "text": "About ₱0–300 (per person, local transport and snacks; check the entrance fee locally)",
+    "text": "Cathedral, belfry exterior and National Museum free. Transport and meals extra.",
     "currency": "PHP",
     "min": 0,
     "max": 300
@@ -483,15 +483,15 @@
           "items": [
             {
               "label": "Church entry",
-              "price": "Check locally",
-              "note": "Be quiet during Mass and events"
+              "price": "Free, donations optional",
+              "note": "Follow parish guidance during worship and events"
             },
             {
-              "label": "Bell tower and surroundings",
-              "price": "Check locally",
-              "note": "Access may be limited while restoration work is under way"
+              "label": "Belfry exterior and Quezon Park",
+              "price": "Free",
+              "note": "Exterior only. Check access to the interior and stairs separately."
             },
-            { "label": "Tricycle", "price": "Check locally", "note": "Short trips in town" },
+            { "label": "Tricycle", "price": "₱15 base fare (March 2026 example)", "note": "Regular city ride. Check current prices, private charters and airport trips separately." },
             {
               "label": "Coffee and snacks",
               "price": "Check locally",
@@ -499,8 +499,8 @@
             },
             {
               "label": "National Museum branch",
-              "price": "Check locally",
-              "note": "Dumaguete Presidencia; confirm opening"
+              "price": "Free",
+              "note": "Old Presidencia. Confirm opening hours for your date with the National Museum."
             },
             {
               "label": "Flights",
@@ -585,8 +585,14 @@
             },
             {
               "children": [
+                { "text": "After the cathedral and belfry exterior, walk to Quezon Park and the " },
                 {
-                  "text": "If you walk the cathedral, bell tower, Quezon Park, the National Museum branch and Rizal Boulevard in one go, half a day is enough."
+                  "type": "link",
+                  "text": "National Museum’s Dumaguete branch",
+                  "url": "https://dumaguetecity.gov.ph/2022/12/05/dumaguete-museum-is-open-to-the-public-from-tuesday-sunday-entrance-is-free/"
+                },
+                {
+                  "text": ". Museum admission is free. Visit the cathedral quietly when it is open outside Mass and ceremonies."
                 }
               ]
             },
