@@ -236,7 +236,7 @@
                       "time": "08:00",
                       "children": [
                         {
-                          "text": "Travel overland from Manila to Calatagan or Nasugbu and take the boat to Lubang. Departures change with the weather, so check with the boat owner the day before."
+                          "text": "Confirm the departure port on your booking first. Travel by road to Batangas for Nasugbu sailings, or go directly to the pier named by the operator for a Manila sailing."
                         }
                       ]
                     },
@@ -265,7 +265,7 @@
                     {
                       "time": "13:00",
                       "children": [
-                        { "text": "After lunch, return to Tilik Port and take the boat back." }
+                        { "text": "Return to Tilik Port in time for your confirmed sailing. Check whether an afternoon departure is available and leave room for an extra night if the boat is canceled." }
                       ]
                     }
                   ]
@@ -345,7 +345,7 @@
           "type": "accordion",
           "items": [
             {
-              "title": "From Manila to Calatagan or Nasugbu",
+              "title": "Via Nasugbu, Batangas",
               "icon": "directions_bus",
               "blocks": [
                 {
@@ -355,18 +355,22 @@
                     {
                       "children": [
                         {
-                          "text": "From Taft Avenue in Manila, a bus or van is said to take about "
+                          "text": "Take a Nasugbu-bound bus from Buendia. A 2026 transport guide gives a one-way range of "
                         },
-                        { "type": "duration", "text": "3 hours" },
-                        { "text": " to Calatagan and about " },
-                        { "type": "duration", "text": "2 hours" },
-                        { "text": " to Nasugbu. It varies with traffic." }
+                        { "type": "price", "text": "₱260–390" },
+                        { "text": " for Nasugbu or Lian services. Confirm the fare and Nasugbu stop." }
                       ]
                     },
                     {
                       "children": [
+                        { "text": "The " },
                         {
-                          "text": "From Calatagan or Nasugbu there are boats to Tilik Port in Lubang or to Agkawayan Port in Looc. Wikivoyage lists boats from Nasugbu to Tilik Port."
+                          "text": "Island Water route listing",
+                          "type": "link",
+                          "url": "https://www.phbus.com/island-water-ferry/"
+                        },
+                        {
+                          "text": " includes the Nasugbu–Tilik Port ferry. Confirm the current sailing, fare and boarding point with the operator before heading to the port."
                         }
                       ]
                     }
@@ -376,14 +380,14 @@
                   "type": "paragraph",
                   "children": [
                     {
-                      "text": "Which port has a boat running changes over time, so check with the boat owner or the tourism office before you leave."
+                      "text": "Calatagan appears in historical route records. If considering that port, ask the tourism office or operator to confirm the sailing date and arrival port on Lubang."
                     }
                   ]
                 }
               ]
             },
             {
-              "title": "By boat",
+              "title": "Manila–Tilik sea route",
               "icon": "directions_boat",
               "blocks": [
                 {
@@ -392,15 +396,29 @@
                   "items": [
                     {
                       "children": [
+                        { "text": "The " },
                         {
-                          "text": "A 2013 source says wooden pump boats (such as MB God's Grace 2) ran from Calatagan to Tilik Port on set days, with a one-way fare of about ₱500. Reports say the crossing takes 3 to 4 hours depending on sea conditions."
-                        }
+                          "text": "Maritime Industry Authority’s March 2026 register",
+                          "type": "link",
+                          "url": "https://marina.gov.ph/wp-content/uploads/2026/04/Philippine-Nautical-Highway-Matrix-MAR-2026.pdf"
+                        },
+                        {
+                          "text": " lists Atienza’s MV June Aster on the Manila–Tilik Port route. The table shows a sailing time of about "
+                        },
+                        { "text": "6 hours", "type": "duration" },
+                        { "text": "." }
                       ]
                     },
                     {
                       "children": [
+                        { "text": "The " },
                         {
-                          "text": "The same source also lists an Atienza Shipping Lines boat between Manila and Tilik (leaving Manila Monday at noon and Tilik Tuesday at 9:00 AM). This information is old, so be sure to check whether it still runs and the current fare."
+                          "text": "Atienza public booking list",
+                          "type": "link",
+                          "url": "https://atienzainterislandferriesinc.com/schedules/"
+                        },
+                        {
+                          "text": " had no Tilik sailing when checked. Call its published hotline, 0928 457 7623, to confirm the date, boarding pier and fare."
                         }
                       ]
                     }
@@ -501,19 +519,19 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Calatagan–Tilik boat",
-              "price": "About ₱500 (2013 source)",
-              "note": "Check the current fare locally"
+              "label": "Nasugbu–Tilik Port ferry",
+              "price": "Confirm the current fare with the operator",
+              "note": "Route listed in Island Water and 2026 local guides. Ask about ticket price and terminal fees."
             },
             {
-              "label": "Overland from Manila",
-              "price": "Check locally",
-              "note": "Bus or van to Calatagan or Nasugbu"
+              "label": "Manila Buendia to Nasugbu-area bus",
+              "price": "Sample listed rate ₱260–390 per person one way",
+              "note": "2026 listing for the Nasugbu/Lian routes. Confirm your Nasugbu stop and fare."
             },
             {
               "label": "Lodging (beach resort)",
-              "price": "About ₱500~1,800 (2013 source)",
-              "note": "Varies by season; check before booking"
+              "price": "Request a quote for your dates",
+              "note": "Confirm Tilik pickup, air conditioning and meals."
             },
             {
               "label": "Tricycle or boat charter",
@@ -625,14 +643,20 @@
             {
               "children": [
                 {
-                  "text": "On the way from Manila, stay a night in Nasugbu or Calatagan and take an early boat for a less rushed trip."
+                  "text": "If staying overnight in Nasugbu, confirm the first sailing and your return from Tilik before booking the room."
                 }
               ]
             },
             {
               "children": [
+                { "text": "The " },
                 {
-                  "text": "The tourism office is said to connect travelers with trained guides for the Onoda Trail. Contact them in advance to set the date and route."
+                  "text": "Occidental Mindoro tourism website",
+                  "type": "link",
+                  "url": "https://tourism.occidentalmindoro.gov.ph/2024/06/binacas-island"
+                },
+                {
+                  "text": " lists Lubang tourism office numbers 0921 422 4387 and 0998 996 2878. Ask about Onoda Trail access, guides and island pickup."
                 }
               ]
             }
@@ -664,7 +688,7 @@
             {
               "children": [
                 {
-                  "text": "Some boat and lodging prices in this guide come from 2013–2014. Recheck all fares and schedules before you leave."
+                  "text": "Tilik and the port serving Looc are different stops. Tell your accommodation or guide the arrival port and time shown on the ticket."
                 }
               ]
             },
