@@ -504,7 +504,7 @@
               "price": "Khoảng ₱50–100/cái",
               "note": "Cần thiết cho trẻ em và người mới bơi"
             },
-            { "label": "Vé vào thác Batlag", "price": "Khoảng ₱50–100/người", "note": "Thu riêng" },
+            { "label": "Vé vào thác Batlag", "price": "Khoảng ₱50–100/người", "note": "Vé riêng. Bộ Du lịch ghi ₱100, còn hướng dẫn địa phương tháng 10/2026 ghi ₱50. Hỏi tại cổng." },
             {
               "label": "Xe van · xe jeepney Manila–Tanay",
               "price": "Khoảng ₱70–100 một chiều",
@@ -580,10 +580,15 @@
           "items": [
             {
               "children": [
-                { "text": "Giờ mở cửa thường là " },
-                { "type": "time", "text": "8 giờ sáng – 5 giờ chiều" },
                 {
-                  "text": ". Nếu đến ngay sau giờ mở cửa, nước sẽ trong nhất và dễ chọn được chỗ ở lều."
+                  "type": "link",
+                  "text": "Hướng dẫn của Bộ Du lịch Philippines",
+                  "url": "https://philippines.travel/destinations/daranak-falls/index"
+                },
+                { "text": " ghi vé vào Daranak là " },
+                { "type": "price", "text": "₱75" },
+                {
+                  "text": " và Batlag bán vé riêng. Sau mưa, hỏi tại cổng xem có mở cửa và được bơi ở đâu. Khi xuống nước hãy làm theo nhân viên cứu hộ."
                 }
               ]
             },
