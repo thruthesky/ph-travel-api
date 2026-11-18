@@ -493,19 +493,19 @@
           "columns": ["Item", "Estimated cost", "Notes"],
           "items": [
             {
-              "label": "Regular day pass (weekday)",
-              "price": "About ₱800–1,000",
-              "note": "122cm height and above, check seasonal pricing"
+              "label": "Regular Day Pass (online)",
+              "price": "₱1,200",
+              "note": "November 2026 quoted price, check your date"
             },
             {
-              "label": "Regular day pass (weekend/holiday)",
-              "price": "About ₱1,400–1,600",
-              "note": "Sold on-site and online"
+              "label": "Regular Day Pass (at the gate)",
+              "price": "₱1,500",
+              "note": "November 2026 quoted price, check your date"
             },
             {
               "label": "Junior day pass",
-              "price": "About ₱500–950",
-              "note": "91–122cm, free under 91cm"
+              "price": "Online ₱840 / gate ₱1,000",
+              "note": "November 2026 quoted price. Height 91 cm to under 122 cm."
             },
             {
               "label": "Express one-day pass",
@@ -586,8 +586,14 @@
           "items": [
             {
               "children": [
+                { "text": "Select your date in the " },
                 {
-                  "text": "Weekday rates are much cheaper than weekend rates. Check the official website first for online advance-purchase discounts or on-site promotions."
+                  "text": "Enchanted Kingdom official ticket store",
+                  "type": "link",
+                  "url": "https://booking.enchantedkingdom.ph/ekos/"
+                },
+                {
+                  "text": " to see the actual price and discount conditions. A day pass covers most rides. Separately ticketed attractions cost extra."
                 }
               ]
             },

@@ -507,19 +507,19 @@
           "columns": ["Hạng mục", "Chi phí dự kiến", "Ghi chú"],
           "items": [
             {
-              "label": "Vé ngày thường (người lớn)",
-              "price": "Khoảng ₱800–1,000",
-              "note": "Cao từ 122cm trở lên, kiểm tra giá theo mùa"
+              "label": "Vé ngày thường (trực tuyến)",
+              "price": "₱1.200",
+              "note": "Giá tham khảo tháng 11/2026, kiểm tra theo ngày đi"
             },
             {
-              "label": "Vé cuối tuần, ngày lễ (người lớn)",
-              "price": "Khoảng ₱1,400–1,600",
-              "note": "Bán tại chỗ và trực tuyến"
+              "label": "Vé ngày thường (tại cổng)",
+              "price": "₱1.500",
+              "note": "Giá tham khảo tháng 11/2026, kiểm tra theo ngày đi"
             },
             {
               "label": "Vé trẻ em",
-              "price": "Khoảng ₱500–950",
-              "note": "Cao 91–122cm, dưới 91cm miễn phí"
+              "price": "Trực tuyến ₱840 / tại cổng ₱1.000",
+              "note": "Giá tham khảo tháng 11/2026. Chiều cao từ 91 cm đến dưới 122 cm."
             },
             {
               "label": "Vé ngày Express",
@@ -602,8 +602,14 @@
           "items": [
             {
               "children": [
+                { "text": "Chọn ngày ghé tại " },
                 {
-                  "text": "Giá vé ngày thường rẻ hơn nhiều so với cuối tuần. Hãy kiểm tra trước trên trang chính thức xem có ưu đãi mua vé trực tuyến hay khuyến mãi tại chỗ hay không."
+                  "text": "cửa hàng vé chính thức của Enchanted Kingdom",
+                  "type": "link",
+                  "url": "https://booking.enchantedkingdom.ph/ekos/"
+                },
+                {
+                  "text": " để xem giá thanh toán và điều kiện ưu đãi. Vé ngày bao gồm đa số trò chơi. Các điểm bán vé riêng có phụ phí."
                 }
               ]
             },
