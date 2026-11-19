@@ -1,7 +1,7 @@
 {
   "id": 1408,
   "slug": "padre-burgos-house",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "summary / highlights / itinerary",
@@ -106,16 +106,40 @@
     {
       "where": "costs",
       "fact": "교통·숙소 요금",
-      "value": "트라이시클 ₱8~10, 칼레사 ₱150/시간·₱1,000/일, 버스 ₱580(2017)",
+      "value": "트라이시클 약 ₱20~50, 칼레사 약 ₱150~250/시간(₱1,000/일은 위키보야지), 버스 약 ₱600~1,000(회사·등급별, 2026)",
       "sources": [
         {
           "url": "https://en.wikivoyage.org/wiki/Vigan",
           "grade": "B",
           "date": "2026-11",
           "says": "fares and hotel prices; bus fare last updated Nov 2017"
+        },
+        {
+          "url": "https://explained.ph/2025/05/vigans-timelessness.html",
+          "grade": "C",
+          "date": "2025",
+          "says": "칼레사 시간당 150 PHP(성인 4명), 트라이시클 1인 최대 50 PHP"
+        },
+        {
+          "url": "https://thequeensescape.com/vigan-city-travel-guide-for-first-timers/",
+          "grade": "C",
+          "date": "2025-01-02",
+          "says": "시내 트라이시클 20 PHP부터, 칼레사 250 PHP"
+        },
+        {
+          "url": "https://partas.online/bus-fare",
+          "grade": "C",
+          "date": "2026",
+          "says": "마닐라-비간 일반 600·디럭스 700·슈퍼 디럭스 850·럭셔리 1,000 PHP, 요금은 예고 없이 변경"
+        },
+        {
+          "url": "https://bustickets.ph/partas-bus-manila-to-vigan/",
+          "grade": "C",
+          "date": "n/a",
+          "says": "디럭스 886·익스프레스 퍼스트 클래스 836 PHP, 약 13시간(날짜 불명)"
         }
       ],
-      "decision": "오래된 값임을 본문에 밝히고 현지 확인"
+      "decision": "공식 요금표 없음, 2025~2026 비공식 출처 2곳 이상이 겹치는 범위로 쓰고 위키보야지 2017 값은 오래됐다고 밝힘. 현지 확인 안내 유지"
     },
     {
       "where": "best_time",
