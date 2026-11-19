@@ -1,7 +1,7 @@
 {
   "id": 523,
   "slug": "kannawidan-ylocos-festival",
-  "checked_at": "2026-11-17T14:58:12Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "lat/lon",
@@ -86,16 +86,28 @@
     {
       "where": "getting_there",
       "fact": "마닐라–비간 버스·라오아그 경로",
-      "value": "7~9시간 ₱750~1,200 등",
+      "value": "7~10시간 ₱750~1,200(일반·디럭스), 럭셔리 ₱1,150~1,500 등",
       "sources": [
         {
           "url": "data/ko/030-vigan.json (이 저장소, 별도 검증 완료본)",
           "grade": "A",
           "date": "2026-11-17",
           "says": "버스 요금·시간·라오아그 이동"
+        },
+        {
+          "url": "https://virontransit.com/routes/manila-to-vigan",
+          "grade": "A",
+          "date": "2026",
+          "says": "운영사 공식: 일반 에어컨 ₱880, 약 408km, 8~10시간, 쿠바오·다피탄 출발"
+        },
+        {
+          "url": "https://www.travelguideph.net/2026/07/partas-manila-to-vigan-bus-schedule.html",
+          "grade": "C",
+          "date": "2026-07",
+          "says": "파르타스 디럭스 ₱740~880, 슈퍼디럭스 ₱800~1,200, 럭셔리·슬리퍼 ₱1,300~1,500, 7~9시간"
         }
       ],
-      "decision": "비간 등록 항목 값을 재사용. 새 외부 출처는 열지 않음"
+      "decision": "공식(Viron 8~10시간)과 2026-07 가이드(7~9시간)를 합쳐 7~10시간으로 넓히고, 요금은 두 출처와 일치하는 ₱750~1,200 유지, 럭셔리 상한은 ₱1,500, 표의 편도 범위는 ₱750~1,500. 라오아그 경로는 비간 항목값 재사용"
     }
   ],
   "images": []
