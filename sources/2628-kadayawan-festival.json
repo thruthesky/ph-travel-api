@@ -1,7 +1,7 @@
 {
   "id": 2628,
   "slug": "kadayawan-festival",
-  "checked_at": "2026-11-18T11:54:43.249Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -152,9 +152,22 @@
     {
       "where": "costs",
       "fact": "식사 가격",
-      "value": "약 ₱200~600",
-      "sources": [],
-      "decision": "출처 없는 대략치로 명시 — 사람이 확인 권장"
+      "value": "약 ₱100~400",
+      "sources": [
+        {
+          "url": "https://livedavao.com/blog/cheap-food-davao-carinderia-guide/",
+          "grade": "C",
+          "date": "2026-03",
+          "says": "다바오 카린데리아 ₱50~100, 야시장 길거리 식사 ₱80~150, 저가 식당 ₱150~300(2026년 초 추정)"
+        },
+        {
+          "url": "https://www.numbeo.com/cost-of-living/in/Davao",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "다바오 저가 식당 1끼 ₱350, 패스트푸드 콤보 ₱250"
+        }
+      ],
+      "decision": "두 출처 모두 개인·집계 사이트(C)라 범위로 낮춰 ₱100~400, 2026년 초 추정치로 명시"
     },
     {
       "where": "coords",
@@ -179,9 +192,22 @@
     {
       "where": "getting_there",
       "fact": "마닐라~다바오 약 2시간",
-      "value": "직항",
-      "sources": [],
-      "decision": "일반 지식, 요금은 쓰지 않음"
+      "value": "직항 약 2시간(1시간 45분~2시간 10분)",
+      "sources": [
+        {
+          "url": "https://www.trip.com/hot/manila-to-davao-flight-time/",
+          "grade": "C",
+          "date": "2026",
+          "says": "마닐라~다바오 직항 약 1시간 57분~2시간, 세부퍼시픽·필리핀항공 직항"
+        },
+        {
+          "url": "https://www.traveloka.com/en-ph/flight/route/Manila-Davao.MNL.DVO",
+          "grade": "C",
+          "date": "2026",
+          "says": "직항 약 1시간 50분~2시간, 최단 1시간 45분, 필리핀항공·세부퍼시픽 운항"
+        }
+      ],
+      "decision": "항공 포털 두 곳이 일치해 약 2시간에 편차 범위를 덧붙임, 요금은 쓰지 않음"
     }
   ],
   "images": [

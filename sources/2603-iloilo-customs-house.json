@@ -1,7 +1,7 @@
 {
   "id": 2603,
   "slug": "iloilo-customs-house",
-  "checked_at": "2026-11-18T11:31:07Z",
+  "checked_at": "2026-11-19T12:00:00Z",
   "facts": [
     {
       "where": "좌표",
@@ -138,7 +138,7 @@
     {
       "where": "getting_there",
       "fact": "공항~시내",
-      "value": "약 20~25km, 30~45분, 택시 ₱350~600, UV ₱100~150",
+      "value": "약 18~25km, 20~45분, 택시 ₱300~700(2026-02 도착 승객 ₱50 추가 보도), UV ₱100~150",
       "sources": [
         {
           "url": "https://www.trip.com/transport/airport-city/iloilo-international-airport-to-iloilo-city.html",
@@ -151,14 +151,32 @@
           "grade": "C",
           "date": "2025-09-21",
           "says": "SM 시티 방면 UV ₱100~150"
+        },
+        {
+          "url": "https://iloiloph.com/iloilo-international-airport",
+          "grade": "C",
+          "date": "미상(2021 무렵)",
+          "says": "시내에서 약 30분, 택시 정액 약 ₱600~700, SM City 에서 UV 약 ₱100(만차 출발)"
+        },
+        {
+          "url": "https://unchartedlens.com/routes/philippines/ilo-airport-to-sm-city-iloilo-transport-guide/",
+          "grade": "C",
+          "date": "2025",
+          "says": "택시·그랩 20~40분, 택시 미터 ₱300~450, 그랩 ₱250~400, 밴·버스 후 환승 합계 ₱100~150"
+        },
+        {
+          "url": "https://www.dailyguardian.com.ph/blog/fare-flap-p50-add-on-on-taxis-ride-hailing-cars-at-iloilo-airport-under-scrutiny",
+          "grade": "B",
+          "date": "2026-02-09",
+          "says": "도착 승객 택시·승차공유 요금에 ₱50 추가 요금 논란"
         }
       ],
-      "decision": "범위로 표기"
+      "decision": "출처 간 택시 요금 편차(₱300~700)가 커 넓은 범위로, 거리는 18~25km, 시간은 20~45분으로 낮춰 표기"
     },
     {
       "where": "getting_there",
       "fact": "바콜로드 고속선",
-      "value": "₱250~800, 1~1.5시간",
+      "value": "OceanJet 오픈에어·투어리스트 ₱550~660, 비즈니스 ₱800~960, 1~2시간",
       "sources": [
         {
           "url": "https://outoftownblog.com/iloilo-to-bacolod-ferry-and-roro-schedule/",
@@ -171,9 +189,21 @@
           "grade": "C",
           "date": "2026",
           "says": "Weesam 요금"
+        },
+        {
+          "url": "https://suroy.ph/iloilo-to-bacolod-ferry-schedule-fare-roro/",
+          "grade": "C",
+          "date": "2026-11-05",
+          "says": "OceanJet 2026-02 안내 오픈에어·투어리스트 ₱550, 비즈니스 ₱800, 8월 이후 일시 인상 ₱700까지, 터미널 이용료 별도, 소요 1.5~2시간, Weesam 요금은 출처 불일치"
+        },
+        {
+          "url": "https://pamasahe.com/routes/bacolod-iloilo-oceanjet-schedule-fares",
+          "grade": "C",
+          "date": "2026-10",
+          "says": "OceanJet 일반 요금 오픈에어 ₱600, 투어리스트 ₱660, 비즈니스 ₱960, 소요 약 1시간, 연료 할증으로 더 높을 수 있음"
         }
       ],
-      "decision": "출처 간 편차가 커 넓은 범위로"
+      "decision": "Weesam 요금은 불일치로 제외하고 OceanJet 2026 요금(₱550~960)과 소요 1~2시간으로 표기, 할증 가능성 명시"
     },
     {
       "where": "highlights",

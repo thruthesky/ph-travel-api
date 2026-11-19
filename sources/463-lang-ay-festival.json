@@ -1,7 +1,7 @@
 {
   "id": 463,
   "slug": "lang-ay-festival",
-  "checked_at": "2026-11-17T00:00:00Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -100,8 +100,20 @@
     {
       "where": "getting_there",
       "fact": "바기오–본토크 버스",
-      "value": "약 5~6시간, ₱220~250",
+      "value": "약 5~6시간, ₱220~350",
       "sources": [
+        {
+          "url": "https://mappedatlas.com/navigate/philippines-commute-guides/cubao-to-bontoc-mountain-province-commute-guide/",
+          "grade": "C",
+          "date": "2026",
+          "says": "2026년 3월 갱신 안내: 바기오–본토크 GL Trans 5~6시간, 에어컨 버스 약 ₱220~350"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Bontoc",
+          "grade": "B",
+          "date": "2026",
+          "says": "바기오–본토크 GL Lizardo·D'Rising Sun 모두 ₱220(시간 언급 없음)"
+        },
         {
           "url": "https://www.thepinaysolobackpacker.com/?p=19333",
           "grade": "C",
@@ -109,13 +121,25 @@
           "says": "바기오–본토크 버스 약 6시간 ₱250, GL Trans·Lizardo ₱220"
         }
       ],
-      "decision": "블로그 1곳과 Rome2Rio 추정 5시간이라 범위로 표기"
+      "decision": "출처 3곳이 ₱220~250·350으로 갈려 상한을 ₱350 으로 넓혀 범위 표기, 시간은 5~6시간"
     },
     {
       "where": "costs",
       "fact": "마닐라–본토크 직행",
-      "value": "약 11시간, ₱1,232~1,377",
+      "value": "약 10~11시간, ₱700~1,200",
       "sources": [
+        {
+          "url": "https://codabus.com/fares/",
+          "grade": "A",
+          "date": "2026",
+          "says": "코다 라인스 공식 요금표 마닐라–본토크 편도 일반 ₱700, 디럭스 ₱900(요금은 예고 없이 변경 가능)"
+        },
+        {
+          "url": "https://mappedatlas.com/navigate/philippines-commute-guides/cubao-to-bontoc-mountain-province-commute-guide/",
+          "grade": "C",
+          "date": "2026",
+          "says": "2026년 3월 갱신: 코다 라인스 세미 디럭스 약 ₱800~1,080, 슈퍼 디럭스 약 ₱1,000~1,200, 소요 약 10~11시간"
+        },
         {
           "url": "https://pamasahe.com/routes/quezon-city-mountain-province-coda-lines-schedule-fares",
           "grade": "B",
@@ -123,7 +147,7 @@
           "says": "코다 라인스 마닐라–본토크 약 11시간 ₱1,232~1,377"
         }
       ],
-      "decision": "연료 할증 가능 표기"
+      "decision": "공식 요금표(₱700·900)와 예약 사이트 요금(최대 약 ₱1,377)이 달라 ₱700~1,200 범위로 낮추고 공식·예약 차이를 명시"
     },
     {
       "where": "latitude/longitude",

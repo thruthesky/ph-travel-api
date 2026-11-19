@@ -1,7 +1,7 @@
 {
   "id": 2648,
   "slug": "pugad-lawin-shrine",
-  "checked_at": "2026-11-18T00:00:00Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "location",
@@ -69,7 +69,7 @@
           "says": "세미너리 로드 바하이 토로, 화~일 9~16시, 무료, 10명 초과 예약, 1998년 후안 라모스 집터에 조성, 아부에바 조각"
         }
       ],
-      "decision": "공식 2024, 단장 후 변경 가능 문구"
+      "decision": "공식 2024 하나뿐(2026 재개관 보도에는 요금 언급 없음 확인), 단장 후 변경 가능 문구로 처리"
     },
     {
       "where": "overview",
@@ -135,8 +135,21 @@
       "where": "costs",
       "fact": "교통비",
       "value": "약 ₱200~500 등",
-      "sources": [],
-      "decision": "출처 없는 추정치. 약·현지 확인으로 표기. 사람이 확인 권장"
+      "sources": [
+        {
+          "url": "https://parkinganph.com/guides/fare-matrix",
+          "grade": "C",
+          "date": "2026",
+          "says": "일반 택시 기본 ₱65(500m)+km당 ₱13.5+분당 ₱2, 전통 지프니 최저 ₱14(4km), 2026-09-28 적용, 트라이시클은 지자체 소관"
+        },
+        {
+          "url": "https://www.topgear.com.ph/news/motoring-news/ltfrb-approves-fare-adjustments-puvs-a2578-20260317",
+          "grade": "B",
+          "date": "2026-03-17",
+          "says": "LTFRB 2026-03-19 적용, 전통 지프니 최저 ₱14(첫 1km)+km당 ₱2, 현대화 ₱17, 공항 택시 기본 ₱115"
+        }
+      ],
+      "decision": "지프니 최저 ₱14는 2곳 일치. 택시 기본 ₱65는 1곳(C)뿐이라 거리·정체에 따른 범위 ₱200~500 은 '대략'으로 유지, 트라이시클은 현지 확인"
     }
   ],
   "images": []

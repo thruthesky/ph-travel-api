@@ -1,7 +1,7 @@
 {
  "id": 2691,
  "slug": "malatan-og-falls",
- "checked_at": "2026-11-18T00:00:00Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "lat/lon",
@@ -92,16 +92,22 @@
   {
    "where": "getting_there",
    "fact": "지프니",
-   "value": "약 ₱80~100, 막차 오후 3시쯤인 경우",
+   "value": "약 ₱50~100 (출처마다 다름), 막차 오후 3시쯤인 경우",
    "sources": [
     {
      "url": "https://happipicture21official.blogspot.com/2020/09/blog-2-malatan-og-falls-2020-part-i-ii.html",
      "grade": "B",
      "date": "2020-09-30",
      "says": "리베르타드 시장 근처, 80~100, 막차 3시쯤"
+    },
+    {
+     "url": "https://ilonggotraveler.com/2025/06/30/travel-guide-malatan-og-falls-don-salvador-benedicto/",
+     "grade": "B",
+     "date": "2025",
+     "says": "지프니 언급 없음, 세레스 버스 약 ₱200+ 로 요금 출처 불일치"
     }
    ],
-   "decision": "단일 출처, 확인 권고 문구"
+   "decision": "지프니 요금·막차는 2020년 단일 출처뿐이고 다른 글은 다른 값을 말해 범위(₱50~100)로 낮추고 현지 확인 문구 병기"
   },
   {
    "where": "overview",
@@ -166,9 +172,16 @@
   {
    "where": "getting_there",
    "fact": "마닐라-바콜로드 항공 약 1시간 20분",
-   "value": "직항",
-   "sources": [],
-   "decision": "일반 지식, 요금·편수는 쓰지 않음"
+   "value": "직항, 약 1시간 15~30분",
+   "sources": [
+    {
+     "url": "https://www.flightconnections.com/flights-from-mnl-to-bcd",
+     "grade": "C",
+     "date": "2026",
+     "says": "에어아시아·세부퍼시픽·필리핀항공 직항, 약 1시간 25분"
+    }
+   ],
+   "decision": "검색 요약에서 편차(1시간 10~30분)가 보여 범위로 표기, 요금·편수는 쓰지 않음"
   }
  ],
  "images": []
