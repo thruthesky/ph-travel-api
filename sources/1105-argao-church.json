@@ -1,7 +1,7 @@
 {
   "id": 1105,
   "slug": "argao-church",
-  "checked_at": "2026-11-19T02:30:00Z",
+  "checked_at": "2026-11-19T05:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -73,9 +73,15 @@
           "grade": "B",
           "date": "2026-11-18",
           "says": "9°52'55\"N 123°36'28\"E"
+        },
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Argao+Church+Cebu&format=json&limit=3",
+          "grade": "B",
+          "date": "2026-11-19",
+          "says": "Argao Parish Church 9.88189, 123.60785 (위키 값과 약 10m 이내 일치)"
         }
       ],
-      "decision": "위키백과 좌표를 십진 변환(지도 2곳 대조는 못 함)"
+      "decision": "위키백과 좌표를 십진 변환한 값이 OpenStreetMap 과 일치해 그대로 유지"
     },
     {
       "where": "costs",

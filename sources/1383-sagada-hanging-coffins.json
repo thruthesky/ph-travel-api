@@ -1,7 +1,7 @@
 {
   "id": 1383,
   "slug": "sagada-hanging-coffins",
-  "checked_at": "2026-11-19T04:25:32Z",
+  "checked_at": "2026-11-19T05:36:38Z",
   "facts": [
     {
       "where": "overview",
@@ -150,16 +150,28 @@
     {
       "where": "best_time",
       "fact": "기후",
-      "value": "12월 고 19℃, 7월 28℃, 연 2,835mm",
+      "value": "연 약 2,800mm(5~10월 집중, 7~8월 최습), 12월 고 약 19~24℃, 7월 약 26~28℃",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Sagada,_Mountain_Province",
           "grade": "B",
           "date": "2026",
-          "says": "기후 수치"
+          "says": "기후표(Meteoblue 모델값, 2020 조회): 12월 고 19℃, 7월 28℃, 8월 471mm 최다, 1월 35mm 최소, 연 2,835mm"
+        },
+        {
+          "url": "https://weather-and-climate.com/sagada-ph-July-averages",
+          "grade": "C",
+          "date": "2026",
+          "says": "7월 고 26℃·저 18℃, 강수 552mm로 연중 최다, 12월 고 24℃"
+        },
+        {
+          "url": "https://en.climate-data.org/asia/philippines/mountain-province/sagada-19966/",
+          "grade": "C",
+          "date": "2026",
+          "says": "연평균 18.9℃, 가장 건조한 달 2월 약 72mm, 7월 최다 (검색 요약, 본문은 403으로 못 염)"
         }
       ],
-      "decision": "채택"
+      "decision": "두 출처가 기온(12월 19 vs 24℃, 7월 28 vs 26℃)과 최습월(8월 vs 7월)에서 달라 모델 추정치로 밝히고 기온을 범위, 최습 7~8월·최건 1~2월로 낮춤. 연 강수는 위키 한 곳이라 약 2,800mm"
     },
     {
       "where": "lat/lon",
