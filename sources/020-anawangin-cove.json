@@ -1,7 +1,7 @@
 {
   "id": 20,
   "slug": "anawangin-cove",
-  "checked_at": "2026-10-04T13:00:00Z",
+  "checked_at": "2026-11-19T05:33:33Z",
   "facts": [
     {
       "where": "overview·stay_and_food",
@@ -130,9 +130,11 @@
       "fact": "이바 평년 기후",
       "value": "12~3월 월 5~21mm, 5월 247mm, 7~8월 857~929mm, 12~2월 최저 21.3~22.5℃, 3~4월 최고 31.9~33.2℃",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Iba,_Zambales", "grade": "B", "date": "2026", "says": "PAGASA 평년값 표 — 1월 5.3mm·최저 21.3℃, 5월 247.1mm, 8월 929.1mm, 4월 최고 33.2℃" }
+        { "url": "https://en.wikipedia.org/wiki/Iba,_Zambales", "grade": "B", "date": "2026", "says": "PAGASA 평년값 표 — 1월 5.3mm·최저 21.3℃, 5월 247.1mm, 8월 929.1mm, 4월 최고 33.2℃" },
+        { "url": "https://www.pagasa.dost.gov.ph/climate/climatological-normals", "grade": "A", "date": "2026", "says": "PAGASA 기후 평년값 표(1991-2020) IBA, ZAMBALES 월 강수 — 1월 4.1·2월 9.3·3월 19.8·4월 38.1·5월 254.7·7월 838.1·8월 897.7·11월 62.3·12월 13.2mm (표에 변수 표기 없음, 값은 강수로 판단)" },
+        { "url": "https://www.weather-atlas.com/en/philippines/iba-climate", "grade": "C", "date": "2024-02", "says": "다른 자료(출처 미표기): 이바 낮 최고 28~31℃, 최저 22~26℃, 1~3월 월 11~17mm — 건조·우기 양상은 같으나 수치 차이 큼" }
       ],
-      "decision": "옛 '11월~5월 비가 거의 내리지 않고'는 5월(247mm)에 맞지 않아 고치고, 시기표를 5행으로 나눔. best_season 속성은 그대로 둠"
+      "decision": "옛 '11월~5월 비가 거의 내리지 않고'는 5월(250mm 안팎)에 맞지 않아 고치고, 시기표를 5행으로 나눔. best_season 속성은 그대로 둠. 2라운드: PAGASA 표와 위키 값이 조금 달라(7~8월 838~929, 11월 62~65, 5월 247~255) 5월·7~8월·11월은 '약'·범위로 낮추고, 낮 기온은 자료마다 달라 30~33℃로 넓힘"
     },
     {
       "where": "stay_and_food",

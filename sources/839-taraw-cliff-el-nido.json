@@ -1,4 +1,4 @@
-{ "id": 839, "slug": "taraw-cliff-el-nido", "checked_at": "2026-11-18T00:00:00Z",
+{ "id": 839, "slug": "taraw-cliff-el-nido", "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     { "where": "overview/highlights", "fact": "절벽 높이", "value": "약 230~270m", "sources": [
       { "url": "https://www.lakwatsero.com/spots/taraw-cliff-el-nido/", "grade": "B", "date": "2020", "says": "약 230m, 정상까지 45분 이상" },
@@ -12,9 +12,14 @@
     { "where": "coordinates", "fact": "좌표", "value": "11.1776, 119.3887", "sources": [
       { "url": "https://nominatim.openstreetmap.org/search?q=Taraw+El+Nido+Palawan", "grade": "A", "date": "2026-11", "says": "Taraw Peak, El Nido 11.1776413, 119.3886515" },
       { "url": "https://en.wikipedia.org/wiki/El_Nido,_Palawan", "grade": "A", "date": "2026-11", "says": "엘니도 타운 11.18, 119.39로 같은 곳" } ], "decision": "타운 바로 뒤 위치와 일치" },
-    { "where": "getting_there/costs", "fact": "마닐라 직항 중단, 환경세 등", "value": "저장소의 엘니도 항목(data/ko/045-el-nido.json) 값 재사용", "sources": [
-      { "url": "repo:data/ko/045-el-nido.json", "grade": "B", "date": "2026", "says": "마닐라–엘니도 직항 없음, PPS 밴 5~6시간 ₱600~800, ETDF ₱400" } ], "decision": "독립 재확인은 하지 않음, 통합 때 엘니도 항목과 함께 점검" },
-    { "where": "tips", "fact": "예약 사이트 운영 중단 공지", "value": "2025-01-01 공지가 붙은 상품 있음", "sources": [
-      { "url": "https://www.klook.com/activity/22445-taraw-cliff-canopy-walk-palawan/", "grade": "C", "date": "2025", "says": "검색 요약에서 확인, 페이지는 직접 열지 못함" } ], "decision": "최신 공지 확인 문구로만 사용" }
+    { "where": "getting_there/costs", "fact": "마닐라 직항 중단, 환경세 등", "value": "마닐라–엘니도 직항 없음(2026-03-29 이후 프로펠러기 NAIA 퇴출, 클락 출발), ETDF 약 ₱400(유효 5~10일로 엇갈림)", "sources": [
+      { "url": "repo:data/ko/045-el-nido.json", "grade": "B", "date": "2026", "says": "마닐라–엘니도 직항 없음, PPS 밴 5~6시간 ₱600~800, ETDF ₱400" },
+      { "url": "https://elnidoinsights.com/how-to-get-to-el-nido/", "grade": "B", "date": "2026-11", "says": "마닐라–엘니도 직항은 더 이상 없고 클락이 유일한 관문, 프로펠러 노선은 2026년 3월 29일 NAIA에서 클락으로 이전, Cebgo(DG) 운항" },
+      { "url": "https://elnidomap.com/en/guides/eco-tourism-development-fee/", "grade": "B", "date": "2026-10", "says": "ETDF 팔라완 밖 출발 ₱400·팔라완 안 ₱200, 2024-06-01 시행 조례, 1회 납부로 5일 유효(10일은 옛 정보라고 주장)" },
+      { "url": "https://elnidodigital.com/fees/etdf/", "grade": "B", "date": "2026-08", "says": "ETDF ₱400(2024-06-01 시행), 유효 10일, 공식 사이트는 확인 못 했다고 밝힘" },
+      { "url": "https://palawanisland.com/palawan-fees/", "grade": "B", "date": "2026-10", "says": "ETDF 팔라완 밖 ₱400, 유효 5일로 보고되나 공식 문서로 확인 못 함" } ], "decision": "직항 중단과 ₱400 은 여러 출처가 일치해 유지, 유효 기간은 5일·10일로 엇갈려 '5~10일, 납부 때 확인'으로 낮춤" },
+    { "where": "tips", "fact": "예약 사이트 운영 중단 공지", "value": "2025-01-01 공지가 붙은 상품 있으나 2026-09 에도 판매 목록은 운영 중으로 소개됨(엇갈림)", "sources": [
+      { "url": "https://www.klook.com/activity/22445-taraw-cliff-canopy-walk-palawan/", "grade": "C", "date": "2025", "says": "검색 요약에 2025-01-01 운영 중단 공지가 보임, 페이지는 403 으로 직접 열지 못함" },
+      { "url": "https://elnidobible.com/taraw-cliff-el-nido/", "grade": "C", "date": "2026-09", "says": "캐노피 워크는 2026-09-26 기준 판매 목록이 살아 있어 운영 중으로 보이나 운영사 공식 확인은 없음, 요금 ₱400~700·환경 요금 ₱10~30, 정상 등반은 2019 DENR 가 승인 운영사 없다고 밝힘" } ], "decision": "운영 여부가 엇갈리므로 '최신 공지 확인' 문구와 함께 상충을 밝혀 서술" }
   ],
   "images": [] }

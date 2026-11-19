@@ -1,7 +1,7 @@
 {
  "id": 720,
  "slug": "busuanga",
- "checked_at": "2026-11-19T00:00:00Z",
+ "checked_at": "2026-11-19T05:32:16Z",
  "facts": [
   {
     "where": "summary·highlights·costs",
@@ -124,16 +124,34 @@
   {
    "where": "overview",
    "fact": "인구·면적·고도",
-   "value": "26,974명(2024), 392.9km², 최고 608m",
+   "value": "26,974명(2024), 392.9km², 최고 약 600m 안팎(600~650m)",
    "sources": [
     {
      "url": "https://en.wikipedia.org/wiki/Busuanga,_Palawan",
-     "grade": "A",
+     "grade": "B",
      "date": "2026",
      "says": "2024 census 26,974; 392.90 km2; highest 608 m"
+    },
+    {
+     "url": "https://citypopulation.de/en/philippines/luzon/admin/palawan/175307__busuanga/",
+     "grade": "B",
+     "date": "2026",
+     "says": "2024 census 26,974 (2020: 25,617)"
+    },
+    {
+     "url": "https://www.philatlas.com/luzon/mimaropa/palawan/busuanga.html",
+     "grade": "B",
+     "date": "2026",
+     "says": "land area 392.90 km2 (2013), 2020 pop 25,617"
+    },
+    {
+     "url": "https://peakbook.org/peakbook-element/75168/Mt.+Tundalara.html",
+     "grade": "C",
+     "date": "2026",
+     "says": "Mt. Tundalara 640 m (other sources 600-650 m)"
     }
    ],
-   "decision": "위키백과 단일"
+   "decision": "인구는 위키·citypopulation 일치, 면적은 위키·PhilAtlas 일치(위키 본문엔 약 527km² 표기도 있어 약 393km²로 유지). 최고봉은 자료마다 600~650m로 갈려 약 600m 안팎으로 낮춤."
   },
   {
    "where": "overview",
@@ -242,16 +260,22 @@
   {
    "where": "highlights",
    "fact": "칼라윗 동물",
-   "value": "1977 케냐에서 104마리, 600마리 이상",
+   "value": "1976~77 케냐에서 104마리(본문은 기린·얼룩말 관람만 서술)",
    "sources": [
     {
      "url": "https://en.wikipedia.org/wiki/Busuanga,_Palawan",
-     "grade": "A",
+     "grade": "B",
      "date": "2026",
      "says": "104 animals from Kenya March 1977; over 600"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Calauit_Safari_Park",
+     "grade": "B",
+     "date": "2026",
+     "says": "104 animals of eight species, May 1976-Aug 1977; 2024 descendants include 18 giraffes and 27 zebras"
     }
    ],
-   "decision": "단일, 상세는 별도 항목 안내"
+   "decision": "본문 highlights 에는 연도·마릿수 단정이 없고 기린·얼룩말 관람만 적혀 있어 유지. 600마리 이상 수치는 위키 두 문서 간 어긋나(2024년 기린 18·얼룩말 27) 본문에 쓰지 않음."
   }
  ],
  "images": []

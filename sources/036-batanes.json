@@ -1,7 +1,7 @@
 {
   "id": 36,
   "slug": "batanes",
-  "checked_at": "2026-10-04T15:00:00Z",
+  "checked_at": "2026-11-19T12:00:00Z",
   "facts": [
     {
       "where": "getting_there",
@@ -224,11 +224,14 @@
     {
       "where": "nearby",
       "fact": "칼라오 동굴 거리",
-      "value": "투게가라오에서 약 24km, 트라이시클 40분~1시간",
+      "value": "투게가라오에서 약 21~24km, 트라이시클 30분~1시간",
       "sources": [
-        { "url": "data/ko/145-callao-cave.json", "grade": "B", "date": "2026-10", "says": "투게가라오에서 북동쪽으로 약 24km ... 트라이시클 40분~1시간" }
+        { "url": "data/ko/145-callao-cave.json", "grade": "B", "date": "2026-10", "says": "투게가라오에서 북동쪽으로 약 24km ... 트라이시클 40분~1시간" },
+        { "url": "https://en.wikipedia.org/wiki/Callao_Cave", "grade": "B", "date": "2026", "says": "투게가라오 시에서 북동쪽 약 24km(15mi)" },
+        { "url": "https://www.showcaves.com/english/ph/showcaves/Callao.html", "grade": "C", "date": "2026", "says": "투게가라오 북동쪽 약 21km, 차로 약 30분(경로 2.5+3.6+15km)" },
+        { "url": "https://www.lakwatsero.com/destinations/callao-cave/", "grade": "C", "date": "2017-09", "says": "투게가라오에서 약 24km, 공용 트라이시클 약 30분(P40), 전세 왕복 P400 이상" }
       ],
-      "decision": "투게가라오 출발 소형기와 묶을 수 있어 nearby 카드로 더함"
+      "decision": "출처마다 21~24km·30분~1시간으로 갈려 범위로 낮춤. 투게가라오 출발 소형기와 묶을 수 있어 nearby 카드로 더함"
     }
   ],
   "images": [
