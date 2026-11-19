@@ -1,7 +1,7 @@
 {
   "id": 206,
   "slug": "san-agustin-church",
-  "checked_at": "2026-10-03T14:10:00Z",
+  "checked_at": "2026-11-19T12:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -448,7 +448,7 @@
     {
       "where": "getting_there",
       "fact": "지프니(카리에도·도로테오 호세 → 마닐라 대성당)와 도보",
-      "value": "약 10~15분, 약 ₱13, 대성당에서 제너럴 루나 거리 따라 도보 5~10분",
+      "value": "약 10~15분, 약 ₱14(2026-09-28 인상), 대성당에서 제너럴 루나 거리 따라 도보 5~10분",
       "sources": [
         {
           "url": "https://www.thepoortraveler.net/san-agustin-church-manila/",
@@ -461,23 +461,47 @@
           "grade": "C",
           "date": "2026-07-20",
           "says": "LRT-1 to Central Terminal, \"San Agustin Church, General Luna Street\" 내비게이션 입력"
+        },
+        {
+          "url": "https://www.topgear.com.ph/news/industry-news/dotr-fare-hike-september-28-2026-a6941-20260928",
+          "grade": "B",
+          "date": "2026-09-28",
+          "says": "전통 지프니 최저 요금 P14(처음 4km), 이후 km당 P2, 2026-09-28 시행(3월 인상 보류 해제)"
+        },
+        {
+          "url": "https://parkinganph.com/guides/fare-matrix",
+          "grade": "C",
+          "date": "2026-09-28",
+          "says": "전통 지프니 최저 ₱14(4km), 2026-09-28 시행, 이전 ₱13"
         }
       ],
-      "decision": "지프니 요금은 출처 1곳이라 \"약\"으로 표기. 센트럴 터미널 역·그랩 요금·공항 거리(₱300~600, 약 10km, ₱250~450)는 기존 001 인트라무로스 항목의 확인값을 그대로 썼다."
+      "decision": "지프니 요금은 2026-09-28 인상된 전통 지프니 최저 요금 ₱14(처음 4km)로 고쳤다(출처 2곳 일치). 카리에도~마닐라 대성당은 4km 안쪽이라 최저 요금을 적용하되 노선별 실제 요금은 \"약\"으로 표기. 소요 시간 10~15분·도보 5~10분은 방문기 1곳 값 그대로. 센트럴 터미널 역·그랩 요금·공항 거리(₱300~600, 약 10km, ₱250~450)는 기존 001 인트라무로스 항목의 확인값을 그대로 썼다."
     },
     {
       "where": "costs",
       "fact": "포트 산티아고 입장료 ₱75",
-      "value": "약 ₱75",
+      "value": "일반 ₱75, 학생·노인·장애인 ₱50",
       "sources": [
         {
-          "url": "data/ko/001-intramuros.json (저장소 안의 기존 항목)",
-          "grade": "B",
-          "date": "2026-10-03",
-          "says": "001 인트라무로스 본문: 포트 산티아고·바루아르테 데 산 디에고·카사 마닐라 입장료 각 ₱75"
+          "url": "https://intramuros.gov.ph/hours/",
+          "grade": "A",
+          "date": "2026",
+          "says": "포트 산티아고 일반 PHP 75.00, 학생·노인·장애인 PHP 50.00"
+        },
+        {
+          "url": "https://whatsonmnl.com/blog/intramuros-guide",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "\"Updated November 2026\" — 포트 산티아고 일반 ₱75, 학생·노인·장애인 ₱50(할인은 유효 신분증)"
+        },
+        {
+          "url": "https://www.thepoortraveler.net/intramuros-manila/",
+          "grade": "C",
+          "date": "2021-03-10",
+          "says": "P75 (Adults), P50 (Students & PWDs), 현금·Beep·PayMaya 결제"
         }
       ],
-      "decision": "이 항목에서 새로 확인한 값이 아니다. 인트라무로스 항목과 동일하게 맞춤(본문은 \"성당과 묶는 코스 기준\")"
+      "decision": "공식 관리청 페이지와 2026년 11월 갱신 가이드가 일치해 구체 값 ₱75(할인 ₱50)로 확정. 본문은 \"약\"을 빼고 할인 요금과 출처 연도를 덧붙임"
     },
     {
       "where": "meta",

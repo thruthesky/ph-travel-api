@@ -1,7 +1,7 @@
 {
  "id": 1379,
  "slug": "diplomat-hotel",
- "checked_at": "2026-11-18T00:00:00Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "overview",
@@ -46,7 +46,7 @@
   {
    "where": "costs",
    "fact": "입장료·운영 시간",
-   "value": "무료~약 ₱10, 시간 출처마다 다름",
+   "value": "약 ₱10(성인)·어린이 약 ₱5(2026년 한 안내), 시간 07:00~17:00 또는 08:00~17:00",
    "sources": [
     {
      "url": "https://www.travel-tramp.com/exploring-the-abandoned-diplomat-hotel-baguio/",
@@ -59,23 +59,47 @@
      "grade": "C",
      "date": "2025",
      "says": "입장료 있음(금액 미표기), 내부 출입 제한"
+    },
+    {
+     "url": "https://www.thepoortraveler.net/baguio-tourist-spots-things-to-do/",
+     "grade": "C",
+     "date": "2026-08-11",
+     "says": "성인 ₱10·어린이 ₱5, 매일 07:00~17:00, 시간은 바뀔 수 있음"
+    },
+    {
+     "url": "https://transitpinas.com/diplomat-hotel-baguio/",
+     "grade": "C",
+     "date": "2020-10-24",
+     "says": "입장료 무료, 매일 08:00~17:00"
     }
    ],
-   "decision": "충돌하므로 범위·현장 확인으로 표기"
+   "decision": "최신(2026) 안내와 2025 지도 글이 입장료 있음에 일치해 약 ₱10으로 고치되 과거 무료 글이 있어 현장 확인 문구 유지. 09:00~18:00 화~일은 튀바(Tuba)의 다른 호텔 정보와 섞인 것으로 보여 빼고 07:00/08:00~17:00으로 정정"
   },
   {
    "where": "costs",
    "fact": "시내 택시",
-   "value": "약 ₱100",
+   "value": "약 ₱100~200(2019~2020년 후기 ₱100~150, 기본요금 2024년 ₱50)",
    "sources": [
     {
      "url": "https://www.travel-tramp.com/exploring-the-abandoned-diplomat-hotel-baguio/",
      "grade": "C",
      "date": "2019-06-18",
      "says": "미터 약 100 PHP"
+    },
+    {
+     "url": "https://transitpinas.com/diplomat-hotel-baguio/",
+     "grade": "C",
+     "date": "2020-10-24",
+     "says": "택시 약 PHP 130~150"
+    },
+    {
+     "url": "http://www.igorotage.com/blog/baguio-p50-taxi-flagdown-rate/",
+     "grade": "C",
+     "date": "2024-08-08",
+     "says": "바기오 택시 기본요금 ₱40에서 ₱50으로 인상(LTFRB 승인)"
     }
    ],
-   "decision": "2019년 기준임을 본문에 명시"
+   "decision": "오래된 후기 2건이 100~150으로 겹치고 2024년 기본요금 인상이 있어 범위 약 ₱100~200으로 두고 연도를 밝힘"
   },
   {
    "where": "lat/lon",

@@ -1,7 +1,7 @@
 {
   "id": 433,
   "slug": "mount-tapyas",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T04:31:00Z",
   "facts": [
     {
       "where": "costs",
@@ -370,16 +370,22 @@
     {
       "where": "getting_there",
       "fact": "마닐라–클락 P2P 버스",
-      "value": "약 3시간, 약 ₱450~600",
+      "value": "약 3~3.5시간, 약 ₱380~600",
       "sources": [
         {
           "url": "https://coron-busuanga.com/how-to-get-to-coron/",
           "grade": "B",
           "date": "2026-03",
           "says": "Genesis P2P about 3 hours, ₱450-600"
+        },
+        {
+          "url": "https://bustickets.ph/genesis-p2p-bus-to-clark-airport-bus/",
+          "grade": "C",
+          "date": "2026",
+          "says": "Genesis P2P to Clark: NAIA 1·2 AC PHP 450, NAIA 3·Ortigas AC PHP 430, Trinoma AC PHP 380; approx. 3 hours 30 minutes (no effective date; FAQ range PHP 370-600)"
         }
       ],
-      "decision": "출처 1곳(2026-03)이라 '약'으로, 47-coron 의 기존 확인(₱550~630)과 범위 겹침"
+      "decision": "두 출처의 시간(3~3.5시간)과 요금(₱380~600)을 합쳐 범위로 쓰고 출발 정류장·좌석 등급에 따라 다르다고 밝힘"
     },
     {
       "where": "getting_there/costs",
@@ -418,16 +424,28 @@
     {
       "where": "getting_there",
       "fact": "마닐라–코론 여객선",
-      "value": "주 1~2회, 12~18시간",
+      "value": "선사마다 주 1~2회(요일 자료마다 다름), 11~18시간",
       "sources": [
         {
           "url": "https://coron-busuanga.com/how-to-get-to-coron/",
           "grade": "B",
           "date": "2026-03",
           "says": "2GO and Atienza, 12-18 hours, twice a week"
+        },
+        {
+          "url": "https://bustickets.ph/?p=2296",
+          "grade": "C",
+          "date": "2026",
+          "says": "2GO Manila to Coron approximately 11 to 13 hours; page conflicts on sailing days (Friday/Sunday)"
+        },
+        {
+          "url": "https://pamasahe.com/routes/manila-coron-roro-atienza-interisland-ferries-schedule-fares",
+          "grade": "C",
+          "date": "2026-10",
+          "says": "Atienza Manila-Coron about 13 hours, Wednesday/Saturday sailings (page inconsistent); economy ₱1700"
         }
       ],
-      "decision": "요금은 쓰지 않고 시간표 확인 문구"
+      "decision": "소요 시간은 세 출처를 합쳐 11~18시간, 운항 요일은 출처마다 달라 '현지 확인'으로 낮춤. 요금은 쓰지 않음"
     },
     {
       "where": "getting_there/costs",
@@ -464,16 +482,28 @@
     {
       "where": "costs",
       "fact": "오토바이 대여",
-      "value": "약 ₱500~800/일",
+      "value": "약 ₱400~700/일 (블로그 기준, 현지 확인)",
       "sources": [
         {
           "url": "https://bemytravelmuse.com/mount-tapyas",
           "grade": "C",
           "date": "2023-01-25",
           "says": "rented a scooter for 500 PHP for the day"
+        },
+        {
+          "url": "https://theworldtravelguy.com/coron-palawan/",
+          "grade": "C",
+          "date": "2025-05-12",
+          "says": "Scooter rentals are about 500 peso ($10 USD) per day"
+        },
+        {
+          "url": "https://www.bemytravelmuse.com/coron-budget-guide/",
+          "grade": "C",
+          "date": "2023-01-27",
+          "says": "Scooter rental: $7/day in Coron"
         }
       ],
-      "decision": "47-coron 기존 값(₱500~800)과 맞춤"
+      "decision": "출처가 모두 개인 블로그(C)·2023~2025년이라 구체 값 대신 약 ₱400~700 범위로 낮추고 현지 확인 문구를 붙임"
     },
     {
       "where": "costs/getting_there",

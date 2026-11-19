@@ -1,7 +1,7 @@
 {
   "id": 19,
   "slug": "subic-bay",
-  "checked_at": "2026-10-04T14:00:00Z",
+  "checked_at": "2026-11-19T04:31:11Z",
   "facts": [
     {
       "where": "best_season",
@@ -61,12 +61,15 @@
     {
       "where": "getting_there",
       "fact": "클락 공항–올롱가포 버스",
-      "value": "빅토리 라이너, 다우 경유, 약 1시간 30분, 약 ₱200~260, 하루 10여 회",
+      "value": "빅토리 라이너, 다우 경유, 약 1시간 30분, 약 ₱250~260, 시간표상 하루 10여 회, 일부 안내는 P2P 중단",
       "sources": [
         { "url": "https://www.philippinebeaches.org/clark-airport-p2p-bus-guide-routes-schedules/", "grade": "C", "date": "2026-03-25", "says": "Clark Airport T2 도착층 버스 정류장 출발, ₱258, 약 1.5시간, 하루 12회" },
-        { "url": "https://bustickets.ph/victory-liner-clark-to-subic-bus/", "grade": "C", "date": "날짜 없음", "says": "₱200, 약 1시간 20분, 하루 16회" }
+        { "url": "https://bustickets.ph/victory-liner-clark-to-subic-bus/", "grade": "C", "date": "날짜 없음", "says": "₱200, 약 1시간 20분, 하루 16회 (날짜 없는 옛 글)" },
+        { "url": "https://philippinedives.com/how-to-get-to-subic-bay/", "grade": "C", "date": "2026", "says": "클락→올롱가포 빅토리 라이너 PHP 250~290, 약 1.5시간, 공항 정류장 또는 다우 터미널 승차, 운행 빈도는 바뀌니 확인하라" },
+        { "url": "https://2gobusandferries.com/victory-liner-olongapo-to-clark-airport-schedule-fare-2026/", "grade": "C", "date": "2026", "says": "클락 국제공항 출발 15회(01:30~22:00) 시간표, 다우 경유, 올롱가포발 ₱351, 요금·시간표는 예고 없이 바뀜" },
+        { "url": "https://ph.commutetour.com/ph/terminal/olongapo/", "grade": "C", "date": "2025", "says": "다우 경유 ₱254, 같은 페이지에 빅토리 라이너 P2P 중단 안내와 시간표가 함께 있음" }
       ],
-      "decision": "요금이 갈려 범위로 쓰고 회수는 '10여 차례'로 씀"
+      "decision": "최신 두 곳이 ₱254~258, 다른 한 곳은 ₱250~290이라 약 ₱250~260 으로 좁히고 연도를 붙임. 시간표는 12~15회로 갈려 '시간표상 10여 차례'로 쓰고, 중단 안내가 있어 타기 전 확인하라고 덧붙임"
     },
     {
       "where": "getting_there",
@@ -81,12 +84,13 @@
     {
       "where": "getting_there",
       "fact": "자유무역항구역 안 교통",
-      "value": "지프니·트라이시클 진입 불가, 미터기 없는 SUV 택시",
+      "value": "지프니·트라이시클 진입 불가, SUV 택시(미터기 여부·요금은 출처마다 다름)",
       "sources": [
         { "url": "https://www.philippinebeaches.org/step-by-step-travel-guide-to-subic/", "grade": "C", "date": "2024-08-23", "says": "구역 안은 SUV 택시가 유일한 수단, 미터 없이 흥정, 지프니로 SM 올롱가포까지 가서 걸어 들어감" },
-        { "url": "https://www.kupi.com/en/explore/philippines/subic-bay-freeport-zone", "grade": "C", "date": "2025-06", "says": "SBFZ 로고·차량 번호를 단 SUV 택시 ₱100~700, 지프니 진입 불가 (검색 요약)" }
+        { "url": "https://www.kupi.com/en/explore/philippines/subic-bay-freeport-zone", "grade": "C", "date": "2025-06", "says": "SBFZ 로고·차량 번호를 단 SUV 택시 ₱100~700, 지프니 진입 불가 (검색 요약, 페이지는 403 으로 못 엶)" },
+        { "url": "https://philippinedives.com/how-to-get-to-subic-bay/", "grade": "C", "date": "2026", "says": "지프니·트라이시클은 프리포트에 못 들어옴, 프리포트 택시는 게이트 관리형이며 미터기 사용·PHP 150~300으로 안내(다른 출처와 갈림)" }
       ],
-      "decision": "택시 요금은 한 곳뿐이라 숫자 없이 '타기 전에 값을 정하라'로 씀. 옛 '차량 대절 ₱2,500~4,000'은 근거를 못 찾아 렌터카 요금으로 바꿈"
+      "decision": "지프니·트라이시클 진입 불가는 세 곳이 일치. 택시는 미터기 없음(philippinebeaches)과 미터기 있음(philippinedives)이 갈리고 요금도 달라 숫자 없이 '미터기 여부·요금이 안내마다 달라 타기 전에 확인하고 값을 정하라'로 고침. 이전 결정: '타기 전에 값을 정하라'로 씀. 옛 '차량 대절 ₱2,500~4,000'은 근거를 못 찾아 렌터카 요금으로 바꿈"
     },
     {
       "where": "costs",

@@ -1,7 +1,7 @@
 {
   "id": 67,
   "slug": "kawasan-falls",
-  "checked_at": "2026-10-04T13:00:00Z",
+  "checked_at": "2026-11-19T04:31:53Z",
   "facts": [
     {
       "where": "costs·cautions",
@@ -72,24 +72,27 @@
     {
       "where": "getting_there",
       "fact": "세부 시티 출발 버스·전세 차량·공항 택시 요금",
-      "value": "버스 ₱195~230(약 3.5~4시간), 전세 ₱3,000~5,000(약 2.5~3시간), 공항~남부 터미널 택시 ₱300~500",
+      "value": "버스 약 ₱170~250(약 3~4시간, 냉방·하차 지점별), 전세 ₱3,000~5,000(약 2.5~3시간), 공항~남부 터미널 택시 ₱300~500",
       "sources": [
         { "url": "https://whycebu.com/how-to-get-to-kawasan-falls/", "grade": "C", "date": "2026-05-01", "says": "Ceres Bato via Barili, aircon P200-250, 3.5-4h; 공항 택시 P350-500, 전세 P3,000-5,000, 2.5-3h" },
         { "url": "https://cebuinsider.com/how-to-get-to-badian-cebu/", "grade": "C", "date": "2026-04-20", "says": "버스 200~250 PHP·3시간, 세단 택시 3,500~4,500 PHP, 공항~터미널 약 300 PHP" },
-        { "url": "https://www.badian.info/getting-to-badian/", "grade": "C", "date": "2026-10-04", "says": "공항 픽업 PHP 4,500·약 2.5시간, 택시 약 3,000 PHP" }
+        { "url": "https://www.badian.info/getting-to-badian/", "grade": "C", "date": "2026-10-04", "says": "Ceres 남부 터미널발 100~150 PHP·약 3시간(날짜 없음), 공항 픽업 PHP 4,500·약 2.5시간, 택시 약 3,000 PHP" },
+        { "url": "https://cebuinsider.com/how-to-get-to-badian-cebu/", "grade": "C", "date": "2026-04-20", "says": "Fetched: 에어컨 버스 200~250 PHP·약 3시간(하차 지점별), 세단 택시 3,500~4,500 PHP, 공항~남부 터미널 택시 약 300 PHP" }
       ],
-      "decision": "기존 버스 ₱195~230 은 그대로 두고 택시·전세 항목을 새로 더함. 버스 요금은 ₱130~165(옛 표)부터 ₱250까지 갈려 기존 값을 유지"
+      "decision": "버스 요금이 출처마다 ₱100~150(날짜 없음)·₱170·₱200~250·₱195~230 으로 갈리고 공식 표가 없어 '약 ₱170~250, 냉방·하차 지점별, 탑승 전 확인'으로 낮춤(시간은 3~4시간). 전세 ₱3,000~5,000 은 whycebu·cebuinsider·badian.info 가 겹쳐 유지, 공항 택시 ₱300~500 도 유지"
     },
     {
       "where": "getting_there",
       "fact": "오슬롭·두마게테·모알보알에서 오는 법",
-      "value": "오슬롭 ₱100~150·1.5~2시간(바토 환승), 두마게테 시불란~리로안 배 20~30분 ₱60~70, 모알보알 오토바이 ₱300~400/일",
+      "value": "오슬롭 약 ₱100~160·1.5~2시간(바토 환승), 두마게테 시불란~리로안 배 20~30분 약 ₱60~150(옛 안내 62~70, 2026 쿠아드로 알라스 표 150), 모알보알 오토바이 ₱300~600/일(비수기 약 300, 성수기 450~600)",
       "sources": [
         { "url": "https://lakbaypinas.com/kawasan-falls-canyoneering-guide-badian-cebu-tour/", "grade": "C", "date": "2026-10-04", "says": "Oslob → Kawasan via Bato transfer 1.5-2 hrs ₱100-150; Moalboal 30-40 min" },
         { "url": "https://whycebu.com/how-to-get-to-kawasan-falls/", "grade": "C", "date": "2026-05-01", "says": "Oslob P120-160, 1.5-2h; 모알보알 스쿠터 P300-400/일" },
-        { "url": "https://www.badian.info/getting-to-badian/", "grade": "C", "date": "2026-10-04", "says": "Sibulan–Liloan 페리 20~30분 62~70 PHP, Liloan–Bato 트라이시클 50 PHP, Bato–Badian 약 1.5시간 80 PHP" }
+        { "url": "https://www.badian.info/getting-to-badian/", "grade": "C", "date": "2026-10-04", "says": "Sibulan–Liloan 페리 20~30분 62~70 PHP(날짜 없음), Liloan–Bato 트라이시클 50 PHP, Bato–Badian 약 1.5시간 80 PHP" },
+        { "url": "https://2gobusandferries.com/cuadro-alas-liloan-sibulan-ferry-schedule-fares-2026/", "grade": "C", "date": "2026", "says": "Fetched: 쿠아드로 알라스 일반 요금 ₱150(학생 128·노인 120·어린이 75), 소요 시간 미기재" },
+        { "url": "https://bikesbooking.com/en/scooter-rental-moalboal/", "grade": "C", "date": "2026", "says": "Fetched: 모알보알 스쿠터 비수기(6~10월) 약 300 PHP/일, 성수기(12~4월) 450~600, 대형 자동 600~900" }
       ],
-      "decision": "두마게테 구간은 요금·시간이 오래된 안내 글이라 '약'과 범위로 씀"
+      "decision": "오슬롭은 whycebu(120~160)·lakbaypinas(100~150)로 ₱100~160 범위. 두마게테 배 요금은 옛 안내(62~70)와 2026 표(150)가 달라 ₱60~150 으로 넓히고 선착장 확인을 씀. 모알보알 오토바이는 whycebu 300~400 과 bikesbooking 성수기 450~600 을 합쳐 ₱300~600 으로 고침"
     },
     {
       "where": "stay_and_food·highlights",

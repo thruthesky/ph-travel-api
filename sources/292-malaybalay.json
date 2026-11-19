@@ -1,7 +1,7 @@
 {
   "id": 292,
   "slug": "malaybalay",
-  "checked_at": "2026-11-13T04:25:52Z",
+  "checked_at": "2026-11-19T04:31:00Z",
   "facts": [
     {
       "where": "all",
@@ -176,28 +176,32 @@
       "fact": "2026년 유가 상승으로 버스 요금 할증",
       "value": "Rural Transit 다바오–CDO ₱955, 연료 할증 경고",
       "sources": [
-        { "url": "https://pamasahe.com/routes/davao-cagayan-de-oro-rural-transit-schedule-fares", "grade": "C", "date": "2026-09", "says": "연료 할증으로 안내 요금보다 오를 수 있다는 경고" }
+        { "url": "https://pamasahe.com/routes/davao-cagayan-de-oro-rural-transit-schedule-fares", "grade": "C", "date": "2026-09", "says": "Rural Transit 다바오–CDO 정규 요금 ₱955, 중동 정세로 현재 요금이 표기보다 높을 수 있다는 경고(2026년 9월 갱신)" },
+        { "url": "https://malaybalay.bomboradyo.com/hangyo-nga-p15-minimum-plete-sa-mga-motorela-sa-malaybalay-nagpabiling-pending-sa-konseho/", "grade": "B", "date": "2026-04-30", "says": "부키드논 연료가 리터당 약 ₱80~85로 올라 모토렐라 기사들이 인상을 요구" }
       ],
-      "decision": "'2026년에는 유가 상승으로 안내된 값보다 오른 경우가 있다'로 씀"
+      "decision": "'유가 상승으로 안내 값보다 오를 수 있다고 운영사 안내 페이지가 경고한다'로 낮춰 쓰고 ₱955 는 예시로만 적음(운영사 공식 확인은 못 함)"
     },
     {
       "where": "getting_there",
       "fact": "마닐라·세부 → 라기니단 비행 시간",
-      "value": "마닐라 1시간 25분, 세부 50분",
+      "value": "마닐라 약 1시간 35분~1시간 45분(옛 값 1시간 25분), 세부 약 50분",
       "sources": [
-        { "url": "data/ko/093-cagayan-de-oro.json", "grade": "B", "date": "2026", "says": "같은 저장소 093 의 가는 방법 값" }
+        { "url": "data/ko/093-cagayan-de-oro.json", "grade": "B", "date": "2026", "says": "같은 저장소 093 의 가는 방법 값" },
+        { "url": "https://www.rome2rio.com/s/Manila-Airport-MNL/Laguindingan-Airport-CGY", "grade": "C", "date": "2026", "says": "마닐라–라기니단 직항 PAL 약 1시간 35분, 에어아시아 약 1시간 38분, 세부퍼시픽 약 1시간 44분" },
+        { "url": "https://www.cheapflights.com.ph/flights/Manila-MNL/Cagayan-de-Oro-CGY.5J.ksp", "grade": "C", "date": "2026", "says": "세부퍼시픽 직항 약 1시간 40분(검색 요약으로만 확인)" }
       ],
-      "decision": "093 과 같은 값으로 맞춤"
+      "decision": "마닐라는 항공사 시간표가 1시간 35분~1시간 45분이라 '약 1시간 35분~1시간 45분'으로 고침. 세부 약 50분은 검색 요약상 45~55분이라 유지(해당 페이지는 열어 보지 못함)"
     },
     {
       "where": "getting_there",
       "fact": "시내 모토렐라 요금",
-      "value": "₱10~15(축제 안내), 바탕 글 ₱10~20 / ₱15~30",
+      "value": "시내 ₱13~14(2026-04 보도), 밤 ₱20 안팎, 인상 요구 ₱15 계류 중 / 옛 값 ₱10~15·₱15~30",
       "sources": [
         { "url": "https://lakbaypinas.com/?p=13301", "grade": "C", "date": "2025-01-06", "says": "모토렐라 ₱10~15" },
-        { "url": "philgo:travel/1275712455", "grade": "C", "date": "2026-02", "says": "트라이시클 ₱15~30" }
+        { "url": "philgo:travel/1275712455", "grade": "C", "date": "2026-02", "says": "트라이시클 ₱15~30" },
+        { "url": "https://malaybalay.bomboradyo.com/hangyo-nga-p15-minimum-plete-sa-mga-motorela-sa-malaybalay-nagpabiling-pending-sa-konseho/", "grade": "B", "date": "2026-04-30", "says": "현재 시내 ₱13, 랜딩 방면 ₱14, 최저 ₱15 인상 요구가 시의회에 계류, 8시 이후 파키아오 요금이나 대부분 기사는 ₱20만 받음" }
       ],
-      "decision": "거리에 따라 다르므로 '약 ₱15~30'"
+      "decision": "지역 언론 최신 보도(2026-04)에 맞춰 '약 ₱13~20'으로 고치고 본문에 보도 시점·계류 중·현지 확인을 적음. 독립된 두 번째 출처는 못 찾음"
     },
     {
       "where": "stay_and_food",

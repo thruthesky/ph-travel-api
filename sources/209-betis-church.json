@@ -1,7 +1,7 @@
 {
   "id": 209,
   "slug": "betis-church",
-  "checked_at": "2026-10-03T14:05:12Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -300,8 +300,14 @@
     {
       "where": "getting_there",
       "fact": "마닐라–과과 버스 요금",
-      "value": "약 ₱150~250(편도)",
+      "value": "약 ₱110~250(편도, 출발지·등급별)",
       "sources": [
+        {
+          "url": "https://victorylinerbus.com/rates/",
+          "grade": "B",
+          "date": "2026",
+          "says": "Caloocan to Guagua (Pampanga route) fare from P112, about 2-3 hours; fares indicative and subject to change; no Cubao/Pasay-Guagua fare listed"
+        },
         {
           "url": "https://www.rome2rio.com/s/Manila/Guagua",
           "grade": "C",
@@ -315,13 +321,19 @@
           "says": "Victory Liner offers comparable pricing to Bataan Transit for Manila–Pampanga routes; PHP fare not shown"
         }
       ],
-      "decision": "PHP로 적힌 공식 요금표를 못 찾았다(A등급 없음). 환산 근거라 범위로 쓰고 최신 시간표 확인 안내를 붙였다. 확신 낮음"
+      "decision": "운영사 요금 페이지(빅토리 라이너)에서 칼로오칸–과과 ₱112부터를 확인해 하한을 ₱110으로 낮추고, 아베니다 출발 일반 버스 환산 약 ₱200을 상한 ₱250에 두었다. 바탄 트랜싯의 PHP 공식 요금은 못 찾았으므로 범위와 현지 확인 안내를 유지한다"
     },
     {
       "where": "costs",
       "fact": "트라이시클·그랩·차량 대절·점심 비용",
-      "value": "트라이시클 ₱30~100, 클락→베티스 그랩 ₱800~1,500, 기사 포함 대절 ₱3,500~6,000, 점심 ₱150~400, 헌금 ₱20~100",
+      "value": "트라이시클 ₱30~100, 클락→베티스 그랩 ₱800~1,500(추정), 기사 포함 대절 ₱3,500~6,000(추정), 점심 ₱100~400, 헌금 ₱20~100",
       "sources": [
+        {
+          "url": "https://pampanganewsnow.com/angeles-city-sets-new-tricycle-fare-matrix/",
+          "grade": "B",
+          "date": "2025-01-14",
+          "says": "Angeles City tricycle fare: P35 minimum for up to two passengers for the first km, plus P15 per succeeding km"
+        },
         {
           "url": "https://en.wikivoyage.org/wiki/Guagua",
           "grade": "B",
@@ -329,7 +341,7 @@
           "says": "The Original Razon's halo-halo etc. ₱100-300; tricycles main local transport"
         }
       ],
-      "decision": "점심 외에는 공식·공신력 요금표가 없어 필리핀 일반 시세에 맞춘 추정 범위다(확신 낮음). 본문 caption이 대략치임을 밝힌다"
+      "decision": "과과 트라이시클 고시 요금표는 못 찾았고 인근 앙헬레스 2025년 기준(첫 1km ₱35, 이후 ₱15/km)으로 ₱30~100 범위를 뒷받침하되 본문에 과과 미확인이라 밝혔다. 점심은 위키보이지 ₱100~300에 맞춰 하한을 ₱100으로 낮췄다. 그랩·대절은 요금표 근거가 없어 본문에 추정치·견적 확인으로 낮췄다"
     },
     {
       "where": "stay_and_food",

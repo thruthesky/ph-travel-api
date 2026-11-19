@@ -1,7 +1,7 @@
 {
   "id": 1950,
   "slug": "dumaguete-cathedral",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T04:00:00Z",
   "facts": [
     {
       "where": "costs",
@@ -124,16 +124,52 @@
     {
       "where": "getting_there",
       "fact": "항공·여객선·버스",
-      "value": "",
+      "value": "DGT 는 시내 북쪽 약 3km 시불란. 마닐라 노선 세부퍼시픽·PAL(제트), 세부 노선 세브고. PAL 터보프롭(익스프레스) 마닐라 운항 2026-03-29 중단 발표. 2GO 마닐라 주 1회 약 55시간(집계 사이트). 세레스 세부 5~7시간(리로안-산탄데르 페리). 항구 정기선은 시키호르·다피탄(약 4시간)·타그빌라란, 세부행은 야간편 중심.",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Dumaguete",
           "grade": "B",
           "date": "2026",
-          "says": "시불란 공항 CEB/PAL 노선, 2GO, 세레스, 항구 운항사"
+          "says": "시불란 공항 CEB/PAL 노선, 2GO, 세레스 칼린다간 터미널, 항구 운항사"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sibulan_Airport",
+          "grade": "B",
+          "date": "2026",
+          "says": "시내 북쪽 3km, 세브고(세부)·세부퍼시픽(마닐라)·PAL 익스프레스(마닐라) 노선 표기"
+        },
+        {
+          "url": "https://insiderph.com/pal-adjusts-domestic-network-as-turboprop-flights-leave-manila",
+          "grade": "B",
+          "date": "2026-02-02",
+          "says": "PAL 이 2026-03-29 부터 마닐라 터보프롭 운항을 중단하고 마닐라-두마게테를 주 21편까지 제트로 늘린다고 보도"
+        },
+        {
+          "url": "https://ppapmo-nos.com/schedules/port-of-dumaguete/",
+          "grade": "A",
+          "date": "2026",
+          "says": "필리핀항만청 두마게테 항구 입출항표: 시키호르·다피탄·세부·타그빌라란행 운항사와 시각(일자 미표기, 변경 가능 경고)"
+        },
+        {
+          "url": "https://fastcat.ph/routes-schedules/",
+          "grade": "A",
+          "date": "2026",
+          "says": "패스트캣 두마게테-다피탄 4시간, 하루 4편(02:00·08:00·14:00·20:00)"
+        },
+        {
+          "url": "https://pamasahe.com/routes/dumaguete-manila-2go-schedule-fares",
+          "grade": "C",
+          "date": "2026-08",
+          "says": "2GO 마닐라 일요일 밤 출발, 두마게테 화요일 아침 출발, 약 55시간(주 1회)"
+        },
+        {
+          "url": "https://ceresliner.com/schedules",
+          "grade": "C",
+          "date": "2026",
+          "says": "검색 요약: 세레스 두마게테-세부 5~6시간(리로안-산탄데르 페리 경유); 본문은 직접 열지 못함"
         }
       ],
-      "decision": "운항사·노선은 바뀌므로 확인 문구"
+      "decision": "공식(PPA·패스트캣)과 언론·위키로 항공·항구 노선을 맞췄다. 2GO·세레스는 집계 사이트뿐이라 운항 여부·시각·요금은 운항사 확인 문구로 낮췄다."
     },
     {
       "where": "best_time",
@@ -152,9 +188,16 @@
     {
       "where": "costs",
       "fact": "입장료·트라이시클 요금",
-      "value": "현지에서 확인",
-      "sources": [],
-      "decision": "자료 못 찾아 현지 확인으로 둠"
+      "value": "성당·종탑 외관·박물관 분관 무료, 트라이시클 기본 ₱15(2026-03), 커피·간식은 현지 확인",
+      "sources": [
+        {
+          "url": "https://www.gmanetwork.com/regionaltv/news/113282/p5-increase-in-tricycle-fare-in-dumaguete-city-sought/story/",
+          "grade": "B",
+          "date": "2026-03-12",
+          "says": "두마게테 트라이시클 최저 ₱15, 기사들이 ₱5 인상(₱20)을 요청 중이며 위원회 답변 전"
+        }
+      ],
+      "decision": "무료 범위와 트라이시클은 첫 costs 항목에 근거를 모았다. 커피·간식 등 근거 없는 값은 쓰지 않고 현지 확인으로 둔다."
     }
   ],
   "images": [
