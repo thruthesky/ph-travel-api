@@ -1,180 +1,232 @@
 {
- "id": 2414,
- "slug": "shangri-la-plaza",
- "checked_at": "2026-11-19T05:47:06Z",
- "facts": [
-  {
-   "where": "overview",
-   "fact": "개장일",
-   "value": "1991-11-21",
-   "sources": [
+  "id": 2414,
+  "slug": "shangri-la-plaza",
+  "checked_at": "2026-11-19T05:47:06Z",
+  "facts": [
     {
-     "url": "https://en.wikipedia.org/wiki/Shangri-La_Plaza",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "1991-11-21 개장, 쿽 그룹, EDSA·Shaw 모퉁이, 본관·동관(2013)·북관, 레드 카펫 6~7층, 채플 6층, 좌표 14°34'52.2\"N 121°03'18.2\"E"
+      "where": "overview",
+      "fact": "개장일",
+      "value": "1991-11-21",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shangri-La_Plaza",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "1991-11-21 개장, 쿽 그룹, EDSA·Shaw 모퉁이, 본관·동관(2013)·북관, 레드 카펫 6~7층, 채플 6층, 좌표 14°34'52.2\"N 121°03'18.2\"E"
+        },
+        {
+          "url": "https://audiala.com/en/philippines/metro-manila/shangri-la-plaza-mall",
+          "grade": "C",
+          "date": "2025",
+          "says": "운영 10:00~21:00, 무료 입장, 스트리트스케이프 2025-04, MRT 직결, 발레, 로페스 박물관 인근"
+        }
+      ],
+      "decision": "일치"
     },
     {
-     "url": "https://audiala.com/en/philippines/metro-manila/shangri-la-plaza-mall",
-     "grade": "C",
-     "date": "2025",
-     "says": "운영 10:00~21:00, 무료 입장, 스트리트스케이프 2025-04, MRT 직결, 발레, 로페스 박물관 인근"
+      "where": "coordinates",
+      "fact": "좌표",
+      "value": "14.5812,121.0551",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shangri-La_Plaza",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "1991-11-21 개장, 쿽 그룹, EDSA·Shaw 모퉁이, 본관·동관(2013)·북관, 레드 카펫 6~7층, 채플 6층, 좌표 14°34'52.2\"N 121°03'18.2\"E"
+        },
+        {
+          "url": "work/x2000/registered.tsv 오르티가스 센터",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "14.5833,121.0611 — 같은 지구"
+        }
+      ],
+      "decision": "위키 좌표 채택, 지도 1곳만 직접 확인"
+    },
+    {
+      "where": "overview",
+      "fact": "운영 시간",
+      "value": "10:00~21:00",
+      "sources": [
+        {
+          "url": "https://www.facebook.com/@shangrilaplazaofficial/",
+          "grade": "B",
+          "date": "2026",
+          "says": "몰 운영시간 월~일 10:00~21:00 (검색 요약)"
+        },
+        {
+          "url": "https://audiala.com/en/philippines/metro-manila/shangri-la-plaza-mall",
+          "grade": "C",
+          "date": "2025",
+          "says": "운영 10:00~21:00, 무료 입장, 스트리트스케이프 2025-04, MRT 직결, 발레, 로페스 박물관 인근"
+        }
+      ],
+      "decision": "매장별 상이, 현지 확인 문구"
+    },
+    {
+      "where": "highlights",
+      "fact": "스트리트스케이프 개장",
+      "value": "2025년 4월, 약 3,000㎡",
+      "sources": [
+        {
+          "url": "https://audiala.com/en/philippines/metro-manila/shangri-la-plaza-mall",
+          "grade": "C",
+          "date": "2025",
+          "says": "운영 10:00~21:00, 무료 입장, 스트리트스케이프 2025-04, MRT 직결, 발레, 로페스 박물관 인근"
+        },
+        {
+          "url": "https://philstarproperty.com/news/2025/04/07/39609/shangri-la-plaza-introduces-streetscape-a-new-dining-destination-in-the-center-of-metro-manila/",
+          "grade": "B",
+          "date": "2025-04-07",
+          "says": "2025년 4월 2일 샹그릴라 플라자가 스트리트스케이프(엄선 식당가)를 열었다. 와일드플라워·아 마노·마남 등 입점. 면적 언급 없음"
+        },
+        {
+          "url": "https://www.esquiremag.ph/culture/food-and-drink/streetscape-shangri-la-plaza-a5356-20250410",
+          "grade": "B",
+          "date": "2025-04",
+          "says": "본관 입구 쪽 1층 3,000㎡ 규모의 새 식당가(검색 결과 인용으로만 확인, 본문은 403 으로 못 엶)"
+        }
+      ],
+      "decision": "개장 시점은 PhilSTAR(2025-04-02)·audiala 로 2곳 확인. 면적 약 3,000㎡ 는 Esquire·audiala 인용이라 '규모라고 소개'로 낮추고 '테라스 좌석'을 '1층 규모'로 고침"
+    },
+    {
+      "where": "highlights",
+      "fact": "레드 카펫",
+      "value": "극장 5개, 프리미어 70석, 6~7층",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shangri-La_Plaza",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "1991-11-21 개장, 쿽 그룹, EDSA·Shaw 모퉁이, 본관·동관(2013)·북관, 레드 카펫 6~7층, 채플 6층, 좌표 14°34'52.2\"N 121°03'18.2\"E"
+        },
+        {
+          "url": "https://www.philstar.com/lifestyle/food-and-leisure/2019/01/10/1883658/shangs-red-carpet-rolls-out-vip-movie-viewing",
+          "grade": "B",
+          "date": "2019-01-10",
+          "says": "레드 카펫 5개 극장, 프리미어 70석 리클라이너, 온라인 예매"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "highlights",
+      "fact": "2025 크리스마스 일정",
+      "value": "11/15 점등, 12/30 불꽃놀이",
+      "sources": [
+        {
+          "url": "https://www.tatlerasia.com/lifestyle/others/shangri-la-plaza-christmas-2025",
+          "grade": "B",
+          "date": "2025-11",
+          "says": "11월 15일 점등, 12월 주말 공연, 12월 30일 불꽃놀이"
+        },
+        {
+          "url": "https://artplus.ph/features/a-brighter-christmas-at-the-shang",
+          "grade": "B",
+          "date": "2025",
+          "says": "동일 일정"
+        }
+      ],
+      "decision": "해마다 다름 명시"
+    },
+    {
+      "where": "costs",
+      "fact": "입장료",
+      "value": "무료",
+      "sources": [
+        {
+          "url": "https://audiala.com/en/philippines/metro-manila/shangri-la-plaza-mall",
+          "grade": "C",
+          "date": "2025",
+          "says": "운영 10:00~21:00, 무료 입장, 스트리트스케이프 2025-04, MRT 직결, 발레, 로페스 박물관 인근"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Mandaluyong",
+          "grade": "B",
+          "date": "2026",
+          "says": "쇼핑몰이라 입장료·운영 시간 표기 없음, EDSA·Shaw 모퉁이, 3호선 연결 다리"
+        },
+        {
+          "url": "https://mandaluyong.gov.ph/travel/shopping/",
+          "grade": "A",
+          "date": "2026",
+          "says": "시청 관광 페이지, 로스탄스·크로싱스 백화점과 전문점 300여 곳, 입장·요금 언급 없음"
+        }
+      ],
+      "decision": "무료 명시는 단일 출처(C) — 다른 출처는 요금 언급 없음. 비고에 '별도 입장료 안내 없음(2025년 기준, 현지 확인)'으로 낮춤"
+    },
+    {
+      "where": "getting_there",
+      "fact": "MRT-3 쇼 불러바드역 직결",
+      "value": "YL07",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shangri-La_Plaza",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "1991-11-21 개장, 쿽 그룹, EDSA·Shaw 모퉁이, 본관·동관(2013)·북관, 레드 카펫 6~7층, 채플 6층, 좌표 14°34'52.2\"N 121°03'18.2\"E"
+        },
+        {
+          "url": "https://audiala.com/en/philippines/metro-manila/shangri-la-plaza-mall",
+          "grade": "C",
+          "date": "2025",
+          "says": "운영 10:00~21:00, 무료 입장, 스트리트스케이프 2025-04, MRT 직결, 발레, 로페스 박물관 인근"
+        }
+      ],
+      "decision": "일치"
     }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "coordinates",
-   "fact": "좌표",
-   "value": "14.5812,121.0551",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://en.wikipedia.org/wiki/Shangri-La_Plaza",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "1991-11-21 개장, 쿽 그룹, EDSA·Shaw 모퉁이, 본관·동관(2013)·북관, 레드 카펫 6~7층, 채플 6층, 좌표 14°34'52.2\"N 121°03'18.2\"E"
+      "file": "2414-shangri-la-plaza.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:03707jfKorean_Royal_Heritage_Exhibits_Shangri-La_Plazafvf_01.jpg",
+      "check": "분류 Shangri-La Plaza·GPS 14.581,121.055(본문 좌표와 일치). 보이는 것: 스타벅스·BAYO 간판이 있는 다층 아트리움과 크리스마스 장식(본문 highlights 의 크리스마스 점등)"
     },
     {
-     "url": "work/x2000/registered.tsv 오르티가스 센터",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "14.5833,121.0611 — 같은 지구"
+      "file": "2414-shangri-la-plaza-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Shangri-La_Plaza_Mall_Main_Wing_1.jpg",
+      "check": "설명 'atrium of the main wing of Shangri-La Plaza'·GPS 일치·보이는 것이 다층 아트리움"
+    },
+    {
+      "file": "2414-shangri-la-plaza-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Shangri-La_Plaza_Mall_Main_Wing_2.jpg",
+      "check": "설명 'atrium of the main wing'·GPS 일치·위에서 내려다본 다른 각도"
+    },
+    {
+      "file": "2414-shangri-la-plaza-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SHANGRI_LA_MALL_PLAZA.jpg",
+      "check": "분류 Shangri-La Plaza 직접 파일·제목에 몰 이름. 외관과 야외 식당가(Pages·Brotzeit 등) 확인(틸트시프트 효과로 위쪽이 흐림)"
+    },
+    {
+      "file": "2414-shangri-la-plaza-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Shangri-la_Mall,_Mandaluyong,_May_2025.jpg",
+      "check": "제목에 Shangri-la Mall, Mandaluyong·분류 Interior of Shangri-La Plaza 하위. 야간 조명 외관"
+    },
+    {
+      "file": "2414-shangri-la-plaza-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:0001jfSaint_Padre_Pio_Chapel_Shangri-La_Plazafvf_25.jpg",
+      "check": "분류 Shangri-La Plaza(파일명에 성 파드레 피오 경당이 있으나 사진에는 에스컬레이터가 보임)·GPS 일치·L5 층 표시"
+    },
+    {
+      "file": "2414-shangri-la-plaza-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Shangri-La_Plaza_Bike_Parking.jpg",
+      "check": "파일명·설명이 Shangri-La Plaza Bike Parking·분류 직접 파일. 자전거 주차 안내판 보임"
+    },
+    {
+      "file": "2414-shangri-la-plaza-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:WM6RR_arcades.jpg",
+      "check": "설명 'arcades at Shangri-La Plaza in the Philippines'"
+    },
+    {
+      "file": "2414-shangri-la-plaza-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mandaluyong---Wack-Wack_Greenhills---Ortigas---Shangri-La_Plaza---Tayo_Studio.jpg",
+      "check": "설명 'Tayo Studio at Shangri-La Plaza'·GPS 14.581,121.055 일치"
+    },
+    {
+      "file": "2414-shangri-la-plaza-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mandaluyong---Wack-Wack_Greenhills---Ortigas---Shangri-La_Plaza---LongHorn_Steakhouse.jpg",
+      "check": "설명 'LongHorn Steakhouse at Shangri-La Plaza'·GPS 일치. 식당가 분위기"
     }
-   ],
-   "decision": "위키 좌표 채택, 지도 1곳만 직접 확인"
-  },
-  {
-   "where": "overview",
-   "fact": "운영 시간",
-   "value": "10:00~21:00",
-   "sources": [
-    {
-     "url": "https://www.facebook.com/@shangrilaplazaofficial/",
-     "grade": "B",
-     "date": "2026",
-     "says": "몰 운영시간 월~일 10:00~21:00 (검색 요약)"
-    },
-    {
-     "url": "https://audiala.com/en/philippines/metro-manila/shangri-la-plaza-mall",
-     "grade": "C",
-     "date": "2025",
-     "says": "운영 10:00~21:00, 무료 입장, 스트리트스케이프 2025-04, MRT 직결, 발레, 로페스 박물관 인근"
-    }
-   ],
-   "decision": "매장별 상이, 현지 확인 문구"
-  },
-  {
-   "where": "highlights",
-   "fact": "스트리트스케이프 개장",
-   "value": "2025년 4월, 약 3,000㎡",
-   "sources": [
-    {
-     "url": "https://audiala.com/en/philippines/metro-manila/shangri-la-plaza-mall",
-     "grade": "C",
-     "date": "2025",
-     "says": "운영 10:00~21:00, 무료 입장, 스트리트스케이프 2025-04, MRT 직결, 발레, 로페스 박물관 인근"
-    },
-    {
-     "url": "https://philstarproperty.com/news/2025/04/07/39609/shangri-la-plaza-introduces-streetscape-a-new-dining-destination-in-the-center-of-metro-manila/",
-     "grade": "B",
-     "date": "2025-04-07",
-     "says": "2025년 4월 2일 샹그릴라 플라자가 스트리트스케이프(엄선 식당가)를 열었다. 와일드플라워·아 마노·마남 등 입점. 면적 언급 없음"
-    },
-    {
-     "url": "https://www.esquiremag.ph/culture/food-and-drink/streetscape-shangri-la-plaza-a5356-20250410",
-     "grade": "B",
-     "date": "2025-04",
-     "says": "본관 입구 쪽 1층 3,000㎡ 규모의 새 식당가(검색 결과 인용으로만 확인, 본문은 403 으로 못 엶)"
-    }
-   ],
-   "decision": "개장 시점은 PhilSTAR(2025-04-02)·audiala 로 2곳 확인. 면적 약 3,000㎡ 는 Esquire·audiala 인용이라 '규모라고 소개'로 낮추고 '테라스 좌석'을 '1층 규모'로 고침"
-  },
-  {
-   "where": "highlights",
-   "fact": "레드 카펫",
-   "value": "극장 5개, 프리미어 70석, 6~7층",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Shangri-La_Plaza",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "1991-11-21 개장, 쿽 그룹, EDSA·Shaw 모퉁이, 본관·동관(2013)·북관, 레드 카펫 6~7층, 채플 6층, 좌표 14°34'52.2\"N 121°03'18.2\"E"
-    },
-    {
-     "url": "https://www.philstar.com/lifestyle/food-and-leisure/2019/01/10/1883658/shangs-red-carpet-rolls-out-vip-movie-viewing",
-     "grade": "B",
-     "date": "2019-01-10",
-     "says": "레드 카펫 5개 극장, 프리미어 70석 리클라이너, 온라인 예매"
-    }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "highlights",
-   "fact": "2025 크리스마스 일정",
-   "value": "11/15 점등, 12/30 불꽃놀이",
-   "sources": [
-    {
-     "url": "https://www.tatlerasia.com/lifestyle/others/shangri-la-plaza-christmas-2025",
-     "grade": "B",
-     "date": "2025-11",
-     "says": "11월 15일 점등, 12월 주말 공연, 12월 30일 불꽃놀이"
-    },
-    {
-     "url": "https://artplus.ph/features/a-brighter-christmas-at-the-shang",
-     "grade": "B",
-     "date": "2025",
-     "says": "동일 일정"
-    }
-   ],
-   "decision": "해마다 다름 명시"
-  },
-  {
-   "where": "costs",
-   "fact": "입장료",
-   "value": "무료",
-   "sources": [
-    {
-     "url": "https://audiala.com/en/philippines/metro-manila/shangri-la-plaza-mall",
-     "grade": "C",
-     "date": "2025",
-     "says": "운영 10:00~21:00, 무료 입장, 스트리트스케이프 2025-04, MRT 직결, 발레, 로페스 박물관 인근"
-    },
-    {
-     "url": "https://en.wikivoyage.org/wiki/Mandaluyong",
-     "grade": "B",
-     "date": "2026",
-     "says": "쇼핑몰이라 입장료·운영 시간 표기 없음, EDSA·Shaw 모퉁이, 3호선 연결 다리"
-    },
-    {
-     "url": "https://mandaluyong.gov.ph/travel/shopping/",
-     "grade": "A",
-     "date": "2026",
-     "says": "시청 관광 페이지, 로스탄스·크로싱스 백화점과 전문점 300여 곳, 입장·요금 언급 없음"
-    }
-   ],
-   "decision": "무료 명시는 단일 출처(C) — 다른 출처는 요금 언급 없음. 비고에 '별도 입장료 안내 없음(2025년 기준, 현지 확인)'으로 낮춤"
-  },
-  {
-   "where": "getting_there",
-   "fact": "MRT-3 쇼 불러바드역 직결",
-   "value": "YL07",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Shangri-La_Plaza",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "1991-11-21 개장, 쿽 그룹, EDSA·Shaw 모퉁이, 본관·동관(2013)·북관, 레드 카펫 6~7층, 채플 6층, 좌표 14°34'52.2\"N 121°03'18.2\"E"
-    },
-    {
-     "url": "https://audiala.com/en/philippines/metro-manila/shangri-la-plaza-mall",
-     "grade": "C",
-     "date": "2025",
-     "says": "운영 10:00~21:00, 무료 입장, 스트리트스케이프 2025-04, MRT 직결, 발레, 로페스 박물관 인근"
-    }
-   ],
-   "decision": "일치"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T07:59:22Z"
 }
