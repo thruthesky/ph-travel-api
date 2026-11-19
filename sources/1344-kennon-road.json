@@ -1,74 +1,126 @@
 {
- "id": 1344,
- "slug": "kennon-road",
- "checked_at": "2026-11-19T00:00:00Z",
- "facts": [
-  {
-   "where": "overview",
-   "fact": "33.5km, 1903 착공, 1905-01-29 개통, 270만 달러, 2,300명·36개국, 1991-09-01 재개통, RA 11604(2021-12)",
-   "value": "위와 같음",
-   "sources": [
+  "id": 1344,
+  "slug": "kennon-road",
+  "checked_at": "2026-11-19T00:00:00Z",
+  "facts": [
     {
-     "url": "https://en.wikipedia.org/wiki/Kennon_Road",
-     "grade": "B",
-     "date": "2026",
-     "says": "역사·구간·수치"
+      "where": "overview",
+      "fact": "33.5km, 1903 착공, 1905-01-29 개통, 270만 달러, 2,300명·36개국, 1991-09-01 재개통, RA 11604(2021-12)",
+      "value": "위와 같음",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kennon_Road",
+          "grade": "B",
+          "date": "2026",
+          "says": "역사·구간·수치"
+        },
+        {
+          "url": "https://baguiocityguide.com/kennon-road-advisory-august-29-2025/amp/",
+          "grade": "C",
+          "date": "2025-08-29",
+          "says": "DPWH-CAR 공지: 경차량만, 5톤, 캠프 2 우회"
+        }
+      ],
+      "decision": "위키 일부 거리 불일치(33.5 vs 41.2km) -> 33.5km 채택"
     },
     {
-     "url": "https://baguiocityguide.com/kennon-road-advisory-august-29-2025/amp/",
-     "grade": "C",
-     "date": "2025-08-29",
-     "says": "DPWH-CAR 공지: 경차량만, 5톤, 캠프 2 우회"
+      "where": "cautions",
+      "fact": "2026년 통제 상황",
+      "value": "3월 5톤 제한, 5월 옹벽 붕괴로 전면 통제, 9월 비거주자 제한·캠프 6 한 차선",
+      "sources": [
+        {
+          "url": "https://tribune.net.ph/2026/09/07/motorists-urged-to-exercise-caution-on-benguet-baguio-roads",
+          "grade": "B",
+          "date": "2026-09-07",
+          "says": "비거주자 제한, 캠프 6 한 차선, 대체 도로 통행 가능"
+        },
+        {
+          "url": "https://mb.com.ph/2026/03/26/kennon-road-limited-to-light-vehicles-amid-persistent-hazards",
+          "grade": "B",
+          "date": "2026-03-26",
+          "says": "검색 요약: 5톤 이하 경차량, 캠프 2 아크로 교량 2.5m"
+        }
+      ],
+      "decision": "현재(11월) 상태 불명 -> 최신 공지 확인으로 표기"
+    },
+    {
+      "where": "좌표",
+      "fact": "16.3595,120.6080",
+      "value": "OSM Kennon Road Camp 6",
+      "sources": [
+        {
+          "url": "https://nominatim.openstreetmap.org/",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "Kennon Road, Camp 6 way 좌표"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lion%27s_Head_(Benguet)",
+          "grade": "B",
+          "date": "2026",
+          "says": "Lion's Head 16.367556,120.605899, 캠프 6·바기오–투바 경계 부근(현재 좌표와 약 0.9km 차이)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kennon_Road",
+          "grade": "B",
+          "date": "2026",
+          "says": "캠프 6 통행료 징수소 236.940km 지점, Lion's Head 239.6~240.9km(도로 자체 좌표는 없음)"
+        }
+      ],
+      "decision": "캠프 6 지점 사용. 위키 Lion's Head 좌표와 1km 안쪽이라 유지"
     }
-   ],
-   "decision": "위키 일부 거리 불일치(33.5 vs 41.2km) -> 33.5km 채택"
-  },
-  {
-   "where": "cautions",
-   "fact": "2026년 통제 상황",
-   "value": "3월 5톤 제한, 5월 옹벽 붕괴로 전면 통제, 9월 비거주자 제한·캠프 6 한 차선",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://tribune.net.ph/2026/09/07/motorists-urged-to-exercise-caution-on-benguet-baguio-roads",
-     "grade": "B",
-     "date": "2026-09-07",
-     "says": "비거주자 제한, 캠프 6 한 차선, 대체 도로 통행 가능"
+      "file": "1344-kennon-road.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Kennon_Road_overlooking,_Camp_7_(Baguio_City;_12-04-2022).jpg",
+      "check": "설명 'Kennon Road, Camp 7, Baguio City'·분류 Kennon Road·사자 머리 조형물과 협곡 도로가 보임"
     },
     {
-     "url": "https://mb.com.ph/2026/03/26/kennon-road-limited-to-light-vehicles-amid-persistent-hazards",
-     "grade": "B",
-     "date": "2026-03-26",
-     "says": "검색 요약: 5톤 이하 경차량, 캠프 2 아크로 교량 2.5m"
+      "file": "1344-kennon-road-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Kennon_Road,_Baguio_City.jpg",
+      "check": "설명 'viewed from the Kennon Road Viewdeck'·지그재그 구간과 협곡이 보임"
+    },
+    {
+      "file": "1344-kennon-road-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lion%27s_Head,_Baguio_City,_Nov_2026_(1).jpg",
+      "check": "Lion's Head (Kennon Road) 분류·사자 머리 조형물과 'LION'S HEAD' 안내판이 보임"
+    },
+    {
+      "file": "1344-kennon-road-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:View_from_Lion%27s_Head,_Baguio_City,_Nov_2026_(1).jpg",
+      "check": "Lion's Head 분류·협곡 아래 도로와 산줄기가 보임"
+    },
+    {
+      "file": "1344-kennon-road-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Kennon_Road_along_Lion%27s_Head,_Baguio_City,_Nov_2026_(2).jpg",
+      "check": "설명 'Kennon Road along Lion's Head'·비탈과 상점·차량이 보임"
+    },
+    {
+      "file": "1344-kennon-road-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Kennon_Road,_Tuba,_Benguet,_Nov_2026_(1).jpg",
+      "check": "설명 'Kennon Road, Tuba, Benguet'·분류 Kennon Road·암벽 비탈과 도로"
+    },
+    {
+      "file": "1344-kennon-road-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Kennon_Road_along_the_mountains.jpg",
+      "check": "설명 'Kennon Road at Tuba, Benguet towards La Union'·절벽 옆 도로와 방호벽"
+    },
+    {
+      "file": "1344-kennon-road-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:5827Kennon_Road_Tabaan_Sur_Camp_One_02.jpg",
+      "check": "분류 Kennon Road (Tabaan Sur-Camp One…)·GPS 16.290,120.535·환영 아치가 보임"
+    },
+    {
+      "file": "1344-kennon-road-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:6355Kennon_Road_Tuba,_Benguet_section_01.jpg",
+      "check": "파일명·분류 Kennon Road Tuba, Benguet section·산악 구간 도로"
+    },
+    {
+      "file": "1344-kennon-road-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tuba_Benguet_2.JPG",
+      "check": "설명 'Camp 3, Tuba, Benguet'·Kennon Road 분류·도로변 마을"
     }
-   ],
-   "decision": "현재(11월) 상태 불명 -> 최신 공지 확인으로 표기"
-  },
-  {
-   "where": "좌표",
-   "fact": "16.3595,120.6080",
-   "value": "OSM Kennon Road Camp 6",
-   "sources": [
-    {
-     "url": "https://nominatim.openstreetmap.org/",
-     "grade": "B",
-     "date": "2026-11",
-     "says": "Kennon Road, Camp 6 way 좌표"
-    },
-    {
-     "url": "https://en.wikipedia.org/wiki/Lion%27s_Head_(Benguet)",
-     "grade": "B",
-     "date": "2026",
-     "says": "Lion's Head 16.367556,120.605899, 캠프 6·바기오–투바 경계 부근(현재 좌표와 약 0.9km 차이)"
-    },
-    {
-     "url": "https://en.wikipedia.org/wiki/Kennon_Road",
-     "grade": "B",
-     "date": "2026",
-     "says": "캠프 6 통행료 징수소 236.940km 지점, Lion's Head 239.6~240.9km(도로 자체 좌표는 없음)"
-    }
-   ],
-   "decision": "캠프 6 지점 사용. 위키 Lion's Head 좌표와 1km 안쪽이라 유지"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T09:48:03Z"
 }
