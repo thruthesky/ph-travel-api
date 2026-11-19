@@ -1,7 +1,7 @@
 {
  "id": 2479,
  "slug": "santiago-beach-camotes",
- "checked_at": "2026-11-18T09:35:49Z",
+ "checked_at": "2026-11-19T04:21:52Z",
  "facts": [
   {
    "where": "좌표",
@@ -80,7 +80,7 @@
   {
    "where": "costs",
    "fact": "야영",
-   "value": "₱50부터",
+   "value": "약 ₱50 안팎",
    "sources": [
     {
      "url": "https://www.philippinebeaches.org/santiago-bay-beach-cebu-important-tips/",
@@ -89,7 +89,7 @@
      "says": "캠핑 ₱50~, 오두막 ₱300~500, 오토바이 ₱500, 하발하발 ₱50, 얕은 물, 리조트 목록"
     }
    ],
-   "decision": "단일 출처, '부터'·허락 필수로 표기"
+   "decision": "단일 출처(2019)라 '약 ₱50 안팎'으로 낮추고 2019년 기준·허락 필수·현지 확인으로 표기. 다른 글의 ₱100 등은 본문을 열어 확인하지 못해 쓰지 않음"
   },
   {
    "where": "costs",
@@ -160,30 +160,48 @@
   {
    "where": "costs",
    "fact": "하발하발",
-   "value": "약 ₱50",
+   "value": "약 ₱50~70",
    "sources": [
     {
      "url": "https://www.philippinebeaches.org/santiago-bay-beach-cebu-important-tips/",
      "grade": "B",
      "date": "2019-02-21",
      "says": "캠핑 ₱50~, 오두막 ₱300~500, 오토바이 ₱500, 하발하발 ₱50, 얕은 물, 리조트 목록"
+    },
+    {
+     "url": "https://3d-universal.com/en/blogs/getting-around-camotes-islands.html",
+     "grade": "C",
+     "date": "2026-07",
+     "says": "콘수엘로 항-산티아고 베이 하발하발 10~15분, PHP 50~70; 근거리 PHP 50~100; 2025-08 게시·2026-07 갱신"
+    },
+    {
+     "url": "https://www.phtourguide.com/consuelo-port-camotes/",
+     "grade": "C",
+     "date": "2011",
+     "says": "파시한 섬 어디든 하발하발 표준 요금 P50, 항에서 산티아고 베이 리조트까지 20분(2010 게시)"
     }
    ],
-   "decision": "단일 출처, 거리·짐에 따라 다름 표기"
+   "decision": "2019년 ₱50과 2026년 갱신 글 ₱50~70이 겹쳐 '약 ₱50~70'으로 범위 표기, 거리·짐에 따라 타기 전 합의"
   },
   {
    "where": "costs",
    "fact": "리조트 객실",
-   "value": "₱1,100~2,900",
+   "value": "약 ₱1,000~3,000 (일반 객실)",
    "sources": [
     {
      "url": "repo:data/ko/073-camotes-islands.json",
      "grade": "B",
      "date": "2026-09",
      "says": "산티아고 베이 가든 객실 ₱1,100~2,900, 막탄-콘수엘로 조말리아 노선 2026-09 운항 중단"
+    },
+    {
+     "url": "https://tourcamotes.com/santiago-bay-garden-resort/",
+     "grade": "C",
+     "date": "미상",
+     "says": "요금표(날짜 없음): 일반 비에어컨 1,000, 에어컨 1,650, 오션뷰 1,870, 베이뷰 2,200, 비치뷰 2,860, 방갈로 3,300, 빌라 2,750, 빌라 가족 5,500; 요금은 예고 없이 변경"
     }
    ],
-   "decision": "저장소 기존 항목 근거"
+   "decision": "공식 요금표를 못 찾음. 저장소 기존 값과 날짜 없는 운영 안내 요금표가 일반 객실 ₱1,000~3,000대로 겹쳐 범위로 표기, 빌라·가족실은 더 비싸다고 명시(Tripadvisor 는 열리지 않아 쓰지 않음)"
   },
   {
    "where": "costs",
@@ -215,9 +233,15 @@
      "grade": "B",
      "date": "2023",
      "says": "Santiago White Beach 입장 무료, 콘수엘로에서 약 8.6km, 오토바이 대여 ₱400~500, Buho Rock ₱20 08~17시, Jomalia Danao-Consuelo ₱220~250"
+    },
+    {
+     "url": "https://queencitycebu.com/camotes-island-travel-guide/",
+     "grade": "C",
+     "date": "2018-04-18",
+     "says": "산티아고 베이 비치는 콘수엘로(산프란시스코)에서 8.6km"
     }
    ],
-   "decision": "단일 출처"
+   "decision": "sugbo.ph(2023)와 queencitycebu(2018) 두 출처가 8.6km로 일치. 도로 실측은 아니므로 '약' 표기 유지"
   },
   {
    "where": "getting_there",

@@ -1,7 +1,7 @@
 {
   "id": 2476,
   "slug": "dampa-seafood-market",
-  "checked_at": "2026-11-18T09:32:47Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "location",
@@ -93,35 +93,47 @@
           "says": "흥정, 현금, 코홀·라토, 조리비 별도"
         }
       ],
-      "decision": "오래된 값이라 '2017년 후기 기준'으로 표기"
+      "decision": "최근 kg당 시세를 연 페이지(thingstodomanila·drawingtayo·tastetripping)에서 확인하지 못해 2017년 후기 값으로 표기하고 현지 확인 안내"
     },
     {
       "where": "costs",
       "fact": "조리비 예시",
-      "value": "₱175~328/접시 (2017)",
+      "value": "약 ₱150~400/접시·kg (2026 안내 ₱150~400/kg, 2017 후기 ₱175~328/접시)",
       "sources": [
         {
           "url": "https://edpuno.com/2017/03/seaside-dampa-macapagal-eat-seafood-manila.html",
           "grade": "C",
           "date": "2017-03-25",
           "says": "새우 ₱550/kg 게 ₱650/kg, 조리비 175·328·198, 주차 ₱20, 식당 목록"
+        },
+        {
+          "url": "https://thingstodomanila.com/manila-costs/",
+          "grade": "C",
+          "date": "2026",
+          "says": "Seaside Macapagal 에서 식당에 1kg 조리비 ₱150~400, 주문 전 조리비 합의·저울 확인"
         }
       ],
-      "decision": "오래된 단일 사례로 표기, 현지 확인"
+      "decision": "서로 다른 두 출처의 범위를 합쳐 넓게 표기, 업소별로 다르니 주문 전 확인 안내"
     },
     {
       "where": "costs",
       "fact": "봉사료·세금",
-      "value": "봉사료 15~20%, 부가세 12%",
+      "value": "봉사료 약 10~20%, 부가세 12%",
       "sources": [
         {
           "url": "https://wanderlog.com/place/details/211090/dampa-seaside-market",
           "grade": "B",
           "date": "2026",
-          "says": "좌표 14.54509,120.987149, 10:00~22:30, 구글 4.1, 조리비 별도·봉사료 15~20%·세금 12%"
+          "says": "2026-05 구글 후기 한 건: 메뉴 가격은 조리비만, 봉사료 15~20%·부가세 12% 추가"
+        },
+        {
+          "url": "https://thingstodomanila.com/manila-costs/",
+          "grade": "C",
+          "date": "2026",
+          "says": "일반 식당은 봉사료 10% 안팎, 파루토 식당 봉사료는 따로 밝히지 않음"
         }
       ],
-      "decision": "후기 기준으로 표기"
+      "decision": "Dampa 봉사료는 후기 한 건뿐이라 일반 식당 10%까지 넓혀 약 10~20%로 낮추고 계산서 확인 안내"
     },
     {
       "where": "getting_there",
@@ -133,6 +145,12 @@
           "grade": "B",
           "date": "2024-11-17",
           "says": "LRT-1 연장 구간 2024-11-16 개통"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Redemptorist-Aseana_station",
+          "grade": "B",
+          "date": "2026",
+          "says": "2024-11-16 LRT-1 카비테 연장과 함께 개통, 위치는 Roxas Blvd 와 Bradco Ave 모퉁이(아세아나 시티); Dampa 거리는 언급 없음"
         }
       ],
       "decision": "시장까지 도보 거리는 확인하지 못해 택시 안내"

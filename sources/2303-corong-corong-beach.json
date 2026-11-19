@@ -1,7 +1,7 @@
 {
  "id": 2303,
  "slug": "corong-corong-beach",
- "checked_at": "2026-11-18T07:50:23Z",
+ "checked_at": "2026-11-19T04:22:08Z",
  "facts": [
   {
    "where": "lat/lon",
@@ -52,16 +52,22 @@
   {
    "where": "costs",
    "fact": "타운에서 트라이시클",
-   "value": "약 ₱50(한 대), 합승 ₱10",
+   "value": "약 ₱50~150(한 대), 합승 약 ₱10",
    "sources": [
     {
      "url": "https://travelaroundthephilippines.com/sunset-el-nido/",
      "grade": "B",
      "date": "2026",
      "says": "트라이시클 50페소, 합승 1인 10페소"
+    },
+    {
+     "url": "https://suroy.ph/palawan-trip-cost/",
+     "grade": "B",
+     "date": "2026",
+     "says": "2026-08 확인: 엘니도 타운 트라이시클 ₱50~150, 푸에르토 프린세사 밴 ₱600~800(5~6시간), 공항 밴 ₱150~250, 엘니도 터미널은 코롱코롱"
     }
    ],
-   "decision": "약, 현지 흥정 안내(단일 출처)"
+   "decision": "타운 트라이시클 ₱50~150(2곳), 합승 ₱10은 1곳 안내라 '약' 처리, 흥정 권고"
   },
   {
    "where": "costs",
@@ -86,58 +92,106 @@
   {
    "where": "costs",
    "fact": "세븐 코만도스 보트",
-   "value": "₱700~800 왕복",
+   "value": "₱700~800 왕복(1인 약 ₱800 안내도 있음)",
    "sources": [
     {
      "url": "https://travelaroundthephilippines.com/sunset-el-nido/",
      "grade": "B",
      "date": "2026",
      "says": "보트 왕복 700-800페소"
+    },
+    {
+     "url": "https://travel-buddies.com/el-nido-boat-taxi-to-seven-commandos-or-paradise-beach/",
+     "grade": "C",
+     "date": "2026",
+     "says": "보트 택시 1인 800 PHP부터, 하루 유효, 픽업·드롭 포함(왕복 여부 명시 없음)"
     }
    ],
-   "decision": "안내서 기준으로 표기"
+   "decision": "두 안내서의 값이 비슷해 약 ₱700~800으로 유지하고 1인 ₱800 안내를 병기, 업체 확인 권고"
   },
   {
    "where": "costs",
    "fact": "푸에르토 프린세사 공유 밴",
-   "value": "₱600~900, 5~6시간",
+   "value": "₱600~800, 5~6시간",
    "sources": [
     {
      "url": "https://www.elnidohotelsranking.com/el-nido-from-manila-guide-2026/",
      "grade": "B",
      "date": "2026",
      "says": "공유 밴 약 5~6시간, ₱600~900(₱700·₱750 소개)"
+    },
+    {
+     "url": "https://suroy.ph/palawan-trip-cost/",
+     "grade": "B",
+     "date": "2026",
+     "says": "2026-08 확인: 엘니도 타운 트라이시클 ₱50~150, 푸에르토 프린세사 밴 ₱600~800(5~6시간), 공항 밴 ₱150~250, 엘니도 터미널은 코롱코롱"
+    },
+    {
+     "url": "https://tripwis.com/getting-from-puerto-princesa-to-el-nido/",
+     "grade": "B",
+     "date": "2026",
+     "says": "공유 밴 5~6시간, 750₱(Klook 예약), 2026-06 갱신"
     }
    ],
-   "decision": "검색 요약 기반이라 약·확인 권고"
+   "decision": "2026년 두 출처가 ₱600~800·₱750으로 일치해 상한을 900에서 800으로 낮춤, 업체마다 다름"
   },
   {
    "where": "costs",
    "fact": "리오 공항 이동",
-   "value": "트라이시클 ₱150~250, 공유 ₱200~300, 전용 ₱800~1,200",
+   "value": "트라이시클 ₱150~400(15~20분), 공유 밴 ₱150~250, 예약 사이트 전용 밴 ₱1,900~4,500",
    "sources": [
     {
      "url": "https://www.elnidohotelsranking.com/el-nido-from-manila-guide-2026/",
      "grade": "B",
      "date": "2026",
      "says": "리오 공항-타운 요금 안내"
+    },
+    {
+     "url": "https://suroy.ph/el-nido-travel-guide/",
+     "grade": "B",
+     "date": "2026",
+     "says": "2026-11 재확인: 리오 공항→타운 트라이시클 한 대 ₱150~400, 15~20분, 코롱코롱 터미널에서 언덕 너머 트라이시클 약 ₱100 추가"
+    },
+    {
+     "url": "https://suroy.ph/palawan-trip-cost/",
+     "grade": "B",
+     "date": "2026",
+     "says": "2026-08 확인: 엘니도 타운 트라이시클 ₱50~150, 푸에르토 프린세사 밴 ₱600~800(5~6시간), 공항 밴 ₱150~250, 엘니도 터미널은 코롱코롱"
+    },
+    {
+     "url": "https://www.palawandays.com/catalog/transfers-palawan-philippines/",
+     "grade": "C",
+     "date": "2026",
+     "says": "공항 전용 밴 한 대 ₱1,900~4,500(예약 사이트 목록)"
     }
    ],
-   "decision": "검색 요약 기반"
+   "decision": "트라이시클·공유 밴은 2026년 suroy 안내로 고침, 전용 밴 ₱800~1,200은 확인되지 않아 예약 사이트 값으로 교체하고 업체마다 다르다고 표기"
   },
   {
    "where": "getting_there",
    "fact": "에어스위프트 거점",
-   "value": "2026-03-29 NAIA→클락 이전 안내(상충)",
+   "value": "2026-03-29부터 에어스위프트 엘니도 편은 NAIA 2터미널→클락 출발",
    "sources": [
     {
      "url": "https://www.elnidohotelsranking.com/el-nido-from-manila-guide-2026/",
      "grade": "B",
      "date": "2026",
      "says": "거점 클락 이전 안내, 구 자료는 NAIA"
+    },
+    {
+     "url": "https://tribune.net.ph/2026/01/22/turboprop-services-shift-to-clark-in-march",
+     "grade": "B",
+     "date": "2026",
+     "says": "AirSwift 엘니도 편이 NAIA 2터미널에서 클락으로 이전, 3월 29일 시행"
+    },
+    {
+     "url": "https://portcalls.com/cebu-pacific-turboprop-flights-from-naia-all-moving-to-clark-by-march-29",
+     "grade": "B",
+     "date": "2026",
+     "says": "엘니도 편이 NAIA 2터미널에서 클락(CRK)으로 이전, 3월 29일 일정에 포함"
     }
    ],
-   "decision": "출발 공항은 항공사 공지 확인으로 서술"
+   "decision": "언론 두 곳이 일치해 확정 서술, 예약 전 출발 공항 확인 권고"
   },
   {
    "where": "highlights",

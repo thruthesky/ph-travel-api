@@ -1,7 +1,7 @@
 {
   "id": 2336,
   "slug": "mount-masaraga",
-  "checked_at": "2026-11-18T08:00:49Z",
+  "checked_at": "2026-11-19T04:21:54Z",
   "facts": [
     {
       "where": "meta",
@@ -86,7 +86,7 @@
     {
       "where": "costs",
       "fact": "가이드",
-      "value": "약 ₱800~1,500(팀)",
+      "value": "약 ₱800~1,500(팀당, 2014~2017년 후기)",
       "sources": [
         {
           "url": "https://www.lakwatsero.com/trail-tale/mount-masaraga-a-magayon-sunrise-trek/",
@@ -101,12 +101,12 @@
           "says": "버스 ₱700~900, 지프 ₱25, 오토바이 ₱250, 가이드 ₱800/일, 물 없음, 정상 360도"
         }
       ],
-      "decision": "2014~2017 자료라 현지 확인 안내"
+      "decision": "2026 요금 자료를 찾지 못함(검색·여행 가이드 재확인). 연도를 밝히고 가이드에게 현재 요금 확인 안내"
     },
     {
       "where": "costs",
       "fact": "들머리 오토바이",
-      "value": "약 ₱100~250",
+      "value": "약 ₱100~250(2014~2017년 후기)",
       "sources": [
         {
           "url": "https://www.lakwatsero.com/trail-tale/mount-masaraga-a-magayon-sunrise-trek/",
@@ -121,41 +121,47 @@
           "says": "버스 ₱700~900, 지프 ₱25, 오토바이 ₱250, 가이드 ₱800/일, 물 없음, 정상 360도"
         }
       ],
-      "decision": "범위로 표기"
+      "decision": "최신 요금 미확인, 연도 명시·출발 전 요금 확정 안내"
     },
     {
       "where": "costs",
       "fact": "레가스피~리가오",
-      "value": "약 ₱30",
+      "value": "약 ₱30(2011년 후기)",
       "sources": [
         {
           "url": "https://www.pinoymountaineer.com/2011/06/mt-masaraga-1328-in-ligao-city-albay.html",
           "grade": "B",
           "date": "2011-06",
           "says": "13.3125N 123.5988E, 들머리 시툐 사블루욘 암틱, 난이도 6/9, 4~7시간, 레가스피 지프니 ₱30, 리가오 등록"
+        },
+        {
+          "url": "https://www.thepinaysolobackpacker.com/?p=29627",
+          "grade": "C",
+          "date": "2026-07",
+          "says": "알바이 가이드: 레가스피 안 지프니 약 ₱25(퀴티데이), 레가스피~리가오 요금은 없음, 마사라가 언급 없음"
         }
       ],
-      "decision": "단일 출처(2011), 현지 확인 문구"
+      "decision": "리가오행 최신 요금 미확인(2011 단일 출처), 현지 확인 문구"
     },
     {
       "where": "costs",
       "fact": "마닐라 버스",
-      "value": "약 ₱700~900",
+      "value": "약 ₱1,000~1,250(2026, 일반석 편도)",
       "sources": [
         {
-          "url": "https://mountaintipsandtops.wordpress.com/2014/01/24/travel-guide-for-climbing-mt-masaraga-dayhike-ligao-city-albay/",
+          "url": "https://pamasahe.com/routes/pitx-manila-legazpi-albay-isarog-line-schedule-fares",
           "grade": "C",
-          "date": "2014-01",
-          "says": "버스 ₱700~900, 지프 ₱25, 오토바이 ₱250, 가이드 ₱800/일, 물 없음, 정상 360도"
+          "date": "2026-09",
+          "says": "PITX~레가스피 이사로그 라인 일반 ₱1,150, 엘리트 ₱1,250, 침대 ₱1,800, 약 14시간, 유류 할증 가능"
         },
         {
-          "url": "https://www.lakwatsero.com/trail-tale/mount-masaraga-a-magayon-sunrise-trek/",
+          "url": "https://www.thepinaysolobackpacker.com/?p=29627",
           "grade": "C",
-          "date": "2017-09",
-          "says": "가이드 ₱1,400~1,500(5~6명), 오토바이 ₱100, 새벽 02:00 기상 03:00 출발 05:50 정상, 거머리, 등록 들머리"
+          "date": "2026-07",
+          "says": "마닐라~레가스피 버스 요금 약 ₱1,076부터, 약 12시간"
         }
       ],
-      "decision": "과거 요금 명시"
+      "decision": "2026 자료 2건으로 갱신(옛 ₱700~900 은 폐기), 운영사·등급에 따라 다름"
     },
     {
       "where": "getting_there",
@@ -180,16 +186,28 @@
     {
       "where": "getting_there",
       "fact": "비콜 국제공항",
-      "value": "다라가 DGI",
+      "value": "다라가 DRP(IATA), 2021-10 개항",
       "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bicol_International_Airport",
+          "grade": "B",
+          "date": "2026",
+          "says": "IATA DRP, ICAO RPLK, 다라가, 2021-10-07 개항 다음 날 운항 시작, 마닐라 노선 세부퍼시픽·PAL 익스프레스"
+        },
+        {
+          "url": "https://newsinfo.inquirer.net/1497446/domestic-commercial-flights-in-bicol-international-airport-to-begin-oct-8/amp",
+          "grade": "B",
+          "date": "2021-10",
+          "says": "비콜 국제공항 국내선 상업 운항 10월 8일 시작"
+        },
         {
           "url": "https://airial.travel/attractions/philippines/ligao-city/mount-masaraga-IaMueMtv",
           "grade": "C",
           "date": "2026",
-          "says": "이른 아침 방문 권장, 기본 시설, 레가스피 45분~1시간"
+          "says": "이른 아침 방문 권장, 레가스피 45분~1시간"
         }
       ],
-      "decision": "본문에서 최신 확인 안내, 사람이 확인 필요"
+      "decision": "기존 코드 DGI 는 오류, IATA 는 DRP 로 정정(본문 ko·en)"
     }
   ],
   "images": []
