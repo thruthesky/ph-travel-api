@@ -1,7 +1,7 @@
 {
   "id": 2550,
   "slug": "dumangas-church",
-  "checked_at": "2026-11-18T00:00:00Z",
+  "checked_at": "2026-11-19T06:30:00Z",
   "facts": [
     {
       "where": "history",
@@ -82,6 +82,46 @@
         }
       ],
       "decision": "출처가 오래되어 현지 확인 문구를 붙임"
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "두마가스 항 - 바코로드(바나고) 로로선 요금·운항",
+      "value": "일반석 약 ₱230~340, 하루 4~6회, 약 1시간 (2016년 ₱96은 폐기)",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/routes/dumangas-banago-starlite-ferries-schedule-fares",
+          "grade": "C",
+          "date": "2026-08",
+          "says": "Starlite Dumangas to Banago about 1 hour, regular ₱252, 6 daily trips, fuel surcharge may raise fares"
+        },
+        {
+          "url": "https://pamasahe.com/routes/dumangas-banago-fastcat-schedule-fares",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "FastCat Dumangas to Banago about 1 hour, economy regular ₱335, 4 daily sailings"
+        },
+        {
+          "url": "https://suroy.ph/iloilo-to-bacolod-ferry-schedule-fare-roro/",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "Dumangas Port RoRo: FastCat economy ₱335 (Oct 2026), Montenegro ₱229 regular (Sep 2026); Dumangas Port about 20 km from Iloilo City"
+        }
+      ],
+      "decision": "운항사 3곳의 2026년 요금이 ₱229~335 로 모여 ₱230~340 범위로 쓰고, 유류할증 주의를 붙임"
+    },
+    {
+      "where": "getting_there",
+      "fact": "버스·밴·택시 요금 2025년 재확인",
+      "value": "변경 없음(버스 ₱50~80, 밴 ₱100~150, 택시 ₱600~1,000)",
+      "sources": [
+        {
+          "url": "https://bustickets.ph/?p=7283",
+          "grade": "C",
+          "date": "2025",
+          "says": "Iloilo City to Dumangas Port 27 km about 1 hour; bus ₱50-80, van ₱100-150, taxi ₱600-1,000; page labeled 2025"
+        }
+      ],
+      "decision": "공식 요금표를 못 찾아 2025년 소개 글 기준·현지 확인 문구 유지. 성당 미사·복원·폐쇄 소식은 2025~2026년 자료에서 찾지 못함(부모 사이트 미사 시간표도 2025년 6월 자료라 본문에 넣지 않음)"
     },
     {
       "where": "highlights",

@@ -1,7 +1,7 @@
 {
   "id": 2672,
   "slug": "purro-nature-reserve",
-  "checked_at": "2026-11-18T00:00:00Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "latitude/longitude",
@@ -202,6 +202,80 @@
         }
       ],
       "decision": "채택"
+    },
+    {
+      "where": "tips/cautions",
+      "fact": "예약·현금·예약 사무실",
+      "value": "사전 예약 필수·워크인 불가, 현금만, 사무실 월~금 9~17시, 견적 회신 약 48 영업시간",
+      "sources": [
+        {
+          "url": "https://www.mountpurronaturereserve.com/booknow",
+          "grade": "A",
+          "date": "2026",
+          "says": "Prior reservation required, walk-ins not accepted, cash only, office Mon-Fri 9AM-5PM, reply within 48 office hours"
+        },
+        {
+          "url": "https://lakbaypinas.com/?p=14678",
+          "grade": "B",
+          "date": "2025-02",
+          "says": "성수기·연휴 사전 예약, 현금 지참(ATM 없음)"
+        }
+      ],
+      "decision": "공식 예약 페이지 기준으로 팁·주의에 반영"
+    },
+    {
+      "where": "itinerary",
+      "fact": "체크인·체크아웃",
+      "value": "체크인 14:00, 체크아웃 12:00",
+      "sources": [
+        {
+          "url": "https://www.mountpurronaturereserve.com/accommodations",
+          "grade": "A",
+          "date": "2026",
+          "says": "Check-in 2:00 pm, check-out 12:00 nn"
+        }
+      ],
+      "decision": "공식 1곳이라 '공식 안내, 실제는 예약 조건에 따라 다를 수 있음'으로 표기, 일정표 시각을 14:00·12:00으로 수정"
+    },
+    {
+      "where": "overview/highlights",
+      "fact": "활동(짚라인·로프 코스 운영 여부)",
+      "value": "숲길·강 트레킹·모닥불 숙박 포함, 도마가트 체험 등은 추가 요금, 짚라인은 공식 안내에 없음",
+      "sources": [
+        {
+          "url": "https://www.mountpurronaturereserve.com/activities",
+          "grade": "A",
+          "date": "2026",
+          "says": "Forest Hike, River Walk, Bonfire included; Dumagat interaction and tree growing are paid add-ons; zipline not mentioned; activities may be cancelled for weather"
+        },
+        {
+          "url": "https://www.budgetbiyahera.com/2017/07/mount-purro-nature-reserve-forest-farm-ecoretreat-calawis-antipolo.html",
+          "grade": "B",
+          "date": "2017-07",
+          "says": "짚라인·로프 코스 등 옛 소개"
+        }
+      ],
+      "decision": "공식 활동 안내에 없는 짚라인·로프 코스는 '예전 소개, 운영 여부 확인'으로 낮춤"
+    },
+    {
+      "where": "costs",
+      "fact": "폐쇄·재해 소식",
+      "value": "2025~2026년 폐쇄 소식 확인되지 않음",
+      "sources": [
+        {
+          "url": "https://www.trip.com/moments/poi-mount-purro-nature-reserve-56085873/",
+          "grade": "C",
+          "date": "2026",
+          "says": "폐쇄 공지 없음, 7:00~19:00 표기"
+        },
+        {
+          "url": "https://www.mountpurronaturereserve.com",
+          "grade": "A",
+          "date": "2026",
+          "says": "공식 홈페이지에 폐쇄 공지 없음, 예약 문의 연락처 운영"
+        }
+      ],
+      "decision": "폐쇄 소식은 못 찾아 본문 변경 없음, 요금은 공식 비공개라 기존 범위 유지"
     },
     {
       "where": "operating_hours",

@@ -1,7 +1,7 @@
 {
   "id": 130,
   "slug": "monasterio-de-tarlac",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "tips",
@@ -22,6 +22,46 @@
         }
       ],
       "decision": "예전 공지의 요일은 과거 사례임을 표시하고 공개 경배를 구체적으로 안내했다."
+    },
+    {
+      "where": "costs",
+      "fact": "입장료와 주차비",
+      "value": "입장 무료(헌금 자율, 2025~2026년 보고 기준·현지 확인). 주차·관리비 약 ₱10~50.",
+      "sources": [
+        {
+          "url": "https://grokipedia.com/page/Monasterio_de_Tarlac",
+          "grade": "C",
+          "date": "2025",
+          "says": "2025년 기준 입장 무료, 주차는 차량당 ₱50, 매일 7:00~18:00, 목요일 휴관으로 적는다(본문 내 ₱50 입장료 기록과 상충)."
+        },
+        {
+          "url": "https://www.tunextravels.com/12-best-things-to-do-in-tarlac-on-a-budget-2026/",
+          "grade": "C",
+          "date": "2026",
+          "says": "입장은 무료로 보고되며 기부를 받는다, 방문 전 최신 안내를 확인하라고 적는다."
+        }
+      ],
+      "decision": "2016~2019년 글의 ₱50 입장료는 오래된 값이고 최근 두 곳이 무료로 일치해 '무료'를 유지하되 연도와 현지 확인을 붙였다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "마닐라–타를락 시티 버스 요금·시간",
+      "value": "편도 약 ₱250~400, 약 2시간 30분~4시간, 연료 할증 가능.",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/routes/manila-tarlac-cisco-bus-schedule-fares",
+          "grade": "C",
+          "date": "2026-09",
+          "says": "쿠바오–타를락 시스코 버스 일반 ₱404, 약 4시간, 연료 할증으로 더 오를 수 있다."
+        },
+        {
+          "url": "https://pamasahe.com/routes/cubao-manila-lingayen-pangasinan-via-camiling-tarlac-victory-liner-bus-schedule-fares",
+          "grade": "C",
+          "date": "2026",
+          "says": "빅토리 라이너 쿠바오 노선 검색 요약에서 쿠바오–타를락 ₱265(날짜 불명)가 나오며 회사별로 차이가 있다."
+        }
+      ],
+      "decision": "₱265(빅토리)와 ₱404(시스코)를 모두 포함하도록 범위를 ₱250~400, 시간을 4시간까지로 넓혔다."
     }
   ],
   "images": []
