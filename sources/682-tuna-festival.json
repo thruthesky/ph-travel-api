@@ -1,7 +1,7 @@
 {
  "id": 682,
  "slug": "tuna-festival",
- "checked_at": "2026-11-18T00:00:00Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "overview",
@@ -73,9 +73,21 @@
      "grade": "B",
      "date": "2026-11",
      "says": "general-santos 등록 좌표 사용"
+    },
+    {
+     "url": "https://nominatim.openstreetmap.org/search?q=General+Santos&countrycodes=ph&format=json",
+     "grade": "B",
+     "date": "2026",
+     "says": "General Santos 시 중심 6.1122,125.1722 (등록 좌표와 약 0.6km 차이)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/General_Santos",
+     "grade": "B",
+     "date": "2026",
+     "says": "General Santos 좌표 약 6.12N 125.17E"
     }
    ],
-   "decision": "도시 대표 좌표로 대체, 행사 장소가 시내 중심부"
+   "decision": "도시 대표 좌표로 대체, 행사 장소가 시내 중심부. OSM·위키백과와 1km 이내로 일치 확인"
   }
  ],
  "images": []
