@@ -1,7 +1,7 @@
 {
   "id": 2370,
   "slug": "lake-wood",
-  "checked_at": "2026-11-19T04:37:23Z",
+  "checked_at": "2026-11-19T05:45:31Z",
   "facts": [
     {
       "where": "coordinates",
@@ -138,16 +138,28 @@
     {
       "where": "best_time",
       "fact": "기후",
-      "value": "27~30℃, 21~22℃, 1,094mm",
+      "value": "27~30℃, 21~22℃, 약 1,100mm 안팎",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Lakewood,_Zamboanga_del_Sur",
           "grade": "B",
-          "date": "2026-11-18",
-          "says": "기후 수치"
+          "date": "2026-11-19",
+          "says": "Meteoblue 기반 표: 월 최고 27~30℃, 최저 21~22℃, 연 1,094mm"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pagadian",
+          "grade": "B",
+          "date": "2026-11-19",
+          "says": "인근 파가디안 Meteoblue 표: 최고 29~32℃·최저 21~24℃, 연 883mm(본문은 2,500~3,000mm라 서로 어긋남)"
+        },
+        {
+          "url": "https://www.weatherapi.com/history/may/q/lakewood-1847748",
+          "grade": "C",
+          "date": "2026-11-19",
+          "says": "5월 평균 27℃, 강수 약 310mm(위키 표 112mm와 크게 다름)"
         }
       ],
-      "decision": "위키 기준"
+      "decision": "기온은 위키·인근 자료가 대체로 일치하나 강수는 자료마다 크게 달라, 모델 자료 기준 '약 1,100mm 안팎·자료마다 차이'로 낮춤"
     },
     {
       "where": "highlights",

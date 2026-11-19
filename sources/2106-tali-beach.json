@@ -1,7 +1,7 @@
 {
  "id": 2106,
  "slug": "tali-beach",
- "checked_at": "2026-11-19T00:00:00Z",
+ "checked_at": "2026-11-19T12:00:00Z",
  "facts": [
   {
    "where": "coordinates",
@@ -198,16 +198,28 @@
   {
    "where": "overview",
    "fact": "나수그부 마닐라에서 약 95km",
-   "value": "약 95km",
+   "value": "도로 기준 약 80~95km",
    "sources": [
     {
      "url": "https://en.wikipedia.org/wiki/Nasugbu",
      "grade": "A",
      "date": "2026-11-18",
-     "says": "마닐라에서 약 95km"
+     "says": "마닐라에서 95km(59mi)"
+    },
+    {
+     "url": "https://www.rome2rio.com/s/Manila/Nasugbu",
+     "grade": "C",
+     "date": "2026",
+     "says": "마닐라~나수그부 도로 거리 78.8km, 승용차 약 1시간 18분"
+    },
+    {
+     "url": "https://www.philatlas.com/luzon/r04a/batangas/nasugbu.html",
+     "grade": "B",
+     "date": "2026",
+     "says": "마닐라에서 직선거리 68.42km(도로 거리 아님)"
     }
    ],
-   "decision": "위키백과"
+   "decision": "출처마다 79km(도로 계산)~95km(위키)로 달라 도로 기준 약 80~95km 범위로 낮춤"
   }
  ],
  "images": []

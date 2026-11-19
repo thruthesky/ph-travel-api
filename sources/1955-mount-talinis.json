@@ -1,7 +1,7 @@
 {
   "id": 1955,
   "slug": "mount-talinis",
-  "checked_at": "2026-11-19T00:00:00Z",
+  "checked_at": "2026-11-19T12:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -26,16 +26,34 @@
     {
       "where": "overview",
       "fact": "지질·지열",
-      "value": "복합 화산, PHIVOLCS 활동 가능성, 팔린피논 192.5MW",
+      "value": "복합 화산, PHIVOLCS 활동 가능성 분류, 팔린피논 192.5MW(위키백과)·221.8MW(2024 보도)",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Mount_Talinis",
           "grade": "B",
           "date": "2026-11-18",
-          "says": "복합 화산, 안산암·현무암, 기저 36km"
+          "says": "복합 화산, 안산암·현무암, 기저 36km, PHIVOLCS 활동 가능성 분류, 마지막 분화 미상, 팔린피논 192.5MW"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_active_volcanoes_in_the_Philippines",
+          "grade": "B",
+          "date": "2026-11-19",
+          "says": "Cuernos de Negros(탈리니스)가 '활동 가능성 있는 화산(Potentially active volcanoes)' 목록에 들어 있음"
+        },
+        {
+          "url": "https://www.thinkgeoenergy.com/edc-allocates-434-million-for-southern-negros-geothermal-expansion-philippines/",
+          "grade": "B",
+          "date": "2024-10-21",
+          "says": "남부 네그로스 지열 사업(SNGP) 가동 발전소 합계 가용 용량 221.8MW"
+        },
+        {
+          "url": "https://powerphilippines.com/edc-moves-to-upgrade-key-negros-geothermal-asset/",
+          "grade": "B",
+          "date": "2026-06-06",
+          "says": "발렌시아(네그로스오리엔탈)의 SNGP 증기 용량 허가 282.5MW, 현재 약 241.8MW 공급"
         }
       ],
-      "decision": "단일 출처이나 변하지 않는 지질 사실"
+      "decision": "지질은 위키백과·화산 목록으로 교차 확인. 지열 용량은 위키백과 192.5MW와 2024년 221.8MW가 달라 두 값을 함께 적고 출처 차이를 명시"
     },
     {
       "where": "lat/lon",

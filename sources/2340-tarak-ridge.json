@@ -1,7 +1,7 @@
 {
   "id": 2340,
   "slug": "tarak-ridge",
-  "checked_at": "2026-11-18T08:00:26Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "latitude/longitude",
@@ -46,16 +46,28 @@
     {
       "where": "overview",
       "fact": "마리벨레스 산 높이",
-      "value": "약 1,398m",
+      "value": "약 1,388m",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Mount_Mariveles",
           "grade": "A",
           "date": "2026",
-          "says": "infobox 1,398 m (본문은 1,388 m)"
+          "says": "infobox 1,398 m, 본문 1,388 m (서로 10m 다름)"
+        },
+        {
+          "url": "https://volcanodb.com/543/Mariveles",
+          "grade": "B",
+          "date": "2026",
+          "says": "rising to 1,388 meters (4,554 feet)"
+        },
+        {
+          "url": "https://www.geonames.org/1700865",
+          "grade": "B",
+          "date": "2026",
+          "says": "elevation 1,388 m (ASTER 추정치는 1,217 m)"
         }
       ],
-      "decision": "위키백과 infobox 값 사용"
+      "decision": "위키백과 본문·volcanodb·GeoNames 가 1,388m 로 일치해 약 1,388m 로 고침(infobox 1,398m 는 불일치)"
     },
     {
       "where": "difficulty",

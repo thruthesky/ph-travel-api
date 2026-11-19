@@ -1,7 +1,7 @@
 {
   "id": 220,
   "slug": "tops-lookout",
-  "checked_at": "2026-11-19T12:00:00Z",
+  "checked_at": "2026-11-19T05:45:13Z",
   "facts": [
     {
       "where": "속성",
@@ -302,9 +302,34 @@
     {
       "where": "stay_and_food",
       "fact": "숙박·식비 가격대",
-      "value": "IT 파크 일대 호텔 중급 약 ₱2,000~4,000, 고급 약 ₱5,000+; 메인 약 ₱250~500",
-      "sources": [],
-      "decision": "확인 못 함 — 교차 확인된 출처가 없어 본문에서 '대략'·'가게마다 다릅니다'로 완화한 근사치"
+      "value": "IT 파크 일대 호텔 중급 약 ₱2,500~4,500, 고급 약 ₱5,000~6,000+ (2026-07); 메인 약 ₱220~500, 음료 약 ₱110~250",
+      "sources": [
+        {
+          "url": "https://cebudestinations.com/guide/where-to-stay-in-it-park",
+          "grade": "C",
+          "date": "2026-07-07",
+          "says": "IT 파크·라훅 호텔 1박 중급 ₱2,500-4,500, 프리미엄 ₱4,000-6,000+, 세다 센트럴 블록 ₱2,900-5,600 (2026-07 확인)"
+        },
+        {
+          "url": "https://www.booking.com/landmark/ph/cebu-it-park.html",
+          "grade": "C",
+          "date": "2026",
+          "says": "4성급 Seda Central Bloc 1박 약 US$96부터, 3성급 서비스 아파트 약 US$38부터"
+        },
+        {
+          "url": "https://cebuinsider.com/tops-cebu/",
+          "grade": "B",
+          "date": "2026-04-20",
+          "says": "탑스 식당별 시작 가격: 야키 스테이크 ₱390, 텐 이자카야 ₱300, 미모이스 그릴 ₱220, 말차·카페 음료 ₱110~250"
+        },
+        {
+          "url": "https://us.trip.com/moments/poi-tops-cebu-95741/",
+          "grade": "C",
+          "date": "2026-07",
+          "says": "한 식당 후기에서 1인 약 ₱500"
+        }
+      ],
+      "decision": "호텔은 2곳이 대체로 일치(₱5,000~6,000 은 US$96 환산과 부합)해 범위로 씀, 식비는 가게별 시작 가격이라 범위·'대략'으로 서술"
     },
     {
       "where": "tips",
