@@ -1,11 +1,199 @@
-{ "id": 2117, "slug": "bacarra-church", "checked_at": "2026-11-18T00:00:00Z",
+{
+  "id": 2117,
+  "slug": "bacarra-church",
+  "checked_at": "2026-11-18T00:00:00Z",
   "facts": [
-    { "where": "overview", "fact": "창건·본당 연혁(1590 마을, 1593 성당, 1603 방문 예배소, 1614 본당, 1782 봉헌)", "value": "위와 같음", "sources": [ { "url": "https://en.wikipedia.org/wiki/Bacarra_Church", "grade": "B", "date": "2026-11-18", "says": "1590 9/18 아우구스티노회 창설, 1593 성당·수도원, 1603 visita, 1614 parish, 1782 새 성당" }, { "url": "https://www.lakwatsero.com/travelogues/visita-iglesia-seven-ilocos-churches/", "grade": "C", "date": "", "says": "1593 착공, 1782 봉헌" } ], "decision": "자료마다 연도 차이가 있다고 본문에 명시" },
-    { "where": "overview", "fact": "종탑 높이·지진 피해·별명", "value": "약 50m, 1931~1971 잔 지진, 1983 돔 붕괴", "sources": [ { "url": "https://en.wikipedia.org/wiki/Bacarra_Church", "grade": "B", "date": "2026-11-18", "says": "3층 50m 산호 벽돌 종탑, 1983 지진으로 돔 붕괴" }, { "url": "https://theilocostimes.blogspot.com/2018/04/bacarras-dome-less-bell-tower-to.html", "grade": "C", "date": "2018-04-12", "says": "1983.8.17 규모 7.8 지진, 별명 acrobatic bell tower" } ], "decision": "전해진다 표현 사용" },
-    { "where": "overview", "fact": "국가 문화재 지정", "value": "1973-08-01 PD 260", "sources": [ { "url": "https://en.wikipedia.org/wiki/Bacarra_Church", "grade": "B", "date": "2026-11-18", "says": "NCT 1973.8.1 PD 260" }, { "url": "https://theilocostimes.blogspot.com/2018/04/bacarras-dome-less-bell-tower-to.html", "grade": "C", "date": "2018-04-12", "says": "같은 날짜·PD 260" } ], "decision": "채택" },
-    { "where": "highlights", "fact": "NHCP 종탑 복원·인계", "value": "2018 발표, 2020-11 교구 인계", "sources": [ { "url": "https://en.wikipedia.org/wiki/Bacarra_Church", "grade": "B", "date": "2026-11-18", "says": "2018 복원 발표, 2020년 11월 인계" }, { "url": "https://mb.com.ph/2020/11/19/nhcp-delivers-restored-heritage-icons-to-ilocos-norte", "grade": "B", "date": "2020-11-19", "says": "검색 결과 제목으로만 확인(본문 열람 403)" } ], "decision": "본문 미열람이라 위키 기준" },
-    { "where": "highlights", "fact": "바카라 박물관·지하 터널", "value": "옛 수도원 2층 건물", "sources": [ { "url": "https://en.wikipedia.org/wiki/Bacarra_Church", "grade": "B", "date": "2026-11-18", "says": "Museo de Bacarra, 터널 3갈래" } ], "decision": "단일 출처라 개관 시간·요금은 쓰지 않음" },
-    { "where": "latitude/longitude", "fact": "좌표", "value": "18.2505, 120.6118", "sources": [ { "url": "https://en.wikipedia.org/wiki/Bacarra_Church", "grade": "B", "date": "2026-11-18", "says": "18.250495, 120.611788" }, { "url": "registered.tsv laoag 18.1978,120.5936", "grade": "C", "date": "", "says": "라오아그 바로 북쪽, 직선 약 6km로 일치" } ], "decision": "지도 2곳 대조는 못 함, 위키+라오아그 위치 대조" },
-    { "where": "getting_there", "fact": "라오아그~바카라 이동", "value": "인접 북쪽 마을, 짧은 지프니", "sources": [ { "url": "https://www.lakwatsero.com/travelogues/visita-iglesia-seven-ilocos-churches/", "grade": "C", "date": "", "says": "라오아그 다음 북쪽 마을, 최저 요금" }, { "url": "https://www.lakwatsero.com/destinations/travel-guide-laoag-and-suburbs/", "grade": "C", "date": "", "says": "바카라 등은 라오아그에서 짧은 지프니" } ], "decision": "요금 수치는 쓰지 않음(공항 구간 ₱20~50만 한 안내서 인용)" }
+    {
+      "where": "overview",
+      "fact": "창건·본당 연혁(1590 마을, 1593 성당, 1603 방문 예배소, 1614 본당, 1782 봉헌)",
+      "value": "위와 같음",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bacarra_Church",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "1590 9/18 아우구스티노회 창설, 1593 성당·수도원, 1603 visita, 1614 parish, 1782 새 성당"
+        },
+        {
+          "url": "https://www.lakwatsero.com/travelogues/visita-iglesia-seven-ilocos-churches/",
+          "grade": "C",
+          "date": "",
+          "says": "1593 착공, 1782 봉헌"
+        }
+      ],
+      "decision": "자료마다 연도 차이가 있다고 본문에 명시"
+    },
+    {
+      "where": "overview",
+      "fact": "종탑 높이·지진 피해·별명",
+      "value": "약 50m, 1931~1971 잔 지진, 1983 돔 붕괴",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bacarra_Church",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "3층 50m 산호 벽돌 종탑, 1983 지진으로 돔 붕괴"
+        },
+        {
+          "url": "https://theilocostimes.blogspot.com/2018/04/bacarras-dome-less-bell-tower-to.html",
+          "grade": "C",
+          "date": "2018-04-12",
+          "says": "1983.8.17 규모 7.8 지진, 별명 acrobatic bell tower"
+        }
+      ],
+      "decision": "전해진다 표현 사용"
+    },
+    {
+      "where": "overview",
+      "fact": "국가 문화재 지정",
+      "value": "1973-08-01 PD 260",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bacarra_Church",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "NCT 1973.8.1 PD 260"
+        },
+        {
+          "url": "https://theilocostimes.blogspot.com/2018/04/bacarras-dome-less-bell-tower-to.html",
+          "grade": "C",
+          "date": "2018-04-12",
+          "says": "같은 날짜·PD 260"
+        }
+      ],
+      "decision": "채택"
+    },
+    {
+      "where": "highlights",
+      "fact": "NHCP 종탑 복원·인계",
+      "value": "2018 발표, 2020-11 교구 인계",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bacarra_Church",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "2018 복원 발표, 2020년 11월 인계"
+        },
+        {
+          "url": "https://mb.com.ph/2020/11/19/nhcp-delivers-restored-heritage-icons-to-ilocos-norte",
+          "grade": "B",
+          "date": "2020-11-19",
+          "says": "검색 결과 제목으로만 확인(본문 열람 403)"
+        }
+      ],
+      "decision": "본문 미열람이라 위키 기준"
+    },
+    {
+      "where": "highlights",
+      "fact": "바카라 박물관·지하 터널",
+      "value": "옛 수도원 2층 건물",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bacarra_Church",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "Museo de Bacarra, 터널 3갈래"
+        }
+      ],
+      "decision": "단일 출처라 개관 시간·요금은 쓰지 않음"
+    },
+    {
+      "where": "latitude/longitude",
+      "fact": "좌표",
+      "value": "18.2505, 120.6118",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bacarra_Church",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "18.250495, 120.611788"
+        },
+        {
+          "url": "registered.tsv laoag 18.1978,120.5936",
+          "grade": "C",
+          "date": "",
+          "says": "라오아그 바로 북쪽, 직선 약 6km로 일치"
+        }
+      ],
+      "decision": "지도 2곳 대조는 못 함, 위키+라오아그 위치 대조"
+    },
+    {
+      "where": "getting_there",
+      "fact": "라오아그~바카라 이동",
+      "value": "인접 북쪽 마을, 짧은 지프니",
+      "sources": [
+        {
+          "url": "https://www.lakwatsero.com/travelogues/visita-iglesia-seven-ilocos-churches/",
+          "grade": "C",
+          "date": "",
+          "says": "라오아그 다음 북쪽 마을, 최저 요금"
+        },
+        {
+          "url": "https://www.lakwatsero.com/destinations/travel-guide-laoag-and-suburbs/",
+          "grade": "C",
+          "date": "",
+          "says": "바카라 등은 라오아그에서 짧은 지프니"
+        }
+      ],
+      "decision": "요금 수치는 쓰지 않음(공항 구간 ₱20~50만 한 안내서 인용)"
+    }
   ],
-  "images": [] }
+  "images": [
+    {
+      "file": "2117-bacarra-church.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Saint_Andrew_the_Apostle_Parish_Bacarra_with_bell_tower_(Rizal_Boulevard,_Bacarra,_Ilocos_Norte;_11-17-2022).jpg",
+      "check": "설명·분류에 Bacarra 와 bell tower 명시, 본당과 종탑이 한 화면에 보임(가로 전경, 서명·워터마크 없음)"
+    },
+    {
+      "file": "2117-bacarra-church-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Saint_Andrew_the_Apostle_Parish_Bacarra_(Rizal_Boulevard,_Bacarra,_Ilocos_Norte;_11-17-2022).jpg",
+      "check": "분류 Bacarra Church, 현역 본당 정면 정면샷"
+    },
+    {
+      "file": "2117-bacarra-church-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bacarra_Church_Facade,_Bacarra,_Ilocos_Norte_2015.jpg",
+      "check": "설명 Facade view of Bacarra Church, 분류 Bacarra Church"
+    },
+    {
+      "file": "2117-bacarra-church-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bacarra_Domeless_Belfry_(Rizal_Boulevard,_Bacarra,_Ilocos_Norte;_11-17-2022).jpg",
+      "check": "설명 Bacarra Domeless Belfry, 분류 Bacarra Bell Tower, 본문의 머리 없는 종탑과 일치"
+    },
+    {
+      "file": "2117-bacarra-church-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:DSC_0739-2_Bacarra_Church.jpg",
+      "check": "분류 Bacarra Church(GRMondala 2017), 종탑 형태가 다른 사진과 일치"
+    },
+    {
+      "file": "2117-bacarra-church-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:GRMondala_Bacarra_Church_bell_tower_DSC_0760.jpg",
+      "check": "분류 Bacarra Bell Tower, 종탑 기둥 세부"
+    },
+    {
+      "file": "2117-bacarra-church-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Allan_Jay_Quesada_Bacarra_Church_DSC_3438.jpg",
+      "check": "분류 Bacarra Church(2022-10-31), 종탑과 광장 포장 확인"
+    },
+    {
+      "file": "2117-bacarra-church-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bacarra_Belltower.jpg",
+      "check": "설명 Bacarra Belltower, 1973 국가 문화재 언급, 분류 Bacarra Bell Tower"
+    },
+    {
+      "file": "2117-bacarra-church-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bacarra_Bell_Tower.jpg",
+      "check": "설명 Bacarra Bell Tower / Torre Ti Bacarra, 분류 Bacarra Bell Tower"
+    },
+    {
+      "file": "2117-bacarra-church-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bacarra_Church_interior.jpg",
+      "check": "설명 Bacarra Church interior, 분류 Interior of Bacarra Church"
+    },
+    {
+      "file": "2117-bacarra-church-11.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Saint_Andrew_the_Apostle_Parish_Bacarra_inside_altar_(Rizal_Boulevard,_Bacarra,_Ilocos_Norte;_11-17-2022).jpg",
+      "check": "설명 inside altar, 중앙 감실에 십자가를 든 성 안드레아 상"
+    }
+  ],
+  "photos_checked_at": "2026-11-19T04:46:08Z"
+}
