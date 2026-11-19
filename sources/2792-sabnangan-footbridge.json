@@ -1,7 +1,7 @@
 {
   "id": 2792,
   "slug": "sabnangan-footbridge",
-  "checked_at": "2026-11-19T00:00:00Z",
+  "checked_at": "2026-11-19T06:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -181,10 +181,17 @@
           "url": "https://en.wikipedia.org/wiki/Luba,_Abra",
           "grade": "A",
           "date": "2026",
-          "says": "기후 표"
+          "says": "Meteoblue 모델 기반 기후 표: 연 강수 약 759mm, 비 오는 날 약 159.6일, 평균 최고 30/최저 21℃, 6~10월 월 100mm 이상(7월 121mm 최다)"
+        },
+        {
+          "url": "https://www.meteoblue.com/en/weather/historyclimate/climatemodelled/luba_philippines_1706627",
+          "grade": "B",
+          "date": "2026",
+          "says": "Wikipedia 기후 표의 원자료 출처. 이 페이지는 약 30km 해상도 모델이며 열대 강수일수는 최대 2배 과대, 강수량은 실측보다 낮을 수 있다고 설명(Luba 수치 자체는 못 읽음)"
         }
       ],
-      "decision": ""
+      "value": "연 강수 약 759mm, 약 160일, 30/21℃ (모델 추정)",
+      "decision": "위키백과 표는 Meteoblue 모델 값이라 독립된 2곳이 아님. 단정 대신 '기상 모델 추정치·알려져 있다·실제와 다를 수 있음'으로 낮추고, 우기는 위키 월별 값에 맞춰 6~10월로 고침"
     }
   ],
   "images": []
