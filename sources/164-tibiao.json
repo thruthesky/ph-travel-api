@@ -1,7 +1,7 @@
 {
   "id": 164,
   "slug": "tibiao",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T11:30:00Z",
   "facts": [
     {
       "where": "tips",
@@ -22,6 +22,98 @@
         }
       ],
       "decision": "수량이 변하는 강 체험 확인과 상품 포함 여부를 안내했다."
+    },
+    {
+      "where": "costs",
+      "fact": "부그통 바토 등록비·가이드, 하발하발, 카와·튜빙·카약·피시 스파 요금",
+      "value": "등록 약 ₱50~100, 가이드 그룹당 ₱150~300, 하발하발 약 ₱70~100, 카와 ₱299~599(2024), 튜빙 ₱299~500, 카약 ₱499~899, 피시 스파 약 ₱119",
+      "sources": [
+        {
+          "url": "https://www.rencalago.com/antique-kawa-hot-bath-mararison-island",
+          "grade": "B",
+          "date": "2026-10",
+          "says": "칼라왁 마운틴 리조트 카와 소금 ₱299·우유/커피/맥주 ₱399·와인 ₱599(2024 요금), 폭포 등록 약 ₱50, 가이드 ₱150~200(4인까지), 하발하발 ₱70~90, 요금은 변동하니 확인 권고."
+        },
+        {
+          "url": "https://awanderfulsole.com/tibiao-kawa-hot-bath-budget-travel-guide/",
+          "grade": "C",
+          "date": "2024-10",
+          "says": "환경세 ₱50, 가이드 ₱300 안팎, 튜빙 ₱299·익스트림 ₱499, 카약 익스트림 ₱899, 피시 스파 ₱119, 하발하발 ₱90."
+        },
+        {
+          "url": "https://www.taraletsanywhere.com/tibiao-antique/",
+          "grade": "C",
+          "date": "2024-03",
+          "says": "폭포 입장 ₱100·가이드 ₱150(그룹), 카약 기본 ₱499·익스트림 ₱899, 튜빙 ₱399, 피시 스파 ₱119(요금표는 2022 기준 표기), 하발하발 ₱70."
+        }
+      ],
+      "decision": "공식 요금표는 찾지 못했고 최근 12개월 출처는 rencalago 1곳이라 구간(약)과 2024~2026 후기 기준 표기로 유지했다. 튜빙 하한 ₱200은 근거가 없어 ₱300으로, 하발하발 상한 ₱150은 ₱100으로 낮췄다."
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "카티클란·칼리보·일로일로에서 티비아오 버스·밴 요금",
+      "value": "카티클란·칼리보 편도 약 ₱100~300(1시간 30분~2시간), 일로일로 밴 약 ₱180~350",
+      "sources": [
+        {
+          "url": "https://www.taraletsanywhere.com/tibiao-antique/",
+          "grade": "C",
+          "date": "2024-03",
+          "says": "칼리보·카티클란에서 버스 약 ₱100~200(1.5~2시간), 일로일로 몰로 터미널에서 밴 ₱180(약 4시간)."
+        },
+        {
+          "url": "https://www.rencalago.com/antique-kawa-hot-bath-mararison-island",
+          "grade": "B",
+          "date": "2026-10",
+          "says": "일로일로에서 밴 약 3~4시간, 예전 요금 약 ₱180."
+        },
+        {
+          "url": "https://awanderfulsole.com/tibiao-kawa-hot-bath-budget-travel-guide/",
+          "grade": "C",
+          "date": "2024-10",
+          "says": "티비아오–일로일로 버스 ₱220, 일로일로 터미널–쿨라시 밴 ₱220."
+        }
+      ],
+      "decision": "하한을 근거에 맞춰 낮추고 상한은 물가 변동 여유로 두었다. 모두 개인 블로그라 구간 표기를 유지했다."
+    },
+    {
+      "where": "costs/stay_and_food",
+      "fact": "숙박 1박 요금대",
+      "value": "1박 약 ₱400~3,000",
+      "sources": [
+        {
+          "url": "https://awanderfulsole.com/tibiao-kawa-hot-bath-budget-travel-guide/",
+          "grade": "C",
+          "date": "2024-10",
+          "says": "칼라왁 트리하우스 1인 ₱499, 부리·아바카 에어컨 객실 1인 ₱649, 방가 객실 ₱1,299, 숙박 ₱400부터."
+        },
+        {
+          "url": "https://www.taraletsanywhere.com/tibiao-antique/",
+          "grade": "C",
+          "date": "2024-03",
+          "says": "카약 인 1인 ₱300(아침 별도 ₱200)."
+        }
+      ],
+      "decision": "하한 ₱800은 근거 요금(₱300~650 1인)과 맞지 않아 ₱400으로 낮췄다."
+    },
+    {
+      "where": "cautions",
+      "fact": "2025년 9월 26일 오퐁 때 투노 산사태",
+      "value": "시티오 이그포토이 일곱 가구 매몰, 티비아오 11,000여 명 피해",
+      "sources": [
+        {
+          "url": "https://newsinfo.inquirer.net/2116576/7-families-cheat-death-as-landslide-buries-houses-in-antique-village",
+          "grade": "B",
+          "date": "2025-09-28",
+          "says": "오퐁 때 투노 이그포토이에서 산사태·낙석으로 일곱 가구가 묻혔고 인명 피해는 없었다(검색 요약으로 확인, 본문 열람 403)."
+        },
+        {
+          "url": "https://aksyonradyoiloilo.com.ph/7-ka-banwa-sa-antique-ginbaha-tungod-sa-bagyo-opong/",
+          "grade": "B",
+          "date": "2025-09-27",
+          "says": "오퐁으로 티비아오 등 앤티크 7개 읍이 침수됐다(투노 산사태는 언급 없음)."
+        }
+      ],
+      "decision": "산사태 본문은 Inquirer 1곳이라 사건 사실만 유지하고 요금·일정은 건드리지 않았다. 폭포 폐쇄·재개 소식은 2025~2026 자료에서 찾지 못해 '현지 확인' 안내를 유지했다."
     }
   ],
   "images": []

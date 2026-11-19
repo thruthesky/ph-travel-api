@@ -1,7 +1,7 @@
 {
  "id": 1486,
  "slug": "mount-cagua",
- "checked_at": "2026-11-18T00:00:00Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "coordinates",
@@ -61,7 +61,7 @@
      "says": "PAMB ₱150~180·외국인 ₱250, 가이드·포터 요금, 사전 등록 필수"
     }
    ],
-   "decision": "범위와 '최신 공지 확인' 표기"
+   "decision": "공식 요금표 못 찾고 최근 12개월 독립 출처 1곳뿐(lakbaypinas 본문 날짜가 2025·2026 혼재) → 범위·'2020~2025년 가이드 기준'·'최신 공지 확인' 표기로 낮춤"
   },
   {
    "where": "getting_there",
@@ -81,7 +81,33 @@
      "says": "밴 ₱200 2~3시간, 트라이시클 ₱400 30~45분"
     }
    ],
-   "decision": "채택"
+   "decision": "채택(2020·최근 가이드 값이 같음, 공식 확인 못 함 — 이미 '약' 표기)"
+  },
+  {
+   "where": "getting_there",
+   "fact": "사전 등록 필수·폐쇄·PHIVOLCS 경보",
+   "value": "곤사가 관광 사무소 사전 등록(현장 등록 불가), 고정 폐쇄 없음, 경보 0단계 외에는 중단 가능",
+   "sources": [
+    {
+     "url": "https://lakbaypinas.com/?p=18172",
+     "grade": "B",
+     "date": "2025",
+     "says": "사전 등록 필수·워크인 불가, 연중 고정 폐쇄 없음, 화산 경보 시 LGU가 중단 가능, 문의 gonzaga.tourism@gmail.com"
+    },
+    {
+     "url": "https://transitpinas.com/cagua-cagayan/",
+     "grade": "B",
+     "date": "2020",
+     "says": "곤사가 관광 사무소 사전 협의, 워크인 불가"
+    },
+    {
+     "url": "https://www.volcanodiscovery.com/cagua/news.html",
+     "grade": "C",
+     "date": "2026",
+     "says": "2026-11-05 갱신, 카구아 상태 정상, 새 소식 없음(비공식 집계)"
+    }
+   ],
+   "decision": "2025~2026년 폐쇄·재해 소식 없음 확인, 본문 유지"
   },
   {
    "where": "itinerary",

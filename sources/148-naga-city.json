@@ -1,8 +1,88 @@
 {
   "id": 148,
   "slug": "naga-city",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
+    {
+      "where": "getting_there",
+      "fact": "마닐라–나가 직항 종료와 클락–나가 세브고 운항",
+      "value": "2026-03-29 부터 마닐라–나가 직항 없음, 세브고가 클락–나가 운항. 요금·소요 시간은 확인 못 해 대략치.",
+      "sources": [
+        {
+          "url": "https://insiderph.com/cebu-pacific-to-complete-naia-exit-for-turboprops-with-march-29-clark-transfer",
+          "grade": "B",
+          "date": "2026",
+          "says": "세부퍼시픽 터보프롭이 2026-03-29 NAIA 를 떠나 클락으로 옮기며 나가 노선은 클락–나가–클락이 된다."
+        },
+        {
+          "url": "https://ptvnews.ph/cebu-pacific-to-transfer-cebgo-dg-naga-san-jose-flights-to-clark-intl-airport/",
+          "grade": "B",
+          "date": "2025",
+          "says": "세브고 마닐라–나가 6117/6118 이 클락–나가 6129/6130 으로 옮기고 마닐라–나가는 하루 2회에서 1회로 줄었다."
+        }
+      ],
+      "decision": "운항 변경은 2곳이 일치해 유지. 요금(₱2,000~5,000)·1시간 20분은 근거를 못 찾아 대략치로 두고 예약 사이트 확인을 안내한다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "PNR 나가–레가스피 구간 중단",
+      "value": "2025-11 태풍 우완으로 기노바탄 철교 파손, 2026-07 까지 운행 중단.",
+      "sources": [
+        {
+          "url": "https://www.manilatimes.net/2025/11/10/news/pnr-bridge-in-guinobatan-albay-damaged-by-typhoon-nagalegazpi-train-operations-suspended/2219745",
+          "grade": "B",
+          "date": "2025-11-10",
+          "says": "우완이 산 라파엘–마이폰 철교를 손상시켜 나가–레가스피 운행이 중단됐다."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Pili_station",
+          "grade": "B",
+          "date": "2026-07",
+          "says": "2026년 2월 재개 목표가 지켜지지 않아 2026년 7월에도 중단 중이며 7월 13일 철교 점검이 있었다."
+        }
+      ],
+      "decision": "2곳이 일치해 유지. 이후 재개 여부는 확인되지 않아 PNR 공지 확인을 안내한다."
+    },
+    {
+      "where": "costs",
+      "fact": "마닐라–나가 버스 요금",
+      "value": "편도 약 ₱800~1,800 (회사·등급별)",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/routes/manila-naga-dltb-co-schedule-fares",
+          "grade": "C",
+          "date": "2026",
+          "says": "DLTB 큐바오–나가 일반 ₱1,112, 시터 ₱1,230, 약 8시간."
+        },
+        {
+          "url": "https://bustickets.ph/penafrancia-bus-manila-to-naga/",
+          "grade": "C",
+          "date": "2025",
+          "says": "페냐프란시아 버스 요금 ₱820~1,250 (등급별)."
+        },
+        {
+          "url": "https://www.rome2rio.com/s/Manila/Naga-City-Central-Jeep-Terminal",
+          "grade": "C",
+          "date": "2026",
+          "says": "PITX–나가 DLTB 버스 ₱1,100~1,800."
+        }
+      ],
+      "decision": "공식 요금표가 없고 C 등급만 있어 하한을 ₱800 으로 낮춘 범위로 표기."
+    },
+    {
+      "where": "costs",
+      "fact": "말랍사이 폭포 입장·환경세와 CWC 웨이크보드 요금",
+      "value": "말랍사이 약 ₱10~120(공식 요금표 없음), CWC 요금은 확인 못 함(변동 잦음, 현장 확인).",
+      "sources": [
+        {
+          "url": "https://ahroundph.com/blog/2024/03/03/malabsay-falls/",
+          "grade": "C",
+          "date": "2024",
+          "says": "파니쿠아손 검문소에서 입장료를 내며 금액은 ₱10~50 정도로 글마다 다르다."
+        }
+      ],
+      "decision": "출처 1곳(C)뿐이라 구체 값 대신 범위로 낮추고 현지 확인을 안내한다. CWC 2026 요금 출처는 찾지 못했다."
+    },
     {
       "where": "tips",
       "fact": "나가 페냐프란시아 박물관과 강 행렬",

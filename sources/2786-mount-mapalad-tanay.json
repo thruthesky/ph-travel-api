@@ -1,21 +1,31 @@
-{ "id": 2786, "slug": "mount-mapalad-tanay", "checked_at": "2026-11-18T00:00:00Z",
+{ "id": 2786, "slug": "mount-mapalad-tanay", "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     { "where": "lat/lon", "fact": "정상 좌표", "value": "14.6484, 121.3359", "sources": [
       {"url":"https://nominatim.openstreetmap.org/search?q=Mount+Mapalad","grade":"A","date":"2026-11-18","says":"OSM peak Mount Mapalad 14.6483511, 121.3359084"},
       {"url":"https://wanderlog.com/place/details/740578/mt-mapalad","grade":"B","date":"2026-11-18","says":"14.651461, 121.334077, San Jose St, Tanay"}], "decision": "OSM 정상 노드 채택" },
     { "where": "costs", "fact": "등록·환경 요금", "value": "약 ₱100/인", "sources": [
       {"url":"https://www.loveeatwander.com/mt-mapalad-diy-climb-guide/","grade":"B","date":"2019-05-28","says":"registration/eco fee P100 mandatory"},
-      {"url":"https://www.awanderfulsole.com/mt-mapalad-day-hike-budget-climb-guide/","grade":"B","date":"2026-09-20","says":"Registration P100 per person"}], "decision": "현지 확인 문구 병기" },
+      {"url":"https://www.awanderfulsole.com/mt-mapalad-day-hike-budget-climb-guide/","grade":"B","date":"2026-09-20","says":"Registration P100 per person"},
+      {"url":"https://wanderlog.com/place/details/740578","grade":"B","date":"2025-02","says":"entrance 100 PHP per person paid at jump off; guide mandatory"},
+      {"url":"https://hiketomountains.com/?p=3185","grade":"B","date":"2022-03-04","says":"registration 100 pesos per person"}], "decision": "공식 공지 없음, 후기 4곳 일치(2019·2022·2025·2026). 현지 확인 문구 병기" },
     { "where": "costs", "fact": "가이드(당일)", "value": "약 ₱500~750", "sources": [
       {"url":"https://www.loveeatwander.com/mt-mapalad-diy-climb-guide/","grade":"B","date":"2019-05-28","says":"guide P500 up to 5 + P100/head"},
       {"url":"https://www.awanderfulsole.com/mt-mapalad-day-hike-budget-climb-guide/","grade":"B","date":"2026-09-20","says":"P500 for 5, P100 per extra"},
-      {"url":"https://wanderlog.com/place/details/740578/mt-mapalad","grade":"B","date":"2025-02","says":"guide 750 PHP up to 5"}], "decision": "범위로 표기" },
+      {"url":"https://wanderlog.com/place/details/740578/mt-mapalad","grade":"B","date":"2025-02","says":"guide 750 PHP up to 5"},
+      {"url":"https://hiketomountains.com/?p=3185","grade":"B","date":"2022-03-04","says":"guide 500 pesos day hike up to 5, 1,250 overnight"}], "decision": "500(2019·2022·2026 후기)~750(2025 후기) 범위로 표기. 공식 요금표 없음" },
     { "where": "costs", "fact": "주차·샤워·텐트·야간 가이드", "value": "₱50·₱20·₱300·₱1,250", "sources": [
       {"url":"https://www.loveeatwander.com/mt-mapalad-diy-climb-guide/","grade":"B","date":"2019-05-28","says":"parking 50, shower 20, tent 300, overnight guide 1,250"},
-      {"url":"https://wanderlog.com/place/details/740578/mt-mapalad","grade":"B","date":"2025-02","says":"parking 50 pesos"}], "decision": "후기 기준 명시" },
+      {"url":"https://wanderlog.com/place/details/740578/mt-mapalad","grade":"B","date":"2025-02","says":"parking 50 pesos"},
+      {"url":"https://hiketomountains.com/?p=3185","grade":"B","date":"2022-03-04","says":"parking 50, shower 20, trail toilet 10, tent rental 300, overnight guide 1,250"},
+      {"url":"https://sites.google.com/view/pilgrimtraveltours/our-services/tour-packages/day-hike/mapalad","grade":"C","date":"2026","says":"shower fee P20 (operator package page)"}], "decision": "주차·샤워는 2곳 이상 확인. 텐트·야간 가이드는 2019·2022 후기뿐이라 후기 기준 명시" },
     { "where": "getting_there", "fact": "교통 경로·요금·밴", "value": "쿠바오-코게오-산안드레스, 밴 ₱600", "sources": [
       {"url":"https://www.loveeatwander.com/mt-mapalad-diy-climb-guide/","grade":"B","date":"2019-05-28","says":"Cubao to Cogeo P28, Cogeo to San Andres P50, last trip 6PM"},
-      {"url":"https://www.awanderfulsole.com/mt-mapalad-day-hike-budget-climb-guide/","grade":"B","date":"2026-09-20","says":"UV Express Cubao-Cogeo, van P600 for 6"}], "decision": "후기 기준 명시" },
+      {"url":"https://www.awanderfulsole.com/mt-mapalad-day-hike-budget-climb-guide/","grade":"B","date":"2026-09-20","says":"UV Express Cubao-Cogeo, van P600 for 6; jeepney San Andres-Cogeo P30 (blogger's hike appears to be 2019)"}], "decision": "지프니 요금(₱28·₱50)은 2019년 후기뿐이라 본문에 2019년 기준·현재는 다를 수 있음으로 낮춤. 밴 ₱600은 2곳 확인" },
+    { "where": "highlights", "fact": "팔라드 전망대 한 팀 이용 시간", "value": "약 5~10분", "sources": [
+      {"url":"https://hiketomountains.com/?p=3185","grade":"B","date":"2022-03-04","says":"each group gets ten minutes at Palad 1 and Palad 2"}], "decision": "5분 표기의 근거를 찾지 못해 5~10분으로 넓힘. 운영 규정이라 현지 확인" },
+    { "where": "closures", "fact": "폐쇄·중단 소식", "value": "마팔라드 폐쇄 소식 없음(타나이 전역 야외활동 중단은 2025-10-04 해제)", "sources": [
+      {"url":"https://mb.com.ph/2025/10/05/tanay-lgu-lifts-suspension-on-tourism-activities","grade":"B","date":"2025-10-05","says":"Tanay LGU lifted suspension on outdoor tourism activities municipality-wide (search snippet; page returned 403)"},
+      {"url":"https://wanderlog.com/place/details/740578","grade":"B","date":"2025-02","says":"no closure listed"}], "decision": "본문 변경 없음. 악천후 시 LGU 일시 중단이 있을 수 있어 가이드 지시 문구 유지" },
     { "where": "overview", "fact": "높이·난이도·트레일 시간", "value": "700여m, 3/9, 정상 2~3시간", "sources": [
       {"url":"https://www.loveeatwander.com/mt-mapalad-diy-climb-guide/","grade":"B","date":"2019-05-28","says":"750+ MASL, 3/9, 2-3 hrs"},
       {"url":"https://www.awanderfulsole.com/mt-mapalad-day-hike-budget-climb-guide/","grade":"B","date":"2026-09-20","says":"700+ MASL, 3/9, hut midpoint, steep 2km, 1km to summit"}], "decision": "700여m 로 표기" }

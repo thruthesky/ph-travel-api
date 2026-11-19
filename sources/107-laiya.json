@@ -1,7 +1,7 @@
 {
   "id": 107,
   "slug": "laiya",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T11:27:10Z",
   "facts": [
     {
       "where": "getting_there / costs",
@@ -42,6 +42,82 @@
         }
       ],
       "decision": "시설별 접수 절차는 여행일에 확인한다."
+    },
+    {
+      "where": "getting_there / costs",
+      "fact": "산후안–라이야·후곰 지프니·트라이시클 요금",
+      "value": "지프니 라이야 ₱60·후곰 ₱70, 공유 트라이시클 동일, 스페셜 최대 약 ₱350.",
+      "sources": [
+        {
+          "url": "https://tourism.sanjuanbatangas.gov.ph/home",
+          "grade": "A",
+          "date": "2026-11-19",
+          "says": "라이야행 지프니 ₱60, 후곰행 ₱70, 트라이시클 스페셜 최대 ₱350"
+        }
+      ],
+      "decision": "공식 한 곳 확인으로 기존 ₱50~70·₱300~400 을 ₱60~70·최대 약 ₱350 으로 좁힌다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "ALPS 산후안 노선 출발지·시간",
+      "value": "쿠바오(터비나·C5 경유)·LRT 부엔디아(알라방 경유) 오전 4시~오후 7시 매시, PITX 는 오후 6시 한 편, 마켓마켓은 쿠바오 노선 경유지.",
+      "sources": [
+        {
+          "url": "https://alpsthebus.com/routes-and-terminals/",
+          "grade": "A",
+          "date": "2026-11-19",
+          "says": "산후안행 출발지별 시간표; 알라방 스타몰·팔라팔라 터미널은 안내에 없음"
+        },
+        {
+          "url": "https://tourism.sanjuanbatangas.gov.ph/home",
+          "grade": "A",
+          "date": "2026-11-19",
+          "says": "마닐라–산후안 약 3~4시간, 첫차 오전 3시 30분~4시"
+        }
+      ],
+      "decision": "확인되지 않는 알라방 스타몰 직행·팔라팔라 밴 문장을 빼고 공식 시간표로 교정한다."
+    },
+    {
+      "where": "cautions",
+      "fact": "리조트 안전요원 의무",
+      "value": "2023 조례가 리조트·수영장 운영자에게 공인 안전요원과 장비를 의무화; 실제 배치는 리조트별 상이.",
+      "sources": [
+        {
+          "url": "https://tourism.sanjuanbatangas.gov.ph/data-governance/ordinances-resolutions",
+          "grade": "A",
+          "date": "2023",
+          "says": "Ordinance 08-2023 안전요원 의무, Resolution 127-2023 안전요원 교육 예산"
+        }
+      ],
+      "decision": "근거 없는 '대부분 안전요원 없음' 단정을 '리조트마다 다르니 확인'으로 낮춘다."
+    },
+    {
+      "where": "highlights / costs",
+      "fact": "해변 호핑 보트 요금",
+      "value": "배 1척 약 ₱2,500~3,500(약 8~10인), 현지 협상.",
+      "sources": [
+        {
+          "url": "https://www.thepoortraveler.net/laiya-batangas-travel-guide/",
+          "grade": "C",
+          "date": "undated",
+          "says": "라이야 보트 대여 호핑 약 ₱3,000, 최대 10인"
+        }
+      ],
+      "decision": "공식·최신 출처 2곳을 못 채워 범위 유지, 현지 협상으로 낮춘다."
+    },
+    {
+      "where": "highlights / tips",
+      "fact": "다굴돌 산 높이·시간·등록",
+      "value": "672m, 정상까지 3~4시간, 후곰 등록소 등록과 가이드 필수(등록 ₱35·가이드 ₱400~450, 2015년 값).",
+      "sources": [
+        {
+          "url": "https://www.pinoymountaineer.com/?p=1296",
+          "grade": "C",
+          "date": "2015",
+          "says": "672 MASL, 정상 3~4시간, 등록 ₱35, 가이드 ₱400 필수"
+        }
+      ],
+      "decision": "요금은 오래돼 본문에 쓰지 않고 높이·시간·등록 절차만 유지한다."
     }
   ],
   "images": []

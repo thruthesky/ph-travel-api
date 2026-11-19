@@ -1,8 +1,50 @@
 {
   "id": 104,
   "slug": "makati",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
+    {
+      "where": "costs",
+      "fact": "아얄라 박물관 입장료",
+      "value": "약 ₱500~850 (내국인 약 ₱500, 외국인 약 ₱750~850, 2025~2026년 안내 기준)",
+      "sources": [
+        { "url": "https://bookingwolf.com/attractions/philippines/makati/ayala-museum/", "grade": "C", "date": "2026", "says": "일반 내국인 ₱500, 외국인 ₱850, 할인 내국인 ₱350, 2층 전시만 ₱200 (2026년 6월 갱신 표기)." },
+        { "url": "https://www.tripadvisor.com/--d809723.html", "grade": "C", "date": "2025", "says": "2025년 1월 방문자가 성인 1명 ₱750을 냈다고 후기." },
+        { "url": "https://www.ayalamuseum.org/visit", "grade": "A", "date": "2026-11-19", "says": "공식 방문 안내 페이지에서 요금표 본문은 확인되지 않음." }
+      ],
+      "decision": "공식 요금표를 못 열어 2곳 이상 일치하는 단일 값을 못 정했다. 범위와 국적별 대략치로 쓰고 최신 요금 확인을 남겼다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "MRT 3호선 전 승객 50% 요금 할인",
+      "value": "2026-03-23부터 '추후 공지 때까지' 유지, 종료 공지는 확인되지 않음",
+      "sources": [
+        { "url": "https://tribune.net.ph/2026/03/20/lrt-2-mrt-3-fare-discount-to-continue-until-further-notice", "grade": "B", "date": "2026-03", "says": "3월 23일 시작, until further notice, 비프 카드·단일 승차권 자동 적용." },
+        { "url": "https://www.gmanetwork.com/news/topstories/nation/980582/dotr-50-discount-on-train-rides-at-mrt-3-lrt-2-starting-march-23/story", "grade": "B", "date": "2026-03", "says": "DOTr 가 3월 23일부터 MRT-3·LRT-2 50% 할인을 시행한다고 보도." },
+        { "url": "https://mb.com.ph/2026/03/19/mrt-3-lrt-2-to-implement-50-fare-discount-starting-march-23", "grade": "B", "date": "2026-03", "says": "3월 23일부터 50% 할인 시행." }
+      ],
+      "decision": "시작은 3곳이 일치. 11월 현재 유지 여부는 최신 기사를 못 찾아 본문에 '최신 공지 확인'을 유지했다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "EDSA 카루셀 버스 요금 인상(첫 5km ₱18, 이후 km당 ₱2.98)",
+      "value": "일반 에어컨 버스 ₱15→₱18 인상, 2026년 9월 말 정지 해제·시행. 카루셀 전용 요금표는 확인 못 해 '₱18~80대'로 낮춤",
+      "sources": [
+        { "url": "https://philstar.com/headlines/2026/09/26/2558947/dotr-lifts-suspension-puv-fare-hike", "grade": "B", "date": "2026-09-26", "says": "DOTr 가 9월 25일 PUV 요금 인상 정지를 풀었고 에어컨 시내버스 ₱15→₱18, 차량 안 요금표 게시 뒤 적용." },
+        { "url": "https://tribune.net.ph/2026/09/27/ltfrb-drivers-may-collect-fare-hike-without-physical-matrix", "grade": "B", "date": "2026-09-27", "says": "9월 27일 기준 기사들이 인상 요금을 이미 받을 수 있다고 보도." }      ],
+      "decision": "'9월 28일' 시행일은 확인되지 않아 '9월 말'로 고쳤고, 카루셀 최대 요금 ₱86은 못 채워 '₱18~80대'로 낮췄다."
+    },
+    {
+      "where": "highlights",
+      "fact": "그린벨트 1 폐쇄·재개장, 글로리에타 리노베이션",
+      "value": "그린벨트 1 2024년 4월 폐쇄, 2028년 무렵 재개장 목표. 글로리에타는 2024년 발표된 리노베이션 계획(2026년 진행 상황 미확인)",
+      "sources": [
+        { "url": "https://www.gmanetwork.com/news/money/companies/897577/iconic-greenbelt-1-mall-closing-in-april-to-give-way-for-redevelopment/story/", "grade": "B", "date": "2024", "says": "그린벨트 1 이 4월 폐쇄 후 2028년 재개장 목표." },
+        { "url": "https://interaksyon.philstar.com/trends-spotlights/2024/04/01/273011/greenbelt-1-renovation-plan-unveiled/", "grade": "B", "date": "2024-04", "says": "그린벨트 1 재개발 계획 공개." },
+        { "url": "https://www.philstar.com/business/2024/02/17/2333881/ayala-land-allots-p13-billion-redevelop-4-major-malls", "grade": "B", "date": "2024-02", "says": "아얄라 랜드가 글로리에타 등 4개 몰에 ₱130억 투입 계획." }
+      ],
+      "decision": "2024년 기사뿐이라 글로리에타는 '진행 중'이 아니라 '계획'으로 낮췄다."
+    },
     {
       "where": "tips",
       "fact": "아얄라 박물관 위치와 시간대 예매",

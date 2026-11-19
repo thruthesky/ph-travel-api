@@ -1,7 +1,7 @@
 {
   "id": 94,
   "slug": "dahilayan",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "costs / tips",
@@ -22,6 +22,80 @@
         }
       ],
       "decision": "각 공원에서 공식 안내를 확인할 수 있게 하고 어린이 요금과 정확한 신장 기준을 반영한다."
+    },
+    {
+      "where": "costs",
+      "fact": "어드벤처 파크 입장료·기구 요금(4라운드 재확인)",
+      "value": "입장료 ₱100, 840m ₱500, 320m+150m ₱250, 드롭존 ₱500(2인 ₱750), 마운틴 코스터 ₱400(2인 ₱600), 스카이타워 ₱400, 파이선 ₱300, 연중무휴.",
+      "sources": [
+        {
+          "url": "https://www.dahilayanadventurepark.com/rides",
+          "grade": "A",
+          "date": "2026",
+          "says": "840m ₱500, 320m+150m ₱250, 드롭존 ₱500/₱750, 마운틴 코스터 ₱400/₱600, 4피트 초과·40~75kg. 운영 시간 기재 없음"
+        },
+        {
+          "url": "https://dahilayanadventurepark.com",
+          "grade": "A",
+          "date": "2026",
+          "says": "입장료 100, 월~일 공휴일 포함 연중무휴, 시간 미기재, 연락처 0917-622-3204"
+        }
+      ],
+      "decision": "요금은 현행 본문과 일치해 유지. 개장 시간은 공식 기재가 없어 판매처 값(오전 9시)과 병기하고 현지 확인으로 낮춘다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "Magnum Express 셔틀 요금·시간",
+      "value": "림켓카이 출발 편도 약 ₱249(왕복 ₱498). 출발·귀환 시각은 공식 시간표를 못 찾아 운영사 확인으로 낮춤.",
+      "sources": [
+        {
+          "url": "https://www.rome2rio.com/s/Camiguin/Dahilayan",
+          "grade": "C",
+          "date": "2026",
+          "says": "림켓카이몰 출발, 하루 1회, 시간표는 운영사 페이스북, 약 ₩5,213(₱249 상당)"
+        },
+        {
+          "url": "https://www.houfy.com/teresitajava/posts/dahilayan-adventure-park-13668",
+          "grade": "C",
+          "date": "2019",
+          "says": "Magnum Express 림켓카이 터미널 출발 매일 운행, 왕복 ₱498, 시각 미기재(2019년 글)"
+        }
+      ],
+      "decision": "편도 ₱249 는 왕복 ₱498 과 맞아 유지하되 출발·귀환 시각은 근거가 없어 '알려져 있으며 운영사 확인'으로 표기."
+    },
+    {
+      "where": "best_time / table",
+      "fact": "카아물란 축제 시기",
+      "value": "2026년 3월 19일~4월 23일(말라이발라이), 퍼레이드 4월 18일. 표의 '2월 말~3월 초'는 3~4월로 바로잡음.",
+      "sources": [
+        {
+          "url": "https://mindanews.com/top-stories/2026/04/malitbog-dominates-kaamulan-2026-ground-presentations/",
+          "grade": "B",
+          "date": "2026",
+          "says": "2026 카아물란 현장 공연 결과 보도"
+        },
+        {
+          "url": "https://www.philstar.com/nation/2026/04/19/2521929/bukidnon-festival-highlights-calls-peace",
+          "grade": "B",
+          "date": "2026",
+          "says": "2026년 4월 부키드논 축제 보도"
+        }
+      ],
+      "decision": "검색 결과 다수 매체가 3월 19일~4월 23일로 일치. 본문 '3월~4월'과 표를 맞춘다."
+    },
+    {
+      "where": "cautions",
+      "fact": "한국 외교부 여행경보(부키드논)",
+      "value": "2026-07-10 외교부 발표: 잠보앙가 반도·술루·바실란·타위타위 일부 여행금지 2027-01-31까지 연장. 부키드논 단계는 확인 못 해 '수시로 바뀜, 출발 전 확인'으로 낮춤.",
+      "sources": [
+        {
+          "url": "https://www.mofa.go.kr/www/brd/m_4076/view.do?seq=372324",
+          "grade": "A",
+          "date": "2026-07-10",
+          "says": "필리핀 일부 지역 여행금지 지정 기간 2027년 1월 31일까지 연장. 부키드논 단계는 언급 없음"
+        }
+      ],
+      "decision": "기존 '부키드논 3단계' 문장은 근거를 못 찾아 삭제하고 확인된 사실만 쓴다."
     }
   ],
   "images": []

@@ -1,7 +1,7 @@
 {
   "id": 1026,
   "slug": "barili",
-  "checked_at": "2026-11-17T00:00:00Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -26,8 +26,20 @@
     {
       "where": "getting_there·costs",
       "fact": "버스 요금·소요",
-      "value": "약 ₱70~85, 약 2시간, 샴록 앞 하차, 폭포까지 3.7km",
+      "value": "약 ₱85~130(2019년 ₱85, 이후 인상 가능), 약 2시간, 샴록 앞 하차, 폭포까지 3.7km, 오토바이 약 ₱30~100",
       "sources": [
+        {
+          "url": "https://suroy.ph/cebu-north-south-bus-terminal-guide-2026/",
+          "grade": "C",
+          "date": "2026",
+          "says": "남부 터미널 'Bato via Barili' 버스, 모알보알행 일반 ₱172·에어컨 ₱210(2024-12 기준 요금), 바릴리 단독 요금 없음"
+        },
+        {
+          "url": "https://www.lakwatsero.com/?p=22153",
+          "grade": "C",
+          "date": "2019",
+          "says": "세부 남부 터미널에서 바릴리 ₱85, 약 2시간, 샴록·7-11 앞 하차, 오토바이 ₱30"
+        },
         {
           "url": "https://itravelskiks.blogspot.com/2016/07/how-to-get-to-barili-cebu-and-its.html",
           "grade": "C",
@@ -41,7 +53,33 @@
           "says": "입장료 ₱40+주차 ₱20, 폭포까지 3.7km, 뗏목 ₱100, 세부 시티에서 약 2.5시간"
         }
       ],
-      "decision": "출처 간 요금 편차가 커 범위와 '현지 확인'으로 표기"
+      "decision": "버스 요금은 2019년 ₱85 이후 최신 값을 못 찾아 모알보알행 인상분으로 미루어 ₱85~130 범위·'현지 확인'으로 표기(2곳 미충족), 오토바이는 2019 ₱30·2025 약 US$1~2로 ₱30~100"
+    },
+    {
+      "where": "costs",
+      "fact": "만타유판 폭포 입장료·뗏목·구명조끼·주차",
+      "value": "입장 약 ₱40~60(다리 ₱40+폭포 ₱20 보고), 뗏목 ₱100~300, 구명조끼 약 ₱50, 주차 ₱20~50, 07:00~17:00 운영(1곳), 우천 시 폐쇄, 운영은 CAMPCO 협동조합",
+      "sources": [
+        {
+          "url": "https://suroy.ph/mantayupan-falls-the-tallest-waterfall-in-cebu/",
+          "grade": "C",
+          "date": "2026-10",
+          "says": "2026-07 방문 보고: 입장 ₱60(다리 ₱40+폭포 ₱20), 구명조끼 ₱50 필수, 뗏목 시간당 ₱300, 주차 ₱50, 07~17시, 우천 폐쇄, CAMPCO 운영, 공식 요금표 아님"
+        },
+        {
+          "url": "https://www.journeyera.com/mantayupan-falls/",
+          "grade": "B",
+          "date": "2025-01",
+          "says": "입장 ₱40, 주차 ₱20, 뗏목 ₱100, 폭포까지 3.7km"
+        },
+        {
+          "url": "https://www.lakwatsero.com/?p=22153",
+          "grade": "C",
+          "date": "2019",
+          "says": "입장 ₱40, 뗏목 ₱150(약 10명)"
+        }
+      ],
+      "decision": "공식 요금표를 찾지 못해 2025·2026 보고를 묶어 범위로 표기, 운영 시간은 1곳뿐이라 본문에 넣지 않음. 2025-09-30 지진 후 만타유판 폐쇄 소식은 찾지 못함(DOT 7은 10월 말 세부 관광지 정상 운영 발표)"
     },
     {
       "where": "highlights·best_time",

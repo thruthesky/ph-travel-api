@@ -1,7 +1,7 @@
 {
   "id": 139,
   "slug": "laoag",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "costs/tips",
@@ -22,6 +22,106 @@
         }
       ],
       "decision": "운영 기관이 게시한 요금과 요일을 우선 적용하고 공휴일은 방문일 확인으로 안내했다."
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "마닐라–라오아그 항공 운항사·소요 시간",
+      "value": "세부퍼시픽 1편·필리핀항공 매일 여러 편, 약 1시간 10분. 요금은 시기별로 달라 약 ₱2,000~6,000 로 유지.",
+      "sources": [
+        {
+          "url": "https://ilocosnorte.ph/transportation",
+          "grade": "A",
+          "date": "2026",
+          "says": "일로코스노르테주 관광 안내가 5J 404/405, PR2196~2199 등 마닐라–라오아그 매일 편과 시각(PR2196 11:25~12:35)을 게시한다."
+        },
+        {
+          "url": "https://info.flightmapper.net/flight/Cebu_Pacific_5J_405",
+          "grade": "C",
+          "date": "2026",
+          "says": "세부퍼시픽 5J 405 라오아그–마닐라 매일 운항(2026년 3월 29일 시간표)."
+        }
+      ],
+      "decision": "운항사·시간은 2곳이 일치해 유지. 항공 요금은 공식 요금표가 없어 범위·시기별 변동 표기를 유지했다."
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "마닐라–라오아그 버스 요금",
+      "value": "운영사·등급별 약 ₱700~1,800(Partas 일반 ₱700~럭셔리 ₱1,100, Fariñas ₱900~1,200, GV Florida ₱1,000~1,800), 약 8~11시간. 2026-09-28 인상 전 게시 값.",
+      "sources": [
+        {
+          "url": "https://www.philippinebeaches.org/manila-to-ilocos-bus-schedules-operators/",
+          "grade": "C",
+          "date": "2026-02-24",
+          "says": "Partas ₱700~1,100(2026-02), Viron ₱972~1,056, Fariñas ₱900~1,200(2025-05), GV Florida ₱1,000~1,800(2025-12), Maria de Leon ₱900~1,100, 소요 8~10시간."
+        },
+        {
+          "url": "https://ilocosnorte.ph/transportation",
+          "grade": "A",
+          "date": "2026",
+          "says": "주 관광 안내가 장거리 버스 요금을 ₱900~2,200 로 추정(출발지 불명)하며 요금은 바뀔 수 있다고 한다."
+        }
+      ],
+      "decision": "기존 ₱1,150~1,800 은 저가 등급을 빠뜨려 ₱700~1,800 으로 넓혔고, 인상 전 값임을 본문에 밝혔다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "2026-09-28 지방 버스 요금 인상",
+      "value": "2026년 9월 28일부터 지방 버스 기본·km당 요금 인상(일반 첫 5km ₱11→₱12, 에어컨 km당 ₱2.10→₱2.45 등).",
+      "sources": [
+        {
+          "url": "https://www.sunstar.com.ph/manila/ltfrb-sets-new-puv-rates-effective-sept-28",
+          "grade": "B",
+          "date": "2026-09-29",
+          "says": "LTFRB 새 PUV 요금이 9월 28일 발효, 지방 버스 일반 ₱11→₱12, 에어컨·디럭스·슈퍼디럭스·럭셔리 km당 요금 인상."
+        },
+        {
+          "url": "https://tribune.net.ph/2026/09/27/ltfrb-drivers-may-collect-fare-hike-without-physical-matrix",
+          "grade": "B",
+          "date": "2026-09-27",
+          "says": "LTFRB가 요금표 게시 없이도 인상 요금을 받을 수 있다고 안내한다."
+        }
+      ],
+      "decision": "두 언론이 일치해 날짜를 유지하고, 본문 요금은 인상 전 값이라 예매 시 재확인하도록 고쳤다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "칼레사 요금",
+      "value": "시내 최소 1인 약 ₱20(첫 1km).",
+      "sources": [
+        {
+          "url": "https://ilocosnorte.ph/transportation",
+          "grade": "A",
+          "date": "2026",
+          "says": "칼레사 최소 요금 1인 첫 1km ₱20, 트라이시클 첫 1km ₱20 후 협의."
+        },
+        {
+          "url": "https://tribune.net.ph/2026/04/13/laoag-city-pushes-revival-of-kalesa-tradition",
+          "grade": "B",
+          "date": "2026-04-13",
+          "says": "시가 칼레사 부흥·정책 정비를 추진하나 요금은 언급하지 않는다."
+        }
+      ],
+      "decision": "요금은 공식 안내 1곳이라 '시내 구간 약 ₱20, 2026년 4월 기준' 표기를 유지한다."
+    },
+    {
+      "where": "costs",
+      "fact": "라파스 모래언덕 4x4 요금",
+      "value": "1대(4~5인) 약 ₱2,500~3,500, 샌드보드 포함 여부 확인.",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-paoay-sand-dunes-ilocos-norte",
+          "grade": "C",
+          "date": "2024-11-27",
+          "says": "4x4 1대 ₱2,500~3,500(30분~1시간, 4~5인), 샌드보드는 업체별로 별도 ₱300~500."
+        },
+        {
+          "url": "https://www.klook.com/en-PH/activity/37847-paoay-sand-dunes-adventure-4x4-jeep-manila/",
+          "grade": "C",
+          "date": "2026",
+          "says": "파오아이 사구 4x4 1회(차량 1대, 최대 5인) ₱2,550."
+        }
+      ],
+      "decision": "기존 하한 ₱2,000 은 근거가 없어 ₱2,500~3,500 으로 올렸다."
     }
   ],
   "images": []
