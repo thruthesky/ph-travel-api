@@ -1,7 +1,7 @@
 {
  "id": 2167,
  "slug": "mount-hibok-hibok",
- "checked_at": "2026-11-18T00:00:00Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "lat/lon",
@@ -92,16 +92,34 @@
   {
    "where": "getting_there",
    "fact": "발링오안-베노니 페리",
-   "value": "₱180~250, 약 1시간",
+   "value": "₱300~360, 1~1시간 30분",
    "sources": [
     {
      "url": "https://topologica.co/local-guides/philippines/camiguin-island-born-of-fire-guide/",
      "grade": "C",
      "date": "2026",
-     "says": "Ferry Balingoan-Benoni P180-250 ~1h, habal-habal 10min, Dec-Apr"
+     "says": "Ferry Balingoan-Benoni P180-250 ~1h, habal-habal 10min, Dec-Apr (older figure, superseded)"
+    },
+    {
+     "url": "https://pamasahe.com/routes/benoni-balingoan-super-shuttle-ferry-schedule-fares",
+     "grade": "B",
+     "date": "2026-09",
+     "says": "Super Shuttle Ferry passenger fare P359 (table regular P330), about 1h30, fares may be higher with fuel surcharge"
+    },
+    {
+     "url": "https://joansfootprints.com/2026/06/17/2023-camiguin-diy-itinerary-budget/",
+     "grade": "C",
+     "date": "2026-06",
+     "says": "Balingoan-Benoni ferry about 1 hour, Php360 terminal fee included, first trip 4:30am, last 6:30pm"
+    },
+    {
+     "url": "https://philippinedives.com/how-to-get-to-camiguin/",
+     "grade": "C",
+     "date": "2026",
+     "says": "RoRo fare PHP 300-360 per passenger plus about PHP 30 terminal fee, 45min-1h, Super Shuttle and St. Benedict operate"
     }
    ],
-   "decision": "단일 출처 → 현지 확인 문구"
+   "decision": "3곳이 ₱300~360 으로 일치(기존 ₱180~250 은 오래된 값) → 범위 ₱300~360, 1~1시간 30분, 연료비·시즌 변동은 현지 확인"
   },
   {
    "where": "cautions",

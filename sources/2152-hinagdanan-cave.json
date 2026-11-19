@@ -1,7 +1,7 @@
 {
   "id": 2152,
   "slug": "hinagdanan-cave",
-  "checked_at": "2026-11-18T07:31:00Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "coords",
@@ -92,9 +92,28 @@
     {
       "where": "getting_there",
       "fact": "마닐라-팡라오 비행",
-      "value": "약 1시간 20분",
-      "sources": [],
-      "decision": "일반 지식, 항공사별 상이로 표기하고 최신 시각표 확인 안내"
+      "value": "약 1시간 30분 (1시간 20분~1시간 45분)",
+      "sources": [
+        {
+          "url": "https://blog.worldpinoyflights.com/manila-to-bohol-flights-to-panglao-vs-the-cebu-ferry-route/",
+          "grade": "C",
+          "date": "2026-11-16",
+          "says": "마닐라-팡라오 직항 약 1시간 20분~1시간 45분, 세부퍼시픽·필리핀항공 운항"
+        },
+        {
+          "url": "https://www.kayak.com.ph/flight-routes/Manila-Ninoy-Aquino-Intl-MNL/Panglao-BoholPanglao-Intl-TAG",
+          "grade": "C",
+          "date": "2026",
+          "says": "직항 평균 1시간 35분, 1시간 30분~1시간 40분"
+        },
+        {
+          "url": "https://www.asiaodysseytravel.com/philippines/manila-to-bohol.html",
+          "grade": "C",
+          "date": "2025",
+          "says": "직항 약 1시간 30분(항공사별 1시간 25분~1시간 40분)"
+        }
+      ],
+      "decision": "출처 3곳이 1시간 20분~1시간 45분 범위로 일치해 약 1시간 30분으로 고치고 범위·시각표 확인 안내"
     },
     {
       "where": "overview",

@@ -1,7 +1,7 @@
 {
   "id": 2169,
   "slug": "santo-nino-cold-spring",
-  "checked_at": "2026-11-18T07:37:35Z",
+  "checked_at": "2026-11-19T04:52:00Z",
   "facts": [
     {
       "where": "lat/lon",
@@ -184,16 +184,28 @@
     {
       "where": "getting_there",
       "fact": "발링고안-베노니 페리",
-      "value": "약 ₱330~360, 1시간",
+      "value": "약 ₱330~360, 1~1.5시간",
       "sources": [
         {
           "url": "data/ko/092-camiguin.json",
           "grade": "A",
           "date": "2026",
           "says": "저장소 카미긴 항목"
+        },
+        {
+          "url": "https://pamasahe.com/routes/benoni-balingoan-super-shuttle-ferry-schedule-fares",
+          "grade": "C",
+          "date": "2026",
+          "says": "슈퍼셔틀 페리 일반 요금 ₱330(요약란 ₱359), 소요 약 1시간 30분, 유류할증으로 더 오를 수 있음(2026년 9월 갱신)"
+        },
+        {
+          "url": "https://philippinedives.com/how-to-get-to-camiguin/",
+          "grade": "C",
+          "date": "2026",
+          "says": "발링고안-베노니 페리 PHP 300~360에 항구 이용료 약 PHP 30 별도, 45분~1시간, 슈퍼셔틀·세인트베네딕트 운항(2026년 7월 점검)"
         }
       ],
-      "decision": "기존 항목과 동일하게 씀"
+      "decision": "두 곳이 요금 ₱330~360 범위를 확인해 유지하고, 소요 시간은 출처마다 달라 1~1.5시간으로 넓히고 연도를 붙임"
     }
   ],
   "images": []
