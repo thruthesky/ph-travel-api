@@ -1,5 +1,13 @@
 # 지금 상태
 
+## 사진 보강 진행 (2026-11-19, 사진 반영 22곳 / 사진 없는 곳 670곳)
+
+- 텍스트만 있던 여행지에 사진을 붙이는 중이다. 흐름: 사진 담당 에이전트(`work/x2000/AUTHOR-photo.md`)가 Commons 에서 정확한 사진 10장 이상을 고르고(`photos.py` 직렬 6초 간격) → `photo-convert.sh`(Codex 로 가로 1080 WebP 변환) → `photo-apply.py apply` 가 `data/images`·ko·en·sources·`i18n/photoless.json` 을 고친다. 대기열은 `work/x2000/photo-queue.tsv`(추천도순).
+- 7차까지 약 51곳을 시도해 22곳을 반영했다. 정확한 사진이 10장 미만인 곳(작은 섬·폭포·산·개별 시설)은 `hold`(`W/photo-done.json`)로 남기며 다른 장소 사진으로 채우지 않는다. 성당·박물관·축제·도시·유명 해변이 통과율이 높다.
+- Codex 변환이 멈추면 `~/.codex/config.toml` 의 모델 `gpt-6.2-sol` 이 이 계정에서 지원되지 않는 것이 원인일 수 있다. 설정은 바꾸지 않고 `CODEX_MODEL=gpt-6-luna bash work/x2000/photo-convert.sh <이름>` 으로 모델을 지정한다.
+- 에이전트가 안내한 다운로드 한도(14장)를 넘겨 받는 일이 잦다. 끝난 뒤 쓰지 않은 원본은 `_i18n` 안에 남는다(커밋 대상 아님).
+- 사진이 붙은 곳: 433·536·761·850·904·1100·1370·1383·1403·1480·1637·1677·1767·1822·1955·2102·2131·2155·2338·2397·2493·2628.
+
 ## Cloudflare R2 공개판 (2026-11-19 재검증)
 
 - 공개본 331곳 × 8개 언어, 버전 `d2dcefeef567`, data_version `2026-11-18T12:31:06Z`. 이전 공개본 242곳을 모두 유지하고 89곳을 추가했다. 배포 커밋 `d6f20a1a`은 `release/ph-travel-api-r2`에 있다. [공개 manifest](https://files.withcenter.com/ph-travel-api/v2/manifest.json)
