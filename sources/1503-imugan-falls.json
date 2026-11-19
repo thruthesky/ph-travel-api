@@ -1,7 +1,7 @@
 {
  "id": 1503,
  "slug": "imugan-falls",
- "checked_at": "2026-11-19T04:21:20Z",
+ "checked_at": "2026-11-19T05:40:28Z",
  "facts": [
   {
    "where": "coords",
@@ -162,16 +162,34 @@
   {
    "where": "overview",
    "fact": "산타페 인구·거리·기후",
-   "value": "18,950(2024), 309km, 897mm",
+   "value": "인구 18,950(2024), 마닐라 도로 약 205km, 강수 약 897mm(참고용)",
    "sources": [
     {
      "url": "https://en.wikipedia.org/wiki/Santa_Fe,_Nueva_Vizcaya",
      "grade": "B",
      "date": "2026-11",
-     "says": "census 2024, distance, climate"
+     "says": "census 2024 18,950; distance from Manila 308.65 km; rainfall 897 mm, 185.9 rainy days"
+    },
+    {
+     "url": "https://citypopulation.de/en/philippines/luzon/admin/0250__nueva_vizcaya/",
+     "grade": "B",
+     "date": "2026-11",
+     "says": "Santa Fe (PSA) 18,950 in 2024, 18,276 in 2020"
+    },
+    {
+     "url": "https://www.rome2rio.com/s/Manila/Santa-Fe-Cagayan-Valley-Philippines",
+     "grade": "C",
+     "date": "2026-11",
+     "says": "driving distance about 204.5 km from Manila"
+    },
+    {
+     "url": "https://www.philatlas.com/luzon/r02/nueva-vizcaya/santa-fe.html",
+     "grade": "B",
+     "date": "2026-11",
+     "says": "straight-line 173.46 km from Manila; 2020 census 18,276"
     }
    ],
-   "decision": "채택"
+   "decision": "인구는 위키·citypopulation(PSA) 2곳 일치해 유지. 거리는 위키 309km 가 PhilAtlas 직선 173km·Rome2rio 도로 204.5km 와 모순(바얌봉 293.73km 보다 큼)이라 약 205km 로 고치고 자료 차이를 밝힘. 강수 897mm 는 위키 한 곳뿐이고 다른 기후 사이트와 크게 달라 참고용으로 낮춤"
   }
  ],
  "images": []
