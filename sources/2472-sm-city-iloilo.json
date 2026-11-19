@@ -1,19 +1,160 @@
-{ "id": 2472, "slug": "sm-city-iloilo", "checked_at": "2026-11-18T00:00:00Z",
+{
+  "id": 2472,
+  "slug": "sm-city-iloilo",
+  "checked_at": "2026-11-18T00:00:00Z",
   "facts": [
-    { "where": "overview", "fact": "개장일", "value": "1999-06-11", "sources": [
-      { "url": "https://en.wikipedia.org/wiki/SM_City_Iloilo", "grade": "B", "date": "2026-11-18", "says": "Opened June 11, 1999" },
-      { "url": "https://www.smprime.com/latest_news/manila-bulletin-major-property-developer-unveils-p1-3-b-iloilo-expansion/", "grade": "A", "date": "2025-11-18", "says": "SM Prime 자료(검색 요약)와 insiderph 가 1999년 개장으로 적음" } ], "decision": "1999년 6월 11일 채택" },
-    { "where": "overview", "fact": "연면적·순위·주소", "value": "GFA 105,953 m2, 서부 비사야 2위, 디버전 로드 만두리아오", "sources": [
-      { "url": "https://www.smsupermalls.com/mall-directory/sm-city-iloilo", "grade": "A", "date": "2026-11-18", "says": "GFA 105,953 m2, land 170,000 m2, address, hours 10:00-22:00" },
-      { "url": "https://en.wikipedia.org/wiki/SM_City_Iloilo", "grade": "B", "date": "2026-11-18", "says": "GFA 105,953 m2, land 183,281 m2" } ], "decision": "부지 면적은 출처 불일치라 본문에 명시" },
-    { "where": "meta", "fact": "좌표", "value": "10.7144, 122.5511", "sources": [
-      { "url": "https://en.wikipedia.org/wiki/SM_City_Iloilo", "grade": "B", "date": "2026-11-18", "says": "10°42′52″N 122°33′04″E" },
-      { "url": "https://www.smsupermalls.com/mall-directory/sm-city-iloilo", "grade": "A", "date": "2026-11-18", "says": "Mandurriao Diversion Road 주소와 일치(지도 링크)" } ], "decision": "위키 좌표 변환, 두 번째 지도는 직접 열지 못함(OSM 로딩 실패)" },
-    { "where": "overview/highlights", "fact": "확장·재개발·영화관 일정", "value": "2009 South Point, 2015 North Point, 2016-11-11 확장, 2025 재개발 ₱23억", "sources": [
-      { "url": "https://en.wikipedia.org/wiki/SM_City_Iloilo", "grade": "B", "date": "2026-11-18", "says": "확장·영화관·3층 개장 일자" },
-      { "url": "https://insiderph.com/sm-city-iloilos-p23-b-redevelopment-nears-completion", "grade": "B", "date": "2025-11-18", "says": "P2.3B, Q1 2026 완료 목표, NU 2027, 임대면적 71,979→106,307 m2" } ], "decision": "일정 불일치는 본문에서 최신 공지 확인으로 처리" },
-    { "where": "getting_there/costs", "fact": "공항 택시·밴 요금", "value": "택시 ₱400~700, 밴 ₱70~100, 약 19km", "sources": [
-      { "url": "https://dailyguardian.com.ph/fair-fare-ilonggos-divided-on-unmetered-taxi-fares-to-iloilo-airport", "grade": "B", "date": "미확인", "says": "검색 요약: 정액 ₱600, SM 인근 밴 ₱100(본문은 열지 못함)" },
-      { "url": "https://iloiloph.com/iloilo-international-airport", "grade": "C", "date": "미확인", "says": "검색 요약: 시내 북서 약 19km, 미터 택시 약 ₱400, 30분" } ], "decision": "범위와 '한 안내 글 기준'으로 표기, 현지 확인 권고" }
+    {
+      "where": "overview",
+      "fact": "개장일",
+      "value": "1999-06-11",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_City_Iloilo",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "Opened June 11, 1999"
+        },
+        {
+          "url": "https://www.smprime.com/latest_news/manila-bulletin-major-property-developer-unveils-p1-3-b-iloilo-expansion/",
+          "grade": "A",
+          "date": "2025-11-18",
+          "says": "SM Prime 자료(검색 요약)와 insiderph 가 1999년 개장으로 적음"
+        }
+      ],
+      "decision": "1999년 6월 11일 채택"
+    },
+    {
+      "where": "overview",
+      "fact": "연면적·순위·주소",
+      "value": "GFA 105,953 m2, 서부 비사야 2위, 디버전 로드 만두리아오",
+      "sources": [
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-city-iloilo",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "GFA 105,953 m2, land 170,000 m2, address, hours 10:00-22:00"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_City_Iloilo",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "GFA 105,953 m2, land 183,281 m2"
+        }
+      ],
+      "decision": "부지 면적은 출처 불일치라 본문에 명시"
+    },
+    {
+      "where": "meta",
+      "fact": "좌표",
+      "value": "10.7144, 122.5511",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_City_Iloilo",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "10°42′52″N 122°33′04″E"
+        },
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sm-city-iloilo",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "Mandurriao Diversion Road 주소와 일치(지도 링크)"
+        }
+      ],
+      "decision": "위키 좌표 변환, 두 번째 지도는 직접 열지 못함(OSM 로딩 실패)"
+    },
+    {
+      "where": "overview/highlights",
+      "fact": "확장·재개발·영화관 일정",
+      "value": "2009 South Point, 2015 North Point, 2016-11-11 확장, 2025 재개발 ₱23억",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/SM_City_Iloilo",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "확장·영화관·3층 개장 일자"
+        },
+        {
+          "url": "https://insiderph.com/sm-city-iloilos-p23-b-redevelopment-nears-completion",
+          "grade": "B",
+          "date": "2025-11-18",
+          "says": "P2.3B, Q1 2026 완료 목표, NU 2027, 임대면적 71,979→106,307 m2"
+        }
+      ],
+      "decision": "일정 불일치는 본문에서 최신 공지 확인으로 처리"
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "공항 택시·밴 요금",
+      "value": "택시 ₱400~700, 밴 ₱70~100, 약 19km",
+      "sources": [
+        {
+          "url": "https://dailyguardian.com.ph/fair-fare-ilonggos-divided-on-unmetered-taxi-fares-to-iloilo-airport",
+          "grade": "B",
+          "date": "미확인",
+          "says": "검색 요약: 정액 ₱600, SM 인근 밴 ₱100(본문은 열지 못함)"
+        },
+        {
+          "url": "https://iloiloph.com/iloilo-international-airport",
+          "grade": "C",
+          "date": "미확인",
+          "says": "검색 요약: 시내 북서 약 19km, 미터 택시 약 ₱400, 30분"
+        }
+      ],
+      "decision": "범위와 '한 안내 글 기준'으로 표기, 현지 확인 권고"
+    }
   ],
-  "images": [] }
+  "images": [
+    {
+      "file": "2472-sm-city-iloilo.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_City_Iloilo,_Aug_2024_(1).jpg",
+      "check": "SM City Iloilo 분류, 설명, 간판의 'SM CITY ILOILO'와 IMAX 표지"
+    },
+    {
+      "file": "2472-sm-city-iloilo-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_City_Iloilo,_Aug_2024_(2).jpg",
+      "check": "설명과 간판의 'SM CITY ILOILO' 글자 확인"
+    },
+    {
+      "file": "2472-sm-city-iloilo-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_City_Iloilo_Close_Up_View.jpg",
+      "check": "설명 'SM City Iloilo' 분류, 간판 글자와 A1 구역 표지"
+    },
+    {
+      "file": "2472-sm-city-iloilo-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Plazuela_de_Iloilo,_SM_Mall_top_view_(Iloilo_Diversion_Road,_Mandurriao,_Iloilo_City;_01-26-2023).jpg",
+      "check": "설명에 SM Mall·Diversion Road·Mandurriao 명시, 보이는 SM CITY ILOILO 간판"
+    },
+    {
+      "file": "2472-sm-city-iloilo-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Iloilo_Diversion_Road,_Mandurriao,_SM_(Iloilo_City;_04-03-2024).jpg",
+      "check": "설명에 Iloilo Diversion Road·SM, 보이는 SM CITY ILOILO·IMAX"
+    },
+    {
+      "file": "2472-sm-city-iloilo-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_Strata_in_Iloilo_City.jpg",
+      "check": "설명 'SM Strata Tower in SM City Iloilo complex', 로고 확인"
+    },
+    {
+      "file": "2472-sm-city-iloilo-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_City_-_Strata_Towers_-_16_May_2026.png",
+      "check": "설명 SM City Strata Towers, 로고 'SM STRATA' 확인, GPS 10.713,122.552"
+    },
+    {
+      "file": "2472-sm-city-iloilo-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_City_Iloilo_Interior,_Aug_2024_(1).jpg",
+      "check": "설명 'SM City Iloilo Interior', 배너에 SM CITY ILOILO"
+    },
+    {
+      "file": "2472-sm-city-iloilo-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:SM_City_Iloilo_Interior,_Aug_2024_(2).jpg",
+      "check": "설명 'SM City Iloilo Interior', 배너에 SM CITY ILOILO, FOOD HALL 간판"
+    },
+    {
+      "file": "2472-sm-city-iloilo-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Dinagyang_2023_Ilomination_SM_judging_area_Lapuz_1_(Mandurriao,_Iloilo_City;_01-21-2023).jpg",
+      "check": "설명 Dinagyang 2023 Ilomination at Mandurriao, SM 심사 구역"
+    }
+  ],
+  "photos_checked_at": "2026-11-19T08:21:45Z"
+}
