@@ -1,7 +1,7 @@
 {
   "id": 11,
   "slug": "pagsanjan-falls",
-  "checked_at": "2026-10-04T13:10:00Z",
+  "checked_at": "2026-11-19T09:00:00Z",
   "facts": [
     {
       "where": "summary, overview",
@@ -150,11 +150,12 @@
     {
       "where": "best_time",
       "fact": "월별 낮 기온",
-      "value": "1~2월 낮 최고 약 27~28℃, 4~5월 약 31~33℃",
+      "value": "1~2월 낮 최고 약 26~28℃, 4~5월 약 31~32℃",
       "sources": [
-        { "url": "https://archive-api.open-meteo.com/v1/archive?latitude=14.26&longitude=121.46&start_date=2015-01-01&end_date=2024-12-31&daily=temperature_2m_max", "grade": "B", "date": "2026-10-04", "says": "2015~2024 평균 일 최고 1월 27.3, 2월 27.8, 4월 31.4, 5월 32.3℃ (ERA5 재분석)" }
+        { "url": "https://archive-api.open-meteo.com/v1/archive?latitude=14.26&longitude=121.46&start_date=2015-01-01&end_date=2024-12-31&daily=temperature_2m_max", "grade": "B", "date": "2026-10-04", "says": "2015~2024 평균 일 최고 1월 27.3, 2월 27.8, 4월 31.4, 5월 32.3℃ (ERA5 재분석)" },
+        { "url": "https://en.wikipedia.org/wiki/Pagsanjan", "grade": "B", "date": "2026", "says": "Climate 표 평균 일 최고 1월 26, 2월 27, 4월 31, 5월 31℃" }
       ],
-      "decision": "재분석 자료라 '약'과 범위로 씀"
+      "decision": "위키(1월 26·2월 27·4월 31·5월 31)와 재분석(27.3·27.8·31.4·32.3)이 1℃ 안팎 차이라 '약'과 범위로 씀(1~2월 26~28, 4~5월 31~32)"
     },
     {
       "where": "highlights 7",
@@ -198,7 +199,7 @@
       "sources": [
         { "url": "https://www.manilatimes.net/2025/11/12/regions/dot-halts-tourism-operations/2220986", "grade": "B", "date": "2025-11-12", "says": "유료 기사라 본문 확인 불가, 검색 요약에 'all Pagsanjan Falls boat rides in Laguna have been canceled'" }
       ],
-      "decision": "본문을 직접 확인하지 못해 '폭우·태풍 때 운항 중단' 일반 안내로만 둠"
+      "decision": "2라운드에서 Manila Times·Tribune 본문을 다시 열었으나 폭포 운항 취소 문구를 직접 확인하지 못함(유료·미언급). 본문엔 구체 사건을 쓰지 않고 '폭우·태풍 때 운항 중단' 일반 안내로만 둠"
     }
   ],
   "images": [

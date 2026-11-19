@@ -1,7 +1,7 @@
 {
   "id": 21,
   "slug": "baler",
-  "checked_at": "2026-11-19T12:00:00Z",
+  "checked_at": "2026-11-19T05:18:19Z",
   "facts": [
     {
       "where": "getting_there",
@@ -339,9 +339,21 @@
           "grade": "B",
           "date": "2026",
           "says": "2024 census 44,684, land area 92.55 km²"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q53081",
+          "grade": "B",
+          "date": "2026",
+          "says": "population 44,684 (1 July 2024, PSA POPCEN 인용), area 92.55 km²"
+        },
+        {
+          "url": "https://psa.gov.ph/classification/psgc/citimuni/0307700000",
+          "grade": "A",
+          "date": "2026",
+          "says": "검색 결과상 PSA 가 Baler 2024 POPCEN 44,684 로 게재(페이지는 403 으로 직접 열지 못함)"
         }
       ],
-      "decision": "인구조사 수치라 한 곳으로 씀"
+      "decision": "위키백과·위키데이터(PSA 2024 POPCEN 인용)가 일치해 구체 값 유지, 본문은 '약 4만 4,700명'"
     },
     {
       "where": "highlights",
@@ -496,10 +508,22 @@
           "url": "https://en.wikipedia.org/wiki/Baler,_Aurora",
           "grade": "B",
           "date": "2026",
-          "says": "PAGASA 기후표"
+          "says": "PAGASA 1995–2020 기후표: 연 3,357mm, 12월 454.1mm, 1월 낮 27.7·밤 21.3℃, 5~8월 낮 31.2~31.8℃"
+        },
+        {
+          "url": "https://weather-and-climate.com/average-monthly-Rainfall-Temperature-Sunshine,baler-luzon-ph,Philippines",
+          "grade": "C",
+          "date": "2026",
+          "says": "모델 자료: 연 약 2,623mm, 10월 최다 313mm, 1월 27/21℃, 5~8월 낮 30~31℃"
+        },
+        {
+          "url": "https://en.climate-data.org/asia/philippines/aurora/baler-37338/",
+          "grade": "C",
+          "date": "2026",
+          "says": "검색 요약 기준 연 약 2,493mm, 9월 298mm 최다, 10월 296mm, 12월 264mm(페이지를 직접 열지는 않음)"
         }
       ],
-      "decision": "새 문단과 시기표 4행으로 나눔(6~9월, 10월 분리)"
+      "decision": "기온은 두 곳이 일치해 유지. 강수량은 자료마다 2,500~3,400mm 로 크게 달라 범위로 낮추고(PAGASA 관측 약 3,360mm 병기), 최다 시기는 9~12월 무렵으로 낮춤"
     },
     {
       "where": "cautions",

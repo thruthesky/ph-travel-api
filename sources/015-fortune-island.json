@@ -1,7 +1,7 @@
 {
   "id": 15,
   "slug": "fortune-island",
-  "checked_at": "2026-10-04T12:00:00Z",
+  "checked_at": "2026-11-19T05:18:16Z",
   "facts": [
     {
       "where": "overview",
@@ -163,16 +163,20 @@
       "fact": "나숙부 기온·강수량",
       "value": "4월 한낮 32~33℃, 1~2월 아침 23℃ 안팎, 7~8월 월 400~500mm",
       "sources": [
-        { "url": "https://archive-api.open-meteo.com/v1/archive?latitude=14.07&longitude=120.62&start_date=2015-01-01&end_date=2024-12-31&daily=temperature_2m_max,temperature_2m_min,precipitation_sum", "grade": "B", "date": "2026-10-04", "says": "2015~2024 ERA5 평균: 4월 최고 32.5℃, 1·2월 최저 23.3~23.5℃, 7월 526mm·8월 419mm" }
+        { "url": "https://archive-api.open-meteo.com/v1/archive?latitude=14.07&longitude=120.62&start_date=2015-01-01&end_date=2024-12-31&daily=temperature_2m_max,temperature_2m_min,precipitation_sum", "grade": "B", "date": "2026-10-04", "says": "2015~2024 ERA5 평균: 4월 최고 32.5℃, 1·2월 최저 23.3~23.5℃, 7월 526mm·8월 419mm" },
+        { "url": "https://www.easeweather.com/asia/philippines/calabarzon/province-of-batangas/nasugbu/april", "grade": "C", "date": "2026", "says": "나숙부 4월 평균 최고 약 32℃·최저 약 24℃, 강수 약 9mm" },
+        { "url": "https://www.easeweather.com/asia/philippines/calabarzon/province-of-batangas/nasugbu/july", "grade": "C", "date": "2026", "says": "7월 강수 약 500mm(약 27일)" },
+        { "url": "https://www.easeweather.com/asia/philippines/calabarzon/province-of-batangas/nasugbu/august", "grade": "C", "date": "2026", "says": "8월 강수 약 518mm(약 27일), 평균 최고 약 29℃" }
       ],
-      "decision": "재분석 자료라 '안팎'으로 씀. 1월 아침 기온은 쓰지 않고 4월 한낮 기온과 7~8월 강수량만 씀"
+      "decision": "두 자료 모두 4월 한낮 약 32℃, 7~8월 약 420~530mm 로 비슷해 '32~33℃ 안팎'·'약 400~500mm'로 씀(자료마다 편차). 1월 아침 기온은 본문에 쓰지 않음"
     },
     {
       "where": "stay_and_food",
       "fact": "리엠포 설명",
       "value": "리엠포는 구운 삼겹살(돼지고기)",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Pork_belly", "grade": "B", "date": "2026", "says": "In Filipino cuisine, pork belly (Tagalog: liyempo; Philippine Spanish: liempo) is marinated ... before being grilled" }
+        { "url": "https://en.wikipedia.org/wiki/Pork_belly", "grade": "B", "date": "2026", "says": "In Filipino cuisine, pork belly (Tagalog: liyempo; Philippine Spanish: liempo) is marinated ... before being grilled" },
+        { "url": "https://en.wikipedia.org/wiki/Liempo", "grade": "B", "date": "2026", "says": "Liempo is the Filipino name for pork belly, a boneless fatty cut; usually grilled (inihaw/sinugba) with garlic, vinegar, salt and pepper, or deep-fried (lechon kawali)" }
       ],
       "decision": "옛 글의 '구운 닭고기(리엠포·이니하우)'는 틀려 '구운 삼겹살(리엠포)과 통닭구이(리촌 마녹)'로 고침"
     }

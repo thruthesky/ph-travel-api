@@ -1,7 +1,7 @@
 {
   "id": 31,
   "slug": "paoay-church",
-  "checked_at": "2026-10-04T14:30:00Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -138,9 +138,10 @@
       "fact": "라오아그 기후 평년값",
       "value": "1월 최고 30.6℃·최저 19.8℃, 5월 최고 33.7℃, 비 오는 날 1~4월 1~2일·8월 17일, 8월 강수량 593.7mm",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Laoag", "grade": "B", "date": "2026-10", "says": "Climate data for Laoag City (1991–2020), source PAGASA" }
+        { "url": "https://en.wikipedia.org/wiki/Laoag", "grade": "B", "date": "2026-10", "says": "Climate data for Laoag City (1991–2020), source PAGASA" },
+        { "url": "https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/cad/CLIMATOLOGICAL%20NORMALS%20(1991-2020)/LAOAG.pdf", "grade": "A", "date": "2022-01", "says": "PAGASA Climatological Normals 1991-2020 Laoag City: JAN max 30.6/min 19.8, MAY max 33.7, 비 오는 날 JAN 2·FEB 2·MAR 1·APR 2, AUG 17일·593.7mm (원본 PDF 표에서 직접 확인)" }
       ],
-      "decision": "PAGASA 평년값 표 한 곳이지만 공식 통계를 옮긴 것이라 씀. 시기표를 6~9월·10월로 나눠 4행으로 함"
+      "decision": "PAGASA 공식 평년값 PDF 원본과 위키백과 표가 모든 수치에서 일치함을 확인(2라운드). 시기표를 6~9월·10월로 나눠 4행으로 함"
     },
     {
       "where": "best_time",
@@ -221,9 +222,11 @@
       "fact": "파오아이 호수",
       "value": "3.86km², 1969년 국립공원, 2025년 보호경관(RA 12230)",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Paoay_Lake", "grade": "B", "date": "2026", "says": "3.86 km², RA 5631(1969), Protected Landscape RA 12230(2025)" }
+        { "url": "https://en.wikipedia.org/wiki/Paoay_Lake", "grade": "B", "date": "2026", "says": "3.86 km², RA 5631(1969), Protected Landscape RA 12230(2025)" },
+        { "url": "https://lawphil.net/statutes/repacts/ra2025/ra_12230_2025.html", "grade": "A", "date": "2025-08-04", "says": "Republic Act No. 12230 'Paoay Lake Protected Landscape Act', 2025년 8월 4일 승인, 보호경관 약 347ha (RA 5631·1969년 국립공원 언급은 이 법문에 없음)" },
+        { "url": "https://mb.com.ph/2025/08/10/marcos-declares-paoay-lake-as-protected-landscape", "grade": "B", "date": "2025-08-10", "says": "검색 결과 요약 — 마르코스 대통령이 8월 4일 RA 12230 서명, 호수는 1969년 RA 5631 로 국립공원이었다고 보도 (본문은 직접 열지 않음)" }
       ],
-      "decision": "확인만 함(본문에 수치는 넣지 않음)"
+      "decision": "2025년 보호경관(RA 12230)은 법문으로 확인, 1969년 국립공원·3.86km²는 위키백과 중심이라 본문에는 수치를 넣지 않음(본문에 해당 문장 없음). 보호경관 면적은 호수 면적과 다른 개념(약 347ha)"
     }
   ],
   "images": [

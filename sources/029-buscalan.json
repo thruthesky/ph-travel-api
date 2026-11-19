@@ -1,7 +1,7 @@
 {
   "id": 29,
   "slug": "buscalan",
-  "checked_at": "2026-11-19T04:44:53Z",
+  "checked_at": "2026-11-19T05:20:12Z",
   "facts": [
     {
       "where": "cautions·alert",
@@ -196,9 +196,10 @@
       "fact": "부스칼란 좌표의 기온 (Open-Meteo ERA5 재분석, 2021~2025년 평균, 격자 고도 1,013m)",
       "value": "12~2월 최고 19.9~21.3℃·최저 15.3~16.5℃, 4~6월 최고 25.1~26.3℃, 가장 추운 밤 약 10℃",
       "sources": [
-        { "url": "https://archive-api.open-meteo.com/v1/archive?latitude=17.2302&longitude=121.0858&start_date=2021-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min", "grade": "B", "date": "2026-10-04", "says": "월평균 계산: 1월 19.9/15.4, 2월 21.3/15.3, 12월 20.6/16.5, 5·6월 최고 26.3" }
+        { "url": "https://archive-api.open-meteo.com/v1/archive?latitude=17.2302&longitude=121.0858&start_date=2021-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min", "grade": "B", "date": "2026-10-04", "says": "월평균 계산: 1월 19.9/15.4, 2월 21.3/15.3, 12월 20.6/16.5, 5·6월 최고 26.3" },
+        { "url": "https://airpult.com/climate/ph/bontoc/2845869343", "grade": "C", "date": "2026", "says": "인근 본톡(Mountain Province) 연평균 약 20℃, 가장 더운 5월 최고 약 26℃, 가장 추운 1월 최저 약 14℃ (부스칼란 자체가 아닌 인근 지점 통계)" }
       ],
-      "decision": "기존 '12~2월 새벽 10℃대 초반'은 가장 추운 밤 기준으로 맞아 그대로 둠. 강수량은 재분석 격자 오차가 커서 쓰지 않음"
+      "decision": "기존 '12~2월 새벽 10℃대 초반'은 가장 추운 밤 기준으로 맞아 그대로 둠. 강수량은 재분석 격자 오차가 커서 쓰지 않음. 인근 본톡 기후 통계(연평균 약 20℃·1월 최저 약 14℃·5월 최고 약 26℃)가 비슷해 본문에 한 줄 덧붙임"
     },
     {
       "where": "best_time·nearby",
@@ -246,9 +247,11 @@
       "fact": "조인 투어 1박 2일 예시 일정",
       "value": "21:00 마닐라 출발 → 바나우에 아침 → 13:00 입구 → 15:00~19:00 문신 → 다음 날 11:00 출발, 22:00 마닐라",
       "sources": [
-        { "url": "https://budgetwisetraveltours.wordpress.com/2d1n-apo-whang-od-buscalan-tour/", "grade": "C", "date": "2026-10-04", "says": "9:00 PM Manila, 6:00 AM Banaue, 1:00 PM trailhead, 3-7 PM tattoo, next day 11:00 AM depart, 10:00 PM Manila; 12 pax minimum" }
+        { "url": "https://budgetwisetraveltours.wordpress.com/2d1n-apo-whang-od-buscalan-tour/", "grade": "C", "date": "2026-10-04", "says": "9:00 PM Manila, 6:00 AM Banaue, 1:00 PM trailhead, 3-7 PM tattoo, next day 11:00 AM depart, 10:00 PM Manila; 12 pax minimum" },
+        { "url": "https://theabroadguide.com/?p=841963", "grade": "C", "date": "2026", "says": "2-Day Buscalan Tour: overnight van from Manila, trek to Banawe View Point/Northern Blossom jump-off, tattoo with Apo Whang-Od, personal tattoo from ₱300; 시각 명시 없음, 일정은 날씨·상황에 따라 바뀜" },
+        { "url": "https://clicatour.com/en/excursion/philippines/manila/from-manila-2-day-buscalan-tour-with-apo-whang-od-2-day-buscalan-tour-with-apo-whang-od-shared", "grade": "C", "date": "2026", "says": "Friday evening overnight drive, Saturday trek in and tattoo in the afternoon, Sunday trek back and return to Manila late evening; 집결 14:00 Eton Centris 외 구체 시각 없음" }
       ],
-      "decision": "업체 일정 한 곳을 '예시'로 표시하고 요금은 쓰지 않음. 기존 조인 투어 요금(2박 3일 ₱4,500~7,000)은 그대로 둠"
+      "decision": "다른 업체 2곳이 밤샘 이동·1일차 오후 문신·2일차 귀경(밤 늦게 마닐라)의 흐름은 확인하나 정확한 시각은 확인 못 해 본문 시각을 '저녁~밤·낮~이른 오후·오후~저녁·늦은 밤' 같은 대략 표현으로 낮추고 '업체마다 다름'을 덧붙임. 업체 일정 한 곳을 '예시'로 표시하고 요금은 쓰지 않음. 기존 조인 투어 요금(2박 3일 ₱4,500~7,000)은 그대로 둠"
     }
   ],
   "images": [

@@ -1,7 +1,7 @@
 {
   "id": 90,
   "slug": "tinuy-an-falls",
-  "checked_at": "2026-10-09T10:00:00Z",
+  "checked_at": "2026-11-19T12:00:00Z",
   "facts": [
     {
       "where": "latitude/longitude",
@@ -147,9 +147,11 @@
       "fact": "티누이안 사야우 축제와 창립 기념일",
       "value": "9월 16~18일 창립 기념(Charter Day), 9월 17일 티누이안 사야우 축제",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Bislig", "grade": "B", "date": "2026-10-09", "says": "Charter Day 9월 16~18일, 9월 17일 Tinuy-an Sayaw Festival(2013년 대체, 2019년 Karawasan 과 함께 재개)" }
+        { "url": "https://en.wikipedia.org/wiki/Bislig", "grade": "B", "date": "2026-10-09", "says": "Charter Day 9월 16~18일, 9월 17일 Tinuy-an Sayaw Festival(2013년 대체, 2019년 Karawasan 과 함께 재개)" },
+        { "url": "https://turistasapilipinas.com/bislig-city-surigao-del-sur/", "grade": "C", "date": "2026", "says": "Tinuy-an Sayaw Festival 은 9월 17일, 폭포를 춤과 노래로 기리는 축제" },
+        { "url": "https://festivepinoy.com/bislig-city-charter-day/", "grade": "C", "date": "2026", "says": "Charter Day 는 9월 18일(2000년 9월 18일 주민투표로 시 승격 확정), 9월 18일 Karawasan 축제. 사야우 축제는 언급 없음" }
       ],
-      "decision": "서술이라 1곳. 일정은 해마다 바뀔 수 있어 본문에 날짜만 적고 세부는 쓰지 않음"
+      "decision": "사야우 축제 9월 17일은 위키백과·turistasapilipinas 2곳이 일치. 창립 기념은 위키백과 9월 16~18일, festivepinoy 는 9월 18일이라 본문을 '창립 기념일(9월 18일) 전후 기념 기간'으로 낮춤(16~18일 날짜 표기는 유지). 일정은 해마다 바뀔 수 있음"
     },
     {
       "where": "cautions",
@@ -200,7 +202,9 @@
       "fact": "가까운 공항 항목",
       "value": "다바오(DVO) 유지",
       "sources": [
-        { "url": "https://en.wikivoyage.org/wiki/Bislig", "grade": "B", "date": "2026-10-09", "says": "가까운 공항은 다바오·부투안·탄다그, 비슬리그–다바오 약 208km, 부투안 약 158km" }
+        { "url": "https://en.wikivoyage.org/wiki/Bislig", "grade": "B", "date": "2026-10-09", "says": "가까운 공항은 다바오·부투안·탄다그, 비슬리그–다바오 약 208km, 부투안 약 158km" },
+        { "url": "https://www.discoverthephilippines.com/tinuy-an-falls/", "grade": "C", "date": "2026", "says": "비슬리그 공항(BPH)은 폭포에서 17km 안이나 상업편 없음, 대부분 다바오·부투안으로 들어감. 다바오 공항에서 에코랜드 터미널 거쳐 버스 5~6시간" },
+        { "url": "https://turistasapilipinas.com/bislig-city-surigao-del-sur/", "grade": "C", "date": "2026", "says": "다바오 또는 부투안으로 날아가 망가고이까지 버스·밴 이동" }
       ],
       "decision": "항공편 수가 압도적인 다바오를 유지(도로 거리는 부투안이 가까움). airport 속성은 meta 의 어휘와 연결돼 있어 바꾸지 않음"
     }

@@ -1,7 +1,7 @@
 {
   "id": 1,
   "slug": "intramuros",
-  "checked_at": "2026-11-19T04:44:01Z",
+  "checked_at": "2026-11-19T05:10:00Z",
   "facts": [
     {
       "where": "tips",
@@ -128,9 +128,10 @@
       "fact": "산 아구스틴 박물관 요금·시간",
       "value": "₱200(할인 ₱160), 매일 08:00~12:00·13:00~17:00, 결혼식 때 관람 제한",
       "sources": [
+        { "url": "https://intramuros.gov.ph/?p=6158", "grade": "A", "date": "2026", "says": "Mon to Sun: 8:00AM to 12:00PM, 1:00PM to 5:00PM. PHP 200.00 (Regular rate); PHP 160.00 (Discounted rate) — 18세 미만·60세 이상·재학생·장애인, 신분증 제시, 현금만" },
         { "url": "sources/206-san-agustin-church.json", "grade": "B", "date": "2026-10-03", "says": "요금 5곳 일치(thepoortraveler 2026-04, trailblazing 2026-06, philippinescompass 2026-07, GMA 2023 등), 시간 2026년 3곳 일치" }
       ],
-      "decision": "산 아구스틴 성당 항목의 근거를 그대로 따름(공식 페이지는 열리지 않음)"
+      "decision": "인트라무로스 관리청(공식) 페이지가 요금·시간을 확인해 A+B 2곳 이상이 일치. 할인 대상(장애인·신분증)을 본문에 더하고 시간·요금은 바뀔 수 있다고 덧붙임. GMA 2023 기사의 일~금은 오래된 값으로 보고 따르지 않음"
     },
     {
       "where": "highlights",
@@ -212,9 +213,11 @@
       "fact": "퀴아포 성당 가는 법",
       "value": "LRT 카리에도역에서 도보 약 5~10분",
       "sources": [
+        { "url": "https://en.wikivoyage.org/wiki/Manila/Quiapo", "grade": "B", "date": "2026", "says": "Take the LRT-1 train to Carriedo station; from the station, walk down Carriedo street to eventually make your way into Quiapo (좌표상 직선 약 300m, 도보 시간은 없음)" },
+        { "url": "https://placefinder.sakay.ph/point-to-point/baclaran/quiapo", "grade": "C", "date": "2026", "says": "검색 결과 요약 기준: 카리에도 LRT에서 플라사 미란다까지 도보 341m(카리에도 거리 경유). 페이지 직접 열기는 403 이라 요약만 확인" },
         { "url": "data/ko/101-quiapo-church.json", "grade": "B", "date": "2026-10-04", "says": "카리에도역에서 카리에도 거리를 따라 도보 약 5~10분 (같은 저장소 항목)" }
       ],
-      "decision": "같은 저장소 항목과 맞춤"
+      "decision": "거리 약 300~340m 라 걸음으로 5분 안팎이나 혼잡을 감안해 기존 '약 5~10분' 유지. 시간 자체를 적은 출처는 없어 '약' 표기 유지"
     }
   ],
   "images": [
