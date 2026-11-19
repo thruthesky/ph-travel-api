@@ -1,220 +1,272 @@
 {
- "id": 2469,
- "slug": "bonifacio-high-street",
- "checked_at": "2026-11-19T06:30:00Z",
- "facts": [
-  {
-   "where": "overview",
-   "fact": "개장·확장 연도",
-   "value": "2007-10 개장, 센트럴 2012-05, 센트럴 스퀘어 2014-06, 원 BHS 2018-08",
-   "sources": [
+  "id": 2469,
+  "slug": "bonifacio-high-street",
+  "checked_at": "2026-11-19T06:30:00Z",
+  "facts": [
     {
-     "url": "https://en.wikipedia.org/wiki/Bonifacio_High_Street",
-     "grade": "A",
-     "date": "2026-11-18",
-     "says": "연표와 4개 블록 구성"
+      "where": "overview",
+      "fact": "개장·확장 연도",
+      "value": "2007-10 개장, 센트럴 2012-05, 센트럴 스퀘어 2014-06, 원 BHS 2018-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bonifacio_High_Street",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "연표와 4개 블록 구성"
+        },
+        {
+          "url": "https://www.taguigeno.com/2023/06/bonifacio-high-street.html",
+          "grade": "C",
+          "date": "2023-06",
+          "says": "타기그 최초의 야외 몰, 보행자 친화"
+        }
+      ],
+      "decision": "위키 기준, 보조 출처는 야외 몰 성격만 확인"
     },
     {
-     "url": "https://www.taguigeno.com/2023/06/bonifacio-high-street.html",
-     "grade": "C",
-     "date": "2023-06",
-     "says": "타기그 최초의 야외 몰, 보행자 친화"
+      "where": "overview",
+      "fact": "임대료 순위",
+      "value": "2024년 세계 43위",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bonifacio_High_Street",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "2024 기준 43번째로 비싼 상업 거리"
+        },
+        {
+          "url": "https://www.philstar.com/business/2024/11/28/2403404/bgc-keeps-ranking-43rd-most-expensive-retail-street-worldwide",
+          "grade": "B",
+          "date": "2024-11-28",
+          "says": "쿠시먼앤드웨이크필드 Main Streets Across the World 2024에서 BGC 43위(전년과 같음), 임대료 연 $51/ft², BGC 전체 기준"
+        }
+      ],
+      "decision": "위키와 필리핀 스타 보도가 일치, 연도 명시하고 BGC 전체 기준임을 본문에 밝힘(2025년판에서는 순위가 내려갔다는 검색 결과가 있으나 직접 열어 확인 못 함)"
+    },
+    {
+      "where": "lat/lon",
+      "fact": "좌표",
+      "value": "14.5506, 121.0514",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bonifacio_High_Street",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "14°33′02″N 121°03′05″E"
+        },
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Bonifacio+High+Street+Taguig",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "OSM 14.5502~14.5512, 121.0493~121.0526"
+        }
+      ],
+      "decision": "두 지도 일치"
+    },
+    {
+      "where": "highlights",
+      "fact": "하이스트리트 홀리데이 2026",
+      "value": "트리 점등 11/4, 불꽃놀이 토요일 19:30, 심방가비 12/15~23",
+      "sources": [
+        {
+          "url": "https://bgc.com.ph/2026/the-holidays-shine-brighter-in-bgc-with-highstreet-holiday-2026/",
+          "grade": "A",
+          "date": "2026-11-04",
+          "says": "트리 점등 11/4, 토요일 불꽃놀이 11/7~12/26 19:30 5번가, 심방가비 12/15~23 야외극장 18:30, 산타 행사 12/6·13·20·24"
+        },
+        {
+          "url": "https://www.lionheartv.net/2026/11/bgc-highstreet-chistmas-lighting/",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "트리 점등 행사 보도"
+        }
+      ],
+      "decision": "공식과 언론 일치"
+    },
+    {
+      "where": "overview",
+      "fact": "런 BGC 2026",
+      "value": "2026-11-29, 5K·10K·16K·1K 반려견",
+      "sources": [
+        {
+          "url": "https://raceroster.com/events/2026/141509/run-bgc-2026",
+          "grade": "B",
+          "date": "2026",
+          "says": "대회 등록 페이지"
+        },
+        {
+          "url": "https://www.pinoyfitness.com/event/run-bgc-2026/",
+          "grade": "C",
+          "date": "2026",
+          "says": "대회 일정"
+        }
+      ],
+      "decision": "변경 가능성을 본문에 명시"
+    },
+    {
+      "where": "getting_there",
+      "fact": "BGC 버스 요금",
+      "value": "약 ₱15",
+      "sources": [
+        {
+          "url": "https://blog.sakay.ph/bgc-bus-terminal-guide-2023-routes-schedules-fare-and-commuter-tips/",
+          "grade": "B",
+          "date": "2025",
+          "says": "Central, LRT-Ayala 노선 ₱15 (검색 요약으로만 확인, 직접 열기 403)"
+        },
+        {
+          "url": "https://jontotheworld.com/how-to-commute-to-bgc-mrt-bgc-bus-jeepney-routes-from-manila-cubao-cavite-and-more/",
+          "grade": "C",
+          "date": "2026",
+          "says": "2026 안내서에 일반 노선 ₱15 (검색 요약으로만 확인)"
+        }
+      ],
+      "decision": "직접 열지 못해 '약'으로 표기"
+    },
+    {
+      "where": "getting_there",
+      "fact": "BGC 버스 정류장·결제",
+      "value": "원 파케이드 AS09·C08·WR10, 뉴트리아시아 AS03·C02, Beep·GCash",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bonifacio_High_Street",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "정류장 목록"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/BGC_Bus",
+          "grade": "A",
+          "date": "2025-01",
+          "says": "Beep·GCash, EDSA 아얄라는 맥킨리 익스체인지 터미널"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "costs",
+      "fact": "마인드 뮤지엄",
+      "value": "약 ₱550~750, 화~일 9~18시 월요일 휴관, 250개 이상 체험",
+      "sources": [
+        {
+          "url": "https://www.philippinescompass.com/best-things-to-do-in-bgc-and-taguig-first-time-visitor-guide/",
+          "grade": "B",
+          "date": "2026-08-10",
+          "says": "₱625 성인, ₱550 어린이, ₱750 종일, 월 휴관"
+        },
+        {
+          "url": "https://chillandtravel.com/the-mind-museum-guide/",
+          "grade": "C",
+          "date": "2026-10-13",
+          "says": "화~일 9~18시, 월 휴관, 3시간권 성인 ₱625·어린이 ₱550, 종일권 ₱750(Klook ₱693), 250개 이상 체험, 요금은 예고 없이 변경 가능"
+        },
+        {
+          "url": "https://lakbaypinas.com/the-mind-museum-bgc-guide-tickets-galleries-tips/",
+          "grade": "C",
+          "date": "2026-08-17",
+          "says": "화~일 9~18시, 월 휴관, 성인 3시간 ₱625·어린이 ₱550·종일 ₱750, 250개 이상 전시(공식 사이트는 접속 실패로 못 엶)"
+        }
+      ],
+      "decision": "독립된 블로그 3곳이 값과 시간 일치, 공식 미확인이라 '약'과 현장 확인 문구 유지"
+    },
+    {
+      "where": "itinerary",
+      "fact": "마켓! 마켓! 영업시간",
+      "value": "대체로 10~11시경 개점, 22시경 폐점(연말·공휴일 변동)",
+      "sources": [
+        {
+          "url": "https://www.philippinescompass.com/best-things-to-do-in-bgc-and-taguig-first-time-visitor-guide/",
+          "grade": "B",
+          "date": "2026-08-10",
+          "says": "Ayala Malls 기준 시간"
+        },
+        {
+          "url": "https://philstarlife.com/news-and-views/590780-list-adjusted-mall-hours-for-2024-holiday-season",
+          "grade": "B",
+          "date": "2024-11",
+          "says": "2024-11-15~12-14 마켓! 마켓! 평일 11~22시, 주말 10~22시(연말 조정 시간)"
+        },
+        {
+          "url": "https://www.gmanetwork.com/news/lifestyle/shoppingandfashion/980998/holy-week-2026-metro-manila-mall-hours-from-maundy-thursday-to-easter-sunday/story/",
+          "grade": "B",
+          "date": "2026-03",
+          "says": "2026 성주간 4/4~5 마켓! 마켓! 10~22시(검색 요약으로만 확인)"
+        }
+      ],
+      "decision": "정규 시간표 페이지는 열지 못함. 평일 21시 폐점은 확인되지 않아 '대체로 10~11시경~22시경, 연말·공휴일 변동'으로 낮춤"
+    },
+    {
+      "where": "highlights",
+      "fact": "입점 업소",
+      "value": "딘타이펑·쉐이크쉑·마루가메·와일드플라워·풀리 북트",
+      "sources": [
+        {
+          "url": "https://www.overheremanila.com/bgc-at-night-things-to-do/",
+          "grade": "B",
+          "date": "2026",
+          "says": "업소 위치와 가격대"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bonifacio_High_Street",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "무지·쉐이크쉑·푸드 디스트릭트"
+        }
+      ],
+      "decision": "이름난 업소만 사용"
     }
-   ],
-   "decision": "위키 기준, 보조 출처는 야외 몰 성격만 확인"
-  },
-  {
-   "where": "overview",
-   "fact": "임대료 순위",
-   "value": "2024년 세계 43위",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://en.wikipedia.org/wiki/Bonifacio_High_Street",
-     "grade": "A",
-     "date": "2026-11-18",
-     "says": "2024 기준 43번째로 비싼 상업 거리"
+      "file": "2469-bonifacio-high-street.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bonifacio_High_Street,_Metro_Manila.jpg",
+      "check": "분류 Bonifacio High Street, 설명 'Bonifacio High Street in BGC', 잔디 광장·분수·상점 거리가 보이는 가로 전경(글자 서명 없음, 퍼블릭 도메인)"
     },
     {
-     "url": "https://www.philstar.com/business/2024/11/28/2403404/bgc-keeps-ranking-43rd-most-expensive-retail-street-worldwide",
-     "grade": "B",
-     "date": "2024-11-28",
-     "says": "쿠시먼앤드웨이크필드 Main Streets Across the World 2024에서 BGC 43위(전년과 같음), 임대료 연 $51/ft², BGC 전체 기준"
+      "file": "2469-bonifacio-high-street-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bonifacio_High_Street_in_BGC,_Metro_Manila.jpg",
+      "check": "분류·설명 'pedestrian street Bonifacio High Street', 무지 매장이 있는 센트럴 구역 모습과 일치"
+    },
+    {
+      "file": "2469-bonifacio-high-street-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:BGC_-_BHS_Central_Jan_8_2025.jpg",
+      "check": "설명 'Bonifacio High Street (Central Part)', 2025-01-08, 야외 좌석과 잔디"
+    },
+    {
+      "file": "2469-bonifacio-high-street-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bonifacio_High_Street_9th_Ave._2021.jpg",
+      "check": "설명 'Picnic Tables ... (along 9th Avenue)', GPS 14.551,121.051 가 본문 좌표 근처"
+    },
+    {
+      "file": "2469-bonifacio-high-street-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bonifacio_High_Street,_BGC,_Taguig,_Aug_2026_(2).jpg",
+      "check": "제목 'Bonifacio High Street, BGC, Taguig', GPS 14.551,121.053, 마루가메 간판(본문 미식 거리 언급)"
+    },
+    {
+      "file": "2469-bonifacio-high-street-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Highstreet_front.jpg",
+      "check": "제목 Highstreet front, 분류 Bonifacio High Street, 입구 광장 모습"
+    },
+    {
+      "file": "2469-bonifacio-high-street-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bars_at_Bonifacio_High_Street.jpg",
+      "check": "설명 'Bars at Bonifacio High Street', 저녁 식사·산책 분위기(본문의 밤 풍경)"
+    },
+    {
+      "file": "2469-bonifacio-high-street-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bonifacio_High_Street_Entrance.jpg",
+      "check": "사진 속 간판 글자 Bonifacio High Street 가 직접 보임, 분류 일치"
+    },
+    {
+      "file": "2469-bonifacio-high-street-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:BGC_Bonifacio_High_Street,_NYE_2022_fireworks_display_(Taguig;_12-31-2021).jpg",
+      "check": "제목에 Bonifacio High Street, NYE 2022 fireworks; 본문의 연말 불꽃놀이·행사와 일치"
+    },
+    {
+      "file": "2469-bonifacio-high-street-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bonifacio_High_Street_from_PSE_Tower,_BGC,_Taguig,_Aug_2025.jpg",
+      "check": "제목 'Bonifacio High Street from PSE Tower', GPS 14.551,121.047, 거리 구조가 위에서 보임"
     }
-   ],
-   "decision": "위키와 필리핀 스타 보도가 일치, 연도 명시하고 BGC 전체 기준임을 본문에 밝힘(2025년판에서는 순위가 내려갔다는 검색 결과가 있으나 직접 열어 확인 못 함)"
-  },
-  {
-   "where": "lat/lon",
-   "fact": "좌표",
-   "value": "14.5506, 121.0514",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Bonifacio_High_Street",
-     "grade": "A",
-     "date": "2026-11-18",
-     "says": "14°33′02″N 121°03′05″E"
-    },
-    {
-     "url": "https://nominatim.openstreetmap.org/search?q=Bonifacio+High+Street+Taguig",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "OSM 14.5502~14.5512, 121.0493~121.0526"
-    }
-   ],
-   "decision": "두 지도 일치"
-  },
-  {
-   "where": "highlights",
-   "fact": "하이스트리트 홀리데이 2026",
-   "value": "트리 점등 11/4, 불꽃놀이 토요일 19:30, 심방가비 12/15~23",
-   "sources": [
-    {
-     "url": "https://bgc.com.ph/2026/the-holidays-shine-brighter-in-bgc-with-highstreet-holiday-2026/",
-     "grade": "A",
-     "date": "2026-11-04",
-     "says": "트리 점등 11/4, 토요일 불꽃놀이 11/7~12/26 19:30 5번가, 심방가비 12/15~23 야외극장 18:30, 산타 행사 12/6·13·20·24"
-    },
-    {
-     "url": "https://www.lionheartv.net/2026/11/bgc-highstreet-chistmas-lighting/",
-     "grade": "B",
-     "date": "2026-11",
-     "says": "트리 점등 행사 보도"
-    }
-   ],
-   "decision": "공식과 언론 일치"
-  },
-  {
-   "where": "overview",
-   "fact": "런 BGC 2026",
-   "value": "2026-11-29, 5K·10K·16K·1K 반려견",
-   "sources": [
-    {
-     "url": "https://raceroster.com/events/2026/141509/run-bgc-2026",
-     "grade": "B",
-     "date": "2026",
-     "says": "대회 등록 페이지"
-    },
-    {
-     "url": "https://www.pinoyfitness.com/event/run-bgc-2026/",
-     "grade": "C",
-     "date": "2026",
-     "says": "대회 일정"
-    }
-   ],
-   "decision": "변경 가능성을 본문에 명시"
-  },
-  {
-   "where": "getting_there",
-   "fact": "BGC 버스 요금",
-   "value": "약 ₱15",
-   "sources": [
-    {
-     "url": "https://blog.sakay.ph/bgc-bus-terminal-guide-2023-routes-schedules-fare-and-commuter-tips/",
-     "grade": "B",
-     "date": "2025",
-     "says": "Central, LRT-Ayala 노선 ₱15 (검색 요약으로만 확인, 직접 열기 403)"
-    },
-    {
-     "url": "https://jontotheworld.com/how-to-commute-to-bgc-mrt-bgc-bus-jeepney-routes-from-manila-cubao-cavite-and-more/",
-     "grade": "C",
-     "date": "2026",
-     "says": "2026 안내서에 일반 노선 ₱15 (검색 요약으로만 확인)"
-    }
-   ],
-   "decision": "직접 열지 못해 '약'으로 표기"
-  },
-  {
-   "where": "getting_there",
-   "fact": "BGC 버스 정류장·결제",
-   "value": "원 파케이드 AS09·C08·WR10, 뉴트리아시아 AS03·C02, Beep·GCash",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Bonifacio_High_Street",
-     "grade": "A",
-     "date": "2026-11-18",
-     "says": "정류장 목록"
-    },
-    {
-     "url": "https://en.wikipedia.org/wiki/BGC_Bus",
-     "grade": "A",
-     "date": "2025-01",
-     "says": "Beep·GCash, EDSA 아얄라는 맥킨리 익스체인지 터미널"
-    }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "costs",
-   "fact": "마인드 뮤지엄",
-   "value": "약 ₱550~750, 화~일 9~18시 월요일 휴관, 250개 이상 체험",
-   "sources": [
-    {
-     "url": "https://www.philippinescompass.com/best-things-to-do-in-bgc-and-taguig-first-time-visitor-guide/",
-     "grade": "B",
-     "date": "2026-08-10",
-     "says": "₱625 성인, ₱550 어린이, ₱750 종일, 월 휴관"
-    },
-    {
-     "url": "https://chillandtravel.com/the-mind-museum-guide/",
-     "grade": "C",
-     "date": "2026-10-13",
-     "says": "화~일 9~18시, 월 휴관, 3시간권 성인 ₱625·어린이 ₱550, 종일권 ₱750(Klook ₱693), 250개 이상 체험, 요금은 예고 없이 변경 가능"
-    },
-    {
-     "url": "https://lakbaypinas.com/the-mind-museum-bgc-guide-tickets-galleries-tips/",
-     "grade": "C",
-     "date": "2026-08-17",
-     "says": "화~일 9~18시, 월 휴관, 성인 3시간 ₱625·어린이 ₱550·종일 ₱750, 250개 이상 전시(공식 사이트는 접속 실패로 못 엶)"
-    }
-   ],
-   "decision": "독립된 블로그 3곳이 값과 시간 일치, 공식 미확인이라 '약'과 현장 확인 문구 유지"
-  },
-  {
-   "where": "itinerary",
-   "fact": "마켓! 마켓! 영업시간",
-   "value": "대체로 10~11시경 개점, 22시경 폐점(연말·공휴일 변동)",
-   "sources": [
-    {
-     "url": "https://www.philippinescompass.com/best-things-to-do-in-bgc-and-taguig-first-time-visitor-guide/",
-     "grade": "B",
-     "date": "2026-08-10",
-     "says": "Ayala Malls 기준 시간"
-    },
-    {
-     "url": "https://philstarlife.com/news-and-views/590780-list-adjusted-mall-hours-for-2024-holiday-season",
-     "grade": "B",
-     "date": "2024-11",
-     "says": "2024-11-15~12-14 마켓! 마켓! 평일 11~22시, 주말 10~22시(연말 조정 시간)"
-    },
-    {
-     "url": "https://www.gmanetwork.com/news/lifestyle/shoppingandfashion/980998/holy-week-2026-metro-manila-mall-hours-from-maundy-thursday-to-easter-sunday/story/",
-     "grade": "B",
-     "date": "2026-03",
-     "says": "2026 성주간 4/4~5 마켓! 마켓! 10~22시(검색 요약으로만 확인)"
-    }
-   ],
-   "decision": "정규 시간표 페이지는 열지 못함. 평일 21시 폐점은 확인되지 않아 '대체로 10~11시경~22시경, 연말·공휴일 변동'으로 낮춤"
-  },
-  {
-   "where": "highlights",
-   "fact": "입점 업소",
-   "value": "딘타이펑·쉐이크쉑·마루가메·와일드플라워·풀리 북트",
-   "sources": [
-    {
-     "url": "https://www.overheremanila.com/bgc-at-night-things-to-do/",
-     "grade": "B",
-     "date": "2026",
-     "says": "업소 위치와 가격대"
-    },
-    {
-     "url": "https://en.wikipedia.org/wiki/Bonifacio_High_Street",
-     "grade": "A",
-     "date": "2026-11-18",
-     "says": "무지·쉐이크쉑·푸드 디스트릭트"
-    }
-   ],
-   "decision": "이름난 업소만 사용"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T07:37:37Z"
 }
