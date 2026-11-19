@@ -1,7 +1,7 @@
 {
   "id": 2537,
   "slug": "mabitac-church",
-  "checked_at": "2026-11-18T00:00:00Z",
+  "checked_at": "2026-11-19T06:00:00Z",
   "facts": [
     {
       "where": "history",
@@ -86,9 +86,22 @@
     {
       "where": "costs/transport",
       "fact": "교통 요금·직행 노선·입장료",
-      "value": "확인 못 함",
-      "sources": [],
-      "decision": "현지 확인으로 표기"
+      "value": "마닐라~마비탁 직행 버스 없음(루세나·시니로안 또는 산타크루즈 경유 갈아타기), 산타크루즈~시니로안 지프니 약 ₱50(2013), 최신 요금은 현지 확인",
+      "sources": [
+        {
+          "url": "https://www.rome2rio.com/s/Manila/Mabitac",
+          "grade": "C",
+          "date": "2026",
+          "says": "마닐라~마비탁 직행 버스 없음, 루세나 경유 시니로안행 환승, 차량 약 1시간"
+        },
+        {
+          "url": "https://www.backpackingphilippines.com/2013/02/how-to-get-to-laguna-bus-jeepney-routes.html",
+          "grade": "C",
+          "date": "2013",
+          "says": "산타크루즈~시니로안 지프니 약 PhP50, 시니로안에서 마비탁까지 짧은 지프니"
+        }
+      ],
+      "decision": "직행 없음·환승 경로는 두 곳이 일치, 요금은 2013년 자료뿐이라 연도를 밝히고 현지 확인으로 낮춤"
     }
   ],
   "images": [

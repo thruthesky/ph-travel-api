@@ -1,7 +1,7 @@
 {
  "id": 753,
  "slug": "cordillera-festival-of-festivals",
- "checked_at": "2026-11-19T00:00:00Z",
+ "checked_at": "2026-11-19T09:00:00Z",
  "facts": [
   {
    "where": "overview",
@@ -158,16 +158,34 @@
   {
    "where": "getting_there/costs",
    "fact": "버스·숙소·지프니 요금, 기후",
-   "value": "이 저장소 기존 baguio 항목(2026년 조사) 값 재사용",
+   "value": "마닐라–바기오 버스 일반 약 ₱650~850·디럭스 ₱750~1,000·퍼스트 ₱1,000~1,600, 약 5~6시간, 클락 ₱470~630, 지프니 ₱14~20, 연 강수량 약 3,500~3,900mm",
    "sources": [
     {
-     "url": "https://github.com/thruthesky/ph-travel-api",
+     "url": "https://genesisjoybus.com/schedules",
+     "grade": "A",
+     "date": "2026",
+     "says": "큐바오–바기오 ₱695~880, 파사이–바기오 ₱730~930(디럭스·조이버스 이그제큐티브·프리미어), 5~6시간. 클락 공항–바기오 ₱485~630, 3~4시간"
+    },
+    {
+     "url": "https://www.thepoortraveler.net/manila-to-baguio-bus-schedule/",
      "grade": "C",
-     "date": "2026-11-18",
-     "says": "data/ko/023-baguio.json 의 기존 근거를 그대로 사용, 이번에 재확인하지 않음"
+     "date": "2026-08",
+     "says": "빅토리 라이너 일반 ₱655~680·디럭스 ₱784~801·퍼스트 ₱1,055~1,078·로열 ₱1,581~1,616, 제네시스 일반 ₱649~667·프리미어 ₱999~1,035"
+    },
+    {
+     "url": "https://baguiocityguide.com/new-jeepney-taxi-bus-and-tnvs-fares-start-september-28/",
+     "grade": "C",
+     "date": "2026-09",
+     "says": "2026-09-28부터 재래식 지프니 최저 ₱14, 현대식 ₱17(첫 4km), 학생·노인·장애인 20% 할인"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Baguio",
+     "grade": "B",
+     "date": "2026",
+     "says": "해발 약 1,465m, 6~10월 호우, 연 강수량 기후표 3,824mm(본문 3,914mm). 제3자 사이트는 3,463~3,647mm로 엇갈려 범위로 표기"
     }
    ],
-   "decision": "요금은 '개정될 수 있음' 문구"
+   "decision": "버스 시간은 4~6시간에서 공식 5~6시간으로 고침, 강수량은 자료마다 달라 약 3,500~3,900mm 범위로 낮춤, 요금은 개정될 수 있음 문구 유지, 숙소 요금은 페소 자료를 못 찾아 범위·대략치 유지"
   },
   {
    "where": "lat/lon",
