@@ -1,7 +1,7 @@
 {
  "id": 2339,
  "slug": "mount-labo",
- "checked_at": "2026-11-18T00:00:00Z",
+ "checked_at": "2026-11-19T04:53:32Z",
  "facts": [
   {
    "where": "lat/lon",
@@ -46,16 +46,28 @@
   {
    "where": "costs",
    "fact": "다에트행 버스",
-   "value": "약 ₱550",
+   "value": "약 ₱770~890",
    "sources": [
     {
      "url": "http://www.pinoymountaineer.com/2013/09/mt-labo-camarines-norte-1544.html",
      "grade": "B",
      "date": "2013-09",
      "says": "다에트 버스 P550, 지프니 편도 P800/왕복 P1500, 등록 무료, 야영지 800m·9km"
+    },
+    {
+     "url": "https://dltbterminal.com/fares",
+     "grade": "C",
+     "date": "2026",
+     "says": "마닐라-다에트 DLTB 일반 에어컨 ₱801+~₱889+, 약 6~7시간(약 요금, 예고 없이 변동)"
+    },
+    {
+     "url": "https://www.phbus.com/dltb-bus-manila-to-daet/",
+     "grade": "C",
+     "date": "2026",
+     "says": "DLTB 마닐라-다에트 에어컨 ₱769+, 최소 8.5시간, 출발 11:00·12:30·13:00·18:30"
     }
    ],
-   "decision": "2013 단일 출처 → '과거 후기 기준·현재 확인'으로 표기"
+   "decision": "2013 ₱550 은 옛 요금. 2026 포털 두 곳(C등급)이 ₱769~889 → 범위 '약 ₱770~890'으로 고치고 터미널 확인 안내 유지"
   },
   {
    "where": "costs",

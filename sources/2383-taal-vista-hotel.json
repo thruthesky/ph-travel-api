@@ -1,7 +1,7 @@
 {
  "id": 2383,
  "slug": "taal-vista-hotel",
- "checked_at": "2026-11-18T08:28:59Z",
+ "checked_at": "2026-11-19T04:53:59Z",
  "facts": [
   {
    "where": "history",
@@ -106,22 +106,28 @@
   {
    "where": "getting_there",
    "fact": "버스 소요·요금",
-   "value": "약 2시간, 80~180",
+   "value": "약 2시간(최대 3시간), 80~200",
    "sources": [
-    {
-     "url": "https://jontotheworld.com/how-to-get-to-tagaytay-from-manila-bus-routes-fares-complete-commute-guide/",
-     "grade": "C",
-     "date": "",
-     "says": "검색 요약: 80~150"
-    },
     {
      "url": "https://bustickets.ph/dltb-manila-to-tagaytay-bus/",
      "grade": "C",
      "date": "",
-     "says": "검색 요약: 부엔디아·PITX 출발"
+     "says": "DLTB 부엔디아·PITX 출발, 약 2시간, 매시간 운행, 에어컨 버스 편도 88(FAQ는 110~170)"
+    },
+    {
+     "url": "https://tagaytaytoursfrommanila.com/fare-guide/",
+     "grade": "C",
+     "date": "2026-11-05",
+     "says": "PITX·DLTB 부엔디아 출발 편도 160~200, 교통량에 따라 새벽 약 90분~토요일 낮 약 3시간"
+    },
+    {
+     "url": "http://federalland.ph/knowledge-hub/traveling-to-and-from-tagaytay-by-bus-commuters-guide/",
+     "grade": "C",
+     "date": "2025-04-29",
+     "says": "마닐라발 약 80~150, PITX·부엔디아 DLTB 70~90, 약 1.5~2시간"
     }
    ],
-   "decision": "범위와 확인 안내"
+   "decision": "공식 요금표가 없고 출처마다 70~200 으로 엇갈려 범위 ₱80~200 로 올리고 연도별 차이와 승차 시 확인 안내를 명시, 소요는 약 2시간(교통 체증 때 3시간 가까이)"
   },
   {
    "where": "coords",

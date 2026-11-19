@@ -1,7 +1,7 @@
 {
   "id": 221,
   "slug": "la-trinidad-strawberry-farm",
-  "checked_at": "2026-10-03T06:00:00Z",
+  "checked_at": "2026-11-19T04:53:30Z",
   "facts": [
     {
       "where": "overview",
@@ -266,16 +266,28 @@
     {
       "where": "getting_there",
       "fact": "클락–바기오 소요",
-      "value": "약 3~4시간",
+      "value": "약 3~5시간",
       "sources": [
         {
           "url": "data/en/023-baguio.json",
           "grade": "내부",
           "date": "2026-10-02",
           "says": "기존 바기오 항목: 클락 공항–바기오 버스 3~4시간"
+        },
+        {
+          "url": "https://www.philippinebeaches.org/clark-airport-p2p-bus-guide-routes-schedules/",
+          "grade": "C",
+          "date": "2026",
+          "says": "2026 클락 공항 P2P 버스 안내: 클락–바기오 약 3~4시간(Genesis Transport, 일반 ₱507~)"
+        },
+        {
+          "url": "https://www.sunlightair.ph/news-releases/p2p-bus-clark-airport",
+          "grade": "B",
+          "date": "2026",
+          "says": "클락–바기오 버스 4~5시간, 요금 ₱500~600(JoyBus)"
         }
       ],
-      "decision": "독립 출처 확인 못 함 — '알려져 있다'로 완화"
+      "decision": "두 출처가 3~4시간과 4~5시간으로 갈려 3~5시간 범위로 넓히고 '알려져 있다'로 표현"
     },
     {
       "where": "cautions",

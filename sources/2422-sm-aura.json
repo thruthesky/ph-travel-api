@@ -1,7 +1,7 @@
 {
  "id": 2422,
  "slug": "sm-aura",
- "checked_at": "2026-11-18T08:53:41Z",
+ "checked_at": "2026-11-19T04:55:09Z",
  "facts": [
   {
    "where": "summary",
@@ -186,9 +186,40 @@
   {
    "where": "costs",
    "fact": "택시·영화·공연·주차 요금",
-   "value": "현지에서 확인",
-   "sources": [],
-   "decision": "확인하지 못해 뺌"
+   "value": "택시·그랩 기본 약 ₱65, 영화 일반 ₱400·DC ₱590·IMAX ₱850, 주차 평일 4시간 ₱60 +₱20/시간·주말 ₱60, 공연은 공연마다",
+   "sources": [
+    {
+     "url": "https://www.taguigeno.com/2024/02/new-sm-aura-parking-rate.html",
+     "grade": "B",
+     "date": "2024-02",
+     "says": "2024-01-29 개정: 평일 4시간 ₱60 + 시간당 ₱20, 주말·공휴일 ₱60, 야간 3:30 이후 ₱300, 주차권 분실 ₱200"
+    },
+    {
+     "url": "https://fomo.ph/cinema/sm-aura-premier",
+     "grade": "C",
+     "date": "2026-11",
+     "says": "SM 아우라 상영 목록: 일반 2D ₱400, 디렉터스 클럽 ₱590, IMAX ₱850"
+    },
+    {
+     "url": "https://skedcheck.com/sm-aura-premier-cinema-schedule/",
+     "grade": "C",
+     "date": "2026",
+     "says": "IMAX 2D ₱850, 디렉터스 클럽 ₱590, 일반 ₱400"
+    },
+    {
+     "url": "https://www.topgear.com.ph/news/motoring-news/ltfrb-approves-fare-adjustments-puvs-a2578-20260317",
+     "grade": "B",
+     "date": "2026-03",
+     "says": "2026-03-19 시행 TNVS 기본요금 세단 ₱65·AUV ₱75·해치백 ₱55, 픽업 ₱15/km"
+    },
+    {
+     "url": "https://parkinganph.com/guides/fare-matrix",
+     "grade": "C",
+     "date": "2026",
+     "says": "일반 택시 기본 ₱65·km당 ₱13.5·분당 ₱2, TNVS 세단 ₱65·km당 ₱15"
+    }
+   ],
+   "decision": "주차는 단일 출처(2024)라 연도를 밝히고 현지 확인 안내, 영화는 상영 목록 2곳 일치, 택시는 TNVS 2곳 일치·일반 택시는 단일 출처라 '비슷한 수준 보도'로 표기, 삼성홀 공연은 가격 일률 없어 '공연마다 다름'"
   }
  ],
  "images": []

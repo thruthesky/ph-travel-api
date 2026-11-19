@@ -1,7 +1,7 @@
 {
   "id": 2413,
   "slug": "glorietta",
-  "checked_at": "2026-11-18T08:49:33Z",
+  "checked_at": "2026-11-19T04:55:22Z",
   "facts": [
     {
       "where": "좌표",
@@ -166,9 +166,34 @@
     {
       "where": "costs",
       "fact": "식사·음료 가격",
-      "value": "푸드코트 ₱250~500, 옥상 ₱500~1,500, 카페 ₱150~300",
-      "sources": [],
-      "decision": "출처 미확인 대략치, 본문에 '약'과 현지 확인 표기. 사람이 확인 권장"
+      "value": "푸드코트 ₱200~500, 옥상 ₱200~1,500(라멘 ₱180~220부터 한식 ₱500+), 카페 ₱150~300(추정)",
+      "sources": [
+        {
+          "url": "https://www.clickthecity.com/food-drink/b/sL155e7/food-court-glorietta?hash=sL155e7&slug=food-court-glorietta",
+          "grade": "C",
+          "date": "2023",
+          "says": "검색 결과 요약에 푸드코트 ₱200~499 구간 표기(오래된 목록, 본문은 열리지 않아 약하게만 반영)"
+        },
+        {
+          "url": "https://www.meloy.co/2023/09/korean-bbq-saemaeul-sikdang-philippines-glorietta-makati.html",
+          "grade": "C",
+          "date": "2023",
+          "says": "K-Park(L4 Top of the Glo) 사에마울 식당에서 2명 식사가 ₱1,000 미만"
+        },
+        {
+          "url": "https://eatigo.com/en/branches/3384052293632",
+          "grade": "C",
+          "date": "2026",
+          "says": "G4 3층 한식당 에이타원 정가 ₱329~449(50% 할인 시 ₱164.50~224.50)"
+        },
+        {
+          "url": "https://restaurantguru.com/amp/Fat-Fook-Makati",
+          "grade": "C",
+          "date": "2026",
+          "says": "글로리에타 중식당 1인 평균 ₱500~1,000(영구 폐업 표기)"
+        }
+      ],
+      "decision": "공식 요금표가 없고 출처가 모두 C 등급이라 범위로 넓히고 '약'·현지 확인을 붙였다. 카페는 근거를 못 찾아 '추정'으로 낮춤"
     }
   ],
   "images": []
