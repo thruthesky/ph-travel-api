@@ -1,7 +1,7 @@
 {
   "id": 2159,
   "slug": "palo-cathedral",
-  "checked_at": "2026-11-18T00:00:00Z",
+  "checked_at": "2026-11-19T04:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -136,9 +136,29 @@
       "decision": "확인되지 않아 별도 안내 없음으로 씀"
     },
     {
+      "where": "highlights",
+      "fact": "미사 시간표·개방 시간",
+      "value": "월~토 06·12(영어)·17시, 일 07~17시 여러 차례(제3자 게시), 개방 시간은 미확인",
+      "sources": [
+        {
+          "url": "https://www.theoldchurches.com/?p=1337",
+          "grade": "C",
+          "date": "2026",
+          "says": "2026-11-16~22 주 시간표, 교구에 확인 요청 문구, 본당 (053) 832-1966"
+        },
+        {
+          "url": "https://www.mass-schedules.com/catholic-church/1174/cathedral-parish-of-our-lord-transfiguration-palo-cathedral.html",
+          "grade": "C",
+          "date": "2026",
+          "says": "소성당 12~13시 영어 미사 게시(날짜 없음)"
+        }
+      ],
+      "decision": "공식 시간표를 못 찾아 범위·제3자 게시 표기와 현지 확인으로 둠, 2025~2026 폐쇄·공사 소식은 찾지 못함"
+    },
+    {
       "where": "costs",
       "fact": "교통·항공 요금",
-      "value": "지프니 ₱15~30, 항공 ₱2,500~6,000",
+      "value": "지프니 ₱15~30, 공항 택시 ₱250~600, 항공 ₱2,000~6,000, 비행 1시간 20~30분",
       "sources": [
         {
           "url": "https://www.rappler.com/philippines/80685-fast-facts-palo-cathedral-leyte/",
@@ -151,9 +171,27 @@
           "grade": "B",
           "date": "2025",
           "says": "타클로반 주 28회 운항"
+        },
+        {
+          "url": "https://unchartedlens.com/routes/philippines/tacloban-airport-to-leyte-landing-memorial-guide/",
+          "grade": "C",
+          "date": "2025",
+          "says": "공항~기념공원 지프니 ₱25(25~40분), 공항 택시 ₱150~250, Grab ₱130~220, 두 곳은 인접"
+        },
+        {
+          "url": "https://flights.philippineairlines.com/vn/chuyenbay-tu-manila-den-tacloban",
+          "grade": "B",
+          "date": "2026",
+          "says": "마닐라~타클로반 최저 PHP 2,128~2,499부터, 변동"
+        },
+        {
+          "url": "https://www.cheapflights.com.ph/flights-to-Tacloban",
+          "grade": "C",
+          "date": "2026",
+          "says": "마닐라~타클로반 편도 ₱2,195 이하가 좋은 요금, 비행 약 1시간 24~30분(Skyscanner 1h27, lastminute 1h24)"
         }
       ],
-      "decision": "기존 등록 항목(레이테 상륙 기념공원)의 값과 맞추고 현지 확인 표기"
+      "decision": "항공 하한을 2,000으로 낮추고 상한은 근거 부족이라 범위로 유지, 비행 1시간 20~30분, 공항 택시 하한 ₱250 으로 넓힘, 지프니는 ₱25 와 일치해 유지, 모두 현지 확인"
     }
   ],
   "images": [

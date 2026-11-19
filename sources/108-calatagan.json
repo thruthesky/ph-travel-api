@@ -1,7 +1,7 @@
 {
   "id": 108,
   "slug": "calatagan",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "costs",
@@ -22,6 +22,92 @@
         }
       ],
       "decision": "지역 전체 공통 요금처럼 제시하지 않고 실제 리조트 단가를 명시한다."
+    },
+    {
+      "where": "costs",
+      "fact": "등대 입장료",
+      "value": "1인 약 ₱50 (2023~2026 블로그 기준, 공식 요금표 없음).",
+      "sources": [
+        {
+          "url": "https://www.thepoortraveler.net/2018/04/manuel-uy-beach-resort-calatagan-batangas/",
+          "grade": "C",
+          "date": "2026-04",
+          "says": "등대 입장료 ₱50, 돌아오는 길에 들르면 트라이시클 요금 약 ₱50 추가"
+        },
+        {
+          "url": "https://www.thepoortraveler.net/calatagan-batangas-travel-guide/",
+          "grade": "C",
+          "date": "2026-06",
+          "says": "일정표에 등대 입장료 ₱50 표기, 공식 요금은 아니라고 단서"
+        }
+      ],
+      "decision": "₱50~70 범위의 70 은 근거가 없어 약 ₱50 으로 낮추고 현지 확인을 붙인다."
+    },
+    {
+      "where": "costs",
+      "fact": "환경세와 캠핑장 요금",
+      "value": "환경세 1인 ₱30(65세 이상·장애인·6세 이하 ₱24), 3일 유효. 마누엘 우이 당일 ₱250·1박 ₱350, 텐트 대여 ₱500.",
+      "sources": [
+        {
+          "url": "https://www.thepoortraveler.net/2018/04/manuel-uy-beach-resort-calatagan-batangas/",
+          "grade": "C",
+          "date": "2026-04",
+          "says": "환경세 ₱30(3일에 한 번), 마누엘 우이 당일 ₱250·1박 ₱350, 텐트 대여 ₱500"
+        },
+        {
+          "url": "https://www.thepoortraveler.net/calatagan-batangas-travel-guide/",
+          "grade": "C",
+          "date": "2026-06",
+          "says": "환경세 ₱30, 영수증 3일 유효, 리조트·캠핑장에서 수납"
+        },
+        {
+          "url": "https://visitcalatagan.com/calatagan-beach/",
+          "grade": "B",
+          "date": "2026-10",
+          "says": "스틸츠 생태 관광세 ₱30 별도"
+        }
+      ],
+      "decision": "세 곳이 일치해 기존 값 유지."
+    },
+    {
+      "where": "getting_there",
+      "fact": "DLTB 버스 요금·시간",
+      "value": "부엔디아·PITX 출발 약 ₱280~300, 3~4시간.",
+      "sources": [
+        {
+          "url": "https://www.thepoortraveler.net/2018/04/manuel-uy-beach-resort-calatagan-batangas/",
+          "grade": "C",
+          "date": "2026-04",
+          "says": "DLTB 부엔디아·PITX 출발 ₱280~300, 3~4시간"
+        },
+        {
+          "url": "https://www.thepoortraveler.net/calatagan-batangas-travel-guide/",
+          "grade": "C",
+          "date": "2026-06",
+          "says": "요금 약 ₱300, 약 3시간"
+        }
+      ],
+      "decision": "기존 표기 유지(9월 인상 가능성은 본문에 이미 안내)."
+    },
+    {
+      "where": "cautions",
+      "fact": "등대 탑 계단 오르기 금지(2023년 무렵)",
+      "value": "금지 단정 근거 없음. 막혀 있거나 관리인 재량, 공식 공지 미확인으로 낮춤.",
+      "sources": [
+        {
+          "url": "https://www.batangashistory.date/2025/08/cape-santiago-lighthouse-batangas.html",
+          "grade": "C",
+          "date": "2025-08",
+          "says": "2021년 해안경비대 복원 착수, 2024-12 항행통보에 소등 기록, 공식 폐쇄 보도 없음, 입장·등반 정보 없음"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cape_Santiago_Lighthouse,_Philippines",
+          "grade": "B",
+          "date": "2026",
+          "says": "높이 15.5m, 1890-12-15 점등, 태양광 렌즈로 가동, 등반 제한 언급 없음"
+        }
+      ],
+      "decision": "2023년 금지 문구는 두 출처 모두 뒷받침하지 않아 '막혀 있거나 관리인 재량, 현지 확인'으로 낮춘다. 2024-12 소등 기록은 단일 출처라 본문 '현역'은 유지."
     }
   ],
   "images": []

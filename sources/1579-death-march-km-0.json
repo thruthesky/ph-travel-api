@@ -1,7 +1,7 @@
 {
  "id": 1579,
  "slug": "death-march-km-0",
- "checked_at": "2026-11-18T05:00:00Z",
+ "checked_at": "2026-11-19T06:00:00Z",
  "facts": [
   {
    "where": "coords",
@@ -66,8 +66,20 @@
   {
    "where": "getting_there",
    "fact": "버스·막차",
-   "value": "마닐라~마리벨레스 ₱340~380, 3~4h, 막차 19:00",
+   "value": "마닐라~마리벨레스 ₱300~380, 3~4h, 막차 19:00~19:30(운행사별 상이)",
    "sources": [
+    {
+     "url": "https://bustickets.ph/?p=1993",
+     "grade": "C",
+     "date": "2026",
+     "says": "Genesis Pasay-Mariveles fare PHP 315, first trip 1:00 AM, last 7:30 PM every 20 min (Avenida last 7:30 PM hourly); ~3h20m Manila-Bataan; page undated"
+    },
+    {
+     "url": "https://bustickets.ph/bataan-transit-manila-to-bataan-bus/",
+     "grade": "C",
+     "date": "2026",
+     "says": "Bataan Transit fare to Mariveles PHP 300; night trips only (10PM, 12MN, 2AM)"
+    },
     {
      "url": "https://lakbaypinas.com/tarak-ridge-x-papaya-river-2024/",
      "grade": "B",
@@ -81,7 +93,21 @@
      "says": "buses 3 to 4 hours, 24/7 open"
     }
    ],
-   "decision": "변동 문구"
+   "decision": "출처마다 ₱300·315·340~380, 막차 19:00·19:30 로 달라 공식 요금표 없음 → 범위(₱300~380)와 현지 확인 문구로 낮춤"
+  },
+  {
+   "where": "tips",
+   "fact": "바탄 관광 사무소 문의 시간",
+   "value": "발랑가 주 청사(The Bunker) 월~금 08:00~17:00",
+   "sources": [
+    {
+     "url": "https://bataan.gov.ph/behold-bataan/zero-km-death-march-marker/",
+     "grade": "A",
+     "date": "2021-09",
+     "says": "Provincial office The Bunker, Capitol Compound Balanga, Mon-Fri 8am-5pm, (047) 237 3488; no marker hours or fees listed, no closure notice"
+    }
+   ],
+   "decision": "공식 페이지 확인(2021 게시). 기념비 24시간 개방·무료는 공식 근거가 없어 '안내' 표기 유지"
   }
  ],
  "images": []

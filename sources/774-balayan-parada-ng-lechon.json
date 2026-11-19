@@ -1,7 +1,7 @@
 {
   "id": 774,
   "slug": "balayan-parada-ng-lechon",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "costs",
@@ -116,8 +116,20 @@
     {
       "where": "getting_there",
       "fact": "버스 노선과 요금",
-      "value": "약 2.5시간 ₱180~200",
+      "value": "육로 약 2.5~4시간. 2026년 BSC 안내 기준 파사이↔발라얀 ₱237(편도 사례), 운행 약 04:00~20:00",
       "sources": [
+        {
+          "url": "https://ph.commutetour.com/travel/transport/Bus/san-agustin/",
+          "grade": "B",
+          "date": "2026-01-19",
+          "says": "BSC 파사이→발라얀 ₱237(02:30~20:00, via Aguinaldo), 발라얀→파사이 ₱237(04:00~20:00). 요금·시간표는 예고 없이 바뀔 수 있음"
+        },
+        {
+          "url": "https://www.rome2rio.com/s/Pasay/Balayan",
+          "grade": "C",
+          "date": "2026",
+          "says": "파사이→발라얀 버스 환승 포함 약 3시간 23분, 집계 추정 요금은 ₱600~900대로 실제 직행 요금과 크게 다름(근거로 쓰지 않음)"
+        },
         {
           "url": "https://www.pinoyadventurista.com/2013/06/parada-ng-lechon-balayan-batangas.html",
           "grade": "C",
@@ -131,7 +143,7 @@
           "says": "버스 회사, N436·N409"
         }
       ],
-      "decision": "요금은 2013년 기준임을 명시"
+      "decision": "2013년 요금(₱180~200)은 폐기. 2026년 BSC 단일 출처 사례로만 표기하고 소요 시간은 범위로 낮춤. 퍼레이드 시작 시각은 2013년 방문기뿐이라 본문에서 '해마다 달라질 수 있음'으로 유지(공식 시각 미확인)"
     },
     {
       "where": "highlights",

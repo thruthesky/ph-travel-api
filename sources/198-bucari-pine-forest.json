@@ -1,7 +1,7 @@
 {
   "id": 198,
   "slug": "bucari-pine-forest",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "costs",
@@ -22,6 +22,66 @@
         }
       ],
       "decision": "캠프장 검증 금액과 입장 장소를 명시하고 전망대 등 별도 시설에 적용하지 않았다."
+    },
+    {
+      "where": "costs",
+      "fact": "환경세와 오두막·게스트하우스 요금",
+      "value": "환경세 비거주자 약 ₱50·거주자 약 ₱30(2022), 당일 입장료 ₱80·₱60 에 포함된 것으로 보임. 오두막 1~3호 낮 ₱800·1박 ₱1,600, 게스트하우스 낮 ₱1,500·1박 ₱3,500.",
+      "sources": [
+        {
+          "url": "https://leon.gov.ph/wp-content/uploads/2024/10/LGU-LEON-CITCHA-2024Final.pdf",
+          "grade": "A",
+          "date": "2024",
+          "says": "당일 입장 비거주자 ₱80·거주자 ₱60, 오두막 1~3호 낮 ₱800·1박 ₱1,600, 게스트하우스 낮 ₱1,500·1박 ₱3,500, 숙소는 관광사무소에 이름·인원·날짜를 알려 예약."
+        },
+        {
+          "url": "https://ahroundph.com/blog/2022/12/04/bucari-pine-forest/",
+          "grade": "C",
+          "date": "2022-12",
+          "says": "환경세 레온 주민 ₱30·비주민 ₱50, 캠프장·만시가 전망대 입장 ₱30, 이모이·카타우 폭포 ₱30(합치면 ₱60·₱80 과 일치), 오두막 요금표."
+        }
+      ],
+      "decision": "공식 합계 ₱80·₱60 과 블로그 환경세 ₱50+₱30 이 맞아떨어져 환경세를 입장료에 포함된 것으로 쓰고 이중 합산을 막았다. 환경세 단독 금액은 2022년 값이라 연도를 밝혔다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "하발하발·지프니 요금과 막차, 도로 포장 상황",
+      "value": "하발하발 약 ₱100~400(2022년 1인 ₱100~150 보고, 대절은 흥정), 지프니 막차 오후 2~3시 무렵, 포장은 구간별로 진행(현황 현지 확인).",
+      "sources": [
+        {
+          "url": "https://ahroundph.com/blog/2022/12/04/bucari-pine-forest/",
+          "grade": "C",
+          "date": "2022-12",
+          "says": "레온에서 부카리까지 45분~1시간 산길, 지프니·트럭은 불규칙하며 주말·공휴일에 많다. 하발하발 1인 ₱100~150 보고."
+        },
+        {
+          "url": "https://www.dpwh.gov.ph/DPWH/news/12989",
+          "grade": "A",
+          "date": "미상",
+          "says": "검색 요약 기준: 레온 부카리~카만닥 구간 2.88km 콘크리트 포장 추진(본문은 열지 못함, 완공 시점 미확인)."
+        }
+      ],
+      "decision": "2025~2026년 요금·시간표를 공식·최근 출처 2곳으로 확인하지 못해 폭을 넓히고 현지 확인을 붙였다. 포장 공사는 '진행 중' 대신 '구간별로 이어지고 있음'으로 낮췄다."
+    },
+    {
+      "where": "tips",
+      "fact": "DICT 무료 와이파이와 조림 사업",
+      "value": "2026년 부카리에 DICT 무료 와이파이 보도(구역·상태 현지 확인). 225헥타르·34만여 그루 조림 2025~2030.",
+      "sources": [
+        {
+          "url": "https://powerphilippines.com/mgen-launches-225-hectare-bucari-reforestation-project-in-leon-iloilo/",
+          "grade": "B",
+          "date": "2025-12-17",
+          "says": "DENR 6지역·레온군·MGEN 이 2025~2030년 225헥타르 이상에 묘목 34만여 그루를 심는다."
+        },
+        {
+          "url": "https://www.panaynews.net/free-wi-fi-in-iloilos-little-baguio-bucari-digital-connectivity-seen-opening-more-opportunities-for-visitors-local-businesses/",
+          "grade": "B",
+          "date": "2026",
+          "says": "검색 요약 기준: DICT 6지역이 부카리에 무료 공공 와이파이를 설치하고 레온군이 환영(본문은 열지 못해 정확한 시작일 미확인)."
+        }
+      ],
+      "decision": "'2026년 8월부터'의 월 표기를 근거 부족으로 '2026년'으로 낮추고 현지 확인 문구를 붙였다. 조림 사업은 근거와 일치해 유지했다."
     }
   ],
   "images": []

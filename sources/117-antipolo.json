@@ -1,7 +1,7 @@
 {
   "id": 117,
   "slug": "antipolo",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "costs/tips",
@@ -28,6 +28,72 @@
         }
       ],
       "decision": "성인·학생의 인상 요금과 문의 링크를 반영했다."
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "LRT-2 레크토–안티폴로 50% 요금 할인(2026-03-23~)",
+      "value": "2026년 3월 23일부터 전 승객 50% 할인, 구간 ₱16.50(스토어드 밸류)~₱18(단일 승차권), 종료일 미공지.",
+      "sources": [
+        {
+          "url": "https://www.gmanetwork.com/news/topstories/metro/980716/lrt-2-fares-now-as-low-as-p6-50-amid-50-discount-lrta/story",
+          "grade": "B",
+          "date": "2026-03",
+          "says": "3월 23일부터 레크토~안티폴로 구간 포함 LRT-2 요금 50% 할인, 스토어드 밸류 ₱6.50~16.50·단일 ₱8~18, 종료일 언급 없음."
+        },
+        {
+          "url": "https://mb.com.ph/2026/03/19/mrt-3-lrt-2-to-implement-50-fare-discount-starting-march-23",
+          "grade": "B",
+          "date": "2026-03",
+          "says": "DOTr가 3월 23일부터 MRT-3·LRT-2 전 승객 50% 할인을 시행."
+        },
+        {
+          "url": "https://www.topgear.com.ph/news/motoring-news/lrt2-mrt3-discount-march-2026-a6888-20260319",
+          "grade": "B",
+          "date": "2026-03",
+          "says": "3월 23일 시작, 종료 시점 미정, 베이 카드·단일 승차권 모두 적용."
+        }
+      ],
+      "decision": "기존 본문 값(₱16.50~18, 임시 조치)이 3개 출처와 일치해 유지했다."
+    },
+    {
+      "where": "costs/tips",
+      "fact": "히눌루강 탁탁 입장료·월요일 휴장·수영 금지",
+      "value": "무료~약 ₱50(수영장 별도), 월요일 휴장으로 안내, 강 수영 금지. 요금·시간은 현지 확인.",
+      "sources": [
+        {
+          "url": "https://suroy.ph/hinulugang-taktak-a-scenic-escape-in-antipolo-rizal/",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "DENR 2017 요금표 ₱30(현지인)·₱15(학생)·₱100(외국인)·수영장 ₱50, 2024년에는 무료 입장 보도, 폭포·강은 오염으로 수영 금지."
+        },
+        {
+          "url": "https://wanderlog.com/place/details/76727/hinulugang-taktak",
+          "grade": "C",
+          "date": "2026",
+          "says": "월요일 휴장, 화~일 07:00~16:00, 입장 무료로 안내(주차비 별도)."
+        },
+        {
+          "url": "https://ptvnews.ph/revisiting-antipolos-famous-hinulugang-taktak",
+          "grade": "B",
+          "date": "2019-03",
+          "says": "현지 관광객 ₱30 입장료(2019년, 오래된 값)."
+        }
+      ],
+      "decision": "공식 최신 요금 출처가 없고 값이 엇갈려 범위로 두고 월요일 휴장은 '안내' 표현과 현지 확인으로 낮췄다."
+    },
+    {
+      "where": "costs/tips",
+      "fact": "핀토 미술관 운영 시간(공식)",
+      "value": "화~일 10:00~18:00",
+      "sources": [
+        {
+          "url": "https://pintoart.org/museum/",
+          "grade": "A",
+          "date": "2026-11",
+          "says": "화~일 10:00~18:00 운영, 요금은 문의(전화·이메일)로 안내."
+        }
+      ],
+      "decision": "운영 시간은 공식 확인, 입장료는 기존 출처 유지."
     }
   ],
   "images": []

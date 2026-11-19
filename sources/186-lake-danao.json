@@ -1,7 +1,7 @@
 {
   "id": 186,
   "slug": "lake-danao",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "tips",
@@ -22,6 +22,64 @@
         }
       ],
       "decision": "중단 해제 날짜의 출처를 넣고 일반 개장 시간과 개별 시설 운영의 혼동을 줄였다."
+    },
+    {
+      "where": "costs",
+      "fact": "세부–오르목 오션젯 쾌속선 요금",
+      "value": "약 ₱1,200~1,900 (2026년 7월 일반석 ₱1,210·비즈니스 ₱1,760, 유류할증료로 변동)",
+      "sources": [
+        {
+          "url": "https://www.oceanjet.net/news-and-updates/oceanjet-advisory-schedule-adjustments-and-temporary-fare-updates-amid-fuel-price-increase",
+          "grade": "A",
+          "date": "2026-03-20",
+          "says": "세부–오르목 2026-03-16 적용 일반·오픈에어 ₱1,320, 비즈니스 ₱1,900."
+        },
+        {
+          "url": "https://pamasahe.com/posts/oceanjet-announces-lower-fares-following-fuel-surcharge-reduction-effective-july-10",
+          "grade": "B",
+          "date": "2026-07",
+          "says": "7월 10일 적용 세부–오르목 일반·오픈에어 ₱1,210, 비즈니스 ₱1,760."
+        },
+        {
+          "url": "https://pamasahe.com/posts/oceanjet-announces-second-fuel-surcharge-reduction-starting-june-20",
+          "grade": "B",
+          "date": "2026-06",
+          "says": "6월 20일 적용 세부–오르목 일반 ₱1,320, 비즈니스 ₱1,920."
+        }
+      ],
+      "decision": "2026년 3~7월 요금 변동이 모두 ₱1,200~1,900 안이어서 범위로 쓰고 유류할증료 변동을 밝혔다."
+    },
+    {
+      "where": "costs",
+      "fact": "입장료·카약·수상 오두막·멀티캡·하발하발 요금",
+      "value": "입장료 ₱50(10세 미만·60세 이상 무료는 한 블로그), 카약 ₱150~250, 오두막 시간당 ₱150~450, 멀티캡 ₱25~50, 하발하발 왕복 약 ₱500",
+      "sources": [
+        {
+          "url": "https://ahroundph.com/blog/2025/04/19/lake-danao-national-park/",
+          "grade": "C",
+          "date": "2025-04",
+          "says": "입장료 ₱50, 카약 ₱250, 수상 오두막 시간당 ₱150·하루 ₱700~1,500, 구명조끼 하루 ₱100."
+        },
+        {
+          "url": "https://philippinetravels.ph/lake-danao-ormoc/",
+          "grade": "C",
+          "date": "2026-04",
+          "says": "입장료 ₱50(10세 미만·60세 이상 무료), 카약 시간당 ₱250, 오두막 첫 시간 ₱450·이후 ₱250, 하발하발 오르목에서 ₱500, 운영 08:00~16:45."
+        },
+        {
+          "url": "https://shellwanders.com/how-to-get-to-lake-danao-ormoc/",
+          "grade": "C",
+          "date": "undated",
+          "says": "입장료 ₱50, 카약 ₱150, 오두막 시간당 ₱150, 멀티캡 ₱25~40, 30~45분."
+        },
+        {
+          "url": "https://opinyon.net/region-8/famed-guitar-shaped-lake-danao-reopens-to-tourists-visitors",
+          "grade": "B",
+          "date": "2021-04",
+          "says": "입장료 1인 ₱50, 수상 오두막 최대 40명."
+        }
+      ],
+      "decision": "공식 요금표를 못 찾았고 출처마다 값이 달라 범위로 유지했으며 2026년 재개장 후 변동 가능성과 현지 확인을 남겼다. 운영 시간은 한 블로그뿐이라 현지 확인으로 낮췄다."
     }
   ],
   "images": []
