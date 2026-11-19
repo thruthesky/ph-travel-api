@@ -1,4 +1,4 @@
-{ "id": 467, "slug": "surigao-city-beach", "checked_at": "2026-11-19T00:00:00Z",
+{ "id": 467, "slug": "surigao-city-beach", "checked_at": "2026-11-19T06:02:17Z",
   "facts": [
     { "where": "overview", "fact": "마부아·이필·루옥 약 3km 돌 해안, 시내에서 트라이시클 약 30분, 돌 반출 금지", "value": "3km, 30분",
       "sources": [
@@ -21,8 +21,13 @@
     { "where": "coordinates", "fact": "좌표", "value": "9.8099, 125.4402",
       "sources": [ { "url": "https://nominatim.openstreetmap.org/ (Mabua, Surigao City)", "grade": "A", "date": "2026", "says": "Mabua barangay 9.8099,125.4402" } ],
       "decision": "마을 중심 좌표, 해변 정확 지점은 아님" },
-    { "where": "stay_and_food", "fact": "바술 섬 ₱50/₱100/₱500, 라스위탄 ₱30, 데이아산 7km", "value": "2022 후기",
-      "sources": [ { "url": "https://www.gamintraveler.com/2022/06/04/best-surigao-beaches/", "grade": "C", "date": "2022-08-04", "says": "Basul entrance 50, docking 100, cottage 500; Laswitan 30; Day-asan ~7 km" } ],
-      "decision": "단일 출처, 2022년 후기로 명시" }
+    { "where": "stay_and_food", "fact": "바술 섬 ₱50/₱100/₱500, 라스위탄 ₱30, 데이아산 7km", "value": "바술 입장 ~₱50·정박 ~₱100(후기 3곳), 코티지 ~₱500(1곳), 데이아산 7~9km, 라스위탄은 코르테스(수리가오 델 수르) ₱30~65",
+      "sources": [
+        { "url": "https://www.gamintraveler.com/2022/06/04/best-surigao-beaches/", "grade": "C", "date": "2022-08-04", "says": "Basul entrance 50, docking 100, cottage 500, ~15 min from Punta Bilang-bilang; Laswitan 30; Day-asan 7 km from city proper" },
+        { "url": "https://travel.philpar.com/2017/03/travel-guide-basul-island-surigao-city.html", "grade": "C", "date": "2017", "says": "Basul entrance 50 pesos/person, docking 100 pesos; 20-30 min motorized banca from Surigao City Port; cottages for rent (price not stated)" },
+        { "url": "http://crazyweirdnormalguy.blogspot.com/2012/07/surigao-citys-basul-island.html", "grade": "C", "date": "2012-07", "says": "50 pesos entrance, 100 docking; 20-30 min boat from city pier" },
+        { "url": "https://businessmirror.com.ph/2021/03/13/explore-surigao-citys-island-mangrove-getaway-of-day-asan/", "grade": "B", "date": "2021-03-13", "says": "Day-asan about 9 km from city center; boat P500 for up to 5; open cottage P500/day (may be outdated)" },
+        { "url": "https://vismin.ph/2024/laswitan-lagoons-surigao-del-sur/", "grade": "C", "date": "2024", "says": "Laswitan Falls and Lagoon in Brgy. Madrelino, Cortes, Surigao del Sur; P65/person; cottages P300-500; 8 AM-5 PM" } ],
+      "decision": "바술 입장·정박은 3곳 일치, 코티지 ₱500은 gamintraveler 1곳(+Tripadvisor 사진 설명 미확인)이라 '약'·후기로 표기. 이동 15~30분·데이아산 7~9km는 범위로. 라스위탄 라군은 코르테스(수리가오 델 수르)로 수리가오 시 주변 서술을 바로잡고 요금 ₱30(2022)~₱65(2024)로 엇갈려 범위, 운영 시간 문구 삭제" }
   ],
   "images": [] }

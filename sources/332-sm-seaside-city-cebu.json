@@ -1,7 +1,7 @@
 {
   "id": 332,
   "slug": "sm-seaside-city-cebu",
-  "checked_at": "2026-11-17T08:48:15.062727+00:00",
+  "checked_at": "2026-11-19T06:00:55Z",
   "primary_philgo_post_ids": [
     1275712982,
     1275713514
@@ -167,8 +167,33 @@
       "where": "costs, budget",
       "fact": "1인 반나절 개인 배분",
       "value": "PHP800~1900",
-      "sources": [],
-      "decision": "확인된 판매가격이 아닌 개인 일정 예산이다. 식사300~600+음료100~250+시내왕복300~700+예비100~350=800~1900. 쇼핑·유료 체험·공항 이동은 별도다. 스니펫의 요금은 사용하지 않았다."
+      "sources": [
+        {
+          "url": "https://travelguidestip.com/cebu-travel-budget/",
+          "grade": "C",
+          "date": "2026",
+          "says": "2026-11-18 갱신: 세부 식사 turo-turo 60~100, 식당 메인 150~300, 파스타·양식 200~400, Grab 시내 50~150, 지프니 10~13 페소."
+        },
+        {
+          "url": "https://lifeindexed.com/cost/asia/philippines/cebu/2026/",
+          "grade": "C",
+          "date": "2026",
+          "says": "세부 식당 1인 식사 평균 약 PHP 235(2026)."
+        },
+        {
+          "url": "https://www.sunstar.com.ph/cebu/fare-hike-takes-effect-before-wage-increase",
+          "grade": "B",
+          "date": "2026",
+          "says": "2026-09-28 시행 잠정 요금: 일반 택시 기본요금 P65, 프리미엄 P80~95, 지프니·버스 요금 소폭 인상(최종 아님)."
+        },
+        {
+          "url": "https://3d-universal.com/en/cebu-transportation-guide",
+          "grade": "C",
+          "date": "2025",
+          "says": "시내 택시 1회 P120~300, 공항~SM Seaside Grab/택시 P280~400, MyBus 노선 P25~40(2025 추정치, 다운타운~SRP 구간 요금은 없음)."
+        }
+      ],
+      "decision": "2라운드: 식사·교통 구성 항목이 위 4곳(2026 위주)의 일반 요금대와 맞는다(식사 한 끼 약 235, 식당 메인 150~400, 택시 1회 120~300 → 왕복 300~700 배분). 단 SM Seaside 구간 요금과 예비비는 출처가 없는 개인 배분이므로 본문 합계에 '약'을 붙여 계획 범위로만 표기했다. 확인된 판매가격이 아닌 개인 일정 예산이다. 식사300~600+음료100~250+시내왕복300~700+예비100~350=800~1900. 쇼핑·유료 체험·공항 이동은 별도다. 스니펫의 요금은 사용하지 않았다."
     },
     {
       "where": "stay_and_food, cautions",

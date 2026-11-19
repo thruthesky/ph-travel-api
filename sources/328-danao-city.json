@@ -1,7 +1,7 @@
 {
   "id": 328,
   "slug": "danao-city",
-  "checked_at": "2026-11-17T05:43:43Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "overview, duplicate",
@@ -195,8 +195,27 @@
       "where": "costs, itinerary, budget",
       "fact": "개인 지출·일정 계획",
       "value": "1000~2000PHP하루예시",
-      "sources": [],
-      "decision": "식300~600+음료100~200+현지200~400+왕복배분200~400+예비200~400=1000~2000검산. 업체요금아닌배분액임을한영명시. 숙박·항공·공항·유료체험별도"
+      "sources": [
+        {
+          "url": "https://www.numbeo.com/cost-of-living/in/Cebu",
+          "grade": "B",
+          "date": "2026",
+          "says": "세부 일반식당 1끼 ₱259.50, 물 0.33L ₱30.83, 현지 교통 편도 ₱15(2026-11-18 갱신)"
+        },
+        {
+          "url": "https://cebu247.com/cebu-city-to-danao-cebu/",
+          "grade": "C",
+          "date": "2026",
+          "says": "북터미널→다나오 버스 ₱50~60 약 1.5시간, 밴 ₱80~120, 문헌 날짜 불명"
+        },
+        {
+          "url": "https://suroy.ph/cebu-north-south-bus-terminal-guide-2026/",
+          "grade": "B",
+          "date": "2026",
+          "says": "다나오 확정 운임 미게시, 2026-03 인상 후 중단 등 변동 → 창구 확인 권고"
+        }
+      ],
+      "decision": "2026 자료 보강: 식사 ₱260/끼(Numbeo)·버스 편도 약 ₱40~120이므로 배분액 범위에 들어맞음, 운임은 본문에 창구 확인 명시. 식300~600+음료100~200+현지200~400+왕복배분200~400+예비200~400=1000~2000검산. 업체요금아닌배분액임을한영명시. 숙박·항공·공항·유료체험별도"
     },
     {
       "where": "gallery, overview, tips",
