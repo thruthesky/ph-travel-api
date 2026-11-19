@@ -1,166 +1,218 @@
 {
- "id": 2461,
- "slug": "sky-ranch-pampanga",
- "checked_at": "2026-11-19T05:47:44Z",
- "facts": [
-  {
-   "where": "좌표",
-   "fact": "위치",
-   "value": "15.0541,120.6971",
-   "sources": [
+  "id": 2461,
+  "slug": "sky-ranch-pampanga",
+  "checked_at": "2026-11-19T05:47:44Z",
+  "facts": [
     {
-     "url": "https://en.wikipedia.org/wiki/Sky_Ranch",
-     "grade": "A",
-     "date": "2026-11",
-     "says": "15.0540,120.6971 (15°03′14″N 120°41′49″E)"
+      "where": "좌표",
+      "fact": "위치",
+      "value": "15.0541,120.6971",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sky_Ranch",
+          "grade": "A",
+          "date": "2026-11",
+          "says": "15.0540,120.6971 (15°03′14″N 120°41′49″E)"
+        },
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Sky+Ranch+Pampanga",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "theme_park 15.0541,120.6971, Masamat, San Fernando"
+        }
+      ],
+      "decision": "두 출처가 같은 곳"
     },
     {
-     "url": "https://nominatim.openstreetmap.org/search?q=Sky+Ranch+Pampanga",
-     "grade": "B",
-     "date": "2026-11",
-     "says": "theme_park 15.0541,120.6971, Masamat, San Fernando"
+      "where": "overview",
+      "fact": "개장·위치",
+      "value": "2014-11-30 개장, SM 시티 팜팡가 뒤, 산페르난도",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sky_Ranch",
+          "grade": "A",
+          "date": "2026-11",
+          "says": "opened November 30, 2014"
+        },
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
+          "grade": "B",
+          "date": "2026-07-17",
+          "says": "November 2014, SM Prime·S&T Leisure·Westech, 10,000㎡"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "highlights",
+      "fact": "팜팡가 아이",
+      "value": "65m, 곤돌라 32, 4인, 약 10분",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sky_Ranch",
+          "grade": "A",
+          "date": "2026-11",
+          "says": "about 65 m (213 ft)"
+        },
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
+          "grade": "B",
+          "date": "2026-07-17",
+          "says": "65 m, 50 m dia., 32 AC cabins, 4 each, ~10 min"
+        },
+        {
+          "url": "https://whereinpampanga.com/sky-ranch-pampanga/",
+          "grade": "B",
+          "date": "2022-10-18",
+          "says": "213 ft, 32 gondolas"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "highlights",
+      "fact": "키 제한·규정",
+      "value": "스릴 4ft, 필드러너 3.5ft, 닫힌 신발",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
+          "grade": "B",
+          "date": "2026-07-17",
+          "says": "thrill rides min 4 ft; Field Runner 3.5 ft; closed-toe"
+        },
+        {
+          "url": "https://www.sunstar.com.ph/pampanga/local-news/together-again-at-sky-ranch-pampanga",
+          "grade": "B",
+          "date": "2021",
+          "says": "Drop Tower: children must be 4 feet and above; Super Viking·Field Runner 키 제한 언급 없음; 신발 규정 없음"
+        },
+        {
+          "url": "https://www.manilashopper.com/2015/03/exciting-sky-ranch-rides-at-sm-city.html",
+          "grade": "C",
+          "date": "2015-03",
+          "says": "Drop Tower height requirement 4 feet and above; Super Viking·Field Runner 제한 언급 없음; 신발 규정 없음"
+        }
+      ],
+      "decision": "드롭 타워 4ft 는 2015·2021·2026 세 곳 일치. 슈퍼 바이킹·필드 러너 키 제한과 닫힌 신발은 2026 가이드 1곳뿐이라 '알려져 있다·안내 글에 따르면·기구 앞 표시 확인'으로 낮춤"
+    },
+    {
+      "where": "costs",
+      "fact": "올 라이드 패스·기구 요금",
+      "value": "온라인 ₱279~350, 현장 ₱900+, 기구 ₱50~150, 아이 추가 ₱150",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
+          "grade": "B",
+          "date": "2026-07-17",
+          "says": "digital pass PHP 279-350; gate 900+; rides 50-200; Eye 150"
+        },
+        {
+          "url": "https://whereinpampanga.com/sky-ranch-pampanga/",
+          "grade": "B",
+          "date": "2022-10-18",
+          "says": "rides PHP 50/80/100, Eye 150, RAYC vouchers via Klook/SM Tickets"
+        }
+      ],
+      "decision": "범위로 기재, 최신 공지 확인"
+    },
+    {
+      "where": "운영 시간",
+      "fact": "시간",
+      "value": "평일 12~21시, 금~일·공휴일 10~23시(비공식)",
+      "sources": [
+        {
+          "url": "https://www.smsupermalls.com/mall-directory/sky-ranch-pampanga/information",
+          "grade": "A",
+          "date": "2026",
+          "says": "12:00-21:00 매일"
+        },
+        {
+          "url": "https://whereinpampanga.com/sky-ranch-pampanga/",
+          "grade": "B",
+          "date": "2022-10-18",
+          "says": "daily 12-9 PM"
+        },
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
+          "grade": "B",
+          "date": "2026-07-17",
+          "says": "Fri-Sun 10-23"
+        }
+      ],
+      "decision": "충돌하므로 본문에 확인 안내"
+    },
+    {
+      "where": "getting_there",
+      "fact": "버스·NLEX",
+      "value": "빅토리 라이너·제네시스, ₱102~250, 멕시코 출구",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
+          "grade": "B",
+          "date": "2026-07-17",
+          "says": "Cubao/PITX buses PHP 102-250, Mexico Exit"
+        },
+        {
+          "url": "https://whereinpampanga.com/sky-ranch-pampanga/",
+          "grade": "B",
+          "date": "2022-10-18",
+          "says": "Victory Liner, about an hour via NLEX"
+        }
+      ],
+      "decision": "일치"
     }
-   ],
-   "decision": "두 출처가 같은 곳"
-  },
-  {
-   "where": "overview",
-   "fact": "개장·위치",
-   "value": "2014-11-30 개장, SM 시티 팜팡가 뒤, 산페르난도",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://en.wikipedia.org/wiki/Sky_Ranch",
-     "grade": "A",
-     "date": "2026-11",
-     "says": "opened November 30, 2014"
+      "file": "2461-sky-ranch-pampanga.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Amusement_rides_in_the_Philippines.jpg",
+      "check": "대관람차 전경, 분류 Pampanga Eye, 낮 사진, 워터마크 없음"
     },
     {
-     "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
-     "grade": "B",
-     "date": "2026-07-17",
-     "says": "November 2014, SM Prime·S&T Leisure·Westech, 10,000㎡"
+      "file": "2461-sky-ranch-pampanga-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:09925jfHighway_Parks_SM_Pampanga_Amusement_Landmarksfvf_01.JPG",
+      "check": "분류 SkyRanch Pampanga·Double decker carousels, TICKETS 표지와 롤러코스터 레일이 보임"
+    },
+    {
+      "file": "2461-sky-ranch-pampanga-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Fernando_Pampanga,_Pampanga_Eye.jpg",
+      "check": "분류 SkyRanch Pampanga at night·Pampanga Eye, 야간 조명 대관람차"
+    },
+    {
+      "file": "2461-sky-ranch-pampanga-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sky_Ranch_Pampanga4.jpg",
+      "check": "분류 SkyRanch Pampanga, 스페이스 셔틀 놀이기구 표지가 보임"
+    },
+    {
+      "file": "2461-sky-ranch-pampanga-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:09946jfHighway_Parks_SM_Pampanga_Amusement_Landmarksfvf_08.JPG",
+      "check": "분류 SkyRanch Pampanga, SKYRANCH 로고 표지와 대관람차 지지대가 보임"
+    },
+    {
+      "file": "2461-sky-ranch-pampanga-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:09925jfHighway_Parks_SM_Pampanga_Amusement_Landmarksfvf_03.JPG",
+      "check": "분류 SkyRanch Pampanga, 경품 게임 부스와 회전목마가 보임"
+    },
+    {
+      "file": "2461-sky-ranch-pampanga-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:09961jfHighway_Parks_SM_Pampanga_Amusement_Landmarksfvf_04.JPG",
+      "check": "분류 SkyRanch Pampanga, Sky Cycle 간판과 대관람차 구조물, 페달 카트"
+    },
+    {
+      "file": "2461-sky-ranch-pampanga-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:09974jfHighway_Parks_SM_Pampanga_Amusement_Landmarksfvf_04.JPG",
+      "check": "분류 SkyRanch Pampanga, SKYRANCH 안내판과 매표소, 회전목마가 보임"
+    },
+    {
+      "file": "2461-sky-ranch-pampanga-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:09974jfHighway_Parks_SM_Pampanga_Amusement_Landmarksfvf_12.JPG",
+      "check": "분류 SkyRanch Pampanga, INDIANAPOLIS 간판 아래 놀이용 자동차가 보임"
+    },
+    {
+      "file": "2461-sky-ranch-pampanga-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sky_Ranch_Pampanga2.jpg",
+      "check": "분류 SkyRanch Pampanga, 표지에 SKY RANCH PAMPANGA 글자, 뒤로 TICKETS 와 대관람차 구조물이 보임"
     }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "highlights",
-   "fact": "팜팡가 아이",
-   "value": "65m, 곤돌라 32, 4인, 약 10분",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Sky_Ranch",
-     "grade": "A",
-     "date": "2026-11",
-     "says": "about 65 m (213 ft)"
-    },
-    {
-     "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
-     "grade": "B",
-     "date": "2026-07-17",
-     "says": "65 m, 50 m dia., 32 AC cabins, 4 each, ~10 min"
-    },
-    {
-     "url": "https://whereinpampanga.com/sky-ranch-pampanga/",
-     "grade": "B",
-     "date": "2022-10-18",
-     "says": "213 ft, 32 gondolas"
-    }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "highlights",
-   "fact": "키 제한·규정",
-   "value": "스릴 4ft, 필드러너 3.5ft, 닫힌 신발",
-   "sources": [
-    {
-     "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
-     "grade": "B",
-     "date": "2026-07-17",
-     "says": "thrill rides min 4 ft; Field Runner 3.5 ft; closed-toe"
-    },
-    {
-     "url": "https://www.sunstar.com.ph/pampanga/local-news/together-again-at-sky-ranch-pampanga",
-     "grade": "B",
-     "date": "2021",
-     "says": "Drop Tower: children must be 4 feet and above; Super Viking·Field Runner 키 제한 언급 없음; 신발 규정 없음"
-    },
-    {
-     "url": "https://www.manilashopper.com/2015/03/exciting-sky-ranch-rides-at-sm-city.html",
-     "grade": "C",
-     "date": "2015-03",
-     "says": "Drop Tower height requirement 4 feet and above; Super Viking·Field Runner 제한 언급 없음; 신발 규정 없음"
-    }
-   ],
-   "decision": "드롭 타워 4ft 는 2015·2021·2026 세 곳 일치. 슈퍼 바이킹·필드 러너 키 제한과 닫힌 신발은 2026 가이드 1곳뿐이라 '알려져 있다·안내 글에 따르면·기구 앞 표시 확인'으로 낮춤"
-  },
-  {
-   "where": "costs",
-   "fact": "올 라이드 패스·기구 요금",
-   "value": "온라인 ₱279~350, 현장 ₱900+, 기구 ₱50~150, 아이 추가 ₱150",
-   "sources": [
-    {
-     "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
-     "grade": "B",
-     "date": "2026-07-17",
-     "says": "digital pass PHP 279-350; gate 900+; rides 50-200; Eye 150"
-    },
-    {
-     "url": "https://whereinpampanga.com/sky-ranch-pampanga/",
-     "grade": "B",
-     "date": "2022-10-18",
-     "says": "rides PHP 50/80/100, Eye 150, RAYC vouchers via Klook/SM Tickets"
-    }
-   ],
-   "decision": "범위로 기재, 최신 공지 확인"
-  },
-  {
-   "where": "운영 시간",
-   "fact": "시간",
-   "value": "평일 12~21시, 금~일·공휴일 10~23시(비공식)",
-   "sources": [
-    {
-     "url": "https://www.smsupermalls.com/mall-directory/sky-ranch-pampanga/information",
-     "grade": "A",
-     "date": "2026",
-     "says": "12:00-21:00 매일"
-    },
-    {
-     "url": "https://whereinpampanga.com/sky-ranch-pampanga/",
-     "grade": "B",
-     "date": "2022-10-18",
-     "says": "daily 12-9 PM"
-    },
-    {
-     "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
-     "grade": "B",
-     "date": "2026-07-17",
-     "says": "Fri-Sun 10-23"
-    }
-   ],
-   "decision": "충돌하므로 본문에 확인 안내"
-  },
-  {
-   "where": "getting_there",
-   "fact": "버스·NLEX",
-   "value": "빅토리 라이너·제네시스, ₱102~250, 멕시코 출구",
-   "sources": [
-    {
-     "url": "https://lakbaypinas.com/ultimate-guide-to-sky-ranch-pampanga-rides-fees/",
-     "grade": "B",
-     "date": "2026-07-17",
-     "says": "Cubao/PITX buses PHP 102-250, Mexico Exit"
-    },
-    {
-     "url": "https://whereinpampanga.com/sky-ranch-pampanga/",
-     "grade": "B",
-     "date": "2022-10-18",
-     "says": "Victory Liner, about an hour via NLEX"
-    }
-   ],
-   "decision": "일치"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T14:39:26Z"
 }

@@ -1,172 +1,224 @@
 {
- "id": 1583,
- "slug": "pawikan-conservation-center",
- "checked_at": "2026-11-19T00:00:00Z",
- "facts": [
-  {
-   "where": "coords",
-   "fact": "좌표",
-   "value": "14.6526,120.2952",
-   "sources": [
+  "id": 1583,
+  "slug": "pawikan-conservation-center",
+  "checked_at": "2026-11-19T00:00:00Z",
+  "facts": [
     {
-     "url": "https://nominatim.openstreetmap.org/search?q=Pawikan+Conservation+Center+Morong",
-     "grade": "B",
-     "date": "2026",
-     "says": "14.6526,120.2952 Governor J. J. Linao National Road, Nagbalayong"
+      "where": "coords",
+      "fact": "좌표",
+      "value": "14.6526,120.2952",
+      "sources": [
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Pawikan+Conservation+Center+Morong",
+          "grade": "B",
+          "date": "2026",
+          "says": "14.6526,120.2952 Governor J. J. Linao National Road, Nagbalayong"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Morong,_Bataan",
+          "grade": "B",
+          "date": "2026",
+          "says": "Morong 14.68N 120.27E, Nagbalayong 소속 바랑가이"
+        }
+      ],
+      "decision": "지도 한 곳은 시설 노드, 다른 한 곳은 읍 좌표라 대략 일치만 확인"
     },
     {
-     "url": "https://en.wikipedia.org/wiki/Morong,_Bataan",
-     "grade": "B",
-     "date": "2026",
-     "says": "Morong 14.68N 120.27E, Nagbalayong 소속 바랑가이"
+      "where": "costs",
+      "fact": "입장료·방생비·숙소",
+      "value": "입장 ₱20, 방생 ₱50, 숙소 ₱2,500~5,000(최대 15명)",
+      "sources": [
+        {
+          "url": "https://www.puertoparrot.com/articles/help-save-the-sea-turtles-at-bataan-s-pawikan-conservation-center",
+          "grade": "B",
+          "date": "미상",
+          "says": "Entrance Php20, release Php50, rooms 2,500-5,000, hours 8-5, since 1999, Bantay Pawikan Inc."
+        },
+        {
+          "url": "https://bataan.gov.ph/behold-bataan/pawikan-conservation-center/",
+          "grade": "A",
+          "date": "2026",
+          "says": "요금·운영 시간 미기재(8-5 표기는 별개 사무소 The Bunker), 산란기 9~1월, 11월 축제"
+        },
+        {
+          "url": "https://travelbyishi.blogspot.com/2018/12/releasing-baby-turtles-in-morong-bataan.html",
+          "grade": "C",
+          "date": "2018-12",
+          "says": "PHP 20 per person entrance, PHP 50 per hatchling release, hatching late Nov to Feb"
+        },
+        {
+          "url": "https://myyellowbells.blogspot.com/2020/03/bataan-turtle-releasing-program-at.html",
+          "grade": "C",
+          "date": "2020-03",
+          "says": "Each hatchling 50 pesos, season Nov-Feb, call Mang Manolo first, festival end of November"
+        },
+        {
+          "url": "https://airial.travel/attractions/philippines/morong/pawikan-conservation-center-i3AcyPFj",
+          "grade": "C",
+          "date": "2025-11",
+          "says": "요금 미명시(소액 또는 기부), 지도 정보 6:00~22:00(운영 시간 불확실), 2025-11 후기에 새끼 없다며 돌려보내짐"
+        }
+      ],
+      "decision": "요금은 2018~2020년 후기 3곳(공식 공지 없음)이 일치해 약 ₱20·₱50으로 두되 연도를 밝히고 현지 확인 문구"
+    },
+    {
+      "where": "best_time",
+      "fact": "산란 시기",
+      "value": "9~1월(관광 사무소), 11~2월 최성수기, 8~2월(여행기)",
+      "sources": [
+        {
+          "url": "https://bataan.gov.ph/behold-bataan/pawikan-conservation-center/",
+          "grade": "A",
+          "date": "2021-09",
+          "says": "Nesting season September to January"
+        },
+        {
+          "url": "https://philippinetravelnotes.blogspot.com/2007/01/nagbalayong-and-turtles.html?m=0",
+          "grade": "B",
+          "date": "2007-01",
+          "says": "eggs roughly August to February"
+        }
+      ],
+      "decision": "출처별 범위를 병기"
+    },
+    {
+      "where": "overview",
+      "fact": "역사·배경·부화장",
+      "value": "1999 시작, 밀렵꾼 출신, 51일 부화, 7km 순찰",
+      "sources": [
+        {
+          "url": "https://www.puertoparrot.com/articles/help-save-the-sea-turtles-at-bataan-s-pawikan-conservation-center",
+          "grade": "B",
+          "date": "미상",
+          "says": "1999 community-based, 51 days, 7km patrol, 3 of 5 species"
+        },
+        {
+          "url": "https://philippinetravelnotes.blogspot.com/2007/01/nagbalayong-and-turtles.html?m=0",
+          "grade": "B",
+          "date": "2007-01",
+          "says": "former egg gatherers, baklad from Japan, hatchery pits, turtle pool"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "getting_there",
+      "fact": "버스 요금·거리",
+      "value": "₱200~220, ₱55~60, 모롱 51km/175km",
+      "sources": [
+        {
+          "url": "https://www.puertoparrot.com/articles/help-save-the-sea-turtles-at-bataan-s-pawikan-conservation-center",
+          "grade": "B",
+          "date": "미상",
+          "says": "Balanga P200-220, Morong P55-60"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Morong,_Bataan",
+          "grade": "B",
+          "date": "2026",
+          "says": "51km from Balanga, 175km from Manila"
+        }
+      ],
+      "decision": "변동 문구"
+    },
+    {
+      "where": "best_time",
+      "fact": "운영 시간·파위칸 축제 날짜",
+      "value": "매일 8~5(2020년 안내, 공식 확인 불가), 축제는 11월 말~12월 초(2024년 12월 7일)",
+      "sources": [
+        {
+          "url": "https://www.puertoparrot.com/articles/help-save-the-sea-turtles-at-bataan-s-pawikan-conservation-center",
+          "grade": "B",
+          "date": "2020-09",
+          "says": "Open Mondays to Sundays, 8AM to 5PM"
+        },
+        {
+          "url": "https://airial.travel/attractions/philippines/morong/pawikan-conservation-center-i3AcyPFj",
+          "grade": "C",
+          "date": "2025-11",
+          "says": "지도 정보 6:00~22:00, 시기에 따라 다름 / 12월 7일 Pawikan Festival 게시물"
+        },
+        {
+          "url": "https://bataan.gov.ph/behold-bataan/pawikan-conservation-center/",
+          "grade": "A",
+          "date": "2026",
+          "says": "Every November, Pawikan Festival is held here. 센터 운영 시간은 미기재"
+        }
+      ],
+      "decision": "운영 시간은 공식 확인 불가·출처 간 불일치라 2020년 안내로 표기하고 변동 가능 문구, 축제는 11월 말~12월 초로 폭을 둠"
+    },
+    {
+      "where": "cautions",
+      "fact": "별개 시설·방문 후기",
+      "value": "시티오 푸에르테 사기프 파위칸 부화장은 별개 시설",
+      "sources": [
+        {
+          "url": "https://bataan.gov.ph/gnpd-leads-release-of-336-pawikan-hatchlings-in-morong/",
+          "grade": "A",
+          "date": "2026-02",
+          "says": "2026-02-23 336 hatchlings released at Sagip Pawikan Sitio Fuerte Hatchery, Morong"
+        },
+        {
+          "url": "https://tribune.net.ph/2025/02/22/aboitiz-power-subsidiary-greenlights-5-year-support-for-bataan-pawikan-hatchery",
+          "grade": "B",
+          "date": "2025-02",
+          "says": "SAGIP Pawikan Hatchery in Sitio Fuerte, Barangay Poblacion; Nagbalayong not mentioned"
+        }
+      ],
+      "decision": "혼동 방지용 안내만 추가, 센터 자체 정보는 바꾸지 않음"
     }
-   ],
-   "decision": "지도 한 곳은 시설 노드, 다른 한 곳은 읍 좌표라 대략 일치만 확인"
-  },
-  {
-   "where": "costs",
-   "fact": "입장료·방생비·숙소",
-   "value": "입장 ₱20, 방생 ₱50, 숙소 ₱2,500~5,000(최대 15명)",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://www.puertoparrot.com/articles/help-save-the-sea-turtles-at-bataan-s-pawikan-conservation-center",
-     "grade": "B",
-     "date": "미상",
-     "says": "Entrance Php20, release Php50, rooms 2,500-5,000, hours 8-5, since 1999, Bantay Pawikan Inc."
+      "file": "1583-pawikan-conservation-center.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Morong,Bataanjf7136_03.JPG",
+      "check": "센터 전시대 전경. 분류 Pawikan Conservation Center·설명에 센터 명시"
     },
     {
-     "url": "https://bataan.gov.ph/behold-bataan/pawikan-conservation-center/",
-     "grade": "A",
-     "date": "2026",
-     "says": "요금·운영 시간 미기재(8-5 표기는 별개 사무소 The Bunker), 산란기 9~1월, 11월 축제"
+      "file": "1583-pawikan-conservation-center-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Morong,Bataanjf7085_09.JPG",
+      "check": "같은 센터 안 전시대를 다른 각도·가까이서"
     },
     {
-     "url": "https://travelbyishi.blogspot.com/2018/12/releasing-baby-turtles-in-morong-bataan.html",
-     "grade": "C",
-     "date": "2018-12",
-     "says": "PHP 20 per person entrance, PHP 50 per hatchling release, hatching late Nov to Feb"
+      "file": "1583-pawikan-conservation-center-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Morong,Bataanjf7136_05.JPG",
+      "check": "거북 모양 수조·종 안내판(필리핀어) 보임, 분류 센터"
     },
     {
-     "url": "https://myyellowbells.blogspot.com/2020/03/bataan-turtle-releasing-program-at.html",
-     "grade": "C",
-     "date": "2020-03",
-     "says": "Each hatchling 50 pesos, season Nov-Feb, call Mang Manolo first, festival end of November"
+      "file": "1583-pawikan-conservation-center-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Morong,Bataanjf7136_07.JPG",
+      "check": "수조 속 성체 거북, 분류 센터"
     },
     {
-     "url": "https://airial.travel/attractions/philippines/morong/pawikan-conservation-center-i3AcyPFj",
-     "grade": "C",
-     "date": "2025-11",
-     "says": "요금 미명시(소액 또는 기부), 지도 정보 6:00~22:00(운영 시간 불확실), 2025-11 후기에 새끼 없다며 돌려보내짐"
+      "file": "1583-pawikan-conservation-center-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Morongjf7073_09.JPG",
+      "check": "전시대 모형 근접, 영문 표지로 센터 교육 전시 확인"
+    },
+    {
+      "file": "1583-pawikan-conservation-center-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Morong,Bataanjf7085_01.JPG",
+      "check": "전시대 다른 구역, 영문 표지 'Breeding migration'"
+    },
+    {
+      "file": "1583-pawikan-conservation-center-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Morongjf7073_01.JPG",
+      "check": "부화장 새끼 거북, 분류 센터"
+    },
+    {
+      "file": "1583-pawikan-conservation-center-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Morongjf7073_05.JPG",
+      "check": "수조 속 성체 거북 머리·등딱지 근접, 분류 센터"
+    },
+    {
+      "file": "1583-pawikan-conservation-center-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Morongjf7122_03.JPG",
+      "check": "설명에 'at the back of the Pawikan Conservation Center' 명시"
+    },
+    {
+      "file": "1583-pawikan-conservation-center-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Morongjf7122_07.JPG",
+      "check": "같은 해변 설명, 센터 뒤편 해안 풍경"
     }
-   ],
-   "decision": "요금은 2018~2020년 후기 3곳(공식 공지 없음)이 일치해 약 ₱20·₱50으로 두되 연도를 밝히고 현지 확인 문구"
-  },
-  {
-   "where": "best_time",
-   "fact": "산란 시기",
-   "value": "9~1월(관광 사무소), 11~2월 최성수기, 8~2월(여행기)",
-   "sources": [
-    {
-     "url": "https://bataan.gov.ph/behold-bataan/pawikan-conservation-center/",
-     "grade": "A",
-     "date": "2021-09",
-     "says": "Nesting season September to January"
-    },
-    {
-     "url": "https://philippinetravelnotes.blogspot.com/2007/01/nagbalayong-and-turtles.html?m=0",
-     "grade": "B",
-     "date": "2007-01",
-     "says": "eggs roughly August to February"
-    }
-   ],
-   "decision": "출처별 범위를 병기"
-  },
-  {
-   "where": "overview",
-   "fact": "역사·배경·부화장",
-   "value": "1999 시작, 밀렵꾼 출신, 51일 부화, 7km 순찰",
-   "sources": [
-    {
-     "url": "https://www.puertoparrot.com/articles/help-save-the-sea-turtles-at-bataan-s-pawikan-conservation-center",
-     "grade": "B",
-     "date": "미상",
-     "says": "1999 community-based, 51 days, 7km patrol, 3 of 5 species"
-    },
-    {
-     "url": "https://philippinetravelnotes.blogspot.com/2007/01/nagbalayong-and-turtles.html?m=0",
-     "grade": "B",
-     "date": "2007-01",
-     "says": "former egg gatherers, baklad from Japan, hatchery pits, turtle pool"
-    }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "getting_there",
-   "fact": "버스 요금·거리",
-   "value": "₱200~220, ₱55~60, 모롱 51km/175km",
-   "sources": [
-    {
-     "url": "https://www.puertoparrot.com/articles/help-save-the-sea-turtles-at-bataan-s-pawikan-conservation-center",
-     "grade": "B",
-     "date": "미상",
-     "says": "Balanga P200-220, Morong P55-60"
-    },
-    {
-     "url": "https://en.wikipedia.org/wiki/Morong,_Bataan",
-     "grade": "B",
-     "date": "2026",
-     "says": "51km from Balanga, 175km from Manila"
-    }
-   ],
-   "decision": "변동 문구"
-  },
-  {
-   "where": "best_time",
-   "fact": "운영 시간·파위칸 축제 날짜",
-   "value": "매일 8~5(2020년 안내, 공식 확인 불가), 축제는 11월 말~12월 초(2024년 12월 7일)",
-   "sources": [
-    {
-     "url": "https://www.puertoparrot.com/articles/help-save-the-sea-turtles-at-bataan-s-pawikan-conservation-center",
-     "grade": "B",
-     "date": "2020-09",
-     "says": "Open Mondays to Sundays, 8AM to 5PM"
-    },
-    {
-     "url": "https://airial.travel/attractions/philippines/morong/pawikan-conservation-center-i3AcyPFj",
-     "grade": "C",
-     "date": "2025-11",
-     "says": "지도 정보 6:00~22:00, 시기에 따라 다름 / 12월 7일 Pawikan Festival 게시물"
-    },
-    {
-     "url": "https://bataan.gov.ph/behold-bataan/pawikan-conservation-center/",
-     "grade": "A",
-     "date": "2026",
-     "says": "Every November, Pawikan Festival is held here. 센터 운영 시간은 미기재"
-    }
-   ],
-   "decision": "운영 시간은 공식 확인 불가·출처 간 불일치라 2020년 안내로 표기하고 변동 가능 문구, 축제는 11월 말~12월 초로 폭을 둠"
-  },
-  {
-   "where": "cautions",
-   "fact": "별개 시설·방문 후기",
-   "value": "시티오 푸에르테 사기프 파위칸 부화장은 별개 시설",
-   "sources": [
-    {
-     "url": "https://bataan.gov.ph/gnpd-leads-release-of-336-pawikan-hatchlings-in-morong/",
-     "grade": "A",
-     "date": "2026-02",
-     "says": "2026-02-23 336 hatchlings released at Sagip Pawikan Sitio Fuerte Hatchery, Morong"
-    },
-    {
-     "url": "https://tribune.net.ph/2025/02/22/aboitiz-power-subsidiary-greenlights-5-year-support-for-bataan-pawikan-hatchery",
-     "grade": "B",
-     "date": "2025-02",
-     "says": "SAGIP Pawikan Hatchery in Sitio Fuerte, Barangay Poblacion; Nagbalayong not mentioned"
-    }
-   ],
-   "decision": "혼동 방지용 안내만 추가, 센터 자체 정보는 바꾸지 않음"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T14:39:26Z"
 }

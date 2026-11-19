@@ -1,140 +1,192 @@
 {
- "id": 2428,
- "slug": "legazpi-sunday-market",
- "checked_at": "2026-11-19T06:07:45Z",
- "facts": [
-  {
-   "where": "summary",
-   "fact": "운영 시간",
-   "value": "일요일 약 07:00~14:00(07:30 안내도 있음)",
-   "sources": [
+  "id": 2428,
+  "slug": "legazpi-sunday-market",
+  "checked_at": "2026-11-19T06:07:45Z",
+  "facts": [
     {
-     "url": "https://www.zoytotheworld.com/blog/legazpi-sunday-market-makati-city-march-2024",
-     "grade": "B",
-     "date": "2024-03",
-     "says": "Sundays 7 AM to 2 PM"
+      "where": "summary",
+      "fact": "운영 시간",
+      "value": "일요일 약 07:00~14:00(07:30 안내도 있음)",
+      "sources": [
+        {
+          "url": "https://www.zoytotheworld.com/blog/legazpi-sunday-market-makati-city-march-2024",
+          "grade": "B",
+          "date": "2024-03",
+          "says": "Sundays 7 AM to 2 PM"
+        },
+        {
+          "url": "https://whatsonmnl.com/blog/weekend-markets-in-manila",
+          "grade": "B",
+          "date": "2025",
+          "says": "Sundays about 7am to 2pm"
+        },
+        {
+          "url": "https://imhotel.com/experience/legazpi-sunday-market/",
+          "grade": "B",
+          "date": "2026",
+          "says": "Sundays 7:30 AM to 2:00 PM"
+        }
+      ],
+      "decision": "출처별 차이를 07:00 또는 07:30 으로 병기하고 최신 공지 확인 안내"
     },
     {
-     "url": "https://whatsonmnl.com/blog/weekend-markets-in-manila",
-     "grade": "B",
-     "date": "2025",
-     "says": "Sundays about 7am to 2pm"
+      "where": "location",
+      "fact": "위치",
+      "value": "코린시안 플라자와 워싱턴 시시프 공원 사이 레가스피 주차장",
+      "sources": [
+        {
+          "url": "https://www.zoytotheworld.com/blog/legazpi-sunday-market-makati-city-march-2024",
+          "grade": "B",
+          "date": "2024-03",
+          "says": "Legazpi Carpark between Corinthian Plaza and Washington SyCip Park"
+        },
+        {
+          "url": "https://whatsonmnl.com/blog/weekend-markets-in-manila",
+          "grade": "B",
+          "date": "2025",
+          "says": "Corinthian car park beside Corinthian Plaza"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Legazpi_Active_Park",
+          "grade": "A",
+          "date": "2019",
+          "says": "2019 move to Corinthian Plaza parking lot"
+        }
+      ],
+      "decision": "위치가 바뀔 수 있다고 명시"
     },
     {
-     "url": "https://imhotel.com/experience/legazpi-sunday-market/",
-     "grade": "B",
-     "date": "2026",
-     "says": "Sundays 7:30 AM to 2:00 PM"
+      "where": "coords",
+      "fact": "좌표",
+      "value": "14.5542, 121.0164",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Legazpi_Active_Park",
+          "grade": "A",
+          "date": "-",
+          "says": "Legazpi Active Park 14°33′15″N 121°0′59″E"
+        },
+        {
+          "url": "https://www.zoytotheworld.com/blog/legazpi-sunday-market-makati-city-march-2024",
+          "grade": "B",
+          "date": "2024-03",
+          "says": "Legazpi Village, Makati"
+        }
+      ],
+      "decision": "공원 좌표를 사용(지도 2곳 직접 대조는 못 함, 시장 위치 인접)"
+    },
+    {
+      "where": "overview",
+      "fact": "역사",
+      "value": "2005년 마라 파르도 데 타베라가 시작, 1994~2004 그린벨트 마라 유기농 시장 계승",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Legazpi_Active_Park",
+          "grade": "A",
+          "date": "-",
+          "says": "founded 2005; earlier market at Greenbelt park 1994-2004"
+        },
+        {
+          "url": "https://traveltobite.blogspot.com/2026/06/legazpi-sunday-market-celebrating-21.html",
+          "grade": "C",
+          "date": "2026-06",
+          "says": "Celebrating 21 years of Legazpi Sunday Market (2005 시작과 일치)"
+        }
+      ],
+      "decision": "2005년 시작은 위키백과+2026-06 21주년 방문기 2곳으로 확인. 그린벨트 1994~2004 는 위키백과 1곳뿐이라 '영어 위키백과에 따르면'으로 서술"
+    },
+    {
+      "where": "costs",
+      "fact": "참치 아도바도",
+      "value": "₱260",
+      "sources": [
+        {
+          "url": "https://www.zoytotheworld.com/blog/legazpi-sunday-market-makati-city-march-2024",
+          "grade": "B",
+          "date": "2024-03",
+          "says": "Tuna Adobado PHP 260"
+        }
+      ],
+      "decision": "단일 출처(2024-03), 3라운드 재검색(2026-11)에서도 독립 출처·현재 가격 못 찾음(squarespace 사본은 같은 글) → 본문은 '2024년 3월 방문기 한 곳 기준·현장 확인'으로 이미 낮춘 상태 유지"
+    },
+    {
+      "where": "costs",
+      "fact": "기타 가격(메인·디저트·음료·택시)",
+      "value": "약 ₱180~400(메인)·₱40~250(디저트)·₱80~200(음료)·택시는 앱 확인",
+      "sources": [
+        {
+          "url": "https://manilaplaces.com/dining/legazpi-market",
+          "grade": "C",
+          "date": "2026",
+          "says": "1인 평균 지출 ₱250~500"
+        },
+        {
+          "url": "https://primer.com.ph/travel/2017/11/05/one-day-guide-to-legazpi-sunday-market/",
+          "grade": "B",
+          "date": "2019",
+          "says": "굴 오믈렛 ₱190, 팟타이 ₱236, 차 꾸이 띠야오 ₱180, 아이스 팝 ₱40"
+        },
+        {
+          "url": "https://m.yelp.ca/biz/legazpi-sunday-market-makati",
+          "grade": "C",
+          "date": "2026",
+          "says": "음료 한 잔 ₱100(후기 요약), 밥 식사 ₱150~180 예산(후기 요약)"
+        }
+      ],
+      "decision": "2곳 이상에서 대략 범위만 확인됨. 오래된 값은 연도를 밝히고 범위·약·현장 확인으로 표기. 택시는 출처 없어 앱 확인으로 낮춤"
     }
-   ],
-   "decision": "출처별 차이를 07:00 또는 07:30 으로 병기하고 최신 공지 확인 안내"
-  },
-  {
-   "where": "location",
-   "fact": "위치",
-   "value": "코린시안 플라자와 워싱턴 시시프 공원 사이 레가스피 주차장",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://www.zoytotheworld.com/blog/legazpi-sunday-market-makati-city-march-2024",
-     "grade": "B",
-     "date": "2024-03",
-     "says": "Legazpi Carpark between Corinthian Plaza and Washington SyCip Park"
+      "file": "2428-legazpi-sunday-market.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Vietnamese_Stall_in_Legazpi_Sunday_Market,_Makati,_Feb_2026.jpg",
+      "check": "분류 없음·검색 'Legazpi Sunday Market Makati'로 찾음. 파일명·설명에 Legazpi Sunday Market, Makati, Feb 2026, GPS 14.554,121.019. 사진에 천막과 가판대, 붐비는 일요 시장 풍경이 보임"
     },
     {
-     "url": "https://whatsonmnl.com/blog/weekend-markets-in-manila",
-     "grade": "B",
-     "date": "2025",
-     "says": "Corinthian car park beside Corinthian Plaza"
+      "file": "2428-legazpi-sunday-market-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Legazpi_Village_Sunday_Market.jpg",
+      "check": "설명에 Legazpi Sunday Market, Legazpi Village, Makati. 사진에 시장 채소 가판대가 보임"
     },
     {
-     "url": "https://en.wikipedia.org/wiki/Legazpi_Active_Park",
-     "grade": "A",
-     "date": "2019",
-     "says": "2019 move to Corinthian Plaza parking lot"
+      "file": "2428-legazpi-sunday-market-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Legazpi_Village_Sunday_Market_vegetable_stall.jpg",
+      "check": "설명에 Legazpi Sunday Market vegetable stall, Legazpi Village. 사진에 채소 가판대가 보임"
+    },
+    {
+      "file": "2428-legazpi-sunday-market-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Fruits_(Legazpi_Sunday_Market,_Makati).jpg",
+      "check": "파일명·분류에 Legazpi Sunday Market, Makati, GPS 14.554,121.019. 사진에 천막 아래 과일 가판대와 kilo 가격표"
+    },
+    {
+      "file": "2428-legazpi-sunday-market-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Artworks_from_Scrap_Metals_in_Legazpi_Sunday_Market,_Makati.jpg",
+      "check": "파일명에 Legazpi Sunday Market, Makati, GPS 14.554,120.997. 사진에 수공예 램프 가판대가 보임"
+    },
+    {
+      "file": "2428-legazpi-sunday-market-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Ilocos_Empanada_(Legazpi_Sunday_Market,_Makati).jpg",
+      "check": "파일명에 Legazpi Sunday Market, Makati, 촬영 2026-02-22. 사진에 먹거리 가판대의 엠파나다가 보임"
+    },
+    {
+      "file": "2428-legazpi-sunday-market-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Leafy_Vegetables_(Legazpi_Sunday_Market,_Makati).jpg",
+      "check": "파일명에 Legazpi Sunday Market, Makati. 유기농·채소 시장 성격과 맞는 잎채소가 보임"
+    },
+    {
+      "file": "2428-legazpi-sunday-market-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Oyster_-_Talaba_(Legazpi_Sunday_Market,_Makati).jpg",
+      "check": "파일명에 Legazpi Sunday Market, Makati. 시장 해산물 가판대의 굴이 보임"
+    },
+    {
+      "file": "2428-legazpi-sunday-market-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Seafoods_(Legazpi_Sunday_Market,_Makati)_(1).jpg",
+      "check": "파일명에 Legazpi Sunday Market, Makati. 사진에 해산물 가판대가 보임"
+    },
+    {
+      "file": "2428-legazpi-sunday-market-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Pork_Ribs_(Legazpi_Sunday_Market,_Makati).jpg",
+      "check": "파일명에 Legazpi Sunday Market, Makati. 사진에 시장의 조리 음식 가판대 그릴이 보임"
     }
-   ],
-   "decision": "위치가 바뀔 수 있다고 명시"
-  },
-  {
-   "where": "coords",
-   "fact": "좌표",
-   "value": "14.5542, 121.0164",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Legazpi_Active_Park",
-     "grade": "A",
-     "date": "-",
-     "says": "Legazpi Active Park 14°33′15″N 121°0′59″E"
-    },
-    {
-     "url": "https://www.zoytotheworld.com/blog/legazpi-sunday-market-makati-city-march-2024",
-     "grade": "B",
-     "date": "2024-03",
-     "says": "Legazpi Village, Makati"
-    }
-   ],
-   "decision": "공원 좌표를 사용(지도 2곳 직접 대조는 못 함, 시장 위치 인접)"
-  },
-  {
-   "where": "overview",
-   "fact": "역사",
-   "value": "2005년 마라 파르도 데 타베라가 시작, 1994~2004 그린벨트 마라 유기농 시장 계승",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Legazpi_Active_Park",
-     "grade": "A",
-     "date": "-",
-     "says": "founded 2005; earlier market at Greenbelt park 1994-2004"
-    },
-    {
-     "url": "https://traveltobite.blogspot.com/2026/06/legazpi-sunday-market-celebrating-21.html",
-     "grade": "C",
-     "date": "2026-06",
-     "says": "Celebrating 21 years of Legazpi Sunday Market (2005 시작과 일치)"
-    }
-   ],
-   "decision": "2005년 시작은 위키백과+2026-06 21주년 방문기 2곳으로 확인. 그린벨트 1994~2004 는 위키백과 1곳뿐이라 '영어 위키백과에 따르면'으로 서술"
-  },
-  {
-   "where": "costs",
-   "fact": "참치 아도바도",
-   "value": "₱260",
-   "sources": [
-    {
-     "url": "https://www.zoytotheworld.com/blog/legazpi-sunday-market-makati-city-march-2024",
-     "grade": "B",
-     "date": "2024-03",
-     "says": "Tuna Adobado PHP 260"
-    }
-   ],
-   "decision": "단일 출처(2024-03), 3라운드 재검색(2026-11)에서도 독립 출처·현재 가격 못 찾음(squarespace 사본은 같은 글) → 본문은 '2024년 3월 방문기 한 곳 기준·현장 확인'으로 이미 낮춘 상태 유지"
-  },
-  {
-   "where": "costs",
-   "fact": "기타 가격(메인·디저트·음료·택시)",
-   "value": "약 ₱180~400(메인)·₱40~250(디저트)·₱80~200(음료)·택시는 앱 확인",
-   "sources": [
-    {
-     "url": "https://manilaplaces.com/dining/legazpi-market",
-     "grade": "C",
-     "date": "2026",
-     "says": "1인 평균 지출 ₱250~500"
-    },
-    {
-     "url": "https://primer.com.ph/travel/2017/11/05/one-day-guide-to-legazpi-sunday-market/",
-     "grade": "B",
-     "date": "2019",
-     "says": "굴 오믈렛 ₱190, 팟타이 ₱236, 차 꾸이 띠야오 ₱180, 아이스 팝 ₱40"
-    },
-    {
-     "url": "https://m.yelp.ca/biz/legazpi-sunday-market-makati",
-     "grade": "C",
-     "date": "2026",
-     "says": "음료 한 잔 ₱100(후기 요약), 밥 식사 ₱150~180 예산(후기 요약)"
-    }
-   ],
-   "decision": "2곳 이상에서 대략 범위만 확인됨. 오래된 값은 연도를 밝히고 범위·약·현장 확인으로 표기. 택시는 출처 없어 앱 확인으로 낮춤"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T14:39:26Z"
 }
