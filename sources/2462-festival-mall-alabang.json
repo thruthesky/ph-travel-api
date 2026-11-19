@@ -1,7 +1,7 @@
 {
  "id": 2462,
  "slug": "festival-mall-alabang",
- "checked_at": "2026-11-19T00:00:00Z",
+ "checked_at": "2026-11-19T01:00:00Z",
  "facts": [
   {
    "where": "lat/lon",
@@ -206,23 +206,54 @@
   {
    "where": "costs",
    "fact": "식비 추정",
-   "value": "₱200~800",
-   "sources": [],
-   "decision": "추정치, 노트에 '추정' 표기"
+   "value": "패스트푸드 약 ₱200~400, 체인 레스토랑 약 ₱400~800(추정), 뷔페는 ₱898~1,198",
+   "sources": [
+    {
+     "url": "https://www.taraletsanywhere.com/food-club-festival-mall-alabang",
+     "grade": "C",
+     "date": "2025-08-11",
+     "says": "푸드 클럽(동관 2층) 정가 평일 점심 ₱898·평일 저녁 ₱1,098·주말/공휴일 ₱1,198"
+    },
+    {
+     "url": "https://www.pluxee.ph/blog/alabang-dining-picks-for-every-budget/",
+     "grade": "C",
+     "date": "2026-02-23",
+     "says": "페스티벌 몰의 졸리비·초킹·망이나살·요시노야는 알뜰 식사, 마나무 등은 특별한 날 식사로 분류(가격은 없음)"
+    }
+   ],
+   "decision": "가격표를 공개한 출처가 없어 한 끼 범위는 추정으로 유지하고 뷔페 정가를 별도로 밝힘"
   },
   {
    "where": "nearby",
    "fact": "알라방 타운센터·몰리토·스펙트럼 선형 공원",
-   "value": "-",
+   "value": "ATC 1982 개장·Molito 마드리갈 애비뉴(필린베스트 시티에서 차로 약 8~10분)·스펙트럼 선형 공원 2018 개장",
    "sources": [
     {
      "url": "https://viverehotel.com.ph/stories/things-to-do-alabang-muntinlupa-guide/",
      "grade": "C",
      "date": "2026-11-18",
      "says": "ATC, Molito, Spectrum Linear Park 소개, 몰리토 밤 11시~자정 영업"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Alabang_Town_Center",
+     "grade": "B",
+     "date": "2026",
+     "says": "ATC 는 아얄라 알라방 바랑가이, 1982년 개장, 2012년 보행자 식당 거리 The Street 개장(2026-08 재개발로 일시 폐쇄)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Filinvest_City",
+     "grade": "B",
+     "date": "2026",
+     "says": "스펙트럼 선형 공원은 2017 마스터플랜 개정 후 2018년 초 개장, 리버 파크·이벤트 그라운드와 함께 공공 공간"
+    },
+    {
+     "url": "https://filinvestcity.com/node/154",
+     "grade": "A",
+     "date": "2026",
+     "says": "필린베스트 시티 공식 사이트: 스펙트럼 선형 공원은 가로수 그늘 보행로·조명 벤치·야외 조형물(검색 요약, 길이 출처별 1~2km)"
     }
    ],
-   "decision": "거리·시간은 쓰지 않음"
+   "decision": "ATC 소유 구조가 바뀌어 아얄라 계열 표현을 뺐고, 몰리토는 몰 바로 옆이 아니라 차로 이동하는 거리로 고침, 공원 길이는 약 1~2km 로 표기"
   }
  ],
  "images": []

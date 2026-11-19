@@ -1,7 +1,7 @@
 {
  "id": 2469,
  "slug": "bonifacio-high-street",
- "checked_at": "2026-11-19T00:00:00Z",
+ "checked_at": "2026-11-19T06:30:00Z",
  "facts": [
   {
    "where": "overview",
@@ -33,9 +33,15 @@
      "grade": "A",
      "date": "2026-11-18",
      "says": "2024 기준 43번째로 비싼 상업 거리"
+    },
+    {
+     "url": "https://www.philstar.com/business/2024/11/28/2403404/bgc-keeps-ranking-43rd-most-expensive-retail-street-worldwide",
+     "grade": "B",
+     "date": "2024-11-28",
+     "says": "쿠시먼앤드웨이크필드 Main Streets Across the World 2024에서 BGC 43위(전년과 같음), 임대료 연 $51/ft², BGC 전체 기준"
     }
    ],
-   "decision": "단일 출처, 연도 명시"
+   "decision": "위키와 필리핀 스타 보도가 일치, 연도 명시하고 BGC 전체 기준임을 본문에 밝힘(2025년판에서는 순위가 내려갔다는 검색 결과가 있으나 직접 열어 확인 못 함)"
   },
   {
    "where": "lat/lon",
@@ -166,16 +172,28 @@
   {
    "where": "itinerary",
    "fact": "마켓! 마켓! 영업시간",
-   "value": "평일 11~21시, 주말 10~22시",
+   "value": "대체로 10~11시경 개점, 22시경 폐점(연말·공휴일 변동)",
    "sources": [
     {
      "url": "https://www.philippinescompass.com/best-things-to-do-in-bgc-and-taguig-first-time-visitor-guide/",
      "grade": "B",
      "date": "2026-08-10",
      "says": "Ayala Malls 기준 시간"
+    },
+    {
+     "url": "https://philstarlife.com/news-and-views/590780-list-adjusted-mall-hours-for-2024-holiday-season",
+     "grade": "B",
+     "date": "2024-11",
+     "says": "2024-11-15~12-14 마켓! 마켓! 평일 11~22시, 주말 10~22시(연말 조정 시간)"
+    },
+    {
+     "url": "https://www.gmanetwork.com/news/lifestyle/shoppingandfashion/980998/holy-week-2026-metro-manila-mall-hours-from-maundy-thursday-to-easter-sunday/story/",
+     "grade": "B",
+     "date": "2026-03",
+     "says": "2026 성주간 4/4~5 마켓! 마켓! 10~22시(검색 요약으로만 확인)"
     }
    ],
-   "decision": "단일 출처, 아얄라 몰 안내 기준으로 명시"
+   "decision": "정규 시간표 페이지는 열지 못함. 평일 21시 폐점은 확인되지 않아 '대체로 10~11시경~22시경, 연말·공휴일 변동'으로 낮춤"
   },
   {
    "where": "highlights",

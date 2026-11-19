@@ -1,7 +1,7 @@
 {
   "id": 221,
   "slug": "la-trinidad-strawberry-farm",
-  "checked_at": "2026-11-19T04:53:30Z",
+  "checked_at": "2026-11-19T05:24:50Z",
   "facts": [
     {
       "where": "overview",
@@ -332,16 +332,40 @@
     {
       "where": "nearby",
       "fact": "아톡·울랍 산·사가다 소요 시간",
-      "value": "아톡 1시간 30분~2시간, 울랍 1~1시간 30분, 사가다 4~6시간",
+      "value": "아톡 1시간 30분~2시간, 울랍 40분~1시간 30분, 사가다 5~7시간(승용차 약 5시간·버스 6~7시간)",
       "sources": [
         {
           "url": "data/ko/144-atok.json",
           "grade": "내부",
           "date": "2026-10-02",
           "says": "기존 항목 참고"
+        },
+        {
+          "url": "https://baguiocityguide.com/how-to-get-to-atok-benguet-from-baguio-city-2025-travel-guide/",
+          "grade": "C",
+          "date": "2025",
+          "says": "바기오에서 아톡까지 약 48km, 차로 약 1시간 30분~2시간(날씨·교통에 따라 2~3시간 보는 곳도 있음)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Atok,_Benguet",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "아톡은 주도 라트리니다드에서 42.57km(시간 언급 없음)"
+        },
+        {
+          "url": "https://www.gamintraveler.com/2023/11/09/baguio-to-sagada-best-way/",
+          "grade": "C",
+          "date": "2023-11",
+          "says": "바기오–사가다 약 150km, 버스 6~7시간, 승용차 약 5시간"
+        },
+        {
+          "url": "https://itogon.gov.ph/?p=1573",
+          "grade": "A",
+          "date": "2026-11",
+          "says": "울랍 들머리 암푸카오(이토곤)까지 바기오에서 지프니로 약 40분~1시간(검색 요약에서 확인, 본문 직접 열람은 못 함)"
         }
       ],
-      "decision": "독립 출처로 확인 못 함 — 모두 범위로 쓰고 도로 상태에 따라 달라짐을 적음(확신 낮음)"
+      "decision": "울랍은 40분~1시간 30분, 사가다는 승용차 5시간·버스 6~7시간에 맞춰 5~7시간으로 고침. 도로 상태에 따라 달라짐을 적음"
     },
     {
       "where": "costs",
@@ -366,9 +390,22 @@
     {
       "where": "operations",
       "fact": "농장 개방 시간·입장료",
-      "value": "확인 못 함",
-      "sources": [],
-      "decision": "공식 안내를 열람하지 못해 본문에서 단정하지 않고 '농원마다 다름, 현장·공지 확인'으로 서술. 공식(A급) 출처 없음"
+      "value": "오전 7시 무렵~오후 6~7시(출처마다 다름), 농장 구경 무료, 딴 딸기는 무게대로 값",
+      "sources": [
+        {
+          "url": "https://lakbaypinas.com/?p=13365",
+          "grade": "C",
+          "date": "2025",
+          "says": "개방 시간 보통 오전 7시~오후 6시, 입장 무료, 딸기 따기 선택(kg당 약 ₱600~1,000)"
+        },
+        {
+          "url": "https://www.thebackpackadventures.com/2017/05/benguet-strawberry-farm.html",
+          "grade": "C",
+          "date": "2017-05-31",
+          "says": "오전 7시~오후 7시 개방, 농장 구경 무료, 딴 딸기는 값을 냄"
+        }
+      ],
+      "decision": "공식(A급) 출처 없음 — 두 블로그가 시작 7시·무료 구경은 일치하나 끝 시간이 달라 '알려져 있다'·범위로 쓰고 현장·공지 확인 유지"
     },
     {
       "where": "coordinates",

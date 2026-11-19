@@ -1,7 +1,7 @@
 {
   "id": 1950,
   "slug": "dumaguete-cathedral",
-  "checked_at": "2026-11-19T04:00:00Z",
+  "checked_at": "2026-11-19T05:00:00Z",
   "facts": [
     {
       "where": "costs",
@@ -174,16 +174,22 @@
     {
       "where": "best_time",
       "fact": "기후",
-      "value": "평균 최고 30.9℃ 최저 24.8℃ 1,322.6mm",
+      "value": "평균 최고 약 31℃ 최저 약 25℃, 강수량 약 1,300mm(자료마다 800mm대~1,300mm대)",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Dumaguete",
           "grade": "B",
           "date": "2026",
-          "says": "1991~2020 평균"
+          "says": "PAGASA 1991~2020 평균: 최고 30.9℃·최저 24.8℃·강수 1,322.6mm, 우기 6~11월·건기 12~5월"
+        },
+        {
+          "url": "https://www.weather-atlas.com/en/philippines/dumaguete-climate",
+          "grade": "C",
+          "date": "2024-02",
+          "says": "연평균 최고 약 30.6℃·최저 약 24.8℃(월별 평균에서 계산), 연 강수 807mm(데이터 출처 미표기), 가장 더운 달 5·8월"
         }
       ],
-      "decision": "채택"
+      "decision": "기온은 두 곳이 31℃·25℃ 안팎으로 일치해 유지했다. 강수량은 두 곳이 크게 달라(1,322.6 대 807mm) 단정값 대신 약 1,300mm(PAGASA 인용 위키)와 다른 사이트가 더 적다는 점을 함께 적었다."
     },
     {
       "where": "costs",
@@ -195,6 +201,18 @@
           "grade": "B",
           "date": "2026-03-12",
           "says": "두마게테 트라이시클 최저 ₱15, 기사들이 ₱5 인상(₱20)을 요청 중이며 위원회 답변 전"
+        },
+        {
+          "url": "https://dumaguetecity.gov.ph/2022/12/05/dumaguete-museum-is-open-to-the-public-from-tuesday-sunday-entrance-is-free/",
+          "grade": "A",
+          "date": "2022-12-05",
+          "says": "두마게테시가 국립박물관 분관 무료 입장을 확인한다."
+        },
+        {
+          "url": "https://www.philippinescompass.com/dumaguete-budget-guide-cheap-attractions-daily-costs/",
+          "grade": "B",
+          "date": "2026",
+          "says": "성당과 종탑 외관·퀘존 공원을 별도 매표 없이 관람하는 도보 코스를 안내한다."
         }
       ],
       "decision": "무료 범위와 트라이시클은 첫 costs 항목에 근거를 모았다. 커피·간식 등 근거 없는 값은 쓰지 않고 현지 확인으로 둔다."

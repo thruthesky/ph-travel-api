@@ -1,7 +1,7 @@
 {
  "id": 1782,
  "slug": "maribina-falls",
- "checked_at": "2026-11-19T00:00:00Z",
+ "checked_at": "2026-11-19T05:25:00Z",
  "facts": [
   {
    "where": "overview",
@@ -84,16 +84,22 @@
   {
    "where": "best_time",
    "fact": "기후",
-   "value": "연 강수 2,619mm, 3~8월 비교적 건조",
+   "value": "연 강수 약 2,600~3,200mm, 3~9월 비교적 적음(4월 최소), 10~12월 최다",
    "sources": [
     {
      "url": "https://en.wikipedia.org/wiki/Catanduanes",
-     "grade": "A",
+     "grade": "B",
      "date": "2025",
-     "says": "annual rainfall about 2,619 mm; no pronounced dry season; best March to August; typhoons"
+     "says": "annual rainfall about 2,619 mm; 112 rainy days; no pronounced dry season; dry weather most marked July-August; coolest and rainiest October to early January"
+    },
+    {
+     "url": "https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/cad/CLIMATOLOGICAL%20NORMALS%20(1991-2020)/VIRAC SYNOP.pdf",
+     "grade": "A",
+     "date": "2026",
+     "says": "Virac Synop 1991-2020 normals: annual rainfall 3,188.2 mm, 180 rainy days; Mar-Sep monthly 140-265 mm (April lowest 140.5), Oct-Dec 398-525 mm"
     }
    ],
-   "decision": "본문에 반영하되 오래된 값·자료 간 차이는 범위나 '현지 확인'으로 표기"
+   "decision": "두 자료의 연 강수량이 달라(2,619 vs 3,188mm) 범위로 쓰고, 월별은 PAGASA 값으로 3~9월 비교적 적고 10~12월 최다로 표기, 비 오는 날은 기준에 따라 110~180일"
   },
   {
    "where": "cautions",
@@ -105,9 +111,15 @@
      "grade": "A",
      "date": "2025",
      "says": "Super Typhoon Goni made landfall November 1, 2020"
+    },
+    {
+     "url": "https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/tamss/weather/tcsummary/PAGASA_ARTC_2020.pdf",
+     "grade": "A",
+     "date": "2020",
+     "says": "At 2050 UTC on 31 October (04:50 PHT 1 November) the eye of Super Typhoon Rolly made landfall in the vicinity of Bato, Catanduanes at peak intensity"
     }
    ],
-   "decision": "본문에 반영하되 오래된 값·자료 간 차이는 범위나 '현지 확인'으로 표기"
+   "decision": "PAGASA 연례 보고서로 바토 부근 상륙 확인, 본문은 '2020년 11월 1일 새벽 바토 부근 상륙'으로 표기"
   }
  ],
  "images": []
