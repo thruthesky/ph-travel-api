@@ -1,258 +1,310 @@
 {
- "id": 2480,
- "slug": "capitol-commons",
- "checked_at": "2026-11-19T06:00:00Z",
- "facts": [
-  {
-   "where": "overview",
-   "fact": "면적·경계·개발사",
-   "value": "약 10ha, 오란보, 오르티가스 앤드 컴퍼니",
-   "sources": [
+  "id": 2480,
+  "slug": "capitol-commons",
+  "checked_at": "2026-11-19T06:00:00Z",
+  "facts": [
     {
-     "url": "https://en.wikipedia.org/wiki/Capitol_Commons",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "10ha, 경계 도로 4개, Ortigas & Co."
+      "where": "overview",
+      "fact": "면적·경계·개발사",
+      "value": "약 10ha, 오란보, 오르티가스 앤드 컴퍼니",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Capitol_Commons",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "10ha, 경계 도로 4개, Ortigas & Co."
+        },
+        {
+          "url": "https://www.ortigas.com.ph/malls/estancia-mall",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "에스탄시아 몰이 캐피톨 커먼스 안, 오르티가스 소유"
+        }
+      ],
+      "decision": "일치"
     },
     {
-     "url": "https://www.ortigas.com.ph/malls/estancia-mall",
-     "grade": "A",
-     "date": "2026-11-18",
-     "says": "에스탄시아 몰이 캐피톨 커먼스 안, 오르티가스 소유"
+      "where": "overview",
+      "fact": "역사",
+      "value": "1950 리살 주청사 이전, 1962~2009 사용, 2010 철거, 2011 재개발",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Capitol_Commons",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "역사 절"
+        },
+        {
+          "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/60321",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "Proclamation 883 이 Capitol Commons, Meralco Ave 모퉁이 Shaw Blvd, Oranbo 를 명시(위치 확인)"
+        }
+      ],
+      "decision": "연도는 위키 단일, 위치는 일치"
+    },
+    {
+      "where": "coordinates",
+      "fact": "좌표",
+      "value": "14.5760,121.0632",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Capitol_Commons",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "14°34′33″N 121°03′49″E"
+        },
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Estancia+Mall+Pasig",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "Estancia Mall 14.5762,121.0629"
+        }
+      ],
+      "decision": "두 값의 중간"
+    },
+    {
+      "where": "highlights",
+      "fact": "에스탄시아 몰 규모·동관",
+      "value": "3층, 임대 약 30,000㎡, 2014 완공, 동관 2019-11-29",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Capitol_Commons",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "규모·개장일"
+        },
+        {
+          "url": "https://www.pasigcityguide.com/2026/05/estancia-mall.html",
+          "grade": "C",
+          "date": "2026-05",
+          "says": "동관 영화관·SM 스토어 등"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "highlights",
+      "fact": "스크리닝 룸·영화관",
+      "value": "리클라이너, 프라이빗 상영관",
+      "sources": [
+        {
+          "url": "https://www.ortigas.com.ph/malls/estancia-mall",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "더 스크리닝 룸"
+        },
+        {
+          "url": "https://www.pasigcityguide.com/2026/05/estancia-mall.html",
+          "grade": "C",
+          "date": "2026-05",
+          "says": "4층 영화관, 스크리닝 룸"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "highlights",
+      "fact": "조명 행사",
+      "value": "2021 트리 조형물, 2022 일루미네이티드 패스 18~22시",
+      "sources": [
+        {
+          "url": "https://www.rappler.com/brandrap/travel-and-food/sights-sounds-capitol-commons-pasig-city-lights-park-installation-2021/",
+          "grade": "B",
+          "date": "2021",
+          "says": "Lights at the Park"
+        },
+        {
+          "url": "https://www.philstar.com/lifestyle/on-the-radar/2022/11/18/2224735/merry-magical-christmas-ortigas-land-brightens-holiday-nights-daily-light-spectacles",
+          "grade": "B",
+          "date": "2022-11-18",
+          "says": "일루미네이티드 패스 매일 18~22시"
+        }
+      ],
+      "decision": "올해 일정은 공식 확인 안내"
+    },
+    {
+      "where": "highlights",
+      "fact": "식당가·펍 가격",
+      "value": "맥주 약 ₱190~210, 칵테일 ₱350~400, 공연 입장 약 ₱500",
+      "sources": [
+        {
+          "url": "https://www.manilabarsandclubs.com/areas/pasig-capitol-commons",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "베뉴 표"
+        },
+        {
+          "url": "https://www.pasigcityguide.com/2026/05/estancia-mall.html",
+          "grade": "C",
+          "date": "2026-05",
+          "says": "마남·12 Monkeys 등 입점"
+        }
+      ],
+      "decision": "범위로 표기, 영업 시간 현지 확인"
+    },
+    {
+      "where": "getting_there",
+      "fact": "MRT-3 쇼 불러바드역 거리",
+      "value": "서쪽 약 1km",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Capitol_Commons",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "MRT 역 약 1km 서쪽"
+        },
+        {
+          "url": "https://www.pasigcityguide.com/2026/05/estancia-mall.html",
+          "grade": "C",
+          "date": "2026-05",
+          "says": "쇼 불러바드역에서 지프니·그랩"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "getting_there",
+      "fact": "메랄코 애비뉴 폐쇄",
+      "value": "2022-10-03 부터, 2028 까지 계획",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Meralco_Avenue",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "쇼 불러바드~안다 로드 폐쇄"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Shaw_Boulevard_station_(Metro_Manila_Subway)",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "지하철 역 건설, 2022-10 폐쇄"
+        }
+      ],
+      "decision": "종료 시점은 출처마다 달라 계획으로 표기"
+    },
+    {
+      "where": "cautions",
+      "fact": "영업 시간",
+      "value": "대체로 10:00~22:00",
+      "sources": [
+        {
+          "url": "https://www.pasigcityguide.com/2026/05/estancia-mall.html",
+          "grade": "C",
+          "date": "2026-05",
+          "says": "보통 10AM~10PM"
+        },
+        {
+          "url": "https://philstarlife.com/amp/article/981114-list-adjusted-mall-hours-schedule-for-holy-week-2026",
+          "grade": "B",
+          "date": "2026-04",
+          "says": "성주간 2026: 4/2·4/3 휴무, 4/4·4/5 10:00~22:00, 4/6 평소 시간 재개"
+        },
+        {
+          "url": "https://www.ortigas.com.ph/malls/estancia-mall",
+          "grade": "A",
+          "date": "2026-11-19",
+          "says": "정규 영업 시간 미게재, 공식 페이스북 확인 안내"
+        }
+      ],
+      "decision": "일반 시간대 10~22시는 2곳(안내 사이트·언론)이 일치하나 정규 시간 공식 게시는 없어 '보통·무렵'으로 표기하고 확인 안내 유지"
+    },
+    {
+      "where": "costs",
+      "fact": "식사·카페·영화·주차 요금",
+      "value": "식사 약 ₱400~800, 카페 약 ₱100~300, 영화 약 ₱420~440(스크리닝 룸 ₱570~590), 주차 승용차 첫 3~4시간 약 ₱50 후 시간당 ₱20",
+      "sources": [
+        {
+          "url": "https://manilaplaces.com/dining/estancia-mall",
+          "grade": "C",
+          "date": "2026-06-19",
+          "says": "에스탄시아 식당 1인 평균 ₱400~800"
+        },
+        {
+          "url": "https://www.manilabarsandclubs.com/areas/pasig-capitol-commons",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "맥주 ₱190~210, 칵테일 약 ₱350~400"
+        },
+        {
+          "url": "https://sinegang.com/cinemas/ortigas-estancia",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "일반관 ₱420~440, 스크리닝 룸 ₱570~590"
+        },
+        {
+          "url": "https://thebeat.asia/manila/vibe/pop-culture/vip-cinema-luxury-movie-theatre",
+          "grade": "C",
+          "date": "2026-09",
+          "says": "스크리닝 룸 ₱570부터"
+        },
+        {
+          "url": "https://parkinganph.com/parking/estancia-mall-parking-pasig-city-c963",
+          "grade": "C",
+          "date": "2026",
+          "says": "승용차 첫 3시간 ₱50, 이후 시간당 ₱20, 야간 ₱500(날짜 미표기)"
+        },
+        {
+          "url": "https://www.topgear.com.ph/features/feature-articles/parking-facility-review-estancia-mall-a958-20190113",
+          "grade": "B",
+          "date": "2019-01",
+          "says": "승용차 첫 4시간 ₱50, 이후 시간당 ₱20"
+        }
+      ],
+      "decision": "식사는 단일 출처라 범위를 낮추고, 카페는 개별 매장 가격을 모아 범위로 표기. 영화는 상영 목록 기준(공식 가격 미공개)이라 현지 확인 병기. 주차는 3시간/4시간 차이가 있어 3~4시간으로 표기하고 변경 가능 명시"
     }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "overview",
-   "fact": "역사",
-   "value": "1950 리살 주청사 이전, 1962~2009 사용, 2010 철거, 2011 재개발",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://en.wikipedia.org/wiki/Capitol_Commons",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "역사 절"
+      "file": "2480-capitol-commons.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Capitol_Commons_Marker,_Pasig,_Nov_2025.jpg",
+      "check": "파일명·간판 글자 CAPITOL COMMONS ORTIGAS, GPS 14.574,121.062, 입구 전경"
     },
     {
-     "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/60321",
-     "grade": "A",
-     "date": "2026-11-18",
-     "says": "Proclamation 883 이 Capitol Commons, Meralco Ave 모퉁이 Shaw Blvd, Oranbo 를 명시(위치 확인)"
+      "file": "2480-capitol-commons-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Estancia_Mall.jpg",
+      "check": "분류 Capitol Commons, 건물 간판 ESTANCIA 가 보임"
+    },
+    {
+      "file": "2480-capitol-commons-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Capitol_Commons_Park_Pathway_1.jpg",
+      "check": "설명 Capitol Commons Park, 'CAPITOL COMMONS' 조형 글자가 보임"
+    },
+    {
+      "file": "2480-capitol-commons-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Capitol_Commons_Park,_Pasig,_Nov_2025.jpg",
+      "check": "파일명 Capitol Commons Park, GPS 14.576,121.064, 단지 안 공원 풍경"
+    },
+    {
+      "file": "2480-capitol-commons-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Estancia_Mall_Interior,_Capitol_Commons,_Pasig,_Nov_2025_(1).jpg",
+      "check": "파일명 Estancia Mall Interior, Capitol Commons, 'ESTANCIA' 네온 글자"
+    },
+    {
+      "file": "2480-capitol-commons-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Estancia_Mall,_Pasig,_Nov_2025_(3).jpg",
+      "check": "파일명 Estancia Mall, 간판 글자 ESTANCIA, GPS 14.578,121.064"
+    },
+    {
+      "file": "2480-capitol-commons-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Camino_Verde_Circle,_Pasig_City,_Dec_2025_(1).jpg",
+      "check": "파일명 Camino Verde Circle, 건물 글자 FOOD HALL(Alley), GPS 14.576,121.063"
+    },
+    {
+      "file": "2480-capitol-commons-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Camino_Verde,_Capitol_Commons,_Pasig,_Nov_2025_(2).jpg",
+      "check": "파일명 Camino Verde, Capitol Commons, 노란 조명 기둥이 단지 안임을 보여 줌"
+    },
+    {
+      "file": "2480-capitol-commons-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:0577jfPasig_City_Capitol_Commons_Sports_Arena_Ortigas_Center_Shaw_Boulevardfvf_03.jpg",
+      "check": "파일명·설명 Capitol Commons (Ortigas & Company), 간판 글자 CAPITOL COMMONS ORTIGAS"
+    },
+    {
+      "file": "2480-capitol-commons-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:0592jfPasig_City_Capitol_Commons_Sports_Arena_Ortigas_Center_Shaw_Boulevardfvf_01.jpg",
+      "check": "파일명·설명 Capitol Commons, 같은 날 다른 구도(화분 광장)"
     }
-   ],
-   "decision": "연도는 위키 단일, 위치는 일치"
-  },
-  {
-   "where": "coordinates",
-   "fact": "좌표",
-   "value": "14.5760,121.0632",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Capitol_Commons",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "14°34′33″N 121°03′49″E"
-    },
-    {
-     "url": "https://nominatim.openstreetmap.org/search?q=Estancia+Mall+Pasig",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "Estancia Mall 14.5762,121.0629"
-    }
-   ],
-   "decision": "두 값의 중간"
-  },
-  {
-   "where": "highlights",
-   "fact": "에스탄시아 몰 규모·동관",
-   "value": "3층, 임대 약 30,000㎡, 2014 완공, 동관 2019-11-29",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Capitol_Commons",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "규모·개장일"
-    },
-    {
-     "url": "https://www.pasigcityguide.com/2026/05/estancia-mall.html",
-     "grade": "C",
-     "date": "2026-05",
-     "says": "동관 영화관·SM 스토어 등"
-    }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "highlights",
-   "fact": "스크리닝 룸·영화관",
-   "value": "리클라이너, 프라이빗 상영관",
-   "sources": [
-    {
-     "url": "https://www.ortigas.com.ph/malls/estancia-mall",
-     "grade": "A",
-     "date": "2026-11-18",
-     "says": "더 스크리닝 룸"
-    },
-    {
-     "url": "https://www.pasigcityguide.com/2026/05/estancia-mall.html",
-     "grade": "C",
-     "date": "2026-05",
-     "says": "4층 영화관, 스크리닝 룸"
-    }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "highlights",
-   "fact": "조명 행사",
-   "value": "2021 트리 조형물, 2022 일루미네이티드 패스 18~22시",
-   "sources": [
-    {
-     "url": "https://www.rappler.com/brandrap/travel-and-food/sights-sounds-capitol-commons-pasig-city-lights-park-installation-2021/",
-     "grade": "B",
-     "date": "2021",
-     "says": "Lights at the Park"
-    },
-    {
-     "url": "https://www.philstar.com/lifestyle/on-the-radar/2022/11/18/2224735/merry-magical-christmas-ortigas-land-brightens-holiday-nights-daily-light-spectacles",
-     "grade": "B",
-     "date": "2022-11-18",
-     "says": "일루미네이티드 패스 매일 18~22시"
-    }
-   ],
-   "decision": "올해 일정은 공식 확인 안내"
-  },
-  {
-   "where": "highlights",
-   "fact": "식당가·펍 가격",
-   "value": "맥주 약 ₱190~210, 칵테일 ₱350~400, 공연 입장 약 ₱500",
-   "sources": [
-    {
-     "url": "https://www.manilabarsandclubs.com/areas/pasig-capitol-commons",
-     "grade": "C",
-     "date": "2026-11",
-     "says": "베뉴 표"
-    },
-    {
-     "url": "https://www.pasigcityguide.com/2026/05/estancia-mall.html",
-     "grade": "C",
-     "date": "2026-05",
-     "says": "마남·12 Monkeys 등 입점"
-    }
-   ],
-   "decision": "범위로 표기, 영업 시간 현지 확인"
-  },
-  {
-   "where": "getting_there",
-   "fact": "MRT-3 쇼 불러바드역 거리",
-   "value": "서쪽 약 1km",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Capitol_Commons",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "MRT 역 약 1km 서쪽"
-    },
-    {
-     "url": "https://www.pasigcityguide.com/2026/05/estancia-mall.html",
-     "grade": "C",
-     "date": "2026-05",
-     "says": "쇼 불러바드역에서 지프니·그랩"
-    }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "getting_there",
-   "fact": "메랄코 애비뉴 폐쇄",
-   "value": "2022-10-03 부터, 2028 까지 계획",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Meralco_Avenue",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "쇼 불러바드~안다 로드 폐쇄"
-    },
-    {
-     "url": "https://en.wikipedia.org/wiki/Shaw_Boulevard_station_(Metro_Manila_Subway)",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "지하철 역 건설, 2022-10 폐쇄"
-    }
-   ],
-   "decision": "종료 시점은 출처마다 달라 계획으로 표기"
-  },
-  {
-   "where": "cautions",
-   "fact": "영업 시간",
-   "value": "대체로 10:00~22:00",
-   "sources": [
-    {
-     "url": "https://www.pasigcityguide.com/2026/05/estancia-mall.html",
-     "grade": "C",
-     "date": "2026-05",
-     "says": "보통 10AM~10PM"
-    },
-    {
-     "url": "https://philstarlife.com/amp/article/981114-list-adjusted-mall-hours-schedule-for-holy-week-2026",
-     "grade": "B",
-     "date": "2026-04",
-     "says": "성주간 2026: 4/2·4/3 휴무, 4/4·4/5 10:00~22:00, 4/6 평소 시간 재개"
-    },
-    {
-     "url": "https://www.ortigas.com.ph/malls/estancia-mall",
-     "grade": "A",
-     "date": "2026-11-19",
-     "says": "정규 영업 시간 미게재, 공식 페이스북 확인 안내"
-    }
-   ],
-   "decision": "일반 시간대 10~22시는 2곳(안내 사이트·언론)이 일치하나 정규 시간 공식 게시는 없어 '보통·무렵'으로 표기하고 확인 안내 유지"
-  },
-  {
-   "where": "costs",
-   "fact": "식사·카페·영화·주차 요금",
-   "value": "식사 약 ₱400~800, 카페 약 ₱100~300, 영화 약 ₱420~440(스크리닝 룸 ₱570~590), 주차 승용차 첫 3~4시간 약 ₱50 후 시간당 ₱20",
-   "sources": [
-    {
-     "url": "https://manilaplaces.com/dining/estancia-mall",
-     "grade": "C",
-     "date": "2026-06-19",
-     "says": "에스탄시아 식당 1인 평균 ₱400~800"
-    },
-    {
-     "url": "https://www.manilabarsandclubs.com/areas/pasig-capitol-commons",
-     "grade": "C",
-     "date": "2026-11",
-     "says": "맥주 ₱190~210, 칵테일 약 ₱350~400"
-    },
-    {
-     "url": "https://sinegang.com/cinemas/ortigas-estancia",
-     "grade": "C",
-     "date": "2026-11",
-     "says": "일반관 ₱420~440, 스크리닝 룸 ₱570~590"
-    },
-    {
-     "url": "https://thebeat.asia/manila/vibe/pop-culture/vip-cinema-luxury-movie-theatre",
-     "grade": "C",
-     "date": "2026-09",
-     "says": "스크리닝 룸 ₱570부터"
-    },
-    {
-     "url": "https://parkinganph.com/parking/estancia-mall-parking-pasig-city-c963",
-     "grade": "C",
-     "date": "2026",
-     "says": "승용차 첫 3시간 ₱50, 이후 시간당 ₱20, 야간 ₱500(날짜 미표기)"
-    },
-    {
-     "url": "https://www.topgear.com.ph/features/feature-articles/parking-facility-review-estancia-mall-a958-20190113",
-     "grade": "B",
-     "date": "2019-01",
-     "says": "승용차 첫 4시간 ₱50, 이후 시간당 ₱20"
-    }
-   ],
-   "decision": "식사는 단일 출처라 범위를 낮추고, 카페는 개별 매장 가격을 모아 범위로 표기. 영화는 상영 목록 기준(공식 가격 미공개)이라 현지 확인 병기. 주차는 3시간/4시간 차이가 있어 3~4시간으로 표기하고 변경 가능 명시"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T08:43:33Z"
 }
