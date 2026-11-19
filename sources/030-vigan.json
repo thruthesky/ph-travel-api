@@ -1,7 +1,7 @@
 {
   "id": 30,
   "slug": "vigan",
-  "checked_at": "2026-10-04T12:00:00Z",
+  "checked_at": "2026-11-19T05:09:27Z",
   "facts": [
     {
       "where": "getting_there",
@@ -182,18 +182,22 @@
       "fact": "구시가지 규모·인구",
       "value": "역사 건물 233채·거리 25개, 인구 54,498명(2024년)",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Vigan", "grade": "B", "date": "2026", "says": "233 historic buildings along a grid of 25 streets, 2024 census 54,498, 1999 세계유산, 2014-12-07 New7Wonders Cities" }
+        { "url": "https://en.wikipedia.org/wiki/Vigan", "grade": "B", "date": "2026", "says": "233 historic buildings along a grid of 25 streets, 2024 census 54,498, 1999 세계유산, 2014-12-07 New7Wonders Cities" },
+        { "url": "https://whc.unesco.org/en/list/502/", "grade": "A", "date": "2026", "says": "유네스코 등재 설명: 아시아에서 가장 잘 보존된 계획 스페인 식민 도시, 233 historic buildings along a grid of 25 streets (검색 결과 요약으로 확인, 페이지 직접 열기는 403)" },
+        { "url": "https://www.citypopulation.de/en/philippines/luzon/admin/ilocos_sur/012934__vigan", "grade": "B", "date": "2026", "says": "PSA 인구조사 집계: 2020년 53,935명, 2024년 54,498명" }
       ],
-      "decision": "위키백과(유네스코 인용) 그대로 씀"
+      "decision": "건물·거리 수는 위키백과와 유네스코, 인구는 위키백과와 PSA 집계(citypopulation.de)가 일치해 그대로 씀"
     },
     {
       "where": "best_time",
       "fact": "기후 평년값(PAGASA 1991~2020)",
       "value": "1~4월 월 강수 20mm 미만, 7월 530mm·8월 614mm, 최고기온 1월 30.2℃·4~5월 33.0℃, 12~2월 최저 21~22℃",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Vigan", "grade": "B", "date": "2026", "says": "PAGASA 평년값 표" }
+        { "url": "https://en.wikipedia.org/wiki/Vigan", "grade": "B", "date": "2026", "says": "PAGASA 평년값 표: 7월 529.8mm, 8월 613.8mm, 1~4월 2.5~17.2mm, 최고기온 1월 30.2℃·4~5월 33.0℃, 최저 12~2월 21.2~22.3℃" },
+        { "url": "https://en.climate-data.org/asia/philippines/ilocos-sur/vigan-1950/", "grade": "C", "date": "2026", "says": "8월 약 631mm(최다), 1월 약 19mm(최소), 연 약 2,772mm — PAGASA 값과 수십 mm 차이" },
+        { "url": "https://weather-and-climate.com/average-monthly-Rainfall-Temperature-Sunshine,vigan-luzon-ph,Philippines", "grade": "C", "date": "2026", "says": "건기 12~4월·우기 5~10월, 8월 약 638mm, 1월 약 14mm" }
       ],
-      "decision": "반올림해 씀, 시기표를 4행으로 다시 나눔"
+      "decision": "관측소·기간별로 수치가 달라 8월 '600mm 안팎', 7월 '500mm 넘게'로 낮춤. 건기 1~4월 월 20mm 미만·기온은 일치해 유지"
     },
     {
       "where": "best_time",
@@ -212,9 +216,10 @@
       "fact": "성주간 인파",
       "value": "하루 수만 명",
       "sources": [
-        { "url": "https://www.gmanetwork.com/regionaltv/news/101057/vigan-prepares-for-surge-of-tourists-during-holy-week/story/", "grade": "B", "date": "2024-03-22", "says": "성주간 하루 5만 명 예상, 숙소 매진" }
+        { "url": "https://www.gmanetwork.com/regionaltv/news/101057/vigan-prepares-for-surge-of-tourists-during-holy-week/story/", "grade": "B", "date": "2024-03-22", "says": "성주간 하루 5만 명 예상, 숙소 매진" },
+        { "url": "https://lakbaypilipinas.com/holy-week-vacationers-visits-historic-vigan-city/", "grade": "C", "date": "2010-04-02", "says": "성주간 수천 명의 신자·관광객이 비간에 몰려 호텔·민박 만실 (숫자 없음, 오래된 기사)" }
       ],
-      "decision": "'수만 명'으로 씀"
+      "decision": "공식 집계는 못 찾고 2024년 시 담당자 예상(5만 명 이상) 1건뿐이라 '하루 수만 명(2024년 예상 약 5만 명)'으로 단정을 낮춤"
     },
     {
       "where": "cautions",

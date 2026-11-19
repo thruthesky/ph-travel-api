@@ -1,7 +1,7 @@
 {
  "id": 2655,
  "slug": "little-tokyo-makati",
- "checked_at": "2026-11-19T04:40:21Z",
+ "checked_at": "2026-11-19T06:10:00Z",
  "facts": [
   {
    "where": "lat/lon",
@@ -73,9 +73,15 @@
      "grade": "A",
      "date": "2026",
      "says": "리틀 도쿄 구간(루피노~아르나이스), 파송 타모→1988 개명, 좌표 14°33′17″N 121°0′49″E"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Chino_Roces",
+     "grade": "B",
+     "date": "2026",
+     "says": "파송 타모 거리가 그의 이름을 따 1988년 치노 로세스 거리로 개명, 같은 해(9월 30일) 별세"
     }
    ],
-   "decision": "위키백과 단일 출처, 역사 사실이라 유지"
+   "decision": "위키백과 두 항목(거리·인물)이 일치하나 독립 출처는 아님(Inquirer 2019 기사는 403 으로 못 엶), 본문을 '위키백과에 소개되어 있다'로 낮춤"
   },
   {
    "where": "overview",
@@ -120,30 +126,42 @@
   {
    "where": "highlights",
    "fact": "카구라 현금만",
-   "value": "cash only",
+   "value": "카드 단말기 없음, GCash ₱15 추가(예전엔 현금만)",
    "sources": [
     {
      "url": "https://www.thetravel.com/best-restaurants-in-little-tokyo-makati-manila/",
      "grade": "B",
      "date": "2023-10-25",
      "says": "식당별 특징·영업 시간·현금만 받는 카구라·분위기"
+    },
+    {
+     "url": "https://wanderlog.com/place/details/1521949",
+     "grade": "C",
+     "date": "2026-10",
+     "says": "구글 후기: 2023-11 예전엔 현금만이었으나 GCash(₱15 추가)·계좌이체 가능, 2026-10 카드 단말기 없고 GCash QR 수수료 있음"
     }
    ],
-   "decision": "단일 출처 2023, 본문에 '소개'로 표기"
+   "decision": "'현금만'은 옛 정보 — 2023·2026 후기가 GCash 수수료·카드 불가로 갱신, 본문을 그에 맞게 고치고 현금 지참 권장 유지"
   },
   {
    "where": "highlights",
    "fact": "입폰도 영업 시간",
-   "value": "평일 오후~새벽",
+   "value": "평일 15:30~04:00, 주말 11:30~04:00",
    "sources": [
     {
      "url": "https://www.thetravel.com/best-restaurants-in-little-tokyo-makati-manila/",
      "grade": "B",
      "date": "2023-10-25",
      "says": "식당별 특징·영업 시간·현금만 받는 카구라·분위기"
+    },
+    {
+     "url": "https://primer.com.ph/food/location/philippines/makati/little-tokyo/menya-ippondo/",
+     "grade": "B",
+     "date": "2025-07-21",
+     "says": "월~금 3:30pm~4:00am, 토·일 11:30am~4:00am"
     }
    ],
-   "decision": "단일 출처, '한 소개 글에 따르면'으로 표기"
+   "decision": "2025-07 Primer 시간으로 구체화하고 '바뀔 수 있으니 확인' 병기"
   },
   {
    "where": "getting_there",
@@ -157,7 +175,7 @@
      "says": "그린벨트·레가스피 공원 일대에서 리틀 도쿄까지 15분 미만 도보(원문 \"less than 15 minutes\")"
     }
    ],
-   "decision": "단일 출처(2019, coupongrocer 2026 글에는 도보 시간 없음 확인), '소개가 있다'로 표기 유지"
+   "decision": "단일 출처(2019, coupongrocer 2026 글에는 도보 시간 없음 확인)라 '약 15분 안팎·2019년 안내 기준'으로 낮춤"
   },
   {
    "where": "getting_there",
@@ -222,30 +240,54 @@
   {
    "where": "cautions",
    "fact": "흡연",
-   "value": "지정 구역",
+   "value": "골목 안 작은 흡연 구역 외 금지(2019), 식당별 자체 흡연 구역",
    "sources": [
     {
      "url": "https://primer.com.ph/feature/2019/08/16/little-tokyo-in-makati-street-guide-2019/",
      "grade": "B",
      "date": "2019-08-16",
-     "says": "1999년 등불, 토리이 문 두 곳(페르난도·치노 로세스), 현금 지참, 주차, 도보 15분"
+     "says": "\"There is a small area inside Little Tokyo itself for smoking\", 그 밖에서는 금지"
+    },
+    {
+     "url": "https://primer.com.ph/blog/2021/02/03/little-tokyo-with-love-5-japanese-restaurants-you-can-explore/",
+     "grade": "B",
+     "date": "2021-02-04",
+     "says": "리틀 도쿄 일부 식당 정보에 흡연 구역(지정 흡연석) 표기(검색 결과 요약 기준)"
     }
    ],
-   "decision": "2019 기사"
+   "decision": "공식 규정은 못 찾음, 2019·2021 기사 기준이라 '현재 규정은 달라질 수 있어 현장 안내를 따르라'로 낮춤"
   },
   {
    "where": "stay_and_food",
    "fact": "대안",
-   "value": "BGC 미쓰코시, 더 언더벨리 미쉐린 빕 구르망",
+   "value": "BGC 미쓰코시, 더 언더벨리(카리빈 플라자, 2025 미쉐린 빕 구르망)",
    "sources": [
     {
      "url": "https://coupongrocer.com/food/is-little-tokyo-still-metro-manilas-best-japanese-food-spot-heres-whats-new-and-better-today/",
      "grade": "B",
      "date": "2026-08",
      "says": "2026년 영업 중 식당, Hana 폐업, 점심·저녁 따로 영업, 주차 제한, 대안 식당"
+    },
+    {
+     "url": "https://guide.michelin.com/en/metro-manila/makati-city_2329358/restaurant/the-underbelly",
+     "grade": "A",
+     "date": "2025",
+     "says": "The Alley at Karrivin, Karrivin Plaza, 2316 Chino Roces Avenue Extension, Makati, 라멘·일식"
+    },
+    {
+     "url": "https://philstarlife.com/living/329938-the-underbelly-bib-gourmand-win-free-noodle-refill",
+     "grade": "B",
+     "date": "2025-11-06",
+     "says": "더 언더벨리가 2025-10-30 공개된 첫 미쉐린 가이드 필리핀에서 빕 구르망 선정, 치노 로세스 거리 연장 구간 카리빈 알리"
+    },
+    {
+     "url": "https://federalland.ph/articles/best-japanese-restaurants-in-bgc",
+     "grade": "B",
+     "date": "2026",
+     "says": "BGC 일식당 소개(미쓰코시 BGC 지하 푸드코트·일식당 포함, 검색 결과 요약 기준)"
     }
    ],
-   "decision": "단일 출처, '한 매체'로 표기"
+   "decision": "언더벨리는 리틀 도쿄 골목이 아니라 치노 로세스 거리 연장 구간(카리빈)임을 본문에 밝히고 빕 구르망 시기를 2025년 10월로 구체화, 미쓰코시는 BGC 일식 대안으로 유지"
   }
  ],
  "images": []

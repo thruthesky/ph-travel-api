@@ -1,7 +1,7 @@
 {
   "id": 1742,
   "slug": "majayjay-church",
-  "checked_at": "2026-11-19T04:00:00Z",
+  "checked_at": "2026-11-19T05:00:00Z",
   "facts": [
     {
       "where": "costs",
@@ -116,16 +116,22 @@
     {
       "where": "highlights",
       "fact": "성당 규모",
-      "value": "길이 60m 폭 17m 높이 16.5m",
+      "value": "길이 약 60m 폭 약 17m, 높이 약 16.5m(기준 불확실)",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Majayjay_Church",
           "grade": "B",
           "date": "2026-11",
-          "says": "60 m long, 17 m wide, 16.5 m high"
+          "says": "60 m long, 17 m wide, 16.5 m high (Inquirer 2010 인용)"
+        },
+        {
+          "url": "https://benjielayug.com/2014/08/church-of-pope-st-gregory-the-great-majayjay-laguna-2.html",
+          "grade": "C",
+          "date": "2014",
+          "says": "60-m long, 17-m wide rectangular nave; 16.5-m high solid buttresses(전체 높이가 아님)"
         }
       ],
-      "decision": "단일 출처, 수치만 기재"
+      "decision": "길이·폭은 2곳 일치. 16.5m 는 위키가 높이로, 블로그가 종탑 버팀벽 높이로 적어 엇갈려 '알려져 있다'로 낮추고 기준 불확실을 본문에 밝힘"
     },
     {
       "where": "overview",
@@ -170,30 +176,54 @@
     {
       "where": "highlights",
       "fact": "타이타이 폭포 높이",
-      "value": "약 15m",
+      "value": "약 10~15m",
       "sources": [
         {
           "url": "https://en.wikivoyage.org/wiki/Majayjay",
           "grade": "B",
           "date": "2026-11",
-          "says": "about 15 m high"
+          "says": "15 m (49 ft) high"
+        },
+        {
+          "url": "https://www.taraletsanywhere.com/waterfalls-in-laguna",
+          "grade": "C",
+          "date": "2025-10",
+          "says": "about 10-15 meters high"
+        },
+        {
+          "url": "https://www.pinoymountaineer.com/2007/09/taytay-falls.html",
+          "grade": "C",
+          "date": "2007",
+          "says": "Height: 12 meters"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Majayjay",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "two-story high fall(미터 수치 없음)"
         }
       ],
-      "decision": "단일 출처"
+      "decision": "12~15m 로 엇갈려 10~15m 범위로 표기"
     },
     {
       "where": "getting_there",
       "fact": "지프니 터미널·배차",
-      "value": "오르도녜스 거리 터미널, 마그달레나 대기 최대 1시간",
+      "value": "시내 마하이하이 교통 터미널(위키보이지: 오르도녜스 거리), 마그달레나 대기 길게는 약 1시간(한 곳 사례)",
       "sources": [
         {
           "url": "https://en.wikivoyage.org/wiki/Majayjay",
           "grade": "B",
           "date": "2026-11",
           "says": "Majayjay Transport Cooperative terminal on Ordoñez; wait up to an hour"
+        },
+        {
+          "url": "https://penfires.com/how-to-commute-to-taytay-falls-of-majayjay-laguna/",
+          "grade": "C",
+          "date": "2026",
+          "says": "나그칼란에서 마하이하이 지프니 터미널을 물어보라고 안내하고, 마하이하이 지프니 종점은 시내 중심 교회 근처라고 적는다. 거리명·대기 시간은 적지 않음."
         }
       ],
-      "decision": "위키보이지 1곳(B)만 확인되어 본문은 '최대 약'으로 낮춰 표기하고 현지 확인을 유지"
+      "decision": "터미널 존재는 2곳 일치, 거리명·1시간은 위키보이지 1곳뿐이라 본문에서 '안내가 있으나 현지 확인'으로 낮춤"
     },
     {
       "where": "costs",
@@ -238,16 +268,22 @@
     {
       "where": "best_time",
       "fact": "월평균 기온",
-      "value": "1월 24.2℃, 5월 27.4℃",
+      "value": "1월 약 24~25℃, 5월 약 27~30℃",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Majayjay",
           "grade": "B",
           "date": "2026-11",
           "says": "24.2 C Jan, 27.4 C May"
+        },
+        {
+          "url": "https://weatherandclimate.com/philippines/laguna/majayjay",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "January 25.03 C, May 29.8 C"
         }
       ],
-      "decision": "단일 출처"
+      "decision": "두 자료의 값이 달라(5월 27.4 vs 29.8) 범위로 표기"
     }
   ],
   "images": [

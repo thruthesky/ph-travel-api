@@ -1,7 +1,7 @@
 {
   "id": 37,
   "slug": "palaui-island",
-  "checked_at": "2026-11-19T03:00:00Z",
+  "checked_at": "2026-11-19T04:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -186,20 +186,23 @@
     {
       "where": "best_time",
       "fact": "산타아나 기후 수치",
-      "value": "연 강수량 1,818mm, 10~12월 월 240~300mm, 4월 48mm, 1월 최고 24℃, 4~6월 최고 31℃",
+      "value": "연 강수량 약 1,800~2,300mm(자료별 차이), 10~12월 월 약 240~310mm, 4월 약 50~70mm, 1월 최고 약 24℃, 4~6월 최고 약 31℃",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Santa_Ana,_Cagayan", "grade": "B", "date": "2026-10", "says": "Weather box — Jan high 24; Apr–Jun high 31; Oct 240, Nov 246, Dec 300, Apr 48 mm; 1,818 mm annually" }
+        { "url": "https://en.wikipedia.org/wiki/Santa_Ana,_Cagayan", "grade": "B", "date": "2026-10", "says": "Weather box — Jan high 24; Apr–Jun high 31; Oct 240, Nov 246, Dec 300, Apr 48 mm; 1,818 mm annually" },
+        { "url": "https://en.climate-data.org/asia/philippines/cagayan/santa-ana-21246/", "grade": "C", "date": "2026", "says": "April driest (about 69 mm), November wettest (about 309 mm), about 2,306 mm annually — differs from Wikipedia's 1,818 mm" }
       ],
-      "decision": "새 문단과 시기표(6월~8월·9월~10월로 나눔)에 씀"
+      "decision": "두 출처의 수치가 달라(연 1,818 vs 2,306mm, 4월 48 vs 69mm) 범위·약으로 낮추고 기온은 위키 기후표 기준으로 표시"
     },
     {
       "where": "best_time",
       "fact": "비라이 축제 날짜",
       "value": "해마다 5월 26일~28일 (조례 57-2020)",
       "sources": [
-        { "url": "https://santaanacagayan.gov.ph/", "grade": "A", "date": "2023", "says": "The Viray Festival ... held annually every 26th through 28th of May as stipulated in Local Ordinance 57-2020; street parade, cultural presentations" }
+        { "url": "https://santaanacagayan.gov.ph/", "grade": "A", "date": "2023", "says": "The Viray Festival ... held annually every 26th through 28th of May as stipulated in Local Ordinance 57-2020; street parade, cultural presentations" },
+        { "url": "https://santaanacagayan.gov.ph/?p=1456", "grade": "A", "date": "2023", "says": "Viray Festival held annually every 26th through 28th of May as stipulated in Local Ordinance 57-2020 (2023 edition post)" },
+        { "url": "https://en.wikipedia.org/wiki/Santa_Ana,_Cagayan", "grade": "B", "date": "2026-11", "says": "Viray Festival every year from May 26 to May 30 (launched June 2005) — differs from the ordinance 26–28" }
       ],
-      "decision": "조례로 정한 고정 날짜라 공식 1곳으로 씀"
+      "decision": "지자체 공식 2건(홈페이지·게시글)이 조례 57-2020 의 5월 26~28일로 일치, 위키백과는 26~30일로 달라 본문에 병기하고 시 조례상으로 표현"
     },
     {
       "where": "best_time / cautions",
@@ -254,7 +257,7 @@
       "sources": [
         { "url": "https://grokipedia.com/page/Santa_Ana,_Cagayan", "grade": "C", "says": "fire damaged facilities at Nature Village in March 2025" }
       ],
-      "decision": "AI 생성 문서 1곳뿐이고 언론·공식 확인이 안 되어 쓰지 않음"
+      "decision": "AI 생성 문서 1곳뿐이고 2026-11 재검색에서도 언론·공식 보도를 찾지 못해 계속 쓰지 않음(본문에는 일반적인 출항 금지 확인 안내만 있음)"
     }
   ],
   "images": [
