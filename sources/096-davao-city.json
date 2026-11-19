@@ -1,7 +1,7 @@
 {
   "id": 96,
   "slug": "davao-city",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T11:07:00Z",
   "facts": [
     {
       "where": "itinerary",
@@ -48,6 +48,84 @@
         }
       ],
       "decision": "오전 공원 일정을 점심 뒤로 옮기고 야시장 시작 시간을 명시한다."
+    },
+    {
+      "where": "costs / highlights",
+      "fact": "필리핀 독수리 센터·에덴 자연공원 입장료",
+      "value": "독수리 센터 성인 약 ₱150(환경 수수료 약 ₱5 별도, 재단 사이트는 ₱50 표기), 에덴 입장+뷔페 약 ₱550.",
+      "sources": [
+        {
+          "url": "https://www.philippineeagle.org/center/",
+          "grade": "A",
+          "date": "2023",
+          "says": "성인 ₱50·청소년 ₱30, 매일 08:00-17:00, 수도국 수수료 ₱5 별도(게시일 불명)"
+        },
+        {
+          "url": "https://wanderlog.com/place/details/6229/philippine-eagle-center",
+          "grade": "C",
+          "date": "2026-05",
+          "says": "2025~2026년 방문 후기에 성인 ₱150 표기"
+        },
+        {
+          "url": "https://www.kingtolentino.com/blog/davao-travel-guide",
+          "grade": "C",
+          "date": "2025",
+          "says": "에덴 자연공원 입장 ₱550(뷔페 포함), 독수리 센터 안내 투어 ₱300"
+        }
+      ],
+      "decision": "공식 값과 최근 후기가 달라 독수리 센터는 약 ₱150에 공식 표기 차이와 현지 확인을 붙이고, 에덴은 입장+뷔페 약 ₱550으로 적는다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "홍콩·방콕 직항 재개",
+      "value": "세부퍼시픽이 다바오-홍콩 2026-10-25(주 4회), 다바오-방콕 돈므앙 2026-10-26(주 3회)부터 운항하기로 했다.",
+      "sources": [
+        {
+          "url": "https://www.sunstar.com.ph/davao/cebu-pacific-resumes-intl-connectivity-for-davao",
+          "grade": "B",
+          "date": "2026-08",
+          "says": "홍콩 10월 25일 주 4회, 방콕 10월 26일 주 3회 재개"
+        },
+        {
+          "url": "https://www.aeroroutes.com/eng/260814-5jnw26dvo",
+          "grade": "B",
+          "date": "2026-08",
+          "says": "2026/27 겨울 시즌 두 노선 재개, 시간표 변경 가능"
+        }
+      ],
+      "decision": "10월 말을 구체 날짜로 바꾸고 실제 운항은 항공사 확인으로 안내한다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "지프니·장거리 버스 요금",
+      "value": "재래식 지프니 첫 4km ₱14·현대식 ₱17(2026-09-28 인상), 카가얀데오로 버스 약 ₱715~955, 제너럴산토스 버스 약 ₱240~330.",
+      "sources": [
+        {
+          "url": "https://www.sunstar.com.ph/davao/rising-fuel-costs-force-fare-hikes-across-davao-region",
+          "grade": "B",
+          "date": "2026-09",
+          "says": "다바오 지역 재래식 지프니 ₱13에서 ₱14, 현대식 ₱15에서 ₱17, 택시 기본 ₱50에서 ₱65"
+        },
+        {
+          "url": "https://www.topgear.com.ph/news/industry-news/dotr-fare-hike-september-28-2026-a6941-20260928",
+          "grade": "B",
+          "date": "2026-09",
+          "says": "전국 지프니 ₱14/₱17 인상 확인"
+        },
+        {
+          "url": "https://pamasahe.com/routes/davao-cagayan-de-oro-rural-transit-schedule-fares",
+          "grade": "C",
+          "date": "2026-09",
+          "says": "다바오-카가얀데오로 루랄 트랜짓 ₱955, 약 5시간 30분, 유류할증으로 더 높을 수 있음"
+        },
+        {
+          "url": "https://ph.commutetour.com/ph/terminal/bulaong-general-santos-terminal/",
+          "grade": "C",
+          "date": "2026-01",
+          "says": "제너럴산토스-다바오 옐로 버스 ₱330, 에콜랜드 도착"
+        }
+      ],
+      "decision": "지프니 값에 인상 시점을 붙이고 제너럴산토스 버스는 약 ₱250~350·3시간 안팎으로 고친다. 카가얀데오로 버스는 기존 범위를 유지한다."
     }
   ],
   "images": []

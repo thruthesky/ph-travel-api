@@ -1,7 +1,7 @@
 {
   "id": 110,
   "slug": "verde-island",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "getting_there / costs",
@@ -22,6 +22,78 @@
         }
       ],
       "decision": "최신 고정 시간표가 확인되지 않아 타방가오 출항은 기존 기록으로 소개하고 왕복편을 직접 확인하게 한다."
+    },
+    {
+      "where": "costs / getting_there",
+      "fact": "공공 배 운임·출발 시각·환경 요금",
+      "value": "공공 배 편도 ₱100~250(자료마다 상이), 타방가오 약 오전 9시 출발(사람이 차면 출발)·섬에서 새벽 4시 복귀, 전세 방카 약 ₱3,500부터, 환경 요금 약 ₱100(리조트·마을 징수)",
+      "sources": [
+        {
+          "url": "https://www.thepoortraveler.net/2018/04/isla-verde-island-batangas-city/",
+          "grade": "C",
+          "date": "2026-04",
+          "says": "2026년 4월 갱신: 공공 배 ₱250, 작은 배 ₱10, 전세 방카 편도 ₱3,500부터, 환경 요금 1인 ₱100, 복귀 4시"
+        },
+        {
+          "url": "https://supercat.ph/?p=3501",
+          "grade": "C",
+          "date": "2025-08",
+          "says": "베르데 섬행 하루 1회 왕복, 사람이 차면 출발해 타방가오에 일찍 올 것을 권함"
+        },
+        {
+          "url": "https://www.philippinebeaches.org/?p=8037",
+          "grade": "C",
+          "date": "2018",
+          "says": "공공 배 ₱120, 오전 9시 출발, 복귀 새벽 4시, 전세 ₱2,000~2,500 (2018년 자료, 참고만)"
+        }
+      ],
+      "decision": "최근 12개월 자료는 운임이 ₱250(2026)·₱100(2023) 등으로 갈려 범위로 낮추고 현지 확인을 붙였다. 환경 요금은 단일 최신 출처라 범위·현지 확인으로 유지했다."
+    },
+    {
+      "where": "costs",
+      "fact": "바탕가스–푸에르토갈레라 페리 요금·바탕가스 항구 터미널 요금",
+      "value": "페리 편도 약 ₱650~900(2026년 7월 개정 ₱650~880), 바탕가스 항구 터미널 요금 2026년 7월 1일부터 ₱90",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/posts/puerto-galera-announces-updated-ferry-fare-rates-for-batangas-balatero-routes-effective-july-2026",
+          "grade": "B",
+          "date": "2026-07",
+          "says": "2026년 7월 개정 운임: 갈레리안 ₱650·₱880, 아일랜드 워터 ₱655·₱870, 몬테네그로 ₱663(고속선)"
+        },
+        {
+          "url": "https://pamasahe.com/posts/batangas-port-to-implement-final-terminal-fee-increase-in-july-2026",
+          "grade": "B",
+          "date": "2026-06",
+          "says": "바탕가스 항구 여객 터미널 요금 2026년 7월 1일 ₱60에서 ₱90으로 인상(PPA)"
+        },
+        {
+          "url": "https://www.gmanetwork.com/news/topstories/regions/970579/batangas-port-passenger-terminal-fee-to-increase-starting-jan-2026-ppa/story/",
+          "grade": "B",
+          "date": "2025-12",
+          "says": "PPA 터미널 요금 2026년 1월 ₱30에서 ₱60으로 인상, 2단계 인상 예정"
+        }
+      ],
+      "decision": "세 곳이 같은 방향이라 요금 범위를 유지하고 비고에 터미널 요금 ₱90을 더했다."
+    },
+    {
+      "where": "overview",
+      "fact": "2023년 미션 블루 희망의 바다 지정",
+      "value": "베르데 섬 해협이 2023년 7월 미션 블루 희망의 바다로 지정됨",
+      "sources": [
+        {
+          "url": "https://calacademy.org/press/releases/philippines%E2%80%99-verde-island-passage-receives-%E2%80%9Chope-spot%E2%80%9D-designation",
+          "grade": "B",
+          "date": "2023-07",
+          "says": "캘리포니아과학아카데미 보도자료: 베르데 섬 해협이 미션 블루 희망의 바다로 지정"
+        },
+        {
+          "url": "https://missionblue.org/?p=67243",
+          "grade": "A",
+          "date": "2023",
+          "says": "미션 블루: 베르데 섬 해협 희망의 바다 지정, 지역 산호초 감시 프로그램 강조"
+        }
+      ],
+      "decision": "연도 2023 일치 확인, 본문 유지."
     }
   ],
   "images": []
