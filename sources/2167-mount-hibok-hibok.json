@@ -1,172 +1,224 @@
 {
- "id": 2167,
- "slug": "mount-hibok-hibok",
- "checked_at": "2026-11-19T06:00:00Z",
- "facts": [
-  {
-   "where": "lat/lon",
-   "fact": "좌표",
-   "value": "9.2006,124.6681",
-   "sources": [
+  "id": 2167,
+  "slug": "mount-hibok-hibok",
+  "checked_at": "2026-11-19T06:00:00Z",
+  "facts": [
     {
-     "url": "https://en.wikipedia.org/wiki/Hibok-Hibok",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "1,332m, 1871-75 and 1948-51 eruptions, PHIVOLCS observatory, DENR Mambajao permit"
+      "where": "lat/lon",
+      "fact": "좌표",
+      "value": "9.2006,124.6681",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hibok-Hibok",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "1,332m, 1871-75 and 1948-51 eruptions, PHIVOLCS observatory, DENR Mambajao permit"
+        },
+        {
+          "url": "https://www.pinoymountaineer.com/2007/08/mt-hibok-hibok-1332.html",
+          "grade": "C",
+          "date": "2013",
+          "says": "Ardent jump-off, 9°12'2\"N 124°40'5\"E, P200 registration, guide P1,200-1,500, 3-5h"
+        }
+      ],
+      "decision": "두 출처가 9°12'02\"N 124°40'05\"E 로 일치(아덴트/산 위치)"
     },
     {
-     "url": "https://www.pinoymountaineer.com/2007/08/mt-hibok-hibok-1332.html",
-     "grade": "C",
-     "date": "2013",
-     "says": "Ardent jump-off, 9°12'2\"N 124°40'5\"E, P200 registration, guide P1,200-1,500, 3-5h"
+      "where": "overview",
+      "fact": "해발·분화 역사",
+      "value": "1,332m; 1871-75, 1948-51",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hibok-Hibok",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "1,332m, 1871-75 and 1948-51 eruptions, PHIVOLCS observatory, DENR Mambajao permit"
+        },
+        {
+          "url": "https://www.pinoymountaineer.com/2007/08/mt-hibok-hibok-1332.html",
+          "grade": "C",
+          "date": "2013",
+          "says": "Ardent jump-off, 9°12'2\"N 124°40'5\"E, P200 registration, guide P1,200-1,500, 3-5h"
+        }
+      ],
+      "decision": "사망자는 자료 간 차이가 커서 범위로 서술"
+    },
+    {
+      "where": "costs",
+      "fact": "DENR 허가",
+      "value": "약 ₱200~500",
+      "sources": [
+        {
+          "url": "https://www.pinoymountaineer.com/2007/08/mt-hibok-hibok-1332.html",
+          "grade": "C",
+          "date": "2013",
+          "says": "Ardent jump-off, 9°12'2\"N 124°40'5\"E, P200 registration, guide P1,200-1,500, 3-5h"
+        },
+        {
+          "url": "https://mindanaochronicles.com/?p=10651",
+          "grade": "B",
+          "date": "2025-07-25",
+          "says": "DENR permit and guide required, guide P1,200/group, permit P500/person, ASEAN Heritage Park 2015, 2,200 ha"
+        }
+      ],
+      "decision": "출처마다 다름 → 범위+현지 확인"
+    },
+    {
+      "where": "costs",
+      "fact": "가이드",
+      "value": "약 ₱1,200~2,000",
+      "sources": [
+        {
+          "url": "https://mindanaochronicles.com/?p=10651",
+          "grade": "B",
+          "date": "2025-07-25",
+          "says": "DENR permit and guide required, guide P1,200/group, permit P500/person, ASEAN Heritage Park 2015, 2,200 ha"
+        },
+        {
+          "url": "https://www.pinoymountaineer.com/2007/08/mt-hibok-hibok-1332.html",
+          "grade": "C",
+          "date": "2013",
+          "says": "Ardent jump-off, 9°12'2\"N 124°40'5\"E, P200 registration, guide P1,200-1,500, 3-5h"
+        },
+        {
+          "url": "https://topologica.co/local-guides/philippines/camiguin-island-born-of-fire-guide/",
+          "grade": "C",
+          "date": "2026",
+          "says": "Ferry Balingoan-Benoni P180-250 ~1h, habal-habal 10min, Dec-Apr"
+        }
+      ],
+      "decision": "범위로 표기"
+    },
+    {
+      "where": "getting_there",
+      "fact": "발링오안-베노니 페리",
+      "value": "₱300~360, 1~1시간 30분",
+      "sources": [
+        {
+          "url": "https://topologica.co/local-guides/philippines/camiguin-island-born-of-fire-guide/",
+          "grade": "C",
+          "date": "2026",
+          "says": "Ferry Balingoan-Benoni P180-250 ~1h, habal-habal 10min, Dec-Apr (older figure, superseded)"
+        },
+        {
+          "url": "https://pamasahe.com/routes/benoni-balingoan-super-shuttle-ferry-schedule-fares",
+          "grade": "B",
+          "date": "2026-09",
+          "says": "Super Shuttle Ferry passenger fare P359 (table regular P330), about 1h30, fares may be higher with fuel surcharge"
+        },
+        {
+          "url": "https://joansfootprints.com/2026/06/17/2023-camiguin-diy-itinerary-budget/",
+          "grade": "C",
+          "date": "2026-06",
+          "says": "Balingoan-Benoni ferry about 1 hour, Php360 terminal fee included, first trip 4:30am, last 6:30pm"
+        },
+        {
+          "url": "https://philippinedives.com/how-to-get-to-camiguin/",
+          "grade": "C",
+          "date": "2026",
+          "says": "RoRo fare PHP 300-360 per passenger plus about PHP 30 terminal fee, 45min-1h, Super Shuttle and St. Benedict operate"
+        }
+      ],
+      "decision": "3곳이 ₱300~360 으로 일치(기존 ₱180~250 은 오래된 값) → 범위 ₱300~360, 1~1시간 30분, 연료비·시즌 변동은 현지 확인"
+    },
+    {
+      "where": "cautions",
+      "fact": "경보 단계",
+      "value": "Alert Level 0 (2026-04)",
+      "sources": [
+        {
+          "url": "https://www.untvnews.com/news/dost-phivolcs-hibok-hibok-volcano-remains-under-alert-level-0-vs-fake-news",
+          "grade": "B",
+          "date": "2026-04",
+          "says": "DOST-PHIVOLCS: Hibok-Hibok remains under Alert Level 0 vs fake news (published 2026-04-17)"
+        },
+        {
+          "url": "https://verafiles.org/articles/fact-check-no-recent-eruption-recorded-at-mount-hibok-hibok",
+          "grade": "B",
+          "date": "2026-04",
+          "says": "Fact check: PHIVOLCS Facebook advisory of April 15 said Mount Hibok-Hibok is at Alert Level 0, no recent eruption"
+        }
+      ],
+      "decision": "두 출처(UNTV·Vera Files)가 2026-04 PHIVOLCS 발표 경보 단계 0 으로 일치 → 본문 유지, 상황이 바뀔 수 있어 최신 공지 확인 문구 병기"
+    },
+    {
+      "where": "itinerary",
+      "fact": "소요 시간",
+      "value": "정상까지 3~5h, 왕복 6~10h",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hibok-Hibok",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "1,332m, 1871-75 and 1948-51 eruptions, PHIVOLCS observatory, DENR Mambajao permit"
+        },
+        {
+          "url": "https://mindanaochronicles.com/?p=10651",
+          "grade": "B",
+          "date": "2025-07-25",
+          "says": "DENR permit and guide required, guide P1,200/group, permit P500/person, ASEAN Heritage Park 2015, 2,200 ha"
+        },
+        {
+          "url": "https://volcanohiking.com/2026/03/15/mount-hibok-hibok/",
+          "grade": "C",
+          "date": "2026-03-15",
+          "says": "guide ~P1,200, 6-10h round trip (not directly opened; via search summary)"
+        }
+      ],
+      "decision": "자료마다 달라 범위 표기"
     }
-   ],
-   "decision": "두 출처가 9°12'02\"N 124°40'05\"E 로 일치(아덴트/산 위치)"
-  },
-  {
-   "where": "overview",
-   "fact": "해발·분화 역사",
-   "value": "1,332m; 1871-75, 1948-51",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://en.wikipedia.org/wiki/Hibok-Hibok",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "1,332m, 1871-75 and 1948-51 eruptions, PHIVOLCS observatory, DENR Mambajao permit"
+      "file": "2167-mount-hibok-hibok.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Hibok_Hibok_volcano_and_Camiguin_volcano.jpg",
+      "check": "분류 Mount Hibok-Hibok·White Island, 설명에 'View from White Island on Mt. Hibok-Hibok', GPS 9.259,124.654, 사진에서 산 전경 확인"
     },
     {
-     "url": "https://www.pinoymountaineer.com/2007/08/mt-hibok-hibok-1332.html",
-     "grade": "C",
-     "date": "2013",
-     "says": "Ardent jump-off, 9°12'2\"N 124°40'5\"E, P200 registration, guide P1,200-1,500, 3-5h"
+      "file": "2167-mount-hibok-hibok-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Timpoong_and_Hibok-Hibok_Natural_Monument_in_Camiguin_-_Allan_Jay_Quesada.jpg",
+      "check": "분류 Mount Hibok-Hibok, 제목 Hibok-Hibok Natural Monument, 항공 전경에서 산 확인"
+    },
+    {
+      "file": "2167-mount-hibok-hibok-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bringing_to_Shore.jpg",
+      "check": "분류 Mount Hibok-Hibok, 설명 'Mount Hibok-Hibok in the background', 보이는 산과 방카 확인"
+    },
+    {
+      "file": "2167-mount-hibok-hibok-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mount_Hibok-HIbok.jpg",
+      "check": "분류 Mount Hibok-Hibok, 설명 'Mount Hibok-Hibok from White Island', 산 능선 확인"
+    },
+    {
+      "file": "2167-mount-hibok-hibok-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mount_Hibok-Hibok_(Catarman_Volcano),_Camiguin_Island,_Philippines_(52314108123).jpg",
+      "check": "분류 Mount Hibok-Hibok, 설명에 Catarman Volcano·GPS 9.267,124.667, 산 전경 확인"
+    },
+    {
+      "file": "2167-mount-hibok-hibok-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Camiguin_Island_-_Off_the_Coast_of_Magting,_on_a_Paddle_Bangka.jpg",
+      "check": "분류 Mount Hibok-Hibok, 설명 'Mount Hibok-Hibok ... from a bangka', 산 능선 확인"
+    },
+    {
+      "file": "2167-mount-hibok-hibok-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Hibok_Hibok_Volcano_Crater.jpg",
+      "check": "분류 Mount Hibok-Hibok, 설명 'Yumbing Trail ... crater ... 1237 MASL', GPS 9.203,124.674, 분화구 호수 확인"
+    },
+    {
+      "file": "2167-mount-hibok-hibok-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Hibok-Hibok_Volcano_Summit.jpg",
+      "check": "분류 Mount Hibok-Hibok, 설명 'summit ... 1332 meters', GPS 9.204,124.677, 정상 능선 확인"
+    },
+    {
+      "file": "2167-mount-hibok-hibok-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Raising_Hands_at_Hibok-Hibok_Volcano_Summit.jpg",
+      "check": "분류 Mount Hibok-Hibok, 설명 'highest point at 1332MASL', GPS 9.203,124.675, 정상 바위와 바다 확인"
+    },
+    {
+      "file": "2167-mount-hibok-hibok-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Nepenthes_ramos_plant.jpg",
+      "check": "설명 'Nepenthes ramos plant from Mt. Hibok-Hibok, Camiguin', 바위 위 벌레잡이풀 확인"
     }
-   ],
-   "decision": "사망자는 자료 간 차이가 커서 범위로 서술"
-  },
-  {
-   "where": "costs",
-   "fact": "DENR 허가",
-   "value": "약 ₱200~500",
-   "sources": [
-    {
-     "url": "https://www.pinoymountaineer.com/2007/08/mt-hibok-hibok-1332.html",
-     "grade": "C",
-     "date": "2013",
-     "says": "Ardent jump-off, 9°12'2\"N 124°40'5\"E, P200 registration, guide P1,200-1,500, 3-5h"
-    },
-    {
-     "url": "https://mindanaochronicles.com/?p=10651",
-     "grade": "B",
-     "date": "2025-07-25",
-     "says": "DENR permit and guide required, guide P1,200/group, permit P500/person, ASEAN Heritage Park 2015, 2,200 ha"
-    }
-   ],
-   "decision": "출처마다 다름 → 범위+현지 확인"
-  },
-  {
-   "where": "costs",
-   "fact": "가이드",
-   "value": "약 ₱1,200~2,000",
-   "sources": [
-    {
-     "url": "https://mindanaochronicles.com/?p=10651",
-     "grade": "B",
-     "date": "2025-07-25",
-     "says": "DENR permit and guide required, guide P1,200/group, permit P500/person, ASEAN Heritage Park 2015, 2,200 ha"
-    },
-    {
-     "url": "https://www.pinoymountaineer.com/2007/08/mt-hibok-hibok-1332.html",
-     "grade": "C",
-     "date": "2013",
-     "says": "Ardent jump-off, 9°12'2\"N 124°40'5\"E, P200 registration, guide P1,200-1,500, 3-5h"
-    },
-    {
-     "url": "https://topologica.co/local-guides/philippines/camiguin-island-born-of-fire-guide/",
-     "grade": "C",
-     "date": "2026",
-     "says": "Ferry Balingoan-Benoni P180-250 ~1h, habal-habal 10min, Dec-Apr"
-    }
-   ],
-   "decision": "범위로 표기"
-  },
-  {
-   "where": "getting_there",
-   "fact": "발링오안-베노니 페리",
-   "value": "₱300~360, 1~1시간 30분",
-   "sources": [
-    {
-     "url": "https://topologica.co/local-guides/philippines/camiguin-island-born-of-fire-guide/",
-     "grade": "C",
-     "date": "2026",
-     "says": "Ferry Balingoan-Benoni P180-250 ~1h, habal-habal 10min, Dec-Apr (older figure, superseded)"
-    },
-    {
-     "url": "https://pamasahe.com/routes/benoni-balingoan-super-shuttle-ferry-schedule-fares",
-     "grade": "B",
-     "date": "2026-09",
-     "says": "Super Shuttle Ferry passenger fare P359 (table regular P330), about 1h30, fares may be higher with fuel surcharge"
-    },
-    {
-     "url": "https://joansfootprints.com/2026/06/17/2023-camiguin-diy-itinerary-budget/",
-     "grade": "C",
-     "date": "2026-06",
-     "says": "Balingoan-Benoni ferry about 1 hour, Php360 terminal fee included, first trip 4:30am, last 6:30pm"
-    },
-    {
-     "url": "https://philippinedives.com/how-to-get-to-camiguin/",
-     "grade": "C",
-     "date": "2026",
-     "says": "RoRo fare PHP 300-360 per passenger plus about PHP 30 terminal fee, 45min-1h, Super Shuttle and St. Benedict operate"
-    }
-   ],
-   "decision": "3곳이 ₱300~360 으로 일치(기존 ₱180~250 은 오래된 값) → 범위 ₱300~360, 1~1시간 30분, 연료비·시즌 변동은 현지 확인"
-  },
-  {
-   "where": "cautions",
-   "fact": "경보 단계",
-   "value": "Alert Level 0 (2026-04)",
-   "sources": [
-    {
-     "url": "https://www.untvnews.com/news/dost-phivolcs-hibok-hibok-volcano-remains-under-alert-level-0-vs-fake-news",
-     "grade": "B",
-     "date": "2026-04",
-     "says": "DOST-PHIVOLCS: Hibok-Hibok remains under Alert Level 0 vs fake news (published 2026-04-17)"
-    },
-    {
-     "url": "https://verafiles.org/articles/fact-check-no-recent-eruption-recorded-at-mount-hibok-hibok",
-     "grade": "B",
-     "date": "2026-04",
-     "says": "Fact check: PHIVOLCS Facebook advisory of April 15 said Mount Hibok-Hibok is at Alert Level 0, no recent eruption"
-    }
-   ],
-   "decision": "두 출처(UNTV·Vera Files)가 2026-04 PHIVOLCS 발표 경보 단계 0 으로 일치 → 본문 유지, 상황이 바뀔 수 있어 최신 공지 확인 문구 병기"
-  },
-  {
-   "where": "itinerary",
-   "fact": "소요 시간",
-   "value": "정상까지 3~5h, 왕복 6~10h",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Hibok-Hibok",
-     "grade": "B",
-     "date": "2026-11-18",
-     "says": "1,332m, 1871-75 and 1948-51 eruptions, PHIVOLCS observatory, DENR Mambajao permit"
-    },
-    {
-     "url": "https://mindanaochronicles.com/?p=10651",
-     "grade": "B",
-     "date": "2025-07-25",
-     "says": "DENR permit and guide required, guide P1,200/group, permit P500/person, ASEAN Heritage Park 2015, 2,200 ha"
-    },
-    {
-     "url": "https://volcanohiking.com/2026/03/15/mount-hibok-hibok/",
-     "grade": "C",
-     "date": "2026-03-15",
-     "says": "guide ~P1,200, 6-10h round trip (not directly opened; via search summary)"
-    }
-   ],
-   "decision": "자료마다 달라 범위 표기"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T09:25:49Z"
 }

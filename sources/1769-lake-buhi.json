@@ -1,22 +1,145 @@
-{ "id": 1769, "slug": "lake-buhi", "checked_at": "2026-11-18T04:40:00Z",
+{
+  "id": 1769,
+  "slug": "lake-buhi",
+  "checked_at": "2026-11-18T04:40:00Z",
   "facts": [
-    { "where": "overview", "fact": "면적·수심·형성·유입출·거리", "value": "17~18㎢(1,800ha), 평균 8m, 최대 12m, 1641 지진 산사태설, 레가스피 75km·나가 53km",
+    {
+      "where": "overview",
+      "fact": "면적·수심·형성·유입출·거리",
+      "value": "17~18㎢(1,800ha), 평균 8m, 최대 12m, 1641 지진 산사태설, 레가스피 75km·나가 53km",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Lake_Buhi", "grade": "A", "date": "2026-11", "says": "13.45,123.5167, 1,707ha/18㎢ 불일치, 수심, 1641, 부히강·이리가강·타바오강, 발전소 1952, 2007 폐사" },
-        { "url": "https://buhi.gov.ph/profile/", "grade": "A", "date": "2026", "says": "1,800ha, 1996 가장 깨끗한 호수, 13,000ha 관개, 마나파오·카투그데이, 이트복 폭포, 거리, 기후" } ],
-      "decision": "면적은 두 값 병기" },
-    { "where": "highlights", "fact": "이트복 폭포·보트", "value": "산타크루스, 약 18m, 보트+30분 도보, 4명 ₱400, 10~12분 건넘, 2km",
+        {
+          "url": "https://en.wikipedia.org/wiki/Lake_Buhi",
+          "grade": "A",
+          "date": "2026-11",
+          "says": "13.45,123.5167, 1,707ha/18㎢ 불일치, 수심, 1641, 부히강·이리가강·타바오강, 발전소 1952, 2007 폐사"
+        },
+        {
+          "url": "https://buhi.gov.ph/profile/",
+          "grade": "A",
+          "date": "2026",
+          "says": "1,800ha, 1996 가장 깨끗한 호수, 13,000ha 관개, 마나파오·카투그데이, 이트복 폭포, 거리, 기후"
+        }
+      ],
+      "decision": "면적은 두 값 병기"
+    },
+    {
+      "where": "highlights",
+      "fact": "이트복 폭포·보트",
+      "value": "산타크루스, 약 18m, 보트+30분 도보, 4명 ₱400, 10~12분 건넘, 2km",
       "sources": [
-        { "url": "https://buhi.gov.ph/profile/", "grade": "A", "date": "2026", "says": "Itbog Twin Falls 60ft, 동력선 후 30분 트레킹" },
-        { "url": "https://arnelbanawa.blogspot.com/2019/11/itbog-falls-buhi-camarines-sur.html", "grade": "B", "date": "2019-11", "says": "보트 ₱400/4명, 10~12분, 2km, 밴 ₱105~120" } ],
-      "decision": "보트 요금은 2019년 값으로 표기" },
-    { "where": "stay_and_food", "fact": "2007 폐사·숙소", "value": "2007-09-22 폐사, 빌라 플로렌시아 약 $40",
-      "sources": [ { "url": "https://en.wikipedia.org/wiki/Lake_Buhi", "grade": "A", "date": "2026-11", "says": "BFAR는 SO2, PHIVOLCS는 반박" },
-                   { "url": "https://arnelbanawa.blogspot.com/2019/11/itbog-falls-buhi-camarines-sur.html", "grade": "B", "date": "2019-11", "says": "Villa Florencia $40, Dwinox Bar, WiFi 없음" } ],
-      "decision": "" },
-    { "where": "meta", "fact": "좌표", "value": "13.4560, 123.5150",
-      "sources": [ { "url": "https://en.wikipedia.org/wiki/Lake_Buhi", "grade": "A", "date": "2026-11", "says": "13.45, 123.5167" },
-                   { "url": "https://nominatim.openstreetmap.org/", "grade": "B", "date": "2026-11-18", "says": "Lake Buhi 13.4582, 123.5137" } ],
-      "decision": "" }
+        {
+          "url": "https://buhi.gov.ph/profile/",
+          "grade": "A",
+          "date": "2026",
+          "says": "Itbog Twin Falls 60ft, 동력선 후 30분 트레킹"
+        },
+        {
+          "url": "https://arnelbanawa.blogspot.com/2019/11/itbog-falls-buhi-camarines-sur.html",
+          "grade": "B",
+          "date": "2019-11",
+          "says": "보트 ₱400/4명, 10~12분, 2km, 밴 ₱105~120"
+        }
+      ],
+      "decision": "보트 요금은 2019년 값으로 표기"
+    },
+    {
+      "where": "stay_and_food",
+      "fact": "2007 폐사·숙소",
+      "value": "2007-09-22 폐사, 빌라 플로렌시아 약 $40",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lake_Buhi",
+          "grade": "A",
+          "date": "2026-11",
+          "says": "BFAR는 SO2, PHIVOLCS는 반박"
+        },
+        {
+          "url": "https://arnelbanawa.blogspot.com/2019/11/itbog-falls-buhi-camarines-sur.html",
+          "grade": "B",
+          "date": "2019-11",
+          "says": "Villa Florencia $40, Dwinox Bar, WiFi 없음"
+        }
+      ],
+      "decision": ""
+    },
+    {
+      "where": "meta",
+      "fact": "좌표",
+      "value": "13.4560, 123.5150",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lake_Buhi",
+          "grade": "A",
+          "date": "2026-11",
+          "says": "13.45, 123.5167"
+        },
+        {
+          "url": "https://nominatim.openstreetmap.org/",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "Lake Buhi 13.4582, 123.5137"
+        }
+      ],
+      "decision": ""
+    }
   ],
-  "images": [] }
+  "images": [
+    {
+      "file": "1769-lake-buhi.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mt_Asog.jpg",
+      "check": "POO 작품, 설명 'View Lake Buhi and Mt Asog', GPS 13.436,123.518 부히 호숫가, 사진에 아솝 산·호수·선착장 보임"
+    },
+    {
+      "file": "1769-lake-buhi-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Early_Morning_at_Lake_Buhi_01.jpg",
+      "check": "설명 'right before sunrise at Lake Buhi', 호수 어망 부표와 산세 확인"
+    },
+    {
+      "file": "1769-lake-buhi-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Early_Morning_at_Lake_Buhi_03.jpg",
+      "check": "분류 Lake Buhi, 이른 아침 부두와 호수·아솝 산 능선"
+    },
+    {
+      "file": "1769-lake-buhi-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lacal_Transportation_Bangka_in_Lake_Buhi.jpg",
+      "check": "설명 'Banka a local transportation in Buhi', GPS 13.436,123.518"
+    },
+    {
+      "file": "1769-lake-buhi-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_Mt._Asog_in_Buhi.jpg",
+      "check": "설명 'Mt. Asog view from Lake Buhi', GPS 13.436,123.516"
+    },
+    {
+      "file": "1769-lake-buhi-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Fisherman_in_Lake_Buhi_at_Buhi,_Camarines_Sur.jpg",
+      "check": "설명에 Lake Buhi, tilapia·sinarapan 어업, GPS 13.441,123.506"
+    },
+    {
+      "file": "1769-lake-buhi-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:MAGINDARA_BUHI_CAM_SUR.jpg",
+      "check": "작가 NEIL DE LEON 의 Buhi Cam Sur 연작, GPS 13.435,123.510, 호수와 곶 보임"
+    },
+    {
+      "file": "1769-lake-buhi-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:LAKE_BUHI_CAM_SUR.jpg",
+      "check": "제목 LAKE BUHI, 설명 ASOG View, GPS 13.435,123.509"
+    },
+    {
+      "file": "1769-lake-buhi-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake_Buhi,_Cam_Sur,_May_2025_(3).jpg",
+      "check": "제목 Lake Buhi Cam Sur, GPS 13.436,123.517, 부두 계단과 호수 보임"
+    },
+    {
+      "file": "1769-lake-buhi-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Buhi_Ferry_Terminal,_Cam_Sur,_May_2025_(2).jpg",
+      "check": "제목 Buhi Ferry Terminal, GPS 13.436,123.517"
+    },
+    {
+      "file": "1769-lake-buhi-11.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mt._Asog_Lake_Buhi.jpg",
+      "check": "설명 'taken at a hiking spot in Mt. Asog, Lake Buhi', 호수·시내 보임"
+    }
+  ],
+  "photos_checked_at": "2026-11-19T09:25:49Z"
+}
