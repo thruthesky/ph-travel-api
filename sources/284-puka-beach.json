@@ -1,7 +1,7 @@
 {
   "id": 284,
   "slug": "puka-beach",
-  "checked_at": "2026-11-13T03:49:15Z",
+  "checked_at": "2026-11-19T05:01:50Z",
   "facts": [
     {
       "where": "전체",
@@ -202,16 +202,34 @@
     {
       "where": "getting_there",
       "fact": "마닐라·클락–카티클란, 칼리보–제티 포트",
-      "value": "약 1시간·1시간 15분, 68km·1시간 30분~2시간·₱180~250, 공항–제티 7~10분",
+      "value": "마닐라 약 1시간·클락 약 1시간 15분(1시간 10분~1시간 25분), 칼리보–제티 약 60~70km·1시간 30분~2시간·합승 밴 ₱250~400(2026), 공항–제티 트라이시클 5~15분",
       "sources": [
         {
-          "url": "data/ko/055-boracay.json",
-          "grade": "B",
-          "date": "2026-11-13",
-          "says": "055 보라카이 항목의 같은 값"
+          "url": "https://www.inborocay.com/guides/getting-to-boracay",
+          "grade": "C",
+          "date": "2026",
+          "says": "마닐라–카티클란 약 1시간, 공항–제티 트라이시클 5~15분(₱75~100), 칼리보–카티클란 약 60km·밴 1.5~2시간·합승 ₱250~400"
+        },
+        {
+          "url": "https://travelcoolplaces.com/manila-to-boracay/",
+          "grade": "C",
+          "date": "2026",
+          "says": "마닐라–카티클란 약 1시간 10분, 공항–제티 약 2km·10~15분, 칼리보–카티클란 밴 1.5~2시간·₱250~400"
+        },
+        {
+          "url": "https://myboracayguide.com/info/how-to-get-from-kalibo-to-boracay-8-483",
+          "grade": "C",
+          "date": "2026-03",
+          "says": "칼리보 공항–카티클란 제티 70.0km, 합승 밴 1.5~2.5시간·개인 밴 1~1.5시간"
+        },
+        {
+          "url": "https://us.trip.com/flights/airport-crk-mph/",
+          "grade": "C",
+          "date": "2026",
+          "says": "클락–카티클란 세부퍼시픽 직항 시간표 1시간 10분(예약 사이트 평균 1시간 10분~1시간 25분)"
         }
       ],
-      "decision": "055 값을 그대로 옮김(055 근거 기록이 출처)"
+      "decision": "서로 다른 4곳이 대체로 일치. 거리 60~70km, 밴 요금은 2026년 가이드의 ₱250~400으로 올리고 공항–제티는 5~15분, 클락은 범위를 덧붙임. 공식 출처 없어 C 등급"
     },
     {
       "where": "getting_there",

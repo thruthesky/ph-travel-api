@@ -1,7 +1,7 @@
 {
  "id": 2667,
  "slug": "dawara-falls",
- "checked_at": "2026-11-18T12:32:32Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "lat/lon",
@@ -66,16 +66,22 @@
   {
    "where": "getting_there",
    "fact": "수요 거리",
-   "value": "비간 98km, 마닐라 328km",
+   "value": "비간 약 100km, 마닐라 약 330km",
    "sources": [
     {
      "url": "https://en.wikipedia.org/wiki/Suyo,_Ilocos_Sur",
      "grade": "A",
      "date": "",
-     "says": "수요 비간 98.2km, 마닐라 328.17km, 연강수 약1,809mm, 5~10월 우기, 8개 바랑가이, 좌표 16.984,120.514"
+     "says": "수요 비간 98.2km, 마닐라 328.17km, 연강수 약1,809mm, 5~10월 우기, 8개 바랑가이, 좌표 16.984,120.514 (옛 판은 비간 101km, 마닐라 333km)"
+    },
+    {
+     "url": "https://www.philatlas.com/luzon/r01/ilocos-sur/suyo.html",
+     "grade": "B",
+     "date": "2026",
+     "says": "직선거리만 제시: 마닐라 269.55km, 비간 66.53km (도로 거리 아님)"
     }
    ],
-   "decision": "위키백과 수치 사용"
+   "decision": "도로 거리를 두 번째 출처로 확인하지 못함(위키 판마다 98~101km·328~333km로 다름, PhilAtlas는 직선거리). 정확한 값 대신 '약 100km·약 330km'로 낮춤"
   },
   {
    "where": "costs",

@@ -1,7 +1,7 @@
 {
   "id": 2729,
   "slug": "paranaque-cathedral",
-  "checked_at": "2026-11-18T13:51:43Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "lat/lon",
@@ -200,16 +200,28 @@
     {
       "where": "costs",
       "fact": "입장료·교통 요금",
-      "value": "무료/현지 확인",
+      "value": "입장 무료(안내문 확인), LRT-1 바클라란~니노이 아키노 약 ₱23~25(2025-04 요금표), 지프니·트라이시클 현지 확인",
       "sources": [
         {
           "url": "https://www.parishph.com/2022/07/st-andrew-cathedral-parish-paranaque.html",
           "grade": "B",
           "date": "2026-03-16",
           "says": "입장료 언급 없음"
+        },
+        {
+          "url": "https://mypinas.ph/transportation/lrt-1-fare-matrix/",
+          "grade": "C",
+          "date": "2026-08",
+          "says": "Baclaran to Ninoy Aquino Avenue: stored value ₱23, single journey ₱25"
+        },
+        {
+          "url": "https://www.expressway.ph/transit/lrt1-line-guide",
+          "grade": "C",
+          "date": "2026",
+          "says": "Baclaran to Ninoy Aquino: Beep ₱23, ticket ₱25; LRMC matrices effective April 2, 2025 (₱16-52 Beep, ₱20-55 ticket)"
         }
       ],
-      "decision": "확인 못 한 요금은 '현지 확인'으로 서술"
+      "decision": "LRT-1 은 두 출처가 일치해 '약 ₱23~25'와 요금표 시행 시점(2025-04)을 함께 적음. 입장료는 언급이 없어 '일반적으로 없음, 안내문 확인', 지프니·트라이시클은 확인 못 해 현지 확인 유지"
     },
     {
       "where": "nearby",

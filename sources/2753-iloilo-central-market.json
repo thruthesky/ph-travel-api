@@ -1,7 +1,7 @@
 {
  "id": 2753,
  "slug": "iloilo-central-market",
- "checked_at": "2026-11-18T00:00:00Z",
+ "checked_at": "2026-11-19T05:01:34Z",
  "facts": [
   {
    "where": "overview",
@@ -157,6 +157,52 @@
    "value": "현지에서 확인/추정",
    "sources": [],
    "decision": "근거 없는 금액은 '추정' 또는 '현지에서 확인'으로 표기"
+  },
+  {
+   "where": "costs",
+   "fact": "공항~시내 밴·택시 요금",
+   "value": "밴 ₱100~150, 택시 ₱350~600",
+   "sources": [
+    {
+     "url": "https://ilonggotraveler.com/2025/09/21/iloilo-international-airport-transport-guide-iloilo/",
+     "grade": "C",
+     "date": "2025-09",
+     "says": "UV Express ₱100~150(SM 시티 기준), 미터 택시 ₱350~400, Grab 4인 약 ₱500"
+    },
+    {
+     "url": "https://iloilodirectory.com/complete-transportation-guide-to-iloilo-city-for-commuters-and-tourists-2026/",
+     "grade": "C",
+     "date": "2026-09",
+     "says": "공유 밴 약 ₱100(SM 시티 출발, 만석 출발), Grab 4인승 ₱450~500, 협의 택시 약 ₱600"
+    },
+    {
+     "url": "https://www.trip.com/transport/airport-city/iloilo-international-airport-to-iloilo-city.html",
+     "grade": "C",
+     "date": "2026",
+     "says": "택시·Grab ₱350~600, UV Express ₱100~150"
+    }
+   ],
+   "decision": "공식 요금표가 없어 안내서 범위로 표기, 미터 사용 권장"
+  },
+  {
+   "where": "costs",
+   "fact": "트라이시클 시내 요금",
+   "value": "첫 2km ₱15 + km당 ₱1, 혼자 최소 ₱50",
+   "sources": [
+    {
+     "url": "https://www.imtnews.ph/iloilo-city-sets-p15-minimum-tricycle-fare-3/",
+     "grade": "B",
+     "date": "2022-02",
+     "says": "첫 2km ₱15, 이후 1km마다 ₱1, 2인 통째 ₱25, 혼자 최소 ₱50"
+    },
+    {
+     "url": "https://iloilodirectory.com/complete-transportation-guide-to-iloilo-city-for-commuters-and-tourists-2026/",
+     "grade": "C",
+     "date": "2026-09",
+     "says": "시 조례 ₱15(첫 2km)+₱1/km, ₱20 인상안은 2026-03 1독회 후 보류"
+    }
+   ],
+   "decision": "인상안 미확정이라 '약'과 탈 때 합의로 표기"
   }
  ],
  "images": []
