@@ -1,9 +1,160 @@
-{ "id": 1547, "slug": "casa-real-shrine", "checked_at": "2026-11-19T00:00:00Z",
+{
+  "id": 1547,
+  "slug": "casa-real-shrine",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
-    { "where": "overview", "fact": "건물 역사(1580 건립, 1852 복원·도서관, 1930까지 주청사, 1990 표지)", "value": "위키백과 기술", "sources": [ { "url": "https://en.wikipedia.org/wiki/Museum_of_Philippine_Political_History", "grade": "B", "date": "2023", "says": "Initially built 1580, restored 1852, provincial capitol until 1930, marker 1990" }, { "url": "https://palmera.blogspot.com/2024/02/casa-real-shrine-museum-of-philippine.html", "grade": "C", "date": "2024-02", "says": "gobernadorcillo residence, Imprenta Nacional in the revolution" } ], "decision": "건립 연도 등은 위키 기준으로 쓰고 복원 건물이라는 점을 함께 밝힘" },
-    { "where": "overview", "fact": "박물관 이전일·전시", "value": "2016-10-12 이전, 제1공화국 유물·아기날도·인쇄기·21인 여성", "sources": [ { "url": "https://en.wikipedia.org/wiki/Museum_of_Philippine_Political_History", "grade": "B", "date": "2023", "says": "Relocated Oct 12, 2016; exhibits listed" }, { "url": "https://culture360.asef.org/resources/museo-ng-kasaysayang-pampulitika-ng-pilipinas-museum-of-philippines-political-history", "grade": "C", "date": "n/a", "says": "museum moved to Casa Real in Malolos (search summary)" } ], "decision": "채택" },
-    { "where": "costs", "fact": "입장·주차", "value": "무료(후기), 주차 ₱25; NHCP 화~일 9~16시 무료(2021)", "sources": [ { "url": "https://palmera.blogspot.com/2024/02/casa-real-shrine-museum-of-philippine.html", "grade": "C", "date": "2024-02", "says": "Entrance free, parking 25 pesos" }, { "url": "https://philstarlife.com/geeky/311737-all-27-nhcp-museums-have-reopened-to-the-public", "grade": "B", "date": "2021", "says": "NHCP museums Tue-Sun 9-4, free (search summary)" } ], "decision": "오래된 정보라 현지 확인 문구를 붙임" },
-    { "where": "latitude/longitude", "fact": "좌표", "value": "14.8443, 120.8115", "sources": [ { "url": "https://en.wikipedia.org/wiki/Museum_of_Philippine_Political_History", "grade": "B", "date": "2023", "says": "14.84427, 120.81153" }, { "url": "work/x2000/registered.tsv", "grade": "B", "date": "2026", "says": "malolos-cathedral 14.8423,120.8115, 인접" } ], "decision": "채택" },
-    { "where": "itinerary", "fact": "히야스 박물관 입장료 ₱20~50", "value": "약 ₱20/30/50(학생·고령자·PWD 20, 불라칸 주민 30, 그 외 50)", "sources": [ { "url": "https://bulacan.gov.ph/government/offices/phacto/", "grade": "A", "date": "n/a", "says": "Php 20 students/seniors/PWD, Php 30 Bulakeños non-students, Php 50 non-students outside Bulacan; undated page" }, { "url": "https://bulacan.gov.ph/?p=3024", "grade": "A", "date": "2019-06", "says": "Renovated Hiyas ng Bulacan Museum opened in Capitol Compound, Malolos (no fee listed)" } ], "decision": "요금 2곳 교차 확인 실패(두 번째 출처에 요금 없음, 검색 요약은 20·30만 언급) — 게시 연도 없음을 밝히고 현지 확인 문구 유지" }
+    {
+      "where": "overview",
+      "fact": "건물 역사(1580 건립, 1852 복원·도서관, 1930까지 주청사, 1990 표지)",
+      "value": "위키백과 기술",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Philippine_Political_History",
+          "grade": "B",
+          "date": "2023",
+          "says": "Initially built 1580, restored 1852, provincial capitol until 1930, marker 1990"
+        },
+        {
+          "url": "https://palmera.blogspot.com/2024/02/casa-real-shrine-museum-of-philippine.html",
+          "grade": "C",
+          "date": "2024-02",
+          "says": "gobernadorcillo residence, Imprenta Nacional in the revolution"
+        }
+      ],
+      "decision": "건립 연도 등은 위키 기준으로 쓰고 복원 건물이라는 점을 함께 밝힘"
+    },
+    {
+      "where": "overview",
+      "fact": "박물관 이전일·전시",
+      "value": "2016-10-12 이전, 제1공화국 유물·아기날도·인쇄기·21인 여성",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Philippine_Political_History",
+          "grade": "B",
+          "date": "2023",
+          "says": "Relocated Oct 12, 2016; exhibits listed"
+        },
+        {
+          "url": "https://culture360.asef.org/resources/museo-ng-kasaysayang-pampulitika-ng-pilipinas-museum-of-philippines-political-history",
+          "grade": "C",
+          "date": "n/a",
+          "says": "museum moved to Casa Real in Malolos (search summary)"
+        }
+      ],
+      "decision": "채택"
+    },
+    {
+      "where": "costs",
+      "fact": "입장·주차",
+      "value": "무료(후기), 주차 ₱25; NHCP 화~일 9~16시 무료(2021)",
+      "sources": [
+        {
+          "url": "https://palmera.blogspot.com/2024/02/casa-real-shrine-museum-of-philippine.html",
+          "grade": "C",
+          "date": "2024-02",
+          "says": "Entrance free, parking 25 pesos"
+        },
+        {
+          "url": "https://philstarlife.com/geeky/311737-all-27-nhcp-museums-have-reopened-to-the-public",
+          "grade": "B",
+          "date": "2021",
+          "says": "NHCP museums Tue-Sun 9-4, free (search summary)"
+        }
+      ],
+      "decision": "오래된 정보라 현지 확인 문구를 붙임"
+    },
+    {
+      "where": "latitude/longitude",
+      "fact": "좌표",
+      "value": "14.8443, 120.8115",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Philippine_Political_History",
+          "grade": "B",
+          "date": "2023",
+          "says": "14.84427, 120.81153"
+        },
+        {
+          "url": "work/x2000/registered.tsv",
+          "grade": "B",
+          "date": "2026",
+          "says": "malolos-cathedral 14.8423,120.8115, 인접"
+        }
+      ],
+      "decision": "채택"
+    },
+    {
+      "where": "itinerary",
+      "fact": "히야스 박물관 입장료 ₱20~50",
+      "value": "약 ₱20/30/50(학생·고령자·PWD 20, 불라칸 주민 30, 그 외 50)",
+      "sources": [
+        {
+          "url": "https://bulacan.gov.ph/government/offices/phacto/",
+          "grade": "A",
+          "date": "n/a",
+          "says": "Php 20 students/seniors/PWD, Php 30 Bulakeños non-students, Php 50 non-students outside Bulacan; undated page"
+        },
+        {
+          "url": "https://bulacan.gov.ph/?p=3024",
+          "grade": "A",
+          "date": "2019-06",
+          "says": "Renovated Hiyas ng Bulacan Museum opened in Capitol Compound, Malolos (no fee listed)"
+        }
+      ],
+      "decision": "요금 2곳 교차 확인 실패(두 번째 출처에 요금 없음, 검색 요약은 20·30만 언급) — 게시 연도 없음을 밝히고 현지 확인 문구 유지"
+    }
   ],
-  "images": [] }
+  "images": [
+    {
+      "file": "1547-casa-real-shrine.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Real_(Paseo_Del_Congreso,_Malolos,_Bulacan;_2017-03-14)_2.jpg",
+      "check": "2017 Patrick Roque 촬영 정면 전경. 설명에 Casa Real museum at Paseo Del Congreso, Malolos, 입구 간판 WELCOME CASA REAL SHRINE 이 보임"
+    },
+    {
+      "file": "1547-casa-real-shrine-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Malolos_Casa_Real_(Paseo_Del_Congreso,_Malolos,_Bulacan;_02-10-2024).jpg",
+      "check": "2024 Patrickroque01 촬영. 설명 Casa Real, Paseo Del Congreso, Malolos 이며 건물 현판에 Museum of Philippine Political History 가 보임"
+    },
+    {
+      "file": "1547-casa-real-shrine-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Real_(front).jpg",
+      "check": "Lyyy D 2023 촬영 Casa Real (front). 건물 현판 Museo ng Kasaysayang Pampulitika ng Pilipinas 로 확인"
+    },
+    {
+      "file": "1547-casa-real-shrine-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Real_in_Malolos.JPG",
+      "check": "Aerous 2012 촬영 Casa Real in Malolos. 안내판 WELCOME CASA REAL SHRINE 이 보임"
+    },
+    {
+      "file": "1547-casa-real-shrine-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Real_Shrine,_Malolos_City,_Bulacan.jpg",
+      "check": "Ralff Nestor Nacor 2023 촬영. 제목 Casa Real Shrine, Malolos City, Bulacan, 간판 Museum of Philippine Political History"
+    },
+    {
+      "file": "1547-casa-real-shrine-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Real_Shrine,_Malolos,_Bulacan,_Sep_2025.jpg",
+      "check": "Ralff Nestor Nacor 2025-09 촬영. 안내판에 Dambana ng Casa Real / Casa Real Shrine, National Historical Commission of the Philippines 라고 적혀 있다"
+    },
+    {
+      "file": "1547-casa-real-shrine-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Casarealjf.JPG",
+      "check": "Ramon FVelasquez 2012 촬영. 설명 Casa Real de Malolos 로 내부 전시실 깃발 전시를 보여 준다"
+    },
+    {
+      "file": "1547-casa-real-shrine-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Staircaser_in_Casa_Real_de_Malolos.jpg",
+      "check": "Ramon FVelasquez 2012 촬영. 파일명·설명 Staircase in Casa Real de Malolos"
+    },
+    {
+      "file": "1547-casa-real-shrine-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:IJVCasaReal3.jpg",
+      "check": "IJVelas 2013 촬영. 파일명 IJVCasaReal3, 위키 설명 문화유산 Casa Real. 창살과 진열장이 있는 내부 방"
+    },
+    {
+      "file": "1547-casa-real-shrine-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:09420jfInterior_of_the_Casa_Real_Shrine_2017_Malolos_Historic_Town_Centerfvf_16.jpg",
+      "check": "Judgefloro 2017-01-12 촬영 Interior of the Casa Real Shrine 시리즈(GPS 14.844,120.811), 경내 정원 기념물. 흉상 인물 신원은 확인하지 못함"
+    }
+  ],
+  "photos_checked_at": "2026-11-19T12:49:11Z"
+}

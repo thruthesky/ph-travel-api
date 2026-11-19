@@ -1,15 +1,143 @@
-{ "id": 1675, "slug": "cape-santiago-lighthouse", "checked_at": "2026-11-19T00:00:00Z",
+{
+  "id": 1675,
+  "slug": "cape-santiago-lighthouse",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
-    { "where": "overview", "fact": "첫 점등 1890-12-15, 높이 15.5m, 설계 브로크만, 시공 알데코아, 부지 기증 산티아고 소벨", "value": "1890년·15.5m", "sources": [
-      { "url": "https://en.wikipedia.org/wiki/Cape_Santiago_Lighthouse,_Philippines", "grade": "B", "date": "2026-11-18", "says": "1890-12-15 점등, 15.5m, 초점 높이 27.1m, 1978 자동화, NHCP 표지 2018-03-12" },
-      { "url": "https://www.batangashistory.date/2025/08/cape-santiago-lighthouse-batangas.html", "grade": "B", "date": "2025-08", "says": "1887 건의, 1890-12-15 점등, 2021 복원 착수, 2024-12-11 항행 통보 UNLIT" },
-      { "url": "https://transportationhistory.org/2023/12/14/1890-the-start-of-operations-for-a-record-setting-lighthouse-in-the-philippines", "grade": "B", "date": "2023-12-14", "says": "1890 가동, 바탕가스 최고(最古) 현역, 1978 자동화" } ], "decision": "점등일은 12-15 로 통일(두 곳), 현재 점등 여부는 엇갈려 현지 확인으로 씀" },
-    { "where": "overview", "fact": "좌표", "value": "13.7715, 120.6527", "sources": [
-      { "url": "https://en.wikipedia.org/wiki/Cape_Santiago_Lighthouse,_Philippines", "grade": "B", "date": "2026-11-18", "says": "13°46′17″N 120°39′09″E" },
-      { "url": "https://www.batangashistory.date/2025/08/cape-santiago-lighthouse-batangas.html", "grade": "B", "date": "2025-08", "says": "13°46.32'N 120°39.18'E" } ], "decision": "두 값의 중간값 사용" },
-    { "where": "costs", "fact": "교통·기부금", "value": "버스 ₱180~300, 트라이시클 ₱150~200, 입장 무료~₱50(기부)", "sources": [
-      { "url": "https://www.thepoortraveler.net/calatagan-batangas-travel-guide", "grade": "C", "date": "2026-06", "says": "PITX·DLTB 부엔디아 출발 버스 약 ₱300, 칼라타간 등대 방문 1인 ₱50, 트라이시클 ₱50(예시 일정)" },
-      { "url": "https://www.philippinebeaches.org/cape-santiago-lighthouse-burot-beach-resorts-calatagan-batangas/", "grade": "C", "date": "2014-04-01", "says": "EDSA 타프트 버스·밴 ₱180(3~4시간), 시내에서 트라이시클 ₱150~200(20~30분), 입장 ₱65" },
-      { "url": "https://philippinebeaches.org/?p=3188", "grade": "C", "date": "오래된 기록", "says": "버스 ₱180 3~4시간, 트라이시클 ₱150~200 20~30분, 버로트 입장 ₱65, 텐트 ₱300·숙박 ₱130" },
-      { "url": "https://www.pinoyadventurista.com/2014/04/cape-santiago-lighthouse-calatagan-batangas.html", "grade": "C", "date": "2014-04-30", "says": "입장 무료·기부 권장, 관리인 필요, 철제 나선 계단 65칸" } ], "decision": "버스는 2014년 ₱180 과 2026년 ₱300 이 엇갈려 범위 ₱180~300 으로, 입장은 무료~₱50 으로 쓰고 현지 확인을 붙임" }
-  ], "images": [] }
+    {
+      "where": "overview",
+      "fact": "첫 점등 1890-12-15, 높이 15.5m, 설계 브로크만, 시공 알데코아, 부지 기증 산티아고 소벨",
+      "value": "1890년·15.5m",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cape_Santiago_Lighthouse,_Philippines",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "1890-12-15 점등, 15.5m, 초점 높이 27.1m, 1978 자동화, NHCP 표지 2018-03-12"
+        },
+        {
+          "url": "https://www.batangashistory.date/2025/08/cape-santiago-lighthouse-batangas.html",
+          "grade": "B",
+          "date": "2025-08",
+          "says": "1887 건의, 1890-12-15 점등, 2021 복원 착수, 2024-12-11 항행 통보 UNLIT"
+        },
+        {
+          "url": "https://transportationhistory.org/2023/12/14/1890-the-start-of-operations-for-a-record-setting-lighthouse-in-the-philippines",
+          "grade": "B",
+          "date": "2023-12-14",
+          "says": "1890 가동, 바탕가스 최고(最古) 현역, 1978 자동화"
+        }
+      ],
+      "decision": "점등일은 12-15 로 통일(두 곳), 현재 점등 여부는 엇갈려 현지 확인으로 씀"
+    },
+    {
+      "where": "overview",
+      "fact": "좌표",
+      "value": "13.7715, 120.6527",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cape_Santiago_Lighthouse,_Philippines",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "13°46′17″N 120°39′09″E"
+        },
+        {
+          "url": "https://www.batangashistory.date/2025/08/cape-santiago-lighthouse-batangas.html",
+          "grade": "B",
+          "date": "2025-08",
+          "says": "13°46.32'N 120°39.18'E"
+        }
+      ],
+      "decision": "두 값의 중간값 사용"
+    },
+    {
+      "where": "costs",
+      "fact": "교통·기부금",
+      "value": "버스 ₱180~300, 트라이시클 ₱150~200, 입장 무료~₱50(기부)",
+      "sources": [
+        {
+          "url": "https://www.thepoortraveler.net/calatagan-batangas-travel-guide",
+          "grade": "C",
+          "date": "2026-06",
+          "says": "PITX·DLTB 부엔디아 출발 버스 약 ₱300, 칼라타간 등대 방문 1인 ₱50, 트라이시클 ₱50(예시 일정)"
+        },
+        {
+          "url": "https://www.philippinebeaches.org/cape-santiago-lighthouse-burot-beach-resorts-calatagan-batangas/",
+          "grade": "C",
+          "date": "2014-04-01",
+          "says": "EDSA 타프트 버스·밴 ₱180(3~4시간), 시내에서 트라이시클 ₱150~200(20~30분), 입장 ₱65"
+        },
+        {
+          "url": "https://philippinebeaches.org/?p=3188",
+          "grade": "C",
+          "date": "오래된 기록",
+          "says": "버스 ₱180 3~4시간, 트라이시클 ₱150~200 20~30분, 버로트 입장 ₱65, 텐트 ₱300·숙박 ₱130"
+        },
+        {
+          "url": "https://www.pinoyadventurista.com/2014/04/cape-santiago-lighthouse-calatagan-batangas.html",
+          "grade": "C",
+          "date": "2014-04-30",
+          "says": "입장 무료·기부 권장, 관리인 필요, 철제 나선 계단 65칸"
+        }
+      ],
+      "decision": "버스는 2014년 ₱180 과 2026년 ₱300 이 엇갈려 범위 ₱180~300 으로, 입장은 무료~₱50 으로 쓰고 현지 확인을 붙임"
+    }
+  ],
+  "images": [
+    {
+      "file": "1675-cape-santiago-lighthouse.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Santiago_Lighthouse_tower.jpg",
+      "check": "등대 탑·붉은 지붕 숙소가 한 화면에 보이는 전경, 설명이 Calatagan Batangas 등대로 일치(Lawrence Ruiz 2018)"
+    },
+    {
+      "file": "1675-cape-santiago-lighthouse-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Santiago_Lighthouse,_Calatagan,_Batangas_1.jpg",
+      "check": "설명·분류가 Cape Santiago Lighthouse Calatagan, 곶과 해안이 보임(LemuelSalibio)"
+    },
+    {
+      "file": "1675-cape-santiago-lighthouse-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Santiago_Lighthouse,_Calatagan,_Batangas_2.jpg",
+      "check": "같은 등대를 다른 방향에서 본 항공 사진, 바다 쪽 시야 확인(LemuelSalibio)"
+    },
+    {
+      "file": "1675-cape-santiago-lighthouse-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:The_1st_Lighthouse_in_the_Philippines_Restored.jpg",
+      "check": "설명이 Calatagan, Batangas 의 복원된 등대, 탑 모양·붉은 지붕 일치(Melchior22) — 복원 후 모습"
+    },
+    {
+      "file": "1675-cape-santiago-lighthouse-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Santiago_Lighthouse_Facade.jpg",
+      "check": "설명이 Cape Santiago Lighthouse facade, 사적 표지 보임(Ervin Malicdem GPS 13.772,120.653)"
+    },
+    {
+      "file": "1675-cape-santiago-lighthouse-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Santiago_Lighthouse.jpg",
+      "check": "설명이 Cape Santiago Lighthouse at Calatagan, GPS 일치(Ervin Malicdem)"
+    },
+    {
+      "file": "1675-cape-santiago-lighthouse-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Santiago_Lighthouse_left.jpg",
+      "check": "설명이 Cape Santiago Lighthouse Calatagan(Lawrence Ruiz), 다른 각도"
+    },
+    {
+      "file": "1675-cape-santiago-lighthouse-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Santiago_Lighthouse_facade.jpg",
+      "check": "설명이 등대지기 숙소 정면(Lawrence Ruiz 2018)"
+    },
+    {
+      "file": "1675-cape-santiago-lighthouse-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Santiago_Lighthouse_iron_gate.jpg",
+      "check": "설명이 등대지기 숙소의 철제 대문(Lawrence Ruiz 2018)"
+    },
+    {
+      "file": "1675-cape-santiago-lighthouse-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Santiago_Lighthouse_facing_east.jpg",
+      "check": "설명이 등대 위에서 본 동쪽 경관(Lawrence Ruiz 2018), 등대에서 본 조망"
+    },
+    {
+      "file": "1675-cape-santiago-lighthouse-11.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Santiago_Lighthouse_from_shore.jpg",
+      "check": "설명이 칼라타간 반도 해안에서 본 등대(Lawrence Ruiz 2018)"
+    }
+  ],
+  "photos_checked_at": "2026-11-19T12:49:11Z"
+}
