@@ -1,94 +1,146 @@
 {
- "id": 1611,
- "slug": "museo-pambata",
- "checked_at": "2026-11-19T00:00:00Z",
- "facts": [
-  {
-    "where": "costs",
-    "fact": "무세오 팜바타 정규 개방과 공식 입장료",
-    "value": "일반 ₱450, 해설·이야기·만들기 ₱650, 2세 미만과 신분증을 제시한 교사 무료. 금·토 10:00~17:00, 일 13:00~17:00.",
-    "sources": [
-      {
-        "url": "https://www.museopambata.com.ph/getting-here",
-        "grade": "A",
-        "date": "2026-11-18",
-        "says": "박물관이 정규 개방 시간과 입장료 및 할인 요건을 게시한다."
-      },
-      {
-        "url": "https://lrmc.ph/2025/02/18/new-lrt-1-fares-effective-2-april-2025/",
-        "grade": "A",
-        "date": "2025-02-18",
-        "says": "운영사가 승인된 LRT-1 기본·거리 운임을 공지한다."
-      }
-    ],
-    "decision": "이전 이용 후기의 요금 범위, 유아 조건과 상충하던 개방일을 공식 안내로 고쳤다."
-  },
-  {
-   "where": "overview",
-   "fact": "역사·위치",
-   "value": "1994-12-21 개관, 1910 옛 엘크스 클럽, 2024-12-06 재개관, 좌표 14.5791, 120.9771",
-   "sources": [
+  "id": 1611,
+  "slug": "museo-pambata",
+  "checked_at": "2026-11-19T00:00:00Z",
+  "facts": [
     {
-     "url": "https://en.wikipedia.org/wiki/Museo_Pambata",
-     "grade": "B",
-     "date": "2026-11",
-     "says": "역사·좌표·여덟 개 주제 방"
+      "where": "costs",
+      "fact": "무세오 팜바타 정규 개방과 공식 입장료",
+      "value": "일반 ₱450, 해설·이야기·만들기 ₱650, 2세 미만과 신분증을 제시한 교사 무료. 금·토 10:00~17:00, 일 13:00~17:00.",
+      "sources": [
+        {
+          "url": "https://www.museopambata.com.ph/getting-here",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "박물관이 정규 개방 시간과 입장료 및 할인 요건을 게시한다."
+        },
+        {
+          "url": "https://lrmc.ph/2025/02/18/new-lrt-1-fares-effective-2-april-2025/",
+          "grade": "A",
+          "date": "2025-02-18",
+          "says": "운영사가 승인된 LRT-1 기본·거리 운임을 공지한다."
+        }
+      ],
+      "decision": "이전 이용 후기의 요금 범위, 유아 조건과 상충하던 개방일을 공식 안내로 고쳤다."
     },
     {
-     "url": "https://audiala.com/en/philippines/metro-manila/museo-pambata",
-     "grade": "C",
-     "date": "2025",
-     "says": "전시실 목록·위치"
+      "where": "overview",
+      "fact": "역사·위치",
+      "value": "1994-12-21 개관, 1910 옛 엘크스 클럽, 2024-12-06 재개관, 좌표 14.5791, 120.9771",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Museo_Pambata",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "역사·좌표·여덟 개 주제 방"
+        },
+        {
+          "url": "https://audiala.com/en/philippines/metro-manila/museo-pambata",
+          "grade": "C",
+          "date": "2025",
+          "says": "전시실 목록·위치"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "costs",
+      "fact": "입장료",
+      "value": "일반 ₱450, 해설·이야기·만들기 ₱650 (예산 범위 ₱450~650)",
+      "sources": [
+        {
+          "url": "https://www.museopambata.com.ph/getting-here",
+          "grade": "A",
+          "date": "2026-11-18",
+          "says": "박물관이 일반 입장료와 해설·체험 요금, 할인 요건을 게시한다."
+        },
+        {
+          "url": "https://www.globe.com.ph/blog/museo-pambata-and-other-family-museums",
+          "grade": "C",
+          "date": "2021",
+          "says": "₱450 (검색 요약)"
+        },
+        {
+          "url": "https://audiala.com/en/philippines/metro-manila/museo-pambata",
+          "grade": "C",
+          "date": "2025",
+          "says": "성인 150 (옛 요금으로 보이며 공식 안내와 다름)"
+        }
+      ],
+      "decision": "공식 안내(₱450·₱650)가 우선이며 본문 요금표와 같다. 옛 요금 ₱150은 채택하지 않고 예산 min·max 를 450·650 으로 맞췄다."
+    },
+    {
+      "where": "hours",
+      "fact": "운영 시간",
+      "value": "화~일 09~17시(한 출처) / 금~일 중심(2024-12 기사)",
+      "sources": [
+        {
+          "url": "https://audiala.com/en/philippines/metro-manila/museo-pambata",
+          "grade": "C",
+          "date": "2025",
+          "says": "화~일 9~17"
+        },
+        {
+          "url": "https://d3ppocuozxd02b.cloudfront.net/magazine/metro-manila/2024/12/18/museo-pambata-childrens-museum-manila-museo-pambata-activities",
+          "grade": "B",
+          "date": "2024-12",
+          "says": "금·토·일 활동 시간(검색 요약)"
+        }
+      ],
+      "decision": "상충 → 본문에 둘 다 쓰고 확인 안내"
     }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "costs",
-   "fact": "입장료",
-   "value": "일반 ₱450, 해설·이야기·만들기 ₱650 (예산 범위 ₱450~650)",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://www.museopambata.com.ph/getting-here",
-     "grade": "A",
-     "date": "2026-11-18",
-     "says": "박물관이 일반 입장료와 해설·체험 요금, 할인 요건을 게시한다."
+      "file": "1611-museo-pambata.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Entrance_of_Museo_Pambata_in_2011.jpg",
+      "check": "분류 Museo Pambata·설명 'Museo Pambata in Manila'; 간판 글자와 역사 표지판(Gusali ng Elks Club)이 보이는 정면 전경"
     },
     {
-     "url": "https://www.globe.com.ph/blog/museo-pambata-and-other-family-museums",
-     "grade": "C",
-     "date": "2021",
-     "says": "₱450 (검색 요약)"
+      "file": "1611-museo-pambata-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:WTMP_Team_Kampai_DSC_0023.JPG",
+      "check": "Commons 설명이 Museo Pambata 로 명시, 간판·건물 모양이 정면 사진과 일치"
     },
     {
-     "url": "https://audiala.com/en/philippines/metro-manila/museo-pambata",
-     "grade": "C",
-     "date": "2025",
-     "says": "성인 150 (옛 요금으로 보이며 공식 안내와 다름)"
+      "file": "1611-museo-pambata-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Entrance_of_Museo_Pambata_in_2011_from_the_southeast.jpg",
+      "check": "분류 Museo Pambata, 같은 간판·건물, 다른 각도"
+    },
+    {
+      "file": "1611-museo-pambata-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Main_entrance_of_the_Elks_Club_Building_in_2014.jpg",
+      "check": "분류 Museo Pambata, 역사 표지판 'Gusali ng Elks Club' 보임"
+    },
+    {
+      "file": "1611-museo-pambata-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:MuseoPambatajf0260_10.JPG",
+      "check": "설명에 'Helicopter playground at Museo Pambata' 명시"
+    },
+    {
+      "file": "1611-museo-pambata-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:MuseoPambatajf0260_04.JPG",
+      "check": "설명에 'Pavilion at Museo Pambata' 명시"
+    },
+    {
+      "file": "1611-museo-pambata-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:MuseoPambatajf0260_16.JPG",
+      "check": "설명에 'Playground at Museo Pambata' 명시"
+    },
+    {
+      "file": "1611-museo-pambata-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:2736cMuseo_Pambata_Elks_Club_Building_Manila.jpg",
+      "check": "설명에 'Interior of the Museo Pambata (Elks Club Building - Manila)' 명시"
+    },
+    {
+      "file": "1611-museo-pambata-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:MuseoPambatajf0230_21.JPG",
+      "check": "설명에 'Marionettes display in the Museo Pambata' 명시"
+    },
+    {
+      "file": "1611-museo-pambata-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:WTMP_Team_Waka_Waka_A-4.JPG",
+      "check": "설명에 'Museo Pambata in Manila', 간판 보임"
     }
-   ],
-   "decision": "공식 안내(₱450·₱650)가 우선이며 본문 요금표와 같다. 옛 요금 ₱150은 채택하지 않고 예산 min·max 를 450·650 으로 맞췄다."
-  },
-  {
-   "where": "hours",
-   "fact": "운영 시간",
-   "value": "화~일 09~17시(한 출처) / 금~일 중심(2024-12 기사)",
-   "sources": [
-    {
-     "url": "https://audiala.com/en/philippines/metro-manila/museo-pambata",
-     "grade": "C",
-     "date": "2025",
-     "says": "화~일 9~17"
-    },
-    {
-     "url": "https://d3ppocuozxd02b.cloudfront.net/magazine/metro-manila/2024/12/18/museo-pambata-childrens-museum-manila-museo-pambata-activities",
-     "grade": "B",
-     "date": "2024-12",
-     "says": "금·토·일 활동 시간(검색 요약)"
-    }
-   ],
-   "decision": "상충 → 본문에 둘 다 쓰고 확인 안내"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T12:17:48Z"
 }

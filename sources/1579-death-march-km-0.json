@@ -1,114 +1,166 @@
 {
- "id": 1579,
- "slug": "death-march-km-0",
- "checked_at": "2026-11-19T06:00:00Z",
- "facts": [
-  {
-   "where": "coords",
-   "fact": "좌표",
-   "value": "14.4358,120.4910",
-   "sources": [
+  "id": 1579,
+  "slug": "death-march-km-0",
+  "checked_at": "2026-11-19T06:00:00Z",
+  "facts": [
     {
-     "url": "https://waypoints.ph/detail_gen_wpt_dmmvls.html",
-     "grade": "B",
-     "date": "미상",
-     "says": "14°26.149'N 120°29.463'E, Mariveles town proper"
+      "where": "coords",
+      "fact": "좌표",
+      "value": "14.4358,120.4910",
+      "sources": [
+        {
+          "url": "https://waypoints.ph/detail_gen_wpt_dmmvls.html",
+          "grade": "B",
+          "date": "미상",
+          "says": "14°26.149'N 120°29.463'E, Mariveles town proper"
+        },
+        {
+          "url": "https://www.plizio.com/en/philippines/ph-ban/bataan-death-march-marker-zero/",
+          "grade": "C",
+          "date": "미상",
+          "says": "14.8519,120.3508(바탄 북쪽으로 맞지 않음, 불채택)"
+        }
+      ],
+      "decision": "Waypoints 값을 쓰고 마리벨레스 읍 좌표(14.43,120.48)와 대조해 일치. 지도 2곳 확인은 불완전하므로 현지 확인 문구"
     },
     {
-     "url": "https://www.plizio.com/en/philippines/ph-ban/bataan-death-march-marker-zero/",
-     "grade": "C",
-     "date": "미상",
-     "says": "14.8519,120.3508(바탄 북쪽으로 맞지 않음, 불채택)"
+      "where": "overview",
+      "fact": "출발일·거리·인원",
+      "value": "1942-04-10 출발(일부 자료), 약 140~160km, 7만 명 이상",
+      "sources": [
+        {
+          "url": "https://benjielayug.com/2019/04/bataans-death-march-markers.html",
+          "grade": "B",
+          "date": "2019-04",
+          "says": "April 10, 1942, ~160km, 138 markers 97/33/8"
+        },
+        {
+          "url": "https://ptvnews.ph/remembering-death-march-honoring-heroes-reminder-of-valor/",
+          "grade": "A",
+          "date": "2024-04",
+          "says": "about 140 km, more than 70,000 POWs, 138 markers, April 9"
+        }
+      ],
+      "decision": "범위와 자료별 차이 병기"
+    },
+    {
+      "where": "overview",
+      "fact": "기념물 설명",
+      "value": "흰 오벨리스크, 이중 언어 설명판, 병사 무덤 조형물, FAME·AmCham 기증",
+      "sources": [
+        {
+          "url": "https://www.wayfarerdaves.com/consecrated-in-the-blood-of-two-peoples-mariveles-corregidor-and-the-capas-nation-shrine-part-ii/",
+          "grade": "B",
+          "date": "미상",
+          "says": "roadside memorial park, soldier's grave statue, near Jollibee"
+        },
+        {
+          "url": "https://bataan.gov.ph/behold-bataan/zero-km-death-march-marker/",
+          "grade": "A",
+          "date": "2021-09",
+          "says": "plaque donated by FAME and AmCham; two markers Mariveles and Bagac"
+        }
+      ],
+      "decision": "일치"
+    },
+    {
+      "where": "getting_there",
+      "fact": "버스·막차",
+      "value": "마닐라~마리벨레스 ₱300~380, 3~4h, 막차 19:00~19:30(운행사별 상이)",
+      "sources": [
+        {
+          "url": "https://bustickets.ph/?p=1993",
+          "grade": "C",
+          "date": "2026",
+          "says": "Genesis Pasay-Mariveles fare PHP 315, first trip 1:00 AM, last 7:30 PM every 20 min (Avenida last 7:30 PM hourly); ~3h20m Manila-Bataan; page undated"
+        },
+        {
+          "url": "https://bustickets.ph/bataan-transit-manila-to-bataan-bus/",
+          "grade": "C",
+          "date": "2026",
+          "says": "Bataan Transit fare to Mariveles PHP 300; night trips only (10PM, 12MN, 2AM)"
+        },
+        {
+          "url": "https://lakbaypinas.com/tarak-ridge-x-papaya-river-2024/",
+          "grade": "B",
+          "date": "2026",
+          "says": "Mariveles bus 340-380, 3-4h, last bus 7pm"
+        },
+        {
+          "url": "https://www.plizio.com/en/philippines/ph-ban/bataan-death-march-marker-zero/",
+          "grade": "C",
+          "date": "미상",
+          "says": "buses 3 to 4 hours, 24/7 open"
+        }
+      ],
+      "decision": "출처마다 ₱300·315·340~380, 막차 19:00·19:30 로 달라 공식 요금표 없음 → 범위(₱300~380)와 현지 확인 문구로 낮춤"
+    },
+    {
+      "where": "tips",
+      "fact": "바탄 관광 사무소 문의 시간",
+      "value": "발랑가 주 청사(The Bunker) 월~금 08:00~17:00",
+      "sources": [
+        {
+          "url": "https://bataan.gov.ph/behold-bataan/zero-km-death-march-marker/",
+          "grade": "A",
+          "date": "2021-09",
+          "says": "Provincial office The Bunker, Capitol Compound Balanga, Mon-Fri 8am-5pm, (047) 237 3488; no marker hours or fees listed, no closure notice"
+        }
+      ],
+      "decision": "공식 페이지 확인(2021 게시). 기념비 24시간 개방·무료는 공식 근거가 없어 '안내' 표기 유지"
     }
-   ],
-   "decision": "Waypoints 값을 쓰고 마리벨레스 읍 좌표(14.43,120.48)와 대조해 일치. 지도 2곳 확인은 불완전하므로 현지 확인 문구"
-  },
-  {
-   "where": "overview",
-   "fact": "출발일·거리·인원",
-   "value": "1942-04-10 출발(일부 자료), 약 140~160km, 7만 명 이상",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://benjielayug.com/2019/04/bataans-death-march-markers.html",
-     "grade": "B",
-     "date": "2019-04",
-     "says": "April 10, 1942, ~160km, 138 markers 97/33/8"
+      "file": "1579-death-march-km-0.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bataan_Death_March_KM0_marker_Mariveles_(Roman_Superhighway,_Mariveles,_Bataan;_05-19-2023).jpg",
+      "check": "분류·설명에 KM0 marker Mariveles Roman Superhighway 명시, 보이는 것이 KM 0 오벨리스크·FAME 로고·양국 국기·설명판 벽(2023-05, Patrickroque01, 글씨 서명 없음)"
     },
     {
-     "url": "https://ptvnews.ph/remembering-death-march-honoring-heroes-reminder-of-valor/",
-     "grade": "A",
-     "date": "2024-04",
-     "says": "about 140 km, more than 70,000 POWs, 138 markers, April 9"
+      "file": "1579-death-march-km-0-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Kilometer_Zero_Death_March_Marker,_Mariveles,_Bataan,_Jul_2026.jpg",
+      "check": "제목·설명에 Kilometer Zero Death March Marker Mariveles 명시, KM 0·DEATH MARCH 표지와 FAME 로고가 보임(2026-07, Ralff Nestor Nacor, 공사 중이라 현재 모습)"
+    },
+    {
+      "file": "1579-death-march-km-0-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mariveles_WW2_Memorial,_Bataan,_Jul_2026.jpg",
+      "check": "제목 Mariveles WW2 Memorial, 본문의 '병사 무덤 조형물'과 일치, 헬멧·소총·자갈 봉분이 보임(2026-07, Ralff, 같은 작가 두 번째 장이나 대상이 다름)"
+    },
+    {
+      "file": "1579-death-march-km-0-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mariveles,_Bataanjf4308_05.JPG",
+      "check": "설명에 Starting Point of Death March, WWII Memorial Shrine, KM 00, Mariveles 명시, 안내판 글씨와 오벨리스크가 같은 장면에 보임(2013-01, Ramon FVelasquez)"
+    },
+    {
+      "file": "1579-death-march-km-0-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mariveles,_Bataanjf4308_09.JPG",
+      "check": "설명 Monument to the Bataan Death March at Mariveles, GPS 14.436,120.491 이 본문 좌표와 일치, 이중 동판 설명판·양국 국기(2013-01, Ramon)"
+    },
+    {
+      "file": "1579-death-march-km-0-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mariveles,_Bataanjf4308_08.JPG",
+      "check": "같은 기념 구역(분류 Death March marker Mariveles)의 다른 각도, 설명판과 국기 벽화(2013-01, Ramon, 4308 09 와 구도 다름)"
+    },
+    {
+      "file": "1579-death-march-km-0-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:09902jfDeath_March_Memorial_Shrine_Mariveles_Bataanfvf_15.JPG",
+      "check": "제목·설명에 Death March Memorial Shrine Mariveles, KM 00 명시, 오벨리스크와 설명판 구역이 함께 보임(2015-11, Judgefloro)"
+    },
+    {
+      "file": "1579-death-march-km-0-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:0090jfMain_Death_Marches_Shrine_Poblacion_Mariveles_Bataanfvf_20.JPG",
+      "check": "설명에 Starting Point of Death March KM 00 Mariveles 명시, Poblacion 위치(2015-11, Judgefloro, 다른 방향 전경)"
+    },
+    {
+      "file": "1579-death-march-km-0-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:0090jfMain_Death_Marches_Shrine_Poblacion_Mariveles_Bataanfvf_22.JPG",
+      "check": "설명에 Starting Point of Death March KM 00 Mariveles 명시, 오벨리스크 부조·KM 00 표지가 보임(2015-11, Judgefloro, 정면 근접)"
+    },
+    {
+      "file": "1579-death-march-km-0-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:0116jfMain_Marches_Shrine_Poblacion_Mariveles_Bataanfvf_01.JPG",
+      "check": "설명에 Starting Point of Death March KM 00 Mariveles 명시, 기증 동판과 부조가 보임(2015-11, Judgefloro, 측면 비스듬히)"
     }
-   ],
-   "decision": "범위와 자료별 차이 병기"
-  },
-  {
-   "where": "overview",
-   "fact": "기념물 설명",
-   "value": "흰 오벨리스크, 이중 언어 설명판, 병사 무덤 조형물, FAME·AmCham 기증",
-   "sources": [
-    {
-     "url": "https://www.wayfarerdaves.com/consecrated-in-the-blood-of-two-peoples-mariveles-corregidor-and-the-capas-nation-shrine-part-ii/",
-     "grade": "B",
-     "date": "미상",
-     "says": "roadside memorial park, soldier's grave statue, near Jollibee"
-    },
-    {
-     "url": "https://bataan.gov.ph/behold-bataan/zero-km-death-march-marker/",
-     "grade": "A",
-     "date": "2021-09",
-     "says": "plaque donated by FAME and AmCham; two markers Mariveles and Bagac"
-    }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "getting_there",
-   "fact": "버스·막차",
-   "value": "마닐라~마리벨레스 ₱300~380, 3~4h, 막차 19:00~19:30(운행사별 상이)",
-   "sources": [
-    {
-     "url": "https://bustickets.ph/?p=1993",
-     "grade": "C",
-     "date": "2026",
-     "says": "Genesis Pasay-Mariveles fare PHP 315, first trip 1:00 AM, last 7:30 PM every 20 min (Avenida last 7:30 PM hourly); ~3h20m Manila-Bataan; page undated"
-    },
-    {
-     "url": "https://bustickets.ph/bataan-transit-manila-to-bataan-bus/",
-     "grade": "C",
-     "date": "2026",
-     "says": "Bataan Transit fare to Mariveles PHP 300; night trips only (10PM, 12MN, 2AM)"
-    },
-    {
-     "url": "https://lakbaypinas.com/tarak-ridge-x-papaya-river-2024/",
-     "grade": "B",
-     "date": "2026",
-     "says": "Mariveles bus 340-380, 3-4h, last bus 7pm"
-    },
-    {
-     "url": "https://www.plizio.com/en/philippines/ph-ban/bataan-death-march-marker-zero/",
-     "grade": "C",
-     "date": "미상",
-     "says": "buses 3 to 4 hours, 24/7 open"
-    }
-   ],
-   "decision": "출처마다 ₱300·315·340~380, 막차 19:00·19:30 로 달라 공식 요금표 없음 → 범위(₱300~380)와 현지 확인 문구로 낮춤"
-  },
-  {
-   "where": "tips",
-   "fact": "바탄 관광 사무소 문의 시간",
-   "value": "발랑가 주 청사(The Bunker) 월~금 08:00~17:00",
-   "sources": [
-    {
-     "url": "https://bataan.gov.ph/behold-bataan/zero-km-death-march-marker/",
-     "grade": "A",
-     "date": "2021-09",
-     "says": "Provincial office The Bunker, Capitol Compound Balanga, Mon-Fri 8am-5pm, (047) 237 3488; no marker hours or fees listed, no closure notice"
-    }
-   ],
-   "decision": "공식 페이지 확인(2021 게시). 기념비 24시간 개방·무료는 공식 근거가 없어 '안내' 표기 유지"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T12:17:48Z"
 }
