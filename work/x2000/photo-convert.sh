@@ -14,4 +14,4 @@ open('_i18n/work/x2000/photo-convert-prompt.txt','w').write(f"""정확한 수치
 print(len(m),'장')
 PY
 [ "$(python3 -c "import json;print(len(json.load(open('_i18n/work/x2000/photo-convert-manifest.json'))))")" -gt 0 ] || exit 1
-codex exec --skip-git-repo-check - < _i18n/work/x2000/photo-convert-prompt.txt 2>&1 | tail -6
+codex exec --skip-git-repo-check ${CODEX_MODEL:+-m "$CODEX_MODEL"} - < _i18n/work/x2000/photo-convert-prompt.txt 2>&1 | tail -6
