@@ -1,7 +1,7 @@
 {
   "id": 1742,
   "slug": "majayjay-church",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T04:00:00Z",
   "facts": [
     {
       "where": "costs",
@@ -193,28 +193,47 @@
           "says": "Majayjay Transport Cooperative terminal on Ordoñez; wait up to an hour"
         }
       ],
-      "decision": "단일 출처, 변동 가능 명시"
+      "decision": "위키보이지 1곳(B)만 확인되어 본문은 '최대 약'으로 낮춰 표기하고 현지 확인을 유지"
     },
     {
       "where": "costs",
       "fact": "APA 공원 요금",
-      "value": "성인 ₱345, 화~일 9~16시",
+      "value": "성인 약 ₱345~500 사례, 화~일 9~16시",
       "sources": [
         {
           "url": "https://en.wikivoyage.org/wiki/Majayjay",
           "grade": "B",
           "date": "2026-11",
           "says": "Adult ₱345; Tue-Sun 9AM-4PM"
+        },
+        {
+          "url": "https://sites.google.com/view/apawildlifefaqs/home",
+          "grade": "A",
+          "date": "2026-11",
+          "says": "공원은 화~일 9~16시 운영, 월요일 공휴일도 개방. 요금은 FAQ에 없고 현장 구매 가능, 웹 예매 시 할인 안내."
         }
       ],
-      "decision": "단일 출처, 출처 표기"
+      "decision": "운영일·시간은 공식 FAQ와 위키보이지가 일치. 요금은 공식 페이지에서 확인되지 않아 ₱345~500 사례 범위와 현지·공식 예매 확인으로 낮춤"
     },
     {
       "where": "costs",
       "fact": "성당·폭포 요금",
-      "value": "확인 못함",
-      "sources": [],
-      "decision": "현지 확인으로 표기"
+      "value": "성당 요금 공식 확인 못함(여행 포털 1곳은 무료로 소개), 폭포 약 ₱50 사례",
+      "sources": [
+        {
+          "url": "https://audiala.com/en/philippines/nagcarlan/majayjay/",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "성당 입장 무료, 개방 시간은 대략 06~18시이며 미사 중 접근 제한 가능(대략치)"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Majayjay",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "성당 입장료는 적혀 있지 않고 교구 사무소에서 기념품을 판매한다고만 안내"
+        }
+      ],
+      "decision": "공식 근거가 없어 '무료로 안내하는 곳이 있으나 현지 확인'으로 낮춤"
     },
     {
       "where": "best_time",

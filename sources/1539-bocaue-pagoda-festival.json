@@ -1,7 +1,7 @@
 {
  "id": 1539,
  "slug": "bocaue-pagoda-festival",
- "checked_at": "2026-11-18T02:24:30Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "overview",
@@ -92,7 +92,7 @@
   {
    "where": "getting_there",
    "fact": "마닐라 버스",
-   "value": "약 ₱100~160, 15분 간격, 약 2시간",
+   "value": "약 ₱100~190, 15분 간격, 약 2시간",
    "sources": [
     {
      "url": "https://www.rome2rio.com/s/Manila/Bocaue",
@@ -101,12 +101,12 @@
      "says": "마닐라 술루→NLEX 마릴라오 직행 약 15분 간격, ₱100~160, 약 1시간 51분, 거리 약 28km"
     }
    ],
-   "decision": "경로 검색 사이트 한 곳 — '현지 확인' 병기"
+   "decision": "독립된 두 번째 출처를 못 찾음(같은 사이트의 술루 ₱100~160·쿠바오 ₱120~190 목록만 확인) — 범위를 ₱100~190 으로 넓히고 추정·현지 확인 병기"
   },
   {
    "where": "getting_there",
    "fact": "맥아더 고속도로 버스",
-   "value": "₱25~40",
+   "value": "₱25~45",
    "sources": [
     {
      "url": "https://www.rome2rio.com/s/PITX-Paranaque-Integrated-Terminal-Exchange/Bocaue",
@@ -115,21 +115,27 @@
      "says": "맥아더 고속도로 버스 보카우에 공설시장행 ₱25~40"
     }
    ],
-   "decision": "한 곳 — '현지 확인' 병기"
+   "decision": "독립된 두 번째 출처 없음 — 같은 사이트의 구간 목록(₱24~45)을 근거로 범위를 ₱25~45 로 넓히고 추정 병기"
   },
   {
    "where": "getting_there",
    "fact": "자가용",
-   "value": "약 28km, 평소 약 30분",
+   "value": "약 25~28km, 평소 약 30분",
    "sources": [
     {
      "url": "https://www.rome2rio.com/s/Manila/Bocaue",
      "grade": "C",
      "date": "2026-11",
-     "says": "마닐라 술루→NLEX 마릴라오 직행 약 15분 간격, ₱100~160, 약 1시간 51분, 거리 약 28km"
+     "says": "마닐라→보카우에 자가용·택시 약 24.9km, 약 26분"
+    },
+    {
+     "url": "https://www.expressway.ph/routes/balintawak-to-bocaue",
+     "grade": "C",
+     "date": "2026-02",
+     "says": "발린타왁→보카우에 26km(NLEX 21km), 평소 약 29분, 출퇴근 시간 30~60분 추가"
     }
    ],
-   "decision": "평소 기준만, 축제일은 더 걸림"
+   "decision": "두 곳이 약 25~26km·26~29분으로 일치, 출발 지점에 따라 달라 25~28km 로 표기, 축제일은 더 걸림"
   },
   {
    "where": "coordinates",

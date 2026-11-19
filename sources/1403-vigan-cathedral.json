@@ -1,7 +1,7 @@
 {
   "id": 1403,
   "slug": "vigan-cathedral",
-  "checked_at": "2026-11-18T06:15:00.139729Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "coords",
@@ -66,30 +66,54 @@
     {
       "where": "getting_there",
       "fact": "마닐라 버스",
-      "value": "약 7~10시간, ₱580(2017)",
+      "value": "약 8~10시간, ₱600~1,000(파르타스 2026.2, 도미니온 2024 약 ₱750, 위키보야지 ₱580은 2017)",
       "sources": [
         {
           "url": "https://en.wikivoyage.org/wiki/Vigan",
           "grade": "B",
           "date": "2023",
           "says": "버스 7~10시간, 도미니온 ₱580(2017), 트라이시클 ₱8~10, 칼레사 ₱150/시간, 광장 7~19:30, 숙소 요금"
+        },
+        {
+          "url": "https://www.philippinebeaches.org/manila-to-ilocos-bus-schedules-operators/",
+          "grade": "B",
+          "date": "2026",
+          "says": "마닐라–일로코스 8~10시간, 파르타스 ₱600(일반)·700·850·1,000(럭셔리), 비론 ₱680~880(2026.2.24 기준)"
+        },
+        {
+          "url": "https://www.visitilocandia.com/how-to-get-to-laoag-and-vigan-from-manila-by-bus-and-by-plane",
+          "grade": "B",
+          "date": "2024",
+          "says": "마닐라–비간 버스 약 8~9시간, 파르타스·도미니온 일반 ₱740~750, 프리미엄 ₱800~1,200"
         }
       ],
-      "decision": "단일 출처, 2017 자료임을 명시"
+      "decision": "3곳이 시간 8~10시간·요금 ₱600~1,000대로 맞음, 위키보야지 ₱580(2017)은 옛 값으로만 표기"
     },
     {
       "where": "getting_there",
       "fact": "공항",
-      "value": "비간 정기편 없음(2023.9), 라오아그 차로 1.5시간",
+      "value": "비간 정기편 없음(2023.9, 위키피디아는 2017 플래티넘 스카이즈 취항만 기재), 라오아그에서 차로 약 1.5~2시간",
       "sources": [
         {
           "url": "https://en.wikivoyage.org/wiki/Vigan",
           "grade": "B",
           "date": "2023",
           "says": "버스 7~10시간, 도미니온 ₱580(2017), 트라이시클 ₱8~10, 칼레사 ₱150/시간, 광장 7~19:30, 숙소 요금"
+        },
+        {
+          "url": "https://www.visitilocandia.com/how-to-get-to-laoag-and-vigan-from-manila-by-bus-and-by-plane",
+          "grade": "B",
+          "date": "2024",
+          "says": "라오아그에서 비간까지 버스·밴으로 약 2시간"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Vigan_Airport",
+          "grade": "B",
+          "date": "2026",
+          "says": "2017.2 플래티넘 스카이즈 마닐라–비간 취항, 2022.5 시설 개선, 현재 운항 여부는 적혀 있지 않음"
         }
       ],
-      "decision": "단일 출처, 날짜 명시"
+      "decision": "라오아그–비간 1.5~2시간으로 넓혀 씀, 비간 공항 운항은 확인되지 않아 정기편 없음(2023.9 기준)으로 두고 현지 확인"
     },
     {
       "where": "costs",
@@ -114,16 +138,28 @@
     {
       "where": "costs",
       "fact": "트라이시클·칼레사",
-      "value": "₱8~10, ₱150/시간·₱1,000/일",
+      "value": "트라이시클 1인 ₱10~20(2024 블로그, 위키보야지 ₱8~10), 칼레사 ₱150/시간, 종일 약 ₱1,000(위키보야지만)",
       "sources": [
         {
           "url": "https://en.wikivoyage.org/wiki/Vigan",
           "grade": "B",
           "date": "2023",
           "says": "버스 7~10시간, 도미니온 ₱580(2017), 트라이시클 ₱8~10, 칼레사 ₱150/시간, 광장 7~19:30, 숙소 요금"
+        },
+        {
+          "url": "https://www.lakwatserangligaw.com/2025/07/how-to-get-around-vigan-transportation-guide.html",
+          "grade": "C",
+          "date": "2024",
+          "says": "시내 트라이시클 1인 ₱10~20, 먼 곳 ₱50 이상, 칼레사 짧은 코스 ₱150~200, 타기 전 요금 합의"
+        },
+        {
+          "url": "https://www.lakwatsero.com/destinations/travel-guide-vigan/",
+          "grade": "C",
+          "date": "2019",
+          "says": "칼레사 P150.00 per hour per carriage"
         }
       ],
-      "decision": "단일 출처, 위키보야지 기준이라 명시"
+      "decision": "트라이시클은 ₱10~20으로 올림, 칼레사 시간당 ₱150은 2곳 일치, 종일 ₱1,000은 위키보야지 단일이라 출처 표기"
     },
     {
       "where": "tips",

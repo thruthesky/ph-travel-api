@@ -1,7 +1,7 @@
 {
   "id": 2466,
   "slug": "higalaay-festival",
-  "checked_at": "2026-11-18T09:24:26Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -106,8 +106,20 @@
     {
       "where": "getting_there",
       "fact": "공항~시내 요금·시간",
-      "value": "밴 ₱199, 버스 ₱85~150, 택시 ₱700~800, 약 35km",
+      "value": "밴 ₱120~199, 버스 ₱40~150, 택시 ₱700~1,200, 약 35~46km, 밴 45분~1시간·버스 1~2시간",
       "sources": [
+        {
+          "url": "https://en.wikivoyage.org/wiki/Cagayan_de_Oro",
+          "grade": "B",
+          "date": "2017-2018",
+          "says": "공항은 시내 서쪽 46km, 셔틀 밴 대개 ₱199, 버스 ₱85(에어컨)+₱20, 셔틀 45분~1시간, 항목 다수가 2017~2018년 갱신"
+        },
+        {
+          "url": "https://unchartedlens.com/routes/philippines/laguindingan-airport-to-cdo-port-guide/",
+          "grade": "C",
+          "date": "2025",
+          "says": "공항 밴(UV Express) ₱120~150·45~60분, 버스 약 ₱40~60(1시간 구간), 미터 택시 ₱800~1,200"
+        },
         {
           "url": "https://www.trip.com/transport/airport-city/laguindingan-airport-to-cagayan-de-oro.html",
           "grade": "C",
@@ -121,13 +133,19 @@
           "says": "밴 199, 버스 85~100"
         }
       ],
-      "decision": "오래된 자료 명시, 약 표기"
+      "decision": "출처마다 거리·요금이 달라(2017~2025) 범위로 넓히고 연도를 밝힘, 승차 전 확인 문구 유지"
     },
     {
       "where": "getting_there",
       "fact": "도심 진입 터미널 규정",
-      "value": "2026-07-28부터",
+      "value": "2026-07-28부터 지방 노선 지프니·밴은 아고라·불루아 웨스트바운드 터미널까지만",
       "sources": [
+        {
+          "url": "https://www.gmanetwork.com/regionaltv/news/115009/cdo-enforces-new-traffic-scheme-bars-provl-puvs-from-city-proper/story/",
+          "grade": "B",
+          "date": "2026-07",
+          "says": "7월 28일(화) 시행, 지방 노선 PUV는 동쪽 아고라 터미널·서쪽 불루아 웨스트바운드 터미널까지만, 첫날은 시범 단속"
+        },
         {
           "url": "https://suroy.ph/higalaay-festival-2026-cagayan-de-oro-guide/",
           "grade": "B",
@@ -135,7 +153,7 @@
           "says": "26~28일 일정, 7개 바랑가이, 푼톳~두아우 공원, 터미널 규정, 신호 차단, 드론 등록"
         }
       ],
-      "decision": "단일 출처이므로 최신 공지 확인 문구"
+      "decision": "GMA·suroy 두 곳이 일치해 시행일·터미널 확정, 이후 재검토 요구가 있어 최신 공지 확인 문구 유지"
     },
     {
       "where": "best_time",
@@ -180,9 +198,16 @@
     {
       "where": "getting_there",
       "fact": "마닐라~CGY 비행 시간",
-      "value": "쓰지 않음",
-      "sources": [],
-      "decision": "확인 못해 예약 화면 확인으로 표기"
+      "value": "직항 대체로 1시간 30분~1시간 45분, 평균 약 1시간 40분",
+      "sources": [
+        {
+          "url": "https://www.kayak.com/flight-routes/Manila-Ninoy-Aquino-Intl-MNL/Cagayan-de-Oro-Laguindingan-CGY",
+          "grade": "C",
+          "date": "2026",
+          "says": "MNL-CGY 직항 평균 1시간 41분, 개별 항공편 약 1시간 30분~1시간 45분"
+        }
+      ],
+      "decision": "열어 본 페이지는 1곳(검색 요약의 다른 사이트는 1시간 35분~1시간 45분으로 일치하나 본문은 못 열었음)이라 범위와 평균 표기, 시각·운항사는 예약 화면 확인"
     }
   ],
   "images": []
