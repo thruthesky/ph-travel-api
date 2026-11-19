@@ -1,7 +1,7 @@
 {
  "id": 2691,
  "slug": "malatan-og-falls",
- "checked_at": "2026-11-19T00:00:00Z",
+ "checked_at": "2026-11-19T06:00:00Z",
  "facts": [
   {
    "where": "lat/lon",
@@ -138,16 +138,34 @@
   {
    "where": "overview",
    "fact": "해발 800m 이상·네그로스옥시덴탈 최고 높이 폭포",
-   "value": "소개글 기준",
+   "value": "DSB 평균 해발 700m대, 전망대 부근 약 870m로 알려짐 (최고 높이 폭포 단정은 하지 않음)",
    "sources": [
     {
      "url": "https://transitpinas.com/malatan-og-falls-dsb-negros-occidental/",
      "grade": "B",
      "date": "2021-08-21",
      "says": "800m 이상, 가장 높은 폭포라 소개"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Don_Salvador_Benedicto",
+     "grade": "B",
+     "date": "2026",
+     "says": "DSB 평균 해발 715m, 최고 1,535m, '네그로스옥시덴탈의 여름 수도' 고원 휴양지"
+    },
+    {
+     "url": "https://www.komoot.com/highlight/7726517",
+     "grade": "B",
+     "date": "2025",
+     "says": "폭포 전망 지점 Elevation 870m (폭포 자체가 아닌 지점 값)"
+    },
+    {
+     "url": "https://ilonggotraveler.com/2025/06/30/travel-guide-malatan-og-falls-don-salvador-benedicto/",
+     "grade": "B",
+     "date": "2025",
+     "says": "높이 약 80~100m, 네그로스에서 가장 높은 폭포라 소개"
     }
    ],
-   "decision": "단일 출처라 '소개글' 표기, 낙차 숫자 미기재"
+   "decision": "800m 이상은 위키 평균 715m·전망대 870m와 어긋나므로 '평균 700m대·전망대 약 870m로 알려져 있다'로 고침. 낙차 수치는 출처마다 달라 미기재"
   },
   {
    "where": "nearby",
@@ -172,16 +190,22 @@
   {
    "where": "getting_there",
    "fact": "마닐라-바콜로드 항공 약 1시간 20분",
-   "value": "직항, 약 1시간 15~30분",
+   "value": "직항, 약 1시간 10~30분",
    "sources": [
     {
      "url": "https://www.flightconnections.com/flights-from-mnl-to-bcd",
      "grade": "C",
      "date": "2026",
-     "says": "에어아시아·세부퍼시픽·필리핀항공 직항, 약 1시간 25분"
+     "says": "에어아시아·세부퍼시픽·필리핀항공 직항, 일반적으로 1시간 25분, 시간표상 1시간 10분~1시간 30분"
+    },
+    {
+     "url": "https://www.traveloka.com/en-my/flight/route/manila-bacolod.mnl.bcd",
+     "grade": "C",
+     "date": "2026",
+     "says": "최단 1시간 10분, 샘플 시간표 1시간 15~25분, 여러 항공사 직항"
     }
    ],
-   "decision": "검색 요약에서 편차(1시간 10~30분)가 보여 범위로 표기, 요금·편수는 쓰지 않음"
+   "decision": "두 곳 모두 1시간 10~30분 범위로 일치해 본문을 1시간 10~30분으로 맞추고, 요금·편수는 쓰지 않음"
   }
  ],
  "images": []
