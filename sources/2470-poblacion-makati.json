@@ -1,7 +1,7 @@
 {
  "id": 2470,
  "slug": "poblacion-makati",
- "checked_at": "2026-11-18T00:00:00Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "좌표",
@@ -66,8 +66,14 @@
   {
    "where": "costs",
    "fact": "맥주·칵테일·클럽 커버·숙박",
-   "value": "맥주 ₱120~250, 칵테일 ₱350~600, 커버 ₱300~1,000",
+   "value": "맥주 ₱80~250, 칵테일 ₱150~600, 커버 ₱150~1,000",
    "sources": [
+    {
+     "url": "https://thediscreetgentleman.pages.dev/countries/philippines/manila/p-burgos-street",
+     "grade": "C",
+     "date": "2026-02",
+     "says": "P. 부르고스·포블라시온 바 10곳 현장 확인 가격: 맥주 ₱80~250, 칵테일 ₱150~350, 핸들바 밴드 날 커버 ₱150~200(한 잔 포함)"
+    },
     {
      "url": "https://thingstodomanila.com/poblacion-nightlife/",
      "grade": "C",
@@ -81,13 +87,19 @@
      "says": "맥주 120~180, 칵테일 350~500"
     }
    ],
-   "decision": "두 출처 범위를 포괄해 약 표기"
+   "decision": "서민 바(₱80~350)와 칵테일 바(₱350~600) 출처를 포괄해 약 표기. 클럽 커버 상한 ₱1,000 은 확인 못 해 '약' 범위로 유지"
   },
   {
    "where": "getting_there",
    "fact": "그랩·지프니·트라이시클",
-   "value": "그랩 ₱80~180, 트라이시클 ₱20~50, 지프니 ₱13",
+   "value": "그랩 ₱80~180, 트라이시클 ₱20~50, 지프니 ₱13~14",
    "sources": [
+    {
+     "url": "https://www.wheninmanila.com/heres-how-much-your-daily-commute-will-cost-with-the-fare-hikes",
+     "grade": "B",
+     "date": "2026-03",
+     "says": "2026-03-19 부터 재래식 지프니 최저 요금 ₱13 에서 ₱14 로 인상(임시, 6월 확정 예정), 현대식 ₱17"
+    },
     {
      "url": "https://www.thebelamyhouse.com/blog/poblacion-makati-guide",
      "grade": "C",
@@ -101,7 +113,7 @@
      "says": "그랩 120~180, 도보 15분"
     }
    ],
-   "decision": "범위로 표기"
+   "decision": "그랩·트라이시클은 범위로 표기(트라이시클은 정액 없이 흥정). 지프니는 2026-03 인상(₱14)과 4월 블로그(₱13)가 엇갈려 ₱13~14 로 표기"
   },
   {
    "where": "cautions",

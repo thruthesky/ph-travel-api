@@ -1,7 +1,7 @@
 {
   "id": 2405,
   "slug": "marikina-riverbanks-center",
-  "checked_at": "2026-11-18T08:39:54Z",
+  "checked_at": "2026-11-19T04:40:00Z",
   "facts": [
     {
       "where": "좌표",
@@ -86,8 +86,20 @@
     {
       "where": "getting_there",
       "fact": "LRT-2/지프니 요금·산톨란 도보",
-      "value": "LRT ₱25~30, 지프니 ₱12, 산톨란 약 2km 26분",
+      "value": "LRT 약 ₱13~15(2026-03 50% 할인 단일권), 지프니 약 ₱12(2023 자료), 산톨란 약 2km 26분",
       "sources": [
+        {
+          "url": "https://www.philstar.com/pang-masa/police-metro/2026/03/21/2515842/bagong-fare-matrix-sa-lrt-2-inilabas-na",
+          "grade": "B",
+          "date": "2026-03-21",
+          "says": "LRT-2 새 요금표: 저장카드 ₱6.50~16.50, 단일권 ₱8~18, DOTr 50% 할인 적용, 전 역(레토~안티폴로)"
+        },
+        {
+          "url": "https://trains.ph/lrt-2/santolan/",
+          "grade": "C",
+          "date": "2023-08",
+          "says": "산톨란~레토 ₱14(비프)/₱15(단일권) 할인 적용, 정상가 ₱28; 역과 리버뱅크스 센터가 보행교로 연결(위키 요약, 미확인)"
+        },
         {
           "url": "https://placefinder.sakay.ph/point-to-point/manila/riverbanks-marikina",
           "grade": "C",
@@ -101,7 +113,7 @@
           "says": "Santolan 2034 m, 26 min walk"
         }
       ],
-      "decision": "오래된 자료라 현지 확인 표기"
+      "decision": "LRT 는 2026-03 보도·요금표로 갱신(₱13~15, 할인 종료 시 변동 명시). 지프니는 2023 자료뿐이라 현지 확인 표기"
     },
     {
       "where": "highlights",
@@ -134,9 +146,16 @@
     {
       "where": "costs",
       "fact": "입장료·택시",
-      "value": "확인 불가",
-      "sources": [],
-      "decision": "'현지에서 확인'으로 처리"
+      "value": "입장 무료로 알려짐(최근 공식 확인 없음), 행사 놀이기구 ₱30~40·주차 ₱45(2014), 택시는 미터·앱 견적",
+      "sources": [
+        {
+          "url": "https://www.backpackingphilippines.com/2014/01/riverbanks-center-marikina-grand.html?m=1",
+          "grade": "C",
+          "date": "2014-01-01",
+          "says": "별도 입장료 언급 없음, 놀이기구 ₱30~40, 주차 정액 ₱45"
+        }
+      ],
+      "decision": "한 곳·오래된 자료라 입장료는 '무료로 알려짐, 현지 확인', 2014 요금은 연도를 밝혀 참고로만 씀. 택시는 미터·앱 견적 유지"
     }
   ],
   "images": []

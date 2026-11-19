@@ -1,7 +1,7 @@
 {
  "id": 2501,
  "slug": "el-capitan-wreck",
- "checked_at": "2026-11-18T09:55:22.921028Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "lat/lon",
@@ -92,30 +92,66 @@
   {
    "where": "costs",
    "fact": "펀 다이빙·패키지·체험·과정",
-   "value": "₱1,800~2,500 등",
+   "value": "₱1,500~2,500 등",
    "sources": [
     {
      "url": "https://philippinedives.com/dive-guide/subic-bay/",
      "grade": "B",
      "date": "2026",
      "says": "fun dive PHP 1,800-2,500 등"
+    },
+    {
+     "url": "https://www.camayandivers.com/pricing",
+     "grade": "A",
+     "date": "2026",
+     "says": "수빅 센터 공식 요금표: 펀 다이빙 Php1,500(난파선·리프), 체험 Php4,000, 오픈 워터 Php23,000(e-learning 20,700)"
+    },
+    {
+     "url": "https://www.billcarmody.com/blog/subicbay",
+     "grade": "C",
+     "date": "2026-01",
+     "says": "엘 카피탄·USS New York 2회 다이빙 3,900 PHP(회당 약 1,950)"
     }
    ],
-   "decision": "단일 출처, '약'과 현지 확인으로 표기"
+   "decision": "공식 센터 ₱1,500, 다른 안내 ₱1,800~2,500 이라 ₱1,500~2,500 으로 넓힘. 5회 패키지는 단일 출처로 '약' 유지"
   },
   {
    "where": "getting_there",
    "fact": "빅토리 라이너·통행료·프리포트 입장",
-   "value": "₱226~380, 2~4시간, 톨 ₱400~500, ₱50",
+   "value": "₱230~430, 2~4시간, 톨 약 ₱600(₱550~850), 입장료 현지 확인",
    "sources": [
     {
      "url": "https://philippinedives.com/dive-guide/subic-bay/",
      "grade": "B",
      "date": "2026",
      "says": "버스·SBMA 입장료·톨 안내"
+    },
+    {
+     "url": "https://pamasahe.com/routes/pitx-manila-olongapo-city-victory-liner-bus-schedule-fares",
+     "grade": "C",
+     "date": "2026-09",
+     "says": "PITx~올롱가포 에어컨 ₱335, 익스프레스 ₱430, 약 3시간, 연료 할증 가능"
+    },
+    {
+     "url": "https://bustickets.ph/victory-liner-manila-to-olongapo-bus/",
+     "grade": "C",
+     "date": "2025",
+     "says": "요금 ₱226부터(FAQ ₱200~250), 약 3시간 15분"
+    },
+    {
+     "url": "https://www.mysubicbay.com.ph/news/2026/04/29/sbma-further-reduces-port-tariff-road-users-fees-continues-e-bus-full-fare-subsidy-in-subic-freeport",
+     "grade": "A",
+     "date": "2026-04",
+     "says": "SBMA 환경·관광 요금(ETAF) 징수 중지(EO110 해제 때까지), 입장료 금액 언급 없음"
+    },
+    {
+     "url": "https://www.expressway.ph/locations/subic",
+     "grade": "C",
+     "date": "2026",
+     "says": "마닐라~수빅 NLEX-SCTEX 통행료 ₱634(다른 페이지 ₱607·₱857, 출처 간 불일치)"
     }
    ],
-   "decision": "변동 가능 문구 추가"
+   "decision": "버스는 ₱230~430, 프리포트 입장료는 확인 못 해 현지 확인으로 낮춤, 통행료는 출처가 갈려 '약 ₱600 안팎(₱550~850)'으로 표기"
   },
   {
    "where": "highlights",

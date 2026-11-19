@@ -1,7 +1,7 @@
 {
  "id": 2196,
  "slug": "pamuayan-falls",
- "checked_at": "2026-11-18T07:43:56Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "costs",
@@ -138,16 +138,28 @@
   {
    "where": "getting_there",
    "fact": "엘니도 밴",
-   "value": "약 ₱650, 하루 2회",
+   "value": "약 ₱650~850, 하루 2회(오전 8시·오후 1시경)",
    "sources": [
     {
      "url": "https://philippinetravels.ph/port-barton-travel-guide/",
      "grade": "B",
      "date": "2026",
      "says": "El Nido van about Php650, 8am and 1pm"
+    },
+    {
+     "url": "https://www.geckoroutes.com/philippines/el-nido-to-port-barton/",
+     "grade": "C",
+     "date": "2025",
+     "says": "운영사별 730~870 PHP, 08:00·13:00 출발, 3.5~4시간 (2025-11-28 갱신)"
+    },
+    {
+     "url": "https://pamasahe.com/routes/el-nido-port-barton-sbe-transport-schedule-fares",
+     "grade": "C",
+     "date": "2026",
+     "says": "SBE Transport 공유 밴 ₱700, 08:00·13:00, 약 3시간 30분 (2026-08 갱신, 유류할증으로 더 높을 수 있음)"
     }
    ],
-   "decision": "단일 출처, 약·소개된다로 완화"
+   "decision": "출처마다 ₱650~870 으로 달라 범위 ₱650~850 으로 표기, 운영사별·연도 명시"
   },
   {
    "where": "getting_there",
@@ -258,9 +270,22 @@
   {
    "where": "getting_there",
    "fact": "마닐라-PPS 직항 소요",
-   "value": "약 1시간 20분",
-   "sources": [],
-   "decision": "일반 상식 수준, 출처 미확인 — 사람이 확인 권장"
+   "value": "약 1시간 20분~1시간 30분",
+   "sources": [
+    {
+     "url": "https://www.haqqitours.com/en/philippines/manila/flight-tickets/manila-to-puerto-princesa-flights/",
+     "grade": "C",
+     "date": "2026",
+     "says": "non-stop Manila-Puerto Princesa about 1 hour 20 minutes (PAL, Cebu Pacific, AirAsia)"
+    },
+    {
+     "url": "https://flights.idealo.com/route/Manila-MNL/Puerto-Princesa-PPS/",
+     "grade": "C",
+     "date": "2026",
+     "says": "typical nonstop about 1h 30min; schedules range 1h 15min to 1h 40min"
+    }
+   ],
+   "decision": "두 출처가 1시간 20분~1시간 30분으로 일치해 범위로 표기"
   }
  ],
  "images": []
