@@ -1,7 +1,7 @@
 {
   "id": 151,
   "slug": "catanduanes",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T11:14:08Z",
   "facts": [
     {
       "where": "getting_there",
@@ -28,6 +28,66 @@
         }
       ],
       "decision": "구간마다 다르게 보이는 고정 운임과 운항 횟수 대신 도착항과 현행 운항 확인을 안내했다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "타바코–산안드레스 배 요금(레지나 해운)",
+      "value": "일반석 약 ₱320~380, 에어컨석 약 ₱420~490, 약 3시간, 연료할증 별도",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/routes/tabaco-san-andres-shipping-schedule-fares",
+          "grade": "C",
+          "date": "2026-10",
+          "says": "일반 ₱376·에어컨 ₱491(정상), 요약란 최저 ₱322·최고 ₱420, 하루 4회, 약 3시간, 연료할증으로 더 높을 수 있다."
+        },
+        {
+          "url": "https://pamasahe.com/posts/regina-shipping-lines-announces-10-fare-rollback-starting-june-22",
+          "grade": "B",
+          "date": "2026-06",
+          "says": "레지나 해운이 2026-06-22 부터 전 항로 여객 요금 10% 인하를 발표했다."
+        }
+      ],
+      "decision": "페이지 안에서도 최저·최고와 표가 어긋나고 10% 인하 반영 여부가 불확실해 범위로 쓰고 선사 확인을 안내했다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "마닐라–비락 직항(세부퍼시픽)",
+      "value": "하루 1편 안팎, 약 1시간 10분, 편도 약 ₱2,500~6,000(기존 범위 유지)",
+      "sources": [
+        {
+          "url": "https://www.flightconnections.com/flights-from-mnl-to-vrc",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "세부퍼시픽 단독 직항, 주 7회, 08:10 출발, 약 1시간 10분."
+        },
+        {
+          "url": "https://www.traveloka.com/en-th/flight/route/virac-manila.vrc.mnl",
+          "grade": "C",
+          "date": "2026-08",
+          "says": "5J821 08:00 출발 09:10 도착, 요금은 날짜별로 다르다."
+        }
+      ],
+      "decision": "운항 사실은 두 곳이 일치한다. 요금은 최저가 약 US$44~54(약 ₱2,500~3,100)로 하한만 지지돼 범위를 유지했다."
+    },
+    {
+      "where": "costs",
+      "fact": "비누롱 포인트 등록·환경세·가이드비",
+      "value": "약 ₱200~350(1팀 가이드비 포함), 현지 확인",
+      "sources": [
+        {
+          "url": "https://wewander.ph/?p=2649",
+          "grade": "C",
+          "date": "2019",
+          "says": "등록비 1인 ₱25, 가이드 5~8명 팀 ₱200."
+        },
+        {
+          "url": "https://www.windowseat.ph/?p=627317",
+          "grade": "C",
+          "date": "2025-05",
+          "says": "비누롱 포인트 입장료 무료로 적혀 있다(가이드·환경세 언급 없음)."
+        }
+      ],
+      "decision": "공식 요금표가 없고 블로그 값이 ₱0~350 으로 갈려 기존 ₱320 단정을 범위와 현지 확인으로 낮췄다."
     }
   ],
   "images": []

@@ -1,7 +1,7 @@
 {
   "id": 81,
   "slug": "dumaguete",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T11:16:25Z",
   "facts": [
     {
       "where": "getting_there",
@@ -34,6 +34,56 @@
         }
       ],
       "decision": "운임·횟수는 계절과 선사에 따라 확인하도록 안내한다."
+    },
+    {
+      "where": "costs",
+      "fact": "두마게테–시키호르 배 편도 운임",
+      "value": "약 ₱130~750 (로로선 ₱130 안팎 ~ 쾌속선 비즈니스석, 유류할증료 별도 변동)",
+      "sources": [
+        { "url": "https://pamasahe.com/routes/dumaguete-siquijor-oceanjet-schedule-fares", "grade": "C", "date": "2026-10", "says": "오션젯 쾌속선 약 40분, 투어리스트·오픈에어 ₱350, 비즈니스 ₱580, 유류할증료로 더 오를 수 있음" },
+        { "url": "https://bestphilippinestravelguide.com/?p=5395", "grade": "C", "date": "2026-06", "says": "오션젯 ₱260~380, 몬테네그로 로로·쾌속 ₱130~455, 알레손 로로 ₱130~200" }
+      ],
+      "decision": "공식 운임표를 못 찾았고 두 출처의 범위가 달라 ₱130~750 의 넓은 범위와 선사·할증료 변동 문구로 낮췄다. 기존 ₱234 하한은 근거가 없어 뺐다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "시불란 공항–시내 거리와 트라이시클 요금",
+      "value": "약 5~7km, 15분, 트라이시클 약 ₱100~200(흥정)",
+      "sources": [
+        { "url": "https://unchartedlens.com/routes/philippines/dumaguete-airport-dgt-to-city-center-transport/", "grade": "C", "date": "2025", "says": "공항–시내 5~7km, 트라이시클 전세 ₱100~150, 택시 ₱150~250, 15~20분" },
+        { "url": "https://dumaguete.com/?p=1420", "grade": "C", "date": "2021", "says": "시내–공항 고정 요금 ₱100, 시내 첫 2km ₱15(2021년 기준), 전세는 2~4배" }
+      ],
+      "decision": "₱150~200 은 두 출처보다 높아 ₱100~200 으로 고치고 거리는 5~7km 로 넓혔다. 시내 ₱15 기준은 2021년 값이라 연도를 밝혔다."
+    },
+    {
+      "where": "costs",
+      "fact": "아포 섬 당일 투어 요금과 보호구역 입장료",
+      "value": "1인 약 ₱1,500~4,100, 보호구역 입장료는 외국인 약 ₱300(필리핀인 ₱100), 현장 등록·가이드 필수",
+      "sources": [
+        { "url": "https://bestphilippinestravelguide.com/?p=5409", "grade": "C", "date": "2026-06", "says": "보호구역 ₱100(내국인)·₱300(외국인), 투어 ₱1,500~3,500, 공동 방카 편도 ₱300~500, 보호구역 가이드 필수" },
+        { "url": "https://www.jonnymelon.com/apo-island-dumaguete/", "grade": "C", "date": "2026-02", "says": "입장료 ₱100, 아틀란티스 다이브 리조트 스노클링 패키지 ₱4,095(가이드·배·점심·보호구역비 포함)" }
+      ],
+      "decision": "두 출처 값이 달라 투어는 ₱1,500~4,100 으로 넓히고 입장료·연료 추가금 포함 여부 확인 문구를 붙였다(한 리조트는 2026-04-12부터 1인 ₱500 연료 추가금 공지)."
+    },
+    {
+      "where": "cautions",
+      "fact": "칸라온 화산 경보 단계",
+      "value": "2026년 11월 현재 경보 2단계, 영구 위험 구역 출입 금지",
+      "sources": [
+        { "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/16/kanlaon-volcano-emits-ash-anew-on-nov-16-alert-level-2-remains", "grade": "B", "date": "2026-11-16", "says": "11월 16일 화산재 350m, 경보 2단계 유지, 영구 위험 구역 출입 금지(PHIVOLCS)" },
+        { "url": "https://www.natureworldnews.com/articles/73872/20261116/kanlaon-volcano-sends-fresh-ash-second-day-alert-level-2-stays-place.htm", "grade": "C", "date": "2026-11-16", "says": "이틀째 화산재 분출, 경보 2단계 유지" }
+      ],
+      "decision": "기준일을 2026년 11월로 갱신했다. 경보는 바뀔 수 있어 PHIVOLCS 공지 확인 문구는 유지한다."
+    },
+    {
+      "where": "best_time",
+      "fact": "산두롯 페스티벌 시기",
+      "value": "2025년 11월 22일 개최, 2017~2024년에는 9월로 옮겼던 적이 있어 해마다 확인",
+      "sources": [
+        { "url": "https://dumaguete.com/?p=48857", "grade": "C", "date": "2025-11", "says": "36회 산두롯 페스티벌을 2025년 11월 22일 개최(거리 춤·쇼다운)" },
+        { "url": "https://www.sunstar.com.ph/more-articles/dumaguete-city-moves-sandurot-festival-to-september", "grade": "B", "date": "2017", "says": "산두롯 페스티벌을 11월에서 9월로 옮긴다는 보도" }
+      ],
+      "decision": "2026년 일정은 공식 확인을 못 해 '11월 말'을 유지하되 연도별 변동을 밝혔다. 두마게테 헌장 기념일은 11월 24일."
     }
   ],
   "images": []

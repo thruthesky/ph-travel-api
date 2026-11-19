@@ -1,7 +1,7 @@
 {
   "id": 1636,
   "slug": "antipolo-cathedral",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T02:30:00Z",
   "facts": [
     {
       "where": "getting_there",
@@ -98,13 +98,25 @@
     {
       "where": "getting_there",
       "fact": "교통 요금·시간",
-      "value": "바클라란 버스 약 1시간 40분 ₱45~70, 공항 택시 약 30분 ₱500~600",
+      "value": "바클라란 버스 1시간 40분 이상 약 ₱45~70(추정), 공항 택시 30분 이상(도로 한산 시) ₱500~600 이상(추정)",
       "sources": [
         {
           "url": "https://www.rome2rio.com/s/Baclaran-Terminal-Station-LRT-Line-1/Antipolo-Cathedral",
           "grade": "C",
           "date": "2026",
-          "says": "추정치"
+          "says": "바클라란발 버스 1시간 38분, 환승 포함 환산 약 ₱42~58 추정"
+        },
+        {
+          "url": "https://www.rome2rio.com/s/NAIA-Terminal-2/Antipolo-Cathedral",
+          "grade": "C",
+          "date": "2026",
+          "says": "NAIA 2터미널에서 도로 27.2km, 택시 약 29분 ₱500~600 추정(교통 미반영)"
+        },
+        {
+          "url": "https://betternaia.com/articles/transportation",
+          "grade": "B",
+          "date": "2026-05-19",
+          "says": "공항 그랩 요금은 교통·시간대에 따라 오르는 대략치이며 앱 견적을 확인하라고 안내"
         },
         {
           "url": "https://en.wikivoyage.org/wiki/Antipolo",
@@ -113,7 +125,33 @@
           "says": "LRT-2·버스·지프니 경로"
         }
       ],
-      "decision": "추정치로 표기"
+      "decision": "버스·택시 모두 공식 요금이 없고 C 등급 추정치뿐이라 '이상·추정'으로 낮추고 그랩 견적 확인을 안내. Wikivoyage 2025 는 쿠바오·키아포발 시내버스 종점이 로빈슨스 근처임을 확인(요금 없음)"
+    },
+    {
+      "where": "overview",
+      "fact": "2026 희년(안티폴로 교구)",
+      "value": "성모 신심 400주년·대관식 100주년 희년, 대성당 희년의 문 2026-01-14 개방, 희년 종료 2026-11-28. 2025-04 성당 촛불 보관소 화재로 캔들라리아 룸 일시 폐쇄(성당 전체 폐쇄 없음), 2026 폐쇄·보수 소식 없음",
+      "sources": [
+        {
+          "url": "https://www.philstar.com/nation/2026/01/19/2501902/antipolo-diocese-marks-year-long-jubilee",
+          "grade": "B",
+          "date": "2026-01-19",
+          "says": "희년은 11월 28일까지, 대성당 희년의 문은 1월 14일 개방, 400주년·대관식 100주년"
+        },
+        {
+          "url": "https://interaksyon.philstar.com/trends-spotlights/2026/01/20/307900/antipolo-diocese-opens-yearlong-jubilee-designates-25-pilgrimage-churches",
+          "grade": "B",
+          "date": "2026-01-20",
+          "says": "희년 2026-11-28 종료, 대성당이 순례길 4개의 종착지, 희년의 문 1월 14일 개방"
+        },
+        {
+          "url": "https://www.rvasia.org/asian-news/philippines-antipolo-cathedral-calls-pilgrims-prayerful-participation-2026-pilgrimage",
+          "grade": "B",
+          "date": "2026-07-06",
+          "says": "2026 순례철 폐막 행사가 7월 7일 대성당에서 열림, 대성당 정상 운영"
+        }
+      ],
+      "decision": "희년 사실을 개요에 추가. 폐쇄·보수 소식은 검색에서 찾지 못해 본문 변경 없음, 개방·미사 시간은 출처마다 달라 계속 현지 확인으로 둠(splendor.church 평일 6·7·8·9시·12시·17·18시 등 안내는 FAQ 와 불일치)"
     },
     {
       "where": "costs",

@@ -1,7 +1,7 @@
 {
   "id": 56,
   "slug": "iloilo-city",
-  "checked_at": "2026-10-04T12:00:00Z",
+  "checked_at": "2026-11-19T12:00:00Z",
   "facts": [
     {
       "where": "overview",
@@ -68,7 +68,7 @@
     {
       "where": "getting_there",
       "fact": "바콜로드–일로일로 쾌속선 요금·운항",
-      "value": "오션젯 약 ₱550(투어리스트)·₱800(비즈니스), 위삼 약 ₱350~800, 하루 10회 안팎",
+      "value": "오션젯 약 ₱550(투어리스트)·₱800(비즈니스), 위삼 약 ₱350~800, 하루 10회 안팎(본문 앞쪽 범위도 ₱350~800 으로 통일)",
       "sources": [
         { "url": "https://bustickets.ph/bacolod-to-iloilo-ferry/", "grade": "B", "date": "2026", "says": "오션젯 오픈에어 ₱550, 비즈니스 ₱800, 위삼 투어리스트 ₱700, 퍼스트 ₱795" },
         { "url": "https://phferry.com/schedule/bacolod-to-iloilo", "grade": "B", "date": "2026", "says": "위삼 ₱350, 오션젯 ₱553, 패스트캣 ₱800, 하루 10회 이상, 약 1시간, 기상으로 결항 가능" }
@@ -104,7 +104,36 @@
         { "url": "https://myboracayguide.com/info/iloilo-ceres-tagbak-terminal", "grade": "C", "date": "2026-07-29", "says": "하로 지구, 시내 중심에서 약 7km, 택시·지프니 20~30분" },
         { "url": "https://exploreiloilo.com/guide/iloilo-land-transport/", "grade": "B", "date": "2026", "says": "타그바크 최대 육상 터미널, 칼리보 3~3.5시간, 록사스 2~3시간, 몰로 터미널은 안티케행, 모혼 터미널은 남부행" }
       ],
-      "decision": "버스 요금은 출처마다 ₱250~490 으로 갈려 새로 쓰지 않음(기존 ₱400~550 표현 유지)"
+      "decision": "타그바크 터미널 위치·소요는 유지"
+    },
+    {
+      "where": "getting_there",
+      "fact": "일로일로–카티클란(보라카이) 버스 소요·요금",
+      "value": "약 5~7시간 / 에어컨 버스 약 ₱400~600 (노선·시기별 차이, 터미널 확인)",
+      "sources": [
+        { "url": "https://www.rome2rio.com/s/Ceres-Northbound-Terminal-Iloilo/Caticlan", "grade": "C", "date": "2026", "says": "세레스 노스바운드 터미널–카티클란 버스 약 ₱430~490, 약 6시간 30분, 매시간 운행(날짜 미표기)" },
+        { "url": "https://www.discoversiargao.com/siargao-news/travel/panay-island-road-trip-the-epic-ceres-antique-liner-route-from-mohon-iloilo-to-caticlan-via-bukid-nabas", "grade": "C", "date": "2025-late", "says": "모혼 출발 안티케 경유 일반 에어컨 약 ₱450~600, 6~8시간, 요금 변동 가능" },
+        { "url": "https://myboracayguide.com/info/iloilo-ceres-tagbak-terminal", "grade": "C", "date": "2026-07-29", "says": "타그바크에서 카티클란행 버스·밴, 약 4~6시간(요금 미표기)" }
+      ],
+      "decision": "공식 요금표를 못 찾고 출처마다 시간(4~8시간)·요금(₱250~600)이 갈려 범위로 넓히고 현지 확인 문구 추가(기존 5~6시간·₱400~550 에서 조정)"
+    },
+    {
+      "where": "tips",
+      "fact": "무세오 일로일로 입장료",
+      "value": "약 ₱50 (2022년 안내 기준)",
+      "sources": [
+        { "url": "https://primer.com.ph/travel/2017/12/05/touring-around-museo-iloilo/", "grade": "C", "date": "2022-08-25", "says": "성인 ₱50, 학생 ₱20, 시니어 ₱40, 매일 9~17시(휴관일 미표기)" }
+      ],
+      "decision": "최근 12개월 출처가 없어 연도를 밝히고 현지 확인 문구로 낮춤(검색 요약에서도 운영 요일·요금이 출처마다 달랐음)"
+    },
+    {
+      "where": "itinerary",
+      "fact": "매지스 카페 커피 한 잔 가격",
+      "value": "₱35 안팎부터 (2017년 안내 기준, 옛 글 ₱25~40)",
+      "sources": [
+        { "url": "https://www.pinoytravelogue.com/2017/03/madge-cafe-lapaz-iloilo-city.html", "grade": "C", "date": "2017-03", "says": "커피(뜨거운 것·찬 것) ₱35부터 (검색 요약으로 확인)" }
+      ],
+      "decision": "최근 가격 출처를 못 찾아 연도를 밝히고 상승 가능성을 표기"
     },
     {
       "where": "best_time",

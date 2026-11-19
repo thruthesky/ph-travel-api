@@ -1,7 +1,7 @@
 {
   "id": 157,
   "slug": "culion",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "tips",
@@ -22,6 +22,66 @@
         }
       ],
       "decision": "병원 운영 안내에 맞춰 통상 방문 시간과 사전 조율 조건을 갱신했다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "코론–쿨리온 몬테네그로 라인스 편도 요금",
+      "value": "약 ₱325~455 (정규 ₱455는 2026년 11월 요금표 1곳, 타 집계 ₱325·₱390·₱110~330). 터미널 이용료·유류 할증료 별도 가능.",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/routes/coron-culion-montenegro-shipping-schedule-fares",
+          "grade": "C",
+          "date": "2026-11",
+          "says": "2026년 11월 갱신, 정규 ₱455·학생 ₱380·시니어 ₱350, 코론 06:00·12:00 / 쿨리온 09:00·15:00 출발, 약 1시간 30분, 중동 정세로 유류 할증 가능."
+        },
+        {
+          "url": "https://www.rome2rio.com/Ferry/Coron/Culion",
+          "grade": "C",
+          "date": "2026",
+          "says": "몬테네그로 하루 2회, 티켓 ₱110~330, 약 1시간 30분으로 요금이 다르게 표기됨."
+        }
+      ],
+      "decision": "공식 요금표가 없고 출처마다 달라 ₱455 단일값을 ₱325~455 범위와 '현지 확인'으로 낮췄다."
+    },
+    {
+      "where": "costs",
+      "fact": "쿨리온 박물관 입장료",
+      "value": "약 ₱100~150 (2013~2019년 후기: 외국인 ₱150, 내국인 ₱100). 병원 공식 안내에는 요금 없음.",
+      "sources": [
+        {
+          "url": "https://csgh.com.ph/patient-and-visitor-guide/",
+          "grade": "A",
+          "date": "2026-11-19",
+          "says": "운영 시간만 안내하고 입장료는 적혀 있지 않아 병원에 문의하라고 한다."
+        },
+        {
+          "url": "https://www.thepoortraveler.net/2013/05/culion-museum-and-archives-palawan-philippines/",
+          "grade": "C",
+          "date": "2013",
+          "says": "여행 후기에서 입장료 ₱150, 병원 창구 납부로 소개(검색 요약 기준, 오래됨)."
+        }
+      ],
+      "decision": "최근 근거가 없어 연도를 밝히고 병원에 확인하도록 표기했다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "프로펠러기 마닐라 NAIA 운항 금지(2026-03-29)와 마닐라–부수앙가 직항 중단",
+      "value": "2026년 3월 29일부터 터보프롭이 NAIA에서 클락으로 이전. PAL 마닐라–부수앙가는 클락–부수앙가로 변경.",
+      "sources": [
+        {
+          "url": "https://portcalls.com/cebu-pacific-turboprop-flights-from-naia-all-moving-to-clark-by-march-29",
+          "grade": "B",
+          "date": "2026",
+          "says": "세부퍼시픽 계열 코론(부수앙가) 편이 2026-03-29 NAIA에서 클락으로 이전(본문 확인)."
+        },
+        {
+          "url": "https://mb.com.ph/2026/02/02/pal-to-boost-naia-jet-flights-in-march-as-turboprops-exit",
+          "grade": "B",
+          "date": "2026-02-02",
+          "says": "PAL 터보프롭이 2026년 3월 NAIA에서 철수(검색 요약 기준)."
+        }
+      ],
+      "decision": "본문 값과 일치해 근거만 추가했다."
     }
   ],
   "images": []

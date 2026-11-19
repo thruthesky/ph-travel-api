@@ -1,7 +1,7 @@
 {
   "id": 136,
   "slug": "manaoag-church",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "tips",
@@ -22,6 +22,72 @@
         }
       ],
       "decision": "방문자가 자주 찾는 주말 시간과 차량 축복 장소를 공지와 함께 제공한다."
+    },
+    {
+      "where": "getting_there·costs",
+      "fact": "마닐라–마나오악 직행 버스 요금·출발 터미널",
+      "value": "쿠바오 터미널 출발 일반 버스 약 ₱440~550(2026년 9월), 유류할증 가능 → 본문 ₱440~650. 시스코 2026-04-23 노선 재개(쿠바오 출발 표기).",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/routes/cubao-manila-manaoag-pangasinan-solid-north-transit-schedule-fares",
+          "grade": "C",
+          "date": "2026-09",
+          "says": "솔리드 노스 쿠바오–마나오악 일반 버스 ₱550, 약 3시간, 유류할증으로 더 오를 수 있음."
+        },
+        {
+          "url": "https://pamasahe.com/routes/cubao-manila-manaoag-pangasinan-dagupan-bus-schedule-fares",
+          "grade": "C",
+          "date": "2026-09",
+          "says": "다구판 버스 쿠바오–마나오악 일반 ₱439, 약 6시간."
+        },
+        {
+          "url": "https://pamasahe.com/posts/cisco-bus-co-resumes-regular-metro-manila-to-pangasinan-routes-via-manaoag",
+          "grade": "B",
+          "date": "2026-04",
+          "says": "시스코가 2026-04-23 메트로마닐라(쿠바오)–팡가시난 노선(마나오악 시내 경유)을 재개했다고 공지. 요금 없음."
+        }
+      ],
+      "decision": "공식 요금표가 없어 C급 2곳의 범위로 낮췄다. 파사이 출발은 확인되지 않아 쿠바오 중심으로 고치고 현지 확인을 붙였다."
+    },
+    {
+      "where": "getting_there",
+      "fact": "NLEX·TPLEX 통행료(승용차)",
+      "value": "발린타왁–타를라크 ₱670 + TPLEX 라파스–우르다네타 ₱216 = ₱886. 본문 ₱700~900 유지.",
+      "sources": [
+        {
+          "url": "https://www.expressway.ph/routes/manila-to-pangasinan",
+          "grade": "C",
+          "date": "2026",
+          "says": "Class 1 발린타왁→우르다네타 합계 ₱886."
+        },
+        {
+          "url": "https://www.expressway.ph/routes/la-paz-to-urdaneta",
+          "grade": "C",
+          "date": "2026",
+          "says": "라파스–우르다네타 Class 1 ₱216."
+        }
+      ],
+      "decision": "TRB 공식 표는 열람이 불분명해 포털 값으로만 확인, 범위 표기를 유지한다."
+    },
+    {
+      "where": "highlights·tips",
+      "fact": "미사 시간표",
+      "value": "평일·토 06:00 외 07:30·09:00·10:30·16:30, 토 05:00·12:00, 일 05:00·12:00·15:00. 2026-09-25~10-04 정기 미사 봉헌 불가(축일).",
+      "sources": [
+        {
+          "url": "https://www.manaoagminorbasilica.org/onlinepamisa",
+          "grade": "A",
+          "date": "2026-11-19",
+          "says": "주중·토·일 미사 시각표, 9월 25일~10월 4일 정기 미사 봉헌 불가."
+        },
+        {
+          "url": "https://www.manaoagminorbasilica.org/our-ministry",
+          "grade": "A",
+          "date": "2026-11-19",
+          "says": "평일 06:00 수도회 미사, 토·일 정오, 일 15:00, 미사 후 차량 축복."
+        }
+      ],
+      "decision": "본문(평일 6시·주일 5시부터)과 일치해 고치지 않았다. 2026년 폐쇄·공사 소식은 찾지 못했다(1월 나무 쓰러짐 사고만 보도)."
     }
   ],
   "images": []

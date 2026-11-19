@@ -1,7 +1,7 @@
 {
   "id": 154,
   "slug": "romblon-island",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "getting_there/tips",
@@ -28,6 +28,112 @@
         }
       ],
       "decision": "선사 자료마다 다른 직항 출항 시각과 매일 운항 단정을 걷고 항구와 귀환편을 확인할 위치를 안내했다."
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "루세나–롬블론 배 요금·운항",
+      "value": "일반석 약 ₱800~1,200, 스타호스 주 4회 안팎 오후 4시 출발",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/routes/lucena-simara-starhorse-shipping-schedule-fares",
+          "grade": "B",
+          "date": "2026-11",
+          "says": "스타호스 루세나 출발 월·수·금·토 16:00, 약 9시간, 일반 ₱800이나 현재 요금이 더 높을 수 있다고 안내."
+        },
+        {
+          "url": "https://pamasahe.com/posts/montenegro-shipping-lines-announces-updated-passenger-fares-for-lucena-and-romblon-routes",
+          "grade": "B",
+          "date": "2026-06",
+          "says": "몬테네그로 루세나–롬블론 일반 ₱1,212(2026-06-22 적용)."
+        },
+        {
+          "url": "https://pamasahe.com/posts/starhorse-shipping-lines-announces-updated-passenger-fares-for-major-routes-starting-june-23",
+          "grade": "B",
+          "date": "2026-06",
+          "says": "스타호스 루세나–롬블론 제도 요금 개정이 2026-06-25 적용(금액 미공개)."
+        }
+      ],
+      "decision": "'매일'을 '주 4회 안팎'으로 낮추고 요금을 ₱800~1,200 범위와 6월 인상 사실로 고쳤다."
+    },
+    {
+      "where": "costs",
+      "fact": "바탕가스–롬블론 배 요금",
+      "value": "약 ₱950~2,200 (선사·등급별)",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/routes/batangas-romblon-montenegro-shipping-schedule-fares",
+          "grade": "B",
+          "date": "2026-09",
+          "says": "몬테네그로 바탕가스–롬블론 일반 ₱954, 17:00 출발 02:00 도착, 연료 할증으로 더 높을 수 있음."
+        },
+        {
+          "url": "https://pamasahe.com/routes/batangas-romblon-starlite-ferries-schedule-fares",
+          "grade": "B",
+          "date": "2026-10",
+          "says": "스타라이트 일반석 ₱1,530, 투어리스트 ₱2,220, 캐빈 ₱3,255, 13:00 출발 22:00 도착, 연료 할증 경고."
+        }
+      ],
+      "decision": "선사별 요금 차이를 반영해 범위를 넓히고 '야간 로로선' 단정을 걷었다."
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "클락–타블라스 항공 운항·요금",
+      "value": "2026-08-11부터 화·토 주 2회, 도입 기본 운임 ₱1,899부터",
+      "sources": [
+        {
+          "url": "https://www.sunlightair.ph/news-releases/clark-to-tablas-romblon-flights-launch-august-2026",
+          "grade": "A",
+          "date": "2026",
+          "says": "선라이트 에어가 2026-08-11부터 화·토 운항, 도입 기본 편도 ₱1,899."
+        },
+        {
+          "url": "https://tribune.net.ph/2026/08/12/commercial-flights-return-to-romblon-airport",
+          "grade": "B",
+          "date": "2026-08",
+          "says": "8월 11일(화) 클락–타블라스 첫 편 운항 보도."
+        },
+        {
+          "url": "https://www.aeroroutes.com/eng/260803-2raug26tbh",
+          "grade": "B",
+          "date": "2026-08",
+          "says": "클락 12:25 출발 타블라스 13:40 도착(약 1시간 15분)."
+        }
+      ],
+      "decision": "요금 하한을 도입 운임 ₱1,900으로 낮췄고 운항 요일은 그대로 확인됐다."
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "산아구스틴–롬블론 배 요금",
+      "value": "약 ₱130~300",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/posts/montenegro-shipping-lines-announces-updated-passenger-fares-for-lucena-and-romblon-routes",
+          "grade": "B",
+          "date": "2026-06",
+          "says": "몬테네그로 산아구스틴–롬블론 일반 ₱128(2026-06-22 적용)."
+        }
+      ],
+      "decision": "출처 1곳뿐이라 하한만 ₱130으로 낮추고 상한은 항구세·선종 차이를 위해 유지했다."
+    },
+    {
+      "where": "cautions",
+      "fact": "2026년 기상 결항",
+      "value": "7월 태풍 인데이·8월 몬순으로 롬블론 항로 결항 보도, 항구 피해 보도 없음",
+      "sources": [
+        {
+          "url": "https://newsinfo.inquirer.net/2259656/montenegro-shipping-cancels-lucena-romblon-trips-due-to-inday",
+          "grade": "B",
+          "date": "2026-07",
+          "says": "몬테네그로 루세나–롬블론 결항."
+        },
+        {
+          "url": "https://www.gmanetwork.com/news/serbisyopubliko/transportation/994385/canceled-trips-july-10-2026-typhoon-inday/story/",
+          "grade": "B",
+          "date": "2026-07",
+          "says": "롬블론 연결 선편 결항 목록."
+        }
+      ],
+      "decision": "본문 날씨 주의가 이미 같은 내용이라 수정하지 않았다."
     }
   ],
   "images": []

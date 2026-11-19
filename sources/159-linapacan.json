@@ -1,7 +1,7 @@
 {
   "id": 159,
   "slug": "linapacan",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T12:00:00Z",
   "facts": [
     {
       "where": "getting_there/costs",
@@ -34,6 +34,84 @@
         }
       ],
       "decision": "정기 코론·엘니도 방카가 일부 기항한다는 단정 및 미확인 정액 운임을 제거한다. 상륙 위치·왕복표·기상 취소 조건을 확인하도록 안내한다."
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "공항–코론 밴, 전세 보트·호핑 방카, 여객 방카 요금",
+      "value": "밴 1인 약 ₱200~250 · 전세 보트 편도 약 ₱4,000~11,000 · 호핑 대절 약 ₱2,000~7,500 · 여객 방카 자료별 약 ₱400~1,500(연도 불명)",
+      "sources": [
+        {
+          "url": "https://pamasahe.com/routes/busuanga-airport-coron-millennial-island-travelmate-schedule-fares",
+          "grade": "C",
+          "date": "2026",
+          "says": "부수앙가 공항–코론 공유 밴 ₱250, 약 45분, 유류할증으로 더 높을 수 있음(2026년 9월 갱신)."
+        },
+        {
+          "url": "https://www.geckoroutes.com/philippines/manila-to-coron/",
+          "grade": "C",
+          "date": "2025",
+          "says": "공항–코론 공유 밴 약 ₱225, 약 45분, 개별 밴 ₱1,900부터(2025년 11월 갱신)."
+        },
+        {
+          "url": "https://www.tapikbeach.com/linapacan-island-tour",
+          "grade": "C",
+          "date": "2026",
+          "says": "시발탄 출발 리나파칸 하루 전세 1명 ₱6,500~4명 ₱11,400, 점심·장비 포함, 환경·커뮤니티 요금은 해당 시 포함."
+        },
+        {
+          "url": "https://islandhoppinginthephilippines.com/palawan/v/single-one-day-boat-trips-tours-sibaltan-el-nido-coron-linapacan/",
+          "grade": "C",
+          "date": "2023",
+          "says": "소형 배 1~3명 ₱5,000~7,500, 대형 배 ₱10,000(하루). 연도 미표기, 10월 인상 가능."
+        },
+        {
+          "url": "https://islandhoppinginthephilippines.com/palawan/various/private-boats-and-public-ferries-between-el-nido-linapacan-and-coron/",
+          "grade": "C",
+          "date": "2022",
+          "says": "코론·산페르난도에서 전세 소형 ₱4,000, 대형(호핑 포함) ₱8,000. 산페르난도–산미겔 정기선(요일 상이) 요금은 미기재."
+        },
+        {
+          "url": "https://www.palawanisland.com.ph/linapacan-why-it-is-the-next-top-destination-in-palawan/",
+          "grade": "C",
+          "date": "2020",
+          "says": "디프나이–산미겔 낮 12시경 출발, 약 3시간, 외국인 ₱500·현지인 ₱400. 산미겔 섬 간 방카 ₱1,500~2,000+."
+        }
+      ],
+      "decision": "공시 요금표가 없고 자료마다 요금·연도가 달라 밴은 2026년 3곳 일치 범위로, 전세·호핑은 오래된 값과 2026년 투어사 값을 모두 포함하는 넓은 범위로 바꿨다. 여객 방카는 자료별 범위와 연도 불명을 표기하고 현지 확인으로 둔다."
+    },
+    {
+      "where": "getting_there/flights",
+      "fact": "마닐라 직항 종료와 클락 경유 항공",
+      "value": "2026-03-29 부터 마닐라–엘니도·부수앙가 직항 없음, 클락–엘니도 약 1시간 35분, 클락–부수앙가 약 1시간 20분·약 ₱2,500~6,000",
+      "sources": [
+        {
+          "url": "https://suroy.ph/el-nido-travel-guide/",
+          "grade": "C",
+          "date": "2026",
+          "says": "2026-03-29 세부퍼시픽 터보프롭이 마닐라에서 클락으로 이전, PAL 마닐라 터보프롭 종료. 클락–엘니도 약 1시간 35분 ₱3,500~8,000, 부수앙가–엘니도 약 40분."
+        },
+        {
+          "url": "https://flights.philippineairlines.com/en-ph/flights-from-clark-angeles-city",
+          "grade": "A",
+          "date": "2026",
+          "says": "PAL 클락–부수앙가 편도 이코노미 최저 ₱2,734(2027년 1~2월 출발 표본), 소요 시간은 미기재."
+        }
+      ],
+      "decision": "마닐라 직항 종료는 열어 본 출처가 1곳(suroy.ph)이라 날짜를 '2026년 3월 29일'로 유지하되 예약 전 항공사 확인을 권한다. 클락–부수앙가 소요는 집계처별 1시간 5분~1시간 25분이므로 약 1시간 20분을 유지하고 요금은 변동이 크므로 범위로 둔다."
+    },
+    {
+      "where": "cautions",
+      "fact": "리나파칸 인근 방카 안전 사고",
+      "value": "2026-11 칼리방방안 섬 앞바다 방카 프로펠러 고장, 해안경비대가 29명 구조, 산페르난도로 예인",
+      "sources": [
+        {
+          "url": "https://www.philstar.com/nation/2026/11/11/2569265/29-rescued-distressed-boat",
+          "grade": "B",
+          "date": "2026",
+          "says": "MBCA Princess Ruby Ann-1 이 칼리방방안 앞바다에서 프로펠러를 잃어 해안경비대가 승객·승무원 29명을 구조해 산페르난도로 예인. 모두 양호."
+        }
+      ],
+      "decision": "산페르난도–리나파칸 방카가 2026년 11월에도 운항 중임을 보여 주고 사고도 있었으므로 구명조끼 주의 항목에 한 문장으로 덧붙였다."
     }
   ],
   "images": []

@@ -1,7 +1,7 @@
 {
   "id": 144,
   "slug": "atok",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T11:18:00Z",
   "facts": [
     {
       "where": "costs/tips",
@@ -22,6 +22,72 @@
         }
       ],
       "decision": "서로 다른 두 꽃 명소의 요금을 확인하고 벚꽃 공원 금액을 갱신했다."
+    },
+    {
+      "where": "costs",
+      "fact": "노던 블로섬 입장료·환경세",
+      "value": "입장료 ₱250(노인·장애인 ₱200, 6~10세 ₱50, 2025년 안내). 환경세 성인 ₱50(노인·장애인·6~15세 ₱25), 관광 안내소 등록 때 납부.",
+      "sources": [
+        {
+          "url": "https://tourism.benguet.gov.ph/tourist_spots/northern-blossom-flower-farm/",
+          "grade": "A",
+          "date": "2026",
+          "says": "₱250/인, 월~토 06:00~11:30·13:00~16:30, 일요일 휴장. 아톡 가이드 협회 코스 ₱500~1,000(5명당 가이드 1명)."
+        },
+        {
+          "url": "https://thephilippineherald.com/?p=271030",
+          "grade": "B",
+          "date": "2025-04-07",
+          "says": "관광객 1인 환경세 ₱50, 관광 안내소에서 등록 후 이동."
+        },
+        {
+          "url": "https://lakbaypinas.com/?p=13198",
+          "grade": "C",
+          "date": "2024-12",
+          "says": "성인 ₱250·노인/장애인 ₱200·6~10세 ₱50, 환경세 성인 ₱50(그 외 ₱25), 가이드 ₱250(선택)."
+        }
+      ],
+      "decision": "입장료는 공식 ₱250 으로 고치고 환경세는 2곳(2025년)이 같아 ₱50 으로 쓰되 변동 가능으로 표기했다. 팀박 산 가이드는 공식 협회 코스 요금(₱500~1,000)만 남기고 하한 ₱300 은 근거가 없어 삭제했다."
+    },
+    {
+      "where": "getting_there/costs",
+      "fact": "바기오–아톡 버스·밴 요금과 시간",
+      "value": "편도 약 ₱150~200, 1시간 30분~3시간(2025년 안내).",
+      "sources": [
+        {
+          "url": "https://baguiocityguide.com/how-to-get-to-atok-benguet-from-baguio-city-2025-travel-guide/",
+          "grade": "C",
+          "date": "2025-05-03",
+          "says": "당와(슬로터하우스) 터미널 밴·GL Trans 버스, ₱150~180, 약 1시간 30분~2시간."
+        },
+        {
+          "url": "https://lakbaypinas.com/?p=13198",
+          "grade": "C",
+          "date": "2024-12",
+          "says": "버스 ₱150~200, 밴 ₱200~250, 약 2시간 30분~3시간."
+        }
+      ],
+      "decision": "공식 요금표가 없어 두 안내가 겹치는 ₱150~200 과 시간 범위로 고쳤다. 차량 대절 ₱3,000~4,500 은 확인하지 못해 '흥정·현지 확인'으로 낮췄다."
+    },
+    {
+      "where": "cautions",
+      "fact": "할세마 하이웨이 아톡 구간 통행 상황",
+      "value": "2026년 8~9월 칼리킹·파오아이 구간이 도로 유실·산사태로 1차로 통행.",
+      "sources": [
+        {
+          "url": "https://tribune.net.ph/2026/09/07/motorists-urged-to-exercise-caution-on-benguet-baguio-roads",
+          "grade": "B",
+          "date": "2026-09-07",
+          "says": "아톡 칼리킹의 바기오–본톡 도로가 도로 유실로 1차로 통행."
+        },
+        {
+          "url": "https://tribune.net.ph/2026/08/10/benguet-roads-closed-restricted-after-landslides-mudflows",
+          "grade": "B",
+          "date": "2026-08-10",
+          "says": "아톡 파오아이 Km 48·49 구간 1차로 통행."
+        }
+      ],
+      "decision": "전면 폐쇄가 아니라 1차로 통행이므로 주의사항에만 적고, 복구 시점은 확인되지 않아 출발 전 확인을 안내했다."
     }
   ],
   "images": []
