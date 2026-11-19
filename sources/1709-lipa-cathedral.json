@@ -1,90 +1,147 @@
 {
- "id": 1709,
- "slug": "lipa-cathedral",
- "checked_at": "2026-11-18T02:47:32Z",
- "facts": [
-  {
-   "where": "location",
-   "fact": "좌표",
-   "value": "13.9409,121.1634",
-   "sources": [
+  "id": 1709,
+  "slug": "lipa-cathedral",
+  "checked_at": "2026-11-18T02:47:32Z",
+  "facts": [
     {
-     "url": "https://en.wikipedia.org/wiki/Lipa_Cathedral",
-     "grade": "A",
-     "date": "2026",
-     "says": "13.940951,121.163254"
+      "where": "location",
+      "fact": "좌표",
+      "value": "13.9409,121.1634",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lipa_Cathedral",
+          "grade": "A",
+          "date": "2026",
+          "says": "13.940951,121.163254"
+        },
+        {
+          "url": "https://nominatim.openstreetmap.org/search?q=Lipa+Cathedral+Batangas&format=json",
+          "grade": "A",
+          "date": "2026-11",
+          "says": "13.9408526,121.1633961 Lipa Cathedral, C. M. Recto Avenue"
+        }
+      ],
+      "decision": "일치"
     },
     {
-     "url": "https://nominatim.openstreetmap.org/search?q=Lipa+Cathedral+Batangas&format=json",
-     "grade": "A",
-     "date": "2026-11",
-     "says": "13.9408526,121.1633961 Lipa Cathedral, C. M. Recto Avenue"
-    }
-   ],
-   "decision": "일치"
-  },
-  {
-   "where": "overview",
-   "fact": "연혁 1605·1754·1779~1894·1910·1944·1957",
-   "value": "본문 연표",
-   "sources": [
-    {
-     "url": "https://en.wikipedia.org/wiki/Lipa_Cathedral",
-     "grade": "A",
-     "date": "2026",
-     "says": "각 연도와 인물, 신르네상스, 종탑 5→7층, 제단"
+      "where": "overview",
+      "fact": "연혁 1605·1754·1779~1894·1910·1944·1957",
+      "value": "본문 연표",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lipa_Cathedral",
+          "grade": "A",
+          "date": "2026",
+          "says": "각 연도와 인물, 신르네상스, 종탑 5→7층, 제단"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Archdiocese_of_Lipa",
+          "grade": "A",
+          "date": "2026",
+          "says": "1910 교구, 1972 승격, 1605 창건"
+        }
+      ],
+      "decision": "양식은 출처마다 달라 병기"
     },
     {
-     "url": "https://en.wikipedia.org/wiki/Archdiocese_of_Lipa",
-     "grade": "A",
-     "date": "2026",
-     "says": "1910 교구, 1972 승격, 1605 창건"
-    }
-   ],
-   "decision": "양식은 출처마다 달라 병기"
-  },
-  {
-   "where": "overview",
-   "fact": "도시 개요 78km·312m·기온",
-   "value": "78km(도로 86km), 312m, 25.6℃, 건기 1~4월",
-   "sources": [
+      "where": "overview",
+      "fact": "도시 개요 78km·312m·기온",
+      "value": "78km(도로 86km), 312m, 25.6℃, 건기 1~4월",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lipa,_Batangas",
+          "grade": "A",
+          "date": "2026",
+          "says": "도시 개요, 시 승격 1887, 헌장 1947-08-31"
+        }
+      ],
+      "decision": "단일 출처"
+    },
     {
-     "url": "https://en.wikipedia.org/wiki/Lipa,_Batangas",
-     "grade": "A",
-     "date": "2026",
-     "says": "도시 개요, 시 승격 1887, 헌장 1947-08-31"
-    }
-   ],
-   "decision": "단일 출처"
-  },
-  {
-   "where": "highlights",
-   "fact": "축제·박물관·커피",
-   "value": "1월 20일 축일, 박물관 2007-11, 커피 축제 12월",
-   "sources": [
+      "where": "highlights",
+      "fact": "축제·박물관·커피",
+      "value": "1월 20일 축일, 박물관 2007-11, 커피 축제 12월",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lipa,_Batangas",
+          "grade": "A",
+          "date": "2026",
+          "says": "1월 20일 축제, 박물관, 커피·로미"
+        }
+      ],
+      "decision": "행사는 해마다 확인 문구"
+    },
     {
-     "url": "https://en.wikipedia.org/wiki/Lipa,_Batangas",
-     "grade": "A",
-     "date": "2026",
-     "says": "1월 20일 축제, 박물관, 커피·로미"
+      "where": "getting_there",
+      "fact": "교통",
+      "value": "SM 시티 리파 옆 그랜드 터미널, STAR 톨웨이",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Lipa,_Batangas",
+          "grade": "A",
+          "date": "2026",
+          "says": "그랜드 터미널, STAR 톨웨이, 아얄라 하이웨이"
+        }
+      ],
+      "decision": "버스 회사·요금은 현지 확인"
     }
-   ],
-   "decision": "행사는 해마다 확인 문구"
-  },
-  {
-   "where": "getting_there",
-   "fact": "교통",
-   "value": "SM 시티 리파 옆 그랜드 터미널, STAR 톨웨이",
-   "sources": [
+  ],
+  "images": [
     {
-     "url": "https://en.wikipedia.org/wiki/Lipa,_Batangas",
-     "grade": "A",
-     "date": "2026",
-     "says": "그랜드 터미널, STAR 톨웨이, 아얄라 하이웨이"
+      "file": "1709-lipa-cathedral.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_of_Saint_Sebastian_(Lipa,_Batangas;_12-29-2021).jpg",
+      "check": "patrickroque01 2021 사진. 설명에 Metropolitan Cathedral of Saint Sebastian, Lipa City 명시, 종탑·돔·성 베드로/바오로 부조 파사드가 보임"
+    },
+    {
+      "file": "1709-lipa-cathedral-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_of_Saint_Sebastian,_from_city_plaza_(Lipa,_Batangas;_12-29-2021).jpg",
+      "check": "같은 작가 같은 날이나 설명에 from city plaza 명시, 광장 앞 조형물과 성당 뒤 돔이 보임"
+    },
+    {
+      "file": "1709-lipa-cathedral-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_of_San_Sebastian_Front_View.JPG",
+      "check": "Nickrds09 2012 사진. 설명에 Front view of the Metropolitan Cathedral of San Sebastian in Lipa City, SAN PEDRO·SAN PABLO 부조와 정문이 보임"
+    },
+    {
+      "file": "1709-lipa-cathedral-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:St._Sebastian_Cathedral_in_Lipa_City,_Philippines.jpg",
+      "check": "RaMmpage18 2012 사진. 파일명·유산 설명에 Lipa City 명시, 같은 종탑·돔·파사드 형태"
+    },
+    {
+      "file": "1709-lipa-cathedral-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Saint_Sebastian_Cathedral_Lipa.JPG",
+      "check": "Rebel shadow 사진. 설명에 Cathedral of St. Sebastian in Lipa City, Batangas 명시, 종탑·돔·정면 확인"
+    },
+    {
+      "file": "1709-lipa-cathedral-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Cathedral_(Lipa).jpg",
+      "check": "Roel Balingit 2019 사진, GPS 13.941,121.164 로 대성당 위치와 일치, 파사드가 같음"
+    },
+    {
+      "file": "1709-lipa-cathedral-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:LipaCathedraljf0875_06.JPG",
+      "check": "Ramon FVelasquez 2013 사진. 설명에 Church tower of the Metropolitan Cathedral of Saint Sebastian 명시"
+    },
+    {
+      "file": "1709-lipa-cathedral-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:LipaCathedraljf0888_04.JPG",
+      "check": "Ramon FVelasquez 2013 사진. 설명에 Dome of the Metropolitan Cathedral of Saint Sebastian 명시"
+    },
+    {
+      "file": "1709-lipa-cathedral-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Porta_Santa,_Lipa_Cathedral,_Batangas,_Apr_2024.jpg",
+      "check": "Ralff Nestor Nacor 2024 사진. 제목과 문 위 간판에 PORTA SANTA(HOLY DOOR), 분류가 Lipa Cathedral"
+    },
+    {
+      "file": "1709-lipa-cathedral-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Saint_Sebastian_monument_at_the_Lipa_Cathedral.jpg",
+      "check": "Ramon FVelasquez 2013 사진. 파일명에 Lipa Cathedral 명시, 분류가 Lipa Cathedral"
+    },
+    {
+      "file": "1709-lipa-cathedral-11.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_of_San_Sebastian_Side_View.JPG",
+      "check": "Nickrds09 2012 사진. 설명에 Side of the Metropolitan Cathedral of San Sebastian, 돔·종탑 형태가 같음"
     }
-   ],
-   "decision": "버스 회사·요금은 현지 확인"
-  }
- ],
- "images": []
+  ],
+  "photos_checked_at": "2026-11-19T02:00:39Z"
 }
