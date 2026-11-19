@@ -1,7 +1,7 @@
 {
   "id": 2560,
   "slug": "calasiao-church",
-  "checked_at": "2026-11-18T11:02:17Z",
+  "checked_at": "2026-11-19T04:57:57Z",
   "facts": [
     {
       "where": "latitude/longitude",
@@ -212,9 +212,28 @@
     {
       "where": "costs",
       "fact": "입장료·박물관·미사 시간",
-      "value": "현지 확인",
-      "sources": [],
-      "decision": "출처 없어 '현지에서 확인'"
+      "value": "입장료 현지 확인, 미사 평일 6시·일요일 5:30·7:00·8:30·10:00·17:00",
+      "sources": [
+        {
+          "url": "https://www.philmass.com/Asia/Philippines/Pangasinan/Calasiao/Roman-Catholic-Churches/Sts.-Peter-and-Paul-Parish/mass-schedule.html",
+          "grade": "C",
+          "date": "2026",
+          "says": "평일 6:00, 수·금 17:00, 토 6:00·17:00(예비 미사), 일 5:30·7:00·8:30·10:00·17:00, 2026-03-25 갱신, 입장료·박물관 언급 없음"
+        },
+        {
+          "url": "https://masstimesph.com/ilocos/pangasinan/calasiao-sts-peter-and-paul-parish/",
+          "grade": "C",
+          "date": "2026",
+          "says": "같은 미사 시간표, 2026 저작권 표기"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Saints_Peter_and_Paul_Parish_Church_(Calasiao)",
+          "grade": "B",
+          "date": "2026-11-19",
+          "says": "수도원 안 Museo Calasiao 언급, 입장료·개관 시간은 없음"
+        }
+      ],
+      "decision": "입장료·박물관 개관 시간은 공개 자료가 없어 '현지에서 확인' 유지, 미사 시간은 2곳 일치해 비고에 기재"
     }
   ],
   "images": [

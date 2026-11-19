@@ -1,7 +1,7 @@
 {
   "id": 2559,
   "slug": "caloocan-cathedral",
-  "checked_at": "2026-11-18T10:57:04Z",
+  "checked_at": "2026-11-19T04:58:19Z",
   "facts": [
     {
       "where": "coordinates",
@@ -146,9 +146,34 @@
     {
       "where": "costs",
       "fact": "교통비·입장료",
-      "value": "현지 확인",
-      "sources": [],
-      "decision": "근거 없어 수치 생략(점심·예산은 어림값 명시)"
+      "value": "LRT-1 ₱16~52, 지프니 최소 ₱14(일반)·₱17(현대화), 트라이시클로·그랩은 현지 확인",
+      "sources": [
+        {
+          "url": "https://mypinas.ph/transportation/lrt-1-fare-matrix/",
+          "grade": "C",
+          "date": "2026-08",
+          "says": "비프 카드 ₱16~52, 1회권 ₱20~55, 모뉴멘토→센트럴 비프 ₱27"
+        },
+        {
+          "url": "https://www.expressway.ph/transit/lrt1-line-guide",
+          "grade": "C",
+          "date": "2026",
+          "says": "LRMC 요금표(2025-04-02 시행) 비프 ₱16~52, 1회권 ₱20~55, 기본 ₱16.25+km당 ₱1.47"
+        },
+        {
+          "url": "https://www.gmanetwork.com/news/money/economy/1003715/dotr-approves-ltfrb-fare-hike-recommendation-for-puvs/story/",
+          "grade": "B",
+          "date": "2026-09-25",
+          "says": "일반 지프니 4km까지 ₱14(+km당 ₱2), 현대화 지프니 ₱17(+km당 ₱2.40)"
+        },
+        {
+          "url": "https://www.topgear.com.ph/news/industry-news/dotr-fare-hike-september-28-2026-a6941-20260928",
+          "grade": "B",
+          "date": "2026-09-28",
+          "says": "2026-09-28 시행, 일반 지프니 ₱14·현대화 ₱17 최소 요금"
+        }
+      ],
+      "decision": "LRT-1·지프니는 출처 2곳이 일치해 구체 값 사용(연도 명시). 트라이시클로·그랩·택시는 정해진 요금이 없거나 근거 부족해 현지 확인 유지. 입장료는 기존 '무료로 알려짐' 유지"
     }
   ],
   "images": []

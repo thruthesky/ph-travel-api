@@ -1,7 +1,7 @@
 {
  "id": 2480,
  "slug": "capitol-commons",
- "checked_at": "2026-11-18T00:00:00Z",
+ "checked_at": "2026-11-19T00:00:00Z",
  "facts": [
   {
    "where": "overview",
@@ -200,9 +200,46 @@
   {
    "where": "costs",
    "fact": "식사·카페·영화·주차 요금",
-   "value": "식사·카페는 대략 범위, 영화·주차 현지 확인",
-   "sources": [],
-   "decision": "출처 없어 추정 범위 또는 현지 확인으로 표기"
+   "value": "식사 약 ₱400~800, 카페 약 ₱100~300, 영화 약 ₱420~440(스크리닝 룸 ₱570~590), 주차 승용차 첫 3~4시간 약 ₱50 후 시간당 ₱20",
+   "sources": [
+    {
+     "url": "https://manilaplaces.com/dining/estancia-mall",
+     "grade": "C",
+     "date": "2026-06-19",
+     "says": "에스탄시아 식당 1인 평균 ₱400~800"
+    },
+    {
+     "url": "https://www.manilabarsandclubs.com/areas/pasig-capitol-commons",
+     "grade": "C",
+     "date": "2026-11",
+     "says": "맥주 ₱190~210, 칵테일 약 ₱350~400"
+    },
+    {
+     "url": "https://sinegang.com/cinemas/ortigas-estancia",
+     "grade": "C",
+     "date": "2026-11",
+     "says": "일반관 ₱420~440, 스크리닝 룸 ₱570~590"
+    },
+    {
+     "url": "https://thebeat.asia/manila/vibe/pop-culture/vip-cinema-luxury-movie-theatre",
+     "grade": "C",
+     "date": "2026-09",
+     "says": "스크리닝 룸 ₱570부터"
+    },
+    {
+     "url": "https://parkinganph.com/parking/estancia-mall-parking-pasig-city-c963",
+     "grade": "C",
+     "date": "2026",
+     "says": "승용차 첫 3시간 ₱50, 이후 시간당 ₱20, 야간 ₱500(날짜 미표기)"
+    },
+    {
+     "url": "https://www.topgear.com.ph/features/feature-articles/parking-facility-review-estancia-mall-a958-20190113",
+     "grade": "B",
+     "date": "2019-01",
+     "says": "승용차 첫 4시간 ₱50, 이후 시간당 ₱20"
+    }
+   ],
+   "decision": "식사는 단일 출처라 범위를 낮추고, 카페는 개별 매장 가격을 모아 범위로 표기. 영화는 상영 목록 기준(공식 가격 미공개)이라 현지 확인 병기. 주차는 3시간/4시간 차이가 있어 3~4시간으로 표기하고 변경 가능 명시"
   }
  ],
  "images": []

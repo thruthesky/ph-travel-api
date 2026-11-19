@@ -1,7 +1,7 @@
 {
   "id": 2593,
   "slug": "magikland",
-  "checked_at": "2026-11-18T00:00:00Z",
+  "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     {
       "where": "costs",
@@ -140,9 +140,22 @@
     {
       "where": "getting_there",
       "fact": "마닐라-바콜로드 비행 시간",
-      "value": "약 1시간 10분~1시간 30분",
-      "sources": [],
-      "decision": "출처 미확인 일반 지식 범위로만 표기, 항공사 확인 문구, notes 에 표기"
+      "value": "약 1시간 10분~1시간 25분",
+      "sources": [
+        {
+          "url": "https://www.booking.com/flights/route/city-to-city/ph-manila-to-ph-bacolod.en-gb.html",
+          "grade": "C",
+          "date": "2026",
+          "says": "평균 비행 시간 1시간 16분(최근 6개월 예약 항공편 기준)"
+        },
+        {
+          "url": "https://www.traveloka.com/en-ph/flight/route/Manila-Bacolod.MNL.BCD",
+          "grade": "C",
+          "date": "2026",
+          "says": "MNL-BCD 가장 짧은 항공편 1시간 10분, 표본 시간표는 1시간 15분~1시간 25분"
+        }
+      ],
+      "decision": "두 항공 포털이 1시간 10분~1시간 25분 범위를 보여 상한을 30분에서 25분으로 낮추고, 항공사 최신 시간표 확인 문구는 유지"
     },
     {
       "where": "highlights",

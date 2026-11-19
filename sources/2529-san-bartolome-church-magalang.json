@@ -1,7 +1,7 @@
 {
   "id": 2529,
   "slug": "san-bartolome-church-magalang",
-  "checked_at": "2026-11-18T10:20:09Z",
+  "checked_at": "2026-11-19T04:57:19Z",
   "facts": [
     {
       "where": "좌표",
@@ -120,16 +120,34 @@
     {
       "where": "getting_there",
       "fact": "마닐라 약 107km, 산페르난도 41km",
-      "value": "107km/41km",
+      "value": "마닐라 80~107km, 산페르난도 27~41km",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Magalang,_Pampanga",
           "grade": "B",
           "date": "2026-11-18",
           "says": "Manila 107km, San Fernando 41km"
+        },
+        {
+          "url": "https://www.rome2rio.com/s/San-Fernando-Pampanga/Magalang",
+          "grade": "C",
+          "date": "2026",
+          "says": "산페르난도~마갈랑 도로 약 26.7km, 약 30분 (직선 41km 는 도로 거리가 아니라고 명시)"
+        },
+        {
+          "url": "https://www.rome2rio.com/s/Manila/Magalang",
+          "grade": "C",
+          "date": "2026",
+          "says": "마닐라~마갈랑 도로 81.4km, 약 1시간 12분"
+        },
+        {
+          "url": "https://www.philatlas.com/luzon/r03/pampanga/magalang.html",
+          "grade": "B",
+          "date": "2026",
+          "says": "직선거리 마닐라 약 77km, 산페르난도 약 21km"
         }
       ],
-      "decision": "채택"
+      "decision": "출처가 서로 달라(위키 107/41, 경로 계산 81/27) 범위로 표기"
     },
     {
       "where": "costs",
