@@ -1,9 +1,172 @@
-{ "id": 1431, "slug": "laoag-cathedral", "checked_at": "2026-11-18T00:00:00Z",
+{
+  "id": 1431,
+  "slug": "laoag-cathedral",
+  "checked_at": "2026-11-18T00:00:00Z",
   "facts": [
-    { "where": "overview", "fact": "대성당 역사·양식(1580 본당, 1612 기초, 1843 화재, 1873~1880 복원, 1961 대성당)", "value": "이탈리아 르네상스풍", "sources": [ { "url": "https://en.wikipedia.org/wiki/Laoag_Cathedral", "grade": "B", "date": "2026-11-18", "says": "역사·양식·점거·1936 정면·1971~72 보수" }, { "url": "https://benjielayug.com/2004/04/stopover-cathedral-of-st-william-the-hermit-laoag-city-ilocos-norte.html", "grade": "C", "date": "2004", "says": "검색 결과에 1612 건립 언급(검색 요약)" } ], "decision": "연도가 자료마다 달라 주의사항에 명시" },
-    { "where": "overview", "fact": "종탑 높이·간격·침하율", "value": "약 45m(147피트), 성당과 약 85m, 약 2.5cm/년", "sources": [ { "url": "https://quirkytravelguy.com/sinking-bell-tower-laoag-philippines/", "grade": "C", "date": "n/a", "says": "147피트, 1인치/년, 허가자 외 출입 불가, 무료, 5~10분" }, { "url": "https://en.wikipedia.org/wiki/Laoag_Cathedral", "grade": "B", "date": "2026-11-18", "says": "연 1인치, 1707 지진 뒤 건립 추정, 재료" } ], "decision": "근사치로 표기" },
-    { "where": "costs", "fact": "Museo Ilocos Norte 입장료", "value": "성인 ₱50, 어린이 ₱30, 일요일 휴관", "sources": [ { "url": "https://ilocosnorte.ph/tour/fees", "grade": "A", "date": "2026", "says": "50/30/50, 8~5, 일요일 휴관" } ], "decision": "채택" },
-    { "where": "getting_there", "fact": "마닐라~라오아그 거리·버스 회사·미니버스", "value": "약 487km, 10~12시간", "sources": [ { "url": "https://en.wikipedia.org/wiki/Laoag", "grade": "B", "date": "2026-11-18", "says": "487km, 버스 회사, 미니버스, 공항 노선" }, { "url": "https://www.philippinebeaches.org/?p=8177", "grade": "C", "date": "2019", "says": "마닐라~라오아그 버스 10~12시간" } ], "decision": "채택, 요금은 현지 확인" },
-    { "where": "best_time", "fact": "기후", "value": "건기 11~4월, 8월 594mm", "sources": [ { "url": "https://en.wikipedia.org/wiki/Laoag", "grade": "B", "date": "2026-11-18", "says": "기후표" } ], "decision": "채택" },
-    { "where": "coords", "fact": "좌표", "value": "18.1939,120.5936", "sources": [ { "url": "https://en.wikipedia.org/wiki/Laoag_Cathedral", "grade": "B", "date": "2026-11-18", "says": "18°11′38″N 120°35′37″E" } ], "decision": "채택(등록된 라오아그 18.1978,120.5936과 시내 일치)" }
-  ], "images": [] }
+    {
+      "where": "overview",
+      "fact": "대성당 역사·양식(1580 본당, 1612 기초, 1843 화재, 1873~1880 복원, 1961 대성당)",
+      "value": "이탈리아 르네상스풍",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Laoag_Cathedral",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "역사·양식·점거·1936 정면·1971~72 보수"
+        },
+        {
+          "url": "https://benjielayug.com/2004/04/stopover-cathedral-of-st-william-the-hermit-laoag-city-ilocos-norte.html",
+          "grade": "C",
+          "date": "2004",
+          "says": "검색 결과에 1612 건립 언급(검색 요약)"
+        }
+      ],
+      "decision": "연도가 자료마다 달라 주의사항에 명시"
+    },
+    {
+      "where": "overview",
+      "fact": "종탑 높이·간격·침하율",
+      "value": "약 45m(147피트), 성당과 약 85m, 약 2.5cm/년",
+      "sources": [
+        {
+          "url": "https://quirkytravelguy.com/sinking-bell-tower-laoag-philippines/",
+          "grade": "C",
+          "date": "n/a",
+          "says": "147피트, 1인치/년, 허가자 외 출입 불가, 무료, 5~10분"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Laoag_Cathedral",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "연 1인치, 1707 지진 뒤 건립 추정, 재료"
+        }
+      ],
+      "decision": "근사치로 표기"
+    },
+    {
+      "where": "costs",
+      "fact": "Museo Ilocos Norte 입장료",
+      "value": "성인 ₱50, 어린이 ₱30, 일요일 휴관",
+      "sources": [
+        {
+          "url": "https://ilocosnorte.ph/tour/fees",
+          "grade": "A",
+          "date": "2026",
+          "says": "50/30/50, 8~5, 일요일 휴관"
+        }
+      ],
+      "decision": "채택"
+    },
+    {
+      "where": "getting_there",
+      "fact": "마닐라~라오아그 거리·버스 회사·미니버스",
+      "value": "약 487km, 10~12시간",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Laoag",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "487km, 버스 회사, 미니버스, 공항 노선"
+        },
+        {
+          "url": "https://www.philippinebeaches.org/?p=8177",
+          "grade": "C",
+          "date": "2019",
+          "says": "마닐라~라오아그 버스 10~12시간"
+        }
+      ],
+      "decision": "채택, 요금은 현지 확인"
+    },
+    {
+      "where": "best_time",
+      "fact": "기후",
+      "value": "건기 11~4월, 8월 594mm",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Laoag",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "기후표"
+        }
+      ],
+      "decision": "채택"
+    },
+    {
+      "where": "coords",
+      "fact": "좌표",
+      "value": "18.1939,120.5936",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Laoag_Cathedral",
+          "grade": "B",
+          "date": "2026-11-18",
+          "says": "18°11′38″N 120°35′37″E"
+        }
+      ],
+      "decision": "채택(등록된 라오아그 18.1978,120.5936과 시내 일치)"
+    }
+  ],
+  "images": [
+    {
+      "file": "1431-laoag-cathedral.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Saint_William%27s_Cathedral_Laoag_(A._Bonifacio,_Laoag,_Ilocos_Norte;_11-16-2022).jpg",
+      "check": "분류 Laoag Cathedral, 정면 전체와 십자가·입구 아치가 보임 - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-2.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Laoag_Cathedral.jpg",
+      "check": "분류 Laoag Cathedral, 같은 정면이나 다른 각도·시간 - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-3.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Laoag_Cathedral,_Ilocos_Norte,_Apr_2025.jpg",
+      "check": "분류 Laoag Cathedral, 2025년 촬영으로 현재 모습 - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-4.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Allan_Jay_Quesada_Laoag_Church_DSC_3420.jpg",
+      "check": "분류 Laoag Cathedral, 정면 구도가 다른 사진 - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-5.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Laoag_Cathedral_entrance.jpg",
+      "check": "분류 Laoag Cathedral, 설명에 main façade entrance와 PHC 표지판 - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-6.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Laoag_Sinking_Bell_Tower_(A._Bonifacio,_Laoag,_Ilocos_Norte;_11-16-2022).jpg",
+      "check": "분류 Sinking Bell Tower (Laoag), 설명과 GPS 일치 지역 - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-7.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sinking_Bell_Tower,_Laoag,_Ilocos_Norte,_Apr_2025.jpg",
+      "check": "분류 Sinking Bell Tower (Laoag), gps=18.195,120.593 - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-8.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Laoag_Bell_Tower.jpg",
+      "check": "분류 Sinking Bell Tower (Laoag), 설명에 Laoag sinking bell tower - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-9.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sinking_Bell_Tower_-_Laoag,_Ilocos_Norte,_Philippines.jpg",
+      "check": "분류 Sinking Bell Tower (Laoag), 설명에 Laoag Sinking Bell Tower - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-10.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Loaog_Cathedral,_Ilocos_Norte.JPG",
+      "check": "분류 Interior of Laoag Cathedral - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-11.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Laoag_Cathedral_Interior,_Ilocos_Norte,_Apr_2025_(2).jpg",
+      "check": "분류 Interior of Laoag Cathedral, 설명 Laoag Cathedral Interior - 사진을 직접 열어 확인"
+    },
+    {
+      "file": "1431-laoag-cathedral-12.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Retablo_of_Laoag_Cathedral,_Ilocos_Norte.jpg",
+      "check": "분류 Interior of Laoag Cathedral, 설명 Retablo of Laoag Cathedral - 사진을 직접 열어 확인"
+    }
+  ],
+  "photos_checked_at": "2026-11-19T04:05:53Z"
+}
