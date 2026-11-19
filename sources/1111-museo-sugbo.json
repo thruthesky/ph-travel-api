@@ -1,4 +1,4 @@
-{ "id": 1111, "slug": "museo-sugbo", "checked_at": "2026-11-18T00:00:00Z",
+{ "id": 1111, "slug": "museo-sugbo", "checked_at": "2026-11-19T00:00:00Z",
   "facts": [
     { "where": "overview", "fact": "건물 역사(설계 1869, 착공 1871경, 증축 1892, CPDRC 2004 이전, 2008 개관)", "value": "위 연도",
       "sources": [
@@ -13,9 +13,11 @@
     { "where": "hours", "fact": "개방 시간", "value": "월~금(2025 보도), 시각 미확인",
       "sources": [ { "url": "https://www.sunstar.com.ph/cebu/museo-sugbo-reopens", "grade": "A", "date": "2025-08", "says": "월~금 개방, 시각 없음" }, { "url": "https://penfires.com/museo-sugbo-must-see-museum-in-cebu-province/", "grade": "C", "date": "2012", "says": "일요일 제외 8:30~17:30(옛 정보)" } ],
       "decision": "시각은 본문에 쓰지 않고 현지 확인 안내" },
-    { "where": "getting_there", "fact": "지프니·버스 노선", "value": "01K,02B,03A/B/L,10H,22D, MB, KMK",
-      "sources": [ { "url": "https://en.wikipedia.org/wiki/Museo_Sugbo", "grade": "B", "date": "2026-11-18", "says": "노선 목록" } ],
-      "decision": "단일 출처라 현지 확인 문구 병기" },
+    { "where": "getting_there", "fact": "지프니·버스 노선", "value": "01K(콜론~SM 시티 세부, 2곳 확인), 그 외 02B,03A/B/L,10H,22D, MB, KMK 는 위키 단독",
+      "sources": [ { "url": "https://en.wikipedia.org/wiki/Museo_Sugbo", "grade": "B", "date": "2026-11-18", "says": "노선 목록" },
+        { "url": "https://cebuinsights.com/explore-cebu/museums/cebu-history-the-museo-sugbo/", "grade": "C", "date": "2021-08-24", "says": "가장 유명한 노선은 콜론~SM 시티 세부를 오가는 01K" },
+        { "url": "https://sugbo.ph/2025/museo-sugbo-welcomes-you-back/", "grade": "A", "date": "2025", "says": "M.J. 쿠엔코 또는 부두 방면 지프니를 타고 테헤로 무세오 숙보 근처에서 하차, 노선 번호는 없음; 택시·그랩은 입구까지 직행" } ],
+      "decision": "01K 는 2곳 확인, 나머지 노선은 위키 단독이라 확인 못 했다고 본문에 밝히고 현지 확인 문구 병기" },
     { "where": "meta", "fact": "좌표", "value": "10.3000, 123.9000",
       "sources": [ { "url": "https://en.wikipedia.org/wiki/Museo_Sugbo", "grade": "B", "date": "2026-11-18", "says": "10°18′N 123°54′E (분 단위 반올림)" } ],
       "decision": "위키 좌표가 소수점 정밀도가 낮아 오차 가능, 사람이 확인 필요" }

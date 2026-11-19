@@ -1,7 +1,7 @@
 {
   "id": 696,
   "slug": "loboc-church",
-  "checked_at": "2026-11-18",
+  "checked_at": "2026-11-19T04:44:17Z",
   "facts": [
     {
       "where": "costs",
@@ -130,23 +130,60 @@
     {
       "where": "getting_there",
       "fact": "타그빌라란~로복 거리·시간",
-      "value": "약 24km, 차 약 30분, 지프니 약 40~50분",
+      "value": "약 24~27km, 차 약 30~40분, 지프니·밴 약 45분",
       "sources": [
         {
           "url": "https://bohol-philippines.com/discover-loboc-church-in-bohol/",
           "grade": "C",
           "date": "2026-11-18",
           "says": "타그빌라란에서 약 24km, 차로 약 30분, 다오 터미널 지프니 40~50분, 크루즈 뷔페 약 ₱450~600, 인근 명소"
+        },
+        {
+          "url": "https://www.inloboc.com/guides/getting-to-loboc",
+          "grade": "B",
+          "date": "2026-03",
+          "says": "로복은 타그빌라란에서 내륙으로 24km. 다오 통합터미널의 밴·지프니는 약 45분, 1인 ₱40~80(차 있으면 출발)"
+        },
+        {
+          "url": "https://suroy.ph/loboc-river-cruise-church-bohol/",
+          "grade": "B",
+          "date": "2026",
+          "says": "타그빌라란에서 약 24km, 차로 약 40분"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Loboc",
+          "grade": "B",
+          "date": "2026",
+          "says": "로복에서 타그빌라란까지 27km, 지프니·버스가 다닌다(소요 시간은 없음)"
         }
       ],
-      "decision": "단일 출처(C)라 '자료에 따라'로 표기"
+      "decision": "거리는 출처마다 24~27km 로 갈려 본문에 '자료에 따라 약 24km'로 두고, 시간은 차 30~40분·지프니/밴 약 45분으로 고쳤다."
     },
     {
       "where": "costs",
       "fact": "성당 입장·박물관 요금",
-      "value": "확인되지 않음",
-      "sources": [],
-      "decision": "출처가 엇갈려 '현지에서 확인'으로 표기"
+      "value": "성당 입장 무료(기부 환영), 수도원 박물관 요금·시간은 확인되지 않음",
+      "sources": [
+        {
+          "url": "https://www.inloboc.com/guides/loboc-first-timers",
+          "grade": "B",
+          "date": "2026-03",
+          "says": "성 베드로 사도 본당 성당은 매일 개방, 입장료 없음, 어깨·무릎을 가리는 단정한 복장 요청. 수도원 박물관 요금·시간 언급 없음"
+        },
+        {
+          "url": "https://suroy.ph/loboc-river-cruise-church-bohol/",
+          "grade": "B",
+          "date": "2026",
+          "says": "3층 로복 박물관의 개방 시간과 요금은 온라인에 공개돼 있지 않다"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Loboc",
+          "grade": "B",
+          "date": "2026",
+          "says": "성당 항목에 ₱20 표기가 있으나 입장료인지 명시되지 않음(채택하지 않음)"
+        }
+      ],
+      "decision": "성당 입장은 무료로 두고, 박물관은 공개된 요금이 없어 '현지에서 확인'을 유지한다."
     },
     {
       "where": "lat/lon",

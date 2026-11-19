@@ -1,7 +1,7 @@
 {
  "id": 1031,
  "slug": "medellin-cebu",
- "checked_at": "2026-11-17T15:04:40Z",
+ "checked_at": "2026-11-19T04:45:11Z",
  "facts": [
   {
    "where": "overview",
@@ -40,16 +40,28 @@
   {
    "where": "getting_there",
    "fact": "세부 시티발 버스",
-   "value": "북부 터미널, 3~4시간, ₱135 이상(오래된 자료)",
+   "value": "북부 터미널, 3~4시간, 카윗행 최신 운임 미확인, 약 ₱135~300(오래된 자료 ₱135~160, 하그나야행 ₱260~299)",
    "sources": [
     {
      "url": "https://www.lakwatsero.com/destinations/travel-guide-bantayan-island/",
      "grade": "C",
      "date": "201x",
      "says": "검색 요약: 북부 터미널 카윗행, 3~4시간, ₱135~"
+    },
+    {
+     "url": "https://cebuinsider.com/ceres-bus-schedule-cebu-city-to-bantayan-island/",
+     "grade": "B",
+     "date": "2025-12",
+     "says": "북부 터미널발 하그나야행 일반 버스 ₱260+터미널비 ₱25, 약 3시간, 카윗은 세부 시티에서 약 3.5시간(카윗행 운임은 없음)"
+    },
+    {
+     "url": "https://bantayanisland.info/transportation-bantayan-island/bus/",
+     "grade": "C",
+     "date": "undated",
+     "says": "북부 터미널발 하그나야행 일반 ₱299, 04:00부터 20분 간격, 카윗행은 언급 없음"
     }
    ],
-   "decision": "오래된 자료로 명시"
+   "decision": "카윗행 최신 운임을 확인하지 못해 범위로 낮춤(₱135~300), 하그나야행 값은 참고로만 표기"
   }
  ],
  "images": []
