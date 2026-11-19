@@ -1,7 +1,7 @@
 {
   "id": 2146,
   "slug": "rizal-beach-gubat",
-  "checked_at": "2026-11-19T04:21:53Z",
+  "checked_at": "2026-11-19T06:00:00Z",
   "facts": [
     {
       "where": "latitude/longitude",
@@ -194,30 +194,48 @@
     {
       "where": "best_time",
       "fact": "기온·강수량",
-      "value": "27~31/21~25℃, 연 1,308mm",
+      "value": "27~31/21~25℃, 연 강수량은 자료마다 1,300~3,000mm 이상",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Gubat,_Sorsogon",
           "grade": "B",
           "date": "2026",
           "says": "구바트 좌표 12.9189,124.1231, 서핑 2~5피트 파도 9~5월, 기누밧 축제 6월 1~13일, 평균 기온·강수량"
+        },
+        {
+          "url": "https://sorsogoncity.gov.ph/location-boundaries-information/",
+          "grade": "A",
+          "date": "2026",
+          "says": "소르소곤시 Type II 기후, 기온 21~32℃, 연 강수량 2,800~3,500mm(인근 지역 값, 위키백과 구바트 1,308mm 와 크게 다름)"
         }
       ],
-      "decision": "위키백과 기후 요약, 단일 출처"
+      "decision": "기온은 위키백과(구바트)와 소르소곤시 공식 범위가 대체로 일치해 유지, 강수량은 1,308mm 대 2,800mm 이상으로 크게 달라 단정하지 않고 범위·출처별 차이로 낮춤"
     },
     {
       "where": "tips",
       "fact": "기누밧 축제",
-      "value": "6월 1~13일",
+      "value": "6월 13일 전후(자료마다 다름)",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Gubat,_Sorsogon",
           "grade": "B",
           "date": "2026",
           "says": "구바트 좌표 12.9189,124.1231, 서핑 2~5피트 파도 9~5월, 기누밧 축제 6월 1~13일, 평균 기온·강수량"
+        },
+        {
+          "url": "https://albaytv.blogspot.com/2026/06/dancing-through-raid-how-gubats-epic.html",
+          "grade": "C",
+          "date": "2026-06",
+          "says": "기누밧 축제는 매년 6월 13일(1764년 창립·성 안토니오 축제일), 거리 춤·연극"
+        },
+        {
+          "url": "https://www.tpb.gov.ph/?p=83919",
+          "grade": "A",
+          "date": "2026",
+          "says": "관광진흥청 목록은 축제 날짜를 6월 11~12일로 표기(검색 결과 요약, 페이지 403)"
         }
       ],
-      "decision": "단일 출처"
+      "decision": "위키백과 6월 1~13일, 블로그 6월 13일, 관광진흥청 6월 11~12일로 날짜가 갈려 '6월 13일 축제일 전후, 자료마다 다름'으로 낮춤"
     },
     {
       "where": "overview",
@@ -231,7 +249,7 @@
           "says": "평점 약 3.6, 쓰레기·수영장 지적(검색 요약으로만 확인, 페이지는 403)"
         }
       ],
-      "decision": "검색 요약만 확인, 페이지 열기 403"
+      "decision": "트립어드바이저 페이지 403, 다른 후기 출처에서 쓰레기·수영장 언급을 찾지 못해(검색에 나온 쓰레기 후기는 마트녹 수빅 해변) '일부 후기에서 지적되기도 한다'로 낮춤"
     }
   ],
   "images": []

@@ -1,7 +1,7 @@
 {
   "id": 243,
   "slug": "tumalog-falls",
-  "checked_at": "2026-11-19T00:00:00Z",
+  "checked_at": "2026-11-19T05:15:00Z",
   "facts": [
     {
       "where": "title",
@@ -10,7 +10,7 @@
       "sources": [
         { "url": "data/ko/068-oslob.json", "grade": "B", "date": "2026-10-04", "says": "저장소 068 오슬롭·069 수밀론·081 두마게테·172 시말라 본문이 모두 '투말록 폭포'로 씀" }
       ],
-      "decision": "저장소 기존 표기를 따름"
+      "decision": "국내 공식 표기가 없어 영어 Tumalog 의 외래어 표기로 저장소 기존 표기를 유지(8개 이상 영어 자료가 같은 명칭을 씀)"
     },
     {
       "where": "overview / cautions",
@@ -89,9 +89,11 @@
       "fact": "다른 이름",
       "value": "마그암박 폭포(Mag-ambak Falls)",
       "sources": [
-        { "url": "https://en.wikipedia.org/wiki/Oslob", "grade": "B", "date": "2026-10-07", "says": "Tumalog Falls, also called 'Toslob falls' or 'Mag-ambak falls', is situated in barangay Luka" }
+        { "url": "https://en.wikipedia.org/wiki/Oslob", "grade": "B", "date": "2026-10-07", "says": "Tumalog Falls, also called 'Toslob falls' or 'Mag-ambak falls', is situated in barangay Luka" },
+        { "url": "https://generationvoyage.fr/activites/chutes-tumalog-cebu-a332966/", "grade": "C", "date": "2026", "says": "옛 명칭 'Mag-ambak Falls' 는 세부아노어 ambak(뛰다)에서 유래, 주민이 건기에 다이빙, 'Toslob Falls' 로도 부름" },
+        { "url": "https://awesome.blog/2012/01/tumalog-falls-oslob-cebu.html", "grade": "C", "date": "2012", "says": "'Toslob Falls' 또는 'Mag-Ambak Falls' 로도 알려져 있다고 (물음표 붙여) 적음" }
       ],
-      "decision": "별명이라 한 곳으로 씀"
+      "decision": "두 곳이 별칭으로 적되 한 블로그는 물음표를 붙여 불확실하게 씀 — '현지에서는 ~라고도 부릅니다' 수준으로 유지"
     },
     {
       "where": "getting_there",
@@ -154,11 +156,14 @@
     {
       "where": "stay_and_food",
       "fact": "숙박 가격대",
-      "value": "오슬롭 게스트하우스 ₱1,200~3,500, 블루워터 수밀론 ₱10,000~20,000",
+      "value": "오슬롭 게스트하우스 약 ₱1,000~3,500, 블루워터 수밀론 약 ₱9,000~20,000",
       "sources": [
-        { "url": "data/ko/069-sumilon-island.json", "grade": "B", "date": "2026-10", "says": "069 본문과 근거의 숙박 범위" }
+        { "url": "data/ko/069-sumilon-island.json", "grade": "B", "date": "2026-10", "says": "069 본문과 근거의 숙박 범위" },
+        { "url": "https://www.booking.com/budget/city/ph/oslob.html", "grade": "C", "date": "2026-11", "says": "오슬롭 저가 숙소 1박 최저가 약 $17.66~54.94(게스트하우스·인·소형 리조트), 평균 $43 — 환산 약 ₱1,000~3,200" },
+        { "url": "https://www.kayak.com/Oslob-Hotels-Bluewater-Sumilon-Beach-Resort.167684.ksp", "grade": "C", "date": "2026-11", "says": "블루워터 수밀론 최저 $149, 평일 평균 $239·주말 $261(미화, 날짜 미표기) — 환산 약 ₱8,500~15,000" },
+        { "url": "https://ph.trip.com/hotels/sumilon-island-hotel-detail-992717/sumilon-bluewater-island-resort/", "grade": "C", "date": "2026-11", "says": "평균 시작가 PHP 18,471(11월 20~26일 기준, 1박 여부 미표기), 조식 1인 ₱800" }
       ],
-      "decision": "같은 지역 항목과 수치를 맞춤"
+      "decision": "오슬롭 게스트하우스는 예약 사이트 최저가(약 $18~55 ≈ ₱1,000~3,200)에 맞춰 '약 ₱1,000~3,500', 블루워터는 Kayak 최저·평균(약 $149~261 ≈ ₱8,500~15,000)과 Trip.com 평균(₱18,471)을 아우르는 '약 ₱9,000~20,000'으로 낮춰 표기"
     }
   ],
   "images": [

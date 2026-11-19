@@ -1,7 +1,7 @@
 {
   "id": 2607,
   "slug": "philippine-army-museum",
-  "checked_at": "2026-11-19T00:00:00Z",
+  "checked_at": "2026-11-19T12:00:00Z",
   "facts": [
     {
       "where": "coordinates",
@@ -33,23 +33,41 @@
           "grade": "B",
           "date": "2026-11-18",
           "says": "1979-07-26 설립, 1980년대 후반 아달렘 장군이 옛 미 육군 본부 건물 개조, 1989 개관, 1990s 이전, 야외 전차·대포, 실내 군복·무기·군기, 2018 마라위 전시, 좌표 14.5333,121.0451"
+        },
+        {
+          "url": "https://bluprint-onemega.com/architecture/heritage/tunnel-vision-bonfacio-war-tunnel/",
+          "grade": "C",
+          "date": "2026",
+          "says": "터널과 필리핀 육군 박물관이 1989년에 함께 개관"
+        },
+        {
+          "url": "https://www.showcaves.com/english/ph/subterranea/FortBonifacio.html",
+          "grade": "C",
+          "date": "2026",
+          "says": "터널은 육군 박물관·도서관의 주요 볼거리였고, 기지가 폐쇄된 뒤 박물관이 이전함"
         }
       ],
-      "decision": "위키백과 단독이므로 '알려져 있다'로 서술"
+      "decision": "1989 개관·1990s 이전은 위키백과와 Bluprint·showcaves 로 2곳 확인, 1979 설립일은 위키백과 단독이라 '알려져 있다'로 서술"
     },
     {
       "where": "overview",
       "fact": "포트 보니파시오 역사",
-      "value": "1901 포트 윌리엄 매킨리, 1949-05-14 이양·개명",
+      "value": "1901경 포트 윌리엄 매킨리, 1949-05-14 이양, 1957 육군 본부, 이후 개명",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Fort_Bonifacio",
           "grade": "B",
           "date": "2026-11-18",
-          "says": "1901 설립, 1949-05-14 이양 후 개명, 육군 본부"
+          "says": "1901 설립(필리핀-미국 전쟁 중), 1949-05-14 필리핀 정부에 이양, 이후 포트 보니파시오로 개명(개명 연도는 기재 없음), 육군 본부"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Fort_Bonifacio_(barangay)",
+          "grade": "B",
+          "date": "2026-11-19",
+          "says": "1902 토지 권원(TCT)으로 포트 윌리엄 매킨리, 1949-05-14 US Embassy Note No. 0570 로 이양, 1957 육군 영구 본부, 이후 포트 보니파시오로 개명"
         }
       ],
-      "decision": "채택"
+      "decision": "이양일은 두 곳 일치. 개명이 1949-05-14 라는 기존 서술은 틀려 '이양 후 1957 육군 본부, 개명 시점은 자료마다 다름'으로 고침. 1901 은 '1901년경'으로 낮춤"
     },
     {
       "where": "overview/highlights",
@@ -60,10 +78,22 @@
           "url": "https://en.wikipedia.org/wiki/Fort_Bonifacio_Tunnel",
           "grade": "B",
           "date": "2026-11-18",
-          "says": "길이 2.24km, 1995 폐쇄, 건설 연도 1936/1910 혼재"
+          "says": "길이 2.24km(평균 깊이 21m), 1995 공식 폐쇄, 굴착 1941-10, 1945-02-13 일본군이 포트 철수, 건설 연도 1936/1910 혼재"
+        },
+        {
+          "url": "https://www.showcaves.com/english/ph/subterranea/FortBonifacio.html",
+          "grade": "C",
+          "date": "2026",
+          "says": "원래 중앙 터널 2.24km·방 32개, 지금 남은 구간 약 730m, 건설 1910년설, 1995 폐쇄·1941·1945 연도는 언급 없음"
+        },
+        {
+          "url": "https://bluprint-onemega.com/architecture/heritage/tunnel-vision-bonfacio-war-tunnel/",
+          "grade": "C",
+          "date": "2026",
+          "says": "원래 길이 2.4km·1.5km 등 자료마다 다름, 굴착 연도 1941/1936 등 혼재, 1942-01 일본군 점령 후 확장, 1995 폐쇄는 언급 없음"
         }
       ],
-      "decision": "연도 불일치 명시, 단정하지 않음"
+      "decision": "길이 2.24km 는 위키백과·showcaves 일치, 남은 구간 약 730m 병기. 1995 폐쇄·1941-10 굴착·1945-02 철수는 위키백과 단독이라 '무렵·전해진다·자료마다 다름'으로 낮춤"
     },
     {
       "where": "tips/costs",

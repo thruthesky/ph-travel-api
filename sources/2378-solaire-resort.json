@@ -1,7 +1,7 @@
 {
  "id": 2378,
  "slug": "solaire-resort",
- "checked_at": "2026-11-18T08:26:51Z",
+ "checked_at": "2026-11-19T05:14:20Z",
  "facts": [
   {
    "where": "lat/lon",
@@ -46,44 +46,68 @@
   {
    "where": "highlights",
    "fact": "식당·바",
-   "value": "19곳",
+   "value": "15곳 이상(공식 사이트 19곳)",
    "sources": [
     {
      "url": "https://sec.solaireresort.com/",
      "grade": "A",
      "date": "2026-11",
      "says": "Dine (19 options)"
+    },
+    {
+     "url": "https://sec.solaireresort.com/sites/default/files/2024-07/052124 HSM_Fact Sheet.pdf",
+     "grade": "A",
+     "date": "2024-05",
+     "says": "15 distinct dining options"
     }
    ],
-   "decision": "공식"
+   "decision": "공식 두 곳의 수가 달라(2024 자료 15, 2026 사이트 19) 본문은 '15곳 이상'으로 낮추고 19곳은 사이트 표기로 명시"
   },
   {
    "where": "highlights",
    "fact": "극장·카지노",
-   "value": "1,740석; 약 18,500㎡",
+   "value": "약 1,740석; 카지노 약 30,200㎡(공식 2024)·위키 18,500㎡",
    "sources": [
     {
      "url": "https://en.wikipedia.org/wiki/Solaire_Resort",
      "grade": "B",
      "date": "2026-11",
-     "says": "Theatre 1,740 seats; gaming area 18,500 m2"
+     "says": "Theatre 1,740 seats; gaming area 18,500 m2; 1,620 slots; 360 tables"
+    },
+    {
+     "url": "https://sec.solaireresort.com/sites/default/files/2024-07/052124 HSM_Fact Sheet.pdf",
+     "grade": "A",
+     "date": "2024-05",
+     "says": "lyric theatre has 1,740 seats; two-level 30,200 sqm gaming space, over 2,300 slot machines, more than 400 gaming tables"
+    },
+    {
+     "url": "https://news.pollstar.com/?p=182137",
+     "grade": "B",
+     "date": "2014",
+     "says": "casino area 18,500 sqm on two levels; theatre 1,760 seats (older)"
     }
    ],
-   "decision": "위키 단독(규모 설명용)"
+   "decision": "극장은 공식 요약·팩트시트 1,740(공식 페이지 본문 1,851, 2014 언론 1,760)이라 '약'으로 표기. 카지노는 공식 최신 30,200㎡를 쓰고 위키 값은 차이를 명시"
   },
   {
    "where": "overview",
    "fact": "객실 크기",
-   "value": "43/52/65/395㎡",
+   "value": "43/43~52/65/395㎡",
    "sources": [
     {
      "url": "https://sec.solaireresort.com/rooms-suites",
      "grade": "A",
      "date": "2026-11",
-     "says": "room sizes"
+     "says": "Deluxe 43, Grand Deluxe 52, Sky Studio 65, Chairman's Suite 395 sqm"
+    },
+    {
+     "url": "https://sec.solaireresort.com/sites/default/files/2024-07/052124 HSM_Fact Sheet.pdf",
+     "grade": "A",
+     "date": "2024-05",
+     "says": "Deluxe 43, Grand Deluxe 43-52, Sky Studio 65, Chairman's Suite 395 sqm"
     }
    ],
-   "decision": "공식"
+   "decision": "그랜드 디럭스만 자료마다 달라 43~52㎡로 표기"
   },
   {
    "where": "costs",

@@ -1,7 +1,7 @@
 {
   "id": 2110,
   "slug": "cabongaoan-beach",
-  "checked_at": "2026-11-19T00:00:00Z",
+  "checked_at": "2026-11-19T12:00:00Z",
   "facts": [
     {
       "where": "lat/lon",
@@ -118,16 +118,22 @@
     {
       "where": "getting_there",
       "fact": "마닐라~부르고스 거리",
-      "value": "약 270km",
+      "value": "약 270~295km",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Burgos,_Pangasinan",
           "grade": "B",
           "date": "2025",
           "says": "좌표 16.0465,119.8568, 마닐라 269km, 카봉가오안 백사장이 주요 명소, 조수 웅덩이"
+        },
+        {
+          "url": "https://en.wikivoyage.org/wiki/Burgos_(Pangasinan)",
+          "grade": "B",
+          "date": "2026",
+          "says": "부르고스는 마닐라에서 약 295km(183mi)"
         }
       ],
-      "decision": "위키백과 269.34km 확인(2차 공식 출처는 못 찾음), '약'으로 유지. 소요 5~7시간은 taraletsanywhere(2019)의 버스 5시간+1시간+트라이시클과 일치"
+      "decision": "위키백과 269km, 위키보이지 295km 로 두 곳이 달라 범위 270~295km 로 표기하고 '자료마다 차이'를 밝힘. 소요 5~7시간은 taraletsanywhere(2019)의 버스 5시간+1시간+트라이시클과 일치"
     },
     {
       "where": "costs",
@@ -227,7 +233,7 @@
           "says": "후기: 차량이 있으면 입장료 ₱100, 길 거침, 주유소 드묾. 현지에서 요금 확인 권고"
         }
       ],
-      "decision": "C등급 후기 한 곳이며 공식 요금 미확인(taraletsanywhere·justgoabby 에는 주차·입장료 언급 없음). '후기가 있으나 현지 확인'으로 표기"
+      "decision": "C등급 후기 한 곳이며 공식 요금 미확인(taraletsanywhere·justgoabby·twobudgettravelers·queensescape 에는 주차 언급 없음, tentescape(2026)도 주차 요금 없이 '붐빌 수 있음'만). 검색에서 주차 ₱100 후기(트립어드바이저)와 무료 주차 설명(sandee)이 엇갈려 '후기가 있으나 현지 확인'으로 유지"
     },
     {
       "where": "costs",
@@ -239,9 +245,15 @@
           "grade": "B",
           "date": "2019-05",
           "says": "백사장 약 1km, 서쪽 향함, 읍내에서 약 5km, 환경세 ₱20"
+        },
+        {
+          "url": "https://thequeensescape.com/cabongaoan-beach-death-pool-2021-diy-travel-guide/",
+          "grade": "B",
+          "date": "2025-01-02",
+          "says": "예산표에 환경세 1인당 ₱20(자가용·대중교통 모두), 리조트 입장료 1인 ₱100부터"
         }
       ],
-      "decision": "2019 단일 출처. 부르고스 조례 538-2022 는 환경세 존재(일리올리리오 마을 몫 20%)만 시사하고 금액 없음. '2019년 후기, 현재 금액 불확실, 현지 확인'으로 표기"
+      "decision": "2019·2025년 후기 두 곳이 ₱20으로 일치하나 공식(LGU) 고지는 못 찾음. 부르고스 조례 538-2022 는 환경세 존재만 시사. '2019·2025년 후기, 현지 확인'으로 표기"
     },
     {
       "where": "nearby",
